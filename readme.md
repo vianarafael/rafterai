@@ -11,8 +11,8 @@ It uses a local LLM (Phi-2) and a vector database (ChromaDB) to retrieve context
 2. Create a Python environment and install dependencies:
 
 ```bash
-python3 -m venv linux-tut-env
-source linux-tut-env/bin/activate
+python3 -m venv rafterai-env
+source rafterai-env/bin/activate
 pip install -r requirements.txt
 ```
 
