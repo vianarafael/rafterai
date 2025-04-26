@@ -1,0 +1,16 @@
+These tools provide an intuitive interface for conﬁ guring networking on servers 
+that have no graphical interface for running GUI-based tools.
+
+ ■ Conﬁ guration ﬁ les—Understand conﬁ guration ﬁ les associated with Linux 
+
+ networking and how to conﬁ gure them directly.
+
+ ■ Ethernet channel bonding—Set up Ethernet channel bonding (multiple network 
+
+cards listening on the same IP address).
+
+ ■ Network conﬁ guration commands—Use commands such as nmcli to conﬁ gure 
+
+networking from the shell.
+
+Many servers don’t have graphical interfaces available.

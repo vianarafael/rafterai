@@ -1,0 +1,13 @@
+The second part 
+
+looks like this:
+
+(&(<first match>)(exampleActive=TRUE))
+
+772
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Here we match on the first match AND that the account is active, as indicated by exampleActive=TRUE. 
+
+The & operator indicates that we are searching for one AND the other.

@@ -1,0 +1,6 @@
+And in Figure 4-3 we were able to see that we needed to bring up the search in Unity by selecting 
+the Ubuntu symbol and typing Terminal. In Figure 4-3 we can see that it has already appeared without our 
+searching for Terminal because it is a recently used application.
+
+Shells
+What command line is presented to you depends on what shell is running for your user.

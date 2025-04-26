@@ -1,0 +1,9 @@
+In some cases, no conﬁ guration is necessary, because connected 
+printers can be automatically detected and conﬁ gured. To install the Print Settings tool, 
+as root type:
+
+# yum install system-config-printer
+
+Adding a printer automatically
+CUPS printers can be conﬁ gured to automatically broadcast their availability on the net-
+work so a client system can detect and use them without conﬁ guration.

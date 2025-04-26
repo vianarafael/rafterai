@@ -1,0 +1,3 @@
+(To try these out, you can type them at a shell prompt as in the 
+previous example and echo the value of each variable to see how it is set.) Type the code on 
+the left.

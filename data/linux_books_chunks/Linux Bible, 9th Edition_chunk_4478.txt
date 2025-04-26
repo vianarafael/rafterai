@@ -1,0 +1,10 @@
+You can remove the quiet option 
+from the conﬁ guration ﬁ le setting so that when a user has had too many failed attempts to 
+log in, he or she receives a message such as “Account locked due to 4 failed logins.”
+
+On Ubuntu, instead of the system-auth confi guration fi le, you need to add the auth context information to the 
+/etc/pam.d/common-auth fi le and add the account context information to the /etc/pam.d/ common-
+account fi le.
+
+The pam_tally2 module also includes a command line interface that you can use to 
+monitor login failure attempts.

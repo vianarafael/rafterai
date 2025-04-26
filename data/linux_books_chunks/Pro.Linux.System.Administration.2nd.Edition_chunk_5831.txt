@@ -1,0 +1,14 @@
+If there are no failed tasks, then we consider this a success.
+
+Serverspec Testing
+We can now automate the building of our hosts, but how do we know if we make a change to one of our 
+tasks that it doesn’t unintentionally break some other important configuration? If we have some basic 
+compliance requirements, how do we know that we are still meeting those obligations with each new build? 
+Well, just like normal code, we can write tests that give us assurance that the hosts we build meet the defined 
+requirements specified in our tests.
+
+973
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Both Ansible and Puppet lend themselves to being tested.

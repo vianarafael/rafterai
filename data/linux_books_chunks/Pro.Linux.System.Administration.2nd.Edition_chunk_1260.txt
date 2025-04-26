@@ -1,0 +1,8 @@
+If you are connecting users in 
+
+your office to a single network, you will need cables, patch panels switches, and most likely a wireless access 
+point that can create a wireless network.
+
+ ■ Caution 
+ wireless networks are a useful and cheap way to spread your network. they don’t require 
+expensive cabling and switches, and your staff can be a bit more mobile in the office.

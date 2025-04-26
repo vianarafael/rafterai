@@ -1,0 +1,3 @@
+Although RPM is the preferred format for  managing 
+enterprise-quality software installation, updates, and maintenance, DEB is very  popular 
+among many Linux enthusiasts.

@@ -1,0 +1,39 @@
+Going into all the rules is probably overkill for a quick introduction to shell scripts, 
+but the following list presents some common constructs you’re likely to see in bash scripts 
+you ﬁ nd on your Linux system.
+
+ ■ ${var:-value}—If variable is unset or empty, expand this to value.
+
+ ■ ${var#pattern}—Chop the shortest match for pattern from the front of 
+
+var’s value.
+
+ ■ ${var##pattern}—Chop the longest match for pattern from the front of 
+
+var’s value.
+
+ ■ ${var%pattern}—Chop the shortest match for pattern from the end of var’s 
+
+value.
+
+ ■ ${var%%pattern}—Chop the longest match for pattern from the end of 
+
+var’s value.
+
+157
+
+c07.indd  04/01/2015  Page 158
+
+Part II: Becoming a Linux Power User
+
+Try typing the following commands from a shell to test how parameter expansion works:
+
+$ THIS="Example"
+$ THIS=${THIS:-"Not Set"}
+$ THAT=${THAT:-"Not Set"}
+$ echo $THIS
+Example
+$ echo $THAT
+Not Set
+
+In the examples here, the THIS variable is initially set to the word Example.

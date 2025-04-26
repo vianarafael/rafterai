@@ -1,0 +1,9 @@
+With share-level access, 
+you can add a password for each shared printer or ﬁ le system.
+
+ ■ Password—Use the password associated with the SMB username or the shared 
+
+resource, depending on the kind of access control being used.
+
+When you enter a User and Password for SMB, the information is stored unencrypted in the /etc/cups/ 
+printers.conf fi le.

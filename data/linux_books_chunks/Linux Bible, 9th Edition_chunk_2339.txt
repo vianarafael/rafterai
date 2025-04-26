@@ -1,0 +1,3 @@
+Then run the command immediately again and notice that nothing is 
+ copied. The rsync command knows that all the ﬁ les are there already, so it doesn’t copy 
+them again.

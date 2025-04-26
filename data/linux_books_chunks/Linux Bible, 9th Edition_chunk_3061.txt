@@ -1,0 +1,2 @@
+In most cases, all you need to start a simple Apache web server is the 
+ package containing the Apache daemon itself (/usr/sbin/httpd) and its related ﬁ les.

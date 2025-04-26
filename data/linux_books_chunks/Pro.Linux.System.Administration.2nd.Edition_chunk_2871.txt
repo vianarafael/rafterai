@@ -1,0 +1,4 @@
+You specify the same list as on the CentOS machine. The Options 
+directive lists what features are enabled in any particular directory. In Table 11-2 we provide an explanation 
+of what has been included here. By setting AllowOverride to None, you deny the server to modify these 
+options with settings from an .htaccess file.

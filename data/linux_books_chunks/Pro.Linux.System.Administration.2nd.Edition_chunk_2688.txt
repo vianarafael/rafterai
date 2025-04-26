@@ -1,0 +1,8 @@
+On Ubuntu, we can specify this by editing the /etc/default/isc-dhcp-server 
+file and adding each interface on which we want the server to listen to the INTERFACES variable.
+
+INTERFACES="enp0s3"
+
+On CentOS, we do not need to set an interface on which to listen on. When dhcpd starts it will  
+
+listen on any interface it can associate with a subnet declaration.

@@ -1,0 +1,5 @@
+Also, it’s best to 
+use all lowercase letters, no control characters or spaces, and a maximum of eight 
+characters. The useradd command allows up to 32 characters, but some  applications 
+can’t deal with usernames that long. Tools such as ps display user IDs (UIDs) instead 
+of names if names are too long.

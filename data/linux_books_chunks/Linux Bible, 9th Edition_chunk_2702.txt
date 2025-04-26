@@ -1,0 +1,12 @@
+386
+
+c15.indd  04/01/2015  Page 387
+
+Chapter 15: Starting and Stopping Services
+
+The classic init daemons could handle the ﬁ rst two event examples, but they could not 
+deal well with the third.
+
+Upstart handles services through deﬁ ned jobs. An Upstart job can be either a task or a 
+service. A task performs a limited duty, completes its work, and then returns to a wait-
+ing state.

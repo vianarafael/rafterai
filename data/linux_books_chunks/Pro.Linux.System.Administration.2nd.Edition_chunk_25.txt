@@ -1,0 +1,5 @@
+While more Linux desktops are appearing, the numbers do not yet challenge Windows 
+and Apple OS X dominance of the desktop market.
+
+The second major difference between distributions is in their configuration. While some distributions 
+keep all their configuration settings and files in the same locations, others vary their locations.

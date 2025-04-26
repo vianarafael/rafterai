@@ -1,0 +1,11 @@
+Move to the end of the command using the arrow keys and delete the extra i, leaving you with
+
+$ whoami
+
+Now press the Enter key, and you will see the result on the command line:
+
+jsmith
+
+This time the corrected command, whoami, has again returned the name of the user who is logged in.
+
+ another useful Bash feature is autocompletion.

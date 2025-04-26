@@ -1,0 +1,58 @@
+To start, open the /dev/sdc device with fdisk, delete the ﬁ rst (only) partition, 
+
+and then add six new partitions.
+
+# fdisk /dev/sdc
+Command (m for help): d
+Selected partition 1
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 1
+First sector (2048-15667199, default 2048):
+ <Enter>
+Using default value 2048
+Last sector,+sectors or +size{K,M,G}(...default 15667199):+500M
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 2
+First sector (1026048-15667199, default 1026048):
+ <Enter>
+
+292
+
+ 
+c12.indd  04/01/2015  Page 293
+
+Chapter 12: Managing Disks and Filesystems
+
+12
+
+Using default value 1026048
+Last sector, +sectorsor +size
+{K,M,G}(default 15667199):+500M
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 3
+First sector (2050048-15667199, default 2050048):
+ <Enter>
+Using default value 2050048
+Last sector, +sectorsor +size {K,M,G} (...default 15667199):+300M
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+e
+Selected partition 4
+First sector (2664448-15667199, default 2664448):
+<Enter>
+Using default value 2664448
+Last sector,+sectors or + size{K,M,G}(...

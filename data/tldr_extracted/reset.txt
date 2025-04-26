@@ -1,0 +1,10 @@
+# reset
+
+
+- Reinitialize the current terminal:
+
+`reset`
+
+- Display the terminal type instead:
+
+`reset -q`

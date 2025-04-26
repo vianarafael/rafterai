@@ -1,0 +1,47 @@
+We use Serverspec to start our Vagrant hosts if they are not started, 
+apply our provisioning instructions, and then test the results of those instructions.
+
+ We explained git and how to set up Vagrant in Chapter 3, so now would be a good time to revisit that 
+
+ ■ Note 
+chapter if you have forgotten.
+
+Let’s assume we have a Git repository already created, and we will clone to our local system.
+
+$ git clone git@some.git.hosting:/ouruser/ourrepo.git
+$ cd ourrepo
+
+In this checkout, we already have a Vagrantfile that contains the following:
+
+$ vi Vagrantfile
+Vagrant.configure(2) do |config|
+  config.vm.provider "virtualbox" do |vb|
+     vb.memory = "1024"
+  end
+
+  config.vm.define "ansible" do |xenial|
+    xenial.vm.box = "ubuntu/xenial64"
+    xenial.vm.hostname = "ansible"
+    xenial.vm.provision :shell do |shell|
+      shell.path = "bootscript.sh"
+    end
+    xenial.vm.provision :ansible do |ansible|
+      ansible.playbook = 'ansible/playbooks/ansible.yml'
+    end
+  end
+
+974
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+  config.vm.define "puppet" do |centos|
+    centos.vm.box = "centos/7"
+    centos.vm.hostname = "puppet"
+    centos.vm.provision :shell do |shell|
+      shell.path = "bootscript.sh"
+    end
+    centos.vm.provision "puppet"
+  end
+end
+
+This Vagrantfile will allow us to run up a Xenial Ubuntu host and a CentOS 7 host.

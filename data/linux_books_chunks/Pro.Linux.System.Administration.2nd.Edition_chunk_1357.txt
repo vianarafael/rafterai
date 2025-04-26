@@ -1,0 +1,4 @@
+NetworkManager, if it is configured to do so, will read 
+and write to these files. The configuration profile files, like ifcfg-enp0s3, are read in by NetworkManager 
+and will pass off the device name to the ifup script. If the device is already connected and managed by 
+NetworkManager, ifup will use the nmcli to manage the interface.

@@ -1,0 +1,11 @@
+We will add the following:
+
+$ sudo postconf –e 'smtpd_helo_restrictions = reject_unknown_helo_hostname'
+$ sudo postconf –e 'smtpd_helo_required = yes'
+
+563
+
+Chapter 12 ■ Mail ServiCeS
+
+With the first option, smtpd_helo_restrictions, we reject the connecting e-mail server if it doesn’t 
+have an A or MX record in DNS.

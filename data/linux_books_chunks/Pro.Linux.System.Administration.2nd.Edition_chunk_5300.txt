@@ -1,0 +1,5 @@
+Set to 0 for no syslog logging.
+
+You can also turn on and off checking of hosts and services and the sending of alerts at a global level on 
+
+the nagios.cfg configuration file.

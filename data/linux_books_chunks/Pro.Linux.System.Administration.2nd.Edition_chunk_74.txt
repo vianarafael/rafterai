@@ -1,0 +1,3 @@
+We’ll show each distribution’s installation process using the graphical installation tools and 
+detail the options available during installation. We’re going to perform the base installation and also install the 
+packages needed to run a basic web, mail, and DNS (Domain Name System) server.

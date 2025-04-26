@@ -1,0 +1,11 @@
+practice : logging
+
+1. Display the /var/run/utmp file with the proper command (not with cat or vi).
+
+2. Display the /var/log/wtmp file.
+
+3. Use the lastlog and lastb commands, understand the difference.
+
+4. Examine syslog to find the location of the log file containing ssh failed logins.
+
+5.

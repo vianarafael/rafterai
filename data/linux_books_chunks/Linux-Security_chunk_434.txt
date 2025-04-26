@@ -1,0 +1,10 @@
+activating selinux
+
+On RHEL you can use the GUI tool to activate selinux, on Debian there is the selinux-
+activate command. Activation requires a reboot.
+
+root@deb503:~# selinux-activate 
+Activating SE Linux
+Searching for GRUB installation directory ... found: /boot/grub
+Searching for default file ... found: /boot/grub/default
+Testing for an existing GRUB menu.lst file ...

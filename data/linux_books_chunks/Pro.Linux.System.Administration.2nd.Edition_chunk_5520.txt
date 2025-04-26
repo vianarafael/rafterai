@@ -1,0 +1,8 @@
+Ubuntu installed
+
+926
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We selected a profile, and then this profile started the installation process using the instructions 
+contained in the associated Kickstart or Preseed file.

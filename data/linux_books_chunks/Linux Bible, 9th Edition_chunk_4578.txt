@@ -1,0 +1,9 @@
+It also spec-
+iﬁ es the policy type, which will be enforced.
+
+Setting the SELinux policy type
+The policy type you choose determines whether SELinux enforces TE, MLS, or a base pack-
+age. This type setting directly determines the sets of policy rules used to dictate what an 
+object can access.
+
+By default, the policy type is set to targeted.

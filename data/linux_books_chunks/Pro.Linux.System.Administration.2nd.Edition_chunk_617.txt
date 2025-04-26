@@ -1,0 +1,6 @@
+You use it like chgrp 
+groupname file.
+
+Size and Space
+Next in our listing you see the size of the object on the disk. The size of the file is listed in bytes (a thousand 
+and twenty four bytes is a Kibibytes, or K).

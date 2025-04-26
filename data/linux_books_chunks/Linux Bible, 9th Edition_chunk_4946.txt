@@ -1,0 +1,8 @@
+When you click Connect, you may be 
+prompted to enter a password for the remote hypervisor’s root user and enter other 
+information.
+
+An entry for the new hypervisor should appear on the Virtual Machine Manager window.
+
+Step 2: Migrate running VM to another hypervisor
+Right-click any VM that is currently running, and select Migrate.

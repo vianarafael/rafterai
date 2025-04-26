@@ -1,0 +1,3 @@
+if the ttl is 1 when 
+it reaches a router and that router is not the final destination, the router will drop the packet and send a “ttl 
+expired in transit” message using the iCMP protocol.

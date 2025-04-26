@@ -1,0 +1,104 @@
+6to4 setup on Linux
+
+Below a transcript of a 6to4 setup on Linux.
+
+Thanks  to  http://www.anyweb.co.nz/tutorial/v6Linux6to4  and  http://mirrors.bieringer.de/
+Linux+IPv6-HOWTO/ and tldp.org!
+
+root@mac:~# ifconfig 
+eth0      Link encap:Ethernet  HWaddr 00:26:bb:5d:2e:52  
+          inet addr:81.165.101.125  Bcast:255.255.255.255  Mask:255.255.248.0
+
+272
+
+Introduction to ipv6
+
+          inet6 addr: fe80::226:bbff:fe5d:2e52/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5926044 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2985892 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4274849823 (4.2 GB)  TX bytes:237002019 (237.0 MB)
+          Interrupt:43 Base address:0x8000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:598 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:598 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:61737 (61.7 KB)  TX bytes:61737 (61.7 KB)
+
+root@mac:~# sysctl -w net.ipv6.conf.default.forwarding=1
+net.ipv6.conf.default.forwarding = 1
+root@mac:~# ip tunnel add tun6to4 mode sit remote any local 81.165.101.125
+root@mac:~# ip link set dev tun6to4 mtu 1472 up
+root@mac:~# ip link show dev tun6to4
+10: tun6to4: <NOARP,UP,LOWER_UP> mtu 1472 qdisc noqueue state UNKNOWN 
+    link/sit 81.165.101.125 brd 0.0.0.0
+root@mac:~# ip -6 addr add dev tun6to4 2002:51a5:657d:0::1/64
+root@mac:~# ip -6 addr add dev eth0 2002:51a5:657d:1::1/64
+root@mac:~# ip -6 addr add dev eth0 fdcb:43c1:9c18:1::1/64
+root@mac:~# ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:26:bb:5d:2e:52  
+          inet addr:81.165.101.125  Bcast:255.255.255.255  Mask:255.255.248.0
+          inet6 addr: fe80::226:bbff:fe5d:2e52/64 Scope:Link
+          inet6 addr: fdcb:43c1:9c18:1::1/64 Scope:Global
+          inet6 addr: 2002:51a5:657d:1::1/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:5927436 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2986025 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4274948430 (4.2 GB)  TX bytes:237014619 (237.0 MB)
+          Interrupt:43 Base address:0x8000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:598 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:598 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:61737 (61.7 KB)  TX bytes:61737 (61.7 KB)
+
+tun6to4   Link encap:IPv6-in-IPv4  
+          inet6 addr: ::81.165.101.125/128 Scope:Compat
+          inet6 addr: 2002:51a5:657d::1/64 Scope:Global
+          UP RUNNING NOARP  MTU:1472  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+root@mac:~# ip -6 route add 2002::/16 dev tun6to4
+root@mac:~# ip -6 route add ::/0 via ::192.88.99.1 dev tun6to4 metric 1
+root@mac:~# ip -6 route show
+::/96 via :: dev tun6to4  metric 256  mtu 1472 advmss 1412 hoplimit 0
+2002:51a5:657d::/64 dev tun6to4  proto kernel  metric 256  mtu 1472 advmss 1412 hoplimit 0
+2002:51a5:657d:1::/64 dev eth0  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 0
+
+273
+
+Introduction to ipv6
+
+2002::/16 dev tun6to4  metric 1024  mtu 1472 advmss 1412 hoplimit 0
+fdcb:43c1:9c18:1::/64 dev eth0  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 0
+fe80::/64 dev eth0  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 0
+fe80::/64 dev tun6to4  proto kernel  metric 256  mtu 1472 advmss 1412 hoplimit 0
+default via ::192.88.99.1 dev tun6to4  metric 1  mtu 1472 advmss 1412 hoplimit 0
+root@mac:~# ping6 ipv6-test.com
+PING ipv6-test.com(ipv6-test.com) 56 data bytes
+64 bytes from ipv6-test.com: icmp_seq=1 ttl=57 time=42.4 ms
+64 bytes from ipv6-test.com: icmp_seq=2 ttl=57 time=43.0 ms
+64 bytes from ipv6-test.com: icmp_seq=3 ttl=57 time=43.5 ms
+64 bytes from ipv6-test.com: icmp_seq=4 ttl=57 time=43.9 ms
+64 bytes from ipv6-test.com: icmp_seq=5 ttl=57 time=45.6 ms
+^C
+--- ipv6-test.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 42.485/43.717/45.632/1.091 ms
+
+274
+
+Part VIII.

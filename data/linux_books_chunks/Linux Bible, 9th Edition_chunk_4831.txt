@@ -1,0 +1,18 @@
+Run a UDP Connect scan on your Linux system from a remote system.
+
+724
+
+ 
+ 
+ 
+c25.indd  04/02/2015  Page 725
+
+Chapter 25: Securing Linux on a Network
+
+4.  Check to see if the ssh daemon on your Linux system uses TCP Wrapper support.
+
+5.  Using the TCP Wrapper ﬁ les, allow access to the ssh tools on your Linux system 
+
+from a designated remote system. Deny all other access.
+
+6.

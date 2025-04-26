@@ -1,0 +1,35 @@
+In some distributions, such as Ubuntu, you can also use the initctl status 
+command for services that have not yet been migrated to Upstart.
+
+Checking services for systemd systems
+To see all the services that are being offered by a Linux server using systemd, use the 
+following command:
+
+# systemctl list-unit-files --type=service | grep -v disabled
+UNIT FILE                                   STATE
+abrt-ccpp.service                           enabled
+abrt-oops.service                           enabled
+abrt-vmcore.service                         enabled
+abrtd.service                               enabled
+alsa-restore.service                        static
+alsa-store.service                          static
+anaconda-shell@.service                     static
+arp-ethers.service                          enabled
+atd.service                                 enabled
+auditd.service                              enabled
+avahi-daemon.service                        enabled
+bluetooth.service                           enabled
+console-kit-log-system-restart.service      static
+console-kit-log-system-start.service        static
+console-kit-log-system-stop.service         static
+crond.service                               enabled
+cups.service                                enabled
+...
+sshd-keygen.service                         enabled
+sshd.service                                enabled
+system-setup-keyboard.service               enabled
+...
+134 unit files listed.
+
+Remember that the three status possibilities for a systemd service are enabled, disabled, 
+or static.

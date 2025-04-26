@@ -1,0 +1,9 @@
+What we are seeing here is the simplified view of the log made up of the four fields we just 
+talked about. There is a lot of data about the logs we don’t see. Let’s take a look at the last entry more closely 
+with the verbose output (see Listing 18-2).
+
+840
+
+Chapter 18 ■ Logging and Monitoring
+
+Listing 18-2.

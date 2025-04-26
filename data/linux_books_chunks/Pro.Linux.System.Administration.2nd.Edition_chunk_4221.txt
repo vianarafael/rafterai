@@ -1,0 +1,34 @@
+cwd is: /
+$ cd /etc
+cwd is: /etc/
+$ mark hosts
+1 file marked.
+$ done
+Bootstrap records written to /var/lib/bareos/example-dir.restore.1.bsr
+
+The job will require the following
+   Volume(s)                 Storage(s)                SD Device(s)
+===========================================================================
+
+    Full-0001                 File                      FileStorage
+
+Volumes marked with "*" are online.
+
+1 file selected to be restored.
+
+Run Restore job
+JobName:         RestoreFiles
+Bootstrap:       /var/lib/bareos/example-dir.restore.1.bsr
+Where:           /tmp/bareos-restores
+Replace:         Always
+FileSet:         Linux All
+Backup Client:   headoffice-fd
+Restore Client:  headoffice-fd
+Format:          Native
+Storage:         File
+When:            2016-10-10 01:32:35
+Catalog:         MyCatalog
+Priority:        10
+Plugin Options:  *None*
+OK to run? (yes/mod/no): yes
+Job queued.

@@ -1,0 +1,4 @@
+In this book, you may see one 
+or two applications that use setuid/setgid permissions.
+
+sticky permissions are slightly different and are used on directories (they have no effect on files).

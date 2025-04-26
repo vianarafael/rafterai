@@ -1,0 +1,2 @@
+Neither BIOS nor UEFI knows anything about 
+the operating system you are trying to boot, but it does know how to run the code supplied by your distro.

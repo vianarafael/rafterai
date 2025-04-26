@@ -1,0 +1,7 @@
+All modiﬁ cations must be saved to the 
+iptables conﬁ guration ﬁ le, /etc/sysconfig/iptables, because this is the ﬁ le used 
+at system boot to load the ﬁ rewall.
+
+In the example that follows, the modiﬁ cations made earlier are still in the ﬁ rewall. Before 
+they are saved to the conﬁ guration ﬁ le, a backup copy of the original ﬁ le is made. This is 
+always a good idea.

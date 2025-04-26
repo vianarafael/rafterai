@@ -1,0 +1,4 @@
+old DNS security: queries
+
+Allow recursion only from the local network, and iterative queries from outside only when
+necessary.

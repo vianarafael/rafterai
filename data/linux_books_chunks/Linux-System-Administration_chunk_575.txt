@@ -1,0 +1,34 @@
+[Targets: 0]
+/> saveconfig
+Last 10 configs saved in /etc/target/backup.
+Configuration saved to /etc/target/saveconfig.json
+/> exit
+Global pref auto_save_on_exit=true
+Last 10 configs saved in /etc/target/backup.
+Configuration saved to /etc/target/saveconfig.json
+[root@centos7 ~]#
+
+Use the systemd tools to manage the service:
+
+[root@centos7 ~]# systemctl enable target
+ln -s '/usr/lib/systemd/system/target.service' '/etc/systemd/system/multi-user.target.wants/target.service'
+[root@centos7 ~]# systemctl start target
+[root@centos7 ~]#
+
+Depending on your organisations policy, you may need to configure firewall and SELinux.
+The screenshot belows adds a firewall rule to allow all traffic over port 3260, and disables
+SELinux.
+
+[root@centos7 ~]# firewall-cmd --permanent --add-port=3260/tcp
+[root@centos7 ~]# firewall-cmd --reload
+[root@centos7 ~]# setenforce 0
+
+The total configuration is visible using ls from the root.
+
+[root@centos7 ~]# targetcli
+targetcli shell version 2.1.fb37
+Copyright 2011-2013 by Datera, Inc and others.
+For help on commands, type 'help'.
+
+/> ls
+o- / .....................................................................

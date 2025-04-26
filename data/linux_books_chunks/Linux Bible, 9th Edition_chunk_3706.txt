@@ -1,0 +1,7 @@
+Likewise, you could use a 
+ central authentication mechanism, such as LDAP (as described in Chapter 11, “Managing 
+User Accounts”), to offer centralized user accounts as well.
+
+The following procedure illustrates how to set up a user account on an NFS server and share 
+the home directory of a user named joe from that server so it can be automounted when 
+joe logs into a different computer.

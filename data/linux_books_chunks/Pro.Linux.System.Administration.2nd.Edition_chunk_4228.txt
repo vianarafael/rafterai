@@ -1,0 +1,7 @@
+This means we don’t FUSE mount the Gluster volume but allow Bareos direct access to 
+the daemon.
+
+Creating Backup Gluster Volume
+
+Like in Chapter 13, to create a new volume on our GlusterFS cluster, we first need to add our new devices 
+(disks) and format and mount them.

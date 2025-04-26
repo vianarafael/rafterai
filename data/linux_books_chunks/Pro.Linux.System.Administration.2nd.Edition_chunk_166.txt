@@ -1,0 +1,10 @@
+Remember if we haven’t set up our networking you will still be able to complete this part but the next part 
+will fail. This is highlighted at the bottom of the screen but can be confusing for you.
+
+30
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-15.  Setting time zone and localizing to Melbourne
+
+But we really should set this to UTC, shouldn’t we.

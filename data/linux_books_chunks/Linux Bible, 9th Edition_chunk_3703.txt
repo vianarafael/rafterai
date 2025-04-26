@@ -1,0 +1,2 @@
+However, you can use any name or 
+IP address that identiﬁ es the location of the NFS server computer.

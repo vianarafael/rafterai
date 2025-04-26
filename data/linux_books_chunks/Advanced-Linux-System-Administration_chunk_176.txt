@@ -1,0 +1,15 @@
+Copy all files on the current root device to the new root device:
+
+(tar lcvf - /) | (cd /mnt/sys; tar xvf -)
+
+The l option for tar is an instruction to stay on the same file system.  
+
+41
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+4.

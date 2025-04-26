@@ -1,0 +1,31 @@
+The following is an example of a /etc/inittab ﬁ le on 
+a Linux server that uses systemd.
+
+# cat /etc/inittab
+# inittab is no longer used when using systemd.
+#
+# ADDING CONFIGURATION HERE WILL HAVE NO EFFECT ON YOUR SYSTEM.
+#
+# Ctrl-Alt-Delete is handled by
+# /etc/systemd/system/ctrl-alt-del.target
+#
+
+398
+
+c15.indd  04/01/2015  Page 399
+
+Chapter 15: Starting and Stopping Services
+
+# systemd uses 'targets' instead of runlevels.
+# By default, there are two main targets:
+#
+# multi-user.target: analogous to runlevel 3
+# graphical.target: analogous to runlevel 5
+#
+# To set a default target, run:
+#
+# ln -s /lib/systemd/system/<target name>.target
+# /etc/systemd/system/default.target
+
+The /etc/inittab explains that if you want something similar to a classic 3 or 5  runlevel 
+as your default runlevel, you need to create a symbolic link from the default.

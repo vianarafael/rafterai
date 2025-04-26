@@ -1,0 +1,5 @@
+Network interfaces were not started, usually because 
+ always-up network interfaces were not common. These days, runlevel 2 usually 
+starts network interfaces, although not all network services are started.
+
+ ■ 3—Multiuser plus networking runlevel.

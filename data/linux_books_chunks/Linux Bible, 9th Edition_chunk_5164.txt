@@ -1,0 +1,20 @@
+Make output from the date command appear in this format: Today is Thursday, 
+
+December 10, 2015.
+
+$ echo "Today is $(date +'%A, %B %d, %Y')"
+
+8.  View variables to ﬁ nd your current hostname, username, shell, and home 
+
+directories.
+
+$ echo $HOSTNAME
+$ echo $USERNAME
+$ echo $SHELL
+$ echo $HOME
+
+9.  To add a permanent mypass alias that displays the contents of the /etc/passwd 
+
+ﬁ le:
+
+a.

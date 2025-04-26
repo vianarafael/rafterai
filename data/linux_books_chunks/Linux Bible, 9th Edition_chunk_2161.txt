@@ -1,0 +1,8 @@
+That amount of swap is available 
+ immediately and temporarily to your system. To make that swap area permanent, you 
+need to add it to your /etc/fstab ﬁ le. Here is an example:
+
+/var/opt/myswap  swap   swap    defaults   0 0
+
+This entry indicates that the swap ﬁ le named /var/opt/myswap should be enabled at 
+boot time.

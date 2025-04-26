@@ -1,0 +1,5 @@
+If you type that command as a regular user, you must type the new 
+user’s password.
+
+When you are ﬁ nished using superuser permissions, return to the previous shell by exiting 
+the current shell. Do this by pressing Ctrl+D or by typing exit.

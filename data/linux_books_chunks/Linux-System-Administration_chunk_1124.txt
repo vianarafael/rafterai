@@ -1,0 +1,10 @@
+Install sshd on the server
+
+apt-get install openssh-server (on Ubuntu/Debian)
+yum -y install openssh-server (on Centos/Fedora/Red Hat)
+
+2. Verify in the ssh configuration files that only protocol version 2 is allowed.
+
+grep Protocol /etc/ssh/ssh*_config
+
+3.

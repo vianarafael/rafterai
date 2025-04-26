@@ -1,0 +1,11 @@
+We use –h to 
+connect to the localhost, -u to indicate the user we want to connect as, and –p to signify we will provide a 
+password.
+
+498
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-9.  Creating user accounts
+
+We now have a user called mydb who can access tables only in the mydb database.

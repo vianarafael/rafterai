@@ -1,0 +1,21 @@
+Here are some of the currently maintained HCL sites:
+
+•	
+
+•	
+
+•	
+
+•	
+
+https://access.redhat.com/ecosystem (relevant for Red Hat, CentOS, and Fedora)
+
+www.ubuntu.com/certification (Ubuntu)
+
+http://kmuto.jp/debian/hcl/wiki/ (Debian, but also relevant for Ubuntu)
+
+www.linuxquestions.org/hcl/index.php (generic listing)
+
+There are also many large-scale hardware vendors that provide systems with OEM (Original Equipment 
+
+Manufacturer) Linux software.

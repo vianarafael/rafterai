@@ -1,0 +1,44 @@
+To create a ﬁ le named /etc/httpd/conf.d/example.org.conf, which turns 
+on name-based virtual hosting and creates a virtual host that 1) listens on port 
+80 on all interfaces, 2) has a server administrator of joe@example.org, 3) has a 
+server name of joe.example.org, 4) has a DocumentRoot of /var/www/html/
+joe.example.org, and 5) has a DirectoryIndex that includes at least index.
+html, and create an index.html ﬁ le in DocumentRoot that contains the words 
+“Welcome to the House of Joe” inside, do the following:
+
+B
+
+817
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 818
+
+Appendix B: Exercise Answers
+
+Create an example.org.conf ﬁ le that looks like the following:
+
+NameVirtualHost *:80
+<VirtualHost *:80>
+    ServerAdmin     joe@
+example.org
+    ServerName      joe.
+example.org
+    ServerAlias     web.example.org
+    DocumentRoot    /var/www/html/joe.example.org/
+    DirectoryIndex  index.html
+</VirtualHost>
+
+This is how you could create the text to go into the index.html ﬁ le:
+
+# echo "Welcome to the House of Joe" > /var/www/html/joe.example
+     .org/index.html
+
+10.

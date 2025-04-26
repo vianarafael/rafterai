@@ -1,0 +1,20 @@
+critical section passed.
+
+You can keep an eye on the progress via the /proc/mdstat file again.
+
+$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4]
+    [raid10]
+
+395
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+md0 : active raid5 sdg1[5](S) sde1[4] sdf1[3] sdd1[1] sdc1[0]
+      16771584 blocks super 0.91 level 5, 64k chunk, algorithm 2 [4/4] [UUUU]
+      [=======>.............] reshape = 35.8% (3008512/8385792) finish=22.2min
+    speed=4022K/sec
+
+unused devices: <none>
+
+You now have four active devices and a single spare.

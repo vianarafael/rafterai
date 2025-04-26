@@ -1,0 +1,6 @@
+The number 0 tells the system not to back up ﬁ les from this 
+ﬁ lesystem with the dump command (dump is rarely used any more, but the ﬁ eld is 
+here). The 1 in the last column tells the system to check the partition for errors 
+after a certain number of mounts.
+
+At this point, you have a working, permanently mounted disk partition.

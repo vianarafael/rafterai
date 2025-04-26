@@ -1,0 +1,7 @@
+To find the applications, click Applications
+
+We have made it to the end of the CentOS installation section. You can move on to the next chapter, 
+where we will introduce you to Linux and how to start using your new host. Alternatively, you can continue 
+reading this chapter to learn how to install Ubuntu.
+
+Figure 2-40.

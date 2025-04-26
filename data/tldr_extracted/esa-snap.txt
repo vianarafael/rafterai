@@ -1,0 +1,10 @@
+# esa snap
+
+
+- Display all updates:
+
+`snap --nosplash --nogui --modules --list --refresh`
+
+- Display help:
+
+`snap --help`

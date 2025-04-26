@@ -1,0 +1,4 @@
+We are going to go through the database configuration shortly.
+The installation process installs all the required packages and any dependencies and creates the default 
+
+configuration files in the configuration directory /etc/bareos. The bareos user is also created at this point.

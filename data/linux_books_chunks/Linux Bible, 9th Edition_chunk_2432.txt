@@ -1,0 +1,6 @@
+Other tools, such as 
+Ansible (www.ansible.com) and Vagrant (www.vagrantup.com), can be used to 
+start planning system deployments as part of developing your applications.
+
+ ■ Monitoring—Because there are too many systems for a system administrator to 
+check individually, enterprise-level monitoring tools are required.

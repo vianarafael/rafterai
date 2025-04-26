@@ -1,0 +1,7 @@
+Be careful not to delete these directories, as you can easily corrupt your package 
+database.
+
+You will not normally need to make changes to the default /etc/yum.conf. An example of when you 
+
+might want to change configuration is to add a proxy server that YUM should use when downloading 
+packages. The defaults will generally suit most environments.

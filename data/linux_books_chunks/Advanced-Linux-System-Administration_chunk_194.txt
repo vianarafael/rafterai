@@ -1,0 +1,34 @@
+Notice that 
+/dev/md1 is now listed.
+
+pvscan
+pvscan -- reading all physical volumes (this may take a while...)
+pvscan -- ACTIVE  PV "/dev/md1"   is in no VG [305.62 MB]
+pvscan -- ACTIVE  PV "/dev/hda10" of VG "volumeA"[96 MB / 0 free]
+pvscan -- ACTIVE  PV "/dev/hda11" of VG "volumeA"[96 MB / 0 free]
+pvscan -- ACTIVE  PV "/dev/hda12" of VG "volumeA"[96 MB / 84 MB free]
+
+pvscan -- total:4[611.46 MB]  /in use:3[305.83 MB]  /in no VG:1 [305.62 
+MB]
+
+We next add the device /dev/md1 to the volume group volumeA: 
+
+vgextend volumeA /dev/md1
+
+At this stage the volume group has four devices:
+
+VolumeA = /dev/hda10 + /dev/hda11 + /dev/hda12 + /dev/md1
+
+We can take 50MB from /dev/md1 and add them to lv0 (unmount the volume first)
+
+lvextend -L +50 /dev/volumeA/lv0 /dev/md1
+
+46
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+The original lv0 volume had 150 megabytes.

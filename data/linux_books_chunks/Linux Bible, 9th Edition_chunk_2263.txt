@@ -1,0 +1,9 @@
+Also, if you change a port the service is listening on, and SELinux is in enforcing 
+mode, SELinux may prevent the daemon from listening on that port (see Chapter 24, 
+“Enhancing Linux Security with SELinux,” for more information on SELinux).
+
+One reason for changing port numbers on a service is “security by obscurity.” For example, the sshd service is a 
+well-known target for people trying to break into a system by guessing logins and passwords on TCP port 22.
+
+I have heard of people changing their Internet-facing sshd service to listen on some other port number (perhaps 
+some unused, very high port number).

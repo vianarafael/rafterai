@@ -1,0 +1,6 @@
+When we use a proper backup strategy, the potential for 
+losing our ability to restore good data is minimized.
+
+ ■ Tip 
+ When running commands from crontab, it is a really good idea to consider using flock. this uses file 
+locking to prevent scheduled commands being executed while existing commands are already running.

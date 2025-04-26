@@ -1,0 +1,3 @@
+However, if 
+you need to authenticate the same set of users across thousands of Linux systems, 
+ centralizing that information can save lots of time and heartache.

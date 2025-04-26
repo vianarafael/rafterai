@@ -1,0 +1,7 @@
+However, ﬁ les created by the 65534 user or group are available to 
+ anyone assigned as the 65534 user or group. To set all remote users to the 65534 
+user/group, use the all_squash option.
+
+The 65534 UIDs and GIDs are used to prevent the ID from running into a valid user 
+or group ID. Using anonuid or anongid options, you can change the 65534 user 
+or group, respectively.

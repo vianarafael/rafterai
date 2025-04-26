@@ -1,0 +1,7 @@
+Ubuntu Unity desktop on the Xenial Xerus release
+
+The Unity desktop has many of the underlying Gnome tools available to it. In this book we will talk 
+primarily about the Gnome desktop in our examples and these examples will also apply to the Unity desktop.
+
+The Command Line
+In the Linux world, the command line is one of the most powerful tools available to you.

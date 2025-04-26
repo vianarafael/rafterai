@@ -1,0 +1,5 @@
+Groups allow you to set permissions on the group level instead
+of having to set permissions for every individual user.
+
+Every Unix or Linux distribution will have a graphical tool to manage groups. Novice users
+are advised to use this graphical tool.

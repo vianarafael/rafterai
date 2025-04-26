@@ -1,0 +1,1 @@
+Ask the remote computer’s administrator to add your hostname to the /etc/lpd.perms fi le.

@@ -1,0 +1,6 @@
+The process for cre-
+ating a CA is too elaborate to cover in this book, but it is a worthwhile alternative to gener-
+ating self-signed certiﬁ cates.
+
+The following sections describe how HTTPS communications are conﬁ gured by default in 
+Fedora and RHEL when you install the mod_ssl package.

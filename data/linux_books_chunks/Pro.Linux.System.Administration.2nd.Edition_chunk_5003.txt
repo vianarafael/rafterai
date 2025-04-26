@@ -1,0 +1,8 @@
+You would 
+need to then pass the key whose value you want to change and the new value.
+
+$ sudo sysctl -w vm.swappiness=20
+
+Another example is the number of files and directories that can be open at any single moment on the 
+system. This is defined in /proc/sys/fs/file-max, and you can read the value via the command sysctl 
+fs.file-max.

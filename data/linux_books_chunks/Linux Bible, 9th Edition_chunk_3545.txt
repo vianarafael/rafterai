@@ -1,0 +1,15 @@
+First, open the /etc/fstab ﬁ le and add an 
+entry similar to the following:
+
+19
+
+//192.168.0.119/salesdata /mnt/sales cifs credentials=/root/
+     cif.txt 0 0
+
+523
+
+c19.indd  04/01/2015  Page 524
+
+Part IV: Becoming a Linux Server Administrator
+
+Next, create a credentials ﬁ le (in this example, /root/cif.txt).

@@ -1,0 +1,13 @@
+We are going to introduce you to the following tools:
+
+•	
+
+Collectd: System statistics collection daemon
+
+•	 Graphite: A store to collect and graph metrics
+
+•	 Grafana: A nice front-end interface for presenting graphs of metrics
+
+Collectd
+Collectd is a robust system metrics collection daemon that can collect information about your system and 
+various applications and services.

@@ -1,0 +1,6 @@
+If your computer has a network interface connected to a local network and one 
+connected to the Internet, consider allowing access only to the local network.
+
+To set which interfaces Samba listens on, uncomment the interfaces line in the 
+[global] section of the smb.conf ﬁ le. Then add the interface names or IP address ranges 
+of those computers you want to allow access to your computer.

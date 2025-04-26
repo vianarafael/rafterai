@@ -1,0 +1,8 @@
+We will discuss the configuration both daemons.
+
+Recent Linux distributions like RHEL5 and Ubuntu10.04 do not activate inetd or xinetd by
+default, unless an application requires it.
+
+7.4.2. inetd or xinetd
+
+First  verify  whether  your  computer  is  running  inetd  or  xinetd.

@@ -1,0 +1,11 @@
+The getsebool lets you 
+see the value of the Boolean.
+
+509
+
+c19.indd  04/01/2015  Page 510
+
+Part IV: Becoming a Linux Server Administrator
+
+Setting SELinux file contexts for Samba
+SELinux conﬁ nes the ﬁ les that the Samba service can access.

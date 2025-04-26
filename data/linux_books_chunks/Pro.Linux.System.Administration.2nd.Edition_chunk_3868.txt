@@ -1,0 +1,6 @@
+You need high-quality backups not only 
+to restore deleted or overwritten data but also in many cases for legal requirements you might have in your 
+country (e.g., related to keeping tax or customer records).
+
+We will begin this chapter by discussing disaster recovery planning (DRP) and business continuity 
+management (BCM), giving you a grounding in these concepts.

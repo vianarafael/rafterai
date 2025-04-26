@@ -1,0 +1,4 @@
+Applies to 
+printing only.
+
+Indicates no password is required for the share. Default is no.

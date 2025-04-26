@@ -1,0 +1,4 @@
+The 
+netfilter/iptables ﬁ rewall facility is a host-based, network-layer, software ﬁ rewall. It is 
+managed by the iptables and ip6tables utilities. With these utilities, a series of policies 
+and rules can be created for every network packet coming through your Linux server.

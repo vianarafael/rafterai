@@ -1,0 +1,15 @@
+The FQDNLookup line means that it will look up the hostname of the computer this is running on, 
+or you can force this via the Hostname setting.
+
+LoadPlugin syslog
+<Plugin syslog>
+    LogLevel info
+</Plugin>
+
+811
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+We load our first plug-in, and it is used to direct our logs to the syslog service with the LogLevel of 
+
+info.

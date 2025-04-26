@@ -1,0 +1,7 @@
+Actually, there probably is one worse 
+situation: not having the running list.
+
+For other types of hosts, like web servers, you might not need to back them up. You should take careful 
+
+consideration of things like logs, but if you can rebuild your hosts quicker than restoring them, that would 
+be your best option.

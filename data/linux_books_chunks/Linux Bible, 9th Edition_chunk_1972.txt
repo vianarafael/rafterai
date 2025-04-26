@@ -1,0 +1,8 @@
+The following is 
+an example of what a line would look like that mounts the ext4 ﬁ lesystem located on the
+/dev/sdc1 device to the /var/stuff directory:
+
+/dev/sdc1     /var/stuff      ext4    acl        1 2
+
+Instead of the defaults entry in the fourth ﬁ eld, I added acl. If there were already 
+options set in that ﬁ eld, add a comma after the last option and add acl.

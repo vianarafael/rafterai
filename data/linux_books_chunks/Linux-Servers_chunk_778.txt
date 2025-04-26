@@ -1,0 +1,53 @@
+I used booi.schot as domain name
+(instead of example.com).
+
+./setup/provision --realm=BOOI.SCHOT --domain=BOOI --adminpass=stargate \
+--server-role='domain controller'
+
+i added a simple share for testing
+
+vi /usr/local/samba/etc/smb.conf
+
+then i started samba
+
+cd /usr/local/samba/sbin/
+
+./samba
+
+I tested with smbclient, it works
+
+smbclient //localhost/test -Uadministrator%stargate
+
+I checked that bind (and bind-chroot) were installed (yes), so copied the srv records
+
+cp booi.schot.zone /var/named/chroot/etc/
+
+then appended to named.conf
+
+cat named.conf >> /var/named/chroot/etc/named.conf
+
+205
+
+ 
+a brief look at samba 4
+
+I followed these steps in the howto4.txt
+
+vi /etc/init.d/named  [added two export lines right after start()]
+chmod a+r /usr/local/samba/private/dns.keytab 
+cp krb5.conf /etc/
+vi /var/named/chroot/etc/named.conf
+ --> remove a lot, but keep allow-update { any; };
+
+restart bind (named!), then tested dns with dig, this works (stripped screenshot!)
+
+[root@RHEL52 private]# dig _ldap._tcp.dc._msdcs.booi.schot SRV @localhost
+
+; (1 server found)
+;; global options:  printcmd
+;; Got answer:
+;; -HEADER- opcode: QUERY, status: NXDOMAIN, id: 58186
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;_ldap._tcp.dc._msdcs.booi.schot.

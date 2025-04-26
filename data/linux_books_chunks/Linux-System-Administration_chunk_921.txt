@@ -1,0 +1,10 @@
+Read the documentation, then put the compressed file in a directory.
+You can use the following to find out where the package wants to install.
+
+tar tvzpf $downloadedFile.tgz
+
+You unpack them like with tar xzf, it will create a directory called applicationName-1.2.3
+
+tar xzf $applicationName.tgz
+
+Replace the z with a j when the file ends in .tar.bz2.

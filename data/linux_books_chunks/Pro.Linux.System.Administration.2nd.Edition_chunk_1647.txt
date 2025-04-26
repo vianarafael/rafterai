@@ -1,0 +1,15 @@
+We can now delete that chain 
+
+because it is empty. To do that we issue the following command:
+
+$ sudo /sbin/iptables -t filter -X IPV4-INCOMING
+
+The whole chain has been removed. You cannot remove the default INPUT, OUTPUT FORWARD 
+
+chains.
+
+275
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+We are going re-create the chain and add a few more rules so that we show the next section.

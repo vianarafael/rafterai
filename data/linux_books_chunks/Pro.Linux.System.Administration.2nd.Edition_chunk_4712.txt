@@ -1,0 +1,4 @@
+-D cn=webadmin,ou=meta,dc=example,dc=com is the DN that we want to confirm 
+has auth access to the DN of uid=ataylor,ou=people,dc=example,dc=com. The –o allows us to provide 
+options that are related to slapd access. In this case, since we need to mimic our TLS security strength factor, 
+we add the tls_ssf=128. The –v is for verbose.

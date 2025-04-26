@@ -1,0 +1,23 @@
+Enlarge the small logical volume by 50 percent, and verify your work!
+
+root@rhel65:~# lvextend VG42/LVsmall -l+50%LV
+  Extending logical volume LVsmall to 300.00 MiB
+  Logical volume LVsmall successfully resized
+root@rhel65:~# resize2fs /dev/mapper/VG42-LVsmall
+resize2fs 1.41.12 (17-May-2010)
+Filesystem at /dev/mapper/VG42-LVsmall is mounted on /srv/LVsmall; on-line res\
+izing required
+old desc_blocks = 1, new_desc_blocks = 2
+Performing an on-line resize of /dev/mapper/VG42-LVsmall to 307200 (1k) blocks.
+The filesystem on /dev/mapper/VG42-LVsmall is now 307200 blocks long.
+
+root@rhel65:~# df -h | grep small
+/dev/mapper/VG42-LVsmall
+                      291M   31M  246M  12% /srv/LVsmall
+root@rhel65:~#
+
+124
+
+logical volume management
+
+5.

@@ -1,0 +1,23 @@
+First we
+add these users to Linux.
+
+[root@RHEL52 ~]# useradd -c "Serena Williams" serena
+[root@RHEL52 ~]# useradd -c "Justine Henin" justine
+[root@RHEL52 ~]# useradd -c "Martina Hingis" martina
+[root@RHEL52 ~]# passwd serena
+Changing password for user serena.
+New UNIX password: 
+Retype new UNIX password: 
+passwd: all authentication tokens updated successfully.
+[root@RHEL52 ~]# passwd justine
+Changing password for user justine.
+New UNIX password: 
+Retype new UNIX password: 
+passwd: all authentication tokens updated successfully.
+[root@RHEL52 ~]# passwd martina
+Changing password for user martina.
+New UNIX password: 
+Retype new UNIX password: 
+passwd: all authentication tokens updated successfully.
+
+20.2.

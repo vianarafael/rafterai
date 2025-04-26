@@ -1,0 +1,4 @@
+These ﬁ les are 
+ automatically generated for your system when you ﬁ rst start the cupsd service. So you 
+can just use those ﬁ les, or you can generate your own certiﬁ cate and key and set the path 
+to ServerCertiﬁ cate and ServerKey entries.

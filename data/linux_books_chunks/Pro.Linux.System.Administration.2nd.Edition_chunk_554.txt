@@ -1,0 +1,4 @@
+They 
+are normal files but some utilities, like ls, do not show them by default. They can also surprise you when you 
+are looking for files in the directory that are using a lot of space. a ls -lh will show you the normal files in 
+human-readable sizes (-h), were a ls -lah will show file sizes including the dot files.

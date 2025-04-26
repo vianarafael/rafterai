@@ -1,0 +1,7 @@
+That way, a manufacturer 
+had to create the driver only once to work for Linux, Mac OS X, and a variety of 
+UNIX derivatives.
+
+ ■ Printer classes—You can use printer classes to create multiple print server entries 
+that point to the same printer or one print server entry that points to multiple 
+printers.

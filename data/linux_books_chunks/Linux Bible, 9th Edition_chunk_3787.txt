@@ -1,0 +1,4 @@
+If you see this message, it 
+means that no bootable partition was found. If you feel sure the boot loader is 
+on the disk, try using the fdisk command (probably from rescue media) to make 
+the partition bootable and try again.

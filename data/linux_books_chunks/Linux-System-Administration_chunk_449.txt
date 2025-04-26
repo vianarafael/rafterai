@@ -1,0 +1,9 @@
+raid 0+1
+will survive one disk failure. It will only survive the second disk failure if this disk is in the
+same stripe set as the previous failed disk.
+
+10.2.8. raid 1+0
+
+raid 1+0 is a stripe(0) of mirrors(1). For example, when you have six 100GB disks, then
+you first create three mirrors of 100GB each. You then stripe them together into a 300GB
+drive.

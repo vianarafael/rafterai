@@ -1,0 +1,11 @@
+rpm -qa
+
+To obtain a list of all installed software, use the rpm -qa command.
+
+[root@RHEL52 ~]# rpm -qa | grep samba
+system-config-samba-1.2.39-1.el5
+samba-3.0.28-1.el5_2.1
+samba-client-3.0.28-1.el5_2.1
+samba-common-3.0.28-1.el5_2.1
+
+20.6.3.

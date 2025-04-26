@@ -1,0 +1,12 @@
+Selecting to create the root user
+
+ ■ Tip  We will discuss the root user in more detail in Chapters 5 and 6.
+
+38
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+As we have discussed earlier, passwords should be complex and consist of a combination of upper- and 
+
+lowercase characters, numbers, and special punctuation keys like the following: @!%#*. They should also 
+be minimum of eight characters long.

@@ -1,0 +1,12 @@
+As described in the 
+section “CentOS Server Installation,
+
+LVM is a powerful way to manage your partitions and disks, and gives you greater flexibility to make 
+
+changes to your partition layout later.
+
+ ■ Note  We’ll discuss LVM in more detail in Chapter 9.
+
+Figure 2-54 displays our default partition choices.
+
+Figure 2-54.

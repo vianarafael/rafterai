@@ -1,0 +1,6 @@
+You can also use Git for building testing pipelines that test changes to 
+your systems prior to deploying to production.
+
+And while you can use the VirtualBox GUI or VirtualBox CLI to create, install, and manage your 
+VirtualBox machines, we will introduce to you the Vagrant tool. Vagrant is a “wrapper” for the VirtualBox 
+CLI commands, but it is also much more than that.

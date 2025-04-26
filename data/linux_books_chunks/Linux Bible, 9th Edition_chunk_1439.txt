@@ -1,0 +1,9 @@
+In a second 
+terminal, unmount the device and remove it, continuing to watch the output from 
+journalctl -f.
+
+8.  Run a command to see what USB devices are connected to your computer.
+
+9.  Pretend that you added a TV card to your computer, but the module needed to use it 
+(bttv) was not properly detected and loaded. Load the bttv module yourself, and 
+then look to see that it was loaded.

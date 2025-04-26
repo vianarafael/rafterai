@@ -1,0 +1,18 @@
+add your public key to github
+
+I prefer to use github with a public key, so it probably is a good idea that you also upload
+your public key to github.com.
+
+You can upload your own key via the web interface:
+
+https://github.com/settings/ssh
+
+Please do not forget to protect your private key!
+
+232
+
+git
+
+20.8. practice: git
+
+1. Create a project on github to host a script that you wrote.

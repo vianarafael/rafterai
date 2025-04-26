@@ -1,0 +1,13 @@
+Verify that you have a gateway.
+
+7. Verify that you can connect to the gateway, that it is alive.
+
+8. Change the last two digits of your mac address.
+
+9. Which ports are used by http, pop3, ssh, telnet, nntp and ftp ?
+
+10. Explain why e-mail and websites are sent over tcp and not udp.
+
+11. Display the hostname of your computer.
+
+12.

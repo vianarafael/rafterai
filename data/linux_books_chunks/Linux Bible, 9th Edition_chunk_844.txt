@@ -1,0 +1,5 @@
+With an s appearing within either the owner 
+(-rwsr-xr-x) or group (-rwxr-sr-x) permissions, or both (-rwsr-sr-x), 
+the application can be run by any user, but ownership of the running process is 
+assigned to the application’s user/group instead of that of the user launching the 
+command. This is referred to as a set UID or set GID program, respectively.

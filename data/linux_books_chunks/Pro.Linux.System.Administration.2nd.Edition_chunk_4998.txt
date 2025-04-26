@@ -1,0 +1,8 @@
+It also provides a way to tweak a running kernel to improve system performance. To this end, you 
+can change values in virtual files under the /proc/sys directory.
+
+The virtual files are grouped in subdirectories, based on the parts of the system they affect, as listed in 
+
+Table 17-2.
+
+Table 17-2.

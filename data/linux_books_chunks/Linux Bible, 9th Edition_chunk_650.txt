@@ -1,0 +1,6 @@
+The less command displays the 
+ﬁ rst page of output, after which you can go through the rest of the output a line (press Enter) 
+or a page (press spacebar) at a time. Simply press q when you are ﬁ nished. Now, suppose you 
+want to change /usr/bin to /bin. You can use the following steps to change the command:
+
+1.  Press the up arrow (↑) key.

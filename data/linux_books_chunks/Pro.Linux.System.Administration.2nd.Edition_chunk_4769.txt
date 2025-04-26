@@ -1,0 +1,30 @@
+This file needs to have the 0600 
+permission set.
+
+This file itself will have the following contents:
+
+[sssd]
+config_file_version = 2
+services = nss, pam
+domains = LDAP
+
+[domain/LDAP]
+cache_credentials = true
+
+id_provider = ldap
+auth_provider = ldap
+
+ldap_uri = ldap://ldap.example.com
+ldap_search_base = dc=example,dc=com
+ldap_id_use_start_tls = true
+ldap_tls_reqcert = demand
+ldap_tls_cacert = /etc/ssl/certs/cacert.pem
+chpass_provider = ldap
+ldap_chpass_uri = ldap://ldap.example.com
+entry_cache_timeout = 6
+ldap_network_timeout = 2
+ldap_group_member = uniquemember
+ldap_pwdlockout_dn = cn=ppolicy,ou=policies,dc=example,dc=com
+ldap_access_order = lockout
+
+The main directives in this file can be found in man sssd.conf and sssd-ldap.

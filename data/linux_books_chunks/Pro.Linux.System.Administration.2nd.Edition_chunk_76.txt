@@ -1,0 +1,7 @@
+So if 
+you’ve chosen either of these distributions, you should be able to easily recognize the installation process of 
+these distributions from our explanation. You’ll find this is true of most configuration and management of 
+Red Hat–derived distributions.
+
+If you have chosen Ubuntu, you will find a full explanation of the Ubuntu installation process in the 
+section “Ubuntu Installation.”.

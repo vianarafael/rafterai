@@ -1,0 +1,33 @@
+We’re going to ping the address used as the end of our VPN 
+tunnel on the branch1 host, which we discovered earlier is 10.8.0.6.
+
+[gateway]$ ping 10.8.0.6 -c 3
+PING 10.8.0.6 (10.8.0.6) 56(84) bytes of data.
+64 bytes from 10.8.0.6: icmp_seq=1 ttl=64 time=0.593 ms
+64 bytes from 10.8.0.6: icmp_seq=2 ttl=64 time=0.588 ms
+64 bytes from 10.8.0.6: icmp_seq=3 ttl=64 time=0.807 ms
+
+The preceding code shows us that the gateway host can see the branch1 host using ICMP and the 
+
+10.8.0.6 IP address on that branch1 host responds to ICMP traffic.
+
+We can do the same thing from the branch1 host by trying to ping IP address 10.8.0.1 on the gateway 
+
+host end.
+
+branch1$
+ping 10.8.0.1 -c 3
+PING 10.8.0.1 (10.8.0.1) 56(84) bytes of data.
+64 bytes from 10.8.0.1: icmp_seq=1 ttl=64 time=0.682 ms
+64 bytes from 10.8.0.1: icmp_seq=2 ttl=64 time=0.672 ms
+64 bytes from 10.8.0.1: icmp_seq=3 ttl=64 time=0.751 ms
+
+716
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+If both ends respond, then your VPN is up, and you can use it to route traffic to and from your branch 
+
+office to your head office.
+
+If you now want, you can repeat this configuration for any additional branch offices.

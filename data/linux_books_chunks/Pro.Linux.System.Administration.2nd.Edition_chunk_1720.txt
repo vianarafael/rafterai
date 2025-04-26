@@ -1,0 +1,3 @@
+this is where the attackers use botnets (a collection of ‘owned’ internet computers that can be 
+used to target a network by sending millions of bogus requests) to overwhelm network firewalls with 
+large floods of traffic specially crafted packets.

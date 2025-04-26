@@ -1,0 +1,3 @@
+ICMP packets can be a route of attack and some administrators will often 
+block all external (and sometimes internal) ICMP packets by default because of this. Here we have made the 
+decision to allow echo-requests, or ping, and of other ICMP types will be dropped.

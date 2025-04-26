@@ -1,0 +1,5 @@
+Many conﬁ guration ﬁ les are directly in each user’s home 
+directory (such as /home/joe) and begin with a dot (.), so they don’t appear in a 
+user’s directory when you use a standard ls command (you need to type ls -a to 
+see them). Likewise, dot ﬁ les and directories won’t show up in most ﬁ le manager 
+windows by default.

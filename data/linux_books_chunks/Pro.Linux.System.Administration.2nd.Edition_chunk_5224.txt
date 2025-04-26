@@ -1,0 +1,11 @@
+We do this with the following lines:
+
+filter {
+  if [type] =~ "auditd" {
+    kv { }
+  }
+}
+
+This simply will create more labels in our metadata on which we can further work on and use for 
+
+discovery.

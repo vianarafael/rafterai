@@ -1,0 +1,8 @@
+We are going to compile the most 
+basic default nginx server. For more on the options available refer to the document links above.
+
+Armed with this new knowledge, we can now configure our nginx sources with default options, as you 
+
+can see in Listing 8-23.
+
+Listing 8-23.

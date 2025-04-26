@@ -1,0 +1,4 @@
+179    IN      A       216.239.32.10
+ns2.google.com.        4851   IN      A       216.239.34.10
+ns3.google.com.        186    IN      A       216.239.36.10
+ns4.google.com.

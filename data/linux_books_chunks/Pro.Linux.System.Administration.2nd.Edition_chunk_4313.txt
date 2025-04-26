@@ -1,0 +1,10 @@
+You specify the location of this file in your 
+OpenVPN configuration using the secret option.
+
+secret /etc/openvpn/secret.key
+
+You would then copy this file, preferably in a secure way such as via scp or GPG-encrypted file sharing 
+(like that offered by https://keybase.io) or by encrypting and using a configuration management system 
+and applying it to the other host’s OpenVPN configuration.
+
+We’re not going to use preshared keys, though, because they have some limitations.

@@ -1,0 +1,7 @@
+The 
+number is between 0 and 99999.
+
+This is the number of seconds since the time the shell was started.
+
+This is the number of shell levels associated with the current shell session. 
+When you log in to the shell, the SHLVL is 1.

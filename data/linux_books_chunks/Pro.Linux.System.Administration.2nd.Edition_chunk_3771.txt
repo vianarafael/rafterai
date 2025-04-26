@@ -1,0 +1,5 @@
+The first is self-explanatory; 
+the last two are not. NFS traditionally had the quirk that if the host sharing the filesystem had a hiccup, 
+it would cause all hosts joined to it to be severely affected until that service was restored or the hosts 
+rebooted. The intr, or interrupt, allows for NFS 4 operations to be interrupted while waiting for  
+a response from the server.

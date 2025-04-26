@@ -1,0 +1,15 @@
+Systemd timer /lib/systemd/system/apt-daily.timer
+
+[Unit]
+Description=Daily apt activities
+
+[Timer]
+OnCalendar=*-*-* 6,18:00
+RandomizedDelaySec=12h
+AccuracySec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+Here you can see that we have the usual sections for [Unit] and [Install].

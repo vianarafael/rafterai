@@ -1,0 +1,12 @@
+We don’t show it here, but hosts deny allows you to list the hosts 
+and networks you do not want to access this service.
+
+602
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+We are going to have the networks 192.168.0.0 to 192.168.30.0 access this Samba service, so we will 
+
+specify the following, which will allow any address in the 192.168.0.0/16 range to connect:
+
+hosts allow = 127.

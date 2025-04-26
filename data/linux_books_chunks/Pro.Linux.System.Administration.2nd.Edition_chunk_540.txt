@@ -1,0 +1,3 @@
+The 
+first, and one of the most important, is /etc/. The /etc/ directory, named for etcetera, is where most of the 
+important configuration files on your host are located.

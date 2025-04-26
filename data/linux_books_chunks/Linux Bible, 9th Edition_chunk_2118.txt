@@ -1,0 +1,11 @@
+Each logical volume is 
+ associated with a device name that includes the volume group name and the logical 
+volume name: /dev/vg_abc/lv_root (50GB), /dev/vg_abc/lv_home (92.64GB), and 
+
+297
+
+c12.indd  04/01/2015  Page 298
+
+Part III: Becoming a Linux System Administrator
+
+/dev/vg_abc/lv_swap (5.88GB).

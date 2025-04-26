@@ -1,0 +1,12 @@
+We can use the 
+PoxyCommand in the SSH config to configure a jump host.
+
+Host jumphost
+  Hostname jumphost.foo.com
+
+Host private.foo.com
+  Hostname 10.0.1.1
+  ForwardAgent yes
+  ProxyCommand ssh -qxT jumphost nc %h %p
+
+To make a connection to private.foo.com, we first set up a proxying connection to jumphost.

@@ -1,0 +1,25 @@
+The following are Linux distributions you can use to conduct very thorough penetra-
+tion tests:
+
+22
+
+ ■ BackTrack (www.backtrack-linux.org)
+
+ ■ Linux distribution created speciﬁ cally for penetration testing
+
+ ■ Can be used from a live DVD or a ﬂ ash drive
+
+ ■ Training on use of BackTrack offered by www.offensive-security.com
+
+ ■ Fedora Security Spin (http://spins.fedoraproject.org/security)
+
+ ■ Also called Fedora Security Lab
+
+ ■ Spin of the Fedora Linux distribution
+
+ ■ Provides a test environment to work on security auditing
+
+ ■ Can be used from a ﬂ ash drive
+
+While penetration testing is lots of fun, for a thorough compliance review, a little more is 
+needed.

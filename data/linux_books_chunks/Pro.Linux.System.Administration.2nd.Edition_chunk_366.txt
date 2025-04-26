@@ -1,0 +1,5 @@
+If we look at the contents of that file it looks very 
+much like Ruby code. That is because it is. This file uses Ruby code and Vagrant parses and loads this file 
+when executing Vagrant commands. That means that you can use the Ruby language in the file to create lists, 
+arrays, hashes, and so on. That becomes useful later on when working with more than one image in your 
+Vagrantfile.

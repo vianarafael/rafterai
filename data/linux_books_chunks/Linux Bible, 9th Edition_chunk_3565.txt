@@ -1,0 +1,5 @@
+The Network File System (NFS) facility enables you to extend your Linux ﬁ lesystem to connect 
+ ﬁ lesystems on other computers to your local directory structure.
+
+An NFS ﬁ le server provides an easy way to share large amounts of data among the users and 
+ computers in an organization.

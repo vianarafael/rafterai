@@ -1,0 +1,7 @@
+After successfully entering our password our system now starts to load information off 
+our disks and our system continues to boot.
+
+Now again, depending if you picked the Gnome package during your installation, you will see a EULA 
+
+(End User License Agreement) appear. This to be honest is a little confusing and it is part of the gnome-
+initial-setup package.

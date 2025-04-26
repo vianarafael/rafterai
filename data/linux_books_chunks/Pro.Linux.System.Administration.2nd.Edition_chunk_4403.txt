@@ -1,0 +1,16 @@
+In Figure 15-5 we enter the username and 
+password for jsmith and then toggle the connection button.
+
+725
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Figure 15-5.  Entering the username and password
+
+Figure 15-6 shows we are connected via the iPhone app.
+
+726
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Figure 15-6.

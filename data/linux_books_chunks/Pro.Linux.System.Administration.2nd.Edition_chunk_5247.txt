@@ -1,0 +1,13 @@
+We can query Elasticsearch further with something like this:
+
+curl -H "Content-Type: application/json" "http://localhost:9200/logstash-*/_search" -d '{
+   "query": {
+     "match": {
+       "event_type": "SERVICE_STOP"
+     }
+   },
+   "sort": [ "_doc" ]
+ }'
+
+This curl command now queries the _search URI on Elasticsearch to check whether we have any 
+matches for audit_type "SERVICE_STOP".

@@ -1,0 +1,5 @@
+If you want, you can read about dynamic host lists here: http://docs.
+ansible.com/ansible/intro_dynamic_inventory.html.
+
+The inventory file can be in the local directory or in the systemwide /etc/ansible/hosts file. In our 
+host inventory we can define our hosts and host groups.

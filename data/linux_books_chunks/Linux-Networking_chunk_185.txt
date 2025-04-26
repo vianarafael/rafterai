@@ -1,0 +1,13 @@
+/etc/network/interfaces
+
+The  /etc/network/interfaces  file  is  a  core  network  interface  card  configuration  file  on
+debian.
+
+dhcp client
+
+The screenshot below shows that our computer is configured for dhcp on eth0 (the first
+network interface card or nic).
+
+paul@debian8:~$ cat /etc/network/interfaces
+# This file describes the network interfaces available on your system
+# and how to activate them.

@@ -1,0 +1,16 @@
+Figure 19.7 shows an example of the Nautilus window 
+after I have connected to the salesdata share.
+
+522
+
+c19.indd  04/01/2015  Page 523
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+FIGURE 19.7
+
+Opening Samba shares from Connect to Server in Nautilus.
+
+Because a Samba shared directory can be viewed as a remote ﬁ lesystem, you can use com-
+mon Linux tools to connect a Samba share (temporarily or permanently) to your Linux sys-
+tem.

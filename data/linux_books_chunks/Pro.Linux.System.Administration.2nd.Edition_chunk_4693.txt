@@ -1,0 +1,9 @@
+Our search filter looks like this:
+
+ (&(&(objectclass=person)(uid=jsmith))(exampleActive=TRUE)),
+
+These are read inside out; let’s take the first part.
+
+&(objectclass=person)(uid=jsmith)
+
+This means to filter on entries where the object class is person AND uid is jsmith.

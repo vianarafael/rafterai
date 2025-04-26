@@ -1,0 +1,6 @@
+Additionally, OpenVPN’s error messages 
+usually provide a clear and accurate indication of the actual problem.
+
+But you also need to ensure you check that you have network connectivity and appropriate firewall 
+rules, both iptables rules on your host(s) and potentially rules on any intervening network devices, to 
+allow connections.

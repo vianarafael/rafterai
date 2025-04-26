@@ -1,0 +1,10 @@
+So systemctl 
+provides a way of condensing the same information to make it easy for a program to detect the status.
+
+$ sudo systemctl is-active postfix.service ; echo $?
+active
+0
+
+The above command provides both the state (“active,” “inactive”) to the standard output and an exit 
+code (0 for active, non-zero for other state)—both of which you can test for in a script or program that might 
+manage the service.

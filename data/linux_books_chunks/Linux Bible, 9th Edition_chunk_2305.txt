@@ -1,0 +1,6 @@
+This stops anyone from remotely logging in as root.
+
+# grep PermitRootLogin /etc/ssh/sshd_config
+PermitRootLogin no
+
+After you have changed the sshd_config ﬁ le, restart the sshd  service.

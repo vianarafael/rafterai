@@ -1,0 +1,7 @@
+In the next chapter, advanced security topics of cryp-
+tography and authentication modules are covered.
+
+Exercises
+Refer to the material in this chapter to complete the tasks that follow. If you are stuck, 
+solutions to the tasks are shown in Appendix B (although in Linux, there are often multiple 
+ways to complete a task). Try each of the exercises before referring to the answers.

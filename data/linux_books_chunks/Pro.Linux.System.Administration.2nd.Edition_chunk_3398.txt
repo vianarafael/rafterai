@@ -1,0 +1,9 @@
+We can view 
+
+that easily with the following:
+
+$ postconf –n |grep alias_database
+alias_database = hash:/etc/aliases
+
+We can move on to more complex uses. Our host can be the final destination for mail bound for the 
+example.com domain. But it can also be used to “host” other domains.

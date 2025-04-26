@@ -1,0 +1,6 @@
+# qm resize
+
+
+- View documentation for the original command:
+
+`tldr qm disk resize`

@@ -1,0 +1,13 @@
+For 
+that reason, I recommend that if you have a spare computer, you install Linux permanently 
+on that computer’s hard disk to use with the rest of this book (as described in Chapter 9).
+
+32
+
+c02.indd  04/01/2015  Page 33
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+After you have a live CD or DVD in hand, do the following to get started:
+
+1.  Get a computer.

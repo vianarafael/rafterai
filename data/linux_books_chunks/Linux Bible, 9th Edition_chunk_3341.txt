@@ -1,0 +1,10 @@
+The following are examples of commands to run 
+on the server:
+
+# mkdir /var/ftp/uploads
+# chown ftp:ftp /var/ftp/uploads
+# chmod 775 /var/ftp/uploads
+
+As long as the ﬁ rewall is open and SELinux Booleans are set properly, an anonymous user 
+can cd to the uploads directory and put a ﬁ le from the user’s local system into the uploads 
+directory.

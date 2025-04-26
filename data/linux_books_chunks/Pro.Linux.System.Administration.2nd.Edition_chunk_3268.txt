@@ -1,0 +1,9 @@
+When your MUA or mail client connects to 
+the mailbox, it detects the e-mail in the new directory and then moves them to the cur directory.
+
+ this sounds a little complicated, but it ensures that e-mail isn’t corrupted or misplaced when e-mail 
+
+ ■ Note 
+is being delivered, read, sent, and deleted from your mailbox.
+
+To use Maildir instead of mbox, we need to tell Postfix that we’re using a different mailbox format.

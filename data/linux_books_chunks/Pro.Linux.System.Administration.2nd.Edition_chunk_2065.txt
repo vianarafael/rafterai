@@ -1,0 +1,13 @@
+A critical part of any 
+business is its data, so you need to make sure it is both safe and accessible and stays that way.
+
+In this chapter, we will explain how to create and manage disk partitions and RAID, how to make your 
+
+storage accessible to applications, and how to recover from a crash.
+
+ ■ Note 
+
+In Chapter 14, we’ll cover how to back up and restore your data.
+
+Storage Basics
+We’re going to start by looking at how Linux handles storage.

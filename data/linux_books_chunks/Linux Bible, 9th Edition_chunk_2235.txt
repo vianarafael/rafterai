@@ -1,0 +1,7 @@
+Packages that provide 
+graphical administration of CUPS (system-config-printer) and printer  drivers 
+(foomatic, hpijs, and others) are also available when you install CUPS. (See 
+Chapter 16, “Conﬁ guring a Print Server.”)
+
+ ■ Web Server—The Apache (httpd package) web server is the software used most 
+often to serve web pages (HTTP content).

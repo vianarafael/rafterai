@@ -1,0 +1,6 @@
+For a full listing of available escape codes, see 
+the PROMPTING section of the bash man page.
+
+You can change environment variables either by defining them in any of the Bash configuration files 
+
+or by setting them from the command line.

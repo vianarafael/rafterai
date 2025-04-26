@@ -1,0 +1,24 @@
+To set the [homes] section so that home directories are browseable (yes) and 
+
+writable (yes), and that phil is the only valid user, open the /etc/samba/smb.
+conf ﬁ le as root and change the [homes] section so it appears as follows:
+
+[homes]
+        comment = Home Directories
+
+822
+
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 823
+
+Appendix B: Exercise Answers
+
+        browseable = yes
+        writable = yes
+        valid users = phil
+
+6.

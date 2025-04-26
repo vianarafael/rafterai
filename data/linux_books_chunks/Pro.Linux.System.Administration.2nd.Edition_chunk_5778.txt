@@ -1,0 +1,7 @@
+You can notify a handler from a task to perform a task, such as restart a 
+service.
+
+Let’s take a look at the following playbook. In this example we are going to create a playbook that installs 
+
+our backup software, Bareos. In this example, we are going to install Bareos and the MariaDB it requires on 
+the same host.

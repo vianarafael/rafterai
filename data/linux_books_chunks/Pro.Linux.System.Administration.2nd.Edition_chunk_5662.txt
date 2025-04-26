@@ -1,0 +1,7 @@
+This is the standard format of a Puppet file. The class declaration is 
+
+a Puppet type. The profile is a title. Then the class type expects the Puppet code in that class to be between 
+curly braces {...}. See https://docs.puppet.com/puppet/4.8/lang_resources.html for the basics on the 
+Puppet language.
+
+Now inside the profile directory, we will create our web_server.pp file.

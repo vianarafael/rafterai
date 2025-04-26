@@ -1,0 +1,7 @@
+this means we can use the same vagrant up command to start a 
+VirtualBox virtual machine or an aWS instance—but with appropriate configuration file (Vagrantfile) 
+changes of course.
+
+Getting Started with Vagrant
+After installing, the first thing you will need to do is either open a terminal or get to a command prompt via 
+cmd.exe, PowerShell prompt, or Git Bash prompt.

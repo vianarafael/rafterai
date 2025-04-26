@@ -1,0 +1,8 @@
+These source files are the ones 
+that the CentOS maintainers used to generate the normal binary rpms we use in our packages.
+
+312
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Listing 8-6.

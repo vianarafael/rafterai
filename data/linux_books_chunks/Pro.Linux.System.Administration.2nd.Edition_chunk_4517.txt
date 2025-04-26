@@ -1,0 +1,2 @@
+This takes 
+similar arguments to the ldapsearch command we used previously.

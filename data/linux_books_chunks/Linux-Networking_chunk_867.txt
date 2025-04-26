@@ -1,0 +1,19 @@
+Make  sure  everyone  can  read  and  write  files,  test  writing  with  smbclient  and  from  a
+Microsoft computer.
+
+to test writing with smbclient:
+
+echo one > count.txt
+echo two >> count.txt
+echo three >> count.txt
+smbclient //localhost/pubwrite
+Password: 
+smb: \> put count.txt
+
+3. Verify the ownership of files created by (various) users.
+
+ls -l /srv/samba/writable
+
+224
+
+Chapter 19.

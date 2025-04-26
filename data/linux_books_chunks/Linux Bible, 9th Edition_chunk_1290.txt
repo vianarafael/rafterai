@@ -1,0 +1,7 @@
+(Using su, 
+all you know is that someone with the root password logged in, whereas the sudo 
+command logs which user runs an administrative command.)
+
+With the sudoers facility, giving full or limited root privileges to any user simply entails 
+adding the user to /etc/sudoers and deﬁ ning what privilege you want that user to 
+have.

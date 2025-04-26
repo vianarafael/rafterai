@@ -1,0 +1,16 @@
+The idea is to have a directory where all members 
+of a group can share ﬁ les but still protect them from other users. Here’s a set of steps for 
+ creating a collaborative directory for all users in the group I created called sales:
+
+1.  Create a group to use for collaboration:
+
+# groupadd -g 301 sales
+
+276
+
+ 
+c11.indd  04/01/2015  Page 277
+
+Chapter 11: Managing User Accounts
+
+2.

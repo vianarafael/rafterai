@@ -1,0 +1,2 @@
+The spec file contains the details about our package—the version number, license, and so on. It 
+also has several macros that rpmbuild used to help create the packages.

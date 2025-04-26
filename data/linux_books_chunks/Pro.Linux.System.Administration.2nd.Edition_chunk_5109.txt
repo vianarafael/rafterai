@@ -1,0 +1,42 @@
+Depending on the output 
+modules loaded, rsyslog can perform several potential actions.
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+Logging to a file
+
+Logging to a device
+
+Logging to a named pipe
+
+Logging to a specific user or the console
+
+Sending logs to another host
+
+Logging to a database table
+
+Executing a command
+
+•	 Discarding
+
+852
+
+Listing 18-6 shows examples of the first four actions rsyslogd can take, including logging to a file, 
+
+device file, named pipes, and the console or a user’s screen.
+
+Chapter 18 ■ Logging and Monitoring
+
+Listing 18-6.

@@ -1,0 +1,7 @@
+Here are some examples:
+
+ ■ Windows—In the latest Windows releases, the function of burning ISO images to 
+CD or DVD is built into Windows. After an ISO image is downloaded, simply insert 
+the appropriate CD or DVD into your computer’s drive (assuming the drive is write-
+able), right-click the ISO image icon from the folder you downloaded it to, and 
+select Burn disc image.

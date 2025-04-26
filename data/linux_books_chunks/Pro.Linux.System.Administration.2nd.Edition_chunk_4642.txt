@@ -1,0 +1,3 @@
+The update_
+ssf=256 setting describes the overall security strength required for directory updates, and the simple_
+bind=128 setting is the required security factor for simple_bind operations.

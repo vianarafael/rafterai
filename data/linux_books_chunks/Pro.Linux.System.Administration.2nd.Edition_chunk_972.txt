@@ -1,0 +1,6 @@
+This chapter is going to delve deeper into the workings 
+of your Linux host and examine the way it operates “under the hood.”
+
+In this chapter, we’ll look at what happens when your host starts up, or boots. We’ll step through the 
+process and show you how to start your host in a variety of modes and how to configure and modify the 
+startup process.

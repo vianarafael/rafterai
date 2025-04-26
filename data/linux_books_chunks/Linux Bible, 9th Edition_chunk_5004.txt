@@ -1,0 +1,12 @@
+The Clone Virtual Machine window appears, as shown 
+in Figure 27.1.
+
+FIGURE 27.1
+
+Cloning lets you save a permanent copy of a cloud instance.
+
+27
+
+4.  Choose the clone settings. For the cloud base image and the data image, you can 
+
+choose to either make new copies or share them with the existing virtual machine.

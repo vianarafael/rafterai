@@ -1,0 +1,6 @@
+Once you have created your schema file, you then include it in 
+your OpenLDAP configuration files.
+
+It is common for organizations to require certain attributes to describe your users or your internal 
+systems that are not provided in the schema files supplied. In this case, you will make your own object 
+classes and attributes in your own schema file.

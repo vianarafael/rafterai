@@ -1,0 +1,9 @@
+We are going to show 
+
+you how to use the tool called Application Installer. You use the Application Installer to list, search, install, 
+and remove your packages.
+
+You can find both package management tools by selecting Applications ➤ System Utilities ➤ 
+
+Application Installer. Or, you can search for applications by bringing up the search window by moving the 
+mouse to the top left of the screen.

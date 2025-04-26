@@ -1,0 +1,5 @@
+We don’t 
+need to specify a MariaDB user to connect as now, as we just created a MariaDB user with the same name as 
+our host account.
+
+To do that, like we have in Figure 11-9, pass the following arguments to the mysql client.

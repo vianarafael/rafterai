@@ -1,0 +1,7 @@
+And each 
+modiﬁ cation should be tested in a test or virtual environment before implementing it in 
+your production Linux system’s ﬁ rewall.
+
+Saving an iptables configuration
+After you have done all the hard work of creating your Linux server’s ﬁ rewall conﬁ guration 
+policies and rules, you will want to save them.

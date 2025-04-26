@@ -1,0 +1,36 @@
+You can ﬁ nd 
+what an RPM needs for it to be installed (--requires), what version of software a  package 
+provides (--provides), what scripts are run before and after an RPM is installed or 
+removed (--scripts), and what changes have been made to an RPM (--changelog).
+
+# rpm -q --requires emacs-common
+/bin/sh
+/sbin/install-info
+/usr/bin/perl
+...
+# rpm -q --provides emacs-common
+config(emacs-common) = 1:24.4-3.fc21
+emacs-common = 1:24.4-3.fc21
+emacs-common(x86-64) = 1:24.4-3.fc21
+emacs-el = 1:24.4-3.fc21
+pkgconfig(emacs) = 1:24.4
+# rpm -q --scripts httpd
+# Add the "apache" user
+/usr/sbin/useradd -c "Apache" -u 48 \
+     -s /sbin/nologin -r -d /var/www apache 2> /dev/null || :
+postinstall scriptlet (using /bin/sh):
+...
+# rpm -q --changelog httpd | less*
+Wed Sep 03 2014 Jan Kaluza 
+   <jkaluza@redhat.com> - 2.4.10-9
+- fix hostname requirement and conflict with openssl-libs
+...
+
+254
+
+c10.indd  04/01/2015  Page 255
+
+Chapter 10: Getting and Managing Software
+
+In the previous two examples, you can see that scripts inside the httpd package add an apache 
+user at installation time and turn on the httpd service with chkconfig.

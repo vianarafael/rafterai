@@ -1,0 +1,7 @@
+If you choose I will configure partitioning you will manually have to create the disk layout.
+
+ ■ Note  We’ll explain a lot more about partitions and how to customize and change your disks and storage in 
+Chapter 9.
+
+It is advisable to encrypt your data when it makes sense to do so, but it has some drawbacks you 
+should be aware of.

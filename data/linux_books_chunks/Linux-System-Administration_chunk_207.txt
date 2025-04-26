@@ -1,0 +1,10 @@
+Use the kill command to suspend the last sleep process.
+
+[paul@rhel53 ~]$ kill -SIGSTOP 4519
+[paul@rhel53 ~]$ jobs
+[1]   Stopped                 vim text.txt
+[2]-  Stopped                 find / > allfiles.txt 2> /dev/null
+[3]   Running                 sleep 4000 &
+[4]+  Stopped                 sleep 5000
+
+8.

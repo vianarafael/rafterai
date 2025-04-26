@@ -1,0 +1,7 @@
+The hard part is actually put-
+ting all these concepts into practice.
+
+Summary
+Basic Linux security practices such as managing user accounts, securing passwords, and 
+managing software and services form the foundation for all other security on your Linux 
+system.

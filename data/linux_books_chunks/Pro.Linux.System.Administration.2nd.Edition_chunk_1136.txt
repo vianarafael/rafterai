@@ -1,0 +1,5 @@
+All required services are usually set to be started in this runlevel.
+
+In comparison, CentOS generally starts in runlevel 5 if you have a GUI console installed or runlevel 3 for 
+
+command line only.

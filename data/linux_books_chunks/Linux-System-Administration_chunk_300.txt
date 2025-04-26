@@ -1,0 +1,20 @@
+Look at /proc/scsi/scsi.
+
+root@rhel53 ~# cat /proc/scsi/scsi 
+
+43
+
+disk devices
+
+Attached devices:
+Host: scsi0 Channel: 00 Id: 02 Lun: 00
+  Vendor: VBOX     Model: HARDDISK         Rev: 1.0 
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+Host: scsi0 Channel: 00 Id: 03 Lun: 00
+  Vendor: VBOX     Model: HARDDISK         Rev: 1.0 
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+Host: scsi0 Channel: 00 Id: 06 Lun: 00
+  Vendor: VBOX     Model: HARDDISK         Rev: 1.0 
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+
+9.

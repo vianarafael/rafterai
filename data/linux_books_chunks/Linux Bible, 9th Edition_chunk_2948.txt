@@ -1,0 +1,11 @@
+Select Tray 1 to insert pages 
+
+manually.
+
+ ■ Levels of Gray—Choose to use the printer’s current levels of gray or have 
+
+enhanced or standard gray levels turned on.
+
+ ■ Resolution—Select the default printing resolution (such as 300, 600, or 1,200 
+
+dots per inch).

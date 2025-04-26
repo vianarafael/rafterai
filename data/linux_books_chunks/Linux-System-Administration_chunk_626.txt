@@ -1,0 +1,8 @@
+post
+
+A computer starts booting the moment you turn on the power (no kidding). This first process
+is called post or power on self test. If all goes well then this leads to the bios. If all goes
+not so well, then you might hear nothing, or hear beeping, or see an error message on the
+screen, or maybe see smoke coming out of the computer (burning hardware smells bad!).
+
+14.1.2.

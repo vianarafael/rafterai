@@ -1,0 +1,14 @@
+# eglinfo
+
+
+- Display full platform information:
+
+`eglinfo`
+
+- Display a brief version of platform information:
+
+`eglinfo -B`
+
+- Display help:
+
+`eglinfo -h`

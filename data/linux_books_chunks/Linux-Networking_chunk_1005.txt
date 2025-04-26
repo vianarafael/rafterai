@@ -1,0 +1,9 @@
+unique local addresses
+
+The now obsolete system of site local addresses similar to ipv4 private ranges is replaced
+with  a  system  of  globally  unique  local  ipv6  addresses.  This  to  prevent  duplicates  when
+joining of networks within site local ranges.
+
+All unique local addresses strat with fd...
+
+25.7.

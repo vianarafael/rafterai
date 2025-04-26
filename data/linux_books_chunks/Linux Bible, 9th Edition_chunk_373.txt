@@ -1,0 +1,11 @@
+Applications, disk storage, and processing power were all on 
+
+30
+
+c02.indd  04/01/2015  Page 31
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+larger centralized computers. So applications ran on larger machines but were displayed 
+and managed over the network on the thin client. Later, thin clients were replaced 
+by desktop personal computers.

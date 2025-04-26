@@ -1,0 +1,15 @@
+To tell if 
+it is a systemd init daemon, you can run the following strings command to 
+show systemd in use:
+
+# strings /sbin/init | grep -i systemd
+systemd.unit=
+systemd.log_target=
+systemd.log_level=
+...
+
+ ■ Most likely, you have the SysVinit or BSD init daemon if your init daemon is not 
+the Upstart init daemon or systemd. But double-check at http://wikipedia
+.org/wiki/Init.
+
+2.

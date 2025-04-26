@@ -1,0 +1,6 @@
+The dig command shows information similar to what appears in the ﬁ les 
+that hold DNS records. The QUESTION section of the output shows that the address sec-
+tion asked for the address of redhat.com and the ANSWER section showed the answer 
+(209.132.183.181). You can also see the address of the DNS server that was queried.
+
+The host and dig commands are only used to query DNS servers.

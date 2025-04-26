@@ -1,0 +1,7 @@
+A 
+comma or a quote in the wrong place can sometimes cause an entire interface to fail.
+
+You can check in many ways that the structure of many conﬁ guration ﬁ les is correct:
+
+ ■ Some software packages offer a command to test the sanity of the conﬁ guration ﬁ le 
+tied to a package before you start a service.

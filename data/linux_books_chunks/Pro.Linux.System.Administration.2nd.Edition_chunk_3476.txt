@@ -1,0 +1,5 @@
+This describes the difference between this Dovecot solution 
+and the procmail and maildrop solutions, which are binaries fired with each mail that is delivered. Also, the 
+LMTP can be running on a separate server as it can read from TCP and unix sockets.
+
+The first step is to download the Dovecot Sieve support packages.

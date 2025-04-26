@@ -1,0 +1,12 @@
+Assuming you have a connection to your software repository, 
+to install vsftpd, just type the following as root for Fedora or RHEL:
+
+# yum install vsftpd
+
+If you are using Ubuntu (or other Linux distribution based on Debian packaging), type the 
+following to install vsftpd:
+
+$ sudo apt-get install vsftpd
+
+After the vsftpd package is installed, here are some commands you can run to familiarize 
+yourself with the contents of that package.

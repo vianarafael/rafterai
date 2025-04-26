@@ -1,0 +1,7 @@
+We will need to set the following:
+
+GPG_PW='mygeniusbigbikeisnice'
+
+First we have provided the GPG_PW value. This is the password we will use to encrypt and decrypt 
+our backups. You can use a more random password than this simple example. You should copy it to your 
+password safe or manager for future reference.

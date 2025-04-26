@@ -1,0 +1,4 @@
+One such application to view this detail is the tcpdump command-line tool. The 
+tcpdump command, and those like it, can view traffic at the packet level on the wire. You can see the packets 
+coming in and out of your host. The tcpdump command, when run without any expressions, will print every 
+packet crossing the interface.

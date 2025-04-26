@@ -1,0 +1,3 @@
+On the /share directory, the Windows share named myshare is mounted 
+from the host at 192.168.0.28. In both cases, I added the _netdev option, which tells Linux 
+to wait for the network to come up before trying to mount the shares.

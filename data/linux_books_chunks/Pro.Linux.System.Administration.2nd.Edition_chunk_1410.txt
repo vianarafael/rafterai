@@ -1,0 +1,7 @@
+The first thing we need to do is install an extra package if it is not installed already.
+
+sudo aptitude install ifenslave
+
+In this scenario we are going to enable mode “1” bonding, which as we already know can also be called 
+
+active-backup.

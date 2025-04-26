@@ -1,0 +1,2 @@
+It works 
+by setting up a netcat connection (nc) to the hostname 10.0.1.1(%h) with %p (22 is the default).

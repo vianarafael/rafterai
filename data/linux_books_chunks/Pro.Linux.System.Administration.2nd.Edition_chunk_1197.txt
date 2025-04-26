@@ -1,0 +1,15 @@
+The start, stop, 
+
+and reload options refer to the init.d file as follows:
+
+[Service]
+...
+ExecStart=/etc/init.d/postfix start
+ExecStop=/etc/init.d/postfix stop
+ExecReload=/etc/init.d/postfix reload
+
+208
+
+Chapter 6 ■ Startup and ServiCeS
+
+We can use the same systemctl start|stop postfix.service to manage the service.

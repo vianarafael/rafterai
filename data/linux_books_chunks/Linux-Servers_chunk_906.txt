@@ -1,0 +1,2 @@
+At the CD boot prompt we
+type "linux rescue".

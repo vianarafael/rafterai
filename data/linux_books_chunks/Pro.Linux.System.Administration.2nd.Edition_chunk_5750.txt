@@ -1,0 +1,6 @@
+Any of the modules (documented 
+at http://docs.ansible.com/ansible/modules_by_category.html) can be used to execute ad hoc 
+commands via the ansible command. If we bundle up the ad hoc tasks into a list of tasks, that is called a 
+playbook, which is invoked with the ansible-playbook command.
+
+Let’s look first at the ansible command to run a simple task.

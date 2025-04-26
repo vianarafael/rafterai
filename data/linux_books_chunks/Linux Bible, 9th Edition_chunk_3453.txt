@@ -1,0 +1,7 @@
+Instead of allowing any ﬁ le 
+with the proper read and write permission to be shared by the Samba server, SELinux 
+(when in Enforcing mode) requires that ﬁ les and directories have the correct ﬁ le contexts 
+set on them before the Samba service can even see that the ﬁ les exist.
+
+In order for the Samba service to function with SELinux immediately, some ﬁ les and  directories 
+come preset with the proper ﬁ le contexts.

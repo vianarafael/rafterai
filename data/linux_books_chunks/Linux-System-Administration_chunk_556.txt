@@ -1,0 +1,102 @@
+iSCSI Initiator in RHEL/CentOS
+
+This section will describe iSCSI Initiator setup on RHEL6, RHEL7 and CentOS.
+
+Start with installing the iSCSI Initiator package.
+
+[root@server2 ~]# yum install iscsi-initiator-utils
+
+Then ask the iSCSI target server to send you the target names.
+
+[root@server2 ~]# iscsiadm -m discovery -t sendtargets -p 192.168.1.95:3260
+Starting iscsid:                                           [  OK  ]
+192.168.1.95:3260,1 iqn.2014-04.be.linux-training:centos65.target1
+
+We received iqn.2014-04.be.linux-training:centos65.target1.
+
+We use this iqn to configure the username and the password (paul and hunter2) that we set
+on the target server.
+
+[root@server2 iscsi]# iscsiadm -m node --targetname iqn.2014-04.be.linux-tra\
+ining:centos65.target1 --portal "192.168.1.95:3260" --op=update --name node.\
+session.auth.username --value=paul
+[root@server2 iscsi]# iscsiadm -m node --targetname iqn.2014-04.be.linux-tra\
+ining:centos65.target1 --portal "192.168.1.95:3260" --op=update --name node.\
+session.auth.password --value=hunter2
+[root@server2 iscsi]# iscsiadm -m node --targetname iqn.2014-04.be.linux-tra\
+ining:centos65.target1 --portal "192.168.1.95:3260" --op=update --name node.\
+session.auth.authmethod --value=CHAP
+
+RHEL and CentOS will store these in /var/lib/iscsi/nodes/.
+
+[root@server2 iscsi]# grep auth /var/lib/iscsi/nodes/iqn.2014-04.be.linux-tr\
+aining\:centos65.target1/192.168.1.95\,3260\,1/default 
+node.session.auth.authmethod = CHAP
+node.session.auth.username = paul
+node.session.auth.password = hunter2
+node.conn[0].timeo.auth_timeout = 45
+[root@server2 iscsi]# 
+
+129
+
+iSCSI devices
+
+A restart of the iscsi service will add three new devices to our system.
+
+[root@server2 iscsi]# fdisk -l | grep Disk
+Disk /dev/sda: 42.9 GB, 42949672960 bytes
+Disk identifier: 0x0004f229
+Disk /dev/sdb: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdc: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdd: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sde: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdf: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdg: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/VolGroup-lv_root: 41.4 GB, 41448112128 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/VolGroup-lv_swap: 973 MB, 973078528 bytes
+Disk identifier: 0x00000000
+[root@server2 iscsi]# service iscsi restart
+Stopping iscsi:                                            [  OK  ]
+Starting iscsi:                                            [  OK  ]
+[root@server2 iscsi]# fdisk -l | grep Disk
+Disk /dev/sda: 42.9 GB, 42949672960 bytes
+Disk identifier: 0x0004f229
+Disk /dev/sdb: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdc: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdd: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sde: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdf: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdg: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/VolGroup-lv_root: 41.4 GB, 41448112128 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/VolGroup-lv_swap: 973 MB, 973078528 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdh: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdi: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdj: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+
+You can verify iscsi status with:
+
+service iscsi status
+
+130
+
+iSCSI devices
+
+12.4.

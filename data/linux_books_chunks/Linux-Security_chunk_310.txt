@@ -1,0 +1,29 @@
+Try setting the i attribute on a file and
+test that it works.
+
+paul@laika:~$ sudo su -
+[sudo] password for paul: 
+root@laika:~# mkdir attr
+root@laika:~# cd attr/
+root@laika:~/attr# touch file42
+root@laika:~/attr# lsattr
+------------------ ./file42
+root@laika:~/attr# chattr +i file42 
+
+61
+
+ 
+ 
+advanced file permissions
+
+root@laika:~/attr# lsattr
+----i------------- ./file42
+root@laika:~/attr# rm -rf file42 
+rm: cannot remove `file42': Operation not permitted
+root@laika:~/attr# chattr -i file42 
+root@laika:~/attr# rm -rf file42 
+root@laika:~/attr#
+
+62
+
+Chapter 8.

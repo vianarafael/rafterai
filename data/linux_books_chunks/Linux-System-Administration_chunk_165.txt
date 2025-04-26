@@ -1,0 +1,14 @@
+Use the who am i command to determine your terminal name.
+
+4. Using your terminal name from above, use ps to find all processes associated with your
+terminal.
+
+5. What is the process id of your shell ?
+
+6. What is the parent process id of your shell ?
+
+7. Start two instances of the sleep 3342 in background.
+
+8. Locate the process id of all sleep commands.
+
+9.

@@ -1,0 +1,19 @@
+The sync option will write writes to disk before completing the client request.
+
+paul@laika:~$ cat /etc/exports 
+# Everyone can read this share
+/mnt/data/iso  *(ro)
+
+# Only the computers barry and pasha can readwrite this one
+/var/www pasha(rw) barry(rw)
+
+# same, but without root squashing for barry
+/var/ftp pasha(rw) barry(rw,no_root_squash)
+
+# everyone from the netsec.lan domain gets access
+/var/backup       *.netsec.lan(rw)
+
+# ro for one network, rw for the other
+/var/upload   192.168.1.0/24(ro) 192.168.5.0/24(rw)
+
+You don't need to restart the nfs server to start exporting your newly created exports.

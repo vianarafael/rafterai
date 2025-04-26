@@ -1,0 +1,10 @@
+Find the following paragraph in your /tmp/services ﬁ le (if it is not there, choose 
+
+a different paragraph) , and move it to the end of that ﬁ le.
+
+# Note that it is presently the policy of IANA to assign a single 
+   well-known
+# port number for both TCP and UDP; hence, most entries here have two
+    entries
+# even if the protocol doesn't support UDP operations.
+# Updated from RFC 1700, "Assigned Numbers" (October 1994).

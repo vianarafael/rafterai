@@ -1,0 +1,4 @@
+These can be used to restore 
+IPtables later on.
+
+Sets a default policy for a chain.

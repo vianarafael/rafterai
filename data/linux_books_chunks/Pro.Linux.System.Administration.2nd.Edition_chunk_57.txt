@@ -1,0 +1,9 @@
+For further information, 
+see https://wiki.ubuntu.com/LTS and https://access.redhat.com/support/policy/updates/errata
+
+Each chapter will provide examples of configuration for each distribution and document any 
+
+differences between the distributions such as the location of configuration files or the names of packages.
+
+Picking Hardware
+Detailed analysis on choosing appropriate hardware is beyond the scope of this book.

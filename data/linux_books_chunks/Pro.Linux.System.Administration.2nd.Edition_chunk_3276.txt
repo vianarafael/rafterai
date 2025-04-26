@@ -1,0 +1,4 @@
+For example, the Maildir directory 
+
+ ■ Note 
+belonging to the user ataylor must be owned and writable (with permissions of 0700) only by that user.

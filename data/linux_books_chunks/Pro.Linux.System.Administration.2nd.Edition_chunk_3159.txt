@@ -1,0 +1,6 @@
+Many 
+
+users expect much more from e-mail servers now, such as calendaring, messaging, and even document 
+management. They expect these features to work seamlessly on different devices. These collaboration 
+services are available under Linux with varying degrees of polish. Some are proprietary licensed, and 
+some are GPL or variations.

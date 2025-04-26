@@ -1,0 +1,13 @@
+Things become clearer when
+you enter icmp in the filter field and press the apply button.
+
+281
+
+network sniffing
+
+23.1.5. sniffing ping and dns
+
+Using the same capture as before, but now with a different filter. We want to see both dns
+and icmp traffic, so we enter both in the filter field.
+
+We put dns or icmp in the filter to achieve this.

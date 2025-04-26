@@ -1,0 +1,24 @@
+viewing all records
+
+Below an example of a simple select query to look at the contents of a table.
+
+mysql> select * from country;
++-------------+---------------+------------+----------------+
+| countrycode | countryname   | population | countrycapital |
++-------------+---------------+------------+----------------+
+| BE          | Belgium       |   11000000 | Brussels       |
+| CN          | China         | 1400000000 | Beijing        |
+| DE          | Germany       |   82000000 | Berlin         |
+| FR          | France        |   64000000 | Paris          |
+| IN          | India         | 1300000000 | New Delhi      |
+| JP          | Japan         |  128000000 | Tokyo          |
+| MX          | Mexico        |  113000000 | Mexico City    |
+| US          | United States |  313000000 | Washington     |
++-------------+---------------+------------+----------------+
+8 rows in set (0.00 sec)
+
+51
+
+introduction to sql using mysql
+
+3.5.3.

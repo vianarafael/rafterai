@@ -1,0 +1,6 @@
+You would put data that you want to keep permanently in 
+a ﬁ ling cabinet across the room (that’s like hard disk storage). You would put information 
+that you are currently using on your desk (that’s like RAM memory on a computer).
+
+Swap space is a way of extending RAM. It is really just a place to put temporary data 
+that doesn’t ﬁ t in RAM but is expected to be needed by the CPU at some point.

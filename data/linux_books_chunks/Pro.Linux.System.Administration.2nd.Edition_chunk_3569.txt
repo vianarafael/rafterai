@@ -1,0 +1,15 @@
+We do that by editing the main.cf file again.
+
+smtpd_milters = unix:/var/run/clamav-milter/clamav-milter.socket unix:/var/spool/opendkim/
+opendkim.socket
+
+We will add the opendkim group to the postfix user.
+
+$ sudo usermod –aG opendkim postfix
+
+We then will need to fix our SELinux policy.
+We can restart Postfix now too.
+
+$ sudo systemctl restart postfix
+
+We can now send ourselves an e-mail to one of our external addresses.

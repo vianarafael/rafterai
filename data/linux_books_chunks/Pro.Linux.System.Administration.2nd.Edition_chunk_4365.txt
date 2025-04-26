@@ -1,0 +1,5 @@
+Our head office is the OpenVPN server with an IP address of 10.8.0.1. Each 
+branch office has an IP address from that range—for example, you’ve seen the 10.8.0.6 IP address assigned to 
+the branch1.example.com office.
+
+Currently through our VPN tunnel, however, we can reach only the IP address 10.8.0.1.

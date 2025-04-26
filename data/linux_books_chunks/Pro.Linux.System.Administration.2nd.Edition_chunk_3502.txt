@@ -1,0 +1,5 @@
+The following requires 
+
+that the policycoreutils-python package be installed. Normally you can start your service, wait for it 
+to fail, check /var/log/audit/audit.log, and run the audit2allow command to remedy any SELinux 
+permission issues.

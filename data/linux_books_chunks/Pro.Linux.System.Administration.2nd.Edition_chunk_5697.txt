@@ -1,0 +1,12 @@
+You can read about these 
+
+ ■ Tip 
+at https://docs.puppet.com/puppet/4.8/lang_conditional.html.
+
+952
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+In Listing 19-11, if the value of the $facts['os']['name'] is CentOS, then the centos class is included 
+
+on this client. We can define more than one case, as long as they are strings separated by a comma.

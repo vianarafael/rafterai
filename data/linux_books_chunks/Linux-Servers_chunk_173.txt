@@ -1,0 +1,29 @@
+This screenshot shows an example.
+
+root@debian7:~# cd /var/www/hunter2/ 
+root@debian7:/var/www/hunter2# cat .htaccess 
+AuthUserFile /var/www/.htpasswd
+AuthName "Members only!"
+AuthType Basic
+require valid-user
+
+Note that we are protecting the website on port 9000 that we created earlier.
+
+And because we put the website for the Hackerspace named hunter2 in a subdirectory of the
+default website, we will need to adjust the AllowOvveride parameter in /etc/apache2/sites-
+available/default as this screenshot shows (with line numbers on Debian7, your may vary).
+
+9         <Directory /var/www/>
+10                 Options Indexes FollowSymLinks MultiViews
+11                 AllowOverride Authconfig
+12                 Order allow,deny
+13                 allow from all
+14         </Directory
+
+Now restart the apache2 server and test that it works!
+
+17
+
+apache web server
+
+1.5.

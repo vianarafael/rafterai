@@ -1,0 +1,4 @@
+There are two main categories of disaster: man-made disasters and 
+natural disasters. An e-mail server going down for a day, causing vital, time-sensitive business matters to be 
+missed, is a man-made disaster related to human error or mechanical malfunction that can have a process 
+of recovery associated with it.

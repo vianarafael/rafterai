@@ -1,0 +1,16 @@
+LV tools:
+
+lvcreate, lvextend, lvreduce, lvremove, lvchange, lvscan ... 
+
+43
+
+  
+  
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+We won't need to use or know all the above tools.

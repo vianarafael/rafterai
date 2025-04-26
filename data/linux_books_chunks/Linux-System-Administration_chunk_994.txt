@@ -1,0 +1,13 @@
+We discuss networking on two (large but distinct) Linux distribution
+families.
+
+We start with Debian (this should also work on Ubuntu and Mint), then continue with RHEL
+(which is identical to CentOS and Fedora).
+
+264
+
+interface configuration
+
+22.2. Debian nic configuration
+
+22.2.1.

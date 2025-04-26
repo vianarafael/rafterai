@@ -1,0 +1,28 @@
+running apache on Debian
+
+This is how you start apache2 on Debian.
+
+root@debian7:~# service apache2 status
+Apache2 is NOT running.
+root@debian7:~# service apache2 start
+Starting web server: apache2apache2: Could not reliably determine the server's \
+fully qualified domain name, using 127.0.1.1 for ServerName
+.
+
+To verify, run the service apache2 status command again or use ps.
+
+root@debian7:~# service apache2 status
+Apache2 is running (pid 3680).
+root@debian7:~# ps -C apache2
+  PID TTY          TIME CMD
+ 3680 ?        00:00:00 apache2
+ 3683 ?        00:00:00 apache2
+ 3684 ?        00:00:00 apache2
+ 3685 ?        00:00:00 apache2
+root@debian7:~#
+
+Or use wget and file to verify that your web server serves an html document.
+
+root@debian7:~# wget 127.0.0.1
+--2014-05-06 13:27:02--  http://127.0.0.1/
+Connecting to 127.0.0.1:80...

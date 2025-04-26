@@ -1,0 +1,8 @@
+It does have instructions on where to find an example file, which you can 
+see by issuing:
+
+$ cat /usr/share/doc/dhcp*/dhcpd.conf.example
+
+The configuration file consists of a set of global directives followed by one or more subnet definitions. 
+
+Comments are prefixed with hash marks (#).

@@ -1,0 +1,6 @@
+These include the New York Stock Exchange, the 
+Chicago Mercantile Exchange, and the Tokyo Stock Exchange.
+
+As “cloud” continues to be one of the hottest buzzwords today, a part of the cloud that isn’t hype is 
+that Linux and other open source technologies are the foundation on which today’s greatest cloud 
+innovations are being built.

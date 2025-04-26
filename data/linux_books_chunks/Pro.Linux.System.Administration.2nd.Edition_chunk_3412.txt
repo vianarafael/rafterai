@@ -1,0 +1,7 @@
+You’ll find postfix easy to configure, but others like exim and Qmail are also easy.
+
+561
+
+Chapter 12 ■ Mail ServiCeS
+
+You can find useful documentation at the Postfix home page (www.postfix.org/).

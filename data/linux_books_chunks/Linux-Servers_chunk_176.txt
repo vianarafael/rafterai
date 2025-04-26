@@ -1,0 +1,26 @@
+They are a model train club named Choo Choo, a chess club
+named Chess Club 42 and a hackerspace named hunter2.
+
+One way to put three websites on one web server, is to put each website on a different port.
+This screenshot shows three newly created virtual hosts, one for each customer.
+
+[root@CentOS65 ~]# vi /etc/httpd/conf.d/choochoo.conf
+[root@CentOS65 ~]# cat /etc/httpd/conf.d/choochoo.conf
+<VirtualHost *:7000>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html/choochoo
+</VirtualHost>
+[root@CentOS65 ~]# vi /etc/httpd/conf.d/chessclub42.conf
+[root@CentOS65 ~]# cat /etc/httpd/conf.d/chessclub42.conf
+<VirtualHost *:8000>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html/chessclub42
+</VirtualHost>
+[root@CentOS65 ~]# vi /etc/httpd/conf.d/hunter2.conf
+[root@CentOS65 ~]# cat /etc/httpd/conf.d/hunter2.conf
+<VirtualHost *:9000>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html/hunter2
+</VirtualHost>
+
+Notice  the  different  port  numbers  7000,  8000  and  9000.

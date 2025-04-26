@@ -1,0 +1,26 @@
+The child process from above is now the parent process.
+
+[paul@RHEL4b ~]$ bash
+[paul@RHEL4b ~]$ echo $$ $PPID
+4812 4224
+
+Typing exit will end the current process and brings us back to our original values for $$
+and $PPID.
+
+[paul@RHEL4b ~]$ echo $$ $PPID
+4812 4224
+[paul@RHEL4b ~]$ exit
+exit
+[paul@RHEL4b ~]$ echo $$ $PPID
+4224 4223
+[paul@RHEL4b ~]$
+
+5
+
+  
+  
+  
+  
+introduction to processes
+
+1.2.4.

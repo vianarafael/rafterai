@@ -1,0 +1,7 @@
+To do 
+that, highlight any process in the display (just click it). Then, from the menu  button 
+(button with three bars on it), select All Processes. You can modify processes you 
+don’t own only if you are the root user or if you can provide the root password when 
+prompted after you try to change a process.
+
+Sometimes, you don’t have the luxury of working with a graphical  interface.

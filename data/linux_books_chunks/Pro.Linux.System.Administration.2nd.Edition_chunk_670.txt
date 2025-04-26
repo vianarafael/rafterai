@@ -1,0 +1,7 @@
+You answer y to overwrite 
+or n to abort the copy.
+
+ On some older Red hat, Fedora, and CentOs distributions, the -i switch for the cp, mv, and rm 
+
+ ■ Note 
+commands is automatically set on by aliasing each command; for example, cp -i is aliased to cp.

@@ -1,0 +1,14 @@
+This can happen on a small scale (when you try to install one package) or 
+a grand scale (where you are trying to update or upgrade your entire system).
+
+568
+
+c21.indd  04/01/2015  Page 569
+
+Chapter 21: Troubleshooting Linux
+
+21
+
+Because of the short release cycles and larger repositories of Fedora and Ubuntu, inconsis-
+tencies in package dependencies are more likely to occur than they are in smaller, more 
+stable repositories (such as those offered by Red Hat Enterprise Linux).

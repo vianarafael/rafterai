@@ -1,0 +1,10 @@
+~/.bash_login
+
+When .bash_profile does not exist, then bash will check for ~/.bash_login and source it.
+
+Neither Debian nor Red Hat have this file by default.
+
+4.4. ~/.profile
+
+When neither ~/.bash_profile and ~/.bash_login exist, then bash will verify the existence
+of ~/.profile and execute it.

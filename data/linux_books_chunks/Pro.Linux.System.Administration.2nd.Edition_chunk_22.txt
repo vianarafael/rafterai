@@ -1,0 +1,6 @@
+In this section, we’ll explain what a distribution is, describe the ways in which 
+distributions differ, and suggest some strategies for selecting the right distribution for you.
+
+3
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

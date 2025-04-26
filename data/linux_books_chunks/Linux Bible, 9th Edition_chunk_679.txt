@@ -1,0 +1,8 @@
+The next 
+sections describe how to use metacharacters on the command line to change how com-
+mands behave.
+
+Piping between commands
+The pipe (|) metacharacter connects the output from one command to the input of another 
+command. This lets you have one command work on some data and then have the next 
+command deal with the results.

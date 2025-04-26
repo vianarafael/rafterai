@@ -1,0 +1,7 @@
+Create a mount point called /mnt/mypart, and mount the Linux partition on it.
+
+7.  Enable the swap partition, and turn it on so additional swap space is immediately 
+
+available.
+
+8.

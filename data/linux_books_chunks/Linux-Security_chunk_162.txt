@@ -1,0 +1,10 @@
+Verify that both users have correct entries in /etc/passwd, /etc/shadow and /etc/group.
+
+4. Verify that their home directory was created.
+
+5. Create a user named einstime with /bin/date as his default logon shell.
+
+7. What happens when you log on with the einstime user ? Can you think of a useful real
+world example for changing a user's login shell to an application ?
+
+8.

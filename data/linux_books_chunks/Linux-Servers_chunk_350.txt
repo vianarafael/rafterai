@@ -1,0 +1,25 @@
+The value
+for expiry time says how long the slave server will answer to queries, without receiving
+a zone update.
+
+Below  an  example  of  how  to  use  nslookup  to  query  the  soa  record  of  a  zone  (linux-
+training.be).
+
+root@debian6:~# nslookup 
+> set type=SOA
+> server ns1.openminds.be
+> linux-training.be
+Server:         ns1.openminds.be
+Address:        195.47.215.14#53
+
+linux-training.be
+        origin = ns1.openminds.be
+        mail addr = hostmaster.openminds.be
+        serial = 2321001133
+        refresh = 14400
+        retry = 3600
+        expire = 604800
+        minimum = 3600
+
+Zone transfers only occur when the zone database was updated (meaning when one or more
+resource records were added, removed or changed on the master server).

@@ -1,0 +1,43 @@
+GRANT Privileges
+
+SELECT
+
+INSERT
+
+UPDATE
+
+DELETE
+
+INDEX
+
+CREATE
+
+ALTER
+
+DROP
+
+Gives the ability to perform SELECT statements
+
+Gives the ability to perform INSERT statements
+
+Gives the ability to perform UPDATE statements
+
+Gives the ability to perform DELETE statements
+
+Gives the ability to create indexes on tables
+
+Gives the ability to create databases tables
+
+Gives the ability to alter database tables
+
+Gives the ability to drop database tables
+
+GRANT OPTION
+
+Gives the ability to grant the same privileges to other users
+
+ALL
+
+Gives all privileges except GRANT OPTION
+
+Let’s log in as the user we just created and create a user with access only to the mydb database.

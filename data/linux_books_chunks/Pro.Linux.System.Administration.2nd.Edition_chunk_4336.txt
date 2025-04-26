@@ -1,0 +1,5 @@
+The VPN is named for the gateway.conf configuration file.
+
+We are also able to see some log entries in the /var/log/openvpn.log file, as shown in Listing 15-5.
+
+Listing 15-5.

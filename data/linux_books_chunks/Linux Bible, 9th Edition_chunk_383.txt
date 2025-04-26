@@ -1,0 +1,5 @@
+It is the default desktop for the KNOPPIX live CD distribution. 
+Although LXDE is not included with RHEL, you can try it with Fedora or Ubuntu.
+
+GNOME was originally designed to resemble the MAC OS desktop, while KDE was meant 
+to emulate the Windows desktop environment.

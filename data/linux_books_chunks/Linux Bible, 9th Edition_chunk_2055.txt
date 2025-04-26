@@ -1,0 +1,6 @@
+While the gdisk command lets you manage partitions 
+that are potentially much larger the subcommands for creating, deleting, and changing 
+disk partitions are essentially the same as those available with fdisk.
+
+Viewing disk partitions
+To view disk partitions, use the fdisk command with the -l option.

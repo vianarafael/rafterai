@@ -1,0 +1,10 @@
+fdisk
+
+You can start by using /sbin/fdisk to find out what kind of disks are seen by the kernel.
+Below the result on old Debian desktop, with two ata-ide disks present.
+
+root@barry:~# fdisk -l | grep Disk
+Disk /dev/hda: 60.0 GB, 60022480896 bytes
+Disk /dev/hdb: 81.9 GB, 81964302336 bytes
+
+And here an example of sata and scsi disks on a server with CentOS.

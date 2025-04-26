@@ -1,0 +1,7 @@
+With the public zone selected, 
+just click the services you want to open. The port allowing access to that service is opened 
+immediately (when you select the Runtime conﬁ guration) and opened permanently (when 
+you select the Permanent conﬁ guration).
+
+One nice feature of the Firewall Conﬁ guration window is that, when you select to allow 
+access to a service, you do more than just open a port.

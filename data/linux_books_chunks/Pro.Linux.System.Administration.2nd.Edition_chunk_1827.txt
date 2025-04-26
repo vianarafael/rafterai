@@ -1,0 +1,9 @@
+If any dependencies are required, they 
+
+will also be downloaded, and you will be queried if you want to install them, too (unless you specify groups 
+install –y). If you don’t install all the required dependencies, then you will not be able to install the 
+package you require.
+
+Updating Your Repositories
+
+There are several files that make up a YUM repository cache.

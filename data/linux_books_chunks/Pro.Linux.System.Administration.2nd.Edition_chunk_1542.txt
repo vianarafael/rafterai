@@ -1,0 +1,30 @@
+Combining all this information, we can use 
+
+these commands in a script to bring up an interface, add an IP address, and add a route.
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+#!/bin/bash
+
+# bring up the interface
+ip link set enp0s8 up
+
+# add an address
+ip addr add 192.168.10.1/24 dev enp0s8
+
+# add a route
+ip route add 192.168.100.1 via 192.168.10.254 dev enp0s8
+
+# ping the host
+ping 192.168.100.1 –c 4
+
+# bring down the route, remove the address and bring down the interface.
+ip route del 192.168.100.1 via 192.168.10.254 dev enp0s8
+ip addr del 192.168.10.1/24 dev enp0s8
+ip link set enp0s8 down
+
+exit 0
+
+We have used the same command to control our interface, bringing it up, adding an address, and then 
+
+adding a route.

@@ -1,0 +1,4 @@
+This depends on how the destination has configured its e-mail environment. 
+Many environments have an Internet-facing e-mail gateway that receives mail and then internal e-mail 
+servers that process internal mail. This configuration allows features such as spam and virus filtering on your 
+e-mail gateway that are different from what you may have on your internal servers.

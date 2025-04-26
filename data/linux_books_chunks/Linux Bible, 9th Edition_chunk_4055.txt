@@ -1,0 +1,14 @@
+However, a few additional rules are necessary to increase secu-
+rity through user account management:
+
+ ■ One user per user account. 
+
+ ■ Limit access to the root user account.
+
+ ■ Set expiration dates on temporary accounts.
+
+ ■ Remove unused user accounts.
+
+One user per user account
+Accounts should enforce accountability. Thus, multiple people should not be logging in to 
+one account.

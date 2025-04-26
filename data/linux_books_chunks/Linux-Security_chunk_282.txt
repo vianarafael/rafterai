@@ -1,0 +1,10 @@
+This
+screenshot explains.
+
+paul@debian5~$ mkdir -m 700 MyDir
+paul@debian5~$ mkdir -m 777 Public
+paul@debian5~$ ls -dl MyDir/ Public/
+drwx------ 2 paul paul 4096 2011-10-16 19:16 MyDir/
+drwxrwxrwx 2 paul paul 4096 2011-10-16 19:16 Public/
+
+6.3.8.

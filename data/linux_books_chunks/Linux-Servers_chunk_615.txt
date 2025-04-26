@@ -1,0 +1,32 @@
+The latest version shows a more complete overview of machines and shares.
+
+paul@laika:~$ smbtree --version
+Version 3.0.24
+
+150
+
+getting started with samba
+
+paul@laika:~$ smbtree
+Password: 
+WORKGROUP
+ \\W2000          
+  \\W2000\firstshare     
+  \\W2000\C$              Default share
+  \\W2000\ADMIN$          Remote Admin
+  \\W2000\IPC$            Remote IPC
+PEGASUS
+ \\WINXP          
+cli_rpc_pipe_open: cli_nt_create failed on pipe \srvsvc to machine WINXP.
+Error was NT_STATUS_ACCESS_DENIED
+ \\RHEL4B                        Pegasus Domain Member Server
+  \\RHEL4B\ADMIN$                 IPC Service (Pegasus Domain Member Server)
+  \\RHEL4B\IPC$                   IPC Service (Pegasus Domain Member Server)
+  \\RHEL4B\domaindata             Active Directory users only
+ \\HM2003         
+cli_rpc_pipe_open: cli_nt_create failed on pipe \srvsvc to machine HM2003.
+Error was NT_STATUS_ACCESS_DENIED
+paul@laika:~$
+
+The previous screenshot also provides useful errors on why we cannot see shared info on
+computers winxp and w2003.

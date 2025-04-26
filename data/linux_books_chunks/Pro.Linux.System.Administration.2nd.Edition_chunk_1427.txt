@@ -1,0 +1,7 @@
+But how does it do that?
+
+Let’s look at this simplified example when you look up a page with your Internet browser. You enter and 
+
+address in the address bar and hit enter. The browser application takes this data and determines it needs 
+to send a request for a page from a web server by opening up a session. To do this it breaks the information 
+it needs to send into discrete packets.

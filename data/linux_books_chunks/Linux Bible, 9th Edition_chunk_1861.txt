@@ -1,0 +1,19 @@
+Here are the ﬁ elds you 
+need to ﬁ ll in:
+
+ ■ Account Type—Choose Standard (to create a regular user account) or Administrator 
+
+(to create an account that has root permission).
+
+259
+
+c11.indd  04/01/2015  Page 260
+
+Part III: Becoming a Linux System Administrator
+
+FIGURE 11.1
+
+Add user accounts from the User window.
+
+ ■ Full Name—Use the user’s real name, typically used with uppercase and lowercase 
+letters as the user would write it in real life.

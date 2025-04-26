@@ -1,0 +1,22 @@
+My friend Richard said he has 
+seen students who installed Skype on Linux in a way that causes Skype to use TCP port 80 
+when running in the background.
+
+472
+
+c17.indd  04/01/2015  Page 473
+
+Chapter 17: Confi guring a Web Server
+
+You can use the netstat command to view the list of programs (including Apache) with 
+TCP ports in the LISTEN state:
+
+# netstat -nltp
+Active Internet connections (only servers)
+Proto  Local Address  Foreign Address  State   PID/Program name
+tcp6   :::80          :::*             LISTEN  2105/httpd
+
+The output from netstat (which was shortened to ﬁ t here) indicates that an instance of 
+the httpd process with a process ID of 2105 is listening (as indicated by the LISTEN state) 
+for connections to any local IP address (indicated by :::80) on port 80 (the standard HTTP 
+port).

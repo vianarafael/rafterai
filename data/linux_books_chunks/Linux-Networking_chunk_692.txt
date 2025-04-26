@@ -1,0 +1,10 @@
+Use arp -a to make sure you are connected with the correct mac
+addresses.
+
+This can be done with "grep ip_forward /etc/sysctl.conf" (1 is enabled, 0 is disabled) or
+with sysctl -a | grep ip_for.
+
+root@router~# grep ip_for /etc/sysctl.conf 
+net.ipv4.ip_forward = 0
+
+4. Ping from the leftnet computer to the rightnet computer.

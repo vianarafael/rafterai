@@ -1,0 +1,6 @@
+The Depends section also details the 
+packages it needs to be installed prior to the package itself being installed, which are called dependencies.
+
+Examining Package Contents
+In addition to description information about packages, you can also query what files it installed and which 
+directories it installed them to.

@@ -1,0 +1,5 @@
+It fails, and you receive the message “iptables: Bad policy name.” 
+Use DROP as your policy instead.
+
+Host-B attempts to ping Host-A and then attempts an ssh connection as shown in the 
+example that follows. As you can see, both attempts fail.

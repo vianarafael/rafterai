@@ -1,0 +1,11 @@
+newgrp
+
+You  can  start  a  child  shell  with  a  new  temporary  primary  group  using  the  newgrp
+command.
+
+root@rhel65:~# mkdir prigroup
+root@rhel65:~# cd prigroup/
+root@rhel65:~/prigroup# touch standard.txt
+root@rhel65:~/prigroup# ls -l
+total 0
+-rw-r--r--.

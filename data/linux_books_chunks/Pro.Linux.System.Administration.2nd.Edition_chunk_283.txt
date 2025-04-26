@@ -1,0 +1,5 @@
+But it does allow you to further 
+explore LXC container software like Docker if you are coming from the Windows and Mac world, which 
+requires the Linux kernel to run.
+
+VirtualBox also allows you to run up many different operating systems on your desktop.

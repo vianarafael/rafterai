@@ -1,0 +1,5 @@
+To overcome this issue, logical volume management (LVM) was created.
+
+Rather than splitting a disk into a fixed number of partitions that are stored on a fixed area of the disk, 
+
+LVM amalgamates one or more partitions or devices into a single logical volume group.

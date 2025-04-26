@@ -1,0 +1,8 @@
+When the system boots, all settings in this file are 
+applied to the system via the sysctl -p command.
+
+On Ubuntu, instead of directly editing /etc/sysctl.conf, you can create a file in /etc/
+
+sysctl.d/<number>-<option-name>.conf, and they will be read in at boot.
+
+On CentOS you will find the default system settings in /usr/lib/sysctl.d.

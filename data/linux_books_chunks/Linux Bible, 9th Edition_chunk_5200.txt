@@ -1,0 +1,9 @@
+Make the script executable:
+
+$ chmod 755 $HOME/bin/myownscript
+
+2.  To create a script that reads in three positional parameters from the command line, 
+assigns those parameters to variables named ONE, TWO, and THREE, respectively, 
+and then outputs that information in the speciﬁ ed format, do the following:
+
+a. Replace X with the number of parameters and Y with all parameters entered.

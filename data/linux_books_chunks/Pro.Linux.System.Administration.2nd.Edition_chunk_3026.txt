@@ -1,0 +1,3 @@
+These certificates generally require regular payment, for example, yearly or biannually. The prices vary 
+depending on the type and number of certificates. The root certificates of most commercial CAs are bundled 
+with clients such as browsers, mail clients, and other tools that use SSL/TLS connections.

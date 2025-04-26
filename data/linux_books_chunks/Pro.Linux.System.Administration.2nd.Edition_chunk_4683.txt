@@ -1,0 +1,5 @@
+As we have 
+mentioned earlier, if you have SASL set up, you can bind without sending the password across the wire, 
+with the simple authentication method the password is sent to be verified on the LDAP server, so it should 
+be sent over a secure transport like TLS. The -x will make ldapadd use the simple method. -W tells ldapadd 
+that we want to be prompted for a password.

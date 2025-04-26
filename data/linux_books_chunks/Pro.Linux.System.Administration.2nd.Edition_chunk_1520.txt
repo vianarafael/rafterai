@@ -1,0 +1,7 @@
+Host A does not know that Host B has the 192.168.1.0/24 network attached to its enp0s9 interface, nor does 
+Host C know that Host B has the 192.168.0.0/24 network attached to its enp0s8 interface.
+
+ we are going to use the ip command to explore our route tables. But first you need to know that 
+
+ ■ Note 
+there are different route tables. By default there is a main, local and default.

@@ -1,0 +1,6 @@
+Others include tools for graphing web statistics (awstats) or offer 
+lightweight web server alternatives to Apache (lighttpd and cherokee).
+
+Installing Apache
+Although you only need httpd to get started with an Apache web server, if you are just 
+learning about Apache, you should install the manuals (httpd-manual) as well.

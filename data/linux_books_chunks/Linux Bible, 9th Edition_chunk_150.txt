@@ -1,0 +1,5 @@
+Appendix A, “Media,” provides guidance on downloading Linux distributions. Appendix B, 
+“Exercise Answers,” provides sample solutions to the exercises included in chapters 2 through 26.
+
+Conventions Used in This Book
+Throughout the book, special typography indicates code and commands.

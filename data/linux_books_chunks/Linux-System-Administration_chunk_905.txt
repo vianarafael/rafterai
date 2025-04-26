@@ -1,0 +1,16 @@
+rpm -e
+
+To remove a package, use the -e switch.
+
+root@RHELv4u4:~# rpm -e gcc-3.4.6-3
+
+rpm -e verifies dependencies, and thus will prevent you from accidentailly erasing packages
+that are needed by other packages.
+
+[root@RHEL52 ~]# rpm -e gcc-4.1.2-42.el5
+error: Failed dependencies:
+gcc = 4.1.2-42.el5 is needed by (installed) gcc-c++-4.1.2-42.el5.i386
+gcc = 4.1.2-42.el5 is needed by (installed) gcc-gfortran-4.1.2-42.el5.i386
+gcc is needed by (installed) systemtap-0.6.2-1.el5_2.2.i386
+
+20.6.6.

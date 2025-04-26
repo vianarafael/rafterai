@@ -1,0 +1,10 @@
+If you are looking for a stable 
+ system, Red Hat Enterprise Linux is a better bet because it provides updates for 
+each major release for seven years or more.
+
+If you use the apt-get command in Ubuntu to update your packages, keep in mind that there are different 
+ meanings to the update and upgrade options in Ubuntu with apt-get than with the yum command 
+(Fedora and RHEL).
+
+In Ubuntu, apt-get update causes the latest packaging metadata (package names, version numbers, and 
+so on) to be downloaded to the local system.

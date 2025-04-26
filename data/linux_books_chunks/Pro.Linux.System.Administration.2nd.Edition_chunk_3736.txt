@@ -1,0 +1,4 @@
+There are local user accounts on the Linux server for 
+jsmith and bsingh too.
+
+On the Samba server, we will create a user that we will use as a set of shared credentials for mounting.

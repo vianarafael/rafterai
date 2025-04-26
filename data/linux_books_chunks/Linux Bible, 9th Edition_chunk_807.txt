@@ -1,0 +1,21 @@
+This approach to 
+assigning groups is referred to as the user private group scheme.
+
+For now, type the following:
+
+$ chmod 700 test
+
+101
+
+ 
+ 
+ 
+ 
+c04.indd  04/01/2015  Page 102
+
+Part II: Becoming a Linux Power User
+
+This step changes the permissions of the directory to give you complete access and 
+everyone else no access at all. (The new permissions should read rwx------.)
+
+5.

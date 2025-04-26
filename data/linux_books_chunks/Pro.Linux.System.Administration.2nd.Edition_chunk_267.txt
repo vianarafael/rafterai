@@ -1,0 +1,5 @@
+For example, if an 
+installation kernel does not support the disk controller, the installer will be unable to access hard disks. 
+If this happens, check which kernel version is included on the installation disc and verify that it in fact 
+supports your hardware. A newer version of your distribution, with support for more and newer hardware, 
+might be available.

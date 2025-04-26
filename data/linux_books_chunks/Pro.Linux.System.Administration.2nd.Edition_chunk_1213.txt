@@ -1,0 +1,5 @@
+The OnCalendar option 
+
+specifies when we should run the service, and that can be specified by the day of the week, the year, 
+the month, the day, and then HH:MM:SS or any number of ways! There is a full list of options in man 7 
+systemd.timer. Asterisks (*) mean any value and this is shorthand for daily (*-*-*).

@@ -1,0 +1,22 @@
+logon scripts
+
+Before testing a logon script, make sure it has the proper carriage returns that DOS files have.
+
+[root@RHEL4b netlogon]# cat start.bat 
+net use Z: \\DCSPORTS0\SPORTS
+[root@RHEL4b netlogon]# unix2dos start.bat 
+unix2dos: converting file start.bat to DOS format ...
+[root@RHEL4b netlogon]# 
+
+Then copy the scripts to the netlogon share, and add the following parameter to smb.conf.
+
+logon script = start.bat
+
+258
+
+ 
+ 
+ 
+samba domain controller
+
+23.13.

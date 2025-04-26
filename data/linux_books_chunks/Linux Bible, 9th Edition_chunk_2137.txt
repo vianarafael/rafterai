@@ -1,0 +1,29 @@
+Check to see that the ﬁ lesystem is now resized to include the additional 
+
+disk space.
+
+300
+
+ 
+ 
+ 
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 301
+
+Chapter 12: Managing Disks and Filesystems
+
+# df -h /mnt/mymusic/
+Filesystem               Size  Used Avail Use% Mounted on
+/dev/mapper/myvg0-music  194M  5.6M  179M   3% /mnt/mymusic
+
+You can see that the ﬁ lesystem is now about 100MB larger.
+
+Mounting Filesystems
+Now that you have had a chance to play with disk partitioning and ﬁ lesystems, I’m going 
+to step back and talk about how ﬁ lesystems are set up to connect permanently to your 
+Linux system.
+
+Most of the hard disk partitions created when you install Linux are mounted automatically 
+for you when the system boots.

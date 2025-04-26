@@ -1,0 +1,1 @@
+Typically, Shadow Passwords and MD5 Passwords are selected.

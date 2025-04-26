@@ -1,0 +1,14 @@
+If we see the perspective from jsmith, we 
+can see that it too does not have access.
+
+[jsmith@backup]
+$ cp text.file /data/sales/
+cp: cannot create regular file '/data/sales/text.file': Permission denied
+[jsmith@backup ~]$ ll /data/
+ls: cannot access /data/sales: Permission denied
+total 20
+d?????????? ? ?        ?         ?            ? sales
+
+The user jsmith cannot even see the permissions on the /data/sales directory, which is the reason for 
+
+????.

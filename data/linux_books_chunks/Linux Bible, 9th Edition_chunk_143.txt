@@ -1,0 +1,12 @@
+Although this book most thoroughly cov-
+ers Red Hat distributions, I have increased coverage of Ubuntu throughout in this edition 
+(because that’s what many of the biggest Linux fans start with).
+
+xxxiii
+
+ﬂ ast.indd  04/02/2015  Page xxxiv
+
+Introduction
+
+ ■ Many, many demos and exercises: Instead of just telling you what Linux does, I 
+actually show you what it does.

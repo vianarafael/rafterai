@@ -1,0 +1,16 @@
+But generally, if postfix can’t find a recipient for the e-mail (e.g., if an e-mail is sent to bjones@
+example.com and postfix doesn’t know about this user), the e-mail will be rejected.
+
+When we want Postfix to receive e-mail for other domains (for example, we want to receive e-mail from 
+
+the example.net domain also), we’d add that domain to the mydestination option.
+
+mydestination = mail.example.com, localhost.localdomain, localhost,
+example.com, example.net
+
+535
+
+Chapter 12 ■ Mail ServiCeS
+
+The other entries, which will generally already be present, include localhost, which tells Postfix to 
+process e-mail that is local to the host, for example, e-mail sent by a local process.

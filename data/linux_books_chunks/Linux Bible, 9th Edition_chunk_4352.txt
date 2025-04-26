@@ -1,0 +1,5 @@
+This means that the company has the keys needed to 
+decrypt your fi les and can leave your organization’s data vulnerable. Encrypting fi les on your Linux system before they 
+are sent to the cloud adds the extra layer of protection needed.
+
+However, you can use several other cryptography tools on a Linux system to encrypt ﬁ les.

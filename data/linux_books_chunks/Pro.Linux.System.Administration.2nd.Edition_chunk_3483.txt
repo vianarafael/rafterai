@@ -1,0 +1,14 @@
+Here is an example:
+
+require ["fileinto" ];
+
+There are many other commands to use, and you can find the list available to you by running the 
+
+following command:
+
+$ doveconf -n managesieve_sieve_capability
+fileinto reject envelope encoded-character vacation subaddress comparator-i;ascii-numeric 
+relational regex imap4flags copy include variables body enotify environment mailbox date 
+ihave
+
+We are going to use a conditional if statement to store our spam into our spam folder.

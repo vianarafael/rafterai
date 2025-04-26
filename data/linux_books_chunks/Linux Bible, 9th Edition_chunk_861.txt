@@ -1,0 +1,7 @@
+The r 
+stands for read, the w stands for write, and the x stands for execute permissions. If a dash 
+appears instead of the letter, it means that permission is turned off for that associated 
+read, write, or execute bit.
+
+Because ﬁ les and directories are different types of elements, read, write, and execute 
+ permissions on ﬁ les and directories mean different things.

@@ -1,0 +1,25 @@
+If your client trusts the certificate, a connection is initiated and is encrypted 
+between the client and server using the server’s public certificate.
+
+ in some cases your client will tell you it isn’t sure whether to trust the certificate and will prompt you 
+
+ ■ Tip 
+to make a decision about whether you trust the server.
+
+There are four types of certificates that you need to know about, and there are pros and cons with using 
+
+each type.
+
+•	 Certificates issued by a commercial CA
+
+•	 Certificates issued by a noncommercial CA
+
+•	 Certificates issued by a self-managed CA
+
+•	
+
+Self-signed certificates
+
+Certificates from Commercial Certificate Authorities
+
+Certificates from commercial CAs are issued by popular providers such as VeriSign, Thawte, or Comodo.

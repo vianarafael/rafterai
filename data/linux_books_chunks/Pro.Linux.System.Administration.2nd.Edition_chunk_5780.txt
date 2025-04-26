@@ -1,0 +1,9 @@
+We will actions that require escalated privileges 
+with sudo (so the user executing this playbook must already have sudo privileges on the target host). We are 
+going to gather facts about the host and use them in our playbook.
+
+964
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+In the vars section we have specified some variables that we will use in our playbook.

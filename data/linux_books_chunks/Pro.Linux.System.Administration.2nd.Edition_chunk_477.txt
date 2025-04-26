@@ -1,0 +1,11 @@
+SSH Connections
+
+$ ssh  jsmith@us-ny-server-1.example.com
+Password:
+
+In Listing 4-1, we’ve connected to a host called us-ny-server-1.example.com as the user jsmith. We’ve 
+then been prompted to input our password. If we have entered the correct password, we will be logged in to 
+the command line of the remote host.
+
+ ■ Caution 
+com doesn’t exist.

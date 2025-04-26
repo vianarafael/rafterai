@@ -1,0 +1,13 @@
+chris chris unconfined_u:object_r:httpd_sys_content_t:s0 
+
+     test.html
+
+6.  To list a current process’s security context and identify the different security con-
+
+text attributes, type this at the command line:
+
+$ ps -efZ | grep crond
+system_u:system_r:crond_t:s0-s0:c0.c1023 root 665  1  0 
+    Sep18 ?   00:00:00 /usr/sbin/crond -n
+
+a.

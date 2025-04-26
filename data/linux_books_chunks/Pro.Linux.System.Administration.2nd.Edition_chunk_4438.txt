@@ -1,0 +1,11 @@
+LDAP resulted from the Directory Access Protocol not 
+having TCP/IP capabilities.
+
+ For more information on the X.500 OSi protocol, please see http://en.wikipedia.org/
+
+ ■ Note 
+wiki/X.500.
+
+Several common types of directory services exist, and they are all derived from the X.500 DAP OSI 
+
+model.

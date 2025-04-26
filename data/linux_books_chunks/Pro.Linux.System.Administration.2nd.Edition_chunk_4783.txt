@@ -1,0 +1,9 @@
+Providing the LDAP password
+
+You will be able to provide an LDAP username and password with CentOS too, without having to 
+
+configure anything special.
+
+How PAM Works
+As explained in Chapter 5, Linux can use Pluggable Authentication Modules (PAM) to authenticate services 
+against your LDAP service.

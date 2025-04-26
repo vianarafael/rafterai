@@ -1,0 +1,7 @@
+The Linux kernel uses Coordinated Universal Time (UTC) 
+as its clock source but you can set your appropriate time zone here. You might also consider setting all your 
+servers to UTC rather than a local time zone.
+
+WHY SET ALL YOUR SERVERS TO UTC?
+
+Consider you are building the infrastructure for a brand-new application.

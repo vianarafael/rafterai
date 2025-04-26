@@ -1,0 +1,12 @@
+Limit one shared directory to the 192.168.1.0/24 subnet, and another share to the two
+computers with ip-addresses 192.168.1.33 and 172.17.18.19.
+
+hosts allow = 192.168.1.
+
+hosts allow = 192.168.1.33, 172.17.18.19
+
+7. Make sure the computer with ip 192.168.1.203 cannot access the budget share.
+
+hosts deny = 192.168.1.203
+
+8.

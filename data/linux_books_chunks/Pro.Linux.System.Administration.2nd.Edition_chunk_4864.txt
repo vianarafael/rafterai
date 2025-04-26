@@ -1,0 +1,10 @@
+This host has low swap space, and 
+
+the CPU spends most of its time idle.
+
+Disk Access
+The vmstat utility will also give us information on how much data is being read from and written to disk. 
+We’ve highlighted the bi (blocks in) and bo (blocks out) columns in the io group in Figure 17-4. By passing a 
+second number as a parameter, we’ve told vmstat to quit after five intervals.
+
+Figure 17-4.

@@ -1,0 +1,13 @@
+Some NFS clients require this, because they do not have access to NFS-reserved ports.
+
+3.  On the NFS server, restart the nfs-server service or, if it is already running, 
+
+you can simply export the shared directory as follows:
+
+# exportfs -a -r -v
+
+4.  On the NFS server, make sure the appropriate ports are open on the ﬁ rewall. 
+
+See the section “Securing Your NFS Server” for details.
+
+5.

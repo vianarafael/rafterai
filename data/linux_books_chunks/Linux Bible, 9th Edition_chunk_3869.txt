@@ -1,0 +1,16 @@
+For example:
+
+21
+
+# ls /etc/systemd/system/multi-user.target.wants/
+abrt-ccpp.service     chronyd.service         nfs.target
+abrtd.service         crond.service           nmb.service
+abrt-oops.service     cups.path               remote-fs.target
+abrt-vmcore.service   httpd.service           rngd.service
+abrt-xorg.service     irqbalance.service      smb.service
+atd.service           mcelog.service          sshd.service
+auditd.service        mdmonitor.service       vmtoolsd.service
+autofs.service        ModemManager.service    vsftpd.service
+avahi-daemon.service  NetworkManager.service
+
+These ﬁ les are symbolic links to ﬁ les that deﬁ ne what starts for each of those services.

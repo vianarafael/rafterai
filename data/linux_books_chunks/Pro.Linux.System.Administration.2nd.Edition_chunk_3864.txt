@@ -1,0 +1,13 @@
+Ready and waiting for jobs
+
+Our printer is now ready for jobs. We will now attach that to a client. On our macOS client we can again 
+
+select our printer and add it (Figures 13-13 and 13-14).
+
+Figure 13-13.  Bonjour finds our print server
+
+633
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Figure 13-14.

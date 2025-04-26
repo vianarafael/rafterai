@@ -1,0 +1,4 @@
+The content_filter option tells Postfix that we want all e-mail 
+delivered to the smtp service to be sent to a filter called spamassassin.
+
+We now need to define this filter. To do this, we add the filter to the bottom of the master.cf file.

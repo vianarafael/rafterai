@@ -1,0 +1,8 @@
+It informs you it will perform the synchronization as fast as it can, but never slower than 1,000 
+KB per second per disk and never faster than 200,000 KB per second in total.
+
+ ■ Tip  We’ll show you how to change the synchronization speed in Chapter 17.
+
+To check on the status of our RAID device, you can use the mdadm utility in query mode with the --detail 
+
+option.

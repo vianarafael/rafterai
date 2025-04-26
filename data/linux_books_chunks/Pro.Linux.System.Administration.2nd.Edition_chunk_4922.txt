@@ -1,0 +1,13 @@
+This provides a lighter, stateless interface 
+into your metrics from any number of third-party graphical web UIs.
+
+Graphite Installation
+
+The Graphite components are easily installed using the common packaging tools, YUM and Apt, or via Pip 
+(the Python packaging tool).
+
+On CentOS you can install Graphite with the following:
+
+$ sudo yum install -y python-carbon
+
+This will install carbon-cache and the Whisper database (python-whisper).

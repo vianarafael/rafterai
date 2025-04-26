@@ -1,0 +1,10 @@
+Changing Permissions
+
+# chmod u+x myfile
+# chmod u-x,og+w myfile
+# chmod 654 myfile
+
+In Listing 4-11, we’ve changed the myfile file’s permissions three times. Permission changes are 
+
+performed by specifying the class, the action you want to perform, the permission itself, and then the file you 
+want to change. In our first example, you can see u+x.

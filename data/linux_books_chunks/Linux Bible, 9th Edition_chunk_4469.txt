@@ -1,0 +1,13 @@
+Administrative users 
+now must use sudo, which the system tracks and which provides a desired nonrepudiation 
+ environment (see Chapter 22, “Understanding Basic Linux Security”).
+
+664
+
+c23.indd  04/01/2015  Page 665
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Locking accounts with PAM
+Your organization’s speciﬁ c security requirements may call for locking a user account after 
+a certain number of failed login attempts.

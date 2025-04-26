@@ -1,0 +1,15 @@
+That should be accompanied with a slowdown of system performance.
+
+ ■ As the top screen redraws every few seconds, if there is a process with a memory 
+leak (continuously asking for and using more memory, but not giving any memory 
+back), the amount of VIRT memory grows, but more important, the RES memory 
+continues to grow for that process.
+
+ ■ If the Swap space actually runs out, the kernel starts to kill off processes to deal 
+
+with this out-of-memory condition.
+
+Dealing with memory problems
+In the short term, you can do several things to deal with this out-of-memory condition:
+
+ ■ Kill a process.

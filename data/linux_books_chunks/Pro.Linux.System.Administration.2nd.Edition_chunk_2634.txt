@@ -1,0 +1,7 @@
+With recent versions of bind (bind v9.7 and above), we can use auto key signing which will 
+automatically sign and resign zones at the defined intervals. From version 9.9 onward we can use a feature 
+called “inline” key signing.
+
+There are two kinds of records we can create, NSEC and NSEC3. Depending on your requirements you 
+
+can implement whichever is appropriate.

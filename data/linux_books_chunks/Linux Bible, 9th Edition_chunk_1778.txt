@@ -1,0 +1,2 @@
+Use it with 
+a package base name to ﬁ nd the version and repository for a package.

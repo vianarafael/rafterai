@@ -1,0 +1,12 @@
+To use the lpr command to print the /etc/hosts ﬁ le, type the following:
+
+$ lpr /etc/hosts -P myprinter
+
+4.  To check the print queue for that printer, type the following:
+
+# lpq -P myprinter
+myprinter is not ready
+Rank    Owner   Job     File(s)             Total Size
+1st     root    655     hosts               1024 bytes
+
+5.

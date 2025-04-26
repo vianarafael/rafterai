@@ -1,0 +1,8 @@
+Likewise, if you sent 
+a print job to the wrong printer, the Move Job selection can be useful. From the 
+Administration tab, click Manage Jobs; then click Show Active Jobs to see what 
+print jobs are currently in the queue for the printer. Select the Cancel Job button 
+next to the print job you want to cancel, or select Move Job to move the print job 
+to a different printer.
+
+ ■ View printers.

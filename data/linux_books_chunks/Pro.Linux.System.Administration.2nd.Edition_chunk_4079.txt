@@ -1,0 +1,3 @@
+It then 
+makes a direct connection to the Storage daemon and sends the backup data to the Storage daemon to be 
+written to the backup media.

@@ -1,0 +1,6 @@
+However, because the ﬁ le is in a sticky bit directory, only root and mary can delete that ﬁ le.
+
+Centralizing User Accounts
+Although the default way of authenticating users in Linux is to check user information 
+against the /etc/passwd ﬁ le and passwords from the /etc/shadow ﬁ le, you can 
+authenticate in other ways as well.

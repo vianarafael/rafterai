@@ -1,0 +1,3 @@
+To 
+change this, simply edit the /etc/inittab ﬁ le using your favorite editor and change the 
+5 to one of the following runlevels: 2, 3, or 4.

@@ -1,0 +1,6 @@
+Most client applications on PCs ran locally, using local 
+ processing power, disk space, memory, and other hardware features, while not allowing 
+applications that didn’t start from the local system.
+
+X itself provides a plain gray background and a simple “X” mouse cursor. There are no 
+menus, panels, or icons on a plain X screen.

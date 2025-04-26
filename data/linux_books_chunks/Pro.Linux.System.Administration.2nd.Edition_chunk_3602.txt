@@ -1,0 +1,11 @@
+Dovecot Authentication Log Entries
+
+Sep  6 10:19:49 ip-10-0-10-154 dovecot: imap-login: Login: user=<jsmith>, method=PLAIN, 
+rip=203.217.94.151, lip=10.0.10.154, mpid=2762, TLS, session=<aqdGfdc72ADL2V6X>
+Sep  6 10:25:18 ip-10-0-10-154 dovecot: imap(jsmith): Disconnected: Disconnected in IDLE 
+in=1186 out=120979
+
+Troubleshooting Dovecot
+
+If something doesn’t work or you can’t connect to your Dovecot server, then we recommend the first place 
+you look is in the log files.

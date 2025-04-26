@@ -1,0 +1,24 @@
+You can get help with the following:
+
+$ chronyc help
+
+Chrony provides tracking information, different metrics about the time service, from the command line:
+
+$ chronyc tracking
+Reference ID    : 192.189.54.33 (warrane.connect.com.au)
+Stratum         : 3
+Ref time (UTC)  : Sat Oct  1 00:51:03 2016
+System time     : 0.000043108 seconds slow of NTP time
+Last offset     : -0.000094345 seconds
+RMS offset      : 0.027604111 seconds
+Frequency       : 459.036 ppm slow
+Residual freq   : -0.012 ppm
+Skew            : 0.430 ppm
+Root delay      : 0.075154 seconds
+Root dispersion : 0.012796 seconds
+Update interval : 260.5 seconds
+Leap status     : Normal
+
+We can see from the the foregoing that we have various metrics describing our system time and our 
+
+clock accuracy.

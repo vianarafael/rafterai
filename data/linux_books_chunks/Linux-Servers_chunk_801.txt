@@ -1,0 +1,27 @@
+setenforce
+
+You  can  use  setenforce  to  switch  between  the  Permissive  or  the  Enforcing  state  once
+selinux is activated..
+
+[root@rhel55 ~]# setenforce Enforcing
+[root@rhel55 ~]# getenforce 
+Enforcing
+[root@rhel55 ~]# setenforce Permissive
+[root@rhel55 ~]# getenforce 
+Permissive
+
+Or you could just use 0 and 1 as argument.
+
+[root@centos65 ~]# setenforce 1
+[root@centos65 ~]# getenforce 
+Enforcing
+[root@centos65 ~]# setenforce 0
+[root@centos65 ~]# getenforce 
+Permissive
+[root@centos65 ~]#
+
+211
+
+introduction to SELinux
+
+19.6.

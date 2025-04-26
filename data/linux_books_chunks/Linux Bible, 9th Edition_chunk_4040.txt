@@ -1,0 +1,11 @@
+After the system boots up, look at the messages that were produced in the kernel 
+
+ring buffer that show the activity of the kernel as it booted up.
+
+7.  In Fedora or RHEL, run a trial yum update and exclude any kernel package that 
+
+is available.
+
+8.  Check to see what processes are listening for incoming connections on your system.
+
+9.

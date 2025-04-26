@@ -1,0 +1,22 @@
+We need now to make some similar filesystem changes like 
+we did for the remote service.
+
+First we need to give access to the state file that keeps track of what journals we have sent and give 
+
+access to the journal logs that are stored in /run/log/journal.
+
+$ sudo chown systemd-journal-upload /var/lib/systemd/journal-upload
+$ sudo usermod –aG systemd-journal systemd-journal-upload
+
+We are now ready to start our journal uploader.
+
+$ sudo systemctl enable systemd-journal-upload
+$ sudo systemctl start systemd-journal-upload
+
+We should, very shortly, start seeing logs coming into the /var/log/journal/remote directory on the 
+
+backup.example.com host.
+
+[jsmith@backup ~]$ sudo ls -l /var/log/journal/remote/
+total 16388
+-rw-r-----.

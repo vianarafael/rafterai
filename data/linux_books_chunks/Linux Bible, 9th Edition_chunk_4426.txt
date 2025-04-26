@@ -1,0 +1,5 @@
+1 root root 14 Feb 28 01:36
+ system-auth -> system-auth-ac
+
+Not every Linux distribution, such as Ubuntu, has the authconfig utility, which overwrites PAM confi guration fi les. 
+To check whether your distribution has the authconfig utility, type which authconfig at the command line.

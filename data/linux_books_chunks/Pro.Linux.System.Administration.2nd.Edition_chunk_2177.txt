@@ -1,0 +1,3 @@
+The “Errors behaviour” indicates what will happen if there 
+are filesystem errors. In this case, we “continue” if we detect errors, but the other options are “remount-ro” 
+(remount the filesystem as read-only), or “panic,” which causes a kernel panic which halts the system.

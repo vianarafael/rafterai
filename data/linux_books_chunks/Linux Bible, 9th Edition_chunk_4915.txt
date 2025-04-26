@@ -1,0 +1,15 @@
+On the latest Fedora and RHEL systems, type the following 
+
+to start the NFS server:
+
+# systemctl start nfs-server.service
+# systemctl enable nfs-server.service
+
+  On RHEL 6, older Fedora and some Ubuntu systems, use these commands to start 
+
+and enable the NFS service:
+
+# service nfs start
+# chkconfig nfs on
+
+b.  Open the firewall.

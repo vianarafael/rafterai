@@ -1,0 +1,4 @@
+The browseable = no setting 
+prevents the Samba server from displaying the availability of the shared home directories. 
+Users who can provide their own Samba usernames and passwords can read and write in 
+their own home directories (writable = yes).

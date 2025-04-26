@@ -1,0 +1,6 @@
+This is especially true with all Linux systems’ conﬁ guration ﬁ les and others.
+
+Securing the fi lesystem
+Another important part of securing your Linux system is setting proper ﬁ lesystem security. 
+The basics for security settings were covered in Chapter 4 and Access Control Lists (ACL) 
+in Chapter 11.

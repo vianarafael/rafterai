@@ -1,0 +1,8 @@
+Today, telnet and similar 
+ commands should be used only for testing access to remote ports, providing public services 
+such as PXE booting, or doing other tasks that don’t expose your private data.
+
+For a deeper discussion of encryption techniques, refer to Chapter 23, “Understanding Advanced Linux Security.”
+
+Most Linux systems include secure shell clients, and many include the secure shell server 
+as well.

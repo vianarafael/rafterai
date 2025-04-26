@@ -1,0 +1,10 @@
+You can use the setfacl command for this:
+
+$ sudo setfacl -m u:syslog:rx /etc/ssl/private
+$ sudo setfacl -m u:syslog:r /etc/ssl/private/nfs.example.com.key
+
+The root user runs the rsyslogd service on CentOS and does not need changing.
+
+Configuring RELP Client
+
+We will start with the RELP client configuration.

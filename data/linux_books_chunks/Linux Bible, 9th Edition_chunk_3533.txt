@@ -1,0 +1,10 @@
+You 
+can add write permission for a group by putting a plus (+) character in front of a name. For 
+example, the following adds write access for the market group to the share with which 
+this line is associated:
+
+19
+
+write list = jim, chris, +market
+
+There are many ways to change and extend the features of your shared Samba resources.

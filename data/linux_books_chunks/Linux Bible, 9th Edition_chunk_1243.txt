@@ -1,0 +1,1 @@
+Also, the root user has permission to access ﬁ les owned by any user.

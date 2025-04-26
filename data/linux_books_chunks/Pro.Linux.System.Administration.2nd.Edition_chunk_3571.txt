@@ -1,0 +1,11 @@
+You can also use an external validator service like this:
+
+echo 'hello' | mail check-auth@verifier.port25.com
+
+This sends an e-mail to check-auth@verfier.port25.com, which will run a report on your DKIM and 
+
+SPF settings and e-mail a detailed report to you.
+
+Configuring IMAP and POP3
+Unlike what you’ve seen in most of the earlier sections of this chapter, your users aren’t going to be directly 
+accessing their e-mail via the command line.

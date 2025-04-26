@@ -1,0 +1,10 @@
+This runlevel is typically used on Linux 
+servers that do not boot up to a graphical interface, but rather just a plain text 
+
+562
+
+c21.indd  04/01/2015  Page 563
+
+Chapter 21: Troubleshooting Linux
+
+prompt at the console. The network is started, as are all network services.

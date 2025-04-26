@@ -1,0 +1,9 @@
+You can see in this sudo class we have defined a file 
+resource type that specifies the basic security requirements of that file and a source file, or a file local to the 
+Puppet master that we will send to the node when the agent checks in.
+
+When the agent checks in, the Puppet master will search in the sudo module for a file in the modules/
+sudo/files directory called sudo_web1; if it can’t find that, it will look for sudo_Redhat (for CentOS hosts, 
+sudo_Debian for Ubuntu), and if it cannot find a match, then it will provide the sudo_default file.
+
+Depending on which client connected, they would get a file appropriate to them.

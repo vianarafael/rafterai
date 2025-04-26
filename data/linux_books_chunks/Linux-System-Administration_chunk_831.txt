@@ -1,0 +1,8 @@
+The example below displays brief memory information in megabytes.
+
+paul@ubu1010:~$ free -om
+           total       used       free     shared    buffers     cached
+Mem:        3740       3519        221          0         42       1994
+Swap:       6234         82       6152
+
+18.1.3.

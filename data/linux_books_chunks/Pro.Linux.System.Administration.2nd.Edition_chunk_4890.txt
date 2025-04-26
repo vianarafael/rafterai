@@ -1,0 +1,5 @@
+The Collectd configuration is the same no matter which distribution you are using.
+
+We will first look at the collectd.conf file (Listing 17-3).
+
+Listing 17-3.

@@ -1,0 +1,7 @@
+Our fake certificate
+
+517
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+The staging API will give us certificates that we can use but that will not be trusted by anyone.

@@ -1,0 +1,9 @@
+The st column is the server stratum and we are peered to both stratum 1 and 2 servers via the 
+Ubuntu stratum 16 servers (you shouldn’t need to peer to any peer 1 stratum servers directly). You can also 
+see other details about the delay, offset, and jitter.
+
+423
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Figure 10-1.

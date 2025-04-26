@@ -1,0 +1,6 @@
+Chapter 11 includes a description of setting up a system to authentication to a 
+Kerberos server.
+
+ ■ Configure iSCSI—Set up system as an iSCSI target and initiator that mounts 
+
+an iSCSI target at boot time.

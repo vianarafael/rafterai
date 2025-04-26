@@ -1,0 +1,14 @@
+We 
+
+pipe this output through the head command, which just gives us the first ten lines of output by default.
+
+Figure 8-39.  Viewing results of dpkg -l
+
+344
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+ ■ Note  Although is it not automatically clear from the output in Listing 8-20, the first three lines are in fact 
+the status column.
+
+Let’s look at each of these columns for a moment.

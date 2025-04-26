@@ -1,0 +1,8 @@
+You can use the following 
+
+command to view the changes you have made to those files:
+
+$ git diff
+
+This command will show all the changes in the repository, you can add the directory or filename to the 
+command line if you wish to narrow the scope of the diff.

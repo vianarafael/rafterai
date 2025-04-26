@@ -1,0 +1,18 @@
+Then umount, and mount the file system as read only on /srv/nfs/salesnumbers. Where
+are the files you copied ?
+
+mount /dev/sdb1 /mnt
+cp -r /etc /mnt
+ls -l /mnt
+
+umount /mnt
+ls -l /mnt
+
+mkdir -p /srv/nfs/salesnumbers
+mount /dev/sdb1 /srv/nfs/salesnumbers
+
+You see the files in /srv/nfs/salenumbers now...
+
+But physically they are on ext3 on partition /dev/sdb1
+
+3.

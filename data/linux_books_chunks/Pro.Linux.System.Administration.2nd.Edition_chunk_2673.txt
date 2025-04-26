@@ -1,0 +1,6 @@
+It consists of a server, which defines which addresses can be assigned to which clients, and a client, 
+which requests addresses from the server and uses the response to configure the local network interface.
+
+This is great for random machines that you may want to add to your network, where you don’t really care 
+
+what address is assigned to them.

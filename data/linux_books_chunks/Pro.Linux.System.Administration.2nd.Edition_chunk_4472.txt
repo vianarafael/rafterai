@@ -1,0 +1,3 @@
+When a request is received by a web site, the user making the 
+request requires validation before access is granted. An authentication request is sent to the LDAP service 
+on headoffice.example.com.

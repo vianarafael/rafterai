@@ -1,0 +1,9 @@
+You can 
+lock the root user account so that no one can log in with it using the --lock option too (if --lock is specified, 
+then you don’t need a password as well).
+
+You can create a new user with Kickstart using the user directive.
+
+user jsmith --password password
+
+The preceding code creates a new user called jsmith, with a password of password.

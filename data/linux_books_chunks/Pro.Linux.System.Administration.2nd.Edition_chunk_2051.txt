@@ -1,0 +1,5 @@
+Again, make processes rules in the Makefile and executes the commands to install nginx and its associated 
+files on the system. We can now run our newly installed application to make sure it all went OK, as shown in 
+Listing 8-26.
+
+Listing 8-26.

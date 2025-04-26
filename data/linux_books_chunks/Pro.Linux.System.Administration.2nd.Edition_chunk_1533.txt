@@ -1,0 +1,23 @@
+Host F has the 
+default route 192.168.10.254.
+
+Let’s look at their route tables:
+
+Host D
+192.168.0.0/24 dev enp0s8 proto kernel scope link src 192.168.0.50
+default via 192.168.0.254 dev enp0s8 scope link
+
+Host E
+192.168.0.0/24 dev enp0s8 proto kernel scope link src 192.168.0.2
+192.168.10.0/24 dev enp0s9 proto kernel scope link src 192.168.10.2
+default via 192.168.0.254 dev enp0s8 scope link
+
+Host F
+192.168.10.0/24 dev enp0s8 proto kernel scope link src 192.168.10.100
+default via 192.168.10.254 dev enp0s8 scope link
+
+261
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+You can see that Host E contains the two interfaces with the two different networks attached.

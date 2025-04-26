@@ -1,0 +1,16 @@
+su -
+
+When no username is provided to su or su -, the command will assume root is the target.
+
+tania@debian7:~$ su -
+Password:
+root@debian7:~#
+
+6
+
+introduction to users
+
+1.11. run a program as another user
+
+The  sudo  program  allows  a  user  to  start  a  program  with  the  credentials  of  another  user.
+Before this works, the system administrator has to set up the /etc/sudoers file.

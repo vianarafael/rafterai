@@ -1,0 +1,16 @@
+you can still use it on Linux though; however, you need to download 
+and install it yourself: http://zfsonlinux.org/.
+
+You can find an exhaustive list of filesystems and comparisons of their features at http://en.wikipedia.
+
+org/wiki/List_of_file_systems and http://en.wikipedia.org/wiki/Comparison_of_file_systems.
+
+367
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+JOURNALED FILESYSTEMS
+
+Imagine a library where a returned book causes the librarian to walk off to find an empty space on a 
+shelf somewhere to put the book and then update the catalog, before returning to the front desk in 
+order to process the next returned book - all the while, it’s not possible for anyone to borrow a book.

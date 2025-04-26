@@ -1,0 +1,47 @@
+Test the script!
+
+The script could look something like this.
+
+#!/bin/bash
+#
+# chkconfig: 345 99 01 
+# description: pold demo script
+#
+# /etc/init.d/pold
+
+190
+
+ 
+ 
+ 
+ 
+init and runlevels
+
+#
+
+case "$1" in
+  start)
+     echo -n "Starting pold..."
+     sleep 1;
+     touch /var/lock/subsys/pold
+     echo "done."
+     echo pold started >> /var/log/messages
+     ;;
+  stop)
+     echo -n "Stopping pold..."
+     sleep 1;
+     rm -rf /var/lock/subsys/pold
+     echo "done."
+     echo pold stopped >> /var/log/messages
+     ;;
+  *)
+     echo "Usage: /etc/init.d/pold {start|stop}"
+     exit 1
+     ;;
+esac
+exit 0
+
+The touch /var/lock/subsys/pold is mandatory and must be the same filename as the script
+name, if you want the stop sequence (the K01pold link) to be run.
+
+6.

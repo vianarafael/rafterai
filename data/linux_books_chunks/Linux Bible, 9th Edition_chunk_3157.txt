@@ -1,0 +1,7 @@
+The *:80 means that requests to port 80 on any IP address will be treated in 
+this manner.
+
+ ■ Similarly, the *:80 speciﬁ cation in the VirtualHost block indicates what 
+
+address and port this virtual host applies to. With multiple IP addresses associ-
+ated with your Linux system, the * can be replaced by a speciﬁ c IP address.

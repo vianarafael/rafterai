@@ -1,0 +1,11 @@
+This
+screenshot is cropped to 76 characters for readability in the pdf.
+
+root@deb503:~# tcpdump tcp port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth1, link-type EN10MB (Ethernet), capture size 96 bytes
+14:22:20.716313 IP deb503.local.37973 > rhel53.local.ssh: P 666050963:66605
+14:22:20.719936 IP rhel53.local.ssh > deb503.local.37973: P 1:49(48) ack 48
+14:22:20.720922 IP rhel53.local.ssh > deb503.local.37973: P 49:113(64) ack 
+14:22:20.721321 IP rhel53.local.ssh > deb503.local.37973: P 113:161(48) ack
+14:22:20.721820 IP deb503.local.37973 > rhel53.local.ssh: .

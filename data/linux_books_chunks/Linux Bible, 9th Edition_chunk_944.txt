@@ -1,0 +1,7 @@
+This works only if you don’t have any unsaved changes.
+
+ ■ :q!—Quits the current ﬁ le and doesn’t save the changes you just made to the ﬁ le.
+
+If you’ve really trashed the fi le by mistake, the :q! command is the best way to exit and abandon your changes. The 
+fi le reverts to the most recently changed version. So, if you just saved with :w, you are stuck with the changes up 
+to that point.

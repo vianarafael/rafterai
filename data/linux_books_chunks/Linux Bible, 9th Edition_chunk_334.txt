@@ -1,0 +1,7 @@
+Web server (HTTP) and FTP server setups are covered in Chapters 17 and 18, 
+respectively.
+
+ ■ Manage users and groups—You must know how to add, delete, and change user 
+and group accounts. Another topic you should know is password aging, using the 
+chage command. You must also know how to conﬁ gure a system to authenticate by 
+connecting to an LDAP directory server.

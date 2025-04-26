@@ -1,0 +1,18 @@
+The /etc/hosts ﬁ le is a way to set up names and addresses for a small local 
+network or just create aliases, to make it easier to access systems you use all the time.
+
+Here’s an example of an /etc/hosts ﬁ le:
+
+127.0.0.1  localhost localhost.localdomain
+::1        localhost localhost.localdomain
+
+365
+
+c14.indd  04/01/2015  Page 366
+
+Part IV: Becoming a Linux Server Administrator
+
+192.168.0.201  node1.example.com node1 joe
+192.168.0.202  node2.example.com node2 sally
+
+The ﬁ rst two lines (127.0.0.1 and ::1) set addresses for the local system.

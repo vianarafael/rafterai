@@ -1,0 +1,5 @@
+We will show 
+how to install and configure a web-based GUI in the “LDAP Account Manager: Web-Based GUI” section.
+
+LDIFs and Adding Users
+At the top of the DIT sits the rootDN. The DIT starts with the declaration of the dcObject class.

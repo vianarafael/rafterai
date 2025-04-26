@@ -1,0 +1,2 @@
+We can change this behavior by 
+adding the GatewayPorts directive to the SSH server configuration file.

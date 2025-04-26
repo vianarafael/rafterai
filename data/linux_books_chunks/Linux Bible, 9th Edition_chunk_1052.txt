@@ -1,0 +1,5 @@
+You can also use the arrow keys to move one line at a time through the output.
+
+The ps command can be customized to display selected columns of information and to 
+sort information by one of those columns. Using the -o option, you can use keywords to 
+ indicate the columns you want to list with ps.

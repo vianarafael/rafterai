@@ -1,0 +1,7 @@
+This can take some time. Once done, Duply will restore the file. Here you can see that we have 
+restored the bin/bash file successfully. To restore the whole backup, we use the duply restore <path_to_
+restore_to> command.
+
+Now that we have successfully backed up and restored files on our host, we will add a cron job to do this 
+
+for us on a nightly basis.

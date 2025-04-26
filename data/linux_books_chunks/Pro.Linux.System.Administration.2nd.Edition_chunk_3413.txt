@@ -1,0 +1,7 @@
+This includes 
+documentation (www.postfix.org/documentation.html) and how-tos and FAQs (www.postfix.org/docs.
+html).
+
+There are some useful resources for specifically configuring and troubleshooting for SSL/TLS 
+
+encryption and SASL. For encryption, you can find resources at www.postfix.org/TLS_README.html.

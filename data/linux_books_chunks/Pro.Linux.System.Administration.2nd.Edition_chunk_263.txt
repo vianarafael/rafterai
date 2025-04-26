@@ -1,0 +1,13 @@
+We’ll talk more about using the command line versus a 
+GUI in Chapter 4.
+
+You now have a usable mail, DNS, and web server running the Ubuntu distribution that is ready for you 
+
+to customize further for your environment.
+
+70
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Troubleshooting
+Every now and then an installation will fail for some reason.

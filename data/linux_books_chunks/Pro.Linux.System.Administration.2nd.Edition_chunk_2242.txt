@@ -1,0 +1,6 @@
+The acl option allows for posix acl’s to be used, which 
+again can be used for fine-grained directory access (see man acl for details).
+
+There are many more mount options that define things like access to files and directories on filesystems, 
+that might tweak performance, and options for filesystems that don’t support Unix-style file permissions, like 
+FAT32 and NTFS.

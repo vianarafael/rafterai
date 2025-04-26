@@ -1,0 +1,34 @@
+In this chapter we are going to take you through the following:
+
+•	
+
+•	
+
+•	
+
+•	
+
+Installing and setting up the OpenLDAP service
+
+Explaining schemas and creating an attribute that we can use as a filter to check for 
+active and inactive users
+
+Adding users to our LDAP service
+
+Securing the service to protect sensitive data with access control lists
+
+•	 Using the LDAP tools such as ldapmodify, ldapadd, and ldapsearch
+
+•	
+
+•	
+
+•	
+
+Setting up a web GUI to manage LDAP
+
+Performing single sign-on with SSSD and LDAP
+
+Implementing web authentication with LDAP
+
+You can search, add, modify, delete, and authenticate against entries in your LDAP service.

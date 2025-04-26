@@ -1,0 +1,7 @@
+The ftpusers and user_
+list ﬁ les in the same directory store information about user accounts that are restricted 
+from accessing the server. The /etc/pam.d/vsftpd ﬁ le sets how authentication is done 
+to the FTP server. The /etc/logrotate.d/vsftpd ﬁ le conﬁ gures how log ﬁ les are 
+rotated over time.
+
+Now you have vsftpd installed and have taken a quick look at its contents.

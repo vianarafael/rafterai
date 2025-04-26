@@ -1,0 +1,4 @@
+For example, if you type a colon (:) to go into ex mode, you must press Esc twice to return to command mode.
+
+Moving around in the text
+To move around in the text, you can use the up, down, right, and left arrows.

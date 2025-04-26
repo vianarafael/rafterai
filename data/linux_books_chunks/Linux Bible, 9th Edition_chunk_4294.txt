@@ -1,0 +1,76 @@
+It also generates a key ring to store his keys.
+
+633
+
+c23.indd  04/01/2015  Page 634
+
+Part V: Learning Linux Security Techniques
+
+$ gpg2 --gen-key
+gpg (GnuPG) 2.0.22; Copyright (C)
+ 2013 Free Software Foundation, Inc.
+...
+Please select what kind of key you want:
+   (1) RSA and RSA (default)
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+Your selection? 1
+RSA keys may be between 1024 and 4096 bits long.
+What keysize do you want? (2048) 2048
+Requested keysize is 2048 bits
+Please specify how long the key should be valid.
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
+Key is valid for? (0) 7
+Key expires at Mon 05 Dec 2016 03:55:29 AM EST
+Is this correct? (y/N) y
+
+You need a user ID to identify your key.
+
+Real name: John Doe
+Email address: jdoe@example.com
+Comment: The User
+You selected this USER-ID:
+    "John Doe (The User) <jdoe@gmail.com>"
+
+Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
+You need a Passphrase to protect your secret key.
+Enter passphrase: **********
+Repeat passphrase: **********
+...
+gpg: /home/johndoe/.gnupg/trustdb.gpg: trustdb created
+gpg: key 3B2E46D5 marked as ultimately trusted
+public and secret key created and signed.
+...
+pub   2048R/3B2E46D5 2015-12-08 [expires: 2015-12-15]
+      Key fingerprint = E202 8E43 3784 69EF 118B
+  275C BA45 7DBF 3B2E 46D5
+uid                  John Doe (The User) <jdoe@example.com>
+sub   2048R/0F0E0672 2015-12-087 [expires: 2016-12-15]
+
+634
+
+c23.indd  04/01/2015  Page 635
+
+Chapter 23: Understanding Advanced Linux Security 
+
+In the preceding example, the gpg2 utility asks for several speciﬁ cations to generate the 
+desired private/public keys:
+
+ ■ Cryptography cipher—RSA was chosen in the example.
+
+ ■ Bit size—A longer key size provides higher security.
+
+ ■ Validity period—Seven days was chosen in the example.
+
+ ■ User ID—This identiﬁ es the public key portion of the public/private key pair.
+
+ ■ Passphrase—This is used to identify and protect the private key portion of the 
+
+public/private key pair.
+
+It is diffi cult, if not mathematically impossible, to derive the private key from the public key.

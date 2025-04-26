@@ -1,0 +1,8 @@
+Hard links are created by default, and soft links are created by 
+
+adding the -s switch. There are a few ways the ln command can be used, but the simplest is to create a link 
+to a target file as follows:
+
+$ ln -s /home/jsmith/myfile
+
+The previous line would create a symbolic link called myfile to the /home/jsmith/myfile file.

@@ -1,0 +1,20 @@
+Most Linux and Mac OS X printers fall into this category.
+
+ ■ Internet Printing Protocol (HTTPS)—Use this for a CUPS or other 
+IPP printer being shared over a secure connection (valid certiﬁ cates 
+required).
+
+ ■ LPD/LPR Host or Printer—Use this for a UNIX printer.
+
+ ■ Windows Printer via SAMBA—Use this for a Windows system printer.
+
+Continue with the steps in whichever of the following sections is appropriate.
+
+Adding a remote CUPS printer
+If you chose to add a CUPS (IPP) printer that is accessible over your local network from 
+the Print Settings window, you must add the following information to the window 
+that appears:
+
+ ■ Host—This is the hostname of the computer to which the printer is attached 
+
+(or otherwise accessible).

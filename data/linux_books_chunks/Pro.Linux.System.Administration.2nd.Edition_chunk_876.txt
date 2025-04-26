@@ -1,0 +1,7 @@
+Making 
+
+the variables uppercase is a matter of convention.
+
+Of course, setting environment variables on the command line changes them only for the duration of 
+
+your session. If you log off, they will revert back to the previous configuration.

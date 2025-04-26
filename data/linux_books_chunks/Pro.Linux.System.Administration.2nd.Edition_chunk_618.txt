@@ -1,0 +1,10 @@
+We can also display sizes in a more human-readable format by 
+adding the -h switch as follows:
+
+$ ls -lh
+-rw-rw-r--  1 jsmith jsmith  51K  2016-08- 17 23:47 myfile
+
+On the previous line, you can see that the myfile file is 51 kibibytes in size.
+In a listing, the size next to the directory is not its total size but rather the size of the directory’s 
+
+metadata.

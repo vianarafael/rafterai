@@ -1,0 +1,5 @@
+Given the weak security of this type of password when stored in the passwd file, a modern computer 
+can crack simple passwords in a matter of minutes or harder passwords in just days.
+
+shadow passwords help reduce this risk by separating the users and passwords and storing the 
+passwords as a hash in the /etc/shadow file. By default, sha512 hashes are used.

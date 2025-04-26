@@ -1,0 +1,6 @@
+By modifying the boot order, you can tell the 
+computer to temporarily ignore the default boot order and try to boot from the 
+device you select.
+
+For my Dell workstation, after I see the BIOS screen, I immediately press the F2 function 
+key to go to into Setup or F12 to temporarily change the boot order.

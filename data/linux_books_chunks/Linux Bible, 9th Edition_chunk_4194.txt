@@ -1,0 +1,4 @@
+Because it is wise to limit John the Ripper to testing a few accounts at 
+a time, remove any account names you do not wish to test presently.
+
+The john utilities are extremely CPU-intensive. It does set its nice value to 19 in order to lower its priority.

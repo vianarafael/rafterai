@@ -1,0 +1,13 @@
+Note that we only discussed mbr(msdos) and gpt in this book.
+
+(parted) help mklabel
+ mklabel,mktable LABEL-TYPE             create a new disklabel (partition table)
+
+    LABEL-TYPE is one of: aix, amiga, bsd, dvh, gpt, mac, msdos, pc98, sun, loop
+(parted)
+
+We create an mbr label.
+
+(parted) mklabel msdos>
+Warning: The existing disk label on /dev/sdb will be destroyed and all data on
+this disk will be lost.

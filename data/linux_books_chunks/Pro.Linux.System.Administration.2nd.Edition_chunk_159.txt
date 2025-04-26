@@ -1,0 +1,2 @@
+Your local network is most likely an Ipv4 network too, and you most likely will be assigned a dynamic 
+Ipv4 address by your DhCp server.

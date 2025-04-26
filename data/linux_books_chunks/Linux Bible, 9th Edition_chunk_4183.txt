@@ -1,0 +1,8 @@
+To turn off an audit, use the command 
+auditctl -W filename -p trigger(s).
+
+To see a list of current audited fi les and their watch settings, type auditctl -l at the command line.
+
+To review the audit logs, use the audit daemon’s ausearch command. The only option 
+needed here is the -f option, which speciﬁ es which records you want to view from the 
+audit log.

@@ -1,0 +1,7 @@
+You can run a RAM tester like memtest86 
+(www.memtest.org/), and you should verify that the CPU and case fans are working properly.
+
+Diagnostic Information
+If you need additional diagnostic information while you are installing, you can access a limited shell and 
+some logging information from the installation process. You can use these to further diagnose any problems 
+you might have.

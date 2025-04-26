@@ -1,0 +1,29 @@
+testparm -v
+
+An  interesting  option  is  testparm  -v,  which  will  output  all  the  global  options  with  their
+default value.
+
+[root@RHEL52 ~]# testparm -v | head
+Load smb config files from /etc/samba/smb.conf
+Processing section "[pub0]"
+Processing section "[global$]"
+Loaded services file OK.
+Server role: ROLE_STANDALONE
+Press enter to see a dump of your service definitions
+
+[global]
+ dos charset = CP850
+ unix charset = UTF-8
+ display charset = LOCALE
+ workgroup = WORKGROUP
+
+147
+
+getting started with samba
+
+ realm = 
+ netbios name = TEACHER0
+ netbios aliases = 
+ netbios scope = 
+ server string = Samba 3.0.28-1.el5_2.1
+...

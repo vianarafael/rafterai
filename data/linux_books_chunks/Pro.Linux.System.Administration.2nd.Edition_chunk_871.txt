@@ -1,0 +1,8 @@
+If we wanted to change our prompt to include a timestamp and 
+have it break to give us more space to type commands, we could add the \T and \n codes:
+
+$ PS1="[\T] \u@\h:\w\n\$ "
+[12:50:59] jsmith@au-mel-ubuntu-1:~
+$
+
+ You may have noticed that we sometimes use $ and sometimes not.

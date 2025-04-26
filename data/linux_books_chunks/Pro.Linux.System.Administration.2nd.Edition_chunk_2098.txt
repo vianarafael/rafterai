@@ -1,0 +1,2 @@
+you can find your network devices and how your disks are configured 
+with dmesg.

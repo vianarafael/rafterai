@@ -1,0 +1,30 @@
+You should read through the contents of that ﬁ le for thorough format 
+ descriptions and examples of limits that can be set.
+
+23
+
+$ cat /etc/security/limits.conf
+# /etc/security/limits.conf
+#Each line describes a limit for a user in the form:
+#<domain>        <type>  <item>  <value>
+#Where:
+...
+#*               soft    core            0
+#*               hard    rss             10000
+#@student        hard    nproc           20
+#@faculty        soft    nproc           20
+#@faculty        hard    nproc           50
+#ftp             hard    nproc           0
+#@student        -       maxlogins       4
+# End of file
+
+657
+
+c23.indd  04/01/2015  Page 658
+
+Part V: Learning Linux Security Techniques
+
+The format items domain and type need some further explanation than what is documented 
+in the conﬁ guration ﬁ le:
+
+ ■ domain—The limit applies to the listed user or group.

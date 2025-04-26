@@ -1,0 +1,2 @@
+A common thing is to create an uploads 
+directory with permission open for writing.

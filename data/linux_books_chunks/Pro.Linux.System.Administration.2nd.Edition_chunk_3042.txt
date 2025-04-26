@@ -1,0 +1,11 @@
+Self-signed certificates are generally used 
+only for testing and are rarely used in production environments.
+
+507
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Choosing a Certificate Type
+
+If you want to buy a certificate for a long period of time, the best certificates to use are those issued by 
+commercial CAs. The key issue here is cost.

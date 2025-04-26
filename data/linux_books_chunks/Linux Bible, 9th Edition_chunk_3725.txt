@@ -1,0 +1,10 @@
+One of those Linux systems will act as an NFS server while the other will be an 
+NFS client.
+
+To get the most from these exercises, I recommend that you don’t use a Linux server that 
+has NFS already up and running. You can’t do all the exercises here without disrupting an 
+NFS service that is already running and sharing resources.
+
+See Appendix B for suggested solutions.
+
+1.

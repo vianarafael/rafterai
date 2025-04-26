@@ -1,0 +1,15 @@
+Verify whether the firewall is running.
+
+root@rhel55 ~# service iptables status | head
+Table: filter
+Chain INPUT (policy ACCEPT)
+num  target     prot opt source               destination         
+1    RH-Firewall-1-INPUT  all  --  0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT)
+num  target     prot opt source               destination         
+1    RH-Firewall-1-INPUT  all  --  0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT)
+
+2.

@@ -1,0 +1,6 @@
+That command 
+removed db* ﬁ les from the /var/lib/rpm directory (regenerating those database ﬁ les to 
+clean up any problems).
+
+The rpmdb option is one of the few options to yum that is used to work with the RPM 
+ database directly. In general, yum is used for manipulating yum repositories.

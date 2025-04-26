@@ -1,0 +1,8 @@
+The primary command-
+line tools include the yum and rpm commands for Red Hat-related systems and aptitude, 
+apt*, and dkpg for Debian-related systems.
+
+10
+
+Using these software management tools, you can install, query, verify, update, and remove 
+packages.

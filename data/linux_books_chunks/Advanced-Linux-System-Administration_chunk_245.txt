@@ -1,0 +1,26 @@
+This option is disabled in /etc/exports with the no_root_squash option
+
+            Client
+
+Server
+
+root
+UID=0
+GID=0
+
+UID=65534
+GID=65534
+
+Finally, it is possible to map all users from any client to the user nobody with the 
+all_squash option.
+
+TCPwrappers
+
+The portmap tool has been compiled with libwrap giving us the option to control access 
+through /etc/hosts.allow and /etc/hosts.deny.
+
+strings `which portmap ` |grep hosts.allow
+
+Using exportfs and nfsstat 
+
+The exportfs command with no arguments will show all exported directories.

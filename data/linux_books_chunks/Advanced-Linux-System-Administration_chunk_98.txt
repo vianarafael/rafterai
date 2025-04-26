@@ -1,0 +1,16 @@
+cp /boot/config-kernelversion /usr/src/linux-
+kernelversion/.config
+
+Next 'make oldconfig' will only prompt for new features. 
+
+make oldconfig
+
+make dep
+
+make clean bzImage modules modules_install
+
+4. Customising a Kernel
+
+Loading Kernel modules
+
+Loadable modules are inserted into the kernel at runtime using various methods.

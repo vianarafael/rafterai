@@ -1,0 +1,9 @@
+A ﬁ rewall can also allow desired software upgrades to 
+download to the same server.
+
+Understanding fi rewalls
+Although you may tend to think of a ﬁ rewall as a complete barrier, a ﬁ rewall is really just 
+a ﬁ lter that checks each network packet or application request coming into or out of a 
+ computer system or network.
+
+What is a network packet? A network packet is data that has been broken up into transmittable chunks.

@@ -1,0 +1,10 @@
+2915    IN      A       216.239.38.10
+
+;; Query time: 28 msec
+;; SERVER: 192.168.0.254#53(192.168.0.254)
+;; WHEN: Sun Jul 17 15:43:41 AEST 2016
+;; MSG SIZE  rcvd: 371
+
+In the ANSWER SECTION, you can see the www.google.com hostname will resolve to twelve possible 
+
+IP addresses.

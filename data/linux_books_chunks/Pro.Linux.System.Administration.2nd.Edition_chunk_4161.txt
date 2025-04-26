@@ -1,0 +1,15 @@
+Our Client 
+resource will look like the following:
+
+Client {
+  Name = headoffice-fd
+  Address = headoffice.example.com
+  Password = "6rZQQqVsOJeeTPefrG2AslT5ODxtPWO1hNsd7Re1u6J/"
+}
+
+678
+
+Storage
+
+Let’s now configure the Storage definition. Again, this will be within the Storage {} section of the bareos-
+dir.conf file.

@@ -1,0 +1,3 @@
+A script beginning with K indicates that the service 
+should be stopped, while one beginning with an S indicates it should be started. The two 
+numbers that follow indicate the order in which the service is started.

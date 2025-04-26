@@ -1,0 +1,5 @@
+Let’s test 
+
+whether our firewall is allowing us to connect to port 80 on host 192.168.0.1 from host 192.168.0.254.
+
+First, on host 192.168.0.1, we will make sure we have stopped our web server.

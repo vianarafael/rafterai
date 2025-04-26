@@ -1,0 +1,5 @@
+For example, it is often used to ensure all user web traffic passes 
+through your organization’s proxy, thus ensuring it complies with your organization’s acceptable use policy 
+or similar standards.
+
+First, let’s allow our mobile user to see the 192.168.0.0/24 internal network at our head office.

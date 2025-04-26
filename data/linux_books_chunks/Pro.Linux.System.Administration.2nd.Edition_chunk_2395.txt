@@ -1,0 +1,3 @@
+We can mount the existing ones on 
+the root filesystem on which we will run chroot via a bind mount. a bind mount is a way of making a 
+directory available in multiple locations on the system, without needing to use symbolic links.

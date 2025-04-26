@@ -1,0 +1,9 @@
+Figure 19.3 shows you how to create a new Samba user named chris that has the same 
+permission the Linux user chris has to access the system.
+
+FIGURE 19.3
+
+Add user accounts to your Samba server.
+
+You can conﬁ gure as many users as you like from your Linux user accounts to grant them 
+access to ﬁ les and directories via your Samba server.

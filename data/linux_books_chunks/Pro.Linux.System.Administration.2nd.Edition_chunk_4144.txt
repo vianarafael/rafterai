@@ -1,0 +1,4 @@
+This can be used in the JobDefs or Job resource definition. As 
+you can see, we can divide the FileSet into two parts: the Include section and the Exclude section. In the 
+Include section, we have specified a couple of options: Compression and Signature. These settings allow 
+our backup data to be compressed with the gzip program and define the signature of either SHA1 or MD5.

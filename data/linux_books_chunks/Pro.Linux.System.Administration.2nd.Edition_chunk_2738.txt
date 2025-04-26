@@ -1,0 +1,6 @@
+We can define the key type (two 
+encryption algorithms are supported) and key size in bits, as well as the output file names to use. For the 
+latter we’ll use the defaults, and for the former we’ll specify the RSA algorithm with the -t option and a 4096-
+bit key using the -b option, as shown in Listing 10-33.
+
+Listing 10-33.

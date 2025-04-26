@@ -1,0 +1,7 @@
+See the sysrq.txt fi le 
+in the /usr/share/doc/kernel-doc*/Documentation directory for more information about Alt+SysRq 
+keystrokes.
+
+Troubleshooting in Rescue Mode
+If your Linux system becomes unbootable, your best option for ﬁ xing it is probably to go 
+into rescue mode.

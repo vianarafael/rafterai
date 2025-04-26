@@ -1,0 +1,8 @@
+The mount command shows all mounted 
+ ﬁ lesystems, but here I used grep to show that sdc1 is mounted and is an 
+ext4 ﬁ lesystem type.
+
+Any ﬁ les or directories you create later in the /mnt/test directory and any of its 
+subdirectories are stored on the /dev/sdc1 device.
+
+17.

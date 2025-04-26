@@ -1,0 +1,16 @@
+You could add handlers for the Bareos component 
+services as well.
+
+970
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+ With databases, automatically upgrading and restarting your database version may not be a 
+
+ ■ Caution 
+sensible thing to do as package version updates can cause unpredictable behavior in your databases, which 
+can be disastrous!
+
+Running the Playbook
+
+Running the playbook is fairly easy from this point.

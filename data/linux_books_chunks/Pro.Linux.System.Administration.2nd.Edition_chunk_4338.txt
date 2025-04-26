@@ -1,0 +1,5 @@
+We need to configure our clients, install the 
+
+OpenVPN software, and create certificates for our clients to use to connect.
+
+ going forward in this chapter, we’ll refer to two hosts.

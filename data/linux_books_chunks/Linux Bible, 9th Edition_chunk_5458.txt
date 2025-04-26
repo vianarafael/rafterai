@@ -1,0 +1,11 @@
+Stop the virtual machine so it is no longer running.
+
+a. Right-click the entry for the VM in the virt-manager window.
+
+b. Select Shut Down, and then select Shut down again.
+
+c. If the VM doesn’t shut down immediately, you can select Force Off instead, but 
+
+that is like pulling the plug out and risks data loss.
+
+10.

@@ -1,0 +1,10 @@
+Opts: (null)
+
+By using grep to display only lines containing sd, you can limit the output to information about the SCSI 
+
+disk subsystem.
+
+DMESG AND THE KERNEL RING BUFFER
+
+the kernel writes messages about what it is doing to a kernel ring buffer. this buffer holds a certain 
+amount of messages and when it is full, new messages come in and old messages drop out.

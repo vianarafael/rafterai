@@ -1,0 +1,3 @@
+It can be used to centrally hold 
+identity information for all our users, including usernames, passwords, e-mail addresses, and other user and 
+group information.

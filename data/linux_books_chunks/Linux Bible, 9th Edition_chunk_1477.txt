@@ -1,0 +1,14 @@
+When the Welcome to Fedora screen appears, position your 
+
+mouse over the Install to Hard Drive area and select it. Figure 9.1 shows an example 
+of the Install to Hard Drive selection on the Fedora Live media.
+
+FIGURE 9.1
+
+Start the installation process from Live media.
+
+9
+
+4.  Select the language. When prompted, choose the language type that best suits 
+
+you (such as U.S.

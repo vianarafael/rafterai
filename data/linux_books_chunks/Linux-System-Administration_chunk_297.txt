@@ -1,0 +1,11 @@
+Use dmesg to verify that all the new disks are properly detected at boot-up.
+
+See 1.
+
+5. Verify that you can see the disk devices in /dev.
+
+SCSI+SATA: ls -l /dev/sd*
+
+ATA: ls -l /dev/hd*
+
+6.

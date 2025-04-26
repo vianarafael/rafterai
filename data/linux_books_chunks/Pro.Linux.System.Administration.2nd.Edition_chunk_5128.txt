@@ -1,0 +1,19 @@
+We will again use the gateway host, and it will 
+connect and send its logs to the backup.example.com host.
+
+$ sudo vi /etc/rsyslog.d/relp.conf
+# make gtls driver the default
+$DefaultNetstreamDriver gtls
+
+# certificate files
+$DefaultNetstreamDriverCAFile /etc/pki/tls/certs/cacert.pem
+$DefaultNetstreamDriverCertFile /etc/pki/tls/certs/gateway.example.com.cert
+$DefaultNetstreamDriverKeyFile /etc/pki/tls/private/gateway.example.com.key
+
+$ActionSendStreamDriverAuthMode x509/name
+$ActionSendStreamDriverPermittedPeer backup.example.com
+$ActionSendStreamDriverMode 1
+*.* @@backup.example.com:6514
+
+We have created a file called relp.conf and have configured it to use an encrypted transport 
+between the client and the backup.example.com host.

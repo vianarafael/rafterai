@@ -1,0 +1,2 @@
+If you had been given the RPM ﬁ le and it was sitting in a local directory, the name would 
+appear as firefox-24.7.0-1.el7_0.x86_64.rpm and you could install it from there.

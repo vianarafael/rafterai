@@ -1,0 +1,9 @@
+Try typing some text into the 
+gedit window and make sure that no text appears yet.
+
+7.  Use the killall command to tell the gedit command you paused in the  previous 
+exercise to continue working. Make sure the text you type in after gedit was 
+paused now appears on the window.
+
+8.  Install the xeyes command (in Red Hat Enterprise Linux, it is in the xorg-x11-
+apps package).

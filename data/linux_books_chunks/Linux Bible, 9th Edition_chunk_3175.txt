@@ -1,0 +1,3 @@
+TLS is based on version 3.0 of the SSL speciﬁ cations, so they are very similar 
+in nature. Because of this similarity—and because SSL is older—the SSL acronym is often 
+used to refer to either variety.

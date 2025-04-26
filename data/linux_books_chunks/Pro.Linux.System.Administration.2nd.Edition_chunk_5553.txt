@@ -1,0 +1,8 @@
+The interface to be configured is specified using the --interface=eth0 option.
+Then, instead of specifying a network line, in our Kickstart file we specify what Cobbler calls a snippet.
+
+$SNIPPET('network_config')
+
+When building your host, Cobbler passes the network configuration you’ve specified to this snippet and 
+
+a template it contains.

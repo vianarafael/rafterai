@@ -1,0 +1,12 @@
+And ditto for the z character and proj42.
+
+16
+
+  
+  
+process priorities
+
+2.1.4. top
+
+Just running top without options or arguments will display all processes and an overview of
+innformation.

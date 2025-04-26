@@ -1,0 +1,5 @@
+Many files on Linux hosts, especially configuration 
+files, are text-based and can be read using some simple command-line tools.
+
+ ■ Note 
+ always remember that in order to read a file, you must have read permissions to that file.

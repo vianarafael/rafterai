@@ -1,0 +1,9 @@
+If you 
+are not able to connect, retry connecting to the server from your browser after per-
+forming each of the following steps on the system running the Apache server:
+
+# iptables -F
+# setenforce 0
+# chmod 644 /var/www/html/index.html
+
+The iptables -F command ﬂ ushes the ﬁ rewall rules temporarily.

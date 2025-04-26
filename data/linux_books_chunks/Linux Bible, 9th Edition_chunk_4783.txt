@@ -1,0 +1,12 @@
+However, all the iptables utility commands are still 
+valid for Ubuntu:
+
+ ■ To enable the ﬁ rewall, type sudo ufw enable at the command line.
+
+ ■ To disable the ﬁ rewall, type sudo ufw disable at the command line.
+
+Thankfully, after you have checked the status and enabled or disabled the netfilter/
+iptables ﬁ rewall, the differences between the distributions end.
+
+To see what policies and rules are currently in place for the filter table, type iptables 
+-t filter -vnL at the command line.

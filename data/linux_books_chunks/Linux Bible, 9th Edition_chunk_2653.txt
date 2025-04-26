@@ -1,0 +1,9 @@
+In the process of using the init 
+system that matches your Linux distribution, you learn how the boot process works to 
+start services, how you can start and stop services individually, and how you enable and 
+disable services.
+
+Understanding the Initialization Daemon 
+(init or systemd)
+In order to understand service management, you need to understand the initialization 
+daemon.

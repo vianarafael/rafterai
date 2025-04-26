@@ -1,0 +1,10 @@
+You can add panels that 
+run along the entire bottom, top, or side of the screen. To add a panel, follow these steps:
+
+1.  Right-click an open space in the panel so the Panel menu appears.
+
+2.  Click New Panel. A new panel appears on the side of the screen.
+
+3.  Right-click an open space in the new panel, and select Properties.
+
+4.

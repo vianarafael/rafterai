@@ -1,0 +1,2 @@
+In this example, default.target is a 
+symbolic link to the graphical.target ﬁ le.

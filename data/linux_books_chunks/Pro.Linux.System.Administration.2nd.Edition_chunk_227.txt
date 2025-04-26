@@ -1,0 +1,13 @@
+The default 
+here will work for most installations, but feel free to select the one most appropriate to your area. Figure 2-45 
+begins a series of screenshots that show the keyboard selection.
+
+After selecting No, the screen in Figure 2-46 appears, where you select the origin of the keyboard. We 
+
+will pick US and continue on.
+
+57
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-46.

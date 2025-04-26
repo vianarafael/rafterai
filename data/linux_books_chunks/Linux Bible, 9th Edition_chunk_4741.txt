@@ -1,0 +1,6 @@
+The ALL wildcard used in the hosts.deny ﬁ le speciﬁ es that all 
+remote systems reaching this ﬁ le, requesting any TCP Wrapper–supported network 
+services, are denied.
+
+The ALL wildcard was also used in the example hosts.allow fi le for the vsftpd service, telling TCP Wrapper 
+to permit absolutely any host to connect to the FTP service on the Linux system.

@@ -1,0 +1,12 @@
+Although the nfsd server daemon itself is not enabled 
+for TCP wrappers, the rpcbind service is.
+
+For NFSv3 and earlier versions, simply adding a line such as the following to the 
+/etc/hosts.deny ﬁ le would deny access to the rpcbind service, but would also deny 
+access to your NFS service:
+
+rpcbind: ALL
+
+For servers running NFSv4 by default, however, the rpcbind: ALL line just shown 
+ prevents outside hosts from getting information about RPC services (such as NFS) using 
+commands like showmount.

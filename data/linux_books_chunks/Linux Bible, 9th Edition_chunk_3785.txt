@@ -1,0 +1,4 @@
+Chapter 9, “Installing Linux,” describes the GRUB boot loader 
+that is used with most modern Linux systems, including RHEL, Fedora, and Ubuntu. The 
+GRUB boot loader in RHEL 6, described here, is an earlier version than the GRUB 2 boot 
+loader included with RHEL 7, Fedora, and Ubuntu.

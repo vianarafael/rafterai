@@ -1,0 +1,2 @@
+Options to the lpr command can add ﬁ lters to properly 
+process the text.

@@ -1,0 +1,14 @@
+Select Save Changes and then Done in the User screen. While you have 
+
+been doing this your server has had the installation process continue in the background and it might have 
+finished by now or will shortly.
+
+In Figure 2-29 we see the finished installation. Select Reboot and your system will reboot and come up 
+
+ready for your use.
+
+42
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-29.

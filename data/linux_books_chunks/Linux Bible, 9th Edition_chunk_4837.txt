@@ -1,0 +1,11 @@
+After introducing cloud concepts, this chapter has you set up 
+some of the basic building blocks of cloud technology: hypervisors, virtual machines, and shared 
+storage.
+
+After you have tried some of those basic cloud technologies, the chapter describes how enterprise-
+quality clouds extend those basic concepts so they can scale up to meet the needs of modern 
+datacenters.
+
+Overview of Linux and Cloud Computing
+Cloud moves us into an arena where everything you learned in this book is being abstracted and 
+automated.

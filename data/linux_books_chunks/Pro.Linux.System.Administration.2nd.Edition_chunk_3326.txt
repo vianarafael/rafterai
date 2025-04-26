@@ -1,0 +1,3 @@
+this blacklist process means the open relay’s ip address is added to a list of servers 
+from which e-mail will not be accepted. if your server is an open relay, even after closing the relay and fixing 
+your server, it can be quite hard to remove yourself from these blacklists and allow your users to send e-mail.

@@ -1,0 +1,37 @@
+There is a bit of information that gets displayed in 
+
+the output here from the yum install command.
+
+Loaded plugins: fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: centos.mirror.crucial.com.au
+ * extras: centos.mirror.crucial.com.au
+ * updates: centos.mirror.crucial.com.au
+Resolving Dependencies
+--> Running transaction check
+---> Package nmap.x86_64 2:6.40-7.el7 will be installed
+--> Finished Dependency Resolution
+
+308
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Dependencies Resolved
+
+=============================================================
+ Package      Arch        Version       Repository       Size
+=============================================================
+Installing:
+ nmap        x86_64    2:6.40-7.el7       base          4.0 M
+
+Transaction Summary
+=============================================================
+Install  1 Package
+
+Total download size: 4.0 M
+Installed size: 16 M
+Is this ok [y/d/N]:
+
+The first line shows any plug-ins that have been loaded with yum to provide extra features or 
+
+capabilities.

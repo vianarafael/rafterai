@@ -1,0 +1,3 @@
+create a new partition
+
+No partitions exist yet, so we issue n to create a new partition.

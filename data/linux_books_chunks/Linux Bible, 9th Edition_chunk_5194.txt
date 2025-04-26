@@ -1,0 +1,12 @@
+To install the xeyes command, run it about 20 times in the background, and run 
+
+killall to kill all 20 xeyes processes at once, type the following:
+
+# yum install xorg-x11-apps
+$ xeyes &
+$ xeyes &
+...
+$ killall xeyes 
+
+Remember, you need to be the root user to install the package. After that, remem-
+ber to repeat the xeyes command 20 times.

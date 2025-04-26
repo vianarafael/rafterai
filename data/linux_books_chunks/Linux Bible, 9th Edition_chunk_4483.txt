@@ -1,0 +1,24 @@
+Locking the account using the usermod -L command causes the 
+account to be locked via the /etc/shadow ﬁ le, not via PAM.
+
+# pam_tally2
+Login           Failures Latest failure     From
+Samantha            5    03/10/16 06:32:24  pts/1
+
+666
+
+c23.indd  04/01/2015  Page 667
+
+Chapter 23: Understanding Advanced Linux Security 
+
+# passwd -S Samantha
+Samantha PS 2016-03-09 0 99999 7 -1 (Password set, SHA512 crypt.)
+# usermod -L Samantha
+# passwd -S Samantha
+Samantha LK 2016-03-09 0 99999 7 -1 (Password locked.)
+# usermod -U Samantha
+# passwd -S Samantha
+Samantha PS 2016-03-09 0 99999 7 -1 (Password set, SHA512 crypt.)
+
+In the code that follows, the command pam_tally2 -r -u Samantha is issued to unlock 
+the user account Samantha.

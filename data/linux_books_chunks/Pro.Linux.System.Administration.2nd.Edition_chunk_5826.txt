@@ -1,0 +1,13 @@
+Let’s add the prompt to add to the password.
+
+$ sudo ansible-playbook --list-hosts --ask-vault-pass -b playbooks/backup.yml
+Vault password:
+
+playbook: playbooks/backup.yml
+
+  play #1 (backup.example.com):         TAGS: []
+    pattern: [u'backup.example.com']
+    hosts (1):
+      backup.example.com
+
+This should come as no surprise as we are targeting this host in the host: section of our playbook.

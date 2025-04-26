@@ -1,0 +1,19 @@
+Finding the terminal package
+
+337
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+We can click either the install button to start installing or anywhere on the listing to get more 
+
+information (see Figure 8-28).
+
+Figure 8-28.  More information for terminal
+
+Now we are going to install this package (see Figure 8-29).
+
+338
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-29.

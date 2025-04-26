@@ -1,0 +1,6 @@
+When using SCSI (small computer system
+interface), each device gets a unique scsi id. The scsi controller also needs a scsi id, do not
+use this id for a scsi-attached device.
+
+Older 8-bit SCSI is now called narrow, whereas 16-bit is wide. When the bus speeds was
+doubled to 10Mhz, this was known as fast SCSI.

@@ -1,0 +1,17 @@
+What key size (in number of bits) you want
+
+c.  How many days, weeks, months, years the key should be valid. (You can also 
+
+request that the key be valid permanently.)
+
+d.  Your real name, e-mail address, and a comment to create the User ID for the 
+
+public key
+
+e.  A passphrase for the private key
+
+3.  To list out the keys you generated, type:
+
+$ gpg2 --list-keys
+
+4.

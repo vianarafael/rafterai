@@ -1,0 +1,11 @@
+233     IN      A       150.101.161.180
+
+255
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+;; AUTHORITY SECTION:
+google.com.             10960   IN      NS      ns4.google.com.
+google.com.             10960   IN      NS      ns2.google.com.
+google.com.             10960   IN      NS      ns1.google.com.
+google.com.

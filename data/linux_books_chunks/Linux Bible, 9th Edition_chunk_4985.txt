@@ -1,0 +1,10 @@
+Create a ﬁ le named user-data to hold 
+data that conﬁ gures inside the operating system on the image itself. For this 
+simple case, I just set a password for the default user (fedora) to cloudpass and 
+ cloud-init not to expire the password:
+
+#cloud-config
+password: cloudpass
+chpasswd: {expire: False}
+
+3.  Combine the data into a separate image.

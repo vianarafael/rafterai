@@ -1,0 +1,7 @@
+That 
+
+is, the underlying virtualization platform that is running our box. At times it is useful to boot up your host 
+and see what is happening on the console as it boots, especially when learning and debugging. The follow 
+will enable the VirtualBox GUI and sets the memory for the guest to 1024Mb.
+
+Listing 3-8.

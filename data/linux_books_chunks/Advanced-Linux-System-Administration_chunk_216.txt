@@ -1,0 +1,20 @@
+Make a directory in /tmp
+
+mkdir /tmp/boot-cd
+
+2. Copy the files needed
+
+     cp /usr/share/syslinux/isolinux.bin /tmp/boot-cd
+
+cp /boot/vmlinuz-<full-version>  /tmp/boot-cd/vmlinuz
+
+cp /boot/initrd-<full-version>.img /tmp/boot-cd/initrd
+
+3. Edit the /tmp/boot-cd/isolinux.cfg file with the following content:
+
+DEFAULT linux
+LABEL  linux 
+KERNEL vmlinuz
+APPEND  initrd=initrd root=/dev/???
+
+4.

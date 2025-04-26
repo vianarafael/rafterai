@@ -1,0 +1,7 @@
+In this section, we will show you how to install a few web applications on their own virtual hosts. 
+We will not show you how to use these web applications, as most come with excellent documentation and a 
+support community.
+
+We’ll start by creating a group called www to which we will add any users who need to be able to modify 
+
+the web site installations, and we’ll add ourselves to that group.

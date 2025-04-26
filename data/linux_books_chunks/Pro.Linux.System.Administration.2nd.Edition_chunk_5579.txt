@@ -1,0 +1,7 @@
+It is designed to manage physical data centers and is very scalable to manage thousands of 
+nodes.
+
+Once MAAS spins up a host, you can provision it with Juju, an Ubuntu provision framework. This can 
+
+install software, user accounts, and other resources onto your server, or you can use other provisioning 
+services like Puppet or Ansible.

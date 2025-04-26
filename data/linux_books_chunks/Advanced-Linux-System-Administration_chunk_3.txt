@@ -1,0 +1,5 @@
+Secondarily, this License preserves for the author and publisher a 
+way to get credit for their work, while not being considered responsible for modifications made by others. 
+
+This License is a kind of "copyleft", which means that derivative works of the document must themselves be free 
+in the same sense.

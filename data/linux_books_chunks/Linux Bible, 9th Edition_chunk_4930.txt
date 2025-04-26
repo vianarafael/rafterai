@@ -1,0 +1,11 @@
+Check that the network bridge is available. Select the Network Interfaces tab and 
+make sure the bridge we just created (bridge0) is in the list of available network 
+interfaces.
+
+Step 5: Create a new virtual machine 
+To create a new virtual machine from the Virtual Machine Manager window, do the 
+following:
+
+26
+
+a.  Start the wizard.

@@ -1,0 +1,7 @@
+Other popular extensions include Notiﬁ cations Alert (which alerts you of unread 
+ messages), Presentation Mode (which prevents the screensaver from coming on when you 
+are giving a presentation), and Music Integration (which integrates popular music players 
+into GNOME 3 so you are alerted about songs being played).
+
+Because the Extensions site can keep track of your extensions, you can click the Installed 
+extensions button at the top of the page and see every extension that is installed.

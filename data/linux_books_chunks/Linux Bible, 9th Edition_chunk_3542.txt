@@ -1,0 +1,11 @@
+This example mounts the salesdata share from the host at IP address 
+192.168.0.119 on the local directory /mnt/sales:
+
+# mkdir /mnt/sales
+# mount -t cifs -o user=chris,password=mypass \
+      //192.168.0.119/salesdata /mnt/sales
+Password: *******
+# ls /mnt/sales
+hosts   services
+
+When prompted, enter the Samba password for chris.

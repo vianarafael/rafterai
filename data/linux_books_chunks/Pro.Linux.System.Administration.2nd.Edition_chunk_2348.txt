@@ -1,0 +1,12 @@
+When this is 
+complete, you can check that the new volume group exists using the vgs command.
+
+$ sudo vgcreate raid-volume /dev/md0
+  Volume group "raid-volume" successfully created
+
+$ sudo vgs
+  VG               #PV    #LV    #SN     Attr       VSize     VFree
+  centos             1      2      0     wz--n-     7.51g    40.00m
+  raid-volume        1      0      0     wz--n-    15.99g    15.99g
+
+You now have a new volume group that you can use to create logical volumes.

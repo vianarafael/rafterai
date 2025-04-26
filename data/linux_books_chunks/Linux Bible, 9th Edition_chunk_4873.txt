@@ -1,0 +1,6 @@
+The window that appears allows you to work from 
+a console window to a Desktop or command line interface to the selected virtual 
+machine (depending on what that VM has to offer).
+
+After this small cloud-like infrastructure is built, you have the basis for what is 
+sometimes referred to as a Platform-as-a-Service (or PaaS) cloud.

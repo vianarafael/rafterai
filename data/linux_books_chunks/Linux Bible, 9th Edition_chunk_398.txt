@@ -1,0 +1,6 @@
+As you use the next 
+ workspace, a new one opens, ready for you to place more applications.
+
+After the computer boots up
+If you booted up a live image, when you reach the desktop, you are assigned as the Live 
+System User for your username.

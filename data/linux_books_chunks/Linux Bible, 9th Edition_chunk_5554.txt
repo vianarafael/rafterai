@@ -1,0 +1,16 @@
+Any attempt otherwise to propagate or modify it is void, and will automatically 
+terminate your rights under this License (including any patent licenses granted under the 
+third paragraph of section 11).
+
+However, if you cease all violation of this License, then your license from a particular copy-
+right holder is reinstated (a) provisionally, unless and until the copyright holder explicitly 
+and ﬁ nally terminates your license, and (b) permanently, if the copyright holder fails to 
+notify you of the violation by some reasonable means prior to 60 days after the cessation.
+
+Moreover, your license from a particular copyright holder is reinstated permanently if the 
+copyright holder notiﬁ es you of the violation by some reasonable means, this is the ﬁ rst 
+time you have received notice of violation of this License (for any work) from that copy-
+right holder, and you cure the violation prior to 30 days after your receipt of the notice.
+
+Termination of your rights under this section does not terminate the licenses of parties 
+who have received copies or rights from you under this License.

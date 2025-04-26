@@ -1,0 +1,6 @@
+The ﬁ rst sets how ﬁ les in /var/log/samba log ﬁ les are rotated (copied to 
+other ﬁ les and removed) over time. The second is a ﬁ le where you could put options that 
+are passed to the smbd, nmbd, or winbindd daemons, so you could turn off features such 
+as debugging.
+
+Most conﬁ guration ﬁ les you would modify for Samba are in the /etc/samba directory.

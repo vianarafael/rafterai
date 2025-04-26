@@ -1,0 +1,9 @@
+The $ 
+
+symbol tells grep to search for the text at the end of strings.
+
+You can use the ^ symbol to in turn search for strings starting with a particular string like so:
+
+$ grep '^job' *
+
+This would return any string starting with job.

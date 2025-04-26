@@ -1,0 +1,13 @@
+To determine the largest directory structures under /usr/share, sort them from 
+largest to smallest, and list the top 10 of those directories in terms of size using 
+the du command, type the following:
+
+$ du -s /usr/share/* | sort -rn | head
+
+527800 /usr/share/locale
+277108 /usr/share/fonts
+265772 /usr/share/icons
+253844 /usr/share/doc
+...
+
+9.

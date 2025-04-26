@@ -1,0 +1,61 @@
+Each of the basic protocols offers advantages and 
+disadvantages.
+
+585
+
+Chapter 12 ■ Mail ServiCeS
+
+Advantages of IMAP:
+
+•	
+
+•	
+
+•	
+
+Allows users to access e-mail from multiple locations, not just their client
+
+Allows webmail access
+
+Protects your messages from accidental deletion
+
+•	 Centralizes e-mail, making backup and recovery easier
+
+Advantages of POP3:
+
+•	
+
+•	
+
+You don’t need to be connected to the server (or indeed the network) to have access 
+to your e-mail.
+
+It doesn’t use any storage on your server—all mail is stored on your clients after 
+retrieval.
+
+Disadvantages of IMAP:
+
+•	
+
+•	
+
+You need to be able to connect to the server (and hence the network and/or Internet) 
+to access your e-mail.
+
+It requires sufficient storage on your server.
+
+Disadvantages of POP3:
+
+•	 Mail is present only on the client and can’t be accessed from elsewhere.
+
+•	 Users can lose e-mail if they lose, damage, or rebuild their client desktop, laptop, and 
+
+so on, without sufficient backups.
+
+•	
+
+If users require e-mail to be backed up, a per-client backup and recovery strategy can 
+be complex and difficult to implement.
+
+Choosing Between IMAP and POP3
+For the vast majority of circumstances, we recommend you use IMAP.

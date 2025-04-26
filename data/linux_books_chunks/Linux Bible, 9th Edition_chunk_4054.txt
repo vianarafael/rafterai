@@ -1,0 +1,10 @@
+However, every day, users log in to your Linux sys-
+tem. User accounts and passwords have basic security settings that should be reviewed and 
+implemented as needed.
+
+22
+
+Securing user accounts
+User accounts are part of the authentication process allowing users into the Linux system. 
+Proper user account management enhances a system’s security. Setting up user accounts 
+was covered in Chapter 11.

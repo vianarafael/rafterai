@@ -1,0 +1,6 @@
+A bonded Ethernet device can also be referred to as a trunk 
+device. Bonding allows you to use two or more Ethernet ports to act as one interface, giving you expanded 
+bandwidth and some redundancy. In this way you can turn a 1 GiB link into a 2 GiB link for the one virtual 
+interface.
+
+So how would we do this feat? We have two devices attached to our host, enp0s8 and enp0s9.

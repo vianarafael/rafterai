@@ -1,0 +1,16 @@
+When  an  application  depends  on  a  setting  in  $HOME/.profile,  does  it  matter  whether
+$HOME/.bash_profile exists or not ?
+
+34
+
+user profiles
+
+4.10. solution: user profiles
+
+1. Make a list of all the profile files on your system.
+
+ls -a ~ ; ls -l /etc/pro* /etc/bash*
+
+2. Read the contents of each of these, often they source extra scripts.
+
+3.

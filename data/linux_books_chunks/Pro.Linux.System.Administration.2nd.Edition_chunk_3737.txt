@@ -1,0 +1,10 @@
+Remember to give this user a unique complex password.
+
+$ sudo samba-tool user add sharedcreds
+
+We will add them to sales group.
+
+$ sudo samba-tool group addmembers sales sharedcreds
+
+When we normally mount the share, we provide a username and password, and we use that to manage 
+our mount.

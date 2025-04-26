@@ -1,0 +1,6 @@
+There are many core modules shipped with Ansible, and they are documented here: http://
+docs.ansible.com/ansible/modules_by_category.html.
+
+The target systems, or inventory, are a collection of hosts and can be grouped together into groups. 
+These can be static or dynamically collected with helper scripts. You can assign variables to these hosts and 
+groups that can be used in your playbooks.

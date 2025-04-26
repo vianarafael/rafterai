@@ -1,0 +1,6 @@
+This service is able to install bare-metal Ubuntu and CentOS servers—as well as 
+RHEL and Windows.
+
+The MAAS service strives to provide cloud functionality on your metal servers. The technology 
+underlying this tool is not new. It uses PXE, Trivial File Transfer Protocol (TFTP), and Debian Preseed to 
+build up nodes.

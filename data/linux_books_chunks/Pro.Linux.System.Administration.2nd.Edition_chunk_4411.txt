@@ -1,0 +1,2 @@
+When passing options to a Microsoft Windows client, we can simply pass the 
+required options along using the push option.

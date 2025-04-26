@@ -1,0 +1,8 @@
+Everyone should attend.
+>
+> -- James
+> thetext
+$
+
+This example sends a mail message to root, cnegus, rjones, and bdecker usernames. The text 
+entered between <<thetext and thetext becomes the content of the message.

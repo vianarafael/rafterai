@@ -1,0 +1,6 @@
+If 
+you wanted to restrict access to certain profiles, you would edit this file by listing the resources the 
+profile has access to (see http://doc.bareos.org/master/html/bareos-manual-main-reference.
+html#x1-1510009.12 for more details).
+
+We now need the Bareos Director to read these files in when it starts.

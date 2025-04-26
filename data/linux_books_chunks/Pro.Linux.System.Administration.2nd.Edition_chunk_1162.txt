@@ -1,0 +1,5 @@
+By issuing the --help argument we can see the list of arguments, unit file 
+commands, machine commands, job commands, and more. To begin with, let’s look at how we can manage 
+an individual service and then we can look at the wider system.
+
+ Yes, you can use systemctl to manage remote or virtual machines.

@@ -1,0 +1,5 @@
+In any of those cases, you want to be able to 
+refer to messages coming from the kernel and services running on the system.
+
+For Linux systems that don’t use the systemd facility, the main utility for logging error 
+and debugging messages is the rsyslogd daemon.

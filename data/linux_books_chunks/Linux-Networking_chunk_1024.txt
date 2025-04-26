@@ -1,0 +1,15 @@
+(Thus, if the Document is in
+part a textbook of mathematics, a Secondary Section may not explain
+any mathematics.) The relationship could be a matter of historical
+connection with the subject or with related matters, or of legal,
+commercial, philosophical, ethical or political position regarding
+them.
+
+The "Invariant Sections" are certain Secondary Sections whose titles
+
+277
+
+License
+
+are designated, as being those of Invariant Sections, in the notice
+that says that the Document is released under this License.

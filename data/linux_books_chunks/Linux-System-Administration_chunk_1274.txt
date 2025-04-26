@@ -1,0 +1,29 @@
+Some examples.
+
+352
+
+  
+  
+  
+  
+backup
+
+To receive information about the status of the tape.
+
+mt -f /dev/st0 status
+
+To rewind a tape...
+
+mt -f /dev/st0 rewind
+
+To rewind and eject a tape...
+
+mt -f /dev/st0 eject
+
+To erase a tape...
+
+mt -f /dev/st0 erase
+
+30.2. Compression
+
+It  can  be  beneficial  to  compress  files  before  backup.

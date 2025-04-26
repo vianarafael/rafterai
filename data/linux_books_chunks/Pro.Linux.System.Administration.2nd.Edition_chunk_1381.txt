@@ -1,0 +1,6 @@
+We have set 
+these to zero and over time we would adjust these as was deemed necessary.
+
+Depending on your network and what kind of bonding you can implement given your network 
+equipment, you can add other options here to give fault tolerance, redundancy, and round-robin features 
+to your bonded device.

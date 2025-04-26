@@ -1,0 +1,3 @@
+At the top is the root directory (not to be confused with the root user), which is represented by a 
+single slash (/). Below that is a set of common directories in the Linux system, such as bin, dev, 
+home, lib, and tmp, to name a few.

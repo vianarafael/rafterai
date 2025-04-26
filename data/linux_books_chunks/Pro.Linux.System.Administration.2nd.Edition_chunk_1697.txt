@@ -1,0 +1,9 @@
+Iptables Jump and Goto
+
+-A INPUT_ZONES -g IN_public
+-A IN_public -j IN_public_log
+-A IN_public -j IN_public_deny
+-A IN_public -j IN_public_allow
+-A IN_public_allow -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+
+Here in Listing 7-9 we have INPUT_ZONES chain with a goto (–g) switch to the IN_public chain.

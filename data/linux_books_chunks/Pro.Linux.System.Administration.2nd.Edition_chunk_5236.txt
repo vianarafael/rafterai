@@ -1,0 +1,7 @@
+It is based on a distributed 
+architecture and can store petabytes of searchable data.
+
+Elasticsearch will store our log data from Logstash in an index. An index is a logical namespace for data. 
+
+With Logstash, by default, we create an index for each day’s log data. An index is made up of documents, 
+which are the equivalent of relational database rows.

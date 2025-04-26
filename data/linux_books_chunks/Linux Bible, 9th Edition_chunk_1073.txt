@@ -1,0 +1,3 @@
+To change 
+processes without a graphical  interface, you can use a set of commands and  keystrokes 
+to change, pause, or kill running  processes.

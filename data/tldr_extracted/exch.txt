@@ -1,0 +1,6 @@
+# exch
+
+
+- Swap filepaths:
+
+`exch {{path/to/file1}} {{path/to/file2}}`

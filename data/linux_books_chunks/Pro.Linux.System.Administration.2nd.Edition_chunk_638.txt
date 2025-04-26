@@ -1,0 +1,6 @@
+In 2003, the Oxford English Dictionary added the word “grep” as both a 
+noun and a verb (e.g., “John grep’ed his mailbox to find the e-mail”).
+
+In Listing 4-15, you can see a very simple grep search for the string localhost in the file /etc/hosts.
+
+Listing 4-15.

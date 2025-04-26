@@ -1,0 +1,11 @@
+We’ll talk 
+about the ln command later in this chapter in the section “Linking Files.”
+
+129
+
+ChapTeR 4 ■ LInux BasICs
+
+Users, Groups, and Ownership
+Next in our listing is the ownership of the file. Each object is owned by a user and a group; in Listing 4-9, the 
+root user and root group own the objects. We briefly discussed user and group ownership when we looked at 
+permissions.

@@ -1,0 +1,7 @@
+Using the 
+NetworkManager example shown previously, scroll down the page to view the Routes box. 
+Then add the following information:
+
+14
+
+ ■ Address—The network address of the subnetwork you route to.

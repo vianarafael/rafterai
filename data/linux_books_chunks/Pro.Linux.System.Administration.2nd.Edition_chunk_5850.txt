@@ -1,0 +1,16 @@
+We do this 
+using some tools that came when we installed Serverspec.
+
+$ rake spec:ansible
+
+Package "apache2"
+  should be installed (FAILED - 1)
+
+Service "apache2"
+  should be enabled (FAILED - 2)
+  should be running (FAILED - 3)
+
+Port "80"
+  should be listening (FAILED - 4)
+
+To run our tests, we are going to execute what’s called a rake task.

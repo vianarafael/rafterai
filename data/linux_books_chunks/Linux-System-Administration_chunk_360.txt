@@ -1,0 +1,2 @@
+In the example below,
+you see the creation of an ext2 file system on /dev/sdb1.

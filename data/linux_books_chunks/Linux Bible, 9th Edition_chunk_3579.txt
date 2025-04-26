@@ -1,0 +1,6 @@
+The nfsd man page 
+describes options you can pass to the rpc.nfsd server daemon, which lets you do such 
+things as run the server in debugging mode.
+
+Man pages on the client side include the mount.nfs man page (to see what mount options 
+you can use when mounting remote NFS directories on your local system).

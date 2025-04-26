@@ -1,0 +1,5 @@
+First, 
+the public key must be extracted from the key ring so it can be shared. In the example that 
+follows, the gpg2 utility is used to extract the public key from johndoe’s key ring. The 
+extracted key is put into a ﬁ le to be shared. The ﬁ lename can be any name you wish it to 
+be.

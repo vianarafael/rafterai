@@ -1,0 +1,5 @@
+9903    IN     NS      j.root-servers.net.
+.                      9903    IN     NS      e.root-servers.net.
+.                      9903    IN     NS      k.root-servers.net.
+...<snip>...
+.

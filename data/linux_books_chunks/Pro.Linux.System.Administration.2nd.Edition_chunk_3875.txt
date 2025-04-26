@@ -1,0 +1,5 @@
+Within your organization, you should have 
+
+a BCM plan that contains the findings of risk analysis, business impact analysis, and crisis management 
+investigations that can be signed off on by the major business units. Even small businesses can benefit from 
+a semiformal arrangement, though the resources to develop a full BCM may not be required.

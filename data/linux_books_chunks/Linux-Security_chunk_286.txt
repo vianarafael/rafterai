@@ -1,0 +1,9 @@
+Set the umask to 077, but use the symbolic format to set it. Verify that this works.
+
+12. Create a file as root, give only read to others. Can a normal user read this file ? Test
+writing to this file with vi.
+
+13a. Create a file as normal user, give only read to others. Can another normal user read this
+file ? Test writing to this file with vi.
+
+13b.

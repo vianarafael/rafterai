@@ -1,0 +1,3 @@
+Do what you need to do to safely remove the USB ﬂ ash drive from the computer: 
+unmount the Linux partition, turn off the swap partition, unmount the logical 
+ volume, and delete the volume group from the USB ﬂ ash drive.

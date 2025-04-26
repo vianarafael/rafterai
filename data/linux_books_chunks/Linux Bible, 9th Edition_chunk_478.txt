@@ -1,0 +1,6 @@
+The bottom 
+panel has a Show Desktop button, window lists, a trash can, and a workspace switcher.
+
+ ■ Desktop area—The windows and icons you use are arranged on the desktop area, 
+which supports drag-and-drop between applications, a desktop menu (right-click 
+to see it), and icons for launching applications.

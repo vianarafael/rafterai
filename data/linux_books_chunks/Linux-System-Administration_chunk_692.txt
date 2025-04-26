@@ -1,0 +1,8 @@
+chkconfig
+
+The purpose of chkconfig is to relieve system administrators of manually managing all the
+links and scripts in /etc/init.d and /etc/rcX.d/.
+
+15.4.1. chkconfig --list
+
+Here we use chkconfig to list the status of a service in the different runlevels.

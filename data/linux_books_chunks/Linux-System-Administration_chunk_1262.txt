@@ -1,0 +1,14 @@
+The trace log is too long to show
+a complete screenshot in this book.
+
+root@deb503:~# wc -l strace.txt 
+941 strace.txt
+
+349
+
+Part VII. backup management
+
+Table of Contents
+
+30.  backup  ...................................................................................................................................................  352
+30.1.

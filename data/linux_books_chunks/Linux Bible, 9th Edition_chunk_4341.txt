@@ -1,0 +1,11 @@
+It is somewhat similar to the 
+regular mount command, except the partition type used is ecryptfs. The item to mount 
+
+642
+
+c23.indd  04/01/2015  Page 643
+
+Chapter 23: Understanding Advanced Linux Security 
+
+and its mount point are the same directory! You are literally encrypting the directory and 
+ mounting it upon itself.

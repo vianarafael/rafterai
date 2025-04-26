@@ -1,0 +1,5 @@
+There are several ways to 
+define your root and main branches. Some people choose a layout based on their DNS domains, as we have 
+here, and some people use geographic locations, such as o=US, o=AU, or o=DE, as their root. In our case, we 
+choose to use the DNS naming standard as we are not overly concerned about the geographic locations of 
+our organization.

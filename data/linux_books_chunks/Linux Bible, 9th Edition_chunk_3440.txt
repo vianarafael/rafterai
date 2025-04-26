@@ -1,0 +1,3 @@
+Consider a default ﬁ rewall from 
+Fedora that allows incoming packets from the local host, from established connections, and 
+related to established connections, but denies all other incoming packets.

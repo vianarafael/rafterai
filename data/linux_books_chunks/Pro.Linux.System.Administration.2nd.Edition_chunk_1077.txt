@@ -1,0 +1,10 @@
+We suggest you use 
+your best judgment considering your circumstances.
+
+Remember that Ubuntu doesn’t provide these tools to you out of the box, but you can follow a similar 
+
+process with that distribution. For an Ubuntu specific guide see https://help.ubuntu.com/community/
+Grub2/Passwords.
+
+What Happens After You Boot?
+So your host has found your kernel and booted it.

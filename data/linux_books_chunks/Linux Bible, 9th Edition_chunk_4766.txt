@@ -1,0 +1,14 @@
+In this 
+
+table, access control decisions are made for packets traveling to, from, and through 
+your Linux system.
+
+ ■ nat—The nat table is used for Network Address Translation (NAT). Firewalls can be 
+
+set up for NAT, which is a different security feature than packet ﬁ ltering.
+
+25
+
+ ■ mangle—As you suspect, packets are mangled (modiﬁ ed) according to the rules in 
+
+the mangle table.

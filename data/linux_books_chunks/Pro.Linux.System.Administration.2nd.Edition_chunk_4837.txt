@@ -1,0 +1,11 @@
+A 
+lower or negative niceness means a high priority.
+
+The total amount of memory allocated by the task, including shared and swap memory.
+
+The total amount of physical memory used by the task, excluding swap memory.
+
+The amount of shared memory used by the task. This memory is usually allocated by libraries 
+and also is usable by other tasks.
+
+Task status.

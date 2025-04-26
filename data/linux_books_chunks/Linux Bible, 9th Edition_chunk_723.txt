@@ -1,0 +1,7 @@
+For example, the su command opens a 
+shell as a new user. Exiting from that shell simply returns you to the original shell.
+
+Creating Your Shell Environment
+You can tune your shell to help you work more efﬁ ciently. You can set aliases to create 
+shortcuts to your favorite command lines and environment variables to store bits of infor-
+mation.

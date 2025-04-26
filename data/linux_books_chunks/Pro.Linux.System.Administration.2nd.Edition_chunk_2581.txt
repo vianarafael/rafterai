@@ -1,0 +1,9 @@
+We enable dnssec and dnssec-validation by setting both to ‘yes’. The bindkeys-file points to the 
+iscdlv.key path. This key is used in dnssec validation when there is no DS record (this is less common now 
+that DNSSEC is rolled out nearly everywhere).
+
+442
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+We then have logging options.

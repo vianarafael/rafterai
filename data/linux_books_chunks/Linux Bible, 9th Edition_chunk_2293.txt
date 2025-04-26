@@ -1,0 +1,14 @@
+The 
+
+323
+
+c13.indd  04/01/2015  Page 324
+
+Part IV: Becoming a Linux Server Administrator
+
+ssh command can also replace older remote execution commands, such as rsh. Remote 
+copy commands, such as rcp, can be replaced with secure commands such as scp and 
+rsync.
+
+With Secure Shell tools, both the authentication process and all communications that 
+ follow are encrypted.

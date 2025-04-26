@@ -1,0 +1,9 @@
+Then exit the shell, and return to the desktop.
+
+2.  Open a Terminal window, and change the font color to red and the background 
+
+to yellow.
+
+3.  Find the location of the mount command and the tracepath man page.
+
+4.

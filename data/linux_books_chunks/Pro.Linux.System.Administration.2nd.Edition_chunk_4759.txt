@@ -1,0 +1,7 @@
+This provides us with the ability to better manage user 
+administration and allows us to set common password management policies across all our services, which 
+provides greater security.
+
+Our first step will be to centralize our Linux authentication so that all our Linux desktops and servers share 
+
+the same authentication credentials.

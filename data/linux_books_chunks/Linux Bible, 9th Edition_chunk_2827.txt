@@ -1,0 +1,7 @@
+Both classic 
+SysVinit and Upstart deﬁ ne these groups of services as runlevels, while systemd calls them 
+target units.
+
+Confi guring the SysVinit default runlevel
+You set the persistent runlevel for a Linux server using SysVinit in the /etc/inittab 
+ﬁ le.

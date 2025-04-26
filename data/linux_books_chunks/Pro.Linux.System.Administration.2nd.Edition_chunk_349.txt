@@ -1,0 +1,8 @@
+You can view the license at
+
+https://raw.githubusercontent.com/mitchellh/vagrant/master/LICENSE
+
+Vagrant Concepts
+The problem space that Vagrant tried to solve when it was originally developed was the sharing of virtualized 
+machines and their configurations run under VirtualBox. Since that time it has expanded its support for 
+virtualization technologies but its core tenant remains the same.

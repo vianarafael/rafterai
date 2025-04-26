@@ -1,0 +1,8 @@
+Type date --help to 
+see different format indicators you can use.
+
+Try the id and who commands to get a feel for your current Linux environment, as 
+described in the following paragraphs.
+
+When you log in to a Linux system, Linux views you as having a particular identity, which 
+includes your username, group name, user ID, and group ID.

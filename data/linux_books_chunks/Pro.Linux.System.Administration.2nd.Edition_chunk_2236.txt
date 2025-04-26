@@ -1,0 +1,4 @@
+We’ll 
+use UUID references, as they don’t change even when disks are detected in a different order and thus might 
+be named differently. Ubuntu places the original device node name in a comment on the line directly above. 
+Next is the mount point, which is simply a directory anywhere on the filesystem.

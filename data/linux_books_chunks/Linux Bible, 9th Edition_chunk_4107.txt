@@ -1,0 +1,4 @@
+Equivalent to PASS_WARN_AGE in /etc/login.defs
+
+The example that follows uses the chage command to set password aging parameters for 
+the tim account.

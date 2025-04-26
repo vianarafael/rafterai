@@ -1,0 +1,5 @@
+This will allow Nginx to proxy 
+requests to this port and serve the responses.
+
+We can install Gunicorn via the pip command, which is the Python package manager. On Ubuntu we 
+need to use pip3, or version 3 of pip, to install Gunicorn as Graphite-API is a Python 3 install.

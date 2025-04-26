@@ -1,0 +1,11 @@
+With this protocol it 
+
+is possible to send your log data across a network to a remote system where another rsyslog daemon can 
+collect and centralize your logs.
+
+ ■ Tip 
+
+ rsyslog traffic is usually transmitted via tCp on port 514.
+
+Configuring rsyslog
+The rsyslog daemon is controlled by a configuration file located in /etc called rsyslog.conf.

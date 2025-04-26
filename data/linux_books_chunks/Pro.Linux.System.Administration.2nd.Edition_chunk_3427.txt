@@ -1,0 +1,35 @@
+Postfix Restriction Lists
+
+Restriction List
+
+Description
+
+smtpd_client_restrictions
+
+Restrictions when the clients connect
+
+smtpd_helo_restrictions
+
+Restrictions when the HELO/EHLO command is issued
+
+smtpd_sender_restrictions
+
+Restrictions when the MAIL FROM command is issued
+
+smtpd_relay_restrictions
+
+Restrictions applied to RCPT TO prior to the smtpd_recipient_
+restrictions
+
+smtpd_recipient_restrictions
+
+Restrictions when the RCPT TO command is issued for spam blocking
+
+smtpd_data_restrictions
+
+Restrictions when the DATA command is issued
+
+Restriction lists are triggered when particular events occur; for example, the smtpd_client_ 
+
+restrictions are checked when the client connects, and the smtpd_helo_restrictions are checked when 
+the EHLO command is issued by the client.

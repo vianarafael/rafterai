@@ -1,0 +1,30 @@
+To list 
+
+all current settings, we can use the following:
+
+$ sysctl –a
+abi.vsyscall32 = 1
+crypto.fips_enabled = 0
+debug.exception-trace = 1
+debug.kprobes-optimization = 1
+dev.hpet.max-user-freq = 64
+dev.mac_hid.mouse_button2_keycode = 97
+...
+vm.percpu_pagelist_fraction = 0
+vm.stat_interval = 1
+vm.swappiness = 30
+vm.user_reserve_kbytes = 29608
+vm.vfs_cache_pressure = 100
+vm.zone_reclaim_mode = 0
+
+To read a particular value, pass its key as a parameter to sysctl.
+
+$ sudo sysctl vm.swappiness
+vm.swappiness = 30
+
+833
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+The key is the full path to the file, with /proc/sys/ removed and the slashes optionally replaced with 
+full stops.

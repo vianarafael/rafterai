@@ -1,0 +1,11 @@
+If you want to remove an alias, type unalias. (Remember that if the alias is set 
+in a conﬁ guration ﬁ le, it will be set again when you open another shell.)
+
+87
+
+c03.indd  04/01/2015  Page 88
+
+Part II: Becoming a Linux Power User 
+
+Exiting the shell
+To exit the shell when you are ﬁ nished, type exit or press Ctrl+D.

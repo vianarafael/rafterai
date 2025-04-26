@@ -1,0 +1,52 @@
+Once these are installed, we will edit the /etc/
+bareos/bareos-fd.conf file and add the following information:
+
+Director {
+FileDaemon {                          # definition of myself
+  Name = headoffice-fd
+  WorkingDirectory = /var/lib/bareos
+  Maximum Concurrent Jobs = 20
+
+  # remove comment from "Plugin Directory" to load plugins from specified directory.
+  # if "Plugin Names" is defined, only the specified plugins will be loaded,
+  # otherwise all storage plugins (*-fd.so) from the "Plugin Directory".
+  #
+  # Plugin Directory = /usr/lib64/bareos/plugins
+  # Plugin Names = ""
+
+684
+
+Chapter 14 ■ BaCkup and reCovery
+
+  # if compatible is set to yes, we are compatible with bacula
+  # if set to no, new bareos features are enabled which is the default
+  # compatible = yes
+}
+
+#
+# List Directors who are permitted to contact this File daemon
+#
+Director {
+  Name = example-dir
+  Password = "6rZQQqVsOJeeTPefrG2AslT5ODxtPWO1hNsd7Re1u6J/"
+}
+
+#
+# Restricted Director, used by tray-monitor to get the
+#   status of the file daemon
+#
+Director {
+  Name = example-mon
+  Password = "WOhEm9JC+uBvpNBJta1RuA7NJSmUgQrz3QPRgPYhRzyZ"
+  Monitor = yes
+}
+
+# Send all messages except skipped files back to Director
+Messages {
+  Name = Standard
+  director = example-dir = all, !skipped, !restored
+}
+
+In the File daemon configuration script, we declare the Director {} stanza for connecting to the Bareos 
+
+Director daemon.

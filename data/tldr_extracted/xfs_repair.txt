@@ -1,0 +1,6 @@
+# xfs_repair
+
+
+- Repair a partition:
+
+`sudo xfs_repair {{path/to/partition}}`

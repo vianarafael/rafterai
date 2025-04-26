@@ -1,0 +1,7 @@
+Using systemctl to enable the Alt-ArrowUp alias
+
+In Figure 6-7 you can see that when we issue the $ sudo systemctl enable rescue.target, the Alias 
+option of the Install section means that we create a symlink from kbrequest.target to the rescue.target. 
+Now, on the console, if we hit the Alt+ArrowUp keys we get the following as shown in Figure 6-8.
+
+Figure 6-8.

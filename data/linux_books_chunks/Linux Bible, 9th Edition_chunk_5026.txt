@@ -1,0 +1,14 @@
+To add more repositories, entries in your user-data ﬁ le 
+could look as follows:
+
+apt_mirror: http://us.archive.ubuntu.com/ubuntu/
+apt_mirror_search: 
+ - http://myownmirror.example.com
+ - http://archive.ubuntu.com
+packages:
+ - nmap
+ - mycoolcmd
+ - [libmystuff, 3.16.0-25]
+
+The myownmirror.example.com entry tells apt to use your own private apt repository 
+to search for packages.

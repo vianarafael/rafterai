@@ -1,0 +1,14 @@
+fork and exec
+
+A process starts another process in two phases. First the process creates a fork of itself, an
+identical copy. Then the forked process executes an exec to replace the forked process with
+the target child process.
+
+[paul@RHEL4b ~]$ echo $$
+4224
+[paul@RHEL4b ~]$ bash
+[paul@RHEL4b ~]$ echo $$ $PPID
+5310 4224
+[paul@RHEL4b ~]$
+
+1.2.5.

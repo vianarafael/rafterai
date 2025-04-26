@@ -1,0 +1,8 @@
+The default value is 
+used when the value of $facts['os']['name'] is neither CentOS nor Ubuntu.
+
+Lastly, the ensure attribute has been set to running to ensure the service will be started. We could set 
+
+the ensure attribute to stopped to ensure it is not started.
+
+ the puppet language has a lot of useful features and lots of different ways you can express your code.

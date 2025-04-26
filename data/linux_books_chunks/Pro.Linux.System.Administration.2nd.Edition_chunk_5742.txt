@@ -1,0 +1,7 @@
+When Ansible starts, it looks for the configuration file, first in the environment variable 
+ANSIBLE_CONFIG, then in ansible.cfg in the local directory, then in ~/.ansible.cfg in the home directory, 
+or lastly the system default in /etc/ansible/ansible.cfg.
+
+958
+
+When you start out, you don’t need to edit this file.

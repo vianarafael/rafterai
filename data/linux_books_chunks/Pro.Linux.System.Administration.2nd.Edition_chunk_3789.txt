@@ -1,0 +1,14 @@
+Each server 
+is called a peer.
+
+A brick is a basic unit of storage for the GlusterFS. It is exported a server in the 
+trusted pool.
+
+A volume is a logical collection of bricks.
+
+617
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+There are several ways that data can be stored inside GlusterFS. These concepts are similar to those 
+found in RAID.

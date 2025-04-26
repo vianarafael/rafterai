@@ -1,0 +1,6 @@
+probably the most useful command-line option is –a, which combines a variety of the command-
+line options to provide a detailed overview of who is logged in to your host, the login processes, and the 
+host reboot and run-level details.
+
+also useful are the last and lastb commands, which display a record of when users last logged in 
+to the host and a record of bad user logins, respectively.

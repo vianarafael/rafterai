@@ -1,0 +1,8 @@
+The characters and words you 
+can type after a command are called options and arguments.
+
+Understanding command syntax
+Most commands have one or more options you can add to change the command’s behavior. 
+Options typically consist of a single letter, preceded by a hyphen. However, you can group 
+single-letter options together or precede each with a hyphen, to use more than one option 
+at a time.

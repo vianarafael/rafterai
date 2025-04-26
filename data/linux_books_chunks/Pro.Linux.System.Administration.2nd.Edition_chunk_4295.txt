@@ -1,0 +1,4 @@
+We’re going to create a 
+file called gateway.conf in the /etc/openvpn directory, as shown in Listing 15-1.
+
+Listing 15-1.

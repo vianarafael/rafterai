@@ -1,0 +1,23 @@
+joining an Active Directory domain
+
+While the Samba server is stopped, you can use net rpc join to join the Active Directory
+domain.
+
+[root@RHEL52 samba]# service smb stop
+Shutting down SMB services:                                [  OK  ]
+Shutting down NMB services:                                [  OK  ]
+[root@RHEL52 samba]# net rpc join -U Administrator
+Password:
+Joined domain STARGATE.
+
+We can verify in the aduc (Active Directory Users and Computers) that a computer account
+is created for this samba server.
+
+246
+
+  
+  
+ 
+samba domain member
+
+22.3.

@@ -1,0 +1,10 @@
+# swayidle
+
+
+- Listen for idle activity using the configuration in `$XDG_CONFIG_HOME/swayidle/config` or `$HOME/swayidle/config`:
+
+`swayidle`
+
+- Specify an alternative path to the configuration file:
+
+`swayidle -C {{path/to/file}}`

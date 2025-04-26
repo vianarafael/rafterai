@@ -1,0 +1,7 @@
+At this stage the entire system is available and the bootloader can be fixed
+
+When a bootloader is misconfigured one can use an alternative bootloader (on a floppy or 
+a CD). This bootloader will  load a kernel which is instructed to use the root device on the 
+hard drive.
+
+This method is called a boot disk and is used to recover a specific system.

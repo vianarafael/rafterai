@@ -1,0 +1,30 @@
+See Carriage return line feed (CRLF)
+Cron, 210–215, 419
+Crond, 215
+Crontab, 648
+CUPS
+
+administration page, 630
+administrator’s credentials, 630
+defaults, 632
+home page, 629
+printer information, 631
+printer model, 632
+ready to print, 634
+USB printer, 631
+
+ D
+Dandified (DNF), 314
+Database, 638, 668–669, 694–697
+Data life cycle, 637
+Data sharing, 378
+Deadline scheduler, 836
+Debian Linux distribution, 5
+Debmirror package, 915
+Default gateway, 26–27
+Defence Information Systems Agency (DISA), 35
+Denial of Service attacks (DoS), 285
+Development packages, 298
+Device-mapper, 398
+Devices, 357–359
+DHCP.

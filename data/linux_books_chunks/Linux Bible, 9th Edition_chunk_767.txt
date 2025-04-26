@@ -1,0 +1,7 @@
+These tasks assume you are 
+running a Fedora or Red Hat Enterprise Linux system (although some tasks work on other 
+Linux systems as well). If you are stuck, solutions to the tasks are shown in Appendix B 
+(although in Linux, there are often multiple ways to complete a task).
+
+1.  From your Desktop, switch to the second virtual console and log in to your user 
+account. Run a few commands.

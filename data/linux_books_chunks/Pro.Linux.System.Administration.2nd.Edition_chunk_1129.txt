@@ -1,0 +1,10 @@
+The Upstart Ubuntu Cookbook suggests something 
+like this is the accepted way:
+
+pre-start script
+
+  # stop job from continuing if no config file found for daemon
+  [ ! -f /etc/default/myapp ] && { stop; exit 0; }
+
+  # source the config file
+  .

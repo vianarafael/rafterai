@@ -1,0 +1,7 @@
+Make a list of all the profile files on your system.
+
+2. Read the contents of each of these, often they source extra scripts.
+
+3. Put a unique variable, alias and function in each of those files.
+
+4.

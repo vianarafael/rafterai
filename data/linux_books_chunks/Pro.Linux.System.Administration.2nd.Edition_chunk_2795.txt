@@ -1,0 +1,7 @@
+For instance, on au-mel-ubuntu-1 we could run the following:
+
+$ scp jsmith@au-mel-centos-1:/tmp/data.txt ataylor@au-mel-centos-2:/tmp
+data.txt                                      100% 3072KB    3.0MB/s    00:01
+
+SSH also provides a replacement for the FTP. If you want to be able to interactively move files or 
+directories, you can use the sftp command, as shown in Listing 10-38.

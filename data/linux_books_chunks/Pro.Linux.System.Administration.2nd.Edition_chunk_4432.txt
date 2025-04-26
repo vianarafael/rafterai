@@ -1,0 +1,5 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_16ChAPTer 16 ■ DireCTOry ServiCeS
+
+Overview
+In this chapter we will be exploring OpenLDAP and using it as an authentication service. We can use it as a 
+single sign-on service for any authentication mechanisms that support LDAP.

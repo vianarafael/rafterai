@@ -1,0 +1,4 @@
+It allows any computer and user to read 
+ﬁ les from the directory (indicated by the ro option) but not to write ﬁ les. The insecure 
+option enables any computer, even one that doesn’t use a secure NFS port, to access the 
+directory.

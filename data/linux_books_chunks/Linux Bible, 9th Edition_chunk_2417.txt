@@ -1,0 +1,10 @@
+Disk space is shown in 
+1KB blocks. To produce output in a more human-readable form, use the -h option:
+
+$ df -h
+Filesystem            Size  Used  Avail  Use%   Mounted on
+/dev/sda3              29G  2.9G    24G   11%   /
+/dev/sda2              46M  8.2M    25M   19%   /boot
+...
+
+With the df -h option, output appears in a friendlier megabyte or gigabyte listing.

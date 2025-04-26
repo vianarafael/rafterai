@@ -1,0 +1,9 @@
+These set-
+
+tings can be used to enable or disable certain hardware components or turn on or 
+off selected hardware features.
+
+ ■ Boot order—Computers are capable of starting an operating system, or more 
+
+ speciﬁ cally, a boot loader that can start an operating system, from several  different 
+devices attached to the computer.

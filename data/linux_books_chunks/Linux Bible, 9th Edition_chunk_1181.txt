@@ -1,0 +1,15 @@
+Try typing the following:
+
+$ I=0
+$ echo The value of I after increment is $((++I))
+The value of I after increment is 1
+
+7
+
+$ echo The value of I before and after increment is $((I++)) and $I
+The value of I before and after increment is 1 and 2
+
+Repeat either of those commands to continue to increment the value of $I.
+
+Although most elements of shell scripts are relatively freeform (where whitespace, such as spaces or tabs, is 
+ insignifi cant), both let and expr are particular about spacing.

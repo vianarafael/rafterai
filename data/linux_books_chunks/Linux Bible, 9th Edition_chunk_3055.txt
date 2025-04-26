@@ -1,0 +1,7 @@
+Then I 
+describe how to generate certiﬁ cates to create an HTTPS Secure Sockets Layer (SSL) website.
+
+Understanding the Apache Web Server
+Apache HTTPD (also known as the Apache HTTPD Server) provides the service with which the  client 
+web browsers communicate. The daemon process (httpd) runs in the background on your server 
+and waits for requests from web clients.

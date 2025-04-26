@@ -1,0 +1,21 @@
+After unpacking 5,673 kB will be used.
+Do you want to continue? [Y/n/?]
+
+After installation, the same two commands as above will yield a different result:
+
+root@debian7:~# ls -l /var/www
+total 4
+-rw-r--r-- 1 root root 177 Apr 29 11:55 index.html
+root@debian7:~# dpkg -l | grep apache | tr -s ' '
+ii apache2 2.2.22-13+deb7u1 amd64 Apache HTTP Server metapackage
+ii apache2-mpm-worker 2.2.22-13+deb7u1 amd64 Apache HTTP Server - high speed th\
+readed model
+ii apache2-utils 2.2.22-13+deb7u1 amd64 utility programs for webservers
+ii apache2.2-bin 2.2.22-13+deb7u1 amd64 Apache HTTP Server common binary files
+ii apache2.2-common 2.2.22-13+deb7u1 amd64 Apache HTTP Server common files
+
+77
+
+apache web server
+
+8.1.2.

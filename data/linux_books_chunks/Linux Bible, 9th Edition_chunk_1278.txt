@@ -1,0 +1,10 @@
+You may need to log in over the network to make a change to a Linux 
+system but ﬁ nd that the system doesn’t allow root users in from over the net-
+work (a common practice for  secure Linux systems). One solution is to use the su 
+ command. From any Terminal window or shell, you can simply type the following:
+
+$ su
+Password: ******
+#
+
+When you are prompted, type the root user’s password.

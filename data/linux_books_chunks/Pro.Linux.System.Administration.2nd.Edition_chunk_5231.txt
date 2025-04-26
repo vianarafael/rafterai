@@ -1,0 +1,9 @@
+Since it is a number, we can use the native Logstash 
+NUMBER pattern to match it.
+
+The SEMANTIC is just the identifier we will give it so that we add greater value to our metadata labels. We 
+
+will give it audit_epoch.
+
+As we have said, there are two parts to the timestamp audit(1480844911.323:1080): the time and 
+the unique identifier.

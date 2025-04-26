@@ -1,0 +1,7 @@
+(tip: iptables-save > iptables.backup)
+
+You achieve this by issuing a command similar to the following:
+
+$ sudo /sbin/iptables –t filter –F IPV4-INCOMING
+
+Here we have flushed, as denoted by -F, all the rules from the IPV4-INCOMING chain in the filter table.

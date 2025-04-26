@@ -1,0 +1,6 @@
+A pat device is a router that is also changing the source and/or target
+tcp/udp port in packets. pat is Cisco terminology and is used by snat, dnat, masquerading
+and port forwarding in Linux. RFC 3022 calls it NAPT and defines the nat/pat combo as
+"traditional nat". A device sold to you as a nat-device will probably do nat and pat.
+
+13.7.

@@ -1,0 +1,7 @@
+This will enable us to write one systemd service file for both Ubuntu and CentOS.
+
+$ ln –s /usr/local/bin/gunicorn /usr/bin/gunicorn
+
+Now we will create the systemd file to start the Gunicorn service. We will create a service file and socket 
+file as we expect to run a socket for Nginx to connect in to. As you may recall, local systemd files live in /etc/
+systemd/system.

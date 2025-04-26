@@ -1,0 +1,44 @@
+Some distributions put this in /var/log/auth.log, verify the syslog
+configuration.
+
+[root@RHEL4b ~]# cat /var/log/secure
+Jul 30 07:09:03 sshd[4387]: Accepted publickey for paul from ::ffff:19\
+2.168.1.52 port 33188 ssh2
+Jul 30 05:09:03 sshd[4388]: Accepted publickey for paul from ::ffff:19\
+2.168.1.52 port 33188 ssh2
+Jul 30 07:22:27 sshd[4655]: Failed password for Hermione from ::ffff:1\
+92.168.1.52 port 38752 ssh2
+Jul 30 05:22:27 sshd[4656]: Failed password for Hermione from ::ffff:1\
+92.168.1.52 port 38752 ssh2
+Jul 30 07:22:30 sshd[4655]: Failed password for Hermione from ::ffff:1\
+92.168.1.52 port 38752 ssh2
+Jul 30 05:22:30 sshd[4656]: Failed password for Hermione from ::ffff:1\
+92.168.1.52 port 38752 ssh2
+Jul 30 07:22:33 sshd[4655]: Failed password for Hermione from ::ffff:1\
+92.168.1.52 port 38752 ssh2
+Jul 30 05:22:33 sshd[4656]: Failed password for Hermione from ::ffff:1\
+92.168.1.52 port 38752 ssh2
+Jul 30 08:27:33 sshd[5018]: Invalid user roberto from ::ffff:192.168.1\
+.52
+Jul 30 06:27:33 sshd[5019]: input_userauth_request: invalid user rober\
+to
+Jul 30 06:27:33 sshd[5019]: Failed none for invalid user roberto from \
+::ffff:192.168.1.52 port 41064 ssh2
+Jul 30 06:27:33 sshd[5019]: Failed publickey for invalid user roberto \
+from ::ffff:192.168.1.52 port 41064 ssh2
+Jul 30 08:27:36 sshd[5018]: Failed password for invalid user roberto f\
+rom ::ffff:192.168.1.52 port 41064 ssh2
+Jul 30 06:27:36 sshd[5019]: Failed password for invalid user roberto f\
+rom ::ffff:192.168.1.52 port 41064 ssh2
+[root@RHEL4b ~]#
+
+You  can  enable  this  yourself,  with  a  custom  log  file  by  adding  the  following  line  tot
+syslog.conf.
+
+auth.*,authpriv.*                 /var/log/customsec.log
+
+204
+
+logging
+
+17.2.

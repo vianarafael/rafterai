@@ -1,0 +1,6 @@
+However, most Linux shell 
+users use either the vi or emacs command to edit text ﬁ les.
+
+The advantage of vi or emacs over a graphical editor is that you can use the command 
+from any shell, character terminal, or character-based connection over a network (using 
+telnet or ssh, for example)—no graphical interface is required.

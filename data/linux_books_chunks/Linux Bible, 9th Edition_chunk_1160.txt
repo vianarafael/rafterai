@@ -1,0 +1,7 @@
+Type these two lines to see the different output (shown on the right):
+
+echo '$HOME *** `date`'   $HOME *** `date`
+echo "$HOME *** `date`"   /home/chris file1 file2 Tue Jan 20 16:56:52 EDT 2015
+
+Using variables is a great way to get information that can change from computer to 
+ computer or from day to day.

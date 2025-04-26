@@ -1,0 +1,32 @@
+Here is an example:
+
+# systemctl
+UNIT                                         LOAD   ACTIVE SUB
+      DESCRIPTION
+proc-sys-fs-binfmt_misc.automount            loaded active waiting
+      Arbitrary Executable File Formats File System
+sys-devices-pc...:00:1b.0-sound-card0.device loaded active plugged
+      631xESB/632xESB High Definition Audio Control
+sys-devices-pc...:00:1d.2-usb4-4\x2d2.device loaded active plugged   
+      DeskJet 5550
+...
+-.mount                                      loaded active mounted
+   /
+boot.mount                                   loaded active mounted
+   /boot
+
+567
+
+c21.indd  04/01/2015  Page 568
+
+Part IV: Becoming a Linux Server Administrator
+
+...
+autofs.service                               loaded active running   
+      Automounts filesystems on demand
+cups.service                                 loaded active running   
+      CUPS Printing Service
+httpd.service                                loaded failed failed
+      The Apache HTTP Server
+
+From the systemctl output, you can see whether any unit ﬁ le failed.

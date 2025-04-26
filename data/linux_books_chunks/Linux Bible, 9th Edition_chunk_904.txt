@@ -1,0 +1,11 @@
+Create the following 
+empty ﬁ les within this directory path (try using absolute and relative paths from 
+your home directory):
+
+$HOME/projects/houses/bungalow.txt
+$HOME/projects/houses/doors/bifold.txt
+$HOME/projects/outdoors/vegetation/landscape.txt
+
+3.  Copy the ﬁ les house1 and house5 to the $HOME/projects/houses/ directory.
+
+4.

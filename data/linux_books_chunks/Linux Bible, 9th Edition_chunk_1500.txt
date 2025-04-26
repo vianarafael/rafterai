@@ -1,0 +1,8 @@
+Review the hardware information and descriptions of dual booting in 
+the previous section before beginning your RHEL installation.
+
+Follow this procedure to install Red Hat Enterprise Linux from an installation DVD.
+
+1.  Get installation media. The process of downloading RHEL install ISO images is 
+
+described on the Red Hat Enterprise Linux product page.

@@ -1,0 +1,6 @@
+(See the section “Accessing Samba 
+Shares” later in this chapter for details on viewing and using shared printers.)
+
+Creating custom shared directories
+With the basic conﬁ guration of your Samba server in place, you can begin creating custom 
+sections to share speciﬁ c printers and folders and secure them as you choose.

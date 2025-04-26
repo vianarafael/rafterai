@@ -1,0 +1,9 @@
+opening the disk with fdisk
+
+Then we create a partition with fdisk on /dev/sdb. First we start the fdisk tool with /dev/sdb
+as argument. Be very very careful not to partition the wrong disk!!
+
+root@RHELv4u2:~# fdisk /dev/sdb
+Device contains neither a valid DOS partition table, nor Sun, SGI...
+Building a new DOS disklabel. Changes will remain in memory only,
+until you decide to write them.

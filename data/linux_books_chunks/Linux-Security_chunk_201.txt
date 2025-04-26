@@ -1,0 +1,8 @@
+Set the password for serena to hunter2.
+
+root@debian7:~# passwd serena
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+
+2. Also set a password for venus and then lock the venus user account with usermod.

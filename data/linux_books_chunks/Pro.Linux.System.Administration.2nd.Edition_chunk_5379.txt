@@ -1,0 +1,6 @@
+the nagios server will schedule and execute each check. in large 
+distributed environments, this can be troublesome because latency and the number of checks 
+really affect performance. You can find the nrpe documentation at https://github.com/
+NagiosEnterprises/nrpe.
+
+nSCa is a service that allows for passive checking.

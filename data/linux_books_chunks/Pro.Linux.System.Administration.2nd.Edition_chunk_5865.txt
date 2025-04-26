@@ -1,0 +1,81 @@
+See Graphical user interfaces (GUIs)
+Gunicorn, 822–823
+
+ H
+Hard disks, 637
+Hard fail state, 893
+Hardware, 7–8
+Hardware Abstraction Level (HAL), 628
+Hardware Compatibility Lists (HCLs), 8
+Hardware RAID, 386
+Headers, 803
+Head office resources, 717
+Home directory, 107, 120
+Host command, 431
+Hot backups, 637
+htpasswd command, 902
+httpd, 482–483
+Hypertext Transfer Protocol Secure (HTTPS),  
+514, 516–518, 544, 845, 901
+
+ I
+Incremental backups, 637, 673
+Indexes, 748–749
+Information technology (IT) companies, 6
+Initd scripts, 201–203
+InnoDB, 494–495
+Inodes, 371
+Interfaces
+
+active, 224
+bonded, 222
+CLI, 227
+enp0s8, 225
+GUI, 226–229
+ip help, 223
+MTU, 224
+nmcli, 232–234
+nmtui, 229–231
+SLAAC, 224
+
+Internet Control Message Protocol  
+(ICMP), 260, 264
+
+Internet Corporation for Assigned Names and 
+
+Numbers (ICANN), 440
+Internet Message Access Protocol (IMAP)
+
+advantanges, 586
+defined, 585
+disadvantanges, 586
+Dovecot
+
+configure, 587–588
+help, 591
+introduction, 586
+test, 588–591
+troubleshoot, 591
+
+Internet Protocol (IP), 23, 74, 427, 602
+
+-based virtual host, 476
+
+Internet Protocol version 4 (IPv4), 24–26, 28–30
+Internet superserver, 463
+I/O elevators, 836
+I/O schedulers, 836
+Iptables
+
+command options, 273
+filter table, 274
+firewall rules, 279–282
+IPV4-INCOMING chain, 275–276
+logging, 282–284, 286
+online tutorials, 279
+packet filtering and shaping, 264
+rate limiting and securing, 282–284, 286
+TCP/IP-based network, 264
+Ubuntu and CentOS, 278
+
+IPv4.

@@ -1,0 +1,5 @@
+This is commonly used by 
+cloud providers to allow user access to cloud images.
+
+If you have already generated public and private ssh keys for the user account you plan to 
+use to ssh into the cloud instance, you can use that public key for this procedure.

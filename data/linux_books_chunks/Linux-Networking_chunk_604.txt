@@ -1,0 +1,8 @@
+There are
+two A records for www pointing to two distinct ip addresses.
+
+root@debian7:~# grep www /etc/bind/db.paul.local
+www             IN      A       10.104.33.30
+www             IN      A       10.104.33.31
+
+Below a screenshot of nslookup querying a load balanced A record.

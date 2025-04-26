@@ -1,0 +1,7 @@
+Using com-
+mands such as fdisk, you can view and change disk partitions. Filesystems can be added 
+to  partitions using the mkfs command. Once created, ﬁ lesystems can be mounted and 
+unmounted using the mount and umount commands, respectively.
+
+Logical Volume Management (LVM) offers a more powerful and ﬂ exible way of managing 
+disk partitions.

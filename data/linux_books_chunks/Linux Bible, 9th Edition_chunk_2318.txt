@@ -1,0 +1,7 @@
+If the key has indeed changed, to be 
+able to ssh to that address again, just remove the host’s key (the whole line) from your know_hosts fi le and you 
+can copy over the new key.
+
+Using ssh for remote execution
+Besides logging into a remote shell, the ssh command can be used to execute a  command on 
+the remote system and have the output returned to the local system.

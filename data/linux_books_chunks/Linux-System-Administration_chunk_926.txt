@@ -1,0 +1,13 @@
+Verify whether gcc, sudo and wesnoth are installed.
+
+On Red Hat/CentOS:
+rpm -qa | grep gcc
+rpm -qa | grep sudo
+rpm -qa | grep wesnoth
+
+On Debian/Ubuntu:
+dpkg -l | grep gcc
+dpkg -l | grep sudo
+dpkg -l | grep wesnoth
+
+2. Use yum or aptitude to search for and install the scp, tmux, and man-pages packages.

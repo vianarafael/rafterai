@@ -1,0 +1,12 @@
+We have created the “master” interface and we now have to add “slaves” to it.
+
+We do this with the following commands:
+
+$ sudo nmcli c add type team-slave con-name team0-port1 ifname enp0s8 master team0
+Connection 'team0-port1' (4e2f4307-e026-4b1a-b19e-da8f1ad64d7a) successfully added.
+$ sudo nmcli c add type team-slave con-name team0-port2 ifname enp0s9 master team0
+Connection 'team0-port2' (ca1206ce-c0d3-45a5-b793-f10b8c680414) successfully added.
+
+Again we have added a type of team-slave with a connection name of team-port{1,2} and attached these 
+
+to interface enp0s{8,9} to master team0.

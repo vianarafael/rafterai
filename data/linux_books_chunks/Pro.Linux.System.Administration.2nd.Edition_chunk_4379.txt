@@ -1,0 +1,8 @@
+the documentation is 
+
+ ■ Note 
+available here: https://openvpn.net/index.php/open-source/documentation/miscellaneous/77-rsa-
+key-management.html.
+
+Instead, we’re going to show you how to use PAM (which we introduced you to in Chapter 5) to 
+authenticate your users.

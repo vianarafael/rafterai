@@ -1,0 +1,3 @@
+It has the same 
+configuration as our http:// virtual host but has the SSL keys added. RewriteEngine allows us to route 
+HTTP traffic based on certain conditions.

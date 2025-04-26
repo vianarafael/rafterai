@@ -1,0 +1,11 @@
+53
+
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+“ISOLINUX is a boot loader for Linux/i386 that operates off ISO 9660/El Torito CD-ROMs 
+in "no emulation" mode.

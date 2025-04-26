@@ -1,0 +1,10 @@
+There are two kinds of virtual hosting: IP based and name based. Apache 
+can provide both.
+
+475
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+IP-based virtual hosting causes Apache to serve a web page from a specific directory, based on the 
+IP address the request was received on. For each IP-based virtual host, the Linux host needs to have an IP 
+address assigned to a network interface.

@@ -1,0 +1,12 @@
+squid
+
+This module is an introduction to the squid proxy server (http://www.squid-cache.org). We
+will first configure squid as a normal proxy server.
+
+106
+
+introduction to squid
+
+9.2. installing squid
+
+This screenshot shows how to install squid on Debian with aptitude.

@@ -1,0 +1,7 @@
+Now we need to download the source, untar it, and then enter the directory.
+
+$ wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.2.3.tar.gz && \
+tar zxf nagios-4.2.3.tar.gz && \
+cd nagios-4.2.3/
+
+If you remember when we compiled Nginx in Chapter 8, we will do something similar now to Nagios.

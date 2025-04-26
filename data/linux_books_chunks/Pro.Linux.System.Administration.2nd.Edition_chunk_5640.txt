@@ -1,0 +1,9 @@
+If there is no default node, and no matching definition for a node, Puppet 
+will fail to compile a manifest for this node.
+
+ ■ Note  You can find more information on defining nodes here: https://docs.puppet.com/puppet/latest/
+lang_node_definitions.html.
+
+Starting Puppet Server with the RAL
+
+Here is a neat trick.

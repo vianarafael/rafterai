@@ -1,0 +1,6 @@
+For example, a CD music player or photo editor 
+may be launched when your inserted medium has music or digital images on it.)
+
+Occasionally, however, you may ﬁ nd it useful to mount a ﬁ lesystem manually. For example, 
+you want to look at the contents of an old hard disk, so you install it as a second disk on 
+your computer.

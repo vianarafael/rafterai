@@ -1,0 +1,10 @@
+From there you can browse and/or conﬁ gure your SMB printer.
+
+445
+
+c16.indd  04/01/2015  Page 446
+
+Part IV: Becoming a Linux Server Administrator
+
+Summary
+Providing networked printing services is essential on today’s business networks.

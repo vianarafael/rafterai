@@ -1,0 +1,3 @@
+By default, the sar facility launches the sadc program every few 
+minutes, day and night, to gather data. Viewing that data later can help you go back and 
+ﬁ gure out where and when demand is spiking on your system.

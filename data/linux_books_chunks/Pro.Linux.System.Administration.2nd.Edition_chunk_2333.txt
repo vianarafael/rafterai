@@ -1,0 +1,5 @@
+The problem is, once 
+you partition a disk, it’s hard to resize the partitions or to add an additional one. Even if you do add disks and 
+partitions, your data can become spread over a variety of locations and directories. This makes it harder to 
+consolidate, back up, and manage your data, and it potentially makes it harder for your users to find their 
+data.

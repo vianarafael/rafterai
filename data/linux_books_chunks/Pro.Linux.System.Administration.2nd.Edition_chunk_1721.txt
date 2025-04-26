@@ -1,0 +1,31 @@
+even large companies with very expensive equipment 
+can be subject to these attacks.
+
+while keeping your network secure is a constant process, you can do a few things to minimize your 
+risks:
+
+• 
+
+• 
+
+• 
+
+track security alert mailing lists for your hosts.
+
+keep your hosts up to date with the latest security patches.
+
+Close off unwanted ports and services.
+
+•  get to know your logs and learn to detect anything that looks odd.
+
+• 
+
+review your security every six months at minimum to make sure it is still working 
+properly.
+
+• 
+
+Use an upstream DDoS mitigation service to help protect your network.
+
+Nothing connected to the internet is 100% secure, but you can take measures that ensure your network 
+isn’t one of those with a well-known vulnerability.

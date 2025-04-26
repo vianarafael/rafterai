@@ -1,0 +1,8 @@
+When the 
+ conditional restart was issued, no error messages were generated! The cups daemon was 
+not started because conditional restarts affects active services. Thus, it is always a good 
+practice to check the status of a service, after stopping, starting, conditionally restarting, 
+and so on.
+
+Reloading a service with systemd
+Reloading a service is different from restarting a service.

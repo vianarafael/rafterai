@@ -1,0 +1,4 @@
+This time we are using the get_url 
+that will make a http:// connection, download the URI, and copy the contents to the /etc/yum.repos.d/
+bareos.repo file. The contents, evidently, are the Bareos repository, and we have used the url variable 
+listed in our variable section and combined that with /bareos.repo to complete the URI.

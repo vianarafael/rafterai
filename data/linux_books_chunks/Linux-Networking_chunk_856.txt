@@ -1,0 +1,17 @@
+Verify from your own and from another computer (smbclient, net use, ...) that the share
+is accessible for reading.
+
+On Linux: smbclient -NL 127.0.0.1
+
+On Windows Explorer: browse to My Network Places
+
+On Windows cmd.exe: net use L: //studentx/readonly
+
+6. Make a backup copy of your smb.conf, name it smb.conf.ReadOnlyFileServer.
+
+cp smb.conf smb.conf.ReadOnlyFileServer
+
+219
+
+ 
+Chapter 18.

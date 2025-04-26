@@ -1,0 +1,10 @@
+Make lists of the critical messages that are important to you and your hosts.
+
+Group those lists into priority listings; some messages you may want to be paged for, others can go via 
+
+e-mail, and some may trigger automated processes or generate attempts at self-recovery such as restarting a 
+process.
+
+The third stage is implementing your log correlation and analysis, including configuring your 
+
+correlation tools and designing the required responses.

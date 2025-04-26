@@ -1,0 +1,9 @@
+If this resolves correctly, then Samba can use our bind9 DNS service 
+correctly.
+
+If this does not work, check the bind service for any errors, starting with /var/log/syslog.
+
+Testing Kerberos
+
+Kerberos is a network authentication protocol that can be used to join Active Directory services together and 
+authenticate users and machines.

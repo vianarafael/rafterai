@@ -1,0 +1,8 @@
+So you can secure your vsftpd server, the next sections 
+describe how to conﬁ gure your ﬁ rewall (iptables), TCP wrappers (hosts.allow and 
+hosts.deny), and SELinux (Booleans and ﬁ le contexts).
+
+Opening up your fi rewall for FTP
+If you have a ﬁ rewall implemented on your system, you need to add ﬁ rewall rules that 
+allow incoming requests to your FTP site and allow packets to return to your system on 
+established connections.

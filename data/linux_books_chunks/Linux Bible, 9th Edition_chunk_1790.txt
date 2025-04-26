@@ -1,0 +1,20 @@
+For example:
+
+# yum history
+ID   | Login user           | Date and time    | Action(s)  | Altered
+---------------------------------------------------------------------
+96   | Chris Negus <cnegus> | 2016-12-10 06:25 | Install    |    2
+...
+# yum history info 96
+Transaction ID : 96
+...
+Command Line    : install emacs
+...
+# yum history undo 96
+Undoing transaction 96, from Wed Dec 14 06:25:41 2014
+    Dep-Install emacs-common-1:24.4-3.fc21.x86_64  @updates
+    Dep-Install libXaw-1.0.12-4.fc21.x86_64        @fedora
+ ...
+
+Before you undo the transaction, you can view the transaction to see exactly which  packages 
+were involved.

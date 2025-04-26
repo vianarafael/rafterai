@@ -1,0 +1,16 @@
+Plans must be tested and updated to maintain their reliability in true disaster situations.
+
+Disaster recovery plans should include these things:
+
+ ■ What data is to be included in backups
+
+ ■ Where backups are to be stored
+
+ ■ How long backups are maintained
+
+ ■ How backup media is rotated through storage
+
+Backup data, media, and software should be included in your Access Control Matrix 
+checklist.
+
+It is important to determine how many backup copies of each object should be maintained.

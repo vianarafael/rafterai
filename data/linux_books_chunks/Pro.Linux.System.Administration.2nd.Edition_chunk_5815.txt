@@ -1,0 +1,4 @@
+We could use templating to create these values and make the coordination of 
+setting up these files easier.
+
+A template is like a file, but it is parsed by the templating engine to find and replace variables.

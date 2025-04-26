@@ -1,0 +1,5 @@
+This incident will be reported.
+
+A failed attempt to use the sudo command will be logged by your host’s syslog (or system logger) 
+service, and then the message is sent to a file in the /var/log/ directory. On CentOS, you can see sudo 
+command failures in the /var/log/secure file, and on Ubuntu they appear in the /var/log/auth.log file.

@@ -1,0 +1,7 @@
+the 
+following is a good reference on network protocols: http://www.iana.org/assignments/protocol-
+numbers/protocol-numbers.xhtml.
+
+Logging and Rate Limiting and Securing Netfilter
+Part of securing and managing your firewall is monitoring logging, dropping unwanted traffic and rate 
+limiting possible vectors of attack.

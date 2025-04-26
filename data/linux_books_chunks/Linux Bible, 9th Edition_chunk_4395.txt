@@ -1,0 +1,6 @@
+If success, then a success status is 
+immediately returned to the application without running the rest of the stack. 
+(Be careful where you place this control in the stack.)
+
+This control fl ag is important only for the fi nal overall return status of success 
+or failure. Think of it as a tie-breaker.

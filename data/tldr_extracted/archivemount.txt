@@ -1,0 +1,6 @@
+# archivemount
+
+
+- Mount an archive to a specific mountpoint:
+
+`archivemount {{path/to/archive}} {{path/to/mount_point}}`

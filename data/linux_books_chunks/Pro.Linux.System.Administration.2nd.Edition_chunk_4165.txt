@@ -1,0 +1,4 @@
+By default Bareos will use the 
+PostgreSQL driver and database. Here we are specifying the dbdriver mysql for the MariaDB database we 
+are using. The dbname should be bareos, as should the user. The dbpassword is the password we created 
+previously.

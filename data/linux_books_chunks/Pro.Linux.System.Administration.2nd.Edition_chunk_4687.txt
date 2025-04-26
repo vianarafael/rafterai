@@ -1,0 +1,13 @@
+If something goes wrong, you will receive an 
+
+error on the console output, and you can use journalctl to further examine the log entries produced.
+
+$ journalctl –xe –u slapd
+
+Remember to adjust your LogLevel entry like described previously if you are not seeing enough detail 
+
+in the logs.
+
+Searching Your LDAP Tree
+Now that we have some entries in our LDAP database, we can search it to make sure we can return useful 
+information.

@@ -1,0 +1,2 @@
+Then it lists the size of each ﬁ le with the du command. The output 
+of find is then sorted by size, from largest to smallest.

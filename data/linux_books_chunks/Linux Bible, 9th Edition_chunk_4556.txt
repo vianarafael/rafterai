@@ -1,0 +1,9 @@
+The 
+unconfined_t domain has no SELinux policy restrictions and thus only uses the “tradi-
+tional” Linux security.
+
+SELinux comes with the Targeted policy set as the default. Thus, by default, SELinux 
+ targets only a few daemons.
+
+MLS (Multi-Level Security) policy
+The MLS policy’s primary purpose is to enforce the Bell-LaPadula model.

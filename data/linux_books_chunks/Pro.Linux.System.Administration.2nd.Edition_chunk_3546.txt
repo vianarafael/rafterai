@@ -1,0 +1,6 @@
+This 
+RFC has more details on what is accepted: https://tools.ietf.org/html/rfc7208#section-3.
+
+The –all option indicates that we want the receiving e-mail server to reject any e-mail not from one of our 
+determined e-mail servers. You can set this to ~all, which tells the receiving e-mail server to not reject it but to 
+flag it as forged.

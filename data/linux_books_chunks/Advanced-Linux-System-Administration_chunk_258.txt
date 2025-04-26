@@ -1,0 +1,71 @@
+RPM Builds
+
+Here is an overview of the specfile sections
+
+Desciption
+ Summary
+ Name 
+ Version
+ Release
+ Copyright
+ Group
+ Source
+ BuildRoot
+
+ A summary of what the package provides
+ Name of the package
+ Package version
+ Package release
+ Copyright agreement under which the package is released
+ The package group (Amusement, Documentation ...)
+ Path to the archive containing source and files
+ Path to the temporary (fake) root filesystem
+
+Macros and Section
+%define
+%description Paragraph type description for the package (usually longer than Summary
+
+Define a variable that can be referenced later in the SPEC file
+
+%prep
+%setup
+%patch
+
+%build
+
+%install
+
+The preparation section, includes unpacking the source archive and patching
+Unpack the source archive
+Apply patches if needed
+
+ The build section, includes commands to run in the BUILD directory and 
+execute the next commands (make, ...)
+
+The install section, includes command to copy files from the BUILD directory 
+to the fake $RPM_BUILD_ROOT directory
+
+%clean
+
+Delete all files in $RPM_BUILD_ROOT
+
+%files
+%doc
+%config
+
+List of files in the package
+List which files are part of the documentation 
+List which files are configuration files
+
+68
+
+ 
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+Example: Copy fstab to /tmp/etc/fstab
+
+We can build a simple RPM package that installs an fstab file into /tmp/etc/.

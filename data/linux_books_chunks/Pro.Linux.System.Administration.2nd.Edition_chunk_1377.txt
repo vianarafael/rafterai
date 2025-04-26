@@ -1,0 +1,8 @@
+You need to specify the device name, 
+
+bond0 in our example, and give it the appropriate network information like its IP address, network, and 
+netmask information. Again, we want this device to be initialized at boot-up.
+
+There are some bonding-specific options listed in Listing 7-6, like BONDING_MASTER and BONDING_
+
+OPTS.

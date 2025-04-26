@@ -1,0 +1,19 @@
+Inside top you can use many commands, like k to kill processes,
+or t and m to toggle displaying task and memory information, or the number 1 to have one
+line per cpu, or one summary line for all cpu's.
+
+top - 12:23:16 up 2 days,  4:01, 2 users, load average: 0.00, 0.00, 0.00
+Tasks:  61 total,   1 running,  60 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.3% us,  0.5% sy, 0.0% ni, 98.9% id, 0.2% wa, 0.0% hi, 0.0% si
+Mem:    255972k total,   240952k used,    15020k free,    59024k buffers
+Swap:   524280k total,      144k used,   524136k free,   112356k cached
+
+PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+ 1 root      16   0  2816  560  480 S  0.0  0.2   0:00.91 init
+ 2 root      34  19     0    0    0 S  0.0  0.0   0:00.01 ksoftirqd/0
+ 3 root       5 -10     0    0    0 S  0.0  0.0   0:00.57 events/0
+ 4 root       5 -10     0    0    0 S  0.0  0.0   0:00.00 khelper
+ 5 root      15 -10     0    0    0 S  0.0  0.0   0:00.00 kacpid
+16 root       5 -10     0    0    0 S  0.0  0.0   0:00.08 kblockd/0
+26 root      15   0     0    0    0 S  0.0  0.0   0:02.86 pdflush
+...

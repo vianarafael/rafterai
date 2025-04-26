@@ -1,0 +1,11 @@
+In other words, 
+when the multi-user.target unit is activated, the sshd service unit is started.
+
+You can view the various units that a target unit will activate by using the following 
+command:
+
+# systemctl show --property "Wants" multi-user.target
+Wants=multipathd.service avahi-daemon.service sshd-keygen.se
+(END) q
+
+Unfortunately, the systemctl command does not format the output for this well.

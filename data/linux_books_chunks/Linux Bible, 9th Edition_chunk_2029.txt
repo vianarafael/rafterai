@@ -1,0 +1,6 @@
+Traditionally, that storage has been provided by a hard disk in your 
+ computer. To organize the information on that disk, the disk is usually divided into partitions, 
+with most partitions given a structure referred to as a ﬁ lesystem.
+
+This chapter describes how to work with hard disks. Hard disk tasks include partitioning, adding 
+ﬁ lesystems, and managing those ﬁ lesystems in various ways.

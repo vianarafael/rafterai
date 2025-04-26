@@ -1,0 +1,19 @@
+So we now set this option to a blank value.
+
+541
+
+Chapter 12 ■ Mail ServiCeS
+
+mailbox_command =
+
+or again using the postconf command.
+
+$ sudo postconf -e "mailbox_command = "
+
+Finally, we need to reload Postfix for all this to take effect, for example:
+
+$ sudo systemctl reload postfix
+
+Now, if you send another e-mail, you’ll find a new directory created in the home directory of the 
+
+recipient called Maildir.

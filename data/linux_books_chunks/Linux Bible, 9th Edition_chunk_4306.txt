@@ -1,0 +1,8 @@
+You decrypt the ﬁ le using your private key.
+
+You can see why asymmetric keys can cause confusion! Remember that in asymmetric 
+ cryptography, each public and private key is a paired set that works together.
+
+Understanding digital signatures
+A digital signature is an electronic originator used for authentication and data veriﬁ cation. 
+A digital signature is not a scan of your physical signature.

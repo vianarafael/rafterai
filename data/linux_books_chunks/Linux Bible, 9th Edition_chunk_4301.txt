@@ -1,0 +1,27 @@
+The user jill veriﬁ es that johndoe’s public key is 
+added using the gpg2 --list-keys command to view her key ring.
+
+635
+
+c23.indd  04/01/2015  Page 636
+
+Part V: Learning Linux Security Techniques
+
+$ ls *.pub
+JohnDoe.pub
+$ gpg2 --import JohnDoe.pub
+gpg: directory '/home/jill/.gnupg' created
+...
+gpg: key 3B2E46D5:
+ public key "John Doe (The User) <jdoe@example.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+$ gpg2 --list-keys
+/home/jill/.gnupg/pubring.gpg
+-----------------------------------
+pub   2048R/3B2E46D5 2016-12-08 [expires: 2016-12-15]
+uid                  John Doe (The User) <jdoe@example.com>
+sub   2048R/0F0E0672 2016-12-08 [expires: 2016-12-15]
+
+After the key is added to the key ring, that public key can be used to encrypt data for the 
+public key’s original owner.

@@ -1,0 +1,23 @@
+The DHCP Server Log
+
+Jun 11 11:23:15 au-mel-ubuntu-1 dhcpd: DHCPDISCOVER from 00:0c:29:7b:b1:77 via enp0s3
+Jun 11 11:23:16 au-mel-ubuntu-1 dhcpd: DHCPOFFER on 192.168.0.200 to
+    00:0c:29:7b:b1:77 (au-mel-centos-2) via enp0s3
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: client 192.168.0.1#46749: updating
+    zone 'example.com/IN': adding an RR at 'au-mel-centos-2.example.com' A
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: client 192.168.0.1#46749: updating
+    zone 'example.com/IN': adding an RR at 'au-mel-centos-2.example.com' TXT
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: journal file example.com.db.jnl does
+    not exist, creating it
+Jun 11 11:23:16 au-mel-ubuntu-1 dhcpd: Added new forward map from
+    au-mel-centos-2.example.com to 192.168.0.200
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: zone example.com/IN:sending
+    notifies (serial 2009020102)
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: client 192.168.0.1#58073: updating zone
+    '0.168.192.in-addr.arpa/IN': deleting rrset at '200.0.168.192.in-addr.arpa' PTR
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: client 192.168.0.1#58073: updating zone
+    '0.168.192.in-addr.arpa/IN': adding an RR at '200.0.168.192.in-addr.arpa' PTR
+Jun 11 11:23:16 au-mel-ubuntu-1 named[5187]: journal file 192.168.0.db.jnl does
+    not exist, creating it
+Jun 11 11:23:16 au-mel-ubuntu-1 dhcpd: added reverse map from
+    200.0.168.192.in-addr.arpa.

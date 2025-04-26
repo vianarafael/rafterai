@@ -1,0 +1,7 @@
+This can be done 
+in a number of different ways, including using a Free and Open Source Software (FOSS) 
+ third-party tool such as TrueCrypt (www.truecrypt.org) or Linux Uniﬁ ed Key Setup 
+(LUKS) (https://code.google.com/p/cryptsetup/).
+
+One of your options in Linux is to encrypt your root partition upon installation (see 
+Chapter 9, “Installing Linux”).

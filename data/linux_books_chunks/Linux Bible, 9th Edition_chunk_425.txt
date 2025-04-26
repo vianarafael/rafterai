@@ -1,0 +1,8 @@
+Type the name of 
+the  command you want to run into the box (try gnome-calculator to open a 
+ calculator application, for example).
+
+ ■ Search box—From the Overview screen, press Ctrl+Alt+Tab and continue 
+
+to press Tab until the magnifying glass (Search) icon is highlighted; then 
+release Ctrl+Alt.

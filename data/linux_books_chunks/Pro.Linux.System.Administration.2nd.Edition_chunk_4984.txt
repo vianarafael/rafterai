@@ -1,0 +1,7 @@
+Selecting the Panel data source
+
+Once we select the data source, the test data will disappear. You can click “select metric” and choose 
+
+the origin of the metric you want to graph. We have selected “collectd_backup_example_com,” and then we 
+can select the metrics we interested in. We will choose “load” out of the list. We then select all the metrics 
+available (*) and then again (*).

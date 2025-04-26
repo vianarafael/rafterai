@@ -1,0 +1,7 @@
+The third and last 
+command uses the -R switch to enable recursion. The command would change the owner of every file and 
+directory in the /home/jsmith directory to jsmith and the group to admin.
+
+ ■ Note 
+ also available is the chgrp command. It allows users to change the group of a file they own. The 
+user can only change the group ownership to a group of which that user is a member.

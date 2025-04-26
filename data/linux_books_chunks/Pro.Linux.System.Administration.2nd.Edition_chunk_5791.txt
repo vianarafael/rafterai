@@ -1,0 +1,19 @@
+When the 
+distribution is not ubuntu, this task will be skipped.
+
+if we had a data structure like this:
+
+our_config: {
+    our_url:  ‘https://endpoint.example.com’
+
+}
+
+then we could use a complex conditional like this in our Jinja2 template file to make sure our urL is 
+given the default value if it is not declared.
+
+{% if our_config["our_url"] is not defined -%}
+  url: {{ our_url | default('https://www.example.com') }}
+{% endif %}
+
+here we are saying if the associative array our_config does not have the key our_url defined, then 
+we should get the default urL of https://www.example.com.

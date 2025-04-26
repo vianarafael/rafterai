@@ -1,0 +1,7 @@
+And just like gpg, many of these tools allow you to do much more than just ﬁ le encryption. 
+The following are some of the popular Linux cryptography tools you can use to encrypt ﬁ les:
+
+ ■ aescrypt—It uses the symmetric key cipher Rijndael, also called AES. This 
+ third-party FOSS tool is available for download from www.aescript.com.
+
+ ■ bcrypt—This tool uses the symmetric key cipher blowﬁ sh.

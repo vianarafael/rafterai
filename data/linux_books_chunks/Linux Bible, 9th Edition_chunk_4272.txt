@@ -1,0 +1,7 @@
+The md5sum hash results for the downloaded software ﬁ le are shown in the 
+code that follows:
+
+$ md5sum linuxmint-17.1-cinnamon-64bit.iso 
+0307ffcd5046c176599904193899426e  linuxmint-17.1-cinnamon-64bit.iso
+
+The resulting hash does match the one posted on the website in Figure 23.1.

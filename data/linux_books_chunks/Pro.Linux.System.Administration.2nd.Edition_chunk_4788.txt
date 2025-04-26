@@ -1,0 +1,14 @@
+Lastly, 
+use_first_pass is the optional syntax that says instead of asking for your password again, use the first one 
+provided by one of the higher modules in the stack.
+
+On Ubuntu hosts, the corresponding files are common-auth, common-password, common-session, and 
+
+common-account in the /etc/pam.d directory.
+
+ you can read more about PAM in the System Administrator’s Guide here: www.linux-pam.org/
+
+ ■ Note 
+Linux-PAM-html/Linux-PAM_SAG.html.
+
+The other file central to PAM authenticating against an LDAP service is /etc/nsswitch.conf.

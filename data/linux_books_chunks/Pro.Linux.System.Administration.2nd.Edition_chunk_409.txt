@@ -1,0 +1,21 @@
+Following are some URLs that describe how to burn ISO files onto CDs, DVDs, or USBs:
+
+•	
+
+•	
+
+•	
+
+•	
+
+http://pcsupport.about.com/od/toolsofthetrade/ht/burnisofile.htm
+
+www.petri.co.il/how_to_write_iso_files_to_cd.htm
+
+https://help.ubuntu.com/community/BurningIsoHowto
+
+www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
+
+99
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

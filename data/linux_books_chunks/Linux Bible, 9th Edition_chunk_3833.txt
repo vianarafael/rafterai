@@ -1,0 +1,7 @@
+The original meaning 
+
+of this runlevel has been lost. Early UNIX systems used this runlevel to start tty 
+ processes for systems where there were multiple dumb terminals connected to the 
+system for people to use. This allowed many people to access a system simultane-
+ously from character-based terminals (lots of people working from a shell with 
+no graphical interface).

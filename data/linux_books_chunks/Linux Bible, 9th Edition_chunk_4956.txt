@@ -1,0 +1,9 @@
+Make sure you can log into and use the virtual machine.
+
+8.  Check that your virtual machine can connect to the Internet or other network 
+
+outside the hypervisor.
+
+9.  Stop the virtual machine so it is no longer running.
+
+10.

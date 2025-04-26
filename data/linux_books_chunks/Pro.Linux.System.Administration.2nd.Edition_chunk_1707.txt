@@ -1,0 +1,9 @@
+Therefore it is a good idea to 
+rate limit any firewall logging or rate limit the connection attempts themselves.
+
+282
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+As the packet comes into the firewall we can match on the protocol, port, source address, destination 
+address and more. Take the SSH example, we can match on protocol TCP and destination port 22.

@@ -1,0 +1,8 @@
+Using PAM, you can easily extend this to other forms of authentication.
+
+Configuring Our Mobile VPN
+
+To start our configuration, we need a new .conf file. We’re going to create one called mobile.conf in /etc/
+openvpn, as you can see in Listing 15-9.
+
+Listing 15-9.

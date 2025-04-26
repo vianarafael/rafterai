@@ -1,0 +1,12 @@
+You can also restrict 
+access to the Samba server by providing the service only on particular interfaces.
+
+510
+
+c19.indd  04/01/2015  Page 511
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+For example, if you have one network interface card connected to the Internet and another 
+connected to the local network, you can tell Samba to serve requests only on the local net-
+work interface.

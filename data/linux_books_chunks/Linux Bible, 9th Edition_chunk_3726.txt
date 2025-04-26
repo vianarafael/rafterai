@@ -1,0 +1,13 @@
+On the Linux system you want to use as an NFS server, install the packages needed 
+
+to conﬁ gure an NFS service.
+
+2.  On the NFS server, list the documentation ﬁ les that come in the package that 
+
+ provides the NFS server software.
+
+3.  On the NFS server, determine the name of the NFS service and start it.
+
+4.  On the NFS server, check the status of the NFS service you just started.
+
+5.

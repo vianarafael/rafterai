@@ -1,0 +1,52 @@
+If you
+want to use CPAN.pm, you have to configure it properly
+Are you ready for manual configuration? [yes] 
+
+This can also be done with the commandline
+
+CPAN build and cache directory? [/root/.cpan]
+
+How big should the disk cache be for keeping the build directories
+with all the intermediate files?
+Cache size for build directory (in MB)? [10]
+
+Where is your gzip program? [/bin/gzip] 
+Where is your tar program? [/bin/tar] 
+Where is your unzip program? [/usr/bin/unzip] 
+Where is your make program? [/usr/bin/make] 
+Where is your links program? [/usr/bin/links] 
+Where is your wget program? [/usr/bin/wget] 
+Warning: ncftpget not found in PATH
+Where is your ncftpget program? [] /usr/bin/lftpget
+
+Now we need to know where your favorite CPAN sites are located.
+[...]
+(1) Africa
+(2) Asia
+(3) Central America
+(4) Europe
+(5) North America
+(6) Oceania
+(7) South America
+Select your continent (or several nearby continents) [] 4
+[...]
+
+cpan shell -- CPAN exploration and modules installation (v1.7601)
+ReadLine support available (try 'install Bundle::CPAN')
+
+cpan> install Bundle::CPAN
+[...]
+
+75
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+Once CPAN is configured we can install modules from the command line
+
+perl -MCPAN -e “install MODULENAME”
+
+Modules are installed in subdirectories of /usr/lib/perl.

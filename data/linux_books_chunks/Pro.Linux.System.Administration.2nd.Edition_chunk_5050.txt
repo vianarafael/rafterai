@@ -1,0 +1,8 @@
+--
+Nov 25 22:48:41 backup usermod[4844]: add 'jsmith' to group 'sales'
+Nov 25 22:48:41 backup usermod[4844]: add 'jsmith' to shadow group 'sales'
+
+We can also combine any of these fields with the --since and --until time filters to get a more narrow 
+
+view. Having two fields listed (separated by a space) provides a logical AND listing (_COMM=usermod  _
+COMM=useradd).

@@ -1,0 +1,11 @@
+Of course, if you 
+feel more comfortable with the Windows console feel free to select that.
+
+84
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-13.  Selecting the terminal
+
+The next screen is not very important right now. You can add some experimental performance 
+tweaks by selecting the check box you see in Figure 3-14.

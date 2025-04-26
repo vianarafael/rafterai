@@ -1,0 +1,10 @@
+What current and permanent SELinux policy types are set on your system, and how 
+
+did you ﬁ nd them?
+
+4.  List the security context for the /etc/hosts ﬁ le, and identify its different 
+
+security context attributes.
+
+5.  Create a ﬁ le called test.html in your home directory, and assign its type to 
+httpd_sys_content_t.

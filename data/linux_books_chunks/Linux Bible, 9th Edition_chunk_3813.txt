@@ -1,0 +1,6 @@
+Using 
+information about the TV card’s model number and the type of failure, I found that passing 
+an option to the card’s driver allowed me to try different settings until I found the one that 
+matched my tuner card.
+
+In describing how to view kernel startup messages, I have gotten ahead of myself a bit.

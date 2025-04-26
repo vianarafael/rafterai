@@ -1,0 +1,5 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_8ChAPter 8 ■ PACkAge MAnAgeMent
+
+Each of these package types uses different tools to install and manage packages. On systems that use 
+RPM packages, the basic package manager is called rpm, while on systems that use deb packages, it is called 
+dpkg.

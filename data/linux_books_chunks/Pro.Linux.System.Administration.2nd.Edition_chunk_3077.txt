@@ -1,0 +1,6 @@
+ideally this host should 
+be restricted or disconnected from the network when it is now being used, and having this on a web 
+server is dangerous. having a dedicated host is our strong recommendation.
+
+One good way of securing your Ca is to have a dedicated virtual image that resides on a password-
+protected encrypted disk.

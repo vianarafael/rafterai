@@ -1,0 +1,11 @@
+security mode
+
+Authentication  will  not  be  handled  by  samba  now,  but  by  the  Active  Directory  domain
+controllers, so we set the security option to domain.
+
+security = Domain
+
+22.1.3. Linux uid's
+
+Linux requires a user account for every user accessing its file system, we need to provide
+Samba with a range of uid's and gid's that it can use to create these user accounts.

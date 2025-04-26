@@ -1,0 +1,4 @@
+You’ll see the desired package status character change from i to id. If you had 
+customized configuration files and wanted to ensure these were removed as well at this stage, you could 
+press the underscore (_) key to mark the package for purge; if you do so, you’ll see the desired status change 
+to p. In Figure 8-22, you can see that nmap is now set to id, as it is marked for deletion.

@@ -1,0 +1,8 @@
+(If the client chooses, it can still mount the directory as read-only.)
+
+User mapping options in /etc/exports
+In addition to options that deﬁ ne how permissions are handled generally, you can use 
+options to set the permissions that speciﬁ c users have to NFS shared ﬁ lesystems.
+
+One method that simpliﬁ es this process is to have each user with multiple user accounts 
+have the same username and UID on each machine.

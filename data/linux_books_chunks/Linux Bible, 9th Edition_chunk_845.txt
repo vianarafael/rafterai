@@ -1,0 +1,7 @@
+For 
+example, the mount command has permissions set as -rwsr-xr-x. This allows any 
+user to run mount to list mounted ﬁ lesystems (although you still have to be root to 
+use mount to actually mount ﬁ lesystems from the command line, in most cases).
+
+ ■ If a t appears at the end of a directory, it indicates that the sticky bit is set for that 
+directory (for example, drwxrwxr-t).

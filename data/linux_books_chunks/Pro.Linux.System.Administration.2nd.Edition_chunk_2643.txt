@@ -1,0 +1,13 @@
+We can view the logs using the $ sudo journalctl –x –u bind9 command in another terminal 
+window or shell.
+
+We will issue the following commands to make sure our zones are signed.
+
+$ sudo rndc sign example.com
+$ sudo rndc signing -list example.com
+Done signing with key 814/RSASHA256
+Done signing with key 62760/RSASHA256
+
+In Listing 10-26 we can see the logs from the journalctl command.
+
+Listing 10-26.

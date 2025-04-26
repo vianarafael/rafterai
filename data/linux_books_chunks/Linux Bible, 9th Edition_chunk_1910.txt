@@ -1,0 +1,11 @@
+Replace home_dir 
+with the directory name to use (for example, -d /mnt/homes/jake).
+
+ ■ -e expire_date—Assign a new expiration date for the account in YYYY-MM-DD 
+format. Replace expire_date with a date you want to use. (For October 15, 2017, 
+use -e 2017-10-15.)
+
+11
+
+ ■ -f -1—Change the number of days after a password expires until the account is 
+permanently disabled.

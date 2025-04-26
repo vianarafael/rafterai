@@ -1,0 +1,8 @@
+If you chose to Set authentication details now, ﬁ ll in the username and 
+
+ password needed to access the SMB printer; then click Verify to check that 
+you can authenticate to the server.
+
+4.  Click Forward to continue.
+
+Alternatively, you can identify a server that does not appear on the list of servers.

@@ -1,0 +1,4 @@
+For simplicity, NFS is used to create the shared storage, although in a 
+production environment, iSCSI or Fibre Channel would be better solutions.
+
+For test purposes, you could use one of the two hypervisors to provide the shared storage.

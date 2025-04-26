@@ -1,0 +1,2 @@
+This is one of the reasons we recommend you avoid installing applications from source but rather rely on 
+packages to provide applications.

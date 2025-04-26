@@ -1,0 +1,8 @@
+Includes messages output by the X.Org X 
+server.
+
+The log ﬁ les that are in your system’s /var/log directory depend upon what services you 
+are running. Also, some log ﬁ les are distribution-dependent. For example, if you use Fedora 
+Linux, you would not have the dpkg log ﬁ le.
+
+Most of the log ﬁ les are displayed using the commands cat, head, tail, more, or less.

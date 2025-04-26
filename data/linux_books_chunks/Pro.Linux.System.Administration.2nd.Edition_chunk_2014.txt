@@ -1,0 +1,6 @@
+If a piece of software is not available in a packaged format, not even in a source package for 
+backporting (see the sidebar “Ubuntu Backports”), you might need to build it from source.
+
+UBUNTU BACKPORTS
+
+Sometimes if a specific package version you need is not available, you may be told to create a backport.

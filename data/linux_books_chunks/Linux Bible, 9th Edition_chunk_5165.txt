@@ -1,0 +1,17 @@
+Type nano $HOME/.bashrc.
+
+b. Move the cursor to an open line at the bottom of the page (press Enter to open 
+
+a new line if needed).
+
+c. On its own line, type alias m="cat /etc/passwd".
+
+d. Type Ctrl+O to save and Ctrl+X to exit the ﬁ le.
+
+d. Type source $HOME/.bashrc.
+
+e. Type alias m to make sure the alias was set properly: alias m='cat /etc/
+
+passwd'.
+
+f.

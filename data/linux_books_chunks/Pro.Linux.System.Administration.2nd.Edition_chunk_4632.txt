@@ -1,0 +1,5 @@
+Then -f slapd.conf points to the configuration file we want to read in, and -F points to the slapd.d 
+directory, which will hold the LDIF files for your configuration engine.
+
+When your slapd instance starts, you will see that the slapd.d directory now contains several files and 
+directories.

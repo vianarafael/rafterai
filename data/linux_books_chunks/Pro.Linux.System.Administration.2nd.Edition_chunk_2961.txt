@@ -1,0 +1,5 @@
+This behavior is controlled by the variable innodb_fast_shutdown, 
+which we can change on a running server by connecting to it as the root user and then running the query 
+SET GLOBAL innodb_fast_shutdown=1, as shown in Listing 11-5.
+
+Listing 11-5.

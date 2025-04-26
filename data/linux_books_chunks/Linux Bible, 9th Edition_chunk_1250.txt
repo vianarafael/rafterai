@@ -1,0 +1,8 @@
+It’s also up to the root user to monitor how 
+the services are being used and make sure that server resources are not exhausted 
+or abused.
+
+The easiest way to begin system administration is to use some graphical administration tools.
+
+Using Graphical Administration Tools
+Most system administration for the ﬁ rst Linux systems was done from the command line.

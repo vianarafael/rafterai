@@ -1,0 +1,12 @@
+In the /etc/bareos/bconsole.conf file, we define the following:
+
+Director {
+  Name = example-dir
+  DIRport = 9101
+  Address = backup.example.com
+  Password = "uogx2tNL9dRUwGfNvY/b+uQrU8osZn+JOM7t8iIrpszN"
+}
+
+This has the same details (Name, port, Address, and Password) as the Directory resource in the bareos-
+
+dir.conf configuration file.

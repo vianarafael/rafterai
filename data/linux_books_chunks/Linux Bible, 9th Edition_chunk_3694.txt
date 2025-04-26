@@ -1,0 +1,6 @@
+This causes the shared resource to be automatically mounted 
+and made  accessible to you.
+
+The following steps explain how to turn on the autofs facility in Fedora or RHEL:
+
+1.

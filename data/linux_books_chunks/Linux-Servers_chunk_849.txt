@@ -1,0 +1,10 @@
+This list can save you one Google query:
+
+http://gitimmersion.com/
+http://git-scm.com/book
+
+225
+
+git
+
+20.1.

@@ -1,0 +1,6 @@
+You need to know how 
+to partition your disk if you want to add a disk to your system or change your existing disk 
+conﬁ guration.
+
+This section demonstrates disk partitioning using an 8GB removable USB ﬂ ash drive and a 
+ﬁ xed hard disk.

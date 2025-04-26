@@ -1,0 +1,8 @@
+root root system_u:object_r:admin_home_t:s0 install.log
+-rw-r--r--. root root system_u:object_r:admin_home_t:s0 install.log.syslog
+
+[root@centos65 ~]# useradd -m -s /bin/bash pol
+[root@centos65 ~]# ls -Z /home/pol/.bashrc
+-rw-r--r--. pol pol unconfined_u:object_r:user_home_t:s0 /home/pol/.bashrc
+
+19.11.

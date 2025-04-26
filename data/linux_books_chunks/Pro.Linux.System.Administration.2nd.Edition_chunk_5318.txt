@@ -1,0 +1,2 @@
+In our case, we’ve specified a time 
+period called 24x7.

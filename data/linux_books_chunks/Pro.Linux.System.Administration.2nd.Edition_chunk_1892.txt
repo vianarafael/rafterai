@@ -1,0 +1,7 @@
+This package will simply 
+place a script on our system. To do that we need to install the rpm-build and rpmdevtools packages. If you 
+intend to compile a program you will need the appropriate development packages as well.
+
+$ sudo yum install rpm-build rpmdevtools
+
+Next we need to create some basic directories required by the rpm build command.

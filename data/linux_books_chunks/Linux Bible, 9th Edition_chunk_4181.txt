@@ -1,0 +1,9 @@
+An inode number is a data structure that contains information con-
+cerning a ﬁ le, including its location.
+
+ ■ -p trigger(s)—If one of these access types occurs (r=read, w=write, x=execute, 
+
+a=attribute change) to ﬁ lename, then trigger an audit record.
+
+In the following example, a watch has been placed on the /etc/passwd ﬁ le using the 
+auditctl command.

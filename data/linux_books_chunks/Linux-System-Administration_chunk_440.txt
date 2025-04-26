@@ -1,0 +1,9 @@
+(We see later in the course how to
+maintain this file.)
+
+paul@deb503:~$ grep ^[^#] /boot/grub/menu.lst | grep root=
+kernel          /boot/vmlinuz-2.6.26-2-686 root=/dev/hda1 ro selinux=1 quiet
+kernel          /boot/vmlinuz-2.6.26-2-686 root=/dev/hda1 ro selinux=1 single
+
+5. (optional on ubuntu) Replace the /dev/xxx in /boot/grub/menu.lst with a uuid (use an
+extra stanza for this).

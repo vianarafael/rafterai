@@ -1,0 +1,18 @@
+/var/log/lastlog (lastlog)
+
+Use lastlog to see the /var/log/lastlog file.
+
+ [root@rhel4a ~]# lastlog | tail
+tim              pts/5  10.170.1.122     Tue Feb 13 09:36:54 +0100 2007
+rm               pts/6  rhel4            Tue Feb 13 10:06:56 +0100 2007
+henk                                     **Never logged in**
+stefaan          pts/3  pc-sde.telematic Wed Feb 14 12:28:38 +0100 2007
+dirk             pts/5  pc-dss.telematic Wed Feb 14 10:03:11 +0100 2007
+arsene                                   **Never logged in**
+nicolas          pts/5  pc-dss.telematic Wed Feb 14 12:32:18 +0100 2007
+dimitri          pts/5  rhel4            Wed Feb 14 07:57:19 +0100 2007
+bashuserrm       pts/7  rhel4            Tue Feb 13 10:35:40 +0100 2007
+kornuserrm       pts/5  rhel4            Tue Feb 13 10:06:17 +0100 2007
+[root@rhel4a ~]#
+
+17.1.4.

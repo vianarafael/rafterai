@@ -1,0 +1,16 @@
+Search for the e1000 term again in the same location, but this time list every line 
+
+that contains the term and highlight the term in color.
+
+$ cd /usr/share/doc/kernel-doc-*
+$ grep -ri --color e1000 .
+
+Chapter 6: Managing Running Processes
+
+1.  To list all processes running on your system with a full set of columns, while piping 
+
+the output to less, type the following:
+
+$ ps -ef | less
+
+2.

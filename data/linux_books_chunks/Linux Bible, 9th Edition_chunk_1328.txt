@@ -1,0 +1,7 @@
+(On Ubuntu and other 
+Linux systems, /etc/apache or /etc/apache2 is used instead.)
+
+ ■ /etc/init.d—Contains the permanent copies of System V-style run-level scripts. 
+
+These scripts are often linked from the /etc/rc?.d directories to have each 
+ service associated with a script started or stopped for the particular run level.

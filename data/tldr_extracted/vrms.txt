@@ -1,0 +1,10 @@
+# vrms
+
+
+- List non-free and contrib packages (and their description):
+
+`vrms`
+
+- Only output the package names:
+
+`vrms --sparse`

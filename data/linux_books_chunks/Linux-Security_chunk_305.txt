@@ -1,0 +1,22 @@
+Try setting the i attribute on a file and
+test that it works.
+
+60
+
+advanced file permissions
+
+7.6. solution: sticky, setuid and setgid bits
+
+1a. Set up a directory, owned by the group sports.
+
+groupadd sports
+
+mkdir /home/sports
+
+chown root:sports /home/sports
+
+1b. Members of the sports group should be able to create files in this directory.
+
+chmod 770 /home/sports
+
+1c.

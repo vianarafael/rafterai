@@ -1,0 +1,20 @@
+On Linux, these include:
+
+ ■ sha224sum
+
+ ■ sha256sum
+
+ ■ sha384sum
+
+ ■ sha512sum
+
+These tools work just like the sha1sum command, except, of course, they use the SHA-2 
+cryptographic hash standard. The only difference between the various SHA-2 tools is 
+
+639
+
+c23.indd  04/01/2015  Page 640
+
+Part V: Learning Linux Security Techniques
+
+the key length they use.

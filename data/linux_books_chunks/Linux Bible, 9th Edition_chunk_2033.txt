@@ -1,0 +1,4 @@
+However, a disk 
+is usually much larger than RAM, RAM is much more expensive, and RAM is erased when 
+the computer reboots. Think of your ofﬁ ce as a metaphor for RAM and disk. A disk is like 
+a ﬁ le cabinet where you store folders of information you need.

@@ -1,0 +1,2 @@
+Some bootable Linux systems still use this  directory to mount 
+hard disk partitions and remote ﬁ lesystems.

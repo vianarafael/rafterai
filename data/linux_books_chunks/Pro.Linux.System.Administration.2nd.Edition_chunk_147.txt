@@ -1,0 +1,8 @@
+We have added a network mask of /24 (192.168.1.0/24) and our network gateway is listening 
+on 192.168.1.254.
+
+If you issue the command ping 192.168.1.150 on your local network and get a response back, 
+
+ ■ Note 
+then the address is already taken and you should choose a different address here. also, the address space 
+192.168.1.0/24 may not be suitable for your network.

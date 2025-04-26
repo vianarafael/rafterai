@@ -1,0 +1,5 @@
+However, just as bad as a new unauthorized user account is an authorized user 
+account with a bad password.
+
+Detecting bad account passwords
+Even with all your good efforts, bad passwords will slip in.

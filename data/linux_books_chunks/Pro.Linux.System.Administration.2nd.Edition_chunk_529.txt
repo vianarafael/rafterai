@@ -1,0 +1,2 @@
+Linux calls the steps 
+you take to traverse the filesystem a path. There are two types of paths—absolute and relative.

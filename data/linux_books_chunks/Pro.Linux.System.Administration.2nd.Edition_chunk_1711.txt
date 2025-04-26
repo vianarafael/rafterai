@@ -1,0 +1,6 @@
+The recent module allows us to create a dynamic list 
+
+of IP addresses that we can then apply actions on for a future match. The above creates a list of IPs that 
+match on new TCP SSH connections that have matched destination TCP port 22 and NEW connection state. 
+That list is given the name drop_ssh. The next line says we update the last seen timestamp each we see 
+the connection of this type.

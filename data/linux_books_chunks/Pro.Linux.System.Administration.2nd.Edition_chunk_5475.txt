@@ -1,0 +1,8 @@
+Cobbler comes with a handy 
+check function that tells you what needs to be done to configure it. To see what needs to be done, run the 
+following:
+
+The following are potential configuration items that you may want to change:
+
+1 : The 'server' field in /etc/cobbler/settings must ... by all machines that will use it.
+2 :  For PXE to be functional, the 'next_server' field ...

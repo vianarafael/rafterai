@@ -1,0 +1,3 @@
+Unlike Microsoft Windows or Mac OS X 
+(and their boot loader tools—NTLDR and Boot Camp, respectively), GRUB2 allows you to boot multiple 
+versions of Linux, Microsoft Windows, and Mac OS X on a single piece of hardware.

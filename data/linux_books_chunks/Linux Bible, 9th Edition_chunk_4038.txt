@@ -1,0 +1,9 @@
+From the BIOS Setup screen, determine if your computer is 32-bit or 64-bit, if it 
+includes virtualization support, and if your network interface card is capable of 
+PXE booting.
+
+3.  Reboot and just after the BIOS screen disappears, when you see the countdown to 
+
+booting the Linux system, press any key to get to the GRUB boot loader.
+
+4.

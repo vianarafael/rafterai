@@ -1,0 +1,4 @@
+If you have a lot of client browsers, this can add a lot of 
+overhead and maintenance to your environment. In many cases, such as a web site, you don’t have access 
+to the clients, and these errors may result in someone getting the message that the client cannot validate the 
+certificate and hence not trust your web site.

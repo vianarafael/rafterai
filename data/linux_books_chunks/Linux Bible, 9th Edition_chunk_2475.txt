@@ -1,0 +1,15 @@
+For  example, 
+the IP address is set on the network interface, the DNS server entries are added 
+to the local /etc/resolv.conf ﬁ le (by NetworkManager), and the lease time is 
+stored by the local system, so it knows when to request that the lease be renewed.
+
+14
+
+349
+
+c14.indd  04/01/2015  Page 350
+
+Part IV: Becoming a Linux Server Administrator
+
+All the steps just described typically happen without your having to do anything but turn 
+on your Linux system and log in.

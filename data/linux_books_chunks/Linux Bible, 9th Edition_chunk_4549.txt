@@ -1,0 +1,30 @@
+In 
+the example that follows, the ps -eZ command was used and then piped into grep to 
+search for only processes running the bash shell.
+
+# ps -eZ | grep bash
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 1589 pts/
+   0 00:00:00 bash
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 5289 pts/
+   1 00:00:00 bash
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 5350 pts/
+   1 00:00:00 bash
+
+The process context list shows the following:
+
+ ■ user—Process is mapped to the SELinux unconfined_u user.
+
+ ■ role—Process is running as the unconfined_r role.
+
+ ■ type—Process is running in the unconfined_t domain.
+
+ ■ level—
+
+ ■ sensitivity—Process has only level s0.
+
+ ■ categories—Process has access to c0.c1023, which is all categories (c0 
+
+through to c1023).
+
+These security contexts can be changed to meet your organization’s particular security 
+needs.

@@ -1,0 +1,7 @@
+The interface is replaced by the name of the network interface.
+
+14
+
+In Red Hat Enterprise Linux 6 and older Fedora systems, network interfaces have names 
+such as eth0, eth1, eth2 (for each wired network interface), wlan0 (for the ﬁ rst  wireless 
+interface), and ppp0 (for the ﬁ rst dial-up point-to-point interface).

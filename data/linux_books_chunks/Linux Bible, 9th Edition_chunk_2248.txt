@@ -1,0 +1,5 @@
+You either 
+have to run a test command (if the service includes one) or actually try to start the service 
+to see if there is any problem with your conﬁ guration ﬁ le.
+
+Instead of using vi to edit confi guration fi les, use vim instead.

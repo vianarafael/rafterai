@@ -1,0 +1,11 @@
+We add another chain for our mobile VPN tunnel.
+
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-interface tun1
+
+Now we have reload the firewall configuration.
+
+[gateway]$ sudo firewall-cmd --reload
+
+We’ve created a variety of simple rules to allow traffic through the VPN tunnel and forward it into our 
+
+internal network.

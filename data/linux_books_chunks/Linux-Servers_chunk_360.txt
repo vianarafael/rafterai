@@ -1,0 +1,25 @@
+root.paul.local (
+                        2014100100      ; Serial
+                        1h              ; Refresh
+                        1h              ; Retry
+                        2h              ; Expire
+                        86400 )         ; Negative Cache TTL
+;
+; name servers
+;
+        IN      NS      ns1
+        IN      NS      debianpaul
+        IN      NS      debian7
+;
+; servers
+;
+debianpaul      IN      A       10.104.33.30
+debian7         IN      A       10.104.33.30
+ns1             IN      A       10.104.33.30
+;www            IN      A       10.104.33.30
+
+76
+
+introduction to DNS
+
+4.12.

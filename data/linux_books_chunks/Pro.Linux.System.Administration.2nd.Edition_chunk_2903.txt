@@ -1,0 +1,16 @@
+We will show you how to set up an HTTP Secure 
+(HTTPS) server shortly.
+
+You can read more about host-and user-based access control on the Apache documentation site.
+
+•	
+
+•	
+
+https://httpd.apache.org/docs/2.4/howto/auth.html
+
+https://httpd.apache.org/docs/2.4/howto/access.html
+
+Modules
+We have talked about modules and how they provide extra functionality to Apache and are enabled using 
+the LoadModule directive.

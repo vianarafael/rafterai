@@ -1,0 +1,15 @@
+Like this example shows.
+
+mke2fs /dev/hda3
+mount /dev/hda3 /mnt/data
+cd /mnt/data
+restore rf /dev/nst0
+
+To extract only one file or directory from a dump, use the -x option.
+
+restore -xf /dev/st0 /etc
+
+30.6. cpio
+
+Different  from  tar  and  dump  is  cpio  (Copy  Input  and  Output).  It  can  be  used  to  receive
+filenames, but copies the actual files.

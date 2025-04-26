@@ -1,0 +1,6 @@
+Click any of the four virtual workspaces to make it your current 
+workspace.
+
+ ■ Move windows to other workspaces—Click any window, each represented by a 
+
+tiny rectangle in a workspace, to drag and drop it to another workspace.

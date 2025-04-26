@@ -1,0 +1,6 @@
+If you need extremely high performance or advanced features such as data replication across multiple 
+servers, we suggest you read High Performance MySQL, Third Edition by Baron Schwartz et al. (O’Reilly 
+Media, Inc., 2012).
+
+Basic MariaDB Administration
+As you’ve seen already, MariaDB has an internal list of users and passwords.

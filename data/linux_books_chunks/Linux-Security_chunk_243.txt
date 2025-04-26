@@ -1,0 +1,18 @@
+Use the id command to verify that serena is a member of tennis.
+
+id (and after logoff logon serena should be member)
+
+6. Make someone responsible for managing group membership of foot and sports. Test that
+it works.
+
+gpasswd -A (to make manager)
+
+gpasswd -a (to add member)
+
+42
+
+Part II. file security
+
+Table of Contents
+
+6.

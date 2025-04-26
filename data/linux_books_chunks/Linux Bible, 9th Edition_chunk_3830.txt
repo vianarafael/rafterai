@@ -1,0 +1,9 @@
+The 
+default runlevel is typically 3 (for a server) or 5 (for a desktop). Here are descriptions of the 
+runlevels in Linux systems up to RHEL 6:
+
+ ■ 0—Shutdown runlevel. All processes are stopped and the computer is powered 
+
+down.
+
+ ■ 1—Single-user runlevel.

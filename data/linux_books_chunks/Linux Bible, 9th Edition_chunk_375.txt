@@ -1,0 +1,6 @@
+If you were to launch an X client (such as a 
+ terminal window or word processor), it would appear on the X display with no border around 
+it to move, minimize, or close the window. Those features are added by a window manager.
+
+A window manager adds the capability to manage the windows on your desktop and often 
+provides menus for launching applications and otherwise working with the desktop.

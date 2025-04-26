@@ -1,0 +1,4 @@
+But there is a symlink to the /var/mail directory for the /var/spool/mail directory.
+
+On CentOS, each user has an mbox-format mailbox file contained in the /var/spool/mail directory. 
+The file is named after the user, for example, /var/spool/mail/ataylor.

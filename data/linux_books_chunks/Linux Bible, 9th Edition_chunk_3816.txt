@@ -1,0 +1,4 @@
+For System V init, the ﬁ rst process to run is 
+the init process. For systemd, the ﬁ rst process is systemd. Depending on which you 
+see running on your system (type ps -ef | head to check), follow either the System V 
+or systemd descriptions below.

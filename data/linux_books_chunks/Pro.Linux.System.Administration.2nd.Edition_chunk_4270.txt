@@ -1,0 +1,43 @@
+You can combine them to securely back up remote hosts.
+
+In Chapter 19, we’ll introduce automated provisioning systems that, combined with a backup regimen, 
+
+allow you to quickly and efficiently recover your hosts.
+
+In this chapter, we covered the following topics:
+
+•	
+
+Issues to consider when formulating a disaster recovery planning and business 
+continuity management strategy
+
+•	 How to back up remote hosts to a central host using rsync and SSH
+
+•	 How to write a simple Bash script that can rsync your remote hosts regularly
+
+•	 How to install and configure Duply and Duplicity
+
+•	 How to install and configure Bareos
+
+•	 How to run a backup job with Bareos
+
+•	 How to restore a file with Bareos
+
+•	 How to do an advanced backup with Bareos of a MariaDB database
+
+•	
+
+The Bareos Web-UI console, an advanced web-based management GUI for Bareos
+
+In the next chapter, we will show you how to manage your own VPN links and internetwork security.
+
+700
+
+CHAPTER 15
+
+Networking with VPNs
+
+By James Turnbull and Dennis Matotek
+
+In previous chapters, we talked about a lot of the services your organization might implement (e.g., e-mail 
+and web services).

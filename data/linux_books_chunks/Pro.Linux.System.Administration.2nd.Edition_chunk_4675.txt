@@ -1,0 +1,39 @@
+Common LDAP Tool Options
+
+Option
+
+Description
+
+-x
+
+-v
+
+-W
+
+-f
+
+-D
+
+-Z
+
+-Y
+
+-X
+
+-U
+
+-b
+
+-s
+
+Performs a simple bind.
+
+Specifies verbose output.
+
+Prompts for a password.
+
+Points to an input file, which can be a different type under a different tool context.
+
+Specifies the DN to bind as. This DN must have proper access rights to work on the entries.
+
+Tries using TLS to make the LDAP connection.

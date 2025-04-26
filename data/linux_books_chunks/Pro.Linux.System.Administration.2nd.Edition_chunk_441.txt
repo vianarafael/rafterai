@@ -1,0 +1,36 @@
+Each shell contains a collection of built-in commands that allow you to interact with your host (these 
+are supplemented by additional tools installed by your distribution).
+
+A variety of shells are available, with the most common being the Bash (or Bourne-again) shell that is 
+used by default on many distributions, including the popular Red Hat, Ubuntu, and Debian distributions.
+
+ ■ Note 
+
+ We talked more about some specific distributions in Chapters 1 and 2.
+
+We’re going to use the Bash shell for all of our examples in this chapter, because it is most likely the shell 
+
+you’ll find by default.
+
+106
+
+Command-Line Prompt
+After you have logged in to your Linux host, you should see a prompt that looks something like the following:
+
+ChapTeR 4 ■ LInux BasICs
+
+jsmith@au-mel-centos-1 ~$
+
+So what does this mean? Well let’s break it down.
+
+user@host directory$
+
+On most Linux distributions, the basic prompt is constructed from the username you’re logged in as, 
+
+the name of the host, the current directory, and the $ symbol, which indicates what sort of user you are 
+logged in as.
+
+ You can customize your prompt to include additional information, add or change colors, or implement a 
+
+ ■ Tip 
+variety of other options.

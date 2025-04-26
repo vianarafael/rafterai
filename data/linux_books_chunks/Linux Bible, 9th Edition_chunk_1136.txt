@@ -1,0 +1,4 @@
+Using the renice command, change the nice value of the gedit command you 
+
+just started to 7. Use any command you like to verify that the current nice value 
+for the gedit command is now set to 7 .

@@ -1,0 +1,12 @@
+This time we are going to drop the host we had in our mount 
+command, au-mel-dfs-1, and we will see what happens when we are in the middle of copying a file.
+
+$ while true ; do sudo cp /var/log/syslog /mnt/ ; date ; done
+....
+Sat Sep 17 15:09:05 UTC 2016
+Sat Sep 17 15:09:05 UTC 2016
+Sat Sep 17 15:09:05 UTC 2016
+....
+
+The previous command says, let’s copy the syslog file to /mnt indefinitely and, in between copies, print 
+the current date.

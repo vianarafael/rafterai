@@ -1,0 +1,5 @@
+that means that you can validate the authenticity of the records based on the key that signed them and 
+that they are in turn validated by someone you trust.
+
+as we know, the top to the Dns tree is called the root ‘.’ zone. Below them are the tLDs (like ‘.com.’, ‘.org.’, 
+‘.net.’, ‘.io.’, etc). Below them are the many various different domains.

@@ -1,0 +1,31 @@
+You can also add your own scripts in these directories to run 
+them every hour, day, week, or month.
+
+$ ls -l /etc/cron.daily/
+-rwxr-xr-x 1 root root  379 Dec 19  2016 0anacron
+-rwxr-xr-x 1 root root  118 Oct  1 00:06 cups
+-rwxr-xr-x 1 root root  180 Oct 22  2017 logrotate
+-rwxr-xr-x 1 root root  114 Jan 16  2018 rpm
+-rwxr-xr-x 1 root root  290 Nov 26  2016 tmpwatch
+
+Let’s view one of these files, /etc/cron.daily/rpm, and see what is inside it.
+
+$ less /etc/cron.daily/rpm
+#!/bin/sh
+
+/bin/rpm -qa --qf '%{name}-%{version}-%{release}.%{arch}.rpm\n' 2>&1 \
+           | /bin/sort > /var/log/rpmpkgs
+
+214
+
+This daily executed script populates the /var/log/rpmpkgs file with a sorted list of all the RPM packages 
+
+on your host.
+
+Chapter 6 ■ Startup and ServiCeS
+
+ ■ Note 
+
+ We’ll discuss rpM packages further in Chapter 8.
+
+Individual users can also create a crontab.

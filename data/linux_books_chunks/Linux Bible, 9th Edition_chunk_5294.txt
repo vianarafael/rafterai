@@ -1,0 +1,28 @@
+Try to run the initctl, systemctl, and service commands to 
+determine the type of initialization script in use for the ssh service on your system:
+
+ ■ A positive result, shown here, means the sshd has been converted to Upstart:
+
+# initctl status ssh
+ssh start/running, process 2390
+
+810
+
+ 
+ 
+bapp02.indd  04/01/2015  Page 811
+
+Appendix B: Exercise Answers
+
+ ■ For systemd, a positive result, shown here, means the sshd has been converted 
+
+to systemd:
+
+# systemctl status sshd.service
+sshd.service - OpenSSH server daemon
+  Loaded: loaded (/lib/systemd/system/sshd.service; enabled)
+  Active: active (running) since Mon, 30 Apr 2015 12:35:20...
+
+ ■ If you don’t see positive results for the preceding tests, try the following com-
+
+mand for the SysVinit init daemon.

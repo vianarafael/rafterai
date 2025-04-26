@@ -1,0 +1,6 @@
+For example, if you want to verify your nmap package, you simply enter 
+rpm -V nmap.
+
+To verify packages on Ubuntu, you need the debsums utility. It is not installed by default. To install debsums, use 
+the command sudo apt-get install debsums. To check all installed packages, use the debsums -a com-
+mand.

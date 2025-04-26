@@ -1,0 +1,8 @@
+This saves you 
+the time and trouble of dual booting different operating systems (which means you have to shut down one 
+operating system to start another). It also allows you to share the resources, like the filesystem between your 
+guest operating systems and your desktop.
+
+73
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

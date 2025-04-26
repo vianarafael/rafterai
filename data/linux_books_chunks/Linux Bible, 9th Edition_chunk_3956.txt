@@ -1,0 +1,6 @@
+One way to do that is using the nmap command.
+
+The nmap command is a favorite tool for system administrators checking for various kinds 
+of information on networks. However, it is a favorite cracker tool as well because it can 
+scan servers, looking for potential vulnerabilities. So it is ﬁ ne to use nmap to scan your 
+own systems to check for problems.

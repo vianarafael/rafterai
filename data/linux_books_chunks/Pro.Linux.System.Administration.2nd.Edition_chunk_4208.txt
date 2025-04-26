@@ -1,0 +1,7 @@
+Issuing this 
+
+command gives a detailed list of what is happening on the Bareos Director, including the attached Storage 
+daemons and File daemons.
+
+To find out what the Director itself is doing, we use the stat dir command. This command gives an 
+overview of the pending jobs, the current running jobs, and the jobs that have been completed.

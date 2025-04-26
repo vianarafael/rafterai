@@ -1,0 +1,19 @@
+On Red Hat–derived distributions, home directories are created automatically.
+Ubuntu requires that the useradd command is executed with the –m option; otherwise no home 
+
+directory is created.
+
+ ■ Note 
+
+ see the sidebar “adduser: an alternative on Ubuntu” for an alternative method to create users on Ubuntu.
+
+Finally, the –s option allows you to specify a different shell from the default for the user.
+
+ We recommend you read the useradd command’s man page for more detailed information on this 
+
+ ■ Tip 
+command.
+
+User Default Settings
+
+Your new user will also be created with a variety of defaults (e.g., the setting for the user’s shell).

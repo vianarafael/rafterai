@@ -1,0 +1,8 @@
+In Listing 12-7, you can see the options you need to add to your main.cf configuration file, and we’ll walk 
+you through each of these settings.
+
+545
+
+Chapter 12 ■ Mail ServiCeS
+
+Listing 12-7.

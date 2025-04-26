@@ -1,0 +1,9 @@
+Logging to Multiple Places
+
+auth                               /var/log/auth
+auth.crit                         jsmith
+auth.emerg                    /dev/console
+
+Here all auth messages are logged to /var/log/auth as previously, but auth messages of crit or higher 
+
+priority are also sent to user jsmith, if he is logged in.

@@ -1,0 +1,12 @@
+Its primary function is to resolve names to ip addresses, and to point
+to internet servers providing smtp or ldap services.
+
+The old hosts.txt file is still active today on most computer systems under the name /etc/
+hosts (or C:/Windows/System32/Drivers/etc/hosts). We will discuss this file later, as it can
+influence name resolution.
+
+60
+
+introduction to DNS
+
+4.1.3.

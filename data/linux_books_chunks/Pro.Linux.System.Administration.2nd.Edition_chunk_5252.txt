@@ -1,0 +1,5 @@
+As you can guess, installation is as follows:
+
+$ sudo aptitude install –y kibana
+
+The configuration of Kibana will by default look at localhost:9200 for an Elasticsearch service.

@@ -1,0 +1,5 @@
+The new disk will likely have the same device node name as the disk it 
+replaces. When partitioning is done, you can add the new partition to the array via mdadm, as shown in  
+Listing 9-22.
+
+Listing 9-22.

@@ -1,0 +1,15 @@
+A few items will help you see what audit event hap-
+pened to trigger the bottom record.
+
+ ■ time—The time stamp of the activity
+
+ ■ name—The ﬁ lename, /etc/passwd, being watched
+
+ ■ inode—The /etc/passwd’s inode number on this ﬁ lesystem
+
+ ■ uid—The user ID, 1000, of the user running the program
+
+ ■ exe—The program, /bin/vi, used on the /etc/passwd ﬁ le
+
+To determine what user account is assigned the UID of 1000, look at the /etc/password 
+ﬁ le.

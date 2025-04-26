@@ -1,0 +1,15 @@
+This can be done using your native package 
+
+manager or by downloading via PIP, the Python package manager.
+
+$ sudo aptitude install –y awscli
+
+657
+
+Chapter 14 ■ BaCkup and reCovery
+
+If you use PIP, try this:
+
+$ sudo pip install awscli
+
+Once that has been installed, we can begin to use the aws command to interact with AWS resources.

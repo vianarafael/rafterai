@@ -1,0 +1,5 @@
+if you 
+add all those values together they equal 255.
+
+A network address is made up of a Network iD and a host. in the case of 192.168.10.0/24 the first 24 
+bits of the address is the Network iD.

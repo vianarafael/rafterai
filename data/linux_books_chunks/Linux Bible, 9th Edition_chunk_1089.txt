@@ -1,0 +1,10 @@
+(In other words, typing %vi when 
+there are two vi commands in the background results in an error message.)
+
+145
+
+c06.indd  04/01/2015  Page 146
+
+Part II: Becoming a Linux Power User
+
+ ■ %?string—Refers to a job where the command line contains a string at any point.

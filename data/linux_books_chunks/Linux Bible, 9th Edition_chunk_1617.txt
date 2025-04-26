@@ -1,0 +1,7 @@
+To make sure that the information in your /boot directory is 
+ accessible to the BIOS, create a separate disk partition (of about 500MB) for 
+/boot. Even with several kernels installed, there is rarely a reason for /boot 
+to be larger than 500MB.
+
+This directory structure contains most of the applications and utilities available to 
+Linux users.

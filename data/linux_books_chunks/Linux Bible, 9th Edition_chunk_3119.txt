@@ -1,0 +1,3 @@
+The confi guration directives permitted within an access confi guration fi le are determined by the 
+AllowOverride setting on the directory in which they are contained. Some directives do not make sense at that 
+level and generally result in a "server internal error" message when trying to access the URI.

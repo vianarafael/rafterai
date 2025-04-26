@@ -1,0 +1,10 @@
+Explain why e-mail and websites are sent over tcp and not udp.
+
+Because tcp is reliable and udp is not.
+
+11. Display the hostname of your computer.
+
+paul@debian5:~$ hostname 
+debian5
+
+12.

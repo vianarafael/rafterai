@@ -1,0 +1,20 @@
+You can list just 
+ packages that are available or installed, or you can list all packages.
+
+# yum list emacs
+emacs.i686     1:24.4-3.fc21     updates
+# yum list available
+389-admin.i686                1.1.35-2.fc21      fedora
+389-admin-console.noarch      1.1.35-2.fc21      fedora
+389-admin-console-doc.noarch  1.1.8-7.fc21       fedora
+...
+# yum list installed
+Installed Packages
+GConf2.x86_64        3.2.6-11.fc21      @koji-override-0/$releasever
+LibRaw.x86_64        0.16.0-4.fc21      @koji-override-0/$releasever
+...
+# yum list all
+...
+
+If you ﬁ nd a package, but want to see what components that package is dependent on, you can 
+use the deplist subcommand.

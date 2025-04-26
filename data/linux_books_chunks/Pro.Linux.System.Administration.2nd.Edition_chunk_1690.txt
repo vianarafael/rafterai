@@ -1,0 +1,6 @@
+For example, if you do not specify that the NEW connection state 
+is accepted for incoming SMtP traffic on a mail server, remote clients will not be able to use the mail 
+server to send e-mail.
+
+An ESTABLISHED connection state indicates an existing connection that is in the process of transferring 
+data.

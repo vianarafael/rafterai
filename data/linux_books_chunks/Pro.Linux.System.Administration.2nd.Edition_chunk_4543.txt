@@ -1,0 +1,9 @@
+The following appears in the 
+
+core.schema file in the schema directory:
+
+objectclass ( 1.3.6.1.4.1.1466.344 NAME 'dcObject'
+        DESC 'RFC2247: domain component object'
+        SUP top AUXILIARY MUST dc )
+
+This is one of the main object classes that will be included in the DIT.

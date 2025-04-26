@@ -1,0 +1,7 @@
+Raymond says in an often-quoted line, “Given enough eyeballs, all 
+bugs are shallow.”
+
+Understanding How Linux Distributions Emerged
+Having bundles of source code ﬂ oating around the Internet that could be compiled and 
+packaged into a Linux system worked well for geeks. More casual Linux users, however, 
+needed a simpler way to put together a Linux system.

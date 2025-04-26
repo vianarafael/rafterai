@@ -1,0 +1,12 @@
+(Remember that a regular user can’t reduce the nice value or ever set it to 
+a negative  number.) Here’s how you would change the nice value for the updatedb 
+command just run to –5:
+
+# renice -n -5 20284
+
+If you ran the top command again, you might notice that the updatedb command is now 
+at or near the top of the list of processes consuming CPU time because you gave it priority 
+to get more CPU attention.
+
+Limiting Processes with cgroups
+You can use a feature like “nice” to give a single process more or less access to CPU time.

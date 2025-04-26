@@ -1,0 +1,9 @@
+For CentOS hosts, the configuration directory is called /etc/openldap instead of /etc/
+ldap that you will find on Ubuntu hosts. Both distributions store the databases in /var/lib/ldap.
+
+For example, the configuration files for OpenLDAP on a CentOS host are stored in /etc/openldap/.
+
+$ sudo ls -l /etc/openldap/
+total 12
+drwxr-xr-x. 2 root root   85 Oct 26 12:46 certs
+-rw-r--r--.

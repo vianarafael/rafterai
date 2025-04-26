@@ -1,0 +1,6 @@
+This provides some level of security for your logs.
+
+However, it does not stop people who attack your system from covering their tracks, and they can get 
+around this by either deleting the logs or editing between the sealing time interval. It does not provide any 
+extra information in the event of someone tampering with your logs but will give you a timeframe in which 
+such an event happened.

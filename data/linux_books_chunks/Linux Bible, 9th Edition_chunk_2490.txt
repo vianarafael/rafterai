@@ -1,0 +1,17 @@
+By default, ifconfig shows similar information to that of ip addr, but ifconfig also 
+shows the number of packets received (RX) and transmitted (TX), as well as the amount of 
+data and any errors or dropped packets:
+
+# ifconfig wlan0
+wlan0 Link encap:Ethernet  HWaddr 00:24:D7:69:5B:2C
+      inet addr:192.168.0.105 Bcast:192.168.0.255 Mask:255.255.255.0
+      inet6 addr: fe80::224:d7ff:fe69:5b2c/64 Scope:Link
+      UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+      RX packets:22482 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9699 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:9456897 (9.0 MiB)  TX bytes:1232234 (1.1 MiB)
+
+Checking connectivity to remote systems
+To make sure you can reach systems that are available on the network, you can use the ping 
+command.

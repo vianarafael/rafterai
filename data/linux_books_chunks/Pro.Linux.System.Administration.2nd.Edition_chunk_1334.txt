@@ -1,0 +1,4 @@
+we needed 
+predictable network interfaces. luckily systemd/udev has found a solution to that.
+
+Devices can now get their names from the biosdevname udev helper utility.

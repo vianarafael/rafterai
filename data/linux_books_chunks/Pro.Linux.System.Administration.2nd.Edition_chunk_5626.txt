@@ -1,0 +1,11 @@
+Modules are portable collections of 
+configuration; for example, a module might contain all the resources required to configure postfix or 
+apache.
+
+You can read about how to use modules here:
+
+• 
+
+https://docs.puppet.com/puppet/4.8/modules_fundamentals.html
+
+also, there is a huge number of user-contributed modules on the https://forge.puppet.com/ site.

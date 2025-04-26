@@ -1,0 +1,6 @@
+If you need 
+more partitions, use LVM and create as many logical volumes as you like.
+
+If you are using Linux as a desktop system, you probably don’t need lots of different 
+ partitions. However, some very good reasons exist for having multiple partitions for Linux 
+systems that are shared by lots of users or are public web servers or ﬁ le servers.

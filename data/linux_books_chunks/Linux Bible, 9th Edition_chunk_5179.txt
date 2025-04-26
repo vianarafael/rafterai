@@ -1,0 +1,10 @@
+To search the /etc directory for every ﬁ le named passwd and redirect errors from 
+
+your search to /dev/null, you can type the following:
+
+$ find /etc -name passwd 2> /dev/null
+
+5.  Create a directory in your home directory called TEST. Create ﬁ les in that direc-
+
+tory named one, two, and three that have full read/write/execute permissions on 
+for everyone (user, group, and other).

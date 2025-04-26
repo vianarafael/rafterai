@@ -1,0 +1,9 @@
+Now we create the policy package with the 
+following command:
+
+semodule_package –o clamav-write.pp -m clamav-write.mod
+
+We have created the policy package by passing the module (-m) file to the semodule_package command 
+
+and have written it (-o) to the clamav-write.pp file. Now we are ready to load this policy package into 
+SELinux.

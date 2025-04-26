@@ -1,0 +1,9 @@
+The
+syntax is also a bit different from Debian/Ubuntu/Mint.
+
+root@rhel53 ~# /lib/udev/vol_id -u /dev/hda1
+48a6a316-9ca9-4214-b5c6-e7b33a77e860
+
+This utility is not available in standard installations of RHEL6 or Debian6.
+
+9.2.

@@ -1,0 +1,3 @@
+It tells the client to connect to the 
+
+au-mel-centos-1 host on port number 2022 and log in as user ataylor.

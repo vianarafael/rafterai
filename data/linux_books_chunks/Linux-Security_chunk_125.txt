@@ -1,0 +1,5 @@
+This can be
+useful to delegate administrative tasks to another user (without giving the root password).
+
+The screenshot below shows the usage of sudo. User paul received the right to run useradd
+with the credentials of root.

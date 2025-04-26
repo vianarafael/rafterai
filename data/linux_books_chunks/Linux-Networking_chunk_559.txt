@@ -1,0 +1,7 @@
+When the local name server resolves the query, then it will relay this information to
+the client that submitted the query, and it will also keep a copy of these queries in its cache.
+So when a(nother) client submits the same query to this name server, then it will retrieve
+this information form its cache.
+
+For example, a client queries for the A record on www.linux-training.be to its local server.
+This is the first query ever received by this local server.

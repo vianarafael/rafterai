@@ -1,0 +1,6 @@
+Organizational units can 
+hold other organizational units and can be as complicated as you want them to be, although we again 
+recommend simpler as better when it comes to designing your DIT.
+
+The DN is a unique entry under the root, which is made up of the RDN and its ancestors. You can 
+see in Figure 16-1 that we have a DN of cn=Angela Taylor,ou=people,dc=example,dc=com.

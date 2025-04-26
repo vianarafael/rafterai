@@ -1,0 +1,5 @@
+Control flags tell PAM what to 
+do with the success or failure result and how that result impacts the overall authentication process. Table 5-7 
+lists the four PAM control flags.
+
+Table 5-7.

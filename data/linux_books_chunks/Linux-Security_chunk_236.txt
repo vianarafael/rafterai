@@ -1,0 +1,15 @@
+Then we su to serena and add harry to the sports group.
+
+[root@RHEL4b ~]# gpasswd -A serena sports
+[root@RHEL4b ~]# su - serena
+[serena@RHEL4b ~]$ id harry
+uid=516(harry) gid=520(harry) groups=520(harry)
+[serena@RHEL4b ~]$ gpasswd -a harry sports
+Adding user harry to group sports
+[serena@RHEL4b ~]$ id harry
+uid=516(harry) gid=520(harry) groups=520(harry),522(sports)
+[serena@RHEL4b ~]$ tail -1 /etc/group
+sports:x:522:serena,venus,harry
+[serena@RHEL4b ~]$ 
+
+Group administrators do not have to be a member of the group.

@@ -1,0 +1,3 @@
+If you are trying Linux on a computer with less memory or 
+processing power, consider Xfce and LXDE spins (representing lightweight desktops 
+of the same name).

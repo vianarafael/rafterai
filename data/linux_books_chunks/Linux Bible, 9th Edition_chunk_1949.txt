@@ -1,0 +1,3 @@
+As with the 
+chmod command, you can assign read (r), write (w), and/or execute (x) permissions to the 
+user or group (in the example, full rwx permission is given).

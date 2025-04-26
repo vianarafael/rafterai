@@ -1,0 +1,23 @@
+the /etc/postfix/smtp_sasl_passwd file 
+needs to contain the name of the smarthost and the username and password (separated by a colon) 
+required to authenticate like so:
+
+mail.isp.net        username:password
+
+558
+
+You need to make sure these files are readable only by the root user and have appropriate permissions 
+to stop anyone viewing your passwords.
+
+Chapter 12 ■ Mail ServiCeS
+
+$ sudo chown root:root /etc/postfix/smtp_sasl_passwd
+$ sudo chmod 0600 /etc/postfix/smtp_sasl_passwd
+
+We then use the postmap command to create a database.
+
+$ sudo postmap hash:/etc/postfix/smtp_sasl_passwd
+
+a file called smtp_sasl_passwd.db is then created.
+
+the remaining options are pretty simple.

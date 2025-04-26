@@ -1,0 +1,10 @@
+If time permits, search for and install samba including the samba docs pdf files (thousands
+of pages in two pdf's).
+
+248
+
+package management
+
+20.12. solution: package management
+
+1.

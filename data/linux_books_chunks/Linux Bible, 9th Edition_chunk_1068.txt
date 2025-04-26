@@ -1,0 +1,10 @@
+Click the Memory heading to see which 
+processes consume the most memory.
+
+You can change your processes in various ways by right-clicking a process name and 
+ selecting from the menu that appears (see Figure 6.3 for an example).
+
+Here are some of the things you can do to a process from the menu you clicked:
+
+ ■ Stop—Pauses the process, so no processing occurs until you select Continue 
+Process.

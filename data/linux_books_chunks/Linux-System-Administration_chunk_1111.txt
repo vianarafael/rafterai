@@ -1,0 +1,12 @@
+passwordless ssh
+
+Alice can now use ssh to connect passwordless to Bob's laptop. In combination with ssh's
+capability  to  execute  commands  on  the  remote  host,  this  can  be  useful  in  pipes  across
+different machines.
+
+[alice@RHEL5 ~]$ ssh bob@192.168.48.92 "ls -l .ssh"
+total 4
+-rw-r--r-- 1 bob bob 393 2008-05-14 17:03 authorized_keys
+[alice@RHEL5 ~]$
+
+25.6.

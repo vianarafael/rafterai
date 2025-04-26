@@ -1,0 +1,4 @@
+The issuing certificate file 
+is added to the cacert.pem file. We have also specified allow for TLSVerifyClient. This means that we 
+will verify any client certificates presented to us during the TLS exchange but not fail if we can’t verify the 
+certificate. Other options are never, allow, try, and demand.

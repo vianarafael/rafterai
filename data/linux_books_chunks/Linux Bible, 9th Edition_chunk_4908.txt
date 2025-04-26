@@ -1,0 +1,6 @@
+Keep in mind, however, that this means you can’t turn off that hypervi-
+sor without shutting down all your VMs.)
+
+Step 1: Install Linux software
+To set up your storage on an NFS server, you can use pretty much any Linux system that 
+has an NFS service available.

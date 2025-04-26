@@ -1,0 +1,28 @@
+The 
+whatis command searches a summary database of commands that is available on most Linux distributions 
+for a complete word match as follows:
+
+$ whatis useradd
+useradd(8) – create a new user or update default new user information
+
+The whatis search has returned the useradd command and included a brief description of what the 
+
+command does.
+
+113
+
+ChapTeR 4 ■ LInux BasICs
+
+The apropos command also searches the whatis database but searches for strings rather than complete 
+
+words.
+
+$ apropos whoam
+ldapwhoami(1) – LDAP who am i? tool
+whoami(1) – print effective userid
+
+The apropos search has searched the whatis database for all references to the string whoami and 
+
+returned a number of commands and functions that contain this string.
+
+There are also some additional useful commands that can tell you about commands on your host.

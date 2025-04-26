@@ -1,0 +1,24 @@
+Select the Create Network button.
+
+On the Network tab, type a Network Name (mynet).
+
+ On the Subnet tab, type a Subnet name (mysub01), Network 
+Address (192.168.100.0/24), IP Version (IPv4), and Gateway IP 
+(192.168.100.1), and leave Disable Gateway unchecked.
+
+761
+
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 762
+
+Part VI: Extending Linux into the Cloud
+
+FIGURE 27.2
+
+Log in to the OpenStack Dashboard.
+
+ d.

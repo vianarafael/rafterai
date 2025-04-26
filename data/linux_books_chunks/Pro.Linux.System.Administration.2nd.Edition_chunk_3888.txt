@@ -1,0 +1,7 @@
+In scheduled backups, you may take one full 
+backup every week with nightly incremental or differential backups.
+
+With full, incremental, and differential backups, your restore operations are done in the following 
+
+order: the last full backup is restored first, followed by the most recent differential backup, and then any 
+subsequent incremental backups.

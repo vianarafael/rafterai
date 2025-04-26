@@ -1,0 +1,11 @@
+This does mean that retrieval will be slower, but 
+the chance of us actually needing it is much lower after only a few weeks. There may be times when this is 
+not the case, and we should revise as we went along.
+
+653
+
+Chapter 14 ■ BaCkup and reCovery
+
+Figure 14-3.  Creating an S3 bucket
+
+We can apply these life-cycle policies to different paths in our bucket or to the whole bucket.

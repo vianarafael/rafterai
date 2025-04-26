@@ -1,0 +1,3 @@
+They are already installed and configured, and 
+the appliances are usually created with a particular purpose in mind, like a VoIP server, file server, or mail 
+server.

@@ -1,0 +1,17 @@
+of samba .tdb files
+[root@RHEL4b samba]#
+
+10.2. /usr/bin/testparm
+
+10.2.1. syntax check smb.conf
+
+To verify the syntax of the smb.conf file, you can use testparm.
+
+[paul@RHEL4b ~]$ testparm
+Load smb config files from /etc/samba/smb.conf
+Processing section "[firstshare]"
+Loaded services file OK.
+Server role: ROLE_STANDALONE
+Press enter to see a dump of your service definitions
+
+10.2.2.

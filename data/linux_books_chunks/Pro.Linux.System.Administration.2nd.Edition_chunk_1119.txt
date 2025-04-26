@@ -1,0 +1,6 @@
+It was a reworking and expansion of the SysV 
+Init paradigm; rather than outright replacing SysV Init, the designers created Upstart to emulate SysV Init 
+until everyone converted over.
+
+The init process under Upstart is an event-based daemon that uses event triggers to start or stop 
+processes. An event is a change of state that init can be informed of.

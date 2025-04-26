@@ -1,0 +1,5 @@
+In the ﬁ rst case, multiple entries can each allow different options 
+(such as pointing to a particular paper tray or printing with certain character sizes 
+or margins). In the second case, you can have a pool of printers so that printing is 
+distributed. In this instance, a malfunctioning printer or a printer that is dealing 
+with very large documents won’t bring all printing to a halt.

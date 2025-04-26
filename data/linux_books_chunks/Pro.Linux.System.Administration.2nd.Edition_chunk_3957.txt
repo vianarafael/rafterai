@@ -1,0 +1,2 @@
+Next, we will copy the remote_authorized_keys 
+file to its proper location on the remote host, renaming it on the way and setting the required permissions.

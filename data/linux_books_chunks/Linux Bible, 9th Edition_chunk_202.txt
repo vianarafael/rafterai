@@ -1,0 +1,12 @@
+Today, C is still the primary 
+language used to create the UNIX (and Linux) operating system kernels.
+
+As Ritchie went on to say in a 1979 lecture (http://cm.bell-labs.com/who/dmr/
+hist.html):
+
+1
+
+Today, the only important UNIX program still written in assembler is the 
+ assembler itself; virtually all the utility programs are in C, and so are most of the 
+application’s programs, although there are sites with many in Fortran, Pascal, and 
+Algol 68 as well.

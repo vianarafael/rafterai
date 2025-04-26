@@ -1,0 +1,5 @@
+You can get a good idea of where disk space can be recovered by ﬁ nding 
+ﬁ les that are over a certain size or were created by a particular person.
+
+You must be the root user to run this command effectively, unless you are just checking your personal fi les. If you are 
+not the root user, there are many places in the fi lesystem that you do not have permission to check.

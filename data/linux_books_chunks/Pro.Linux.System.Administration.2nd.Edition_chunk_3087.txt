@@ -1,0 +1,7 @@
+this means you don’t need to keep  
+re-creating your CSr.
+
+Remember, to avoid your clients indicating that your certificates are not trusted, you must install your 
+
+root certificate in the relevant client, for example, the user’s browser! The CAcert site has instructions for 
+installing its root certificate into a variety of clients at http://wiki.cacert.org/FAQ/BrowserClients.

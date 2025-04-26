@@ -1,0 +1,17 @@
+Consider the following:
+
+# ls -l /etc/systemd/system/default.target
+lrwxrwxrwx. 1 root root 36 Mar 13 17:27
+ /etc/systemd/system/default.target ->
+ /lib/systemd/system/runlevel5.target
+
+15
+
+413
+
+c15.indd  04/01/2015  Page 414
+
+Part IV: Becoming a Linux Server Administrator
+
+# ls -l /lib/systemd/system/runlevel5.target
+lrwxrwxrwx.

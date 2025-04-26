@@ -1,0 +1,11 @@
+In the 
+example, $# would be 2. The $@ variable holds all the arguments entered at the command 
+
+156
+
+c07.indd  04/01/2015  Page 157
+
+Chapter 7: Writing Simple Shell Scripts
+
+line. Another particularly useful special shell variable is $?, which receives the exit 
+status of the last command executed.

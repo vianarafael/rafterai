@@ -1,0 +1,39 @@
+This is done like so:
+
+$ sudo mount –o loop /path/to/downloaded.iso /path/to/mountpoint
+
+Let’s start by creating our first profile using the import command.
+
+$ sudo cobbler import --path=/mnt/centos --name=CentOS7 --arch=x86_64
+task started: 2016-12-22_055922_import
+task started (id=Media import, time=Thu Dec 22 05:59:22 2016)
+Found a candidate signature: breed=redhat, version=rhel6
+Found a candidate signature: breed=redhat, version=rhel7
+Found a matching signature: breed=redhat, version=rhel7
+Adding distros from path /var/www/cobbler/ks_mirror/CentOS7-x86_64:
+creating new distro: CentOS7-x86_64
+trying symlink: /var/www/cobbler/ks_mirror/CentOS7-x86_64 -> /var/www/cobbler/links/
+CentOS7-x86_64
+creating new profile: CentOS7-x86_64
+associating repos
+checking for rsync repo(s)
+
+919
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+checking for rhn repo(s)
+checking for yum repo(s)
+starting descent into /var/www/cobbler/ks_mirror/CentOS7-x86_64 for CentOS7-x86_64
+processing repo at : /var/www/cobbler/ks_mirror/CentOS7-x86_64
+need to process repo/comps: /var/www/cobbler/ks_mirror/CentOS7-x86_64
+looking for /var/www/cobbler/ks_mirror/CentOS7-x86_64/repodata/*comps*.xml
+Keeping repodata as-is :/var/www/cobbler/ks_mirror/CentOS7-x86_64/repodata
+*** TASK COMPLETE ***
+
+We will import our Ubuntu ISO also.
+
+$ sudo cobbler import --path=/mnt/ubuntu --name Ubuntu-16.04 --breed=ubuntu --os-
+version=xenial
+
+You issue the cobbler command with the import option.

@@ -1,0 +1,9 @@
+Then we close vi and take a look at the trace log.
+
+root@deb503:~# grep chmod strace.txt 
+chmod("42.txt", 0100600)                = -1 ENOENT (No such file or directory)
+chmod("42.txt", 0100400)                = 0
+root@deb503:~# ls -l 42.txt 
+-r-------- 1 root root 12 2011-09-26 12:04 42.txt
+
+Notice that vi changed the permissions on the file twice.

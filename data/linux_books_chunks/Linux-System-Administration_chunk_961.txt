@@ -1,0 +1,5 @@
+You will hear administrators use
+words like "this is a layer 2 device" or "this is a layer 3 broadcast", and you should be able
+to understand what they are talking about.
+
+21.1.2.

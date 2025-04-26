@@ -1,0 +1,12 @@
+So the local server will use the root hints to send an iterative query to a root server.
+
+The  root  server  will  reply  with  a  reference  to  the  server  that  is  authoritative  for  the  .be
+domain (root DNS servers do not resolve fqdn's, and root servers do not respond to recursive
+queries).
+
+The local server will then sent an iterative query to the authoritative server for the .be tld.
+This  server  will  respond  with  a  reference  to  the  name  server  that  is  authoritative  for  the
+linux-training.be domain.
+
+The local server will then sent the query for www.linux-training.be to the authoritative server
+(or one of its slave servers) for the linux-training.be domain.

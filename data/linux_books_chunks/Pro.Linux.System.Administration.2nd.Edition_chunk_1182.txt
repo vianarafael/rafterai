@@ -1,0 +1,2 @@
+These states are like rescue, 
+multiuser, graphical, and shutdown.

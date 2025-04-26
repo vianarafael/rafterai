@@ -1,0 +1,6 @@
+The next step 
+is to start up and test the vsftpd service.
+
+Starting the vsftpd Service
+No conﬁ guration is required to launch the vsftpd service if you want to just use the 
+default settings.

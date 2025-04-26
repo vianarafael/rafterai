@@ -1,0 +1,5 @@
+The commands begin with xfs_ and you can 
+see the options available by typing xfs_ and hitting the tab key twice. Table 9-4 shows the main ones you will 
+be interested.
+
+Table 9-4.

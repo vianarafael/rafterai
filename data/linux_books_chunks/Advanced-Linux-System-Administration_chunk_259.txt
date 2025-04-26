@@ -1,0 +1,38 @@
+The spec file will 
+look like this:
+
+#This is the Header section
+Summary: Installs a fstab file to /tmp/etc
+%define name tmp-fstab
+%define version 0.2
+%define release 1
+Name: %{name}
+Version: %{version}
+Release: %{release}
+Copyright: Freely distributable
+Group: Documentation
+Source: %{name}-%{version}.tar.gz
+Packager: Adrian Thomasset <adrian@linuxit.com>
+
+#The BuildRoot directory is a temporary replacement for root (/) while the package is being built.
+BuildRoot: /var/tmp/rpm-%{name}/
+
+%description
+This package copies a file called fstab to /tmp/etc/
+
+%prep
+#The %setup macro simply opens the archived files from SOURCES into BUILD and changes #directory to it 
+(/../../BUILD/%{name}-%{version}/ 
+%setup
+
+#All the work is done here: $RPM_BUILD_ROOT is a reference to the variable defined using the %BuildRoot 
+command earlier 
+%install
+
+rm -rf $RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/tmp/etc/
+install -m 644 fstab $RPM_BUILD_ROOT/tmp/etc/fstab
+
+%clean 
+rm -rf $RPM_BUILD_ROOT
+#Define which files must be copied to the binary RPM package.

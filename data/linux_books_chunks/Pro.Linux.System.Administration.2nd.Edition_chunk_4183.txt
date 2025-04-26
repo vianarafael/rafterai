@@ -1,0 +1,2 @@
+When an incident occurs or a job 
+completes, the messages are sent to the standard messaging service configured in the Director.

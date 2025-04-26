@@ -1,0 +1,12 @@
+For example, if you were to hand the ﬁ le to 
+another user, that user could run gpg2 with the -d option and provide the passphrase for 
+the secret key.
+
+$ gpg2 -d --force-mdc /tmp/backup.tar.gz.gpg > /tmp/backup.tar.gz
+<A pop-up window asks for your passphrase>
+gpg: CAST5 encrypted data
+gpg: encrypted with 1 passphrase
+This is my secret message.
+...
+
+The result is that the original tar ﬁ le is decrypted and copied to /tmp/backup.tar.gz.

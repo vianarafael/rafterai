@@ -1,0 +1,16 @@
+unicast
+
+A unicast communication originates from one computer and is destined for exactly one other
+computer (or host). It is common for computers to have many unicast communications.
+
+21.2.2. multicast
+
+A multicast is destined for a group (of computers).
+
+Some examples of multicast are Realplayer (.sdp files) and ripv2 (a routing protocol).
+
+257
+
+general networking
+
+21.2.3.

@@ -1,0 +1,8 @@
+Or a clone can be created to
+serve in a test environment. Or you might want to make an almost identical server. Let's take
+a look at some offline and online ways to create a clone of a Linux server.
+
+A.2. About offline cloning
+
+The term offline cloning is used when you power off the running Linux server to create the
+clone.

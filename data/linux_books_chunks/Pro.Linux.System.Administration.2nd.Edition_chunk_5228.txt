@@ -1,0 +1,7 @@
+It has allowed us to take certain fields 
+
+in the log message and rename them to clearer labels.
+
+Lastly, if we look at the timestamp in the log message it, it doesn’t get extracted. We are going to make 
+
+sure that the data ends up as a label as well. To do that, we use a function called grok.

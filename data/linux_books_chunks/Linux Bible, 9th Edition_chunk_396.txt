@@ -1,0 +1,6 @@
+The section following that covers the GNOME 2 desktop.
+
+Using the GNOME 3 Desktop
+
+The GNOME 3 desktop offers a radical departure from its GNOME 2.x counterparts. GNOME 2.x 
+is serviceable, but GNOME 3 is elegant.

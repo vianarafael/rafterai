@@ -1,0 +1,2 @@
+By default these hosts will appear with an IP address in the logs unless the hosts 
+are listed in /etc/hosts. This is due to the fact that syslogd cannot use DNS services.

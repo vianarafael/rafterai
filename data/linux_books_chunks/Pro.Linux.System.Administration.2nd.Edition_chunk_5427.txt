@@ -1,0 +1,7 @@
+The Nagios console
+
+Once we have users and passwords created, we can sign on to the console, but we also need to 
+configure what access each user has. This is done by editing a configuration file called cgi.cfg, located in 
+the /etc/nagios directory.
+
+Nagios has two types of users on the console: authenticated users and authenticated contacts.

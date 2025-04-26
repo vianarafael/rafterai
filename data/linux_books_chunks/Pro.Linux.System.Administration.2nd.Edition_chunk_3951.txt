@@ -1,0 +1,16 @@
+We could be stricter in the from= option if we 
+wanted and put in the IP address of the host originating the connection.
+
+644
+
+Chapter 14 ■ BaCkup and reCovery
+
+We also specify that we cannot port forward to other hosts (no-port-forwarding), x11 terminals, or X 
+
+Windows (no-X11-forwarding); we can’t use the ssh agent to forward our keys to other hosts (no-agent-
+forwarding); and we will also fail to get an interactive shell (no-pty).
+
+Deploying to the Remote Host
+
+We are going to set up our remote host with the username and directory, mirroring what we previously 
+did for exbackup.

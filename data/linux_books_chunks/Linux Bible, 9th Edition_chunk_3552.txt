@@ -1,0 +1,6 @@
+Despite the fact that Linux has 
+made huge inroads in the enterprise-quality server market, Microsoft Windows systems 
+are still the predominant systems used on the desktop.
+
+The major features needed to integrate Samba servers into a large enterprise with many 
+Microsoft Windows desktops are related to authentication.

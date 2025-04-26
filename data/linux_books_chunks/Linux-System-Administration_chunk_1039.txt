@@ -1,0 +1,27 @@
+Which ports are used by http, pop3, ssh, telnet, nntp and ftp ?
+
+root@rhel6 ~# grep ^'http ' /etc/services 
+
+277
+
+interface configuration
+
+http       80/tcp          www www-http    # WorldWideWeb HTTP
+http       80/udp          www www-http    # HyperText Transfer Protocol
+root@rhel6 ~# grep ^'smtp ' /etc/services 
+smtp       25/tcp          mail
+smtp       25/udp          mail
+root@rhel6 ~# grep ^'ssh ' /etc/services 
+ssh        22/tcp                     # The Secure Shell (SSH) Protocol
+ssh        22/udp                     # The Secure Shell (SSH) Protocol
+root@rhel6 ~# grep ^'telnet ' /etc/services 
+telnet     23/tcp
+telnet     23/udp
+root@rhel6 ~# grep ^'nntp ' /etc/services 
+nntp       119/tcp         readnews untp   # USENET News Transfer Protocol
+nntp       119/udp         readnews untp   # USENET News Transfer Protocol
+root@rhel6 ~# grep ^'ftp ' /etc/services 
+ftp        21/tcp
+ftp        21/udp          fsp fspd
+
+10.

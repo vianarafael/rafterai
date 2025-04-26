@@ -1,0 +1,4 @@
+This typically happens when you add 
+an entry to the /etc/fstab that has a mistake in it, but you neglected to test it 
+before you rebooted. When the fstab ﬁ le fails, you are dropped to a shell for the 
+root user with the root ﬁ lesystem mounted read-only.

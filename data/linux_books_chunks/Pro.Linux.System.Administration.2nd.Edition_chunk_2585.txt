@@ -1,0 +1,6 @@
+Add the appropriate rules to the correct Netfilter chain for your network layout.
+
+$ sudo /sbin/iptables –t filter –A INPUT -p udp --dport 53 -j ACCEPT
+$ sudo /sbin/iptables –t filter –A INPUT -p tcp --dport 53 -j ACCEPT
+
+ ■ Note  Make sure to configure the firewall on the Dns host to permit outgoing Dns responses, too.

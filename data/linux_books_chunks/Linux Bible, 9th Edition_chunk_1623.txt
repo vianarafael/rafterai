@@ -1,0 +1,10 @@
+It may also be assigned user quotas to 
+limit disk use.
+
+Protecting /tmp from the rest of the hard disk by placing it on a separate partition 
+can ensure that applications that need to write to temporary fi les in /tmp can 
+ complete their processing, even if the rest of the disk fi lls up.
+
+Although people who use Linux systems casually rarely see a need for lots of partitions, 
+those who maintain and occasionally have to recover large systems are thankful when the 
+system they need to ﬁ x has several partitions.

@@ -1,0 +1,25 @@
+To investigate further, review each 
+individual ﬁ le’s times, using the stat filename command, as shown here:
+
+# find /sbin -mtime -1
+/sbin
+/sbin/init
+/sbin/reboot
+/sbin/halt
+# stat /sbin/init
+  File: '/sbin/init' -> '../bin/systemd'
+  Size: 14    Blocks: 0      IO Block: 4096   symbolic link
+Device: fd01h/64769d    Inode: 9551        Links: 1
+Access: (0777/lrwxrwxrwx)
+Uid: (    0/    root)   Gid: (    0/    root)
+Context: system_u:object_r:bin_t:s0
+Access: 2016-02-03 03:34:57.276589176 -0500
+Modify: 2016-02-02 23:40:39.139872288 -0500
+Change: 2016-02-02 23:40:39.140872415 -0500
+ Birth: -
+
+22
+
+You could create a database of all the binary’s original mtimes and ctimes and then run 
+a script to ﬁ nd current mtimes and ctimes, compare them against the database, and note 
+any discrepancies.

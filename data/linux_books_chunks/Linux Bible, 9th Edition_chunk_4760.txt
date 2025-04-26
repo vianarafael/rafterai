@@ -1,0 +1,9 @@
+If it’s not, you can 
+install the service and the associated graphical user interface, and then start the fire-
+walld service as follows:
+
+# yum install firewalld firewall-config
+# systemctl start firewalld.service
+# systemctl enable firewalld.service
+
+To manage the firewalld service, you can start the Firewall Conﬁ guration window.

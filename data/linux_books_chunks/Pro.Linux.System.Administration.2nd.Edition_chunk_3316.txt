@@ -1,0 +1,30 @@
+..)L.
+    0030 - f1 88 eb b8 a1 47 1a 2c-3e 74 2e f0 b5 c1 f5 d2   .....G.,>t......
+    0040 - 97 ec 26 a9 65 c8 e9 b6-92 3a 07 a0 30 56 5f e5   ..&.e....:..0V_.
+    0050 - ad 73 a7 46 42 47 7f a2-82 b8 ed 08 6a da 25 6b   .s.FBG......j.%k
+    0060 - ae 44 a6 c7 b3 b8 e4 f9-8f 73 64 b6 47 01 79 36   .D.......sd.G.y6
+    0070 - 7d 91 3a 26 e7 03 74 5d-4f db 1a d4 28 65 e1 f7   }.:&..t]O...(e..
+
+547
+
+Chapter 12 ■ Mail ServiCeS
+
+    0080 - b8 d0 a5 91 81 96 0a 3a-cd fa a1 f0 97 c7 b5 37   .......:.......7
+    0090 - 0e bd 29 7b 1d 56 ad 91-81 a9 50 6e c4 ee 0f 94   ..){.V....Pn....
+
+    Start Time: 1472046666
+    Timeout   : 300 (sec)
+    Verify return code: 20 (unable to get local issuer certificate)
+---
+250 DSN
+EHLO o.yeah.com
+250-mail.example.com
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+
+In Listing 12-8, we have connected to our e-mail server and issued the EHLO command.

@@ -1,0 +1,7 @@
+Sophisticated 
+networking protocols and applications make it possible for a Linux system to extend its capabilities 
+to network users and computers around the world. The person assigned to manage all of a Linux 
+system’s resources is called the system administrator.
+
+Even if you are the only person using a Linux system, system administration is still set up to be 
+separate from other computer use.

@@ -1,0 +1,9 @@
+The default engine is called XtraDB and is a database compliant with the atomicity, 
+consistency, isolated, durability (ACID) attributes and multiversion concurrency control (MVCC); it is 
+generally a good pick for most application types.
+
+There are several others available too. The main ones that might be of interest to you are listed in 
+
+Table 11-5.
+
+Table 11-5.

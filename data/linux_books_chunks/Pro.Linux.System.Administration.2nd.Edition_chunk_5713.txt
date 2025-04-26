@@ -1,0 +1,6 @@
+Puppet templates use a Ruby 
+template language called EPP (see https://docs.puppet.com/puppet/latest/lang_template_epp.html). 
+It’s a function that happens during compilation on the Puppet master and is simple to use, as you can see in 
+Listing 19-14.
+
+Listing 19-14.

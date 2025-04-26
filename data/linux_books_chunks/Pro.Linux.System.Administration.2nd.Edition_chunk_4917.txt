@@ -1,0 +1,8 @@
+There 
+
+are two ways a carbon-relay can be used, for sharding requests (using consistent hashing) to multiple 
+backends and for replication, sending metrics to any number of different carbon-cache servers or 
+aggregators.
+
+Carbon-aggregators are used to buffer metrics that are destined for the carbon-cache to help reduce 
+I/O.

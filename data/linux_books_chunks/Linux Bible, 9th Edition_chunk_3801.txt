@@ -1,0 +1,8 @@
+For example, if you have Fedora and RHEL on the same computer, and RHEL 
+isn’t working, you can boot to Fedora, mount the RHEL ﬁ lesystems you need, and 
+try to ﬁ x the problem.
+
+21
+
+ ■ To change boot options—On the kernel line, notice that there are lots of options 
+being passed to the kernel.

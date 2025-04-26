@@ -1,0 +1,8 @@
+To see if name-to-address resolution is working, use 
+host and dig.
+
+The following sections cover problems you can encounter with network connectivity for 
+outgoing connections and what tools to use to uncover the problems.
+
+View network interfaces
+To see the status of your network interfaces, use the ip command.

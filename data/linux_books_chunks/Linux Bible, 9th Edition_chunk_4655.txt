@@ -1,0 +1,6 @@
+Here are some recommendations as you get started imple-
+menting SELinux on your system.
+
+You can use the default targeted SELinux mode to secure most basic network services 
+(httpd, vsftpd, Samba, and so on) without needing to assign special user roles or oth-
+erwise lock down your system.

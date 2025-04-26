@@ -1,0 +1,5 @@
+This SSH server or SSH daemon (servers are also called daemons in the Linux world) allows remote 
+connections to be made to the command line or GUI of your host.
+
+You can use SSH via the command line or from one of a number of clients. Via the command line, client 
+connections are made using a command called ssh.

@@ -1,0 +1,9 @@
+The named ﬁ le or directory appears as those shown in this example:
+
+$ ls -ld ch3 test
+-rw-rw-r-- 1 joe sales 4983 Jan 18 22:13 ch3
+drwxr-xr-x 2 joe sales 1024 Jan 24 13:47 test
+
+The ﬁ rst line shows that the ch3 ﬁ le has read and write permission for the owner and the 
+group. All other users have read permission, which means they can view the ﬁ le but cannot 
+change its contents or remove it.

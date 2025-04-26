@@ -1,0 +1,11 @@
+The 
+last option, -subj, allows us to answer the attributes we add to the certificate subject.
+
+ it’s worth reading through the openssl.cnf configuration file to understand what other options are 
+
+ ■ Tip 
+available to you.
+
+You’ll be prompted for a passphrase or password for your CA private key. Choose a good password and 
+
+remember it.

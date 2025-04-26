@@ -1,0 +1,7 @@
+You probably won’t do anything special to set up a proc ﬁ lesystem. However, the
+/proc mount point should be a proc ﬁ lesystem. Many utilities rely on /proc to 
+gain access to Linux kernel information.
+
+ ■ reiserfs—ReiserFS journaled ﬁ lesystem. ReiserFS was once a common default 
+
+ ﬁ lesystem type for several Linux distributions.

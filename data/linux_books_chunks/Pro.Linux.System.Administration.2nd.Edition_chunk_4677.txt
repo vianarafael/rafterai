@@ -1,0 +1,4 @@
+Instead of querying the whole tree, you can specify a base to start 
+from, like ou=people,dc=example,dc=com.
+
+Indicates the scope of the search query.

@@ -1,0 +1,8 @@
+To add that physical volume to a new volume group, use the vgcreate command. 
+The following command shows you how to create a volume group called myvg0 
+using the /dev/sdc6 device:
+
+  # vgcreate myvg0 /dev/sdc6
+    Volume group "myvg0" successfully created
+
+3.

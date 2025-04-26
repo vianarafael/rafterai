@@ -1,0 +1,9 @@
+The problem is not 
+just running out of RAM; it is running out of RAM when only nonswappable data is left.
+
+Keep this general overview of virtual memory (RAM and swap) in mind, as the next section 
+describes ways to go about troubleshooting issues related to virtual memory.
+
+Checking for memory problems
+Let’s say that you are logged into a Linux desktop, with lots of applications running, and 
+everything begins to slow down.

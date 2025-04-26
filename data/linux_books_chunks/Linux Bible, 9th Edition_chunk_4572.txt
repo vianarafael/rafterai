@@ -1,0 +1,22 @@
+Thus, the permissive mode set in the example that follows is temporary 
+because the enforcing mode is set via the conﬁ guration ﬁ le when the system is rebooted.
+
+# setenforce 0
+# getenforce
+
+680
+
+c24.indd  04/15/2015  Page 681
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+Permissive
+# sestatus
+SELinux status:                 enabled
+SELinuxfs mount:                /sys/fs/selinux
+Loaded policy name:             targeted
+Current mode:                   permissive
+Mode from config file:          enforcing
+...
+
+It is best to switch from the disabled to the enforcing mode by modifying the confi guration fi le and rebooting.

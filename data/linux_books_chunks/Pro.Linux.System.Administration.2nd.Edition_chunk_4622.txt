@@ -1,0 +1,7 @@
+The stop option just immediately stops any 
+further processing and is the default control. Listing 16-3 shows our complete access control list.
+
+ The listing of olcAccess: directives you see in Listing 16-3 are separated onto different lines only 
+
+ ■ Note 
+for clarity of this documentation.

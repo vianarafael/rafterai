@@ -1,0 +1,8 @@
+.rpm based distributions
+
+To see the version of samba installed on Red Hat, Fedora or CentOS use rpm -q samba.
+
+[root@RHEL52 ~]# rpm -q samba
+samba-3.0.28-1.el5_2.1
+
+The screenshot above shows that RHEL5 has Samba version 3.0 installed.

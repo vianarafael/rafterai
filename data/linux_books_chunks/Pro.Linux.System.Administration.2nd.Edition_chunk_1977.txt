@@ -1,0 +1,9 @@
+Removing the terminator application
+
+If we click the Installed view we get a list of all our installed packages (see Figure 8-34).
+
+340
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-34.

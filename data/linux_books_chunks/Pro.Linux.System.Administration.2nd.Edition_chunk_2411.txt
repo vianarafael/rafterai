@@ -1,0 +1,44 @@
+Check the mdadm 
+manual page for more information.
+
+Summary
+In this chapter, you learned how to manage storage on Linux and how you can most securely and flexibly 
+store your data by making use of RAID and LVM.
+
+•	 We explored the different filesystems that come with Ubuntu and CentOS
+
+•	 We looked at ext4, XFS
+
+•	 We saw how to create Btrfs RAID volumes and subvolumes
+
+•	 We looked at mounting and auto mounting partitions
+
+•	 We learned how to set up software RAID
+
+•	 We looked at LVM, and resized volumes and filesystems.
+
+•	
+
+In case of disk failure, you now know how to remove components from and add 
+components to a RAID array
+
+•	 Now you can repair basic filesystem errors.
+
+In Chapter 10, we will show you how set up infrastructure services such as an SSH server, discuss how 
+to manage the time on your hosts using NTP (Network Time Protocol), and introduce DNS (Domain Name 
+System) and DHCP (Dynamic Host Configuration Protocol).
+
+413
+
+PART II
+
+Making Linux Work for You
+
+CHAPTER 10
+
+Infrastructure Services: NTP,  
+DNS, DHCP, and SSH
+
+By Peter Lieverdink and Dennis Matotek
+
+In the previous chapters, you installed your host and got to know your way around it.

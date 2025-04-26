@@ -1,0 +1,6 @@
+The DHCP server will then contact the DNS server when it issues a new lease and update the associated A 
+and PTR entries, if required.
+
+Configuring DNS
+
+On Ubuntu, we start by generating the key, and for this we will use the ddns-confgen tool.

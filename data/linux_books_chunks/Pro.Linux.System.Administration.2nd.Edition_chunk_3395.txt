@@ -1,0 +1,6 @@
+Postfix lookup tables are used to store information 
+concerning access, routing, rewriting, and filtering content. Lookup tables can be text file–based databases, 
+LDAP databases, or SEQUEL databases. We are going to look at two examples of lookup tables: aliases and 
+virtual alias domains.
+
+Earlier we talked about the newaliases command.

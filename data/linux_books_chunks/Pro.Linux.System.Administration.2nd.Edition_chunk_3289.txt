@@ -1,0 +1,7 @@
+You can also use MDas to generate out-of-office notices, 
+forward particular e-mails to others, and perform a variety of other tasks.
+
+You can also call other applications from some MDas. For example, some people don’t run spam filters 
+in their Mta, instead running a spam filter with their MDa.
+
+in this chapter we are going to be using Dovecot to deliver mail from the Mta to the user’s mailboxes.

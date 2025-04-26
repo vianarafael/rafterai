@@ -1,0 +1,21 @@
+To create an ext4 ﬁ lesystem 
+on the ﬁ rst partition of the third hard disk, type the following:
+
+# mkfs -t ext4 /dev/sdc1
+
+290
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 291
+
+Chapter 12: Managing Disks and Filesystems
+
+You can use other commands, or options to this command, to create other fi lesystem types.

@@ -1,0 +1,9 @@
+To run the gedit process and use the kill command to send a signal to pause 
+
+(stop) that process, type the following:
+
+$ gedit &
+[1] 21532
+$ kill -SIGSTOP 21578
+
+7.

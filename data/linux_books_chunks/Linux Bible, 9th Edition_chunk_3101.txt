@@ -1,0 +1,4 @@
+This man page shows you the proper ﬁ le contexts and available Booleans.
+
+ ■ Use standard locations for files. When you create new ﬁ les, those ﬁ les inherit the 
+ﬁ le contexts of the directories they are in.

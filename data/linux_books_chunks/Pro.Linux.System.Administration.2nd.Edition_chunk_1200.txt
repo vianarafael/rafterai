@@ -1,0 +1,11 @@
+This script executes, under the hood, 
+the older SysV init.d manager, in this case on Ubuntu, update-rc.d. On CentOS this would be the chkconfig 
+command.
+
+Let’s quickly go through those commands so that you are also familiar with what is happening under 
+
+these circumstances.
+
+Update-rc.d—Managing Ubuntu SysV init.d
+
+Managing SysV init.d services onUbuntu is done via the update-rc.d command.

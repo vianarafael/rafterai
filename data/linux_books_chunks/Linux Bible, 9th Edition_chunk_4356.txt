@@ -1,0 +1,8 @@
+There are man pages available as 
+well as info gnupg.
+
+Keep in mind that this list just covers the more popular tools. Also, remember that many of 
+these ﬁ le cryptography tools can be used for more than just ﬁ le cryptography.
+
+Encrypting Linux with miscellaneous tools
+You can apply cryptology to just about everything in Linux.

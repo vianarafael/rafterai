@@ -1,0 +1,5 @@
+Topics in that chapter include information on how to install, manage, and secure servers.
+
+Exercises
+Use these exercises to test your knowledge of creating disk partitions, logical volume 
+ management, and working with ﬁ lesystems.

@@ -1,0 +1,6 @@
+Here 
+is how you would conﬁ gure the Linux loghost that is also running the rsyslog service:
+
+ ■ Edit the /etc/rsyslog.conf ﬁ le on the loghost system and uncomment the lines 
+
+that enable the rsyslogd daemon to listen for remote log messages.

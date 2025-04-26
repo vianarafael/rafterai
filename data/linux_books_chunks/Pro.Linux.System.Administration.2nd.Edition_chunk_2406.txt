@@ -1,0 +1,13 @@
+All that’s left 
+for us to do is remove the failed disk from the array and then replace it.
+
+First, we’ll invoke mdadm to remove the failed disk from the RAID array.
+
+$ sudo mdadm --manage /dev/md127 --remove /dev/sdd1
+mdadm: hot removed /dev/sdd1
+
+412
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+The next step depends on your hard disk controller.

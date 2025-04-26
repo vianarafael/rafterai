@@ -1,0 +1,13 @@
+Any runlevel event is handled by the rc task.
+
+390
+
+c15.indd  04/01/2015  Page 391
+
+Chapter 15: Starting and Stopping Services
+
+$ initctl status rc
+rc stop/waiting
+
+The rc task job’s conﬁ guration ﬁ le is shown next. When a runlevel event is emitted, the rc 
+conﬁ guration ﬁ le calls the /etc/rc.d/rc script.

@@ -1,0 +1,4 @@
+The former contains code that instructs the compiler about available functions and libraries,  
+and the latter contains the commands needed to build the software by the make command. The make 
+command reads the Makefile and executes the commands and the ordered steps contained in there  
+(see http://www.tutorialspoint.com/makefile/why_makefile.htm for more information on make).

@@ -1,0 +1,7 @@
+system profile
+
+Both the bash and the ksh shell will verify the existence of /etc/profile and source it if it
+exists.
+
+When reading this script, you will notice (both on Debian and on Red Hat Enterprise Linux)
+that it builds the PATH environment variable (among others).

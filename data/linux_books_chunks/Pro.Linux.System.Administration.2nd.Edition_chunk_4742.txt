@@ -1,0 +1,10 @@
+Alternatively, we 
+could run it on a completely different host.
+
+781
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+On our Ubuntu host, we will have the following configuration: the main sections of this virtual host have 
+been provided by the LAM package and can be found in /etc/ldap-account-manager/apache.conf. We are 
+going to include this file in our VirtualHost information.

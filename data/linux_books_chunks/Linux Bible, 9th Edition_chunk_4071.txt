@@ -1,0 +1,6 @@
+Instead, this ﬁ eld shows the account’s expiration date as the number of days since January 
+1, 1970.
+
+You can use a two-step process to ﬁ nd expired accounts in the /etc/shadow ﬁ le automati-
+cally. First, set up a shell variable (see Chapter 7) with today’s date in “days since January 
+1, 1970” format.

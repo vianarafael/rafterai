@@ -1,0 +1,36 @@
+200
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 201
+
+ C H A P T E R 
+
+9
+
+Installing Linux
+
+IN THIS CHAPTER
+
+Choosing an installation method
+
+Installing a single- or multi-boot system
+
+Performing a Live media installation of Fedora
+
+Installing Red Hat Enterprise Linux
+
+Understanding cloud-based installations
+
+Partitioning the disk for installation
+
+Understanding the GRUB boot loader
+
+I nstalling Linux has become a fairly easy thing to do—if you are starting with a computer that is 
+
+up to spec (hard disk, RAM, CPU, and so on) and you don’t mind totally erasing your hard drive.

@@ -1,0 +1,9 @@
+usually closes the connection.)
+
+$ exit
+logout
+Connection to 10.140.67.23 closed.
+
+After you have remotely connected to a system, a ﬁ le in your local system subdirectory, 
+~.ssh/known_hosts, will exist. This ﬁ le contains the public key of the remote host 
+along with its IP address.

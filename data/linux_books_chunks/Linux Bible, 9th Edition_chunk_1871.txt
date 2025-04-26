@@ -1,0 +1,7 @@
+Other times, you might ﬁ nd it more convenient to add lots of users at once with a 
+shell script or change user account features that are not available from the Users window. 
+For those cases, commands are available to enable you to add and modify user accounts 
+from the command line.
+
+The most straightforward method for creating a new user from the shell is the useradd 
+command.

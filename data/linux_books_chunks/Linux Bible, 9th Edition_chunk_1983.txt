@@ -1,0 +1,5 @@
+Normally, when a user runs a command, that command runs with that user’s 
+permissions. In other words, if I run the vi command as chris, that instance of the vi command would 
+have the permissions to read and write fi les that the user chris could read and write.
+
+Commands with the set UID or set GID bits set are different.

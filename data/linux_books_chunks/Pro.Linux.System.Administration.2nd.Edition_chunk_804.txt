@@ -1,0 +1,11 @@
+On CentOS and Ubuntu, the GUI tool to manage 
+user accounts is accessed in the Settings panel launched by selecting Applications ➤ System Tools ➤ 
+Settings (see Figure 5-1).
+
+157
+
+Chapter 5 ■ Users and GroUps
+
+Figure 5-1.  Accessing users from the system settings
+
+You can change users in using this settings panel.

@@ -1,0 +1,14 @@
+Therefore, instead of starting at 
+the top of Figure 2-3 we are going to start at the Installation Destination, then configure the network before we 
+move on to the other steps.
+
+As noted, instead of starting at the top of the list and working progressively down, we are going to start 
+
+at the bottom and work our way up! Let’s start with selecting Installation Destination first to set up where we 
+are going to install our operating system.
+
+16
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+ ■ Caution  The next few steps can be dangerous.

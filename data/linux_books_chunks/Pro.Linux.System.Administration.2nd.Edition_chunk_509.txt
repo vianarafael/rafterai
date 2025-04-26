@@ -1,0 +1,15 @@
+The ps Command
+
+$ ps -A
+  PID TTY          TIME CMD
+    1 ?        00:00:00 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 ksoftirqd/0
+    4 ?        00:00:00 kworker/0:0
+    5 ?        00:00:00 kworker/0:0H
+    6 ?        00:00:00 kworker/u4:0
+...<snip>...
+    445 ?    00:00:00 crond
+    1571 ?  00:00:00 sshd
+
+In Listing 4-4, you can see a truncated list of the processes running on our host.

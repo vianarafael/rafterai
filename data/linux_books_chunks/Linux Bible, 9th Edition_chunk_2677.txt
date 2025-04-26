@@ -1,0 +1,10 @@
+Originally, this 
+ runlevel was used to start dumb terminal devices so users could 
+log in (but no network services were started).
+
+Extended 
+Multiuser 
+Mode
+
+Users can log in to the server, but only the command line 
+ interface is available. Network interfaces and services are started.

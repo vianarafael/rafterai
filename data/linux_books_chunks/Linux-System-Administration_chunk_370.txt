@@ -1,0 +1,17 @@
+Verify your work with fdisk and df.
+
+mkfs (mke2fs) makes no difference in the output of these commands
+
+The big change is in the next topic: mounting
+
+7. Perform a file system check on all the new file systems.
+
+fsck /dev/sdb1
+fsck /dev/sdc1
+fsck /dev/sdb5
+
+65
+
+Chapter 7. mounting
+
+Once  you've  put  a  file  system  on  a  partition,  you  can  mount  it.

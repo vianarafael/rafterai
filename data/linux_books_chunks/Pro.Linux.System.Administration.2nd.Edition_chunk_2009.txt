@@ -1,0 +1,4 @@
+Installing 
+anyway might lead to an “unresolvable dependency” that can put your package system into an inconsistent 
+state, where a package is partially installed and prevents further package management until the problem is 
+solved. dpkg will warn you and not let you do this without forcing it to.

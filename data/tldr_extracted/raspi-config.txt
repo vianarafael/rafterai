@@ -1,0 +1,6 @@
+# raspi-config
+
+
+- Start `raspi-config`:
+
+`sudo raspi-config`

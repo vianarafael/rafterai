@@ -1,0 +1,7 @@
+the next line shows a typical line from the 
+shadow file:
+
+root:$6$RwETwzjv$ifht......7L/HiLCPR8Zc935fd0:13675:0:99999:7:::
+
+You can also break down the shadow file into components, and like the passwd file, colons separate 
+each component.

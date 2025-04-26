@@ -1,0 +1,22 @@
+We are going to show you how to set up GlusterFS, 
+
+but you could also choose from several alternatives depending on your workload or preference.
+
+•	
+
+•	
+
+CephFS: http://ceph.com/
+
+BeeGFS (formerly FhGFS): www.beegfs.com/content/
+
+•	 Hadoop (HDFS): http://hadoop.apache.org/
+
+616
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+For a straight filesystem to share files across many servers, you probably wouldn’t want Hadoop HDFS 
+
+as it is more suited to the Hadoop map-reduce workloads and requires you to use the Hadoop API for 
+filesystem access.

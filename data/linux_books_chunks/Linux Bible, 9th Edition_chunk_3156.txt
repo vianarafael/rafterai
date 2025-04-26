@@ -1,0 +1,17 @@
+In Fedora or RHEL, create a ﬁ le named /etc/httpd/conf.d/example.org.
+
+conf using this template:
+
+NameVirtualHost *:80
+<VirtualHost *:80>
+    ServerAdmin     webmaster@example.org
+    ServerName      www.example.org
+    ServerAlias     web.example.org
+    DocumentRoot    /var/www/html/example.org/
+DirectoryIndex  index.php index.html index.htm
+</VirtualHost>
+
+This example includes the following settings:
+
+ ■ The NameVirtualHost line tells Apache to determine which virtual host to 
+serve documents from based on the hostname provided by the HTTP client.

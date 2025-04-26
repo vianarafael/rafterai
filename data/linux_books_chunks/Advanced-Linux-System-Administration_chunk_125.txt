@@ -1,0 +1,26 @@
+Read-write access to 
+the root filesystem is achieved with the following
+
+mount /proc
+
+mount -o remount,rw /
+
+23
+
+  
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+Errors at the end of the kernel stage
+
+•
+
+ If the kernel can't mount the root filesystem it will print the following message:
+
+Kernel panic: VFS: Unable to mount root fs on 03:05
+
+The number 03 is the major number for the first IDE controller, and 05 is the 5th partition 
+on the disk.

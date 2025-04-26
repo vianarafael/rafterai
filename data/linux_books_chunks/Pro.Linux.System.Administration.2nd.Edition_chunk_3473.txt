@@ -1,0 +1,6 @@
+This means a legitimate e-mail can be marked as 
+spam. If you delete your spam, you’ve lost this e-mail. Storing it in a folder for a period of time allows you to 
+potentially find and retrieve these false positives.
+
+We’re going to use the first method and move our spam e-mail into a special folder in our Maildir 
+directory for later review.

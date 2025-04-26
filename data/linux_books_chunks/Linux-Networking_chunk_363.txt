@@ -1,0 +1,10 @@
+client configuration
+
+We have seen the mount command and the /etc/fstab file before.
+
+root@RHELv4u2:~# mount -t nfs barry:/mnt/data/iso /home/project55/
+root@RHELv4u2:~# cat /etc/fstab | grep nfs
+barry:/mnt/data/iso   /home/iso               nfs     defaults    0 0
+root@RHELv4u2:~# 
+
+Here is another simple example.

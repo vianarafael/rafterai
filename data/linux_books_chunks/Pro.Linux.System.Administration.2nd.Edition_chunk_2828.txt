@@ -1,0 +1,6 @@
+Because some older browsers can’t support SNI, you can still see IP-based virtual hosting 
+where it makes sense to do so.
+
+Name-based virtual hosting causes Apache to serve a web page for a specific directory based on the 
+name of the site a remote user connected to. Any number of name-based virtual hosts can share a single IP 
+address.

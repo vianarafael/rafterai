@@ -1,0 +1,7 @@
+Depending on your BIOS, you can change different settings, but we will leave that to you to investigate at 
+your leisure.
+
+The BIOS will also poll other hardware such as hard drive controllers and initiate their onboard chips. 
+
+Depending on your hardware, you may see the BIOS screen followed by information about devices the 
+controller has found.

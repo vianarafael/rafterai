@@ -1,0 +1,6 @@
+That’s because they are LVM logical 
+volumes that are assigned space from a pool of space called an LVM volume group (more on 
+LVM in the section “Using Logical Volume Management Partitions” later in this chapter).
+
+The /boot partition is on its own physical partition, /dev/sda1. Instead of /dev/sda1, 
+however, a unique identiﬁ er (UUID) identiﬁ es the device.

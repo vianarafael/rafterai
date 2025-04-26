@@ -1,0 +1,6 @@
+The systemctl 
+tool is the utility tool used to manage systemd. The Alias option here points to the kbrequest.target which 
+is a special systemd unit that is started whenever the Alt+ArrowUp is pressed on the console. Take a look at 
+Figure 6-7 to see how that works.
+
+Figure 6-7.

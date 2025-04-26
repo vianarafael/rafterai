@@ -1,0 +1,11 @@
+Opening a shell on the root partition
+
+This asks us a few questions and tells us what it is doing (see Figure 9-12).
+
+408
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-12.  Mount /boot?
+
+Like it says, your separate boot partition may be corrupt and you may not want to mount it at this time.

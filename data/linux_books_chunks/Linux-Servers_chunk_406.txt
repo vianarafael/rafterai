@@ -1,0 +1,5 @@
+example: split-horizon dns
+
+Suppose  you  want  to  answer  dns  queries  depending  on  who  is  asking.  For  example
+when  someone  from  the  10.104.15.0/24  network  (managed  by  Jesse)  asks  for  the  A
+record www.paul.local, then dns answers with 10.104.33.30.

@@ -1,0 +1,6 @@
+This 
+will not work however if the process you are monitoring contains the string grep. 
+
+ps aux | grep smbd | grep -v grep
+
+5.

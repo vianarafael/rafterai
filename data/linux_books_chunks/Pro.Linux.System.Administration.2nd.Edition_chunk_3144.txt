@@ -1,0 +1,13 @@
+By subdividing the 
+cache, the number of inodes that need to be searched for any given file is much smaller, resulting in less 
+performance degradation as the cache grows.
+
+521
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Since disk space is generally cheaper than bandwidth, we’ll allow our cache to grow bigger.
+
+cache_dir ufs /var/spool/squid 2000 16 256
+
+We save the configuration file and start Squid.

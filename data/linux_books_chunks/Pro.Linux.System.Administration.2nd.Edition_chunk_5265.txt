@@ -1,0 +1,9 @@
+It comes with 
+a simple web console that gives you a visual view of the state of your hosts and services. You can see an 
+example console screen in Figure 18-8.
+
+Figure 18-8.  An example console
+
+We’re going to introduce you to Nagios-Core and how to use it to monitor your hosts and services. 
+
+Nagios-Core is an open source version of Nagios that has been around for many years.

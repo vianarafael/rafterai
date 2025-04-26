@@ -1,0 +1,3 @@
+It also has the capability to act as a 
+virtual tape library (VTL), which software like Bareos can use to back up to. The AWS Storage Gateway will 
+then sync the data to AWS storage while maintaining a local cache.

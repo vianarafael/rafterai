@@ -1,0 +1,6 @@
+{
+    group "static" {
+    }
+}
+
+Next, you add a host definition. Each host is defined in a block of its own, within your group definition.

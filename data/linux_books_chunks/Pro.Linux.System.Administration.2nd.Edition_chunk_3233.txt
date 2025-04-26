@@ -1,0 +1,3 @@
+Trusted SMTP clients are allowed 
+to relay (send e-mail to other e-mail servers) through our e-mail server. In our case, we only care about 
+the 192.168.0.0/24 and 192.168.1.0/24 ranges, which are our local wired and wireless network ranges.

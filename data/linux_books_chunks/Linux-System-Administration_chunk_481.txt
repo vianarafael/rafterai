@@ -1,0 +1,19 @@
+First, take a look at these disks.
+
+[root@RHEL5 ~]# fdisk -l | grep sd[bc]
+Disk /dev/sdb doesn't contain a valid partition table
+Disk /dev/sdc doesn't contain a valid partition table
+Disk /dev/sdb: 1181 MB, 1181115904 bytes
+Disk /dev/sdc: 429 MB, 429496320 bytes
+
+You already know how to partition a disk, below the first disk is partitioned (in one big
+primary partition), the second disk is left untouched.
+
+[root@RHEL5 ~]# fdisk -l | grep sd[bc]
+Disk /dev/sdc doesn't contain a valid partition table
+Disk /dev/sdb: 1181 MB, 1181115904 bytes
+/dev/sdb1               1         143     1148616   83  Linux
+Disk /dev/sdc: 429 MB, 429496320 bytes
+
+You also know how to prepare disks for lvm with pvcreate, and how to create a volume
+group with vgcreate.

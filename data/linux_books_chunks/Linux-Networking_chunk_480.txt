@@ -1,0 +1,6 @@
+client proxy settings
+
+To enable a proxy server in Firefox or Iceweasel go to Edit Preferences and configure as
+shown in this screenshot (replace 192.168.1.60 with the ip address of your proxy server).
+
+Test that your internet works with the proxy enabled.

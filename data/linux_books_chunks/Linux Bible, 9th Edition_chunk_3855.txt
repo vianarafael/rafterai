@@ -1,0 +1,4 @@
+To enter interactive startup mode 
+in RHEL, reboot and interrupt the boot loader (press any key when you see the 5 second 
+countdown). Highlight the entry you want to boot, and type e. Highlight the kernel line, 
+and type e.

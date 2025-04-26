@@ -1,0 +1,3 @@
+The bind9 server must be on the same server as the Samba AD server as it requires access 
+to certain directories. Because we are using an Ubuntu server, we need to make some changes to Apparmor that 
+will allow the bind9 service to access Samba directories.

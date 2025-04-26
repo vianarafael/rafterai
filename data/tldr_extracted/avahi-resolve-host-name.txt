@@ -1,0 +1,6 @@
+# avahi-resolve-host-name
+
+
+- View documentation for the original command:
+
+`tldr avahi-resolve`

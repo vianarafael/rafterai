@@ -1,0 +1,8 @@
+For instance, to check how likely your host is to use swap memory, you can check the contents of /
+proc/sys/vm/swappiness.
+
+$ cat /proc/sys/vm/swappiness
+30
+
+This particular value is an indication of how likely the kernel is to move information from RAM into 
+swap space after it hasn’t been used for a while. The higher the number, the more likely this is.

@@ -1,0 +1,4 @@
+In this case, the boot loader cannot be started, and you’ll see strange errors on the screen, as we 
+showed you in Chapter 6.
+
+Repairing the boot loader is fairly simple with the Rescue mode on the installation media.

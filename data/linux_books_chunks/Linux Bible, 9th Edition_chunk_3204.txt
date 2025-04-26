@@ -1,0 +1,6 @@
+Open https://localhost from a local browser again, repeat the procedure to 
+
+review, and accept the new certiﬁ cate.
+
+For internal use or testing, a self-signed certiﬁ cate might work for you. However, for public 
+websites, you should use a certiﬁ cate that is validated by a certiﬁ cate authority (CA).

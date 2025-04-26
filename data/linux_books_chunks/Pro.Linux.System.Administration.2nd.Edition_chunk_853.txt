@@ -1,0 +1,9 @@
+If the password field is prefixed with !!, then a password has never 
+been set and the user cannot log in to the host. the remaining entries refer to password aging, and we 
+cover those in the section “password aging.”
+
+Storing Group Data
+On Linux hosts, information about groups is stored in the /etc/groups file. Listing 5-13 shows a sample from 
+this file.
+
+Listing 5-13.

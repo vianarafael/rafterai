@@ -1,0 +1,18 @@
+Depending upon the distribution you have, it may be 
+supported as a read-only ﬁ lesystem (so that you can mount and copy ﬁ les from it).
+
+12
+
+ ■ affs—Filesystem used with Amiga computers.
+
+ ■ ufs—Filesystem popular on Sun Microsystems’ operating systems (that is, Solaris 
+
+and SunOS).
+
+ ■ jfs—A 64-bit journaling ﬁ lesystem by IBM that is relatively lightweight for the 
+
+many features it has.
+
+ ■ xfs—A high performance ﬁ lesystem originally developed by Silicon Graphics that 
+
+works extremely well with large ﬁ les.

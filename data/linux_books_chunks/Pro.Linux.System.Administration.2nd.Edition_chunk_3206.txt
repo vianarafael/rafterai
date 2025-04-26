@@ -1,0 +1,5 @@
+These 
+files are called main.cf and master.cf. The main.cf file contains a subset of the major configuration options 
+you can use to customize Postfix. You can add any additional options you need to configure Postfix to this 
+file. The master.cf file controls how clients connect to your server and how the services that make up the 
+server are configured.

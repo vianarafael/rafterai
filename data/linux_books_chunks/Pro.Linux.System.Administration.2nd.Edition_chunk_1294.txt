@@ -1,0 +1,9 @@
+To display the IP address information of all the interfaces on a host, we use this command:
+
+$ ip address show
+
+Running the ip command with the address show option displays all interfaces on your host and their 
+
+current status and configuration. We could also use the shortened alias ip addr show.
+
+The foregoing will list all the host interfaces and their addresses.

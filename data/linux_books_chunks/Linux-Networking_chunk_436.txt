@@ -1,0 +1,8 @@
+testing the three websites
+
+Testing the model train club named Choo Choo on port 7000.
+
+[root@CentOS65 ~]# wget 127.0.0.1:7000
+--2014-05-11 11:59:36--  http://127.0.0.1:7000/
+Connecting to 127.0.0.1:7000... connected.
+HTTP request sent, awaiting response...

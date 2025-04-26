@@ -1,0 +1,10 @@
+First, add 
+
+the smtpd_sender_restrictions options to main.cf like so:
+
+$ sudo postconf –e 'smtpd_sender_restrictions = reject_non_fqdn_sender, reject_unknown_
+sender_domain'
+
+The reject_non_fqdn_sender option rejects e-mails where the sender mailing address is not in the 
+
+proper format.

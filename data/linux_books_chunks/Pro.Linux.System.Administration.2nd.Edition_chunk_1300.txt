@@ -1,0 +1,7 @@
+Finally qlen is the Ethernet buffer transmit queue length and it can be 
+referred as the speed of your network card, 1,000 mbits in this case.
+
+The output also shows three important pieces of information, the ipv4 address, the ipv6, address and 
+
+the MAC (Media Access Control) address of this host. It has an IP address assigned to it, inet 192.168.0.1, 
+and we explain that shortly.

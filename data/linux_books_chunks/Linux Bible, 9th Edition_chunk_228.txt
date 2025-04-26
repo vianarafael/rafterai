@@ -1,0 +1,7 @@
+Because everyone could see 
+the code being produced for the project, poorly written code could be corrected quickly or 
+replaced over time.
+
+If you are familiar with UNIX, try searching the thousands of GNU software packages for 
+your favorite UNIX command from the Free Software Directory (http://directory.
+fsf.org/wiki/GNU).

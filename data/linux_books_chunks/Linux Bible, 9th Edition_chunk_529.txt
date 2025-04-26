@@ -1,0 +1,11 @@
+(If the selection is not available, install 
+the compiz package.)
+
+Enabling Compiz does the following:
+
+ ■ Starts Compiz—Stops the current window manager and starts the Compiz 
+
+window manager.
+
+ ■ Enables the Windows Wobble When Moved effect—With this effect on, when you 
+grab the title bar of the window to move it, the window wobbles as it moves.

@@ -1,0 +1,14 @@
+The four classes 
+
+are digits, uppercase letters, lowercase letters, and other characters.
+
+ ■ maxrepeat=N
+
+ ■ Default = 0
+
+ ■ Reject passwords that contain more than N same consecutive characters.
+
+ ■ reject_username
+
+Check whether the name of the user in straight or reversed form is contained in the 
+new password.

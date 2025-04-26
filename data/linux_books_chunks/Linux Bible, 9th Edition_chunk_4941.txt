@@ -1,0 +1,11 @@
+Uncheck the box if you want to 
+keep the storage associated with the VM.
+
+26
+
+Now that you are comfortable using your virtual machines, you can try migrating a VM to 
+another hypervisor.
+
+Migrating virtual machines
+Being able to migrate your virtual machines between different hypervisors gives you 
+tremendous ﬂ exibility in managing your computer workloads.

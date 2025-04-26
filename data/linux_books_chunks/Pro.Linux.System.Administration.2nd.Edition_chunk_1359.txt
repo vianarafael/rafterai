@@ -1,0 +1,8 @@
+Other scripts can 
+
+source (or include) the functions and variables from network-functions and use them in their scripts. 
+Let’s take a look at the configuration file for enp0s3, which is called ifcfg-enp0s3. You can see the 
+
+contents of this file in Listing 7-4.
+
+Listing 7-4.

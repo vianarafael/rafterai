@@ -1,0 +1,5 @@
+If the ping succeeds and you can reach the router, the next step is to try an address beyond 
+your router.
+
+Try to ping a widely accessible IP address. For example, the IP address for the Google public 
+DNS server is 8.8.8.8. Try to ping that (ping -c2 8.8.8.8).

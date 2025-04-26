@@ -1,0 +1,4 @@
+Combined with resources like GitLab, GitHub, or BitBucket it is an 
+empowering way to manage change in your organization in an open and collaborative way. With Git, your 
+configuration changes can be compared to the current configuration, and you can give other administrators 
+the ability to agree to those changes.

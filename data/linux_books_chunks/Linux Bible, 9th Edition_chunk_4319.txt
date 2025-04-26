@@ -1,0 +1,21 @@
+The digital signature of the ﬁ le is checked 
+and found to be valid.
+
+$ gpg2 --decrypt JohnDoe.DS
+I am the real John Doe!
+gpg: Signature made Mon 27 Feb 2016 09:42:36 AM EST
+ using RSA key ID 3B2E46D5
+gpg: Good signature from "John Doe (The User) <jdoe@example.com>"
+...
+
+638
+
+c23.indd  04/01/2015  Page 639
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Without johndoe’s public key on her key ring, jill would not be able to decrypt this 
+ message and check the digital signature.
+
+The previous example of digitally signing a document allows anyone with the public key the ability to decrypt the doc-
+ument.

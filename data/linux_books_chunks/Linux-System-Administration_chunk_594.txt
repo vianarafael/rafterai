@@ -1,0 +1,18 @@
+[OK]
+/iscsi/iqn.20...x:target/tpg1> cd luns
+/iscsi/iqn.20...get/tpg1/luns> create /backstores/block/target.disk1
+Created LUN 0.
+Created LUN 0->0 mapping in node ACL iqn.2015-04.be.linux:initiator
+/iscsi/iqn.20...get/tpg1/luns> create /backstores/block/target.disk2
+Created LUN 1.
+Created LUN 1->1 mapping in node ACL iqn.2015-04.be.linux:initiator
+/iscsi/iqn.20...get/tpg1/luns> create /backstores/block/target.disk3
+Created LUN 2.
+Created LUN 2->2 mapping in node ACL iqn.2015-04.be.linux:initiator
+s/scsi/iqn.20...get/tpg1/luns> cd /iscsi/iqn.2015-04.be.linux:target/tpg1/portals
+/iscsi/iqn.20.../tpg1/portals> create 192.168.1.143
+Using default IP port 3260
+Could not create NetworkPortal in configFS.
+/iscsi/iqn.20.../tpg1/portals> cd /
+/> ls
+o- / .....................................................................

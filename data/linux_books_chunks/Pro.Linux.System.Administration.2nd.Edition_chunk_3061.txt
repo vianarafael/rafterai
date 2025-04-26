@@ -1,0 +1,3 @@
+First, you create a directory to hold your CA and some subdirectories 
+inside that directory. CentOS stores all OpenSSL files in the /etc/pki directory. Ubuntu uses /etc/ssl. 
+In this example, we’re going to put our CA in the /etc/pki directory on our CentOS host.

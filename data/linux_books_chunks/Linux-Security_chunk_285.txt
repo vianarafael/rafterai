@@ -1,0 +1,15 @@
+Change the ownership of all files in ~/permissions to yourself.
+
+6. Make sure you have all rights to these files, and others can only read.
+
+7. With chmod, is 770 the same as rwxrwx--- ?
+
+8. With chmod, is 664 the same as r-xr-xr-- ?
+
+9. With chmod, is 400 the same as r-------- ?
+
+10. With chmod, is 734 the same as rwxr-xr-- ?
+
+11a. Display the umask in octal and in symbolic form.
+
+11b.

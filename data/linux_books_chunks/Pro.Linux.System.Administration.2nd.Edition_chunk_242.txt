@@ -1,0 +1,6 @@
+alternatives to 
+this include repartitioning your host using a tool like gparted from one of the LiveCD installations, installing on a 
+hard disk that doesn’t already have data on it, or installing on a virtual machine.
+
+The next screen (see Figure 2-56) lets you confirm that you wish to write the partition information to the 
+selected disk.

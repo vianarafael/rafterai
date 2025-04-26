@@ -1,0 +1,5 @@
+nmap 
+reports six possible port states:
+
+ ■ open—This is the most dangerous state an nmap scan can report for a port. An 
+open port indicates that a server has a service handling requests on this port.

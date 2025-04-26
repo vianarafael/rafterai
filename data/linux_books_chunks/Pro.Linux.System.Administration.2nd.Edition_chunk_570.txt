@@ -1,0 +1,17 @@
+The combination of the read and 
+execute permissions set on a directory thus allows you to both traverse the directory and view the details of 
+its contents.
+
+Each file on your host has three classes of permissions:
+
+•	 User
+
+•	 Group
+
+•	 Other (everyone else)
+
+123
+
+ChapTeR 4 ■ LInux BasICs
+
+Each class represents a different category of access to the file.

@@ -1,0 +1,5 @@
+Zone File Header for the example.com Domain
+
+$ORIGIN example.com.
+$TTL 86400
+@   IN    SOA    example.com.    root.example.com.

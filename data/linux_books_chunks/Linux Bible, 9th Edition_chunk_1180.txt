@@ -1,0 +1,11 @@
+The last command gets a random number between 0 and 10 and echoes the 
+results back to you.
+
+BIGNUM=1024
+let RESULT=$BIGNUM/16
+RESULT=`expr $BIGNUM / 16`
+RESULT=`echo "$BIGNUM / 16" | bc`
+let foo=$RANDOM; echo $foo
+
+Another way to incrementally grow a variable is to use $(()) notation with ++I added to 
+increment the value of I.

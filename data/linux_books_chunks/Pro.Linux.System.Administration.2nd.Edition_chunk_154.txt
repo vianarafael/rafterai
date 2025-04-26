@@ -1,0 +1,13 @@
+In general terms, your 
+DNS server is a map for IP addresses to hostnames, and your default gateway is the first link you traverse 
+between networks.
+
+27
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Clicking Save now brings up the following confirmation screen as in Figure 2-13. You can select Done if 
+
+you are happy with it.
+
+Figure 2-13.

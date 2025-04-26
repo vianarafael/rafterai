@@ -1,0 +1,3 @@
+That is, you can’t mount it on its own or create a different 
+filesystem on it, but you can mount it as a subvolume and the Linux kernel can read and write to it.
+You use subvolumes as you would a normal directory.

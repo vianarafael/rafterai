@@ -1,0 +1,3 @@
+Both also use “TTL expired in transit” messages to record those hosts along the way. 
+What do these messages mean? Well, as we have already explained, TTL is used to kill TCP/IP packets so 
+they don’t keep zinging around the Internet forever like some lost particle in the Large Hadron Collider.

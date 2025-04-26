@@ -1,0 +1,18 @@
+Recursively copy all the ﬁ les from the /usr/share/logwatch directory on a 
+
+remote system to the /tmp directory on your local system in such a way that all 
+the modiﬁ cation times on the ﬁ les from the remote system are maintained on the 
+local system.
+
+345
+
+ 
+ 
+ 
+ 
+ 
+c13.indd  04/01/2015  Page 346
+
+Part IV: Becoming a Linux Server Administrator
+
+6.

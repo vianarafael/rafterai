@@ -1,0 +1,6 @@
+The RHCE 
+exam (EX300) tests for more advanced server conﬁ guration, as well an advanced knowledge 
+of security features, such as SELinux and ﬁ rewalls.
+
+Those of us who have taught RHCE/RHCSA courses and given exams (as I did for three 
+years) are not allowed to tell you exactly what is on the exam.

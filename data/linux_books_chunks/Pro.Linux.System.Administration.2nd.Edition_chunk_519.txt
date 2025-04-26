@@ -1,0 +1,5 @@
+Some applications also come with uninstallers that remove them if you no 
+longer require them. In some cases, you may instead use the Add or Remove Programs tool in the Control 
+Panel to add or remove applications.
+
+In the Linux world, package managers are the equivalent of the Add or Remove Programs tool.

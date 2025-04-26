@@ -1,0 +1,14 @@
+It also works successfully!
+
+$ ping -c 2 10.140.67.23
+PING 10.140.67.23 (10.140.67.23) 56(84) bytes of data.
+64 bytes from 10.140.67.23: icmp_req=1 ttl=64 time=1.10 ms
+64 bytes from 10.140.67.23: icmp_req=2 ttl=64 time=0.781 ms
+--- 10.140.67.23 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.781/0.942/1.104/0.164 ms
+$ ssh root@10.140.67.23
+ssh: connect to host 10.140.67.23 port 22: Connection timed out
+
+Again, your organization’s Access Control Matrix (see Chapter 22) helps you in creating the 
+necessary rules for the netfilter/iptables ﬁ rewall on your Linux server.

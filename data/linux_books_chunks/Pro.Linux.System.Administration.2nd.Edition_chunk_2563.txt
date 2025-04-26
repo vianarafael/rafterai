@@ -1,0 +1,4 @@
+But do we still trust the server that gave 
+them to us? no, we don’t. this is where the tLD comes in. We give our tLD a copy of our public key 
+signing key and they use that to create a delegated singer record (Ds). this record is a hash of the key 
+signing key DnsKeY.

@@ -1,0 +1,5 @@
+VirtualBox has its own VdI format as well 
+as supporting VMWare’s VMdK (Virtual Machine disk), Microsoft’s Vhd (Virtual hard disk), Mac oSx’s hdd 
+(parallels hard disk), QeMu Qed (QeMu enhanced disk), and QCoW (QeMu Copy-on-Write). these filesystems 
+are all on disk files (meaning the “disks” are really just files on the filesystem and can be copied and moved 
+just like any other file).

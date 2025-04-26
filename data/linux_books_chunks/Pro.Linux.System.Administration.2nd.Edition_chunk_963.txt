@@ -1,0 +1,13 @@
+If users have connected remotely, the command shows the Ip address or hostname from 
+which they have connected.
+
+$ sudo who
+root     tty1        Jul  3 12:32
+ataylor      pts/0       Jul  8 11:39 (host002.yourdomain.com)
+
+179
+
+Chapter 5 ■ Users and GroUps
+
+You can modify the output of the who command, and you can see a full list of the options in the who man 
+page.

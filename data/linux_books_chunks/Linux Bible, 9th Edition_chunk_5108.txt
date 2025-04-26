@@ -1,0 +1,15 @@
+Although most of the examples of this book focus on Fedora and RHEL, I have added many 
+more references to Ubuntu through out the book in this edition.
+
+To get Ubuntu, you can download a Live ISO image or installation medium from 
+the Download Ubuntu page: http://www.ubuntu.com/download/ubuntu/
+downloaddesktop.
+
+Figure A.2 shows an example of the Download Ubuntu Desktop page.
+
+FIGURE A.2
+
+Download Ubuntu Live CD ISO images, or choose an alternative download.
+
+As with Fedora, the easiest way to download Ubuntu is to select the 64-bit Ubuntu Live CD, 
+download it, and burn it.

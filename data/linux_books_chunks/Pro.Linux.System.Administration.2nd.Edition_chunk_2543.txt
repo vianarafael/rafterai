@@ -1,0 +1,9 @@
+IN   SOA
+
+;; ANSWER SECTION:
+google.com.    60   IN    SOA    ns2.google.com. dns-admin.google.com. 125880391 900 900 
+1800 60
+
+Listing 10-12 shows that the SOA record consists of seven fields, which define how other DNS servers 
+
+interact with this zone.

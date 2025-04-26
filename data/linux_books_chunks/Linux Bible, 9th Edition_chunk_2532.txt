@@ -1,0 +1,20 @@
+After you 
+click OK, all requests from the Firefox browser to locations outside the local system are 
+directed to the proxy server, which forwards those requests on to the appropriate server.
+
+FIGURE 14.4
+
+Setting up Firefox to use a proxy server.
+
+14
+
+359
+
+c14.indd  04/01/2015  Page 360
+
+Part IV: Becoming a Linux Server Administrator
+
+Confi guring Networking from the Command Line
+While NetworkManager does a great job of auto-detecting wired networks or presenting 
+you with lists of wireless networks for your laptop to connect to, it has only recently added 
+features for more complex networking conﬁ gurations on servers.

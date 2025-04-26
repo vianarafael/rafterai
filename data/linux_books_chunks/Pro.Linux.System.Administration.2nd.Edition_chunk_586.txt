@@ -1,0 +1,7 @@
+Instead of classes and permissions, we’ve specified a 
+
+number, 654. This number is called octal notation. Each digit represents one of the three classes: User, 
+Group, and Other. Additionally, each digit is the sum of the permissions assigned to that class. In Table 4-3, 
+you can see the values assigned to each permission type.
+
+Table 4-3.

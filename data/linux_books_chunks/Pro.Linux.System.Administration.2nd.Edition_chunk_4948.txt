@@ -1,0 +1,6 @@
+We will discuss this shortly, but for now we will include the monitor.example.com 
+destination, and because we are talking carbon-relay to carbon-cache, we will use the pickle port.
+
+MAX_DATAPOINTS_PER_MESSAGE, MAX_QUEUE_SIZE, QUEUE_LOW_WATERMARK_PCT, and USE_FLOW_CONTROL 
+
+are options for flow control. MAX_QUEUE and MAX_DATAPOINTS should be adjusted with caution.

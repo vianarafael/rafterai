@@ -1,0 +1,2 @@
+Communications from telnet and the older “r” commands expose 
+passwords and all data to someone snifﬁ ng the network.

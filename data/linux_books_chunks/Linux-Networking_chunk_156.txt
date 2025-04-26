@@ -1,0 +1,6 @@
+A frame has a crc (cyclic redundancy check).
+In the case of ethernet (802.3), each network card is identifiable by a unique 48-bit mac
+address (media access control address).
+
+On this layer we find devices like bridges and switches. A bridge is more intelligent than a
+hub because a bridge can make decisions based on the mac address of computers.

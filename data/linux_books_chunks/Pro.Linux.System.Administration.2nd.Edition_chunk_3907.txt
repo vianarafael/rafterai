@@ -1,0 +1,5 @@
+Our network
+
+We are going to show you two methods of how we can back up our network. We will copy the data from 
+
+the remote hosts to the headoffice.example.com central server.

@@ -1,0 +1,2 @@
+Assume for this example some meta users will have access to various parts of our directory server 
+and that these users will have the most commonly requested access requests.

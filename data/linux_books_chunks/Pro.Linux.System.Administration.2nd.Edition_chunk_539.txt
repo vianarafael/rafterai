@@ -1,0 +1,69 @@
+(We talk about boot loaders in Chapter 6.)
+
+Device files.
+
+System configuration files.
+
+User’s home directories.
+
+Shared libraries and kernel modules.
+
+/media/
+
+Removable media is usually mounted here (see Chapter 8).
+
+/mnt/
+
+/opt/
+
+/proc/
+
+/root/
+
+/run/
+
+/sbin/
+
+/srv/
+
+/sys
+
+/tmp/
+
+/usr/
+
+/var/
+
+Temporary mounted filesystems are usually mounted here (see Chapter 8).
+
+Add-on application software packages.
+
+Kernel and process status data is stored in here in text-file format.
+
+The root user’s home directory.
+
+A directory where applications can store data they require to operate.
+
+System binaries.
+
+Data for services provided by this host.
+
+Virtual filesystem that contains information and access to the Linux kernel 
+subsystems.
+
+Directory for temporary files.
+
+User utilities, libraries, and applications.
+
+Variable or transient files and data, for example, logs, mail queues, and print jobs.
+
+119
+
+ChapTeR 4 ■ LInux BasICs
+
+ not every distribution will have every one of these directories (and others might have additional 
+
+ ■ Note 
+directories), but generally this list is accurate.
+
+Let’s look at some of the key directories under the root (/) directory that are listed in Table 4-1.

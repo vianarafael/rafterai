@@ -1,0 +1,27 @@
+The ssf values are as follows:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+0 (zero) implies no protection.
+
+1 implies integrity protection only.
+
+56 allows DES or other weak ciphers.
+
+112 allows triple DES and other strong ciphers.
+
+128 allows RC4, Blowfish, and other strong ciphers.
+
+256 allows AES, SHA ciphers.
+
+The default is 0.

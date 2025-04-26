@@ -1,0 +1,15 @@
+However, the features covered 
+here for using the shell, working with disks, starting and stopping services, and conﬁ g-
+uring a variety of servers should serve as a foundation for working with those advanced 
+features.
+
+5
+
+c01.indd  04/01/2015  Page 6
+
+Part I: Getting Started
+
+Understanding How Linux Differs from Other 
+Operating Systems
+If you are new to Linux, chances are good that you have used a Microsoft Windows or Apple 
+Mac OS operating system.

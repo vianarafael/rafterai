@@ -1,0 +1,13 @@
+if you’re considering a wireless network for your business, 
+we recommend you read the information at http://en.wikipedia.org/wiki/Wireless_security, 
+https://www.fcc.gov/consumers/guides/protecting-your-wireless-network, and https://www.
+communications.gov.au/what-we-do/internet/stay-smart-online/computers/secure-your-internet-
+connection.
+
+We’re going to start by explaining how to configure networking on a single host and introduce you to the 
+
+tools and commands you will need to configure a broader network.
+
+In order to show you how to configure a network, we’re going to use an example network that we have 
+
+created.

@@ -1,0 +1,10 @@
+If you use the mount command and only pass the 
+
+mount point as a parameter, it will check the /etc/fstab file for a matching entry and mount that, with the 
+options specified in the file.
+
+$ sudo mount /mnt/data
+
+If the mount command exited without printing any errors, the fstab entry is correct and your filesystem 
+
+will be automatically mounted each time you boot your host.

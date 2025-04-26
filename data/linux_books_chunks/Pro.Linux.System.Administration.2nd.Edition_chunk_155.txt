@@ -1,0 +1,5 @@
+Network confirmation screen
+
+ ■ Note  We have shown you here how to configure an Ipv4 Ip address. There is also another kind that can be 
+configured, an Ipv6 address. If you have Ipv6 your address can be configured using the Ipv6 Settings tab. You go 
+about configuring Ipv6 the same way as Ipv4.

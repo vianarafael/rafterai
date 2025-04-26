@@ -1,0 +1,2 @@
+this tells rsyslog to not sync the file after writing to it. this is designed to speed up the 
+process of writing to the log.

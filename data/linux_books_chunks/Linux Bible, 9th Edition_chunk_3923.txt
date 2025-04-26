@@ -1,0 +1,4 @@
+The following output 
+shows that the loopback interface (lo) is up (so you can run network commands on your 
+local system), but eth0 (your ﬁ rst wired network card) is down (state DOWN). If the 
+interface had been up, an inet line would show the IP address of the interface.

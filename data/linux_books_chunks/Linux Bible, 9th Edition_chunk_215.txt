@@ -1,0 +1,8 @@
+To calm the fears of IBM, Intel, Digital 
+Equipment Corporation, and other computer companies, the UNIX Lab made the following 
+commitments to ensure a level playing ﬁ eld:
+
+ ■ Source code only—Instead of producing its own boxed set of UNIX, AT&T  continued 
+
+to sell only source code and to make it available equally to all licensees. Each 
+ company would then port UNIX to its own equipment.

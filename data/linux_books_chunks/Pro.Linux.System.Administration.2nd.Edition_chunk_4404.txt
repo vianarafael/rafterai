@@ -1,0 +1,24 @@
+Connected via the iPhone app
+
+We can confirm this in our server logs on the gateway machine.
+
+AUTH-PAM: BACKGROUND: received command code: 0
+AUTH-PAM: BACKGROUND: USER: jsmith
+AUTH-PAM: BACKGROUND: my_conv[0] query='Password: ' style=1
+Mon Oct 24 09:50:48 2016 us=779104 118.209.127.108:55174 PLUGIN_CALL: POST /usr/lib64/
+openvpn/plugins/openvpn-plugin-auth-pam.so/PLUGIN_AUTH_USER_PASS_VERIFY status=0
+Mon Oct 24 09:50:48 2016 us=779146 118.209.127.108:55174 TLS: Username/Password 
+authentication succeeded for username 'jsmith' [CN SET]
+...
+<snip>
+...
+Mon Oct 24 09:50:48 2016 us=801096 118.209.127.108:55174 [jsmith] Peer Connection Initiated 
+with [AF_INET]118.209.127.108:55174
+
+We have completed the authentication, and now our iPhone is connected via our OpenVPN server to 
+
+the local network.
+
+There are a variety of other clients for various platforms available as many networking tools will support 
+
+OpenVPN.

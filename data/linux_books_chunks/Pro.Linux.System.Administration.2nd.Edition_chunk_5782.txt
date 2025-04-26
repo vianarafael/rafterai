@@ -1,0 +1,19 @@
+It tells Ansible that the values in {{ }} are variables, either facts or 
+like the ones we have just created.
+
+Remembering back to when we ran the setup module with the ansible command, the output list from 
+
+there contained the key values for ansible_distribution and ansible_distribution_major_version.
+
+        "ansible_distribution": "CentOS",
+        "ansible_distribution_major_version": "7",
+
+On a CentOS system, when we run the play, the Jinja2 templating engines will substitute the variables 
+
+like this:
+
+    url: http://download.bareos.org/bareos/release/latest/CentOS/7
+
+VARIABLES AND CONDITIONALS
+
+ansible and Jinja2 can be powerful.

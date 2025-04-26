@@ -1,0 +1,21 @@
+During the transaction the e-mail is submitted to SpamAssassin (see the lines with spamd, which is the 
+SpamAssassin daemon).
+
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: connection from localhost [::1]:46002 to 
+port 783, fd 6
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: setuid to mail succeeded
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: creating default_prefs: /home/spamd/.
+spamassassin/user_prefs
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: processing message (unknown) for mail:8
+Aug 27 08:11:36 ip-10-0-10-154 spamd[12345]: spamd: identified spam (999.1/5.0) for mail:8 
+in 0.3 seconds, 1280 bytes.
+Aug 27 08:11:36 ip-10-0-10-154 spamd[12345]: spamd: result: Y 999 - ALL_
+TRUSTED,GTUBE,MISSING_MID 
+ scantime=0.3,size=1280,user=mail,uid=8,required_score=5.0,rhost=localhost,raddr=::1,rpo
+rt=46002, 
+  mid=(unknown),autolearn=no autolearn_force=no
+
+568
+
+We can see our SpamAssassin daemon gets a connection from the server, changes our user to the mail 
+user, and processes our e-mail message.

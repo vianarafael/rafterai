@@ -1,0 +1,3 @@
+If you often use directories of commands that are 
+not in your path, you can permanently add them. To do this, add a PATH variable 
+to your .bashrc ﬁ le.

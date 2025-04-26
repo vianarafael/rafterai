@@ -1,0 +1,6 @@
+When you are done, the computer boots up directly to Fedora.
+
+ ■ Multi-boot computer—If you already have Windows installed on a computer, 
+and you don’t want to erase it, you can install Fedora along with Windows on 
+that  system. Then at boot time, you can choose which operating system to start 
+up.

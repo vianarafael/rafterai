@@ -1,0 +1,6 @@
+These logical groups are 
+
+called organizational units and represented as ou. You can group whatever you like together, but the 
+main organizational units you will normally see in your LDAP tree are People, Groups, and Machines. 
+You store everything to do with your people under ou=people, your user groups under ou=groups, and 
+your nonhuman assets under ou=Machines (also commonly named ou=hosts).

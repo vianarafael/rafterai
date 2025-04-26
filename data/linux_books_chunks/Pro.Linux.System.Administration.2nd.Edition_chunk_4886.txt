@@ -1,0 +1,14 @@
+It is as follows:
+
+global options
+
+# plugin without options
+LoadPlugin plugin_name
+# loading a plugin and overriding options
+<LoadPlugin plugin_name>
+    ...plugin options...
+</LoadPlugin>
+# provide an option block to plugins without a LoadPlugin stanza (requires AutoLoadPlugin 
+true)
+<Plugin plugin_name>
+    ...

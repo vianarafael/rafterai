@@ -1,0 +1,4 @@
+some methods are available to recover files, like the following: http://unix.
+stackexchange.com/questions/80270/unix-linux-undelete-recover-deleted-files. Your success with 
+these methods will vary greatly. You should always delete files with extreme care, and you should make sure 
+you have an appropriate backup. This is particularly important when editing configuration files.

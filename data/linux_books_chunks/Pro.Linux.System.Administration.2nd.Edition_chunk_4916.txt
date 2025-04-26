@@ -1,0 +1,5 @@
+The carbon-cache also configures how data will be stored in the 
+Whisper databases. You can store different retention periods based on certain metric patterns. These are 
+referred to as the storage-schema.
+
+The carbon-relay is used to send metrics to certain back-end servers based on metric patterns.

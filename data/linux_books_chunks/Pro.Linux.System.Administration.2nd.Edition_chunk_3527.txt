@@ -1,0 +1,15 @@
+1 clamscan clamscan 0 Sep  3 04:07 /var/run/clamd.scan/clamd.sock
+
+On Ubuntu, the socket is located in the /var/run/clamav directory and is called clamd.ctl.
+
+$ sudo ls -lart /var/run/clamav/clamd.ctl
+srw-rw-rw- 1 clamav clamav 0 Sep  3 11:20 /var/run/clamav/clamd.ctl
+
+578
+
+Chapter 12 ■ Mail ServiCeS
+
+Testing Postfix with ClamAV
+
+Now that you have the ClamAV milter enabled, you need to test to see whether your incoming e-mail is 
+being scanned for viruses.

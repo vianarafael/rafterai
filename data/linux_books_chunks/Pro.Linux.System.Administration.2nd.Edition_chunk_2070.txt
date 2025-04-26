@@ -1,0 +1,6 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_9Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+There are several kinds of device files, but in this chapter we’ll cover only the ones dealing with storage, 
+
+which all fall into the category of block devices. This category covers hard disks, USB drives, tape drives, 
+and CD and DVD drives.

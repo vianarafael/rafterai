@@ -1,0 +1,5 @@
+These 
+options synchronize the exports with /var/lib/nfs/etab and the Linux kernel.
+
+Now that the new network mounts have been defined, we will try to mount our share on our remote 
+host. Let’s see whether our NFS mount is being served.

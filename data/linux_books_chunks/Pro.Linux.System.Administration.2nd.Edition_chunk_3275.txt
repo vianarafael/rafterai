@@ -1,0 +1,29 @@
+You can use the less command to display the contents of this 
+file, for example:
+
+$ less /home/jsmith/Maildir/new/1468154018.V801I3fa69M48418.mail.example.com
+Return-Path: <ataylor@au-mel-centos-1.example.com>
+X-Original-To: jsmith@example.com
+Delivered-To: jsmith@example.com
+Received: from au-mel-centos-1.example.com (ns.example.com [192.168.0.254])
+        by mail.example.com (Postfix) with ESMTP id 09F9E3FA66
+        for <jsmith@example.com>; Sun, 10 Jul 2016 12:33:38 +0000 (UTC)
+Received: by au-mel-centos-1.example.com (Postfix, from userid 1000)
+        id 1F5EF61A55; Sun, 10 Jul 2016 08:33:38 -0400 (EDT)
+Date: Sun, 10 Jul 2016 08:33:38 -0400
+To: jsmith@example.com
+Subject: My first email to my new Maildir mailbox
+User-Agent: Heirloom mailx 12.5 7/5/10
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20160710123338.1F5EF61A55@au-mel-centos-1.example.com>
+From: ataylor@au-mel-centos-1.example.com (ataylor)
+
+This is also a test.
+Thanks
+Mr Testing
+
+Here you can see that the individual Maildir file will contain an individual e-mail with all its headers.
+
+ each Maildir must be owned by the user it belongs to.

@@ -1,0 +1,19 @@
+For example:
+
+76
+
+   
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+ps aux | pgrep -u root httpd
+
+will match all httpd processes run by user root. One can also use pgrep like grep with a 
+single keyword.
+
+Use |grep -v grep
+
+By piping the output of ps into grep -v grep one can prevent grep from matching itself.

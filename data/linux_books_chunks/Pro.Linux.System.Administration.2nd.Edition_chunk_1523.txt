@@ -1,0 +1,7 @@
+It knows about its own network, as 
+
+shown with 192.168.0.0/24 dev enp0s8 proto kernel scope link src 192.168.0.1.
+
+You can see the default route, default via 192.168.0.254 dev enp0s8 scope link. The default route 
+
+points to the host on the network, which can handle the routing requests for hosts on its network.

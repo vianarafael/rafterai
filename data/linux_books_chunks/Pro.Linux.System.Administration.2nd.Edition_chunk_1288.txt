@@ -1,0 +1,5 @@
+We will 
+
+start this introduction to interfaces by demonstrating a simple tool called ip from the iproute (CentOS) 
+or iproute2 (Ubuntu) package that can be used to view and change the status and configuration of your 
+interfaces.

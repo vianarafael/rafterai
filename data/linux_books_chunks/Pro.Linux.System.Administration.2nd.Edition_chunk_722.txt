@@ -1,0 +1,6 @@
+You’ll start by learning how to create, delete, and 
+manage users and groups.
+
+ ■ Note 
+ In this chapter, we demonstrate command-line user administration, but most things we show you 
+is also available from a GUI tool if you prefer to administer your users and groups that way.

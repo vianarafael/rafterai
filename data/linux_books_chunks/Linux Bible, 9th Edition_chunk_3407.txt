@@ -1,0 +1,55 @@
+(No longer in Fedora.)
+
+ ■ samba-winbind package—Includes components that allow your Samba server 
+in Linux to become a complete member of a Windows domain, including using 
+Windows user and group accounts in Linux.
+
+To install all the packages just mentioned (samba-common is installed as a dependency 
+of samba, so it doesn’t need to be noted speciﬁ cally), type the following as root from the 
+ command line in Fedora:
+
+# yum install samba samba-client samba-winbind \
+     system-config-samba system-config-samba-docs
+...
+Dependencies Resolved
+==================================================================
+ Package                  Arch    Version         Repository  Size
+==================================================================
+Installing:
+ samba                    x86_64  2:4.1.15-1.fc21 updates    555 k
+ samba-client             x86_64  2:4.1.15-1.fc21 updates    513 k
+ samba-winbind            x86_64  2:4.1.15-1.fc21 updates    445 k
+ system-config-samba      noarch  1.2.100-3.fc21  fedora     282 k
+ system-config-samba-docs noarch  1.0.9-7.fc21    fedora     274 k
+Installing for dependencies:
+ libsmbclient             x86_64   2:4.1.15-1.fc21 updates   112 k
+ samba-common             x86_64   2:4.1.15-1.fc21 updates   685 k
+ samba-libs               x86_64   2:4.1.15-1.fc21 updates   4.2 M
+ samba-winbind-modules    x86_64   2:4.1.15-1.fc21 updates    93 k
+Transaction Summary
+====================================================================
+Install  5 Packages (+4 Dependent packages)
+Total download size: 7.1 M
+
+19
+
+501
+
+c19.indd  04/01/2015  Page 502
+
+Part IV: Becoming a Linux Server Administrator
+
+Installed size: 25 M
+Is this ok [y/d/N]: y
+
+After you have installed the Samba packages, look at the conﬁ guration ﬁ les in the 
+ samba-common package:
+
+# rpm -qc samba-common
+/etc/logrotate.d/samba
+/etc/sysconfig/samba
+/etc/samba/lmhosts
+/etc/samba/smb.conf
+
+The /etc/logrotate.d/samba and /etc/sysconfig/samba ﬁ les are usually not 
+ modiﬁ ed.

@@ -1,0 +1,13 @@
+However, it would be wise to run it on a nonproduction system or during off-peak hours and for only a few accounts 
+at a time.
+
+614
+
+c22.indd  04/15/2015  Page 615
+
+Chapter 22: Understanding Basic Linux Security 
+
+22
+
+Now, use the john command to attempt password cracks. To run john against the created 
+password ﬁ le, issue the command john filename.

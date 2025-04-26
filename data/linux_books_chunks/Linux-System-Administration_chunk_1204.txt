@@ -1,0 +1,30 @@
+It is a compressed cpio
+archive, so you can look at the contents in this way.
+
+root@RHELv4u4:/boot# mkdir /mnt/initrd
+root@RHELv4u4:/boot# cp initrd-2.6.9-42.0.3.EL.img TMPinitrd.gz
+root@RHELv4u4:/boot# gunzip TMPinitrd.gz 
+root@RHELv4u4:/boot# file TMPinitrd 
+TMPinitrd: ASCII cpio archive (SVR4 with no CRC)
+root@RHELv4u4:/boot# cd /mnt/initrd/
+root@RHELv4u4:/mnt/initrd# cpio -i | /boot/TMPinitrd 
+4985 blocks
+root@RHELv4u4:/mnt/initrd# ls -l
+total 76
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 bin
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 dev
+drwxr-xr-x  4 root root 4096 Feb  5 08:36 etc
+-rwxr-xr-x  1 root root 1607 Feb  5 08:36 init
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 lib
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 loopfs
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 proc
+lrwxrwxrwx  1 root root    3 Feb  5 08:36 sbin -> bin
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 sys
+drwxr-xr-x  2 root root 4096 Feb  5 08:36 sysroot
+root@RHELv4u4:/mnt/initrd#
+
+333
+
+the Linux kernel
+
+28.3.3.

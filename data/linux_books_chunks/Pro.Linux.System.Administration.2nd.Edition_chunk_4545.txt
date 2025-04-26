@@ -1,0 +1,19 @@
+An object class declaration should follow this format:
+
+objectclass ( <OID> NAME <name> DESC <description> SUP <parent class> <class type> 
+<MUST|MAY> attritubutes )
+
+750
+
+The number you see, 1.3.6.1.4.1.1466.344, is the private enterprise number (PEN), or object 
+identifier (OID), which is a unique series of numbers for identifying objects; if you are familiar with things 
+like SNMP, you should recognize this as they use the same OID concept.
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+ you can register for your own OiD or PeN at the internet Assigned Numbers Authority (iANA) web site: 
+
+ ■ Note 
+http://pen.iana.org/pen/PenApplication.page.
+
+The object class is given a name, dcObject, and a description (DESC).

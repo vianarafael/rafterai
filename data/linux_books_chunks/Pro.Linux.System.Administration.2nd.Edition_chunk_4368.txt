@@ -1,0 +1,6 @@
+To do this, 
+we tell our branch office that when it wants to route to the 192.168.0.0/24 network, it needs to go through the 
+VPN tunnel to the gateway host. We do this as shown in Listing 15-7 by adding a line to the gateway.conf 
+configuration file on the gateway host to push a route to our branch hosts.
+
+Listing 15-7.

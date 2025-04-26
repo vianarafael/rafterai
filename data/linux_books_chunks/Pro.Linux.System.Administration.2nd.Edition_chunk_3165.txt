@@ -1,0 +1,5 @@
+they can be called SMtp servers or SMtp daemons, 
+
+ ■ Note 
+but their proper name is mail transfer agents. the client that sends e-mail is known in this nomenclature as a 
+mail user agent.

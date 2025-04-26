@@ -1,0 +1,6 @@
+It shows how 
+
+to debug Postfix problems from increasing verbosity of logs to stracing Postfix processes. One of the most 
+useful debugging tools is the debug_peer_list option.
+
+By setting debug_peer_list, you can increase the information in the mail logs about a peer.

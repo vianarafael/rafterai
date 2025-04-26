@@ -1,0 +1,8 @@
+RELP is more mature than the remote logging of Journald and has been battle tested by thousands 
+of installations. It is also fairly simple to configure, and the modules can be installed with package 
+management.
+
+$ sudo yum install –y rsyslog-relp rsyslog-gnutls
+$ sudo aptitude install –y rsyslog-relp rsyslog-gnutls
+
+We will need to configure the client and server.

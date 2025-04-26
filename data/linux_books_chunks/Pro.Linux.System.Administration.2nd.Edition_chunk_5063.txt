@@ -1,0 +1,6 @@
+We are also using two CentOS hosts in this example, but the 
+configuration should be the same for both CentOS and Ubuntu.
+
+First with CentOS you will need to install the systemd-journal-gateway package. On Ubuntu it is 
+
+the systemd-journal-remote package.

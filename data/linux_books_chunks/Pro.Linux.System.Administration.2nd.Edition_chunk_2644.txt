@@ -1,0 +1,19 @@
+bind journalctl Log
+
+Jul 06 13:01:59 ubuntu-xenial named[12461]: received control channel command 'sign example.
+com'
+Jul 06 13:01:59 ubuntu-xenial named[12461]: zone example.com/IN (signed): reconfiguring zone 
+keys
+Jul 06 13:01:59 ubuntu-xenial named[12461]: zone example.com/IN (signed): next key event: 
+06-Jul-2016 14:01:59.665
+Jul 06 13:02:09 ubuntu-xenial named[12461]: received control channel command 'signing -list 
+example.com'
+Jul 06 13:04:40 ubuntu-xenial named[12461]: received control channel command 'sign 
+0.168.192.in-addr.arpa'
+Jul 06 13:04:40 ubuntu-xenial named[12461]: zone 0.168.192.in-addr.arpa/IN (signed): 
+reconfiguring zone keys
+Jul 06 13:04:40 ubuntu-xenial named[12461]: zone 0.168.192.in-addr.arpa/IN (signed): next 
+key event: 06-Jul-2016 14:04:40.598
+
+You can see that the bind server has automatically signed our zones (zone example.com/IN (signed): 
+loaded serial 2016070100).

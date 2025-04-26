@@ -1,0 +1,3 @@
+This controls how the name server responds to lookups for 
+domains that it thinks do not exist, which means that your local DNS server will not claim to be authoritative 
+if it cannot find information about a domain.

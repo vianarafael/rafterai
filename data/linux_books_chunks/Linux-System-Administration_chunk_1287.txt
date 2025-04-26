@@ -1,0 +1,5 @@
+dump and restore
+
+While dump is similar to tar, it is also very different because it looks at the file system.
+Where  tar  receives  a  lists  of  files  to  backup,  dump  will  find  files  to  backup  by  itself  by
+examining ext2. Files found by dump will be copied to a tape or regular file.

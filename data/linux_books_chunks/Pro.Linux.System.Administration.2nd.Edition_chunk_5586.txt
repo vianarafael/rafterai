@@ -1,0 +1,4 @@
+Puppet is as available as open source 
+or the commercial enterprise product. The enterprise product combines the multiple Puppet open source 
+products and provides an enterprise dashboard to coordinate and configure your resources as well as 
+commercial support agreements.

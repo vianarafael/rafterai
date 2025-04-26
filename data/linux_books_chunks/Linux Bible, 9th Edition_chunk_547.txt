@@ -1,0 +1,14 @@
+If you are stuck, solutions 
+to the tasks for both the GNOME 2 and GNOME 3 desktops are shown in Appendix B.
+
+1.  Obtain a Linux system with either a GNOME 2 or GNOME 3 desktop available. Start 
+
+the system, and log in to a GNOME desktop.
+
+2
+
+2.  Launch the Firefox web browser, and go to the GNOME home page (http://
+
+gnome.org).
+
+3.

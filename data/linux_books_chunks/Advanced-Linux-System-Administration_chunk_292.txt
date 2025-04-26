@@ -1,0 +1,15 @@
+This objective includes implementing different types of kernel images, identifying 
+stable and development kernels and patches, as well as using kernel modules.
+
+Key files, terms, and utilities include:
+
+zImage 
+bzImage
+
+• 2.201.2 Compiling a kernel
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to properly compile a kernel to include or 
+disable specific features of the Linux kernel as necessary.

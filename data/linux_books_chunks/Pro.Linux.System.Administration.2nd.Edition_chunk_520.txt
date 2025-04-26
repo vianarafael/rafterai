@@ -1,0 +1,4 @@
+A 
+
+package manager contains a collection of pre-packaged applications, for example, the Apache web server or 
+the LibreOffice suite. These pre-packaged applications are, not surprisingly, called packages.

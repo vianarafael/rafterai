@@ -1,0 +1,35 @@
+422
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 423
+
+Confi guring a Print Server
+
+C H A P T E R 
+
+16
+
+IN THIS CHAPTER
+
+Understanding printing in Linux
+
+Setting up printers
+
+Using printing commands
+
+Managing document printing
+
+Sharing printers
+
+Y ou can conﬁ gure your Linux system to use printers that are connected directly to it (via a 
+
+USB or parallel port) or that are available for printing over the network.

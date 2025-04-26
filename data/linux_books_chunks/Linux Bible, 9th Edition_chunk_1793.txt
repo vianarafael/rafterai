@@ -1,0 +1,7 @@
+If multiple versions of a 
+package are available (whether in the same repository or another enabled repository), 
+yum provides the latest version when you install a package. If a new version shows 
+up later, you can  download and install the new version of the package by using the 
+update subcommand.
+
+The check-update subcommand can check for updates.

@@ -1,0 +1,4 @@
+This allows you to perform actions such as disabling active checks of the host or 
+service or enabling or disabling notifications for the host or service.
+
+ By default, all the authorization directives are commented out in the cgi.cfg file.

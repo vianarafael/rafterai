@@ -1,0 +1,10 @@
+Over time, your YUM repository cache data will become out of date as new 
+packages are added to and updated in the repository.
+
+To rebuild or refresh the cache without checking for any updated packages available for your host, you 
+
+can issue the following:
+
+$ sudo yum makecache
+
+This will pull down from the repository the cache files.

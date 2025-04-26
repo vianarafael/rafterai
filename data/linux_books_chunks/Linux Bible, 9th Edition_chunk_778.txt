@@ -1,0 +1,6 @@
+Each of those directories, as well as directories added to the 
+root directory, can contain subdirectories.
+
+Figure 4.1 illustrates how the Linux ﬁ lesystem is organized as a hierarchy. To demonstrate how 
+directories are connected, the ﬁ gure shows a /home directory that contains a subdirectory for the 
+user joe. Within the joe directory are the Desktop, Documents, and other subdirectories.

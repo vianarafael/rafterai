@@ -1,0 +1,18 @@
+Let’s start the clamd service.
+
+$ sudo systemctl enable clamd@scan && sudo systemctl start clamd@scan (CentOS)
+$ sudo systemctl enable clamav-daemon && sudo systemctl start clamav-daemon (Ubuntu)
+
+Next we will start the clamav-milter service and freshclamd service, which polls for the latest virus 
+
+signature updates.
+
+$ sudo systemctl enable clamav-milter && sudo systemctl start clamav-milter (Both)
+$ sudo systemctl enable clamav-freshclam && sudo systemctl start clamav-freshclam (Ubuntu)
+
+We should now be able to look a bit more at the configuration of ClamAV.
+
+SELINUX AND APPARMOR
+
+there are different types of access controls available in linux provided via the linux Security Module 
+(lSM), which is part of the linux kernel.

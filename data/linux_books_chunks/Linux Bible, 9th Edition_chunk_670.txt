@@ -1,0 +1,21 @@
+You can use the following keys or key combinations to do that, as shown in 
+Table 3.4.
+
+TABLE 3.4    Key Strokes for Using Command History
+
+3
+
+Key(s)
+
+Function Name
+
+Description
+
+Arrow keys 
+(↑ and ↓)
+
+Step
+
+Press the up and down arrow keys to step through each 
+command line in your history list to arrive at the one you 
+want.

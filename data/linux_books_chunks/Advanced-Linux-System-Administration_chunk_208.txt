@@ -1,0 +1,5 @@
+It uses material from the 
+
+Creating a CD Image 
+
+Store all the data that need to be copied in a separated directory (e.g backups/).

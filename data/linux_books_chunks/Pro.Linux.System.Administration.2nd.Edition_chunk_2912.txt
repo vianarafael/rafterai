@@ -1,0 +1,7 @@
+The latter will allow us to also 
+install and use PHP-based webmail applications.
+
+On CentOS, we can install all this via sudo yum install php-fpm php-mysql php-gd php-imap php-
+mbstring and on Ubuntu via sudo aptitude install php-fpm php-mysql php-mbstring php-gd php-imap.
+
+We are going to set up a web site that uses PHP later in this chapter.

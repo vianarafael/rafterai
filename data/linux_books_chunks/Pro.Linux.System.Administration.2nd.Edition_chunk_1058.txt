@@ -1,0 +1,6 @@
+The initrd is a 
+temporary root file system that is used by the boot process to first load the needed executables and drivers 
+and then mount the system’s “true” root (‘/’) file system. It is only used at boot and is unmounted once the 
+true file system has been mounted.
+
+We have shown you only one GRUB2 menuentry and only from a CentOS host.

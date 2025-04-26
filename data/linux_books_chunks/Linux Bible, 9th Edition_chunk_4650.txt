@@ -1,0 +1,13 @@
+Simply type restorecon -R 
+file, and the ﬁ le has its original security context restored.
+
+24
+
+693
+
+c24.indd  04/15/2015  Page 694
+
+Part V: Learning Linux Security Techniques
+
+Booleans set incorrectly
+Another common problem is setting a Boolean incorrectly.

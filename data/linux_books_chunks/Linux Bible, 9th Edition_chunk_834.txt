@@ -1,0 +1,9 @@
+All other regular ﬁ les show up in black. Typing ls -l 
+to see a long listing of those ﬁ les can make these different types of ﬁ les clearer still:
+
+$ ls -l
+total 4
+-rw-rw-r--. 1 joe joe 0 Dec 18 13:38 apple
+lrwxrwxrwx. 1 joe joe 5 Dec 18 13:46 pointer_to_apple -> apple
+-rwxr-xr-x. 1 joe joe 0 Dec 18 13:37 scriptx.sh
+drwxrwxr-x.

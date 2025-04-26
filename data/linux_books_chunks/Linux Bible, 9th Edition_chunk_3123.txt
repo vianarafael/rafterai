@@ -1,0 +1,8 @@
+See http://
+httpd.apache.org/docs/mod/core.html#options for more information.
+
+ ■ ErrorDocument directives can be used to specify a ﬁ le containing messages 
+
+to send to web clients when a particular error occurs. The location of the ﬁ le is 
+ relative to the /var/www directory. The directive must specify an error code 
+and the full URI for the error document.

@@ -1,0 +1,7 @@
+These values 
+
+mean the server will use a bit more RAM, but it will need to access the disk less often, resulting in better 
+performance. We tell the server it has two transaction log files via innodb_log_files_in_group, which is the 
+default.
+
+Next, we need to assign some RAM for the server to use to keep table data and perform queries.

@@ -1,0 +1,66 @@
+So before we do anything lets look at the 
+following output:
+
+getfacl /usr/NEWS
+
+# file: share
+
+# owner: root
+
+# group: root
+
+user::rwx
+
+group::r-x
+
+other::r-x
+
+Next add rwx permissions on NEWS for the group sales:
+
+setfacl -m g:sales:rwx NEWS/ 
+
+18
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+List the ACL privileges:
+
+getfacl NEWS/
+# file: NEWS
+# owner: root
+# group: sales
+user::rwx
+group::r-x
+group:sales:rwx
+mask::rwx
+other::r-x 
+
+Finally add r_x permissions for the group eng and list the permissions:
+
+setfacl -m g:eng:r-x NEWS/
+
+getfacl NEWS/
+
+# file: NEWS
+
+# owner: root
+
+# group: sales
+
+user::rwx
+
+group::r-x
+
+group:sales:rwx
+
+group:eng:r-x
+
+mask::rwx
+
+other::r-x
+
+The kernel patch has worked.

@@ -1,0 +1,5 @@
+The script 
+
+in Listing 18-11 generates an rsyslog message for every facility and priority combination.
+
+Listing 18-11.

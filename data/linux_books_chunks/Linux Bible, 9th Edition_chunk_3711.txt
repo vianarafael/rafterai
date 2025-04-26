@@ -1,0 +1,8 @@
+On the NFS client system, add an entry to the /etc/auto.master ﬁ le that 
+identiﬁ es the mount point where you want the remote NFS directory to be 
+mounted and a ﬁ le (of your choosing) where you will identify the location of 
+the remote NFS directory. I added this entry to the auto.master ﬁ le:
+
+/home/remote /etc/auto.joe
+
+6.

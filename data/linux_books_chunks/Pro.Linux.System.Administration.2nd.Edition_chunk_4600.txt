@@ -1,0 +1,6 @@
+We 
+will explain ssf further in the “Securing SLAPD with TLS” section of this chapter, but for now, the tls_ssf 
+specifies the minimum TLS key size required to access these attributes, meaning we will allow access to 
+these attributes only if they have an adequately secured transport layer.
+
+ We will explain security strength factors shortly.

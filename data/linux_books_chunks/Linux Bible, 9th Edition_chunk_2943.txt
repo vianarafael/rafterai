@@ -1,0 +1,10 @@
+Choose starting or ending banner pages that include text such as 
+Classiﬁ ed, Conﬁ dential, Secret, and so on.
+
+ ■ Access Control—If your printer is a shared printer, you can select this window to 
+
+create a list that either allows users access to the printer (with all others denied) or 
+denies users access to the printer (with all others allowed).
+
+ ■ Printer Options—Click Printer Options to set defaults for options related to the 
+printer driver.

@@ -1,0 +1,5 @@
+Accessing swap 
+memory, which after all is just a piece of disk that is used as if it were memory, is very slow compared to 
+accessing RAM.
+
+You can quickly check how much RAM and swap memory a host is using via the free command.

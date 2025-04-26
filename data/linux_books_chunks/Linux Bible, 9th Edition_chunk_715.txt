@@ -1,0 +1,7 @@
+Sometimes a command requires additional prompts, which you can set with 
+the variables PS2, PS3, and so on.
+
+This is the directory that is assigned as your current directory. This value 
+changes each time you change directories using the cd command.
+
+Accessing this variable causes a random number to be generated.

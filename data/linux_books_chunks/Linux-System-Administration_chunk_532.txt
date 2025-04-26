@@ -1,0 +1,27 @@
+The  next  example
+creates a 200MB Logical Volume named MyLV in Volume Group vg42.
+
+[root@RHEL5 ~]# lvcreate -L200M -nMyLV vg42
+  Logical volume "MyLV" created
+[root@RHEL5 ~]#
+
+The next example does the same thing, but with different syntax.
+
+[root@RHEL5 ~]# lvcreate --size 200M -n MyLV vg42
+  Logical volume "MyLV" created
+[root@RHEL5 ~]#
+
+This example creates a Logical Volume that occupies 10 percent of the Volume Group.
+
+[root@RHEL5 ~]# lvcreate -l 10%VG -n MyLV2 vg42
+  Logical volume "MyLV2" created
+[root@RHEL5 ~]#
+
+This example creates a Logical Volume that occupies 30 percent of the remaining free space
+in the Volume Group.
+
+[root@RHEL5 ~]# lvcreate -l 30%FREE -n MyLV3 vg42
+  Logical volume "MyLV3" created
+[root@RHEL5 ~]#
+
+11.13.2.

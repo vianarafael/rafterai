@@ -1,0 +1,5 @@
+introduction to sql using
+mysql
+
+mysql is a database server that understands Structured Query Language (SQL). MySQL
+was developed by the Swedish Company MySQL AB. The first release was in 1995.

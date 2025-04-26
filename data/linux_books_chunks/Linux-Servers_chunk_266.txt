@@ -1,0 +1,15 @@
+listing tables
+
+You can see a list of tables in the current database with the show tables; command. Our
+famouspeople database has no tables yet.
+
+mysql> use famouspeople;
+Database changed
+mysql> show tables;
+Empty set (0.00 sec)
+
+3.4.2. creating a table
+
+The create table command will create a new table.
+
+This screenshot shows the creation of a country table.

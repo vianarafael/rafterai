@@ -1,0 +1,6 @@
+A hard limit can be set only 
+by the root user, and when a user or process tries to break this limit, the system will prevent this. The soft 
+limit can be adjusted by the user using the ulimit command, but it can be increased only to the value of 
+the hard limit.
+
+Next is the resource that is being limited.

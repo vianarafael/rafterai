@@ -1,0 +1,10 @@
+The AllowOverride 
+option is covered in detail at http://httpd.apache.org/docs/mod/core.html#allowoverride.
+
+Three directives commonly found in location blocks and access control ﬁ les are 
+DirectoryIndex, Options, and ErrorDocument:
+
+17
+
+ ■ DirectoryIndex tells Apache which ﬁ le to load when the URI contains a 
+ directory but not a ﬁ lename.

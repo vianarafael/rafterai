@@ -1,0 +1,39 @@
+Let’s take a look at one of the files that this creates.
+
+/etc/sysconfig/network-scripts/ifcfg-team0-port1
+NAME=team0-port1
+UUID=4e2f4307-e026-4b1a-b19e-da8f1ad64d7a
+DEVICE=enp0s8
+ONBOOT=yes
+TEAM_MASTER=team0
+DEVICETYPE=TeamPort 
+
+And now let’s see if they show up in our connection list.
+
+$ sudo nmcli c show
+NAME             UUID                                    TYPE              DEVICE
+team0-port1      4e2f4307-e026-4b1a-b19e-da8f1ad64d7a    802-3-ethernet    enp0s8
+team0            2cef1621-4e56-4cb8-84f7-2d613fbc168f    team              team0
+team0-port2      ca1206ce-c0d3-45a5-b793-f10b8c680414    802-3-ethernet    enp0s9
+
+234
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+And the device list now looks as follows:
+
+$  sudo nmcli d status
+[sudo] password for jsmith:
+DEVICE  TYPE      STATE      CONNECTION
+enp0s8  ethernet  connected  team0-port1
+enp0s9  ethernet  connected  team0-port2
+team0   team      connected  team0
+lo      loopback  unmanaged  --
+
+We will quickly see if we can get a ping response from the interface.
+
+$ ping 192.168.10.10
+PING 192.168.10.10 (192.168.10.10) 56(84) bytes of data.
+64 bytes from 192.168.10.10: icmp_seq=1 ttl=64 time=0.047 ms
+
+So now we have a team interface.

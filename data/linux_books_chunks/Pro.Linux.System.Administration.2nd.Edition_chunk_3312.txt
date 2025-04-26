@@ -1,0 +1,2 @@
+The smtpd_tls_mandatory_exclude_ciphers option determines which ciphers we will not accept; since 
+aNULL and MD5 are weak ciphers, we will not them in our TLS transmissions.

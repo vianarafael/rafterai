@@ -1,0 +1,17 @@
+This is a good place to add environment variables 
+because, once set, they are inherited by future shells.
+
+88
+
+c03.indd  04/01/2015  Page 89
+
+Chapter 3: Using the Shell
+
+File
+
+~/.bashrc
+
+Description
+
+This contains the information that is specifi c to your bash shells. It is 
+read when you log in and also each time you open a new bash shell.

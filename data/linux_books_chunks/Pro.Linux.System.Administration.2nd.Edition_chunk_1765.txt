@@ -1,0 +1,5 @@
+You won’t often need to do this (and we recommend that you stick to using packages to manage applications), 
+but it’s a useful thing to know.
+
+Introduction to Package Management
+Different distributions have different ways of packaging their software.

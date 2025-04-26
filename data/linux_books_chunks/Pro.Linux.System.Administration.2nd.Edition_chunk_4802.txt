@@ -1,0 +1,10 @@
+This level of detail is 
+provided by the debug logging option in the virtual host LogLevel directive.
+
+796
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Summary
+In this chapter, we discussed what a directory server is and how the entries are organized in the directory 
+information tree.

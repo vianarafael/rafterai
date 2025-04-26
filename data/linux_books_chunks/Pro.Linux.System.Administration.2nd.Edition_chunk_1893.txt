@@ -1,0 +1,12 @@
+To do that we use a 
+
+command from the rpmdevtools package.
+
+$ rpmdev-setuptree
+$ ls -l rpmbuild/
+total 20
+drwxrwxr-x. 2 vagrant vagrant 4096 Jul 24 09:46 BUILD
+drwxrwxr-x. 2 vagrant vagrant 4096 Jul 24 09:46 RPMS
+drwxrwxr-x. 2 vagrant vagrant 4096 Jul 24 09:46 SOURCES
+drwxrwxr-x. 2 vagrant vagrant 4096 Jul 24 09:46 SPECS
+drwxrwxr-x.

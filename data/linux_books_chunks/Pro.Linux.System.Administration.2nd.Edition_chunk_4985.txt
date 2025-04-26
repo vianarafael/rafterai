@@ -1,0 +1,4 @@
+In Figure 17-18 you can see we have tracked the host’s load over 15 minutes. 
+You can see more about Grafana in this YouTube tutorial by Grafana: https://youtu.be/1kJyQKgk_oY.
+
+Figure 17-18.

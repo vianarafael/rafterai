@@ -1,0 +1,6 @@
+These fields specify how and 
+where each filesystem is mounted, and what to do if a check is to be performed. All lines starting with a hash 
+mark (#) are comments.
+
+The filesystem field contains the device node name of the filesystem you want to be mounted. You can 
+also substitute a filesystem label by specifying LABEL=label or the filesystem UUID, as in the example.

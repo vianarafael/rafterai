@@ -1,0 +1,8 @@
+Testing Our RAID Array
+
+$ sudo mdadm --manage /dev/md127 --fail /dev/sdd1
+mdadm: set /dev/sdd1 faulty in /dev/md127
+
+The RAID subsystem now knows the device has failed. This is identical to what happens when the RAID 
+
+drivers detect that an error has occurred on one of the devices in the array.

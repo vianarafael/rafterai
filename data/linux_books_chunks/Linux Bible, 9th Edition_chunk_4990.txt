@@ -1,0 +1,20 @@
+So, instead of using the downloaded image 
+directly, make a snapshot of it. To keep track of my versions, I added 01 to the 
+new snapshot name:
+
+752
+
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 753
+
+Chapter 27: Deploying Linux to the Cloud
+
+# qemu-img create -f qcow2 \
+   -o backing_file=Fedora-Cloud-Base-20141203-21.x86_64.qcow2 \
+   Fedora-Cloud-Base-01.qcow2
+
+6.

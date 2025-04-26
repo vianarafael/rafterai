@@ -1,0 +1,13 @@
+(continued) 
+
+purgeIncr [<max_fulls_with_
+incrs>] [--force]
+
+cleanup [--force]
+
+Lists outdated incremental backups ($MAX_FULLS_WITH_INCRS 
+being the number of full backups that associated incrementals will 
+be kept, counting in reverse chronological order). Use --force to 
+actually delete these files.
+
+Lists broken backup chain files archives (e.g., after unfinished run).

@@ -1,0 +1,14 @@
+Iterative queries
+usually take place between name servers. The root name servers do not respond to recursive
+queries.
+
+70
+
+introduction to DNS
+
+4.4. authoritative dns servers
+
+A DNS server that is controlling a zone, is said to be the authoritative DNS server for that
+zone. Remember that a zone is a collection of resource records.
+
+4.5.

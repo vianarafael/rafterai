@@ -1,0 +1,7 @@
+Here are some tips to help you 
+get it right:
+
+ ■ If you are creating a dual-boot system, particularly for a Windows system, try to 
+
+install the Windows operating system ﬁ rst after partitioning your disk. Otherwise, 
+the Windows installation may make the Linux partitions inaccessible.

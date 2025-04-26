@@ -1,0 +1,6 @@
+In the case of our first example, the full explicit command would have been dig @192.168.1.1  
+www.google.com A.
+
+ ■ Note  to use the host utility for the same kind of lookup, enter host -v -t <type> <name> <server>.
+
+We found out the main DNS servers for the google.com domain via whois earlier.

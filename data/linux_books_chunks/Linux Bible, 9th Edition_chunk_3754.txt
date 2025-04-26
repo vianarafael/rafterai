@@ -1,0 +1,7 @@
+For example, you can limit the amount 
+of memory, CPU, or other resources an entire service can consume, so a runaway 
+process or a service that spins off an unreasonable number of child processes 
+ cannot consume more than the entire service is allowed.
+
+When a systemd-enabled Linux system starts up, the ﬁ rst running process (PID 1) is the 
+systemd daemon (instead of the init daemon).

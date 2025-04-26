@@ -1,0 +1,12 @@
+In Listing 18-3, 
+
+all messages from the mail facility with the any priority will be written to the file /var/log/mail.log.
+
+850
+
+Chapter 18 ■ Logging and Monitoring
+
+Facilities
+
+The facility identifies the source of the rsyslog message. Some operating system daemons and other 
+common application daemons have standard facilities attached to them.

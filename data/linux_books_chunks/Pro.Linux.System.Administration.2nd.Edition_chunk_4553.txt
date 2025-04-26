@@ -1,0 +1,5 @@
+The ones in this example may 
+conflict with other existing schema files and are for demonstration only. To avoid this, so we would normally 
+apply for our own PEN. We’ll pretend we did so and that we received an OID of 1.3.6.1.4.1.111111, where 
+1.3.6.1.4.1 is the IANA arc, or node, and 111111 is the special number that distinguishes our company from 
+other companies.

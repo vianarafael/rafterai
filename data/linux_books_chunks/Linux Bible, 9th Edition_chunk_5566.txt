@@ -1,0 +1,14 @@
+“Knowingly relying” means you have actual 
+knowledge that, but for the patent license, your conveying the covered work in a country, 
+or your recipient’s use of the covered work in a country, would infringe one or more identi-
+ﬁ able patents in that country that you have reason to believe are valid.
+
+If, pursuant to or in connection with a single transaction or arrangement, you convey, or 
+propagate by procuring conveyance of, a covered work, and grant a patent license to some 
+of the parties receiving the covered work authorizing them to use, propagate, modify or 
+convey a speciﬁ c copy of the covered work, then the patent license you grant is automati-
+cally extended to all recipients of the covered work and works based on it.
+
+A patent license is “discriminatory” if it does not include within the scope of its coverage, 
+prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights 
+that are speciﬁ cally granted under this License.

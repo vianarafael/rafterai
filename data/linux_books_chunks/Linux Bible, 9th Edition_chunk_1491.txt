@@ -1,0 +1,6 @@
+By selecting Advanced, you can change those settings and even assign the 
+user to additional groups. Select Done when you are ﬁ nished adding the user.
+
+11.  Finish Configuration. When the ﬁ rst part of the installation is complete, click 
+Finish Conﬁ guration. Some ﬁ nal conﬁ guration happens on the system at this 
+point. When that is ﬁ nished, select Quit.

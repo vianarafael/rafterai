@@ -1,0 +1,11 @@
+Notice that the -P option is 
+used to make this setting permanent.
+
+# setsebool -P allow_user_exec_content off
+
+The getsebool command veriﬁ es that the Boolean setting has been correctly made:
+
+# getsebool allow_user_exec_content
+allow_user_exec_content --> off
+
+Booleans make modifying current SELinux policy rules much easier.

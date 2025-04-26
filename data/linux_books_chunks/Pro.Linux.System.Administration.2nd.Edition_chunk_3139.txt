@@ -1,0 +1,10 @@
+Granting Access for Our Networks
+
+http_access allow localhost
+http_access allow wired
+http_access allow wireless wireless_hours
+http_access deny all
+
+We are going to add some logging to help track down any issues with our configuration. To do this, we 
+
+add the access_log directive.

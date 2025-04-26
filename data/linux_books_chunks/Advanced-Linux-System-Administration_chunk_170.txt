@@ -1,0 +1,45 @@
+These filesystems as well as 
+the mount options needed (filesystem type, read-write permissions, etc) are defined in a 
+separate file.
+
+Sample /etc/auto.extra
+
+cdrom       -fstype=iso9660,ro,user,exec,nodev,nosuid                                :/dev/cdrom
+
+nfs            -fstype=nfs,soft,intr,rsize=8192,wsize=8        192 192.168.3.100:/usr/local
+
+/extra
+
+cdrom
+
+nfs
+
+The CDROM will automatically be accessible in /extra/cdrom and the NFS share is 
+mounted as soon as the /extra/nfs directory is accessed 
+
+NOTICE
+
+In the above example:
+
+The directories /extra/cdrom and /extra/nfs must not be created
+
+New entries in /etc/auto.extra are immediately made available: adding 'new -fstype=ext3 
+:/dev/hda2' to the file will automatically make /extra/new available
+
+By default a mounted device will stay mounted for 5 minutes: if we uncomment the 
+'cdrom' device in the map file /etc/auto.extra shortly after the CDROM has been 
+accessed, then the device will still be available for approximately 5 minutes in 
+/extra/cdrom
+
+38
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Hardware and Software Configuration
+
+This module will cover the configuration of components which need both kernel support 
+and software tools.

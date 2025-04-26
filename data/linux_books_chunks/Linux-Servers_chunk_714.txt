@@ -1,0 +1,8 @@
+Permissions for files on the sales share should never be set more than 664.
+
+13. Permissions for files on the budget share should never be set less than 500.
+
+14.  If  time  permits  (or  if  you  are  waiting  for  other  students  to  finish  this  practice),  then
+combine the "read only" and "writable" statements to check which one has priority.
+
+15.

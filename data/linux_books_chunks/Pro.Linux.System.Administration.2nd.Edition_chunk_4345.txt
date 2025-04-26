@@ -1,0 +1,2 @@
+Or if you are able to directly connect to the 
+host, use the scp (secure copy) or sftp (secure FTP) command to send the files.

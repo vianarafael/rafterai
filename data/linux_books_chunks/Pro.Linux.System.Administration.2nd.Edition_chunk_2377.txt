@@ -1,0 +1,6 @@
+We will exit the journal and we will run the fsck check manually (see Figure 9-6).
+
+Figure 9-6.  Manually running fsck
+
+Here the fsck has called e2fsck and attempted to repair the filesystem. We have told it to “assume yes” 
+(-y) to all questions and so it will automatically try to repair your filesystem.

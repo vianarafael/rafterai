@@ -1,0 +1,11 @@
+Here are some basic examples of using the 
+find command:
+
+$ find
+$ find /etc
+# find /etc
+$ find $HOME -ls
+
+Run on a line by itself, the find command ﬁ nds all ﬁ les and directories below the current 
+directory. If you want to search from a particular point in the directory tree, just add the 
+name of the directory you want to search (such as /etc).

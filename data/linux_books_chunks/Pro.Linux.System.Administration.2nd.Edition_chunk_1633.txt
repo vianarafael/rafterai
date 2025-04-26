@@ -1,0 +1,6 @@
+The target can also be another user-defined chain.
+
+We want to now show you how to use the iptables command by running you through some examples.
+The iptables command is common to both Ubuntu and CentOS and operates in the same way. Let’s 
+
+look at listing the contents of the iptables rule sets we currently have running.

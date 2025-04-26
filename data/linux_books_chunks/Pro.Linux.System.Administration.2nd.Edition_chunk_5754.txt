@@ -1,0 +1,41 @@
+To do that, we use 
+
+the apt or yum module, depending on which host operating system we are targeting.
+
+$ ansible -c local localhost -m apt -a 'name=nginx state=latest update_cache=yes'
+localhost | FAILED! => {
+    "changed": false,
+    "cmd": "apt-get update '&&' apt-get install python-apt -y -q --force-yes",
+    "failed": true,
+     "msg": "W: chmod 0700 of directory /var/lib/apt/lists/partial failed - 
+
+SetupAPTPartialDirectory (1: Operation not permitted)\nE: Could not open lock file /var/
+lib/apt/lists/lock - open (13: Permission denied)\nE: Unable to lock directory /var/lib/
+apt/lists/\nW: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches 
+(13: Permission denied)\nW: Problem unlinking the file /var/cache/apt/srcpkgcache.bin 
+- RemoveCaches (13: Permission denied)\nE: Could not open lock file /var/lib/dpkg/lock - 
+open (13: Permission denied)\nE: Unable to lock the administration directory (/var/lib/
+dpkg/), are you root?",
+
+    "rc": 100,
+     "stderr": "W: chmod 0700 of directory /var/lib/apt/lists/partial failed - 
+
+SetupAPTPartialDirectory (1: Operation not permitted)\nE: Could not open lock file /var/
+lib/apt/lists/lock - open (13: Permission denied)\nE: Unable to lock directory /var/lib/
+apt/lists/\nW: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches 
+(13: Permission denied)\nW: Problem unlinking the file /var/cache/apt/srcpkgcache.bin 
+- RemoveCaches (13: Permission denied)\nE: Could not open lock file /var/lib/dpkg/lock - 
+open (13: Permission denied)\nE: Unable to lock the administration directory (/var/lib/
+dpkg/), are you root?\n",
+
+    "stdout": "",
+    "stdout_lines": []
+}
+
+960
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We have an error! You can see from the output that we have tried to execute the "apt-get update '&&' 
+
+apt-get install python-apt -y -q --force-yes" commands and we have been denied permission.

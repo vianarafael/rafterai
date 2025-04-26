@@ -1,0 +1,6 @@
+The next section describes some ways of 
+using cloud-init.
+
+Confi guring and running a cloud-init cloud instance
+In the next procedure, I show you how to manually create data that can be combined with a 
+bootable Linux cloud image, so when that image boots, it is conﬁ gured based on your data.

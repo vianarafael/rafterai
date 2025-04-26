@@ -1,0 +1,5 @@
+It also runs a nightly incremental backup from Monday to Saturday. We will 
+alter this so that it runs another full backup every third week; we will cover how to do this shortly.
+
+In the default JobDefs, we can also see that the Storage resource has been defined as File. This points 
+to the name of the storage device defined by Name = File.

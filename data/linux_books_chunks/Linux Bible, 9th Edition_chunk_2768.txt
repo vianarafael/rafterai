@@ -1,0 +1,2 @@
+The service could be in a 
+stopped/wait state, awaiting an event on the system.

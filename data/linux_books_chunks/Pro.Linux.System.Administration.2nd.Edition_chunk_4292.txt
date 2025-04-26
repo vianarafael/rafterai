@@ -1,0 +1,4 @@
+We’re going to 
+start our configuration by setting up the OpenVPN server on our bastion host in our head office, and then 
+we’ll configure connections to our branch offices. A connection between two offices like this is called a static 
+or point-to-point VPN.

@@ -1,0 +1,6 @@
+Get Fedora. Choose the Fedora Live media image you want to use, download it to 
+
+your local system, and burn it to a DVD, as described in Chapter 1. See Appendix A for 
+information on how to get the Fedora Live media and burn it to a DVD or USB drive.
+
+2.  Boot the Live image. Insert the DVD or USB drive.

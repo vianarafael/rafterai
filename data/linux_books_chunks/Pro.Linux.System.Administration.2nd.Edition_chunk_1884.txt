@@ -1,0 +1,17 @@
+You can view such scripts with the following:
+
+# rpm –q --scripts bash
+postinstall scriptlet (using <lua>):
+nl        = '\n'
+sh        = '/bin/sh'..nl
+bash      = '/bin/bash'..nl
+f = io.open('/etc/shells', 'a+')
+if f then
+  local shells = nl..f:read('*all')..nl
+  if not shells:find(nl..sh) then f:write(sh) end
+  if not shells:find(nl..bash) then f:write(bash) end
+  f:close()
+end
+
+In the above Lua script (Lua is a programming language) we can see the script that gets executed 
+after we install the bash program.

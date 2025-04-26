@@ -1,0 +1,16 @@
+A good place to start is https://help.ubuntu.com/community/
+UbuntuBackports.
+
+In this section we’ll show you how to compile software from source and also give you some tips on how 
+
+to keep such source installations manageable.
+
+348
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Building applications from source generally has three phases:
+
+1.  Configure the application.
+
+2.

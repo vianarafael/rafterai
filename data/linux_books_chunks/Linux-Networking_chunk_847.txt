@@ -1,0 +1,28 @@
+Our pubread is listed as the
+fourth share.
+
+[root@RHEL52 samba]# smbclient -NL 127.0.0.1
+Domain=[WORKGROUP] OS=[Unix] Server=[Samba 3.0.33-3.7.el5]
+
+ Sharename       Type      Comment
+ ---------       ----      -------
+ IPC$            IPC       IPC Service (Public Anonymous File Server)
+ global$         Disk 
+ pub0            Disk 
+ pubread         Disk      files to read
+Domain=[WORKGROUP] OS=[Unix] Server=[Samba 3.0.33-3.7.el5]
+
+ Server               Comment
+ ---------            -------
+ TEACHER0             Samba 3.0.33-3.7.el5
+ W2003EE 
+
+ Workgroup            Master
+ ---------            -------
+ WORKGROUP            W2003EE
+
+215
+
+a read only file server
+
+17.4.2.

@@ -1,0 +1,5 @@
+Let’s test with our database backups in the next section.
+
+Backing Up Databases with Bareos Plug-Ins
+We now want to show you a more advanced scenario. We have a MariaDB database running on our 
+headoffice.example.com host.

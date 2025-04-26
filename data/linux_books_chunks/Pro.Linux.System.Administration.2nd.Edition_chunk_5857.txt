@@ -1,0 +1,50 @@
+Let’s make the CentOS host green.
+
+$ vi manifests/site.pp
+class httpd {
+
+  package {'httpd': ensure => 'latest' }
+  service { ‘httpd’: enable => true, ensure => true }
+
+}
+
+include httpd
+
+979
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Running the provision and the rake spec again, and we can now see we are green in both Ansible and 
+
+Puppet.
+
+Package "apache2"
+  should be installed
+
+Service "apache2"
+  should be enabled
+  should be running
+
+Port "80"
+  should be listening
+
+Finished in 0.06992 seconds (files took 8.41 seconds to load)
+4 examples, 0 failures
+
+-----
+Package "httpd"
+  should be installed
+
+Service "httpd"
+  should be enabled
+  should be running
+
+Port "80"
+  should be listening
+
+Finished in 0.11897 seconds (files took 7.98 seconds to load)
+4 examples, 0 failures
+
+There are many more tests that you can run, and these were very basic, but we now get the idea how 
+
+helpful this can be when you are making lots of changes to systems.

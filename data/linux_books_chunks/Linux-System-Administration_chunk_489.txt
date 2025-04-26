@@ -1,0 +1,4 @@
+example: mirror a logical volume
+
+We start by creating three physical volumes for lvm. Then we verify the creation and the
+size with pvs.

@@ -1,0 +1,15 @@
+net view
+
+Below is a screenshot of the net view command on Microsoft Windows Server 2003 sp2.
+It shows how a Red Hat Enterprise Linux 5.3 and a Ubuntu 9.04 Samba server, both with a
+minimalistic smb.conf, are visible to Microsoft computers nearby.
+
+C:\Documents and Settings\Administrator>net view
+Server Name            Remark
+----------------------------------------------------------------------
+\\LAIKA                Samba 3.3.2                                             
+\\RHEL53               Samba 3.0.33-3.7.el5                                    
+\\W2003                                                                        
+The command completed successfully.
+
+16.1.5.

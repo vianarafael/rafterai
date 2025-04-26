@@ -1,0 +1,12 @@
+By 
+
+selecting as we have in Figure 2-14 we are going to localize our Data & Time.
+
+Figure 2-14.  Setting Date & Time
+
+29
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Setting the correct time zone is very important for servers as it affects things like the timestamp in logs 
+and the create and update records in databases.

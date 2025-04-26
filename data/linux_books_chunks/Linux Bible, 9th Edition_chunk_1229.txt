@@ -1,0 +1,8 @@
+Assign town and street to variables called mytown and mystreet, 
+and output them with a sentence that reads as shown in the following code (of 
+course, $mystreet and $mytown will appear with the actual town and street the 
+user enters):
+
+The street I grew up on was $mystreet and the town was $mytown.
+
+4.

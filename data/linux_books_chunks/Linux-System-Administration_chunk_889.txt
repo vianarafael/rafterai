@@ -1,0 +1,9 @@
+apt-get install
+
+You can install one or more applications by appending their name behind apt-get install.
+The screenshot shows how to install the rsync package.
+
+root@ubu1204~# apt-get install rsync
+Reading package lists... Done
+Building dependency tree       
+Reading state information...

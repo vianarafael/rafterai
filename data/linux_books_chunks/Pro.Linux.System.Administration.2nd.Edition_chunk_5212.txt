@@ -1,0 +1,42 @@
+Beat from Gateway Server Logs
+
+{
+    "@timestamp" => 2016-12-04T06:33:33.868Z,
+    "offset" => 11979,
+    "@version" => "1",
+    "input_type" => "log",
+    "beat" => {
+        "hostname" => "gateway.example.com",
+            "name" => "gateway.example.com",
+         "version" => "5.0.2"
+     },
+     "host" => "gateway.example.com",
+     "source" => "/var/log/messages",
+      "message" => "Dec  4 06:33:24 gateway jsmith: tesing this is a test",
+      "fields" => {
+           "env" => "production"
+       },
+
+866
+
+Chapter 18 ■ Logging and Monitoring
+
+       "type" => "log",
+       "tags" => [
+          [0] "security",
+          [1] "network",
+          [2] "beats_input_codec_plain_applied"
+       ]
+}
+
+Let’s briefly take a look at the audit log we are collecting too:
+
+         "host" => "gateway.example.com",
+         "source" => "/var/log/audit/audit.log",
+         "message" => "type=SERVICE_STOP msg=audit(1480834167.796:997): pid=1 uid=0 
+auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=NetworkManager-
+dispatcher comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? 
+res=success'",
+         "type" => "log",
+
+Immediately you will notice that audit.log is not is the same format as your normal rsyslog.

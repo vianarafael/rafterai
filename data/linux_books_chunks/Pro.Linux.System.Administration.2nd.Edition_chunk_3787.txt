@@ -1,0 +1,12 @@
+in this situation, data integrity and consistency start to drift apart 
+as both servers continue to serve and store data but can no longer sync any data between each other.
+
+GlusterFS Key Concepts
+
+There are several key concepts when thinking of GlusterFS.
+
+•	
+
+The GlusterFS network filesystem is a “no metadata” distributed filesystem, which 
+means that it does not have a dedicated metadata server that is used to handle file 
+location data.

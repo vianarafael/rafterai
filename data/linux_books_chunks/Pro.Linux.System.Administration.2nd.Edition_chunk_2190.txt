@@ -1,0 +1,10 @@
+The metadata, the location of the file, is then updated in the same way to 
+reflect the new location of the data.
+
+374
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+We will quickly demonstrate how create a Btrfs partition and mount it. We have a new disk that has been 
+
+attached to our host. We have discovered via dmesg that this new disk has been given the device /dev/sdc.

@@ -1,0 +1,6 @@
+a raspberry pi is even better 
+used for learning! See https://www.raspberrypi.org/.
+
+CUPS
+We will begin by showing you how to configure a new printer that is attached via USB to your host. You can 
+then share that with other hosts in your network.

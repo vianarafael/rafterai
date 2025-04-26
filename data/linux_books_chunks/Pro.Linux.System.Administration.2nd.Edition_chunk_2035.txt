@@ -1,0 +1,11 @@
+Configuring Our Source Tree
+
+~/nginx-1.10.1$ ./configure --prefix=/opt/nginx
+checking for OS
+ + Linux 4.4.0-22-generic x86_64
+checking for C compiler ... found
+ + using GNU C compiler
+ + gcc version: 5.3.1 20160413 (Ubuntu 5.3.1-14ubuntu2.1)
+checking for gcc -pipe switch ... found
+checking for -Wl,-E switch ... found
+checking for gcc builtin atomic operations ...

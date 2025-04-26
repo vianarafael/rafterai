@@ -1,0 +1,7 @@
+Therefore, you need to review the ﬁ le and set resource limits to match your organization’s 
+security needs.
+
+PAM confi guration fi les are in the /etc/pam.d directory and the /etc/security directory.
+
+The following snippet shows the /etc/security/limits.conf ﬁ le. The ﬁ le is well 
+ documented.

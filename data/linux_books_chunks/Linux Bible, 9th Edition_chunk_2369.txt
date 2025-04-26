@@ -1,0 +1,7 @@
+This makes it nearly 
+ impossible for crackers to completely erase their tracks.
+
+Understanding the rsyslog.conf file
+The /etc/rsyslog.conf ﬁ le is the primary conﬁ guration ﬁ le for the rsyslog service. If 
+you have used the older syslog facility, you will notice that the rules section is the same 
+in both ﬁ les.

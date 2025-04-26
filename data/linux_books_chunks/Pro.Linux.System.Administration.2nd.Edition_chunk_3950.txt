@@ -1,0 +1,4 @@
+We specified the command to be run when we use the key and the hosts that can connect with it, and 
+we limited the functions normally allowed with general users. Anyone connecting with this key will now be 
+able to run only the ssh_limiter.sh script, which allows only the rsync command to be executed and only 
+connections originating from the *.example.com domain.

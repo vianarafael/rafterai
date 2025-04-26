@@ -1,0 +1,9 @@
+For 
+
+ ■ Note 
+example, without the correct supporting configuration, you can’t specify the NtlM mechanism.
+
+In Listing 12-9, we’ve also enabled the LOGIN authentication mechanism in case any of our users have 
+
+a Microsoft client, but we’re not going to enable any other types. The vast majority of clients will support 
+PLAIN, and many others will also support the LOGIN authentication type.

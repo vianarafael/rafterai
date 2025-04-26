@@ -1,0 +1,3 @@
+It is also this setting that 
+stops your mail becoming an open relay like we talked about earlier. The mail server will only accept mail 
+that is configured for the domains listed here.

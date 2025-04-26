@@ -1,0 +1,13 @@
+This  tool  will  use  a
+'windowed' interface in command line to manage network interfaces.
+
+nmtui
+
+268
+
+interface configuration
+
+22.3.5. /sbin/ifup and /sbin/ifdown
+
+The ifup and ifdown commands will set an interface up or down, using the configuration
+discussed above.

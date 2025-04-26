@@ -1,0 +1,8 @@
+Display your user name and your unique user identification (userid).
+
+laura@debian7:~$ id
+uid=1005(laura) gid=1007(laura) groups=1007(laura)
+laura@debian7:~$
+
+5. Use su to switch to another user account (unless you are root, you will need the password
+of the other account).

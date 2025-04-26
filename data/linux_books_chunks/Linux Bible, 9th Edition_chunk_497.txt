@@ -1,0 +1,8 @@
+Then click Add, and select the image from your Pictures folder.
+
+ ■ Fonts—Different fonts can be selected to use by default with your applications, 
+
+documents, desktop, window title bar, and for ﬁ xed width.
+
+Using the GNOME panels
+The GNOME panels are placed on the top and bottom of the GNOME desktop.

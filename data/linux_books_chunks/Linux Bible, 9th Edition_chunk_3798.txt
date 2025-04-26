@@ -1,0 +1,6 @@
+Then press Enter, and type b to boot the new entry.
+
+Why would you boot to different runlevels for troubleshooting? Runlevel 1 bypasses 
+authentication, so you boot directly to a root prompt. This is good if you have 
+ forgotten the root password and need to change it (type passwd to do that). 
+Runlevel 3 bypasses the start of your desktop interface.

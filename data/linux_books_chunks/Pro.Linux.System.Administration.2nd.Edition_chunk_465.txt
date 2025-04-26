@@ -1,0 +1,3 @@
+But in a lot of cases, people access Linux hosts remotely. This 
+is particularly true for Linux hosts running as servers that might be hosted in a data center or in another 
+geographical location, or stored in a rack or cabinet.

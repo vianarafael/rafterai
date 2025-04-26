@@ -1,0 +1,6 @@
+the command 
+aptitude takes care of dependencies and manages relationships between packages; the dpkg command  
+does not.
+
+The dpkg command allows you to list which packages are installed, install package files you had 
+previously downloaded, and find out to which packages files on the system belong.

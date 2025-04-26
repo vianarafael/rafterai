@@ -1,0 +1,7 @@
+We’ve done it here using the yum 
+
+command:
+
+$ sudo yum install -y postfix dovecot
+
+ Some additional prerequisite packages can also be installed by either of these commands.

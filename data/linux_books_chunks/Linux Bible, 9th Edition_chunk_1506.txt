@@ -1,0 +1,24 @@
+Either set the time manually with 
+up/down arrows or select Network Time to have your system try to automatically 
+
+208
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 209
+
+Chapter 9: Installing Linux
+
+connect to networked time servers to sync system time. Select Done when you 
+are ﬁ nished.
+
+FIGURE 9.3
+
+Choose from Localization, Software, and System topics on the Installation Summary screen.
+
+6.

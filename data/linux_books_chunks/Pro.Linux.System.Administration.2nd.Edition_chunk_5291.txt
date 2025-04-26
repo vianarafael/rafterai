@@ -1,0 +1,26 @@
+This is useful to confirm you don’t have any errors.
+
+On CentOS, we would run the following:
+
+$ sudo nagios -v /etc/nagios/nagios.cfg
+
+On Ubuntu, depending if you chose Nagios version 3 or built version 4 like we did earlier, you will find it here:
+
+$ sudo nagios3 -v /etc/nagios3/nagios.cfg
+
+or here:
+
+$ sudo /usr/local/nagios/bin/nagios -v /etc/nagios/nagios.cfg
+
+The -v option checks that all configuration is correct and, if so, outputs a statistical report showing the 
+
+number of configuration objects defined.
+
+ after changing nagios configuration, you need to restart the daemon for the new configuration to be 
+
+ ■ Note 
+parsed.
+
+The nagios.cfg File
+
+The nagios.cfg configuration file contains the base configuration for your Nagios installation.

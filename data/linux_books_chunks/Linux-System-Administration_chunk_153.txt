@@ -1,0 +1,13 @@
+kill
+
+The kill command will kill (or stop) a process. The screenshot shows how to use a standard
+kill to stop the process with pid 1942.
+
+paul@ubuntu910:~$ kill 1942
+paul@ubuntu910:~$
+
+By using the kill we are sending a signal to the process.
+
+1.3.2. list signals
+
+Running processes can receive signals from each other or from the users.

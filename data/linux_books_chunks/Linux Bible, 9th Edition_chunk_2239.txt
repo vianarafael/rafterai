@@ -1,0 +1,8 @@
+(See Chapter 20, “Conﬁ guring 
+an NFS File Server.”)
+
+ ■ Mail Server—These types of packages enable you to conﬁ gure e-mail servers, 
+
+ sometimes referred to as a Mail Transport Agent (MTA) server. You have several 
+choices of e-mail servers, including sendmail (default in Fedora), postfix 
+(default in RHEL), and exim.

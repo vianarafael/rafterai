@@ -1,0 +1,18 @@
+If you want to 
+try along with the examples, be sure to remove or reinstall the package when you are 
+ﬁ nished.
+
+# rpm -i zsh-5.0.7-4.fc21.x86_64.rpm
+# echo hello > /bin/zsh
+# rm /etc/zshrc
+# rpm -V zsh
+
+10
+
+255
+
+c10.indd  04/01/2015  Page 256
+
+Part III: Becoming a Linux System Administrator
+
+S.5....T.

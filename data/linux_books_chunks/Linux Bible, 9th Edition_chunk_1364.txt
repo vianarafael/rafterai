@@ -1,0 +1,4 @@
+To list the boot IDs for each time the system was booted, 
+use the –list-boots option. To view messages associated with a particular boot instance, 
+use the -b option with one of the boot instances. To see only kernel messages, use the -k 
+option.

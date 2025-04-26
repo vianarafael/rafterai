@@ -1,0 +1,7 @@
+leaving debugging on can impact the performance of your 
+Dovecot server.
+
+Getting Help with Dovecot
+
+A considerable amount of useful information is available to help you resolve any potential issues with Dovecot. 
+The best place to start when trying to get help is the Dovecot home page at www.dovecot.org/.

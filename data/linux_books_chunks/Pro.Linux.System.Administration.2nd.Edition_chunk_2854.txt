@@ -1,0 +1,8 @@
+The Hypertext Markup Language 
+
+(HTML)–like syntax <IfModule ssl_module>…</IfModule> denotes that the Listen 443 directive should 
+be loaded only if the ssl_module is loaded. This can prevent Apache from erroring when modules have not 
+been enabled yet.
+
+Ubuntu also differs from CentOS in the way that you include modules and configuration files, like 
+virtual hosts.

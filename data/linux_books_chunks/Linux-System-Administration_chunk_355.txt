@@ -1,0 +1,17 @@
+But to use a partition as a swap partition
+it must be formatted and mounted as swap space.
+
+6.2.9. gfs
+
+Linux clusters often use a dedicated cluster filesystem like GFS, GFS2, ClusterFS, ...
+
+6.2.10. and more...
+
+You may encounter reiserfs on older Linux systems. Maybe you will see Sun's zfs or the
+open source btrfs. This last one requires a chapter on itself.
+
+59
+
+file systems
+
+6.2.11.

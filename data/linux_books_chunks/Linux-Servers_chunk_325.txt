@@ -1,0 +1,21 @@
+fully qualified domain name
+
+The fully qualified domain name or fqdn is the combination of the hostname of a machine
+appended with its domain name.
+
+If for example a system is called gwen and it is in the domain linux-training.be, then the
+fqdn of this system is gwen.linux-training.be.
+
+On Linux systems you can use the hostname and dnsdomainname commands to verify
+this information.
+
+root@gwen:~# hostname
+gwen
+root@gwen:~# dnsdomainname
+linux-training.be
+root@gwen:~# hostname --fqdn
+gwen.linux-training.be
+root@gwen:~# cat /etc/debian_version
+6.0.10
+
+4.2.7.

@@ -1,0 +1,5 @@
+We do this via a NetStreamDriver called gtls, 
+which implements our TLS transport (GnuTLS). A NetStreamDriver can provide sequenced delivery, 
+authentication, and secure transport.
+
+We need to provide our TLS certificate files, and they are described as shown previously.

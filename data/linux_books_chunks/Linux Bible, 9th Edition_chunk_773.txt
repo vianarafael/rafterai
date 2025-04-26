@@ -1,0 +1,33 @@
+95
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c04.indd  04/01/2015  Page 97
+
+Moving around the Filesystem
+
+ C H A P T E R 
+
+4
+
+IN THIS CHAPTER
+
+Learning about the Linux fi lesystem
+
+Listing fi le and directory attributes
+
+Making fi les and directories
+
+Listing and changing permission and ownership
+
+Making copies and moving fi les
+
+T he Linux ﬁ lesystem is the structure in which all the information on your computer is stored.

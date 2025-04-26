@@ -1,0 +1,13 @@
+You will be able to set rules like: “Allow the marketing department’s  virtual 
+
+150
+
+c06.indd  04/01/2015  Page 151
+
+Chapter 6: Managing Running Processes
+
+machines to consume up to 40 percent of the available memory” or “Pin the database 
+ application to a particular CPU and memory set.”
+
+Knowing how Linux can limit and contain the resource usage by the set of processes 
+assigned to a task will ultimately help you manage your computing resources better.

@@ -1,0 +1,8 @@
+Consider using DROP for inbound trafﬁ c so that any malicious personnel 
+are unaware that their trafﬁ c is being blocked.
+
+There are a couple of additional more sophisticated targets for iptables, such as QUEUE. You can fi nd out more 
+about these targets via the man iptables command.
+
+The iptables utility implements a software ﬁ rewall using the filter table via policies 
+and rules.

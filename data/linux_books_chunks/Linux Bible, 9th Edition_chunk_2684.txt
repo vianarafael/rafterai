@@ -1,0 +1,9 @@
+The ﬁ rst 
+item displayed is the server’s previous runlevel, which in the following example is 5. The 
+second item displayed shows the server’s current runlevel, which in this example is 3.
+
+$ runlevel
+5 3
+
+In addition to the init command, you can also use the telinit command, which is 
+ functionally the same.

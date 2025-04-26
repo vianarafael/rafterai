@@ -1,0 +1,6 @@
+In this case, you’re going to not 
+just help the client see hosts behind the gateway host but also tell the client how to configure itself, especially 
+its DHCP settings.
+
+You’ll also see how to force all traffic up through the VPN. This is a method commonly used to ensure a 
+user’s traffic goes only to your organization.

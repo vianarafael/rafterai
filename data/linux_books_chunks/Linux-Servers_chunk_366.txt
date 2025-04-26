@@ -1,0 +1,10 @@
+Your freshly install dns server is not using a cache, and it is not using your local
+dns server (from /etc/resolv.conf). So where is this information coming from ? And what
+can you learn from sniffing this dns traffic ?
+
+77
+
+introduction to DNS
+
+4.  Explain  in  detail  what  happens  when  you  enable  a  caching  only  dns  server  without
+forwarder.

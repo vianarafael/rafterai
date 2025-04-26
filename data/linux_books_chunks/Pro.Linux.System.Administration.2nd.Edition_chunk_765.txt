@@ -1,0 +1,6 @@
+Use chsh -l on Centos to see a list 
+
+ ■ Tip 
+of all the available shells. on Ubuntu, you can see the list in the /etc/shells file.
+
+Table 5-3.

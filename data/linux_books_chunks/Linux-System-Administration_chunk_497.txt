@@ -1,0 +1,10 @@
+This means the snapshot volume
+has to keep more original data (10.22 percent).
+
+[root@RHEL5 ~]# lvs | grep vg42
+  bigLV    vg42       owi-ao 200.00M                              
+  snapLV   vg42       swi-a- 100.00M bigLV   10.22                
+[root@RHEL5 ~]#
+
+You can now use regular backup tools (dump, tar, cpio, ...) to take a backup of the snapshot
+Logical Volume.

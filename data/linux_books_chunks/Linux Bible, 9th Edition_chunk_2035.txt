@@ -1,0 +1,3 @@
+A swap space is a hard disk swap partition or a swap ﬁ le where your 
+computer can “swap out” data from RAM that isn’t being used at the moment and then 
+“swap in” the data back to RAM when it is again needed.

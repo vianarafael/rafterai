@@ -1,0 +1,8 @@
+Here’s an example of a script that uses the read command:
+
+#!/bin/bash
+read -p "Type in an adjective, noun and verb (past tense): " a1 n1 v1
+echo "He sighed and $v1 to the elixir. Then he ate the $a1 $n1."
+
+In this script, after prompting for an adjective, noun, and verb, the user is expected to 
+enter words that are then assigned to the adj1, noun1, and verb1 variables.

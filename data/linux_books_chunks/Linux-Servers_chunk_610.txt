@@ -1,0 +1,17 @@
+This example shows how to provide credentials
+with smbclient.
+
+[paul@RHEL53 ~]$ smbclient -L w2003 -U administrator%stargate
+Domain=[W2003] OS=[Windows Server 2003 3790 Service Pack 2] Server=...
+
+ Sharename       Type      Comment
+ ---------       ----      -------
+ C$              Disk      Default share
+
+149
+
+getting started with samba
+
+ IPC$            IPC       Remote IPC
+ ADMIN$          Disk      Remote Admin
+...

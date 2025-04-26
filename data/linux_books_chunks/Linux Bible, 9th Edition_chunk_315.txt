@@ -1,0 +1,6 @@
+If you really love a project, for goodness sake, buy a T-shirt!
+
+This is in no way an exhaustive list, because more creative ways are being invented every 
+day to support those who create open source software. Remember that many people have 
+become contributors to and maintainers of open source software because they needed or 
+wanted the software themselves.

@@ -1,0 +1,6 @@
+These controls are all 
+checked when users log in to the host and are generally managed by a series of modules. These modules are 
+collectively known as Pluggable Authentication Modules (PAM). Almost all Linux distributions, including 
+CentOS and Ubuntu, rely on PAM to control how and when users can interact with hosts.
+
+In this section, we’ll introduce you to PAM and how it works.

@@ -1,0 +1,4 @@
+It contains one file called simple_echo.sh and we intend to install that into the /usr/
+local/bin directory.
+
+Before we go any further we need to create our simple_echo.spec file and put it in the SPECS directory.

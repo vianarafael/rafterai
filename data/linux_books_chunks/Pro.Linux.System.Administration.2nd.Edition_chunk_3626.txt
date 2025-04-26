@@ -1,0 +1,4 @@
+We will give a list of possible alternatives for this.
+Lastly, we’ll show you how to configure printing and print services on your Linux host. We’ll 
+
+demonstrate both how to print from your host and how to make your host act as a print server.

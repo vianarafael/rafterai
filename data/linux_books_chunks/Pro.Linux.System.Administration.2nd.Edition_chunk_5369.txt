@@ -1,0 +1,3 @@
+Until nagios exhausts all its check attempts, 
+the host or service is marked as a soft fail state. When the check attempts are exhausted and a notification is 
+generated, the host or service is now in a hard fail state.

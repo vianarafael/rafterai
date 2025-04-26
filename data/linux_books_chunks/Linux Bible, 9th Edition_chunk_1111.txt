@@ -1,0 +1,2 @@
+In this case, I just wanted updatedb to run in 
+the background (&) and not interrupt work being done by other processes on the system.

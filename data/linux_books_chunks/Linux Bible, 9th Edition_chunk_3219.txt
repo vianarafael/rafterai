@@ -1,0 +1,7 @@
+If a different program is listening to port 80, it is shown there. You can use the kill 
+command to terminate the process, but if it is something other than httpd, you should 
+also ﬁ nd out why it is running.
+
+If you don’t see any other processes listening on port 80, it could be that you have 
+ accidentally told Apache to listen on the same IP address and port combination in more 
+than one place.

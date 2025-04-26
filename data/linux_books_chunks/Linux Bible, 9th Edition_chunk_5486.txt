@@ -1,0 +1,12 @@
+See also CUPS
+adding, 425–426
+LDP/LPR, 433–434
+local, 429–432
+as print servers, 441–445
+Print Settings window, 428–435
+remote, 432–435
+SMB, 434–435
+status, listing, 440–441
+web-based CUPS administration, 426–428
+printers.conf ﬁ le, 435, 438–439, 442–443
+printing.

@@ -1,0 +1,8 @@
+For example, if 
+you mount /usr/trip and /usr/trip/extra as NFS fi lesystems and /usr/trip is not yet mounted when 
+/usr/trip/extra tries to mount, /usr/trip/extra times out. If you’re lucky, /usr/trip comes up and 
+/usr/trip/extra mounts on the next retry.
+
+ ■ fg—If the ﬁ rst mount attempt times out, try subsequent mounts in the fore-
+
+ground. This is the default behavior.

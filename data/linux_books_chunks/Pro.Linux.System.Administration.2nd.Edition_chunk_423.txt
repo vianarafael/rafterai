@@ -1,0 +1,7 @@
+The X application provides an underlying “windowing” 
+environment.
+
+ You won’t need to worry about installing or managing x. Your distribution will generally install this for 
+
+ ■ Note 
+you if you install a GuI desktop.

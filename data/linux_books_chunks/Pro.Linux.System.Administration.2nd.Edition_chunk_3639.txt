@@ -1,0 +1,4 @@
+Also, Samba 
+4 currently supports up to Windows Server 2012 R2, but 2012 servers will require a Windows 2008 
+server to join the Samba AD first. Windows Server 2012 or 2012 R2 directory schemas are currently 
+experimental.

@@ -1,0 +1,6 @@
+The 
+
+second is that the growing volume of the data collected by the systems can become overwhelming.
+
+This is where correlation comes in. Correlation is best defined as the act of detecting relationships 
+between data.

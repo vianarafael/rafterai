@@ -1,0 +1,23 @@
+Using the 
+-q option, you can see information about the package, including a description (-qi), list 
+of ﬁ les (-ql), documentation (-qd), and conﬁ guration ﬁ les (-qc).
+
+# rpm -qi zsh
+Name      : zsh
+Version   : 5.0.7
+Release   : 4.fc21
+...
+# rpm -ql zsh
+/bin/zsh
+/etc/skel/.zshrc
+/etc/zlogin
+/etc/zlogout
+...
+# rpm -qd zsh/usr/share/doc/zsh/BUGS
+/usr/share/doc/zsh/CONTRIBUTORS
+/usr/share/doc/zsh/FAQ# rpm -qc zsh
+/etc/skel/.zshrc
+/etc/zlogin
+/etc/zlogout
+
+You can use options to query any piece of information contained in an RPM.

@@ -1,0 +1,16 @@
+This is done by adding the following line to /etc/sysctl.conf:
+
+net.ipv4.ip_forward = 1
+
+22
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+2. System Recovery
+
+When a system crashes and fails to restart it is necessary to alter the normal booting 
+process.

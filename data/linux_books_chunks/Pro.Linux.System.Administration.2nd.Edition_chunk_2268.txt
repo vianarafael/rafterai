@@ -1,0 +1,7 @@
+There are several ways to combat this. One is to use LVM which can group multiple disks and present 
+them as one device, or you can use BtrFS which can do a similar thing. In this section we are going to show 
+you another alternative, RAID.
+
+RAID allows you to use multiple disks as if they were a single larger disk, with optional built-in 
+
+redundancy.

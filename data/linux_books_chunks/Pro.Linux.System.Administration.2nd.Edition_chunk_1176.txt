@@ -1,0 +1,4 @@
+We have talked about systemd targets and that they bring 
+the system up to a certain state where the right processes are running. In SysV we called them runlevels and 
+they were controlled by a series of files symlinked from the /etc/rcX.d directories. Well with systemd this 
+concept of a single runlevel is not quite accurate, as many targets can be active at once.

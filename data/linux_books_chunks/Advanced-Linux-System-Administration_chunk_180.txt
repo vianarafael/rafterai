@@ -1,0 +1,16 @@
+A logical volume can be thought of 
+as a partition. 
+
+           Volume Group (VG)                                  
+
+                     Logical Volume
+
+              Physical Extent (PE) 
+
+                                              /dev/hda10      /dev/hdb1        /dev/hdd1     
+
+Physical Volume (PV)
+
+Kernel and software components
+
+The LVM kernel module is lvm-mod.o.

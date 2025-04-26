@@ -1,0 +1,14 @@
+four DoD layers
+
+The DoD (or tcp/ip) model has only four layers, roughly mapping its network access layer
+to OSI layers 1 and 2 (Physical and Datalink), its internet (IP) layer to the OSI network
+layer, its host-to-host (tcp, udp) layer to OSI layer 4 (transport) and its application layer
+to OSI layers 5, 6 and 7.
+
+Below an attempt to put OSI and DoD layers next to some protocols and devices.
+
+254
+
+general networking
+
+21.1.3.

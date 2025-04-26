@@ -1,0 +1,3 @@
+Many of the 
+commands for MySQL are the same in MariaDB, and the configuration and environment variables are the 
+same, making it easy to swap these databases in and out.

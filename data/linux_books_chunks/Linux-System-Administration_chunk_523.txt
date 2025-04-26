@@ -1,0 +1,17 @@
+This must be done before removing a Physical Volume.
+
+[root@RHEL5 ~]# pvs | grep vg1
+  /dev/sdf   vg1        lvm2 a-   816.00M      0 
+  /dev/sdg   vg1        lvm2 a-   816.00M 816.00M
+[root@RHEL5 ~]# pvmove /dev/sdf
+  /dev/sdf: Moved: 70.1%
+  /dev/sdf: Moved: 100.0%
+[root@RHEL5 ~]# pvs | grep vg1
+  /dev/sdf   vg1        lvm2 a-   816.00M 816.00M
+  /dev/sdg   vg1        lvm2 a-   816.00M      0
+
+116
+
+logical volume management
+
+11.12.

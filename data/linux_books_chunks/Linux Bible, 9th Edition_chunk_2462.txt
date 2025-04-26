@@ -1,0 +1,6 @@
+By default, external interfaces are 
+set to start automatically using DHCP.
+
+ ■ Request DHCP service—The Linux system acts as a DHCP client to send out a 
+
+request for DHCP service on each enabled interface.

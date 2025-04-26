@@ -1,0 +1,7 @@
+To display journal log 
+ messages directly from the systemd journal, instead of viewing them from ﬁ les in the
+/var/log directory, use the journalctl command.
+
+Enabling system logging with rsyslog
+Most of the ﬁ les in the /var/log directory are populated with log messages directed to 
+them from the rsyslog service. The rsyslogd daemon is the system logging daemon.

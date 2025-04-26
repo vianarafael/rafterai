@@ -1,0 +1,8 @@
+They 
+
+allow processes to communicate with each other. You’ll see some sockets and named pipes later in the book.
+
+Permissions
+
+The next nine characters detail the access permissions assigned to the file or directory. On Linux, 
+permissions are used to determine what access users and groups have to a file.

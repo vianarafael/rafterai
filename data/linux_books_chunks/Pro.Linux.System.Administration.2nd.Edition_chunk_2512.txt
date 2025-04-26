@@ -1,0 +1,12 @@
+8300   IN      A       216.239.38.10
+
+432
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+;; Query time: 11 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sun Jun 26 00:11:48 UTC 2016
+;; MSG SIZE rcvd: 371
+
+In Listing 10-9 you can see that dig outputs the query results in distinct sections.

@@ -1,0 +1,7 @@
+41               IN              A             150.101.161.153
+
+You can use dig to query any DNS server for specific record types as well. Table 10-1 lists the most 
+
+commonly used record types. We’ll set up some of these later as well.
+
+Table 10-1.

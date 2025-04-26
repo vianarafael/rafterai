@@ -1,0 +1,8 @@
+On Ubuntu, the first new user would have a 
+UID and GID of 1000 as well.
+
+ You can control the range of the UIds and GIds that are provided to users in the /etc/login.defs file. 
+
+ ■ Tip 
+edit the UID_MIN and UID_MAX range for UIds and the GID_MIN and GID_MAX range for GIds. It’s unlikely you’ll 
+ever want to do this, but the option is there.

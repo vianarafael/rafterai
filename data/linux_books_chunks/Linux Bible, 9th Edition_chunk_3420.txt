@@ -1,0 +1,23 @@
+The WantedBy line indicates that smb.service should 
+start when the system boots up into multi-user mode (multi-user.target), which it 
+does by default.
+
+503
+
+c19.indd  04/01/2015  Page 504
+
+Part IV: Becoming a Linux Server Administrator
+
+In RHEL 6 and earlier, you can start the Samba service as follows:
+
+# service smb start
+Starting SMB services:        [  OK  ]
+# chkconfig smb on
+# service smb status
+smbd (pid  28056) is running...
+# chkconfig --list smb
+smb              0:off  1:off  2:on  3:on  4:on  5:on  6:off
+
+Whether you are running your Samba server on RHEL, Fedora, or another Linux system, 
+you can check access to the Samba server using the smbclient command (from the 
+samba-client package).

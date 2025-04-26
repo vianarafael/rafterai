@@ -1,0 +1,5 @@
+Both of the tools we’re going to look at use special 
+configuration files called APt source files to define where they will go to find these repositories and 
+what types of packages they want to have available.
+
+APt and Aptitude use these source files to find information about tens of thousands of packages.

@@ -1,0 +1,15 @@
+Here’s how to check if 
+that is true on your system:
+
+$ alias mv
+alias mv='mv -i'
+
+Here are some examples of using the cp command to copy ﬁ les from one location to another:
+
+$ cp abc def
+$ cp abc ~
+$ cp -r /usr/share/doc/bash-completion* /tmp/a/
+$ cp -ra /usr/share/doc/bash-completion* /tmp/b/
+
+The ﬁ rst copy command (cp) copies abc to the new name def in the same directory, 
+whereas the second copies abc to your home directory (~), keeping the name abc.

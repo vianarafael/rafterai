@@ -1,0 +1,13 @@
+rpm -q
+
+To verify whether one package is installed, use rpm -q.
+
+root@RHELv4u4:~# rpm -q gcc
+gcc-3.4.6-3
+root@RHELv4u4:~# rpm -q laika
+package laika is not installed
+
+20.6.4. rpm -Uvh
+
+To install or upgrade a package, use the -Uvh switches. The -U switch is the same as -i
+for install, except that older versions of the software are removed.

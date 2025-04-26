@@ -1,0 +1,3 @@
+This value comes from the ServerLimit value 
+multiplied by the ThreadsPerChild value, which is set to 25. StartServers is the initial number of threads 
+launched. MinSpareThreads and MaxSpareThreads define the minimum and maximum spare idle threads.

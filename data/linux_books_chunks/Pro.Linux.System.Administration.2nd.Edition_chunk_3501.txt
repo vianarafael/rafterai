@@ -1,0 +1,14 @@
+We do that by adding the 
+following to our CentOS host:
+
+milter_default_action = accept
+smtpd_milters = unix:/var/run/clamav-milter/clamav-milter.socket
+
+Because with Ubuntu we are talking to the milter over the loopback address, we will need to have the 
+
+following:
+
+milter_default_action = accept
+smtpd_milters = inet:7357
+
+Lastly, on CentOS, we need to make some adjustments to our SELinux policies.

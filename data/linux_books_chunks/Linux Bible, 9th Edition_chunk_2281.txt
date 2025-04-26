@@ -1,0 +1,11 @@
+In other words, SELinux makes sure that a web server, 
+FTP server, Samba server, or DNS server can access only a restricted set of ﬁ les on the 
+ system (as deﬁ ned by ﬁ le contexts) and allow only a restricted set of features (as deﬁ ned by 
+Booleans and limited port access).
+
+Details about how to use SELinux are contained in Chapter 24, “Enhancing Linux Security 
+with SELinux.”
+
+Security settings in configuration files
+Within the conﬁ guration ﬁ les of most services are values you can set to further secure the 
+service.

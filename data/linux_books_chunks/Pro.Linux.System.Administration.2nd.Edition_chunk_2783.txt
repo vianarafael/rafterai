@@ -1,0 +1,6 @@
+We will 
+cover such name-based virtual hosting in Chapter 12.
+
+Conversely, you can provide users on a remote host access to a service on your local network by 
+
+creating a remote forward using the -R option.

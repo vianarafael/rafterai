@@ -1,0 +1,8 @@
+We are going to 
+show you this shortly too.
+
+ if you run a high-volume, high-traffic web site, you might consider changing to a different apache 
+
+ ■ Note 
+engine or different web server altogether, such as nginx. nginx differs from apache as it is truly a nonblocking, 
+event-driven, large-scale web server.

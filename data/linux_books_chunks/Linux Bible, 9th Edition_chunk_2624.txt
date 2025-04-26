@@ -1,0 +1,2 @@
+Hostname-to-IP 
+address mapping is done in zone ﬁ les located in the /var/named directory.

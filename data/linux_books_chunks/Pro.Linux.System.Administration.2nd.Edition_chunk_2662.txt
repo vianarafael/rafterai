@@ -1,0 +1,10 @@
+You can check the /var/log/syslog file to verify that the zone is being transferred, or you can query 
+the slave server using host or dig to ensure the zone data is present.
+
+453
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+While watching the bind log (sudo journalctl –xf –u bind9) you and send a $ sudo rndc notify 
+
+example.com command to tell the slaves to check in and transfer the zones.

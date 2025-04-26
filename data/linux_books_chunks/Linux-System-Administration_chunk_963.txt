@@ -1,0 +1,7 @@
+short introduction to the physical layer
+
+The  physical  layer,  or  layer  1,  is  all  about  voltage,  electrical  signals  and  mechanical
+connections. Some networks might still use coax cables, but most will have migrated to utp
+(cat 5 or better) with rj45 connectors.
+
+Devices  like  repeaters  and  hubs  are  part  of  this  layer.

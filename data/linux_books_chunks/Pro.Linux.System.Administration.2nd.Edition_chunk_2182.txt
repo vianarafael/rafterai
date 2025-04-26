@@ -1,0 +1,2 @@
+These utilities are provided by the xfsprogs package, 
+before you begin you should have this installed.

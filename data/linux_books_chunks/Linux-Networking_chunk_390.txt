@@ -1,0 +1,15 @@
+An Apache test page should be shown.
+
+You can do the following to quickly avoid the 'could not reliably determine the fqdn' message
+when restarting apache.
+
+root@debian7:~# echo ServerName Debian7 >> /etc/apache2/apache2.conf
+root@debian7:~# service apache2 restart
+Restarting web server: apache2 ... waiting .
+root@debian7:~#
+
+79
+
+apache web server
+
+8.1.4.

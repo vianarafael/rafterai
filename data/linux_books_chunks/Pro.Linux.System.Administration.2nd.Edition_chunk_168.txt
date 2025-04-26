@@ -1,0 +1,7 @@
+So to combat this a network Time 
+service or nTp service (for network Time protocol) will query time servers and find out what their clocks are. It 
+then adjusts its own clock based on the best three responses. We speak more on nTp in chapter 10.
+
+When your network is set you will be able to turn on Network Time and it will look like Figure 2-17.
+
+Figure 2-17.

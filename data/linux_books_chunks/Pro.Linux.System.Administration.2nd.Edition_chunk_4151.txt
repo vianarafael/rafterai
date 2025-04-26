@@ -1,0 +1,3 @@
+The reason behind this is that 
+we are confident that we will be able to rebuild this host as fast or faster than we can restore it. This way we 
+can reduce the size of our backups without increasing our risk of not being able to restore data if we need it.

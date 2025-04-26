@@ -1,0 +1,15 @@
+In this section, we are 
+going to do the following:
+
+•	 Create a new backup volume in GlusterFS and update our GlusterFS configuration
+
+•	
+
+Add a new record to our DNS server
+
+•	 Mount volume and setup directories
+
+•	 Configure Bareos storage
+
+Bareos can talk directly to the Gluster daemon via the libgfapi provided by the bareos-storage-
+glusterfs package.

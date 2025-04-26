@@ -1,0 +1,5 @@
+In order to keep it truly private, use the public key of the recipient to encrypt with the gpg2 options: --sign 
+and --encrypt. The recipient can decrypt with his or her private key.
+
+Understanding a few cryptography basics will help you get started on securing your Linux 
+system with encryption. Keep in mind that we’ve covered just the basics in this  chapter.

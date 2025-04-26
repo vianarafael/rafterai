@@ -1,0 +1,16 @@
+In most large enterprises, user account information is 
+stored in a centralized authentication server, so each time you install a new Linux system, 
+instead of adding user accounts to that system, you have the Linux system query the 
+authentication server when someone tries to log in.
+
+As with local passwd/shadow authentication, conﬁ guring centralized authentication 
+requires that you provide two types of information: account information (username, user/
+group IDs, home directory, default shell, and so on) and authentication method (different 
+
+278
+
+c11.indd  04/01/2015  Page 279
+
+Chapter 11: Managing User Accounts
+
+types of encrypted passwords, smart cards, retinal scans, and so on).

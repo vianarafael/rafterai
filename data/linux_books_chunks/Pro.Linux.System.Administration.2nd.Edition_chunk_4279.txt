@@ -1,0 +1,10 @@
+The branch has an internal IP address range of 192.168.30.0/24.
+
+702
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Introducing OpenVPN
+OpenVPN (http://openvpn.net/) is an open source SSL VPN application written by James Yonan that is 
+available under the GNU GPLv2 license (OpenVPN v2) and AGPL (OpenVPN v3). There is also a commercial 
+version under a separate EULA.

@@ -1,0 +1,11 @@
+From the left column, select Routers.
+
+Click the Create Router button.
+
+Type a Router Name (myrouter01), and click Create router.
+
+Select the Set Gateway button.
+
+ From the Set Gateway screen, click the External Network box and 
+choose from the available external networks. Leave the Router Name 
+and Router ID as they are. Click Set Gateway.

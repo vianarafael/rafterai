@@ -1,0 +1,29 @@
+This file
+contains a list of http or ftp sources where packages for the distribution can be downloaded.
+
+This is what that list looks like on my Debian server.
+
+root@debian6:~# cat /etc/apt/sources.list
+deb http://ftp.be.debian.org/debian/ squeeze main
+deb-src http://ftp.be.debian.org/debian/ squeeze main
+
+deb http://security.debian.org/ squeeze/updates main
+deb-src http://security.debian.org/ squeeze/updates main
+
+# squeeze-updates, previously known as 'volatile'
+deb http://ftp.be.debian.org/debian/ squeeze-updates main
+deb-src http://ftp.be.debian.org/debian/ squeeze-updates main
+
+On my Ubuntu there are four times as many online repositories in use.
+
+root@ubu1204~# wc -l /etc/apt/sources.list
+63 /etc/apt/sources.list
+
+There is much more to learn about apt, explore commands like add-apt-repository, apt-
+key and apropos apt.
+
+236
+
+package management
+
+20.6.

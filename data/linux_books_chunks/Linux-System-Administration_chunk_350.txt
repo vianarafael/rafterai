@@ -1,0 +1,9 @@
+ext4 supports larger files (up to 16 terabyte) and larger file systems than
+ext3 (and many more features).
+
+Development started by making ext3 fully capable for 64-bit. When it turned out the changes
+were significant, the developers decided to name it ext4.
+
+6.2.4. xfs
+
+Redhat Enterprise Linux 7 will have XFS as the default file system.

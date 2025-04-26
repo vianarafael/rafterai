@@ -1,0 +1,15 @@
+Here we have used mtr to trace the route between the host au-mel-
+
+centos-1 and www.ibm.com using the following command:
+
+$ sudo /usr/sbin/mtr www.ibm.com --report
+Start: Tue May 17 18:04:01 2016
+HOST: au-mel-centos-1             Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 192.168.0.254              0.0%    10    2.7   2.4   1.8   3.2   0.0
+  2.|-- lnx20.mel4.something.net   0.0%    10  444.7 339.7 231.5 514.1 101.8
+  3.|-- xe-0-3-2.cr1.mel4.z.net    0.0%    10  456.4 332.2 211.5 475.6 103.0
+  4.|-- ae0.cr1.mel8.boo.net       0.0%    10  463.3 338.3 240.2 463.3  91.1
+  5.|-- ???                        100%    10    0.0   0.0   0.0   0.0   0.0
+  6.|-- a104-97-227-232.deploy.st  0.0%    10  476.3 341.9 229.3 476.3  97.0
+
+Because we have used the --report switch the output isn’t shown until at least ten packets are sent.

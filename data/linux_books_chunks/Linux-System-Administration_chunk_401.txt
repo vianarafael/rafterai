@@ -1,0 +1,12 @@
+Verify your work with fdisk, df and mount. Also look in /etc/mtab and /proc/mounts.
+
+fdisk -l
+df -h
+mount
+
+All three the above commands should show your mounted partitions.
+
+grep project22 /etc/mtab
+grep project22 /proc/mounts
+
+4.

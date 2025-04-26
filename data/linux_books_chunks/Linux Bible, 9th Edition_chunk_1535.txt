@@ -1,0 +1,7 @@
+That location can be a local CD (cdrom), website 
+(http), FTP site (ftp), NFS share (nfs), NFS ISO (nfsiso), or local disk (hd).
+
+ ■ Modify installation with kickstart scripts. Scripts included in a kickstart can 
+
+run commands you choose before or after the installation to further conﬁ gure the 
+Linux system.

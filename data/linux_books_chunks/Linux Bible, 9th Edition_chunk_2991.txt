@@ -1,0 +1,2 @@
+For example, when a new printer is created from the Print 
+Settings window, it is deﬁ ned in the /etc/cups/printers.conf ﬁ le.

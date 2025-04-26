@@ -1,0 +1,6 @@
+it doesn’t take long for the script kiddies to find your 
+host and try for common and preventable exploits.
+
+There are some other rules that can help prevent different network attacks. A common attack is called 
+
+the SYN flood where the attacker send bogus SYN packets to the victim.

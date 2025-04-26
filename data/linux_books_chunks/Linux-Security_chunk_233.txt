@@ -1,0 +1,5 @@
+By default, the usermod command
+will remove the user from every group of which he is a member if the group is not listed in
+the command! Using the -a (append) switch prevents this behaviour.
+
+5.5.

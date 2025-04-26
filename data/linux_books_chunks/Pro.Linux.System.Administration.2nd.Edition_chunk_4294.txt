@@ -1,0 +1,6 @@
+Point-to-point VPN configuration between the head office and branches
+
+Configuring OpenVPN on Our Gateway Server
+
+We’ve installed OpenVPN on our head office’s bastion server, gateway.example.com, and now we’re going to 
+start configuring it. We start by telling OpenVPN a few basics about our configuration.

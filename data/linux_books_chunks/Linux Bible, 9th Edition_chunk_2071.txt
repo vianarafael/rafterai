@@ -1,0 +1,6 @@
+For a USB ﬂ ash drive, just plug it into an available USB port. Going forward, I use 
+
+an 8GB USB ﬂ ash drive, but you can get a USB ﬂ ash drive of any size.
+
+2.  Determine the device name for the USB drive. As root user from a shell, type the 
+following tail command, and then insert the USB ﬂ ash drive.

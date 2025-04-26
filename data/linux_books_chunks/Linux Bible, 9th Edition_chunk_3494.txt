@@ -1,0 +1,6 @@
+Removing the semicolons enables you to quickly set up different kinds of shared 
+information. The other information illustrated in the smb.conf ﬁ le in the next  sections 
+reﬂ ects the same Samba conﬁ guration I added during the system-config-samba procedure.
+
+Keep in mind that you don’t have to use any graphical interface at all when conﬁ guring 
+Samba.

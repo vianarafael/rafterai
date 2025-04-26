@@ -1,0 +1,6 @@
+It is similar to the python language, another very 
+
+ ■ Tip 
+popular powerful language. I encourage you to go to http://tryruby.org/ and check it out.
+
+So let’s create a basic configuration for our first Vagrant image.

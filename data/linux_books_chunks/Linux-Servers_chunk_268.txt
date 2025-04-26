@@ -1,0 +1,34 @@
+The population can be seen as an integer.
+
+mysql> create table country (
+    -> countrycode char(3) NOT NULL,
+    -> countryname varchar(70) NOT NULL,
+    -> population int,
+    -> countrycapital varchar(50),
+    -> primary key (countrycode)
+    -> );
+Query OK, 0 rows affected (0.19 sec)
+
+mysql> show tables;
++------------------------+
+| Tables_in_famouspeople |
++------------------------+
+| country                |
++------------------------+
+1 row in set (0.00 sec)
+
+mysql>
+
+You are allowed to type the create table command on one long line, but administrators often
+use multiple lines to improve readability.
+
+mysql> create table country ( countrycode char(3) NOT NULL, countryname\
+ varchar(70) NOT NULL, population int, countrycapital varchar(50), prim\
+ary key (countrycode) );
+Query OK, 0 rows affected (0.18 sec)
+
+49
+
+introduction to sql using mysql
+
+3.4.3.

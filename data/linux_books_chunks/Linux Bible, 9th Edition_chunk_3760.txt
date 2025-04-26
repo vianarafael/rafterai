@@ -1,0 +1,11 @@
+When an event occurs, Upstart can start, stop, or change 
+a process to react to that event.
+
+Because Upstart is being phased out of the Linux distributions covered in this book 
+(Fedora, RHEL, Debian, and Ubuntu), our discussion of understanding and  troubleshooting 
+the boot process is focused on the traditional System V init process and the newer 
+ systemd facility.
+
+Starting from the fi rmware (BIOS or UEFI)
+When you physically turn on a computer, ﬁ rmware is loaded to initialize the hardware and 
+ﬁ nd an operating system to boot.

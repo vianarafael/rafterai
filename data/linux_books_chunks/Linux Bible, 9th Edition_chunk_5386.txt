@@ -1,0 +1,7 @@
+In 
+general, however, you can use arrow keys and tab keys to move between different 
+columns and press Enter to select an entry.
+
+ ■ On my Dell workstation, under the System heading, I highlight Processor Info 
+
+to see that mine is a 64-bit Technology computer.

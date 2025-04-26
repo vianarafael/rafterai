@@ -1,0 +1,6 @@
+For example, copy 
+the .config file to the /boot directory. 
+
+cp .config /boot/config-kernelversion
+
+1.

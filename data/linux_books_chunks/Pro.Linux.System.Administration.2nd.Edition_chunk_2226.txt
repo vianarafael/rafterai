@@ -1,0 +1,4 @@
+In this case, it’s because our current working directory is /mnt/
+data and our host can’t unmount the device while we’re in the directory—that is, we are sitting in the 
+directory we are trying to unmount! A device could be busy for many reasons, and it’s not always clear which 
+user or application has opened which files or directories.

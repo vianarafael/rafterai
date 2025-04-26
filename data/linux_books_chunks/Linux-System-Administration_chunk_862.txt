@@ -1,0 +1,6 @@
+sadc and sar
+
+The sadc tool writes system utilization data to /var/log/sa/sa??, where ?? is replaced with
+the current day of the month. By default, cron runs the sal script every 10 minutes, the sal
+script runs sadc for one second. Just before midnight every day, cron runs the sa2 script,
+which in turn invokes sar.

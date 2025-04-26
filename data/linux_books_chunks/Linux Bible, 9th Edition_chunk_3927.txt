@@ -1,0 +1,4 @@
+If you have multiple NICs, make sure the cable is plugged into the correct one. If 
+you know the name of a network interface (eth0, p4p1, or other), to ﬁ nd which NIC is 
+associated with the interface, type ethtool -p eth0 from the command line and look 
+behind your computer to see which NIC is blinking (Ctrl+C stops the blinking).

@@ -1,0 +1,14 @@
+Answering these 
+questions will give your company its backup strategy.
+
+Chapter 14 ■ BaCkup and reCovery
+
+•	 What is it we are trying to back up?
+
+•	 How often do we need to back up the data?
+
+•	 How long do we want to keep the data backed up?
+
+•	 Where should we store our backups and on what media?
+
+The important thing here is to know your data.

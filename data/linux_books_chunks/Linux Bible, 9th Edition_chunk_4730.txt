@@ -1,0 +1,7 @@
+This needed access control can be accomplished, via the /etc/
+hosts.allow and /etc/hosts.deny ﬁ les, for selected services on Linux systems that 
+incorporate TCP Wrapper support.
+
+If it has TCP Wrapper support, a network service uses libwrap. To check for libwrap, you 
+can run the ldd command on the network service daemon. The following example shows 
+that the ssh daemon uses TCP Wrappers.

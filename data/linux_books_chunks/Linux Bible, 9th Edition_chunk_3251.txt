@@ -1,0 +1,35 @@
+476
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c18.indd  04/01/2015  Page 477
+
+Confi guring an FTP Server
+
+C H A P T E R 
+
+18
+
+IN THIS CHAPTER
+
+Learning how FTP works
+
+Getting a vsftpd server installed
+
+Choosing security settings for vsftpd
+
+Setting up vsftpd confi guration fi les
+
+Running FTP clients
+
+T he File Transfer Protocol (FTP) is one of the oldest protocols in existence for sharing ﬁ les over 
+
+networks.

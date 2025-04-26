@@ -1,0 +1,3 @@
+Keep in mind that if you refer 
+to ﬁ les or directories in your remote commands, relative paths are interpreted in relation to 
+the user’s home directory.

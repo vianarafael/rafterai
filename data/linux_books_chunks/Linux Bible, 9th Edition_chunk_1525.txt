@@ -1,0 +1,7 @@
+When 
+you install Linux in a cloud environment, those physical components are abstracted into 
+a pool of resources. So, to install a Linux distribution in an Amazon EC2, Google Compute 
+Engine, or OpenStack cloud platform, you need to go about things differently.
+
+The common way of installing Linux in a cloud is to start with a ﬁ le that is an image of 
+an installed Linux system.

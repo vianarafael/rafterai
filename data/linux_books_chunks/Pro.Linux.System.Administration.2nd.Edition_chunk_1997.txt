@@ -1,0 +1,6 @@
+Listing the Linux Kernel
+
+ ■ Tip  Because the default Linux terminal is only 80 characters wide and dpkg wants to display information 
+for each package on a single line only, it is unable to display the full package name if this is longer than 14 
+characters. For many packages, this is not a problem, but the kernel packages have long names and so don’t 
+display completely.

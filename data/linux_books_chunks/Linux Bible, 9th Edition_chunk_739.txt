@@ -1,0 +1,31 @@
+For example, 
+you could type export PS1="[\t \w]\$ " to see a prompt that looks like this: [20:26:32 /var/spool]$.
+
+TABLE 3.7    Characters to Add Information to bash Prompt
+
+Special 
+Character
+
+Description
+
+\!
+
+\#
+
+\$
+
+\W
+
+\[
+
+\]
+
+\\
+
+\d
+
+\h
+
+\n
+
+This shows the current command history number.

@@ -1,0 +1,7 @@
+However, before you can do that, you must take these steps:
+
+1.  Add a ﬂ oating IP address. From the OpenStack Dashboard, select Instances from 
+
+the left column, click More on the entry containing the instance, and click Associate 
+Floating IP. Select the plus sign (+) next to the IP Address box, select a Pool that has 
+ﬂ oating IPs available, and click Allocate IP.

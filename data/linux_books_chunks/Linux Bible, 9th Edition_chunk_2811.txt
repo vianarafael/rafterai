@@ -1,0 +1,12 @@
+Consider the following job deﬁ nition ﬁ le for the ssh daemon:
+
+# cat /etc/init/ssh.conf
+# ssh - OpenBSD Secure Shell server
+# The OpenSSH server provides secure shell access to the system.
+description   "OpenSSH server"
+start on filesystem or runlevel [2345]
+stop on runlevel [!2345]
+respawn
+
+To determine what emitted events trigger a service, look for start on in the conﬁ guration 
+ﬁ le.

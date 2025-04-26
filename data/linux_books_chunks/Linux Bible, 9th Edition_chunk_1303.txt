@@ -1,0 +1,7 @@
+Refer to the sudoers and sudo man pages for information about how to tune 
+your sudo facility.
+
+Exploring Administrative Commands, Confi guration 
+Files, and Log Files
+You can expect to ﬁ nd many commands, conﬁ guration ﬁ les, and log ﬁ les in the same places 
+in the ﬁ lesystem, regardless of which Linux distribution you are using.

@@ -1,0 +1,10 @@
+Almost everything 
+you set up for your particular computer—user accounts, network addresses, or GUI 
+ preferences—is stored in plaintext ﬁ les. This has some advantages and some 
+disadvantages.
+
+8
+
+The advantage of plain text ﬁ les is that it’s easy to read and change them. Any text editor 
+will do. The downside, however, is that as you edit conﬁ guration ﬁ les, no error checking is 
+going on.

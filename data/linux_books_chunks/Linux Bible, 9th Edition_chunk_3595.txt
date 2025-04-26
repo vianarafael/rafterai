@@ -1,0 +1,5 @@
+In particular, you can see the options you can use to limit access and secure 
+each shared directory.
+
+As root user, you can use any text editor to conﬁ gure /etc/exports to modify shared 
+directory entries or add new ones.

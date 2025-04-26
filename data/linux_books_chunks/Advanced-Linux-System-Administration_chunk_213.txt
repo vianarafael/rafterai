@@ -1,0 +1,28 @@
+The 
+boot catalog contains a default entry which points to a floppy or hard disk boot image.
+
+52
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+The mkisofs tool can take a boot image (floppy or hard disk) and add the image in the 
+root directory of th CDROM (usually boot/).
+
+Using disk emulation
+
+Assuming we are creating the CD in a directory called CD-root, we can create the 
+bootable disk image with dd.
+
+dd  if=/path/to/boot/image  of=<CD-root>/boot/boot.img
+
+The iso-image is then created with the following command:
+
+mkisofs -b boot/boot.img -c boot/boot.catalog -o boot-cd.iso .
+
+Alternatives without disk emulation
+
+It is possible to make a bootable CD using the ISOLINUX bootloader.

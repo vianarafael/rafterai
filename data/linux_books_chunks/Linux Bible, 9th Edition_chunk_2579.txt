@@ -1,0 +1,11 @@
+IN     A
+;; ANSWER SECTION:
+redhat.com.          60     IN     A     209.132.183.181
+;; Query time: 105 msec
+;; SERVER: 8.8.128.23#53(8.8.128.23)
+;; WHEN: Sun Apr 24 08:32:32 2016
+;; MSG SIZE  rcvd: 44
+
+By default, the host command produces simpler output for DNS queries. It shows the 
+IP address for redhat.com and the names of the mail servers (MX records) that serve 
+redhat.com.

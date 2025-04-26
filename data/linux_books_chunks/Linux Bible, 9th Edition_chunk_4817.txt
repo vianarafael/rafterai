@@ -1,0 +1,13 @@
+This is useful for testing out 
+ individual policies and rules.
+
+# iptables -F
+# iptables -vnL
+Chain INPUT (policy ACCEPT)
+target     prot opt source     destination
+Chain FORWARD (policy ACCEPT)
+target     prot opt source     destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source     destination
+
+A ﬂ ush of the rules does not affect the iptables conﬁ guration ﬁ le.

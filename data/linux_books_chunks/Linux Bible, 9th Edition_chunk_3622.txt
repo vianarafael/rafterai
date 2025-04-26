@@ -1,0 +1,7 @@
+The /mnt/win 
+directory is available to all client computers.
+
+Securing Your NFS Server
+The NFS facility was created at a time when encryption and other security measures were 
+not routinely built into network services (such as remote login, ﬁ le sharing, and remote 
+execution).

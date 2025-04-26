@@ -1,0 +1,11 @@
+Again we can choose 
+
+to manually configure the interface, or allow it to be configured via DHCP with the drop-down option.
+
+Figure 7-5.  Adding an IP address in CentOS network settings
+
+We can do the same thing if you are running the Ubuntu desktop to manage your server. In Figure 7-6 
+
+we are using the Unity Desktop’s search facility to find the network settings.
+
+Figure 7-6.

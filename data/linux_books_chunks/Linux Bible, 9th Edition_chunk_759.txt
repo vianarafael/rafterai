@@ -1,0 +1,6 @@
+(Replace command with the command name you want.) A description of 
+the command and its options appears on the screen.
+
+Man pages are the most common means of getting information about commands, as well as 
+other basic components of a Linux system. Each man page falls into one of the categories 
+listed in Table 3.8. As a regular user, you will be most interested in man pages in section 1.

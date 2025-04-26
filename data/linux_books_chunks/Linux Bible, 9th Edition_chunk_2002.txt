@@ -1,0 +1,5 @@
+The next section describes these authentication domains.
+
+Using the Authentication Confi guration window
+Earlier versions of Fedora and Red Hat Enterprise Linux use a graphical window, called the 
+Authentication Conﬁ guration window, for conﬁ guring centralized authentication.

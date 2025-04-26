@@ -1,0 +1,10 @@
+This should kill a process immediately, 
+
+regardless of whether it can be done cleanly.
+
+6
+
+ ■ Change—Presents a slider bar from which you can renice a process. Normal  priority 
+
+is 0. To get better processor priority, use a negative number from –1 to –20. To 
+have a lower processor priority, use a positive number (0 to 19).

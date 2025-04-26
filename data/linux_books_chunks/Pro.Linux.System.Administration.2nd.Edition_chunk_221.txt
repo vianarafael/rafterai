@@ -1,0 +1,5 @@
+Choose the installer language
+
+Then you are presented with a splash screen (see Figure 2-42) that gives several options. We are going 
+to choose Install Ubuntu Server but you will also see some other new options. Ubuntu has a product called 
+MAAS—or Metal As A Service. This is a a “zero-touch” deployment service for data center scale installations.

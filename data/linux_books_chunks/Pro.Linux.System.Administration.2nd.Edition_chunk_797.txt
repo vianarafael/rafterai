@@ -1,0 +1,3 @@
+It is important to note that the groupdel command 
+won’t delete the primary group of any user—for example, you couldn’t delete the ataylor group before you 
+deleted the ataylor user. If you want to delete a user’s primary group, you must delete the user first.

@@ -1,0 +1,3 @@
+In this example, a path definition in [printer] defines a spooling 
+directory. When your printer spools your printout to this path via the [printer] service, Samba automatically 
+passes it on to CUPS for printing. Setting the value for path in another service will not trigger this behavior.

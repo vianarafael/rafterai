@@ -1,0 +1,10 @@
+On CentOS, we need to install the spamassassin package and tell it to start 
+the SpamAssassin daemon automatically.
+
+$ sudo yum install spamassassin
+
+On Ubuntu, we need to install the spamassassin and spamc packages.
+
+$ sudo aptitude install spamassassin
+
+When SpamAssassin opens, it launches a daemon called spamd.

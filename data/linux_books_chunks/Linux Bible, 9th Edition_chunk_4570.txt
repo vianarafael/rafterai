@@ -1,0 +1,26 @@
+Both commands are shown in the code that follows:
+
+# getenforce
+Enforcing
+# sestatus
+SELinux status:                 enabled
+SELinuxfs mount:                /sys/fs/selinux
+SELinux root directory:         /etc/selinux
+Loaded policy name:             targeted
+Current mode:                   enforcing
+Mode from config file:          enforcing
+Policy MLS status:              enabled
+Policy deny_unknown status:     allowed
+Max kernel policy version:      28
+
+To change the mode setting, you can use the setenforce newsetting, where 
+newsetting is either:
+
+ ■ enforcing or 1
+
+ ■ permissive or 0
+
+Notice that you cannot use the setenforce command to change SELinux to disabled mode.
+
+The example that follows shows the SELinux mode being changed immediately to permis-
+sive mode via the setenforce command.

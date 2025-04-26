@@ -1,0 +1,7 @@
+But the understanding you have 
+gained from learning about YUM and RPM will serve as a solid foundation for any RHEL 
+software installation work you do in the future.
+
+Summary
+Software packaging in Fedora, Red Hat Enterprise Linux, and related systems is provided 
+using software packages based on the RPM Package Manager (RPM) tools.

@@ -1,0 +1,13 @@
+Agreeing to the Let’s Encrypt terms of service
+
+In Figure 11-17 we are presented with two options.
+
+515
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-17.  Securing our web site
+
+The first option is Easy; this is where we keep http:// alongside https:// access. The second option 
+
+(Secure) is where we allow only https:// access to our web site.

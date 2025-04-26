@@ -1,0 +1,12 @@
+To put an ext3 ﬁ lesystem on the Linux partition, type the following:
+
+# mkfs -t ext3 /dev/sdb1
+
+6.  To create a mount point called /mnt/mypart and mount the Linux partition on it 
+
+temporarily, do the following:
+
+# mkdir /mnt/mypart
+# mount -t ext3 /dev/sdb1 /mnt/mypart
+
+7.

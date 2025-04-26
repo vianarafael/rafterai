@@ -1,0 +1,20 @@
+For example, let’s say you had a shell script named myscript that 
+contained the following:
+
+#!/bin/bash
+# Script to echo out command-line arguments
+echo "The first argument is $1, the second is $2."
+echo “The command itself is called $0.”
+
+Assuming the script is executable and located in a directory in your $PATH, the following 
+shows what would happen if you ran that command with foo and bar as arguments:
+
+$ chmod 755 /home/chris/bin/myscript
+$ myscript foo bar
+The first argument is foo, the second is bar.
+The command itself is called /home/chris/bin/myscript.
+
+As you can see, the positional parameter $0 is the full path or relative path to myscript, 
+$1 is foo, and $2 is bar.
+
+Another variable, $#, tells you how many parameters your script was given.

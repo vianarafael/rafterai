@@ -1,0 +1,11 @@
+old DNS security: file corruption
+
+To mitigate file corruption on the zone files and the bind configuration files protect them
+with Unix permissions and take regular backups.
+
+11.5.9. old DNS security: zone transfers
+
+Limit zone transfers to certain ip addresses instead of to any. Nevermind that ip-addresses
+can be spoofed, still use this.
+
+11.5.10.

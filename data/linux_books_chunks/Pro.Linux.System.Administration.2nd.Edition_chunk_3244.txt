@@ -1,0 +1,5 @@
+We are ready to begin testing.
+
+Testing Postfix
+We can now test to see whether Postfix is working by sending ourselves an e-mail. Like we did at the start 
+of this chapter, we are going to do this through the useful tool called netcat (nc).

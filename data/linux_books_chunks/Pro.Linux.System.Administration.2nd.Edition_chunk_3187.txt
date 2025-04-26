@@ -1,0 +1,5 @@
+this can often occur if your user has mistyped or 
+specified an incorrect e-mail address.
+
+The e-mail server then submits your outgoing e-mail to another queue, and from there it is sent on to the 
+destination e-mail server.

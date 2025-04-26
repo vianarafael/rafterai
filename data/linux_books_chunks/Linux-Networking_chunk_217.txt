@@ -1,0 +1,21 @@
+ping
+
+If you can ping to another host, then tcp/ip is configured.
+
+[root@RHEL4b ~]# ping 192.168.1.5
+PING 192.168.1.5 (192.168.1.5) 56(84) bytes of data.
+64 bytes from 192.168.1.5: icmp_seq=0 ttl=64 time=1004 ms
+64 bytes from 192.168.1.5: icmp_seq=1 ttl=64 time=1.19 ms
+64 bytes from 192.168.1.5: icmp_seq=2 ttl=64 time=0.494 ms
+64 bytes from 192.168.1.5: icmp_seq=3 ttl=64 time=0.419 ms
+
+--- 192.168.1.5 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3009ms
+rtt min/avg/max/mdev = 0.419/251.574/1004.186/434.520 ms, pipe 2
+[root@RHEL4b ~]#
+
+25
+
+interface configuration
+
+2.11.

@@ -1,0 +1,7 @@
+To prevent this, the GPL assures that patents 
+cannot be used to render the program non-free.
+
+The precise terms and conditions for copying, distribution and modiﬁ cation follow.
+
+Terms and Conditions
+0.

@@ -1,0 +1,3 @@
+A small client application runs on one of your 
+systems and remotely updates host records on the DNS servers whenever your IP address changes. The TTL 
+on these dynamic DNS services is low enough not to interrupt services like mail delivery.

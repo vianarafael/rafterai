@@ -1,0 +1,6 @@
+Now, you can have many “terminals” on one screen by opening multiple virtual 
+ terminals or Terminal windows on the desktop.
+
+In this shell session, not much is happening. The ﬁ rst process shows that the user named 
+jake opened a bash shell after logging in. The next process shows that jake has run the 
+ps u command. The terminal device tty1 is being used for the login session.

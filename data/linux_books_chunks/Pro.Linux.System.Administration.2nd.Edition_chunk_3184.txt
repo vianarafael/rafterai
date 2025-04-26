@@ -1,0 +1,8 @@
+The e-mail server then uses a Doman Name System 
+(DNS) query to contact the remote domain and ask it where to send the e-mail.
+
+ ■ Note 
+
+ We discussed DNS in Chapter 10.
+
+The e-mail server does this by querying a special kind of DNS record called an MX record.

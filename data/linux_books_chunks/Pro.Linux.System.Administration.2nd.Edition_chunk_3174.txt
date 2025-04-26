@@ -1,0 +1,10 @@
+This starts with 
+
+sending the sender and recipient details, what is commonly called the envelope.
+
+MAIL FROM: <ataylor@example.com>
+250 2.1.0 Ok
+
+Here the sender, ataylor@example.com, has used the MAIL FROM command. The server checks, returns 
+
+the 250 response code, and indicates that this sender is allowed to submit e-mail.

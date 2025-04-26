@@ -1,0 +1,4 @@
+We then use the ssh-keygen command to create our keys. 
+We chose to make the key length 4,096 bytes, -b 4096, and of type rsa, and we called the key exbackup so 
+that we recognize it easier. As the key was being generated, we were asked for the passphrase, and we just 
+pressed Enter twice.

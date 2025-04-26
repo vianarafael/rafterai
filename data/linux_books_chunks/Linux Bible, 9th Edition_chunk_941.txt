@@ -1,0 +1,13 @@
+With both commands, the text most 
+recently stored in the buffer is put into the ﬁ le in different ways.
+
+ ■ P—Puts the copied text to the left of the cursor if the text consists of letters or 
+words; puts the copied text above the current line if the copied text contains 
+lines of text.
+
+ ■ p—Puts the buffered text to the right of the cursor if the text consists of letters or 
+words; puts the buffered text below the current line if the buffered text contains 
+lines of text.
+
+Repeating commands
+After you delete, change, or paste text, you can repeat that action by typing a period (.).

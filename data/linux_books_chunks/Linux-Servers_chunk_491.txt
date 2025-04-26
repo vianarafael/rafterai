@@ -1,0 +1,8 @@
+The  ping  will  not  work  when  packet  forwarding  is  disabled  or
+when gateways are not configured correctly.
+
+5. Use wireshark or tcpdump -xx to answer the following questions. Does the source MAC
+change when a packet passes through the filter ? And the destination MAC ? What about
+source and destination IP-addresses ?
+
+Both MAC addresses are changed when passing the router.

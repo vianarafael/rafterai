@@ -1,0 +1,6 @@
+We would take these steps whether we 
+were generating a certificate from a commercial or a self-managed CA.
+
+The process creates our private key and a CSR. This CSR is then submitted to a CA, in our case our own 
+
+CA, but also to a commercial CA.

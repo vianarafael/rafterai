@@ -1,0 +1,15 @@
+Copy the DOS boot sector from the disk into a file:
+
+        dd if=/dev/fd0 of=dos.bss bs=512 count=1
+
+3. Run SYSLINUX on the disk:
+
+        syslinux /dev/fd0
+
+4. Mount the disk and copy the DOS boot sector file to it.  The file
+   *must* have extension .bss:
+
+        mount -t msdos /dev/fd0 /mnt
+        cp dos.bss /mnt
+
+5.

@@ -1,0 +1,8 @@
+On Ubuntu, the 
+name server is started automatically when it is installed, but if it were not running we could start it via sudo 
+service bind9 start.
+
+So that our new DNS server can be queried, we need to ensure the firewall is not blocking traffic. DNS 
+
+defaults to using the UDP protocol on port number 53, but it will switch to the TCP if responses contain a 
+large amount of data.

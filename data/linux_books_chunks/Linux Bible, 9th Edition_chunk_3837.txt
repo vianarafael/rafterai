@@ -1,0 +1,6 @@
+Instead, runlevel 3 or 5 is used to boot to, with an 
+administrator simply turning services on or off as required for the running system.
+
+ ■ 5—Multiuser, networking, plus graphical interface runlevel. This is the runlevel 
+typically used with desktop Linux systems. It typically starts networking and all 
+networked services; plus, it launches a graphical login prompt at the console.

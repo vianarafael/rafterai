@@ -1,0 +1,7 @@
+This isn’t necessarily a bad thing, but if the system is “heavily swapping” (that is, 
+moving memory pages in and out of swap space frequently, then because swap is much slower than RAM, it 
+can lead to poor performance).
+
+You can check whether this is the case via the vmstat utility. You normally want to tell this utility to print 
+
+information every few seconds so you can spot any trends.

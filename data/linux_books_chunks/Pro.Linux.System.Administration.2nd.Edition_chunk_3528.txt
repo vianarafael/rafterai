@@ -1,0 +1,7 @@
+To do this, use the swaks command and a special file that contains a test virus 
+signature called eicar.txt, as we demonstrate here:
+
+$ swaks -tls -a -au ataylor -ap password -t jsmith@example.com -f ataylor@example.com --body 
+eicar.txt
+
+We’ve again used the swaks command to send an e-mail to jsmith@example.com.

@@ -1,0 +1,10 @@
+To become jbaxter and temporarily have the testing group be jbaxter’s default 
+group, run touch /home/jbaxter/file.txt—so the testing group is assigned 
+as the ﬁ le’s group—and do the following:
+
+$ su - jbaxter
+Password: My1N1te0ut!
+sh-4.2$ newgrp testing
+sh-4.2$ touch /home/jbaxter/file.txt
+sh-4.2$ ls -l /home/baxter/file.txt
+-rw-rw-r--.

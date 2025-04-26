@@ -1,0 +1,9 @@
+NT_STATUS_LOGON_FAILURE
+
+You can get NT_STATUS_LOGON_FAILURE when you type the wrong password or
+when you type an unexisting username.
+
+[root@RHEL52 samba]# smbclient //teacher0/authwrite -U martina STARGATE
+session setup failed: NT_STATUS_LOGON_FAILURE
+
+14.8.3.

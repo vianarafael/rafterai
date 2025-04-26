@@ -1,0 +1,31 @@
+We will edit the /etc/cups/
+
+cupsd.conf file and add the following:
+
+LogLevel warn
+PageLogFormat
+MaxLogSize 0
+Port 631
+Listen print-srv.example.com
+ServerAlias *
+
+Here we have added the Listen directive to allow it to listen on our printer server interface and have 
+
+added a ServerAlias * so that we can use the print-srv.example.com hostname to connect to the 
+administration web page.
+
+628
+
+We should also add the hostname print-srv.example.com and map that to 192.168.0.1 in our DNS 
+
+server.
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+$ sudo nsupdate –k /etc/bind/dynamic-update-key
+> server ns1.example.com
+> update add print-srv.example.com 86400 A 192.168.0.1
+> send
+<ctrl d>
+
+Here we have used the nsupdate command to add our print-srv.example.com record.

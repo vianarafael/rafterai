@@ -1,0 +1,7 @@
+Thus, these commands allow you to avoid logging 
+in as the root user to perform administrative tasks. The su and sudo commands are critical to securely 
+administering your hosts.
+
+What Happens When You Log In?
+In Chapter 4, we talked about logging a user into a Linux host, and you saw some sample screens showing 
+how you might enter your username and password.

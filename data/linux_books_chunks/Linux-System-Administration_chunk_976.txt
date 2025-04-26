@@ -1,0 +1,8 @@
+lan-wan-man
+
+The term lan is used for local area networks, as opposed to a wan for wide area networks.
+The difference between the two is determined by the distance between the computers, and
+not by the number of computers in a network. Some protocols like atm are designed for use
+in a wan, others like ethernet are designed for use in a lan.
+
+21.3.1.

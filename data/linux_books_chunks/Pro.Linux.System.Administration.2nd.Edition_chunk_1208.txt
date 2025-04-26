@@ -1,0 +1,7 @@
+Find the power symbol, usually top right of the screen, 
+
+and then select the Shutdown option.
+
+Scheduling Services and Commands
+You can schedule repeated jobs with Linux to run at specified events or at specified times or at specified 
+intervals. There are two ways to do this.

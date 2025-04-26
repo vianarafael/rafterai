@@ -1,0 +1,7 @@
+As with all the best UNIX tools, most of these programs are 
+designed to work with standard input and standard output, so you can easily use them with 
+pipes and shell scripts.
+
+The general regular expression parser
+The name general regular expression parser (grep) sounds intimidating, but grep is just a 
+way to ﬁ nd patterns in ﬁ les or text. Think of it as a useful search tool.

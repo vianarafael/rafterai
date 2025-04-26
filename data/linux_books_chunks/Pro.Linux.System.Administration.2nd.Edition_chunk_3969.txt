@@ -1,0 +1,43 @@
+rsync Options
+
+Option
+
+Description
+
+-a
+
+-r
+
+-l
+
+-p
+
+-t
+
+-g
+
+-o
+
+-D
+
+Archive, general-purpose option that copies recursively with these options: -rlptgoD.
+
+Recursively copy directories.
+
+Copy symlinks as symlinks.
+
+Copy permissions.
+
+Copy timestamps.
+
+Copy group permissions.
+
+Copy ownership permissions.
+
+Preserve device (character and block devices) and special files (fifo and named sockets).
+
+--exclude
+
+--include
+
+Exclude directories or file; can be patterns.

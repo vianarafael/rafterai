@@ -1,0 +1,124 @@
+You learned how to do the following:
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+•	
+
+Install Puppet
+
+•	 Configure Puppet
+
+•	 Use Puppet to manage the configuration of your hosts
+
+•	 Use the more advanced features of Puppet
+
+•	
+
+•	
+
+•	
+
+Install and configure Ansible
+
+Run Ansible playbooks
+
+Install and run Serverspec to test your configurations
+
+981
+
+Index
+
+ A
+Access control list (ACLs), 520, 755
+
+access privileges, 756
+blanket denial rule, 760
+break option, 761
+continue option, 761
+filters, 757
+meta users, 759
+password information, 758
+regex style, 756
+stop option, 761
+test, 776, 778
+
+Active Directory (AD), 597, 599–600
+Adduser command, 157
+Advanced Packaging Tool (APT), 333, 335
+Alfresco, 627
+Aliases, 540
+Anaconda application, 14
+Ansible, 957
+
+commands, 959–961
+installation and configuration, 958–959
+inventory, 961–963
+playbooks, 959, 964–965
+Python, 958
+target systems/inventory, 958
+variables and conditionals, 965, 966
+
+Antispam tool, 563–565
+Antivirus, 573
+Apache authentication, 794–795, 902
+Apache virtual host, 782, 786
+Apache web server
+
+CentOS, 474–475
+file and directory, 488
+httpd, 482–483
+installation and configuration, 474
+introduction, 473–474
+modules, 479–481, 486
+MPMs, 473
+Nginx, 474
+PHP support, 486–487
+
+restrictions, 483–486
+Ubuntu, 481–482
+virtual host, 475–479
+
+Apparmor, 576–578
+Application Installer
+categories, 301
+Firefox, 301
+installed packages, 304
+new kernel, 306
+refresh updates, 305
+restart & install, 305
+system up to date, 306
+Application packages, 298
+Application programming interface (API), 89
+apropos command, 114
+Apt cache, 332
+apt-file command, 335
+Aptitude tool
+
+add package dependencies, 328
+become root, 327–328
+command list, 331
+defined, 323
+install package dependencies, 329
+linux-image, 325
+main screen, 323
+noninteractive mode, 331–332
+package description, 323–324
+package information, 324–325
+removal, 330, 333
+repositories, 333–334
+root user warning dialog, 326–327
+search by name, 326
+update, 334–335
+
+A2query command, 480–481
+A record, 445, 446
+Array, 389–396
+Ataylor, 140, 149, 154, 159, 177, 179, 560
+Atlas, 88
+AUTH command, 550
+Authenticated contacts, 903, 905
+Authenticated users, 903
+
+983
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

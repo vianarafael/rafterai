@@ -1,0 +1,18 @@
+This is usually /bin/
+bash.
+
+BASH_VERSION
+
+This is a number representing the current version of the bash command.
+
+EUID
+
+FCEDIT
+
+HISTFILE
+
+This is the effective user ID number of the current user. It is assigned when 
+the shell starts, based on the user’s entry in the /etc/passwd fi le.
+
+If set, this variable indicates the text editor used by the fc command to edit 
+history commands.

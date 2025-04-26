@@ -1,0 +1,11 @@
+You could add 
+the following to the end of a command line.
+
+; mail -s "Finished the long command" chris@example.com
+
+Then, for example, a mail message is sent to the user you choose after the command 
+completes.
+
+Background commands
+Some commands can take a while to complete. Sometimes, you may not want to tie up your 
+shell waiting for a command to ﬁ nish.

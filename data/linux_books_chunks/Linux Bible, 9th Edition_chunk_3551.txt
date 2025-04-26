@@ -1,0 +1,7 @@
+To use the folders, double-click them 
+and enter the required authentication information. Because printers are set up to use raw 
+drivers by default, you need to obtain Windows drivers to use any of the Samba printers.
+
+Using Samba in the Enterprise
+Although beyond the scope of this book, Windows ﬁ le and printer sharing via Samba 
+ servers is a very popular application in large enterprises.

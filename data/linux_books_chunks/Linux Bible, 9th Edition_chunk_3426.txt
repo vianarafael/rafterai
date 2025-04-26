@@ -1,0 +1,8 @@
+To query the nmbd server for the IP address of FEDORA21, you 
+would type the following:
+
+# nmblookup -U localhost FEDORA21
+querying FEDORA21 on 127.0.0.1
+192.168.0.101 FEDORA21<00>
+
+You should be able to see your Samba server running from the local system now.

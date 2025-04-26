@@ -1,0 +1,15 @@
+Most of the sites are for Linux distributions and 
+other open source software sites.
+
+495
+
+c18.indd  04/01/2015  Page 496
+
+Part IV: Becoming a Linux Server Administrator
+
+FIGURE 18.3
+
+The gFTP FTP client lets you see both sides of an FTP session.
+
+Summary
+Setting up an FTP server is an easy way to share ﬁ les over a TCP network.

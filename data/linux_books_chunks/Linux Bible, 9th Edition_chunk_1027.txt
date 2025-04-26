@@ -1,0 +1,13 @@
+Not all
+    ports
+# are included, only the more common ones.
+
+3.  Using ex mode, search for every occurrence of the term tcp (case-sensitive) in 
+
+your /tmp/services ﬁ le and change it to WHATEVER.
+
+4.  As a regular user, search the /etc directory for every ﬁ le named passwd. Redirect 
+
+error messages from your search to /dev/null.
+
+5.  Create a directory in your home directory called TEST.

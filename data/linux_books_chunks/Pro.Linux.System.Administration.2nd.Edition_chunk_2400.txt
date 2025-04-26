@@ -1,0 +1,8 @@
+As you’ve seen 
+earlier in this chapter, you can keep a disk marked as a spare, and that automates part of this process.
+
+To simulate a disk failure, we’ll use mdadm to tell the kernel that /dev/sdb1 has failed, as shown in  
+
+Listing 9-21.
+
+Listing 9-21.

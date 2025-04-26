@@ -1,0 +1,19 @@
+/etc/pcmcia/config – section relevent to scanned card
+
+card "Xircom CBEM56G-100 CardBus 10/100 Ethernet + 56K Modem"
+
+version "Xircom", "*", "CBEM56G"
+
+bind "xircom_cb" to 0
+
+56
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+File and Service Sharing
+
+This module covers SAMBA and NFS.

@@ -1,0 +1,14 @@
+Here is an 
+example of what the output of that command looks like with a corrupted database:
+
+# yum check
+error: db4 error(11) from dbenv->open: Resource temporarily 
+     unavailable
+error: cannot open Packages index using db4 - Resource temporarily
+     unavailable (11)
+error cannot open Packages database in /var/lib/rpm
+CRITICAL:yum.main:
+Error: rpmdb open fails
+
+The RPM database and other information about your installed RPM packages are stored in 
+the /var/lib/rpm directory.

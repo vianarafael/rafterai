@@ -1,0 +1,8 @@
+If we don’t want to be asked for a 
+
+password to use, we can set that on the command line as well, via the -b option.
+
+$ sudo htpasswd -b /opt/apache/www.example.com/passwords ataylor s3kr@t
+Adding password for user ataylor
+
+Next, we need to tell Apache to ask for authentication.

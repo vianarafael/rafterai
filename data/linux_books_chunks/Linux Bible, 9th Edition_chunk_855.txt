@@ -1,0 +1,4 @@
+In the next set of examples, any ﬁ le beginning with g does not appear in the output. Using 
+a -d option on a directory shows information about that directory instead of showing 
+the ﬁ les and directories the directory contains. The -R option lists all ﬁ les in the current 
+directory as well as any ﬁ les or directories that are associated with the original directory.

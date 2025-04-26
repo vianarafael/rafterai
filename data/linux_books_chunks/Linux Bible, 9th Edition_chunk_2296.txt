@@ -1,0 +1,11 @@
+If you are using the Fedora or RHEL distribution, for example, the client and server 
+software packages that contain the ssh tools are openssh, openssh-clients, and 
+openssh-server packages, as follows:
+
+# yum list installed | grep ssh
+...
+openssh.x86_64                  6.4p1-5.fc20        @updates
+openssh-clients.x86_64          6.4p1-5.fc20        @updates
+openssh-server.x86_64           6.4p1-5.fc20        @updates
+
+On Ubuntu, only the openssh-clients package is installed.

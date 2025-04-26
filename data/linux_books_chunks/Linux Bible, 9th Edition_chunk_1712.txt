@@ -1,0 +1,5 @@
+However, 
+here are a few examples of commands that can help you install and manage packages with 
+apt* command. In this case, I’m looking for and installing the vsftpd package:
+
+Notice that the apt* commands are preceded by the sudo command in these examples.

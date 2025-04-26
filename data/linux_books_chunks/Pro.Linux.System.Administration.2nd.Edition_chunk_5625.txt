@@ -1,0 +1,2 @@
+You can combine collections of 
+classes, definitions, templates, files, and resources into modules.

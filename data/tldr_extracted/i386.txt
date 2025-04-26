@@ -1,0 +1,6 @@
+# i386
+
+
+- View documentation for the original command:
+
+`tldr setarch`

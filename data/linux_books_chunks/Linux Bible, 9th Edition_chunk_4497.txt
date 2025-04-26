@@ -1,0 +1,8 @@
+It provides additional security 
+measures, is included by default, and is set to be in Enforcing mode in RHEL and Fedora.
+
+SELinux provides improved security on the Linux system via Role Based Access Controls (RBAC) on 
+subjects and objects (aka processes and resources). “Traditional” Linux security uses Discretionary 
+Access Controls (DAC).
+
+SELinux is not a replacement for DAC.

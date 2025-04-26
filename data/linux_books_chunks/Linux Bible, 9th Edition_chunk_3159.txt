@@ -1,0 +1,14 @@
+You can leave out the ServerAlias line if you do not have any 
+alternate names for the server, and you can specify more than one name per 
+ServerAlias line or have multiple ServerAlias lines if you have several 
+alternate names.
+
+463
+
+ 
+c17.indd  04/01/2015  Page 464
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ The DocumentRoot speciﬁ es where the web documents (content served for this 
+site) are stored.

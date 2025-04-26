@@ -1,0 +1,6 @@
+A service unit is for managing daemons on your 
+Linux server. A target unit is simply a group of other units.
+
+The example that follows shows several systemd service units and target units. The 
+ service units have familiar daemon names, such as cups and sshd. Note that each ser-
+vice unit name ends with .service. The target units shown have names like sysinit.

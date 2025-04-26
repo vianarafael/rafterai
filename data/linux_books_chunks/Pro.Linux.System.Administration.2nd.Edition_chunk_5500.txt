@@ -1,0 +1,25 @@
+Inside this file, find this 
+line:
+
+disable = yes
+
+and change it to this:
+
+disable = no
+
+Next, you enable the TFTP server like so:
+
+$ sudo systemctl enable tftp
+$ sudo systemctl start tftp
+
+You need to ensure your hosts can connect to the Cobbler server through your firewall by opening some 
+
+required ports, 69, 80, 25150, and 25151, for example, by creating firewalld rules such as the following:
+
+$ sudo firewall-cmd --zone=public --add-service=tftp --permanent
+$ sudo firewall-cmd --zone=public --add-service=httpd –permanent
+$ sudo firewall-cmd --zone=public --add-port=25150:25151/tcp –permanent
+
+These rules allow access for any host on the 192.168.0.0/24 subnet to the boot server on the appropriate 
+
+ports.

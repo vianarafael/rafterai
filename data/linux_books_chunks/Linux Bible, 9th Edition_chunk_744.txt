@@ -1,0 +1,7 @@
+There may already be 
+a PS1 value in that ﬁ le that you can modify. Refer to the Bash Prompt HOWTO (http://
+www.tldp.org/HOWTO/Bash-Prompt-HOWTO) for information on changing colors, com-
+mands, and other features of your bash shell prompt.
+
+Adding environment variables
+You might want to consider adding a few environment variables to your .bashrc ﬁ le.

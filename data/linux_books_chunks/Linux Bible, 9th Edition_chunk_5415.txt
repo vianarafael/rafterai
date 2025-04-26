@@ -1,0 +1,13 @@
+If it is an MD5, type the following at the command line and compare the num-
+
+bers to the MD5 checksum ﬁ le or number on the website:
+
+$ md5sum FirstDownloadedFile
+
+c. If it is an SHA-1 hash, type the following at the command line and compare the 
+
+numbers to the SHA-1 checksum ﬁ le or number on the website:
+
+$ sha1sum FirstDownloadedFile
+
+6.

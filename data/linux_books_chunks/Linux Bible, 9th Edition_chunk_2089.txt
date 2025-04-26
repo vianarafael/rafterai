@@ -1,0 +1,9 @@
+But if you 
+decide you want to do that, edit /etc/fstab and add a line describing what and 
+where to mount. Here is an example of a line you might add:
+
+/dev/sdc1    /mnt/test      ext4    defaults    0 1
+
+In this example, the partition (/dev/sdc1) is mounted on the /mnt/test 
+ directory as an ext4 ﬁ lesystem. The defaults keyword causes the partition to be 
+mounted at boot time.

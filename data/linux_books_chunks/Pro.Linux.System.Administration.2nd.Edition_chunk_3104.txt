@@ -1,0 +1,35 @@
+Here we have redirected all traffic coming in for http:// to the 
+https:// version of the site.
+
+/etc/httpd/conf.d/www.example.com-le-ssl.conf
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+
+  ServerName www.example.com
+
+  ServerAdmin webmaster@example.com
+  DocumentRoot  /var/www/html/www.example.com
+  DirectoryIndex index.php
+   ProxyPassMatch ^/(.*\.php(/.*)?)$ unix:/run/php-fcgi.sock|fcgi://127.0.0.1:9000/var/www/
+
+html/www.example.com/
+
+516
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+  <Directory /var/www/html/www.example.com>
+     Require all granted
+  </Directory>
+
+SSLCertificateFile /etc/letsencrypt/live/www.example.com/cert.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/www.example.com/privkey.pem
+Include /etc/letsencrypt/options-ssl-apache.conf
+SSLCertificateChainFile /etc/letsencrypt/live/www.example.com/chain.pem
+</VirtualHost>
+
+</IfModule>
+
+Here we have a copy of the virtual host we created earlier, but Let’s Encrypt has added the SSL certificate 
+
+details it has just created.

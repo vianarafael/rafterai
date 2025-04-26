@@ -1,0 +1,3 @@
+If two sites share the same private network ranges, a VPN would not work, 
+as the address ranges on both sides of the VPN would be identical. In this case, you can use SSH to forward 
+connections from a local host to a remote address or vice versa.

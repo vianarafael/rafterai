@@ -1,0 +1,15 @@
+Create a file owned by yourself in there.
+
+mkdir ~/permissions ; touch ~/permissions/myfile.txt
+
+2. Copy a file owned by root from /etc/ to your permissions dir, who owns this file now ?
+
+cp /etc/hosts ~/permissions/
+
+The copy is owned by you.
+
+3. As root, create a file in the users ~/permissions directory.
+
+(become root)# touch /home/username/permissions/rootfile
+
+4.

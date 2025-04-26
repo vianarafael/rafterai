@@ -1,0 +1,9 @@
+In the LDIF format, you will 
+have the index number.
+
+In its most basic form, access is given using the following syntax:
+
+[access|{n}]to what [ by who [ access-level ] [ control ] ]
+
+what is an entity in the LDAP database, who is the client requesting the information, and access-level 
+is the level of access you want that client to have on it.

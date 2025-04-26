@@ -1,0 +1,15 @@
+You can import audio ﬁ les in WAV and Ogg Vorbis formats, or add 
+plug-ins for MP3 or other audio formats.
+
+Figure 2.14 shows an example of the Rhythmbox window with music playing from an 
+imported audio library.
+
+Here are a few ways you can get started with Rhythmbox:
+
+ ■ Radio—Double-click the Radio selection under Library and choose a radio station 
+
+from the list that appears to the right.
+
+ ■ Podcasts—Search for podcasts on the Internet and ﬁ nd the URL for one that 
+
+interests you.

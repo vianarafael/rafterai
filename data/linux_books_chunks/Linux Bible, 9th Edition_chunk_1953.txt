@@ -1,0 +1,17 @@
+Look at ls -l and 
+ getfacl output on that ﬁ le now:
+
+[mary]$ ls -l /tmp/memo.txt
+-rw-rw-r--+ 1 mary mary 0 Jan 21 09:27 /tmp/memo.txt
+[mary]$ getfacl /tmp/memo.txt
+# file: tmp/memo.txt
+# owner: mary
+# group: mary
+user::rw-
+user:bill:rw-
+group::rw-
+group:sales:rw-
+mask::rw-
+other::r--
+
+From the ls -l output, notice the plus sign (+) in the rw-rw-r--+ output.

@@ -1,0 +1,5 @@
+You will format this as ext4 
+using the mkfs.ext4 utility, as shown in Listing 9-4. If you wanted to create an ext2 filesystem, sometimes 
+used for creating a boot partition, just run mkfs.ext2 instead.
+
+Listing 9-4.

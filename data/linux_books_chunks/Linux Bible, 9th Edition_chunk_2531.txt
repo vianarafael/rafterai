@@ -1,0 +1,9 @@
+(Instead of selecting this box, 
+you can set those proxy services separately.)
+
+ ■ No Proxy for—By leaving localhost and the local IP address (127.0.0.1) in this 
+box, any requests to the local system that would otherwise be directed to the 
+proxy server go directly to the local system.
+
+Figure 14.4 shows an example of the Conﬁ gure Proxies window ﬁ lled in to conﬁ gure a 
+ connection to a proxy server located at IP address 10.0.100.254 for all protocols.

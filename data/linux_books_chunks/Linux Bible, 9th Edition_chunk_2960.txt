@@ -1,0 +1,18 @@
+A slash character separates the print 
+queue name from the printer instance.
+
+Complete the rest of the procedure as you would for a local printer (see the section “Adding 
+a local printer” earlier in this chapter).
+
+Adding a remote UNIX (LDP/LPR) printer
+If you chose to add a UNIX printer (LPD/LPR) from the Print Settings window, you must add 
+the following information to the window that appears:
+
+433
+
+c16.indd  04/01/2015  Page 434
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Host—This is the IP address or hostname of the computer to which the printer 
+is attached (or otherwise accessible).

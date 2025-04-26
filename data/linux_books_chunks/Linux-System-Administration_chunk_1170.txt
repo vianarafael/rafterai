@@ -1,0 +1,2 @@
+The rootsquash option will change UID 0 to the UID of the nfsnobody user
+account.

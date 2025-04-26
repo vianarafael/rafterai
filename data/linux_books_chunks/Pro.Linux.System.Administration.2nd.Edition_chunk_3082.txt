@@ -1,0 +1,43 @@
+Signing Our Certificate Request
+
+$ cd /etc/pki/CA
+$ sudo openssl ca -out /root/www.example.com.cert -infiles /root/www.example.com.csr
+Using configuration from /etc/pki/tls/openssl.cnf
+Enter pass phrase for /etc/pki/CA/private/cakey.pem:
+Check that the request matches the signature
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Aug 21 02:05:11 2016 GMT
+            Not After : Aug 21 02:05:11 2017 GMT
+
+512
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+        Subject:
+            countryName               = AU
+            stateOrProvinceName       = Victoria
+            organizationName          = Example Inc
+            organizationalUnitName    = IT
+            commonName                = www.example.com
+            emailAddress              = admin@example.com
+        X509v3 extensions:
+            X509v3 Basic Constraints:
+                CA:FALSE
+            Netscape Comment:
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier:
+                3E:37:13:CB:D3:84:58:9D:47:73:89:A6:80:12:DD:90:FE:C7:06:4B
+            X509v3 Authority Key Identifier:
+                keyid:54:57:27:C4:82:CA:C2:97:CE:5E:C7:64:A8:99:D3:A8:D1:1E:EC:77
+
+Certificate is to be certified until Aug 21 02:05:11 2017 GMT (365 days)
+Sign the certificate? [y/n]:y
+
+1 out of 1 certificate requests certified, commit? [y/n]y
+Write out database with 1 new entries
+Data Base Updated
+
+In Listing 11-8, we’ve used the ca option to sign our request.

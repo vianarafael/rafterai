@@ -1,0 +1,7 @@
+Watch the prog-
+ress of the ﬁ le transfer from messages on the bottom of the screen. When the transfer com-
+pletes, the ﬁ le appears in the left pane.
+
+You can bookmark the address information you need to connect to an FTP site. That address 
+is added to a set of bookmarks already stored under the Bookmarks menu. You can select 
+sites from the list to try out the gFTP.

@@ -1,0 +1,6 @@
+# avahi-resolve-address
+
+
+- View documentation for the original command:
+
+`tldr avahi-resolve`

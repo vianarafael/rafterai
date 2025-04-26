@@ -1,0 +1,14 @@
+To install the lftp FTP client (if you don’t have a second Linux system, install 
+
+lftp on the same host running the FTP server) and try to upload the /etc/hosts 
+ﬁ le to the incoming directory on the server, run the following commands as the 
+root user:
+
+# yum install lftp
+# lftp localhost
+lftp localhost:/> cd in
+lftp localhost:/in> put /etc/hosts
+89 bytes transferred
+lftp localhost:/in> quit
+
+You won’t be able to see that you copied the hosts ﬁ le to the incoming directory.

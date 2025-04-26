@@ -1,0 +1,28 @@
+other name patterns that you might see from systemd are:
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+eno1–onboard devices
+
+ens1–PCi slot index number
+
+enp0s8–physical location of the connector
+
+enx7f291992–combining the MAC address
+
+eth0–the classic
+
+For a closer read on systemd, take a look at www.freedesktop.org/wiki/Software/systemd/
+PredictableNetworkInterfaceNames/.
+
+Configuring Interfaces with nmcli
+
+There is yet another way to we can configure our interfaces.

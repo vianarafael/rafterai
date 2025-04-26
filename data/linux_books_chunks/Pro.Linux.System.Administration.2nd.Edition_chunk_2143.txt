@@ -1,0 +1,6 @@
+they 
+will still be in the chute the next day.
+
+a journaled filesystem makes use of circular buffer which works kind of like a library with a book chute. 
+this is an area, or log, on the filesystem that holds changes not yet committed to the main part of the 
+filesystem storage.

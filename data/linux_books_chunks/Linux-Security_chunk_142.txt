@@ -1,0 +1,12 @@
+Now try the same, but with sudo before your command.
+
+laura@debian7:~$ sudo /usr/sbin/useradd valentina
+[sudo] password for laura:
+laura is not in the sudoers file.  This incident will be reported.
+laura@debian7:~$
+
+Notice that laura has no permission to use the sudo on this system.
+
+11
+
+Chapter 2.

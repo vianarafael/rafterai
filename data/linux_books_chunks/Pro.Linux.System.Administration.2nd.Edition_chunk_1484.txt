@@ -1,0 +1,13 @@
+For example, we issue the 
+
+following command:
+
+$ sudo systemctl stop httpd
+
+We will then start the nc command using the -l, or listen, option on the host with the IP address of 
+
+192.168.0.1.
+
+$ sudo nc -l 80
+
+This binds our nc command to all interfaces on the port.

@@ -1,0 +1,13 @@
+To do this, you 
+
+use the ls, or list directory, command, as you can see in Listing 4-7.
+
+Listing 4-7.  Listing the Contents of a Directory
+
+$ ls
+bin dev etc lib lost+found mnt proc root sys usr
+boot home  lib64  media opt sbin srv tmp var
+
+In Listing 4-7, you can see the ls command has returned a list of files and directories that are in the root 
+
+directory.

@@ -1,0 +1,8 @@
+What packages can you not see from that repository, when might 
+you want those other packages, and how can you gain access to those packages (as well as 
+ packages from other software repositories)?
+
+Going Beyond the Software Window
+
+If you are managing a single desktop system, you might be quite satisﬁ ed with the 
+ hundreds of packages you can ﬁ nd through the Software window.

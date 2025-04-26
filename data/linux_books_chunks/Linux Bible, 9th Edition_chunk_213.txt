@@ -1,0 +1,6 @@
+It is probably best remembered by the name it had as it began its 
+spin-off from AT&T: UNIX System Laboratories (USL).
+
+The UNIX source code that came out of USL, the legacy of which was sold in part to Santa 
+Cruz Operation (SCO), was used for a time as the basis for ever-dwindling lawsuits by SCO 
+against major Linux vendors (such as IBM and Red Hat, Inc.).

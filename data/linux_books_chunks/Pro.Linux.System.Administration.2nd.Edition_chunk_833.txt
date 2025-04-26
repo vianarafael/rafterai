@@ -1,0 +1,12 @@
+The user 
+
+can now do nothing on the host.
+
+Finally, you can set the login shell to /bin/false or /usr/sbin/nologin. This doesn’t lock a user out 
+
+but disables the user’s getting shell access.
+
+$ sudo usermod –s /bin/false ataylor
+
+ ■ Note 
+ You can also set the user’s shell to a command.

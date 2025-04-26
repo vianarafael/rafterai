@@ -1,0 +1,7 @@
+Technically, this information is stored 
+in the comment ﬁ eld of the passwd ﬁ le but, by convention, most Linux and UNIX 
+systems expect this ﬁ eld to hold each user’s full name.
+
+ ■ Username—This is the name used to log in as this user. When you choose a 
+
+ username, don’t begin with a number (for example, 26jsmith).

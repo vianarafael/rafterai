@@ -1,0 +1,5 @@
+Sets of packages called Errata that ﬁ x speciﬁ c problems can be 
+quickly and automatically deployed to the systems that need them.
+
+Descriptions of how to use kickstart ﬁ les, satellite servers, and other enterprise-ready 
+installation features are beyond the scope of this book.

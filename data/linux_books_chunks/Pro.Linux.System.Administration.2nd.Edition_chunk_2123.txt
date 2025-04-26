@@ -1,0 +1,11 @@
+We’ll cover mounting a bit later in this chapter.
+
+ ■ Note  you can also make the kernel redetect partitions—without rebooting—by running the partprobe 
+command.
+
+365
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Another utility to create and delete partitions is parted. Unlike gdisk and fdisk, this utility allows you 
+to edit the size and ordering of partitions.

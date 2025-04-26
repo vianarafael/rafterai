@@ -1,0 +1,8 @@
+The Apache Documentation screen appears as shown 
+in Figure 17.1.
+
+ ■ mod_ssl—Contains the module and conﬁ guration ﬁ le needed for the web server 
+to provide secure connections to clients using Secure Sockets Layer (SSL) and 
+Transport Layer Security (TLS) protocols. These features are necessary if you need 
+encrypted communications for online shopping or other data you want to keep 
+ private.

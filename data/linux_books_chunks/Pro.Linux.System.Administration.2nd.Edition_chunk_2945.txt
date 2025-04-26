@@ -1,0 +1,2 @@
+It will not accept connections from remote hosts, and it will not allow 
+users without MariaDB accounts to connect.

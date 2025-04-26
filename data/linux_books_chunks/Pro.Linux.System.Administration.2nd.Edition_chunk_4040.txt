@@ -1,0 +1,9 @@
+This is going to store our 
+
+configuration details for Duplicity to use.
+
+$ duply nightly create
+
+# although called exclude, this file is actually a globbing file list
+
+Congratulations.

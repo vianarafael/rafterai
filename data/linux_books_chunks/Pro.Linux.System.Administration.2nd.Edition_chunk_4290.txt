@@ -1,0 +1,6 @@
+We use the systemctl command with the @ symbol to do this.
+
+$ sudo systemctl start service@configuration
+
+The systemctl command will extrapolate %i.conf to the configuration name we passed in after the 
+openvpn@.

@@ -1,0 +1,7 @@
+With this infor-
+mation, you can begin the process of locking down and securing your Linux servers. Also, you can 
+learn how to stay informed of daily new threats and the new ways to continue protecting your 
+organization’s valuable information assets.
+
+Understanding Security Basics
+Securing your Linux systems must be done in several layers.

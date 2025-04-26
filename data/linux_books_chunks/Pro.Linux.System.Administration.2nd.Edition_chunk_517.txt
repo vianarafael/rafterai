@@ -1,0 +1,4 @@
+Top shows a lot of detail including system uptime, system 
+
+load averages, CPU usage and memory utilization. Top refreshes every three minutes by default and 
+processes will drift in and out of the listing as they consume resources.

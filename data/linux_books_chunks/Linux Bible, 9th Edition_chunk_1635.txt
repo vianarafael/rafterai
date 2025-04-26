@@ -1,0 +1,8 @@
+Or they may represent Windows, Ubuntu, or other 
+ operating systems. Use the up and down arrow keys to highlight any title, and 
+press Enter to boot that operating system.
+
+ ■ Edit the boot process—If you want to change any of the options used during 
+
+the boot process, use the arrow keys to highlight the operating system you want 
+and type e to select it.

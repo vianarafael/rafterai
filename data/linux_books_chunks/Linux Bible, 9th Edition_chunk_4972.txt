@@ -1,0 +1,11 @@
+Because you control the infrastructure, you can create the images users 
+have access to in your OpenStack infrastructure and account for user usage of that 
+infrastructure in your own way.
+
+750
+
+c27.indd  04/01/2015  Page 751
+
+Chapter 27: Deploying Linux to the Cloud
+
+ ■ Hybrid cloud—Many companies are looking toward hybrid cloud solutions.

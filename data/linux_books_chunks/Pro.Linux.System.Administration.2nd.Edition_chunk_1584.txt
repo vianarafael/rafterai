@@ -1,0 +1,3 @@
+The REJECT policy means that a device will know that its packets are not getting to their 
+destination and will report the error quickly instead of waiting to be timed out, as is the case with the DROP 
+policy.

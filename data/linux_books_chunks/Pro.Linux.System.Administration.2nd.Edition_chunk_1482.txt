@@ -1,0 +1,5 @@
+You 
+can use this tool to test your ability to reach not only other hosts but also the ports on which they could be 
+listening.
+
+This tool is especially handy when you want to test a connection to a port through a firewall.

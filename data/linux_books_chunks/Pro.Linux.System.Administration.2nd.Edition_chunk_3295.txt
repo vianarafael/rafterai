@@ -1,0 +1,11 @@
+E-mail clients are different, and you can ensure that 
+clients use a secure transport only with the right configuration.
+
+544
+
+Chapter 12 ■ Mail ServiCeS
+
+Creating SSL Certificates for Postfix
+
+We are going to use Let’s Encrypt to get our SSL certificates. We do that with the certbot command we saw 
+in the previous chapter.

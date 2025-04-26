@@ -1,0 +1,7 @@
+To try out any of those 
+examples, however, you can simply type them into a shell, as shown in the previous example.
+
+In the following example, MYFILENAME is set to /home/digby/myfile.txt. Next, the 
+FILE variable is set to myfile.txt and DIR is set to /home/digby. In the NAME  variable, 
+the ﬁ lename is cut down to simply myfile; then, in the EXTENSION variable, the ﬁ le 
+extension is set to txt.

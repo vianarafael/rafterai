@@ -1,0 +1,7 @@
+With the -c option, if the download fails, you can then just 
+rerun the command and the download will resume from the point at which it stopped.
+
+The wget command downloads files to the current directory, so we now have a tarball we can 
+
+unpack. The extension tells us it was compressed using gzip, so we need the -z flag to make tar use gzip 
+decompression.

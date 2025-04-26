@@ -1,0 +1,10 @@
+The line:
+
+sshd: 199.170.177.
+
+in the hosts.allow ﬁ le allows connections to the sshd services from certain remote 
+ systems. The line:
+
+vsftpd: ALL
+
+allows all remote systems to connect to the FTP service, vsftpd.

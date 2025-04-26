@@ -1,0 +1,5 @@
+Once a client 
+disconnects, the service can be shut down again. not all services support this, but if they do, it is a nice 
+way to conserve system resources.
+
+this “supervisor” functionality is provided by the Internet superserver.

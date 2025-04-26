@@ -1,0 +1,3 @@
+An underlying principle of FOSS, however, is that, although you are free to 
+use the software as you like, you have some responsibility to make the improvements you 
+make to the code available to others.

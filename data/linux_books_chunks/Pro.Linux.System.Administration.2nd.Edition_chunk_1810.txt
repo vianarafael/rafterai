@@ -1,0 +1,8 @@
+On the command line, you simply type yum and one of a number of potential 
+actions, such as install, remove, or list, and then potentially the name of the package or packages on which 
+you wish to take action, for example:
+
+$ sudo yum install nmap
+
+ ■ Note  You need root privileges to run the yum command, either by being signed in as the root user or making 
+use of the sudo command.

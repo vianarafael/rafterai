@@ -1,0 +1,6 @@
+Although there are more secure protocols for network ﬁ le sharing, FTP is still used 
+quite often for making ﬁ les freely available on the Internet.
+
+Several FTP server projects are available with Linux today. However, the one often used with 
+Fedora, Red Hat Enterprise Linux, Ubuntu, and other Linux distributions is the Very Secure FTP 
+Daemon (vsftpd package).

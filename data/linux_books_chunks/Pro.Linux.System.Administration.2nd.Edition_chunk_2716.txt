@@ -1,0 +1,12 @@
+Adding Zone Update Definitions in dhcpd.conf
+
+zone 0.168.192.in-addr.arpa. {
+    key dynamic-update-key;
+    primary 192.168.0.1;
+}
+zone example.com. {
+    key dynamic-update-key;
+    primary 192.168.0.1;
+}
+
+We restart the DHCP server as well, and when that is done, the server-side configuration is complete.

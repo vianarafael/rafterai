@@ -1,0 +1,4 @@
+It has been heavily used and developed in the Linux world, and a large number of PAM modules exist to 
+perform a variety of functions ranging from checking passwords to creating home directories. PAM modules 
+were originally used to provide authentication and other services to applications that lacked authentication 
+or a particular authentication capability.

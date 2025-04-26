@@ -1,0 +1,10 @@
+This file does not exist by default on Red Hat.
+
+On  Debian  this  script  can  execute  ~/.bashrc  and  will  add  $HOME/bin  to  the  $PATH
+variable.
+
+root@debian7:~# tail -11 /home/paul/.profile
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+        .

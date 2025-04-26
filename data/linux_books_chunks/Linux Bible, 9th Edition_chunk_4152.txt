@@ -1,0 +1,9 @@
+From a security standpoint, you need to take the opposite viewpoint and 
+make sure the unneeded software and services are not on a Linux system.
+
+22
+
+Updating software packages
+In addition to removing unnecessary services and software, keeping current software up to 
+date is critical for security. The latest bug ﬁ xes and security patches are obtained via soft-
+ware updates.

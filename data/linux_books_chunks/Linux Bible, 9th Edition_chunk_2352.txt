@@ -1,0 +1,7 @@
+However, if someone should get hold of 
+your private key, they could act as you in any communication that required that key.
+
+The following procedure demonstrates how a local user named chris can set up key-based 
+authentication to a remote user named johndoe at IP address 10.140.67.23. If you don’t 
+have two Linux systems, you can simulate this by using two user accounts on your local 
+system.

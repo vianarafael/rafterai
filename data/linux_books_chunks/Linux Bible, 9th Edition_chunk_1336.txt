@@ -1,0 +1,7 @@
+These ﬁ les are critical for Linux distributions, such as Fedora 
+and RHEL, that use GUI administration tools but are not used on other Linux 
+systems at all.
+
+ ■ /etc/systemd—Contains ﬁ les associated with the systemd facility, for  managing 
+
+the boot process and system services.

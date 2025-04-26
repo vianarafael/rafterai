@@ -1,0 +1,23 @@
+The generic-host Template
+
+define host{
+          name                                   generic-host
+          notifications_enabled              1
+          event_handler_enabled         1
+          flap_detection_enabled           1
+          failure_prediction_enabled    1
+          process_perf_data                  1
+          retain_status_information        1
+          retain_nonstatus_information  1
+          notification_period                   24x7
+          register                              0
+          }
+
+ We’re not going to explain these options in any detail here; you can see read about them at https://
+
+ ■ Note 
+assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/objectdefinitions.html - host.
+
+Defining Our Host
+
+We are going to define our own hosts.

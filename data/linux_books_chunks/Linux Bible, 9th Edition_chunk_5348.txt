@@ -1,0 +1,15 @@
+Create the in directory as follows:
+
+# mkdir /var/ftp/in
+# chown ftp:ftp /var/ftp/in
+# chmod 770 /var/ftp/in
+
+b. Inside the /etc/vsftpd/vsftpd.conf ﬁ le, make sure that the following 
+
+variables are set:
+
+anonymous_enable=YES
+write_enable=YES
+anon_upload_enable=YES
+
+c.

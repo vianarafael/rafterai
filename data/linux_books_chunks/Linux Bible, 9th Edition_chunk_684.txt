@@ -1,0 +1,5 @@
+The output is piped to the 
+less command to display the output. Because the ﬁ le being displayed is in plain text, you 
+could have substituted any number of options to work with the text before displaying it. 
+You could sort the contents, change or delete some of the content, or bring in text from 
+other documents.

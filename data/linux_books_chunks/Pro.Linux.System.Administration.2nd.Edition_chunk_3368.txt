@@ -1,0 +1,6 @@
+The smtpd_sasl_auth_enable option tells Postfix to enable 
+SASL authentication.
+
+The next option, smtpd_tls_auth_only, tells Postfix to announce and use authentication only if TLS 
+
+is enabled and running.

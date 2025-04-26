@@ -1,0 +1,3 @@
+@puppetlabs       apache web
+example42-apache             Puppet module for apache        @example42        apache
+herculesteam-augeasproviders_apache  Augeas-based apache ty...

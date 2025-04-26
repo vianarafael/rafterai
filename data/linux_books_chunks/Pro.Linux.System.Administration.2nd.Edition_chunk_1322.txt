@@ -1,0 +1,5 @@
+You can turn on or off the interface with the on-off 
+toggle button. If you wish to add another type of interface, like teamed or bonded or VPN interface, you 
+should select the + at the bottom of the left panel.
+
+Figure 7-4.

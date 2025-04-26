@@ -1,0 +1,3 @@
+The boot source is the media (e.g., a 
+hard drive) where your host looks for your operating system. The boot sequence setting allows you to boot 
+from one of a number of sources: hard drives, CD/DVDs, or even USB keys.

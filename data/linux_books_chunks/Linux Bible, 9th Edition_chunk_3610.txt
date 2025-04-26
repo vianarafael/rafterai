@@ -1,0 +1,4 @@
+This makes it easier to map users so 
+they have the same permissions on a mounted ﬁ lesystem as they do on ﬁ les stored on their 
+local hard disks. If that method is not convenient, user IDs can be mapped in many other 
+ways.

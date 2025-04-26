@@ -1,0 +1,23 @@
+To start the Ubuntu cloud instance, run the following 
+
+command:
+
+# cd /var/lib/libvirt/images
+# virt-install --import --name ubuntu1410-01 --ram 4096 --vcpus 2 \
+ --disk path=utopic-server-cloudimg-amd64-floppy,device=floppy \
+ --disk path=utopic-server-cloudimg-amd64.img,format=raw,bus=virtio \
+ --disk path=ubuntu-data.iso,device=cdrom --network bridge=virbr0 &
+
+756
+
+ 
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 757
+
+Chapter 27: Deploying Linux to the Cloud
+
+At this point, you have a bare-bones Ubuntu cloud instance running.

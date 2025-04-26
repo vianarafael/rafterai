@@ -1,0 +1,3 @@
+these tools sit between your Mta and the user’s mailbox, 
+and you can tell postfix what MDa, if any, to use with the mailbox_command configuration option you 
+saw earlier.

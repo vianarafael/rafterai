@@ -1,0 +1,2 @@
+A special type of conﬁ guration block, known as a location block, is used to limit 
+the scope of directives to speciﬁ c ﬁ les or directories.

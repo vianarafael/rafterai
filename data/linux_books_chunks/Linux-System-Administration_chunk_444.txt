@@ -1,0 +1,8 @@
+jbod
+
+jbod uses two or more disks, and is often called concatenating (spanning, spanned set, or
+spanned volume). Data is written to the first disk, until it is full. Then data is written to the
+second disk... The main advantage of jbod (Just a Bunch of Disks) is that you can create
+larger drives. JBOD offers no redundancy.
+
+10.2.3.

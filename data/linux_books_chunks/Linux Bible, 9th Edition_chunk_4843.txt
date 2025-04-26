@@ -1,0 +1,6 @@
+Because hypervisors tend to be commodity items (dozens or 
+hundreds of hypervisors may be set up for a location), Linux is the logical choice as the 
+ operating system running as hypervisors directly on hardware.
+
+Kernel-based Virtual Machine (KVM) is the basic virtualization technology implemented to 
+make a Linux system into a hypervisor.

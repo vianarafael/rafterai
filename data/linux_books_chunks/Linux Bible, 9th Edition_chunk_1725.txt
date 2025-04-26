@@ -1,0 +1,6 @@
+To ﬁ nd out more about the package, the URL points to the project page 
+on the Internet and the Summary and Description tell you what the package is used for.
+
+Where do RPMs come from?
+The software included with Linux distributions, or built to work with those distributions, 
+comes from thousands of open source projects all over the world.

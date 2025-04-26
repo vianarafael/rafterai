@@ -1,0 +1,25 @@
+The options are very similar to SysVinit’s service command:
+
+ ■ Stopping a service with Upstart—In the following example, the status of the 
+cups daemon is checked and then stopped using the initctl stop cups 
+command.
+
+# initctl status cups
+cups start/running, process 2390
+# initctl stop cups
+cups stop/waiting
+# initctl status cups
+cups stop/waiting
+
+ ■ Starting a service with Upstart—In the following example, the cups daemon is 
+
+started using the initctl start cups command.
+
+# initctl start cups
+cups start/running, process 2408
+# initctl status cups
+cups start/running, process 2408
+
+ ■ Restarting a service with Upstart—Restarting a service with Upstart stops and 
+
+then starts the service.

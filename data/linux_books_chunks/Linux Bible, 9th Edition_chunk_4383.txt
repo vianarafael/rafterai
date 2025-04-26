@@ -1,0 +1,11 @@
+Every line starting with a # character is ignored.
+
+$ cat /etc/pam.d/poweroff
+#%PAM-1.0
+auth       sufficient   pam_rootok.so
+auth       required     pam_console.so
+#auth       include      system-auth
+account    required     pam_permit.so
+
+Remember that all the PAM modules listed in the conﬁ guration ﬁ le’s stack are called, in 
+order, and asked to return a status.

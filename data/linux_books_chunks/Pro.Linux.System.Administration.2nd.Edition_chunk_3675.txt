@@ -1,0 +1,7 @@
+This is what is created by the 
+
+provision process.
+
+The configuration file can be broken up into two sections, the [global] configuration options and then 
+
+the specific configuration options, such as [netlogon], [sysvol], and so forth (see Listing 13-2).

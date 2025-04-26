@@ -1,0 +1,13 @@
+You can create new folders as needed, 
+drag and drop ﬁ les and folders to copy and move them, and delete them.
+
+Because Nautilus is not much different from most ﬁ le managers you have used on other 
+computer systems, this chapter does not go into detail about how to use drag-and-drop and 
+
+45
+
+c02.indd  04/01/2015  Page 46
+
+Part I: Getting Started
+
+traverse folders to ﬁ nd your content.

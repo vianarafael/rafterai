@@ -1,0 +1,17 @@
+For example, here are kernel messages output from 
+a RHEL 7 system:
+
+# journalctl -k
+Sep 07 12:03:07 host kernel: CPU0 microcode updated early to revision
+    0xbc
+Sep 07 12:03:07 host kernel: Initializing cgroup subsys cpuset
+Sep 07 12:03:07 host kernel: Initializing cgroup subsys cpu
+Sep 07 12:03:07 host kernel: Initializing cgroup subsys cpuacct
+Sep 07 12:03:07 host kernel: Linux version 3.10.0-123.6.3.el7.x86_64
+Sep 07 12:03:07 host kernel: Command line:  
+   BOOT_IMAGE=/vmlinuz-3.10.0-123.6.3.el7.x86_64 root=/dev/mapper/vg
+Sep 07 12:03:07 host kernel: e820: BIOS-provided physical RAM map:
+   ...
+
+Look for drivers that fail to load or messages that show that certain features of the hard-
+ware failed to be enabled.

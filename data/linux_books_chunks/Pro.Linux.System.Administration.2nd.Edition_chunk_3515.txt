@@ -1,0 +1,6 @@
+We can break it down into three parts, the 
+access required, the source context, and the target context.
+
+type=AVC is the access vector cache, and then there is an audit time stamp. then the avc action that 
+was denied, write (denied { write }), by the command smtpd trying to write to clamav-milter.
+socket.

@@ -1,0 +1,5 @@
+The main conﬁ guration ﬁ le in Fedora and RHEL is 
+/etc/httpd/conf/httpd.conf. The conﬁ guration directory is /etc/httpd/conf.d/.
+
+After installing httpd , you will see ﬁ les in the /etc/httpd/conf.d/ directory that 
+were placed there by different packages: mod_ssl, mod_perl, and so on.

@@ -1,0 +1,10 @@
+Now that we have added our credentials to the kernel, we can list the sales directory and read 
+and write from and to it using the exbackup and sales group permissions.
+
+[jsmith@backup ~]$ ll /data/sales/
+total 1405408
+-rwxrwx---+ 1 exbackup 3000017     66376 Nov 26 17:14 logo.png
+-rwxrwx---+ 1 exbackup 3000017 479678976 Nov 27 13:21 forecast-2016.xls
+-rwxrwx---+ 1 exbackup 3000017 479678976 Nov 27 14:04 media.docx
+
+Now, bsingh also needs to access to the sales directory.

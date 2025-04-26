@@ -1,0 +1,11 @@
+With -exec entered, all 
+entries found are processed, without prompting:
+
+$ find /usr/share -size +5M -exec du {} \; | sort -nr
+116932  /usr/share/icons/HighContrast/icon-theme.cache
+69048   /usr/share/icons/gnome/icon-theme.cache
+20564   /usr/share/fonts/cjkuni-uming/uming.ttc
+
+ ■ The -ok option enables you to choose, one at a time, whether each ﬁ le found is 
+
+acted upon by the command you enter.

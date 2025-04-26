@@ -1,0 +1,7 @@
+The * symbol will work for all authorization directives.
+
+904
+
+As we mentioned earlier, in addition to any authorization granted to them, users who are also contacts 
+
+have access to the hosts and services for which they are contacts.

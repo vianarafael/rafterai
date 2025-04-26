@@ -1,0 +1,6 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_14Chapter 14 ■ BaCkup and reCovery
+
+Disaster recovery planning is all about recognizing, managing, and mitigating risk. It is part of an 
+
+overarching process called business continuity management, or making sure a business can continue in 
+the face of unknown adversity to at least a predetermined minimum level.

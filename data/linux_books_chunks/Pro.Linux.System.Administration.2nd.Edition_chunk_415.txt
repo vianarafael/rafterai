@@ -1,0 +1,12 @@
+Command-line login prompt
+
+ChapTeR 4 ■ LInux BasICs
+
+101
+
+ChapTeR 4 ■ LInux BasICs
+
+Figure 4-2.  Graphical login prompt
+
+At either login prompt you need to supply your username and a password or similar form of 
+authentication.

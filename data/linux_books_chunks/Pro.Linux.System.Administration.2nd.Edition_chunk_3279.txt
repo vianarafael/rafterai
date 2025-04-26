@@ -1,0 +1,6 @@
+Folders can be used 
+
+ ■ Tip 
+to sort and store e-mail so that it is easier to find e-mails. Folders are subdirectories prefixed with a period 
+(.); a Sent folder would have the structure /home/ataylor/Maildir/.Sent created by using the command 
+maildirmake.dovecot /etc/skel/Maildir/.Sent.

@@ -1,0 +1,6 @@
+Even if 
+you knew, you would have to remove each one individually.
+
+ ■ Update the software—Tarballs are not designed to hold metadata about the 
+
+ contents they contain.

@@ -1,0 +1,3 @@
+If you determine that you have the wrong IP addresses 
+set for your DNS servers, changing them can be a bit tricky. Search /var/log/
+messages for your DNS servers’ IP addresses.

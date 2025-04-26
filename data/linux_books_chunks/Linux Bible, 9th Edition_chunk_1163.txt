@@ -1,0 +1,7 @@
+Here, BALANCE is set 
+to the value of the CurBalance variable:
+
+BALANCE="$CurBalance"
+
+When assigning variables, use only the variable name (for example, BALANCE). When you reference a variable, 
+meaning you want the value of the variable, precede it with a dollar sign (as in $CurBalance).

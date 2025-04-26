@@ -1,0 +1,5 @@
+These daemons include the basic syslog tool as well as more advanced 
+variants such as syslog-NG (the NG means “next generation”) and rsyslog. rsyslog has benefitted greatly 
+from the work done on syslog and syslog-NG.
+
+We will cover the basic rsyslog tool because it is the default on both CentOS and Ubuntu.

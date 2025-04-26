@@ -1,0 +1,11 @@
+Reload the httpd.conf ﬁ le modiﬁ ed in the previous exercise:
+
+# apachectl graceful
+
+b. Edit the /etc/hosts ﬁ le with any text editor so the local host line appears as 
+
+follows:
+
+127.0.0.1      localhost.localdomain localhost joe.example.org
+
+c.

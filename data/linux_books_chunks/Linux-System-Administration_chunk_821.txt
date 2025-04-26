@@ -1,0 +1,2 @@
+Configure syslog to put local4.error and above messages in /var/log/l4e.log and local4.info
+only .info in /var/log/l4i.log.

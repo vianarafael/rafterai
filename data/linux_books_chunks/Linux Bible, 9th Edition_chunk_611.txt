@@ -1,0 +1,9 @@
+But the date command supports a special + 
+
+72
+
+c03.indd  04/01/2015  Page 73
+
+Chapter 3: Using the Shell
+
+format option, which lets you display the date in different formats.

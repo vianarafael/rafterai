@@ -1,0 +1,20 @@
+The main.cf File
+
+...
+# LOCAL PATHNAME INFORMATION
+#
+# The queue_directory specifies the location of the Postfix queue.
+# This is also the root directory of Postfix daemons that run chrooted.
+# See the files in examples/chroot-setup for setting up Postfix chroot
+# environments on different UNIX systems.
+#
+queue_directory = /var/spool/postfix
+...
+
+We’ll talk about some of the configuration options in the main.cf file during this chapter; you can see a 
+
+full list with $ man 5 postconf or at www.postfix.org/postconf.5.html.
+
+In the master.cf file, you can see a structured list of the daemons, services, and processes you can 
+
+enable and configure in Postfix.

@@ -1,0 +1,6 @@
+PAM then takes care of the hard work of authenticating 
+through a standard API.
+
+Configuring PAM
+Essentially PAM is a hierarchy of authentication and authorization checks that are performed when an 
+application wants to perform some action.

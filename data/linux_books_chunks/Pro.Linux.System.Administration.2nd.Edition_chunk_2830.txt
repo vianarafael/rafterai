@@ -1,0 +1,10 @@
+Let’s start 
+with how we describe the virtual host.
+
+<VirtualHost *:80>
+...
+</VirtualHost>
+
+Apache has a special syntax for describing virtual hosts. All configuration for each virtual host needs to 
+
+be enclosed in the <VirtualHost *:80> … </VirtualHost> directives.

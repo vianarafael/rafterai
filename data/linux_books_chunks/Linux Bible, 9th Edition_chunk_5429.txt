@@ -1,0 +1,13 @@
+The process’s category level is c0.c1023, with the c0 indicating that the cat-
+
+egory is also not highly secure from an SELinux standpoint.
+
+7.  To create an /etc/test.txt ﬁ le, change its ﬁ le context to user_tmp_t, restore 
+it to its proper content (the default context for the /etc directory), and remove 
+the ﬁ le, type the following:
+
+B
+
+# touch /etc/test.txt
+# ls -Z /etc/test.txt
+-rw-r--r--.

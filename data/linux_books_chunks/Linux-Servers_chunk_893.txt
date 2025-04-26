@@ -1,0 +1,8 @@
+Belgium and ipv6
+
+A lot of information on ipv6 in Belgium can be found at www.ipv6council.be.
+
+Sites like ipv6.belgium.be, www.bipt.be and www.bricozone.be are enabled for ipv6. Some
+Universities also: fundp.ac.be (Namur) and ulg.ac.be (Liege).
+
+21.13.

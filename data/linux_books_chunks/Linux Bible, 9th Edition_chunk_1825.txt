@@ -1,0 +1,6 @@
+The --changelog 
+option enables you to see why changes have been made to each version of the package. The fix 
+# represents a ﬁ xed bug that you can look up in http:// bugzilla.redhat.com.
+
+Using a feature called --queryformat, you can query different tags of information and 
+output them in any form you like.

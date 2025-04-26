@@ -1,0 +1,7 @@
+When we add the 
+ppolicy schema, we said to remember the index number ({4}), and now we need to add one to it to make 
+sure our indexes don’t conflict.
+
+dn: cn={5}exampleactive
+
+Then we will save that file to /etc/ldap/schema/exampleactive.ldif.

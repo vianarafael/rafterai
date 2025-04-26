@@ -1,0 +1,58 @@
+All this information is redisplayed every 5 seconds, 
+by default.
+
+140
+
+c06.indd  04/01/2015  Page 141
+
+Chapter 6: Managing Running Processes
+
+FIGURE 6.1
+
+Displaying running processes with top.
+
+System uptime
+
+Average system load
+
+6
+
+Running
+tasks
+
+RAM
+
+Swap
+space
+
+Allocated
+memory
+
+Memory actually
+in use
+
+Sort by
+CPU use
+
+Sort by
+memory use
+
+The following list includes actions you can do with top to display information in different 
+ways and modify running processes:
+
+ ■ Press h to see help options, and then press any key to return to the top display.
+
+ ■ Press M to sort by memory usage instead of CPU, and then press P to return to 
+
+ sorting by CPU.
+
+ ■ Press the number 1 to toggle showing CPU usage of all your CPUs, if you have more 
+
+than one CPU on your system.
+
+ ■ Press R to reverse sort your output.
+
+ ■ Press u and enter a username to display processes only for a particular user.
+
+A common practice is to use top to ﬁ nd processes that are consuming too much 
+ memory or processing power and then act on those processes in some way.

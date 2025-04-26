@@ -1,0 +1,10 @@
+If disk 1 fails, B2 can be computed from B1, B3, and Bp, 
+so when a replacement disk is added, its contents can be restored.
+
+388
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-2.  RAID 5 stripe layout across multiple disks
+
+It’s important to keep in mind that using RAID is not a substitute for creating regular backups.

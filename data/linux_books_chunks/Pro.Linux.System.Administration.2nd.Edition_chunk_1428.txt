@@ -1,0 +1,2 @@
+It then attaches the web server’s address to the packet and begins 
+trying to figure out where to send the packet.

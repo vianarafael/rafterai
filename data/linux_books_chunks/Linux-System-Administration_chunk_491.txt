@@ -1,0 +1,15 @@
+Notice how the three physical
+volumes now belong to vg33, and how the size is rounded down (in steps of the extent size,
+here 4MB).
+
+[root@RHEL5 ~]# vgcreate vg33 /dev/sdb /dev/sdc /dev/sdd
+  Volume group "vg33" successfully created
+[root@RHEL5 ~]# pvs
+  PV         VG         Fmt  Attr PSize   PFree  
+  /dev/sda2  VolGroup00 lvm2 a-    15.88G      0 
+  /dev/sdb   vg33       lvm2 a-   408.00M 408.00M
+  /dev/sdc   vg33       lvm2 a-   408.00M 408.00M
+  /dev/sdd   vg33       lvm2 a-   408.00M 408.00M
+[root@RHEL5 ~]#
+
+The last step is to create the Logical Volume with lvcreate.

@@ -1,0 +1,12 @@
+With this new naming, a preﬁ x 
+of inst. can be placed in front of any of the boot options shown in this section that are 
+speciﬁ c to the installation process (for example, inst.xdriver or inst.repo=dvd). 
+
+216
+
+c09.indd  04/01/2015  Page 217
+
+Chapter 9: Installing Linux
+
+For the time being, however, you can still use the options shown in the next few sections 
+with the inst.

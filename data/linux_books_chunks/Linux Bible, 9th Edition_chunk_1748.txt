@@ -1,0 +1,3 @@
+Checking /etc/yum.repos.d/*.repo files
+Software repositories can be enabled by dropping ﬁ les ending in .repo into the directory 
+/etc/yum.repos.d/ that point to the location of one or more repositories.

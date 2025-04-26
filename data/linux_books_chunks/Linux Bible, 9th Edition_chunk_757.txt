@@ -1,0 +1,6 @@
+Other commands simply use a –h 
+option, like fdisk -h.
+
+ ■ Use the info command. The info command is another tool for displaying infor-
+mation about commands from the shell. The info command can move among a 
+hierarchy of nodes to ﬁ nd information about commands and other items.

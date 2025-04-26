@@ -1,0 +1,8 @@
+We can verify that the proxy is being used by looking at the 
+Squid access logs.
+
+Transparency
+
+If you don’t want to make your users change their proxy settings in order to use the Squid cache, you can run 
+Squid as a transparent proxy instead. A transparent proxy is one that has all outbound web traffic redirected 
+to it via firewalling rules.

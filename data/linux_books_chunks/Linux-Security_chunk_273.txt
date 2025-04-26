@@ -1,0 +1,14 @@
+The name
+of the file explains the permissions.
+
+paul@laika:~/perms$ ls -lh
+total 12K
+drwxr-xr-x 2 paul paul 4.0K 2007-02-07 22:26 AllEnter_UserCreateDelete
+-rwxrwxrwx 1 paul paul    0 2007-02-07 22:21 EveryoneFullControl.txt
+-r--r----- 1 paul paul    0 2007-02-07 22:21 OnlyOwnersRead.txt
+-rwxrwx--- 1 paul paul    0 2007-02-07 22:21 OwnersAll_RestNothing.txt
+dr-xr-x--- 2 paul paul 4.0K 2007-02-07 22:25 UserAndGroupEnter
+dr-x------ 2 paul paul 4.0K 2007-02-07 22:25 OnlyUserEnter
+paul@laika:~/perms$
+
+To  summarise,  the  first  rwx  triplet  represents  the  permissions  for  the  user  owner.

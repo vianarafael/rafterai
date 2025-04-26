@@ -1,0 +1,6 @@
+So after you have NFS installed and running, just follow the 
+instructions in this chapter to start using NFS.
+
+Sharing NFS Filesystems
+To share an NFS ﬁ lesystem from your Linux system, you need to export it from the server 
+system. Exporting is done in Linux by adding entries into the /etc/exports ﬁ le.

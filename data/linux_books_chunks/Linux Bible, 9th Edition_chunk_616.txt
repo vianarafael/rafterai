@@ -1,0 +1,10 @@
+That output might look something like the following:
+
+context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+SELinux provides a means of tightly locking down the security of a Linux system. See Chapter 24, “Enhancing Linux 
+Security with SELinux,” if you want to learn about SELinux.
+
+3
+
+You can see information about your current login session by using the who command.

@@ -1,0 +1,10 @@
+To make sure that the sshd and libvirtd services are running on the system, 
+
+type the following:
+
+# systemctl start sshd.service
+# systemctl enable sshd.service
+# systemctl start libvirtd.service
+# systemctl enable libvirtd.service
+
+4.

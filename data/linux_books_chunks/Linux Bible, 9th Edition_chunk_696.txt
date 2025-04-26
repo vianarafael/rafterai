@@ -1,0 +1,7 @@
+The following is an example:
+
+$ echo "I am $[2015 - 1957] years old."
+I am 58 years old.
+
+The shell interprets the arithmetic expression ﬁ rst (2015 - 1957) and then passes that 
+information to the echo command.

@@ -1,0 +1,7 @@
+At this 
+runlevel all applications and services are stopped and the system is halted.
+
+SysV has seven runlevels, ranging from 0 to 6, and each distribution uses different runlevels for different 
+
+purposes. But some runlevels are fairly generic across all distributions. The common runlevels are 0, 1, and 
+6. You’ve already seen runlevel 0, which is used to shut down the host.

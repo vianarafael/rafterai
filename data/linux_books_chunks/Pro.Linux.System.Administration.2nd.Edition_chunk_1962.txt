@@ -1,0 +1,7 @@
+The safe-upgrade 
+will not remove installed packages to upgrade the package being upgraded, which is sometimes required. 
+Sometimes you may have to remove a third-party package in order to upgrade a second. With safe-upgrade, 
+
+334
+
+this package will not be upgraded to the newer version.

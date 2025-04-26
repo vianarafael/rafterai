@@ -1,0 +1,8 @@
+an example
+
+The Apache2 webserver is by default targeted with SELinux. The next screenshot shows
+that any file created in /var/www/html will by default get the httpd_sys_content_t type.
+
+[root@centos65 ~]# touch /var/www/html/test42.txt
+[root@centos65 ~]# ls -Z /var/www/html/test42.txt
+-rw-r--r--.

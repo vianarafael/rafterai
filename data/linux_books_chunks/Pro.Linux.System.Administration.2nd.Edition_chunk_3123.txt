@@ -1,0 +1,6 @@
+Because this file can contain sensitive information (e.g., passwords), you cannot even 
+view it without using sudo.
+
+The default configuration file on Ubuntu is well commented, so we won’t go into great detail about most 
+
+options. The squid.conf file on CentOS has been striped to the recommended minimum settings.

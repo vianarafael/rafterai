@@ -1,0 +1,6 @@
+The syntax for the runlevel events, runlevel [2345], is used in many of 
+the job ﬁ les and denotes that the name “runlevel” can end in 2, 3, 4, or 5.
+
+To make a job persistent (start at boot), you need to modify the start on line in its 
+conﬁ guration ﬁ le so it starts on certain events emitted at server boot. To disable a job at 
+boot, just comment out the start on line with a pound sign (#).

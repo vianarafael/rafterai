@@ -1,0 +1,20 @@
+There are several reasons you might want 
+to do this:
+
+368
+
+c14.indd  04/01/2015  Page 369
+
+Chapter 14: Administering Networking
+
+ ■ High availability—Multiple NICs on the same IP address can ensure that if one 
+
+subnet goes down or one NIC breaks, the address can still be reached on a NIC con-
+nected to another subnet.
+
+ ■ Performance—If there is too much network trafﬁ c to be handled by one NIC, you 
+
+can spread that trafﬁ c across multiple NICs.
+
+In Red Hat Enterprise Linux and Fedora on a computer with multiple NICs, you can set up 
+Ethernet channel bonding by creating a few ifcfg ﬁ les and loading the necessary module.

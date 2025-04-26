@@ -1,0 +1,7 @@
+To overcome this, the ntpdate utility is invoked and the 
+clock is synchronized before the NTP service is started.
+
+Let’s have a look at the ntpdate utility first. On both CentOS and Ubuntu it is provided by the ntpdate 
+
+package. To update the system time, run the utility with the upstream server address as the only command-
+line parameter.

@@ -1,0 +1,22 @@
+We then need to add 
+
+the public cert that is produced to the /etc/ssl/certs directory along with the root CA if it is not already 
+there, cacert.pem.
+
+When the certificates are installed into the certs directory, we should change the ownership and 
+
+permissions to the following:
+
+$ sudo chown openldap:openldap –R /etc/ldap/certs
+$ sudo chmod 600 /etc/ldap/certs/ldap.example.com.key
+
+The user running the LDAP service on CentOS is ldap and would need to be used in the previous chown 
+
+command.
+
+741
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Configuring SLAPD
+With the requirements in place, we can now get on to configuring our OpenLDAP server.

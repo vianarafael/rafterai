@@ -1,0 +1,12 @@
+SELinux guards our ports
+
+If we try to restart our server, we will notice the following error:
+
+[root@CentOS65 ~]# service httpd restart
+Stopping httpd:                                            [  OK  ]
+Starting httpd: 
+       (13)Permission denied: make_sock: could not bind to address 0.0.0.0:7000
+no listening sockets available, shutting down
+                                                           [FAILED]
+
+This is due to SELinux reserving ports 7000 and 8000 for other uses.

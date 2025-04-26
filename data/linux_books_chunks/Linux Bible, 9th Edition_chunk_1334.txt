@@ -1,0 +1,8 @@
+These ﬁ les are 
+part of the pam (pluggable authentication modules) package.
+
+8
+
+ ■ /etc/skel—Any ﬁ les contained in this directory are automatically copied 
+
+to a user’s home directory when that user is added to the system.

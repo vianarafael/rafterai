@@ -1,0 +1,9 @@
+Why does it say "non-authoritative answer" ? When is a dns server authoritative ?
+
+9. You can also use dig instead of nslookup.
+
+root@debian7:~# dig @10.104.33.30 linux-training.be +short
+188.93.155.87
+root@debian7:~#
+
+10.

@@ -1,0 +1,6 @@
+IMAP allows your users to roam with or without their client; for example, an IMAP server allows 
+a user to have access to her e-mail via her laptop and a smart phone or other mobile device.
+
+Your user’s e-mail is also in a central location, which makes it easy for you to back it up (and recover it 
+
+when one of your users inevitably deletes a vital e-mail).

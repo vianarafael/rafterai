@@ -1,0 +1,5 @@
+We’re calling the spamc command, a binary that connects to the 
+spamassassin daemon, submits our e-mail, and then receives the scanned results.
+
+To the spamc command, we’re passing the -e argument. This argument (which must be specified last 
+on the command line) tells the spamc command what to do with the e-mail after it’s been scanned.

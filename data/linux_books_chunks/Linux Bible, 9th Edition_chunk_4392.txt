@@ -1,0 +1,23 @@
+Table 23.4 demonstrates how the status results are combined.
+
+23
+
+651
+
+c23.indd  04/01/2015  Page 652
+
+Part V: Learning Linux Security Techniques
+
+TABLE 23.4    PAM Conﬁ guration Control Flags and Response Handling
+
+Control Flag
+
+Response Handling Description
+
+required
+
+If failed, returns a failure status to the application, after the rest of the contexts 
+have been run in the stack.
+
+For example, a requisite control might cause a login to fail if someone types in 
+an invalid user.

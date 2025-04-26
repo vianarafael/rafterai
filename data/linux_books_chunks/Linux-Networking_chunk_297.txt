@@ -1,0 +1,14 @@
+The private key is named ~/.ssh/id_rsa.
+
+52
+
+ssh client and server
+
+[alice@RHEL5 ~]$ ls -l .ssh/
+total 16
+-rw------- 1 alice alice 1671 May  1 07:38 id_rsa
+-rw-r--r-- 1 alice alice  393 May  1 07:38 id_rsa.pub
+
+The files will be named id_dsa and id_dsa.pub when using dsa instead of rsa.
+
+5.5.4.

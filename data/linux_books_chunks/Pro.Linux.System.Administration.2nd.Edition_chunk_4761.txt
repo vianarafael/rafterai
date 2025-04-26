@@ -1,0 +1,5 @@
+Having several 
+Linux hosts with several user accounts on each can become cumbersome to manage. Passwords can get 
+out of sync, and you might not remove users when they leave your company from all your hosts, creating 
+potential security risks. To simplify this kind of user management, you could centralize your authentication 
+service by pointing your Linux hosts to your LDAP server.

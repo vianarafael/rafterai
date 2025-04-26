@@ -1,0 +1,2 @@
+This allows for only one mount of /data/sales and only one set of user credentials being able to 
+access it. In the shared multiuser environment, we can mount the share with one common user.

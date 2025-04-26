@@ -1,0 +1,28 @@
+You can 
+
+find out by running the following:
+
+$ sudo ldapsearch -D "cn=admin,dc=example,dc=com" -b "dc=example,dc=com" –ZZ  -H ldap://
+ldap.example.com –W
+# example.com
+dn: dc=example,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+o: example
+dc: example
+
+766
+
+If this is the case, do not include this in users.ldif or you will get an error like the following when you 
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+try to add it:
+
+adding new entry "dc=example,dc=com"
+ldap_add: Already exists (68)
+
+Next, we want to set up the users in our organization, so we will now declare our people organizational 
+
+unit.

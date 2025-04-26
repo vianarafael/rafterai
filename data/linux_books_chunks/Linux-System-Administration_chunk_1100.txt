@@ -1,0 +1,5 @@
+setting up passwordless ssh
+
+To set up passwordless ssh authentication through public/private keys, use ssh-keygen to
+generate a key pair without a passphrase, and then copy your public key to the destination
+server.

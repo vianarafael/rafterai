@@ -1,0 +1,7 @@
+force security mode
+
+The force security mode and force directory security mode work in the same way as force
+create mode and force directory mode, but apply only when a windows user is changing
+permissions using the windows security dialog box.
+
+21.4.5.

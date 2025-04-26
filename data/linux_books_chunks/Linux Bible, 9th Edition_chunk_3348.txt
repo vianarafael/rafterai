@@ -1,0 +1,14 @@
+That ﬁ le 
+
+490
+
+c18.indd  04/01/2015  Page 491
+
+Chapter 18: Confi guring an FTP Server
+
+can be copied from a directory of sample ﬁ les to the /etc/vsftpd/vsftpd.conf ﬁ le, to 
+use for an FTP server that is available on the Internet.
+
+Setting up vsftpd for the Internet
+To safely share ﬁ les from your FTP server to the Internet, you can lock down your server 
+by limiting it to only allow downloads and only from anonymous users.

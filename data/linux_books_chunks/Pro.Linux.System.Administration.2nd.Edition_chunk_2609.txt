@@ -1,0 +1,6 @@
+The @ symbol is 
+replaced with the origin, too, so users will be able to access a host by going to just the domain as well.
+
+You’ll note that both these names will now resolve to the same address. An IP address can have as many 
+
+A records associated with it as you like.

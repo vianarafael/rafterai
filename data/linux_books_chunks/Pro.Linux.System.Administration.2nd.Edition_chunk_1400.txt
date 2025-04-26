@@ -1,0 +1,11 @@
+We can 
+
+add something like this into our rc.local file:
+
+/etc/rc.d/rc.local
+/sbin/ip addr add 192.168.0.24/24 brd 192.168.0.255 dev enp0s3
+/sbin/ip addr add 192.168.0.25/24 brd 192.168.0.255 dev enp0s3
+/sbin/ip addr add 192.168.0.26/24 brd 192.168.0.255 dev enp0s3
+
+In the foregoing we are adding the IPv4 addresses 192.168.0.24-26 to our enp0s3 address when our 
+host is rebooted.

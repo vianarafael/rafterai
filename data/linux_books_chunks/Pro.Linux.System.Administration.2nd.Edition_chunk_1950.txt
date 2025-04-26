@@ -1,0 +1,2 @@
+repositories, as explained previously, are collections of packages maintained by the package 
+maintainers for your particular distribution.

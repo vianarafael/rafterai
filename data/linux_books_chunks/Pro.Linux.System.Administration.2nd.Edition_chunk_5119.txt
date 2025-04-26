@@ -1,0 +1,6 @@
+With this in mind, 
+place the broader filters at the left, and narrow the filtering criteria as you move to the right.
+
+You can also use multiple lines to send messages to more than one location, as shown in Listing 18-10.
+
+Listing 18-10.

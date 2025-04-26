@@ -1,0 +1,6 @@
+It offers fault tolerance and easy administration. The btrfs ﬁ le system has recently 
+grown in popularity for enterprise applications.
+
+ ■ cifs—Common Internet Filesystem (CIFS), the virtual ﬁ lesystem used to access 
+
+servers that comply with the SNIA CIFS speciﬁ cation.

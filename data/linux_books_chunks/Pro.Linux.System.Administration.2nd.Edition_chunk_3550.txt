@@ -1,0 +1,2 @@
+The man 
+page for policyd-spf.conf describes the configuration options.

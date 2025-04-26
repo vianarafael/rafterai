@@ -1,0 +1,3 @@
+A default runlevel is 
+set in the /etc/inittab ﬁ le, but you can change the runlevel any time you like using 
+the init command.

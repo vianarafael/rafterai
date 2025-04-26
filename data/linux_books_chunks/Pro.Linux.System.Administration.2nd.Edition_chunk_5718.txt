@@ -1,0 +1,4 @@
+The <%= $value %> syntax is how you specify variables in a template. Here we specified 
+that Puppet should set ListenAddress to the value of the $ipaddress variable. This variable is, in turn, the 
+value of the ipaddress fact, which contains the IP address of the eth0 interface. We also have passed in the  
+{ 'root_login' => 'no' } key/value as a hash.

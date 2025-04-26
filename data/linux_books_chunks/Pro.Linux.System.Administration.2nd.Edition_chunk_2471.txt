@@ -1,0 +1,10 @@
+By default on 
+
+both Ubuntu and CentOS we don’t allow clients to synchronize from this time service. To do that we need to 
+set the allow setting as follows:
+
+allow 192.168/16
+
+You would only set this if you were going to use these hosts in your networks as local network time 
+
+clocks.

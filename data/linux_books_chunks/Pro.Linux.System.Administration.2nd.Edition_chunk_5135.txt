@@ -1,0 +1,26 @@
+The last line tells rsyslogd to 
+run a TCP server on port 6514.
+
+Now we will need to make sure that port 6514 is open on our backup server, which is a CentOS server, so 
+
+we use the firewall-cmd command.
+
+$ sudo firewall-cmd --permanent --zone public --add-port=6514/tcp
+$ sudo firewall-cmd --reload
+
+Then we restart the rsyslog daemon on the backup server too.
+
+$ sudo systemctl restart rsyslog
+
+On the backup server we can now inspect our /var/log/messages file, and we should see logs similar to 
+
+these:
+
+Dec  1 12:01:17 gateway chronyd[608]: Selected source 27.124.125.250
+Dec  1 12:01:19 gateway chronyd[608]: Selected source 27.124.125.250
+Dec  1 12:01:21 backup systemd: Starting user-0.slice.
+Dec  1 12:01:01 backup systemd: Started Session 143 of user root.
+Dec  1 12:05:51 gateway chronyd[608]: Selected source 202.127.210.37
+Dec  1 12:08:22 dc1 systemd[1]: Started CUPS Scheduler.
+
+The logs are coming in with the timestamp, hostname, service, and message being written.

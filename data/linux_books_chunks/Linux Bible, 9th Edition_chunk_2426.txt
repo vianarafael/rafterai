@@ -1,0 +1,7 @@
+When you view the ﬁ le /tmp/jake (for example, 
+less/tmp/jake), you will ﬁ nd all the ﬁ les that are owned by the user jake listed in size 
+order. Here is the command line:
+
+# find / -xdev -user jake -print | xargs ls -ldS > /tmp/jake
+
+The -xdev option prevents fi lesystems other than the selected fi lesystem from being searched.

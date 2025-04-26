@@ -1,0 +1,10 @@
+We are 
+
+going to add two more users, jsmith and bsingh, who are part of the sales team.
+
+$ sudo samba-tool user create jsmith
+New Password:
+Retype Password:
+User 'jsmith' created successfully
+
+We have added a new user called jsmith. We will do the same for bsingh.

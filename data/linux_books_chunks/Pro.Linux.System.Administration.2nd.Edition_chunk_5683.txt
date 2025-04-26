@@ -1,0 +1,8 @@
+for example, 
+our www.example.com host can run a number of services such as apache or postfix, so a logical first 
+step would be to configure these services and then slowly add the additional functions also supported 
+on this host.
+
+Specifying Configuration for Multiple Hosts
+We’ve barely scratched the surface of Puppet’s configuration capabilities, so let’s look at extending our 
+current configuration to multiple clients or nodes.

@@ -1,0 +1,5 @@
+A ﬁ rewall in this state is 
+essentially disabled until speciﬁ c REJECT or DROP rules are added.
+
+If your Linux server is dealing with IP v6 network packets, you can use the ip6tables utility to manage your fi re-
+wall for IPv6 addresses. The ip6tables utility is nearly identical to the iptables utility.

@@ -1,0 +1,3 @@
+This means that 
+someone consuming your PaaS could bundle together their own operating system, 
+application, conﬁ guration ﬁ les, and data and deploy them.

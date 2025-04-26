@@ -1,0 +1,31 @@
+Instead, the new password is provided by the previously stacked password 
+module.
+
+ ■ dictpath=/path
+
+Path to the cracklib dictionaries.
+
+For example, if your organization requires passwords to be ten characters long and they 
+must contain two digits, you would add a line similar to the following to the /etc/pam.d/
+system-auth ﬁ le:
+
+password required pam_cracklib.so minlen=10 dcredit=-2
+
+The keywords used in this example with pam_cracklib are:
+
+ ■ minlen=10—The new password must be at least ten characters.
+
+ ■ dcredit=-2—The new password must contain two numbers.
+
+663
+
+c23.indd  04/01/2015  Page 664
+
+Part V: Learning Linux Security Techniques
+
+The pam_cracklib restrictions do not apply to the root user.
+
+Encouraging sudo use with PAM
+To allow tracking of root-account use by individuals and avoid a repudiation situation (see 
+Chapter 22, “Understanding Basic Linux Security”), you should restrict the use of the su 
+command and encourage the use of sudo.

@@ -1,0 +1,3 @@
+For example, 
+a user may not realize that he or she has entered the wrong password enough times to lock 
+the account. This may cause a delay in seeking help.

@@ -1,0 +1,6 @@
+We can refer to the nginx-specific online documentation at http://nginx.org/ for detailed 
+information. We’ll use these instructions here (http://nginx.org/en/docs/configure.html) to compile 
+and install the application.
+
+But before we can compile our application, we need to install a compiler and its associated libraries and 
+utilities.

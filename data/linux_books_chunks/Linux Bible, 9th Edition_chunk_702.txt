@@ -1,0 +1,6 @@
+And because there are always multiple ways to do anything 
+in Linux, you can also type declare to get a list of the current environment variables and 
+their values along with a list of shell functions.
+
+Besides those that you set yourself, system ﬁ les set variables that store things such as 
+locations of conﬁ guration ﬁ les, mailboxes, and path directories.

@@ -1,0 +1,5 @@
+Follow these steps to accomplish this for yourself.
+
+Step 1: Get Linux software
+Go to the Get Fedora page (https://getfedora.org) and download Fedora 21. I chose to 
+download the Fedora 21 64-bit Workstation edition DVD ISO.

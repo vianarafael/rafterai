@@ -1,0 +1,14 @@
+Querying a DNS Server for a Specific Record Type
+
+$ dig @ns1.google.com google.com NS
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> google.com NS
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44887
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 5
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;google.com.

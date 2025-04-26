@@ -1,0 +1,8 @@
+To prevent being logged off while you are working, you may 
+want to set the value to something like TMOUT=1800 (to allow 30 minutes of idle 
+time). You can use any terminal session to close the current shell after a set num-
+ber of seconds—for example, TMOUT=30.
+
+ ■ PATH—As described earlier, the PATH variable sets the directories that are 
+
+searched for commands you use.

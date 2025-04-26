@@ -1,0 +1,2 @@
+Most distributions, however, use the logrotate.d directory and come with a number of 
+predefined files in this directory to handle common log rotations such as mail, cron, and rsyslog messages.

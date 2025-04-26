@@ -1,0 +1,6 @@
+As the user you just gave sudoers privilege to, use the sudo command to create 
+a ﬁ le called /mnt/test2.txt. Verify that the ﬁ le is there and owned by the root 
+user.
+
+7.  Run the journalctl -f command and plug a USB drive into a USB port on your 
+computer. If it doesn’t mount automatically, mount it on /mnt/test.

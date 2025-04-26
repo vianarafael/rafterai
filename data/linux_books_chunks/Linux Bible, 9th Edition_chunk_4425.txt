@@ -1,0 +1,7 @@
+For example, you can see that the ﬁ le system-auth is  actually 
+a symbolic link pointing to the ﬁ le system-auth-ac. The ﬁ rst character in the ﬁ le’s 
+ security is an l. This indicates that the ﬁ le is linked. The -> symbol shows that the ﬁ le is 
+symbolically linked.
+
+# ls -l system-auth
+lrwxrwxrwx.

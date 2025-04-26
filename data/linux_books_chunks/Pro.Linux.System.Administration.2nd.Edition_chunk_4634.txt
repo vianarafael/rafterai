@@ -1,0 +1,28 @@
+To do that, you would issue the following (on Ubuntu, use –u ldap 
+and –g ldap for CentOS):
+
+$ sudo slapd -F /etc/ldap/slapd.d -d -1 -u openldap -g openldap -h ldapi:///
+
+You can manually start or stop an SLAPD server service using the following on either CentOS or Ubuntu:
+
+$ sudo systemctl start slapd
+$ sudo systemctl stop slapd
+
+You can then check the status of the daemon with the following:
+
+$ sudo systemctl status slapd
+
+You can enable at boot with the following:
+
+$ sudo systemctl enable slapd
+
+Once the service is started, you can tail the journal logs to see any logging information.
+
+$ sudo journalctl -xfe -u slapd
+
+You can use the logs to monitor and solve problems with your access requests.
+
+Securing SLAPD with TLS
+
+Because LDAP can often contain sensitive data, it is a good precaution to make sure that the data transferred 
+between your LDAP clients and your LDAP server is encrypted.

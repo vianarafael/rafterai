@@ -1,0 +1,7 @@
+For Fedora and RHEL, the components you need that are not 
+already in the kernel can be added by installing the nfs-utils package:
+
+# yum install nfs-utils
+
+Besides a few documents in the /usr/share/doc/nfs-utils* directory, most 
+ documentation in the nfs-utils package includes man pages for its various components.

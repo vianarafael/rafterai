@@ -1,0 +1,11 @@
+If time permits, search for and install samba including the samba docs pdf files (thousands
+of pages in two pdf's).
+
+249
+
+Part V. network management
+
+Table of Contents
+
+21. general networking ..............................................................................................................................  253
+21.1.

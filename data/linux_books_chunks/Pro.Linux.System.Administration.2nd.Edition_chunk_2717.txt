@@ -1,0 +1,6 @@
+All 
+
+that remains to do now is tell the DHCP clients to send a hostname string to the server when they ask for a 
+lease. This hostname string will then be used to create the FQDN for the DNS entries.
+
+To set it, we edit the file /etc/dhclient.conf on the client and add the send host-name option.

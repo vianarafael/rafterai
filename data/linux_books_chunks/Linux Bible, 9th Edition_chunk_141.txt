@@ -1,0 +1,6 @@
+I teach you how to become 
+proﬁ cient with the Linux command-line shell and occasionally compare shell features with 
+graphical tools for accomplishing the same tasks.
+
+ ■ Aimed at fewer Linux distributions: In previous editions, I described about 18 different 
+Linux distributions.

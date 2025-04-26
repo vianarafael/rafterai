@@ -1,0 +1,3 @@
+However, one of the main 
+purposes of confi guring two hypervisors and separate shared storage is that you want to be able to shut down any 
+hypervisor and still have all your virtual machines operate normally.

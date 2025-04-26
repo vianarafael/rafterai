@@ -1,0 +1,18 @@
+It has the following contents:
+
+include /etc/ldap/schema/exampleactive.schema
+
+Now we can use that as the input file to our slaptest command.
+
+$ sudo slaptest –f schema_load.conf –F ldif_converted
+
+This creates an LDIF-formatted file.
+
+ /etc/ldap/ldif_converted/cn\=config/cn\=schema/cn={0}exampleactive.ldif
+
+If you get the following error:
+
+58180fbb schema/exampleactive.schema: line 1 attributetype: Missing closing parenthesis 
+before end of input
+
+this indicates that there are whitespace errors in the schema file.

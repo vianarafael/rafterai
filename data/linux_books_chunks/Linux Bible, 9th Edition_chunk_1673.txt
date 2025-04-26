@@ -1,0 +1,6 @@
+For every Linux 
+system, you need to deal with issues of disk partitioning, boot options, and conﬁ guring 
+boot loaders.
+
+In this chapter, you stepped through installation procedures for Fedora (using a live 
+media installation) and Red Hat Enterprise (from installation media).

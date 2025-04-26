@@ -1,0 +1,5 @@
+For example, if you put runlevel 6 in the /etc/inittab fi le as the default, when the server reboots, it 
+would go into a loop and continue to reboot over and over again.
+
+The runlevels are not only used as a default runlevel in the /etc/inittab ﬁ le. 
+They can also be called directly using the init daemon itself.

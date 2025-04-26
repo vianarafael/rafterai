@@ -1,0 +1,24 @@
+To manage the actual 
+
+device (connect, disconnect, delete) you use the device subcommands.
+
+232
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+$ sudo nmcli d status
+DEVICE  TYPE      STATE                                  CONNECTION
+enp0s3  ethernet  connected                              enp0s3
+lo      loopback  unmanaged                              --
+
+The nmcli command takes the following format:
+
+$ nmcli <OPTIONS> <OBJECT> <COMMAND|HELP>
+
+So if you need help to remember how to use the add command on the connection object you can type
+
+$ nmcli connection add help
+Usage: nmcli connection add { ARGUMENTS | help }
+....
+
+What we are going to do next is add a team interface to our CentOS host.

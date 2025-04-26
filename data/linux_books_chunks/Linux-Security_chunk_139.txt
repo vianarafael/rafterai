@@ -1,0 +1,10 @@
+And get back to the previous account.
+
+laura@debian7:~$ su tania
+Password:
+tania@debian7:/home/laura$ id
+uid=1006(tania) gid=1008(tania) groups=1008(tania)
+tania@debian7:/home/laura$ exit
+laura@debian7:~$
+
+6.

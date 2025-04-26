@@ -1,0 +1,6 @@
+Moving Files
+
+$ mv -i ~/myfile /home/bjones/yourfile
+
+The command in Listing 4-17 moves a file called myfile from the home directory to /home/bjones and 
+renames it to yourfile. The -i option again ensures we get prompted if the target file already exists.

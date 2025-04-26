@@ -1,0 +1,13 @@
+By using 
+Fedora, you will learn the skills you need to work with features as they are being 
+developed for Red Hat Enterprise Linux.
+
+ ■ For learning, Fedora is more convenient than RHEL, yet still includes many of the 
+
+more advanced, enterprise-ready tools that are in RHEL.
+
+ ■ Fedora is free, not only as in “freedom” but also as in “you don’t have to 
+
+pay for it.”
+
+Fedora is extremely popular with those who develop open source software.

@@ -1,0 +1,28 @@
+As this example shows, even though root
+does not belong to the group proj55, the files created by root in /project55 will belong to
+proj55 since the setgid is set.
+
+root@RHELv4u4:~# groupadd proj55
+root@RHELv4u4:~# chown root:proj55 /project55/
+root@RHELv4u4:~# chmod 2775 /project55/
+root@RHELv4u4:~# touch /project55/fromroot.txt
+root@RHELv4u4:~# ls -ld /project55/
+drwxrwsr-x  2 root proj55 4096 Feb  7 17:45 /project55/
+root@RHELv4u4:~# ls -l /project55/
+total 4
+-rw-r--r--  1 root proj55 0 Feb  7 17:45 fromroot.txt
+root@RHELv4u4:~#
+
+You can use the find command to find all setgid directories.
+
+paul@laika:~$ find / -type d -perm -2000 2> /dev/null
+/var/log/mysql
+/var/log/news
+/var/local
+...
+
+58
+
+advanced file permissions
+
+7.3.

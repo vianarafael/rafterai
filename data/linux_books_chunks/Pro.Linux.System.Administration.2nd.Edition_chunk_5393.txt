@@ -1,0 +1,3 @@
+This command is 
+usually a Nagios plug-in, and hence the easiest way to do this is to install the Nagios plug-in package on the 
+remote host.

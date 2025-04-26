@@ -1,0 +1,4 @@
+By default, the top panel contains menu buttons (Applications, Places, and 
+System), desktop application launchers (Evolution email and Firefox web browser), a 
+workspace switcher (for managing four virtual desktops), and a clock. Icons appear in 
+the panel when you need software updates or SELinux detects a problem.

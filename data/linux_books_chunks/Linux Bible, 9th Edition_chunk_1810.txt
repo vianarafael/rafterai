@@ -1,0 +1,12 @@
+Running that command causes the package you name to be 
+downloaded from the YUM repository and copied to your current directory.
+
+For example, to download the latest version of the Firefox web browser package from the 
+YUM repository to your current directory, type the following:
+
+# yumdownloader firefox
+...(1/2): firefox-35.0-3.fc21.x86_64.rpm         |  68 MB  00:00:09
+(2/2): firefox-35.0-3.fc21.i686.rpm           |  68 MB  00:00:10
+
+In this case, because x86_64 and i686 versions of the ﬁ refox package are available, both 
+are downloaded to the current directory.

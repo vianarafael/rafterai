@@ -1,0 +1,25 @@
+(If you see a capital S or T instead of the execute 
+bits on a directory, it means that the set GID or stick bit permission, respectively, 
+was set, but for some reason the execute bit was not also turned on.)
+
+ ■ If you see a plus sign at the end of the permission bits (for example, -rw-rw-
+
+r--+), it means that extended attributes, such as Access Control Lists (ACLs) or 
+SELinux, are set on the ﬁ le.
+
+4
+
+107
+
+c04.indd  04/01/2015  Page 108
+
+Part II: Becoming a Linux Power User
+
+Identifying Directories
+When you need to identify your home directory on a shell command line, you can use the following:
+
+ ■ $HOME—This environment variable stores your home directory name.
+
+ ■ ~—The tilde (~) represents your home directory on the command line.
+
+You can also use the tilde to identify someone else’s home directory.

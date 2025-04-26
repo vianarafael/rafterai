@@ -1,0 +1,8 @@
+security = share
+
+The  'Windows  for  Workgroups'  way  of  working,  a  client  requests  connection  to  a  share
+and provides a password for that connection. Aanyone who knows a password for a share
+can access that share. This security model was common in Windows 3.11, Windows 95,
+Windows 98 and Windows ME.
+
+17.2.2.

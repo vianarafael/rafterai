@@ -1,0 +1,6 @@
+Most software is highly 
+configurable, not just in terms of available features but also in terms of installation location. To configure 
+an application prior to building it, we use the configure command. In Listing 8-22, we run the configure 
+command with the --help option to display all the options available to configure our application.
+
+Listing 8-22.

@@ -1,0 +1,7 @@
+You will see that there are directives such as IncludeOptional <resource>-enabled/*.conf. 
+Ubuntu (and Debian, of course) makes use of symlinks to enable a module or configuration option.
+
+Managing Modules
+
+Let’s take a look at the /etc/apache2/mod-available directory. We have changed into the /etc/apache2 
+directory and will execute a listing of the mod-available directory.

@@ -1,0 +1,6 @@
+Don’t add a DHCP server on a network that is not under your control and that already has 
+a working DHCP server. Many clients are set up to get address information from any DHCP 
+server that will hand it out.
+
+DHCP service is provided by the dhcp package in Fedora and RHEL. The service is named 
+dhcpd in RHEL 6 and dhcpd.service in RHEL 7 and the latest Fedora release.

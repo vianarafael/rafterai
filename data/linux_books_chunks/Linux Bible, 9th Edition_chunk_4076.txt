@@ -1,0 +1,12 @@
+It is just for demonstration purposes.
+
+# gawk -F: '{print $1,$8}' /etc/shadow
+...
+chrony
+tcpdump
+johndoe
+Consultant 13819
+Intern 13911
+
+The $1 and $8 in the gawk command represent the username and expiration date ﬁ elds in 
+the /etc/shadow ﬁ le records.

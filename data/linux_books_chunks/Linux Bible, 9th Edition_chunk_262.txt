@@ -1,0 +1,7 @@
+This includes submitting a ﬁ le of changes 
+when submitting modiﬁ cations and that those making their own additions to 
+the code for redistribution should be aware of patent issues or other restrictions 
+ associated with their code.
+
+The end result of open source code is software that has more ﬂ exibility to grow and fewer 
+boundaries in how it can be used.

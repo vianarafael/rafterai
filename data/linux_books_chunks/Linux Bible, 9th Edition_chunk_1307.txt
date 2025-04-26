@@ -1,0 +1,10 @@
+In the past, these have included 
+the following:
+
+ ■ /sbin—Contained commands needed to boot your system, including commands for 
+
+checking ﬁ lesystems (fsck) and turn on swap devices (swapon).
+
+ ■ /usr/sbin—Contained commands for such things as managing user accounts 
+(such as useradd) and checking processes that are holding ﬁ les open (such 
+as lsof).

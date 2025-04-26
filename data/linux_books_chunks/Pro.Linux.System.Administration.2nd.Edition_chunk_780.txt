@@ -1,0 +1,5 @@
+You can also set the SYS_UID_MIN and SYS_UID_MAX as well as the 
+group there too.
+
+So in Listing 5-4 we’ve executed the id command for the jsmith user and displayed the user’s UID of 
+1001 and GID of 1001 (with the name of the user and group in brackets after the UID and GID).

@@ -1,0 +1,6 @@
+The users gain access to these shares via a local user and a shared mount 
+connection. For example, users jsmith and bsingh can share one common mount, via a common local user.
+
+In this example, the group sales does not need to exist on the local Linux server we are mounting the 
+
+share on, but the user exbackup also needs to exist.

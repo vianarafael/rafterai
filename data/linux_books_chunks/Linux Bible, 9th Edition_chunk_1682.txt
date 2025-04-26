@@ -1,0 +1,7 @@
+Just 
+
+a few clicks and you’re using the software in little more time than it takes to download it.
+
+The fact that Linux software management is so easy these days is a credit to the Linux  community, 
+which has worked diligently to create packaging formats, complex installation tools, and 
+ high-quality software packages.

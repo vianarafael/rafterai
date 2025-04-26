@@ -1,0 +1,29 @@
+For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+Configuring network cards for dhcp is good practice for clients, but servers usually require
+a fixed ip address.
+
+fixed ip
+
+The screenshot below shows /etc/network/interfaces configured with a fixed ip address.
+
+root@debian7~# cat /etc/network/interfaces
+auto lo
+iface lo inet loopback
+
+auto  eth0
+iface eth0 inet static
+address   10.42.189.198
+broadcast 10.42.189.207
+netmask   255.255.255.240
+gateway   10.42.189.193
+
+The  screenshot  above  also  shows  that  you  can  provide  more  configuration  than  just  the
+ip address.

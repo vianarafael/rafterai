@@ -1,0 +1,7 @@
+You will see the date firing rapidly on your screen after each copy. While it is doing that, on 
+au-mel-dfs-1 enter the reboot command.
+
+$ sudo reboot
+
+The host will immediately reboot. While this is happening, two things can happen.
+If our host had mounted the volume from au-mel-dfs-1, you would see a pause in the copying.

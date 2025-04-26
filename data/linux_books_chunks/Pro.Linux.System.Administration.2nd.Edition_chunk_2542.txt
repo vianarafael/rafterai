@@ -1,0 +1,12 @@
+Querying a DNS Server for an SOA Record
+
+$ dig google.com @ns1.google.com SOA
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> google.com @ns1.google.com SOA
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43145
+;; flags: qr aa rd; QUERY: 1, ANSWER: 1, AUTHORITY: 4, ADDITIONAL: 4
+;; WARNING: recursion requested but not available
+
+;; QUESTION SECTION:
+;google.com.

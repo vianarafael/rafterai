@@ -1,0 +1,9 @@
+You can see an example of a line in Listing 18-3.
+
+Listing 18-3.  rsyslog.conf Syntax
+
+mail.*        -/var/log/mail.log
+
+This example shows a selector, mail.*, together with the action /var/log/mail.log. The selector 
+
+specifies a facility and a priority, separated by a period.

@@ -1,0 +1,11 @@
+You can sign into your favorite cloud provider or you can skip
+
+In Figure 2-37 you see an example of the Google sign in, but you do not have to sign up to any of them if 
+
+you do not wish.
+
+Figure 2-37.  An example of Google sign in
+
+50
+
+Figure 2-38 brings us to the end of the desktop configuration part.

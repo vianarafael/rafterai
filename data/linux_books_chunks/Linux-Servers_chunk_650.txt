@@ -1,0 +1,11 @@
+Make sure the directory is owned properly and is world accessible.
+
+chown root:root /srv/samba/readonly
+
+chmod 755 /srv/samba/readonly
+
+3. Put a textfile in this directory.
+
+echo Hello World > hello.txt
+
+4.

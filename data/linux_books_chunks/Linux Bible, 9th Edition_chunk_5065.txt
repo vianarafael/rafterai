@@ -1,0 +1,9 @@
+For the Device Name, if you choose 
+vda as the device name (for the ﬁ rst disk on a virtual machine), the device rep-
+resenting that device would be /dev/vda.
+
+2.  Select Access & Security. Select the Access & Security tab, and choose the keypair 
+
+you created earlier.
+
+3.  Select Networking. Select the Networking tab.

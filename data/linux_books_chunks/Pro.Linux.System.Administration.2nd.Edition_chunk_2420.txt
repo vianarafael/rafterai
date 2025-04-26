@@ -1,0 +1,33 @@
+With it we can do the following:
+
+•	
+
+•	
+
+•	
+
+Set the current time
+
+Set the date
+
+Set the time zone
+
+First let’s look at the current status:
+
+$ sudo timedatectl status
+      Local time: Fri 2016-09-30 21:22:26 EDT
+  Universal time: Sat 2016-10-01 01:22:26 UTC
+        RTC time: Fri 2016-09-30 18:06:27
+       Time zone: America/New_York (EDT, -0400)
+     NTP enabled: yes
+NTP synchronized: yes
+ RTC in local TZ: no
+      DST active: yes
+ Last DST change: DST began at
+                  Sun 2016-03-13 01:59:59 EST
+                  Sun 2016-03-13 03:00:00 EDT
+ Next DST change: DST ends (the clock jumps one hour backwards) at
+                  Sun 2016-11-06 01:59:59 EDT
+                  Sun 2016-11-06 01:00:00 EST
+
+There we have our current time and date status.

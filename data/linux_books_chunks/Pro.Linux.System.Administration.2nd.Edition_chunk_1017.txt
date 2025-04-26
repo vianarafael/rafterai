@@ -1,0 +1,6 @@
+This allows GRUB2 to boot other operating systems 
+using their own boot loaders.
+
+Using the GRUB2 Menu
+When your host boots, it will boot into the default kernel (or operating system) or you can override it and 
+display the GRUB2 menu.

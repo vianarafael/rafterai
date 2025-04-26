@@ -1,0 +1,18 @@
+The candidate should also be able to configure 
+tcpwrappers to further secure NFS.
+
+Key files, terms, and utilities include:
+/etc/exports 
+exportfs 
+showmount 
+nfsstat
+
+Topic 211: System Maintenance
+
+• 2.211.1 System logging
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: The candidate should be able to configure syslogd to act as a central 
+network log server.

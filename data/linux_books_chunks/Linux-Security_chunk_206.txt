@@ -1,0 +1,17 @@
+Try changing the password of serena to serena as serena.
+
+log on as serena, then execute: passwd serena... it should fail!
+
+6. Make sure serena has to change her password in 10 days.
+
+chage -M 10 serena
+
+7. Make sure every new user needs to change their password every 10 days.
+
+vi /etc/login.defs (and change PASS_MAX_DAYS to 10)
+
+27
+
+user passwords
+
+8. Take a backup as root of /etc/shadow.

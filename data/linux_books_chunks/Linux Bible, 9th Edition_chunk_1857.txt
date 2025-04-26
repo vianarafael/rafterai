@@ -1,0 +1,9 @@
+User accounts 
+
+keep boundaries between the people who use your systems and between the processes that 
+run on your systems. Groups are a way of assigning rights to your system that can be assigned 
+
+to multiple users at once.
+
+This chapter describes not only how to create a new user, but also how to create predeﬁ ned  settings 
+and ﬁ les to conﬁ gure the user’s environment.

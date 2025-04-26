@@ -1,0 +1,4 @@
+As you press Alt+Tab, a thumbnail of each window scrolls across the 
+screen as the window it represents is highlighted.
+
+Figure 2.19 shows an example of a Compiz desktop with AIGLX enabled.

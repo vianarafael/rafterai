@@ -1,0 +1,10 @@
+Get the installation CD or DVD image you want to use, and burn it to the appropri-
+ate medium (CD or DVD). See Appendix A, “Media,” for information on burning CDs 
+and DVDs. (For my example, I used a Red Hat Enterprise Linux 7 Server installation 
+DVD.)
+
+2.  Insert the CD or DVD into the drive on the computer that has the broken Linux 
+
+system installed, and reboot.
+
+3.

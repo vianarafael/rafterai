@@ -1,0 +1,4 @@
+The yum command is not smart enough to know exactly what you’re looking for, so it provides you with 
+anything with nmap in the name or description.
+
+You can also search for parts of the package name if you are unsure of the complete name.

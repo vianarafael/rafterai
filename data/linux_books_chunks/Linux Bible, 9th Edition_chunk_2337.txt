@@ -1,0 +1,6 @@
+By con-
+trast, the rsync can determine that a ﬁ le has already been copied and not copy 
+the ﬁ le again.
+
+The rsync command is a better network backup tool because it can overcome some of the 
+shortcomings of scp just listed.

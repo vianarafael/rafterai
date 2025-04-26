@@ -1,0 +1,13 @@
+This has limited support in clients.
+
+NTLM
+
+GSSAPI
+
+Microsoft Windows–based authentication, generally supported only in Microsoft clients.
+
+Kerberos v5 support. This has limited support in clients.
+
+ANONYMOUS
+
+Supports anonymous logins.

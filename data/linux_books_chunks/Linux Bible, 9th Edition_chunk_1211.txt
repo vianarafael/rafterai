@@ -1,0 +1,5 @@
+To get a better idea of how sed scripts work, there’s no 
+substitute for the online documentation, but here are some examples of common uses.
+
+You can use the sed command to essentially do what I did earlier with the grep example: 
+search the /etc/passwd ﬁ le for the word home.

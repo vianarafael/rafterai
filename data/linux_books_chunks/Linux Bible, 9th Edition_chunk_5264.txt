@@ -1,0 +1,26 @@
+To safely remove the USB ﬂ ash drive from the computer, do the following:
+
+# umount /dev/sdb1
+# swapoff /dev/sdb2
+# umount /mnt/test
+# lvremove /dev/mapper/abc-data
+# vgremove abc
+# pvremove /dev/sdb3
+
+You can now safely remove the USB ﬂ ash drive from the computer.
+
+804
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 805
+
+Appendix B: Exercise Answers
+
+Chapter 13: Understanding Server Administration
+
+1.

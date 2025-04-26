@@ -1,0 +1,9 @@
+The actual modules are stored in 
+ subdirectories of that directory. Mounting a ﬁ lesystem of a supported type causes the 
+ ﬁ lesystem module to be loaded, if it is not already loaded.
+
+Type man fs to see descriptions of Linux ﬁ lesystems.
+
+Enabling swap areas
+A swap area is an area of the disk that is made available to Linux if the system runs out of 
+memory (RAM).

@@ -1,0 +1,6 @@
+Anonymous should never be 
+used if your LDAP server is publicly available on the Internet.
+
+ ■ Note 
+ you can use a user and password to initially authenticate against the LDAP server to perform a bind 
+operation (authenticate a user).

@@ -1,0 +1,3 @@
+The next line is an IPv6 address, here inet6 fe80::a00:27ff:fea4:da6b/64, 
+that is a link-local IPv6 address derived from the MAC address. Every Ethernet network card has a unique 
+hardware identifier that is used to identify it and communicate with other Ethernet devices.

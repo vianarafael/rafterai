@@ -1,0 +1,4 @@
+The sestatus command shows the current 
+Operational Mode and the mode in the conﬁ guration ﬁ le, which has not been modiﬁ ed. 
+When the system is rebooted, it determines the SELinux Operational Mode from the con-
+ﬁ guration ﬁ le.

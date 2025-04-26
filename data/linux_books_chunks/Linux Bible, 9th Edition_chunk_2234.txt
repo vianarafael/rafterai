@@ -1,0 +1,7 @@
+(The rsyslog service is described later in this chapter.) In recent Ubuntu, 
+Fedora, and RHEL systems, log messages are gathered in the systemd journal, 
+which can be picked up and redirected by the rsyslog service or displayed locally 
+by the journalctl command.
+
+ ■ Print Server—The Common UNIX Printing Service (cups package) is used most 
+often to provide print server features on Linux systems.

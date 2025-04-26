@@ -1,0 +1,5 @@
+To list out the running (or active) services on your Linux server, use the appropri-
+ate command(s) determined in Answer 5 for the initialization daemon your server 
+is using.
+
+7.

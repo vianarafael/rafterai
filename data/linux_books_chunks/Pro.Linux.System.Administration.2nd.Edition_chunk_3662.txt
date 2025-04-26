@@ -1,0 +1,10 @@
+If you get errors here, then you have made an error in your setup. There is a troubleshooting 
+page that might help you here: https://wiki.samba.org/index.php/Samba_AD_DC_Troubleshooting.
+
+599
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+You can see from the test that we have two disk shares (netlogon and sysvol) and one IPC$ 
+
+(interprocess connection for communicating with Samba).

@@ -1,0 +1,4 @@
+Client Run After Job also requires a 
+successful completion of the script or command on the target host; otherwise, it stops further processing for 
+that job and submits an error message. If we did not want to use the Python plug-ins, we could write our own 
+scripts. To use these, we could change the headoffice.example.com Job resource we defined earlier.

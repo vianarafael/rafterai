@@ -1,0 +1,6 @@
+If you want a nondestructive Puppet run, you need to specify --noop.
+
+ ■ Tip  the --debug option provides further output that is useful for troubleshooting.
+
+In Listing 19-7, you can see the output from our connection. The client has created a certificate signing 
+request and a private key to secure our connection.

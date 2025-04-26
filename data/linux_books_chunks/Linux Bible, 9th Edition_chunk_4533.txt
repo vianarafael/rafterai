@@ -1,0 +1,19 @@
+However, a mes-
+sage is sent to a log ﬁ le denoting that access should have been denied.
+
+SELinux Permissive mode is used for the following:
+
+ ■ Auditing the current SELinux policy rules
+
+ ■ Testing new applications to see what effect SELinux policy rules will have on them
+
+ ■ Testing new SELinux policy rules to see what effect the new rules will have on 
+
+ current services and applications
+
+ ■ Troubleshooting why a particular service or application is no longer working prop-
+
+erly under SELinux
+
+In some cases, you can use the audit2allow command to read the SELinux audit logs and 
+generate new SELinux rules to selectively allow the denied actions.

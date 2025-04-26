@@ -1,0 +1,9 @@
+Use fdisk to find the total size of all hard disk devices on your system.
+
+3. Stop a virtual machine, add three virtual 1 gigabyte scsi hard disk devices and one virtual
+400 megabyte ide hard disk device. If possible, also add another virtual 400 megabyte ide
+disk.
+
+4. Use dmesg to verify that all the new disks are properly detected at boot-up.
+
+5.

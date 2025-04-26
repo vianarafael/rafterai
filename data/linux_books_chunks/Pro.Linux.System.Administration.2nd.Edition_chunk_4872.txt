@@ -1,0 +1,12 @@
+The dstat command, on the other 
+hand, is a great tool at digging.
+
+You can install dstat via the dstat package on both Ubuntu and CentOS using the package manager 
+
+YUM or Apt. Once one is installed, you can issue the output shown in Figure 17-6.
+
+808
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Figure 17-6.

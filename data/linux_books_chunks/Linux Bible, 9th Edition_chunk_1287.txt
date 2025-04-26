@@ -1,0 +1,7 @@
+For GNOME 3 desktops, you must enter the root 
+password each time you start any of the system-conﬁ g tools.
+
+Gaining administrative access with sudo
+Particular users can also be given administrative permissions for particular tasks or 
+any task by typing sudo followed by the command they want to run, without being 
+given the root password.

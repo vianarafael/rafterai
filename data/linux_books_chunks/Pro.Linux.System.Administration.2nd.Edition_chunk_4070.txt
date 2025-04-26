@@ -1,0 +1,6 @@
+We will add this to the exbackup crontab with the following command:
+
+$ crontab –e
+0 2 * * * env HOME=/home/exbackup sudo duply nightly backup
+
+We will run this Duply backup at 2 a.m.

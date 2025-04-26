@@ -1,0 +1,6 @@
+We have just 
+added the user Jane Smith to our LDAP directory, and we will conduct a search to look at her details.
+
+In our ldapsearch command, you can see we include a filter to make use of indexes and to reduce our 
+
+search response time. We know that all user entries have the object class person.

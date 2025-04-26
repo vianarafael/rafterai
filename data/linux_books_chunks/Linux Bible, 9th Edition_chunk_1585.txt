@@ -1,0 +1,3 @@
+These paths are aggregated, so these 
+devices look like a single device to the system using them, while the underlying 
+technology provides improved performance, redundancy, or both.

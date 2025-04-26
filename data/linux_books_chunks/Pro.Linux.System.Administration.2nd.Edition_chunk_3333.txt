@@ -1,0 +1,7 @@
+these people are “sniffing” for things such as encrypted or exposed 
+passwords to steal. With wireless networks, this is particularly easy, as an attacker doesn’t even need to 
+physically plug into your network.
+
+SMTP AUTH and SASL
+
+Authentication for e-mail servers is provided by a mechanism called SMTP AUTH.

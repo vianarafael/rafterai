@@ -1,0 +1,27 @@
+DNAT (Destination NAT)
+
+DNAT is typically used to allow packets from the internet to be redirected to an internal
+server (in your DMZ) and in a private address range that is inaccessible directly form the
+internet.
+
+This example script allows internet users to reach your internal (192.168.1.99) server via
+ssh (port 22).
+
+#!/bin/bash
+#
+# iptables script for DNAT
+# eth0 is internal network, eth1 is internet
+#
+echo 0 > /proc/sys/net/ipv4/ip_forward
+iptables -P INPUT ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD DROP
+iptables -A FORWARD -i eth0 -o eth1 -s 10.1.1.0/24 -j ACCEPT
+iptables -A FORWARD -i eth1 -o eth0 -p tcp --dport 22 -j ACCEPT
+iptables -t nat -A PREROUTING -i eth1 -p tcp --dport 22 \
+-j DNAT --to-destination 10.1.1.99
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+133
+
+Part VI.

@@ -1,0 +1,5 @@
+We want 
+
+to index the objectclass, cn, and uid, which we know will be commonly searched when users try to 
+authenticate. In the previous code, you can see that we are already indexing these things. We are going to add 
+an index to an attribute we will create shortly called exampleActive.

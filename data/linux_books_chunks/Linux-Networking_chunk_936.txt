@@ -1,0 +1,18 @@
+The domain is not shown when
+the winbind use default domain parameter is set.
+
+[root@RHEL52 ~]# wbinfo -u
+TEACHER0\serena
+TEACHER0\justine
+TEACHER0\martina
+STARGATE\administrator
+STARGATE\guest
+STARGATE\support_388945a0
+STARGATE\pol
+STARGATE\krbtgt
+STARGATE\arthur
+STARGATE\harry
+
+22.4.3. list all groups
+
+We can obtain a list of all domain groups with the wbinfo -g command.

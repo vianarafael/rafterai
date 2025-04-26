@@ -1,0 +1,17 @@
+Imagine we have the following lists:
+
+0: dc=example,dc=com
+1: cn=Manager,dc=example,dc=com
+2: ou=people,dc=example,dc=com
+3: uid=jsmith,ou=people,dc=example,dc=com
+4: cn=addresses,uid=jsmith,ou=people,dc=example,dc=com
+5: uid=ataylor,ou=people,dc=example,dc=com
+
+When we try to work on parts of the DIT, we can declare the scope of our pattern matches.
+
+dn.base="ou=people,dc=example,dc=com" match 2;
+dn.one="ou=people,dc=example,dc=com" match 3, and 5;
+dn.subtree="ou=people,dc=example,dc=com" match 2, 3, 4, and 5; and
+dn.children="ou=people,dc=example,dc=com" match 3, 4, and 5.
+
+Declaring the right scope will capture the right part of the DIT tree.

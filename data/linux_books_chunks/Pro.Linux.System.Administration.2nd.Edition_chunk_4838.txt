@@ -1,0 +1,15 @@
+This indicates whether a task is running (R), sleeping (D or S), stopped (T), or 
+zombie (Z).
+
+Percentage of CPU cycles this task has used since the last screen update.
+
+Percentage of available RAM used by this task.
+
+Total CPU time the task has used since it started.
+
+COMMAND
+
+The name of the task being monitored.
+
+You can obtain full descriptions for these and all other available fields in the man top manual page.
+By default, the tasks are displayed in descending order and sorted by %CPU.

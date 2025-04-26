@@ -1,0 +1,7 @@
+In the Release you can see the first of the 
+
+macros, %{?dist}. This adds the distribution details to the package. The Summary, License, Source, and 
+URL are required information. You can have more than one source file if required and we have used macros 
+again to describe it—it can be a URL or must exist in the SOURCES directory.
+
+BuildRequires and Requires are for handling package dependencies.

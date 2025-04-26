@@ -1,0 +1,12 @@
+a common pattern is to direct all e-mail for system users to the 
+root user and then redirect the root user to someone who needs to see this e-mail, for example:
+
+postmaster: root
+operator: root
+lp: root
+root: ataylor
+
+here the postmaster, operator, and lp users’ e-mail all redirect to the root user, whose mail in turn is 
+redirected to the user ataylor.
+
+You can direct mail for one user to more than one subsequent user as well.

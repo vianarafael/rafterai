@@ -1,0 +1,9 @@
+However, using the hostname gives you the additional advantage of knowing 
+that your name-to-IP-address translation (being done by your DNS server or local hosts 
+ﬁ le) is working properly as well. In this case, however, host1 appeared in the local 
+/etc/hosts ﬁ le.
+
+14
+
+Checking routing information
+Routing is the next thing you can check with respect to your network interfaces.

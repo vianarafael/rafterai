@@ -1,0 +1,6 @@
+# trash-restore
+
+
+- View documentation for `trash-restore`:
+
+`tldr trash`

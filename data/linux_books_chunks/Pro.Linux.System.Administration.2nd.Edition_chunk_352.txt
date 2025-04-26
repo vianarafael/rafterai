@@ -1,0 +1,7 @@
+You can download boxes from HashiCorp’s other 
+service called Atlas or you can build your own. You can store, distribute, and publish boxes via Atlas too. 
+Atlas has private and corporate offerings and integrations with other HashiCorp services.
+
+ ■ Note 
+ there is a bit involved in building your own Vagrant box, but it is an exercise you should try when you 
+get more familiar with linux.

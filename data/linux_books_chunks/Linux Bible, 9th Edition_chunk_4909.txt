@@ -1,0 +1,5 @@
+Consider these things when you install Linux:
+
+ ■ Disk space—Make sure you have enough storage space available on the partition 
+
+that contains the shared directory.

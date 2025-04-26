@@ -1,0 +1,21 @@
+Here are a few common log ﬁ les:
+
+8
+
+ ■ boot.log—Contains boot messages about services as they start up.
+
+ ■ messages—Contains many general informational messages about the system.
+
+ ■ secure—Contains security-related messages, such as login activity or any other 
+
+act that authenticates users.
+
+ ■ XFree86.0.log or Xorg.0.log—Depending on which X server you are using, 
+contains messages about your video card, mouse, and monitor conﬁ guration.
+
+Refer to Chapter 13, “Understanding Server Administration,” for information on  conﬁ guring 
+the rsyslogd facility.
+
+Using Other Administrative Accounts
+You don’t hear much about logging in with other administrative user accounts (besides 
+root) on Linux systems.

@@ -1,0 +1,13 @@
+The lines that follow show the output resulting from 
+the command.
+
+67
+
+c03.indd  04/01/2015  Page 68
+
+Part II: Becoming a Linux Power User 
+
+Using a terminal window
+With the desktop GUI running, you can open a terminal emulator program (sometimes 
+referred to as a Terminal window) to start a shell. Most Linux distributions make it easy for 
+you to get to a shell from the GUI.

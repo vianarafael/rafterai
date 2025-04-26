@@ -1,0 +1,6 @@
+The audit daemon will monitor access, which consists of any reads, 
+writes, or ﬁ le attribute changes:
+
+# auditctl -w /etc/passwd -p rwa
+
+After you have started a fi le audit, you may want to turn it off at some point.

@@ -1,0 +1,13 @@
+We are now going to change the JobDefs 
+
+named DefaultLinux for the Storage option.
+
+JobDefs {
+  Name = "DefaultLinux"
+  Type = Backup
+...<snip> ...
+  Storage = Gluster
+...<snip>...
+}
+
+Lastly we need to tell the Storage daemon to load in our Gluster device.

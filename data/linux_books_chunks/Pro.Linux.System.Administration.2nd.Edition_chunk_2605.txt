@@ -1,0 +1,3 @@
+Note that we’ve specified a fully qualified 
+domain name (FQDN; which is the hostname plus the full domain name) with a trailing period for these 
+entries.

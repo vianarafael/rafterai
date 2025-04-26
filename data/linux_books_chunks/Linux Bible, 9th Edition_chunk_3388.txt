@@ -1,0 +1,12 @@
+If you cannot access the ﬁ le, 
+check that your ﬁ rewall, SELinux, and TCP wrappers are conﬁ gured to allow access 
+to that ﬁ le.
+
+18
+
+7.  Conﬁ gure your vsftpd server to allow ﬁ le uploads by anonymous users to a 
+
+directory named in.
+
+8.  Install the lftp FTP client (if you don’t have a second Linux system, install lftp 
+on the same host running the FTP server).

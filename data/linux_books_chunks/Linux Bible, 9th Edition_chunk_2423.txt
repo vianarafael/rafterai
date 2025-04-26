@@ -1,0 +1,7 @@
+Disk space consumed is shown in kilobytes (k) and 
+ megabytes (M). The total space consumed by /home/jake is shown on the last line. Add 
+the –s option to see total disk space used for a directory and its subdirectories.
+
+Finding disk consumption with fi nd
+The find command is a great way to ﬁ nd ﬁ le consumption of your hard disk using a 
+ variety of criteria.

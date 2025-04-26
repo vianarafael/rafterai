@@ -1,0 +1,5 @@
+Each time you log in from 
+that computer from the same location, it automatically connects to that wireless network.
+
+If either of those types of network connections works for you, and you are not otherwise  curious 
+about how networking works in Linux, that may be all you need to know.

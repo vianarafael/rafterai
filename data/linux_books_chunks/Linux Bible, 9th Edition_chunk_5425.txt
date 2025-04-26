@@ -1,0 +1,11 @@
+The ﬁ le’s role is object_r, indicating an object in the ﬁ le system (a text ﬁ le, 
+
+in this case). 
+
+c. The ﬁ le’s type is net_conf_t, because the ﬁ le is a network conﬁ guration ﬁ le.
+
+d. The ﬁ le’s sensitivity level is s0, indicating the lowest security level. (This num-
+
+ber may be listed in a range of numbers from s0-s3.)
+
+e. The ﬁ le’s category level starts with a c and ends with a number.

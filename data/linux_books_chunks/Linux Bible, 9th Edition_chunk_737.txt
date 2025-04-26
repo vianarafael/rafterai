@@ -1,0 +1,7 @@
+Likewise, if you were to log in as a different user or to a different host, that information 
+would change.
+
+You can use several special characters (indicated by adding a backslash to a variety of 
+letters) to include different information in your prompt. Special characters can be used to 
+output your terminal number, the date, and the time, as well as other pieces of informa-
+tion.

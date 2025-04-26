@@ -1,0 +1,11 @@
+Consider carefully before you do so and make sure you create a backup before dropping data.
+
+ You cannot undo a DROP DATABASE command, not even if you run it within a transaction and then 
+
+497
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Users and Privileges
+
+Privileges are managed via the GRANT statement.

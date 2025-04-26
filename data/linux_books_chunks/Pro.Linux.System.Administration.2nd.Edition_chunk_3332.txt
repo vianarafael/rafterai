@@ -1,0 +1,15 @@
+This reduces the risk that someone can just jump onto your network and use 
+your e-mail server.
+
+Your authentication is in turn protected by the TLS encryption you’ve just configured, allowing your 
+
+users to authenticate without the potential for their credentials to be exposed across the network.
+
+549
+
+Chapter 12 ■ Mail ServiCeS
+
+ this is a good thing because people commonly “sniff” networks using tools like tcpdump or 
+
+ ■ Note 
+Wireshark (both mentioned in Chapter 7).

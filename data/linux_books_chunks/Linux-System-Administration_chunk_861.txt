@@ -1,0 +1,14 @@
+mpstat
+
+On multi-processor machines, mpstat can display statistics for all, or for a selected cpu.
+
+paul@laika:~$ mpstat -P ALL
+Linux 2.6.20-3-generic (laika)  02/09/2007
+
+CPU %user  %nice   %sys %iowait   %irq   %soft  %steal   %idle   intr/s
+all  1.77   0.03   1.37    1.03   0.02    0.39    0.00   95.40  1304.91
+  0  1.73   0.02   1.47    1.93   0.04    0.77    0.00   94.04  1304.91
+  1  1.81   0.03   1.27    0.13   0.00    0.00    0.00   96.76     0.00
+paul@laika:~$
+
+19.8.

@@ -1,0 +1,7 @@
+in this particular case, since our_url is 
+defined, then the urL will be https://endpoint.example.com.
+
+Defining Playbook Tasks
+
+Let’s move on to defining our playbook tasks. We have defined our hosts and our variables, and now we have 
+to execute tasks in the order in which we want them to occur.

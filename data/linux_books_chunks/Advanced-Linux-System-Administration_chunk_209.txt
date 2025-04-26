@@ -1,0 +1,23 @@
+We next 
+need to create an isoimage of this directory as follows:
+
+mkisofs -o baskups-image.iso backups/
+
+51
+
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Check the image file by mounting it as a loop device:
+
+mount -o loop backups-image.iso /mnt
+
+ls /mnt
+
+umount /mnt
+
+Finally, burn the CD with cdrecord.

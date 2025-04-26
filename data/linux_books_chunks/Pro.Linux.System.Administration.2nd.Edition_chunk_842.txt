@@ -1,0 +1,11 @@
+If the default shell points to a nonexistent file, then the user will be unable to log in.
+
+The second line in Listing 5-12 uses the shell /sbin/nologin, which is a dummy shell that not only 
+
+stops the user from logging it, but also logs the login attempt to the syslog daemon.
+
+164
+
+Chapter 5 ■ Users and GroUps
+
+ the syslog daemon is the Linux logging server.

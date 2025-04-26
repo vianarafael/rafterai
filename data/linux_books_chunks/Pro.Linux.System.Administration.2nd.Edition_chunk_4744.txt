@@ -1,0 +1,21 @@
+On CentOS, we would include the file in the /
+etc/httpd/conf.d/ directory.
+
+$ sudo vi /etc/apache2/sites-available/ldap.example.com.conf
+<VirtualHost 192.168.0.1:443>
+  ServerName ldap.example.com
+  SSLEngine on
+  SSLCertificateFile /etc/ldap/certs/ldap.example.com.cert
+  SSLCertificateKeyFile /etc/ldap/certs/ldap.example.com.key
+  SSLCACertificateFile /etc/ldap/certs/cacert.pem
+
+  LogFormat "%v %l %u %t \"%r\" %>s %b" comonvhost
+  CustomLog /var/log/apache2/ldap.example.com_access.log comonvhost
+  ErrorLog /var/log/apache2/ldap.example.com_error.log
+  Loglevel debug
+
+  Include /etc/ldap-account-manager/apache.conf
+
+</VirtualHost>
+
+We have created a VirtualHost enclosed between the <VirtualHost> </VirtualHost> tags.

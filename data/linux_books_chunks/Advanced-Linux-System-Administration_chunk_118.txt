@@ -1,0 +1,27 @@
+\
+#The script will display a message on /dev/tty10
+#First source some predefined functions such as echo_success()
+./etc/rc.d/init.d/functions
+
+start()  {
+        echo -n  "Starting printtotty10"
+        /bin/printtotty10 "printtotty10 was started with an rc-script "
+        echo_success
+        echo
+}
+
+stop() {
+        echo -n "Stopping custom-rc"
+        /bin/printtotty10 "The custom script has stopped"
+        echo_success
+        echo
+}
+case "$1" in
+  start)
+        start;;
+  stop)
+        stop;;
+esac
+exit 0
+
+3.

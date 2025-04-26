@@ -1,0 +1,7 @@
+Supposed you are 
+asked, “What kernels do we have installed?” To find the answer, you can use the rpm command, as shown in 
+Listing 8-7.
+
+ ■ Note  You can also find the kernel you are currently using by issuing the uname –r command.
+
+Listing 8-7.

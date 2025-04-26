@@ -1,0 +1,5 @@
+We are going to add the user and group that will run the spamd daemon.
+
+SPAMDOPTIONS="-d -c -m5 -H -u spamd -g spamd"
+
+Here we are adding the –u and –g options to the default settings.

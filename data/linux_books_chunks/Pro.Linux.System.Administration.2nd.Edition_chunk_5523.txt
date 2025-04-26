@@ -1,0 +1,5 @@
+alternatively, you may have a way of seeing your virtual interfaces, like 
+you can in VirtualBox.
+
+The new host uses the CentOS7-x86_64 profile. So far it is no different from the hosts we have built 
+previously.

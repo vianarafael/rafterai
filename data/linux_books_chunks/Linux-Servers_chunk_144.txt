@@ -1,0 +1,24 @@
+All you need
+to do is create (or change) an index.html file in the DocumentRoot directory.
+
+To locate the DocumentRoot directory on Debian:
+
+root@debian7:~# grep DocumentRoot /etc/apache2/sites-available/default
+        DocumentRoot /var/www
+
+This means that /var/www/index.html is the default web site.
+
+root@debian7:~# cat /var/www/index.html
+<html><body><h1>It works!</h1>
+<p>This is the default web page for this server.</p>
+<p>The web server software is running but no content has been added, yet.</p>
+</body></html>
+root@debian7:~#
+
+This screenshot shows how to locate the DocumentRoot directory on RHEL/CentOS.
+
+[root@centos65 ~]# grep ^DocumentRoot /etc/httpd/conf/httpd.conf
+DocumentRoot "/var/www/html"
+
+RHEL/CentOS  have  no  default  web  page  (only  the  noindex.html  error  page  mentioned
+before).

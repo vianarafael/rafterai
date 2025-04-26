@@ -1,0 +1,8 @@
+The setting you choose should be based upon your 
+organization’s security life cycle plans.
+
+Ubuntu does not have the PASS_MIN_LEN setting in its login.defs fi le. Instead, this setting is handled by the 
+PAM utility. PAM is covered in Chapter 23.
+
+For accounts that have already been created, you need to control password aging via the 
+chage command.

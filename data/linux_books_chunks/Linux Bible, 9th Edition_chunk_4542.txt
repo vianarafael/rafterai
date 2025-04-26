@@ -1,0 +1,16 @@
+A level is written as sensitivity : category.
+
+ ■ sensitivity
+
+ ■ Represents the security or sensitivity level of an object, such as conﬁ -
+
+dential or top secret.
+
+ ■ Is hierarchical with s0 (unclassiﬁ ed) typically being the lowest.
+
+ ■ Is listed as a pair of sensitivity levels (lowlevel-highlevel) if the 
+
+levels differ.
+
+ ■ Is listed as a single sensitivity level (s0) if there are no low and high 
+ levels.

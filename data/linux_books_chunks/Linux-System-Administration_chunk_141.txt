@@ -1,0 +1,12 @@
+You cannot kill zombies, because they are already dead.
+
+4
+
+introduction to processes
+
+1.2. basic process management
+
+1.2.1. $$ and $PPID
+
+Some shell environment variables contain information about processes. The $$ variable will
+hold your current process ID, and $PPID contains the parent PID.

@@ -1,0 +1,13 @@
+Type help in parted for a list of commands
+and options.
+
+This screenshot shows how to start parted to manage partitions on /dev/sdb.
+
+[root@rhel71 ~]# parted /dev/sdb
+GNU Parted 3.1
+Using /dev/sdb
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted)
+
+Each  command  also  has  built-in  help.  For  example  help  mklabel  will  list  all  supported
+labels.

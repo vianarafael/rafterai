@@ -1,0 +1,7 @@
+In the next 
+two lines, the THIS and THAT variables are set to their current values or to Not Set, if 
+they are not currently set. Notice that because I just set THIS to the string Example, when 
+I echo the value of THIS it appears as Example. However, because THAT was not set, it 
+appears as Not Set.
+
+For the rest of this section, I show how variables and commands may appear in a shell script.

@@ -1,0 +1,17 @@
+Limit access to the sales share to ann, sandra and veronique.
+
+valid users = ann, sandra, veronique
+
+3. Make sure that roberto cannot access the sales share.
+
+invalid users = roberto
+
+4. Even though the sales share is writable, ann should only have read access.
+
+read list = ann
+
+5. Even though the budget share is read only, sandra should also have write access.
+
+write list = sandra
+
+6.

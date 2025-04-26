@@ -1,0 +1,8 @@
+If you want to test this, you’ll need to specify an actual live host.
+
+ In reality, if you run this exact command, it won’t work, as the host us-ny-server-1.example.
+
+There are also a variety of SSH clients or terminal emulators available, for example, the popular and free 
+
+PuTTY client (available from www.chiark.greenend.org.uk/~sgtatham/putty/), which runs on Windows 
+(and also on Linux).

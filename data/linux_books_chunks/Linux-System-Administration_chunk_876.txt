@@ -1,0 +1,9 @@
+about deb
+
+Most  people  use  aptitude  or  apt-get  to  manage  their  Debian/Ubuntu  family  of  Linux
+distributions. Both are a front end for dpkg and are themselves a back end for synaptic and
+other graphical tools.
+
+20.2.2. dpkg -l
+
+The low level tool to work with .deb packages is dpkg.

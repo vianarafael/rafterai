@@ -1,0 +1,5 @@
+} then sends the request to the upstream server at http://graphite (which is the 
+upstream server we have declared at the top of the file).
+
+Depending on your distribution, you will do either one of the following. On Ubuntu you place 
+graphite.conf in the /etc/nginx/sites-available/ directory.

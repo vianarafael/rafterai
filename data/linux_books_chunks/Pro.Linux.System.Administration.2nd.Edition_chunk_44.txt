@@ -1,0 +1,2 @@
+Gentoo is also well known for its frequent use as a 
+platform for MythTV, an open source media center application similar to Microsoft Media Center.

@@ -1,0 +1,5 @@
+This can be a quick way 
+to get your applications working on your Linux system without disabling SELinux.
+
+Using the Enforcing mode
+The name says it all.

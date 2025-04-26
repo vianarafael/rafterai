@@ -1,0 +1,1 @@
+This causes other proxy settings to be grayed out.

@@ -1,0 +1,10 @@
+# dconf reset
+
+
+- Reset a specific key value:
+
+`dconf reset {{/path/to/key}}`
+
+- Reset a specific directory:
+
+`dconf reset -f {{/path/to/directory/}}`

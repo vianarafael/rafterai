@@ -1,0 +1,10 @@
+Take care to remove the entry added to the 
+
+mdadm.conf file as well. You’ll add a disk, /dev/sdf, and create a single primary partition of type “Linux 
+RAID” on it.
+
+When that’s done, you can create a RAID 5 array with three active devices and one spare, as shown in 
+
+Listing 9-17.
+
+Listing 9-17.

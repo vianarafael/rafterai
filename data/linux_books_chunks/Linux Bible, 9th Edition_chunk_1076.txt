@@ -1,0 +1,6 @@
+In this way, you 
+can have lots of stuff running and selectively choose the one you want to deal with at 
+the moment.
+
+You can place an active program in the background in several ways. One is to add an 
+ ampersand (&) to the end of a command line when you ﬁ rst run the command.

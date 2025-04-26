@@ -1,0 +1,15 @@
+Here are some of the values you can type partially from a bash shell:
+
+ ■ Command, alias, or function—If the text you type begins with regular 
+characters, the shell tries to complete the text with a command, alias, or 
+function name.
+
+3
+
+ ■ Variable—If the text you type begins with a dollar sign ($), the shell completes 
+
+the text with a variable from the current shell.
+
+ ■ Username—If the text you type begins with a tilde (~), the shell completes the 
+
+text with a username.

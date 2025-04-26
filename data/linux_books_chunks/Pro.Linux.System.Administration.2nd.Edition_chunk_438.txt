@@ -1,0 +1,5 @@
+On earlier versions of KDE, you could launch the Konsole 
+
+application by clicking Applications, opening System Tools, and selecting the Konsole application. On KDE 
+version 4 and later, you launch Konsole by clicking Applications and then System, and selecting the Konsole 
+application.

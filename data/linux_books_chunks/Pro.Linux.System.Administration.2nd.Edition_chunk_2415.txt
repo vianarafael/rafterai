@@ -1,0 +1,11 @@
+You’ll learn about how to use 
+DHCP and how to set up address allocation and pass network configuration information to your hosts.
+
+ ■ Note  We’ll look at other ways to automatically configure hosts in Chapter 19.
+
+Finally, we’ll expand on the Secure Shell (SSH) service and show you how to easily access hosts and 
+
+how to transfer files between hosts using SSH.
+
+Keeping Time
+Of course, having systems keep time is very important.

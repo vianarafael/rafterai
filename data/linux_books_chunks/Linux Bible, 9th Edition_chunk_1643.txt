@@ -1,0 +1,14 @@
+Follow these steps to do 
+just that:
+
+226
+
+c09.indd  04/01/2015  Page 227
+
+Chapter 9: Installing Linux
+
+1.  After interrupting the GRUB boot process and typing e to select the boot entry you 
+
+want, position the cursor on the kernel line and type e.
+
+2.  Either add or remove options after the name of the boot image.

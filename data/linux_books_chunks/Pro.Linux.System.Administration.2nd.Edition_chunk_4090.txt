@@ -1,0 +1,29 @@
+You can get the packages and tarballs here: http://download.bareos.org/bareos/.
+
+For CentOS we will install the following YUM repo contents into the file /etc/yum.repos.d/bareos.
+
+repo, as shown here:
+
+[bareos_bareos-15.2]
+name=Backup Archiving Recovery Open Sourced 15.2 (CentOS_7)
+type=rpm-md
+baseurl=http://download.bareos.org/bareos/release/15.2/CentOS_7/
+gpgcheck=1
+gpgkey=http://download.bareos.org/bareos/release/15.2/CentOS_7/repodata/repomd.xml.key
+enabled=1
+
+667
+
+Chapter 14 ■ BaCkup and reCovery
+
+We are then able to install the following packages:
+
+$ sudo yum install bareos-client bareos-director bareos-storage bareos-storage-glusterfs 
+bareos-bconsole
+
+On Ubuntu, you have to use the following:
+
+$ sudo aptitude install bareos-filedaemon bareos-bconsole bareos-director bareos-storage
+
+On Ubuntu, you will be asked to give a username and password for your MariaDB service via the 
+dbconfig-common helper.

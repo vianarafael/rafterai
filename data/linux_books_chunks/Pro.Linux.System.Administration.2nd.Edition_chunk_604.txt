@@ -1,0 +1,5 @@
+They are 
+used sparingly because you generally don’t want one user be able to run applications as another user 
+or to have particular elevated privileges (another way to do this is through the su and sudo commands, 
+which we’re going to describe further in Chapter 6). as they could also potentially be abused and 
+represent a security exposure, they should not be used indiscriminately.

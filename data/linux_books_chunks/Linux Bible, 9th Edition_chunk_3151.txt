@@ -1,0 +1,5 @@
+Individual sites are conﬁ gured on the same server in what are referred to as 
+ virtual hosts.
+
+Virtual hosts are really just a way to have the content for multiple domain names  available 
+from the same Apache server.

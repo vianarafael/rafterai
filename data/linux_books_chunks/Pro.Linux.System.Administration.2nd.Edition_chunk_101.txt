@@ -1,0 +1,12 @@
+If you 
+were upgrading your host, it would be a good idea to read and understand the implications of any changes 
+documented in the release notes. release note for CentOS 7 can be found here: https://wiki.centos.org/
+Manuals/ReleaseNotes/CentOS7
+
+Next in Figure 2-3 we have the main Installation Summary screen.
+
+15
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-3.

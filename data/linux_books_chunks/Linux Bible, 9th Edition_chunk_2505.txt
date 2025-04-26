@@ -1,0 +1,11 @@
+To just see the domain 
+portion of that name, use the dnsdomainname command.
+
+# hostname
+spike.example.com
+# dnsdomainname
+example.com
+
+Confi guring network interfaces
+If you don’t want to have your network interfaces assigned automatically from a DHCP 
+server (or if there is no DHCP server), you can conﬁ gure network interfaces manually.

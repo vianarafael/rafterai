@@ -1,0 +1,6 @@
+If you suspect you have had a malicious attack on your system today and important 
+binary ﬁ les have been modiﬁ ed, you can ﬁ nd these modiﬁ ed ﬁ les by typing the 
+ following at the command line: find directory -mtime -1 for the directories, 
+/bin, /sbin, /usr/bin, and /usr/sbin.
+
+8.

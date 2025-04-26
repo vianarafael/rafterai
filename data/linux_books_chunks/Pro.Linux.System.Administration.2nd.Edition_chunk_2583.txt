@@ -1,0 +1,8 @@
+Bind uses this to find the root servers for recursive 
+lookups.
+
+Finally, like we saw in the Ubuntu named.conf file, we can include other configuration files with the 
+
+include directive.
+
+We can now start the name server via the sudo systemctl start named command.

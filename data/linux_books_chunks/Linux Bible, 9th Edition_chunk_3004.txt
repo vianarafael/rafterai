@@ -1,0 +1,6 @@
+The following example uses the -P option to select a different printer:
+
+$ lpr -P canyonps doc1.ps
+
+The lpr command has a variety of options that enable lpr to interpret and format several 
+different types of documents.

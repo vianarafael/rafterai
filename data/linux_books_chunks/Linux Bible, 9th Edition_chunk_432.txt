@@ -1,0 +1,14 @@
+Refer to Chapter 14, “Administering Networking,” for further information on 
+conﬁ guring networking.
+
+41
+
+c02.indd  04/01/2015  Page 42
+
+Part I: Getting Started
+
+ ■ Personal settings—Tools in this group let you change your desktop background 
+
+(Background), use different online accounts (Online Accounts), and set your language 
+and date and currency format based on region (Region and Language) and screen 
+locking (Screen).

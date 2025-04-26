@@ -1,0 +1,7 @@
+This is then converted into the appropriate network line, and your host is configured.
+
+ this snippet is a simple use of Cobbler’s snippet system. You can define a variety of other actions 
+
+ ■ Tip 
+using snippets, and you can see a selection of these in the /var/lib/cobbler/snippets directory, including 
+the network_config snippet we used in this section.

@@ -1,0 +1,36 @@
+We’ll discuss partitions 
+shortly.
+
+Other devices you may see are:
+
+Device Name
+
+Where you would find it
+
+Xen virtual machines
+
+KVM virtual machines
+
+KVM virtual machines, older ATA hosts
+
+Linux software raid
+
+Physical servers with devices like SAS, SSD.
+
+/dev/xvda
+
+/dev/vda
+
+/dev/hda
+
+/dev/md
+
+/dev/sda
+
+358
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+ ■ Note  older systems could not support many drives because device minor numbers ranged from 1 to 255, 
+and each disk could only have 16 numbers, so Linux could accommodate 16 hard disks with 16 partitions each, 
+/dev/sda1 through /dev/sdp16, before it ran out of device nodes.

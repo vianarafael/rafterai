@@ -1,0 +1,26 @@
+Select the System Tools submenu (in GNOME 2) or go to the Activities screen (in GNOME 3) 
+to choose some of the following tools (if they are installed):
+
+ ■ Configuration Editor (gconf-editor)—Directly edit the GNOME conﬁ guration 
+
+database.
+
+ ■ Disk Usage Analyzer (gnome-utils)—Display detailed information about your 
+
+hard disks and removable storage devices.
+
+176
+
+c08.indd  04/01/2015  Page 177
+
+Chapter 8: Learning System Administration
+
+ ■ Disk Utility (gnome-disks)—Manage disk partitions and add ﬁ lesystems 
+
+( gnome-disk-utility package).
+
+ ■ Kickstart (system-config-kickstart)—Create a kickstart conﬁ guration ﬁ le 
+that can be used to install multiple Linux systems without user interaction.
+
+As you go through the rest of this book to conﬁ gure various Linux servers, I’ll describe how 
+to use many of these tools.

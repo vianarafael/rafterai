@@ -1,0 +1,10 @@
+Vagrant will automatically replace
+    default: this with a newly generated keypair for better security.
+    default:
+    default: Inserting generated public key within guest...
+    default: Removing insecure key from the guest if it's present...
+    default: Key inserted! Disconnecting and reconnecting using new SSH key...
+==> default: Machine booted and ready!
+
+In Listing 3-11 we can see we are importing a base box (this one has already been downloaded, you 
+might see the downloading step too).

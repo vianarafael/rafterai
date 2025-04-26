@@ -1,0 +1,5 @@
+We can use the 
+
+PREFIX, PREFIX1, and PREFIX2 to provide the network mask.
+
+To refresh the interface to bring it up with the new addresses.

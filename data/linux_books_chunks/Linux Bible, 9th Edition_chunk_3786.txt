@@ -1,0 +1,12 @@
+(Later, I introduce you to the GRUB 2 
+boot loader as well.)
+
+In this discussion, I am interested in the boot loader from the perspective of what to do if 
+the boot loader fails or what ways you might want to interrupt the boot loader to change 
+the behavior of the boot process.
+
+Here are a few ways in which the boot loader might fail in RHEL 6 and some ways you can 
+overcome those failures:
+
+ ■ Could not locate active partition—When a boot loader is installed on a storage 
+medium, the partition is usually marked as bootable.

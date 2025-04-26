@@ -1,0 +1,13 @@
+For more information on mounting Samba shares, read the 
+man mount.cifs page.
+
+We can see the mounted share with our mount command.
+
+$ sudo mount
+\\dc1.samba.example.com\sales on /data/sales type cifs (rw,relatime,vers=1.0,cache=strict,us
+ername=jsmith,domain=SAMBA,uid=0,noforceuid,gid=0,noforcegid,addr=192.168.0.1,unix,posixpath
+s,serverino,acl,rsize=61440,wsize=65536,actimeo=1)
+
+The default options for cifs mount can be found in the previous example, the full details of which can 
+
+be found in the man mount.cifs page.

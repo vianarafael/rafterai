@@ -1,0 +1,13 @@
+By October 5, Linux 0.02 was released with much of the original 
+
+13
+
+c01.indd  04/01/2015  Page 14
+
+Part I: Getting Started
+
+assembly code rewritten in the C programming language, which made it possible to start 
+porting it to other machines.
+
+The Linux kernel was the last—and the most important—piece of code that was needed 
+to complete a whole UNIX-like operating system under the GPL.

@@ -1,0 +1,12 @@
+Do both commands display the new partitions ?
+
+The newly created partitions are visible with fdisk.
+
+But they are not displayed by df.
+
+8. Create a backup with dd of the mbr that contains your 200MB primary partition.
+
+dd if=/dev/sdc of=bootsector.sdc.dd count=1 bs=512
+
+9. Take a backup of the partition table containing your 400MB primary and 300MB logical
+drives.

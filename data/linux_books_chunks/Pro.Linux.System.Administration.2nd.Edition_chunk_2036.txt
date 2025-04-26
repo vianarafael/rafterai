@@ -1,0 +1,7 @@
+found
+checking for C99 variadic macros ... found
+checking for gcc variadic macros ... found
+...<snip>...
+checking for sha1 in system md library ... not found
+checking for sha1 in system OpenSSL crypto library ... not found
+checking for zlib library ...

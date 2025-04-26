@@ -1,0 +1,7 @@
+The tar, gzip and bzip2 commands are
+explained in detail in the Linux Fundamentals course.
+
+If you download a .deb file, then you'll have to use dpkg to install it, .rpm's can be installed
+with the rpm command.
+
+20.10.

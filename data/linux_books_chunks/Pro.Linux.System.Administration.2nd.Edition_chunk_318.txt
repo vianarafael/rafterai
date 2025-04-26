@@ -1,0 +1,4 @@
+Git is a distributed version control system that is great at storing your changes to configuration files in 
+distinct chunks of work, or commits. You can add a description to these commits so that people following 
+you (and there are always people following you) can view the change you made and see a note that describes 
+that change.

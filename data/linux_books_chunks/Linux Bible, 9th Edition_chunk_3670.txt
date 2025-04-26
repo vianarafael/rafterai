@@ -1,0 +1,7 @@
+So, for example, you could type:
+
+# mount /oak/apps
+
+With this command, mount knows to check the /etc/fstab ﬁ le to get the ﬁ lesystem to 
+mount (oak:/apps), the ﬁ lesystem type (nfs), and the options to use with the mount 
+(in this case ro, for read-only).

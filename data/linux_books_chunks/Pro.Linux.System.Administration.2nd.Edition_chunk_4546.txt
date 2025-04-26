@@ -1,0 +1,6 @@
+The next line tells you that this 
+will inherit the object class SUP top. The SUP stands for superior, and top means that this object class has no 
+parent object class; it is the highest in the object class hierarchy. Other subsequent object classes may use 
+this object class as their SUP, or inherited, object class.
+
+The AUXILIARY indicates the type of object class.

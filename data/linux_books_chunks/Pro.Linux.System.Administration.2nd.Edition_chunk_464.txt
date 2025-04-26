@@ -1,0 +1,10 @@
+We’ll talk about environmental variables in Chapter 5.
+
+109
+
+ChapTeR 4 ■ LInux BasICs
+
+Remote Access
+In the last two sections, we’ve talked about the GUI desktop and the command line. In both cases, 
+we’ve assumed that you are logged on to your host locally (i.e., sitting in front of a screen and keyboard 
+typing commands directly into the host).

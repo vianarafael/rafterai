@@ -1,0 +1,7 @@
+the Ubuntu desktop release does come with the appropriate GUI tools, 
+as it installs a GUI by default.
+
+Passwords
+When you create accounts via the command line, no password is set for the account. You may now want 
+to set or at some time change the user’s password. To do this, you use the passwd command. The passwd 
+command works one of two ways depending on who runs the command.

@@ -1,0 +1,6 @@
+But for 
+security purposes, it is generally considered better to use the DROP policy rather than the REJECT policy, as it 
+provides less information about your network to the outside world.
+
+The ACCEPT policy accepts the traffic and allows it to pass through the firewall if it is not caught by a 
+rule in the chain.

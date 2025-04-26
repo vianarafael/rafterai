@@ -1,0 +1,8 @@
+This is how e-mail began—
+
+ ■ Note 
+people with login accounts on connected unix machines sending each other messages. The @ symbol was 
+first used for this purpose in 1971! You can read about it at http://openmap.bbn.com/~tomlinso/ray/ 
+firstemailframe.html.
+
+Next you see a ~ symbol, which is an abbreviated method of referring to your home directory.

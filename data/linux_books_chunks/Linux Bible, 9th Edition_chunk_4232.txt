@@ -1,0 +1,3 @@
+When you were a child, you may have played the game of comparing 
+two pictures and ﬁ nding what was different between them. The aide utility uses a similar 
+method. A “ﬁ rst picture” database is created.

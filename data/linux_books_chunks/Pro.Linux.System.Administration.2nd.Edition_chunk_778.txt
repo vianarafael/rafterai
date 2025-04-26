@@ -1,0 +1,6 @@
+Normal users are created 
+with UIDs of 1000 and above.
+
+Ubuntu reserves the UID and GID ranges of 1 to 99 for assigned system users. 100 to 999 for dynamically 
+
+assigned system users (again by passing the --system option).

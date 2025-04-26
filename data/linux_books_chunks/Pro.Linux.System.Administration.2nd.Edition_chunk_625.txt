@@ -1,0 +1,15 @@
+You can display the last accessed time for a file by listing it with the 
+-u switch as follows:
+
+$ ls -lu
+
+You can list creation dates by using the -c switch:
+
+$ ls -lc
+
+ ■ Note 
+
+ We will revisit atime in Chapter 17.
+
+If you want to know the actual time and date on the current host, you can use the useful and powerful 
+date command.

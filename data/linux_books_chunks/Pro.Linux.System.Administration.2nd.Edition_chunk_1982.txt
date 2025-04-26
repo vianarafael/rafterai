@@ -1,0 +1,6 @@
+All up to date
+
+That’s all for using the desktop app installer, let’s now move on the most basic package tool on Ubuntu.
+
+Using dpkg
+The most basic package management tool on Ubuntu is dpkg (pronounced “dee-package”).

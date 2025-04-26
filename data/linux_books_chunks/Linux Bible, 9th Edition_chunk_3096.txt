@@ -1,0 +1,5 @@
+In essence, SELinux actually sets out to protect the system from being damaged by someone 
+who may have cracked the httpd daemon. SELinux does this by creating policies that do 
+the following:
+
+ ■ Deny access to ﬁ les that are not set to the right ﬁ le contexts.

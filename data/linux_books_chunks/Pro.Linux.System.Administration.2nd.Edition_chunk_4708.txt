@@ -1,0 +1,12 @@
+In this instance, since we are modifying the SLAPD 
+
+database config, we will use the powers of the local root user to make this change:
+
+$ sudo ldapadd -H ldapi:/// -Y EXTERNAL -f ppolicy.ldif
+
+ ■ Note 
+
+ See the man slapo-ppolicy page for more details on the Password Policy overlay.
+
+Testing Your Access Control Lists
+From time to time, you will run into permission issues because of incorrectly functioning access control lists.

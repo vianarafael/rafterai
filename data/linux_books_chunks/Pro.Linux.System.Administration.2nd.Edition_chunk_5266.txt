@@ -1,0 +1,2 @@
+There is now a 
+commercial version of Nagios available if you require extra features or support.

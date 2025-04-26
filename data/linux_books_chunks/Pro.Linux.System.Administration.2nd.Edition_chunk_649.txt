@@ -1,0 +1,6 @@
+You can read about regular expressions further at http://en.wikipedia.org/wiki/
+Regular_expression.
+
+There are three regular expression versions you can use, BRe (basic regular expressions), eRe 
+(extended regular expressions), and pCRe (perl regular expressions). Depending on your version of 
+grep, there is no difference between BRe and eRe.

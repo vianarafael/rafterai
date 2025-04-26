@@ -1,0 +1,3 @@
+After that, the Date/
+Time Properties window appears, ready for you to change the current date and time. Just 
+close the window when you are ﬁ nished, and the local prompt returns.

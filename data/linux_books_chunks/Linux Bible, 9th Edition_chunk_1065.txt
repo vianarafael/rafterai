@@ -1,0 +1,6 @@
+You sort processes by clicking columns. You can right-click processes to stop, 
+kill, or renice them.
+
+To start System Monitor from the GNOME 2 desktop, select Applications ➪ System 
+Tools ➪ System Monitor. Or in GNOME 3, press the Windows key, then type System Monitor 
+and press Enter. Then select the Processes tab.

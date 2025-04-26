@@ -1,0 +1,9 @@
+For example, you could type this:
+
+$ ps -eo 'pid,user,nice,comm' | grep gedit
+21578 chris     7 gedit
+
+Chapter 7: Writing Simple Shell Scripts
+
+1.  Here’s an example of how to create a script in your $HOME/bin directory called 
+myownscript.

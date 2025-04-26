@@ -1,0 +1,7 @@
+Metadata includes owner, group, 
+time stamp, ﬁ le size, permissions, and other information stored in the ﬁ le’s inode. You 
+might want to search for ﬁ le data or metadata changes for any of the following reasons:
+
+ ■ You just changed the contents of a conﬁ guration ﬁ le, and you can’t remember 
+
+which one.

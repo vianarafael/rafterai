@@ -1,0 +1,5 @@
+If you determine that some network services are accessible 
+that you intended to keep private, you can take steps to block access to them from 
+external interfaces.
+
+You may be tempted to skip the scans from inside your organization’s internal network. Don’t.

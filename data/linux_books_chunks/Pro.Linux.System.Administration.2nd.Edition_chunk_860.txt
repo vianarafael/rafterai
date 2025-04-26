@@ -1,0 +1,5 @@
+User
+activities on this host may be monitored without prior notice.
+
+the ^[c escape characters clear the screen, and the \d and \t escape characters display the current 
+date and time on the host, respectively.

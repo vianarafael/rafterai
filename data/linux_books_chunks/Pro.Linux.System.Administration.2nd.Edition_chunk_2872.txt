@@ -1,0 +1,9 @@
+You could allow this by setting AllowOverride to All or be 
+more descriptive about what is allowed by using something like Options=Indexes,MultiViews. Finally, you 
+close the Directory and VirtualHost directives and save the file.
+
+481
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Table 11-2.

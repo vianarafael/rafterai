@@ -1,0 +1,6 @@
+In that way, any misuse of root privilege is attached to a 
+particular user and is logged in a way that the user can’t cover his or her tracks.
+
+Setting expiration dates on temporary accounts
+If you have consultants, interns, or temporary employees who need access to your Linux 
+systems, it is important to set up their user accounts with expiration dates.

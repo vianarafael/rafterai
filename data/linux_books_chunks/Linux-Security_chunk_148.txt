@@ -1,0 +1,16 @@
+root
+
+The root user also called the superuser is the most powerful account on your Linux system.
+This user can do almost anything, including the creation of other users. The root user always
+has userid 0 (regardless of the name of the account).
+
+[root@RHEL5 ~]# head -1 /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+
+13
+
+user management
+
+2.4. useradd
+
+You can add users with the useradd command.

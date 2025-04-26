@@ -1,0 +1,7 @@
+We saw an example of the 
+
+slapd.conf syntax when we included our exampleactive.schema file to convert it to LDIF format.
+
+Both ways are supported, but running with the old-style slapd.conf will be deprecated, so we don’t 
+
+recommend starting slapd with it.

@@ -1,0 +1,17 @@
+We have done this on all our three servers, and now we are 
+ready to create our GlusterFS volume.
+
+Chapter 14 ■ BaCkup and reCovery
+
+$ sudo gluster volume create backups replica 3 \
+  au-mel-dfs-1:/data/brick3_r1/backups \
+  au-mel-dfs-2:/data/brick3_r1/backups \
+  au-mel-dfs-3:/data/brick3_r1/backups
+
+We now start the volume.
+
+$ sudo gluster volume start backups
+
+Our volume is now ready to be mounted, but first we need to make some changes to our Gluster 
+
+configuration to allow the Bareos server to directly contact our glusterd daemons.

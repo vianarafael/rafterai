@@ -1,0 +1,8 @@
+Three conﬁ guration directives can be used for this: BindAddress, Port, 
+and Listen:
+
+17
+
+ ■ BindAddress enables you to specify a single IP address to listen on, or you can 
+
+specify all IP addresses using the * wildcard.

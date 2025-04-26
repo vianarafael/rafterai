@@ -1,0 +1,16 @@
+The hostname is configured in the standard
+/etc/hostname file.
+
+[root@rhel71 ~]# cat /etc/hostname
+rhel71.linux-training.be
+[root@rhel71 ~]#
+
+Ubuntu/Debian uses the /etc/hostname file to configure the hostname.
+
+paul@debian8:~$ cat /etc/hostname
+server42
+paul@debian8:~$ hostname
+server42
+
+On all Linux distributions you can change the hostname using the hostname $newname
+command.

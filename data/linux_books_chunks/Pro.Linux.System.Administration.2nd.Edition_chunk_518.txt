@@ -1,0 +1,11 @@
+Processes that are heavy consumers 
+of resources, like CPU, will always be listed at the top of the list, but you can also list by other resources like 
+memory usage.
+
+116
+
+ChapTeR 4 ■ LInux BasICs
+
+Packages
+Applications in the Microsoft Windows world are usually installed by running a binary application and 
+following an installation process.

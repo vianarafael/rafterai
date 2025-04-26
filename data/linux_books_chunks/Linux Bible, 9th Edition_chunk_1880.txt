@@ -1,0 +1,11 @@
+It is not the default for Ubuntu.)
+
+ ■ -M—Do not create the new user’s home directory, even if the default behavior is set 
+
+11
+
+to create it.
+
+ ■ -n—Turn off the default behavior of creating a new group that matches the name 
+
+and user ID of the new user. This option is available with Fedora and RHEL systems.

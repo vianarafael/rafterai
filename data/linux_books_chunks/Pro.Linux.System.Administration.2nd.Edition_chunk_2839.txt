@@ -1,0 +1,4 @@
+We also sent a Host header (-H 'Host:) with the 
+name of the web server we wanted to send our request to. Apache will read this header and pass this request 
+to the corresponding virtual host. If it cannot find a virtual host with the same ServerName field, it will route 
+the request to the “base” virtual host or, in other words, the first it loaded.

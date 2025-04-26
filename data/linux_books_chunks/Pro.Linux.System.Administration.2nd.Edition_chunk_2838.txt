@@ -1,0 +1,7 @@
+The curl command will allow us to make a request to the web server from within our shell.
+
+$ curl –H 'Host: www.example.com' http://localhost
+www.example.com
+
+This shows that our server has responded correctly with our virtual host. With the curl command we 
+made a request to the web server listening on the localhost.

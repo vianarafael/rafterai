@@ -1,0 +1,16 @@
+restarting rsyslogd
+
+Don't forget to restart the server after changing its configuration.
+
+root@rhel65:/etc# service rsyslog restart
+Shutting down system logger:                               [  OK  ]
+Starting system logger:                                    [  OK  ]
+root@rhel65:/etc#
+
+207
+
+logging
+
+17.3. logger
+
+The logger command can be used to generate syslog test messages.

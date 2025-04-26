@@ -1,0 +1,10 @@
+For example:
+
+ADDRESS0=192.168.99.0
+NETMASK0=255.255.255.0
+GATEWAY0=192.168.0.5
+
+In this example, any packet destined for a host on the 192.168.99 network would be 
+sent through the local eth0 interface and directed to the gateway node at 192.168.0.5. 
+Presumably, that node would provide a route to another network containing hosts in the 
+192.168.99 address range.

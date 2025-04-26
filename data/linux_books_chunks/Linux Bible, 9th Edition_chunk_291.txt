@@ -1,0 +1,7 @@
+Debian uses deb packaging format and 
+tools to manage all of the software packages on its systems. Debian also has a reputation 
+for stability.
+
+Many Linux distributions can trace their roots back to Debian. According to distrowatch 
+(http://distrowatch.com), more than 130 active Linux distributions can be traced 
+back to Debian.

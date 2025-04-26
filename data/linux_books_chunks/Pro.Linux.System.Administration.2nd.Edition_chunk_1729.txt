@@ -1,0 +1,10 @@
+If the interface is managed by NetworkManager then directly editing and 
+adding the following to the bottom of the file:
+
+ZONE=external
+
+If the device is not managed by NetworkManager then you can issue the following:
+
+$ sudo firewall-cmd --zone=external --add-interface=enp0s8
+
+Next step is to add masquerading to the external zone.

@@ -1,0 +1,8 @@
+You can add extensions 
+to provide additional functionality to GNOME 3. Also, a GNOME Tweak Tool lets you change 
+advanced settings in GNOME 3.
+
+Using GNOME shell extensions
+GNOME shell extensions are available to change the way your GNOME desktop looks and 
+behaves. Visit the GNOME Shell Extensions site (http://extensions.gnome.org) from 
+your Firefox browser on your GNOME 3 desktop.

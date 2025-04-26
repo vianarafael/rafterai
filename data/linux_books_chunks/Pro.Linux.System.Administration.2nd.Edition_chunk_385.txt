@@ -1,0 +1,13 @@
+Please fix
+the following errors and try again:
+
+vm:
+* The host path of the shared folder is missing: ./temp
+
+93
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Oh look. In Listing 3-9 we have an error. Vagrant is here telling us that something went wrong with the 
+
+“vm:* The host path of the shared folder is missing: ./temp”. Of course, we did not create the temp folder.

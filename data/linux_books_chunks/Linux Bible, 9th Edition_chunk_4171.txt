@@ -1,0 +1,17 @@
+--
+Aug 29 23:14:38 fedora20 kernel: Initializing cgroup subsys cpuset
+Aug 29 23:14:38 fedora20 kernel: Initializing cgroup subsys cpu
+Aug 29 23:14:38 fedora20 kernel: Initializing cgroup subsys cpuacct
+Aug 29 23:14:38 fedora20 kernel: Linux version
+ 3.11.10-301.fc20.x86_64 (mockbuild@bkernel01.fedoraproject.org) 
+    (gcc version 4.8.2 201
+Aug 29 23:14:38 fedora20.example.com kernel: Command line: 
+    BOOT_IMAGE=/vmlinuz-3.11.10-301.fc20.x86_64
+     root=/dev/mapper/fedora_fedora20-root ro rd.lvm
+Aug 29 23:14:38 fedora20.example.com kernel: e820: 
+    BIOS-provided physical RAM map:
+
+...
+
+To view messages associated with a particular service, use the -u option followed by the 
+service name.

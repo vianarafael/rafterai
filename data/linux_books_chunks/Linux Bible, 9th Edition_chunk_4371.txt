@@ -1,0 +1,7 @@
+The next section 
+in this chapter covers basic PAM concepts and how you can use this tool to even further 
+enhance your Linux system’s security.
+
+Implementing Linux Security with PAM
+Pluggable Authentication Modules (PAM) was invented by Sun Microsystems and originally 
+implemented in the Solaris operating system. The Linux-PAM project began in 1997.

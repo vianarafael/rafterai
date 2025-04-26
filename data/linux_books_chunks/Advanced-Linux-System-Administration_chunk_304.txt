@@ -1,0 +1,18 @@
+This objective 
+includes using LVM (Logical Volume Manager) to manage hard disk drives and 
+particitions as well as software tools to interact with hard disk settings.
+
+Key files, terms, and utilities include:
+/proc/interrupts 
+hdparm 
+tune2fs 
+sysctl
+
+• 2.204.4 Configuring PCMCIA devices
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to configure a Linux installation to include 
+PCMCIA support.

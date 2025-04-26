@@ -1,0 +1,25 @@
+See PAM
+podcasts, 48–49
+policies, iptables, 715, 717–722
+policy rules, SELinux, 672, 678–679, 686–688
+policy types, SELinux, 677–678, 682
+policyoreutils-gui, 176
+portability of UNIX, 8–9
+positional parameters, 156–157, 169
+POSIX (Portable Operating System Interface), 
+
+10, 14, 642
+
+postfix administrative login, 190
+postfix package, 317
+postgresql package, 318
+PostgreSQL service, 318
+postgresql-server package, 318
+PPID environment variable, 80, 86
+“Premature end of script headers” errors, 475
+Presentation Mode extension, 43
+Print Screen key, Metacity, 52
+print servers, conﬁ guring, 441–445
+Print Settings window, 428–435
+printcap ﬁ le, 187
+printers.

@@ -1,0 +1,6 @@
+A cracked public DNS server can be used to redirect traffi c to any server the bad guys choose. So, if you are using 
+that server, you are in danger of being presented with sites that are not the sites you think they are.
+
+Confi guring Linux as a proxy server
+A proxy server provides a means of restricting network trafﬁ c from a private network to 
+a public one, such as the Internet.

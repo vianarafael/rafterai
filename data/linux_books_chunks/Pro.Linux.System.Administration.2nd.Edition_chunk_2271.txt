@@ -1,0 +1,4 @@
+Here the 
+manufacturer may have added RAID functionality to the mainboard via a chip. We recommend you don’t use 
+fake RAID, as any RAID array created with this implementation would work only on a host sharing an identical 
+controller. Its performance also depends on proprietary code provided by the manufacturer.

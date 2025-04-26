@@ -1,0 +1,4 @@
+to do this, you need to edit the contents of the /etc/issue and /etc/
+issue.net files. the issue file is displayed when you log in via the command line on the host’s console, and 
+the issue.net file is displayed when you log in to the command line via an ssh session. Most distributions 
+use these files for this purpose, including both Centos and Ubuntu.

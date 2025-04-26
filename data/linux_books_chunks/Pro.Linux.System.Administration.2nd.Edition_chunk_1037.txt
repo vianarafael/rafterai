@@ -1,0 +1,4 @@
+It takes one argument, the 
+
+–o or --output option of where you would like the file to be created. You can create your own grub.cfg file 
+now. It will probe your system and run through your configuration files and output a file that you can view.

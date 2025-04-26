@@ -1,0 +1,18 @@
+Now let’s show you what that does; go ahead and reload the 
+Filebeat service.
+
+    "host" => "gateway.example.com",
+    "source" => "/var/log/audit/audit.log",
+    "message" => "type=SERVICE_STOP msg=...terminal=? res=success'",
+    "fields" => {
+        "env" => "production"
+    },
+    "type" => "auditd",
+
+867
+
+Chapter 18 ■ Logging and Monitoring
+
+Now when we get the same message from stopping the openvpn service on the gateway host, the type is 
+
+set to auditd.

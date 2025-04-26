@@ -1,0 +1,7 @@
+It has learned from this and today is a respectable network citizen.
+
+We will quickly show you how to share a filesystem, commonly called a network mount, between hosts. 
+On Ubuntu hosts, you will need to install the nfs-server package. On CentOS hosts, you will need to install 
+nfs-utils.
+
+NFS requires port TCP 2049 to be opened on your firewall.

@@ -1,0 +1,5 @@
+To be able to 
+use the service again, you could type systemctl unmask NetworkManager.service.
+
+Now that you understand how to enable individual services to be persistent (and how to 
+disable or mask individual services), you need to look at service groups as a whole.

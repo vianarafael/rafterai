@@ -1,0 +1,6 @@
+it does not rely on the puppet master architecture and certificate signing.
+
+To provide client/server connectivity, Puppet uses RESTful web services running over HTTPS on TCP 
+
+port 8140. In version 4.x, the Puppet server is a JVM-based application. To provide security, the sessions are 
+encrypted and authenticated with internally generated self-signed certificates.

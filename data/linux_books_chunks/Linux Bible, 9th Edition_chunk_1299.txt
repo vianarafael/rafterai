@@ -1,0 +1,6 @@
+He is given a warning and asked to pro-
+vide his password (this is joe’s password, not the root password).
+
+Even after joe has given the password, he must still use the sudo command to run  subsequent 
+administrative commands as root (the rm fails, but the sudo rm succeeds). Notice that he is 
+not prompted for a password for the second sudo.

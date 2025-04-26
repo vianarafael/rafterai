@@ -1,0 +1,16 @@
+You might want to create files with only 0660 permissions, which is entirely reasonable but 
+might entail some administration overhead.
+
+604
+
+Samba should automatically load your new configuration without a need to restart the service; however, 
+
+if you do not see your configuration, you can restart the service with the following:
+
+$ sudo systemctl restart samba-ad-dc
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+SAMBA VARIABLE SUBSTITUTIONS
+
+Samba has some standard variable substitutions we will take a look at here.

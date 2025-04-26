@@ -1,0 +1,7 @@
+That’s why, at the end of the installation section of this chapter, you 
+should have been able to test that Samba was working using the smbclient command 
+from the local system. However, if the request originated from another system, it would 
+have been rejected.
+
+Conﬁ guring ﬁ rewall rules for Samba consists mainly of opening up incoming ports that the 
+smbd and nmbd daemons are listening on.

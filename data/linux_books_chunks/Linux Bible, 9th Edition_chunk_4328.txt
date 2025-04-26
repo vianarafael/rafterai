@@ -1,0 +1,10 @@
+Many Linux distributions include an encryption option 
+ during their  installation process. Figure 23.3 shows the encryption option during a 
+Fedora installation.
+
+FIGURE 23.3
+
+Linux Fedora installation encryption option
+
+After you select this option during installation, you are asked for a password. This is 
+symmetric key cryptography with a password protecting the single key.

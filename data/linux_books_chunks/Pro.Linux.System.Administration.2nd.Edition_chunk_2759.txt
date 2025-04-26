@@ -1,0 +1,5 @@
+try creating a new connection first, to ensure it 
+still works.
+
+The other basic server option we’ll cover is designed to make your life easier when working with GUI 
+applications on remote hosts.

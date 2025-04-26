@@ -1,0 +1,5 @@
+You can make this process easier as Dovecot has some useful debugging settings 
+you can enable to get more verbose output if you are having an issue. Table 12-3 provides a list of these 
+options.
+
+Table 12-3.

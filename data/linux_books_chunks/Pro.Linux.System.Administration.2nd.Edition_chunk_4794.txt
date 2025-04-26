@@ -1,0 +1,52 @@
+We will do two things to our web server to achieve this: make all our 
+communications with our web server secure by enabling SSL on our web host and add the LDAP details to 
+the ldap.example.com virtual host.
+
+ ■ Note  Chapter 11 discussed Apache virtual hosts.
+
+We will assume this is being run from the ldap.example.com host and that there is no other Apache 
+
+service running on it.
+
+Next, let’s examine the changes we will make to our ldap.example.com virtual host file.
+
+$ sudo vi /etc/apache2/sites-available/ldap.example.com.conf
+LDAPTrustedGlobalCert CA_BASE64 /etc/ldap/certs/cacert.pem
+LDAPTrustedMode TLS
+
+<VirtualHost 192.168.0.1:443>
+  ServerName ldap.example.com
+  SSLEngine on
+  SSLCertificateFile /etc/ldap/certs/ldap.example.com.cert
+  SSLCertificateKeyFile /etc/ldap/certs/ldap.example.com.key
+  SSLCACertificateFile /etc/ldap/certs/cacert.pem
+
+  LogFormat "%v %l %u %t \"%r\" %>s %b" comonvhost
+  CustomLog /var/log/apache2/ldap.example.com_access.log comonvhost
+  ErrorLog /var/log/apache2/ldap.example.com_error.log
+  Loglevel debug
+
+  <Location /lam >
+     AuthType Basic
+     AuthName "LDAP example.com"
+     AuthBasicProvider ldap
+     AuthLDAPBindAuthoritative on
+     AuthLDAPURL ldap://ldap.example.com/ou=people,dc=example,dc=com?uid?sub
+     AuthLDAPBindDN cn=webadmin,ou=meta,dc=example,dc=com
+     AuthLDAPBindPassword <thewebadminpasswordincleartext>
+     Require valid-user
+     Require ldap-group cn=admins,ou=groups,dc=example,dc=com
+  </Location>
+
+  Include /etc/ldap-account-manager/apache.conf
+
+</VirtualHost>
+
+ On CentOS hosts, this file can be found in /etc/httpd/conf.d/vhost.conf, depending on how you 
+
+ ■ Note 
+manage your virtual hosts on CentOS.
+
+794
+
+Inside the <VirtualHost> tags, we have added a Location directive.

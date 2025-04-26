@@ -1,0 +1,27 @@
+(The root user never needs permissions anyway.)
+
+root@RHELv4u4:~# ls -l /etc/shadow
+-r--------  1 root root 1260 Jan 21 07:49 /etc/shadow
+
+Changing your password requires an update of this file, so how can normal non-root users
+do this? Let's take a look at the permissions on the /usr/bin/passwd.
+
+root@RHELv4u4:~# ls -l /usr/bin/passwd 
+-r-s--x--x  1 root root 21200 Jun 17  2005 /usr/bin/passwd
+
+When running the passwd program, you are executing it with root credentials.
+
+You can use the find command to find all setuid programs.
+
+paul@laika:~$ find /usr/bin -type f -perm -04000
+/usr/bin/arping
+/usr/bin/kgrantpty
+/usr/bin/newgrp
+/usr/bin/chfn
+/usr/bin/sudo
+/usr/bin/fping6
+/usr/bin/passwd
+/usr/bin/gpasswd
+...
+
+In most cases, setting the setuid bit on executables is sufficient.

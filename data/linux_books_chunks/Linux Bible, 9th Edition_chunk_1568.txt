@@ -1,0 +1,4 @@
+VirtualBox was developed originally by Sun 
+Microsystems. Some Linux distributions still use Xen. However, all Red Hat systems 
+ currently use KVM as the basis for Red Hat’s hypervisor features in RHEL, Red Hat 
+Enterprise Virtualization, and other cloud projects.

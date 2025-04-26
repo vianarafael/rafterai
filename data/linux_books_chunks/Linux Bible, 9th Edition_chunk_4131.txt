@@ -1,0 +1,6 @@
+A more dangerous situation would be if a 
+hacker created a SUID bash command; anyone running that command could effectively 
+change everything on the system that had root access.
+
+Using the find command, you can search your system to see if there are any hidden or 
+otherwise inappropriate SUID and SGID commands on your system.

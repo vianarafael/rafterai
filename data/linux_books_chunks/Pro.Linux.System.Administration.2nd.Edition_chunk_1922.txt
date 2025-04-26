@@ -1,0 +1,10 @@
+As you type, aptitude will jump down the list to display the first matching 
+package. You can see an example of this in Figure 8-17.
+
+325
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-17.  Searching packages by name
+
+Press Enter to close the search dialog. To jump to the next matched package name, press n.

@@ -1,0 +1,3 @@
+The ﬁ rst partition (/dev/sdc1) is a small /boot partition. The second (/dev/sdc2) 
+is assigned as a swap area. The rest of the disk is assigned as an extended partition 
+(/dev/sdc3), which allows any further partitions to take space from that partition.

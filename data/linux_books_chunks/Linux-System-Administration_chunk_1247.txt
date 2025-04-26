@@ -1,0 +1,26 @@
+hello.ko
+
+Use modinfo to verify that it is really a module.
+
+[root@rhel4a kernel_module]# modinfo hello.ko 
+filename:       hello.ko
+vermagic:       2.6.9-paul-2 SMP 686 REGPARM 4KSTACKS gcc-3.4
+depends:        
+[root@rhel4a kernel_module]#
+
+Good, so now we can load our hello module.
+
+[root@rhel4a kernel_module]# lsmod | grep hello
+[root@rhel4a kernel_module]# insmod ./hello.ko
+[root@rhel4a kernel_module]# lsmod | grep hello
+hello                   5504  0 
+[root@rhel4a kernel_module]# tail -1 /var/log/messages 
+Feb 15 19:16:07 rhel4a kernel: Start Hello World...
+[root@rhel4a kernel_module]# rmmod hello
+[root@rhel4a kernel_module]#
+
+Finally /var/log/messages has a little surprise.
+
+[root@rhel4a kernel_module]# tail -2 /var/log/messages 
+Feb 15 19:16:07 rhel4a kernel: Start Hello World...
+Feb 15 19:16:35 rhel4a kernel: End Hello World...

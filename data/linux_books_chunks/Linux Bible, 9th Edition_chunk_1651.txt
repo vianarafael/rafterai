@@ -1,0 +1,7 @@
+The line timeout=5 causes GRUB to pause for ﬁ ve 
+seconds before booting the default partition. (That’s how much time you have to press 
+e if you want to edit the boot line, or to press arrow keys to select a different operating 
+ system to boot.)
+
+The splashimage line looks in the ﬁ rst partition on the ﬁ rst disk (hd0,0) for the 
+boot partition (in this case /dev/sda1).

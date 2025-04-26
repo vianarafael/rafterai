@@ -1,0 +1,9 @@
+For more information on mount options, please see the man 
+page for mount.
+
+To set this to automatically mount when our host is rebooted, we would add this to the /etc/fstab file:
+
+192.168.0.1:/ /data/remote nfs4 rw,hard,intr,_netdev 0 0
+
+Here we are accessing the NFS filesystem from host 192.168.0.1 and mounting the remote shares 
+under the /data/remote directory.

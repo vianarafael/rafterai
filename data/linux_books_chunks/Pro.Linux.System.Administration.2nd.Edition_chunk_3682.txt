@@ -1,0 +1,10 @@
+As you can see in Listing 13-2, we are setting the netbios name option 
+to dc1, and we will be able to use this NetBIOS name to refer to our host.
+
+ if you are interested in a further explanation of netBiOS, please read http://en.wikipedia.org/
+
+ ■ Note 
+wiki/NetBIOS.
+
+The server role directive is set to active directory domain controller. This obviously means that 
+we are operating an AD DC.

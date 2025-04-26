@@ -1,0 +1,13 @@
+In this example, you can see that large ﬁ les are sorted by size in the
+/tmp/size ﬁ le.
+
+343
+
+c13.indd  04/01/2015  Page 344
+
+Part IV: Becoming a Linux Server Administrator
+
+Managing Servers in the Enterprise
+As you pat yourself on the back for mastering tools for managing Linux servers, keep in 
+mind that these skills are just the foundation for what you need to manage hundreds 
+or thousands of Linux systems in a large enterprise.

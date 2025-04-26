@@ -1,0 +1,4 @@
+The typical standard is to lock an account after 
+three failed attempts. This is to thwart a brute-force password attack against an account.
+
+The PAM module used to manage login attempts is pam_tally2.

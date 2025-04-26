@@ -1,0 +1,91 @@
+See grep command
+Gentoo distribution, 16
+bin login, 190
+nano text editor, 118
+ongoing updates, 214
+software packaging, 236
+
+getenforce command, 486, 539, 680, 697, 834
+getent command, 280
+getfacl command, 271
+getsebool command, 509, 688, 697, 834, 689694
+gfs2 ﬁ lesystem, 303
+gFTP client, 495–496
+Gibson Research Corporation, 624
+GID directories, 276–278
+Global Unique Identiﬁ ers (GUID), 286
+GlusterFS, 5
+GNOME 2 desktop, 49–60
+
+Metacity window manager, 50–52
+panels, 50, 53–57
+System Monitor, 142–143
+
+GNOME 3 desktop, 33–49
+command box, 40
+Fedora GNOME desktop live image, 32–33
+installing software, 46–48
+Nautilus ﬁ le manager, 45–46, 47, 50, 195–196, 522–523
+navigating with keyboard, 38–41
+navigating with mouse, 34–38
+Rhythmbox music player, 48–49, 195, 196
+shell extensions, 42–45
+setting up, 41–42
+stopping, 49
+System Monitor, 142–143
+Window menu, 37
+
+GNOME Display Manager Log, 609
+GNOME Terminal, 68
+
+845
+
+creating, 310–311
+directory hierachy, 97–99
+exercises, 115–116, 311–312, 786–787, 802–804
+integrity, ensuring, 640–642
+listing ﬁ les/directories, 105–109
+metacharacters, 102–105
+monitoring, 615–622
+mounting, 301–310
+moving ﬁ les, 114
+permissions, 109–113, 603–604
+removing ﬁ les, 114–115
+scans, 616–618
+securing, 603–606
+unmounting, 309
+
+filter table, iptables, 713
+find command, 127–132, 343
+ﬁ nding
+
+commands, 74–76
+ﬁ les
+
+find command, 127–132
+grep command, 132–133
+locate command, 125–126
+
+packages, 246–247
+
+ﬁ ngerprints, 628
+Firefox, FTP server access, 493
+firestarter application, 711
+Firewall, graphical admin tool, 176
+firewalld service, 316, 712–713
+ﬁ rewalls, 710–724
+
+categories, 710–711
+firewalld service, 316, 321, 712–713
+iptables utility, 316, 713–724
+opening for FTP, 483–486
+opening for NFS, 537–538
+RHCE exam, 26
+Samba conﬁ guration, 507–508
+
+ﬁ rmware RAID devices, 220
+firstboot command, 210
+“ﬁ rst picture” databases, 620–622
+fixfiles command, 685
+foomatic package, 317
+for .

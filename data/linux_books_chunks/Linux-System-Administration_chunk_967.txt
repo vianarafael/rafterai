@@ -1,0 +1,9 @@
+A switch
+also understands mac addresses.
+
+In this book we will discuss commands like arp and ifconfig to explore this layer.
+
+21.1.5. short introduction to the network layer
+
+Layer 3 is about ip packets. This layer gives every host a unique 32-bit ip address. But ip
+is not the only protocol on this layer, there is also icmp, igmp, ipv6 and more.

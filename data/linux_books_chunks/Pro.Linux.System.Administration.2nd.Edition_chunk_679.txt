@@ -1,0 +1,11 @@
+If it does exist, its content will be overwritten.
+
+ ■ Caution 
+
+ Be careful when using redirection, as your target file will be overwritten without warning.
+
+You can also append to files using the same mechanism.
+
+$ cat /home/jsmith/myfile >> /home/jsmith/yourfile
+
+Using the >> syntax will append the output from the cat of myfile to the end of yourfile.

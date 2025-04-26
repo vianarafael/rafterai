@@ -1,0 +1,8 @@
+You would simply type y and press Enter at each line to 
+move the ﬁ le, or just press Enter to skip it.
+
+For more information on the find command, type man find.
+
+Searching in fi les with grep
+If you want to search for ﬁ les that contain a certain search term, you can use the grep 
+command.

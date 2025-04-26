@@ -1,0 +1,17 @@
+Otherwise, the rule from the 
+previous example would be used by the netfilter/iptables ﬁ rewall for packets from 
+10.140.67.22 (Host-B).
+
+# iptables -D INPUT 1
+# iptables -A INPUT -s 10.140.67.22 -p tcp --dport 22 -j DROP
+# iptables -vnL
+Chain INPUT (policy ACCEPT)
+target     prot opt source      destination
+DROP       tcp  --  10.140.67.22    anywhere     tcp dpt:ssh
+Chain FORWARD (policy ACCEPT)
+target     prot opt source      destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source      destination
+
+First, the new iptables rule is tested from Host-C to ensure both ping attempts and ssh 
+connections remain unaffected.

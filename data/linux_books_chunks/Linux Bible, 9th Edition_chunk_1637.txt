@@ -1,0 +1,8 @@
+Changing those options 
+involves editing the /boot/grub/grub.conf ﬁ le.
+
+Temporarily changing boot options
+From the GRUB Legacy boot screen, you can select to change or add boot options for the 
+current boot session. On some Linux systems, the menu is hidden, so you have to press 
+the Tab key or some other key (before a few seconds of timeout is exceeded) to see the 
+menu.

@@ -1,0 +1,15 @@
+This is the same
+as kill -19 on Linux, but might have a different number in other Unix systems.
+
+A suspended process does not use any cpu cycles, but it stays in memory and can be re-
+animated with a SIGCONT signal (kill -18 on Linux).
+
+Both signals will be used in the section about background processes.
+
+10
+
+  
+  
+introduction to processes
+
+1.3.7.

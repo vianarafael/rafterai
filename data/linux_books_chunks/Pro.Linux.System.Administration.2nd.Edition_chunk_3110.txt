@@ -1,0 +1,4 @@
+You can download it from www.sugarcrm.com/.
+
+Web Caching
+Web caching is use to speed up the delivery of web pages by returning cached responses to multiple clients.

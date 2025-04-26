@@ -1,0 +1,22 @@
+# terminator
+
+
+- Start `terminator` window:
+
+`terminator`
+
+- Start with a fullscreen window:
+
+`terminator -f`
+
+- Split terminals horizontally:
+
+`<Ctrl Shift o>`
+
+- Split terminals vertically:
+
+`<Ctrl Shift e>`
+
+- Open new tab:
+
+`<Ctrl Shift t>`

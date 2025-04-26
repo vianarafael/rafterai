@@ -1,0 +1,4 @@
+Ansible provides a command called ansible-playbook, and it is 
+designed to connect to particular hosts and run a series of tasks. Playbooks are quite powerful, they can 
+run in serial or parallel across your hosts, and they can delegate tasks to other hosts and wait for those to 
+complete before moving on to the next task.

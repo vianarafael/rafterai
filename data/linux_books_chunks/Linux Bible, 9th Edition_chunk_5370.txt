@@ -1,0 +1,5 @@
+The trick is to make sure the service has been made avail-
+able through the Linux server security features.
+
+If you cannot access the Samba share, try disabling your ﬁ rewall and then dis-
+abling SELinux.

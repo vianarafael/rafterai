@@ -1,0 +1,16 @@
+The file /etc/clamav/clamav-milter.conf needs the 
+
+following:
+
+MilterSocket inet:7357@localhost
+OnInfected Accept
+AddHeader Add
+
+574
+
+Chapter 12 ■ Mail ServiCeS
+
+Again, for testing we are accepting infected files and adding the header. Also, for Ubuntu, we are going 
+
+to set up the milter to listen on the loopback address instead of using a named socket like we did in the 
+CentOS setup.

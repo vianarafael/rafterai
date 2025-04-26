@@ -1,0 +1,10 @@
+The example shown takes you up three directory levels (to /), and then takes 
+you into the /usr directory.
+
+The following steps lead you through the process of creating directories within your home 
+directory and moving among your directories, with a mention of setting appropriate ﬁ le 
+permissions:
+
+1.  Go to your home directory. To do this, simply type cd in a shell and press 
+
+Enter.

@@ -1,0 +1,7 @@
+chainloading
+
+With grub booting, there are two choices: loading an operating system or chainloading
+another bootloader. The chainloading feature of grub loads the bootsector of a partition
+(that contains an operating system).
+
+Some older operating systems require a primary partition that is set as active.

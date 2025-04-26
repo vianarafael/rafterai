@@ -1,0 +1,11 @@
+dd if=/dev/zero of=/tmp/SWAPFILE bs=1k count=10240
+
+2. 
+
+mkswap /tmp/SWAPFILE
+
+3.
+
+ swapon /tmp/SWAPFILE
+
+5.

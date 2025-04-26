@@ -1,0 +1,6 @@
+The messages appear 
+as components are detected, such as your CPU, memory, network cards, hard drives, and so on.
+
+In Linux systems that support systemd, kernel messages are stored in the systemd 
+ journal. So instead of using the dmesg command, you can run journalctl to see kernel 
+messages from boot time to the present.

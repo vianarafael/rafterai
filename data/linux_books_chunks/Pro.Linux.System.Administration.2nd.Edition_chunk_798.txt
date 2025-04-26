@@ -1,0 +1,11 @@
+Like 
+with users, deleting groups can leave files owned by those groups orphaned.
+
+156
+
+Chapter 5 ■ Users and GroUps
+
+ADDUSER: AN ALTERNATIVE ON UBUNTU
+
+Ubuntu ships with two additional user management utilities, adduser and addgroup. these provide 
+easy-to-use and convenient alternatives to the useradd and groupadd commands.

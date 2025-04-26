@@ -1,0 +1,7 @@
+You can run scripts using the prerotate command, which runs the script prior to 
+
+rotating any logs, or using postrotate, which runs the script after rotating the log file (or log files).
+
+Listing 18-13 shows a script that restarts the rsyslog daemon after the log file (or log files) has been 
+
+rotated.

@@ -1,0 +1,3 @@
+Choose 
+a host (or virtual machine) you want to build and reboot it. Your host may automatically search for a boot 
+device on your network, but more likely you will need to adjust its BIOS settings to adjust the boot order.

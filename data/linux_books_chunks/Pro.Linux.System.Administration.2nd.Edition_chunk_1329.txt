@@ -1,0 +1,14 @@
+We can find the device name for our new interface with the use of dmesg.
+
+$ sudo dmesg |grep enp
+[    6.903532] IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+
+We will use this information shortly. To start it you issue $ sudo nmtui.
+
+229
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-8.  Edit a connection
+
+Here we select Edit a connection.

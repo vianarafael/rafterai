@@ -1,0 +1,7 @@
+If you want to learn more about AppArmor, go to https://help.
+ubuntu.com/community/AppArmor.
+
+Even though “traditional” Linux security controls still work, there are several beneﬁ ts to 
+using SELinux. These are a few of SELinux’s beneﬁ ts:
+
+ ■ It implements the RBAC access control model.

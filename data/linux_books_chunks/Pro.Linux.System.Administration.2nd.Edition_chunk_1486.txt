@@ -1,0 +1,5 @@
+The –p option tells netstat to display what applications are using each connection, and 
+the last option, –t, tells netstat to look for TCP connections only. 
+
+The netstat command displays the programs listening on certain ports on your host. We can see in the 
+preceding output that the program nc, PID of 18618, is listening for TCP connections on port 80.

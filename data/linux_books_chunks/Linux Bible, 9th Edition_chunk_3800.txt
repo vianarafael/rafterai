@@ -1,0 +1,14 @@
+To boot a different kernel from the 
+
+558
+
+c21.indd  04/01/2015  Page 559
+
+Chapter 21: Troubleshooting Linux
+
+GRUB menu, just use the arrow key to highlight the one you want, and press Enter 
+to boot it.
+
+ ■ To select a different operating system—If you happen to have another  operating 
+system installed on your hard drive, you can select to boot that one instead of 
+RHEL.

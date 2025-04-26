@@ -1,0 +1,4 @@
+RAID level 5 uses a minimum of three disks and gives you more efficient use of the 
+available storage space and increased read and write speed. It accomplishes this by striping the data across 
+multiple disks and also writing a checksum of each stripe to a different disk (also known as block parity - for 
+details on how this is calcuated see http://searchstorage.techtarget.com/definition/parity).

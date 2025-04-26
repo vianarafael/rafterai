@@ -1,0 +1,5 @@
+to read more about inodes, see http://en.wikipedia.org/wiki/Inode.
+
+Tweaking ext2, ext3, and ext4 Filesystem Options
+To change ext2, ext3, and ext4 filesystem parameters after creation, you use the tune2fs utility. To get an 
+overview of available options, first run the utility without any parameters.

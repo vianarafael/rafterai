@@ -1,0 +1,7 @@
+You can’t 
+simply rely on your host’s motherboard’s onboard clocks, as their quality varies a lot and some can run out of 
+sync by as much as several minutes each day.
+
+We have explained a little about NTP already in Chapter 2. Time services are provided by a service 
+
+called the Network Time Protocol.

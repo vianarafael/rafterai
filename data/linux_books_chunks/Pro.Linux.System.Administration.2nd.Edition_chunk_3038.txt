@@ -1,0 +1,7 @@
+in the case of your own self-managed Ca, the clients with your root certificates are ones 
+you install it on yourself.
+
+Hence, when your web client attempts to validate certificates provided by your CA, for example, an 
+
+error message is generated indicating that the client does not trust the CA. Other services may just refuse 
+to connect altogether with a valid certificate.

@@ -1,0 +1,7 @@
+Comments in these configuration files are 
+prefixed with a double slash (//) and all directives and blocks are terminated with a semicolon (;).
+
+The include directive tells named to read the specified file and process any directives it contains, 
+
+including nested include commands. In this case, the named.conf.options file contains the options section, 
+which affects the way named operates.

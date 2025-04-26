@@ -1,0 +1,6 @@
+You can lock down the IP addresses of the 
+machines in your home by attaching MAC addresses of each computer’s network interface 
+card to speciﬁ c IP addresses on a DHCP server, and then mapping those names to addresses 
+in a DNS server.
+
+Before you create a public DNS server, keep in mind that it is very important to secure your DNS server properly.

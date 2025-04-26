@@ -1,0 +1,7 @@
+There is a template file available 
+
+on most distributions. This file, called openssl.cnf, is located in the /etc/pki/tls/ directory on CentOS 
+distributions and in the /etc/ssl/ directory on Ubuntu.
+
+If you are using a nonstandard directory for your CA or have some other settings, you can make a copy 
+of this file and edit it in your CA directory.

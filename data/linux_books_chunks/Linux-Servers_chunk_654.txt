@@ -1,0 +1,14 @@
+share section in smb.conf
+
+There are two parameters to make a share writable. We can use read only or writable. This
+example shows how to use writable to give write access to a share.
+
+writable = yes
+
+And this is an example of using the read only parameter to give write access to a share.
+
+read only = no
+
+12.3. configure the share
+
+Then we simply add a share to our file server by editing smb.conf.

@@ -1,0 +1,6 @@
+While rare, some hardware components (e.g., some wireless network cards) lack 
+drivers and support on some or all Linux platforms.
+
+You should confirm that whatever hardware you purchase is supported by the distribution you have 
+selected. Most distributions have Hardware Compatibility Lists (HCLs) you can use to verify your hardware 
+is supported.

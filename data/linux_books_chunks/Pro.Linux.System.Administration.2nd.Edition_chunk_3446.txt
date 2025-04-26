@@ -1,0 +1,6 @@
+You might like to edit the local.cf file that has the threshold at which 
+mail is classified spam (required_score).
+
+The other file we need to change is /etc/sysconfig/spamassassin on CentOS or /etc/default/
+spamassassin on Ubuntu. This file controls the options (SPAMDOPTION on CentOS, OPTION on Ubuntu) we 
+provide to spamd.

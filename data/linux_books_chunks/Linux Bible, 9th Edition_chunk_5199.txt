@@ -1,0 +1,15 @@
+If it doesn’t already exist, create a bin directory:
+
+$ mkdir $HOME/bin
+
+b. Using any text editor, create a script called $HOME/bin/myownscript that 
+
+contains the following:
+
+#!/bin/bash
+# myownscript
+# List some information about your current system
+echo "Today is $(date)."
+echo "You are in $(pwd) and your host is $(hostname)."
+
+c.

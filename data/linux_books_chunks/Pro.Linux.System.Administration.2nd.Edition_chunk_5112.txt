@@ -1,0 +1,15 @@
+But it can also mean that if your system crashes between write attempts, you will 
+lose data.
+
+The second line has all auth messages except those of emerg priority being sent to a local printer lpr1.
+The third sends all news messages of notice or greater priority to a named pipe called /tmp/pipe.
+
+ Sending to a named pipe allows you to send rsyslog data to other applications; for example, you 
+
+ ■ Note 
+use named pipes to collect log messages and pass them to a log correlation engine or a database.
+
+The fourth and last line sends all auth-priv messages to the users root and jsmith if they are logged in.
+There is one last action you can perform, sending logs to another host, as you can see in Listing 18-7.
+
+Listing 18-7.

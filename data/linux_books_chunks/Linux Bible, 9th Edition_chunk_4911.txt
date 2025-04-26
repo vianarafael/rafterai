@@ -1,0 +1,4 @@
+For 
+Ubuntu, you need the nfs-kernel-server package.
+
+After initial installation is ﬁ nished, check that the NFS server software is installed.

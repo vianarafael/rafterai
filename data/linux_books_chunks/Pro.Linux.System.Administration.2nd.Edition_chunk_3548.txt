@@ -1,0 +1,6 @@
+It will generate the SPF record 
+
+based on the information you enter: http://spfwizard.com/.
+
+Once this is done for our e-mail services, we need to set it up so that our e-mail server receiving e-mail 
+also uses SPF to validate e-mail being sent to it.

@@ -1,0 +1,3 @@
+The inventory is where 
+Ansible expects to see you host list or a program that will dynamically gather your host list. The library is for 
+your own or shared modules. The role_path is where you might install roles.

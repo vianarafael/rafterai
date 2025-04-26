@@ -1,0 +1,2 @@
+The -G option allows our user to join additional groups other than her 
+primary group, which is a unique group created when the user is created and shares her username.

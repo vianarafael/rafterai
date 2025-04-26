@@ -1,0 +1,43 @@
+If 
+your system is running basic iptables (and not the firewalld service), change 
+the /etc/sysconfig/iptables ﬁ le so the ﬁ rewall appears like the following 
+(the rules you add being those in bold):
+
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+-A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-I INPUT -m state --state NEW -m udp -p udp --dport 137 -j ACCEPT
+-I INPUT -m state --state NEW -m udp -p udp --dport 138 -j ACCEPT
+-I INPUT -m state --state NEW -m tcp -p tcp --dport 139 -j ACCEPT
+-I INPUT -m state --state NEW -m tcp -p tcp --dport 445 -j ACCEPT
+
+B
+
+823
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 824
+
+Appendix B: Exercise Answers
+
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+-A FORWARD -j REJECT --reject-with icmp-host-prohibited
+COMMIT
+
+Then type the following for the ﬁ rewall rules to be reloaded:
+
+# service iptables restart
+
+10.

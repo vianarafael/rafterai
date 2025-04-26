@@ -1,0 +1,6 @@
+If you want to know more about Bash and what you can use it for, see www.tldp.org/LDP/Bash-
+Beginners-Guide/html/ and http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html.
+
+Controlling Access to Your Host
+You can control quite a lot of user characteristics, including when and how users can log in, what their 
+passwords look like, and how often they have to change and reset their passwords.

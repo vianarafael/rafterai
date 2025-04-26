@@ -1,0 +1,4 @@
+Be sure to pop out the medium before the system restarts.
+
+Summary
+Troubleshooting problems in Linux can start from the moment you turn on your computer.

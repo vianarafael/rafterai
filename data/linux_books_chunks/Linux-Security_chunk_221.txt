@@ -1,0 +1,64 @@
+RHEL5 overview
+
+Below is a table overview of when Red Hat Enterprise Linux 5 is running any of these bash
+startup scripts.
+
+Table 4.2. Red Hat User Environment
+
+script
+
+~./bashrc
+
+~/.bash_profile
+
+/etc/profile
+
+/etc/bashrc
+
+su
+
+yes
+
+no
+
+no
+
+yes
+
+su -
+
+yes
+
+yes
+
+yes
+
+yes
+
+ssh
+
+yes
+
+yes
+
+yes
+
+yes
+
+gdm
+
+yes
+
+yes
+
+yes
+
+yes
+
+33
+
+user profiles
+
+4.9. practice: user profiles
+
+1.

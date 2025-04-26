@@ -1,0 +1,8 @@
+The default user is different (ubuntu), but 
+you can assign a password in the same way. Run this command to create the 
+data image:
+
+# genisoimage -output ubuntu-data.iso -volid cidata \
+      -joliet -rock user-data meta-data
+
+4.  Snapshot the image.

@@ -1,0 +1,22 @@
+Values in this directory can be changed with the sysctl 
+utility or set in the configuration file /etc/sysctl.conf
+
+/proc/sys/kernel/hotplug
+Path to the utility invoked by the kernel which implements hotplugin (used for USB 
+devices or hotplug PCI and SCSI devices)
+
+/proc/sys/kernel/modprobe
+Path to the utility invoked by the kernel to insert modules
+
+16
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+/proc/sys/overflowgid/uid
+Maximum number of users on a system.

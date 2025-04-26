@@ -1,0 +1,11 @@
+It was named the Berkeley Software 
+Distribution (BSD).
+
+9
+
+c01.indd  04/01/2015  Page 10
+
+Part I: Getting Started
+
+For most of the next decade, the BSD and Bell Labs versions of UNIX headed off in  separate 
+directions.

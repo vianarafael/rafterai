@@ -1,0 +1,17 @@
+su to another user
+
+The su command allows a user to run a shell as another user.
+
+laura@debian7:~$ su tania
+Password:
+tania@debian7:/home/laura$
+
+1.7. su to root
+
+Yes you can also su to become root, when you know the root password.
+
+laura@debian7:~$ su root
+Password:
+root@debian7:/home/laura#
+
+1.8.

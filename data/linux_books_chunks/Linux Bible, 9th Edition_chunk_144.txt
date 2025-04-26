@@ -1,0 +1,6 @@
+Then, to make sure you got it, you have the oppor-
+tunity to try exercises yourself. Every procedure and exercise has been tested to 
+work in Fedora or Red Hat Enterprise Linux. Most work in Ubuntu as well.
+
+ ■ Lead into cloud technologies: Linux is at the heart of most technological advances 
+in cloud computing today.

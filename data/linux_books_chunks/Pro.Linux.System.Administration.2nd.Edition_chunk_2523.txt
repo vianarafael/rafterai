@@ -1,0 +1,4 @@
+We previously 
+
+invoked it with just a hostname as parameter, but a full command usually looks like dig @server name 
+type.

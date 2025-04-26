@@ -1,0 +1,4 @@
+When writing data to such a RAID array, parts of the data will end up on each of the disks. Since this 
+is an operation Linux can execute simultaneously on both disks, writing to RAID 0 is faster than writing to a 
+single disk. However, the drawback is that when one of the disks fails, arbitrary parts of files that were spread 
+over both disks disappear.

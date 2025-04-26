@@ -1,0 +1,30 @@
+Linux comes with many cryptographic tools ready for you to use.
+
+To understand cryptographic concepts and the various Linux tools, you should know a few cryptog-
+raphy terms:
+
+ ■ Plaintext—Text that a human or machine can read and comprehend
+
+ ■ Cipher text—Text that a human or machine cannot read and comprehend
+
+627
+
+c23.indd  04/01/2015  Page 628
+
+Part V: Learning Linux Security Techniques
+
+ ■ Encryption—The process of converting plaintext into cipher text using an algorithm
+
+ ■ Decryption—The process of converting cipher text into plaintext using an algorithm
+
+ ■ Cipher—The algorithm used to encrypt plaintext into cipher text and decrypt 
+
+cipher text into plaintext
+
+ ■ Block cipher—A cipher that breaks data into blocks before encrypting
+
+ ■ Stream cipher—A cipher that encrypts the data without breaking it up
+
+ ■ Key—A piece of data required by the cipher to successfully encrypt or decrypt data
+
+Parents often use a form of cryptography.

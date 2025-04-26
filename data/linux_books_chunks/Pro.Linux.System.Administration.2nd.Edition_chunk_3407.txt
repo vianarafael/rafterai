@@ -1,0 +1,5 @@
+The virtual_mailbox_maps setting will list the 
+mail addresses we accept. The virtual_alias_maps setting will contain the aliases for our mail users, like 
+the aliases file would.
+
+Here are the virtual domains we accept mail for.

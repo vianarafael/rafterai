@@ -1,0 +1,22 @@
+Here is an example:
+
+578
+
+c21.indd  04/01/2015  Page 579
+
+Chapter 21: Troubleshooting Linux
+
+# iptables -vnL
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+pkts bytes target prot opt in out source    destination
+...
+   0     0 ACCEPT tcp  --  *  *   0.0.0.0/0 0.0.0.0/0   state NEW 
+     tcp dpt:80
+   0     0 ACCEPT tcp  --  *  *   0.0.0.0/0 0.0.0.0/0   state NEW 
+     tcp dpt:443
+...
+
+21
+
+For the RHEL 7 and Fedora 20 systems where the firewalld service is enabled, you can 
+use the Firewall conﬁ guration window to open the ports needed.

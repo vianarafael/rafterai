@@ -1,0 +1,7 @@
+To start the Create a New Virtual Machine wizard, select File ➪ 
+
+New Virtual Machine. The Create a New Virtual Machine window appears.
+
+b.  Choose the installation method. Four ways of creating the virtual machine are 
+presented. The ﬁ rst three are ways to identify the location of installation media. 
+The fourth lets you import an existing disk image.

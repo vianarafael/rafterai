@@ -1,0 +1,4 @@
+pvchange
+
+With pvchange you can prevent the allocation of a Physical Volume in a new Volume Group
+or Logical Volume.

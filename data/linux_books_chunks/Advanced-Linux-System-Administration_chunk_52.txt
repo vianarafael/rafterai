@@ -1,0 +1,2 @@
+When the Document is included in an aggregate, this License does not apply to the other works in the aggregate 
+which are not themselves derivative works of the Document.

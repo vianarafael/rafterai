@@ -1,0 +1,6 @@
+Many people expect things such as calendaring, enterprise authentication, file sharing, and 
+collaborative features to be part of their daily work experience and requirements.
+
+Table 12-4 lists some of the solutions that have been around for many years. They offer their software 
+
+under different licenses, but each has an open source edition.

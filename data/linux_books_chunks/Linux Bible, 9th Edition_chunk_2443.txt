@@ -1,0 +1,5 @@
+Use the ssh command to use X11 forwarding to display a gedit window on your 
+
+local system; then save a ﬁ le in the remote user’s home directory.
+
+4.

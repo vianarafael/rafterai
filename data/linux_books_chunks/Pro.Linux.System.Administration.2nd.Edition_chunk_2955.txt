@@ -1,0 +1,4 @@
+inside this directory are the ibdata1, ib_logfile0, and 
+ib_logfile1 files. the ibdata1 file contains system and user data, and the ib_logfile0 and 
+ib_logfile1 files are redo, or transaction, logs. databases are created in directories inside the /
+var/lib/mysql/<databasename> directory.

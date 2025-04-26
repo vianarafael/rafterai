@@ -1,0 +1,7 @@
+Again, with mission-critical 
+servers, the safest and most efﬁ cient way is to use subscribed Red Hat Enterprise Linux 
+ systems for your servers, and then deploy security-related package updates to your system 
+as soon as they are released and tested.
+
+To keep your personal server and desktop systems up to date, there are various graphical tools 
+to add software and to check for updates.

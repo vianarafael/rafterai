@@ -1,0 +1,13 @@
+The only option that 
+needs to be added at startup is -r.
+
+Edit /etc/sysconfig/syslog and add the -r option to the SYSLOGD_OPTIONS variable
+
+SYSLOGD_OPTIONS="-r -m 0"
+
+Then restart the syslog service.
+
+Name resolution
+
+Once a server has been setup as a remote logging server it will accept logs from hosts on the 
+network.

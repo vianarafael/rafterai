@@ -1,0 +1,13 @@
+Type 
+Y to start that service and go to the next one.
+
+After you see the broken service requesting to start, type N to keep that service from 
+ starting. If, at some point, you feel the rest of the services are safe to start, type C to 
+
+565
+
+c21.indd  04/01/2015  Page 566
+
+Part IV: Becoming a Linux Server Administrator
+
+continue starting the rest of the services.

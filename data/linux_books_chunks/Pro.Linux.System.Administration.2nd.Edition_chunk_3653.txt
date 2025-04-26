@@ -1,0 +1,5 @@
+For a full list of 
+
+options that you can provide on the command line, see samba-tool provision --help. We have provided 
+the --use-rfc2307 option, which tells Samba to store user and group information in the internal LDAP 
+directory.

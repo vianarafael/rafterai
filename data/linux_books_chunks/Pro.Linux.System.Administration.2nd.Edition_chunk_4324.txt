@@ -1,0 +1,2 @@
+Then we 
+use the cat program to print the public and cacert certificates to the screen.

@@ -1,0 +1,4 @@
+In Figure 4-3 you can see how we would 
+access the Terminal emulator in the Unity desktop.
+
+ a terminal emulator is a tool that emulates a text terminal inside another application.

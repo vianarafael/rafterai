@@ -1,0 +1,15 @@
+In the following code, the ps -el command was used.
+
+# ps -el | grep bash
+0 S  1000  1589  1583  0  80   0 -  1653 n_tty_ pts/0  00:00:00 bash
+
+676
+
+c24.indd  04/15/2015  Page 677
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+0 S  1000  5289  1583  0  80   0 -  1653 wait   pts/1  00:00:00 bash
+4 S     0  5350  5342  0  80   0 -  1684 wait   pts/1  00:00:00 bash
+
+To see a process’s security context, you need to use the -Z option on the ps command.

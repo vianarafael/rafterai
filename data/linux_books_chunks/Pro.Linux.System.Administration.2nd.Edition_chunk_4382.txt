@@ -1,0 +1,43 @@
+Mobile User’s mobile.conf Configuration File
+
+# Network configuration
+dev tun
+port 1195
+proto udp
+server 10.9.0.0 255.255.255.0
+keepalive 10 120
+
+# Certificate configuration
+dh /etc/openvpn/dh2048.pem
+ca /etc/pki/tls/certs/cacert.pem
+cert /etc/pki/tls/certs/gateway.example.com.cert
+key /etc/pki/tls/private/gateway.example.com.key
+tls-auth ta.key 0
+
+plugin /usr/lib64/openvpn/plugins/openvpn-plugin-auth-pam.so login
+
+# Logging configuration
+log-append /var/log/openvpn-mobile.log
+status /var/log/openvpn-status-mobile.log
+verb 4
+mute 20
+
+# Security configuration
+user nobody
+group nobody
+persist-key
+persist-tun
+
+# Compression
+comp-lzo
+
+720
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+ we’ll expand on this configuration later in this section when we look at configuring routing and 
+
+ ■ Note 
+related functionality on our client.
+
+You can see that our mobile.conf configuration is similar to our gateway.conf VPN tunnel.

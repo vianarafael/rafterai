@@ -1,0 +1,8 @@
+When the cron.allow file
+does not exists, then your username cannot be in the cron.deny file if you want to use cron.
+
+197
+
+scheduling
+
+16.2.4.

@@ -1,0 +1,5 @@
+these 
+units are called blocks and by default they are 4 KB in size.
+
+a block can only hold one file or part of one file, so a 1 KB file still uses up a whole block—and thus 4 
+KB of disk space, wasting 3 KB of storage space. Larger files are spread out over multiple blocks.

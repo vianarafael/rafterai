@@ -1,0 +1,20 @@
+This indicates that this particular job is a service job 
+instead of a task job.
+
+# cat cron.conf
+# cron - regular background program processing daemon
+# cron is a standard UNIX program that runs user-specified
+# programs at periodic scheduled times
+description   "regular background program processing daemon"
+start on runlevel [2345]
+stop on runlevel [!2345]
+expect fork
+respawn
+exec cron
+
+The additional stanzas in this example are as follows:
+
+ ■ description—This stanza is optional and simply describes the service.
+
+ ■ start on—Though the start on portion of this stanza was previously covered, 
+the [2345] syntax was not.

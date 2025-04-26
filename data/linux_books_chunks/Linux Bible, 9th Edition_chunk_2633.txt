@@ -1,0 +1,5 @@
+To do more manual and complex network conﬁ guration, consider turning off 
+NetworkManager and working more directly with network conﬁ guration ﬁ les.
+
+Network conﬁ guration ﬁ les in Linux can be used to set up more advanced features such as 
+Ethernet channel bonding.

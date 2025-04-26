@@ -1,0 +1,6 @@
+It also offers 
+ conﬁ guration ﬁ les in the /etc/cups directory for conﬁ guring printers and the CUPS 
+ service (cupsd daemon).
+
+In RHEL, Fedora, Ubuntu, and other Linux systems, you can conﬁ gure your printer with the 
+printing conﬁ guration windows available in both KDE and GNOME desktops.

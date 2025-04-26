@@ -1,0 +1,15 @@
+Then type 
+Firefox to highlight just the Firefox Web Browser icon. Press Enter to launch it. Type 
+http://gnome.org in the location box, and press Enter.
+
+ ■ For GNOME 2, select the Firefox icon from the top menu bar. Type http://gnome.org 
+
+in the location box, and press Enter.
+
+781
+
+bapp02.indd  04/01/2015  Page 782
+
+Appendix B: Exercise Answers
+
+3.

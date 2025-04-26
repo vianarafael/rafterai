@@ -1,0 +1,6 @@
+Another classic init daemon was based on 
+Berkeley UNIX, also called BSD. Therefore, the two original Linux init daemons were BSD 
+init and SysVinit.
+
+The classic init daemons worked without problems for many years. However, these dae-
+mons were created to work within a static environment.

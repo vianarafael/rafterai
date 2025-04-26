@@ -1,0 +1,3 @@
+For this type of installation media, 
+instead of copying the entire contents of the medium to disk, software is split up into 
+packages that you can select to meet your exact needs.

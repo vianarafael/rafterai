@@ -1,0 +1,109 @@
+See Dynamic Host Configuration  
+
+Protocol (DHCP)
+Diagnostic information, 71
+Differential backup, 637, 673
+Dig command, 432–436
+Digital certificate, 506
+DigitalOcean, 7
+Director daemon, 666
+Directory Access Protocol (DAP), 734
+Directory information tree (DIT), 735, 743,  
+
+765–766
+
+Directory structure, 119
+Disaster recovery planning (DRP), 635–636
+Discretionary Access Control (DAC), 576
+Disk, 360
+
+access, 807–808
+failure, 411–413
+partition table, 183
+space, 801
+
+Distinguished name (DN), 735–736
+Distributed Denial of Service attacks (DDoS), 285
+
+■ INDEXDistributed network filesystem (DNFS), 616
+Distributed volume, 618
+Dmesg, 361, 362
+DNS block list (DNSBL), 564
+DNSKEY, 439
+DNSSEC, 439–441
+Document management system (DMS), 626
+Domain block list (DBLs), 564
+Domain Key Identified Mail (DKIM),  
+
+582–585
+
+Domain Name System (DNS), 27, 35, 529, 584,  
+
+616, 692
+authoritative, 443
+caching, 437–439, 441–443
+configuration, 459–460
+dig command, 432–436
+dynamic, 454, 459
+entries, 463
+forwarders, 438
+forward lookup zones, 445–446
+host command, 431
+IP address, 427
+Name server, 35
+querying name servers, 429–430
+reverse lookup zones, 446–449
+rezone, 444–445
+root servers, 427
+Samba, 599–600
+security, 449–452
+slave server, 452
+types, 434
+Ubuntu, 452–453
+whois command, 428–429
+zone metadata, 436–437
+
+Dovecot, 550–554, 571–572, 586–591
+Dpkg tool
+
+contents, 347
+defined, 323
+details, 346–347
+file search, 347
+install, 347
+linux-images, 345
+options and flags, 344
+packaging system, 5
+remove, 348
+status codes, 345
+Driftfile directive, 420
+dstat, 808–809
+Duply
+
+configuration, 660–662
+defined, 652
+Duplicity, 659–660
+run, 662, 664–665
+S3 buckets, 652, 654–656
+usage, 659
+
+Dynamic Host Configuration Protocol  
+
+(DHCP), 23–25, 915–918
+
+configuration, 460–462
+dynamic DNS updates, 459
+install and configure, 455–456
+introduction, 455
+static lease, 457–459
+
+ E
+Elasticsearch
+
+cluster, 871
+curl command, 872
+installations, 871
+Logstash, 871
+Zen Discovery module, 871
+
+ELS.

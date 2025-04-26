@@ -1,0 +1,6 @@
+A network service is any task that the computer 
+ performs requiring it to send and receive information over the network using some predeﬁ ned set 
+of rules. Routing email is a network service, as is serving web pages.
+
+A Linux server has the potential to provide thousands of services. Many of them are listed in the 
+/etc/services ﬁ le.

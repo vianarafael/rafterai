@@ -1,0 +1,6 @@
+For example, some 
+packages contain pure command-line tools, system services, programming tools, or 
+documentation that don’t show up in the Software window.
+
+ ■ Flexibility—Although you may not know it, when you install an application through 
+the Software window, you are actually installing multiple RPM packages.

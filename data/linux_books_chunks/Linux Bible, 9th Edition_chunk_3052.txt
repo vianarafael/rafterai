@@ -1,0 +1,7 @@
+By far, the most popular web server is the Apache (HTTPD) web server, which is sponsored 
+by the Apache Software Foundation (http://apache.org). Because Apache is an 
+
+open source project, it is available with every major Linux distribution, including Fedora, RHEL, 
+and Ubuntu.
+
+You can conﬁ gure a basic web server to run in Linux in just a few minutes.

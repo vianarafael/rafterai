@@ -1,0 +1,9 @@
+From the output of cdrecord -scanbus on the 
+previous page we see that the CD writer device is seen as dev=0,0,0 so we type:
+
+cdrecord -v dev=0,0,0 backups-image.iso
+
+4. Bootable CDROMs
+
+To allow the BIOS to boot from a CDROM, an extension to the ISO-9660 specification 
+called El Torito was written in 1995 by Phoenix Technologies and IBM.

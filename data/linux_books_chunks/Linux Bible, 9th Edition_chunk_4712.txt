@@ -1,0 +1,3 @@
+The nmap utility is run on a 
+Fedora system, designated as “Host-A.” Host-A is the Linux server whose network services 
+are to be protected.

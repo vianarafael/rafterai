@@ -1,0 +1,11 @@
+In the previous example, 
+Muttrc and Muttrc.local were found with -i whereas they weren’t found without 
+that option.
+
+$ locate services
+/etc/services
+/usr/share/services/bmp.kmgio
+/usr/share/services/data.kmgio
+
+Unlike the find command, which uses the -name option to ﬁ nd ﬁ lenames, the locate 
+command locates the string you enter if it exists in any part of the ﬁ le’s path.

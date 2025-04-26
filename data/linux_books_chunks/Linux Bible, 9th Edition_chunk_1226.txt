@@ -1,0 +1,14 @@
+When the script 
+
+runs, it should output information that looks as follows:
+
+7
+
+Today is Sat Dec 10 15:45:04 EST 2016.
+You are in /home/joe and your host is abc.example.com.
+
+Of course, you need to read in your current date/time, current working directory, 
+and hostname. Also, include comments about what the script does and indicate 
+that the script should run with the /bin/bash shell.
+
+2.

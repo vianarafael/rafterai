@@ -1,0 +1,3 @@
+The Software window offers a more intuitive way of choosing and installing 
+desktop applications that does not align with typical Linux installation practices. With the Software 
+window, the smallest software you install is an application.

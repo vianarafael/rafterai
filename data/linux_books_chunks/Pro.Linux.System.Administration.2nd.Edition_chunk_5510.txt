@@ -1,0 +1,68 @@
+A Cobbler Report
+
+$ sudo cobbler report
+distros:
+==========
+Name                           : CentOS7-x86_64
+Architecture                   : x86_64
+TFTP Boot Files                : {}
+Breed                          : redhat
+Comment                        :
+Fetchable Files                : {}
+Initrd                         :  /var/www/cobbler/ks_mirror/CentOS7-x86_64/images/pxeboot/
+
+initrd.img
+
+Kernel                         :  /var/www/cobbler/ks_mirror/CentOS7-x86_64/images/pxeboot/
+
+vmlinuz
+
+Kernel Options                 : {}
+Kernel Options (Post Install)  : {}
+Kickstart Metadata             :  {'tree': 'http://@@http_server@@/cblr/links/
+
+CentOS7-x86_64'}
+
+Management Classes             : []
+OS Version                     : rhel7
+Owners                         : ['admin']
+Red Hat Management Key         : <<inherit>>
+Red Hat Management Server      : <<inherit>>
+Template Files                 : {}
+
+Name                           : Ubuntu-16.04-x86_64
+Architecture                   : x86_64
+TFTP Boot Files                : {}
+Breed                          : ubuntu
+Comment                        :
+Fetchable Files                : {}
+Initrd                         :  /var/www/cobbler/ks_mirror/Ubuntu-16.04/install/netboot/
+
+ubuntu-installer/amd64/initrd.gz
+
+921
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Kernel                         :  /var/www/cobbler/ks_mirror/Ubuntu-16.04/install/netboot/
+
+ubuntu-installer/amd64/linux
+
+Kernel Options                 : {}
+Kernel Options (Post Install)  : {}
+Kickstart Metadata             : {'tree': 'http://@@http_server@@/cblr/links/Ubuntu-
+16.04-x86_64'}
+Management Classes             : []
+OS Version                     : xenial
+Owners                         : ['admin']
+Red Hat Management Key         : <<inherit>>
+Red Hat Management Server      : <<inherit>>
+Template Files                 : {}
+
+This option displays all the distributions, and their profiles are currently imported into Cobbler.
+
+ ■ Note 
+
+ You may see more than one distribution and profile created from importing a distribution.
+
+Listing 19-3 shows our vanilla CentOS7-x86_64 distribution and the profile we created, CentOS7-x86_64.

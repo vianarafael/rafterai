@@ -1,0 +1,18 @@
+Like this example
+for cpu statistics.
+
+[paul@RHELv4u3 sa]$ sar -u | head
+Linux 2.6.9-34.EL (RHELv4u3.localdomain)        01/27/2007
+
+12:00:01 AM       CPU     %user     %nice   %system   %iowait    %idle
+12:10:01 AM       all      0.48      0.01      0.60      0.04    98.87
+12:20:01 AM       all      0.49      0.01      0.60      0.06    98.84
+12:30:01 AM       all      0.49      0.01      0.64      0.25    98.62
+12:40:02 AM       all      0.44      0.01      0.62      0.07    98.86
+12:50:01 AM       all      0.42      0.01      0.60      0.10    98.87
+01:00:01 AM       all      0.47      0.01      0.65      0.08    98.80
+01:10:01 AM       all      0.45      0.01      0.68      0.08    98.78
+[paul@RHELv4u3 sa]$
+
+There are other useful sar options, like sar -I PROC to display interrupt activity per interrupt
+and per CPU, or sar -r for memory related statistics.

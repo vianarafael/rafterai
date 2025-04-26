@@ -1,0 +1,17 @@
+[ OK ]
+
+You can achieve the same result on RHEL/Fedora with the service command.
+
+[root@RHEL4b ~]# service smb restart
+Shutting down SMB services:                                [  OK  ]
+Shutting down NMB services:                                [  OK  ]
+Starting SMB services:                                     [  OK  ]
+Starting NMB services:                                     [  OK  ]
+
+You might also want to take a look at chkconfig, update-rc.d.
+
+176
+
+init and runlevels
+
+15.4.

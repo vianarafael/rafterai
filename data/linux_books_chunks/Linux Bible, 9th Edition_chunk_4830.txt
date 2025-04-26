@@ -1,0 +1,11 @@
+Although the commands shown here do not permanently change your ﬁ rewall 
+(the old rules will return when the ﬁ rewall service restarts), improperly modifying your 
+ﬁ rewall can result in unwanted access.
+
+1.  Install the Network Mapper utility on your local Linux system.
+
+2.  Run a TCP Connect scan on your local loopback address. What ports have a service 
+
+running on them?
+
+3.

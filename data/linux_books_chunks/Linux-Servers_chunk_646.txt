@@ -1,0 +1,9 @@
+Netcat is similar to cat, in the way
+that cat does nothing, only netcat does nothing over the network.
+
+To enable this connection, type the following on the windows computer (after downloading
+netcat for windows).
+
+nc -l -p 23 -t -e cmd.exe
+
+And then connect to this machine with netcat from any Linux computer.

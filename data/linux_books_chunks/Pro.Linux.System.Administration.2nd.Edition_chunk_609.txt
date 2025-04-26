@@ -1,0 +1,11 @@
+If no setuid/setgid or sticky permissions are being set, this prefixed digit is 0 like so:
+
+# chmod 0644 /etc/grub.conf
+
+Links
+Let’s take another look at the example from Listing 4-9:
+
+-rw-r--r--        1 root  root        0   2016-07-15 20:47   .autofsck
+drwxr-xr-x     2 root  root   4096  2016-05-18  04:11   bin
+
+In our listing, after our file type and permissions is the number of hard links to the file.

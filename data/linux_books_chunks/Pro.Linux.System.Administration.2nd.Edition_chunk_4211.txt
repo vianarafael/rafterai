@@ -1,0 +1,7 @@
+We have two jobs scheduled 
+to run on October 11 at 23:05, one that backs up headoffice.example.com and one that backs up the catalog 
+(BackupCatalog). Take some time to explore bconsole a little more. For example, type help and then press 
+Enter to see a list of commands available to you on the command line. Table 14-4 lists the most useful 
+commands.
+
+Table 14-4.

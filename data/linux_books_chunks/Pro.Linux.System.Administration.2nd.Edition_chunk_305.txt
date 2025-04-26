@@ -1,0 +1,11 @@
+We just wouldn’t be able to run all three virtual machines at once if they were each to use their full 
+allocation of memory—or at least it would make the host machine crawl. In that case, we may be able to run 
+the hosts of 2gB and 4gB together though.
+
+76
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-3.  Memory allocation
+
+We are now asked if we wish to create a Hard disk.

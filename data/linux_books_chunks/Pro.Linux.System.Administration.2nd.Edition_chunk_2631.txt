@@ -1,0 +1,16 @@
+If we test the reverse resolution again, 
+
+we can see the problem has been fixed.
+
+$ host 192.168.0.1 localhost
+Using domain server:
+Name: localhost
+Address: 127.0.0.1#53
+Aliases:
+
+1.0.168.192.in-addr.arpa domain name pointer au-mel-ubuntu-1.example.com.
+1.0.168.192.in-addr.arpa domain name pointer mail.example.com.
+
+Security Considerations
+
+We’re now running the DNS server on the bastion host as both an authoritative and caching DNS server.

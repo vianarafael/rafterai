@@ -1,0 +1,10 @@
+The wa and sy columns in the cpu group tell 
+you the percentage of time the CPU is waiting for data to process system (or kernel) requests—and thus not 
+processing system instructions.
+
+806
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+If a host is spending most of its CPU cycles moving applications from and to swap space, the si and so 
+column values will be high.

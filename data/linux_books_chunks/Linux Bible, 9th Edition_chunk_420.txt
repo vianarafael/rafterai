@@ -1,0 +1,11 @@
+When you have typed enough 
+letters to uniquely identify the application you want, press Enter to launch the 
+application.
+
+ ■ Message tray—Reveals the bottom message tray. This tray lets you view 
+
+ notiﬁ cations and open removable media.
+
+ ■ Select an active window—Return to any of your workspaces (press the Windows 
+
+key if you are not already on an active workspace).

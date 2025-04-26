@@ -1,0 +1,5 @@
+The require section contains the different 
+
+types and classes we will require. Lastly, we have the lines that allow the smtpd daemon to connect and write 
+to the Unix sockets like /run/clamav-milter/clamav-milter.socket. We now have to compile the policy 
+package, which we load into the SELinux policy configuration.

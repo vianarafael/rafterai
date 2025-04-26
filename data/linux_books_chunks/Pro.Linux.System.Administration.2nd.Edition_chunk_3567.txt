@@ -1,0 +1,9 @@
+We need to copy the data between the (). For our Bind DNS, we can add this as a multiline 
+DNS record:
+
+201609._domainkey IN TXT ("v=DKIM1 ; k=rsa, s=email; "
+    "p= MIIBIjANBgkqhkiG ... "
+    "XvcvE+wt6Q ... jasfQIDAQAB")
+
+If you are using an external DNS provider, you may need to use multiline too (AWS Route53, for 
+example). It is best to consult any of the documentation on DKIM.

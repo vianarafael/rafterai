@@ -1,0 +1,3 @@
+It is triggered to occur 
+at either 06:00 or 18:00Hrs, with a 12-hour random window (RandomizedDelaySec), give or take an hour 
+(AccuracySec).

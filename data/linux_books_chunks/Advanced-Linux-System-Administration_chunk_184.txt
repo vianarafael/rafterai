@@ -1,0 +1,12 @@
+We will rather focus on the various LVM 
+components (as depicted in the diagram) and the commands needed to create these 
+components: pvcreate,vgcreate and lvcreate. 
+
+Example:
+
+Create a volume group called volumeA with three physical volumes ( 3 partitions in this 
+case) and create a logical volume called lv0  of size 150MB initially. 
+
+1. Run vgscan to create the /etc/lvmtab file
+
+2.

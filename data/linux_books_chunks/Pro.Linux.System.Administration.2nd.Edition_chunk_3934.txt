@@ -1,0 +1,12 @@
+We could also 
+create a security mechanism called a chroot jail on our remote hosts, but this will limit our ability to access 
+the rest of the host’s file systems.
+
+ For information on how to set up chroot jails, visit https://www.debian.org/doc/manuals/
+
+ ■ Tip 
+securing-debian-howto/ap-chroot-ssh-env.en.html.
+
+We could use passphrases with our keys and use a tool called key-chain to cache our passphrase for 
+our connection, but we would have to enter the passphrase each time we rebooted the host, which is not 
+ideal.

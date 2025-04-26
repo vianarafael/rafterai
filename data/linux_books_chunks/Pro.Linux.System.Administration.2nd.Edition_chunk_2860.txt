@@ -1,0 +1,6 @@
+These commands are a2enmod for enabling modules (creating the symlinks) and a2dismod for disabling 
+modules (removing the symlinks).
+
+To show how to use these commands, we will enable and disable the status module, a module that 
+
+allows us to see the current status of the web server.

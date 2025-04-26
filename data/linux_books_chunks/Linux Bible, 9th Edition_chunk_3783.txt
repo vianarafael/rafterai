@@ -1,0 +1,11 @@
+See 
+the section “Troubleshooting in Rescue Mode” later in this chapter for further 
+information.
+
+556
+
+c21.indd  04/01/2015  Page 557
+
+Chapter 21: Troubleshooting Linux
+
+ ■ Fresh install—Sometimes, the boot order has the hard disk listed ﬁ rst.

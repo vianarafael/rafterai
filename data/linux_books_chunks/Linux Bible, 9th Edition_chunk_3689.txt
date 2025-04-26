@@ -1,0 +1,3 @@
+Data is retransmitted twice (2) 
+before generating a timeout. The wait time is 2 minutes before retrying a failed transmis-
+sion.

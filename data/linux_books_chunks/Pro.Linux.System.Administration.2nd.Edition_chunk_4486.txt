@@ -1,0 +1,10 @@
+We 
+will explain these as we go through the chapter.
+
+Requirements
+Prior to configuring OpenLDAP we are going to set up a few requirements. We need to create a TLS 
+certificate and key and a DNS name entry.
+
+The first step is to create the DNS record. Authentication systems like LDAP are not normally exposed 
+
+to the public and if they are they can be subjected to external attacks.

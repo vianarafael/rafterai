@@ -1,0 +1,7 @@
+What happens if you run out of disk 
+space? In the old days, a common solution was to copy data to a bigger disk, restart the 
+system with the new disk, and hope that you didn’t run out of space again any time soon. 
+This process meant downtime and inefﬁ ciency.
+
+Logical volume management (LVM) offers lots of ﬂ exibility and efﬁ ciency in dealing with 
+constantly changing storage needs.

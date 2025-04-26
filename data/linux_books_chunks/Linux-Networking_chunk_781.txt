@@ -1,0 +1,12 @@
+samba howto
+
+Samba  comes  with  excellent  documentation  in  html  and  pdf  format  (and  also  as  a  free
+download from samba.org and it is for sale as a printed book).
+
+The documentation is a separate package, so install it if you want it on the server itself.
+
+[root@centos6 ~]# yum install samba-doc
+...
+[root@centos6 ~]# ls -l /usr/share/doc/samba-doc-3.5.10/
+total 10916
+drwxr-xr-x.

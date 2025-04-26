@@ -1,0 +1,12 @@
+For our Ubuntu host, we are going to install the zlib1g-dev and the libpcre3-dev, which 
+
+351
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+provide necessary compression and perl header files. There may be other packages you require depending 
+on the options you include at build time.
+
+$ sudo aptitude install -y zlib1g-dev libpcre3-dev
+
+If you specify --without-<option>, that option will be disabled.

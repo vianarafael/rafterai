@@ -1,0 +1,9 @@
+For example:
+
+#   chkconfig: 2345 25 10
+
+When you add the service script in a later step, the chkconfig command reads that line to 
+set runlevels at which the service starts (2, 3, 4, and 5), its run order when the script is set 
+to start (25), and its kill order when it is set to stop (10).
+
+Check the boot order in the default runlevel before adding your own script.

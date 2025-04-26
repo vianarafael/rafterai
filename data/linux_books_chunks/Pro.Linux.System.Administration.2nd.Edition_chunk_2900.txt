@@ -1,0 +1,4 @@
+This name will be displayed to users when they are asked for credentials, as 
+shown in Figure 11-1, so it helps to make this name fairly descriptive.
+
+Finally, Apache needs to be told that access must be granted only if a user successfully authenticates.

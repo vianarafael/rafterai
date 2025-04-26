@@ -1,0 +1,7 @@
+You can use dd to copy the mbr to a file.
+
+This example copies the master boot record from the first SCSI hard disk.
+
+dd if=/dev/sda of=/SCSIdisk.mbr bs=512 count=1
+
+The same tool can also be used to wipe out all information about partitions on a disk.

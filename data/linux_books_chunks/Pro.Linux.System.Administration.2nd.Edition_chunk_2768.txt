@@ -1,0 +1,2 @@
+We’ll generate a key pair to use for ataylor on the gateway host 
+via ssh-keygen -t rsa -s 2048 -f .ssh/gateway-ataylor.

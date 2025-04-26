@@ -1,0 +1,11 @@
+A couple of different packages are available for Ubuntu, so review the ClamAV website information before 
+you choose a package.
+
+618
+
+c22.indd  04/15/2015  Page 619
+
+Chapter 22: Understanding Basic Linux Security 
+
+Monitoring for rootkits
+A rootkit is a little more insidious than a virus.

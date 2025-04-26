@@ -1,0 +1,4 @@
+This allows you to launch an installation from a boot medium that  contains 
+only a kernel and initial RAM disk. From the kickstart ﬁ le or from an option you 
+enter manually to the installer, you can identify the location of the repository 
+ holding the RPM software packages.

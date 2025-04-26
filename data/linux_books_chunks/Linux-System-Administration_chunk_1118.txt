@@ -1,0 +1,21 @@
+To avoid having to type this passphrase every time, you can add the key
+to ssh-agent using ssh-add.
+
+Most Linux distributions will start the ssh-agent automatically when you log on.
+
+root@ubu1204~# ps -ef | grep ssh-agent
+paul     2405  2365  0 08:13 ?        00:00:00 /usr/bin/ssh-agent...
+
+This clipped screenshot shows how to use ssh-add to list the keys that are currently added
+to the ssh-agent
+
+paul@debian5:~$ ssh-add -L
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvgI+Vx5UrIsusZPl8da8URHGsxG7yivv3/\
+...
+wMGqa48Kelwom8TGb4Sgcwpp/VO/ldA5m+BGCw== paul@deb503
+
+304
+
+ssh client and server
+
+25.11.

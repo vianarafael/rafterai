@@ -1,0 +1,7 @@
+In fact, the term 
+anonymous FTP server is often used to describe a public FTP server that does not require (or 
+even allow) authentication of a legitimate user account.
+
+Although the ability to log in to the vsftpd server using a regular Linux user account is enabled by default in Fedora 
+and Red Hat Enterprise Linux, if SELinux is set to Enforcing mode, it prevents the logins and fi le transfers from 
+succeeding.

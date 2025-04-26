@@ -1,0 +1,6 @@
+2 joe joe 4096 Dec 18 13:38 Stuff
+
+As you look at the long listing, notice that the ﬁ rst character of each line shows the 
+type of ﬁ le. A hyphen (-) indicates a regular ﬁ le, d indicates a directory, and l ( lowercase 
+L) indicates a symbolic link. An executable ﬁ le (a script or binary ﬁ le that runs as a 
+command) has execute bits turned on (x).

@@ -1,0 +1,8 @@
+It wasn’t until about 1992, 
+when the lab was spun off as a joint venture with Novell (called Univel), and then 
+eventually sold to Novell, that a commercial boxed set of UNIX (called UnixWare) 
+was produced directly from that source code.
+
+ ■ Published interfaces—To create an environment of fairness and community to 
+its OEMs (original equipment manufacturers), AT&T began standardizing what 
+different ports of UNIX had to be able to do to still be called UNIX.

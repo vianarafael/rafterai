@@ -1,0 +1,5 @@
+if you are just using it for fun and experimenting, 
+you can be less strict with how you secure it.
+
+in this example we have created a Ca on the same host we are using for a web server. this is not really 
+ideal in the real world, and having a dedicated host for this activity is preferable.

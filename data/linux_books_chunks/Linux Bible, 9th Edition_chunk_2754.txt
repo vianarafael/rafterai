@@ -1,0 +1,6 @@
+Therefore, typing init 3 at the command line really issues the command 
+ systemctl isolate multi-user.target. Also, you can still use the runlevel 
+ command to determine the current legacy runlevel, but it is strongly discouraged.
+
+The classic SysVinit /etc/inittab handled spawning the getty or mingetty processes. 
+The systemd init handles this via the getty.target unit.

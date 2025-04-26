@@ -1,0 +1,4 @@
+Nonroot users are required to 
+try a different password if the one they have chosen is not a good password.
+
+The root user is the only user who is permitted to assign bad passwords.

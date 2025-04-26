@@ -1,0 +1,13 @@
+About 70 different licenses are accepted by OSI to 
+be used to label software as “OSI Certiﬁ ed Open Source Software.” In addition to the GPL, 
+other popular OSI-approved licenses include:
+
+ ■ LGPL—The GNU Lesser General Public License (LGPL) is often used for distributing 
+
+libraries that other application programs depend upon.
+
+ ■ BSD—The Berkeley Software Distribution License allows redistribution of source 
+
+code, with the requirement that the source code keep the BSD copyright notice and 
+not use the names of contributors to endorse or promote derived software without 
+written permission.

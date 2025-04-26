@@ -1,0 +1,7 @@
+This will not take any effect until we bring that interface up again.
+
+We can add a http service to the zone labelled dmz. We do that with the following:
+
+$ sudo firewall-cmd --zone=dmz --add-service=https --permanent
+
+If we are going to make a change permanent we need to remember to add the --permanent option.

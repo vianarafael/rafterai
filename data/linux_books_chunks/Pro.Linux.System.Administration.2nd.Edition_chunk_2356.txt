@@ -1,0 +1,5 @@
+LVM can do these 
+for you and we will show you how shortly.
+
+The volume can be expanded using the lvextend command. You need to specify either the new total 
+size or the size increase you want, and the name of the volume.

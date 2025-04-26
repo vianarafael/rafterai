@@ -1,0 +1,10 @@
+By adding these options in the client 
+configuration file, we don’t need to keep specifying the port number and login name on the command line.
+
+467
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Similarly, we can tell the client to use a different private key file when connecting to a remote host, by 
+
+adding it using the IdentityFile directive.

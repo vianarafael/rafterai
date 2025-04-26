@@ -1,0 +1,9 @@
+The slapd package installs the necessary files to run and configure your LDAP directory.
+
+The client configuration packages are auth-client-config (PAM and NSS profile switcher) and ldap-
+
+auth-client (metapackage for LDAP authentication along with ldap-auth-config). You may want to install 
+these too.
+
+Configuration
+We are going to show you how to configure an LDAP directory service.

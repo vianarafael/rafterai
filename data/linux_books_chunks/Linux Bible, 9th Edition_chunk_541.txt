@@ -1,0 +1,13 @@
+Also, add an extensions section anywhere in the ﬁ le (typically at the end 
+of the ﬁ le) that appears as follows:
+
+Section "extensions"
+ Option "Composite"
+EndSection
+
+Another option is to add the following line to the /etc/X11/xorg.conf ﬁ le in the 
+Device section:
+
+Option "XAANoOffscreenPixmaps"
+
+The XAANoOffscreenPixmaps option improves performance.

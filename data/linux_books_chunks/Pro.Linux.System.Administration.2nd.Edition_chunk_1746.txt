@@ -1,0 +1,26 @@
+adsl-enp0s3 File on CentOS
+
+$ sudo cat /etc/NetworkManager/system-connections/adsl-enp0s8
+[connection]
+id=adsl-enp0s8
+uuid=ae7bc50a-c4d5-448a-8331-4a6f41c156c5
+type=adsl
+interface-name=enp0s8
+permissions=
+secondaries=
+
+[adsl]
+encapsulation=llc
+password=psswd
+protocol=pppoa
+username=ourname
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+dns-search=
+method=auto
+
+This file is broken down into sections, [connection], [adsl], [ipv4] and [ipv6].

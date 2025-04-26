@@ -1,0 +1,6 @@
+Double-click your computer in the Search window results 
+panel. A window displaying the shared printers and folders from your computer appears.
+
+After your shared printer appears in the window, conﬁ gure a pointer to that printer by 
+opening (double-clicking) the printer icon. A message tells you that you must set up the 
+printer before you can use it.

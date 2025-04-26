@@ -1,0 +1,20 @@
+To temporarily disable SELinux, type the following, and then try to access the 
+
+site again:
+
+# setenforce 0
+
+819
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 820
+
+Appendix B: Exercise Answers
+
+c.

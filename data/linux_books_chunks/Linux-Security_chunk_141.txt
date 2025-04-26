@@ -1,0 +1,12 @@
+this should fail.
+(Details on adding user accounts are explained in the next chapter.)
+
+laura@debian7:~$ useradd valentina
+-su: useradd: command not found
+laura@debian7:~$ /usr/sbin/useradd valentina
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+
+It is possible that useradd is located in /sbin/useradd on your computer.
+
+8.

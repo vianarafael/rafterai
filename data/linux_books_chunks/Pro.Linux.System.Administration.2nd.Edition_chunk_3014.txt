@@ -1,0 +1,5 @@
+WordPress admin console
+
+Securing Your Web Services with SSL/TLS Certificates
+It is almost considered mandatory to have secured web services. There are many reasons to secure your web 
+services and few to keep them unsecured.

@@ -1,0 +1,4 @@
+So the fact that all of /usr may be on a separate hard disk or that 
+/mnt/remote1 is a fi lesystem from another computer is invisible to the user.
+
+ ■ Slashes, rather than backslashes, are used to separate directory names in Linux.

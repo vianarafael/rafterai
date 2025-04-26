@@ -1,0 +1,40 @@
+Consider the following example:
+
+8
+
+# lsmod
+Module                  Size  Used by
+vfat                   17411  1 
+fat                    65059  1 vfat
+uas                    23208  0 
+usb_storage            65065  2 uas
+fuse                   91446  3 
+ipt_MASQUERADE         12880  3 
+xt_CHECKSUM            12549  1 
+nfsv3                  39043  1 
+rpcsec_gss_krb5        31477  0 
+nfsv4                 466956  0 
+dns_resolver           13096  1 nfsv4
+nfs                   233966  3 nfsv3,nfsv4
+.
+.
+.
+i2c_algo_bit           13257  1 nouveau
+drm_kms_helper         58041  1 nouveau
+ttm                    80772  1 nouveau
+drm                   291361  7 ttm,drm_kms_helper,nouveau
+ata_generic            12923  0 
+pata_acpi              13053  0 
+e1000                 137260  0 
+i2c_core               55486  5 drm,i2c_i801,drm_kms_helper
+
+This output shows a variety of modules that have been loaded on a Linux system, including 
+one for a network interface card (e1000).
+
+197
+
+c08.indd  04/01/2015  Page 198
+
+Part III: Becoming a Linux System Administrator 
+
+To ﬁ nd information about any of the loaded modules, use the modinfo command.

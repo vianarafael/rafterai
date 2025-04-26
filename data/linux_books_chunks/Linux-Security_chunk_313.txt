@@ -1,0 +1,17 @@
+getfacl
+
+Reading acls can be done with /usr/bin/getfacl. This screenshot shows how to read the acl
+of file33 with getfacl.
+
+paul@laika:~/test$ getfacl file33
+# file: file33
+# owner: paul
+# group: paul
+user::rw-
+group::r--
+mask::rwx
+other::r--
+
+8.3. setfacl
+
+Writing or changing acls can be done with /usr/bin/setfacl.

@@ -1,0 +1,6 @@
+# rpi-otp-private-key
+
+
+- Read the OTP private key:
+
+`rpi-otp-private-key`

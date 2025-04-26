@@ -1,0 +1,7 @@
+Metacharacters can help you match one or more ﬁ les 
+without completely typing each ﬁ le name. Operators enable you to direct information from 
+one command or ﬁ le to another command or ﬁ le.
+
+Using fi le-matching metacharacters
+To save you some keystrokes and to enable you to refer easily to a group of ﬁ les, the bash 
+shell lets you use metacharacters.

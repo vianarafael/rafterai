@@ -1,0 +1,7 @@
+You learned how 
+deploying Linux in cloud environments can differ from traditional installation methods by 
+combining metadata with prebuilt base operating system image ﬁ les to run on large pools 
+of compute resources.
+
+The chapter also covered special installation topics, including using boot options and disk 
+partitioning.

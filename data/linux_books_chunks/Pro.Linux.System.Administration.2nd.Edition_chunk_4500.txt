@@ -1,0 +1,9 @@
+We can have many of these 
+statements in the one file, and we separate each with - on a new line.
+
+Then in Listing 16-1 we have the list of global directive DNs that are in the cn=config global 
+
+configuration DIT. You can see that the global DIT is comprised of the root cn=config, and then the DNs are 
+nested under that, like in Figure 16-3.
+
+Figure 16-3.

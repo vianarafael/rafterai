@@ -1,0 +1,4 @@
+However, a potential 
+vulnerability has been discovered. A key pair set is generated using two prime random numbers. The idea is that no 
+two key pairs would be identical. Security researchers have discovered that the random numbers generated are not 
+that random. Thus, there is the potential to have the same key pair as someone else on the Internet.

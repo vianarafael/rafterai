@@ -1,0 +1,4 @@
+To see if the ﬁ rewall service is running, type sudo ufw 
+ status at the command line. The ufw service is an interface to the iptables 
+utility that does not run as a service on Ubuntu. You can use ufw commands to 
+manipulate ﬁ rewall rules.

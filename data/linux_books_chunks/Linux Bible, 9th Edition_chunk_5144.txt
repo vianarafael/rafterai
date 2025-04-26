@@ -1,0 +1,7 @@
+Open the Home folder from the GNOME 2 desktop (double-click).
+
+b. Right-click in the Nautilus title bar that appears, and select either Move 
+to Workspace Right or Move to Another Workspace (you can select which 
+ workspace you want from the list).
+
+5.

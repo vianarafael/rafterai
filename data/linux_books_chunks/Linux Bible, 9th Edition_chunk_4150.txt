@@ -1,0 +1,27 @@
+You can use the same mount 
+options with the /var partition as you do for /home:
+
+ ■ nosuid
+
+ ■ nodev
+
+ ■ noexec
+
+606
+
+c22.indd  04/15/2015  Page 607
+
+Chapter 22: Understanding Basic Linux Security 
+
+Putting the preceding into your /etc/fstab would look similar to the following:
+
+/dev/sdb1    /home   ext4    nodev,noexec,nosuid   1 2
+/dev/sdc1    /tmp    ext4    nodev,noexec,nosuid   1 1
+/dev/sdb2    /usr    ext4    nodev                 1 2
+/dev/sdb3    /var    ext4    nodev,noexec,nosuid   1 2
+
+These mount options will help to further lock down your ﬁ lesystem and add another layer 
+of protection from those with malicious intent.
+
+Again, managing the various ﬁ le permissions and fstab options should be part of your 
+security policy.

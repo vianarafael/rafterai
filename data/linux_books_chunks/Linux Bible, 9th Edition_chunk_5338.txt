@@ -1,0 +1,12 @@
+To start the Very Secure FTP Daemon service and set it to start when the system 
+boots, type the following on a Fedora or Red Hat Enterprise Linux 7 system:
+
+# systemctl start vsftpd.service
+# systemctl enable vsftpd.service
+
+On a Red Hat Enterprise Linux 6 system, type the following:
+
+# service vsftpd start
+# chkconfig vsftpd on
+
+4.

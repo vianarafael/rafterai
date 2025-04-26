@@ -1,0 +1,7 @@
+This leads us to the next stage of our Postfix 
+configuration: authentication.
+
+In its default configuration, your Postfix server will accept e-mail only from clients in its trusted 
+
+networks as defined in the mynetworks configuration option, in our case, the 192.168.0.0/24 and 
+192.168.1.0/24 networks. This prevents inappropriate users from using our e-mail server.

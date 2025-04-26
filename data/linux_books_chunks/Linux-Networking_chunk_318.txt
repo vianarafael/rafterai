@@ -1,0 +1,10 @@
+Verify  that  the  permissions  on  the  server  key  files  are  correct;  world  readable  for  the
+public keys and only root access for the private keys.
+
+ls -l /etc/ssh/ssh_host_*
+
+10. Verify that the ssh-agent is running.
+
+ps fax | grep ssh-agent
+
+11.

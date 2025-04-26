@@ -1,0 +1,2 @@
+Modules are loaded into your ﬁ rewall from the 
+/etc/sysconfig/iptables-config ﬁ le.

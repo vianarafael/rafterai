@@ -1,0 +1,12 @@
+For example, 
+
+222
+
+c09.indd  04/01/2015  Page 223
+
+Chapter 9: Installing Linux
+
+the DOS fdisk knows how to create partitions that DOS will like, and the Linux 
+fdisk will happily make your Linux partitions. After your hard disk is set up for 
+dual boot, however, you should probably not go back to Windows-only partitioning 
+tools.

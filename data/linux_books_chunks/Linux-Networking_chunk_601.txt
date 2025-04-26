@@ -1,0 +1,13 @@
+Create a slave of your primary zone (on another server) and verify the zone transfer.
+
+This is literally explained in the theory.
+
+6. Set up two primary zones on two servers and implement a conditional forwarder (you
+can use the two servers from before).
+
+A conditional forwarder is set in named.conf.local as a zone.
+(see the theory on forwarder)
+
+145
+
+Chapter 11.

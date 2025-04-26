@@ -1,0 +1,6 @@
+Or use the open source 
+alternative GParted.
+
+After you have cleared enough disk space to install Linux (see the disk space requirements 
+described earlier in this chapter), you can install Ubuntu, Fedora, RHEL, or another Linux 
+distribution.

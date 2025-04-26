@@ -1,0 +1,36 @@
+The mkinitrd script
+
+28
+
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+The following are methods used in the mkinitrd script to determine critical information 
+about the root device and filesystem.
+
+-The root filesystem type:
+
+Using /etc/fstab the script determines which filesystem is used on the root device and 
+the corresponding module (for example ext3 or xfs).
+
+-Software RAID:
+
+Using /etc/raidtab the mkinitrd script deduces the names of the raid arrays to start all 
+the devices (even non root).
+
+-LVM root device  
+
+Once the root device $rootdev is determined in /etc/fstab the major number is 
+obtained from the following line: 
+
+root_major=$(/bin/ls -l $rootdev | awk '{ print $5 }')
+
+If this corresponds to a logical volume, the logical volume commands are copied onto the 
+ram disk.
+
+The mkinitrd script will transfer all the required tools and modules to a file mounted as a 
+loop device on a temporary directory.

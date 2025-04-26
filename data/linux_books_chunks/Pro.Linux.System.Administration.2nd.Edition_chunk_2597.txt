@@ -1,0 +1,6 @@
+The format is a 
+ten-digit string and it can be generated with the following command: $ date +%s. For another alternative, 
+you can use a simple incrementing number as the serial number. The at symbol (@) in front of the SOA 
+evaluates to the name of the current zone. We could have also typed example.com. in its place.
+
+The TTL for the zone can vary greatly.

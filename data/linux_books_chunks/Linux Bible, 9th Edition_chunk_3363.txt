@@ -1,0 +1,11 @@
+If 
+your server is accessible, you should see something similar to the example shown in Figure 18.2.
+
+FIGURE 18.2
+
+Accessing an FTP server from Firefox
+
+18
+
+To log in to an FTP server as a particular user from Firefox, you can precede the host name 
+with a username:password@ notation.

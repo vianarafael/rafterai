@@ -1,0 +1,19 @@
+This 
+ability is useful for three reasons:
+
+•	
+
+•	
+
+•	
+
+It increases security.
+
+It allows greater control of privileged commands.
+
+It provides you with a better audit trail to understand who did what on your host.
+
+ another good reason to use sudo rather than the root user on Ubuntu is that Ubuntu doesn’t enable 
+
+ ■ Note 
+the root user by default.

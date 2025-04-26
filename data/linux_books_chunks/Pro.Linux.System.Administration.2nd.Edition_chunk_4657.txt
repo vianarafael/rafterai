@@ -1,0 +1,4 @@
+We specify the dc attribute as we are directed to use, indicated by the MUST clause in the object definition. 
+Remember, this is an AUXILLARY object class and cannot be used to create an entry. We need a STRUCTUAL 
+object class, and organization is such a class. It requires the o attribute for organization. We will add this 
+entry when we add our users in the next section.

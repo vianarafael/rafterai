@@ -1,0 +1,15 @@
+This  Debian  4.0  Etch  is
+running inetd.
+
+root@barry:~# ps fax | grep inet
+ 3870 ?        Ss     0:00 /usr/sbin/inetd
+
+This Red Hat Enterprise Linux 4 update 4 is running xinetd.
+
+[root@RHEL4b ~]# ps fax | grep inet
+ 3003 ?        Ss     0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+
+Both daemons have the same functionality (listening to many ports, starting other daemons
+when they are needed), but they have different configuration files.
+
+7.4.3.

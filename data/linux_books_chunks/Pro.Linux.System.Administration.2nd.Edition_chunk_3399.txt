@@ -1,0 +1,15 @@
+In this scenario, our server can be the 
+final destination for example.com, example.net, example.id, or any other kind of registered domain name 
+with an MX record pointing at our mail server.
+
+559
+
+Chapter 12 ■ Mail ServiCeS
+
+We can do this via the mydestination setting in the main.cf file.
+
+mydestination = mail.example.com example.net example.id example.com
+
+This means that mail for ataylor@example.com will need a local ataylor Linux user account, and that 
+address will be delivered to the same mailbox for ataylor@example.com, ataylor@example.net, and ataylor@
+example.id.

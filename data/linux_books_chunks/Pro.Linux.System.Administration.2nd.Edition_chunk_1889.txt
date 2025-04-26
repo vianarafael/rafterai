@@ -1,0 +1,6 @@
+They will have 
+newer patches of code or newer features that you may require, but they will be more edgy and could contain 
+bugs and problems. These upstream RPMs will often be available on an application’s web site.
+
+ ■ Caution  Upstream RPMs files can be built by anyone. they may not be stable, secure, or regularly 
+maintained.

@@ -1,0 +1,18 @@
+This is the %post section 
+from our sample.ks configuration file:
+
+%post
+$SNIPPET('post_install_kernel_options')
+$SNIPPET('post_install_network_config')
+%end
+
+Here we’ve specified two postrun Cobbler snippets that configure kernel and network options.
+This postrun scripting space is useful to run any required setup applications or scripts.
+
+933
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Preseed
+
+Preseed is the Debian installation automation tool.

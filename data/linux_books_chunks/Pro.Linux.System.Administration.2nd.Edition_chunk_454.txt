@@ -1,0 +1,1 @@
+Let’s try one of these now. We start by running the whoami command again.

@@ -1,0 +1,20 @@
+Using Facts
+
+class sudo {
+     package { sudo:
+         ensure => 'present',
+     }
+
+   file { '/etc/sudoers':
+            source => [
+              "puppet:///modules/sudo/sudo_${hostname}",
+              "puppet:///modules/sudo/sudo_${os['family']}",
+              'puppet:///modules/sudo/sudo_default'
+          ]
+          owner => 'root',
+          group => 'root',
+          mode => '0440',
+    }
+}
+
+Here we are defining a class that provides sudo.

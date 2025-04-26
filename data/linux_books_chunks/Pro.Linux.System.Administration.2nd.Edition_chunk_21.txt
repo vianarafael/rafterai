@@ -1,0 +1,4 @@
+You are probably thinking, “If they 
+are all ‘Linux,’ why are there so many different names, and which do I choose?” You may have heard names 
+like Red Hat, Fedora, Debian, and the more oddly titled Ubuntu (it’s a Zulu word that loosely translates as 
+“humanity toward others”!).

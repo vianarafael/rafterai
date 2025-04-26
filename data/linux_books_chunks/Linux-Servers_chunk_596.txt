@@ -1,0 +1,15 @@
+long lines in smb.conf
+
+Some parameters in smb.conf can get a long list of values behind them. You can continue a
+line (for clarity) on the next by ending the line with a backslash.
+
+valid users = Serena, Venus, Lindsay \
+
+146
+
+getting started with samba
+
+              Kim, Justine, Sabine \
+              Amelie, Marie, Suzanne
+
+10.1.6.

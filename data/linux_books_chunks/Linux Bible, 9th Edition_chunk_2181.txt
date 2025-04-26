@@ -1,0 +1,6 @@
+See the mount command manual page (under 
+the -o option) for information on other supported options.
+
+12
+
+Typically, only the root user is allowed to mount a fi lesystem using the mount command.

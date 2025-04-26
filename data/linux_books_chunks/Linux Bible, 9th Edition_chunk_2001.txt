@@ -1,0 +1,6 @@
+With authconfig, you can enable 
+different types of authentication mechanisms (such as Smart Card, ﬁ ngerprint readers, and 
+Kerberos authentication).
+
+Authentication domains that are supported via the Users window include LDAP, NIS, and 
+Windows Active Directory.

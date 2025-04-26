@@ -1,0 +1,3 @@
+With the --agree-tos option, we agree to the terms 
+of service. The –n option is for noninteractive, which is good for scripting. We then provide the registration 
+contact (-m) and the hostname we want to register (-d).

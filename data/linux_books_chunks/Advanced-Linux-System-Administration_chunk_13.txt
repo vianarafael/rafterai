@@ -1,0 +1,5 @@
+A "Transparent" copy of the Document means a machine-readable copy, represented in a format whose 
+specification is available to the general public, that is suitable for revising the document straightforwardly with 
+generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely 
+available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of 
+formats suitable for input to text formatters.

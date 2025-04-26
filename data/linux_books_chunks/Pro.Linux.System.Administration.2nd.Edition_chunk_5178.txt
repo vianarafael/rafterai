@@ -1,0 +1,11 @@
+The combination of input, codec, filter, and output creates a pipeline.
+
+For a deeper discussion into how Logstash works, see here:
+
+•	
+
+https://www.elastic.co/guide/en/logstash/current/pipeline.html
+
+Installing and Configuring Beats
+
+Let’s take a look now at the first step of the path of our logs.

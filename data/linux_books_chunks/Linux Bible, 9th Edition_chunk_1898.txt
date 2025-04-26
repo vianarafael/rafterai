@@ -1,0 +1,3 @@
+(Fedora starts 
+at UID 1000; earlier systems started with UID 100.) A comment section that explains that 
+keyword’s purpose precedes each keyword (which I edited out here to save space).

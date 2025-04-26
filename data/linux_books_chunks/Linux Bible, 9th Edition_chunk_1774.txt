@@ -1,0 +1,11 @@
+You could start by using the search subcommand to look for the term 
+“editor” in the name or description:
+
+# yum search editor
+...
+eclipse-veditor.noarch : Eclipse-based Verilog/VHDL plugin
+ed.x86_64 : The GNU line editor
+emacs.x86_64 : GNU Emacs text editor
+
+The search uncovered a long list of packages containing “editor” in the name or  description. 
+The one I was looking for is named emacs.

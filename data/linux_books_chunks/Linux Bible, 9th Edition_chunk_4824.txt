@@ -1,0 +1,5 @@
+These audits assist in determin-
+ing what ﬁ rewall modiﬁ cations are needed.
+
+For needed network services, access control must be implemented. TCP wrappers can assist 
+in this activity.

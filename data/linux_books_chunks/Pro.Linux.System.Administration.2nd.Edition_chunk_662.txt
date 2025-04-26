@@ -1,0 +1,5 @@
+The first option, -type, specifies the type of file 
+
+we are searching for; in this case, a normal file is represented by f. You can also specify d for directories or s 
+for sockets (special files for interprocess communications), for example (see the man page for all the possible 
+types you can search for).

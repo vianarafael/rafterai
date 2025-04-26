@@ -1,0 +1,6 @@
+You need the exact 
+selections you chose the next time you remount the folder.
+
+To verify that the encrypted directory is now mounted, you can use the mount command again. 
+In the example that follows, the mount command is used and then piped into grep to search 
+for the /home/johndoe/Secret directory.

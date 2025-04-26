@@ -1,0 +1,58 @@
+Consider the following sections from the /etc/services ﬁ le:
+
+$ cat /etc/services
+# /etc/services:
+# $Id: services,v 1.55 2013/04/14 ovasik Exp $
+#
+# Network services, Internet style
+# IANA services version: last updated 2013-04-10
+#
+
+699
+
+c25.indd  04/02/2015  Page 700
+
+Part V: Learning Linux Security Techniques
+
+# Note that it is presently the policy of IANA to assign ...
+# Each line describes one service, and is of the form:
+#
+# service-name  port/protocol  [aliases ...]   [# comment]
+...
+echo            7/tcp
+echo            7/udp
+discard         9/tcp           sink null
+discard         9/udp           sink null
+systat          11/tcp          users
+systat          11/udp          users
+daytime         13/tcp
+daytime         13/udp
+qotd            17/tcp          quote
+qotd            17/udp          quote
+...
+chargen         19/tcp          ttytst source
+chargen         19/udp          ttytst source
+ftp-data        20/tcp
+ftp-data        20/udp
+# 21 is registered to ftp, but also used by fsp
+ftp             21/tcp
+...
+http            80/tcp      www www-http    # WorldWideWeb HTTP
+http            80/udp      www www-http    #  HyperText Transfer 
+
+http            80/sctp                     #  HyperText Transfer 
+
+Protocol
+
+Protocol
+
+kerberos        88/tcp      kerberos5 krb5  # Kerberos v5
+kerberos        88/udp      kerberos5 krb5  # Kerberos v5
+...
+blp5            48129/udp           # Bloomberg locator
+com-bardac-dw   48556/tcp           # com-bardac-dw
+com-bardac-dw   48556/udp           # com-bardac-dw
+iqobject        48619/tcp               # iqobject
+iqobject        48619/udp               # iqobject
+
+After the comment lines, notice three columns of information.

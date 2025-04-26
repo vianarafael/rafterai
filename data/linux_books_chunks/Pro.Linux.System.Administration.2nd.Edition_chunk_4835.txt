@@ -1,0 +1,9 @@
+The L key toggles the display 
+of the load average line. You can toggle the task summary via the T key and memory information via M.
+
+The rest of the display consists of several columns of information about running processes and threads. 
+
+The columns you see here are shown by default, but you can enable or disable others as well. We’ve listed 
+their headers and meaning in Table 17-1.
+
+Table 17-1.

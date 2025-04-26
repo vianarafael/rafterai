@@ -1,0 +1,52 @@
+It is also available online at ftp://
+ftp.redhat.com/pub/redhat/linux/enterprise/5Server/en/os/SRPMS/ (example for RHEL5).
+
+To download the kernel source on RHEL, use this long wget command (on one line, without
+the trailing \).
+
+wget ftp://ftp.redhat.com/pub/redhat/linux/enterprise/5Server/en/os/\
+SRPMS/kernel-`uname -r`.src.rpm
+
+When the wget download is finished, you end up with a 60M .rpm file.
+
+[root@RHEL52 src]# ll
+total 60M
+-rw-r--r-- 1 root root  60M Dec  5 20:54 kernel-2.6.18-92.1.17.el5.src.rpm
+drwxr-xr-x 5 root root 4.0K Dec  5 19:23 kernels
+drwxr-xr-x 7 root root 4.0K Oct 11 13:22 redhat
+
+We will need to perform some more steps before this can be used as kernel source code.
+
+First, we issue the rpm -i kernel-2.6.9-42.EL.src.rpm command to install this Red Hat
+package.
+
+[root@RHEL52 src]# ll
+total 60M
+-rw-r--r-- 1 root root  60M Dec  5 20:54 kernel-2.6.18-92.1.17.el5.src.rpm
+drwxr-xr-x 5 root root 4.0K Dec  5 19:23 kernels
+drwxr-xr-x 7 root root 4.0K Oct 11 13:22 redhat
+[root@RHEL52 src]# rpm -i kernel-2.6.18-92.1.17.el5.src.rpm
+
+Then we move to the SPECS directory and perform an rpmbuild.
+
+[root@RHEL52 ~]# cd /usr/src/redhat/SPECS
+[root@RHEL52 SPECS]# rpmbuild -bp -vv --target=i686 kernel-2.6.spec
+
+The rpmbuild command put the RHEL Linux kernel source code in /usr/src/redhat/BUILD/
+kernel-<version>/.
+
+[root@RHEL52 kernel-2.6.18]# pwd
+/usr/src/redhat/BUILD/kernel-2.6.18
+[root@RHEL52 kernel-2.6.18]# ll
+total 20K
+drwxr-xr-x  2 root root 4.0K Dec  6  2007 config
+-rw-r--r--  1 root root 3.1K Dec  5 20:58 Config.mk
+drwxr-xr-x 20 root root 4.0K Dec  5 20:58 linux-2.6.18.i686
+drwxr-xr-x 19 root root 4.0K Sep 20  2006 vanilla
+drwxr-xr-x  8 root root 4.0K Dec  6  2007 xen
+
+332
+
+the Linux kernel
+
+28.3.

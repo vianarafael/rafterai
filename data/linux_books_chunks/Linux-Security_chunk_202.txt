@@ -1,0 +1,16 @@
+Verify
+the locking in /etc/shadow before and after you lock it.
+
+root@debian7:~# passwd venus
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+root@debian7:~# grep venus /etc/shadow | cut -c1-70
+venus:$6$gswzXICW$uSnKFV1kFKZmTPaMVS4AvNA/KO27OxN0v5LHdV9ed0gTyXrjUeM/
+root@debian7:~# usermod -L venus
+root@debian7:~# grep venus /etc/shadow | cut -c1-70
+venus:!$6$gswzXICW$uSnKFV1kFKZmTPaMVS4AvNA/KO27OxN0v5LHdV9ed0gTyXrjUeM
+
+Note that usermod -L precedes the password hash with an exclamation mark (!).
+
+3.

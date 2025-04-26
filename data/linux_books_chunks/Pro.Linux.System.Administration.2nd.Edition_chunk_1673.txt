@@ -1,0 +1,15 @@
+We then use the post-down command to save our rules 
+once our interface has come down.
+
+If you are using ufw on your Ubuntu host, you can use the systemctl command to stop and start ufw:
+
+$ sudo systemctl start|stop|restart ufw
+
+278
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Here the systemctl is used to manage the ufw service.
+On CentOS machines, since it follows closely with Red Hat, the usual tools to manage the iptables needs 
+
+to be installed (if you don’t already have them installed).

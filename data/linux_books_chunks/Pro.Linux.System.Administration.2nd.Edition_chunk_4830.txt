@@ -1,0 +1,16 @@
+Generally speaking, a 
+system won’t slow down when a disk becomes full, but services may crash and cause your users grief, so it 
+pays to keep an eye on usage and make more storage available when needed.
+We’ll show you how to check for disk speed problems in the next section.
+
+ ■ Note 
+
+ We covered the df and du tools for checking available and used disk space in Chapter 9.
+
+801
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Logs
+Finally, if something untoward has occurred with an application or the kernel, you’ll likely find a log entry in 
+your system or kernel log.

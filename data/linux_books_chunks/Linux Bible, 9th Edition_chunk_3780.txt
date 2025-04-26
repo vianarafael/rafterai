@@ -1,0 +1,6 @@
+If no boot loader is 
+located, the BIOS moves on to the next device, until all are tried. If no boot loader is found, 
+the computer fails to boot.
+
+One problem that could occur with the boot order is that the device you want to boot may 
+not appear in the boot order at all.

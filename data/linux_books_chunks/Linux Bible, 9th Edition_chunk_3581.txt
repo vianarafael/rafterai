@@ -1,0 +1,21 @@
+The 
+ showmount man page describes how to use the showmount command to see what shared 
+directories are available from NFS servers.
+
+2020
+
+529
+
+c20.indd  04/01/2015  Page 530
+
+Part IV: Becoming a Linux Server Administrator
+
+To ﬁ nd out more about the nfs-utils package, you can run the following commands to 
+see information about the package, conﬁ guration ﬁ les, and commands, respectively:
+
+# rpm -qi nfs-utils
+# rpm -qc nfs-utils
+# rpm -ql nfs-utils | grep bin
+
+Starting the NFS service
+Starting the NFS server involves launching several service daemons.

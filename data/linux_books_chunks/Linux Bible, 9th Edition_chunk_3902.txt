@@ -1,0 +1,7 @@
+Here’s an example of what the crontab fi le you create might look like:
+
+#  min  hour  day/month  month  day/week  command
+   59   23    *          *      *         yum -y update | mail root@localhost
+
+A crontab fi le consists of fi ve fi elds, designating day and time, and a sixth fi eld, containing the com-
+mand line to run. I added the comment line to indicate the fi elds.

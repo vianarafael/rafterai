@@ -1,0 +1,6 @@
+having multiple virtual 
+servers all start their daily cron tasks at the same time would impact system performance.
+
+Listed at the top of the file are SHELL, PATH, MAILTO, and HOME environment variables, which we 
+
+described in Chapter 4. Lines starting with # are comments and can be ignored.

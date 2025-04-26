@@ -1,0 +1,6 @@
+You can view the logs in /var/named/data/named.run on CentOS and 
+
+you can dynamically adjust the severity levels.
+
+The root zone file is next. That is output you received from dig @a.root-servers.net . NS and you 
+would place it in the file named /var/named/named.ca.

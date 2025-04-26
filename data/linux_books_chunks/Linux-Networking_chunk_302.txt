@@ -1,0 +1,6 @@
+X forwarding via ssh
+
+Another popular feature of ssh is called X11 forwarding and is implemented with ssh -X.
+
+Below an example of X forwarding: user paul logs in as user greet on her computer to start the
+graphical application mozilla-thunderbird.

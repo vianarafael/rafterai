@@ -1,0 +1,2 @@
+this was especially 
+dangerous when a copy of a passwd file could be stolen from a host and brute-force-cracked offline.

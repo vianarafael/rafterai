@@ -1,0 +1,3 @@
+If you cannot convey a covered work so as to satisfy simultaneously your 
+obligations under this License and any other pertinent obligations, then as a consequence 
+you may not convey it at all.

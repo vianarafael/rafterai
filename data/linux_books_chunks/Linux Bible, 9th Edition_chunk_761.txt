@@ -1,0 +1,95 @@
+Programmers will be interested in section 2 and 3 man pages.
+
+3
+
+TABLE 3.8    Manual Page Sections
+
+Section 
+Number
+
+Section Name
+
+Description
+
+1
+
+2
+
+3
+
+4
+
+5
+
+User Commands
+
+Commands that can be run from the shell by a regular user 
+(typically no administrative privilege is needed)
+
+System Calls
+
+C Library 
+Functions
+
+Devices and 
+Special Files
+
+Programming functions used within an application to make calls 
+to the kernel
+
+Programming functions that provide interfaces to specifi c 
+programming libraries (such as those for certain graphical 
+interfaces or other libraries that operate in user space)
+
+Filesystem nodes that represent hardware devices (such as 
+terminals or CD drives) or software devices (such as random 
+number generators)
+
+File Formats and 
+Conventions
+
+Types of fi les (such as a graphics or word processing fi le) or 
+specifi c confi guration fi les (such as the passwd or group fi le)
+
+Continues
+
+93
+
+c03.indd  04/01/2015  Page 94
+
+Part II: Becoming a Linux Power User 
+
+TABLE 3.8     (continued)
+
+Section 
+Number
+
+6
+
+7
+
+8
+
+Section Name
+
+Description
+
+Games
+
+Games available on the system
+
+Miscellaneous
+
+System 
+Administration 
+Tools and 
+Daemons
+
+Overviews of topics such as protocols, fi lesystems, character 
+set standards, and so on
+
+Commands that require root or other administrative privileges 
+to use
+
+Options to the man command enable you to search the man page database or display man 
+pages on the screen.

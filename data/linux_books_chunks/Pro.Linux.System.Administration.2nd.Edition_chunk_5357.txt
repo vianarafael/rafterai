@@ -1,0 +1,7 @@
+The firewall on our gateway.example.com host would have to 
+allow ICMP packets to ensure monitoring is possible.
+
+ there are several other object definitions related to host monitoring that we haven’t looked at that 
+
+ ■ Note 
+allow you to group hosts together, enable dependencies between hosts, and provide similar functionality.

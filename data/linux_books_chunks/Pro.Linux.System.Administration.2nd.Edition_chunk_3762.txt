@@ -1,0 +1,9 @@
+This IP address can 
+
+also be an FQDN, like fileserver2.example.com, or a whole domain, like *.example.com, like this:
+
+/data/staff 192.168.0(rw,root_squash,fsid=0) *.example.com(rw,root_squash,fsid=0)
+
+Next, we set the following options: rw,root_squash,fsid=0. The first option (rw) allows the share to be 
+
+readable and writable.

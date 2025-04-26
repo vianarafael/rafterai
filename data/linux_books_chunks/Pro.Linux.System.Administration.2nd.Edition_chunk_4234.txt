@@ -1,0 +1,23 @@
+We are going to call this storage.
+example.com, and we need to create a series of A records to respond.
+
+We need to be on our DNS server, and we are going to issue the following:
+
+$ sudo nsupdate -k /etc/bind/ddns_update.key
+> server localhost
+> update add storage.example.com 360 A 192.168.0.240
+> update add storage.example.com 360 A 192.168.0.241
+> update add storage.example.com 360 A 192.168.0.242
+> send
+> quit
+
+691
+
+Chapter 14 ■ BaCkup and reCovery
+
+Using dig, we can see that our DNS returns the correct records:
+
+$ dig @localhost storage.example.com
+....
+;; ANSWER SECTION:
+storage.example.com.

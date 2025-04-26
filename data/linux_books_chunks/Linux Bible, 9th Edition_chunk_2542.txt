@@ -1,0 +1,6 @@
+IPv4 Conﬁ guration—Move to the IPv4 Conﬁ guration show button, and press Enter. 
+The Edit connection window that appears lets you change information relating to 
+the selected network device.
+
+4.  Change to Manual—You can leave the Proﬁ le name and Device ﬁ elds as they are. 
+By default, Automatic is enabled.

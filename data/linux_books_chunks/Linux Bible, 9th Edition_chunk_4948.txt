@@ -1,0 +1,6 @@
+After a bit of time for the memory image of the VM to copy 
+over to the other host, the VM should appear as running on that host.
+
+If, for some reason, your migration fails (incompatible CPUs or other problems), you can 
+always shut down the VM on one host and start it again on the other host. Doing that 
+only requires that your shared storage is in place.

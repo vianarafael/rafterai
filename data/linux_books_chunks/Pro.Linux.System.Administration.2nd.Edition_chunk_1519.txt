@@ -1,0 +1,5 @@
+Adding a route
+
+Host A and Host C are properly configured to route between the networks. In their routing tables, they 
+send all requests destined for other networks via their default gateway. In this case their default gateway is 
+the firewall/router, and the address of their default gateway is 192.168.0.254 and 192.168.1.254, respectively.

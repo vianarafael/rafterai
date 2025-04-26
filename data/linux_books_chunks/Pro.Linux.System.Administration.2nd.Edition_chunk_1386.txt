@@ -1,0 +1,4 @@
+It is important to follow the starting 
+
+order of your interfaces; for instance, when you start the master interface first, your slave interfaces are not 
+automatically started, but when you start your slave interface, your master is automatically started.

@@ -1,0 +1,14 @@
+The file types listed are pseudo-filesystems that just add noise.
+
+812
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+<Plugin disk>
+    Disk "/^(xv)?[hs]?d[a-z]\d?$/"
+    IgnoreSelected false
+    UseBSDName false
+    UdevNameAttr "DEVNAME"
+</Plugin>
+
+With the disk plug-in, we are doing the opposite of what we did with the df plug-in.

@@ -1,0 +1,17 @@
+323651 files and directories currently installed.)
+Removing rsync ...
+Purging configuration files for rsync ...
+Processing triggers for ureadahead ...
+root@ubu1204~#
+
+Note that dpkg has no information about a purged package, except that it is uninstalled and
+no configuration is left on the system.
+
+root@ubu1204~# dpkg -l rsync | tail -1 | tr -s ' ' 
+un rsync <none> (no description available)
+
+234
+
+package management
+
+20.4.

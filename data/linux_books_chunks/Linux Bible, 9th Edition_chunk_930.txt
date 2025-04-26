@@ -1,0 +1,8 @@
+By default, the root user doesn’t have vi aliased to vim.
+
+Adding text
+To get into input mode, type an input command letter. To begin, type any of the following 
+letters. When you are ﬁ nished inputting text, press the Esc key (sometimes twice) to return 
+to command mode. Remember the Esc key!
+
+ ■ a—The add command.

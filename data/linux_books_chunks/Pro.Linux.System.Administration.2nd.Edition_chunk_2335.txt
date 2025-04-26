@@ -1,0 +1,7 @@
+You can then 
+dynamically create, resize, and delete volumes in a volume group, removing the need to unmount volumes 
+or reboot the system to update the partition map.
+
+The LVM system has three layers. The bottom layer consists of physical volumes: disks, partitions, or 
+RAID arrays. Physical volumes are used to create volume groups. A volume group can consist of one or more 
+physical volumes.

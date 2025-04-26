@@ -1,0 +1,23 @@
+For further reading please see the following helpful links:
+
+•	
+
+•	
+
+•	
+
+•	
+
+https://access.redhat.com/videos/403833
+
+www.freedesktop.org/wiki/Software/systemd/
+
+www.freedesktop.org/software/systemd/man/systemd.html
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/System_Administrators_Guide/chap-Managing_Services_with_
+systemd.html
+
+Once your kernel has passed off to the systemd process and it has brought up your machine to a target 
+
+state you will need to know how to interact with the services running on your system.

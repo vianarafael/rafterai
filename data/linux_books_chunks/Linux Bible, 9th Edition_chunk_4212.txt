@@ -1,0 +1,51 @@
+The table also lists the commands to 
+perform the scans and why the ﬁ le or ﬁ le setting is potentially problematic.
+
+TABLE 22.6    Additional Filesystem Scans
+
+File or Setting
+
+Scan Command
+
+Problem with File or Setting
+
+SetUID 
+permission
+
+SetGID 
+permission
+
+find / -perm -4000
+
+find / -perm -2000
+
+Allows anyone to temporarily become the fi le’s 
+owner while the fi le is being executed in 
+memory.
+
+Allows anyone to temporarily become a group 
+member of the fi le’s group while the fi le is 
+being executed in memory.
+
+Continues
+
+617
+
+c22.indd  04/15/2015  Page 618
+
+Part V: Learning Linux Security Techniques
+
+TABLE 22.6     (continued)
+
+File or Setting
+
+Scan Command
+
+Problem with File or Setting
+
+rhost fi les
+
+find /home -name 
+.rhosts
+
+Allows a system to fully trust another system.

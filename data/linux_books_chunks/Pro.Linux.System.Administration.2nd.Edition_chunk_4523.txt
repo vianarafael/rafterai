@@ -1,0 +1,19 @@
+If we now do an ldapearch filtering only for those DNs that contain the object class 
+olcModuleList, we see the following:
+
+$ sudo ldapsearch -H ldapi:// -Y EXTERNAL -b "cn=config" -LLL -Q  
+"objectClass=olcModuleList"
+dn: cn=module{0},cn=config
+objectClass: olcModuleList
+cn: module{0}
+olcModulePath: /usr/lib/ldap
+olcModuleLoad: {0}back_mdb
+olcModuleLoad: {1}ppolicy.la
+
+We will add further to the ppolicy overlay configuration when we load our LDIFs into the OpenLDAP 
+
+database in the “Password Policy Overlay” section.
+
+Setting Suffix, RootDN, and RootPW
+
+We are now going to configure the back-end database that will hold our DIT.

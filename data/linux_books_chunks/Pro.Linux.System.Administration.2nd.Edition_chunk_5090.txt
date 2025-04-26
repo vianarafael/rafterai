@@ -1,0 +1,5 @@
+The CentOS rsyslog.conf file is a combination of these two files and 
+is mostly similar.
+
+#
+# First some standard log files.

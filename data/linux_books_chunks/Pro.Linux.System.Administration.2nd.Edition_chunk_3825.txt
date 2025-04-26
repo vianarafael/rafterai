@@ -1,0 +1,6 @@
+This setting 
+tells the GlusterFS client that it should wait 15 seconds before giving up and reacquiring all the resources 
+from another Gluster peer. This an expensive operation, and really we should delay this action for as long as 
+possible. Here, as a demonstration only, we are going to show you how to change it.
+
+We use the gluster volume subcommand to change options on the volume.

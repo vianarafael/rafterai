@@ -1,0 +1,10 @@
+This will also be the default language for the final system.
+You are then asked to select your region. This is the geographical location in which the server you are 
+installing is located. In Figure 2-44 we’ve selected Australia. This helps the installer also choose the closest 
+Ubuntu archive repository to fetch extra packages from later.
+
+56
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-44.

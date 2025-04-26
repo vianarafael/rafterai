@@ -1,0 +1,11 @@
+(Instead of the Alt key, your keyboard may use a Meta key or the Esc key. On a 
+Windows keyboard, you can use the Windows key.)
+
+3
+
+To try out a bit of command-line editing, type the following:
+
+$ ls /usr/bin | sort -f | less
+
+This command lists the contents of the /usr/bin directory, sorts the contents in alphabeti-
+cal order (regardless of case), and pipes the output to less.

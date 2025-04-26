@@ -1,0 +1,4 @@
+This means you can 
+try a distribution on your computer and then remove the CD and reboot to return to your existing operating 
+system, making it very easy to explore and test Linux distributions and software without changing anything 
+on your computer.

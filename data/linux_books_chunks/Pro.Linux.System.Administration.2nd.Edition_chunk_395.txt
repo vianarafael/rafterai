@@ -1,0 +1,16 @@
+Vagrant Status
+
+> vagrant status
+Current machine states:
+
+default                   running (virtualbox)
+
+By default, our host name is default. You can name our machines different names in your Vagrantfile. In 
+
+Listing 3-13 we can see ours is in the state of running.
+
+Next let’s see if we can log into our Vagrant machine. To do that we issue the command shown in 
+
+Listing 3-14.
+
+Listing 3-14.

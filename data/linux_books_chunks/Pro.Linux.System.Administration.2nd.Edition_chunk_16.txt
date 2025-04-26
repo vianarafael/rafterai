@@ -1,0 +1,3 @@
+We cover choosing a 
+platform or distribution, choosing appropriate and supported hardware, and finding the software you need. 
+We also provide you with the location of some resources to help you support your Linux environment.

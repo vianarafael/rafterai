@@ -1,0 +1,5 @@
+The first part of the line linux16 says we are going 
+
+to load the kernel using a 16-bit mode (16-bit mode is used to get around certain problems with video 
+modes). The next part is the Linux kernel itself, /vmlinuz-3.10.0-327.el7.x86_64. You will find this file 
+in the /boot directory. Next we pass in options to the kernel.

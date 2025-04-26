@@ -1,0 +1,5 @@
+In cases where the other modules in the stack are returning a 
+clear-cut path of failure or success, this status is ignored.
+
+Get all the return statuses from this particular PAM confi guration fi le’s stack to 
+include in this stack’s overall return status.

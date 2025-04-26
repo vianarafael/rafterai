@@ -1,0 +1,6 @@
+One kind is a system user such as users and groups that run services—for 
+example, a user running a database or web server. So system users like “apache” and “www-data” have set 
+and known UID. The other kinds of users are “people,” (e.g., you and I) who need to log into the system.
+A CentOS distribution reserves the UID and GID ranges of 1 to 200 for assigned system UIDs (like 
+
+apache).

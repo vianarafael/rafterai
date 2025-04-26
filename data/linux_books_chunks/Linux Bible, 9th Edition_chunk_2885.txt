@@ -1,0 +1,9 @@
+For each initialization daemon, what commands show a particular service’s 
+
+current status?
+
+8.  Show the status of the cups daemon on your Linux server.
+
+9.  Attempt to restart the cups daemon on your Linux server.
+
+10.  Attempt to reload the cups  daemon on your Linux server.

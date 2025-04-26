@@ -1,0 +1,6 @@
+As a default, we will record all metrics at a minute resolution for 1 day as a 
+catchall collector.
+
+Suppose we wanted to collect metrics from our databases. Collecting metrics from something like a 
+
+database can produce a significant amount, so we can change the frequency and retention accordingly.

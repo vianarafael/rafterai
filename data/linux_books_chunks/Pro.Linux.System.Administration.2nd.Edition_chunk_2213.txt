@@ -1,0 +1,8 @@
+Once you know which device 
+node the USB drive is, you can create a primary partition of type c - W95 FAT32 (LBA), and you can then 
+
+378
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+format this partition using mkfs.vfat.

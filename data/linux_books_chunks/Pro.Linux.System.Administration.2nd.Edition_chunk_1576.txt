@@ -1,0 +1,5 @@
+It makes this decision in the Netfilter routing block and packets are inspected by raw, 
+mange and nat tables before reaching filter.
+
+If the incoming packets are destined for another host, and IP forwarding has been enabled on the 
+firewall host, they are delivered to the FORWARD chain.

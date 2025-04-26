@@ -1,0 +1,8 @@
+Generate a 1024-bit RSA private key and save it to a ﬁ le:
+
+# cd /etc/pki/tls/private
+# openssl genrsa -out server.key 1024
+# chmod 600 server.key
+
+You can use a fi lename other than server.key and should do so if you plan to have more than one SSL host on 
+your machine (which requires more than one IP address).

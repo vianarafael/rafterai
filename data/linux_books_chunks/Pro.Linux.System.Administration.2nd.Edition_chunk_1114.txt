@@ -1,0 +1,4 @@
+If you write to /dev/null you expect 
+your data to be blackholed or lost. This means we don’t care about the output of this service on standard out.
+
+Finally, if you look at the [Install] section you will see a WantedBy=multi-user.target.

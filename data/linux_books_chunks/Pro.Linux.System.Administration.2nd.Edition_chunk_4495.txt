@@ -1,0 +1,3 @@
+This specifies the SASL authentication 
+mechanism we want to use. EXTERNAL here says use the localhost’s authentication in this case. We pass the 
+root user’s UID and GID via the Unix socket to LDAP for authentication.

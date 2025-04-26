@@ -1,0 +1,9 @@
+It grants access to 
+other subjects and objects based upon a role’s security clearance and the object’s classiﬁ ca-
+tion level.
+
+In the MLS policy, a security context’s MLS attribute is critical. Otherwise, the policy rules 
+will not know how to enforce access restrictions.
+
+Minimum policy
+This policy is just as it sounds—minimal.

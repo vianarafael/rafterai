@@ -1,0 +1,6 @@
+With a Linux live image, you can have Linux take 
+over the operation of your computer temporarily, without harming the contents of your 
+hard drive.
+
+If you have Windows installed, Linux just ignores it and uses Linux to control your 
+ computer.

@@ -1,0 +1,6 @@
+This specification 
+uses the existing ISO-9660 definitions and will cause the BIOS to boot a disk image using 
+a floppy or hard disk emulation.
+
+The ISO -9660 standard specifies that a CDROM should contain any number of  “Volume 
+Descriptors”.

@@ -1,0 +1,8 @@
+Using any text editor, create a script called $HOME/bin/myos and make the 
+
+script executable:
+
+$ touch $HOME/bin/myos
+$ chmod 755 $HOME/bin/myos
+
+b.

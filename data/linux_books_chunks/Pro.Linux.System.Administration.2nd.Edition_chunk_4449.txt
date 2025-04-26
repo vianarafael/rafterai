@@ -1,0 +1,5 @@
+It is made 
+up of the RDN cn=Angela Taylor and the ancestors of ou=people, dc=example, and dc=com. Likewise, 
+ou=people,dc=example,dc=com is a DN for the People organizational unit, and ou=people is an RDN of it.
+Each DN entry is made up of object classes and attributes that describe that entry. The object classes 
+describe what attributes must be present or are allowed to be present.

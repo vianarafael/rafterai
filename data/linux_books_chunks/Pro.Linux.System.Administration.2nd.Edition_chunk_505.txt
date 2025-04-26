@@ -1,0 +1,10 @@
+Services, also called daemons, run many of the key functions on your host.
+
+114
+
+ChapTeR 4 ■ LInux BasICs
+
+ The term “Daemon” is the Greek spelling of demon and based on the imaginary being that 
+
+ ■ Note 
+sorted molecules in Maxwell’s Demon thought experiment on the second law of thermodynamics.

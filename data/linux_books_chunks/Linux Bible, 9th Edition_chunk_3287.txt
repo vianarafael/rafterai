@@ -1,0 +1,18 @@
+In 
+Fedora or Red Hat Enterprise Linux 7, you do the following:
+
+# systemctl status vsftpd.service
+vsftpd.service - Vsftpd ftp daemon
+       Loaded: loaded (/lib/systemd/system/vsftpd.service; disabled)
+       Active: inactive (dead)
+
+In Red Hat Enterprise Linux 6, you need two commands to see the same information:
+
+# service vsftpd status
+vsftpd is stopped
+# chkconfig --list vsftpd
+vsftpd             0:off    1:off    2:off    3:off    4:off    
+   5:off    6:off
+
+In both the Fedora and RHEL examples above, the service, chkconfig and systemctl 
+commands show the status as stopped.

@@ -1,0 +1,15 @@
+Select Server ➪ Settings and type the root password if prompted.
+
+c. Click the check box next to Publish shared printers connected to this system, 
+
+and click OK.
+
+7.  To allow remote administration of your system from a web browser, follow these 
+
+steps:
+
+a. On a GNOME 3 desktop, from the Activities screen, type Print Settings and 
+
+press Enter.
+
+b.

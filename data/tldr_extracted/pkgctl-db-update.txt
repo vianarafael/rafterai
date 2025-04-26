@@ -1,0 +1,6 @@
+# pkgctl db update
+
+
+- Update the binary repository as final release step:
+
+`pkgctl db update`

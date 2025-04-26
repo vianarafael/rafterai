@@ -1,0 +1,4 @@
+Replace default_shell with the full path to the shell that 
+you want as the default for new users (for example, -s /usr/bin/ksh.
+
+To set any of the defaults, give the -D option ﬁ rst and add the defaults you want to set.

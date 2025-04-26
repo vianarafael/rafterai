@@ -1,0 +1,22 @@
+it should show the default 
+
+ ■ Tip 
+directories and files you’ve created for your Ca; in our case, these are the private directory and the serial file.
+
+Now you need to create a self-signed certificate and a private key for your CA.
+
+$ cd /etc/pki/CA
+$ sudo openssl req -new -x509 -newkey rsa:4096 -keyout private/cakey.pem \ 
+   -out certs/cacert.pem -days 3650 \ 
+   -subj '/C=AU/ST=Victoria/L=Melbourne/O=Example Inc/OU=IT/CN=ca.example.com/
+emailAddress=admin@example.com/'
+Generating a 4096 bit RSA private key
+...................................++
+............................................................................................
+......................................................++
+writing new private key to 'private/cakey.pem'
+Enter PEM pass phrase:
+Verifying - Enter PEM pass phrase:
+-----
+
+First, as we mentioned, we change our working directory to /etc/pki/CA.

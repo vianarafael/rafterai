@@ -1,0 +1,10 @@
+It can also keep large remotely mounted 
+fi lesystems from being searched.
+
+Here’s another example, except that instead of looking for a user’s ﬁ les, we’re looking for 
+ﬁ les larger than 100 kilobytes (-size +100M):
+
+# find / -xdev -size +100M | xargs ls -ldS > /tmp/size
+
+You can save yourself lots of disk space by just removing some of the largest ﬁ les that are 
+no longer needed.

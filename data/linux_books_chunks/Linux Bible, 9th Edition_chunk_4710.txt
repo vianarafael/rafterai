@@ -1,0 +1,5 @@
+Malicious activity often 
+occurs from a company’s own employees or by someone who has already penetrated external defenses.
+
+Again, the nmap utility is a great help here. To get a proper view of how your Linux server’s 
+ports are seen, you need to conduct scans from several locations.

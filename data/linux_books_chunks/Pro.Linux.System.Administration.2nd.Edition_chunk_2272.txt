@@ -1,0 +1,8 @@
+These controllers 
+can usually be configured to run as simple Serial ATA controllers, instead of RAID. A short listing of the most 
+common fake RAID controllers is available at https://raid.wiki.kernel.org/index.php/DDF_Fake_RAID.
+
+If you have fake raId set up with Windows and want to dual boot, you can still use most fake raId 
+
+ ■ Note 
+arrays under Linux via the dmraid system.

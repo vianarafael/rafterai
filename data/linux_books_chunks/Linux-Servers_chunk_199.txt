@@ -1,0 +1,31 @@
+This screenshot shows an example.
+
+[root@CentOS65 ~]# cat /var/www/html/hunter2/.htaccess 
+AuthUserFile /var/www/.htpasswd
+AuthName "Members only!"
+AuthType Basic
+require valid-user
+
+Note that we are protecting the website on port 9000 that we created earlier.
+
+And because we put the website for the Hackerspace named hunter2 in a subdirectory of the
+default website, we will need to adjust the AllowOvveride parameter in /etc/httpd/conf/
+httpd.conf under the <Directory "/var/www/html"> directive as this screenshot shows.
+
+24
+
+apache web server
+
+[root@CentOS65 ~]# vi /etc/httpd/conf/httpd.conf
+
+<Directory "/var/www/html">
+
+# 
+# Possible values for the Options directive are "None", "All",
+# or any combination of:
+#   Indexes Includes FollowSymLinks SymLinksifOwnerMatch ExecCGI MultiViews
+# 
+# Note that "MultiViews" must be named *explicitly* --- "Options All"
+# doesn't give it to you.
+# 
+# The Options directive is both complicated and important.

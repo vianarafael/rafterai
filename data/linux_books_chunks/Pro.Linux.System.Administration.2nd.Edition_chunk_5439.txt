@@ -1,0 +1,40 @@
+For services, this access includes
+
+Chapter 18 ■ Logging and Monitoring
+
+•	
+
+•	
+
+•	
+
+•	
+
+Viewing of service status
+
+Viewing of service configuration
+
+Ability to view service history and notifications
+
+Ability to issue commands to the service (start and stop checking, for example)
+
+For hosts, this access includes
+
+•	
+
+•	
+
+•	
+
+•	
+
+Viewing of host status
+
+Viewing of host configuration
+
+Ability to view host history and notifications
+
+Ability to issue commands to the host (start and stop checking, for example)
+
+Authenticated contacts that have access to a particular host because they are a contact for that host 
+also have the same access to all the services on that host just as if they were a contact for those services.

@@ -1,0 +1,8 @@
+So we simply use the following:
+
+$ sudo btrfs filesystem resize +2G /data1
+Resize '/data1' of '+2G'
+
+In this next example we have four spare disks attached to our host. We are going to use these disks as 
+
+one combined disk.

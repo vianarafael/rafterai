@@ -1,0 +1,4 @@
+This allows write access for the group also, and this umask is often used for files 
+located in shared directories or file shares.
+
+On most hosts, your umask is set automatically by a setting in your shell.

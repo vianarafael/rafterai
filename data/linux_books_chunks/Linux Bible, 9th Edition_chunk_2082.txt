@@ -1,0 +1,11 @@
+If fdisk cannot sync the partition table on the disk with the kernel, the most 
+likely reason is that a partition from the disk is still mounted. Unmount the 
+partition, and try running the following command to sync the disk partition table 
+with the kernel:
+
+# partprobe /dev/sdc
+
+If partprobe does not work, rebooting the computer will make sure the disk and 
+kernel are in sync.
+
+15.

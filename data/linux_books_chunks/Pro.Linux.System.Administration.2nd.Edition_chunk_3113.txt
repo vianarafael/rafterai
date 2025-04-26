@@ -1,0 +1,3 @@
+For files 
+such as images, JavaScript, and CSS, you can set a Cache-Control header like max-age=120, which means the 
+browser will store a resource object in its cache for 120 seconds before it considers it stale.

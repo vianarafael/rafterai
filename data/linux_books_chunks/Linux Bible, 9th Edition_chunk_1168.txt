@@ -1,0 +1,7 @@
+Typically, a value of zero means the command exited 
+successfully, and anything other than zero indicates an error of some kind. For a complete 
+list of special shell variables, refer to the bash man page.
+
+Reading in parameters
+Using the read command, you can prompt the user for information, and store that information 
+to use later in your script.

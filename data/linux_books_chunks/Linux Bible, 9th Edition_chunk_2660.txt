@@ -1,0 +1,6 @@
+Thus, the entire system initialization process was less 
+efﬁ cient and ultimately slower.
+
+The modern initialization daemons have tried to solve the problems of inefﬁ cient system 
+boots and non-static environments. Two of these init daemons are the Upstart init and 
+systemd daemons.

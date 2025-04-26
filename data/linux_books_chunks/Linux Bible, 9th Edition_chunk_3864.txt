@@ -1,0 +1,18 @@
+For example:
+
+# cat /etc/systemd/system/default.target
+...
+[Unit]
+Description=Graphical Interface
+Documentation=man:systemd.special(7)
+Requires=multi-user.target
+After=multi-user.target
+Conflicts=rescue.target
+Wants=display-manager.service
+AllowIsolate=yes
+
+[Install]
+Alias=default.target
+
+The default.target ﬁ le is actually a symbolic link to a ﬁ le in the /lib/systemd/system 
+directory.

@@ -1,0 +1,6 @@
+It is 
+suitable for nonthreadsafe web applications. In the prefork module, a control process 
+creates a child process that listens for connections.
+
+The worker module is a mixture of process-based and thread-based processing. 
+It is suitable for threadsafe applications.

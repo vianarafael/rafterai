@@ -1,0 +1,13 @@
+Here you can make a selection to use an existing disk 
+
+or choose not to have a disk at all. We are going to click Create a virtual hard disk now and click Continue.
+
+Figure 3-4.  Choosing disk
+
+77
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+There is a selection of the kind of virtual disk format we wish to choose next. VirtualBox gives us six 
+
+options.

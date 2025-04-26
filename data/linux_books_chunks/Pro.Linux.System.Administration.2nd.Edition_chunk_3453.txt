@@ -1,0 +1,14 @@
+To do this, we adjust the smtp 
+
+service in the master.cf file like so:
+
+smtp     inet     n     -     n     -     -     smtpd
+    -o content_filter=spamassassin
+
+566
+
+Chapter 12 ■ Mail ServiCeS
+
+This adds the line -o content_filter=spamassassin (the -o should be indented with spaces to show 
+
+it is a follow-on from the previous line).

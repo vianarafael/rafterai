@@ -1,0 +1,7 @@
+RAM is like the top of your 
+desk, where you put the folder of papers while you are using it, but you put it back in the 
+ﬁ le cabinet when you are not.
+
+If RAM ﬁ lls up, by running too many processes or a process with a memory leak, new 
+ processes fail if your system doesn’t have a way to extend system memory. That’s where a 
+swap area comes in.

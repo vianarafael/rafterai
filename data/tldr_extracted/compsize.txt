@@ -1,0 +1,14 @@
+# compsize
+
+
+- Calculate the current compression ratio for a file or directory:
+
+`sudo compsize {{path/to/file_or_directory}}`
+
+- Don't traverse filesystem boundaries:
+
+`sudo compsize {{[-x|--one-file-system]}} {{path/to/file_or_directory}}`
+
+- Show raw byte counts instead of human-readable sizes:
+
+`sudo compsize {{[-b|--bytes]}} {{path/to/file_or_directory}}`

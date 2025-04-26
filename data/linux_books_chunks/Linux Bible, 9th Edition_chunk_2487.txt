@@ -1,0 +1,7 @@
+The IP address for 
+ localhost is 127.0.0.1/8 (the /8 is CIDR notation, indicating that 127.0 is the network 
+ number and 0.1 is the host number).
+
+In this case, the wired Ethernet interface (eth0) is down (no cable), but the wireless 
+ interface is up (wlan). The MAC address on the wireless interface (wlan0) is 00:24:d7:69:5b:2c 
+and the Internet (IPv4) address is 192.168.0.105.

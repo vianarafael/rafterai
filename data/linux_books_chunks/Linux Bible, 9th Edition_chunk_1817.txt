@@ -1,0 +1,5 @@
+######################### [100%]
+   1:zsh              ######################### [100%]
+
+Although an install (-i) only installs a package if the package is not already installed, 
+an upgrade (-U) installs the package even if it is already installed.

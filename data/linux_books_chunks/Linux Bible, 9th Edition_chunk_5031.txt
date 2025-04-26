@@ -1,0 +1,6 @@
+Instead, when the cloud-init service starts running on 
+the instance, it knows to look not only on the local system for data sources, but also out-
+side it.
+
+For Amazon EC2 clouds, cloud-init queries a particular IP address 
+(http://169.254.169.254/) for data.

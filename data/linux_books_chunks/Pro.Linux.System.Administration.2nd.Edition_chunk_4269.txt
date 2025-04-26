@@ -1,0 +1,2 @@
+We introduced you to the software you can use to manage 
+your backups, rsync and Bareos.

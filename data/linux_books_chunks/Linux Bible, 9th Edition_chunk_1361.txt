@@ -1,0 +1,8 @@
+(Some older Linux systems use syslogd 
+and syslogd daemons.) Although you can still use rsyslogd with systemd systems, 
+systemd has its own method of gathering and displaying messages called the systemd 
+journal (journalctl command).
+
+Using journalctl to view the systemd journal
+The primary command for viewing messages from the systemd journal is the journalctl 
+command.

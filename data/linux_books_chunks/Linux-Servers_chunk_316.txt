@@ -1,0 +1,10 @@
+root hints
+
+Every dns server software will come with a list of root hints to locate the root servers.
+
+This screenshot shows a small portion of the root hints file that comes with bind 9.8.4.
+
+root@debian7:~# grep -w 'A ' /etc/bind/db.root
+A.ROOT-SERVERS.NET.      3600000      A     198.41.0.4
+B.ROOT-SERVERS.NET.      3600000      A     192.228.79.201
+C.ROOT-SERVERS.NET.

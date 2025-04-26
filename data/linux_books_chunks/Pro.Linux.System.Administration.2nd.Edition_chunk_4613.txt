@@ -1,0 +1,6 @@
+This prevents the users defined 
+under the ou=meta organizational unit from being able to change any of their own entries, and this gives 
+greater security to those users.
+
+Next, we grant access to everything under the ou=people branch, bearing in mind that we have already 
+defined access to the user password attributes earlier in the access control list.

@@ -1,0 +1,5 @@
+We will use the publicly available public key signing 
+DnsKeY and the rrsIG to validate the rrset–at this point we have no parent or Ds record to validate 
+the DnsKeY with, so we “trust” the top-level domain.
+
+We then use that rrset to find the address to query the ‘.com.’ name servers.

@@ -1,0 +1,9 @@
+Once this is done, we can get access to the entries in the service.
+
+Read on and we will explain what LDAP is and give you an understanding of the components that make 
+
+up the LDAP service.
+
+What Is LDAP?
+Lightweight Directory Access Protocol is used to access X.500-based directory services derived from the 
+Directory Access Protocol (DAP).

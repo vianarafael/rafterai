@@ -1,0 +1,24 @@
+You can enable
+it (after a kernel compile) using this entry:
+
+# CONFIG_SCSI_PROC_FS is not set
+
+Redhat and CentOS have this by default (if there are scsi devices present).
+
+[root@centos65 ~]# cat /proc/scsi/scsi 
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: VBOX HARDDISK    Rev: 1.0 
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi3 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: VBOX HARDDISK    Rev: 1.0 
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi4 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: VBOX HARDDISK    Rev: 1.0 
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+
+39
+
+disk devices
+
+4.4.

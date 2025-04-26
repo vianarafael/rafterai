@@ -1,0 +1,3 @@
+Set up a target (using an LVM and a SCSI device) and an initiator that connects to both.
+
+This solution was done on Debian/ubuntu/Mint.

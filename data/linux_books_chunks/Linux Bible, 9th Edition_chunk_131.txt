@@ -1,0 +1,11 @@
+751
+Investigating the cloud instance ................................................................753
+Cloning the cloud instance .........................................................................754
+Trying an Ubuntu cloud image ...................................................................756
+Expanding your cloud-init conﬁ guration .....................................................757
+Adding ssh keys with cloud-init .........................................................757
+Adding network interfaces with cloud-init ..........................................758
+Adding software with cloud-init ........................................................758
+Using cloud-init in enterprise computing ....................................................759
+Using OpenStack to Deploy Cloud Images .............................................................760
+Starting from the OpenStack Dashboard ......................................................

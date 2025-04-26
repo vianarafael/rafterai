@@ -1,0 +1,8 @@
+These are likely possibilities:
+
+ ■ For iptables, make sure there is a rule opening TCP port 21 on the server.
+
+ ■ For SELinux, make sure the ﬁ le context is set to public_content_t.
+
+ ■ For TCP wrappers, make sure that there is a vsftpd: ALL or similar line in the 
+/etc/hosts.allow ﬁ le.

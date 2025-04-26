@@ -1,0 +1,12 @@
+however, it can point to a problem with a program whose parent crashes and does not reap its 
+children.
+
+You can view a zombie process by grepping the process list output.
+
+$ ps aux |grep Z
+USER    PID    %CPU %MEM   VSZ   RSS   TTY     STAT    START   TIME   COMMAND
+ubuntu  7814   0.0  0.0    0     0     pts/0   Z+      11:52   0:00    [zombie] <defunct>
+
+You can read more about zombies at http://en.wikipedia.org/wiki/Zombie_process.
+
+Many more display options are available in top, and you can find them on the help menu.

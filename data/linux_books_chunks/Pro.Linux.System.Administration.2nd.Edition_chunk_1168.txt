@@ -1,0 +1,12 @@
+These map 
+nicely to the systemd postfix.service unit file on CentOS.
+
+[Service]
+Type=forking
+PIDFile=/var/spool/postfix/pid/master.pid
+EnvironmentFile=-/etc/sysconfig/network
+ExecStartPre=-/usr/libexec/postfix/aliasesdb
+ExecStartPre=-/usr/libexec/postfix/chroot-update
+ExecStart=/usr/sbin/postfix start
+
+The other thing to note in Listing 6-11 is the CGroup information.

@@ -1,0 +1,3 @@
+Make lists of all your applications, devices, and hosts and 
+where they log. The second stage is bringing together all that information and working out what you really 
+want to know.

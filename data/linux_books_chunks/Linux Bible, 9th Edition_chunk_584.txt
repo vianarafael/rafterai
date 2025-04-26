@@ -1,0 +1,25 @@
+You are now ready to use your 
+
+Terminal window.
+
+68
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c03.indd  04/01/2015  Page 69
+
+Chapter 3: Using the Shell
+
+If you are using Linux from a graphical desktop, you will probably most often access the 
+shell from a Terminal window.
+
+Using virtual consoles
+Most Linux systems that include a desktop interface start multiple virtual consoles running 
+on the computer.

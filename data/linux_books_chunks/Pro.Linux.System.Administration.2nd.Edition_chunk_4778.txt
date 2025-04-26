@@ -1,0 +1,9 @@
+We are going to use a command called getent to query the passwd file 
+and the sssd (as directed by our configuration in nsswitch.conf; getent is a tool for querying those entries).
+
+$ getent passwd ataylor
+ataylor:*:1002:1000:Angela Taylor:/home/ataylor:
+
+We have been returned the user details for Angela Taylor, including the UID/GID and home directory 
+
+information.

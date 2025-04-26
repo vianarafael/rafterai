@@ -1,0 +1,4 @@
+Of course, you don’t have to override your current grub.cfg with this file, so we will change the output to be 
+a file in our local directory.
+
+Listing 6-2.

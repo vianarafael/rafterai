@@ -1,0 +1,5 @@
+Here’s an example:
+
+Sunday    00:00-02:00,17:00-19:00
+
+Here our time period is Sunday from midnight to 2 a.m. and from 5 p.m.

@@ -1,0 +1,6 @@
+If you 
+are using a Red Hat Enterprise Linux system up to RHEL 6 or an older Fedora or Ubuntu 
+ distribution, you are probably looking at a GNOME 2 desktop.
+
+This section provides a tour of GNOME 2, along with some opportunities for sprucing it up a 
+bit.

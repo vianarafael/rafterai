@@ -1,0 +1,6 @@
+# i7z
+
+
+- Start i7z (needs to be run in superuser mode):
+
+`sudo i7z`

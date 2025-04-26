@@ -1,0 +1,7 @@
+Most likely the web services will have a 
+requirement for a Structured English Query Language (SEQUEL) database. In this chapter we are going to 
+explore the major components of a secure web service.
+
+In this chapter, you will learn how to securely set up the Apache web server and MariaDB database 
+
+server.

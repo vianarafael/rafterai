@@ -1,0 +1,9 @@
+In most cases, 
+these projects offer command-line tools for managing these projects as well.
+
+For example, if you are using Red Hat Enterprise Linux, there are browser-based interfaces 
+for managing the following projects:
+
+ ■ Red Hat Enterprise Linux OpenStack Platform (RHELOSP)—The OpenStack 
+ platform-as-a-service project lets you manage your own private, hybrid cloud 
+through your browser.

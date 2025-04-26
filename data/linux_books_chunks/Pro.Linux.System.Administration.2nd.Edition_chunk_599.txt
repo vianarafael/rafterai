@@ -1,0 +1,6 @@
+so, why might this be needed? Well, this allows users to execute specific tasks 
+that they would normally be restricted from doing or allows users to share resources, like accessing 
+shared files on a fileserver with the same group id.
+
+a good example of this is the passwd command. The passwd command allows a user to change her 
+password.

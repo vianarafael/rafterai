@@ -1,0 +1,7 @@
+After installing the package or booting up 
+the Live CD, type in chkrootkit at the command line. It searches the entire ﬁ le structure, 
+denoting any infected ﬁ les.
+
+The code that follows shows a run of chkrootkit on an infected system. The grep com-
+mand was used to search for the key word INFECTED. Notice that many of the ﬁ les listed 
+as “infected” are bash shell command ﬁ les.

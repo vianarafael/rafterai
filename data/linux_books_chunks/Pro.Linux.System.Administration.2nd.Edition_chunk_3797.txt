@@ -1,0 +1,14 @@
+Do this on Ubuntu:
+
+$ sudo systemctl enable glusterfs-server
+
+Do this for CentOS:
+
+$ sudo systemctl enable glusterd glusterfsd
+
+Now that they are installed, we can configure GlusterFS.
+
+Configuring GlusterFS
+
+Let’s look at how we are setting up our servers. We have three servers each with a 50GB drive attached for 
+data. We will have one Ubuntu and two CentOS servers.

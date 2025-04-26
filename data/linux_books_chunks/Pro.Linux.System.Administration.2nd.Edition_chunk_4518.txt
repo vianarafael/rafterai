@@ -1,0 +1,29 @@
+We are going to provide a file called 
+loglevel.ldif to the command, which will look like this:
+
+dn: cn=config
+changetype: modify
+replace: olcLogLevel
+olcLogLevel: 480
+
+To modify an attribute, we need to provide the dn value we want to modify (dn: cn=config), the type 
+
+of change (changetype: modify), the attribute we want to replace (replace: olcLogLevel), and finally the 
+attribute we are setting (olcLogLevel: 480).
+
+Now, let’s use ldapmodify to modify the logging attribute.
+
+$ sudo ldapmodify -Q -Y EXTERNAL -H ldapi:/// -f loglevel.ldif
+
+To confirm that this has been set, we can issue the ldapsearch command again to verify.
+
+$ sudo ldapsearch –Q -LLL -Y EXTERNAL -H ldapi:/// -b cn=config cn=config
+dn: cn=config
+objectClass: olcGlobal
+cn: config
+olcArgsFile: /var/run/slapd/slapd.args
+olcPidFile: /var/run/slapd/slapd.pid
+olcToolThreads: 1
+olcLogLevel: 480
+
+Great, there we have our requested log setting.

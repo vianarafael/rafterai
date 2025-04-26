@@ -1,0 +1,12 @@
+Then we enable NTP for our clocks and set their 
+time to UTC.
+
+Managing Users
+
+With Cobbler and Preseed we enable the root user, which Ubuntu doesn’t normally do.
+
+d-i passwd/root-login boolean true
+d-i passwd/root-password-crypted password $default_password_crypted
+d-i passwd/make-user boolean false
+
+So when you build your hosts, you will need to sign in as root.

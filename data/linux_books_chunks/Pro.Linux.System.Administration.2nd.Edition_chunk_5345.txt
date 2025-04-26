@@ -1,0 +1,5 @@
+For hosts, the contact will receive only DOWN (d) and recovery (r) notifications.
+
+The service_notification_commands and host_notification_commands attributes specify the 
+commands Nagios uses to send the notifications. You can specify multiple commands by separating each 
+with a comma. These commands are defined just like the commands used to check your hosts and services.

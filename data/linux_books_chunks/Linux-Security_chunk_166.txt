@@ -1,0 +1,13 @@
+Verify that both users have correct entries in /etc/passwd, /etc/shadow and /etc/group.
+
+root@debian7:~# tail -2 /etc/passwd
+serena:x:1008:1010:Serena Williams:/home/serena:/bin/sh
+venus:x:1009:1011:Venus Williams:/home/venus:/bin/bash
+root@debian7:~# tail -2 /etc/shadow
+serena:!:16358:0:99999:7:::
+venus:!:16358:0:99999:7:::
+root@debian7:~# tail -2 /etc/group
+serena:x:1010:
+venus:x:1011:
+
+4.

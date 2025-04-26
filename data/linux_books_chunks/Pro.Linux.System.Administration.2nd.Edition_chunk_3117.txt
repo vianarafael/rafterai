@@ -1,0 +1,6 @@
+For instance, 
+
+you may use a Varnish or Nginx server in front of your Apache server, or you may want your global users 
+to be able to benefit from a CDN that provides a web presence closer to your clients. It depends on your 
+infrastructure and the nature of how your web site will be used. If you are getting only several thousands 
+of users a month, there may be little benefit.

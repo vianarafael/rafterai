@@ -1,0 +1,30 @@
+The default is now.
+
+Prints backup sets and chains currently in repository.
+
+verify [<age>] [--compare-data]
+
+Lists files changed since <age>, if given.
+
+verifyPath <rel_path_in_bkp>  
+<local_path> [<age>] [--compare-
+data]
+
+Lists changes of a file or folder path in backup compared to a local 
+path since <age>, if given.
+
+restore <target_path> [<age>]
+
+Restores the complete backup to <target_path> (as it was at <age>).
+
+fetch <src_path> <target_path> 
+[<age>]
+
+purge [<max_age>] [--force]
+
+purgeFull [<max_full_backups>] 
+[--force]
+
+Fetches single file/folder from backup (as it was at <age>).
+
+Lists outdated backup files (older than $MAX_AGE).

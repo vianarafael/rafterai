@@ -1,0 +1,13 @@
+For example, if the httpd process were only listening on the local interface (127.0.0.1) for 
+HTTP requests (port 80) the entry would look as follows:
+
+tcp    0  0 127.0.0.1:80 :::*         LISTEN      2567/httpd
+
+For httpd, as well as for other network services that listen for requests on network 
+ interfaces, you can edit the service’s main conﬁ guration ﬁ le (in this case, /etc/httpd/
+conf/httpd.conf) to tell it to listen on port 80 for all addresses (Listen 80) or a 
+ speciﬁ c address (Listen 192.168.0.100:80).
+
+Troubleshooting Memory
+Troubleshooting performance problems on your computer is one of the most important, 
+although often elusive, tasks you need to complete.

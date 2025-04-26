@@ -1,0 +1,18 @@
+Allowing ICMP(ping)
+
+When you enable iptables, you will get an 'Operation not permitted' message when trying
+to ping other hosts.
+
+[root@RHEL5 ~# ping 192.168.187.130
+PING 192.168.187.130 (192.168.187.130) 56(84) bytes of data.
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+
+The  screenshot  below  shows  you  how  to  setup  iptables  to  allow  a  ping  from  or  to  your
+machine.
+
+[root@RHEL5 ~]# iptables -A INPUT -p icmp --icmp-type any -j ACCEPT
+[root@RHEL5 ~]# iptables -A OUTPUT -p icmp --icmp-type any -j ACCEPT
+
+The previous two lines do not allow other computers to route ping messages through your
+router, because it only handles INPUT and OUTPUT.

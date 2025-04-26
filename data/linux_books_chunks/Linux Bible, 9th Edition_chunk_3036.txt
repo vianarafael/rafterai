@@ -1,0 +1,7 @@
+From the Windows 9x desktop, 
+ double-click the Network Neighborhood icon. (From Windows 2000 or XP, double-click the 
+My Network Places icon.)
+
+With Windows Vista, you open the Network icon. The name of your host computer 
+(the NetBIOS name, which is probably also your TCP/IP name) appears on the screen or 
+within a workgroup folder on the screen. Open the icon that represents your computer.

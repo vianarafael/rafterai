@@ -1,0 +1,20 @@
+Taking a level 2 on Wednesday
+
+355
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+backup
+
+will contain all changes since Tuesday (the last level 2-1). A level 3 backup on Thursday
+will contain all changes since Wednesday (the last level 3-1). Another level 3 on Friday
+will also contain all changes since Wednesday. A level 2 backup on Saturday would take
+all changes since the last level 1 from Tuesday.
+
+30.5.

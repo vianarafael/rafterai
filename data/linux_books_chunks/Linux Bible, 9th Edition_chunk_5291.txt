@@ -1,0 +1,2 @@
+In some cases, PID 
+1 is the systemd process. In earlier cases, PID 1 is the init daemon.

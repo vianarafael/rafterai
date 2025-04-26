@@ -1,0 +1,3 @@
+If you want to back up the whole Linux system, take a look at the Linux All file set instead.
+
+Our file lists can also be kept in a separate file that we include into the FileSet with the @ symbol.

@@ -1,0 +1,12 @@
+Any good tool can burn a copy of the CD with this .ISO file.
+
+dd if=/dev/cdrom of=/path/to/cdrom.ISO
+
+30.7.3. Create a floppy image
+
+A  little  outdated  maybe,  but  just  in  case  :  make  an  image  file  from  a  1.44MB  floppy.
+Blocksize is defined by bs, and count contains the number of blocks to copy.
+
+dd if=/dev/floppy of=/path/to/floppy.img bs=1024 count=1440
+
+30.7.4.

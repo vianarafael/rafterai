@@ -1,0 +1,5 @@
+In most cases, this is the default 
+action expected by the command and the use of the character is optional; using 
+less bigfile is the same as less < bigfile.
+
+ ■ >—Directs the standard output of a command to a ﬁ le.

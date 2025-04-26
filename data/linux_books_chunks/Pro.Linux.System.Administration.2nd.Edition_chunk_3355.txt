@@ -1,0 +1,7 @@
+You can find a full list of mail clients 
+and the authentication mechanisms they support at http://en.wikipedia.org/wiki/Comparison_of_e-
+mail_clients#Authentication_support.
+
+Also in the 10-auth.conf file we determine which authentication service we will use. At the bottom of 
+
+the file you will see that we include !include auth-system.conf.ext.

@@ -1,0 +1,9 @@
+This means that although the 
+backup may take up more space on your volumes (storage media), when you restore from the backups, you 
+will need only the last full backup and the most recent differential backup. If you had been using incremental 
+
+673
+
+Chapter 14 ■ BaCkup and reCovery
+
+backups, you would need the last full backup plus each incremental since the last full backup.

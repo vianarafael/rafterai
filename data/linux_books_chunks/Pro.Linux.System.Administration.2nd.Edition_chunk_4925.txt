@@ -1,0 +1,7 @@
+You will have an environment up and running quickly to begin testing it.
+
+Configuring Carbon-Cache
+
+Most of the configuration for Graphite is in how we configure the carbon-cache. We use the same file for 
+configuring the carbon-cache, aggregator, and relay. To achieve this, the file can be divided up into sections: 
+[cache], [aggregator], and [relay].

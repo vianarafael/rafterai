@@ -1,0 +1,14 @@
+Create a new image file called initrd-new.img of size 161K
+
+dd if=/dev/zero of=/tmp/initrd-new.img bs=1K count=317
+
+30
+
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+5.

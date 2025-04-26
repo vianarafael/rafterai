@@ -1,0 +1,4 @@
+If you are having trouble getting any of these devices to work, noting 
+the model names and numbers gives you something to Google for.
+
+To get more verbose output from lspci, add one or more -v options.

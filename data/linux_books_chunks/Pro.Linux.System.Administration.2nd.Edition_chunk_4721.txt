@@ -1,0 +1,37 @@
+slapcat LDIF Dump
+
+#!/bin/bash
+
+case $1 in
+start)
+   slapcat -b dc=example,dc=com -l /var/lib/ldap/backup.ldif
+    if [ $? -eq 0 ] ; then
+         echo "backup successful"
+     else
+        echo "backup failed"
+        exit 1;
+   fi
+;;
+
+stop)
+  if [ -e /var/lib/ldap/backup.ldif ] ; then
+      rm -f /var/lib/ldap/backup.ldif
+      if [ $? -eq 0 ] ; then
+           echo "removal of file successful"
+       else
+           echo "failed to remove file"
+         exit 1;
+     fi
+
+  fi
+ ;;
+esac
+exit 0
+
+To get a perfect backup, you would want to stop the OpenLDAP directory server before you run the 
+
+command in Listing 16-4; however, this is not always possible, and hot backups are preferable over no 
+backups at all.
+
+You use the slapcat command to dump the LDAP database to a file on disk using the Client Run 
+Before Job script.

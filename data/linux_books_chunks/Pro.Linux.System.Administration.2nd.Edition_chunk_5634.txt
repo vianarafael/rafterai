@@ -1,0 +1,3 @@
+A 
+profile can be described as the kind of host it is. A role in comparison is like the service that host performs. 
+For example, we can have a role of web_server. We can have a profile of UAT web_server.

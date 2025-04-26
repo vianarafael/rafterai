@@ -1,0 +1,7 @@
+Next, I tell how a 
+ similar process is done on an OpenStack Cloud or an Amazon Elastic Compute Cloud (EC2), by 
+ clicking through easy-to-use cloud controllers to choose images and settings to run the Linux 
+cloud instance you want.
+
+Getting Linux to Run in a Cloud
+Cloud platforms are great for spinning up new virtual machines quickly and efﬁ ciently.

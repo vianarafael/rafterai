@@ -1,0 +1,28 @@
+The question mark is a Red Hat Enterprise
+Linux server running on a virtual machine.
+
+You can use arp -d to remove an entry from the arp table.
+
+[root@rhel6 ~]# arp
+Address             HWtype  HWaddress           Flags Mask       Iface
+ubu1010             ether   00:26:bb:12:7a:5e   C                eth0
+anya                ether   00:02:cf:aa:68:f0   C                eth0
+[root@rhel6 ~]# arp -d anya
+[root@rhel6 ~]# arp
+Address             HWtype  HWaddress           Flags Mask       Iface
+ubu1010             ether   00:26:bb:12:7a:5e   C                eth0
+anya                        (incomplete)                         eth0
+[root@rhel6 ~]# ping anya
+PING anya (192.168.1.1) 56(84) bytes of data.
+64 bytes from anya (192.168.1.1): icmp_seq=1 ttl=254 time=10.2 ms
+...
+[root@rhel6 ~]# arp
+Address             HWtype  HWaddress           Flags Mask       Iface
+ubu1010             ether   00:26:bb:12:7a:5e   C                eth0
+anya                ether   00:02:cf:aa:68:f0   C                eth0
+
+273
+
+interface configuration
+
+22.9.

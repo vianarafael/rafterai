@@ -1,0 +1,6 @@
+You will be asked to confirm this password by entering it again.
+
+Figure 2-64.  Setting the MySQL root password
+
+Once you have provided this password, you are then asked to describe your mail server configuration. 
+The screen in Figure 2-65 shows the configuration options, with each option briefly described.

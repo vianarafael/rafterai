@@ -1,0 +1,6 @@
+With CentOS we access the networking settings via the Applications ➤ System Tools ➤ Settings.
+
+In Figure 7-4 we can see the configured networks on our system. In the left-hand panel you can select 
+
+the devices that attached to the system, here our network interface is called “Wired.” The gear cog in the 
+bottom right allows you to access the configuration.

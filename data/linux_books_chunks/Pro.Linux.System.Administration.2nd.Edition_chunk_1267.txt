@@ -1,0 +1,8 @@
+As we mentioned, our wireless network has the network address of 
+192.168.1.0/24 and is facilitated by a wireless access point with the IP address of 192.168.1.250.
+
+219
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+ there are a few ways you can assign an iP address to a computer.

@@ -1,0 +1,40 @@
+Then, depending on the day, a particular backup directory (BACKUP) and tape drive (TAPE) 
+are set.
+
+# Our VAR doesn't have to be a variable,
+# it can be the output of a command as well
+# Perform action based on day of week
+case `date +%a` in
+   "Mon")
+         BACKUP=/home/myproject/data0
+
+162
+
+c07.indd  04/01/2015  Page 163
+
+Chapter 7: Writing Simple Shell Scripts
+
+         TAPE=/dev/rft0
+# Note the use of the double semi-colon to end each option
+         ;;
+# Note the use of the "|" to mean "or"
+   "Tue" | "Thu")
+         BACKUP=/home/myproject/data1
+         TAPE=/dev/rft1
+         ;;
+   "Wed" | "Fri")
+         BACKUP=/home/myproject/data2
+         TAPE=/dev/rft2
+         ;;
+# Don't do backups on the weekend.
+   *)
+
+BACKUP="none"
+         TAPE=/dev/null
+         ;;
+esac
+
+7
+
+The asterisk (*) is used as a catchall, similar to the default keyword in the C  programming 
+language.

@@ -1,0 +1,4 @@
+The value of ServerAdmin (root@localhost, by default) is published on some web pages 
+to tell users where to email if they have problems with the server.
+
+The DirectoryIndex lists ﬁ les that httpd will serve if a directory is requested.

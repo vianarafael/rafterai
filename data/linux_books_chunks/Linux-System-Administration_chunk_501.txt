@@ -1,0 +1,6 @@
+pvs
+
+The easiest way to verify whether devices are known to lvm is with the pvs command. The
+screenshot below shows that only /dev/sda2 is currently known for use with LVM. It shows
+that /dev/sda2 is part of Volgroup00 and is almost 16GB in size. It also shows /dev/sdc and /
+dev/sdd as part of vg33.

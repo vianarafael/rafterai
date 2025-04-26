@@ -1,0 +1,20 @@
+If a
+field contains an asterisk (*), then this means all values of that field.
+
+The following example means : run script42 eight minutes after two, every day of the month,
+every month and every day of the week.
+
+8 14 * * * script42
+
+Run script8472 every month on the first of the month at 25 past midnight.
+
+25 0 1 * * script8472
+
+Run this script33 every two minutes on Sunday (both 0 and 7 refer to Sunday).
+
+*/2 * * * 0
+
+Instead of these five fields, you can also type one of these: @reboot, @yearly or @annually,
+@monthly, @weekly, @daily or @midnight, and @hourly.
+
+16.2.2.

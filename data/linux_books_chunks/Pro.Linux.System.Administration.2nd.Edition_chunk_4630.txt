@@ -1,0 +1,6 @@
+You can convert your old-style slapd.conf into the dynamic LDIF 
+configuration engine by issuing the following command (SLAPD cannot be already running):
+
+$ sudo slapd -f slapd.conf -F slapd.d -u openldap -g openldap
+
+This is similar to our slaptest command we ran previously.

@@ -1,0 +1,8 @@
+Because many default installations of Linux prevent, rather than 
+allow, access to the system, dealing with security for a service such as Samba usually has 
+more to do with making it available than making it secure.
+
+Here are the security features you should be aware of when conﬁ guring your Samba system:
+
+ ■ Firewalls—The default ﬁ rewall for Fedora, RHEL, and other Linux systems prevents 
+any access to local services from outside systems.

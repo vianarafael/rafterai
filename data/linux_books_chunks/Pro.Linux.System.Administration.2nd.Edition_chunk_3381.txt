@@ -1,0 +1,3 @@
+If all have failed, the client will receive an error message.
+
+ We used the lowercase rCpt tO: (rcpt to: jsmith@example.com) in the previous example.

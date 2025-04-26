@@ -1,0 +1,4 @@
+Let’s take an example where you 
+send the company’s marketing newsletter to your clients via MailChimp or Sendgrid or one of the many 
+alternative bulk e-mail services. When the e-mail comes into your client’s e-mail server, it will come from 
+the one of the bulk e-mail provider’s e-mail servers.

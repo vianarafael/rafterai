@@ -1,0 +1,7 @@
+As usual, there are often several ways to 
+accomplish some of the tasks here. So don’t worry if you don’t go about the exercises in 
+exactly the same way as shown in the answers, as long as you get the same results. See 
+Appendix B for suggested solutions.
+
+Don’t do these exercises on a Linux system running a Samba server because they will 
+almost certainly interfere with that server.

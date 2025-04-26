@@ -1,0 +1,20 @@
+Here’s what it looked like when I did that:
+
+Command (m for help): p
+...
+   Device Boot      Start        End    Blocks  Id  System
+/dev/sdc1            2048   15667199   7832576   c  W95 FAT32 (LBA)
+Command (m for help): d
+Selected partition 1
+
+289
+
+ 
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 290
+
+Part III: Becoming a Linux System Administrator
+
+7.  To create a new partition, type the letter n.

@@ -1,0 +1,8 @@
+The -l 
+option can be used to specify logical extents (LE) instead. The default size of an LE is 
+4MB.
+.
+
+The next section will show how to add a new physical volume (a disk) to a volume group 
+and demonstrates how an existing logical volume can be made larger by including 
+physical extents available in the volume group to itself.

@@ -1,0 +1,39 @@
+We need to
+make sure those websites are accesible using the names choochoo.local, chessclub42.local
+and hunter2.local.
+
+First, we need to enable named virtual hosts in the configuration
+
+[root@CentOS65 ~]# vi /etc/httpd/conf/httpd.conf
+[root@CentOS65 ~]# grep ^NameVirtualHost /etc/httpd/conf/httpd.conf
+NameVirtualHost *:80
+[root@CentOS65 ~]#
+
+Next we need to create three new virtualhosts.
+
+[root@CentOS65 ~]# vi /etc/httpd/conf.d/choochoo.local.conf
+[root@CentOS65 ~]# vi /etc/httpd/conf.d/chessclub42.local.conf
+[root@CentOS65 ~]# vi /etc/httpd/conf.d/hunter2.local.conf
+[root@CentOS65 ~]# cat /etc/httpd/conf.d/choochoo.local.conf
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName choochoo.local
+        DocumentRoot /var/www/html/choochoo
+</VirtualHost>
+[root@CentOS65 ~]# cat /etc/httpd/conf.d/chessclub42.local.conf
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName chessclub42.local
+        DocumentRoot /var/www/html/chessclub42
+</VirtualHost>
+[root@CentOS65 ~]# cat /etc/httpd/conf.d/hunter2.local.conf
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName hunter2.local
+        DocumentRoot /var/www/html/hunter2
+</VirtualHost>
+[root@CentOS65 ~]#
+
+Notice that they all listen on port 80 and have an extra ServerName directive.
+
+1.6.2.

@@ -1,0 +1,18 @@
+Figure 20.2 shows an example of the NFS Server Confi guration window.
+
+2020
+
+531
+
+c20.indd  04/01/2015  Page 532
+
+Part IV: Becoming a Linux Server Administrator
+
+FIGURE 20.2
+
+The NFS Server Confi guration window (system-config-nfs) provides a graphical way of 
+confi guring NFS services.
+
+Confi guring the /etc/exports fi le
+To make a directory from your Linux system available to other systems, you need to export 
+that directory.

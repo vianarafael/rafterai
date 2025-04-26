@@ -1,0 +1,69 @@
+Create a new kernel entry in /etc/lilo.conf or /boot/grub/grub.conf instructing the 
+bootloader to use the new initrd.
+
+Sample 
+
+ :
+ grub.conf
+
+title linux (2.4.22)
+        root (hd0,1)
+
+31
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+        kernel /vmlinuz-2.4.22 ro root=LABEL=/ 
+        initrd /initrd-2.4.22.img
+
+title broken?
+        root (hd0,1)
+        kernel /vmlinuz-2.4.22-1.2115.nptl ro root=LABEL=/ 
+        initrd /initrd-new.img
+
+Sample 
+
+ :
+ lilo.conf
+
+ image=/boot/vmlinuz-2.4.22-1.2115.nptl
+
+initrd=/boot/initrd-2.4.22.img
+
+read-only
+
+label=linux
+
+     append=”root=LABEL=/”
+
+image=/boot/vmlinuz-2.4.22-1.2115.nptl
+
+initrd=/boot/initrd-new.img
+
+read-only
+
+label=broken?
+
+     append=”root=LABEL=/”
+
+32
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+The Linux Filesystem
+
+This objective covers most points seen in LPI 101.

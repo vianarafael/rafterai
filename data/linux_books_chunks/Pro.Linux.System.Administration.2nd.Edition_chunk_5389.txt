@@ -1,0 +1,2 @@
+If you are following along with this example, you should 
+create a user on the remote host and specify a password for it.

@@ -1,0 +1,8 @@
+ClamAV is an open source antivirus engine much like similar tools from companies 
+such as Symantec and McAfee. Unlike these commercial products, the ClamAV software and its update 
+signatures are free.
+
+ Clamav uses special rules called signatures to scan your incoming e-mail for data that looks like a 
+
+ ■ Note 
+virus.

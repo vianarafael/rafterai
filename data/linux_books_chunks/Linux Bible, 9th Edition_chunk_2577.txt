@@ -1,0 +1,11 @@
+You can check that host-to-IP-address resolution 
+is working properly using different commands.
+
+366
+
+c14.indd  04/01/2015  Page 367
+
+Chapter 14: Administering Networking
+
+If you want to check that your DNS servers are being queried properly, you can use the 
+host or dig commands.

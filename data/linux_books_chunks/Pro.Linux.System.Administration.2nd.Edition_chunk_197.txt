@@ -1,0 +1,9 @@
+That means the person will have 
+similar abilities as the root user but will need to confirm his or her password before executing any root level 
+commands.
+
+40
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-27.

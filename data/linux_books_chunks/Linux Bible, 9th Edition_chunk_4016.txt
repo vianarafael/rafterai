@@ -1,0 +1,7 @@
+A listing 
+of all processes running on your system appears on the screen, with the name of 
+the process that was killed listed at the end. You can repeat those keystrokes until 
+you have killed enough processes to be able to access the system normally from the 
+shell again.
+
+There are many other Alt+SysRq keystrokes you can use to deal with an unresponsive system.

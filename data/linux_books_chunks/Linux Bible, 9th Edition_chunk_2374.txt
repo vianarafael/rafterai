@@ -1,0 +1,7 @@
+The imudp and imtcp 
+modules and related port number entries are used to allow the rsyslog service to accept 
+remote logging messages and are discussed in more detail in the “Setting up and using a 
+loghost with rsyslogd” section.
+
+Most of the work done in the /etc/rsyslog.conf conﬁ guration ﬁ le involves modifying 
+the RULES section.

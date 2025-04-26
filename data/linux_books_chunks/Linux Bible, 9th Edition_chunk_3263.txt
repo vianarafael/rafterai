@@ -1,0 +1,7 @@
+With passive FTP, the client requests 
+the passive connection and requests a random port from the server.
+
+Many browsers support passive FTP mode so that, if the client has a ﬁ rewall, it doesn’t block 
+the data port the FTP server might use in active mode. Supporting passive mode requires 
+some extra work on the server’s ﬁ rewall to allow random connections to ports above 1023 on 
+the server.

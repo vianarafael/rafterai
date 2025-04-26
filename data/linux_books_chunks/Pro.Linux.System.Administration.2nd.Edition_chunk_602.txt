@@ -1,0 +1,7 @@
+Take a look now at the following directory listing.
+
+-rwSrwSr-- 1 jsmith jsmith     0 Jun  5 09:55 adirectory
+
+This also shows that the setuid and setgid for the “adirectory” directory have been set but designated 
+by “S” this time. What this means is that the directory does not have “execute” permissions associated 
+with the user and group.

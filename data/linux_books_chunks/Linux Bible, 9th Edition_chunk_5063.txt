@@ -1,0 +1,9 @@
+Change the 
+
+number to start more instances if you like.
+
+ ■ Instance Boot Source—The instance can be booted from an image, a snapshot, 
+a volume, an image that includes a new volume, or a volume snapshot that 
+includes a new volume.
+
+ ■ Image Name—Select the image you want to start.

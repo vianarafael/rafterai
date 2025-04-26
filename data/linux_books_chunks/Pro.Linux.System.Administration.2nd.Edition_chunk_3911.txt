@@ -1,0 +1,6 @@
+this approach may be worthwhile for one or two hosts, but it can 
+become unwieldy with a few cross-platform hosts.
+
+Using rsync
+We’ll begin by showing you how to copy data from remote hosts securely and efficiently using a tool called 
+rsync. This solution is designed for less complicated networks that don’t require a full-blown backup plan.

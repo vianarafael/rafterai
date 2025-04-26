@@ -1,0 +1,14 @@
+it is the result of work done by SuSe and red hat, inspired by original work by 
+Oracle. it is still new at the time of writing and the supporting code still needs some work.
+
+to get a copy of latest kernel and other information you can go here:
+
+• 
+
+• 
+
+www.kernel.org/
+
+http://kernelnewbies.org/KernelBuild
+
+the recommended way to update your kernel is via the distribution repositories.

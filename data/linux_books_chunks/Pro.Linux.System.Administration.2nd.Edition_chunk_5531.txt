@@ -1,0 +1,9 @@
+You 
+
+can use a variety of network monitoring tools for this.
+
+$ sudo tcpdump port tftp
+
+Cobbler has a wiki page available that contains documentation at http://cobbler.github.io/
+manuals. The documentation includes some useful tips for troubleshooting at http://cobbler.github.
+io/manuals/2.8.0/7_-_Troubleshooting.html.

@@ -1,0 +1,7 @@
+Find ﬁ les under the /usr/share/doc directory that have not been modiﬁ ed in 
+
+more than 300 days.
+
+$ find /usr/share/doc -mtime +300
+
+7.  Create a /tmp/FILES directory.

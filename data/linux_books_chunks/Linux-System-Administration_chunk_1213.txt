@@ -1,0 +1,7 @@
+/proc/modules
+
+/proc/modules  lists  all  modules  loaded  by  the  kernel.  The  output  would  be  too  long  to
+display here, so lets grep for the vm module.
+
+We see that vmmon and vmnet are both loaded. You can display the same information with
+lsmod.

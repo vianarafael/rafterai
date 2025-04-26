@@ -1,0 +1,21 @@
+Sending E-mail When sudo Runs
+
+Option
+
+Description
+
+mail_always
+
+mail_badpass
+
+mail_no_user
+
+mail_no_host
+
+mail_no_perms
+
+178
+
+Sends e-mail every time a user runs sudo. This flag is set to off by default.
+
+Sends e-mail if the user running sudo does not enter the correct password.

@@ -1,0 +1,3 @@
+Although Mac OS X has its roots in a free software operating system, 
+referred to as the Berkeley Software Distribution (more on that later), operating systems from 
+both Microsoft and Apple are considered proprietary operating systems.

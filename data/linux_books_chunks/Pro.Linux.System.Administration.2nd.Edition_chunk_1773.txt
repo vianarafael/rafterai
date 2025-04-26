@@ -1,0 +1,6 @@
+It allows you to edit Microsoft Office 
+documents and provides similar functionality to Microsoft Office.
+
+Library packages contain files that are used by applications and the operating system to provide 
+
+additional functionality. For instance, cryptography support is provided by the libssl package.

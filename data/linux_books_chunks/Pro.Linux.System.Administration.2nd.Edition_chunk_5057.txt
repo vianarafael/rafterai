@@ -1,0 +1,14 @@
+This is easily done by 
+
+issuing the following:
+
+$ sudo mkdir /var/log/journal
+$ sudo systemctl restart systemd-journald
+
+843
+
+Chapter 18 ■ Logging and Monitoring
+
+Then to generate the key pair, we will issue the command in Figure 18-1.
+
+Figure 18-1.

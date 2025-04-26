@@ -1,0 +1,15 @@
+If you are the administrator 
+for a computer that is accessible to multiple users, don’t leave a root shell open on someone 
+else’s screen—unless you want to give that person freedom to do anything he or she wants 
+to the computer!
+
+179
+
+c08.indd  04/01/2015  Page 180
+
+Part III: Becoming a Linux System Administrator 
+
+Allowing administrative access via the GUI
+As mentioned earlier, when you run GUI tools as a regular user (from Fedora, Red Hat 
+Enterprise Linux, or some other Linux systems), you are prompted for the root password 
+before you are able to access the tool.

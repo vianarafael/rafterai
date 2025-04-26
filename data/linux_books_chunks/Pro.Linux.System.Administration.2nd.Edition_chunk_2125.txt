@@ -1,0 +1,8 @@
+GIGABYTES
+
+When a hard-disk manufacturer advertises its product, it wants the available storage space to seem 
+as large as possible, so it calculates each gigabyte as 1,000 megabytes, which in turn is 1,000,000 
+kilobytes, which is 1,000,000,000 bytes.
+
+however, because all calculations on computers are done via binary arithmetic, the actual multiplication 
+value is 1,024 (gibi means 230).

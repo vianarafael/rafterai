@@ -1,0 +1,3 @@
+The first is the ca option to specify the location of the CA 
+certificate, in our case /etc/pki/tls/certs/cacert.pem. The next, dh, specifies the location of the Diffie-
+Hellman parameter file we created, in our case /etc/openvpn/dh2048.pem.

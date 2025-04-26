@@ -1,0 +1,3 @@
+This command runs through the files in the /etc/grub.d directory and executes 
+them in numbered order. The output of the command to the console shows that is has found two kernels 
+(vmlinuz) with one being a “rescue” kernel.

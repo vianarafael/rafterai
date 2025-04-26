@@ -1,0 +1,5 @@
+Open your local web browser to this address: http://localhost:901.
+
+The Samba Web Administration Tool screen that opens in your browser (after entering the root username 
+and password) provides a different interface for confi guring your Samba server, shared directories, 
+and printers that are described in the rest of this chapter.

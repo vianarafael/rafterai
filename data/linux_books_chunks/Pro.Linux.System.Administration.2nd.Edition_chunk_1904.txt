@@ -1,0 +1,7 @@
+In this case we are listing one file with the mode 0755 and owner and group root.
+
+Finally we have a changelog section. This should be defined in that specific date format (DayofWeek 
+
+Month Day Year name <email>). This needs to be followed by a changelog message starting with a ‘-‘.
+
+Once this is file is saved we can now run the build. There are primary ways to build the RPM.

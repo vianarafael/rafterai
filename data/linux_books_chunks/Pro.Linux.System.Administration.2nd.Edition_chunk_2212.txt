@@ -1,0 +1,29 @@
+Determining the Device Node for a USB Key
+
+$ dmesg
+[   52.464662] usb 1-1: new high speed USB device using ehci_hcd and address 2
+[   52.887506] usb 1-1: configuration #1 chosen from 1 choice
+[   52.967324] usbcore: registered new interface driver libusual
+[   52.981452] Initializing USB Mass Storage driver...
+[   52.986046] scsi3 : SCSI emulation for USB Mass Storage devices
+[   52.987804] usbcore: registered new interface driver usb-storage
+[   52.987831] USB Mass Storage support registered.
+[   52.988661] usb-storage: device found at 2
+[   52.988687] usb-storage: waiting for device to settle before scanning
+[   58.982976] usb-storage: device scan complete
+[   59.350262] usb 1-1: reset high speed USB device using ehci_hcd and address 2
+[   59.772402] scsi 3:0:0:0: Direct-Access     SanDisk  Cruzer
+8.01 PQ: 0 ANSI: 0 CCS
+[   59.789834] sd 3:0:0:0: [sdg] 15682559 512-byte hardware sectors (8029 MB)
+[   59.792747] sd 3:0:0:0: [sdg] Write Protect is off
+[   59.792754] sd 3:0:0:0: [sdg] Mode Sense: 45 00 00 08
+[   59.792766] sd 3:0:0:0: [sdg] Assuming drive cache: write through
+[   59.805772] sd 3:0:0:0: [sdg] 15682559 512-byte hardware sectors (8029 MB)
+[   59.815884] sd 3:0:0:0: [sdg] Write Protect is off
+[   59.815891] sd 3:0:0:0: [sdg] Mode Sense: 45 00 00 08
+[   59.815894] sd 3:0:0:0: [sdg] Assuming drive cache: write through
+[   59.816480]  sdg: sdg1
+[   59.831448] sd 3:0:0:0: [sdg] Attached SCSI removable disk
+[   59.831942] sd 3:0:0:0: Attached scsi generic sg7 type 0
+
+In Listing 9-7, the SanDisk Cruzer USB drive was detected as /dev/sdg.

@@ -1,0 +1,7 @@
+For Kerberos, 
+you must also provide information about the Kerberos server, which includes the 
+Kerberos Realm, KDCs, and Admin Servers. All this information should be provided 
+by the administrators who manage your company’s Kerberos servers.
+
+To start the Authentication Conﬁ guration window from a Red Hat Enterprise Linux 6 
+ desktop, select System ➪ Administration ➪ Authentication.

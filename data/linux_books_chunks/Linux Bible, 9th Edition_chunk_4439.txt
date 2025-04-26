@@ -1,0 +1,5 @@
+Thus, setting the maximum 
+number of logins for these user accounts is a good idea, too.
+
+Limiting the maximum number of logins may have to be done on a per-user basis. For 
+example, johndoe needs to log in to the Linux system only once.

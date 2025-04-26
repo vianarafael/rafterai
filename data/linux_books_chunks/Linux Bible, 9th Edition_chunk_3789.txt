@@ -1,0 +1,5 @@
+First, try seeing if the system will boot from other media. If it turns 
+out that the master boot record was erased, you can try booting rescue media to 
+attempt to recover the contents of the disk. However, if the master boot record 
+is lost, it is possible that other data on the disk is either also erased or would 
+require disk forensics to ﬁ nd.

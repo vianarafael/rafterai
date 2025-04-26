@@ -1,0 +1,7 @@
+First, we open the 1195 port 
+
+for our tunnel on the tun1 interface (the interface number has incremented for our new tunnel).
+
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-port=1195/udp
+
+ our new interface will be tun1 because we already have a tun0 interface.

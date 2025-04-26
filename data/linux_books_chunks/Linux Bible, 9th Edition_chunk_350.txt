@@ -1,0 +1,8 @@
+Chapter 20 covers NFS.
+
+ ■ Windows file sharing server—Set up Linux (Samba) to provide SMB shares to 
+speciﬁ c hosts and users. Conﬁ gure the shares for group collaboration. See 
+Chapter 19 to learn about conﬁ guring Samba.
+
+ ■ Mail server—Conﬁ gure postﬁ x or sendmail to accept incoming mail from outside 
+the local host. Relay mail to a smart host.

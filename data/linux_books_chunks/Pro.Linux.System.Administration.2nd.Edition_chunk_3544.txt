@@ -1,0 +1,9 @@
+The TXT record itself contains the version of SPF (spf1), 
+what e-mail servers can send for our domain (all listed MX servers), and if we should accept or reject e-mail 
+from servers not in that list (-all).
+
+580
+
+Chapter 12 ■ Mail ServiCeS
+
+In this example, we say that any server listed as an MX record is able to send mail on our behalf.

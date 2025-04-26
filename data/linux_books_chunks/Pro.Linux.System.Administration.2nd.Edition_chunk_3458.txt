@@ -1,0 +1,6 @@
+In this 
+case, we’re submitting it to the /usr/sbin/sendmail command, which is the Postfix command that delivers 
+our e-mail back to Postfix to be delivered to the user (the sendmail program here is a symlink to /usr/sbin/
+sendmail.postfix).
+
+We’ve also specified some options for the sendmail command.

@@ -1,0 +1,12 @@
+This chapter steps you 
+through an installation process of a Fedora Live DVD so it is permanently installed on your 
+hard disk.
+
+203
+
+c09.indd  04/01/2015  Page 204
+
+Part III: Becoming a Linux System Administrator
+
+Simplicity is the main advantage of installing from Live media. Essentially, you are just 
+copying the kernel, applications, and settings from the ISO image to the hard disk.

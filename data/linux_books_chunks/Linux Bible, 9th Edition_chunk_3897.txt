@@ -1,0 +1,13 @@
+Here’s how to update all packages needing upgrade, 
+except for a package named somepackage (replace somepackage with the name of 
+the package you want to exclude):
+
+# yum -y --exclude=somepackage update
+
+570
+
+c21.indd  04/01/2015  Page 571
+
+Chapter 21: Troubleshooting Linux
+
+ ■ Try preupgrade for upgrades.

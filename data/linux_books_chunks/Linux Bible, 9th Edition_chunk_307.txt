@@ -1,0 +1,8 @@
+For a certain amount of money per year, you get binary 
+code to run Linux (so you don’t have to compile it yourself), guaranteed support, 
+tools for tracking the hardware and software on your computer, access to the com-
+pany’s knowledge base, and other assets.
+
+Although Red Hat’s Fedora project includes much of the same software and is also 
+available in binary form, there are no guarantees associated with the software or 
+future updates of that software.

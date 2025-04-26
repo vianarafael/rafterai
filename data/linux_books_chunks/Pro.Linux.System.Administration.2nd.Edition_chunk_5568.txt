@@ -1,0 +1,6 @@
+It is more opaque than Kickstart, but it performs the 
+same function of automating an installation.
+
+To provide some context, each d-i line that you see is a call to the Debian installer. The format of the file 
+
+is the same as instructions passed to the debconf-set-selection command.

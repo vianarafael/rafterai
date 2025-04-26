@@ -1,0 +1,8 @@
+The PAM conﬁ guration ﬁ le 
+to edit is /etc/pam.d/system-auth.
+
+Older Linux distributions may use the PAM module pam_tally instead of pam_tally2.
+
+Again, you should make these changes to your local system-auth-local ﬁ le instead of 
+system-auth-ac because authconfig overwrites your modiﬁ cations the next time it 
+is run.

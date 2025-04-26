@@ -1,0 +1,15 @@
+We do this by specifying Require valid-user.
+
+If we now browse to www.example.com/uploads, our browser will ask us for a username and password, 
+
+as shown in Figure 11-1.
+
+Figure 11-1.  Apache authentication
+
+485
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+We won’t be granted access if we don’t provide a valid username and password, but if we enter valid 
+
+credentials, Apache will let us view the site.

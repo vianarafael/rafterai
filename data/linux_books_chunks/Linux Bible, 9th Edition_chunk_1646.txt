@@ -1,0 +1,5 @@
+You can also boot to single-user mode (1), multiuser mode (2), or X 
+GUI mode (5). Level 3 is a good choice if your GUI is temporarily broken. Level 1 
+is good if you have forgotten your root password.
+
+ ■ Watch boot messages. By default, you will see a splash screen as Linux boots.

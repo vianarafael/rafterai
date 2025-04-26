@@ -1,0 +1,10 @@
+Edit the /etc/httpd/conf.d/ssl.conf ﬁ le to change the key and certiﬁ cate 
+
+locations to use the ones you just created. For example:
+
+SSLCertificateFile /etc/pki/tls/certs/server.crt
+SSLCertificateKeyFile /etc/pki/tls/private/server.key
+
+5.  Restart or reload the httpd server.
+
+6.

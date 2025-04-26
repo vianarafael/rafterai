@@ -1,0 +1,16 @@
+deleting home directories
+
+The -r option of userdel will make sure that the home directory is deleted together with the
+user account.
+
+[root@RHEL5 ~]# ls -ld /home/wim/
+drwx------ 2 wim wim 4096 Jun 24 15:19 /home/wim/
+[root@RHEL5 ~]# userdel -r wim
+[root@RHEL5 ~]# ls -ld /home/wim/
+ls: /home/wim/: No such file or directory
+
+15
+
+user management
+
+2.11.

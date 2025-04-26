@@ -1,0 +1,6 @@
+There is no point making backups of backups here—if we did, 
+our backups would double in size with every backup.
+
+It is also interesting to note that we are not backing up the whole system here; for example, we are not 
+
+backing up /usr or /lib or /boot, which are important in full system restores.

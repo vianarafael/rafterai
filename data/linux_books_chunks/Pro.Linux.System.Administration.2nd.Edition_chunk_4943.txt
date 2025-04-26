@@ -1,0 +1,8 @@
+That is all you need to 
+
+configure a basic carbon-cache.
+
+Configuring Carbon-Relay
+
+In this section we are going to configure the carbon-relay. In small networks you won’t need to do this 
+as a single Graphite carbon-cache can manage a significant number of metrics per host.

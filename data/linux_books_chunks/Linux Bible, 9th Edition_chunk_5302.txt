@@ -1,0 +1,27 @@
+To show the status of the cups daemon on your Linux server, use the following:
+
+ ■ For SysVinit:
+
+# service cups status
+cupsd (pid 8236) is running...
+
+ ■ For Upstart:
+
+# initctl status cups
+cups start/running, process 2390
+
+ ■ Remember that if a service has not yet been ported to Upstart, you need to use 
+
+the service command instead of initctl.
+
+ ■ For systemd:
+
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+     Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+     Active: active (running) since Tue, 01 May 2015 04:43:5...
+  Main PID: 17003 (cupsd)     
+     CGroup: name=systemd:/system/cups.service
+              17003 /usr/sbin/cupsd -f
+
+9.

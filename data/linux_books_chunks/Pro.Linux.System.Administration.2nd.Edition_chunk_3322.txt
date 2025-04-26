@@ -1,0 +1,7 @@
+the only 
+way to ensure all your e-mail is encrypted is to make use of content-based encryption solutions like S/MiMe 
+(http://en.wikipedia.org/wiki/S/MIME), pGp (www.pgp.com/), and GnupG (http://www.gnupg.org/).
+
+Authentication
+So now that we have TLS configured, we can encrypt sessions between our clients and the server as well 
+as between our servers and other servers that support TLS.

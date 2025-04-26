@@ -1,0 +1,14 @@
+The salt is displayed in /etc/shadow between
+the second and third $, so never use the password as the salt!
+
+paul@rhel65:~$ ./MyCrypt hunter2 '$1$hunter2'
+$1$hunter2$YVxrxDmidq7Xf8Gdt6qM2.
+
+23
+
+user passwords
+
+3.6. /etc/login.defs
+
+The  /etc/login.defs  file  contains  some  default  settings  for  user  passwords  like  password
+aging and length settings.

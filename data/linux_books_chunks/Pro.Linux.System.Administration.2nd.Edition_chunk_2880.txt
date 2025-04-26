@@ -1,0 +1,8 @@
+We will look here at the worker and event 
+
+MPMs.
+
+For both worker and event performance, there are two primary performance options that can 
+be adjusted. The first is ThreadsPerChild, and the second is MaxRequestWorkers. ThreadsPerChild 
+describes how many server threads are created from each child process. MaxRequestWorkers determines 
+the maximum threads launched in total.

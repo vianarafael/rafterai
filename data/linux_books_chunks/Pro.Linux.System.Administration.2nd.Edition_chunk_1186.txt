@@ -1,0 +1,3 @@
+If we look at our postfix.service file 
+in the /lib/systemd/system directory we will see that the [Install] section has the option, WantedBy=multi-
+user.target.

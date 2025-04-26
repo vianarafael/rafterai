@@ -1,0 +1,12 @@
+This file is updated by
+the login program when entering the wrong password, so it contains failed login attempts.
+Many computers will not have this file, resulting in no logging of failed login attempts.
+
+[root@RHEL4b ~]# lastb
+lastb: /var/log/btmp: No such file or directory
+Perhaps this file was removed by the operator to prevent logging lastb\
+ info.
+[root@RHEL4b ~]#
+
+The reason given for this is that users sometimes type their password by mistake instead
+of their login, so this world readable file poses a security risk.

@@ -1,0 +1,19 @@
+starting and stopping
+
+You can manage squid with the standard service command as shown in this screenshot.
+
+root@debian7:~# service squid start
+Starting Squid HTTP proxy: squid.
+root@debian7:~# service squid restart
+Restarting Squid HTTP proxy: squid.
+root@debian7:~# service squid status
+squid is running.
+root@debian7:~# service squid stop
+Stopping Squid HTTP proxy: squid.
+root@debian7:~#
+
+107
+
+introduction to squid
+
+9.5.

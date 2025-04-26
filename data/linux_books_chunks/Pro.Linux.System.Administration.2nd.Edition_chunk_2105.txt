@@ -1,0 +1,9 @@
+This will quit gdisk without writing the 
+
+modified partition table to the disk.
+
+Partitions also hold information about the type of filesystem they contain. The hexadecimal identifiers 
+
+we got from the l option can be set using the t option.
+
+When you’re happy with a new partition map, you can press w to save it to the disk.

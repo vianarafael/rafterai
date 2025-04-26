@@ -1,0 +1,5 @@
+We will be concerning ourselves 
+
+with the filter table solely, as this is the table you will deal with most often. Remember that the table 
+filter contains the three built-in chains: INPUT, FORWARD, and OUTPUT. These all have the default policy of 
+ACCEPT (we talk about policies shortly).

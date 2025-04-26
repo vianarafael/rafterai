@@ -1,0 +1,5 @@
+There is no validation whether this is a legitimate hostname at all, so it can be anything (and unfortunately 
+this is how a lot of spam can be delivered—more on that shortly). Lastly, the server responds, acknowledges 
+the connection (status code 250), and returns a list of capabilities.
+
+Next we are going to send an e-mail to a user in the example.com domain via this server.

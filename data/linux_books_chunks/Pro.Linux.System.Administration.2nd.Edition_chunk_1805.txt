@@ -1,0 +1,7 @@
+If you experience a problem with the new 
+kernel you can restart and select the older version and see if the problem persists.
+
+Now your system is up to date. At the bottom you of Figure 8-13 you will see the “Last Checked:” time. 
+
+This updates when you click the refresh button as in Figure 8-10. You can also choose to update your system 
+from the command line.

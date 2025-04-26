@@ -1,0 +1,7 @@
+The first, SLAVE=”yes”, declares 
+
+that this device is to be a slave. Next, we declare to which master it belongs by specifying MASTER=”bond0”. 
+The bond0 we are referring to is a device of the same name that we are about to create.
+
+Interface enp0s9 (which is configured in the /etc/sysconfig/network-scripts/ifcfg-enp0s9 file), as 
+we said, will mirror the copy and paste the details from enp0s8.

@@ -1,0 +1,9 @@
+Command-line tools in Linux include 
+
+521
+
+c19.indd  04/01/2015  Page 522
+
+Part IV: Becoming a Linux Server Administrator
+
+the smbclient command, demonstrated earlier in this chapter.

@@ -1,0 +1,6 @@
+Let’s look at the FileSet definition first.
+
+FileSets
+
+A FileSet describes what you want to back up on your hosts. You can declare as many as you like, and you 
+can declare these file sets for Windows, Linux, and Mac hosts.

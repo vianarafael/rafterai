@@ -1,0 +1,8 @@
+To see the list of documentation, type the following:
+
+# rpm -qd nfs-utils | less
+
+There are tools and man pages for both the NFS server side (for sharing a directory with 
+others) and the client side (for mounting a remote NFS directory locally). To conﬁ gure a 
+server, you can refer to the exports man page (to set up the /etc/exports ﬁ le to share 
+your directories).

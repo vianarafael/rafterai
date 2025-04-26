@@ -1,0 +1,13 @@
+In 
+your own Linux system’s man pages, you can read about managing the PAM conﬁ guration 
+ﬁ les and about the modules in your /lib/security directory.
+
+23
+
+ ■ To get more information on PAM conﬁ guration ﬁ les, use the command man 
+
+pam.conf.
+
+ ■ You can see all the PAM modules available on your system by typing ls /lib/
+
+security/pam*.so at the command line.

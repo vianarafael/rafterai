@@ -1,0 +1,5 @@
+When you connect, 
+the remote host will verify that you have the private key that belongs to the public key component on that 
+host. If you do, you are authenticated.
+
+ ■ Note  the public and private keys are used to authenticate you.

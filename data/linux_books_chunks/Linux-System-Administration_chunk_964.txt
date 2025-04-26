@@ -1,0 +1,4 @@
+You  cannot  use  software  to  'see'
+a repeater or hub on the network. The only thing these devices are doing is amplifying
+electrical signals on cables. Passive hubs are multiport amplifiers that amplify an incoming
+electrical signal on all other connections.

@@ -1,0 +1,17 @@
+On a 
+Linux system, you can encrypt the following:
+
+ ■ Individual ﬁ les
+
+ ■ Partitions and volumes
+
+ ■ Web page connections
+
+ ■ Network connections
+
+ ■ Backups
+
+ ■ Zip ﬁ les
+
+These encryption/decryption processes use special math algorithms to accomplish their 
+task.

@@ -1,0 +1,7 @@
+Each Beat is given 
+
+its own timestamp, and we are given a bunch of other related metadata like input_type, the host it can 
+from, tags we have associated with the Beat, and so on. Each of these Beats will have a host, a source, and a 
+message. The message will have the rsyslog format we have already seen.
+
+Listing 18-15.

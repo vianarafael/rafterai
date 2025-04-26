@@ -1,0 +1,9 @@
+Adding team0 Interface
+
+$ sudo nmcli c add type team con-name team0 ifname team0 config 
+ '{"device": "team0", "runner": {"name":"activebackup"}}' ip4 192.168.10.10 gw4 
+192.168.10.254
+
+In Listing 7-2 we have used the nmcli command to add a team interface and assigned it the IP address 
+
+192.168.10.10 and the gateway address of 192.168.10.254.

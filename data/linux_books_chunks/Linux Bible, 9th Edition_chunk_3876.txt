@@ -1,0 +1,2 @@
+After that was corrected, I could start the 
+service (systemctl start httpd).

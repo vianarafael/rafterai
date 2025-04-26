@@ -1,0 +1,25 @@
+troubleshooting ssh
+
+Use ssh -v to get debug information about the ssh connection attempt.
+
+paul@debian5:~$ ssh -v bert@192.168.1.192
+OpenSSH_4.3p2 Debian-8ubuntu1, OpenSSL 0.9.8c 05 Sep 2006
+debug1: Reading configuration data /home/paul/.ssh/config
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Applying options for *
+debug1: Connecting to 192.168.1.192 [192.168.1.192] port 22.
+debug1: Connection established.
+debug1: identity file /home/paul/.ssh/identity type -1
+debug1: identity file /home/paul/.ssh/id_rsa type 1
+debug1: identity file /home/paul/.ssh/id_dsa type -1
+debug1: Remote protocol version 1.99, remote software version OpenSSH_3
+debug1: match: OpenSSH_3.9p1 pat OpenSSH_3.*
+debug1: Enabling compatibility mode for protocol 2.0
+...
+
+303
+
+    
+ssh client and server
+
+25.8.

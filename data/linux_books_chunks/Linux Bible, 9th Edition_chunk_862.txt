@@ -1,0 +1,24 @@
+Table 4.2 explains what you can 
+do with each of them.
+
+TABLE 4.2    Setting Read, Write, and Execute Permissions
+
+Permission
+
+File
+
+Directory
+
+Read
+
+Write
+
+View what’s in the fi le.
+
+See what fi les and subdirectories it contains.
+
+Change the fi le’s 
+content, rename it, or 
+delete it.
+
+Add fi les or subdirectories to the directory.

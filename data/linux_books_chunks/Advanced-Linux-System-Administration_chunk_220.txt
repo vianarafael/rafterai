@@ -1,0 +1,4 @@
+If this entry isn't there then cardmgr will exit.
+
+In order to get the kernel to write an entry into /proc/devices it is necessary to load the 
+relevant modules. Only once kernel support is enabled will cardmgr work properly.

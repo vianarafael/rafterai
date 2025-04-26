@@ -1,0 +1,8 @@
+If you are going to target 
+data directories only, be sure to look at how you are going to rebuild your hosts in the event of a problem 
+with the hosts.
+
+Next, we’re going look at using the Web-UI console to manage our Bareos configurations.
+
+Introducing the Bareos Web-UI
+Using a text-based console is a quick and easy way to set up and manage your Bareos services.

@@ -1,0 +1,10 @@
+We don’t recommend you use 
+the utility, though; instead, you should manually edit your configuration files using a text editor so you 
+become more familiar with all the options.
+
+always remember that after any postfix configuration changes, you must reload or restart the postfix 
+service.
+
+Initial Configuration
+Despite all the rather complicated-looking configuration processes and options, Postfix is actually easy 
+to configure.

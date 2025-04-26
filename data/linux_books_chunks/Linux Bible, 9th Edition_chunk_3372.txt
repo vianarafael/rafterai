@@ -1,0 +1,6 @@
+Other commands you might run so they are 
+interpreted by the client system include !cd (to change directories) or !ls (to list ﬁ les).
+
+Assuming you have read permission of a ﬁ le on the server and write permission from the 
+current directory on the initiating system, you can use the get command to download 
+a ﬁ le from the server (get survey-20141023.txt).

@@ -1,0 +1,11 @@
+For a 
+
+complete list of the configuration options used with DNF see man dnf.conf.
+
+314
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Red Hat Package Management
+We’ve just looked at the yum and dnf commands and how to use them to manage packages. The sole purpose 
+of YUM or DNF is to manage the actual Red Hat Package Management (RPM) packages on your system.

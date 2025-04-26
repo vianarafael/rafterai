@@ -1,0 +1,8 @@
+23
+
+c01.indd  04/01/2015  Page 24
+
+Part I: Getting Started
+
+You must also be able to use LVM to extend the size of a logical volume. Filesystem 
+topics are covered in Chapter 12.

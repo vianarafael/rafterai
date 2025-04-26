@@ -1,0 +1,11 @@
+As an alternative, 
+with the Fedora Live CD booted, open a shell and type dmesg | less to see a listing of 
+ hardware as it is detected on your system.
+
+9
+
+With your hardware in place, you can choose to install Linux from a Live CD or from 
+ installation media, as described in the following sections.
+
+Installing Fedora from Live media
+In Chapter 1, you learned how to get and boot up Linux Live media.

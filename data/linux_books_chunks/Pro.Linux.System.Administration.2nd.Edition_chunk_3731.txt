@@ -1,0 +1,6 @@
+cache=strict sets the caching strategy to support and 
+follows the CIF/SMB2 protocol; other options are none and loosely.
+
+If we want to automount this via fstab, we will need to provide credentials at boot time. These 
+
+credentials need to be provided in plain text in a file on the filesystem, preferably the user’s home directory.

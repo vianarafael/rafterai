@@ -1,0 +1,6 @@
+binding on Redhat/Fedora
+
+4.1.1. binding extra ip addresses
+
+To bind more than one ip address to the same interface, use ifcfg-eth0:0, where the last
+zero can be anything else.

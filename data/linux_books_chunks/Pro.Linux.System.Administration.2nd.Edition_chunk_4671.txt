@@ -1,0 +1,9 @@
+Next, we declare the group admins that we will use to group our administrators.
+
+dn: cn=admins,ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: groupOfNames
+cn: admins
+member: uid=ataylor,ou=people,dc=example,dc=com
+
+We declare a group list with the groupOfNames object class, which allows us to just add members.

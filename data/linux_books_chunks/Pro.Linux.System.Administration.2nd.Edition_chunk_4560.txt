@@ -1,0 +1,10 @@
+This is why we added the 
+following in our db.ldif earlier:
+
+olcDbIndex: exampleActive pres,eq
+
+752
+
+The exampleClient object class defines that we may have the exampleActive attribute present (as 
+indicated by MAY) when we include that object class in our DN entry. If we wanted to enforce its presence, 
+we can specify MUST instead.

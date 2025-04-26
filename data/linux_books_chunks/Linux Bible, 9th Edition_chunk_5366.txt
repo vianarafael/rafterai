@@ -1,0 +1,7 @@
+For example, smb://localhost/phil/.
+
+d. When prompted, type phil as the username and enter phil’s password.
+
+e. Open another Nautilus window and drop a ﬁ le to phil’s homes folder.
+
+9.

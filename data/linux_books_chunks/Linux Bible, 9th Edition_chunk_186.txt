@@ -1,0 +1,11 @@
+This has been brewing since april, and is start-
+ing to get ready. I’d like any feedback on things people like/dislike in minix, as 
+my OS resembles it somewhat (same physical layout of the ﬁ le-system (due to 
+practical reasons, among other things)…Any suggestions are welcome, but I won’t 
+promise I’ll implement them :-)
+
+1
+
+Linus (torvalds@kruuna.helsinki.ﬁ )
+
+PS.

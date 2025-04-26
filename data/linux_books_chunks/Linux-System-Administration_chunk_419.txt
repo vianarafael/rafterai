@@ -1,0 +1,63 @@
+This example shows iostat running every ten seconds with /dev/sdc and /dev/sde
+showing a lot of write activity.
+
+[root@RHEL65 ~]# iostat 10 3
+Linux 2.6.32-431.el6.x86_64 (RHEL65)  06/16/2014    _x86_64_    (1 CPU)
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+           5.81    0.00    3.15    0.18    0.00   90.85
+
+Device:            tps   Blk_read/s   Blk_wrtn/s   Blk_read   Blk_wrtn
+sda              42.08      1204.10      1634.88    1743708    2367530
+sdb               1.20         7.69        45.78      11134      66292
+sdc               0.92         5.30        45.82       7672      66348
+sdd               0.91         5.29        45.78       7656      66292
+sde               1.04         6.28        91.49       9100     132496
+sdf               0.70         3.40        91.46       4918     132440
+sdg               0.69         3.40        91.46       4918     132440
+dm-0            191.68      1045.78      1362.30    1514434    1972808
+dm-1             49.26       150.54       243.55     218000     352696
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          56.11    0.00   16.83    0.10    0.00   26.95
+
+Device:            tps   Blk_read/s   Blk_wrtn/s   Blk_read   Blk_wrtn
+sda             257.01     10185.97        76.95     101656        768
+sdb               0.00         0.00         0.00          0          0
+sdc               3.81         1.60      2953.11         16      29472
+sdd               0.00         0.00         0.00          0          0
+sde               4.91         1.60      4813.63         16      48040
+sdf               0.00         0.00         0.00          0          0
+sdg               0.00         0.00         0.00          0          0
+dm-0            283.77     10185.97        76.95     101656        768
+dm-1              0.00         0.00         0.00          0          0
+
+avg-cpu:  %user   %nice %system %iowait  %steal   %idle
+          67.65    0.00   31.11    0.11    0.00    1.13
+
+Device:            tps   Blk_read/s   Blk_wrtn/s   Blk_read   Blk_wrtn
+sda             466.86     26961.09       178.28     238336       1576
+sdb               0.00         0.00         0.00          0          0
+sdc              31.45         0.90     24997.29          8     220976
+sdd               0.00         0.00         0.00          0          0
+sde               0.34         0.00         5.43          0         48
+sdf               0.00         0.00         0.00          0          0
+sdg               0.00         0.00         0.00          0          0
+dm-0            503.62     26938.46       178.28     238136       1576
+dm-1              2.83        22.62         0.00        200          0
+
+[root@RHEL65 ~]#
+
+Other options are to specify the disks you want to monitor (every 5 seconds here):
+
+iostat sdd sde sdf 5
+
+Or to show statistics per partition:
+
+iostat -p sde -p sdf 5
+
+81
+
+troubleshooting tools
+
+8.5.

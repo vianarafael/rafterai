@@ -1,0 +1,6 @@
+/bin/zsh
+missing   c  /etc/zshrc
+
+In this output, you can see that the /bin/zsh ﬁ le has been tampered with and /etc/
+zshrc has been removed. Each time you see a letter or a number instead of a dot from the 
+rpm -V output, it is an indication of what has changed.

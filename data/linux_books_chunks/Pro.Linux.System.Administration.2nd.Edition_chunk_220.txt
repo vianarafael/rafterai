@@ -1,0 +1,17 @@
+You can find out more about burning ISO files to CD/DVD here: https://help.
+ubuntu.com/community/BurningIsoHowto and here: https://help.ubuntu.com/
+community/Installation/FromUSBStick
+
+You are building just a basic mail, DNS, and web server
+
+You are installing on a fresh server without any previous operating system.
+
+After you place the CD in the CD drive or insert the USB and power on the host, the first screen you will 
+
+see allows you to choose the language of the installation process (Figure 2-41).
+
+53
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-41.

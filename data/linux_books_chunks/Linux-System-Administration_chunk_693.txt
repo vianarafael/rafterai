@@ -1,0 +1,19 @@
+You can see
+that the crond daemon (or service) is only activated in runlevels 2 to 5.
+
+[root@RHEL52 ~]# chkconfig --list crond
+crond           0:off 1:off 2:on 3:on 4:on 5:on 6:off
+
+When you compare the screenshot above with the one below, you can see that off equals to
+a K link to the script, whereas on equals to an S link.
+
+[root@RHEL52 etc]# find ./rc?.d/ -name \*crond -exec ls -l {} \;|cut -b40-
+./rc0.d/K60crond -> ../init.d/crond
+./rc1.d/K60crond -> ../init.d/crond
+./rc2.d/S90crond -> ../init.d/crond
+./rc3.d/S90crond -> ../init.d/crond
+./rc4.d/S90crond -> ../init.d/crond
+./rc5.d/S90crond -> ../init.d/crond
+./rc6.d/K60crond -> ../init.d/crond
+
+15.4.2.

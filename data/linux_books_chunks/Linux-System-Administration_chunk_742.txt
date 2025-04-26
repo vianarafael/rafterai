@@ -1,0 +1,16 @@
+Use chkconfig to setup your script to start in runlevels 3,4 and 5, and to stop in any other
+runlevel.
+
+chkconfig --add pold
+
+The command above will only work when the # chkconfig: and # description: lines in the
+pold script are there.
+
+191
+
+ 
+Part IV. system management
+
+Table of Contents
+
+16.

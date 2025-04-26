@@ -1,0 +1,14 @@
+# eopkg
+
+
+- Install a specific package:
+
+`sudo eopkg install {{package}}`
+
+- Update all packages:
+
+`sudo eopkg upgrade`
+
+- Search for packages:
+
+`sudo eopkg search {{search_term}}`

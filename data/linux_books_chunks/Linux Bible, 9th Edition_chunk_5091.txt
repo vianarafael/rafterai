@@ -1,0 +1,8 @@
+Keep in mind that the latest Fedora Workstation ISO 
+image does not ﬁ t on a CD, so you must burn it to DVD. See the descriptions of CD/DVD burn-
+ing tools available for Windows, Mac OS X, and Linux later in this appendix.
+
+Figure A.1 shows an example of the Get Fedora page.
+
+Today, the default download is an ISO image of a 64-bit PC-type Fedora Workstation 
+(GNOME) Live DVD.

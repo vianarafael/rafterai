@@ -1,0 +1,5 @@
+You can override these in /
+
+etc/systctl.conf or by placing a file like on Ubuntu in /etc/sysctl.d/.
+
+More information on sysctl settings can be found with man sysctl.d.

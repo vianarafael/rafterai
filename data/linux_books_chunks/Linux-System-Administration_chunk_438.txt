@@ -1,0 +1,18 @@
+Test that it works.
+
+90
+
+introduction to uuid's
+
+9.7. solution: uuid and filesystems
+
+1.  Find  the  uuid  of  one  of  your  ext3  partitions  with  tune2fs  (  and  vol_id  if  you  are  on
+RHEL5).
+
+root@rhel55:~# /lib/udev/vol_id -u /dev/hda1
+60926898-2c78-49b4-a71d-c1d6310c87cc
+
+root@ubu1004:~# tune2fs -l /dev/sda2 | grep UUID
+Filesystem UUID:          3007b743-1dce-2d62-9a59-cf25f85191b7
+
+2.

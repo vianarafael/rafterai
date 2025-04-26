@@ -1,0 +1,8 @@
+This chapter describes different ways of 
+obtaining root privilege: direct login, su command, or sudo command. It also covers some 
+of the key responsibilities of a system administrator and components (conﬁ guration ﬁ les, 
+graphical tools, and so on) that are critical to a system administrator’s work.
+
+8
+
+The next chapter describes how to install a Linux system.

@@ -1,0 +1,5 @@
+As an alternative, you 
+can set custom routes to provide alternative paths to speciﬁ c networks.
+
+To set a custom route in Fedora and RHEL, you create a conﬁ guration ﬁ le in the 
+/etc/sysconfig/network-scripts directory.

@@ -1,0 +1,4 @@
+So, a user could get authenticated, but not be able to transfer data.
+
+The next thing you must do on RHEL 6 and earlier systems is set up the FTP connection 
+tracking module to be loaded each time the ﬁ rewall starts up.

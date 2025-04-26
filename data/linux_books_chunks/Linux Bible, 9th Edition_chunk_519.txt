@@ -1,0 +1,6 @@
+By adding a drawer to your GNOME panel, you can include several applets 
+and launchers that together take up the space of only one icon. Click the drawer to show the 
+applets and launchers as if they were being pulled out of a drawer icon on the panel.
+
+To add a drawer to your panel, right-click the panel and select Add to Panel ➪ Drawer. 
+A drawer appears on the panel.

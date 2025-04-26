@@ -1,0 +1,6 @@
+The key is that, instead of all those features being in one program, you 
+get results from piping and redirecting input and output between multiple commands.
+
+Sequential commands
+Sometimes, you may want a sequence of commands to run, with one command completing 
+before the next command begins.

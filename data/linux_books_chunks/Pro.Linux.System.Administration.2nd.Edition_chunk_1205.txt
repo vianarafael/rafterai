@@ -1,0 +1,8 @@
+In this case, you issue the following:
+
+$ sudo update-rc.d -f postfix remove
+
+That is how you would manage Ubuntu SysV init.d. Let’s look at shutting down your system next.
+
+Shutting Down and Rebooting Your Linux Host
+There are several ways to shut down and reboot a Linux host both from the GUI and the command line.

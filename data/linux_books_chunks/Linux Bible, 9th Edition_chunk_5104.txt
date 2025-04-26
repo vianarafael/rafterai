@@ -1,0 +1,5 @@
+Instead, you can download 
+installation DVDs that you can install as described in Chapter 9 of this book.
+
+If you are unable to obtain a Red Hat Enterprise Linux installation DVD, you can get a similar experience using the 
+CentOS installation DVD. CentOS is not exactly the same as RHEL.

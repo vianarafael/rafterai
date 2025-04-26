@@ -1,0 +1,6 @@
+The important note here is that USER will be carbon on CentOS and _graphite on Ubuntu. 
+These must be set for the [relay] and [aggregator] sections as well. The next section further describes the 
+service. In Listing 17-4 are the default settings that are installed with package; these are the same for both 
+distributions.
+
+Listing 17-4.

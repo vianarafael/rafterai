@@ -1,0 +1,6 @@
+To get rid of those messages, direct standard errors to /dev/null. To do that, add the following to the end of the 
+command line: 2> /dev/null. The 2> redirects standard error (STDERR) to the next option (in this case /dev/
+null, where the output is discarded).
+
+Finding files by name
+To ﬁ nd ﬁ les by name, you can use the -name and -iname options.

@@ -1,0 +1,22 @@
+Here’s how it works:
+
+ ■ You create a public key and a private key.
+
+ ■ You guard the private key, but copy the public key across to the user account on 
+
+the remote host to which you want to do key-based authentication.
+
+ ■ With your keys copied to the proper locations, you use any SSH tools to connect 
+
+to the user account on the remote host, but instead of asking you for a password, 
+the remote SSH service compares the public key and the private key and allows you 
+access if the two keys match.
+
+332
+
+c13.indd  04/01/2015  Page 333
+
+Chapter 13: Understanding Server Administration
+
+When you create the keys, you are given the option to add a passphrase to your private 
+key.

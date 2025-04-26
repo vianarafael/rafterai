@@ -1,0 +1,6 @@
+That 
+includes information about the account database and the authentication method:
+
+ ■ LDAP Search Base DN—This is the distinguished name of the LDAP database used 
+to identify the location of the user account records. Often, the name is constructed 
+from the company’s DNS domain name.

@@ -1,0 +1,26 @@
+When data degrades, the data points are 
+“rolled up” or aggregated. You can choose to aggregate using the following functions:
+
+•	
+
+•	
+
+Average (default)
+
+Sum
+
+•	 Max
+
+•	 Min
+
+•	
+
+Last
+
+You can find more information on Whisper here:
+
+•	
+
+http://graphite.readthedocs.io/en/latest/whisper.html
+
+ ■ Note  there are a number of back-end time-series databases that can be used instead of Whisper.

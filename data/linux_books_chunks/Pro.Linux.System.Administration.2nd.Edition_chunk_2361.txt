@@ -1,0 +1,4 @@
+If we had an Ext4 filesystem we would use the resize2fs utility instead. You’ll 
+start with a 2 GiB filesystem, as you can see in Listing 9-19.
+
+Listing 9-19.

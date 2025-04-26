@@ -1,0 +1,11 @@
+Although System V init scripts 
+are still supported, most services are now managed by the systemd facility.
+
+ ■ /etc/mail—Contains ﬁ les used to conﬁ gure your sendmail mail transport 
+
+agent.
+
+ ■ /etc/pcmcia—Contains conﬁ guration ﬁ les that allow you to have a variety 
+
+of PCMCIA cards conﬁ gured for your computer (if the pcmciautils package is 
+installed).

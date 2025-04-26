@@ -1,0 +1,9 @@
+apt-get remove
+
+You can remove one or more applications by appending their name behind apt-get remove.
+The screenshot shows how to remove the rsync package.
+
+root@ubu1204~# apt-get remove rsync
+Reading package lists... Done
+Building dependency tree       
+Reading state information...

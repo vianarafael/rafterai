@@ -1,0 +1,13 @@
+in there, if you create 
+a directory with the same name as your host group, then when you execute an ansible command, any 
+*.yml files will be used to look up any variables (they can also be named *.yaml or be JSoN files, 
+*.json).
+
+965
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+See here for more information: http://docs.ansible.com/ansible/intro_inventory.html#group-
+variables.
+
+ansible also provides the ability to encrypt sensitive variables with the tool ansible Vault.

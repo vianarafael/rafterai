@@ -1,0 +1,10 @@
+This locks the account, while still allowing 
+you to leave the password intact (the -U option unlocks it).
+
+ ■ -m—Available only when –d is used, this causes the contents of the user’s home 
+
+directory to be copied to the new directory.
+
+ ■ -o—Use only with -u uid to remove the restriction that UIDs must be unique.
+
+ ■ -s shell—Specify a different command shell to use for this account.

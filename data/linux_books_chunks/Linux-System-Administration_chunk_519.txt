@@ -1,0 +1,14 @@
+pvresize
+
+When you used fdisk to resize a partition on a disk, then you must use pvresize to make lvm
+recognize the new size of the physical volume that represents this partition.
+
+[root@RHEL5 ~]# pvresize /dev/sde1
+  Physical volume "/dev/sde1" changed
+  1 physical volume(s) resized / 0 physical volume(s) not resized
+
+115
+
+logical volume management
+
+11.11.4.

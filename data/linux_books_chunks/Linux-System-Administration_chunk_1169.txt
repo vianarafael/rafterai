@@ -1,0 +1,14 @@
+nfs authentication only takes place when mounting the share. nfs versions 2 and 3
+authenticate only the host.
+
+320
+
+  
+  
+introduction to networking
+
+27.6.2. server configuration
+
+nfs is configured in /etc/exports. Here is a sample /etc/exports to explain the syntax. You
+need  some  way  (NIS  domain  or  LDAP)  to  synchronize  userid's  across  computers  when
+using nfs a lot.

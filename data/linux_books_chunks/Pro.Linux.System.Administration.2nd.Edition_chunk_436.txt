@@ -1,0 +1,9 @@
+You use Ctrl+Alt+F7 to 
+access the Ubuntu GUI and Ctrl+Alt+F1 for CentOS.
+
+ If you are not running a GuI interface, the virtual consoles are still available to you, and you can use 
+
+ ■ Tip 
+the alt+F1 to F6 keys and the alt+left arrow and alt+right arrow keys to navigate them.
+
+You can also launch a terminal emulator.

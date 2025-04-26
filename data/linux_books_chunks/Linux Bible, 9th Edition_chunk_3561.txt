@@ -1,0 +1,13 @@
+Add a Linux user named phil to your system, and add a Linux password and Samba 
+
+password for phil.
+
+5.  Set the [homes] section so that home directories are browseable (yes) and 
+
+ writable (yes), and phil is the only valid user.
+
+6.  Set any SELinux Boolean that is necessary to make it so phil can access his home 
+
+directory via a Samba client.
+
+7.

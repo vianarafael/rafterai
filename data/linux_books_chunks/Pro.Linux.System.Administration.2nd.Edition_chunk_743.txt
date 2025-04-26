@@ -1,0 +1,7 @@
+You can then add a user to the 
+wheel group, as follows:
+
+# usermod –a wheel ataylor
+
+Again, you specify the group, wheel, with the -a option and the name of the user you want to add to the 
+group last. Now the ataylor user can make use of the sudo command.

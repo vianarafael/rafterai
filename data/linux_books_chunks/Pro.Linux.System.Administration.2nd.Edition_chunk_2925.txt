@@ -1,0 +1,9 @@
+We’ll show you an example of this a bit later, when we install some web applications.
+
+ ■ Tip 
+
+ You can find more information and the apache documentation at http://httpd.apache.org/.
+
+SQL Database
+Because many web-based applications use a SQL server to store data, we’ll also show you how to install a 
+SQL server.

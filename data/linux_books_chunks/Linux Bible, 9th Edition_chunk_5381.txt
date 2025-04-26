@@ -1,0 +1,19 @@
+To add an entry so that the same mount is done automatically when you reboot, 
+
+ﬁ rst unmount /var/remote as follows:
+
+# umount /var/remote
+
+Then add an entry like the following to the /etc/fstab on the client system:
+
+/var/remote   nfsserver:/var/mystuff  nfs bg,ro 0 0
+
+To test that the share is conﬁ gured properly, type the following on the NFS client 
+as the root user:
+
+# mount -a
+# mount -t nfs
+nfsserver:/var/mystuff on /var/remote type nfs4
+ (ro,vers=4,rsize=524288...
+
+10.

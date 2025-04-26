@@ -1,0 +1,27 @@
+The results of this search will look like the following:
+
+ldap_initialize( ldap://ldap.example.com )
+filter: (&(&(objectclass=person)(uid=jsmith))(exampleActive=TRUE))requesting: cn
+# extended LDIF
+#
+# LDAPv3
+# base <ou=people,dc=example,dc=com> with scope subtree
+
+# filter: (&(&(objectclass=person)(uid=jsmith))(exampleActive=TRUE))
+# requesting: cn
+#
+
+# jsmith, People, example.com
+dn: uid=jsmith,ou=people,dc=example,dc=com
+cn: Jane Smith
+
+# search result
+search: 3
+result: 0 Success
+
+# numResponses: 2
+# numEntries: 1
+
+Here you can see that we have returned the DN we were looking for and the common name for that 
+
+entry.

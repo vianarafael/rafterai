@@ -1,0 +1,10 @@
+These can be new connections being initiated from the firewall to remote sockets or it can be part 
+of an established packet flow.
+
+266
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+ ■ Tip 
+ think of the hooks in the preceding explanation as a set of fishing hooks with different types of bait to 
+catch different types of fish.

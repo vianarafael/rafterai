@@ -1,0 +1,7 @@
+The main concepts 
+are the same: choose the language and keyboard layout, choose the way you want to partition your disk, and 
+then select the packages you want to install.
+
+To install Ubuntu, we’re going to download an ISO file from the Ubuntu website that contains much of 
+
+the data we need to complete the installation.

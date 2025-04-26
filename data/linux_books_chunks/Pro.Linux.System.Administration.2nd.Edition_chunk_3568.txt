@@ -1,0 +1,11 @@
+We can now validate our DNS record 
+using the following command:
+
+opendkim-testkey -d example.com -s 201609
+
+No output means we are successful. We are now going to enable and start opendkim.
+
+$ sudo systemctl enable opendkim
+$ sudo systemctl start opendkim
+
+To configure Postfix, we need to add another milter.

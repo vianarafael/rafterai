@@ -1,0 +1,6 @@
+In most 
+cases, you are prompted about how to handle a medium that is inserted or connected.
+
+ ■ CD audio—When an audio CD is inserted, you can choose to be prompted for what 
+to do (default), do nothing, open the contents in a folder window, or select from 
+various audio CD players to be launched to play the content.

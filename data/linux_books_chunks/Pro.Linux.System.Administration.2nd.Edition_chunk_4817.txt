@@ -1,0 +1,3 @@
+If this task must be completed before the process can continue, the 
+process is said to be in uninterruptible sleep. It will count toward a higher load average but won’t actually 
+be using the CPU.

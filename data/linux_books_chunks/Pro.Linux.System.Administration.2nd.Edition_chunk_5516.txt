@@ -1,0 +1,7 @@
+The Cobbler menu
+
+924
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+From this menu, you can select the profile you’d like to install (e.g., CentOS7-x86_64).

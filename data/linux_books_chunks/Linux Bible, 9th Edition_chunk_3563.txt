@@ -1,0 +1,5 @@
+Open up the ﬁ rewall so anyone who has access to the server can access the Samba 
+
+service (smbd and nmbd daemons).
+
+10.

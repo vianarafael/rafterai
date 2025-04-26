@@ -1,0 +1,7 @@
+(In other 
+words, if you shared the /var/stuff directory, clients would know that /var/
+stuff was its exact location on your server).
+
+That’s the bad news. The good news is that most of these issues are addressed in NFSv4 but 
+require some extra conﬁ guration. By integrating Kerberos support, NFSv4 lets you conﬁ g-
+ure user access based on each user obtaining a Kerberos ticket.

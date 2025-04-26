@@ -1,0 +1,5 @@
+If nothing is returned, your Linux distribution does not have that utility.
+
+On some Linux distributions, the utility pam-auth-config is similar to the authconfig utility in its ability to 
+overwrite confi guration fi les. This can happen if the command pam-auth-config --force is entered at the 
+command line.

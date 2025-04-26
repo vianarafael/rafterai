@@ -1,0 +1,3 @@
+Also, you 
+can’t lock the file being edited, so two people can access the same file, make separate changes, and, when 
+one user saves it back to the file share, destroy the other’s work.

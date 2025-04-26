@@ -1,0 +1,5 @@
+Switching from disabled to enforcing via the setenforce command may hang your system as a result of 
+incorrect fi le labels. Keep in mind that, when rebooting after changing from disabled mode, there could be a long 
+wait for your fi lesystem to be relabeled after the system comes back up in permissive or enforcing mode.
+
+To disable SELinux, you must edit the SELinux conﬁ guration ﬁ le.

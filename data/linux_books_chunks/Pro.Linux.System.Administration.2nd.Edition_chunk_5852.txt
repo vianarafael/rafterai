@@ -1,0 +1,17 @@
+The task we are going to run is 
+called spec:ansible, and that will fire up the Ansible Vagrant host and then run the Serverspec tests.
+
+You can see why the tests failed in the Failures: section.
+
+Failures:
+
+  1) Package "httpd" should be installed
+     On host `puppet'
+     Failure/Error: it { should be_installed }
+       expected Package "httpd" to be installed
+       sudo -p 'Password: ' /bin/sh -c rpm\ -q\ httpd
+       package httpd is not installed
+
+     # ./spec/puppet/sample_spec.rb:4:in `block (2 levels) in <top (required)>'
+
+You can see that Serverspec tried to run the rpm –q httpd command but could not find httpd installed.

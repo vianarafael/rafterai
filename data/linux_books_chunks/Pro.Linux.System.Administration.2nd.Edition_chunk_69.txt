@@ -1,0 +1,24 @@
+Following 
+
+are links to some software and instructions on how to do that:
+
+•	
+
+•	
+
+•	
+
+•	
+
+http://unetbootin.github.io/
+
+http://pcsupport.about.com/od/toolsofthetrade/ht/burnisofile.htm
+
+https://help.ubuntu.com/community/BurningIsoHowto
+
+www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows
+
+Or if you already have media available, you can just get started with your installation in Chapter 2.
+
+Getting Support
+Finding help and support for your Linux distribution varies greatly depending on the distribution.

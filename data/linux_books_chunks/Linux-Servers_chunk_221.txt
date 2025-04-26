@@ -1,0 +1,8 @@
+open proxy servers
+
+You can find lists of open proxy servers on the internet that enable you to surf anonymously.
+This works when the proxy server connects on your behalf to a website, without logging
+your ip-address. But be careful, these (listed) open proxy servers could be created in order
+to eavesdrop upon their users.
+
+2.1.3.

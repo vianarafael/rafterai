@@ -1,0 +1,5 @@
+Setting 
+Recycle Oldest Volume = Yes means the oldest volume will be used before any other volume when 
+more than one volume is available. This has the obvious advantage of destroying any existing data on those 
+volumes at the latest possible time, so you will still be able to restore from those volumes up until that time.
+Last in our Pool resource is the Label definition.

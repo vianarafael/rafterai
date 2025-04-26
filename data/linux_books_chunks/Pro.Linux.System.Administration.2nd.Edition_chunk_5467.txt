@@ -1,0 +1,5 @@
+In addition to these methods, you can 
+also get your boot instructions from a network source.
+
+The technology behind this boot process is called Preboot Execution Environment (PXE). A network 
+boot server is hence called a PXE boot (pronounced “pixie boot”) server.

@@ -1,0 +1,15 @@
+A good way 
+to do this is with the tail command using the -f option, which monitors files in real time and scrolls down 
+your screen as new log messages are added to the file.
+
+$ sudo tail –f /var/log/maillog
+
+When Postfix is started successfully, you should see the following log messages:
+
+Jul 10 03:21:34 au-mel-centos-1 postfix/postfix-script[4500]: starting the Postfix mail 
+system
+Jul 10 03:21:34 au-mel-centos-1 postfix/master[4502]: daemon started -- version 2.10.1, 
+configuration /etc/postfix
+
+Understanding Postfix Configuration
+The majority of Postfix configuration is handled by two files, located in the /etc/postfix directory.

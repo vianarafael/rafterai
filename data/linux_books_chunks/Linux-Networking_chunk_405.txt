@@ -1,0 +1,12 @@
+Notice  also  that  we  specified  a
+unique DocumentRoot for each website.
+
+Are you using Ubuntu or Mint, then these configfiles need to end in .conf.
+
+84
+
+apache web server
+
+8.2.3. three extra ports
+
+We need to enable these three ports on apache in the ports.conf file.

@@ -1,0 +1,10 @@
+Recursively copy the /usr/share/doc/initscripts* directory to the $HOME/
+projects/ directory. Maintain the current date/time stamps and permissions.
+
+5.  Recursively list the contents of the $HOME/projects/ directory. Pipe the output 
+
+to the less command so you can page through the output.
+
+6.  Remove the ﬁ les house6, house7, and house8 without being prompted.
+
+7.

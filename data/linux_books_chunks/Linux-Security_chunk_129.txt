@@ -1,0 +1,9 @@
+In fact all users that are
+members of the admin group can use sudo to run all commands as root.
+
+root@laika:~# grep admin /etc/sudoers 
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+The end result of this is that the user can type sudo su - and become root without having to
+enter the root password.

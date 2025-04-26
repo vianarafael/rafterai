@@ -1,0 +1,11 @@
+So 
+expect that you might need to do some extra work to get everything working and that not 
+all the software will be fully baked.
+
+However, I recommend that you use Fedora for most of the examples in this book for the 
+following reasons:
+
+1
+
+ ■ Fedora is used as a proving ground for Red Hat Enterprise Linux. Red Hat tests 
+many new applications in Fedora before committing them to RHEL.

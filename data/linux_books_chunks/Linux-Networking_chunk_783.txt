@@ -1,0 +1,11 @@
+1 root root 5954602 Jun 14  2011 Samba3-HOWTO.pdf
+
+This action is very similar on Ubuntu and Debian except that the pdf files are in a separate
+package named samba-doc-pdf.
+
+root@ubu1204:~# aptitude install samba-doc-pdf
+The following NEW packages will be installed:
+  samba-doc-pdf
+...
+
+15.3.2.

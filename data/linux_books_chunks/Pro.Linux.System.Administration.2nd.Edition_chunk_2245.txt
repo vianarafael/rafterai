@@ -1,0 +1,7 @@
+You can find longer descriptions of these fields 
+on the fstab manual page.
+
+Adding a Partition to /etc/fstab
+
+To add your new partition to our /etc/fstab, we will map our device id, which is device path, label, or 
+UUID, to our mount point.

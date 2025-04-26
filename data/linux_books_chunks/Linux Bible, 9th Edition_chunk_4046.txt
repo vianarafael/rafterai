@@ -1,0 +1,2 @@
+Although a very simple concept, 
+it is often ignored. Access to the physical server means access to all the data it contains.

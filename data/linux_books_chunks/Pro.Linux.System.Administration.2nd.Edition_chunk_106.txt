@@ -1,0 +1,3 @@
+For those that are just 
+starting out in Linux, in Chapter 3 we will introduce you to VirtualBox which is a virtualization application that 
+can allow you to install a Linux server inside your current operating system.

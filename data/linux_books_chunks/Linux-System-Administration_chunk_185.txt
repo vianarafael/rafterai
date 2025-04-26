@@ -1,0 +1,9 @@
+Create a new directory and create six pipes in that directory.
+
+2. Bounce a character between two pipes.
+
+3. Use top and ps to display information (pid, ppid, priority, nice value, ...) about these two
+cat processes.
+
+4. Bounce another character between two other pipes, but this time start the commands nice.
+Verify that all cat processes are battling for the cpu.

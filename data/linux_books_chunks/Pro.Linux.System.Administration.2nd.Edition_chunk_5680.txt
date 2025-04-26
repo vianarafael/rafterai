@@ -1,0 +1,3 @@
+If you do another Puppet run, nothing will be changed. Try it yourself now. On our web server node we are 
+going to remove the /etc/httpd/conf.d/25-www.example.com.conf file that was created during our Puppet 
+run.

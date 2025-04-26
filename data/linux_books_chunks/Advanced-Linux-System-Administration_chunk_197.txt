@@ -1,0 +1,14 @@
+You need to create a new initrd with mkinitrd or add the following lines to a new initrd: 
+
+insmod /lib/lvm-mod.o
+
+raidautorun /dev/md1
+
+The volume group is then activated with vgscan from the rc.sysinit script.
+
+Booting from a logical volume root device
+
+As with software RAID we are going to investigate some issues we need to consider when 
+using LVM on the root device.
+
+First make sure the volume we have created previously is mounted.

@@ -1,0 +1,15 @@
+The material on the right side describes the action.
+
+MYFILENAME=/home/digby/myfile.txt—Sets the value of MYFILENAME
+
+FILE=${MYFILENAME##*/}—FILE becomes myfile.txt
+
+DIR=${MYFILENAME%/*}—DIR becomes /home/digby
+
+NAME=${FILE%.*}—NAME becomes myfile
+
+EXTENSION=${FILE##*.}—EXTENSION becomes txt
+
+Performing arithmetic in shell scripts
+Bash uses untyped variables, meaning it normally treats variables as strings or text, but can 
+change them on the ﬂ y if you want it to.

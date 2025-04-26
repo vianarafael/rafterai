@@ -1,0 +1,25 @@
+Log Testing bash Script
+
+#!/bin/bash
+
+for f in
+{auth,authpriv,cron,daemon,kern,lpr,mail,mark,news,rsyslog,user,uucp,local0,local1, 
+local2,local3,local4,local5,local6,local7}
+
+   do
+    for p in {debug,info,notice,warning,err,crit,alert,emerg}
+   do
+     logger -p $f.$p "Test rsyslog messages from facility $f with priority $p"
+   done
+   done
+exit 0
+
+You can also use logger to pipe a growing file into rsyslog.
+
+$ tail -f /tmp/logfile | logger -p daemon.info
+
+857
+
+Chapter 18 ■ Logging and Monitoring
+
+Here we’ve tailed the file /tmp/logfile into the logger command.

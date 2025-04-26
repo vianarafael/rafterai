@@ -1,0 +1,14 @@
+# swapoff
+
+
+- Disable a given swap area:
+
+`swapoff {{path/to/file}}`
+
+- Disable all swap areas in `/proc/swaps`:
+
+`swapoff {{[-a|--all]}}`
+
+- Disable a swap partition by its label:
+
+`swapoff -L {{label}}`

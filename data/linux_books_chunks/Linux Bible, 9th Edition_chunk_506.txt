@@ -1,0 +1,2 @@
+For example, select Preferences for the stock ticker, and you can add or delete stocks whose 
+prices you want to monitor.

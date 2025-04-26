@@ -1,0 +1,15 @@
+noexec
+
+The noexec option will prevent the execution of binaries and scripts on the mounted file
+system.
+
+root@rhel53 ~# mount -t ext2 -o noexec /dev/hdb1 /home/project42
+root@rhel53 ~# cp /bin/cat /home/project42
+root@rhel53 ~# /home/project42/cat /etc/hosts
+-bash: /home/project42/cat: Permission denied
+root@rhel53 ~# echo echo hello > /home/project42/helloscript
+root@rhel53 ~# chmod +x /home/project42/helloscript 
+root@rhel53 ~# /home/project42/helloscript 
+-bash: /home/project42/helloscript: Permission denied
+
+7.5.3.

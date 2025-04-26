@@ -1,0 +1,5 @@
+use the AXFR 
+query type: dig example.com @127.0.0.1 AXFR.
+
+By default, the bind server listens on the localhost address (127.0.0.1). You will need to set the listen-
+on named.conf option to get the bind server to listen on the local network interface.

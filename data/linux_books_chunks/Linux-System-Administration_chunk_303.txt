@@ -1,0 +1,7 @@
+The next paragraphs will explain how
+to create and use partitions.
+
+A  partition's  geometry  and  size  is  usually  defined  by  a  starting  and  ending  cylinder
+(sometimes  by  sector).  Partitions  can  be  of  type  primary  (maximum  four),  extended
+(maximum one) or logical (contained within the extended partition). Each partition has a
+type  field  that  contains  a  code.

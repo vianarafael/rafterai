@@ -1,0 +1,3 @@
+That’s because after entering his password 
+successfully, he can enter as many sudo commands as he wants for the next 5 minutes 
+without having to enter it again.

@@ -1,0 +1,2 @@
+There are certain entries that we will need 
+anonymous access. When we authenticate against our LDAP server, we need to first access certain entries.

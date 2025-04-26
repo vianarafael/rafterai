@@ -1,0 +1,4 @@
+Multiuser features enable many people to have accounts on a single Linux system, with their 
+data kept secure from others. Multitasking enables many people to run many programs on the 
+
+computer at the same time, with each person able to run more than one program.

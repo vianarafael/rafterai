@@ -1,0 +1,17 @@
+Run it live, 
+as described in the “Starting with the Fedora GNOME Desktop Live CD” section of Chapter 
+2, or install it and run it from hard disk as described in Chapter 9, “Installing Linux.”
+
+ ■ Ubuntu (GNOME 3)—Install Ubuntu, and install the GNOME Shell software as described 
+
+in the beginning of Chapter 2.
+
+ ■ Red Hat Enterprise Linux 7 (GNOME 3)—Install Red Hat Enterprise Linux 7 as 
+
+described in Chapter 9.
+
+ ■ Red Hat Enterprise Linux 6 or earlier (GNOME 2)—Install Red Hat Enterprise Linux 6 
+
+as described in Chapter 9.
+
+2.

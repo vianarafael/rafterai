@@ -1,0 +1,6 @@
+Of course, if the address isn’t available 
+because it has been assigned to a different client, the server will need to issue a different one.
+
+Static Lease Assignments
+Sometimes you want to be able to assign the same IP address to a host or device-for instance, a networked 
+printer or a workstation that hosts a development web site.

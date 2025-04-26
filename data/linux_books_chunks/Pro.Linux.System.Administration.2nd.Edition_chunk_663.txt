@@ -1,0 +1,3 @@
+The -iname option searches for a case-insensitive pattern, in this case, all files 
+starting with myfile. These options are just a very small selection of the possible search options; you can also 
+search by owner, group, permissions, date and time of creation or modification, and size, among others.

@@ -1,0 +1,2 @@
+You can declare more than 
+one database instance.

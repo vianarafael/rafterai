@@ -1,0 +1,3 @@
+Successfully mounted
+
+As shown in Figure 13-4 we have a successfully mounted sales directory.

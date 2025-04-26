@@ -1,0 +1,8 @@
+Having 
+multiple partitions within Fedora or RHEL, for example, offers the following advantages:
+
+ ■ Protection from attacks—Denial-of-service attacks sometimes take actions 
+
+that try to ﬁ ll up your hard disk. If public areas, such as /var, are on separate 
+ partitions, a successful attack can ﬁ ll up a partition without shutting down the 
+whole computer.

@@ -1,0 +1,12 @@
+Thus, 
+these events also have conﬁ guration ﬁ les.
+
+The following is a partial directory listing of the PAM conﬁ guration ﬁ le directory. Notice 
+that there are PAM-aware application conﬁ guration ﬁ les, such as cond, and system event 
+conﬁ guration ﬁ les, such as postlogin-ac.
+
+# ls -l /etc/pam.d
+total 204
+-rw-r--r--. 1 root root  272 Nov 15 10:06 atd
+...
+-rw-r--r--.

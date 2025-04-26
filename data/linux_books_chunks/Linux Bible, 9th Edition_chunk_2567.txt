@@ -1,0 +1,7 @@
+You can check how the 
+current hostname is set at any time by typing the hostname command.
+
+/etc/hosts file
+Before DNS was created, translating hostnames to IP addresses was done by passing around 
+a single hosts ﬁ le. While there were only a few dozen, and then a few hundred, hosts on 
+the Internet, this approach worked pretty well.

@@ -1,0 +1,6 @@
+If you want to restrict access to the printer to selected users, select the Access 
+
+Control heading and choose one of the following options:
+
+ ■ Allow Printing for Everyone Except These Users—With this selected, all users 
+are allowed access to the printer.

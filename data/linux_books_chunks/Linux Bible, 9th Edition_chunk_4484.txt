@@ -1,0 +1,11 @@
+Notice that the pam_tally2 command again lists the number 
+of failed login attempts as it removes the “lock.” When the pam_tally2 command is issued 
+again, the user Samantha’s failed attempt records have been removed because the lock was 
+removed.
+
+# pam_tally2 -r -u Samantha
+Login           Failures Latest failure     From
+Samantha            5    03/10/15 06:34:09  pts/1
+# pam_tally2
+
+You can use many more options with pam_tally2.

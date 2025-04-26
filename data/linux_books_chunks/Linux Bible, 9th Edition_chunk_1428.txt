@@ -1,0 +1,10 @@
+The parport_pc module lets you optionally 
+deﬁ ne the addresses and IRQ numbers associated with each device sharing the parallel 
+port. For example:
+
+# modprobe parport_pc io=0x3bc irq=auto
+
+In this example, a device is identiﬁ ed as having an address of 0x3bc, and the IRQ for the 
+device is auto-detected.
+
+The modprobe command loads modules temporarily—they disappear at the next reboot.

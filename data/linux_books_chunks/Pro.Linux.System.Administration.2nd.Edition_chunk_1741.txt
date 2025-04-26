@@ -1,0 +1,6 @@
+We are going to set up a PPP 
+xDSL connection, which is a common way to connect to an ISP.
+
+The most common way to set up an xDSL connection on Linux without the NetworkManager is to use 
+the Roaring Penguin PPPoE client. To do so, first you will need to check that you have this client installed. On 
+CentOS, again we will use nmcli to create our connection.

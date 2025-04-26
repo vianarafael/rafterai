@@ -1,0 +1,2 @@
+We talked about 
+basic networking, how to manage Linux network interfaces and how to trouble shoot network issues.

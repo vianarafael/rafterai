@@ -1,0 +1,7 @@
+The PAM 
+ conﬁ guration ﬁ les call upon particular PAM modules to perform the needed authentication. 
+PAM modules authenticate subjects from system authorization data, such as a centralized 
+user account using LDAP (see Chapter 11, “Managing User Accounts”).
+
+Linux comes with many applications that are PAM-aware, their needed conﬁ guration ﬁ les 
+and PAM modules already installed.

@@ -1,0 +1,7 @@
+We show that next.
+
+Creating Certificates for TLS
+
+As you’ve discovered, for TLS to work we need two certificates: a server certificate and the root certificate 
+from a CA (either a commercial CA, a noncommercial CA, or your own CA). Let’s start by generating our first 
+server certificate. This first step is generating a server key and a CSR.

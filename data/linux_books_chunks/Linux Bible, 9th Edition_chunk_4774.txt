@@ -1,0 +1,8 @@
+After a network packet matches a particular 
+rule or falls to the default policy, action on the packet can occur. The action taken 
+depends upon what iptable target is set. Here are a couple of actions (targets) that 
+can be taken:
+
+ ■ ACCEPT—Network packet is accepted into the server.
+
+ ■ REJECT—Network packet is dropped and not allowed into the server.

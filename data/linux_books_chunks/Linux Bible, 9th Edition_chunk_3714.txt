@@ -1,0 +1,11 @@
+When you run the following command, the joe user account 
+is created, but you see an error message stating that the home directory already 
+exists (which is correct):
+
+# useradd -u 507 -c "Joe Smith" -d /home/remote/joe joe
+# passwd joe
+Changing password for user joe.
+New password: ********
+Retype new password: ********
+
+9.  On the NFS client system, log in as joe.

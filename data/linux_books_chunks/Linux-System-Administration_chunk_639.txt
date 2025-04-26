@@ -1,0 +1,7 @@
+menu commands
+
+The menu commands must be at the top of grub's configuration file.
+
+default
+
+The default command sets a default entry to start.

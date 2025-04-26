@@ -1,0 +1,12 @@
+To become another user
+and also get the target user's environment, issue the su - command followed by the target
+username.
+
+root@debian7:~# su laura
+laura@debian7:/root$ exit
+exit
+root@debian7:~# su - laura
+laura@debian7:~$ pwd
+/home/laura
+
+1.10.

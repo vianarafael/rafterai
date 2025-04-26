@@ -1,0 +1,7 @@
+Typically, you add the PRINTER variable to one of your startup ﬁ les, 
+such as $HOME/.bashrc. Adding the following line to your .bashrc ﬁ le, for example, sets 
+your default printer to lp3:
+
+export PRINTER=lp3
+
+To override the default printer, specify a particular printer on the lpr command line.

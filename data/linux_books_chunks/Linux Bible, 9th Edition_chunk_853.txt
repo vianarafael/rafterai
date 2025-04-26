@@ -1,0 +1,7 @@
+banana grape .hiddendir script.sh        .tmpfile
+
+To list all ﬁ les by time most recently modiﬁ ed:
+
+$ ls -at
+.tmpfile .hiddendir ..               docs       watermelon banana script.sh
+.

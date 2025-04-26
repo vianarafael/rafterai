@@ -1,0 +1,9 @@
+192.168.12. 192.168.13.
+        log file = /var/log/samba/log.%m
+        max log size = 50
+        security = user
+        cups options = raw
+
+The workgroup (also used as the domain name) is set to datagroup in this example. 
+When a client communicates with the Samba server, this name tells the client which 
+ workgroup the Samba server is in.

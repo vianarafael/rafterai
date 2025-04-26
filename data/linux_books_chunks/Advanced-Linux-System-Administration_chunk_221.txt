@@ -1,0 +1,9 @@
+The 
+module names are kept in the following configuration files:
+
+For RedHat like distributions: /etc/sysconfig/pcmcia
+
+For Debian like distributions: /etc/pcmcia.conf
+
+The main module is called pcmcia_core and uses two other modules called 
+yenta_socket and ds.

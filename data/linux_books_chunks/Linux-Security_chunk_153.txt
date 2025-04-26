@@ -1,0 +1,16 @@
+creating home directories
+
+The easiest way to create a home directory is to supply the -m option with useradd (it is
+likely set as a default option on Linux).
+
+A less easy way is to create a home directory manually with mkdir which also requires
+setting  the  owner  and  the  permissions  on  the  directory  with  chmod  and  chown  (both
+commands are discussed in detail in another chapter).
+
+[root@RHEL5 ~]# mkdir /home/laura
+[root@RHEL5 ~]# chown laura:laura /home/laura
+[root@RHEL5 ~]# chmod 700 /home/laura
+[root@RHEL5 ~]# ls -ld /home/laura/
+drwx------ 2 laura laura 4096 Jun 24 15:17 /home/laura/
+
+2.9.

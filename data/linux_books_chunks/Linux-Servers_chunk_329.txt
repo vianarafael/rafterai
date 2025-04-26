@@ -1,0 +1,7 @@
+It contains the name of a computer and can be
+used to resolve an ip address to a hostname.
+
+NS record
+
+A NS record or nameserver record is a record that points to a DNS name server (in this
+zone).

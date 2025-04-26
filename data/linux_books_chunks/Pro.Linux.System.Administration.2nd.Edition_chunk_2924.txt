@@ -1,0 +1,3 @@
+You also need 
+to set the setgid bit so that new files and directories will inherit ownership from the group that owns the 
+parent directory, not the primary group of the user who happened to create the file or directory in question.

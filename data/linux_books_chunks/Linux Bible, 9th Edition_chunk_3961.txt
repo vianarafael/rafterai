@@ -1,0 +1,4 @@
+You need to 
+check whether your ﬁ rewall is blocking (not accepting packets to) those ports. If the port 
+is not ﬁ ltered, but the state is closed, it means that the httpd service either isn’t running 
+or isn’t listening on those ports.

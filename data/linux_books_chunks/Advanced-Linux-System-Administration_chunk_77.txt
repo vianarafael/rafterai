@@ -1,0 +1,5 @@
+We will 
+also apply patches and recompile patched kernels. Information found in the /proc 
+directory will be highlighted.
+
+1.

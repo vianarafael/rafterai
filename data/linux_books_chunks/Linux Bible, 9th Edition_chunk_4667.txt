@@ -1,0 +1,6 @@
+Though policy rule 
+creation was not covered, you did learn how to modify the supplied policies via Booleans.
+
+SELinux provides another tool for monitoring your Linux system’s security. Because 
+SELinux logs all access denials, it can help you determine if an attack has been or is being 
+attempted. Even the best made plans can go badly.

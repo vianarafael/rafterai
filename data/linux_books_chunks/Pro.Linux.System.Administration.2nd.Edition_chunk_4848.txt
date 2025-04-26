@@ -1,0 +1,2 @@
+You will then be asked for the signal to send to the process. The signal to make a process 
+terminate normally is 15.

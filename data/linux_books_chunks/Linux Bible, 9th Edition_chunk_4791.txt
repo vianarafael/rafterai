@@ -1,0 +1,22 @@
+Example:
+
+# iptables -D INPUT 5
+
+ ■ -j target
+
+25
+
+717
+
+c25.indd  04/02/2015  Page 718
+
+Part V: Learning Linux Security Techniques
+
+If the criteria in the rule are met, the ﬁ rewall should jump to this designated 
+ target for processing. Example:
+
+# iptables -A INPUT -s 10.140.67.25 -j DROP
+
+ ■ -d IP address
+
+Assigns the rule listed to apply to the designated destination IP address.

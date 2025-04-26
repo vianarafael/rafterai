@@ -1,0 +1,15 @@
+Clients that connect to our LDAP server will 
+need to have the CA root certificate installed.
+
+First, create a new directory called /etc/ldap/certs and then change the permissions on it.
+
+$ sudo mkdir /etc/ldap/certs
+
+We will create the key and the CSR on our ldap.example.com host and run the following from inside the 
+
+/etc/ldap/certs directory:
+
+$ sudo openssl req -new -newkey rsa:4096 -nodes -keyout 
+ldap.example.com.key -out ldap.example.com.req
+
+Go ahead and sign the request like we did in Chapters 11 and 15 by our private CA.

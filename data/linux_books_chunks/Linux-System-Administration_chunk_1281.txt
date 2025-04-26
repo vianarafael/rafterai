@@ -1,0 +1,12 @@
+Remember that by
+default tar will restore the file in the current directory.
+
+root@RHELv4u4:~# tar xvf /backup/etc.tar etc/resolv.conf
+etc/resolv.conf
+root@RHELv4u4:~# ls -l /etc/resolv.conf
+-rw-r--r--  2 root root 40 May 12 12:05 /etc/resolv.conf
+root@RHELv4u4:~# ls -l etc/resolv.conf
+-rw-r--r--  1 root root 77 May 12 08:31 etc/resolv.conf
+root@RHELv4u4:~# 
+
+You can preserve file permissions with the p flag.

@@ -1,0 +1,21 @@
+The next section describes how you can set 
+ iptables ﬁ rewall rules manually and use the iptables service directly, without the 
+firewalld service.
+
+Understanding the iptables utility
+Before you start changing the ﬁ rewall rules via the iptables utility, you need to 
+ understand netfilter/iptables basics, which include the following:
+
+ ■ Tables
+
+ ■ Chains
+
+ ■ Policies
+
+ ■ Rules
+
+Each of these basics is critical to setting up and managing your Linux server 
+ﬁ rewall properly.
+
+netfilter/iptables tables
+The iptables ﬁ rewall has the ability to do more than just low-level packet ﬁ ltering.

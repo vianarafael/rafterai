@@ -1,0 +1,11 @@
+For 
+example, the permissions of the passwd command are
+
+-rwsr-xr-x 1 root root 25708  2016-09- 25 17:32 /usr/bin/passwd
+
+128
+
+ChapTeR 4 ■ LInux BasICs
+
+You can see the s in the execute position of the user class, which indicates that the passwd command 
+has the setuid permission set.

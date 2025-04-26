@@ -1,0 +1,2 @@
+The site contains a wealth of knowledge related to security vulner-
+abilities and how they are being dealt with.

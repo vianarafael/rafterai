@@ -1,0 +1,11 @@
+A separate administrative role also prevents others from casually harming your system 
+when they are just using it to write a document or browse the Internet.
+
+173
+
+c08.indd  04/01/2015  Page 174
+
+Part III: Becoming a Linux System Administrator 
+
+If you are the system administrator of a Linux system, you generally log in as a regular 
+user account and then ask for administrative privileges when you need them.

@@ -1,0 +1,11 @@
+apache configuration
+
+There are many similarities, but also a couple of differences when configuring apache on
+Debian or on CentOS. Both Linux families will get their own chapters with examples.
+
+All configuration on RHEL/CentOS is done in /etc/httpd.
+
+[root@centos65 ~]# ls -l /etc/httpd/
+total 8
+drwxr-xr-x. 2 root root 4096 May  6 13:08 conf
+drwxr-xr-x.

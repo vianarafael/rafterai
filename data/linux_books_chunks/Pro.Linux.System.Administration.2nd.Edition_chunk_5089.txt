@@ -1,0 +1,6 @@
+In the bottom of the file you will find the 
+IncludeConfig statement that will tell rsyslog to load any file it finds in the rsyslog.d directory that ends 
+with a *.conf.
+
+In the rsyslog.d directory on Ubuntu there is a file that contains some defaults called 50-default.
+conf; the file contains extra directives.

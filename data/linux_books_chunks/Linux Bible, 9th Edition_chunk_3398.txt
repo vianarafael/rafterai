@@ -1,0 +1,1 @@
+For the server, only a few conﬁ guration ﬁ les and tools are needed to manage Samba.

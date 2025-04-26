@@ -1,0 +1,8 @@
+Combined with 
+PuppetDB, you can get extensive reports about your systems; if you have the enterprise version, you will be 
+able to see these in the Puppet dashboard. You can read more about reporting at https://docs.puppet.
+com/puppet/latest/reporting_about.html.
+
+External Nodes
+
+As you might imagine, when you begin to have a lot of nodes, your configuration can become quite complex.

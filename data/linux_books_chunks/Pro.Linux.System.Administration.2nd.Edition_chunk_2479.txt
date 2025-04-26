@@ -1,0 +1,3 @@
+A DNS server maintains lists of address-to-hostname (and vice versa) mappings and 
+can be queried by other hosts, or by users directly, using various utilities. DNS can be used to find the IP 
+addresses of hosts on your local network or hosts on networks anywhere in the world.

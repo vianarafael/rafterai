@@ -1,0 +1,6 @@
+Over 4000 individuals contributed source code to the
+latest kernel release (version 2.6.27 in November 2008).
+
+Major Linux kernel versions used to come in even and odd numbers. Versions 2.0, 2.2, 2.4
+and 2.6 are considered stable kernel versions. Whereas 2.1, 2.3 and 2.5 were unstable (read
+development) versions.

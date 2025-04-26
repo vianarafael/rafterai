@@ -1,0 +1,3 @@
+We are going to follow the instructions from here: 
+http://docs.grafana.org/installation/debian. You can follow the instructions here for CentOS:  
+http://docs.grafana.org/installation/rpm/.

@@ -1,0 +1,6 @@
+It will route to other networks, like our wireless network, 
+branches, and the Internet via the gateway.example.com host.
+
+As you can see, we have divided the network into separate segments, and we have chosen different 
+
+network addresses to show this.

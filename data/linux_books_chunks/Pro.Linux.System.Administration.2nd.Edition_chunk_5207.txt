@@ -1,0 +1,8 @@
+We do that via the following 
+
+command:
+
+$ sudo -u logstash /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/general.conf
+WARNING: Could not find logstash.yml which is typically located in $LS_HOME/config or /etc/
+logstash. You can specify the path using --path.settings. Continuing using the defaults
+Could not find log4j2 configuration at path /usr/share/logstash/config/log4j2.properties.

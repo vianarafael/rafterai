@@ -1,0 +1,12 @@
+port forwarding
+
+When static dnat is set up in a way that allows outside connections to enter our private
+network, then we call it port forwarding.
+
+115
+
+introduction to routers
+
+7.11. /proc/sys/net/ipv4/ip_forward
+
+Whether  a  host  is  forwarding  packets  is  defined  in  /proc/sys/net/ipv4/ip_forward.

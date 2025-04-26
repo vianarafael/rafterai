@@ -1,0 +1,17 @@
+You can see the variables you can use in VARNAMEs at http://httpd.
+apache.org/docs/current/expr.html.
+
+In the CentOS httpd.conf file we had the Listen directive; on Ubuntu, Apache loads information about 
+which IP addresses and ports it should listen on from the ports.conf file; the default of that file is as follows:
+
+Listen 80
+
+<IfModule ssl_module>
+    Listen 443
+</IfModule>
+
+<IfModule mod_gnutls.c>
+    Listen 443
+</IfModule>
+
+In this file you will see how to defensively add directives for modules.

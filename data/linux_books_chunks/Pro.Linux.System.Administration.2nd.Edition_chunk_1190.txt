@@ -1,0 +1,17 @@
+Listing the Running Services
+
+$ sudo systemctl --type=service --state=running
+UNIT                       LOAD      ACTIVE    SUB        DESCRIPTION
+atd.service                loaded    active    running    Job spooling tools
+crond.service              loaded    active    running    Command Scheduler
+getty@tty1.service         loaded    active    running    Getty on tty1
+NetworkManager.service     loaded    active    running    Network Manager
+postfix.service            loaded    active    running    Postfix Mail Transport Agent
+systemd-journald.service   loaded    active    running    Journal Service
+systemd-logind.service     loaded    active    running    Login Service
+systemd-udevd.service      loaded    active    running    udev Kernel Device Manager
+wpa_supplicant.service     loaded    active    running    WPA Supplicant daemon
+
+In Listing 6-12 we can see the (trimmed) output of the systemctl command which has been run with 
+
+the --type=service and --state=running options.

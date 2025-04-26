@@ -1,0 +1,47 @@
+See Samba
+ﬁ le-matching metacharacters, 102–103
+ﬁ les
+
+copying, 329–332
+encrypting, 645
+ﬁ nding, 125–133
+
+find command, 127–132
+grep command, 132–133
+locate command, 125–126
+
+integrity, ensuring, 639–640
+listing, 105–108
+security context, SELinux, 683, 684–685
+
+ﬁ lesystems, 97–116
+
+basic commands, 100–102
+copying ﬁ les, 114
+
+bindex.indd  04/02/2015  Page 845
+
+Index
+
+fstab ﬁ le, 186, 305–306
+FTP clients, 492–496
+FTP Log, 609
+FTP servers, 477–497
+
+allowing uploading, 489–491
+conﬁ guring, 488–492
+exercises, 497, 818–821
+FTP clients, 492–496
+installing, 479–480
+securing, 483–488
+starting, 480–483
+user access, 488–489
+
+FTP Transfer Log, 609
+
+G
+
+Games man page section, 94
+gconf-editor, 52, 176
+gedit text editor, 117, 118, 152, 181, 328–329
+general regular expression parser.

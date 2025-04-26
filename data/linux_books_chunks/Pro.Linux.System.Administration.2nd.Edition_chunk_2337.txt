@@ -1,0 +1,6 @@
+So what we’ll do is take you through 
+administering via the command line, starting with LVM volumes and groups.
+
+Creating Groups and Volumes
+If you want to use a partition with LVM, you need to set its type to 8e00 - Linux LVM using gdisk. You can 
+also use an entire disk or RAID array as storage for LVM.

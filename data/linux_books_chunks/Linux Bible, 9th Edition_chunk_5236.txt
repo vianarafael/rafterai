@@ -1,0 +1,7 @@
+To look through the change log of the package that provides the mogrify com-
+
+mand, type the following:
+
+# rpm -q --changelog ImageMagick | less
+
+6.

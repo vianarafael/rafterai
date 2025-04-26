@@ -1,0 +1,6 @@
+This way, there is no need to perform several DNS lookups for each connection you make (remember, 
+one or more lookups are performed to find an authoritative DNS server first), which speeds up the process of 
+establishing network connections considerably.
+
+The other important type is called SOA, for Start of Authority. This record contains meta-information 
+about the zone.

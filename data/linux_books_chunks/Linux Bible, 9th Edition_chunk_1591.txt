@@ -1,0 +1,8 @@
+For all practical purposes, each operating system must exist on a 
+ completely separate partition. When your computer boots, you can choose which 
+system to run.
+
+ ■ Multiple partitions within an operating system—To protect their entire 
+
+ operating system from running out of disk space, people often assign separate 
+ partitions to different areas of the Linux ﬁ lesystem.

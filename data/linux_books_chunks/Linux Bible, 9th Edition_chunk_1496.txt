@@ -1,0 +1,4 @@
+If a new  kernel 
+is installed, you can reboot your computer to have that new kernel take effect.
+
+At this point, you can begin using the desktop, as described in Chapter 2.

@@ -1,0 +1,6 @@
+We’ll detail the components of DNS and how to 
+set up and manage a DNS server.
+
+We’ll then discuss the Dynamic Host Configuration Protocol (DHCP), which is used to assign addresses 
+and network configuration to your hosts. Using DHCP means you don’t have to configure individual network 
+settings for clients in your network; rather, this can be automatically provided.

@@ -1,0 +1,3 @@
+Table 9-6 lists the LVM commands you’ll most often use.
+
+Table 9-6.

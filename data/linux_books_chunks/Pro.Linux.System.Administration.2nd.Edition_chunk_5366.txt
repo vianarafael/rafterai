@@ -1,0 +1,35 @@
+Each of these arguments represents one of the arguments we passed in our check_command 
+attribute in Listing 18-19, so our command_line command in fact looks like the following:
+
+command_line    $USER1$/check_disk -w 20% -c 10% -p /
+
+This results in a WARNING status being generated when only 20 percent of disk space is available and a 
+CRITICAL status being generated when 10 percent of disk space is free, with both statuses applying to the 
+root filesystem, or /.
+
+To create a service that monitors disks on another partition, for example, /var, we would create a 
+
+service like the following:
+
+define service{
+          use                            local-service
+          host_name                localhost
+          service_description   Var Partition
+          check_command       check_local_disk!20%!10%!/var
+          }
+
+Before we discuss some other services, let’s take a quick look at the local-service template our service 
+
+is using:
+
+define service{
+        name                                     local-service
+        use                                        generic-service
+        max_check_attempts            4
+        normal_check_interval         5
+        retry_check_interval              1
+        register                                  0
+        }
+
+The service template, local-service, is similar to previous templates you’ve seen but with some 
+additional attributes.

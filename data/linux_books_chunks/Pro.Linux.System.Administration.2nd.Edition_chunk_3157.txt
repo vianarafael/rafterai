@@ -1,0 +1,1 @@
+The Dovecot server provides IMAP and POP3 daemons.

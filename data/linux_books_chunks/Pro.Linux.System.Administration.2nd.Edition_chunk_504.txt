@@ -1,0 +1,3 @@
+These services are 
+usually controlled via the Services manager available in the Control Panel. On Linux hosts, the concept of 
+services also exists.

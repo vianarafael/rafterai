@@ -1,0 +1,8 @@
+We’re 
+going to implement a routed VPN (which is the reason for the tun device) because these types use the IP 
+protocol, which is much more scalable and better suited to our network requirements.
+
+ if you are interested in reading more about the differences between routed and bridged VpNs, you can 
+
+ ■ Note 
+find further information at http://openvpn.net/index.php/documentation/howto.html#vpntype.

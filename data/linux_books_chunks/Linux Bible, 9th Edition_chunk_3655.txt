@@ -1,0 +1,7 @@
+(/mnt is a common place to 
+put temporarily mounted disks and NFS ﬁ lesystems.) The mount command identiﬁ es the 
+remote computer and shared ﬁ lesystem, separated by a colon (maple:/stuff), and the 
+local mount point directory (/mnt/maple) follows.
+
+If the mount fails, make sure the NFS service is running on the server and that the server’s fi rewall rules don’t deny 
+access to the service.

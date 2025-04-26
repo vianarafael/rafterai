@@ -1,0 +1,4 @@
+To do that, we are going to download and configure 
+the awscli program that allows us to interact with AWS resources from our command line.
+
+The first thing we will do is download the awscli package.

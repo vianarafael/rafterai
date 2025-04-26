@@ -1,0 +1,14 @@
+Used alone 
+on the command line, lprm removes all the user’s print jobs from the default printer. To 
+remove jobs from a speciﬁ c printer, use the -P option, as follows:
+
+16
+
+$ lprm -P lp0
+
+To remove all print jobs for the current user, type the following:
+
+$ lprm -
+
+The root user can remove all the print jobs for a speciﬁ c user by indicating that user on the 
+lprm command line.

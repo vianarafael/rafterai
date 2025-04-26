@@ -1,0 +1,8 @@
+On both Ubuntu and CentOS you would issue 
+the following commands:
+
+$ sudo systemctl start collectd
+$ sudo systemctl status collectd
+$ sudo systemctl enable collectd
+
+In the previous lines, we have started Collectd, checked the status, and enabled it on bootup.

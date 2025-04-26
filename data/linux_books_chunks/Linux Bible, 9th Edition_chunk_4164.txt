@@ -1,0 +1,22 @@
+The most recent bootup 
+messages are listed near the end of the 
+fi le.
+
+Records messages printed by the kernel 
+when the system boots.
+
+Contains status messages from the 
+crond daemon.
+
+Contains information concerning 
+installed Debian packages.
+
+Contains messages relating to transfers 
+made using the vsFTPd daemon (FTP 
+server).
+
+Contains information about fi les trans-
+ferred using the FTP service.
+
+Holds messages related to the login 
+screen (GNOME display manager).

@@ -1,0 +1,33 @@
+The gateway.conf Configuration File
+
+# Network configuration
+dev tun
+port 1194
+proto udp
+server 10.8.0.0 255.255.255.0
+keepalive 10 120
+
+# Logging configuration
+log-append /var/log/openvpn.log
+status /var/log/openvpn-status.log
+verb 4
+mute 20
+
+705
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+# Security configuration
+user nobody
+group nobody
+persist-key
+persist-tun
+
+# Compression
+comp-lzo
+
+ ■ Note 
+
+ we’ll expand on the gateway.conf file with additional options as we go along.
+
+In Listing 15-1 we’ve specified a number of options.

@@ -1,0 +1,7 @@
+To 
+the left we have all the fields that are available to us to further refine our query and result list. Let’s see how 
+we do that now.
+
+Again, we are going to discover all the logs relating to the SERVICE_STOP audit event. In Figure 18-7 we 
+
+can see have used the audit_type field, which is how we labeled it in our Logstash filter.

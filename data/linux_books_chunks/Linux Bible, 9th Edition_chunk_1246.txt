@@ -1,0 +1,2 @@
+Now, many Linux desktops allow regular users 
+to start and stop network interfaces from their desktop using Network Manager.

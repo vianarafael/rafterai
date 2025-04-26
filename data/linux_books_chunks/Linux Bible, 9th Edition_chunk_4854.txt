@@ -1,0 +1,9 @@
+GlusterFS (www
+.gluster.org) is a scale-out ﬁ lesystem that is often used in cloud environments.
+
+For the simple mini-cloud example in this chapter, I use NFS to provide shared storage 
+between the hypervisors.
+
+Cloud authentication
+To be able to limit how much cloud resources a user can consume, and possibly track and 
+change for that use, you need authentication mechanisms.

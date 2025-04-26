@@ -1,0 +1,8 @@
+To do that, we are going 
+install its YUM repository for GlusterFS version 3.7.x like so:
+
+$ sudo yum install centos-release-gluster37
+$ sudo yum install –y glusterfs-server
+
+For Ubuntu, we are going to add the Gluster team PPA (this PPA, or Personal Package Archive, is not 
+directly associated with Gluster but a group of Ubuntu maintainers).

@@ -1,0 +1,2 @@
+A conditional 
+restart only restarts a service if it is currently running.

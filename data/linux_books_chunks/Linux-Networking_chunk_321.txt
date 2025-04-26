@@ -1,0 +1,8 @@
+The more
+recent nfs version 4 brings a stateful protocol with better performance and stronger security.
+
+NFS version 4 was defined in rfc 3010 in 2000 and rfc 3530 in 2003 and requires tcp (port
+2049). It also supports Kerberos user authentication as an option when mounting a share.
+NFS versions 2 and 3 authenticate only the host.
+
+6.2.

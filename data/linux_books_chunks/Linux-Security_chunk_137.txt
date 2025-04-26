@@ -1,0 +1,11 @@
+Display a list of all logged on users including the command they are running at this very
+moment.
+
+laura@debian7:~$ w
+ 07:47:02 up 16 min,  2 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/0    10.104.33.101    07:30    6.00s  0.04s  0.00s w
+root     pts/1    10.104.33.101    07:46    6.00s  0.01s  0.00s sleep 42
+laura@debian7:~$
+
+4.

@@ -1,0 +1,3 @@
+To use the same license metaphor, the root certificate is like your state’s department 
+of motor vehicles. It is the place people go to check that you have a valid license and that you are who you 
+say you are.

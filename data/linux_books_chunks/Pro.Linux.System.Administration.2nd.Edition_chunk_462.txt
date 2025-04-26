@@ -1,0 +1,8 @@
+Type more characters, and the 
+Tab key will further narrow the search.
+
+THE PATH
+
+When Linux informs you it can’t find a binary or command, it may be that you have misspelled the name 
+of the command, or it could be that it can’t find that particular command. Like Windows, when executing 
+commands, Linux searches a list of directories to try to find that particular command.

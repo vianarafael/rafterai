@@ -1,0 +1,7 @@
+For a new server administrator, this means that if there are graphical administration tools 
+installed on a server, you can run those tools without having to sit at the console. For example:
+
+$ ssh -X johndoe@10.140.67.23 system-config-date
+johndoe@10.140.67.23's password: **********
+
+After running this command, you are prompted for the root password.

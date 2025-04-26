@@ -1,0 +1,4 @@
+If I had made a mistake, I could 
+easily recall the command and change touch to rm -f to delete all the ﬁ les. In the next 
+example, the use of two dots between letters a and f and numbers 1 and 5 speciﬁ es the 
+ranges to be used.

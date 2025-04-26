@@ -1,0 +1,8 @@
+Examples of variables include $SHELL (which identiﬁ es the shell you are 
+using), $PS1 (which deﬁ nes your shell prompt), and $MAIL (which identiﬁ es the location of 
+your mailbox).
+
+3
+
+You can see all variables set for your current shell by typing the set command. A subset 
+of your local variables are referred to as environment variables.

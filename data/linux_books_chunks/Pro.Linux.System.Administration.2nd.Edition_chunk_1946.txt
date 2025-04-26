@@ -1,0 +1,4 @@
+Removing, of course, removes everything but the configuration files from the host, while purging 
+removes the package in its entirety including any configuration files.
+
+Listing 8-14.

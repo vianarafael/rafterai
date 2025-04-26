@@ -1,0 +1,6 @@
+You may, in fact, have 
+multiple NICs with multiple interfaces to different networks. You may also have multiple 
+routers on your local network that provide routes to particular private networks.
+
+For example, suppose you have a router (or other system acting as a router) on your 
+local network; you can add a custom route to that router via NetworkManager.

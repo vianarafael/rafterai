@@ -1,0 +1,11 @@
+This has allowed the 
+Linux distributions time to slowly migrate to Upstart.
+
+388
+
+c15.indd  04/01/2015  Page 389
+
+Chapter 15: Starting and Stopping Services
+
+The /etc/inittab ﬁ le is still on some distributions. RHEL 6 and the Fedora distributions 
+still using Upstart use /etc/inittab to boot to the default runlevel listed.

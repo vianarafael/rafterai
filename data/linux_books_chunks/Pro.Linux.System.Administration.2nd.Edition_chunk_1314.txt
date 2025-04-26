@@ -1,0 +1,7 @@
+You can 
+choose to either use the graphical user interfaces (GUIs) or run directly from the command line. You can 
+also write directly to network files if you wish.
+
+CentOS and Ubuntu can manage networking differently. CentOS now uses NetworkManager to manage 
+
+its networks. Ubuntu can use NetworkManager but it is not installed by default.

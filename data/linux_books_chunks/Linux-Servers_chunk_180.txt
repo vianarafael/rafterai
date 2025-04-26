@@ -1,0 +1,18 @@
+three extra websites
+
+Next we need to create three DocumentRoot directories.
+
+[root@CentOS65 ~]# mkdir /var/www/html/choochoo
+[root@CentOS65 ~]# mkdir /var/www/html/chessclub42
+[root@CentOS65 ~]# mkdir /var/www/html/hunter2
+
+And we have to put some really simple website in those directories.
+
+[root@CentOS65 ~]# echo 'Choo Choo model train Choo Choo' > /var/www/html/chooc\
+hoo/index.html
+[root@CentOS65 ~]# echo 'Welcome to chess club 42' > /var/www/html/chessclub42/\
+index.html
+[root@CentOS65 ~]# echo 'HaCkInG iS fUn At HuNtEr2' > /var/www/html/hunter2/ind\
+ex.html
+
+1.5.6.

@@ -1,0 +1,5 @@
+l lists all the linux-images installed on our 
+host by using a glob string (meaning we catch all results with the string linux-image in them) by using the * 
+symbol before and after the string we are targeting.
+
+ ■ Tip  glob strings are very useful methods for working with strings, especially strings like file names.

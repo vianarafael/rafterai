@@ -1,0 +1,6 @@
+Although the default 
+targeted mode doesn’t have much impact on most applications you run in Linux, it has a 
+major impact on most major services.
+
+A major function of SELinux is to protect the contents of your Linux system from the 
+ processes running on the system.

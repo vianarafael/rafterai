@@ -1,0 +1,2 @@
+For example, 
+I created a ﬁ lesystem on a removable USB drive that was assigned as the /dev/sdc1 device.

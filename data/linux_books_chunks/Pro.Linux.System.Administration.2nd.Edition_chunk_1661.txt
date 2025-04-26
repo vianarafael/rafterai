@@ -1,0 +1,6 @@
+In the following incidence, we could match only on TCP traffic and 
+send that to some target by replacing (-R) our first INPUT rule.
+
+$ sudo /sbin/iptables –t filter –R INPUT 1 –p tcp –j IPV4-INCOMING
+
+We can further refine our “bait” to attract different types of fish . . . er . . . packets.

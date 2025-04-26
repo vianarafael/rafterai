@@ -1,0 +1,4 @@
+The iSCSI device may require credentials.
+
+ ■ Fibre Channel over Ethernet Devices (FCoE)—For FCoE, you need to know the 
+network interface that is connected to your FCoE switch.

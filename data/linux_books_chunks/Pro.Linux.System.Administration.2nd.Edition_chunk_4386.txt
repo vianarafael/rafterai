@@ -1,0 +1,8 @@
+if you don’t have another 
+
+ ■ Note 
+VpN tunnel, then your interface may be tun0.
+
+We’ve specified the same certificate, key, tls-auth, and DH parameters, but we’ve added a new option 
+
+called plugin.

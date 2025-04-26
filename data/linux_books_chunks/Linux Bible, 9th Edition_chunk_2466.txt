@@ -1,0 +1,8 @@
+(MAC addresses are made to be 
+unique among all network interface cards and are assigned by the manufacturer 
+of each card.)
+
+ ■ Subnet mask—When the DHCP client is assigned an IP address, the accom-
+
+panying subnet mask tells that client which part of the IP address identiﬁ es 
+the subnetwork and which identiﬁ es the host.

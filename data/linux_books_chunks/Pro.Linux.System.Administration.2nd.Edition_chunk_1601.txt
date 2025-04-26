@@ -1,0 +1,10 @@
+be useful.</description>
+ <port protocol="tcp" port="443"/>
+</service>
+
+You can create your own service files in the /etc/firewalld/services directory. These allow you 
+
+reference them as service objects in your firewall configurations.
+
+The configuration options for firewalld can be found in the /etc/firewalld/firewalld.conf and /
+etc/sysconfig/firewalld.

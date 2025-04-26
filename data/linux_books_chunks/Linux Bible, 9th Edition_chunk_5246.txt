@@ -1,0 +1,10 @@
+1 jbaxter testing 0 Jan 25 06:42 /home/jbaxter/file.txt
+sh-4.2$ exit ; exit
+
+5.  Note what user ID has been assigned to jbaxter, and then delete the user account 
+
+without deleting the home directory assigned to jbaxter.
+
+$ userdel jbaxter
+
+6.

@@ -1,0 +1,4 @@
+The net installer provides your host with 
+the basics it needs to boot and start the installation process, and any additional software or applications are 
+then downloaded from online repositories. This means you need to be connected to the Internet to install a new 
+host.

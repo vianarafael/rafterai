@@ -1,0 +1,11 @@
+To check 
+the state of SELinux on your system, type the following:
+
+# getenforce
+Enforcing
+# grep ^SELINUX= /etc/sysconfig/selinux
+SELINUX=enforcing
+
+If your system is in Enforcing mode, as it is here, check the nfs_selinux man page 
+for information about SELinux settings that can impact the operation of your vsftpd 
+ service.

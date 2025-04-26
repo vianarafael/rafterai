@@ -1,0 +1,19 @@
+To install a virtual machine using the ISO image you copied earlier, do the 
+
+following.
+
+a. Type this command:
+
+# virt-manager &
+
+b. Select File, and then select New Virtual Machine.
+
+c. Select Local install media, and click Forward.
+
+d. Select Browse, choose the live or install ISO, click Choose Volume, and click 
+
+Forward.
+
+e. Select memory and CPUs, and click Forward.
+
+f.

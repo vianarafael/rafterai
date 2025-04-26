@@ -1,0 +1,8 @@
+By default, 
+if you run a yum command, yum checks for new metadata if the old metadata is more 
+than 90 minutes old (or by however many minutes metadata_expire= is set to in 
+the /etc/yum.conf ﬁ le).
+
+If you suspect the metadata is obsolete but the expire time has not been reached, 
+you can run yum clean metadata to remove all metadata, forcing new metadata 
+to be uploaded with the next upload.

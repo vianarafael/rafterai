@@ -1,0 +1,9 @@
+dstat output
+
+So far it’s not that much different from vmstat, except that we have disk reads and writes calculated for 
+us, and we also we have network send and receive information. The CPU, paging, and system are the same 
+as vmstat.
+
+Let’s suppose that we have noticed that our application is performing poorly and we think it is due to 
+
+disk performance.

@@ -1,0 +1,8 @@
+Through 
+that window, you can conﬁ gure where your system gets account information and what type 
+of authentication method is used to verify users. Supported centralized database types 
+include these:
+
+ ■ LDAP—The Lightweight Directory Access Protocol is a popular protocol for 
+
+providing directory services (such as phone books, addresses, and user accounts).

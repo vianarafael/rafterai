@@ -1,0 +1,7 @@
+The host definition again can override or add to those definitions defined in the 
+templates.
+
+ What if you define the same attribute in multiple templates—which attribute value is used? nagios 
+
+ ■ Tip 
+inherits downward: the last reference to an attribute is the one that is used.

@@ -1,0 +1,16 @@
+To share a directory /var/mystuff from your NFS server as available to everyone, 
+read-only, and with the root user on the client having root access to the share, ﬁ rst 
+create the mount directory as follows:
+
+# mkdir /var/mystuff
+
+Then create an entry in the /etc/exports ﬁ le that is similar to the following:
+
+/var/mystuff   *(ro,no_root_squash,insecure)
+
+To make the share available, type the following:
+
+# exportfs -v -a
+exporting *:/var/mystuff
+
+6.

@@ -1,0 +1,15 @@
+So another nmap scan is attempted from Host-B, using nmap’s advice of disabling 
+the scan’s ping probes via the -PN option.
+
+$ nmap -sT -PN 10.140.67.23
+Starting Nmap 5.21 ( http://nmap.org ) at 2016-03-22 05:55 HADT
+
+Nmap scan report for 10.140.67.23
+
+Host is up (0.0015s latency).
+All 1000 scanned ports on 10.140.67.23 are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 5.54 seconds
+
+You can see that Host-A (10.140.67.23) is up and running and all its ports have a status of 
+filtered.

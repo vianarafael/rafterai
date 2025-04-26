@@ -1,0 +1,5 @@
+That page contains 
+links to download images for installing Fedora Workstation, Server, and Cloud ﬂ avors.
+
+I recommend downloading the Fedora Workstation Live Image to work along with this book because most of the book 
+works with that distribution.

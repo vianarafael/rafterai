@@ -1,0 +1,5 @@
+Here are a few general rules before performing an upgrade:
+
+ ■ Remove extra packages. If you have software packages you don’t need, remove 
+them before you do an upgrade. Upgrade processes typically upgrade only those 
+packages that are on your system.

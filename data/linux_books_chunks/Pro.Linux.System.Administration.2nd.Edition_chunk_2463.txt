@@ -1,0 +1,4 @@
+The remote host starting with a ‘*’ is the 
+current time source and those with a ‘+’ are hosts that have been selected to be used in the final set for 
+the weighted average computation (do you remember that from Chapter 2?); those with a ‘-‘ have been 
+discarded.

@@ -1,0 +1,10 @@
+# rlogin
+
+
+- Log in to a remote host:
+
+`rlogin {{remote_host}}`
+
+- Log in to a remote host with a specific username:
+
+`rlogin {{[-l|--user]}} {{username}} {{remote_host}}`

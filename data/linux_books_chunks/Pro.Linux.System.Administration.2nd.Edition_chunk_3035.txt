@@ -1,0 +1,8 @@
+It provides free temporary 
+certificates (like Let’s Encrypt) but also allows you to have longer certificates if you pass a “key of trust” that 
+validates domain owners. For more information, see the CAcert web site and wiki: www.cacert.org/ and 
+http://wiki.cacert.org/wiki/.
+
+Certificates from Self-Managed Certificate Authorities
+
+You can also create and manage your own certificates.

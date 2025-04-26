@@ -1,0 +1,10 @@
+1 exbackup adm 3243 Oct 12 23:10 exbackup
+-rw-r--r--. 1 exbackup adm  741 Oct 12 23:10 exbackup.pub
+
+641
+
+Chapter 14 ■ BaCkup and reCovery
+
+First, we issue sudo su – exbackup to change to the shell of exbackup. Then we create the .ssh 
+directory to store our keys in, and if that was successful (as signified by &&), we change the permissions on 
+the directory and change into that directory.

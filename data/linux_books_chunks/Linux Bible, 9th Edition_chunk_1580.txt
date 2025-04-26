@@ -1,0 +1,5 @@
+To force the installer to 
+prompt for the repository location (CD/DVD, hard drive, NFS, or URL), add askmethod to 
+the installation boot options.
+
+Using repo= options, you can identify software repository locations.

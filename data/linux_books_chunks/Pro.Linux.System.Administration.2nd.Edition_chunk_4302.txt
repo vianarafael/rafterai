@@ -1,0 +1,21 @@
+OpenVPN Firewall Rules CentOS
+
+$ sudo firewall-cmd --zone public --permanent --add-port=1194/udp && sudo firewall-cmd 
+--reload
+
+Here we’ve added a rule allowing incoming UDP traffic to the tun0 interface on port 1194.
+Or, if you are using TCP instead, you use a rule like the following:
+
+$ sudo firewall-cmd --zone public --permanent --add-port=1194/tcp && sudo firewall-cmd –
+reload
+
+706
+
+And of course for Ubuntu that would be as follows:
+
+$ sudo ufw allow 1194/udp
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+ ■ Tip 
+ the most common reason for a failed VpN configuration is a firewall issue.

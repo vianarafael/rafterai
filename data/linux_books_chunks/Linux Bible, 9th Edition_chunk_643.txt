@@ -1,0 +1,6 @@
+So I talk next about features for 
+recalling commands, completing commands, using variables, and creating aliases.
+
+Recalling Commands Using Command History
+Being able to repeat a command you ran earlier in a shell session can be convenient. 
+Recalling a long and complex command line that you mistyped can save you some trouble.

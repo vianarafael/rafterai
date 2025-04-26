@@ -1,0 +1,9 @@
+To run the check, type chkrootkit at the command line and review the 
+
+results.
+
+9.  To ﬁ nd ﬁ les anywhere in the system with the SetUID or SetGID permission set, type 
+
+find / -perm /6000 at the command line.
+
+10.

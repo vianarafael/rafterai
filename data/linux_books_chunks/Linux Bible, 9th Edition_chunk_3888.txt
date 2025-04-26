@@ -1,0 +1,13 @@
+When you run yum upgrade, the system actually attempts to upgrade to a whole new version of 
+those distributions (such as Fedora 20 to Fedora 21).
+
+569
+
+c21.indd  04/01/2015  Page 570
+
+Part IV: Becoming a Linux Server Administrator
+
+When you encounter a dependency problem, here are a few things you can do to try to 
+resolve the problem:
+
+ ■ Use stable repositories.

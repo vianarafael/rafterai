@@ -1,0 +1,16 @@
+What happens when you mount two file systems on the same mount point ?
+
+Only the last mounted fs is visible.
+
+75
+
+mounting
+
+7.  (optional)  Describe  the  difference  between  these  commands:  find,  locate,  updatedb,
+makewhatis, whereis, apropos, which and type.
+
+man find
+man locate
+...
+
+8.

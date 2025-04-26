@@ -1,0 +1,19 @@
+200 OK
+Length: 5039 (4.9K) [text/html]
+Saving to: “noindex.html”
+
+100%[=============================================>] 5,039       --.-K/s   in 0s
+
+2014-05-06 15:16:05 (289 MB/s) - “noindex.html” saved [5039/5039]
+
+[root@centos65 ~]# file noindex.html
+noindex.html: HTML document text
+[root@centos65 ~]#
+
+Any custom index.html file in /var/www/html will immediately serve as an index for this
+web server.
+
+[root@centos65 ~]# echo 'Welcome to my website' > /var/www/html/index.html
+[root@centos65 ~]# wget http://127.0.0.1
+--2014-05-06 15:19:16--  http://127.0.0.1/
+Connecting to 127.0.0.1:80...

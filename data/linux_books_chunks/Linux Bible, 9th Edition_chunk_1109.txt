@@ -1,0 +1,13 @@
+Likewise, any attempt to set a negative value will fail.
+
+ ■ A regular user can set the nice value only on the user’s own processes.
+
+ ■ The root user can set the nice value on any process to any valid value, up or down.
+
+148
+
+c06.indd  04/01/2015  Page 149
+
+Chapter 6: Managing Running Processes
+
+You can use the nice command to run a command with a particular nice value.

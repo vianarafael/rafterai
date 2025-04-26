@@ -1,0 +1,3 @@
+If 
+your system has two hard disks, you may assign one to / and one to /home (if you 
+have lots of users) or /var (if the computer is a server sharing lots of data).

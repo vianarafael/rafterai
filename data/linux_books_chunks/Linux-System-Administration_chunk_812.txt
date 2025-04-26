@@ -1,0 +1,21 @@
+An example of testing syslogd with the logger tool.
+
+[root@rhel4a ~]# logger -p local4.debug "l4 debug"
+[root@rhel4a ~]# logger -p local4.crit "l4 crit"
+[root@rhel4a ~]# logger -p local4.emerg "l4 emerg"
+[root@rhel4a ~]#
+
+The results of the tests with logger.
+
+[root@rhel4a ~]# cat /var/log/critandabove 
+Feb 14 19:55:19 rhel4a paul: l4 crit
+Feb 14 19:55:28 rhel4a paul: l4 emerg
+[root@rhel4a ~]# cat /var/log/onlycrit 
+Feb 14 19:55:19 rhel4a paul: l4 crit
+[root@rhel4a ~]# cat /var/log/alllocal4 
+Feb 14 19:55:11 rhel4a paul: l4 debug
+Feb 14 19:55:19 rhel4a paul: l4 crit
+Feb 14 19:55:28 rhel4a paul: l4 emerg
+[root@rhel4a ~]#
+
+17.4.

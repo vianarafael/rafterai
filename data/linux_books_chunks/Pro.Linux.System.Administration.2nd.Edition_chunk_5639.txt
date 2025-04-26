@@ -1,0 +1,9 @@
+Then we provide this node with the profile::web_server profile.
+
+There is a special node declaration for when there is no match, the default node definition.
+
+node default { ... }
+
+You can use this default node declaration to notify people that a node has no definition or to apply a set 
+
+of default security restrictions.

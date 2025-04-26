@@ -1,0 +1,10 @@
+You won’t generally have to change much 
+
+PAM configuration, but it is important to understand how it works.
+
+ We’ll talk a bit more about how paM is used with other authentication mechanisms (e.g., integration 
+
+ ■ Note 
+with active directory and Ldap) in Chapter 16.
+
+PAM was originally designed by Sun Microsystems to provide a plug-in authentication framework.

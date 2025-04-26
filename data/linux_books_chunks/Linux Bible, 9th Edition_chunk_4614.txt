@@ -1,0 +1,8 @@
+This time, the policy name is passed to it, as shown in the following example:
+
+# getsebool httpd_can_connect_ftp
+httpd_can_connect_ftp --> off
+
+To toggle a policy, you can use either the setsebool command or the togglebool com-
+mand. Both of these commands change the policy rule temporarily. When the system is 
+rebooted, the Boolean returns to its original setting.

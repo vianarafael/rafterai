@@ -1,0 +1,13 @@
+No rules are 
+set, and the policies are all set to ACCEPT.
+
+# iptables -vnL
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination
+
+First, what would happen if the INPUT policy was changed from ACCEPT to DROP? Would 
+that reach the goal? Look at what happens when this is tried.

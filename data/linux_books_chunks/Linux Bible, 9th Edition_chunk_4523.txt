@@ -1,0 +1,5 @@
+Classiﬁ cation level is an attribute granted to an object, providing protection from subjects 
+who have a security clearance attribute that is too low. You most likely have heard the 
+classiﬁ cation level “Top Secret.” The ﬁ ctional book and movie character James Bond had a 
+top-secret security clearance, which granted him access to top-secret classiﬁ ed informa-
+tion.

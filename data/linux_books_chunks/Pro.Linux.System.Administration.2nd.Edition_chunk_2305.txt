@@ -1,0 +1,31 @@
+Querying RAID Device Status
+
+$ $ sudo mdadm --query --detail /dev/md0
+/dev/md0:
+Version          : 1.2
+Creation Time    : Mon Jun 20 09:41:18 2016
+Raid Level       : raid1
+Array Size       : 8383424 (8.00 GiB 8.58 GB)
+Used Dev Size    : 8383424 (8.00 GiB 8.58 GB)
+Raid Devices     : 2
+Total Devices    : 3
+Persistence      : Superblock is persistent
+Update Time      : Mon Jun 20 09:42:00 2016
+State            : clean
+Active Devices   : 2
+Working Devices  : 3
+Failed Devices   : 0
+Spare Devices    : 1
+
+Name             : au-mel-centos-1.example.com:0  (local to host gateway.example.com)
+UUID             : ca66c4e2:49e8c87e:94d311de:01ca4f55
+Events           : 17
+
+Number   Major   Minor   RaidDevice      State
+     0       8      33            0      active sync   /dev/sdc
+     1       8      49            1      active sync   /dev/sdd
+     2       8      65            -      spare         /dev/sde
+
+Listing 9-15 displays the metainformation about the array, as well as a detailed status for each 
+
+component.

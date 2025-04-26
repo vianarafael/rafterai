@@ -1,0 +1,10 @@
+Commands end with ; or \g.
+...
+
+45
+
+introduction to sql using mysql
+
+3.2.3. ~/.my.cnf
+
+You  can  save  configuration  in  your  home  directory  in  the  hidden  file  .my.cnf.

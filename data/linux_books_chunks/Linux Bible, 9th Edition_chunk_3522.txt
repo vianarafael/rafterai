@@ -1,0 +1,6 @@
+Here is an example:
+
+interfaces = lo 192.168.22.15/24
+
+This interfaces entry allows access to the Samba service to all users on the local system 
+(lo). It also allows access to any systems on the 192.168.22 network.

@@ -1,0 +1,23 @@
+Try the following com-
+mands to see whether you get the same responses:
+
+$ ls a*
+apple
+$ ls g*
+grape grapefruit
+$ ls g*t
+grapefruit
+
+102
+
+ 
+c04.indd  04/01/2015  Page 103
+
+Chapter 4: Moving around the Filesystem
+
+$ ls *e*
+apple grape grapefruit watermelon
+$ ls *n*
+banana watermelon
+
+The ﬁ rst example matches any ﬁ le that begins with a (apple).

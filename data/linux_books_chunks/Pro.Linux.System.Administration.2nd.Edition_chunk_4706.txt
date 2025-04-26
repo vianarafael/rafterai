@@ -1,0 +1,26 @@
+To do that, we will need to add the following LDIF to our LDAP server:
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+dn: cn=default,ou=policies,dc=example,dc=com
+objectClass: top
+objectClass: device
+objectClass: pwdPolicy
+cn: default
+pwdAttribute: userPassword
+pwdMaxAge: 7776000
+pwdExpireWarning: 6912000
+pwdInHistory: 3
+pwdCheckQuality: 1
+pwdMinLength: 8
+pwdMaxFailure: 4
+pwdLockout: TRUE
+pwdLockoutDuration: 1920
+pwdGraceAuthNLimit: 0
+pwdFailureCountInterval: 0
+pwdMustChange: TRUE
+pwdAllowUserChange: TRUE
+pwdSafeModify: FALSE
+
+We have now added the password policy to our LDAP server, and it has some basic settings like 
+password age (90 days in seconds) and passwords in history (3).

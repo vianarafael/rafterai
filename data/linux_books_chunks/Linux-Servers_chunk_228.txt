@@ -1,0 +1,20 @@
+Also test that after a service squid
+stop command on your proxy server that you get a message similar to this schreenshot.
+
+35
+
+introduction to squid
+
+To enable a proxy server with Google Chrome (or Debian Chromium) start the program
+from the command line like this:
+
+paul@debian7:~$ chromium --proxy-server='192.168.1.60:3128'
+
+Disabling the proxy with service squid stop should result in an error message similar to
+this screenshot.
+
+36
+
+introduction to squid
+
+2.6.

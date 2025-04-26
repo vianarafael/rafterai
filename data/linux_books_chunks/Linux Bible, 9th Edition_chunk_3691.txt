@@ -1,0 +1,6 @@
+However, to make the process of detecting and mounting remote NFS ﬁ lesystems 
+more automatic, you still need to use a facility such as autofs (short for automatically 
+mounted ﬁ lesystems).
+
+The autofs facility mounts network ﬁ lesystems on demand when someone tries to use 
+the ﬁ lesystems.

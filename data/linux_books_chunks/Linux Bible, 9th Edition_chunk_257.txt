@@ -1,0 +1,46 @@
+Most of 
+the following rules for acceptable open source licenses serve to protect the freedom and 
+integrity of the open source code:
+
+ ■ Free distribution—An open source license can’t require a fee from anyone who 
+
+resells the software.
+
+ ■ Source code—The source code must be included with the software and there can be 
+
+no restrictions on redistribution.
+
+ ■ Derived works—The license must allow modiﬁ cation and redistribution of the code 
+
+under the same terms.
+
+ ■ Integrity of the author’s source code—The license may require that those who 
+use the source code remove the original project’s name or version if they change 
+the source code.
+
+ ■ No discrimination against persons or groups—The license must allow all people 
+
+to be equally eligible to use the source code.
+
+ ■ No discrimination against fields of endeavor—The license can’t restrict a project 
+from using the source code because it is commercial or because it is associated with 
+a ﬁ eld of endeavor that the software provider doesn’t like.
+
+ ■ Distribution of license—No additional license should be needed to use and 
+
+ redistribute the software.
+
+ ■ License must not be specific to a product—The license can’t restrict the source 
+
+code to a particular software distribution.
+
+ ■ License must not restrict other software—The license can’t prevent someone 
+from including the open source software on the same medium as non–open 
+source software.
+
+ ■ License must be technology-neutral—The license can’t restrict methods in which 
+
+the source code can be redistributed.
+
+Open source licenses used by software development projects must meet these criteria to be 
+accepted as open source software by OSI.

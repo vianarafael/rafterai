@@ -1,0 +1,4 @@
+192.168.42.50
+Connecting to chessclub42.local (chessclub42.local)|192.168.42.50|:80... conne\
+cted.
+HTTP request sent, awaiting response...

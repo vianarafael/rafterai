@@ -1,0 +1,3 @@
+It can be seen as one small piece of your overall system security.
+
+To use FSS, you first need to enable the persistent storage of your journal log files.

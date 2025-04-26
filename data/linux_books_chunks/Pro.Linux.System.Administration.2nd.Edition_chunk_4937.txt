@@ -1,0 +1,12 @@
+A declaration like 
+
+[cache:1] with different receiver ports specified looks like so:
+
+[cache:1]
+LINE_RECEIVER_PORT = 2103
+PICKLE_RECEIVER_PORT = 2104
+
+You can have one carbon-cache per CPU if you are running on a host with several CPUs.
+The last piece of a carbon-cache is the way we store our metric data in our Whisper database. We do this 
+
+by the file /etc/carbon/storage-schemas.conf.

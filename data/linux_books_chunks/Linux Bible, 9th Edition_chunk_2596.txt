@@ -1,0 +1,4 @@
+That means that 
+only one NIC is active at a time and the next NIC only takes over when the previous 
+one fails (failover). No network interface card is associated with the bond0 interface 
+yet. For that, you must create separate ifcfg ﬁ le options.

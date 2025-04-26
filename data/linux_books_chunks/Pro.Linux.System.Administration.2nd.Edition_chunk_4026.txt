@@ -1,0 +1,4 @@
+We have also specified our default region, which is the one closest to us, and the output format of JSON; 
+these can be overridden at any time and are not really important.
+
+ the aws configure command creates a clear-text file of your aWS credentials.

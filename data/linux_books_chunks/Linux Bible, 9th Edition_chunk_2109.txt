@@ -1,0 +1,11 @@
+With LVM, physical disk partitions are added to pools 
+of space called volume groups. Logical volumes are assigned space from volume groups as 
+needed. This gives you these abilities:
+
+ ■ Add more space to a logical volume from the volume group while the volume is 
+
+still in use.
+
+ ■ Add more physical volumes to a volume group if the volume group begins to run out 
+
+of space.

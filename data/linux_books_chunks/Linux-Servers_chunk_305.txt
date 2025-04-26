@@ -1,0 +1,9 @@
+To resolve
+names, computers had a flat file that contained a table to resolve hostnames to ip addresses.
+This local file was downloaded from hosts.txt on an ftp server in Stanford.
+
+In 1984 Paul Mockapetris created dns, a distributed treelike hierarchical database that will
+be explained in detail in these chapters.
+
+Today,  dns  or  domain  name  system  is  a  worldwide  distributed  hierarchical  database
+controlled by ICANN.

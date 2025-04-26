@@ -1,0 +1,18 @@
+21  plus the 50MB added by lvextend above
+
+.
+
+lvscan
+lvscan -- ACTIVE            "/dev/volumeA/lv0" [80 MB]
+lvscan -- 1 logical volumes with 80 MB total in 1 volume group
+lvscan -- 1 active logical volume
+
+The next command will extend the filesystem to 80 megabytes:
+
+e2fsadm -L 80 /dev/volume/lv0
+
+If you remount this volume on /mnt/lvm you can see the new available space with df.
+
+REBOOT WARNING
+
+The LVM tools need the lvm-mod.o module and in our case the metadevice /dev/md1.

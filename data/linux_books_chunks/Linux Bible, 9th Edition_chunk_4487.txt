@@ -1,0 +1,3 @@
+To get more information on each PAM 
+module, type man pam_module_name. Be sure to leave off the ﬁ le extension of 
+“so” for the pam_module_name.

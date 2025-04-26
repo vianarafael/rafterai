@@ -1,0 +1,7 @@
+Assuming 
+your key’s .pem ﬁ le was called mycloud.pem, the default user on the instance is 
+cloud-user, and the IP address is 10.10.10.100, you could type the following to log in:
+
+# ssh -i mycloud.pem cloud-user@10.10.10.100
+
+You should be able to log in now without a password.

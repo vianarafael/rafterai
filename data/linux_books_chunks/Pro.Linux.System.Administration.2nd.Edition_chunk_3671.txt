@@ -1,0 +1,9 @@
+We are going to obtain a 
+
+Kerberos ticket and then verify it.
+
+$ kinit administrator@SAMBA.EXAMPLE.COM
+Password for administrator@SAMBA.EXAMPLE.COM:
+Warning: Your password will expire in 41 days on Mon 07 Nov 2016 11:04:17 PM UTC
+
+You do need to specify capital letters for the domain.

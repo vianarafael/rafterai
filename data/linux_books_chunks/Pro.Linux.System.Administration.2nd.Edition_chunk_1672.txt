@@ -1,0 +1,2 @@
+We use the pre-up command to activate 
+the firewall rules before we bring up our interface.

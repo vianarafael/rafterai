@@ -1,0 +1,2 @@
+We will assume that the hosts already have a TLS key and 
+public certificate that has been signed by our private CA.

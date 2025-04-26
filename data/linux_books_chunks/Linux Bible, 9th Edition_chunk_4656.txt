@@ -1,0 +1,6 @@
+In this case, the main things you need to do are put ﬁ les 
+in standard locations (or run commands to assign the proper ﬁ le contexts to nonstandard 
+locations), make sure Booleans are turned on for less secure features you want on anyway, 
+and watch AVC denials for problems.
+
+ ■ Start with the permissive operational mode.

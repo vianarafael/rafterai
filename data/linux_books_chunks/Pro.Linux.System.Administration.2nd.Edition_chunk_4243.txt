@@ -1,0 +1,21 @@
+We are now ready to back up to our GlusterFS servers.
+
+From bconsole we will issue the following command to see that we have everything ready for our 
+
+backups to Gluster:
+
+*status Storage=Gluster
+... <snip>...
+====
+
+Device status:
+
+Device "GlusterStorage" (Gluster Device) is not open.
+==
+...<snip>...
+
+693
+
+Chapter 14 ■ BaCkup and reCovery
+
+We are ready to do our backups now.

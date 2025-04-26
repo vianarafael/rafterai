@@ -1,0 +1,24 @@
+To create a host entry that allows you to communicate with your local host system 
+
+using the name myownhost, do the following:
+
+Edit the /etc/hosts ﬁ le (vi /etc/hosts) and add myownhost to the end of the 
+localhost entry so it appears as follows (then ping myownhost to see if it worked):
+
+127.0.0.1              localhost.localdomain localhost myownhost
+# ping myownhost
+Ctrl+C
+
+808
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 809
+
+Appendix B: Exercise Answers
+
+8.

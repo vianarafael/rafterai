@@ -1,0 +1,4 @@
+We can download Filebeat from https://www.elastic.
+
+co/downloads/beats/filebeat, and we can choose the most appropriate package format (RPM, DEB, tar.
+gz).

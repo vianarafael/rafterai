@@ -1,0 +1,16 @@
+Test  that  it  works  (have  your
+neighbour ssh to it)!
+
+Redhat/Fedora:
+add an /etc/sysconfig/network-scripts/ifcfg-ethX:X file
+as shown in the theory
+
+Debian/Ubuntu:
+expand the /etc/network/interfaces file
+as shown in the theory
+
+2. Use ifdown to disable this extra ip address.
+
+ifdown eth0:0
+
+3.

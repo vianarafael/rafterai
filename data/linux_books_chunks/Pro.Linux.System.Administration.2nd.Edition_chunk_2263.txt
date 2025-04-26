@@ -1,0 +1,2 @@
+We have two 
+directories, Documents and src and we can see the total size of each of the files in those directories.

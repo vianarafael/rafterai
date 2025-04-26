@@ -1,0 +1,3 @@
+It sees each packet in isolation and thus has no way to determine whether a packet is part of an existing 
+connection or an isolated malicious packet. A stateful firewall maintains information about the status of the 
+connections passing through it.

@@ -1,0 +1,25 @@
+The local wired network
+
+221
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Here we can concentrate on building the principal servers for our office, gateway.example.com and 
+
+headoffice.example.com.
+
+We will show you how to set up a PPPoE connection on the gateway.example.com host to act as a 
+
+firewall/router host to our ISP and the Internet.
+
+ ■ Note 
+
+ PPPoe is a method used for connecting from ADSl modems to the internet.
+
+Our main host, headoffice.example.com, will serve mail, web, and DNS services to the public (as we 
+
+will show you in Chapters 10, 11, and 12).
+
+We will use our gateway.example.com firewall host to accept and route traffic from the Internet through 
+
+our internal network to our main host.

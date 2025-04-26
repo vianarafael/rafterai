@@ -1,0 +1,21 @@
+when using another field in the where clause, it is possible to get multiple rows
+returned.
+
+mysql> insert into country values ('EG','Egypt','82000000','Cairo');
+
+52
+
+introduction to sql using mysql
+
+Query OK, 1 row affected (0.33 sec)
+
+mysql> select * from country where population='82000000';
++-------------+-------------+------------+----------------+
+| countrycode | countryname | population | countrycapital |
++-------------+-------------+------------+----------------+
+| DE          | Germany     |   82000000 | Berlin         |
+| EG          | Egypt       |   82000000 | Cairo          |
++-------------+-------------+------------+----------------+
+2 rows in set (0.00 sec)
+
+3.5.6.

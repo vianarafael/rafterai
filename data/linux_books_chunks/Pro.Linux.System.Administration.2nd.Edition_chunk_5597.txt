@@ -1,0 +1,10 @@
+Puppet comes with 
+a number of resource types by default, including types to manage files, services, packages, cron jobs, and 
+repositories, among others.
+
+ You can see a full list of the built-in resource types at https://docs.puppet.com/puppet/4.8/type.
+
+ ■ Tip 
+html. You can also develop your own types in the ruby programming language.
+
+The resource’s title identifies it to Puppet.

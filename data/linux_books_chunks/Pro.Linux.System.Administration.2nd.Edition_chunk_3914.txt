@@ -1,0 +1,3 @@
+When we talk about a 
+“remote shell,” we mean we can rsync between hosts over another transport mechanism like ssh, which will 
+provide the rsync program with a remote shell (or command line) on the target host.

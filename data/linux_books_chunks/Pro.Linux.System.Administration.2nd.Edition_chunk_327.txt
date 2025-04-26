@@ -1,0 +1,5 @@
+With this option you should be able to interact with Git-controlled files without 
+effort.
+
+Next we configure which terminal emulator to use with Git. Git Bash is a good way to learn and to 
+interact with Git. It has many Linux commands available to it as well as the Git commands.

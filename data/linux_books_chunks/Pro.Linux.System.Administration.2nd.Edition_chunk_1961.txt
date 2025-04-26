@@ -1,0 +1,10 @@
+What happens here is 
+that the aptitude program uses the list of repositories found in the /etc/apt/sources.list file (and any 
+additional repositories contained in /etc/apt/sources.list.d/) and compiles a list of available packages 
+for your host.
+
+Listing 8-15.  aptitude Update
+
+$ sudo aptitude update
+
+Now when you upgrade you have two choices: safe-upgrade and full-upgrade.

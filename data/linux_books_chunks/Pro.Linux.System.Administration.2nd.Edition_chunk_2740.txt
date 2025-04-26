@@ -1,0 +1,6 @@
+We need to store the public 
+key in a file called authorized_keys in the .ssh directory in our home directory in order to be able to use it 
+to log in. We can either add the key to that file by hand or use the ssh-copy-id utility to do this for us, as in 
+Listing 10-34.
+
+Listing 10-34.

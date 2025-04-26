@@ -1,0 +1,6 @@
+If you decide to keep the weak password 
+instead, click Done again to accept the weak password.
+
+14.  Create User. It is good practice to log into a Linux system with a non-root user 
+account and request root privilege as needed. You can set up a user account, 
+ including a username, full name, and password.

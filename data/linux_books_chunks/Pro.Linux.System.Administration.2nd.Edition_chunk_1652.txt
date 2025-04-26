@@ -1,0 +1,8 @@
+So reading the rules from top to bottom like the Netfilter firewall does, we are allowing 
+
+SSH traffic, dropping invalid traffic, allowing any current and established traffic, then dropping everything 
+else.
+
+You can also flush your chains, which means removing all the rules from all the chains or all the rules 
+
+from a specified chain.

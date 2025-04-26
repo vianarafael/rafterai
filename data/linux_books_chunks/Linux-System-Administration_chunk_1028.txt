@@ -1,0 +1,4 @@
+optional: ethtool
+
+To  display  or  change  network  card  settings,  use  ethtool.  The  results  depend  on  the
+capabilities of your network card.

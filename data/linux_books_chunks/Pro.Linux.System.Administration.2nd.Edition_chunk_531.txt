@@ -1,0 +1,14 @@
+For 
+
+example, the command
+
+$ cd foobar
+
+attempts to change from the current directory to a directory called foobar. If no such directory is present, the 
+cd command fails.
+
+There are also a couple of symbols that are often used with relative paths:
+
+$ cd ..
+
+The ..

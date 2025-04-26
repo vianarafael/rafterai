@@ -1,0 +1,10 @@
+In other Linux boot media, the selection could say 
+Rescue Mode or something similar. On the next screen that appears, select Rescue a 
+Red Hat Enterprise Linux system and press Enter.
+
+6.  After a few moments, the Linux system on the rescue medium boots up. When 
+
+prompted, select your language and keyboard. You are asked if you want to start 
+network interfaces on the system.
+
+7.

@@ -1,0 +1,4 @@
+If you delete a user, then all the user’s objects will 
+no longer be owned by the user. You can identify these objects because the username will be replaced in the 
+file listing with the former UID (the same applies for any deleted groups). As a result, if you create another 
+user that uses the same UID or GID, that user will now own the deleted user’s files.

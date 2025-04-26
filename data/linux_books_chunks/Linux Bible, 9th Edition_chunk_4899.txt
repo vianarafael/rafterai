@@ -1,0 +1,8 @@
+After the system is rebooted, update the Fedora software, add new packages, 
+and reboot the system again, as follows:
+
+# yum update -y
+# yum install virt-manager libvirt-daemon-config-network
+# reboot
+
+The virt-manager package contains the GUI tool for managing your virtual machines.

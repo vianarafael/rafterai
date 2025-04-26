@@ -1,0 +1,22 @@
+if we wanted to redirect the 
+mail for the root user to both ataylor and jsmith, we would do the following:
+
+root: ataylor,jsmith
+
+Now when root receives an e-mail, both ataylor and jsmith receive the same e-mail.
+
+after making any change to the /etc/aliases file, you need to run a command called newaliases to 
+update postfix with the changes.
+
+$ sudo newaliases
+
+We are going to look deeper into how this works in the “postfix lookup tables and virtual Domains” 
+section coming up.
+
+540
+
+Chapter 12 ■ Mail ServiCeS
+
+Choosing a Mailbox Format
+In addition to the potential to become a large and difficult-to-handle file, the default mbox format has 
+another issue: the potential for file corruption.

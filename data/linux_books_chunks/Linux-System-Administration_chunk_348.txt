@@ -1,0 +1,10 @@
+Journaling keeps the file system
+in a consistent state, so you don't need a file system check after an unclean shutdown or
+power failure.
+
+6.2.2. creating ext2 and ext3
+
+You  can  create  these  file  systems  with  the  /sbin/mkfs  or  /sbin/mke2fs  commands.  Use
+mke2fs -j to create an ext3 file system.
+
+You can convert an ext2 to ext3 with tune2fs -j.

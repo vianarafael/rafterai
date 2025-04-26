@@ -1,0 +1,11 @@
+Prior to this, though, we should validate our Apache 
+
+configuration. We do this with the following:
+
+$ sudo apachectl configtest
+Syntax OK
+
+Here we are using the apachectl command to manage our Apache service. The apachectl program 
+
+can be used to start, stop, restart, gracefully restart, and check the configuration, as we have done here. See 
+the man apachectl page for more information.

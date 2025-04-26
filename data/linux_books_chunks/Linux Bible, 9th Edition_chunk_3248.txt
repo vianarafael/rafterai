@@ -1,0 +1,9 @@
+Conﬁ gure your Apache web server to use your key and self-signed certiﬁ cate to 
+
+serve secure (HTTPS) content.
+
+8.  Use a web browser to create an HTTPS connection to your web server and view the 
+
+contents of the certiﬁ cate you created.
+
+9.

@@ -1,0 +1,9 @@
+We have to create it. Let’s do that next.
+
+in the error do you notice that ::profile is preceded by ::? that indicates that the error is in the top 
+
+ ■ Tip 
+scope in puppet.
+
+Creating Our First Configuration
+Now our client has connected, and we’re going to add some configuration for it.

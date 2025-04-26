@@ -1,0 +1,14 @@
+Depending on the
+name we use to call the command, it can behave differently.
+
+181
+
+init and runlevels
+
+When in runlevel 0 or 6 halt, reboot and poweroff will tell the kernel to halt, reboot or
+poweroff the system.
+
+When not in runlevel 0 or 6, typing reboot as root actually calls the shutdown command
+with the -r switch and typing poweroff will switch off the power when halting the system.
+
+15.7.5.

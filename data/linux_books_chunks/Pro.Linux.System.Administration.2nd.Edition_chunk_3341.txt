@@ -1,0 +1,7 @@
+We’re looking for the dovecot entry. This support should be available on all recent versions of CentOS and 
+Ubuntu.
+
+Configuring Dovecot for SASL
+
+Now, we need to configure Dovecot’s SASL support and start the Dovecot daemon. The Dovecot 
+configuration files are located at /etc/dovecot/dovecot.conf and at /etc/dovecot/conf.d.

@@ -1,0 +1,21 @@
+Then FPM via the gem command:
+
+$ sudo gem install fpm
+
+We now create a temporary installation directory to hold our nginx installation.
+
+$ sudo mkdir /tmp/installdir
+
+354
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Then we go to our nginx source directory where we compiled our nginx source, in Listing 8-25, and now 
+
+issue the following command to install nginx into our temporary install directory.
+
+$ sudo make install DESTDIR=/tmp/installdir
+
+If you view the /tmp/installdir directory you will see we have now installed our nginx in that 
+
+directory.

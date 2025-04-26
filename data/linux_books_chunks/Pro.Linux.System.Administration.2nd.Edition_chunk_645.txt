@@ -1,0 +1,7 @@
+Regular expressions allow you to do some very powerful searching across your host.
+
+Let’s look at some other useful regular expression searches using grep.
+
+$ grep 'job$' *
+
+In the previous line, we’ve searched all files in the current directory for strings ending in job.

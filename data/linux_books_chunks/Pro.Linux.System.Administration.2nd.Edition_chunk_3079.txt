@@ -1,0 +1,7 @@
+You would then have to copy the private key to the 
+www.example.com host for it to use it. it is recommended that you do not leave private keys lying around 
+on hosts that are not using them. they should be securely deleted (like using the shred program) if they 
+are not needed.
+
+if your Ca is compromised, depending who is using it, you can re-create it and re-sign all your 
+certificates.

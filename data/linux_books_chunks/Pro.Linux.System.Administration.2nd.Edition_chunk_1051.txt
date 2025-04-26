@@ -1,0 +1,9 @@
+The three insmod lines you see here 
+are loading compression and file system modules.
+
+190
+
+The set root='hd0,msdos1' is how we set the root device for GRUB2. GRUB2 uses this setting to help 
+
+find files that GRUB2 needs. What it means is the root device is on a hard drive (hd) and is the first hard 
+drive (hd0).

@@ -1,0 +1,9 @@
+The DnS servers you set will also need to be Ipv6 addresses.
+
+IPV4 AND IPV6
+
+The Internet works by computers being able to send each other messages. To be able to do this there 
+needs to be a set of unique addresses all along the path between each other. Ipv4 was the first release 
+of this protocol that made this possible.
+
+The unique addresses in Ipv4 are based on a 32-bit address space.

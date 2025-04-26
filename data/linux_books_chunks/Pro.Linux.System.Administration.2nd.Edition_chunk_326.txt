@@ -1,0 +1,11 @@
+Git can 
+control what these invisible line endings should be.
+
+83
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-12.  Allow Git to change LF to CRLF on checkout and CRLF to LF on commits
+
+In Figure 3-12 we are allowing Git to convert LF to CRLF for Windows editing, but when we commit files 
+we convert CRLF to LF again.

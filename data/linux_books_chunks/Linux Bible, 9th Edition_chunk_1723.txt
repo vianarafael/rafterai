@@ -1,0 +1,11 @@
+<http://bugzilla.redhat.com/bugzilla>
+Vendor      : Red Hat, Inc.
+URL         : http://www.mozilla.org/projects/firefox/
+Summary     : Mozilla Firefox Web browser
+Description :
+Mozilla Firefox is an open-source web browser, designed for standards
+compliance, performance and portability.
+
+Besides the information you got from the package name itself, the -qi (query  information) 
+option lets you see who built the package (Red Hat, Inc.), when it was built, and when 
+it was installed.

@@ -1,0 +1,3 @@
+We are now ready to 
+initialize serverspec for our currently checked-out repository, which is the equivalent of running a setup 
+script.

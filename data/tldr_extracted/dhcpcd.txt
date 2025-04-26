@@ -1,0 +1,10 @@
+# dhcpcd
+
+
+- Release all address leases:
+
+`sudo dhcpcd {{[-k|--release]}}`
+
+- Request the DHCP server for new leases:
+
+`sudo dhcpcd {{[-n|--rebind]}}`

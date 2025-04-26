@@ -1,0 +1,9 @@
+Let’s create the file /etc/cron.d/example_nightly_sync and add the 
+following:
+
+# run the nightly rsync script at 5 minutes past 12 every morning.
+MAILTO=jsmith@example.com
+5       0       *       *       *       exbackup 
+  /data/backups/bin/nightly_remote_rsync.sh
+
+Here we are setting the script to run every night at five minutes past midnight as the user exbackup.

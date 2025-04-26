@@ -1,0 +1,10 @@
+Just make sure you specify the correct fi lename in the 
+Apache confi guration later.
+
+Or, in higher-security environments, encrypting the key by adding the -des3 
+argument after the genrsa argument on the openssl command line is a good 
+idea. When prompted for a passphrase, press Enter:
+
+# openssl genrsa -des3 -out server.key 1024
+
+3.

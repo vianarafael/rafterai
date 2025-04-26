@@ -1,0 +1,6 @@
+The following sec-
+tions give you some pointers on where to look for these important elements.
+
+If GUI administrative tools for Linux have become so good, why do you need to know about administrative fi les? For 
+one thing, while GUI tools differ among Linux versions, many underlying confi guration fi les are the same. So, if you 
+learn to work with them, you can work with almost any Linux system.

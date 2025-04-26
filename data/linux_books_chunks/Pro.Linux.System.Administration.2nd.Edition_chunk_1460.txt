@@ -1,0 +1,6 @@
+It then displays that information and 
+sends the next ping, this time with the TTL set to 2. Once the ping reaches our destination, we should receive 
+the standard echo response. Some routers are configured not to send these ICMP messages and appear as 
+blanks in the trace output.
+
+Have a look at the output from mtr.

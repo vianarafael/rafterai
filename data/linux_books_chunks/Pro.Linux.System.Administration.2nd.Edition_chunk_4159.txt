@@ -1,0 +1,11 @@
+These date-time specifications are made up of several well-defined 
+keywords, and it is easy to create complex schedules if you want.
+
+ you can read more about the terms you can use in the Schedule resource documentation at  
+
+ ■ Note 
+http://doc.bareos.org/master/html/bareos-manual-main-reference.html#x1-1300009.4.
+
+Clients
+
+Before we can run any backups, we need to create the Client resource.

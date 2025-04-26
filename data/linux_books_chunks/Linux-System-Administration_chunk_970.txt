@@ -1,0 +1,10 @@
+When sniffing a dhcp packet, we notice the following in the sniffer.
+
+[Protocols in Frame: eth:ip:udp:bootp]
+
+Sniffing  for  ntp  (Network  Time  Protocol)  packets  gives  us  this  line,  which  makes  us
+conclude to put ntp next to bootp in the protocol chart below.
+
+[Protocols in Frame: eth:ip:udp:ntp]
+
+Sniffing an arp broadcast makes us put arp next to ip.

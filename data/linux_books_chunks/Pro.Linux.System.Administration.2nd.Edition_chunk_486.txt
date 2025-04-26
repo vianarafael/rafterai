@@ -1,0 +1,10 @@
+Mac OS, being Unix based, comes with an SSH client built in.
+
+ ssh clients also exist for operating systems like Windows Mobile, android, symbian, and the apple 
+
+ ■ Tip 
+iphone, allowing road warriors to connect to their Linux hosts while on the go!
+
+Getting Help
+So how do you get help on your Linux host? You’re probably thinking, “I can’t use the F1 key, right?” Well, 
+actually you can.

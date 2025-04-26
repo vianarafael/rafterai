@@ -1,0 +1,8 @@
+curious smb.conf
+
+Curious  but  true:  smb.conf  accepts  synonyms  like  create  mode  and  create  mask,  and
+(sometimes) minor spelling errors like browsable and browseable. And on occasion you
+can even switch words, the guest only parameter is identical to only guest. And writable
+= yes is the same as readonly = no.
+
+16.1.7.

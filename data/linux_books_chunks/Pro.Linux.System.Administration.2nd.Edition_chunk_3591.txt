@@ -1,0 +1,5 @@
+You could follow the same steps we followed in that section to create Dovecot-specific 
+certificates, or you could even buy additional certificates specifically for Dovecot if you want, but we don’t 
+feel this is necessary.
+
+ remember, your certificate is tied to a hostname, in our case mail.example.com.

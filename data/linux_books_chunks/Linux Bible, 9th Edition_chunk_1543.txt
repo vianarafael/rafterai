@@ -1,0 +1,17 @@
+You 
+can present that ﬁ le to your next installation to repeat the installation conﬁ gura-
+tion or use that ﬁ le as a model for different installations.
+
+See the RHEL Installation Guide for information on passing a kickstart ﬁ le to the 
+anaconda installer (https://access.redhat.com/documentation/en-US/
+Red_Hat_Enterprise_Linux/7/html-single/Installation_Guide/
+index.html#sect-parameter-configuration-files-kickstart-
+s390) and creating your own kickstart ﬁ les (https://access.redhat.com/
+documentation/en-US/Red_Hat_Enterprise_Linux/6/html-single/
+Installation_Guide/index.html#s1-kickstart2-file).
+
+9
+
+Exploring Common Installation Topics
+Some of the installation topics touched upon earlier in this chapter require further 
+ explanation for you to be able to implement them fully.

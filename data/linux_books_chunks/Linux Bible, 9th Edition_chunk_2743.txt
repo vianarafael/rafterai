@@ -1,0 +1,3 @@
+At boot, systemd activates the default.target unit. 
+This unit is aliased to either multi-user.target or graphical.target. Thus, depend-
+ing upon the alias set, the services targeted by the target unit are started.

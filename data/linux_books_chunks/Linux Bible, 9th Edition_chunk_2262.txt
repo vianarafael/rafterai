@@ -1,0 +1,4 @@
+Unless you are trying to hide the location of a service, you typically don’t change the 
+ports that a daemon process listens on. When you go to secure a service, you must 
+make sure the port to the service is open on the ﬁ rewall (see Chapter 25, “Securing 
+Linux on a Network,” for information on iptables and firewalld ﬁ rewalls).

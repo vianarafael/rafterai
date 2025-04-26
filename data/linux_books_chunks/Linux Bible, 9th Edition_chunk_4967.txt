@@ -1,0 +1,8 @@
+This might include a user account and password, conﬁ guration ﬁ les, com-
+mands to run on ﬁ rst boot, the identities of software repositories, or anything else 
+you might want to run or change within the operating system itself.
+
+When you go to run a Linux instance in a cloud environment, you typically enter the 
+meta-data and user-data information by clicking check boxes and ﬁ lling in forms from 
+a Web-based cloud controller (such as the OpenStack Dashboard or Red Hat Enterprise 
+Virtualization Manager).

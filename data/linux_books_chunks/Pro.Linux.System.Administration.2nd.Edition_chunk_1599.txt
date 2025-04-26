@@ -1,0 +1,6 @@
+Starting with the low trust drop zone and progressing to 
+higher levels of trust with public, external, dmz, work, home, internal and trusted zones. The idea is that you 
+add your interfaces to one of these zones depending on your security needs. By default interfaces are added 
+to the public zone.
+
+It also has the ability to define a service.

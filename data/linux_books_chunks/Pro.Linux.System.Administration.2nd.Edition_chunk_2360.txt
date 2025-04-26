@@ -1,0 +1,9 @@
+However in this case 
+
+we have not told lvmextend to resize the filesystem so the filesystem size remains at 2 GiB. While we could 
+have got lvextend to resize the filesystem using the –r (or --resize) option, we are going to do it ourselves 
+manually.
+
+We are now going to tell the filesystem about the new size of the device it is contained on, for which you 
+
+use the xfs_growfs utility.

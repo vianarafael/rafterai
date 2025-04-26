@@ -1,0 +1,6 @@
+If you decide to set it to Enforcing or Permissive later, the next time 
+you reboot your system, your system goes through an automatic SELinux ﬁ le relabel before 
+it comes up.
+
+If all you care about is turning SELinux off, you have found the answer. Just edit the confi guration fi le /etc/
+selinux/config and change the text SELINUX= to the following: SELINUX=disabled.

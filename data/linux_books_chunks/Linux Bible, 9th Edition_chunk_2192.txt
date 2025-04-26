@@ -1,0 +1,11 @@
+If you 
+ download a CD or ﬂ oppy disk image from the Internet and you want to see what it contains, 
+
+308
+
+c12.indd  04/01/2015  Page 309
+
+Chapter 12: Managing Disks and Filesystems
+
+you can do so without burning it to CD or ﬂ oppy. With the image on your hard disk, create 
+a mount point and use the -o loop option to mount it locally.

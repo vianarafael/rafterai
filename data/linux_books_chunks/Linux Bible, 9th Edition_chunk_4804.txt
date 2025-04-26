@@ -1,0 +1,5 @@
+What if instead only Host-B’s IP address were blocked? That 
+would allow Host-C to reach Host-A. Would this setting reach the desired goal?
+
+In the example that follows, the policy of DROP must ﬁ rst be changed to ALLOW in Host-
+A’s iptables.

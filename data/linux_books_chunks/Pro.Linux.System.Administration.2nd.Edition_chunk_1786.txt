@@ -1,0 +1,3 @@
+Most of these tools assist by retrieving packages from repositories (where the packages 
+are stored; most distributions have a number of repositories available online) and presenting them to be 
+installed.

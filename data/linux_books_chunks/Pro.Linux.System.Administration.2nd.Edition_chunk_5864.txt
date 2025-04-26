@@ -1,0 +1,195 @@
+See Extended life-cycle support (ELS)
+E-mail
+
+address, 528
+after sending, 529
+before sending, 526–528
+configuration, 530
+DKIM, 582–585
+infected files, 579
+SPF, 580–581
+work, 525
+
+End User License Agreement (EULA), 45–46
+Enterprise monitoring, 877
+Envelope, 527
+Environment variables, 167–169
+Ethtool, 246
+Execute permission, 123, 125
+EXPIRE option, 152
+Ext2 filesystem, 367, 371–373
+Ext3 filesystem, 367, 371–373
+Ext4 filesystem, 367, 370–373, 380
+Extended life-cycle support (ELS), 7
+Extended SMTP (ESMTP), 526
+
+ F
+Fake RAID, 386
+Fedora, 5, 7
+
+LiveCD, 100
+
+Files
+
+copy, 138–139
+date and time, 131
+delete, 142
+disk space, 131
+edit, 143
+link, 142–143
+move, 141
+ownership, 130
+read, 132–134
+rename, 141
+
+987
+
+■ INDEXFiles (cont.)
+
+search, 137–138
+size, 130–131
+systems, 117–122
+types, 122–123
+Filebeat, 862, 864, 871
+File daemon, 666, 685
+Filegen directive, 420
+FileSets directory, 674, 676–677
+File share, 595–596
+Filesystem
+
+automating mounts, 381–382
+Btrfs, 374, 376–377
+creating swap, 368–369
+data sharing, 378
+e2fsck, 404–405
+ext2, 371, 373
+ext3, 371, 373
+ext4, 371, 373
+features, 367
+introduction, 366–368
+journaled, 368
+maintenance mode, 403
+other, 379
+/proc, 394
+recovery, 402
+repair tools, 402
+superblock, 370
+unmounting, 381
+usage, 384–385
+UUIDs, 369
+XFS, 373–374
+
+Filesystem in UserSpacE (FUSE), 616
+Filters, 757
+Find command, 137–138
+Firewall, 718
+Firewall-cmd, 286–287
+Fork bomb, 800, 831
+Forwarders, 438
+Forward lookup zones, 445
+Forward Secure Sealing (FSS), 843–844
+FPM, 354–355
+Full backup, 637, 662, 673, 688
+
+ G
+Gateway server, 705–707
+Gentoo, 6
+Gibibytes, 366
+Gigabytes, 366
+Git, 74, 82–87
+
+basics, 86–87
+installation
+
+carriage return line feed, 83
+experimental performance options, 86
+
+988
+
+line feed to carriage return line feed, 84
+select terminal, 85
+VCS, 82
+windows command line, 83
+
+Git Bash, 111–112
+Glob strings, 345
+GlusterFS, 618
+Bareos, 690
+
+configure, 692–694
+create, 691
+update DNS records, 692
+
+brick, 625–626
+CLI commands, 619
+concepts, 617–618
+configuration, 619
+distributed replicated volume, 618
+distributed volume, 618
+install, 618
+introduction, 617
+peers and volumes, 620–621
+replicated volume, 618
+settings, 623–624
+striped volume, 618
+test, 622–623
+volume storage, 624–625
+
+Google storage, 638
+GPG, 659
+Grafana
+
+graphite back end
+
+add data source, 826
+carbon metrics, 828
+create new dashboard, 828
+data source, 830
+graph, 829
+metrics dashboard, 827
+test metric, 829
+
+install, 825
+introduction, 824
+GRANT statement, 498
+Graphical user interfaces (GUIs), 35–36,  
+
+88, 226
+CentOS, 228
+edit, 143
+Linux and Windows, 103
+Ubuntu, 228–229
+Wired network, 227
+
+Graphite
+
+-API, 816, 822–824
+carbon, 815
+installation, 816
+-web, 816
+whisper, 816
+
+grep command, 133–134, 140
+Grok function, 870
+Groupadd command, 155
+
+■ INDEXGroup class, 124, 127
+Groupdel command, 156
+Group ID (GID), 152, 154–155, 165
+Groups
+
+create, 153–154, 156
+delete, 156
+GUI, 159–160
+store data, 166, 168
+working with, 148
+
+GRUB, 69
+GRUB2, 185
+
+boot loader, 184, 186
+configure, 188–192
+menu, 186–188
+
+GUID Partition Table (GPT), 183, 359–360
+GUIs.

@@ -1,0 +1,43 @@
+We have shown the following:
+
+•	 CentOS Application Installer
+
+•	
+
+•	
+
+YUM package management and DNF
+
+RPM package management
+
+•	 Ubuntu Software App
+
+355
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+•	
+
+Aptitude package management
+
+•	 Dpkg package management
+
+•	 Compile from source
+
+•	 Create a debian or RPM package
+
+In the next chapter, we will look at setting up your storage for maximum reliability, and you will learn 
+
+how to avoid and recover from hard disk problems.
+
+356
+
+CHAPTER 9
+
+Storage Management and  
+Disaster Recovery
+
+By Peter Lieverdink and Dennis Matotek
+
+When you installed your first Linux host, you accepted all defaults when it came to setting up disks and 
+partitions.

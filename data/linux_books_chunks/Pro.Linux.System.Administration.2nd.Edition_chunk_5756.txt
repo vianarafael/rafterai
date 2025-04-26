@@ -1,0 +1,14 @@
+Let’s provide Ansible with the ability to use sudo with the request.
+
+$ ansible -c local localhost --become -m apt -a 'name=nginx state=latest update_cache=yes'
+localhost | SUCCESS => {
+    "cache_update_time": 1481951319,
+    "cache_updated": true,
+    "changed": true,
+    "stderr": "",
+    "stdout": "....”
+}
+
+Now we have added the --become argument to the ansible command, and now it will attempt to 
+
+execute the commands via sudo.

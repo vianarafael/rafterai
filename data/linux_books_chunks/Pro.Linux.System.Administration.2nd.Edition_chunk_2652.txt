@@ -1,0 +1,7 @@
+BInD still uses this terminology and we have chosen to use the same in order not to 
+confuse readers, rather than out of indifference to the subject.
+
+Ubuntu
+
+If you want to set up the master to allow transfers from slave hosts on Ubuntu, you need to change the zone 
+definitions in /etc/bind/named.conf.local.

@@ -1,0 +1,3 @@
+However, to manage the installation and conﬁ guration of sets of computers, 
+provisioning and conﬁ guration management tools such as Chef (www.getchef.
+com) and Puppet (www.puppetlabs.com) are now available.

@@ -1,0 +1,7 @@
+Here are some examples of ﬁ le contexts that must be set for 
+SELinux to allow ﬁ les and directories to be accessed by vsftpd:
+
+ ■ To share content so it can be downloaded to FTP clients, that content must be 
+
+marked with a public_content_t ﬁ le context. Files created in the /var/ftp
+directory or its subdirectories inherit public_content_t ﬁ le context automatically.

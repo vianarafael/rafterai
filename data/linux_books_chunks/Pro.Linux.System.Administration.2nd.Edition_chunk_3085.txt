@@ -1,0 +1,8 @@
+Your certificate is valid for one year (you can override this period using the 
+-days option to specify a different validity period).
+
+You can examine the details of your certificate using the openssl command.
+
+$ openssl x509 -in /root/www.example.com.cert -noout -text -purpose | more
+
+ You can keep a hold of your CSr.

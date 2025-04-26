@@ -1,0 +1,8 @@
+Run the xeyes command about 20 times in the background so 
+that 20 xeyes windows appear on the screen. Move the mouse around and watch 
+the eyes watch your mouse pointer. When you have had enough fun, kill all xeyes 
+ processes in one command using killall.
+
+9.  As a regular user, run the gedit command so it starts with a nice value of 5.
+
+10.

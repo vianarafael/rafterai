@@ -1,0 +1,12 @@
+It is not installed by 
+
+default. After bcrypt is installed, man pages are available.
+
+23
+
+ ■ For Fedora and RHEL: yum install bcrypt.
+
+ ■ For Ubuntu: sudo apt-get install bcrypt.
+
+ ■ ccrypt—This tool uses the symmetric key cipher Rijndael, also called AES. It was 
+created to replace the standard Unix crypt utility and is not installed by default.

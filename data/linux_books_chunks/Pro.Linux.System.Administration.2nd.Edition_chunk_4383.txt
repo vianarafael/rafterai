@@ -1,0 +1,7 @@
+We are 
+
+separating the two so that machines use the server on 1194 and roaming users use 1195, which will be 
+further secured by their username and password.
+
+Let’s focus on the differences. We’ve changed some networking configuration: we’ve used a different 
+port, 1195, because our other VPN tunnel is bound to the 1194 port.

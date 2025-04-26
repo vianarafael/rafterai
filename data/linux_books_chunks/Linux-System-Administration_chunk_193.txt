@@ -1,0 +1,19 @@
+background jobs
+
+22
+
+background jobs
+
+3.1. background processes
+
+3.1.1. jobs
+
+Stuff that runs in background of your current shell can be displayed with the jobs command.
+By default you will not have any jobs running in background.
+
+root@rhel53 ~# jobs
+root@rhel53 ~#
+
+This jobs command will be used several times in this section.
+
+3.1.2.

@@ -1,0 +1,23 @@
+For example, if the Fedora Workstation DVD is in the current directory, you can 
+type the following:
+
+B
+
+# cp Fedora-Live-Workstation-x86_64-21-5.iso /var/lib/libvirt/images/
+
+837
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 838
+
+Appendix B: Exercise Answers
+
+5.

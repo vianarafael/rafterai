@@ -1,0 +1,22 @@
+645
+Ritchie, Dennis, 8, 9
+rlogin command, 323
+rm command, 87, 114–115
+rmdir command, 115
+rmmod command, 198–199
+rmp -V command, 323
+role attribute, SELinux security context, 675–677
+Role Based Access Controls (RBAC), 669, 670, 671–672, 673
+/root directory, 97–98, 99
+Root Password, graphical admin tool, 176
+root user, 177–182
+rootkits, 619–620
+route command, 353–354, 358
+router, Linux as, 371–372
+Roxio Creator, 777
+rpc administrative login, 190
+rpc ﬁ le, 187
+rpm command, 252–256
+RPM packages, 236–237, 238–240
+
+installing, 239–240, 247–249.

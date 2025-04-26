@@ -1,0 +1,9 @@
+Regular users 
+can usually check their own home directories but not those of others.
+
+13
+
+In the following example, the find command searches the root ﬁ lesystem (/) for any 
+ﬁ les owned by the user named jake (-user jake) and prints the ﬁ lenames. The output of 
+the find command is organized in a long listing in size order (ls -ldS). Finally, that 
+output is sent to the ﬁ le /tmp/jake.

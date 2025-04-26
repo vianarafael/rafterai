@@ -1,0 +1,3 @@
+It has a long and rich history that goes back far 
+before computers were around. Because of its heavy use of mathematical algorithms,  cryptography has 
+easily transitioned to computers.

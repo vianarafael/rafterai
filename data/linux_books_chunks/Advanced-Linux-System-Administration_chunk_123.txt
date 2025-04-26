@@ -1,0 +1,13 @@
+(p.27) 
+
+BOOT LOADER
+
+Not installed or broken
+
+use a rescue disk or a boot disk (see 
+below p.24)
+
+Overriding the INIT stage
+
+This is necessary if the boot process fails due to a faulty init script. Once the kernel 
+successfully locates the root file system it will attempt to run /sbin/init.

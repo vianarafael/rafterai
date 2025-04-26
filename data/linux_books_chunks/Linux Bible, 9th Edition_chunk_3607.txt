@@ -1,0 +1,9 @@
+The ﬁ nal example 
+matches any three-letter hostnames in the domain.
+
+ ■ NIS groups—You can allow access to hosts contained in an NIS group. To indicate 
+an NIS group, precede the group name with an at (@) sign (for example, @group).
+
+Access options in /etc/exports
+You don’t have to just give away your ﬁ les and directories when you export a directory 
+with NFS.

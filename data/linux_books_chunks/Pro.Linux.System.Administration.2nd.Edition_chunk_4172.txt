@@ -1,0 +1,2 @@
+For example, with archive backups—that is, when you want to keep your data for as long as 
+possible—you will not want the records of those backups to be deleted from the catalog.

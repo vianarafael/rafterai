@@ -1,0 +1,16 @@
+This will give us an accurate picture of our 
+CPU workloads.
+
+<Plugin df>
+    FSType rootfs
+    FSType sysfs
+    FSType proc
+    FSType devtmpfs
+    FSType devpts
+    FSType tmpfs
+    FSType fusectl
+    FSType cgroup
+    IgnoreSelected true
+</Plugin>
+
+The df plug-in shows another example of how to refine the metrics we want to select.

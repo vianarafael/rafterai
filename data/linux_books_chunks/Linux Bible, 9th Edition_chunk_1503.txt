@@ -1,0 +1,7 @@
+Insert the DVD into your DVD drive, and reboot your 
+
+computer. The Welcome screen appears.
+
+3.  Select Install or Test media. Select “Install” or “Test this media & install” to 
+do a new installation of RHEL. The media test veriﬁ es that the DVD has not 
+been  corrupted during the copy or burning process.

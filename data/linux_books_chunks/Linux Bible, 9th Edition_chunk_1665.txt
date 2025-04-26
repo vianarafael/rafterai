@@ -1,0 +1,7 @@
+Everything from the contents of grub.cfg to the way 
+grub.cfg is created is different from the GRUB Legacy grub.conf ﬁ le. Here are some 
+things you should know about the grub.cfg ﬁ le:
+
+ ■ Instead of editing grub.cfg by hand or having kernel RPM packages add to it, 
+grub.cfg is generated from the contents of the /etc/default/grub ﬁ le and 
+the /etc/grub.d directory.

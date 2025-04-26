@@ -1,0 +1,19 @@
+Verify with /proc/devices to
+link the major number to the proper device.
+
+paul@RHELv4u4:~$ cat /proc/partitions 
+major minor  #blocks  name
+
+   3     0     524288 hda
+   3    64     734003 hdb
+   8     0    8388608 sda
+   8     1     104391 sda1
+   8     2    8281507 sda2
+   8    16    1048576 sdb
+   8    32    1048576 sdc
+   8    48    1048576 sdd
+ 253     0    7176192 dm-0
+ 253     1    1048576 dm-1
+
+The major number corresponds to the device type (or driver) and can be found in /proc/
+devices.

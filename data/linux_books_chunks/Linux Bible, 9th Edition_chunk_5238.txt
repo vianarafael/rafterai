@@ -1,0 +1,15 @@
+To reinstall the package that provides the mogrify command and make sure the 
+
+entire package is intact again, type the following:
+
+# yum reinstall ImageMagick
+# rpm -V ImageMagick
+
+8.  To download the package that provides the mogrify command to your current 
+
+directory, type the following:
+
+# yumdownloader ImageMagick
+ImageMagick-6.8.8.10-5.fc21.x86_64.rpm
+
+9.

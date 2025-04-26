@@ -1,0 +1,3 @@
+We can see the bonding mode is set to 
+“fault-tolerance (active-backup),” the active slave is enp0s8 and the MII Status is “up”; that tells us the bond 
+is working correctly.

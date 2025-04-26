@@ -1,0 +1,15 @@
+We do 
+
+this via the range directive.
+
+subnet 192.168.0.0 netmask 255.255.255.0 {
+    option routers 192.168.0.254;
+    option domain-name "example.com";
+    option domain-name-servers 192.168.0.1;
+    option broadcast-address 192.168.0.255;
+    option subnet-mask 255.255.255.0;
+    range 192.168.0.101 192.168.0.200;
+}
+
+This tells the server that if a client requests a lease, it may assign any address from 192.168.0.101 
+through 192.168.0.200.

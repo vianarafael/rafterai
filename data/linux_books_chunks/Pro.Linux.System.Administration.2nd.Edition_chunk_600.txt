@@ -1,0 +1,5 @@
+To do this, the command needs to write to the password file, a file that has restricted access. 
+By adding the setuid permission, a user can execute the passwd command and run it as if she were the 
+root user, hence allowing her to change her password.
+
+You can recognize setuid and setgid permissions by the use of an s or S in the listing of permissions.

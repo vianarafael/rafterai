@@ -1,0 +1,11 @@
+The uptime Command
+
+$ uptime
+12:51:04 up 116 days, 7:09, 3 users, load average: 0.01, 0.07, 0.02
+
+This command prints a short overview of the system status, including the current time, the amount of 
+
+time the system has been on (or up), the number of logged-in users, and three numbers representing the 
+system’s workload.
+
+In our example, the system was last booted 116 days, 7 hours, and 9 minutes ago.

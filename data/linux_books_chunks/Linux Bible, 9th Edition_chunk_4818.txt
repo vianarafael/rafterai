@@ -1,0 +1,2 @@
+To restore the  ﬁ rewall 
+to its original condition, use the iptables-restore command.

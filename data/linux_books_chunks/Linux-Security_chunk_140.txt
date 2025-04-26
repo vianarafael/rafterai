@@ -1,0 +1,16 @@
+Now use su - to switch to another user and notice the difference.
+
+laura@debian7:~$ su - tania
+Password:
+tania@debian7:~$ pwd
+/home/tania
+tania@debian7:~$ logout
+laura@debian7:~$
+
+Note that su - gets you into the home directory of Tania.
+
+10
+
+introduction to users
+
+7. Try to create a new user account (when using your normal user account).

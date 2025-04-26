@@ -1,0 +1,16 @@
+remove the complete acl
+
+The -b option of the setfacl command will remove the acl from the targeted file.
+
+paul@laika:~/test$ setfacl -b file33 
+paul@laika:~/test$ getfacl file33 
+# file: file33
+# owner: paul
+# group: paul
+user::rw-
+group::r--
+other::r--
+
+8.6. the acl mask
+
+The  acl  mask  defines  the  maximum  effective  permissions  for  any  entry  in  the  acl.

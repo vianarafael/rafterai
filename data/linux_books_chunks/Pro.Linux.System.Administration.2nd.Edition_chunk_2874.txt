@@ -1,0 +1,12 @@
+This, like a2enmod, will create the symlinks 
+
+from /etc/apache2/sites-available to /etc/apache2/sites-enabled.
+
+$ sudo a2ensite www.example.com
+Enabling site www.example.com.
+To activate the new configuration, you need to run:
+  service apache2 reload
+
+You can now do as the script suggests or use sudo apache2ctl graceful to manually reload the server 
+
+configuration.

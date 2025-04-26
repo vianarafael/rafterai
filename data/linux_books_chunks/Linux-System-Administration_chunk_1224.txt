@@ -1,0 +1,13 @@
+rmmod
+
+Similar to insmod, the rmmod command is rarely used anymore.
+
+[root@RHELv4u3 ~]# modprobe isdn
+[root@RHELv4u3 ~]# rmmod slhc
+ERROR: Module slhc is in use by isdn
+[root@RHELv4u3 ~]# rmmod isdn
+[root@RHELv4u3 ~]# rmmod slhc
+[root@RHELv4u3 ~]# lsmod | grep isdn
+[root@RHELv4u3 ~]#
+
+28.4.13.

@@ -1,0 +1,6 @@
+I tell you how to get Linux, begin using it, step 
+through critical topics, and ultimately excel at administering and securing it.
+
+ ■ System administrator–focused: When you are ﬁ nished with this book, you will know how 
+to use Linux and how to modify and maintain it. All the topics needed to become a Red Hat 
+Certiﬁ ed Engineer are covered in this book.

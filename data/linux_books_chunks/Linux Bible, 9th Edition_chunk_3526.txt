@@ -1,0 +1,6 @@
+Note that a dot is required at the end of the network number. The 
+192.168.5.0/255.255.255.0 example uses netmask notation to identify 192.168.5 as the set of 
+addresses that are allowed.
+
+In the third line of the sample code, any host from the .example.com network is allowed, as 
+is the individual host market.example.net.

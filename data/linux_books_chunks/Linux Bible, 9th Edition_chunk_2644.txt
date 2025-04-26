@@ -1,0 +1,4 @@
+A server 
+
+can provide access to Web pages, ﬁ les, database information, streaming music, or other types 
+of content. Name servers can provide access to lists of host computer or user names.

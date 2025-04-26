@@ -1,0 +1,10 @@
+# bully
+
+
+- Crack the password:
+
+`bully --bssid "{{mac}}" --channel "{{channel}}" --bruteforce "{{interface}}"`
+
+- Display help:
+
+`bully --help`

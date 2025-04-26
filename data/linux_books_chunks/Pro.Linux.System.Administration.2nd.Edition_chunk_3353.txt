@@ -1,0 +1,11 @@
+This is not recommended and not secure.
+
+OTP
+
+SKEY
+
+One-time password mechanism.
+
+One-time password mechanism.
+
+ You can’t specify an authentication mechanism that Dovecot is not configured to support.

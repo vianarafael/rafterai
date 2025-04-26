@@ -1,0 +1,3 @@
+This protects 
+the original database from being overwritten. Plus, the comparison does not work unless 
+the database is moved.

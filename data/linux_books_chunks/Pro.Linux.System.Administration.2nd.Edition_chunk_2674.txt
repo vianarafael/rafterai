@@ -1,0 +1,6 @@
+However, for servers, if you use DHCP on them, you’ll usually want static 
+allocation. If a server’s address changes unpredictably, you may not be able to use the services it provides.
+
+Luckily, the DHCP server allows you to split your range of available network addresses into pools. Each 
+
+of these pools can then be configured to be assigned to known hosts, or to unknown hosts.

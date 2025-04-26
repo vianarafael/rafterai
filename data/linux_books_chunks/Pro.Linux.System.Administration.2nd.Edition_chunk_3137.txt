@@ -1,0 +1,19 @@
+These directives are processed in 
+order, and processing stops when a rule matches.
+
+The first rule prevents browsers from connecting to ports we haven’t explicitly listed in the Safe_ports 
+
+ACL.
+
+http_access deny !Safe_ports
+
+520
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Next, localhost is permitted to connect, and all other connections are rejected.
+
+http_access allow localhost
+http_access deny all
+
+If no http_access rule matches, the opposite of the last seen action is applied.

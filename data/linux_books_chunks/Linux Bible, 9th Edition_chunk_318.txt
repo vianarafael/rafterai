@@ -1,0 +1,3 @@
+The RHCSA exam (EX200) 
+provides the basic certiﬁ cation, covering such topics as conﬁ guring disks and ﬁ lesystems, 
+adding users, setting up a simple web and FTP server, and adding swap space.

@@ -1,0 +1,7 @@
+To 
+protect against someone shoulder surﬁ ng and learning your password, the password is not 
+displayed as you type.
+
+Assuming you type your old password correctly, the passwd command prompts you for 
+the new password. When you type your new password, it is checked using a utility called 
+cracklib to determine whether it is a good or bad password.

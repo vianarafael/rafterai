@@ -1,0 +1,9 @@
+The
+PRIVATE_DIR variable will show you where the smbpasswd database is located.
+
+[root@RHEL52 samba]# smbd -b | grep PRIVATE
+   PRIVATE_DIR: /etc/samba
+[root@RHEL52 samba]# ls -l smbpasswd 
+-rw------- 1 root root 110 Jan 21 06:19 smbpasswd
+
+You can use a simple cat to see the contents of the smbpasswd database.

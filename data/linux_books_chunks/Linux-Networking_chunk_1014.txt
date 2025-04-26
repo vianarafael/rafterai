@@ -1,0 +1,10 @@
+ipv6 and tcp/http
+
+Below a screenshot of a tcp handshake and http connection over ipv6.
+
+25.17. ipv6 PTR record
+
+As  seen  in  the  DNS  chapter,  ipv6  PTR  records  are  in  the  ip6.net  domain,  and  have  32
+generations of child domains.
+
+25.18.

@@ -1,0 +1,15 @@
+Do you want to continue?
+Yes/No? yes
+(parted) mklabel gpt
+Warning: The existing disk label on /dev/sdb will be destroyed and all data on
+this disk will be lost. Do you want to continue?
+Yes/No? Y
+(parted)
+
+52
+
+disk partitions
+
+5.6.1. partitioning with parted
+
+Once  labeled  it  is  easy  to  create  partitions  with  parted.

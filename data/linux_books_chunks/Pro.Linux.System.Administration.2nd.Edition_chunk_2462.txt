@@ -1,0 +1,4 @@
+We use the -p option to list any peers we are connected to and the 
+-4 option to resolve the hostname to an IPv4 address.
+
+In Figure 10-1 you can see the output of our peer listing.

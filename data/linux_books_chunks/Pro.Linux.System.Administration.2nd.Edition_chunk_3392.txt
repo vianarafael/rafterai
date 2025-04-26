@@ -1,0 +1,2 @@
+the smtp_sasl_auth_enable option turns on SaSl 
+authentication for postfix as a client.

@@ -1,0 +1,11 @@
+The Google web site 
+will respond on any of these addresses and is used in a round robin, where the order of the returned list will 
+change every so often (like we saw with the ntp pool servers earlier).
+
+Conversely, we can do a dns lookup of a hostname for an IP addresses as well.
+
+$ host 205.251.193.236
+236.193.251.205.in-addr.arpa domain name pointer ns-492.awsdns-61.com.
+
+What that has done is query the DNS server asking if it knows about any records for the address 
+205.251.193.236 and what host that refers to.

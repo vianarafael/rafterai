@@ -1,0 +1,24 @@
+Each entry has a brief 
+description of each directory.
+
+Table 4-1.  Linux Directory Structure
+
+Directory
+
+Description
+
+/bin/
+
+/boot/
+
+/dev/
+
+/etc/
+
+/home/
+
+/lib/
+
+User commands and binaries.
+
+Files used by the boot loader.

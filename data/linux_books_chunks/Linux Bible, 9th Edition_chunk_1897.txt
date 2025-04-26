@@ -1,0 +1,4 @@
+For example, the keyword PASS_
+MIN_LEN is followed by some white space and the value 5. This tells useradd that the 
+user password must be at least ﬁ ve characters. Other lines enable you to customize the 
+valid range of automatically assigned user ID numbers or group ID numbers.

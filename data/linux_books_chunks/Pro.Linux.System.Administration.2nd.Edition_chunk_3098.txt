@@ -1,0 +1,3 @@
+This staging API will 
+do everything we need except create a valid certificate (certificates are issued by Fake LE). We also passed 
+the –d option to Certbot to provide the hostname we want to certify.

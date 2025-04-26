@@ -1,0 +1,12 @@
+Web browsers provide those connections to the HTTP 
+ daemon and send requests, which the daemon interprets, sending back the appropriate data 
+(such as a web page or other content).
+
+449
+
+c17.indd  04/01/2015  Page 450
+
+Part IV: Becoming a Linux Server Administrator
+
+Apache HTTPD includes an interface that allows modules to tie into the process to handle 
+speciﬁ c portions of a request.

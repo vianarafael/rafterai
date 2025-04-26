@@ -1,0 +1,8 @@
+We will change into our rpmbuild directory.
+
+319
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+We have placed a compressed tarball (a compressed archive file) inside the SOURCES directory called 
+simple_echo.tar.gz.

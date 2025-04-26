@@ -1,0 +1,3 @@
+For example, to enable two-factor authentication, you might specify a file that uses the Google 
+Authenticator PAM module, pam_google_authenticator.so (see https://www.linux.com/learn/how-set-
+2-factor-authentication-login-and-sudo for an example of how to implement it).

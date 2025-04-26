@@ -1,0 +1,3 @@
+Because you don’t want to sit next to each server and continuously monitor it per-
+sonally, you can conﬁ gure tools to monitor each server, gather log messages, and 
+even forward suspicious messages to an e-mail account of your choice.

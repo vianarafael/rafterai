@@ -1,0 +1,6 @@
+This chapter describes how to install, conﬁ gure, use, and secure an FTP 
+server using the vsftpd package.
+
+Understanding FTP
+FTP operates in a client/server model. An FTP server daemon listens for incoming requests (on TCP 
+port 21) from FTP clients. The client presents a login and password.

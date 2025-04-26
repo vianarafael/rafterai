@@ -1,0 +1,11 @@
+This file is used by all users (except the root user; use 
+the .bash_profile file in the /root directory to modify the root user’s variables) to set values.
+
+ You can find more information on configuring your Bash prompt at http://tldp.org/HOWTO/Bash-
+
+ ■ Tip 
+Prompt-HOWTO/.
+
+Command Aliases
+
+The second reason for configuring your shell is to create command aliases.

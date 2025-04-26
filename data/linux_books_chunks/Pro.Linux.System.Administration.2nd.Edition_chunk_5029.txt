@@ -1,0 +1,2 @@
+Journald creates binary structured log files and 
+can be used instead of, or with, traditional (r)syslog logging.

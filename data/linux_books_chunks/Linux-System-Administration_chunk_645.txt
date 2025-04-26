@@ -1,0 +1,30 @@
+The same numbering is used for
+partitions, so hd0,0 is the first partition on the first disk and hd0,1 is the second partition
+on that disk.
+
+root (hd0,0)
+
+163
+
+bootloader
+
+savedefault
+
+The savedefault command can be used together with default saved as a menu command.
+This combination will set the currently booted stanza as the next default stanza to boot.
+
+default saved
+timeout 10
+
+title Linux
+root (hd0,0)
+kernel /boot/vmlinuz
+savedefault
+
+title DOS
+root (hd0,1)
+makeactive
+chainloader +1
+savedefault
+
+14.2.5.

@@ -1,0 +1,6 @@
+about the partition table
+
+5.4.1. master boot record
+
+The partition table information (primary and extended partitions) is written in the master
+boot record or mbr.

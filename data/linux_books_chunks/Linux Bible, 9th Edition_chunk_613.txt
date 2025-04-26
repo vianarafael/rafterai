@@ -1,0 +1,11 @@
+Linux also keeps track of your 
+login session: It knows when you logged in, how long you have been idle, and where you 
+logged in from.
+
+To ﬁ nd out information about your identity, use the id command as follows:
+
+$ id
+uid=501(chris) gid=501(chris) groups=105(sales), 7(lp)
+
+In this example, the username is chris, which is represented by the numeric user ID (uid) 
+501.

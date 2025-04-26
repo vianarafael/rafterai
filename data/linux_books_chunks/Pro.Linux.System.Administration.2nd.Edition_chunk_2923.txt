@@ -1,0 +1,10 @@
+Many times, a web application is deployed automatically by a deploy user.
+
+ Using a specific system group to manage web sites also means you can allow members of this group 
+
+ ■ Tip 
+to use the apachectl or apache2ctl command via sudo without giving them full root access.
+
+To ensure that files created by one user can be modified by another user in the same group, you need 
+
+to set the umask option so that any new files and directories created are writable by the group.

@@ -1,0 +1,18 @@
+If you 
+are interested in learning more about cgroups, you can refer to the following:
+
+6
+
+ ■ Red Hat Enterprise Linux Resource Management and Linux Containers 
+
+Guide—https://access.redhat.com/documentation/en-US/Red_Hat_
+Enterprise_Linux/7/html-single/Resource_Management_and_Linux_
+Containers_Guide/index.html
+
+ ■ Kernel documentation on cgroups—Refer to ﬁ les in the /usr/share/doc/
+kernel-doc-*/Documentation/cgroups directory after installing the 
+ kernel-doc package.
+
+Summary
+Even on a Linux system where there isn’t much activity, typically dozens or even hundreds 
+of processes are running in the background.

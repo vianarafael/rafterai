@@ -1,0 +1,6 @@
+All the 
+
+configuration files are installed under /var/lib/ldap-account-manager/config/.
+
+LAM is fairly easy to configure. On Ubuntu, some configuration files are installed into /etc/ldap-
+account-manager.

@@ -1,0 +1,6 @@
+We are going to select the default, VDI (VirtualBox Disk Image) , and continue on.
+
+Figure 3-5.  Selecting Virtual Disk format
+
+ ■ Note 
+ there are many different types of virtual disk formats.

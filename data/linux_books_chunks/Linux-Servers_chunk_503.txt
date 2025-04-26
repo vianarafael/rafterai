@@ -1,0 +1,3 @@
+changing policy rules
+
+To start, let's set the default policy for all three chains to drop everything.

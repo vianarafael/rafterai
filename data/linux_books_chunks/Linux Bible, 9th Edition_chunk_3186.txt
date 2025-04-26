@@ -1,0 +1,8 @@
+After that, I describe how to 
+better conﬁ gure SSL communications by generating your own SSL keys and certiﬁ cates to 
+use with the web server (running on a Fedora or RHEL system) conﬁ gured in this chapter.
+
+Understanding how SSL is configured
+If you have installed the mod_ssl package in Fedora or RHEL (which is done by default if 
+you installed the Web Server group), a self-signed certiﬁ cate and private key are created 
+when the package is installed.

@@ -1,0 +1,17 @@
+With the configuration below I can make my server a slave for the jesse.local zone.
+
+root@debian7:/etc/bind# tail -6 named.conf.local
+zone "jesse.local" IN {
+        type slave;
+        file "/var/cache/named/db.jesse.local";
+        masters { 10.104.15.20; };
+};
+
+root@debian7:/etc/bind# mkdir /var/cache/named/
+root@debian7:/etc/bind# chown bind:bind /var/cache/named/
+root@debian7:/etc/bind# ls -ld /var/cache/named/
+drwxr-xr-x 2 bind bind 4096 Oct  1 20:01 /var/cache/named/
+
+Note that we put the slave zones in /var/cache/named and not in /etc/bind.
+
+4.

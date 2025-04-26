@@ -1,0 +1,3 @@
+For example, 
+Alt+SysRq+e terminates all processes except for the init process. Alt+SysRq+t dumps a list of all current tasks and 
+information about those tasks to the console. To reboot the system, press Alt+SysRq+b.

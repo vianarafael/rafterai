@@ -1,0 +1,5 @@
+Then I created a 
+500MB /boot partition and a 12GB swap partition, and I assigned the rest of the 
+disk space to the root partition (/). The /var/lib/libvirt/images directory 
+holds most of the data on this system, but that is a shared directory, available from 
+another system on the network and shared between the two hypervisors.

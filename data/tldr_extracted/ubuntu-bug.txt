@@ -1,0 +1,6 @@
+# ubuntu-bug
+
+
+- View documentation for the original command:
+
+`tldr apport-bug`

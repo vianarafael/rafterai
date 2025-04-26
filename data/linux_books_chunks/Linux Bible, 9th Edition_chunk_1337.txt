@@ -1,0 +1,6 @@
+In particular, when you run systemctl 
+ commands to enable and disable services, ﬁ les that make that happen are stored in 
+subdirectories of the /etc/systemd/system directory.
+
+ ■ /etc/xinetd.d—Contains a set of ﬁ les, each of which deﬁ nes an on-demand 
+network service that the xinetd daemon listens for on a particular port.

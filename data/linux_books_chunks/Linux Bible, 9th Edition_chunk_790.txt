@@ -1,0 +1,5 @@
+Here are a few:
+
+ ■ In MS-DOS and Windows fi lesystems, drive letters represent different storage devices (for 
+example, A: is a fl oppy drive and C: is a hard disk). In Linux, all storage devices are  connected 
+to the fi lesystem hierarchy.

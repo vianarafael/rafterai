@@ -1,0 +1,2 @@
+For you, the extra work is 
+conﬁ guring a Kerberos server.

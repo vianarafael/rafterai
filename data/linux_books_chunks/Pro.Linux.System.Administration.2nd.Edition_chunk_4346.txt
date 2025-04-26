@@ -1,0 +1,19 @@
+These commands use an 
+SSH connection to securely connect to another host and transfer files.
+
+In this example, we’re going to use the sftp command to connect to our branch office server and 
+
+transfer the required files.
+
+[ca]$ sftp jsmith@branch1.example.com
+Connecting to branch1.example.com...
+jsmith@branch1.example.com's password:
+sftp> put branch1.example.com.cert
+Uploading /home/jsmith/branch1.example.com.cert to 
+/home/jsmith/branch1.example.com.cert
+/home/jsmith/branch1.example.com.cert 100%    5881    12.0KB/s    00:03
+
+We have connected to the branch1.example.com host and, using the put command, transferred the 
+
+branch1.example.com.cert certificate file from its location, here the /home/jsmith directory, to the 
+equivalent directory /home/jsmith on the branch1 host.

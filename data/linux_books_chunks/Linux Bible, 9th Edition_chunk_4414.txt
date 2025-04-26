@@ -1,0 +1,4 @@
+If 
+no conﬁ guration ﬁ le exists, a security hole may be created for that application. This hole 
+could be used for malicious intent. As a safety precaution, PAM comes with the “other” 
+conﬁ guration ﬁ le.

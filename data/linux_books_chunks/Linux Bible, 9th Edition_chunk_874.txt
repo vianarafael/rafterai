@@ -1,0 +1,5 @@
+Using letters, for 
+each ﬁ le you can change permission for the user (u), group (g), other (o), and all users (a). 
+What you would change includes the read (r), write (w), and execute (x) bits. For example, 
+start with a ﬁ le that has all permissions open (rwxrwxrwx). Run the following chmod 
+commands using minus sign options.

@@ -1,0 +1,11 @@
+To do so, 
+you need the device node name for the logical volume. This is managed by a driver called device-mapper, 
+which creates a device node entry for any volume you create.
+
+398
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+A logical volume is accessible via /dev/mapper/<vgname>-<lvname>, which is symlinked from  
+
+/dev/<vgname>/<lvname>.

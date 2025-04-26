@@ -1,0 +1,14 @@
+Other Handy Network Diagnostic Tools
+
+Tool
+
+netstat
+
+host
+
+Description
+
+This tool gives the status of what is listening on your host plus much more, 
+including routes and statistics.
+
+Another tool to diagnose DNS servers.

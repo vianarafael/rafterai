@@ -1,0 +1,22 @@
+There are some excellent references are available online that can help you create your own 
+RPM files:
+
+•	
+
+•	
+
+•	
+
+•	
+
+Maximum RPM: www.rpm.org/max-rpm-snapshot/
+
+How to create a RPM: https://fedoraproject.org/wiki/How_to_create_an_
+RPM_package
+
+Packaging Software with RPM, Part 1: www.ibm.com/developerworks/library/
+l-rpm1/
+
+Creating RPMs: http://pmc.ucsc.edu/~dmk/notes/RPMs/Creating_RPMs.html
+
+We are going to quickly demonstrate the process of building a RPM package.

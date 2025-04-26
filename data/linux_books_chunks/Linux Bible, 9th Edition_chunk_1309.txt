@@ -1,0 +1,3 @@
+However, 
+for RHEL 7 and the latest Fedora releases, all administrative commands from the two 
+ directories are stored in the /usr/sbin directory (which is symbolically linked to /sbin).

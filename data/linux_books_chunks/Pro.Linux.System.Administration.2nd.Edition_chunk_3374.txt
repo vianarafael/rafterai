@@ -1,0 +1,3 @@
+We can employ the openssl s_client command again to test.
+
+To test the connection, we need to create a base64-encoded username and password.

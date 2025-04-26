@@ -1,0 +1,19 @@
+Can you define the purpose of each file ?
+
+root@debian7:~# ls -l /etc/bind
+total 52
+-rw-r--r-- 1 root root 2389 Sep  5 20:25 bind.keys
+-rw-r--r-- 1 root root  237 Sep  5 20:25 db.0
+-rw-r--r-- 1 root root  271 Sep  5 20:25 db.127
+-rw-r--r-- 1 root root  237 Sep  5 20:25 db.255
+-rw-r--r-- 1 root root  353 Sep  5 20:25 db.empty
+-rw-r--r-- 1 root root  270 Sep  5 20:25 db.local
+-rw-r--r-- 1 root root 3048 Sep  5 20:25 db.root
+-rw-r--r-- 1 root bind  463 Sep  5 20:25 named.conf
+-rw-r--r-- 1 root bind  490 Sep  5 20:25 named.conf.default-zones
+-rw-r--r-- 1 root bind  374 Oct  1 20:01 named.conf.local
+-rw-r--r-- 1 root bind  913 Oct  1 13:24 named.conf.options
+-rw-r----- 1 bind bind   77 Oct  1 11:14 rndc.key
+-rw-r--r-- 1 root root 1317 Sep  5 20:25 zones.rfc191
+
+3.

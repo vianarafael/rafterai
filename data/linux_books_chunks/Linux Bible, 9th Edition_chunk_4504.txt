@@ -1,0 +1,6 @@
+In Permissive mode, SELinux still logs what it considers security breaches 
+(called AVC denials), but it doesn’t prevent them.
+
+Another way to look at SELinux beneﬁ ts is to examine what can happen if SELinux is not 
+running on your Linux system. For example, your web server daemon (httpd) is listening 
+on a port for something to happen.

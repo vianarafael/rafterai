@@ -1,0 +1,5 @@
+If we’d left off the trailing period, the DNS server would assume we had defined hostnames only and 
+would automatically append the $ORIGIN to the end of these records.
+
+We’ve used the ns and mail hostnames in these definitions, but we’ve not yet defined these hosts in the 
+zone file, so let’s do that next (see Listing 10-19).

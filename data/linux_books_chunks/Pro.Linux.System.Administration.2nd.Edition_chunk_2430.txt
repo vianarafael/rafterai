@@ -1,0 +1,13 @@
+It needs to be run as root, in order to be able to update the system clock.
+
+$ sudo ntpdate pool.ntp.org
+24 Jun 21:25:35 ntpdate[1565]: step time server 220.233.156.30 offset 1.810551 sec
+
+If you already have an ntpd daemon running, the ntpdate command will fail with a message similar to 
+
+ ■ Note 
+this: “24 Jun 23:53:05 ntpdate[22609]: the ntp socket is in use, exiting.” You can use systemctl ntpd stop 
+and try again.
+
+The ntpdate utility connected to one of the pool.ntp.org servers and adjusted our system time by 
+1.810551 seconds.

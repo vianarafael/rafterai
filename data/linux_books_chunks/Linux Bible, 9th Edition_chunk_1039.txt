@@ -1,0 +1,4 @@
+The top command provides a more screen- oriented 
+approach to listing processes and can also be used to change the status of processes. If you are 
+using the GNOME desktop, you can use gnome-system-monitor to provide a graphical means 
+of working with processes.

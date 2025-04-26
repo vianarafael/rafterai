@@ -1,0 +1,11 @@
+Start installing from Fedora Live media, using as many of the default options as 
+
+possible.
+
+2.  After you have completely installed Fedora, update all the packages on the system.
+
+3.  Start installing from an RHEL installation DVD, but make it so the installation runs 
+
+in text mode. Complete the installation in any way you choose.
+
+4.

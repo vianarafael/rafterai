@@ -1,0 +1,3 @@
+(Linux uses the /etc/shadow ﬁ le to store encrypted password data, so the 
+ password ﬁ eld here contains an x.) You can change the home directory or the shell used 
+by editing the values in this ﬁ le.

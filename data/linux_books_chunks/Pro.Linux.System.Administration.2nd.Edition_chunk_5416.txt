@@ -1,0 +1,5 @@
+On CentOS, you can find the Apache 
+configuration for Nagios at /etc/httpd/conf.d/nagios.conf; on Ubuntu, it’s at /etc/apache2/conf-
+available/nagios.conf.
+
+The console can be found in a web service directory of /nagios.

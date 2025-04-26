@@ -1,0 +1,6 @@
+Samba 
+offers a number of ways to share ﬁ les among Windows, Linux, and Mac OS/X systems that are 
+
+well known and readily available to users of those systems.
+
+This chapter steps you through the process of installing and conﬁ guring a Samba server.

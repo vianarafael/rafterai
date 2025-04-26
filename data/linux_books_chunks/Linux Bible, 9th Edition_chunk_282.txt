@@ -1,0 +1,3 @@
+RHEL OpenStack 
+Platform and Red Hat Enterprise Virtualization offer complete platforms for running and 
+managing virtual machines. Red Hat Cloudforms is a cloud management platform.

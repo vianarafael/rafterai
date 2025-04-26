@@ -1,0 +1,3 @@
+At its heart is the open source Ansible software that can 
+orchestrate the provisioning of large-scale fleets. It was originally designed by Michael DeHaan, the same 
+person who wrote Cobbler.

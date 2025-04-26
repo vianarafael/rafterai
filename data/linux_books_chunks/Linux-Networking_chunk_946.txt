@@ -1,0 +1,11 @@
+In short, a Samba 3 domain
+controller can not share domain control with Windows domain controllers.
+
+23.1.4. Samba 4
+
+Samba 4 can be a domain controller in an Active Directory domain, including managing
+group policies. As of this writing, Samba 4 is not released for production!
+
+23.2. About security modes
+
+23.2.1.

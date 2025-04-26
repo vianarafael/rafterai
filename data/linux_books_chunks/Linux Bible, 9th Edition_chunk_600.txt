@@ -1,0 +1,9 @@
+For example, the following two uses of options for the ls command are the same:
+
+$ ls -l -a -t
+$ ls -lat
+
+In both cases, the ls command is run with the -l (long listing), -a (show hidden dot 
+ﬁ les), and -t options (list by time).
+
+Some commands include options that are represented by a whole word.

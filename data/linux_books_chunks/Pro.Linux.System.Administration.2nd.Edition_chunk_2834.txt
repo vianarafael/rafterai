@@ -1,0 +1,8 @@
+You are able to override the webmaster e-mail address for this virtual host.
+
+We can create an index.html file in our document root directory and start the Apache server.
+
+$ sudo mkdir –p /var/www/html/www.example.com
+$ sudo bash –c "echo www.example.com > /var/www/html/www.example.com/index.html"
+
+Now we simply need to restart our Apache server.

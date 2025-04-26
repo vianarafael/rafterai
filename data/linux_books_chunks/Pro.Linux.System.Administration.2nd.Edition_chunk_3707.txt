@@ -1,0 +1,2 @@
+This allows you to change your config based on what 
+the client calls you.

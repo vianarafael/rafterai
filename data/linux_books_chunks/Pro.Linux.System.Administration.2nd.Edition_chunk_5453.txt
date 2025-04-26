@@ -1,0 +1,19 @@
+You also discovered how to configure your hosts and services and the supporting 
+configuration needed to monitor your environment.
+
+In the next chapter, we’ll discuss provisioning hosts and show you how to manage your configuration 
+
+with automated configuration tools.
+
+909
+
+CHAPTER 19
+
+Configuration Management
+
+By James Turnbull and Dennis Matotek
+
+Now that you have learned how to build the components for a few systems, we are going to show you 
+how you can build thousands of them quickly, at the same time, and all having the right configuration for 
+each type of system! In the last 18 chapters we wanted to show you just how each part of the Linux system 
+was configured, what switch applied to what command, and what outcome each switch had.

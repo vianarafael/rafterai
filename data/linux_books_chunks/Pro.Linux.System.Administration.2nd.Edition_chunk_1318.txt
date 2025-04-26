@@ -1,0 +1,9 @@
+In Debian-
+style hosts NetworkManager is disabled for managing interfaces listed in /etc/network/interfaces unless 
+you specifically change the following in the /etc/NetworkManager/NetworkManager.conf to:
+
+[ifupdown]
+managed=true
+
+Some people choose not to run NetworkManager because they find it too intrusive and they prefer to 
+manage their networks themselves.

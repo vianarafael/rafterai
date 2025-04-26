@@ -1,0 +1,5 @@
+The Storage daemon controls access to the backup media, tape drives, and autoloaders. It can be configured 
+to even write to GlusterFS, and we will demonstrate this shortly.
+
+The File daemon sits on the target host waiting for connections from the Bareos Director daemon. 
+When it receives the instructions to start a backup, the target host gets a list of the files it is to back up.

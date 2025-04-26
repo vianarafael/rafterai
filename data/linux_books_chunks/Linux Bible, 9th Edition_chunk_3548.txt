@@ -1,0 +1,13 @@
+For example:
+
+# mount -a
+# df -h /mnt/sales
+Filesystem                   Size  Used  Avail   Ues%  Mounted on
+//192.168.0.119/salesdata     20G  5.7G    14G    30%  /mnt/sales
+
+You should now be able to use the shared Samba directory as you do any directory on the 
+local system.
+
+Accessing Samba shares in Windows
+As with Linux, you can access Samba shares from the ﬁ le manager window, in this case 
+Windows Explorer.

@@ -1,0 +1,4 @@
+In the left column are designations of what messages 
+are matched; the right column shows where matched messages go. Messages are matched 
+based on facility (mail, cron, kern, and so on) and priority (starting at debug, info, 
+notice and up to crit, alert, and emerg), separated by a dot (.).

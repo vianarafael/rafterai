@@ -1,0 +1,4 @@
+insmod
+
+Kernel modules can be manually loaded with the insmod command. This is a very simple
+(and  obsolete)  way  of  loading  modules.

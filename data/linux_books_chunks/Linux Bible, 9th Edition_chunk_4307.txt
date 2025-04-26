@@ -1,0 +1,13 @@
+Instead, it is a cryptographic 
+token sent with a ﬁ le, so the ﬁ le’s receiver can be assured that the ﬁ le came from you and 
+has not been modiﬁ ed in any way.
+
+23
+
+When you create a digital signature, the following steps occur:
+
+1.  You create a ﬁ le or message.
+
+2.  Using the gpg2 utility, you create a hash or message-digest of the ﬁ le.
+
+3.

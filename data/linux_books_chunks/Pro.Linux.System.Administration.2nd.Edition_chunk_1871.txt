@@ -1,0 +1,10 @@
+Both are compatible with the the Red Hat Enterprise Linux 7 
+system (.el7).
+
+ ■ Tip  We discuss in Chapter 6 how you can select the kernel you want to boot.
+
+What if you don’t know the name of package you are looking for? Or what if you want to see all the 
+
+packages installed? In those cases, you can use the command in Listing 8-8.
+
+Listing 8-8.

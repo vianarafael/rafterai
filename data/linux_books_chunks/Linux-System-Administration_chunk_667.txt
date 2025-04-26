@@ -1,0 +1,7 @@
+init and runlevels
+
+Many Unix and Linux distributions use init scripts to start daemons in the same way that
+Unix System V did. This chapter will explain in detail how that works.
+
+Init starts daemons by using scripts, where each script starts one daemon, and where each
+script waits for the previous script to finish.

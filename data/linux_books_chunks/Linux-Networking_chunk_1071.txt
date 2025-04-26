@@ -1,0 +1,377 @@
+A
+"Massive Multiauthor Collaboration" (or "MMC") contained in the site
+means any set of copyrightable works thus published on the MMC site.
+
+"CC-BY-SA" means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-profit
+corporation with a principal place of business in San Francisco,
+California, as well as future copyleft versions of that license
+published by that same organization.
+
+"Incorporate" means to publish or republish a Document, in whole or in
+part, as part of another Document.
+
+An MMC is "eligible for relicensing" if it is licensed under this
+License, and if all works that were first published under this License
+somewhere other than this MMC, and subsequently incorporated in whole
+or in part into the MMC, (1) had no cover texts or invariant sections,
+and (2) were thus incorporated prior to November 1, 2008.
+
+The operator of an MMC Site may republish an MMC contained in the site
+under CC-BY-SA on the same site at any time before August 1, 2009,
+provided the MMC is eligible for relicensing.
+
+283
+
+Index
+
+Symbols
+/etc/apache2, 83
+/etc/bind/named.conf.local, 133
+/etc/exports, 61, 72
+/etc/fstab, 62, 72
+/etc/hostname, 23
+/etc/httpd, 83
+/etc/inetd.conf, 69, 209
+/etc/init.d/samba, 198
+/etc/init.d/smb, 198
+/etc/init.d/winbind, 199
+/etc/network/interfaces, 16, 40, 43
+/etc/nsswitch.conf, 247, 249
+/etc/passwd, 256
+/etc/protocols, 13
+/etc/resolv.conf, 119
+/etc/samba/passdb.tdb, 255
+/etc/samba/smb.conf, 203, 204, 205, 221, 245
+/etc/samba/smbpasswd, 226, 253
+/etc/services, 13, 69
+/etc/squid/squid.conf, 107
+/etc/ssh, 48
+/etc/ssh/ssh_config, 48
+/etc/ssh/sshd_config, 48
+/etc/sysconfig/iptables, 65
+/etc/sysconfig/network, 18
+/etc/sysconfig/network-scripts/, 18
+/etc/sysconfig/network-scripts/ifcfg-bond0, 41
+/etc/sysctl.conf, 173
+/etc/xinetd.conf, 68
+/etc/xinetd.d, 68
+/etc/xinetd.d/swat, 209
+/proc/net/bonding, 41, 43
+/proc/sys/net/ipv4/ip_forward, 173
+/sbin, 21
+/usr/share/doc, 18
+/var/lib/nfs/etab, 61, 72
+/var/log/squid, 112
+.htaccess, 100
+.htpasswd, 90, 97
+.ssh, 52
+~/.ssh/authorized_keys, 53
+
+A
+A (DNS record), 124
+AAAA (DNS record), 124
+Alica and Bob, 49
+allow hosts (Samba), 238
+anycast, 9
+apache2, 79
+aptitude, 195, 196
+arp(1), 24
+arp table, 24
+atm, 11
+
+authoritative (dns), 128
+authoritative zone, 123
+axfr, 131
+
+B
+bind, 121
+bind(DNS), 147
+binding, 39
+binding(ip), 38
+bonding(ip), 38
+bootp, 18, 34
+broadcast, 9
+browsable (Samba), 239
+browseable (Samba), 239
+browser master, 253
+
+C
+cahing only name server, 125
+chain (iptables), 180
+CIFS, 200
+Cisco, 11
+CNAME (DNS record), 124
+create mask (Samba), 239
+
+D
+default gateway, 25
+deny hosts (Samba), 239
+dhclient, 175
+dhclient(1), 23
+dhcp, 18, 34
+dhcp client, 16, 23
+dhcp server, 119
+directory mask (Samba), 239
+directory security mask(samba), 240
+DNAT, 172
+dns, 34, 117, 117
+dnsdomainname, 123
+dns namespace, 120
+dns server, 119
+domain (dns), 121
+domain name system, 117, 117
+dpkg, 195
+dsa, 49
+
+E
+eth0, 16
+ethtool(1), 26
+exportfs(1), 61, 72
+
+F
+fddi, 11
+filter table (iptables), 180
+firewall, 171
+fixed ip, 19
+fixed ip address, 16
+force create mode(samba), 240
+
+284
+
+force directory mode(samba), 240
+force directory security mode(samba), 240
+force group(samba), 227
+force security mode(samba), 240
+force user(samba), 227
+forwarder (dns), 127
+forward lookup query, 118
+FQDN, 23
+fqdn, 123
+frame relay, 11
+ftp, 68
+fully qualified domain name, 123
+
+G
+gateway, 25
+getent(1), 248
+glue record (dns), 124
+guest ok (Samba), 214
+
+H
+hide unreadable (Samba), 239
+host (DNS record), 124
+hostname, 23, 123, 200
+hostname(1), 23
+hosts.txt, 117
+hosts allow (Samba), 238
+hosts deny (Samba), 239
+htpasswd(1), 90, 97
+httpd, 80
+
+I
+IBM, 200
+icmp, 13
+id_dsa, 53
+id_dsa.pub, 53
+id_rsa, 52
+id_rsa.pub, 52
+idmap gid(samba), 245
+idmap uid(samba), 245
+ifcfg(1), 39
+ifcfg-eth0, 19
+ifconfig(1), 20, 21, 39, 40, 41, 43
+ifdown(1), 17, 20, 21, 39
+ifenslave, 43
+ifup(1), 17, 20, 21, 39, 40, 41
+igmp, 13
+inetd, 68
+inetd(8), 209
+invalid users (Samba), 238
+iptables, 65, 179, 180
+iptables save, 184
+iterative query, 127
+ixfr, 131
+
+K
+Kerberos, 60, 71
+kmyfirewall, 65
+
+Index
+
+L
+LAN, 10
+ldap, 61
+
+M
+mac address, 21, 174
+MAN, 10
+mangle table (iptables), 180
+masquerading, 172
+master server (DNS), 130
+mount(1), 62, 72
+multicast, 8
+MX (DNS record), 124
+
+N
+NAPT, 172
+NAT, 172
+nat table (iptables), 180
+NetBIOS names, 200
+netcat, 217
+net groupmap, 258
+net rpc join(samba), 246
+netstat(1), 25
+net use(microsoft), 216, 221, 232
+net view(microsoft), 203, 208
+network file system, 59
+nfs, 59, 60
+NFS, 71
+nmbd(8), 199
+no_subtree_check(nfs), 61
+NS (DNS record), 124
+nslookup, 118
+NT_STATUS_BAD_NETWORK_NAME, 233
+NT_STATUS_LOGON_FAILURE, 233
+
+O
+OpenBSD, 48
+openssh, 48
+openssh-server, 55
+
+P
+packet filtering, 171, 181
+packet forwarding, 171
+PAN, 11
+passdb backend (Samba), 227
+PAT, 172
+Paul Mockapetris, 117
+ping, 13, 25, 174, 175
+port forwarding, 172
+portmap, 60, 71
+primary dns server, 128
+primary server (DNS), 130
+private key, 49
+proxy server, 106
+PTR (DNS record), 124
+public key, 49
+
+285
+
+Q
+query (dns), 118
+
+R
+read list (Samba), 238
+read only (Samba), 221
+recursive query, 127
+reverse lookup query, 118
+rfc 3010, 60
+rfc 3530, 60
+rlogin, 48
+roaming profiles(samba), 257
+root(DNS), 120
+root hints, 121
+root server (dns), 126
+root servers(DNS), 9
+root servers (dns), 120
+rootsquash, 61, 72
+route(1), 25, 25
+router, 11, 171
+rpc, 60
+RPC, 71
+rpcinfo(1), 60, 71
+rpm, 195
+rpm(8), 196
+rsa, 49
+rsh, 48
+
+S
+samba, 195
+scp(1), 53
+secondary dns server, 128
+secondary server (DNS), 130
+security(Samba), 214
+security mask(samba), 240
+security mode(samba), 231
+service(1), 65
+service(8), 198
+slave server (DNS), 130
+SMB, 200
+smbclient, 206, 215
+smbclient(1), 205, 232
+smbd(8), 199, 203, 226
+smbpasswd(1), 258
+smbpasswd(8), 226, 231
+smbtree, 208
+smbtree(1), 207
+smtp, 124
+SNAT, 172
+soa (dns record), 128
+squid, 106
+ssh, 48
+ssh_host_dsa_key, 55
+ssh_host_dsa_key.pub, 55
+ssh_host_rsa_key, 55
+ssh_host_rsa_key.pub, 55
+sshd, 55
+
+Index
+
+ssh-keygen, 52
+ssh-keygen(1), 52
+ssh -X, 53
+stateful firewall, 171
+subtree_check(nfs), 61
+swat, 68
+swat(8), 209
+sysctl, 173
+sysctl(1), 23
+system-config-securitylevel, 65
+
+T
+tcp, 13, 60
+tcpdump, 30, 35, 35, 118, 175
+tdbsam, 227, 253, 255
+telnet, 48, 68
+testparm(1), 204, 204, 205
+tld, 122
+TLD (dns), 122
+top level domain, 122
+
+U
+udp, 13, 60
+
+V
+valid users (Samba), 238
+virtualbox, 174
+vmware, 174
+
+W
+WAN, 11
+wbinfo(1), 247, 248
+webalizer, 100
+winbind(8), 247
+winbind(samba), 245
+winbindd(8), 199, 199, 247
+wireshark, 30, 48, 175
+workgroup, 214
+WPAN, 11
+writable (Samba), 221
+write list (Samba), 238
+
+X
+X.25, 11
+xinetd, 68, 68
+xinetd(8), 209
+
+Y
+yum, 196
+
+Z
+zone (dns), 123, 128
+zone transfer (dns), 128
+
+286
+
+.

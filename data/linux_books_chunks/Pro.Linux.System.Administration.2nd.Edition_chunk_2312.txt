@@ -1,0 +1,8 @@
+It specifies that when mdadm is run in monitor 
+mode, any e-mails about device failures are sent to the root user.
+
+ ■ Note  We’ll show you how to redirect all e-mail for the root user to a different address in Chapter 12.
+
+Finally, there is a space to add the configurations for your RAID arrays. You’ll add a definition for your 
+
+RAID 1 array here.

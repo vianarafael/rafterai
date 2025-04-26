@@ -1,0 +1,8 @@
+See the section “Partitioning Hard Disks” of 
+Chapter 12, “Managing Disks and Filesystems,” for more information on the fdisk 
+command.
+
+ ■ Selected boot device not available—You might see a message like this when the 
+master boot record has been deleted from the hard drive. Or it may just be that 
+the contents of the hard disk expect to be loaded from another boot loader, such 
+as a boot CD.

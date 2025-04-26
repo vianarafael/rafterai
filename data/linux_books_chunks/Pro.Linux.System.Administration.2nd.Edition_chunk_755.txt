@@ -1,0 +1,20 @@
+The /etc/default/useradd File
+
+$ sudo cat /etc/default/useradd
+# useradd defaults file
+GROUP=100
+HOME=/home
+INACTIVE=-1
+EXPIRE=
+SHELL=/bin/bash
+SKEL=/etc/skel
+
+151
+
+Chapter 5 ■ Users and GroUps
+
+This file is usually populated by default when your host is installed, but you can modify it to suit your 
+
+environment.
+
+ there are system-wide defaults that are set for the system when a user logs in.

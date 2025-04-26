@@ -1,0 +1,6 @@
+Virtual consoles are a way to have multiple shell sessions open at once in 
+addition to the graphical interface you are using.
+
+You can switch between virtual consoles by holding the Ctrl and Alt keys and pressing a 
+function key between F1 and F6. For example, in Fedora, press Ctrl+Alt+F1 (or F2, F3, F4, 
+and so on up to F6 on most Linux systems) to display one of seven virtual consoles.

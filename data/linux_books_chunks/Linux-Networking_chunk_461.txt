@@ -1,0 +1,16 @@
+Like in this case, where a number of referer
+spammers are blocked from the website.
+
+paul@lounge:~/cobbaut.be$ cat .htaccess 
+# Options +FollowSymlinks
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} ^http://(www\.)?buy-adipex.fw.nu.*$ [OR]
+RewriteCond %{HTTP_REFERER} ^http://(www\.)?buy-levitra.asso.ws.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://(www\.)?buy-tramadol.fw.nu.*$ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://(www\.)?buy-viagra.lookin.at.*$ [NC,OR]
+...
+RewriteCond %{HTTP_REFERER} ^http://(www\.)?www.healthinsurancehelp.net.*$ [NC]
+RewriteRule .* - [F,L]
+paul@lounge:~/cobbaut.be$
+
+8.12.

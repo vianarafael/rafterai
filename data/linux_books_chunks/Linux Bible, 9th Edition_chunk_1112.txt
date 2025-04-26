@@ -1,0 +1,9 @@
+I 
+ran the top command to make sure that the nice value was set properly:
+
+PID USER        PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+20284 root      25   5 98.7m  932  644 D  2.7  0.0   0:00.96 updatedb
+
+Notice that under the NI column, the nice value is set to 5. Because the command was 
+run as the root user, the root user can lower the nice value later by using the renice 
+command.

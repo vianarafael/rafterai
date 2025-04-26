@@ -1,0 +1,8 @@
+For 
+example, to set the default home directory location to /home/everyone and the default 
+shell to /bin/tcsh, type the following:
+
+# useradd -D -b /home/everyone -s /bin/tcsh
+
+In addition to setting up user defaults, an administrator can create default ﬁ les that are 
+copied to each user’s home directory for use.

@@ -1,0 +1,25 @@
+For a full list of the commands 
+
+available, please see the DNF documentation at
+
+•	
+
+http://dnf.readthedocs.io/en/latest/command_ref.html
+
+The repository files for DNF will also be similar to the current YUM repository files and are sourced 
+
+from the same location, /etc/yum.repos.d/*.repo.
+
+[fedora]
+name=Fedora $releasever - $basearch
+failovermethod=priority
+#baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/$releasever/
+Everything/$basearch/os/
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
+enabled=1
+metadata_expire=28d
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+skip_if_unavailable=False
+
+As you can see, there is no real difference here in how we describe a repository to use with DNF.

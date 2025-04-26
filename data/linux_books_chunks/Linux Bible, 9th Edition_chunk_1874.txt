@@ -1,0 +1,11 @@
+The default is to 
+name it the same as the login name and to place it in /home. Replace home_dir 
+with the directory name to use (for example, -d /mnt/homes/jake).
+
+ ■ -D—Rather than create a new account, save the supplied information as the new 
+
+default settings for any new accounts that are created.
+
+ ■ -e expire_date—Assign the expiration date for the account in YYYY-MM-DD for-
+
+mat.

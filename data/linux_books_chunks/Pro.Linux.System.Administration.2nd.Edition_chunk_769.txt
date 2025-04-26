@@ -1,0 +1,7 @@
+By default the useradd command will create a group with the 
+same name as the user.
+
+ the creation of a unique group for each user is called a user private group (UpG) scheme. It is a 
+
+ ■ Note 
+flexible model for managing group permissions.

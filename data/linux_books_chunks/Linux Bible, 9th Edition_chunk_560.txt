@@ -1,0 +1,6 @@
+They all run Linux or similar systems on the inside.
+
+ ■ Special shell features enable you to gather data input and direct data output 
+
+between commands and the Linux ﬁ lesystem. To save typing, you can ﬁ nd, edit, 
+and repeat commands from your shell history.

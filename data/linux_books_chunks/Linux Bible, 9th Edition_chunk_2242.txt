@@ -1,0 +1,4 @@
+Related packages 
+ provide PostgreSQL documentation and related tools. The MySQL (mysql and 
+mysql-server packages) service is another popular open source SQL database 
+server.

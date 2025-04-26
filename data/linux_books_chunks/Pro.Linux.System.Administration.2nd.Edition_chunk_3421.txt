@@ -1,0 +1,6 @@
+Bayesian spam filtering in the simplest terms is a method that 
+predicts the likelihood that the presence of a word, phrase, or other characteristic in an e-mail means that 
+e-mail is spam.
+
+Each e-mail is marked spam or not according to a numeric score calculated through a series of 
+customizable tests or rules; by default, a score higher than 5.0 is marked as spam.

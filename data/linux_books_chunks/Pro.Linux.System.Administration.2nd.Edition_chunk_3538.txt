@@ -1,0 +1,26 @@
+You can find a list 
+of current bugs at www.clamav.net/bugs/.
+
+Remember, if you submit a question or a bug, you should include the following information:
+
+•	
+
+•	
+
+•	
+
+Your ClamAV version (run the clamscan command with the --version option)
+
+Your platform (run uname -a)
+
+Any log messages generated (either in /var/log/clamav/clamav.log or in the /var/ 
+log/clamav/freshclam.log file on Ubuntu, or the /var/log/clamav/clamd.log or  
+/var/log/clamav/freshclam.log file on CentOS)
+
+Also available is an IRC channel called #clamav on the Freenode IRC server (http://freenode.net/) 
+
+where you can seek assistance.
+
+SPF and DKIM, Controlling Your E-mail
+
+There are further actions that we can take to help defeat spam.

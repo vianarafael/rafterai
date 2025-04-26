@@ -1,0 +1,16 @@
+removing a trigger
+
+When a trigger is no longer needed, you can delete it with the drop trigger command.
+
+mysql> drop trigger total_amount;
+Query OK, 0 rows affected (0.00 sec)
+
+56
+
+ 
+Part III. dns server
+
+Table of Contents
+
+4. introduction to DNS ................................................................................................................................  59
+4.1.

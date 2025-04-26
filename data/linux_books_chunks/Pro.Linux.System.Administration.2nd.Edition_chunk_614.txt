@@ -1,0 +1,10 @@
+Only the root user 
+
+has authority to change the user ownership of a file (although you can assume this authority using the sudo 
+command we discussed earlier in the chapter and will cover in more detail in Chapter 6).
+
+In Listing 4-12 we show some examples of how to use the chown command to change user and group 
+
+ownership.
+
+Listing 4-12.

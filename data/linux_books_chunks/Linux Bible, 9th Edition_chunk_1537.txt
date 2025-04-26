@@ -1,0 +1,12 @@
+Here are some of those technologies available to use with Red 
+Hat Enterprise Linux, along with links to where you can ﬁ nd more information about them:
+
+212
+
+c09.indd  04/01/2015  Page 213
+
+Chapter 9: Installing Linux
+
+ ■ Install server—If you set up an installation server, you don’t have to carry the 
+
+ software packages around to each machine where you install RHEL.

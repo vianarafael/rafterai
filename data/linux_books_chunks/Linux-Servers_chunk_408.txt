@@ -1,0 +1,4 @@
+It is mandatory to put all zones
+inside views when using a view.
+
+The  zone  files  are  identical  copies,  except  for  the  www  record.

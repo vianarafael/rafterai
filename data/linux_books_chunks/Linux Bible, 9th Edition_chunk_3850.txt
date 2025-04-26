@@ -1,0 +1,6 @@
+Unlike some other Linux systems that start all the scripts for runlevel 1, 
+then 2, then 3, and so on, RHEL goes right to the directory that represents the runlevel, 
+ﬁ rst stopping all services that begin with K and starting all those that begin with S in 
+that directory.
+
+As each S script runs, you should see a message saying whether the service started.

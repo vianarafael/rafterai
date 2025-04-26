@@ -1,0 +1,24 @@
+For example, type man pam_lastlog to learn 
+more about the pam_lastlog.so module.
+
+Several websites can provide additional information on PAM:
+
+ ■ The Ofﬁ cial Linux-PAM website: http://linux-pam.org
+
+ ■ The Linux-PAM System Administrator’s Guide: http://linux-pam.org/ Linux-
+
+PAM-html/Linux-PAM_SAG.html
+
+ ■ PAM Module reference: http://linux-pam.org/Linux-PAM-html/sag- module-
+
+reference.html
+
+667
+
+c23.indd  04/01/2015  Page 668
+
+Part V: Learning Linux Security Techniques
+
+Summary
+Cryptography tools offer ways of protecting and verifying the validity of the data you use 
+on your Linux system.

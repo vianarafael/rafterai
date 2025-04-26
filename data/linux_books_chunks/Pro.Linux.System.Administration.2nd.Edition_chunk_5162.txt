@@ -1,0 +1,27 @@
+Implies verbose mode also.
+
+Verbose mode.
+
+Forces a log rotation even if not required.
+
+By default on most systems, logrotate is run on a daily basis by cron, and this is the model we 
+
+recommend you use.
+
+860
+
+Chapter 18 ■ Logging and Monitoring
+
+Log Analysis and Correlation
+Now that you have all of these log files, what can you do with them? Well, logs are useful for two purposes.
+
+•	
+
+•	
+
+To identify when something has gone wrong
+
+To help diagnose the problem when something has gone wrong
+
+To achieve the first objective, you need a tool that will identify particular log messages and alert you to 
+their presence.

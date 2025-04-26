@@ -1,0 +1,6 @@
+SELinux also offers 
+different Operational Modes for its use.
+
+Implementing SELinux security models
+The Role Based Access Control model, Type Enforcement, Multi-Level Security, and Bell-
+LaPadula models are all interesting topics.

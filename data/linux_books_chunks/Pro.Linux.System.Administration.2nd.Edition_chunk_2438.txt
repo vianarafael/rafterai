@@ -1,0 +1,12 @@
+See http://www.pool.ntp.org/join.html for
+# more information.
+pool 0.ubuntu.pool.ntp.org iburst
+pool 1.ubuntu.pool.ntp.org iburst
+pool 2.ubuntu.pool.ntp.org iburst
+pool 3.ubuntu.pool.ntp.org iburst
+
+# Use Ubuntu's ntp server as a fallback.
+pool ntp.ubuntu.com
+
+The driftfile directive gives the server a place to store information about the idiosyncrasies of your 
+local system clock.

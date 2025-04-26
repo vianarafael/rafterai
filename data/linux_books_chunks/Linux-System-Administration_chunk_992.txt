@@ -1,0 +1,5 @@
+to gui or not to gui
+
+Recent Linux distributions often include a graphical application to configure the network.
+Some  people  complain  that  these  applications  mess  networking  configurations  up  when
+used simultaneously with command line configurations.

@@ -1,0 +1,7 @@
+These and other 
+topics are covered in more depth in Part V, “Learning Linux Security Techniques.”
+
+Password protection
+Good passwords and password policies are the ﬁ rst line of defense in protecting a Linux 
+system. If someone can log in to your server via ssh as the root user with a password of 
+foobar, expect to be cracked.

@@ -1,0 +1,6 @@
+For this reason we would not normally 
+provide a public IP address. For your external offices that need to authenticate against the service we 
+recommend you use the private VPN for access.
+
+This OpenLDAP service is going to be installed on our headoffice.example.com host. We are going to 
+provide our DNS server with the CNAME record to point ldap.example.com to headoffice.example.com.

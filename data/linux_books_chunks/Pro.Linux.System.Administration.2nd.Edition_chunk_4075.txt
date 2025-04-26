@@ -1,0 +1,28 @@
+The components of the Bareos are as follows:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+A Director daemon
+
+A Storage daemon
+
+A File daemon
+
+A catalog of what has been backed up to where
+
+A console to manage Bareos
+
+The Bareos backup server itself requires at least these two daemons to be running: the Director daemon 
+
+and the Storage daemon.
+
+The Director daemon controls what will be backed up, when it will be backed up, and the location to 
+which it will be backed up.

@@ -1,0 +1,17 @@
+enabling extra ip-addresses
+
+To activate a virtual network interface, use ifup, to deactivate it, use ifdown.
+
+[root@rhel6 ~]# ifup eth0:0
+[root@rhel6 ~]# ifconfig | grep 'inet '
+          inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet addr:192.168.1.133  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet addr:127.0.0.1  Mask:255.0.0.0
+[root@rhel6 ~]# ifup eth0:1
+[root@rhel6 ~]# ifconfig | grep 'inet '
+          inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet addr:192.168.1.133  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet addr:192.168.1.142  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+4.1.3.

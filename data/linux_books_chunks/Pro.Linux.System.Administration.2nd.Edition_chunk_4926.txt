@@ -1,0 +1,8 @@
+This configuration file is well commented and is the source of truth for 
+options available to you.
+
+Carbon-cache and carbon-relays can be run on the same instance; aggregators should be one separate 
+
+hosts. In this exercise, we are going to configure the carbon-cache and a carbon-relay.
+
+To begin with, we will configure the carbon-cache.

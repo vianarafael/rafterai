@@ -1,0 +1,14 @@
+Results go to the 
+fixed_file.txt ﬁ le.
+
+$ cat somefile.txt | sed 's/ *$//' > fixed_file.txt
+
+166
+
+c07.indd  04/01/2015  Page 167
+
+Chapter 7: Writing Simple Shell Scripts
+
+Using simple shell scripts
+Sometimes, the simplest of scripts can be the most useful. If you type the same sequence 
+of commands repetitively, it makes sense to store those commands (once!) in a ﬁ le.

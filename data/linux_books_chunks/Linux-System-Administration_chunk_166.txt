@@ -1,0 +1,19 @@
+Display only those two sleep processes in top. Then quit top.
+
+10. Use a standard kill to kill one of the sleep processes.
+
+11. Use one command to kill all sleep processes.
+
+12
+
+introduction to processes
+
+1.5. solution : basic process management
+
+1. Use ps to search for the init process by name.
+
+root@rhel53 ~# ps -C init
+  PID TTY          TIME CMD
+    1 ?        00:00:04 init
+
+2.

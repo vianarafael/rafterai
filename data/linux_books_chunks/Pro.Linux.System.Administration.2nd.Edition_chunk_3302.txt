@@ -1,0 +1,8 @@
+The certificate is then stored in the /etc/
+letsencrypt/live/mail.example.com/ directory.
+
+Configuring Postfix for TLS
+
+Now, you have a certificate and a key from Let’s Encrypt, or you could have gotten either a commercial 
+certificate or one signed by your self-managed certificate authority (CA). You will also need the root 
+certificate from either your commercial CA or your self-managed CA.

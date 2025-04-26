@@ -1,0 +1,7 @@
+However, if you want to manually add a kernel, here is the procedure for modifying 
+the grub.conf ﬁ le in Red Hat Enterprise Linux to be able to boot that kernel:
+
+1.  Copy the new image from the directory in which it was created (such as /usr/
+
+src/kernels/linux-2.6.25-11/arch/i386/boot) to the /boot directory. 
+Name the ﬁ le something that reﬂ ects its contents, such as bz-2.6.25-11.

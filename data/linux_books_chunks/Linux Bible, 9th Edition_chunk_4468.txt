@@ -1,0 +1,9 @@
+If you are not using the wheel group, just be sure not to 
+assign anyone in the future to this group.
+
+Next, you need to edit the /etc/pam.d/su conﬁ guration ﬁ le. Remove the comment mark, 
+#, from the following line:
+
+#auth        required    pam_wheel.so use_uid
+
+With these modiﬁ cations, PAM disables the use of the su command.

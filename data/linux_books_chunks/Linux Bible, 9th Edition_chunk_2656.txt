@@ -1,0 +1,7 @@
+It is also responsible for 
+managing services.
+
+The Linux init daemon was based upon the UNIX System V init daemon. Thus, it is called 
+the SysVinit daemon. However, it was not the only classic init daemon. The init dae-
+mon is not part of the Linux kernel. Therefore, it can come in different ﬂ avors, and Linux 
+distributions can choose which ﬂ avor to use.

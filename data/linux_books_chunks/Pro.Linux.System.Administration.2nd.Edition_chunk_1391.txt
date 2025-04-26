@@ -1,0 +1,24 @@
+We can do this via the nmcli command too as follows:
+
+$ sudo nmcli device connect enp0s8
+Device 'enp0s8' successfully activated with '00cb8299-feb9-55b6-a378-3fdc720e0bc6'.
+
+$ sudo nmcli device status
+DEVICE  TYPE      STATE         CONNECTION
+bond0   bond      connected     bond0
+enp0s3  ethernet  connected     enp0s3
+enp0s8  ethernet  connected     bond0-slave
+enp0s9  ethernet  disconnected  --
+lo      loopback  unmanaged     --
+
+$ sudo nmcli device connect enp0s9
+
+$ sudo nmcli device status
+DEVICE  TYPE      STATE      CONNECTION
+bond0   bond      connected  bond0
+enp0s3  ethernet  connected  enp0s3
+enp0s8  ethernet  connected  bond0-slave
+enp0s9  ethernet  connected  bond0-slave
+lo      loopback  unmanaged  --
+
+Our first command was issued to connect our enp0s8 device.

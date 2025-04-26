@@ -1,0 +1,8 @@
+The directory is mounted with an ecryptfs type.
+
+# mount | grep /home/johndoe/Secret
+/home/johndoe/Secret on /home/johndoe/Secret type ecryptfs
+(rw,relatime,ecryptfs_sig=70993b8d49610e67,ecryptfs_cipher=aes,
+ecryptfs_key_bytes=16,ecryptfs_unlink_sigs)
+
+So far, you have not seen the effects of this mounted and encrypted directory.

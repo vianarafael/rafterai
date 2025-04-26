@@ -1,0 +1,6 @@
+aptitude has found that the nmap package requires the 
+
+several other package to be present on the system, and thus it is automatically selected for installation  
+(it is flagged with piA), as you can see in Figure 8-20.
+
+Figure 8-20.

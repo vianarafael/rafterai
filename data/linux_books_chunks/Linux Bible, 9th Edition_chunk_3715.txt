@@ -1,0 +1,5 @@
+If everything is working properly, 
+
+when joe logs in and tries to access his home directory (/home/remote/joe), 
+the  directory /home/share/joe should be mounted from the mynfs.example.
+com server.

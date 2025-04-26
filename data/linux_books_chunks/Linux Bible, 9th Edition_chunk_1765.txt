@@ -1,0 +1,10 @@
+RPM Fusion represents a fusion of several popular third-party Fedora 
+repositories (Freshrpms, Livna.org, and Dribble). See the repository’s FAQ for details 
+(http:// rpmfusion.org/FAQ). To enable the free RPM Fusion repository in Fedora, do 
+the following:
+
+1.  Open a Terminal window.
+
+2.  Type su – and enter the root password when prompted.
+
+3.

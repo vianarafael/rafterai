@@ -1,0 +1,20 @@
+For a full list of the available options, see https://assets.nagios.com/
+downloads/nagioscore/docs/nagioscore/4/en/configmain.html.
+
+Host Configuration
+
+Let’s start examining Nagios’s configuration by opening CentOS’s /etc/nagios/objects/localhost.cfg 
+configuration file and looking at its contents, starting with a host object definition.
+
+ We’ve included both the CentoS and Ubuntu sample configuration files with the source code for this 
+
+ ■ Note 
+chapter.
+
+883
+
+Chapter 18 ■ Logging and Monitoring
+
+We’re going to start with the host object definition in the file that you can see in Listing 18-16.
+
+Listing 18-16.

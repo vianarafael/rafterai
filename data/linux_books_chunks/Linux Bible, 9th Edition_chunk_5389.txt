@@ -1,0 +1,9 @@
+Just after the BIOS screen disappears, when you see the countdown to booting 
+
+the Linux system, press any key (perhaps the spacebar).
+
+c. The GRUB boot loader menu should appear, ready to allow you to select which 
+
+operating system kernel to boot.
+
+4.

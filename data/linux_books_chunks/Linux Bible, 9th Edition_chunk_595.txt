@@ -1,0 +1,9 @@
+Most of the examples in this chapter are based on the bash shell.
+
+The bash shell is worth knowing not only because it is the default in most installations, but because it is the one you 
+will use with most Linux certifi cation exams.
+
+Running Commands
+
+The simplest way to run a command is to type the name of the command from a shell. From 
+your desktop, open a Terminal window.

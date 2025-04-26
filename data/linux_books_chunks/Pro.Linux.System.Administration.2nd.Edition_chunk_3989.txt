@@ -1,0 +1,7 @@
+Note that /dev/null is a Linux black hole; if you send things to it, like stdout or stderr, they disappear into 
+nothingness.
+
+ When you run a program on Linux/unix hosts, three standard special file descriptors are used: 
+
+ ■ Note 
+stdin (standard input), stdout (standard output), and stderr (standard error).

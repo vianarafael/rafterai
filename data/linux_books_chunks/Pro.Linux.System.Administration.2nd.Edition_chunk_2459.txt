@@ -1,0 +1,6 @@
+It is a common practice to set your local network hosts to two or three local ntp servers, which then 
+synchronize with servers from the ntp pool.
+
+If you choose to change these settings, your ntp.conf can restart the NTP server with sudo service ntp 
+
+restart on Ubuntu or sudo systemctl restart ntpd on CentOS.

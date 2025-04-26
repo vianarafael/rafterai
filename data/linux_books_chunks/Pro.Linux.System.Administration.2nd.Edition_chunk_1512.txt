@@ -1,0 +1,4 @@
+if your host 
+has iP forwarding turned on, your host will be able to forward packets from one interface to another 
+or one network to another. this is a kernel-level function that can be turned on or off by editing the /
+etc/sysctl.conf file. this file allows you to configure kernel parameters at runtime.

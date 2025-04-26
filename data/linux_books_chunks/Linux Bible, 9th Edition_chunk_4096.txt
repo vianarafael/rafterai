@@ -1,0 +1,6 @@
+One of the “hooks” to gain user attention is to let employees know that 
+these passwords work well also when creating personal passwords, such as for their online 
+banking accounts.
+
+Still, you always have a few users who refuse to implement good password practices. Plus, 
+company security policies often require that a password be changed every so many days.

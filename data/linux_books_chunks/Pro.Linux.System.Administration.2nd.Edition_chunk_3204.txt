@@ -1,0 +1,3 @@
+On Ubuntu, Postfix sends all log messages to /
+var/log/mail.log. On Ubuntu, error and warning messages are also logged to the /var/log/mail.err and 
+/var/log/mail.warn files, respectively. It’s a good idea to monitor these files for error messages.

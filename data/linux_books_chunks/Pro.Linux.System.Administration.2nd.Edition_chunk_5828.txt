@@ -1,0 +1,16 @@
+If we don’t add it, we will see an error like 
+this when we run our playbook.
+
+TASK [create db user bareos] ***************************************************
+fatal: [backup.example.com]: FAILED! => {"failed": true, "msg": "ERROR! 'backup_database_
+password' is undefined"}
+
+So, we will add backup.example.com to the [dbs] host group in the /etc/ansible/hosts file.
+
+[dbs]
+db.example.com ansible_user=vagrant
+backup.example.com
+
+A host can be part of more than one group, and this will enable Ansible to see the vars for that host 
+
+group.

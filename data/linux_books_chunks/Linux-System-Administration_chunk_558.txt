@@ -1,0 +1,6 @@
+After unpacking 262 kB will be used.
+Get:1 http://ftp.belnet.be/debian/ squeeze/main iscsitarget i386 1.4.20.2-1\
+ [69.4 kB]
+Fetched 69.4 kB in 0s (415 kB/s)
+Selecting previously deselected package iscsitarget.
+(Reading database ...

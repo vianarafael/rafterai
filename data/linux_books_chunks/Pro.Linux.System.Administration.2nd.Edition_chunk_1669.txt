@@ -1,0 +1,11 @@
+First we can 
+run a test on syntax of the file with the following:
+
+$ sudo iptables-restore –t -v < /path/to/your/iptables.bak
+Flushing chain `INPUT'
+Flushing chain `FORWARD'
+Flushing chain `OUTPUT'
+# Completed on Fri May 20 21:49:49 2016
+
+This show a verbose output (-v) of the command and will give an error if there is something wrong in 
+your config file (like iptables-restore: line 4 failed).

@@ -1,0 +1,5 @@
+An input/
+output error is delivered to the process trying to access the NFS server.
+
+ ■ rsize—This is the size of the blocks of data (in bytes) that the NFS client will 
+request be used when it is reading data from an NFS server. The default is 1024.

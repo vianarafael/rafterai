@@ -1,0 +1,20 @@
+At the time of this writing, there are links to 
+
+772
+
+ 
+ 
+ 
+ 
+bapp01.indd  04/02/2015  Page 773
+
+Appendix A: Media
+
+“burn the image to a blank DVD disc,” “write the image to a USB ﬂ ash drive,” “ﬁ nd common 
+tips” for booting the media, and read the “complete Installation Guide.”
+
+FIGURE A.1
+
+Download Fedora ISO images from the Get Fedora page.
+
+You have other choices for downloading ISOs from Fedora.

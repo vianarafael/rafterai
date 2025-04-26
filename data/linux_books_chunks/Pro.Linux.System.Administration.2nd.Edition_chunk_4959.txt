@@ -1,0 +1,8 @@
+It is a very fast, low-resource web server that will sit in front of 
+
+Gunicorn and pass web requests to it. We will use Nginx as a proxy service for our application.
+
+Setting Up Gunicorn
+
+We are going to set up Gunicorn to serve our Graphite-API application. To do that, we will get it to start our 
+application listening on a loopback interface and listening on a particular port.

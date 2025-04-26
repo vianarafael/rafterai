@@ -1,0 +1,5 @@
+The window that opens shows your shared printers and folders.
+
+If your computer’s icon doesn’t appear in Network Neighborhood or My Network Places, try using the Search window. 
+From Windows XP, choose Start ➪ Search ➪ Computer or People ➪ A Computer on the Network. Type your comput-
+er’s name into the Computer Name box, and click Search.

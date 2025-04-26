@@ -1,0 +1,3 @@
+By placing user-data and meta-data in 
+a datasource, you don’t have to manually inject that information into a cloud instance, as 
+we did earlier in this chapter.

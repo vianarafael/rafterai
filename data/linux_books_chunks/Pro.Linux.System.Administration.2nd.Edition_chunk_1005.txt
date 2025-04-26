@@ -1,0 +1,24 @@
+This initial part of the boot loader will find the  
+'/boot' partition that contains the GRUB2 software and load core.efi from and bring up the GRUB2 menu.
+For more information on UEFI and the UEFI Shell (an interactive shell that you can use to manage your 
+
+UEFI) see the following:
+
+•	
+
+•	
+
+•	
+
+•	
+
+https://help.ubuntu.com/community/UEFI
+
+https://fedoraproject.org/wiki/Unified_Extensible_Firmware_Interface
+
+https://www.happyassassin.net/2014/01/25/uefi-boot-how-does-that-
+actually-work-then/
+
+https://software.intel.com/en-us/articles/uefi-shell
+
+Without any intervention GRUB2 will boot the default kernel after a brief countdown.

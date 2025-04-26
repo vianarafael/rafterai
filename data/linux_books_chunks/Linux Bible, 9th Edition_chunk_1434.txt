@@ -1,0 +1,7 @@
+Approaches to installing 
+Linux that are covered in that chapter include how to install from live media and from 
+ installation media.
+
+Exercises
+Use these exercises to test your knowledge of system administration and allow you to 
+explore information about your system hardware.

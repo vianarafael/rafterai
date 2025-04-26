@@ -1,0 +1,6 @@
+Those descriptions are followed by some individual conﬁ guration ﬁ les in 
+/etc that are of particular interest. Viewing the contents of Linux conﬁ guration ﬁ les can 
+teach you a lot about administering Linux systems.
+
+ ■ $HOME—All users store information in their home directories that directs how their 
+login accounts behave.

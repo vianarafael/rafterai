@@ -1,0 +1,3 @@
+When you 
+stand up a server that has the SSH port open to the world you will see many attempts by bots to access this 
+port with brute force username/password combinations.

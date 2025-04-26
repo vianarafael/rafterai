@@ -1,0 +1,6 @@
+To do this, we’re going to use rsync to securely copy data from host to host.
+
+ the rsync tool is part of the Samba product suite (directly related to the Samba server project we 
+
+ ■ Note 
+covered in Chapter 13).

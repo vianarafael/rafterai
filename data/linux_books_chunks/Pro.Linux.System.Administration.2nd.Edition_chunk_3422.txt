@@ -1,0 +1,2 @@
+Each rule either adds 
+or subtracts from this score depending on the weighting of the rule.

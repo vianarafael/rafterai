@@ -1,0 +1,9 @@
+We’ll come back to 
+these in Chapter 17.
+
+the /proc filesystem does not physically exist on disk, so it does not use any space, even though it 
+appears to contain some very large files.
+
+you can read more about the /proc filesystem at http://en.wikipedia.org/wiki/Procfs.
+
+If you have minimum of four hard disks, you can create a RAID 5 array instead.

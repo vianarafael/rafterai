@@ -1,0 +1,5 @@
+This model has helped Facebook shake out 
+bugs quickly, get contributions from around the world, and fuel Facebook’s exponential growth.
+
+Financial organizations that have trillions of dollars riding on the speed and security of their 
+operating systems also rely heavily on Linux.

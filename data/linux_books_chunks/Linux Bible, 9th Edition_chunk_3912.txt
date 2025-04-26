@@ -1,0 +1,8 @@
+Type the following commands to do that:
+
+# cp -r /var/lib/rpm /tmp
+# cd /var/lib/rpm
+# rm __db*
+# rpm --rebuilddb
+
+New __db* ﬁ les should appear after a few seconds in that directory.

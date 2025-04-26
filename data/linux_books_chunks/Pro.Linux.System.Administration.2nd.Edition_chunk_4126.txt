@@ -1,0 +1,3 @@
+The other 
+point we will make here is that if there is no full backup for this FileSet on this client for the retention time 
+period, Bareos will upgrade your backup to a full backup automatically.

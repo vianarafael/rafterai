@@ -1,0 +1,2 @@
+Inside this directory will be the tmp, new, and cur subdirectories, and inside the new 
+directory will be your e-mail in a single file.

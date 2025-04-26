@@ -1,0 +1,7 @@
+The root 
+user can assign users to that group so they can have access to ﬁ les based on that group’s 
+ permission. Consider the following ﬁ le and directory:
+
+$ ls -ld /var/salesdocs /var/salesdocs/file.txt
+drwxrwxr-x. 2 root sales 4096 Jan 14 09:32 /var/salesstuff/
+-rw-rw-r--.

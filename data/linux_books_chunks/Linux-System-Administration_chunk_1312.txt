@@ -1,0 +1,4 @@
+The next step is to edit individual user quotas
+with edquota or set a general quota on the file system with edquota -t. The tool will enable
+you to put hard (this is the real limit) and soft (allows a grace period) limits on blocks and
+inodes. The quota command will verify that quota for a user is set.

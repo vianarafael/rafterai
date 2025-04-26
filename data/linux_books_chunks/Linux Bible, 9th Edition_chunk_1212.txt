@@ -1,0 +1,8 @@
+Here the sed command searches the 
+entire /etc/passwd ﬁ le, searches for the word home, and prints any line containing the 
+word home.
+
+$ sed -n '/home/p' /etc/passwd
+
+In this example, sed searches the ﬁ le somefile.txt and replaces every instance of the 
+string Mac with Linux.

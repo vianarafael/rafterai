@@ -1,0 +1,10 @@
+Add an extra network card (or two) to your virtual machine and use the theory to bond
+two network cards.
+
+294
+
+binding and bonding
+
+24.6. solution: binding and bonding
+
+1.  Add  an  extra  ip  address  to  one  of  your  network  cards.

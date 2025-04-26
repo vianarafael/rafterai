@@ -1,0 +1,11 @@
+The other very 
+important reason to set your time zone to your local time zone is that your data is already set with  
+that time zone and setting your servers to UTC will cause catastrophic problems with date fields you 
+already have.
+
+ no, you are not the first to say, “uh? UTC? Why isn’t it CUT?” Well here’s your answer:  
+
+ ■ Note 
+www.timeanddate.com/time/utc-abbreviation.html.
+
+Being parochial we are going to show you how we would set our time to be Melbourne in Figure 2-15.

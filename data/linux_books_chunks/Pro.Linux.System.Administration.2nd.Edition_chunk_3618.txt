@@ -1,0 +1,16 @@
+Many offer additional features at commercial 
+rates and support agreements.
+
+592
+
+Chapter 12 ■ Mail ServiCeS
+
+Table 12-4.  List of Alternative E-mail Solutions
+
+Kolab Community
+
+Free Software (https://www.gnu.org/philosophy/free-sw.en.html).
+
+Open-Xchange
+
+Free for noncommercial use.

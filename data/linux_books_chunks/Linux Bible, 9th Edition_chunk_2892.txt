@@ -1,0 +1,10 @@
+Here are some of the service’s features:
+
+423
+
+c16.indd  04/01/2015  Page 424
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ IPP—CUPS is based on the Internet Printing Protocol (http://www.pwg.org/ipp), 
+a standard that was created to simplify how printers can be shared over IP networks.

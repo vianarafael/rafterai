@@ -1,0 +1,2 @@
+Information is sent in the 
+form of packets.

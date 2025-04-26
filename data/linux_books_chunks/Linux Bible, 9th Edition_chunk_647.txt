@@ -1,0 +1,4 @@
+(Type man emacs to read about it, if you care to.) If you are familiar with emacs, 
+you probably already know most of the keystrokes described here.
+
+If you prefer the vi command for editing shell command lines, you can easily make that happen.

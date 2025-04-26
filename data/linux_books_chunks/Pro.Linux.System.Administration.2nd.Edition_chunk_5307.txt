@@ -1,0 +1,7 @@
+Nagios also makes the host_name attribute available as a macro 
+called $HOSTNAME$.
+
+ Macros allow nagios to embed information about hosts and services in other object definitions, 
+
+ ■ Note 
+most specifically the commands nagios uses to check services and send notifications.

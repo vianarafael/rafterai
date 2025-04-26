@@ -1,0 +1,56 @@
+example: DNS delegation
+
+We have another Linux server named debian7b and we want to make it responsible for the
+child domain test42.paul.local.
+
+Note  the  name  of  the  servers  in  the  screenshots  are  either  debian7  (hosting  the  parent
+domain) or debian7b (hosting the child domain).
+
+We start by adjusting the /etc/bind/named.comf.local file (on the server hosting the parent
+domain) to make sure that no forwarder will be used when resolving authoritative names.
+
+root@debian7:~# grep -A4 paul.local /etc/bind/named.conf.local
+zone "paul.local" IN {
+        type master;
+        file "/etc/bind/db.paul.local";
+        allow-update { none; };
+        allow-transfer { 10.104.15.20; };
+        forwarders { };
+};
+root@debian7:~#
+
+Technically, you could also set allow-transfer to { any; }; while troubleshooting and then
+refine it later, but this is not needed for delegation.
+
+Then we add the delegation to our zone database:
+
+root@debian7:~# tail -3 /etc/bind/db.paul.local
+$ORIGIN test42.paul.local.
+@       IN      NS      ns2.test42.paul.local.
+ns2     IN      A       10.104.33.31    ; the glue record
+root@debian7:~#
+
+Don't forget to restart bind and verify /var/log/syslog.
+
+root@debian7:~# service bind9 restart
+Stopping domain name service...: bind9.
+Starting domain name service...: bind9.
+root@debian7:~# grep paul.local /var/log/syslog | cut -c28- | tail -2
+named[3202]: zone paul.local/IN: loaded serial 2014100801
+named[3202]: zone paul.local/IN: sending notifies (serial 2014100801)
+root@debian7:~#
+
+Note that on your terminal you can type tail -40 /var/log/syslog because the only reason I
+use grep, cut and tail -2 is to limit the size of the screenshots in this book.
+
+149
+
+advanced DNS
+
+Next we create a zone database file on the second server, as seen in this screenshot:
+
+root@debian7b:~# cat /etc/bind/db.test42.paul.local
+; child zone for classroom teaching
+$TTL    86400
+$ORIGIN test42.paul.local.
+@       IN      SOA     ns2.test42.paul.local.

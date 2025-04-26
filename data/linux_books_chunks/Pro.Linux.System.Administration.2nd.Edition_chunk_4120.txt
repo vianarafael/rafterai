@@ -1,0 +1,5 @@
+All the definitions here 
+can also be defined in the Job resource. First, we declare the JobDefs section between the curly brackets, {}. 
+Next, we name the JobDefs as DefaultLinux.
+
+The Type of job can be Backup, Restore, Verify, or Admin.

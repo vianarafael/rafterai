@@ -1,0 +1,3 @@
+another model uses a smarthost; in this case, e-mail is sent to an 
+intermediate relay server. this model is often used in internet service provider (iSp) environments where 
+you are sometimes restricted from sending and receiving e-mail directly to port 25.

@@ -1,0 +1,7 @@
+Entering a strong passphrase
+
+Enter a strong passphrase and securely store that in an encrypted password manager.
+
+ ■ Tip  You can use a reputable browser-based encrypted password manager like 1password, Lastpass, or 
+DashLane. Some of these have group or team support to allow you to share passwords among team members 
+in an authorized way. Believe me, this is actually a hard problem.

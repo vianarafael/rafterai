@@ -1,0 +1,8 @@
+The following shows you 
+how to change the symbolic link for the target unit to runlevel3.target.
+
+# ln -sf /lib/systemd/system/runlevel3.target \
+       /etc/systemd/system/default.target
+/lib/systemd/system/runlevel3.target
+
+5.

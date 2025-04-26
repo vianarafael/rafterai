@@ -1,0 +1,7 @@
+Create a directory in your home directory called projects. In the projects 
+
+directory, create nine empty ﬁ les that are named house1, house2, house3, and 
+so on to house9. Assuming there are lots of other ﬁ les in that directory, come up 
+with a single argument to ls that would list just those nine ﬁ les.
+
+2.  Make the $HOME/projects/houses/doors/ directory path.

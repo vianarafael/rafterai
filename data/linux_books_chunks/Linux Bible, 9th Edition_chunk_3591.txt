@@ -1,0 +1,6 @@
+Although this window can help 
+you confi gure shares in the /etc/exports fi le, it can also help you do trickier things, such as lock down a service 
+to specifi c ports and confi gure user access.
+
+Although I describe how to confi gure NFS by directly editing the confi guration fi le, it is quite reasonable to use this 
+graphical tool instead.

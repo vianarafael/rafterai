@@ -1,0 +1,16 @@
+For example, the command type -a 
+ls should show an aliased and ﬁ lesystem location for the ls command.
+
+75
+
+ 
+ 
+ 
+ 
+ 
+c03.indd  04/01/2015  Page 76
+
+Part II: Becoming a Linux Power User 
+
+Sometimes, you run a command and receive an error message that the command was not found or that permission to 
+run the command was denied.

@@ -1,0 +1,17 @@
+connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22 [text/html]
+Saving to: “index.html”
+
+100%[=============================================>] 22          --.-K/s   in 0s
+
+2014-05-06 15:19:16 (1.95 MB/s) - “index.html” saved [22/22]
+
+[root@centos65 ~]# cat index.html
+Welcome to my website
+
+81
+
+apache web server
+
+8.1.6.

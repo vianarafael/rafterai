@@ -1,0 +1,6 @@
+Recently, a new community-developed branch of MySQL called MariaDB has 
+supplanted MySQL on many Linux distributions.
+
+Step 2: Confi gure the server
+Most server software packages are installed with a default conﬁ guration that leans more 
+toward security than immediate full use.

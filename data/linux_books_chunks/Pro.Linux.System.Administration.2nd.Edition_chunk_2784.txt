@@ -1,0 +1,17 @@
+This option takes the same parameters as the -L option, 
+but instead specifies an optional remote address and mandatory port number to listen on the remote host, 
+followed by a local address and port number for the tunnel end point.
+
+To allow a remote user to connect to a normally inaccessible SSH server on our local network, we can 
+
+create a remote tunnel on port 2022 that forwards connections to port 22 on a host on our local network.
+
+$ ssh -R 192.168.1.1:2022:192.168.0.15:22 ataylor@192.168.1.1
+
+After we’re logged on to the host 192.168.1.1 as user ataylor, we can SSH to port 2022 on the local host, 
+
+which will then log us in to SSH on the host at 192.168.0.15.
+
+For security reasons, the start of the tunnel will only ever bind to the loopback network interface, so 
+
+users on different hosts on the network are not able to use the tunnel.

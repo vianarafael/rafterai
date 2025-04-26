@@ -1,0 +1,4 @@
+There are two ways to do this; the first is with a bind DN and password, like a proxy, that will bind and get 
+access to the entries, and the second is with anonymous bind, where no bind is done (remember that bind is 
+another word for authentication). If we use a proxy bind DN, we need to set a password in clear text on every 
+host that connects.

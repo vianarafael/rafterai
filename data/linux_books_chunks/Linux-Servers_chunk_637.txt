@@ -1,0 +1,4 @@
+This line sets the default security
+mode for our samba server. Setting the security mode to share will allow clients (smbclient,
+any windows, another Samba server, ...) to provide a password for each share. This is one
+way of using the SMB/CIFS protocol.

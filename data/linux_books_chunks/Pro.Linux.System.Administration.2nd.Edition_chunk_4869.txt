@@ -1,0 +1,4 @@
+vmstat with high disk I/O
+
+The bo column is low for the two runs, as the file data is still in the kernel buffer. At the next interval, 
+however, you can see it spike to more than 222,000 blocks.

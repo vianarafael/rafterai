@@ -1,0 +1,3 @@
+The gecos 
+entry is typically the user’s full name, used in the ﬁ fth ﬁ eld of the /etc/passwd ﬁ le. 
+The password is locked for this user.

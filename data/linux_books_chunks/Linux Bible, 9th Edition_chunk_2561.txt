@@ -1,0 +1,8 @@
+For example, DNS1=192.168.0.2 causes 
+that IP address to be written to /etc/resolv.conf as the ﬁ rst DNS server 
+being used on the system. You can have multiple DNS? entries (DNS2=, DNS3=, 
+and so on).
+
+After an ifcfg-* ﬁ le is created, you can bring the interface up and down individually 
+using the ifup and ifdown commands, instead of bringing all interfaces up or down 
+together.

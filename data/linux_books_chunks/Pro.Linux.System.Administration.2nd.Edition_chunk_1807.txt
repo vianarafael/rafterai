@@ -1,0 +1,6 @@
+Repositories, as explained earlier, are 
+collections of packages made available for your distribution by the distribution’s vendor, and “mirrored” by 
+interest groups, universities, and ISPs (Internet service providers).
+
+ ■ Note  YUM is available on red hat enterprise Linux and CentOS, as well as other red hat–derived 
+distributions.

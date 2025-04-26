@@ -1,0 +1,7 @@
+So 
+
+C:\home\joe in a Microsoft system is /home/joe in a Linux system.
+
+ ■ Filenames almost always have suffi xes in DOS (such as .txt for text fi les or .doc for 
+ word-processing fi les). Although at times you can use that convention in Linux,  three-character 
+suffi xes have no required meaning in Linux. They can be useful for identifying a fi le type.

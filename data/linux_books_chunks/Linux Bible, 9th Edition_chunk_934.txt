@@ -1,0 +1,6 @@
+Now that you 
+have a ﬁ le with some text in it, try moving around in your text with the keys or letters 
+described in the next section.
+
+Remember the Esc key! It always places you back into command mode. Remember that sometimes you must press Esc 
+twice.

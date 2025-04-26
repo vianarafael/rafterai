@@ -1,0 +1,6 @@
+A big disadvantage is that large or complex shell scripts often execute 
+more slowly than compiled programs. You can execute a shell script in two basic ways:
+
+ ■ The ﬁ lename is used as an argument to the shell (as in bash myscript). In 
+this method, the ﬁ le does not need to be executable; it just contains a list of 
+shell  commands.

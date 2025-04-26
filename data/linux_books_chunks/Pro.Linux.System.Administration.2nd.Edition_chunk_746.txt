@@ -1,0 +1,7 @@
+The format of the name and location of 
+the home directory would usually resemble /home/username.
+
+ You can prepopulate the new home directory with, for example, generic configuration files. to do this, 
+
+ ■ Tip 
+add files to the /etc/skel (short for skeleton) directory.

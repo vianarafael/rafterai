@@ -1,0 +1,11 @@
+To make changes like this 
+permanent, place them in the .bash_profile file located in your home directory, for example,
+
+PATH=$PATH:/home/ataylor/scripts
+export PATH
+
+168
+
+Chapter 5 ■ Users and GroUps
+
+Here we’ve specified our new path and then used a special command, export, to propagate the change.

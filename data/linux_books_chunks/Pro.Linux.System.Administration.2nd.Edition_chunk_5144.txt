@@ -1,0 +1,5 @@
+We could rotate this file daily and 
+keep the rotated files for seven days. The log rotation process would kick off at a time we specified, copy the 
+existing mail.log file to mail.log.1, for example, and then create an empty mail.log file. The log rotation 
+process would also increment; if a mail.log.1 file existed, this file would be renamed to mail.log.2, and so 
+on.

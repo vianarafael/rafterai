@@ -1,0 +1,4 @@
+Over time, it will use this information to report the time more precisely between synchronization attempts, 
+as the daemon knows how the local clock behaves.
+
+Statistics reporting is not enabled by default, as the statsdir option is not enabled.

@@ -1,0 +1,10 @@
+You can put configuration file in the /etc/network/interfaces.d directory and then “source” it from the /
+etc/network/interface file with the following:
+
+source-directory interfaces.d
+
+This will automatically bring in any configuration files in the interfaces.d directory. The other 
+
+parameters you can use in your interface file can be seen in Table 7-3.
+
+Table 7-3.

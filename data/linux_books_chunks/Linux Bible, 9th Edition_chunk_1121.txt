@@ -1,0 +1,6 @@
+It also creates reports 
+
+on memory resources used.
+
+ ■ Network bandwidth (net_cls)—Limits network access to selected cgroup 
+tasks.

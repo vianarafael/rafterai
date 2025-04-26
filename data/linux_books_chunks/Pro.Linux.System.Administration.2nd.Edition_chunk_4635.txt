@@ -1,0 +1,5 @@
+LDAP can be used for things like address 
+books, but it can also be used to store more sensitive data such as passwords, employee details, and so on.
+We can configure Transport Layer Security (TLS) to secure our transport over the wire. TLS is used for 
+
+encrypting communications between our server and its clients.

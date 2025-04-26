@@ -1,0 +1,6 @@
+DNS tree structure
+
+When writing a hostname or domain name, you usually leave off the trailing period for the root zone, 
+
+but when you’re dealing with DNS servers you should explicitly include it, as leaving it off may lead to 
+unexpected results.

@@ -1,0 +1,12 @@
+The  root  user  does  not  have  to  follow  these  rules  (there  will  be
+a warning though). The root user also does not have to provide the old password before
+entering the new password twice.
+
+root@debian7:~# passwd tania
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+
+3.2. shadow file
+
+User passwords are encrypted and kept in /etc/shadow.

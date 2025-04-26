@@ -1,0 +1,4 @@
+kill -1 (SIGHUP)
+
+It is common on Linux to use the first signal SIGHUP (or HUP or 1) to tell a process that
+it should re-read its configuration file.

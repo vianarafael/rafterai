@@ -1,0 +1,12 @@
+Creating a grub.cfg
+
+$ sudo grub2-mkconfig --output mygrub.cfg
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-3.10.0-327.el7.x86_64
+Found initrd image: /boot/initramfs-3.10.0-327.el7.x86_64.img
+Found linux image: /boot/vmlinuz-0-rescue-65e567f18fe84907a6f1d8519e921c97
+Found initrd image: /boot/initramfs-0-rescue-65e567f18fe84907a6f1d8519e921c97.img
+done
+
+In Listing 6-2 you can see that we have used the sudo command to escalate our privileges to perform the 
+grub2-mkconfig command.

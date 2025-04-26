@@ -1,0 +1,2 @@
+The /etc/sysconfig/network-scripts directory contains all the start-up and shutdown 
+scripts for network interfaces.

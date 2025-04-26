@@ -1,0 +1,6 @@
+For 
+SASL, you can find a useful how-to at www.postfix.org/SASL_README.html, another for Ubuntu at http://
+adomas.org/2006/08/postfix-dovecot/, and a more advanced version at www.lxtreme.nl/index.pl/
+docs/linux/dovecot_postfix_pam.
+
+The following documentation can also be helpful: www.postfix.org/DEBUG_README.html.

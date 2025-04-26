@@ -1,0 +1,12 @@
+Here are some server 
+package categories in Fedora and some of the packages available in each category:
+
+316
+
+c13.indd  04/01/2015  Page 317
+
+Chapter 13: Understanding Server Administration
+
+ ■ System Logging Server—The rsyslog service allows the local system to gather 
+
+log messages delivered from a variety of components on the system.

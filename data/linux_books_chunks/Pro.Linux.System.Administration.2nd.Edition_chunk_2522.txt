@@ -1,0 +1,56 @@
+DNS Record Types
+
+Type
+
+SOA
+
+A
+
+AAAA
+
+CNAME
+
+MX
+
+TXT
+
+SRV
+
+NS
+
+PTR
+
+DS
+
+DNSKEY
+
+RRSIG
+
+Used For
+
+Defines a serial number and expiration information for the domain
+
+IPv4 hostname to address maps
+
+IPv6 hostname to address maps
+
+Adds an alias for an existing A or AAAA record
+
+Specifies mail servers for the domain
+
+Text records, often used with SPF or DKIM (MX record validation) and other 
+machine-readable data
+
+Specifies service records associated with services
+
+Specifies DNS servers for the domain
+
+Maps an address to a hostname
+
+Delegation Signer—used in DNSSEC
+
+DNSKEY record used in DNSSEC
+
+Resource record signature used in DNSSEC
+
+Armed with this knowledge, you can now make use of the more advanced features of dig.

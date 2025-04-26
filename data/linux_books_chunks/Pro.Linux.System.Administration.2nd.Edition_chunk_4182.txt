@@ -1,0 +1,17 @@
+In the Director configuration file, we have the following:
+
+Console {
+  Name = example-mon
+  Password = "tcqT4bG9NLl11YoZ5GXFLrcb8o9mSuM2U4rxl7mgH8eD"
+  CommandACL = status, .status
+  JobACL = *all*
+}
+
+681
+
+Chapter 14 ■ BaCkup and reCovery
+
+Messaging
+
+The messaging service is defined in the Director configuration and is a way for all communications from 
+Bareos to be sent via the Director and not from the individual clients.

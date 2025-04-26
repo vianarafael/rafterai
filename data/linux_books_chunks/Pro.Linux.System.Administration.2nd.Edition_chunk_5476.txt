@@ -1,0 +1,5 @@
+the IP of the boot server on the 
+
+PXE network.
+
+3 :  SELinux is enabled. Please review the following ...

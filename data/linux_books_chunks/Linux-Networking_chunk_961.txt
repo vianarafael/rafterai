@@ -1,0 +1,26 @@
+When you add
+the first user to tdbsam, the file /etc/samba/passdb.tdb will be created.
+
+[root@RHEL52 samba]# smbpasswd -a root
+New SMB password:
+
+255
+
+ 
+ 
+ 
+ 
+samba domain controller
+
+Retype new SMB password:
+tdbsam_open: Converting version 0 database to version 3.
+Added user root.
+
+Adding all the other users generates less output, because tdbsam is already created.
+
+[root@RHEL4b samba]# smbpasswd -a root
+New SMB password:
+Retype new SMB password:
+Added user root.
+
+23.9.

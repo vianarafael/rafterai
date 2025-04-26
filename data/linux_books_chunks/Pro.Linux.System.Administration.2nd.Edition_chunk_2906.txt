@@ -1,0 +1,5 @@
+You can also comment (#) any of the directives in the file.
+
+On Ubuntu, module packages add these snippets in the /etc/apache2/mods-available directory and 
+
+then create links to them in the /etc/apache2/modules-enabled directory.

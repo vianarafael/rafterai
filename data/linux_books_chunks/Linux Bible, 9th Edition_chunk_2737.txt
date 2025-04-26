@@ -1,0 +1,6 @@
+If they fail or cannot be 
+started, the entire unit (group of units) is deactivated.
+
+You can view the various units a target unit Requires (must activate or the unit will fail), 
+using the command in the example that follows. Notice that the Requires output is much 
+shorter than the Wants for the multi-user target.

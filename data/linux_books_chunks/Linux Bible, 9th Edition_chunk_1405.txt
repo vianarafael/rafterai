@@ -1,0 +1,12 @@
+Settings that are of interest to someone using a desktop Linux 
+ system, however, can be conﬁ gured with easy-to-use desktop tools.
+
+194
+
+c08.indd  04/01/2015  Page 195
+
+Chapter 8: Learning System Administration
+
+The Nautilus ﬁ le manager used with the GNOME desktop lets you deﬁ ne what happens when 
+you attach removable devices or insert removable media into the computer from the File 
+Management Preferences window.

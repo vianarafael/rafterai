@@ -1,0 +1,12 @@
+See also GPL
+limits.conf ﬁ le, 657–658, 832
+Linux
+
+bootable CD/DVD, creating, 776–779
+distributions, 16–20. See also speciﬁ c distributions
+features overview, 4–5
+history of, 6–16
+installing, 201–232
+overview, 4–6
+professional opportunities, 20–26
+vs.

@@ -1,0 +1,8 @@
+In the foregoing scenario, if we fill the logging partition with data to 100%, our 
+system partition and web data partitions will not be consumed by logging data.
+
+In Figure 2-4 we have a simple disk layout from our VirtualBox installation. Depending on your system, 
+
+you may have many more disks.
+
+Figure 2-4.

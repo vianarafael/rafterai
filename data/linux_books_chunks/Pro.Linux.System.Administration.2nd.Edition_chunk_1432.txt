@@ -1,0 +1,7 @@
+This is a basic overview of the process 
+of TCP/IP communications.
+
+ For a deeper look at how the actual packets look, read the discussion on tCP segments at http://
+
+ ■ Note 
+www.tcpipguide.com/free/t_TCPMessageSegmentFormat-3.htm.

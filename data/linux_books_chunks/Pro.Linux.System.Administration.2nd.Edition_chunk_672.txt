@@ -1,0 +1,15 @@
+You can copy multiple files, using the asterisk symbol as follows:
+
+$ cp /home/jsmith/* /home/jsmith/backup/
+
+The target on the previous line, /home/jsmith/backup/, has to be a directory, and we’re copying all files 
+
+in the /home/jsmith directory to this directory.
+
+You can also select a subset of files.
+
+$ cp -i /home/jsmith/*.c ./
+
+On the previous line, we’ve copied all the files with a suffix of .c to the current directory (using the  
+
+./ shortcut).

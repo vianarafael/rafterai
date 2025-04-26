@@ -1,0 +1,7 @@
+Most commonly this happens due to defective 
+installation media; less often it happens due to unsupported or defective hardware.
+
+If there is a problem with the installation media, you may see read errors being logged or the installer 
+
+may display an error stating it was unable to read a file. You should check the installation CD or DVD for 
+scratches.

@@ -1,0 +1,10 @@
+For example, if you 
+are formatting the third USB, SATA, or SCSI disk (sdc), you can type the following:
+
+# fdisk /dev/sdc
+Command (m for help):
+
+Now you are in fdisk command mode, where you can use the fdisk single-letter 
+command set to work with your partitions. (For RHEL 6, adding the -c and -u 
+options enables you to select the size of each partition based on sectors instead of 
+cylinders.

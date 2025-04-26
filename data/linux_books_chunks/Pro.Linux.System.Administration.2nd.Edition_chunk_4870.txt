@@ -1,0 +1,6 @@
+Keep in mind that this is over 5 seconds, though, 
+so we can calculate the peak write rate on this particular host to be around 45,000 blocks per second.
+
+If you notice degraded performance and vmstat shows a bo value that is up near the maximum rate that 
+the system could manage when you tested it for a long time, you have an application or service that is trying 
+very hard to write a lot of data.

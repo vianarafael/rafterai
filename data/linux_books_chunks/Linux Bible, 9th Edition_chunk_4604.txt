@@ -1,0 +1,11 @@
+You can use a couple of commands to change the security contexts under which 
+a program is run:
+
+ ■ runcon—Run the program using options to determine the user, role, and type (aka 
+
+domain).
+
+ ■ sandbox—Run the program within a tightly controlled domain (aka sandbox).
+
+You can cause several problems by using runcon, so use it with caution. However, 
+sandbox offers a great deal of protection.

@@ -1,0 +1,10 @@
+For RHEL/CentOS check the theory.
+
+Decide  (with  a  partner)  on  a  computer  to  be  the  Target  and  another  computer  to  be  the
+Initiator.
+
+On the Target computer:
+
+First install iscsitarget using the standard tools for installing software in your distribution.
+Then use your knowledge from the previous chapter to setup a logical volume (/dev/vg/
+lvol0) and use the RAID chapter to setup /dev/md0.

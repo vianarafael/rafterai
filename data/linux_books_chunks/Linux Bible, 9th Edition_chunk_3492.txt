@@ -1,0 +1,5 @@
+The ﬁ le consists of the following predeﬁ ned sections:
+
+ ■ [global]—Settings that apply to the Samba server as a whole are placed in this 
+
+section.

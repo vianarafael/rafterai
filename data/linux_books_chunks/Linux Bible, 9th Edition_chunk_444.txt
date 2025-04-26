@@ -1,0 +1,9 @@
+Figure 2.10 shows the Tweak Tool (Advanced Settings 
+window) displaying Appearance settings.
+
+FIGURE 2.10
+
+Change desktop settings using the GNOME Tweak Tool (Advanced Settings).
+
+If fonts are too small for you, select the Fonts category and click the plus sign next to the 
+Scaling Factor box to increase the font size.

@@ -1,0 +1,17 @@
+With Linux, you install packages.
+
+233
+
+c10.indd  04/01/2015  Page 234
+
+Part III: Becoming a Linux System Administrator
+
+Figure 10.1 shows an example of the Software window.
+
+FIGURE 10.1
+
+Install and manage software packages from the Software window.
+
+From the Software window, you can select the applications you want to install from the 
+Picks group (a handful of popular applications), choose from categories of applications 
+(Internet, Games, Audio, Video, and so on), or search by application name or  description.

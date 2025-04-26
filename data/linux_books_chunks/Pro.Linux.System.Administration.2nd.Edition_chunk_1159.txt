@@ -1,0 +1,4 @@
+this 
+means that processes can persist without requiring to be attached to a console or user session. When the 
+parent process stops, so do all its children. For example, if you kill the systemd process on a host, you will stop 
+all processes on the host. this is not a very good idea and will probably have unfortunate effects on a host.

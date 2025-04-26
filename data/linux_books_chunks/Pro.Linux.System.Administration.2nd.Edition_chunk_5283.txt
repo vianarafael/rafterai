@@ -1,0 +1,11 @@
+You can confirm that the 
+daemon has successfully started. If it has not, you will see errors in this file. Or course, you can also use the 
+journalctl and systemctl status commands.
+
+Nagios Configuration
+We’re going to quickly walk you through how to configure Nagios. In simple terms, the steps for configuring 
+Nagios are as follows:
+
+1.  Create definitions for the hosts you want to monitor.
+
+2.

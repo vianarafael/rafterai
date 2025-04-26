@@ -1,0 +1,10 @@
+You 
+can read about using glob strings, known as globbing, at www.faqs.org/docs/abs/HTML/globbingref.html.
+
+In this case, we are using *linux-image* (you should read a little about globbing and test the results 
+
+returned when you use linux-image* and linux-image as your search string).
+
+In Figure 8-40 you can see there are several linux-image packages, all with names based on the kernel 
+
+versions they contain.

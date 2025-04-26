@@ -1,0 +1,40 @@
+Maintaining a Linux Filesystem
+
+This section covers a list of commands related to filesystem maintenance.
+
+fsck - check and repair a Linux file system
+
+Main options:
+
+-b
+
+-c
+
+-f
+
+-p
+
+-y
+
+use alternative superblck
+
+check for bad blocks
+
+force checking even when partition is marked clean
+
+automatic repair
+
+answer yes to all question
+
+35
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+sync - flush filesystem buffers
+
+Updates modified superblocks and inodes and executes delayed writes.

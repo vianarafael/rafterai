@@ -1,0 +1,10 @@
+Below 
+that we have the search bar and then along the bottom we have quick links to popular and recommended 
+applications.
+
+Let’s search for a program called “terminator,” which is a great little advanced terminal. Typing that into 
+
+the search bar comes back with a list of possible matches. Since this is the only “terminator,” we have one 
+package returned (see Figure 8-27).
+
+Figure 8-27.

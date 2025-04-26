@@ -1,0 +1,3 @@
+The result of these 
+settings is that when an anonymous user uploads a ﬁ le, that ﬁ le is immediately assigned 
+ownership of a different user.

@@ -1,0 +1,8 @@
+Use scp to copy a file from your computer to the server.
+
+5. Use scp to copy a file from the server to your computer.
+
+6. (optional, only works when you have a graphical install of Linux) Install the xeyes package
+on the server and use ssh to run xeyes on the server, but display it on your client.
+
+7.

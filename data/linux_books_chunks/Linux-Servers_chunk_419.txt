@@ -1,0 +1,12 @@
+old reverse is forward in-addr.arpa
+
+Reverse lookup is actually iomplemented as a forward lookup in the in-addr.arpa domain.
+This  domain  has  256  child  domains  (from  0.in-addr.arpa  to  255.in-addr.arpa),  with  each
+child domain having again 256 child domains. And this twice more to a structure of over
+four billion (2 to the power 32) domains.
+
+97
+
+advanced DNS
+
+5.5.7.

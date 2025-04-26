@@ -1,0 +1,10 @@
+Like Windows, users can have their own environment, storage, access controls, and 
+permissions.
+
+Finally, you see the $ symbol. This symbol tells you what type of user you are; by default all normal users 
+
+on the host will have $ as their prompt. There is a special user, called root, whose prompt uses the # symbol:
+
+root@au-mel-centos-1 ~#
+
+The root user is the superuser.

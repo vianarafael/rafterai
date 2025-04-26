@@ -1,0 +1,12 @@
+Selecting Security Profile
+
+Once we have finished the system install we will be able to run a compliance test and get an idea of how 
+
+our system looks compared to the DISA STIG for Red Hat Enterprise Linux 7 baseline.
+
+34
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+ ■ Note  DISa stands for Defence Information Systems agency and it is part of the US Department of Defense 
+and runs information systems for US agencies.

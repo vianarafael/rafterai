@@ -1,0 +1,9 @@
+Create two logical volumes (a small one and a bigger one) in this volumegroup. Format
+them wih ext3, mount them and copy some files to them.
+
+root@rhel65:~# lvcreate --size 200m --name LVsmall VG42
+  Logical volume "LVsmall" created
+root@rhel65:~# lvcreate --size 600m --name LVbig VG42
+  Logical volume "LVbig" created
+root@rhel65:~# ls -l /dev/mapper/VG42-LVsmall
+lrwxrwxrwx.

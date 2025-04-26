@@ -1,0 +1,13 @@
+Rhythmbox also lets you rip and burn audio CDs.
+
+ ■ Audio files—Rhythmbox can play WAV and Ogg Vorbis ﬁ les. By adding plug-ins, 
+you can play many other audio formats, including MP3. Because there are patent 
+
+48
+
+c02.indd  04/01/2015  Page 49
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+issues related to the MP3 format, the ability to play MP3s is not included with 
+Fedora.

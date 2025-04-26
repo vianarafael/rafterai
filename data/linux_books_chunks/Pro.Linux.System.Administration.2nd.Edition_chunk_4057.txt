@@ -1,0 +1,5 @@
+These are ephemeral and don’t need backing up. There are others that don’t need backing 
+up, including /data, which will hold remote network filesystems, and the /run and /tmp directories, which 
+are volatile.
+
+You can learn more about how to include and exclude directories and files in the duplicity man page.

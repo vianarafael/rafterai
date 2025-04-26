@@ -1,0 +1,6 @@
+Other net-
+work settings are stored in other ﬁ les in the /etc directory.
+
+Instead of using some of the tools just described, you can conﬁ gure networking in Linux by 
+directly editing conﬁ guration ﬁ les. If you do edit these ﬁ les directly, you should consider 
+turning off the NetworkManager service and turning on the network service.

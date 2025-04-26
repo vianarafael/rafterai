@@ -1,0 +1,6 @@
+If they fail or cannot be started, no 
+ problem—the target unit continues on its merry way. The preceding example is a display 
+of Wants only.
+
+A Requires is much more stringent and potentially catastrophic than a Wants. A Requires 
+means that all the units listed are triggered to activate (start).

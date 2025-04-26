@@ -1,0 +1,7 @@
+secure shell
+
+Avoid using telnet, rlogin and rsh to remotely connect to your servers. These older protocols
+do not encrypt the login session, which means your user id and password can be sniffed by
+tools like wireshark or tcpdump. To securely connect to your servers, use ssh.
+
+The ssh protocol is secure in two ways.

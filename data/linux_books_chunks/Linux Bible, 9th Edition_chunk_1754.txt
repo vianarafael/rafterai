@@ -1,0 +1,5 @@
+In fact, it is the 
+ existence of a  repodata directory in a directory of RPMs that indicates that it is a 
+yum repository.
+
+Metadata information is stored on the local system in the /var/cache/yum directory.

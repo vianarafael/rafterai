@@ -1,0 +1,18 @@
+To further investigate, you 
+can run journalctl -u for that service to see whether any error messages were reported:
+
+# journalctl -u httpd.service
+...
+Sep 07 18:40:52 host systemd[1]: Starting The Apache HTTP Server...
+Sep 07 18:40:53 host httpd[16365]: httpd: Syntax error on line 361 of
+     /etc/httpd/conf/httpd.conf: Expected </Director> but saw 
+   </Directory>
+Sep 07 18:40:53 host systemd[1]: httpd.service: 
+     main process exited, code=exited, status=1/FAILURE
+Sep 07 18:40:53 host systemd[1]: Failed to start The Apache HTTP 
+   Server.
+Sep 07 18:40:53 host systemd[1]: Unit httpd.service entered failed 
+   state.
+
+From the output, you can see that there was a mismatch of the directives in the httpd.
+conf ﬁ le (I had Director instead of Directory).

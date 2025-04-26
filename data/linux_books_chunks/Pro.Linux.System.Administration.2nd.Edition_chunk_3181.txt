@@ -1,0 +1,4 @@
+the rules around what characters 
+are allowed and the appropriate structure of e-mail addresses are often confusing. e-mail addresses 
+can take many forms, and different e-mail servers or Mtas accept varying formats as valid. the Mta 
+we’re going to show you, postfix, accepts e-mail addresses in a variety of formats.

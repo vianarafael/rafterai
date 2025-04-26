@@ -1,0 +1,9 @@
+partitioning new disks
+
+In the example below, we bought a new disk for our system. After the new hardware is
+properly attached, you can use fdisk and parted to create the necessary partition(s). This
+example uses fdisk, but there is nothing wrong with using parted.
+
+5.3.1. recognising the disk
+
+First, we check with fdisk -l whether Linux can see the new disk.

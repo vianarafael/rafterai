@@ -1,0 +1,4 @@
+Without 
+kdump, there would be no way to diagnose a crashed kernel. If you enable 
+kdump, which is done by default, you can also manually set the amount of 
+ memory to set aside for it.

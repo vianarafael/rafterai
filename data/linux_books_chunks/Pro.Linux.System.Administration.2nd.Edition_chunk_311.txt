@@ -1,0 +1,3 @@
+The downside is that there is a performance impact as VirtualBox allocates 
+that space when it is required. Once the disk is allocated it cannot be deallocated back to free space in your 
+virtual hosts.

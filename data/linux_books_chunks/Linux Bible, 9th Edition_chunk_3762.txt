@@ -1,0 +1,8 @@
+The two are mutually exclusive.
+
+UEFI was designed to allow a secure boot feature, which can be used to ensure that only 
+operating systems whose components have been signed can be used during the boot 
+ process. UEFI can still be used with nonsigned operating systems by disabling the secure 
+boot feature. 
+
+For Ubuntu, Secure boot was ﬁ rst supported in 12.04.2.

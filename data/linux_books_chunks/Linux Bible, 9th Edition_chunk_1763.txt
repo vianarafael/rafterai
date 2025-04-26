@@ -1,0 +1,7 @@
+Or 
+you can enable other third-party YUM repositories to draw software from.
+
+Using YUM with third-party software repositories
+The Fedora and Red Hat Enterprise Linux software repositories have been screened to contain 
+only software that meets criteria that make it open and redistributable. In some instances, 
+however, you may want to go beyond those repositories.

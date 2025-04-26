@@ -1,0 +1,3 @@
+can only be used on the local segment (replace the dot with
+an hexadecimal digit). This is the reason you see Scope:Link behind the address in this
+screenshot.

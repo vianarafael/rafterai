@@ -1,0 +1,17 @@
+On entering your password you will 
+
+be presented with the following desktop setup screens.
+
+46
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-33.  Installation is complete and the system is ready to use
+
+In Figure 2-34 we are selecting our localized desktop language and selecting Next in the top right.
+
+47
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-34.

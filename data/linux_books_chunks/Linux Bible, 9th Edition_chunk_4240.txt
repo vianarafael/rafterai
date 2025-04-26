@@ -1,0 +1,8 @@
+When potential 
+intrusions are detected, comparing the output to information from other commands (such 
+as rpm -V) and log ﬁ les can help you better understand and correct any attacks on 
+your system.
+
+Auditing and Reviewing Linux
+You must understand two important terms when you are auditing the health of your Linux 
+system.

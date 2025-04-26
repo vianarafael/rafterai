@@ -1,0 +1,4 @@
+If the user is validated, the LDAP server sends the response to the web service, 
+and the user can access the site.
+
+Many of the services that we have described in this book can be made to use an LDAP service.

@@ -1,0 +1,4 @@
+The document is made up of one or more key/value pairs.
+
+Each document is stored in one primary shard and can have zero or more replica shards, which are for 
+redundancy and performance. Shards are distributed among the nodes in the Elasticsearch cluster.

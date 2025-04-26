@@ -1,0 +1,9 @@
+Automatically Install Pending Package Upgrades
+
+$ sudo aptitude safe-upgrade
+$ sudo aptitude full-upgrade
+
+ADVANCED PACKAGING TOOL
+
+Before aptitude, the APt suite of utilities provided most of the online package management 
+functionality on deb-based distributions.

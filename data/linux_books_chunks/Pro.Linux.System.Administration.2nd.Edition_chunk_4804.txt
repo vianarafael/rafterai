@@ -1,0 +1,28 @@
+You can now set up a web GUI to manage your LDAP directory and integrate LDAP into your network 
+and existing applications.
+
+You should now be able to do the following:
+
+•	
+
+Install and configure OpenLDAP on Ubuntu and CentOS hosts
+
+•	 Understand and configure access control lists
+
+•	 Query and manage your LDAP directory
+
+•	
+
+•	
+
+Install and configure the LAM web GUI
+
+Set up single sign-on for Linux to LDAP
+
+•	 Configure Apache web server to use LDAP authentication to authenticate client 
+
+access
+
+Directory services, as we have said, can play a central part in your network, and there are many things 
+
+about this topic we have not even touched on in this chapter.

@@ -1,0 +1,12 @@
+Starting the Ubuntu Software app store
+
+Opening it up and it looks as shown in Figure 8-26.
+
+336
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-26.  The Ubuntu Software app store
+
+This interface is very easy to navigate around. Along the top we have the same views we saw with 
+CentOS, All, Installed, and Updates. We see already that there are four updates waiting to be installed.

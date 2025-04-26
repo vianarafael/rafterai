@@ -1,0 +1,9 @@
+You can do this by following these 
+instructions for Centos:https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/Desktop_Migration_and_Administration_Guide/customizing-login-screen.html
+
+For Ubuntu you will need to see the following: http://askubuntu.com/questions/193357/how-do-i-
+create-a-popup-banner-before-login-with-lightdm.
+
+Configuring Your Shell and Environment
+After users have been authenticated and authorized, their shell is started.

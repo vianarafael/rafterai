@@ -1,0 +1,6 @@
+Generally, this will be a user created on the 
+
+ ■ Note 
+host, but we’ll briefly look at “virtual” users in the “virtual Domains and Users” section later in this chapter. 
+in some cases, postfix knows about users on other e-mail servers and can be configured to forward mail to 
+another host.

@@ -1,0 +1,6 @@
+We’ll cover this in a bit 
+more detail later on in the section “Recovering from Failure.”
+
+Finally, the pass field is used to determine the order in which filesystems should be checked. In our 
+fstab file, the root filesystem is listed as 1, so it is checked first. After that the /boot filesystem would be 
+checked. Filesystems with a 0 in this column are checked last.

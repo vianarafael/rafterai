@@ -1,0 +1,21 @@
+All three options are used at once.
+
+# chage -l tim | grep days
+Minimum number of days between password change         : 0
+Maximum number of days between password change         : 99999
+Number of days of warning before password expires      : 7
+
+600
+
+c22.indd  04/15/2015  Page 601
+
+Chapter 22: Understanding Basic Linux Security 
+
+# chage -M 30 -m 5 -W 7 tim
+# chage -l tim | grep days
+Minimum number of days between password change         : 5
+Maximum number of days between password change         : 30
+Number of days of warning before password expires      : 7
+
+You can also use the chage command as another method of account expiration, which 
+is based upon the account’s password expiring.

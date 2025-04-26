@@ -1,0 +1,13 @@
+The chage Command
+
+$ sudo chage -M 30 ataylor
+
+161
+
+Chapter 5 ■ Users and GroUps
+
+Listing 5-9 uses the -M option to set the password expiration period for the user ataylor to 30 days. After 
+30 days the user’s password will be expired and the user will be prompted to enter a new password. Table 5-5 
+shows several of the other variables you can set.
+
+Table 5-5.

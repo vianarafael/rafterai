@@ -1,0 +1,24 @@
+You can then refer to this alias in a configuration line.
+
+ADMIN=/bin/userdel,/bin/useradd, \
+(named) /usr/sbin/named
+
+In the previous line we have specified that the users in the alias ADMIN are able to use the commands 
+
+userdel, useradd, and named.
+
+The next type of alias you can define is a command alias, Cmnd_Alias, which groups collections of 
+
+commands.
+
+Cmnd_Alias USER_COMMANDS = /bin/userdel,/bin/useradd
+
+You can use this alias in conjunction with the user alias just created.
+
+ADMIN ALL=/bin/groupadd,USER_COMMANDS
+
+Now all users defined in the alias ADMIN can use the command /bin/groupadd and all those commands 
+
+defined in the command alias USER_COMMANDS on ALL hosts.
+
+You can also specify an alias that groups a collection of hosts.

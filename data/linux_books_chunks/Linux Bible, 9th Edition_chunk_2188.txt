@@ -1,0 +1,3 @@
+However, depending on the type of desktop you are using, CDs and DVDs may 
+be mounted for you automatically when you insert them. (In some cases, applications are 
+launched as well when media is inserted.

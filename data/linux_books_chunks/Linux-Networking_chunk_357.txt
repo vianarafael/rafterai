@@ -1,0 +1,4 @@
+protocol versions
+
+The older nfs versions 2 and 3 are stateless (udp) by default, but they can use tcp. Clients
+connect to the server using rpc (on Linux this is controlled by the portmap daemon.

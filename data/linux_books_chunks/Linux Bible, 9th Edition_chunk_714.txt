@@ -1,0 +1,5 @@
+Setting PROMPT_COMMAND=date lists the current date/
+time before the prompt appears.
+
+This sets the value of your shell prompt. There are many items that you can 
+read into your prompt (date, time, username, hostname, and so on).

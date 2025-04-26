@@ -1,0 +1,13 @@
+(If you had 
+not used the -d options to ls, you would have listed ﬁ les in the test directory instead of 
+permissions of that directory.)
+
+110
+
+c04.indd  04/01/2015  Page 111
+
+Chapter 4: Moving around the Filesystem
+
+Changing permissions with chmod (numbers)
+If you own a ﬁ le, you can use the chmod command to change the permission on it as you 
+please.

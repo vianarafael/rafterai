@@ -1,0 +1,6 @@
+Here are some examples:
+
+ ■ To allow regular users to be able to authenticate and read and write ﬁ les and 
+
+directories via the FTP server, the Boolean ftp_home_dir must be on. This is one 
+of the most common FTP Booleans to turn on (it is off by default).

@@ -1,0 +1,6 @@
+Because the Fedora 21 installation is very 
+similar to the Red Hat Enterprise Linux 7 installation described later in this chapter, you 
+can refer to that procedure if you want to go beyond the simple selections shown here 
+ (particularly in the area of storage conﬁ guration).
+
+Before beginning the procedure, be sure to make backup copies of any data that you want to keep.

@@ -1,0 +1,9 @@
+The example 
+that follows shows the ﬁ rewall being disabled on Host-A for a Fedora 21 or RHEL 7 system 
+(for other systems, you probably need to disable the iptables service):
+
+# systemctl stop firewalld.service
+# systemctl status firewalld.service
+
+With a new service running and Host-A’s ﬁ rewall lowered, the nmap scans should ﬁ nd 
+ something.

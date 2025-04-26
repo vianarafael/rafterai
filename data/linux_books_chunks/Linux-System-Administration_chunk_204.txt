@@ -1,0 +1,15 @@
+Use the jobs command to verify whether you have any processes running in background.
+
+jobs (maybe the catfun is still running?)
+
+2. Use vi to create a little text file. Suspend vi in background.
+
+vi text.txt
+(inside vi press ctrl-z)
+
+3. Verify with jobs that vi is suspended in background.
+
+[paul@rhel53 ~]$ jobs
+[1]+  Stopped                 vim text.txt
+
+4.

@@ -1,0 +1,3 @@
+Events are either communicated to the Upstart init daemon or  created 
+by the Upstart daemon. This is called an emitted event. The actions taken when an 
+event is emitted are dependent upon the settings in a job’s conﬁ guration ﬁ le.

@@ -1,0 +1,3 @@
+From the NFS server, copy some ﬁ les to the /var/mystuff  directory. From the NFS 
+client, make sure you can see the ﬁ les just added to that directory and make sure 
+you can’t write ﬁ les to that directory from the client.

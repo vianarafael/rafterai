@@ -1,0 +1,4 @@
+Setting ls_recurse_enable=NO prevents users from 
+recursively listing the contents of an FTP directory (in other words, it prevents the type of 
+listing you could get with the ls -R command) because on a large site, that could drain 
+resources.

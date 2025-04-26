@@ -1,0 +1,13 @@
+But this 
+requirement does not apply if neither you nor any third party retains the ability to install 
+modiﬁ ed object code on the User Product (for example, the work has been installed in ROM).
+
+The requirement to provide Installation Information does not include a requirement to con-
+tinue to provide support service, warranty, or updates for a work that has been modiﬁ ed 
+
+both.indd  04/07/2015  Page 7
+
+GNU General Public License
+
+or installed by the recipient, or for the User Product in which it has been modiﬁ ed or 
+installed.

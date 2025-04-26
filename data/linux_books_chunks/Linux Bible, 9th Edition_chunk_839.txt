@@ -1,0 +1,7 @@
+Each directory begins 
+with a d and each ﬁ le begins with a dash (-).
+
+The ﬁ le and directory names are shown in column 7. In this example, a dot (.) represents /
+home/joe and two dots (..) represent /home—the parent directory of /joe. Most of the 
+ﬁ les in this example are dot (.) ﬁ les that are used to store GUI properties (.kde directory) 
+or shell properties (.bash ﬁ les).

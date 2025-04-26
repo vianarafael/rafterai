@@ -1,0 +1,10 @@
+These maybe a better bet than 
+managing your own set of RPMs but still carry the same caveats.
+
+•	
+
+https://fedoraproject.org/wiki/EPEL
+
+That is not said to stop you from trying but more to warn you about the sometimes long and treacherous 
+
+road building your own packages can become.

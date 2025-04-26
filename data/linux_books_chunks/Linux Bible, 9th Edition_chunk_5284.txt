@@ -1,0 +1,11 @@
+To add the public Google DNS server (IP address 8.8.8.8) as the last in your list of 
+
+DNS servers, take the following action:
+
+Make a copy of your resolv.conf ﬁ le before proceeding (then copy it back after 
+the procedure is done):
+
+# cp /etc/resolv.conf $HOME
+
+If you are using the NetworkManager service, left-click the NetworkManager icon 
+and select Network Settings. Select the IPv4 Settings.

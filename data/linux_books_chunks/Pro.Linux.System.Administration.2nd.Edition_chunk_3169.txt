@@ -1,0 +1,5 @@
+For 
+that, we will issue $ nc mail.example.com 25. In this case, the client is telling the server who it is, and in 
+Listing 12-1, you can see a simple conversation in SMTP’s “language.”
+
+Listing 12-1.

@@ -1,0 +1,8 @@
+Runlevel 1 is the single-user mode, 
+or maintenance mode, that we described earlier in this chapter. Runlevel 6 is used when your host is being 
+rebooted.
+
+The runlevels on Ubuntu and CentOS hosts differ slightly. On Ubuntu, the runlevels 2 to 5 all run what 
+
+is called multiuser mode. Multiuser mode is the mode where multiple users can sign in, not just a single 
+console user.

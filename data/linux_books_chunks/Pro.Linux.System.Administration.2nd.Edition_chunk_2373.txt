@@ -1,0 +1,20 @@
+Filesystem Check and Repair Tools
+
+Filesystem(s)
+
+repair tool
+
+Ext2, ext3 and ext4
+
+e2fsck or its aliases fsck.ext2, fsck.ext3 or fsck.ext4
+
+XFS
+
+Btrfs
+
+xfs_repair
+
+btrfs check --repair <device>
+
+To run these repair tools, you will need to make sure the filesystem you’re checking is not mounted 
+for writing.

@@ -1,0 +1,6 @@
+# cacafire
+
+
+- Display the ASCII fire:
+
+`cacafire`

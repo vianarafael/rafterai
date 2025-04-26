@@ -1,0 +1,9 @@
+In particular, I focus on RPM packaging as it is used in 
+Fedora, Red Hat Enterprise Linux, and related distributions, as well as Deb packages, which 
+are associated with Debian, Ubuntu, Linux Mint, and related distributions.
+
+Understanding Linux RPM and DEB 
+Software Packaging
+On the ﬁ rst Linux systems, if you wanted to add software, you would grab the source code 
+from a project that produced it, compile it into runnable binaries, and drop it onto your 
+computer.

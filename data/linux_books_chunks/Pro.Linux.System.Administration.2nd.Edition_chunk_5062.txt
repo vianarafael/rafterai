@@ -1,0 +1,5 @@
+We are going to set up one host, gateway.example.
+com, that will upload logs to our main backup.example.com server.
+
+We are going to use https:// transport for our logs, and we will assume that we have already 
+created the TLS keys required with our CA.

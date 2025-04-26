@@ -1,0 +1,6 @@
+However, remember that the runlevels 2–5 on 
+Ubuntu are equivalent to SysVinit runlevel 5. Therefore, this activity is rather pointless.
+
+System initialization compatibility to SysVinit is maintained on some distributions, 
+such as Ubuntu, via the /etc/init/rc-sysinit.conf conﬁ guration ﬁ le. This is one 
+of the conﬁ guration ﬁ les used at system boot.

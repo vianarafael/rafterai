@@ -1,0 +1,11 @@
+If we 
+don’t unmount these, our fixed root filesystem cannot be unmounted, and a check will be forced again 
+when we next boot up.
+
+bash-2 # exit
+# umount /mnt/proc
+# umount /mnt/dev
+# umount /mnt
+
+We can now reboot the host using Ctrl+alt+delete, the reboot command, or the shutdown -r now 
+command.

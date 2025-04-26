@@ -1,0 +1,6 @@
+Because we installed our application in /opt/nginx, it means we can 
+effectively “uninstall” by issuing rm -rf /opt/nginx, which will remove the whole nginx directory.
+
+Creating Packages with FPM
+FPM is an application that builds either deb or RPM packages (among other package types) from a variety 
+of different source types, including deb source packages and rpm source packages.

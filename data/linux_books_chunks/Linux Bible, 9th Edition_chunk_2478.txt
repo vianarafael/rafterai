@@ -1,0 +1,15 @@
+Figure 14.1 shows 
+an example of the NetworkManager icon in the top panel of a GNOME 3 desktop in Fedora, 
+along with the window that appears when you open the icon.
+
+FIGURE 14.1
+
+Checking network interfaces with NetworkManager.
+
+350
+
+c14.indd  04/01/2015  Page 351
+
+Chapter 14: Administering Networking
+
+As you can see from Figure 14.1, the wired network connection is on.

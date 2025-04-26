@@ -1,0 +1,7 @@
+We are now going to show you briefly 
+
+the ability to create a subvolume and to create a snapshot.
+
+A subvolume is a “POSIX namespace” or a container. It is not a block device, like /dev/sda or an LVM 
+
+(logical volume management) logical volume.

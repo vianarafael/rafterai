@@ -1,0 +1,7 @@
+After unpacking 88.4 MB will be used.
+Do you want to continue? [Y/n/?]
+
+During the installation you will be asked to provide a password for the root mysql user,
+remember this password (or use hunter2 like i do.
+
+To  verify  the  installed  version,  use  dpkg  -l  on  Debian/Ubuntu.

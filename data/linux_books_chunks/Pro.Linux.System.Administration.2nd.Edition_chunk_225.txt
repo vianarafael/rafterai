@@ -1,0 +1,5 @@
+Selecting your region
+
+Next, you select the keyboard and keyboard layout preference. As mentioned earlier, the keyboard 
+layout is the keyboard mapping you are using. Different regions will have different mappings, so choose 
+the one that best fits your area and language.

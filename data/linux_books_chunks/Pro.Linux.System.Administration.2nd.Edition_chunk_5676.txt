@@ -1,0 +1,17 @@
+You can 
+see the documentation for that module here: https://forge.puppet.com/puppetlabs/apache.
+
+Now let’s go to the profile::web_server class again and add in our virtual host we want to install.
+
+sudo vi /etc/puppetlabs/code/environments/production/sites/profile/manifests/web_server.pp
+class profile::web_server {
+  class { role::apache_web:
+    vhost_name      => 'www.example.com',
+    vhost_doc_root => '/var/www/html',
+    vhost_port         => 80
+  }
+}
+
+We have now called in the class role::apache_web and provided the vhost_ parameters that we 
+
+required in the role::apache_web class.

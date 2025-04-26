@@ -1,0 +1,3 @@
+The qdisc pfifo_fast is the queuing discipline, which is how the data is sent out to the network; this 
+is first in, first out and the default. You can also group interfaces together and perform actions on them; this 
+shows that ours is in the default group.

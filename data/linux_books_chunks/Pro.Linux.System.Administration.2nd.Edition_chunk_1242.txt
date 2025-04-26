@@ -1,0 +1,25 @@
+It is set to run once every 2 
+minutes (*/2).
+
+As a privileged user, you can view another person’s cron by issuing the crontab command with the –u 
+
+username option.
+
+$ sudo crontab –u ataylor –l
+1 2 * * * /usr/local/bin/changeLog.sh
+
+You can also edit another person’s cron by issuing the same crontab command and the –u username -e 
+
+options.
+
+$ sudo crontab –u ataylor –e
+
+This allows you to edit the crontab for the user.
+You can also remove your crontab or another user’s crontab by issuing the crontab command with the 
+
+–r option.
+
+$ sudo crontab –u ataylor –r
+
+This removes ataylor’s crontab file: /var/spool/cron/ataylor.
+Your host has a service that monitors the cron jobs and any changes to them.

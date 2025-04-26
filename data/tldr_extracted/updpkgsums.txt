@@ -1,0 +1,14 @@
+# updpkgsums
+
+
+- Update the checksums in a `PKGBUILD`:
+
+`updpkgsums`
+
+- Display help:
+
+`updpkgsums {{[-h|--help]}}`
+
+- Display version:
+
+`updpkgsums {{[-v|--version]}}`

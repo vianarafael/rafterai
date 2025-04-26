@@ -1,0 +1,3 @@
+Separate zones are sometimes created to identify a group of computers that are 
+physically together (such as on the same rack) or that have the same hardware 
+features (so they could be used for the same types of applications).

@@ -1,0 +1,9 @@
+Nagios will 
+
+load any file in this directory with a suffix of .cfg. Here’s an example:
+
+cfg_dir=/etc/nagios/conf.d
+
+The nagios.cfg file contains a number of other useful options, some of which you can see in Table 18-4.
+
+Table 18-4.

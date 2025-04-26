@@ -1,0 +1,20 @@
+The following is the message you receive when a system is going through a rela-
+beling process after a reboot:
+
+*** Warning -- SELinux targeted policy relabel is required.
+*** Relabeling could take a very long time, depending on file
+*** system size and speed of hard drives.
+
+To modify the mode in the /etc/selinux/config ﬁ le, change the line SELINUX= to one 
+of the following:
+
+24
+
+ ■ disabled
+
+ ■ enforcing
+
+ ■ permissive
+
+The SELinux conﬁ guration ﬁ le example that follows shows that the mode has been set to 
+permissive.

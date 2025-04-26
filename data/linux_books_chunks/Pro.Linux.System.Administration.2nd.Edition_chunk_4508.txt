@@ -1,0 +1,46 @@
+This is a keyword, but this 
+can also be expressed as a number (or even in hexadecimal), as described in Table 16-1.
+
+744
+
+Table 16-1.  Additive Logging Levels
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Level
+
+-1
+
+0
+
+1
+
+2
+
+4
+
+8
+
+16
+
+32
+
+64
+
+128
+
+256
+
+512
+
+1024
+
+2048
+
+16384
+
+32768
+
+Keyword/Description
+
+(any) Turns on all debugging information.

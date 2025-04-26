@@ -1,0 +1,13 @@
+Your goal is to accomplish the following:
+
+ ■ Allow Host-C full access to Host-A.
+
+ ■ Block remote login connections using ssh from Host-B to Host-A.
+
+718
+
+c25.indd  04/02/2015  Page 719
+
+Chapter 25: Securing Linux on a Network
+
+Setting a policy of Drop. The following code shows the default policies of Host-A’s ﬁ rewall.

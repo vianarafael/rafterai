@@ -1,0 +1,6 @@
+In the preceding PAM conﬁ guration ﬁ le, three statuses 
+are returned to determine whether the subject may access the poweroff command. To 
+ better understand how these conﬁ guration ﬁ les are used, you need to review each piece of 
+the general format.
+
+On Ubuntu, PAM confi guration fi les can include other PAM confi guration fi les for authentication.

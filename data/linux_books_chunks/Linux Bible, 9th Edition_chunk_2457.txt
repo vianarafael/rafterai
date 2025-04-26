@@ -1,0 +1,3 @@
+With NetworkManager, you can automati-
+cally accept address and server information you need to connect to the Internet. 
+However, you can also set address information manually.

@@ -1,0 +1,17 @@
+Now, let’s create a snapshot of the 
+subvolume and we can mount it elsewhere, in /mnt/snap_mail, for example.
+
+$ sudo btrfs subvolume snapshot /data/mail /data2/snap_mail
+
+Now to mount that on /mnt/snap_mail.
+
+$ sudo mount -t btrfs -o subvol=snap_mail /dev/sdc /mnt/snap_mail
+$ df -h /mnt/snap_mail
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb         16G   18M   14G   1% /mnt/snap_mail
+
+377
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+A snapshot is a point-in-time copy of the subvolume.

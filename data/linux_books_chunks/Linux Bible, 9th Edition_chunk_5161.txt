@@ -1,0 +1,12 @@
+To run, recall, and change these commands as described:
+
+$ cat /etc/passwd
+$ ls $HOME
+$ date
+
+a. Press the up arrow until you see the cat /etc/passwd command. If your 
+
+ cursor is not already at the end of the line, press Ctrl+E to get there. Backspace 
+over the word passwd, type the word group, and press Enter.
+
+b. Type man ls and ﬁ nd the option to list by time (-t).

@@ -1,0 +1,8 @@
+So, bill or anyone in sales would not be 
+able to change the ﬁ le unless mary were to open permissions again (for example, by typing 
+chmod 664 /tmp/memo.txt).
+
+Setting default ACLs
+Setting default ACLs on a directory enables your ACLs to be inherited. That means that 
+when new ﬁ les and directories are created in that directory, they are assigned the same 
+ACLs.

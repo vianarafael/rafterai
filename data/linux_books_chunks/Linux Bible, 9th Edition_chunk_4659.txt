@@ -1,0 +1,10 @@
+You can then use the audit2allow com-
+mand to selectively allow actions that cause AVC denials to be added to the policy 
+of what is allowed for a service.
+
+Obtaining More Information on SELinux
+Several additional sources of information can help you with SELinux on your Linux system:
+
+ ■ Your system’s man pages—Issue the command man -k selinux to ﬁ nd all the 
+various man pages you can review for the SELinux utilities currently installed on 
+your system.

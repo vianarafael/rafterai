@@ -1,0 +1,8 @@
+The 
+
+key is 2,048 bits long, which is the current standard for the Internet but can be higher if you want. The issue 
+is that some CAs will not support larger key lengths.
+
+ ■ Note 
+ higher key lengths increase the security of your encryption, but there is a (slight) processing penalty, 
+and doubling the key does not result in double the encryption security.

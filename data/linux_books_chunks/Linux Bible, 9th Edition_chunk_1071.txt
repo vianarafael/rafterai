@@ -1,0 +1,19 @@
+Only the root user 
+can assign negative priorities, so you need to provide the root password, when 
+prompted, to set a negative nice value.
+
+ ■ Memory Maps—Lets you view the system memory map to see which libraries and 
+
+other components are being held in memory for the process.
+
+ ■ Open Files—Lets you view which ﬁ les are currently being held open by the process.
+
+ ■ Properties—Lets you see other settings associated with the process (such as 
+
+ security context, memory usage, and CPU use percentages).
+
+FIGURE 6.3
+
+Renice, kill, or pause a process from the System Monitor window.
+
+You can display running processes associated with users other than yourself.

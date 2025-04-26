@@ -1,0 +1,8 @@
+so every time a resolver is referred to a “child” of the tLD, this Ds record is included.
+
+439
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+this Ds record is used by the resolver to validate the authenticity of the public key signing key. It does 
+this by performing a hash on the public key signing key and comparing that to the Ds record.

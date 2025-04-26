@@ -1,0 +1,12 @@
+The following example shows what input 
+
+and output for the script could look like:
+
+$ myhome
+What street did you grow up on? Harrison
+What town did you grow up in? Princeton
+The street I grew up on was Harrison and the town was Princeton.
+
+4.  To create the required script, do the following:
+
+a.

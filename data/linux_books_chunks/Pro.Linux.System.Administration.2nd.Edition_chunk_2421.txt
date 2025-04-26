@@ -1,0 +1,5 @@
+You can see the local time, UTC (Coordinated Universal 
+
+Time), time zone, and daylight saving information.
+
+You can see from that information that our time zone is set to New York.

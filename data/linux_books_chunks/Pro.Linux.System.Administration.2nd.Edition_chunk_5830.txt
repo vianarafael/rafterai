@@ -1,0 +1,4 @@
+When a task executes and makes a change to your system, it will 
+
+be changed and be added to the final recap line. Where there was no need to execute the task, it will be ok 
+and added to the recap line.

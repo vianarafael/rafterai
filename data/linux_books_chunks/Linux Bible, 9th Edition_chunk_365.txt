@@ -1,0 +1,13 @@
+You can get Fedora in lots of ways, including these:
+
+ ■ Running Fedora from a live medium—Refer to Appendix A for information on 
+
+downloading and burning Fedora Live image to a DVD or USB drive so you can boot 
+it live to use with this chapter.
+
+ ■ Installing Fedora permanently—Install Fedora to your hard disk and boot it from 
+
+there (as described in Chapter 9, “Installing Linux”).
+
+Because the current release of Fedora uses the GNOME 3 interface, most of the procedures 
+described here work with other Linux distributions that have GNOME 3 available.

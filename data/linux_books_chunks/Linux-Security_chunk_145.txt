@@ -1,0 +1,8 @@
+Server administrators are likely to use these tools, since they are familiar and very
+similar across many different distributions. This chapter will focus on these command line
+tools.
+
+A third and rather extremist way is to edit the local configuration files directly using vi (or
+vipw/vigr). Do not attempt this as a novice on production systems!
+
+2.2.

@@ -1,0 +1,6 @@
+Any command you want to run every time your system starts up can be put in 
+the rc.local ﬁ le. 
+
+You might use rc.local to send an e-mail message or run a quick iptables ﬁ rewall rule when 
+the system starts. In general, it’s better to use an existing startup script or create a new one 
+yourself (so you can manage the command or commands as a service).

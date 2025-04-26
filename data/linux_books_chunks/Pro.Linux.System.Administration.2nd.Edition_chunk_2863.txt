@@ -1,0 +1,7 @@
+The a2query command can be used to find the state of a module like this:
+
+$ a2query -m status
+No module matches status (disabled by site administrator)
+
+Because we have just disabled the module, the status module is listed as disabled. If the module does 
+not exist, you will just see “No module matches fakemodule” only.

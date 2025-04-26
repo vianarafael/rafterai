@@ -1,0 +1,44 @@
+Split it up so that
+# it is easy to write scripts to parse these files.
+#
+#mail.info            -/var/log/mail.info
+#mail.warn            -/var/log/mail.warn
+mail.err            /var/log/mail.err
+
+#
+# Logging for INN news system.
+#
+news.crit            /var/log/news/news.crit
+news.err            /var/log/news/news.err
+news.notice            -/var/log/news/news.notice
+
+#
+# Some "catch-all" log files.
+#
+#*.=debug;\
+#    auth,authpriv.none;\
+#    news.none;mail.none    -/var/log/debug
+#*.=info;*.=notice;*.=warn;\
+#    auth,authpriv.none;\
+#    cron,daemon.none;\
+#    mail,news.none        -/var/log/messages
+
+849
+
+Chapter 18 ■ Logging and Monitoring
+
+#
+# Emergencies are sent to everybody logged in.
+#
+*.emerg                                :omusrmsg:*
+
+#
+# I like to have messages displayed on the console, but only on a virtual
+# console I usually leave idle.
+#
+#daemon,mail.*;\
+#    news.=crit;news.=err;news.=notice;\
+#    *.=debug;*.=info;\
+#    *.=notice;*.=warn    /dev/tty8
+
+# The named pipe /dev/xconsole is for the `xconsole' utility.

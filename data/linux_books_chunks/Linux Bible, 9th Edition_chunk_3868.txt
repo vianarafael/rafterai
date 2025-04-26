@@ -1,0 +1,6 @@
+For example, multi-user.target requires the basic.target (which starts a variety 
+of basic services) and display-manager.service (which starts up the display manager, 
+gdm) to launch a graphical login screen.
+
+To see services the multi-user.target starts, list contents of the /etc/systemd/
+system/multi-user.target.wants directory.

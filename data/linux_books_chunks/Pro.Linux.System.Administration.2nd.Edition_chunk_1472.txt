@@ -1,0 +1,8 @@
+You can see that 192.168.0.254 wants to know who has 192.168.0.1. There is 
+an ARP reply that says that 192.168.0.1 is at MAC address 00:50:56:a9:54:44.
+
+ARP, Reply 192.168.0.1 is-at 00:50:56:a9:54:44
+
+Now that 192.168.0.254 knows where to send its packet, it tries to establish a socket by sending a SYN 
+
+packet, Flags [S].

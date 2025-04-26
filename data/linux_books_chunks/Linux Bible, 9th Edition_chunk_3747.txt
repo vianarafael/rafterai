@@ -1,0 +1,8 @@
+You can use commands such as service and 
+chkconfig to start/stop individual services or enable/disable services, respectively.
+
+21
+
+The System V init scripts are set to run in a speciﬁ c order, with each script having to 
+complete before the next can start. If a service fails, there is no provision for that service 
+to restart automatically.

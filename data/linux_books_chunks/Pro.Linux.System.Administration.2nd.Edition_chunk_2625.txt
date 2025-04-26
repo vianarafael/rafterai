@@ -1,0 +1,15 @@
+Let’s start by 
+
+looking up the address for ns.example.com, as shown in Listing 10-24.
+
+Listing 10-24.  Testing Forward Name Resolution
+
+$ host ns.example.com localhost
+Using domain server:
+Name: localhost
+Address: 127.0.0.1#53
+Aliases:
+
+ns.example.com has address 192.168.0.254
+
+That works fine.

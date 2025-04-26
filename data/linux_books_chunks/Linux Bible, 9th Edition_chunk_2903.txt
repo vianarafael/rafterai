@@ -1,0 +1,6 @@
+You can use CUPS without modifi ca-
+tion by confi guring the Windows computer with a PostScript driver that uses http://printserver-
+name:631/printers/targetPrinter as its printing port.
+
+You may also be able to use the native Windows printer drivers for the printer instead of the PostScript 
+driver.

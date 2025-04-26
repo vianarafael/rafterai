@@ -1,0 +1,16 @@
+This acceptance can 
+be based on a number of criteria, including a properly constructed e-mail address, and we’ll talk about 
+mechanisms like authentication later in this chapter, but again there is little validation that this sending 
+address is legitimate.
+
+527
+
+Chapter 12 ■ Mail ServiCeS
+
+Next, the server expects the RCPT TO command, or whom the e-mail is being sent to.
+
+RCPT TO: <jsmith@example.com>
+250 2.1.5 Ok
+
+Here the acceptance of the address is dependent on criteria such as having a properly formed e-mail 
+address and that this server is configured to accept mail on behalf of the example.com domain.

@@ -1,0 +1,7 @@
+(See Chapter 19, “Conﬁ guring a Windows File Sharing 
+(Samba) Server.”)
+
+ ■ NFS—Network File System (NFS) is the standard Linux and UNIX feature for 
+
+ providing shared directories to other systems over a network. The nfs-utils 
+package provides NFS services and related commands.

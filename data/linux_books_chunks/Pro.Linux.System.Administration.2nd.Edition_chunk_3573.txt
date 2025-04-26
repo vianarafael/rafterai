@@ -1,0 +1,6 @@
+We’re going to examine both methods, explain 
+the pros and cons of each, and demonstrate how to configure and implement them in your environment.
+
+IMAP
+IMAP is used for accessing e-mail mailboxes from a remote client, like a desktop or laptop. Your client 
+connects to the IMAP server, and you can read, manage, and delete any e-mail in your mailbox.

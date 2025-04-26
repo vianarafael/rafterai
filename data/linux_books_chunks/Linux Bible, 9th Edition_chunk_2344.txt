@@ -1,0 +1,21 @@
+331
+
+c13.indd  04/01/2015  Page 332
+
+Part IV: Becoming a Linux Server Administrator
+
+The result is that the services ﬁ le is deleted on the local system, making the remote and 
+local directory structures in sync.
+
+$ rsync -avl /usr/share/man/man1 localhost:/tmp
+johndoe@10.140.67.23's password: ***************
+sending incremental file list
+man1/
+$ rsync -avl --delete johndoe@10.140.67.23:/usr/share/man/man1 /tmp
+johndoe@10.140.67.23's password: ***************
+sending incremental file list
+deleting man1/services
+
+Interactive copying with sftp
+If you don’t know exactly what you want to copy to or from a remote system, you can use the 
+sftp command to create an interactive FTP-style session over the SSH service.

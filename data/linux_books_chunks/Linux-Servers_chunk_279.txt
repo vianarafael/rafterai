@@ -1,0 +1,3 @@
+ordering records
+
+We know that select allows us to see all records in a table.

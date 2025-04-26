@@ -1,0 +1,7 @@
+We are going to show one way that might be 
+helpful for you in following this book.
+
+Some people find it hard to just get started with Linux, as there are many install options and choices—
+
+having all those options we regard as a great thing! Luckily there are tools that make investigating and 
+exploring Linux somewhat easier.

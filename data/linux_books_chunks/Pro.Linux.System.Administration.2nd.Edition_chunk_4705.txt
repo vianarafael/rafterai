@@ -1,0 +1,7 @@
+This can provide information to attackers 
+who will then know whether a username exists or not, so you might want to turn this off. We also turn off 
+HashCleartext and ForwardUpdate at this stage.
+
+774
+
+We now have to define the actual policy that sets the values we want to enforce on our password regime.

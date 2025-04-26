@@ -1,0 +1,22 @@
+it does this in the following manner:
+
+• 
+
+• 
+
+• 
+
+• 
+
+checking for the service unit file in the systemd directory paths
+
+if it can’t find one, it looks in /etc/init.d/ for a service file without the .service 
+suffix
+
+if it finds one it uses the systemd-sysv-generator to convert it to a systemd unit file
+
+it uses the LSB runlevels to decide which target it needs to be executed in.
+
+When we have Sysv init (LSB compliant) files in /etc/init.d/ and we start the service using the 
+systemctl command, Systemd will find those files and then run them through a generator (systemd-
+sysv-generator).

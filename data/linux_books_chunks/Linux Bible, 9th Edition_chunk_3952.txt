@@ -1,0 +1,6 @@
+Because most Linux systems are conﬁ gured as servers, you 
+should know how to troubleshoot problems encountered by those who are trying to reach 
+your Linux servers.
+
+I’ll start with the idea of having an Apache web server (httpd) running on your Linux 
+ system, but no web clients can reach it.

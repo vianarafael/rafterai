@@ -1,0 +1,12 @@
+Recursively change the permissions of the $HOME/projects/ directory so that 
+
+nobody has write permission to any ﬁ les or directory beneath that point in the ﬁ le 
+system.
+
+$ chmod -R a-w $HOME/projects/
+$ ls -lR /home/joe/projects/
+/home/joe/projects/:
+total 12
+-r--r--r--. 1 joe joe    0 Jan 16 06:49 house1
+-r--r-----. 1 joe joe    0 Jan 16 06:49 house2
+-r--r--r--.

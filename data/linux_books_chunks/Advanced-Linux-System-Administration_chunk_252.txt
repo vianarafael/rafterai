@@ -1,0 +1,8 @@
+It is started as a service:
+
+/etc/rc.d/init.d/syslogd start/stop/status/restart/condrestart
+
+The following lines are from the syslogd rc-script:
+
+if [ -f /etc/sysconfig/syslog ] ; then
+        .

@@ -1,0 +1,10 @@
+It was a fairly common practice in UNIX systems to have several 
+different administrative logins that allowed administrative tasks to be split among several 
+
+189
+
+c08.indd  04/01/2015  Page 190
+
+Part III: Becoming a Linux System Administrator 
+
+users.

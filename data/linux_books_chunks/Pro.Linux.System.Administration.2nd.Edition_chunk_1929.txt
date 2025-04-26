@@ -1,0 +1,6 @@
+Selecting Become root
+
+Use the arrow keys to select Become root (avoid the temptation to play minesweeper), press Enter, 
+
+and aptitude will now run sudo for you. After you enter your password, it will restart itself with root user 
+privileges.

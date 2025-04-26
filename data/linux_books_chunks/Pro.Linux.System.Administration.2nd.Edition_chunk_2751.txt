@@ -1,0 +1,16 @@
+Starting ssh-agent
+
+$ ssh-agent
+SSH_AUTH_SOCK=/tmp/ssh-SZGGF11534/agent.11534; export SSH_AUTH_SOCK; SSH_AGENT_PID=11535; 
+export SSH_AGENT_PID;
+echo Agent pid 11535;
+
+If we then paste these lines into the shell, the variables will be set.
+
+$ SSH_AUTH_SOCK=/tmp/ssh-SZGGF11534/agent.11534; export SSH_AUTH_SOCK;
+$ SSH_AGENT_PID=11535; export SSH_AGENT_PID;
+$ echo Agent pid 11535;
+Agent pid 11535
+
+Having to copy and paste these lines is a bit cumbersome, so instead we can use the eval shell function 
+to make life a bit easier.

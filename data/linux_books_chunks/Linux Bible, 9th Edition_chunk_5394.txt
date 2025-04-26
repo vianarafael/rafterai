@@ -1,0 +1,8 @@
+When the boot process gets to the point where it is starting runlevel services, 
+you are prompted to conﬁ rm (Y) or deny (N) each service, or continue (C) to 
+simply start all the rest of the services.
+
+Note that this option is not available with the latest Fedora and Ubuntu 
+releases.
+
+6.

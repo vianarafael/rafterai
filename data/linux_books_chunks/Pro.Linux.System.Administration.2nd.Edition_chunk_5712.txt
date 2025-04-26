@@ -1,0 +1,7 @@
+You can see both of these 
+at https://docs.puppet.com/puppet/latest/metaparameter.html and also read about other available 
+metaparameters you may find useful.
+
+Using Templates
+In addition to retrieving files from the Puppet file server, you can also make use of a template function to 
+apply specific values inside those files to configure a service or application.

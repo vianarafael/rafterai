@@ -1,0 +1,21 @@
+Simply adding this value to the global section in smb.conf and
+restarting samba will change the option.
+
+[root@RHEL53 samba]# testparm -s 2>/dev/null | grep server
+ server string = Red Hat Server in Paris
+
+After a short while, the changed option is visible on the Microsoft computers.
+
+151
+
+getting started with samba
+
+C:\Documents and Settings\Administrator>net view
+Server Name            Remark
+
+-------------------------------------------------------------------------------
+\\LAIKA                Ubuntu 9.04 server in Antwerp                           
+\\RHEL53               Red Hat Server in Paris                                 
+\\W2003
+
+10.6.

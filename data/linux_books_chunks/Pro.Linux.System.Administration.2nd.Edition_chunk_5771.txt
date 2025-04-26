@@ -1,0 +1,6 @@
+If don’t run operations as the root user, you can choose a different user with the --become-user 
+option.
+
+You can now issue ad hoc commands across the entire fleet of systems or target just smaller groups or 
+
+individual hosts.

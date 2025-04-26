@@ -1,0 +1,10 @@
+Changing Ownership
+
+# chown jsmith myfile
+# chown jsmith:admin myfile
+# chown -R jsmith:admin /home/jsmith/*
+
+In Listing 4-12, we’ve got three chown commands. The first command changes the user who owns the 
+
+myfile file to jsmith. The second command changes the ownership of the file’s user and group, the user 
+to jsmith and the group to admin, the owner and group being separated by a colon, :.

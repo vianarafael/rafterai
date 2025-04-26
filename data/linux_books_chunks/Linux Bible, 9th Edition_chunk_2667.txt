@@ -1,0 +1,11 @@
+Thus, in the second example, the Linux Mint distribution uses the 
+Upstart init daemon.
+
+$ sudo strings /sbin/init | grep -i systemd
+$ sudo strings /sbin/init | grep -i upstart
+upstart-devel@lists.ubuntu.com
+UPSTART_CONFDIR
+UPSTART_NO_SESSIONS
+…
+
+On an older Fedora server, the search for Upstart yields nothing.

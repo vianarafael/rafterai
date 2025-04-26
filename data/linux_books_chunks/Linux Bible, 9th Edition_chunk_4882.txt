@@ -1,0 +1,14 @@
+If you have shared storage available from one of 
+the hypervisors, you could never bring that hypervisor down without shutting down all the VMs using that storage.
+
+734
+
+c26.indd  04/01/2015  Page 735
+
+Chapter 26: Using Linux for Cloud Computing 
+
+26
+
+Confi guring hypervisors
+In this procedure, I installed Fedora 21 on two physical computers and conﬁ gured them as 
+KVM hosts running the libvirtd service.

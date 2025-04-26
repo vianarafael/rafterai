@@ -1,0 +1,10 @@
+This can 
+ happen if something unexpected occurs, such as pulling out the power cord when a package 
+
+251
+
+c10.indd  04/01/2015  Page 252
+
+Part III: Becoming a Linux System Administrator
+
+is partially installed.

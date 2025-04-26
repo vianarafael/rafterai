@@ -1,0 +1,3 @@
+Viewing the transaction can save you from mistakenly deleting packages you 
+want to keep. By undoing transaction 96, you can remove all packages that were installed 
+during that transaction.

@@ -1,0 +1,12 @@
+Software 
+like http://keepass.info or gpg encrypted password files stored securely may be your best solution.
+
+19
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+In Figure 2-6, if your disk has data on it that will be changed you will see the following screen:
+
+Figure 2-6.  Destroying and recreating disk layout
+
+At this point, depending on what you see, you may choose to proceed.

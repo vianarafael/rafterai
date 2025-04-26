@@ -1,0 +1,24 @@
+VNC Server
+
+Starting the vnc server for the first time.
+
+[root@RHELv4u3 conf]# rpm -qa | grep -i vnc
+vnc-server-4.0-8.1
+vnc-4.0-8.1
+[root@RHELv4u3 conf]# vncserver :2
+
+You will require a password to access your desktops.
+
+Password: 
+Verify: 
+xauth:  creating new authority file /root/.Xauthority
+
+New 'RHELv4u3.localdomain:2 (root)' desktop is RHELv4u3.localdomain:2
+
+Creating default startup script /root/.vnc/xstartup
+Starting applications specified in /root/.vnc/xstartup
+Log file is /root/.vnc/RHELv4u3.localdomain:2.log
+
+[root@RHELv4u3 conf]# 
+
+B.3.

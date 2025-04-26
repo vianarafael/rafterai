@@ -1,0 +1,5 @@
+Enter the virtual private network (VPN).
+A VPN is, in essence, a private network that runs over a public, or hostile, network. VPNs are often 
+
+called tunnels, and they are used to secure and protect traffic you’d like to keep private over an otherwise 
+public network like the Internet. VPNs can be initiated to and from network devices or to and from hosts.

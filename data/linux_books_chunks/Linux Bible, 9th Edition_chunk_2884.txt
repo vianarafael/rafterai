@@ -1,0 +1,11 @@
+Determine your server’s previous and current runlevel.
+
+4.  How can you change the default runlevel or target unit on your Linux server?
+
+5.  For each initialization daemon, what commands list services running (or active) on 
+
+your server?
+
+6.  List the running (or active) services on your Linux server.
+
+7.

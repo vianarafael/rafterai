@@ -1,0 +1,11 @@
+Each 
+ category has an important place in securing your server and network.
+
+710
+
+c25.indd  04/02/2015  Page 711
+
+Chapter 25: Securing Linux on a Network
+
+ ■ A firewall is either network-based or host-based. A network-based ﬁ rewall is 
+one that is protecting the entire network or subnet.

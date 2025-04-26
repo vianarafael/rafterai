@@ -1,0 +1,20 @@
+The master.cf File
+
+...
+# ==========================================================================
+# service        type         private         unpriv           chroot        wakeup        
+maxproc        command + args
+#                    (yes)          (yes)           (yes)             (never)        (100)
+# ==========================================================================
+smtp              inet                 n             -                  n                  
+-                  -                 smtpd
+...
+submission        inet                 n                 -                    n             
+-                  -                smtpd
+  -o syslog_name=postfix/submission
+  -o smtpd_tls_security_level=encrypt
+  -o smtpd_sasl_auth_enable=yes
+  -o smtpd_reject_unlisted_recipient=n
+...
+
+Here two services are defined, smtp and submission.

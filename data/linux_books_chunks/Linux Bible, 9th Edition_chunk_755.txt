@@ -1,0 +1,13 @@
+Some commands are built into the shell, so they do 
+
+not appear in a directory. The help command lists those commands and shows 
+
+92
+
+c03.indd  04/01/2015  Page 93
+
+Chapter 3: Using the Shell
+
+options available with each of them. (Type help | less to page through the 
+list.) For help with a particular built-in command, type help command, replacing 
+command with the name that interests you.

@@ -1,0 +1,4 @@
+It is easier to treat all your hosts as production and handle the different roles and 
+profiles these hosts may take on in the Puppet manifest itself. It often leads to a horrible divergence of your 
+Puppet code between systems and VCS branches. By all means create an environment to test your Puppet 
+code, but roll that as soon as you can into the production branch.

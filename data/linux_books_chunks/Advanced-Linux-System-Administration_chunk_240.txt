@@ -1,0 +1,30 @@
+It is necessary for portmap to be running before starting any NFS service 
+
+RPC clients connect to the portmap service, although it is possible to work around 
+
+61
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+portmap if the RPC program number is known.
+
+The /etc/exports file
+
+Syntax:
+
+directory <host>(<option1,option2,...>) <host>(<option1,...>)
+
+/etc/exports common options:
+
+ Option
+
+ro 
+
+ Description
+
+ Read only.

@@ -1,0 +1,2 @@
+The Spamhaus Project is a not-for-profit organization that tracks spam and other cyber 
+threats. It provides a service that you can query to help reduce the amount of spam you receive.

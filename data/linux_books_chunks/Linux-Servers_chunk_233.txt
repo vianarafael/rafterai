@@ -1,0 +1,16 @@
+The screenshot below shows how to create this directory, set the
+permissions and make the users a member of the other groups.
+
+root@debian7:~# mkdir /var/www/images
+root@debian7:~# chown www-data:www-data /var/www/images
+root@debian7:~# chmod 755 /var/www/images
+root@debian7:~# usermod -aG www-data proxy
+root@debian7:~# usermod -aG proxy www-data
+
+Test that it works after restarting squid and apache2.
+
+38
+
+introduction to squid
+
+2.7.

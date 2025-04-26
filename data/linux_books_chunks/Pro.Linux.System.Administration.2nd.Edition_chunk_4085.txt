@@ -1,0 +1,9 @@
+The scheduler can, of course, manage the coordination of the jobs, clients, volumes, and pools to 
+run a one-off operation or repeated ones.
+
+666
+
+Chapter 14 ■ BaCkup and reCovery
+
+You control Bareos operations via the bconsole, a terminal console program that you can use to run 
+jobs and view the status of the Director, Storage, or File daemons.

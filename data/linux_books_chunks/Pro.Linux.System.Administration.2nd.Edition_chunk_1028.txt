@@ -1,0 +1,6 @@
+Using the GRUB2 menu, you can manipulate almost all of the boot runtime configuration 
+settings available.
+
+With a note of caution, we are providing the above as an example and it clearly has some security 
+implications associated with it—this provides very powerful access to your hosts if you have access to a 
+console at boot time. We help to address that issue next.

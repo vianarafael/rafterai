@@ -1,0 +1,30 @@
+This objective includes configuring PCMCIA devices, such as 
+ethernet adapters, to autodetect when inserted.
+
+Key files, terms, and utilities include:
+/etc/pcmcia/ 
+*.opts 
+cardctl 
+cardmgr
+
+Topic 209: File and Service Sharing
+
+• 2.209.1 Configuring a samba server
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 5 
+
+Description: The candidate should be able to set up a Samba server for various 
+
+89
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+clients.

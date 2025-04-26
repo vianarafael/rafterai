@@ -1,0 +1,17 @@
+If your application works well 
+with memcached, you can, at a later stage, develop, test, and deploy a proper memcached service for your 
+application.
+
+For general information on virtualization technologies, please see the following:
+
+•	
+
+•	
+
+https://gendersec.tacticaltech.org/wiki/index.php/Linux_virtualisation
+
+https://en.wikipedia.org/wiki/Comparison_of_platform_virtualization_
+software
+
+VirtualBox Installation
+VirtualBox is very easy to install.

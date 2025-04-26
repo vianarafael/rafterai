@@ -1,0 +1,4 @@
+These certificates are issued by a certificate authority 
+that you create and manage yourself. As a result, the certificates don’t cost any money, but they do have 
+other issues. First, as it is your own CA, you can’t expect others to trust your certificates. This leads us to the 
+second issue: usability. The root certificate of your CA is not bundled with clients and will never be.

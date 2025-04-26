@@ -1,0 +1,14 @@
+We can change things such as the default index, date 
+
+formats, and default columns. We do not need to change anything here.
+
+Figure 18-4.  Advanced Settings tab
+
+The Saved Objects tab in Figure 18-5 shows nothing at the moment. As you create dashboards and 
+
+visualizations, you will be able to manage them on this tab.
+874
+
+Chapter 18 ■ Logging and Monitoring
+
+Figure 18-5.

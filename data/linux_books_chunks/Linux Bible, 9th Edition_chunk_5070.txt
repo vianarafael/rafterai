@@ -1,0 +1,6 @@
+The allocated address should appear in 
+the IP Address ﬁ eld. Select the Port to be associated, and click Associate.
+
+2.  Use ssh to access the instance. From a Linux system that has access to the network 
+
+on which the ﬂ oating address was assigned, run the ssh command to log in.

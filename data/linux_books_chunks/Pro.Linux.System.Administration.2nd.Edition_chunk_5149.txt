@@ -1,0 +1,7 @@
+You can delve into the logrotate man file for other options.
+
+858
+
+Chapter 18 ■ Logging and Monitoring
+
+Table 18-2.

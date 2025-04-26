@@ -1,0 +1,8 @@
+The next section describes how to conﬁ gure Samba, including how to iden-
+tify which hosts, users, or network interfaces can access your Samba server.
+
+Confi guring Samba
+Most Samba conﬁ guration is done in the /etc/samba/smb.conf ﬁ le. As you conﬁ gure 
+your Samba server, you can also add host information to the lmhosts ﬁ le.
+
+To conﬁ gure smb.conf, you can use a plain-text editor.

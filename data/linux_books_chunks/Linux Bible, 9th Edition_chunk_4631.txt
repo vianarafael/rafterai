@@ -1,0 +1,5 @@
+Notice that the AVC denial message tells 
+you that you can run the sealert -l command to get more information.
+
+The sealert utility allows you to get more information on a particular AVC denial mes-
+sage. The information format sealert provides can help you diagnose your problems.

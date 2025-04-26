@@ -1,0 +1,6 @@
+The LAM administration tool will use these details to create the 
+user accounts for us in our LDAP server.
+
+Adding the Apache Virtual Host for LAM
+We are going to add an Apache virtual host to our web server to host our LAM site. In Chapter 11, we showed 
+you how to set up an Apache virtual host.

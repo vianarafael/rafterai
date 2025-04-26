@@ -1,0 +1,9 @@
+partitions are given UUIds and names to avoid collisions.
+
+you can use parted or gdisk tools to manage gpt.
+
+you can find more detailed information about these partition managers at https://wiki.manjaro.org/
+index.php?title=Some_basics_of_MBR_v/s_GPT_and_BIOS_v/s_UEFI.
+
+You can create and delete partitions using the fdisk utility, or if you are using GPT, the gdisk or parted 
+utility.

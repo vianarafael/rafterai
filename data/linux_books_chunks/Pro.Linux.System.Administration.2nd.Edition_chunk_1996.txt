@@ -1,0 +1,8 @@
+This package doesn’t actually contain any files, but it does contain a link to the newest available 
+kernel, so a normal upgrade always includes any available new Linux kernel package.
+
+345
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-40.

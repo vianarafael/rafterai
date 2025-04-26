@@ -1,0 +1,14 @@
+Create a new directory and create six pipes in that directory.
+
+[paul@rhel53 ~]$ mkdir pipes ; cd pipes
+[paul@rhel53 pipes]$ mkfifo p1 p2 p3 p4 p5 p6
+[paul@rhel53 pipes]$ ls -l
+total 0
+prw-rw-r-- 1 paul paul 0 Apr 12 22:15 p1
+prw-rw-r-- 1 paul paul 0 Apr 12 22:15 p2
+prw-rw-r-- 1 paul paul 0 Apr 12 22:15 p3
+prw-rw-r-- 1 paul paul 0 Apr 12 22:15 p4
+prw-rw-r-- 1 paul paul 0 Apr 12 22:15 p5
+prw-rw-r-- 1 paul paul 0 Apr 12 22:15 p6
+
+2.

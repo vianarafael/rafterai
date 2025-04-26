@@ -1,0 +1,7 @@
+You can specify the 
+ﬁ eld  separator you want to use and the ﬁ elds you want, or you can break up a line 
+based on bytes.
+
+The following example lists all home directories of users on your system. This grep 
+ command line pipes a list of regular users from the /etc/passwd ﬁ le and displays the 
+sixth ﬁ eld (-f6) as delimited by a colon (-d':').

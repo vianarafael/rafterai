@@ -1,0 +1,6 @@
+A variety of other object types also exist, such 
+as time-period objects for monitoring periods and contact objects to tell Nagios whom to notify when 
+something occurs.
+
+We’re going to show you how to configure your hosts in Nagios and then how to configure a variety of 
+types of services.

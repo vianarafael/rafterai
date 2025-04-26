@@ -1,0 +1,7 @@
+It also offers Multi-
+Category Security, which gives classiﬁ cation levels to objects.
+
+The Multi-Level Security (MLS) names can cause confusion. Multi-Category Security (MCS) is sometimes called 
+Multi-Clearance Security. Because MLS offers MCS, it is sometimes called MLS/MCS.
+
+Multi-Level Security enforces the Bell-LaPadula Mandatory Access security model.

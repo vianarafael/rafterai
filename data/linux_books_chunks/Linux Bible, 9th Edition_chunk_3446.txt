@@ -1,0 +1,10 @@
+In Fedora 
+and RHEL, you could install the policycore-utils-gui package and run the 
+
+508
+
+c19.indd  04/01/2015  Page 509
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+system-config-selinux command.

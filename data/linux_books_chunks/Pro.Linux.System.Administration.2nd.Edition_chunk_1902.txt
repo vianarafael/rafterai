@@ -1,0 +1,6 @@
+For more information on macros see  
+www.rpm.org/wiki/PackagerDocs/Macros.
+
+We have removed some of the standard macros that are used to compile software as we are not 
+compiling anything here. The prep and setup macros prepare the build space by cleaning up old files and 
+untarring the source file into the BUILD directory.

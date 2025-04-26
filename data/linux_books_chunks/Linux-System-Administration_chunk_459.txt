@@ -1,0 +1,35 @@
+mdadm --detail
+
+Use mdadm --detail to get information on a raid device.
+
+[root@rhel6c ~]# mdadm --detail /dev/md0
+/dev/md0:
+        Version : 1.2
+  Creation Time : Sun Jul 17 13:48:41 2011
+     Raid Level : raid5
+     Array Size : 16769664 (15.99 GiB 17.17 GB)
+  Used Dev Size : 8384832 (8.00 GiB 8.59 GB)
+   Raid Devices : 3
+  Total Devices : 3
+    Persistence : Superblock is persistent
+
+    Update Time : Sun Jul 17 13:49:43 2011
+          State : clean
+ Active Devices : 3
+Working Devices : 3
+ Failed Devices : 0
+  Spare Devices : 0
+
+         Layout : left-symmetric
+     Chunk Size : 64K
+
+           Name : rhel6c:0  (local to host rhel6c)
+           UUID : c10fd9c3:08f9a25f:be913027:999c8e1f
+         Events : 18
+
+    Number   Major   Minor   RaidDevice State
+       0       8       17        0      active sync   /dev/sdb1
+       1       8       33        1      active sync   /dev/sdc1
+       3       8       49        2      active sync   /dev/sdd1
+
+10.3.7.

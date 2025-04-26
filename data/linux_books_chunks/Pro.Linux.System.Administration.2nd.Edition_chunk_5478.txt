@@ -1,0 +1,15 @@
+'your-password-here'" to generate 
+
+new one
+
+9 :  fencing tools were not found, and are required to use ... cman or fence-agents to use 
+
+them
+
+Restart cobblerd and then run 'cobbler sync' to apply changes.
+
+You can see there are a few things you need to do to get Cobbler running. Let’s work through each of 
+
+these issues.
+
+First, you configure the /etc/cobbler/settings file.

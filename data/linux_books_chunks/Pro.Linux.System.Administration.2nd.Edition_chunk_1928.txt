@@ -1,0 +1,12 @@
+This allows you to select any number of packages for installation—or 
+removal—before applying the changes to your system.
+
+You are going to install just the nmap application for now, but first you have to become the root user. To 
+
+do this, press Ctrl+T to activate the Actions menu (see Figure 8-19).
+
+327
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-19.

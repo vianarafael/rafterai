@@ -1,0 +1,6 @@
+However, ownership of ﬁ les left behind appears as belonging to the previous owner’s user 
+ID number when you run ls -l on the ﬁ les.
+
+Before you delete the user, you may want to run a find command to ﬁ nd all ﬁ les that 
+would be left behind by the user. After you delete the user, you could search on user ID to 
+ﬁ nd ﬁ les left behind.

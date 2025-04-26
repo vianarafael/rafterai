@@ -1,0 +1,5 @@
+Having an understanding of those features can help you when you conﬁ g-
+ure a Linux system to run in a cloud.
+
+To get a better feel for conﬁ guring Linux cloud instances, the next section describes how 
+cloud-init works to conﬁ gure Linux cloud instances.

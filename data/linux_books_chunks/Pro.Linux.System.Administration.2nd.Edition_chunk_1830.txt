@@ -1,0 +1,14 @@
+To check if there are any updates for your host 
+
+you can issue the command in Listing 8-3.
+
+309
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Listing 8-3.  Checking for Updated Packages
+
+$ sudo yum check-update
+
+The check-update subcommand will download the latest YUM repository cache data (if it is outdated) 
+and then use that to find out what packages on your system have updates available.

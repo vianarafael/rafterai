@@ -1,0 +1,9 @@
+In this chapter, we will describe how to set up your host’s networking and then 
+how to protect that network from attackers using a firewall.
+
+ ■ Note 
+
+ A firewall is a series of rules that control access to your host through the network.
+
+We will teach you about how to configure your network cards or interfaces and how to give them IP 
+(Internet Protocol) addresses.

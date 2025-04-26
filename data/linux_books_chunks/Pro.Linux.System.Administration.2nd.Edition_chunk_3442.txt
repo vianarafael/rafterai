@@ -1,0 +1,12 @@
+See www.postfix.org/uce.html for more details.
+
+After making the changes, restart the Postfix daemon.
+
+ ■ Note 
+
+ it’s a good idea to confirm that you can still send and receive e-mail after making your changes.
+
+Installing and Configuring SpamAssassin
+
+To supplement our Postfix changes, we’re going to install and configure SpamAssassin. We’ll start by 
+installing the required packages.

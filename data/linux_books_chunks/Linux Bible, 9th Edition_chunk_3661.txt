@@ -1,0 +1,7 @@
+The next section describes how to make the mount more permanent (using the 
+/etc/fstab ﬁ le) and how to select various options for NFS mounts.
+
+Mounting an NFS fi lesystem at boot time
+To set up an NFS ﬁ lesystem to mount automatically on a speciﬁ ed mount point each time 
+you start your Linux system, you need to add an entry for that NFS ﬁ lesystem to the
+/etc/fstab ﬁ le.

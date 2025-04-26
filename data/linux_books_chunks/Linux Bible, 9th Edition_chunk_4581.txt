@@ -1,0 +1,6 @@
+Now, when a system reboot occurs, the policy type is changed.
+
+# cat /etc/selinux/config
+# This file controls the state of SELinux on the system.
+...
+# SELINUXTYPE= type of policy in use.

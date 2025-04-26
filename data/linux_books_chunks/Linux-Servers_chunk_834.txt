@@ -1,0 +1,8 @@
+It  works  when  selinux  is  in
+permissive mode, it fails when in enforcing mode.
+
+[root@centos65 ~]# wget http://localhost/test42.txt
+--2014-04-12 21:05:02--  http://localhost/test42.txt
+Resolving localhost... ::1, 127.0.0.1
+Connecting to localhost|::1|:80... connected.
+HTTP request sent, awaiting response...

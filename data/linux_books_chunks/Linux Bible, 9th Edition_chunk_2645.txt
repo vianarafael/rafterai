@@ -1,0 +1,6 @@
+Hundreds 
+
+of these and other types of services can be conﬁ gured on your Linux systems.
+
+Ongoing services offered by a Linux system, such as access to a printer service or login service, 
+are typically implemented by what is referred to as a daemon process.

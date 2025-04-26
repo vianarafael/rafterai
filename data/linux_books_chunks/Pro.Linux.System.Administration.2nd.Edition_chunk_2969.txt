@@ -1,0 +1,8 @@
+This 
+amount is controlled by the innodb_buffer_pool_size variable, and we’ve set it to 128Mb. This should be a 
+reasonable amount on a modern server that runs MariaDB as well as other services. On a dedicated server it 
+can be set to up to 80 percent of the available memory.
+
+We can tell the server not to cache any data in the operating system disk cache by setting innodb_
+
+flush_method.

@@ -1,0 +1,6 @@
+You might ship disks between offices.
+
+It may not make sense if it gets in the way of your workflows and cripples productivity. In the end, security is a 
+balance between risk and usability and where to draw the line is difficult to judge.
+
+It is also a good idea to be familiar with the encryption technology we are using here.

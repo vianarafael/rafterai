@@ -1,0 +1,7 @@
+For example, typing getent passwd root shows the entry for 
+the root user account in the local ﬁ le, but can also query a remote LDAP database for user 
+information if you have conﬁ gured that feature, as described in Chapter 11, “Managing 
+User Accounts.”)
+
+Setting alias network interfaces
+Sometimes you might want your network interface card listening on multiple IP addresses.

@@ -1,0 +1,10 @@
+These might be 
+
+new to some people. One of those is setting of the %PATH% variable in Windows. While these settings are up to 
+you, we suggest the following:
+
+82
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-11.

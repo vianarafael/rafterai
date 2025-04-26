@@ -1,0 +1,4 @@
+ssh-agent
+
+When generating keys with ssh-keygen, you have the option to enter a passphrase to protect
+access to the keys.

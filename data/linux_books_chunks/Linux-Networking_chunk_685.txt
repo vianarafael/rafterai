@@ -1,0 +1,6 @@
+Does the source MAC
+change when a packet passes through the filter ? And the destination MAC ? What about
+source and destination IP-addresses ?
+
+6. Remember the third network card on the router ? Connect this card to a LAN with internet
+connection.

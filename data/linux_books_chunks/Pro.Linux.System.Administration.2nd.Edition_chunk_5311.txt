@@ -1,0 +1,10 @@
+We recommend 
+using the ip address as the value of this attribute where appropriate, especially on core services like switches 
+and dnS servers.
+
+Host Templates
+
+Now let’s see what additional attributes are provided by our linux-server template. In Listing 18-17, you 
+can see the linux-server host object template.
+
+Listing 18-17.

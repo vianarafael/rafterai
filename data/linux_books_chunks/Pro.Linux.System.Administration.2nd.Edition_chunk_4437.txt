@@ -1,0 +1,2 @@
+X.500 is a set of protocols that outline how user information should be 
+stored and how that information should be accessed.

@@ -1,0 +1,5 @@
+If you are not using differential backups, then it is the last full backup 
+followed by each subsequent incremental, from the oldest to the most recent.
+
+ ■ Caution 
+data.

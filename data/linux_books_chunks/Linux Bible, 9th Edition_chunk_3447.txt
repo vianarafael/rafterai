@@ -1,0 +1,9 @@
+On the SELinux Administration window that 
+appears, select Booleans from the left column and look for Booleans listed with the 
+samba module.
+
+Another way to list Booleans for Samba is to use the semanage command, as follows:
+
+# semanage boolean -l | egrep "smb|samba"
+
+The following is a list of SELinux Booleans that apply to Samba and their descriptions.

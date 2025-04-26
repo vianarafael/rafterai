@@ -1,0 +1,1 @@
+We could have other storage daemons on our network, so this name must be unique.

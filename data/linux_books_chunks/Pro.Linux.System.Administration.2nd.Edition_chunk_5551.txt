@@ -1,0 +1,16 @@
+You can also specify DHCP, for 
+example:
+
+network --bootproto=dhcp --device=eth0 --onboot=on
+
+On CentOS with Cobbler, if you’re working with a specific host (one created with the cobbler system 
+
+command), you can pass specific network configuration values to the Cobbler system configuration.
+
+$ sudo cobbler system edit --name=gateway.example.com --mac=00:0C:29:3B:22:46 
+--profile=centos-base --interface=eth0 --ip=192.168.0.1 --subnet=255.255.255.0 -- 
+gateway=192.168.0.254 --hostname=gateway --bootproto=static
+
+Here we’ve specified the edit command to change an existing Cobbler-defined system and passed 
+
+network configuration values to our system.

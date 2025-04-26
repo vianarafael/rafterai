@@ -1,0 +1,6 @@
+-perm -002 -type f -ls
+266230 0 -rw-rw-rw- 1 chris chris 0 Dec 20 2014 ./LINUX_BIBLE/a
+
+Using -perm +222, you can ﬁ nd any ﬁ le (-type f) that has write permission turned on 
+for the user, group, or other. You might do that to make sure that all ﬁ les are read-only in 
+a particular part of the ﬁ lesystem (in this case, beneath the /myreadonly directory).

@@ -1,0 +1,11 @@
+Use tune2fs -c or -i to override.
+
+61
+
+  
+  
+file systems
+
+6.4. tuning a file system
+
+You can use tune2fs to list and set file system settings.

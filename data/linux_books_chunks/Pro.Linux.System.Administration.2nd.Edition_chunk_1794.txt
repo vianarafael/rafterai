@@ -1,0 +1,13 @@
+Select System
+
+One of the things you will notice in Figure 8-4 is the Boxes application. You will notice that is “Installed” 
+
+already on our system. We are going to select Virtual Machine Manager for installation.
+
+301
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-4.  Selecting Virtual Machine Manager
+
+Once selected we are presented with the information screen about the package.

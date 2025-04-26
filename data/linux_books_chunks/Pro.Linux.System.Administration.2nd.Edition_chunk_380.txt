@@ -1,0 +1,5 @@
+By default, 
+Vagrant will mount the current directory into the guest’s /vagrant directory. For the interest of this exercise, 
+let’s mount the ./temp directory into the Vagrant user’s home directory on the guest.
+
+Listing 3-7.

@@ -1,0 +1,7 @@
+The 
+x in the next field is a marker for the password. The actual password is stored in the /etc/shadow file, which 
+we will discuss in the sidebar “Shadow Passwords.”
+
+Next is the UID and GID. As noted earlier, on a Linux host, each user account and group is assigned a 
+
+numeric ID; users are assigned a UID and groups are assigned a GID.

@@ -1,0 +1,12 @@
+Here is what the default homes entry 
+looks like:
+
+[homes]
+        comment = Home Directories
+        browseable = no
+        writable = yes
+;       valid users = %S
+;       valid users = MYDOMAIN\%S
+
+Notice that two examples of valid users entries are commented out. With this value not 
+set (as it is by default), any valid users can log in to Samba.

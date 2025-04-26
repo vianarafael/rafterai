@@ -1,0 +1,11 @@
+747
+
+xxxi
+
+ftoc.indd  04/02/2015  Page xxxii
+
+Contents
+
+Chapter 27: Deploying Linux to the Cloud. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 749
+Getting Linux to Run in a Cloud .......................................................................... 749
+Creating Linux Images for Clouds ........................................................................

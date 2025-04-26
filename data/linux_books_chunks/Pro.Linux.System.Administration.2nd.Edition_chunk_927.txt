@@ -1,0 +1,3 @@
+Ubuntu, in fact, doesn’t even set 
+a password for the root user; rather, you are encouraged to always use sudo to run privileged commands. 
+Any member of the admin group on Ubuntu has access to run the sudo command.

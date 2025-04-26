@@ -1,0 +1,2 @@
+We only allow access to 
+these attributes by connections with a TLS security strength factor (tls_ssf) equal to or greater than 128.

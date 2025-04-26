@@ -1,0 +1,9 @@
+We also want it to be resized (--resizefs) for us. This tells LVM to simply execute xfs_growfs after 
+the resizing the logical volume.
+
+399
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+ ■ Note  With resizing your filesystem you are limited by the capabilities of the filesystem – lvextend and 
+lvreduce use the underlying filesystem tools to resize the filesystem and add nothing special.

@@ -1,0 +1,7 @@
+If we add more slaves, we can add them to the transfer-hosts acl.
+
+When you’ve added the addresses for all slaves, save the file and then tell BIND to reload its 
+
+configuration via sudo rndc reload.
+
+ ■ Tip  to test the master configuration, you can use dig on the slave to simulate a zone transfer.

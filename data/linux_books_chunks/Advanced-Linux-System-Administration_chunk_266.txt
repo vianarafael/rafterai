@@ -1,0 +1,6 @@
+Using the Perl taint module to secure data
+
+The taint module is used to check that external variables supplied by the user cannot be 
+used to exploit the system. This module is automatically used when running scripts that have 
+the setuid or setgid bit turned on. It is possible to force a perl script to switch the taint module 
+on with the -T option.

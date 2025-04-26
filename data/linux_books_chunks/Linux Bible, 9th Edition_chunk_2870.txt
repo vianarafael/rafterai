@@ -1,0 +1,30 @@
+The 
+one you choose determines whether the customizations take effect and if they remain per-
+sistent through software upgrades.
+
+You can place your system service conﬁ guration unit ﬁ le in one of the following two 
+locations:
+
+ ■ /etc/systemd/system
+
+ ■ This location is used to store customized local service conﬁ guration unit ﬁ les.
+
+ ■ Files in this location are not overwritten by software installations or upgrades.
+
+Files here are used by the system even if there is a ﬁ le of the same name in the /lib/
+systemd/system directory.
+
+ ■ /lib/systemd/system
+
+ ■ This location is used to store system service conﬁ guration unit ﬁ les.
+
+ ■ Files in this location are overwritten by software installations and upgrades.
+
+Files here are used by the system only if there is not a ﬁ le of the same name in the /etc/
+systemd/system directory.
+
+Thus, the best place to store your new or customized service conﬁ guration unit ﬁ le is in
+/etc/systemd/system.
+
+When you create a new or customized service, in order for the change to take effect without a server reboot, you need 
+to issue a special command.

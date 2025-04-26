@@ -1,0 +1,19 @@
+Notice  also  that  we  specified  a
+unique DocumentRoot for each website.
+
+1.5.3. three extra ports
+
+We need to enable these three ports on apache in the httpd.conf file.
+
+[root@CentOS65 ~]# vi /etc/httpd/conf/httpd.conf
+root@debian7:~# grep ^Listen /etc/httpd/conf/httpd.conf
+Listen 80
+Listen 7000
+Listen 8000
+Listen 9000
+
+18
+
+apache web server
+
+1.5.4.

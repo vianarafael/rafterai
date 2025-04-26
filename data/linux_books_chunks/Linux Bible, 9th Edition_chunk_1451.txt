@@ -1,0 +1,6 @@
+I describe the procedure, and risk of data loss, 
+if you decide to set up one of these “dual boot” (Linux and Windows) arrangements.
+
+Choosing a Computer
+You can get a Linux distribution that runs on handheld devices or an old PC in your closet 
+with as little as 24MB of RAM and a 486 processor.

@@ -1,0 +1,8 @@
+Log in as the user 
+ubuntu and the password deﬁ ned in the user-data ﬁ le.
+
+Expanding your cloud-init confi guration
+You can add much more information to your meta-data and user-data ﬁ les to conﬁ gure your 
+cloud instances. Examples of cloud-init settings can be found on the Cloud-Init Conﬁ g 
+Examples page (http://cloudinit.readthedocs.org/en/latest/topics/examples.
+html).

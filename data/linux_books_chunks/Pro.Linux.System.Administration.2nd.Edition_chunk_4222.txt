@@ -1,0 +1,20 @@
+JobId=4
+
+When selecting the files you want to restore, you can use the ls and cd commands to list and change 
+
+directories as you search for the files.
+
+cwd is: /
+$ cd /etc
+cwd is: /etc/
+$ mark hosts
+1 file marked.
+$ done
+
+689
+
+Chapter 14 ■ BaCkup and reCovery
+
+Here we have used the mark command to select the file we want to restore after using the cd command 
+
+to navigate through the backed-up file system.

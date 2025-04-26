@@ -1,0 +1,7 @@
+You can 
+even validate installed packages against the RPM database to see if anyone has tampered 
+with installed components.
+
+The rpm command (described in the section “Installing, Querying, and Verifying Software 
+with the rpm Command” later in this chapter) is the best tool for querying the RPM 
+ database.

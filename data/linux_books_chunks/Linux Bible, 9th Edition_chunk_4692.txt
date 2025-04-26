@@ -1,0 +1,12 @@
+The nmap 
+site has an entire manual on all the port scanning techniques you can use at 
+
+25
+
+701
+
+c25.indd  04/02/2015  Page 702
+
+Part V: Learning Linux Security Techniques
+
+http://nmap.org/book/man-port-scanning-techniques.html.

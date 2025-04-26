@@ -1,0 +1,12 @@
+The /etc/
+fstab ﬁ le should have the following permission settings:
+
+ ■ Owner: root
+
+ ■ Group: root
+
+ ■ Permissions: (664) Owner: rw- Group: rw- Other: r--
+
+Within the ﬁ lesystem table, there are some important security settings that need to be 
+reviewed. Besides your root, boot, and swap partitions, ﬁ lesystem options are fairly secure 
+by default.

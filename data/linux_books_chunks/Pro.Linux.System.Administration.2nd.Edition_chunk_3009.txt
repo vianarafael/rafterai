@@ -1,0 +1,14 @@
+We just 
+take a copy of these keys.
+
+define('AUTH_KEY',         'yr-[fb[mc=0ef:L9 Px|6~al0PwR<KrxOy!|%g??@hD&hPh(=1J-DWO9pSWGiuic');
+define('SECURE_AUTH_KEY',  '24|Nn+<)pFE@6Ity9LwMrDT!|JYe*JQFQm+qb(#[2-J?|c!U|$5/$rr;_wln~p-a');
+define('LOGGED_IN_KEY',    'D_OYeZJLx~,/bB^]l1-?dDIni1StB(z-/-2FQSd^:}2.l|]uJXlMW%,<h6Q!k9x^');
+define('NONCE_KEY',        ' 7=5Z7c4%tO!b@HAD= [n0by2Unrp^Et@.h-&3S2SrxdLL6gKV>3<o+dVj;,BI^h');
+define('AUTH_SALT',        'ZYV|3qST=QVlH^MsccnF;k,-yKa=oq&x8iA|ohNN,6j.Y:o_,9zp$XBPzO3UcI^i');
+define('SECURE_AUTH_SALT', 'vvC.{}1RjuE2I!yRs?]D/iHmZ3rbf->bHzpAlz?tR]$Nt..#=5{WC52#ty#C93+]');
+define('LOGGED_IN_SALT',   'JZ>-u/:oUbhdK4qgJ.n_ReUi%Lj~J(t8{MI?kme#.U[qF:aZw*zpwIoc^:#4/[$O');
+define('NONCE_SALT',       'T%|]FT^^!.:[sL}S4-DXz{o)R*TasHB.eh}<hknQjuK|R&yW^5ff9M-f{KlC-I@4');
+
+Now when you edit the wp-config.php file, you can paste your keys in the “Authentication Unique Keys 
+and Salts” section after deleting those lines with the put your unique phrase here string.

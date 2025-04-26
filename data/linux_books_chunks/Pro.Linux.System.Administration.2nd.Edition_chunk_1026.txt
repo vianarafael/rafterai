@@ -1,0 +1,13 @@
+Then, depending on your distribution, you will either be given a maintenance password 
+prompt that expects the root user (CentOS only) or you will be able to hit enter and be given a shell 
+prompt (see Figure 6-4).
+
+187
+
+Chapter 6 ■ Startup and ServiCeS
+
+Figure 6-4.  Maintenance mode
+
+Now that we have the shell prompt we can go about repairing any of the problems we might have on our 
+
+system.

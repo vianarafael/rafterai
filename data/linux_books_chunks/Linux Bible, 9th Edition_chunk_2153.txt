@@ -1,0 +1,8 @@
+Data is swapped to the swap area and then returned to RAM when 
+it is needed again.
+
+ ■ squashfs—Compressed, read-only ﬁ lesystem type. Squashfs is popular on live CDs, 
+
+where there is limited space and a read-only medium (such as a CD or DVD).
+
+ ■ nfs—Network Filesystem (NFS) type of ﬁ lesystem.

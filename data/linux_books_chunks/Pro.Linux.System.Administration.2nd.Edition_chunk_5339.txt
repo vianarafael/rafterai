@@ -1,0 +1,4 @@
+In our 
+case, the value of this is admins, which refers to a contactgroup object. Contact groups are collections of 
+contacts, which are the people you want to notify, for example, yourself or another system administrator, 
+when a notification is generated.

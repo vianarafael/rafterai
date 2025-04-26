@@ -1,0 +1,6 @@
+The private key needs to be kept secret.
+
+The general idea of asymmetric key cryptography is shown in Figure 23.2. A  plaintext 
+ﬁ le is encrypted using a public key of a key pair. The encrypted ﬁ le then can be 
+securely  transmitted to another person. To decrypt the ﬁ le, the private key is used. 
+This private key must be from the public/private key pair.

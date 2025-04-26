@@ -1,0 +1,7 @@
+To trace the route being taken to connect to google.com, use the traceroute 
+
+command:
+
+$ traceroute google.com
+
+6.

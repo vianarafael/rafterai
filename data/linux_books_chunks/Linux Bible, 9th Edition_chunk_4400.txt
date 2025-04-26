@@ -1,0 +1,5 @@
+This would be deemed a “failure.”
+
+Understanding PAM modules
+A PAM module is actually a suite of shared library modules (DLL ﬁ les) stored in /lib/
+security.

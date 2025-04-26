@@ -1,0 +1,12 @@
+Release the 
+keys when the workspace you want is highlighted.
+
+59
+
+c02.indd  04/01/2015  Page 60
+
+Part I: Getting Started
+
+ ■ Send current window to next workspace—Hold Ctrl+Alt+Shift keys together, 
+
+and press the left and right arrow keys.

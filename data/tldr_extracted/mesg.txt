@@ -1,0 +1,18 @@
+# mesg
+
+
+- Check terminal's openness to write messages:
+
+`mesg`
+
+- Disallow receiving messages from other users:
+
+`mesg n`
+
+- Allow receiving messages from other users:
+
+`mesg y`
+
+- Enable verbose mode, printing a warning if the command is not executed from a terminal:
+
+`mesg {{[-v|--verbose]}}`

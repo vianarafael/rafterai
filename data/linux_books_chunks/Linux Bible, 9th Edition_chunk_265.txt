@@ -1,0 +1,6 @@
+To respond to that need, some of 
+the best geeks began building their own Linux distributions.
+
+A Linux distribution consists of the components needed to create a working Linux system 
+and the procedures needed to get those components installed and running. Technically, 
+Linux is really just what is referred to as the kernel.

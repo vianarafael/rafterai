@@ -1,0 +1,28 @@
+We are now going to write the Ansible code to install it and 
+have it provisioned on our Vagrant host.
+
+$ vi ansible/playbooks/ansible.yml
+---
+- hosts: all
+  gather_facts: true
+  become: true
+  tasks:
+  - name: install apache2
+     apt: name=apache2 state=latest
+
+978
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We will do the same for Puppet now too.
+
+$ vi manifests/site.pp
+class httpd {
+
+  package {'httpd': ensure => 'latest' }
+
+}
+
+include httpd
+
+We are going to provision our hosts now using the vagrant provision command.

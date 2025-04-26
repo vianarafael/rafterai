@@ -1,0 +1,8 @@
+So, a –20 nice value 
+gets more attention than a process with a 19 nice value.
+
+ ■ A regular user can set nice values only from 0 to 19. No negative values are allowed. 
+So a regular user can’t ask for a value that gives a process more attention than most 
+processes get by default.
+
+ ■ A regular user can set the nice value higher, not lower.

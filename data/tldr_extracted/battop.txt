@@ -1,0 +1,10 @@
+# battop
+
+
+- Display battery information:
+
+`battop`
+
+- Change battery information measurement [u]nit (default: human):
+
+`battop -u {{human|si}}`

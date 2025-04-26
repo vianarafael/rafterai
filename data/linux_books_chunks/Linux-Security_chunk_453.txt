@@ -1,0 +1,20 @@
+The screenshot shows init running in type init_t and the mingetty's running
+in type getty_t.
+
+[root@centos65 ~]# ps fax -Z | grep /sbin/init
+system_u:system_r:init_t:s0         1 ?        Ss     0:00 /sbin/init
+[root@centos65 ~]# ps fax -Z | grep getty_t
+system_u:system_r:getty_t:s0   1307 tty1    Ss+   0:00 /sbin/mingetty /dev/tty1
+system_u:system_r:getty_t:s0   1309 tty2    Ss+   0:00 /sbin/mingetty /dev/tty2
+system_u:system_r:getty_t:s0   1311 tty3    Ss+   0:00 /sbin/mingetty /dev/tty3
+system_u:system_r:getty_t:s0   1313 tty4    Ss+   0:00 /sbin/mingetty /dev/tty4
+system_u:system_r:getty_t:s0   1320 tty5    Ss+   0:00 /sbin/mingetty /dev/tty5
+system_u:system_r:getty_t:s0   1322 tty6    Ss+   0:00 /sbin/mingetty /dev/tty6
+
+The selinux type is similar to an selinux domain, but refers to directories and files instead
+of processes.
+
+Hundreds of binaries also have a type:
+
+[root@centos65 sbin]# ls -lZ useradd usermod userdel httpd postcat postfix
+-rwxr-xr-x.

@@ -1,0 +1,5 @@
+If a PAM-aware application does not have a PAM conﬁ guration ﬁ le, it 
+defaults to using the “other” PAM conﬁ guration ﬁ le.
+
+You can verify whether your Linux system has the /etc/pam.d/other conﬁ guration ﬁ le 
+by using the ls command.

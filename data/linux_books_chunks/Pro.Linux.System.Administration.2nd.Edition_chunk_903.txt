@@ -1,0 +1,2 @@
+A 
+particular module might also be specified more than once in a PAM configuration.

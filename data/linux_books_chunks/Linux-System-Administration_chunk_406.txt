@@ -1,0 +1,3 @@
+The
+FD (file descriptor) columns shows that / is both the root directory (rtd) and current working
+directory (cwd) for the /sbin/init command.

@@ -1,0 +1,4 @@
+The default security type is set to user (Samba usernames 
+and passwords), and cups options lets you pass any options you like to the CUPS print-
+ers served by your Samba server. By default, only raw is set, which allows Windows clients 
+to use their own print drivers.

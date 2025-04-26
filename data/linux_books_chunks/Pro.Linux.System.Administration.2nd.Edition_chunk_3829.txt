@@ -1,0 +1,12 @@
+We are going to follow the same 
+instructions for our first brick.
+
+$ sudo mkfs.xfs -L brick1_r2 /dev/sdc && sudo mkdir -p /data/brick1_r2 && \
+            sudo bash -c 'echo LABEL=brick1_r2 /data/brick1_r2 xfs defaults 1 2 >> /etc/
+
+fstab' && sudo mount –a
+$ sudo mkdir /data/brick1_r2/vol1
+
+Here we have created and mounted our new device (/dev/sdc on our CentOS hosts) and created a vol1 
+
+directory on the new device.

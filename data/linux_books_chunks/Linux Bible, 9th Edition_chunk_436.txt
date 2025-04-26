@@ -1,0 +1,7 @@
+That site tells you what extensions you 
+have installed and which ones are available for you to install (you must select to allow the 
+site to see those extensions).
+
+Because the extensions page knows what extensions you have and the version of GNOME 3 
+you are running, it can present only those extensions that are compatible with your sys-
+tem.

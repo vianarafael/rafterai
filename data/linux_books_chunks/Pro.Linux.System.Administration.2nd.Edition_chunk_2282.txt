@@ -1,0 +1,3 @@
+This way, all striped data is saved to at least two 
+disks, which gives you the advantages of RAID 0 speed and RAID 1 redundancy. However, you can only store 
+as much data as half the combined disk size.

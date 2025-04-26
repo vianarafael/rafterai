@@ -1,0 +1,8 @@
+Instead of the 
+
+exec stanza, you can embed an actual command line script to run here by using 
+the script stanza before the actual code and end script after it.
+
+A slightly more complicated job conﬁ guration ﬁ le is shown next—for the cron daemon. 
+There are some additional stanzas that were not in the previous example. Notice that the 
+task stanza is missing in the ﬁ le.

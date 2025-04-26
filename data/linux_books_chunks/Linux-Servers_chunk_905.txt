@@ -1,0 +1,6 @@
+Suppose the / partition needs to be enlarged on the target system.
+The best option then is to use a combination of dump and restore. Remember that dd copies
+blocks, whereas dump/restore copies files.
+
+The first step to do is to boot the target server with a live CD and partition the target disk.
+To do this we use the Red Hat Enterprise Linux 5 install CD.

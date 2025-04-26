@@ -1,0 +1,2 @@
+To that section we have added the 
+document_type option and set it to auditd.

@@ -1,0 +1,36 @@
+When you issue this command, you will get something like this:
+
+jsmith@ldap:/etc/ldap$ ldapadd -xWv -D cn=admin,dc=example,dc=com 
+-h ldap.example.com -Z -f users.ldif
+ldap_initialize( ldap://ldap.example.com )
+Enter LDAP Password:
+add objectclass:
+        top
+        person
+        exampleClient
+        posixAccount
+add cn:
+        Jane Smith
+add sn:
+        Smith
+add uid:
+        jsmith
+add uidNumber:
+        1000
+add gidNumber:
+        1000
+add exampleActive:
+        TRUE
+
+771
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+add homeDirectory:
+        /home/jsmith
+add userPassword:
+        {SSHA}IZ6u7bmw12t345s3GajRt4D4YHkDScH8
+adding new entry "uid=jsmith,ou=people,dc=example,dc=com"
+modify complete
+
+If successful, you will see a “Modify complete” message.

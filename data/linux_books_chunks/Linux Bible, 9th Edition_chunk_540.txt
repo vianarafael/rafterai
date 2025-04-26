@@ -1,0 +1,2 @@
+Make sure that dri and glx are loaded in the 
+Module section.

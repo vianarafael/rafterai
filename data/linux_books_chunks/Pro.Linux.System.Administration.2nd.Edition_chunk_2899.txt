@@ -1,0 +1,7 @@
+We then need to tell Apache which module will provide the basic authentication using 
+AuthBasicProvider, which is file. Next, we need to tell Apache which file holds our authentication 
+information via the AuthUserFile directive.
+
+To help users determine what they’re trying to access, we can specify a name for the protected resource 
+
+via the AuthName directive.

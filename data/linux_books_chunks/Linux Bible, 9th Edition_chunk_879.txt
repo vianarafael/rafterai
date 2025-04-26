@@ -1,0 +1,4 @@
+A 
+ directory is given the permission rwxrwxr-x. For the root user, ﬁ le and directory  permission 
+are rw-r--r-- and rwxr-xr-x, respectively. These default values are  determined by the 
+value of umask. Type umask to see what your umask value is.

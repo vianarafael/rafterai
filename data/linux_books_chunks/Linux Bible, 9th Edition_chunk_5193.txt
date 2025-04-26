@@ -1,0 +1,9 @@
+To use the killall command to tell the gedit command (paused in the previous 
+
+exercise) to continue working, do the following:
+
+$ killall -SIGCONT gedit
+
+Make sure the text you typed after gedit was paused now appears in the window.
+
+8.

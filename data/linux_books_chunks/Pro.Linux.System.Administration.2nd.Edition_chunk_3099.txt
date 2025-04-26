@@ -1,0 +1,12 @@
+We can provide multiple hostnames by 
+adding additional –d <hostname> arguments as long as you have virtual hosts for them.
+
+514
+
+When we first run certbot, we provide an e-mail address for correspondence about our certificates 
+
+(Figure 11-15).
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-15.

@@ -1,0 +1,17 @@
+We’ve forwarded SMTP, HTTP/HTTPS, and IMAP, among other protocols.
+
+ ■ Note 
+
+ You can use the instructions provided in Chapter 7 to add these rules to your gateway host.
+
+We can also pass a variety of options to our client, for example, to help set DHCP options like DNS and 
+
+WINS servers.
+
+ ■ Note 
+
+ we set up DhCp in Chapter 10.
+
+Different types of clients (e.g., Linux and Microsoft Windows clients) require different methods to push 
+
+down the required options.

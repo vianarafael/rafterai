@@ -1,0 +1,11 @@
+Check with fdisk -l that they are connected.
+
+[root@rhel6c ~]# fdisk -l 2> /dev/null | grep MB
+Disk /dev/sdb: 8589 MB, 8589934592 bytes
+Disk /dev/sdc: 8589 MB, 8589934592 bytes
+Disk /dev/sdd: 8589 MB, 8589934592 bytes
+
+10.3.2. fd partition type
+
+The next step is to create a partition of type fd on every disk. The fd type is to set the partition
+as Linux RAID autodetect.

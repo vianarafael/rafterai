@@ -1,0 +1,4 @@
+Systemd not only offers features for starting and working with services, but also 
+lets you manage sockets, devices, mount points, swap areas, and other unit types.
+
+This chapter describes these three major init systems.

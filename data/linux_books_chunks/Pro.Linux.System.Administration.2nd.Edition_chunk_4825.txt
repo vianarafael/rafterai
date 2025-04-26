@@ -1,0 +1,8 @@
+This matches the /proc/meminfo Shmem value 
+
+(space used by the kernel).
+
+The buffers column tells you the amount of memory the kernel is using to act as a disk write buffer. 
+
+This buffer allows applications to write data quickly and have the kernel deal with writing it to disk in the 
+background. Data can also be read from this buffer, providing an additional speed increase.

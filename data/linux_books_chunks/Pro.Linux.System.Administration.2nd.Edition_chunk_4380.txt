@@ -1,0 +1,34 @@
+As a result of PAM’s ability to plug in a variety of authentication mechanisms, we 
+can use it to include authentication mechanisms such as the following:
+
+•	
+
+•	
+
+Local Linux users
+
+Two-factor authentication such as RSA tokens or smartcards
+
+719
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+•	
+
+•	
+
+•	
+
+•	
+
+Kerberos
+
+RADIUS
+
+IMAP (against an IMAP server)
+
+LDAP
+
+We’re going to show you how to configure basic local-user authentication—that is, your users will have 
+a Linux user on the gateway host, and they will be authenticated as if they were logging on to that host using 
+the console or via SSH.

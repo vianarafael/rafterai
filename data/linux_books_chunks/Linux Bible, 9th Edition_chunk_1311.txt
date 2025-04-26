@@ -1,0 +1,2 @@
+An example is the /bin/mount command, which anyone can use to list mounted 
+ﬁ lesystems, but only root can use to mount ﬁ lesystems.

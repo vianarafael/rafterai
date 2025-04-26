@@ -1,0 +1,5 @@
+System administrators learn the patterns of their hosts’ operations and can 
+often detect a problem far sooner than automated monitoring or alerting systems have done on the same 
+problem.
+
+There are two problems with this model, though. The first is that you cannot be everywhere at once.

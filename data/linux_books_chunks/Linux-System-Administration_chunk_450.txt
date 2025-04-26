@@ -1,0 +1,10 @@
+In this example, as long as not all disks in the same mirror fail, it can survive up to
+three hard disk failures.
+
+10.2.9. raid 50
+
+raid 5+0 is a stripe(0) of raid 5 arrays. Suppose you have nine disks of 100GB, then you
+can create three raid 5 arrays of 200GB each. You can then combine them into one large
+stripe set.
+
+10.2.10.

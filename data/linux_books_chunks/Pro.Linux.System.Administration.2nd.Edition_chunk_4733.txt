@@ -1,0 +1,8 @@
+Then use yum to install the package 
+like in this example:
+
+$ sudo yum install -y httpd php php-ldap php-xml
+$ sudo yum install -y http://downloads.sourceforge.net/project/lam/LAM/5.5/ldap-account-
+manager-5.5-0.fedora.1.noarch.rpm
+
+The CentOS installation puts all the LAM files under /usr/share/ldap-account-manager.

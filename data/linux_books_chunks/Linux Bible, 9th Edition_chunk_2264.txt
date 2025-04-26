@@ -1,0 +1,6 @@
+Then they tell their friends or colleagues to log into their machine from ssh by 
+pointing to this other port. The idea is that port scanners looking to break into a system might be less likely to scan 
+the normally unused port.
+
+Not all services run continuously as daemon processes. Some services run on demand using 
+the xinetd super server. Other services just run once on start-up and exit.

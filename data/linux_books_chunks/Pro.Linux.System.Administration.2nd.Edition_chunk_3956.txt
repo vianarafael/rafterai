@@ -1,0 +1,9 @@
+The double ampersand (&&) indicates that we want to execute the next set of commands if the first set was 
+successful.
+
+ ■ Caution 
+
+ adding any user to the adm group can give them elevated sudo privileges.
+
+We have the wrapper script (ssh_limiter.sh) and the remote_authorized_keys file in the home 
+directory of jsmith, and we have created the exbackup user.

@@ -1,0 +1,15 @@
+It is important to use 
+
+exactly the same key name used on the name server, or the updates will not work.
+
+460
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+key "dynamic-update-key" {
+  algorithm hmac-sha512;
+  secret "kHATLZ8hl4RbSoe7W71pqaGZ3oCIP3WIgZZI/UcXYzbOooCOTS3cN7lFdQ/+97VYVfFYEGmzRCqRKyj4A
+cLfdg==";
+}
+
+You will notice that we have removed the ‘;’ from the {}.

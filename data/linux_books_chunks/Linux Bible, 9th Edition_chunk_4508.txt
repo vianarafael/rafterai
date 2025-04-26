@@ -1,0 +1,10 @@
+In 
+essence, SELinux severely limits malicious code and activity on your Linux system.
+
+Understanding How SELinux Works
+SELinux could be compared to a guard at a door: In this comparison, the subject (the user) 
+wants to access the object (the ﬁ le) inside the room. To gain access to this object:
+
+1.  The subject must present an ID badge to the guard.
+
+2.

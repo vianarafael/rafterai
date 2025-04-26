@@ -1,0 +1,13 @@
+For your Terminal window, to make the font red and the background yellow:
+
+a. From the GNOME desktop, select Applications ➪ System Tools ➪ Terminal to open 
+
+a Terminal window.
+
+b. From the Terminal window, select Edit ➪ Proﬁ les.
+
+c. With Default highlighted from the Proﬁ les window, select Edit.
+
+d. Select the Colors Tab and deselect the Use colors from system theme box.
+
+e.

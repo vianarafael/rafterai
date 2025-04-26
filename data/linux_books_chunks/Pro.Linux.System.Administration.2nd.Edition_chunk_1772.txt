@@ -1,0 +1,6 @@
+These applications could range 
+
+from a simple command-line editor to the whole LibreOffice productivity suite.
+
+ ■ Note  LibreOffice is the open source equivalent of Microsoft Office. It contains a word processor, 
+spreadsheet program, and presentation software, among other tools.

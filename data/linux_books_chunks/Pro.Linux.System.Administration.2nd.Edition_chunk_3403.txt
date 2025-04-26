@@ -1,0 +1,19 @@
+To do that, we use a lookup table in Postfix that will manage users for each domain.
+
+We need to set the following in our main.cf file.
+
+virtual_alias_domains = example.net example.id example.com
+virtual_alias_maps = hash:/etc/postfix/virtual
+
+We have told Postfix that if it gets mail for example.com or .net or .id, to use the indexed file alias_map 
+
+/etc/postfix/virtual, which will be a file containing our listings.
+
+/etc/postfix/virtual
+admin@example.com ataylor
+sales@example.com  jsmith
+....
+admin@example.net bsingh
+sales@example.net jsmith ataylor@example.com
+
+Here we have two domains, example.com and example.net.

@@ -1,0 +1,9 @@
+A process 
+consuming too much CPU can be reniced to give it less priority to the processors. A 
+ process consuming too much memory can be killed. With top running, here’s how to 
+renice or kill a process:
+
+ ■ Renicing a process: Note the process ID of the process you want to renice and 
+
+press r. When the PID to renice: message appears, type the process ID of the process 
+you want to renice.

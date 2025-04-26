@@ -1,0 +1,5 @@
+On Ubuntu, the same role is 
+performed by four separate files: common-auth, common-password, common-session, and common-account. 
+Let’s look at the contents of the CentOS system-auth file in Listing 5-14.
+
+Listing 5-14.

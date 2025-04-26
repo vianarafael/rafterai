@@ -1,0 +1,8 @@
+You can see from Listing 16-6 that the file is made up of four independent management groups: auth, 
+account, password, and session.
+
+Take a look at the following line, which is an example of the auth management group:
+
+auth        sufficient    pam_sss.so use_first_pass
+
+This group authenticates the user usually by some password challenge-response mechanism.

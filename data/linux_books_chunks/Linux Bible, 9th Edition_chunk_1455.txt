@@ -1,0 +1,6 @@
+If you have a MacBook, try a GNOME version of Ubuntu that you can get at 
+https://help.ubuntu.com/community/MacBook.
+
+ ■ RAM—Fedora recommends at least 1GB of RAM, but at least 2GB or 3GB would be 
+
+much better.

@@ -1,0 +1,14 @@
+We then see 
+
+a confirmation screen like the one in Figure 16-9 indicating a successful operation.
+
+As you can see in Figure 16-10, our new user, tbird, has been created.
+
+Figure 16-10.  Listing the new user
+
+785
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+You can use LAM to add and remove group and host entries in your LDAP directory, which we will 
+leave you to explore further on your own.

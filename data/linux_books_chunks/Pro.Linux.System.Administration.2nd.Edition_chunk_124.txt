@@ -1,0 +1,11 @@
+It now presents to us how it has automatically sliced up our disk.
+
+20
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-7.  How automatic partitioning divides the disks
+
+In Figure 2-7 that we have our disk divided up into three slices. A /boot partition, a / or root volume, 
+
+and a swap volume.

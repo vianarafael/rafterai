@@ -1,0 +1,2 @@
+technically there is nothing stopping you from pointing your YUM repositories to the latest release and 
+running yum update, but this will have very unpredictable results and will most likely result in system loss.

@@ -1,0 +1,7 @@
+We’ll discuss other ways 
+to administer your host without using the root user later in Chapter 5.
+
+ In recent years, other security controls have been introduced that help reduce the reliance on the 
+
+ ■ Note 
+root user and provide more granular security controls.

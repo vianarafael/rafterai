@@ -1,0 +1,4 @@
+The fingerprint that uniquely identifies this key is printed, so you can 
+visually verify whether it matches with the key on the remote host.
+
+ ■ Note  to obtain a host key fingerprint, you can use the ssh-keygen tool.

@@ -1,0 +1,26 @@
+The nmap utility is available in most Linux distribution repositories 
+and has a web page full of information at http://nmap.org.
+
+To install nmap on a Fedora or RHEL distribution, use the yum command (using root 
+ privileges), as shown in the example that follows.
+
+# yum install nmap -y
+Loaded plugins: langpacks, product-id, subscription-manager
+...
+Resolving Dependencies
+--> Running transaction check
+---> Package nmap.x86_64 2:6.40-4.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+...Installing:
+ nmap     x86_64   2:6.47-1.fc21y    rhel-7-server-rpms   4.0 M
+...
+Installed:  nmap-6.47-1.fc21
+
+Complete!
+
+To install the nmap utility on an Ubuntu distribution, type sudo apt-get install 
+nmap at the command line.
+
+The nmap utility’s full name is Network Mapper.

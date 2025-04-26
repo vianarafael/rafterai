@@ -1,0 +1,9 @@
+indeed, nagios can issue alerts to anything 
+
+ ■ Tip 
+you can build an alert command for, for example, via api webhooks, ChatBots (hubot, hipChat, Slack), instant 
+messaging like Jabber, a pager like pagerduty, or even a ticketing system via their apis.
+
+Table 18-6 provides a list of the macros used in our notification command.
+
+Table 18-6.

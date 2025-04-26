@@ -1,0 +1,20 @@
+In this chapter, we’ll briefly explain how e-mail works, and we’ll introduce you 
+to the component parts of an e-mail solution, including
+
+•	 Mail transfer agents (MTAs): The servers that send and receive e-mail
+
+•	 Mail user agents (MUAs): Clients through which your users send and receive e-mail
+
+•	 Mail delivery agents (MDAs): Tools that help you deliver e-mail to mailboxes
+
+We’ll also introduce you to these applications to perform these functions:
+
+•	
+
+Postfix: A Simple Mail Transfer Protocol (SMTP) e-mail server
+
+•	 Dovecot: An IMAP and a POP3 server
+
+The Postfix e-mail server will allow your users to send and receive e-mail both from internal users and 
+
+externally, such as from the Internet.

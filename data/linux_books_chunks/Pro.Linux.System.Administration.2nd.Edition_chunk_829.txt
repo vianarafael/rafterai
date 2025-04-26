@@ -1,0 +1,24 @@
+Running chage Without Options
+
+$ sudo chage ataylor
+Changing the aging information for ataylor
+Enter the new value, or press return for the default
+Minimum Password Age [0]:
+Maximum Password Age [30]:
+Last Password Change (YYYY-MM-DD) [2016-06-27]:
+Password Expiration Warning [7]:
+Password Inactive [-1]:
+Account Expiration Date (YYYY-MM-DD) [2016-07-28]:
+
+Users can also utilize the chage command with the -l option to show when a password is due to expire.
+
+$ chage -l ataylor
+
+162
+
+The other method to handle password aging is to set defaults for all users in the /etc/login.defs file.
+Listing 5-11 shows the controls available for password aging in /etc/login.defs.
+
+Chapter 5 ■ Users and GroUps
+
+Listing 5-11.

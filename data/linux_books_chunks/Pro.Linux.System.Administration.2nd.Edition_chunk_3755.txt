@@ -1,0 +1,3 @@
+Traditionally, 
+this is achieved on Linux and Unix hosts via Network File System (NFS). The latest version, NFS 4, has many 
+advantages over previous NFS versions.

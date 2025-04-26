@@ -1,0 +1,6 @@
+The 
+find command will then search the specified location and return a list of files that match the search criteria.
+You could also use the find command to locate files and directories that aren’t owned by any user 
+
+or group. These often exist if a user or group has been deleted and the associated files not reassigned 
+or removed with that user or group. We’ll talk more about this in Chapter 6.

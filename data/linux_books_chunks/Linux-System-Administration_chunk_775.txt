@@ -1,0 +1,7 @@
+cron.allow and cron.deny
+
+The cron daemon crond is reading the cron tables, taking into account the /etc/cron.allow
+and /etc/cron.deny files.
+
+These files work in the same way as at.allow and at.deny. When the cron.allow file exists,
+then your username has to be in it, otherwise you cannot use cron.

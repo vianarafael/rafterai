@@ -1,0 +1,14 @@
+For this example, /var/lib/libvirt/images 
+is the shared directory.
+
+ ■ Performance—For best performance, you want to have a disk that has fast access 
+
+times and data transfer rates.
+
+738
+
+c26.indd  04/01/2015  Page 739
+
+Chapter 26: Using Linux for Cloud Computing 
+
+For Fedora and RHEL, NFS server software is available from the nfs-utils package.

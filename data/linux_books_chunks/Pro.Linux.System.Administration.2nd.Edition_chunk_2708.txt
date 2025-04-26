@@ -1,0 +1,7 @@
+By having these hosts use a predetermined set of IP 
+addresses, we can also regulate their access by setting firewall rules and changing server configurations to 
+either grant or deny access based on the address a host is connecting with.
+
+Dynamic DNS Updates
+You might also want to assign fixed DNS names to specific hosts, regardless of which IP address they were 
+assigned by the DHCP server.

@@ -1,0 +1,18 @@
+Verbose mode is enabled with v (also
+useful when you want to see the files being archived during archiving).
+
+root@RHELv4u4:~# tar tvf /backup/etc.tar
+drwxr-xr-x root/root         0 2007-05-12 09:38:21 etc/
+-rw-r--r-- root/root      2657 2004-09-27 10:15:03 etc/warnquota.conf
+-rw-r--r-- root/root     13136 2006-11-03 17:34:50 etc/mime.types
+drwxr-xr-x root/root         0 2004-11-03 13:35:50 etc/sound/
+...
+
+To list a specific file in a tar archive, use the t option, added with the filename (without
+leading /).
+
+root@RHELv4u4:~# tar tvf /backup/etc.tar etc/resolv.conf
+-rw-r--r-- root/root        77 2007-05-12 08:31:32 etc/resolv.conf
+root@RHELv4u4:~# 
+
+Use the x flag to restore a tar archive, or a single file from the archive.

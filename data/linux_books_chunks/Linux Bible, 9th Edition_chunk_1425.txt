@@ -1,0 +1,8 @@
+The author information often has the 
+e-mail address of the driver’s creator, so you can contact the author if you have problems 
+or  questions about it.
+
+Loading modules
+You can load any module (as root user) that has been compiled and installed 
+(to a /lib/modules subdirectory) into your running kernel using the modprobe 
+command.

@@ -1,0 +1,9 @@
+So what exactly 
+are these?
+
+153
+
+Chapter 5 ■ Users and GroUps
+
+Each user and group is assigned a unique user ID (UID) and a GID when created. UIDs range from 0 to 
+65535, with the root user always having a UID of 0.

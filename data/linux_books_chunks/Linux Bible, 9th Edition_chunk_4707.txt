@@ -1,0 +1,5 @@
+But you may want to ﬁ lter that port (631) on the NIC that faces the Internet.
+
+Using nmap to audit your network services advertisements
+You probably want lots of people to visit your Web site (httpd service). You probably don’t 
+want everyone on the Internet able to access your SMB ﬁ le shares (smb service).

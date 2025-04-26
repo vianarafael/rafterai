@@ -1,0 +1,2 @@
+A section "Entitled XYZ" means a named subunit of the Document whose title either is precisely XYZ or contains 
+XYZ in parentheses following text that translates XYZ in another language.

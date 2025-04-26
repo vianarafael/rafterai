@@ -1,0 +1,6 @@
+You should review your 
+account and group ﬁ les on a regular basis also with a “human eye” to see if anything looks 
+irregular.
+
+Important ﬁ les, such as /etc/passwd, do need to be monitored for unauthorized account 
+creation.

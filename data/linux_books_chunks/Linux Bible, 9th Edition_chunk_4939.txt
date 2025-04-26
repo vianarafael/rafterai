@@ -1,0 +1,16 @@
+Then select 
+
+either Shut down (to shut down properly) or Force off (effectively pulling the plug). 
+Or you can select Reboot.
+
+744
+
+c26.indd  04/01/2015  Page 745
+
+Chapter 26: Using Linux for Cloud Computing 
+
+ ■ Start the VM. If the VM is currently shut down, right-click the entry and select 
+
+Run to start the VM running.
+
+ ■ Delete the VM.

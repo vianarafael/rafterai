@@ -1,0 +1,10 @@
+To list out the various PAM modules on your Fedora or RHEL system, type:
+
+$ ls /lib/security/pam*.so 
+
+To list out the various PAM modules on your Ubuntu Linux system, type:
+
+$ sudo find / -name pam*.so.
+
+9.  To ﬁ nd the PAM “other” conﬁ guration ﬁ le on your system, type ls /etc/pam.d/
+other at the command line.

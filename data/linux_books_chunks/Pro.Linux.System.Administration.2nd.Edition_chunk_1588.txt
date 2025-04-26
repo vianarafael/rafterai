@@ -1,0 +1,8 @@
+As we have said, by default, iptables configures all chains with a policy of ACCEPT, 
+and it is best practice to set this to a policy of DROP for all chains is recommended – but only after careful 
+consideration as this can stop all network traffic if done incorrectly.
+
+ ■ Caution 
+Make sure you have configured ACCEPT rules that allow you to connect before changing the policy to DROP.
+
+ on remote hosts it is very easy to isolate the host from the network you are using to configure it.

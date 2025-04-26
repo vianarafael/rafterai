@@ -1,0 +1,8 @@
+In this exercise, we have chosen not to do that.
+
+There are several other authentication methods you could choose to use instead of simple 
+
+authentication. You can set up authentication with SASL or Kerberos if you wanted, and we talked about 
+these authentication methods in Chapter 13.
+
+The access control list now looks like this.

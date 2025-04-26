@@ -1,0 +1,6 @@
+CentOS is a community-sponsored Linux distribution that is 
+built from RHEL source code. Recently, Red Hat took over support of the CentOS project.
+
+I’ve chosen to use Red Hat Enterprise Linux for many of the examples in this book because, 
+if you want a career working on Linux systems, there is a huge demand for those who can 
+administer RHEL systems.

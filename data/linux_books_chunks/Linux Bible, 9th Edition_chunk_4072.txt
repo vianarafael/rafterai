@@ -1,0 +1,6 @@
+Then, using the gawk command, you can obtain and format the informa-
+tion needed from the /etc/shadow ﬁ le.
+
+Setting up a shell variable with the current date converted to the number of days since 
+January 1, 1970 is not particularly difﬁ cult. The date command can produce the number of 
+seconds since January 1, 1970.

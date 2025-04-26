@@ -1,0 +1,28 @@
+verifying extra ip-addresses
+
+Use  ping  from  another  computer  to  check  the  activation,  or  use  ifconfig  like  in  this
+screenshot.
+
+[root@rhel6 ~]# ifconfig 
+eth0   Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C  
+       inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+       inet6 addr: fe80::a00:27ff:fedd:d5c/64 Scope:Link
+       UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+       RX packets:1259 errors:0 dropped:0 overruns:0 frame:0
+       TX packets:545 errors:0 dropped:0 overruns:0 carrier:0
+       collisions:0 txqueuelen:1000 
+       RX bytes:115260 (112.5 KiB)  TX bytes:84293 (82.3 KiB)
+
+eth0:0 Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C  
+       inet addr:192.168.1.133  Bcast:192.168.1.255  Mask:255.255.255.0
+       UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+eth0:1 Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C  
+       inet addr:192.168.1.142  Bcast:192.168.1.255  Mask:255.255.255.0
+       UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+39
+
+binding and bonding
+
+4.2.

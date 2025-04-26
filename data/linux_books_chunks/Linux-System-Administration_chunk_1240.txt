@@ -1,0 +1,11 @@
+Strictly
+speaking the .config file is not obligatory, but it might help you in future compilations of
+the kernel.
+
+[root@RHEL52 ]# pwd
+/usr/src/redhat/BUILD/kernel-2.6.18/linux-2.6.18.i686
+[root@RHEL52 ]# cp System.map /boot/System.map-2.6.18-paul2008
+[root@RHEL52 ]# cp .config /boot/config-2.6.18-paul2008
+[root@RHEL52 ]# cp arch/i386/boot/bzImage /boot/vmlinuz-2.6.18-paul2008
+
+28.5.10.

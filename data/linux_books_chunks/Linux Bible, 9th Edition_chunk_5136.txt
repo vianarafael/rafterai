@@ -1,0 +1,8 @@
+Therefore, I recommend that you do the exercises on a 
+Linux system that you are free to modify and erase if something should go wrong.
+
+Chapter 2: Creating the Perfect Linux Desktop
+The following section details some ways these tasks can be completed on both the GNOME 2 and 
+GNOME 3 desktops.
+
+1.  To get started, you need a Linux system in front of you to do the procedures in this book.

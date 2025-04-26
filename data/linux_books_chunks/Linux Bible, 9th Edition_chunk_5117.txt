@@ -1,0 +1,12 @@
+When the Windows Disc Image Burner window appears, 
+select Burn to burn the image.
+
+776
+
+ 
+bapp01.indd  04/02/2015  Page 777
+
+Appendix A: Media
+
+ ■ Roxio Creator—This third-party Windows application contains many features for 
+ripping and burning CDs and DVDs.

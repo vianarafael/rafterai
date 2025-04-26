@@ -1,0 +1,3 @@
+PCMCIA slots are those openings on your laptop that enable you to have 
+credit-card-sized cards attached to your computer. You can attach devices such as 
+modems and external CD-ROMs.

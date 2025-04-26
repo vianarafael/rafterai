@@ -1,0 +1,16 @@
+The  following shows how to use the route command to do that:
+
+# route
+Kernel IP routing table
+Destination   Gateway      Genmask        Flags Metric Ref Use Iface
+default       192.168.0.1  0.0.0.0        UG    0      0     0 p4p1
+192.168.0.0   *            255.255.255.0  U     1      0     0 p4p1
+
+353
+
+c14.indd  04/01/2015  Page 354
+
+Part IV: Becoming a Linux Server Administrator
+
+The output from the kernel routing table is from a Fedora system with a single network 
+interface card.

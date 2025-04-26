@@ -1,0 +1,13 @@
+Or, you can keep the NIC visible to the computer, but simply disable the NIC’s abil-
+ity to PXE boot.
+
+555
+
+c21.indd  04/01/2015  Page 556
+
+Part IV: Becoming a Linux Server Administrator
+
+Maybe you have an audio card and you want to disable the integrated audio on the 
+motherboard. That can be done in the BIOS as well.
+
+Conversely, sometimes you want to enable a device that has been disabled.

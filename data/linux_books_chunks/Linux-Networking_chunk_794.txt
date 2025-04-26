@@ -1,0 +1,11 @@
+Verify that you can logon to a Linux/Unix computer. Write down the name and ip address
+of this computer.
+
+2. Do the same for all the other (virtual) machines available to you.
+
+3. Verify networking by pinging the computer, edit the appropriate hosts files so you can
+use names. Test the names by pinging them.
+
+4. Make sure Samba is installed, write down the version of Samba.
+
+5.

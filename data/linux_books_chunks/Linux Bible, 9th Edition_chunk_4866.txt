@@ -1,0 +1,6 @@
+So the virtual machines that run on the hypervisors we build here could 
+include Fedora, Ubuntu, RHEL, CentOS, Microsoft Windows, and others.
+
+ ■ Shared storage—To offer the greatest ﬂ exibility, the storage that hypervisors 
+
+make available to virtual machines is often shared among a pool of hypervisors.

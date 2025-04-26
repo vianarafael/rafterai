@@ -1,0 +1,14 @@
+The mount point at the end of the command (/home/data) must
+already exist.
+
+[root@centos65 ~]# mount -t nfs server42:/srv/data /home/data
+[root@centos65 ~]#
+
+If this server42 has ip-address 10.0.0.42 then you can also write:
+
+[root@centos65 ~]# mount -t nfs 10.0.0.42:/srv/data /home/data
+[root@centos65 ~]# mount | grep data
+10.0.0.42:/srv/data on /home/data type nfs (rw,vers=4,addr=10.0.0.42,clienta\
+ddr=10.0.0.33)
+
+7.6.3.

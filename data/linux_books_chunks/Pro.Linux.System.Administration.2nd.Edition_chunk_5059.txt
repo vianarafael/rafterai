@@ -1,0 +1,15 @@
+That will be rotated every 15 minutes.
+Let’s verify the logs with our key to make sure they haven’t been tampered with.
+
+$ sudo journalctl --verify-key 4f5f8f-9eb38b-eff95a-bc0bc8/191914-35a4e900
+PASS: /var/log/journal/e3c7fd86ed8b4ef69e569a93e30db6ab/system.journal
+PASS: /var/log/journal/e3c7fd86ed8b4ef69e569a93e30db6ab/user-1005.journal
+
+844
+
+Chapter 18 ■ Logging and Monitoring
+
+Journal-Remote
+
+Another way to secure our logs from loss or tampering is to send them to a centralized logging host as 
+quickly as we can.

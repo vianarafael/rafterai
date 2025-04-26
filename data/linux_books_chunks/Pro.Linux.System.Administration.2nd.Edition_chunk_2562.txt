@@ -1,0 +1,5 @@
+that is a public key signing key (also a DnsKeY) and a private key signing key. We 
+create a rrset of the DnsKeYs and use the private key signing key to sign them. this produces another 
+rrsIG. In this way the public key signing key can be used to validate the public zone signing key.
+
+at this stage we can validate the rrset and or public DnsKeYs.

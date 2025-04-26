@@ -1,0 +1,3 @@
+We need to copy the CSR to the CA host and then run the command shown in Listing 15-3.
+
+Listing 15-3.

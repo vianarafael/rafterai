@@ -1,0 +1,12 @@
+/lib/modules/<kernel>/modules.dep
+
+Module dependencies are stored in modules.dep.
+
+[root@RHEL52 2.6.18-92.1.18.el5]# pwd
+/lib/modules/2.6.18-92.1.18.el5
+[root@RHEL52 2.6.18-92.1.18.el5]# head -3 modules.dep 
+/lib/modules/2.6.18-92.1.18.el5/kernel/drivers/net/tokenring/3c359.ko:
+/lib/modules/2.6.18-92.1.18.el5/kernel/drivers/net/pcmcia/3c574_cs.ko:
+/lib/modules/2.6.18-92.1.18.el5/kernel/drivers/net/pcmcia/3c589_cs.ko:
+
+28.4.11.

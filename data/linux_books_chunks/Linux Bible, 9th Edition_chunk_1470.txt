@@ -1,0 +1,8 @@
+To be able to install Fedora on a system with another operating system 
+installed, you must either have extra disk space available (outside the Windows 
+partition) or be able to shrink the Windows system to gain enough free space to 
+install Fedora.
+
+ ■ Bare metal or virtual system—The resulting Fedora installation can be installed to 
+boot up directly from the computer hardware or from within an existing  operating 
+system on the computer.

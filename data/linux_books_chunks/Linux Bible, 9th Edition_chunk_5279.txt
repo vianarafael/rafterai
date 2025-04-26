@@ -1,0 +1,20 @@
+Any active wired or wireless 
+network connections should be highlighted in bold.
+
+B
+
+807
+
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 808
+
+Appendix B: Exercise Answers
+
+If it has not connected to the network, select from the list of wired or wireless net-
+works available, and then enter the username and password, if prompted, to start 
+an active connection.
+
+2.

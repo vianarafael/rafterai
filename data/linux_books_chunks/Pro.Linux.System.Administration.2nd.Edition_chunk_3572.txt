@@ -1,0 +1,3 @@
+They will want to access it from an e-mail client on their local 
+desktop. This is where an IMAP or POP3 server comes into its own. These protocols represent two different 
+methods of accessing mailboxes from a mail client or MUA.

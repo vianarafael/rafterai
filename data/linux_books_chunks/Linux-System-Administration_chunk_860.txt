@@ -1,0 +1,59 @@
+The first block displays statistics
+since the last reboot.
+
+[paul@RHELv4u3 ~]$ iostat -d 2 500
+Linux 2.6.9-34.EL (RHELv4u3.localdomain)        01/27/2007
+
+Device:         tps   Blk_read/s   Blk_wrtn/s   Blk_read   Blk_wrtn
+hdc            0.00         0.01         0.00       1080          0
+sda            0.52         5.07         7.78     941798    1445148
+sda1           0.00         0.01         0.00        968          4
+sda2           1.13         5.06         7.78     939862    1445144
+dm-0           1.13         5.05         7.77     939034    1444856
+dm-1           0.00         0.00         0.00        360        288
+
+Device:         tps   Blk_read/s   Blk_wrtn/s   Blk_read   Blk_wrtn
+hdc            0.00         0.00         0.00          0          0
+sda            0.00         0.00         0.00          0          0
+sda1           0.00         0.00         0.00          0          0
+sda2           0.00         0.00         0.00          0          0
+dm-0           0.00         0.00         0.00          0          0
+dm-1           0.00         0.00         0.00          0          0
+...
+[paul@RHELv4u3 ~]$
+
+You can have more statistics using iostat -d -x, or display only cpu statistics with iostat -c.
+
+[paul@RHELv4u3 ~]$ iostat -c 5 500
+Linux 2.6.9-34.EL (RHELv4u3.localdomain)        01/27/2007
+
+avg-cpu:  %user   %nice    %sys %iowait   %idle
+0.31    0.02    0.52    0.23   98.92
+
+avg-cpu:  %user   %nice    %sys %iowait   %idle
+0.62    0.00   52.16   47.23    0.00
+
+avg-cpu:  %user   %nice    %sys %iowait   %idle
+2.92    0.00   36.95   60.13    0.00
+
+avg-cpu:  %user   %nice    %sys %iowait   %idle
+0.63    0.00   36.63   62.32    0.42
+
+avg-cpu:  %user   %nice    %sys %iowait   %idle
+0.00    0.00    0.20    0.20   99.59
+
+ [paul@RHELv4u3 ~]$
+
+223
+
+  
+  
+  
+  
+  
+  
+  
+  
+resource monitoring
+
+19.7.

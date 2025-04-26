@@ -1,0 +1,6 @@
+The ﬁ rst Fedora releases and up to RHEL 
+5 used the System V init process. RHEL 6 contains a sort of hybrid of System V init, with 
+the init process itself replaced by the Upstart init process.
+
+System V init was developed for UNIX System V at AT&T in the mid-1980s when UNIX  systems 
+ﬁ rst incorporated the start-up of network interfaces and the services connected to them.

@@ -1,0 +1,7 @@
+The rm -r example removes the directory bigdir and all its contents (ﬁ les and 
+multiple levels of subdirectories) but prompts you before each is removed. By adding the 
+force option (-f), the hugedir directory and all its contents are immediately removed, 
+without prompting.
+
+When you override the -i option on the mv, cp, and rm commands, you risk removing some (or lots of) fi les by 
+ mistake.

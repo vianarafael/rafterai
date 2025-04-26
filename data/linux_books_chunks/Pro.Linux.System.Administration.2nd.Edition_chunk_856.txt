@@ -1,0 +1,9 @@
+If 
+
+shadow passwords are enabled, then like the passwd file, the passwords in the group file are replaced with an 
+x and the real passwords are stored in the /etc/gshadow file.
+
+LOGIN MESSAGES
+
+Your login screen is the first thing users see. It’s a good idea to put some important warnings and 
+information in that login screen.

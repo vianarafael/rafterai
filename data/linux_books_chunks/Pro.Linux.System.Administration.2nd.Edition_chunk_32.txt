@@ -1,0 +1,6 @@
+The major difference between the 
+versions is the number of CPUs (central processing units) supported, with RHEL supporting up to two CPUs 
+and RHELAP supporting an unlimited number.
+
+Red Hat platforms are commonly used by corporate organizations as server platforms due to the 
+dedicated support and service levels available from the vendor.

@@ -1,0 +1,12 @@
+You should see a message that reads, “This Connection is 
+Untrusted.” To complete the connection, do the following:
+
+a. Click I Understand the Risks.
+
+b. Click Add Exception.
+
+c. Click Get Certiﬁ cate.
+
+d. Click Conﬁ rm Security Exception.
+
+9.

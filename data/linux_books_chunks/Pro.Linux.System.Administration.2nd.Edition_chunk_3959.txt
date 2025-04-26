@@ -1,0 +1,9 @@
+As far as Bash is concerned, it could be all one line, but this makes this somewhat easier to see what is 
+happening.
+
+645
+
+Chapter 14 ■ BaCkup and reCovery
+
+The sudo command, unless used in conjunction with the –u <username> option, will create all the 
+new files and directories with root being the owner.

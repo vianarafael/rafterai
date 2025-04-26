@@ -1,0 +1,4 @@
+The umask dictates the default set of permissions assigned to a file 
+when it is created. By default, without a umask set, files are created with permissions of 0666 (or read and 
+write permissions for the owner, group, and others are all set), and directories are created with permissions 
+of 0777 (or read, write, and execute for the owner, group, and others).

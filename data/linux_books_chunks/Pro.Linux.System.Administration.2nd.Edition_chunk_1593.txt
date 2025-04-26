@@ -1,0 +1,10 @@
+When the matching packet returns, the router uses the translation table to match 
+the returning packet to the originating source IP.
+
+267
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Many years ago, each host on the Internet was given a public IP address to become part of the Internet 
+
+and talk to other hosts.

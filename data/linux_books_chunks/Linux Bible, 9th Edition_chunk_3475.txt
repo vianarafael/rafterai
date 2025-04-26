@@ -1,0 +1,7 @@
+With the basic system and user set-
+tings in place, you can start creating shared directories.
+
+Creating a Samba shared folder
+Before you can create a shared folder, that folder (directory) must exist and have the proper 
+permissions set. In this example, the /var/salesdata directory is shared. You want the 
+data to be writable by the user named chris but visible to anyone on your network.

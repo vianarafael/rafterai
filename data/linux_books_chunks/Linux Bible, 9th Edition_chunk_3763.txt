@@ -1,0 +1,4 @@
+RHEL 7 also ofﬁ cially supports 
+secure boot. The main job of BIOS and UEFI ﬁ rmware is to initialize the hardware and then 
+hand off control of the boot process to a boot loader. The boot loader then ﬁ nds and starts 
+the operating system.

@@ -1,0 +1,7 @@
+Open a shell as jbaxter (either a new login session or using a current shell) and 
+
+temporarily have the testing group be your default group so that when you type 
+touch /home/jbaxter/file.txt, the testing group is assigned as the ﬁ le’s 
+group.
+
+5.

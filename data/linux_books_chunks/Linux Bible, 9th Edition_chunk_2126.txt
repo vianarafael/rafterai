@@ -1,0 +1,6 @@
+Obtain a disk with some spare space on it and create a disk partition on it of the 
+LVM type (8e). Then use the pvcreate command to identify this partition as an 
+LVM physical volume. The process of doing this is described in the section “Creating 
+a multiple-partition disk” using the /dev/sdc6 device in that example.
+
+2.

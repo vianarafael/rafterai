@@ -1,0 +1,15 @@
+For a 2.4.22 kernel an additional entry in /etc/grub.conf looks like 
+this:
+
+title lvm-root
+
+        root (hd0,1)
+
+        kernel /vmlinuz-2.4.22 ro root=LABEL=/ 
+
+        initrd /initrd-2.4.22-lvm.img
+
+All we need is the initrd initrd-2.4.22-lvm.img. 
+
+Once again we will run mkinitrd with   –-fstab=<fstab>  which we will use to make the 
+script read our new fstab file /mnt/lvm/etc/fstab.

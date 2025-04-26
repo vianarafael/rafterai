@@ -1,0 +1,5 @@
+These options are usually sufficient to archive 
+your systems, but if you need to, you can add more options, which are explained in the rsync man page.
+
+You will probably make use of the --exclude and --include options, which allow you to fine-tune the 
+file or directory you want to sync.

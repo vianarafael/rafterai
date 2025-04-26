@@ -1,0 +1,7 @@
+This chapter 
+ covers lots of commands for moving around and manipulating ﬁ les, as well as commands for 
+changing ownership and permission.
+
+4
+
+The next chapter describes commands for editing and searching for ﬁ les.

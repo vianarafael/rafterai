@@ -1,0 +1,5 @@
+Also, regular users have no ability to assign speciﬁ c permissions to 
+different users or groups and very little ﬂ exibility setting up collaborative ﬁ les/
+directories. Enhancements to this model allow regular users to set up special 
+collaborative directories (using features such as sticky bit and set GID bit 
+directories).

@@ -1,0 +1,2 @@
+CentOS and Ubuntu hosts require bareos-common and bareos-client, 
+which will download any dependencies we may also need.

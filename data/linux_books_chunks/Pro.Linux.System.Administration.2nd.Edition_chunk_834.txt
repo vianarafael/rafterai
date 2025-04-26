@@ -1,0 +1,10 @@
+For example, you could set the user’s shell to the /
+bin/mail command, which is a small command-line mail reader. When the user then logs on, she can access 
+only that command.
+
+163
+
+Chapter 5 ■ Users and GroUps
+
+Storing User Data
+First, your host checks that your user exists and is allowed to log in.

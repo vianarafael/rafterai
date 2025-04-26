@@ -1,0 +1,6 @@
+Instead you may want to leave unmounted and then run e2fsck against it to do any repairs. In this case we 
+will mount our /boot partition though.
+
+Figure 9-13 is informational and says that there may be other partitions that you need to mount, if you 
+
+have partitions mounted into other areas of your filesystem.

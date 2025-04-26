@@ -1,0 +1,6 @@
+Now when systemd initiates the multiuser.target it will look 
+inside the multi-user.target.wants directory and start those services also.
+
+Let’s try now to get a list of all the current running services that systemd is controlling (see Listing 6-12).
+
+Listing 6-12.

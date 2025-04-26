@@ -1,0 +1,7 @@
+Up to that time, most programs were 
+ written on punch cards that had to be fed in batches to mainframe computers. In a 1980 
+lecture on “The Evolution of the UNIX Time-sharing System,” Dennis Ritchie summed up 
+the spirit that started UNIX:
+
+What we wanted to preserve was not just a good environment in which to do 
+programming, but a system around which a fellowship could form.

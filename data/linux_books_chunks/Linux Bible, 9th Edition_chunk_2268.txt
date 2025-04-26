@@ -1,0 +1,16 @@
+Because the amount of memory consumed by a daemon process 
+is not that big a deal anymore, you may notice that most xinetd services are older 
+ services (such as telnet and tftp).
+
+For more information on starting services as regular services or on-demand (xinetd) 
+ services, refer to Chapter 15, “Starting and Stopping Services”).
+
+320
+
+c13.indd  04/01/2015  Page 321
+
+Chapter 13: Understanding Server Administration
+
+Step 4: Secure the server
+Opening your system to allow remote users to access it over the network is not a decision 
+you should take lightly.

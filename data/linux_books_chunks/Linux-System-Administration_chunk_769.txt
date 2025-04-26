@@ -1,0 +1,13 @@
+atrm
+
+Jobs in the at queue can be removed with atrm.
+
+root@laika:~# atq
+6       Thu Aug  2 16:00:00 2007 a root
+5       Thu Aug  2 10:05:00 2007 a root
+root@laika:~# atrm 5
+root@laika:~# atq
+6       Thu Aug  2 16:00:00 2007 a root
+root@laika:~#
+
+16.1.4.

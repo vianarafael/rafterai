@@ -1,0 +1,32 @@
+However, also be sure to use the 
+
+service command, because not all services may have been ported to Upstart:
+
+# initctl list | grep start/running
+tty (/dev/tty3) start/running, process 1163
+...
+
+B
+
+811
+
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 812
+
+Appendix B: Exercise Answers
+
+# service --status-all | grep running
+abrtd (pid  1118) is running...
+...
+
+ ■ For systemd, use the systemctl command, as follows:
+
+# systemctl list-unit-files --type=service | grep -v disabled
+UNIT FILE                                   STATE
+abrt-ccpp.service                           enabled
+abrt-oops.service                           enabled
+...
+
+6.

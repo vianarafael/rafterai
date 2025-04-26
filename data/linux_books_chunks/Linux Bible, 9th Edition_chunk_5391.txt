@@ -1,0 +1,9 @@
+(It should include the 
+
+word vmlinuz somewhere on the line.)
+
+d. Move the cursor to the end of that line, add a space, and then type the number 
+
+1 or init=/bin/bash.
+
+e. Follow the instructions to boot the new entry.

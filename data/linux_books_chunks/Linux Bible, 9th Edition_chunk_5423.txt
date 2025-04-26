@@ -1,0 +1,19 @@
+To view it, type cat 
+/etc/selinux/config | grep SELINUX= at the command line. To be sure how 
+it is currently set, type the getenforce command.
+
+832
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 833
+
+Appendix B: Exercise Answers
+
+4.

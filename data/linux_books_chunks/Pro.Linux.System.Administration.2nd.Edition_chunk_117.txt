@@ -1,0 +1,6 @@
+Therefore, long 
+and strong passphrases are highly recommended.
+
+ ■ Note  When does it “make sense” to encrypt your disks? That depends. You may have regulatory 
+requirements to have your data encrypted. You may have systems that don’t reboot often and have sensitive 
+data.

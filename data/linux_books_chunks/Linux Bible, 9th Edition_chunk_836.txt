@@ -1,0 +1,4 @@
+See more on execute bits in the upcoming 
+“Understanding File Permissions and Ownership” section.
+
+You should become familiar with the contents of your home directory next.

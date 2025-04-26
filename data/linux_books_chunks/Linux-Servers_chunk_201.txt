@@ -1,0 +1,16 @@
+troubleshooting apache
+
+When  apache  restarts,  it  will  verify  the  syntax  of  files  in  the  configuration  folder  /etc/
+apache2 on debian or /etc/httpd on CentOS and it will tell you the name of the faulty file,
+the line number and an explanation of the error.
+
+root@debian7:~# service apache2 restart
+apache2: Syntax error on line 268 of /etc/apache2/apache2.conf: Syntax error o\
+n line 1 of /etc/apache2/sites-enabled/chessclub42: /etc/apache2/sites-enabled\
+/chessclub42:4: <VirtualHost> was not closed.\n/etc/apache2/sites-enabled/ches\
+sclub42:1: <VirtualHost> was not closed.
+Action 'configtest' failed.
+The Apache error log may have more information.
+ failed!
+
+Below you see the problem...

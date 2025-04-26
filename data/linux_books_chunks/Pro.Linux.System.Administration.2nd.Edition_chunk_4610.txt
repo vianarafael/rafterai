@@ -1,0 +1,3 @@
+That is why we have our access 
+controls dealing with the meta users group toward the top of the list just below our user passwords entry.
+The branch ou=meta holds the users that we use to proxy our authentication to our directory server.

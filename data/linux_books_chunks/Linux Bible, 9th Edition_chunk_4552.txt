@@ -1,0 +1,18 @@
+On newer distributions, the strict policy has been merged into the Targeted 
+policy, with Targeted used by default.
+
+SELinux has different policies you can choose among:
+
+ ■ Targeted
+
+ ■ MLS
+
+ ■ Minimum
+
+677
+
+c24.indd  04/15/2015  Page 678
+
+Part V: Learning Linux Security Techniques
+
+Each policy implements different access control to match your organization’s needs.

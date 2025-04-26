@@ -1,0 +1,8 @@
+2691    IN      A       216.239.38.10
+<snip>
+
+We could use this information and compare the response from other nameservers. If our nameserver 
+
+has provided the same information, our DNS server is working correctly. If there is a difference or we return 
+no results, we would have to investigate our DNS settings further. In Chapter 9, we discuss DNS and the dig 
+command in more detail.

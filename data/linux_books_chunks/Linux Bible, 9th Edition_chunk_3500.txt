@@ -1,0 +1,6 @@
+localhost is used as your NetBIOS name if it 
+has not been otherwise set.
+
+As the log file value is set, logs associated with Samba activity are written to 
+/var/log/samba/log.%m, where %m represents the name or IP address of the system 
+contacting the Samba server.

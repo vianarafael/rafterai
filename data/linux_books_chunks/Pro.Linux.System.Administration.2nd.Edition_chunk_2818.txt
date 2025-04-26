@@ -1,0 +1,10 @@
+Let’s start with the basics: the server name (ServerName) and the webmaster e-mail address 
+(ServerAdmin).
+
+ServerName au-mel-centos-1.example.com
+ServerAdmin webmaster@example.com
+
+The server name and webmaster e-mail address are used by Apache when it displays default error 
+
+pages. We have entered the values for our own host, au-mel-centos-1.example.com and webmaster@
+example.com.

@@ -1,0 +1,6 @@
+However, packets destined for the 10.99.8.0/24, 172.1.0.0/16, and 10.0.0.0/8 networks are 
+routed directly to vpn-a.example.com for communication with hosts on the other side 
+of the VPN connection over the tunneled interface (tun0).
+
+A special route to the 192.168.99.0/24 network is accessible via the node (presumably a router) 
+at IP address 192.168.0.2.

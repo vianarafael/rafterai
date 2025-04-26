@@ -1,0 +1,48 @@
+With the right options lshw can show a lot of information
+about disks (and partitions).
+
+Below a truncated screenshot on Debian 6:
+
+root@debian6~# lshw -class volume | grep -A1 -B2 scsi
+       description: Linux raid autodetect partition
+       physical id: 1
+       bus info: scsi@1:0.0.0,1
+       logical name: /dev/sdb1
+--
+       description: Linux raid autodetect partition
+       physical id: 1
+       bus info: scsi@2:0.0.0,1
+       logical name: /dev/sdc1
+--
+       description: Linux raid autodetect partition
+       physical id: 1
+       bus info: scsi@3:0.0.0,1
+       logical name: /dev/sdd1
+--
+       description: Linux raid autodetect partition
+       physical id: 1
+       bus info: scsi@4:0.0.0,1
+       logical name: /dev/sde1
+--
+       vendor: Linux
+       physical id: 1
+       bus info: scsi@0:0.0.0,1
+       logical name: /dev/sda1
+--
+       vendor: Linux
+       physical id: 2
+       bus info: scsi@0:0.0.0,2
+       logical name: /dev/sda2
+--
+       description: Extended partition
+       physical id: 3
+       bus info: scsi@0:0.0.0,3
+       logical name: /dev/sda3
+
+Redhat and CentOS do not have this tool (unless you add a repository).
+
+37
+
+disk devices
+
+4.3.4.

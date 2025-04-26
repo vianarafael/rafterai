@@ -1,0 +1,6 @@
+Using nmap to do various port scans allows you to see 
+what  services are running on all the servers on your local network and whether they are 
+ advertising their availability.
+
+What is a port? Ports or, more correctly, network ports, are numeric values used by the TCP and UDP network 
+ protocols as access points to services on a system.

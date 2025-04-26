@@ -1,0 +1,7 @@
+You have seen the public key infrastructure 
+(PKI) being used to validate web servers and domain records. Now we can use the framework to validate 
+e-mail we are sending.
+
+We are going to publish our public key again via DNS so that other mail servers can validate our 
+
+signature.

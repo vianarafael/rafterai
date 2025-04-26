@@ -1,0 +1,14 @@
+Normally, we 
+pass the file name to use and the user to create as parameters, but if the file does not yet exist, we also need 
+to pass the -c option.
+
+484
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+$ sudo htpasswd -c /opt/apache/www.example.com/passwords jsmith
+New password:
+Re-type new password:
+Adding password for user jsmith
+
+We can now add additional users without needing the -c option.

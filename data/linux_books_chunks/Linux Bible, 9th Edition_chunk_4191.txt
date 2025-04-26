@@ -1,0 +1,6 @@
+Therefore, you do need to moni-
+tor user account passwords to ensure they are strong enough to withstand an attack.
+
+One password strength monitoring tool you can use is the same one malicious users use to 
+crack accounts, John the Ripper. John the Ripper is a free and open source tool that you 
+can use at the Linux command line. It’s not installed by default.

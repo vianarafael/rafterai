@@ -1,0 +1,29 @@
+You need the w permission to create files in or remove files from a directory.
+
+Table 6.2. standard Unix file permissions
+
+permission
+
+r (read)
+
+w (write)
+
+x (execute)
+
+on a file
+
+on a directory
+
+read file contents (cat)
+
+read directory contents (ls)
+
+change file contents (vi)
+
+create files in (touch)
+
+execute the file
+
+enter the directory (cd)
+
+6.3.2.

@@ -1,0 +1,8 @@
+when a command needs to be run on a 
+
+ ■ Note 
+particular host, we’re going to prefix it with the same of that host: [ca]$, [gateway]$, or [branch1]$.
+
+Configuring OpenVPN on Our Branch Office Servers
+
+First, we need to install the OpenVPN packages on our branch server, branch1.example.com.

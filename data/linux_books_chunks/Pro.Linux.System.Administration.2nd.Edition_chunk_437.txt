@@ -1,0 +1,12 @@
+In Gnome, for example, you click the Applications menu, open 
+
+the Accessories tab, and select the Terminal application. This will launch the Gnome Terminal application, 
+as you can see in Figure 4-4.
+
+105
+
+ChapTeR 4 ■ LInux BasICs
+
+Figure 4-4.  Launching the Gnome Terminal application
+
+On KDE, things are slightly different.

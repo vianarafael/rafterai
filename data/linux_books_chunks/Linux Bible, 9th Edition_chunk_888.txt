@@ -1,0 +1,4 @@
+To change the 
+location of a ﬁ le, use the mv command. To copy a ﬁ le from one location to another, use the 
+cp command. To remove a ﬁ le, use the rm command. These commands can be used to act on 
+individual ﬁ les and directories or recursively to act on many ﬁ les and directories at once.

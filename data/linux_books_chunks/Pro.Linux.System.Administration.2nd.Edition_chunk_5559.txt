@@ -1,0 +1,17 @@
+We also created a swap partition with a size of 512MB.
+Using Kickstart on CentOS, we can create software RAID configurations, for example:
+
+part raid.01 --asprimary --bytes-per-inode=4096 --fstype="raid" --grow --ondisk=sda 
+--size=1
+part raid.02 --asprimary --bytes-per-inode=4096 --fstype="raid" --grow --ondisk=sdb 
+--size=1
+part raid.03 --asprimary --bytes-per-inode=4096 --fstype="raid" --grow --ondisk=sdc 
+--size=1
+part raid.04 --asprimary --bytes-per-inode=4096 --fstype="raid" --grow --ondisk=sdd 
+--size=1
+part raid.05 --asprimary --bytes-per-inode=4096 --fstype="raid" --grow --ondisk=sde 
+--size=1
+raid / --bytes-per-inode=4096 --device=md0 --fstype="ext4" --level=5 raid.01 raid.02 
+raid.03 raid.04 raid.05
+
+We specified five RAID disks, and each disk uses its entire contents as indicated by the --grow option.

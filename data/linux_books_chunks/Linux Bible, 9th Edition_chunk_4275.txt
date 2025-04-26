@@ -1,0 +1,6 @@
+However, ﬁ rst you need to understand a few 
+more underlying cryptography concepts.
+
+Understanding encryption/decryption
+The primary use of cryptography on a Linux system is to encode data to hide it ( encryption) 
+from unauthorized eyes and then decode the data (decryption) for authorized eyes.

@@ -1,0 +1,27 @@
+So that
+
+--- linux-2.4.21/arch/arm/def-configs/adsagc     
++++ linux-2.4.22/arch/arm/def-configs/adsagc
+
+becomes
+
+--- ./arch/arm/def-configs/adsagc     
++++ ./arch/arm/def-configs/adsagc
+
+This is done with the -p1 option of patch effectively telling it to strip the first directory.
+
+cd /usr/src/linux-2.4.21
+
+zcat patch-2.4.22.gz | patch -p1
+
+Testing the Patch
+
+Before applying a patch one can test what will be changed without making them:
+
+patch -p1 –dry-run  < patchfile
+
+Recovering the Old Source Tree
+
+The patch tool has several mechanisms to reverse the effect of a patch.
+
+In all cases, make sure the old configuration (.config file) is saved.

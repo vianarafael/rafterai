@@ -1,0 +1,6 @@
+This can be used to provide greater fault tolerance or increased 
+bandwidth for the interface. A bonded interface can also have many IP addresses. We will expand on this a 
+little further on in the sections “Network Configuration Files for CentOS” and “Network Configuration Files 
+for Ubuntu.”
+
+Each of your network interfaces will probably have at least one IP address assigned to it.

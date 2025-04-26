@@ -1,0 +1,5 @@
+We recommend using the sudo command, as we demonstrated in Chapter 5.
+
+Table 8-1 lists the main options provided with YUM.
+
+Table 8-1.

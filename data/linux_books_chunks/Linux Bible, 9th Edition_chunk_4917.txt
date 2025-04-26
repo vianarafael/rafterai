@@ -1,0 +1,14 @@
+Note 
+that the location of the mount point directory on each hypervisor must be the same. 
+Here’s how:
+
+a.  Check the NFS share availability. From each of the two hypervisors, make sure 
+
+that you can see the available share by typing the following:
+
+# showmount -e storage.example.com
+Export list for storage.example.com:
+
+/var/storage 192.168.0.*
+
+b.  Mount the NFS share.

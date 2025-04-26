@@ -1,0 +1,25 @@
+Required Kickstart Directives
+
+Directive
+
+Description
+
+auth
+
+Configures authentication.
+
+bootloader
+
+Configures the boot loader.
+
+keyboard
+
+Configures the keyboard type.
+
+lang
+
+part
+
+Configures the language on the host.
+
+Configures partitions.

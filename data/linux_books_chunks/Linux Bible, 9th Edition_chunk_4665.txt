@@ -1,0 +1,6 @@
+However, after it’s broken down into its 
+various components—Operational Modes, Security contexts, Policy types, and policy pack-
+ages—you can see how the various pieces work together. Each component has an important 
+role for enforcing and testing the chosen security requirements for your organization.
+
+You learned the various steps to conﬁ gure SELinux.

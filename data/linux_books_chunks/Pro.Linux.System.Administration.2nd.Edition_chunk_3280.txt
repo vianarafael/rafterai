@@ -1,0 +1,5 @@
+Be careful to avoid folder names containing spaces, like 
+“My personal Mail,” as sometimes your mail client can get confused. You should use an underscore or dash to 
+link the words together like so: “My-personal_Mail.”
+
+On Ubuntu, there is another, potentially easier, way to create your Maildir directories and folders.

@@ -1,0 +1,5 @@
+When you want to sign a certificate, you can mount the encrypted disk, spin 
+up the virtual image, sign the certificates, power down the virtual host, and unmount the disk.
+
+We can create a private key for www.example.com on any host we like. You don’t need to be on a host 
+with the same hostname to create a private key.

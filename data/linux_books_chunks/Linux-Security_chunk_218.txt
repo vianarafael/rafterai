@@ -1,0 +1,19 @@
+/etc/bashrc
+fi
+
+# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions
+
+On Debian this script is quite a bit longer and configures $PS1, some history variables and
+a number af active and inactive aliases.
+
+root@debian7:~# wc -l /home/paul/.bashrc
+110 /home/paul/.bashrc
+
+31
+
+user profiles
+
+4.6.

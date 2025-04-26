@@ -1,0 +1,8 @@
+Make a filesystem on lv0 and mount it on /mnt/lvm
+
+mkfs -t ext3 /dev/volumeA/lv0
+mkdir /mnt/lvm
+mount /dev/volumeA/lv0 /mnt/lvm
+
+This wouldn't be very different from other partition types if it weren't for the possibility to 
+change the logical volume's size at anytime.

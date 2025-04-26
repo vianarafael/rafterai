@@ -1,0 +1,15 @@
+In RHEL 6, when the kernel hands off control of the boot process to the 
+
+560
+
+c21.indd  04/01/2015  Page 561
+
+Chapter 21: Troubleshooting Linux
+
+init process, the init process checks the /etc/inittab ﬁ le for directions on how to 
+boot the system.
+
+The inittab ﬁ le tells the init process what the default runlevel is and then points to 
+ﬁ les in the /etc/init directory to do such things as remap some keystrokes (such as 
+Ctrl+Alt+Delete to reboot the system), start virtual consoles, and identify the location of 
+the script for initializing basic services on the system: /etc/rc.sysinit.

@@ -1,0 +1,6 @@
+Figure 23.6 shows the results of selecting the entry for John Doe created 
+ earlier in this chapter to see details about that user’s private key.
+
+ ■ Secure shell—You can create public and private OpenSSH keys that let you log in to 
+remote systems using those keys instead of passwords for authentication with ssh, 
+scp, rsync, sftp, and related commands.

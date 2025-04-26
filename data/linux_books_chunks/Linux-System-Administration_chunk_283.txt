@@ -1,0 +1,37 @@
+/proc/scsi/scsi
+
+Another way to locate scsi (or sd) devices is via /proc/scsi/scsi.
+
+This screenshot is from a sparc computer with adaptec RAID5.
+
+root@shaka:~# cat /proc/scsi/scsi 
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: Adaptec  Model: RAID5            Rev: V1.0
+  Type:   Direct-Access                    ANSI SCSI revision: 02
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: SEAGATE  Model: ST336605FSUN36G  Rev: 0438
+  Type:   Direct-Access                    ANSI SCSI revision: 03
+root@shaka:~#
+
+Here we run cat /proc/scsi/scsi on the QNAP from above (with Debian Linux).
+
+root@debian6~# cat /proc/scsi/scsi 
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: SanDisk  Model: Cruzer Edge      Rev: 1.19
+  Type:   Direct-Access                    ANSI  SCSI revision: 02
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi2 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi3 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi4 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+
+Note that some recent versions of Debian have this disabled in the kernel.

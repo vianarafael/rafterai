@@ -1,0 +1,6 @@
+If the mount fails because the share is unavailable, the bg causes the mount 
+attempt to go into the background and retry again later.
+
+The ﬁ lesystem type is nfs, and read (rsize) and write (wsize) buffer sizes (discussed 
+in the section “Using mount options” later in this chapter) are set at 8192 to speed data 
+transfer associated with this connection.

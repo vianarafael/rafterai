@@ -1,0 +1,6 @@
+Inserts, updates, 
+
+and deletes are recorded in them, and they can be replayed on a secondary server to keep them in 
+sync. They can also be used by administrators to restore backups of databases. In the previous code, 
+we tell the server to automatically purge binary logs after 14 days. This means we should do a backup 
+of the MariaDB data at least every two weeks.

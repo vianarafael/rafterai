@@ -1,0 +1,18 @@
+nfs specific mount options
+
+bg If mount fails, retry in background.
+fg (default)If mount fails, retry in foreground.
+soft Stop trying to mount after X attempts.
+hard (default)Continue trying to mount.
+
+The soft+bg options combined guarantee the fastest client boot if there are NFS problems.
+
+retrans=X Try X times to connect (over udp).
+tcp Force tcp (default and supported)
+udp Force udp (unsupported)
+
+73
+
+mounting
+
+7.7.

@@ -1,0 +1,10 @@
+We are 
+going to explain how to automatically provision both CentOS and Ubuntu hosts.
+
+Provisioning is usually a two-stage process.
+
+1.  Boot your host and send it the files required for installation.
+
+2.  Automate the installation steps.
+
+The process starts with a host booting up.

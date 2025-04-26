@@ -1,0 +1,31 @@
+(Refer to Chapter 4, “Moving around the Filesystem,” if you need to 
+be reminded about how permissions work.) The letters and numbers are shown in Table 11.1.
+
+TABLE 11.1    Commands to Create and Use Files
+
+Name
+
+Set user ID bit
+
+Set group ID bit
+
+Sticky bit
+
+Numeric value
+
+Letter value
+
+4
+
+2
+
+1
+
+u+s
+
+g+s
+
+o+t
+
+The bits you are interested in for creating collaborative directories are the set group ID bit 
+(2) and sticky bit (1).

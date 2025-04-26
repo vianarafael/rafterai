@@ -1,0 +1,6 @@
+The ecryptfs utility 
+is not a ﬁ lesystem type as the name would imply. Instead, it is a POSIX-compliant utility 
+that allows you to create an encryption layer on top of any ﬁ lesystem.
+
+The ecryptfs utility is not installed by default on Fedora and RHEL. To install that util-
+ity, you must use the command yum install ecryptfs-utils.

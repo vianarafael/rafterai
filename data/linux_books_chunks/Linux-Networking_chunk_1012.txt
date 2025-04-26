@@ -1,0 +1,22 @@
+other websites
+
+Other useful websites for testing ipv6 are:
+
+test-ipv6.com
+ipv6-test.com
+
+Going  to  the  ipv6-test.com  website  will  test  whether  you  have  a  valid  accessible  ipv6
+address.
+
+Going to the test-ipv6.com website will also test whether you have a valid accessible ipv6
+address.
+
+270
+
+Introduction to ipv6
+
+271
+
+Introduction to ipv6
+
+25.14.

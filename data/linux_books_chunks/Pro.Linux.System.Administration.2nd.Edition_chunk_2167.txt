@@ -1,0 +1,11 @@
+However, when you’re using a 1 TiB filesystem, this limit would equate to 50 GiB 
+of space that you could not use for storage of user data, so changing or removing it makes sense on data 
+storage volumes.
+
+You could have specified the -m 0 option for mkfs.ext4 to set this percentage of reserved blocks to 0 
+
+when creating the filesystem, or you can change this value later (more on this shortly).
+
+BLOCKS AND INODES
+
+When you create a filesystem, the available disk space is divided into units of a specific size.

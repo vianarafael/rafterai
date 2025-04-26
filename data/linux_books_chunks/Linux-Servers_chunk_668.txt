@@ -1,0 +1,6 @@
+/usr/bin/smbpasswd
+
+The sambanobody user account that we created in the previous examples is not yet used
+by samba. It just owns the files and directories that we created for our shares. The goal of
+this section is to force ownership of files created through the samba share to belong to our
+sambanobody user.

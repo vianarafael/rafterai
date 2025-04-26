@@ -1,0 +1,4 @@
+When specified with a 
+
+ ■ Note 
+value in the day of the month column, days are cumulative.

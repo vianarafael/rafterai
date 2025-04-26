@@ -1,0 +1,6 @@
+Instead, I want to tell you how emerging technologies are 
+expanding everything we have covered in this book to work efﬁ ciently in a cloud environ-
+ment. Then I give you a chance to conﬁ gure some basic cloud technologies to get a feel for 
+how it all works.
+
+Cloud hypervisors (a.k.a.

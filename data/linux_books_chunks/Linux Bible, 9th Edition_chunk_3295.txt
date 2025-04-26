@@ -1,0 +1,9 @@
+Firewalls are implemented using iptables rules and managed 
+with the iptables service or firewalld service (see Chapter 25, “Securing Linux on a 
+Network,” for details about ﬁ rewall services).
+
+18
+
+In Fedora and Red Hat Enterprise Linux, ﬁ rewall rules have traditionally been stored in 
+the /etc/sysconfig/iptables ﬁ le and the underlying service was iptables (RHEL) 
+or iptables.service (Fedora).

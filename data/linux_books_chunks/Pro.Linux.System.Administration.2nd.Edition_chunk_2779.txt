@@ -1,0 +1,4 @@
+Such forwards act as a single-port tunnel.
+You can do this each via command-line parameters, or you can define forwards for each host in your 
+.ssh/config file. For instance, you could create an SSH tunnel that forwards connections to port 8080 on 
+your local host to port 80 on a machine on the remote network.

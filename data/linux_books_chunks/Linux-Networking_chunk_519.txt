@@ -1,0 +1,12 @@
+For example the
+F root server consists of 46 physical machines that all behave as one (using anycast).
+
+http://root-servers.org
+http://f.root-servers.org
+http://en.wikipedia.org/wiki/Root_nameserver.
+
+120
+
+introduction to DNS
+
+10.2.3.

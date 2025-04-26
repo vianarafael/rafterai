@@ -1,0 +1,9 @@
+To make it active immediately, you 
+
+can remount the filesystem using the mount command.
+
+$ sudo mount -o remount,relatime /
+
+In addition to mount options, filesystems themselves provide some features that may improve 
+performance; these vary depending on what a particular file system is used for. The main one of these 
+is dir_index, and it applies to the ext2, ext3, and ext4 file systems.

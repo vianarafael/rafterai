@@ -1,0 +1,2 @@
+Fedora offers free software repositories if 
+you can connect to the Internet.

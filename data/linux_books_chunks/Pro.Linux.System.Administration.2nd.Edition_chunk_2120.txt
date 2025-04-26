@@ -1,0 +1,4 @@
+The kernel now reloads the partition 
+
+map and creates new device nodes for your partitions. You’ll see in the output from dmesg that the disk 
+detection routine has run and found your new partitions.

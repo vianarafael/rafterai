@@ -1,0 +1,5 @@
+Much 
+like your community book library, Linux libraries are where applications can go to find the stuff they need 
+without having to own it themselves. Because such libraries are often used by multiple applications, it 
+makes sense to distribute them in a package of their own, rather than include a copy of each library with 
+every application.

@@ -1,0 +1,15 @@
+Insert a blank CD or DVD into the CD/DVD drive, which may be a combination CD/
+
+DVD drive. (If a CD/DVD Creator window pops up, you can close it.)
+
+778
+
+ 
+ 
+ 
+bapp01.indd  04/02/2015  Page 779
+
+Appendix A: Media
+
+6.  Check the settings in the Burn CD Image window (often, the defaults are ﬁ ne, but 
+you may want to slow down the speed if you get some bad burns).

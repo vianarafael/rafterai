@@ -1,0 +1,9 @@
+Take a look at the following line:
+
+to dn.subtree="ou=people,dc=example,dc=com" attrs="userPassword"
+   by dn.exact="cn=admin,ou=meta,dc=example,dc=com" write
+   by * none
+
+In this example, we have declared we would like this to apply to everything under and including 
+ou=people,dc=example,dc=com and to any attribute called userPassword that might be found under 
+there.

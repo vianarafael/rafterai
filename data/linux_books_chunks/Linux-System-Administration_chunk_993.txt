@@ -1,0 +1,11 @@
+Notably Network Manager (often
+replaced  by  wicd)  and  yast  are  known  to  not  care  about  configuration  changes  via  the
+command line.
+
+Since the goal of this course is server administration, we will assume our Linux servers are
+always administered through the command line.
+
+This chapter only focuses on using the command line for network interface configuration!
+
+Unfortunately there is no single combination of Linux commands and /etc files that works on
+all Linux distributions.

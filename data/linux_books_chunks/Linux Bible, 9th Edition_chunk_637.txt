@@ -1,0 +1,2 @@
+If a command resides in several locations, you can add the -a option to 
+have all the known locations of the command printed.

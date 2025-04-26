@@ -1,0 +1,12 @@
+We provide where the proxy is listening and give it the location of the 
+directory where we will install our PHP code.
+
+You can read more on the directives available for mod_proxy, including the ProxyPassMatch directive, here:
+
+•	
+
+https://httpd.apache.org/docs/current/mod/mod_proxy.html
+
+File and Directory Permissions
+When you’re working with web sites, you need write access to the document root directories where sites 
+are installed.

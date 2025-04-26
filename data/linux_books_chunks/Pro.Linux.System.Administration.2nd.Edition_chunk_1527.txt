@@ -1,0 +1,11 @@
+The 10.204.2.10 host is in our ISP and is assigned to us by our 
+ISP when we make our PPP connection.
+
+On Host C we have this route configuration:
+
+$ sudo /sbin/ip route show
+192.168.1.0/24 dev enp0s8 proto kernel scope link src 192.168.0.220
+default via 192.168.1.254 dev enp0s8 scope link
+
+We know that Host A and Host C are on different networks, and by themselves they cannot reach 
+each other.

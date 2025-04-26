@@ -1,0 +1,7 @@
+In the next two chapters, I’m going to help you 
+extend that knowledge into cloud computing and virtualization.
+
+Exercises
+Refer to the material in this chapter to complete the tasks that follow. If you are stuck, 
+solutions to the tasks are shown in Appendix B (although in Linux, you can often complete 
+a task in multiple ways). Try each of the exercises before referring to the answers.

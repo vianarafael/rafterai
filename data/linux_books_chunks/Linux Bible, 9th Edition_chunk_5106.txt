@@ -1,0 +1,6 @@
+Ubuntu has a huge 
+fan base and many active contributors. If you have problems with Ubuntu, there are large, 
+active forums where many people are willing to help you overcome problems.
+
+If you already have an Ubuntu system installed, you can follow along with most of this 
+book.

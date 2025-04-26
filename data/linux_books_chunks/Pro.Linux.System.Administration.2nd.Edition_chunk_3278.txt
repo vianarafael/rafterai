@@ -1,0 +1,16 @@
+You saw the /etc/skel directory in Chapter 5 and 
+discovered that its contents are copied to the home directory of any newly created user.
+
+542
+
+To create a new Maildir directory on Ubuntu, there is a useful command called maildirmake.dovecot 
+
+that can automatically create the Maildir structure.
+
+$ sudo maildirmake.dovecot /etc/skel/Maildir
+
+The command will also create the tmp, new, and cur subdirectories.
+
+Chapter 12 ■ Mail ServiCeS
+
+ You can also create folders, for example, a Sent folder, in your Maildir structure.

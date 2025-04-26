@@ -1,0 +1,9 @@
+This PSK should be deployed to all servers and clients.
+
+openvpn --genkey --secret /etc/openvpn/ta.key
+
+Now we tell OpenVPN about our new certificates and the location of our CA certificate and our DH 
+
+parameter file (see Listing 15-4).
+
+Listing 15-4.

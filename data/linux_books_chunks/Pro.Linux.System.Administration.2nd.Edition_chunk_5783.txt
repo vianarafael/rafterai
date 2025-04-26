@@ -1,0 +1,8 @@
+With Jinja2 you have a great deal of power and can use python 
+methods on variables to add to or modify the values in your playbooks.
+
+to show how this works, let’s take this example. We have a file path like this:
+
+/etc/bareos/bareos-dir.conf
+
+often you will just want to see the file name without the path.

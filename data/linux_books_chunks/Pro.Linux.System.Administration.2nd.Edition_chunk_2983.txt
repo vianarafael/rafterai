@@ -1,0 +1,3 @@
+Note that we used backquotes, or backticks, to quote the database name. There is no explicit need to do 
+so in this case, but database, table, and column names can sometimes contain a reserved character such as a 
+hyphen.

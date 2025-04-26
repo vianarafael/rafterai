@@ -1,0 +1,10 @@
+Notice that the equal 
+sign immediately follows the option (no space) and then the argument (again, no space).
+
+Here’s an example of a single-letter option that is followed by an argument:
+
+$ tar -cvf backup.tar /home/chris
+
+In the tar example just shown, the options say to create (c) a ﬁ le (f) named backup.tar 
+that includes all the contents of the /home/chris directory and its subdirectories and 
+show verbose messages as the backup is created (v).

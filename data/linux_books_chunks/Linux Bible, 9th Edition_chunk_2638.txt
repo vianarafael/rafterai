@@ -1,0 +1,8 @@
+Some of the commands you run may interrupt 
+your network connectivity, and some of the conﬁ guration you do, if you make a mistake, 
+can result in your computer being temporarily unavailable from the network.
+
+There are often multiple ways to complete the tasks described in these exercises. If you are 
+stuck, refer to the task solutions that are shown in Appendix B.
+
+1.

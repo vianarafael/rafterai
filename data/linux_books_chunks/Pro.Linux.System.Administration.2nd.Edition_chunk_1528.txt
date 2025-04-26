@@ -1,0 +1,3 @@
+For us to make a simple connection, like a ping connection, from Host A to Host C, the TCP/IP 
+packets have to go through Host B. The ping command sends an ICMP echo request to the host specified 
+on the command line.

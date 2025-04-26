@@ -1,0 +1,12 @@
+the prompt will look somewhat odd, as the Bash startup scripts will not be run.
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+# chroot /mnt && /bin/bash
+bash-2 #
+
+now that we have a shell, we can run the command to reinstall the boot loader on the first disk.
+
+bash-2 # /usr/bin/grub-install /dev/sda
+
+When that is done, we log out from the chroot and unmount the filesystems in reverse order.

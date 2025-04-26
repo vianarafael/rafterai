@@ -1,0 +1,7 @@
+The Cobbler community also has a mailing list and other 
+support channels that you can see here: http://cobbler.github.io/community.html.
+
+Kickstart
+
+On CentOS, the language used to automatically install your host is called Kickstart. On Ubuntu, it is called 
+Preseed.

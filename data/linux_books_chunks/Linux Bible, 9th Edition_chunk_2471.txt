@@ -1,0 +1,7 @@
+The location of one or more DNS 
+servers (usually two or three) is usually assigned to the DHCP client from the 
+DHCP host.
+
+ ■ Default gateway—Although the Internet has one unique namespace, it is 
+
+ actually organized as a series of interconnected subnetworks.

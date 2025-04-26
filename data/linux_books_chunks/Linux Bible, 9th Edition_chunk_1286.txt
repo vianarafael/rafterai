@@ -1,0 +1,6 @@
+By entering the root password, you are given root 
+privilege for that task. 
+
+For Linux systems using the GNOME 2 desktop, after you enter the password, a yellow badge 
+icon appears in the top panel, indicating that root authorization is still available for other 
+GUI tools to run from that desktop session.

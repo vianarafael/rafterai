@@ -1,0 +1,10 @@
+To connect to the homes share from a Nautilus (ﬁ le manager) window on the 
+
+Samba server’ local system for the user phil in a way that allows you to drag and 
+drop ﬁ les to that folder, do the following:
+
+a. Open the Nautilus window (select the ﬁ les icon).
+
+b. Under the Network heading in the left pane, select Connect to Server.
+
+c. Type the Server address.

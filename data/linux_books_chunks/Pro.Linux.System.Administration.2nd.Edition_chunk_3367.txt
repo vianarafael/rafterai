@@ -1,0 +1,3 @@
+The smtpd_sasl_path option specifies the location of the authentication socket 
+relative to Postfix’s spool directory, usually the /var/spool/postfix directory. This matches the Dovecot 
+client socket we defined earlier in Listing 12-9.

@@ -1,0 +1,12 @@
+identity
+
+The SELinux Identity of a user is distinct from the user ID. An identity is part of a security
+context, and (via domains) determines what you can do. The screenshot shows user root
+having identity user_u.
+
+[root@rhel55 ~]# id -Z
+user_u:system_r:unconfined_t
+
+12.14. role
+
+The selinux role defines the domains that can be used.

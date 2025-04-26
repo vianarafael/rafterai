@@ -1,0 +1,10 @@
+Once done, we can tell the client to use this 
+key for connections to the bastion host.
+
+Host gateway
+    Hostname au-mel-centos-1
+    Port 2022
+    User ataylor
+    IdentityFile ~/.ssh/gateway-ataylor
+
+The final options we’ll cover are designed to make your life easier when working on remote hosts.

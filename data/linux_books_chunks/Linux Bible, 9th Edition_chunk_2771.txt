@@ -1,0 +1,3 @@
+The vpnc-
+cleanup service is an Upstart service. Thus, it needed the initctl status command to 
+be used.

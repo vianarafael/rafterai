@@ -1,0 +1,4 @@
+/var/log/messages
+
+The kernel reports during boot to syslog which writes a lot of kernel actions in /var/log/
+messages.

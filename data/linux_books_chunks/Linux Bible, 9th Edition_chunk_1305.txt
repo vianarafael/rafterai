@@ -1,0 +1,6 @@
+Also, if a feature is broken or if you need to do 
+something that’s not supported by the GUI, when you ask for help, Linux experts almost always tell you how to run 
+commands or change the confi guration fi le directly.
+
+Administrative commands
+Only the root user is intended to use many administrative commands.

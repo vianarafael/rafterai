@@ -1,0 +1,13 @@
+Create definitions for the services you want to monitor on your hosts.
+
+3.  Create commands to monitor your services.
+
+4.  Tell Nagios when you want them monitored.
+
+5.  Tell Nagios who should be told if a check fails.
+
+6.  Tell Nagios how people should be informed if a check fails—e-mail, IM, SMS, 
+
+pager, chatbot, and so on.
+
+Nagios configuration is made up of objects.

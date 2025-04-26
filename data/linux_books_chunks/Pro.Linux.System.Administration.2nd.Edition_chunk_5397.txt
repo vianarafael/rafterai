@@ -1,0 +1,6 @@
+In this case, we’re running another, 
+
+locally installed, Nagios plug-in called check_load and passing two arguments to it as the values of the -w 
+and -c (WARNING and CRITICAL) thresholds.
+
+ the check_by_ssh command can do a whole lot more.

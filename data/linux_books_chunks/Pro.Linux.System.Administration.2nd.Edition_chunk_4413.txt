@@ -1,0 +1,27 @@
+DHCP Options
+
+Option
+
+DOMAIN name
+
+DNS address
+
+WINS address
+
+NBDD address
+
+NTP address
+
+DISABLE-NBT
+
+Description
+
+Sets the client’s DNS suffix.
+
+Sets the DNS server address. Repeat to set secondary DNS servers.
+
+Sets the WINS server address. Repeat to set secondary WINS servers.
+
+Sets the NBDD server address. Repeat to set secondary NBDD servers.
+
+Sets the NTP server address.

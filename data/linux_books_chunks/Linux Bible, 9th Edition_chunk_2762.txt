@@ -1,0 +1,9 @@
+Other services, such as 
+the cups daemon, are started on runlevels 2 through 5.
+
+Using the chkconfig command, you cannot tell if a service is currently running. To do 
+that, you need to use the service command. To help isolate only those services that 
+are currently running, the service command is piped into the grep command and then 
+sorted, as follows.
+
+# service --status-all | grep running...

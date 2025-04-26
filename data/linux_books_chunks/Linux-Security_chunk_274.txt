@@ -1,0 +1,12 @@
+The
+second triplet corresponds to the group owner; it specifies permissions for all members
+of that group. The third triplet defines permissions for all other users that are not the user
+owner and are not a member of the group owner.
+
+50
+
+standard file permissions
+
+6.3.4. setting permissions (chmod)
+
+Permissions can be changed with chmod.

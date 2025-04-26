@@ -1,0 +1,3 @@
+Next is a control statement that tells slapd to stop processing any other directives. 
+Order is important in your access control list, with directives of a higher order being processed before those of a 
+lower order. When you give a privilege or access level, it implies all the previous ones.

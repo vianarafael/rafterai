@@ -1,0 +1,17 @@
+Let’s look at this file on the 
+gateway host.
+
+gateway$ less /var/log/openvpn-status.log
+OpenVPN CLIENT LIST
+Updated,Sun Oct 23 06:44:43 2016
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+branch1.example.com,10.0.2.156:1194,16384,16774,Sun Oct 23 06:24:30 2016
+ROUTING TABLE
+Virtual Address,Common Name,Real Address,Last Ref
+10.8.0.6,branch1.example.com,10.0.2.156:1194,Sun Oct 23 06:33:01 2016
+GLOBAL STATS
+Max bcast/mcast queue length,0
+END
+
+You can see a connection listed from the branch1 host with an IP address of 10.0.2.156.
+Lastly, you can use network tools to test your actual connection.

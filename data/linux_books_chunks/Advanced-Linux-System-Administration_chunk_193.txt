@@ -1,0 +1,16 @@
+Start the raid meta device:
+
+mkraid /dev/md1
+
+raidstart /dev/md1
+
+4. Add this device to the Volume Group volumeA
+
+Before adding the device to the volume group run pvscan to see which physical volumes 
+are available. Notice that  /dev/md1 is not listed.
+
+We now prepare /dev/md1 as a PV (physical volume):
+
+pvcreate /dev/md1
+
+When running pvscan again the output should look like the following.

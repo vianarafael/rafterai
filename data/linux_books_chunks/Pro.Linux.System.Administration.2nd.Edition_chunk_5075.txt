@@ -1,0 +1,7 @@
+In the next section we will further 
+
+explore how to get the journal logs into rsyslog as an alternative.
+
+rsyslogd
+Applications output data to the rsyslog daemon with log entries in a special format that the daemon can 
+parse.

@@ -1,0 +1,8 @@
+You can try the commands I demonstrate on that drive.
+
+Creating a single-partition disk
+To add a new storage medium (hard disk, USB ﬂ ash drive, or similar device) to your 
+ computer so that it can be used by Linux, you need to ﬁ rst connect the disk device to 
+your computer and then partition the disk. Here’s the general procedure:
+
+1.

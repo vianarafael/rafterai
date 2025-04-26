@@ -1,0 +1,24 @@
+The script might also change
+the PS1 variable, set the HOSTNAME and execute even more scripts like /etc/inputrc
+
+This screenshot uses grep to show PATH manipulation in /etc/profile on Debian.
+
+root@debian7:~# grep PATH /etc/profile
+  PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+export PATH
+root@debian7:~#
+
+This screenshot uses grep to show PATH manipulation in /etc/profile on RHEL7/CentOS7.
+
+[root@centos7 ~]# grep PATH /etc/profile
+    case ":${PATH}:" in
+                PATH=$PATH:$1
+                PATH=$1:$PATH
+export PATH USER LOGNAME MAIL HOSTNAME HISTSIZE HISTCONTROL
+[root@centos7 ~]#
+
+The root user can use this script to set aliases, functions, and variables for every user on
+the system.
+
+4.2.

@@ -1,0 +1,3 @@
+The host_name attribute specifies what host the service runs on, in our case localhost. The service_
+description describes the service. Lastly, the check_command attribute specifies the command that the 
+service uses to check the status of whatever is being monitored.

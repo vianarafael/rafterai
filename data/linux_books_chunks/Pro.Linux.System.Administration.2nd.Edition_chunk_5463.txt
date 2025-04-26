@@ -1,0 +1,4 @@
+This 
+means that by the time you first get access to your console, it has the right disk layout, it has the right 
+operating system, it has the right network configuration, it has the right users and packages, it has the right 
+configuration for services, and those services have been started.

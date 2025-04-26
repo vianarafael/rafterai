@@ -1,0 +1,9 @@
+So, you could write it like this:
+
+ notify { "profile::webserver – loaded":
+    name      => 'a name',
+    message => 'this is our message'
+}
+
+Feel free to experiment. You will find all the resources and their attributes at the following link: 
+https://docs.puppet.com/puppet/latest/type.html.

@@ -1,0 +1,8 @@
+(or between your client and your server)
+
+9.Verify that the permissions on the server key files are correct; world readable for the public
+keys and only root access for the private keys.
+
+10. Verify that the ssh-agent is running.
+
+11.

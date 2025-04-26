@@ -1,0 +1,20 @@
+Instead, it uses a deterministic hashing technique to discover the file 
+location (see DHT; http://gluster.readthedocs.io/en/latest/Quick-Start-
+Guide/Architecture/).
+
+•	 GlusterFS exports a fully POSIX-compliant filesystem, which basically means you 
+
+can mount, read, and write to GlusterFS from Unix and Unix-like operating systems 
+(such as Linux).
+
+•	 GlusterFS is a user space filesystem, meaning it doesn’t run in the Linux kernel but 
+
+makes use of the FUSE module.
+
+•	
+
+•	
+
+•	
+
+A trusted pool is a network of servers operating in the GlusterFS cluster.

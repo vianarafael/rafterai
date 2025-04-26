@@ -1,0 +1,11 @@
+Right-click the image, and select Set as Desktop Background.
+
+d. From the pop-up that appears, select the position and color of the background 
+
+image.
+
+e. Select the Set Desktop Background button. The image is used as your desktop 
+background, and the image is copied to the ﬁ le Firefox_wallpaper.png in 
+your home directory.
+
+4.

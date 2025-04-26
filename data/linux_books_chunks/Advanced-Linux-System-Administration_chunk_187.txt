@@ -1,0 +1,7 @@
+Create a logical volume called lv0 of size 150MB on this volume group
+
+lvcreate -L 150M -n lv0 volumeA
+
+This will create the block device /dev/volume1/lv0
+
+6.

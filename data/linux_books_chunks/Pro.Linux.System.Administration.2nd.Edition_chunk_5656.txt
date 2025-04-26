@@ -1,0 +1,8 @@
+We do this using the puppet cert command.
+
+puppet$ sudo /opt/puppetlabs/puppet/bin/puppet cert list
+  "web1.example.com" (SHA256) 3E:D9:02:08:98:79:FB:8C:40:65:75:4E:15:7C:51:89:4C:14:25:90:16
+:2A:DB:29:D6:3C:F4:82:64:7E:C8:62
+
+The --list option displays all the certificates waiting to be signed. We can then sign our certificate 
+using the sign option.

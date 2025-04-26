@@ -1,0 +1,6 @@
+Postfix doesn’t have SASL built in. It relies on integration with other applications to provide 
+SASL capabilities. We’re going to use the Dovecot server to provide these SASL capabilities to Postfix.
+
+If you’ve been following along with the example so far, you should have already installed Dovecot when 
+
+we showed you how to install Postfix earlier in this chapter.

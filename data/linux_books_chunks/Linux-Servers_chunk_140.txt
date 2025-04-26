@@ -1,0 +1,10 @@
+403 Forbidden
+2014-05-06 15:10:22 ERROR 403: Forbidden.
+
+Instead when visiting the ip-address of your server in a web browser you get a noindex.html
+page. You can verify this using wget.
+
+[root@centos65 ~]# wget http://127.0.0.1/error/noindex.html
+--2014-05-06 15:16:05--  http://127.0.0.1/error/noindex.html
+Connecting to 127.0.0.1:80... connected.
+HTTP request sent, awaiting response...

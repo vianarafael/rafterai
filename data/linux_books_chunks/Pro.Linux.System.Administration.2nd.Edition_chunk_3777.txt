@@ -1,0 +1,11 @@
+It is called NFS-Ganesha and can be found here:
+
+•	
+
+https://github.com/nfs-ganesha/nfs-ganesha/wiki
+
+FUSE is short for Filesystem in UserSpacE, which means that the NFS server doesn’t execute in the 
+kernel but uses kernel modules to access necessary resources and executes in user space (see https://
+en.wikipedia.org/wiki/Filesystem_in_Userspace).
+
+NFS servers are not designed to be highly available without substantial modification.

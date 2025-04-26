@@ -1,0 +1,8 @@
+This attribute is also called “security type.” Most policy rules 
+are concerned with the security type of a process and what ﬁ les, ports, devices, 
+and other elements of the system that process has access to (based on their secu-
+rity types). The SELinux type name ends with a t.
+
+ ■ level—The level is an attribute of Multi-Level Security (MLS) and enforces the 
+
+Bell-LaPadula model.

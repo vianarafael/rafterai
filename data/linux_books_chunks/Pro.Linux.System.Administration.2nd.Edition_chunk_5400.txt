@@ -1,0 +1,27 @@
+linux-servers-base.cfg
+
+define host{
+        name            basic-ssh-checks
+        use               linux-server
+        hostgroups   linux-group
+        register        0
+        }
+
+define host{
+        host_name       gateway
+        alias                 gateway.example.com
+        use                  basic-ssh-checks
+        }
+
+define service{
+         use                              local-service
+         hostgroup_name         linux-group
+         service_description     Current Load
+         check_command         check_load_ssh!5.0,4.0,3.0!10.0,6.0,4.0
+        }
+
+define hostgroup{
+        hostgroup_name  linux-group
+        }
+
+In Listing 18-21 we have defined one host template, one host, one service, and one hostgroup.

@@ -1,0 +1,10 @@
+master boot record
+
+The master boot record or mbr is the first sector of a hard disk. The partitioning of a disk
+in primary partitions, and the active partition are defined in the mbr.
+
+The mbr is 512 bytes long and can be copied with dd.
+
+dd if=/dev/sda of=bootsect.mbr count=1 bs=512
+
+14.1.7.

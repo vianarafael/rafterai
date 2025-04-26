@@ -1,0 +1,3 @@
+In the following, the lvs 
+command shows all the logical volumes current on the system and their underlying device 
+names.

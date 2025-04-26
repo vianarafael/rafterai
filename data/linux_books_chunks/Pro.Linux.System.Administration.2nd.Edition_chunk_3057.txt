@@ -1,0 +1,9 @@
+You don’t need to worry about these, 
+
+and you can type Enter to skip the fields.
+
+This process will leave you with two files: www.example.com.key and www.example.com.csr. We will 
+
+keep these two files, as we’ll need them later in this process.
+
+The next step in the process is signing the CSR with a CA.

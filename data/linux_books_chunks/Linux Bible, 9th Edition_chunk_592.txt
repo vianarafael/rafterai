@@ -1,0 +1,4 @@
+The man pages (described later in the “Getting 
+Information about Commands” section) provide documentation for commands, ﬁ le formats, 
+and other components in Linux. Most people use bash just because they don’t have a particu-
+lar reason for using a different shell.

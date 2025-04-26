@@ -1,0 +1,6 @@
+2 vagrant vagrant 4096 Jul 24 09:46 SRPMS
+
+When building a RPM package we require at least the SPECS and SOURCES in the directories above. 
+BUILD is where we build our packages. RPMS is where our packages will be placed after the build. SOURCES 
+is where we place the source files for building. SPECS is where our spec file will be placed. SRPMS is where 
+our RPM source files will be.

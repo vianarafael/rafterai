@@ -1,0 +1,2 @@
+Recursively change permissions of the $HOME/projects/  directory so nobody has 
+write permission to any ﬁ les or directory beneath that point in the ﬁ lesystem.

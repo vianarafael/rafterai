@@ -1,0 +1,5 @@
+You can find them in /var/named/named.ca on CentOS and /etc/bind/db.root on Ubuntu. You can also 
+use dig to obtain a current list of root servers, by querying a root server for all records of type NS in the “.” 
+zone.
+
+$ dig @a.root-servers.net .

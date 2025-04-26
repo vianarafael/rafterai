@@ -1,0 +1,3 @@
+dmesg
+
+Kernel  boot  messages  can  be  seen  after  boot  with  dmesg.

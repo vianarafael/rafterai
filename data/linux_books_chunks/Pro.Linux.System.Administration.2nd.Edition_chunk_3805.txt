@@ -1,0 +1,14 @@
+We are going to choose 
+our Ubuntu server, but any would do. We are going to do the following from this one server:
+
+•	
+
+Add peers to our cluster
+
+•	 Create a volume directory on our brick
+
+•	 Create a volume
+
+We have named our hosts au-mel-dfs-1 to au-mel-dfs-3 and have added them to our DNS zone. The 
+
+Ubuntu host has been assigned au-mel-dfs-3.

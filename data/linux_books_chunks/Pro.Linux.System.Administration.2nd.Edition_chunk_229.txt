@@ -1,0 +1,8 @@
+Selecting keyboard layout
+
+The Ubuntu installation now takes a break to explore your hardware and discover more information 
+about the target host. After this process is completed, you will be prompted for the hostname of your new 
+host. As shown in Figure 2-48, we entered au-mel-ubuntu-1 here as it ties in with the naming standard 
+discussed in the CentOS installation section.
+
+Figure 2-48.

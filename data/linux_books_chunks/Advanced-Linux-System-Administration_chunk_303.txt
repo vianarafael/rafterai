@@ -1,0 +1,45 @@
+This objective includes using mkraid tools and configuring RAID 0, 1, and 5.
+
+Key files, terms, and utilities include:
+/etc/raidtab 
+mkraid
+
+• 2.204.2 Adding new hardware
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: Candidates should be able to configure internal and external devices for 
+a system including new hard disks, dumb terminal devices, serial UPS devices, multi-
+port serial cards, and LCD panels.
+
+Key files, terms, and utilities include:
+/proc/bus/usb 
+XFree86 
+modprobe 
+lsmod 
+lsdev 
+lspci 
+setserial 
+
+88
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+usbview 
+
+• 2.204.3 Software and kernel configuration
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to configure kernel options to support various 
+hardware devices including UDMA66 drives and IDE CD burners.

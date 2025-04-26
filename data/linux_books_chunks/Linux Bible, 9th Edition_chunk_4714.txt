@@ -1,0 +1,2 @@
+First, the IP address for Host-A is determined using the ifconfig 
+ command.

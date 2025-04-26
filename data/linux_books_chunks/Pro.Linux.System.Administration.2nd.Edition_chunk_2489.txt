@@ -1,0 +1,5 @@
+The registrar then ensures that your DNS servers are added in the correct TLD zone, so third parties can use 
+your DNS servers to look up hostnames on your domain. This is called the delegation path.
+
+You can obtain a listing of DNS servers for a given domain by querying the registrar’s database directly. 
+The tool used for this, whois, is handy for making sure DNS delegations are correct.

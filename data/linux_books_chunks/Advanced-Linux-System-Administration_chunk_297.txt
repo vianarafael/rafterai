@@ -1,0 +1,30 @@
+This objective includes using both 
+the init utility and init= kernel options.
+
+Key files, terms, and utilities include:
+inittab 
+LILO
+init
+mount 
+fsck
+
+Topic 203: Filesystem
+
+• 2.203.1 Operating the Linux filesystem
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+
+86
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Weight: 3 
+
+Description: Candidates should be able to properly configure and navigate the 
+standard Linux filesystem.

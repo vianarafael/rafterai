@@ -1,0 +1,4 @@
+Answer y for yes to both questions.
+
+At the end of the process, you will have a signed certificate, a private key, and a certificate request all 
+located in the /root directory.

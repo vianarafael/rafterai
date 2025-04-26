@@ -1,0 +1,4 @@
+Where ip version 4 supports a maximum
+of  four  billion  unique  addresses,  ip  version  6  expands  this  to  four  billion  times  four
+billion  times  four  billion  times  four  billion  unique  addresses.  This  is  more  than
+100.000.000.000.000.000.000 ipv6 addresses per square cm on our planet.

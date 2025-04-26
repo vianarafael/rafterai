@@ -1,0 +1,5 @@
+verifying existing logical volumes
+
+11.10.1. lvs
+
+Use  lvs  for  a  quick  look  at  all  existing  logical  volumes.

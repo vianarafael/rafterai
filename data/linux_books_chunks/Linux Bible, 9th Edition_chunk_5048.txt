@@ -1,0 +1,8 @@
+On the Subnet Detail tab, type a comma-separated range of IP 
+addresses in the Allocation Pool box. For my example, I chose 
+192.168.100.10,192.168.100.50 to hand out a range of IP addresses 
+to clients from 192.168.100.10 to 192.168.100.50. Get a name server sug-
+gestion from the administrator of your OpenStack cloud or use a public 
+DNS server (such as Google’s 8.8.8.8 or 8.8.4.4).
+
+ e.

@@ -1,0 +1,3 @@
+Shells are interfaces 
+to the operating system and kernel of your host. For example, the command line on a Windows host is also a 
+shell.

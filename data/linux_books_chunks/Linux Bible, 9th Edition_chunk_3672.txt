@@ -1,0 +1,7 @@
+This may not be possible if you are sharing home directories (/home) or mail 
+directories (/var/spool/mail). For example, you might mount a fi lesystem from a machine called duck on the 
+directory /mnt/duck.
+
+Using mount options
+You can add several mount options to the /etc/fstab ﬁ le (or to a mount command line 
+itself) to inﬂ uence how the ﬁ lesystem is mounted.

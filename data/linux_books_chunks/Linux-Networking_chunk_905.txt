@@ -1,0 +1,20 @@
+To allow only specific hosts to access a
+share, list the hosts, separated by comma's.
+
+238
+
+samba securing shares
+
+allow hosts = 192.168.1.5, 192.168.1.40
+
+Allowing entire subnets is done by ending the range with a dot.
+
+allow hosts = 192.168.1.
+
+Subnet masks can be added in the classical way.
+
+allow hosts = 10.0.0.0/255.0.0.0
+
+You can also allow an entire subnet with exceptions.
+
+hosts allow = 10.

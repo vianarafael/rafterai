@@ -1,0 +1,4 @@
+The definitions must be one per line.
+
+You can also see in Figure 14-9 that in the Storage file, the Name and Media Type entries must match the 
+Device Type and Media Type entries in the Device object definition in the Director file.

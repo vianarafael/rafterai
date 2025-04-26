@@ -1,0 +1,5 @@
+You can use the # symbol at the start of each line of an entry to comment 
+out that entry in your LDIF file in such cases. LDIF files can be used by the LDAP tools by using the –f 
+filename option that we will detail in the following sections.
+
+The other way to manage entries is to use one of the many GUI tools that are available.

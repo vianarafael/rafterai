@@ -1,0 +1,18 @@
+The -l option of chage will list these settings for
+a user.
+
+root@rhel65:~# chage -l paul
+Last password change                                    : Mar 27, 2014
+Password expires                                        : never
+Password inactive                                       : never
+Account expires                                         : never
+Minimum number of days between password change          : 0
+Maximum number of days between password change          : 99999
+Number of days of warning before password expires       : 7
+root@rhel65:~#
+
+24
+
+user passwords
+
+3.8.

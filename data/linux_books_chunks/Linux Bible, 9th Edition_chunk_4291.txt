@@ -1,0 +1,3 @@
+Thus, data that has 
+been encrypted with the  public key can only be decrypted with its private key. The 
+ advantage of asymmetric cryptography is heightened security.

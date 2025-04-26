@@ -1,0 +1,3 @@
+These tasks 
+can be repeated many times in the life cycle of one host in order to add new configurations or remedy a 
+configuration that has changed through error, entropy, or development.

@@ -1,0 +1,7 @@
+On occasion, the errors that caused this also show 
+up in the error log. When using suexec or suPHP, this error may also be caused 
+by a ﬁ le ownership or permissions error. These errors appear in log ﬁ les in the 
+/var/log/httpd directory.
+
+ ■ SELinux errors—If ﬁ le permissions are open, but messages denying permission appear 
+in log ﬁ les, SELinux could be causing the problem.

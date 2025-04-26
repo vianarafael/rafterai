@@ -1,0 +1,14 @@
+Below the same config on Debian
+6, as good as identical.
+
+root@debian6:~# cat /etc/samba/smb.conf
+[global]
+workgroup = LINUXTR
+netbios name = DEBIAN6
+security = share
+[roshare1]
+path = /srv/samba/readonly
+read only = yes
+guest ok = yes
+
+11.3.

@@ -1,0 +1,11 @@
+The browser now 
+knows which IP address to use when looking for www.google.com.
+
+430
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+The host Command
+
+You can also query DNS servers manually. The DNS-related tools are provided by the bind-utils package 
+on CentOS and the dnsutils package on Ubuntu, so install them.

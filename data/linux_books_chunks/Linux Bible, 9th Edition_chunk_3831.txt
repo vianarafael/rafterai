@@ -1,0 +1,6 @@
+Only those processes that are needed to boot the  computer 
+
+(including mounting all ﬁ lesystems) and have the system available from the 
+console are run. Networking and network services are not started. This  runlevel 
+bypasses normal authentication and boots up to a root user prompt (called 
+sulogin).

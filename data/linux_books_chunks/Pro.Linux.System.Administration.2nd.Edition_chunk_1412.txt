@@ -1,0 +1,5 @@
+If you are using an older 
+Ubuntu you can add “bonding” to the /etc/modules file which will load the modules listed there on boot.
+
+We have added two new network cards to our Ubuntu host and they appear as devices enp0s3 and 
+enp0s8. We need to configure these devices for bonding.

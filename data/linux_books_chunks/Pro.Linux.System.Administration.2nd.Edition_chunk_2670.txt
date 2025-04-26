@@ -1,0 +1,22 @@
+A few of these utilities are available as packages in Ubuntu, such as ddclient:
+
+https://help.ubuntu.com/community/DynamicDNS
+
+ddclient: http://sourceforge.net/projects/ddclient/ and http://dag.wieers.
+com/rpm/packages/ddclient/
+
+noip (source): www.noip.com/download?page=linux
+
+•	
+
+•	
+
+•	
+
+454
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+For CentOS, you will need to download the tarball for one of these tools and install it by hand, or find an 
+
+RPM package created by a third party.

@@ -1,0 +1,23 @@
+1 vagrant vagrant  225 Mar  9 06:04 .bash_profile
+
+You can make an alias permanent by adding it to the .bash_profile configuration file in your home 
+
+directory.
+
+To get a listing of all aliases defined in your shell, run the alias command without any parameters.
+
+$ alias
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l.='ls -d .* --color=auto'
+alias ll='ls -lah'
+alias ls='ls --color=auto'
+
+Here you can see our defined listing alias, other listing aliases, and several aliases that we have available 
+
+to us from the /etc/profile.d/colorgrep.csh file.
+
+You should not define an alias with the same name as an existing command, unless you’re setting 
+
+default options.

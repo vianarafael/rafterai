@@ -1,0 +1,5 @@
+The operating system controls ownership of and access to 
+the ﬁ les and directories (folders) that the ﬁ lesystems contain.
+
+ ■ Providing user access and authentication—Creating user accounts and allowing 
+boundaries to be set between users is a basic feature of Linux.

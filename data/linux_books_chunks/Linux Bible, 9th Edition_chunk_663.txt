@@ -1,0 +1,8 @@
+After possibilities are 
+displayed, the original command line returns, ready for you to complete it as you choose. 
+For example, if you typed another P and pressed Tab again, the command line would be 
+completed with $PPID (the only unique possibility).
+
+Command-line recall
+After you type a command line, the entire command line is saved in your shell’s 
+history list.

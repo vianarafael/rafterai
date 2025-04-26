@@ -1,0 +1,17 @@
+To help you remem-
+ber the terms, think of them this way:
+
+22
+
+repudiation—The user can deny actions or refuse accountability.
+
+nonrepudiation—The user cannot deny actions or refuse accountability.
+
+593
+
+c22.indd  04/15/2015  Page 594
+
+Part V: Learning Linux Security Techniques
+
+Limit access to the root user account
+If multiple people can log in to the root account, you have another repudiation situation.

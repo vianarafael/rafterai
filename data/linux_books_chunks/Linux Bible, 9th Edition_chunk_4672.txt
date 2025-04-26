@@ -1,0 +1,9 @@
+(This is something you might do to make content 
+available to be shared by your web server outside the common /var/www/html 
+directory.)
+
+6.  List the security context for the running crond process, and identify its security 
+
+context attributes.
+
+7.

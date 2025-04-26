@@ -1,0 +1,16 @@
+samba domain member
+
+187
+
+samba domain member
+
+16.1. changes in smb.conf
+
+16.1.1. workgroup
+
+The workgroup option in the global section should match the netbios name of the Active
+Directory domain.
+
+workgroup = STARGATE
+
+16.1.2.

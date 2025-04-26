@@ -1,0 +1,23 @@
+On CentOS, 
+
+inside our /etc/httpd/conf.d/nagios.conf file, we find the following:
+
+AuthName "Nagios Access"
+AuthType Basic
+AuthUserFile /etc/nagios/passwd
+<IfModule mod_authz_core.c>
+      # Apache 2.4
+     <RequireAll>
+        Require all granted
+        Require valid-user
+    </RequireAll>
+</IfModule>
+
+On Ubuntu, in the /etc/apache2/conf-available/nagios.conf file, we have this:
+
+AuthName "Nagios Access"
+AuthType Basic
+AuthUserFile /etc/nagios/htpasswd.users
+Require valid-user
+
+The AuthName and AuthType directives enable basic authentication.

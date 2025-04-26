@@ -1,0 +1,9 @@
+This tool enables you to add and delete printers and edit printer properties. 
+It also enables you to send test pages to those printers to make sure they are 
+working properly.
+
+16
+
+The key here is that you are conﬁ guring printers that are managed by your print daemon 
+(cupsd for the CUPS service). After a printer is conﬁ gured, users on your local system can 
+use it.

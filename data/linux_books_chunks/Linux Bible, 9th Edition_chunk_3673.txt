@@ -1,0 +1,7 @@
+When you add options to /etc/fstab, 
+they must be separated by commas. For example, here, the noauto, ro, and hard options 
+are used when oak:/apps is mounted:
+
+oak:/apps    /oak/apps  nfs   noauto,ro,hard    0 0
+
+The following are some options that are valuable for mounting NFS ﬁ lesystems.

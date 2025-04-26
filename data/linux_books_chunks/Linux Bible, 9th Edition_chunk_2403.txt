@@ -1,0 +1,6 @@
+Type the number of the message you want to view and page through it with the spacebar or 
+line by line by pressing Enter. Type x to exit when you are ﬁ nished.
+
+The kind of information you see includes kernel errors, installed packages, authentication 
+failures, and malfunctioning services. Disk space usage is reported, so you can see if your 
+storage is ﬁ lling up.

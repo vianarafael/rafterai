@@ -1,0 +1,6 @@
+(See Chapter 25, “Securing Linux on a Network,” 
+for information on working with Linux ﬁ rewall rules using the iptables facility.)
+
+Confi guring Linux as a DHCP server
+Not only can a Linux system use a DHCP server to get its IP address and other information, it 
+can also be conﬁ gured to act as a DHCP server itself.

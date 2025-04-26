@@ -1,0 +1,6 @@
+Now, the new 
+service, My_New_Service, is activated (started) when the multi-user.target unit 
+is activated.
+
+If you want to change the systemd target unit for a service, you need to change the symbol link to point to a new 
+target Wants directory location.

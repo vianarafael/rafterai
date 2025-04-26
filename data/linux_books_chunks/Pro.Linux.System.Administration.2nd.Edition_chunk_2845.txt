@@ -1,0 +1,6 @@
+However, Ubuntu and Debian 
+differ in how they manage their virtual hosts, or site configurations. Most obviously you see that there are 
+several environment variables declared in the configuration. The values that these resolve to can be found in 
+the /etc/apache2/envvars file.
+
+Also of note is the AccessFileName directive.

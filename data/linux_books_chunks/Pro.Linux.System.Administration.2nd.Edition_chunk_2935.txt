@@ -1,0 +1,8 @@
+When and if we want other hosts to access our database, we will need to 
+change this to listen on an appropriate interface. Our new configuration file will look like Listing 11-3.
+
+489
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Listing 11-3.

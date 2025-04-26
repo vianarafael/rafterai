@@ -1,0 +1,3 @@
+If you add no username or password, an anonymous connection is made and the 
+contents of the home directory of the site are displayed. Click links to directories to change to 
+those directories.

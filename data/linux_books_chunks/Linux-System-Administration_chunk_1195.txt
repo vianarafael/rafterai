@@ -1,0 +1,21 @@
+Consider using PASV.
+150 Here comes the directory listing.
+drwxrwsr-x    2 536      536          4096 Mar 20  2003 v1.0
+drwxrwsr-x    2 536      536         20480 Mar 20  2003 v1.1
+drwxrwsr-x    2 536      536          8192 Mar 20  2003 v1.2
+drwxrwsr-x    2 536      536         40960 Mar 20  2003 v1.3
+drwxrwsr-x    3 536      536         16384 Feb 08  2004 v2.0
+drwxrwsr-x    2 536      536         53248 Mar 20  2003 v2.1
+drwxrwsr-x    3 536      536         12288 Mar 24  2004 v2.2
+drwxrwsr-x    2 536      536         24576 Mar 20  2003 v2.3
+drwxrwsr-x    5 536      536         28672 Dec 02 08:14 v2.4
+drwxrwsr-x    4 536      536         32768 Jul 14  2003 v2.5
+drwxrwsr-x    7 536      536        110592 Dec 05 22:36 v2.6
+226 Directory send OK.
+ftp>
+
+329
+
+the Linux kernel
+
+28.2.2.

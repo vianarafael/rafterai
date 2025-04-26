@@ -1,0 +1,4 @@
+Built into Satellite Server are the same features you have from Red 
+Hat Network to manage and deploy new systems and updates. Without logging in 
+directly, RHEL systems can be conﬁ gured to get software updates at times set from 
+the satellite server.

@@ -1,0 +1,4 @@
+creating a swap partition
+
+You can activate or deactivate swap space with the swapon and swapoff commands. New
+swap space can be created with the mkswap command.

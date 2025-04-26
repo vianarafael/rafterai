@@ -1,0 +1,5 @@
+When you 
+download a software ﬁ le, you can make sure the ﬁ le was not corrupted on download.
+
+Figure 23.1 shows the website for downloading the Linux Mint distribution software (stored 
+as a ﬁ le in the form that is referred to as an ISO image).

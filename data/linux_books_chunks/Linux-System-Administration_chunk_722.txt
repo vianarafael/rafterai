@@ -1,0 +1,9 @@
+generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+16 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+[root@rhel7 ~]#
+
+Targets are the replacement of runlevels and define specific points to reach when booting
+the system.

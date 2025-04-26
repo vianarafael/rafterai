@@ -1,0 +1,6 @@
+We will also show you how to use iptables tools 
+like Firewalld and ufw. Finally, we will also show you how you can use TCP Wrappers to secure daemons 
+running on your host and then set up a PPPOE (Point-to-Point Protocol over Ethernet) connection to an ISP 
+(Internet Service Provider) with Linux.
+
+Throughout this chapter, we will be using networking terminology.

@@ -1,0 +1,9 @@
+But if you do decide to delete 
+a user, you can run the command find / -user UID –o –group GID to find all the files associated with the 
+user you have just deleted.
+
+To delete a group, use the groupdel command and specify the name of the group to be deleted.
+
+$ sudo groupdel finance
+
+This command will remove the group from the host.

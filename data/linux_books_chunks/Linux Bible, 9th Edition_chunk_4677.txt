@@ -1,0 +1,7 @@
+(services)
+lftp chris@localhost:~> quit
+
+   Your assignment is to list the AVC denial from your system’s log messages. View 
+
+information about the denial, and change the Boolean to allow FTP access, as the 
+AVC denial’s description suggests.

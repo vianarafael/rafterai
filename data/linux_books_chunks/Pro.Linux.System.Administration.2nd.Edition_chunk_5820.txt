@@ -1,0 +1,6 @@
+This directory path is on the 
+target host, and the state can be absent to remove the file or directory, file to create a file, link to 
+create a symlink, directory to create a directory, touch to create an empty file, and hard for 
+creating hardlinks.
+
+Lastly we have our handler.

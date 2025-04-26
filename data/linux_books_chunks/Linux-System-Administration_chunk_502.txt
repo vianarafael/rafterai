@@ -1,0 +1,12 @@
+The device /dev/sdb is knwon to lvm, but not linked to any Volume
+Group.
+
+[root@RHEL5 ~]# pvs
+  PV         VG         Fmt  Attr PSize   PFree  
+  /dev/sda2  VolGroup00 lvm2 a-    15.88G      0 
+  /dev/sdb              lvm2 --   409.60M 409.60M
+  /dev/sdc   vg33       lvm2 a-   408.00M 408.00M
+  /dev/sdd   vg33       lvm2 a-   408.00M 408.00M
+[root@RHEL5 ~]#
+
+11.8.3.

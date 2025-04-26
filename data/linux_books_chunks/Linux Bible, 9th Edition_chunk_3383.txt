@@ -1,0 +1,12 @@
+Chapter 19 describes how to use Samba to offer 
+Windows-style ﬁ le sharing.
+
+496
+
+c18.indd  04/01/2015  Page 497
+
+Chapter 18: Confi guring an FTP Server
+
+Exercises
+The exercises in this section describe tasks related to setting up an FTP server in RHEL or 
+Fedora and connecting to that server using an FTP client.

@@ -1,0 +1,8 @@
+For the rules in our IPV4-INCOMING chain to be parsed, we need to add a rule in the INPUT chain that 
+directs all the incoming packets to our host to the IPV4-INCOMING chain.
+
+$ sudo /sbin/iptables –t filter –A INPUT –j IPV4-INCOMING
+num target     prot opt source      destination
+1  IPV4-INCOMING all --  anywhere     anywhere
+
+We have included the output of the list (–L) command above.

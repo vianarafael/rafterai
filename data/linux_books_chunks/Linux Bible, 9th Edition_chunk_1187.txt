@@ -1,0 +1,12 @@
+Using the else statement, different words can be echoed if the criterion of the 
+if statement isn’t met ($STRING = "Friday"). Keep in mind that it’s good practice to 
+put strings in double quotes.
+
+STRING="Friday"
+if [ $STRING = "Friday" ] ; then
+echo "WhooHoo.  Friday."
+else
+echo "Will Friday ever get here?"
+fi
+
+You can also reverse tests with an exclamation mark (!).

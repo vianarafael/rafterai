@@ -1,0 +1,10 @@
+If NetworkManager is used to start 
+your networking and connect to a DHCP server, you should see name server lines 
+
+576
+
+c21.indd  04/01/2015  Page 577
+
+Chapter 21: Troubleshooting Linux
+
+with the IP addresses being assigned.

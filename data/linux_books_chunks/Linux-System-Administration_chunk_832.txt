@@ -1,0 +1,18 @@
+top
+
+The top tool is often used to look at processes consuming most of the cpu, but it also displays
+memory information on line four and five (which can be toggled by pressing m).
+
+Below a screenshot of top on the same ubu1010 from above.
+
+top - 10:44:34 up 16 days, 9:56, 6 users, load average: 0.13, 0.09, 0.12
+Tasks: 166 total,   1 running, 165 sleeping,   0 stopped,   0 zombie
+Cpu(s):  5.1%us, 4.6%sy, 0.6%ni, 88.7%id, 0.8%wa, 0.0%hi, 0.3%si, 0.0%st
+Mem:   3830176k total,  3613720k used,   216456k free,    45452k buffers
+Swap:  6384636k total,    84988k used,  6299648k free,  2050948k cached
+
+214
+
+memory management
+
+18.2.

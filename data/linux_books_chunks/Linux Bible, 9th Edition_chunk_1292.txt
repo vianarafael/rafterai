@@ -1,0 +1,10 @@
+To give any other user the same privilege, you could simply add the additional 
+user to the admin group when you run visudo.
+
+180
+
+c08.indd  04/01/2015  Page 181
+
+Chapter 8: Learning System Administration
+
+1.

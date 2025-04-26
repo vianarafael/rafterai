@@ -1,0 +1,5 @@
+We’ll go into more detail on this in Chapter 7.
+
+After the initial connection, the client is then prompted by the server for a username and authentication 
+
+credentials like a password.

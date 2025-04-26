@@ -1,0 +1,7 @@
+When you see the boot menu, highlight one of the installation boot entries and 
+press Tab. Move the cursor right to the end of the kernel line and type the lit-
+eral option text at the end of that line. Press Enter to start the installer.
+
+c. Try out the rest of the installation in text mode.
+
+4.

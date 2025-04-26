@@ -1,0 +1,10 @@
+It is more costly in processing your access control list.
+
+ See the OpenLDAP Administrator’s Guide for tips on using regular expressions as well other topics we 
+
+ ■ Tip 
+are discussing here: www.openldap.org/doc/admin24/access-control.html.
+
+It is always less costly, in processing terms, yet more precise to describe exactly what you would like to 
+
+give access to and to whom.

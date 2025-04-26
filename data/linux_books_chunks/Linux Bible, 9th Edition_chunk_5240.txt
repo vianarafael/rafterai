@@ -1,0 +1,9 @@
+To remove the package containing the mogrify command from your system, type 
+
+the following:
+
+# yum remove ImageMagick
+
+Chapter 11: Managing User Accounts
+For questions that involve adding and removing user accounts, you can use the Users win-
+dow, the User Manager window, or command-line tools such as useradd and usermod.

@@ -1,0 +1,28 @@
+Let’s get the UUID of that device so we can 
+
+put it in our fstab.
+
+$ sudo blkid /dev/sdb
+[sudo] password for jsmith:
+/dev/sdb: UUID="0cd0e135-feb8-4f99-a973-5751549d2e4f" UUID_SUB="4d327afb-1330-43e5-b392-
+0e676ebab1b5" TYPE="btrfs"
+
+We add our line to our fstab as follows:
+
+UUID=0cd0e135-feb8-4f99-a973-5751549d2e4f  /data btrfs defaults 0 0
+
+Let’s know mount our disk using the mount command:
+
+$ sudo mount /data2
+
+376
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Finally let’s take a look at how much space we have on the /data2 partition with the df –h command:
+
+$ df –h /data2
+Filesystem                          Size    Used     Avail  Use% Mounted on
+/dev/sdb                             16G     18M      14G     1%    /data2
+
+We have four 8 GiB disks combining for a 14 GiB usable partition.

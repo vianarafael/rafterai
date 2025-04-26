@@ -1,0 +1,13 @@
+For example, you can do the following:
+
+ ■ Move items—To move an item on a panel, right-click it, select Move, and drag and 
+
+drop it to a new position.
+
+ ■ Resize items—You can resize some elements, such as the Window list, by clicking 
+
+an edge and dragging it to the new size.
+
+ ■ Use the Window list—Tasks running on the desktop appear in the Window list 
+
+area.

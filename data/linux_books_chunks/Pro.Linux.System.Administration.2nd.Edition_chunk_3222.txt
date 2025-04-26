@@ -1,0 +1,18 @@
+lastly, 
+you can use the command to actually edit your configuration files via the -e option like so:
+
+$ sudo postconf -e 'inet_interfaces = all'
+
+here the inet_interfaces option (which controls which network interfaces postfix binds itself to) has 
+been set to a value of all.
+
+On Ubuntu, you can use the dpkg-reconfigure command to configure the basic state of postfix.
+
+$ sudo dpkg-reconfigure postfix
+
+534
+
+Chapter 12 ■ Mail ServiCeS
+
+this command offers you a selection of basic configuration models, for example, a basic internet host 
+that sends and receives e-mail.

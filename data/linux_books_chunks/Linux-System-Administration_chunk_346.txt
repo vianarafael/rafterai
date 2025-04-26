@@ -1,0 +1,18 @@
+/etc/filesystems
+
+The  /etc/filesystems  file  contains  a  list  of  autodetected  filesystems  (in  case  the  mount
+command is used without the -t option.
+
+Help for this file is provided by man mount.
+
+[root@rhel65 ~]# man mount
+
+57
+
+file systems
+
+6.2. common file systems
+
+6.2.1. ext2 and ext3
+
+Once the most common Linux file systems is the ext2 (the second extended) file system.

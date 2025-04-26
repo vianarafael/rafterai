@@ -1,0 +1,13 @@
+In the second, any 
+ﬁ le that begins with a, g, or w and also ends with either n or e is matched. You can also 
+include ranges within brackets. For example:
+
+$ ls [a-g]*
+apple banana grape grapefruit
+
+Here, any ﬁ lenames beginning with a letter from a through g are matched.
+
+4
+
+Using fi le-redirection metacharacters
+Commands receive data from standard input and send it to standard output.

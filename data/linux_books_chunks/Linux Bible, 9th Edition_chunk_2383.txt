@@ -1,0 +1,11 @@
+Here is a snippet of an actual messages log ﬁ le:
+
+Feb 25 11:04:32 toys network: Bringing up loopback:  succeeded
+Feb 25 11:04:35 toys network: Bringing up interface eth0:  succeeded
+Feb 25 13:01:14 toys vsftpd(pam_unix)[10565]: authentication failure;
+      logname= uid=0 euid=0 tty= ruser= rhost=10.0.0.5  user=chris
+Feb 25 14:44:24 toys su(pam_unix)[11439]: session opened for
+      user root by chris(uid=500)
+
+The default message format in the /var/log/messages ﬁ le is divided into ﬁ ve main 
+parts.

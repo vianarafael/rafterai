@@ -1,0 +1,6 @@
+# qm vncproxy
+
+
+- Proxy a specific virtual machine:
+
+`qm vncproxy {{vm_id}}`

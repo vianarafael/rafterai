@@ -1,0 +1,3 @@
+The site 
+includes a comprehensive wiki (http://wiki.dovecot.org/) including a number of how-tos and examples for 
+configuring Dovecot in variety of implementations.

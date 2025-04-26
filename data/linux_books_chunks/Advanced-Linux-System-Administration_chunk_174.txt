@@ -1,0 +1,20 @@
+One can make a smaller new root partition by checking the actual used space on the 
+current root device
+
+df -h /
+
+Filesystem            Size  Used Avail Use% Mounted on
+
+/dev/hda7             286M  71M  201M  27% /
+
+Use fdisk to create the new partions (e.g /dev/hda14 and /dev/hda15) Reboot.
+
+40
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+2.

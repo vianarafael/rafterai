@@ -1,0 +1,31 @@
+For example, 
+depending on your drivers, you can change the link speed of your interface or your duplex settings.
+
+You can see the settings your device is using by issuing the following command:
+
+$ sudo ethtool enp0s8
+Settings for enp0s8:
+        Supported ports: [ TP ]
+        Supported link modes:   10baseT/Half 10baseT/Full
+                                100baseT/Half 100baseT/Full
+                                1000baseT/Full
+        Supported pause frame use: No
+        Supports auto-negotiation: Yes
+        Advertised link modes:  10baseT/Half 10baseT/Full
+                                100baseT/Half 100baseT/Full
+                                1000baseT/Full
+        Advertised pause frame use: No
+        Advertised auto-negotiation: Yes
+        Speed: 1000Mb/s
+        Duplex: Full
+        Port: Twisted Pair
+        PHYAD: 0
+        Transceiver: internal
+        Auto-negotiation: on
+        MDI-X: off (auto)
+Cannot get wake-on-lan settings: Operation not permitted
+        Current message level: 0x00000007 (7)
+                               drv probe link
+        Link detected: yes
+
+this shows the current settings of your enp0s8 device.

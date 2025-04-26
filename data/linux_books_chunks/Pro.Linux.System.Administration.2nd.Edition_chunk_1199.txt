@@ -1,0 +1,5 @@
+One is to apply the same symlinks to the 
+
+multi-user.target.wants directory for the postfix service (in /run/systemd/generator.late/ directory). 
+But here you can also see that since we are not using a native systemd service we will redirect this to another 
+compatibility script to handle the enabling and disabling in SysV land.

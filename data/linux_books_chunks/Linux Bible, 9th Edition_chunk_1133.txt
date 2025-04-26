@@ -1,0 +1,11 @@
+Go back and 
+
+forth between sorting by CPU usage and memory consumption.
+
+5.  Start the gedit process from your desktop. Make sure you run it as the user you 
+
+are logged in as. Use the System Monitor window to kill that process.
+
+6.  Run the gedit process again. This time, using the kill command, send a signal 
+
+to the gedit process that causes it to pause (stop).

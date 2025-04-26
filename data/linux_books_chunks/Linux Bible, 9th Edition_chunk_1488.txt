@@ -1,0 +1,7 @@
+Type any password you like, and then type it again in the Conﬁ rm 
+box. Select Done to set the password. If the password is not at least six characters 
+long or if it is considered to be too easy (like a common word), the installer doesn’t 
+leave the password screen when you click Done. You can either change the  password 
+or click Done again to have the installer use the password anyway.
+
+10.

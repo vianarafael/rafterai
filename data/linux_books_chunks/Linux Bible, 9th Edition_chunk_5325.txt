@@ -1,0 +1,9 @@
+If 
+connecting to the web server succeeds after that, you need to correct SELinux ﬁ le 
+context and/or Boolean issues (probably ﬁ le context in this case). The following 
+should work:
+
+# chcon --reference=/var/www/html /var/www/html/index.html
+
+If the chmod command works, it means that the apache user and group did not 
+have read permission to the ﬁ le.

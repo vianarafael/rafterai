@@ -1,0 +1,5 @@
+Next is the directive clearpart, which clears all partitions on the host and creates 
+default labels for them. The final option, text, specifies we should use text-based installation as opposed to 
+the GUI.
+
+ You can use Kickstart to upgrade hosts as well as install them.

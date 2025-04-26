@@ -1,0 +1,3 @@
+That and [sysvol] 
+have been created as part of the default configuration process. The [netlogon] service is used to authenticate 
+Windows clients and can contain things such as login scripts and other information.

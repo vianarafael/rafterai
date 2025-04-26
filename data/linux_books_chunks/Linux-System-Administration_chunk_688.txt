@@ -1,0 +1,6 @@
+Evi Nemeth, co-author of the UNIX
+System Administration Handbook has the following to say about daemons:
+
+Many  people  equate  the  word  "daemon"  with  the  word  "demon",  implying  some
+kind  of  satanic  connection  between  UNIX  and  the  underworld.  This  is  an  egregious
+misunderstanding.

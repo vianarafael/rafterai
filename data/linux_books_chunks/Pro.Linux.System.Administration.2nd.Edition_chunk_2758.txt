@@ -1,0 +1,5 @@
+This will not affect current connections, so you can run this 
+command remotely.
+
+ ■ Caution  Make sure you do not reconfigure the ssh server to the point where you can no longer access it! 
+If you’re worried, do not log out after a configuration change.

@@ -1,0 +1,5 @@
+Using ACLs, assign default 
+permissions to that directory so the adm user has read/write/execute permission 
+to that directory and any ﬁ les or directories created in it. Create the /tmp/mydir/
+testing/ directory and /tmp/mydir/newfile.txt ﬁ le, and make sure the 
+adm user was also assigned full read/write/execute permissions.

@@ -1,0 +1,22 @@
+An icon representing the application appears on the panel.
+
+55
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c02.indd  04/01/2015  Page 56
+
+Part I: Getting Started
+
+To launch the application you just added, simply click the icon on the panel.
+
+If the application you want to launch is not on one of your menus, you can build a launcher 
+yourself as follows:
+
+1.  Right-click in an open space on the panel.
+2.

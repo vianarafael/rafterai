@@ -1,0 +1,7 @@
+zone transfers
+
+The  slave  server  receives  a  copy  of  the  zone  database  from  the  master  server  using  a
+zone transfer. Zone transfers are requested by the slave servers at regular intervals. Those
+intervals are defined in the soa record.
+
+You can force a refresh from a zone with rndc.

@@ -1,0 +1,26 @@
+Consider the following service, dbus.service:
+
+# systemctl status dbus.service
+dbus.service - D-Bus System Message Bus
+  Loaded: loaded (/lib/systemd/system/dbus.service; static)
+  Active: active (running) since Mon, 30 Apr 2018 12:35:...
+ Main PID: 707 (dbus-daemon)
+...
+# systemctl disable dbus.service
+# systemctl status dbus.service
+dbus.service - D-Bus System Message Bus
+  Loaded: loaded (/lib/systemd/system/dbus.service; static)
+  Active: active (running) since Mon, 30 Apr 2018 12:35:...
+ Main PID: 707 (dbus-daemon)
+...
+
+15
+
+411
+
+c15.indd  04/01/2015  Page 412
+
+Part IV: Becoming a Linux Server Administrator
+
+When the systemctl disable command is issued on dbus.service, it is simply 
+ignored.

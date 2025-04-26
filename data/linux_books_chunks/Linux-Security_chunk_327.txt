@@ -1,0 +1,16 @@
+inode and file contents
+
+Let's put some data in one of the files.
+
+paul@RHELv4u4:~/test$ ls -li
+total 16
+817266 -rw-rw-r--  1 paul paul  0 Feb  5 15:38 file1
+817270 -rw-rw-r--  1 paul paul 92 Feb  5 15:42 file2
+817268 -rw-rw-r--  1 paul paul  0 Feb  5 15:38 file3
+paul@RHELv4u4:~/test$ cat file2
+It is winter now and it is very cold.
+We do not like the cold, we prefer hot summer nights.
+paul@RHELv4u4:~/test$
+
+The data that is displayed by the cat command is not in the inode, but somewhere else on
+the disk.

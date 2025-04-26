@@ -1,0 +1,3 @@
+Listing 10-3 showspossible servers our ntpd daemon will try to synchronize against.
+
+Listing 10-3.

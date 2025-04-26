@@ -1,0 +1,7 @@
+For distributed systems, it is always good to deploy in odd numbers, as in 1, 3, 5, 7, and so on. This helps 
+reduce the risk of split-brain events like those we talked about with GlusterFS in Chapter 13.
+
+Elasticsearch Installation and Configuration
+
+Elasticsearch installations require a minimum of 4GB of RAM to run the service and will fail to start without 
+it.

@@ -1,0 +1,14 @@
+This example uses
+usermod to change the description of the user harry.
+
+[root@RHEL4 ~]# tail -1 /etc/passwd
+harry:x:516:520:harry potter:/home/harry:/bin/bash
+[root@RHEL4 ~]# usermod -c 'wizard' harry
+[root@RHEL4 ~]# tail -1 /etc/passwd
+harry:x:516:520:wizard:/home/harry:/bin/bash
+
+14
+
+user management
+
+2.8.

@@ -1,0 +1,12 @@
+other escape characters are available to you if you check the 
+issue, issue.net, and getty man pages.
+
+166
+
+Chapter 5 ■ Users and GroUps
+
+In addition to the /etc/issue and /etc/issue.net files, the /etc/motd file’s contents display directly 
+after a command-line login, and you may want to adjust them to include an acceptable Use policy or 
+similar information.
+
+If you are using a GUI you can set a message on the login screen.

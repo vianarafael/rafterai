@@ -1,0 +1,9 @@
+The next workspace to the left or right, 
+ respectively, appears on the current desktop.
+
+ ■ Slide windows around—Press and hold the left mouse button on the window title 
+bar, and then press the left, right, up, or down arrow keys to slide the current 
+ window around on the screen.
+
+If you get tired of wobbling windows and spinning cubes, you can easily turn off 
+the AIGLX 3D effects and return to using Metacity as the window manager.

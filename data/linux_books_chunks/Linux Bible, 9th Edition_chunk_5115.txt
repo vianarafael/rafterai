@@ -1,0 +1,9 @@
+So you may need to ﬁ nd a computer with a drive that 
+has that capability.
+
+The following sections describe how to burn bootable CDs and DVDs from Windows, Mac 
+OS X, and Linux systems.
+
+Burning CDs/DVDs in Windows
+If you have downloaded your Linux ISO image to a Windows system, you can burn that 
+image to CD or DVD in different ways.

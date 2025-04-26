@@ -1,0 +1,7 @@
+We’ll 
+also group together some of the like distributions, particularly focusing on distributions derived from two 
+major distributions: CentOS (derived from the Red Hat distribution) and Ubuntu (itself a derivation from the 
+Debian distribution).
+
+ ■ Note  So how can one distribution be “derived” from another distribution? Well, open source software 
+means that the source code is available to developers.

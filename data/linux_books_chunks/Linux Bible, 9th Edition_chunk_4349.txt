@@ -1,0 +1,13 @@
+The ﬁ le my_secret_file is now gibberish and 
+cannot be read, even by the root user.
+
+# umount /home/johndoe/Secret
+
+644
+
+c23.indd  04/01/2015  Page 645
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Thus, the ecryptfs utility allows you to create a location on the ﬁ le system to quickly 
+encrypt and decrypt ﬁ les.

@@ -1,0 +1,5 @@
+Push Route Added to gateway.conf
+
+push "route 192.168.0.0 255.255.255.0"
+
+This line adds a route to all clients that connect to the OpenVPN server.

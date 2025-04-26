@@ -1,0 +1,4 @@
+It also has features like automatic defragmenting 
+and scrubbing, where it uses checksums to automatically detect and correct errors. Depending on the 
+workload, Btrfs maybe a good choice, and at a certain scale it is the only choice. We have listed it as Unstable 
+in Table  9-2 due to some recent write hole problems in Raid5/6 configurations.

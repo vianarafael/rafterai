@@ -1,0 +1,12 @@
+dhcpd.conf Global Settings
+
+ddns-update-style none;
+option domain-name "example.org";
+option domain-name-servers ns1.example.org, ns2.example.org;
+default-lease-time 600;
+max-lease-time 7200;
+log-facility local7;
+
+The first directive specifies that our DHCP server will not do DNS updates for addresses that it hands 
+
+out. You’ll see a bit later how to change this.

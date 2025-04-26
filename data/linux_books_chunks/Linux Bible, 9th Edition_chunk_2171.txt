@@ -1,0 +1,10 @@
+Why use a UUID instead of 
+
+305
+
+c12.indd  04/01/2015  Page 306
+
+Part III: Becoming a Linux System Administrator
+
+/dev/sda1 to identify the device? Suppose you plugged another disk into your  computer 
+and booted up.

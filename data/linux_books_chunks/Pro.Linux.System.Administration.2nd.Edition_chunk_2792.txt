@@ -1,0 +1,4 @@
+One way is to use the scp command, which works just like cp, except the source or target files 
+can be prefixed by a remote username and hostname, as shown in Listing 10-37.
+
+Listing 10-37.

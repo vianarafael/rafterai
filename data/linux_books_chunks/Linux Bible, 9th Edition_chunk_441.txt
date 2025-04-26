@@ -1,0 +1,12 @@
+You can 
+turn the extensions off and on from there and even delete them permanently.
+
+43
+
+c02.indd  04/01/2015  Page 44
+
+Part I: Getting Started
+
+Using the GNOME Tweak Tool
+If you don’t like the way some of the built-in features of GNOME 3 behave, you can change 
+many of them with the GNOME Tweak Tool.

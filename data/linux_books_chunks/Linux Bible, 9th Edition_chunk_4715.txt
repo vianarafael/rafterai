@@ -1,0 +1,24 @@
+The IP address is 10.140.67.23.
+
+# ifconfig
+
+lo  Link encap:Local Loopback
+    inet addr:127.0.0.1  Mask:255.0.0.0
+    inet6 addr: ::1/128 Scope:Host
+    UP LOOPBACK RUNNING  MTU:16436  Metric:1
+    RX packets:4 errors:0 dropped:0 overruns:0 frame:0
+    TX packets:4 errors:0 dropped:0 overruns:0 carrier:0
+    collisions:0 txqueuelen:0
+    RX bytes:240 (240.0 b)  TX bytes:240 (240.0 b)
+
+p2p1  Link encap:Ethernet  HWaddr 08:00:27:E5:89:5A
+      inet addr:10.140.67.23
+  Bcast:10.140.67.255  Mask:255.255.255.0
+      inet6 addr: fe80::a00:27ff:fee5:895a/64 Scope:Link
+      UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+      RX packets:81 errors:0 dropped:0 overruns:0 frame:0
+      TX packets:102 errors:0 dropped:0 overruns:0 carrier:0
+      collisions:0 txqueuelen:1000
+      RX bytes:50015 (48.8 KiB)  TX bytes:14721 (14.3 KiB)
+
+Now, using the Host-A IP address, an nmap TCP Connect scan is issued from Host-A.

@@ -1,0 +1,9 @@
+To check those accounts’ expiration dates and see if they 
+are expired, a more reﬁ ned version of the gawk command is needed.
+
+# gawk -F: '{if (($8 > 0) && ($TODAY > $8)) print $1}' /etc/shadow
+Consultant
+Intern
+
+Only accounts with an expiration date are collected by the ($8 > 0) portion of the gawk 
+command.

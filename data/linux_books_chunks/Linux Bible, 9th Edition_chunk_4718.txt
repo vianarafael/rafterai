@@ -1,0 +1,12 @@
+Now the TCP 
+Connect scan is attempted on Host-A’s ports from Host-B’s command line.
+
+$ nmap -sT 10.140.67.23
+Starting Nmap 5.21 ( http://nmap.org ) at 2015-03-22 05:34 HADT
+
+Note: Host seems down. If it is really up,
+ but blocking our ping probes, try -PN
+
+Nmap done: 1 IP address (0 hosts up) scanned in 0.11 seconds
+
+Here, nmap gives a helpful hint.

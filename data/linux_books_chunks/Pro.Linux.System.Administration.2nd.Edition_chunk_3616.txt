@@ -1,0 +1,7 @@
+You can also find instructions for extending 
+Dovecot in a similar way at http://wiki.dovecot.org/VirtualUsers and on the Dovecot how-to page at 
+http://wiki.dovecot.org/HowTo.
+
+Alternative Mail Servers for Linux
+There are several free and commercial e-mail solutions that provide more features than those described in 
+this chapter.

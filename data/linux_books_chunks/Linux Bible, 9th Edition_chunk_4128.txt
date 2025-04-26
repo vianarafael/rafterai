@@ -1,0 +1,6 @@
+This sets 
+the group ID of any ﬁ les created in the directory to the group ID of the directory.
+
+Executable ﬁ les with SUID or SGID are favorites of malicious users. Thus, it is best to use 
+them sparingly. However, some ﬁ les do need to keep these settings. Two examples are the 
+passwd and the sudo commands, which follow.

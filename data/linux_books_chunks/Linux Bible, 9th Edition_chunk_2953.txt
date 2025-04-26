@@ -1,0 +1,6 @@
+(Of course, both CUPS and UNIX print servers can be run from Linux 
+ systems as well as other UNIX systems.)
+
+In each case, you need a network connection from your Linux system to the servers to 
+which those printers are connected. To use a remote printer requires that someone set up 
+that printer on the remote server computer.

@@ -1,0 +1,12 @@
+filtering by frame
+
+The correct technical term for a packet as sniffed is a frame (because we sniff on layer two).
+So to display packets with certain numbers, we use frame.number in the filter.
+
+33
+
+network sniffing
+
+3.1.8. looking inside packets
+
+The  middle  pane  can  be  expanded.

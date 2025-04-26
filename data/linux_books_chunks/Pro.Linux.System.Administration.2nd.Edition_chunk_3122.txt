@@ -1,0 +1,3 @@
+Install it via sudo yum install squid on CentOS or sudo aptitude 
+install squid on Ubuntu. Both distributions use the same configuration file for Squid, which is /etc/
+squid/squid.conf.

@@ -1,0 +1,5 @@
+manage physical volumes
+
+11.11.1. pvcreate
+
+Use the pvcreate command to add devices to lvm.

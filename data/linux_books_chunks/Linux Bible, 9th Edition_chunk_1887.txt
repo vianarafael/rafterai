@@ -1,0 +1,3 @@
+Most account 
+ settings are assigned using default values. You can set more values explicitly, if you want 
+to.

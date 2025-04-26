@@ -1,0 +1,23 @@
+To go into Setup mode from the BIOS screen on your computer, do the following:
+
+a. Reboot your computer.
+
+b. Within a few seconds, you should see the BIOS screen, with an indication of 
+
+which function key to press to go into Setup mode. (On my Dell workstation, it’s 
+the F2 function key.)
+
+826
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 827
+
+Appendix B: Exercise Answers
+
+c.

@@ -1,0 +1,8 @@
+using dig is useful in displaying 
+the world of Dns.
+
+Zone Metadata
+
+We mentioned earlier that one of the columns listed in dig results is TTL. This field defines how long DNS 
+records are valid for, which allows your local applications to cache the results of a DNS lookup for a certain 
+time.

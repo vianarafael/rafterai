@@ -1,0 +1,9 @@
+If you want your caching name server to use 
+only your ISP’s name server or a set of other name servers, you can list their IP addresses in the forwarders 
+block, each on a line by itself and terminated by a semicolon.
+
+438
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+The next option, dnssec-validation, defaults to auto.

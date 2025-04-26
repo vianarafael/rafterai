@@ -1,0 +1,2 @@
+In this case, the output of the cat command is redirected into a file called yourfile. If 
+this file doesn’t exist, it will be created.

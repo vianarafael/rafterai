@@ -1,0 +1,13 @@
+Entering the web site details and admin credentials
+
+Remember to record your password somewhere safe; you will need it shortly. Once that is done, we are 
+
+shown the success page and offered a login button (Figure 11-12).
+
+503
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-12.  Successfully installed WordPress
+
+Let’s quickly show you the login process.

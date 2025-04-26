@@ -1,0 +1,4 @@
+For example, to make permissions wide open for yourself as owner, you would 
+set the ﬁ rst number to 7 (4+2+1), and then you would give the group and others read-only 
+permission by setting both the second and third numbers to 4 (4+0+0), so that the ﬁ nal 
+number is 744.

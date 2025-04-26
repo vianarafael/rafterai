@@ -1,0 +1,9 @@
+1 root root 32 Apr 26 20:05 sshd.service ->
+    /lib/systemd/system/sshd.service
+
+The following illustrates the process of adding a symbolic link ﬁ le for My_New_Service:
+
+# ln -s /etc/systemd/system/My_New_Service.service
+ /etc/systemd/system/multi-user.target.wants/My_New_Service.service
+
+A symbolic link is created in the multi-user.target.wants directory.

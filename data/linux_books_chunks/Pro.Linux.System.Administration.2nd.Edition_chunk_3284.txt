@@ -1,0 +1,1 @@
+You can use this with a variety of other commands without needing to type the command three times.

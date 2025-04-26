@@ -1,0 +1,8 @@
+So the way you deﬁ ne which type of messages get logged and where they are 
+logged to is exactly the same; however, the conﬁ guration ﬁ les are different related to the 
+use of modules in rsyslog.conf.
+
+13
+
+In the /etc/rsyslog.conf ﬁ le, a Modules section lets you include or not include speciﬁ c 
+features in your rsyslog service.

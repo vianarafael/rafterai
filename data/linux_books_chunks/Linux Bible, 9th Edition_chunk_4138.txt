@@ -1,0 +1,15 @@
+This /etc/shadow ﬁ le 
+should have the following permissions settings:
+
+ ■ Owner: root
+
+ ■ Group: root
+
+ ■ Permissions: (000) Owner: --- Group: --- Other: ---
+
+The code that follows shows that the /etc/shadow ﬁ le has the appropriate settings.
+
+# ls -l /etc/shadow
+----------. 1 root root 1049 Feb  2 09:45 /etc/shadow
+
+The /etc/passwd ﬁ le has read access for the owner, group, and other.

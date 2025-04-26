@@ -1,0 +1,2 @@
+There are further examples of the 
+settings that you can use in man 5 teamd.conf.

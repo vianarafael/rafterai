@@ -1,0 +1,5 @@
+If you look at that file, you will see how the directives have been 
+configured.
+
+Looking at the first declaration, we have the DN for cn=config. It has an ObjectClass of olcGlobal, 
+which is the object class that defines the global DIT.

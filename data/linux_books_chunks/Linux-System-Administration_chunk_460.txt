@@ -1,0 +1,13 @@
+removing a software raid
+
+The software raid is visible in /proc/mdstat when active. To remove the raid completely so
+you can use the disks for other purposes, you stop (de-activate) it with mdadm.
+
+[root@rhel6c ~]# mdadm --stop /dev/md0
+mdadm: stopped /dev/md0
+
+The disks can now be repartitioned.
+
+10.3.8. further reading
+
+Take a look at the man page of mdadm for more information.

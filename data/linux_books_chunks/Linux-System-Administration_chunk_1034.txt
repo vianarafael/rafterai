@@ -1,0 +1,12 @@
+Display your current ip address(es).
+
+paul@debian5:~$ /sbin/ifconfig | grep 'inet '
+      inet addr:192.168.1.31  Bcast:192.168.1.255  Mask:255.255.255.0
+      inet addr:127.0.0.1  Mask:255.0.0.0
+
+3. Display the configuration file where this ip address is defined.
+
+Ubuntu/Debian: cat /etc/network/interfaces
+Redhat/Fedora: cat /etc/sysconfig/network-scripts/ifcfg-eth*
+
+4.

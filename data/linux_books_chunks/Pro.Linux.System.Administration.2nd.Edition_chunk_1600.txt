@@ -1,0 +1,8 @@
+A service can be defined in an xml formatted file with a simple 
+
+syntax. Take the https.xml zone file in the /usr/lib/firewalld/services directory:
+
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+ <short>Secure WWW (HTTPS)</short>
+ <description>HTTPS is a modified ..<snip>..

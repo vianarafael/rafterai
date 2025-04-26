@@ -1,0 +1,18 @@
+lvrename
+
+Renaming a Logical Volume is done with lvrename. This example renames extLV to bigLV
+in the vg42 Volume Group.
+
+[root@RHEL5 ~]# lvrename vg42/extLV vg42/bigLV
+  Renamed "extLV" to "bigLV" in volume group "vg42"
+[root@RHEL5 ~]#
+
+120
+
+logical volume management
+
+11.14. practice : lvm
+
+1. Create a volume group that contains a complete disk and a partition on another disk.
+
+2.

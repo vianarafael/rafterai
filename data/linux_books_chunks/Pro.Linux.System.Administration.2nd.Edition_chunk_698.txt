@@ -1,0 +1,7 @@
+always back up 
+files before you edit, move, or delete them. sometimes it is better to move the file or directory, wait for a period, 
+then delete when you are sure you don’t need it.
+
+Linking Files
+On Linux hosts, you can also create links to files. Links can be used like Windows shortcuts but come in two 
+forms—hard links and soft, or symbolic, links. Hard links are not like Windows shortcuts.

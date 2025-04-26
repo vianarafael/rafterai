@@ -1,0 +1,31 @@
+Delete the myprin ter printer entry from your syst e m.
+
+447
+
+ 
+ 
+ 
+ 
+c17.indd  04/01/2015  Page 449
+
+Confi guring a Web Server
+
+ C H A P T E R 
+
+17
+
+IN THIS CHAPTER
+
+Installing an Apache web server
+
+Confi guring Apache
+
+Securing Apache with iptables and SELinux
+
+Creating virtual hosts
+
+Building a secure (HTTPS) website
+
+Checking Apache for errors
+
+W eb servers are responsible for serving up the content you view on the Internet every day.

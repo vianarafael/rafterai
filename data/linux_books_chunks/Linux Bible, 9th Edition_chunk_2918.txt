@@ -1,0 +1,11 @@
+If prompted for more information, you may need to further describe the 
+
+ connection to the printer. For example, you may need to enter the baud rate and 
+parity for a serial port, or you might be asked for the network address for an IPP 
+or Samba printer.
+
+4.  Type a Name, Location, and Description for the printer; select if you want to 
+
+share this printer, and click Continue.
+
+5.

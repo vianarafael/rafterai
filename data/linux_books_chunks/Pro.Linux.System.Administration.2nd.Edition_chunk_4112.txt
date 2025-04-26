@@ -1,0 +1,4 @@
+In here, you define every aspect of the Bareos 
+service: jobs, file sets, clients, schedules, pools, and so on. To paraphrase the Bareos documentation, the file 
+set is what to back up, the client is who to back up, the schedule defines when, and the pool defines where 
+(i.e., what volume).

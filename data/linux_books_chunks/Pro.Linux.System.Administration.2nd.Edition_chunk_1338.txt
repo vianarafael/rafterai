@@ -1,0 +1,8 @@
+It is with the utility called nmcli. This is a very 
+powerful tool that works with and configures NetworkManager configurations.
+
+With this tool we can create, display, edit, and bring up and down interfaces. Let’s take the time to 
+
+explore this utility first.
+
+We have spoken before about NetworkManager profiles. These are names given to interfaces.

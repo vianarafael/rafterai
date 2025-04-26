@@ -1,0 +1,11 @@
+Netfilter uses the conntrack module to track connections and know their state and 
+it is this that makes Netfilter a stateful firewall.
+
+280
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+NEW, ESTABLISHED, RELATED, AND INVALID STATES
+
+the NEW connection state indicates a freshly initiated connection through which data has not passed 
+back and forth.

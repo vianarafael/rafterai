@@ -1,0 +1,81 @@
+Linux, 6
+printers, 427, 433
+
+application launchers, 55–56
+Applications Menu extension, 42–43
+appSocket connections, 427, 433
+ARC4, 631
+ArcFour, 631
+
+839
+
+bindex.indd  04/02/2015  Page 840
+
+Index
+
+arguments, 71–74
+Aroha, Ryan Sawhill, 647
+arrow keys
+
+3D AIGLX desktop, 59, 60
+command history, 81
+command-line editing, 77, 78
+GNOME 3 desktop, 39, 40
+GRUB Legacy, 226
+vi text editor, 120
+
+ASF (Apache Software Foundation), 450
+ash, 65
+asymmetric key cryptography, 466, 633–637
+AT&T Bell Laboratories, 7–10
+Audio CD Extractor, 195
+audit logs, SELinux, 612–614, 690
+audit.log ﬁ le, 689–690
+audit2allow command, 674, 687, 695
+audit2why command, 687
+auditd, 612–614, 625, 689–690, 692, 829
+auditing Linux systems, 622–624
+auditing network services, 699–710
+
+auditing advertisements, 704–708
+controlling access, 708–710
+evaluating access, 701–704
+
+aureport command, 690
+ausearch command, 612–613, 614, 690, 835
+auth PAM context, 651
+authconfig command, 279, 655–657, 660, 665
+authconfig-gtk, 176
+Authentication Conﬁ guration window, 279–281
+Authentication, graphical admin tool, 176
+autofs facility, 545–548
+avahi administrative login, 190
+AVC (Access Vector Cache) denials, 670, 673, 689–692, 694, 
+
+697, 834
+
+B
+
+“Baby Bell” companies, 9
+background commands, 83–84
+background processes, 139
+
+killing, 146–148
+listing, 138–143
+referring to, 145–146
+renicing, 148–149
+starting, 144–145
+
+BackTrack, 623
+backup shell script, 168
+basename command, 95
+BASH environment variable, 86
+.bash_history ﬁ le, 82
+/.bash_logout ﬁ le, 89
+/.bash_profile ﬁ le, 88
+/.bashrc ﬁ le, 89
+
+840
+
+.bashrc ﬁ le, 91–92
+bash shell, 65–66.

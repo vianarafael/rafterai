@@ -1,0 +1,28 @@
+You will see that default lines are added for user, group, mask, and other, which are 
+inherited from the directory’s ACLs.
+
+273
+
+c11.indd  04/01/2015  Page 274
+
+Part III: Becoming a Linux System Administrator
+
+[mary]$ mkdir /tmp/mary/test
+[mary]$ getfacl /tmp/mary/test
+# file: tmp/mary/test
+# owner: mary
+# group: mary
+user::rwx
+group::rwx
+group:sales:rwx
+group:market:rwx
+mask::rwx
+other::r-x
+default:user::rwx
+default:group::rwx
+default:group:sales:rwx
+default:group:market:rwx
+default:mask::rwx
+default:other::r-x
+
+Notice that when you create a ﬁ le in that directory, the inherited permissions are different.

@@ -1,0 +1,6 @@
+That list includes administrative 
+users root, bin, daemon, adm, lp, and others. You can add other users to that list to 
+whom you would like to deny access.
+
+If you change userlist_enable to NO, the user_list ﬁ le becomes a list of only those 
+users who do have access to the server.

@@ -1,0 +1,12 @@
+These will be 
+
+enp0s8 and enp0s9.
+
+$ sudo nmcli device status
+DEVICE  TYPE      STATE         CONNECTION
+enp0s8  ethernet  disconnected  --
+enp0s9  ethernet  disconnected  --
+
+To begin we add the team interface (team0) with the command in Listing 7-2.
+
+Listing 7-2.

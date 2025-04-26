@@ -1,0 +1,6 @@
+In most 
+cases, this is not a problem because the /etc/shadow fi le is confi gured to store password information by default on 
+most Linux systems..
+
+Set account expiration dates for all transitory employees. In addition, consider reviewing 
+all user account expiration dates as part of your security monitoring activities.

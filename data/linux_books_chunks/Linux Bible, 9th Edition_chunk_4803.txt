@@ -1,0 +1,13 @@
+Thus, it is conﬁ rmed that the ﬁ rewall setting, INPUT policy equals DROP, is not what is 
+needed to reach the goal.
+
+$ ping -c 2 10.140.67.23
+PING 10.140.67.23 (10.140.67.23) 56(84) bytes of data.
+
+--- 10.140.67.23 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1008ms
+$ ssh root@10.140.67.23
+
+ssh: connect to host 10.140.67.23 port 22: Connection timed out
+
+Blocking a source IP address.

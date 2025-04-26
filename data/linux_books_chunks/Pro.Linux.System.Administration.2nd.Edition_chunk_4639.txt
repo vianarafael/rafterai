@@ -1,0 +1,6 @@
+We will do that in the next section (in the earlier section we 
+used the Unix socket ldapi:///).
+
+Working with SSF
+
+We will now talks about the security strength factor directive, or ssf.

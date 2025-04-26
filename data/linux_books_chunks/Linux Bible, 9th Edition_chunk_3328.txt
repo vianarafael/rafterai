@@ -1,0 +1,6 @@
+Either changing SELinux out of Enforcing mode 
+or setting the correct Boolean allows local accounts to log in and transfer data.
+
+Some web server companies let users use FTP to upload the content that is used in the 
+users’ own web servers. In some cases, the users have FTP-only accounts, meaning that 
+they cannot log in to a shell, but they can log in via FTP to manage their content.

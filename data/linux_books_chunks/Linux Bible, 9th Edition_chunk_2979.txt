@@ -1,0 +1,15 @@
+With the classiﬁ cation set to topsecret, you can have 
+Top Secret displayed on all pages that go through the print server:
+
+Classification topsecret
+
+Other classiﬁ cations you can substitute for topsecret include classified, 
+ confidential, secret, and unclassified.
+
+The ServerCertificate and ServerKey lines (not set by default) can be set up to 
+ indicate where the certiﬁ cate and key are stored, respectively:
+
+ServerCertificate /etc/cups/ssl/server.crt
+ServerKey /etc/cups/ssl/server.key
+
+Activate these two lines if you want to do encrypted connections.

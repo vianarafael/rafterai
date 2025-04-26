@@ -1,0 +1,3 @@
+Managing Linux services (see Chapter 
+15, “Starting and Stopping Services”) can be very different depending on the different 
+ distributions.

@@ -1,0 +1,19 @@
+For different Linux systems, you need to 
+ﬁ nd the name of the service and the correct tool to start the smbd daemon.
+
+In Fedora and RHEL 7, to enable Samba to start when the system boots and start Samba 
+immediately, type the following from the command line as root:
+
+# systemctl enable smb.service
+# systemctl start smb.service
+# systemctl status smb.service
+smb.service - Samba SMB Daemon
+  Loaded: loaded (/usr/lib/systemd/system/smb.service; enabled)
+  Active: active (running) since Sun 2014-08-31 07:23:37 EDT; 6s ago
+ Main PID: 4838 (smbd)
+CGroup: /system.slice/smb.service
+  ├ 4838 /usr/sbin/smbd
+  └ 4840 /usr/sbin/smbd
+
+The ﬁ rst systemctl command enables the service, the second starts it immediately, and 
+the third shows the status.

@@ -1,0 +1,18 @@
+We will make a few assumptions here:
+
+•	
+
+•	
+
+•	
+
+You are using a CentOS ISO from the CentOS web site (www.centos.org/download/ 
+and you have burned it onto a CD/DVD/USB.
+
+You are building just a basic mail, DNS (Domain Name System), and web server.
+
+You are installing on a fresh server without any previous operating system.
+
+First, put your installation media (usually a CD, DVD, or USB) into your host and power it on.
+
+If you were building a virtual machine, you’d build instead from the raw ISO.

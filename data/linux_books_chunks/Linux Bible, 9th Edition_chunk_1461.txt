@@ -1,0 +1,7 @@
+For RHEL, updates are available as part of the 
+ subscription price.
+
+ ■ Disk space—Fedora recommends at least 10GB of disk space for an average  desktop 
+installation, although installations can range (depending on which packages you 
+choose to install) from 600MB (for a minimal server with no GUI install) to 7GB 
+(to install all packages from the installation DVD).

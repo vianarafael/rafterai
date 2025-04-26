@@ -1,0 +1,13 @@
+Let’s quickly show how to 
+install and set it up.
+
+Installation is simple via package management on both distributions.
+
+$ sudo yum install –y chrony
+$ sudo aptitude install –y chrony
+
+424
+
+There is a configuration file placed in /etc/chrony.conf on CentOS and /etc/chrony/chrony.conf on 
+
+Ubuntu.

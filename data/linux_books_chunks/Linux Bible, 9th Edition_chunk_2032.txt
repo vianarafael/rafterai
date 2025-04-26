@@ -1,0 +1,11 @@
+For example, when you run 
+a command, that command is copied from the hard disk into RAM so that your computer processor 
+(CPU) can access it more quickly.
+
+283
+
+c12.indd  04/01/2015  Page 284
+
+Part III: Becoming a Linux System Administrator
+
+Your CPU can access data much faster from RAM than it can from hard disk.

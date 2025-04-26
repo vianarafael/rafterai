@@ -1,0 +1,15 @@
+Here are ways to clear that information:
+
+# yum clean packages
+Cleaning repos: rhel-7-server-rpms
+7 package files removed
+# yum clean metadata
+43 metadata files removed
+13 sqlite files removed
+# yum clean all
+Cleaning repos: rhel-7-server-rpms
+Cleaning up Everything
+
+10
+
+Although unlikely, it’s possible that the RPM database can become corrupted.

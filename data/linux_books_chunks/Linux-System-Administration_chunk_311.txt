@@ -1,0 +1,13 @@
+In this case 3 corresponds to ide and 8 to sd. The major number determines the
+device driver to be used with this device.
+
+The  minor  number  is  a  unique  identification  of  an  instance  of  this  device  type.  The
+devices.txt file in the kernel tree contains a full list of major and minor numbers.
+
+47
+
+  
+  
+disk partitions
+
+5.2.3.

@@ -1,0 +1,6 @@
+This remote logging feature is particularly handy because it enables you to centralize the 
+management and review of the log ﬁ les from many systems on your network. There is also a 
+major security beneﬁ t to this practice.
+
+With remote logging, if a system on your network is broken into, the cracker cannot delete 
+or modify the log ﬁ les because those ﬁ les are stored on a separate computer.

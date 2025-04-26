@@ -1,0 +1,11 @@
+We are not 
+
+suggesting that you manage users in this way but instead demonstrating the effect of this command.
+
+ ■ Caution 
+
+ if you are logged in via SSh or X, you will already have several running processes.
+
+The other useful limits are the maximum memory size, which can be set via the -m option, and the 
+
+number of open files, which you set via -n.

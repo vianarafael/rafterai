@@ -1,0 +1,13 @@
+Using sudo provides the following 
+security beneﬁ ts:
+
+ ■ The root password does not have to be given out.
+
+ ■ You can ﬁ ne-tune command access.
+
+ ■ All sudo use (who, what, when) is recorded in /var/log/secure.
+
+All failed sudo access attempts are logged.
+
+After you grant someone sudo permission, you can try to restrict root access to certain com-
+mands in the /etc/sudoers ﬁ le (with the visudo command).

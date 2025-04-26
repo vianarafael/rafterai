@@ -1,0 +1,11 @@
+pol pol unconfined_u:object_r:user_home_t:s0 test
+[pol@centos65 ~]$ ls -Z /tmp/test
+-rw-rw-r--. pol pol unconfined_u:object_r:user_tmp_t:s0 /tmp/test
+
+106
+
+introduction to SELinux
+
+12.18. extended attributes
+
+Extended attributes are used by selinux to store security contexts.

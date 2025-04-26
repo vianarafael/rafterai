@@ -1,0 +1,7 @@
+Direct host or address lookups can be 
+done via the host utility.
+
+ ■ Note  You may be used to using the deprecated nslookup utility. the host command is its replacement.
+
+You pass the hostname or address you want to look up and optionally the DNS server you want to 
+query, as shown in Listing 10-8.

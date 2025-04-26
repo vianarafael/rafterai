@@ -1,0 +1,6 @@
+CGroups are implemented in the kernel and are used to group system 
+resources for isolation and performance purposes.
+
+The output in Listing 6-11 is very verbose and is useful for the system administrator to view the details, but 
+
+if we were to do this programmatically it is a lot of data to “grok” to see the status of our service.

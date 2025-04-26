@@ -1,0 +1,7 @@
+You can do this by typing several commands on the same 
+command line and separating them with semicolons (;):
+
+$ date ; troff -me verylargedocument | lpr ; date
+
+In this example, I was formatting a huge document and wanted to know how long it would 
+take. The ﬁ rst command (date) showed the date and time before the formatting started.

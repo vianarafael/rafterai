@@ -1,0 +1,5 @@
+Ext4 
+is intended as an all-round filesystem with excellent performance. It can support volumes up to 1 exbibyte 
+and a max file size of 16 tebibtyes. It is the default choice for the Ubuntu 16.04 distribution.
+
+Another option available to you for storing video, large images, or database files is the XFS filesystem.

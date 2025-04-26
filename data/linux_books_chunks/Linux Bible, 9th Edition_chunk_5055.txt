@@ -1,0 +1,18 @@
+The private key is stored in your desktop 
+
+763
+
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 764
+
+Part VI: Extending Linux into the Cloud
+
+user’s home directory, and the public key is injected into the virtual machine so you can 
+log in remotely (via ssh) to the virtual machine without typing a password. Here’s how to 
+set up your keys:
+
+1.  Select Access & Security.

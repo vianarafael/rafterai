@@ -1,0 +1,8 @@
+it’s rarely 
+
+ ■ Note 
+used anymore, but all well-behaved mail servers should support it as a fallback in case your client is older and 
+doesn’t recognize EHLO.
+
+We are going to make a connection to a mail server now using the netcat (nc) command. We are going 
+to use nc to show you the actual commands that mail servers send to each other when sending e-mail.

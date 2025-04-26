@@ -1,0 +1,12 @@
+In this chapter, I cover the following init 
+systems that have been used in Fedora, Red Hat Enterprise Linux, Ubuntu, and many other Linux 
+distributions:
+
+377
+
+c15.indd  04/01/2015  Page 378
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ SysVinit—This traditional init system was created for UNIX System V systems in 
+the early 1980s.

@@ -1,0 +1,10 @@
+It is synonymous with noatime.
+
+If it is not set, you simply add the noatime option to the options field in the /etc/fstab file for each 
+
+filesystem on which you want to enable this option.
+
+UUID=f87a71b8-a323-4e8e-acc9-efb0758a0642 / ext4 defaults, 
+   errors=remount-ro,relatime 0 1
+
+This will enable the option the next time the filesystem is mounted.

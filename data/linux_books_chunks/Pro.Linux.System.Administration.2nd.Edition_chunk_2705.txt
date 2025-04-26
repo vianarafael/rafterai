@@ -1,0 +1,7 @@
+All that is left to do is make sure DHCP requests reach our server 
+
+through the firewall. A DHCP client by definition does not have an IP address assigned yet, so it cannot send 
+a packet to a specific network address.
+
+What it does instead is broadcast a UDP packet to port 67 at the address 255.255.255.255, which is 
+the broadcast address for the 0.0.0.0 network.

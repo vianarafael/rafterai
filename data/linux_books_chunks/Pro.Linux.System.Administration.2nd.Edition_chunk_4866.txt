@@ -1,0 +1,13 @@
+Because the block size on our disks is 4KB, this means they aren’t very 
+heavily loaded.
+
+ if you have forgotten the block size of your disk or partition, you can issue the following: blockdev –
+
+ ■ Tip 
+getbsz <partition>.
+
+807
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+What constitutes a heavy load will depend on the block size and the speed of the disks.

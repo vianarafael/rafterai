@@ -1,0 +1,35 @@
+550
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c21.indd  04/01/2015  Page 551
+
+C H A P T E R 
+
+21
+
+Troubleshooting Linux
+
+IN THIS CHAPTER
+
+Troubleshooting boot loaders
+
+Troubleshooting system initialization
+
+Fixing software packaging problems
+
+Checking network interface issues
+
+Dealing with memory problems
+
+Using rescue mode
+
+I n any complex operating system, lots of things can go wrong.

@@ -1,0 +1,18 @@
+The command must be run 
+on the system we wish to protect and the floppy with the kernel must be in the drive
+
+rdev /dev/fd0 /dev/hda2
+
+25
+
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+Custom Boot Disk 2: 
+
+The syslinux package installs a binary called syslinux that can be used to create 
+bootable floppies.

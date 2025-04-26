@@ -1,0 +1,6 @@
+The e-mail is then scanned and sent back to Postfix for delivery. 
+A client or MDA can then make use of the results of that scanning, again a header added to the e-mail, 
+to determine what to do with the e-mail. In Figure 12-3 you can see the proposed flow of e-mail through 
+Postfix.
+
+Figure 12-3.

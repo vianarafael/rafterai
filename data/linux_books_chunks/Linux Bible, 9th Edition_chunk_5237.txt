@@ -1,0 +1,36 @@
+To delete the mogrify command from your system and verify its package against 
+the RPM database to see that the command is indeed missing, type the following:
+
+B
+
+# type mogrify
+mogrify is /usr/bin/mogrify
+# rm /usr/bin/mogrify
+
+797
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 798
+
+Appendix B: Exercise Answers
+
+rm remove regular file '/usr/bin/mogrify'? y
+# rpm -V ImageMagick
+missing   /usr/bin/mogrify
+
+7.

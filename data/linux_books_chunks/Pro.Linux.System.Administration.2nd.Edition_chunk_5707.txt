@@ -1,0 +1,4 @@
+These are not, however, normal attributes—they are called metaparameters. Let’s 
+look at each metaparameter and see what it does.
+
+The require metaparameter allows you to build a relationship to one or more resources.

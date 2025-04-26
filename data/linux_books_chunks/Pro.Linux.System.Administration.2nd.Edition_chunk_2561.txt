@@ -1,0 +1,7 @@
+these are stored in the name server as rrsIG records.
+
+the public key of the zone signing key pair is called the DnsKeY and it is published as a record on the name 
+server too. the DnsKeY is used to validate the rrsIG signature to verify the authenticity of the rrset.
+
+however, we now need to validate the DnsKeY; how do we know it is the real one? for that we have a 
+key signing key pair.

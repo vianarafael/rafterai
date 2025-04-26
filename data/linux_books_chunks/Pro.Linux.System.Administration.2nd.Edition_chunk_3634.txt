@@ -1,0 +1,5 @@
+This allows for access to common data shared 
+by a centralized file server host. The two main tools for achieving this are Samba for Microsoft Windows 
+desktops and NFS for Linux or Unix hosts (macOS can use either).
+
+Samba can provide user authentication for file shares and printer services.

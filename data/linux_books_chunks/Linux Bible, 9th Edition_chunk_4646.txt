@@ -1,0 +1,8 @@
+This is accomplished 
+using the code that follows by issuing the semanage port -l command and piping the 
+results into grep to search for ssh.
+
+# semanage port -l | grep ssh
+ssh_port_t                tcp             22
+
+In the preceding example, the context type needed is ssh_port_t.

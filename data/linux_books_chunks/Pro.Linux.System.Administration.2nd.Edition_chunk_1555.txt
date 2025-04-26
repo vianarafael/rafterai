@@ -1,0 +1,7 @@
+Rules are the basic Netfilter configuration items that contain 
+criteria to match particular traffic and perform an action on the matched traffic.
+
+Traffic that is currently being processed by the host is compared against these rules, and if the current 
+
+packet being processed satisfies the selection criteria of a rule, the action, known as a target, specified by 
+that rule is carried out.

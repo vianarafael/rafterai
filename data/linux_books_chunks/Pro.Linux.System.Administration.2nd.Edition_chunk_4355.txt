@@ -1,0 +1,24 @@
+You 
+should see similar entries to those in Listing 15-5, but you’ll also see the negotiation process as our client 
+connects to the server.
+
+Sun Oct 23 06:24:58 2016 us=729639 [gateway.example.com] Peer Connection Initiated 
+ with [AF_INET]10.0.2.155:1194
+
+ You will see factious public ipv4 addresses here (10.0.2.155 and 10.0.2.156) in these examples that 
+
+ ■ Note 
+match the diagram in Figure 15-2.
+
+You should also see some entries on the gateway host in the /var/log/openvpn.log file showing the 
+
+connection.
+
+gateway$ less /var/log/openvpn.log
+Sun Oct 23 06:25:06 2016 us=416152 branch1.example.com/10.0.2.156:1194 SENT CONTROL 
+[branch1.example.com]: 'PUSH_REPLY,route 10.8.0.1,topology net30,ping 10,ping-restart 
+120,ifconfig 10.8.0.6 10.8.0.5' (status=1)
+
+In addition, you can see a new interface created on both the gateway and branch1 hosts, starting 
+
+with tun.

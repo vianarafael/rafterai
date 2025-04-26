@@ -1,0 +1,5 @@
+We have specified the –d option which sets the 
+profile for the data block groups. The –m option sets the profile for the metadata block group. Then we have 
+specified the four disks we are using.
+
+At the end it says we have created an fs label on /dev/sdb.

@@ -1,0 +1,14 @@
+Checking in with our S3 bucket, 
+we can see that there are now several files related to our backup.
+
+$ aws s3 ls our-backup/nightly/
+2016-10-16 03:35:34          0
+2016-10-16 04:25:55   36877167 duplicity-full-signatures.20161015T235721Z.sigtar.gpg
+2016-10-16 04:39:28     634738 duplicity-full.20161015T235721Z.manifest.gpg
+2016-10-16 03:35:37   26244347 duplicity-full.20161015T235721Z.vol1.difftar.gpg
+2016-10-16 03:35:37   26194091 duplicity-full.20161015T235721Z.vol10.difftar.gpg
+2016-10-16 03:35:37   26196749 duplicity-full.20161015T235721Z.vol11.difftar.gpg
+2016-10-16 03:35:38   26227650 duplicity-full.20161015T235721Z.vol12.difftar.gpg
+...
+
+In the S3 listing, we can see the files that make up our backup.

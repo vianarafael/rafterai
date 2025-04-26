@@ -1,0 +1,15 @@
+Example:
+
+# iptables -t filter -P OUTPUT DROP
+
+ ■ -P chain target
+
+Sets the overall policy for a particular chain. The rules in the chain are checked 
+for matches. If no match occurs, then the chain’s listed target is used. Example:
+
+# iptables -P INPUT ACCEPT
+
+ ■ -A chain
+
+Sets a rule, called an “appended rule,” which is an exception to the overall policy 
+for the chain designated.

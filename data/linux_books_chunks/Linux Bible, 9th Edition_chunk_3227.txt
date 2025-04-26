@@ -1,0 +1,6 @@
+You should not set it to any value 
+lower than crit and should avoid leaving it set to debug because that can slow down the 
+server and result in a very large ErrorLog.
+
+As a last resort, you can also try running httpd -X manually to check for crashes or other 
+error messages.

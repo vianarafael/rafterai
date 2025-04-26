@@ -1,0 +1,6 @@
+RHEL 6, which contains a hybrid of Upstart and System V 
+init, is used in the example of System V initialization.
+
+Troubleshooting System V initialization
+Most Linux systems up to a few years ago used System V init to initialize the services on 
+the Linux system.

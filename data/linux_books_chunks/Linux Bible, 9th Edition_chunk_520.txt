@@ -1,0 +1,2 @@
+Right-click it, and add applets or launchers to it as you 
+would to a panel.

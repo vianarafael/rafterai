@@ -1,0 +1,5 @@
+Next, we may have 
+an h or an s zero or more times ([hs]?). Then we anchor around the d, followed by any a to z disk ([a-z]). 
+Then, we expect zero or more partition numbers (\d?). Finally, the end of the line is also matched ($).
+
+When we match with IgnoreSelected false, we should be able to match on our disk names.

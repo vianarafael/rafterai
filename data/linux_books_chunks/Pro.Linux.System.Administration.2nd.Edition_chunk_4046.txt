@@ -1,0 +1,14 @@
+We are going to 
+edit that to manage our backups now.
+
+660
+
+Chapter 14 ■ BaCkup and reCovery
+
+ ■ Note 
+
+ If you want to configure duply for the root user, you can configure duply in the /etc/duply directory.
+
+There are many options available to us in the configuration file, but we need to set only a couple to 
+
+create our backups.

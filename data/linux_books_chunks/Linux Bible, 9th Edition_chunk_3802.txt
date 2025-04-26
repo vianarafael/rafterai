@@ -1,0 +1,7 @@
+At the very least, those options must contain the 
+name of the kernel (such as vmlinuz-2.6.32.el6.x86_64) and the partition 
+ containing the root ﬁ lesystem (such as /dev/mapper/abc-root). If you want, 
+you can add other options to the kernel line.
+
+You may want to add kernel options to add features to the kernel or temporarily 
+disable hardware support for a particular component.

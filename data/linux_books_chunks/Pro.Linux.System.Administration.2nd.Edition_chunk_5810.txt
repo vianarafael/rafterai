@@ -1,0 +1,12 @@
+In the 
+
+vars.yml file, we will add the following:
+
+backup_database_password: "{{ vault_backup_database_password }}"
+
+Then in the vault.yml file, we will add our hashed MySQL password like this:
+
+vault_backup_database_password: '*35D93ADBD68F80D63FF0D744BA55CF920B2A45BD'
+
+The reason we do this is because once we encrypt this file, we will have no way of seeing the keys 
+that we are using.

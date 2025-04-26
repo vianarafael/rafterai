@@ -1,0 +1,9 @@
+In 
+this section we will show you more on that directive and how to secure your site with a basic username and 
+password.
+
+483
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+The Require directive can be used to limit access to directory (and location) paths.

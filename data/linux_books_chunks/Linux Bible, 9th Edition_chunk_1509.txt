@@ -1,0 +1,6 @@
+After choosing the DVD or a network 
+ location, you can add additional yum repositories to have those repositories used 
+during installation as well. Select Done when you are ﬁ nished.
+
+9.  Software Selection. A minimal installation is selected by default, which offers 
+no desktop interface (shell only).

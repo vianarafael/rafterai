@@ -1,0 +1,14 @@
+In our example, we will set Listen to listen on all addresses on port 80.
+
+Listen 80
+
+It is possible to change which user and group the web server runs as by setting the User and Group 
+
+fields.
+
+User apache
+Group apache
+
+If you change the User and Group fields, it is important that you do not change them to a user and group 
+
+used elsewhere on the system, like a database user, for instance.

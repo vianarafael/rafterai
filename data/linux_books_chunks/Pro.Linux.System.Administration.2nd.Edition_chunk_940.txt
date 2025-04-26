@@ -1,0 +1,14 @@
+Using sudo Authorization on Multiple Hosts
+
+ataylor au-mel-centos-1=/bin/userdel,/bin/useradd
+ataylor au-syd-ubuntu-1=ALL
+
+In Listing 5-19, the user ataylor is allowed to use only the userdel and useradd commands on the host 
+
+au-mel-centos-1, but on the host au-syd-ubuntu-1, she is allowed to use all commands as represented by 
+the ALL option.
+
+ ■ Caution 
+the ALL variable allows no granularity of authorization configuration.
+
+ You should be careful when using the ALL variable to define access to all commands on a host.

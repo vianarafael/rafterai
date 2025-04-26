@@ -1,0 +1,22 @@
+The resulting permissions are shown to the right of 
+each command:
+
+111
+
+c04.indd  04/01/2015  Page 112
+
+Part II: Becoming a Linux Power User
+
+The following chmod command results in this permission: r-xr-xr-x
+
+$ chmod a-w file
+
+The following chmod command results in this permission: rwxrwxrw-
+
+$ chmod o-x file
+
+The following chmod command results in this permission: rwx------
+
+$ chmod go-rwx file
+
+Likewise, the following examples start with all permissions closed (---------).

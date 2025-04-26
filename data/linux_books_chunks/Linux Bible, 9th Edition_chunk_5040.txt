@@ -1,0 +1,14 @@
+Some all-in-one 
+
+760
+
+c27.indd  04/01/2015  Page 761
+
+Chapter 27: Deploying Linux to the Cloud
+
+setups for OpenStack can run on a single machine, but I think you will have a 
+ better experience if you start with three physical machines: one controller node 
+and two hypervisors.
+
+ ■ Public OpenStack clouds—You can try out public OpenStack clouds for varying 
+costs.

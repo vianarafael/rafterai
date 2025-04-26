@@ -1,0 +1,5 @@
+We provide a server name, port we 
+listen on, and root path. The root does not need to exist as all requests will be passed off to the back-end 
+servers. We do this with the location / { ... } directive. When we make a request to any URI, we try first 
+to return the URI, and then, if it is not found, we send the request to the @graphite location. The location 
+@graphite { ...

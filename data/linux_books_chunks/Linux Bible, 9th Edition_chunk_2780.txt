@@ -1,0 +1,26 @@
+Notice that an OK is given, which lets you know that cupsd has been successfully stopped.
+
+# service cups status
+cupsd (pid 5857) is running...
+# service cups stop
+Stopping cups:        [  OK  ]
+# service cups status
+cupsd is stopped
+
+15
+
+403
+
+c15.indd  04/01/2015  Page 404
+
+Part IV: Becoming a Linux Server Administrator
+
+To start a service, you simply use a start option instead of a stop option on the end of 
+the service command as follows.
+
+# service cups start
+Starting cups:         [  OK  ]
+# service cups status
+cupsd (pid 6860) is running...
+
+To restart a SysVinit service, the restart option is used.

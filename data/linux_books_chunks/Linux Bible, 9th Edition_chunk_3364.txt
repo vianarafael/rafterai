@@ -1,0 +1,9 @@
+For example:
+
+ftp://chris:MypassWd5@localhost
+
+If you provide the correct username and password, you should immediately see the contents 
+of your home directory. Click a folder to open it. Click a ﬁ le to download or view the ﬁ le.
+
+Accessing an FTP server with the lftp command
+To test your FTP server from the command line, you can use the lftp command.

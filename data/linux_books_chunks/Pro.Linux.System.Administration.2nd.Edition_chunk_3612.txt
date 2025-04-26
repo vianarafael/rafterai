@@ -1,0 +1,6 @@
+We’re not going to demonstrate these concepts, but we’ll 
+explain them and refer you to documentation that will allow you to extend what we’ve built in this chapter to 
+do all of this.
+
+Hosting virtual domains allows you to receive e-mail for additional domains. For example, say you 
+currently receive mail for the domain example.com.

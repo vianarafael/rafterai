@@ -1,0 +1,7 @@
+You can set global filters or individual filters in 
+the users’ home directories. In this example, we are going to show you how mail that has been marked as 
+spam can be moved to your spam folder for later inspection.
+
+Sieve has several easy-to-understand commands and conditionals. You require those you need at the 
+
+top of your Sieve file, which you usually find in ~/.dovecot.sieve.

@@ -1,0 +1,13 @@
+To see all the services, no matter what their state, remove 
+the grep portion of the preceding initctl list and service --status-all commands.
+
+15
+
+401
+
+c15.indd  04/01/2015  Page 402
+
+Part IV: Becoming a Linux Server Administrator
+
+To show the status of a single service, use initctl if the service has been ported to 
+Upstart and the service command if it has not been ported yet.

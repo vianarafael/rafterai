@@ -1,0 +1,17 @@
+The two comment lines and the default option are no longer
+there.
+
+[root@RHEL4b samba]# cat smb.conf
+# Global parameters
+[global]
+server string = Public Test Server
+
+[firstshare]
+path = /srv/samba/public
+[root@RHEL4b samba]#
+
+10.3. /usr/bin/smbclient
+
+10.3.1. smbclient looking at Samba
+
+With smbclient you can see browsing and share information from your smb server.

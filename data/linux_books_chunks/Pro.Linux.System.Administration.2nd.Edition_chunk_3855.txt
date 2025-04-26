@@ -1,0 +1,12 @@
+This can be any user, and we will make bsingh our printer 
+administrator by adding them to the lpadmin group.
+
+$ usermod –aG lpadmin bsingh
+
+Next, unless this CUPS server is running locally, we are going to allow it to be administratively 
+
+accessible remotely.
+
+$ sudo cupsctl --remote-admin
+
+Now we are going make sure it can reached by our print server hostname.

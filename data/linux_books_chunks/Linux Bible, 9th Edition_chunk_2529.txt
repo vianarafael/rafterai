@@ -1,0 +1,10 @@
+This 
+causes all requests for web pages (http:// protocol) to be forwarded to the 
+proxy server.
+
+ ■ Port—The port associated with the proxy service. By default, the port number is 
+
+3128, but it can differ.
+
+ ■ Use this proxy server for all protocols—Select this box to use the same proxy 
+server and port associated with the HTTP proxy for all other service requests.

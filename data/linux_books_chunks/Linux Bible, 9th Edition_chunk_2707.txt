@@ -1,0 +1,40 @@
+Consider the 
+following Network Manager daemon’s conﬁ guration ﬁ le:
+
+$ cat /etc/init/network-manager.conf
+# network-manager - network connection manager
+#
+# The NetworkManager daemon manages the system's network connections
+# automatically switching between the best available.
+
+description     "network connection manager"
+
+start on (local-filesystems and started dbus)
+stop on stopping dbus
+
+expect fork
+respawn
+
+exec NetworkManager
+$
+
+From the example, you can see that there are two events that must take place in order to 
+trigger the Upstart init daemon to start the NetworkManager daemon:
+
+ ■ The local-filesystems event—The Upstart init daemon emits this event 
+when all the local ﬁ lesystems in the /etc/fstab conﬁ guration ﬁ le have been 
+mounted.
+
+ ■ The dbus daemon started event—The Upstart init daemon emits this 
+
+started event when the dbus daemon has reached the start/running state.
+
+Thus, when these two events occur, the Upstart init daemon is informed and starts the 
+NetworkManager daemon.
+
+Because the Upstart init daemon can handle these events and tracks the status (state) 
+of processes, it is often referred to as a “state machine.” The Upstart init daemon is also 
+referred to as an “event engine” because it emits events itself.
+
+Learning Upstart’s backward compatibility to SysVinit
+Upstart provides backward compatibility to the SysVinit daemon.

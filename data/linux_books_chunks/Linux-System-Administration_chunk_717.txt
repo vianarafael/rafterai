@@ -1,0 +1,8 @@
+UPS and loss of power
+
+[root@RHEL52 ~]# grep ^p /etc/inittab 
+pf::powerfail:/sbin/shutdown -f -h +2 "Power Failure; System Shutting Down"
+pr:12345:powerokwait:/sbin/shutdown -c "Power Restored; Shutdown Cancelled"
+
+It will read commands on what to execute in case of powerfailure, powerok and Ctrl-Alt-
+Delete.

@@ -1,0 +1,5 @@
+By default, it is set to all, but you can specify ipv6 or ipv4 depending 
+on your needs. On CentOS, setting all to inet_protocol will also make the default interface we listen on ipv6, 
+which will mean our e-mail server will need to be ipv6 capable to avoid errors.
+
+Finally, after making all the relevant changes, we need to restart Postfix.

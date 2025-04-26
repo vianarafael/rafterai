@@ -1,0 +1,6 @@
+The -X runs httpd so it displays debug and higher messages on the screen.
+
+Accessing forbidden and server internal errors
+The two common types of errors that you may encounter when attempting to view speciﬁ c 
+pages on your server are permission errors and server internal errors. Both types of errors 
+can usually be isolated using the information in the error log.

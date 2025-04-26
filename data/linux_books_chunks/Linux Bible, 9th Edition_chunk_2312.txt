@@ -1,0 +1,6 @@
+Type yes, and press 
+Enter. When prompted, type the user’s password.
+
+When you type yes to continue, you accept the remote host’s public key. At that point, the 
+remote host’s public key is downloaded to the client in the client’s ~/.ssh/known_hosts 
+ﬁ le.

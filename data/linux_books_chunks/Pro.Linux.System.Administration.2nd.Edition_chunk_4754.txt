@@ -1,0 +1,7 @@
+Shadow details
+
+In the Shadow tab, we will leave the defaults as is. You can see these defaults in Figure 16-9.
+
+Figure 16-9.  User add complete
+
+To finish creating our user, we go back to the Main tab and click the Create Account button.

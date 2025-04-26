@@ -1,0 +1,12 @@
+If either of these devices should fail, our spare (/dev/sde) will be automatically activated and synchronized.
+
+You can also quickly see your RAID device by querying the /proc filesystem:
+
+$ cat /proc/mdstat
+Personalities : [raid1]
+md0 : active raid1 sde[2](S) sdd[1] sdc[0]
+      8383424 blocks super 1.2 [2/2] [UU]
+
+unused devices: <none>
+
+We can see the [UU] and that tells us both devices [2/2] are Up.

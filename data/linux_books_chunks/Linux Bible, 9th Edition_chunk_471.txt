@@ -1,0 +1,6 @@
+From there, you can choose the On/Off button, which allows you 
+to Log Out, Suspend your session, or switch to a different user account without logging out.
+
+Using the GNOME 2 Desktop
+The GNOME 2 desktop is the default desktop interface used up through Red Hat Enterprise 
+Linux 6.

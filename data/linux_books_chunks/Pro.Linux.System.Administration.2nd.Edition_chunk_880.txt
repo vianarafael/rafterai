@@ -1,0 +1,5 @@
+Aliases allow you to create 
+shortcuts or set default options for often-used commands. A prime example is an alias for the ls command 
+we looked at in Chapter 4.
+
+When listing files with ls, we saw in Chapter 4 that we get a simple listing of our files in a directory.

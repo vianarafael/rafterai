@@ -1,0 +1,27 @@
+A Linux system installed directly 
+on a PC architecture computer goes through the following steps to boot up:
+
+ ■ Turning on the power
+
+ ■ Starting the hardware (from BIOS or UEFI ﬁ rmware)
+
+551
+
+c21.indd  04/01/2015  Page 552
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Finding the location of the boot loader and starting it
+
+ ■ Choosing an operating system from the boot loader
+
+ ■ Starting the kernel and initial RAM disk for the selected operating system
+
+ ■ Starting the initialization process (init or systemd)
+
+ ■ Starting all the services associated with the selected level of activity (runlevel or 
+
+default target)
+
+The exact activities that occur at each of these points have undergone a transformation 
+in recent years.

@@ -1,0 +1,7 @@
+If you are using a net install, this may take some time depending on 
+your Internet connection. You will be presented with a progress bar similar to the one shown in Figure 2-60.
+
+Figure 2-60.  Installing base system requirements
+
+Once that is complete, we are asked if we require the use of a proxy server to download the packages 
+required for the complete installation.

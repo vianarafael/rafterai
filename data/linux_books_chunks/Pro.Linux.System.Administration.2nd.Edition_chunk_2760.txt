@@ -1,0 +1,3 @@
+When the X11Forwarding option is set to on and you pass the -X parameter to 
+the SSH client when you connect to such a host, you can run any graphical applications and their windows 
+will be displayed on your local desktop.

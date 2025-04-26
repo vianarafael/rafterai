@@ -1,0 +1,6 @@
+Mounting  a  file  system
+makes it available for use, usually as a directory. We say mounting a file system instead
+of mounting a partition because we will see later that we can also mount file systems that
+do not exists on partitions.
+
+On all Unix systems, every file and every directory is part of one big file tree.

@@ -1,0 +1,11 @@
+However, by installing awscli previously, we should have already installed 
+python-boto.
+
+$ sudo aptitude install –y duply
+
+For CentOS, you will need to use YUM, of course.
+Now that Duply is installed, we can investigate how to use the command. Table 14-3 shows the 
+
+command usage to get help information (--help or help do not work).
+
+Table 14-3.

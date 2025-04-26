@@ -1,0 +1,16 @@
+The next section should help you open 
+
+19
+
+505
+
+c19.indd  04/01/2015  Page 506
+
+Part IV: Becoming a Linux Server Administrator
+
+Samba to systems outside the local system, as well as allow some Samba features that may 
+be turned off by SELinux.
+
+Stopping the Samba (smb) and NetBIOS (nmb) services
+To stop the smb and nmb services in Fedora or RHEL 7, you can use the same systemctl 
+command you used to start them.

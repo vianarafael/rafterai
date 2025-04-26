@@ -1,0 +1,4 @@
+There are 
+a number of ways we can test this now. The first is to configure a client to send authenticated e-mail to our 
+server. But since we haven’t enabled a way for a client to browse a mailbox yet, such as the IMAP or POP3 
+protocols, this isn’t overly useful.

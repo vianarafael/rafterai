@@ -1,0 +1,12 @@
+Each of 
+these entries requires a distinguished name (DN). The DN of an entry consists of the relative distinguished 
+name (RDN) and the ancestor entries that it belongs to. Figure 16-1 shows the basic relationships between 
+DIT, DN, and RDN.
+
+Figure 16-1.  DITs, DNs, and RDNs
+
+735
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+The DIT is the directory tree, and in this case it has the root DN of dc=com.

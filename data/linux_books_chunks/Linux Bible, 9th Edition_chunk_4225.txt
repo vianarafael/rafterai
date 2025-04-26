@@ -1,0 +1,12 @@
+This is typical of a rootkit.
+
+# chkrootkit | grep INFECTED
+Checking 'du'... INFECTED
+Checking 'find'... INFECTED
+Checking 'ls'... INFECTED
+Checking 'lsof'... INFECTED
+Checking 'pstree'... INFECTED
+Searching for Suckit rootkit... Warning: /sbin/init INFECTED
+
+In the last line of the preceding chkrootkit code is an indication that the system has 
+been infected with the Suckit rootkit.

@@ -1,0 +1,9 @@
+For our example, choose the ﬁ rst 
+selection (Local install media) and click Forward.
+
+c.  Choose the ISO. Select the Use ISO Image button and choose Browse. In the  window 
+
+that appears, select or browse to the Fedora 21 Workstation ISO, select Choose 
+Volume, and click Forward to continue.
+
+d.  Choose the memory and CPU.

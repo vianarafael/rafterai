@@ -1,0 +1,7 @@
+For other settings that can appear in the network ﬁ les, 
+check the sysconfig.txt ﬁ le in the /usr/share/doc/initscripts-* directory.
+
+/etc/hostname file
+In RHEL 7 and the latest Fedora releases, the system’s hostname is stored in the 
+/etc/hostname ﬁ le. For example, if the ﬁ le included the hostname host1.example.
+com, that hostname would be set each time the system booted up.

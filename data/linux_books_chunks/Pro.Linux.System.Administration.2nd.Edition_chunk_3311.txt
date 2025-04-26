@@ -1,0 +1,5 @@
+We 
+recommend leaving it at 1 for day-to-day operations, and this will produce some brief information about the 
+connection and any certificates used.
+
+We also set some options that determine what ciphers we will accept and what protocol we want to use.

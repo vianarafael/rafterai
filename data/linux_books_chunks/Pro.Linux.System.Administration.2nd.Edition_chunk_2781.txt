@@ -1,0 +1,14 @@
+You create a local forward by passing the -L option to 
+
+468
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+the SSH client and specifying an optional local address followed by a mandatory local port as the start for the 
+tunnel, and then a remote host and a remote port as the end for the tunnel, all separated by colons.
+
+$ ssh -L 8080:192.168.1.12:80 ataylor@192.168.1.1
+
+This command connects us to the host 192.168.1.1 as the user ataylor and sets up a tunnel that allows 
+
+us to browse the web site on the host 192.168.1.12 by visiting http://localhost:8080 in our web browser.

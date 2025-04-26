@@ -1,0 +1,11 @@
+The 
+ following example shows how to reload the cups daemon.
+
+# service cups status
+cupsd (pid 8236) is running...
+# service cups reload
+Reloading cups:            [  OK  ]
+# service cups status
+cupsd (pid 8236) is running...
+
+If a SysVinit service is stopped when you attempt to reload it, you get a FAILED status.

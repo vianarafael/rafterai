@@ -1,0 +1,8 @@
+hierarchy
+
+The dns namespace is hierarchical tree structure, with the root servers (aka dot-servers) at
+the top. The root servers are usually represented by a dot.
+
+Below the root-servers are the Top Level Domains or tld's.
+
+There are more tld's than shown in the picture. Currently about 200 countries have a tld.

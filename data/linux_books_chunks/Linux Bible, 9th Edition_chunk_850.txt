@@ -1,0 +1,6 @@
+(Typing cd – returns you to the directory represented 
+by $OLDPWD.)
+
+As I mentioned earlier, there are many useful options for the ls command. Return 
+to the $HOME/test directory you’ve been working in. Here are some examples of ls 
+options.

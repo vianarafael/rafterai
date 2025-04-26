@@ -1,0 +1,9 @@
+By adding a selection 
+of pool.ntp.org servers, you are assured of always having up-to-date and nearby servers available for 
+synchronization.
+
+ ■ Note  You can read more about the project and join the pool at www.pool.ntp.org/.
+
+Using the host command, we are going to see what 0.ubuntu.pool.ntp.org will return as shown in 
+
+Listing 10-3.

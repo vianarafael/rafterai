@@ -1,0 +1,15 @@
+Notice  that  make  modules_install  created  a  new
+directory for the new kernel.
+
+[root@RHEL52 linux-2.6.18.i686]# ls -l /lib/modules/
+total 24
+drwxr-xr-x 6 root root 4096 Oct 15 13:09 2.6.18-92.1.13.el5
+drwxr-xr-x 6 root root 4096 Nov 11 08:51 2.6.18-92.1.17.el5
+drwxr-xr-x 6 root root 4096 Dec  6 07:11 2.6.18-92.1.18.el5
+drwxr-xr-x 3 root root 4096 Dec  6 08:50 2.6.18-paul2008
+
+341
+
+the Linux kernel
+
+28.5.9.

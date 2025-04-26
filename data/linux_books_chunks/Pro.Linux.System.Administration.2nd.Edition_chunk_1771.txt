@@ -1,0 +1,18 @@
+Of course, if you use only one distribution, then you need to learn about just one type of package 
+management.
+
+Although all Linux distributions can contain thousands or tens of thousands of packages, broadly 
+
+speaking these packages fall into three main categories.
+
+•	
+
+•	
+
+Application packages
+
+Library packages
+
+•	 Development packages
+
+Most application packages contain, as the name suggests, applications.

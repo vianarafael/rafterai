@@ -1,0 +1,7 @@
+This chapter describes many of the features of the Software window, as well 
+as yum and rpm commands.
+
+With your system installed and the software packages that you need added, it’s time to 
+further conﬁ gure your Fedora, RHEL, Debian, or Ubuntu system. If you expect to have 
+multiple people using your system, your next task could be to add and otherwise manage 
+user accounts on your system.

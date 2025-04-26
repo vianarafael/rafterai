@@ -1,0 +1,7 @@
+The following is a list of common 
+ features that a system administrator is expected to manage:
+
+ ■ Filesystems—When you ﬁ rst install Linux, the directory structure is set up to make 
+the system usable. However, if users later want to add extra  storage or change the 
+ﬁ lesystem layout outside their home directory, they need  administrative privileges 
+to do that.

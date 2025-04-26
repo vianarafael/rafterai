@@ -1,0 +1,5 @@
+Always back up your data before you try to resize a Windows (NTFS 
+or FAT) fi lesystem to make space for Linux.
+
+If the computer you are using already has a Windows system on it, quite possibly the entire 
+hard disk is devoted to Windows.

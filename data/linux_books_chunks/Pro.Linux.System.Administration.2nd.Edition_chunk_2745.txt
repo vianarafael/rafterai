@@ -1,0 +1,7 @@
+If this is not the case, we can copy the key to username@remotehost instead.
+
+Next, we’re prompted for the login password, since our key is not yet listed in the correct file on the 
+remote host. Once we’re authenticated, ssh-copy-id appends the public key to the correct file and asks us to 
+test it. We do this by logging in to the remote host, as shown in Listing 10-35.
+
+Listing 10-35.

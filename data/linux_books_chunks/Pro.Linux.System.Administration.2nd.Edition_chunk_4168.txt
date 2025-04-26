@@ -1,0 +1,46 @@
+Our main interest here will be retention 
+or how long we hold the data for before we wipe it.
+
+679
+
+Chapter 14 ■ BaCkup and reCovery
+
+In our Pool definition we have made the following changes to the default:
+
+Pool {
+  Name = Full
+  Pool Type = Backup
+  Recycle = yes
+  Recycle Oldest Volume = Yes
+  AutoPrune = yes
+  Volume Retention = 365 days
+  Maximum Volume Bytes = 50G
+  Maximum Volumes = 100
+  Label Format = "Full-${Year}-${Month:p/2/0/r}-${Day:p/2/0/r}"
+}
+
+Pool {
+  Name = Differential
+  Pool Type = Backup
+  Recycle = yes
+  Recycle Oldest Volume = Yes
+  AutoPrune = yes
+  Volume Retention = 90 days
+  Maximum Volume Bytes = 10G
+  Maximum Volumes = 100
+  Label Format = "Differential-${Year}-${Month:p/2/0/r}-${Day:p/2/0/r}"
+}
+
+Pool {
+  Name = Incremental
+  Pool Type = Backup
+  Recycle = yes
+  Recycle Oldest Volume = Yes
+  AutoPrune = yes
+  Volume Retention = 30 days
+  Maximum Volume Bytes = 1G
+  Maximum Volumes = 100
+  Label Format = "Incremental-${Year}-${Month:p/2/0/r}-${Day:p/2/0/r}"
+}
+
+The Name of the Pool will be used to reference the Pool in other resource definitions.

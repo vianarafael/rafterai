@@ -1,0 +1,6 @@
+The main /usr/share/doc/
+vsftpd* directory contains an FAQ (frequently asked questions), installation tips, and 
+ version information.
+
+The man pages might have the most useful information when you set out to conﬁ gure 
+the vsftpd server.

@@ -1,0 +1,5 @@
+For example, based on 
+our existing configuration examples, Listing 18-19 shows a service that checks the disk space of our root 
+partition.
+
+Listing 18-19.

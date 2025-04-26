@@ -1,0 +1,11 @@
+Devices allow the operating 
+system to interact with particular hardware devices; for example, many distributions will have a device 
+called /dev/usb that represents a USB drive attached to the host.
+
+ChapTeR 4 ■ LInux BasICs
+
+ ■ Tip 
+
+ You’ll learn more about devices in Chapter 9 when we show you how to load a usB on your host.
+
+Finally, sockets and named pipes are files that allow interprocess communications of varying types.

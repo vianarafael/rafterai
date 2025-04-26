@@ -1,0 +1,8 @@
+For example, the older BSD init daemon would obtain conﬁ gura-
+tion information from the /etc/ttytab ﬁ le. Now, like the SysVinit daemon, the BSD init 
+daemon’s conﬁ guration information is taken at boot time from the /etc/inittab ﬁ le. The 
+following is a classic SysVinit /etc/inittab ﬁ le:
+
+# cat /etc/inittab
+# inittab  This file describes how the INIT process should set up
+# Default runlevel.

@@ -1,0 +1,24 @@
+Also included is to change the workgroup in which a server
+
+ participates, define a shared directory in smb.conf, define a shared printer in 
+
+smb.conf, 
+command to 
+
+use nmblookup to test WINS server functionality, and use the smbmount 
+
+mount an SMB share on a Linux client.
+
+Key files, terms, and utilities include:
+smbd, nmbd 
+smbstatus, smbtestparm, smbpasswd, nmblookup
+smb.conf, lmhosts
+
+• 2.209.2 Configuring an NFS server
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: The candidate should be able to create an exports file and specify 
+filesystems to be exported.

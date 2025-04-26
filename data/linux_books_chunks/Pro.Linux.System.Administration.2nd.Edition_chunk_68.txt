@@ -1,0 +1,36 @@
+Other distributions also offer 
+installation via network or the Internet.
+
+ ■ Note  We’ll look at processes for automated, network-based provisioning of servers in Chapter 19.
+
+Following is a list of some of the sites where you can get CD-ROMs and DVDs:
+
+•	
+
+•	
+
+www.ubuntu.com/download
+
+www.debian.org/distrib/
+
+8
+
+ChApTeR 1 ■ InTRoDuCIng LInux
+
+•	
+
+•	
+
+•	
+
+•	
+
+https://wiki.centos.org/Download
+
+www.gentoo.org/downloads/
+
+https://access.redhat.com/downloads/
+
+getfedora.org/
+
+Once you have downloaded the required software, you can burn an ISO to CDs, DVD, or USB.

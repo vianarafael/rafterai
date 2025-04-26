@@ -1,0 +1,6 @@
+In Red Hat Enterprise Linux 6 and earlier versions of 
+Fedora, you may need to set static ports for related services, and then open ports for those services in the fi rewall. 
+Refer to the section “Securing Your NFS Server” to review how to overcome these security issues.
+
+To ensure that the NFS mount occurred, type mount -t nfs. This command lists all 
+mounted NFS ﬁ lesystems.

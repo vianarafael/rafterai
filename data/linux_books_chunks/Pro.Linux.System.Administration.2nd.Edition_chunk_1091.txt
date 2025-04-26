@@ -1,0 +1,7 @@
+These are considered “wants” of the multiuser target.
+
+Remember in Figure 6-3 where we showed you how to enter “maintenance” mode from the GRUB2 
+menu? We typed the word “single” at the end of the line where we launched the Linux kernel. Well, with 
+Systemd we can also do the same thing by declaring the target we wish to launch into.
+
+Listing 6-6.

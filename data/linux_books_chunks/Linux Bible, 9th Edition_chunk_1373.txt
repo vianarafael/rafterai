@@ -1,0 +1,13 @@
+It is primarily 
+used to run the web server processes (httpd) in RHEL and Fedora systems, while 
+the www-data user runs the Apache service (apache2) on Ubuntu systems.
+
+ ■ avahi—User runs the avahi-daemon process to provide zeroconf services on 
+
+your network.
+
+ ■ chrony—User runs the chronyd daemon, which is used to maintain accurate 
+
+ computer clocks.
+
+ ■ postfix—User owns various mail server spool directories and ﬁ les.

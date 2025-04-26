@@ -1,0 +1,5 @@
+The riskiest case is if the ﬁ le’s owner is root.
+
+Similarly, ﬁ les with the SGID permission in the Owner category and execute permission in 
+the Other category allow anyone to temporarily become a group member of the ﬁ le’s group 
+while the ﬁ le is being executed in memory. SGID can also be set on directories.

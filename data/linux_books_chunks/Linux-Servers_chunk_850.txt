@@ -1,0 +1,19 @@
+git
+
+Linus Torvalds created git back in 2005 when Bitkeeper changed its license and the Linux
+kernel developers where no longer able to use it for free.
+
+git quickly became popular and is now the most widely used distributed version control
+system in the world.
+
+Geek and Poke demonstrates why we need version control (image property of Geek and
+Poke CCA 3.0).
+
+Besides source code for software, you can also find German and Icelandic law on github
+(and probably much more by the time you are reading this).
+
+226
+
+git
+
+20.2.

@@ -1,0 +1,5 @@
+Let’s also check that the reverse zone works by looking up the name associated with the 
+
+192.168.0.1 address, as shown in Listing 10-25.
+
+Listing 10-25.

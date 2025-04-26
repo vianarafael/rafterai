@@ -1,0 +1,4 @@
+If a new configuration is available or the 
+configuration has changed on the node, the configuration manifest is recompiled and then applied to 
+the client. This way, if any existing configuration has varied on the client, it is corrected with the expected 
+configuration from the server.

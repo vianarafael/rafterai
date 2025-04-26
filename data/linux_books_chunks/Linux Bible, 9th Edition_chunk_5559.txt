@@ -1,0 +1,5 @@
+You 
+are not responsible for enforcing compliance by third parties with this License.
+
+An “entity transaction” is a transaction transferring control of an organization, or substan-
+tially all assets of one, or subdividing an organization, or merging organizations.

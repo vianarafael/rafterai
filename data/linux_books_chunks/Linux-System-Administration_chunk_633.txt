@@ -1,0 +1,8 @@
+kernel
+
+The goal of all this is to load an operating system, or rather the kernel of an operating system.
+A typical bootloader like grub will copy a kernel from hard disk to memory, and will then
+hand control of the computer to the kernel (execute the kernel).
+
+Once the Linux kernel is loaded, the bootloader turns control over to it. From that moment
+on, the kernel is in control of the system.

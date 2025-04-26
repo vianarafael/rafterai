@@ -1,0 +1,17 @@
+Type L to see a list of partition 
+types.
+
+Command (m for help): t
+Partition number (1-6): 2
+Hex code (type L to list codes): 82
+Changed system type of partition 2 to 82 (Linux swap / Solaris)
+Command (m for help): t
+Partition number (1-6): 5
+Hex code (type L to list codes): c
+Changed system type of partition 5 to c (W95 FAT32 (LBA))
+Command (m for help): t
+Partition number (1-6): 6
+Hex code (type L to list codes): 8e
+Changed system type of partition 6 to 8e (Linux LVM)
+
+4.

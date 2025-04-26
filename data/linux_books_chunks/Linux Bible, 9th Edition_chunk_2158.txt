@@ -1,0 +1,7 @@
+If your RAM is full and you try to start another application without a swap 
+area, that application will fail. 
+
+With a swap area, Linux can temporarily swap out data from RAM to the swap area and then get 
+it back when needed. You take a performance hit, but it is better than having processes fail.
+
+To create a swap area from a partition or a ﬁ le, use the mkswap command.

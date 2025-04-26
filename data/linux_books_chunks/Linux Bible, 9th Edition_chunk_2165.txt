@@ -1,0 +1,3 @@
+The /etc/fstab ﬁ le 
+contains deﬁ nitions for each partition, along with options describing how the partition is 
+mounted.

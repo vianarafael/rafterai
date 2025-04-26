@@ -1,0 +1,4 @@
+In this section, I add commands such as memstat to dig a little deeper into 
+what processes are doing and where things are going wrong.
+
+The most complex area of troubleshooting in Linux relates to managing virtual memory.

@@ -1,0 +1,17 @@
+The  screenshot  shows  insmod  loading  the  fat
+module (for fat file system support).
+
+root@barry:/lib/modules/2.6.17-2-686# lsmod | grep fat
+root@barry:/lib/modules/2.6.17-2-686# insmod kernel/fs/fat/fat.ko 
+root@barry:/lib/modules/2.6.17-2-686# lsmod | grep fat
+fat                    46588  0
+
+insmod is not detecting dependencies, so it fails to load the isdn module (because the isdn
+module depends on the slhc module).
+
+[root@RHEL52 drivers]# pwd
+/lib/modules/2.6.18-92.1.18.el5/kernel/drivers
+[root@RHEL52 kernel]# insmod isdn/i4l/isdn.ko 
+insmod: error inserting 'isdn/i4l/isdn.ko': -1 Unknown symbol in module
+
+28.4.8.

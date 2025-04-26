@@ -1,0 +1,7 @@
+There are many available for you to explore.
+
+In Listing 3-5 we are adding the ubuntu/xenial64 box. Vagrant will automatically download this from 
+
+Atlas when we start our Vagrant host.
+
+Listing 3-5.

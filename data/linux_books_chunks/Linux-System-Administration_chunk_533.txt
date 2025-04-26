@@ -1,0 +1,3 @@
+lvremove
+
+Use the lvremove command to remove Logical Volumes from a Volume Group.

@@ -1,0 +1,11 @@
+This period can be longer than 60 seconds and 
+some might be as long as a week.
+
+Running Caching DNS
+Not all ISPs’ name servers are equally reliable, and some can be slow, so why don’t we run our own? A few 
+DNS server software packages are available, but the most commonly used and well-known is Berkeley 
+Internet Name Domain (BIND).
+
+ ■ Note  BInD is named after the place where it was developed, the university of California at Berkeley.
+
+The software is provided by the bind package on CentOS.

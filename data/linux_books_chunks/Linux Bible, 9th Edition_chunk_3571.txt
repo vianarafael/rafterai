@@ -1,0 +1,5 @@
+Each client computer that is allowed access 
+to the server’s NFS shared ﬁ lesystem can mount it anywhere the client chooses. 
+For example, you may mount a ﬁ lesystem from a computer called maple on the
+/mnt/maple directory in your local ﬁ lesystem. After it is mounted, you can view 
+the contents of that directory by typing ls /mnt/maple.

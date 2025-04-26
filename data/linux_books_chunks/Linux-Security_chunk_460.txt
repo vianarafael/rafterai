@@ -1,0 +1,16 @@
+These attributes can be
+viewed with ls when selinux is running.
+
+[root@RHEL5 home]# ls --context 
+drwx------  paul paul system_u:object_r:user_home_dir_t paul
+drwxr-xr-x  root root user_u:object_r:user_home_dir_t  project42
+drwxr-xr-x  root root user_u:object_r:user_home_dir_t  project55
+[root@RHEL5 home]# ls -Z
+drwx------  paul paul system_u:object_r:user_home_dir_t paul
+drwxr-xr-x  root root user_u:object_r:user_home_dir_t  project42
+drwxr-xr-x  root root user_u:object_r:user_home_dir_t  project55
+[root@RHEL5 home]#
+
+When selinux is not running, then getfattr is the tool to use.
+
+[root@RHEL5 etc]# getfattr -m .

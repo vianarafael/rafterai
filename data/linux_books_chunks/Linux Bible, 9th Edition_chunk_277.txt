@@ -1,0 +1,11 @@
+It built systems that could speed transactions for the world’s largest 
+ﬁ nancial exchanges and be deployed as clusters and virtual hosts.
+
+17
+
+c01.indd  04/01/2015  Page 18
+
+Part I: Getting Started
+
+Instead of just selling RHEL, Red Hat offers an ecosystem of beneﬁ ts for Linux customers to 
+draw on.

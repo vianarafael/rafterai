@@ -1,0 +1,25 @@
+For example:
+
+# rpm -qi firefox
+Name        : firefox
+Version     : 24.7.0
+
+238
+
+c10.indd  04/01/2015  Page 239
+
+Chapter 10: Getting and Managing Software
+
+Release     : 1.el7_0
+Architecture: x86_64
+Install Date: Tue 29 Jul 2014 09:39:20 AM EDT
+Group       : Applications/Internet
+Size        : 92377616
+License     : MPLv1.1 or GPLv2+ or LGPLv2+
+Signature   : RSA/SHA256, Mon 21 Jul 2014 05:09:41 PM EDT, Key ID 
+   199e2f91fd431d51
+Source RPM  : firefox-24.7.0-1.el7_0.src.rpm
+Build Date  : Fri 18 Jul 2014 07:58:58 AM EDT
+Build Host  : x86-030.build.eng.bos.redhat.com
+Relocations : (not relocatable)
+Packager    : Red Hat, Inc.

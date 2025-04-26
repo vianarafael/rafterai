@@ -1,0 +1,17 @@
+On Ubuntu you install them as follows:
+
+$ sudo aptitude install xfsprogs
+
+and on CentOS, you use the command (though it is installed as the default filesystem)
+
+$ sudo yum install xfsprogs
+
+373
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+After installing the package, you can create your filesystem using the default options, as shown in 
+
+Listing 9-6.
+
+Listing 9-6.

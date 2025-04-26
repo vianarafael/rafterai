@@ -1,0 +1,5 @@
+Not all 
+services implement TCP wrappers, but vsftpd does.
+
+By default, the hosts.allow and hosts.deny ﬁ les are empty, which places no restrictions 
+on who can access services protected by TCP wrappers.

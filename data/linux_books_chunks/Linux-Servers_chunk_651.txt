@@ -1,0 +1,18 @@
+Share the directory with Samba.
+
+You smb.conf.readonly could look like this:
+[global]
+ workgroup = WORKGROUP
+ server string = Read Only File Server
+ netbios name = STUDENTx
+ security = share
+
+[readonlyX]
+ path = /srv/samba/readonly
+ comment = read only file share
+ read only = yes
+ guest ok = yes
+
+test with testparm before going in production!
+
+5.

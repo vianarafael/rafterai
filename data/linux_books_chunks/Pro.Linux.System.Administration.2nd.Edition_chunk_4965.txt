@@ -1,0 +1,3 @@
+We ask it to connect to 
+
+127.0.0.1 on port 8881. We also require graphite-api.socket.

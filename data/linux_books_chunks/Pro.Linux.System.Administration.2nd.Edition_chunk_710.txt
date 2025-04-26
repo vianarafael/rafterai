@@ -1,0 +1,14 @@
+This will 
+launch the gedit editor, as you can see in Figure 4-11.
+
+Figure 4-11.  The gedit editor
+
+Another example of these editors is kate (http://kate editor.org/), which comes with the KDE GUI. 
+
+In Figure 4-12, you can see a KDE desktop with kate open.
+
+144
+
+ChapTeR 4 ■ LInux BasICs
+
+Figure 4-12.

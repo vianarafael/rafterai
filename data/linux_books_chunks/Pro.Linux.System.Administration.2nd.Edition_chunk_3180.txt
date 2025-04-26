@@ -1,0 +1,8 @@
+Most of your normal e-mail sending will be a little more complicated when you factor in elements such as 
+encryption and authentication.
+
+E-MAIL ADDRESSES
+
+So what is acceptable as an e-mail address? What is a properly formed e-mail address? an e-mail 
+address in its most basic form is a username and a hostname, domain name, or fully qualified domain 
+name, separated by an @ symbol, for example, jsmith@example.com.

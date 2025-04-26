@@ -1,0 +1,8 @@
+When the host boots 
+
+and the kernel detects a device, it tells udev, which then creates a representation of that device in the /dev 
+directory. These device files are the way the kernel provides access to devices for applications and services.
+
+357
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

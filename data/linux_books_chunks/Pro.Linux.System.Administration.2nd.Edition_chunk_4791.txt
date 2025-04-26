@@ -1,0 +1,5 @@
+Mapping of 
+
+ ■ Note 
+attributes is done when the authentication service requires a certain attribute that is not normally provided with 
+OpenLDAP, say, an attribute required by an AD server.

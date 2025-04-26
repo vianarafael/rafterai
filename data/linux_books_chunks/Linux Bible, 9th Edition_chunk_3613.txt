@@ -1,0 +1,13 @@
+So be sure that you trust root with all your user data before 
+you share it read/write with a client.
+
+534
+
+c20.indd  04/01/2015  Page 535
+
+Chapter 20: Confi guring an NFS File Server
+
+ ■ nfsnobody or nobody user/group—By using the 65534 user ID and group ID, you 
+essentially create a user/group with permissions that do not allow access to ﬁ les 
+that belong to any real users on the server, unless those users open permission 
+to everyone.

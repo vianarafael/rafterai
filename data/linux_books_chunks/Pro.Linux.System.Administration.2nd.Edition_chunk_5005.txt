@@ -1,0 +1,4 @@
+if you can’t measure, be very careful.
+
+When the system is rebooted, these variables are reset to their default values. To make them persist, you 
+can add an appropriate entry in the /etc/sysctl.conf file.

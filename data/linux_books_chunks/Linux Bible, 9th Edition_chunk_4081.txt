@@ -1,0 +1,6 @@
+It is natural for users to want to 
+choose a password that is easy to remember, but often this means they choose a password 
+that is also easy to guess.
+
+Brute force methods are commonly employed to gain access to a computer system. Trying 
+the popular passwords often yields results.

@@ -1,0 +1,14 @@
+Here are some examples of the rm command:
+
+$ rm abc
+$ rm *
+
+114
+
+c04.indd  04/01/2015  Page 115
+
+Chapter 4: Moving around the Filesystem
+
+The ﬁ rst remove command deletes the abc ﬁ le; the second removes all the ﬁ les in the 
+ current directory (except that it doesn’t remove directories or any ﬁ les that start with a 
+dot).

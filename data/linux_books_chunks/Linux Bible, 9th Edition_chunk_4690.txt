@@ -1,0 +1,3 @@
+So, if 
+you ask for www.example.com from your Web browser, the browser assumes you mean to use TCP port 80 on the 
+server that offers that Web content. Think of a network port as a door to your Linux server. Each door is numbered.

@@ -1,0 +1,12 @@
+The file eicar.txt 
+
+contains this string, which will trigger the virus scanner.
+
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+
+ ■ Note 
+
+ You would substitute the appropriate values for a user in your environment to test this.
+
+This e-mail will be received and processed by your MTA and then passed to the ClamAV milter that will 
+talk to the ClamAV scanner and, then based on your configuration, passed to SpamAssassin for analysis.

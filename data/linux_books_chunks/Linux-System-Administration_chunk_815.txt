@@ -1,0 +1,5 @@
+rotating logs
+
+A  lot  of  log  files  are  always  growing  in  size.  To  keep  this  within  bounds,  you  may
+want  to  use  logrotate  to  rotate,  compress,  remove  and  mail  log  files.  More  info  on  the
+logrotate command in /etc/logrotate.conf..

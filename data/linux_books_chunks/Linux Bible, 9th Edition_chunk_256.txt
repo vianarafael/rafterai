@@ -1,0 +1,14 @@
+One of the 
+watchdogs of the open source movement is the Open Source Initiative (OSI, http://www.
+opensource.org).
+
+14
+
+c01.indd  04/01/2015  Page 15
+
+Chapter 1: Starting with Linux
+
+1
+
+Although the primary goal of open source software is to make source code available, other 
+goals of open source software are also deﬁ ned by OSI in its open source deﬁ nition.

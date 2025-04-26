@@ -1,0 +1,14 @@
+Here is an example:
+
+# find / -perm /6000 -ls 
+4597316 52 -rwxr-sr-x 1 root games 51952 Dec 21 2013 /usr/bin/atc
+4589119 20 -rwxr-sr-x 1 root tty   19552 Nov 18 2013 /usr/bin/write
+4587931 60 -rwsr-xr-x 1 root root  57888 Aug  2 2013 /usr/bin/at
+4588045 60 -rwsr-xr-x 1 root root  57536 Sep 25 2013 /usr/bin/crontab
+4588961 32 -rwsr-xr-x 1 root root  32024 Nov 18 2013 /usr/bin/su
+...
+5767487 85 -rwsrwsr-x 1 root  root 68928 Sep 13 11:52 /var/.bin/myvi
+...
+
+Notice that find uncovers SetUID and SetGID commands that regular users can run to 
+escalate their permission for particular reasons.

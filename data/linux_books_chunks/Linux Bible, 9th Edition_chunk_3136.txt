@@ -1,0 +1,5 @@
+Traditionally, you would place an index.html ﬁ le in the 
+DocumentRoot directory (/var/www/html, by default) as the homepage and add other 
+content as needed. The ScriptAlias directive tells the httpd daemon that any scripts 
+requested from the cgi-bin directory should be found in the /var/www/cgi-bin direc-
+tory.

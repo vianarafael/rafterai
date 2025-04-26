@@ -1,0 +1,14 @@
+These 
+tasks assume you are running a Fedora or Red Hat Enterprise Linux system (although some 
+tasks will work on other Linux systems as well).
+
+624
+
+c22.indd  04/15/2015  Page 625
+
+Chapter 22: Understanding Basic Linux Security 
+
+1.  Check log messages from the systemd journal for the following services: 
+NetworkManager.service, sshd.service, and auditd.service.
+
+2.

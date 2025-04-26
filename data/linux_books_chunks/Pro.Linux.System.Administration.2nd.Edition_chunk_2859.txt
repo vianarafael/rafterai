@@ -1,0 +1,4 @@
+There is a .conf file and a load file, 
+with one file for configuration directives and the other for actually loading the module. While you could add 
+symlinks yourself to enable modules, the preferred method is to use the commands provided by Ubuntu for 
+this.

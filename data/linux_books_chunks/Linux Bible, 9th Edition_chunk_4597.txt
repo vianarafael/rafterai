@@ -1,0 +1,9 @@
+In the example below, the chcon command is used to change the SELinux user 
+associated with file.txt from undefined_u to system_u.
+
+# ls -Z file.txt
+-rw-rw-r--. johndoe johndoe
+ unconfined_u:object_r:user_home_t:s0 file.txt
+# chcon -u system_u file.txt
+# ls -Z file.txt
+-rw-rw-r--.

@@ -1,0 +1,10 @@
+We then set our bond-mode to active-backup (mode 
+1), bond-miimon to 100 and specify the slaves for this interface. We have also configured a 25 millisecond 
+period to wait before acting on the state of our slaves coming up or down. These all have the same meanings 
+as they do in CentOS bonding.
+
+244
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Now to start the interface you can choose two methods.

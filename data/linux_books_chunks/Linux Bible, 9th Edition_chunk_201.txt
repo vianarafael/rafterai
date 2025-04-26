@@ -1,0 +1,12 @@
+The application programs didn’t have to change for 
+ different hardware!
+
+8
+
+c01.indd  04/01/2015  Page 9
+
+Chapter 1: Starting with Linux
+
+To make portability a reality, however, a high-level programming language was needed to 
+implement the software needed. To that end, Brian Kernighan and Dennis Ritchie created 
+the C programming language. In 1973, UNIX was rewritten in C.

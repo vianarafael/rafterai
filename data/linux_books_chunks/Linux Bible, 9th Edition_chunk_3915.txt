@@ -1,0 +1,11 @@
+The metadata consists of information on all the available packages 
+from the repository.
+
+572
+
+c21.indd  04/01/2015  Page 573
+
+Chapter 21: Troubleshooting Linux
+
+As packages are added and removed from the repository, the metadata has to be 
+updated, or your system will be working from old packaging information.

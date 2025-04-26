@@ -1,0 +1,11 @@
+The format of the LDIF file is as follows:
+
+dn: <dn entry>
+objectclass: <objectclass to be included>
+attribute: <attribute value described in an objectclass>
+
+765
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+It is generally a good idea to create separate LDIF files for the different sections you are dealing with.

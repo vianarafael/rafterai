@@ -1,0 +1,35 @@
+forward lookup zone example
+
+The  way  to  set  up  zones  in  /etc/bind/named.conf.local  is  to  create  a  zone  entry  with  a
+reference to another file (this other file contains the zone database).
+
+Here is an example of such an entry in /etc/bind/named.conf.local:
+
+root@debian7:~# cat /etc/bind/named.conf.local
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "paul.local" IN {
+        type master;
+        file "/etc/bind/db.paul.local";
+        allow-update { none; };
+};
+root@debian7:~#
+
+To create the zone file, the easy method is to copy an existing zone file (this is easier than
+writing from scratch).
+
+root@debian7:/etc/bind# cp db.empty db.paul.local
+root@debian7:/etc/bind# vi db.paul.local
+
+Here is an example of a zone file.
+
+root@debian7:/etc/bind# cat db.paul.local
+; zone for classroom teaching
+$TTL    86400
+@       IN      SOA     debianpaul.paul.local.

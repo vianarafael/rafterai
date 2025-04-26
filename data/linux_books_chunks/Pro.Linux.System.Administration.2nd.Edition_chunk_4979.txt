@@ -1,0 +1,12 @@
+Logging into Grafana
+
+825
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Adding Storage Back End
+
+Before we can graph any of our newly Collectd metrics, we need to add our Graphite back end. We need to 
+add it as a data source (Figure 17-10).
+
+Figure 17-10.

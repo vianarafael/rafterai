@@ -1,0 +1,15 @@
+You can refer to the section “Conﬁ guring Print Servers” to learn how to make the 
+server available to users from other computers on your network.
+
+The printers that you set up can be connected directly to your computer (as on a USB port) 
+or to another computer on the network (for example, from another UNIX system or 
+Windows system).
+
+Configuring local printers with the Print Settings window
+Add a local printer (in other words, a printer connected directly to your computer) with the 
+Print Settings window using the procedure that follows.
+
+Adding a local printer
+To add a local printer from a GNOME desktop in Fedora 21, follow these steps:
+
+1.

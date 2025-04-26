@@ -1,0 +1,17 @@
+We would create our encrypted 
+password as we did with the rootpw directive.
+
+930
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Firewall and Network
+
+On CentOS, you can configure your host’s initial firewall and network configuration.
+
+# Firewall configuration
+firewall --enabled --http --ssh --smtp
+# SELinux configuration
+selinux --enabled
+
+Here we enabled the firewall with the firewall option and allowed access via HTTP, SSH, and SMTP.

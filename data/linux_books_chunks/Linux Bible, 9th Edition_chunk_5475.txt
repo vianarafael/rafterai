@@ -1,0 +1,57 @@
+then statements, 159–162
+ifconfig command, 353
+include control ﬂ ag, PAM, 652
+info command, 93
+init systems
+
+advantages, 377
+systemd, 378–386
+
+adding new services, 419–422
+backward compatibility to SysVinit, 397–99
+basics, 392–397
+checking services for, 402–403
+
+bindex.indd  04/02/2015  Page 847
+
+Index
+
+iptables, 316, 321, 578–579, 713–724, 816, 819–820, 
+
+823–825, 836
+Apache web server, 455–456
+chains, 714–715
+FTP servers, 483–486
+NFS servers, 536–538
+policies, 715, 717–722
+rules, 715, 717–722
+Samba servers, 507–508
+saving conﬁ guration, 722–724
+securing Apache, 455–456
+tables, 713–714
+targets, 715
+
+ISO images, 628, 771–779
+iso9660 ﬁ lesystem, 302
+
+J
+
+JBoss, 18
+jed text editor , 118
+jfs ﬁ lesystem, 303
+joe text editor, 118
+John the Ripper, 614–615
+journalctl command, 188–189, 192, 200, 317, 334, 
+
+608, 610–611
+
+K
+
+K shell, 65, 69, 70
+K3b, 777–778
+kafs ﬁ lesystem, 302
+Kali Linux, 19
+kate text editor, 118
+kedit text editor, 118
+Kernel Log, 609
+Kernel-based Virtual Machine.

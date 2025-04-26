@@ -1,0 +1,2 @@
+This objective includes setting up a login script for Samba clients, and setting 
+up an nmbd WINS server.

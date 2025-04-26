@@ -1,0 +1,2 @@
+The logwatch feature scans your log ﬁ les each night and sends critical 
+ information gathered from those ﬁ les to an e-mail account of your choice.

@@ -1,0 +1,3 @@
+Many believe that the fact that numerous people look 
+over the source code for a project results in higher-quality software for everyone. As open 
+source advocate Eric S.

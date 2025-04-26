@@ -1,0 +1,7 @@
+This is commented out, which means it will use the built-in default, as follows:
+
+# cache_dir ufs /var/spool/squid 100 16 256
+
+The preceding line tells Squid to store cache objects under the /var/spool/squid directory in ufs 
+format. It will store a maximum of 100Mb of objects; after that, older objects will be expired from the cache 
+and replaced by newer ones.

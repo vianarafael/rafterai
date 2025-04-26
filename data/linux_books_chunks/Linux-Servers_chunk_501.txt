@@ -1,0 +1,16 @@
+ACCEPT
+is the default behaviour.
+
+124
+
+iptables firewall
+
+8.3.3. setting default rules
+
+The default for the default rule is indeed to ACCEPT everything. This is not the most secure
+firewall.
+
+A more secure setup would be to DROP everything. A package that is dropped will not
+continue in any chain, and no warning or error will be sent anywhere.
+
+The  below  commands  lock  down  a  computer.

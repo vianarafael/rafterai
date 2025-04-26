@@ -1,0 +1,5 @@
+The password should be at 
+
+least 8 characters and complex.
+
+Unfortunately, tbear has just left the firm, and his Samba account needs to be disabled.

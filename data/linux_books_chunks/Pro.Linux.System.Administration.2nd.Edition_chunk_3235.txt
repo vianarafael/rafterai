@@ -1,0 +1,5 @@
+We can again use the postconf command to edit the option.
+
+$ sudo postconf -e "mynetworks = 127.0.0.0/8, 192.168.0.0/24, 192.168.1.0/24"
+
+Now we need to bind Postfix to the network interfaces we want it to listen on.

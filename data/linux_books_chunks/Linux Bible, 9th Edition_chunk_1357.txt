@@ -1,0 +1,6 @@
+The 
+xorg.conf ﬁ le (conﬁ gures your computer and monitor to make it usable with X) and 
+ conﬁ guration directories containing ﬁ les used by xdm and xinit to start X are in here.
+
+Directories relating to window managers contain ﬁ les that include the default values that 
+a user will get if that user starts one of these window managers on your system.

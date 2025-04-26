@@ -1,0 +1,7 @@
+As with regular partitions, logical volumes can be mounted permanently by adding 
+
+an entry to the /etc/fstab ﬁ le, such as:
+
+/dev/mapper/myvg0-music /mnt/mymusic  ext4 defaults 1 2
+
+The next time you reboot, the logical volume is automatically mounted on /mnt/mymusic.

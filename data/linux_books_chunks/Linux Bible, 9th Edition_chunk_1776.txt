@@ -1,0 +1,6 @@
+Emacs contains special code editing
+      : features, a scripting language (elisp), and the capability
+      : to read mail, news, and more without leaving the editor.
+
+If you know the command, conﬁ guration ﬁ le, or library name you want, but don’t know 
+what package it is in, use the provides subcommand to search for the package.

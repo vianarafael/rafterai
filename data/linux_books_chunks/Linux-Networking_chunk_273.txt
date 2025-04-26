@@ -1,0 +1,16 @@
+Add an extra network card (or two) to your virtual machine and use the theory to bond
+two network cards.
+
+Redhat/Fedora:
+add ifcfg-ethX and ifcfg-bondX files in /etc/sysconfig/network-scripts
+as shown in the theory
+and don't forget the modprobe.conf
+
+Debian/Ubuntu:
+expand the /etc/network/interfaces file
+as shown in the theory
+and don't forget to install the ifenslave package
+
+46
+
+Chapter 5.

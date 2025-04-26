@@ -1,0 +1,14 @@
+If you are hosting for multiple different domains, this also becomes unwieldly.
+
+Postfix can solve this problem in two different ways.
+
+•	
+
+•	
+
+Virtual alias domains
+
+Virtual mailbox domains
+
+The first step you can take is to create virtual domains. This allows you to map virtual domains to user 
+accounts for each domain.

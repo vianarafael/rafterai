@@ -1,0 +1,7 @@
+They are designed to have as much information as possible on the local system, in 
+case you can’t connected to Internet, but it is not meant to be pretty.
+
+Users and Groups
+Linux is multiuser operating system. This means it allows multiple users to connect simultaneously via 
+multiple command-line or GUI sessions. Linux controls access to the host and its resources via user and 
+group accounts.

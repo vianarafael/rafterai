@@ -1,0 +1,8 @@
+The work thus licensed is called the contributor’s 
+“contributor version”.
+
+A contributor’s “essential patent claims” are all patent claims owned or controlled by the 
+contributor, whether already acquired or hereafter acquired, that would be infringed by 
+some manner, permitted by this License, of making, using, or selling its contributor ver-
+sion, but do not include claims that would be infringed only as a consequence of further 
+modiﬁ cation of the contributor version.

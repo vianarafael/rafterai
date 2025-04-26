@@ -1,0 +1,25 @@
+Related packages include php-ldap (for running PHP code that 
+needs to access LDAP databases) and php-mysql (to add database support to the 
+Apache server).
+
+ ■ php-ldap—Adds support for Lightweight Directory Access Protocol (LDAP) to the 
+
+PHP module, allowing directory service access over networks.
+
+452
+
+c17.indd  04/01/2015  Page 453
+
+Chapter 17: Confi guring a Web Server
+
+FIGURE 17.1
+
+Access Apache documentation directly from the local Apache server.
+
+17
+
+ ■ squid—Provides proxy services for speciﬁ c protocols (such as HTTP), as mentioned 
+
+in Chapter 14, “Administering Networking.” Although it doesn’t provide HTTP 
+ content itself, a Squid proxy server typically forwards requests from proxy clients 
+to the Internet or other network providing web content.

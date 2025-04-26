@@ -1,0 +1,7 @@
+In this example, you can see that RAM is not 
+exhausted from the Mem line (only 268492k of 3716196k is used) and that nothing is being 
+swapped to disk from the Swap line (0k used).
+
+However, adding up just these ﬁ rst six lines of output in the VIRT column, you would 
+see that 4937MB of memory has been allocated for those applications, which exceeds the 
+3629MB of total RAM (3716196k) that is available.

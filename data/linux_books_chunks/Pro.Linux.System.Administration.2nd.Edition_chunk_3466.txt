@@ -1,0 +1,30 @@
+It has returned a line indicating that the message is a spam e-mail, 
+with a score of 999.1/5.0 (significantly larger than 5.0 and hence spam).
+
+SpamAsssassin works by doing several checks against known spam patterns.
+
+Chapter 12 ■ Mail ServiCeS
+
+•	 Header tests
+
+•	
+
+•	
+
+Body phrases
+
+Bayesian filters
+
+•	 Whitelist/blacklist
+
+•	
+
+Reputational checks
+
+•	 Collaborative checks
+
+•	
+
+RBLs and DNSRBLs
+
+Each one of those adds to the overall score, and if they are over 5, it is considered spam.

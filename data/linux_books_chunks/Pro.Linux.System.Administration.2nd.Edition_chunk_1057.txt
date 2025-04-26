@@ -1,0 +1,4 @@
+Finally, we can see that we load the Red Hat Graphical Boot (rhgb), a nicer boot experience than text, and we 
+set the quiet option to supress noisy output during boot time.
+
+Finally, the last line we are concerned with in Listing 6-4 is loading the kernel initrd.

@@ -1,0 +1,9 @@
+I’ve seen several people shred their 
+ networking conﬁ gurations only to ﬁ nd that this tiny switch on the front or side of their 
+laptops had been switched to the off position.
+
+21
+
+Check routes
+If your network interface is up, but you still can’t reach the host you want to reach, try 
+checking the route to that host. Start by checking your default route.

@@ -1,0 +1,6 @@
+this is designed 
+to reduce spam volumes by preventing the sending and relaying of e-mail from compromised desktop 
+hosts in xDSl or cable networks. We’ll discuss smarthosts in the “Smarthosting” sidebar later in this 
+chapter.
+
+a number of other configuration options are also set by the same utility.

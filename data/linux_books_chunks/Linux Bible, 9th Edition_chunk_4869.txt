@@ -1,0 +1,6 @@
+QEMU provides features that make it appear to each virtual machine 
+as though it is running on physical hardware.
+
+ ■ Libvirt Service Daemon (libvirtd)—A single libvirtd service runs on each 
+hypervisor. The libvirtd daemon listens for requests to start, stop, pause, and 
+otherwise manage virtual machines on a hypervisor.

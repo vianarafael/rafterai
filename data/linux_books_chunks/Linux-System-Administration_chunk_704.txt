@@ -1,0 +1,5 @@
+customize a service
+
+And here is an example on how to set your custom configuration for the cron daemon.
+
+root@barry:~# update-rc.d -n cron start 11 2 3 4 5 .

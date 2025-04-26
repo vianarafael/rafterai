@@ -1,0 +1,4 @@
+Misconﬁ gured or broken 
+applications can hang or gobble up all the resources they can get. An inexperienced 
+user might mistakenly start multiple instances of a program that drain system 
+resources.

@@ -1,0 +1,18 @@
+systemd signalling
+
+You can also use systemd to kill problematic services.
+
+[root@rhel7 ~]# systemctl show crond.service | grep State
+LoadState=loaded
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+[root@rhel7 ~]# systemctl kill -s SIGKILL crond.service
+[root@rhel7 ~]# systemctl show crond.service | grep State
+LoadState=loaded
+ActiveState=failed
+SubState=failed
+UnitFileState=enabled
+[root@rhel7 ~]#
+
+15.8.5.

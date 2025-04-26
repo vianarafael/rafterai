@@ -1,0 +1,23 @@
+/etc/modprobe.conf
+
+The /etc/modprobe.conf file and the /etc/modprobe.d directory can contain aliases (used
+by humans) and options (for dependent modules) for modprobe.
+
+[root@RHEL52 ~]# cat /etc/modprobe.conf
+alias scsi_hostadapter mptbase
+alias scsi_hostadapter1 mptspi
+alias scsi_hostadapter2 ata_piix
+alias eth0 pcnet32
+alias eth2 pcnet32
+
+338
+
+the Linux kernel
+
+alias eth1 pcnet32
+
+339
+
+the Linux kernel
+
+28.5.

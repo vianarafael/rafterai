@@ -1,0 +1,14 @@
+You can also download the client for most systems here:
+
+•	
+
+https://openvpn.net/index.php/open-source/downloads.html
+
+727
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Mobile VPN Routing
+
+Just as you can create a point-to-point head office to branch office VPN tunnel, you can also perform a 
+variety of routing configurations between your client host and the gateway.

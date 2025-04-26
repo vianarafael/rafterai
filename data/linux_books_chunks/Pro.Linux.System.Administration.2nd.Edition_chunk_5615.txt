@@ -1,0 +1,7 @@
+Use alternatives like Hiera and the “roles 
+and profiles” patterns to achieve this. See https://docs.puppet.com/hiera/3.2/ and https://docs.
+puppet.com/pe/2016.4/r_n_p_full_example.html.
+
+The runinterval is the time between each Puppet run, that is, when the agent will call into the Puppet 
+
+master for its catalog.

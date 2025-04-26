@@ -1,0 +1,12 @@
+manage volume groups
+
+11.12.1. vgcreate
+
+Use the vgcreate command to create a volume group. You can immediately name all the
+physical volumes that span the volume group.
+
+[root@RHEL5 ~]# vgcreate vg42 /dev/sde /dev/sdf
+  Volume group "vg42" successfully created
+[root@RHEL5 ~]#
+
+11.12.2.

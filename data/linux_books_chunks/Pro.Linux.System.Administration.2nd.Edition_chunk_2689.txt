@@ -1,0 +1,15 @@
+So if interface enp0s100 has an  
+
+456
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+ip address of 192.168.100.1/24, and we have a subnet declared in dhcpd.conf of 192.168.100.0/24 – the 
+enp0s100 interface will automatically be used for that subnet.
+
+We save the file and then start the server using sudo system start isc-dhcp-server on Ubuntu or 
+
+sudo systemclt start dhcpd on CentOS.
+
+When the server assigns a lease to a specific client, it records the client MAC (Media Access Control) 
+address and the assigned lease to a file.

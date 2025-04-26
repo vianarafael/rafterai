@@ -1,0 +1,5 @@
+Here are your choices as this point:
+
+ ■ Automatically conﬁ gure...—If there is enough available disk space on the 
+selected disk drive, you can continue with the installation by selecting 
+Continue.

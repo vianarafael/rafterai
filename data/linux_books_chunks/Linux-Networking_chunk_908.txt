@@ -1,0 +1,15 @@
+But it will
+not prevent someone from accessing the share (when the name of the share is known).
+
+Note that browsable and browseable are both correct syntax.
+
+[pubread]
+ path = /srv/samba/readonly
+ comment = files to read
+ read only = yes
+ guest ok = yes
+ browseable = no
+
+21.4. file system security
+
+21.4.1.

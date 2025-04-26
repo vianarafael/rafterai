@@ -1,0 +1,7 @@
+Because the general structure of the Linux boot process is the same for 
+the three Linux systems featured here (Fedora, RHEL, and Ubuntu), I go through the boot 
+ process only once, but I describe the differences between them as I go.
+
+Understanding Startup Methods
+It’s up to the individual Linux distribution how the services associated with the  running 
+Linux system are started.

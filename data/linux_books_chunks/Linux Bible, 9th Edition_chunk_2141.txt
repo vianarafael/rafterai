@@ -1,0 +1,5 @@
+It can also mount ﬁ lesystem image ﬁ les using loop devices.
+
+With the addition of automatic mounting features and changes in how removable media are identifi ed with the Linux 
+2.6 kernel (using features such as Udev and Hardware Abstraction Layer), you no longer need to manually mount 
+removable media for many Linux desktop systems.

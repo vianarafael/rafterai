@@ -1,0 +1,21 @@
+Not
+available on default Red Hat servers.
+
+1.91Mb        3.81Mb         5.72Mb        7.63Mb   9.54Mb
+--------------|-------------|--------------|-------------|--------|----
+laika.local        => barry                      4.94Kb  6.65Kb  69.9Kb
+                   <=                            7.41Kb  16.4Kb   766Kb
+laika.local        => ik-in-f19.google.com          0b   1.58Kb  14.4Kb
+                   <=                               0b    292b   41.0Kb
+laika.local        => ik-in-f99.google.com          0b     83b   4.01Kb
+                   <=                               0b     83b   39.8Kb
+laika.local        => ug-in-f189.google.com         0b     42b    664b
+                   <=                               0b     42b    406b
+laika.local        => 10.0.0.138                    0b      0b    149b
+                   <=                               0b      0b    256b
+laika.local        => 224.0.0.251                   0b      0b     86b
+                   <=                               0b      0b      0b
+laika.local        => ik-in-f83.google.com          0b      0b     39b
+                   <=                               0b      0b     21b
+
+19.11.

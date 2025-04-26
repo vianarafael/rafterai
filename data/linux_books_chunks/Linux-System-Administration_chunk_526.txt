@@ -1,0 +1,13 @@
+The volume groups may
+not be in use.
+
+[root@RHEL5 ~]# vgremove vg42
+  Volume group "vg42" successfully removed
+[root@RHEL5 ~]#
+
+11.12.4. vgreduce
+
+Use the vgreduce command to remove a Physical Volume from the Volume Group.
+
+The  following  example  adds  Physical  Volume  /dev/sdg  to  the  vg1  Volume  Group  using
+vgextend.

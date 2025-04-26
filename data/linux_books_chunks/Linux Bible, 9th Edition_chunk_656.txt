@@ -1,0 +1,65 @@
+For example, to add a Tab 
+character, press Ctrl+V+Tab.
+
+Use the keystrokes in Table 3.3 to cut and paste text on a command line.
+
+78
+
+c03.indd  04/01/2015  Page 79
+
+Chapter 3: Using the Shell
+
+TABLE 3.3    Keystrokes for Cutting and Pasting Text from within 
+Command Lines
+
+Keystroke
+
+Full Name
+
+Meaning
+
+Ctrl+K
+
+Ctrl+U
+
+Ctrl+W
+
+Alt+D
+
+Ctrl+Y
+
+Alt+Y
+
+Ctrl+C
+
+Cut end of line
+
+Cut text to the end of the line.
+
+Cut beginning of line
+
+Cut text to the beginning of the line.
+
+Cut previous word
+
+Cut the word located behind the cursor.
+
+Cut next word
+
+Cut the word following the cursor.
+
+Paste recent text
+
+Paste most recently cut text.
+
+Paste earlier text
+
+Rotate back to previously cut text and paste it.
+
+Delete whole line
+
+Delete the entire line.
+
+Command-line completion
+To save you a few keystrokes, the bash shell offers several different ways of completing 
+partially typed values.

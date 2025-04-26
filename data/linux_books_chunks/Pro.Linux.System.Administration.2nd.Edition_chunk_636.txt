@@ -1,0 +1,9 @@
+You can also scroll using the arrow keys, and to quit the less command, you use the Q key.
+
+ There are additional ways to navigate files using less that you can see by reviewing the command’s 
+
+ ■ Note 
+man page.
+
+In addition to navigating through files, it is also possible to search a file or files for specific information. 
+To do this, we can make use of the very powerful grep command.

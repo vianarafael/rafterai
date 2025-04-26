@@ -1,0 +1,7 @@
+You will then be prompted to provide a more acceptable password.
+
+Alternatively, if you are running the passwd command as the root user, you can change the passwords 
+
+of other users as you can see in Listing 5-8.
+
+Listing 5-8.

@@ -1,0 +1,8 @@
+Then, after you defragment your disk again and resize it, you need to restore the 
+swap ﬁ le. To remove the swap ﬁ le, open the Control Panel, open the System icon, 
+click the Performance tab, and select Virtual Memory. To disable the swap ﬁ le, click 
+Disable Virtual Memory.
+
+ ■ If your DOS partition has hidden ﬁ les that are on the space you are trying to free 
+
+up, you need to ﬁ nd them.

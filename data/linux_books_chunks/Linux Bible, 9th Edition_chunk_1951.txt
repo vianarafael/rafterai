@@ -1,0 +1,7 @@
+1 mary mary 0 Jan 21 09:27 /tmp/memo.txt
+[mary]$ setfacl -m u:bill:rw /tmp/memo.txt
+[mary]$ setfacl -m g:sales:rw /tmp/memo.txt
+
+In the preceding example, mary created a ﬁ le named /tmp/memo.txt. Using the setfacl 
+command, she modiﬁ ed (-m) permissions for the user named bill so he now has read/write 
+(rw) permissions to that ﬁ le.

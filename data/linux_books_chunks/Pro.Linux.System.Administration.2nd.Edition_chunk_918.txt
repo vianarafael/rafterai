@@ -1,0 +1,9 @@
+The Ubuntu login PAM Service Configuration File
+
+@include common-auth
+@include common-account
+@include common-session
+@include common-password
+
+There is a lot more configuration in that file, but we can see that using the format @include, you can 
+include other files in a PAM service configuration file.

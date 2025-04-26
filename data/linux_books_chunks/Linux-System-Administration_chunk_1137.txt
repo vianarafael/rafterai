@@ -1,0 +1,4 @@
+exportfs
+
+You don't need to restart the nfs server to start exporting your newly created exports. You
+can use the exportfs -va command to do this.

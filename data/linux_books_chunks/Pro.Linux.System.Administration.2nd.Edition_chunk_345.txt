@@ -1,0 +1,13 @@
+Currently you can download and run it for Linux, Mac OSX, and Windows.
+
+87
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Installing Vagrant
+You first can download it here for your operating system:
+
+www.vagrantup.com/downloads.html.
+
+Vagrant is meant to be driven by the command line; it provides no graphical user interface (GUI). With 
+Macs you can drive it all from a terminal window.

@@ -1,0 +1,10 @@
+You can also use the one that comes with Git Bash, which we installed in Chapter 3, 
+which of course, runs on Windows.
+
+SSH clients allow you to run text terminals to the command lines of your Unix or Linux hosts from your 
+
+GUI. You can see the PuTTY client’s configuration screen in Figure 4-5.
+
+Figure 4-5.  The PuTTY client
+
+Using a GUI client like PuTTY is very simple.

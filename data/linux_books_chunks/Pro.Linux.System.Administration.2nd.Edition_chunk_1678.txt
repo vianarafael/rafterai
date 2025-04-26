@@ -1,0 +1,7 @@
+Tools like ufw and firewalld are both user tools to manage firewalls and they attempt to do this in a logical 
+and sane way and hide the complexity of the rules for you.
+
+A default rule set for just the filter table for firewalld or ufw can be over 100 lines long, Listing 7-8 shows 
+
+the output (iptables-save) of just the INPUT chain of the filter table on a CentOS host that has firewalld 
+installed.

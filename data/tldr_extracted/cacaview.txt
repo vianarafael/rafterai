@@ -1,0 +1,6 @@
+# cacaview
+
+
+- Display an image:
+
+`cacaview {{path/to/image}}`

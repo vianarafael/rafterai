@@ -1,0 +1,6 @@
+To get a full 
+list of ACL types, you can read through the ACL section on the Squid web site at www.squid-cache.org/
+Versions/v2/2.6/cfgman/acl.html.
+
+In our case, we’ve defined an ACL called all that encompasses all Internet addresses. The next ACL 
+allows us to refer to all traffic originating on the local network interface as localhost.

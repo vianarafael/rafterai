@@ -1,0 +1,11 @@
+Added package dependencies
+
+328
+
+Confirm that you want this dependency to be installed by pressing g again, and aptitude will now 
+download the required package files and install them. During this process, you’ll be kept informed of what is 
+happening (see Figure 8-21).
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-21.

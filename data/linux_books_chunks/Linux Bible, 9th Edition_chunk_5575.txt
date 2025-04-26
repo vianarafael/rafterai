@@ -1,0 +1,9 @@
+If the Program 
+does not specify a version number of the GNU General Public License, you may choose any 
+version ever published by the Free Software Foundation.
+
+If the Program speciﬁ es that a proxy can decide which future versions of the GNU General 
+Public License can be used, that proxy’s public statement of acceptance of a version perma-
+nently authorizes you to choose that version for the Program.
+
+Later license versions may give you additional or different permissions.

@@ -1,0 +1,6 @@
+if 
+needed, you can use the chown and chmod commands to change the ownership and permissions, respectively.
+
+Although in this case Postfix automatically created the Maildir directory, it is usually a good idea to 
+prepopulate your user’s home directories with an empty Maildir directory. You can do this by adding an 
+empty Maildir directory to the /etc/skel directory.

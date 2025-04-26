@@ -1,0 +1,10 @@
+On CentOS, the 
+
+web server runs as the apache user, and on Ubuntu it runs as www-data, you will need to chown the file and 
+directory as required.
+
+$ sudo chown www-data -R /var/www/html/www.example.com
+
+Web Presence
+Of course, you will want your business to have a web presence, and of course this has never been easier to 
+achieve.

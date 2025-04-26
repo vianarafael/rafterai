@@ -1,0 +1,6 @@
+If you are interested in other uses of the set user ID and set group ID 
+bits, refer to the sidebar “Using Set UID and Set GID Bit Commands.”
+
+Creating group collaboration directories (set GID bit)
+By creating a set GID directory, any ﬁ les created in that directory are assigned to the 
+group assigned to the directory itself.

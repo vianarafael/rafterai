@@ -1,0 +1,16 @@
+uuid
+
+There is more information in the manual of uuid, a tool that can generate uuid's.
+
+[root@rhel65 ~]# yum install uuid
+(output truncated)
+[root@rhel65 ~]# man uuid
+
+87
+
+introduction to uuid's
+
+9.4. uuid in /etc/fstab
+
+You can use the uuid to make sure that a volume is universally uniquely identified in /etc/
+fstab.

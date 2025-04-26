@@ -1,0 +1,4 @@
+Next, in iface bond0 inet static, we have declared that the inter face bond0 is 
+an IPv4 statically assigned interface, meaning we are not going to use DHCP or another protocol to assign it 
+an address. We then assign the IP address, netmask, gateway, and DNS servers using the key words address, 
+netmask, gateway, and dns nameservers, respectively.

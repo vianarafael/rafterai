@@ -1,0 +1,2 @@
+Approved by Ubuntu Technical Board
+# on 2011-02-08 (LP: #104525).

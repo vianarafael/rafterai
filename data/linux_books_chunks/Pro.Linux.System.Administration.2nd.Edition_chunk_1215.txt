@@ -1,0 +1,18 @@
+The Persistence=true says to run if it missed the last start (like the system was shutdown).
+
+Let’s imagine we have a monitor.service file that makes a cURL POST request to a web site to tell us the 
+
+system has booted, and checks in every 20 minutes after that.
+
+[Unit]
+Description=Tell the monitoring service we are up
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=20min
+
+[Install]
+WantedBy=timers.target
+
+We will put this configuration into a file called /etc/systemd/system/monitor.timer, next to our 
+monitor.service file.

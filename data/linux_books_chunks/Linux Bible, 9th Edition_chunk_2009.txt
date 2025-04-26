@@ -1,0 +1,7 @@
+Transport Layer Security (TLS) certiﬁ cates for an 
+organization are obtained from certiﬁ cate authorities such as Verisign. Or you 
+could create self-signed certiﬁ cates.
+
+ ■ Authentication method—Instead of using regular MD5 passwords, pick either 
+
+LDAP password or Kerberos as the authentication method with LDAP.

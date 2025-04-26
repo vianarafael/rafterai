@@ -1,0 +1,11 @@
+To install the Network Mapper (aka nmap) utility on your local Linux system:
+
+a. On Fedora or RHEL, type yum install nmap at the command line.
+
+b. On Ubuntu, nmap may come pre-installed. If not, type sudo apt-get 
+
+install nmap at the command line.
+
+2.  To run a TCP Connect scan on your local loopback address, type nmap -sT 
+
+127.0.0.1 at the command line.

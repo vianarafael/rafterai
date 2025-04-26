@@ -1,0 +1,7 @@
+You can read more about this here: https://
+docs.puppet.com/puppet/latest/lang_facts_and_builtin_vars.html#trusted-facts.
+
+for more information, you can visit https://docs.puppet.com/facter/.
+
+facter is also highly extensible. With a small amount of ruby code, you can add your own facts, for 
+example, information customized to your environment.

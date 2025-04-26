@@ -1,0 +1,19 @@
+cat /proc/swaps
+
+Filename                  Type            Size    Used    Priority
+
+/dev/hda6                 partition       522072  39744   -1
+
+/tmp/SWAPFILE             file            10232   0       -2
+
+34
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+Example 2: Making a swap partition of 16MB
+
+1.

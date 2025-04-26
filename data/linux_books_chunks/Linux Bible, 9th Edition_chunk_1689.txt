@@ -1,0 +1,13 @@
+If you want to remove an installed application, simply click the Remove button next to the 
+package name.
+
+If you are using Linux purely as a desktop system, where you want to write documents, 
+play music, and do other common desktop tasks, the Software window might be all you 
+
+234
+
+c10.indd  04/01/2015  Page 235
+
+Chapter 10: Getting and Managing Software
+
+need to get the basic software you want.

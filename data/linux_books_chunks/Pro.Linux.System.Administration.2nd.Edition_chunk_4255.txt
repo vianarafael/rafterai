@@ -1,0 +1,7 @@
+As their names imply, 
+these instructions can be used to run scripts on the target host. Client Run Before Job will execute the 
+command or script on the target host and require a successful completion before it continues. If it does 
+
+696
+
+not succeed, the job will terminate and produce an error message.

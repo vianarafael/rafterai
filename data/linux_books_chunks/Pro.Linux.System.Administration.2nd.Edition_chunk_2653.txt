@@ -1,0 +1,2 @@
+You need to ensure that the master server contacts the slaves 
+when a zone is updated, and you do this by adding the notify yes directive.

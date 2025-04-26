@@ -1,0 +1,24 @@
+The
+screenshots use the net useFirst serena from Windows XP.
+
+C:\>net use m: \\teacher0\authwrite stargate /user:serena
+The command completed successfully.
+
+C:\>m:
+
+M:\>echo greetings from Serena > serena.txt
+
+The next screenshot is martina on a Windows 2000 computer, she succeeds in writing her
+files, but fails to overwrite the file from serena.
+
+C:\>net use k: \\teacher0\authwrite stargate /user:martina
+The command completed successfully.
+
+C:\>k:
+
+K:\>echo greetings from martina > Martina.txt
+
+K:\>echo test overwrite > serena.txt
+Access is denied.
+
+14.6.

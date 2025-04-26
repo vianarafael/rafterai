@@ -1,0 +1,12 @@
+A control ﬂ ag is either of the following:
+
+ ■ Simple keyword—The only concern here is if the corresponding PAM module 
+returns a response of either “failed” or “success.” See Table 23.4 for how these 
+ statuses are handled.
+
+ ■ Series of actions—The returned module status is handled through the series of 
+
+actions listed in the ﬁ le.
+
+Table 23.4 shows the various keyword control ﬂ ags and their responses to the returned 
+module status.

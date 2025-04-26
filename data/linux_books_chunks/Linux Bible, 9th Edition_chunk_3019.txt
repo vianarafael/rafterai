@@ -1,0 +1,7 @@
+Select the check box next to Publish shared printers connected to this system, 
+and click OK. You may be asked to modify your ﬁ rewall to open the necessary 
+ports for remote systems to access your printers.
+
+4.  To further allow or restrict printing for a particular printer, double-click the 
+
+name of the printer you want to share.

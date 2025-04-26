@@ -1,0 +1,13 @@
+Select Applications ➪ Utilities ➪ Terminal (or go the the Activities screen and 
+
+type Terminal). A Terminal window should open on your desktop.
+
+2.  Select Edit ➪ Proﬁ le Preferences.
+
+3.  On the General tab, uncheck the “Use the system ﬁ xed width font” box.
+
+4.  From the Font ﬁ eld, try a different font and select OK. The new font appears in the 
+
+Terminal window.
+
+5.

@@ -1,0 +1,7 @@
+systemd shutdown
+
+The poweroff, halt and reboot commands are considered legacy now and are handeld by
+systemctl. The table below shows the legacy commands on the left and their new systemd
+equivalent on the right.
+
+Table 15.1.

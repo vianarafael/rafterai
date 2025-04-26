@@ -1,0 +1,8 @@
+Let's do this step by step.
+
+In the example that follows, we will set up ssh without password between Alice and Bob.
+Alice has an account on a Red Hat Enterprise Linux server, Bob is using Ubuntu on his
+laptop. Bob wants to give Alice access using ssh and the public and private key system. This
+means that even if Bob changes his password on his laptop, Alice will still have access.
+
+25.5.1.

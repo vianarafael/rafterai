@@ -1,0 +1,8 @@
+The VRFY command allows a 
+sender to query the Postfix server and verify that an address exists. This is used by spammers to validate 
+addresses and occasionally by hackers to harvest the names of users on your host prior to attacks.
+
+ there are other restrictions you can enable, but these are the simplest, easiest, and least likely to 
+
+ ■ Note 
+restrict legitimate e-mail to your postfix server.

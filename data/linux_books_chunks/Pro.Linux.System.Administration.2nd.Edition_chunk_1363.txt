@@ -1,0 +1,4 @@
+If you don’t want to initialize our interface with an IPv6 address you can set IPV6INIT to “no”; here it is the 
+default IPV6INIT=”yes”. When PEERDNS=”yes” is declared, it means that /etc/resolv.conf file with name 
+servers provided by the DHCP server. If we set it to no, /etc/resolv.conf will remain unmodified when this 
+interface is brought to an up state.

@@ -1,0 +1,16 @@
+The options needed to control password aging with chage are listed in 
+Table 22.2. Notice that there is not a password length setting in the chage utility.
+
+TABLE 22.2    chage Options
+
+Option
+
+Description
+
+-M
+
+-m
+
+-W
+
+Sets the maximum number of days before a password needs to be changed.

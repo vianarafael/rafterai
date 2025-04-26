@@ -1,0 +1,15 @@
+For this demo it is also possible to quickly add the three names to the /etc/
+hosts file.
+
+[root@CentOS65 ~]# grep ^192 /etc/hosts
+192.168.1.225 choochoo.local
+192.168.1.225 chessclub42.local
+192.168.1.225 hunter2.local
+
+Note that you may have another ip address...
+
+22
+
+apache web server
+
+1.6.3.

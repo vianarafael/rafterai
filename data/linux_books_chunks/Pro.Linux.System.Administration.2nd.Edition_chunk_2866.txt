@@ -1,0 +1,4 @@
+Traditionally, Debian (and Ubuntu) system administrators tend to put service-related files in the /srv 
+directory. In this example we are not going to follow that idiom, but there is no reason why you cannot 
+place web server files in the /srv/www or /var/local directory or any other place on the filesystem that 
+makes sense.

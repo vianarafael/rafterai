@@ -1,0 +1,3 @@
+Thus, 
+the hashed passwords are protected. Here is the tail end of a /etc/shadow ﬁ le. You can 
+see that there are long, nonsensical character strings in each user’s record.

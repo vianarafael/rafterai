@@ -1,0 +1,9 @@
+The basic iptables command structure and arguments are as follows:
+
+iptables –t table-name command chain rulenumber paramaters –j target
+
+Table 7-6 gives a rundown on the commands, shown in the preceding syntax command, we will be 
+
+demonstrating and their description.
+
+Table 7-6.

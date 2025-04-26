@@ -1,0 +1,7 @@
+Those links were added to that  directory 
+either when the package for a service is installed or when the service is enabled from a 
+ systemctl enable command.
+
+Keep in mind that, unlike System V init, systemd can start, stop, and otherwise manage 
+unit ﬁ les that represent more than just services. It can manage devices, automounts, paths, 
+sockets, and other things.

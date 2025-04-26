@@ -1,0 +1,5 @@
+We’ll explore both of these interfaces in this book.
+
+The GUI Desktop
+Both Linux and Windows can have GUIs. Unlike recent Windows releases, Linux has always been able boot 
+to either a GUI or the command line.

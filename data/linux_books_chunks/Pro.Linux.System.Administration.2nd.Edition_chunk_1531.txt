@@ -1,0 +1,11 @@
+Let’s look at a slightly different scenario in which we have to add our own route. You can 
+see a diagram of it in Figure 7-14.
+
+260
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-14.  Adding another route
+
+In this scenario, we will say that Host D is trying to reach Host F by passing through Host E. Host E has 
+two Ethernet devices, enp0s8 and enp0s9.

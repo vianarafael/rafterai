@@ -1,0 +1,6 @@
+Enter /scsi inside the less window and press 
+Enter to search for any lines containing the string scsi. You can press n to jump to the next match.
+
+Partitions
+After you add a disk to your host, you need to perform a few steps to make it usable. First, you can create one 
+or more partitions on that disk.

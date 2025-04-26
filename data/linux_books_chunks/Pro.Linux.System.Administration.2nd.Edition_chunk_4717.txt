@@ -1,0 +1,40 @@
+When a request 
+comes in, it will produce output like the following:
+
+$ journalctl –xe –u slapd
+slapd[1350]: conn=1011 op=2 SRCH base="ou=people,dc=example,dc=com" scope=2 deref=0 
+filter=”(&(objectClass=person)(uid=jsmith))"
+slapd[1350]: conn=1011 op=2 SRCH attr=uid
+
+776
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+...<snip>...
+slapd[1350]: => access_allowed: read access to "uid=jsmith,ou=people,dc=example,dc=com" 
+"uid" requested
+slapd[1350]: => acl_get: [1] attr uid
+slapd[1350]: => acl_mask: access to entry "uid=jsmith,ou=people,dc=example,dc=com", attr 
+"uid" requested
+slapd[1350]: => acl_mask: to value by "uid=ataylor,ou=people,dc=example,dc=com", (=0)
+slapd[1350]: <= check a_dn_pat: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+slapd[1350]: <= check a_dn_pat: *
+slapd[1350]: <= acl_mask: [2] applying +0 (break)
+slapd[1350]: <= acl_mask: [2] mask: =0
+slapd[1350]: => dn: [3] ou=people,dc=example,dc=com
+slapd[1350]: => acl_get: [3] matched
+slapd[1350]: => acl_get: [3] attr uid
+slapd[1350]: => acl_mask: access to entry "uid=jsmith,ou=people,dc=example,dc=com", attr 
+"uid" requested
+slapd[1350]: => acl_mask: to value by "uid=ataylor,ou=people,dc=example,dc=com", (=0)
+slapd[1350]: <= check a_dn_pat: cn=webadmin,ou=meta,dc=example,dc=com
+slapd[1350]: <= check a_group_pat: cn=admins,ou=groups,dc=example,dc=com
+slapd[1350]: <= acl_mask: [2] applying write(=wrscxd) (stop)
+slapd[1350]: <= acl_mask: [2] mask: write(=wrscxd)
+slapd[1350]: => slap_access_allowed: read access granted by write(=wrscxd)
+slapd[1350]: => access_allowed: read access granted by write(=wrscxd)
+
+The first line shows the search string of the request, SRCH base="ou=people,dc=example,dc=com" 
+scope=2 deref=3 filter="(&(objectClass=*)(uid=jsmith))", and we are looking for the attribute UID.
+
+The output also shows the user making the request, uid=ataylor,ou=people,dc=example,dc=com.

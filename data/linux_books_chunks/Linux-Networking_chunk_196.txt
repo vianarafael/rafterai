@@ -1,0 +1,8 @@
+It can not be used to assign a mac
+address to a network card. For this, you need to specify the MACADDR variable. Do not
+use HWADDR and MACADDR in the same ifcfg-ethx file.
+
+The BROADCAST= and NETWORK= parameters from previous RHEL/Fedora versions
+are obsoleted.
+
+2.3.3.

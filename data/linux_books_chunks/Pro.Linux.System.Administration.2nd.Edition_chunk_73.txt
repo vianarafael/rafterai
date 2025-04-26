@@ -1,0 +1,13 @@
+In the next 
+chapter, we’ll show you how to install both of the distributions that this book covers.
+
+10
+
+CHAPTER 2
+
+Installing Linux
+
+By James Turnbull, Peter Lieverdink, and Dennis Matotek
+
+In this chapter, we’re going to take you through the process of installing a host with CentOS and a host with 
+Ubuntu Server.

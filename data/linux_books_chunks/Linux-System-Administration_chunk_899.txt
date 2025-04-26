@@ -1,0 +1,8 @@
+apt
+
+Both apt-get and aptitude use the same configuration information in /etc/apt/. Thus adding
+a repository for one of them, will automatically add it for both.
+
+20.5.1. /etc/apt/sources.list
+
+The resource list used by apt-get and aptitude is located in /etc/apt/sources.list.

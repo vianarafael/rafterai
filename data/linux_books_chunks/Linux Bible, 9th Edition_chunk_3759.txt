@@ -1,0 +1,2 @@
+After it is running, services in an Upstart system register 
+events with the Upstart daemon.

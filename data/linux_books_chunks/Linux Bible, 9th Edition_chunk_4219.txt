@@ -1,0 +1,5 @@
+You can ﬁ nd out more about ClamAV at http://www.clamav.net/index.html, where 
+there is documentation on how to set up and run the antivirus software.
+
+You can review the packages available for Ubuntu installation by entering the command apt-cache search 
+clamav.

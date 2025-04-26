@@ -1,0 +1,5 @@
+The UEFI can read the GPT partition table and 
+can find and execute the boot loader code in the /EFI/ directory in the EFI system partition. Unlike BIOS, 
+UEFI has its own partition that the boot loader and modules can be installed into.
+
+In Figure 6-2 we can see that after our installation we have three partitions created on drive /dev/sda.

@@ -1,0 +1,6 @@
+an example of 
+a distribution that doesn’t load a GuI by default is the ubuntu server distribution we installed in Chapter 2.
+
+On top of X you then add a desktop environment to provide the “look and feel” and desktop 
+functionality such as toolbars, icons, buttons, and the like. There are two major desktop environments 
+popular on Linux: Gnome and KDE.

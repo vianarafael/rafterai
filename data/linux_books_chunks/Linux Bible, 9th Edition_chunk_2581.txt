@@ -1,0 +1,11 @@
+They don’t check the 
+nsswitch.conf ﬁ le to ﬁ nd other places to query, such as the local hosts ﬁ le. For that, you 
+would have to use the getent command. For example:
+
+# getent hosts node1
+192.168.0.201  node1
+
+14
+
+This getent example ﬁ nds a host named node1 that was entered into my local 
+/etc/hosts ﬁ le.

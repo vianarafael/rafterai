@@ -1,0 +1,8 @@
+An 
+interface can have many aliases, or you can bond or team two or more interfaces together to appear as one 
+interface.
+
+Linux gives you the ability to have multiple IP addresses on a single interface. The interface uses the 
+
+same Mac address for all IP addresses. A bonded, or teamed, interface consists of two or more network 
+interfaces appearing as a single interface.

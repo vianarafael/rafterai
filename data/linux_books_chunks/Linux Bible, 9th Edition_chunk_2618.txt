@@ -1,0 +1,3 @@
+The primary 
+conﬁ guration ﬁ le is /etc/dhcp/dhcpd.conf for IPv4 networks (there is a dhcpd6.conf 
+ﬁ le in the same directory to provide DHCP service for IPv6 networks).

@@ -1,0 +1,7 @@
+You can also enable sudo 
+access for other users by adding them to the admin group. You can use the usermod command (which you’ll 
+see more of later in this chapter) to add a user to the group.
+
+$ sudo usermod -G admin ataylor
+
+Here we’ve used sudo and the usermod command to modify a user called ataylor.

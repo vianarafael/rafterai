@@ -1,0 +1,29 @@
+Use last to see the /var/run/wtmp
+file.
+
+[root@rhel4a ~]# last | head
+paul     pts/1       192.168.1.45     Wed Feb 14 18:39   still logged in
+reboot   system boot 2.6.9-42.0.8.ELs Wed Feb 14 18:21          (01:15) 
+nicolas  pts/5       pc-dss.telematic Wed Feb 14 12:32 - 13:06  (00:33) 
+stefaan  pts/3       pc-sde.telematic Wed Feb 14 12:28 - 12:40  (00:12) 
+nicolas  pts/3       pc-nae.telematic Wed Feb 14 11:36 - 12:21  (00:45) 
+nicolas  pts/3       pc-nae.telematic Wed Feb 14 11:34 - 11:36  (00:01) 
+dirk     pts/5       pc-dss.telematic Wed Feb 14 10:03 - 12:31  (02:28) 
+nicolas  pts/3       pc-nae.telematic Wed Feb 14 09:45 - 11:34  (01:48) 
+dimitri  pts/5       rhel4            Wed Feb 14 07:57 - 08:38  (00:40) 
+stefaan  pts/4       pc-sde.telematic Wed Feb 14 07:16 - down   (05:50) 
+[root@rhel4a ~]#
+
+The last command can also be used to get a list of last reboots.
+
+[paul@rekkie ~]$ last reboot 
+reboot   system boot  2.6.16-rekkie   Mon Jul 30 05:13     (370+08:42)  
+
+wtmp begins Tue May 30 23:11:45 2006
+[paul@rekkie ~]
+
+202
+
+logging
+
+17.1.3.

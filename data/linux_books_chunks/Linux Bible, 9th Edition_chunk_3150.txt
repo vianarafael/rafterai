@@ -1,0 +1,7 @@
+Most global conﬁ gura-
+tion options are applied to virtual hosts but can be overridden by directives within the 
+VirtualHost block.
+
+Adding a virtual host to Apache
+Apache supports the creation of separate websites within a single server to keep content 
+separate.

@@ -1,0 +1,2 @@
+This is appropriate for running an 
+anonymous FTP server that anyone on the Internet can access.

@@ -1,0 +1,25 @@
+For example here are the required services for the
+multi-user.target on Red Hat Enterprise 7.
+
+[root@rhel7 ~]# ls /etc/systemd/system/multi-user.target.wants/
+abrt-ccpp.service     hypervkvpd.service      postfix.service
+abrtd.service         hypervvssd.service      remote-fs.target
+abrt-oops.service     irqbalance.service      rhsmcertd.service
+abrt-vmcore.service   ksm.service             rngd.service
+abrt-xorg.service     ksmtuned.service        rpcbind.service
+atd.service           libstoragemgmt.service  rsyslog.service
+auditd.service        libvirtd.service        smartd.service
+avahi-daemon.service  mdmonitor.service       sshd.service
+chronyd.service       ModemManager.service    sysstat.service
+crond.service         NetworkManager.service  tuned.service
+cups.path             nfs.target              vmtoolsd.service
+[root@rhel7 ~]#
+
+Debian8 is not fully migrated yet.
+
+root@debian8:~# ls /etc/systemd/system/multi-user.target.wants/ 
+anacron.service       binfmt-support.service  pppd-dns.service  ssh.service
+atd.service           fancontrol.service      remote-fs.target
+avahi-daemon.service  lm-sensors.service      rsyslog.service
+
+Typical rc scripts are replaced with services.

@@ -1,0 +1,8 @@
+Check by typing the following command: yum list selinux-
+policy-mls or yum list selinux-policy-minimum.
+
+To check the SELinux policy packages on Ubuntu, use the command sudo apt-cache policy 
+package_name.
+
+The example of the SELinux conﬁ guration ﬁ le that follows shows that the type has been set 
+to mls.

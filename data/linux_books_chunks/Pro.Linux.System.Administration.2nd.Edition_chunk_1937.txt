@@ -1,0 +1,7 @@
+You can then exit aptitude by pressing q again.
+
+Noninteractive Mode
+
+All this navigating and window switching might be user-friendly, but it’s hardly quick. To this end, aptitude 
+also has a command-line mode that does not use interactive menus but instead takes action commands and 
+package names as parameters.

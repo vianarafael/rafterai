@@ -1,0 +1,8 @@
+Make sure you 
+delete any extra spaces from the file.
+
+914
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+You also need to configure a DHCP server (like the one we introduced in Chapter 10).

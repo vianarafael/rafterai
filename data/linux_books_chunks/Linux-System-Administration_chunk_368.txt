@@ -1,0 +1,21 @@
+Perform a file system check on all the new file systems.
+
+64
+
+file systems
+
+6.7. solution: file systems
+
+1. List the filesystems that are known by your system.
+
+man fs
+
+cat /proc/filesystems
+
+cat /etc/filesystems (not on all Linux distributions)
+
+2. Create an ext2 filesystem on the 200MB partition.
+
+mke2fs /dev/sdc1 (replace sdc1 with the correct partition)
+
+3.

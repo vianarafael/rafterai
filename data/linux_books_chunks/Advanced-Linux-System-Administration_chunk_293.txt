@@ -1,0 +1,30 @@
+This objective includes 
+compiling and recompiling the Linux kernel as needed, implementing updates and 
+noting changes in a new kernel, creating a system initrd image, and installing new 
+kernels.
+
+Key files, terms, and utilities include:
+/usr/src/linux/ 
+/etc/lilo.conf 
+make options (config, xconfig, menuconfig, oldconfig, mrproper zImage, bzImage,  
+modules, modules_install)
+mkinitrd (both Red Hat and Debian based)
+make
+
+84
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+• 2.201.3 Patching a kernel
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to properly patch a kernel for various 
+purposes including to implement kernel updates, to implement bug fixes, and to add 
+support for new hardware.

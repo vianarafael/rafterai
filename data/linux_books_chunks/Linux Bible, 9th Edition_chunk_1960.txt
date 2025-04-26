@@ -1,0 +1,19 @@
+Consider the following example:
+
+[mary]$ mkdir /tmp/mary
+[mary]$ setfacl -m d:g:market:rwx /tmp/mary/
+[mary]$ getfacl /tmp/mary/
+# file: tmp/mary/
+# owner: mary
+# group: mary
+user::rwx
+group::rwx
+other::r-x
+default:user::rwx
+default:group::rwx
+default:group:sales:rwx
+default:group:market:rwx
+default:mask::rwx
+default:other::r-x
+
+To make sure the default ACL worked, create a subdirectory.

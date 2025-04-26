@@ -1,0 +1,9 @@
+Adding nousb would temporarily disable the USB ports (presumably to make 
+sure anything connected to those ports would be disabled as well).
+
+Assuming you have selected the kernel you want, the boot loader tries to run the kernel, 
+including the content of the initial RAM disk (which contains drivers and other software 
+needed to boot your particular hardware).
+
+Starting the kernel
+After the kernel starts, there isn’t much to do except watch for potential problems.

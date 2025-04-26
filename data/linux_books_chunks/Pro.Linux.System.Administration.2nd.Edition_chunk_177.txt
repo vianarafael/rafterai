@@ -1,0 +1,7 @@
+The STIg is the Standard Technical Implementation guide. The 
+role of the open-oscap is a way to run and collect these compliance reports. You can check out the source code 
+here: https://github.com/OpenSCAP.
+
+On selecting Done we are taken back to the Installation Summary screen. Next we are going to choose 
+
+the software we will install.

@@ -1,0 +1,14 @@
+The
+following screenshot shows how to enable packet forwarding on Linux.
+
+root@router~# echo 1 > /proc/sys/net/ipv4/ip_forward
+
+The next command shows how to disable packet forwarding.
+
+root@router~# echo 0 > /proc/sys/net/ipv4/ip_forward
+
+Use cat to check if packet forwarding is enabled.
+
+root@router~# cat /proc/sys/net/ipv4/ip_forward
+
+10.12.

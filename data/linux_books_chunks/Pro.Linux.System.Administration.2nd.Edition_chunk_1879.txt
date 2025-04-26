@@ -1,0 +1,8 @@
+You saw this when you installed your host in Chapter 2 and selected the packages you 
+wanted as part of that process.
+
+In addition, you can see the license the package is released under (in this case, the GPLv2 license), the 
+size of the package and, most important, a description and summary of the package and some links to more 
+information about the package.
+
+Sometimes you will want to know what package installed a particular file or command.

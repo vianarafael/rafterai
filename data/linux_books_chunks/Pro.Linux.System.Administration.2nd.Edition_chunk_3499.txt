@@ -1,0 +1,9 @@
+We don’t need to change /etc/clamav/clamd.conf 
+although this file contains different scanning settings that you might like to look at (as does the /etc/clamd/
+scan.conf in CentOS).
+
+Now, we need to add the postfix and clamilt users to the mail group on CentOS.
+
+$ sudo usermod –aG mail postfix && sudo usermod –aG mail clamilt
+
+And for Ubuntu, unless we are using the named socket, we don’t need to make any changes.

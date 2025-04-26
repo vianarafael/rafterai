@@ -1,0 +1,6 @@
+You will need to ensure the 
+configuration present in your existing configuration file matches that of Listing 12-9.
+
+The unix_listener directive in Listing 12-9 is the socket that provides the connection between Postfix 
+
+and Dovecot. The socket listens for authentication requests from Postfix and then returns the results.

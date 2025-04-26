@@ -1,0 +1,8 @@
+The GATEWAY=192.168.0.1 
+ identiﬁ es the address of the router to the Internet.
+
+Here are a couple of other settings that might interest you:
+
+ ■ PEERDNS—Setting PEERDNS=no prevents DHCP from overwriting the /etc/
+
+resolv.conf ﬁ le.

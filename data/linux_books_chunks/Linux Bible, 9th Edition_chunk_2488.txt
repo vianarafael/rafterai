@@ -1,0 +1,6 @@
+An IPv6 address is also enabled.
+
+In Fedora and RHEL 7, instead of assigning network interface names such as eth0 and 
+wlan0, interfaces are named by their locations on the computer’s bus. For example, the 
+ﬁ rst port on the network card seated in the third PCI bus for a Fedora system is named 
+p3p1. The ﬁ rst embedded Ethernet port would be em1.

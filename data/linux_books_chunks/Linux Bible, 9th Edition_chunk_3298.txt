@@ -1,0 +1,11 @@
+After that, you must go over to the console 
+to get back into the server and fi x the problem.
+
+483
+
+c18.indd  04/01/2015  Page 484
+
+Part IV: Becoming a Linux Server Administrator
+
+You need to add a few things to your ﬁ rewall to allow access to your FTP server without 
+opening up access to other services.

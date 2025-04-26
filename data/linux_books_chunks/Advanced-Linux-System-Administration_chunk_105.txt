@@ -1,0 +1,9 @@
+The filesystem uses 16 bits for the user and 
+group fields, so the maximum is 2^16 = 65534 which is usually mapped to the user 
+nobody or nfsnobody more recently
+
+/proc/modules
+List of currently loaded modules, same as the output of lsmod
+
+TASK: Patch the linux-2.4.22-1.2149.nptl kernel to support Extended Attributes and 
+Posix Access Control Lists (ACL) for ext2 and ext3 filesystems.

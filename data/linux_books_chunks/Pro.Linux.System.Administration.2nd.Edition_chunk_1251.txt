@@ -1,0 +1,20 @@
+If you don’t feel that you know 
+enough, we recommend you check out these sites and tutorials:
+
+•	
+
+•	
+
+•	
+
+•	
+
+www.tutorialspoint.com/ipv4/
+
+www.tutorialspoint.com/ipv6/
+
+http://ipv6.com/articles/general/ipv6-the-next-generation-internet.htm
+
+http://en.wikipedia.org/wiki/TCP/IP
+
+ iptables is used to protect your network services.

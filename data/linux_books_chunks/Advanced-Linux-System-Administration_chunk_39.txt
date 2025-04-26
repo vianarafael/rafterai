@@ -1,0 +1,13 @@
+Section 
+
+numbers or the equivalent are not considered part of the section titles. 
+
+• M. Delete any section Entitled "Endorsements". Such a section may not be included in the Modified 
+
+Version. 
+
+• N. Do not retitle any existing section to be Entitled "Endorsements" or to conflict in title with any Invariant 
+
+Section. 
+
+• O. Preserve any Warranty Disclaimers.

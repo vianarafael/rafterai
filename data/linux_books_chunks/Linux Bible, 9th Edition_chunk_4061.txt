@@ -1,0 +1,7 @@
+However, after you grant root 
+permission to a user, even in a limited way, it is difﬁ cult to be sure that a determined user 
+can’t ﬁ nd ways to gain full root access to your system and do what he or she wants to it.
+
+One way to keep a misbehaving administrator in check is to have security messages 
+intended for the /var/log/secure ﬁ le sent to a remote log server that none of the local 
+administrators have access to.

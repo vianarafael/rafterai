@@ -1,0 +1,16 @@
+DDNS can be
+used with or without secure keys.
+
+When set up properly records can be added automaticall to the zone file:
+
+root@fedora14~# tail -2 /var/named/db.office.linux-training.be
+ubu1010srv         A     192.168.42.151
+                   TXT   "00dfbb15e144a273c3cf2d6ae933885782"
+
+166
+
+introduction to dhcp
+
+12.9. Practice: dhcp
+
+1.

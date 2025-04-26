@@ -1,0 +1,6 @@
+Options for each supported filesystem can be found in the mount manual page.
+
+The dump field contains a digit (0 or 1), which tells the system whether or not to dump some filesystem 
+
+meta-information when a filesystem check is to be performed. This dump information can be used by the 
+filesystem repair tools. A 0 means that the filesystem does not need to be dumped.

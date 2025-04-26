@@ -1,0 +1,22 @@
+Use a boot loader like SysLinux or LILO instead”
+
+Troubleshooting LILO
+
+27
+
+        
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+When installing LILO the bootloader mapper, /sbin/lilo, will backup the existing 
+bootloader.
+
+For example if you install LILO on a floppy, the original bootloader will be save to
+/boot/boot.0200
+
+Similarly when changing the bootloader on an IDE or a SCSI disk the files will be called 
+
+boot.0300 and boot.0800 respectively.

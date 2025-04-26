@@ -1,0 +1,5 @@
+The file resource configures the attributes of files 
+under management. In this case, it configures the /etc/passwd file and sets its owner and group to the root 
+user and its permissions to 0644.
+
+ there is a style guide for writing your puppet manifests that you should become familiar with early on.

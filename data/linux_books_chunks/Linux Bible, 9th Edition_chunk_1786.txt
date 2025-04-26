@@ -1,0 +1,8 @@
+If you 
+attempt a regular install, the system responds with “nothing to do.” You must, instead, use the 
+reinstall subcommand. For example, suppose you installed the zsh package and then deleted 
+/bin/zsh by mistake. You could restore the missing components by typing the following:
+
+# yum reinstall zsh
+
+You can remove a single package with the erase subcommand.

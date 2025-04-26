@@ -1,0 +1,10 @@
+# systemd-cat
+
+
+- Write the output of the specified command to the journal (both output streams are captured):
+
+`systemd-cat {{command}}`
+
+- Write the output of a pipeline to the journal (`stderr` stays connected to the terminal):
+
+`{{command}} | systemd-cat`

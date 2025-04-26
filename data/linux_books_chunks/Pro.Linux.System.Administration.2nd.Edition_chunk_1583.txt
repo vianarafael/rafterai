@@ -1,0 +1,7 @@
+By default both 
+Ubuntu and CentOS have ACCEPT as the default policy for all chains in all tables.
+
+The DROP policy discards a packet without notifying the sender, often described as ‘dropping to the floor’. 
+
+The REJECT policy also discards the packet, but it sends an ICMP packet to the sender to tell it the rejection 
+has occurred.

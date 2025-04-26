@@ -1,0 +1,2 @@
+So, in the previous example, admin@example.com can go to a different user than 
+admin@example.net.

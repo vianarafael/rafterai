@@ -1,0 +1,9 @@
+1 root root 17 Mar 27 15:39
+ /lib/systemd/system/runlevel2.target -> multi-user.target
+lrwxrwxrwx. 1 root root 17 Mar 27 15:39
+ /lib/systemd/system/runlevel3.target -> multi-user.target
+lrwxrwxrwx. 1 root root 17 Mar 27 15:39
+ /lib/systemd/system/runlevel4.target -> multi-user.target
+lrwxrwxrwx. 1 root root 16 Mar 27 15:39
+ /lib/systemd/system/runlevel5.target -> graphical.target
+lrwxrwxrwx.

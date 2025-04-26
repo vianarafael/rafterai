@@ -1,0 +1,6 @@
+The software you pay for will remain covered by its open 
+source license, but you will have the features you need, at probably a fraction of 
+the cost of building the project from scratch.
+
+ ■ Donations—Many open source projects accept donations from individuals or open 
+source companies that use code from their projects.

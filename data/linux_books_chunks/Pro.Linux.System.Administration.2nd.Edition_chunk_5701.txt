@@ -1,0 +1,5 @@
+For example, on CentOS the SSH daemon is called sshd, while on Ubuntu it is called ssh.
+
+The title attribute uses the value of the $ssh_service to specify what the daemon will be called on 
+
+each distribution. Puppet, in turn, uses this to determine what service to start or stop.

@@ -1,0 +1,7 @@
+Select Continue to have your ﬁ lesystems mounted (if possible) under the /mnt/
+sysimage directory. If this is successful, a Rescue message appears, telling you 
+your ﬁ lesystems have been mounted under /mnt/sysimage.
+
+9.  Select OK to continue. You should see a shell prompt for the root user (#). You are 
+
+ready to begin troubleshooting from rescue mode.

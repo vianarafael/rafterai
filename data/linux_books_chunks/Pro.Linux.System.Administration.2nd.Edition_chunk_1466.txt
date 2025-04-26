@@ -1,0 +1,7 @@
+You can use expressions to narrow the array of packets types it will show. See 
+the man tcpdump page for more information.
+
+ Another program you can try is called wireshark. it has a very good gUi that allows you to easily filter 
+
+ ■ Note 
+traffic. it also has a command-line utility called tshark, which operates in similar fashion to tcpdump.

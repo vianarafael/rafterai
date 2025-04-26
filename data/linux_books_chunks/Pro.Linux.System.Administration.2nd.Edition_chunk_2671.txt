@@ -1,0 +1,10 @@
+The instructions here for Ubuntu should work the same for CentOS: 
+www.noip.com/support/knowledgebase/installing-the-linux-dynamic-update-client-on-ubuntu/.
+
+Of course, many home/business firewall routers also support dynamic dns updating and may be a 
+
+better choice if you have one.
+
+Dynamic DNS is not to be confused with local dynamic dns updates, which is in principle similar but 
+
+different.

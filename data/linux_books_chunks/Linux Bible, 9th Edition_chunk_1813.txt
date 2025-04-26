@@ -1,0 +1,13 @@
+Because the database contains ﬁ ngerprints (md5sums) of every 
+ﬁ le in every package, it can be queried with RPM to ﬁ nd out if ﬁ les from any package have 
+been tampered with.
+
+252
+
+c10.indd  04/01/2015  Page 253
+
+Chapter 10: Getting and Managing Software
+
+The rpm command can still do basic install and upgrade activities, although most people 
+only use rpm in that way when there is a package sitting in the local directory, ready to 
+be installed.

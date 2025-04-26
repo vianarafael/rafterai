@@ -1,0 +1,5 @@
+Both show a similar GRUB2 boot 
+
+menu that allows you to select which kernel you would like to run with your arrow keys. CentOS presents 
+the two menu entries that we talked about earlier, one being the kernel and the other described as a rescue 
+kernel. On Ubuntu you will see a sub-menu entry called Advanced Options.

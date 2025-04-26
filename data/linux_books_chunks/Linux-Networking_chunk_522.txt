@@ -1,0 +1,9 @@
+3600000      A     192.58.128.30
+K.ROOT-SERVERS.NET.      3600000      A     193.0.14.129
+L.ROOT-SERVERS.NET.      3600000      A     199.7.83.42
+M.ROOT-SERVERS.NET.      3600000      A     202.12.27.33
+root@debian7:~#
+
+10.2.4. domains
+
+One level below the top level domains are the domains.

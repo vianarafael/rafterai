@@ -1,0 +1,6 @@
+For that reason, this section describes what you might 
+expect to ﬁ nd in that ﬁ le. It also describes how you can mount other partitions so that 
+they become part of your Linux ﬁ lesystem.
+
+The mount command is used not only to mount local storage devices, but also to mount 
+other kinds of ﬁ lesystems on your Linux system.

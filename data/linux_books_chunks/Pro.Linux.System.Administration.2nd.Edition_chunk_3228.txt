@@ -1,0 +1,6 @@
+Postfix now knows 
+
+that if it receives mail destined to either of these, for example, ataylor@mail.example.com or ataylor@
+example.com, it should accept and process this e-mail.
+
+ postfix will receive mail only for users it knows about.

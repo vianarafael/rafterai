@@ -1,0 +1,16 @@
+Each of these ﬁ les should maintain their 
+SUID permissions.
+
+$ ls -l /usr/bin/passwd
+-rwsr-xr-x. 1 root root 28804 Aug 17 20:50 /usr/bin/passwd
+
+603
+
+c22.indd  04/15/2015  Page 604
+
+Part V: Learning Linux Security Techniques
+
+$ ls -l /usr/bin/sudo
+---s--x--x. 2 root root 77364 Nov 3 08:10 /usr/bin/sudo
+
+Commands such as passwd and sudo are designed to be used as SUID programs.

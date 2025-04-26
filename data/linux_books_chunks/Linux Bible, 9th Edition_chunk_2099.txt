@@ -1,0 +1,22 @@
+Notice that there are ﬁ ve usable 
+partitions (sdc1, sdc2, sdc3, sdc5, and sdc6) and that the sectors between the 
+Start and End for sdc4 are being consumed by sdc5 and sdc6.
+
+Command (m for help): p
+...
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdc1            2048     1026047      512000   83  Linux
+/dev/sdc2         1026048     2050047      512000   83  Linux
+/dev/sdc3         2050048     2664447      307200   83  Linux
+/dev/sdc4         2664448    15667199     6501376    5  Extended
+/dev/sdc5         2666496     3383295      358400   83  Linux
+/dev/sdc6         3385344     4204543      409600   83  Linux
+
+293
+
+ 
+c12.indd  04/01/2015  Page 294
+
+Part III: Becoming a Linux System Administrator
+
+3.

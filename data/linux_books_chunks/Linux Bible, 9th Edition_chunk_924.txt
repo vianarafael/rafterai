@@ -1,0 +1,11 @@
+When no GUI is available, you need a text editor that runs in the shell, 
+such as vi, jed, or joe.
+
+118
+
+c05.indd  04/01/2015  Page 119
+
+Chapter 5: Working with Text Files
+
+Starting with vi
+Most often, you start vi to open a particular ﬁ le.

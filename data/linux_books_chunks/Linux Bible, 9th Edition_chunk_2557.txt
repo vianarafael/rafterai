@@ -1,0 +1,18 @@
+Another setting in the ifcfg-eth0 example keeps 
+regular users from being able to start and stop the interface (USERCTL=no).
+
+Here’s what an ifcfg-eth1 ﬁ le might look like for a wired Ethernet interface that uses 
+static IP addresses:
+
+DEVICE=eth1
+HWADDR=00:1B:21:0A:E8:5E
+TYPE=Ethernet
+BOOTPROTO=none
+ONBOOT=yes
+USERCTL=no
+IPADDR=192.168.0.140
+NETMASK=255.255.255.0
+GATEWAY=192.168.0.1
+
+In this ifcfg-eth1 example, because this is setting address and other information 
+ statically, BOOTPROTO is set to none.

@@ -1,0 +1,9 @@
+For 
+
+example, the ﬁ le for the useradd command deﬁ nes the default group number, home 
+directory, password expiration date, shell, and skeleton directory (/etc/skel) 
+that are used when creating a new user account.
+
+ ■ /etc/httpd—Contains a variety of ﬁ les used to conﬁ gure the behavior of your 
+
+Apache web server (speciﬁ cally, the httpd daemon process).

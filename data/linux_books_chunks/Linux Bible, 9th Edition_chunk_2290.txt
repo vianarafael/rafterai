@@ -1,0 +1,9 @@
+You can also use the yum command to check for and 
+install all packages that are available for your RHEL or Fedora systems (type yum update).
+
+13
+
+Check the filesystem for signs of crackers
+To check your ﬁ lesystem for possible intrusion, you can run commands such as rpm -V 
+to check if any commands, document ﬁ les, or conﬁ guration ﬁ les have been tampered with 
+on your system.

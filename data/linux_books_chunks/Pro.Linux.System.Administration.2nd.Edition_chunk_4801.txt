@@ -1,0 +1,11 @@
+The Apache request for username and password
+
+You should now be able to access LAM, and you should see the successful login in the Apache logs.
+
+...authorization result of Require ldap-group cn=admins,ou=groups,dc=example,dc=com...
+...auth_ldap authenticate: accepting ataylor....
+...authorization result of Require valid-user : granted...
+
+This shows that the LDAP server is authenticating our request using the username ataylor and testing 
+
+that this user is a member of the cn=admin,ou=groups,dc=example,dc=com group.

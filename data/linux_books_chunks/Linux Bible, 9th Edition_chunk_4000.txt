@@ -1,0 +1,10 @@
+So, using the desk analogy, if I am working on nine active projects 
+and there is space on the desk to hold the information I need for all nine projects, why not 
+leave them all within reach on the desk? Following that same way of thinking, the kernel 
+sometimes keeps libraries and other content in RAM that it thinks you might eventually 
+need, even if a process is not looking for it immediately.
+
+The fact that the kernel is inclined to store information in RAM that it expects may be 
+needed soon (even if it is not needed now) can cause an inexperienced system administra-
+tor to think that the system is almost out of RAM and that processes are about to start 
+failing.

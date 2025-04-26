@@ -1,0 +1,8 @@
+Create a volume group called abc from the LVM partition, create a 200MB logical 
+volume from that group called data, add a VFAT partition, and then temporarily 
+mount the logical volume on a new directory named /mnt/test . Check that it was 
+successfully mounted.
+
+9.  Grow the logical volume from 200MB to 300MB.
+
+10.

@@ -1,0 +1,11 @@
+For example, dc=example,dc=com.
+
+ ■ LDAP server—This is the host name of the LDAP server—for example, ldap://
+
+ldap.example.com.
+
+ ■ Use TLS to encrypt connections—With this selected, you must also select 
+
+to  identify the location of a certiﬁ cate authority (CA) certiﬁ cate that will be 
+ downloaded to the local system to use to validate and encrypt communications 
+with the LDAP server.

@@ -1,0 +1,7 @@
+Later in the section “Using the GRUB2 Menu,” we will explain these choices 
+and how to manipulate them.
+
+After picking the kernel you wish to boot into (or waiting until the default is loaded after the timeout), 
+
+GRUB2 will now find the kernel binary (vmlinuz-<release-number>) and then load a special file called 
+initrd.img into memory.

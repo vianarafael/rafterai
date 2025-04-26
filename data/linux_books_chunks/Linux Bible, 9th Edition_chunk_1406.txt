@@ -1,0 +1,5 @@
+The descriptions in this section are based on GNOME 3.14 
+in Fedora 21.
+
+From the GNOME 3.14 desktop, select Activities and type Details. Then select the Details 
+icon. When the Details window appears, select Removable Media from the left column.

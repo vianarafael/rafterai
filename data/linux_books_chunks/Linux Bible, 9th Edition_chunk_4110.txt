@@ -1,0 +1,11 @@
+Only the 
+information for tim’s account passwords is extracted.
+
+# chage -l tim | grep Password
+Password expires                 : never
+Password inactive                : never
+
+22
+
+You can see that there are no settings for password expiration (Password expires) or 
+password inactivity (Password inactive).

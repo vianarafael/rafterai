@@ -1,0 +1,6 @@
+Finally, 
+we have the rrdtool plug-in that will be used to output the metrics as RRD files.
+
+RRD stands for “round-robin database” files, which are normally used to hold time-series data. Time-
+series databases hold db record types such as counts, gauges, and histograms. They can hold these records at 
+different granularities.

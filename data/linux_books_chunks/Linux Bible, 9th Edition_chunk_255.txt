@@ -1,0 +1,6 @@
+The entire fi rst edition is available online at http://oreilly.com/catalog/opensources/book/
+toc.html.
+
+OSI open source defi nition
+Linux provides a platform that lets software developers change the operating system as 
+they like and get a wide range of help creating the applications they need.

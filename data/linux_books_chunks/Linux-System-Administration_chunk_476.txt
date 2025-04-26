@@ -1,0 +1,12 @@
+The screenshot
+shows how to present the SCSI Disk device to LVM.
+
+root@RHEL4:~# pvcreate /dev/sdc
+Physical volume "/dev/sdc" successfully created
+
+Note: lvm will work fine when using the complete device, but another operating system on the
+same computer (or on the same SAN) will not recognize lvm and will mark the block device
+as being empty! You can avoid this by creating a partition that spans the whole device, then
+run pvcreate on the partition instead of the disk.
+
+Then vgcreate creates a volume group using one device.

@@ -1,0 +1,5 @@
+Space from the sdc5 and sdc6 partitions is taken from the 
+extended partition.
+
+As before, insert the USB ﬂ ash drive and determine the device name (in my case, /dev/
+sdc).

@@ -1,0 +1,9 @@
+97
+Using Basic Filesystem Commands .......................................................................100
+Using Metacharacters and Operators ....................................................................102
+Using ﬁ le-matching metacharacters ............................................................102
+Using ﬁ le-redirection metacharacters .........................................................103
+Using brace expansion characters ...............................................................105
+Listing Files and Directories ...............................................................................105
+Understanding File Permissions and Ownership ....................................................109
+Changing permissions with chmod (numbers) ..............................................

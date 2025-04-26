@@ -1,0 +1,7 @@
+The next time you boot your 
+computer, the new options will not be saved. To add options so they are saved 
+ permanently, see the next section.
+
+Permanently changing boot options
+You can change the options that take effect each time you boot your computer by changing 
+the GRUB conﬁ guration ﬁ le.

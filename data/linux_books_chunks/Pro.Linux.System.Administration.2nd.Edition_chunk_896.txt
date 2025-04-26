@@ -1,0 +1,7 @@
+Similarly, you’ll find a file called sshd that performs similar work for users who log in via an SSH 
+connection.
+
+170
+
+Other common services that come with default PAM configurations and that you’ll find in the /etc/
+pam.d directory are the passwd command and the cron scheduling daemon.

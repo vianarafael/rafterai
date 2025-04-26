@@ -1,0 +1,7 @@
+The location tags you generally use and encounter are Directory, 
+Files, and Location, which limit the scope of the directives to speciﬁ c directories, ﬁ les, 
+or locations, respectively.
+
+ ■ Directory tags are used to specify a path based on the location on the ﬁ lesys-
+
+tem. For instance, <Directory /> refers to the root directory on the computer.

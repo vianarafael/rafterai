@@ -1,0 +1,9 @@
+We specify the name of 
+
+the folder we want created and the Maildir to create it in.
+
+If you don’t want to install the maildrop package, you can create the directories using the mkdir 
+
+command, as shown in Listing 12-6.
+
+Listing 12-6.

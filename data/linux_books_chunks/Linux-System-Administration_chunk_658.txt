@@ -1,0 +1,9 @@
+Linux loader
+
+lilo used to be the most used Linux bootloader, but is steadily being replaced with grub and
+recently grub2.
+
+14.4.2. lilo.conf
+
+Here is an example of a lilo.conf file. The delay switch receives a number in tenths of a
+second.

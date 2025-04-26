@@ -1,0 +1,5 @@
+Table 8-3 shows the major options you can pass to 
+
+rpm and what they do. Each option has a number of flags that you add.
+
+Table 8-3.

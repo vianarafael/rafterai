@@ -1,0 +1,15 @@
+Thus, if you want to 
+immediately halt your server, you type init 0 at the command line:
+
+# init 0
+...
+System going down for system halt NOW!
+
+382
+
+c15.indd  04/01/2015  Page 383
+
+Chapter 15: Starting and Stopping Services
+
+The init command accepts any of the runlevel numbers in Table 15.1, allowing you to 
+quickly switch your server from one runlevel category to another.

@@ -1,0 +1,6 @@
+Valid ﬁ lesystem types are described in the section 
+“Supported ﬁ lesystems” earlier in this chapter (although you can only use ﬁ lesys-
+tem types for which drivers are included for your kernel).
+
+ ■ Field 4—Use defaults or a comma-separated list of options (no spaces) you want 
+to use when the entry is mounted.

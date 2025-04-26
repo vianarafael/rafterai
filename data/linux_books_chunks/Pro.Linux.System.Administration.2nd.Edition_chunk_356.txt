@@ -1,0 +1,18 @@
+the vagrant command will store these 
+boxes in the appropriate .vagrant.d/boxes directory in your hoMe directory.
+
+virtualbox/
+total 1029016
+drwxr-xr-x  6   dennismatotek  staff             204 12 Dec 16:44 .
+drwxr-xr-x  3   dennismatotek  staff             102 12 Dec 16:44 ..
+-rw-r--r--  1   dennismatotek  staff             505 12 Dec 16:44 Vagrantfile
+-rw-------  1   dennismatotek  staff       526833152 12 Dec 16:44 box-disk1.vmdk
+-rw-------  1   dennismatotek  staff           10589 12 Dec 16:44 box.ovf
+-rw-r--r--  1   dennismatotek  staff              25 12 Dec 16:44 metadata.json
+
+When you issue the vagrant up command the first time, as we will do shortly, vagrant will download 
+the specified box, store in a similarly named directory, then import that downloaded VirtualBox machine 
+(box.ovf) into VirtualBox itself using the VBoxManage import command.
+
+VirtualBox will then assign that virtual machine a uuId (universal unique identifier) which vagrant can 
+then use to issue the VBoxManage startvm <uuid>—headless command.

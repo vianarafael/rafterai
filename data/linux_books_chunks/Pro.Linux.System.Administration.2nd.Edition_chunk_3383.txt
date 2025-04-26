@@ -1,0 +1,4 @@
+this is designed to help 
+reduce spam. in addition, some SMtp servers are configured not to receive e-mail from certain types of 
+networks, such as aDSl and those using dynamic ip addresses. if you cannot send outbound e-mail or 
+some servers refuse connections from your server, this may be the issue.

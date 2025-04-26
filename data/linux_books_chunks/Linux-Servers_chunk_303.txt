@@ -1,0 +1,8 @@
+name to ip address resolution
+
+The domain name system or dns is a service on a tcp/ip network that enables clients to
+translate  names  into  ip  addresses.  Actually  dns  is  much  more  than  that,  but  let's  keep  it
+simple for now.
+
+When you use a browser to go to a website, then you type the name of that website in the
+url bar.

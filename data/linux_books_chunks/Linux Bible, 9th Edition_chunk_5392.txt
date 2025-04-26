@@ -1,0 +1,11 @@
+You will probably either press 
+
+Ctrl+X or press Enter; then when you see the next screen, type b.
+
+If it worked, your system should bypass the login prompt and boot up directly 
+to a root user shell, where you can do administrative tasks without providing a 
+password.
+
+B
+
+5.

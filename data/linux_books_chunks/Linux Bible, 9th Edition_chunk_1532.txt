@@ -1,0 +1,4 @@
+Boot options (described later in this  chapter) 
+can be passed to the anaconda kernel to conﬁ gure how it starts up. One option 
+ supported by Fedora and RHEL allows you to pass the location of a kickstart ﬁ le to 
+the installer.

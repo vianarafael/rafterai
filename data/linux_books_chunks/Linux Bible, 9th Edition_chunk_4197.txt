@@ -1,0 +1,13 @@
+You can see how little time it took for John the 
+Ripper to crack the password.
+
+# john password.file
+Loaded 1 password hash (generic crypt(3) [?/32])
+password         (Samantha)
+guesses: 1  time: 0:00:00:44 100% (2)  c/s: 20.87
+ trying: 12345 - missy
+Use the "--show" option to display all of the
+ cracked passwords reliably
+
+To demonstrate how strong passwords are vital, consider what happens when the 
+Samantha account’s password is changed from password to Password1234.

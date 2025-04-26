@@ -1,0 +1,8 @@
+As we said, this will run at the end of the block of tasks in the playbook.
+
+  handlers:
+  - name: mariadb_restart
+    service: name=mariadb state=restarted
+
+So now if we run our playbook and we have a package change for our database, our database will 
+automatically be restarted at the end of the playbook.

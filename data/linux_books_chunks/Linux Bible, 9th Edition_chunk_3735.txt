@@ -1,0 +1,7 @@
+Topics are broken down 
+by areas of troubleshooting, such as the boot process, software packages, networking, memory 
+issues, and rescue mode.
+
+Boot-Up Troubleshooting
+Before you can begin troubleshooting a running Linux system itself, that system needs to boot up. 
+For a Linux system to boot up, a series of things has to happen.

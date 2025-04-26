@@ -1,0 +1,4 @@
+nagios can also monitor services on 
+remote hosts that aren’t exposed to the network. nagios comes with a variety of instructions on how 
+to monitor a variety of such remote hosts, but two of the principal popular mechanisms are the nrpe 
+and nSCa plug-ins.

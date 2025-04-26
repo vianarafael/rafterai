@@ -1,0 +1,4 @@
+Also, links are 
+set to stop (or not start) at runlevels 0, 1, and 6.
+
+2.

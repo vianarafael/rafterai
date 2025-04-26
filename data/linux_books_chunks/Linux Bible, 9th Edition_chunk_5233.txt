@@ -1,0 +1,7 @@
+To search the YUM repository for the package that provides the mogrify command, 
+
+type the following:
+
+# yum provides mogrify
+
+2.

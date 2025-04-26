@@ -1,0 +1,9 @@
+Then we need to change the DEVICE=enp0s8 
+to DEVICE=enp0s9. The rest can stay the same.
+
+Next we will create our bond0 device file. On CentOS, the configuration details will be kept in a file 
+
+called /etc/sysconfig/network-scripts/ifcfg-bond0. In Listing 7-6, you see what we need to create a 
+bonded interface.
+
+Listing 7-6.

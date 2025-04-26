@@ -1,0 +1,5 @@
+Likewise, when you download and run Google’s Chrome OS, you get a 
+browser that is backed by a Linux operating system.
+
+Facebook builds and deploys its site using what is referred to as a LAMP stack (Linux, Apache 
+web server, MySQL database, and PHP web scripting language)—all open source projects.

@@ -1,0 +1,6 @@
+This protects our user’s authentication credentials from attacks that might sniff or grab them off 
+the network or Internet.
+
+Finally, make sure we have the right location of our mailboxes using the mail_location option (which 
+
+we set up previously).

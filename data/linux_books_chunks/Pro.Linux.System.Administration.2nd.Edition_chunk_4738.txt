@@ -1,0 +1,23 @@
+The UID and GIDs are used when we 
+create new users in the LAM interface; they will be incremented in those ranges listed previously.
+
+# List of active account types.
+activeTypes: user,group,host
+
+types: suffix_user: ou=people,dc=example,dc=com
+types: attr_user: #uid;#givenName;#sn;#uidNumber;#gidNumber
+types: modules_user: person,posixAccount,shadowAccount,exampleClient
+
+types: suffix_group: ou=groups,dc=example,dc=com
+types: attr_group: #cn;#gidNumber;#memberUID;#description
+types: modules_group: posixGroup
+
+types: suffix_host: ou=hosts,dc=example,dc=com
+types: attr_host: #cn;#description;#uidNumber;#gidNumber
+types: modules_host: account,posixAccount
+
+# Access rights for home directories scriptRights: 750
+
+In the last section of the file, we detail the account types we want to enable in the activeTypes section 
+
+and the LDAP branches that house these.

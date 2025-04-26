@@ -1,0 +1,8 @@
+The Samba team now has access to SMB/CIFS, Windows for Workgroups and
+Active Directory documentation.
+
+15.6.2. broadcasting protocol
+
+SMB uses the NetBIOS service location protocol, which is a broadcasting protocol. This
+means  that  NetBIOS  names  have  to  be  unique  on  the  network  (even  when  you  have
+different IP-addresses).

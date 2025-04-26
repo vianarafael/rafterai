@@ -1,0 +1,16 @@
+This directory is used by Linux’s 
+filesystem repair tools, which we’ll look at later in the section “Recovering from Failure.”
+
+When you no longer need the filesystem, you can unmount it from your host using the umount 
+
+command.
+
+$ sudo umount /mnt/data
+umount: /mnt/data: target is busy
+        (In some cases useful info about processes that
+         use the device is found by lsof(8) or fuser(1).)
+$ pwd
+/mnt/data
+
+What is happening here? The command umount is refusing to unmount the directory because it 
+contains files or directories that are in use.

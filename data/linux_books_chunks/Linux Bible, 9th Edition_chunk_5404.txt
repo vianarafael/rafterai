@@ -1,0 +1,13 @@
+To install the lemon package, damage the /usr/bin/lemon ﬁ le, verify that the 
+ﬁ le has been tampered with, and remove the lemon package, type the following:
+
+# yum install -y lemon
+# cp /etc/services /usr/bin/lemon
+# rpm -V lemon
+S.5....T.    /usr/bin/lemon
+# yum erase lemon
+
+B
+
+From the original lemon ﬁ le, the ﬁ le size (S), the md4sum (5), and the modiﬁ ca-
+tion times (T) all differ.

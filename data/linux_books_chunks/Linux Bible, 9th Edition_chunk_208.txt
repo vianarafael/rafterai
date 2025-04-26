@@ -1,0 +1,6 @@
+As a result of AT&T’s 
+monopoly of the telephone system, the U.S. government was concerned that an  unrestricted 
+AT&T might dominate the ﬂ edgling computer industry.
+
+Because AT&T was restricted from selling computers directly to customers before its 
+ divestiture, UNIX source code was licensed to universities for a nominal fee.

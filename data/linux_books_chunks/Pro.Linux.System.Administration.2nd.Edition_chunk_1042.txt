@@ -1,0 +1,12 @@
+We are going to concentrate on the part that starts your operating 
+system, and that starts with the following line:
+
+### BEGIN /etc/grub.d/10_linux ###
+
+189
+
+Chapter 6 ■ Startup and ServiCeS
+
+Below that BEGIN line is the menuentry that configures our menu item.
+
+Listing 6-3.

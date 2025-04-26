@@ -1,0 +1,9 @@
+For example, to copy the cloud image and data image to that 
+directory, type the following:
+
+# cp Fedora-Cloud-Base-20141203-21.x86_64.qcow2 \
+    Fedora-Cloud-Base-01.qcow2 \
+    fedora21-data.iso          \
+    /var/lib/libvirt/images/
+
+7.  Start the cloud instance.

@@ -1,0 +1,19 @@
+How many
+A4 pages is this file ? Then look at the same pdf on samba.org, it is updated regularly.
+
+6. Stop the Samba server.
+
+144
+
+Chapter 10. getting started with
+samba
+
+145
+
+getting started with samba
+
+10.1. /etc/samba/smb.conf
+
+10.1.1. smbd -b
+
+Samba configuration is done in the smb.conf file.

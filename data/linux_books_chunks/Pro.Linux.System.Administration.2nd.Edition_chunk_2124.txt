@@ -1,0 +1,7 @@
+We recommend you don’t go down the road of resizing partitions 
+with parted as these can be disastrous operations, but rather use LVM. We will cover LVM in detail later in 
+this chapter. For more information about parted, visit www.gnu.org/software/parted/index.shtml.
+
+ ■ Caution  resizing partitions can cause unrecoverable data loss. always back up your data first!
+
+GIBIBYTES VS.

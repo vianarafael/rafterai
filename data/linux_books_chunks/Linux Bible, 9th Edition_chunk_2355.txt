@@ -1,0 +1,13 @@
+The 
+next step is to copy that key over to a remote user, so I can use key-based authentication 
+each time I connect to that user account with ssh tools:
+
+ $ ssh-copy-id -i ~/.ssh/id_rsa.pub johndoe@10.140.67.23
+johndoe@10.140.67.23's password: 
+***************
+Now try logging into the machine, with "ssh 'johndoe@10.140.67.23'",
+and check in:
+  .ssh/authorized_keys
+to make sure we haven't added extra keys that you weren't expecting.
+
+When prompted, I entered johndoe’s password.

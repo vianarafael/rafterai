@@ -1,0 +1,11 @@
+First, let’s see the current list of services allowed by the firewall.
+
+$ sudo firewall-cmd --list-services
+dhcpv6-client ssh
+
+We need to add the http service. We do that with firewall-cmd again.
+
+$ sudo firewall-cmd --add-service http --permanent
+$ sudo firewall-cmd --reload
+
+This will add the service to the public zone by default.

@@ -1,0 +1,8 @@
+Using GNOME, however, 
+still gives you the choice of several different Linux distributions.
+
+Starting with the Fedora GNOME Desktop 
+Live image
+A live Linux ISO image is the quickest way to get a Linux system up and running so you 
+can start trying it out. Depending on its size, the image can be burned to a CD, DVD, or 
+USB drive and booted on your computer.

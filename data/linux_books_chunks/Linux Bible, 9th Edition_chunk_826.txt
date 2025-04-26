@@ -1,0 +1,23 @@
+A common 
+use of here text is to use it with a text editor to create or add to a ﬁ le from within a script:
+
+/bin/ed /etc/resolv.conf <<resendit
+a
+nameserver 100.100.100.100
+.
+w
+q
+resendit
+
+With these lines added to a script run by the root user, the ed text editor adds the IP 
+address of a DNS server to the /etc/resolv.conf ﬁ le.
+
+104
+
+c04.indd  04/01/2015  Page 105
+
+Chapter 4: Moving around the Filesystem
+
+Using brace expansion characters
+By using curly braces ({}), you can expand out a set of characters across ﬁ lenames, 
+ directory names, or other arguments you give commands.

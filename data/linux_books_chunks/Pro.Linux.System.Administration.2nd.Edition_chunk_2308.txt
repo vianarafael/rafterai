@@ -1,0 +1,8 @@
+If one were degraded or down it might 
+
+appear like this [U_]. The (S) after the device indicates it is being used as a spare.
+
+At boot time, your Linux host will invoke the mdadm utility. Depending on its configuration, the utility 
+
+will scan either all partitions or defined disks for RAID superblocks. If it finds any, it will analyze them 
+and try to assemble and start all RAID arrays.

@@ -1,0 +1,26 @@
+Same for SCSI, /
+dev/sdb3 is the third partition on the second SCSI disk.
+
+Table 5.2. Partition naming
+
+partition
+
+/dev/hda1
+
+/dev/hda2
+
+/dev/sda5
+
+/dev/sdb6
+
+device
+
+first primary partition on /dev/hda
+
+second primary or extended partition on /dev/hda
+
+first logical drive on /dev/sda
+
+second logical on /dev/sdb
+
+The picture below shows two (spindle) disks with partitions.

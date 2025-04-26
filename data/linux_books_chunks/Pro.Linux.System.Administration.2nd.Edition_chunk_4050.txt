@@ -1,0 +1,9 @@
+Next we need to set 
+
+our AWS access credentials.
+
+TARGET_USER='ALIAIJBASN4NOMJ4FLTR'
+TARGET_PASS='+GDHpm+FLPj311tu6YJ29c9luMlQTHwntgy7vgs2'
+
+We have set the AWS credentials here, but we may not like to do this as it means we are scattering 
+our AWS credentials over many files in our home directory.

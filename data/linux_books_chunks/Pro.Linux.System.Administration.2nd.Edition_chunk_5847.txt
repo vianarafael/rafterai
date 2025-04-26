@@ -1,0 +1,41 @@
+So, we can now copy the spec/ansible directory to spec/puppet, and now both hosts will be 
+tested.
+
+$ cp –r spec/ansible spec/puppet
+
+976
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+If we take a look at the sample_spec.rb file, it will show us our Serverspec tests.
+
+require 'spec_helper'
+
+describe package('httpd'), :if => os[:family] == 'redhat' do
+  it { should be_installed }
+end
+
+describe package('apache2'), :if => os[:family] == 'ubuntu' do
+  it { should be_installed }
+end
+
+describe service('httpd'), :if => os[:family] == 'redhat' do
+  it { should be_enabled }
+  it { should be_running }
+end
+
+describe service('apache2'), :if => os[:family] == 'ubuntu' do
+  it { should be_enabled }
+  it { should be_running }
+end
+
+describe service('org.apache.httpd'), :if => os[:family] == 'darwin' do
+  it { should be_enabled }
+  it { should be_running }
+end
+
+describe port(80) do
+  it { should be_listening }
+end
+
+The _spec.rb file should be easily read, which is one of the design goals of RSpec to make testing clear.

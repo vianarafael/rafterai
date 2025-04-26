@@ -1,0 +1,14 @@
+After a local printer is attached to your Linux system and your computer is 
+
+441
+
+c16.indd  04/01/2015  Page 442
+
+Part IV: Becoming a Linux Server Administrator
+
+connected to your local network, you can use the procedures in this section to share the 
+printer with client computers using a Linux (UNIX) or SMB interface.
+
+Confi guring a shared CUPS printer
+Making the local printer added to your Linux computer available to other computers on 
+your network is fairly easy.

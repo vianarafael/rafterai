@@ -1,0 +1,5 @@
+The information may not be identiﬁ ed as meta-data and user-data 
+when you conﬁ gure the instance through the cloud controller.
+
+The cloud you use to run your Linux virtual machines may be a public cloud, a private 
+cloud, or a hybrid cloud.

@@ -1,0 +1,67 @@
+Table 6.1 shows examples of some signals (type man 7 signal 
+to read about other available signals):
+
+146
+
+c06.indd  04/01/2015  Page 147
+
+Chapter 6: Managing Running Processes
+
+TABLE 6.1    Signals Available in Linux
+
+Signal
+
+Number
+
+Description
+
+SIGHUP
+
+SIGINT
+
+SIGQUIT
+
+SIGABRT
+
+SIGKILL
+
+SIGTERM
+
+1
+
+2
+
+Hang-up detected on controlling terminal or death of controlling process.
+
+Interrupt from keyboard.
+
+6
+
+3 Quit from keyboard.
+
+6
+
+9
+
+Abort signal from abort(3).
+
+Kill signal.
+
+15
+
+Termination signal.
+
+SIGCONT
+
+19,18,25
+
+Continue if stopped.
+
+SIGSTOP
+
+17,19,23
+
+Stop process.
+
+Notice that there are multiple possible signal numbers for SIGCONT and SIGSTOP because 
+different numbers are used in different computer architectures.

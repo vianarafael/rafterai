@@ -1,0 +1,13 @@
+To install 
+the lftp command in Fedora or RHEL, type the following from the command line:
+
+# yum install lftp
+
+493
+
+c18.indd  04/01/2015  Page 494
+
+Part IV: Becoming a Linux Server Administrator
+
+If you use the lftp command with just the name of the FTP server you are trying to 
+access, the command tries to connect to the FTP server as the anonymous user.

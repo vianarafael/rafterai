@@ -1,0 +1,9 @@
+The top utility
+
+802
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+The top of the output gives you a few header lines, which includes the information from uptime, as well 
+as some aggregated data from the free and vmstat commands, which we’ll discuss in the “Swap Space Use” 
+and “Disk Access” sections a bit later. You can toggle these headers on and off.

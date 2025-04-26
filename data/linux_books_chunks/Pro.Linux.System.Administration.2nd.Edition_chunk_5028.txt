@@ -1,0 +1,6 @@
+You have seen that we can use the journalctl command to view logs and also that logs can end up in the /
+var/log directory in a variety of files. Logging is, usually, done by two daemons: the journald daemon and 
+the rsyslogd daemon. We will look at each of these now.
+
+journald
+As part of systemd, a new logging capability was introduced.

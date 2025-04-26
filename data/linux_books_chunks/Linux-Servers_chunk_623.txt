@@ -1,0 +1,15 @@
+This examples shows
+how to provide swat access to all computers in a /24 subnet.
+
+[root@RHEL53 xinetd.d]# grep only /etc/xinetd.d/swat 
+ only_from  = 192.168.1.0/24
+
+Be careful when using SWAT, it erases all your manually edited comments in smb.conf.
+
+152
+
+getting started with samba
+
+10.7. practice: getting started with samba
+
+1.

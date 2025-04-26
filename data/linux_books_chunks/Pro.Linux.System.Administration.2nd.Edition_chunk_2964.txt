@@ -1,0 +1,12 @@
+We’ll move both of these files out of the way so the MariaDB server can create new ones when we 
+next start it.
+
+$ cd /var/lib/mysql
+/var/lib/mysql$ sudo mv ib_logfile* /root
+
+ ■ Caution 
+configuration.
+
+ do not delete these log files until you’ve verified that the Mariadb server works with its new 
+
+We can now edit the configuration file. On CentOS, that file is /etc/my.cnf.d/server.cnf.

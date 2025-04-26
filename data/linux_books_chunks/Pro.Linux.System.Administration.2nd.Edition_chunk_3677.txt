@@ -1,0 +1,27 @@
+Samba /etc/samba/smb.conf File
+
+# Global parameters
+[global]
+    workgroup = SAMBA
+    realm = SAMBA.EXAMPLE.COM
+    netbios name = DC1
+    server role = active directory domain controller
+     server services = s3fs, rpc, nbt, wrepl, ldap, cldap, kdc, drepl, winbindd, ntp_signd, 
+
+kcc, dnsupdate
+
+    idmap_ldb:use rfc2307 = yes
+
+601
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+[netlogon]
+    path = /var/lib/samba/sysvol/samba.example.com/scripts
+    read only = No
+
+[sysvol]
+    path = /var/lib/samba/sysvol
+    read only = No
+
+Let’s go through the [Global] section.

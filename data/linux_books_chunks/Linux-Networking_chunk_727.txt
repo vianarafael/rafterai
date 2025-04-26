@@ -1,0 +1,25 @@
+The  internal  (eth0)  network  has  access  via
+SNAT to external (eth1) webservers (port 80).
+
+#!/bin/bash
+#
+# iptables script for simple classic nat websurfing
+# eth0 is internal network, eth1 is internet
+#
+echo 0 > /proc/sys/net/ipv4/ip_forward
+iptables -P INPUT ACCEPT
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD DROP
+iptables -A FORWARD -i eth0 -o eth1 -s 10.1.1.0/24 -p tcp \
+--dport 80 -j ACCEPT
+iptables -A FORWARD -i eth1 -o eth0 -d 10.1.1.0/24 -p tcp \
+--sport 80 -j ACCEPT
+iptables -t nat -A POSTROUTING -o eth1 -s 10.1.1.0/24 -j SNAT \
+--to-source 11.12.13.14
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+189
+
+iptables firewall
+
+14.6.4.

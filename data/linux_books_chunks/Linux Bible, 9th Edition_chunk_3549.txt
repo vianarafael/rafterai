@@ -1,0 +1,3 @@
+To do this, open any folder in Windows, and select Network from the left 
+panel. An icon representing the Samba server should appear on the screen. Click that icon, 
+and enter a password if prompted for one.

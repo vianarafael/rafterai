@@ -1,0 +1,6 @@
+If you are not yet a Red 
+Hat customer, you can apply for an evaluation copy and download ISO images 
+here: http://www.redhat.com/en/technologies/linux-platforms/
+enterprise-linux.
+
+  This requires that you create a Red Hat account.

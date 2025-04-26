@@ -1,0 +1,8 @@
+To access these resources, 
+
+we need to ensure two elements are in order: routing and firewall rules. We’ll discuss these in the sections 
+that follow.
+
+Routing
+
+We first need to configure our branch offices to route to the internal network of our head office.

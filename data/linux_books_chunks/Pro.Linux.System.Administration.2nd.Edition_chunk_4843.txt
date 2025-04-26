@@ -1,0 +1,12 @@
+if this happens, you will need to unselect 
+
+ ■ Note 
+some other fields to make space.
+
+ORPHANS AND ZOMBIES: UNDEAD TASKS
+
+apart from the initial process, systemd or init, every task on a Linux host is controlled by a parent 
+process, and it reports its status to this parent when it completes execution.
+
+Sometimes things go wrong, though, and a parent process might crash, leaving a completed child 
+waiting to report its status to its parent.

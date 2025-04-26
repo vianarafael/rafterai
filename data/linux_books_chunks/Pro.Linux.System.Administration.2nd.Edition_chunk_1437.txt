@@ -1,0 +1,7 @@
+Without these lights, your host will not be able to communicate to 
+other hosts, so first try to replace the cable, and then the port it is connected to on the switch, and finally the 
+network card.
+
+Layer 2, the data link layer, provides the actual communication protocols across the wire. Problems 
+
+encountered on this layer are rare.

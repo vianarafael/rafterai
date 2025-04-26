@@ -1,0 +1,3 @@
+About Disk Quotas
+
+To  limit  the  disk  space  used  by  user,  you  can  set  up  disk  quotas.

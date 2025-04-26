@@ -1,0 +1,12 @@
+You can change it with the following command:
+
+$ sudo bash -c  'echo deadline > /sys/block/sda/queue/scheduler'
+$ cat /sys/block/sda/queue/scheduler
+noop [deadline] cfq
+
+You can set the scheduler at boot time by making an edit to GRUB. You will need to edit the following 
+
+file by adding this:
+
+$ vi /etc/default/grub
+GRUB_CMDLINE_LINUX="console=tty0 ...

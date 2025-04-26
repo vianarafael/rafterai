@@ -1,0 +1,6 @@
+You have all the software you need to do the procedures and exercises described 
+in this chapter.
+
+Starting Apache
+To get the Apache web server going, you want to enable the service to start on every reboot 
+and you want to start it immediately.

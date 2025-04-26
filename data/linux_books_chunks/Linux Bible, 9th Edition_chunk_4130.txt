@@ -1,0 +1,4 @@
+Even 
+though those commands run as root user, as a regular user you can only change your own 
+password with passwd and can only escalate to root permission with sudo if you were 
+given permission in the /etc/sudoers ﬁ le.

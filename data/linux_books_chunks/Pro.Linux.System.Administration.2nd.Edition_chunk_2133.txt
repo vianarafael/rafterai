@@ -1,0 +1,8 @@
+You don’t 
+see ext3 much on newer systems, but you do see ext2 as the filesystem for the /boot partition on Ubuntu 
+16.04 by default.
+
+One of the major differences between ext2 and ext3 was journaling support. With ext2, if there was a 
+
+crash, you can expect very long fsck waits before you could mount the disk again. To combat this issue, the 
+journaled filesystem was created.

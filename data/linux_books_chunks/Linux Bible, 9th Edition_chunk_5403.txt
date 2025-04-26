@@ -1,0 +1,6 @@
+To create a report from the auditd daemon on the /etc/shadow ﬁ le, type 
+
+ ausearch -f /etc/shadow at the command line. To turn off the auditing on 
+that ﬁ le, type auditctl -W /etc/shadow -p w at the command line.
+
+6.

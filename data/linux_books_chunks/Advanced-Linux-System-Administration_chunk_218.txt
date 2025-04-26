@@ -1,0 +1,12 @@
+For example the first 
+disk of a boxed Linux distribution.
+
+54
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Put the bootable CD into the CDROM tray.

@@ -1,0 +1,6 @@
+In Role Based Access Control, access to an 
+object is based on a subject’s assigned role in the organization. Therefore, it is not based on 
+the subject’s username or process ID. Each role is granted access rights.
+
+Understanding type enforcement
+Type Enforcement (TE) is necessary to implement the RBAC model.

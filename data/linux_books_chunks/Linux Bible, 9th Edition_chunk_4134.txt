@@ -1,0 +1,6 @@
+This is obviously a user doing something he 
+should not be doing.
+
+Securing the password files
+The /etc/passwd ﬁ le is the ﬁ le the Linux system uses to check user account information 
+and was covered earlier in the chapter.

@@ -1,0 +1,13 @@
+Here is an example of those lines (because of the length of 
+the kernel line, it is represented here as three lines):
+
+root (hd0,0)
+kernel /vmlinuz-2.6.32-131.17.1.el6.x86_64 ro 
+  root=/dev/mapper/vg_myhost-lv_root
+ rd_NO_MD rd_NO_DM
+  LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc
+  KEYTABLE=us rhgb quiet crashkernel=auto
+initrd /initramfs-2.6.32-131.17.1.el6.x86_64.img
+
+The ﬁ rst line (beginning with root) shows that the entry for the GRUB boot loader is on 
+the ﬁ rst partition of the ﬁ rst hard disk (hd0,0).

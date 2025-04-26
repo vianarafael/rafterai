@@ -1,0 +1,7 @@
+After the password 
+has been accepted by cracklib, the passwd command asks you to enter the new password 
+a second time to make sure there are no typos (which are hard to detect when you can’t see 
+what you are typing).
+
+When running as root, changing a user’s password is possible by supplying that user’s login 
+name as a parameter to the passwd command.

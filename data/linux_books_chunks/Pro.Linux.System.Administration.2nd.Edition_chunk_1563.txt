@@ -1,0 +1,12 @@
+And to gain 
+this understanding, you need to understand further some of the initial iptables concepts such as tables, 
+chains, and policies, which we will discuss next, along with touching a little on network address translation 
+(NAT).
+
+264
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Tables
+We talked about Netfilter having tables of rules that traffic can be compared against, possibly resulting in 
+some action taken.

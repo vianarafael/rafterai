@@ -1,0 +1,8 @@
+For example:
+
+# rpm -Fhv *.rpm
+
+You could use the previous freshen command if you were in a directory containing  thousands 
+of RPMs but only wanted to update those that were already installed (in an earlier version) on 
+your system and skip those that were not yet installed.You can add a few  interesting options 
+to any of your install options.

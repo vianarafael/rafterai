@@ -1,0 +1,9 @@
+This method is easy since we don't have to consider open files and we don't have to
+skip virtual file systems like /dev or /sys . The offline cloning method can be broken down
+into these steps:
+
+1. Boot source and target server with a bootable CD
+2. Partition, format and mount volumes on the target server
+3. Copy files/partitions from source to target over the network
+
+The first step is trivial.

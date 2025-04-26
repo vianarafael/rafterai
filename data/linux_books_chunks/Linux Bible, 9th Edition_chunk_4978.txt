@@ -1,0 +1,6 @@
+The information 
+you entered became a permanent part of the operating system that remained each time 
+you booted the system.
+
+When you start with a prebuilt cloud image as your Linux system, you can use cloud-
+init to get a Linux system ready to run.

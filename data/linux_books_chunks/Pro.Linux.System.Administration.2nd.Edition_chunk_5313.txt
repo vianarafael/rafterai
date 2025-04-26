@@ -1,0 +1,8 @@
+First, we define what sort of object this 
+
+is a template for, in our case a host object. Next, using the name attribute, we give our template a name that 
+must be unique. You can’t have two templates named linux-server.
+
+The next attribute is one you’ve seen before, use, and it allows us to specify a template that this template 
+
+in turn inherits from.

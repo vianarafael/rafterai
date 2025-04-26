@@ -1,0 +1,11 @@
+Use the -o and -C
+options of ps for this.
+
+[paul@rhel53 pipes]$ ps -C cat -o pid,ppid,pri,ni,comm
+  PID  PPID PRI  NI COMMAND
+ 4013  3947  14   0 cat
+ 4016  3947  21   0 cat
+ 4025  3947  13  10 cat
+ 4026  3947  13  10 cat
+
+6. Use renice te increase the nice value from 10 to 15.

@@ -1,0 +1,10 @@
+Make sure (on the budget share) that users can see only files and directories to which
+they have access.
+
+9. Make sure the sales share is not visible when browsing the network.
+
+10. All files created in the sales share should have 640 permissions or less.
+
+11. All directories created in the budget share should have 750 permissions or more.
+
+12.

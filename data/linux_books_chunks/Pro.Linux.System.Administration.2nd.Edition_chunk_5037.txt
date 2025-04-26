@@ -1,0 +1,6 @@
+For 
+
+instance, to view the last ten lines of the journal, we will issue the following:
+
+$ sudo journalctl –n 10
+-- Logs begin at Fri 2016-11-25 22:16:00 AEDT, end at Mon 2016-11-28 21:24:54 AEDT.

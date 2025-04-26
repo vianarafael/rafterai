@@ -1,0 +1,7 @@
+There was 
+no UNIX operating system for sale from AT&T that you didn’t have to compile yourself.
+
+Berkeley Software Distribution arrives
+In 1975, UNIX V6 became the ﬁ rst version of UNIX available for widespread use outside 
+Bell Laboratories. From this early UNIX source code, the ﬁ rst major variant of UNIX 
+was created at University of California at Berkeley.

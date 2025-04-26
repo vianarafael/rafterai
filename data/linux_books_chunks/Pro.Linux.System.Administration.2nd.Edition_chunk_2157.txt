@@ -1,0 +1,5 @@
+Because UUIds are generated randomly or semi-randomly, 
+they are hard to guess and so can provide a little bit of security as well.
+
+UUIds are increasingly used on Linux as a way to distinguish components of raId, logical volumes, and 
+filesystems. It enables us to manage devices and make them persistent across reboots.

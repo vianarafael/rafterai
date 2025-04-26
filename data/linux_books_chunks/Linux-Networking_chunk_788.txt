@@ -1,0 +1,23 @@
+winbindd
+
+The  winbind  daemon  (winbindd)  is  only  started  to  handle  Microsoft  Windows  domain
+membership.
+
+Note that winbindd is started by the /etc/init.d/winbind script (two dd's for the daemon and
+only one d for the script).
+
+[root@RHEL52 ~]# /etc/init.d/winbind start
+Starting Winbind services:                                 [  OK  ]
+[root@RHEL52 ~]# ps -C winbindd
+  PID TTY          TIME CMD
+ 5752 ?        00:00:00 winbindd
+ 5754 ?        00:00:00 winbindd
+
+On  Debian  and  Ubuntu,  the  winbindd  daemon  is  installed  via  a  separate  package  called
+winbind.
+
+199
+
+introduction to samba
+
+15.6.

@@ -1,0 +1,5 @@
+By default, it listens on all network 
+ interfaces, although you could restrict it to selected interfaces by IP address (for example, 
+Listen 192.168.0.1:80).
+
+The User and Group directives tell httpd to run as apache for both the user and group.

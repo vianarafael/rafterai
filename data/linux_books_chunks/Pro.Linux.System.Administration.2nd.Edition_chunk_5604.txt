@@ -1,0 +1,6 @@
+Also, TCP port 8140 needs to be open on the Puppet master.
+
+CentOS Installation
+
+With the latest packages from Puppet, all the required packages are installed by default when we install the 
+server.

@@ -1,0 +1,3 @@
+Like other permissions, each special permission also has a numeric 
+value: 4 for setuid, 2 for setgid, and 1 for sticky. so to set the sticky bit on a directory, you’d use an octal 
+notation like 1755.

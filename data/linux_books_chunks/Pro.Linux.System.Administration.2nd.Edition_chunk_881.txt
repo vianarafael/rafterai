@@ -1,0 +1,10 @@
+By 
+using an alias, you can have the shell execute ls -lah each time you type ll, so that you always have a full 
+long human reading listing of your directory. You create an alias via the alias command.
+
+$ alias ll='ls -lah'
+$ ll
+total 40K
+drwx------. 4 vagrant vagrant 4.0K Mar  9 06:07 .
+drwxr-xr-x. 4 root    root    4.0K Mar  3 05:37 ..
+-rw-------.

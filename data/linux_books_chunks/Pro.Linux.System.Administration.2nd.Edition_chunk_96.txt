@@ -1,0 +1,6 @@
+Here you could add other boot 
+options that you feel appropriate to pass to the kernel you are about to boot, like a network kickstart file or 
+other options. Later in the book we will show these options in action.
+
+Finally, entering the section “Troubleshooting” gives further options like a Rescue a CentOS system, 
+Memory test, and, Boot from local drive.

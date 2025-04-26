@@ -1,0 +1,26 @@
+The following 
+
+links will provide more background.
+
+•	
+
+Red Hat Security Guide: https://access.redhat.com/documentation/en-US/Red_
+Hat_Enterprise_Linux/7/html/Security_Guide/sec-Encryption.html
+
+•	 CryptSetup FAQ: https://gitlab.com/cryptsetup/cryptsetup/wikis/
+
+FrequentlyAskedQuestions
+
+ ■ Tip  encrypting hard drives is pretty much mandatory for any mobile devices (like laptops, USB keys, and 
+hard drives you ship to other places) or systems that unauthorized people can have physical access to (like 
+insecure data centers, trade shows, or other events).
+
+With all that in mind, after selecting Done in Figure 2-4, Figure 2-5 asks us to enter our passphrase for 
+
+the encrypted disk.
+
+18
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-5.

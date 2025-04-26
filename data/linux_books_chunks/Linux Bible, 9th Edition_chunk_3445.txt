@@ -1,0 +1,5 @@
+For a deeper understanding of SELinux, refer to Chapter 24, “Enhancing 
+Linux Security with SELinux.”
+
+Setting SELinux Booleans for Samba
+There are several ways to see the Booleans associated with Samba.

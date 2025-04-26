@@ -1,0 +1,9 @@
+However, because the ssh-rsa entry from my root 
+account on host2.example.com is provided here under ssh-authorized-keys for the 
+user, I can log into the cloud instance as wsmith over ssh without typing a password (pro-
+vided my private key is associated with that public key).
+
+Adding network interfaces with cloud-init
+If you want network interfaces to be conﬁ gured on your cloud instances early in the boot 
+process, you can add network-interfaces entries to your meta-data ﬁ le for those cloud 
+instances.

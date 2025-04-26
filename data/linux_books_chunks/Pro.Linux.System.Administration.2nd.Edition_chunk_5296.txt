@@ -1,0 +1,8 @@
+Such 
+
+ ■ Note 
+systems track your files and the changes to them. they are commonly used by programmers to track source 
+code and used more and more by system administrators to track configuration files. in Chapter 3 we showed 
+you how to install git.
+
+Further in the configuration file you will find the cfg_dir option, which specifies a directory.

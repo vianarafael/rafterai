@@ -1,0 +1,11 @@
+The FD column displays rtd for root directory,
+cwd for current directory and txt for text (both including data and code).
+
+root@debian7:~# lsof | head -4
+COMMAND PID  TID   USER   FD    TYPE     DEVICE SIZE/OFF      NODE NAME
+init      1        root  cwd     DIR      254,0     4096         2 /
+init      1        root  rtd     DIR      254,0     4096         2 /
+init      1        root  txt     REG      254,0    36992    130856 /sbin/init
+
+Other options in the FD column besides w for writing, are r for reading and u for both reading
+and writing.

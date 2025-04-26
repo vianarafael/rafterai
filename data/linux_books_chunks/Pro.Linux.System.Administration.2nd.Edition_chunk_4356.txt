@@ -1,0 +1,39 @@
+On the gateway host you can see a new interface called tun0 with an IP address of 10.8.0.1 (as 
+mentioned earlier).
+
+[gateway]$ ip addr show tun0
+5: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN 
+qlen 100
+    link/none
+    inet 10.8.0.1 peer 10.8.0.2/32 scope global tun0
+       valid_lft forever preferred_lft forever
+
+On the branch1 host an interface, also called tun0, has been created with an IP address of 10.8.0.6 from 
+
+the pool of addresses our server is offering.
+
+[branch1]$ ip addr show tun0
+5: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN 
+group default qlen 100
+    link/none
+    inet 10.8.0.6 peer 10.8.0.5/32 scope global tun0
+       valid_lft forever preferred_lft forever
+
+715
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+You can also see the route table on the branch1 host (using the ip command introduced in Chapter 7) 
+
+has a route for our 10.8.0.0/24 network.
+
+branch1$ ip route show
+sudo ip route show
+default via 10.0.2.2 dev enp0s3
+10.0.2.0/24 dev enp0s3  proto kernel  scope link  src 10.0.2.15
+10.8.0.1 via 10.8.0.5 dev tun0
+10.8.0.5 dev tun0  proto kernel  scope link  src 10.8.0.6
+192.168.0.0/24 dev enp0s8  proto kernel  scope link  src 10.0.2.156
+
+There is a route to the 10.8.0.1 host via the tun0 interface.
+You’ll notice that on both hosts a file called /var/log/openvpn-status.log has been created.

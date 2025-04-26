@@ -1,0 +1,21 @@
+because of your router or firewall configuration).
+  # Additionally the Heartbeat can be enabled in bareos-sd and bareos-fd.
+  #
+  # Heartbeat Interval = 1m
+
+  # remove comment in next line to load dynamic backends from specified directory
+  # Backend Directory = /usr/lib64/bareos/backends
+
+  # remove comment from "Plugin Directory" to load plugins from specified directory.
+  # if "Plugin Names" is defined, only the specified plugins will be loaded,
+  # otherwise all director plugins (*-dir.so) from the "Plugin Directory".
+  #
+  # Plugin Directory = /usr/lib64/bareos/plugins
+  # Plugin Names = ""
+}
+
+672
+
+Chapter 14 ■ BaCkup and reCovery
+
+When we install Bareos, a lot of our basic configuration is ready to go.

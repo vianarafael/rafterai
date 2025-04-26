@@ -1,0 +1,8 @@
+Compiling a Kernel
+
+Compiling and installing a kernel can be described in three stages.
+
+Stage 1: configuring the kernel
+
+Here we need to decide what kind of hardware and network support needs to be included 
+in the kernel as well as which type of kernel we wish to compile (modular or monolithic).

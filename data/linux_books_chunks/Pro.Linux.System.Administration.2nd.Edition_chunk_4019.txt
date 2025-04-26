@@ -1,0 +1,9 @@
+that way you can centralize your 
+policies and share them more easily.
+
+656
+
+In Figure 14-8 we can see the policy we are going to attach to our AWS backup user. Lines 3–11 allow us 
+
+to list all our S3 buckets. It is made up of three parts: the effect, the action, and resource. The effect can be 
+Allow or Deny. The action is the API action being performed (in this case ListAllMyBuckets).

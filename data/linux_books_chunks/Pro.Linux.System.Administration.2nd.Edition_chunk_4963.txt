@@ -1,0 +1,19 @@
+We will create the file /etc/systemd/system/graphite-api.socket.
+
+[Unit]
+Description=graphite-api socket
+
+822
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+[Socket]
+ListenStream=/run/graphite-api.sock
+ListenStream=127.0.0.1:8881
+
+[Install]
+WantedBy=sockets.target
+
+Here we are saying to systemd, create a socket /run/graphite-api.sock that listens on the loopback 
+
+address on port 8881.

@@ -1,0 +1,6 @@
+We don’t specify the full network range here, so that we have some addresses left to 
+assign manually to servers or other hosts.
+
+All that is left for us to do now is tell the DHCP server which network interfaces it should listen on. If we 
+
+don’t do this, it won’t start.

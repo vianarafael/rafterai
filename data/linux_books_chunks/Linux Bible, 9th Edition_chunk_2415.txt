@@ -1,0 +1,10 @@
+The following sections show examples of those commands.
+
+341
+
+c13.indd  04/01/2015  Page 342
+
+Part IV: Becoming a Linux Server Administrator
+
+Displaying system space with df
+You can display the space available in your ﬁ lesystems using the df command.

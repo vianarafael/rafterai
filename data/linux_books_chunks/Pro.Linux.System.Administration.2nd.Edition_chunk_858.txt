@@ -1,0 +1,6 @@
+these files can contain a combination of 
+plain text and special escape characters that allow you to output colors, line feeds, and returns, for example.
+
+You should also include a warning message stating that unauthorized access to the host is prohibited 
+and will be prosecuted. You can use one of a series of escape characters in the files to populate the 
+login screen with data from your host.

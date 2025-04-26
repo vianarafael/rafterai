@@ -1,0 +1,9 @@
+It comes in the mc package in RHEL and Fedora.
+
+ ■ nedit—This is an excellent programmer’s editor. You need to install the optional nedit 
+
+package to get this editor.
+
+If you use ssh to log in to other Linux computers on your network, you can use any available text 
+editor to edit fi les. If you use ssh -X to connect to the remote system, a GUI-based editor pops 
+up on your local screen.

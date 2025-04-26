@@ -1,0 +1,5 @@
+Note that the format 
+for each valid entry follows this syntax: services;ttys;users;times. Fields are separated by 
+semicolons. The valid ﬁ eld values are documented in the time.conf conﬁ guration ﬁ le.
+
+While time.conf is well-documented, an example is always helpful.

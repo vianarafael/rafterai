@@ -1,0 +1,5 @@
+Targeted daemons make it safer for you to share your 
+print server, ﬁ le server, web server, or other services, while limiting the risks that access to 
+those services poses to other assets on your system.
+
+All subjects and objects not targeted are run in the unconfined_t domain.

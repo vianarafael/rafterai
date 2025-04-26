@@ -1,0 +1,16 @@
+This objective includes 
+interacting with run levels and creating custom initrd images as needed.
+
+Key files, terms, and utilities include:
+/etc/init.d/ 
+/etc/inittab 
+/etc/rc.d/ 
+mkinitrd (both Red Hat and Debian scripts) 
+
+• 2.202.2 System recovery
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: Candidates should be able to properly manipulate a Linux system during 
+both the boot process and during recovery mode.

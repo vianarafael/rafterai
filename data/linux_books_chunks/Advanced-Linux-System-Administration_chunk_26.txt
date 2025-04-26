@@ -1,0 +1,9 @@
+If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a 
+machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a 
+computer-network location from which the general network-using public has access to download using public-
+
+3
+
+License Agreement
+
+standard network protocols a complete Transparent copy of the Document, free of added material.

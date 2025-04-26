@@ -1,0 +1,10 @@
+Figure 6.2 shows an example of the System 
+Monitor window.
+
+FIGURE 6.2
+
+Use the System Monitor window to view and change running processes.
+
+By default, only running processes associated with your user account are displayed. Those 
+processes are listed alphabetically at ﬁ rst. You can re-sort the processes by clicking any of 
+the ﬁ eld headings (forward and reverse).

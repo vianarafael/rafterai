@@ -1,0 +1,2 @@
+To help you in the event of such a problem, several backup copies of the 
+superblock are maintained at well-known block numbers.

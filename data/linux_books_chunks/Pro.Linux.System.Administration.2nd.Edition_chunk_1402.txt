@@ -1,0 +1,8 @@
+Now let’s look how we do this 
+
+under Ubuntu.
+
+Network Configuration Files for Ubuntu
+Ubuntu has a similar directory for its network files in /etc/network. It contains the network files and 
+scripts that are used by Ubuntu to set up your networking. As we described earlier, Ubuntu stores interface 
+information in the file /etc/network/interfaces.

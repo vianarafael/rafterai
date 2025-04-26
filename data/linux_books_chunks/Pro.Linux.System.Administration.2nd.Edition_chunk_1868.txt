@@ -1,0 +1,9 @@
+Querying the Installed Kernel Version
+
+# rpm --query kernel
+kernel-3.10.0-327.el7.x86_64
+kernel-3.10.0-327.18.2.el7.x86_64
+
+Here we’ve run the rpm command with the --query flag and specified the name of the package we want 
+
+to query, in our case kernel.

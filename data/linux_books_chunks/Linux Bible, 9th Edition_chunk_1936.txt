@@ -1,0 +1,10 @@
+Other 
+Linux systems reserve GIDs between 0 to 500 for administrative groups.
+
+Here are some examples of creating a group account with the groupadd command:
+
+# groupadd kings
+# groupadd -g 1325 jokers
+
+In the examples just shown, the group named kings is created with the next available 
+group ID. After that, the group jokers is created using the 1325 group ID.

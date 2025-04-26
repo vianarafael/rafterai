@@ -1,0 +1,10 @@
+GitHub provides a 
+good document on git workflows here: https://guides.github.com/introduction/flow/
+
+ ■ Note 
+
+ For more information on git please see https://git-scm.com/book/en/v2.
+
+For Windows users, now that you have Git installed you can use Git Bash to access useful Linux utilities 
+
+like less, vi, grep, and tail.

@@ -1,0 +1,11 @@
+360    IN    A    192.168.0.242
+storage.example.com.    360    IN    A    192.168.0.240
+storage.example.com.    360    IN    A    192.168.0.241
+
+Now when we query storage.example.com, we will receive one of these IP addresses in a round-robin 
+
+fashion.
+
+Preparing the Bareos Server
+
+Now it is time to prepare the Bareos server.

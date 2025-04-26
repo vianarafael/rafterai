@@ -1,0 +1,12 @@
+starting samba and winbindd
+
+Time to start Samba followed by winbindd.
+
+[root@RHEL4b samba]# service smb start
+Starting SMB services:                                     [  OK  ]
+Starting NMB services:                                     [  OK  ]
+[root@RHEL4b samba]# service winbind start
+Starting winbindd services:                                [  OK  ]
+[root@RHEL4b samba]# 
+
+22.4.

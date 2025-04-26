@@ -1,0 +1,12 @@
+there is no 
+
+ ■ Note 
+standard way of having reverse zones for a subnet with fewer than 255 addresses.
+
+We once again fire up our editor (as the root user) to create a new zone file.
+
+$ sudo vim /var/cache/bind/192.168.0.db
+
+446
+
+The header in this file needs to be a bit different from our forward zone, as the zone name is different.

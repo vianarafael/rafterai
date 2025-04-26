@@ -1,0 +1,19 @@
+You can read more about setting up the rsync daemon in the 
+following tutorials:
+
+https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-
+sync-local-and-remote-directories-on-a-vps
+
+http://everythinglinux.org/rsync/
+
+•	
+
+•	
+
+640
+
+Chapter 14 ■ BaCkup and reCovery
+
+Using rsync over SSH
+It is not uncommon to have a requirement to back up remote hosts outside your immediate network, 
+across hostile environments like the Internet.

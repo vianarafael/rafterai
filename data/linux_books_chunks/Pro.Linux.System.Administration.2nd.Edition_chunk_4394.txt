@@ -1,0 +1,5 @@
+We’ll call 
+
+ours mobileclient.conf and store it in the /etc/openvpn directory on our client, as shown in Listing 15-10.
+
+Listing 15-10.

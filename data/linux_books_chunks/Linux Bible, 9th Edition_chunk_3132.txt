@@ -1,0 +1,18 @@
+I have removed comments and 
+ rearranged some of the settings for clarity.
+
+The following settings show locations where the httpd server is getting and putting 
+ content by default:
+
+ServerRoot "/etc/httpd"
+Include conf.d/*.conf
+ErrorLog logs/error_log
+CustomLog "logs/access_log" combined
+DocumentRoot "/var/www/html"
+ScriptAlias /cgi-bin/ "/var/www/cgi-bin/"
+
+The ServerRoot directive identiﬁ es /etc/httpd as the location where conﬁ guration 
+ﬁ les are stored.
+
+At the point in the ﬁ le where the Include line appears, any ﬁ les ending in .conf from 
+the /etc/httpd/conf.d directory are included in the httpd.conf ﬁ le.

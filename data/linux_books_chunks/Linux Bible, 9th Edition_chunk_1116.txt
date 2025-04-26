@@ -1,0 +1,8 @@
+In that model, more needs to be done to 
+control the amount of system resources to which a particular user, application, container, 
+or virtual machine running on a Linux system has access.
+
+That’s where cgroups come in.
+
+Cgroups can be used to identify a process as a task, belonging to a particular control 
+group.

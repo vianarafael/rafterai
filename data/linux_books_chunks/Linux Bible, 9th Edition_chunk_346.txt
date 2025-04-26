@@ -1,0 +1,8 @@
+SELinux is described in Chapter 24.
+
+Installing and configuring network services
+For each of the network services in the list that follows, make sure that you can go through 
+the steps to install packages required by the service, set up SELinux to allow access to the 
+service, set the service to start at boot time, secure the service by host or by user (using 
+iptables, TCP wrappers, or features provided by the service itself), and conﬁ gure it for 
+basic operation.

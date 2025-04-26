@@ -1,0 +1,4 @@
+The RAM and VCPU values on 
+your system may be different, depending on the resources your computer has. 
+
+At this point, a virtual machine named fedora21-01 is running on your hypervisor.

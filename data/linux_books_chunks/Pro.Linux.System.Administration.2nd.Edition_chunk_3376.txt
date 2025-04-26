@@ -1,0 +1,6 @@
+We are now going to use these values to test 
+whether we can authenticate against our SMTP server and send an e-mail.
+
+In Listing 12-13, you can see a openssl s_client session that tests SASL authentication.
+
+Listing 12-13.

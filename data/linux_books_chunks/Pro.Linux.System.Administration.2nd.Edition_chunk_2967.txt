@@ -1,0 +1,14 @@
+Then, on Ubuntu, you 
+need to restart the mysql service (yes, Ubuntu currently runs MariaDB with the mysql service).
+
+All changes we’re making here go under the [mysqld-5.5] section (CentOS) or the [mysqld] section 
+
+(Ubuntu).
+
+innodb_log_file_size = 48M
+innodb_log_buffer_size = 16M
+innodb_log_files_in_group = 2
+innodb_buffer_pool_size = 128M
+innodb_flush_method = O_DIRECT
+
+We set the InnoDB transaction log file size to 48Mb and the in-memory log buffer to 16Mb.

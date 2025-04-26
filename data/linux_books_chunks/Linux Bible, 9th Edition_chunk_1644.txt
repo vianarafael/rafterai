@@ -1,0 +1,7 @@
+You can use a 
+
+ minimal set of bash shell command-line editing features to edit the line. You can 
+even use command completion (type part of a ﬁ lename and press Tab to complete 
+it). Here are a few options you may want to add or delete:
+
+ ■ Boot to a shell.

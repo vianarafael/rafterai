@@ -1,0 +1,6 @@
+We 
+will show how to install an Nginx server as part of the discussion on Ansible in Chapter 19.
+
+Installation and Configuration
+Both CentOS and Ubuntu install Apache version 2.4, but the packages are named differently. On CentOS, 
+you run sudo yum install httpd, while on Ubuntu you run sudo aptitude install apache2.

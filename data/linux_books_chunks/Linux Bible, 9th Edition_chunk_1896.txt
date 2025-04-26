@@ -1,0 +1,15 @@
+Although login.defs is different 
+on different Linux systems, the following is an example containing many of the settings 
+you might ﬁ nd in a login.defs ﬁ le:
+
+PASS_MAX_DAYS     99999
+PASS_MIN_DAYS     0
+PASS_MIN_LEN      5
+PASS_WARN_AGE     7
+UID_MIN                  1000
+UID_MAX                 60000
+GID_MIN                  1000
+GID_MAX                 60000
+CREATE_HOME yes
+
+All uncommented lines contain keyword/value pairs.

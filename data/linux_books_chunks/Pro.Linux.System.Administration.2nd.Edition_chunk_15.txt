@@ -1,0 +1,17 @@
+For more information, visit his web site, www.sandervanvugt.com.
+
+xxiii
+
+PART I
+
+The Beginning
+
+CHAPTER 1
+
+Introducing Linux
+
+By James Turnbull, Peter Lieverdink, and Dennis Matotek
+
+You’ve decided to learn more about System Administration or run your business on free and open source 
+(FOSS) infrastructure? Congratulations and welcome to the world of Linux and open source software! This 
+chapter will take you through the first steps into implementing that infrastructure.

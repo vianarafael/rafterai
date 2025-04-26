@@ -1,0 +1,3 @@
+If you just want to clear up some memory right now, as you 
+ otherwise deal with the problem, you can tell the system to drop inactive page 
+caches.

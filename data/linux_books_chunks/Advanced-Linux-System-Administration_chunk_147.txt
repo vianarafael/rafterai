@@ -1,0 +1,9 @@
+Estimate the size needed for the new initrd:
+df -k /mnt/current
+
+Filesystem           1K-blocks      Used Available Use% Mounted on
+
+/tmp/initrd.img            317       191       126  61% 
+/mnt/current
+
+4.

@@ -1,0 +1,18 @@
+For example:
+
+11
+
+[mary]$ chmod 644 /tmp/memo.txt
+[mary]$ getfacl /tmp/memo.txt
+# file: tmp/memo.txt
+# owner: mary
+# group: mary
+user::rw-
+user:bill:rw-   #effective:r--
+group::rw-      #effective:r--
+group:sales:rw- #effective:r--
+mask::r--
+other::r--
+
+Notice in the preceding example that even though the user bill and group sales have rw- 
+permissions, their effective permissions are r--.

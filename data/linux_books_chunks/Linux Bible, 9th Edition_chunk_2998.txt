@@ -1,0 +1,14 @@
+To enable raw printing in CUPS, uncomment the following line in the /etc/cups/mime.
+types fi le in Linux:
+
+application/octet-stream
+
+and uncomment the following line in the /etc/cups/mime.convs fi le:
+
+application/octet-stream application/vnd.cups-raw 0 -
+
+After that, you can print fi les as raw data to your printers without using the -oraw option to print commands.
+
+Using Printing Commands
+To remain backward compatible with older UNIX and Linux printing facilities, CUPS 
+supports many of the old commands for working with printing.

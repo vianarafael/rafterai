@@ -1,0 +1,7 @@
+Chapter 15 describes the tools you need to enable, disable, start, stop, and check 
+the status of the services that are conﬁ gured for your Linux system.
+
+Exercises
+The exercises in this section help you to examine and change the network interfaces on 
+your Linux system, as well as understand how to conﬁ gure more advanced networking 
+ features.

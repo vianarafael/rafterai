@@ -1,0 +1,4 @@
+The additional data is stripped off the packet as it traverses back up the 
+OSI model at its destination (like taking off the outer envelope and handing the letter to the layer above). 
+
+Firewalls can be placed into different categories, depending upon their function.

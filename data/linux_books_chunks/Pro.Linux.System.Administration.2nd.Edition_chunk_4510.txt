@@ -1,0 +1,31 @@
+This is recommended for production mode.
+
+(0x1 trace) Traces function calls.
+
+(0x2 packets) Debugs packet handling.
+
+(0x4 args) Provides heavy trace debugging (function args).
+
+(0x8 conns) Provides connection management.
+
+(0x10 BER) Prints out packets sent and received.
+
+(0x20 filter) Provides search filter processing.
+
+(0x40 config) Provides configuration file processing.
+
+(0x80 ACL) Provides access control list processing.
+
+(0x100 stats) Provides connections, LDAP operations, and results (recommended).
+
+(0x200 stats2) Indicates stats log entries sent.
+
+(0x400 shell) Prints communication with shell back ends.
+
+(0x800 parse) Parses entries.
+
+(0x4000 sync) Provides LDAPSync replication.
+
+(0x8000 none) Logs only messages at whatever log level is set.
+
+The log level is important to help debug your installation.

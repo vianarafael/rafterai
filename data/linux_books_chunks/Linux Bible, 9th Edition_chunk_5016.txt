@@ -1,0 +1,13 @@
+If you 
+had generated an RSA keypair, the public key is located in the id_rsa.pub ﬁ le by default:
+
+# cat $HOME/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMzdq6hqDUhueWzl7rIUwjxB/rrJY4o
+ZpoWINzeGVf6m8wXlHmmqd9C7LtnZg2P24/ZBb3S1j7vK2WymOcwEoWekhbZHBAyYeqXK
+YQQjUB2E2Mr6qMkmrjQBx6ypxbz+VwADNCwegY5RCUoNjrN43GVu6nSOxhFf7hv6dtCjv
+osOvtt0979YS3UcEyrobpNzreGSJ8FMPMRFMWWg68Jz5hOMCIE1IldhpODvQVbTNsn/ST
+xO7ZwSYV6kfDj0szvdoDDCyh8mPNC1kIDhf/qu/Zn1kxQ9xfecQ+SUi+2IwN69o1fNpex
+JPFr+Bwjkwcrk58C6uowG5eNSgnuu7GMUkT root@host2.example.com
+
+The public key from that ﬁ le is typically copied to the $HOME/.ssh/authorized_keys 
+ﬁ le for the user on the remote system you want to log in to.

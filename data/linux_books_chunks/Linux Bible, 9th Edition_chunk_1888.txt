@@ -1,0 +1,7 @@
+Here’s an example that uses a few more options to do so:
+
+# useradd -g users -G wheel,apache -s /bin/tcsh -c "Sara Green" sara
+
+In this case, useradd is told to make users the primary group sara belongs to (-g), add her 
+to the wheel and apache groups, and assign tcsh as her primary command shell (-s). A home 
+directory in /home under the user’s name (/home/sara) is created by default.

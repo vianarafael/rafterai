@@ -1,0 +1,2 @@
+That is why it is important to know the different kinds of information being held in 
+memory—so you can tell when real out-of-memory situations can occur.

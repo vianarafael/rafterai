@@ -1,0 +1,10 @@
+If you are not already running the browser as the root user, you must also enter 
+the root user name and password.
+
+To conﬁ gure a printer that is not automatically detected, you can add a printer from the 
+Administration screen. With the Administration screen displayed, you can add a printer as 
+follows:
+
+1.  Click the Add Printer button. The Add New Printer screen appears.
+
+2.

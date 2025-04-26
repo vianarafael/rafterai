@@ -1,0 +1,5 @@
+Remember where this folder is because you need to locate the ISO when 
+you go to burn it later.
+
+If you need more information about what to do with the downloaded image, there are links 
+to help you on the Fedora page that appears.

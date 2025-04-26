@@ -1,0 +1,12 @@
+We are going to show you how to set up the smtpd filter.
+
+network -> smtpd -> filter -> smtpd -> delivery
+
+573
+
+Chapter 12 ■ Mail ServiCeS
+
+The previous is the simplified version of the process that we will show you.
+
+Installing ClamAV
+First, you need to install and configure the ClamAV scanner and its daemon, called clamd.

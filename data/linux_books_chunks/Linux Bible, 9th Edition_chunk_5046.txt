@@ -1,0 +1,12 @@
+You should see an Overview screen, similar to the one shown in 
+Figure 27.2.
+
+2.  Create a network. To create a network, from the left column on the Overviews 
+page, select Networks. From the Networks screen that appears, create a new net-
+work as follows (the examples I used are in parentheses):
+
+ a. 
+
+ b. 
+
+ c.

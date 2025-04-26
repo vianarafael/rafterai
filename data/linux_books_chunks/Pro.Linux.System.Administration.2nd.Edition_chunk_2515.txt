@@ -1,0 +1,12 @@
+In this case, it says that www.google.com has 
+
+multiple A records assigned to it.
+
+;; ANSWER SECTION:
+www.google.com.        41      IN      A      150.101.161.153
+www.google.com.        41      IN      A      150.101.161.159
+...
+
+In the authority section, dig lists the authoritative name servers for this query. Here you can see that 
+
+authoritative responses for the google.com.

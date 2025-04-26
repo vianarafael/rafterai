@@ -1,0 +1,13 @@
+Ansible will replace  
+
+{{ item }} with those packages listed for us.
+
+You can read more on loops here: http://docs.ansible.com/ansible/playbooks_loops.html.
+
+967
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+You will also notice that there is a notify: mariadb_restarted call to a handler. Handlers are just tasks 
+
+that are run at the end of a block of playbook tasks.

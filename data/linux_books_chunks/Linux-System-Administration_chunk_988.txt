@@ -1,0 +1,7 @@
+This website contains all
+rfc's in plain text, for example rfc2132 (which defines dhcp and bootp) is accessible at http://
+www.rfc-editor.org/rfc/rfc2132.txt.
+
+21.5.3. many protocols
+
+For reliable connections, you use tcp, whereas udp is connectionless but faster.

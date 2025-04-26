@@ -1,0 +1,4 @@
+When the file system stores
+a new file on the hard disk, it stores not only the contents (data) of the file, but also extra
+properties like the name of the file, the creation date, its permissions, the owner of the file,
+and more.

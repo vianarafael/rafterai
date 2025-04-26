@@ -1,0 +1,11 @@
+The -S option lists ﬁ les by size.
+
+To not include any ﬁ les beginning with the letter g in the list:
+
+$ ls --hide=g*
+apple banana docs pointer_to_apple script.sh watermelon
+
+To list info about a directory instead of the ﬁ les it contains:
+
+$ ls -ld $HOME/test/
+drwxrwxr-x.

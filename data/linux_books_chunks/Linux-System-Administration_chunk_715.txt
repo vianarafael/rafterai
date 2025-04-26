@@ -1,0 +1,3 @@
+Ctrl-Alt-Del
+
+When rc is finished starting all those scripts, init will continue to read /etc/inittab.

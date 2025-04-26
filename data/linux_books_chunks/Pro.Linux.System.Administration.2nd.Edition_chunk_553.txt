@@ -1,0 +1,6 @@
+The a 
+switch tells ls to list all files and directories, even “hidden” ones, otherwise known as “dot” files.
+
+ ■ Tip 
+ In Linux (and unix) “hidden” or “dot” files are prefixed with a full stop or period (e.g., the .autofsck 
+file in Listing 4-8) and are often used to hold configuration and history information or as temporary files.

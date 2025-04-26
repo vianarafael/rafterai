@@ -1,0 +1,12 @@
+A host can be in the UP, DOWN, or UNREACHABLE state, and a 
+
+service can be in the UP, WARNING, CRITICAL, or UNKNOWN state.
+
+ the UNREACHABLE status is used when dependencies and parent-child relationships have been 
+
+ ■ Note 
+configured and a host is not available because a parent or host it depends on is not available.
+
+The plug-ins themselves, though, return only the WARNING, CRITICAL, and UNKNOWN states (the UNKNOWN 
+
+state is generally set when a plug-in fails to run or an error is returned rather than a valid status).

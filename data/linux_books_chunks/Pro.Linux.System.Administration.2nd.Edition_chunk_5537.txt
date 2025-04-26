@@ -1,0 +1,7 @@
+The auth statement has the 
+values --enableshadow and --passalgo sha512 here, which enable shadow passwords and specify that 
+passwords hashes must use the SHA512 password algorithm, respectively.
+
+The option that follows, bootloader with a value of --location=mbr, tells Kickstart to install the boot 
+
+loader into the MBR.

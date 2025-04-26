@@ -1,0 +1,18 @@
+This virtual hosts overrules the default Apache
+ErrorDocument directive.
+
+<VirtualHost 83.217.76.245:80>
+ServerName cobbaut.be
+ServerAlias www.cobbaut.be
+DocumentRoot /home/paul/public_html
+ErrorLog /home/paul/logs/error_log
+CustomLog /home/paul/logs/access_log common
+ScriptAlias /cgi-bin/ /home/paul/cgi-bin/
+<Directory /home/paul/public_html>
+ Options Indexes IncludesNOEXEC FollowSymLinks
+ allow from all
+</Directory>
+ErrorDocument 404 http://www.cobbaut.be/cobbaut.php
+</VirtualHost>
+
+8.10.

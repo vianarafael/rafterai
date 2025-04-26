@@ -1,0 +1,5 @@
+introduction to SELinux
+
+Security Enhanced Linux or SELinux is a set of modifications developed by the United
+States National Security Agency (NSA) to provide a variety of security policies for Linux.
+SELinux was released as open source at the end of 2000.

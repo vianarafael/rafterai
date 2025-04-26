@@ -1,0 +1,15 @@
+765
+
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 766
+
+Part VI: Extending Linux into the Cloud
+
+To start using Amazon EC2 to launch virtual machines, go to the Getting Started with 
+Amazon Web Services page and follow links to create a new account (http://aws
+.amazon.com/getting-started/). After you log in, the full range of AWS services is 
+displayed.

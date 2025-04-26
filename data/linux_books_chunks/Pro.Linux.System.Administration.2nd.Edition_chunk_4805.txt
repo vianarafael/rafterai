@@ -1,0 +1,16 @@
+We recommend that you purchase a book 
+dedicated to the subject, read the online documentation at www.openldap.org, and use the mailing lists to 
+help you further your knowledge in this area.
+
+In the next chapter, you will read about performance monitoring and optimization.
+
+797
+
+CHAPTER 17
+
+Performance Monitoring and 
+Optimization
+
+By Peter Lieverdink and Dennis Matotek
+
+Now that your host is providing you services, it is important that it continue to do so.

@@ -1,0 +1,6 @@
+Any services that use 
+the TCP protocol will respond to the scan.
+
+ ■ UDP port scan—For this scan, nmap sends a UDP packet to every port on the 
+ system being scanned. UDP is another popular protocol in the TCP/IP network 
+ protocol suite. Unlike TCP, however, UDP is a connectionless protocol.

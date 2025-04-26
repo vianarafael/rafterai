@@ -1,0 +1,5 @@
+Select the Install button to have the Software window download and install all the 
+ software packages needed to make the application work.
+
+Other features of this window let you see all installed applications (Installed tab) or view 
+a list of applications that have updated packages available for you to install (Updates tab).

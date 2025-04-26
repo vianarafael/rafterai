@@ -1,0 +1,7 @@
+The 
+point is to make sure that you get the correct results shown in the answers that follow, not 
+necessarily do it exactly the same way I did. There are multiple ways you can achieve the 
+same results. The answers here show how to complete the exercises from the command line. 
+(Become root user when you see a # prompt.)
+
+1.

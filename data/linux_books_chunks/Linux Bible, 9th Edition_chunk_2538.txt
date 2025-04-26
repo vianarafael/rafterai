@@ -1,0 +1,6 @@
+The system-config-network 
+ command has been replaced by the nmtui command (or NetworkManager Text User 
+Interface) in RHEL 7. It provides a menu-based interface that runs in the shell. As root, 
+type nmtui to see a screen similar to what is presented in Figure 14.5.
+
+Use arrow keys and the Tab key to move around the interface.

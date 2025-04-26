@@ -1,0 +1,19 @@
+The chage Command Flags
+
+Option
+
+-m days
+
+-M days
+
+-E date
+
+-W days
+
+-d days
+
+-I days
+
+Description
+
+Sets the minimum number of days between password changes.

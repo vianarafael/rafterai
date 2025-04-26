@@ -1,0 +1,11 @@
+Type Enforcement secures 
+a system through these methods:
+
+ ■ Labeling objects as certain security types
+
+ ■ Assigning subjects to particular domains and roles
+
+ ■ Providing rules allowing certain domains and roles to access certain object types
+
+The example that follows uses the ls -l command to show the DAC controls on the ﬁ le 
+my_stuff.

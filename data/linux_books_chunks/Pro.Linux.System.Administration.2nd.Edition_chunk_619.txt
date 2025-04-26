@@ -1,0 +1,3 @@
+To get the total size of all files in a directory, you can use the du, or disk usage, command. Specify 
+(or change to) the directory you want to find the total size of and run the command with the -s and -h 
+switches.

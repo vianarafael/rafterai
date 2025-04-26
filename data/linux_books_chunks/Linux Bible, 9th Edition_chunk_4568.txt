@@ -1,0 +1,9 @@
+Possible values are:
+#      targeted - Only targeted network daemons are protected.
+#      strict - Full SELinux protection.
+SELINUXTYPE=targeted
+
+This main SELinux conﬁ guration ﬁ le allows you to set the mode and the policy type.
+
+Setting the SELinux mode
+To see SELinux’s current mode on your system, use the getenforce command.

@@ -1,0 +1,7 @@
+Slave servers are authoritative DNS servers that automatically 
+retrieve their zone information from a master DNS server. You would use them to provide redundant DNS 
+services, like your ISP does.
+
+ ■ Note  Dns is a read heavy database, few writes, so it can easily scale to many slaves.
+
+We’ve listed the fields from our zone header and their use in Table 10-2.

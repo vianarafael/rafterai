@@ -1,0 +1,7 @@
+This option applies only to the 
+starting point of the forward, so for local tunnels we add it on the local host, and for remote forwards we add 
+it on the remote host.
+
+To allow us to specify whether users on other hosts should be able to use a forward, we set the 
+
+GatewayPorts option to clientspecified.

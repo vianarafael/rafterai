@@ -1,0 +1,6 @@
+Created is an excludes file (~/.duply/nightly/exclude) that can contain the 
+directories we want to include or exclude from our backup profile.
+
+In this nightly profile directory we can also include pre- and post-scripts that can be run before or after 
+
+our backups.

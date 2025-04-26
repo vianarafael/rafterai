@@ -1,0 +1,14 @@
+Three physical disks because lvm uses two disks for the mirror and a third
+disk for the mirror log!
+
+[root@RHEL5 ~]# pvcreate /dev/sdb /dev/sdc /dev/sdd
+  Physical volume "/dev/sdb" successfully created
+  Physical volume "/dev/sdc" successfully created
+  Physical volume "/dev/sdd" successfully created
+[root@RHEL5 ~]# pvs
+  PV         VG         Fmt  Attr PSize   PFree  
+  /dev/sdb              lvm2 --   409.60M 409.60M
+  /dev/sdc              lvm2 --   409.60M 409.60M
+  /dev/sdd              lvm2 --   409.60M 409.60M
+
+Then we create the Volume Group and verify again with pvs.

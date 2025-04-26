@@ -1,0 +1,7 @@
+The type of cloud you choose may depend on your needs and 
+your budget:
+
+ ■ Public cloud—Amazon EC2 and Google Compute Engine are examples of cloud plat-
+forms that let you launch and use Linux virtual machines from a web-based inter-
+face. You pay for the time that the instance is running. The amount of memory, 
+storage, and virtual CPUs you use to run the service are also ﬁ gured into the costs.

@@ -1,0 +1,7 @@
+The network interfaces you see may not be represented by a  physical 
+switch, but may be virtual networks that exist on a single computer or span multiple 
+hypervisors.
+
+Today, every software aspect of cloud computing can be fulﬁ lled using open source technol-
+ogy running on Linux systems. My goal here is not to describe how to use every aspect of a 
+Linux-based cloud environment.

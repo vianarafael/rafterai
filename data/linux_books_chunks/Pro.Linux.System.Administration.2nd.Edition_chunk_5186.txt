@@ -1,0 +1,3 @@
+This 
+
+way you can locally transform the data prior to sending across the network.

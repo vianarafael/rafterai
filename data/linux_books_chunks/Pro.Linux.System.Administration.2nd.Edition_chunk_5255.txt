@@ -1,0 +1,5 @@
+The default, Logstash-*, makes sense in this instance since we are dealing with indexes with 
+the naming format of Logstash-<date>. We can also set the timestamp field that tells Kibana which field 
+represents the time, but we will leave it as the default. Click Create to continue.
+
+Figure 18-2.

@@ -1,0 +1,9 @@
+An administrator of a Linux system that is conﬁ gured to share 
+its ﬁ lesystems using NFS has to perform the following tasks to set up NFS: 
+
+1. Set up the network. NFS is typically used on private LANs as opposed to public networks, 
+
+such as the Internet.
+
+2. Start the NFS service. Several service daemons need to start up and run to have a fully 
+operational NFS service.

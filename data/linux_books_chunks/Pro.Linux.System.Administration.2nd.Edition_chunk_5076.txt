@@ -1,0 +1,4 @@
+The daemon then takes the log entries and can perform a variety of actions with them, including 
+writing them out to a file.
+
+You’ve seen a few syslog entries earlier in this book.

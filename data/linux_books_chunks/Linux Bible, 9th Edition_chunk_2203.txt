@@ -1,0 +1,8 @@
+For example, the ﬁ rst partition on the second SCSI or USB ﬂ ash drive on 
+your system is /dev/sdb1 and the third disk is /dev/sdc1.
+
+ ■ To unmount the partition if it’s mounted before creating the ﬁ lesystem.
+
+The following are two examples of using mkfs to create a ﬁ lesystems on two partitions 
+on a USB ﬂ ash drive located as the ﬁ rst and second partitions on the third SCSI disk 
+(/dev/sdc1 and /dev/sdc2).

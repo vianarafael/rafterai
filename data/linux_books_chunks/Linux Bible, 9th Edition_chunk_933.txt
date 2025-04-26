@@ -1,0 +1,8 @@
+This command opens a line above the current line 
+
+and puts you in insert mode.
+
+When you are in insert mode, -- INSERT -- appears at the bottom of the screen.
+
+Type a few words, and press Enter. Repeat that a few times until you have a few lines of 
+text. When you’re ﬁ nished typing, press Esc to return to command mode.

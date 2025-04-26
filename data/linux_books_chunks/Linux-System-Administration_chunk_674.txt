@@ -1,0 +1,5 @@
+Runlevel 1 is used for troubleshooting, only
+the root user can log on, and only at the console. Runlevel 3 is typical for servers, whereas
+runlevel 5 is typical for desktops (graphical logon). Besides runlevels 0, 1 and 6, the use may
+vary depending on the distribution. Debian and derived Linux systems have full network
+and GUI logon on runlevels 2 to 5.

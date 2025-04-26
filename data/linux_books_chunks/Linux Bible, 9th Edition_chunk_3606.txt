@@ -1,0 +1,10 @@
+Here are some valid uses of the asterisk and question 
+mark wildcards:
+
+*.handsonhistory.com
+*craft.handsonhistory.com
+???.handsonhistory.com
+
+The ﬁ rst example matches all hosts in the handsonhistory.com domain. 
+The  second example matches woodcraft, basketcraft, or any other hostnames 
+ ending in craft in the handsonhistory.com domain.

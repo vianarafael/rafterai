@@ -1,0 +1,13 @@
+To 
+create that directory and set the proper permissions and SELinux ﬁ le contexts, type the 
+following as root user:
+
+19
+
+# mkdir /var/salesdata
+# chmod 775 /var/salesdata
+# chown chris:chris /var/salesdata
+# semanage fcontext -a -t samba_share_t /var/salesdata
+# restorecon -v /var/salesdata
+
+Next, from the Samba Server Conﬁ guration window, select File ➪ Add Share.

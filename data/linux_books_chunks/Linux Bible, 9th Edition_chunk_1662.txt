@@ -1,0 +1,10 @@
+Reboot your computer.
+
+4.  When the GRUB boot screen appears, move your cursor to the title representing the 
+
+new kernel and press Enter.
+
+9
+
+The advantage to this approach, as opposed to copying the new boot image over the old 
+one, is that if the kernel fails to boot, you can always go back and restart the old kernel.

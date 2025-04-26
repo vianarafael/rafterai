@@ -1,0 +1,3 @@
+Next, 
+a quick way to test access to the share is to use the smbclient command. You can use the 
+hostname or IP address with smbclient to access the share.

@@ -1,0 +1,19 @@
+The screenshot below shows an empty
+NAT table.
+
+[root@RHEL5 ~]# iptables -t nat -nL
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+[root@RHEL5 ~]#
+
+188
+
+iptables firewall
+
+14.6.2.

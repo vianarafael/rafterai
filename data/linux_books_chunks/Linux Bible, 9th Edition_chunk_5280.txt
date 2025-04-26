@@ -1,0 +1,24 @@
+To run a command to check the active network interfaces available on your com-
+
+puter, type:
+
+$ ifconfig
+
+or
+
+$ ip addr show
+
+3.  Try to contact google.com from the command line in a way that ensures that DNS 
+
+is working properly:
+
+$ ping google.com
+Ctrl-C
+
+4.  To run a command to check the routes being used to communicate outside your 
+
+local network, type:
+
+$ route
+
+5.

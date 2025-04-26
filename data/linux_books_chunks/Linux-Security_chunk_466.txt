@@ -1,0 +1,13 @@
+root root unconfined_u:object_r:admin_home_t:s0 /root/test42.txt
+
+Make sure Apache2 runs.
+
+[root@centos65 ~]# service httpd restart 
+Stopping httpd:                                            [  OK  ]
+Starting httpd:                                            [  OK  ]
+
+Will this work ? Yes it does.
+
+[root@centos65 ~]# wget http://localhost/test42.txt
+--2014-04-12 20:56:47--  http://localhost/test42.txt
+Resolving localhost...

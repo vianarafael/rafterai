@@ -1,0 +1,14 @@
+In Figure 14-11 we see the main dashboard.
+
+698
+
+Chapter 14 ■ BaCkup and reCovery
+
+Figure 14-11.  Dashboard page of Web-UI
+
+We will not go through every page; as you can see, there are many parts to explore that maps to parts of 
+
+the Bareos configuration. We do want to show you the Restore page, as you can use this to find and restore 
+your backups like in Figure 14-12.
+
+Figure 14-12.

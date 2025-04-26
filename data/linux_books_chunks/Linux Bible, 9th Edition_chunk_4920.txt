@@ -1,0 +1,5 @@
+It steps you through the installation and setup of virtual machines and 
+provides a way to view and change the status of your existing virtual machines.
+
+Later, when you understand the kinds of features that go into creating virtual machines, 
+you can use the virt-install command to create virtual machines instead.

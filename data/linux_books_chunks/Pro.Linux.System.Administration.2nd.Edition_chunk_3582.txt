@@ -1,0 +1,8 @@
+If you’ve been following along up to 
+this point, you’ve already installed, started, and partially configured Dovecot. This means you have a limited 
+number of steps you need to take to get it working now.
+
+586
+
+In this section, we’re going to show you how to turn on IMAP, specifically the secure version of the 
+IMAP protocol called IMAPS (with the S meaning Secure).

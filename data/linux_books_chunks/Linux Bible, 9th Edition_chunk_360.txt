@@ -1,0 +1,6 @@
+That’s why, for the rest of the book, you will 
+learn best with a Linux system in front of you so you can work through the examples in 
+each chapter and complete the exercises successfully.
+
+The next chapter describes how to get started with Linux by describing how to get and use 
+a Linux desktop system.

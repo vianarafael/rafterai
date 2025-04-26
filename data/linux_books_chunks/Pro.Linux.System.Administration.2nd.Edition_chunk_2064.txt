@@ -1,0 +1,3 @@
+Now that you have some basic systems administration knowledge, let’s revisit the storage 
+configuration and see how to change it to suit your needs. We’ll look at various types of storage hardware 
+and the ways in which you can use storage management software to your advantage.

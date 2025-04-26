@@ -1,0 +1,2 @@
+You just need to change 
+the on in the chkconfig command to off.

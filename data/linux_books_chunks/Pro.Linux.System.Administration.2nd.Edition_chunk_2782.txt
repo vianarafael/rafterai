@@ -1,0 +1,4 @@
+The connection will be forwarded over our SSH connection, and the web server on host 192.168.1.12 will see 
+an incoming connection from the address 192.168.1.1.
+
+ ■ Note  accessing them via a tunnel may not work for all web sites due to the way they are hosted.

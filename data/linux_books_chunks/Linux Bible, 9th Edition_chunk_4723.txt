@@ -1,0 +1,5 @@
+If you still want to use 
+the TCP SYN scan, the command is nmap -sS ip_address.
+
+The services currently running on Host-A are not that “juicy.” In the example that follows, 
+another service, ssh, is started on Host-A using the systemctl command (see Chapter 15).

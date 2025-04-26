@@ -1,0 +1,6 @@
+Let’s start by looking at an init script: take a look at the postfix script located in /
+etc/init.d on our Ubuntu server.
+
+What’s LSB? Short for Linux Standard Base, it is a set of standards agreed to by the various Linux 
+
+distributions to make life easier for everyone using it, especially for those who develop on it.

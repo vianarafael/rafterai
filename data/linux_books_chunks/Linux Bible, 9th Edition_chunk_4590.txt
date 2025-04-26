@@ -1,0 +1,11 @@
+Notice 
+that the associated MLS/MCS settings for each SELinux user are shown as well.
+
+# semanage login -l
+Login Name           SELinux User         MLS/MCS Range     Service
+__default__          unconfined_u         s0-s0:c0.c1023    *
+root                 unconfined_u         s0-s0:c0.c1023    *
+system_u             system_u             s0-s0:c0.c1023    *
+
+To see a current display of the SELinux users and their associated roles, use the command 
+semanage user -l.

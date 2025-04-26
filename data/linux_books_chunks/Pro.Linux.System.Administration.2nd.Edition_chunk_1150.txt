@@ -1,0 +1,32 @@
+This information is 
+used by other services.
+
+Required-Start: Lists services that must be available for this script to start.
+
+Required-Stop: Indicates this service must be stopped before the services listed here 
+are stopped.
+
+Should-Start: Defines a list of what services can be started, although not 
+mandatory, before this service starts.
+
+Should-Stop: Indicates this service should be stopped, although not mandatory, 
+before the services listed here.
+
+Default-Start: Defines the default runlevels the service should be run in.
+
+Default-Stop: Defines the default runlevels this service should not run in.
+
+Description: Gives a description of the service.
+
+More information about LSB init scripts can be found at
+
+•	
+
+•	
+
+http://refspecs.linux-foundation.org/LSB_5.0.0/LSB-Core-generic/LSB-
+Core-generic/iniscrptact.html
+
+https://wiki.debian.org/LSBInitScripts
+
+Dissecting further the Listing 6-10 example notice the Default Start and Default Stop keywords.

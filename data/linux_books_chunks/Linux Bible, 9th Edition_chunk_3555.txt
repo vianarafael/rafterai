@@ -1,0 +1,8 @@
+If you are interested in investigating this subject further, I 
+recommend you read the Samba & Active Directory page on the wiki at Samba.org:
+
+http://wiki.samba.org/index.php/Samba_&_Active_Directory
+
+Summary
+Because of the popularity of Windows desktops, Samba servers have become popular for 
+sharing ﬁ les and printers among Windows and Linux systems.

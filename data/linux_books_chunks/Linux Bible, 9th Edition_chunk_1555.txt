@@ -1,0 +1,8 @@
+Instead of messing with your Windows partition, you can simply 
+
+add a hard disk and devote it to Linux.
+
+ ■ Resize your Windows partition. If you have available space on a Windows 
+
+ partition, you can shrink that partition so free space is available on the disk to 
+devote to Linux.

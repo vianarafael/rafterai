@@ -1,0 +1,2 @@
+Lightweight means that they do nothing other than ship data to a remote location, keeping track of what they 
+have shipped.

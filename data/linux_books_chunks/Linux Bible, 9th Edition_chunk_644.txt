@@ -1,0 +1,5 @@
+Fortunately, some shell features enable you to recall previous command lines, edit those 
+lines, or complete a partially typed command line.
+
+The shell history is a list of the commands that you have entered before. Using the history 
+command in a bash shell, you can view your previous commands.

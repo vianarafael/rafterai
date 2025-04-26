@@ -1,0 +1,7 @@
+You can also specify the packet size, 
+using -s number of bytes, which is useful for testing bandwidth problems or problems with MTU settings.
+
+ As mentioned earlier in the chapter, MtU is the maximum transmission unit. it is used to limit the 
+
+ ■ Note 
+size of the packets to what the network devices on that network can handle.

@@ -1,0 +1,11 @@
+the filter table
+
+8.3.1. about packet filtering
+
+Packet filtering is a bit more than packet forwarding. While packet forwarding uses only
+a routing table to make decisions, packet filtering also uses a list of rules. The kernel will
+inspect packets and decide based on these rules what to do with each packet.
+
+8.3.2. filter table
+
+The filter table in iptables has three chains (sets of rules).

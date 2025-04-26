@@ -1,0 +1,7 @@
+This reduces the need to create and manage 
+large numbers of operating system users.
+
+You can find a complete how-to on configuring virtual domains and users with Postfix at www.postfix.
+
+org/VIRTUAL_README.html. You can find a more Ubuntu-specific guide at https://help.ubuntu.com/
+community/PostfixCompleteVirtualMailSystemHowto.

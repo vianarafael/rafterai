@@ -1,0 +1,5 @@
+If you don’t, any output is sent to the user that ran the crontab 
+-e command (in this case, root).
+
+In a crontab fi le, you can have a range of numbers, a list of numbers, or skip numbers. For example, 
+1, 5, or 17 in the fi rst fi eld causes the command to be run 1, 5, and 17 minutes after the hour.

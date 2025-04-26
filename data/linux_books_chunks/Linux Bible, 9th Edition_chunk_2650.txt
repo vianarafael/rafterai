@@ -1,0 +1,8 @@
+It offers an easy-to-understand method of starting and stopping 
+services based on runlevel. Most UNIX and Linux systems up until a few years ago 
+used SysVinit.
+
+ ■ Upstart—Popularized in Ubuntu and used brieﬂ y in Fedora and RHEL, this init 
+
+system improved handling of dependencies between services and could sub-
+stantially improve system startup time.

@@ -1,0 +1,7 @@
+Neither slave has an IP address associated with it. It is the bond0 
+interface that has the IP address associated with it. 
+
+Adding Multiple IP Addresses to Interfaces
+
+We can add multiple addresses to an interface. They do not have to be in the same network and can be used 
+to route traffic from different networks across your host. To do this we can edit our network profile.

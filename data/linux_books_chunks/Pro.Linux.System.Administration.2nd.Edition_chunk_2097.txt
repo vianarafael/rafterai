@@ -1,0 +1,7 @@
+the kernel 
+doesn’t assume that there will be a logging daemon to write these message to a file, like during system 
+boot-up for example. therefore, the kernel writes all its messages to the ring buffer and you can access 
+the messages via dmesg.
+
+the ring buffer of the kernel contains things like how kernel was called, the hardware the kernel found, 
+and what it did once it found it.

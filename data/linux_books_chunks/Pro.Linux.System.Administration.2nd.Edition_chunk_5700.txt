@@ -1,0 +1,4 @@
+We’ve used a Puppet language 
+construct called a selector, combined with the $fact['os']['name'] fact, to specify the name of the SSH 
+service. This is because on each operating system we’ve specified, the SSH daemon is called something 
+different.

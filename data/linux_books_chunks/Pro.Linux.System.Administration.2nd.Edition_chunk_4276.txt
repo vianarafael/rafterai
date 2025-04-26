@@ -1,0 +1,4 @@
+It has an external IP address of 10.0.2.155 
+and an internal IP address of 192.168.0.254.
+
+headoffice.example.com: Our main head office server host.

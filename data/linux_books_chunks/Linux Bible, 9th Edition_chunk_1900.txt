@@ -1,0 +1,19 @@
+You can also see default settings by typing the useradd command with the -D option, as 
+follows:
+
+# useradd -D
+GROUP=100
+HOME=/home
+INACTIVE=-1
+EXPIRE=
+SHELL=/bin/bash
+SKEL=/etc/skel
+CREATE_MAIL_SPOOL=yes
+
+265
+
+c11.indd  04/01/2015  Page 266
+
+Part III: Becoming a Linux System Administrator
+
+You can also use the -D option to change defaults.

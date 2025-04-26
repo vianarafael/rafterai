@@ -1,0 +1,8 @@
+You will need to set this 
+permanently as it only lasts as long as your current console session. We will leave you to your own investigation 
+for how to do that.
+
+Licensing
+
+Vagrant is distributed under the MIT License. Meaning that you can use this software in practically any way 
+you wish.

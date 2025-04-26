@@ -1,0 +1,2 @@
+The INPUT chain is used for any
+packet coming into the system.

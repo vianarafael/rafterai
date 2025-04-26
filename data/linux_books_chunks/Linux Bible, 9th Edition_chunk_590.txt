@@ -1,0 +1,23 @@
+You can try a few commands in that shell 
+and type exit when you are ﬁ nished to return to the bash shell.
+
+You might choose to use different shells for the following reasons:
+
+3
+
+69
+
+c03.indd  04/01/2015  Page 70
+
+Part II: Becoming a Linux Power User 
+
+ ■ You are used to using UNIX System V systems (often ksh by default) or Sun 
+
+Microsystems and other Berkeley UNIX-based distributions (frequently csh by 
+default), and you are more comfortable using default shells from those environments.
+
+ ■ You want to run shell scripts that were created for a particular shell environment, 
+and you need to run the shell for which they were made so you can test or use 
+those scripts from your current shell.
+
+ ■ You simply prefer features in one shell over those in another.

@@ -1,0 +1,7 @@
+However, if you can’t afford to buy an extra host, any backups are better than no backups, and 
+you should then back up to external media such as DVDs or data tapes.
+
+ traditionally, Linux backups have been a combination of tar, gzip, rsync, dd, cpio, dump, restore, 
+
+ ■ Note 
+and mt commands in hand-rolled scripts.

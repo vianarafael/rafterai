@@ -1,0 +1,7 @@
+Be careful of using this switch and always be cognizant of where you are in the directory tree 
+when you execute the command—the results of an inappropriate use of this command could be devastating!
+
+ unlike Windows with its Recycle Bin, deleting files on Linux tends to be fairly permanent 
+
+ ■ Caution 
+unless you have backups.

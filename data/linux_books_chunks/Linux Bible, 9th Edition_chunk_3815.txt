@@ -1,0 +1,7 @@
+As soon as the kernel is done initially detecting hardware and loading  drivers, 
+it passes off control of everything else that needs to be done to boot the system to the 
+ initialization system.
+
+Troubleshooting the initialization system 
+The ﬁ rst process to run on a system where the kernel has just started depends on the 
+ initialization facility that system is using.

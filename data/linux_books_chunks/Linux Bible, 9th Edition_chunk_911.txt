@@ -1,0 +1,5 @@
+Likewise, some document ﬁ le types, such as HTML 
+and XML, are also plain-text ﬁ les that can be edited manually.
+
+Before you can become a full-ﬂ edged system administrator, you need to be able to use a plain-text 
+ editor.

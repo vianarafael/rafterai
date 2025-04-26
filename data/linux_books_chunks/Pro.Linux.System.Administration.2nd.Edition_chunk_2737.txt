@@ -1,0 +1,9 @@
+the connection encryption is provided by 
+the ssh host keys, which are generated when the service is installed.
+
+463
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Creating and Distributing Keys
+We’ll start by creating a public/private key pair using the ssh-keygen utility.

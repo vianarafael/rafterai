@@ -1,0 +1,8 @@
+Change the permissions on the $HOME/projects/house2 ﬁ le so it can be read 
+
+and written to by the user who owns the ﬁ le, only read by the group, and have no 
+permission for others.
+
+$ chmod 640 $HOME/projects/house2
+
+10.

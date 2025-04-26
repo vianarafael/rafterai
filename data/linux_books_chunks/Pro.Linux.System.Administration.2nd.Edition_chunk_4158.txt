@@ -1,0 +1,2 @@
+We run a differential every second, fourth, and fifth Sunday, with an incremental 
+nightly between Monday and Saturday.

@@ -1,0 +1,11 @@
+Copy the ﬁ les house1 and house5 to the $HOME/projects/houses/ directory.
+
+$ cp $HOME/projects/house[15] $HOME/projects/houses
+
+4.  Recursively copy the /usr/share/doc/initscripts* directory to the $HOME/
+
+projects/ directory.
+
+$ cp -ra /usr/share/doc/initscripts*/ $HOME/projects/
+
+5.  Recursively list the contents of the $HOME/projects/ directory.

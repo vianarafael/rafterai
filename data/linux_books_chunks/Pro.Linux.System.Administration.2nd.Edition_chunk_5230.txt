@@ -1,0 +1,11 @@
+There are quite a few that come with Logstash, 
+
+and you can view them all here:
+
+•	
+
+https://github.com/logstash-plugins/logstash-patterns-core/blob/master/
+patterns/grok-patterns
+
+The patterns are regular expressions that map to a name. The timestamp we are dealing with is in epoch 
+or Unix epoch and is the number of seconds since 1970.

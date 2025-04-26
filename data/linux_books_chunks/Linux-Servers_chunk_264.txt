@@ -1,0 +1,12 @@
+deleting a database
+
+When a database is no longer needed, you can permanently remove it with the drop database
+command.
+
+mysql> drop database demodb;
+Query OK, 1 row affected (0.09 sec)
+
+3.3.6. backup and restore a database
+
+You can take a backup of a database, or move it to another computer using the mysql and
+mysqldump commands.

@@ -1,0 +1,5 @@
+The mail and kern facilities are two 
+good examples, being mail-related event notification messages and all kernel-related messages, respectively.
+Other processes and daemons that do not have a specified facility can use the local facilities, which 
+
+range from local0 to local7.

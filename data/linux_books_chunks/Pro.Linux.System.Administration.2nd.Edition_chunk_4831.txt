@@ -1,0 +1,12 @@
+You will of course want to restart any service that crashed, but checking the logs 
+for the cause of the problem will help you prevent the same thing from happening again.
+
+If the log daemon itself has stopped, you can still check the kernel log buffer via the dmesg command.
+
+ ■ Note 
+
+ We will cover logging in detail in Chapter 18.
+
+Advanced Tools
+The basic tools give you a quick overview but don’t provide any information to help you determine the cause 
+of a problem, if there is one.

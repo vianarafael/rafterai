@@ -1,0 +1,7 @@
+Setting this to no means the service is enabled!
+
+Check the xinetd and xinetd.conf manual pages for many more configuration options.
+
+7.4.4. inetd superdaemon
+
+This superdaemon has only one configuration file /etc/inetd.conf.

@@ -1,0 +1,19 @@
+All this was 
+essential to understanding what automated provisioning and configuration management are now going to 
+do for you.
+
+In this chapter, we’re going to look at three facets of configuration management.
+
+•	
+
+•	
+
+Automated provisioning and installation of new hosts
+
+Automated management of your configuration including files, users, and packages
+
+•	 How to test your configuration as code
+
+The first process we’re going to examine, automated provisioning or installation of new hosts, is 
+
+sometimes called bootstrapping.

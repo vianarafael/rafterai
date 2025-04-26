@@ -1,0 +1,2 @@
+The hostname is accessible from your 
+/etc/hosts ﬁ le or through a DNS name server.

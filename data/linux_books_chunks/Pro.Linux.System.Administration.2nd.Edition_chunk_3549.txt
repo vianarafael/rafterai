@@ -1,0 +1,28 @@
+To do that, we need to add another package that will handle 
+this validation.
+
+For Ubuntu, we have to add the following package:
+
+$ sudo aptitdue install –y postfix-policyd-spf-python
+
+For CentOS, we will add this package:
+
+$ sudo yum install –y pypolicyd-spf.noarch
+
+Then the configuration for Postfix simply consists of adding the following to /etc/postfix/main.cf:
+
+smtpd_recipient_restrictions =
+....
+   reject_unauth_destination
+   check_policy_service unix:private/policyd-spf
+   reject_rbl_client zen.spamhaus.org
+...
+policyd-spf_time_limit = 3600
+
+Then to /etc/postfix/master.cf, we need the following:
+
+policyd-spf  unix  -       n       n       -       0       spawn
+ user=nobody argv=/usr/libexec/postfix/policyd-spf
+
+We can change the configuration for our Postfix SPF by editing either /etc/postfix-policyd-spf-
+python/policyd-spf.conf (Ubuntu) or /etc/python-policyd-spf/policyd-spf.conf (CentOS).

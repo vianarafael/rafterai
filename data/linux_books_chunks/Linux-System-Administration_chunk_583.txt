@@ -1,0 +1,41 @@
+iSCSI Target and Initiator practice
+
+variable
+
+Target Server IP
+
+value
+
+shared devices on target
+
+/dev/sd /dev/sd /dev/sd
+
+shared device name sd
+
+shared device name sd
+
+shared device name sd
+
+target iqn
+
+initiator iqn
+
+username
+
+password
+
+141
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+iSCSI devices
+
+12.11. solution: iSCSI devices
+
+1.

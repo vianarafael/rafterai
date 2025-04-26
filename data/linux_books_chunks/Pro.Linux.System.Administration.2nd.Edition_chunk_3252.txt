@@ -1,0 +1,7 @@
+to start the command, type mail on the 
+command line together with the e-mail address you’d like to send e-mail to, for example, mail root@example.
+com. entering the mail command on its own will open a simple command-line mail client.
+
+We can now check that our e-mail has arrived. In our case, we want to check whether the e-mail has 
+
+been received by the user ataylor.

@@ -1,0 +1,8 @@
+The main boot menu
+configuration file for grub2 is grub.cfg.
+
+root@debian7:~# ls -l /boot/grub/grub.cfg
+-r--r--r-- 1 root root 2453 May 13 17:22 /boot/grub/grub.cfg
+root@debian7:~#
+
+14.2.2.

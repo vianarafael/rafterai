@@ -1,0 +1,6 @@
+If the CPU were an AMD chip, instead 
+of vmx, you would see svm highlighted (if the AMD chip supported virtualization). Those 
+settings show that this computer can be used as a hypervisor.
+
+When you start running VMs on a host, memory is often the bottleneck. For memory 
+requirements, you must add what is needed by the host to whatever you need for each VM.

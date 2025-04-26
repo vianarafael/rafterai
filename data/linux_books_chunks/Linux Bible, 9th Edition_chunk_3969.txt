@@ -1,0 +1,13 @@
+Assuming 
+the service is running (depending on your system, type service httpd status or 
+
+579
+
+c21.indd  04/01/2015  Page 580
+
+Part IV: Becoming a Linux Server Administrator
+
+systemctl status httpd to check), the next thing to check is that it is listening on 
+the proper ports and network interfaces.
+
+The netstat command is a great general-purpose tool for checking network services.

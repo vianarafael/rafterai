@@ -1,0 +1,3 @@
+Cloud-init supports 
+conﬁ guration tools, such as Puppet (http://puppetlabs.com/puppet/puppet-open-
+source) and Chef (https://www.chef.io/chef/).

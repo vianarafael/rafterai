@@ -1,0 +1,9 @@
+They both provide “authenticated denial of existence,” meaning 
+that if a record is not available then you can trust the response from the server. The main difference between 
+
+449
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+the two records is that NSEC3 prevents zone walking, where you can build a map of the domain by what 
+records are not there.

@@ -1,0 +1,6 @@
+I connected a hard drive from an old Microsoft Windows system, and I had it mounted on 
+the /win directory. I added the ro option so it would mount read-only.
+
+The next two entries represent remote ﬁ lesystems. On the /remote directory, the 
+/nfsstuff directory is mounted read/write (rw) from the host at address 192.168.0.27 as 
+an NFS share.

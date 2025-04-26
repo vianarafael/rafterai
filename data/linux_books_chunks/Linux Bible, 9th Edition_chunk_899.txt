@@ -1,0 +1,7 @@
+With -b, if a fi le of the same name exists at the destina-
+
+tion, a backup copy of the old fi le is made before the new fi le is moved there.
+
+Summary
+Commands for moving around the ﬁ lesystem, copying ﬁ les, moving ﬁ les, and removing 
+ﬁ les are among the most basic commands you need to work from the shell.

@@ -1,0 +1,7 @@
+Equivalent to PASS_MAX_DAYS in /etc/login.defs
+
+Sets the minimum number of days before a password can be changed again. 
+Equivalent to PASS_MIN_DAYS in /etc/login.defs
+
+Sets the number of days a user is warned before being forced to change the 
+account password.

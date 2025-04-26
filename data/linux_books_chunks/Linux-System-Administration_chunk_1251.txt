@@ -1,0 +1,3 @@
+ldd
+
+Many programs have dependencies on the installation of certain libraries.

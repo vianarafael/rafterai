@@ -1,0 +1,32 @@
+This makes it an easy companion with find! Some
+examples below.
+
+356
+
+ 
+ 
+ 
+ 
+backup
+
+find sends filenames to cpio, which puts the files in an archive.
+
+find /etc -depth -print | cpio -oaV -O archive.cpio
+
+The same, but compressed with gzip
+
+find /etc -depth -print | cpio -oaV | gzip -c > archive.cpio.gz 
+
+Now pipe it through ssh (backup files to a compressed file on another machine)
+
+find /etc -depth -print|cpio -oaV|gzip -c|ssh server "cat - > etc.cpio.gz"
+
+find sends filenames to cpio | cpio sends files to ssh | ssh sends files to cpio 'cpio extracts files'
+
+find /etc -depth -print | cpio -oaV | ssh user@host 'cpio -imVd'
+
+the same but reversed: copy a dir from the remote host to the local machine
+
+ssh user@host "find path -depth -print | cpio -oaV" | cpio -imVd
+
+30.7.

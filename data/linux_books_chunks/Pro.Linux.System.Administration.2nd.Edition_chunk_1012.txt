@@ -1,0 +1,4 @@
+The 
+GRUB boot loader became the default for Red Hat and Ubuntu several years ago. We will be concentrating 
+on the latest version of GRUB, GRUB2, here. GRUB2 is a powerful multiboot loader. A multiboot loader can 
+enable your host to boot into many different operating systems.

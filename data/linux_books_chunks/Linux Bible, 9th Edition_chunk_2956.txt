@@ -1,0 +1,7 @@
+Any printers found on that host appear on the window, 
+ready for you to add.
+
+ ■ AppleSocket/HP JetDirect—Use this for a JetDirect printer.
+
+ ■ Internet Printing Protocol (IPP)—Use this for a CUPS or other IPP 
+printer.

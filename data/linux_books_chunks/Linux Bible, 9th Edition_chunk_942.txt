@@ -1,0 +1,4 @@
+For example, with the cursor on the beginning of the name Joe, you type cw and type Jim 
+to change Joe to Jim. You search for the next occurrence of Joe in the ﬁ le, position the 
+cursor at the beginning of that name, and press a period. The word changes to Jim, and 
+you can search for the next occurrence.

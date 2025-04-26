@@ -1,0 +1,8 @@
+The ldapadd tool is versatile and takes 
+
+many options. The way we will use it is as follows:
+
+$ sudo ldapadd -D "cn=admin,dc=example,dc=com" -ZZ -H ldap://ldap.example.com 
+ -xWv -f users.ldif
+
+The ldapadd command can use the SASL authentication method or the simple method.

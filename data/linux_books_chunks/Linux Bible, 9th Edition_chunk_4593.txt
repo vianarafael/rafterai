@@ -1,0 +1,6 @@
+For more information on the semanage utility, see the man pages.
+
+Managing the file security context
+Labeling ﬁ les is critical to maintaining proper access control to each ﬁ le’s data. SELinux 
+does set ﬁ le security labels upon installation and upon system reboot when the SELinux 
+mode is switched from disabled.

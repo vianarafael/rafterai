@@ -1,0 +1,6 @@
+You can see that we have listed the contents of our .ssh directory, and we have the two 
+keys, one private and one public, as indicated by the .pub suffix. We keep the private one (exbackup) secured 
+on this host, and we copy the contents of the public key (exbackup.pub) to the authorized_keys file for the 
+user on our remote host.
+
+We need to now talk a little about security.

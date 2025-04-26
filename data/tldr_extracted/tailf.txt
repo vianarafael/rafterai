@@ -1,0 +1,6 @@
+# tailf
+
+
+- View documentation for the recommended replacement:
+
+`tldr tail`

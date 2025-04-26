@@ -1,0 +1,6 @@
+In fact, you can use Test Driven Development (TDD) practices to first write 
+your tests that define success and failure scenarios and then write your Ansible or Puppet code to pass those 
+tests.
+
+Serverspec is written in Ruby and uses the RSpec framework run the tests. While we will not attempt to 
+explain RSpec in any depth, you can visit a number of tutorial sites online.

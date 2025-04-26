@@ -1,0 +1,8 @@
+On Ubuntu 
+you can access the mysql command line via the sudo command.
+
+$ sudo mysql
+
+MariaDB Storage Engines
+MariaDB has several different storage engines designed to perform better with different data set 
+requirements.

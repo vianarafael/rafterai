@@ -1,0 +1,5 @@
+This ﬁ le mostly points to the /etc/xinetd.d directory for 
+ information about individual services.
+
+Another directory, /etc/X11, includes subdirectories that each contain system-wide 
+ conﬁ guration ﬁ les used by X and different X window managers available for Linux.

@@ -1,0 +1,6 @@
+For example, if you typed echo $HOME, the shell would think you meant to display the name of 
+your home directory (stored in the $HOME variable) to the screen (such as /home/chris) because a $ 
+indicates a variable name follows that character.
+
+If you wanted to literally show $HOME, you would need to escape the $. Typing echo '$HOME' or echo 
+\$HOME would literally show $HOME on the screen.

@@ -1,0 +1,23 @@
+You could use 
+the following commands to start and permanently enable both the rpcbind and 
+nfs services.
+
+530
+
+c20.indd  04/01/2015  Page 531
+
+Chapter 20: Confi guring an NFS File Server
+
+# service rcpbind start
+Starting rpcbind:                    [  OK  ]
+# service nfs start
+Starting NFS services:               [  OK  ]
+Starting NFS quotas:                 [  OK  ]
+Starting NFS daemon:                 [  OK  ]
+Starting NFS mountd:                 [  OK  ]
+# chkconfig rpcbind on
+# chkconfig nfs on
+
+After the service is running, the commands (mount, exportfs, and so on) and ﬁ les 
+(/etc/exports, /etc/fstab, and so on) for actually conﬁ guring NFS are basically the 
+same on every Linux system.

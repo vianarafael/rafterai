@@ -1,0 +1,11 @@
+Vagrantfile—Adding aBox
+
+Vagrant.configure(2) do |config|
+ config.vm.box = "ubuntu/xenial64"
+end
+
+In Listing 3-5 we are setting the config.vm.box to ubuntu/xenial64.
+
+ ■ Note 
+ the box listed here is a 64-bit operating system release (ubuntu/xenial64). depending on the 
+system you are working on, you might only have a 32-bit operating system.

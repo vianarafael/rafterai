@@ -1,0 +1,7 @@
+It employs the 
+same packaging system, RPM, and many of the same administration tools as the Red Hat product. It is one of 
+the distributions we will be using in this edition of the book.
+
+The Fedora Project
+The Fedora Project (http://fedoraproject.org/) is a distribution jointly run by the community and Red 
+Hat.

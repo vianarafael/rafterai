@@ -1,0 +1,5 @@
+Regardless of the operating system people use, they surely have an FTP ﬁ le transfer 
+application available to get ﬁ les you offer from your FTP server.
+
+When users authenticate to an FTP server in Linux, their usernames and passwords are 
+authenticated against the standard Linux user accounts and passwords.

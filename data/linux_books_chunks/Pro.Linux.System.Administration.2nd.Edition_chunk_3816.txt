@@ -1,0 +1,8 @@
+Taking a look at df shows the following:
+
+$ df -h /mnt
+Filesystem           Size  Used   Avail  Use%    Mounted on
+au-mel-dfs-1:/vol1   50G   33M    50G    1%      /mnt
+
+As shown, we have our 50GB volume mounted successfully. We can do a write test to see whether we 
+can write data to it. For this we are going to use a for loop bash one-liner.

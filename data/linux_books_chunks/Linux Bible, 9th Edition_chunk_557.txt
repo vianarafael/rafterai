@@ -1,0 +1,12 @@
+Linux also has a tcsh shell (an improved C shell) 
+and an ash shell (another Bourne shell look-alike).
+
+65
+
+c03.indd  04/01/2015  Page 66
+
+Part II: Becoming a Linux Power User 
+
+The odds are strong that the Linux distribution you are using has more than one shell 
+installed by default and available for your use. This chapter, however, focuses primarily on 
+the bash shell.

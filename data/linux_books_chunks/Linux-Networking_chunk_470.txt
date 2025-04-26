@@ -1,0 +1,13 @@
+Protect one of your websites with a user/password combo.
+
+105
+
+Chapter 9. introduction to squid
+
+9.1. about proxy servers
+
+9.1.1. usage
+
+A proxy server is a server that caches the internet. Clients connect to the proxy server with
+a request for an internet server. The proxy server will connect to the internet server on behalf
+of the client.

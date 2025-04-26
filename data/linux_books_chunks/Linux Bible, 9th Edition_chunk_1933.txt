@@ -1,0 +1,6 @@
+1 sara sales 0 Jan 18 22:23 file2
+[sara]$ exit
+
+It is also possible to allow users to temporarily become a member of a group with the 
+ newgrp command without actually being a member of that group. To do that, someone with 
+root permission can use gpasswd to set a group password (such as gpasswd sales).

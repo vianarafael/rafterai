@@ -1,0 +1,6 @@
+We carve up the disk into smaller pieces. This way you can, for example, keep 
+log and user data separate from the operating system, so logs or users cannot fill up your system disk and 
+cause problems.
+
+In Chapter 6 we introduced you to two different partition managers, the Master Boot Record (MBR) 
+and GPT (GUID Partition Table).

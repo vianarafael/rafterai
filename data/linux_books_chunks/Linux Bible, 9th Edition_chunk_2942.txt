@@ -1,0 +1,5 @@
+You can also select to have the job discarded (abort-job) 
+or retried (retry-job) in the event of an error condition.
+
+ ■ Banner—There are no starting or ending banner pages by default for the 
+printer.

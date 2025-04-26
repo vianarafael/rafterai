@@ -1,0 +1,8 @@
+a partition table 
+holds information about the block addresses (in chunks of 512 bytes or 4KB of disk). the MBr can only 
+hold 2tiBs worth of addresses while Gpt can hold 8-9ZiB.
+
+Figure 6-1.  Your hard disk
+
+a disk will either have a MBr at the start (in the first 512 bytes) or Gpt. if it has a MBr the partition 
+table is written after the first 446 bytes of the disk.

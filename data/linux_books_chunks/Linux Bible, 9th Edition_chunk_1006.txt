@@ -1,0 +1,12 @@
+The set of curly braces indicates where on the command line to read 
+in each ﬁ le that is found. Each ﬁ le can be included in the command line multiple times, 
+
+5
+
+131
+
+c05.indd  04/01/2015  Page 132
+
+Part II: Becoming a Linux Power User
+
+if you like. To end the line, you need to add a backslash and semicolon (\;).

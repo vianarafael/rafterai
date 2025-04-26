@@ -1,0 +1,7 @@
+From a GNOME 2 desktop, 
+right-click the 8.0GB Filesystem icon that appears and select Unmount. From a 
+GNOME 3 desktop, move your mouse to select the bottom tray, click the removable 
+storage icon, and click the eject button. Or, in this case, as root you could instead 
+type umount /dev/sdc1.
+
+5.  Use the fdisk command to create partitions on the USB drive.

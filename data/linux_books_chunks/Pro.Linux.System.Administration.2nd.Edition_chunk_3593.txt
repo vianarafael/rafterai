@@ -1,0 +1,12 @@
+additionally, as the certificate is tied to the hostname, you must specify this hostname 
+(mail.example.com for this example) in your mail client rather than any other DNS name the host may be 
+known as.
+
+Next, we uncomment and change the disable_plaintext_auth option to yes in the /etc/dovecot/
+
+conf.d/10-auth.conf file.
+
+disable_plaintext_auth = yes
+
+This option disables any plain-text authentication unless SSL is enabled and an encrypted connection 
+is running.

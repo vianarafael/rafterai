@@ -1,0 +1,36 @@
+The other types you can choose from (ldap, ldif, metadirectory, perl, etc.) are used for proxying your 
+LDAP server.
+
+ For more information on the choices for back-end databases available to you, please see the online 
+
+ ■ Note 
+documentation: www.openldap.org/doc/admin24/backends.html.
+
+To view the current database settings, we can issue the following ldapsearch:
+
+$ sudo ldapsearch -H ldapi:/// -Y EXTERNAL -b "olcDatabase={1}mdb,cn=config" -LLL  -Q
+dn: olcDatabase={1}mdb,cn=config
+objectClass: olcDatabaseConfig
+objectClass: olcMdbConfig
+olcDatabase: {1}mdb
+olcDbDirectory: /var/lib/ldap
+olcAccess: {0}to attrs=userPassword by self write by anonymous auth by * none
+olcAccess: {1}to attrs=shadowLastChange by self write by * read
+olcAccess: {2}to * by * read
+olcLastMod: TRUE
+olcDbCheckpoint: 512 30
+olcDbIndex: objectClass eq
+olcDbIndex: cn,uid eq
+olcDbIndex: uidNumber,gidNumber eq
+
+747
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+olcDbIndex: member,memberUid eq
+olcDbMaxSize: 1073741824
+olcSuffix: dc=nodomain
+olcRootDN: cn=admin,dc=nodomain
+olcRootPW: {SSHA}EEyEuYme4zBPYbRzHc+l4rApfvrXjXnV
+
+The default for our database type is defined here: olcDatabase: {1}mdb.

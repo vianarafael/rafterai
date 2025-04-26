@@ -1,0 +1,7 @@
+This is helpful in situ-
+ations where an employee has left the company, but his user account has not yet been 
+removed. Depending upon your organization’s security needs, consider setting all accounts 
+to lock a certain number of days after passwords have expired.
+
+Understanding the password files and password hashes
+Early Linux systems stored their passwords in the /etc/passwd ﬁ le.

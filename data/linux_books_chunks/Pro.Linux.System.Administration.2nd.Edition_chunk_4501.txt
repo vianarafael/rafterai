@@ -1,0 +1,12 @@
+cn=config DIT
+
+743
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+You can see from Listing 16-1 and Figure 16-3 that the LDAP schema, cn={1}
+
+cosine,cn=schema,cn=config, is found under the cn=schema DN, which is found under cn=config. The {1} 
+denotes an index of the schema DN.
+
+Also, in Listing 16-1 there are several other global directives like olcBackend and olcDatabase.

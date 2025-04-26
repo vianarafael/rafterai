@@ -1,0 +1,6 @@
+The focus of this section is setting the bits that help you 
+create directories to use for collaboration.
+
+As with read, write, and execute bits for user, group, and other, these special ﬁ le 
+ permission bits can be set with the chmod command. If, for example, you run chmod 
+775 /mnt/xyz, the implied permission is actually 0775.

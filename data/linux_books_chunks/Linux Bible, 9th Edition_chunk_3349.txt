@@ -1,0 +1,7 @@
+To start with a 
+conﬁ guration that is designed to have vsftpd share ﬁ les safely over the Internet, back up your 
+current /etc/vsftpd/vsftpd.conf ﬁ le and copy this ﬁ le to overwrite your vsftpd.conf:
+
+/usr/share/doc/vsftpd-*/EXAMPLE/INTERNET_SITE/vsftpd.conf
+
+The following paragraphs describe the contents of that vsftpd.conf.

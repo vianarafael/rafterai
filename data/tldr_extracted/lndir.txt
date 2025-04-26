@@ -1,0 +1,6 @@
+# lndir
+
+
+- Create a shadow directory in the current directory:
+
+`lndir {{path/to/directory}}`

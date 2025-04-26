@@ -1,0 +1,7 @@
+The following is an example of the syntax of the setfacl command:
+
+setfacl -m u:username:rwx filename
+
+In the example just shown, the modify option (-m) is followed by the letter u,  indicating 
+that you are setting ACL permissions for a user. After a colon (:), you indicate the 
+ username, followed by another colon and the permissions you want to assign.

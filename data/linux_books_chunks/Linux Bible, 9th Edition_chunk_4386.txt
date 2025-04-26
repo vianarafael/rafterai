@@ -1,0 +1,39 @@
+In Table 23.3, the different 
+PAM contexts are listed along with what type of authentication service they provide.
+
+650
+
+ 
+ 
+ 
+ 
+c23.indd  04/01/2015  Page 651
+
+Chapter 23: Understanding Advanced Linux Security 
+
+TABLE 23.3    PAM Contexts
+
+Context
+
+auth
+
+account
+
+password
+
+session
+
+Service Description
+
+Provides authentication management services, such as verifying account 
+passwords
+
+Provides account validation services, such as time of day access restrictions
+
+Manages account passwords, such as password length restrictions
+
+Manages the beginning and end of an authenticated session, such as sending 
+information to security logs
+
+In the poweroff conﬁ guration ﬁ le, shown again here, only two PAM contexts are used, 
+auth and account.

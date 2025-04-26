@@ -1,0 +1,4 @@
+It is optional in TE, but required if you are using MLS.
+
+The MLS level is a combination of the sensitivity and category values that together 
+form the security level.

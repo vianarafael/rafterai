@@ -1,0 +1,6 @@
+# qm listsnapshot
+
+
+- List all snapshots of a specific virtual machine:
+
+`qm listsnapshot {{vm_id}}`

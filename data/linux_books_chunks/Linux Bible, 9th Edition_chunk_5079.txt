@@ -1,0 +1,6 @@
+I also quickly introduced the Amazon 
+Elastic Compute Cloud service, where you can pay to use cloud storage and processing time 
+if you don’t have enough computing resources of your own.
+
+This chapter has no exercises because I meant it to be a stretch beyond the scope of this 
+book.

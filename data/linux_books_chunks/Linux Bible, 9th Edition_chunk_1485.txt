@@ -1,0 +1,7 @@
+You can also choose whether to encrypt the data on your disk, making 
+your data inaccessible to anyone who tries to boot your computer without the 
+password you set later.
+
+  Select Done when you have conﬁ gured your storage.
+
+7.  Select KEYBOARD.

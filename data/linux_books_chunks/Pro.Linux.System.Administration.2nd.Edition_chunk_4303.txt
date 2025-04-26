@@ -1,0 +1,6 @@
+You should always check 
+that your firewall rules allow access to this port by using the tcpdump or nmap command. we discuss firewall 
+setup, rules, and troubleshooting in Chapter 7.
+
+Next in Listing 15-1, the server option tells OpenVPN the IP address of the server and the pool of 
+IP addresses available to our VPN clients. We’ve specified the default network, 10.8.0.0/24.

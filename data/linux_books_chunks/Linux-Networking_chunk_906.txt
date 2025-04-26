@@ -1,0 +1,12 @@
+except 10.0.0.12
+
+21.2.2. hosts deny
+
+The  hosts  deny  or  deny  hosts  parameter  is  the  logical  counterpart  of  the  previous.  The
+syntax is the same as for hosts allow.
+
+hosts deny = 192.168.1.55, 192.168.1.56
+
+21.3. security through obscurity
+
+21.3.1.

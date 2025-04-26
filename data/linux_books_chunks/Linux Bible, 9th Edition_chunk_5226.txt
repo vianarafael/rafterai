@@ -1,0 +1,13 @@
+Refer to Chapter 14, “Administering Networking,” if you have trouble 
+getting your networking connection to work properly. Open a shell as the root 
+user and type yum update.
+
+c. When prompted, type y to accept the list of packages displayed. The system 
+
+begins downloading and installing the packages.
+
+3.  To run the RHEL installation in text mode, do the following:
+
+a. Boot the RHEL DVD.
+
+b.

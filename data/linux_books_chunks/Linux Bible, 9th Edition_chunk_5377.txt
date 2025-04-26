@@ -1,0 +1,19 @@
+Then run firewall-config and from 
+the Firewall Conﬁ guration window that appears, make sure that nfs and rpc-bind 
+are checked on for the Permanent ﬁ rewall settings.
+
+To open the ports needed to allow clients to reach NFS through the iptables ﬁ re-
+wall (RHEL 6 and earlier Fedora systems without ﬁ rewalld), you need to open at 
+least TCP and UDP ports 111 (rpcbind), 20048 (mountd), and 2049 (nfs) by add-
+ing the following rules to the /etc/sysconfig/iptables ﬁ le and starting the 
+iptables service:
+
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 111 -j ACCEPT
+-A INPUT -m state --state NEW -m udp -p udp --dport 111 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 2049 -j ACCEPT
+-A INPUT -m state --state NEW -m udp -p udp --dport 2049 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 20048 -j ACCEPT
+-A INPUT -m state --state NEW -m udp -p udp --dport 20048 -j ACCEPT
+
+SELinux should be able to share NFS ﬁ lesystems while in Enforcing mode without 
+any changes to ﬁ le contexts or Booleans.

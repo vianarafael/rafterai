@@ -1,0 +1,16 @@
+For example, a netmask of 255.255.255.0 
+would identify the network portion of the previous address as 192.168.0 and the 
+host portion as 40.
+
+355
+
+ 
+ 
+ 
+ 
+c14.indd  04/01/2015  Page 356
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Gateway—The IP address of the computer or device on the network that acts as the 
+default route.

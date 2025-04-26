@@ -1,0 +1,26 @@
+At the bottom of the ﬁ le, you can 
+see that the user named fedora is the default user and has sudo privilege without 
+requiring a password.
+
+$ sudo cat /etc/cloud/cloud.cfg
+users:
+ - default
+disable_root: 1
+...
+system_info:
+  default_user:
+    name: fedora0
+    lock_paswd: true
+    gecos: Fedora Cloud User
+    groups: [wheel, adm, systemd-journal]
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    shell: /bin/bash
+  distro: fedora
+  paths:
+    cloud_dir: /var/lib/cloud
+    templates_dir: /etc/cloud/templates
+  ssh_svcname: sshd
+
+# vim:syntax=yaml
+
+You can see other things in the cloud.cfg ﬁ le as well.

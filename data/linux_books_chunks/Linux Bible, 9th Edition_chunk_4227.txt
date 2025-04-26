@@ -1,0 +1,11 @@
+In this particular case, this false positive is caused by a 
+known bug.
+
+619
+
+c22.indd  04/15/2015  Page 620
+
+Part V: Learning Linux Security Techniques
+
+The chkrootkit utility should have regularly scheduled runs and, of course, should be run 
+whenever a rootkit infection is suspected.

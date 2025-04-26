@@ -1,0 +1,6 @@
+Since it is impossible to accidentally 
+remove packages without being the root user, running aptitude as a non-root user and becoming root only to 
+apply pending changes is a good idea.
+
+Rather than installing the package immediately, you’ll see that the package status has changed from p 
+to pi. It is now marked for installation.

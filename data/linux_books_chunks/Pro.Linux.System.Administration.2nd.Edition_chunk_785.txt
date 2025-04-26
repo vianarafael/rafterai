@@ -1,0 +1,11 @@
+This is 
+the error message that would be generated in such a scenario on Ubuntu:
+
+useradd: unknown group printing
+useradd: unknown group finance
+
+So in this case, we need to create our groups first, and we can do that with the groupadd command, as 
+
+you can see in Listing 5-5.
+
+Listing 5-5.

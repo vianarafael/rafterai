@@ -1,0 +1,9 @@
+We can also protect our SSH service further by 
+writing the rule in the IN_public_allow chain like this:
+
+-A IN_public_allow -p tcp --dport ssh -m conntrack --ctstate NEW -m recent --set --name 
+drop_ssh
+-A IN_public_allow -p tcp --dport ssh -m conntrack --ctstate NEW \ 
+ -m recent --name drop_ssh --update --seconds 60 --hitcount 5 -j DROP
+
+Here we are using the Netfilter recent module.

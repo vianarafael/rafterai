@@ -1,0 +1,15 @@
+With few exceptions, such as 
+Microsoft Windows, most modern computer systems (including Mac OS X and Linux) were 
+derived from UNIX operating systems, created originally by AT&T.
+
+To truly appreciate how a free operating system could have been modeled after a 
+ proprietary system from AT&T Bell Laboratories, it helps to understand the culture in 
+which UNIX was created and the chain of events that made the essence of UNIX possible 
+to reproduce freely.
+
+To learn more about how Linux was created, pick up the book Just for Fun: The Story of an Accidental Revolutionary 
+by Linus Torvalds (HarperCollins Publishing, 2001).
+
+Free-fl owing UNIX culture at Bell Labs
+From the very beginning, the UNIX operating system was created and nurtured in a 
+ communal environment.

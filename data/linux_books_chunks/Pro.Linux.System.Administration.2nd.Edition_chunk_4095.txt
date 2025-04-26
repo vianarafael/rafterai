@@ -1,0 +1,3 @@
+We can, of course, house this database on the 
+one host, headoffice.example.com, if we didn’t have an extra host available to be the separate backup host. 
+In that case, you should use localhost in the following examples where we have used backup.example.com.

@@ -1,0 +1,4 @@
+With deplist, you can see the components ( dependency) but 
+also the package that component comes in (provider). Using deplist can help if no package 
+is available to provide a dependency, but you want to know what the component is so you can 
+search other repositories for it.

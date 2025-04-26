@@ -1,0 +1,6 @@
+It is expected to be a little faster than 
+BIOS. However, behind the scenes things are quite different.
+
+UEFI was created to overcome some of the very real limitations of BIOS. BIOS runs on a 16-bit processor; 
+
+UEFI can run on modern processors. BIOS was limited in RAM; UEFI can run in as much RAM as required.

@@ -1,0 +1,8 @@
+For example, a mem-
+
+ber of my Linux Users Group prefers ksh over bash because he doesn’t like the way 
+aliases are used with bash.
+
+Although most Linux users have a preference for one shell or another, when you know how to 
+use one shell, you can quickly learn any of the others by occasionally referring to the shell’s 
+man page (for example, type man bash).

@@ -1,0 +1,14 @@
+While checks occur during the check_period time, in our case the 24x7 period, notifications (the 
+alerts that get generated when a status changes) will get sent only during the workhours time period.
+
+define timeperiod{
+          timeperiod_name      workhours
+          alias                "Normal" Working Hours
+          monday               09:00-17:00
+          tuesday              09:00-17:00
+          wednesday            09:00-17:00
+          thursday             09:00-17:00
+          Friday               09:00-17:00
+          }
+
+You can see that the workhours time period is 9 a.m.

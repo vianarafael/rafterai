@@ -1,0 +1,9 @@
+In the following code, the account tim has been 
+set to expire on January 1, 2017.
+
+# usermod -e 2017-01-01 tim
+
+To verify that the account has been properly set to expire, double-check yourself by using 
+the chage command. The chage command is primarily used to view and change a user 
+account’s password aging information. However, it also contains account expiration infor-
+mation.

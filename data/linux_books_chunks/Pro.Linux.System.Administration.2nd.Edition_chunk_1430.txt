@@ -1,0 +1,4 @@
+The first 
+stage is the host initiating the socket by sending a packet, called a SYN packet, to the host it wants to start 
+communications with. That host responds with another packet, known as a SYN, ACK packet, indicating 
+that it is ready to begin communications.

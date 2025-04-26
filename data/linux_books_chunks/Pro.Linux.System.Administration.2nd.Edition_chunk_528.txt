@@ -1,0 +1,12 @@
+These mounted drives and devices appear in the filesystem as 
+subdirectories under the ‘/’ root directory. We explain how the ‘/’ directory is initially mounted in Chapter 6.
+
+ ■ Note 
+
+ We’ll also discuss more about storage and mounting devices in Chapter 9.
+
+117
+
+ChapTeR 4 ■ LInux BasICs
+
+With the cd command, you can traverse to other directories and subdirectories.

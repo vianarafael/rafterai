@@ -1,0 +1,5 @@
+You can also see that there we have an audit(1480844911.323:1080), which is the 
+timestamp (1480844911.323, in Unix epoch time) plus a unique ID (1080) that marks the event.
+
+So, how do we tell Logstash to work on these events? In our Beat configuration we marked audit.logs 
+with the document_type of auditd.

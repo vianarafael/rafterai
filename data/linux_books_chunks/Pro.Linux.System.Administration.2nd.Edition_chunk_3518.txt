@@ -1,0 +1,2 @@
+Whereas Selinux uses tags on objects, apparmor applies a 
+security policy to path names.

@@ -1,0 +1,6 @@
+# dnf5 group
+
+
+- View documentation for the original command:
+
+`tldr dnf group`

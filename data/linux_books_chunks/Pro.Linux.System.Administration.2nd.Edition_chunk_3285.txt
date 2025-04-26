@@ -1,0 +1,14 @@
+the –p 
+option creates all the parent directories as well as the target directories.
+
+Listing 12-6 creates the Maildir and the required subdirectories and changes the permissions on the 
+
+resulting directories to 0700, hence allowing only the user who owns Maildir to access it.
+
+543
+
+Chapter 12 ■ Mail ServiCeS
+
+MAIL DELIVERY AGENTS AND MAIL FILTERING
+
+earlier in this chapter, we talked about MDas.

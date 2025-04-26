@@ -1,0 +1,4 @@
+When specified with the --host 
+
+ ■ Note 
+<hostname>, systemctl uses SSh to log into the remote system and execute the systemctl command.

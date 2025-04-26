@@ -1,0 +1,2 @@
+This is a good 
+way to cut out lots of junk that may be output from the /proc fi lesystem.

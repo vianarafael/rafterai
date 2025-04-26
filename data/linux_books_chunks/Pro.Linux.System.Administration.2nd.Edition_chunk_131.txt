@@ -1,0 +1,6 @@
+This can obviously be remedied post installation by following the instructions here: https://access.
+redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/
+sec-GRUB_2_Password_Protection.html.
+
+ ■ Caution  To reiterate, physical security for your Linux hosts is important—you don’t want anyone to steal 
+your costly physical asset (and your data!).

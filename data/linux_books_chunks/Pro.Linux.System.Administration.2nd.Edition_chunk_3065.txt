@@ -1,0 +1,19 @@
+Each certificate issued by the CA has a unique serial number.
+
+The index.txt file will contain a list of the certificates currently being managed by this CA. Next to each 
+
+certificate will be a letter indicating the status of that certificate.
+
+•	
+
+•	
+
+•	
+
+R: Revoked
+
+E: Expired
+
+V: Valid
+
+OpenSSL has a configuration file that controls defaults and CA settings.

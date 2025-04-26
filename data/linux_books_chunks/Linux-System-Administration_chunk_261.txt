@@ -1,0 +1,8 @@
+Tracks are divided into 512 byte sectors, with more
+unused space (gap) between the sectors on the outside of the platter.
+
+When you break down the advertised access time of a hard drive, you will notice that most
+of that time is taken by movement of the heads (about 65%) and rotational latency (about
+30%).
+
+4.1.2.

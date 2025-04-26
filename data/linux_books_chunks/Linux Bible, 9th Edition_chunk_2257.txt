@@ -1,0 +1,9 @@
+Commands for doing these tasks are described in Chapter 15, 
+“Starting and Stopping Services.”
+
+Most, but not all, services are implemented as daemon processes. Here are a few things you 
+should know about those processes:
+
+ ■ User and group permissions—Daemon processes often run as users and groups 
+
+other than root. For example, httpd runs as apache and ntpd runs as the ntp user.

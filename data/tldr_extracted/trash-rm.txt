@@ -1,0 +1,6 @@
+# trash-rm
+
+
+- View documentation for `trash-rm`:
+
+`tldr trash`

@@ -1,0 +1,3 @@
+Imagine having your Linux host powering your solid 
+rocket boosters were out of sync with your main thrusters? When you timed both to burn you could be 
+seconds to minutes out of sync.

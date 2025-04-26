@@ -1,0 +1,34 @@
+After that, a speciﬁ c rule must be appended to block network packets from 
+Host-B’s IP address, 10.140.67.22, alone.
+
+# iptables -P INPUT ACCEPT
+# iptables -A INPUT -s 10.140.67.22 -j DROP
+# iptables -vnL
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination
+DROP       all  --  10.140.67.22             anywhere
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination
+
+Host-C can now successfully ping and ssh into Host-A, meeting one of the set goals.
+
+$ ping -c 2 10.140.67.23
+PING 10.140.67.23 (10.140.67.23) 56(84) bytes of data.
+64 bytes from 10.140.67.23: icmp_req=1 ttl=64 time=11.7 ms
+64 bytes from 10.140.67.23: icmp_req=2 ttl=64 time=0.000 ms
+
+--- 10.140.67.23 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1008ms
+rtt min/avg/max/mdev = 0.000/5.824/11.648/5.824 ms
+$ ssh root@10.140.67.23
+root@10.140.67.23's password:
+
+720
+
+c25.indd  04/02/2015  Page 721
+
+Chapter 25: Securing Linux on a Network
+
+However, Host-B can neither ping nor ssh into Host-A.

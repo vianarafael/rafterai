@@ -1,0 +1,6 @@
+It can talk to a variety of data 
+sources including Graphite-API. With your newly created metrics, you can now create dashboards and 
+display those metrics.
+
+Grafana supports LDAP authentication and can use a database to store users’ dashboards. It has a 
+stand-alone web service that you interact with.

@@ -1,0 +1,10 @@
+(Most of the procedures work equally well on 
+a registered RHEL system.)
+
+You need to be able to reach the Fedora repositories (which should be set up automatically). 
+If you are stuck, solutions to the tasks are shown in Appendix B (although in Linux, there 
+are often multiple ways to complete a task).
+
+1.  Search the YUM repository for the package that provides the mogrify command.
+
+2.

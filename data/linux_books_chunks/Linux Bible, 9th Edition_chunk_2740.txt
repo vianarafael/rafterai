@@ -1,0 +1,9 @@
+If the listed target unit is deactivated or fails, then multi-user.
+target is deactivated. If there are no After and Before options, then both multi-
+user.target and listed target unit activate simultaneously.
+
+ ■ Conflicts—This setting avoids conﬂ icts in services. Starting multi-user.
+
+target stops the listed targets and services, and vice-versa.
+
+ ■ After—This setting conﬁ gures ordering.

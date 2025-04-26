@@ -1,0 +1,13 @@
+Make dpkg list the package contents and pipe the output to grep to limit the output 
+to files and directories that contain the string bin, for example: dpkg -L <package name> | grep bin.
+
+Performing a File Search
+For files that are already present on the host, you can determine the package they belong to by using dpkg:
+
+$ dpkg -S /usr/sbin/userdel
+
+This command tells you what package provides the userdel command.
+
+Installing Packages
+All Ubuntu package files are made up of three parts: the package name, the package version, and the 
+target architecture.

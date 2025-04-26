@@ -1,0 +1,5 @@
+verifying existing physical volumes
+
+11.8.1. lvmdiskscan
+
+To get a list of block devices that can be used with LVM, use lvmdiskscan.

@@ -1,0 +1,4 @@
+Additionally, unlike the required flag, the success or failure of this module will be immediately 
+notified to the service requesting authentication, and the authentication process will complete. This means 
+that if any modules are stacked together and a module with a requisite control flag fails, then the modules 
+remaining to be processed will not be executed.

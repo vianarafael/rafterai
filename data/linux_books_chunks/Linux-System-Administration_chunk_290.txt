@@ -1,0 +1,40 @@
+The  -i  and  -I  options  will  give  you  even  more  information  about  the
+physical properties of the device.
+
+root@laika:~# hdparm /dev/sdb
+
+/dev/sdb:
+ IO_support   =  0 (default 16-bit)
+ readonly     =  0 (off)
+ readahead    = 256 (on)
+ geometry     = 12161/255/63, sectors = 195371568, start = 0
+
+Below hdparm info about a 200GB IDE disk.
+
+root@barry:~# hdparm /dev/hdd
+
+/dev/hdd:
+ multcount     =  0 (off)
+ IO_support    =  0 (default) 
+ unmaskirq     =  0 (off)
+ using_dma     =  1 (on)
+ keepsettings  =  0 (off)
+ readonly      =  0 (off)
+ readahead     = 256 (on)
+ geometry      = 24321/255/63, sectors = 390721968, start = 0
+
+Here a screenshot of sdparm on Ubuntu 10.10.
+
+root@ubu1010:~# aptitude install sdparm
+...
+root@ubu1010:~# sdparm /dev/sda | head -1
+    /dev/sda: ATA       FUJITSU MJA2160B  0081
+root@ubu1010:~# man sdparm
+
+Use hdparm and sdparm with care.
+
+41
+
+disk devices
+
+4.6.

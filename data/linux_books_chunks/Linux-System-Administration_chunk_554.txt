@@ -1,0 +1,5 @@
+An
+initiator will send SCSI commands over IP instead of directly to the hardware. The Initiator
+will connect to the Target.
+
+12.2.

@@ -1,0 +1,11 @@
+Some of the most com-
+mon commands you will use are shell built-in commands, such as cd (to change 
+ directories), echo (to output text to the screen), exit (to exit from a shell), fg 
+(to bring a command running in the background to the foreground), history 
+(to see a list of commands that were previously run), pwd (to list the present 
+working directory), set (to set shell options), and type (to show the location 
+of a command).
+
+3
+
+5.

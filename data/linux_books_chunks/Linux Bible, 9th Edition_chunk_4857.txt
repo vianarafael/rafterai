@@ -1,0 +1,6 @@
+Today, many tools can deploy and conﬁ gure Linux sys-
+tems as simply as rebooting the computer and having it boot up to a preconﬁ gured installer.
+
+In Chapter 9, I talk about how to use a PXE server (to automatically boot a Linux installer 
+over the network from your network interface card) and kickstart ﬁ les (to identify all the 
+answers you need to complete an installation).

@@ -1,0 +1,9 @@
+Nautilus comes with the GNOME desktop and works like 
+other ﬁ le managers you may use in Windows or Mac.
+
+2
+
+To open Nautilus, click the Files icon from the GNOME Dash or Applications list. Your user 
+account starts with a set of folders designed to hold the most common types of content: 
+Music, Pictures, Videos, and the like. These are all stored in what is referred to as your 
+Home directory.

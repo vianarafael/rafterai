@@ -1,0 +1,51 @@
+Linux Partition IDs and Types
+
+Hex Code/Partition id
+
+Partition type
+
+8200
+
+8300
+
+8301
+
+8302
+
+8303
+
+8304
+
+8305
+
+8306
+
+8307
+
+8e00
+
+364
+
+Linux swap
+
+Linux filesystem
+
+Linux reserved
+
+Linux /home
+
+Linux x86 root (/)
+
+Linux x86-64 root (/)
+
+Linux ARM64 root (/)
+
+Linux /srv
+
+Linux ARM32 root (/)
+
+Linux LVM
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+If you wanted to change your partition type you could do so by issuing the following commands.

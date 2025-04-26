@@ -1,0 +1,5 @@
+We’re not going to use certificates 
+(although we could use them) to authenticate our client because the overhead of potentially generating a lot 
+of certificates can be quite high.
+
+ a tool that makes certificate management easier with openVpN is easy-rsa.

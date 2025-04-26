@@ -1,0 +1,2 @@
+You can put your declarations on a single 
+line, without carriage returns, and take note of white spacing.

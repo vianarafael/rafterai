@@ -1,0 +1,4 @@
+It is browsable (browserable = yes), so it will appear in share browser lists for this Samba server. We have 
+also specified here a valid users list, which is set to the sales group (valid users = +SAMBA\sales). The 
++ indicates to Samba to look through the local Unix user/group lists. The people in the sales group will 
+have read-only access to the [sales] share.

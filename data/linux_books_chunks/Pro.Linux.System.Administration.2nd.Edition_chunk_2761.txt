@@ -1,0 +1,7 @@
+This feature takes advantage of the client/server modes of the X 
+Window System by forwarding any connection attempts to an X server on the remote host through your SSH 
+connection to the X server on your local host.
+
+To force all users to use key-based authentication, you can add PasswordAuthentication no in the 
+
+server configuration file.

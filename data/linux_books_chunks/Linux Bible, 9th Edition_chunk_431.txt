@@ -1,0 +1,4 @@
+For wireless, you probably 
+have to select your wireless network and add a password when prompted. An icon 
+in the top bar lets you do any wired or wireless network conﬁ guration you need to 
+do.

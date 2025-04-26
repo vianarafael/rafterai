@@ -1,0 +1,17 @@
+Then using various shell 
+
+76
+
+c03.indd  04/01/2015  Page 77
+
+Chapter 3: Using the Shell
+
+features, you can recall individual command lines from that list and change them however 
+you please.
+
+The rest of this section describes how to do command-line editing, how to complete parts 
+of command lines, and how to recall and work with the history list.
+
+Command-line editing
+If you type something wrong on a command line, the bash shell ensures that you don’t 
+have to delete the entire line and start over.

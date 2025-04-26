@@ -1,0 +1,12 @@
+The content that is served to a web client is based 
+on the name used to access the server.
+
+462
+
+c17.indd  04/01/2015  Page 463
+
+Chapter 17: Confi guring a Web Server
+
+For example, if a client got to the server by requesting the name www.example.com, 
+the client would be directed to a virtual host container that had its ServerName set to 
+respond to www.example.com.

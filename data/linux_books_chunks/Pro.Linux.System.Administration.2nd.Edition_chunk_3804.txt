@@ -1,0 +1,57 @@
+Gluster CLI Commands
+
+volume info
+
+volume list
+
+volume create
+
+volume delete
+
+Shows information on any volumes configured
+
+Lists the current volumes
+
+Creates volumes
+
+Deletes volumes
+
+volume start/stop
+
+Starts or stops volumes
+
+volume add-brick
+
+Adds a brick to a volume
+
+volume replace-brick
+
+Replaces bricks
+
+volume top
+
+volume set
+
+peer status
+
+peer probe
+
+pool list
+
+Gives Gluster volume metrics
+
+Turns on or sets options on volume <key> <value>
+
+Gives status of the peers in the cluster
+
+Probes and adds other peers
+
+Lists all nodes in the trusted storage pool
+
+619
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+GlusterFS: Adding Peers and Creating Volumes
+
+Let’s select one host (it doesn’t matter which one); we are going to start our cluster.

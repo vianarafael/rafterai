@@ -1,0 +1,4 @@
+If you run the systemctl command without any options or 
+arguments you get a full list of every loaded unit definition (unit file) systemd has loaded. We are reducing 
+this list by add the --type of unit we are interested in and the --state of that unit. You can see in that list that 
+our postfix.service is loaded, active, and running.

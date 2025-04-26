@@ -1,0 +1,23 @@
+To create the Btrfs
+
+$ sudo mkfs.btrfs /dev/sdc
+btrfs-progs v4.4
+See http://btrfs.wiki.kernel.org for more information.
+
+Label:              (null)
+UUID:               e1c6cbb0-4fbf-4a61-a912-0a9cda611128
+Node size:          16384
+Sector size:        4096
+Filesystem size:    8.00GiB
+Block group profiles:
+  Data:             single            8.00MiB
+  Metadata:         DUP             417.56MiB
+  System:           DUP              12.00MiB
+SSD detected:       no
+Incompat features:  extref, skinny-metadata
+Number of devices:  1
+Devices:
+   ID      SIZE     PATH
+    1      8.00GiB  /dev/sdc
+
+We can now simply mount that partition.

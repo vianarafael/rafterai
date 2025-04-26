@@ -1,0 +1,6 @@
+The last part can be useful for help desks to show users
+how to do things. VNC has the added advantage of being operating system independent, a
+lot of products (realvnc, tightvnc, xvnc, ...) use the same protocol on Solaris, Linux, BSD
+and more.
+
+B.2.

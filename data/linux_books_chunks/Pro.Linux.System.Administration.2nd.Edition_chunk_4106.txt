@@ -1,0 +1,10 @@
+The password is set in two places for each daemon that wants to communicate with the 
+Bareos Director.
+
+Figure 14-9 shows the relationship between the configuration files and their common definitions.
+
+670
+
+Chapter 14 ■ BaCkup and reCovery
+
+Figure 14-9.

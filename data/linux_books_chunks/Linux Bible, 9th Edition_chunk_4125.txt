@@ -1,0 +1,6 @@
+However, there are a few additional points that need to be added to your 
+knowledge base.
+
+Managing dangerous filesystem permissions
+If you gave full rwxrwxrwx (777) access to every ﬁ le on the Linux system, you can imagine 
+the chaos that would follow.

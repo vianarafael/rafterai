@@ -1,0 +1,6 @@
+Commercial CAs 
+are usually regularly audited for security, and a certificate issued by them is generally assumed to be secure.
+
+Certificates from Non-commercial Certificate Authorities
+
+In addition to the commercial certificate providers are a small number of noncommercial providers.

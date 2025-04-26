@@ -1,0 +1,16 @@
+The iptables command allows you to do the following:
+
+•	
+
+•	
+
+•	
+
+List the contents of the packet filter rule set.
+
+Add/remove/modify rules in the packet filter rule set.
+
+List/zero per-rule counters of the packet filter rule set.
+
+For IPv6 you use the ip6tables command, but syntactically it is the same command, but instructs 
+Netfilter how to operate on IPv6 packets.

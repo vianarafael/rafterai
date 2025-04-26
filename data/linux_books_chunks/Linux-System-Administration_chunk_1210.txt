@@ -1,0 +1,12 @@
+There is a separate
+directory for each kernel that was compiled for your system.
+
+paul@laika:~$ ll /lib/modules/
+total 12K
+drwxr-xr-x 7 root root 4.0K 2008-11-10 14:32 2.6.24-16-generic
+drwxr-xr-x 8 root root 4.0K 2008-12-06 15:39 2.6.24-21-generic
+drwxr-xr-x 8 root root 4.0K 2008-12-05 12:58 2.6.24-22-generic
+
+28.4.3. <module>.ko
+
+The file containing the modules usually ends in .ko.

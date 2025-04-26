@@ -1,0 +1,8 @@
+"Daemon" is actually a much older form of "demon"; daemons have no
+particular bias towards good or evil, but rather serve to help define a person's character or
+personality. The ancient Greeks' concept of a "personal daemon" was similar to the modern
+concept of a "guardian angel" ....
+
+15.3. starting and stopping daemons
+
+The K and S scripts are links to the real scripts in /etc/init.d/.

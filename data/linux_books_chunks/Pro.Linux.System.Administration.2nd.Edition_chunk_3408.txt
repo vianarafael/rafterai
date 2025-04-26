@@ -1,0 +1,12 @@
+They are in the format <domain> <action>.
+
+Chapter 12 ■ Mail ServiCeS
+
+/etc/postfix/virt_domain
+example.com         OK
+example.net         OK
+example.id          OK
+
+Here we are setting the OK action to all our domains. Other actions that could be set include DISCARD, 
+
+FILTER, REJECT, and more.

@@ -1,0 +1,6 @@
+others will use the 
+services you are running (like a mail or a web server) to bypass your perimeter security and launch an 
+attack from within your network (e.g., virus attacks, trojan attacks, script injection attacks).
+
+Distributed Denial of Service attacks (DDoS) are also increasingly common and very hard to mitigate 
+against.

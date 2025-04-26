@@ -1,0 +1,7 @@
+Lastly, we’ve used the cert and 
+key options to specify the location of our certificate and key files, respectively, in our case /etc/pki/tls/
+certs/gateway.example.com.cert and /etc/pki/tls/private/gateway.example.com.key.
+
+The tls-auth key needs to be specified as tls-auth <key> 0 on the server and tls-auth <key> 1 on 
+
+the clients.

@@ -1,0 +1,15 @@
+If they match, the 
+user is authenticated and allowed into the system.
+
+601
+
+c22.indd  04/15/2015  Page 602
+
+Part V: Learning Linux Security Techniques
+
+The problem with storing these password hashes in the /etc/passwd ﬁ le has to do with 
+the ﬁ lesystem security settings (see Chapter 4). The ﬁ lesystem security settings for the 
+/etc/passwd ﬁ le are listed here:
+
+# ls -l /etc/passwd
+-rw-r--r--.

@@ -1,0 +1,4 @@
+The utility allows you to apply a digital signature to the mounted directory so 
+that if you mount it again, it just mounts the directory and does not require a passphrase.
+
+Write down the selections you make when you mount an ecryptfs folder for the fi rst time.

@@ -1,0 +1,11 @@
+You learn how simple scripts can be harnessed to a scheduling facility (such as cron 
+or at) to simplify administrative tasks or just run on demand as they are needed.
+
+Understanding Shell Scripts
+Have you ever had a task that you needed to do over and over that took lots of typing on the 
+ command line? Do you ever think to yourself, “Wow, I wish I could just type one command to do all 
+this”? Maybe a shell script is what you’re after.
+
+Shell scripts are the equivalent of batch ﬁ les in MS-DOS and can contain long lists of commands, 
+complex ﬂ ow control, arithmetic evaluations, user-deﬁ ned variables, user-deﬁ ned functions, and 
+sophisticated condition testing.

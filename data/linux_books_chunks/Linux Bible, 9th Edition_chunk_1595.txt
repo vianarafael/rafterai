@@ -1,0 +1,4 @@
+Filesystems on CD-ROM use the iso9660 ﬁ lesystem type.
+
+When you create partitions for Linux, you usually assign the fi lesystem type as Linux native (using the ext2, ext3, 
+ext4, or xfs type on most Linux systems).

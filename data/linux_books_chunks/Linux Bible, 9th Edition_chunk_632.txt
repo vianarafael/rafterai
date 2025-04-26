@@ -1,0 +1,10 @@
+(I describe how to 
+create your own aliases later in this chapter.)
+
+2.  Shell reserved word. Words reserved by the shell for special use. Many of these 
+
+are words that you would use in programming-type functions, such as do, while, 
+case, and else. (I cover some of these reserved words in Chapter 7, “Writing 
+Simple Shell Scripts.”)
+
+3.  Function.

@@ -1,0 +1,14 @@
+Congratulations, you just successfully expanded a logical volume.
+
+[root@RHEL5 ~]# df -h | grep resizetest
+                      291M  6.1M  225M   3% /home/resizetest
+[root@RHEL5 ~]#
+
+106
+
+logical volume management
+
+11.5. example: resize a physical Volume
+
+This is a humble demonstration of how to resize a physical Volume with lvm (after you
+resize it with fdisk).

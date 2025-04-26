@@ -1,0 +1,11 @@
+The bareos-database-mysql package will create the file in our {{ sql_import }} variable that we use in the 
+next step to create our database.
+
+  - name: create db
+    mysql_db: login_user=root name=bareos state=import target={{ sql_import }}
+
+  - name: create db user bareos
+    mysql_user: login_user=root name=bareos password={{ backup_database_password }} 
+encrypted=yes priv=bareos.*:ALL state=present
+
+Next we will create the database for Bareos using the mysql_db module.

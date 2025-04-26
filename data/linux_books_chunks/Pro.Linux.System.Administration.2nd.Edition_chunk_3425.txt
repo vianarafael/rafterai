@@ -1,0 +1,7 @@
+To do this, we add 
+some configuration options to our main.cf configuration file. Most of these options reject e-mail that isn’t 
+compliant to the SMTP RFC, for example, by rejecting e-mail whose source address isn’t a valid e-mail.
+
+We’re principally going to update the restriction lists we introduced when we were looking at Postfix 
+
+authentication.

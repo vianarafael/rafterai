@@ -1,0 +1,11 @@
+Your ISP will provide information on your 
+
+encapsulation protocol, in our case it is llc (logical link control). The nmcli command has now created a 
+file called /etc/NetworkManager/system-connections/adsl-enp0s8. NetworkManager now controls this 
+connection. Our adsl-enp0s8 file looks like Listing 7-10.
+
+288
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Listing 7-10.

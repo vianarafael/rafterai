@@ -1,0 +1,15 @@
+The ﬁ rst example shows cupsd 
+only listening on local host (127.0.0.1:631); the second shows cupsd listening on all 
+network interfaces (0 0.0.0.0:631):
+
+# netstat -tupln | grep 631
+tcp        0      0 127.0.0.1:631  0.0.0.0:*   LISTEN   6492/cupsd
+# netstat -tupln | grep 631
+tcp        0      0 0.0.0.0:631    0.0.0.0:*   LISTEN   6492/cupsd
+
+Access changes to your shared printer are made in the cupsd.conf and printers.conf 
+ﬁ les in your /etc/cups directory.
+
+Confi guring a shared Samba printer
+Your Linux printers can be conﬁ gured as shared SMB printers so they appear to be available 
+from Windows systems.

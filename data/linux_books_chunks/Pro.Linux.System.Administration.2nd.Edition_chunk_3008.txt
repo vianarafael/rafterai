@@ -1,0 +1,2 @@
+These keys are used to sign session 
+cookies, and you can change them at any time (and any signed-in user would have to sign in again).

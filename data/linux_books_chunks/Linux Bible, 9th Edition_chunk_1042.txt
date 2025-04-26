@@ -1,0 +1,4 @@
+The processes shown are associated with the current terminal 
+(tty1). The concept of a terminal comes from the old days, when people worked exclusively 
+from character terminals, so a terminal typically represented a single person at a single 
+screen.

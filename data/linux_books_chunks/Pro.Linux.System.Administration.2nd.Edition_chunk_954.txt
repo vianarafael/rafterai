@@ -1,0 +1,13 @@
+To define who to send that e-mail to, you can use the option on the following line:
+
+mailto "admin@au-mel-centos-1.yourdomain.com"
+
+You can then modify when sudo sends that e-mail using further options.
+
+mail_always on
+
+To give you an idea of the sorts of defaults and options available to you, Table 5-8 defines a list of the 
+
+e-mail–related options.
+
+Table 5-8.

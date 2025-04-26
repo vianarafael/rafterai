@@ -1,0 +1,7 @@
+dns zones
+
+A zone (aka a zone of authority) is a portion of the DNS tree that covers one domain name
+or child domain name. The picture below represents zones as blue ovals. Some zones will
+contain delegate authority over a child domain to another zone.
+
+A dns server can be authoritative over 0, 1 or more dns zones.

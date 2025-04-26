@@ -1,0 +1,2 @@
+In 
+this example we are searching for e-mail addresses that match <username>@example.com.

@@ -1,0 +1,17 @@
+If you have an unbootable or otherwise 
+
+  A
+
+773
+
+bapp01.indd  04/02/2015  Page 774
+
+Appendix A: Media
+
+broken computer, the Security spin can be booted up to repair ﬁ le systems, debug 
+network problems, or do hundreds of other tasks to check and ﬁ x the computer 
+(even if the installed operating system is Windows or some other Linux version).
+
+ ■ Design-suite—The Design-suite spin contains a consolidation of software for 
+
+ creative endeavors.

@@ -1,0 +1,13 @@
+Display information about the package that provides the mogrify command and 
+
+determine what that package’s home page (URL) is.
+
+3.  Install the package containing the mogrify command.
+
+4.  List all the documentation ﬁ les contained in the package that provides the 
+
+mogrify command.
+
+5.  Look through the changelog of the package that provides the mogrify command.
+
+6.

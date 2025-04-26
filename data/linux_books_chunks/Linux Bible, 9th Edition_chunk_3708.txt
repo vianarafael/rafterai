@@ -1,0 +1,10 @@
+Also ﬁ nd joe’s user ID 
+number from the /etc/passwd ﬁ le (third ﬁ eld) so you can match it when you set 
+up a user account for joe on another system.
+
+# mkdir /home/shared
+# useradd -c "Joe Smith" -d /home/shared/joe joe
+# grep joe /etc/passwd
+joe:x:507:507:Joe Smith:/home/shared/joe:/bin/bash
+
+2.

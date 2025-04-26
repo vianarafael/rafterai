@@ -1,0 +1,10 @@
+To make this easy, we’re going to reuse the same certificates we created for our Postfix 
+encryption.
+
+First, we enable IMAP by editing the protocols configuration option and changing it from lmtp to lmtp 
+
+imap like so:
+
+protocols = lmtp imap
+
+We specify how IMAP listens in the /etc/dovecot/conf.d/10-master.conf file.

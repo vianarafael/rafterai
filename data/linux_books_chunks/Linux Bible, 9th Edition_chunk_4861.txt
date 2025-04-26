@@ -1,0 +1,6 @@
+RHEV makes it 
+easy to start with a simple RHEV Manager and one or two hypervisors and grow by adding 
+more hypervisors, storage pools, and other features.
+
+If you want to use public clouds that are based on open source technology to run the oper-
+ating  systems you need, you can use any of several different cloud providers.

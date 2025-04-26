@@ -1,0 +1,6 @@
+For example, when we require information that is normally contained in the 
+/etc/passwd file (like username), we first look in that file. If the username is not found in the file, we then 
+query the sssd daemon (or sss). The same applies for group and shadow.
+
+The next part we need to update is the PAM authentication modules. We need to allow us to use 
+sss(d) for authentication via PAM.

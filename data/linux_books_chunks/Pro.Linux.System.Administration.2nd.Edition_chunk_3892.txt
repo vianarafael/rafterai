@@ -1,0 +1,14 @@
+The following are some hardware storage options:
+
+•	 Magnetic tapes: Different types depending on the volume of your backups
+
+•	 Hard disks: Different speed and volume options
+
+•	 Optical: DVD/CD-ROM low-volume data backups
+
+637
+
+Chapter 14 ■ BaCkup and reCovery
+
+Online storage options can also be used for large volumes of data, as long as you have a fast, reliable 
+Internet connection and low data-charge rates.

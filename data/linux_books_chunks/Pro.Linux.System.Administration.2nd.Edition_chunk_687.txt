@@ -1,0 +1,4 @@
+The commands would run in sequence, one after the other.
+
+These are just some very simple examples of the power of the Bash command line and redirection and 
+piping.

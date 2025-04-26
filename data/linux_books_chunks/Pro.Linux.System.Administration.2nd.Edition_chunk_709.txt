@@ -1,0 +1,7 @@
+Some are simple in a similar style to the Microsoft Window’s 
+
+Notepad or WordPad applications, and others are fully fledged word processors and text editors.
+
+An example of these is the Gnome default text editor, gedit. You can launch gedit in Gnome by clicking 
+
+the Applications menu, opening the Accessories tab, and selecting the Text Editor application.

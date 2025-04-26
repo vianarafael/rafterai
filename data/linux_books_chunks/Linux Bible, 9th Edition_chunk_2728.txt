@@ -1,0 +1,6 @@
+It stands for “statically enabled,” and it means that the unit is 
+enabled by default and cannot be disabled, even by root.
+
+The service unit conﬁ guration ﬁ les contain lots of information, such as what other services 
+must be started, when this service can be started, which environmental ﬁ le to use, and so 
+on.

@@ -1,0 +1,40 @@
+Finally, there’s 
+MCollective, an orchestration tool for managing Puppet nodes.
+
+On the master, you install the puppetserver, and this will install facter, hiera, the agent, and other 
+
+required packages from the Puppet repository.
+
+$ sudo yum install puppetserver
+
+On the Puppet nodes, or clients, we can install the puppet-agent package by itself, and it will contain or 
+
+require all that it needs to run.
+
+$ sudo yum install –y puppet-agent
+
+This of course will require the installation of the YUM repository, like earlier, first.
+
+Ubuntu Installation
+
+On Ubuntu, we again install the apt repository and then install puppetserver on the master server, which 
+will bring down all the necessary Puppet components, like Facter and Hiera and the agent.
+
+On the server or master, we need to do this:
+
+$ wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb -O xenial.deb && sudo 
+dpkg -i xenial.deb
+$ sudo apt-get update
+$ sudo apt-get install -y puppetserver
+
+On the client, you need the following:
+$ sudo apt-get install –y puppet-agent
+
+You will now have all the necessary components installed on your systems.
+
+939
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Configuring Puppet
+We’ll start configuring Puppet by setting up our Puppet master.

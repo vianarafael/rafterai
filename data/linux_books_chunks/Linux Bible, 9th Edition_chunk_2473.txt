@@ -1,0 +1,8 @@
+By having network 
+interfaces on both your subnetwork and the next network on the way to the 
+ultimate destination of your communication, a gateway can route your packets 
+to their destination.
+
+ ■ Other information—A DHCP server can be conﬁ gured to provide all kinds of 
+
+information to help the DHCP client.

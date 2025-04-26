@@ -1,0 +1,7 @@
+See Chapter 19 for CIFS and Chapter 20 for 
+NFS coverage.
+
+ ■ Deploy, configure, and maintain systems—This covers a range of topics, 
+ including conﬁ guring networking, creating cron tasks, setting the default 
+ runlevel, and installing RHEL systems. You must also be able to conﬁ gure a simple 
+HTTP and FTP server.

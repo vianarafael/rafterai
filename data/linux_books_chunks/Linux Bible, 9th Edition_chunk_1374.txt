@@ -1,0 +1,7 @@
+The user runs 
+
+the daemon processes used to provide the postﬁ x service (master).
+
+ ■ bin—User owns many commands in /bin in traditional UNIX systems. This is not 
+the case in some Linux systems (such as Ubuntu, Fedora and Gentoo) because root 
+owns most executable ﬁ les.

@@ -1,0 +1,10 @@
+When we do a stat dir in the Terminated Jobs section, we find 
+the following:
+
+Terminated Jobs:
+ JobId  Level    Files      Bytes   Status   Finished        Name
+==================================================================
+ 2      Full     8,908      140.1 M  OK      10-Oct-16 01:21 headoffice.example.com
+
+The preceding output shows that we have a full save of the Linux FileSet for the host headoffice.
+example.com.

@@ -1,0 +1,4 @@
+It receives log entries from the operating system 
+
+ ■ Note 
+and applications and writes them to files, generally in the /var/log directory.

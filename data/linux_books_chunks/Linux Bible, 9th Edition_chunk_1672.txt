@@ -1,0 +1,8 @@
+The info entry for GRUB 2 provides lots 
+of information for booting different operating systems, writing your own conﬁ guration 
+ﬁ les, working with GRUB image ﬁ les, setting GRUB environment variables, and working 
+with other GRUB features.
+
+Summary
+Although every Linux distribution includes a different installation method, you need to 
+do many common activities, regardless of which Linux system you install.

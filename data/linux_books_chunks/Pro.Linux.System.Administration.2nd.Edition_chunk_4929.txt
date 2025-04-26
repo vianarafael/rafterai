@@ -1,0 +1,22 @@
+Default Carbon-Cache Settings
+
+ENABLE_UDP_LISTENER = False
+UDP_RECEIVER_INTERFACE = 0.0.0.0
+MAX_CACHE_SIZE = inf
+MAX_UPDATES_PER_SECOND = 500
+MAX_CREATES_PER_MINUTE = 50
+CACHE_WRITE_STRATEGY = sorted
+WHISPER_AUTOFLUSH = False
+WHISPER_FALLOCATE_CREATE = True
+USE_FLOW_CONTROL = True
+LOG_LISTENER_CONNECTIONS = True
+LOG_UPDATES = False
+LOG_CACHE_HITS = False
+LOG_CACHE_QUEUE_SORTS = True
+USE_INSECURE_UNPICKLER = False
+
+817
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+First, the UDP listener is disabled by default, leaving the TCP listener as the default.

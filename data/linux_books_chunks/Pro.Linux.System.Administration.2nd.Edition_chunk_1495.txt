@@ -1,0 +1,9 @@
+IN      A
+
+;; ANSWER SECTION:
+www.google.com.         233     IN      A       150.101.161.181
+www.google.com.         233     IN      A       150.101.161.187
+www.google.com.         233     IN      A       150.101.161.146
+www.google.com.         233     IN      A       150.101.161.152
+www.google.com.         233     IN      A       150.101.161.153
+www.google.com.

@@ -1,0 +1,13 @@
+This change is made to 
+Host-A’s ﬁ rewall in the example that follows.
+
+# iptables -P INPUT DROP
+# iptables -vnL
+Chain INPUT (policy DROP)
+target     prot opt source               destination
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination
+
+For policies, you cannot set the target to REJECT.

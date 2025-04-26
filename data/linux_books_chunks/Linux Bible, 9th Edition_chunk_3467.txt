@@ -1,0 +1,8 @@
+You can now 
+ conﬁ gure your basic Samba server and begin adding shared directories.
+
+19
+
+Choosing Samba server settings
+From the Samba Server Conﬁ guration window, you should ﬁ rst set your basic settings and 
+the type of authentication you are using. Start by selecting Preferences ➪ Server Settings.

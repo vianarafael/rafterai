@@ -1,0 +1,11 @@
+While most of the procedures in this book 
+will run well on Fedora, there are many references to how things are done differently in 
+Red Hat Enterprise Linux because, when you go to get a job as a Linux system administra-
+tor, you will, in most cases, be working with Red Hat Enterprise Linux systems.
+
+Although the source code for Red Hat Enterprise Linux is freely available, the ISOs 
+ containing the packages you install (often referred to as the binaries) are available only to 
+those who have accounts on the Red Hat customer portal (https://access.redhat
+.com) or through evaluation copies.
+
+If you don’t have an account, you can try signing up for a 30-day trial.

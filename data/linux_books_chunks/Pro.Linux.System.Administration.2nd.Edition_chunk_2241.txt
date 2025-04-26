@@ -1,0 +1,9 @@
+In 
+Listing 9-5 we showed you how to use tune2fs to list the options, and doing that of the root mount ‘/’ shows 
+that the following default mount options are used:
+
+Default mount options:    user_xattr acl
+
+The user_xattr is to allow support for ‘user.’ extended attributes (which can be used for greater 
+
+filesystem security, see the man attr for more details).

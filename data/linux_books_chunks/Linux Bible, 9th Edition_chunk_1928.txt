@@ -1,0 +1,12 @@
+The primary group is indicated by the number in the 
+third ﬁ eld of each entry in the /etc/passwd ﬁ le, for example, the group ID 1007 here:
+
+11
+
+sara:x:1002:1007:Sara Green:/home/sara:/bin/tcsh
+
+That entry points to an entry in the /etc/group ﬁ le:
+
+sara:x:1007:
+
+Let’s turn to the sara user and group accounts for examples.

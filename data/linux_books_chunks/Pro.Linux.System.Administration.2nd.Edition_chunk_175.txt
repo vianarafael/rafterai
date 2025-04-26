@@ -1,0 +1,5 @@
+This gives us the following bare minimum rules and install the oscap tools and software:
+
+http://static.open-scap.org/ssg-guides/ssg-rhel7-guide-standard.html
+
+Figure 2-19.

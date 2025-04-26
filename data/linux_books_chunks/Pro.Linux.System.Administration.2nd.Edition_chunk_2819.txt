@@ -1,0 +1,3 @@
+By default, Apache will listen and serve requests on all available network addresses. If you 
+want to select a specific address, you can use the Listen directive to change that. You can also configure the 
+port you want to listen on.

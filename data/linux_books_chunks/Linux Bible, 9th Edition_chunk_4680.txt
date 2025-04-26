@@ -1,0 +1,6 @@
+Therefore, think of this chapter as a brief introductio n to securing Linux 
+on a network.
+
+Auditing Network Services
+Most Linux systems used for large enterprises are conﬁ gured as servers that, as the name implies, 
+offer services to remote clients over a network.

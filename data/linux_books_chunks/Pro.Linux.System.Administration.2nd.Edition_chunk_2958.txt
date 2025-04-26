@@ -1,0 +1,7 @@
+this means they cannot be simply deleted and re-created in order to increase or 
+decrease their size.
+
+One simple performance tuning we can do is to change the default size of the redo logs. If the file is too 
+
+small, it fills up quickly, and this means the SQL server is continuously emptying this file, which degrades 
+performance.

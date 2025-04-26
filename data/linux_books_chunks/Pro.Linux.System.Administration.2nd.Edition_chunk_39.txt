@@ -1,0 +1,7 @@
+Fedora also makes use of RPM packages and many 
+of the same administration tools used by RHEL.
+
+Debian Linux
+The Debian Linux distribution (www.debian.org) is a free community-developed and community-managed 
+distribution with a diverse and active group of developers and users. It was started in 1993 and built around 
+a social contract (www.debian.org/social_contract).

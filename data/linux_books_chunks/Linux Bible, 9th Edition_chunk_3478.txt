@@ -1,0 +1,14 @@
+Figure 19.4 shows an example of this window.
+
+513
+
+c19.indd  04/01/2015  Page 514
+
+Part IV: Becoming a Linux Server Administrator
+
+FIGURE 19.4
+
+Choose the folder and name of the new share.
+
+After ﬁ lling in the Basic information, select the Access tab. Any Samba user you have 
+created to this point appears in the Access tab.

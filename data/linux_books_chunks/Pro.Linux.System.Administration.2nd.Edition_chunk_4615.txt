@@ -1,0 +1,15 @@
+We give 
+read access to the entry itself with the self keyword.
+
+759
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+to dn.children="ou=people,dc=example,dc=com"
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" read
+        by group.exact="cn=admins,ou=groups,dc=example,dc=com" write
+        by self write
+        by users read
+
+You may have different requirements in your network, and it is quite common to have the self access as 
+write instead.

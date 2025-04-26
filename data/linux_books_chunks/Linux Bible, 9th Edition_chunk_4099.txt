@@ -1,0 +1,10 @@
+Within the login.defs ﬁ le are some settings affecting password aging and length:
+
+PASS_MAX_DAYS     30
+PASS_MIN_DAYS     5
+PASS_MIN_LEN      16
+PASS_WARN_AGE     7
+
+In this example, the maximum number of days, PASS_MAX_DAYS, until the password must 
+be changed is 30. The number you set here is dependent upon your particular account 
+setup.

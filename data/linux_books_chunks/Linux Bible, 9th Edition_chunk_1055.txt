@@ -1,0 +1,3 @@
+For example, to see 
+which processes are using the most memory, I sort by the rss ﬁ eld. That sorts from lowest 
+memory use to highest.

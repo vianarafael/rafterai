@@ -1,0 +1,7 @@
+The first of these options is dev tun, or tunnel 
+device. A tun device is a special software network interface in the kernel that user space programs can use. A 
+tun device will receive raw IP packets, and its sister, tap, expects Ethernet frames.
+
+We’re going to configure a tun to run our VPN over, and we will create a virtual device, tun0, which will 
+
+be used for the VPN connection.

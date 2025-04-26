@@ -1,0 +1,9 @@
+The most common change you may make when tuning for 
+resource limits is the number of open files a user can have.
+
+You can obtain a full listing of options and their functions in the ulimit section of the man bash page.
+
+Setting Limits for All Users
+
+The ulimit command sets limits for the current shell, so you can add limits via /etc/profile or /
+etc/bashrc for users who log in.

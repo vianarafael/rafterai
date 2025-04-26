@@ -1,0 +1,3 @@
+Some of those packages offer  special 
+ways of providing content, such as wikis (moin), content management systems (drupal7), 
+and blogs (wordpress).

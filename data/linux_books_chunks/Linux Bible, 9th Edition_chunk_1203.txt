@@ -1,0 +1,22 @@
+The until statement executes 
+until the condition is true—in other words, while the condition is false.
+
+Here is an example of a while loop that outputs the number 0123456789:
+
+N=0
+while [ $N -lt 10 ] ; do
+   echo -n $N
+   let N=$N+1
+done
+
+Another way to output the number 0123456789 is to use an until loop as follows:
+
+N=0
+until [ $N -eq 10 ] ; do
+   echo -n $N
+   let N=$N+1
+done
+
+Trying some useful text manipulation programs
+Bash is great and has lots of built-in commands, but it usually needs some help to do 
+anything really useful.

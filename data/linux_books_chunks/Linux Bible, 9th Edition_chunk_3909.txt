@@ -1,0 +1,2 @@
+To verify that 
+there is a problem in your RPM database, you can run the yum check command.

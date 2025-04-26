@@ -1,0 +1,26 @@
+empty partition table
+
+Inside the fdisk tool, we can issue the p command to see the current disks partition table.
+
+Command (m for help): p
+
+Disk /dev/sdb: 1073 MB, 1073741824 bytes
+255 heads, 63 sectors/track, 130 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Device Boot      Start         End      Blocks   Id  System
+
+49
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+disk partitions
+
+5.3.4.

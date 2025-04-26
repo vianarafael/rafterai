@@ -1,0 +1,7 @@
+We then need to make the symlink to 
+sites-enabled and start Nginx like so:
+
+$ sudo ln –s /etc/nginx/sites-available/graphite.conf /etc/nginx/sites-enabled/graphite.conf
+$ sudo systemctl start nginx
+
+On CentOS we need to place graphite.conf in the following directory, /etc/nginx/conf.d/.

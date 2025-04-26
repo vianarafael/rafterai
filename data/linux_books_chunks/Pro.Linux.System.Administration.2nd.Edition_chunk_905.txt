@@ -1,0 +1,5 @@
+For example, it can confirm that the user’s password is correct in the auth group and 
+also confirm the user exists for the account group.
+
+The next directive, sufficient, is called a control flag, and it tells PAM how to treat the result of the 
+module. As mentioned earlier, some checks are more important than others.

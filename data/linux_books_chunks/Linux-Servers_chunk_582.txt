@@ -1,0 +1,15 @@
+samba daemons
+
+Samba 3 consists of three daemons, they are named nmbd, smbd and winbindd.
+
+9.5.1. nmbd
+
+The nmbd daemon takes care of all the names and naming. It registers and resolves names,
+and handles browsing. According to the Samba documentation, it should be the first daemon
+to start.
+
+[root@RHEL52 ~]# ps -C nmbd
+  PID TTY          TIME CMD
+ 5681 ?        00:00:00 nmbd
+
+9.5.2.

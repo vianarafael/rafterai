@@ -1,0 +1,23 @@
+this useful when the operating system supports only SSh access.
+
+You’ll find more information on monitoring methods in the following documentation:
+
+•  Monitoring using SNMP: https://assets.nagios.com/downloads/nagioscore/
+
+docs/nagioscore/4/en/monitoring-routers.htmlhtml
+
+•  Monitoring Linux/Unix: https://assets.nagios.com/downloads/nagioscore/docs/
+
+nagioscore/4/en/monitoring-linux.html
+
+•  Monitoring Windows: https://assets.nagios.com/downloads/nagioscore/docs/
+
+nagioscore/4/en/monitoring-windows.html
+
+Simple Remote Monitoring
+
+You can create a variety of network-based services using Nagios plug-ins, but what if you want to monitor 
+services that aren’t network facing or on the local host? One of the methods to do this is a special plug-in 
+called check_by_ssh (for others, see the “Remote Monitoring” sidebar).
+
+The check_by_ssh plug-in uses SSH to connect to a remote host and execute a command.

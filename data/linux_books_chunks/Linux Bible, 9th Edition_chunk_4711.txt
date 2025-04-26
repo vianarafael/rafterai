@@ -1,0 +1,16 @@
+For example, a simple 
+audit would set up scans in these places: 
+
+704
+
+c25.indd  04/02/2015  Page 705
+
+Chapter 25: Securing Linux on a Network
+
+ ■ On the Linux server itself
+
+ ■ From another server on the organization’s same network
+
+ ■ From outside the organization’s network
+
+In the following examples, part of a simple audit is conducted.

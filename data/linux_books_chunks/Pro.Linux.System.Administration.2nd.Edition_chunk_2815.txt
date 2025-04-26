@@ -1,0 +1,4 @@
+We are going to first edit the /etc/httpd/conf/httpd.conf file and then create a virtual host file.
+
+The default MPM module for CentOS is prefork. You can change the module by editing /etc/httpd/
+conf.modules.d/00-mpm.conf and comment and uncomment the appropriate module.

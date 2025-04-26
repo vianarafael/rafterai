@@ -1,0 +1,7 @@
+For example, if /home and
+/var were assigned to separate partitions, then a gluttonous user who ﬁ lls up the
+/home partition wouldn’t prevent logging daemons from continuing to write to log 
+ﬁ les in the /var/log directory.
+
+Multiple partitions also make doing certain kinds of backups (such as an image 
+backup) easier.

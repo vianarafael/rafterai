@@ -1,0 +1,12 @@
+Here are some examples of man commands and options:
+
+$ man -k passwd
+...
+passwd               (1)  - update user's authentication tokens
+passwd               (5)  - password file
+$ man passwd
+$ man 5 passwd
+
+Using the -k option, you can search the name and summary sections of all man pages 
+installed on the system. About a dozen man pages include “passwd” in the name or 
+description of a command.

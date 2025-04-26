@@ -1,0 +1,12 @@
+We’ve also added the -i switch to make sure we’re prompted if a file already exists.
+
+You can also copy directories and their contents using cp by adding the –r switch.
+
+$ cp -r /home/jsmith /backup
+
+The previous line copies the /home/jsmith directory and all files and directories beneath it to the  
+
+/backup directory.
+
+ ■ Caution 
+When used on Linux, the ..

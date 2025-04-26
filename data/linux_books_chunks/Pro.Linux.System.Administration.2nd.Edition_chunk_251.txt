@@ -1,0 +1,3 @@
+Some people don’t like their systems being updated without their 
+knowledge as it can cause unexpected results. Ideally you should know the state of your systems at all times 
+and deploy updates, security or otherwise, at the time of your choosing.

@@ -1,0 +1,14 @@
+} directive like declared here:
+
+$ sudo vi /etc/puppetlabs/code/environments/production/sites/profile/manifests/web_server.pp
+class profile::web_server {
+
+}
+
+In this file, between the {...} we are going to declare a resource. This resource is called notify, and a 
+
+resource is declared like the following:
+
+  notify { "profile::webserver – loaded": }
+
+The notify is the resource type.

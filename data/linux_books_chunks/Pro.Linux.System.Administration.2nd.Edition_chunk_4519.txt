@@ -1,0 +1,7 @@
+As we have set this attribute, any other SLAPD 
+
+configuration attribute can be set in a similar way.
+
+Adding Modules
+
+In the slapd.ldif file we have the modules section.

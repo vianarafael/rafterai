@@ -1,0 +1,5 @@
+Therefore, NFS (even up through version 3) suffers from some rather glaring 
+security issues.
+
+NFS security issues made it an inappropriate facility to use over public networks and even 
+made it difﬁ cult to use securely within an organization.

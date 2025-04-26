@@ -1,0 +1,7 @@
+The GRand Uniﬁ ed Bootloader (GRUB) is the most popular boot loader 
+used for installed Linux systems. There are two major versions of GRUB available today:
+
+ ■ GRUB Legacy (version 1)—As of this writing, this version of GRUB is used by 
+
+default to boot Red Hat Enterprise Linux operating systems (at least through RHEL 
+6.5).

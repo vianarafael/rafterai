@@ -1,0 +1,9 @@
+On many LAN's the command dhclient eth0 just works (replace eth0 with the
+correct interface.
+
+root@router~# dhclient eth0
+
+You now have a setup similar to this picture. What needs to be done to give internet access
+to leftnet and rightnet.
+
+The clients on leftnet and rightnet need a working dns server.

@@ -1,0 +1,10 @@
+Continue to press u to undo the 
+
+change before that and the one before that.
+
+ ■ Ctrl+R—If you decide you didn’t want to undo the previous undo command, use 
+
+Ctrl+R for Redo. Essentially, this command undoes your undo.
+
+ ■ Caps Lock—Beware of hitting Caps Lock by mistake. Everything you type in vi has 
+a different meaning when the letters are capitalized.

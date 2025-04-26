@@ -1,0 +1,6 @@
+But know that using nmap on another system is like 
+checking the doors and windows on someone’s house to see if you can get in. You look like 
+an intruder.
+
+Checking your own system to see what ports to your server are open to the outside world 
+(essentially, checking what services are running) is perfectly legitimate and easy to do.

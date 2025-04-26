@@ -1,0 +1,12 @@
+Maybe the problem is with name resolution, but it may be 
+with the connection outside your local network.
+
+573
+
+c21.indd  04/01/2015  Page 574
+
+Part IV: Becoming a Linux Server Administrator
+
+To check whether your outgoing network connections are working, you can use many of the 
+commands described in Chapter 14, “Administering Networking.” You can test connectivity 
+using a simple ping command.

@@ -1,0 +1,13 @@
+For example, if you need 
+to perform troubleshooting that requires the graphical interface to be down, you can type 
+init 3 at the command line:
+
+# init 3
+INIT: Sending processes the TERM signal
+starting irqbalance:                     [ OK ]
+Starting setroubleshootd:
+Starting fuse:  Fuse filesystem already available.
+...
+Starting console mouse services:         [ OK ]
+
+To see your Linux server’s current runlevel, simply type in the command runlevel.

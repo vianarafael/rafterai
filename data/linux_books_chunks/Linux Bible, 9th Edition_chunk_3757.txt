@@ -1,0 +1,6 @@
+Although those distributions plan to 
+move soon to systemd, if you are using a recent Debian or Ubuntu (pre-14.10) system, 
+chances are that Upstart is controlling the startup of your system services.
+
+Like systemd, Upstart allowed services to start in parallel, after their particular 
+ dependencies were met.

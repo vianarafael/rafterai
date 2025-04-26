@@ -1,0 +1,11 @@
+Notice that the utmp file is in /var/run and not in /var/log .
+
+[root@rhel4 ~]# who
+paul     pts/1        Feb 14 18:21 (192.168.1.45)
+sandra   pts/2        Feb 14 18:11 (192.168.1.42)
+inge     pts/3        Feb 14 12:01 (192.168.1.33)
+els      pts/4        Feb 14 14:33 (192.168.1.19)
+
+17.1.2. /var/log/wtmp (last)
+
+The /var/log/wtmp file is updated by the login program.

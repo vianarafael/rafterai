@@ -1,0 +1,27 @@
+The following 
+is an example of the security context for user johndoe:
+
+$ id
+uid=1000(johndoe) gid=1000(johndoe) groups=1000(johndoe)
+ context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+
+The user’s security context list shows the following:
+
+ ■ user—The Linux user, johndoe, is mapped to the SELinux unconfined_u user.
+
+ ■ role—The SELinux user, unconfined_u, is mapped to the role of the unconfined_r.
+
+ ■ type—The user has been given the type of unconfined_t.
+
+ ■ level—
+
+ ■ sensitivity—The user has only one sensitivity level, and it is the lowest 
+
+level of s0.
+
+ ■ categories—The user has access to c0.c1023, which is all categories (c0 
+
+through to c1023).
+
+Files have security contexts
+A ﬁ le also has a security context.

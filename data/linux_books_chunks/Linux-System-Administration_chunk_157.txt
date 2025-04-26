@@ -1,0 +1,11 @@
+kill -15 (SIGTERM)
+
+The SIGTERM signal is also called a standard kill. Whenever kill is executed without
+specifying the signal, a kill -15 is assumed.
+
+Both commands in the screenshot below are identical.
+
+paul@ubuntu910:~$ kill 1942
+paul@ubuntu910:~$ kill -15 1942
+
+1.3.5.

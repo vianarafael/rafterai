@@ -1,0 +1,8 @@
+If you have any special authentication needs, you can 
+most likely ﬁ nd a PAM module that has already been written for that need. However, before 
+you start tweaking PAM, you need to understand more about how PAM operates.
+
+A series of steps is taken by PAM using the modules and conﬁ guration ﬁ les to ensure that 
+proper application authentication occurs:
+
+1.

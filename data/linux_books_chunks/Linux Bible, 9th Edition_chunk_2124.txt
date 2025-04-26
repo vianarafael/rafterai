@@ -1,0 +1,5 @@
+As illustrated in Figure 12.1, ﬁ rst you create one or more physical volumes (pv), use the 
+physical volumes to create volume groups (vg), and then create logical volumes from the 
+volume groups (lv).
+
+Commands for working with each LVM component begin with the letters pv, vg, and lv.

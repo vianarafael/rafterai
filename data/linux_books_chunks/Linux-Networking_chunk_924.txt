@@ -1,0 +1,13 @@
+If  time  permits  (or  if  you  are  waiting  for  other  students  to  finish  this  practice),  then
+combine the "read only" and "writable" statements to check which one has priority.
+
+242
+
+samba securing shares
+
+15. If time permits then combine "read list", "write list", "hosts allow" and "hosts deny".
+Which of these has priority ?
+
+243
+
+Chapter 22.

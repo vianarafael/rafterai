@@ -1,0 +1,7 @@
+It usually
+  boils down to these two things:
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+Password: *********
+[joe]$ ls -l /mnt/testfile.txt
+-rw-r--r--.

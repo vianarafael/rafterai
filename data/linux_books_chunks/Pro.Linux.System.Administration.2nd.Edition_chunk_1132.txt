@@ -1,0 +1,5 @@
+We are going to give you a bit of a background on Init and how it works.
+
+SysVInit has a concept of runlevels. Runlevels define what state a host should be in at a particular 
+point. Each runlevel comprises a set of applications and services and an indicator of whether each should 
+be started or stopped.

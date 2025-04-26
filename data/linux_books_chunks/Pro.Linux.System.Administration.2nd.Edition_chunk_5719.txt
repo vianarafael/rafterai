@@ -1,0 +1,8 @@
+This is now available as a variable <%= $root_login %>.
+
+When we now connect a client that applies the File['/etc/ssh/sshd_config'] resource, the value of 
+
+the ipaddress fact on the client will be added to the template, and the root_login will be evaluated to no 
+and then applied on the client in the /etc/ssh/sshd_config file.
+
+You can perform a wide variety of functions in an EPP template—more than just specifying variables.

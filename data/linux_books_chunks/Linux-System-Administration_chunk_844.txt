@@ -1,0 +1,24 @@
+This code was
+found on wikipedia without author.
+
+paul@mac:~$ cat memleak.c 
+#include <stdlib.h>
+
+int main(void)
+{
+     while (malloc(50));
+     return 0;
+}
+
+217
+
+ 
+memory management
+
+18.4. practice : memory
+
+1. Use dmesg to find the total amount of memory in your computer.
+
+2. Use free to display memory usage in kilobytes (then in megabytes).
+
+3.

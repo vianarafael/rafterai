@@ -1,0 +1,6 @@
+The 
+next section covers how to start groups of services at boot time.
+
+Confi guring a Default Runlevel or Target Unit
+Whereas a persistent service is one that is started at server boot time, a persistent (default) 
+runlevel or target unit is a group of services that are started at boot time.

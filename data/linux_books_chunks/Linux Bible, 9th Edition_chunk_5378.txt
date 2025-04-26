@@ -1,0 +1,18 @@
+To make sure the share you created can be 
+shared read-only, run the following command as root user on the NFS server:
+
+# setsebool -P nfs_export_all_ro on
+
+B
+
+825
+
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 826
+
+Appendix B: Exercise Answers
+
+7.

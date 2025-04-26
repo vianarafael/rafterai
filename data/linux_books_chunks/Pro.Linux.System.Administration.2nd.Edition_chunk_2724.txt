@@ -1,0 +1,7 @@
+to au-mel-centos-2.example.com
+Jun 11 11:23:16 au-mel-ubuntu-1 dhcpd: DHCPREQUEST for 192.168.0.200 (192.168.0.1)
+    from 00:0c:29:7b:b1:77 (au-mel-centos-2) via enp0s3
+Jun 11 11:23:16 au-mel-ubuntu-1 dhcpd: DHCPACK on 192.168.0.200 to
+    00:0c:29:7b:b1:77 (au-mel-centos-2) via enp0s3
+
+You can see the server received a DHCP request from a host with MAC address 00:0c:29:7b:b1:77.

@@ -1,0 +1,14 @@
+Use the up arrow to recall the 
+date command and add the format indicator you found. A single %D format 
+indicator gets the results you need:
+
+$ date +%D
+12/08/11
+
+5.  Use tab completion to type basename /usr/share/doc/. Type basen<Tab> 
+
+/u<Tab>sh<Tab>do<Tab> to get basename /usr/share/doc/.
+
+6.  Pipe /etc/services to the less command: $ cat /etc/services | less.
+
+7.

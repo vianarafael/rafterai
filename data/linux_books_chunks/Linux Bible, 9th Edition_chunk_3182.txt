@@ -1,0 +1,7 @@
+Some popular CAs include InstantSSL 
+(http://www.instantssl.com), Thawte (http://www.thawte.com), and Symantec 
+(http://www.symantec.com/ssl-certificates#).
+
+You also have the option of creating self-signed certiﬁ cates, although these should be 
+used only for testing or when a very small number of people will be accessing your server 
+and you do not plan to have certiﬁ cates on multiple machines.

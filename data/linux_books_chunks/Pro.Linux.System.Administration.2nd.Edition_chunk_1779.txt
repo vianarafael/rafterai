@@ -1,0 +1,3 @@
+We’re going to use two types of packages, RPMs and deb files. Both 
+package types are archives that contain other files. So what’s inside these packages? Packages contain 
+data, metadata, and sometimes control files. the data is the files that will be installed.

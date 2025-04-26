@@ -1,0 +1,16 @@
+try and demand will fail connections for 
+unverified certificates.
+
+We apply tls.ldif with ldapmodify like before.
+
+$ sudo ldapmodify -Q -Y EXTERNAL -H ldapi:/// -f tls.ldif
+
+We can validate that we can still use the root user to query the LDAP server and view our TLS entries.
+
+$ sudo ldapsearch -H ldapi:/// -Y EXTERNAL -b "cn=config" -LLL  -Q |grep TLS
+olcTLSCACertificateFile: /etc/ldap/certs/cacert.pem
+olcTLSCertificateFile: /etc/ldap/certs/ldap.example.com.cert
+olcTLSCertificateKeyFile: /etc/ldap/certs/ldap.example.com.key
+
+We will not be able to issue ldapsearch requests against the ldap:/// URI until we make some 
+adjustments to the /etc/ldap/ldap.conf file.

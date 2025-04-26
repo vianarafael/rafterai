@@ -1,0 +1,5 @@
+(This ﬁ le  
+
+is located in /etc/mail in Ubuntu when you install the sendmail package.)
+
+ ■ bashrc—Sets system-wide defaults for bash shell users.

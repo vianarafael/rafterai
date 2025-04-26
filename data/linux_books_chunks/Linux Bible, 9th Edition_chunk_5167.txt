@@ -1,0 +1,49 @@
+Then use the mount 
+command with the correct section number (2) to get the proper mount man page:
+
+$ man -k ^mount
+mount 
+mount 
+mountpoint 
+mountstats 
+
+(2)  - mount file system
+(8)  - mount a filesystem
+(1)  - see if a directory is a mountpoint
+(8)  - Displays NFS client per-mount statistics
+
+B
+
+785
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 786
+
+Appendix B: Exercise Answers
+
+$ man 2 mount
+MOUNT(2)      Linux Programmer's Manual              MOUNT(2)
+NAME
+      mount - mount file system
+SYNOPSIS
+      #include <sys/mount.h>
+.
+.
+.
+
+Chapter 4: Moving around the Filesystem
+
+1.

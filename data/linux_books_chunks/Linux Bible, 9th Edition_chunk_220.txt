@@ -1,0 +1,4 @@
+Also, because the direction of UNIX had always been toward source-code licensing destined 
+for large computing systems, USL had pricing difﬁ culties for its products. For example, on 
+software that it was including with UNIX, USL found itself having to pay out per-computer 
+licensing fees that were based on $100,000 mainframes instead of $2,000 PCs.

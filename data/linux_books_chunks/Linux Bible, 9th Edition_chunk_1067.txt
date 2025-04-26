@@ -1,0 +1,2 @@
+For example, click the %CPU heading to see which 
+processes are consuming the most processing power.

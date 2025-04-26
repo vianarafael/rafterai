@@ -1,0 +1,7 @@
+Troubles occurring in any 
+of these areas are reﬂ ected in error messages that appear on the screen after the kernel 
+boots and before runlevel processes start up.
+
+Troubleshooting runlevel processes
+In Red Hat Enterprise Linux 6.x and earlier, when the system ﬁ rst comes up, services are 
+started based on the default runlevel. There are seven different runlevels, from 0 to 6.

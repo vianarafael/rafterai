@@ -1,0 +1,10 @@
+The OSI layer model
+
+ we are going to describe the first three layers; for further information on the oSi model and layers, 
+
+ ■ Note 
+please see: http://www.webopedia.com/quick_ref/OSI_Layers.asp. 
+
+Layer 1 is concerned with how data is transmitted over the physical wire, and this is represented by the 
+
+physical layer appearing at the bottom of Figure 7-12.

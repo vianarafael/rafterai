@@ -1,0 +1,11 @@
+We can enable the timer with the following:
+
+$ sudo systemctl enable monitor.timer
+Created symlink from /etc/systemd/system/timers.target.wants/monitor.timer to /etc/systemd/
+system/monitor.timer.
+
+We can now list our timers with the following:
+
+Figure 6-9.  Listing timers
+
+You can see our timer in Figure 6-9.

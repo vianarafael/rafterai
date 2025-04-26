@@ -1,0 +1,6 @@
+Although it is better to never 
+exceed your RAM (performance takes a hit when you swap), swapping out is better than 
+having processes just fail.
+
+Another special partition is a logical volume management (LVM) physical volume. LVM 
+physical volumes enable you to create pools of storage space called volume groups.

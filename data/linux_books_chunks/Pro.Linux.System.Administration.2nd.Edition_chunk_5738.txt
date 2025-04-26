@@ -1,0 +1,5 @@
+You 
+can find more information on variables at http://docs.ansible.com/ansible/playbooks_variables.
+html#variables.
+
+In this section we are going to build up a web server.

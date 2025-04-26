@@ -1,0 +1,7 @@
+For example, enabling the FTP 
+ service also causes connection tracking modules to be loaded that allow nonstandard ports 
+to be accessed through the ﬁ rewall when needed.
+
+As mentioned earlier, underlying the firewalld service is the iptables facility. If you 
+have a Linux system without the firewalld service (or with firewalld disabled), 
+you can still use the iptables service.

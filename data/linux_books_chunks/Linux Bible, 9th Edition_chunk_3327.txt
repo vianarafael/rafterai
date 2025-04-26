@@ -1,0 +1,8 @@
+This is based on the 
+following vsftpd.conf settings:
+
+anonymous_enable=YES
+local_enable=YES
+
+As noted earlier, despite the local_enable setting, SELinux actually prevents vsftpd 
+users from logging in and transferring data.

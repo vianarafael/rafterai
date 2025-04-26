@@ -1,0 +1,6 @@
+Having a user account 
+provides you with an area in which to securely store ﬁ les, as well as a means of tailoring your user 
+interface (GUI, path, environment variables, and so on) to suit the way that you use the computer.
+
+You can add user accounts to most Linux systems in several ways. Fedora and Red Hat 
+Enterprise Linux systems have a Users window available from the Settings Window.

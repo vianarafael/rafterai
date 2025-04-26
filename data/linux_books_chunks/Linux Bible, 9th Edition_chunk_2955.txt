@@ -1,0 +1,26 @@
+Depending on the type of ports you have on your computer, select one of 
+
+the following:
+
+432
+
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 433
+
+Chapter 16: Confi guring a Print Server
+
+ ■ LPT #1—Use this for a printer connected to your parallel port.
+
+ ■ Serial Port #1—Use this for a printer connected to your serial port.
+
+ ■ Network Printer—Under this heading, you can search for network printers (by 
+hostname or IP address) or type in the URI for several different printer types:
+
+16
+
+ ■ Find Network Printer—Instead of entering a printer URI, you can 
+
+ provide a hostname or IP address for the system that has the printer you 
+want to print to.

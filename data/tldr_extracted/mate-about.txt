@@ -1,0 +1,6 @@
+# mate-about
+
+
+- Display MATE version:
+
+`mate-about --version`

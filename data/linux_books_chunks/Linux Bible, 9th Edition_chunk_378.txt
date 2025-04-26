@@ -1,0 +1,17 @@
+After it 
+is installed, you can choose whether to start up the desktop when your computer 
+boots or start it as needed.
+
+ ■ For a very lightweight Linux system, such as one meant to run on less powerful 
+
+computers, you can choose an efﬁ cient, though less feature-rich, window manager 
+(such as twm or fluxbox) or a lightweight desktop environment (such as LXDE 
+or Xfce).
+
+ ■ For more robust computers, you can choose more powerful desktop environments 
+(such as GNOME and KDE) that can do such things as watch for events to happen 
+(such as inserting a USB ﬂ ash drive) and respond to those events (such as opening 
+a window to view the contents of the drive).
+
+ ■ You can have multiple desktop environments installed and you can choose which 
+one to launch when you log in.

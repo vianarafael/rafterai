@@ -1,0 +1,7 @@
+That’s because the VIRT column shows 
+only the amount of memory that has been promised to the application. The RES line 
+shows the amount of nonswappable memory that is actually being used, which totals 
+only 1364MB.
+
+Notice that, when you ask to sort by memory usage by typing a capital M, top knows to 
+sort on that RES column.

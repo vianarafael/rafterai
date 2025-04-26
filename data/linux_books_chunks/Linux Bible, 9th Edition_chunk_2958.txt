@@ -1,0 +1,6 @@
+This can be an IP address or TCP/IP hostname for the 
+ computer. The TCP/IP name is accessible from your /etc/hosts ﬁ le or through a 
+DNS name server.
+
+ ■ Queue—This is the printer name on the remote CUPS print server. CUPS supports 
+printer instances, which allows each printer to have several sets of options.

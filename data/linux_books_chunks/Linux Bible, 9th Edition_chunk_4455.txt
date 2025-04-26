@@ -1,0 +1,2 @@
+You may think that the changes 
+should be made in the PAM-aware passwd conﬁ guration ﬁ le.

@@ -1,0 +1,21 @@
+For example:
+
+# ls /etc/rc5.d
+...
+/etc/rc5.d/S22messagebus
+/etc/rc5.d/S23NetworkManager
+/etc/rc5.d/S24nfslock
+/etc/rc5.d/S24openct
+/etc/rc5.d/S24rpcgssd
+/etc/rc5.d/S25blk-availability
+/etc/rc5.d/S25cups
+/etc/rc5.d/S25netfs
+/etc/rc5.d/S26acpid
+/etc/rc5.d/S26haldaemon
+/etc/rc5.d/S26hypervkvpd
+/etc/rc5.d/S26udev-post
+
+...
+
+In this case, the chkconfig line in the S25My_New_Service script will cause the script 
+to be added after S25cups and before S25netfs in the boot order.

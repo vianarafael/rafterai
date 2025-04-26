@@ -1,0 +1,21 @@
+Using Vagrant is a great way 
+
+to explore and learn Linux without the need to install a physical server, and it runs inside the VirtualBox 
+virtualization environment.
+
+Logging In
+After your Linux host or LiveCD boots, you will be presented with a login prompt: either a command-line or 
+GUI (graphical user interface) login prompt.
+
+In Figure 4-1, you can see a typical command-line login prompt for an Ubuntu Linux host, and in 
+
+Figure 4-2, you can see the graphical login for a CentOS host.
+
+ Don’t panic if your initial screens differ slightly from these, as some minor changes do appear 
+
+ ■ Note 
+between versions.
+
+100
+
+Figure 4-1.

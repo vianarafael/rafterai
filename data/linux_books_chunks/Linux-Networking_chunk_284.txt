@@ -1,0 +1,10 @@
+The local user is named paul and he is logging on as user admin42 on the remote
+system.
+
+paul@ubu1204:~$ ssh admin42@192.168.1.30
+The authenticity of host '192.168.1.30 (192.168.1.30)' can't be established.
+RSA key fingerprint is b5:fb:3c:53:50:b4:ab:81:f3:cd:2e:bb:ba:44:d3:75.
+Are you sure you want to continue connecting (yes/no)?
+
+As you can see, the user paul is presented with an rsa authentication fingerprint from the
+remote system.

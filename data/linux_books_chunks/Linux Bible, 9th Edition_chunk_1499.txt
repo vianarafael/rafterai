@@ -1,0 +1,6 @@
+A full installation DVD, for example, 
+can allow you to install anything from a minimal system to a full-featured desktop to a 
+full-blown server that offers multiple services.
+
+In this chapter, I use a Red Hat Enterprise Linux 7 server edition installation DVD as the 
+installation medium.

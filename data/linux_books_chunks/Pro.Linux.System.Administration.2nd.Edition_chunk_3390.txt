@@ -1,0 +1,4 @@
+the smtp_sasl_password_maps 
+option (see www.postfix.org/postconf.5.html#smtp_sasl_password_maps) specifies a database file 
+containing a list of smarthosts and their required credentials. this is created by editing a file and using 
+the postmap command to create a database from that file.

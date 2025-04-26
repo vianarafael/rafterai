@@ -1,0 +1,18 @@
+A 
+log message like this will be generated showing the date, time, user who tried to execute the sudo command, 
+and unauthorized command the user tried to execute.
+
+Sep 1 20:27:43 au-mel-centos-1 sudo:       ataylor : user NOT in sudoers ; TTY=pts/1 ;
+PWD=/home ; USER=root ; COMMAND=/usr/sbin/useradd –m –c 'Illegal User' iuser
+
+These messages allow you to monitor for people attempting to perform inappropriate actions on your 
+
+hosts, and they can be used to detect attempted security breaches.
+
+ In Chapter 18, we’ll talk more about logging and how you can monitor for messages like the ones 
+
+ ■ Note 
+detailed in this section and send alerts or take some kind of action.
+
+Configuring sudo
+The sudo command checks the /etc/sudoers file for authorization to run commands.

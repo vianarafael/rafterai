@@ -1,0 +1,5 @@
+In the 
+preceding example, the soonest a user could change his password again is 5 days.
+
+The PASS_WARN_AGE setting is the number of days a user is warned before being forced to 
+change his password.

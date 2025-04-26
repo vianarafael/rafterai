@@ -1,0 +1,6 @@
+[...]
+  o- backstores .......................................................... [...]
+  | o- block .............................................. [Storage Objects: 3]
+  | | o- target.disk1 ................. [/dev/sdb (8.0GiB) write-thru activated]
+  | | o- target.disk2 ................. [/dev/sdc (8.0GiB) write-thru activated]
+  | | o- target.disk3 .................

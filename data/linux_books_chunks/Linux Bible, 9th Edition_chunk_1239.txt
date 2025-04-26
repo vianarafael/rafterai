@@ -1,0 +1,4 @@
+After running that 
+one command with sudo, the user is immediately returned to a shell and acts as 
+the regular user again. Ubuntu assigns sudo privilege to the ﬁ rst user account 
+on an Ubuntu system by default.

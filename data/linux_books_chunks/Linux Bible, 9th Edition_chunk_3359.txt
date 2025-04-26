@@ -1,0 +1,7 @@
+If 
+a data transfer stalls for more than data_connection_timeout seconds (300 seconds 
+here), the connection to the client is dropped.
+
+The accept_timeout setting of 60 seconds allows 1 minute for a PASV connection to be 
+accepted by the remote client. The connect_timeout sets how long a remote client has to 
+respond to a request to establish a PORT-style data connection.

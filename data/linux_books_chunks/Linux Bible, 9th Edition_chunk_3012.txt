@@ -1,0 +1,9 @@
+(The printer is ready and 
+ printing the job listed as active.) Under the Job column, you can see the job number 
+ associated with each document. To remove the ﬁ rst print job, type the following:
+
+# lprm 133
+
+Confi guring Print Servers
+You’ve conﬁ gured a printer so that you and the other users on your computer can print to 
+it.

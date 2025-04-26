@@ -1,0 +1,10 @@
+Use tar to backup /bin to /mnt/backup/bin_date.tar.bz2, the backup must be bzip2'd.
+
+2c. Choose a file in /etc and /bin and verify with tar that the file is indeed backed up.
+
+2d. Extract those two files to your home directory.
+
+3a.  Create  a  backup  directory  for  your  neighbour,  make  it  accessible  under  /mnt/
+neighbourName
+
+3b.

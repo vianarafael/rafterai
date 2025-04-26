@@ -1,0 +1,11 @@
+Projects such as OpenStack 
+and Red Hat Enterprise Virtualization can simultaneously manage many virtualiza-
+tion hosts, virtual networks, user and system authentication, virtual guests, and 
+networked storage.
+
+ ■ Real-time computing—Linux can be conﬁ gured for real-time computing, where 
+
+high-priority processes can expect fast, predictable attention.
+
+ ■ Specialized storage—Instead of just storing data on the computer’s hard disk, 
+many specialized local and networked storage interfaces are available in Linux.

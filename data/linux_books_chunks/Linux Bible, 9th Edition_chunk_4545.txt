@@ -1,0 +1,5 @@
+To see an individual ﬁ le’s context, use the -Z option on 
+the ls command. The following is a security context for the ﬁ le my_stuff:
+
+$ ls -Z my_stuff
+-rw-rw-r--.

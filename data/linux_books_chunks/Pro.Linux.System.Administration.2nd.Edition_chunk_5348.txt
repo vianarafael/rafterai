@@ -1,0 +1,16 @@
+For example, 
+if Nagios was monitoring our gateway.example.com host and a check of this host failed, a notification much 
+like this would be generated:
+
+***** Nagios *****
+
+Notification Type: PROBLEM
+Host: gateway.example.com
+State: DOWN
+
+Address: 192.168.0.254
+Info: PING CRITICAL - Packet loss = 100%
+
+Date/Time: Fri Feb 13 00:30:28 EST 2009
+
+ nagios can issue alerts through more than just e-mail.

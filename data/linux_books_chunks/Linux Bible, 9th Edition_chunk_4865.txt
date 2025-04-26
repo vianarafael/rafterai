@@ -1,0 +1,9 @@
+A cloud 
+infrastructure may have dozens or hundreds of hypervisors running, possibly 
+running thousands of virtual machines.
+
+ ■ Virtual machines—The virtual machines you run on a Linux hypervisor can be 
+
+the same type of Linux system, a different Linux system, a Windows system, or any 
+other type of system that is compatible with the hardware on which the hypervi-
+sor runs.

@@ -1,0 +1,7 @@
+in the iPv6 world, your full iPv6 address is made up of your local link 
+address and your network address and will always be unique.
+
+As a network administrator working in iPv6, you will use the same binary calculations to determine your 
+iPv6 subnetting, but your possible address space is now enormous!
+
+We also have a local wired network, and this has the network address of 192.168.0.0/24.

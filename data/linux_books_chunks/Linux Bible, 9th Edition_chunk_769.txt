@@ -1,0 +1,23 @@
+Type the following three commands, and then recall and change those commands 
+
+as described:
+
+$ cat /etc/passwd
+$ ls $HOME
+$ date
+
+ ■ Use the command-line recall feature to recall the cat command and change /
+
+etc/passwd to /etc/group.
+
+ ■ Recall the ls command, determine how to list ﬁ les by time (using the man 
+
+page), and add that option to the ls $HOME command line.
+
+3
+
+ ■ Add format indicators to the date command to display the date output as 
+
+month/day/year.
+
+5.

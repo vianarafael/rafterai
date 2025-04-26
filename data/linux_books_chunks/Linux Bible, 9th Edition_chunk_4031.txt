@@ -1,0 +1,6 @@
+If there is, fsck attempts to correct problems 
+it encounters.
+
+When you are ﬁ nished ﬁ xing your system, type exit to exit the chroot environment and 
+return to the ﬁ lesystem layout that the live medium sees. If you are completely ﬁ nished, type 
+reboot to restart your system.

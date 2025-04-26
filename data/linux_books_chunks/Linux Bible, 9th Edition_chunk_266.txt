@@ -1,0 +1,4 @@
+Before the kernel can be useful, you 
+must have other software such as basic commands (GNU utilities), services you want to 
+offer (such as remote login or web servers), and possibly a desktop interface and  graphical 
+applications.

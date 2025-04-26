@@ -1,0 +1,6 @@
+In the CentOS world, bootstrapping is often referred to as kickstarting (after 
+the Kickstart tool used to perform it). On Ubuntu and Debian, the process is called preseeding.
+
+Provisioning is a way of automatically installing a distribution to a host. When we first looked at 
+
+installing distributions in Chapter 2, we demonstrated how to do it manually.

@@ -1,0 +1,6 @@
+Also, in that same directory, you will see a few 
+other configuration examples for printers, Windows hosts, time periods, templates, and switches.
+
+Nagios also has a mode that enables you to check your configuration for errors prior to running the 
+
+daemon.

@@ -1,0 +1,2 @@
+You can see what packages are installed, list components 
+of those packages, and see scripts or change logs associated with each package.

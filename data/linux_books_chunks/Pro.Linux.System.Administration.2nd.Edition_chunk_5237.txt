@@ -1,0 +1,4 @@
+Each index has a mapping that defines the types in the 
+index and other index settings and describe how the index can be searched. A type is the type of document, 
+like a user or a log, and is used by the API as a filter. The document is a JSON object, and each has a type and 
+an ID.

@@ -1,0 +1,14 @@
+Selecting Network & Host Name
+
+22
+
+The most important configuration item here is your IP (Internet Protocol) address, which is the network 
+
+address of your host that allows other hosts to find and communicate with it.
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+ ■ Tip  You can read about Ip addresses and addressing at http://en.wikipedia.org/wiki/IP_address 
+and http://computer.howstuffworks.com/internet/basics/question549.htm.
+
+Depending on your network setup the next steps can go two ways.

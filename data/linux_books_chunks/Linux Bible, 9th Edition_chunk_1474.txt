@@ -1,0 +1,12 @@
+Although you can 
+choose to not erase selected disk partitions (as long as you have enough space available on other partitions), there 
+is always a risk that data can be lost when you are manipulating disk partitions. Also, unplug any USB drives you have 
+plugged into your computer because they could be overwritten.
+
+204
+
+c09.indd  04/01/2015  Page 205
+
+Chapter 9: Installing Linux
+
+1.

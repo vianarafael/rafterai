@@ -1,0 +1,3 @@
+Next, try again, replacing 
+localhost with your host’s IP address or fully qualiﬁ ed host name, from a web browser on 
+another system. If that works, the vsftpd server is publicly accessible.

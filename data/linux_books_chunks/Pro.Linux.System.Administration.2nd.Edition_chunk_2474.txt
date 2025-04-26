@@ -1,0 +1,6 @@
+Again it is 
+similar to how you can use the ntp tool.
+
+You can enter the command-line interface by just typing chronyc or you can access the subcommands 
+
+from the Linux command shell directly.

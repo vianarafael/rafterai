@@ -1,0 +1,5 @@
+The line receiver supports the newline-delimited format (which means a newline signals 
+the end of the metric). The pickle receiver supports the Python pickle object serialization (https://docs.
+python.org/3/library/pickle.html).
+
+You can improve carbon-cache performance by having multiple cache declarations.

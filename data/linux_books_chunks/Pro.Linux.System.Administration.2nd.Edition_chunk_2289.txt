@@ -1,0 +1,3 @@
+To give a 
+good overview of common RAID levels we will show you RAID 1 and RAID 5. The one you use depends on 
+the number of hard disks you have available.

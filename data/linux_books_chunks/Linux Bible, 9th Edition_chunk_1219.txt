@@ -1,0 +1,34 @@
+But does the file have anything in it yet?
+# This might be our first time using it, after all.
+if [ ! -s $PHONELIST ] ; then
+  echo "No names in the phone list yet! "
+  exit 1
+else
+  grep -i -q "$*" $PHONELIST     # Quietly search the file
+  if [ $? -ne 0 ] ; then         # Did we find anything?
+    echo "Sorry, that name was not found in the phone list"
+    exit 1
+  else
+    grep -i "$*" $PHONELIST
+  fi
+fi
+exit 0
+
+7
+
+167
+
+c07.indd  04/01/2015  Page 168
+
+Part II: Becoming a Linux Power User
+
+So, if you created the telephone list ﬁ le as ph in your current directory, you could type the 
+following from the shell to try out your ph script:
+
+$ chmod 755 ph
+$ ./ph new "Mary Jones" 608-555-1212
+Mary Jones 608-555-1212 added to database
+$ ./ph Mary
+Mary Jones 608-555-1212
+
+The chmod command makes the ph script executable.

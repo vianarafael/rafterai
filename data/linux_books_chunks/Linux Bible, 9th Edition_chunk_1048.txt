@@ -1,0 +1,5 @@
+(Many commands consume very little CPU time, as reﬂ ected by 0:00 for 
+ processes that haven’t even used a whole second of CPU time.)
+
+Many processes running on a computer are not associated with a terminal. A normal Linux 
+system has many processes running in the background.

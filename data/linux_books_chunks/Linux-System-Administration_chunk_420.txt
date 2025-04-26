@@ -1,0 +1,5 @@
+iotop
+
+iotop works like the top command but orders processes by input/output instead of by CPU.
+
+By  default  iotop  will  show  all  processes.

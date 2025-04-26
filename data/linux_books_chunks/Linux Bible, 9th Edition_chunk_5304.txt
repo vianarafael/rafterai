@@ -1,0 +1,15 @@
+To attempt to reload the cups daemon on your Linux server, use the following:
+
+ ■ For SysVinit:
+
+# service cups reload
+Reloading cups:            [  OK  ]
+
+ ■ For Upstart:
+
+# initctl reload cups
+
+Remember that if a service has not yet been ported to Upstart, you need to use the 
+service command instead of initctl.
+
+ ■ For systemd, this is a trick question.

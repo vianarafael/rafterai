@@ -1,0 +1,2 @@
+For Fedora 20 or RHEL 7, open the Firewall Conﬁ guration window and check the 
+FTP box under services to open access to your FTP service.

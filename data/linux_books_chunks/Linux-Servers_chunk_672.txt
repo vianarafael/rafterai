@@ -1,0 +1,12 @@
+The sambanobody
+user does have a password (it is secret).
+
+[root@RHEL52 samba]# cat smbpasswd 
+
+169
+
+samba first user account
+
+sambanobody:503:AE9 ... 9DB309C528E540978:[U          ]:LCT-4976B05B:
+
+13.5.

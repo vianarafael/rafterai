@@ -1,0 +1,8 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_18Chapter 18 ■ Logging and Monitoring
+
+We access the journal files with the journalctl command that we have already used several times. If 
+
+you execute the journalctl command without any arguments or filters, you will see something like  
+Listing 18-1.
+
+Listing 18-1.

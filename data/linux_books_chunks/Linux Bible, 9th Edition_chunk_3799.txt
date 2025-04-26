@@ -1,0 +1,7 @@
+Go to runlevel 3 if you 
+are having problems with your video driver and want to try to debug it without it 
+ trying to automatically start up the graphical interface.
+
+ ■ To select a different kernel—When RHEL installs a new kernel via yum, it always 
+keeps at least one older kernel around. If the new kernel fails, you can always boot 
+the previous, presumably working, older kernel.

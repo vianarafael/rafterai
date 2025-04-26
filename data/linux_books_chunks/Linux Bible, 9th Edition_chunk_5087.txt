@@ -1,0 +1,11 @@
+This enables you to run a totally different operating system than is 
+installed on your hard disk without changing or damaging the data on that disk.
+
+771
+
+bapp01.indd  04/02/2015  Page 772
+
+Appendix A: Media
+
+Getting Fedora
+You can download Fedora from the https://getfedora.org site.

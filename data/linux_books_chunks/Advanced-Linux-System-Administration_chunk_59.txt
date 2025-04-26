@@ -1,0 +1,7 @@
+However, parties who have received copies, or rights, from you under 
+this License will not have their licenses terminated so long as such parties remain in full compliance. 
+
+10. FUTURE REVISIONS OF THIS LICENSE 
+
+The Free Software Foundation may publish new, revised versions of the GNU Free Documentation License from 
+time to time.

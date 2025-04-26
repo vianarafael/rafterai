@@ -1,0 +1,8 @@
+The a2query is also useful for querying 
+other configuration options, as described in Table 11-1.
+
+480
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Table 11-1.

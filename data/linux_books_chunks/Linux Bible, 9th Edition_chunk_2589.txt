@@ -1,0 +1,13 @@
+You can then check that the interface came up using the ip command:
+
+$ ip addr show eth0
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc
+       pfifo_fast state UP qlen 1000
+ link/ether f0:de:f1:28:46:d9 brd ff:ff:ff:ff:ff:ff
+ inet 192.168.0.140/24 brd 192.168.0.255 scope global eth0
+inet 192.168.0.141/24 brd 192.168.0.255 scope global secondary eth0:0
+inet6 fe80::f2de:f1ff:fe28:46d9/64 scope link
+   valid_lft forever preferred_lft forever
+
+You can see that the network interface card represented by eth0 is listening on two addresses: 
+192.168.0.140 (eth0) and 192.168.0.141 (eth0:0).

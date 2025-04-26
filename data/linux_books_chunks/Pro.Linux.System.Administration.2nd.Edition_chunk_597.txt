@@ -1,0 +1,9 @@
+For Bash shells, you can 
+usually find the global umask in the /etc/bashrc file, but you can also override it on a per-user basis using 
+the umask command or using the pam_umask module (we will give you more information about what PAM is 
+in Chapter 5).
+
+ The umask command can also set umasks using alternative syntax. We’ve just described the simplest 
+
+ ■ Tip 
+and easiest.

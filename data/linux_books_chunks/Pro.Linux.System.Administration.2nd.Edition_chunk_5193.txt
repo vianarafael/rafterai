@@ -1,0 +1,6 @@
+This again adds richness to 
+the data we can later use to extract and transform and filter our data.
+
+Our output is going to our Logstash server on the monitor.example.com host. We are going to use 
+TLS-encrypted transport to send our data. We are not anonymizing our logs here, so anything that is sent 
+to the monitoring host can be read in clear text, making us vulnerable to snooping.

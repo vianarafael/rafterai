@@ -1,0 +1,11 @@
+673
+
+c24.indd  04/15/2015  Page 674
+
+Part V: Learning Linux Security Techniques
+
+The better approach is to set the proper security context on the ﬁ les you want applica-
+tions to access. But disabling SELinux is the quicker ﬁ x.
+
+Before you disable SELinux, however, think about whether you may ever want to enable it 
+on that system again.

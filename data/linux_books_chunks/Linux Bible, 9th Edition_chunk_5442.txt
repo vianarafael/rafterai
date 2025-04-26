@@ -1,0 +1,10 @@
+If it does not, 
+there will be no output.
+
+$ ldd /usr/sbin/sshd | grep libwrap
+libwrap.so.0 => /lib/libwrap.so.0 (0x0012f000)
+
+5.  To allow access to the ssh tools on your Linux system from a designated remote 
+
+system and deny all other access using TCP Wrappers, you need to modify both the 
+/etc/hosts.allow ﬁ le and the /etc/hosts.deny ﬁ le.

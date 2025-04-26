@@ -1,0 +1,11 @@
+This is done by tagging network packets to identify the cgroup task that 
+originated the packet and having the Linux trafﬁ c controller monitor and restrict 
+packets coming from each cgroup.
+
+ ■ Network traffic (net_prio)—Sets priorities of network trafﬁ c coming from 
+
+selected cgroups and lets administrators change these priorities on the ﬂ y.
+
+ ■ Name spaces (ns)—Separates cgroups into namespaces, so processes in one 
+
+cgroup can only see the namespaces associated with the cgroup.

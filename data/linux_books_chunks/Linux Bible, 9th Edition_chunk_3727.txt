@@ -1,0 +1,9 @@
+On the NFS server, create the /var/mystuff directory and share it from your NFS 
+server with the following attributes: available to everyone, read-only, and the root 
+user on the client has root access to the share.
+
+6.  On the NFS server, make sure the share you created is accessible to all hosts by 
+
+opening TCP wrappers, iptables, and SELinux.
+
+7.

@@ -1,0 +1,5 @@
+In order to decrypt this 
+message, johndoe uses his private key, identiﬁ ed and protected by the secret  passphrase 
+used to originally create the key. After johndoe provides the proper passphrase, gpg2 
+decrypts the message ﬁ le and puts it into the ﬁ le, JillsMessage, designated by the --out 
+option.

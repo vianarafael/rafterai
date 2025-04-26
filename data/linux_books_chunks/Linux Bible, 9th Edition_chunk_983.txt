@@ -1,0 +1,12 @@
+The -size option enables you to search for ﬁ les that 
+are exactly, smaller than, or larger than a selected size, as you can see in the following 
+examples:
+
+$ find /usr/share/ -size +10M
+$ find /mostlybig -size -1M
+$ find /bigdata -size +500M -size -5G -exec du -sh {} \;
+4.1G   /bigdata/images/rhel6.img
+606M   /bigdata/Fedora-16-i686-Live-Desktop.iso
+560M   /bigdata/dance2.avi
+
+The ﬁ rst example in the preceding code ﬁ nds ﬁ les larger than 10MB.

@@ -1,0 +1,6 @@
+# qm guest exec-status
+
+
+- Print the status of a specific PID:
+
+`qm guest exec-status {{vm_id}} {{pid}}`

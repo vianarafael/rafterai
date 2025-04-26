@@ -1,0 +1,18 @@
+vgmerge
+
+Merging two Volume Groups into one is done with vgmerge. The following example merges
+vg2 into vg1, keeping all the properties of vg1.
+
+[root@RHEL5 ~]# vgmerge vg1 vg2
+  Volume group "vg2" successfully merged into "vg1"
+[root@RHEL5 ~]#
+
+118
+
+logical volume management
+
+11.13. manage logical volumes
+
+11.13.1. lvcreate
+
+Use the lvcreate command to create Logical Volumes in a Volume Group.

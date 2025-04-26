@@ -1,0 +1,14 @@
+For example:
+
+540
+
+c20.indd  04/01/2015  Page 541
+
+Chapter 20: Confi guring an NFS File Server
+
+$ /usr/sbin/showmount -e server.example.com
+/export/myshare client.example.com
+/mnt/public     *
+
+The showmount output shows that the shared directory named /export/myshare is 
+available only to the host client.example.com.

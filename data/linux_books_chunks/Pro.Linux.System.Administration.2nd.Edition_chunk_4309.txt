@@ -1,0 +1,11 @@
+On Ubuntu, we recommend you use the user nobody and the group 
+nogroup.
+
+user nobody
+group nogroup
+
+The next two options, persist-tun and persist-key, are related to this dropping of privileges. They 
+
+allow OpenVPN to retain sufficient privileges to work with network interfaces and SSL certificates.
+
+The last option in the file, comp-lzo, tells OpenVPN to use compression for VPN tunnels.

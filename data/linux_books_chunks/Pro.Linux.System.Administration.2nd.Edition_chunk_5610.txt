@@ -1,0 +1,18 @@
+You can define global configuration settings or service-specific settings under the 
+[service] sections, such as [main], [master], [agent], or [user].
+
+Configuring the Master
+
+Typically the master’s /etc/puppetlabs/puppet/puppet.conf will look something like this:
+
+[main]
+certname = puppetmaster.example.com
+server = puppet
+environment = production
+runinterval = 30m
+strict_variables = true
+
+[master]
+dns_alt_names = puppetmaster,puppet,puppet.example.com
+
+The [main] section contains the defaults for both the master and agents.

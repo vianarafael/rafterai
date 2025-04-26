@@ -1,0 +1,21 @@
+You may like to read the following for a gentle 
+
+ ■ Note 
+introduction: www.roguelynn.com/words/explain-like-im-5-kerberos/.
+
+Configuring Samba Shares
+To access Samba shares, there will be several things we will need to do:
+
+•	
+
+Add the share to smb.conf
+
+•	 Create the directory and add permissions
+
+•	 Create any system users that are necessary
+
+•	
+
+Add Samba users to Samba
+
+Let’s start by looking at the Samba configuration file we are going to use.

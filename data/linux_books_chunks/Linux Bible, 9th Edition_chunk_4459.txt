@@ -1,0 +1,13 @@
+If you 
+have less than or N digits, each digit counts +1 toward meeting the current 
+minlen value.
+
+ ■ If (N < 0): The minimum number of digits that must be met for a new password.
+
+ ■ ucredit=N
+
+ ■ Default = 1
+
+ ■ If (N >= 0): The maximum credit for having uppercase letters in the new 
+
+ password.

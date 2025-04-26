@@ -1,0 +1,3 @@
+Using iptables, you can drop or reject 
+every packet making requests for services on your system, except for those few that you 
+have enabled.

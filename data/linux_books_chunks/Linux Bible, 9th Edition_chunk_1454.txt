@@ -1,0 +1,6 @@
+However, if you want to set 
+up the system to do virtualization, you need a 64-bit processor (x86_64).
+
+If you have a 486 machine (at least 100 MHz), consider trying Damn Small Linux (http://www.damnsmall-
+linux.org) or Slackware (http://www.slackware.org). It won’t have the same graphical interface, but 
+you could do some of the shell exercises.

@@ -1,0 +1,11 @@
+For instance, the rainbow table would contain the hash 
+for the popular password “Password,” which is:
+
+$6$dhN5ZMUj$CNghjYIteau5xl8yX.f6PTOpendJwTOcXjlTDQUQZhhy
+V8hKzQ6Hxx6Egj8P3VsHJ8Qrkv.VSR5dxcK3QhyMc.
+
+Because of the ease of access to the password hashes in the /etc/passwd ﬁ le, it is only a 
+matter of time before a hashed password is matched in a rainbow table and the plaintext 
+password uncovered.
+
+Security experts will tell you that the passwords are not just hashed, but they are also salted.

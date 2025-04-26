@@ -1,0 +1,9 @@
+If this is not set, the host will fail to mount the filesystem and wait for ages until it fails and the 
+attempt times out.
+
+615
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Troubleshooting NFS
+NFS is notoriously hard to troubleshoot as it provides limited logging and obscure error messaging.

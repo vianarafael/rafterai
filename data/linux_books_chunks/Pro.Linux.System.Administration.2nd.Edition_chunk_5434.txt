@@ -1,0 +1,10 @@
+This includes the 
+configuration of your hosts, services, contacts, and commands, as well as all other object types.
+
+The third directive, authorized_for_system_commands, controls who has access to start, stop, or restart 
+
+the Nagios process from the web console.
+
+The next two directives, authorized_for_all_services and authorized_for_all_hosts, control 
+
+which users can view all service and host information on the web console.

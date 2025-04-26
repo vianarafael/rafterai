@@ -1,0 +1,33 @@
+Then perform the following step:
+
+vi /etc/default/iscsitarget (set enable to true)
+
+Add your devices to /etc/iet/ietf.conf
+
+root@debby6:/etc/iet# cat ietd.conf
+Target iqn.2010-02.be.linux-training:storage.lun1
+ IncomingUser isuser hunter2
+ OutgoingUser
+ Lun 0 Path=/dev/vg/lvol0,Type=fileio
+ Alias LUN1
+Target iqn.2010-02.be.linux-training:storage.lun2
+ IncomingUser isuser hunter2
+ OutgoingUser
+ Lun 0 Path=/dev/md0,Type=fileio
+ Alias LUN2
+
+Add both devices to /etc/iet/initiators.allow
+
+root@debby6:/etc/iet# cat initiators.allow
+iqn.2010-02.be.linux-training:storage.lun1
+iqn.2010-02.be.linux-training:storage.lun2
+
+Now start the iscsitarget daemon and move over to the Initiator.
+
+On the Initiator computer:
+
+Install open-iscsi and start the daemon.
+
+Then use iscsiadm -m discovery -t st -p 'target-ip' to see the iscsi devices on the Target.
+
+Edit the files /etc/iscsi/nodes/ as shown in the book.

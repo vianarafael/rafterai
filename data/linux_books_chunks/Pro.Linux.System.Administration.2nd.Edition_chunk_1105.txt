@@ -1,0 +1,19 @@
+The rsyslog.service systemd File
+
+[Unit]
+Description=System Logging Service
+;Requires=syslog.socket
+
+[Service]
+Type=notify
+EnvironmentFile=-/etc/sysconfig/rsyslog
+ExecStart=/usr/sbin/rsyslogd -n $SYSLOGD_OPTIONS
+Restart=on-failure
+UMask=0066
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
+;Alias=syslog.service
+
+In this file we have the [Unit] and [Install] sections as we have seen before.

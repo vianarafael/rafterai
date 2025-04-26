@@ -1,0 +1,5 @@
+Our configuration for the Puppet master will 
+be located under the /etc/puppetlabs directory.
+
+As we have said, Puppet has several components that make up the ecosystem. Puppet’s principal server 
+configuration file is located at /etc/puppetlabs/puppetserver/conf.d/puppetserver.conf.

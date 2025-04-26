@@ -1,0 +1,27 @@
+On most distributions these checks are generally as follows:
+
+•	 Minimum password length of four characters
+
+•	 Not a palindrome (i.e., the reverse of the last password)
+
+•	 Not the same as the previous password with a case change (i.e., password to 
+
+PASSWORD)
+
+Some basic similarity checking
+
+Some simplicity tests based on the length of the password and the combination of 
+characters (all alpha, all numeric, etc.)
+
+Simple rotation checks (i.e., rotating letters in a password, such as ginger being 
+changed to ingerg)
+
+•	
+
+•	
+
+•	
+
+If you provide a password that isn’t sufficiently complex, you’ll be given an error message indicating 
+
+what is wrong with your password.

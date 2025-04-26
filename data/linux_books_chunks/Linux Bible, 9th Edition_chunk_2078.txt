@@ -1,0 +1,13 @@
+You are prompted for the type of 
+
+partition.
+
+8.  Choose an extended (e) or primary partition (p). Type the letter p to choose 
+
+primary.
+
+9.  Type the partition number. If you are creating the ﬁ rst partition (or for only one 
+partition), type the number 1. You are prompted for the ﬁ rst sector to start the 
+partition.
+
+10.

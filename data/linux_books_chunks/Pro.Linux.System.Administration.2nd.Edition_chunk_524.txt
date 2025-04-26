@@ -1,0 +1,11 @@
+Let’s take a closer look at Linux files and the 
+filesystem.
+
+We’re going to start by using a command called pwd, or print working directory.
+
+$ pwd
+/home/jsmith
+
+The pwd command allows you to orient yourself in the filesystem by identifying our working or current 
+
+directory.

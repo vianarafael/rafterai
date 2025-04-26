@@ -1,0 +1,13 @@
+To check the settings on the default network bridge (virbr0), type the following:
+
+# brctl show
+bridge name  bridge id  STP enabled  interfacesvirbr0  
+8000.000000000000  yes
+# ip addr show virbr0
+4: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc 
+     noqueue state UP group default
+    link/ether de:21:23:0e:2b:c1 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+
+6.

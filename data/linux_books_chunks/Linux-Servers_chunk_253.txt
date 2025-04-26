@@ -1,0 +1,11 @@
+Type '\c' to clear the current input statement.
+
+mysql> exit
+Bye
+
+You could also put the password in clear text on the command line, but that would not be
+very secure. Anyone with access to your bash history would be able to read your mysql root
+password.
+
+root@ubu1204~# mysql -u root -phunter2
+Welcome to the MySQL monitor.

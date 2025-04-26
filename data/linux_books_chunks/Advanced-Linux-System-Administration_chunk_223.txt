@@ -1,0 +1,16 @@
+To get infornation about your pcmcia card use the cardctl utility. Put the card into the 
+pcmcia slot and run:
+
+cardctl info
+
+....snip....
+
+PRODID_1="Xircom"
+
+PRODID_2="CardBus Ethernet 10/100 + Modem 56"
+
+PRODID_3="CBEM56G"
+
+....snip....
+
+We can check that this card is listed in /etc/pcmcia/config.

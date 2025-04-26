@@ -1,0 +1,12 @@
+To 
+burn an ISO image to disk on a Mac OS X system, follow these steps:
+
+1.  Download the ISO image you want on your Mac OS X system. An icon representing 
+
+the ISO should appear on your desktop.
+
+2.  Insert a blank CD or DVD into your CD/DVD burner, as appropriate for the size of 
+
+the image.
+
+3.

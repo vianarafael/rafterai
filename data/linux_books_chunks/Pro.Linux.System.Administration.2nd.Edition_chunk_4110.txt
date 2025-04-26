@@ -1,0 +1,7 @@
+The Director Name 
+and Password in the Director object definition in the Storage file must match the storage password in the 
+Storage section of the Director file.
+
+When we define a client in our Director file, the password assigned to the client must be present in the 
+
+File daemon configuration for that Director name.

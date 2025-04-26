@@ -1,0 +1,12 @@
+The partial display that follows shows roles mapped to SELinux 
+usernames:
+
+# semanage user -l
+             Labeling MLS/      MLS/             
+SELinux User Prefix   MCS Level MCS Range       SELinux Roles
+guest_u      user     s0        s0              guest_r
+...
+user_u       user     s0        s0              user_r
+xguest_u     user     s0        s0              xguest_r
+
+If you need to add a new SELinux username, the semanage utility is used again.

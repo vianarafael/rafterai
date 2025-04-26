@@ -1,0 +1,20 @@
+In the full output you can see the slaves listed as well.
+
+You can also check via the ip command as follows:
+
+$ sudo ip link show enp0s8
+3: enp0s8: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> 
+mtu 1500 qdisc pfifo_fast master bond0 state UP mode DEFAULT group default qlen 1000
+    link/ether 08:00:27:5c:94:ef brd ff:ff:ff:ff:ff:ff
+
+$ sudo ip addr show bond0
+9: bond0: <BROADCAST,MULTICAST,MASTER,UP,LOWER_UP> 
+mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 08:00:27:5c:94:ef brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.10/24 brd 192.168.0.255 scope global bond0
+       valid_lft forever preferred_lft forever
+
+You can now see that the IP address 192.168.0.10 is attached to bond0, and both enp0s8 and enp0s9 
+
+are slaves to bond0: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast master 
+bond0.

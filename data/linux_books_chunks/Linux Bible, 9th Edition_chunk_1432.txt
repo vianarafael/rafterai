@@ -1,0 +1,6 @@
+With modprobe -r, instead of just removing the module you request, you can also remove 
+dependent modules that are not being used by other modules.
+
+Summary
+Many features of Linux, especially those that can potentially damage the system or impact 
+other users, require that you gain root privilege.

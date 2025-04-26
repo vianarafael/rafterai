@@ -1,0 +1,7 @@
+To allow this user to do administrative tasks without knowing the root 
+password, select the “Make this user administrator” box.
+
+  By clicking the Advanced box, you can change some of the default settings. 
+For example, with a user named chris, the default home directory would be 
+/home/chris, and the next available user ID and group ID are assigned to the 
+user.

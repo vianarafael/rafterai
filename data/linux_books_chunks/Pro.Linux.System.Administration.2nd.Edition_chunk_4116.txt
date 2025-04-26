@@ -1,0 +1,3 @@
+The QueryFile directive 
+points to /usr/lib/bareos/scripts/query.sql and is a SQL file that contains various “precanned” SQL 
+statements that can be used to query the database from the console.

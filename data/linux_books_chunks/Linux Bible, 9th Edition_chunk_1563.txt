@@ -1,0 +1,7 @@
+You can 
+use the attrib -s -h command from the root directory to deal with hidden ﬁ les.
+
+9
+
+After your disk is defragmented, you can use commercial tools described earlier (Acronis 
+Disk Director) to repartition your hard disk to make space for Linux.

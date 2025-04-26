@@ -1,0 +1,2 @@
+In RHEL 6, the 
+ conﬁ guration ﬁ le for the ﬁ rst Ethernet interface would be ifcfg-eth0.

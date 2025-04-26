@@ -1,0 +1,5 @@
+If a library package is updated, all applications that make use of the library will now 
+automatically use the updated version. The names of these packages often start with lib.
+
+Development packages contain source code and header files that are required to compile software from 
+source. These packages usually have names that end in -dev on Ubuntu or -devel on Red Hat.

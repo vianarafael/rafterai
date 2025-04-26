@@ -1,0 +1,15 @@
+The rescue.target File
+
+[Unit]
+Description=Rescue Mode
+Documentation=man:systemd.special(7)
+Requires=sysinit.target rescue.service
+After=sysinit.target rescue.service
+AllowIsolate=yes
+
+[Install]
+Alias=kbrequest.target
+
+In Listing 6-7 we have removed the comments beginning with the ‘#’ which are ignored by the system 
+
+process. The options are case sensitive.

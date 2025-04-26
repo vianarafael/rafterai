@@ -1,0 +1,4 @@
+On PC architectures, that ﬁ rmware has traditionally been 
+referred to as BIOS (Basic Input Output System). In recent years, a new type of ﬁ rmware 
+has become available (to replace BIOS on some computers), called UEFI (Uniﬁ ed Extensible 
+Firmware Interface).

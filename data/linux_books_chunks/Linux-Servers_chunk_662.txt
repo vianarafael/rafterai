@@ -1,0 +1,15 @@
+Create a directory and share it with Samba.
+
+mkdir /srv/samba/writable
+
+chmod 777 /srv/samba/writable
+
+the share section in smb.conf can look like this:
+
+[pubwrite]
+ path = /srv/samba/writable
+ comment = files to write
+ read only = no
+ guest ok = yes
+
+2.

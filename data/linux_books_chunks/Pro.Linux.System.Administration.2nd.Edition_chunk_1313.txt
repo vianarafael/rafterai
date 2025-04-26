@@ -1,0 +1,5 @@
+we will explain shortly how to permanently apply your changes to your host.
+
+Managing Interfaces
+As we have said, using the ip command is good for adding and managing interfaces on the fly, but we need 
+to also be able to permanently configure interfaces too. There are several ways to do that on Linux.

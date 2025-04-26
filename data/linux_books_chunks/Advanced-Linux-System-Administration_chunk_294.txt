@@ -1,0 +1,17 @@
+This objective also includes being able to properly remove 
+kernel patches from existing production kernels.
+
+Key files, terms, and utilities include:
+Makefile 
+patch
+gzip 
+bzip
+
+• 2.201.4 Customizing a kernel
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to customize a kernel for specific system 
+requirements by patching, compiling, and editing configuration files as required.

@@ -1,0 +1,5 @@
+In comparison, with the required control flag, the remaining 
+modules in the stack continue to be processed.
+
+The next control flag is sufficient. The sufficient flag means that the success of this module is 
+sufficient for the authentication process to be successful or, if modules are stacked, for the stack to succeed.

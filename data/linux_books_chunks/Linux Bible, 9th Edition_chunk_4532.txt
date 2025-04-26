@@ -1,0 +1,6 @@
+SELinux will be 
+disabled after a system reboot. You can now skip the rest of this chapter.
+
+Using the Permissive mode
+In Permissive mode, SELinux is turned on, but the security policy rules are not enforced. 
+When a security policy rule should deny admission, access is still allowed.

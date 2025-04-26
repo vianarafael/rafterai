@@ -1,0 +1,19 @@
+There is also the read-write option rw
+
+no_root_squash  override the default (root_squash) where root is mapped to user 
+
+nobody 
+
+async
+
+sync
+
+ the server writes to disk at predefined intervals (may cause data 
+loss)
+
+ use sync rather than async when exporting a directory read-write
+
+User Mappings
+
+Once a remote directory is mounted on the local client one would expect local users to 
+access their files as if the directory was locally mounted.

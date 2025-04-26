@@ -1,0 +1,6 @@
+If you can simulate your expected workload, you should have a better 
+idea on the best tunings for your filesystem.
+
+Inodes are where posix-compliant filesystems store metadata such as creation and modification dates and 
+permissions and ownership about a file or directory, as well as pointers to which blocks contain the actual 
+file data.

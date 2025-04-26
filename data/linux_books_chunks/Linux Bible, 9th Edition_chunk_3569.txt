@@ -1,0 +1,10 @@
+Mount-level security enables you 
+to restrict the computers that can mount a resource and, for those allowed to mount it, 
+
+527
+
+c20.indd  04/01/2015  Page 528
+
+Part IV: Becoming a Linux Server Administrator
+
+enables you to specify whether it can be mounted read/write or read-only.

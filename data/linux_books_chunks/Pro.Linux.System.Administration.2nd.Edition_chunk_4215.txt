@@ -1,0 +1,5 @@
+Bareos will automatic start a full backup if it does not exist yet. A new volume 
+has been created, and the backup is restoring to it. If you type mess at the command line, you will receive 
+any messages that are available about your job.
+
+Now if we wanted to stop this job, we would use the cancel command with JobId 1 as an argument.

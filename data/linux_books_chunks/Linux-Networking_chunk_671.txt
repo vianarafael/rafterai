@@ -1,0 +1,9 @@
+A stateful firewall will keep a table of active connections, and is knowledgeable
+enough to recognise when new connections are part of an active session. Linux iptables is
+a stateful firewall.
+
+171
+
+introduction to routers
+
+13.5.

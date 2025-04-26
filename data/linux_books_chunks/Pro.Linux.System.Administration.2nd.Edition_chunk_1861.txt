@@ -1,0 +1,5 @@
+Each RPM package can also be inspected, installed and removed by the rpm command. The rpm command is 
+the basic tool for manipulating the RPM files that contain your packages. While you may not often need to use 
+the rpm command directly, it is important that you understand how it works.
+
+There are many options that you can pass to the rpm command.

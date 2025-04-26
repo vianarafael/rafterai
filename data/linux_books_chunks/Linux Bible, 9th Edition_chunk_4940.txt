@@ -1,0 +1,2 @@
+If you are totally ﬁ nished using the VM, select Delete. You are 
+asked if you want to delete the storage as well.

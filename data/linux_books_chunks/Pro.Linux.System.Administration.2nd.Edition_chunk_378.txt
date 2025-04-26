@@ -1,0 +1,9 @@
+This means if we are running 
+a web server in our Vagrant guest machine, we can open our browser and point it to http://localhost:8080  
+and have a web server listening on port 80 on our vagrant host respond.
+
+92
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Listing 3-6.

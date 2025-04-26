@@ -1,0 +1,5 @@
+By 
+default, grep searches text in a case-sensitive way, although you can do case-insensitive 
+searches as well.
+
+Instead of just searching ﬁ les, you can also use grep to search standard output.

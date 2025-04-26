@@ -1,0 +1,6 @@
+For more information on 
+this and access control lists in general, please see www.openldap.org/doc/admin24/access-control.html.
+
+We are granting anonymous auth access; that is, clients need not bind (or authenticate) to our LDAP 
+
+server to authenticate.

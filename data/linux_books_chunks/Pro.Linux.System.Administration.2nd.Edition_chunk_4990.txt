@@ -1,0 +1,12 @@
+If you then try to run a new process, the 
+system will prevent you from doing so.
+
+$ ulimit -u 1
+$ ls
+bash: fork: Resource temporarily unavailable
+
+831
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+You receive an error to indicate the shell could not fork the command you tried to run.

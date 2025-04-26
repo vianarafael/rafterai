@@ -1,0 +1,12 @@
+From that we can create the policy package 
+(ending in .pp) that we can load into the kernel.
+
+576
+
+Chapter 12 ■ Mail ServiCeS
+
+type=AVC msg=audit(1472477657.569:13159): avc:  denied  { write } for  pid=24859 
+comm="smtpd" name="clamav-milter.socket" dev="tmpfs" ino=281983 scontext=system_u:sys
+tem_r:postfix_smtpd_t:s0 tcontext=unconfined_u:object_r:var_run_t:s0 tclass=sock_file
+
+here we can see the log Selinux output in the audit.log.

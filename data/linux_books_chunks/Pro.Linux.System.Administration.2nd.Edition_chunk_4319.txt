@@ -1,0 +1,9 @@
+Let’s do 
+that now by first changing into the /etc/pki/tls directory and executing the following:
+
+$ openssl req -new -newkey rsa:4096 -nodes -keyout private/gateway.example.com.key 
+-out gateway.example.com.req
+
+We’ve generated a 4,096-bit RSA key in the /etc/pki/tls/private directory and created a CSR. You 
+
+will be prompted to populate the required fields (State, City, etc.).

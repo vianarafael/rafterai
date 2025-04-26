@@ -1,0 +1,13 @@
+To determine what Boolean allows users to access their home directories via FTP 
+
+and turn that Boolean on permanently, type the following commands:
+
+# getsebool -a | grep ftp
+ftp_home_dir --> off
+ftpd_anon_write --> off
+...
+# setsebool -P ftp_home_dir=on
+# getsebool ftp_home_dir
+ftp_home_dir --> on
+
+9.

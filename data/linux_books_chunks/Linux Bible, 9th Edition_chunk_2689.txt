@@ -1,0 +1,33 @@
+For example, if runlevel 5 is chosen, then all the scripts 
+in the /etc/rc.d/rc5.d directory are run; your list will be different, depending on what 
+services you have installed and enabled.
+
+# ls /etc/rc.d/rc5.d
+K01smolt                     K88wpa_supplicant   S22messagebus
+K02avahi-dnsconfd            K89dund             S25bluetooth
+K02NetworkManager            K89netplugd         S25fuse
+K02NetworkManagerDispatcher  K89pand             S25netfs
+K05saslauthd                 K89rdisc            S25pcscd
+K10dc_server                 K91capi             S26hidd
+K10psacct                    S00microcode_ctl    S26udev-post
+K12dc_client                 S04readahead_early  S28autofs
+K15gpm                       S05kudzu            S50hplip
+K15httpd                     S06cpuspeed         S55cups
+K20nfs                       S08ip6tables        S55sshd
+K24irda                      S08iptables         S80sendmail
+K25squid                     S09isdn             S90ConsoleKit
+K30spamassassin              S10network          S90crond
+K35vncserver                 S11auditd           S90xfs
+K50netconsole                S12restorecond      S95anacron
+K50tux                       S12syslog           S95atd
+K69rpcsvcgssd                S13irqbalance       S96readahead_later
+K73winbind                   S13mcstrans         S97dhcdbd
+K73ypbind                    S13rpcbind          S97yum-updatesd
+K74nscd                      S13setroubleshoot   S98avahi-daemon
+K74ntpd                      S14nfslock          S98haldaemon
+K84btseed                    S15mdmonitor        S99firstboot
+K84bttrack                   S18rpcidmapd        S99local
+K87multipathd                S19rpcgssd          S99smartd
+
+Notice that some of the scripts within the /etc/rc.d/rc5.d directory start with a K and 
+some start with an S.

@@ -1,0 +1,9 @@
+272
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Using the iptables Command
+Previously we have described the concepts of packet flows in Netfilter and we have introduced the two main 
+commands that we can use to manage them, firewall-cmd and ufw. It is important that we now understand 
+how they work and what they do. We will now show you how to use the iptables command to manage 
+Netfilter.

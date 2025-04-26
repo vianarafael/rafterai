@@ -1,0 +1,6 @@
+However, a cipher with a key size of 256 bits or 512 bits is considered secure because it 
+would take trillions of years to brute-force crack such a keyed cipher.
+
+Symmetric key cryptography
+Symmetric cryptography, also called secret key or private key cryptography, encrypts 
+ plaintext using a single keyed cipher. The same key is needed in order to decrypt the data.

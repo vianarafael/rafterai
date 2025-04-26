@@ -1,0 +1,13 @@
+Go back and reselect the Use colors from system theme box to go back to the 
+
+default Terminal colors.
+
+3.  To ﬁ nd the mount command and tracepath man page:
+
+ ■ Run type mount to see that the mount command’s location is /bin/mount.
+
+ ■ Run locate tracepath to see that the tracepath man page is at 
+
+/usr/share/man/man8/tracepath.8.gz.
+
+4.

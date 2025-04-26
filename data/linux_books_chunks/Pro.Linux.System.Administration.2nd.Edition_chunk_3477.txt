@@ -1,0 +1,9 @@
+For CentOS we will install this:
+
+$ sudo yum install dovecot-pigeonhole
+
+For Ubuntu we will install the following:
+
+$ sudo aptitude install dovecot-sieve dovecot-lmtp
+
+We configure Dovecot to start accepting connections with LMTP.

@@ -1,0 +1,5 @@
+If you find your host frequently using all of your swap space or frequently swapping, then you probably need to 
+tune your host and most often add more raM. We’ll talk about swap space in more detail in Chapters 9 and 17.
+
+At this stage of the installation, Ubuntu will start installing the base package requirements needed to get 
+the rest of the operating system installed.

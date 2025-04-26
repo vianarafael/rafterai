@@ -1,0 +1,2 @@
+As we don’t expect to have many 
+machines turn on and off every minute, we can increase the lease times as well.

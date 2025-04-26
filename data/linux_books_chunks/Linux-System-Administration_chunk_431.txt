@@ -1,0 +1,10 @@
+tune2fs
+
+Use tune2fs to find the uuid of a file system.
+
+[root@RHEL5 ~]# tune2fs -l /dev/sda1 | grep UUID
+Filesystem UUID:          11cfc8bc-07c0-4c3f-9f64-78422ef1dd5c
+[root@RHEL5 ~]# /lib/udev/vol_id -u /dev/sda1
+11cfc8bc-07c0-4c3f-9f64-78422ef1dd5c
+
+9.3.

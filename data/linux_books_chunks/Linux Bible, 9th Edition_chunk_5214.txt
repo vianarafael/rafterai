@@ -1,0 +1,10 @@
+To ﬁ nd all ﬁ les under the /var/spool directory that are owned by users other 
+
+than root and do a long listing of them, type the following (I recommend becoming 
+root to ﬁ nd ﬁ les that might be closed off to other users):
+
+$ su -
+Password: *********
+# find /var/spool -not -user root -ls | less
+
+4.

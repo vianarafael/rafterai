@@ -1,0 +1,10 @@
+# blkid
+
+
+- List all partitions:
+
+`sudo blkid`
+
+- List all partitions in a table, including current mountpoints:
+
+`sudo blkid {{[-o|--output]}} list`

@@ -1,0 +1,6 @@
+(See the Apache site for more information: httpd.apache.org/docs/vhosts/name-
+based.html.)
+
+While you are establishing a connection between an SSL client and an SSL server, asymmet-
+ric (public key) cryptography is used to verify identities and establish the session param-
+eters and the session key.

@@ -1,0 +1,8 @@
+On the second host, simply run the 
+Create a new virtual machine wizard, but select to run an existing image instead of an 
+installation ISO.
+
+26
+
+The hypervisor conﬁ guration I just showed you might suit you well for your home 
+ workstation or even a small business.

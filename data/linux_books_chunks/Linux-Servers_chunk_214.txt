@@ -1,0 +1,14 @@
+You may need
+these packages:
+
+[root@paulserver ~]# yum install httpd openssl mod_ssl
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: ftp.belnet.be
+ * extras: ftp.belnet.be
+ * updates: mirrors.vooservers.com
+base                                                         | 3.7 kB     00:00
+Setting up Install Process
+Package httpd-2.2.15-31.el6.centos.x86_64 already installed and latest version
+Package openssl-1.0.1e-16.el6_5.15.x86_64 already installed and latest version
+Package 1:mod_ssl-2.2.15-31.el6.centos.x86_64 already ins...

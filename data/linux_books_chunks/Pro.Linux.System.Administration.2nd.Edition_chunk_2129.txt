@@ -1,0 +1,5 @@
+Creating a filesystem is like initializing 
+the catalog and moving the shelves into an otherwise empty library.
+
+Just as there is no optimal aisle and shelf layout for all libraries, there is no “best” filesystem for all uses. 
+We won’t go into a lot of detail, but let’s look at some of the most commonly used Linux filesystems.

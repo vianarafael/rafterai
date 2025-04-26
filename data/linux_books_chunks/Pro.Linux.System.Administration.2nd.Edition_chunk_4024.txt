@@ -1,0 +1,3 @@
+As 
+the local Linux user that will run our backups, we need to configure our AWS credentials to access the AWS 
+resources.

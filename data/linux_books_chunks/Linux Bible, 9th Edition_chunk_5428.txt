@@ -1,0 +1,11 @@
+The process’s user context is system_u, indicating a system process.
+
+b. The process’s role is system_r, indicating a system role.
+
+c. The process’s type or domain is crond_t.
+
+d. The process’s sensitivity level starts s0-s0, indicating that it is not highly sen-
+sitive. (It is secure by normal Linux standards, however, because the process is 
+run as the root user.)
+
+e.

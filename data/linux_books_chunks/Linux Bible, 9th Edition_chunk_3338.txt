@@ -1,0 +1,13 @@
+However, anonymous users are denied the ability to upload ﬁ les by default.
+
+18
+
+489
+
+c18.indd  04/01/2015  Page 490
+
+Part IV: Becoming a Linux Server Administrator
+
+To allow anonymous uploads with vsftpd, you must have the ﬁ rst option in the following 
+code example and you may want the second line of code as well (both can be enabled by 
+uncommenting them from the vsftpd.conf ﬁ le).

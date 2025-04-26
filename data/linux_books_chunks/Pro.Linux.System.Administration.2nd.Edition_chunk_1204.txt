@@ -1,0 +1,28 @@
+For example, to turn a service on with the Ubuntu defaults, you issue the following:
+
+$ sudo update-rc.d postfix start defaults
+
+With the defaults, as stated previously, the init.d scripts are symbolically linked to the /etc/rcN.d 
+
+directories and given the standard start and stop priorities of 20 and 80.
+
+209
+
+Chapter 6 ■ Startup and ServiCeS
+
+You can specify the runlevels and priorities you wish your services to start on with the following:
+
+$ sudo update-rc.d postfix start 23 40
+
+Here we have set the service to start at runlevels 2 and 3 with a priority of 40.
+To turn off the service in runlevel 2, issue the following:
+
+$ sudo update-rc.d postfix stop 2
+
+The preceding command will add a K80postfix symbolic link into the /etc/rc2.d directory.
+To remove services from all runlevels, you would issue the following command:
+
+$ sudo update-rc.d postfix remove
+
+If the init.d script for the service you are trying to remove is still present in the /etc/init.d directory, 
+which will be the case if you have not uninstalled Postfix, you will get an error unless you use the -f option.

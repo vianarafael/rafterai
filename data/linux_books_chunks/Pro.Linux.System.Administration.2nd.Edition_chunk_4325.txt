@@ -1,0 +1,15 @@
+For each file we copy and paste 
+them into the gateway.example.com.cert and cacert.pem files to the following directories:
+
+[ca.example.come] $ sudo cat gateway.example.com.cert
+[gateway.example.com] $ sudo vi /etc/pki/tls/certs/gateway.example.com.cert
+[ca.example.come] $ sudo cat certs/cacert.pem
+[gateway.example.com] $ vi /etc/pki/tls/certs/cacerts.pem
+
+Then on the gateway host we make sure we move the private key to the proper directory.
+
+[gateway.example.com] $ sudo mv gateway.example.com.key /etc/pki/tls/private/gateway.
+example.com.key
+
+In the previous lines, we have copied our TLS certificates to their proper locations on our gateway host, 
+including the CA’s root certificate, cacert.pem.

@@ -1,0 +1,7 @@
+As with the command line, you need to specify the 
+hostname (or IP address) and port of the host to which you wish to connect. With a client like PuTTY, you 
+can also do useful things like save connections so you don’t need to input your hostname again.
+
+With Git Bash we can access ssh from the Bash terminal. We showed you how to install Git Bash in 
+
+Chapter 3.

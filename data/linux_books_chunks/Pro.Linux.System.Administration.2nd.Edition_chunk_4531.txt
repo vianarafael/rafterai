@@ -1,0 +1,6 @@
+An e-mail client’s 
+address book may search for the common name, or cn, when it looks for people’s names to populate its 
+address book entries. In such a case, you would want to have an index of the cn attribute optimized for 
+substrings, sub. Table 16-2 lists the common types of indexes available.
+
+Table 16-2.

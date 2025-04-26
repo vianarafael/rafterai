@@ -1,0 +1,15 @@
+test connection with windows
+
+We can now test the connection on a windows 2003 computer. We use the net use for this.
+
+C:\>net use L: \\teacher0\pubwrite
+net use L: \\teacher0\pubwrite
+The command completed successfully.
+
+221
+
+a writable file server
+
+18.5. test writing with windows
+
+We mounted the pubwrite share on the L: drive in windows.

@@ -1,0 +1,11 @@
+These 
+tasks assume you are running a Fedora or Red Hat Enterprise Linux system (although some 
+tasks work on other Linux systems as well).
+
+1.  Determine which initialization daemon your server is currently using.
+
+2.  What command can you use to check the status of the sshd daemon, depending on 
+
+the initialization daemon in use on your Linux server?
+
+3.

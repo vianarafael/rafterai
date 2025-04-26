@@ -1,0 +1,10 @@
+The
+private keys are only readable by root.
+
+root@ubu1204~# ls -l /etc/ssh/ssh_host_*
+-rw------- 1 root root  668 Jun  7  2011 /etc/ssh/ssh_host_dsa_key
+-rw-r--r-- 1 root root  598 Jun  7  2011 /etc/ssh/ssh_host_dsa_key.pub
+-rw------- 1 root root 1679 Jun  7  2011 /etc/ssh/ssh_host_rsa_key
+-rw-r--r-- 1 root root  390 Jun  7  2011 /etc/ssh/ssh_host_rsa_key.pub
+
+25.10.

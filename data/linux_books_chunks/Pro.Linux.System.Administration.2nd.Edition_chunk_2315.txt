@@ -1,0 +1,12 @@
+We’ll show you 
+
+an example later on, when we start failing devices in our array.
+
+393
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+THE /PROC FILESYSTEM
+
+you have likely noticed references to a directory called /proc in this chapter. this is a special directory 
+that contains virtual, or pseudo, in memory filesystem that provides a way of interacting with the kernel.

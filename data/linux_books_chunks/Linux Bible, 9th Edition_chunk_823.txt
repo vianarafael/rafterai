@@ -1,0 +1,7 @@
+The ﬁ nal com-
+mand results in the following text being added to the user’s project ﬁ le:
+
+I finished the project on Sat Sep 6 13:46:49 EDT 2015
+
+Another type of redirection, referred to as here text (also called a here document), enables 
+you to type text that can be used as standard input for a command.

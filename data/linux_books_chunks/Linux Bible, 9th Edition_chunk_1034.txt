@@ -1,0 +1,6 @@
+But if vi is currently being run by 15 different users, that command is represented by 15 
+different running processes.
+
+A process is identiﬁ ed on the system by what is referred to as a process ID. That process ID is unique for 
+the current system. In other words, no other process can use that number as its process ID while that 
+ﬁ rst process is still running.

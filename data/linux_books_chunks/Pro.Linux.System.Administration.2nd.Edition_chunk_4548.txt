@@ -1,0 +1,8 @@
+Attributes that are not mandatory but available to the object class can be declared as MAY.
+
+ ■ Note 
+ The full details of declaring object classes are contained in this rFC: www.rfc-editor.org/rfc/
+rfc4512.txt. A quick explanation of extending your schemata can be found here: www.openldap.org/doc/
+admin24/schema.html.
+
+Attributes have certain rules also.

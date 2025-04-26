@@ -1,0 +1,15 @@
+.stuff     pointer_to_apple grapefruit apple     grape
+
+108
+
+c04.indd  04/01/2015  Page 109
+
+Chapter 4: Moving around the Filesystem
+
+To list ﬁ les and append ﬁ le-type indicators:
+
+$ ls -F
+apple banana docs/ grape grapefruit pointer_to_apple@ script.sh* 
+   watermelon
+
+To avoid displaying certain ﬁ les or directories when you use ls, use the --hide= option.

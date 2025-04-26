@@ -1,0 +1,6 @@
+However, there are many other useful applications 
+that, because of their size, just wouldn’t ﬁ t on a live CD. If you install the live Fedora 
+Workstation to your hard disk (as described in Chapter 9), you almost certainly will want to 
+add some more software.
+
+You can try installing software if you are running the live medium.

@@ -1,0 +1,5 @@
+The PAM facility provides a means of creating policies to secure the 
+tools that are used to authenticate users on your system.
+
+Both the cryptography tools and PAM should be handled with care as you learn about 
+Linux.

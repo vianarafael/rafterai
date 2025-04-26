@@ -1,0 +1,7 @@
+(Some desktops, however, are 
+ conﬁ gured to let regular users use mount to mount CDs, DVDs, or other removable media.)
+
+See the section “Mounting Filesystems” in Chapter 12 for instructions on how to mount a fi lesystem.
+
+To ﬁ nd commands intended primarily for the system administrator, check out the  section 8 
+manual pages (usually in /usr/share/man/man8).

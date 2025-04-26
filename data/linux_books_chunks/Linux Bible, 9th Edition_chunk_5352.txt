@@ -1,0 +1,23 @@
+Next, set the SELinux Boolean to allow uploading:
+
+# setsebool -P allow_ftpd_anon_write on
+
+820
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 821
+
+Appendix B: Exercise Answers
+
+g. Restart the vsftpd service (service vsftpd restart or systemctl 
+
+restart vsftpd.service).
+
+8.

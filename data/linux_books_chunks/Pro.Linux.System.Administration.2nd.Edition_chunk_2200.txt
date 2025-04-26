@@ -1,0 +1,18 @@
+This will give us 
+redundancy and speed.
+
+To create the Btrfs RAID partition we issue the following:
+
+$ sudo mkfs.btrfs -d raid10 -m raid10  /dev/sdb  /dev/sdc /dev/sdd /dev/sde
+btrfs-progs v3.19.1
+See http://btrfs.wiki.kernel.org for more information.
+
+Turning ON incompat feature 'extref': increased hardlink limit per file to 65536
+Turning ON incompat feature 'skinny-metadata': reduced-size metadata extent refs
+adding device /dev/sdc id 2
+adding device /dev/sdd id 3
+adding device /dev/sde id 4
+fs created label (null) on /dev/sdb
+       nodesize 16384 leafsize 16384 sectorsize 4096 size 32.00GiB
+
+Here we have issued the mkfs.btrfs command.

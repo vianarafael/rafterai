@@ -1,0 +1,9 @@
+Using the gpg2 utility, the receiver decrypts the received digital signature using 
+
+the public key, to obtain the original hash or message digest.
+
+7.  The gpg2 utility compares the original hash to the recreated hash to see if they 
+
+match. If they match, the receiver is told the digital signature is good.
+
+8.

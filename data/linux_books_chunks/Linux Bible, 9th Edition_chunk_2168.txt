@@ -1,0 +1,6 @@
+That is followed by 
+the type of ﬁ lesystem, any mount options (or defaults), and two numbers (used to tell com-
+mands such as dump and fsck what to do with the ﬁ lesystem).
+
+The ﬁ rst three entries represent the disk partitions assigned to the root of the ﬁ lesystem (/), 
+the /boot directory, and the /home directory. All three are ext4 ﬁ lesystems.

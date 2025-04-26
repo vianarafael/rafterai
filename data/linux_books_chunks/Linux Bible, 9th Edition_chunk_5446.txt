@@ -1,0 +1,19 @@
+To add a 
+rule to drop all network packets from the IP address, 10.140.67.23, type iptables 
+-A INPUT -s 10.140.67.23 -j DROP at the command line.
+
+836
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 837
+
+Appendix B: Exercise Answers
+
+10.  To remove the rule you added above, without ﬂ ushing or restoring your Linux sys-
+tem ﬁ rewall’s rules, type iptables -D INPUT 1 at the command line.

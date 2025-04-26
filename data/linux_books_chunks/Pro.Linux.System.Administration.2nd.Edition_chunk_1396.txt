@@ -1,0 +1,10 @@
+First we 
+
+see the available interfaces with the following:
+
+$ sudo nmcli c s
+enp0s3       da717740-45eb-4c45-b324-7d78006bb657  802-3-ethernet  enp0s3
+
+Take note of the device uuid (da717740-45eb-4c45-b324-7d78006bb657), we can use that to refer to our 
+
+interface.

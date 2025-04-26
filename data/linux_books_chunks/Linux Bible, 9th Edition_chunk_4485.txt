@@ -1,0 +1,5 @@
+To explore this PAM module further, 
+issue the command man pam_tally2 at the command line.
+
+Obtaining more information on PAM
+PAM is another rich and versatile security tool available to you on the Linux system.

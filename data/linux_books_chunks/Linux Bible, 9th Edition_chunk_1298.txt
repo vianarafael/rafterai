@@ -1,0 +1,10 @@
+1 root root 0 Jan  7 08:42 /mnt/testfile.txt
+[joe]$ rm /mnt/testfile.txt
+rm: cannot remove ‘/mnt/testfile.txt’: Permission denied
+[joe]$ sudo rm /mnt/textfile.txt
+[joe]$
+
+8
+
+In this session, the user joe runs sudo to create a ﬁ le (/mnt/textfile.txt) in a direc-
+tory for which he doesn’t have write permission.

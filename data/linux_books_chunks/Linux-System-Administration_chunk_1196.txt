@@ -1,0 +1,7 @@
+/usr/src
+
+On  your  local  computer,  the  kernel  source  is  located  in  /usr/src.  Note  though  that  the
+structure inside /usr/src might be different depending on the distribution that you are using.
+
+First let's take a look at /usr/src on Debian. There appear to be two versions of the complete
+Linux source code there.

@@ -1,0 +1,20 @@
+But it can be done easier and in one command using git mv.
+
+paul@debian6~/project42$ git mv question.sh thequestion.sh
+paul@debian6~/project42$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+# renamed:    question.sh -> thequestion.sh
+#
+paul@debian6~/project42$ git commit -m "improved naming scheme"
+[master 69b2c8b] improved naming scheme
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename question.sh => thequestion.sh (100%)
+
+229
+
+git
+
+20.4.

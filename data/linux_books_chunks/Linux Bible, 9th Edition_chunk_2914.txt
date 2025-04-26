@@ -1,0 +1,4 @@
+To access 
+web-based CUPS administration from another computer, from the main CUPS page, select 
+the Administration tab, select the check box next to Allow remote administration, and 
+select the Change Settings button.

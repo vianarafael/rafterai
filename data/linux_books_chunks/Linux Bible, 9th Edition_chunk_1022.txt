@@ -1,0 +1,4 @@
+In this chapter, you learned to use the locate and find commands 
+for ﬁ nding ﬁ les and grep for searching ﬁ les.
+
+The next chapter covers a variety of ways to work with processes.

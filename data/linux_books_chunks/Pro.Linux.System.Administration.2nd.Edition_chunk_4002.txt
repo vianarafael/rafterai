@@ -1,0 +1,4 @@
+You 
+
+will need the credentials, SECRET_ACCESS_KEY_ID and SECRET_ACCESS_KEY, for this user handy as we are 
+going to need to add them to our configuration.

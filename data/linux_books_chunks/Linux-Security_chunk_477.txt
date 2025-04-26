@@ -1,0 +1,18 @@
+/var/www/html/test42.txt default label should be httpd_sys_content_t.
+Then you can run restorecon.
+Do
+# /sbin/restorecon -v /var/www/html/test42.txt
+...
+
+110
+
+introduction to SELinux
+
+We follow the friendly advice and try again to download our file:
+
+[root@centos65 ~]# /sbin/restorecon -v /var/www/html/test42.txt
+/sbin/restorecon reset /var/www/html/test42.txt context unconfined_u:objec\
+t_r:samba_share_t:s0->unconfined_u:object_r:httpd_sys_content_t:s0
+[root@centos65 ~]# wget http://localhost/test42.txt
+--2014-04-12 21:54:03--  http://localhost/test42.txt
+Resolving localhost...

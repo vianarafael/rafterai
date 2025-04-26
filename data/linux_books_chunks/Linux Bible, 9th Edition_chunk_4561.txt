@@ -1,0 +1,18 @@
+The example that follows shows the policy rule 
+packages for a Linux system with the Targeted policy implemented:
+
+# ls /etc/selinux/targeted/modules/active/modules/*.pp
+/etc/selinux/targeted/modules/active/modules/abrt.pp
+/etc/selinux/targeted/modules/active/modules/accountsd.pp
+/etc/selinux/targeted/modules/active/modules/acct.pp
+/etc/selinux/targeted/modules/active/modules/ada.pp
+/etc/selinux/targeted/modules/active/modules/afs.pp
+...
+/etc/selinux/targeted/modules/active/modules/xserver.pp
+/etc/selinux/targeted/modules/active/modules/zabbix.pp
+/etc/selinux/targeted/modules/active/modules/zarafa.pp
+/etc/selinux/targeted/modules/active/modules/zebra.pp
+/etc/selinux/targeted/modules/active/modules/zosremote.pp
+
+On your Linux system, there is user documentation on these various policy modules, in 
+the form of HTML ﬁ les.

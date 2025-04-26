@@ -1,0 +1,2 @@
+On both distributions, the /etc/nagios/objects/localhost.cfg configuration file contains some basic 
+configurations for your localhost and some services on it.

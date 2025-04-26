@@ -1,0 +1,3 @@
+In this case, the UID of 1000 belongs to the user johndoe. Thus, from the audit event 
+record displayed above, you can determine that account johndoe has attempted to use the 
+vi editor on the /etc/passwd ﬁ le.

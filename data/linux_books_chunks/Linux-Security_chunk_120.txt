@@ -1,0 +1,19 @@
+id
+
+The id command will give you your user id, primary group id, and a list of the groups that
+you belong to.
+
+paul@debian7:~$ id
+uid=1000(paul) gid=1000(paul) groups=1000(paul)
+
+On RHEL/CentOS you will also get SELinux context information with this command.
+
+[root@centos7 ~]# id
+uid=0(root) gid=0(root) groups=0(root) context=unconfined_u:unconfined_r\
+:unconfined_t:s0-s0:c0.c1023
+
+5
+
+introduction to users
+
+1.6.

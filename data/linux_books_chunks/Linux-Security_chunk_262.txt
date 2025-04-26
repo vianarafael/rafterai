@@ -1,0 +1,33 @@
+listing user accounts
+
+You can use the following command to list all local user accounts.
+
+paul@debian7~$ cut -d: -f1 /etc/passwd | column 
+root            ntp             sam             bert            naomi
+daemon          mysql           tom             rino            matthias2
+bin             paul            wouter          antonio         bram
+sys             maarten         robrecht        simon           fabrice
+sync            kevin           bilal           sven            chimene
+games           yuri            dimitri         wouter2         messagebus
+man             william         ahmed           tarik           roger
+lp              yves            dylan           jan             frank
+mail            kris            robin           ian             toon
+news            hamid           matthias        ivan            rinus
+uucp            vladimir        ben             azeddine        eddy
+proxy           abiy            mike            eric            bram2
+www-data        david           kevin2          kamel           keith
+backup          chahid          kenzo           ischa           jesse
+list            stef            aaron           bart            frederick
+irc             joeri           lorenzo         omer            hans
+gnats           glenn           jens            kurt            dries
+nobody          yannick         ruben           steve           steve2
+libuuid         christof        jelle           constantin      tomas
+Debian-exim     george          stefaan         sam2            johan
+statd           joost           marc            bjorn           tom2
+sshd            arno            thomas          ronald
+
+46
+
+standard file permissions
+
+6.1.3.

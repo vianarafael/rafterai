@@ -1,0 +1,5 @@
+1 mary mary 640999 Jan 22 15:28 /tmp/mystuff/services
+
+With permissions set to 1777 on the /tmp/mystuff directory, you can see that all 
+permissions are wide open, but a t appears instead of the last execute bit. With the /tmp/
+mystuff/services ﬁ le open for writing, any user could open it and change its contents.

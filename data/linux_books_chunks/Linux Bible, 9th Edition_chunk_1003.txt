@@ -1,0 +1,10 @@
+Here, a ﬁ le must be 
+
+owned by the user joe and must also be more than 1MB in size:
+
+$ find /var/all/ -user joe -and -size +1M -ls
+679977 0 -rw-r--r-- 1 joe   joe   4379 Dec 31 2014 /var/all/jj
+
+Finding files and executing commands
+One of the most powerful features of the find command is the capability to execute 
+ commands on any ﬁ les you ﬁ nd.

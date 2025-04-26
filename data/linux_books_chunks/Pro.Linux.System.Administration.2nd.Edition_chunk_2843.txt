@@ -1,0 +1,5 @@
+While this file contains common Apache directives, it references additional files to 
+configure virtual hosts, modules, ports, and IP addresses via include statements like we saw in the CentOS 
+httpd.conf file.
+
+Listing 11-1.

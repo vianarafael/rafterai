@@ -1,0 +1,3 @@
+One starts with smtp, and the other starts with smtpd. Configuration options starting with smtp 
+are used when Postfix is sending e-mail to another e-mail server. Options starting with smtpd are used when 
+Postfix receives e-mail, for example, from a client.

@@ -1,0 +1,5 @@
+Depending on what 
+you are backing up, there may be absolutely no point in keeping data on media with the aim to restore data that 
+is months old; in such cases, you could look at shortening your backup cycles to free up that media.
+
+Another thing to think about is scheduling.

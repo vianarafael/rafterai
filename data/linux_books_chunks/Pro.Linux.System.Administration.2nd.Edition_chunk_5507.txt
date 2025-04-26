@@ -1,0 +1,17 @@
+Here’s an example:
+
+$ sudo cobbler reposync
+task started: 2016-12-22_063019_reposync
+task started (id=Reposync, time=Thu Dec 22 06:30:19 2016)
+hello, reposync
+run, reposync, run!
+running: /usr/bin/debmirror --nocleanup --verbose --ignore-release-gpg --method=http 
+--host=archive.ubuntu.com --root=/ubuntu --dist=xenial,xenial-updates,xenial-security 
+--section=main,universe /var/www/cobbler/repo_mirror/Ubuntu-16.04-x86_64 --nosource -a amd64
+
+This will sync with online repositories and, in this case, uses the debmirror binary we installed earlier to 
+
+sync our Ubuntu Xenial release.
+
+ ■ Tip 
+ You will need sufficient disk space on your host to copy whatever distributions you want to keep.

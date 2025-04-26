@@ -1,0 +1,7 @@
+The advantage of public clouds is that you don’t have to purchase and maintain 
+your own cloud infrastructure.
+
+ ■ Private cloud—With a private cloud, you put your own computing infrastructure in 
+place (hypervisors, controllers, storage, network conﬁ guration, and so on). Setting 
+up your own private cloud means taking on more up-front costs to own and main-
+tain infrastructure.

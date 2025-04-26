@@ -1,0 +1,6 @@
+With top, the default is to display processes based on how much CPU time 
+they are currently consuming. However, you can sort by other columns as well. After you 
+identify a misbehaving process, you can also use top to kill (completely end) or renice 
+(reprioritize) that process.
+
+If you want to be able to kill or renice processes, you need to run top as the root user.

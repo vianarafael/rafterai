@@ -1,0 +1,46 @@
+Signing Our Server Certificate
+
+$ cd /etc/pki/CA
+$ sudo openssl ca -out gateway.example.com.cert -cert certs/cacert.pem -infiles gateway.
+example.com.req
+Using configuration from /etc/pki/tls/openssl.cnf
+Enter pass phrase for /etc/pki/CA/private/cakey.pem:
+Check that the request matches the signature
+
+708
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Signature ok
+Certificate Details:
+        Serial Number: 1 (0x1)
+        Validity
+            Not Before: Oct 22 11:47:26 2016 GMT
+            Not After : Oct 22 11:47:26 2017 GMT
+        Subject:
+            countryName               = AU
+            stateOrProvinceName       = Victoria
+            organizationName          = Example Inc
+            organizationalUnitName    = IT
+            commonName                = gateway.example.com
+            emailAddress              = admin@example.com
+        X509v3 extensions:
+            X509v3 Basic Constraints:
+                CA:FALSE
+            Netscape Comment:
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier:
+                A6:A4:16:17:32:D2:7B:03:D2:5C:5A:DE:85:29:51:BE:E4:73:EA:20
+            X509v3 Authority Key Identifier:
+                keyid:98:3E:03:EB:FF:8A:FF:E8:1A:BC:56:04:CA:BE:BC:DB:D2:FA:68:12
+
+Certificate is to be certified until Oct 22 11:47:26 2017 GMT (365 days)
+Sign the certificate? [y/n]:y
+
+1 out of 1 certificate requests certified, commit? [y/n]y
+Write out database with 1 new entries
+Data Base Updated
+
+First, on our CentOS CA server, we change into our /etc/pki/CA directory and then run the openssl ca 
+
+command to sign our CSR.

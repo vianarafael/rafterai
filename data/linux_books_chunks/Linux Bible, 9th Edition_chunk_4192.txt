@@ -1,0 +1,7 @@
+For a Fedora distribution, 
+you need to issue the command yum install john to install it.
+
+To install John the Ripper on Ubuntu, use the command sudo apt-get install john. 
+
+In order to use John the Ripper to test user passwords, you must ﬁ rst extract account 
+names and passwords using the unshadow command.

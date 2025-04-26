@@ -1,0 +1,13 @@
+Mount the file on a new directory and copy across all the files of the current initrd to the 
+new one:
+
+mkdir /mnt/new
+
+mount -o loop /tmp/initrd-new.img /mnt/new
+
+(cd /mnt/current/; tar cf - .) | (cd /mnt/new; tar xf -)
+
+8. Edit the /mnt/new/linuxrc file and delete the line where the ext3 module is inserted. Also 
+replace the ext3 option by ext2 at the mount command.
+
+9.

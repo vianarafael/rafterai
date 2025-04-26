@@ -1,0 +1,7 @@
+See the smb.conf 
+man page’s description of different ways of identifying hosts and network interfaces.
+
+Restricting Samba access by host
+Host access to the Samba server can be set for the entire service or for single shares. The 
+syntax used is similar to that of the hosts.allow and hosts.deny ﬁ les in the TCP wrap-
+pers feature.

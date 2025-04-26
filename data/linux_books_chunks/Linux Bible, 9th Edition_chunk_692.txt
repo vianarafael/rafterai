@@ -1,0 +1,9 @@
+The two forms of command substitu-
+tion are $(command) and `command` (backticks, not single quotes).
+
+The command in this case can include options, metacharacters, and arguments. The follow-
+ing is an example of using command substitution:
+
+$ vi $(find /home | grep xyzzy)
+
+In this example, the command substitution is done before the vi command is run.

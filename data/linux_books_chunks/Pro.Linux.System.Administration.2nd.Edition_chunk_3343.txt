@@ -1,0 +1,12 @@
+We do this by setting it to none.
+
+protocols = none
+
+Chapter 12 ■ Mail ServiCeS
+
+ We’ll come back to this option when we look at iMap and pOp3 and how to enable them in the 
+
+ ■ Note 
+“Configuring iMap and pOp3” section later in this chapter.
+
+Next, we need to configure the authentication, or auth, service.

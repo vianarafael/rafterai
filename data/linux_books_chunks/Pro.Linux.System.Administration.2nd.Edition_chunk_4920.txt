@@ -1,0 +1,6 @@
+Some are 
+listed here: https://graphite.readthedocs.io/en/latest/tools.html#storage-backend-alternates.
+
+Graphite-web is one of the ways you can view your data. It is a Python app that requires the backing 
+
+of a database, either SQLite (for very small deployments), MariaDB, or PostgreSQL.

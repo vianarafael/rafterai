@@ -1,0 +1,8 @@
+enabling extra ip-addresses
+
+Use ifup to enable the extra addresses.
+
+debian5:~# ifup eth0:0
+debian5:~# ifup eth0:1
+
+4.2.3.

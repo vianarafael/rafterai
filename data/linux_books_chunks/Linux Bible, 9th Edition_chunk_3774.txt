@@ -1,0 +1,4 @@
+Perhaps 
+you were given a computer that had a device disabled in the BIOS. From the operat-
+ing system, for example, it may look like you don’t have a parallel (LPT) port or CD 
+drive.

@@ -1,0 +1,22 @@
+You create profiles for applications by defining what permissions an 
+application will need, and you can manage this fairly easily with the tools that apparmor comes with.
+
+to view the status of apparmor, you can issue the following:
+
+$ sudo apparmor_status
+apparmor module is loaded.
+15 profiles are loaded.
+15 profiles are in enforce mode.
+   /sbin/dhclient
+   /usr/bin/freshclam
+   /usr/bin/lxc-start
+...
+4 processes have profiles defined.
+4 processes are in enforce mode.
+   /usr/bin/freshclam (2153)
+   /usr/sbin/clamd (11998)
+   /usr/sbin/mysqld (2997)
+0 processes are in complain mode.
+0 processes are unconfined but have a profile defined.
+
+You can see that there is already a policy for the clamd service.

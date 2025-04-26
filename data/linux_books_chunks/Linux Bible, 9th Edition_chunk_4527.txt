@@ -1,0 +1,9 @@
+This understanding is needed before you begin conﬁ guring 
+SELinux on your system.
+
+Understanding SELinux operational modes
+SELinux comes with three Operational Modes: Disabled, Permissive, and Enforcing. Each of 
+these modes offers different beneﬁ ts for Linux system security.
+
+Using the Disabled mode
+In the Disabled mode, SELinux is turned off.

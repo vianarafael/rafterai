@@ -1,0 +1,27 @@
+Here’s how to do 
+that for the partitions just created:
+
+ ■ sdc1—To make this into a regular Linux ext4 ﬁ lesystem, type the following:
+
+# mkfs -t ext4 /dev/sdc1
+
+ ■ sdc2—To format this as a swap area, type the following:
+
+# mkswap /dev/sdc2
+
+ ■ sdc3—To make this into an ext2 ﬁ lesystem (the default) type the following:
+
+# mkfs /dev/sdc3
+
+ ■ sdc5—To make this into a VFAT ﬁ lesystem (the default) type the following:
+
+# mkfs -t vfat /dev/sdc5
+
+12
+
+ ■ sdc6—To make this into a LVM physical volume type the following:
+
+# pvcreate /dev/sdc6
+
+These partitions are now ready to be mounted, used as a swap area, or added to an LVM 
+ volume group.

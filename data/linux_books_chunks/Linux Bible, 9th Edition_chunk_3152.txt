@@ -1,0 +1,6 @@
+Instead of needing to have one physical system to serve 
+ content for each domain, you can serve content for multiple domains from the same 
+ operating system.
+
+An Apache server that is doing virtual hosting may have multiple domain names that 
+resolve to the IP address of the server.

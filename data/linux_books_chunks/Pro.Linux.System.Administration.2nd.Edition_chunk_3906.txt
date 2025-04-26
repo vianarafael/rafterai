@@ -1,0 +1,10 @@
+This is the notion of treating servers as cattle and not pets and leaves your 
+backup regimes much simpler.
+
+Network Backups
+Our network is simple: we have one main host, headoffice.example.com, and hosts in remote branch 
+offices that may have data we need to back up.
+
+Figure 14-1 shows our network. (This is a variation on the diagram from Chapter 7.)
+
+Figure 14-1.

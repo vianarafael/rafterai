@@ -1,0 +1,7 @@
+These include -# num, where num is replaced by the number 
+of copies to print (from 1 to 100) and -l (which causes a document to be sent in raw mode, 
+presuming that the document has already been formatted). To learn more options to lpr, 
+type man lpr.
+
+Listing status with lpc
+Use the lpc command to list the status of your printers.

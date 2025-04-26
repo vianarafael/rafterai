@@ -1,0 +1,17 @@
+For example:
+
+$ cd /net/shuttle/usr/local/share
+$ ls
+info man music television
+
+546
+
+ 
+ 
+ 
+c20.indd  04/01/2015  Page 547
+
+Chapter 20: Confi guring an NFS File Server
+
+At this point, the ls should reveal the contents of the /usr/local/share directory on 
+the computer named shuttle.

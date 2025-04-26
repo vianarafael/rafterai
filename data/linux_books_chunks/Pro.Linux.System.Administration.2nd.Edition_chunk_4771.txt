@@ -1,0 +1,27 @@
+The nsswitch.conf file will need to be updated with 
+the following information to tell it to use sssd for passwd, group, and shadow files; this is the information 
+required to log in.
+
+passwd:     files sss
+group:      files sss
+shadow:     files sss
+gshadow:    files
+
+hosts:      files mdns4_minimal [NOTFOUND=return] dns
+networks:   files
+
+protocols:  db files
+services:   db files sss
+ethers:     db files
+rpc:        db files
+
+788
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+# pre_auth-client-config # netgroup:       nis
+netgroup:   nis sss
+sudoers:    files sss
+
+We have the information we seek on the left, and then we have where to look for that information on the 
+right and the order to look for it.

@@ -1,0 +1,8 @@
+The listing <thread>/0 indicates the name of the 
+thread and the /0 is the processor it is running on.
+
+115
+
+ChapTeR 4 ■ LInux BasICs
+
+Processes 445 and 1571 in Listing 4-4 are examples of daemon processes running on your system.

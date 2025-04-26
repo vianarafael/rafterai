@@ -1,0 +1,8 @@
+We now instruct FPM to go into that directory and create a deb package for us. We let FPM do its 
+magic by issuing the following:
+
+$ sudo fpm -s dir -t deb -n nginx -v 1-10.1 -C /tmp/installdir/
+
+Here we have specified –s for the source type of dir, which means directory. The target (-t) is a debian 
+
+package. This would be -t rpm if we were building a RPM package.

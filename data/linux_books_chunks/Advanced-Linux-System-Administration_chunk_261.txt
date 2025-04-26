@@ -1,0 +1,14 @@
+Notice that the name and the version correspond to the name 
+and version defined in the SPEC file
+
+mkdir tmp-fstab-0.2
+
+cp /etc/fstab tmp-fstab-0.2/
+
+Next we archive the directory and copy this to the SOURCES directory
+
+tar cvzf tmp-fstab-0.2.tar.gz tmp-fstab/
+
+cp tmp-fstab-0.2.tar.gz /path/to/SOURCES/
+
+3.

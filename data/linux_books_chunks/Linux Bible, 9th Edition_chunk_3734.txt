@@ -1,0 +1,5 @@
+In fact, if software isn’t working as you would like, you even have the ultimate 
+ opportunity to rewrite the code yourself (although we don’t cover how to do that here).
+
+This chapter takes on some of the most common problems you can run into on a Linux system and 
+describes the tools and procedures you can use to overcome those problems.

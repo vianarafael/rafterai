@@ -1,0 +1,9 @@
+There are many 
+more directives available, and you can find a comprehensive explanation of them in the man smb.conf page.
+
+603
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+The [netlogon] share is not classified as a special service in Samba, but it is a standard service in many 
+default smb.conf files and is included by default in the Ubuntu and CentOS Samba packages.

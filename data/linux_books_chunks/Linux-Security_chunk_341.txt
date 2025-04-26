@@ -1,0 +1,18 @@
+What does this information tell you ?
+
+It tells you there is more than one inode table (one for every formatted partition + virtual
+file systems)
+
+8. Look at the directories /etc/init.d/ /etc/rc.d/ /etc/rc3.d/ ... do you see the links ?
+
+ls -l /etc/init.d
+
+ls -l /etc/rc2.d
+
+ls -l /etc/rc3.d
+
+9. Look in /lib with ls -l...
+
+ls -l /lib
+
+10.

@@ -1,0 +1,20 @@
+Note what user ID has been assigned to jbaxter, and delete the user account 
+
+without deleting the home directory assigned to jbaxter.
+
+281
+
+ 
+ 
+ 
+ 
+ 
+c11.indd  04/01/2015  Page 282
+
+Part III: Becoming a Linux System Administrator
+
+6.  Find any ﬁ les in the /home directory (and any subdirectories) that are assigned to 
+
+the user ID that recently belonged to the user named jbaxter.
+
+7.

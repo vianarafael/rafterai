@@ -1,0 +1,5 @@
+NFS is 
+one of the easiest ways to implement shared storage.
+
+More robust shared storage that can handle disk failures and provide better performance 
+works better for clouds providing critical services.

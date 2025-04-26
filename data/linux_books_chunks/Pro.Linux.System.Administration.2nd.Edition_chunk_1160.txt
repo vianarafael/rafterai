@@ -1,0 +1,7 @@
+if 
+you need to start and stop all services, you should use the commands we introduce in this chapter.
+
+Managing Services with Systemd
+As we have explained previously, in Systemd targets are used to group units so that when you boot our host 
+to a particular target, you can expect certain services to be available and other, possibly conflicting, services 
+to be stopped.

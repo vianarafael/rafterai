@@ -1,0 +1,259 @@
+See commands
+default, identifying, 69
+environment variables, 85–88
+escaping shell characters, 155
+exercises, 95, 784–786
+exiting, 88
+prompt, 67
+starting, 66–69
+
+shell history, 76–66, 80–82
+shell scripts, 153–168
+
+backup example, 168
+command-line arguments, 154
+debugging, 154
+executing, 154
+exercises, 169, 790–793
+integer arithmetic, 158–159
+
+bindex.indd  04/02/2015  Page 855
+
+Index
+
+spooler ﬁ le, 609
+SQL Server, 318
+Squid Log, 609
+squid package, 317, 453
+SSH (Secure Shell), 323–334
+client tools, 326–332
+key-based authentication, 332–334
+openssh-server service, 324–326
+RHCE exam, 26
+
+ssh command
+
+for remote execution, 328–329
+for remote login, 326–328
+X11 forwarding, 328–329
+
+ssh-copy command, 333
+ssh-copy-id command, 346
+ssh-keygen command, 333
+ssh256sum command, 639–640
+ssh384sum command, 639–640
+ssh512sum command, 639–640
+sshd service, 320, 324–326, 332, 334
+SSL (Secure Sockets Layer), 465–471, 816
+ssl.conf ﬁ le, 467
+Stallman, Richard M., 11
+status ssh command, 325
+stop process, 147
+stream ciphers, 628, 631
+stream editor (sed), 166
+su command, 174, 178–179
+subnet mask, 349, 351
+substack control ﬂ ag, PAM, 652
+substituting commands, 84
+sudo command, 174, 180–182, 664
+sudoers ﬁ le, 187
+sufficient control ﬂ ag, PAM, 652
+SUID permissions, 603–606
+Sun Microsystems, 11
+
+NIS (Network Information Service), 279
+PAM (Pluggable Authentication Modules), 610
+shell choice and, 70
+ufs ﬁ lesystem, 303
+VirtualBox, 216
+
+SVID (System V Interface Deﬁ nition), 10, 14
+swap areas
+
+disabling, 304–305
+enabling, 303–304
+
+swapoff command, 304–305
+symbolic links, 106, 108, 110, 161, 330, 331, 399, 
+
+414, 421, 618
+
+symmetric cryptography, 466, 632–633
+syntax, 71–73
+/sysconﬁ g/samba ﬁ le, 502
+sysct1.conf ﬁ le, 25
+SYSLINUX boot loader, 224
+syslogd, 189
+
+855
+
+programming constructs, 159–164
+telephone list example, 167–168
+text-manipulation programs, 164–166
+variables, 154–158
+
+shells ﬁ le, 187
+SHLVL environment variable, 87
+showmount command, 540–541
+Shutdown runlevel, 562
+shutdown state (rc0.d), 185
+SIGABRT signal, 147
+SIGCONT signal, 146, 147
+SIGHUP signal, 146, 147, 148
+SIGINT signal, 147
+SIGKILL signal, 146, 147
+signals, 146–148
+signatures, 628
+SIGQUIT signal, 147
+SIGSTOP signal, 146, 147
+SIGTERM signal, 146, 147, 148
+Single User Mode runlevel, 382
+Single-user runlevel, 562
+single-user state (rc1.d) ﬁ le, 185
+skipddc boot option, 217
+Slackware, 16, 202
+SMB printers, 434–435
+smb service, 502–505
+starting, 503–505
+stopping, 506
+
+smb.conf ﬁ le, 183, 444, 511, 516–521
+smbclient command, 504, 505, 508, 515
+smbpasswd command, 521
+smbusers ﬁ le, 502
+Snort, 620
+software packages
+
+DEB, 236–238
+exercises, 258, 797–798
+RPM, 238–240
+
+installing, 239–240, 253
+managing in the enterprise, 256–257
+managing with YUM, 240–252
+querying information, 254–255
+verifying, 255–256
+
+sanity testing conﬁ guration ﬁ les, 183
+server package categories, 316–318
+tarballs, 236–237
+troubleshooting, 568–573
+updating, 607
+verifying, 615–616
+
+Software window, 47, 233–235
+Spacewalk, 257
+SpamAssassin, 450
+special characters
+
+inserting, 78, 90
+metacharacters, 102–105
+
+bindex.indd  04/02/2015  Page 856
+
+Index
+
+sysstat package, 323, 340, 565
+System Activity Reporter (sar), 323, 340–341
+system administration
+
+administrative commands, 182–183
+checking/conﬁ guring hardware, 190–199
+conﬁ guration ﬁ les, 183–188
+graphical tools, 175–177
+log ﬁ les, 188–189
+systemd journal, 188–189
+using other administrative accounts, 189–190
+using root user account, 177–182
+
+System Administration Tools and Daemons man page 
+
+section, 94
+System Calls man page section, 93
+System Log, 610
+System Monitor, 142–143
+system monitoring, 608–622
+ﬁ lesystems, 615–622
+log ﬁ les, 608–611
+user accounts, 612–615
+
+system resources, monitoring, 340–341
+System Settings window, GNOME 3 desktop, 41–42
+system space, checking, 341–343
+System V init, 552–553
+System V Interface Deﬁ nition (SVID), 10, 14
+system-config-bind, 176
+system-config-date, 176
+system-config-firewall, 176
+system-config-httpd, 176
+system-config-kickstart, 177
+system-config-network, 360
+system-config-nfs, 176, 532
+system-config-printer, 176, 317, 425, 429, 
+
+432–433
+
+system-config-rootpassword, 176
+system-config-samba, 176, 444, 500, 501, 511–516
+system-config-selinux, 509, 689
+system-config-services, 176
+system-config-users, 176
+systemctl command, 438
+systemctl enable sshd.service command, 325
+systemctl list-unit-files command, 393–394
+systemctl start sshd.service command, 325
+systemctl status sshd.service command, 325
+systemd, 378–386
+
+adding new services, 419–422
+backward compatibility to SysVinit, 397–99
+basics, 392–397
+checking services for, 402–403
+conﬁ guring default target, 413–414
+conﬁ guring persistent services, 410–412
+starting/stopping, 406–408
+
+systemd journal, 188–189
+systemd, 553–554
+
+856
+
+SysVinit, 378–386
+
+adding services, 414–417
+checking services for, 400–401
+conﬁ guring persistent services, 408–409
+default runlevel, 412–413
+disabling services, 409
+starting and stopping services, 403–404
+systemd’s backward compatibility, 397–399
+Upstart’s backward compatibility, 388–392
+
+T
+
+t special character, 90
+tarballs, 236–237
+target units, conﬁ guring, 412–414
+Targeted policy, SELinux, 678, 682
+targeted SELinux policies, 672
+targets, iptables, 715
+tcsh, 65, 69
+TCP Wrappers
+
+allowing FTP access in, 486
+NFS access, 539
+
+TE (Type Enforcement), 671–672
+telephone list shell script, 167–168
+telnet command, 323
+termcap ﬁ le, 188
+Terminal window, 68–69
+testparm command, 183
+text
+
+cut command, 165
+grep command, 165
+sed command, 166
+tr command, 165–166
+
+text editors.

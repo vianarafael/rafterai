@@ -1,0 +1,4 @@
+One is directly by finding and loading the desired kernel, and 
+this is the way most Linux distributions are booted. GRUB2 also supports a method of booting, called chain 
+loading; with this method GRUB2 loads another boot loader, such as the loader for Microsoft Windows, 
+which then loads the desired operating system kernel.

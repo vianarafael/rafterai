@@ -1,0 +1,9 @@
+Found in the nat, 
+mangle, and raw tables.
+
+Used to alter packets after they have left the other chains and are about to go out of 
+the interface(s). Found in the nat and mangle tables only.
+
+Each chain correlates to the basic paths that packets can take through a host. When the Netfilter logic 
+
+encounters a packet, the first evaluation it makes is to which chain the packet is destined.

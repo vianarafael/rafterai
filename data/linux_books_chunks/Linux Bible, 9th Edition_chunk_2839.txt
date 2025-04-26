@@ -1,0 +1,9 @@
+1 root root 36 May  1 10:06
+ /etc/systemd/system/default.target ->
+ /lib/systemd/system/runlevel3.target
+
+When the server is rebooted, the multi-user.target is the persistent target unit. Any 
+services in the multi-user.target unit are started (activated) at that time.
+
+Adding New or Customized Services
+Occasionally, you need to add a new service to your Linux server.

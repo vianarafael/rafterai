@@ -1,0 +1,4 @@
+In addition, we’ll install support for the commonly used GD graphics library (used for processing and 
+manipulating image files), the mbstring string conversion library (providing support for multibyte string 
+encodings), and the IMAP mail protocol (provides the ability to handle Internet Message Access Protocol 
+[IMAP] and Post Office Protocol [POP3] functions for dealing with mail).

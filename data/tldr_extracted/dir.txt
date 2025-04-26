@@ -1,0 +1,22 @@
+# dir
+
+
+- List all files, including hidden files:
+
+`dir {{[-a|--all]}}`
+
+- List files including their author (`-l` is required):
+
+`dir -l --author`
+
+- List files excluding those that match a specified blob pattern:
+
+`dir --hide {{pattern}}`
+
+- List subdirectories recursively:
+
+`dir {{[-R|--recursive]}}`
+
+- Display help:
+
+`dir --help`

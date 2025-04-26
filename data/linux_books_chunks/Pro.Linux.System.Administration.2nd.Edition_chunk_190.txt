@@ -1,0 +1,5 @@
+Selecting Begin Installation
+
+After selecting Begin Installation you presented with a screen that shows your installation progress and 
+also gives you the opportunity to create a “root” password and a “user” password. In Linux the root user is a 
+superuser who has access to the whole system, much like the Windows Administrator in the Windows OS.

@@ -1,0 +1,6 @@
+300     IN     A      150.101.213.159
+...<snip>...
+www.google.com.        300     IN     A      150.101.213.174
+;; Received 224 bytes from 216.239.34.10#53(ns2.google.com) in 177 ms
+
+We have removed some of the authentication records listed in the output to make it clearer.

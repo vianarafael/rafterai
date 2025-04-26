@@ -1,0 +1,35 @@
+The other disk is new and has no partition table (sdb), so let’s create one 
+using the gdisk command.
+
+$ sudo gdisk /dev/sdb
+sudo gdisk /dev/sdb
+GPT fdisk (gdisk) version 1.0.1
+
+Partition table scan:
+  MBR: not present
+  BSD: not present
+  APM: not present
+  GPT: not present
+
+Creating new GPT entries.
+
+Command (? for help): ?
+B       back up GPT data to a file
+c       change a partition's name
+d       delete a partition
+i       show detailed information on a partition
+l       list known partition types
+n       add a new partition
+o       create a new empty GUID partition table (GPT)
+p       print the partition table
+q       quit without saving changes
+r       recovery and transformation options (experts only)
+s       sort partitions
+t       change a partition's type code
+v       verify disk
+w       write table to disk and exit
+x       extra functionality (experts only)
+?       print this menu
+
+The gdisk utility mirrors many of the options that you can use in fdisk, if you are going to use a MBR 
+partition table instead.

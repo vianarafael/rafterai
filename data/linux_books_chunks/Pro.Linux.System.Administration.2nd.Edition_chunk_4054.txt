@@ -1,0 +1,11 @@
+Next we are going to edit the ~/.duply/nightly/
+
+exclude file to not back up certain files. The exclude file takes the following syntax:
+
+- /path/to/exclude
++ /path/dir/of/directory/to/include
++ /path/*/**.py
+
+We can use various conditions to select the paths that we want to include (+) or exclude (-). The file list 
+
+is included unless it is specifically excluded.

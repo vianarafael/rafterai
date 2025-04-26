@@ -1,0 +1,3 @@
+This can be changed with the --users option where you can list users that may be able to run that 
+entry (note that anyone listed as a superuser will still have access). Of course, this means that any entry 
+with --unrestricted removed will not boot automatically and will require intervention.

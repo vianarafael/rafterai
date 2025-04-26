@@ -1,0 +1,7 @@
+For a greater explanation, please refer to the 
+documentation here: https://letsencrypt.org/how-it-works/.
+
+We are going to use the Certbot agent provided by Let’s Encrypt to manage our certificates. For this 
+
+to work, your web server will need a valid Domain Name System (DNS) public record and be able to 
+accept HTTP and HTTPS connections from the Internet.

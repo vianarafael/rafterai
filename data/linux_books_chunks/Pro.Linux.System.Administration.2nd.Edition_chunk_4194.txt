@@ -1,0 +1,14 @@
+Media Type = FileStorage matches in both the Director and Storage configuration files.
+
+Device {
+  Name = FileStorage
+  Media Type = File
+  Archive Device = /data/backups/FileStorage
+  LabelMedia = yes;
+  Random Access = Yes;
+  AutomaticMount = yes;
+  RemovableMedia = no;
+  AlwaysOpen = no;
+}
+
+Here we have defined the device that our backups will be stored on.

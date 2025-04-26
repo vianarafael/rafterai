@@ -1,0 +1,30 @@
+You can also follow this guide http://
+wiki.samba.org/index.php/Samba4/HOWTO
+
+Remove old Samba from Red Hat
+
+yum remove samba
+
+set a fix ip address (Red Hat has an easy GUI)
+
+download and untar
+
+samba.org, click 'download info', choose mirror, dl samba4 latest alpha
+
+once untarred, enter the directory and read the howto4.txt
+
+cd samba-4.0.0alpha6/
+
+more howto4.txt
+
+first we have to configure, compile and install samba4
+
+cd source4/
+
+./configure
+
+make
+
+make install
+
+Then we can use the provision script to setup our realm.

@@ -1,0 +1,29 @@
+Also called 
+public.
+
+Specifies a list of users allowed to use this service.
+
+Specifies a list of users/groups that can read/write to a share regardless of 
+the readonly setting.
+
+Assigns a default user to all connections to this share.
+
+Assigns a default group to all connections to this host.
+
+force create mode
+
+Forces Unix permissions on files that are created.
+
+force directory mode
+
+Forces Unix permissions on directories that are created.
+
+create mask
+
+Sets Unix permissions on files that are created.
+
+directory mask
+
+Sets Unix permissions on directories that are created.
+
+You can use these service directives to define the path and access rights to your shares.

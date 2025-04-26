@@ -1,0 +1,7 @@
+The next chapter describes how to set up and administer networking in Linux.
+
+Exercises
+The exercises in this section cover some of the basic tools for connecting to and watching 
+over your Linux servers. As usual, you can accomplish the tasks here in several ways. So 
+don’t worry if you don’t go about the exercises in the same way as shown in the answers, 
+as long as you get the same results.

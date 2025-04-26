@@ -1,0 +1,7 @@
+You don’t get a warning that 
+you are typing capitals; things just start acting weird.
+
+ ■ :!command—You can run a shell command while you are in vi using :! followed 
+by a shell command name. For example, type :!date to see the current date 
+and time, type :!pwd to see what your current directory is, or type :!jobs to 
+see whether you have any jobs running in the background.

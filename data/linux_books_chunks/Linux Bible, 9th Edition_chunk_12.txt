@@ -1,0 +1,5 @@
+The projects he works on include Red Hat Enterprise Linux 7, Red Hat Enterprise OpenStack 
+Platform, Red Hat Enterprise Virtualization and Linux containers in Docker format.
+
+Besides his RHCA certiﬁ cation, Chris is a Red Hat Certiﬁ ed Virtualization Administrator 
+(RHCVA) and Red Hat Certiﬁ ed Datacenter Specialist (RHCDS).

@@ -1,0 +1,3 @@
+If we were going to boot off this 
+device (i.e., maybe create a MBR partition and install grub on it) we would need to change the metadata 
+format we wish to use.

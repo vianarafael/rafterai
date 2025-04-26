@@ -1,0 +1,9 @@
+These ﬁ les can include login scripts and shell 
+conﬁ guration ﬁ les (such as .bashrc).
+
+Other commands that are useful for working with user accounts include usermod (to 
+ modify settings for an existing account) and userdel (to delete an existing user account).
+
+Modifying users with usermod
+The usermod command provides a simple and straightforward method for changing account 
+parameters.

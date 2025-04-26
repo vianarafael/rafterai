@@ -1,0 +1,7 @@
+What makes it a cloud is how those delivering the services set up their computer 
+
+infrastructures to fulﬁ ll the requests.
+
+Cloud technology today makes it possible to view datacenters as large, ﬂ uid pools of host comput-
+ers (hypervisors), controllers, storage nodes, network conﬁ gurations, and many other components. 
+You may wonder what Linux has to do with cloud computing.

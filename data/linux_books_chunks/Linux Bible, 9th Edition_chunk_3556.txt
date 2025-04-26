@@ -1,0 +1,8 @@
+Samba provides a way to 
+interoperate with Windows systems by implementing the Server Message Block (SMB) or 
+Common Internet File (CIFS) protocol for sharing resources over a network.
+
+19
+
+This chapter stepped through the process of installing, starting, securing, conﬁ guring, and 
+accessing Samba servers on a Linux system.

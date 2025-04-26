@@ -1,0 +1,6 @@
+The others all provide POSIX-compliant filesystems that you can mount and access the 
+files and directories natively on your servers.
+
+CephFS and GlusterFS are most similar in architecture in that they both don’t require a metadata server, 
+
+where the architecture of BeeGFS and HDFS are similar in that they do.

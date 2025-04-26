@@ -1,0 +1,10 @@
+We can also specify individual packages by listing them by name without the 
+@ symbol and space, as we have here with the dhcp package.
+
+Ubuntu uses a similar setup.
+
+%packages
+@ kubuntu-desktop
+dhcp-client
+
+Here we’ve installed the Kubuntu-Desktop package group and the dhcp-client package.

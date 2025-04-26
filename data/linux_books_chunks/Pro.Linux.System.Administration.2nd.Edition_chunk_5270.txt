@@ -1,0 +1,2 @@
+It can monitor to 
+confirm both that a service is running and that it is performing appropriately.

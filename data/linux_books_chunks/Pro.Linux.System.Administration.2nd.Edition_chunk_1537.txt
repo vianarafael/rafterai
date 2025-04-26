@@ -1,0 +1,10 @@
+We use the –c 4 option to limit the number of pings that are sent to the 
+destination host to four.
+
+ping –c 4 192.168.0.50
+PING 192.168.0.50 (192.168.0.50) 56(84) bytes of data.
+
+--- 192.168.0.50 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 2999ms
+
+Our hosts can’t see each other when we ping from Host F to Host D.

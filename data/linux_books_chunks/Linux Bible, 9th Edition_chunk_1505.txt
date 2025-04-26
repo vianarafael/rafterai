@@ -1,0 +1,7 @@
+From that screen, you can select to change: Date & Time, 
+Language support, Keyboard, Installation Source, Software Selection, Installation 
+Destination, and Network & Hostname, as shown in Figure 9.3.
+
+5.  Date & Time. Choose a time zone for your machine from either the map or the 
+
+list shown (as described in the Fedora section).

@@ -1,0 +1,5 @@
+For about a decade, I wrote dozens of Linux books 
+and explored the best ways to explain Linux from the quiet of my small home ofﬁ ce.
+
+In 2008, I hit the road. I was hired by Red Hat, Inc., as a full-time instructor, teaching Linux to 
+professional system administrators seeking Red Hat Certiﬁ ed Engineer (RHCE) certiﬁ cation.

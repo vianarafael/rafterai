@@ -1,0 +1,6 @@
+If you have httpd-manual installed, you can reach descriptions of these 
+directives and other Apache features by opening the manual from the server you have running Apache: 
+http://localhost/manual/.
+
+In Fedora and RHEL, the basic Apache server’s primary conﬁ guration ﬁ le is in 
+/etc/httpd/conf/httpd.conf.

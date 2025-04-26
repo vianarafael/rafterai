@@ -1,0 +1,3 @@
+Then we have 
+defined three host groups with the [] brackets. They include hosts that are of a particular operating system, 
+either all CentOS or all Ubuntu, but the groups can be anything that makes sense to your installation.

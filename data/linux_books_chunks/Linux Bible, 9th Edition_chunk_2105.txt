@@ -1,0 +1,2 @@
+While the partitions are now set for different types of content, other commands are 
+needed to structure the partitions into ﬁ lesystems or swap areas.

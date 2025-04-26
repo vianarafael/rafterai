@@ -1,0 +1,9 @@
+Document ﬁ les can be either added to the 
+end of the lpr command line or directed to the lpr command using a pipe (|). Here’s an 
+example of a simple lpr command:
+
+$ lpr doc1.ps
+
+When you specify just a document ﬁ le with lpr, output is directed to the default printer. 
+As an individual user, you can change the default printer by setting the value of the 
+PRINTER variable.

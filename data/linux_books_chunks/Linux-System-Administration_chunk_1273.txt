@@ -1,0 +1,10 @@
+No rewind and compression is similar
+to SCSI tapes.
+
+/dev/ht0   First IDE tape device
+/dev/nht0  Second no rewind IDE tape device
+/dev/ht0m  First medium compression IDE tape device
+
+30.1.3. mt
+
+To manage your tapes, use mt (Magnetic Tape).

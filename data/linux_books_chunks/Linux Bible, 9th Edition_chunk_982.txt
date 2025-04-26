@@ -1,0 +1,7 @@
+By using -iname instead, you can match 
+any combination of upper and lower case. Using asterisks, you can match any ﬁ lename that 
+includes the word passwd.
+
+Finding files by size
+If your disk is ﬁ lling up and you want to ﬁ nd out where your biggest ﬁ les are, you can 
+search your system by ﬁ le size.

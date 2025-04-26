@@ -1,0 +1,3 @@
+In the example that follows, johndoe has given the ﬁ le 
+ containing his public key to the user jill. She adds johndoe’s public key to her key ring, 
+using the gpg2 --import command.

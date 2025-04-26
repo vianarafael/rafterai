@@ -1,0 +1,12 @@
+Testing our ability to send and receive e-mail
+
+590
+
+Chapter 12 ■ Mail ServiCeS
+
+You should also be able to see a record of your connection and authentication in the appropriate log file 
+
+for your distribution: /var/log/maillog on CentOS and /var/log/mail.log on Ubuntu, as you can see in 
+Listing 12-16.
+
+Listing 12-16.

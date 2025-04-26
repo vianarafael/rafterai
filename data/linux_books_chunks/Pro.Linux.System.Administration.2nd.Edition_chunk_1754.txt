@@ -1,0 +1,51 @@
+Ubuntu has 
+appended the following information to the end of our /etc/ppp/peers/dsl-provider file:
+
+# Minimalistic default options file for DSL/PPPoE connections
+noipdefault
+defaultroute
+replacedefaultroute
+hide-password
+#lcp-echo-interval 30
+#lcp-echo-failure 4
+noauth
+persist
+#mtu 1492
+#persist
+#maxfail 0
+#holdoff 20
+plugin rp-pppoe.so
+nic-enp0s8
+user "username"
+
+The password information is stored here, in the /etc/ppp/chap-secrets file, and the contents are 
+
+much like Listing 7-10.
+
+If you are are not successful you can view connection logs via the plog command on Ubuntu or /var/
+
+log/messages on CentOS.
+
+294
+
+You should also check to make sure that your default route is set to the ISP’s first hop and that it is going 
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+out the right interface.
+
+$ ip route show
+default via 10.1.1.1 dev adsl-enp0s8
+
+In the above example, 10.1.1.1 would be your ISPs first hop and traffic will go out the adsl-enp0s8 
+
+interface if it is destined to leave your network.
+
+For more information on setting up a connection on Ubuntu, please see:
+
+•	
+
+https://help.ubuntu.com/community/ADSLPPPoE
+
+Summary
+In this chapter we have taken you through networking and the Linux Netfilter firewall.

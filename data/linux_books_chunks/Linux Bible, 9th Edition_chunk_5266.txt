@@ -1,0 +1,10 @@
+To display the contents of a remote /etc/system-release ﬁ le and have its con-
+
+tents displayed on the local system using remote execution with the ssh command, 
+do the following:
+
+$ ssh joe@localhost "cat /etc/system-release"
+joe@localhost's password: *********
+Fedora release 21 (Twenty One)
+
+3.

@@ -1,0 +1,32 @@
+Try running an rsync command to do the same action 
+scp just did, but with a few added options:
+
+$ rm -rf /tmp/man1/
+$ rsync -avl johndoe@10.140.67.23:/usr/share/man/man1/ /tmp/
+johndoe@10.140.67.23's password: ***************
+sending incremental file list
+man1/
+man1/HEAD.1.gz
+man1/Mail.1.gz -> mailx.1.gz
+...
+$ rsync -avl johndoe@10.140.67.23:/usr/share/man/man1/ /tmp/
+
+330
+
+c13.indd  04/01/2015  Page 331
+
+Chapter 13: Understanding Server Administration
+
+johndoe@10.140.67.23's password: ***************
+sending incremental file list
+sent 42362 bytes  received 13 bytes  9416.67 bytes/sec
+total size is 7322223  speedup is 172.80
+$ ls -l /usr/share/man/man1/batch* /tmp/man1/batch*
+lrwxrwxrwx.1 johndoe johndoe 7 Feb 14 17:49 /tmp/man1/batch.1.gz
+       -> at.1.gz
+lrwxrwxrwx.1 root root 7 Feb 14 17:49 /usr/share/man/man1/batch.1.gz
+       -> at.1.gz
+
+After removing the /tmp/man1 directory, you run an rsync command to copy all the 
+ﬁ les to the /tmp/man1 directory, using -a (recursive archive), -v (verbose), and -l (copy 
+ symbolic links).

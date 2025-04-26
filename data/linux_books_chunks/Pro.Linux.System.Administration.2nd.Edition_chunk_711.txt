@@ -1,0 +1,6 @@
+The kate editor
+
+Summary
+Well, what have you learned? First of all, Linux isn’t that hard to understand and the command line is a very 
+powerful tool. Compared to Window or Macs it encompasses a lot of similar concepts and principles, and 
+this will help you get started with Linux.

@@ -1,0 +1,7 @@
+We’ll decode some of the arcane commands you’ll need to know and demonstrate these 
+commands and their functions.
+
+This chapter focuses on getting started, logging in, logging in locally and remotely, and working with 
+
+and navigating the command line and the filesystem. We’re also going to introduce some basic Linux 
+concepts: users, groups, packages, services.

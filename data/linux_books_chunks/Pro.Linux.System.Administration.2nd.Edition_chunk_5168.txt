@@ -1,0 +1,11 @@
+They can detect the relationships between that data and either put those pieces 
+together into a coherent whole or provide you with the right pieces to allow you to put that analysis together 
+for yourself.
+
+But you have to ensure those tools are the right tools and are configured to look for the right things so 
+
+you can rely on them to tell you that something is wrong and that you need to intervene.
+
+The first stage of building such an automated log-monitoring system is to make sure you are collecting 
+
+the right things and putting them in the right place.

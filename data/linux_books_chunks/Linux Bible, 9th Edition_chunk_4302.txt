@@ -1,0 +1,20 @@
+In the example code that follows, note the following:
+
+ ■ jill has created a text ﬁ le, MessageForJohn.txt, for user johndoe.
+
+ ■ She encrypts the ﬁ le using his public key.
+
+ ■ The encrypted ﬁ le, MessageForJohn, is created by the --out option.
+
+ ■ The option --recipient identiﬁ es johndoe’s public key using only the real name 
+
+portion of his public key’s UID in quotation marks, "John Doe".
+
+$ gpg2 --out MessageForJohn --recipient "John Doe" \
+ --encrypt MessageForJohn.txt
+...
+$ ls
+JohnDoe.pub  MessageForJohn  MessageForJohn.txt
+
+The encrypted message ﬁ le, MessageForJohn, created from the plaintext ﬁ le, 
+MessageForJohn.txt, can be securely sent to the user johndoe.

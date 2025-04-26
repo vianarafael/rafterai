@@ -1,0 +1,11 @@
+Again, for OpenLDAP, 
+subtle differences exist between the two distributions, and we’ll detail them next.
+
+739
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+CentOS Installation Guide
+We will now take you through the installation of an OpenLDAP server on our CentOS host. The binaries are 
+available from the CentOS repositories, and you can install them via the yum command or via the Package 
+Manager GUI.

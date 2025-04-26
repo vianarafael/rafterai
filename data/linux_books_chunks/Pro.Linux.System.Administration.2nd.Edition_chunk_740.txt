@@ -1,0 +1,12 @@
+To do this, you need to use a command called visudo to edit 
+the sudo command’s configuration file, /etc/sudoers. To do this, you need to log on as the root user and 
+run the visudo command.
+
+# visudo
+
+149
+
+Chapter 5 ■ Users and GroUps
+
+As you can see from the # command prompt, you’re logging in as the root user and you’re executing the 
+visudo command.

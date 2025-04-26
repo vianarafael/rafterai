@@ -1,0 +1,8 @@
+If the 
+value is Ubuntu, then the ubuntu class is included; here you can see we can use a regular expression to match 
+on Ubuntu or Debian. The last value, default, is the behavior if the value does not match either redhat or 
+ubuntu. In this case, the common class is applied to the client.
+
+We’ve used another Puppet conditional, a selector, in Listing 19-12.
+
+Listing 19-12.

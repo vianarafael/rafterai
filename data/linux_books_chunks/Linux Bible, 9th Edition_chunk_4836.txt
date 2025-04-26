@@ -1,0 +1,5 @@
+Well, Linux just happens to be at the 
+heart of many of today’s public and private cloud technologies.
+
+This chapter introduces you to concepts of cloud computing, in general, and cloud technologies 
+associated with Linux, in particular.

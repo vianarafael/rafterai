@@ -1,0 +1,18 @@
+Run the netstat command as 
+follows to see that the rsyslogd daemon is listening on IPv4 and IPv6 ports 514 
+for both UDP and TCP services:
+
+338
+
+c13.indd  04/01/2015  Page 339
+
+Chapter 13: Understanding Server Administration
+
+# netstat -tupln | grep 514
+tcp      0    0 0.0.0.0:514   0.0.0.0:*   LISTEN     25341/rsyslogd
+tcp      0    0 :::514        :::*        LISTEN     25341/rsyslogd
+udp      0    0 0.0.0.0:514   0.0.0.0:*              25341/rsyslogd
+udp      0    0 :::514        :::*                   25341/rsyslogd
+
+Watching logs with logwatch
+The logwatch service runs in most Linux systems that do system logging with rsyslog.

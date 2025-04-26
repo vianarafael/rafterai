@@ -1,0 +1,2 @@
+You can add your own shares to this configuration as you see 
+fit. There are several things we need to do now to the host to get it ready for users.

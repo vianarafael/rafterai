@@ -1,0 +1,5 @@
+However, if you choose this path, you 
+might like to have separate credentials for Samba from other systems (which adds to the administration 
+burden).
+
+So, you will first need to create the .smb_credentials file in the home directory.

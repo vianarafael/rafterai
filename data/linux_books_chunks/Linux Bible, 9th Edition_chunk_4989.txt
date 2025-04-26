@@ -1,0 +1,8 @@
+Click the "Are you an OpenStack user" link under General 
+
+Purpose and select the "Download" button that appears to get a qcow2 image 
+that can be used in an OpenStack environment. The image name is something 
+like: Fedora-Cloud-Base-20141203-21.x86_64.qcow2.
+
+5.  Snapshot the image. You probably need to run this procedure a few times before 
+you get the exact image you want.

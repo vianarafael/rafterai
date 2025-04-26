@@ -1,0 +1,7 @@
+The 
+header in Listing 12-15 has a value of Infected and the signature it matched. If a virus had been detected, 
+the header would be marked Clean.
+
+What to Do with an Infected E-mail?
+Like with the X-Spam-Status header, you can use this header to process e-mail identified as containing a 
+virus differently, for example, if you wanted to move all such e-mail to a separate folder called Viruses.

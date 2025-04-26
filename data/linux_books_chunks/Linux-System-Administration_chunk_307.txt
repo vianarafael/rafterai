@@ -1,0 +1,13 @@
+Note that an extended partition
+is a container holding logical drives.
+
+46
+
+disk partitions
+
+5.2. discovering partitions
+
+5.2.1. fdisk -l
+
+In the fdisk -l example below you can see that two partitions exist on /dev/sdb. The first
+partition spans 31 cylinders and contains a Linux swap partition.

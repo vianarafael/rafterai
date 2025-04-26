@@ -1,0 +1,14 @@
+git commit
+
+With  git  commit  you  force  git  to  record  all  added  files  (and  all  changes  to  those  files)
+permanently.
+
+paul@debian6~/project42$ git commit -m "starting a project"
+[master (root-commit) 5c10768] starting a project
+ 1 file changed, 1 insertion(+)
+ create mode 100644 question.sh
+paul@debian6~/project42$ git status
+# On branch master
+nothing to commit (working directory clean)
+
+20.3.5.

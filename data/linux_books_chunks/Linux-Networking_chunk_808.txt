@@ -1,0 +1,22 @@
+First the smb.conf.full file with the explicitly set option workgroup to WORKGROUP.
+
+[root@RHEL4b samba]# cat smb.conf.full 
+[global]
+workgroup = WORKGROUP
+
+# This is a demo of a documented smb.conf
+# These two lines are removed by testparm -s
+
+server string = Public Test Server
+
+[firstshare]
+path = /srv/samba/public
+
+Next, we execute testparm with the -s option, and redirect stdout to the real smb.conf file.
+
+[root@RHEL4b samba]# testparm -s smb.conf.full > smb.conf
+Load smb config files from smb.conf.full
+Processing section "[firstshare]"
+Loaded services file OK.
+
+And below is the end result.

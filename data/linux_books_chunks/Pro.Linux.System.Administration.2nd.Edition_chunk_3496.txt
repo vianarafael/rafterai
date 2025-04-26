@@ -1,0 +1,11 @@
+Normally we would have this set to 
+Quarantine, but for the coming example we want our infected mail delivered so we can see the headers that 
+we have added.
+
+For the scanner on CentOS we have to edit /etc/clamd.d/scan.conf and make sure the following is set 
+
+as well as Example if removed:
+
+LocalSocket /var/run/clamd.scan/clamd.sock
+
+Ubuntu doesn’t need much configuration.

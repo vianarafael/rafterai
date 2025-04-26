@@ -1,0 +1,5 @@
+This can be a tremendous savings of network bandwidth for directories with 
+gigabytes of ﬁ les where only a few megabytes change.
+
+Also notice from the output of ls -l that the symbolic links have been preserved on the 
+batch.1.gz ﬁ le and so has the date/time stamp on the ﬁ le.

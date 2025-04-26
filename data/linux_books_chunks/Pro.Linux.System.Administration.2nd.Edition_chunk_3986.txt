@@ -1,0 +1,2 @@
+We know that if 
+everything goes well, rsync will exit with a zero; otherwise, it exits with another error code.

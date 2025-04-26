@@ -1,0 +1,8 @@
+update-rc.d
+
+15.5.1. about update-rc.d
+
+The Debian equivalent of chkconfig is called update-rc.d. This tool is designed for use in
+scripts, if you prefer a graphical tool then look at bum.
+
+When there are existing links in /etc/rcX.d/ then update-rc.d does not do anything.

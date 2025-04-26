@@ -1,0 +1,14 @@
+smb.conf [global] section
+
+In this example the samba server is a member of WORKGROUP (the default workgroup).
+We also set a descriptive server string, this string is visible to users browsing the network
+with net view, windows explorer or smbclient.
+
+[root@RHEL52 samba]# head -5 smb.conf
+[global]
+ workgroup = WORKGROUP
+ server string = Public Anonymous File Server
+ netbios name = TEACHER0
+ security = share
+
+You might have noticed the line with security = share.

@@ -1,0 +1,12 @@
+This is implemented in Fedora and RHEL 
+
+372
+
+c14.indd  04/01/2015  Page 373
+
+Chapter 14: Administering Networking
+
+by installing the bind, bind-utils, and bind-libs packages. For added security, some 
+people install the bind-chroot package.
+
+By default, bind is conﬁ gured by editing the /etc/named.conf ﬁ le.

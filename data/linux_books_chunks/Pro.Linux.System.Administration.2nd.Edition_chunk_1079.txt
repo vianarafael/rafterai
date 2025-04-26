@@ -1,0 +1,4 @@
+This program is the first program to be started on your system and is running until the system 
+is shut down; unsurprisingly this process will have the process id (PID) of 1. The initialization program, 
+or “init,” will bring the system up to a known “state” by finding out what services need to started and what 
+they’re dependent on.

@@ -1,0 +1,13 @@
+However, Postfix has a lot of other facets to make your environment more secure and your user’s 
+experience better, including the following:
+
+•	
+
+•	
+
+Encryption: To secure the transmission of both e-mail and the user credentials
+
+Authentication: To ensure only appropriate and authenticated users can send e-mail
+
+Using Encryption
+The Postfix MTA is able to encrypt e-mail transmission via an encryption protocol called TLS.

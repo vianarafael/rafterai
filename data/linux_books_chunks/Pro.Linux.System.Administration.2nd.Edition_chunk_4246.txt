@@ -1,0 +1,11 @@
+This plug-in will make use of the mysqldump and mysql commands to make a 
+database backup, consisting of a file for each database found.
+The plug-in we are going to use can be found here:
+
+•	
+
+https://github.com/bareos/bareos-contrib/tree/master/fd-plugins/mysql-
+python
+
+We are going to install it in /usr/lib64/bareos/plugins and then make a configuration change to 
+update our bareos-fd.conf file.

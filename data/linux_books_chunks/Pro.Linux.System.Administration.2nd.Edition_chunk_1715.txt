@@ -1,0 +1,25 @@
+You can read more about the --direct argument here:
+
+•	
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/Security_Guide/sec-Using_Firewalls.html#sec-Introduction_
+to_firewalld
+
+In that link you will also find how to apply limit and logging with firewall-cmd as well using the Rich 
+
+Language commands.
+
+Also remember to issue the following each time you want to change your firewall rules with firewall-
+
+cmd:
+
+$ sudo firewall-cmd --reload
+
+ ■ Caution 
+trigger the DroP rule, effectively denying you access to your system.
+
+ these rules can sometimes be problematic if people spoof your legitimate iP address in order to 
+
+Further to this, we can use tools like Fail2ban or Sec to parse our SSH logs and then ‘jail’ or ‘drop’ 
+connections that match a set of unsuccessful connection attempt criteria.

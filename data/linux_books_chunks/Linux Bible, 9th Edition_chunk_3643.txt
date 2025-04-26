@@ -1,0 +1,6 @@
+NFS read-only ﬁ le sharing is allowed 
+with this on, regardless of the SELinux ﬁ le context set on the shared ﬁ les and 
+directories.
+
+ ■ nfs_export_all_rw—With this Boolean set to on, SELinux allows you to share 
+ﬁ les with read/write permission using NFS.

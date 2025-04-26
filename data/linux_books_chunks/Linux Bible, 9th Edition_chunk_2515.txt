@@ -1,0 +1,13 @@
+Packets are routed as follows:
+
+ ■ A packet intended for the local system is sent to the lo interface.
+
+ ■ A packet intended for a system on your local network is directed through your NIC 
+
+directly to the intended recipient system’s NIC.
+
+ ■ A packet intended for any other system is sent to the gateway (router) that directs 
+
+the packet on to its intended address on the Internet.
+
+Of course, what I have described here is one of the simplest cases.

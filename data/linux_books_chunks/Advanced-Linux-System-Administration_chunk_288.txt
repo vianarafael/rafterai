@@ -1,0 +1,54 @@
+Even with 
+changed files rsync will send only the difference between the two files.
+
+The syntaxes are:
+
+rsync SRC HOST:/DEST
+
+rsync HOST:/SRC  DEST 
+
+80
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+One can change the value of the remote shell variable RSYNC_RSH used by rsync :
+
+export RSYNC_RSH=ssh
+
+Here is an example script using rsync to keep “Fedora Updates” updated on the local server:
+
+#!/bin/sh
+
+cd /var/ftp/pub/updates/fedora
+
+(
+date
+echo
+echo "=== Sync Files ==="
+rsync -vaz --delete --delete-excluded --exclude="*/debug/*" 
+rsync://rsync.mirror.ac.uk:873/download.fedora.redhat.com/pub/fedora/linux/core/up
+dates/1/ 
+linux/core/updates/1/ 2>&1
+echo "=== Sync Files Done ==="
+echo
+date
+) | mail -s "Fedora Updates Sync Results" andrew@anvil.org
+
+81
+
+LinuxIT Technical Training Centre
+
+AppendixA
+
+_____________________________________________________
+
+AppendixA
+
+Example Perl Module:  Spreadsheet
+
+The Spreadsheet::WriteExcel perl module can generate spreadsheet files.
+This module is dependent on the Parse::RecDescent module.

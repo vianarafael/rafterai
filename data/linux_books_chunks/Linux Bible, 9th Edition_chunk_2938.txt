@@ -1,0 +1,18 @@
+Double-click the 
+printer to see the Properties window for that printer, as shown in Figure 16.3.
+
+FIGURE 16.3
+
+The Printer Properties window after adding a printer.
+
+430
+
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 431
+
+Chapter 16: Confi guring a Print Server
+
+8.  If you want the printer to be your default printer, right-click the printer and 
+select Set As Default.

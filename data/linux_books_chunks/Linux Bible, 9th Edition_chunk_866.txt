@@ -1,0 +1,3 @@
+The second line shows the test directory (indicated by 
+the letter d before the permission bits). The owner has read, write, and execute permissions 
+while the group and other users have only read and execute permissions.

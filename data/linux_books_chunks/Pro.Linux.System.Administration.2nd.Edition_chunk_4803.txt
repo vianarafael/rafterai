@@ -1,0 +1,4 @@
+We showed you how to configure and install an OpenLDAP directory server and populate 
+it with user accounts and management accounts. We discussed schemata, indexes, and access control lists. 
+We showed you how to use the various client tools provided by OpenLDAP to query and manage the LDAP 
+server.

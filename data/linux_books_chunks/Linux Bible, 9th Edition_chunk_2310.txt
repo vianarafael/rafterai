@@ -1,0 +1,4 @@
+The ssh command is one you will use often to 
+access a shell on the servers you are conﬁ guring.
+
+Try logging in to your Linux server from another Linux system using the ssh command.

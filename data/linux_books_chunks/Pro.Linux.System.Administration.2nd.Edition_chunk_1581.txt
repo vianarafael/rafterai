@@ -1,0 +1,5 @@
+when a specific type of fish is swimming by it is attracted to a certain bait. once it 
+is hooked we determine its fate by what is at the end of the line. iptables is just like fishing for network packets!
+
+Policies
+Each built-in chain defined in the filter table can also have a policy.

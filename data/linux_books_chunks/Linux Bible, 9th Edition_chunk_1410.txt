@@ -1,0 +1,4 @@
+You can change that default to launch Totem (videos), Brasero 
+(DVD burner) or another media player you have installed (such as MPlayer).
+
+ ■ Music player—When inserted media contains audio ﬁ les, you are asked what to do.

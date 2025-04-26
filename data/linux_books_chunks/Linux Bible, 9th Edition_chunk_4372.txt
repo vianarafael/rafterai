@@ -1,0 +1,6 @@
+Today, 
+most Linux distributions use PAM.
+
+PAM simpliﬁ es the authentication management process. Remember that authentication (see 
+Chapter 22, “Understanding Basic Linux Security”) is the process of determining that a subject 
+(a.k.a. user or process) is who he says he is.

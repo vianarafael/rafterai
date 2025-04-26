@@ -1,0 +1,6 @@
+For that, you could try to log in as the user from the console or by using the ssh command. 
+For example:
+
+$ ssh jsmith@localhost
+
+When prompted, enter the username and password.

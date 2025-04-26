@@ -1,0 +1,15 @@
+There is a link to the 
+
+web sites, some screenshots, and even a rating of the program.
+
+As in Figure 8-5 all we have to do is click the Install button to install. If there is a problem with the 
+
+package or your system the installer will sit at Pending as in Figure 8-6.
+
+Figure 8-5.  Virtual Machine Manager information screen
+
+302
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-6.

@@ -1,0 +1,3 @@
+The procedure created a device named /dev/mapper/myvg0-music. That device 
+can now be used to put a ﬁ lesystem on and mount, just as you did with regular 
+ partitions in the ﬁ rst part of this chapter.

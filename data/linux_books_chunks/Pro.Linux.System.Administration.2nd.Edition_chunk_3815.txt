@@ -1,0 +1,13 @@
+The Gluster client does provide one great feature that we will 
+demonstrate.
+
+621
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+You need to install the glusterfs-fuse package for CentOS or glusterfs-client for Ubuntu.
+Now we will mount our Gluster volume. To do that, we issue the following:
+
+$ mount –t glusterfs au-mel-dfs-1:/vol1 /mnt
+
+We have mounted our GlusterFS volume to our /mnt directory.

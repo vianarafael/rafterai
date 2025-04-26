@@ -1,0 +1,36 @@
+using your own domain
+
+Consider the following screenshot:
+
+root@debian7b:~# cat /etc/resolv.conf
+nameserver 10.104.33.30
+root@debian7b:~# ping -c1 www
+ping: unknown host www
+root@debian7b:~# vi /etc/resolv.conf
+root@debian7b:~# cat /etc/resolv.conf
+nameserver 10.104.33.30
+domain paul.local
+root@debian7b:~# ping -c1 www
+PING www.paul.local (10.104.33.31) 56(84) bytes of data.
+64 bytes from 10.104.33.31: icmp_req=1 ttl=64 time=0.021 ms
+
+--- www.paul.local ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.021/0.021/0.021/0.000 ms
+root@debian7b:~#
+
+Adding  the  domain  paul.local  directive  to  /etc/resolv.conf  allows  omitting  the  domain
+when using hostnames.
+
+You can accomplish this feature automatically by adjusting dhclient.conf.
+
+root@debian7:~# grep paul.local /etc/dhcp/dhclient.conf
+prepend domain-name "paul.local";
+prepend domain-search "paul.local";
+root@debian7:~#
+
+83
+
+introduction to DNS
+
+4.

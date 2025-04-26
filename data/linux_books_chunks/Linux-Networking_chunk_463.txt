@@ -1,0 +1,10 @@
+self signed cert on Debian
+
+Below is a very quick guide on setting up Apache2 on Debian 7 with a self-signed certificate.
+
+Chances are these packages are already installed.
+
+root@debian7:~# aptitude install apache2 openssl
+No packages will be installed, upgraded, or removed.
+0 packages upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B of archives.

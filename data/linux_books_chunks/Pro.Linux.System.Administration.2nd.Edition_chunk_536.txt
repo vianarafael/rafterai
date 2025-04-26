@@ -1,0 +1,11 @@
+If you try to change to a directory to which you 
+don’t have suitable permissions, you will get an error message:
+
+$ cd /root
+-bash: cd: /root: Permission denied
+
+ ■ Note 
+
+ We will talk about permissions in the section “permissions,” later in this chapter.
+
+So now you know how to move around in your directory tree.

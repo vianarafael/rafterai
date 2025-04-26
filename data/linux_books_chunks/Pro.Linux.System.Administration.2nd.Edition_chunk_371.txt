@@ -1,0 +1,10 @@
+First we can head over to the following 
+
+link and see all the available boxes:
+
+https://atlas.hashicorp.com/boxes/search
+
+ remember a Vagrant “box” is a self-contained linux virtual machine that can run inside your 
+
+ ■ Note 
+VirtualBox virtualization software.

@@ -1,0 +1,7 @@
+If you want to check to see if your bonding module is already loaded 
+in the kernel you can issue the following, and if it is, you will see something like this:
+
+$ lsmod |grep bonding
+bonding   136705  0
+
+If it is not, don’t worry. We will check again after we bring up our interfaces.

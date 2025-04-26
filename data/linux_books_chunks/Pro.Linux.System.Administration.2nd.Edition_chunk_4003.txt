@@ -1,0 +1,14 @@
+If you need help creating an AWS user, you should start with 
+this documentation:
+
+•	
+
+•	
+
+To set up an account: https://aws.amazon.com/
+
+To create users: https://aws.amazon.com/iam/getting-started/
+
+Setting Up S3 Buckets
+To back up our data, we are going to use Amazon’s S3 object store. For this we need to create an S3 bucket. 
+An S3 bucket is used to store S3 objects.

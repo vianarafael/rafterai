@@ -1,0 +1,19 @@
+We’ll look at how to pass these options to an individual service in the 
+section “Combating Viruses and Spam” later in the chapter.
+
+EDITING POSTFIX CONFIGURATION
+
+there are three ways to edit your postfix configuration files, most particularly the main.cf file.
+
+• 
+
+You can use the postconf command.
+
+•  On Ubuntu, the dpkg-reconfigure command can perform basic postfix configuration.
+
+• 
+
+You can employ a text editor such as vim or gedit.
+
+We generally recommend the last option, using a text editor to edit your configuration files, but first let’s 
+quickly look at the other two options.

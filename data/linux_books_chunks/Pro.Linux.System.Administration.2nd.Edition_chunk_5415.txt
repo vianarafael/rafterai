@@ -1,0 +1,7 @@
+You can see a good list of these at https://
+
+ ■ Tip 
+exchange.nagios.org/directory/Addons/Frontends-(GUIs-and-CLIs)/Web-Interfaces.
+
+The Nagios console can run inside the Apache web server we demonstrated in Chapter 11. Both 
+CentOS and Ubuntu include default installations of the web console.

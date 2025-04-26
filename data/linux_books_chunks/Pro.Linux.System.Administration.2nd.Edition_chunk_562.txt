@@ -1,0 +1,2 @@
+The b and c file types are used for different types of input and output devices 
+(if you look in the /dev directory, you will see examples of these device files).

@@ -1,0 +1,15 @@
+The expect 
+fork syntax allows Upstart to track this daemon and any of its child processes 
+(forks).
+
+ ■ respawn—The stanza here tells Upstart to restart this service if it is ever termi-
+
+nated via a means outside its normal stop on.
+
+418
+
+c15.indd  04/01/2015  Page 419
+
+Chapter 15: Starting and Stopping Services
+
+To test your new or modifi ed job confi guration fi les, you can set the start on stanza to a non-standard event.

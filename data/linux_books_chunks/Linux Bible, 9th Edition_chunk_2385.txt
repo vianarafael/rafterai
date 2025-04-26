@@ -1,0 +1,4 @@
+In the ﬁ rst two lines, you can see that the 
+network was restarted. The next line shows that the user named chris tried and failed 
+to get to the FTP server on this system from a computer at address 10.0.0.5 (he typed 
+the wrong password and authentication failed).

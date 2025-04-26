@@ -1,0 +1,13 @@
+The firewall needs to be configured to allow traffic on 
+this port to accept incoming connections.
+
+ if required, you can change the port and use tCp instead by changing these options to the required 
+
+ ■ Tip 
+port and protocol.
+
+Using the Netfilter firewall and the iptables command, you can ensure traffic passes through the 
+
+appropriate port on your host, as you can see in Listing 15-2.
+
+Listing 15-2.

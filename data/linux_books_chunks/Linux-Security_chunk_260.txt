@@ -1,0 +1,4 @@
+1 paul snooker 1.1K Apr  8 18:47 data.odt
+-rw-r--r--. 1 paul paul    626K Apr  8 18:46 file1
+-rw-r--r--. 1 root tennis   185 Apr  8 18:46 file2
+-rw-rw-r--.

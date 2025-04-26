@@ -1,0 +1,7 @@
+The 'msdos' is the filesystem of the root device and the final ‘1’ is the partition number on hd0. 
+If you were booting off a USB drive you might expect it to look like 'usb0,msdos1' instead.
+
+Chapter 6 ■ Startup and ServiCeS
+
+ ■ Note 
+ numbering in the Linux operating system generally starts counting from 0 and not 1.

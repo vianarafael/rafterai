@@ -1,0 +1,6 @@
+All types of hard disks—for example, ATA, Serial ATA, SCSI, SAS, and SSD—are 
+represented by device files whose names start with sd, which stands for SCSI disk, as all these different types 
+of drives are accessed as if they were SCSI drives.
+
+ ■ Note  SCSI is an acronym that stands for Small Computer System Interface, a specification for how storage 
+devices should be connected to and accessed by computers.

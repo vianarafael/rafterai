@@ -1,0 +1,5 @@
+Selecting applications for your host
+
+In this particular installation, because of the applications you have chosen to install, you are asked 
+
+a series of questions to help Ubuntu configure or secure your chosen applications.

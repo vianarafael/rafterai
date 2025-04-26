@@ -1,0 +1,4 @@
+When the other modules in the 
+confi guration fi le stack return statuses that are not clear-cut failure or success 
+statuses, this optional module’s status is used to determine the fi nal status or 
+break the tie.

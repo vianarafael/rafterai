@@ -1,0 +1,3 @@
+The try_first_pass argument tells 
+the module to see if a password has already been received by the module, and if so, to use that password to 
+authenticate. The nullok argument tells the module that it is OK to have a blank password.

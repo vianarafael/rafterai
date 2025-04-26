@@ -1,0 +1,14 @@
+It is 
+getting better, and you can try some basic troubleshooting by adding –v to the mount command, which 
+should give you more information.
+
+$ sudo mount -v -tnfs4 192.168.0.30:/data/cows /data/remotes/cows -oro
+mount.nfs4: timeout set for Fri Sep 30 03:29:32 2016
+mount.nfs4: trying text-based options 'addr=192.168.0.30,clientaddr=192.168.0.1'
+mount.nfs4: mount(2): No such file or directory
+mount.nfs4: mounting 192.168.0.30:/data/cows failed, reason given by server: No such file or 
+directory
+
+There is a “user space” or FUSE-based alternative to the kernel NFS server that is part of the mainline 
+
+Linux operating system.

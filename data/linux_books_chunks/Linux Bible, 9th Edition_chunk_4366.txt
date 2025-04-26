@@ -1,0 +1,16 @@
+(See the “Using key-based passwordless authentication” 
+section of Chapter 13 for information on creating these types of keys.)
+
+646
+
+c23.indd  04/01/2015  Page 647
+
+Chapter 23: Understanding Advanced Linux Security 
+
+FIGURE 23.6
+
+View private keys on your system from the Passwords and Keys window (seahorse).
+
+23
+
+For Figure 23.6, I selected the Details tab for the private keys created earlier for John Doe.

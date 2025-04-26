@@ -1,0 +1,7 @@
+Fill in the Destination/Preﬁ x and Next Hop, and select OK to save 
+the new custom route.
+
+10.  Other selections—Of the other selections on the screen, consider setting 
+
+“Automatically connect” by highlighting that box and using the spacebar to add an 
+X to the box.

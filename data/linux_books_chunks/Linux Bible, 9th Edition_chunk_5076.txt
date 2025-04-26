@@ -1,0 +1,7 @@
+At any point, you can go back to the EC2 Management Console to keep track of the 
+resources you are consuming and watch over the health of your virtual machines.
+
+Summary
+ Understanding how cloud computing differs from simply installing an operating system 
+directly on computer hardware will help you adapt as more and more data centers move 
+toward cloud computing.

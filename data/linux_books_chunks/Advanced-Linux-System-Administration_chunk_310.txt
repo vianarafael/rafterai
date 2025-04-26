@@ -1,0 +1,25 @@
+This objective also includes configuring syslogd to send log output 
+to a central log server, logging remote connections, and using grep and other text utils 
+to automate log analysis.
+
+90
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Key files, terms, and utilities include:
+syslog.conf 
+/etc/hosts 
+sysklogd
+
+• 2.211.2 Packaging software
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: The candidate should be able to build a package.

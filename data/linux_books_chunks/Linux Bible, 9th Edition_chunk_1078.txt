@@ -1,0 +1,3 @@
+Keep in mind that 
+any command running in the background might spew output during commands that you 
+run subsequently from that shell.

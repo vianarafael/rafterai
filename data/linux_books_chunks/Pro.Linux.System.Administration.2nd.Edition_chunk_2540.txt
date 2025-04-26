@@ -1,0 +1,4 @@
+For instance, it includes a serial number so servers can check if the zone was changed, and it 
+defines a contact e-mail for the server administrator as well.
+
+Let’s ask one of the Google servers for the SOA record of the google.com domain (Listing 10-12).

@@ -1,0 +1,11 @@
+1 root root  121 Mar 31  2016 check_password.conf
+-rw-r--r--. 1 root root  365 Oct  3 13:47 ldap.conf
+drwxr-xr-x. 2 root root 4096 Oct 26 12:46 schema
+drwx------. 3 ldap ldap   43 Oct 26 12:46 slapd.d
+
+740
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Secrets are stored in the certs directory. The configuration file specifically for the configuration of 
+LDAP clients is ldap.conf.

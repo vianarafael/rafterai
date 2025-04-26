@@ -1,0 +1,7 @@
+You 
+can force Linux to delete the user’s home directory using the –r option of the userdel command. This will 
+delete the /home/username directory and all files in it, but it won’t delete any files outside this directory that 
+might also belong to the user. The userdel command will also not delete a user who is currently logged in to 
+the host.
+
+Removing a user who owns files can be problematic.

@@ -1,0 +1,14 @@
+This is identical to their behaviour in Debian and Ubuntu.
+
+[root@rhel6 ~]# ifdown eth0 && ifup eth0
+[root@rhel6 ~]# ifconfig eth0
+eth0 Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C  
+     inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+     inet6 addr: fe80::a00:27ff:fedd:d5c/64 Scope:Link
+     UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+     RX packets:2452 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:1881 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:1000 
+     RX bytes:257036 (251.0 KiB)  TX bytes:184767 (180.4 KiB)
+
+2.4.

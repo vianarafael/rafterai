@@ -1,0 +1,9 @@
+Configure syslog to put local4.error and above messages in /var/log/l4e.log and local4.info
+only .info in /var/log/l4i.log. Test that it works with the logger tool!
+
+6. Configure /var/log/Mysu.log, all the su to root messages should go in that log. Test that
+it works!
+
+7. Send the local5 messages to the syslog server of your neighbour. Test that it works.
+
+8.

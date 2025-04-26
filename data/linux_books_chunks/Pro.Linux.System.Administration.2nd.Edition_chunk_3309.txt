@@ -1,0 +1,11 @@
+So, currently may is a sensible choice given 
+that not all clients and servers support TLS, and restricting the server to encrypted connections would mean 
+some e-mail servers could not send you e-mail.
+
+The next three options, smtpd_tls_key_file, smtpd_tls_cert_file, and smtpd_tls_CAfile, specify 
+
+the locations of our certificate, key file, and CA certificate.
+
+The next option, smtpd_tls_loglevel, controls how much logging of TLS connections Postfix will 
+
+generate.

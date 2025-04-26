@@ -1,0 +1,12 @@
+We are 
+
+now presented with the login page for the LAM configuration tool, as shown in Figure 16-4.
+
+782
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Figure 16-4.  LAM login page
+
+In the top right notice the LAM configuration link. This is used to perform general maintenance on the 
+LAM configuration tool.

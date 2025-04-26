@@ -1,0 +1,5 @@
+mysql triggers
+
+3.7.1. using a before trigger
+
+Consider the following create table command.

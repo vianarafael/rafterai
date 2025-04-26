@@ -1,0 +1,19 @@
+Also, the growing use of removable USB and FireWire devices (CDs, DVDs, ﬂ ash drives, 
+
+190
+
+c08.indd  04/01/2015  Page 191
+
+Chapter 8: Learning System Administration
+
+digital  cameras, and removable hard drives) has made it important for Linux to do 
+the following:
+
+ ■ Efﬁ ciently manage hardware that comes and goes
+
+ ■ Look at the same piece of hardware in different ways (for example, be able to see a 
+
+printer as a fax machine, scanner, and storage device, as well as a printer)
+
+Linux kernel features added in the past few years have made it possible to change 
+ drastically the way hardware devices are detected and managed.

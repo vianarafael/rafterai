@@ -1,0 +1,6 @@
+This is an easy procedure on macOS or Windows desktops and follows the same pattern.
+
+We will need to be able to resolve the hostname of the Samba server. If you can’t resolve the dc1.samba.
+
+exmaple.com hostname, check your /etc/resolv.conf or, if you are using Windows, your network settings.
+First we use Finder to mount our Samba share.

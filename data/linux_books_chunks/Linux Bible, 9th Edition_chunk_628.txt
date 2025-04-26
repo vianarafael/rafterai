@@ -1,0 +1,6 @@
+It immediately begins searching the path, 
+and executables in the current directory are run only if they are in the PATH variable or 
+you give their absolute (such as /home/chris/scriptx.sh) or relative (for example, 
+./scriptx.sh) address.
+
+The path directory order is important. Directories are checked from left to right.

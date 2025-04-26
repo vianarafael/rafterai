@@ -1,0 +1,5 @@
+The modprobe tool can be used to selectively insert or remove modules and their 
+dependencies. 
+
+The kernel can automatically insert modules using the kmod module. This module has 
+replaced the kerneld module.

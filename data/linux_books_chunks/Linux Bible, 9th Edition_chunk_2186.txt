@@ -1,0 +1,9 @@
+In particular, the average user or administrator uses mount in 
+two ways:
+
+ ■ To display the disks, partitions, and remote ﬁ lesystems currently mounted
+
+ ■ To temporarily mount a ﬁ lesystem
+
+Any user can type mount (with no options) to see what ﬁ lesystems are currently mounted 
+on the local Linux system. The following is an example of the mount command.

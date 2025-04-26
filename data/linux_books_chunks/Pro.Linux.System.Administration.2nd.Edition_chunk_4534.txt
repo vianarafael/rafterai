@@ -1,0 +1,16 @@
+We will add the following to our db.ldif:
+
+add: olcDbIndex
+olcDbIndex: exampleActive pres,eq
+
+Let’s now go ahead and use ldapmodify to apply our db.ldif changes.
+
+$ sudo ldapmodify -Q -Y EXTERNAL -H ldapi:/// -f db.ldif
+
+ you can read more about the configuration engine database here: www.openldap.org/doc/
+
+ ■ Note 
+admin24/slapdconf2.html.
+
+Listing, Adding, and Creating a Schema
+A schema provides the structure of your object’s classes and attributes to the SLAPD server.

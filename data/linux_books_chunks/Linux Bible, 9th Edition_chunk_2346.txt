@@ -1,0 +1,10 @@
+It simply uses an FTP style of interaction between a client and an sshd server.
+
+The following example shows the user johndoe connecting to jd.example.com:
+
+$ sftp johndoe@jd.example.com
+Connecting to jd.example.com
+johndoe@jd.example.com's password: ***************
+sftp>
+
+At this point, you can begin an interactive FTP session.

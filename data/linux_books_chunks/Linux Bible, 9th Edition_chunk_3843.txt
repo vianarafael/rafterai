@@ -1,0 +1,6 @@
+Someone debugging a desktop may boot to runlevel 5 and 
+then go down to runlevel 3 to try to ﬁ x the desktop (such as install a new driver or change 
+screen resolution) before typing init 5 to return to the desktop.
+
+The level of services at each runlevel is determined by the runlevel scripts that are 
+set to start.

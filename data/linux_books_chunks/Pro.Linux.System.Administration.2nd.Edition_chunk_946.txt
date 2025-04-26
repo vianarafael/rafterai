@@ -1,0 +1,9 @@
+The first 
+type of alias is User_Alias, which groups like users.
+
+User_Alias ADMIN = ataylor,jsmith
+
+You start an alias with the name of the alias type you are using, in this case User_Alias, followed by the 
+
+name of the particular alias you are defining, here ADMIN. Next you specify a list of the users who belong to 
+this alias.

@@ -1,0 +1,49 @@
+Naturally  yum  will  install  all  the
+necessary dependencies.
+
+[root@rhel55 ~]# yum install sudo
+Loaded plugins: rhnplugin, security
+Setting up Install Process
+Resolving Dependencies
+--> Running transaction check
+---> Package sudo.i386 0:1.7.2p1-7.el5_5 set to be updated
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=======================================================================
+ Package     Arch      Version            Repository               Size
+=======================================================================
+Installing:
+ sudo        i386      1.7.2p1-7.el5_5    rhel-i386-server-5      230 k
+
+Transaction Summary
+=======================================================================
+Install       1 Package(s)
+Upgrade       0 Package(s)
+
+Total download size: 230 k
+Is this ok [y/N]: y
+Downloading Packages:
+sudo-1.7.2p1-7.el5_5.i386.rpm                       | 230 kB     00:00 
+Running rpm_check_debug
+Running Transaction Test
+Finished Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Installing     : sudo                                        1/1 
+
+Installed:
+  sudo.i386 0:1.7.2p1-7.el5_5
+
+Complete!  
+
+You can add more than one parameter here.
+
+yum install $package1 $package2 $package3
+
+241
+
+package management
+
+20.7.6.

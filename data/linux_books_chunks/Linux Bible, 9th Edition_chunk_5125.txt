@@ -1,0 +1,10 @@
+(Often, you can compare the checksum number that 
+appears against the number in an md5 ﬁ le from the download directory where you 
+got the image, to make sure the image was not corrupted.) Figure A.3 shows the 
+Burn CD Image window ready to burn an image of Fedora.
+
+FIGURE A.3
+
+Use K3b to burn your Linux CDs or DVDs.
+
+5.

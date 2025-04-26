@@ -1,0 +1,7 @@
+Selecting the root partition to mount
+
+Our root partition is the LVM volume au-mel-ubuntu-1-vg/root. We select that and then we are taken to 
+
+the rescue menu as in Figure 9-9.
+
+Figure 9-9.

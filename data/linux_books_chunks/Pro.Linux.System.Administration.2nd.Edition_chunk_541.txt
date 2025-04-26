@@ -1,0 +1,5 @@
+You’ll be frequently working with files located in this 
+directory as you add applications and services to your hosts.
+
+Next, the /home/ directory contains all of the home directories for users (except the root user—whose 
+home directory is usually /root/). The /tmp directory is where you’ll commonly find temporary files.

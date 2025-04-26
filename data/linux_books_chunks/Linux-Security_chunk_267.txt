@@ -1,0 +1,8 @@
+permissions
+
+6.3.1. rwx
+
+The  nine  characters  following  the  file  type  denote  the  permissions  in  three  triplets.  A
+permission can be r for read access, w for write access, and x for execute. You need the r
+permission to list (ls) the contents of a directory. You need the x permission to enter (cd) a
+directory.

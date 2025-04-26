@@ -1,0 +1,2 @@
+You should know that tripwire 
+is no longer open source. However, the original tripwire code is still available.

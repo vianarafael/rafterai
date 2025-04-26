@@ -1,0 +1,16 @@
+We will talk 
+more about repositories shortly.
+
+Ideally, you will see the following screen instead.
+
+Figure 8-7.  Installing
+
+When the installation is complete you will now see the screen in Figure 8-8.
+
+Figure 8-8.  Installation complete, Remove?
+
+303
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+If you wish to remove the application you simply hit the Remove button as in Figure 8-8.

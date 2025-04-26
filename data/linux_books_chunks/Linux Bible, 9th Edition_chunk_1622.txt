@@ -1,0 +1,3 @@
+It also conveniently separates user data from your operating system (for easy 
+backups or new installs). Often, /home is created as an LVM logical volume, so it 
+can grow in size as user demands increase.

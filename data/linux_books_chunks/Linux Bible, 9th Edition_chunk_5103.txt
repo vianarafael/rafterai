@@ -1,0 +1,8 @@
+If either you or 
+your company has an account with Red Hat, you can download the ISOs you need. Go to 
+the  following site and follow the instructions to download a Red Hat Enterprise Linux 
+server ISO or sign up to get an evaluation copy: 
+
+https://access.redhat.com/downloads
+
+Red Hat does not offer live versions of Red Hat Enterprise Linux.

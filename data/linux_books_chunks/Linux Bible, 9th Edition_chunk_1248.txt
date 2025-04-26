@@ -1,0 +1,11 @@
+Content, such as web pages, can be added to servers by non-root 
+
+174
+
+c08.indd  04/01/2015  Page 175
+
+Chapter 8: Learning System Administration
+
+users if you conﬁ gure your system to allow that. Services are often run as special 
+administrative user accounts, such as apache (for the httpd service) and rpc (for 
+the rpcbind service).

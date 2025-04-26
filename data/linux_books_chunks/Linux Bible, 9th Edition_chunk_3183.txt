@@ -1,0 +1,5 @@
+Directions for generating a 
+self-signed certiﬁ cate are included in the section “Generating an SSL key and self-signed 
+certiﬁ cate.”
+
+The last option is to run your own certiﬁ cate authority.

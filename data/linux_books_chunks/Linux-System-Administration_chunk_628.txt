@@ -1,0 +1,10 @@
+openboot
+
+Sun sparc systems start with openboot to test the hardware and to boot the operating system.
+Bill Callkins explains openboot in his Solaris System Administration books. The details of
+openboot are not the focus of this course.
+
+14.1.4. boot password
+
+The bios allows you to set a password. Do not forget this password, or you will have to
+open up the hardware to reset it.

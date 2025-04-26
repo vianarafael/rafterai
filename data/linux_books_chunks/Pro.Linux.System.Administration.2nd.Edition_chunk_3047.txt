@@ -1,0 +1,7 @@
+Generating a Server Key and Request
+
+$ openssl genpkey -algorithm RSA -out www.example.com.key -pkeyopt rsa_keygen_bits:2048
+.........................................................................+++
+.................+++
+
+In Listing 11-6 we’ve used the openssl command to generate a private key using the RSA cipher.

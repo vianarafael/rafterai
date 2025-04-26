@@ -1,0 +1,8 @@
+If the ip address of the isp dns server is 212.71.8.10, then the following
+lines would occur in the named.conf file of the company dns server:
+
+forwarders {
+  212.71.8.10;
+ };
+
+You  can  also  configure  your  dns  server  to  work  with  conditional  forwarder(s).

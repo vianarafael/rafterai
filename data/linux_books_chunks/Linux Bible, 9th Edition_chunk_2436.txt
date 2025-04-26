@@ -1,0 +1,7 @@
+Basic tasks that 
+apply to all servers include using networking tools (particularly SSH tools) to log in, copy 
+ﬁ les, or execute remote commands.
+
+Because an administrator can’t be logged in watching servers all the time, tools for 
+ gathering data and reviewing the log data later are very important when administering 
+Linux servers. The rsyslog facility can be used for local and remote logging.

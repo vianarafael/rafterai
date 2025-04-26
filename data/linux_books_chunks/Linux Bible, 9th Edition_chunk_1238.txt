@@ -1,0 +1,9 @@
+This is often 
+done with one of the following:
+
+ ■ su command—Often, su is used to open a shell as root user. After it is open, the 
+administrator can run multiple commands and then exit to return to a shell as a 
+regular user.
+
+ ■ sudo command—With sudo, a regular user is given root privileges, but only when 
+that user runs the sudo command to run another command.

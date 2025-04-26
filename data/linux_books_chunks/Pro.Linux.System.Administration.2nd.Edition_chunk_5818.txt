@@ -1,0 +1,3 @@
+We can search and replace lines and replace 
+
+blocks of marked text in a file and more.

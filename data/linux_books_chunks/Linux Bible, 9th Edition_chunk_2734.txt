@@ -1,0 +1,49 @@
+To ﬁ x this problem, pipe the output through 
+some formatting commands to produce a nice alphabetically sorted display, as shown in the 
+example that follows.
+
+# systemctl show --property "Wants" multi-user.target \
+     | fmt -10 | sed 's/Wants=//g' | sort
+abrt-ccpp.service
+abrtd.service
+abrt-oops.service
+abrt-vmcore.service
+atd.service
+auditd.service
+avahi-daemon.service
+crond.service
+cups.path
+dbus.service
+fcoe.service
+getty.target
+irqbalance.service
+iscsid.service
+iscsi.service
+livesys-late.service
+livesys.service
+lldpad.service
+mcelog.service
+
+15
+
+395
+
+c15.indd  04/01/2015  Page 396
+
+Part IV: Becoming a Linux Server Administrator
+
+mdmonitor.service
+multipathd.service
+netfs.service
+NetworkManager.service
+plymouth-quit.service
+plymouth-quit-wait.service
+remote-fs.target
+rsyslog.service
+sendmail.service
+sm-client.service
+sshd-keygen.service
+sshd.service...
+
+This display shows all the services and other units that will be activated (started), 
+ including sshd, when the multi-user.target unit is activated.

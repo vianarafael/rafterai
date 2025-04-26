@@ -1,0 +1,21 @@
+Common xfs_ Commands
+
+Command
+
+xfs_repair
+
+xfs_growfs
+
+xfs_freeze
+
+Purpose
+
+Helps repair damaged or corrupt filesystems
+
+Expands an XFS filesystem.
+
+Useful when creating snapshots.
+
+The Btrfs Filesystem
+We have already explained many of the benefits of the Btrfs filesystem and now we shall show you how to 
+create and manage one.

@@ -1,0 +1,6 @@
+In this case, it is often useful to try adding the --help switch to a command, as you can see in Listing 4-3.
+
+ ■ Note 
+ switches are command-line options you can add to particular commands. They are specified using a 
+dash (-) or two dashes (--) and the single-letter abbreviation or name of the switch, for example, -l or --name. 
+You can use either the abbreviated or longer version.

@@ -1,0 +1,10 @@
+The devices may not
+be in use.
+
+[root@RHEL5 ~]# pvremove /dev/sde /dev/sdf /dev/sdg
+  Labels on physical volume "/dev/sde" successfully wiped
+  Labels on physical volume "/dev/sdf" successfully wiped
+  Labels on physical volume "/dev/sdg" successfully wiped
+[root@RHEL5 ~]#
+
+11.11.3.

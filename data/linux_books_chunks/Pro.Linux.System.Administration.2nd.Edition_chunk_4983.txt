@@ -1,0 +1,13 @@
+From the left drop-down, select Graph
+
+When you add a panel, you get a test metric graph based on fake data (Figure 17-6).
+
+Figure 17-16.  Test metric
+
+829
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+To create our own graphs, we have to select the data source first. Let’s do that, as in Figure 17-17.
+
+Figure 17-17.

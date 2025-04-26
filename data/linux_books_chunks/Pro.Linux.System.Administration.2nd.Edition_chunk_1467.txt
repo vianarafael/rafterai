@@ -1,0 +1,3 @@
+one of 
+the good things about wireShark is that you can capture output from tcpdump (by specifying the –w option) and 
+read it in wireShark, which does make viewing the information much easier.

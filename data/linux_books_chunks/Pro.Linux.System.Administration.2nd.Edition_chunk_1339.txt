@@ -1,0 +1,9 @@
+To display 
+
+the current connection information using nmcli we would issue the following:
+
+$ sudo nmcli connection show
+NAME        UUID                                     TYPE                DEVICE
+enp0s3      da717740-45eb-4c45-b324-7d78006bb657     802-3-ethernet      enp0s3
+
+There are several shortcuts for nmcli, like “c” for connection and “d” for device.

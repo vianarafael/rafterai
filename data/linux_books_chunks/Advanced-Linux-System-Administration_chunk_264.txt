@@ -1,0 +1,14 @@
+Writing simple perl scripts (using modules)
+
+The online documentation for perl is contained in the perldoc package. The man pages are 
+split into sections. For example the perlintro section can be accessed with:
+
+man perlintro
+
+or
+
+perldoc perlintro
+
+Here is a summary of this perldoc.
+
+Perl scripts must be readable and executable.

@@ -1,0 +1,47 @@
+Unmount the disk (if applicable.)
+
+        umount /mnt
+
+NOTICE
+
+Although SYSLINUX can be installed on a CD it is recommended to use the ISOLINUX 
+bootloader instead (see p.53).
+
+Bootloader Kernel Parameters 
+
+load_ramdisk=n
+
+ If n is 1 then load a ramdisk, the default is 0
+
+prompt_ramdisk=n  If n is 1 prompt to insert a floppy disk containing a ramdisk
+
+nosmp or 
+maxcpus=N
+
+apm=off
+
+init=
+
+root=
+
+mem=
+
+vga=
+
+ Disable or limit the number of CPUs
+
+ Disable APM, sometime needed to boot from yet unsupported 
+motherboards
+
+ Defaults to /sbin/init but may also be a shell or an alternative 
+process
+
+ Set the root filesystem device (can be set with rdev*)
+
+ Assign available RAM size
+
+ Change the console video mode (can be changed with rdev*)
+
+*The rdev manual pages say; “The rdev utility, when used other than to find a name for 
+the current root device, is an ancient hack that works by patching a kernel image at a 
+magic offset with magic numbers.

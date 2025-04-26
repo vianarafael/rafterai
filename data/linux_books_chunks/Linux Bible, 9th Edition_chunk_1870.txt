@@ -1,0 +1,13 @@
+The next part of this chapter describes how to add user 
+accounts from the command line with useradd or change them with the usermod 
+command.
+
+261
+
+c11.indd  04/01/2015  Page 262
+
+Part III: Becoming a Linux System Administrator
+
+Adding users with useradd
+Sometimes, a Linux system doesn’t have a desktop available to use the User Manager 
+ window.

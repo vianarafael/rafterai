@@ -1,0 +1,11 @@
+We access 
+the console by issuing the following command:
+
+$ sudo /usr/sbin/bconsole
+Connecting to Director backup.example.com:9101
+1000 OK: example-dir Version: 15.2.2 (16 November 2015)
+Enter a period to cancel a command.
+* stat dir
+example-dir Version: 15.2.2 (16 November 2015) x86_64-redhat-linux-gnu redhat CentOS Linux 
+release 7.0.1406 (Core)
+Daemon started 10-Oct-16 00:56.

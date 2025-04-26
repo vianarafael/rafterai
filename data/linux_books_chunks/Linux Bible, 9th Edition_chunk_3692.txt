@@ -1,0 +1,3 @@
+With the autofs facility conﬁ gured and turned on, you can cause any 
+ available NFS shared directories to mount on demand. To use the autofs facility, you need 
+to have the autofs package installed.

@@ -1,0 +1,10 @@
+To add an MX record, 
+
+we will add one after the NS record in our example.com.db file, like the following:
+
+       IN    NS         ns.example.com.
+       IN    MX  10  mail.example.com.
+
+We have the name of the record, the Internet type (IN), the record type (MX), the mail server priority (10), 
+
+and the host it maps to (mail.example.com).

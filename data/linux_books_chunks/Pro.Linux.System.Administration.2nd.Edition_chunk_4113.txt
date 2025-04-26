@@ -1,0 +1,14 @@
+There are many parts to this configuration file, and it can be easy to get lost in how it 
+relates to the other files, but we will try to guide you through it.
+The Director {} section defines the directory itself.
+
+Director {                            # define myself
+  Name = backup-dir
+  QueryFile = "/usr/lib/bareos/scripts/query.sql"
+  Maximum Concurrent Jobs = 10
+  Password = "uogx2tNL9dRUwGfNvY/b+uQrU8osZn+JOM7t8iIrpszN"     # Console password
+  Messages = Daemon
+  Auditing = yes
+
+  # Enable the Heartbeat if you experience connection losses
+  # (eg.

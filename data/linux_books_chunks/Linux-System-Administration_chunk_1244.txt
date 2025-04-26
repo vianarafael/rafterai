@@ -1,0 +1,25 @@
+Makefile
+
+The make file for this module.
+
+[root@rhel4a kernel_module]# cat Makefile 
+obj-m += hello.o
+all:
+make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+clean:
+make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+
+These are the only two files needed.
+
+[root@rhel4a kernel_module]# ll
+total 16
+-rw-rw-r--  1 paul paul 250 Feb 15 19:14 hello.c
+-rw-rw-r--  1 paul paul 153 Feb 15 19:15 Makefile
+
+343
+
+   
+   
+the Linux kernel
+
+28.6.3.

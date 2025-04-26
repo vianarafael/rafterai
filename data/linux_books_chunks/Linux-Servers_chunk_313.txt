@@ -1,0 +1,7 @@
+And
+there are several general tld's like .com, .edu, .org, .gov, .net, .mil, .int and more recently
+also .aero, .info, .museum, ...
+
+4.2.2. root servers
+
+There are thirteen root servers on the internet, they are named A to M.

@@ -1,0 +1,11 @@
+We can now mount the share on the local 
+
+server with the following command:
+
+$ sudo mount -tcifs //dc1.samba.example.com/sales /data/sales/ -o 
+multiuser,username=sharedcreds, \
+uid=exbackup,gid=3000017
+
+This mounts the /data/sales share using the sharedcreds user. But because there is no local 
+
+sharedcreds user, we don’t have access to write into /data/sales.

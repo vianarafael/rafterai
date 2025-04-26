@@ -1,0 +1,9 @@
+This is the same for both Ubuntu and CentOS:
+
+$ sudo systemctl start grafana-server
+
+Now we can access Grafana on the following URL: http://monitor:3000. By default the username and 
+
+password are admin (Figure 17-9).
+
+Figure 17-9.

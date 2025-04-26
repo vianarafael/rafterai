@@ -1,0 +1,6 @@
+The PS1 environment variable sets what the prompt contains and is 
+what you interact with most of the time. If your shell requires additional input, it uses the 
+values of PS2, PS3, and PS4.
+
+When your Linux system is installed, often a prompt is set to contain more than just a 
+dollar sign or pound sign.

@@ -1,0 +1,6 @@
+In these situations, you may find yourself backing up data you don’t need, or you 
+may need to get different storage appliances for faster performance or larger backup volumes.
+
+Data retention periods, called the data life cycle, are also important to consider. You may need to keep your 
+
+data for legal or tax purposes for specific periods of time, usually a few years.

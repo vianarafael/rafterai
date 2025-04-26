@@ -1,0 +1,2 @@
+You can cycle through consoles using the Crtl+Alt+F1 to F7 keys. Each terminal is 
+independent and separate. Ubuntu and CentOS have the GUI on different consoles.

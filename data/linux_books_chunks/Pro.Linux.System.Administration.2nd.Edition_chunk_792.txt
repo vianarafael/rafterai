@@ -1,0 +1,9 @@
+The userdel command deletes users, 
+and the groupdel command removes groups. Let’s now delete the ataylor user we created earlier using the 
+userdel command, as shown in Listing 5-6.
+
+Listing 5-6.  Deleting a User
+
+$ sudo userdel ataylor
+
+The userdel command deletes the user, but by default it doesn’t delete the user’s home directory.

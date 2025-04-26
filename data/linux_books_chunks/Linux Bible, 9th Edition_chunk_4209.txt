@@ -1,0 +1,6 @@
+To do this scan, use the find command.
+
+In the example that follows, a scan is made of the /sbin directory. To see if any binary 
+ﬁ les were modiﬁ ed less than 24 hours ago, the command find /sbin -mtime -1 is used. 
+In the example, several ﬁ les display, showing they were modiﬁ ed recently. This indicates 
+that malicious activity is taking place on the system.

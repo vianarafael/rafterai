@@ -1,0 +1,5 @@
+For Intel-compatible PCs, the value is i386, i486, i586, 
+i686, or something like i386-linux. For AMD 64-bit machines, the value is 
+x86_64.
+
+This is the location of your mailbox fi le.

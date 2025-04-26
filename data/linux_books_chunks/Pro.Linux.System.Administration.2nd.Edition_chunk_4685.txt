@@ -1,0 +1,5 @@
+-Z tells the command to use STARTTLS, or make a TLS connection to 
+the LDAP host, but if you have TLS already set in /etc/ldap/ldap.conf or /etc/openldap/ldap.conf, your 
+command will fail. Finally, -f indicates the file we want to use to add our users, users.ldif.
+
+The options you use here are the same for all the other LDAP tools; see the man page for more details.

@@ -1,0 +1,18 @@
+You learned how to do the 
+following:
+
+•	
+
+•	
+
+Install and configure Collectd
+
+Install and configure Graphite
+
+•	 Use Grafana to monitor and visualize the health of your hosts
+
+We also gave a little information on some common performance tunings and how to change the kernel 
+
+settings using sysctl.
+
+In the next chapter, you’ll see how to configure some monitoring of your hosts and services.

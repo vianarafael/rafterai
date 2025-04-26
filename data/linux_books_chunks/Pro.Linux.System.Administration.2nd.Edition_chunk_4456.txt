@@ -1,0 +1,14 @@
+This is 
+just an example of how you can use your own schema definitions; there may be other ways to achieve the 
+same outcome.
+
+736
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+ The OpenLDAP Administrator’s Guide has an explanation of how to create your schema files here: 
+
+ ■ Note 
+www.openldap.org/doc/admin24/schema.html.
+
+OpenLDAP can use a variety of back ends.

@@ -1,0 +1,5 @@
+We first compute these sums with
+
+find /etc -type f | xargs md5sum > etc-md5.dat
+
+We next pass the content of etc-md5.dat to md5sum -c.

@@ -1,0 +1,3 @@
+So, even if you 
+provide an individual with more ACL permissions than the group permissions allow, the 
+individual’s effective permissions do not exceed the group permissions.

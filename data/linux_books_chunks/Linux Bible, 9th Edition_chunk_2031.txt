@@ -1,0 +1,5 @@
+When you 
+install the operating system, the disk is divided into one or more partitions. Each partition is 
+ formatted with a ﬁ lesystem. In the case of Linux, some of the partitions may be specially  formatted 
+for elements such as a swap area or LVM physical volumes. Disks are used for permanent storage; 
+random access memory (RAM) and swap are used for temporary storage.

@@ -1,0 +1,23 @@
+(A CD image is 
+
+under about 700MB in size. Single-layer DVD images are under 4.7GB.)
+
+ A
+
+2.  Open a CD/DVD burning application. For this procedure, I recommend K3b CD and 
+DVD Kreator (http://www.k3b.org). In Fedora, select Activities and type K3b 
+
+777
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp01.indd  04/02/2015  Page 778
+
+Appendix A: Media
+
+(or type k3b from a Terminal window).

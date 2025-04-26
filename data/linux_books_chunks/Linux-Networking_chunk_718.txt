@@ -1,0 +1,7 @@
+Make sure the internal network can ssh to the external, but not the other way around.
+
+186
+
+iptables firewall
+
+14.5.

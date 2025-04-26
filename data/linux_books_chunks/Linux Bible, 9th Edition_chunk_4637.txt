@@ -1,0 +1,7 @@
+Thus, it is important to make 
+sure your Linux system is logging messages in the ﬁ rst place.
+
+A quick way to determine if the logging is taking place is to check if the proper daemons 
+are running: auditd, rsyslogd, and/or setroubleshootd. Use an appropriate com-
+mand, such as systemctl status auditd.service. Of course, the command you use 
+depends on your Linux distribution and its version.

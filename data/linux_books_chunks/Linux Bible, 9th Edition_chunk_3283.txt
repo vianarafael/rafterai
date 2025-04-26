@@ -1,0 +1,3 @@
+A regular user starts with his or her home directory as the current direc-
+tory but can access any directory the user would be able to via a regular login or 
+SSH session.

@@ -1,0 +1,13 @@
+Use the ls -sf command to force any current symbolic link to be broken and the 
+new designated symbolic link to be enforced.
+
+15
+
+421
+
+c15.indd  04/01/2015  Page 422
+
+Part IV: Becoming a Linux Server Administrator
+
+Together, the three steps get your new or customized service added to a Linux systemd 
+server. Remember that at this point, a new service is not running until a server reboot.

@@ -1,0 +1,7 @@
+Please note 
+that the attribute value for Boolean attributes such as exampleActive must be uppercase, and because it is 
+an SINGLE-VALUE attribute, we can declare it only once.
+
+We’ll now add groups as an organizationalUnit so that we can make use of groups to manage access 
+
+to our users.

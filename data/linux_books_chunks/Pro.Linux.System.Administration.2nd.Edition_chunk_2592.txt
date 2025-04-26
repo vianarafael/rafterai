@@ -1,0 +1,9 @@
+(
+       2016070100  ; Serial
+       604800          ; Refresh
+       86400            ; Retry
+       2419200        ; Expire
+       3600 )            ; Negative Cache TTL
+
+This header defines some meta-information about our zone that is used by caching DNS servers and 
+also by any slave servers we may have defined.

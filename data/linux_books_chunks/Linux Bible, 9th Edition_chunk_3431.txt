@@ -1,0 +1,7 @@
+If you are ready to continue to conﬁ gure your Samba service, you 
+can continue on and begin to conﬁ gure your Linux security features to allow the Samba 
+service to become available to others on your network.
+
+Securing Samba
+If you cannot access your Samba server immediately after starting it, you probably have 
+some security work to do.

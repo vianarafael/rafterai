@@ -1,0 +1,13 @@
+We want files to be readable and writable, and for directories we should give full access 
+to the specified users and groups but no access for the general public.
+
+force create mode = 0770
+force directory mode = 2770
+create mask = 0770
+directory mask = 2770
+force group = sales
+force user = exbackup
+
+As you saw in Chapter 4, the permissions here are read, write, and execute/access on all files and 
+
+directories.

@@ -1,0 +1,6 @@
+1 root root 13 Mar 27 15:39
+ /lib/systemd/system/runlevel6.target -> reboot.target
+
+The /etc/inittab ﬁ le still exists, but it contains only comments stating this conﬁ gura-
+tion ﬁ le is not used and gives some basic systemd information. The /etc/inittab ﬁ le no 
+longer has any true functional use.

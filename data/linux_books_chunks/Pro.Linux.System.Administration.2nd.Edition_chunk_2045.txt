@@ -1,0 +1,23 @@
+Compiling nginx
+
+~/nginx-1.10.1$ make
+make -f objs/Makefile
+make[1]: Entering directory '/home/jsmith/nginx-1.10.1'
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I 
+src/event \
+              -I src/event/modules -I src/os/unix -I objs \
+        -o objs/src/core/nginx.o \
+        src/core/nginx.c
+cc -c -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g  -I src/core -I 
+src/event \
+              -I src/event/modules -I src/os/unix -I objs \
+        -o objs/src/core/ngx_log.o \
+        src/core/ngx_log.c
+sed -e "s|%%PREFIX%%|/opt/nginx|" \
+        -e "s|%%PID_PATH%%|/opt/nginx/logs/nginx.pid|" \
+        -e "s|%%CONF_PATH%%|/opt/nginx/conf/nginx.conf|" \
+        -e "s|%%ERROR_LOG_PATH%%|/opt/nginx/logs/error.log|" \
+        < man/nginx.8 > objs/nginx.8
+make[1]: Leaving directory '/home/jsmith/nginx-1.10.1'
+
+If the make process completes successfully, the application is now built.

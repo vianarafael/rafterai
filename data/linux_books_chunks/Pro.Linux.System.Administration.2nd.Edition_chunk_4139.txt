@@ -1,0 +1,47 @@
+If the job is enabled, it will be listed in the schedule.
+
+Job {
+  Name = "BackupCatalog"
+  JobDefs = "DefaultJob"
+  Level = Full
+  FileSet="Catalog"
+  Schedule = "WeeklyCycleAfterBackup"
+
+  # This creates an ASCII copy of the catalog
+  # Arguments to make_catalog_backup.pl are:
+  #  make_catalog_backup.pl <catalog-name>
+  RunBeforeJob = "/usr/lib/bareos/scripts/make_catalog_backup.pl MyCatalog"
+
+  # This deletes the copy of the catalog
+  RunAfterJob  = "/usr/lib/bareos/scripts/delete_catalog_backup"
+
+  # This sends the bootstrap via mail for disaster recovery.
+  # Should be sent to another system, please change recipient accordingly
+  Write Bootstrap = "|/usr/bin/bsmtp -h localhost -f \"\(Bareos\) \" -s \"Bootstrap for Job 
+%j\" root@localhost" # (#01)
+  Priority = 11                   # run after main backup
+}
+
+Job {
+  Name = "RestoreFiles"
+  Type = Restore
+  Client=au-mel-centos-1-fd
+  FileSet = "Linux All"
+  Storage = File
+  Pool = Incremental
+  Messages = Standard
+  Where = /tmp/bareos-restores
+}
+
+Job {
+  Name = headoffice.example.com
+  Client = headoffice-fd
+  Enabled = yes
+  JobDefs = "DefaultLinux"
+}
+
+675
+
+Chapter 14 ■ BaCkup and reCovery
+
+The first two job definitions are standard in Bareos.

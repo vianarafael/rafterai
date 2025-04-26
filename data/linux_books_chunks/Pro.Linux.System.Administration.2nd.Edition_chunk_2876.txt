@@ -1,0 +1,4 @@
+An Apache web server, 
+without any changes to the default settings, can handle many hundred concurrent users. We will go over 
+just some of these here. Performance is a relative topic, and you should be using your metrics collected from 
+your web service and hosts to guide you through this.

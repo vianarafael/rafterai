@@ -1,0 +1,9 @@
+On a system with 
+SELinux, a process is also given a security context.
+
+24
+
+How a process gets its security context depends upon which process started it. Remember 
+that systemd (previously init) is the “mother” of all processes (see Chapter 15). Thus, 
+many daemons and processes are started by systemd. The processes systemd starts 
+are given new security contexts.

@@ -1,0 +1,12 @@
+Other permissions 
+are r--.
+
+272
+
+c11.indd  04/01/2015  Page 273
+
+Chapter 11: Managing User Accounts
+
+The mask line (near the end of the previous getfacl example) requires some special 
+ discussion. As soon as you set ACLs on a ﬁ le, the regular group permission on the ﬁ le sets 
+a mask of the maximum permission an ACL user or group can have on a ﬁ le.

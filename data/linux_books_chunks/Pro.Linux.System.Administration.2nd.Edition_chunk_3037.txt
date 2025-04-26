@@ -1,0 +1,8 @@
+So if you 
+want to install our root certificate, you will need to do so via software management (like Ansible or Puppet, 
+discussed in Chapter 19).
+
+ in the case of noncommercial Cas, there are at least a small number of clients with their root 
+
+ ■ Note 
+certificate bundled.

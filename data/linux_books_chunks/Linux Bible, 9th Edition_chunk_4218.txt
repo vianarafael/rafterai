@@ -1,0 +1,5 @@
+Depending upon the number of new threats, a virus signature database can 
+be updated often to provide protection from these new threats.
+
+A good antivirus software for your Linux system, which is open source and free, is ClamAV. 
+To install ClamAV on a Fedora or RHEL system, type the command yum install clamav.

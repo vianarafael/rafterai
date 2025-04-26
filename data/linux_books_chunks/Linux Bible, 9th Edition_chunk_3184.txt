@@ -1,0 +1,10 @@
+This is probably practical only if 
+you have a small number of expected users and the means to distribute your CA certiﬁ cate 
+
+466
+
+c17.indd  04/01/2015  Page 467
+
+Chapter 17: Confi guring a Web Server
+
+to them (including assisting them with installing it in their browsers).

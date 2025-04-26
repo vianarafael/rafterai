@@ -1,0 +1,6 @@
+Although the partitioning is done, the new partition is not yet ready to use. For 
+
+that, you have to create a ﬁ lesystem on the new partition. To create a ﬁ lesystem on 
+the new disk partition, use the mkfs command. By default, this command creates 
+an ext2 ﬁ lesystem, which is usable by Linux. However, in most cases you want to 
+use a journaling ﬁ lesystem (such as ext3 or ext4).

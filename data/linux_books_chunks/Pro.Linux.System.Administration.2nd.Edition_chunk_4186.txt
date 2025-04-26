@@ -1,0 +1,4 @@
+You can set 
+operator type messages, such as “Please mount tape,” to a different e-mail address compared to success/
+failure messages defined in the mail definition. We have also added the –h mail.example.com setting, which 
+points to our mail server for the mailcommand and operatorcommand commands.

@@ -1,0 +1,17 @@
+Use tcpdump -xx like this:
+
+root@router~# tcpdump -xx -i eth1
+
+root@router~# tcpdump -xx -i eth2
+
+83
+
+introduction to routers
+
+6. Remember the third network card on the router ? Connect this card to a LAN with internet
+connection. On many LAN's the command dhclient eth0 just works (replace eth0 with the
+correct interface.
+
+root@router~# dhclient eth0
+
+You now have a setup similar to this picture.

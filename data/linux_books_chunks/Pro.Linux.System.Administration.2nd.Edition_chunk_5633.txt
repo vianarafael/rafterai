@@ -1,0 +1,12 @@
+You can then read 
+the documentation for this module and create your apache services (https://forge.puppet.com/
+puppetlabs/apache).
+
+You can read more about how to create your own modules and how they are structured at 
+https://docs.puppet.com/puppet/4.8/modules_fundamentals.html#writing-modules.
+
+942
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We are now going to create a node definition so that we can match each of our nodes to a profile.

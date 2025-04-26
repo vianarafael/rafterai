@@ -1,0 +1,8 @@
+Because only the root user may write to the 
+zone file directory, we start our editor using sudo.
+
+$ sudo vim /var/cache/bind/master/example.com.db
+
+We place these authoritive zone files in the master directory. We will be showing you how the slaves 
+operate shortly. You will need to make sure that the directory /var/cache/bind/master or /var/named/master 
+exists, depending on your distribution.

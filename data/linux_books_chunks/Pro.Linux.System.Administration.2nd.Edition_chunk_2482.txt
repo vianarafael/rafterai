@@ -1,0 +1,4 @@
+These levels are called zones, and for each zone a domain is a part of, a 
+query is done to find out what the name servers are for that zone. One of these servers is then queried in turn 
+to obtain a DNS server for the next zone. The lowest-level zone—the one that all other zones are members 
+of—is called the root zone. We indicate this zone with a single period.

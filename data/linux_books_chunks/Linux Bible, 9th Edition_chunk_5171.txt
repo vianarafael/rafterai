@@ -1,0 +1,15 @@
+Pipe the output 
+
+to the less command so you can page through the output.
+
+$ ls -lR $HOME/projects/ | less
+
+6.  Remove the ﬁ les house6, house7, and house8 without being prompted.
+
+$ rm -f $HOME/projects/house[678]
+
+7.  Move house3 and house4 to the $HOME/projects/houses/doors directory.
+
+$ mv projects/house{3,4} projects/houses/doors/
+
+8.

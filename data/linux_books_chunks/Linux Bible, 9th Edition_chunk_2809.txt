@@ -1,0 +1,2 @@
+At server boot time, various jobs may themselves emit signals. These emitted signals then 
+cause other jobs to start.

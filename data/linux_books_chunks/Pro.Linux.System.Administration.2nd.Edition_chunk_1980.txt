@@ -1,0 +1,11 @@
+We can install individual updates by clicking the Install buttons or we can install 
+all the updates with the Install button in the top right.
+
+If we wish to see what will be installed we can click the updates.
+In Figure 8-36 we see the list of packages that will be installed with the OS Updates update.
+
+341
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-36.

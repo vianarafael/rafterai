@@ -1,0 +1,9 @@
+Try to connect to your Apache web server from a web browser that is outside the 
+local system. If it fails, correct any problems you encounter by investigating the 
+ﬁ rewall, SELinux, and other security features.
+
+6.  Using the openssl or similar command, create your own private RSA key and 
+
+ self-signed SSL certiﬁ cate.
+
+7.

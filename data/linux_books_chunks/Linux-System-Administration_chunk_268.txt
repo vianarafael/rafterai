@@ -1,0 +1,9 @@
+Note also that the ISO 9660 standard for cdrom uses a 2048 byte block size.
+
+Old hard disks (and floppy disks) use cylinder-head-sector addressing to access a sector
+on the disk. Most current disks use LBA (Logical Block Addressing).
+
+4.1.6. solid state drive
+
+A solid state drive or ssd is a block device without moving parts. It is comparable to flash
+memory.

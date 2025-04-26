@@ -1,0 +1,6 @@
+Also 
+includes other information, such as the home directory and default shell. (Rarely 
+includes the user passwords themselves, which are typically stored in the /etc/
+shadow ﬁ le.)
+
+ ■ printcap—Contains deﬁ nitions for the printers conﬁ gured for your computer.

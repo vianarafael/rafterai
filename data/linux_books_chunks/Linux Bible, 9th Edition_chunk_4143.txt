@@ -1,0 +1,17 @@
+As you would 
+expect, the ﬁ le permission should be set exactly as the /etc/shadow ﬁ le:
+
+ ■ Owner: root
+
+ ■ Group: root
+
+ ■ Permissions: (000) Owner: --- Group: --- Other: ---
+
+605
+
+c22.indd  04/15/2015  Page 606
+
+Part V: Learning Linux Security Techniques
+
+Locking down the filesystem
+The ﬁ lesystem table (see Chapter 12), /etc/fstab, needs some special attention, too.

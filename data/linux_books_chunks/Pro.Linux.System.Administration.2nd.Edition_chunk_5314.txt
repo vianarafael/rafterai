@@ -1,0 +1,3 @@
+Confused? Simply put, Nagios allows you to chain templates together. This enables 
+you to build quite complex template models that minimize the amount of typing needed to define your 
+monitoring environment.

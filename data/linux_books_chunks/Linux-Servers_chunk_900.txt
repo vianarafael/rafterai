@@ -1,0 +1,10 @@
+License  ....................................................................................................................................................   249
+
+246
+
+Appendix A. cloning
+
+A.1. About cloning
+
+You can have distinct goals for cloning a server. For instance a clone can be a cold iron
+backup system used for manual disaster recovery of a service.

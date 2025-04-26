@@ -1,0 +1,11 @@
+Here’s an example:
+
+$ sudo iptables -A INPUT -p tcp -m conntrack --ctstate NEW -m tcp --dport 25 -j ACCEPT
+
+Chapter 12 ■ Mail ServiCeS
+
+ ■ Tip 
+
+ We talked about the iptables firewall, writing rules, and opening ports in Chapter 7.
+
+We should now configure our MX record in our DNS server that we set up in Chapter 10.

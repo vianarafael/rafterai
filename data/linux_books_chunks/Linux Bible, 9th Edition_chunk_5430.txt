@@ -1,0 +1,29 @@
+root root unconfined_u:object_r:etc_t:s0   /etc/test.txt
+
+833
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 834
+
+Appendix B: Exercise Answers
+
+# chcon -t user_tmp_t /etc/test.txt
+# ls -Z /etc/test.txt
+-rw-r--r--. root root unconfined_u:object_r:user_tmp_t:s0 /etc/
+     test.txt
+# restorecon /etc/test.txt
+# ls -Z /etc/test.txt
+-rw-r--r--.

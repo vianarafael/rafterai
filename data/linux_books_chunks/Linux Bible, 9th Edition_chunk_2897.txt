@@ -1,0 +1,6 @@
+CUPS also supports 
+implicit classes, which are print classes that form by merging identical network 
+printers automatically.
+
+ ■ Printer browsing—With printer browsing, client computers can see any CUPS 
+printers on your local network with browsing enabled.

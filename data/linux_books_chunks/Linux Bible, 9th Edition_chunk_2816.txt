@@ -1,0 +1,31 @@
+The following shows exactly how to accomplish this:
+
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+   Loaded: loaded (/lib/systemd/system/cups.service; disabled)
+   Active: inactive (dead) since Tue, 01 May 2018 06:42:38 ...
+ Main PID: 17172 (code=exited, status=0/SUCCESS)
+   CGroup: name=systemd:/system/cups.service
+# systemctl enable cups.service
+ln -s '/lib/systemd/system/cups.service'
+   '/etc/systemd/system/printer.target.wants/cups.service
+ln -s '/lib/systemd/system/cups.socket'
+   '/etc/systemd/system/sockets.target.wants/cups.socket'
+ln -s '/lib/systemd/system/cups.path' '
+   /etc/systemd/system/multi-user.target.wants/cups.path'
+
+410
+
+c15.indd  04/01/2015  Page 411
+
+Chapter 15: Starting and Stopping Services
+
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+   Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+   Active: inactive (dead) since Tue, 01 May 2018 06:42:38...
+ Main PID: 17172 (code=exited, status=0/SUCCESS)
+   CGroup: name=systemd:/system/cups.service
+
+Notice that the status of cups.service changes from disabled to enabled after using 
+the enable option on systemctl.

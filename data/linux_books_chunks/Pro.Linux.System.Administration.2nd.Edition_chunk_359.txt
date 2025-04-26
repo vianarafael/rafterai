@@ -1,0 +1,12 @@
+Go to your favorite workspace and create a new directory 
+or folder called first. Use the cd command to enter that new directory.
+
+89
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+The output of the commands will be the same no matter which operating system you have. Issue the 
+
+following command:
+
+Listing 3-1.

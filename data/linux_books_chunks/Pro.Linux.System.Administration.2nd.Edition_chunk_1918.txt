@@ -1,0 +1,6 @@
+You can 
+move up and down the lists using the arrow keys and expand a highlighted item by pressing Enter.
+
+Press Enter to expand the Installed Packages list and then expand the main list. You will see an 
+alphabetical listing of the currently installed packages in the main section. As you highlight a package, the 
+package description is displayed in the information window.

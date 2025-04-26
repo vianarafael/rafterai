@@ -1,0 +1,16 @@
+We do that with nmcli too.
+
+$ sudo nmcli con up enp0s3
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/
+ActiveConnection/2685) 
+
+We can now see the new addresses as follows:
+
+$ ip addr show enp0s3 |grep inet
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic enp0s3
+    inet 192.168.14.10/24 brd 192.168.14.255 scope global enp0s3
+    inet 172.10.2.1/16 brd 172.10.255.255 scope global enp0s3
+    inet 10.2.2.2/8 brd 10.255.255.255 scope global enp0s3
+    inet6 fe80::a00:27ff:feb2:9245/64 scope link
+
+The other way to add an alias is to use a script to assign IP addresses when your host boots up.

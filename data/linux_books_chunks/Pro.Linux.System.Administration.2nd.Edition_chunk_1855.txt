@@ -1,0 +1,6 @@
+Let’s look at that now.
+
+DNF –or Dandified YUM
+DNF was originally a fork of the YUM package manager, and it is a replacement of YUM rather than just 
+a new release. It is designed to maintain (roughly) CLI (command-line interface) compatibility with the 
+current version of YUM.

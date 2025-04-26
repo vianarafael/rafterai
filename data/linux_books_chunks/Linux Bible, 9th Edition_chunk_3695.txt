@@ -1,0 +1,11 @@
+In Fedora or RHEL, as root user from a Terminal window, open the /etc/auto.
+
+master ﬁ le and look for the following line:
+
+/net   -hosts
+
+This causes the /net directory to act as the mount point for the NFS shared 
+ directories you want to access on the network. (If there is a comment character 
+at the beginning of that line, remove it.)
+
+2.

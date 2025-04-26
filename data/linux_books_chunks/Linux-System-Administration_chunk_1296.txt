@@ -1,0 +1,10 @@
+Image disks or partitions
+
+And who needs ghost when dd can create a (compressed) image of a partition.
+
+dd if=/dev/hdb2 of=/image_of_hdb2.IMG
+dd if=/dev/hdb2 | gzip > /image_of_hdb2.IMG.gz
+
+30.7.7. Create files of a certain size
+
+dd can be used to create a file of any size.

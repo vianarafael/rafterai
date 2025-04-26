@@ -1,0 +1,9 @@
+We hash the DnsKeY and rrsIG 
+and compare that to what the .com Ds record has; if they match, then we can trust the keys from the 
+google name servers.
+
+440
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+having an explicit trust for the root domain has an interesting human side effect.

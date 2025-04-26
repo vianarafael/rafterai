@@ -1,0 +1,5 @@
+The prompt for the regular user ($) 
+changes to the superuser prompt (#). At this point, you have full permission to run any 
+command and use any ﬁ le on the system. However, one thing that the su command doesn’t 
+do when used this way is read in the root user’s environment. As a result, you may type a 
+command that you know is available and get the message Command Not Found.

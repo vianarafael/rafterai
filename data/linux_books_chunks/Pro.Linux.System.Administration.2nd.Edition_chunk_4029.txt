@@ -1,0 +1,8 @@
+To do that, we issue the following:
+
+$ aws s3 cp afile s3://our-backup/
+upload: ./afile to s3://our-backup/afile
+$ aws s3 ls our-backup/
+2016-10-16 05:02:47      32768 afile
+
+There you can see we have uploaded a small file to our S3 bucket.

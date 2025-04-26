@@ -1,0 +1,10 @@
+These packages in such a repository are
+tested and very easy to install (or remove) with a graphical or command line installer.
+
+20.1.2. .deb packages
+
+Debian, Ubuntu, Mint and all derivatives from Debian and Ubuntu use .deb packages. To
+manage software on these systems, you can use aptitude or apt-get, both these tools are
+a front end for dpkg.
+
+20.1.3.

@@ -1,0 +1,11 @@
+Now let’s look at our ticket:
+
+$ klist
+Ticket cache: FILE:/tmp/krb5cc_1000
+Default principal: administrator@SAMBA.EXAMPLE.COM
+
+Valid starting       Expires              Service principal
+09/26/2016 23:34:37  09/27/2016 09:34:37  krbtgt/SAMBA.EXAMPLE.COM@SAMBA.EXAMPLE.COM
+    renew until 09/27/2016 23:34:30
+
+That proves Kerberos is working correctly.

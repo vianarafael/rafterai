@@ -1,0 +1,6 @@
+You can 
+ﬁ nd out more on LVM in the section “Using Logical Volume Management Partitions” later in 
+this chapter.
+
+For the moment, I recommend you leave the hard disk alone and ﬁ nd a USB ﬂ ash drive that 
+you do not mind erasing.

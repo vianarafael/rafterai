@@ -1,0 +1,16 @@
+As with the previous Boolean, this 
+works regardless of the ﬁ le context set on the shared ﬁ les and directories.
+
+ ■ use_nfs_home_dirs — To allow the NFS server to share your home directories 
+
+via NFS, set this Boolean to on.
+
+2020
+
+539
+
+c20.indd  04/01/2015  Page 540
+
+Part IV: Becoming a Linux Server Administrator
+
+Of the Booleans just described, the ﬁ rst two are on by default.

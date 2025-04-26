@@ -1,0 +1,6 @@
+The branch has an internal IP address range of 192.168.10.0/24.
+
+branch2.example.com: A branch office host with an external IP address of 10.0.2.157. 
+The branch has an internal IP address range of 192.168.20.0/24.
+
+branch3.example.com: A branch office host with an external IP address of 10.0.2.158.

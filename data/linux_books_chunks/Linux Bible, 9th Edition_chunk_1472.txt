@@ -1,0 +1,6 @@
+You can use the Fedora Live ISO image from disk or burned 
+to a DVD to start an installation from your chosen hypervisor host. (Chapter 16 
+describes how to set up a KVM virtualization host.)
+
+The following procedure steps you through the process of installing the Fedora Live ISO 
+described in Chapter 1 to your local computer.

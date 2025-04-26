@@ -1,0 +1,17 @@
+The file can look like this:
+
+[carbon]
+pattern = ^carbon\.
+retentions = 60s:90d
+
+818
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+[default_1min_for_1day]
+pattern = .*
+retentions = 60s:1d
+
+Different metrics can have different retentions periods. You define them after giving them a [name]. You 
+
+can see that we can match metrics that match the pattern ^carbon\.

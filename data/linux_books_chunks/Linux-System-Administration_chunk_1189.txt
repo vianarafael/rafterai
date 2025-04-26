@@ -1,0 +1,12 @@
+Linux can
+start in a bash shell with the root user logged on (without password).
+
+Some distributions prevent the use of this feature (at kernel compile time).
+
+28.1.5. init=/bin/bash
+
+Normally the kernel invokes init as the first daemon process. Adding init=/bin/bash to the
+kernel parameters will instead invoke bash (again with root logged on without providing a
+password).
+
+28.1.6.

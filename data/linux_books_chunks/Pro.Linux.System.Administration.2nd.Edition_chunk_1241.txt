@@ -1,0 +1,8 @@
+Let’s look at an example created 
+by the user jsmith using the –l, or list, option for crontab.
+
+$ crontab -l
+*/2 * * * * [ -e /tmp/log ] && rm -f /tmp/log
+
+You will see a list of all the cron jobs scheduled by this user. This is a simple series of commands that 
+first check for the existence of a file called /tmp/log, and if it exists, remove it.

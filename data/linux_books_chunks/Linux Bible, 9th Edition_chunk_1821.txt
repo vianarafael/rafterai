@@ -1,0 +1,8 @@
+You only need the base name of a package to 
+remove it. For example:
+
+# rpm -e emacs
+
+The rpm -e emacs command would be successful because no other packages are depen-
+dent on emacs. However, it would leave behind emacs-common, which was installed as 
+a dependency to emacs.

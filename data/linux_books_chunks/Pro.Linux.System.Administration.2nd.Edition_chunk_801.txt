@@ -1,0 +1,14 @@
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+Changing the user information for ataylor
+Enter the new value, or press ENTER for the default
+    Full Name []: Anne Taylor
+    Room Number []:
+    Work Phone []:
+    Home Phone []:
+    Other []:
+Is the information correct? [Y/n] y
+
+the adduser command asks for all the variables it needs, and it then calls the useradd command with 
+the correct parameters in order to create the account.

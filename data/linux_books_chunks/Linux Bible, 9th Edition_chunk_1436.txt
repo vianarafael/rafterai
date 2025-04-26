@@ -1,0 +1,18 @@
+Run the System Monitor to sort all processes running on your system by user name. 
+
+Notice which users run which processes.
+
+3.  Find all ﬁ les under the /var/spool directory that are owned by users other than 
+
+root and display a long listing of them.
+
+199
+
+ 
+ 
+ 
+c08.indd  04/01/2015  Page 200
+
+Part III: Becoming a Linux System Administrator 
+
+4.  Become the root user using the su - command.

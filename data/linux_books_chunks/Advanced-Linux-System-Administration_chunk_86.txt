@@ -1,0 +1,24 @@
+These choices will be saved in a single file:
+
+/usr/src/linux/.config
+
+ Creating the .config file
+ Command
+ make config
+ make menuconfig
+ make xconfig
+
+ Description
+ Edit each line of .config one at a time
+ Edit .config browsing through menus (uses ncurses)
+ Edit .config browsing through menus (uses GUI 
+widgets)
+
+When editing the .config file using any of the above methods the choices available for 
+most kernel components are:
+
+Do not use the module (n)
+Statically compile the module into the kernel (y)
+Compile the module as dynamically loadable (M)
+
+Notice that some kernel components can only be statically compiled into the kernel.

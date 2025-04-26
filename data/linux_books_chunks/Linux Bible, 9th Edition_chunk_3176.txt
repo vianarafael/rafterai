@@ -1,0 +1,6 @@
+For web connections, the SSL connection is established ﬁ rst, 
+and then normal HTTP communication is “tunneled” through it.
+
+Because SSL negotiation takes place before any HTTP communication, name-based virtual hosting (which occurs at 
+the HTTP layer) does not work easily with SSL. As a consequence, every SSL virtual host you confi gure should have 
+a unique IP address.

@@ -1,0 +1,4 @@
+You will 
+
+notice that we have specified the share name, /data/staff, followed by the host to mount from, as indicated 
+by the setting 192.168.0.1:/data/staff.

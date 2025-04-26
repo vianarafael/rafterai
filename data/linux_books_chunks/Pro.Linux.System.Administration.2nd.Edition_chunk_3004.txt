@@ -1,0 +1,15 @@
+We’ll do the latter by telling tar to strip the first 
+directory component from the archive and specifying a target directory using the -C option.
+
+$ sudo tar -xz --strip-components=1 -C /var/www/html/www.example.com/ -f wordpress.tar.gz
+
+500
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+ to find out which directories a tar archive contains, use the -t and -v options to display a list of files 
+
+ ■ Tip 
+without extracting them (e.g., tar -tvzf wordpress.tar.gz).
+
+We need to now create a new database and create a new database user.

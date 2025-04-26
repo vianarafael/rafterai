@@ -1,0 +1,6 @@
+The wa column will usually display values in the high 90s as well, indicating 
+the CPU is waiting for an application or data to be retrieved from swap space.
+
+You can solve this problem by using top to find out which application is using too much RAM and 
+possibly changing its configuration to use less. Mostly you will see your main application is the one using the 
+most memory.

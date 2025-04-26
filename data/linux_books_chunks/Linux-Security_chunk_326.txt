@@ -1,0 +1,8 @@
+All the information you see with this ls command resides in the inode, except for
+the filename (which is contained in the directory).
+
+68
+
+file links
+
+9.1.4.

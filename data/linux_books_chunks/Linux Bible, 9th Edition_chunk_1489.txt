@@ -1,0 +1,4 @@
+Select CREATE USER. It is good practice to have at least one regular (non-root) 
+user on every system, because root should be used only for administrative tasks 
+and not everyday computer use. Add the user’s full name, short username, and 
+password.

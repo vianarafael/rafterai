@@ -1,0 +1,6 @@
+To use an installed driver for your printer, choose Select Printer From 
+
+Database, and then choose the manufacturer of your printer. As an a lternative, 
+you could select Provide PPD File and supply your own PPD ﬁ le (for example, if 
+you have a printer that is not supported in Linux and you have a driver that was 
+supplied with the printer). PPD stands for PostScript Printer Description.

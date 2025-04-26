@@ -1,0 +1,6 @@
+Most of these problems 
+can be isolated and resolved using two Apache-provided tools: the apachectl program and 
+the system error log.
+
+When encountering a problem, ﬁ rst use the apachectl program with the configtest 
+parameter to test the conﬁ guration.

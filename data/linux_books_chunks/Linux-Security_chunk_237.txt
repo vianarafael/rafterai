@@ -1,0 +1,23 @@
+They can remove themselves
+from a group, but this does not influence their ability to add or remove members.
+
+[serena@RHEL4b ~]$ gpasswd -d serena sports
+Removing user serena from group sports
+[serena@RHEL4b ~]$ exit
+
+Information about group administrators is kept in the /etc/gshadow file.
+
+[root@RHEL4b ~]# tail -1 /etc/gshadow
+sports:!:serena:venus,harry
+[root@RHEL4b ~]#
+
+To remove all group administrators from a group, use the gpasswd command to set an empty
+administrators list.
+
+[root@RHEL4b ~]# gpasswd -A "" sports
+
+39
+
+groups
+
+5.8.

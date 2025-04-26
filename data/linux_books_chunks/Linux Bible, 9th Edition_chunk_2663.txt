@@ -1,0 +1,7 @@
+It is currently used 
+by Fedora 15, Red Hat Enterprise Linux 7, OpenSUSE 12.2, and later versions and is being 
+implemented for Ubuntu 15.04.
+
+In order to properly manage your services, you need to know which initialization daemon 
+your server has. Figuring that out can be a little tricky. The initialization process running 
+on a SysVinit or Upstart is named init.

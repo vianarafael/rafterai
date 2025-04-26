@@ -1,0 +1,4 @@
+You can enter 
+
+ ■ Tip 
+the command alias to see a list of all the current aliases on your host. You can create your own aliases too.

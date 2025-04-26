@@ -1,0 +1,23 @@
+Click the icon again to retract the drawer.
+
+56
+
+ 
+ 
+ 
+ 
+ 
+c02.indd  04/01/2015  Page 57
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+Figure 2.18 shows a portion of the panel with an open drawer that includes an icon for 
+launching a weather report, sticky notes, and a stock monitor.
+
+FIGURE 2.18
+
+Add launchers or applets to a drawer on your GNOME 2 panel.
+
+Changing panel properties
+You can change the orientation, size, hiding policy, and background properties of your 
+desktop panels.

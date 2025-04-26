@@ -1,0 +1,15 @@
+Setting Network Boot
+
+923
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+When your host boots, it will request an IP address from the network and get an answer from your 
+
+DHCP server, as you can see in Figure 19-2.
+
+Figure 19-2.  Requesting DHCP address
+
+Your host will boot to the Cobbler boot menu. You can see an example of this menu in Figure 19-3.
+
+Figure 19-3.

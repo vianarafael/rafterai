@@ -1,0 +1,7 @@
+An example of a network 
+ ﬁ rewall is in your workplace, where the network should be protected by a 
+screening router’s ﬁ rewall.
+
+A host-based ﬁ rewall is one that is running on and protecting an individual host 
+or server. You most likely have a ﬁ rewall on your PC at home. This is a host-based 
+ﬁ rewall. Another example of a host-based ﬁ rewall is the firestarter application.

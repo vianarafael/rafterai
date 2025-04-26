@@ -1,0 +1,7 @@
+If you want to see messages showing activities happening as the system boots 
+up, you can remove the option rhgb quiet from the kernel line. This lets you 
+see messages as they scroll by. Pressing Esc during boot-up gets the same result.
+
+3.  Press Enter to return to the editing screen.
+
+4.  Type b to boot the computer with the new options.

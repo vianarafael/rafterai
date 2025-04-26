@@ -1,0 +1,2 @@
+SLAAC is used quite often by devices like PDAs and mobile phones and requires 
+a less complicated infrastructure to communicate with other devices on the local network.

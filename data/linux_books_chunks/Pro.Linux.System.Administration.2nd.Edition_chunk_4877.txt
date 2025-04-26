@@ -1,0 +1,10 @@
+You should check the help or man page for 
+more information.
+
+We’ll come back to how you can get notifications when system performance degrades when we cover 
+
+Nagios in Chapter 18.
+
+Continuous Performance Monitoring
+Now that you have the basic tools to diagnose where a performance bottleneck is, we will show you how to 
+automate ongoing monitoring.

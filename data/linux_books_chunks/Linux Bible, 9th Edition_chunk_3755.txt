@@ -1,0 +1,10 @@
+Later, the primary command for managing 
+
+553
+
+c21.indd  04/01/2015  Page 554
+
+Part IV: Becoming a Linux Server Administrator
+
+systemd services is the systemctl command. Managing systemd journal (log) messages 
+is done with the journalctl command.

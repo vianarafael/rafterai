@@ -1,0 +1,10 @@
+Take a look at Figure 4-6, where we are making a connection to us-ny-server-1.example.com.
+
+111
+
+ChapTeR 4 ■ LInux BasICs
+
+Figure 4-6.  Using Git Bash to make an ssh connection
+
+AS in Listing 4-1 we are making a connection to the US server. Here you will note that when we first 
+connect to a host we have never connected to before, we are asked to accept the RSA key fingerprint.

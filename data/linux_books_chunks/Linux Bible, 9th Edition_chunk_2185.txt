@@ -1,0 +1,9 @@
+For that reason, you generally use the mount command only for 
+
+307
+
+c12.indd  04/01/2015  Page 308
+
+Part III: Becoming a Linux System Administrator
+
+special situations.

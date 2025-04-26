@@ -1,0 +1,9 @@
+bash
+                     root       3113 ..c.. vi
+
+This  example  shows  that  the  vi  command  actually  accesses  /usr/bin/vim.basic  as  an
+executable file.
+
+root@debian7:~/test42# fuser -v $(which vi)
+                     USER        PID ACCESS COMMAND
+/usr/bin/vim.basic:  root       3113 ...e.

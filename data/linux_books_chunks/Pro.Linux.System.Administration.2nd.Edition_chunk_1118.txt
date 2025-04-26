@@ -1,0 +1,6 @@
+We will explore that 
+shortly when we look at the systemctl command.
+
+Upstart: Ubuntu’s Init
+The idea behind Upstart was to create a comprehensive init process that can be used to start, stop, monitor, 
+and respond to events on behalf of services on your Linux host.

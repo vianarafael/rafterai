@@ -1,0 +1,10 @@
+The free Command
+
+$ free -h
+               total        used        free      shared       buff/cache     available
+Mem:           3.1G         59M         2.7G      13M          350M           2.8G
+Swap:          1.5G         0B          1.5G
+
+This listing gives you an instant overview of whether the system is running low on available memory. 
+
+The first line tells you the status of RAM use.

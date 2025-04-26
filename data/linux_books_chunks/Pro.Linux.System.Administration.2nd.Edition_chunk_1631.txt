@@ -1,0 +1,5 @@
+When we explained chains, we said they were 
+like hooks. The parameters are the different types of bait that sit on the hook. Each parameter will attract 
+packets depending on the information in the packet. It can be the source and destination addresses of the 
+packet or the protocol. The packet can furthermore be matched to source or destination ports or the state 
+the packet is in.

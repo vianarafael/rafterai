@@ -1,0 +1,5 @@
+It’s 
+easy to forget you have a program in the background, and you will lose your data if you log out or the computer reboots.
+
+To refer to a background job (to cancel or bring it to the foreground), use a percent sign (%) 
+followed by the job number.

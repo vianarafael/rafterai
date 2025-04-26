@@ -1,0 +1,14 @@
+If you 
+
+decide you need to do a fresh install of the operating system, you need to select 
+the boot device that is holding your installation medium (CD, DVD, USB drive, 
+or NIC).
+
+Assuming you get past any problems you have with the BIOS, the next step is for the BIOS 
+to start the boot loader.
+
+21
+
+Troubleshooting the GRUB boot loader
+Typically, the BIOS ﬁ nds the master boot record on the ﬁ rst hard disk and begins loading 
+that boot loader in stages.

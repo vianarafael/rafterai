@@ -1,0 +1,9 @@
+Averages or sums can be made of the metrics and pushed into Whisper as a single metric, reducing I/O 
+on the carbon-cache and Whisper database.
+
+815
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Whisper is a time-series database for long-term storage of your metrics data. It is written in Python 
+and allows for high-precision data resolution to degrade over time.

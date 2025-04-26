@@ -1,0 +1,6 @@
+So for a user to 
+authenticate to the host to send e-mail, he would need to have a user with a valid password created on the 
+host.
+
+When authenticating users, Dovecot then looks for a PAM service definition called dovecot in the /etc/
+pam.d directory. This file is installed when you install the Dovecot packages on your distribution.

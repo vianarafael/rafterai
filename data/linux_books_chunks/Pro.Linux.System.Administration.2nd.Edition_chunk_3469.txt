@@ -1,0 +1,3 @@
+Abundant documentation as well as a helpful and 
+extensive community are available online. The best place to start when seeking help is the SpamAssassin 
+home page at http://spamassassin.apache.org/. The page includes a wiki, FAQ, and documentation.

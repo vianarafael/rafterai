@@ -1,0 +1,12 @@
+(To 
+
+conﬁ gure other Samba features, you can use the SWAT window.)
+
+The following graphical tools are available in both Fedora and Red Hat Enterprise Linux:
+
+ ■ Services (system-config-services)—Display and change which services 
+are running on your Fedora system at different run levels from the Service 
+Conﬁ guration window.
+
+ ■ Authentication (authconfig-gtk)—Change how users are authenticated on your 
+system.

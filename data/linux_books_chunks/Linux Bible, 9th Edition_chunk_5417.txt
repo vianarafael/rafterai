@@ -1,0 +1,30 @@
+To determine if the su command has a PAM conﬁ guration ﬁ le, type:
+
+$ ls /etc/pam.d/su 
+
+831
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 832
+
+Appendix B: Exercise Answers
+
+If the ﬁ le exists, type at the command line to display its contents. The PAM con-
+texts it uses is any of the following: auth, account, password, session.
+
+$ cat /etc/pam.d/su
+
+8.

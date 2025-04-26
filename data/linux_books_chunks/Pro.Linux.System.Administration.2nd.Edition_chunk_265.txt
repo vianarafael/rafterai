@@ -1,0 +1,2 @@
+If you created the CD or DVD from an ISO file, it might be worth writing a new disc at a lower 
+speed.

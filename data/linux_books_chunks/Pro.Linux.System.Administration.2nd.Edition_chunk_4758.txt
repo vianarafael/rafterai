@@ -1,0 +1,2 @@
+We want to use the same usernames and passwords 
+across as many of our services as possible.

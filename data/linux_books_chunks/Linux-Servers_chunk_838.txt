@@ -1,0 +1,9 @@
+403 Forbidden
+2014-04-12 21:44:13 ERROR 403: Forbidden.
+
+The /var/log/audit/ is still not out best friend, but take a look at /var/log/messages.
+
+[root@centos65 ~]# tail -2 /var/log/messages
+Apr 12 21:44:16  centos65  setroubleshoot: SELinux is preventing /usr/sbin/h\
+ttpd from getattr access on the file /var/www/html/test42.txt. For complete \
+SELinux messages.

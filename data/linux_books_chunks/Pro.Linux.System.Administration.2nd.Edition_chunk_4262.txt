@@ -1,0 +1,8 @@
+It will 
+install the required dependencies for you.
+
+The bareos-webui package will install the web files into /usr/share/bareos-webui and install an 
+
+Apache configuration file in /etc/httpd/conf.d/bareos-webui.conf.
+
+We can restart the Apache service, and then we will create a user to access the web interface.

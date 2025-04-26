@@ -1,0 +1,8 @@
+Later, we’ll show how to add some 
+
+modules to extend functionality.
+
+CentOS
+
+In this section we are going to show how to configure our Apache web server. The Apache web server stores 
+its configuration files in /etc/httpd, with the main configuration file being /etc/httpd/conf/httpd.conf.

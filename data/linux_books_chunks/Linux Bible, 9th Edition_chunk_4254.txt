@@ -1,0 +1,13 @@
+List the permissions of the ﬁ le containing your system’s user passwords, and deter-
+
+mine if they are appropriate.
+
+3.  Determine your account’s password aging and if it will expire using a single 
+
+command.
+
+4.  Start auditing writes to the /etc/shadow with the auditd daemon, and then 
+
+check your audit settings.
+
+5.

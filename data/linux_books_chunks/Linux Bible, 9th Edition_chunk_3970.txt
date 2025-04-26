@@ -1,0 +1,3 @@
+The following command lists the names and process IDs (p) for all processes that are 
+ listening (l) for TCP (t) and UDP (u) services, along with the port number (n) they are 
+ listening on.

@@ -1,0 +1,26 @@
+Start two instances of the sleep 3342 in background.
+
+13
+
+ 
+ 
+ 
+ 
+introduction to processes
+
+sleep 3342 &
+sleep 3342 &
+
+8. Locate the process id of all sleep commands.
+
+pidof sleep
+
+9. Display only those two sleep processes in top. Then quit top.
+
+top -p pidx,pidy (replace pidx pidy with the actual numbers)
+
+10. Use a standard kill to kill one of the sleep processes.
+
+kill pidx
+
+11.

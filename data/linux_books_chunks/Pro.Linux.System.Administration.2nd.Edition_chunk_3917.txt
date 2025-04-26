@@ -1,0 +1,5 @@
+This allows rsync to 
+make a comparison of the files being copied and then copy only those that are different, making rsync very 
+efficient when it sends data between hosts. It will also check the files being copied and copy only the portion 
+of the data that is different in the file. For example, if a 1MB text file contains 990KB of the same data, rsync 
+will copy only the 10KB that is different.

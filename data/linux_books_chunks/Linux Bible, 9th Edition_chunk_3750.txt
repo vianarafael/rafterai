@@ -1,0 +1,7 @@
+A target can start a set 
+of services, as well as create or start other types of units (such as directory mounts, 
+sockets, swap areas, and timers).
+
+ ■ System V compatibility—There are targets that align with System V runlevels, if 
+you are used to dealing with runlevels. For example, graphical.target aligns 
+with runlevel 5 while multi-user.target is essentially runlevel 3.

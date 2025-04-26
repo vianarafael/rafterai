@@ -1,0 +1,12 @@
+In this directory, you will most likely see the following directories 
+and files:
+
+ll /etc/puppetlabs/code/environments/production/
+-rw-r--r-- 1 root root  879 Dec  5 23:53 environment.conf
+drwxr-xr-x 2 root root 4096 Dec  5 23:53 hieradata/
+drwxr-xr-x 2 root root 4096 Dec  5 23:53 manifests/
+drwxr-xr-x 2 root root 4096 Dec  5 23:53 modules/
+
+There is an environment.conf file that the Puppet server will read to determine the specific settings this 
+
+environment will need.

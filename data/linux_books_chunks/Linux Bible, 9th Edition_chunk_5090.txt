@@ -1,0 +1,7 @@
+If you have a 32-bit ISO, it 
+works on 32-bit or 64-bit machines.
+
+Later versions of Fedora that come with a GNOME desktop should work as well. Here’s a link 
+to the exact ISO used for the Fedora 21 Workstation: http://download.fedoraproject
+.org/pub/fedora/linux/releases/21/Workstation/x86_64/iso/Fedora-Live-
+Workstation-x86_64-21-5.iso.

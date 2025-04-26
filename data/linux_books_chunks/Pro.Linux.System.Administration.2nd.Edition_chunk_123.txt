@@ -1,0 +1,6 @@
+But remember, this is an 
+irreversible operation and data can be lost. If you have doubts Cancel & Return to Custom Partitioning.
+
+If there are no changes to existing data you will see Figure 2-8. However, we want to show you a little 
+behind the curtain here in Figure 2-7. To get here we selected I will configure partitions and then selected 
+Click here to create them automatically.

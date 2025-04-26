@@ -1,0 +1,4 @@
+When the command 
+ completes, press Enter and you are back to editing the ﬁ le. You could even use 
+this technique to launch a shell (:!bash) from vi, run a few commands from 
+that shell, and then type exit to return to vi.

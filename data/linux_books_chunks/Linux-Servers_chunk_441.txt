@@ -1,0 +1,7 @@
+Remember to use systemctl start dhcpd on RHEL7/CentOS7 and
+service dhcpd start on previous versions of RHEL/CentOS.
+
+[root@rhel71 ~]# systemctl start dhcpd
+[root@rhel71 ~]#
+
+6.5.

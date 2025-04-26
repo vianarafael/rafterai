@@ -1,0 +1,10 @@
+The system then creates a root partition and a swap partition.
+
+•	 Guided—use entire disk and set up LVM: This option also erases all data. It then 
+
+creates a small boot partition and uses the rest of the disk for a root and swap volume 
+in LVM.
+
+•	 Guided—use entire disk and set up encrypted LVM: This option is identical to the 
+
+previous, except the LVM data is all encrypted.

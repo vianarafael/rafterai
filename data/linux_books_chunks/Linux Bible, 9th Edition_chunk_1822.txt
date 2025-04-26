@@ -1,0 +1,13 @@
+If you had tried to remove emacs-common ﬁ rst, that command 
+would fail with a “Failed dependencies” message.
+
+10
+
+253
+
+c10.indd  04/01/2015  Page 254
+
+Part III: Becoming a Linux System Administrator
+
+Querying rpm information
+After the package is installed, you can query for information about the package.

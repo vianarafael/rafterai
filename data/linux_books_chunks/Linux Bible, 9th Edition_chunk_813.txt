@@ -1,0 +1,2 @@
+The commands that follow show you how to use 
+shell metacharacters with the ls command to match ﬁ lenames.

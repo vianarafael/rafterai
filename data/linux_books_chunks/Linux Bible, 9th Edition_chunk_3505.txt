@@ -1,0 +1,5 @@
+Uncomment the hosts 
+allow line (remove the semicolon), and insert the IP addresses of the hosts you want to 
+allow. To enter a range of addresses, simply end the subnetwork portion of the address, 
+followed by a dot. For example, 127. is associated with IP addresses that point to the local 
+host. The 192.168.12.

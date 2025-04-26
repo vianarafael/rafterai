@@ -1,0 +1,6 @@
+We recommend you carefully test any sudo configuration before you implement it and thoroughly 
+explore the contents of the sudo and sudoers man pages.
+
+AUDITING USER ACCESS
+
+Keeping track of what your users are doing is an important part of user management.

@@ -1,0 +1,6 @@
+Copying a Public SSH Key to a Remote Host
+
+$ ssh-copy-id au-mel-centos-1.example.com
+The authenticity of host 'au-mel-centos-1.example.com (192.168.0.1)' can't be
+    established.
+RSA key fingerprint is 67:e3:50:bf:8c:2c:a0:d5:0c:e9:fc:26:3f:9f:ea:0e.

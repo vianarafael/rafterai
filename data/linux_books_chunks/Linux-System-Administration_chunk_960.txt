@@ -1,0 +1,6 @@
+seven OSI layers
+
+When  talking  about  protocol  layers,  people  usually  mention  the  seven  layers  of  the  osi
+protocol (Application, Presentation, Session, Transport, Network, Data Link and Physical).
+We will discuss layers 2 and 3 in depth, and focus less on the other layers. The reason is
+that these layers are important for understanding networks.

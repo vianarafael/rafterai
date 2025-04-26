@@ -1,0 +1,22 @@
+You can do that in 
+several ways:
+
+ ■ Add the acl option to the ﬁ fth ﬁ eld in the line in the /etc/fstab ﬁ le that 
+
+ automatically mounts the ﬁ lesystem when the system boots up.
+
+ ■ Implant the acl line in the Default mount options ﬁ eld in the ﬁ lesystem’s super block, 
+so the acl option is used whether the ﬁ lesystem is mounted automatically or manually.
+
+ ■ Add the acl option to the mount command line when you mount the ﬁ lesystem 
+
+manually with the mount command.
+
+274
+
+c11.indd  04/01/2015  Page 275
+
+Chapter 11: Managing User Accounts
+
+Keep in mind that in Fedora and Red Hat Enterprise Linux systems, you only have to add 
+the acl mount option to those ﬁ lesystems you create after Linux is installed.

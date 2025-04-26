@@ -1,0 +1,10 @@
+Install the new hard drive or insert the new USB ﬂ ash drive.
+
+2.  Partition the new disk.
+
+3.  Create the ﬁ lesystems on the new disk.
+
+4.  Mount the ﬁ lesystems.
+
+The easiest way to add a disk or ﬂ ash drive to Linux is to have the entire disk devoted to a 
+single Linux partition.

@@ -1,0 +1,13 @@
+The state is Idle (ready to accept 
+
+438
+
+c16.indd  04/01/2015  Page 439
+
+Chapter 16: Confi guring a Print Server
+
+printer jobs), and the Accepting value is Yes (the printer is accepting print jobs 
+by default).
+
+The DeviceURI has several ways to identify the device name of a printer, reﬂ ecting where 
+the printer is connected.

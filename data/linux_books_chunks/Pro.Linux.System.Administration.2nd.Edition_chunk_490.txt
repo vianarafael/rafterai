@@ -1,0 +1,8 @@
+We’re going to show you quite a 
+
+ ■ Note 
+bit more about files with the ls command later in this chapter, so stay tuned.
+
+If you are struggling with a command, its man page is the first place you should look for help. Not all 
+commands have man pages, and you’ll get an error message if the man page of a particular command does not 
+exist.

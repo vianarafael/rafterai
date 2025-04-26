@@ -1,0 +1,7 @@
+We can add the following options to the mobileclient.conf on 
+our VPN client:
+
+up /etc/openvpn/tunnelup.sh
+down /etc/openvpn/tunneldown.sh
+
+Each option specifies scripts or commands that will be run when the VPN tunnel goes up and down.

@@ -1,0 +1,4 @@
+For instance, 
+our host au-mel-ubuntu-1 needs to provide web and SQL services, and the mail server will also provide POP 
+and IMAP access. We can create some CNAME entries to provide aliases that all point to the mail A entry 
+(see Listing 10-20).

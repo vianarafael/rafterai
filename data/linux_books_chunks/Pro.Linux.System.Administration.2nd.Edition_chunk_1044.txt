@@ -1,0 +1,4 @@
+Beginning 
+
+with menuentry, this tells grub that we have a new menu item for it to list. ‘CentOS Linux (...) 7 (Core)’ 
+gives us the name as it will appear in the menu list.

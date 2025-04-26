@@ -1,0 +1,12 @@
+verify ownership
+
+We now have a simple standalone samba file server with authenticated access. And the files
+in the shares belong to their proper owners.
+
+[root@RHEL52 samba]# ls -l /srv/samba/authwrite/
+total 8
+-rwxr--r-- 1 martina martina  0 Jan 21 20:06 martina.txt
+-rwxr--r-- 1 serena  serena  14 Jan 21 20:06 serena.txt
+-rwxr--r-- 1 serena  serena   6 Jan 21 20:09 ser.txt
+
+20.8.

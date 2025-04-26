@@ -1,0 +1,3 @@
+For that command line, you need to get the UID for joe on the server 
+(507 in this example), so that joe on the client system owns the ﬁ les from joe’s 
+NFS home directory.

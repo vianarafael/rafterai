@@ -1,0 +1,8 @@
+To lower the compression level, append one of the letters l (low), m
+(medium) or a (auto) to the tape name.
+
+/dev/st0l   First low compression tape device
+/dev/st0m   First medium compression tape device
+/dev/nst2m  Third no rewind medium compression tape device
+
+30.1.2.

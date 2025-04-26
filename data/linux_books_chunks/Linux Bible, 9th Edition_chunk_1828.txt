@@ -1,0 +1,10 @@
+Then run some query commands on the RPM ﬁ le.
+
+# rpm -qip zsh-5.0.2-7.el7.x86_64.rpm  View info about the RPM file
+# rpm -qlp zsh-5.0.2-7.el7.x86_64.rpm  List all files in RPM file
+# rpm -qdp zsh-5.0.2-7.el7.x86_64.rpm  Show docs in the RPM file
+# rpm -qcp zsh-5.0.2-7.el7.x86_64.rpm  List config files in RPM file
+
+Verifying RPM packages
+Using the -V option, you can check the packages installed on your system to see if the 
+ components have been changed since the packages were ﬁ rst installed.

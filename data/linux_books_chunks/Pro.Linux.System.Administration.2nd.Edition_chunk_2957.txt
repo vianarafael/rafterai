@@ -1,0 +1,6 @@
+by performing all these 
+operations at once, disk writes are more efficient. another reason is for durability, as these logs can be 
+used to replay transactions when the system comes back up from an unexpected crash.
+
+When the Mariadb server shuts down, it does not process these transaction logs, so they usually 
+contain live data.

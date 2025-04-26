@@ -1,0 +1,3 @@
+The 
+problem, as it relates to ﬁ rewalls, is that several different services are associated with NFS 
+that listen on different ports, and those ports are assigned randomly.

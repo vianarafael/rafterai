@@ -1,0 +1,10 @@
+After ccrypt is installed, man pages are available.
+
+ ■ For Fedora and RHEL: yum install ccrypt.
+
+ ■ For Ubuntu: sudo apt-get install ccrypt.
+
+ ■ gpg—This utility can use either asymmetric key pairs or a symmetric key. It is 
+
+installed by default and is the cryptography tool of choice for Linux servers. The 
+default cipher to use is set in the gpg.conf ﬁ le.

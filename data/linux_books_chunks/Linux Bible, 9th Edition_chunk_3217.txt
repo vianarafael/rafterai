@@ -1,0 +1,12 @@
+On other systems, you can ﬁ nd 
+the location by looking for the ErrorLog directive in your Apache conﬁ guration.
+
+You might encounter an error message that looks something like this:
+
+[crit] (98)Address already in use: make_sock: could not bind to 
+   port 80
+
+This error often indicates that something else is bound to port 80 (not very common unless 
+you have attempted to install another web server), that another Apache process is already 
+running (apachectl usually catches this), or that you have told Apache to bind the same 
+IP address and port combination in more than one place.

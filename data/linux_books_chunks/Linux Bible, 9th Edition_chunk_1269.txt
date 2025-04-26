@@ -1,0 +1,13 @@
+The root user also installs software packages and adds 
+accounts for other people who use the system.
+
+177
+
+c08.indd  04/01/2015  Page 178
+
+Part III: Becoming a Linux System Administrator 
+
+Think of the root user in Linux as similar to the Administrator user in Windows.
+
+When you ﬁ rst install most Linux systems (although not all systems), you add a password 
+for the root user.

@@ -1,0 +1,2 @@
+It might offer only a 
+plain-text, command-line interface. You can choose to add a desktop later.

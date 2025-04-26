@@ -1,0 +1,10 @@
+After running partprobe, the partitions
+can be used again.
+
+[root@RHEL5 ~]# partprobe 
+[root@RHEL5 ~]#
+
+5.4.3. logical drives
+
+The partition table does not contain information about logical drives. So the dd backup
+of the mbr only works for primary and extended partitions.

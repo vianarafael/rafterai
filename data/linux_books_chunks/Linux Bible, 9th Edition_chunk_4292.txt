@@ -1,0 +1,27 @@
+The disadvantages are 
+speed and key management.
+
+FIGURE 23.2
+
+Basic asymmetric key cryptography
+
+Public Key
+
+Private Key
+
+23
+
+Unencrypted
+ﬁle
+
+Encrypted
+ﬁle
+
+Encrypted
+ﬁle
+
+Unencrypted
+ﬁle
+
+You can perform asymmetric encryption on your Linux system using gpg2. It is a very 
+ versatile cryptographic utility.

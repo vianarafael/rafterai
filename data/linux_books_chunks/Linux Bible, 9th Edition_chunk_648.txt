@@ -1,0 +1,10 @@
+Add the following 
+line to the .bashrc fi le in your home directory:
+
+set -o vi
+
+The next time you open a shell, you can use vi commands to edit your command lines.
+
+To do the editing, you can use a combination of control keys, meta keys, and arrow keys. 
+For example, Ctrl+F means to hold the Ctrl key, and type f. Alt+F means to hold the Alt key, 
+and type f.

@@ -1,0 +1,5 @@
+This means there is a ﬁ rewall in place on Host-A. These scans from Host-B give 
+you a better idea of what a malicious scanner may see when scanning your Linux server. 
+In this example, the malicious scanner would not see much.
+
+If you are familiar with nmap, you know that the TCP SYN scan is the default scan nmap uses.

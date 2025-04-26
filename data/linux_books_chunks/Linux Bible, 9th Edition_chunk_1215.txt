@@ -1,0 +1,2 @@
+This example searches the contents of the somefile.txt ﬁ le and replaces 
+extra blank spaces at the end of each line (s/ *$) with nothing (//).

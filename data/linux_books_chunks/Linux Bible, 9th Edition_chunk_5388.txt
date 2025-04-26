@@ -1,0 +1,9 @@
+The Integrated NIC screen that appears to the 
+right lets me choose to enable or disable the NIC (On or Off) or enable with PXE 
+or RPL (if I intend to boot the computer over the network).
+
+3.  To interrupt the boot process to get to the GRUB boot loader, do the following:
+
+a. Reboot the computer.
+
+b.

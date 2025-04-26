@@ -1,0 +1,12 @@
+rc directories
+
+When you take a look any of the /etc/rcX.d/ directories, then you will see a lot of (links to)
+scripts who's name start with either uppercase K or uppercase S.
+
+[root@RHEL52 rc3.d]# ls -l | tail -4
+lrwxrwxrwx 1 root root 19 Oct 11  2008 S98haldaemon -> ../init.d/haldaemon
+lrwxrwxrwx 1 root root 19 Oct 11  2008 S99firstboot -> ../init.d/firstboot
+lrwxrwxrwx 1 root root 11 Jan 21 04:16 S99local -> ../rc.local
+lrwxrwxrwx 1 root root 16 Jan 21 04:17 S99smartd -> ../init.d/smartd
+
+The /etc/rcX.d/ directories only contain links to scripts in /etc/init.d/.

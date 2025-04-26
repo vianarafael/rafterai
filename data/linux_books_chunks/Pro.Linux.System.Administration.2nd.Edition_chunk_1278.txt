@@ -1,0 +1,9 @@
+The main 
+
+server, headoffice.example.com with IP address 192.168.0.1, will be able to communicate to the branch 
+offices via the VPN networks we will establish from that host to those remote branches (we will explain VPNs 
+in Chapter 15).
+
+The desktops in our local wired network have been given a pool of addresses to use in a range of 
+
+192.168.0.101–192.168.0.200.

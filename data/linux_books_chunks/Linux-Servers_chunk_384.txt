@@ -1,0 +1,11 @@
+86400   IN      A       10.104.33.30
+debianpaul.paul.local.  86400   IN      A       10.104.33.30
+
+;; Query time: 4 msec
+;; SERVER: 10.104.33.30#53(10.104.33.30)
+;; WHEN: Mon Oct  6 09:35:25 2014
+;; MSG SIZE  rcvd: 141
+
+root@debian7:~#
+
+6. Our primary server appears to be up and running.

@@ -1,0 +1,4 @@
+Notice that the letter g is needed at the end of the  substitution 
+command to cause every occurrence of Mac on each line to be changed to Linux. 
+(Otherwise, only the ﬁ rst instance of Mac on each line is changed.) The output is then 
+sent to the fixed_file.txt ﬁ le.

@@ -1,0 +1,11 @@
+These links can also be managed 
+manually using the a2enmod and a2dismod commands, similar to a2ensite and a2dissite.
+
+Information on all included Apache modules and the functionality they provide is available at http://
+
+httpd.apache.org/docs/2.4/mod/.
+
+Installing PHP Support
+
+Many web applications are written in PHP, a scripting language developed by Rasmus Lerdorf that powers 
+many web sites around the world including the popular WordPress content management system (CMS).

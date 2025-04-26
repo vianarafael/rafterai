@@ -1,0 +1,19 @@
+However,  depending 
+on the settings in your /etc/yum.conf ﬁ le (such as keepcache=1, which keeps 
+all downloaded RPMs, even after they are installed), the cache directories can 
+ contain multiple gigabytes of data.
+
+To clean out all packages, metadata, headers, and other data stored in the 
+/var/cache/yum directory, type the following:
+
+# yum clean all
+
+At this point, your system gets up-to-date information from repositories the next time a 
+yum command is run.
+
+The next section covers information about network troubleshooting.
+
+Troubleshooting Networking
+With more and more of the information, images, video, and other content we use every 
+day now available outside our local computers, a working network connection is required 
+on almost every computer system.

@@ -1,0 +1,48 @@
+We start Dovecot using the 
+
+systemctl command.
+
+$ sudo systemctl start dovecot
+
+Or, you can check that the Dovecot process is running like so:
+
+$ systemctl status dovecot
+● dovecot.service - Dovecot IMAP/POP3 email server
+   Loaded: loaded (/usr/lib/systemd/system/dovecot.service; disabled; vendor preset: disabled)
+   Active: active (running) since Thu 2016-08-25 09:33:09 EDT; 37min ago
+   Process: 7172 ExecStartPre=/usr/libexec/dovecot/prestartscript (code=exited, status=0/
+
+SUCCESS)
+
+ Main PID: 7177 (dovecot)
+
+553
+
+Chapter 12 ■ Mail ServiCeS
+
+   CGroup: /system.slice/dovecot.service
+           ├─7177 /usr/sbin/dovecot -F
+           ├─7180 dovecot/anvil
+           ├─7181 dovecot/log
+           ├─7183 dovecot/config
+
+Aug 25 09:33:09 ip-10-0-10-154.ap-southeast-2.compute.internal systemd[1]: Starting Dovecot 
+IMAP/POP3 email server...
+Aug 25 09:33:09 ip-10-0-10-154.ap-southeast-2.compute.internal systemd[1]: Started Dovecot 
+IMAP/POP3 email server.
+Aug 25 09:33:09 ip-10-0-10-154.ap-southeast-2.compute.internal dovecot[7177]: master: 
+Dovecot v2.2.10 starting up without any protocols (core dumps disabled)
+
+Here you can see the dovecot and dovecot-auth processes running, indicating that Dovecot has started 
+
+successfully.
+
+On CentOS, Dovecot logs to the /var/log/maillog file and on Ubuntu to the /var/log/mail.log file, 
+
+and you can confirm it is running if you see a log entry like the following:
+
+Jan  7 18:37:03 au-mel-rhel-1  dovecot: Dovecot v1.0.7 starting up
+
+Configuring Postfix for SASL
+
+Next, we need to configure Postfix to use the Dovecot SASL service we’ve just configured.

@@ -1,0 +1,8 @@
+Table 7-4 lists some of the most common troubleshooting commands and their 
+descriptions.
+
+The list of useful tools in Table 7-4 is by no means exhaustive. However, armed with only a few of these 
+
+tools, you can diagnose many common problems.
+
+Table 7-4.

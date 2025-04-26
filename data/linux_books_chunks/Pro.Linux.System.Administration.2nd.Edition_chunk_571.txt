@@ -1,0 +1,5 @@
+The User class describes the permissions 
+of the user who owns the file. These are the first three characters in our listing. The Group class describes the 
+permissions of the group that owns the file. These are the second set of three characters in our listing.
+
+ Groups in Linux are collections of users.

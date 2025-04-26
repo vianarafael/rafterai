@@ -1,0 +1,5 @@
+To 
+boot from Cobbler, you need to specify that your host boots from the network first.
+
+We have created a VirtualBox host on the same Host-only Adapter interface as our Cobbler server. We 
+created VirtualBox hosts in Chapter 3 and created a basic host with an 8Gb hard drive.

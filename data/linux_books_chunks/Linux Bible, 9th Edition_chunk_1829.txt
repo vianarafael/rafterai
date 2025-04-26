@@ -1,0 +1,6 @@
+Although it is  normal 
+for conﬁ guration ﬁ les to change over time, it is not normal for binaries (the commands in
+/bin, /sbin, and so on) to change after installation. Binaries that are changed are prob-
+ably an indication that your system has been cracked.
+
+In this example, I’m going to install the zsh package and mess it up.

@@ -1,0 +1,7 @@
+Fill in the 
+Hostname box if you want to set the system’s hostname. Setting up your network 
+and hostname during installation can make it easier to begin using your system 
+after installation. Click Done to continue.
+
+12.  Begin Installation. Click the Begin Installation button to start the install process. 
+A progress bar marks the progress of the installation.

@@ -1,0 +1,8 @@
+If you are hosting your server in a co-lo or data center, then you should ensure 
+the location has appropriate physical security controls to protect your hosts.
+
+In Figure 2-8 we can see that once our Installation Destination tasks have completed, the Network & 
+
+Host Name now appears.
+
+Figure 2-8.

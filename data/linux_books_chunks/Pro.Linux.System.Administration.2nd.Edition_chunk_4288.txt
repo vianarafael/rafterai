@@ -1,0 +1,6 @@
+The openvpn package on both Ubuntu and CentOS will install 
+appropriate Systemd service scripts.
+
+However, with OpenVPN, the way we start and stop the services is slightly different. Taking a look 
+at CentOS, for example, we need to pass the name of the OpenVPN configuration we want to start. The 
+systemctl command can take arguments.

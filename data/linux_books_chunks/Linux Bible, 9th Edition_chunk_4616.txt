@@ -1,0 +1,15 @@
+For instance, if you issued the command togglebool httpd_
+can_connect_ftp, you would change the policy setting status from its previous setting 
+of “off” to “on.”
+
+688
+
+c24.indd  04/15/2015  Page 689
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+The setsebool command has six settings: three for turning a policy on (on, 1, or true), 
+and three for turning a policy off (off, 0, or false).
+
+For an example using setsebool, in some situations, it is not good security to allow users 
+to execute programs from their /home directory.

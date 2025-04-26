@@ -1,0 +1,7 @@
+The 
+configuration and options are closely aligned, though, and by following the Ubuntu installation process you 
+should be able to recognize the installation process for Debian and other Debian-derived distributions.
+
+ ■ Note 
+If you want use the CD/DVD/USB-based installation process and the graphical installers provided, 
+then you will need to install on a host with a monitor, a keyboard, and preferably a mouse.

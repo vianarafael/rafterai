@@ -1,0 +1,6 @@
+These 
+include terminal devices (tty*), ﬂ oppy disks (fd*), hard disks (hd* or sd*), RAM 
+(ram*), and CD-ROM (cd*). Users can access these devices directly through these 
+device ﬁ les; however, applications often hide the actual device names from end users.
+
+ ■ /etc—Contains administrative conﬁ guration ﬁ les.

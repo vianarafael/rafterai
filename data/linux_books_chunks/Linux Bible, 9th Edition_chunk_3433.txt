@@ -1,0 +1,12 @@
+So, to allow users from other 
+computers to access your Samba service, you must create ﬁ rewall rules that open 
+one or more ports for selected protocols (TCP in particular).
+
+506
+
+c19.indd  04/01/2015  Page 507
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+ ■ SELinux—Many features of Samba are designated as potentially insecure by 
+SELinux.

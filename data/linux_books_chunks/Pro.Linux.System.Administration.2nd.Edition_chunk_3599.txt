@@ -1,0 +1,13 @@
+You will need details similar to 
+
+Figure 12-5.
+
+589
+
+Chapter 12 ■ Mail ServiCeS
+
+Figure 12-5.  Specifying server details
+
+You can test the connection and Thunderbird will try to connect to the mail server and validate that it 
+
+is actually an e-mail server (Figure 12-6). When you’re finished, click Done.

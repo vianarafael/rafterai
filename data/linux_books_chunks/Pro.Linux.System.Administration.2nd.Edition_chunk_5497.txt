@@ -1,0 +1,7 @@
+We need to 
+
+specify the IP address of our Cobbler server.
+
+Lastly, we’ve added the filename option, set to /pxelinux.0, which is the name of the boot file that 
+
+PXE-booted hosts should look for to start their boot process.

@@ -1,0 +1,3 @@
+Enabling this feature causes the file 
+system to create internal indexes that speed up access to directories containing a large number of files or 
+subdirectories.

@@ -1,0 +1,9 @@
+By default, 
+most of these ﬁ les are dot (.) ﬁ les, such as .kde (a directory for setting KDE 
+desktop defaults) and .bashrc (for setting default values used with the 
+bash shell).
+
+ ■ /etc/sysconfig—Contains important system conﬁ guration ﬁ les that are  created 
+
+and maintained by various services (including iptables, samba, and most 
+networking services).

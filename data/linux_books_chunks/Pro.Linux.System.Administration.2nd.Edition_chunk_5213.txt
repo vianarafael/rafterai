@@ -1,0 +1,5 @@
+The 
+
+auditd file is a set of key/value pairs (key=value). They can appear very different from what we see here, 
+but basically they consist of a type and a message (which includes a timestamp and unique ID). Then, 
+depending on the type, they can have any number of other keys and values.

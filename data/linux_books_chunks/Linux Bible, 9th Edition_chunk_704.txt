@@ -1,0 +1,10 @@
+Substitute any other value for USER to print its value instead.
+
+85
+
+c03.indd  04/01/2015  Page 86
+
+Part II: Becoming a Linux Power User 
+
+When you start a shell (by logging in via a virtual console or opening a Terminal window), 
+many environment variables are already set.

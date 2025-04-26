@@ -1,0 +1,6 @@
+If you had used numbers such as 644, execute permission 
+would be turned off for directories; using 755, execute permission would be turned on for 
+regular ﬁ les. Using o-w, only one bit is turned off and all other bits are left alone.
+
+Setting default fi le permission with umask
+When you create a ﬁ le as a regular user, it’s given permission rw-rw-r-- by default.

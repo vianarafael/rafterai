@@ -1,0 +1,10 @@
+We will talk a little bit about spec files and how to build your 
+own packages later in this chapter.
+
+The rpm tool provides the basic package management tasks like installing and removing packages, but 
+it doesn’t handle a variety of other tasks, such as retrieving dependency packages (i.e., packages you need 
+to install alongside, or prior to, a particular package installation) from online repositories or the regular 
+automation of package updates.
+
+ ■ Note  having worked with Linux for a long time, we can attest that managing a Linux system is now much 
+easier thanks to smart package management.

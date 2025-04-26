@@ -1,0 +1,8 @@
+Because there is no mount point for a swap area, the second ﬁ eld is just set to 
+swap, as is the partition type. To test that the swap ﬁ le works before rebooting, you can 
+enable it immediately (swapon -a) and check that the additional swap area appears:
+
+# swapon -a
+
+Disabling a swap area
+If at any point you want to disable a swap area, you can do so using the swapoff command.

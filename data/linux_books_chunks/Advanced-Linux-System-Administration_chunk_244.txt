@@ -1,0 +1,18 @@
+For example, everybody accessing the share bellow will 
+inherit the right of the remote user with UID=150 and GID=100
+
+62
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+        /share       *(rw,anonuid=150,anongid=100)
+
+Root Squashing
+
+By default the root user on the client system will be mapped to the user nobody on the 
+server.

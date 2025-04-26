@@ -1,0 +1,10 @@
+The form for using the smbclient command to check access to 
+the user’s home directory, again for the user chris, would be the following (replacing 
+the IP address with the name or address of your Samba server):
+
+$ smbclient -U chris //192.168.0.119/chris
+Enter chris's password:
+Domain=[DATAGROUP] OS=[Unix] Server=[Samba 4.1.15]
+smb: \> ls file.txt
+  file.txt                149946368  Sun Dec  7 09:28:53 2014
+          39941 blocks of size 524288.

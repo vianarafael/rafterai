@@ -1,0 +1,58 @@
+the first top level domains
+
+year
+
+1985
+
+1985
+
+1985
+
+1985
+
+1985
+
+1985
+
+1985
+
+1988
+
+TLD
+
+.arpa
+
+.com
+
+.edu
+
+.gov
+
+.mil
+
+.net
+
+.org
+
+.int
+
+purpose
+
+Reverse lookup via in-addr.arpa
+
+Commercial Organizations
+
+US Educational Institutions
+
+US Government Institutions
+
+US Military
+
+Internet Service Providers, Internet Infrastructure
+
+Non profit Organizations
+
+International Treaties like nato.int
+
+Country tld's were defined for individual countries, like .uk in 1985 for Great Britain (yes
+really), .be for Belgium in 1988 and .fr for France in 1986.

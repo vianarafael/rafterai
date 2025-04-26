@@ -1,0 +1,14 @@
+To remove the print job from the queue (cancel it), type the following.
+
+# lprm -P myprinter
+
+6.  To use the printing window to set the basic server setting that publishes your 
+
+printers so other systems on your local network can print to your printers, do the 
+following:
+
+a. On a GNOME 3 desktop, from the Activities screen, type Print Settings and 
+
+press Enter.
+
+b.

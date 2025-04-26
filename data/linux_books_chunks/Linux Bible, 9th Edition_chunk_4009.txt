@@ -1,0 +1,12 @@
+If the memory problem is due to one errant process, you can simply 
+kill that process. Assuming you are logged in as root or as the user who owns the 
+runaway process, type k from the top window, and then enter the PID of the 
+process you want to kill and choose 15 or 9 as the signal to send.
+
+584
+
+c21.indd  04/01/2015  Page 585
+
+Chapter 21: Troubleshooting Linux
+
+ ■ Drop page caches.

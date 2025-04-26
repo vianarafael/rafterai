@@ -1,0 +1,11 @@
+For example:
+
+# umount /mnt/test
+
+This unmounts the device from the mount point /mnt/test. You can also unmount using 
+this form:
+
+# umount /dev/sdb1
+
+In general, it’s better to use the directory name (/mnt/test) because the umount 
+ command will fail if the device is mounted in more than one location.

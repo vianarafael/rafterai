@@ -1,0 +1,3 @@
+Those devices can include a CD drive, DVD drive, 
+hard disk, USB driver, or network interface card. The boot order deﬁ nes the order 
+in which those devices are checked.

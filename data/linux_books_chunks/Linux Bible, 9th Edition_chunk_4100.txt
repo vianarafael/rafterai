@@ -1,0 +1,10 @@
+For organizations that practice one person to one account, this number can be much 
+larger than 30. If you have shared accounts or multiple people know the root password, it is 
+
+599
+
+c22.indd  04/15/2015  Page 600
+
+Part V: Learning Linux Security Techniques
+
+imperative that you change the password often.

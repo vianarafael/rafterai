@@ -1,0 +1,2 @@
+Depending on your 
+installation method, both CentOS and Ubuntu can come with a firewall configuration already installed.

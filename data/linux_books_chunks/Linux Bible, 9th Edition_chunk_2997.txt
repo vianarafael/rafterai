@@ -1,0 +1,2 @@
+This can work well if you are printing from Windows clients that have the correct 
+print drivers installed.

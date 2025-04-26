@@ -1,0 +1,2 @@
+Aliases are collections of like users, commands, 
+and hosts. Generally you define aliases at the start of the sudoers file. Let’s look at some aliases.

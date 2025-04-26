@@ -1,0 +1,10 @@
+.deb based distributions
+
+Ubuntu  and  Debian  users  can  use  the  aptitude  program  (or  use  a  graphical  tool  like
+Synaptic).
+
+root@debian7~# aptitude install samba
+The following NEW packages will be installed:
+  samba samba-common{a} samba-common-bin{a} tdb-tools{a} 
+0 packages upgraded, 4 newly installed, 0 to remove and 1 not upgraded.
+Need to get 15.1 MB of archives.

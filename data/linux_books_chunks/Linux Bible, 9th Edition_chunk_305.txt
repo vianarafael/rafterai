@@ -1,0 +1,4 @@
+Although you can sell the software you create that includes 
+GPL software, you must pass the source code of that software forward. Of course, others 
+can then recompile that product, basically using and even reselling your product without 
+charge.

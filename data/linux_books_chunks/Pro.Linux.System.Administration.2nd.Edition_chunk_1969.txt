@@ -1,0 +1,9 @@
+If you think these contents may be out of 
+date, you can update to the latest versions via the following:
+
+$ sudo apt-file update
+
+As an alternative, you can search the package lists online at http://packages.ubuntu.com.
+
+Package Management with Ubuntu Software App
+If you’ve installed the Unity desktop on Ubuntu, you have another way of managing software installation.

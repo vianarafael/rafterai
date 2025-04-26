@@ -1,0 +1,13 @@
+Although NFS was inherently insecure when it was created (data is shared unencrypted and 
+user access is fairly open), new features in NFS version 4 have helped improve the overall 
+security of NFS.
+
+2020
+
+549
+
+c20.indd  04/01/2015  Page 550
+
+Part IV: Becoming a Linux Server Administrator
+
+This NFS chapter is the last of the book’s server chapters.

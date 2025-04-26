@@ -1,0 +1,5 @@
+note that scp uses the -P option to specify a port number, whereas ssh uses -p.
+
+Summary
+In this chapter, you learned about basic infrastructure services like NTP, DNS, and DHCP. We’ve also shown 
+you how to connect to remote hosts, to make system administration and maintenance easier.

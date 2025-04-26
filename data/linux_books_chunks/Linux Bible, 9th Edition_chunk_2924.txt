@@ -1,0 +1,3 @@
+You can click the Printers tab from the top of any of the CUPS 
+web-based administration pages to view the printers you have conﬁ gured. For 
+each printer that appears, you can select Maintenance or Administrative tasks.

@@ -1,0 +1,6 @@
+By adding the -a, you can also see the hidden ﬁ les in the directory (those beginning with 
+a dot). The uname command shows the type of system you are running (Linux). When you 
+add -a, you also can see the hostname, kernel release, and kernel version.
+
+The date command has some special types of options. By itself, date simply prints the 
+current day, date, and time as shown above.

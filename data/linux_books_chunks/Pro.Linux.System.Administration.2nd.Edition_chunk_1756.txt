@@ -1,0 +1,28 @@
+In this 
+chapter covered how to do the following:
+
+•	 Configure interfaces on our host.
+
+•	 Netfilter basics
+
+•	
+
+•	
+
+•	
+
+•	
+
+Firewalld and the firewall-cmd
+
+The ufw tool for managing Ubuntu firewalls
+
+The iptables tool for managing Linux firewalls
+
+Logging, limiting and securing your connections
+
+•	 Use TCP Wrappers to secure your daemons.
+
+•	 Configure a PPP connection
+
+In the next chapter, we will look at how to manage packages on a host.

@@ -1,0 +1,93 @@
+Candidates should be able to write and schedule automatic execution of 
+scripts to parse logs for alerts and email them to administrators, synchronize files 
+across machines using rsync, monitor files for changes and generate email alerts, and 
+write a script that notifies administrators when specified users log in or out.
+
+91
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Key files, terms, and utilities include:
+perl -MCPAN -e shell 
+
+bash, awk, sed 
+crontab 
+at 
+
+Topic 214: Troubleshooting
+
+• 2.214.2 Creating recovery disks
+
+Modified: 2001-August-24
+Maintainer:Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidate should be able to: create both a standard bootdisk for system 
+entrance, and a recovery disk for system repair.
+
+Key files, terms, and utilities include:
+/etc/fstab
+/etc/inittab 
+Any standard editor
+Familiarity with the location and contents of the LDP Bootdisk-HOWTO
+/usr/sbin/rdev 
+/bin/cat 
+/bin/mount (includes -o loop switch) 
+/sbin/lilo 
+/bin/dd 
+/sbin/mke2fs 
+/usr/sbin/chroot 
+
+• 2.214.3 Identifying boot stages
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidate should be able to: determine, from bootup text, the 4 stages 
+of boot sequence and distinguish between each.
+
+Key files, terms, and utilities include:
+boot loader start and hand off to kernel
+kernel loading
+
+92
+
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+hardware initializiation and setup
+daemon initialization and setup
+
+• 2.214.4 Troubleshooting LILO
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidate should be able to: determine specific stage failures and 
+corrective techniques.
+
+Key files, terms, and utilities include:
+/boot/boot.b 
+Know meaning of L, LI, LIL, LILO, and scrolling 010101 errors
+Know the different LILO install locations, MBR, /dev/fd0, or primary/extended partition.
+Know significance of /boot/boot.### files
+
+• 2.214.5 General troubleshooting
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: A candidate should be able to recognize and identify boot loader and 
+kernel specific stages and utilize kernel boot messages to diagnose kernel errors.

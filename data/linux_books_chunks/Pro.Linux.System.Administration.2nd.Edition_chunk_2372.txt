@@ -1,0 +1,8 @@
+We 
+explain boot to rescue mode in greater detail shortly.
+
+The simplest step is to run the appropriate filesystem checker. Table 9-7 details the system check and 
+
+repair tools for the filesystems you are most likely to use.
+
+Table 9-7.

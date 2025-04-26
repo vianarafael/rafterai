@@ -1,0 +1,4 @@
+As we mentioned earlier in this chapter, OpenVPN can run 
+on platforms including Linux, Microsoft Windows, macOS, and others.
+
+We’re going to do a few things differently with our mobile users.

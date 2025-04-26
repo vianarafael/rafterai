@@ -1,0 +1,34 @@
+Indeed, the screenshot
+below now shows a partition on /dev/sdb.
+
+root@RHELv4u2:~# fdisk -l
+
+Disk /dev/sda: 12.8 GB, 12884901888 bytes
+255 heads, 63 sectors/track, 1566 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Device Boot      Start        End      Blocks   Id  System
+/dev/sda1   *        1         13      104391   83  Linux
+/dev/sda2           14       1566    12474472+  8e  Linux LVM
+
+Disk /dev/sdb: 1073 MB, 1073741824 bytes
+255 heads, 63 sectors/track, 130 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+
+Device Boot      Start         End      Blocks   Id  System
+/dev/sdb1               1          14      112423+  83  Linux
+root@RHELv4u2:~#
+
+50
+
+ 
+  
+  
+  
+  
+  
+  
+  
+disk partitions
+
+5.4.

@@ -1,0 +1,6 @@
+All three components help to scale the 
+Carbon service to enable the collection of thousands of metrics per second.
+
+The carbon-cache is a required component and forms the basic collection model, carbon-cache, 
+Whisper, and Graphite-API. It is able to listen on UDP or TCP ports (2003, 2004, 2007) and supports Python 
+pickle and newline-delimited formats.

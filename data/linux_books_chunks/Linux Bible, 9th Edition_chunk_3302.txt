@@ -1,0 +1,10 @@
+If you are using a default ﬁ rewall, rules in the beginning open access to 
+requests for any services coming from the local host and allow packets to come in that are 
+
+484
+
+c18.indd  04/01/2015  Page 485
+
+Chapter 18: Confi guring an FTP Server
+
+associated with, or related to, established connections.

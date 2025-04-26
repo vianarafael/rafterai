@@ -1,0 +1,11 @@
+Each built-in chain (INPUT, OUTPUT, FORWARD, 
+POSTROUTING, etc.) has a default policy of either ACCEPT, REJECT, or DROP.
+
+273
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+ it is always a good idea when you are working with firewall rules to have access to a system 
+
+ ■ Caution 
+console in the event that you make a mistake and block all your network traffic.

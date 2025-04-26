@@ -1,0 +1,6 @@
+The next set of information would be named ADDRESS1, NETMASK1, GATEWAY1, 
+and so on.
+
+Confi guring Networking in the Enterprise
+So far, the network conﬁ guration described in this chapter has centered on setting up 
+ single systems to connect to a network.

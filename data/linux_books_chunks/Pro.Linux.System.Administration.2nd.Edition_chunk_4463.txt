@@ -1,0 +1,3 @@
+This is not entirely true, depending on the mechanism 
+of SASL you want to implement. You can set up PLAIN/LOGIN and DIGESTMD5 mechanisms pretty easily. 
+However, you must have Cyrus SASL installed.

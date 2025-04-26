@@ -1,0 +1,5 @@
+read the lastlog command’s man page for further 
+details.
+
+Summary
+In this chapter, you learned how to create users and groups from the command line or via the GUI interface.

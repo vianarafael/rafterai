@@ -1,0 +1,6 @@
+While many features can be managed using graphical interfaces, 
+an  understanding of the shell command line is critical for someone administering 
+Linux systems.
+
+Modern Linux systems now go way beyond what the ﬁ rst UNIX systems (on which Linux 
+was based) could do.

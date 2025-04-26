@@ -1,0 +1,5 @@
+You can see that it activates our monitor.service and that it was 
+
+successful 18 minutes ago. You can also see the apt-daily.timer too.
+
+One of the things it doesn’t do simply is trigger an e-mail in the event of failure.

@@ -1,0 +1,6 @@
+The all_squash option causes all users (UIDs) and groups (GIDs) to be mapped 
+to the user ID 65534 (which is the nfsnobody user in Fedora or RHEL and the nobody user 
+in Ubuntu), giving them minimal permission to ﬁ les and directories.
+
+The /home entry enables a set of users to have the same /home directory on different 
+ computers.

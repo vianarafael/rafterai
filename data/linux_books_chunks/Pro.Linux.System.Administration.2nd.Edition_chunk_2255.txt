@@ -1,0 +1,5 @@
+If so, you may need to follow 
+some of the steps discussed in the section “recovering from Failure” or use single-user mode as described in 
+Chapter 6 to boot and fix the error.
+
+It’s possible for the kernel not to have registered that the UUID on a filesystem has changed.

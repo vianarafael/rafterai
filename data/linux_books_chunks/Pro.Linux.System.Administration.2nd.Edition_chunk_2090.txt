@@ -1,0 +1,2 @@
+there is a default limit of 128 
+partitions with gpt. gpt uses 64-bit logical block addresses. It has increased reliability with checksums.

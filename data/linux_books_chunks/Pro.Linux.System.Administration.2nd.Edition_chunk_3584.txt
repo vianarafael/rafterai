@@ -1,0 +1,11 @@
+You will need to specify this port number (and potentially tell your 
+client to use SSL) in your mail client.
+
+Chapter 12 ■ Mail ServiCeS
+
+ ■ Tip 
+
+ the pOp3 protocol runs on tCp port 110, and its secure counterpart, SSl-pOp3, runs on tCp port 995.
+
+We’re also going to configure Dovecot to find our local Maildir mailboxes. We don’t need to configure 
+authentication because we’ve already done it.

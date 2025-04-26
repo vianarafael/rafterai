@@ -1,0 +1,11 @@
+postfix’s e-mail 
+address rewriting guide demonstrates some of the many e-mail address formats accepted: www.
+postfix.org/ADDRESS_REWRITING_README.html.
+
+528
+
+Chapter 12 ■ Mail ServiCeS
+
+What Happens After You Send an E-Mail?
+After the server (or MTA) has received the e-mail from your client and places it in a mail queue, a whole 
+new set of commands and steps gets executed.

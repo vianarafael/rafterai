@@ -1,0 +1,14 @@
+Do what you can to keep the logic 
+of your code clean and easy to follow.
+
+Understanding shell variables
+Often within a shell script, you want to reuse certain items of information. During the 
+course of processing the shell script, the name or number representing this information 
+
+154
+
+c07.indd  04/01/2015  Page 155
+
+Chapter 7: Writing Simple Shell Scripts
+
+may change.

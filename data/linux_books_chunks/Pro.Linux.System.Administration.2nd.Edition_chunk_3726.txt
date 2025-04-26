@@ -1,0 +1,6 @@
+You will need to 
+install the cifs-utils package. However, some Linux distributions do not include the ability to read and 
+write to NTFS shares, as Microsoft considers it a breach of its patent to do so. Both distributions allow the 
+ability to mount NTFS and FAT filesystems, and you can find it in the cifs-utils package.
+
+You will need to create the /data/sales directory.

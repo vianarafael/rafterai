@@ -1,0 +1,8 @@
+- 
+    Taiwan 64MB QDI U2 DISK
+
+From the preceding output, you can see the model of a keyboard, mouse, and USB ﬂ ash 
+drive connected to the computer. As with lspci, you can add one or more -v options to 
+see more details.
+
+To see details about your processor, run the lscpu command.

@@ -1,0 +1,3 @@
+These services are widespread and have several key advantages over 
+traditional file sharing such as version control, multiple device support, collaboration features, and some 
+support workflows.

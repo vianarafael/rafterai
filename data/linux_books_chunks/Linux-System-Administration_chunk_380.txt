@@ -1,0 +1,2 @@
+The df (diskfree) command
+has the added benefit of showing you the free space on each mounted disk.

@@ -1,0 +1,16 @@
+For example:
+
+13
+
+# useradd joe
+# passwd joe
+# ssh joe@localhost
+
+1.  Using the ssh command, log in to another computer (or the local computer) using 
+
+any account you have access to. Enter the password when prompted.
+
+2.  Using remote execution with the ssh command, display the contents of a remote
+/etc/system-release ﬁ le and have its contents displayed on the local system.
+
+3.

@@ -1,0 +1,7 @@
+SELinux was released to the open source community in 2000 and became popular when 
+
+Red Hat included SELinux in its Linux distributions. Now, SELinux is used by many organizations 
+and is widely available.
+
+Understanding SELinux Benefi ts
+SELinux is a security enhancement module deployed on top of Linux.

@@ -1,0 +1,5 @@
+The last option in the [Service] section is StandardOutput and defines where the file descriptor 1 or 
+
+standard output of the process should be connected to. The values are “inherit,” “null,” “tty,” “journal,” 
+“syslog,” “kmsg,” “journal+console,” “syslog+console,” “kmsg+console,” or “socket.” The rsyslogd service has 
+been set to null, which is to a special file on Linux called /dev/null.

@@ -1,0 +1,13 @@
+Example:
+
+# iptables -A OUTPUT -d 10.140.67.25 -j REJECT
+
+ ■ -s IP address
+
+Assigns the rule listed to apply to the designated source IP address. Example:
+
+# iptables -A INPUT -s 10.140.67.24 -j ACCEPT
+
+ ■ -p protocol
+
+Assigns the rule listed to apply to the protocol designated.

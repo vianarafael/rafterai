@@ -1,0 +1,13 @@
+The rescue menu
+
+We have selected the Reinstall GRUB boot loader and on entering that we are presented with the next 
+
+screen to select the disk we wish to install GRUB on (see Figure 9-10).
+
+407
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-10.  Re-installing the GRUB boot loader
+
+We are going to re-install the boot loader onto our /dev/sda device.

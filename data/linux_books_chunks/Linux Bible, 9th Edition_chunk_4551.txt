@@ -1,0 +1,8 @@
+The policy type also determines what speciﬁ c security context 
+attributes are needed. This is where you start to see the ﬁ ne level of access control that can 
+be implemented via SELinux.
+
+24
+
+The policy types available on your distribution may not match the ones listed here. For example, on older Linux distri-
+butions, the strict policy is still available.

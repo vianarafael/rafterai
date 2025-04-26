@@ -1,0 +1,9 @@
+Create three new partitions (say /dev/hda16, /dev/hda17, /dev/hda18) of 100MB each.
+Make sure you toggle the partition type to 8e (Linux LVM). Then reboot.
+
+3. Prepare the physical volumes
+pvcreate /dev/hda16
+pvcreate /dev/hda17
+pvcreate /dev/hda18
+
+4.

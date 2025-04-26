@@ -1,0 +1,15 @@
+The slaptest command is useful 
+
+for converting the text-based schema files to LDIF format.
+
+We will pass the /etc/ldap/schema/exampleactive.schema into slaptest, and the output file will be 
+
+generated in a temporary SLAPD config directory.
+
+First create a temporary directory to hold our converted files.
+
+$ sudo mkdir /etc/ldap/ldif_converted && cd /etc/ldap
+
+In this directory we will now create a file called schema_load.conf in the old slapd.conf format that 
+
+will be used to direct the slaptest command to read in our schema file.

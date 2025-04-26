@@ -1,0 +1,8 @@
+To do this, you can rotate your logs.
+
+Log rotation is the process of periodically copying the log file and usually adding a suffix like the date or 
+
+an incrementing number. The rsyslog daemon then logs to a new file. You would usually keep rotated log 
+files for a fixed period, for example, a week or a month.
+
+Let’s look at an example. We’ve got the /var/log/mail.log file.

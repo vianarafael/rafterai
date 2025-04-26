@@ -1,0 +1,13 @@
+Seeing load metrics on backup host
+
+Now that you have your metrics being collected and discoverable, you look at making performance 
+
+tweaks and be able to measure their effect.
+
+830
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Performance Optimization
+When your host was installed, it was set up with defaults that offer reasonable performance for most 
+configurations.

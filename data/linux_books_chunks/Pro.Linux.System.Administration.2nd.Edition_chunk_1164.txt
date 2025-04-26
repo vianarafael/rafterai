@@ -1,0 +1,9 @@
+When 
+specified with a --machine <machinename> it will execute command on the specified local container.
+
+Systemd Services—Status, Stop, and Start
+
+So first, let’s look at how to get the status of a service called postfix, which is a SMTP server for sending 
+e-mail.
+
+Listing 6-11.

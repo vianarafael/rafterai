@@ -1,0 +1,36 @@
+10800 IN SOA A.ROOT-SERVERS.NET....
+
+;; Query time: 54 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1)
+;; WHEN: Tue Jan 27 20:57:05 2009
+;; MSG SIZE  rcvd: 124
+
+[root@RHEL52 private]# 
+
+made sure /etc/resolv.conf points to himself
+
+[root@RHEL52 private]# cat /etc/resolv.conf
+search booi.schot
+nameserver 127.0.0.1
+
+start windows 2003 server, enter the samba4 as DNS!
+
+ping  the  domain,  if  it  doesn't  work,  then  add  your  redhats  hostname  and  your  realm  to
+windows/system32/drivers/etc/hosts
+
+join the windows computer to the domain
+
+reboot the windows
+
+log on with administrator stargate
+
+start run dsa.msc to manage samba4
+
+create an OU, a user and a GPO, test that it works
+
+206
+
+ 
+ 
+ 
+Part VII.

@@ -1,0 +1,8 @@
+You can share any directory containing the space you want to 
+share. Consider making a new directory and mounting a whole disk or partition on 
+it. For this example, I create a directory named /var/storage:
+
+# mkdir -p /var/storage
+
+b.  Allow exporting. On your storage system, create an entry in the /etc/exports 
+ﬁ le to share the directory with selected systems (by name or IP address).

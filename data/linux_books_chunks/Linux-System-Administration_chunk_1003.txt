@@ -1,0 +1,10 @@
+/etc/sysconfig/network-scripts/ifcfg-
+
+Each network card can be configured individually using the /etc/sysconfig/network-scripts/
+ifcfg-*  files.  When  you  have  only  one  network  card,  then  this  will  probably  be  /etc/
+sysconfig/network-scripts/ifcfg-eth0.
+
+dhcp client
+
+Below  a  screenshot  of  /etc/sysconfig/network-scripts/ifcfg-eth0  configured  for  dhcp
+(BOOTPROTO="dhcp").

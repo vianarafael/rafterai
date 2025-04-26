@@ -1,0 +1,7 @@
+This single point of 
+failure should to be avoided where possible, but a small business rarely has the luxury of having a host for 
+each service it wishes to provide.
+
+ ■ Caution 
+ if your business does have single points of failure, like many services on one host, backup and 
+recovery become critical.

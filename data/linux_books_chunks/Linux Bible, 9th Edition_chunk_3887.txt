@@ -1,0 +1,6 @@
+Running apt-get upgrade causes the system to upgrade any 
+installed packages that have new versions available, based on the latest downloaded metadata.
+
+In contrast, every time you run a yum command in Fedora or RHEL, the latest metadata about new packages is 
+downloaded. When you then run yum update, you get the latest packages available for the current release of 
+Fedora or RHEL.

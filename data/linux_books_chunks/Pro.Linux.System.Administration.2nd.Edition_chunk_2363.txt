@@ -1,0 +1,9 @@
+To shrink a filesystem 
+and a logical volume, you follow the previous steps in reverse and use the lvreduce command. Just make 
+certain you do not shrink the logical volume to be smaller than the filesystem it contains.
+
+400
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+We have created a new LVM group and LVM volume of 4 G.

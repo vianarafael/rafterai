@@ -1,0 +1,15 @@
+The range
+is determined with the idmap uid and the idmap gid parameters. The first Active Directory
+user to connect will receive Linux uid 20000.
+
+idmap uid = 20000-22000
+idmap gid = 20000-22000
+
+16.1.4. winbind use default domain
+
+The winbind use default domain parameter makes sure winbind also operates on users
+without a domain component in their name.
+
+winbind use default domain = yes
+
+16.1.5.

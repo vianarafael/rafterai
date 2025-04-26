@@ -1,0 +1,8 @@
+Do not use the runlevels 0 or 6 in this ﬁ le! 
+This would cause your server to either halt or reboot when it is started up.
+
+Confi guring the default runlevel in Upstart
+Some distributions still use the /etc/inittab ﬁ le to set the default runlevel, whereas 
+others use the /etc/init/rc-sysinit.conf ﬁ le.
+
+Earlier Fedora and RHEL’s Upstart init daemon still uses the /etc/inittab ﬁ le.

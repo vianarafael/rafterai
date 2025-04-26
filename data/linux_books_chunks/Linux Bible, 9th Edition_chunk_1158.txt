@@ -1,0 +1,6 @@
+So, if you want to have the shell interpret a single 
+character literally, precede it with a backslash (\). To have a whole set of characters interpreted  literally, 
+surround those characters with single quotes (').
+
+Using double quotes is a bit trickier. Surround a set of text with double quotes if you want all but a 
+few characters used literally.

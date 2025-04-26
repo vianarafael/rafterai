@@ -1,0 +1,2 @@
+To set a user or group ACL permission as the default, you add a d: to the user or 
+group designation.

@@ -1,0 +1,35 @@
+This section describes a few solutions  corresponding to problems that can occur 
+at the following stages of the booting process
+
+Booting Stage 
+
+Type of error 
+
+INIT 
+
+corrupt root filesystem or a 
+faulty /etc/fstab entry 
+
+Suggested Solution   
+
+use root login prompt  
+
+a kernel module  fails to 
+load or an RC script fails 
+
+override INIT (see below p.23) or use 
+alternative runlevel 
+
+KERNEL 
+
+Kernel panic
+
+(see below p.24) 
+
+Hardware initialisation 
+errors (often with older 
+kernels on latest mother 
+boards)
+
+Pass appropriate bootloader 
+parameter  - e.g acpi=off.

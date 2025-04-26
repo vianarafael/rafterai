@@ -1,0 +1,3 @@
+You can conﬁ gure more or fewer httpd  daemons to be 
+started based on settings in the httpd.conf ﬁ le (described in the section “Understanding 
+the Apache conﬁ guration ﬁ les”).

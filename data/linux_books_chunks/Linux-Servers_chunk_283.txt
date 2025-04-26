@@ -1,0 +1,13 @@
+deleting records
+
+You can use the delete to permanently remove a record from a table.
+
+mysql> delete from country where countryname='Spain';
+Query OK, 1 row affected (0.06 sec)
+
+mysql> select * from country where countryname='Spain';
+Empty set (0.00 sec)
+
+3.6. joining two tables
+
+3.6.1.

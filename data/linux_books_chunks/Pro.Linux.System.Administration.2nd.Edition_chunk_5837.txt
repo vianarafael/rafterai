@@ -1,0 +1,4 @@
+The Xenial host will 
+
+apply an Ansible playbook while the CentOS host will run a Puppet apply. We will create the provisioning 
+files shortly.

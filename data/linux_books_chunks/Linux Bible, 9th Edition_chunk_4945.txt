@@ -1,0 +1,7 @@
+Connect to the hypervisor. Select File ➪ Add Connection. The Add Connection 
+
+window should appear.
+
+b.  Add the connection. Select the Connect to Remote Host check box, choose SSH as 
+the Method, use the user name root, and type the hostname of the other hyper-
+visor (for example, host1.example.com).

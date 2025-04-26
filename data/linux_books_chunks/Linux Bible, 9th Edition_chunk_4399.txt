@@ -1,0 +1,6 @@
+Thus, certain errors and 
+evaluations affect only the substack and not the main stack.
+
+You should know that the PAM modules return many more status result codes than just 
+“success” or “failure.” For example, a module may return the status code of PAM_ACCT_
+EXPIRED, which means the user account has expired.

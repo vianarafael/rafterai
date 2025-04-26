@@ -1,0 +1,6 @@
+Most other parts of the ﬁ lesystem are not accessible to you as a 
+regular user.
+
+ ■ Filesystem organization—Although it appears under the name Home, your home 
+folder is actually located in the ﬁ lesystem under the /home folder in a folder 
+named after your username—for example, /home/liveuser or /home/chris.

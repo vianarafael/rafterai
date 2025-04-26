@@ -1,0 +1,19 @@
+The ﬁ gure 
+ illustrates a web browser window being moved from one workspace to another as 
+those workspaces rotate on a cube.
+
+The following are some interesting effects you can get with your 3D AIGLX desktop:
+
+58
+
+c02.indd  04/01/2015  Page 59
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+FIGURE 2.19
+
+Rotate workspaces on a cube with AIGLX desktop effects enabled.
+
+2
+
+ ■ Spin cube—Hold Ctrl+Alt keys, and press the right and left arrow keys.

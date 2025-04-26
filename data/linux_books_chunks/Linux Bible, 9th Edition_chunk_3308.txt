@@ -1,0 +1,7 @@
+Edit this line at the beginning 
+of the /etc/sysconfig/iptables-config ﬁ le to appear as follows:
+
+IPTABLES_MODULES="nf_conntrack_ftp"
+
+At this point, you can restart your ﬁ rewall (keeping in mind that a mistake could lock you 
+out if you are logged in remotely).

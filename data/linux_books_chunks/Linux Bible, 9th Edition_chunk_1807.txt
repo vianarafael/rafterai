@@ -1,0 +1,11 @@
+You can check the RPM database to look for errors (yum check) or 
+just rebuild the RPM database ﬁ les, as follows:
+
+# yum check
+check all
+# yum clean rpmdb
+Cleaning repos: rhel-7-server-rpms
+4 rpmdb files removed
+
+Of the yum clean examples in the preceding three command lines, all remove cached data 
+from the /var/cache/yum subdirectories, except for the rpmdb example.

@@ -1,0 +1,7 @@
+The systemd process is the base process on Linux hosts 
+that spawns all other processes on a host. This master process always uses PID 1 and must be running for 
+your host to be functional.
+
+ ■ Note 
+ Depending on the operating system you have chosen you might notice that you don’t have a 
+systemd process but an init process instead at pID 1.

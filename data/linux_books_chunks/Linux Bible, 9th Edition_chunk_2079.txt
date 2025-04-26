@@ -1,0 +1,10 @@
+Select the ﬁ rst available sector number (you can just press Enter to choose it). 
+
+You are prompted for the last sector.
+
+11.  Enter the size of the partition. Because you are just creating one partition to 
+
+ consume the whole disk, choose the last available sector. To do that you can just 
+press Enter to accept the default.
+
+12.

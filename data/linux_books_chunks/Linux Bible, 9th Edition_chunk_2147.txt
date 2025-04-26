@@ -1,0 +1,9 @@
+Features are the same 
+
+as ext3, except that ext2 doesn’t include journaling features.
+
+ ■ ext—This is the ﬁ rst version of ext3. It is not used very often anymore.
+
+ ■ iso9660—Evolved from the High Sierra ﬁ lesystem (the original standard for 
+
+CD-ROMs).

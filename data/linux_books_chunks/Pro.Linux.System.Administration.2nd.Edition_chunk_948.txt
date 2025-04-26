@@ -1,0 +1,19 @@
+The Host_Alias alias can specify lists of 
+
+hostnames, IP addresses, and networks.
+
+Host_Alias SERVERS = au-mel-centos-1, au-mel-centos-2, au-syd-centos-1
+
+You can combine this alias with the preceding ones you defined.
+
+ADMIN SERVERS=USER_COMMANDS
+
+Now all users specified in the ADMIN alias can run the commands specified in USER_COMMANDS on the 
+
+hosts defined in the SERVERS alias group.
+
+177
+
+Chapter 5 ■ Users and GroUps
+
+You can also negate aliases by placing an exclamation point (!) in front of them.

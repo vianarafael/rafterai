@@ -1,0 +1,35 @@
+Listing Partitions with fdisk
+
+$ sudo fdisk -l /dev/sda
+Disk /dev/sda: 8 GiB, 8589934592 bytes, 16777216 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x105922fd
+
+Device     Boot   Start      End  Sectors  Size Id Type
+/dev/sda1  *       2048   999423   997376  487M 83 Linux
+/dev/sda2       1001470 16775167 15773698  7.5G  5 Extended
+/dev/sda5       1001472 16775167 15773696  7.5G 83 Linux
+
+360
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+As you can see in the output of Listing 9-2), the installer created three partitions:
+
+•	
+
+•	
+
+•	
+
+A physical partition for the boot partition
+
+An extended partition to house other partitions
+
+A logical partition for use with LVM
+
+You don’t want to modify your system disk, but let’s say you bought a new hard disk and need to 
+partition it, so you can start using it to store data.

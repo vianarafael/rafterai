@@ -1,0 +1,9 @@
+Other performance settings can be turned on, including olcThreads, olcTimeLimits, 
+olcSockBuffMaxIncoming, and olcSockBuffMinIncoming.
+
+ Another tuning nob you can turn is the number of entries that are returned from an ldapsearch in one 
+
+ ■ Tip 
+hit, olcSizeLimit.
+
+Every time you declare a DN you will need to provide the object class (or classes) it belongs to.

@@ -1,0 +1,19 @@
+Documents   .gnote           .local         Templates
+.bash_history  Downloads   .gnupg           .mozilla       Videos
+.bash_logout   .emacs      .gstreamer-0.10  Music          
+   .xsession-errors
+.bash_profile  .esd_auth   .gtk-bookmarks   Pictures       .zshrc
+.bashrc        .fsync.log  .gvfs            Pictures
+$ uname
+Linux
+$ uname -a
+Linux unused 3.10.0-121.el7.x86_64 #1 SMP Tue Oct 21 10:48:19 
+   EDT 2014 x86_64 x86_64 x86_64 GNU/Linux
+$ date
+Tue Oct 21 09:08:38 EST 2014
+$ date +'%d/%m/%y'
+10/21/14
+$ date +'%A, %B %d, %Y'
+Tuesday, October 21, 2014
+
+The ls command, by itself, shows all regular ﬁ les and directories in the current directory.

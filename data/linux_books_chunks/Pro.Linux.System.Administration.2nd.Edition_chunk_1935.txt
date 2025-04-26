@@ -1,0 +1,15 @@
+To apply your queued 
+changes, press g.
+
+Figure 8-22.  Package removal via aptitude
+
+329
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+The packages that were added as dependencies when we install nmap, since they are not being used  
+
+by any other package, are set to also be removed. Press g again to confirm and process the changes  
+(see Figure 8-23).
+
+Figure 8-23.

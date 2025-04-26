@@ -1,0 +1,41 @@
+(You can also list multiple permissions; for example, u+rw would add the read and write permissions 
+to the User class.)
+
+Thus the second line in Listing 4-11 would leave our file permissions as
+
+-rw-rw-rw-   1 root  root      0  2016-07-15 20:47 myfile
+
+With chmod, you can also use the a class abbreviation, which indicates an action should be applied to all 
+
+classes; for example, a+r would add read permissions to all classes: User, Group, and Other.
+We can also apply the permissions of one class to another class by using the = symbol.
+
+# chmod u=g myfile
+
+On the previous line, we’ve set the User class permissions to be the same as the Group class 
+
+permissions.
+
+You can also set permissions for multiple files by listing each file separated by space as follows:
+
+# chmod u+r file1 file2 file3
+
+As with the ls command, you can also reference files in other locations as follows:
+
+# chmod u+x /usr/local/bin/foobar
+
+The previous line adds the execute permission to the User class for the foobar file located in the /usr/
+
+local/bin directory.
+
+You can also use the asterisk symbol to specify all files and add the -R switch to recurse into lower 
+
+directories as follows:
+
+# chmod -R u+x /usr/local/bin/*
+
+The chmod command on the previous line would add the execute permission to the User class to every 
+
+file in the /usr/local/bin directory.
+
+The last line in Listing 4-11 is a little different.

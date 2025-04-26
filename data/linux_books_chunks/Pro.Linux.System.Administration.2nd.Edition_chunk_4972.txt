@@ -1,0 +1,7 @@
+Then we 
+
+can start Nginx like normal.
+
+$ sudo systemctl start nginx
+
+By default both distributions will log to /var/log/nginx.

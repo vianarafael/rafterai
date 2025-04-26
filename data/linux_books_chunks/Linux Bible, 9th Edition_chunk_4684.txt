@@ -1,0 +1,3 @@
+For example, if your Linux 
+server is a print server, then it should only be offering printing services. It should not also 
+offer Apache web services.

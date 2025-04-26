@@ -1,0 +1,7 @@
+The 
+openldap-clients package installs the tools to manage and query the LDAP server. The openldap-servers 
+package installs the necessary files to run an OpenLDAP server.
+
+Ubuntu Installation Guide
+To install OpenLDAP on an Ubuntu host, we require the ldap-utils package and the slapd package to be 
+installed.

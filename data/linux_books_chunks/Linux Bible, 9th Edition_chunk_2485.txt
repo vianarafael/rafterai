@@ -1,0 +1,25 @@
+There are commands that can show you information about your network 
+ interfaces, routes, hosts, and trafﬁ c on the network.
+
+Viewing network interfaces
+To see information about each network interface on your local Linux system, type the 
+following:
+
+# ip addr show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN
+  link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+  inet 127.0.0.1/8 scope host lo
+  inet6 ::1/128 scope host
+     valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 
+      qdisc pfifo_fast state DOWN qlen 1000
+  link/ether f0:de:f1:28:46:d9 brd ff:ff:ff:ff:ff:ff
+3: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 
+      qdisc mq state UP qlen 1000
+  link/ether 00:24:d7:69:5b:2c brd ff:ff:ff:ff:ff:ff
+  inet 192.168.0.105/24 brd 192.168.0.255 scope global wlan0
+  inet6 fe80::224:d7ff:fe69:5b2c/64 scope link
+     valid_lft forever preferred_lft forever
+
+The ip addr show output displays information about your network interfaces, in this 
+case from a laptop running RHEL 6.

@@ -1,0 +1,6 @@
+The contents of the /etc/updatedb.conf ﬁ le limit which ﬁ le-
+names are collected by pruning out select mount types, ﬁ lesystem types, ﬁ le types, 
+and mount points. For example, ﬁ lenames are not gathered from remotely mounted 
+ﬁ lesystems (cifs, nfs, and so on) or locally mounted CDs or DVDs (iso9660). 
+Paths containing temporary ﬁ les (/tmp) and spool ﬁ les (/var/spool/cups) are 
+also pruned.

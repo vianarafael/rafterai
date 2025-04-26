@@ -1,0 +1,7 @@
+Notice: When setting up a linux server as a router it is possible to switch on ip-forwarding 
+at boot time by adding the following line to rc.local:
+
+echo 1 > /proc/sys/net/ipv4/ip_forward 
+
+However it is better to use the sysctl mechanism to switch ip-forwarding on every time the 
+network interface is started.

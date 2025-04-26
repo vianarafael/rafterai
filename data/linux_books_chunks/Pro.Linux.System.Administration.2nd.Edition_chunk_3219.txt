@@ -1,0 +1,6 @@
+the file can be long, and you can mistakenly have the same option 
+with two values. in this case, the last value will win, and you may spend hours scratching your head 
+wondering why it is not working like you expect.
+
+the postconf command is a special command that allows you to manipulate the main.cf file and 
+display your existing configuration.

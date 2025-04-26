@@ -1,0 +1,13 @@
+Finally, we’ll show you how to configure a client, such as a laptop or desktop, for a 
+mobile user.
+
+Our Proposed VPN Configuration
+
+Let’s quickly look at a network diagram of our proposed VPN tunnel configuration (see Figure 15-2). We’re 
+going to create tunnels between our head office branch and each of our branch offices.
+
+704
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Figure 15-2.

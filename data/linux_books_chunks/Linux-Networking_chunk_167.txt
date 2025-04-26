@@ -1,0 +1,10 @@
+lan
+
+A lan  (Local Area Network) is a local network. This can be one room, or one floor, or even
+one big building. We say lan as long as computers are close to each other. You can also
+define a lan when all computers are ethernet connected.
+
+A lan can contain multiple smaller lan's. The picture below shows three lan's that together
+make up one lan.
+
+1.3.2.

@@ -1,0 +1,19 @@
+I choose the top level domain .local and the domain paul.local and put the information
+in /etc/bind/named.conf.local.
+
+root@debian7:~# cat /etc/bind/named.conf.local
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "paul.local" IN {
+        type master;
+        file "/etc/bind/db.paul.local";
+        allow-update { none; };
+};
+
+3.

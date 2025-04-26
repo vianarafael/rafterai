@@ -1,0 +1,10 @@
+To 
+install your certificate, replace its certificate with yours in the instructions.
+
+513
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Creating HTTPS Certificates with Let’s Encrypt
+Let’s Encrypt (https://letsencrypt.org) has a mission to encrypt the Internet! It is a free, automated, and 
+open certificate authority from the nonprofit Internet Security Research Group (ISRG).

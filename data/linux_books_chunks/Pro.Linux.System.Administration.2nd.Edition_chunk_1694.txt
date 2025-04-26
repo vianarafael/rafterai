@@ -1,0 +1,7 @@
+This is important for inter-process communications as many processes often use the 
+loopback to send messages to each other. It is important that this is allowed to accept packets as many things 
+stop working otherwise.
+
+Lines 12-14 in Listing 7-8 are used to direct all our packets coming in the local interface to the Firewalld 
+
+chains.

@@ -1,0 +1,7 @@
+To install the samba and samba-client packages, type the following as root from 
+
+a shell on the local system:
+
+# yum install samba samba-client
+
+2.

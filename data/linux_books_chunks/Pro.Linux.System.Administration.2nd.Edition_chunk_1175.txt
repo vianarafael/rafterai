@@ -1,0 +1,7 @@
+But how did those services start in the first place? How are these services enabled to 
+be started at boot time? Let’s investigate that now.
+
+Isolated Targets
+
+As we have said, systemd is the process that manages all the services on our host and systemctl is the 
+command we use to manage the systemd process.

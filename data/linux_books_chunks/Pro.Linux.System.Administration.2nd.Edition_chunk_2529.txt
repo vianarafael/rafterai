@@ -1,0 +1,12 @@
+1987   IN      A       216.239.38.10
+
+;; Query time: 9 msec
+;; SERVER: 10.0.2.3#53(10.0.2.3)
+;; WHEN: Sun Jun 26 01:57:01 UTC 2016
+;; MSG SIZE  rcvd: 175
+
+Listing 10-10 shows us that the ns1.google.com DNS server does indeed have information about four 
+
+name servers for the google.com domain, so it appears to be configured correctly.
+
+Sometimes you need to know the delegation path (Listing 10-11) to your name servers.

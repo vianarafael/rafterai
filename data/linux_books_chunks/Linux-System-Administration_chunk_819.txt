@@ -1,0 +1,24 @@
+Write a script that executes logger to local4 every 15 seconds (different message). Use
+tail -f and watch on your local4 log files.
+
+210
+
+logging
+
+17.7. solution : logging
+
+1. Display the /var/run/utmp file.
+
+who
+
+2. Display the /var/log/wtmp file.
+
+last
+
+3. Use the lastlog and lastb commands, understand the difference.
+
+lastlog : when users last logged on
+
+lastb: failed (bad) login attempts
+
+4.

@@ -1,0 +1,4 @@
+Expect bash to be the default login shell in most Linux systems 
+you are using, with the exception of some specialized Linux systems (such as some that run 
+on embedded devices) that may require a smaller shell that needs less memory and requires 
+fewer features.

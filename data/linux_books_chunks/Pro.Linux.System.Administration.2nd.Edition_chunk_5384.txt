@@ -1,0 +1,12 @@
+So to make 
+
+use of the plug-in, you have an SSH daemon running on the remote host, and any intervening firewalls have 
+to allow SSH access to and from the host.
+
+895
+
+Chapter 18 ■ Logging and Monitoring
+
+You also need to use key-based authentication between the hosts because Nagios has no capability to 
+
+input a password when checking the service.

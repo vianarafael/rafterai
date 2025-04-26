@@ -1,0 +1,5 @@
+The output of the command is the name of the 
+remote host (in this case, host01.example.com), which appears on the local screen.
+
+If you run a remote execution command with ssh that includes options or arguments, be 
+sure to surround the whole remote command line in quotes.

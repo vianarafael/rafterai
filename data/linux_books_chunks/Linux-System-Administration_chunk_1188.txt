@@ -1,0 +1,14 @@
+/proc/cmdline
+
+The parameters that were passed to the kernel at boot time are in /proc/cmdline.
+
+paul@RHELv4u4:~$ cat /proc/cmdline 
+ro root=/dev/VolGroup00/LogVol00 rhgb quiet
+
+326
+
+the Linux kernel
+
+28.1.4. single user mode
+
+When booting the kernel with the single parameter, it starts in single user mode.

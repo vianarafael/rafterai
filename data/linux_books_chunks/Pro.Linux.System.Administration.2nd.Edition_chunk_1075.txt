@@ -1,0 +1,5 @@
+We now need to run the grub2-mkconfig –o /boot/grub2/grub.cfg to 
+set the superuser root password.
+
+When your host next boots, you will notice that if you interrupt the boot process at the GRUB2 stage, 
+you will be able to select one of the kernels with the --unrestricted menuentry option.

@@ -1,0 +1,38 @@
+aptitude
+
+Most people use aptitude for package management on Debian, Mint and Ubuntu systems.
+
+To synchronize with the repositories.
+
+aptitude update
+
+To patch and upgrade all software to the latest version on Debian.
+
+aptitude upgrade
+
+To patch and upgrade all software to the latest version on Ubuntu and Mint.
+
+aptitude safe-upgrade
+
+To install an application with all dependencies.
+
+aptitude install $package
+
+To  search  the  repositories  for  applications  that  contain  a  certain  string  in  their  name  or
+description.
+
+aptitude search $string
+
+To remove an application.
+
+aptitude remove $package
+
+To remove an application and all configuration files.
+
+aptitude purge $package
+
+235
+
+package management
+
+20.5.

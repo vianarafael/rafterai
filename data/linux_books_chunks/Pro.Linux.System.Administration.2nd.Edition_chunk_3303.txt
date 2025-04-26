@@ -1,0 +1,5 @@
+If you’ve gone with a commercial 
+certificate, your CA will generally provide a link to a downloadable root certificate, or if you are using your 
+own CA, the certificate will be in /etc/pki/CA/cacert.pem.
+
+Now that you have your certificates and key, you need to configure Postfix’s main.cf configuration file.

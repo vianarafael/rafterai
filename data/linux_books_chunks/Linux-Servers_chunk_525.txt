@@ -1,0 +1,9 @@
+Typical
+example are broadband 'router/modems' connected to the internet and receiving a different
+ip-address from the isp, each time they are cold-booted.
+
+The only change needed to convert the SNAT script to a masquerading is one line.
+
+iptables -t nat -A POSTROUTING -o eth1 -s 10.1.1.0/24 -j MASQUERADE
+
+8.6.5.

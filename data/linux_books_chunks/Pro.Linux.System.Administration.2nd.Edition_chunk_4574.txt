@@ -1,0 +1,6 @@
+Everything else cannot do anything (by * none).
+
+How to Define Access Control Lists
+
+You will see documentation for access control lists in “old slapd.conf” style and in dynamic or LDIF format. 
+In the older format, you will have the access directive leading the access list.

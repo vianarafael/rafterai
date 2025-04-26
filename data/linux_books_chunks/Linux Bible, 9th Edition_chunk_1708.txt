@@ -1,0 +1,7 @@
+This chapter covers both RPM (Fedora and Red Hat 
+Enterprise Linux) and (to some extent) DEB packaging and software management.
+
+Understanding DEB packaging
+Debian software packages hold multiple ﬁ les and metadata related to some set of software in 
+the format of an ar archive ﬁ le. The ﬁ les can be executables (commands),  conﬁ guration ﬁ les, 
+documentation, and other software items.

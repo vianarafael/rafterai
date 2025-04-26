@@ -1,0 +1,11 @@
+entry matches all IP addresses from 192.168.12.1 to 192.168.12.254.
+
+517
+
+c19.indd  04/01/2015  Page 518
+
+Part IV: Becoming a Linux Server Administrator
+
+Configuring the [homes] section
+The [homes] section is conﬁ gured, by default, to allow any Samba user account to be able 
+to access its own home directory via the Samba server.

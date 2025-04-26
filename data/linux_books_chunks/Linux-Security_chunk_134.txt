@@ -1,0 +1,8 @@
+Use su to switch to another user account (unless you are root, you will need the password
+of the other account). And get back to the previous account.
+
+6. Now use su - to switch to another user and notice the difference.
+
+Note that su - gets you into the home directory of Tania.
+
+7. Try to create a new user account (when using your normal user account).

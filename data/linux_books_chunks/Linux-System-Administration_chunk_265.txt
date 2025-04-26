@@ -1,0 +1,11 @@
+Doubling to 20Mhz made it ultra SCSI.
+Take a look at http://en.wikipedia.org/wiki/SCSI for more SCSI standards.
+
+32
+
+disk devices
+
+4.1.5. block device
+
+Random access hard disk devices have an abstraction layer called block device to enable
+formatting in fixed-size (usually 512 bytes) blocks.

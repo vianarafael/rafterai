@@ -1,0 +1,7 @@
+If you have an Ubuntu 
+system installed, I recommend that you run man apt to get an understanding of what the 
+apt and related commands can do.
+
+Understanding RPM packaging
+An RPM package is a consolidation of ﬁ les needed to provide a feature, such as a word  processor, 
+a photo viewer, or a ﬁ le server.

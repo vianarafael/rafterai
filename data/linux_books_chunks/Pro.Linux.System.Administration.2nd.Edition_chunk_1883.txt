@@ -1,0 +1,5 @@
+For example, the rpm –qc <package> command will show you the 
+configuration files associated with the package, the rpm –qd will list the documentation files.
+
+Often packages will run pre- and post-install and uninstall scripts before or after they have been 
+installed or uninstalled. These may create users, configure and start services, or clean up after themselves.

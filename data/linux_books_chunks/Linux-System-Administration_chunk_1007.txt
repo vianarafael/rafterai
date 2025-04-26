@@ -1,0 +1,13 @@
+nmcli
+
+On RHEL7 you should run nmcli connection reload if you changed configuration files in
+/etc/sysconfig/ to enable your changes.
+
+The nmcli tool has many options to configure networking on the command line in RHEL7/
+CentOS7
+
+man nmcli
+
+22.3.4. nmtui
+
+Another  recommendation  for  RHEL7/CentOS7  is  to  use  nmtui.

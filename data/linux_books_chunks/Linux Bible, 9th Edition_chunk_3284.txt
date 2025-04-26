@@ -1,0 +1,7 @@
+Lists of users in the /etc/vsftpd/user_list and /etc/vsftpd/
+ftpusers ﬁ les deﬁ ne some administrative and special users that do not have 
+access to the FTP server (root, bin, daemon, and others).
+
+ ■ The anonymous user can download ﬁ les from the server but not upload them, 
+
+by default.

@@ -1,0 +1,5 @@
+Most of the time you won’t change much in the master.cf file.
+
+Let’s start by taking a quick look at how each file is structured.
+
+ Most distributions install preconfigured main.cf and master.cf files.

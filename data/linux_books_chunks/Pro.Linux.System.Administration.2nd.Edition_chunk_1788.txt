@@ -1,0 +1,14 @@
+In this section, we’re going to focus on the tools provided as part of 
+CentOS, but the information contained within will also help with other Red Hat–based distributions like Red 
+Hat Enterprise Linux (RHEL), Fedora, and Mandriva.
+
+In the sections that follow, we’ll take you through package installation via the GUI interface and the 
+
+command line, and how to use the rpm tool itself to manage individual packages.
+
+Getting Started
+On Red Hat–based hosts like CentOS, Scientific Linux, and Fedora, managing your packages via the desktop 
+is simple and does not require a subscription.
+
+However, for RHEL hosts, you will need to have a subscription to get access to software updates and Red 
+Hat’s services.

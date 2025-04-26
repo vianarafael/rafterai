@@ -1,0 +1,4 @@
+You may already be familiar with a firewall running on your desktop. These simple 
+firewalls can be used to block unwanted traffic in and out of a single host, but that is all they can do.
+
+Netfilter is a complex firewall application that can sit on the perimeter of a network or on a single host.

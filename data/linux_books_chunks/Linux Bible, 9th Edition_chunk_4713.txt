@@ -1,0 +1,8 @@
+Host-B is a Linux server, using the Linux Mint distribution, and is on 
+the same network as Host-A.
+
+Security settings on various network components, such as the server’s fi rewall and the company’s routers, should all 
+be considered when conducting audit scans.
+
+For this audit example, a scan is run from Host-A, using not the loopback address, but 
+the actual IP address.

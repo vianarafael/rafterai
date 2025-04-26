@@ -1,0 +1,8 @@
+The 
+info command, for example, sometimes provides a more verbose explanation of a command’s function and 
+options; try info ls to read about the ls command in more detail.
+
+ The info interface is not very intuitive. It, and man pages, came about before the Internet (or good 
+
+ ■ Note 
+ux design) was everywhere.

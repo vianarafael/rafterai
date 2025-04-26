@@ -1,0 +1,18 @@
+A Host Object Template
+
+define host {
+        name                           linux-server
+        use                              generic-host
+        check_period               24x7
+        check_interval             5
+        retry_interval               1
+        max_check_attempts  10
+        check_command         check-host-alive
+        notification_period       workhours
+        notification_interval     120
+        notification_options     d,u,r
+        contact_groups           admins
+        register                       0
+        }
+
+You can see we’ve defined a lot more attributes in our template.

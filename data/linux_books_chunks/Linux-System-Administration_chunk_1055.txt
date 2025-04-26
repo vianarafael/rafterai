@@ -1,0 +1,14 @@
+other filter examples
+
+You can combine two protocols with a logical or between them. The example below shows
+how to filter only arp and bootp (or dhcp) packets.
+
+This example shows how to filter for dns traffic containing a certain ip address.
+
+283
+
+network sniffing
+
+23.2. tcpdump
+
+Sniffing on the command line can be done with tcpdump.

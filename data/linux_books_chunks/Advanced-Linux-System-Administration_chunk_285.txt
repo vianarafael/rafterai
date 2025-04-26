@@ -1,0 +1,4 @@
+Here we read from a list of users we wish to monitor /etc/checks and send an email as soon 
+as they are logged in. 
+
+This can run through a cron every minute.

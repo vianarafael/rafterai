@@ -1,0 +1,9 @@
+a user or group cannot be created 
+
+ ■ Note 
+on your host with the same UId or GId as an existing user or group. Your operating system will automatically 
+assign the numbers and prevent any conflicts.
+
+Most distributions reserve ranges of numbers for particular types of users and groups. There are really 
+
+two kinds of users on your system.

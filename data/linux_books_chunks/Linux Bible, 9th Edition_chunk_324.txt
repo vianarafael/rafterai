@@ -1,0 +1,4 @@
+The skills you need to complete these exams are described in the following sections.
+
+RHCSA topics
+As noted earlier, RHCSA exam topics cover basic system administration skills.

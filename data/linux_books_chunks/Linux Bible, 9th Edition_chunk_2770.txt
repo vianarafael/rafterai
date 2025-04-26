@@ -1,0 +1,10 @@
+The following example 
+shows two service statuses—one that has been ported to Upstart and one that has not.
+
+# initctl status vpnc-cleanup
+vpnc-cleanup stop/waiting
+# service ssh status
+sshd (pid  970) is running...
+
+In this example, the ssh daemon had not yet been ported to Upstart. Therefore, ssh needs 
+the service command with the status option to be used to check its status.

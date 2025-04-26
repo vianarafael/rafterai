@@ -1,0 +1,16 @@
+start multipathd and iscsi
+
+Time to start (or restart) both the multipathd and iscsi services:
+
+[root@server2 ~]# service multipathd restart
+Stopping multipathd daemon:                                [  OK  ]
+Starting multipathd daemon:                                [  OK  ]
+[root@server2 ~]# service iscsi restart
+Stopping iscsi:                                            [  OK  ]
+Starting iscsi:                                            [  OK  ]
+
+148
+
+introduction to multipathing
+
+This shows fdisk output when leaving the default friendly_names option to yes.

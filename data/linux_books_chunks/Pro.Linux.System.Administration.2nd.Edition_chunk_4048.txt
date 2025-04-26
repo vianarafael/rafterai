@@ -1,0 +1,6 @@
+Alternatively, you can also use asymmetric encryption where 
+we use private and public GPG keys to encrypt our data.
+
+Next we can set our target and target credentials. The target can be any of the accepted Duplicity back-
+
+end types; see the man duplicity page for the list.

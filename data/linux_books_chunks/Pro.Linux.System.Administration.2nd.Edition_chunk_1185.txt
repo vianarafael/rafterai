@@ -1,0 +1,8 @@
+To disable it let’s execute the following 
+command:
+
+$ sudo systemctl disable postfix.service
+Removed symlink /etc/systemd/system/multi-user.target.wants/postfix.service.
+
+The output of this command has told us what it is has done. It has removed a symbolic link (symlink) 
+from the /etc/systemd/system/multi-user.target.wants directory.

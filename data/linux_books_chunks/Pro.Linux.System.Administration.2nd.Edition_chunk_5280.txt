@@ -1,0 +1,17 @@
+We have declared the user 
+and group, and we have placed our --sysconfdir (system configuration directory) in /etc/nagios, which 
+is common in CentOS (in Ubuntu it is normally /etc/nagios<version  number>, but we are not choosing 
+that here).
+
+Now we need to compile the source code and then install the various components.
+
+$ sudo make all
+$ sudo bash -c 'make install
+make install-init
+make install-config
+make install-commandmode
+make install-webconf'
+
+The configuration files are installed in /etc/nagios, and the Nagios binary is installed in /usr/local/
+
+nagios/bin/nagios.

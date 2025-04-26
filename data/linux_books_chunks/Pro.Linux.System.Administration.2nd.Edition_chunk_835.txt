@@ -1,0 +1,4 @@
+Linux distributions store details of users, 
+groups, and other information in three files on your host: /etc/passwd, /etc/shadow, and /etc/group. You 
+generally won’t ever need to edit these files, as there are commands and tools that allow you to add, remove, 
+and manage users and groups.

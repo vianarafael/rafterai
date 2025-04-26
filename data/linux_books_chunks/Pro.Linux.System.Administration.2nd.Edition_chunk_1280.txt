@@ -1,0 +1,5 @@
+However, for the purpose of this chapter, 
+we are going to concentrate on the scenario presented in Figure 7-2, in which you can see we have broken 
+down our network into a smaller module.
+
+Figure 7-2.

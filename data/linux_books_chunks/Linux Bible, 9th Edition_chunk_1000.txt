@@ -1,0 +1,13 @@
+With no hyphen 
+or plus, the exact number is matched.
+
+130
+
+c05.indd  04/01/2015  Page 131
+
+Chapter 5: Working with Text Files
+
+Using ‘not’ and ‘or’ when finding files
+With the -not and -or options, you can further reﬁ ne your searches. There may be times 
+when you want to ﬁ nd ﬁ les owned by a particular user, but not assigned to a particular 
+group.

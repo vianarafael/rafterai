@@ -1,0 +1,14 @@
+That can be expressed like this too for common services (that is, services listed in the /etc/
+services file).
+
+$ sudo ufw allow http
+
+To remove a rule you can use the delete command:
+
+$ sudo ufw delete 3
+Deleting:
+ allow 80
+Proceed with operation (y|n)? y
+Rule deleted
+
+We need to answer either a y or n at the prompt to confirm if we wish to delete the rule.

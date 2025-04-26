@@ -1,0 +1,11 @@
+For example, in Listing 5-14 
+you can see that all four management groups specify the pam_unix.so module.
+
+auth        sufficient    pam_unix.so nullok try_first_pass
+account     required      pam_unix.so
+password    sufficient    pam_unix.so m5 shadow nullok try_first_pass use_authtok
+session     required      pam_unix.so
+
+This indicates that the pam_unix.so module, which is the module that takes care of most standard Unix 
+authentication functions such as entering a traditional password, can perform checks and functions for each 
+management group.

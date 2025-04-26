@@ -1,0 +1,6 @@
+Instead of displaying “May 12,” 
+the date might be displayed as “2011-05-12,” depending upon the distribution and 
+the language setting (LANG variable).
+
+ ■ On occasion, instead of seeing the execute bit (x) set on an executable ﬁ le, you 
+may see an s in that spot instead.

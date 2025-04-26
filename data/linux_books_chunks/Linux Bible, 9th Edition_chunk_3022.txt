@@ -1,0 +1,7 @@
+By typing usernames into the Users box and 
+clicking Add, you exclude selected users.
+
+16
+
+ ■ Deny Printing for Everyone Except These Users—With this selected, all users 
+are excluded from using the printer.

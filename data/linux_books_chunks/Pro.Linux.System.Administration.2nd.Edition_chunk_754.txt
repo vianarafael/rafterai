@@ -1,0 +1,10 @@
+So where 
+does the useradd command get these defaults from? On both CentOS and Ubuntu distributions, the defaults 
+are contained in the /etc/default/useradd file, and you can display the current defaults using the following 
+command:
+
+$ sudo /usr/sbin/useradd -D
+
+Listing 5-2 shows a sample of this file.
+
+Listing 5-2.

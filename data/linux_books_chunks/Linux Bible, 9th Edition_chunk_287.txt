@@ -1,0 +1,10 @@
+As a software developer, you can 
+create and test your applications using the latest Linux kernel and development tools.
+
+18
+
+c01.indd  04/01/2015  Page 19
+
+Chapter 1: Starting with Linux
+
+Because the focus of Fedora is on the latest technology, it focuses less on stability.

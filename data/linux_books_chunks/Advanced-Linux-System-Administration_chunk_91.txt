@@ -1,0 +1,16 @@
+In the 
+above example the patch starts with:
+
+--- linux-2.4.21/...
++++ linux-2.4.22/...
+
+12
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+This indicates that the patch can be applied in the directory where the linux-2.4.21 is.

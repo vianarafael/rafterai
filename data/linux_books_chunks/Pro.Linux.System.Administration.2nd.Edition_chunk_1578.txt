@@ -1,0 +1,7 @@
+Like in the OUTPUT chain, 
+these packets are routed by the Netfilter program and passed on to other tables (mangle, nat) before they 
+leave on the wire.
+
+If the packets are destined for the firewall host itself, they will be passed to the INPUT chain and if they 
+
+are accepted by any rule sets in that chain will be passed to the application (via the security table).

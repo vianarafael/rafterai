@@ -1,0 +1,15 @@
+A Simple SMTP Conversation
+
+220 mail.example.com ESMTP Server
+EHLO client.example.com
+250-mail.example.com
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+
+When you initiate a connection to a mail server, it should respond with status code 220 and its name 
+and capabilities.

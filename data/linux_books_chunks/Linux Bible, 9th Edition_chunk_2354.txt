@@ -1,0 +1,2 @@
+As a result, my private key (id_rsa) and 
+ public key (id_rsa.pub) are copied to the .ssh directory in my local home directory.

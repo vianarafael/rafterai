@@ -1,0 +1,63 @@
+253, 253
+managing with YUM, 240–252
+querying information, 254–255
+removing, 248–249, 253
+searching for, 246–247
+updating, 249–251
+verifying, 255–256
+
+RSA algorithm, 631, 635, 638
+rsync command, 330–332
+rsyslog, 317, 322–323, 334–339, 344
+rsyslog.conf ﬁ le, 187, 335–336
+rsyslogd, 188, 189, 319–320, 322–323, 334, 337–339, 
+
+689–690, 692
+
+rules, iptables, 715, 717–722
+runcon command, 686
+running commands, 70–76
+
+S
+
+s special character, 90
+Samba, 499–526
+
+accessing shares, 521–525
+conﬁ guring, 511–521
+exercises, 526, 822–824
+
+in enterprise environments, 525
+installing, 500–502
+securing, 506–511
+starting, 502–506
+stopping, 506
+
+Samba Log, 609
+Samba NFS, 176
+samba package, 500–502
+Samba SWAT, 500
+samba-client package, 501
+samba-common package, 500–502
+samba-config-samba package, 501
+samba-swat package, 501
+samba-winbind package, 501
+sandbox command, 686
+sanity checking, 181, 183
+SANS Institute, 624
+Santa Cruz Operation (SCO), 10, 11
+sar command, 323, 340–341
+/sbin directory, 99, 182
+scanning ﬁ lesystem, 616–618
+SCC (Secure Computing Corporation), 669
+SCO (Santa Cruz Operation), 10, 11
+scp command, 321, 323, 324, 326, 329–330, 329–332, 334
+Seahorse, 646, 647
+sealert command, 690–691
+secon command, 683
+SECONDS environment variable, 87
+secret key cryptography, 466, 632–633
+Secure WebDav, 46
+Secure Computing Corporation (SCC), 669
+secure log ﬁ le, 189
+Secure Shell.

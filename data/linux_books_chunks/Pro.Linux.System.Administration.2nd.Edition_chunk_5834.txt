@@ -1,0 +1,6 @@
+The main RSpec web site is here: 
+http://rspec.info/.
+
+If you don’t like to install Ruby and RSpec, you can use this alternative Python-based framework, 
+which is designed to be the Python equivalent of Serverspec; see https://testinfra.readthedocs.io/en/
+latest/. If you were using Ansible, then this might be the better option for you.

@@ -1,0 +1,2 @@
+Distributed network filesystems are useful for handling disk image files, media files, and scalable 
+data for analysis processing.

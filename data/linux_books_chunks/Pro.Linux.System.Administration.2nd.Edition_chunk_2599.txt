@@ -1,0 +1,8 @@
+If they are not, then longer times are suitable.
+
+Forward Lookup Zones
+
+It is easy to create zones files via a text editor and add their definitions to the /etc/named.conf.local file. 
+We’re going to store our forward lookup zone in a file called example.com.db.
+
+Before we go on there are are few differences between CentOS and Ubuntu to be aware of.

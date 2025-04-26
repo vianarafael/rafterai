@@ -1,0 +1,5 @@
+It complements the GNU General Public License, which is a copyleft license designed for free 
+software. 
+
+We have designed this License in order to use it for manuals for free software, because free software needs free 
+documentation: a free program should come with manuals providing the same freedoms that the software does.

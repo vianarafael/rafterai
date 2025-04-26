@@ -1,0 +1,11 @@
+Decrypting hard drives before boot
+
+And now we are at the end of the installation. The system is now booting. Shortly you will see the login 
+
+console as in Figure 2-70.
+
+Figure 2-70.  Booting to the console screen
+
+You will notice that Ubuntu does not boot to a GUI but to a console screen. This is because the default 
+
+Ubuntu Server installation does not install a GUI.

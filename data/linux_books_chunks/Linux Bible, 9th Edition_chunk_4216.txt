@@ -1,0 +1,6 @@
+The malicious creators of viruses do often focus on the 
+more popular desktop operating systems, such as Windows. However, that does not mean 
+viruses are not created for the Linux systems.
+
+Even more important, Linux systems are often used to handle services, such as mail serv-
+ers, for Windows desktop systems.

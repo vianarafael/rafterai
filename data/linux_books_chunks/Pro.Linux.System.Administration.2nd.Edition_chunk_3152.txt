@@ -1,0 +1,3 @@
+We want to change the destination 
+address and port number on packets before the gateway sends them out to the Internet. This is a form of 
+network address translation (NAT), and it is done by Netfilter in the NAT table.

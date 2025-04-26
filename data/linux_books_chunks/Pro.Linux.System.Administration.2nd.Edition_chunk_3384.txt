@@ -1,0 +1,6 @@
+an easy way to check this is 
+to see whether you can connect to an external Mta using a tool like swaks or if you can contact your iSp 
+to find out if it restricts outgoing SMtp traffic.
+
+if you are being blocked, you can overcome this with smarthosting. a smarthost is a relay server that 
+receives and forwards your e-mail.

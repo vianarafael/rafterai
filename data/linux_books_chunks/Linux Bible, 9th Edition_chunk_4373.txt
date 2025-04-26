@@ -1,0 +1,6 @@
+This process is sometimes called “ identiﬁ cation 
+and authentication.” PAM is a centralized method of providing  authentication for the Linux 
+system and applications.
+
+Applications can be written to use PAM and are called “PAM-aware.” A PAM-aware  application 
+does not have to be rewritten and recompiled to have its authentication  settings changed.

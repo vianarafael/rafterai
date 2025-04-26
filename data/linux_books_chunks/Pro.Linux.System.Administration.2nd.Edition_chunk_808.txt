@@ -1,0 +1,8 @@
+By clicking the Add button we will add the user ataylor after we authenticate again with the 
+system.
+
+ allowing users to create their own passwords when they next log in does expose a security risk. 
+
+ ■ Caution 
+anybody signing in as ataylor will be prompted to set a new password and, by doing so, will have access to all 
+that ataylor does.

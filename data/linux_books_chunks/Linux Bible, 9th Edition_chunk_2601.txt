@@ -1,0 +1,14 @@
+In that route, you deﬁ ne:
+
+ ■ GATEWAY?—The IP address of the node on the local network that provides the 
+
+route to the subnetwork represented by the static route.
+
+ ■ ADDRESS?—The IP address representing the network that can be reached by the 
+
+static route.
+
+ ■ NETMASK?—The netmask that determines which part of the ADDRESS? represents 
+the network and which represents the hosts that can be reached on that network.
+
+The name of each custom route ﬁ le is route-interface.

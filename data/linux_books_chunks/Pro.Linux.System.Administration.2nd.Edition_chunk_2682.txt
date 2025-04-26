@@ -1,0 +1,16 @@
+Let’s set the default to six 
+hours and the maximum to 24 hours.
+
+default-lease-time 21600;
+max-lease-time 86400;
+
+With that done, we can add a subnet on which our DHCP server should hand out leases.
+
+subnet 192.168.0.0 netmask 255.255.255.0 {
+}
+
+The DHCP server will check the network addresses assigned to the local network interfaces when it 
+
+starts and automatically assign each subnet declaration to the correct network interface.
+
+We can now add subnet-specific options within this configuration block.

@@ -1,0 +1,7 @@
+But as the Internet grew, the single hosts 
+ﬁ le became unscalable and DNS was invented.
+
+14
+
+The /etc/hosts ﬁ le still exists on Linux systems. It can still be used to map IP addresses 
+to hostnames.

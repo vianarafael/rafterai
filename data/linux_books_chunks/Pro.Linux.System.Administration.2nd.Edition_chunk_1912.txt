@@ -1,0 +1,6 @@
+In this section, we will first cover the command-line tools to manage 
+packages. After that, we will look at the graphical package manager available from the Unity desktop.
+
+The most common way to add software on Ubuntu hosts is to install packages from online software 
+
+repositories via command-line tools.

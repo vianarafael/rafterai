@@ -1,0 +1,9 @@
+From the command line, we can use the systemctl command to manage the power state of our hosts.
+
+To shut down and power off the system we would issue the following:
+
+$ sudo systemctl poweroff
+
+This will power off the system immediately. You can also issue a reboot, halt, hibernate, sleep, and 
+
+more.

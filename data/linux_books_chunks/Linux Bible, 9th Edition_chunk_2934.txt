@@ -1,0 +1,9 @@
+If your printer supports PostScript, select PostScript printer from the list. 
+Selecting Raw Print Queue enables you to send documents that are already formatted for a particular printer type 
+to a specifi c printer.
+
+5.  With your printer model selected, click the driver you want to use with that 
+
+printer, and then click Forward to continue.
+
+6.

@@ -1,0 +1,4 @@
+To 
+use that type of authentication, any user you want to have access to your server must have 
+their public key copied to the server (such as through ssh-copy-id). Then they can use 
+ssh, scp,  or related commands to access that server without typing the user’s password.

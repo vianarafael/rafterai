@@ -1,0 +1,6 @@
+From the Run Application box that appears, type rhythmbox and 
+press Enter.
+
+10.  To take a picture of your desktop using only keystrokes, press the Print Screen key 
+to take a screenshot of your entire desktop in both GNOME 3 and GNOME 2. Press 
+Alt+Print Screen to take a screenshot of just the current window.

@@ -1,0 +1,8 @@
+--
+Nov 28 21:01:01 backup run-parts(/etc/cron.hourly)[9627]: starting 0yum-hourly.cron
+...
+Nov 28 21:24:54 backup sudo[9647]:   bsingh : TTY=pts/0 ; PWD=/home/bsingh ; USER=root ; 
+COMMAND=/bin/journalctl -n 10
+
+Here we see the last ten lines (eight lines are omitted), with the last log entry being the sudo command 
+we just entered.

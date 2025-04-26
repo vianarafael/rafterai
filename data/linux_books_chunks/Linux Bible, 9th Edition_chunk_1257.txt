@@ -1,0 +1,15 @@
+The following graphical tools are available in Fedora:
+
+ ■ Domain Name System (system-config-bind)—Create and conﬁ gure zones if 
+
+your computer is acting as a DNS server.
+
+ ■ HTTP (system-config-httpd)—Conﬁ gure your computer as an Apache web server.
+
+ ■ NFS (system-config-nfs)—Set up directories from your system to be shared with 
+
+other computers on your network using the NFS service.
+
+ ■ Root Password (system-config-rootpassword)—Change the root password.
+
+ ■ Samba NFS (system-config-samba)—Conﬁ gure Windows (SMB) ﬁ le sharing.

@@ -1,0 +1,27 @@
+(We could have changed the description of the server...)
+
+[root@RHEL52 samba]# testparm
+Load smb config files from /etc/samba/smb.conf
+Processing section "[pubwrite]"
+Processing section "[pubread]"
+Loaded services file OK.
+Server role: ROLE_STANDALONE
+Press enter to see a dump of your service definitions
+
+[global]
+ netbios name = TEACHER0
+ server string = Public Anonymous File Server
+ security = SHARE
+
+[pubwrite]
+ comment = files to write
+ path = /srv/samba/writable
+ read only = No
+ guest ok = Yes
+
+[pubread]
+ comment = files to read
+ path = /srv/samba/readonly
+ guest ok = Yes
+
+18.4.

@@ -1,0 +1,9 @@
+To see these failures, you enter the pam_tally2 command, as 
+shown in the following code:
+
+# pam_tally2
+Login           Failures Latest failure     From
+Samantha            2    03/10/15 06:24:01  pts/1
+
+The username, number of failures, and latest attempt are listed along with the terminal 
+where the latest failure occurred.

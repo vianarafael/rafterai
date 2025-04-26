@@ -1,0 +1,5 @@
+We then specify the 
+value of the field we are looking for in SERVICE_STOP. In the last 30 minutes, we have 3 hits, and they appear 
+in the central panel.
+
+Figure 18-7.

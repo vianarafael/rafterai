@@ -1,0 +1,2 @@
+The normal course 
+of events is to install, conﬁ gure, start, secure, and monitor your servers.

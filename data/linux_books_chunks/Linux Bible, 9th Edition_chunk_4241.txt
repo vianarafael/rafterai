@@ -1,0 +1,10 @@
+A compliance review is an audit of the overall computer system environment to 
+
+622
+
+c22.indd  04/15/2015  Page 623
+
+Chapter 22: Understanding Basic Linux Security 
+
+ensure that policies and procedures you have set for the system are being carried out cor-
+rectly.

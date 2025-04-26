@@ -1,0 +1,11 @@
+In the partial listing that follows, grep is used to verify 
+that the PAM module is used within the system event conﬁ guration ﬁ les.
+
+# grep "pam_limits" /etc/pam.d/*
+...
+system-auth:session        required      pam_limits.so
+system-auth-ac:session     required      pam_limits.so
+system-auth-local:session  required      pam_limits.so
+
+Time limits for access to services and accounts are not handled by the PAM 
+/etc/ security/limits.conf conﬁ guration ﬁ le.

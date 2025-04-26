@@ -1,0 +1,7 @@
+For a good write-up on the differences and capabilities of these web 
+servers, see https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-
+considerations.
+
+You can also find a list of web servers at http://en.wikipedia.org/wiki/Comparison_of_web_servers.
+
+We’ll start by showing how to do a basic configuration for Apache.

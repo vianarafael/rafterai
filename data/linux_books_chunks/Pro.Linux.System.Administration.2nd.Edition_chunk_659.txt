@@ -1,0 +1,13 @@
+In Figure 4-10, you can see the Gnome search function.
+
+ChapTeR 4 ■ LInux BasICs
+
+Figure 4-10.  Gnome search function
+
+On the command line, you can also search for files using the find command. Let’s use the find 
+
+command to search for a file called myfile in the /home directory:
+
+$ find /home/ -type f -iname myfile*
+
+The find command is very simple to use.

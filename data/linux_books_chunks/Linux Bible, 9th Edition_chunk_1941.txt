@@ -1,0 +1,11 @@
+Using Access Control Lists (ACLs), any user can also assign speciﬁ c 
+permissions to ﬁ les and directories to any users and groups they like.
+
+270
+
+c11.indd  04/01/2015  Page 271
+
+Chapter 11: Managing User Accounts
+
+ ■ More centralized—When you have only one computer, storing user information 
+for all users in the /etc/password ﬁ le is probably not a hardship.

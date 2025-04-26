@@ -1,0 +1,7 @@
+You can create ﬁ les and directories in the test directory 
+along with the descriptions in the rest of this chapter.
+
+Using Metacharacters and Operators
+Whether you are listing, moving, copying, removing, or otherwise acting on ﬁ les in your 
+Linux system, certain special characters, referred to as metacharacters and operators, help 
+you to work with ﬁ les more efﬁ ciently.

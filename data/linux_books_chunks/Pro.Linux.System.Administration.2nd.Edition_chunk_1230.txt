@@ -1,0 +1,9 @@
+on the first day of every 
+month.
+
+ You can also specify the standard three-letter abbreviations for the months, days in the month, and 
+
+ ■ Note 
+days of the week columns, for example, sun for Sunday and aug for august, respectively.
+
+Any column with an asterisk (*) in it means all values are valid and are not restricted as to when to run.

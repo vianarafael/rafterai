@@ -1,0 +1,4 @@
+Once we have done that, we then need to create the new volume with 
+those new bricks.
+
+We will assume that we have added our new disks to our Gluster servers.

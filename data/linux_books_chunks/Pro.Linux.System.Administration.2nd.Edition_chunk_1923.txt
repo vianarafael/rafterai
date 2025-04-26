@@ -1,0 +1,5 @@
+If you keep 
+pressing n, you will eventually find yourself in the listing of Not Installed Packages, which contains more kernels 
+still. To display more package names on screen, you can toggle the information window by pressing D.
+
+Let’s now install a package. A small but helpful network utility is nmap, so we’ll pick that.

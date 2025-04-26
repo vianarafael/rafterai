@@ -1,0 +1,6 @@
+Those are special 
+devices associated with shared memory, terminal windows, device information, and kernel 
+parameters, respectively.
+
+In general, the ﬁ rst column of /etc/fstab shows the device or share (what is mounted), 
+while the second column shows the mount point (where it is mounted).

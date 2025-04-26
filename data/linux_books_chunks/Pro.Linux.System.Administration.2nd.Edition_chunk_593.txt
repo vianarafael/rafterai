@@ -1,0 +1,8 @@
+You can use the umask command to 
+modify these default permissions. Let’s look at an example.
+
+# umask 0022
+
+Here we’ve specified a umask of 0022. This looks familiar, doesn’t it? Yes, it’s a type of octal notation; in 
+
+this case, it indicates what’s not being granted.

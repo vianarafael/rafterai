@@ -1,0 +1,5 @@
+One is the NS record, which defines 
+which hosts act as DNS server for this domain, and the other is the MX record, which defines mail servers for 
+this domain. Both records start with a blank field, as they do not define hostnames.
+
+Listing 10-18.

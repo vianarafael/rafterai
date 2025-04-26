@@ -1,0 +1,11 @@
+Because they were reproducing commands and utilities with well-known, 
+published interfaces, that effort could easily be split among many developers.
+
+11
+
+c01.indd  04/01/2015  Page 12
+
+Part I: Getting Started
+
+It turned out that not only could the same results be gained by all new code, but in some 
+cases, that code was better than the original UNIX versions.

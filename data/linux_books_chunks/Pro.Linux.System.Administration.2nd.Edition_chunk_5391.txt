@@ -1,0 +1,10 @@
+As root, issue the following (as the Nagios user account cannot access a shell as it is 
+set to /sbin/nologin for their account; see the /etc/passwd file):
+
+nagios# sudo –u nagios –E ssh nagios@gateway
+The authenticity of host 'gateway (192.168.0.254)' can't be established.
+ECDSA key fingerprint is 2d:94:d5:bd:3e:40:93:fe:d4:9b:eb:6f:93:4d:f3:a1.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'gateway,192.168.0.254' (ECDSA) to the list of known hosts.
+
+Here we have used sudo to execute the ssh command as the nagios user.

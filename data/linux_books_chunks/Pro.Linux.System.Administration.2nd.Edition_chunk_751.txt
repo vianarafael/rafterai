@@ -1,0 +1,4 @@
+A home directory is the directory a user is 
+placed in after they login. This is a private directory owned by the user for the user’s files, this applies to a system 
+user (like a user that runs a database) or a regular human user. The –M option tells Red Hat–derived distributions 
+not to create a home directory.

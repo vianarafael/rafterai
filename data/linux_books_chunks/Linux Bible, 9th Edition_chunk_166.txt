@@ -1,0 +1,10 @@
+The features that make up 
+Linux and similar computer operating systems include the following:
+
+ ■ Detecting and preparing hardware—When the Linux system boots up (when you 
+turn on your computer), it looks at the components on your computer (CPU, hard 
+drive, network cards, and so on) and loads the software (drivers and modules) 
+needed to access those particular hardware devices.
+
+ ■ Managing processes—The operating system must keep track of multiple processes 
+running at the same time and decide which have access to the CPU and when.

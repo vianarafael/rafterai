@@ -1,0 +1,20 @@
+Does
+fdisk give you any information about lvm?
+
+Run all those commands (only two are shown below), then answer 'no'.
+
+root@rhel65:~# df -h 
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/VolGroup-lv_root
+                      6.7G  1.4G  5.0G  21% /
+tmpfs                 246M     0  246M   0% /dev/shm
+/dev/sda1             485M   77M  383M  17% /boot
+/dev/mapper/VG42-LVsmall
+                      194M   30M  154M  17% /srv/LVsmall
+/dev/mapper/VG42-LVbig
+                      591M   20M  541M   4% /srv/LVbig
+root@rhel65:~# mount | grep VG42
+/dev/mapper/VG42-LVsmall on /srv/LVsmall type ext3 (rw)
+/dev/mapper/VG42-LVbig on /srv/LVbig type ext3 (rw)
+
+4.

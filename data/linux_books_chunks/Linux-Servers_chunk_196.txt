@@ -1,0 +1,16 @@
+200 OK
+Length: 25 [text/html]
+Saving to: âindex.htmlâ
+
+100%[=============================================>] 25          --.-K/s   in 0s      
+
+2014-05-25 16:59:15 (1014 KB/s) - `index.html' saved [25/25]
+
+[root@CentOS65 ~]# cat index.html
+Welcome to chess club 42
+
+23
+
+apache web server
+
+1.7.

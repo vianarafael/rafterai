@@ -1,0 +1,7 @@
+At times 
+of peak demand, Cloudforms can also direct virtual machines to run on Amazon 
+EC2 clouds.
+
+These cloud environments have different ways of provisioning and conﬁ guring virtual 
+machines. However, the features that clouds need to provide to virtual machine manage-
+ment are similar.

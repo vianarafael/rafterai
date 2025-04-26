@@ -1,0 +1,4 @@
+In the 
+
+hits section, we have a total of 74 hits for SERVICE_STOP audit_type. There will be list of events that match printed 
+also.

@@ -1,0 +1,7 @@
+Each time you start a new bash 
+command (by, for example, using su to become a new user, or by simply 
+typing bash), this number is incremented.
+
+This can be set to a number representing the number of seconds the shell 
+can be idle without receiving input. After the number of seconds is 
+reached, the shell exits.

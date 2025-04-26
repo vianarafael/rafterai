@@ -1,0 +1,3 @@
+Reducing the idle_session_timeout from the default 
+300 seconds to 120 seconds causes FTP clients that are idle more than 2 minutes to be 
+disconnected. So less time is spent managing FTP sessions that are no longer in use.

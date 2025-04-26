@@ -1,0 +1,4 @@
+Maximum Concurrent Jobs defines the number of jobs that can connect to this host at any one 
+time.
+
+The Director and Messages sections are the same as described in the Storage file.

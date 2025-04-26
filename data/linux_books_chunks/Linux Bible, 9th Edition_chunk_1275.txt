@@ -1,0 +1,5 @@
+Again, type exit when you are ﬁ nished, and if you are on a virtual console 
+and have a desktop interface running on another console, press Ctrl+Alt+F1 to return to the 
+graphical login screen, if you are using a Linux desktop system.
+
+By default, the root account has no password set in Ubuntu.

@@ -1,0 +1,2 @@
+The URL option points to the backup.example.com host on port 19532. Again, the private key must be 
+readable by the systemd-journal-upload user.

@@ -1,0 +1,6 @@
+DirectoryMatch blocks are processed after Directory blocks.
+
+Apache can also be conﬁ gured to process conﬁ guration options contained within ﬁ les 
+with the name speciﬁ ed in the AccessFileName directive (which is generally set to 
+.htaccess). Directives in access conﬁ guration ﬁ les are applied to all objects under the 
+directory they contain, including subdirectories and their contents.

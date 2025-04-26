@@ -1,0 +1,14 @@
+The login.defs Password-Aging Controls
+
+PASS_MAX_DAYS    60
+PASS_MIN_DAYS    0
+PASS_WARN_AGE    7
+
+In Listing 5-11, we have set the maximum password age to 60 days using the PASS_MAX_DAYS option, 
+allowing users to change their passwords at any time by setting the PASS_MIN_DAYS option to 0 and providing 
+a warning to users that their passwords will expire seven days before the password expiration date using the 
+PASS_WARN_AGE option.
+
+Disabling Users
+As the root user, you can also use the passwd command to disable and enable user accounts using the –l, or 
+lock, option.

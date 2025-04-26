@@ -1,0 +1,6 @@
+It can become tiresome to come up with new, strong passwords every 30 days! That is why 
+some enforcing techniques are often necessary.
+
+If users are having a diffi cult time creating secure and unique passwords, consider installing the pwgen utility on your 
+Linux system. This open source password generating utility creates passwords that are made to be pronounceable 
+and memorable.

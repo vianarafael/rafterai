@@ -1,0 +1,6 @@
+After your system comes up, with the broken 
+ services not started, you can go back and try to debug those individual services.
+
+One last comment about startup scripts: The /etc/rc.local ﬁ le is one of the last 
+ services to run at each runlevel. As an example, in runlevel 5, it is linked to /etc/rc5.d/
+S99local.

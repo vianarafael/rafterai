@@ -1,0 +1,5 @@
+it’s perfectly possible for 
+a misbehaving application to do the wrong thing and keep forking child processes, rather than exiting. 
+this is called a fork bomb.
+
+a fork bomb creates new copies of itself as fast as the host will allow.

@@ -1,0 +1,6 @@
+(If SELinux is in 
+Enforcing mode, you need to set a Boolean to allow regular users to log in to the 
+FTP server. See the section “Securing Your FTP Server” for details.)
+
+ ■ The anonymous user has access only to the /var/ftp directory and its subdirec-
+tories.

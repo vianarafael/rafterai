@@ -1,0 +1,7 @@
+Verify  the  local  files  when  using  features  like
+"disabling, suspending, or locking" on user accounts and their passwords.
+
+3.9. editing local files
+
+If  you  still  want  to  manually  edit  the  /etc/passwd  or  /etc/shadow,  after  knowing  these
+commands for password management, then use vipw instead of vi(m) directly.

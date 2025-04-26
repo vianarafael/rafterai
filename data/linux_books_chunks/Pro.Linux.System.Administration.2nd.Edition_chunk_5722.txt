@@ -1,0 +1,7 @@
+In the sections that follow, we’ll 
+describe some of the topics we haven’t covered that you can explore further to make the best use of Puppet.
+
+Functions
+
+Puppet also has a collection of functions. Functions are useful commands that can be run on the Puppet 
+master to perform actions.

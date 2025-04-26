@@ -1,0 +1,7 @@
+You can ensure that the system clock is adjusted whenever it attempts to run out of sync by installing and 
+
+419
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+running an NTP daemon on your host.

@@ -1,0 +1,9 @@
+kill -9 (SIGKILL)
+
+The SIGKILL is different from most other signals in that it is not being sent to the process,
+but to the Linux kernel. A kill -9 is also called a sure kill. The kernel will shoot down the
+process. As a developer you have no means to intercept a kill -9 signal.
+
+root@rhel53 ~# kill -9 3342
+
+1.3.6.

@@ -1,0 +1,15 @@
+Let’s 
+
+do that now with the following command:
+
+$ sudo gluster volume start vol1
+volume start: vol1: success
+
+With that we have created and started our Gluster volume, and we are now ready to test that we can 
+
+mount and write to it.
+
+Testing GlusterFS
+
+In this testing scenario, we are going to mount our Gluster volume onto another server. We are going to 
+perform some write tests.

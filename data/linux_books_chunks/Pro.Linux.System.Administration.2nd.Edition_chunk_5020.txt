@@ -1,0 +1,3 @@
+rhgb quiet elevator=deadline"
+
+This sets deadline as the default scheduler across the whole server.

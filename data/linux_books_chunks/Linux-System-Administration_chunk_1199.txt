@@ -1,0 +1,50 @@
+downloading the kernel source
+
+Debian
+
+Installing the kernel source on Debian is really simple with aptitude install linux-source.
+You can do a search for all linux-source packeges first, like in this screenshot.
+
+root@barry:~# aptitude search linux-source
+v   linux-source           -
+v   linux-source-2.6       -
+id  linux-source-2.6.15    - Linux kernel source for version 2.6.15
+i   linux-source-2.6.16    - Linux kernel source for version 2.6.16
+p   linux-source-2.6.18    - Linux kernel source for version 2.6.18
+p   linux-source-2.6.24    - Linux kernel source for version 2.6.24
+
+And then use aptitude install to download and install the Debian Linux kernel source code.
+
+root@barry:~# aptitude install linux-source-2.6.24
+
+When  the  aptitude  is  finished,  you  will  see  a  new  file  named  /usr/src/linux-source-
+<version>.tar.bz2
+
+root@barry:/usr/src# ls -lh
+drwxr-xr-x 20 root root 4.0K 2006-04-04 22:12 linux-source-2.6.15
+drwxr-xr-x 19 root root 4.0K 2006-07-15 17:32 linux-source-2.6.16
+-rw-r--r--  1 root root  45M 2008-12-02 10:56 linux-source-2.6.24.tar.bz2
+
+Ubuntu
+
+Ubuntu is based on Debian and also uses aptitude, so the task is very similar.
+
+root@laika:~# aptitude search linux-source
+i   linux-source           - Linux kernel source with Ubuntu patches
+v   linux-source-2.6       -
+i A linux-source-2.6.24    - Linux kernel source for version 2.6.24
+root@laika:~# aptitude install linux-source
+
+And when aptitude finishes, we end up with a /usr/src/linux-source-<version>.tar.bz file.
+
+oot@laika:~# ll /usr/src
+total 45M
+-rw-r--r--  1 root root  45M 2008-11-24 23:30 linux-source-2.6.24.tar.bz2
+
+331
+
+the Linux kernel
+
+Red Hat Enterprise Linux
+
+The  Red  Hat  kernel  source  is  located  on  the  fourth  source  cdrom.

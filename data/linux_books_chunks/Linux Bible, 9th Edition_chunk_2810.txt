@@ -1,0 +1,13 @@
+Thus, the key to making a service persistent is to ensure the 
+ service’s deﬁ nition ﬁ le is triggered by one of the signals emitted as the server boots.
+
+15
+
+409
+
+c15.indd  04/01/2015  Page 410
+
+Part IV: Becoming a Linux Server Administrator
+
+Remember that the Upstart init daemon’s job deﬁ nition ﬁ les are located in the /etc/init 
+directory.

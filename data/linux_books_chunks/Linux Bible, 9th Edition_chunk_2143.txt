@@ -1,0 +1,13 @@
+The list that follows shows a sample of ﬁ lesystem types that are currently  supported in 
+Linux, although they may not be in use at the moment or even available on the Linux 
+ distribution you are using.
+
+301
+
+c12.indd  04/01/2015  Page 302
+
+Part III: Becoming a Linux System Administrator
+
+ ■ befs—Filesystem used by the BeOS operating system.
+
+ ■ btrfs—A copy-on-write ﬁ lesystem that implements advanced ﬁ lesystem features.

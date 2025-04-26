@@ -1,0 +1,5 @@
+For example, adding 
+init=/bin/bash causes the system to bypass the init process and go straight to 
+a shell (similar to running init 1). In RHEL 7, adding 1 as a kernel option is not 
+ supported, so init=/bin/bash is the best way to get into a sort of single-user 
+mode.

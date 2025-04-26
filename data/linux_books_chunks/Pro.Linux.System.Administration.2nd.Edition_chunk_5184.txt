@@ -1,0 +1,4 @@
+We are going to send all our logs from /var/log to our Logstash server that will be on the monitor 
+server. We do that with the configuration shown in Listing 18-14.
+
+Listing 18-14.

@@ -1,0 +1,5 @@
+The 
+ansible command is using a local connection (-c local) and operating on the target host localhost. We 
+executed on that host the setup module (-m setup).
+
+Let’s now take it one step further; on this local host we will install the Nginx package.

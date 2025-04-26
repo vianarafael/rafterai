@@ -1,0 +1,4 @@
+How is this possible ?
+
+Linux (or any Unix) always needs a user account to gain access to a system. The windows
+computer  did  not  provide  the  samba  server  with  a  user  account  or  a  password.

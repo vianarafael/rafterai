@@ -1,0 +1,5 @@
+Now, anyone who belongs to the sales group can read or write that ﬁ le, based on 
+group permissions.
+
+Creating restricted deletion directories (sticky bit)
+A restricted deletion directory is created by turning on a directory’s sticky bit.

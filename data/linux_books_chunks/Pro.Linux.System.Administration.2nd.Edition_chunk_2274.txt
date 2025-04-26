@@ -1,0 +1,12 @@
+In this section, we’ll focus on using md RAID.
+
+Types of RAID
+There are several types—or levels—of RAID. The level you use depends on what is most important to you. 
+The different levels offer a trade-off between available disk space, reliability, and speed. Table 9-5 lists the 
+most commonly used RAID levels.
+
+386
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Table 9-5.

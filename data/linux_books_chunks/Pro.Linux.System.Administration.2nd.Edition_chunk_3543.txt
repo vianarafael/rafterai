@@ -1,0 +1,9 @@
+We are going to add a TXT 
+
+record for the example.com domain.
+
+example.com.    IN  TXT “v=spf1 mx -all"
+
+Here we are editing the zone file for example.com and adding the TXT record. You may also commonly 
+
+see this as an SPF record that has been depreciated.

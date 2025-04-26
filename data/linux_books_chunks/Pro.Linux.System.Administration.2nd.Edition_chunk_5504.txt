@@ -1,0 +1,2 @@
+The --path option specifies the source of the 
+distribution you want to import—in our case, /mnt/ubuntu and /mnt/centos.

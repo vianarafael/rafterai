@@ -1,0 +1,21 @@
+Getting Information About Packages
+
+# sudo rpm --query --info kernel-3.10.0-327.18.2.el7.x86_64
+Name        : kernel
+Version     : 3.10.0
+Release     : 327.18.2.el7
+Architecture: x86_64
+Install Date: Thu 26 May 2016 17:43:40 EDT
+Group       : System Environment/Kernel
+Size        : 142681799
+License     : GPLv2
+Signature   : RSA/SHA256, Thu 12 May 2016 19:41:18 EDT, Key ID 24c6a8a7f4a80eb5
+Source RPM  : kernel-3.10.0-327.18.2.el7.src.rpm
+Build Date  : Thu 12 May 2016 07:51:03 EDT
+Build Host  : kbuilder.dev.centos.org
+Relocations : (not relocatable)
+URL         : http://www.kernel.org/
+Summary     : The Linux kernel
+Description :
+The kernel package contains the Linux kernel (vmlinuz), the core of any
+Linux operating system.

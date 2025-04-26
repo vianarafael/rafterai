@@ -1,0 +1,8 @@
+This will display a list of 
+packages that have updates available for them. To install those updates you can issue
+
+$ sudo yum update
+
+You can also update one or more individual packages, as shown in Listing 8-4.
+
+Listing 8-4.

@@ -1,0 +1,28 @@
+To recursively copy all the ﬁ les from the /usr/share/logwatch directory on a 
+remote system to the /tmp directory on your local system in such a way that all 
+the modiﬁ cation times on the ﬁ les from the remote system are maintained on the 
+local system, try this:
+
+$ rsync -av joe@localhost:/usr/share/logwatch /tmp
+joe@localhost's password: ********
+receiving incremental file list
+
+B
+
+805
+
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 806
+
+Appendix B: Exercise Answers
+
+logwatch/
+logwatch/default.conf/
+logwatch/default.conf/logwatch.conf
+$ ls -l /tmp/logwatch | head
+total 16
+drwxr-xr-x.

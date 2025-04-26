@@ -1,0 +1,14 @@
+Let’s first check 
+
+to see whether they are installed.
+
+$ sudo aptitude show postfix
+Package: postfix
+State: installed
+...
+$ sudo aptitude show dovecot-core
+Package: dovecot-core
+State: installed
+...
+
+Here we have checked whether the postfix package and the dovecot-core packages are installed.

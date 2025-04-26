@@ -1,0 +1,7 @@
+The VSZ and RSS sizes may be 
+ different because VSZ is the amount of memory allocated for the process, whereas RSS 
+is the amount that is actually being used. RSS memory represents physical memory that 
+cannot be swapped.
+
+START shows the time the process began running, and TIME shows the cumulative 
+ system time used.

@@ -1,0 +1,5 @@
+At that point, you have to dig around to ﬁ nd what package contained that 
+component. When you go to install it, that dependent package might itself have 
+dependencies you need to install to get it to work. This situation is lovingly referred 
+to as “dependency hell” and is often used as an example of why DEB packages were 
+better than RPMs.

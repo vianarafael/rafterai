@@ -1,0 +1,9 @@
+The compiled kernel will be written to:
+
+/dev/fd0
+
+Remember to put a floppy in the drive!
+
+Documentation 
+
+Most documentation is available in the /usr/src/linux/Documentation directory.

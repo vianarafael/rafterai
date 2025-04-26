@@ -1,0 +1,25 @@
+Querying a DNS Server with host
+
+$ host www.google.com 192.168.1.1
+Using domain server:
+Name: 192.168.1.1
+Address: 192.168.1.1#53
+Aliases:
+
+www.google.com has address 150.101.161.167
+www.google.com has address 150.101.161.173
+www.google.com has address 150.101.161.174
+www.google.com has address 150.101.161.180
+www.google.com has address 150.101.161.181
+www.google.com has address 150.101.161.187
+www.google.com has address 150.101.161.146
+www.google.com has address 150.101.161.152
+www.google.com has address 150.101.161.153
+www.google.com has address 150.101.161.159
+www.google.com has address 150.101.161.160
+www.google.com has address 150.101.161.166
+www.google.com has IPv6 address 2404:6800:4006:800::2004
+
+In Listing 10-8, we’ve asked the DNS server running on 192.168.1.1 to look up an address for  
+
+www.google.com it returns several different IP addresses, including an IPv6 address.

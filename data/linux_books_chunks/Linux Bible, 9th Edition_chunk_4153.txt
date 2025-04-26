@@ -1,0 +1,7 @@
+Software package updates were covered in Chapters 9 and 10.
+
+Software updates need to be done on a regular basis. How often and when you do it, of 
+course, depends upon your organization’s security needs.
+
+You can easily automate software updates, but like removing services and software, it 
+would be wise to test the updates in a test environment ﬁ rst.

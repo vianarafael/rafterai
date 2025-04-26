@@ -1,0 +1,9 @@
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Add in the contents of Listing 10-21.
+
+Listing 10-21.  The Reverse Zone Header
+
+$ORIGIN 0.168.192.in-addr.arpa.
+$TTL  86400
+@  IN  SOA    ns.example.com.    root.example.com.

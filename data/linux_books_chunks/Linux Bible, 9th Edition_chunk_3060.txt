@@ -1,0 +1,8 @@
+Currently, ASF has more than 100 top-level projects, including TomCat 
+(which includes open source Java Servlet and JavaServer Pages technologies), Hadoop 
+(a project providing highly available, distributed computing), and SpamAssassin 
+(an e-mail ﬁ ltering program).
+
+Getting and Installing Your Web Server
+Although Apache is available with every major Linux distribution, it is often packaged 
+in different ways.

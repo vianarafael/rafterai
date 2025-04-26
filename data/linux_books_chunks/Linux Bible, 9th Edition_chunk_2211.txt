@@ -1,0 +1,11 @@
+If you are stuck, solutions 
+to the tasks are shown in Appendix B (although in Linux, there are often multiple ways 
+to complete a task).
+
+1.  Run a command as root to watch the /var/log/messages ﬁ le and insert your 
+
+USB ﬂ ash drive. Determine the device name of the USB ﬂ ash drive.
+
+2.  Run a command to list the partition table for the USB ﬂ ash drive.
+
+3.

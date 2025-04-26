@@ -1,0 +1,2 @@
+This uses the template 
+basic-ssh-checks, which calls in the Current Load service check via the hostgroup.

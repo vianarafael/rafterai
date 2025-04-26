@@ -1,0 +1,11 @@
+The strict policy type is now a part of the targeted policy type.
+
+682
+
+c24.indd  04/15/2015  Page 683
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+Managing SELinux security contexts
+SELinux security contexts allow SELinux to enforce policy rules for subjects accessing 
+objects.

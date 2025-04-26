@@ -1,0 +1,12 @@
+If you have less than or N other characters, each character counts +1 
+toward meeting the current minlen value.
+
+ ■ If (N < 0): The minimum number of other characters that must be met for a new 
+
+password.
+
+ ■ minclass=N
+
+ ■ Default = 0
+
+ ■ N out of four character classes is required for the new password.

@@ -1,0 +1,10 @@
+using a database
+
+Next we tell mysql to use one particular database with the use $database command. This
+screenshot shows how to make wikidb the current database (in use).
+
+mysql> use famouspeople;
+Database changed
+mysql>
+
+3.3.4.

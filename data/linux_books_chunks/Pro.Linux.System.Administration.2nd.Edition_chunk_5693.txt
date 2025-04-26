@@ -1,0 +1,5 @@
+But this isn’t the only 
+
+use for facts. We can also use facts to determine how to configure a particular node, as shown in Listing 19-11.
+
+Listing 19-11.

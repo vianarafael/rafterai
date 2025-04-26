@@ -1,0 +1,15 @@
+We’re going to look at two tools.
+
+•	
+
+•	
+
+SpamAssassin: An open source antispam tool
+
+ClamAV: An open source antivirus scanner and engine
+
+We’re going to integrate both these tools with Postfix and teach you how to use them.
+
+Fighting Spam
+Spam is unsolicited e-mail ranging from requests to help with myriad illegal financial transactions to 
+offers for medicine that will enlarge portions of human anatomy.

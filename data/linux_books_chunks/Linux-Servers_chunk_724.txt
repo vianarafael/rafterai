@@ -1,0 +1,22 @@
+[global] section in smb.conf
+
+Below is our new global section in smb.conf.
+
+[global]
+ workgroup = STARGATE
+ security = Domain
+ server string = Stargate Domain Member Server
+ idmap uid = 20000-22000
+ idmap gid = 20000-22000
+ winbind use default domain = yes
+
+188
+
+  
+  
+  
+  
+  
+samba domain member
+
+16.1.6.

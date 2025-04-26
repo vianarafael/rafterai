@@ -1,0 +1,6 @@
+Like the userlist_enable ﬁ le, 
+the ftpusers ﬁ le includes a list of administrative users. You can add more users to that 
+ﬁ le if you want them to be denied FTP access.
+
+One way to limit access to users with regular user accounts on your system is to use 
+chroot settings.

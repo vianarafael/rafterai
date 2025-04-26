@@ -1,0 +1,7 @@
+Pop out the 
+DVD when the system restarts, and Red Hat Enterprise Linux starts up from the 
+hard disk.
+
+16.  Run firstboot. If you installed a desktop interface, the ﬁ rstboot screen appears the 
+
+ﬁ rst time you boot the system.

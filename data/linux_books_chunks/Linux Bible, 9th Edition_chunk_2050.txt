@@ -1,0 +1,2 @@
+Even if you use a separate USB fl ash drive to practice, 
+a bad entry in /etc/fstab can hang your system on reboot.

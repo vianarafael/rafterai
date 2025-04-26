@@ -1,0 +1,5 @@
+View the connection details. Select Edit ➪ Connection Details to see the 
+
+Connection Details window. Select the Overview, Virtual Networks, Storage, and 
+Network Interfaces tabs to familiarize yourself with the connection information for 
+your hypervisor.

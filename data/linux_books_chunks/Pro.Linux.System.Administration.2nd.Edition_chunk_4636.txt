@@ -1,0 +1,21 @@
+We will create an LDIF file to add these records.
+
+dn: cn=config
+changetype: modify
+add: olcTLSCACertificateFile
+olcTLSCACertificateFile: /etc/ldap/certs/cacert.pem
+-
+add: olcTLSCertificateFile
+olcTLSCertificateFile: /etc/ldap/certs/ldap.example.com.cert
+-
+add: olcTLSCertificateKeyFile
+olcTLSCertificateKeyFile: /etc/ldap/certs/ldap.example.com.key
+-
+add: olcTLSVerifyClient
+olcTLSVerifyClient: allow
+
+763
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Here we create a certificate file from our private key and add the details.

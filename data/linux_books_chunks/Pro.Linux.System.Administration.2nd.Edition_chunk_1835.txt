@@ -1,0 +1,8 @@
+You 
+
+can use the alias to this command, erase, and it will do the same thing. Any configuration files that have been 
+changed from the original package versions will be saved and with a <filename>.conf.rpmsave extension.
+
+Performing Additional YUM Tasks
+
+You can do many other things with the yum command.

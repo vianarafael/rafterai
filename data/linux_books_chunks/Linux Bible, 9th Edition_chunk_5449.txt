@@ -1,0 +1,13 @@
+The lm indicates that it is a 64-bit 
+
+computer.
+
+2.  To install a Linux system along with the packages needed to use it as a KVM host 
+
+and to run the Virtual Machine Manager application, do the following:
+
+a. Get a live or installation image from a Linux site (such as getfedora.org), 
+
+and burn it to a DVD (or otherwise make it available to install).
+
+b.

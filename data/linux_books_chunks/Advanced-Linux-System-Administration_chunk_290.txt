@@ -1,0 +1,5 @@
+It covers advanced system administration 
+skills that are common across all distributions of Linux.
+
+Each objective is assigned a weighting value. The weights range roughly from 1 to 10, and 
+indicate the relative importance of each objective.

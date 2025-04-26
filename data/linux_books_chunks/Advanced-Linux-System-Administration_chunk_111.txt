@@ -1,0 +1,15 @@
+The above tools are not in the 201 objectives.
+
+19
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+System Startup
+
+Customising the boot process involves understanding how startup script are called. The 
+chapter also describes common problems that arise at different points during the booting 
+process as well as some recovery techniques.

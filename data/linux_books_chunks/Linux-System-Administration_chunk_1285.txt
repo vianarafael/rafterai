@@ -1,0 +1,7 @@
+Backup Types
+
+Linux uses multilevel incremental backups using distinct levels. A full backup is a backup
+at level 0. A higher level x backup will include all changes since the last level x-1 backup.
+
+Suppose you take a full backup on Monday (level 0) and a level 1 backup on Tuesday, then
+the Tuesday backup will contain all changes since Monday.

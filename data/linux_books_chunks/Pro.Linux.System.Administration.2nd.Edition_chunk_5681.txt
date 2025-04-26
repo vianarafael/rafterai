@@ -1,0 +1,19 @@
+Then we will run Puppet again on that node.
+
+$ sudo rm –f /etc/httpd/conf.d/25-www.example.com.conf
+$ sudo /opt/puppetlabs/bin/puppet agent --server puppet.example.com --test
+Info: Using configured environment 'production'
+...
+Notice: /Stage[main]/Role::Apache_web/Apache::Vhost[www.example.com]/Concat[25-www.example.
+com.conf]/File[/etc/httpd/conf.d/25-www.example.com.conf]/ensure: defined content as '{md5}6
+bee975590cb7b26b89cfd48d8d65bdf'
+Info: Concat[25-www.example.com.conf]: Scheduling refresh of Class[Apache::Service]
+Info: Class[Apache::Service]: Scheduling refresh of Service[httpd]
+Notice: /Stage[main]/Apache::Service/Service[httpd]: Triggered 'refresh' from 1 events
+Notice: Applied catalog in 1.71 seconds
+
+Here you can see that the file was replaced and the Apache service was restarted.
+
+CREATING A PUPPET CONFIGURATION
+
+the best way to convert your existing configuration to puppet is to start small.

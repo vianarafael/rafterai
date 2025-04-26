@@ -1,0 +1,10 @@
+You can 
+also install other modules; those will be provided by related packages like rsyslog-mysql, which provides 
+logging support for MySQL.
+
+848
+
+Chapter 18 ■ Logging and Monitoring
+
+The Modules section is followed by the Global Directives section. This defines the user, file, and 
+directory modes and other housekeeping. These are rarely edited.

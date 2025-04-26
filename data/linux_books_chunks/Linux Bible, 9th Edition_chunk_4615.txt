@@ -1,0 +1,5 @@
+If you need this setting to be perma-
+nent, you can use only the setsebool with the -P option.
+
+The togglebool command just toggles the current Boolean setting of the policy you 
+specify between on and off.

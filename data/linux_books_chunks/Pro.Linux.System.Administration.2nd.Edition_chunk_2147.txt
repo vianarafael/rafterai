@@ -1,0 +1,2 @@
+You can choose to lay out your metadata differently to your 
+file data (e.g., your metadata as raid1 and your data as raid10).

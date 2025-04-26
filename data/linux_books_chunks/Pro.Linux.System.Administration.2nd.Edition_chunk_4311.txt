@@ -1,0 +1,10 @@
+OpenVPN allows a wide 
+variety of authentication mechanisms including preshared keys, two-factor authentication such as tokens, 
+and TLS/SSL certificates.
+
+707
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+The most basic authentication is preshared keys, which are static keys generated on your host and then 
+distributed to the host you want to connect to.

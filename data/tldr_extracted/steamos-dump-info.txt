@@ -1,0 +1,6 @@
+# steamos-dump-info
+
+
+- View SteamOS system information:
+
+`sudo steamos-dump-info`

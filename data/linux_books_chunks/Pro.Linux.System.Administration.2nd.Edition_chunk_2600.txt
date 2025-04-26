@@ -1,0 +1,5 @@
+Zone files are 
+
+stored in /var/named/ and Ubuntu in /var/cache/bind. The daemon that runs the DNS service on CentOS 
+is called named and is run by the named user. Ubuntu, on the other hand, runs the bind daemon with the bind 
+user. In the following example we will be using an Ubuntu server.

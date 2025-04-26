@@ -1,0 +1,7 @@
+Mostly you do not need to change any 
+
+configuration on how the service starts, but if you want, you can do so with the /etc/logstash/startup.
+options file. That file contains the user that runs the service, the JAVA_OPTS you may like to include, and so 
+on.
+
+We are now going to create a pipeline for processing our logs. We can do this in two ways.

@@ -1,0 +1,23 @@
+We name the copy /etc/dhcp/
+dhcpd.conf.
+
+[root@rhel71 ~]# cp /usr/share/doc/dhcp-4.2.5/dhcpd.conf.example /etc/dhcp/dhcp\
+d.conf
+[root@rhel71 ~]# vi /etc/dhcp/dhcpd.conf
+[root@rhel71 ~]# cat /etc/dhcp/dhcpd.conf
+option domain-name "linux-training.be";
+option domain-name-servers 10.42.42.42;
+default-lease-time 600;
+max-lease-time 7200;
+log-facility local7;
+
+subnet 10.42.0.0 netmask 255.255.0.0 {
+  range 10.42.200.11 10.42.200.120;
+  option routers 10.42.200.1;
+}
+[root@rhel71 ~]#
+
+The 'routers' option is valid for the subnet alone, whereas the 'domain-name' option is global
+(for all subnets).
+
+Time to start the server.

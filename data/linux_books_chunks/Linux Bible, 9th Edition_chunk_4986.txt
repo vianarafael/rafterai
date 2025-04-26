@@ -1,0 +1,4 @@
+With the meta-data and user-data 
+ﬁ les in the current directory, create an ISO image that contains that data. Later, 
+we present this image as a CD-ROM to the Linux image, so cloud-init knows 
+how to conﬁ gure the Linux image.

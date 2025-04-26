@@ -1,0 +1,6 @@
+6to4
+
+6to4 is defined in rfc's 2893 and 3056 as one possible way to transition between ipv4 and
+ipv6 by creating an ipv6 tunnel.
+
+It  encodes  an  ipv4  address  in  an  ipv6  address  that  starts  with  2002.

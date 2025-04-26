@@ -1,0 +1,5 @@
+Postfix responds to say it’s ready to start an encrypted connection. This indicates that TLS is successfully set 
+up and awaiting connections.
+
+Another way to test if your server is set up correctly to send secure e-mail is to check it against 
+something like www.checktls.com/testreceiver.html.

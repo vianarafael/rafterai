@@ -1,0 +1,8 @@
+We will use this information to see what dstat says.
+
+In Figure 17-8 we can see that we have used the –D switch to dstat to pass in the partitions we want to 
+
+monitor. We have a significant amount of data being written to sdc1, which is our application logging. In our 
+pretend world I would suspect that our application has been started with debug logging.
+
+Figure 17-8.

@@ -1,0 +1,10 @@
+Some network 
+administrators do this because they believe ICMP to be a security vulnerability.
+
+For more information on some security vulnerabilities of ICMP, please read: http://resources.
+
+infosecinstitute.com/icmp-attacks/.
+
+The tcpdump Command
+You can’t easily view communications at layer 1, but you can view them at layer 2 and layer 3 by using 
+packet-sniffing software.

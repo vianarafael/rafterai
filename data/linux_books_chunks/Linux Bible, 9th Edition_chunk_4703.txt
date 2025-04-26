@@ -1,0 +1,17 @@
+It is possible that a service could be listening on a particular port, but 
+the ﬁ rewall is blocking access to that port, effectively preventing any access to the 
+ service through the particular network interface.
+
+ ■ unfiltered—The nmap scan sees the port but cannot determine if the port is 
+
+open or closed.
+
+ ■ open|filtered—The nmap scan sees the port but cannot determine if the port is 
+
+open or filtered.
+
+ ■ closed|filtered—The nmap scan sees the port but cannot determine if the port 
+
+is closed or filtered.
+
+To help you better understand how to use the nmap utility, review the following example.

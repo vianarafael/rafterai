@@ -1,0 +1,9 @@
+One of these name servers
+(in this cas ns1.openminds.be) will answer the query with the ip address of linux-training.be.
+When our caching only server reports this to the client, then the client can connect to this
+website.
+
+Sniffing with tcpdump will give you this (the first 20 characters of each line are cut).
+
+192.168.1.103.41251 > M.ROOT-SERVERS.NET.domain: 37279% [1au] A? linux-tr\
+aining.be.

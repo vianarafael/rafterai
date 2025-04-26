@@ -1,0 +1,7 @@
+To set SELinux Booleans that are necessary to make it so phil can access his home 
+
+directory via a Samba client, type the following as root from a shell:
+
+# setsebool -P samba_enable_home_dirs on
+
+7.

@@ -1,0 +1,7 @@
+For CentOS the module is loaded via /etc/httpd/conf.
+modules.d/00-ssl.conf and should be present after installing the package.
+
+What we are going to do now is use the certbot command to create and install our certificates. Certbot 
+
+will handle the certificate creation and installation, and it will make a copy of our virtual host and redirect 
+http:// traffic to https://.

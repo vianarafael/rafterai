@@ -1,0 +1,9 @@
+apt-cache search
+
+Use apt-cache search to search for availability of a package. Here we look for rsync.
+
+root@ubu1204~# apt-cache search rsync | grep ^rsync
+rsync - fast, versatile, remote (and local) file-copying tool
+rsyncrypto - rsync friendly encryption
+
+20.3.5.

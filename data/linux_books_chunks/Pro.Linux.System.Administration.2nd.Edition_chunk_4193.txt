@@ -1,0 +1,13 @@
+Again, that password was generated during installation.
+
+The messages resource allows the Storage daemon to send informational messages via the Bareos 
+
+Director daemon.
+
+683
+
+Chapter 14 ■ BaCkup and reCovery
+
+In the Device section, the Name matches the Device in the Storage section of the Director configuration 
+
+file.

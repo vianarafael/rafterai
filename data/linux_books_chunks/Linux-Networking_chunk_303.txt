@@ -1,0 +1,19 @@
+Although the application will run on the remote
+computer from greet, it will be displayed on the screen attached locally to paul's computer.
+
+53
+
+ssh client and server
+
+paul@debian5:~/PDF$ ssh -X greet@greet.dyndns.org -p 55555
+Warning: Permanently added the RSA host key for IP address \
+'81.240.174.161' to the list of known hosts.
+Password: 
+Linux raika 2.6.8-2-686 #1 Tue Aug 16 13:22:48 UTC 2005 i686 GNU/Linux
+
+Last login: Thu Jan 18 12:35:56 2007
+greet@raika:~$ ps fax | grep thun
+greet@raika:~$ mozilla-thunderbird &
+[1] 30336
+
+5.7.

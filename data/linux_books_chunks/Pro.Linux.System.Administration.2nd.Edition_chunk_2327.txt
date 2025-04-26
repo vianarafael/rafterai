@@ -1,0 +1,3 @@
+One of 
+the spares will automatically be used for this. Part of this process is destructive, so if a power failure occurs 
+while you’re expanding the array, you might lose data. To prevent this, specify the --backup-file option.

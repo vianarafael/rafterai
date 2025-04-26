@@ -1,0 +1,6 @@
+If a TCP/IP network connection exists between the computers 
+sharing the printer, you simply grant permission to all hosts, individual hosts, or users 
+from remote hosts to access your computer’s printing service.
+
+To manually conﬁ gure a printer entry in the /etc/cups/printers.conf ﬁ le to accept 
+print jobs from all other computers, make sure the Shared Yes line is set.

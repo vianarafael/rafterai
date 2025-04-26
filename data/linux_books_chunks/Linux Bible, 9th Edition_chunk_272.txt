@@ -1,0 +1,4 @@
+It became easy to ﬁ nd what was installed, update it, or 
+remove it.
+
+ ■ Simple installation—The anaconda installer made it much simpler to install Linux.

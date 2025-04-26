@@ -1,0 +1,8 @@
+Try a simple rpm or 
+yum command to make sure the databases are now in order.
+
+Just as RPM has databases of locally installed packages, the Yum facility stores  information 
+associated with Yum repositories in the local /var/cache/yum directory. Cached data 
+includes metadata, headers, packages, and yum plug-in data.
+
+If there is ever a problem with the data cached by yum, you can clean it out.

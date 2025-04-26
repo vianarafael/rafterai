@@ -1,0 +1,211 @@
+See also speciﬁ c editors
+
+conﬁ guration ﬁ les structure, 184
+exercises, 134–135, 787–789
+vi, 117–124
+
+adding text, 119–120
+changing text, 121–122
+copying text, 121–122
+deleting text, 121–122
+ex mode, 124
+exiting, 122–123
+movement commands, 123
+moving around in text, 120–121
+pasting text, 122
+searching for text, 124
+tutorial, 124
+
+text ﬁ les
+
+editing, 117–124
+ﬁ nding, 125–134
+The Open Group, 14
+Thompson, Ken, 8
+time.conf ﬁ le, 659–660
+
+bindex.indd  04/02/2015  Page 857
+
+Index
+
+UEFI (Uniﬁ ed Extensible Firmware Interface), 554–557
+ufs ﬁ lesystem, 303
+umask command, 112–113
+umount command, 309, 549
+umsdos ﬁ lesystem, 302
+unalias command, 87
+uname command, 72, 155–156
+Undeﬁ ned runlevel, 563
+Uniﬁ ed Extensible Firmware Interface (UEFI), 554–557
+United States Computer Emergency Readiness Team, 623
+Univel, 10
+UNIX
+
+commercialized, 9–11
+foundational elements, 8–9
+GNU project, 11, 12, 14
+portability, 8–9
+UNIX Laboratory, 10–11
+UNIX System Laboratories (USL), 10–11
+UnixWare, 10, 11
+unmounting ﬁ lesystems, 309, 549
+until...do loop, 164
+untyped variables, 158
+up2date ﬁ le, 242
+update-rc.d ssh defaults command, 325
+updatedb command, 125–126, 149
+updating
+
+Linux, 213–214
+packages, 249–251
+software packages, 607
+
+Upstart, 554
+
+adding new services, 417–419
+backward compatibility to SysVinit, 388–392
+checking services for, 401–402
+conﬁ guring default runlevel, 413
+conﬁ guring persistent services, 409–410
+starting/stopping services, 405
+
+Upstart init daemon, 378, 379, 380, 386–392
+upstream software providers, 239
+USB drive, booting from, 779–780
+use_nfs_home_dirs SELinux ﬁ le context, 539–540
+user accounts
+
+centralized, 278–281
+creating, 259–268
+
+adding users, 262–265
+deleting users, 268
+modifying users, 266–267
+setting user defaults, 265–266
+deﬁ nition in /etc/password, 69
+exercises, 281–282, 798–802
+/home directory, 224
+locking with PAM, 665–667
+managing in the enterprise, 270–278
+monitoring, 612–615
+Nautilus, 45
+
+857
+
+TLS (Transport Layer Security), 280, 452, 465–471
+TMOUT environment variable, 87, 91
+/tmp directory, 99, 224
+togglebool command, 688
+TomCat, 450
+top command, 140–141, 583–584
+Torvalds, Linus, 6–7, 10, 13–14, 26
+touch command, 102, 105
+tr command, 165–166
+traceroute command, 354–355
+Transport Layer Security (TLS), 280, 452, 465–471
+tripwire, 620
+troubleshooting
+
+boot up, 551–568
+exercises, 587–588, 826–829
+memory, 580–585
+networking, 573–580
+in rescue mode, 585–587
+SELinux, 689–694
+software packages, 568–573
+web servers, 471–475
+
+TrueCrypt, 640
+ttytab ﬁ le, 381
+tune2fs command, 275
+type attribute, SELinux security context, 
+
+675–677
+type command, 75
+Type Enforcement, SELinux, 671–672
+
+U
+
+u special character, 90
+Ubuntu
+
+Apache conﬁ guration ﬁ le, 457
+autofs, installing, 545
+booting from USB drive, 779–780
+chkrootkit installation, 619
+ClamAV packages, 618
+cloud images, 756–757
+GRUB boot loader, 224–231
+installing from installation DVD, 201
+John the Ripper installation, 614
+Live ISO image, 775–776
+lvs command, installing, 641
+netfilter/iptables ﬁ rewall, 716, 724
+nmap installation, 701
+openssh-server installation, 324
+PAM modules, ﬁ nding, 652
+SELinux installation, 670
+SELinux policy packages, checking, 682
+sudo privilege, 174
+upgrade options, 213–214
+verifying packages, 616
+vsftpd installation, 479
+
+bindex.indd  04/02/2015  Page 858
+
+Index
+
+user accounts (continued)
+
+vi text editor, 117–124
+
+process association, 137, 142
+root, 177–182
+Samba, 512–513
+securing, 593–596
+system administrators and, 174
+
+user attribute, SELinux security context, 674–677
+User Commands man page section, 93
+User Deﬁ ned runlevel, 382
+USER environment variable, 85
+user-deﬁ ned state (rc4.d), 185
+useradd command, 260, 262–266
+userdel command, 268
+usermod command, 266–267
+Users & Groups, graphical admin tool, 176
+Users window, 259, 261, 262, 279
+USL (UNIX System Laboratories), 10–11
+/usr directory, 99, 223
+/usr/bin directory, 74, 183
+/usr/local/bin directory, 74
+/usr/sbin directory, 182
+UUCP Log, 610
+
+V
+
+Vagrant, 344, 732
+/var directory, 99, 224
+/var/allusers directory, 107, 132
+/var/autofs directory, 546
+/var/cache/yum directory, 243, 252, 572, 573
+/var/ftp directory, 478, 481, 482, 487, 490
+/var/lib/libvirt/images directory, 737, 738, 741
+/var/lib/rpm directory, 244, 252, 572
+/var/lib/samba/private/passdb.tdb ﬁ le, 521
+/var/log directory, 322, 334, 336, 608–611
+/var/log/audit/audit.log ﬁ le, 689–690
+/var/log/httpd directory, 475
+/var/log/httpd/error.log ﬁ le, 472
+/var/log/messages ﬁ le, 337
+/var/log/samba directory, 502, 510
+/var/log/secure ﬁ le, 594
+/var/logs/dmesg ﬁ le, 192–193
+/var/named directory, 373
+/var/salesdocs directory, 268
+/var/stuff directory, 275–276
+/var/www/error directory, 451–452
+/var/www/html directory, 455
+/var/www/manual directory, 452
+verifying RPM packages, 255–256
+Very Secure FTP Daemon.

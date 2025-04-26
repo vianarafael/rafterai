@@ -1,0 +1,13 @@
+You can also give a range of line 
+
+81
+
+c03.indd  04/01/2015  Page 82
+
+Part II: Becoming a Linux Power User 
+
+numbers (for example, fc 100 105). All the commands open in your text editor, and then 
+run one after the other when you exit the editor.
+
+After you close your shell, the history list is stored in the .bash_history ﬁ le in your 
+home directory.

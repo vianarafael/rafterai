@@ -1,0 +1,7 @@
+When updated software shows 
+no problems, you can then update the software on your production Linux systems.
+
+Keeping up with security advisories
+As security ﬂ aws are found in Linux software, the Common Vulnerabilities and Exposures 
+(CVE) project tracks them and helps to quickly get ﬁ xes for those ﬂ aws worked on by the 
+Linux community.

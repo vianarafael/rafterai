@@ -1,0 +1,17 @@
+Postfix TLS Configuration
+
+smtp_tls_security_level = may
+smtp_tls_CAfile = /etc/letsencrypt/live/mail.example.com/chain.pem
+smtp_tls_cert_file = /etc/letsencrypt/live/mail.example.com/cert.pem
+smtp_tls_key_file = /etc/letsencrypt/live/mail.example.com/privkey.pem
+
+smtpd_tls_security_level = may
+smtpd_tls_CAfile = /etc/letsencrypt/live/mail.example.com/chain.pem
+smtpd_tls_cert_file = /etc/letsencrypt/live/mail.example.com/cert.pem
+smtpd_tls_key_file = /etc/letsencrypt/live/mail.example.com/privkey.pem
+smtpd_tls_loglevel = 1
+smtpd_tls_mandatory_exclude_ciphers = aNULL, MD5
+smtpd_tls_mandatory_protocols = TLSv1
+
+If you look at the options in Listing 12-7, you can see they look similar except for a difference in the 
+initial prefix.

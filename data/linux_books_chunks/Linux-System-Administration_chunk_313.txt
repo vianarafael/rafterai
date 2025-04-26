@@ -1,0 +1,31 @@
+This
+course mainly uses fdisk to partition hard disks.
+
+parted is recommended by some Linux distributions for handling storage with gpt instead
+of mbr.
+
+Below a screenshot of parted on CentOS.
+
+[root@centos65 ~]# rpm -q parted
+parted-2.1-21.el6.x86_64
+[root@centos65 ~]# parted /dev/sda
+GNU Parted 2.1
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted) print
+Model: ATA VBOX HARDDISK (scsi)
+Disk /dev/sda: 42.9GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+
+Number  Start   End     Size    Type     File system  Flags
+ 1      1049kB  525MB   524MB   primary  ext4         boot
+ 2      525MB   42.9GB  42.4GB  primary               lvm
+
+(parted)
+
+48
+
+disk partitions
+
+5.3.

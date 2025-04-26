@@ -1,0 +1,23 @@
+We are shortly going to edit this file copy, add some 
+restrictions to it, and send it to the authorized_keys file on remote hosts.
+
+$ cp exbackup.pub remote_authorized_keys
+
+If we want to simply copy our public keys to any remote host, we can use ssh-copy-id, which will create 
+
+the authorized_keys file on the remote server for the user, like so:
+
+$ ssh-copy-id -i .ssh/exbackup jsmith@headoffice.example.com
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: ".ssh/exbackup.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that 
+are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is 
+to install the new keys
+jsmith@headoffice.example.com's password:
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'jsmith@headoffice.example.com'"
+and check to make sure that only the key(s) you wanted were added.
+
+But we are going to do a few more tasks than simply copying the authorized_keys file.

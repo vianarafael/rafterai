@@ -1,0 +1,11 @@
+We will use some of these to set up a static network interface for enp0s3 in the /etc/network/
+interfaces file as follows:
+
+auto enp0s3
+iface enp0s3 inet static
+address 192.168.0.10
+netmask 255.255.255.0
+gateway 192.168.0.254
+dns-nameservers 192.168.0.1
+
+Here we have set up our enp0s3 interface.

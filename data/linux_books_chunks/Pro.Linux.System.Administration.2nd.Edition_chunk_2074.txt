@@ -1,0 +1,4 @@
+Next, where normally the file size would be displayed, are two numbers separated by a 
+comma. These are the device major number and minor number. The major number tells the kernel which 
+device driver to use to access the device, and the minor number gives the kernel specific information about 
+the device, in this case the partition number.

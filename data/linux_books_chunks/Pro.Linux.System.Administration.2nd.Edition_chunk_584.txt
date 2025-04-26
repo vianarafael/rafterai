@@ -1,0 +1,4 @@
+This would remove the x, or execute, 
+permission from the User class and add the w, or write, permission to both the Group and Other classes. You 
+can see we’ve separated each permission change with a comma and that we can list multiple classes to act 
+upon.

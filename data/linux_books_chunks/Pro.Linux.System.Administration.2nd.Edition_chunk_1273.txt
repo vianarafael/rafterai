@@ -1,0 +1,15 @@
+that is represented in binary format as follows:
+
+11000000.10101000.00001010
+128+64.128+32+8.8+2
+
+that leaves then a possible 254 possible addresses to be made out of the last octet (0 and 255 cannot 
+be used, one being the all-zero address (or base network address) and the other being the all-ones 
+address (or broadcast address)–these have special meaning and are reserved).
+
+So an iPv4 address of 192.168.10.129/24 would be represented as follows:
+
+11000000.10101000.00001010.10000001
+128+64.128+32+8.8+2.128+1
+
+with iPv6 things are slightly different, but the underlying principle is the same.

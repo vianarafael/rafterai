@@ -1,0 +1,4 @@
+You may remember 
+we saw “Install MAAS rack or region servers” in the initial splash screen when we first created our Ubuntu 
+installation. This is an Ubuntu service used for managing bare metal, or physical computers, like you 
+manage virtual computers.

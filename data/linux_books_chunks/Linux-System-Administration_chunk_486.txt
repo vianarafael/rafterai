@@ -1,0 +1,58 @@
+We
+used fdisk to create it, and to verify the size.
+
+[root@RHEL5 ~]# fdisk -l 2>/dev/null | grep sde1
+/dev/sde1               1         100      102384   83  Linux
+[root@RHEL5 ~]#
+
+Now  we  can  use  pvcreate  to  create  the  Physical  Volume,  followed  by  pvs  to  verify  the
+creation.
+
+[root@RHEL5 ~]# pvcreate /dev/sde1
+  Physical volume "/dev/sde1" successfully created
+[root@RHEL5 ~]# pvs | grep sde1
+  /dev/sde1             lvm2 --    99.98M  99.98M
+[root@RHEL5 ~]#
+
+The next step is to use fdisk to enlarge the partition (actually deleting it and then recreating /
+dev/sde1 with more cylinders).
+
+[root@RHEL5 ~]# fdisk /dev/sde
+
+Command (m for help): p
+
+Disk /dev/sde: 858 MB, 858993152 bytes
+64 heads, 32 sectors/track, 819 cylinders
+Units = cylinders of 2048 * 512 = 1048576 bytes
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sde1               1         100      102384   83  Linux
+
+Command (m for help): d
+Selected partition 1
+
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 
+Value out of range.
+Partition number (1-4): 1
+First cylinder (1-819, default 1): 
+Using default value 1
+Last cylinder or +size or +sizeM or +sizeK (1-819, default 819): 200
+
+Command (m for help): w
+The partition table has been altered!
+
+Calling ioctl() to re-read partition table.
+Syncing disks.
+[root@RHEL5 ~]#
+
+107
+
+logical volume management
+
+When we now use fdisk and pvs to verify the size of the partition and the Physical Volume,
+then there is a size difference.

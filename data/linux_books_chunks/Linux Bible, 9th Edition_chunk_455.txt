@@ -1,0 +1,5 @@
+For example, you can copy, cut, move to trash (delete), or open any 
+ﬁ le or folder icon.
+
+ ■ Creating folders—To create a new folder, right-click in a folder window and select 
+New Folder.

@@ -1,0 +1,14 @@
+Example:
+
+# iptables -A OUTPUT -d 10.140.67.25 -j REJECT
+
+ ■ -I rule# chain
+
+Inserts an appended rule into a speciﬁ c location, designated by the rule#, in the 
+appended rule list for the chain designated. Example:
+
+# iptables -I 5 INPUT -s 10.140.67.23 -j DROP
+
+ ■ -D chain rule#
+
+Deletes a particular rule, designated by the rule#, from the chain designated.

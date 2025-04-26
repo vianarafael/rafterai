@@ -1,0 +1,21 @@
+This protects the root 
+ partition, should the disk it resides on be stolen.
+
+640
+
+c23.indd  04/01/2015  Page 641
+
+Chapter 23: Understanding Advanced Linux Security 
+
+FIGURE 23.4
+
+Linux Fedora encryption symmetric key password
+
+FIGURE 23.5
+
+ Asking for the encryption symmetric key password at boot
+
+23
+
+If you inherit a system with an encrypted disk, using root privileges, you can use the lvs 
+and cryptsetup commands and the /etc/crypttab ﬁ le to help.

@@ -1,0 +1,8 @@
+Let’s look at a few rsyslog lines now:
+
+Nov 30 00:54:25 backup systemd: Stopping System Logging Service...
+Nov 30 00:54:25 backup systemd: Starting System Logging Service...
+Nov 30 00:54:28 backup systemd: Started System Logging Service.
+
+An rsyslog entry is constructed of a date, the name of the host that logged the entry (usually the service 
+that emitted it), and the log data itself.

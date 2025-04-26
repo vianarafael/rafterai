@@ -1,0 +1,14 @@
+(See -f for more information.)
+
+Gives you a dry run of what would happen without changing anything.
+
+When used with the remove option, forces the removal of the symlinks from the /etc/
+rcn.d directories, even if /etc/init.d/script-name is still present.
+
+The update-rc.d command will simply link init.d scripts into the /etc/rcN.d directories (where N is 
+
+the runlevel), usually with the defaults of runlevels 2, 3, 4, 5 and a start priority of S20, and runlevels 0, 1, 6 
+and a stop priority of K80.
+
+From the command line, you can then issue update-rc.d to manipulate the services that run at 
+particular runlevels.

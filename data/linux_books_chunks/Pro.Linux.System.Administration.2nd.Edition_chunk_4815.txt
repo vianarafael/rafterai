@@ -1,0 +1,6 @@
+If the load is 60, a problem exists.
+
+This problem can be that the host is running a few processes that monopolize the CPU, not allowing 
+other processes enough cycles. We’ll show you how to find these processes with the top utility a bit later. 
+Alternatively, your host might be trying to run far more processes than it can cope with, again not leaving 
+enough CPU cycles for any of them.

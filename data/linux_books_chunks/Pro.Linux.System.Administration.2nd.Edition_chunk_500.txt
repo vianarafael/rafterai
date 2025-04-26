@@ -1,0 +1,6 @@
+For example, all the users 
+who need to access the Accounts Payable system might be added to a group called accounts.
+
+ ■ Tip 
+ Your user and group information is primarily contained in two files: /etc/passwd holds your user 
+information, and /etc/group holds your group information.

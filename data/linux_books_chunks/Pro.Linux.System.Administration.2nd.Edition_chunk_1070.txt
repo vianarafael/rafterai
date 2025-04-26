@@ -1,0 +1,6 @@
+You should also have a backup of all passwords and tell someone you 
+trust in your company where to find those passwords in case of an emergency.
+
+Luckily GRUB2 provides the ability to set a password to the boot loader so that any changes to the 
+
+preconfigured boot process require the user to enter a password.

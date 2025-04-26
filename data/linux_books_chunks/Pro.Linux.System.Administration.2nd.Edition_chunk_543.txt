@@ -1,0 +1,10 @@
+These log files contain a wide variety of information about the status of your 
+applications, daemons, and services.
+
+Let’s take a closer look at files and directories and how to work with them. Start by changing to the root, 
+
+or /, directory:
+
+$ cd /
+
+Now you’re at the root directory, and you want to see what is contained in that directory.

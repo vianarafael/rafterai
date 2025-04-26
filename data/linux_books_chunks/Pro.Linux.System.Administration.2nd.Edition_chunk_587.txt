@@ -1,0 +1,31 @@
+Octal Permission Values
+
+Permission
+
+Value
+
+Description
+
+4
+
+2
+
+1
+
+Read
+
+Write
+
+Execute
+
+r
+
+W
+
+x
+
+126
+
+ChapTeR 4 ■ LInux BasICs
+
+Each permission value is added together, resulting in a number ranging from 1 and 7 for each class.

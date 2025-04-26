@@ -1,0 +1,16 @@
+For example, to add a directory called /getstuff/bin, add 
+the following:
+
+3
+
+PATH=$PATH:/getstuff/bin ; export PATH
+
+This example ﬁ rst reads all the current path directories into the new PATH ($PATH), 
+adds the /getstuff/bin directory, and then exports the new PATH.
+
+Some people add the current directory to their PATH by adding a directory identifi ed simply as a dot (.) as follows:
+
+PATH=.:$PATH ; export PATH
+
+This enables you to run commands in your current directory before evaluating any other command in the path (which 
+people may be used to if they have used DOS).

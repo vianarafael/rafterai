@@ -1,0 +1,4 @@
+To help minimize the impact of web browsing on other network users, you can install a cache 
+or proxy server.
+
+One of the commonly used web cache servers on Linux is Squid-Cache.

@@ -1,0 +1,7 @@
+The 
+next command moves the mymemos directory (and all its contents) to the /home/joe/
+Documents directory.
+
+By default, the mv command overwrites any existing ﬁ les if the ﬁ le you are moving to 
+exists. However, many Linux systems alias the mv command so that it uses the -i option 
+(which causes mv to prompt you before overwriting existing ﬁ les).

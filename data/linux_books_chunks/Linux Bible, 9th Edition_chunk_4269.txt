@@ -1,0 +1,18 @@
+The web page contains a Message 
+
+628
+
+c23.indd  04/01/2015  Page 629
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Digest 5 (MD5) number you can use to ensure that the ISO image you download was not 
+ corrupted during the download.
+
+FIGURE 23.1
+
+The Linux Mint ISO download web page provides an MD5 number.
+
+23
+
+A hash is made of a software ﬁ le at its original location, using the MD5 hash algorithm.

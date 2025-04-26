@@ -1,0 +1,4 @@
+If we follow what happens to the rule on line 14 (–A INPUT –j INPUT_ZONES) we jump to the 
+INPUT_ZONES chain. That chain looks like this: 
+
+Listing 7-9.

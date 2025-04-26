@@ -1,0 +1,11 @@
+We could make this change by editing the main.cf file directly and changing the option as 
+shown here:
+
+mydestination = mail.example.com, localhost.localdomain, localhost, example.com
+
+We could also change it using the postconf command.
+
+$ sudo postconf -e "mydestination = mail.example.com, localhost.localdomain, 
+localhost, example.com"
+
+On the previous line, we’ve added two items: our mail server and our local domain.

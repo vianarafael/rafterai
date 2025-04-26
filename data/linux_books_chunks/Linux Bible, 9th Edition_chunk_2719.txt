@@ -1,0 +1,18 @@
+/etc/sysconfig/init
+   for tty in $(echo $ACTIVE_CONSOLES) ; do
+     [ "$RUNLEVEL" = "5" -a "$tty" = "$X_TTY" ] && continue
+     initctl start tty TTY=$tty
+   done
+end script
+
+15
+
+391
+
+c15.indd  04/01/2015  Page 392
+
+Part IV: Becoming a Linux Server Administrator
+
+Although the Upstart init daemon provides backward compatibility to the classic SysVinit 
+daemon, is a state-machine, and can handle ever-changing events on a server, it is not the 
+only modern init daemon available for the Linux server.

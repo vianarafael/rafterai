@@ -1,0 +1,81 @@
+See also printers; printing
+
+adding printers, 425–426
+command-line printing, 439–441
+conﬁ guring CUPS server, 436–437
+conﬁ guring print servers, 441–443
+features, 423–425
+manual conﬁ guration, 438–439
+Print Settings window, 428–435
+starting CUPS server, 437–438
+web-based administration, 426–428
+
+cups package, 317
+cupsd.conf ﬁ le, 436–437
+custom routes, 370–371
+cut command, 165
+CVE (Common Vulnerabilities and Exposures), 607
+
+D
+
+d special character, 90
+DAC (Discretionary Access Controls), 669–670
+daemon processes, 4–5
+
+cgroups and, 149–150
+checking conﬁ g ﬁ les, 183
+/etc/httpd directory, 184
+/etc/xinetd.d directory, 185–186
+port numbers and, 320
+rsyslog.conf ﬁ le, 187
+running under separate administrative logins, 190
+/sbin directory, 99
+Udev and, 194
+/usr/sbin dirctory, 182
+xinetd.conf ﬁ le, 188
+
+Damn Small Linux, 202
+dash, 65, 69
+Data Encryption Standard (DES), 466, 631
+Date & Time, graphical admin tool, 176
+date --help command, 73
+date command, 70, 72–73
+DEB packaging, 236–238
+
+842
+
+decryption, 628
+
+cryptographic cipher keys, 631–637
+cryptographic ciphers, 630–631
+digital signatures, 637–639
+dependency failures, 569–571
+DES (Data Encryption Standard), 466, 631
+/dev directory, 98
+Devices and Special Files man page section, 93
+df command, 341–342
+DHCP servers, 207, 210, 348, 349, 355, 363–364, 372, 576
+Digital Signature Algorithm (DSA), 638
+digital signatures, 637–639
+directives, Apache web server, 457–460
+directories
+
+absolute path, 100
+adding current to PATH, 91
+assigning partitions, 223–224
+changing, 100–102
+changing permissions, 101–102, 104, 111–112, 168, 273, 276
+creating, 100, 101, 109, 162
+encrypting, 642–645
+GID directories, 276–278
+listing, 105–108
+
+DirectoryIndex directive, 459
+“Directory index forbidden by rule” error, 475
+Disabled mode, SELinux, 673–674, 680–682
+disaster recovery, 592–593
+Discretionary Access Controls (DAC), 669–670
+disk storage, 283–284
+Disk Usage Analyzer, 176
+Disk Utility, 177
+distributions, 16–20.

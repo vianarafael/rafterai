@@ -1,0 +1,12 @@
+We will also define the 
+SSH key we will use in our connection.
+
+$ cat .ssh/config
+Host *.example.com
+  User exbackup
+  Identityfile ~/.ssh/exbackup
+
+648
+
+The preceding code adds the username exbackup with the identity file in ~/.ssh/exbackup to every 
+ssh connection made to a host in the example.com domain space.

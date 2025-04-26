@@ -1,0 +1,6 @@
+Samba will create all the necessary DNS 
+records required during the setup process. SAMBA_INTERNAL is also suitable if you want to let Samba own and 
+manage your DNS setup. BIND9_FLATFILE is not a recommended option, and you should choose NONE if you 
+want to completely manage your own DNS.
+
+You will be asked to provide the administrator password.

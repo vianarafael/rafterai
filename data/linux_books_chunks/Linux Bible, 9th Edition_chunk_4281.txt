@@ -1,0 +1,2 @@
+For example, DES is no longer considered secure because of its small 56-bit key 
+size.

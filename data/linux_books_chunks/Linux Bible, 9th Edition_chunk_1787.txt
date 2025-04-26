@@ -1,0 +1,24 @@
+For example, to erase the 
+emacs package, you could type the following:
+
+# yum erase emacs
+Dependencies Resolved===========================================
+ Package      Arch        Version               Repository  Size
+================================================================
+Removing:
+ emacs        x86_64      1:24.4-3.fc21        @updates    14 M
+
+Transaction Summary
+================================================================
+Remove  1 Package
+
+Installed size: 14 MIs this ok [y/N]: y
+
+248
+
+c10.indd  04/01/2015  Page 249
+
+Chapter 10: Getting and Managing Software
+
+Notice that even though six packages were installed when emacs was installed, only 
+the emacs package itself was removed with the erase subcommand.

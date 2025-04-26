@@ -1,0 +1,20 @@
+Some people rely on this 
+
+feature and that is why they might choose Cron instead.
+
+For more information on timers see
+
+•	
+
+•	
+
+•	
+
+https://wiki.archlinux.org/index.php/Systemd/Timers
+
+www.freedesktop.org/software/systemd/man/systemd.time.html
+
+www.freedesktop.org/software/systemd/man/systemd.timer.html
+
+Introducing Cron
+There is a last type of service management we need to show you: scheduling.

@@ -1,0 +1,81 @@
+See BSD
+Berkeley Software Distribution License, 15–16
+bin administrative login, 190
+/bin directory, 98
+
+administrative commands, 183
+user commands, 74–75
+
+bind package, 317
+BIOS, 225–226, 554–557, 779
+blkid command, 306
+block ciphers, 628, 630, 631
+block devices, 110
+Blowﬁ sh, 630, 645
+Bluetooth, 42
+Booleans, SELinux management via, 688–689
+/boot directory, 98, 223
+/boot/grub/grub.conf ﬁ le, 226–229
+/boot/grub2/grub.cfg ﬁ le, 230–231
+Boot Log, 609
+boot.log ﬁ le, 189, 609
+booting
+
+boot options, 216–219
+dual booting, 216–219
+GRUB boot loader, 224–231
+troubleshooting, 551–568
+from USB drive, 799–780
+brace expansion characters, 105
+Brasero, 195
+browser-based graphical management tools, 177
+BSD (Berkeley Software Distribution)
+
+AT&T lawsuit, 13
+origin of, 9–10
+
+bindex.indd  04/02/2015  Page 841
+
+Index
+
+OpenStack, 5, 18, 177, 211, 731, 732, 750, 752, 760–765
+OpenStack deployment, 760–765
+platforms, 732
+providing networked storage, 738–740
+RHELOSP (Red Hat Enterprise Linux OpenStack 
+
+Platform), 177
+
+setting up, 734–747
+storage, 731
+
+cloud-init facility, 751–753, 757–760
+cloud.cfg ﬁ le, 754
+Cloudforms, 187, 751
+clustering, 5
+cnegus-test-project, 761
+commands
+
+administrative, 182–183
+aliases, 75, 87
+arguments, 71–74
+arithmetic results, passing, 84–85
+background commands, 83–84
+built-in, 75
+command-line completion, 79–80
+command-line editing, 77–79
+ﬁ nding, 74–76
+getting information about, 92–94
+history list, 75, 76–77, 80–82
+man pages, 70, 93–94
+options, 71–74
+piping between, 82–83
+printing-related, 439–441
+recalling, 76–82
+running, 70–76
+sequential commands, 83
+shell prompt, 67
+substitution, 84
+syntax, 71–73
+system administration, 182–183
+Common UNIX Printing System.

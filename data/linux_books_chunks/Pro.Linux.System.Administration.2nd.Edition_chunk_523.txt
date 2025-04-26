@@ -1,0 +1,2 @@
+There are several types of files, but we are going to start with files and directories. In Linux 
+directories are just files containing the names of other files.

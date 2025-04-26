@@ -1,0 +1,5 @@
+resource monitoring
+
+Monitoring is the process of obtaining information about the utilization of memory, cpu,
+bandwidth and storage. You should start monitoring your system as soon as possible, to be
+able to create a baseline.

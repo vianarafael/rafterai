@@ -1,0 +1,10 @@
+If the medium has a volume name, that name is typically used as 
+the mount point. For example, a USB drive with a volume name of myusb would be 
+mounted on /media/myusb.
+
+ ■ /lib—Contains shared libraries needed by applications in /bin and /sbin to 
+
+boot the system.
+
+ ■ /mnt—A common mount point for many devices before it was supplanted by the stan-
+dard /media directory.

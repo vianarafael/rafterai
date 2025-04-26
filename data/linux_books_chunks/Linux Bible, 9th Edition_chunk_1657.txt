@@ -1,0 +1,4 @@
+Instead of mounting the partition and passing options 
+to the new operating system, the chainloader +1 line tells GRUB to pass the booting of 
+the operating system to another boot loader. The +1 indicates that the ﬁ rst sector of the 
+partition is used as the boot loader.

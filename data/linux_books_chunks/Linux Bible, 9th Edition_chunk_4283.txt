@@ -1,0 +1,6 @@
+The advantage of symmetric key cryptography is speed. The disadvantage is the need to 
+share the single key if the encrypted data is to be decrypted by another person.
+
+An example of symmetric key cryptography on a Linux system is accomplished using 
+the OpenPGP utility, GNU Privacy Guard, gpg2. The gnupg2 package is installed by 
+default in Fedora and RHEL.

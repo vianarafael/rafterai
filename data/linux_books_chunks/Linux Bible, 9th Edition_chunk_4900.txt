@@ -1,0 +1,6 @@
+The libvirt-daemon-conﬁ g-network package creates the default network interface that 
+lets the virtual machines access external networks (through the host) using Network 
+Address Translation (NAT). The default address range assigned to the virtual machines is 
+192.168.122.2 through 192.168.122.254.
+
+Other packages you need should already be included with the Fedora Workstation install.

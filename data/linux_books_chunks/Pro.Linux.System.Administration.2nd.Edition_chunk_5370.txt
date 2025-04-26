@@ -1,0 +1,3 @@
+this soft fail mode means that if a host or service has 
+temporarily failed and then recovers, you don’t get a notification, thereby reducing the number of potential false 
+positive alerts from your monitoring system.

@@ -1,0 +1,5 @@
+After systemd has started everything, you can log into the 
+ system to investigate and troubleshoot any potential problems.
+
+After you log in, running the systemctl command lets you see every unit ﬁ le that 
+ systemd tried to start up.

@@ -1,0 +1,7 @@
+The teamd daemon manages the API 
+
+(application programming interface) between the network interfaces and the kernel. The runners are 
+another word for modules that provide the code that implements the particular features, like active/passive 
+and VLANs.
+
+We are going add two devices to create a team interface with an active/passive runner.

@@ -1,0 +1,7 @@
+This means all 
+members of the defined group are able to execute whatever commands you authorize for them, in this case 
+ALL commands on ALL hosts.
+
+On CentOS hosts, a group called wheel already exists for this purpose, and if you uncomment the 
+following line in the /etc/sudoers file on your CentOS host, then any users added to the wheel group will 
+be able to use the sudo command to gain root privileges on your host.

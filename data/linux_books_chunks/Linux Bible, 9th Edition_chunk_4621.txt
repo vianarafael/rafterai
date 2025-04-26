@@ -1,0 +1,6 @@
+These same SELinux log ﬁ les are 
+also useful in troubleshooting SELinux problems.
+
+Understanding SELinux logging
+SELinux uses a cache called the Access Vector Cache (AVC) when reviewing policy rules for 
+particular security contexts.

@@ -1,0 +1,7 @@
+This file will contain the location of a
+log file and a cache directory for yum and can also contain a list of repositories.
+
+Recently  yum  started  accepting  several  repo  files  with  each  file  containing  a  list  of
+repositories. These repo files are located in the /etc/yum.repos.d/ directory.
+
+One important flag for yum is enablerepo.

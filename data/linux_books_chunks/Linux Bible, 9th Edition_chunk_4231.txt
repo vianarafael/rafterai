@@ -1,0 +1,36 @@
+See the 
+tripwire website listed in Table 22.8 for more details.
+
+TABLE 22.7    Popular Linux Intrusion Detection Systems
+
+IDS Name
+
+Installation
+
+Website
+
+aide
+
+Snort
+
+yum install aide
+
+http://aide.sourceforge.net
+
+apt-get install aide
+
+rpm or tarball packages from 
+website
+
+http://snort.org
+
+tripwire
+
+yum install tripwire
+
+http://tripwire.org
+
+apt-get install tripwire
+
+The Advanced Intrusion Detection Environment (aide) IDS uses a method of comparison 
+to detect intrusions.

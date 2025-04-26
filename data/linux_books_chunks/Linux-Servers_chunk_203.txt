@@ -1,0 +1,14 @@
+waiting Warning: DocumentRoot [/var/www/choochoo] does not exist
+Warning: DocumentRoot [/var/www/choochoo] does not exist
+.
+
+As you can see, apache will tell you exactly what is wrong.
+
+You can also troubleshoot by connecting to the website via a browser and then checking the
+apache log files in /var/log/apache.
+
+26
+
+apache web server
+
+1.9.

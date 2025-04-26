@@ -1,0 +1,7 @@
+For nginx, there doesn’t appear to be an INSTALL file, but there is an README 
+file. By reading this file, we should be able to find the instructions for installing the application.
+
+$ less README
+
+We learn from this particular file that the installation documentation is online and not included in 
+the tarball.

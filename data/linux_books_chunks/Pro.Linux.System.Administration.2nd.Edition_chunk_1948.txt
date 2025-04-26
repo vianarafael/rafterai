@@ -1,0 +1,3 @@
+After unpacking 28.1 MB will be freed.
+Do you want to continue? [Y/n/?] y
+(Reading database ...

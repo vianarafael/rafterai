@@ -1,0 +1,3 @@
+One is to use the run command and press Enter. You are then 
+
+presented with an easy-to-understand menu-driven way to submit your backup.

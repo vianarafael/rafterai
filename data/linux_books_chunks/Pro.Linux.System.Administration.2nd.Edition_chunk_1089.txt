@@ -1,0 +1,24 @@
+This means it can respond to system events (such as new hardware 
+being plugged in, traffic starting on a network port)
+
+•	 Concurrent and parallel boot processing
+
+It can respawn processes
+
+Event logging
+
+Tracks processes via the kernel’s CGroups
+
+•	
+
+•	
+
+•	
+
+194
+
+Chapter 6 ■ Startup and ServiCeS
+
+For those already familiar with SysV, Systemd doesn’t have runlevels like SysV but instead has “targets.” 
+
+Targets are used to group service dependencies together.

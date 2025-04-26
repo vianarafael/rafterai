@@ -1,0 +1,6 @@
+DHCP-SRV1 is a dedicated dhcp server
+and is faster in sending a dhcp offer than DHCP-SRV2 (who happens to also be a file server).
+
+3. The client chooses the offer from DHCP-SRV1 and sends a dhcp request on the network.
+
+4.

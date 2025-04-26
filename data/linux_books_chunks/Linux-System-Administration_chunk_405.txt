@@ -1,0 +1,13 @@
+Tools that will enable
+you to troubleshoot a variety of issues with file systems and storage.
+
+77
+
+troubleshooting tools
+
+8.1. lsof
+
+List open files with lsof.
+
+When invoked without options, lsof will list all open files. You can see the command (init in
+this case), its PID (1) and the user (root) has openend the root directory and /sbin/init.

@@ -1,0 +1,8 @@
+We talk more about networking in Chapter 7.
+
+For a good info graphic on the differences between Ipv4 and Ipv6 see here: www.networkworld.com/
+article/2692482/ipv6/infographic-ipv4-vs-ipv6.html.
+
+You can also refer to this entry here: http://en.wikipedia.org/wiki/IPv6.
+
+With our network configured we can proceed to some of the other settings, like Date & Time.

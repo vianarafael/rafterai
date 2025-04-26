@@ -1,0 +1,8 @@
+From the bottom of the Get 
+Fedora page, you can download specially conﬁ gured Fedora ISO images called spins 
+(https://spins.fedoraproject.org). Here are some special types of Fedora spins that 
+might interest you:
+
+ ■ Desktop spins—People who prefer the KDE desktop to the GNOME desktop can 
+
+download the KDE spin.

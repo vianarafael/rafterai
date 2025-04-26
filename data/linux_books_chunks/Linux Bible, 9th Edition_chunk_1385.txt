@@ -1,0 +1,5 @@
+Because messages about hardware detection scroll 
+quickly off the screen when you boot, to view potential problem messages you have to 
+redisplay those messages after the system comes up.
+
+There are a few ways to view kernel boot messages after Linux comes up.

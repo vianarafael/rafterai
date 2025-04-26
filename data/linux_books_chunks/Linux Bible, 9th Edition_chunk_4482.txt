@@ -1,0 +1,6 @@
+To unlock it, you need 
+to use the pam_tally2 command.
+
+In the example that follows, the user account Samantha has had too many failed login 
+attempts. However, the account is not listed as locked in the /etc/shadow ﬁ le, shown by 
+the passwd command.

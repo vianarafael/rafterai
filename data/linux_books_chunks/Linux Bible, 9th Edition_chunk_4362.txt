@@ -1,0 +1,8 @@
+This window can be launched by selecting the Passwords and Keys 
+icon from the Activities screen or by running the seahorse command. With the window that 
+appears, you can work with the following:
+
+ ■ Passwords—When you access a website and enter a username and password (and 
+
+you select to save that password), it is stored on your system for the next time you 
+visit that site.

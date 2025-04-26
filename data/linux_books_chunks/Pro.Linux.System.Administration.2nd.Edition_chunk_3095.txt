@@ -1,0 +1,8 @@
+Because we are using the Let’s Encrypt staging server, we will be making useless 
+certificates, but we will not be restricted to the access limits while testing that the production Let’s Encrypt 
+systems have.
+
+ We cannot use the example.com domain to create Let’s encrypt certificates as we obviously don’t 
+
+ ■ Note 
+own that domain.

@@ -1,0 +1,9 @@
+To temporarily turn off your ﬁ rewall (ﬂ ush your iptables 
+rules), type the following command as the root user from a shell on your FTP 
+server system and then try to access the site again:
+
+# iptables -F
+
+B
+
+b.

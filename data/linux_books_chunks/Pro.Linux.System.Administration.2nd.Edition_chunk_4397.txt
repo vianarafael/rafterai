@@ -1,0 +1,13 @@
+We’ve also added the auth-user-pass option, which 
+tells the client that we’re going to use usernames and passwords rather than just certificate authentication.
+Now, if we start OpenVPN on our client, it will connect to the gateway, prompting the user to enter 
+
+appropriate credentials.
+
+$ sudo /etc/init.d/openvpn restart
+Shutting down openvpn                                      [ OK ]
+Starting openvpn:
+Enter Auth Username:jsmith
+Enter Auth Password:********
+
+Notice the auth username and password prompts.

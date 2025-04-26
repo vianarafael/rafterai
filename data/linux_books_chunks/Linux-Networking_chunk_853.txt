@@ -1,0 +1,17 @@
+solution: read only file server
+
+1. Create a directory in a good location (FHS) to share files for everyone to read.
+
+choose one of these...
+
+mkdir -p /srv/samba/readonly
+
+mkdir -p /home/samba/readonly
+
+/home/paul/readonly is wrong!!
+
+/etc/samba/readonly is wrong!!
+
+/readonly is wrong!!
+
+2.

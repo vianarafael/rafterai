@@ -1,0 +1,4 @@
+Essentially, you 
+copy all the software packages from the RHEL installation medium to a web server 
+(http), FTP server (ftp), or NFS server (nfs), and then point to the location of that 
+server when you boot the installer.

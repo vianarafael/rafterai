@@ -1,0 +1,5 @@
+(Be sure to create new content or copy existing content to the /var/ftp directories. 
+Moving the ﬁ les there may not change the ﬁ le context properly.)
+
+ ■ To allow ﬁ les to be uploaded by anonymous users, the ﬁ le context on the directory 
+you upload to must be set to public_content_rw_t.

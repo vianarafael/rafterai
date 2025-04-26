@@ -1,0 +1,6 @@
+If you are just installing a few desktop applications on your own  desktop system, 
+you may not need much more than that and occasional security updates.
+
+To dig deeper into managing Linux software, I next describe what makes up Linux software  packages 
+(comparing deb and rpm formatted packaging), underlying software management  components, and 
+commands (yum and rpm) for managing software in Fedora and Red Hat Enterprise Linux.

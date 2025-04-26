@@ -1,0 +1,6 @@
+The default search domain is 
+example.com, and any hostname searches will have that domain appended to the end of the query. Next, we 
+have the nameserver(s) we wish to query for our domain name resolution. These should be in IP address 
+format. If the first nameserver is unavailable, the second will be used.
+
+The dig command will query these nameservers unless otherwise instructed.

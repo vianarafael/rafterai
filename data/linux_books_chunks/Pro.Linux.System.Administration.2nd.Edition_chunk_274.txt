@@ -1,0 +1,24 @@
+Here are some resources to try:
+
+•	
+
+•	
+
+Red Hat: www.redhat.com/en/services/support/
+
+Fedora: http://forums.fedoraforum.org/forumdisplay.php?f=6
+
+•	 Ubuntu: http://ubuntuforums.org/forumdisplay.php?f=333
+
+71
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Summary
+In this chapter, we stepped through the process of installing two of the popular Linux distribution choices:
+
+•	 CentOS Server
+
+•	 Ubuntu Server
+
+We also explained what you might do if something goes wrong during installation.

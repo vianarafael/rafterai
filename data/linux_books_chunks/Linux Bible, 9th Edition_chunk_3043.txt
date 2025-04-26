@@ -1,0 +1,6 @@
+In addition, a centrally located printer can make it easier to maintain the printer, while 
+still enabling everyone to get his or her printing jobs done.
+
+The default printing service in nearly every major Linux distribution today is the 
+Common UNIX Printing System (CUPS). Any Linux system that includes CUPS offers the 
+CUPS  web-based administrative interface for conﬁ guring CUPS printing.

@@ -1,0 +1,11 @@
+DHCP and manually assigning a hostname
+
+In Figure 2-9 we allowed DHCP to assign the IP address of 10.0.2.15 by toggling the OFF button to ON in 
+
+the top right corner.
+
+23
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+In the Host name section in the lower left we have entered a hostname of au-mel-centos-1.

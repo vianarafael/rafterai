@@ -1,0 +1,17 @@
+The locations 
+of these repositories would then be stored on the user’s system in the /etc/yum.conf ﬁ le 
+or, more typically, in separate conﬁ guration ﬁ les in the /etc/yum.repos.d directory.
+
+240
+
+c10.indd  04/01/2015  Page 241
+
+Chapter 10: Getting and Managing Software
+
+Understanding how yum works
+This is the basic syntax of the yum command:
+
+# yum [options] command
+
+Using that syntax, you can ﬁ nd packages, see package information, ﬁ nd out about 
+ package groups, update packages, or delete packages, to name a few features.

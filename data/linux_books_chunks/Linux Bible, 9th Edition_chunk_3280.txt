@@ -1,0 +1,2 @@
+TCP 
+port 21 must be open in the ﬁ rewall to allow new connections to access the service.

@@ -1,0 +1,12 @@
+To share your printer as if it were a Samba (SMB) printer, simply 
+conﬁ gure basic Samba server settings as described in Chapter 19, “Conﬁ guring a Windows 
+File Sharing (Samba) Server.” All your printers should be shared on your local network by 
+
+443
+
+ 
+c16.indd  04/01/2015  Page 444
+
+Part IV: Becoming a Linux Server Administrator
+
+default.

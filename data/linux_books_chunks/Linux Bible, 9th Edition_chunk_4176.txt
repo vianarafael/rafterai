@@ -1,0 +1,13 @@
+For more information 
+about the systemd journal itself, type man systemd-journald.service.
+
+611
+
+c22.indd  04/15/2015  Page 612
+
+Part V: Learning Linux Security Techniques
+
+Monitoring user accounts
+User accounts are often used in malicious attacks on a system by gaining unauthorized 
+access to a current account, creating new bogus accounts, or leaving an account behind 
+to access later.

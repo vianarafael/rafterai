@@ -1,0 +1,14 @@
+The enp0s8 Slave Device Configuration
+
+$ less  /etc/sysconfig/network-scripts/ifcfg-enp0s8
+DEVICE="enp0s8"
+NAME="bond0-slave"
+TYPE="Ethernet"
+ONBOOT="yes"
+BOOTPROTO="none"
+SLAVE="yes"
+MASTER="bond0"
+
+This is a very simple configuration. We have specified the device we wish to control, enp0s8, and 
+
+whether we would like it to initialize when we boot up our host by specifying ONBOOT=”yes”.

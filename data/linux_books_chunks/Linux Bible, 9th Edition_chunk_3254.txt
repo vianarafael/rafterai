@@ -1,0 +1,6 @@
+If the server accepts the login 
+information, the client can interactively traverse the ﬁ lesystem, list ﬁ les and directories, and then 
+download (and sometimes upload) ﬁ les.
+
+What makes FTP insecure is that everything sent between the FTP client and server is done in 
+clear text.

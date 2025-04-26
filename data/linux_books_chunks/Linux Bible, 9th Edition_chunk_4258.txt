@@ -1,0 +1,6 @@
+As malicious users gain access to and knowledge of advanced tools, so must a Linux 
+systems administrator. Understanding advanced computer security topics and tools must be 
+
+part of your preparation.
+
+In this chapter, you learn about cryptography basics, such as ciphers and encryption.

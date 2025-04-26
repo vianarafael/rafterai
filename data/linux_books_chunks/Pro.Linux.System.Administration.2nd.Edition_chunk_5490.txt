@@ -1,0 +1,40 @@
+{
+    key dynamic-update-key;
+   primary 192.168.0.1;
+}
+
+subnet 192.168.0.0 netmask 255.255.255.0 {
+    option routers 192.168.0.254;
+    option domain-name "example.com";
+    option domain-name-servers 192.168.0.1;
+    option broadcast-address 192.168.0.255;
+
+    next-server $next_server;
+    filename "/pxelinux.0";
+    group "static" {
+       use-host-decl-names on;
+        host au-mel-rhel-1 {
+             hardware ethernet 00:16:3E:15:3C:C2;
+
+916
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+           fixed-address au-mel-rhel-1.example.com;
+       }
+    }
+    pool {
+        range 192.168.0.101 192.168.0.150;
+        deny unknown clients;
+   }
+   pool {
+      range 192.168.0.151 192.168.0.200;
+      allow unknown clients;
+     default-lease-time 7200;
+      max-lease-time 21600;
+   }
+}
+
+If you have an existing DHCP server with a configuration, you should update this template to reflect that 
+
+configuration.

@@ -1,0 +1,31 @@
+The main options are:
+
+-w
+
+-b
+
+open the filesystem as writeable
+
+blocksize
+
+tune2fs  -  adjust  tunable  filesystem  parameters  on second extended filesystems
+
+Main options:
+
+-l
+
+-L
+
+-m
+
+read the superblock
+
+set the device's volume LABEL 
+
+change the filesystem's reserved blocks for user root
+
+-j or -J
+
+set a journal
+
+3.

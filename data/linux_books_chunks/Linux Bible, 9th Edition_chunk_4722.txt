@@ -1,0 +1,3 @@
+The TCP SYN scan 
+does an excellent job of probing a remote system in a stealthy manner. Because you are probing your own system for 
+security auditing purposes, it makes sense to use the more “heavy-duty” nmap utility scans.

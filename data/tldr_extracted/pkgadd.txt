@@ -1,0 +1,10 @@
+# pkgadd
+
+
+- Install a local software package:
+
+`pkgadd {{package}}`
+
+- Update an already installed package from a local package:
+
+`pkgadd -u {{package}}`

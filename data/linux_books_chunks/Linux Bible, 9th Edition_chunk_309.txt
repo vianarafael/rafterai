@@ -1,0 +1,5 @@
+Red Hat offers 
+training courses and certiﬁ cation exams to help system administrators become 
+ proﬁ cient using Red Hat Enterprise Linux systems. In particular, the Red Hat 
+Certiﬁ ed Engineer (RHCE) and Red Hat Certiﬁ ed System Administrator (RHCSA) 
+ certiﬁ cations have become popular (http://www.redhat.com/certification).

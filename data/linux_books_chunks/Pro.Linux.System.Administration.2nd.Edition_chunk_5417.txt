@@ -1,0 +1,14 @@
+If your web server is running, browsing 
+
+to http://nagios.example.com/nagios/ (replacing the hostname with the name of your Nagios host) 
+should display your console.
+
+ You can use what you learned in Chapter 11 to move your nagios console to a virtual host or other 
+
+ ■ Note 
+location.
+
+Console Authentication
+
+To protect against people making malicious use of your Nagios console, the web server has some basic 
+authentication.

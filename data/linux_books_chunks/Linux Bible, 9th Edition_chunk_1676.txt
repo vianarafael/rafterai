@@ -1,0 +1,12 @@
+If you have a computer 
+that allows you to install virtual systems, that is a safe way to do these exercises as 
+well. These exercises were tested using a Fedora 21 Live media and an RHEL 7 Server 
+Installation DVD.
+
+231
+
+c09.indd  04/01/2015  Page 232
+
+Part III: Becoming a Linux System Administrator
+
+1.

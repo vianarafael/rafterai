@@ -1,0 +1,9 @@
+You use the umount command 
+with either the local mount point or the remote ﬁ lesystem name. For example, here are two 
+ways you could unmount maple:/stuff from the local directory /mnt/maple:
+
+# umount maple:/stuff
+# umount /mnt/maple
+
+Either form works. If maple:/stuff is mounted automatically (from a listing in 
+/etc/fstab), the directory is remounted the next time you boot Linux.

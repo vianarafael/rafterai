@@ -1,0 +1,8 @@
+This is not done by default in Fedora and RHEL, 
+although you can choose for your ﬁ rst user to have sudo privilege if you like, 
+ during Fedora or RHEL installation.
+
+ ■ Graphical windows—Many graphical administration windows, which can be 
+
+launched from the System or Applications menu (GNOME 2) or Activities screen 
+(GNOME 3), can be started by a regular user.

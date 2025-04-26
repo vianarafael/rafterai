@@ -1,0 +1,11 @@
+Re-select the “Use system ﬁ xed width font” box. This takes you back to the 
+
+original font.
+
+6.  On the Colors tab, clear the “Use colors from system theme” check box. From 
+
+here, you can try some different font and background colors.
+
+7.  Re-select the “Use colors from system theme” box to go back to the default colors.
+
+8.  Go to the Proﬁ le window.

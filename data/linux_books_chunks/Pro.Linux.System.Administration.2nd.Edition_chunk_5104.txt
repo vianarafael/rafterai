@@ -1,0 +1,7 @@
+these are used for processing messages and 
+
+ ■ Tip 
+transmitting them to different targets; you can see more of them here: www.rsyslog.com/doc/v8-stable/
+configuration/modules/idx_output.html.
+
+You can use the none wildcard selector to not select messages from a particular facility.

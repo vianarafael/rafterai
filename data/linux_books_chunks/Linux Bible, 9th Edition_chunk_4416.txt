@@ -1,0 +1,8 @@
+The example that follows shows that the /etc/pam.d/other 
+PAM conﬁ guration ﬁ le does exist on this system.
+
+$ ls /etc/pam.d/other
+/etc/pam.d/other
+
+The PAM /etc/pam.d/other conﬁ guration ﬁ le should deny all access, which in terms of 
+security is referred to as Implicit Deny.

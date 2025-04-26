@@ -1,0 +1,3 @@
+This will give you access to longer-term performance and resource usage 
+data, which in turn allows you to make a better determination on whether and when to upgrade hardware or 
+migrate services to other hosts.

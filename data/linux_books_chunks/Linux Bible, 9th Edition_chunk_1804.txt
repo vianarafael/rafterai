@@ -1,0 +1,6 @@
+If you decide to 
+keep downloaded packages after they are installed (they are removed by default, based on 
+the keepcache=0 setting in the /etc/yum.conf ﬁ le), your cache directories (under
+/var/cache/yum) can ﬁ ll up. Metadata stored in cache directories can be cleared, causing 
+fresh metadata to be downloaded from all enabled YUM repositories the next time yum is 
+run.

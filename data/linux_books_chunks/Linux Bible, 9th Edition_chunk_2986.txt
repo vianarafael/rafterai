@@ -1,0 +1,12 @@
+An access deﬁ nition 
+for a CUPS printer (created from the Print Settings window) might appear as follows:
+
+<Location /printers/ns1-hp1>
+Order Deny,Allow
+Deny From All
+Allow From 127.0.0.1
+AuthType None
+</Location>
+
+Here, printing to the ns1-hp1 printer is allowed only for users on the local host 
+(127.0.0.1). No password is needed (AuthType None).

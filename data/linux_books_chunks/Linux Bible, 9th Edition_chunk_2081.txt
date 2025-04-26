@@ -1,0 +1,8 @@
+This writes the changes, 
+tries to sync those changes with the Linux kernel, and quits fdisk. If you see a 
+message like the following, don’t worry; you can ﬁ x that in the next step:
+
+WARNING: Re-reading the partition table failed with error 16:
+Device or resource busy.
+
+14.

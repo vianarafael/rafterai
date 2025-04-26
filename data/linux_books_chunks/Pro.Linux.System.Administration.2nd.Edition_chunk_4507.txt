@@ -1,0 +1,7 @@
+That 
+object class will have attributes it takes. So, the olcGlobal object class has the olcArgsFile as an attribute, 
+and this will be described in the schema file.
+
+Defining LogLevels
+
+In the olcGobal object class we can define our logging. By default it is set to none.

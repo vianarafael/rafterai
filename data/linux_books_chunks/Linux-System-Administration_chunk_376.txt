@@ -1,0 +1,16 @@
+umount
+
+You can unmount a mounted file system using the umount command.
+
+root@pasha:~# umount /home/reet
+
+67
+
+mounting
+
+7.2. displaying mounted file systems
+
+To display all mounted file systems, issue the mount command. Or look at the files /proc/
+mounts and /etc/mtab.
+
+7.2.1.

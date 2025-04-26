@@ -1,0 +1,10 @@
+If this host was 
+being used to replicate our LDAP server, we would definitely ensure that both the server and client had SSL 
+verification enabled. Check the man page for ldap.conf for details.
+
+URI ldap://ldap.example.com/
+BASE dc=example,dc=com
+TLS_CACERT /etc/ldap/certs/cacert.pem
+TLS_REQCERT demand
+
+The URI points to our LDAP server. The BASE is the default base DN for LDAP operations.

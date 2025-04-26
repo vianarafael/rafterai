@@ -1,0 +1,2 @@
+If you are running Windows, the System Properties window can show you the 
+ processor you have, as well as the amount of RAM that’s installed.

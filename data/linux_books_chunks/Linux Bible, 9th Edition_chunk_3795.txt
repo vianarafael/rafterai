@@ -1,0 +1,5 @@
+During that countdown, you can interrupt the boot loader (before it 
+boots the default operating system) by pressing any key.
+
+When you interrupt the boot loader, you should see a menu of available entries to boot. 
+Those entries can represent different available kernels to boot.

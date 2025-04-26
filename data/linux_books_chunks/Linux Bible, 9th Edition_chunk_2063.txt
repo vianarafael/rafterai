@@ -1,0 +1,7 @@
+Notice that there is a mixture of 
+Linux and swap partitions in both examples and Linux LVM partitions in the 
+ﬁ rst example.
+
+Your ﬁ rst primary hard disk usually appears as /dev/sda. With RHEL and Fedora installa-
+tions, there is usually at least one LVM partition created by the installer, out of which other 
+partitions can be assigned.

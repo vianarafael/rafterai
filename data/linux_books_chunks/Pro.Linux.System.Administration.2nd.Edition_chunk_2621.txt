@@ -1,0 +1,6 @@
+We open this file and add in the definitions, as shown in 
+Listing 10-23. Each zone directive block contains a reference to the file that defines the zone. By default, the 
+server expects these in the directory specified in the main configuration file. Since we’re the authoritative 
+DNS server providing these zones, we need to set the zone type to master.
+
+Listing 10-23.

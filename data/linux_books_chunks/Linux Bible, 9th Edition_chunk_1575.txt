@@ -1,0 +1,101 @@
+Table 9.1 provides some examples:
+
+TABLE 9.1    Boot Options for Disabling Features
+
+Installer Option
+
+Tells System
+
+nofirewire
+
+Not to load support for fi rewire devices
+
+nodma
+
+noide
+
+nompath
+
+noparport
+
+nopcmcia
+
+noprobe
+
+noscsi
+
+nousb
+
+noipv6
+
+nonet
+
+numa-off
+
+acpi=off
+
+Not to load DMA support for hard disks
+
+Not to load support for IDE devices
+
+Not to enable support for multipath devices
+
+Not to load support for parallel ports
+
+Not to load support for PCMCIA controllers
+
+Not to probe hardware, instead prompt user for drivers
+
+Not to load support for SCSI devices
+
+Not to load support for USB devices
+
+Not to enable IPV6 networking
+
+Not to probe for network devices
+
+To disable the Non-Uniform Memory Access (NUMA) for AMD64 architecture
+
+To disable the Advanced Confi guration and Power Interface (ACPI)
+
+Boot options for video problems
+If you are having trouble with your video display, you can specify video settings as noted 
+in Table 9.2.
+
+9
+
+TABLE 9.2    Boot Options for Video Problems
+
+Boot Option
+
+xdriver=vesa
+
+Tells System
+
+Use standard vesa video driver
+
+resolution=1024x768
+
+Choose exact resolution to use
+
+nofb
+
+skipddc
+
+graphical
+
+Don’t use the VGA 16 framebuffer driver
+
+Don’t probe DDC of the monitor (the probe can hang the installer)
+
+Force a graphical installation
+
+217
+
+c09.indd  04/01/2015  Page 218
+
+Part III: Becoming a Linux System Administrator
+
+Boot options for special installation types
+By default, installation runs in graphical mode with you sitting at the console answering 
+ questions.

@@ -1,0 +1,16 @@
+For example, to 
+direct the output of messages that are being sent to the messages, secure, and maillog 
+log ﬁ les to a loghost as well, add the bolded lines to the messages ﬁ le:
+
+# Log anything (except mail) of level info or higher.
+# Don't log private authentication messages!
+*.info;mail.none;news.none;authpriv.none;cron.none  /var/log/messages
+*.info;mail.none;news.none;authpriv.none;cron.none  @loghost
+# The authpriv file has restricted access.
+authpriv.*                                /var/log/secure
+authpriv.*                                @loghost
+# Log all the mail messages in one place.
+mail.*                                     -/var/log/maillog
+mail.*                                    @loghost
+
+The messages are now sent to the rsyslogd running on the computer named loghost.

@@ -1,0 +1,11 @@
+Use passwd -d to disable the serena password. Verify the serena line in /etc/shadow
+before and after disabling.
+
+4.  What  is  the  difference  between  locking  a  user  account  and  disabling  a  user  account's
+password like we just did with usermod -L and passwd -d?
+
+5. Try changing the password of serena to serena as serena.
+
+6. Make sure serena has to change her password in 10 days.
+
+7.

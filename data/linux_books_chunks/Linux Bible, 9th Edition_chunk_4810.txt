@@ -1,0 +1,24 @@
+It works successfully.
+
+$ ping -c 2 10.140.67.23
+PING 10.140.67.23 (10.140.67.23) 56(84) bytes of data.
+64 bytes from 10.140.67.23: icmp_req=1 ttl=64 time=1.04 ms
+64 bytes from 10.140.67.23: icmp_req=2 ttl=64 time=0.740 ms
+
+25
+
+721
+
+c25.indd  04/02/2015  Page 722
+
+Part V: Learning Linux Security Techniques
+
+--- 10.140.67.23 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1000ms
+rtt min/avg/max/mdev = 0.740/0.892/1.045/0.155 ms
+
+$ ssh root@10.140.67.23
+root@10.140.67.23's password:
+
+Next, the new iptables rule is tested from Host-B to ensure that ping works and ssh 
+connections are blocked.

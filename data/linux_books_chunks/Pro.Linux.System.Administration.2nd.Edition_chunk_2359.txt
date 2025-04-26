@@ -1,0 +1,14 @@
+So you will be 
+able to extend and reduce ext family of filesystems using LvM but only extend XFS as you cannot reduce a XFS 
+filesystem.
+
+To specify the new total size, rather than adding 2G to the volume, you could also use the following:
+
+$ sudo lvextend -s 4G  /dev/raid-volume/www
+   Size of logical volume raid-volume/www changed from 2.00 GiB (512 extents) to 4.00 GiB 
+
+(1024 extents).
+
+  Logical volume www successfully resized.
+
+In this case, both approaches produce the same result: a logical volume 4 GiB.

@@ -1,0 +1,3 @@
+Regular local filesystems
+
+When the system boots all local filesytems are mounted from the rc.sysinit scrpt.

@@ -1,0 +1,12 @@
+Let’s enable the service again and see what the output is:
+
+$ sudo systemctl enable postfix.service
+Created symlink from /etc/systemd/system/multi-user.target.wants/postfix.service to /usr/
+lib/systemd/system/postfix.service.
+
+207
+
+Chapter 6 ■ Startup and ServiCeS
+
+The output is telling us that is has created the symlink to the postfix.service file in the /etc/systemd/
+system/multi-user.target.wants directory.

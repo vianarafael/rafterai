@@ -1,0 +1,5 @@
+Printers on your Samba server print the pages they are 
+ presented in raw form.
+
+Several options are commented out that you can consider setting. Setting the netbios 
+name causes the name you set to be used as the hostname for the Samba service.

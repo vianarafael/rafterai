@@ -1,0 +1,9 @@
+If the partitions on the disk did not automount, you could mount partitions 
+from that disk manually. For example, to mount read-only a disk partition sdb1 that has 
+an older ext3 ﬁ lesystem, you could type this:
+
+# mkdir /mnt/temp
+# mount -t ext3 -o ro /dev/sdb1 /mnt/tmp
+
+Another reason to use the mount command is to remount a partition to change its mount 
+options.

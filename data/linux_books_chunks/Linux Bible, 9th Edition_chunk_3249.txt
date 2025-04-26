@@ -1,0 +1,17 @@
+Create a ﬁ le named /etc/httpd/conf.d/example.org.conf, which turns on 
+name-based virtual hosting and creates a virtual host that does these things:
+
+ ■ Listens on port 80 on all interfaces
+
+ ■ Has a server administrator of joe@example.org
+
+ ■ Has a server name of joe.example.org
+
+ ■ Has a DocumentRoot of /var/www/html/example.org
+
+ ■ Has a DirectoryIndex that includes at least index.html
+
+Create an index.html ﬁ le in DocumentRoot that contains the words “Welcome to 
+the House of Joe” inside.
+
+10.

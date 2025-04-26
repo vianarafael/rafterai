@@ -1,0 +1,19 @@
+We would like to recommend to you the following:
+
+•	 Checking the technical support page if you require expert support: www.openldap.
+
+org/support/
+
+•	 Deploying OpenLDAP by Tom Jackiewicz (Apress, 2004)
+
+•	 Mastering OpenLDAP: Configuring, Securing, and Integrating Directory Services by 
+
+Matt Butcher (Packt Publishing, 2007)
+
+ ■ Tip 
+
+ The OpenLDAP web site also contains a good administration guide and FAQ at www.openldap.org.
+
+733
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

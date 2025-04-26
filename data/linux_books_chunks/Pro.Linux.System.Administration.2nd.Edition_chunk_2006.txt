@@ -1,0 +1,2 @@
+Because packages contain files that need to be installed to privileged system locations (like /bin, /usr/
+sbin, etc.), the installation needs to be performed as the root user.

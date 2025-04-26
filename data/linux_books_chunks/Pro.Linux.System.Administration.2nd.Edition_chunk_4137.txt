@@ -1,0 +1,10 @@
+In this instance, we have 
+defined a default group, Full, for our backups. We have, however, defined Full Backup Pool = Full and 
+Incremental Backup Pool = Incremental to make sure that the full and incremental backups go to the 
+right media.
+
+674
+
+Chapter 14 ■ BaCkup and reCovery
+
+Lastly in our JobDefs we have Priority = 10.

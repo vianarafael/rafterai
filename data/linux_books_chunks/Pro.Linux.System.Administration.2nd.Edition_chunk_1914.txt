@@ -1,0 +1,17 @@
+We’re going to look at two command-line tools:
+
+•	
+
+•	
+
+aptitude
+
+dpkg
+
+322
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+These tools are both installed by default on Ubuntu hosts. The aptitude tool allows you to install, 
+remove, update, and search packages from online repositories. It is the preferred way to manage packages, 
+so we’ll cover this tool in the most detail.

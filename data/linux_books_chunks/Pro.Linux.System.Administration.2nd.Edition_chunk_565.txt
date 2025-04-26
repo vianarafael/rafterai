@@ -1,0 +1,3 @@
+Controlling your permissions 
+and access to files and applications is critical for security on your Linux host, and frequently in this book 
+we’ll use permissions to provide the appropriate access to files.

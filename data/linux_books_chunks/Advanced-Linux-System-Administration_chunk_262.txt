@@ -1,0 +1,43 @@
+Debian Rebuilds
+
+The Debian rebuilding tools are installed with
+
+apt-get install devscripts build-essential fakeroot 
+
+Example: building a package foo
+
+The following command will get the source package foo
+
+apt-get source foo
+
+We must also install the packages required to rebuild the package foo as follows
+
+apt-get build-dep foo
+
+We next go into the source directory of foo and use debuild to make the package:
+
+70
+
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+cd foo/
+
+debuild -us -uc
+
+Finally, the directory above will contain the dpkg package.
+
+71
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+System Automation
+
+This module covers most scripting objectives for LPI 201.

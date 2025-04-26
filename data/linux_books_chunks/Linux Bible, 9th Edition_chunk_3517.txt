@@ -1,0 +1,16 @@
+For the ﬁ rst 
+example, here is what the share created in the system-config-samba demonstration 
+ earlier in this chapter (called salesdata) looks like in the smb.conf ﬁ le:
+
+19
+
+[salesdata]
+        comment = Sales data for current year
+        path = /var/salesdata
+        read only = no
+;       browseable = yes
+        valid users = chris
+
+Before creating this share, the /var/salesdata directory was created, with chris 
+assigned as the user and group, and the directory was set to be readable and writable by 
+chris.

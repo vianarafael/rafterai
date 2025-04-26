@@ -1,0 +1,9 @@
+But they may also represent 
+totally different operating systems (such as Windows, BSD, or Ubuntu).
+
+Here are some reasons to interrupt the boot process from the boot menu to troubleshoot 
+Linux:
+
+ ■ To start in a different runlevel—RHEL 6 systems typically start in runlevel 
+
+3 (boot to text prompt) or 5 (boot to graphical interface).

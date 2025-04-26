@@ -1,0 +1,43 @@
+-f1) # get an integer 
+          if [ $(($dectimes-14)) -gt 0 ]; then 
+             echo Time exceeded 14ms:  $times 
+          fi
+       done
+done
+
+Schedule scripts that parse log files and email them
+
+We can use a perl script to run last in order to read /var/run/utmp and get it to search for the 
+string still which will match all logged users and mail the line to root.
+
+#!/usr/bin/perl
+
+$LOGFILE="/tmp/lastlog";
+$line="0";
+system("last> $LOGFILE");
+
+open (MAIL, "| mail root");
+
+if (open (FILE,"$LOGFILE")) {
+
+        while ($line ne "") { 
+             $line=<FILE>;
+              if ($line =~ still) {
+                  print MAIL $line;
+              }
+        }
+}
+
+close MAIL;
+
+78
+
+        
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+If this script needs to run every hour and it is called /usr/bin/last-log.pl, then you can create a 
+symbolic link in /etc/cron.hourly pointing to it.

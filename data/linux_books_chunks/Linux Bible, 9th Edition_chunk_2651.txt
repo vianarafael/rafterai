@@ -1,0 +1,5 @@
+It has only recently been supplanted by 
+ systemd in Fedora and RHEL, and will soon do so in Ubuntu.
+
+ ■ Systemd—The latest versions of Fedora and RHEL use the systemd init system. 
+It is the most complex of the init systems, but also offers much more ﬂ exibility.

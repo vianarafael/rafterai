@@ -1,0 +1,1 @@
+Write a script that executes logger to local4 every 15 seconds (different message).

@@ -1,0 +1,7 @@
+By specifying the –a (for append) option, the 
+-G option, and the name of the new group to join (the group must already exist), we add the ataylor user to 
+the accounts group.
+
+ ■ Tip 
+ You can change many of the aspects of a user with the usermod command, and we recommend 
+reading its man page for further information.

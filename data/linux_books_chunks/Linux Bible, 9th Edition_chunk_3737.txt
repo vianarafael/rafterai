@@ -1,0 +1,1 @@
+Boot loaders are changing to accommodate new kinds of hardware.

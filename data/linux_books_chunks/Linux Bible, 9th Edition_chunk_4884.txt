@@ -1,0 +1,8 @@
+If a later version of Fedora is 
+available, you could likely use that instead.
+
+Use any available DVD burning application to burn the image to DVD or otherwise make the 
+image available to install (such as by PXE booting).
+
+Step 2: Check your computers
+The computers you use as hypervisors in Fedora 21 need to meet a few requirements.

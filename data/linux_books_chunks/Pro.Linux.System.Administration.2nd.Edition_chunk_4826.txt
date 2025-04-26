@@ -1,0 +1,6 @@
+The last column, 
+cached, tells you how much memory the kernel is using as a cache to have access to information quickly.
+
+Both the buffer and cache are resized as needed. If an application needs more RAM, the kernel will free 
+
+up part of the cache or buffer space and reallocate the memory.

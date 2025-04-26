@@ -1,0 +1,6 @@
+# cacademo
+
+
+- View an animation:
+
+`cacademo`

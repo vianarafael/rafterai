@@ -1,0 +1,6 @@
+(Device names all 
+begin with /dev.)
+
+If you get the message device is busy, the umount request has failed because either an 
+application has a ﬁ le open on the device or you have a shell open with a directory on the 
+device as a current directory.

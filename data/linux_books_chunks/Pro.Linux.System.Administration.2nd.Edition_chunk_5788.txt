@@ -1,0 +1,6 @@
+ansible Vault 
+allows for secrets, like database passwords, private SSh keys, and other sensitive data, to stored 
+alongside the ansible playbooks. You encrypt the secrets with a password that you can pass in on the 
+command line when you run the ansible or ansible-playbook command.
+
+the encrypted files are just normal YaML files and can live in your group_vars subdirectories.

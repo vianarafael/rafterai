@@ -1,0 +1,18 @@
+To determine which initialization daemon your server is currently using, consider 
+
+the following:
+
+ ■ You have Upstart if your Linux server runs one of the following distributions: 
+RHEL version 6, Fedora versions 9 through 14, Ubuntu versions 6–14.10, or open-
+SUSE versions 11.3–12.1, and the strings command shows the Upstart init 
+process in use as demonstrated in the following example:
+
+$ strings /sbin/init | grep -i upstart
+upstart-devel@lists.ubuntu.com
+UPSTART_CONFDIR
+UPSTART_NO_SESSIONS
+...
+
+ ■ You have the systemd daemon if your Linux server runs Fedora version 15 or 
+
+greater, RHEL 7, Ubuntu 15.04 or OpenSUSE 12.02 or greater.

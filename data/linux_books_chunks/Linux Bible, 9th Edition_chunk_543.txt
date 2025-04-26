@@ -1,0 +1,6 @@
+The GNOME 3 desktop (now used in Fedora and 
+Red Hat Enterprise Linux 7) is a modern, elegant desktop, designed to match the types of 
+interfaces available on many of today’s mobile devices. The GNOME 2 desktop (used through 
+RHEL 6) provides a more traditional desktop experience.
+
+Besides GNOME desktops, you can try out other popular and useful desktop environments.

@@ -1,0 +1,45 @@
+Table 22.5 shows the codes used and a description of the discrepancy.
+
+TABLE 22.5    Package Veriﬁ cation Discrepancies
+
+Code
+
+Discrepancy
+
+S
+
+M
+
+5
+
+D
+
+L
+
+U
+
+G
+
+T
+
+P
+
+File size
+
+File permissions and type
+
+MD5 check sum
+
+Device fi le’s major and minor numbers
+
+Symbolic links
+
+User ownership
+
+Group ownership
+
+File modifi ed times (mtime)
+
+Other installed packages this package is dependent upon (aka capabilities)
+
+In the partial list that follows, all the installed packages are given a veriﬁ cation check.

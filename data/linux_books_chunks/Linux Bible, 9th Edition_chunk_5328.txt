@@ -1,0 +1,12 @@
+To conﬁ gure your Apache web server to use your key and self-signed certiﬁ cate to 
+
+serve secure (HTTPS) content, do the following:
+
+a. Edit the /etc/httpd/conf.d/ssl.conf ﬁ le to change the key and certiﬁ -
+
+cate locations to use the ones you just created:
+
+SSLCertificateFile /etc/pki/tls/certs/server.crt
+SSLCertificateKeyFile /etc/pki/tls/private/server.key
+
+b.

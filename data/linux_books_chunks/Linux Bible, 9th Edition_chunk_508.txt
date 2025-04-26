@@ -1,0 +1,9 @@
+If you ﬁ nd that you have run out 
+of room on your panel, you can add a new panel to another part of the screen, as described 
+in the next section.
+
+2
+
+Adding another panel
+If you run out of space on the top or bottom panels, you can add more panels to your 
+ desktop. You can have several panels on your GNOME 2 desktop.

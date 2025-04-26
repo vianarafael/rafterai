@@ -1,0 +1,25 @@
+Vagrantfile
+
+Vagrant.configure(2) do |config|
+ config.vm.box = "base"
+
+ # config.vm.network "forwarded_port", guest: 80, host: 8080
+
+ # config.vm.network "private_network", ip: "192.168.33.10"
+
+ # config.vm.synced_folder "../data", "/vagrant_data"
+
+ # config.vm.provider "virtualbox" do |vb|
+ #   # Display the VirtualBox GUI when booting the machine
+ #   vb.gui = true
+ #
+ #   # Customize the amount of memory on the VM:
+ #   vb.memory = "1024"
+ # end
+end
+
+91
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+In Listing 3-4 we have removed a lot of the comments and suggested settings.

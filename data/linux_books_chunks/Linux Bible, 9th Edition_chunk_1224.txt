@@ -1,0 +1,7 @@
+Chapter 8 covers how to become the root user, as well as how 
+to use administrative commands, monitor log ﬁ les, and work with conﬁ guration ﬁ les.
+
+Exercises
+Use these exercises to test your knowledge of writing simple shell scripts. These tasks 
+assume you are running a Fedora or Red Hat Enterprise Linux system (although some tasks 
+work on other Linux systems as well).

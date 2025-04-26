@@ -1,0 +1,4 @@
+The HOME option specifies the directory in which all new home directories should be 
+created. The SKEL option specifies which directory to use to populate the user’s home directory, and as we 
+discussed earlier, this defaults to /etc/skel. The GROUP option specifies the default group ID (GID) to use. 
+It is set to group 100, or the “users” group, and you generally won’t ever need to change this.

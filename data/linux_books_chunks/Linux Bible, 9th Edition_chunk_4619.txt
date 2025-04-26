@@ -1,0 +1,5 @@
+Overall, the SELinux 
+command line conﬁ guration utilities, such as getsebool, are easy to use. However, 
+if you want a GUI conﬁ guration tool, SELinux has one. It is installed via the command 
+yum install policycoreutils-gui. On Ubuntu, use the command sudo apt-get 
+install policycoreutils.

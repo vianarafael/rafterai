@@ -1,0 +1,19 @@
+That’s because it is 
+ common practice for an Ubuntu administrator to run administrative commands as a regular user with sudo privilege.
+
+10
+
+237
+
+c10.indd  04/01/2015  Page 238
+
+Part III: Becoming a Linux System Administrator
+
+$ sudo apt-get update          Get the latest package versions
+$ sudo apt-search vsftpd       Find package by key word (vsftpd)
+$ sudo apt-cache show vsftpd   Display information about a package 
+$ sudo apt-get install vsftpd  Install the vsftpd package
+$ sudo apt-get upgrade         Update installed packages 
+$ sudo apt-cache pkgnames      List all packages that are installed
+
+There are many other uses of apt* commands that you can try out.

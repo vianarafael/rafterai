@@ -1,0 +1,5 @@
+These files are the way Linux makes hardware devices, such 
+as hard disk drives, USBs, and DVD drives, accessible from within the operating system. Most, but not all, of 
+the devices in a host are represented by files in the /dev directory.
+
+The /dev directory is a special directory that’s populated by a service called udev.

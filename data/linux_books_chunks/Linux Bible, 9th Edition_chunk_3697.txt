@@ -1,0 +1,2 @@
+If you have a network connection to the NFS 
+servers from which you want to share directories, try to access a shared NFS directory.

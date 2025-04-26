@@ -1,0 +1,4 @@
+To make a comparison, a Linux package is much like a Windows installation 
+msi or setup executable.
+
+Packages are generally installed by an application control center called a package manager.

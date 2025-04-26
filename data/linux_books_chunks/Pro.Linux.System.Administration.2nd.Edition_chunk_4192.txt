@@ -1,0 +1,4 @@
+Name = 
+
+example-mon ... }. This is used to monitor the resource and allows the Director to get the status of the 
+Storage daemon. It requires that the password be declared in the Director configuration as well as here.

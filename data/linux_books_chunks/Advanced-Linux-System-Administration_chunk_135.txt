@@ -1,0 +1,12 @@
+The procedure (taken form the packages documentation) is as follows:
+
+  1. Make a DOS bootable disk.  This can be done either by specifying the /s option when 
+formatting the disk in DOS, or by running the DOS command SYS (this can be done under 
+DOSEMU if DOSEMU has direct device access to the relevant drive):
+
+        format a: /s
+   or
+
+        sys a:
+
+2. Boot Linux.

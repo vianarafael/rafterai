@@ -1,0 +1,7 @@
+After software is installed, the /usr directory often has little or no change 
+(sometimes, it is even mounted read-only for security reasons).
+
+ ■ If the system is conﬁ gured as a server,  you probably want to put the /var subdi-
+
+rectory on its own partition. The /var directory is meant to grow, as log messages 
+and content for web, FTP, and other servers are added.

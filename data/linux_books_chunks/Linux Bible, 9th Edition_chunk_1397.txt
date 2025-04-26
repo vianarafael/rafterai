@@ -1,0 +1,5 @@
+I cut 
+down the output to show information about the different devices on the system that 
+handle various features: sound (Audio device), ﬂ ash drives and other USB devices (USB 
+ controller), the video display (VGA compatible controller), and wired network cards 
+(Ethernet controller).

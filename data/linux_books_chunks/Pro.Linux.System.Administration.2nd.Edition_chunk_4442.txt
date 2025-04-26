@@ -1,0 +1,7 @@
+There is also a good write-
+up on migrating from OpenLDAP to FreeiPA at https://www.dragonsreach.it/2014/10/12/the-gnome-
+infrastructures-freeipa-move-behind-the-scenes/.
+
+The X.500 DAP OSI model describes some fundamental concepts to which LDAP complies. First, you 
+
+need to have a single directory information tree (DIT). This is a hierarchical organization of entries.

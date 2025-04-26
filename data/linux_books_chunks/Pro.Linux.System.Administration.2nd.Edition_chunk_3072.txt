@@ -1,0 +1,2 @@
+We have specified some other options: -x509, which indicates the 
+certificate is self-signed, and -extensions v3_ca, which specifies that we’re creating a CA certificate.

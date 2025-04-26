@@ -1,0 +1,9 @@
+Move house3 and house4 to the $HOME/projects/houses/doors directory.
+
+8.  Remove the $HOME/projects/houses/doors directory and its contents.
+
+9.  Change the permissions on the $HOME/projects/house2 ﬁ le so it can be read 
+and written by the user who owns the ﬁ le, only read by the group, and have no 
+ permission for others.
+
+10.

@@ -1,0 +1,8 @@
+This already happened on Ubuntu, when we installed the package.
+
+Client Configuration
+All that is left for us to do is configure the web browser to use the proxy. In Chrome, we choose Settings ➤ 
+Network ➤ Change proxy settings. On this Apple Mac host, we can configure the proxy service as shown in 
+Figure 11-21 for http://-only traffic.
+
+Figure 11-21.

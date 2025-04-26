@@ -1,0 +1,11 @@
+Let’s start Gluster on our Ubuntu server; to do that, we execute the following:
+
+$ sudo systemctl start glusterfs-server
+
+If we had chosen our CentOS server, we would issue the following:
+
+$ sudo systemctl start glusterd && sudo systemctl start glusterfsd
+
+Of course, we can check that the services started properly by issuing sudo systemctl status 
+
+<service.name>, but we are going to run one of the gluster commands.

@@ -1,0 +1,10 @@
+Define 
+
+the filter like so:
+
+spamassassin     unix     -     n     n     -     -     pipe 
+ user=spamd argv=/usr/bin/spamc -e /usr/sbin/sendmail -oi -f ${sender} ${recipient}
+
+This creates a new service in the master.cf file, of the type unix, which is a Unix socket, and it calls 
+
+another Postfix daemon called pipe, which delivers e-mail to an external command.

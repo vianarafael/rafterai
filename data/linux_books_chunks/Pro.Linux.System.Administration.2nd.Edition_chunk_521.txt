@@ -1,0 +1,6 @@
+Applications 
+bundled as packages contain the required binaries, supporting files, and often configuration files as well, 
+and they are ready to be run straight after being installed.
+
+In Chapter 8, we’re going to extensively cover two of the commonly used package management systems: 
+RPM and Deb. These are used by distributions based on the Red Hat and Debian distributions, respectively.

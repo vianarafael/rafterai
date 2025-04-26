@@ -1,0 +1,5 @@
+This can be the local network’s backup host, backup.
+example.com, where we will have installed proper backup software. This is just one approach among many 
+to achieve this outcome.
+
+Line 1 contains the call to set the environment as a Bash script.

@@ -1,0 +1,11 @@
+(Remember that a message digest is also 
+called a checksum.)
+
+a. Review the download website for the MD5 or SHA-1 ﬁ le or number.
+
+ ■ If it is a checksum number, you need to go to the next step.
+
+ ■ If it is a checksum ﬁ le, you need to download that ﬁ le too and then use 
+the cat command to display the checksum ﬁ le’s contents to your screen.
+
+b.

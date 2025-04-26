@@ -1,0 +1,9 @@
+To temporarily disable TCP wrappers, add the following to the beginning of the 
+
+/etc/hosts.allow ﬁ le (be sure to remove this line again when the test is done):
+
+ALL: ALL
+
+After you have determined what is causing the ﬁ le on your FTP server to be unavailable, go 
+back to the “Securing Your FTP Server” section and go through the steps to determine what 
+might be blocking access to your ﬁ le.

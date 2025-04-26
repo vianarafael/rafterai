@@ -1,0 +1,4 @@
+When this happens, the init daemon will respawn a new mingetty. So even
+if you kill a mingetty daemon, it will be restarted automatically.
+
+This example shows that init respawns mingetty daemons.

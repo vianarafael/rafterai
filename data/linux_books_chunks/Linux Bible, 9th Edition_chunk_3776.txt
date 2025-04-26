@@ -1,0 +1,5 @@
+You might want to change the following settings 
+in the BIOS:
+
+ ■ NIC PXE boot settings—Most modern NICs are capable of booting from servers 
+found on the network.

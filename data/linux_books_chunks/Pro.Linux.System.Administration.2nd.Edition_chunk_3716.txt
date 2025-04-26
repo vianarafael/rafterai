@@ -1,0 +1,6 @@
+First let’s add the sales group.
+
+$ sudo samba-tool group add sales
+Added group sales
+
+That is simple, and you should add the group staff too.

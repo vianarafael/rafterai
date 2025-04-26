@@ -1,0 +1,19 @@
+We would like to show you 
+the following:
+
+•	
+
+•	
+
+•	
+
+Set a volume option
+
+Expand our storage
+
+Replace a brick
+
+Setting Configuration Options
+
+We can change the option settings per volume. Starting with changing the cluster volume configuration for 
+vol1, we are going to set our network ping timeout from the default 42 seconds to 15 seconds.

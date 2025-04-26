@@ -1,0 +1,6 @@
+Programs consisting of commands that 
+are stored and run from a ﬁ le are referred to as shell scripts. Most Linux system 
+administrators use shell scripts to automate tasks such as backing up data, moni-
+toring log ﬁ les, or checking system health.
+
+The shell is a command language interpreter.

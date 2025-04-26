@@ -1,0 +1,6 @@
+plugin options...
+</Plugin>
+
+There are two types of plug-ins: read plug-ins and write plug-ins (some can be read and write plug-ins). 
+
+Read plug-ins will collect data, and write plug-ins will put collected data somewhere.

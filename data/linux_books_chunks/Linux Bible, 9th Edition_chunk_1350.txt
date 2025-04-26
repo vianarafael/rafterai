@@ -1,0 +1,12 @@
+This 
+
+ﬁ le is read when the user logs in.
+
+ ■ protocols—Sets protocol numbers and names for a variety of Internet services.
+
+ ■ rpc—Deﬁ nes remote procedure call names and numbers.
+
+ ■ services—Deﬁ nes TCP/IP and UDP service names and their port assignments.
+
+ ■ shadow—Contains encrypted passwords for users who are deﬁ ned in the passwd 
+ﬁ le.

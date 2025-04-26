@@ -1,0 +1,2 @@
+We are saying that we want to allow any connection originating from the 
+192.168.0.0/24 network to any address on our localhost to any port that is listed in the app WebServer.

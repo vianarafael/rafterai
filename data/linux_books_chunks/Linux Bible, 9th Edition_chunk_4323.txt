@@ -1,0 +1,14 @@
+If an ISO ﬁ le has an SHA-1 hash listed, instead of an MD5 checksum, you 
+can use the following to check the hash.
+
+23
+
+$ sha1sum Fedora-Live-Desktop-x86_64-20-1.iso
+a4cec536ed5bd0c0754eb8840d5af475  Fedora-Live-Desktop-x86_64-20-1.iso
+
+Unfortunately, as of 2005, the SHA-1 hash standard was no longer considered to be a 
+ cryptographic hash due to some “mathematical weaknesses.” However, as with the MD5, 
+that has not diminished its popularity for checking ﬁ le integrity.
+
+If your particular organization requires a true cryptographic hash utility, you must use one 
+of the SHA-2 cryptographic hash tools.

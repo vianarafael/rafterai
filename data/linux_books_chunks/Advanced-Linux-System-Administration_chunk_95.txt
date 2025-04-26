@@ -1,0 +1,23 @@
+Apply the patch in reverse
+
+The patch tool has a -R switch which can be used to reverse all the operations in a patch 
+file
+
+13
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+Example: assuming we have patched the 2.4.21 Linux kernel with patch-2.4.22.gz
+
+The next command will extract the patch: 
+
+cd /usr/src
+
+zcat patch-2.4.22.gz | patch -p0 -R
+
+2.

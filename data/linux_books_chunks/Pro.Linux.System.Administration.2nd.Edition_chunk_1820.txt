@@ -1,0 +1,7 @@
+So, for example, installing the KDE Plasma Workspaces group will provide 
+everything for running your KDE desktop, and installing the Basic Web Server group will provide provide the 
+Apache web server and associated packages.
+
+With that information, to install the nmap package we run the command in Listing 8-2.
+
+Listing 8-2.

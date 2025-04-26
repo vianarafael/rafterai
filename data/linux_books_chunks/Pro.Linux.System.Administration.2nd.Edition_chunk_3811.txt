@@ -1,0 +1,5 @@
+We can see the 
+type (Replicate) and the number of bricks (1 × 3 = 3). This tells us that each file is going to be stored on each 
+brick, and we have one set of three bricks for a total of three bricks.
+
+We can check the status of our volume.

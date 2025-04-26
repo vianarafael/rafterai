@@ -1,0 +1,8 @@
+and Red Hat, Inc.) make it possible for Linux to continue 
+to be a stable, productive operating system into the future.
+
+1
+
+Learning the basics of how to use and administer a Linux system will serve you well in any 
+aspect of working with Linux. The remaining chapters each provide a series of exercises 
+with which you can test your understanding.

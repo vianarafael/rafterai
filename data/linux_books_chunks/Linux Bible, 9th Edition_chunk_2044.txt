@@ -1,0 +1,5 @@
+Instead of drive letters (for example, A:, B:, C:) for each local disk, network fi lesystem, CD-ROM, or 
+other type of storage medium, everything fi ts neatly into the Linux directory structure.
+
+Some drives are connected (mounted) automatically into the fi lesystem when you insert removable 
+media. For example, a CD might be mounted on /media/cdrom.

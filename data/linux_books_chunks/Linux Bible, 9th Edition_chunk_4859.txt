@@ -1,0 +1,7 @@
+Whole work environments can be deployed in virtual machines using Vagrant 
+(www.vagrantup.com). Ansible (www.ansible.com) is another tool for automating 
+IT infrastructures and the applications that run on it.
+
+Cloud platforms
+If you want to implement your own, private cloud within your organization, the open 
+source OpenStack project is probably the most popular choice.

@@ -1,0 +1,7 @@
+For information on conﬁ guring a DNS server with Bind, see the RHEL 
+Networking Guide (https://access.redhat.com/documentation/en-US/
+Red_Hat_Enterprise_Linux/7/html-single/Networking_Guide).
+
+ ■ NFS server—Conﬁ gure an NFS server to share speciﬁ c directories to speciﬁ c client 
+
+systems so they can be used for group collaboration.

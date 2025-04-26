@@ -1,0 +1,7 @@
+The virtual 
+machine’s console window should present you with a login prompt. If you want to be able to 
+gain access to the virtual machine using ssh over the network, go on to the next section.
+
+Accessing the virtual machine via ssh
+With your public key injected into your running virtual machine, it is ready for you to log 
+in using ssh.

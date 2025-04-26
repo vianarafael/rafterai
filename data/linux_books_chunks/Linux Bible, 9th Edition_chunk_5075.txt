@@ -1,0 +1,6 @@
+The wizard takes you through the selection of different instance types (gen-
+eral purpose or optimized) and lets you conﬁ gure instance details, add storage, tag the 
+instance, and conﬁ gure security.
+
+After the virtual machine is conﬁ gured, you can work with the virtual machine directly 
+from a console window or log in over the network using ssh and public/private keypairs.

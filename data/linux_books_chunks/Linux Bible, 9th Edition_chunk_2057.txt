@@ -1,0 +1,3 @@
+The 
+ following shows the partitioning on a USB drive from a RHEL system, where /dev/sdc is 
+assigned as the device name (the third disk on the system).

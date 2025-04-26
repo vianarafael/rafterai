@@ -1,0 +1,2 @@
+This 
+file contains a list of the current connections and is refreshed every 60 seconds.

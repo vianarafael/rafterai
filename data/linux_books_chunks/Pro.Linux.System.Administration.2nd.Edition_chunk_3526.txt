@@ -1,0 +1,10 @@
+E-mail is submitted to 
+the socket, scanned, and then returned to the ClamAV milter with an assessment of whether it is a virus. This 
+assessment is then added in the form of the X-Spam-Virus header to the scanned e-mail.
+
+On CentOS, this socket is located by default in /var/run/clamd.scan/clamd.sock, and you can see a 
+
+listing of it here:
+
+$ sudo ls -l /var/run/clamd.scan/clamd.sock
+srw-rw-rw-.

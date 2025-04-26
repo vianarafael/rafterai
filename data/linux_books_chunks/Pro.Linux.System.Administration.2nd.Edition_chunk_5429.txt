@@ -1,0 +1,8 @@
+Authenticated contacts are authenticated users, with the 
+username of each matching the name of a Nagios contact.
+
+Hence, if the username jsmith, for example, matches the name of a contact, which is the value of the 
+
+contact_name directive, this authenticated user becomes an authenticated contact.
+
+So, what’s the difference? Authenticated users are granted some generic rights to view the web console.

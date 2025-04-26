@@ -1,0 +1,3 @@
+For exam-
+ple, you could conﬁ gure a user’s home directory from a centralized server that could be 
+ automounted from a different machine when a user logs in.

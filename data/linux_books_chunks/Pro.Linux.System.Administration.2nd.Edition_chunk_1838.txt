@@ -1,0 +1,11 @@
+To 
+
+install, just those security patches.
+
+$ sudo yum --security update
+
+You can also just install packages from a particular YUM repository with
+
+$ sudo yum install --enablerepo=myrepo my-package
+
+In the preceding command we told YUM to install our my-package from our myrepo YUM repository.

@@ -1,0 +1,11 @@
+In Figure 8-2 you can see along the top we have have the following views, “All,” 
+“Installed,” and “Updates.”
+
+300
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-2.  Installation application
+
+You then have the Firefox browser and Editor’s picks for common popular packages. The next section 
+is the Categories. In Categories you can find the groups of like applications you might like.

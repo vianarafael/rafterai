@@ -1,0 +1,21 @@
+removing links
+
+Links can be removed with rm.
+
+paul@laika:~$ touch data.txt
+paul@laika:~$ ln -s data.txt sl_data.txt
+paul@laika:~$ ln data.txt hl_data.txt
+paul@laika:~$ rm sl_data.txt 
+paul@laika:~$ rm hl_data.txt
+
+71
+
+file links
+
+9.6. practice : links
+
+1. Create two files named winter.txt and summer.txt, put some text in them.
+
+2. Create a hard link to winter.txt named hlwinter.txt.
+
+3.

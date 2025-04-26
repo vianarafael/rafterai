@@ -1,0 +1,22 @@
+Now type the following on the 
+system you copied the ﬁ les to:
+
+$ ls -l /usr/share/man/man1/batch* /tmp/man1/batch*
+-rw-r--r--.1 johndoe johndoe 2628 Apr 15 15:32 /tmp/man1/batch.1.gz
+lrwxrwxrwx.1 root root 7 Feb 14 17:49 /usr/share/man/man1/batch.1.gz
+      -> at.1.gz
+
+Next, run the scp command again and list the ﬁ les again:
+
+$ scp johndoe@10.140.67.23:/usr/share/man/man1/ /tmp/
+johndoe@10.140.67.23's password: ***************
+$ ls -l /usr/share/man/man1/batch* /tmp/man1/batch*
+-rw-r--r--.1 johndoe johndoe 2628 Apr 15 15:40 /tmp/man1/batch.1.gz
+lrwxrwxrwx.1 root root 7 Feb 14 17:49 /usr/share/man/man1/batch.1.gz
+      -> at.1.gz
+
+The output of those commands tells you a few things about how scp works:
+
+ ■ Attributes lost—Permissions or date/time stamp attributes were not retained 
+
+when the ﬁ les were copied.

@@ -1,0 +1,25 @@
+MariaDB to MySQL Versions
+
+MariaDB 5.5
+
+MariaDB 5.3 and MySQL 5.5
+
+MariaDB 10.0
+
+MariaDB 5.5 and backported MySQL 5.6
+
+MariaDB 10.1
+
+Contains ports of MySQL 5.6 and 5.7
+
+MariaDB 10.2
+
+Alpha release
+
+ For an explanation of the reasoning behind these version number changes, see https://mariadb.
+
+ ■ Note 
+org/explanation-on-mariadb-10-0/.
+
+Installation
+On both CentOS and Ubuntu you can install MariaDB easily using the package managers.

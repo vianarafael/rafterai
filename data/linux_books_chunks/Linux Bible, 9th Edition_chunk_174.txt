@@ -1,0 +1,5 @@
+Advanced features in Linux, often used in large enterprises, include 
+the following:
+
+ ■ Clustering—Linux can be conﬁ gured to work in clusters so that multiple systems 
+can appear as one system to the outside world.

@@ -1,0 +1,25 @@
+This simple script backs up all the data in the home directories 
+of all the users on your Fedora or RHEL system.
+
+#!/bin/bash
+# (@)/my_backup
+# A very simple backup script
+#
+
+# Change the TAPE device to match your system.
+# Check /var/log/messages to determine your tape device.
+# You may also need to add scsi-tape support to your kernel.
+TAPE=/dev/rft0
+
+# Rewind the tape device $TAPE
+mt $TAPE rew
+# Get a list of home directories
+HOMES=`grep /home /etc/passwd | cut -f6 -d':'`
+# Back up the data in those directories
+tar cvf $TAPE $HOMES
+# Rewind and eject the tape.
+mt $TAPE rewoffl
+
+Summary
+Writing shell scripts gives you the opportunity to automate many of your most common 
+system administration tasks.

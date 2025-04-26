@@ -1,0 +1,15 @@
+The fi gure shows an example of the Pyrite window.
+
+Continues
+
+647
+
+c23.indd  04/01/2015  Page 648
+
+Part V: Learning Linux Security Techniques
+
+continued
+
+Pyrite lets you encrypt and decrypt fi les.
+
+Another extremely powerful security tool available on Linux is PAM.

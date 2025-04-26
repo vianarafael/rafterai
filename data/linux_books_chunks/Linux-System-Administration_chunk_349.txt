@@ -1,0 +1,8 @@
+You can mount an ext3 file system as ext2,
+but then you lose the journaling. Do not forget to run mkinitrd if you are booting from this
+device.
+
+6.2.3. ext4
+
+The newest incarnation of the ext file system is named ext4 and is available in the Linux
+kernel since 2008.

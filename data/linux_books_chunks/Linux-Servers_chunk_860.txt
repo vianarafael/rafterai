@@ -1,0 +1,4 @@
+git mv
+
+Renaming a file can be done with mv followed by a git remove and a git add of the new
+filename.

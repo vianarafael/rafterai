@@ -1,0 +1,4 @@
+Each job is made 
+up of a series of definitions, and these definitions can inherit a set of common definitions that can make 
+your configurations easier to manage. Each job acts on a client that is the target host. The jobs back up on 
+or restore from a volume, which refers to the storage media you are using (e.g., tape, DVD, or disk).

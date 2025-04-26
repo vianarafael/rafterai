@@ -1,0 +1,11 @@
+unity, Gnome, and KDe are not the only desktops to choose either. For a discussion on the 
+current desktops available check www.techradar.com/au/news/software/operating-systems/best-linux-
+desktop-which-is-ideal-for-you--1194516.
+
+In Figure 4-3, you can see the default Gnome desktop on an Ubuntu distribution.
+
+103
+
+ChapTeR 4 ■ LInux BasICs
+
+Figure 4-3.

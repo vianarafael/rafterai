@@ -1,0 +1,4 @@
+You can find an exhaustive list and descriptions of RAID levels at 
+http://en.wikipedia.org/wiki/Redundant_array_of_independent_disks.
+
+It’s common to use one hard disk as a spare as well.

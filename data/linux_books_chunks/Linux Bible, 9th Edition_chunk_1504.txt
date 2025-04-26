@@ -1,0 +1,8 @@
+If you need to modify the 
+ installation process, you can add boot options by pressing the Tab key with a boot 
+entry highlighted and typing in the options you want. See the section “Using 
+installation boot options” later in this chapter.
+
+4.  Select a language. Select your language, and select Continue. The Installation 
+
+Summary screen appears.

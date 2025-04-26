@@ -1,0 +1,2 @@
+Of course, we would like to gather logs from /var/log/messages. You can use 
+globs to catch all logs (/var/log/*.log), or you can target specific logs (/var/log/audit/audit.log).

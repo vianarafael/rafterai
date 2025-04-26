@@ -1,0 +1,2 @@
+Use swat \
+#              to configure your Samba server.

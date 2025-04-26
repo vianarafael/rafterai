@@ -1,0 +1,6 @@
+For now, though, 
+just press Enter to move on to the next stage of the installation.
+
+In Figure 2-2, the “anaconda” installer process that will install the host has been started. The anaconda 
+application is the software that installs CentOS, and it runs in the X Window System—also known as simply 
+X.

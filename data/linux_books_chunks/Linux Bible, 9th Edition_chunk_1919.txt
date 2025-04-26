@@ -1,0 +1,6 @@
+The following command removes the user chris:
+
+# userdel -r chris
+
+Here, the user chris is removed from the /etc/password ﬁ le. The –r option removes the 
+user’s home directory as well.

@@ -1,0 +1,10 @@
+This  is  because
+winbind is configured in /etc/nsswitch.conf after files.
+
+[root@RHEL52 ~]# getent passwd paul
+paul:x:500:500:Paul Cobbaut:/home/paul:/bin/bash
+
+All the Active Directory users can now easily connect to the Samba share. Files created by
+them, belong to them.
+
+22.6.

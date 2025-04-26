@@ -1,0 +1,8 @@
+However, when you identify a 
+Samba share from a Linux shell in the latter case, backslashes need to be escaped. So, as 
+an argument, the ﬁ rst example of the share would have to appear as \\\\localhost\\
+salesdata. So the ﬁ rst form is easier to use.
+
+19
+
+Escaping a character that you type from the shell is done by putting a backslash (\) in front of that character.

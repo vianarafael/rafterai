@@ -1,0 +1,8 @@
+Listing 18-13 first lists all the files to be rotated. This could also 
+include directories using the syntax /path/to/log/files/*.
+
+Then enclosed in { } are any options for this particular set of files. In this example, we have overridden 
+
+the global logging options to rotate these files on a daily basis and keep seven rotations of the log files.
+
+Next, we run a script.

@@ -1,0 +1,7 @@
+First, you need to make sure you have at least three disks and 
+create identically sized partitions on all of them.
+
+ ■ Note 
+If you do not have enough disks to use raId, you can create multiple identically sized partitions on 
+a single disk and use them as components in your raId array. this will allow you to test raId installation and 
+management.

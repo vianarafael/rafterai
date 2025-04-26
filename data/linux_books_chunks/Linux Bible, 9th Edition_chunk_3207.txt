@@ -1,0 +1,33 @@
+Also, if you had entered a passphrase for your key, you are prompted to enter it 
+here to use the key.
+
+# openssl req -new -key ../private/server.key -out server.csr
+
+Country Name (2 letter code) [AU]:US
+State or Province Name (full name) [Some-State]:Washington
+
+470
+
+ 
+ 
+ 
+ 
+ 
+c17.indd  04/01/2015  Page 471
+
+Chapter 17: Confi guring a Web Server
+
+Locality Name (eg, city) []:Bellingham
+Organization Name (eg, company) [Internet Widgits Pty
+Ltd]:Example Company, LTD.
+Organizational Unit Name (eg, section) []:Network
+ Operations
+Common Name (eg, YOUR name) []:secure.example.org
+Email Address []:dom@example.org
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:
+An optional company name []:
+
+3.

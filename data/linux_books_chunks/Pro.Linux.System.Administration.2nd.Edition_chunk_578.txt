@@ -1,0 +1,7 @@
+The key to changing permissions is that only the 
+user who owns the file or the root user can change a file’s permissions. So, in Listing 4-10, only the root user 
+could change the permissions of the myfile file.
+
+The chmod command has a simple syntax. In Listing 4-11, you can see some permissions being changed.
+
+Listing 4-11.

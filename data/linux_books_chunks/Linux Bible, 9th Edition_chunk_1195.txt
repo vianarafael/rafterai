@@ -1,0 +1,2 @@
+The following 
+case statement tests for the ﬁ rst three letters of the current day (case 'date +%a' in).

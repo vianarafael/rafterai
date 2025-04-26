@@ -1,0 +1,14 @@
+If time permits then combine "read list", "write list", "hosts allow" and "hosts deny".
+Which of these has priority ?
+
+241
+
+samba securing shares
+
+21.6. solution: securing shares
+
+1. Create a writable share called sales, and a readonly share called budget. Test that it works.
+
+see previous solutions on how to do this...
+
+2.

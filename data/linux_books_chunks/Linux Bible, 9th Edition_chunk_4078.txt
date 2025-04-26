@@ -1,0 +1,6 @@
+To make sure these expiration dates are past the current date, the TODAY vari-
+able is compared with the expiration date ﬁ eld, $8. If TODAY is greater than the account’s 
+expiration date, the account is listed. As you can see in the preceding example, two 
+expired accounts still exist on the system and need to be removed.
+
+That is all you need to do.

@@ -1,0 +1,7 @@
+if a service on a host fails, nagios usually schedules a check of the 
+underlying host, too. You can read more about this at https://assets.nagios.com/downloads/nagioscore/
+docs/nagioscore/4/en/hostchecks.html.
+
+Let’s look at another service definition, this one to monitor a network-based service, in Listing 18-20.
+
+Listing 18-20.

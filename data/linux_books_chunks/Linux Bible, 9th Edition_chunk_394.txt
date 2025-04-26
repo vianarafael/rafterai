@@ -1,0 +1,9 @@
+If you don’t see the drive there, you may need to go into 
+BIOS setup and enable the CD/DVD or USB drive there.
+
+2
+
+3.  Start Fedora. If the selected drive is able to boot, you see a boot screen. For 
+Fedora, with Start Fedora highlighted, press Enter to start the live medium.
+
+4.  Begin using the desktop.

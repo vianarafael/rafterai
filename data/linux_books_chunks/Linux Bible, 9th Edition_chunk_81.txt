@@ -1,0 +1,15 @@
+Store YUM repository metadata to local RPM database ......................244
+Using YUM with third-party software repositories........................................244
+Managing software with the YUM command ................................................245
+Searching for packages ......................................................................246
+Installing and removing packages ......................................................247
+Updating packages ............................................................................249
+Updating groups of packages .............................................................250
+
+xx
+
+ftoc.indd  04/02/2015  Page xxi
+
+Contents
+
+Maintaining your RPM package database and cache .............................

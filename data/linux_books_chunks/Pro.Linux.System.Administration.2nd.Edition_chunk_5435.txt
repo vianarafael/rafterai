@@ -1,0 +1,7 @@
+Remember, authenticated 
+contacts can view the information about the hosts and services for which they are contacts.
+
+The last two directives in Table 18-8, authorized_for_all_service_commands and authorized_for_
+
+all_host_commands, allow you to specify users who are authorized to issue external commands to services 
+and hosts, respectively.

@@ -1,0 +1,4 @@
+you can use other options to restrict access to your 
+
+ ■ Note 
+attributes, like specifying a peer name or domain from which to accept connections.

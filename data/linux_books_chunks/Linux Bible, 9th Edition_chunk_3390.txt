@@ -1,0 +1,3 @@
+Using any FTP client you choose, download the man-pages-3.41.tar.gz ﬁ le 
+from the kernel.org directory you just visited to the /tmp  directory on your 
+local system.

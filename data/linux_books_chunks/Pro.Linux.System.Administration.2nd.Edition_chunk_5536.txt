@@ -1,0 +1,23 @@
+A Kickstart File
+
+install
+# System authorization information
+auth --enableshadow  --passalgo sha512
+# System bootloader configuration
+bootloader --location=mbr
+# Partition clearing information
+clearpart --all --initlabel
+# Use text mode install
+text
+
+928
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Listing 19-4 shows a list of configuration directives starting with the install option, which dictates the 
+
+behavior of the installation process by performing an installation.
+
+You can then see configuration directives with options, for example, auth --enableshadow  --passalgo 
+
+sha512, which tell Kickstart how to answer particular installation questions.

@@ -1,0 +1,11 @@
+You would clear the cache if you needed to reclaim some disk space temporary disk space.
+
+$ sudo yum clean all
+
+The preceding command removes cached packages and headers contained in the /var/cache/yum 
+
+cache directories.
+
+Configuring YUM
+
+The YUM application can be configured in a variety of ways.

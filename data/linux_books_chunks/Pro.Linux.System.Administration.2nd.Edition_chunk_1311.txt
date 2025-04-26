@@ -1,0 +1,11 @@
+It should now look similar to Listing 7-1.
+
+We can also remove an interface. When we “down” a link, we don’t remove the IP address. To do that we 
+
+would issue the following:
+
+$ sudo ip addr del 192.168.10.1/24 dev enp0s8
+
+The link is still up and the IPv4 address has gone if you now show the interface. You should notice that 
+
+the IPv6 address will be available as long as the link is UP.

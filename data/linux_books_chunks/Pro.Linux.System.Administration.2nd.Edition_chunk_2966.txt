@@ -1,0 +1,2 @@
+However, if you do need to change it, you just need to edit the file /etc/mysql/
+mysql.conf.d/mysqld.cnf and add, or make a change to, innodb_log_file_size.

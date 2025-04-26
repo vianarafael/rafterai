@@ -1,0 +1,18 @@
+We are searching for two proxy files to be present.
+
+$ grep -E '(proxy.so|fcgi)' /etc/httpd/conf.modules.d/00-proxy.conf
+LoadModule proxy_module modules/mod_proxy.so
+LoadModule proxy_fcgi_module modules/mod_proxy_fcgi.so
+
+These modules are provided by the httpd package and apache2 package for CentOS and Ubuntu, 
+
+respectively.
+
+Next we are going to move off our /etc/httpd/conf.d/php.conf file, as this is the configuration file for 
+
+the php module.
+
+$ sudo mv /etc/httpd/conf.d/php.conf /etc/httpd/conf.d/php.conf_bak
+
+PHP-FPM is a daemon that will translate requests from the HTTP server and respond with an 
+appropriate response from the PHP code.

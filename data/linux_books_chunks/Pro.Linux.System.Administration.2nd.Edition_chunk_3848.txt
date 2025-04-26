@@ -1,0 +1,5 @@
+a raspberry pi is a 
+
+ ■ Note 
+microcomputer that can be attached to a printer via USB and can act as a print server. it normally comes with 
+the raspberian operating system, which is a debian-based distribution of Linux.

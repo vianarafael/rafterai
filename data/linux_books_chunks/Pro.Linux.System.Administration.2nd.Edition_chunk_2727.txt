@@ -1,0 +1,5 @@
+If we had any, this would trigger the slaves to transfer the 
+updates zone file from the master.
+
+Next, the same process is repeated for the reverse zone. When that is also done, the DHCP server allows 
+the client to obtain the lease it offered and updates its internal leases file.

@@ -1,0 +1,40 @@
+It is simple to set up, and you can place it anywhere on the network.
+
+ ■ Note  We will look at setting up Bareos’s console in the “Introducing the Bareos Web-uI” section.
+
+The Bareos server requires the following TCP ports open on your server:
+
+•	
+
+•	
+
+•	
+
+The Bareos Director daemon requires port 9101 (on the Bareos server only).
+
+The Bareos Storage daemon requires port 9102 (on the Bareos server only).
+
+The Bareos File daemon requires port 9103 (on any target host or client).
+
+You add them with the following command on the backup server:
+
+$ sudo firewall-cmd --zone public --permanent --add-service bacula
+$ sudo firewall-cmd --reload
+
+On the clients, you only need to open TCP port 9103, and on CentOS hosts you will find that there is a 
+
+bacula-client service provided in firewalld.
+
+$ sudo firewall-cmd --zone public --permanent --add-service bacula-client
+$ sudo firewall-cmd –reload
+
+If you are running this on Ubuntu, you can use ufw to add the application file (/etc/ufw/
+
+applications.d/bareos) like so:
+
+[Bareos]
+title=Bareos Backup Server
+description=The Bareos Backup Server.
+ports=9101,9102,9103/tcp
+
+And you do similar for the client by just allowing port 9103 access.

@@ -1,0 +1,7 @@
+For example, for ﬁ le servers and web servers, you can restrict access to certain ﬁ les 
+or data based on username, hostname, IP address of the client, or other attributes.
+
+Step 5: Monitor the server
+Because you can’t be there to monitor every service every minute, you need to put 
+ monitoring tools in place to watch your servers for you and make it easy for you to ﬁ nd out 
+when  something needs attention.

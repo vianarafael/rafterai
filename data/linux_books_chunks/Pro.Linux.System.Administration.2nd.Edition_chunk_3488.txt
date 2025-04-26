@@ -1,0 +1,6 @@
+But we’re not particularly worried about viruses attacking our Linux hosts 
+via e-mail; instead, we’re concerned with viruses that might spread via e-mail onto other, more susceptible 
+hosts such as Microsoft Windows desktops or be spread from your organization to other organizations.
+
+We’re going to introduce an application called ClamAV and show you how to integrate it with Postfix as 
+a milter, or a mail filter.

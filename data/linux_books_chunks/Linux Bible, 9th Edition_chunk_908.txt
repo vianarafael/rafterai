@@ -1,0 +1,31 @@
+116
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c05.indd  04/01/2015  Page 117
+
+ C H A P T E R 
+
+5
+
+Working with Text Files
+
+IN THIS CHAPTER
+
+Using vim and vi to edit text fi les
+
+Searching for fi les
+
+Searching in fi les
+
+W hen the UNIX system, on which Linux was based, was created, most information was managed 
+
+on the system in plain-text ﬁ les.

@@ -1,0 +1,2 @@
+Make two new partitions of the same size as the root device of type “Linux raid 
+autodetect”.

@@ -1,0 +1,17 @@
+We are able to 
+
+access anything that the firewall on the gateway host allows us to on the 192.168.0.0/24 network.
+
+If the branch1 host is the default route for 192.168.10.0/24 (the local network at the branch1 site), then 
+all our users in the 192.162.10.0/24 network will be able to access resources in the 192.168.0.0/24 network at 
+our head office.
+
+ we’re not going to tell our head office how to route to the internal networks of our branch offices, but 
+
+ ■ Note 
+this is also possible.
+
+Firewall
+
+We also need to ensure the firewall rules on our gateway and branch hosts allow traffic to and from the 
+relevant networks.

@@ -1,0 +1,2 @@
+You need to read only the section that relates 
+to your chosen distribution. We also recommend that you read about how to install software from source code.

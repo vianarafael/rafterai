@@ -1,0 +1,16 @@
+We are going to be installing this service on our Ubuntu 
+monitoring host via the APT repository provided at https://www.elastic.co, a company that helps design 
+and support the open source projects of Kibana, Elasticsearch, Logstash, and Beats.
+
+Let’s first add the APT repository by first adding the public GPG key, then adding the package  
+apt-transport-https (if it is not already installed), and finally adding the actual repository to APT.
+
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+sudo aptitude install –y apt-transport-https
+echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" | sudo tee -a /etc/apt/
+sources.list.d/elastic-5.x.list
+sudo aptitude update
+
+Here we have used the aptitude package manager, which we have installed rather than apt-get, which 
+
+you can also use.

@@ -1,0 +1,38 @@
+This can be configured on master and slave servers.
+
+view "internal" {
+match-clients { 192.168.42/24; };
+recursion yes;
+...
+
+};
+
+view "external" {
+match-clients { any; };
+recursion no;
+...
+
+};
+
+Or allow only queries from the local network.
+
+options {
+      allow-query { 192.168.42.0/24; localhost; };
+};
+
+zone "cobbaut.paul" {
+      allow-query { any; };
+};
+
+Or only allow recursive queries from internal clients.
+
+options {
+        allow-recursion { 192.168.42.0/24; localhost; };
+
+155
+
+advanced DNS
+
+};
+
+11.5.12.

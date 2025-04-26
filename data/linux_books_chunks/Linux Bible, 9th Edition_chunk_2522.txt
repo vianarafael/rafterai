@@ -1,0 +1,3 @@
+However, any packets 
+destined for the 192.168.100 network are routed through the gateway host at IP address 
+192.168.0.199.

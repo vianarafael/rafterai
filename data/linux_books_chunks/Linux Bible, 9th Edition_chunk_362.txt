@@ -1,0 +1,9 @@
+As 
+
+with  everything in Linux, you have choices. There are full-featured GNOME or KDE  desktop 
+ environments or lightweight desktops such as LXDE or Xfce. There are even simpler 
+
+ standalone window managers.
+
+After you have chosen a desktop, you will ﬁ nd that almost every major type of desktop  application 
+you have on a Windows or Mac system has equivalent applications in Linux.

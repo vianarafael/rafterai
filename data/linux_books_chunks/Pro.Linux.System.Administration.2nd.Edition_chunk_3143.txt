@@ -1,0 +1,4 @@
+For example, if each of the Squid subdirectories contained about 100 
+cached files, the total number of files in the cache would exceed 400,000. If they were all stored in a single 
+directory, each time one of these files was requested by a browser, the host would need to search through 
+up to 400,000 entries in the directory inode to find out where the data it needs is stored.

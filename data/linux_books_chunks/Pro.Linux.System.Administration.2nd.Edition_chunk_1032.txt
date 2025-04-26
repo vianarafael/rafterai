@@ -1,0 +1,8 @@
+On Ubuntu and Debian hosts, the files can be found at /boot/grub/grub.cfg.
+
+The grub.cfg file in GRUB2 is made up of a series of configuration files. On both Ubuntu and CentOS 
+
+hosts you will find the configuration files in the directory /etc/grub.d. In that directory you will see a 
+number ordered list of files. In Listing 6-1 you can see the files found on the CentOS 7 host.
+
+Listing 6-1.

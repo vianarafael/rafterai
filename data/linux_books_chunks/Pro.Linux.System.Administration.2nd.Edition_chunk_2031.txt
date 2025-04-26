@@ -1,0 +1,7 @@
+this tells Linux to 
+run the configure script it finds in the current directory.
+
+The output goes on, but we’ll stop here at the most important option, --prefix. This option determines 
+
+where the software will be installed, and it’s important that this is a location that is not used by packaged 
+software.

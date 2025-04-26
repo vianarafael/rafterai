@@ -1,0 +1,10 @@
+To look at /var/log/wtmp, we need
+to use th last.
+
+[root@RHEL52 ~]# last | grep reboot
+reboot   system boot  2.6.18-128.el5   Fri May 29 11:44   (192+05:01)
+reboot   system boot  2.6.18-128.el5   Wed May 27 12:10    (06:49)
+reboot   system boot  2.6.18-128.el5   Mon May 25 19:34   (1+15:59)
+reboot   system boot  2.6.18-128.el5   Mon Feb  9 13:20   (106+21:13)
+
+15.7.6.

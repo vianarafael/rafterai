@@ -1,0 +1,12 @@
+Now we can start the remote journal service with 
+the following:
+
+$ sudo systemctl enable systemd-journal-remote
+$ sudo systemctl start systemd-journal-remote
+$ sudo systemctl status systemd-journal-remote
+
+845
+
+Chapter 18 ■ Logging and Monitoring
+
+We check the status before proceeding to make sure our service has started successfully.

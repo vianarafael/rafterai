@@ -1,0 +1,25 @@
+To list the documentation ﬁ les that come in the package that provides the NFS 
+
+server software, type the following:
+
+# rpm -qd nfs-utils
+/usr/share/doc/nfs-utils-1.2.5/ChangeLog
+...
+/usr/share/man/man5/exports.5.gz
+/usr/share/man/man5/nfs.5.gz
+/usr/share/man/man5/nfsmount.conf.5.gz
+/usr/share/man/man7/nfsd.7.gz
+/usr/share/man/man8/blkmapd.8.gz
+/usr/share/man/man8/exportfs.8.gz
+...
+
+824
+
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 825
+
+Appendix B: Exercise Answers
+
+3.

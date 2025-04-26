@@ -1,0 +1,5 @@
+See Chapter 15 for more details. If the 
+daemon is not running, start it so that logging may begin to occur.
+
+Sometimes AVC denials are not logged because of dontaudit policy rules. Although the dontaudit rules help 
+reduce false positives in the logs, they can cause you problems when you’re troubleshooting.

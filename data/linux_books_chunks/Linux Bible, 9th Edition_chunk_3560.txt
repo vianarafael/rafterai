@@ -1,0 +1,12 @@
+These exercises were tested on a Fedora system. 
+Some of the steps might be slightly different on another Linux system.
+
+1.  Install the samba and samba-client packages.
+
+2.  Start and enable the smb and nmb services.
+
+3.  Set the Samba server’s workgroup to TESTGROUP, the netbios name to MYTEST, 
+
+and the server string to Samba Test System.
+
+4.

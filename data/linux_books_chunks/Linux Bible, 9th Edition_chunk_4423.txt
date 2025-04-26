@@ -1,0 +1,2 @@
+Fortunately, each PAM conﬁ guration ﬁ le that runs this risk has it documented in a 
+ comment line within.

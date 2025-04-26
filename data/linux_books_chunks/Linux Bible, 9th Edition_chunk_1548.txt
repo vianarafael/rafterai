@@ -1,0 +1,6 @@
+It also results in a cleaner Linux system. So, if you don’t 
+need the data on your system (or if you have a backup of your data), I recommend you do a fresh installation. Then 
+you can restore your data to a freshly installed system.
+
+Some Linux distributions, most notably Gentoo, have taken the approach of  providing 
+ ongoing updates.

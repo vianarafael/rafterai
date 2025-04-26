@@ -1,0 +1,11 @@
+Let’s look at the Ubuntu 16.04 
+release (codenamed Xenial Xerus). If you have this release installed, you should see a line like the 
+following in the /etc/apt/sources.list file:
+
+deb http://archive.ubuntu.com/ubuntu/ xenial main restricted
+
+333
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+the repository definition starts with the repository type and a UrL.

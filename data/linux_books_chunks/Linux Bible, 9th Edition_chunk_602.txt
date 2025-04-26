@@ -1,0 +1,10 @@
+(There are some commands that don’t follow the double hyphen convention, using 
+a single hyphen before a word, but most commands use double hyphens for word options.)
+
+3
+
+You can use the --help option with most commands to see the options and arguments that they support: for exam-
+ple, try typing hostname --help.
+
+Many commands also accept arguments after certain options are entered or at the end 
+of the entire command line.

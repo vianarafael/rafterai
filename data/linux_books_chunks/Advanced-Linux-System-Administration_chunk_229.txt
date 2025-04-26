@@ -1,0 +1,8 @@
+Both daemons are started with the single rc-script:
+
+/etc/rc.d/init.d/smb start
+
+The LanManager host file lmhosts
+
+This file is usually in the same directory as the smb.conf file and is read by nmbd to 
+resolve netBIOS hostnames.

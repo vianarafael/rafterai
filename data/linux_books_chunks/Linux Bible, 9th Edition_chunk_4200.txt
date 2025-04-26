@@ -1,0 +1,6 @@
+To learn more about John the Ripper, visit www.openwall.
+com/john.
+
+Monitoring the fi lesystem
+Malicious programs often modify ﬁ les. They also can try to cover their tracks by posing 
+as ordinary ﬁ les and programs.

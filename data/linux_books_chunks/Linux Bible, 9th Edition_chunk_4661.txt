@@ -1,0 +1,2 @@
+However, the guide is not updated 
+for every Fedora version, so you may need to look in older versions to ﬁ nd it.

@@ -1,0 +1,10 @@
+Here 
+is an example of how to add a Samba password for the user jim:
+
+# smbpasswd -a jim
+New SMB password: *******
+Retype new SMB password: *******
+
+After running that smbpasswd command, jim can use that username and password to 
+access the Samba server. The /var/lib/samba/private/passdb.tdb ﬁ le holds the 
+password just entered for jim.

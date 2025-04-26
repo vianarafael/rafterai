@@ -1,0 +1,7 @@
+The types of information you 
+need to do this include:
+
+ ■ iSCSI devices—Have your storage administrator provide you with the target IP 
+
+address of the iSCSI device and the type of discovery authentication needed to use 
+the device.

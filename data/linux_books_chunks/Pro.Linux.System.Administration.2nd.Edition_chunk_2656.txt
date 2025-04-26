@@ -1,0 +1,4 @@
+We have then used that in the allow-transfer section to 
+allow the IP addresses we have defined in transfer-hosts. Creating acl variables is good practice as you 
+can quickly update your configuration in one place. It makes reading and validation of your configuration 
+easier.

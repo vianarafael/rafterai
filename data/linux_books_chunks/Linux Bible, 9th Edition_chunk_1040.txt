@@ -1,0 +1,5 @@
+These commands are described in the following sections.
+
+Listing processes with ps
+The most common utility for checking running processes is the ps command. Use it to see 
+which programs are running, the resources they are using, and who is running them.

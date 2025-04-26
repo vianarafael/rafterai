@@ -1,0 +1,14 @@
+(You can change the timeout value from 5 minutes to any 
+length of time you want by setting the passwd_timeout value in the /etc/sudoers ﬁ le.)
+
+181
+
+ 
+ 
+ 
+c08.indd  04/01/2015  Page 182
+
+Part III: Becoming a Linux System Administrator 
+
+The preceding example grants a simple all-or-nothing administrative privilege to 
+joe.

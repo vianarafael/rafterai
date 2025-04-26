@@ -1,0 +1,15 @@
+You should see all shared printers and folders 
+from that server (see Figure 19.8).
+
+FIGURE 19.8
+
+Accessing Samba shares from Windows.
+
+524
+
+c19.indd  04/01/2015  Page 525
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+In Figure 19.8, you can see that there are two shared folders (directories): chris and 
+salesdata. There are also several shared printers.

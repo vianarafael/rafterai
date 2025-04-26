@@ -1,0 +1,5 @@
+Again, we’ve specified dev tun for a routed VPN. 
+We’ve also specified the client option, which indicates that this is a client, and the remote option, which 
+tells OpenVPN where to connect our VPN tunnel. We’ve specified gateway.example.com and port 1194.
+
+ openVpN must be able to resolve this host (i.e., it must be able to find an ip address for this host).

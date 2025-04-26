@@ -1,0 +1,12 @@
+{
+    group "static" {
+        use-host-decl-names on;
+        host au-mel-ubuntu-2 {
+            hardware ethernet 00:16:3E:15:3C:C2;
+            fixed-address au-mel-ubuntu-2.example.com;
+        }
+    }
+}
+
+Finally, we will want to make sure that the addresses we use for static DHCP leases never get assigned 
+to clients the DHCP server doesn’t know about.

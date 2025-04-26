@@ -1,0 +1,11 @@
+Here is an example of how to get Ubuntu cloud image 
+running without a cloud provider on your local Linux hypervisor:
+
+1.  Download the Ubuntu cloud tarball. Go to the Ubuntu site, and select the 
+
+release and speciﬁ c images you want. I downloaded the ubuntu-14.10-server-
+cloudimg-amd64.tar.gz cloud tarball from the following site:
+
+http://cloud-images.ubuntu.com/releases/
+
+2.

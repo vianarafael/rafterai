@@ -1,0 +1,6 @@
+In the chapters that follow, we’ll expand on these concepts and introduce you to the key 
+activities you’ll need to know in order to operate and administer your Linux hosts.
+
+In this chapter, we’ll mostly talk about commands running on the command line. This gives you an 
+
+introduction to using the command line and will help get you comfortable with operating on it.

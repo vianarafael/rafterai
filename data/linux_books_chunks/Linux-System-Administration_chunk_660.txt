@@ -1,0 +1,13 @@
+The second stanza boots Suse 8.0 from the next partition.
+The last one loads MS-DOS.
+
+167
+
+bootloader
+
+14.5. practice: bootloader
+
+0. Find out whether your system is using lilo, grub or grub2. Only do the practices that are
+appropriate for your system.
+
+1. Make a copy of the kernel, initrd and System.map files in /boot.

@@ -1,0 +1,26 @@
+VAR can be any variable name, and LIST 
+can be composed of pretty much any list of values or anything that generates a list.
+
+for NUMBER in 0 1 2 3 4 5 6 7 8 9
+do
+   echo The number is $NUMBER
+done
+
+for FILE in `/bin/ls`
+do
+   echo $FILE
+done
+
+163
+
+c07.indd  04/01/2015  Page 164
+
+Part II: Becoming a Linux Power User
+
+You can also write it this way, which is somewhat cleaner:
+
+for NAME in John Paul Ringo George ; do
+   echo $NAME is my favorite Beatle
+done
+
+Each element in the LIST is separated from the next by whitespace.

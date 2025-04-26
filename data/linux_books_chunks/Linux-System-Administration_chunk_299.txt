@@ -1,0 +1,15 @@
+Use badblocks to completely erase one of the smaller hard disks.
+
+#Verify the device (/dev/sdc??) you want to erase before typing this.
+#
+root@rhel53 ~# badblocks -ws /dev/sdc
+Testing with pattern 0xaa: done                                
+Reading and comparing: done                                
+Testing with pattern 0x55: done                                
+Reading and comparing: done                                
+Testing with pattern 0xff: done                                
+Reading and comparing: done                                
+Testing with pattern 0x00: done                                
+Reading and comparing: done
+
+8.

@@ -1,0 +1,8 @@
+Groups allow like users to be collected together for 
+
+ ■ Note 
+the purpose of allowing access to applications and services; for example, all the users in the accounting 
+department can belong to the same group to allow them access to your accounts payable application. We’ll talk 
+about groups in Chapter 6.
+
+Finally, the Other class describes the permissions that all others have to the file.

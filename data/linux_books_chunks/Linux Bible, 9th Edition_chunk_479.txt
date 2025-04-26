@@ -1,0 +1,6 @@
+A Computer icon consolidates CD 
+drives, ﬂ oppy drives, the ﬁ lesystem, and shared network resources in one place.
+
+GNOME also includes a set of Preferences windows that enable you to conﬁ gure different aspects 
+of your desktop. You can change backgrounds, colors, fonts, keyboard shortcuts, and other 
+ features related to the look and behavior of the desktop.

@@ -1,0 +1,12 @@
+The ﬁ le in this example is
+/etc/sysconfig/network-scripts/ifcfg-bond0:
+
+DEVICE=bond0
+ONBOOT=yes
+IPADDR=192.168.0.50
+NETMASK=255.255.255.0
+BOOTPROTO=none
+BONDING_OPTS="mode=active-backup"
+
+The bond0 interface in this example uses the IP address 192.168.0.50. It starts up on 
+boot. The BONDING_OPTS sets the bonding mode to active-backup.

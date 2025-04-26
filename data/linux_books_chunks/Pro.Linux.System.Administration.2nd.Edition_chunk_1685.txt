@@ -1,0 +1,4 @@
+The virbr0 interface is used for virtual interfaces to shared physical 
+devices. Lines 8-9 are similar and provide access the bootps (DHCP) service. These rules allow virtual hosts 
+that maybe started up (KVM or Xen virtual hosts, for example) to access these services to get DNS and DHCP 
+services. We talk more about KVM and Xen in Chapter 20.

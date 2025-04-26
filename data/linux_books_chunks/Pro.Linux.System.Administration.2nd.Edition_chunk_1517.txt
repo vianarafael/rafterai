@@ -1,0 +1,4 @@
+We are going to route traffic from one network to another via our firewall. We 
+are on our main server host, which has the IP address 192.168.0.1—Host A in Figure 7-13. We have our 
+firewall/router sitting on our network with the IP address 192.168.0.254 on interface enp0s8—Host B. We 
+have configured interface enp0s9 on our firewall host with the address 192.168.1.254/24.

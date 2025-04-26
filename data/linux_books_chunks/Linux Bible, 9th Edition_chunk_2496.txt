@@ -1,0 +1,4 @@
+The network interface card is on PCI slot 4, port 1 (p4p1). Any packets 
+ destined for the 192.168.0 network use the p4p1 NIC. Packets destined for any other 
+ location are forwarded to the gateway system at 192.168.0.1. That system represents my 
+router to the Internet.

@@ -1,0 +1,35 @@
+If you prefer to keep your ﬁ ngers on the keyboard, move the cursor 
+with h (left), l (right), j (down), or k (up).
+
+ ■ w—Moves the cursor to the beginning of the next word (delimited by spaces, tabs, 
+
+or punctuation).
+
+ ■ W—Moves the cursor to the beginning of the next word (delimited by spaces or tabs).
+
+ ■ b—Moves the cursor to the beginning of the previous word (delimited by spaces, 
+
+tabs, or punctuation).
+
+ ■ B—Moves the cursor to the beginning of the previous word (delimited by spaces 
+
+or tabs).
+
+ ■ 0 (zero)—Moves the cursor to the beginning of the current line.
+
+ ■ $—Moves the cursor to the end of the current line.
+
+120
+
+c05.indd  04/01/2015  Page 121
+
+Chapter 5: Working with Text Files
+
+ ■ H—Moves the cursor to the upper-left corner of the screen (ﬁ rst line on the screen).
+
+ ■ M—Moves the cursor to the ﬁ rst character of the middle line on the screen.
+
+ ■ L—Moves the cursor to the lower-left corner of the screen (last line on the screen).
+
+Deleting, copying, and changing text
+The only other editing you need to know is how to delete, copy, or change text.

@@ -1,0 +1,17 @@
+Users will have to provide their
+old password before twice entering the new one.
+
+[tania@centos7 ~]$ passwd
+Changing password for user tania.
+Changing password for tania.
+(current) UNIX password:
+New password:
+BAD PASSWORD: The password is shorter than 8 characters
+New password:
+BAD PASSWORD: The password is a palindrome
+New password:
+BAD PASSWORD: The password is too similar to the old one
+passwd: Have exhausted maximum number of retries for service
+
+As you can see, the passwd tool will do some basic verification to prevent users from using
+too  simple  passwords.

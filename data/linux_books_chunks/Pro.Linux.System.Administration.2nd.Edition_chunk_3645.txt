@@ -1,0 +1,9 @@
+Both CentOS and Ubuntu require the same packages to get Samba 
+
+up and running.
+
+On CentOS, you issue the following:
+
+$ sudo yum install samba-client samba-common samba winbind
+
+However, CentOS 7 does not provide the samba-tool binary that we require to configure Samba AD.

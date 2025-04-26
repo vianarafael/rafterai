@@ -1,0 +1,6 @@
+It also lays 
+
+down the groundwork for understanding how logging works on Linux systems.
+
+The rsyslog utility is designed to generate, process, and store meaningful event notification messages 
+that provide the information required for administrators to manage their systems.

@@ -1,0 +1,8 @@
+When called, the /etc/rc.d/rc script 
+runs the scripts located in the /etc/rc.d/rc#.d, where # is the chosen runlevel. This 
+provides runlevel backward compatibility to SysVinit.
+
+$ cat /etc/init/rc.conf
+# rc - System V runlevel compatibility
+#
+# This task runs the old sysv-rc runlevel scripts.

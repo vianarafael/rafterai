@@ -1,0 +1,5 @@
+If you have a computer that is running as a virtual 
+host, you can install Fedora on that system as a virtual guest. Virtualization host 
+ software includes KVM, Xen, and VirtualBox (for Linux and UNIX systems, as well as 
+Windows and the MAC), Hyper-V (for Microsoft systems), and VMWare (both Linux 
+and Microsoft systems).

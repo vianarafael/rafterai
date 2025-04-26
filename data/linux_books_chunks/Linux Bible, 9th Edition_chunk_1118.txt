@@ -1,0 +1,3 @@
+Those limitations might 
+say that all the processes in a control group have access only to particular processors 
+and  certain sets of RAM.

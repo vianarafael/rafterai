@@ -1,0 +1,8 @@
+If you run the latter without any 
+parameters, it prints the UUID for all detected block devices, as shown in Listing 9-9.
+
+382
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Listing 9-9.

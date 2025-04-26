@@ -1,0 +1,6 @@
+You can restrict which systems can use 
+your proxy server (by hostname or IP address) and even limit which sites they can visit 
+(by  speciﬁ c address, range of addresses, hostname, or domain names).
+
+Conﬁ guring a squid proxy server can be as simple as installing the squid package, editing 
+the /etc/squid/squid.conf ﬁ le, and starting the squid service.

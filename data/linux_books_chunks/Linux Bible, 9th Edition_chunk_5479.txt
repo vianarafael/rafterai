@@ -1,0 +1,38 @@
+proprietary operating systems, 6
+
+Linux Foundation, 14, 20
+Linux Mint, 19
+Linux Uniﬁ ed Key Setup (LUKS), 640
+Linux-PAM System Administrator’s Guide, 667
+listing
+
+modules, 197–198
+processes, 138–143
+
+with ps command, 138–140
+with System Monitor, 142–143
+with top command, 140–141
+
+live Linux ISO images, 32–33, 203–207
+load_policy , 687
+local printers, 429–432
+localhost.crt ﬁ le, 468
+localhost.key ﬁ le, 468
+locate command, 75, 76, 125–126
+logging
+
+SELinux logging, 689–692
+system logging, 334–340
+
+logical volume management (LVM), 295–301
+Login Log, 609
+Logout Log, 609
+logrotate, 322–323
+logrotate.d/samba ﬁ le, 502
+logrotate.d/vsftpd ﬁ le, 480
+logwatch, 322, 339–340
+loops
+
+848
+
+for .

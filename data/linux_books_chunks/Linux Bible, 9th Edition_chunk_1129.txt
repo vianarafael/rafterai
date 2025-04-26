@@ -1,0 +1,10 @@
+More advanced features for 
+ limiting resource usage by selected processes are available using the cgroups feature.
+
+In the next chapter, you learn how to combine commands and programming functions into 
+ﬁ les that can be run as shell scripts.
+
+Exercises
+
+Use these exercises to test your knowledge of viewing running processes and then  changing 
+them later by killing them or changing processor priority (nice value).

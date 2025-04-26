@@ -1,0 +1,8 @@
+You should never have more than one 
+BindAddress statement in your conﬁ guration ﬁ le.
+
+ ■ Port speciﬁ es which TCP port to listen on but does not enable you to specify the 
+
+IP address. Port is generally not used more than once in the conﬁ guration.
+
+ ■ Listen enables you to specify both an IP address and a port to bind to.

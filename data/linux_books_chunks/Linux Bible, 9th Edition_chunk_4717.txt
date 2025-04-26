@@ -1,0 +1,21 @@
+All ports are reported as 
+ having a status of closed.
+
+25
+
+# nmap -sT 10.140.67.23
+Starting Nmap 5.51 ( http://nmap.org ) at 2016-03-22 10:33 EDT
+Nmap scan report for 10.140.67.23
+
+705
+
+c25.indd  04/02/2015  Page 706
+
+Part V: Learning Linux Security Techniques
+
+Host is up (0.010s latency).
+All 1000 scanned ports on 10.140.67.23 are closed
+
+Nmap done: 1 IP address (1 host up) scanned in 1.48 seconds
+
+The nmap scan is moved from originating at Host-A to originating on Host-B.

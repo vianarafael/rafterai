@@ -1,0 +1,7 @@
+Then type exit, as shown in the preceding code, to leave the remote shell and return to 
+your local shell.
+
+Copying files between systems with scp and rsync
+The scp command is similar to the old UNIX rcp command for copying ﬁ les to and from 
+Linux systems, except all communications are encrypted. Files can be copied from the 
+remote system to the local system or local to remote.

@@ -1,0 +1,8 @@
+But 
+what if you need to install dozens or hundreds of Linux systems? What if you want 
+to install those systems in particular ways that need to be repeated over multiple 
+installations? The last section of this chapter describes efﬁ cient ways of installing 
+multiple Linux systems, using network installation features and kickstart ﬁ les.
+
+A fourth method of installation not covered in this chapter is to install Linux as a virtual 
+machine on a virtualization host, such as Virtual Box or VMware system.

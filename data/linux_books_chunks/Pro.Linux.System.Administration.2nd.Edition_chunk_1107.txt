@@ -1,0 +1,5 @@
+It can be set to “simple,” “forking,” “oneshot,” “dbus,” 
+
+“notify,” or “idle.” The default setting is “simple.” With a type of simple you expect that the process run by the 
+ExecStart option is to be the main process (i.e., it doesn’t fork a child process). Notify is similar to simple but 
+it will send a notification message once it has finished starting up.

@@ -1,0 +1,7 @@
+When you install and start the Docker service on those 
+Linux distributions, it likewise sets up a private network and hands out IP addresses to 
+Docker containers launched on that system.
+
+Confi guring Linux as a DNS server
+In Linux, most professional Domain Name System (DNS) servers are implemented using the 
+Berkeley Internet Name Domain (BIND) service.

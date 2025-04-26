@@ -1,0 +1,5 @@
+You
+can use the exportfs -va command to do this. It will write the exported directories to /var/
+lib/nfs/etab, where they are immediately applied.
+
+27.6.3.

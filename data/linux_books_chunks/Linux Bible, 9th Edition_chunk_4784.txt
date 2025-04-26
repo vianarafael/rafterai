@@ -1,0 +1,8 @@
+In the example that follows, this command is 
+entered on a Linux Mint system.
+
+# iptables -t filter -vnL
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)...
+
+Note that on systems with firewalld enabled, there are many more iptables chains and 
+rules listed by default than you might be used to on a system using iptables directly.

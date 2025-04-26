@@ -1,0 +1,5 @@
+This chapter explains how to do these tasks on both CentOS and Ubuntu.
+
+On Linux distributions, this sort of application management is called package management. This is 
+because most applications available on Linux hosts have been made available as packages. Packages make it 
+very easy to add and remove applications to and from your host.

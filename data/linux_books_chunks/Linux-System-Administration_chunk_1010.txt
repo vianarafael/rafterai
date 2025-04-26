@@ -1,0 +1,4 @@
+ifconfig
+
+The use of /sbin/ifconfig without any arguments will present you with a list of all active
+network interface cards, including wireless and the loopback interface.

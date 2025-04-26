@@ -1,0 +1,4 @@
+The default policy of DROP falls in line with the basic doctrine of a ‘default stance of denial’ for the 
+
+firewall. You should deny all traffic by default and open the host only to the traffic to which you have 
+explicitly granted access.

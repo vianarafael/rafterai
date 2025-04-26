@@ -1,0 +1,15 @@
+GUI software management
+
+End users have several graphical applications available via the desktop (look for 'add/remove
+software' or something similar).
+
+Below a screenshot of Ubuntu Software Center running on Ubuntu 12.04. Graphical tools
+are not discussed in this book.
+
+229
+
+package management
+
+20.2. deb package management
+
+20.2.1.

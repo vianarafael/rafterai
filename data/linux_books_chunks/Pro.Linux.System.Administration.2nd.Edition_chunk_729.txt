@@ -1,0 +1,10 @@
+You might configure your host to ensure that only the users in the sales 
+group have access to the sales department’s applications and files.
+
+ When applications are installed, they often install additional users and groups required to run those 
+
+ ■ Note 
+applications.
+
+Users and groups are easy to create using two commands: useradd (to create users) and groupadd  
+(to create groups).

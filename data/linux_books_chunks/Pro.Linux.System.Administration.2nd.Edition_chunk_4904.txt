@@ -1,0 +1,10 @@
+UseBSDName 
+
+false is used only on Macs, and UdevNameAttr "DEVNAME" means we try to use the Udev name for the disk device.
+
+<Plugin interface>
+    Interface "localhost"
+    IgnoreSelected true
+</Plugin>
+
+Again, with the interface configuration, we make use of the IgnoreSelected option.

@@ -1,0 +1,16 @@
+Instead, it is an additional security layer.
+
+ ■ DAC rules are still used when using SELinux.
+
+ ■ DAC rules are checked ﬁ rst, and if access is allowed, then SELinux policies are checked.
+
+ ■ If DAC rules deny access, SELinux policies are not reviewed.
+
+669
+
+c24.indd  04/15/2015  Page 670
+
+Part V: Learning Linux Security Techniques
+
+If a user tries to execute a ﬁ le that he does not have execute access to (rw-), the “tradi-
+tional” Linux DAC controls deny access.

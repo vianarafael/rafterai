@@ -1,0 +1,6 @@
+If 
+you happen to have Desktop Effects enabled (System ➪ Preferences Desktop 
+Effects ➪ Compiz), try pressing Ctrl+Alt+right arrow (or left arrow) to spin to the 
+next workspace.
+
+7.

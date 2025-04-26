@@ -1,0 +1,2 @@
+Bash has special rules that allow you to expand the value of a variable in different 
+ways.

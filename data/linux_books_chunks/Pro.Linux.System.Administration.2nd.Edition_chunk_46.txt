@@ -1,0 +1,2 @@
+Our broad recommendation, though, is that you choose either a Red Hat–derived distribution or Ubuntu  
+(a Debian-based distribution) or Debian.

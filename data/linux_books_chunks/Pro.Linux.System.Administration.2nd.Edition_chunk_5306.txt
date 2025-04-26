@@ -1,0 +1,6 @@
+We’ll look at the additional 
+attributes defined in the linux-server template in Listing 18-17 in a moment.
+
+In this case, the rest of the attributes of our host object define its identity. The host_name attribute 
+defines the name of the host object. This name must be unique. You can have only one host object called 
+localhost or headoffice.example.com.

@@ -1,0 +1,6 @@
+At the command line, type man systemd.ser-
+vice to ﬁ nd out more about the various service unit ﬁ le options.
+
+Step 2: Move the service configuration unit file
+Before you move the new or customized service conﬁ guration unit ﬁ le, you need to be 
+aware that there are two potential locations to store service conﬁ guration unit ﬁ les.

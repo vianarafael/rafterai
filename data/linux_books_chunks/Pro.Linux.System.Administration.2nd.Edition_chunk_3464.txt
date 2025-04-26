@@ -1,0 +1,45 @@
+Postfix Logs with SpamAssassin
+
+$ sudo less /var/log/mail.log
+Aug 27 08:11:35 ip-10-0-10-154 postfix/qmgr[12743]: 564B21866089: from=<ataylor@example.
+com>, size=1316, 
+  nrcpt=1 (queue active)
+
+567
+
+Chapter 12 ■ Mail ServiCeS
+
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: connection from localhost [::1]:46002 to 
+port 783, fd 6
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: setuid to mail succeeded
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: creating default_prefs: /home/spamd/.
+spamassassin/user_prefs
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: failed to create readable default_prefs: 
+  /var/spool/mail/.spamassassin/user_prefs
+Aug 27 08:11:35 ip-10-0-10-154 spamd[12345]: spamd: processing message (unknown) for mail:8
+Aug 27 08:11:36 ip-10-0-10-154 spamd[12345]: spamd: identified spam (999.1/5.0) for mail:8 
+in 0.3 seconds, 1280 bytes.
+Aug 27 08:11:36 ip-10-0-10-154 spamd[12345]: spamd: result: Y 999 - ALL_TRUSTED,GTUBE, 
+MISSING_MID 
+  scantime=0.3,size=1280,user=mail,uid=8,required_score=5.0,rhost=localhost,raddr=::1,rpo
+rt=46002, 
+  mid=(unknown),autolearn=no autolearn_force=no
+Aug 27 08:11:36 ip-10-0-10-154 spamd[12344]: prefork: child states: II
+Aug 27 08:11:36 ip-10-0-10-154 postfix/pipe[12758]: 564B21866089: to=<jsmith@example.com>, 
+relay=spamassassin, 
+  delay=0.89, delays=0.57/0.01/0/0.3, dsn=2.0.0, status=sent (delivered via spamassassin 
+service)
+Aug 27 08:11:36 ip-10-0-10-154 postfix/qmgr[12743]: 564B21866089: removed
+Aug 27 08:11:36 ip-10-0-10-154 postfix/pickup[12742]: 0AF49181186C: uid=8 from=<ataylor@
+example.com>
+Aug 27 08:11:36 ip-10-0-10-154 postfix/cleanup[12757]: 0AF49181186C: message 
+  id=<20160827121136.0AF49181186C@mail.example.com>
+Aug 27 08:11:36 ip-10-0-10-154 postfix/qmgr[12743]: 0AF49181186C: from=<ataylor@example.
+com>, size=2091, 
+   nrcpt=1 (queue active)
+Aug 27 08:11:36 ip-10-0-10-154 postfix/local[12762]: 0AF49181186C: to=<jsmith@example.com>, 
+relay=local, 
+  delay=0.04, delays=0.03/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Aug 27 08:11:36 ip-10-0-10-154 postfix/qmgr[12743]: 0AF49181186C: removed
+
+In Listing 12-14, we’ve connected to our Postfix server, been authenticated, and submitted our e-mail.

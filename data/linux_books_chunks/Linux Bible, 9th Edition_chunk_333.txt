@@ -1,0 +1,5 @@
+For software packages, you must be able to install packages 
+from Red Hat Network, a remote repository, or the local ﬁ lesystem. Finally, you 
+must be able to properly install a new kernel and choose that or some other ker-
+nel to boot up when the system starts. The cron facility is described in Chapter 
+13.

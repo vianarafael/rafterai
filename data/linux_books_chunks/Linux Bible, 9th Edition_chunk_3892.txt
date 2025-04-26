@@ -1,0 +1,6 @@
+A package from a third-party repository may 
+break if the creators don’t provide a new version when dependent packages change.
+
+ ■ Solve kernel-related dependencies. If you get third-party RPM packages for such 
+things as video cards or wireless network cards that contain kernel drivers and you 
+install a later kernel, those drivers no longer work.

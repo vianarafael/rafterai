@@ -1,0 +1,6 @@
+So mail.info 
+matches all messages from the mail service that are info level and above.
+
+As for where the messages go, most messages are directed to ﬁ les in the /var/log  directory. 
+You can, however, direct messages to a device (such as /dev/console) or a remote log host 
+(such as @loghost.example.com).

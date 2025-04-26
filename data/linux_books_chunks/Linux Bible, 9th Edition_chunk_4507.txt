@@ -1,0 +1,10 @@
+Using the preceding example, httpd can only listen on the port SELinux allows it to listen 
+
+670
+
+c24.indd  04/15/2015  Page 671
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+on. SELinux prevents httpd from accessing any ﬁ le that doesn’t have the proper security 
+context set and denies insecure activities that are not explicitly enabled in SELinux.

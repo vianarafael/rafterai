@@ -1,0 +1,10 @@
+Removing Packages with aptitude
+
+$ sudo aptitude remove nmap
+The following packages will be REMOVED:
+  libblas-common{u} libblas3{u} liblinear3{u} liblua5.2-0{u} libxslt1.1{u} lua-lpeg{u} 
+ndiff{u} nmap python-bs4{u} python-chardet{u} python-html5lib{u} python-lxml{u} python-pkg-
+resources{u}
+  python-six{u}
+0 packages upgraded, 0 newly installed, 14 to remove and 4 not to upgrade.
+Need to get 0 B of archives.

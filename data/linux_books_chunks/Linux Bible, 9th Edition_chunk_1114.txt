@@ -1,0 +1,2 @@
+Setting the nice value for one process, however, doesn’t apply to child processes that a 
+ process might start up or any other related processes that are part of a larger service.

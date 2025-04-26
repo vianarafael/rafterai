@@ -1,0 +1,9 @@
+Masquerading is common on dynamic internet
+interfaces  (broadband  modem/routers).  Masquerade  configuration  with  iptables  uses  a
+dynamic target source address.
+
+13.9. dnat (destination nat)
+
+A dnat device is changing the destination ip-address when a packet passes our nat.
+
+13.10.

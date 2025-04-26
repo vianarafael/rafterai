@@ -1,0 +1,9 @@
+(If 
+vi doesn’t suit you, see the sidebar “Exploring Other Text Editors” for other options.)
+
+The vi editor is difﬁ cult to learn at ﬁ rst, but after you know it, you never have to use a 
+mouse or a function key—you can edit and move around quickly and efﬁ ciently within ﬁ les 
+just by using the keyboard.
+
+Exploring Other Text Editors
+Dozens of text editors are available for use with Linux.

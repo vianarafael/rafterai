@@ -1,0 +1,9 @@
+We need to run the following command:
+
+$ aws configure
+AWS Access Key ID [None]: ALIAIJBASN4NOMJ4FLTR
+AWS Secret Access Key [None]: +GDHpm+FLPj311tu6YJ29c9luMlQTHwntgy7vgs2
+Default region name [None]: ap-southeast-2
+Default output format [None]: json
+
+Here we have used the aws configure command to add our AWS access key ID and our access secret.

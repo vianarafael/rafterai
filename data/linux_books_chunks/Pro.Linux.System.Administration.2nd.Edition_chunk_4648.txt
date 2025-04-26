@@ -1,0 +1,6 @@
+TLS_CACERT 
+
+points to our CA certificate file, which will contain our example.com CA certificate. On some clients you 
+may have installed the CA cert into the default location of /etc/ssl/certs. The demand we specify in the 
+TLS_REQCERT field means that we will try to verify the certificate, and if it cannot be verified, we cancel the 
+connection (this is the default).

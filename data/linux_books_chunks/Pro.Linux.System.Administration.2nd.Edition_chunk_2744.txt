@@ -1,0 +1,10 @@
+In this case, use ssh-keygen -l 
+-f /etc/ssh/ssh_host_rsa_key.pub to obtain the fingerprint for the host rsa key.
+
+464
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+You’ll note that SSH assumes our username on the remote host is the same as the user we’re logged in 
+
+as locally.

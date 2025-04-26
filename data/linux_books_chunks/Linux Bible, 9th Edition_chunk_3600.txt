@@ -1,0 +1,5 @@
+Suppose, for example, that you are sharing /home from a computer named oak. 
+The computers named maple and spruce could each mount that directory on their own
+/home directories. If you gave all users the same username/UID on all machines, you could 
+have the same /home/user directory available for each user, regardless of which computer 
+he or she is logged into.

@@ -1,0 +1,5 @@
+Booting to single-user mode, or maintenance mode, using the GRUB2 menu
+
+You’ll see the details here as you saw in the grub.cfg menuentry. The line we are interested in this 
+particular example is the linux /vmlinuz-4.4.0-15-generic.efi.signed… line. Use the arrow keys to 
+navigate to the end of that line.

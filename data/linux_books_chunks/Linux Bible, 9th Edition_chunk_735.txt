@@ -1,0 +1,4 @@
+For example, in Fedora or Red Hat Enterprise Linux, your prompt 
+is set to include the following information: your username, your hostname, and the base 
+name of your current working directory. That information is surrounded by brackets and 
+followed by a dollar sign (for regular users) or a pound sign (for the root user).

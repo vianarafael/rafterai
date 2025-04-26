@@ -1,0 +1,31 @@
+Files and directories must be labeled 
+public_content_rw_t.
+
+ ■ samba_enable_home_dirs—Allows Samba to share users’ home directories.
+
+ ■ samba_export_all_ro—Allows Samba to share any ﬁ le and directory read-only.
+
+ ■ use_samba_home_dirs—Allows a remote Samba server to access home directories 
+
+on the local machine.
+
+ ■ samba_create_home_dirs—Allows Samba to create new home directories (for 
+
+example, via PAM).
+
+ ■ samba_export_all_rw—Allows Samba to share any ﬁ le or directory read/write.
+
+The following Booleans affect Samba’s ability to share directories that are themselves 
+mounted from other remote services (such as NFS) or to act as a Windows domain controller:
+
+ ■ samba_share_fusefs—Allows Samba to export ntfs/fusefs volumes.
+
+ ■ samba_share_nfs—Allows Samba to export NFS volumes.
+
+ ■ samba_domain_controller—Allows Samba to act as the domain controller, add 
+
+users and groups, and change passwords.
+
+19
+
+The setsebool command is used to turn the SELinux Booleans on or off.

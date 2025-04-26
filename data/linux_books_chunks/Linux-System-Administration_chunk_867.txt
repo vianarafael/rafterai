@@ -1,0 +1,22 @@
+iptraf
+
+Use iptraf for a colourful display of ip traffic over the network cards.
+
+[root@centos65 ~]# iptraf 
+[root@centos65 ~]# iptraf -i eth0
+
+225
+
+resource monitoring
+
+19.12. nmon
+
+Another popular and all round tool is nmon.
+
+19.13. htop
+
+You can use htop instead of top.
+
+226
+
+Chapter 20.

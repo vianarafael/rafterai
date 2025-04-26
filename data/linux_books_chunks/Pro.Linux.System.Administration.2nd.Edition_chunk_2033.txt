@@ -1,0 +1,7 @@
+We are going to install nginx in another common 
+directory for installing your own packages, /opt.
+
+The other options to keep an eye out for are those that determine available features in the software. 
+
+They determine whether third-party libraries should be checked for during configuration and used if 
+present. These options are usually prefixed by --with- and --without-.

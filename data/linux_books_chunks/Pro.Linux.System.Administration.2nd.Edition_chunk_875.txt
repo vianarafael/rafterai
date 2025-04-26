@@ -1,0 +1,12 @@
+In this case, when executing commands, Linux will look for the command first in the /home/
+ataylor/scripts directory before anywhere else on the host.
+
+You can add a directory to the end of the path using the same basic construct:
+
+$ PATH=$PATH:/home/ataylor/scripts
+
+Then when you run a command, Linux will search all the directories in your path, and if a matching 
+
+command or application isn’t found, it will search your suffixed directory.
+
+Any string of the type KEY=value is assumed to be an environment variable assignment by Bash.

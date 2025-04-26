@@ -1,0 +1,8 @@
+Here are two common ways to launch a Terminal window 
+from a Linux desktop:
+
+ ■ Right-click the desktop. In the context menu that appears, if you see Open in 
+Terminal, Shells, New Terminal, Terminal Window, Xterm, or some similar item, 
+select it to start a Terminal window. (Some distributions have disabled this feature.)
+
+ ■ Click the panel menu.

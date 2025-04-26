@@ -1,0 +1,9 @@
+This can cause a user to click a malicious web link or open an e-mail with an 
+embedded link.
+
+ ■ Note  You can read more about Dns cache poisoning at http://en.wikipedia.org/wiki/ 
+DNS_cache_poisoning.
+
+Luckily BIND provides a way for us to mitigate this problem with DNSSEC, the security extension of the 
+
+DNS protocol.

@@ -1,0 +1,6 @@
+Make sure your index page, if you have one, has one of the names speci-
+ﬁ ed in the relevant DirectoryIndex directive, or add an Options Indexes line 
+to the appropriate Directory or Location section for that object.
+
+ ■ Script crashed—“Premature end of script headers” errors can indicate that a script 
+is crashing before it ﬁ nishes.

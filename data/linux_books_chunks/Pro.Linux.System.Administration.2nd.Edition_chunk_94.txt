@@ -1,0 +1,15 @@
+a virtual machine  
+
+ ■ Note 
+usually includes a “virtual DVD,” where you would mount the installation ISO to boot from. We show you this in 
+the next chapter.
+
+After loading your installation media and starting your host, you’ll see the CentOS installation splash 
+
+screen shown in Figure 2-1.
+
+13
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-1.

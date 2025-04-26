@@ -1,0 +1,9 @@
+To place a program in the background at the time 
+you run the program, type an ampersand (&) at the end of the command line, like this:
+
+$ find /usr > /tmp/allusrfiles &
+[3] 15971
+
+This example command ﬁ nds all ﬁ les on your Linux system (starting from /usr), 
+prints those ﬁ lenames, and puts those names in the ﬁ le /tmp/allusrfiles. The 
+ampersand (&) runs that command line in the background.

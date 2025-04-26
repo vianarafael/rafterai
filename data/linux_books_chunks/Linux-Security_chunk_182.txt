@@ -1,0 +1,4 @@
+encryption with openssl
+
+Another way to create users with a password is to use the -p option of useradd, but that
+option requires an encrypted password.

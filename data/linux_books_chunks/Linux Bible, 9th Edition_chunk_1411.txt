@@ -1,0 +1,6 @@
+You can select to have Rhythmbox or some other music player begin playing the 
+ﬁ les by selecting that player from this box.
+
+ ■ Photos—When inserted media (such as a memory card from a digital camera) 
+contains digital images, you are asked what to do with those images. You can 
+select to do nothing.

@@ -1,0 +1,7 @@
+This will provide us with the latest 3.7.x 
+version of Gluster too.
+
+$ sudo add-apt-repository ppa:gluster/glusterfs-3.7 && sudo aptitude update
+$ sudo aptitude install –y glusterfs-server
+
+Now for both Ubuntu and CentOS let’s make sure that the service starts on boot.

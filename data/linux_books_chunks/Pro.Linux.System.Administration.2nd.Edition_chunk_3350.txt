@@ -1,0 +1,15 @@
+By default, the PLAIN mechanism that 
+accepts users and passwords in plain text is usually always enabled.
+
+ ■ Caution 
+steal your user’s credentials from the network.
+
+ You should use the PLAIN mechanism only if you have tlS enabled; otherwise, an attacker could 
+
+551
+
+Chapter 12 ■ Mail ServiCeS
+
+You can see the other types available to Dovecot in Table 12-1.
+
+Table 12-1.

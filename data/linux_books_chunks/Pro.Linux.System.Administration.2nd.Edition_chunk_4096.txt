@@ -1,0 +1,6 @@
+The other alternatives are to store a separate MariaDB database server (or PostgreSQL, if you want) on your 
+backup host or to use a SQLite database on the backup host.
+
+On the headoffice.example.com MariaDB host, we will create a new database for Bareos and grant 
+
+access to the user bareos from our backup.example.com host.

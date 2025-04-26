@@ -1,0 +1,4 @@
+It is possible, however, that even if your CPU comes 
+with that support, it may not be enabled in the BIOS. To enable it, go to the 
+BIOS Setup screen and look for a Virtualization selection (possibly under the 
+Performance category).

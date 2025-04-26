@@ -1,0 +1,5 @@
+Many of the options available with it mirror those found in useradd. The 
+options that can be used with this command include the following:
+
+ ■ -c username—Change the description associated with the user account. Replace 
+username with the name of the user account (-c jake).

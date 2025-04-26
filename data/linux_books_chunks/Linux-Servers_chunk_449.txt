@@ -1,0 +1,8 @@
+Use wireshark to capture the four broadcasts when a client receives an ip (for the first
+time).
+
+6. Use wireshark to capture a DHCPNAK and a DHCPrelease.
+
+7. Reserve a configuration for a particular client (using mac address).
+
+8.

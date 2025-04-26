@@ -1,0 +1,3 @@
+VNC Client
+
+You can now use the vncviewer from another machine to connect to your vnc server.

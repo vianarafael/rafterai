@@ -1,0 +1,5 @@
+Hard links are 
+
+references that connect your file to the physical data on a storage volume. There can be multiple links to 
+a particular piece of data. However, hard links are different from the symbolic links we introduced earlier 
+(indicated by a file type of l), although both linkages are created with the same command, ln.

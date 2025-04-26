@@ -1,0 +1,12 @@
+The following is an example of the SELinux policy rules with Booleans on a Fedora Linux 
+system:
+
+# getsebool -a
+abrt_anon_write --> off
+abrt_handle_event --> off
+...
+xserver_object_manager --> off
+zabbix_can_network --> off
+
+To see a speciﬁ c policy that can be modiﬁ ed by a Boolean, the getsebool command is 
+used again.

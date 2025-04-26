@@ -1,0 +1,4 @@
+The UUID (universal unique 
+identifier) of the device is "fa56e72e-ea22-43ca-9a90-e19d64c0c431", and this is a unique identifier assigned 
+to this device and is used by the NetworkManager to map the device. You can declare whether the interface 
+will initialize at boot up by specifying ONBOOT=”yes”. The type of interface is declared by TYPE=”Ethernet”.

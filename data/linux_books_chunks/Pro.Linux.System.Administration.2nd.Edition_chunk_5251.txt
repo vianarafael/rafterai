@@ -1,0 +1,5 @@
+We will now show you how to install and configure it.
+
+Kibana Installation and Configuration
+Kibana has been packaged by Elastic Co. as well and is available from their APT (and YUM) repository. This 
+makes installation again easy for us.

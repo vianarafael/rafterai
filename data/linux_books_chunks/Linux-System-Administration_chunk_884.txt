@@ -1,0 +1,15 @@
+This url can be different for you.
+
+root@ubu1204~# apt-get update
+Ign http://be.archive.ubuntu.com precise InRelease
+Ign http://extras.ubuntu.com precise InRelease
+Ign http://security.ubuntu.com precise-security InRelease            
+Ign http://archive.canonical.com precise InRelease                                         
+Ign http://be.archive.ubuntu.com precise-updates InRelease                                 
+...
+Hit http://be.archive.ubuntu.com precise-backports/main Translation-en                                                             
+Hit http://be.archive.ubuntu.com precise-backports/multiverse Translation-en                                                       
+Hit http://be.archive.ubuntu.com precise-backports/restricted Translation-en                                                       
+Hit http://be.archive.ubuntu.com precise-backports/universe Translation-en                                                         
+Fetched 13.7 MB in 8s (1682 kB/s)                                                                                                  
+Reading package lists...

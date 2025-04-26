@@ -1,0 +1,2 @@
+It conflicts 
+with the way that YUM works. It is also usually annoying to install via RPM.

@@ -1,0 +1,5 @@
+If you were lucky, someone would have already compiled it in a form that would 
+run on your computer.
+
+The form of the package could be a tarball, containing executable ﬁ les (commands), 
+ documentation, conﬁ guration ﬁ les, and libraries.

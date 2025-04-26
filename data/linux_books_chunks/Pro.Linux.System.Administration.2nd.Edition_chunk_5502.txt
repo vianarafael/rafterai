@@ -1,0 +1,4 @@
+You can then build 
+hosts using this distribution and profile.
+
+We have mounted our ISO files to /mnt/centos and /mnt/ubuntu, respectively.

@@ -1,0 +1,6 @@
+In Chapter 26, I had you do a standard Linux installation to create a virtual machine that runs 
+on a Linux hypervisor. In this chapter, I show you how to use cloud images to start up a fresh 
+Linux system.
+
+First, I describe how to use cloud-init to manually combine a Linux cloud image with 
+ conﬁ guration information, to allow it to run in a variety of environments.

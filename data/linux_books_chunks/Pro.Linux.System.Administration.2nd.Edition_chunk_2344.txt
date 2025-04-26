@@ -1,0 +1,2 @@
+It spans one physical 
+volume and contains two logical volumes. You can list these via the lvs command.

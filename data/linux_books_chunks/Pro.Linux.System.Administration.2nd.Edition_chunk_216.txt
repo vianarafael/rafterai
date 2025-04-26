@@ -1,0 +1,6 @@
+In this exercise we’ll use the full-size ISO from www.ubuntu.
+com/download/server.
+
+ ■ Note  Ubuntu and Debian make good use of net installers, providing installation flexibility. a net installer is 
+a small version of the operating system usually provided as an ISO file that you can burn to a CD/USB drive and 
+boot from. It contains a simple kernel and the distribution’s installer.

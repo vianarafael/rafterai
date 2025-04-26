@@ -1,0 +1,11 @@
+For example, entries in the Mount 
+Options fi eld turn green when they are valid and black when they are not.
+
+561
+
+c21.indd  04/01/2015  Page 562
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Hostname not set—If your hostname is not set properly, you can check through 
+the processing of rc.sysinit to see what might have gone wrong.

@@ -1,0 +1,4 @@
+Other distributions, most notably the Ubuntu distribution, 
+disable the root user’s password. On Ubuntu, you are assumed to never use the root user, but rather a 
+special command called sudo. The sudo command allows you to run commands with the privileges of the 
+root user without logging in as that user. We’ll talk about the sudo command in Chapter 5.

@@ -1,0 +1,52 @@
+All processes that can be 
+started or stopped at a given runlevel are controlled by a script (called an “init script” or an 
+“rc script”) in /etc/rc.d/init.d
+
+List of rc scripts on a typical system
+
+anacron    halt       kudzu    ntpd        rusersd   syslog 
+ypxfrd
+
+apmd       identd     lpd      portmap     rwalld    vncserver
+
+atd        ipchains   netfs    radvd       rwhod     xfs
+
+autofs     iptables   network  random      sendmail  xinetd
+
+crond      kdcrotate  nfs      rawdevices  single    ypbind
+
+functions  keytable   nfslock  rhnsd       snmpd     yppasswdd
+
+gpm        killall    nscd     rstatd      sshd      ypserv
+
+Selecting a process to run or be stopped in a given runlevel is done by creating symbolic 
+
+20
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+links in the  /etc/rc.d/rcN.d/ directory, where N is a runlevel.
+
+Example 1: selecting httpd process for runlevel 3:
+
+ln -s  /etc/rc.d/init.d/httpd /etc/rc.d/rc3.d/S85httpd
+
+Notice that the name of the link is the same as the name of the process and is preceded 
+by an S for start and a number representing the order of execution.
+
+Example 2: stopping httpd process for runlevel 3:
+
+rm /etc/rc.d/rc3.d/S85httpd
+
+ln -s  /etc/rc.d/init.d/httpd /etc/rc.d/rc3.d/K15httpd
+
+This time the name of the link starts with a K for kill to make sure the process is stopped 
+when switching from one runlevel to another.
+
+Starting Local scripts
+
+We want to run a script at a given run level.

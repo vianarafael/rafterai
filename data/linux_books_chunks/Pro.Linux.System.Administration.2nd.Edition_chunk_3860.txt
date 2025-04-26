@@ -1,0 +1,13 @@
+We have a local Epson Stylus 
+
+printer attached to our host via USB, as shown in Figure 13-8.
+
+630
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Figure 13-8.  Selecting the USB printer
+
+You will also notice that we can add other types of network printers, including printing via our Samba 
+
+server.

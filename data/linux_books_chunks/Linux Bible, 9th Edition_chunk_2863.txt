@@ -1,0 +1,11 @@
+The job conﬁ guration ﬁ le must:
+
+ ■ Not be empty
+
+ ■ Be syntactically correct
+
+ ■ Contain at least one legal stanza
+
+Although there are only three rules, creating or modifying a service job conﬁ guration ﬁ le 
+correctly can be a rather difﬁ cult task. See http://upstart.ubuntu.com/cookbook 
+for help on the syntax needed for these ﬁ les.

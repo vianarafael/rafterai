@@ -1,0 +1,6 @@
+We are now going to create a database on that host to house 
+our catalog. Along the way, we’ll configure the MariaDB host to be backed up. First, we need to create the 
+correct accounts and the database on our MariaDB host.
+
+We will assume that the headoffice.example.com host has the MariaDB database server installed and 
+that we are running our backups from backup.example.com.

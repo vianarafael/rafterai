@@ -1,0 +1,12 @@
+DHCP-SRV1 answers with a dhcp ack (short for acknowledge).
+
+All four broadcasts (or five when you count both offers) can be layer 2 ethernet broadcast
+to mac address ff:ff:ff:ff:ff:ff and a layer 3 ip broadcast to 255.255.255.255.
+
+The same story can be read in rfc 2131.
+
+161
+
+introduction to dhcp
+
+12.3.

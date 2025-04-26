@@ -1,0 +1,9 @@
+You learned how to do the following:
+
+•	 Check CPU usage
+
+•	 Check memory and swap space usage
+
+We also introduced more advanced system metric collection tools such as Collectd and Graphite, which 
+
+will help you monitor resource usage and performance on an ongoing basis.

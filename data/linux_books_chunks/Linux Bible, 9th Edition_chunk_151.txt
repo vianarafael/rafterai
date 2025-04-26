@@ -1,0 +1,7 @@
+Commands and 
+code are shown in a monospaced font:
+
+This is how code looks.
+
+In the event that an example includes both input and output, the monospaced font is still 
+used, but input is presented in bold type to distinguish the two.

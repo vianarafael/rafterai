@@ -1,0 +1,13 @@
+kill
+
+When a process stops running, the process dies, when you want a process to die, you kill it.
+
+1.1.6. daemon
+
+Processes that start at system startup and keep running forever are called daemon processes
+or daemons. These daemons never die.
+
+1.1.7. zombie
+
+When a process is killed, but it still shows up on the system, then the process is referred to
+as zombie.

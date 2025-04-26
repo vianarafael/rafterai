@@ -1,0 +1,10 @@
+In the following code, the account is set to be 
+locked 5 days after tim’s password expires, by using only the -I option.
+
+# chage -I 5 tim
+# chage -l tim | grep Password
+Password expires                 : never
+Password inactive                : never
+
+Notice that no settings changed! Without a password expiration set, the -I option has no 
+effect.

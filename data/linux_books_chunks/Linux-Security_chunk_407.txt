@@ -1,0 +1,8 @@
+A NAT can hide private addresses from the internet.
+
+NAT was developed to mitigate the use of real ip addresses, to allow private address ranges
+to  reach  the  internet  and  back,  and  to  not  disclose  details  about  internal  networks  to  the
+outside.
+
+The nat table in iptables adds two new chains. PREROUTING allows altering of packets
+before they reach the INPUT chain.

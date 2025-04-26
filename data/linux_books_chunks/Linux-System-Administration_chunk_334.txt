@@ -1,0 +1,23 @@
+This  screenshot  starts  with  an
+unpartitioned (but gpt labeled) disk.
+
+(parted) print
+Model: ATA VBOX HARDDISK (scsi)
+Disk /dev/sdb: 8590MB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start  End  Size  File system  Name  Flags
+
+(parted)
+
+This example shows how to create two primary partitions of equal size.
+
+(parted) mkpart primary 0 50%
+Warning: The resulting partition is not properly aligned for best performance.
+Ignore/Cancel? I
+(parted) mkpart primary 50% 100%
+(parted)
+
+Verify with print and exit with quit.

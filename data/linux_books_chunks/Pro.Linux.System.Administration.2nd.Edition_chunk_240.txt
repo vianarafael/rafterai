@@ -1,0 +1,13 @@
+Choosing encrypted LVM to partition disks
+
+62
+
+Next, select the drive you wish to perform this partitioning on. We are given only one disk to select, as 
+
+you can see in Figure 2-55.
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-55.  Choosing the disk to partition
+
+If the disk already contains partitions, you will be prompted to overwrite them.

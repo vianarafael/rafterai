@@ -1,0 +1,7 @@
+In Chapter 19, we’ll look closely at 
+configuration management tools and how to overcome these sorts of issues.
+
+The third difference is that distributions also have differing support models. Some, like Debian, CentOS, 
+
+and Fedora, are maintained by a community of volunteers. Others, like Red Hat Enterprise Linux and 
+Ubuntu, are maintained and supported by a commercial vendor.

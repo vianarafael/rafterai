@@ -1,0 +1,7 @@
+We pass the –x to tell tar to extract the archive. The –f is used to provide the file to work on.
+
+$ tar -xvzf nginx-1.10.1.tar.gz
+
+ ■ Tip 
+If you don’t know what compression a tarball uses, you can find out by using the file command. run 
+file <tarball> and file will check the tarball for magic bytes, which indicate the file type.

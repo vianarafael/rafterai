@@ -1,0 +1,8 @@
+By default, output is sorted by process ID number.
+
+$ ps -eo pid,user,uid,group,gid,vsz,rss,comm | less
+  PID USER     GROUP      GID    VSZ   RSS COMMAND
+    1 root     root         0  19324  1320 init
+    2 root     root         0      0     0 kthreadd
+
+If you want to sort by a speciﬁ c column, you can use the sort= option.

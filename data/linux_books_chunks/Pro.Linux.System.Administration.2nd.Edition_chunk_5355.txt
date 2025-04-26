@@ -1,0 +1,20 @@
+For 
+example, our gateway.example.com host would be defined like so:
+
+define host{
+          use                      linux-server
+          host_name          gateway.example.com
+          alias                    gateway.example.com
+          address               192.168.0.254
+          }
+
+ ■ Tip 
+
+ don’t forget you need to restart nagios after adding any new configuration.
+
+891
+
+Chapter 18 ■ Logging and Monitoring
+
+Here we’ve defined a host object for gateway.example.com and specified we’re going to use the host 
+templates we’ve just explored.

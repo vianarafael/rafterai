@@ -1,0 +1,6 @@
+Conﬁ guration of rsyslog is similar to the  conﬁ guration 
+of its predecessor, syslog. However, rsyslog allows you to add modules to more 
+ speciﬁ cally manage and direct log messages.
+
+In Red Hat Enterprise Linux 7 and recent Fedora releases, the rsyslog facility leverages 
+messages that are gathered and stored in the systemd journal.

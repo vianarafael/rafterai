@@ -1,0 +1,5 @@
+Both packages provide the systemd-journal-gateway, systemd-
+journal-upload, and systemd-journal-remote services.
+
+The gateway service is an HTTP server that can be used to query journal logs. The remote service is 
+used to receive logs from other servers. The upload, of course, is used to upload logs to a remote server.

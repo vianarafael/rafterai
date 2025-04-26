@@ -1,0 +1,12 @@
+Listing 5-3 shows you how to change the default shell for your new users, and Table 5-3 shows the 
+additional options available for use with the -D option.
+
+152
+
+Chapter 5 ■ Users and GroUps
+
+Listing 5-3.  Changing useradd Defaults with the -D Option
+
+$ sudo useradd -D -s /bin/bash
+
+ You can also change your default shell with the chsh command.

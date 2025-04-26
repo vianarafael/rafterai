@@ -1,0 +1,4 @@
+This passphrase is  simply 
+a password or phrase chosen by the user at the time of encryption.
+
+To decrypt the ﬁ le, use the gpg2 utility again.

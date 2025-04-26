@@ -1,0 +1,10 @@
+(You can disable the firewall with the --disabled option.) We also enabled SELinux—if you really need to, 
+you can disable using the selinux --disabled option.
+
+You can configure your network connections with Kickstart like so:
+
+# Network information
+network --bootproto=static --device=eth0 --gateway=192.168.0.254 
+--ip=192.168.0.1 --nameserver=192.168.0.1 --netmask=255.255.255.0 --onboot=on
+
+You can also specify network configuration for one or more interfaces using the network option.

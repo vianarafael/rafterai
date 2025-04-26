@@ -1,0 +1,6 @@
+It is a replacement for BIOS and older systems will 
+
+use BIOS. They both perform a similar task and we will explain each of them to you, starting with BIOS.
+
+Powering On
+Let’s look in a bit more detail at what happens when you boot your host.

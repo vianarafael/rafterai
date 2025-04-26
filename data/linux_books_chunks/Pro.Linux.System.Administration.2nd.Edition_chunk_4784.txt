@@ -1,0 +1,6 @@
+PAM provides authentication, authorization, and password-changing abilities for 
+hosts against LDAP servers. PAM is configured via the files located in the /etc/pam.d directory. As described 
+in Chapter 5, the main PAM file on your CentOS host is the /etc/pam.d/system-auth file. Listing 16-6 shows 
+an example of the settings required to establish LDAP authentication on your host.
+
+Listing 16-6.

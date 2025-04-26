@@ -1,0 +1,15 @@
+If an e-mail server responds, it will try to submit the e-mail.
+
+If an e-mail server does not respond, your e-mail server will try the next server 
+returned from the MX record in sequence.
+
+If no e-mail servers respond, your e-mail server will usually queue your e-mail to 
+try again later.
+
+If, after continued failures, the e-mail still can’t be delivered, the e-mail server 
+will report failure to the user via an e-mail.
+
+The destination server your e-mail server tries to send to could be the final destination of your e-mail, 
+
+or it could merely be a gateway that your e-mail passes through onto one or more further e-mail servers until 
+it finally reaches its destination.

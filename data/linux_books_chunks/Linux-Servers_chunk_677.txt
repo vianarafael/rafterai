@@ -1,0 +1,12 @@
+Create a writable shared directory and use the "force user" and "force group" directives
+to force ownership of files.
+
+[userwrite]
+ path = /srv/samba/userwrite
+ comment = everyone writes files owned by smbguest
+ read only = no
+ guest ok = yes
+ force user = smbguest
+ force group = smbguest
+
+4.

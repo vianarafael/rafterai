@@ -1,0 +1,23 @@
+Common Index Types
+
+Type
+
+sub
+
+eq
+
+pres
+
+Description
+
+Useful for optimizing string searches that contain wildcards like cn=Jane*
+
+Useful for optimizing searches for exact strings like sn=Smith
+
+Useful for optimizing searches for object classes or attributes, like objectclass=person
+
+approx
+
+Useful for optimizing searches for sounds-like searches, like sn~=Smi*
+
+Other index types are available, and you can read about them on the slapd.conf man page.

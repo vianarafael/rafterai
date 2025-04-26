@@ -1,0 +1,10 @@
+Run these commands to copy the /etc/services ﬁ le to the /etc/skel/ direc-
+tory; then add a new user to the system named mjones, with a full name of Mary 
+Jones and a home directory of /home/maryjones. List her home directory to make 
+sure the services ﬁ le is there.
+
+# cp /etc/services /etc/skel/
+# useradd -d /home/maryjones -c "Mary Jones" mjones
+# ls -l /home/maryjones
+total 628
+-rw-r--r--.

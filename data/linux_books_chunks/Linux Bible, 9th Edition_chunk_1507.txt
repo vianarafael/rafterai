@@ -1,0 +1,10 @@
+Language support. You have a chance to add support for additional languages 
+(beyond what you set by default earlier). Select Done when you are ﬁ nished.
+
+7.  Keyboard. Choose from different types of keyboards available with the languages 
+
+you selected earlier. Type some text to see how the keys are laid out.
+
+9
+
+8.  Installation Source.

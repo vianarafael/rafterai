@@ -1,0 +1,7 @@
+As 
+the virtual machine boots up, a console window should open allowing you to log into the 
+new cloud virtual machine.
+
+Investigating the cloud instance
+To investigate the cloud image we created you can open up the running instance and look 
+inside.

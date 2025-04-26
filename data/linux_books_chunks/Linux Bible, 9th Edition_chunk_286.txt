@@ -1,0 +1,7 @@
+Fedora is the Linux 
+ system Red Hat uses to engage the Linux development community and encourage those 
+who want a free Linux for personal use and rapid development.
+
+Fedora includes more than 16,000 software packages, many of which keep up with the 
+latest available open source technology. As a user, you can try the latest Linux desktop, 
+server, and administrative interfaces in Fedora for free.

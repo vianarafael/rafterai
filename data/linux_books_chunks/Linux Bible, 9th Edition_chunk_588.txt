@@ -1,0 +1,10 @@
+To ﬁ nd out what your default 
+login shell is, type the following commands:
+
+$ who am i
+chris   pts/0        2014-10-21 22:45 (:0.0)
+$ grep chris /etc/passwd
+chris:x:13597:13597:Chris Negus:/home/chris:/bin/bash
+
+The who am i command shows your username, and the grep command (replacing chris 
+with your name) shows the deﬁ nition of your user account in the /etc/password ﬁ le.

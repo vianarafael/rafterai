@@ -1,0 +1,7 @@
+How to determine this was covered in the 
+“Understanding the Initialization Daemon” section of this chapter. The rest of this section 
+is organized into subsections on the various initialization daemons.
+
+Checking services for SysVinit systems
+To see all the services that are being offered by a Linux server using the classic SysVinit 
+daemon, use the chkconfig command.

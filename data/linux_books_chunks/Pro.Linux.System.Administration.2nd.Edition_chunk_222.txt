@@ -1,0 +1,9 @@
+Instead of installing just one server, MAAS can install thousands as soon as you plug the power in. We are 
+going to discuss this sort of provisioning in Chapter 19. You can also see that we can run some system checks 
+or boot into a rescue mode. In Chapter 9 we talk more about system recovery.
+
+54
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-42.

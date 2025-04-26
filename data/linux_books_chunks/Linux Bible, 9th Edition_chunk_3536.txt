@@ -1,0 +1,8 @@
+For graphical means 
+of accessing shares, you can use the ﬁ le managers available in both Windows (Windows 
+Explorer) and Linux (Nautilus, with the GNOME desktop).
+
+Accessing Samba shares in Linux
+Opening a ﬁ le manager in Linux can provide you access to the shared directories from 
+Linux (Samba) and Windows (SMB). How you access the ﬁ le manager is different on differ-
+ent Linux desktops.

@@ -1,0 +1,8 @@
+If you want a RAID rebuild to have less of a performance impact, at the cost of a longer wait, you can 
+lower this number.
+
+To make these changes permanent, add these key-value pairs to /etc/sysctl.conf.
+
+File System Tweaks
+Each time a file or directory is accessed, even if it’s only for reading, its last accessed time stamp (or atime) 
+needs to be updated and written to the disk.

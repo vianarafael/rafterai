@@ -1,0 +1,8 @@
+This allows that package to be managed by the package manager and updated accordingly.
+
+On Ubuntu we need to enable the site and make sure SSL is also enabled. We do that with the following:
+
+$ sudo a2ensite ldap.example.com.conf
+$ sudo a2enmod ssl
+
+On CentOS hosts, there is a lam.apache.conf file placed in the /etc/httpd/conf.d/ directory.

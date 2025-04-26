@@ -1,0 +1,2 @@
+This allows you to refer to machines by name, even if their address changes. 
+This is accomplished by setting up a cryptographic key that is shared by both the DNS and DHCP servers.

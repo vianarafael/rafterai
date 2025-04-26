@@ -1,0 +1,22 @@
+All this to see what calls are made
+when executing su - serena as root.
+
+root@deb503:~# ltrace -c -l /lib/libpam.so.0 su - serena
+serena@deb503:~$ exit
+logout
+% time     seconds  usecs/call     calls      function
+------ ----------- ----------- --------- --------------------
+ 70.31    0.014117       14117         1 pam_start
+ 12.36    0.002482        2482         1 pam_open_session
+  5.17    0.001039        1039         1 pam_acct_mgmt
+  4.36    0.000876         876         1 pam_end
+  3.36    0.000675         675         1 pam_close_session
+  3.22    0.000646         646         1 pam_authenticate
+  0.48    0.000096          48         2 pam_set_item
+  0.27    0.000054          54         1 pam_setcred
+  0.25    0.000050          50         1 pam_getenvlist
+  0.22    0.000044          44         1 pam_get_item
+------ ----------- ----------- --------- --------------------
+100.00    0.020079                    11 total
+
+29.5.

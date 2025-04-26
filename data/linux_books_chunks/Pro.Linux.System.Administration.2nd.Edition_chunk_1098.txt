@@ -1,0 +1,10 @@
+You 
+have the option to include a [Service] section, and we will discuss that shortly.
+
+195
+
+Chapter 6 ■ Startup and ServiCeS
+
+The [Unit] section has a Description and a Documentation setting, and they are pretty self-explanatory. 
+
+In Listing 6-7 we can see that the rescue target Requires the sysinit.target and rescue.service.

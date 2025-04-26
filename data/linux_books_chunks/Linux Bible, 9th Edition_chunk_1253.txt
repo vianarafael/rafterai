@@ -1,0 +1,12 @@
+This has helped encourage adoption of Linux 
+in organizations that had previously used Microsoft Windows systems in their data centers.
+
+The following sections describe some of the point-and-click types of interfaces that are 
+available for doing system administration in Linux.
+
+8
+
+Using system-confi g-* tools
+A set of graphical tools that comes with Fedora and Red Hat Enterprise Linux systems 
+can be launched from the Administration submenu of the System menu (GNOME 2), from 
+the Activities screen (GNOME 3), or from the command line.

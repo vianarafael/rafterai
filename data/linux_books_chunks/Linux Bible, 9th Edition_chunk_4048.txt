@@ -1,0 +1,6 @@
+Appropriate ﬁ re suppression systems and 
+proper ventilation for your server room must be implemented.
+
+In addition to basic physical security of a server room, attention should be given to what is 
+physically at each worker’s desk. Desktops and laptops may need to be locked. Fingerprints 
+are often left on computer tablets, which can reveal PINs and passwords.

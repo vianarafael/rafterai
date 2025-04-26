@@ -1,0 +1,6 @@
+You can run individual queries with rpm or use it in scripts to produce reports or 
+run common queries over and over again.
+
+Now that you understand the basic functioning of the yum command, your Fedora system 
+should be automatically conﬁ gured to connect to the main Fedora repository and the Fedora 
+Updates repository. You can try some yum command lines to install packages right now.

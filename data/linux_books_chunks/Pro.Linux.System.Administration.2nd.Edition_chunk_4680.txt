@@ -1,0 +1,7 @@
+We are going to give you examples of 
+how to use these commands and options in the upcoming next sections.
+
+Adding users to our LDAP server is easy now that we have created our LDIF file. Let’s look at the 
+
+complete LDIF file. As we have mentioned, we need to add the dc entry, or the top level of our DIT, at the top 
+of this file (remember to remove it from the file if it already exists).

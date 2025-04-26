@@ -1,0 +1,14 @@
+Some 
+ processes take longer to come up the ﬁ rst time after a fresh install, so you might 
+
+564
+
+c21.indd  04/01/2015  Page 565
+
+Chapter 21: Troubleshooting Linux
+
+want to wait for a few minutes to see if the script is still working and not just 
+ spinning forever.
+
+If you cannot get past a hanging service, you can reboot into an interactive startup mode, 
+where you are prompted before starting each service.

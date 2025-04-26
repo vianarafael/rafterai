@@ -1,0 +1,9 @@
+So besides caching of internet
+data (the original function of a proxy server) and besides firewall like restrictions based on
+www content, a proxy server is in the perfect position to alter the webpages that you visit.
+
+You could for instance change the advertising on a webpage (or remove certain advertisers),
+or like we do in this example; change all images so they are upside down.
+
+The server needs command line tools to manipulate images and a perl script that uses these
+tools  (and  wget  to  download  the  images  locally  and  serve  them  with  apache2).

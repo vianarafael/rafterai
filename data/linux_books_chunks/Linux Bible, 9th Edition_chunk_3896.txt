@@ -1,0 +1,3 @@
+If you are updating lots of packages at once, 
+you can exclude the packages that fail to get the others to work as you pursue the 
+problem with the broken ones.

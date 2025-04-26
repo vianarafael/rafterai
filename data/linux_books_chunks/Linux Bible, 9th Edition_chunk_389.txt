@@ -1,0 +1,7 @@
+Also, although you can 
+change ﬁ les, add software, and otherwise conﬁ gure your system, by default, the work you 
+do disappears when you reboot, unless you explicitly save that data to your hard drive or 
+external storage.
+
+The fact that changes you make to the live environment go away on reboot is very good for 
+trying out Linux, but not that great if you want an ongoing desktop or server system.

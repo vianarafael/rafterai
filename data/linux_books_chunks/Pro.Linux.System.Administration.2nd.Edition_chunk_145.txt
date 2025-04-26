@@ -1,0 +1,5 @@
+The drop-down allows us to select 
+the different options for our network interface. DHCP we have already discussed, Link-Local Only is only 
+useful for communicating to hosts in the local segment (not normally used) as is Shared to other computers. 
+Selecting these two options for your network interface will mean you will not be assigned an IP address that 
+can route through to the Internet.

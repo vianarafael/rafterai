@@ -1,0 +1,4 @@
+Instead 
+of ONBOOT, the ONPARENT entry says to bring up this interface if the parent (eth0) is 
+started and listen on address 192.168.0.141. You can bring up that interface by typing ifup 
+eth0:0.

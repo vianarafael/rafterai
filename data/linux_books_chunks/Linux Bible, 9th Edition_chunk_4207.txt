@@ -1,0 +1,6 @@
+To check one package, type debsums packagename.
+
+Scanning the filesystem
+Unless you have recently updated your system, binary ﬁ les should not have been modiﬁ ed 
+for any reason. To check for binary ﬁ le modiﬁ cation, you can use the ﬁ les’ modify time, or 
+mtime. The ﬁ le mtime is the time when the contents of a ﬁ le were last modiﬁ ed.

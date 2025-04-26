@@ -1,0 +1,9 @@
+We can test that by running another command 
+
+called netstat:
+
+$ sudo netstat –lpt
+tcp     0      0 *:http     *:*   LISTEN  18618/nc     .
+
+We launched the netstat command with three options. The –l option tells the netstat command to 
+list listening sockets.

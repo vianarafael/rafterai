@@ -1,0 +1,14 @@
+A new
+file name is mapped to an existing inode.
+
+paul@RHELv4u4:~/test$ ln file2 hardlink_to_file2
+paul@RHELv4u4:~/test$ ls -li
+total 24
+817266 -rw-rw-r--  1 paul paul  0 Feb  5 15:38 file1
+817270 -rw-rw-r--  2 paul paul 92 Feb  5 15:42 file2
+817268 -rw-rw-r--  1 paul paul  0 Feb  5 15:38 file3
+817270 -rw-rw-r--  2 paul paul 92 Feb  5 15:42 hardlink_to_file2
+paul@RHELv4u4:~/test$
+
+Both files have the same inode, so they will always have the same permissions and the same
+owner.

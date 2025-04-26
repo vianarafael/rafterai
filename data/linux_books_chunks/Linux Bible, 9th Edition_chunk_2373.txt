@@ -1,0 +1,10 @@
+The imklog module logs kernel messages.
+
+335
+
+c13.indd  04/01/2015  Page 336
+
+Part IV: Becoming a Linux Server Administrator
+
+Modules not enabled by default include the immark module, which allows --MARK-- 
+messages to be logged (used to indicate that a service is alive).

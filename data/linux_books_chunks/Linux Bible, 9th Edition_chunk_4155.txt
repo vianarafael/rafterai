@@ -1,0 +1,3 @@
+Companies such as Red Hat provide updated packages to ﬁ x the secu-
+rity ﬂ aws and deliver them in what is referred to as errata. Errata may consist of a single 
+updated package or multiple updated packages.

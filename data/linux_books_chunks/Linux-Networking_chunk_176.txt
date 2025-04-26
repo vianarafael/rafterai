@@ -1,0 +1,9 @@
+By the end of the
+Nineties, almost all computers in the world were able to speak tcp/ip.
+
+In my humble opinion, the main reason for the survival of tcp/ip over all the other protocols
+is its openness. Everyone is free to develop and use the tcp/ip protocol suite.
+
+1.5.2. rfc (request for comment)
+
+The  protocols  that  are  used  on  the  internet  are  defined  in  rfc's.

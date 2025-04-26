@@ -1,0 +1,4 @@
+In Listing 18-14 the first line declares our filebeat.prospectors. You can have different 
+types of input, and the prospectors file is where you declare them. In Listing 18-14 you can see we declare an 
+input_type value of log. The other alternative is an input type of stdin. We can then list the paths that we 
+want to ingest our logs from.

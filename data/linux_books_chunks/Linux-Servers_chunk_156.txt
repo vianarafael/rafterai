@@ -1,0 +1,39 @@
+This command will create
+links in sites-enabled.
+
+The links are not there yet...
+
+root@debian7:~# cd /etc/apache2/ 
+root@debian7:/etc/apache2# ls sites-available/ 
+chessclub42  choochoo  default  default-ssl  hunter2
+root@debian7:/etc/apache2# ls sites-enabled/ 
+000-default
+
+So we run the a2ensite command for all websites.
+
+root@debian7:/etc/apache2# a2ensite choochoo 
+Enabling site choochoo.
+To activate the new configuration, you need to run:
+  service apache2 reload
+root@debian7:/etc/apache2# a2ensite chessclub42 
+Enabling site chessclub42.
+To activate the new configuration, you need to run:
+  service apache2 reload
+root@debian7:/etc/apache2# a2ensite hunter2 
+Enabling site hunter2.
+To activate the new configuration, you need to run:
+  service apache2 reload
+
+The links are created, so we can tell apache.
+
+root@debian7:/etc/apache2# ls sites-enabled/ 
+000-default  chessclub42  choochoo  hunter2
+root@debian7:/etc/apache2# service apache2 reload 
+Reloading web server config: apache2.
+root@debian7:/etc/apache2#
+
+13
+
+apache web server
+
+1.2.6.

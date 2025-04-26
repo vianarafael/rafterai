@@ -1,0 +1,4 @@
+That means, by default, our 15-second metrics will be averaged over a minute after 7 days, losing that precise 
+resolution. That will continue until 90 days when they will again be averaged over a 15-minute period.
+
+You may need to update your firewalls to allow access to ports 2003 and 2004.

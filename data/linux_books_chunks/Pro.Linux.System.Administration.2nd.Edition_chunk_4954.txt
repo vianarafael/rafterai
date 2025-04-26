@@ -1,0 +1,19 @@
+However, if you are running CentOS, you will not be able to send metrics to port 2013 without 
+modifying SELinux.
+
+You can issue the following to allow Collectd to connect to the network using tcp:
+
+$ sudo getsebool collectd_tcp_network_connect
+collectd_tcp_network_connect --> off
+$ sudo setsebool collectd_tcp_network_connect on
+
+You should also check /var/log/audit/audit.log for any denied messages.
+
+Checking Logs
+
+Once we have restarted our carbon-cache, carbon-relay, and collectd service, you should see them making 
+connections to the services in the logs.
+
+Collectd will log to syslog in our configuration, and Graphite will log into the /var/log/carbon 
+
+directory.

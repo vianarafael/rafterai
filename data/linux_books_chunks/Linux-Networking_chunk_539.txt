@@ -1,0 +1,6 @@
+In the end, our hard working
+dns server will find an answer and report this back to the client.
+
+In the picture below, the clients asks for the ip address of linux-training.be. Our caching only
+server will contact the root server, and be refered to the .be server. It will then contact the .be
+server and be refered to one of the name servers of Openminds.

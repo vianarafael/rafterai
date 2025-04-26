@@ -1,0 +1,6 @@
+Environment variables are 
+variables that are exported to any new shells opened from the current shell. Type env to 
+see environment variables.
+
+You can type echo $VALUE, where VALUE is replaced by the name of a particular environ-
+ment variable you want to list.

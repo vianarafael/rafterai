@@ -1,0 +1,7 @@
+We will show you more on how we will use this user in our backup strategies in 
+Chapter 14.
+
+$ sudo useradd –u 903 exbackup
+
+Next, we need to create the directory /data/staff/sales. We will make exbackup the owner of the files 
+and directories in /data/staff.

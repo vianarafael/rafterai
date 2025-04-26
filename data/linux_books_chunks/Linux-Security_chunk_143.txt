@@ -1,0 +1,15 @@
+user management
+
+This chapter will teach you how to use useradd, usermod and userdel to create, modify
+and remove user accounts.
+
+You will need root access on a Linux computer to complete this chapter.
+
+12
+
+user management
+
+2.1. user management
+
+User management on Linux can be done in three complementary ways. You can use the
+graphical tools provided by your distribution.

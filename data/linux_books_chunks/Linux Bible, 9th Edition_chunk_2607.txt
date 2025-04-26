@@ -1,0 +1,6 @@
+Features available in Linux can go well beyond 
+that by providing software that supports the actual network infrastructure needed by 
+host  computers to communicate.
+
+This section introduces you to a few of the network infrastructure types of services avail-
+able in Linux.

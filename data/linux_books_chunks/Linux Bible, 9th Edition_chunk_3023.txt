@@ -1,0 +1,8 @@
+Type usernames into the Users box and 
+click Add to allow access to the printer for only those names you enter.
+
+Now you can conﬁ gure other computers to use your printer, as described in the section 
+“Setting Up Printers” in this chapter. If you try to print from another computer and it 
+doesn’t work, try these troubleshooting tips:
+
+ ■ Open your firewall.

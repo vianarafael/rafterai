@@ -1,0 +1,14 @@
+Select Terminal from an application menu on your desktop (it is located on dif-
+
+ferent menus for different systems).
+
+b. Run the top command (to watch processes currently running on your sys-
+
+tem), and then type a capital M to sort processes by those consuming the most 
+memory.
+
+c. From the Terminal window, select File and Open Terminal to open a second 
+
+Terminal window.
+
+d.

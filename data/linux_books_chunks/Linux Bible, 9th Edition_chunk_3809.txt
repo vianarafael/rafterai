@@ -1,0 +1,15 @@
+After the 
+ computer boots up completely, you can log into the system and type the following  command 
+to capture these kernel messages in a ﬁ le (then view them with the less command):
+
+# dmesg > /tmp/kernel_msg.txt
+# less /tmp/kernel_msg.txt
+
+559
+
+c21.indd  04/01/2015  Page 560
+
+Part IV: Becoming a Linux Server Administrator
+
+I like to direct the kernel messages into a ﬁ le (choose any name you like) so the messages can 
+be examined later or sent to someone who can help debug any problems.

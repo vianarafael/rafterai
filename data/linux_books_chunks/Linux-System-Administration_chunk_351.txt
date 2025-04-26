@@ -1,0 +1,14 @@
+This is a highly scalable
+high-performance file system.
+
+xfs was created for Irix and for a couple of years it was also used in FreeBSD. It is supported
+by the Linux kernel, but rarely used in dsitributions outside of the Redhat/CentOS realm.
+
+58
+
+file systems
+
+6.2.5. vfat
+
+The vfat file system exists in a couple of forms : fat12 for floppy disks, fat16 on ms-dos, and
+fat32 for larger disks.

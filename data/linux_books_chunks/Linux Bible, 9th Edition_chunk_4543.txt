@@ -1,0 +1,29 @@
+Yet in some cases, even if there are no low and high levels, the 
+range is still shown (s0-s0).
+
+24
+
+ ■ category
+
+ ■ Represents the category of an object, such as No Clearance, Top 
+
+Clearance, and so on.
+
+ ■ Traditionally, the values are between c0 and c255.
+
+ ■ Is listed as a pair of category levels (lowlevel:highlevel) if the 
+
+levels differ.
+
+ ■ Is listed as a single category level (level) if there are no low and 
+
+high levels.
+
+675
+
+c24.indd  04/15/2015  Page 676
+
+Part V: Learning Linux Security Techniques
+
+Users have security contexts
+To see your SELinux user context, enter the id command at the shell prompt.

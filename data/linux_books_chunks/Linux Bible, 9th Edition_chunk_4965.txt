@@ -1,0 +1,3 @@
+Some of this data comes from the fact that things 
+such as storage, memory, and processing power are drawn from a pool of resources, 
+rather than from the physical machine you are installing on.

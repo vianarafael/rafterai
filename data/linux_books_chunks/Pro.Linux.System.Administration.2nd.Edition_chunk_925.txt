@@ -1,0 +1,17 @@
+Using sudo
+
+$ sudo userdel ataylor
+We trust you have received the usual lecture from the local System Administrator.
+It usually boils down to these three things:
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+Password:
+
+This rather intimidating message generally appears the first time you use the sudo command; afterward, 
+
+you’ll get the password prompt only.
+
+Once you have entered the password correctly, the sudo command does not prompt you for a password 
+
+each time it is used.

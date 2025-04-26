@@ -1,0 +1,5 @@
+This is useful for maintaining consistent user IDs/group IDs (UIDs/GIDs) across domain 
+members and has some associated benefits; see https://wiki.samba.org/index.php/Setting_up_
+RFC2307_in_AD. We have also provided our preferred hostname (--host-name), dc1.
+
+Listing 13-1.

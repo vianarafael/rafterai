@@ -1,0 +1,13 @@
+swap space in /etc/fstab
+
+If you like these swaps to be permanent, then don't forget to add them to /etc/fstab. The
+lines in /etc/fstab will be similar to the following.
+
+/dev/hda1         swap       swap     defaults      0 0
+/smallswapfile    swap       swap     defaults      0 0
+
+216
+
+memory management
+
+18.3.

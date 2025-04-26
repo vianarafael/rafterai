@@ -1,0 +1,10 @@
+This passes the value 25 to a command called check_smtp. Let’s look at 
+that command now:
+
+define command{
+         command_name    check_smtp
+         command_line    $USER1$/check_smtp -H $HOSTADDRESS$ -p $ARG1$
+         }
+
+Here we have a command that runs a plug-in called check_smtp. It accepts the $HOSTADDRESS$ macro, 
+which is the IP address of the SMTP server we want to check.

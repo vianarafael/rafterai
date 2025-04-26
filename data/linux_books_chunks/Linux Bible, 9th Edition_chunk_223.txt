@@ -1,0 +1,7 @@
+Lawsuits were being initiated to protect UNIX source code and trademarks. 
+In 1984, this new, restrictive UNIX gave rise to an organization that eventually led a path 
+to Linux: the Free Software Foundation.
+
+GNU transitions UNIX to freedom
+In 1984, Richard M. Stallman started the GNU project (http://www.gnu.org), recursively 
+named by the phrase GNU is Not UNIX.

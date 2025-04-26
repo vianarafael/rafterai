@@ -1,0 +1,14 @@
+For example, when you are managing thousands of 
+servers you want to make sure that all hosts conform to the same security profile and be able to prove that to 
+external auditors.
+
+For instance, thinking of a very simple example, if you are required by legislation to have all your hosts 
+
+conform to a particular security standard which stipulates you must have a minimum password length of 
+8 characters (2 uppercase, 2 symbols), by running these scans you can ascertain there are no hosts on your 
+
+33
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+network that do not conform to that requirement.

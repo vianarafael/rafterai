@@ -1,0 +1,2 @@
+After this is completed, all the rules (but not 
+the policies) are removed, as shown in the code that follows.

@@ -1,0 +1,8 @@
+This in turn means that a client can continue querying other 
+DNS servers, if this one cannot find information about a domain.
+
+Finally, the listen-on-v6 option tells BIND that it should listen for queries on all available IPv6 
+
+addresses on all network interfaces.
+
+To avoid the chicken-and-egg problem, a caching DNS server ships with a built-in listing of root servers.

@@ -1,0 +1,8 @@
+You can also specify a module from another location here by providing the path to it, as you can see in the 
+following line:
+
+auth required /usr/local/pamlib/pam_local.so id=-1 root=1
+
+The last directives are arguments to be passed to the PAM module—in this case, we are passing the 
+
+arguments try_first_pass and nullok to the pam_unix.so module.

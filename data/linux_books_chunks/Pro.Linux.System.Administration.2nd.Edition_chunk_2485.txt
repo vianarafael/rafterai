@@ -1,0 +1,5 @@
+The DNS information for these TLDs is stored in so-called root servers.
+
+There are presently 13 globally distributed root name servers in the world that return the list of 
+authoritive name servers for the TLDs. There are not actually just 13 servers chugging away at this but a 
+highly distributed cluster of dedicated servers in multiple datacenters.

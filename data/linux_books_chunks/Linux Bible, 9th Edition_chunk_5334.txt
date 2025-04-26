@@ -1,0 +1,8 @@
+From a browser on the local system where httpd is running, you should be able 
+to type http://joe.example.org into the location box to access the Apache 
+web server using name-based authentication.
+
+Chapter 18: Confi guring an FTP Server
+
+Don’t do the tasks described here on a working, public FTP server, because these tasks will interfere with its 
+ operations.

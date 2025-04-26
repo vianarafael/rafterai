@@ -1,0 +1,20 @@
+If 
+
+we wanted to set the DNS configuration of our client, we might use an up script, tunnelup.sh, like this:
+
+#!/bin/sh
+mv /etc/resolv.conf /etc/resolv.conf.bak
+echo "search example.org" > /etc/resolv.conf
+echo "nameserver 10.0.2.155" >> /etc/resolv.conf exit 0
+
+We could then use a down script, tunneldown.sh, to revert our configuration options, like so:
+
+#!/bin/sh
+mv /etc/resolv.conf.bak /etc/resolv.conf
+
+ You need to transfer these scripts to the client yourself or use a configuration management tool, as 
+
+ ■ Note 
+we’ll show you in Chapter 19.
+
+Lastly, we can force all traffic from the client to the VPN.

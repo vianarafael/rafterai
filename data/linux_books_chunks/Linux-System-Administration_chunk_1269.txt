@@ -1,0 +1,4 @@
+SCSI tapes
+
+On the official Linux device list (http://www.lanana.org/docs/device-list/) we find the names
+for SCSI tapes (major 9 char).

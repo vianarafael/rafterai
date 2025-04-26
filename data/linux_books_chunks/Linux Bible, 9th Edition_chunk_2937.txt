@@ -1,0 +1,3 @@
+When the printer is added, click No or Yes if you’re prompted to print a test 
+
+page. The new printer entry appears in the Print Settings window.

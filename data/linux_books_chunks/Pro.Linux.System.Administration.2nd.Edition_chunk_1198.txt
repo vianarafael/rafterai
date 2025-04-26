@@ -1,0 +1,9 @@
+Likewise we can use the 
+
+systemctl enable|disable to manage if we want it to start or not on boot.
+
+$ sudo systemctl disable postfix
+postfix.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install disable postfix
+
+When dealing with SysV init.d scripts systemd does two things.

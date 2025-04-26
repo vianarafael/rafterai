@@ -1,0 +1,8 @@
+To do so, we will use the ldapadd tool that 
+
+comes with OpenLDAP.
+
+Adding Users from LDIF Files
+The LDAP tools all share a common set of options that you can provide to connect to your LDAP server. 
+The OpenLDAP client tools can be used to connect to other LDAP servers provided by other software 
+manufacturers.

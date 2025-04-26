@@ -1,0 +1,14 @@
+if 
+
+ ■ Note 
+you don’t have a DNs (you should), then you can specify an ip address directly in this option.
+
+We’ve also specified the location of our CA certificate with the ca option and the location of our client’s 
+
+certificate and key using the cert and key options, respectively.
+
+714
+
+Starting OpenVPN on Our Branch Office Server
+
+With the VPN configured on our server, we can now start OpenVPN on our client.

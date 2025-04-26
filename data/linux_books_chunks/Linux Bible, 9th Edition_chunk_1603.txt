@@ -1,0 +1,6 @@
+If you are still not sure when you should use 
+these different partition types, refer to Chapter 12 for further information on conﬁ guring 
+disk partitions.
+
+Reasons for different partitioning schemes
+Different opinions exist relating to how to divide up a hard disk.

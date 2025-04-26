@@ -1,0 +1,5 @@
+The algorithms are called cryptographic ciphers.
+
+Understanding cryptographic ciphers
+One of the original ciphers, called the Caesar Cipher, was created and used by Julius Caesar. 
+However, it was terribly easy to crack. Today, many more secure ciphers are available.

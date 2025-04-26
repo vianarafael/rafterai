@@ -1,0 +1,11 @@
+All of these are well supported by the organizations and 
+communities that maintain them.
+
+ ■ Tip  online you’ll find a useful unscientific automated quiz for selecting an appropriate Linux distribution 
+available at www.proprofs.com/quiz-school/story.php?title=which-linux-distribution-are-you-1 
+and an article on the topic at http://lifehacker.com/5889950/how-to-find-the-perfect-linux-
+distribution-for-you.
+
+With the exception of Red Hat Enterprise Linux, which requires a support contract to receive updates 
+
+and patches, all of the distributions we’ve discussed are available free of charge.

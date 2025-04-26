@@ -1,0 +1,10 @@
+You can also group 
+
+ ■ Note 
+services together, make them dependent on each other, and perform a variety of other useful tricks with them. 
+We recommend you read the available nagios documentation and many of the other useful resources for more 
+information.
+
+Logging and Debugging
+
+You can view the logs for Nagios in the /var/log/nagios/nagios.log file.

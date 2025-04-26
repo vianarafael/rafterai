@@ -1,0 +1,6 @@
+For 
+added security and convenience, log messages can also be directed to a centralized server, 
+ providing a single location to view and manage logging for a group of systems.
+
+Several different software packages are available to work with rsyslog and manage 
+log messages.

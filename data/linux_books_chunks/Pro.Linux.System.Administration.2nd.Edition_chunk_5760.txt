@@ -1,0 +1,28 @@
+Host groups are defined in square brackets and can 
+have nested host groups in them.
+
+$ sudo vi /etc/ansible/hosts
+
+somehost.example.com
+
+[all_centos]
+gateway.example.com
+backup.example.com
+
+[all_ubuntu]
+mail.example.com
+monitor.example.com
+
+961
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+[dbs]
+db.example.com
+
+[all_servers:children]
+all_centos
+all_ubuntu
+dbs
+
+In our host list we have defined a single host, somehost.example.com for an example.

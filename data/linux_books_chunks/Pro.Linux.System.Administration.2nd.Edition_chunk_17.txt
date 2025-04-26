@@ -1,0 +1,6 @@
+Then, 
+in Chapter 2, we’ll show you how to install your first Linux hosts.
+
+Linux Distributions
+What is a Linux distribution? Well, in simple terms it is a collection of applications, packages, management, 
+and features that run on top of the Linux kernel.

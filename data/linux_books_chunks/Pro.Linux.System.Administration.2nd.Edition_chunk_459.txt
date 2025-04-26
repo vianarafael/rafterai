@@ -1,0 +1,5 @@
+If you type !! you re-run the last command you entered.
+
+You can also move the cursor along the command line to edit commands using the left and right arrow 
+
+keys.

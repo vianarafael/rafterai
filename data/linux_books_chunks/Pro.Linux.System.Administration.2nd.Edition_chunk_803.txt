@@ -1,0 +1,5 @@
+By default, they will create users of the specified name, put them in a group of the same name, create 
+the home directory, and assign the lowest available user and group Ids.
+
+Managing Users and Groups via the GUI
+Both CentOS and Ubuntu have GUIs for managing users.

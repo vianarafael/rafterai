@@ -1,0 +1,6 @@
+These files are called service configuration files.
+
+There are a variety of service configuration files—for example, when users log in to a host, we use an 
+application called, appropriately, login. The login application is triggered when a user logs in, and inside 
+the pam.d directory you’ll find a file named login that contains the authentication configuration for the 
+application.

@@ -1,0 +1,8 @@
+It was written
+              completely from scratch.
+
+If you want to get more information about vsftpd, follow the URL listed to the related 
+website (https://security.appspot.com/vsftpd.html). You can get additional 
+documentation and information about the latest revisions of vsftpd.
+
+You can view the full contents of the vsftpd package (rpm -ql vsftpd).

@@ -1,0 +1,3 @@
+Debian, Ubuntu, 
+and related systems package software into DEB ﬁ les. You can try easy-to-use graphical tools 
+such as the Software window for ﬁ nding and installing packages.

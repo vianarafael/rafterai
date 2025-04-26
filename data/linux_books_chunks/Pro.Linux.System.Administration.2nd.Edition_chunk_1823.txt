@@ -1,0 +1,3 @@
+Then we can see the repositories we are using for this install command * base:, * extra:, 
+and * updates:. Next we see the dependency and transaction checks and then the list of packages we 
+are going to install, in this case one package.

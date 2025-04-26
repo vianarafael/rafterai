@@ -1,0 +1,10 @@
+Using both commands in the example that follows, you can view the 
+cups daemon’s settings.
+
+# chkconfig --list cups
+cups            0:off   1:off   2:on    3:on    4:on    5:on    6:off
+# service cups status
+cupsd (pid 1988) is running...
+
+You can see that the cupsd daemon is set to start on every runlevel but 0, 1, and 6, and 
+from the service command, you can see that it is currently running.

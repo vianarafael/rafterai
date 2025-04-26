@@ -1,0 +1,5 @@
+The firefox package was built for Red Hat Enterprise Linux 7.0 
+(el7_0) and is compiled for the x86 64-bit architecture (x86_64).
+
+When the firefox package was installed, it was probably copied from the installation 
+medium (such as a CD or DVD) or downloaded from a YUM repository (more on that later).

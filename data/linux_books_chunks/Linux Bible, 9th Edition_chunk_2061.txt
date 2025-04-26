@@ -1,0 +1,8 @@
+Here are some things to look for:
+
+ ■ A SCSI or USB storage device, represented by an sd? device (such as sda, sdb, 
+sdc, and so on), can have up to 16 minor devices (such as the main /dev/sdc 
+device and /dev/sdc1 through /dev/sdc15). So there can be 15 partitions 
+total.
+
+ ■ For x86 computers, disks can have up to four primary partitions.

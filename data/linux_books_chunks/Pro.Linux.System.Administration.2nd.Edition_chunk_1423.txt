@@ -1,0 +1,11 @@
+You will also notice that all three devices have the same MAC address, 08:00:27:5c:94:ef, which 
+means they can all respond to Address Resolution Protocol (ARP) requests for that MAC address. We explain 
+ARP a little further on in the section “TCP/IP 101.” 
+
+245
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+ETHTOOL
+
+the ethtool command is used to further investigate and manipulate your interfaces.

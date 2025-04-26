@@ -1,0 +1,7 @@
+Those commands can add users, change permissions, create ﬁ les and 
+directories, grab ﬁ les over the network, or otherwise conﬁ gure the installed system 
+exactly as you specify.
+
+Although installing Linux in enterprise environments is beyond the scope of this book, I 
+want you to understand the technologies that are available when you want to automate the 
+Linux installation process.

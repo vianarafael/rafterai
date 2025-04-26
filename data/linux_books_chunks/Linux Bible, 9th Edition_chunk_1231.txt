@@ -1,0 +1,54 @@
+Have each of those words appended to the end of the line “I have a….” 
+
+169
+
+ 
+ 
+ 
+ 
+ 
+c07.indd  04/01/2015  Page 170
+
+c08.indd  04/01/2015  Page 171
+
+ Part III
+
+Becoming a Linux 
+System Administrator
+
+IN THIS PART
+
+Chapter 8
+Learning System Administration
+
+Chapter 9
+Installing Linux
+
+Chapter 10
+Getting and Managing Software
+
+Chapter 11
+Managing User Accounts
+
+Chapter 12
+Managing Disks and Filesystems
+
+c08.indd  04/01/2015  Page 173
+
+Learning System Administration
+
+C H A P T E R 
+
+8
+
+IN THIS CHAPTER
+
+Doing graphical administration
+
+Using the root login
+
+Understanding administrative commands, confi g fi les, and log fi les
+
+Working with devices and fi lesystems
+
+L inux, like other UNIX-based systems, was intended for use by more than one person at a time.

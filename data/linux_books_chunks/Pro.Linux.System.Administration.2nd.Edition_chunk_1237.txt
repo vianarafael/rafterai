@@ -1,0 +1,5 @@
+In this case, run-parts will change to the /etc/cron.
+hourly directory, /etc/cron.daily directory, and so on, and run the executable script it finds there.
+
+Let’s inspect one of the system cron directories, the /etc/cron.daily directory, for example, and 
+examine one of the scripts already present on the Red Hat host.

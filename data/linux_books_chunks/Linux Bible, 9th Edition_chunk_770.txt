@@ -1,0 +1,11 @@
+Run the following command, typing as few characters as possible (using tab 
+
+completion):
+
+basename /usr/share/doc/.
+
+6.  Use the cat command to list the contents of the /etc/services ﬁ le and pipe 
+those contents to the less command so you can page through it (press q to quit 
+when you are ﬁ nished).
+
+7.

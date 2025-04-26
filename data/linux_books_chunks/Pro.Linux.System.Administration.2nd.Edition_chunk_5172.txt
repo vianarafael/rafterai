@@ -1,0 +1,6 @@
+Logstash and Beats help us 
+move the log information off our hosts and process them ready for storage so that we can use discovery tools 
+to see analysis of what is happening on our systems. The storage and discovery are handled by Elasticsearch 
+and Kibana, and we will look those in the next section.
+
+Beats are lightweight forwarders of logs, metrics, network packets data, and Windows events.

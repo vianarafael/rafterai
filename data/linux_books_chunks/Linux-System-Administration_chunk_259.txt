@@ -1,0 +1,7 @@
+platter, head, track, cylinder, sector
+
+Data is commonly stored on magnetic or optical disk platters. The platters are rotated (at
+high speeds). Data is read by heads, which are very close to the surface of the platter, without
+touching it! The heads are mounted on an arm (sometimes called a comb or a fork).
+
+Data is written in concentric circles called tracks.

@@ -1,0 +1,12 @@
+If we had received no responses, we would 
+know something is wrong with our interface or network.
+
+The next step is to ping another host on your network, like your default gateway or your DNS server 
+
+(these two hosts are critical for your Internet communications).
+
+$ ping 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=128 time=2.97 ms
+
+If you can get there, you know that your host can reach other hosts.

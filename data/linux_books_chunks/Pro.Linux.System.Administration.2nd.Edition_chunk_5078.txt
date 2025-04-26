@@ -1,0 +1,9 @@
+Here we’ve shown a restart of the rsyslog service that is first stopped 
+and started and then confirm it is started.
+
+846
+
+Chapter 18 ■ Logging and Monitoring
+
+syslog, the predecessor to rsyslog, has been the ubiquitous Unix format for logging. It has been 
+present on all flavors of Linux and indeed on almost all flavors of Unix.

@@ -1,0 +1,6 @@
+Other devices linked to these names are located in the 
+/dev/mapper directory: vg_abc-lv_home, vg_abc-lv_root, and vg_abc-lv_swap. 
+Either set of names can be used to refer to these logical volumes.
+
+The root and home logical volumes are formatted as ext4 ﬁ lesystems, whereas the swap 
+logical volume is formatted as swap space.

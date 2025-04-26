@@ -1,0 +1,56 @@
+Useful Bareos bconsole Commands
+
+Command
+
+Description
+
+run
+
+cancel
+
+mess
+
+restore
+
+label
+
+Starts a job (a backup)
+
+Cancels the current job
+
+Shows any current messages
+
+Manages restore jobs
+
+Labels a tape or media volume
+
+update volume
+
+Allows you to update the properties of any particular volume
+
+stat dir
+
+Gets the current status of the Director daemon
+
+stat client
+
+Gets the current status of a File daemon
+
+stat storage
+
+Gets the current status of the Storage daemon
+
+mount
+
+unmount
+
+Mounts a volume (e.g., loads a media volume into a tape drive)
+
+Unmounts a media volume (e.g., unloads the tape from a drive)
+
+ another resource for useful commands is in the Bareos documentation at http://doc.bareos.org/
+
+ ■ Note 
+master/html/bareos-manual-main-reference.html#x1-18400015.
+
+You can run a job or a backup in two ways.

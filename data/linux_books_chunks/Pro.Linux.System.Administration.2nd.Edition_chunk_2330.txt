@@ -1,0 +1,7 @@
+The full new size of the array will not be accessible 
+until the reshape has finished. As you can see, the reshape runs at a far slower rate than the RAID 1 re-sync.
+
+Instead of rerunning the cat /proc/mdstat command manually, you can automatically run it at 
+
+ ■ Tip 
+a specified interval via the watch command.

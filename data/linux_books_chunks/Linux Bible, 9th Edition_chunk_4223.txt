@@ -1,0 +1,10 @@
+To install chkrookit on an Ubuntu system, use the command sudo apt-get install 
+chkrootkit.
+
+22
+
+It is best to use a Live CD or fl ash drive to run chkrootkit so the results are not circumvented by a rootkit. 
+The Fedora Security Spin has chkrootkit on its Live CD. You can get this distribution at http://spins
+.fedoraproject.org/security. 
+
+Finding a rootkit with chkrootkit is simple.

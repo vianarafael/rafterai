@@ -1,0 +1,10 @@
+If you are debugging SELinux problems for a well-known service (such 
+as httpd, vsftpd, Samba, and so on), there is probably a man page associated with 
+how to speciﬁ cally ﬁ x SELinux problems with that service.
+
+ ■ The Red Hat Enterprise Linux manuals—Located at http://docs.redhat.com, 
+
+this site contains an entire manual on SELinux.
+
+ ■ The Fedora Project SELinux Guide—Located at http://docs.fedoraproject.org, 
+this site has a Security-Enhanced Linux Guide.

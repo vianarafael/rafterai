@@ -1,0 +1,28 @@
+(Try copying /etc/services to /tmp and opening it in vi.) Here are some movement 
+commands you can use:
+
+ ■ Ctrl+f—Pages ahead, one page at a time.
+
+ ■ Ctrl+b—Pages back, one page at a time.
+
+ ■ Ctrl+d—Pages ahead one-half page at a time.
+
+ ■ Ctrl+u—Pages back one-half page at a time.
+
+ ■ G—Goes to the last line of the ﬁ le.
+
+ ■ 1G—Goes to the ﬁ rst line of the ﬁ le.
+
+ ■ 35G—Goes to any line number (35, in this case).
+
+5
+
+123
+
+c05.indd  04/01/2015  Page 124
+
+Part II: Becoming a Linux Power User
+
+Searching for text
+To search for the next or previous occurrence of text in the ﬁ le, use either the slash (/) or 
+the question mark (?) character.

@@ -1,0 +1,17 @@
+[global] section
+
+The screenshot below shows a sample [global] section for a samba domain controller.
+
+[global]
+# names
+ workgroup = SPORTS
+ netbios name = DCSPORTS
+ server string = Sports Domain Controller
+# domain control parameters
+ security = user
+ os level = 33
+ preferred master = Yes
+ domain master = Yes
+ domain logons = Yes
+
+17.5.

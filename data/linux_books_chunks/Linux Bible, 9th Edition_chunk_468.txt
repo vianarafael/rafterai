@@ -1,0 +1,7 @@
+Right-click the Podcasts entry and select New Podcast Feed. Paste or 
+type in the URL to the podcast, and click Add. A list of podcasts from the site you 
+selected appears to the right. Double-click the one you want to listen to.
+
+ ■ Audio CDs—Insert an audio CD, and press Play when it appears in the Rhythmbox 
+
+window.

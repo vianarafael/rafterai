@@ -1,0 +1,2 @@
+Naturally, from a security perspective, this renders your firewall ineffective if it is used 
+as the default policy.

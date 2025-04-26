@@ -1,0 +1,8 @@
+You can also add items to launch 
+from those menus by selecting New Item and typing the name, command, and comment 
+for the item.
+
+Adding an applet
+You can run several small applications, called applets, directly on the GNOME panel. These 
+applications can show information you may want to see on an ongoing basis or may just 
+provide some amusement.

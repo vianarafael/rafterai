@@ -1,0 +1,11 @@
+You should check the systemctl 
+
+status or syslog if you have any issues.
+
+Now that we have this successfully set up, we will look at setting up Graphite so we can collect metrics 
+
+and store them centrally.
+
+Graphite
+According to the web site, Graphite does only three things: kicks arse, chews bubble gum, and makes it easy 
+to store and graph metrics.

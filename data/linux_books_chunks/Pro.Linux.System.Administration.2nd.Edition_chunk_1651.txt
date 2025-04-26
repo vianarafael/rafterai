@@ -1,0 +1,10 @@
+Let’s replace that rule with the correct one (don’t worry, we are going to explain what the conntrack does 
+shortly).
+
+sudo iptables -R IPV4-INCOMING 2 -m conntrack --ctstate INVALID -j DROP
+1  ACCEPT   tcp -- anywhere  anywhere  tcp   dpt:ssh
+2  DROP    all -- anywhere  anywhere  ctstate INVALID
+3  ACCEPT   all -- anywhere  anywhere  ctstate RELATED,ESTABLISHED
+4  DROP    all -- anywhere  anywhere
+
+That looks better.

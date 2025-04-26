@@ -1,0 +1,5 @@
+In other words, it determines which units 
+
+should be activated before starting this service.
+
+ ■ AllowIsolate—This option is a Boolean setting of yes or no.

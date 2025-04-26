@@ -1,0 +1,2 @@
+This 
+objective includes configuring automount for network and device filesystems.

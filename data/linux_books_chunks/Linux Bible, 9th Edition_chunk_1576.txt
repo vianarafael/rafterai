@@ -1,0 +1,6 @@
+If you have a text-only console, or if the GUI isn’t working properly, you can run an 
+installation in plain-text mode: By typing text, you cause the installation to run in text mode.
+
+If you want to start installation on one computer, but you want to answer the installation 
+questions from another computer, you can enable a vnc (virtual network computing) instal-
+lation.

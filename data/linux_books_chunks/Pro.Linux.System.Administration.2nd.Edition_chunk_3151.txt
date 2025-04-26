@@ -1,0 +1,7 @@
+For each http_port directive, we need to add the option transparent.
+
+http_port 192.168.0.254:3128 transparent
+http_port 192.168.1.254:3128 transparent
+
+After restarting Squid, we add firewall rules on the gateway host. These rules should intercept all 
+connections to remote web sites and redirect them to our proxy instead.

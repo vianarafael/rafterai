@@ -1,0 +1,12 @@
+The second column, labeled VG, refers to the volume group, 
+which is the next layer in the LVM system.
+
+You can list all volume groups on the system via the vgs command.
+
+$ sudo vgs
+VG      #PV   #LV    #SN    Attr      VSize     VFree
+centos    1     2      0    wz--n-    7.51g     40.00m
+
+ ■ Note  you will get more detailed information about volume groups if you use the vgdisplay command.
+
+There is one volume group, called centos, which was created by the installer.

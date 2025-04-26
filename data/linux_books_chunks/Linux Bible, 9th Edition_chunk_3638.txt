@@ -1,0 +1,28 @@
+Using the 
+netstat command, you can see the resulting processes that are listening on those 
+assigned ports:
+
+tcp  0  0 0.0.0.0:49001   0.0.0.0:*    LISTEN    4682/rpc.rquotad
+tcp  0  0 0.0.0.0:49002   0.0.0.0:*    LISTEN    -            
+tcp  0  0 0.0.0.0:49004   0.0.0.0:*    LISTEN    4698/rpc.mountd
+tcp  0  0 :::49002        :::*         LISTEN    -            
+tcp  0  0 :::49004        :::*         LISTEN    4698/rpc.mountd
+udp  0  0 0.0.0.0:49001   0.0.0.0:*              4682/rpc.rquotad
+udp  0  0 0.0.0.0:49003   0.0.0.0:*              -            
+udp  0  0 0.0.0.0:49004   0.0.0.0:*              4698/rpc.mountd
+udp  0  0 :::49003        :::*                   -            
+udp  0  0 :::49004        :::*                   4698/rpc.mountd
+
+With those port numbers set and being used by the various services, you can now add 
+ iptables rules, as you did with ports 2049 and 111 for the basic NFS service.
+
+538
+
+c20.indd  04/01/2015  Page 539
+
+Chapter 20: Confi guring an NFS File Server
+
+Allowing NFS access in TCP wrappers
+For services such as vsftpd and sshd, TCP wrappers in Linux enable you to add 
+ information to /etc/hosts.allow and /etc/hosts.deny ﬁ les to indicate which hosts 
+can or cannot access the service.

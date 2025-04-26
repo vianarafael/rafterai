@@ -1,0 +1,12 @@
+Finally, try to ping a system 
+ somewhere on the Internet:
+
+# route
+route
+Kernel IP routing table
+Destination  Gateway      Genmask        Flags Metric  Ref  Use Iface
+192.168.0.0  *            255.255.255.0  U     2       0     0 eth0
+default      192.168.0.1  0.0.0.0        UG    0             0 eth0
+
+The default line shows that the default gateway (UG) is at address 192.168.0.1 and that the 
+address can be reached over the eth0 card.

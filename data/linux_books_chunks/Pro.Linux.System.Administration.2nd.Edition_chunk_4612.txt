@@ -1,0 +1,11 @@
+Now we are declaring the ability of those 
+DNs to see their own information.
+
+to dn.children="ou=meta,dc=example,dc=com"
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" read
+        by group.exact="cn=admins,ou=groups,dc=example,dc=com" write
+        by self read
+
+We allow write access to this organizational unit by the cn=admins group, in which we will put our 
+
+system administrator user and read access by the meta users themselves.

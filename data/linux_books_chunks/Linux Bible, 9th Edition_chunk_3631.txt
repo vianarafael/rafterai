@@ -1,0 +1,3 @@
+For the default NFSv4 used in 
+Fedora, TCP and UDP ports 2049 (nfs) and 111 (rpcbind) must be open for an NFS server to 
+perform properly.

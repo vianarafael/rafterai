@@ -1,0 +1,13 @@
+So, if I wanted to go 
+to the directory /home/joe/test, I could type cd ~joe/test to get there.
+
+Other special ways of identifying directories in the shell include the following:
+
+ ■ .—A single dot (.) refers to the current directory.
+
+ ■ ..—Two dots (..) refer to a directory directly above the current directory.
+
+ ■ $PWD—This environment variable refers to the current working directory.
+
+ ■ $OLDPWD—This environment variable refers to the previous working directory before 
+you changed to the current one.

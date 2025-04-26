@@ -1,0 +1,8 @@
+But let’s say you are happy with your diff and you 
+are now ready to commit those changes.
+
+$ git commit –v path/to/file/or/directory
+
+You will be shown the diff of your changes again and you will be able to add a commit message to the commit 
+so that people know what the change is. Good commit messages give some idea of what you did - preferably what 
+was done and why it was done.

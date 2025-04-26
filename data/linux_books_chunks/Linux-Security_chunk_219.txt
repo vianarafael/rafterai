@@ -1,0 +1,32 @@
+~/.bash_logout
+
+When exiting bash, it can execute ~/.bash_logout.
+
+Debian use this opportunity to clear the console screen.
+
+serena@deb503:~$ cat .bash_logout
+# ~/.bash_logout: executed by bash(1) when login shell exits.
+
+# when leaving the console clear the screen to increase privacy
+
+if [ "$SHLVL" = 1 ]; then
+    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
+fi
+
+Red Hat Enterprise Linux 5 will simple call the /usr/bin/clear command in this script.
+
+[serena@rhel53 ~]$ cat .bash_logout 
+# ~/.bash_logout
+
+/usr/bin/clear
+
+Red Hat Enterprise Linux 6 and 7 create this file, but leave it empty (except for a comment).
+
+paul@rhel65:~$ cat .bash_logout
+# ~/.bash_logout
+
+32
+
+user profiles
+
+4.7.

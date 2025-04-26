@@ -1,0 +1,11 @@
+Both Ubuntu and 
+CentOS store these files in different locations, but both use symlinks to make sure the files appear in similar 
+locations.
+
+ ■ Note 
+
+ See http://en.wikipedia.org/wiki/Mbox for more details of the mbox format.
+
+On Ubuntu, a mailbox file named for the user is created in the /var/mail directory, for example, /var/
+
+mail/ataylor.

@@ -1,0 +1,3 @@
+The following sections provide some examples of useful yum command 
+lines to search for, install, query, and update packages associated with your YUM 
+ repositories.

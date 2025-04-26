@@ -1,0 +1,8 @@
+This function executes any parameters passed to it as if they were commands. First, 
+we’ll stop the agent via ssh-agent -k, and then we’ll restart it and set the environment variables in one fell 
+
+465
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+swoop. The backquotes around the parameter cause it to be executed as a command by the shell.

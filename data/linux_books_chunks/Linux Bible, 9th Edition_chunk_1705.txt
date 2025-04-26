@@ -1,0 +1,8 @@
+Using tools such as apt-get and dpkg, Linux 
+ distributions could install, manage, upgrade, and remove software.
+
+ ■ RPM (.rpm) packaging—Originally named Red Hat Package Manager but later 
+
+recursively renamed RPM Package Manager, RPM is the preferred package format 
+for SUSE, Red Hat distributions (RHEL and Fedora), and those based on Red Hat 
+ distributions (CentOS, Oracle Linux, and so on).

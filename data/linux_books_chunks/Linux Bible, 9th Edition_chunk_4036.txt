@@ -1,0 +1,12 @@
+Because some of the techniques described here can potentially damage your system, 
+
+587
+
+c21.indd  04/01/2015  Page 588
+
+Part IV: Becoming a Linux Server Administrator
+
+I recommend you do not use a production system that you cannot risk damaging. See 
+Appendix B for suggested solutions.
+
+These exercises relate to troubleshooting topics in Linux.

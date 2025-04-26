@@ -1,0 +1,7 @@
+simply enter touch and the file name you want 
+
+ ■ Tip 
+to create to create an empty file, for example, touch /home/jsmith/newfile.
+
+When you’ve done that, press the Esc key. The Esc key takes you out of insert mode (you will see the text 
+--   INSERT  -- disappear from the bottom of the screen).

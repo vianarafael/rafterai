@@ -1,0 +1,25 @@
+Asymmetric key cryptography is ﬂ exible enough to 
+allow you to use your private key to encrypt and the receiver to use your public key to decrypt.
+
+637
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c23.indd  04/01/2015  Page 638
+
+Part V: Learning Linux Security Techniques
+
+Digital signatures have their own special ciphers.

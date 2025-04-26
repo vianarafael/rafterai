@@ -1,0 +1,26 @@
+The Job Definition for Bareos Backup Service
+
+Job {
+   Name = ldap.example.com
+   Client = ldap-fd
+   Enabled = yes
+   JobDefs = "DefaultLinux"
+   Client Run Before Job = "/usr/local/bin/ldap_backup start"
+   Client Run After Job = "/usr/local/bin/ldap_backup stop"
+}
+
+This is based on the proviso that you have your LDAP backup script installed in /usr/local/bin on 
+
+your ldap.example.com host.
+
+778
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Restoring your LDAP database is then simply a matter of restoring the file on your host and running the 
+
+slapadd command with the following parameters (OpenLDAP should be shut down for this process):
+
+$ slapadd -b dc=example,dc=com -F /etc/ldap/slapd.d -l restored.ldif.backup.file
+
+Here we have restored our LDAP database to how it was when we performed the last save.

@@ -1,0 +1,5 @@
+You need to know how to log in to remote and 
+local  systems. Expect to have to create, edit, move, copy, link, delete, and change 
+permission and ownership on ﬁ les. Likewise, you should know how to look up infor-
+mation on man pages and /usr/share/doc. Most of these topics are covered in 
+Chapters 3 and 4 in this book.

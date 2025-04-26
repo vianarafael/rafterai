@@ -1,0 +1,5 @@
+In our case, the nagios-admin contact will receive notifications during the 24x7 time 
+period you saw earlier, or in real terms 24 hours every day of the week, for both hosts and services.
+For specifying which notifications, we use the service_notification_options and host_
+
+notification_options attributes.

@@ -1,0 +1,32 @@
+The /etc/default/useradd File
+
+Option
+
+Description
+
+SHELL
+
+HOME
+
+SKEL
+
+GROUP
+
+The path to the default shell
+
+The path to the user’s home directory
+
+The directory to use to provide the default contents of a user’s new home directory
+
+The default group ID
+
+INACTIVE
+
+The maximum number of days after password expiration that a password can be changed
+
+EXPIRE
+
+The default expiration date of user accounts
+
+Each option in the file controls a specify default; for example, the SHELL option specifies the default 
+shell for the user.

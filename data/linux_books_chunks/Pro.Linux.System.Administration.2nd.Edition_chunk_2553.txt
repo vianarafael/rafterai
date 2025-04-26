@@ -1,0 +1,10 @@
+See https://www.isc.org/bind-keys
+        //========================================================================
+        dnssec-validation auto;
+
+        auth-nxdomain no;    # conform to RFC1035
+        listen-on-v6 { any; };
+};
+
+The directory directive determines that the location named will be used to look for files and also to 
+write any files, if it’s configured to do so.

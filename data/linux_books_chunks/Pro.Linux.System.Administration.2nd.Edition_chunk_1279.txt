@@ -1,0 +1,4 @@
+This allows for 100 nodes and can be expanded upon if need be. 
+
+In reality, for a network of this size, we would probably have many more servers, and they would 
+possibly be decentralized by placing servers in the branch offices.

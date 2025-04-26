@@ -1,0 +1,4 @@
+On Ubuntu it is installed into the /etc/collectd directory, and on CentOS it is 
+installed into the /etc/ directory.
+
+You can also drop in configuration files into the collectd.d directory.

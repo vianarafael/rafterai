@@ -1,0 +1,9 @@
+So this  chapter 
+begins with a simple installation from Live media and progresses to more complex  installation topics.
+
+To ease you into the subject of installing Linux, I cover three ways of installing Linux and step you 
+through each process:
+
+ ■ Installing from Live media—A Linux Live media ISO is a single, read-only image that 
+
+contains everything you need to start a Linux operating system.

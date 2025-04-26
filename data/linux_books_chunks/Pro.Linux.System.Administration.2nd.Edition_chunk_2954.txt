@@ -1,0 +1,14 @@
+Listing environment variables
+
+In Figure 11-4 we have used the SQL like clause to search the show variables listing for the innodb_
+
+fast_shutdown variable and to show its setting.
+
+493
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+HOW INNODB STORES DATA
+
+innodb, and therefore Xtradb, has a two-tiered data storage design. the data stored on disk 
+lives in the /var/lib/mysql directory.

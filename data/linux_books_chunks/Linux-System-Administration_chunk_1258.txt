@@ -1,0 +1,30 @@
+In the example below the output
+shows that the Size and the Time stamp of the file have changed since installation.
+
+root@rhel53 ~# rpm -V e2fsprogs-libs
+prelink: /lib/libext2fs.so.2.4: prelinked file size differs
+S.?....T    /lib/libext2fs.so.2.4
+
+You can then use yum reinstall $package to overwrite the existing library with an original
+version.
+
+root@rhel53 lib# yum reinstall e2fsprogs-libs
+Loaded plugins: rhnplugin, security
+Setting up Reinstall Process
+Resolving Dependencies
+--> Running transaction check
+---> Package e2fsprogs-libs.i386 0:1.39-23.el5 set to be erased
+---> Package e2fsprogs-libs.i386 0:1.39-23.el5 set to be updated
+--> Finished Dependency Resolution
+...
+
+The package verification now reports no problems with the library.
+
+root@rhel53 lib# rpm -V e2fsprogs-libs
+root@rhel53 lib#
+
+348
+
+library management
+
+29.7.

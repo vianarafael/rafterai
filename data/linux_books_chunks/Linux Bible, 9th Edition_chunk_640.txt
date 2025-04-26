@@ -1,0 +1,6 @@
+Also remember that case is important, so typing CAT or Cat will not fi nd the cat 
+command.
+
+If a command is not in your PATH variable, you can use the locate command to try to ﬁ nd 
+it. Using locate, you can search any part of the system that is accessible to you (some 
+ﬁ les are only accessible to the root user).

@@ -1,0 +1,8 @@
+What happens when you log on with the einstime user ? Can you think of a useful real
+world example for changing a user's login shell to an application ?
+
+root@debian7:~# su - einstime
+Wed Oct 15 11:05:56 UTC 2014 # You get the output of the date command
+root@debian7:~#
+
+It can be useful when users need to access only one application on the server.

@@ -1,0 +1,7 @@
+With the content attribute, rather than a file being 
+retrieved from the Puppet file server, the contents of the file are populated from this attribute. The contents 
+of the file can be specified in a string like so:
+
+content => 'this is the content of a file',
+
+Or, as Listing 19-14 shows, we can use a special Puppet function called epp.

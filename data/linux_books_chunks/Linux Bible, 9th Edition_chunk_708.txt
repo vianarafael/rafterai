@@ -1,0 +1,23 @@
+The default value is 1000.
+
+HISTCMD
+
+HOME
+
+HOSTTYPE
+
+MAIL
+
+OLDPWD
+
+OSTYPE
+
+PATH
+
+This returns the number of the current command in the history list.
+
+This is your home directory. It is your current working directory each time 
+you log in or type the cd command with any options.
+
+This is a value that describes the computer architecture on which the Linux 
+system is running.

@@ -1,0 +1,16 @@
+The following 
+is an example of partitioning on a 160GB ﬁ xed hard drive on a Red Hat Enterprise 
+Linux 7 system:
+
+# fdisk -l /dev/sda
+Disk /dev/sda: 160.0 GB, 160000000000 bytes, 312500000 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x0008870c
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048     1026047      512000   83  Linux
+/dev/sda2         1026048   304281599   151627776   8e  Linux LVM
+
+When a USB ﬂ ash drive is inserted, it is assigned to the next available sd device.

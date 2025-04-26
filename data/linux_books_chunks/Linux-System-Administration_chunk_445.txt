@@ -1,0 +1,8 @@
+raid 1
+
+raid  1  uses  exactly  two  disks,  and  is  often  called  mirroring  (or  mirror  set,  or  mirrored
+volume). All data written to the array is written on each disk. The main advantage of raid 1
+is redundancy. The main disadvantage is that you lose at least half of your available disk
+space (in other words, you at least double the cost).
+
+10.2.4.

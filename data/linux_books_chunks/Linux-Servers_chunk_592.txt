@@ -1,0 +1,8 @@
+The file can be edited manually, or you
+can use a web based interface like webmin or swat to manage it. The file is usually located
+in /etc/samba. You can find the exact location with smbd -b.
+
+[root@RHEL4b ~]# smbd -b | grep CONFIGFILE
+CONFIGFILE: /etc/samba/smb.conf
+
+10.1.2.

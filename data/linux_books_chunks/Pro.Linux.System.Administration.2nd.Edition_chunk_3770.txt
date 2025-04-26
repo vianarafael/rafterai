@@ -1,0 +1,6 @@
+This is because we are specifically requesting the directory that 
+we have access to on that remote host; however, we could specify / if we wanted, and we would mount all 
+shares that we have access to.
+
+We use the mount command to mount a filesystem of type nfs4. We have set the following options 
+on that mount: read/write, interruptible (as specified by intr), and hard.

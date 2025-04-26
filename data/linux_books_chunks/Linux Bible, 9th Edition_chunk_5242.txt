@@ -1,0 +1,4 @@
+To add a local user account to your Linux system that has a username of jbaxter 
+and a full name of John Baxter, that uses /bin/sh as its default shell, and that is 
+the next available UID (yours may differ from the one shown here), type the fol-
+lowing. You can use the grep command to check the new user account.

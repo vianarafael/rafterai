@@ -1,0 +1,12 @@
+To list out services running (or active) on your server, you need to use different 
+
+commands, depending upon the initialization daemon you are using.
+
+ ■ For SysVinit, use the service command as shown in this example:
+
+# service --status-all | grep running... | sort
+anacron (pid 2162) is running...
+atd (pid 2172) is running...
+...
+
+ ■ For Upstart, use the initctl command.

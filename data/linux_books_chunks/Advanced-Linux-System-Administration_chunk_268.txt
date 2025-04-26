@@ -1,0 +1,17 @@
+check-secure.pl
+#!/usr/bin/perl -T
+$FILENAME=ARGV[0]   # this is the equivalent to $1 in bash
+
+73
+
+ 
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+system(“/usr/bin/less”, $FILENAME);
+
+In fact the check-secure.pl script isn't secure, it simply won't run with SUID root or the -T 
+option.

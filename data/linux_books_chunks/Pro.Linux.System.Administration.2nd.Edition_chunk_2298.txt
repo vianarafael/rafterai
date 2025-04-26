@@ -1,0 +1,6 @@
+Creating a RAID 1 Array with a Hot Spare
+
+$ sudo mdadm --create /dev/md0 --level=raid1 --raid-devices=2 /dev/sdc /dev/sdd  
+   --spare-devices=1 /dev/sde
+mdadm: Note: this array has metadata at the start and
+    may not be suitable as a boot device.

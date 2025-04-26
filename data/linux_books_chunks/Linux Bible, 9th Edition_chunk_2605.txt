@@ -1,0 +1,5 @@
+Any packets destined for the 192.168.99 network are directed through the address 
+192.168.0.5.
+
+If you wanted to add more custom routes, you could add them to this same route-eth0 
+ﬁ le.

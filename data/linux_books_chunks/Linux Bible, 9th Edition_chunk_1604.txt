@@ -1,0 +1,10 @@
+Here are some issues 
+to consider:
+
+ ■ Do you want to install another operating system? If you want Windows on your 
+
+computer along with Linux, you need at least one Windows (Win95, FAT16, VFAT, or 
+NTFS type), one Linux (Linux ext4 or xfs), and usually one Linux swap partition.
+
+ ■ Is it a multiuser system? If you are using the system yourself, you probably don’t 
+need many partitions.

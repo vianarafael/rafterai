@@ -1,0 +1,22 @@
+This querying is done either directly 
+to the host (for example, connecting to the SMTP server on port 25 and testing you can receive e-mail) or via 
+an agent installed on the host, which returns results to the monitoring host.
+
+In addition to monitoring hosts and services, Nagios has a variety of other useful functions, including 
+
+the following:
+
+•	
+
+•	
+
+•	
+
+•	
+
+An escalation model allows alerts to be escalated if a host or service does not recover 
+or is not fixed (see https://assets.nagios.com/downloads/nagioscore/docs/
+nagioscore/4/en/escalations.html).
+
+You have the ability to specify event handlers that can be triggered when a host 
+or service fails.

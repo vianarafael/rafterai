@@ -1,0 +1,14 @@
+Chapter 14 
+
+includes a description of how to set up custom routes.
+
+24
+
+c01.indd  04/01/2015  Page 25
+
+Chapter 1: Starting with Linux
+
+ ■ Firewalls—Block or allow trafﬁ c to selected ports on your system that offer 
+
+ services such as web, FTP, and NFS, as well as block or allow access to services 
+based on the originator’s IP address. Firewalls are covered in Chapter 25.

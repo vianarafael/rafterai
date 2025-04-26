@@ -1,0 +1,21 @@
+Dovecot Authentication Mechanisms
+
+Mechanism
+
+Description
+
+PLAIN
+
+LOGIN
+
+Plain-text authentication.
+
+A Microsoft authentication mechanism used in the Microsoft Outlook client.
+
+CRAM-MD5
+
+Encrypted password mechanisms. This has some support in mail clients.
+
+DIGEST-MD5
+
+Like CRAM-MD5 but with stronger ciphers.

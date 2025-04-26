@@ -1,0 +1,6 @@
+We will 
+show you how to perform authentication backed by a file.
+
+First, we need to create a file that contains the usernames and passwords we want to use via the 
+htpasswd utility. We do not want to place this file in the directories that our Apache server serves, so we 
+create a directory called /opt/apache/www.example.com and place our password files there.

@@ -1,0 +1,2 @@
+These types of long-running processes are often called daemons. 
+Daemons are processes that run in the background; that is, they are not required to be attached to a console.

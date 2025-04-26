@@ -1,0 +1,8 @@
+A timer unit file can also be used to trigger another service unit that doesn’t have a 
+timer.
+
+The configuration requires a [Timer] section in the unit file. Let’s take this example of the daily apt 
+
+schedule that manages the daily checks for the apt cache (see Listing 6-13).
+
+Listing 6-13.

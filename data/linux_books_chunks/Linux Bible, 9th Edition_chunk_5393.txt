@@ -1,0 +1,28 @@
+To start up Red Hat Enterprise Linux (through RHEL 6.x) so you can conﬁ rm each 
+
+service as it is started, do the following:
+
+827
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 828
+
+Appendix B: Exercise Answers
+
+a. Follow the previous two exercises, but instead of putting a 1 at the end of a 
+
+kernel line, put the word confirm.
+
+b.

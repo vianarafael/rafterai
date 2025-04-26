@@ -1,0 +1,20 @@
+The fedora user has 
+sudo privilege, so you can use that account to investigate the instance by typing some 
+commands:
+
+Here, you see where the user-data was copied into the instance:
+
+$ sudo cat /var/lib/cloud/instances/FedoraWS01/user-data.txt
+#cloud-config
+password: cloudpass
+chpasswd: {expire: False}
+
+753
+
+ 
+ 
+c27.indd  04/01/2015  Page 754
+
+Part VI: Extending Linux into the Cloud
+
+The basic cloud conﬁ guration is done in the /etc/cloud/cloud.cfg ﬁ le.

@@ -1,0 +1,14 @@
+To ﬁ nd ﬁ les and directories associated 
+with the Samba service and smbd daemon that have ﬁ le contexts preset, run the following:
+
+# semanage fcontext -l | grep -i samba
+# semanage fcontext -l | grep -i smb
+
+The ﬁ le context portion that you are interested in ends with _t: for example, 
+samba_etc_t, samba_log_t, and smbd_var_t, for the /etc/samba, /var/log/samba, 
+and /var/lib/samba directories, respectively.
+
+You may ﬁ nd that you need to change ﬁ le contexts—for example, when you put ﬁ les in 
+nonstandard locations (such as moving the smb.conf ﬁ le to /root/smb.conf) or when 
+you want to share a directory (other than home directories, which can be turned on by 
+ setting a Boolean).

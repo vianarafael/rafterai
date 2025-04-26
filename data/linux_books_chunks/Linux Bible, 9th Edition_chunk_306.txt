@@ -1,0 +1,4 @@
+Here are a few ways that companies are dealing with that issue:
+
+ ■ Software subscriptions—Red Hat, Inc., sells its Red Hat Enterprise Linux products 
+on a subscription basis.

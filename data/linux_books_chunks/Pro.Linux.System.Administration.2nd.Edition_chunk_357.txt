@@ -1,0 +1,11 @@
+Similarly, Vagrant will use the 
+VBoxManage controlvm <uuid> poweroff command to stop the virtual machine when a vagrant halt is 
+called.
+
+Vagrant will also do things like set up up network port forwards (for SSh access and other network 
+services if configured to) and mount your file system inside the virtualbox virtual machine (unless you 
+configure it not to).
+
+these examples are specific to VirtualBox virtual machines—but Vagrant supports other virtualization 
+and cloud-based instances by issuing the required commands or apI (application programming 
+interface) calls to manage them.

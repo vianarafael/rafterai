@@ -1,0 +1,4 @@
+So, to ﬁ nd the bootable kernel (vmlinuz-*) and the 
+initrd initial RAM disk boot image that is loaded (initrd-*), GRUB mounts hd0,0 as 
+the root of the entire ﬁ lesystem (represented by /dev/mapper/vg_myhost-lv_root 
+and mounted as /).

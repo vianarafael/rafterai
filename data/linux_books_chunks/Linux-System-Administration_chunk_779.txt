@@ -1,0 +1,11 @@
+The /etc/cron.d directory is for special cases, to schedule jobs
+that require finer control than hourly/daily/weekly/monthly.
+
+paul@laika:~$ ls -ld /etc/cron.*
+drwxr-xr-x 2 root root 4096 2008-04-11 09:14 /etc/cron.d
+drwxr-xr-x 2 root root 4096 2008-04-19 15:04 /etc/cron.daily
+drwxr-xr-x 2 root root 4096 2008-04-11 09:14 /etc/cron.hourly
+drwxr-xr-x 2 root root 4096 2008-04-11 09:14 /etc/cron.monthly
+drwxr-xr-x 2 root root 4096 2008-04-11 09:14 /etc/cron.weekly
+
+16.2.6.

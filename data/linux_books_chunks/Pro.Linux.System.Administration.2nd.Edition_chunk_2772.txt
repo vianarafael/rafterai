@@ -1,0 +1,6 @@
+For each host on which you want to remotely 
+run GUI applications, add a ForwardX11 yes directive to automatically enable this option.
+
+Finally, you may have a jump host, or bastion host, that you have to first ssh to before getting access to 
+
+a network beyond it.

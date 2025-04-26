@@ -1,0 +1,14 @@
+If it is not installed in 
+a Fedora or RHEL install, install it by typing the following:
+
+# yum install cups
+
+Setting Up Printers
+Although using the printer administration tools speciﬁ cally built for your distribution 
+is usually best, many Linux systems simply rely on the tools that come with the CUPS 
+ software package.
+
+This section explores how to use CUPS web-based administration tools that come with 
+every Linux distribution and then examines the Print Settings tool system-config-
+printer, which is available with Fedora and Red Hat Enterprise Linux systems to enable 
+you to set up printers.

@@ -1,0 +1,9 @@
+to do 
+so, set the following options in the main.cf file:
+
+smtp_sasl_password_maps = hash:/etc/postfix/smtp_sasl_passwd
+smtp_sasl_auth_enable = yes
+smtp_sasl_mechanism_filter = plain, login
+smtp_sasl_security_options = noanonymous
+
+this configures SaSl authentication for your server when it is a client.

@@ -1,0 +1,6 @@
+If no policy exists for a process, 
+then it is assigned a default type, unconfined_t.
+
+For a program or application run by a user (parent process), the new process (child process) 
+inherits the user’s security context. Of course, this occurs only if the user is allowed to run 
+the program. A process can also run a program.

@@ -1,0 +1,7 @@
+Typically, that image includes all the ﬁ les needed by a basic, 
+ running Linux system. Metadata is added to that image from a conﬁ guration ﬁ le or by 
+ ﬁ lling out a form from a cloud controller that creates and launches the operating system 
+as a virtual machine.
+
+The kind of information added to the image might include a particular hostname, root 
+ password, and new user account.

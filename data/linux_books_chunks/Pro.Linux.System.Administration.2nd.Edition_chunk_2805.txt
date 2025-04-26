@@ -1,0 +1,12 @@
+That is, many web sites share the underlying resources, such as central 
+processing unit (CPU), disk resources, and Internet Protocol (IP) addresses, of a single web server.
+
+Apache currently has three multiprocessing modules (MPMs) that you can choose to use. They are 
+
+prefork, worker, and event.
+
+•	
+
+•	
+
+The prefork module is where connections are handled by a separate process.

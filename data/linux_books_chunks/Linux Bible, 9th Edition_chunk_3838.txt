@@ -1,0 +1,9 @@
+When 
+the users log in, they see a graphical desktop environment.
+
+ ■ 6—Reboot runlevel. This is like runlevel 0 in that it brings down all services and 
+stops all processes. However, runlevel 6 then starts the system back up again.
+
+21
+
+Runlevels are meant to set the level of activity on a Linux system.

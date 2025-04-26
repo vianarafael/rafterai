@@ -1,0 +1,11 @@
+Uncompress the current initrd
+cp /boot/initrd-your-kernel-version.img /tmp/initrd.img.gz 
+
+gunzip /tmp/initrd.img.gz
+
+2. Mount the current initrd using a loop device
+mkdir /mnt/current
+
+mount -o loop /tmp/initrd.img /mnt/current
+
+3.

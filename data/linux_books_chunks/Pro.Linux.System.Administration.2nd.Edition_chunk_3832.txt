@@ -1,0 +1,25 @@
+If we run the volume info subcommand, we 
+
+will see we have a new replica set.
+
+$ sudo gluster volume info
+Volume Name: vol1
+Type: Distributed-Replicate
+Volume ID: e9964568-feef-4f2f-a61d-14ba643b76e5
+Status: Started
+Number of Bricks: 2 x 3 = 6
+Transport-type: tcp
+Bricks:
+Brick1: au-mel-dfs-1:/data/brick1_r1/vol1
+Brick2: au-mel-dfs-2:/data/brick1_r1/vol1
+Brick3: au-mel-dfs-3:/data/brick1_r1/vol1
+Brick4: au-mel-dfs-1:/data/brick1_r2/vol1
+Brick5: au-mel-dfs-2:/data/brick1_r2/vol1
+Brick6: au-mel-dfs-3:/data/brick1_r2/vol1
+Options Reconfigured:
+network.ping-timeout: 15
+performance.readdir-ahead: on
+
+624
+
+As you can see, we have added three new bricks to our volume, bricks 4–6.

@@ -1,0 +1,4 @@
+inode table
+
+The inode table contains all of the inodes and is created when you create the file system
+(with mkfs).

@@ -1,0 +1,3 @@
+Remember in Chapter 5 when we told you about the boot 
+sequence? On many hosts, you can configure that boot sequence to look in alternative places to get its boot 
+instructions; for example, you can boot from a DVD or a USB stick.

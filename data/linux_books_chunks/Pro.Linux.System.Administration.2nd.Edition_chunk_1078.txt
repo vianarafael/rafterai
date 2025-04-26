@@ -1,0 +1,4 @@
+Your operating system now starts to load, your hardware 
+is initialized, disks are readied, IP (Internet Protocol) addresses are assigned, and a variety of other tasks 
+are performed. To do this, Linux runs a program, which is tasked with initiating the operating system and 
+its services.

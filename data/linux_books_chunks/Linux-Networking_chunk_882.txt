@@ -1,0 +1,14 @@
+Test the working of force user with smbclient, net use and Windows Explorer.
+
+ls -l /srv/samba/userwrite (and verify ownership)
+
+229
+
+ 
+Chapter 20. samba authentication
+
+230
+
+samba authentication
+
+20.1.

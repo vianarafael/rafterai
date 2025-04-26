@@ -1,0 +1,7 @@
+So, for 
+
+example, a user with UID 500 on an NFS client has access to ﬁ les owned by UID 500 
+on the NFS server. This is regardless of the usernames used.
+
+ ■ Filesystem structure exposed—Up to NFSv3, if you shared a directory over NFS, 
+you exposed the location of that directory on the server’s ﬁ lesystem.

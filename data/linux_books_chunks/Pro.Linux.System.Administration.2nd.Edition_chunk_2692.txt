@@ -1,0 +1,6 @@
+You can manually edit the configuration on 
+the client, but that means you need to log in to a client to make changes to the network configuration. You 
+might also end up with IP address clashes if DHCP assigns the same address to a new host that someone has 
+assigned to another.
+
+DHCP allows you to assign the same IP address to a host by matching it with the host’s MAC address.

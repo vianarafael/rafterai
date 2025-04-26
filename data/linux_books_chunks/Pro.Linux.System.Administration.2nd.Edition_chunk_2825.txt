@@ -1,0 +1,8 @@
+If these files are numbered, like 00-php.conf, then they will be loaded 
+in numeric order.
+
+Creating a Virtual Host
+
+We are ready now to create our first virtual host. A single Linux host running Apache can serve hundreds or 
+thousands of web sites, all with their own hostnames. We call this virtual hosting because each of these sites 
+is running on a single web server.

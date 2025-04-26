@@ -1,0 +1,7 @@
+It also lays out the problems 
+that proprietary software companies were imposing on those software developers who 
+wanted to share, create, and innovate.
+
+Although rewriting millions of lines of code might seem daunting for one or two people, 
+spreading the effort across dozens or even hundreds of programmers made the project 
+ possible.

@@ -1,0 +1,7 @@
+This directive doesn’t work in Files blocks.
+
+ ■ Options is used to adjust how Apache handles ﬁ les within a directory. The 
+
+ExecCGI option tells Apache that ﬁ les in that directory can be run as CGI scripts, 
+and the Includes option tells Apache that server-side includes (SSI) are per-
+mitted.

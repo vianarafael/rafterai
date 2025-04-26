@@ -1,0 +1,24 @@
+Using NFS, you can share /usr over the network with those workstations.
+
+Continues
+
+223
+
+c09.indd  04/01/2015  Page 224
+
+Part III: Becoming a Linux System Administrator
+
+TABLE 9.4     (continued)
+
+Directory
+
+Explanation
+
+/var
+
+/home
+
+/tmp
+
+Your FTP (/var/ftp) and web server (/var/www) directories are, by default in many 
+Linux systems, stored under /var.

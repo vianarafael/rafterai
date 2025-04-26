@@ -1,0 +1,7 @@
+We just explained that this points to our Storage 
+configuration file, and our backups will go to a portion of hard disk we have set aside for backups, /data/
+backups/FileStorage.
+
+Messages = Standard refers to the Messages resource. Here, you can set the way your messages are 
+
+handled.

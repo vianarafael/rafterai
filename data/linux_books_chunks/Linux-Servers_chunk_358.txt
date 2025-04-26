@@ -1,0 +1,12 @@
+When the local server receives
+the ip address for www.linux-training.be, then it will provide this information to the client
+that submitted this query.
+
+Besides caching the A record for www.linux-training.be, the local server will also cache the
+NS and A record for the linux-training.be name server and the .be name server.
+
+75
+
+introduction to DNS
+
+4.11.

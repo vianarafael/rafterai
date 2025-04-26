@@ -1,0 +1,5 @@
+An AccessFileName directive can be added to tell httpd to use the contents of the 
+.htaccess ﬁ le if it exists in a directory to read in settings that apply to access to that 
+directory. For example, the ﬁ le could be used to require password protection for the 
+ directory or to indicate that the contents of the directory should be displayed in certain 
+ways.

@@ -1,0 +1,7 @@
+But the user might not be told of the failure until after entering 
+a password, hiding the fact that the bad username caused the failure.
+
+requisite
+
+If failed, returns a failure status to the application immediately without running 
+the rest of the stack.

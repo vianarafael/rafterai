@@ -1,0 +1,1 @@
+On CentOS, you will get the most recent OpenVPN package from the EPEL repository.

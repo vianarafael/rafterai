@@ -1,0 +1,17 @@
+179     IN     A       216.239.32.10
+...
+
+Finally, dig tells us how long the query took, which server was queried, when the query was run, and 
+
+how much data it received.
+
+;; Query time: 11 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sun Jun 26 00:11:48 UTC 2016
+;; MSG SIZE rcvd: 371
+
+433
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+The actual response data is displayed in five columns.

@@ -1,0 +1,4 @@
+It will also create the appropriate symlinks to multi-user.target.wants directory in the /run/systemd/
+generator.late directory.
+
+The unit files generated have the same options ([Unit] and [Service]) as other unit files.

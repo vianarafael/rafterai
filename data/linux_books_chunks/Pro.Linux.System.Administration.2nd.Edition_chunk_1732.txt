@@ -1,0 +1,35 @@
+To do that we add our 
+enp0s9 interface to the zone=dmz as we did for enp0s8.
+
+Once we have that our dmz zone should look like this:
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+$msudo firewall-cmd --zone=dmz --list-all
+dmz (active)
+ interfaces: enp0s9
+ sources:
+ services: ssh
+ ports:
+ masquerade: no
+ forward-ports:
+ icmp-blocks:
+ rich rules:
+
+Now when we try to access our site from the public internet, with something like curl:
+
+$ curl -I http://website.example.com
+HTTP/1.1 200 OK
+Date: Mon, 23 May 2016 12:40:16 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Tue, 10 May 2016 11:54:38 GMT
+
+Definitive guide for Firewalld can be found at the Red Hat documentation site:
+
+•	
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/Security_Guide/sec-Using_Firewalls.html#sec-Introduction_
+to_firewalld
+
+Here are also a few distributions that are specialised and dedicated to be firewalls.

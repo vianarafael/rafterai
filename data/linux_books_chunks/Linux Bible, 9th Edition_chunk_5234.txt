@@ -1,0 +1,14 @@
+To display information about the package that provides the mogrify command and 
+
+determine what that package’s home page (URL) is, type the following:
+
+# yum info ImageMagick
+
+You will see that the URL to the home page for ImageMagick is http://www
+.imagemagick.org.
+
+3.  To install the package containing the mogrify command, type the following:
+
+# yum install ImageMagick
+
+4.

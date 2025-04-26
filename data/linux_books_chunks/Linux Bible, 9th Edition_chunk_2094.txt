@@ -1,0 +1,6 @@
+Also, be sure to unmount any partitions that mount automatically when you insert 
+the USB ﬂ ash drive.
+
+When you indicate the size of each partition, type the plus sign and the number of megabytes or gigabytes you want 
+to assign to the partition. For example, +1024M to create a 1024 megabyte partition or +10G for a 10 gigabyte 
+partition.

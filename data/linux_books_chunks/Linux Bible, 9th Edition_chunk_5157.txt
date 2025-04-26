@@ -1,0 +1,11 @@
+Type your username (press Enter) and password (press Enter).
+
+c. Type a few commands, such as id, pwd, and ls.
+
+d. Type exit to exit the shell and return to the login prompt.
+
+e. Press Ctrl+Alt+F1 to return to the virtual console that holds your desktop. (On 
+different Linux systems, the desktop may be on different virtual consoles. 
+Ctrl+Alt+F7 is another common place to ﬁ nd it.)
+
+2.

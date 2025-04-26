@@ -1,0 +1,5 @@
+johndoe johndoe
+ system_u:object_r:user_home_t:s0 file.txt
+
+Notice in Table 24.2 that fixfiles, restorecon, and setfiles are essentially the same 
+utility. However, restorecon is the popular choice to use when ﬁ xing ﬁ les’ labels.

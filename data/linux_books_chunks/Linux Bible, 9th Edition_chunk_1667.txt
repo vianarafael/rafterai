@@ -1,0 +1,5 @@
+This prevents the possibility of a disk device such as /dev/sda being changed 
+to /dev/sdb when you add a new disk (which would result in the kernel not 
+being found).
+
+Comments in the grub.cfg ﬁ le indicate where the content came from.

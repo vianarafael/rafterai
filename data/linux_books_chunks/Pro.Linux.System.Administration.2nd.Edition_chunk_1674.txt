@@ -1,0 +1,10 @@
+You will need to download and install the iptables-
+services package (yum install –y iptables-services) to get access to the following commands.
+
+To start and stop iptables you can use the systemctl command:
+
+$ sudo systemctl start|stop|restart iptables
+
+These actions should be self-explanatory by now. You can also use status to the current status as you 
+
+would expect.

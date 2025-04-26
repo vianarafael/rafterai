@@ -1,0 +1,7 @@
+The welcome.
+conf ﬁ le deﬁ nes the default homepage for your website, until you add some content. 
+The magic ﬁ le deﬁ nes rules the server can use to ﬁ gure out a ﬁ le’s type when the server 
+tries to open it. Command line options used with the httpd daemon are deﬁ ned in the 
+/etc/sysconfig/httpd ﬁ le.
+
+The /etc/logrotate.d/httpd ﬁ le deﬁ nes how log ﬁ les produced by Apache are rotated.

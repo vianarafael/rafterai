@@ -1,0 +1,6 @@
+The network inter-
+face card has a Media Access Control (MAC) address of 00:1B:21:0A:E8:5E. The interface was 
+assigned an IP address of 192.168.0.101 and a subnet mask of 255.255.255.0.
+
+Any packet not destined for the local network is sent to the router located at address 
+192.168.0.1 (although other routes can be deﬁ ned as needed).

@@ -1,0 +1,9 @@
+Display all jobs in background.
+
+[paul@rhel53 ~]$ jobs
+[1]-  Stopped                 vim text.txt
+[2]+  Stopped                 find / > allfiles.txt 2> /dev/null
+[3]   Running                 sleep 4000 &
+[4]   Running                 sleep 5000 &
+
+7.

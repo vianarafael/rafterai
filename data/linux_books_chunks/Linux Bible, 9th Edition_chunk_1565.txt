@@ -1,0 +1,13 @@
+As you set up your boot loader during installation, you can identify Windows, 
+Linux, and any other bootable partitions so you can select which one to boot when you 
+start your computer.
+
+215
+
+c09.indd  04/01/2015  Page 216
+
+Part III: Becoming a Linux System Administrator
+
+Installing Linux to run virtually
+Using virtualization technology, such as KVM, VMWare, VirtualBox, or Xen, you can 
+ conﬁ gure your computer to run multiple operating systems simultaneously.

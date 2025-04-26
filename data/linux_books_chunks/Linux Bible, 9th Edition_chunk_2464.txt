@@ -1,0 +1,13 @@
+That information probably contains at least the 
+following:
+
+ ■ IP address—The DHCP server typically has a range of Internet Protocol (IP) 
+addresses it can hand out to any system on the network that requests an 
+
+348
+
+c14.indd  04/01/2015  Page 349
+
+Chapter 14: Administering Networking
+
+address.

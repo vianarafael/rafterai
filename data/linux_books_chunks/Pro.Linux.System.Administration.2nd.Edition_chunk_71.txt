@@ -1,0 +1,26 @@
+Many 
+
+people worldwide use Linux and may have experienced the same issue you have, and posted or written 
+about solutions.
+
+For specific distributions, the following sites are most useful:
+
+•	
+
+•	
+
+•	
+
+Red Hat: www.redhat.com/en/services/support
+
+CentOS: http://bugs.centos.org/main_page.php
+
+Fedora: https://fedoraproject.org/wiki/Communicating_and_getting_help
+
+•	 Debian: www.debian.org/support
+
+•	 Ubuntu: www.ubuntu.com/support
+
+•	 Gentoo: www.gentoo.org/support
+
+Check the sites of other distributions for their support mechanisms.

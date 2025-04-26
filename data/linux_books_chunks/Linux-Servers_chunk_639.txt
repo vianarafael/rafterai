@@ -1,0 +1,27 @@
+Everyone is
+allowed access (guest ok = yes) and security is set to read only.
+
+[pubread]
+path = /srv/samba/readonly
+comment = files to read
+read only = yes
+guest ok = yes
+
+Here is a very similar configuration on Ubuntu 11.10.
+
+157
+
+  
+a read only file server
+
+root@ubu1110:~# cat /etc/samba/smb.conf
+[global]
+workgroup = LINUXTR
+netbios name = UBU1110
+security = share
+[roshare1]
+path = /srv/samba/readonly
+read only = yes
+guest ok = yes
+
+It doesn't really matter which Linux distribution you use.

@@ -1,0 +1,5 @@
+However, before you can use the filesystem to store data, you need to mount it.
+As we briefly explained in Chapter 4 and at the start of this chapter, filesystems on Linux do not get 
+
+assigned a drive letter. Instead, they are mounted as a directory, somewhere under the root filesystem 
+or a subdirectory.

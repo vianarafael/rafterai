@@ -1,0 +1,6 @@
+A service, on the other hand, is a long-running program that never ﬁ nishes its 
+work or self-terminates, but instead stays in a running state. A daemon is an example of an 
+Upstart service job.
+
+The example that follows shows several Upstart jobs that include both task and service 
+jobs. The task jobs are in a stop/waiting state, such as the task rc.

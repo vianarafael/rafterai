@@ -1,0 +1,5 @@
+We have also created them in a separate location to the primary database files, 
+ideally on their own disk or partition.
+
+We’ve now completed our basic MariaDB server tweaks, so we can turn it back on via sudo 
+systemctl start mariadb on CentOS or sudo systemctl start mysql on Ubuntu.

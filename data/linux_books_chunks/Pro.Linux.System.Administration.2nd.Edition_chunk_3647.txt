@@ -1,0 +1,15 @@
+To do that, we need to do several things.
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+•	
+
+Set the hostname
+
+•	 Update Apparmor
+
+•	 Update DNS
+
+Once these tasks are done, we can configure Samba.
+First we need to make sure that our hostname is set correctly. We are going to use the hostname  
+dc1.samba.example.com, which is unique in our domain.

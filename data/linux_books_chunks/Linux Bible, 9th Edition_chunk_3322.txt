@@ -1,0 +1,12 @@
+(See Chapter 24, 
+“Enhancing Linux Security with SELinux,” for more information on SELinux.)
+
+487
+
+c18.indd  04/01/2015  Page 488
+
+Part IV: Becoming a Linux Server Administrator
+
+Relating Linux fi le permissions to vsftpd
+The vsftpd server relies on standard Linux ﬁ le permissions to allow or deny access to ﬁ les 
+and directories.

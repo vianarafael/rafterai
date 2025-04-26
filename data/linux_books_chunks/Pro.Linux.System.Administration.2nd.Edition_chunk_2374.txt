@@ -1,0 +1,13 @@
+Repairing a filesystem that is mounted in read/write mode is guaranteed to destroy data, as the 
+filesystem will be modified directly by the repair tool without the kernel knowing about it.
+
+402
+
+To check the filesystem, you pass the appropriate device node name as a parameter to the repair tool.
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+ ■ Note  When repairing the root filesystem by running a tool from the root filesystem itself, make sure to 
+mount the filesystem read-only first.
+
+Let’s take you through a problem with one of our disks.

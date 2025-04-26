@@ -1,0 +1,7 @@
+Windows shrink down and separate on the desktop. Still holding 
+Ctrl+Alt, use your arrow keys to highlight the window you want and release the 
+keys to have that window come to the surface.
+
+ ■ Tab through windows—Hold the Alt key, and press the Tab key. You see reduced 
+versions of all your windows in a strip in the middle of your screen, with the 
+ current window highlighted in the middle.

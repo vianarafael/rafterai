@@ -1,0 +1,3 @@
+default website
+
+Changing the default website of a freshly installed apache web server is easy.

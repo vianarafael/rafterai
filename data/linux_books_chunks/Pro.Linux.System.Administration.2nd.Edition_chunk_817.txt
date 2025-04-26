@@ -1,0 +1,13 @@
+Changing Someone Else’s Password
+
+$ sudo passwd jsmith
+
+In Listing 5-8, the passwd command prompts you to provide a new password for the user jsmith.
+
+ It is important to note that as the root user you can override any warnings about bad passwords and 
+
+ ■ Tip 
+change the user’s password to a weak or easily guessable password.
+
+Password Aging
+Password aging allows you to specify a time period during which a password is valid.

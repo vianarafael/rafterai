@@ -1,0 +1,7 @@
+Not all 
+commands have information available in the info database, but sometimes more 
+information can be found there than on a man page.
+
+ ■ Use the man command. To learn more about a particular command, type man 
+
+command.

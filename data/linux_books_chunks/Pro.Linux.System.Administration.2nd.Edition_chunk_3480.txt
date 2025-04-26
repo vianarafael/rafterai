@@ -1,0 +1,7 @@
+Otherwise, it will 
+try to deliver the mail to jsmith@example.com instead of just jsmith (which will error with 550 5.1.1 User 
+doesn't exist). We do this in the /etc/dovecot/conf.d/10-auth.conf file.
+
+auth_username_format = %Ln
+
+Now we need to edit the Postfix configuration to tell it to use the LMTP socket.

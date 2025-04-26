@@ -1,0 +1,6 @@
+Know that the rc.local 
+ﬁ le is a quick and easy way to get some commands to run each time the  system boots.
+
+Troubleshooting systemd initialization
+The latest versions of Fedora, RHEL, and soon Ubuntu use systemd instead of System V 
+init as their initialization system.

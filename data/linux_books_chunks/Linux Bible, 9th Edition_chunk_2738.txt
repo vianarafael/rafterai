@@ -1,0 +1,7 @@
+Thus, no special formatting of the 
+output is needed.
+
+# systemctl show --property "Requires" multi-user.target
+Requires=basic.target
+
+The target units also have conﬁ guration ﬁ les, as do the service units.

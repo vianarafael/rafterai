@@ -1,0 +1,6 @@
+These 
+tasks assume you are running a Fedora or Red Hat Enterprise Linux system (although some 
+tasks work on other Linux systems as well). 
+
+Please don’t use a production system to try out the iptables commands in these 
+ exercises.

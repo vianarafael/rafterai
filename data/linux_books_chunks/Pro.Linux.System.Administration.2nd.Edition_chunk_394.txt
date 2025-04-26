@@ -1,0 +1,9 @@
+We have a default mount that mounts our first 
+
+directory into /vagrant and we have our temp directory that we have mounted into /home/vagrant/temp.
+
+Okay, now that our host is booted and ready let’s check its status with the command shown in Listing 3-13.
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Listing 3-13.

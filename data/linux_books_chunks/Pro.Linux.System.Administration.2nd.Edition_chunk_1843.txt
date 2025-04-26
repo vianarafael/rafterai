@@ -1,0 +1,9 @@
+A full list of the available configuration settings 
+for YUM is available through the yum.conf man page.
+
+$ man yum.conf
+
+Though you will rarely change how YUM is configured, you may wish to add additional repositories to 
+
+YUM from which you can download additional packages. The files defining what repositories are available to 
+YUM are contained in the /etc/yum.repo.d directory.

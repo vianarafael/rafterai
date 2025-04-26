@@ -1,0 +1,15 @@
+The three broad types of RAID implementations are as follows:
+
+•	 Hardware RAID
+
+•	
+
+•	
+
+Fake RAID
+
+Software RAID
+
+Hardware RAID uses specialized hardware controllers, often called RAID controllers, that manage 
+RAID transparently from the operating system. Enterprise-level servers often come with these specialized 
+hardware controllers.

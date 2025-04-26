@@ -1,0 +1,8 @@
+JRuby, for Java Ruby, is used 
+
+with Logstash, and the configuration files are in native Ruby syntax.
+
+In our input section, we have included our beats plug-in, and the beats plug-in accepts the port and 
+
+SSL configuration options like earlier. This should already be familiar to you, but the important thing to note 
+is that here we are specifying a ssl_verify_mode value of force_peer.

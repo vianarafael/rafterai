@@ -1,0 +1,11 @@
+if you’re really interested in the math behind this, we 
+recommend this excellent book: Applied Cryptography: Protocols, Algorithms, and Source Code in C, 20th 
+Anniversary Edition by bruce Schneier (John Wiley & Sons, 2015).
+
+505
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+When using TLS, the digital certificate is the server’s public key and acts like an electronic driver’s 
+
+license.

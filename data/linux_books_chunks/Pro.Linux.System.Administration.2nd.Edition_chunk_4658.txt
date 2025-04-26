@@ -1,0 +1,2 @@
+This should be the first entry you add to your LDAP server.
+It should be noted here that depending on if you are using Ubuntu, rootDN may already exist.

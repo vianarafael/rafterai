@@ -1,0 +1,10 @@
+Wireless interfaces sometimes 
+appear using the name of the wireless network as the device name.
+
+352
+
+c14.indd  04/01/2015  Page 353
+
+Chapter 14: Administering Networking
+
+Another popular command for seeing network interface information is the ifconfig command.

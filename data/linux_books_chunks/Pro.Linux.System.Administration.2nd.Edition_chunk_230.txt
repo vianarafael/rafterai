@@ -1,0 +1,10 @@
+Setting the hostname
+
+59
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Next, you are asked to create a user for this host. In Chapter 5 we will discuss user administration in 
+greater detail, but it is important to know that the Ubuntu distribution disables the root user account by 
+disabling its password. The root user is like the Windows Administrator and has access to everything on the 
+host.

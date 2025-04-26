@@ -1,0 +1,11 @@
+Using the command which su, determine the su command’s full ﬁ lename. Next, 
+
+determine whether the su command on your Linux system is PAM-aware.
+
+7.  Does the su  command have a PAM conﬁ guration ﬁ le? If so, display the conﬁ gura-
+
+tion ﬁ le on the screen and list what PAM contexts it uses.
+
+8.  List out the various PAM modules on your system to your screen.
+
+9.

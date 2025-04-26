@@ -1,0 +1,12 @@
+As cloud environments become more popular, look for monitoring tools that go with 
+OpenStack, Red Hat Enterprise Virtualization, and other cloud platforms to improve 
+centralized monitoring of hypervisors, virtual machines, containers, and the 
+underlying storage, networking, and authentications services that support them.
+
+Although in-depth coverage of enterprise deployment and monitoring tools is outside the 
+scope of this book, refer to Chapter 26, “Using Linux for Cloud Computing,” for further 
+information on how different Linux-based cloud platforms manage these issues.
+
+Summary
+Although many different types of servers are available with Linux systems, the basic 
+ procedure for installing and conﬁ guring a server is essentially the same.

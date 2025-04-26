@@ -1,0 +1,6 @@
+You can 
+filter on protocols like tCP, UDP, AH, iPsec, PPPoe, StP, and many others.
+
+You can get a good list of all the possible protocols in /etc/protocols along with their protocol 
+numbers. in iptables, you can specify the protocol name, like udp, or a protocol number, like 17 (for 
+UDP), when declaring a rule.

@@ -1,0 +1,5 @@
+Notice that, although
+hard disks are commonly used for swap space, their access times are one hundred thousand
+times slower.
+
+The swap space can be a file, a partition, or a combination of files and partitions.

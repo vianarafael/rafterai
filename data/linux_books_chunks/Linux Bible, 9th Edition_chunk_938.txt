@@ -1,0 +1,4 @@
+The x, d, 
+y, and c commands can be used to delete and change text. These can be used along with 
+movement keys (arrows, PgUp, PgDn, letters, and special keys) and numbers to indicate 
+exactly what you are deleting, copying, or changing.

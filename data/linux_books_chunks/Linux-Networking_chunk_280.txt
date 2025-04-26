@@ -1,0 +1,8 @@
+public and private keys
+
+The  ssh  protocol  uses  the  well  known  system  of  public  and  private  keys.  The  below
+explanation is succinct, more information can be found on wikipedia.
+
+http://en.wikipedia.org/wiki/Public-key_cryptography
+
+Imagine Alice and Bob, two people that like to communicate with each other.

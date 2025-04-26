@@ -1,0 +1,14 @@
+# xbps
+
+
+- View documentation for installing and updating packages:
+
+`tldr xbps-install`
+
+- View documentation for removing packages:
+
+`tldr xbps-remove`
+
+- View documentation for querying for package and repository information:
+
+`tldr xbps-query`

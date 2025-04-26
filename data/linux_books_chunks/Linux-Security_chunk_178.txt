@@ -1,0 +1,15 @@
+For now, you will have to know that users can change
+their password with the /usr/bin/passwd command.
+
+[root@centos7 ~]# tail -4 /etc/shadow
+paul:$6$ikp2Xta5BT.Tml.p$2TZjNnOYNNQKpwLJqoGJbVsZG5/Fti8ovBRd.VzRbiDSl7TEq\
+IaSMH.TeBKnTS/SjlMruW8qffC0JNORW.BTW1:16338:0:99999:7:::
+tania:$6$8Z/zovxj$9qvoqT8i9KIrmN.k4EQwAF5ryz5yzNwEvYjAa9L5XVXQu.z4DlpvMREH\
+eQpQzvRnqFdKkVj17H5ST.c79HDZw0:16356:0:99999:7:::
+laura:$6$glDuTY5e$/NYYWLxfHgZFWeoujaXSMcR.Mz.lGOxtcxFocFVJNb98nbTPhWFXfKWG\
+SyYh1WCv6763Wq54.w24Yr3uAZBOm/:16356:0:99999:7:::
+valentina:$6$jrZa6PVI$1uQgqR6En9mZB6mKJ3LXRB4CnFko6LRhbh.v4iqUk9MVreui1lv7\
+GxHOUDSKA0N55ZRNhGHa6T2ouFnVno/0o1:16356:0:99999:7:::
+[root@centos7 ~]#
+
+The /etc/shadow file contains nine colon separated columns.

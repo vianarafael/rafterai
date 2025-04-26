@@ -1,0 +1,5 @@
+Here’s how you can move between those workspaces in GNOME 
+3 and GNOME 2:
+
+ ■ In GNOME 3, press the Windows key, and double-click the workspace you want in 
+the right column.

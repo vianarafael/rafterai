@@ -1,0 +1,3 @@
+The reason we need an SSH key without a passphrase to make our connection is that we are 
+going to run this script via crontab, which we introduced in Chapter 6, so we can regularly do the backup of 
+our remote host without any user interaction.

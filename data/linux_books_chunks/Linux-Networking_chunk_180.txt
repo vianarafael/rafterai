@@ -1,0 +1,7 @@
+many services
+
+Network cards are uniquely identified by their mac address, hosts by their ip address and
+applications by their port number.
+
+Common  application  level  protocols  like  smtp,  http,  ssh,  telnet  and  ftp  have  fixed  port
+numbers.

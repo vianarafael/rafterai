@@ -1,0 +1,5 @@
+The Hosts Detail screen
+
+You can see here that we have two hosts listed: the localhost or the Nagios server and the gateway server 
+
+we configured earlier. You can see that we can ping both hosts and that they are in the status of UP.

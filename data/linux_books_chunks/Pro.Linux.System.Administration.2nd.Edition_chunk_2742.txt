@@ -1,0 +1,13 @@
+Are you sure you 
+want to continue connecting (yes/no)? yes
+Warning: Permanently added 'au-mel-centos-1.example.com,192.168.0.1' (RSA) to the
+    list of known hosts.
+jsmith@au-mel-centos-1.example.com's password:
+
+Now we’ll try logging in to the machine with the following:
+
+$ ssh au-mel-centos-1.example.com
+
+Since we had not yet connected to au-mel-centos-1 from the host we’re logged in to, we’re prompted 
+
+to accept the remote SSH host key.

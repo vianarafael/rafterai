@@ -1,0 +1,11 @@
+The deny=3 option allows a user only 
+three failed attempts to log in before the account is locked.
+
+665
+
+c23.indd  04/01/2015  Page 666
+
+Part V: Learning Linux Security Techniques
+
+The quiet option does not tell the user the account is locked if it becomes locked. It 
+keeps giving “incorrect password” messages to the user.

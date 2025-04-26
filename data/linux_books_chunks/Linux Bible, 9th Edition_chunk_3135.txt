@@ -1,0 +1,11 @@
+Those logs are also hard linked to the /var/log/httpd direc-
+tory, so you can access the same ﬁ le from there as well.
+
+460
+
+c17.indd  04/01/2015  Page 461
+
+Chapter 17: Confi guring a Web Server
+
+The DocumentRoot and ScriptAlias directives determine where content that is served 
+by your httpd server is stored.

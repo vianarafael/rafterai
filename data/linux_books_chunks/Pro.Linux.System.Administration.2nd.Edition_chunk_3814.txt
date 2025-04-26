@@ -1,0 +1,6 @@
+Then we are going perform those same write tests and shut down the server we 
+mounted Gluster from.
+
+The first thing we will do is install the Gluster client. Now, you don’t have to do this if you intend 
+
+to use Gluster with NFS or SMB (Samba).

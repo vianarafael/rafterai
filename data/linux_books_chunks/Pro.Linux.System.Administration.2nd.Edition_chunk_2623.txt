@@ -1,0 +1,11 @@
+The latter is much faster and 
+does not interrupt services, so let’s do that.
+
+$ sudo rndc reload
+server reload successful
+
+447
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+The rndc utility is used to control the named (bind) server.

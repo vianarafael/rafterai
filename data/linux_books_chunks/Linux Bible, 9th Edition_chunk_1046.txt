@@ -1,0 +1,9 @@
+You can use the PID 
+if you ever need to kill a runaway process or send another kind of signal to a process. The 
+%CPU and %MEM columns show the percentages of the processor and random access memory, 
+respectively, that the process is consuming.
+
+6
+
+VSZ (virtual set size) shows the size of the image process (in kilobytes), and RSS ( resident 
+set size) shows the size of the program in memory.

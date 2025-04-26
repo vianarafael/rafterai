@@ -1,0 +1,18 @@
+wbinfo
+
+16.4.1. verify the trust
+
+You can use wbinfo -t to verify the trust between your samba server and Active Directory.
+
+190
+
+  
+  
+samba domain member
+
+[root@RHEL52 ~]# wbinfo -t
+checking the trust secret via RPC calls succeeded
+
+16.4.2. list all users
+
+We can obtain a list of all user with the wbinfo -u command.

@@ -1,0 +1,9 @@
+security = server
+
+This mode is obsolete, it can be used to forward authentication to another server.
+
+23.3. About password backends
+
+The previous chapters all used the smbpasswd user database. For domain control we opt
+for the tdbsam password backend. Another option would be to use LDAP. Larger domains
+will benefit from using LDAP instead of the not so scalable tdbsam.

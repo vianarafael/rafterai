@@ -1,0 +1,8 @@
+EXCEPT 192.168.22.99
+hosts allow = 192.168.5.0/255.255.255.0
+hosts allow = .example.com market.example.net
+hosts deny = evil.example.org 192.168.99.
+
+These entries can be put in the [global] section or in any shared directory section. The 
+ﬁ rst example allows access to any host in the 192.168.22. network, except for 192.168.22.99, 
+which is denied.

@@ -1,0 +1,12 @@
+You 
+are not logging in using an entry in the /etc/passwd ﬁ le or drawing on the processing power of a 
+single machine.
+
+729
+
+c26.indd  04/01/2015  Page 730
+
+Part VI: Extending Linux into the Cloud
+
+Instead, you are installing to a virtual machine or container that is running on some host 
+system in the cloud.

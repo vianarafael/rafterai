@@ -1,0 +1,40 @@
+Install the aide package, run the aide command to initialize the aide database, 
+copy the database to the correct location, and run the aide  command to check if 
+any important ﬁ les on your system have been modiﬁ ed.
+
+625
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c23.indd  04/01/2015  Page 627
+
+C H A P T E R 
+
+23
+
+Understanding Advanced 
+Linux Security
+
+IN THIS CHAPTER
+
+Understanding hashing and encryption
+
+Checking fi le integrity
+
+Encrypting fi les, directories, and fi lesystems
+
+Understanding pluggable authentication modules
+
+Managing Linux security with PAM
+
+D ue to ever changing and growing threats, implementing basic computer security is no longer 
+
+enough.

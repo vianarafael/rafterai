@@ -1,0 +1,10 @@
+Modify the rule 
+or add a rule prior to your rules to make an exception for the host you want to 
+allow to access your service.
+
+If the port is now open, but the service itself is closed, check that the service itself is 
+running and listening on the appropriate interfaces.
+
+Check the service on the server
+If there seems to be nothing blocking client access to your server through the actual ports 
+providing the service you want to share, it is time to check the service itself.

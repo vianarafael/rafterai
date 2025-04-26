@@ -1,0 +1,6 @@
+Storage needs for clouds 
+include needing places to store the back-end storage for your VMs, images for launching 
+VMs, and databases for storing information about the cloud itself.
+
+Shared storage between hypervisors can be done as simply as creating an NFS share (see 
+Chapter 20) and mounting it on the same mount point between multiple hypervisors.

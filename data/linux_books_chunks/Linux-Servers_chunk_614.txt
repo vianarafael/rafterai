@@ -1,0 +1,29 @@
+And it shows
+even less.
+
+[paul@RHEL4b ~]$ smbtree
+Password: 
+WORKGROUP
+ \\W2000          
+[paul@RHEL4b ~]$
+
+So we wait a while, and then run smbtree again, this time it looks a lot nicer.
+
+[paul@RHEL4b ~]$ smbtree
+Password: 
+WORKGROUP
+ \\W2000          
+PEGASUS
+ \\WINXP          
+ \\RHEL4B                        Pegasus Domain Member Server
+  \\RHEL4B\ADMIN$                 IPC Service (Pegasus Domain Member Server)
+  \\RHEL4B\IPC$                   IPC Service (Pegasus Domain Member Server)
+  \\RHEL4B\domaindata             Active Directory users only
+ \\HM2003         
+[paul@RHEL4b ~]$ smbtree --version
+Version 3.0.10-1.4E.9
+[paul@RHEL4b ~]$
+
+I added the version number of smbtree in the previous screenshot, to show you the difference
+when  using  the  latest  version  of  smbtree  (below  a  screenshot  taken  from  Ubuntu  Feisty
+Fawn).

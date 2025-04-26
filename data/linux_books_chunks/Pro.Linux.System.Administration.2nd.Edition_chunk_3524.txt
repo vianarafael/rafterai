@@ -1,0 +1,6 @@
+The package installation process also creates a cron 
+entry (in the /etc/cron.daily directory) for the FreshClam update tool that updates ClamAV’s signatures 
+once a day.
+
+On Ubuntu, the ClamAV daemon is configured via the /etc/clamav/clamd.conf configuration file and 
+the freshclam update daemon via the /etc/clamav/freshclam.conf configuration file.

@@ -1,0 +1,11 @@
+In our case, 
+we’re sending an e-mail to ataylor@example.com and from jsmith@example.com.
+
+ We created these users in Chapter 5. if you are following along, you should substitute the names of 
+
+ ■ Note 
+users on your local host or create some new users to test your e-mail with.
+
+538
+
+We then tell our server we’re sending the e-mail with the DATA command.

@@ -1,0 +1,14 @@
+Although these skills are useful, 
+
+344
+
+c13.indd  04/01/2015  Page 345
+
+Chapter 13: Understanding Server Administration
+
+to manage many Linux systems at the same time, you need to extend your skills by using 
+automating deployment and monitoring tools such as Puppet and Nagios.
+
+Although it is easy to set up networking to reach your servers in simple, default cases, more 
+complex network conﬁ guration requires a knowledge of networking conﬁ guration ﬁ les and 
+related tools.

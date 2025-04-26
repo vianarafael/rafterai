@@ -1,0 +1,6 @@
+In the application 
+search bar, type in “users” and you’ll find the Users application (Centos) or User accounts (Ubuntu)—or open 
+the settings or system settings menu and you’ll find them there.
+
+Working with Users and Groups
+At the heart of managing access to your Linux hosts is the concept of users and groups.

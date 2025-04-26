@@ -1,0 +1,10 @@
+To show the space that is used and available from all the ﬁ lesystems currently 
+
+attached to the local system, but exclude any tmpfs or devtmpfs ﬁ lesystems by 
+using the df command, type the following:
+
+$ df -h -x tmpfs -x devtmpfs
+Filesystem      Size  Used Avail Use% Mounted on
+/deev/sda4       20G  4.2G 16G    22% /
+
+10.

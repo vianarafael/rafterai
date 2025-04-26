@@ -1,0 +1,11 @@
+There is a shell prompt on Ctrl-Alt-F2, 
+
+installation messages go to Ctrl-Alt-F3 with system messages going to Ctrl-Alt-F4 and other messages appear 
+in Ctrl-Alt-F5.
+
+You can use these terminals to gather information about your installation or see any error messages that 
+
+might prove helpful if your installation doesn’t go as planned.
+
+Restarting Your Installation
+After a problem, you should normally restart the installation from the beginning.

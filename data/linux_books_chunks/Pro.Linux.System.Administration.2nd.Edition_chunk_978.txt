@@ -1,0 +1,8 @@
+You may have noticed that when 
+you turn on your host, it is common to hear a few beeps and whirrs and see some blinking lights on your 
+front panel and keyboard. This is the first step of your host starting up, and this process, on a host running 
+BIOS, is controlled by a small chip on the motherboard called the BIOS.
+
+181
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

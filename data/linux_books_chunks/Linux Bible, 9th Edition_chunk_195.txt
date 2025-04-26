@@ -1,0 +1,7 @@
+The foundation of UNIX was set with 
+several key elements:
+
+ ■ The UNIX filesystem—Because it included a structure that allowed levels of sub-
+
+directories (which, for today’s desktop users, looks like folders inside  folders), UNIX 
+could be used to organize the ﬁ les and directories in intuitive ways.

@@ -1,0 +1,10 @@
+Although this is most useful for creating 
+ﬁ lesystems on hard-disk partitions, you can create ﬁ lesystems on USB ﬂ ash drives, ﬂ oppy 
+disks, or rewritable CDs as well.
+
+Before you create a new ﬁ lesystem, make sure of the following:
+
+ ■ You have partitioned the disk as you want (using the fdisk command).
+
+ ■ You get the device name correct, or you may end up overwriting your hard disk by 
+mistake.

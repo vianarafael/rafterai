@@ -1,0 +1,10 @@
+Metacity conﬁ guration options let you control such things as themes, 
+window borders, and controls used on your desktop.
+
+ ■ Compiz (window manager)—You can enable this window manager in GNOME to 
+
+provide 3D desktop effects.
+
+ ■ Nautilus (file manager/graphical shell)—When you open a folder (by double-click-
+ing the Home icon on your desktop, for example), the Nautilus window opens and 
+displays the contents of the selected folder.

@@ -1,0 +1,9 @@
+We also ensure the root user owns all the directories, and we secure the 
+private directory so that only the root user can access it.
+
+Next, you need to create a database to hold details of your signed certificates.
+
+$ echo '01' | sudo tee /etc/pki/CA/serial
+$ sudo touch /etc/pki/CA/index.txt
+
+ in the first line, we’ve echoed the number 01 to the /etc/pki/CA/serial file.

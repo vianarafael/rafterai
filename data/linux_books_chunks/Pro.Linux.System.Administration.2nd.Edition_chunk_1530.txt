@@ -1,0 +1,7 @@
+$ ping –c 4 192.168.1.220
+PING 192.168.1.220 (192.168.1.220) 56(84) bytes of data.
+64 bytes from 192.168.1.220: icmp_seq=1 ttl=64 time=1.79 ms
+
+We have used the ping command, a way of sending network echoes, with the –c 4 option to limit the 
+number of echo replies to 4. This is enough to confirm that we can reach our Host C from our Host A. That 
+was relatively easy.

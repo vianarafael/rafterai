@@ -1,0 +1,10 @@
+The network 
+192.168.1.0/24 is going to be our wireless network, which we will separate into its own subnet. There is a host 
+with which we wish to communicate on that network with the IP address 192.168.1.220—Host C. Figure 7-13 
+provides a diagram of our network.
+
+258
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-13.

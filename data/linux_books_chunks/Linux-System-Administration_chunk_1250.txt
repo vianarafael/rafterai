@@ -1,0 +1,9 @@
+Most
+libraries have a detailed version number in their name, but receive a symbolic link from a
+filename which only contains the major version number.
+
+root@rhel53 ~# ls -l /lib/libext*
+lrwxrwxrwx 1 root root   16 Feb 18 16:36 /lib/libext2fs.so.2 -> libext2fs.so.2.4
+-rwxr-xr-x 1 root root 113K Jun 30  2009 /lib/libext2fs.so.2.4
+
+29.3.

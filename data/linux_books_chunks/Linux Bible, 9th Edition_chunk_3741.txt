@@ -1,0 +1,6 @@
+After the boot loader starts the kernel, how the rest of the 
+ activities (mounting ﬁ lesystems, setting kernel options, running services, and so on) are 
+done is all managed by the initialization process.
+
+As I describe the boot process, I focus on two different types of initialization: System V 
+init and systemd.

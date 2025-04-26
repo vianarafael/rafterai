@@ -1,0 +1,11 @@
+If it is not running, you can start it by 
+
+issuing the following (swapping nfs for nfs-server on Ubuntu):
+
+$ sudo systemctl restart nfs
+$ sudo systemctl enable nfs
+
+Once done, you need to edit the /etc/exports file.
+NFS reads its share instruction from the /etc/exports file. Here you add the directories you want to 
+
+share along with some options as to how you want them shared.

@@ -1,0 +1,4 @@
+However, the security risk with this procedure is that you could be in a 
+directory that contains a command that you don’t intend to run from that directory. For example, a malicious person 
+could put an ls command in a directory that, instead of listing the content of your directory, does something devi-
+ous.

@@ -1,0 +1,6 @@
+Trying to add two Jane Smiths, one with a 
+lowercase s and one with an uppercase S, will return a duplicate error.
+
+Password Policy Overlay
+Setting the password policy overlay allows us greater control over password aging and change history. 
+Overlays, as explained earlier, provide extra functionality for your OpenLDAP server.

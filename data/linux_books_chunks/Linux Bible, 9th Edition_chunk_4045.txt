@@ -1,0 +1,7 @@
+It begins by physically securing the 
+computers Linux runs on and proceeds through using good basic techniques for properly deﬁ ning 
+and securing user accounts. These and other techniques are the ﬁ rst lines of defense in securing 
+your Linux systems.
+
+Implementing physical security
+A lock on the computer server room door is a ﬁ rst line of defense.

@@ -1,0 +1,5 @@
+Having users named Jsmith and jsmith can cause 
+confusion with programs (such as sendmail) that don’t distinguish case.
+
+ ■ Password, Verify—Select the “Set a password now” button. Then enter the 
+ password you want the user to have in the Password and Verify ﬁ elds.

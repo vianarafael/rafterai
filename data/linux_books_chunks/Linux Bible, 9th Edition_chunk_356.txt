@@ -1,0 +1,6 @@
+It is derived originally from the UNIX oper-
+ating system, but has grown beyond UNIX in popularity and power over the years.
+
+The history of the Linux operating system can be tracked from early UNIX systems that 
+were distributed free to colleges and improved by initiatives such as the Berkeley Software 
+Distribution (BSD).

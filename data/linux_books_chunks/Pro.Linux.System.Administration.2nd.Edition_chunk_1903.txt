@@ -1,0 +1,7 @@
+Next we have the %install section and here we remove any 
+older build data and create the BUILDROOT directory structure. We then use the install command (which 
+copies the file to the desired location and gives them the desired mode).
+
+The next section deals with listing the files we are installing. They can be doc files, conf files, and 
+
+directories.

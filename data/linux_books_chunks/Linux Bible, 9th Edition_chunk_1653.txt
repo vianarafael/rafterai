@@ -1,0 +1,3 @@
+So (hd0,1) is the second partition (1) on the fi rst disk (0).
+
+The two bootable partitions in this example are Red Hat Enterprise Linux and Windows XP.

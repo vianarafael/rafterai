@@ -1,0 +1,13 @@
+The virtual_mailbox file has a similar syntax.
+
+/etc/postfix/virt_mailbox:
+ataylor@example.com    OK
+ataylor@example.net    OK
+bsingh@example.com     OK
+jsmith@example.net     OK
+
+Here we are listing the e-mail addresses we accept. Again, we could set other actions instead of OK such 
+
+as REJECT or FILTER or BCC.
+
+Finally, we can also use virtual aliases like we did with the /etc/aliases file.

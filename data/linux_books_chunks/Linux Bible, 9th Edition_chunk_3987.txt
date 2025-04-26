@@ -1,0 +1,3 @@
+Although it would make the computer run faster to put every ﬁ le and every 
+piece of data the processor may need into RAM, in most cases there just wouldn’t be 
+the room.

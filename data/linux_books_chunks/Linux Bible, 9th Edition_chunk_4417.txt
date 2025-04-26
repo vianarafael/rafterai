@@ -1,0 +1,10 @@
+In computer security access control, Implicit Deny 
+means that if certain criteria are not clearly met, access must be denied. In this case, 
+
+654
+
+c23.indd  04/01/2015  Page 655
+
+Chapter 23: Understanding Advanced Linux Security 
+
+if no conﬁ guration ﬁ le exists for a PAM-aware application, all access to it is denied.

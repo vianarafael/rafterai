@@ -1,0 +1,5 @@
+As 
+we discussed earlier in this chapter, on Linux hosts a user must belong to at least one group, known as the 
+primary group, but can also belong to one or more additional groups, called supplementary groups.
+
+You can change the user and group ownership of a file using the chown command.

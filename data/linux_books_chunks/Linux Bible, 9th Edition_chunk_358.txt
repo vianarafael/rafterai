@@ -1,0 +1,3 @@
+The most prominent of these is the GNU Public License 
+(GPL). Standards such as the Linux Standard Base and world-class Linux organizations and 
+companies (such as Canonical Ltd.

@@ -1,0 +1,6 @@
+It is worth noting that in 
+these sections you can see a semicolon on the Requires and Alias options. If lines start with a #or a;then they 
+are considered comments and are ignored. In Listing 6-8 we see that there is a [Service] section and we use 
+that to describe the service we are configuring to run on our system.
+
+All [Service] sections require a Type option.

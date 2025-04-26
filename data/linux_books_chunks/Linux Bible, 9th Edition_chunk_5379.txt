@@ -1,0 +1,9 @@
+To view the shares available from the NFS server, assuming the NFS server is named 
+
+nfsserver, type the following from the NFS client:
+
+# showmount -e nfsserver
+Export list for nfsserver:
+/var/mystuff  *
+
+8.

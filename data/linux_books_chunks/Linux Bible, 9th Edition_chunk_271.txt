@@ -1,0 +1,6 @@
+Red Hat created the RPM packaging format so a 
+ software package could contain not only the ﬁ les to be shared, but also  information 
+about the package version, who created it, which ﬁ les were documentation or 
+ conﬁ guration ﬁ les, and when it was created. By installing software packaged in 
+RPM format, that information about each software package could be stored in a 
+local RPM database.

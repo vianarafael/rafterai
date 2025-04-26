@@ -1,0 +1,33 @@
+Let’s try to restore the /etc/
+hosts file using the restore command.
+
+* restore
+To select the JobIds, you have the following choices:
+     1: List last 20 Jobs run
+     2: List Jobs where a given File is saved
+     3: Enter list of comma separated JobIds to select
+
+The list of options to use here actually goes to 12, but we will use option 2 to find out the JobId (which 
+
+we already know from the Terminated Jobs output to be 4).
+
+Select item: (1-12): 2
+Automatically selected Client: headoffice-fd
+Enter Filename (no path):hosts
++-------+------------+---------------------+---------+-----------+----------+-------------+
+| JobId | Name       | StartTime           | JobType | JobStatus | JobFiles | JobBytes    |
++-------+------------+---------------------+---------+-----------+----------+-------------+
+| 2     | /etc/hosts | 2016-10-10 01:21:36 | B       | T         | 8908     | 140144767   |
++-------+------------+---------------------+---------+-----------+----------+-------------+
+
+688
+
+Now that we know our JobId, we would then use option 3 to restore our hosts file, as follows:
+
+Chapter 14 ■ BaCkup and reCovery
+
+Select item: (1-12): 3
+Enter JobId(s), comma separated, to restore: 4
+You have selected the following JobId: 4
+
+Building directory tree for JobId 4 ...

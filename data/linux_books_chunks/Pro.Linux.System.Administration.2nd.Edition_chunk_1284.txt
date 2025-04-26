@@ -1,0 +1,7 @@
+When we showed you how to install a 
+distribution in Chapter 2 and configure a network, we were configuring an interface.
+
+ interfaces are generally in two major states—up and down. interfaces that are up are active and can 
+
+ ■ Tip 
+be used to receive network traffic.

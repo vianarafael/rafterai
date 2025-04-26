@@ -1,0 +1,24 @@
+Let’s try to run our backup 
+
+for headoffice.example.com.
+
+*  run job=headoffice.example.com client=headoffice-fd
+Automatically selected Catalog: MyCatalog
+Using Catalog "MyCatalog"
+
+695
+
+Chapter 14 ■ BaCkup and reCovery
+
+Run Backup job
+JobName:  headoffice.example.com
+Level:    Incremental
+Client:   headoffice-fd
+Format:   Native
+FileSet:  DBLinux
+Pool:     Incremental (From Job IncPool override)
+Storage:  Gluster (From Job resource)
+When:     2016-10-11 22:29:37
+Priority: 10
+OK to run? (yes/mod/no): yes
+Job queued.

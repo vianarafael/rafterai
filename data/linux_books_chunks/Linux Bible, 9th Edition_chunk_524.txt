@@ -1,0 +1,6 @@
+Click the Background Image check box if you want to 
+select an Image for the background, and then select an image, such as a tile from 
+/usr/share/backgrounds/tiles or another directory.
+
+I usually turn on the AutoHide feature and turn off the Hide buttons. Using AutoHide gives you more desktop space 
+to work with.

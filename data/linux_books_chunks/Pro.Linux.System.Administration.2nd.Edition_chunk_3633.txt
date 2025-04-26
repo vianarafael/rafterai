@@ -1,0 +1,6 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_13ChapTer 13 ■ FiLe Sharing and prinTing
+
+File sharing can be achieved in many ways using Linux, depending on your needs for access, security, 
+
+and the clients you have to support. Linux can provide a good platform for traditional file sharing, as it gives 
+you the ability to mount a network drive on your client host.

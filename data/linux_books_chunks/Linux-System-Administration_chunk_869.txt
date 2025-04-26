@@ -1,0 +1,7 @@
+This makes it very easy to install and remove applications,
+operating system components, documentation and much more.
+
+We first discuss the Debian package format .deb and its tools dpkg, apt-get and aptitude.
+This should be similar on Debian, Ubuntu, Mint and all derived distributions.
+
+Then we look at the Red Hat package format .rpm and its tools rpm and yum.

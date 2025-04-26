@@ -1,0 +1,9 @@
+Google’s DNSSEC records
+
+We apologize if you have to squint, but we used the dig google.com ds +dnssec command to query 
+for the delegated signing records for dnssec. Take a look at the following sidebar for more information about 
+what they mean.
+
+DNSSEC
+
+DnsseC uses a process of exchanging cryptographic signatures and works on a “Chain of trust” model.

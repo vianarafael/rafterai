@@ -1,0 +1,3 @@
+Serverspec will look for a directory in the spec directory that 
+matches a host declared in the Vagrantfile and run any tests it finds in those directories that end in 
+*_spec.rb.

@@ -1,0 +1,27 @@
+Then you can add it to the profile with 
+the --kickstart option.
+
+You can list the configured hosts using the list and report options.
+
+$ sudo cobbler system list
+web1.example.com
+
+A full listing of the gateway.example.com system definition can be seen using the report option.
+
+$ sudo cobbler system report –name=web1.example.com
+
+We can also delete a system using the remove command.
+
+$ sudo cobbler system remove --name=web1.example.com
+
+ ■ Note 
+
+ You can read about additional Cobbler capabilities on the cobbler command’s man page.
+
+927
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Cobbler Web Interface
+
+Cobbler also has a simple web interface you can use to manage some of its options.

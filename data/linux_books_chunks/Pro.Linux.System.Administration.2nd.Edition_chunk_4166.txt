@@ -1,0 +1,7 @@
+The dbaddress should be the address of the host the Catalog is on.
+
+Pools
+
+Pools, as described earlier, are media volumes that are grouped together to reflect their purpose. You could 
+have pools of media in groups like monthly, weekly, daily, or archive, or even by things like web servers, 
+database servers, and so forth.

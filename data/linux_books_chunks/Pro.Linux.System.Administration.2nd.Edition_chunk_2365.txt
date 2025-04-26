@@ -1,0 +1,26 @@
+Unlike growing the filesystem, if the volume you are reducing is mounted, 
+the following command will umount and remount it.
+
+$ sudo lvreduce --size -2G -r /dev/vg-mail/spool
+Do you want to unmount "/tmp/block"? [Y|n] y
+fsck from util-linux 2.23.2
+/dev/mapper/vg--mail-spool: 11/262144 files (0.0% non-contiguous), 53326/1048576 blocks
+resize2fs 1.42.9 (28-Dec-2013)
+Resizing the filesystem on /dev/mapper/vg--mail-spool to 524288 (4k) blocks.
+The filesystem on /dev/mapper/vg--mail-spool is now 524288 blocks long.
+
+   Size of logical volume vg-mail/spool changed from 4.00 GiB (1024 extents) to 2.00 GiB  
+
+(512 extents).
+
+  Logical volume spool successfully resized.
+
+And now our filesystem has been reduced.
+
+$ df -h /tmp/block
+Filesystem                  Size  Used Avail Use% Mounted on
+/dev/mapper/vg--mail-spool  1.9G   12M  1.8G   1% /var/spool
+
+LVM Commands
+Although it’s a little bit more work to set up than simple partitions, LVM allows you to use your storage space 
+in a far more flexible manner.

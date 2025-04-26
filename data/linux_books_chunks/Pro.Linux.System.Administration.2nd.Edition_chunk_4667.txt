@@ -1,0 +1,7 @@
+For the person class, we MUST provide a cn and an sn entry. We MAY 
+provide userPassword, telephone, seeAlso, and description.
+
+It is optional to include the posixAccount and exampleClient object classes. The object class 
+
+posixAccount will provide the attributes useful for Unix/Linux hosts such as userPassword, uid, uidNumber, 
+gidNumber, and homeDirectory.

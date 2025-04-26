@@ -1,0 +1,24 @@
+Removing
+a Logical Volume requires the name of the Volume Group.
+
+[root@RHEL5 ~]# lvremove vg42/MyLV
+Do you really want to remove active logical volume "MyLV"? [y/n]: y
+  Logical volume "MyLV" successfully removed
+[root@RHEL5 ~]#
+
+Removing multiple Logical Volumes will request confirmation for each individual volume.
+
+[root@RHEL5 ~]# lvremove vg42/MyLV vg42/MyLV2 vg42/MyLV3
+Do you really want to remove active logical volume "MyLV"? [y/n]: y
+  Logical volume "MyLV" successfully removed
+Do you really want to remove active logical volume "MyLV2"? [y/n]: y
+  Logical volume "MyLV2" successfully removed
+Do you really want to remove active logical volume "MyLV3"? [y/n]: y
+  Logical volume "MyLV3" successfully removed
+[root@RHEL5 ~]#
+
+119
+
+logical volume management
+
+11.13.3.

@@ -1,0 +1,8 @@
+They include cryptography, Pluggable Authentication Modules (PAM), and 
+SELinux. These advanced and detailed topics are in separate chapters, Chapter 23 and 
+Chapter 24.
+
+Monitoring Your Systems
+If you do a good job of planning and implementing your system’s security, most malicious 
+attacks will be stopped. However, if an attack should occur, you need to be able to recog-
+nize it.

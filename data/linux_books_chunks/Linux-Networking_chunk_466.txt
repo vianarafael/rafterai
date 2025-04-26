@@ -1,0 +1,11 @@
+waiting .
+
+Chances are your browser will warn you about the self signed certificate.
+
+102
+
+apache web server
+
+8.14. self signed cert on RHEL/CentOS
+
+Below is a quick way to create a self signed cert for https on RHEL/CentOS.

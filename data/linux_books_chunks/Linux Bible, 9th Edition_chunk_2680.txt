@@ -1,0 +1,5 @@
+The Ubuntu distribution, for example, offers runlevels 0–6, but 
+ runlevels 2–5 start the same services as standard runlevel 5 listed in Table 15.1.
+
+The only runlevels that should be used in the /etc/inittab fi le are 2 through 5. The other runlevels could cause 
+problems.

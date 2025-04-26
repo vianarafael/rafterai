@@ -1,0 +1,11 @@
+A complete
+list can be found in the /etc/protocols file.
+
+On this layer we find devices like routers and layer 3 switches, devices that know (and
+have) an ip address.
+
+In tcp/ip this layer is commonly referred to as the internet layer.
+
+1.1.6. short introduction to the transport layer
+
+We will discuss the tcp and udp protocols in the context of layer 4.

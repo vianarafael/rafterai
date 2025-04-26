@@ -1,0 +1,8 @@
+Make the test directory your current directory as follows:
+
+$ cd test
+$ pwd
+/home/joe/test
+
+If you followed along, at this point a subdirectory of your home directory called test is 
+your current working directory.

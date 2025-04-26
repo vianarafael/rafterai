@@ -1,0 +1,23 @@
+We will explain the 
+details of the rsync command a little later.
+
+Next, let’s add some more lines to the file and sync it again.
+
+Chapter 14 ■ BaCkup and reCovery
+
+$ vi /tmp/test_sync.txt
+fldjfsl
+...
+<snip>
+...
+fsa
+23433
+ldjas
+dfald
+asd
+12344556
+
+We’ll then save the file and do the rsync again.
+
+$ rsync -av -e 'ssh -i .ssh/exbackup' branch1.example.com:/tmp/test_sync.txt /tmp
+receiving file list ...

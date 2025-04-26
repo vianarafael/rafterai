@@ -1,0 +1,6 @@
+It’s as if the entire stack from the 
+named confi guration fi le is now in this confi guration fi le.
+
+Similar to the include control fl ag, except for how certain errors and 
+evaluations affect the main stack. This forces the included confi guration fi le 
+stack to act as a substack to the main stack.

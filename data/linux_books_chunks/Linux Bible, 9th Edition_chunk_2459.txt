@@ -1,0 +1,7 @@
+In Red Hat Enterprise Linux 7 and recent Fedora releases, however, features that 
+are useful for conﬁ guring servers, such as Ethernet channel bonding and conﬁ gur-
+ing aliases, can now be done in NetworkManager.
+
+ ■ Enterprise networking—Conﬁ guring networking in a large enterprise can 
+
+ﬁ ll several volumes itself.

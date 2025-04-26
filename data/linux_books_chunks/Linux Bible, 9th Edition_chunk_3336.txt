@@ -1,0 +1,7 @@
+After one of those users logged in, that 
+user would be prevented from going to places in the system that were outside that user’s 
+home directory structure.
+
+If uploads to your FTP server are allowed, the directories a user tries to upload to must be 
+writeable by that user. However, uploads can be stored under a username other than that of 
+the user who uploaded the ﬁ le.

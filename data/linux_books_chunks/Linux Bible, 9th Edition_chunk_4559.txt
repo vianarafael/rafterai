@@ -1,0 +1,7 @@
+For low-memory devices, the Minimum policy allows 
+SELinux to run without consuming a great deal of resources.
+
+Understanding SELinux policy rule packages
+Policy rules, also called allow rules, are the rules used by SELinux to determine if a subject 
+has access to an object. Policy rules are installed with SELinux and are grouped into pack-
+ages, also called modules.

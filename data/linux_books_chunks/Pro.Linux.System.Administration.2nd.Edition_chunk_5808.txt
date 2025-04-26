@@ -1,0 +1,3 @@
+With Ansible Vault we can provide that protection.
+
+We have generated a strong password using a password generator and stored that successfully.

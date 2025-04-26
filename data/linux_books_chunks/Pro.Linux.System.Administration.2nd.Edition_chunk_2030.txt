@@ -1,0 +1,24 @@
+Shortened List of Configuration Help
+
+~/nginx-1.10.1$ ./configure --help
+
+  --help                                    print this message
+
+  --prefix=PATH                      set installation prefix
+  --sbin-path=PATH                set nginx binary pathname
+  --modules-path=PATH         set modules path
+  --conf-path=PATH                set nginx.conf pathname
+  --error-log-path=PATH         set error log pathname
+  --pid-path=PATH                  set nginx.pid pathname
+  --lock-path=PATH                 set nginx.lock pathname
+
+  --user=USER                        set non-privileged user for
+                                                       worker processes
+  --group=GROUP                   set non-privileged group for
+                                                       worker processes
+
+350
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+ ■ Note  note that in Listing 7-28 we’ve specified ./ in front of the configure command.

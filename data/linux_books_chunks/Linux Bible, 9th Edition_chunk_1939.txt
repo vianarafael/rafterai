@@ -1,0 +1,6 @@
+However, as Linux systems have become 
+used in more complex ways, features for managing users, groups, and the permissions 
+ associated with them have been added on to the basic user/group model so that it could be:
+
+ ■ More flexible—In the basic model, only one user and one group can be assigned 
+to each ﬁ le.

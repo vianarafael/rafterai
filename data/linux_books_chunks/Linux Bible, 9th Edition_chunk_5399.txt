@@ -1,0 +1,27 @@
+From the second Terminal window, become root user (su -).
+
+e. While watching the Mem line (used column) in the ﬁ rst Terminal window, type 
+
+the following from the second Terminal window:
+
+# echo 3 > /proc/sys/vm/drop_caches
+
+828
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 829
+
+Appendix B: Exercise Answers
+
+f. The used RES memory should go down signiﬁ cantly on the Mem line.

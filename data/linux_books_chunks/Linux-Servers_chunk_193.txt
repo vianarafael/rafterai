@@ -1,0 +1,4 @@
+name resolution
+
+We need some way to resolve names. This can be done with DNS, which is discussed in
+another chapter.

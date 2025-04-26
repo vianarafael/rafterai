@@ -1,0 +1,13 @@
+The screenshot shows several insert statements that
+insert values depending on the position of the data in the statement.
+
+mysql> insert into country values ('BE','Belgium','11000000','Brussels');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into country values ('DE','Germany','82000000','Berlin');
+Query OK, 1 row affected (0.05 sec)
+
+mysql> insert into country values ('JP','Japan','128000000','Tokyo');
+Query OK, 1 row affected (0.05 sec)
+
+Some administrators prefer to use uppercase for sql keywords.

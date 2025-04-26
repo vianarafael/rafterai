@@ -1,0 +1,4 @@
+package management
+
+Most  Linux  distributions  have  a  package  management  system  with  online  repositories
+containing thousands of packages.

@@ -1,0 +1,12 @@
+For example, you can list multiple facilities separated by commas in a selector (see 
+Listing 18-8).
+
+Listing 18-8.  Multiple Facilities
+
+auth,auth-priv.crit              /var/log/auth
+
+This sends all auth messages and all auth-priv messages with a priority of crit or higher to the file /
+
+var/log/auth.
+
+You cannot do this with priorities, though.

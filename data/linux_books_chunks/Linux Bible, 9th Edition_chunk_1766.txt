@@ -1,0 +1,3 @@
+Type the following command on one line with no space between the slash 
+
+and rpmfusion.

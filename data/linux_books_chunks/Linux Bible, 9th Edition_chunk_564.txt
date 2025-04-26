@@ -1,0 +1,6 @@
+You can hap-
+pily use Linux from a graphical desktop interface, but as you grow into Linux you will surely 
+need to use the shell at some point to track down a problem or administer some features.
+
+How to use the shell isn’t obvious at ﬁ rst, but with the right help you can quickly learn 
+many of the most important shell features.

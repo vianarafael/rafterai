@@ -1,0 +1,7 @@
+D        0  Sat Sep 24 14:02:15 2016
+
+        10098468 blocks of size 1024. 7667640 blocks available
+
+Testing DNS
+
+We can test our DNS responses now too.

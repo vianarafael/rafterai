@@ -1,0 +1,4 @@
+(We’ll cover how you can automate the backup process 
+in Chapter 14.) Finally, we tell the server to start a new binary log file once the current one reaches a 
+size of 128Mb. This makes the bin logs more manageable and quicker to transport to any secondary 
+or tertiary databases.

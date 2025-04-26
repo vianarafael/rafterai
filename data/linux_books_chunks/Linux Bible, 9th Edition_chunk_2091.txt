@@ -1,0 +1,16 @@
+The next section 
+describes how to partition a disk that has multiple partitions.
+
+291
+
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 292
+
+Part III: Becoming a Linux System Administrator
+
+Creating a multiple-partition disk
+Now that you understand the basic process of partitioning a disk, adding a ﬁ lesystem, and 
+making that ﬁ lesystem available (temporarily and permanently), it is time to try a more 
+complex example.

@@ -1,0 +1,14 @@
+The /etc/fstab entry 
+looks like this:
+
+# /dev/mapper/raid--volume-www
+UUID=0814d564-b61c-407a-8483-9b176c684816  /var/www  xfs   defaults  0  0
+
+After you create the /var/www directory you can mount it using the following:
+
+$ sudo mount /var/www
+
+Expanding a Logical Volume
+Thus far, using LVM has seemed just a more convoluted way of using your disks, but what if your web site 
+grew beyond 2 GiB? Without LVM, you would need to create a partition on an unused disk, and then copy all 
+data across and make sure /etc/fstab was updated.

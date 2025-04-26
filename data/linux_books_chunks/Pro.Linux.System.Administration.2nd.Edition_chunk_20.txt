@@ -1,0 +1,5 @@
+Your distribution 
+will come with a version of that kernel, and like Windows or other operating systems it can be updated and 
+upgraded to provide new features or fix bugs.
+
+The world of Linux distributions may at first seem a little confusing.

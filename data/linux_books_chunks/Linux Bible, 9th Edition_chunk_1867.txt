@@ -1,0 +1,8 @@
+I describe those 
+later in this chapter.
+
+11
+
+The Software window lets you modify a small set of information about a regular user 
+after it has been created. To modify user information later, select the user account you 
+want to change, click the Unlock button, and enter the root password.

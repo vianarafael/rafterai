@@ -1,0 +1,7 @@
+You 
+discovered how rsyslog works and how to make the most out of your rsyslog daemon. You also learned 
+how to search your log data using Kibana and how to get your log data into Elasticsearch via Logstash and 
+Filebeats.
+
+In addition, the chapter explored Nagios, an enterprise monitoring tool. You saw how to install 
+and configure Nagios.

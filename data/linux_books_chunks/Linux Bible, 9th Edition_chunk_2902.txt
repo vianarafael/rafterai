@@ -1,0 +1,5 @@
+Use the classes.conf ﬁ le to deﬁ ne local printer classes.
+
+Coming from Windows
+You can print to CUPS from non-UNIX systems as well. For example, you can use a PostScript printer 
+driver to print directly from a Windows system to your CUPS server.

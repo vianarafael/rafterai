@@ -1,0 +1,13 @@
+For example:
+
+# journalctl | grep sealert
+Sep 18 23:58:03 fedora20.example.com setroubleshoot[13449]: 
+  SELinux is preventing /usr/sbin/vsftpd from getattr access on the 
+
+690
+
+c24.indd  04/15/2015  Page 691
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+  directory /home/chris/Music. For complete SELinux messages.

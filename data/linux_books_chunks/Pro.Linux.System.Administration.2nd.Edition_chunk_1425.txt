@@ -1,0 +1,8 @@
+if you want to change the duplex mode and 
+speed, you would issue a command like the following:
+
+$ sudo ethtool -s enp0s8 speed 1000 duplex half
+
+Here we have changed the speed of the ethernet card to 1000Mb/s and the duplex setting to half 
+duplex. You can use other settings as well. For a greater understanding of the available settings, please 
+read the man page for ethtool.

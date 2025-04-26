@@ -1,0 +1,7 @@
+We then issue the ehlo me.com command, and the SMTP server responds with its 
+server name and the list capabilities it has, one of them being AUTH PLAIN LOGIN showing the two available 
+authentication mechanisms being offered: PLAIN and LOGIN.
+
+We then issue the AUTH LOGIN command, and we are presented with 334 VXNlcm5hbWU6, which is 
+
+the base64-encoded word Username.

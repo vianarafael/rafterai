@@ -1,0 +1,4 @@
+To view this documentation on Fedora or RHEL, open your system’s 
+browser and type in the following URL: file:///usr/share/doc/selinux-policy-
+selinuxversion#/html/index.html. For Ubuntu, the URL is file:///usr/share/
+doc/selinux-policy-doc/html/index.html.

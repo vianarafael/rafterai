@@ -1,0 +1,6 @@
+The first line is Ruby; the require is similar to a Python import statement and is just making the spec_
+helper available to us.
+
+The next lines read like this. We want to describe a package called httpd. If we are on a redhat family 
+host, that package should be installed. Now you can read the others, and they are similar and describe what 
+we expect to find when we run Serverspec.

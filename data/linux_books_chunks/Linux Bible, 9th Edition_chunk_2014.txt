@@ -1,0 +1,11 @@
+If it succeeds, you know that both the 
+account and authentication information you entered for your LDAP server were correct.
+
+280
+
+c11.indd  04/01/2015  Page 281
+
+Chapter 11: Managing User Accounts
+
+With your authentication centralized, consider centralizing your users’ home directories 
+as well.

@@ -1,0 +1,5 @@
+In those cases, you can have the commands run in 
+the background by using the ampersand (&).
+
+Text formatting commands (such as nroff and troff, described earlier) are examples 
+of commands that are often run in the background to format a large document.

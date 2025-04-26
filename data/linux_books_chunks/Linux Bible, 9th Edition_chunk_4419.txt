@@ -1,0 +1,6 @@
+The pam_
+deny.so PAM module is used to deny access.
+
+Even with the “other” conﬁ guration ﬁ le in place, if a PAM conﬁ guration ﬁ le for a 
+ PAM-aware application is not there, it must be created. Add this item to your PAM audit 
+checklist.

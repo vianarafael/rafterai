@@ -1,0 +1,7 @@
+it needs to be there, and it tells postfix that the directory is a Maildir 
+
+ ■ Note 
+directory.
+
+We also need to confirm that another option, mailbox_command, is blank. The mailbox_command option 
+can specify an external command, for example, the mail processing tools like procmail or maildrop.

@@ -1,0 +1,7 @@
+See the next section, “Using Logical Volume Management Partitions,” to 
+see how LVM physical volumes are used to ultimately create LVM logical volumes from 
+volume groups. See the section “Mounting Filesystems” for descriptions of how to mount 
+ ﬁ lesystems and enable swap areas.
+
+Using Logical Volume Management Partitions
+Basic disk partitioning in Linux has its shortcomings.

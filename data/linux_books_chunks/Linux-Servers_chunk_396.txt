@@ -1,0 +1,14 @@
+Add a forwarder and verify that it works.
+
+The forwarder van be added in named.conf.options as seen in the theory.
+
+3.  Create  a  primary  forward  lookup  zone  named  yourname.local  with  at  least  two  NS
+records and four A records.
+
+This is literally explained in the theory.
+
+4. Use dig and nslookup to verify your NS and A records.
+
+This is literally explained in the theory.
+
+5.

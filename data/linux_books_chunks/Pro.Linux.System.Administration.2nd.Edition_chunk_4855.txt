@@ -1,0 +1,13 @@
+You cannot raise their 
+
+priority, only lower it.
+
+When done, press q to quit top.
+
+ You can also use the renice utility to change niceness and priority without using top. for instance, to 
+
+ ■ Note 
+change the niceness of process 8612, you would run renice +5 8612.
+
+Swap Space Use
+If you see a lot of swap space in use, it may indicate the system is running low on memory.

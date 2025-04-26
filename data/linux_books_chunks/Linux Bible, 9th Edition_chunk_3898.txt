@@ -1,0 +1,6 @@
+If you are upgrading Fedora from one version to 
+
+another (for example, Fedora 20 to Fedora 21), you can use the preupgrade tool 
+instead of just typing yum upgrade. The advantage of running preupgrade ﬁ rst 
+is that it checks dependencies and downloads all needed packages before commit-
+ting your system to the upgrade so you don’t end up with a half upgraded system.

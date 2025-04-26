@@ -1,0 +1,8 @@
+about unique objects
+
+Older versions of Linux have a vol_id utility to display the uuid of a file system.
+
+root@debian5:~# vol_id --uuid /dev/sda1
+193c3c9b-2c40-9290-8b71-4264ee4d4c82
+
+Red Hat Enterprise Linux 5 puts vol_id in /lib/udev/vol_id, which is not in the $PATH.

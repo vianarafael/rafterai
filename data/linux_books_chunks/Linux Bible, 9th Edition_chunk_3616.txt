@@ -1,0 +1,6 @@
+This means that if the user named mike 
+(UID 110) on maple has an account on pine (mike, UID 110), he can use his own 
+remotely mounted ﬁ les on either computer from either computer.
+
+If a client user who is not set up on the server creates a ﬁ le on the mounted NFS 
+directory, the ﬁ le is assigned to the remote client’s UID and GID.

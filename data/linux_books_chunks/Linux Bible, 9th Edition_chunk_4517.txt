@@ -1,0 +1,3 @@
+Returning to the comparison of SELinux with the guard, SELinux serves as the guard who 
+must see the subject’s security context (ID badge) and review the policy rules (access rules 
+manual) before allowing or denying access to an object.

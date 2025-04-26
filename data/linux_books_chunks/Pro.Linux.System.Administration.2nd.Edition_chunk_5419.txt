@@ -1,0 +1,6 @@
+This file is then queried by web sites that are secured by basic authentication. The default 
+username and password are nagiosadmin.
+
+ ■ Caution 
+ this is basic authentication with an emphasis on basic, however. apache basic authentication 
+uses simple encrypted passwords that are easy to intercept and decrypt.

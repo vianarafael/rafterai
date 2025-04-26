@@ -1,0 +1,8 @@
+We will also specify elasticsearch 
+as an output, but we don’t want to do so at this stage.
+
+865
+
+Chapter 18 ■ Logging and Monitoring
+
+We are ready to start our Logstash service and start seeing how it works.

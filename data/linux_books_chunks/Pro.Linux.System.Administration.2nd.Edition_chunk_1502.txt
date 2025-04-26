@@ -1,0 +1,10 @@
+When they reach zero, the nameserver will query the authoritative DNS 
+server to see whether it has changed.
+
+At the bottom of the dig output, you can see the SERVER that provided the response, 192.168.0.254, 
+
+and how long the query took, 28 msec.
+
+You can use dig to query a particular nameserver by using the @ sign, here we are using one of the 
+
+Google public DNS servers.

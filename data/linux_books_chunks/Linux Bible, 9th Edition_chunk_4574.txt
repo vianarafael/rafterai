@@ -1,0 +1,7 @@
+Rebooting the system 
+always changes the mode back to what is set in that conﬁ guration ﬁ le. The preferred 
+method of changing the SELinux mode is to modify the conﬁ guration ﬁ le and then reboot 
+the system.
+
+When switching from disabled to either enforcing or permissive mode, SELinux auto-
+matically relabels the ﬁ lesystem after a reboot.

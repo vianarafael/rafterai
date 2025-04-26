@@ -1,0 +1,6 @@
+But once 
+your network grows beyond more than a handful of hosts, making sure that all copies of this file remain 
+synchronized becomes an effort.
+
+So a way of translating these names to the IP addresses of the hosts was devised. This is called Domain 
+Name System or DNS.

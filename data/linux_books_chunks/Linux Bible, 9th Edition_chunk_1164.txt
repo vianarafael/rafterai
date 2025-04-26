@@ -1,0 +1,7 @@
+The result of the 
+latter is that you get the value of the variable, not the variable name itself.
+
+Special shell positional parameters
+There are special variables that the shell assigns for you. One set of commonly used 
+ variables is called positional parameters or command line arguments and is referenced as 
+$0, $1, $2, $3…$n.

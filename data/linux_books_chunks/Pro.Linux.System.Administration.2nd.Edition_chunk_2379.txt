@@ -1,0 +1,9 @@
+You can use the dumpe2fs 
+tool to display their location on the disk and then specify this location for e2fsck using the -b option (use an 
+alternative superblock), as shown in Listing 9-20.
+
+404
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Listing 9-20.

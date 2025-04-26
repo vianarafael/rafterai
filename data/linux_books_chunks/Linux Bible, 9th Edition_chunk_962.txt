@@ -1,0 +1,9 @@
+By running 
+the locate command, you can search that database to ﬁ nd the location of ﬁ les stored in 
+that database.
+
+Here are a few things you should know about searching for ﬁ les using the locate 
+command:
+
+ ■ There are advantages and disadvantages to using locate to ﬁ nd ﬁ lenames instead 
+of the find command.

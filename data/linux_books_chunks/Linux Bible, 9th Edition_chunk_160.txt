@@ -1,0 +1,3 @@
+In fact, 
+Facebook itself uses an open source development model, making source code for the applications 
+and tools that drive Facebook available to the public.

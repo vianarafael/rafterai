@@ -1,0 +1,28 @@
+Let’s go through some other commands briefly.
+The following command provides information about the package you’re querying, such as its size, 
+
+version, and installation status; a description of the package; and other useful information.
+
+$ sudo yum info kernel
+
+If you want to find what package provides a particular file, you could use the following.
+
+$ sudo yum provides /bin/bash
+bash-4.2.46-19.el7.x86_64 : The GNU Bourne Again shell
+Repo        : base
+Matched from:
+Filename    : /bin/bash
+
+310
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+The preceding command tells you that the /bin/bash binary is provided by the bash package and 
+
+describes the version and details about the package.
+
+To list packages provided by file paths you can also use the following:
+
+$ sudo yum provides */sftp
+
+This will list all packages that provide the sftp file.

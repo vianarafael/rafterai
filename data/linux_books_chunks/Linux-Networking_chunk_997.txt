@@ -1,0 +1,11 @@
+In decimal it would amount up to 39 digits, in hexadecimal
+it looks like this:
+
+fe80:0000:0000:0000:0a00:27ff:fe8e:8aa8
+
+Luckily ipv6 allows us to omit leading zeroes. Our address from above then becomes:
+
+fe80:0:0:0:a00:27ff:fe8e:8aa8
+
+When a 16-bit block is zero, it can be written as ::. Consecutive 16-bit blocks that are zero
+can also be written as ::.

@@ -1,0 +1,7 @@
+This is actually a built-in 
+function of the Bash shell. Any limits you set via this command apply only to the current shell and the 
+processes it starts.
+
+To report current limits, run ulimit with the -a option, as shown in Figure 17-19.
+
+Figure 17-19.

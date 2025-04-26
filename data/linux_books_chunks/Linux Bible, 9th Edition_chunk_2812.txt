@@ -1,0 +1,3 @@
+The ssh daemon is triggered by several possible emitted events, ﬁ lesystem, runlevel 2, 
+runlevel 3, runlevel 4, or runlevel 5. Basically, the ssh daemon starts upon server boot and 
+is set as persistent.

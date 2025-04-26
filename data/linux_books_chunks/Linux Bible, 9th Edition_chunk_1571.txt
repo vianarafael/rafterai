@@ -1,0 +1,7 @@
+The line identifying the 
+kernel might look something like the following:
+
+vmlinuz initrd=initrd.img ...
+
+The vmlinuz is the compressed kernel and initrd.img is the initial RAM disk (contain-
+ing modules and other tools needed to start the installer).

@@ -1,0 +1,7 @@
+Setting it to %S substitutes the 
+current service name, which allows any valid users of the service. You can also limit user 
+access by indicating that only a particular workgroup (domain) name can be used to match 
+users requesting this service.
+
+If, after starting the smb service, you cannot log in using a valid user account, you may 
+need to change some security features on your system.

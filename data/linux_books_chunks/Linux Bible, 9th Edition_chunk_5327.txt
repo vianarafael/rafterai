@@ -1,0 +1,35 @@
+To use the openssl or similar command to create your own private RSA key and 
+
+self-signed SSL certiﬁ cate, do the following:
+
+# yum install openssl
+# cd /etc/pki/tls/private
+# openssl genrsa -out server.key 1024
+# chmod 600 server.key
+
+816
+
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 817
+
+Appendix B: Exercise Answers
+
+# cd /etc/pki/tls/certs
+# openssl req -new -x509 -nodes -sha1 -days 365 \
+   -key /etc/pki/tls/private/server.key \
+   -out server.crt
+Country Name (2 letter code) [AU]: US
+State or Province Name (full name) [Some-State]: NJ
+Locality Name (eg, city) []: Princeton
+Organization Name (eg, company) [Internet Widgits Pty
+Ltd]:TEST USE ONLY
+Organizational Unit Name (eg, section) []:TEST USE ONLY
+Common Name (eg, YOUR name) []:secure.example.org
+Email Address []:dom@example.org
+
+You should now have a /etc/pki/tls/private/server.key key ﬁ le and a 
+/etc/pki/tls/certs/server.crt certiﬁ cate ﬁ le.
+
+7.

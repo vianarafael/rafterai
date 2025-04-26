@@ -1,0 +1,3 @@
+Samba will use Winbind to authenticate and map users and groups for us. We still need to create one Linux 
+system user, though. This user will own the files and therefore needs to exist on each Samba server. This 
+user will be our backup user.

@@ -1,0 +1,13 @@
+We will create one 4 GiB partition and two 2 GiB.
+
+Start by creating a partition, 2 GiB in size, by pressing n.
+
+Command (? for help): n
+Partition number (1-128, default 1):
+First sector (34-16777182, default = 2048) or {+-}size{KMGTP}:
+Last sector (2048-16777182, default = 16777182) or {+-}size{KMGTP}: 2G
+Current type is 'Linux filesystem'
+Hex code or GUID (L to show codes, Enter = 8300):
+Changed type of partition to 'Linux filesystem'
+
+First you are asked for the partition number, a number between 1 and 128.

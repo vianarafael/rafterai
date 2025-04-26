@@ -1,0 +1,10 @@
+When first exploring Linux a virtual host is the perfect 
+way to learn.
+
+12
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+You may also wish to take advantage of premade virtual appliances, which are virtual images of Linux 
+
+distributions that you load with your virtualization software.

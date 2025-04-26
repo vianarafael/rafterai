@@ -1,0 +1,4 @@
+The same goes for group and shadow. The PAM and nsswitch.conf files 
+should be configured for you by the authentication configuration tools provided by your distribution.
+
+ When using different authentication services, you may have to map certain attributes.

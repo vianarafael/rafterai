@@ -1,0 +1,5 @@
+If you are confident 
+
+ ■ Caution 
+that you want to do this, then specify Yes and continue. Selecting Yes here will destroy any existing data you 
+may have if you are installing over a previous system. If you are not confident, then specify no.

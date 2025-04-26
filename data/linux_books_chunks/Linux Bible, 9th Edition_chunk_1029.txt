@@ -1,0 +1,11 @@
+Find ﬁ les under the /usr/share/doc directory that have not been modiﬁ ed in 
+
+more than 300 days.
+
+7.  Create a /tmp/FILES directory. Find all ﬁ les under the /usr/share directory 
+that are more than 5MB and less than 10MB and copy them to the /tmp/FILES 
+directory.
+
+8.  Find every ﬁ le in the /tmp/FILES directory, and make a backup copy of each ﬁ le 
+
+in the same directory.

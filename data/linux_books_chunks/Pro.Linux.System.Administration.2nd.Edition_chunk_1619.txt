@@ -1,0 +1,9 @@
+For example, we have SSH 
+
+traffic coming in on enp0s8 and leaving on enp0s9, we would write the ufw routing rule like this:
+
+$ sudo ufw route allow in on enp0s8 out on enp0s9 to any port 22 proto tcp
+
+Here we are saying allow SSH traffic (22) coming in on enp0s8 and out on enp0s9 to any destination IP 
+
+address.

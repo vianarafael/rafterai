@@ -1,0 +1,3 @@
+We are specifying the same options we did previously and adding one 
+more. The _netdev option tells our host not to try to mount our filesystem until after our network devices 
+are up.

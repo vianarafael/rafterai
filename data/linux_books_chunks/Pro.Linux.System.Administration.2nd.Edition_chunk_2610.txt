@@ -1,0 +1,5 @@
+The other type ofd record in a forward zone is called a CNAME, also 
+known as an alias.
+
+You use a CNAME when you want to associate a number of aliased names with a single host and still be 
+able to change the address for that host without needing to then change a long list of A records.

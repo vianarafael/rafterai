@@ -1,0 +1,10 @@
+See the mount 
+manual page for those and other useful options.
+
+12
+
+Using the umount command
+When you are ﬁ nished using a temporary ﬁ lesystem, or you want to unmount a permanent 
+ﬁ lesystem temporarily, use the umount command. This command detaches the ﬁ lesystem 
+from its mount point in your Linux ﬁ lesystem. To use umount, you can give it either a 
+directory name or a device name.

@@ -1,0 +1,6 @@
+/etc/yum.conf and repositories
+
+The configuration of yum repositories is done in /etc/yum/yum.conf and /etc/yum/repos.d/
+.
+
+Configurating yum itself is done in /etc/yum.conf.

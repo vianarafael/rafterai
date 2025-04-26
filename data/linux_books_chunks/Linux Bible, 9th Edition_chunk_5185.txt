@@ -1,0 +1,24 @@
+To complete this exercise 
+for Fedora 21, install kernel-core and use the /usr/share/kcbench-data/
+linux-*/Documentation directory instead of /usr/share/doc/kernel-doc*.
+
+# yum install kernel-doc
+$ cd /usr/share/doc/kernel-doc*
+$ grep -rli e1000 .
+./Documentation/powerpc/booting-without-of.txt
+./Documentation/networking/e100.txt
+...
+
+788
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 789
+
+Appendix B: Exercise Answers
+
+10.

@@ -1,0 +1,6 @@
+This license allows for personal or product evaluation or academic use only. If you 
+intend to use this product in a commercial sense please abide by these licenses.
+
+Creating a New VirtualBox Machine
+Before we start our new VirtualBox machine, first make sure you have downloaded the appropriate ISO 
+image file for CentOS 7. You can go to www.CentOS.org/download to fetch it.

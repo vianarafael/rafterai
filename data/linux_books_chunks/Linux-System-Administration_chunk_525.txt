@@ -1,0 +1,11 @@
+vgextend
+
+Use the vgextend command to extend an existing volume group with a physical volume.
+
+[root@RHEL5 ~]# vgextend vg42 /dev/sdg
+  Volume group "vg42" successfully extended
+[root@RHEL5 ~]#
+
+11.12.3. vgremove
+
+Use the vgremove command to remove volume groups from lvm.

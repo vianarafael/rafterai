@@ -1,0 +1,4 @@
+These users cannot make use 
+of your e-mail server, because being mobile, they don’t have an IP address on your network. These users 
+must rely on a service provider’s e-mail server that allows relaying, an open relay, or a virtual private network 
+(VPN) into your organization.

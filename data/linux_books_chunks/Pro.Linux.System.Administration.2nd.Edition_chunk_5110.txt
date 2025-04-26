@@ -1,0 +1,13 @@
+File, Device, and Named Pipe Actions
+
+cron.err          /var/log/cron
+auth.!=emerg    /dev/lpr1
+news.=notice     |/tmp/pipe
+auth-priv         root,jsmith
+
+In the first line, all cron messages of err priority and higher are logged to the file /var/log/cron.
+
+ When logging to files, rsyslogd allows you to add a hyphen (-) to the front of the file name like this: 
+
+ ■ Note 
+-/var/log/auth.

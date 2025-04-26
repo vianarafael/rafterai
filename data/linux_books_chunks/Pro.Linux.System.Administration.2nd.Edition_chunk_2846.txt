@@ -1,0 +1,2 @@
+It specifies the name of a file that may contain server 
+configuration directives. This file is named .htaccess, and any web directory may contain such a file.

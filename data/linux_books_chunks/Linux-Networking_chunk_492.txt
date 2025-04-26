@@ -1,0 +1,17 @@
+200 OK
+Length: 5390 (5.3K) [text/html]
+Saving to: `index.html.1'
+
+100%[================================>] 5,390       --.-K/s   in 0.1s
+
+14:38:29 (54.8 KB/s) - `index.html' saved [5390/5390]
+
+[paul@RHEL5 ~]$
+
+113
+
+Part III. dns server
+
+Table of Contents
+
+10.

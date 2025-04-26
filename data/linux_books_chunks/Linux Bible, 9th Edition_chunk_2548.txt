@@ -1,0 +1,11 @@
+This ensures that the interface comes up automatically every time the 
+system boots.
+
+Figure 14.6 shows the screen after Manual has been selected and the address information 
+has been ﬁ lled in.
+
+FIGURE 14.6
+
+Set static IP addresses by selecting Manual from the Edit connections screen.
+
+Tab to the OK button and press the spacebar.

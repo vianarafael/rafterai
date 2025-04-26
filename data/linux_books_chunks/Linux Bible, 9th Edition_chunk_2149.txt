@@ -1,0 +1,9 @@
+Used in distributed computing environments to share 
+
+ﬁ les with Linux, Windows, and Macintosh clients.
+
+ ■ minix—Minix ﬁ lesystem type, used originally with the Minix version of UNIX. 
+
+It supports ﬁ lenames of up to only 30 characters.
+
+ ■ msdos—An MS-DOS ﬁ lesystem.

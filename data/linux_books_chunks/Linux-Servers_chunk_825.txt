@@ -1,0 +1,5 @@
+-d hosts
+# file: hosts
+security.selinux="system_u:object_r:etc_t:s0\000"
+
+19.19.

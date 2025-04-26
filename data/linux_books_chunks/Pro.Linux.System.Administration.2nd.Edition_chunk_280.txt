@@ -1,0 +1,7 @@
+Being able to trial different types of operating 
+systems and being able to run quick and effective testing to validate your work should be the aim of all 
+administrators.
+
+One way to cheaply and quickly build out a server is to use virtualization. Virtualization comes in many 
+
+different forms, like KVM, Xen, and LXC containers for starters.

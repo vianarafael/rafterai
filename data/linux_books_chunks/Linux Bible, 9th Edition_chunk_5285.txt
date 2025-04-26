@@ -1,0 +1,3 @@
+Then select the Method box 
+and choose Automatic (DHCP) addresses only and ﬁ ll in 8.8.8.8 in the DNS serv-
+ers box (along with any other DNS servers you need).

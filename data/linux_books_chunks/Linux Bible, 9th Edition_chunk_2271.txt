@@ -1,0 +1,5 @@
+A good technique is to disallow direct login by root and 
+require every user to log in as a regular user and then use su or sudo to become root.
+
+You can also use the Pluggable Authentication Module (PAM) facility to adjust the number 
+of times someone can have failed login attempts before blocking access to that person.

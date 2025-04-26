@@ -1,0 +1,7 @@
+Firewalld comes with two 
+configuration tools, one is the GUI firewall-config and the other is the firewall-cmd command line tool. We 
+are going to show you how to use this command to manage your host.
+
+Firstly some background onFirewalld. Firewalld has the familiar concept of zones. Zones are names 
+
+given to various levels of trust in your network.

@@ -1,0 +1,4 @@
+Figure 2.15 shows how the GNOME 2 
+desktop environment appears the ﬁ rst time you log in, with a few windows added to the screen.
+
+The desktop shown in Figure 2.15 is for Red Hat Enterprise Linux.

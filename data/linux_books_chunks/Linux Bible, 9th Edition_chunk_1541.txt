@@ -1,0 +1,9 @@
+The 
+RHEL Installation Guide provides information on how to set up PXE servers for 
+installation (https://access.redhat.com/documentation/en-US/Red_
+Hat_Enterprise_Linux/7/html-single/Installation_Guide/index.
+html#chap-installation-server-setup).
+
+ ■ Kickstart files—To fully automate an installation, you create what is called a 
+
+ kickstart ﬁ le.

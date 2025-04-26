@@ -1,0 +1,5 @@
+2 root root 4096 May  6 13:08 conf.d
+lrwxrwxrwx. 1 root root   19 May  6 13:08 logs -> ../../var/log/httpd
+lrwxrwxrwx. 1 root root   29 May  6 13:08 modules -> ../../usr/lib64/httpd/modu\
+les
+lrwxrwxrwx.

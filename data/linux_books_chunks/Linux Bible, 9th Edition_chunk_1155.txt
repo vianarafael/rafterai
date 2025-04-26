@@ -1,0 +1,8 @@
+In this case, the date command is run when the variable is set and not 
+each time the variable is read.
+
+7
+
+Escaping Special Shell Characters
+Keep in mind that characters such as dollar sign ($), backtick (`), asterisk (*), exclamation point (!), 
+and others have special meaning to the shell, which you will see as you proceed through this chapter.

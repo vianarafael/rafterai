@@ -1,0 +1,8 @@
+When prompted where to save it, save it 
+to the .ssh directory in your home directory.
+
+You are ready to deploy an OpenStack instance (cloud-based virtual machine).
+
+Launching a virtual machine in OpenStack
+To begin launching a new cloud virtual machine instance, go to the left column and select 
+Instances. Then click the Launch instance button. The Launch Instance screen appears.

@@ -1,0 +1,10 @@
+Spread the windows around on your 
+screen, and move the mouse for fun to watch the eyes move. All the xeyes win-
+dows should disappear at once when you type killall xeyes.
+
+9.  As a regular user, run the gedit command so it starts with a nice value of 5.
+
+$ nice -n 5 gedit &
+[1] 21578
+
+10.

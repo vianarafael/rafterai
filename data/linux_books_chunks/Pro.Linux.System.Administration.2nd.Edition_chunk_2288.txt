@@ -1,0 +1,7 @@
+It will 
+protect you from hardware failure but not from intentional deletion. If you accidentally delete a file from the 
+RAID array, it will be removed from all devices in the array. We’ll cover data backup and recovery in Chapter 14.
+
+Creating an Array
+
+You want to protect the data on your host from disk failure, so you will want to use RAID on it.

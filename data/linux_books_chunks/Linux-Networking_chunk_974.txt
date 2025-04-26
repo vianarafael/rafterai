@@ -1,0 +1,17 @@
+To do this, we use the net
+groupmap command.
+
+[root@RHEL4b samba]# net groupmap add ntgroup="tennis" unixgroup=nttennis type=d
+No rid or sid specified, choosing algorithmic mapping
+Successully added group tennis to the mapping db
+[root@RHEL4b samba]# net groupmap add ntgroup="football" unixgroup=ntfootball type=d
+No rid or sid specified, choosing algorithmic mapping
+Successully added group football to the mapping db
+[root@RHEL4b samba]# net groupmap add ntgroup="sports" unixgroup=ntsports type=d
+No rid or sid specified, choosing algorithmic mapping
+Successully added group sports to the mapping db
+[root@RHEL4b samba]# 
+
+Now you can use the Samba groups on all NTFS volumes on members of the domain.
+
+23.12.

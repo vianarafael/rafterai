@@ -1,0 +1,13 @@
+We’ll make use of 
+
+this information further in Chapter 17 when we look at performance and capacity planning.
+
+All these options, which, for instance, control block size and journal size, can be set when the filesystem 
+
+is created, but the mkfs.xfs tool will choose sensible defaults based on the size of the partition it needs to 
+format.
+
+ ■ Note  XFS does not reserve 5% of its available space for the root user and also does not automatically force 
+a filesystem check after a specific amount of time has passed.
+
+The XFS filesystem can be managed via several commands.

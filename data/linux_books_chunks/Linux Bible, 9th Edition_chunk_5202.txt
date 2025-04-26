@@ -1,0 +1,13 @@
+To create a script called $HOME/bin/myposition and make the script execut-
+
+able, type this:
+
+$ chmod 755 $HOME/bin/myposition
+
+c. To test it, run it with some command-line arguments, as in the following:
+
+$ myposition Where Is My Hat Buddy?
+There are 5 parameters that include: Where Is My Hat Buddy?
+The first is Where, the second is Is, the third is My.
+
+3.

@@ -1,0 +1,8 @@
+Samba 3 can only be a member server in Active Directory, it cannot manage group
+policies. Samba 4 can do this (in beta).
+
+17.1.3. Samba 3
+
+Samba 3 can act as a domain controller in its own domain. In a Windows NT4 domain, with
+one Windows NT4 PDC and zero or more BDC's, Samba 3 can only be a member server.
+The same is valid for Samba 3 in an Active Directory Domain.

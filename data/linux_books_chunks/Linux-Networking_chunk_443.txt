@@ -1,0 +1,18 @@
+We need to open these incoming
+ports first
+
+[root@CentOS65 ~]# iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+[root@CentOS65 ~]# iptables -I INPUT -p tcp --dport 7000 -j ACCEPT
+[root@CentOS65 ~]# iptables -I INPUT -p tcp --dport 8000 -j ACCEPT
+[root@CentOS65 ~]# iptables -I INPUT -p tcp --dport 9000 -j ACCEPT
+
+And if we want these rules to remain active after a reboot, we need to save them
+
+[root@CentOS65 ~]# service iptables save
+iptables: Saving firewall rules to /etc/sysconfig/iptables:[  OK  ]
+
+94
+
+apache web server
+
+8.6.

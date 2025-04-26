@@ -1,0 +1,10 @@
+The following 
+section covers how to begin conﬁ guring SELinux to meet your particular organization’s 
+security needs.
+
+Confi guring SELinux
+SELinux comes preconﬁ gured. You can use the SELinux features without any conﬁ gura-
+tion work. However, rarely do the preconﬁ gured settings meet all your Linux system’s 
+security needs.
+
+SELinux conﬁ gurations can only be set and modiﬁ ed by the root user.

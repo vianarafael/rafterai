@@ -1,0 +1,5 @@
+But where is everything located on your 
+
+host? Most Linux distributions adhere to a very similar directory structure. This is not to say all distributions 
+are identical, but generally speaking, files and directories are located in a logical and consistent model. 
+You can see the typical directory structure under the root directory in Table 4-1.

@@ -1,0 +1,6 @@
+It is used on distributions like Red Hat Enterprise Linux, CentOS, 
+Mandriva, and the Fedora Project. The rpm tool itself is designed for installing, manipulating, querying, and 
+deleting packages on the local system.
+
+ ■ Tip  You can identify rPM packages by their suffix of .rpm. each rPM package is built using information 
+contained in a spec file.

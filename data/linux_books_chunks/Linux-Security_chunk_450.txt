@@ -1,0 +1,11 @@
+1 root root    0 Apr 12 19:40 user
+
+Although some files in /selinux appear wih size 0, they often contain a boolean value. Check
+/selinux/enforce to see if selinux is running in enforced mode.
+
+[root@RHEL5 ~]# ls -l /selinux/enforce 
+-rw-r--r-- 1 root root 0 Apr 29 08:21 /selinux/enforce
+[root@RHEL5 ~]# echo $(cat /selinux/enforce) 
+1
+
+12.13.

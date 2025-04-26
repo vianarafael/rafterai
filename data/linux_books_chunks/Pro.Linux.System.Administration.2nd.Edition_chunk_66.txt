@@ -1,0 +1,8 @@
+You can choose from companies such as Dell, HP, and IBM to provide 
+hardware guaranteed to work with a specified list of supported Linux distributions.
+
+ ■ Note  We’ll discuss a variety of specific performance issues in later chapters when we look at particular 
+applications and tools.
+
+Getting the Software
+Where do you start with installing your first host? First, you need to get a copy of the software you require.

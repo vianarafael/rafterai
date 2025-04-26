@@ -1,0 +1,6 @@
+Each priority selector applies to the priority stated and all higher priorities, so mail.
+err indicates all mail facility messages of err, crit, alert, and emerg priorities.
+
+Like with facilities, you can use the wildcard selectors * and none. Additionally, you can use two other 
+
+modifiers: = and !.

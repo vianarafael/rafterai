@@ -1,0 +1,7 @@
+After making any of the 
+changes described in the following list to attempt to solve one of these problems, try the 
+request again and check the error log to see whether the message has changed 
+(for  example, to show that the operation completed successfully).
+
+"File not found' errors can be checked in the same way as "access forbidden" and "server internal errors." You may 
+sometimes fi nd that Apache is not looking where you think it is for a specifi c fi le.

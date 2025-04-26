@@ -1,0 +1,7 @@
+Control files 
+contain descriptive information about the package, scripts for user interaction, and scripts that manage 
+automated pre- or postinstallation tasks.
+
+Package Management on CentOS
+At the most basic level, the way applications are managed on Red Hat–based systems is via the Red Hat 
+Package Management tool, or rpm.

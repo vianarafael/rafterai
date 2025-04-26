@@ -1,0 +1,8 @@
+(You could, however, use these tasks to set up a new FTP server.)
+
+1.  To determine which package provides the Very Secure FTP Daemon service, type the 
+
+following as root:
+
+# yum search "Very Secure FTP"
+...

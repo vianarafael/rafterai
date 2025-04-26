@@ -1,0 +1,26 @@
+You
+could issue the following command to mount this storage on their /home/project55 mount
+point.
+
+root@RHELv4u2:~# mount -t nfs 192.168.1.40:/mnt/data/iso /home/project55/
+root@RHELv4u2:~# ls -lh /home/project55/
+total 3.6G
+drwxr-xr-x  2 1000 1000 4.0K Jan 16 17:55 RHELv4u1
+drwxr-xr-x  2 1000 1000 4.0K Jan 16 14:14 RHELv4u2
+drwxr-xr-x  2 1000 1000 4.0K Jan 16 14:54 RHELv4u3
+drwxr-xr-x  2 1000 1000 4.0K Jan 16 11:09 RHELv4u4
+-rw-r--r--  1 root root 1.6G Oct 13 15:22 sled10-vmwarews5-vm.zip
+root@RHELv4u2:~# 
+
+321
+
+    
+    
+    
+    
+  
+  
+  
+introduction to networking
+
+27.7.

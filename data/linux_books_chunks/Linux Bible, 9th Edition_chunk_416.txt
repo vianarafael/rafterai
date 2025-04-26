@@ -1,0 +1,24 @@
+Or select Move to Workspace Up or 
+Move to Workspace Down to move the window to the workspace above or below, 
+respectively.
+
+37
+
+ 
+ 
+c02.indd  04/01/2015  Page 38
+
+Part I: Getting Started
+
+FIGURE 2.5
+
+As new desktops are used, additional ones appear on the right.
+
+If you don’t feel comfortable navigating GNOME 3 with your mouse, or if you don’t have a 
+mouse, the next section helps you navigate the desktop from the keyboard.
+
+Navigating with the keyboard
+If you prefer to keep your hands on the keyboard, you can work with the GNOME 3 desktop 
+directly from the keyboard in a number of ways, including these:
+
+ ■ Windows key—Presses the Windows key on the keyboard.

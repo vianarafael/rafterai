@@ -1,0 +1,26 @@
+jobs -p
+
+An interesting option is jobs -p to see the process id of background processes.
+
+[paul@RHEL4b ~]$ sleep 500 &
+[1] 4902
+[paul@RHEL4b ~]$ sleep 400 &
+[2] 4903
+[paul@RHEL4b ~]$ jobs -p
+4902
+4903
+[paul@RHEL4b ~]$ ps `jobs -p`
+
+23
+
+  
+  
+  
+background jobs
+
+  PID TTY      STAT   TIME COMMAND
+ 4902 pts/0    S      0:00 sleep 500
+ 4903 pts/0    S      0:00 sleep 400
+[paul@RHEL4b ~]$
+
+3.1.5.

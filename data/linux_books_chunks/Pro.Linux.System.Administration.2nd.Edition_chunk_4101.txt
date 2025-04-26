@@ -1,0 +1,25 @@
+You will find them in /usr/lib/bareos/scripts/.
+
+To create the database tables for the Bareos database, we will run the following on the backup.example.
+
+com host:
+
+$ sudo /usr/lib/bareos/scripts/create_bareos_database
+Creating mysql database
+Creating of bareos database succeeded.
+$ sudo /usr/lib/bareos/scripts/grant_bareos_privileges
+Granting mysql tables
+Privileges for user bareos granted ON database bareos.
+
+Running these scripts supplied by Bareos will create the necessary tables for our catalog and 
+
+appropriate grants for the Bareos user.
+
+We confirm that the database was created by running the following command from backup.example.com:
+
+$ sudo –u bareos mysql –h headoffice.example.com –u bareos –p –D bareos 
+–e 'show tables;'
+
+This command connects to the MariaDB database running on the headoffice.example.com host using 
+
+the Bareos username and password.

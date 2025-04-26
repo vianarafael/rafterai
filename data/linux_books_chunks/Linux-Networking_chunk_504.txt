@@ -1,0 +1,7 @@
+old dns topics ............................................................................................................................  153
+
+115
+
+Chapter 10. introduction to DNS
+
+dns is a fundamental part of every large computer network.

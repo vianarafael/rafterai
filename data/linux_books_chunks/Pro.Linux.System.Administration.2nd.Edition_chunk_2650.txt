@@ -1,0 +1,4 @@
+It is, of course, possible to maintain multiple copies of all your zone files, 
+but you can make use of the master/slave functionality in BIND to automate this process.
+
+In this section we are going to add a DNS slave using our CentOS server.

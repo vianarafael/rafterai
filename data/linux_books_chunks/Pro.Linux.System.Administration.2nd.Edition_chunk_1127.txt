@@ -1,0 +1,7 @@
+We can write prestart scripts that run prior to executing the main 
+script section.
+
+While Upstart is different from SysV and has no natural concept of runlevels, it has been made 
+
+backward compatible with SysV Init scripts. These help emulate the old-style SysV scripts by executing the /
+etc/init.d/rc script.

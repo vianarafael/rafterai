@@ -1,0 +1,68 @@
+If your current directory is /home/joe/Documents/memos, 
+refer to the ﬁ le as simply memo1.doc.
+
+97
+
+c04.indd  04/01/2015  Page 98
+
+Part II: Becoming a Linux Power User
+
+FIGURE 4.1
+
+The Linux fi lesystem is organized as a hierarchy of directories.
+
+bin
+
+dev
+
+etc
+
+lib
+
+misc
+
+opt
+
+root
+
+usr
+
+boot
+
+home
+
+media mnt
+
+proc
+
+sbin
+
+tmp
+
+var
+
+joe
+
+Desktop Documents
+
+Downloads
+
+Music
+
+Pictures
+
+memos
+
+plans
+
+projects
+
+memo1.doc
+
+Some of these Linux directories may interest you:
+
+ ■ /bin—Contains common Linux user commands, such as ls, sort, date, and chmod.
+
+ ■ /boot—Has the bootable Linux kernel and boot loader conﬁ guration ﬁ les (GRUB).
+
+ ■ /dev—Contains ﬁ les representing access points to devices on your systems.

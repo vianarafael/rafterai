@@ -1,0 +1,7 @@
+we will still have the ability to perform firewall and routing operations in iPv6 
+to keep our devices safe but we will not be able to just ‘hide’ our networks.
+
+So NAt is dead. But you will still see it around – a lot - until iPv6 is more widespread. 
+
+Using the Firewall-cmd Command
+With CentOS, as we have mentioned, Firewalld is installed by default.

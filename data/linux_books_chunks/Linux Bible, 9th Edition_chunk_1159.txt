@@ -1,0 +1,3 @@
+For example, with text surrounded with double quotes, dollar signs ($), 
+backticks (`), and exclamation points (!) are interpreted specially, but other characters (such as an 
+asterisk) are not.

@@ -1,0 +1,6 @@
+On UNIX systems, from which Linux was derived, the program used to inter-
+pret and manage commands was referred to as the shell.
+
+No matter which Linux distribution you are using, you can always count on the fact that the shell 
+is available to you. It provides a way to create executable script ﬁ les, run programs, work with 
+ﬁ lesystems, compile computer code, and manage the computer.

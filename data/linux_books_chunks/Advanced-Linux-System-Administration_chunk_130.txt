@@ -1,0 +1,17 @@
+Using a rescue disk
+
+24
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+We already know from LPI 101 that any Linux distribution CD can be used to start a 
+system in rescue mode. The advantage of these CDs is that they work on any Linux 
+system. 
+
+The rescue process can be broken down into the following steps:
+
+1.

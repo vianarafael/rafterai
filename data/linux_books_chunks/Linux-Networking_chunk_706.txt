@@ -1,0 +1,17 @@
+Do  not  execute  these  commands  inside  a
+remote ssh shell.
+
+root@debianpaul~# iptables -P INPUT DROP
+root@debianpaul~# iptables -P OUTPUT DROP
+root@debianpaul~# iptables -P FORWARD DROP
+root@debianpaul~# iptables -L
+Chain INPUT (policy DROP)
+target     prot opt source               destination
+
+Chain FORWARD (policy DROP)
+target     prot opt source               destination 
+
+Chain OUTPUT (policy DROP)
+target     prot opt source               destination
+
+14.3.4.

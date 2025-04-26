@@ -1,0 +1,15 @@
+The physical volumes can be from disks.
+
+ ■ Move data from one physical volume to another, so you can remove smaller disks 
+and replace them with larger ones while the ﬁ lesystems are still in use—again, 
+without downtime.
+
+295
+
+ 
+c12.indd  04/01/2015  Page 296
+
+Part III: Becoming a Linux System Administrator
+
+With LVM it is also easier to shrink ﬁ lesystems to reclaim disk space, although shrink-
+ing does require that you unmount the logical volume (but no reboot is needed).

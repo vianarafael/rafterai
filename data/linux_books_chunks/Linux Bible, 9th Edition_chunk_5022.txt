@@ -1,0 +1,8 @@
+The IP 
+address for the interface is set to 192.168.100.50, while the gateway that routes packets 
+out to the world is set to 192.168.100.1. To bring that interface up on the new address, 
+the bootcmd is set to bring the interface down (ifdown eth0) and then back up 
+(ifup eth0).
+
+Adding software with cloud-init
+You aren’t limited to the software already on your cloud image.

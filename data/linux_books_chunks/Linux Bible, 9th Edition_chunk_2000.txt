@@ -1,0 +1,6 @@
+When the user you add tries to log into your Linux system, the 
+authentication Domain, and not the local /etc/passwd ﬁ le, is queried to authenticate the 
+user account.
+
+For more complex authentication conﬁ gurations than are available through the Users window, 
+you should investigate the authconfig command.

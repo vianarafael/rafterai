@@ -1,0 +1,2 @@
+You can add items to prune (or remove some items that you don’t want 
+pruned) the locate database to your needs.

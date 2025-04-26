@@ -1,0 +1,8 @@
+The files in the 
+conf.d directory are for configuring different services and mechanisms for Dovecot.
+
+550
+
+We’re going to edit /etc/dovecot/dovecot.conf and set up Dovecot’s SASL authentication service. We 
+open the configuration file and look for the first option we want to edit: protocols. We first want to turn off 
+all the services other than authentication.

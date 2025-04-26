@@ -1,0 +1,9 @@
+We will then test that both hosts have the same configuration, which will be a HTTPD server 
+listening on port 80.
+
+ remember that using Vagrant is a great way to share your configuration environments because you 
+
+ ■ Tip 
+can share the same code to build your hosts.
+
+Now let’s talk about Serverspec. Serverspec is available as a Ruby gem.

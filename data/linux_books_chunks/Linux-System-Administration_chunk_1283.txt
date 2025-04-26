@@ -1,0 +1,5 @@
+) | (cd /backup/copy_of_etc/; tar -xpf - )
+
+Another example of tar, this copies a directory securely over the network.
+
+(cd /etc;tar -cf - .

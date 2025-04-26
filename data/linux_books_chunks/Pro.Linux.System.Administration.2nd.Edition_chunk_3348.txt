@@ -1,0 +1,9 @@
+The mode, user, and 
+group options control the permissions and ownership of the socket that we restrict to just the postfix user.
+
+When the Dovecot daemon is running, you can see this file in the directory.
+
+$ sudo ls -l /var/spool/postfix/private/auth
+srw-rw----. 1 postfix postfix 0 Aug 25 09:33 /var/spool/postfix/private/auth
+
+Next we have to change a setting in /etc/dovecot/conf.d/10-auth.conf.

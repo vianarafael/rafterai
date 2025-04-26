@@ -1,0 +1,12 @@
+Since all data needs to be written to each disk, RAID 1 does not offer any improved write 
+performance.
+
+Figure 9-1 shows how files are stored on disk when using RAID 0 or RAID 1. On RAID 1, each disk 
+
+contains a full copy of each file. On RAID 0, each disk contains only a partial copy of each file.
+
+387
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-1.

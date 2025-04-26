@@ -1,0 +1,8 @@
+It has lots of bells and 
+whistles, such as highlighting for different types of programming languages and controls 
+for managing word wrap.
+
+ ■ kedit—This GUI-based text editor comes with the KDE desktop.
+
+ ■ mcedit—In this editor, function keys help you get around, save, copy, move, and delete text. 
+Like jed and joe, mcedit is screen-oriented.

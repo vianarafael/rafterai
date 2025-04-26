@@ -1,0 +1,6 @@
+# lex
+
+
+- View documentation for the original command:
+
+`tldr flex`

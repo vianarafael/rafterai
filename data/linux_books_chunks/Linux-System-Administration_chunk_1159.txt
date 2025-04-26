@@ -1,0 +1,12 @@
+Let's also take a look
+at one of them.
+
+paul@RHELv4u2:~$ ls /etc/xinetd.d
+amanda     chargen-udp  echo      klogin       rexec   talk
+amandaidx  cups-lpd     echo-udp  krb5-telnet  rlogin  telnet
+amidxtape  daytime      eklogin   kshell       rsh     tftp
+auth       daytime-udp  finger    ktalk        rsync   time
+chargen    dbskkd-cdb   gssftp    ntalk        swat    time-udp
+paul@RHELv4u2:~$ cat /etc/xinetd.d/swat 
+# default: off
+# description: SWAT is the Samba Web Admin Tool.

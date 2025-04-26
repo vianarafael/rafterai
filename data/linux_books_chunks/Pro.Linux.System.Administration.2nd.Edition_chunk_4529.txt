@@ -1,0 +1,12 @@
+You can create a password using the slappasswd 
+command as follows:
+
+$ sudo slappasswd
+
+The password that is printed can then be copied and pasted to olcRootPW like earlier. Before we apply 
+
+this LDIF, we will view our indexes.
+
+Creating Indexes
+
+Next, we can set our indexes. Indexes are used to speed up searches on the database.

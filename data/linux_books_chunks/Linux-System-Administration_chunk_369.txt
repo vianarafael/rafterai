@@ -1,0 +1,13 @@
+Create an ext3 filesystem on one of the 300MB logical drives.
+
+mke2fs -j /dev/sdb5 (replace sdb5 with the correct partition)
+
+4. Create an ext4 on the 400MB partition.
+
+mkfs.ext4 /dev/sdb1 (replace sdb1 with the correct partition)
+
+5. Set the reserved space for root on the ext3 filesystem to 0 percent.
+
+tune2fs -m 0 /dev/sdb5
+
+6.

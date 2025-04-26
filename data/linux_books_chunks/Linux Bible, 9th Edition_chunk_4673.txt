@@ -1,0 +1,7 @@
+Create a ﬁ le called /etc/test.txt, change its ﬁ le context to user_tmp_t, 
+
+restore it to its proper content (the default context for the /etc directory), and 
+remove the ﬁ le. Use the ls -Z /etc/test.txt command to check the ﬁ le at 
+each point in the process.
+
+8.

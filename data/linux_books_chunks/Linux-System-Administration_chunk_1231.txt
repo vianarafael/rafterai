@@ -1,0 +1,10 @@
+This tool allows you to select
+whether to compile stuff as a module (m), as part of the kernel (*), or not at all (smaller
+kernel size). If you remove too much, your kernel will not work. The configuration will be
+stored in the hidden .config file.
+
+[root@RHEL52 linux-2.6.18.i686]# make menuconfig
+
+28.5.5. make clean
+
+Issue  a  make  clean  to  prepare  the  kernel  for  compile.

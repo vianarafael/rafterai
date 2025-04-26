@@ -1,0 +1,12 @@
+For more 
+information, see http://pykickstart.readthedocs.io/en/latest/kickstart-docs.html#chapter-7-
+package-selection.
+
+ ■ Note 
+
+ We discuss package groups in Chapter 8.
+
+Pre- and Post-installation
+
+You can run scripts before and after Kickstart installs your host. The prerun scripts run after the Kickstart 
+configuration file has been parsed, but before your host is configured.

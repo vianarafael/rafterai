@@ -1,0 +1,56 @@
+See vsftpd
+vfat ﬁ lesystem, 302
+vgdisplay command, 299
+
+858
+
+adding text, 119–120
+changing text, 121–122
+copying text, 121–122
+deleting text, 121–122
+ex mode, 124
+exiting, 122–123
+movement commands, 123
+moving around in text, 120–121
+pasting text, 122
+searching for text, 124
+tutorial, 124
+
+vim command, 119, 124, 184, 318, 561
+vimtutor command, 124, 181
+virt-install, 740, 753, 756
+virt-manager, 730, 733–734, 737, 740–744, 
+
+754–755
+virt-viewer, 734
+virtual consoles, 69
+exiting shell, 88
+tty1, 73
+
+virtual hosts, adding, 462–464
+virtual machines, 730
+creating, 740–744
+managing, 744–745
+migrating, 745–747
+
+virtual network computing (vnc) installations, 218
+VirtualBox, 204, 216
+virtualization, 5
+
+Linux installation, 216
+Red Hat Enterprise Virtualization, 18, 177
+RHEL OpenStack Platform, 18
+Xen, 5, 204, 216, 730
+
+virus signatures, 618
+viruses, 618–622
+VMWare, 204, 216
+vnc (virtual network computing) installations, 
+
+218
+
+vnc boot option, 218
+vncconnect=hostname[:port] boot option, 218
+vncpassword=password boot option, 218
+volume groups, 295–301, 804
+vsftpd, 317, 477–479.

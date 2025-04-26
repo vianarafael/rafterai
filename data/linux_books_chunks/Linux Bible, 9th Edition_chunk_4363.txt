@@ -1,0 +1,9 @@
+Select the Login entry under the Passwords heading to see each of 
+these saved usernames and passwords.
+
+ ■ Certificates—You can view certiﬁ cates associated with the Gnome2 Key Storage, 
+
+User Key Storage, System Trust, and Default Trust.
+
+ ■ PGP keys—You can view the GPG keys you create by selecting the GnuPG keys 
+entry.

@@ -1,0 +1,10 @@
+You also need to 
+install an update tool called FreshClam that automatically downloads and updates the virus signatures that 
+ClamAV uses to detect viruses.
+
+On CentOS, the process of installing ClamAV is via these packages:
+
+$ sudo yum install -y clamav-scanner clamav-update clamav-server-systemd clamav-milter-
+systemd sendmail-milter
+
+On Ubuntu, you install the clamav and clamav-daemon packages.

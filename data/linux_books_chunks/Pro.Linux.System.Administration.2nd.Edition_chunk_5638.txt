@@ -1,0 +1,6 @@
+}
+node 'web1.example.com', 'web2.example.com' { ... } 
+
+In our declaration we are saying any node that checks in with a TLS certificate name starts with web 
+(^web) and has one or more numbers following that (^web\d+) and then the domain name (\.example\.com) 
+and nothing more (\.com$).

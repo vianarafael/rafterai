@@ -1,0 +1,5 @@
+The 
+application may then wish to send a response back. If so it, this traffic is managed by the OUTPUT chain.
+The OUPUT chain is for packets originating on the actual firewall host destined for another host 
+
+elsewhere.

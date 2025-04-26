@@ -1,0 +1,5 @@
+You can erase partitions that currently contain data.
+
+ ■ I want to review/modify...—To take more control of your disk partitioning, 
+
+select this option and click Continue.

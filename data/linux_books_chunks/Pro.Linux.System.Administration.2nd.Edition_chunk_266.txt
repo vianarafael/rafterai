@@ -1,0 +1,7 @@
+Media problems usually recur at the same step in the installation process.
+
+Network installations can also fail if the connection is interrupted, so check that cables are plugged in 
+
+and your Internet connection is working.
+
+The less common type of failure is caused by hardware not being supported.

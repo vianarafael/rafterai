@@ -1,0 +1,5 @@
+There are some common targets in systemd 
+like multiuser, reboot, and rescue. So much as in runlevels, we can have different targets that bring us up 
+to certain and discrete states. For example, if we want the system to be in the state where everyone can 
+log in and use services we would use the target multiuser. In that state, we would like sshd, logging, and 
+networking to be available.

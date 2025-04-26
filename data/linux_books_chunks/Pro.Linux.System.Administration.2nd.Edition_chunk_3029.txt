@@ -1,0 +1,14 @@
+This means if you use these certificates for a web site or to secure a service 
+like Simple Mail Transfer Protocol (SMTP), your client will most likely warn you that the validity and security 
+certificates can’t be determined.
+506
+
+ 
+ 
+ 
+ 
+ 
+Chapter 11 ■ Web and SQL ServiCeS
+
+If the CA’s root is not installed in the browser, the only way to overcome this is to manually add a 
+noncommercial CA’s root certificate to the browser.

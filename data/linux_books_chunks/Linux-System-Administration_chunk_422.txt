@@ -1,0 +1,24 @@
+The -a switch accumulates I/
+O over time.
+
+[root@RHEL65 ~]# iotop -q -a -u vagrant -b -p 5216 -d 10 -n 10
+Total DISK READ: 0.00 B/s | Total DISK WRITE: 0.00 B/s
+  TID  PRIO  USER     DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+ 5216 be/4 vagrant       0.00 B      0.00 B  0.00 %  0.00 % gzip
+Total DISK READ: 818.22 B/s | Total DISK WRITE: 20.78 M/s
+ 5216 be/4 vagrant       0.00 B    213.89 M  0.00 %  0.00 % gzip
+Total DISK READ: 2045.95 B/s | Total DISK WRITE: 23.16 M/s
+ 5216 be/4 vagrant       0.00 B    430.70 M  0.00 %  0.00 % gzip
+Total DISK READ: 1227.50 B/s | Total DISK WRITE: 22.37 M/s
+ 5216 be/4 vagrant       0.00 B    642.02 M  0.00 %  0.00 % gzip
+Total DISK READ: 818.35 B/s | Total DISK WRITE: 16.44 M/s
+ 5216 be/4 vagrant       0.00 B    834.09 M  0.00 %  0.00 % gzip
+Total DISK READ: 6.95 M/s | Total DISK WRITE: 8.74 M/s
+ 5216 be/4 vagrant       0.00 B    920.69 M  0.00 %  0.00 % gzip
+Total DISK READ: 21.71 M/s | Total DISK WRITE: 11.99 M/s
+
+82
+
+troubleshooting tools
+
+8.6.

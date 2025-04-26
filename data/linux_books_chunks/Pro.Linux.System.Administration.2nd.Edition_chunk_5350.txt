@@ -1,0 +1,49 @@
+Macros in the Notification Command
+
+Macro
+
+Description
+
+$NOTIFICATIONTYPE$
+
+The type of notification, for example, PROBLEM for an issue or RECOVERY  
+sif the host has recovered
+
+$HOSTNAME$
+
+$HOSTSTATE$
+
+The name of the host you are being notified about
+
+The current host state, for example, UP or DOWN
+
+$HOSTADDRESS$
+
+The IP address of the host
+
+$HOSTOUTPUT$
+
+Text output from the command used to check the host’s status
+
+$LONGDATETIME$$
+
+The date and time in long format (e.g., Fri Feb 13 00:30:28 EST 2009)
+
+$CONTACTEMAIL$
+
+The e-mail address of the contact to be e-mailed
+
+890
+
+Chapter 18 ■ Logging and Monitoring
+
+ You can see a full list of macros and where you can use them at https://assets.nagios.com/
+
+ ■ Note 
+downloads/nagioscore/docs/nagioscore/4/en/macrolist.html.
+
+Let’s get back to our contact definition; you can see the last attribute, email, which specifies an e-mail 
+
+address for notifications to be sent to, which you’ve seen is available as the $CONTACTEMAIL$ macro.
+
+In our template, you can see the last attribute in our Listing 18-17 template is register.

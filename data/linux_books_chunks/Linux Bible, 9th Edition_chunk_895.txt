@@ -1,0 +1,9 @@
+If you want to remove a directory, you need to use the recursive (-r) option to rm or, 
+for an empty directory, you can use the rmdir command. Consider the following examples:
+
+$ rmdir /home/joe/nothing/
+$ rm -r /home/joe/bigdir/
+$ rm -rf /home/joe/hugedir/
+
+The rmdir command in the preceding code only removes the directory (nothing) if it is 
+empty.

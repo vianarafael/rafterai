@@ -1,0 +1,12 @@
+We’ll copy the ssh_limiter.sh file to /tmp, too.
+
+Using jsmith, who has an account on the remote hosts with administrative sudo access, we do the 
+
+following:
+
+$ scp /tmp/remote_authorized_keys /tmp/ssh_limiter.sh 
+ jsmith@branch1.example.com:~/
+
+This securely copies the remote_authorized_keys file to the home directory of jsmith on the remote 
+
+host.

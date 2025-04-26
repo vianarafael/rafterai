@@ -1,0 +1,7 @@
+As a server administrator, some of the 
+additional challenges to your system administration skills include the following:
+
+ ■ Remote access—To use a desktop system, you typically sit at its console. Server systems, 
+
+by contrast, tend to be housed in racks in climate-controlled environments under lock and 
+key.

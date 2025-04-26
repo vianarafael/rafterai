@@ -1,0 +1,11 @@
+This not only allows you to create the customized data for your Linux cloud image, but 
+also lets you run that image as a virtual machine on that hypervisor.
+
+751
+
+c27.indd  04/01/2015  Page 752
+
+Part VI: Extending Linux into the Cloud
+
+To add data and run an existing cloud image, this procedure requires you to obtain a 
+cloud image, create data ﬁ les, and generate a new image that combines those elements.

@@ -1,0 +1,12 @@
+Then, 
+
+using an existing MySQL install, we created a mysql password hash.
+
+SELECT PASSWORD(‘strongpasswordstring’);
++---------------------------------------------------------+
+| password('strongpasswordstring')                                 |
++---------------------------------------------------------+
+| *35D93ADBD68F80D63FF0D744BA55CF920B2A45BD |
++---------------------------------------------------------+
+
+We then created a playbooks/group_vars/dbs directory and a vars.yml file and vault.yml file.

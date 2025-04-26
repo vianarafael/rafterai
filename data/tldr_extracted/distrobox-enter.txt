@@ -1,0 +1,14 @@
+# distrobox-enter
+
+
+- Enter a Distrobox container:
+
+`distrobox-enter {{container_name}}`
+
+- Enter a Distrobox container and run a command at login:
+
+`distrobox-enter {{container_name}} -- {{sh -l}}`
+
+- Enter a Distrobox container without instantiating a tty:
+
+`distrobox-enter {{[-n|--name]}} {{container_name}} -- {{uptime --pretty}}`

@@ -1,0 +1,13 @@
+Plug in a USB storage drive, which should mount a ﬁ lesystem from that drive 
+
+automatically. If it does not, run the following commands in a second terminal 
+(as root) to create a mount point directory and mount the device:
+
+# mkdir /mnt/test
+# mount /dev/sdb1 /mnt/test
+
+c. Unmount the device and unplug the USB drive:
+
+# umount /dev/sdb1
+
+8.

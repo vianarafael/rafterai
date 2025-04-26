@@ -1,0 +1,18 @@
+The difference with ifup is that
+ifconfig eth0 up will re-activate the nic keeping its existing (current) configuration, whereas
+ifup will read the correct file that contains a (possibly new) configuration and use this config
+file to bring the interface up.
+
+[root@rhel6 ~]# ifconfig eth0 down
+[root@rhel6 ~]# ifconfig eth0 up
+[root@rhel6 ~]# ifconfig eth0
+eth0 Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C
+     inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+     inet6 addr: fe80::a00:27ff:fedd:d5c/64 Scope:Link
+     UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+     RX packets:2995 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:1927 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:1000 
+     RX bytes:339030 (331.0 KiB)  TX bytes:191583 (187.0 KiB)
+
+22.4.2.

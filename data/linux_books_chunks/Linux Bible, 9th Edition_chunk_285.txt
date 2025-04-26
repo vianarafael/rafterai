@@ -1,0 +1,6 @@
+If you are starting out with Linux, however, Fedora can provide 
+an excellent entry point to the same skills you need to use and administer RHEL systems.
+
+Using Fedora
+While RHEL is the commercial, stable, supported Linux distribution, Fedora is the free, 
+ cutting-edge Linux distribution that is sponsored by Red Hat, Inc.

@@ -1,0 +1,24 @@
+Since parted works directly on the disk, there is no
+need to w(rite) like in fdisk.
+
+(parted) print
+Model: ATA VBOX HARDDISK (scsi)
+Disk /dev/sdb: 8590MB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End     Size    File system  Name     Flags
+ 1      17.4kB  4295MB  4295MB               primary
+ 2      4295MB  8589MB  4294MB               primary
+
+(parted) quit
+Information: You may need to update /etc/fstab.
+
+[root@rhel71 ~]#
+
+53
+
+disk partitions
+
+5.7.

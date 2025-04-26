@@ -1,0 +1,8 @@
+Notice that an 
+ additional empty workspace is created each time the last empty one is used. 
+You can drag and drop the miniature windows to any workspace and then 
+select the workspace to view it.
+
+7.  Use the window menu. Move the mouse to the upper-left corner of the screen to 
+return to the active workspace (large window view). Right-click the title bar on a 
+window to view the window menu.

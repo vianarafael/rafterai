@@ -1,0 +1,8 @@
+With a 
+separate /home partition, you can install another Linux system in the future with-
+out disturbing your home directories (and presumably all or most of your user data).
+
+Tips for creating partitions
+Changing your disk partitions to handle multiple operating systems can be very tricky, in 
+part because each operating system has its own ideas about how partitioning information 
+should be handled, as well as different tools for doing it.

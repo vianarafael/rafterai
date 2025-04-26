@@ -1,0 +1,7 @@
+Instead of entering a 
+passphrase for the key, we press Enter to specify an empty passphrase, because we need the connection to 
+be made without a passphrase or password prompt.
+
+We then need to copy the public key, id_rsa.pub, to the remote host and store it in the authorized_
+
+keys file for the user we’re going to connect to.

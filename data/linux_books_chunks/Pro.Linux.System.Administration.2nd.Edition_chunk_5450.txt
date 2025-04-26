@@ -1,0 +1,7 @@
+You may also find Art of 
+Monitoring by the same author to be useful; see https://www.artofmonitoring.com/.
+
+You can find a number of support options, including commercial support, at https://www.nagios.
+
+org/support/, comprehensive documentation at https://www.nagios.org/documentation/, and a FAQ 
+for Nagios at https://support.nagios.com/knowledge-base/.

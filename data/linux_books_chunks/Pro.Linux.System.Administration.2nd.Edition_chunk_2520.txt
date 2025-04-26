@@ -1,0 +1,6 @@
+These five fields are the record name, the time until the data expires 
+(better known as time to live or TTL), the record class (which is virtually always IN for Internet), the record 
+type, and finally the data for this record.
+
+<record name>          <ttl>            <class>         <type>          <data>
+www.google.com.

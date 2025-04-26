@@ -1,0 +1,6 @@
+In many ways, similar chaos can occur by not closely manag-
+ing the SetUID (SUID) and the SetGID (SGID) permissions (see Chapters 4 and 11).
+
+Files with the SUID permission in the Owner category and execute permission in the 
+Other category allow anyone to temporarily become the ﬁ le’s owner while the ﬁ le is being 
+executed in memory.

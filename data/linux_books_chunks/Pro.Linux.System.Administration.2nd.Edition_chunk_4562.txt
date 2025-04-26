@@ -1,0 +1,24 @@
+You must have one STRUCTURAL object class in your entries, and you 
+cannot have two STRUCTURAL object classes pointing to the same parent or superior class.
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+ ■ Note 
+
+ you can find the rFC that describes the LDAP schema files at www.rfc-editor.org/rfc/rfc4512.txt.
+
+Adding Our Schema
+
+To add our schema, we need to go through the following process:
+
+•	 Convert our schema to LDIF via slaptest
+
+•	
+
+•	
+
+Edit the output in preparation for inputting the schema
+
+Add that into our SLAPD via ldapadd
+
+To convert the schema file into LDIF, we use the slaptest command.

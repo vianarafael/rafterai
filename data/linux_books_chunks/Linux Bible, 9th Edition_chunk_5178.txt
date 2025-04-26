@@ -1,0 +1,19 @@
+To use ex mode to search for every occurrence of the term tcp (case sensitive) in 
+
+your /tmp/services ﬁ le and change it to WHATEVER, you can type the following:
+
+$ vi /tmp/services
+:g/tcp/s//WHATEVER/g<Enter>
+
+787
+
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 788
+
+Appendix B: Exercise Answers
+
+4.

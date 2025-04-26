@@ -1,0 +1,15 @@
+Leaves behind associated configuration files.
+
+-P | --purge
+
+Purges a package from your host. Deletes associated configuration files.
+
+First, we’ll get a list of packages that are already installed on our new Ubuntu system, as you can see in 
+
+Listing 8-18.
+
+Listing 8-18.  Listing Installed Packages
+
+$ dpkg -l
+
+This produces the complete list of all the packages on our host.

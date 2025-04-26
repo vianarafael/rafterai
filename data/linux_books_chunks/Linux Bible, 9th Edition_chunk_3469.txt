@@ -1,0 +1,17 @@
+No outside systems are contacted to authenticate users.
+
+511
+
+c19.indd  04/01/2015  Page 512
+
+Part IV: Becoming a Linux Server Administrator
+
+FIGURE 19.1
+
+Choose basic Samba server settings.
+
+FIGURE 19.2
+
+Choose Samba server security settings.
+
+Encrypted passwords are used by default. Also by default, there is no guest account.

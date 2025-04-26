@@ -1,0 +1,12 @@
+Restart the DNS server and check your zone in the error log.
+
+root@debian7:~# service bind9 restart
+Stopping domain name service...: bind9.
+Starting domain name service...: bind9.
+root@debian7:~# grep paul.local /var/log/syslog
+Oct  6 09:22:18 debian7 named[2707]: zone paul.local/IN: loaded seria\
+l 2014100101
+Oct  6 09:22:18 debian7 named[2707]: zone paul.local/IN: sending noti\
+fies (serial 2014100101)
+
+5.

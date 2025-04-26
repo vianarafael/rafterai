@@ -1,0 +1,6 @@
+This file contains the drivers your kernel needs to load to make use of the 
+hardware of your host.
+
+Starting the Operating System
+After loading initrd.img, GRUB2 completes and hands over control to the kernel, which continues the 
+boot process by initiating your hardware, including your hard disks.

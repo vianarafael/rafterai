@@ -1,0 +1,16 @@
+If you quit back to the command line, you can 
+now view your file and see your typed text:
+
+$ cat newfile
+hello jsmith
+
+143
+
+ChapTeR 4 ■ LInux BasICs
+
+ You can find an introduction to vim at www.openvim.com/, or you might be able to run vimtutor on 
+
+ ■ Tip 
+the command line to start a vim tutorial (depending on whether you have installed the vim-enhanced package).
+
+A variety of GUI editors are also available.

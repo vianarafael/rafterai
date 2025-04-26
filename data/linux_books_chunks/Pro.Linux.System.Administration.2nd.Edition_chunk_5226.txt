@@ -1,0 +1,4 @@
+We 
+have ordered the output to be more human readable, but you can see that the first few lines of the output are 
+the key/value pairs from the message contents. We can make it more readable too if we give greater detail to 
+some of those labels.

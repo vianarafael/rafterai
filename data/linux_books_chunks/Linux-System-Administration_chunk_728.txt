@@ -1,0 +1,49 @@
+They  are  replaced  with
+systemctl.
+
+This screenshot shows the new way to start and stop a service.
+
+[root@rhel7 ~]# systemctl start crond.service
+[root@rhel7 ~]# systemctl show crond.service | grep State
+LoadState=loaded
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+[root@rhel7 ~]# systemctl stop crond.service
+[root@rhel7 ~]# systemctl show crond.service | grep State
+LoadState=loaded
+ActiveState=inactive
+SubState=dead
+UnitFileState=enabled
+[root@rhel7 ~]#
+
+And here is the new way to stop and disable a service.
+
+[root@rhel7 ~]# systemctl stop crond.service
+[root@rhel7 ~]# systemctl disable crond.service
+rm '/etc/systemd/system/multi-user.target.wants/crond.service'
+[root@rhel7 ~]# systemctl show crond.service | grep State
+LoadState=loaded
+ActiveState=inactive
+SubState=dead
+UnitFileState=disabled
+[root@rhel7 ~]#
+
+This screenshot shows how to enable and start the service again.
+
+[root@rhel7 ~]# systemctl enable crond.service
+ln -s '/usr/lib/systemd/system/crond.service' '/etc/systemd/system/multi-user.\
+target.wants/crond.service'
+[root@rhel7 ~]# systemctl start crond.service
+[root@rhel7 ~]# systemctl show crond.service | grep State
+LoadState=loaded
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+[root@rhel7 ~]#
+
+186
+
+init and runlevels
+
+15.8.4.

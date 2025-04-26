@@ -1,0 +1,6 @@
+Running yum update every night makes it less 
+likely that you will encounter major dependency problems than if you update your 
+system only every few months. In Fedora, there is a yum-updatesd package that 
+lets you do nightly checks for updates and then send e-mail to a user of your choice 
+if updates are available. In RHEL, you could build a cron job to check for or run 
+nightly updates.

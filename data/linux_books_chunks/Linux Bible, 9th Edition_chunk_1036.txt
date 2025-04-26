@@ -1,0 +1,6 @@
+For example, 
+ processes run as the root user have much more access to system ﬁ les and resources than a process 
+running as a regular user.
+
+The ability to manage processes on your system is critical for a Linux system administrator. 
+Sometimes, runaway processes may be killing your system’s performance.

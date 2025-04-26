@@ -1,0 +1,1 @@
+To do this, you edit the /etc/xinet.d/tftp file to enable a TFTP server.

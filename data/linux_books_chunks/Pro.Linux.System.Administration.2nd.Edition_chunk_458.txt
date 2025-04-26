@@ -1,0 +1,4 @@
+You will see a list of numbered lines showing 
+previous commands you’ve typed. You can retrieve any of these commands by entering the number next to the 
+command, prefixed by the ! symbol. For example, !12 would retrieve and execute command number 12 in your 
+history.

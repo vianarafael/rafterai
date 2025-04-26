@@ -1,0 +1,12 @@
+In the System settings, 
+we are going to select Network for the boot device.
+
+922
+
+In Figure 19-1 we are selecting the Network Boot option. We will come back to here and set it to Hard 
+
+Disk when we are finished. We now start the hosts like we would normally.
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Figure 19-1.

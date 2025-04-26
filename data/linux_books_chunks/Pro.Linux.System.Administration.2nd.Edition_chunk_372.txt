@@ -1,0 +1,6 @@
+the boxes hosted by hashiCorp on atlas are created by community members 
+or organizations and vary widely in design and purpose.
+
+The Ubuntu team regularly pushes an official Vagrant box for public download. We shall use that as our 
+Vagrant box. These Vagrant boxes are “base” images. You download them and use them as the basis for your 
+own boxes.

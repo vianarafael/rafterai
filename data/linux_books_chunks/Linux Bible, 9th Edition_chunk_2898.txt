@@ -1,0 +1,4 @@
+As a result, clients can 
+ simply select the printers they want to use from the printer names broadcast on 
+the network, without needing to know in advance what the printers are named 
+and where they are connected.

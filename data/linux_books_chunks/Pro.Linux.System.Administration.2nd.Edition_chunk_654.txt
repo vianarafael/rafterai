@@ -1,0 +1,23 @@
+We start 
+by looking for any letters (Latin only), capitalized or not, [A-Za-z...], or numbers, [...0-9], or a dot, 
+[.] or dash, [...-].
+
+[A-Za-z0-9._-]
+
+These can appear one or more times [...]+.
+
+[A-Za-z0-9._-]+
+
+That is followed by the domain we are interested in:
+
+[A-Za-z0-9._-]+@example.com
+
+To improve our matching, let’s consider the following example text file:
+
+email: root@example.com
+email: jsmith@example.com
+iam a sentence with somewordroot@example.comsomeotherword
+email: bjuice@example.com
+
+With the "[A-Za-z0-9._-]+@example.com" regular expression we would get a match on 
+‘somewordroot@example.com’, which is not what we want.

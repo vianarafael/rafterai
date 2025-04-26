@@ -1,0 +1,2 @@
+We can check the system log to make sure the RAID monitor has picked up on these changes and 
+acted appropriately.

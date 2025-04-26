@@ -1,0 +1,11 @@
+First, you define a command alias with some commands you do not want users to use, and then you 
+can use that alias in conjunction with a sudo configuration line.
+
+Cmnd_Alias DENIED_COMMANDS = /bin/su,/bin/mount,/bin/umount
+ataylor au-mel-centos-1=/bin/*,!DENIED_COMMANDS
+
+Here the user ataylor can use all the commands in the /bin directory on the au-mel-centos-1 host 
+
+except those defined in the DENIED_COMMANDS command alias.
+
+Let’s look at one of the other ways you can authorize users to use sudo.

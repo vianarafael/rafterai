@@ -1,0 +1,3 @@
+If you want the share 
+to be mounted permanently (that is, every time the system boots up) in the same location, 
+you can do some additional conﬁ guration.

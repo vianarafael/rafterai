@@ -1,0 +1,7 @@
+First, let’s grab the tarball from http://nginx.org/ using the wget utility.
+
+$ wget –c http://nginx.org/download/nginx-1.10.1.tar.gz
+
+ ■ Note  A tarball is a file (usually compressed) that contains a set of files and/or directories. the application 
+used to create these tarballs is called tar (tape Archive), thusly named because it was initially used to 
+write archives to magnetic tape.

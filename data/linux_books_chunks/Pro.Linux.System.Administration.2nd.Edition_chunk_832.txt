@@ -1,0 +1,11 @@
+Users could access the host through 
+
+other authentication mechanisms such as public keys for remote access using SSH (Secure Shell).
+
+There is another way to totally disable access to the user that uses the usermod command with the 
+
+--expiredate option:
+
+$ sudo usermod --expiredate 1 ataylor
+
+This sets the account expiration date to January 1, 1970, and disables the account immediately.

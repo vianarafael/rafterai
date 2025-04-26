@@ -1,0 +1,6 @@
+XFS was developed by Silicon Graphics, 
+Inc., for its IRIX operating system.
+
+The filesystem driver of XFS was open sourced some years ago and IRIX helped working on integrating 
+it into the Linux kernel, as Linux lacked a journaling filesystem at the time. The community enthusiastically 
+embraced these newly open source filesystems, as both offered new features and excellent performance.

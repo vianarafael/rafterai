@@ -1,0 +1,11 @@
+Full details of that license can be found at www.gnu.org/
+licenses/old-licenses/gpl-2.0.html.
+
+74
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+If you wish to also use the VirtualBox Oracle VM VirtualBox Extension Pack you are required to agree 
+
+to the terms of the VirtualBox Personal Use and Evaluation License (see www.virtualbox.org/wiki/
+VirtualBox_PUEL).

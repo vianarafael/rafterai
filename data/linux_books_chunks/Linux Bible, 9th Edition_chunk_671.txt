@@ -1,0 +1,19 @@
+(Ctrl+P and Ctrl+N do the same functions, 
+respectively.)
+
+Ctrl+R
+
+Ctrl+S
+
+Reverse incre-
+mental search
+
+After you press these keys, you enter a search string to do a 
+reverse search. As you type the string, a matching command 
+line appears that you can run or edit.
+
+Forward incre-
+mental search
+
+This is the same as the preceding function but for forward 
+search.

@@ -1,0 +1,11 @@
+.config
+
+Now  copy  a  working  .config  from  /boot  to  our  kernel  directory.  This  file  contains  the
+configuration that was used for your current working kernel. It determines whether modules
+are included in compilation or not.
+
+[root@RHEL52 linux-2.6.18.i686]# cp /boot/config-2.6.18-92.1.18.el5 .config
+
+28.5.4. make menuconfig
+
+Now run make menuconfig (or the graphical make xconfig).

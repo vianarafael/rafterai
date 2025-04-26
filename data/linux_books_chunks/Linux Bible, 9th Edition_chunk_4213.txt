@@ -1,0 +1,18 @@
+Should not be in /home directories.
+
+Ownerless fi les
+
+find / -nouser
+
+Groupless fi les
+
+find / -nogroup
+
+Indicates fi les that are not associated with any 
+user name.
+
+Indicates fi les that are not associated with any 
+group name.
+
+These ﬁ lesystem scans help monitor what is going on in your system and help detect malicious 
+attacks.

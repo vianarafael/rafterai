@@ -1,0 +1,11 @@
+This
+approach is clear and more secure.
+
+[root@RHEL52 samba]# chown -R sambanobody:sambanobody /srv/samba/
+[root@RHEL52 samba]# ls -al /srv/samba/writable/
+total 12
+drwxrwxrwx 2 sambanobody sambanobody 4096 Jan 21 06:11 .
+drwxr-xr-x 6 sambanobody sambanobody 4096 Jan 21 06:11 ..
+-rwxr--r-- 1 sambanobody sambanobody    6 Jan 21 06:16 hoi.txt
+
+19.3.

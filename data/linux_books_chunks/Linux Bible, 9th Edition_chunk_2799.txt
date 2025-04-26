@@ -1,0 +1,2 @@
+When you reload a service, the 
+service itself is not stopped.

@@ -1,0 +1,7 @@
+In 
+particular, most of what is covered in the Red Hat Certiﬁ ed Engineer (RHCE) and Red Hat 
+Certiﬁ ed System Administrator (RHCSA) exams for Red Hat Enterprise Linux 7 is described 
+in this book.
+
+If you are looking for a job as a Linux IT professional, often RHCSA or RHCE certiﬁ cation 
+is listed as a requirement or at least a preference for employers.

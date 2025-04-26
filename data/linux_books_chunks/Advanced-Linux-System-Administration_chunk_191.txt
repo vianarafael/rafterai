@@ -1,0 +1,16 @@
+Once this is done the e2fsadm 
+tool will resize the filesystem across the logical volume.
+
+Extending the Volume Group with a RAID 0 device
+
+So far we have:
+
+VG = /dev/hda16  +  /dev/hda17  + /dev/hda18
+
+and we would like to add a RAID0 device to 
+this
+
+1. Create three more partitions (e.g /dev/hda19, /dev/hda20 and /dev/hda21) of size 50MB 
+and of type “Linux raid autodetect” (fd) – reboot!
+
+2.

@@ -1,0 +1,33 @@
+Nagios Plug-in Status Conversions
+
+Plug-in Status
+
+Host Status
+
+Status Description
+
+OK
+
+WARNING
+
+UNKNOWN
+
+CRITICAL
+
+UP
+
+The host is up.
+
+UP or DOWN
+
+The host could be up or down but by default is up.
+
+DOWN
+
+DOWN
+
+The host is down.
+
+The host is down.
+
+ this host state is also available to nagios as a macro called $HOSTSTATE$.

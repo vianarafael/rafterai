@@ -1,0 +1,5 @@
+Reboot your computer or restart the NFS service, and the exportfs command runs 
+automatically to export your directories. If you want to export them immediately, run 
+exportfs from the command line (as root).
+
+Running the exportfs command after you change the exports fi le is a good idea.

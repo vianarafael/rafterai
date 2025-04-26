@@ -1,0 +1,6 @@
+Also, there are tools that allow you to edit files from the 
+command line, like the popular vim, nano, joe, or bizarrely popular emacs.
+
+We’re going to start by taking a quick look at vim, which is a text editor that is an enhancement of an 
+
+older Unix editor called vi.

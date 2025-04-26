@@ -1,0 +1,6 @@
+Often, however, separate user or group accounts are added to create 
+content that is readable by everyone (other) but only writable by that special user or group.
+
+Apache and iptables
+If you have locked down your iptables ﬁ rewall in Linux, you need to open several ports 
+for clients to be able to talk to Apache through the ﬁ rewall.

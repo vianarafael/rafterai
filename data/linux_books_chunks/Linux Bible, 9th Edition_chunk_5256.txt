@@ -1,0 +1,16 @@
+To determine the device name of a USB ﬂ ash drive that you want to insert into 
+
+your computer, type the following and insert the USB ﬂ ash drive (press Ctrl+C after 
+you have seen the appropriate messages).
+
+# tail -f /var/log/messages
+kernel: [sdb] 15667200 512-byte logical blocks:
+     (8.02 GB/7.47 GiB)
+Feb 11 21:55:59 cnegus kernel: sd 7:0:0:0:
+     [sdb] Write Protect is off
+Feb 11 21:55:59 cnegus kernel: [sdb] Assuming
+     drive cache: write through
+Feb 11 21:55:59 cnegus kernel: [sdb] Assuming
+     drive cache: write through
+
+2.

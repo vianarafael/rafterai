@@ -1,0 +1,6 @@
+Here we are going to follow (like the tail command) 
+
+the httpd log using the following:
+
+$ sudo journalctl -f -u httpd.service
+-- Logs begin at Fri 2016-11-25 22:16:00 AEDT.

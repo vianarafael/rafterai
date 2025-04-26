@@ -1,0 +1,14 @@
+However, you do not need root privileges to check a 
+service’s status.
+
+15
+
+405
+
+c15.indd  04/01/2015  Page 406
+
+Part IV: Becoming a Linux Server Administrator
+
+Stopping and starting systemd services
+For the systemd daemon, the systemctl command works for stopping, starting, 
+ reloading, and restarting services.

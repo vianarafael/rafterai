@@ -1,0 +1,22 @@
+The example in Listing 6-10 would prevent Postfix from starting unless all the filesystems are mounted, the 
+log service is running, the named server is running, the network is up, and the time has been synchronized.
+
+The meanings of the keywords from Listing 6-10 and listed here are:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+Provides: Gives a brief indication what this service provides.

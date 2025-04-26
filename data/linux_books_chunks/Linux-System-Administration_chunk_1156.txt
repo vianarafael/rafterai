@@ -1,0 +1,2 @@
+This superdaemon is configured
+through /etc/xinetd.conf and the files in the directory /etc/xinetd.d.

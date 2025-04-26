@@ -1,0 +1,9 @@
+The next time you log in 
+or open a new shell, you can use the new alias (in this case, just type d). To have the new 
+information you just added to the ﬁ le available from the current shell, type the following:
+
+3
+
+$ source $HOME/.bashrc
+
+The following sections provide ideas about items to add to your shell conﬁ guration ﬁ les.

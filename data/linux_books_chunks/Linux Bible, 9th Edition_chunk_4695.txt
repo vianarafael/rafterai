@@ -1,0 +1,6 @@
+The original server then acknowledges 
+(ACK) the response, and a TCP connection is ofﬁ cially established. This three-way 
+handshake is often called a SYN-SYN-ACK or SYN, SYN-ACK, ACK.
+
+If you select a TCP Connect port scan, the nmap utility uses this three-way hand-
+shake to do a little investigative activity on a remote server.

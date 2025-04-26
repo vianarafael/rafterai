@@ -1,0 +1,11 @@
+We are going to use 
+the worker module as it provides a better performance profile over the prefork module.
+
+#LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
+LoadModule mpm_worker_module modules/mod_mpm_worker.so
+
+474
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+The main httpd.conf file is more than 350 lines long, so we will not be showing every option.

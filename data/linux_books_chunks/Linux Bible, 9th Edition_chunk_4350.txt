@@ -1,0 +1,6 @@
+However, after that directory is no longer mounted as an 
+ecryptfs type, the ﬁ les are secure and cannot be decrypted.
+
+Encrypting a Linux file
+The most popular tool for ﬁ le encryption on a Linux system is the OpenPGP utility GNU 
+Privacy Guard, gpg.

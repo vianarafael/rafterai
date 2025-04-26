@@ -1,0 +1,7 @@
+You learn to use remote logging and system 
+activity reports to continuously monitor system activities.
+
+Starting with Server Administration
+Whether you are installing a ﬁ le server, web server, or any of the other server facilities avail-
+able with Linux systems, many of the steps required for getting the server up and  running 
+are the same.

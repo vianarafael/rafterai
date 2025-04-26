@@ -1,0 +1,6 @@
+A team interface is an 
+aggregated interface made up of two or more links. It can provide greater throughput or link redundancy 
+than a single interface. It can support active/passive, LACP (Link Aggregation Control Protocol), and VLANs 
+(Virtual Local Area Networks) and other protocols.
+
+A teaming has two main parts, a teamd daemon and runners.

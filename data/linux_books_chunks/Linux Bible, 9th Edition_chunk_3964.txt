@@ -1,0 +1,7 @@
+With the public Zone and 
+Services tab selected, click the check boxes for http and https to immediately open those 
+ports for all incoming trafﬁ c. 
+
+If your system is using the basic iptables service, there should be ﬁ rewall rules like 
+the two shown in the preceding code among your other rules. If there aren’t, add those 
+rules to the /etc/sysconfig/iptables ﬁ le.

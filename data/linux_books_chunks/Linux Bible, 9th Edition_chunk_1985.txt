@@ -1,0 +1,9 @@
+In both of 
+those cases, the commands must be able to act as the root user to do their jobs. However, to  actually 
+get root permissions, a user must provide a password. You can tell su is a set UID bit command because 
+of the s where the fi rst execute bit (x) usually goes:
+
+ $ ls /bin/su
+-rwsr-xr-x. 1 root root  30092 Jan 30 07:11 su
+
+4.

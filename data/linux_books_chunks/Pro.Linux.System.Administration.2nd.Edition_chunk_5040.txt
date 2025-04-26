@@ -1,0 +1,4 @@
+Journal Metadata
+
+$ sudo journalctl -n 1 -o verbose
+-- Logs begin at Fri 2016-11-25 22:16:00 AEDT, end at Mon 2016-11-28 21:29:46 AEDT.

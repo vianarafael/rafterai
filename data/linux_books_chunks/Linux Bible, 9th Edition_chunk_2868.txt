@@ -1,0 +1,22 @@
+At bare minimum, you need 
+Description and ExecStart options for a service unit conﬁ guration ﬁ le.
+
+# cat My_New_Service.service
+[Unit]
+Description=My New Service
+[Service]
+ExecStart=/usr/bin/My_New_Service
+
+15
+
+419
+
+ 
+ 
+ 
+c15.indd  04/01/2015  Page 420
+
+Part IV: Becoming a Linux Server Administrator
+
+For additional help on customizing or creating a new conﬁ guration unit ﬁ le and the various 
+needed options, you can use the man pages.

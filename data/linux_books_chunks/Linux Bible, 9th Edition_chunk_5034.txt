@@ -1,0 +1,6 @@
+These tools let you apply scripts of 
+conﬁ guration information to your cloud instances, even doing such things as replace com-
+ponents or restart services as needed to return the system to a desired state.
+
+At this point, however, my job is not to make you into a full-blown cloud administrator 
+(a few hundred pages ago, you could have been a Linux novice).

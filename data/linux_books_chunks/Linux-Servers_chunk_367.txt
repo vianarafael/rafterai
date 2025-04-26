@@ -1,0 +1,12 @@
+This wireshark screenshot can help, but you learn more by sniffing the traffic
+yourself.
+
+You should see traffic to a root name server whenever you try a new tld for the first time.
+Remember that dns is a caching protocol, which means that repeating a query will generate
+a lot less traffic since your dns server will still have the answer in its memory.
+
+78
+
+introduction to DNS
+
+4.13.

@@ -1,0 +1,5 @@
+It improves web surfing speed when returning
+cached data to clients, and it reduces the required bandwidth (cost) to the internet.
+
+Smaller organizations sometimes put the proxy server on the same physical computer that
+serves as a NAT to the internet.

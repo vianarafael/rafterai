@@ -1,0 +1,7 @@
+GRUB2 has made the grub.cfg more modular than its simpler predecessor. The chance 
+that you will need to make many changes to the GRUB2 configuration is small but possible.
+
+The GRUB2 files are located in different places on different distributions. On Red Hat-based hosts like 
+
+CentOS, they can be found at /boot/grub2/grub.cfg (and the file is usually linked symbolically to /etc/
+grub.conf).

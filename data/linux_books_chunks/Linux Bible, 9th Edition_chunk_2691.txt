@@ -1,0 +1,4 @@
+You would not want your Linux server’s network services to be 
+started before the network itself was started.
+
+An /etc/rc.d/rc#.d directory exists for all the standard Linux runlevels.

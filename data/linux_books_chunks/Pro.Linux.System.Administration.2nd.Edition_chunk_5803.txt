@@ -1,0 +1,16 @@
+We require this step to run prior the create db step coming up.
+
+Next we will continue installing the Bareos packages.
+
+  - name: install bareos
+    yum: name={{ item }} state=installed
+    with_items:
+      - bareos-database-mysql
+      - bareos-client
+      - bareos-director
+      - bareos-storage
+      - bareos-storage-glusterfs
+      - bareos-bconsole
+      - bareos-filedaemon
+
+Here we are installing the Bareos packages and again using the with_items loop to avoid repetition.

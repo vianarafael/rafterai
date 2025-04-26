@@ -1,0 +1,9 @@
+A single user's name is added to 
+mtab so that other users may not unmount the devices
+
+users
+
+ Same as user but the device may be unmounted by any other user
+
+Mount will also keep track of mounted operations by updating /etc/mtab. The content of 
+this file is similar to another table held by the kernel in /proc/mounts.

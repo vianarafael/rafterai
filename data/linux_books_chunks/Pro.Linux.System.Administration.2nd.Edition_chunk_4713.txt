@@ -1,0 +1,3 @@
+We specify the attribute and authentication level we want 
+to test, in this case the attribute userPassword against the access auth. As you know, we need at least auth 
+access for the DN cn=webadmin,ou=meta,dc=example,dc=com to authenticate with userPassword.

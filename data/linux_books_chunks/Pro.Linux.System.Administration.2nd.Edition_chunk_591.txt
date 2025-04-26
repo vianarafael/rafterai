@@ -1,0 +1,41 @@
+Octal Permissions
+
+Octal Numbers
+
+permissions
+
+600
+
+644
+
+664
+
+666
+
+755
+
+777
+
+rw-r--r--
+
+rw-r--r--
+
+rw-rw-r--
+
+rw-rw-rw-
+
+rwxr-xr-x
+
+rwxrwxrwx
+
+ The chmod command has some additional syntax for changing permissions, and you can read about 
+
+ ■ Tip 
+them in the command’s man page.
+
+127
+
+ChapTeR 4 ■ LInux BasICs
+
+Finally, there is an important concept called umask that you need to also understand to fully 
+comprehend how permissions work.

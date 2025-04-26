@@ -1,0 +1,7 @@
+To install the logwatch facility, type the following:
+
+# yum install logwatch
+
+What logwatch does is gather messages once each night that look like they might  represent 
+a problem, put them in an e-mail message, and send it to any e-mail address the administra-
+tor chooses.

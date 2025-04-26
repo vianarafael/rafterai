@@ -1,0 +1,4 @@
+What you 
+are trying to achieve will form your view as to which is best for you. Version 4.x is emulating Active 
+Directory (AD), while version 3.x is more like NT 4. Version 3.x supports Lightweight Directory Access 
+Protocol (LDAP) integration, while LDAP integration in version 4.x is still experimental.

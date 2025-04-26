@@ -1,0 +1,6 @@
+You must remember and protect this password; you need it to log in as 
+root or to obtain root permission while you are logged in as some other user.
+
+To become familiar with the root user account, you can simply log in as the root user. I 
+recommend trying this from a virtual console. To do so, press Ctrl+Alt+F2. When you see 
+the login prompt, type root (press Enter) and enter the password.

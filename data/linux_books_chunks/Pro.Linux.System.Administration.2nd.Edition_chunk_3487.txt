@@ -1,0 +1,6 @@
+We have mail being delivered into our mailboxes, and we have it filtering out the spam.
+
+Antivirus
+We all should know that viruses are malicious code designed to attack your hosts, steal your data, or 
+compromise other aspects of your organization. While extremely rare on Linux distributions, some viruses 
+have targeted Linux distributions.

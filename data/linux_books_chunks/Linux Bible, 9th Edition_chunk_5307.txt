@@ -1,0 +1,28 @@
+Select the Add button.
+
+e. Select an LPT or other port as the device and click Forward.
+
+f. For the driver, choose Generic and click Forward; then choose PostScript and 
+
+click Forward.
+
+g. Click Forward to skip any installable options, if needed.
+
+B
+
+813
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 814
+
+Appendix B: Exercise Answers
+
+h.

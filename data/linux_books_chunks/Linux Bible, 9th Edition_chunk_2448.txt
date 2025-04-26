@@ -1,0 +1,10 @@
+Use the du command to determine the largest directory structures under /usr/
+
+share, sort them from largest to smallest, and list the top ten of those directories 
+in terms of size.
+
+9.  Use the df command to show the space that is used and available from all the 
+ﬁ lesystems currently attached to the local system, but exclude any tmpfs or 
+devtmpfs ﬁ lesystems.
+
+10.

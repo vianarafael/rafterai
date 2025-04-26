@@ -1,0 +1,4 @@
+At the same time, the Apache user needs to not be able to write to the same directories, as that 
+could allow anonymous web users to write files to your system, if they find a vulnerability in a web site.
+
+If multiple users will be managing sites, it’s a good idea to create a group for this purpose.

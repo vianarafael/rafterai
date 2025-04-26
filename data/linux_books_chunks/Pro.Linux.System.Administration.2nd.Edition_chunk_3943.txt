@@ -1,0 +1,6 @@
+This script will live on our remote hosts. 
+This provides some security to the range of commands anybody with this SSH key can execute.
+
+When we make an SSH connection to a host, the variable $SSH_ORIGINAL_COMMAND holds the command 
+
+we want to execute on our remote host.

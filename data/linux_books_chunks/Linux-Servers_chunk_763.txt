@@ -1,0 +1,4 @@
+If the Microsoft computer complains with
+The parameter is incorrect, then you possibly forgot to add the add machine script.
+
+17.10.

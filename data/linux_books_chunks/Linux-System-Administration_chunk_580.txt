@@ -1,0 +1,11 @@
+[Targets: 0]
+/>
+/> exit
+Global pref auto_save_on_exit=true
+Last 10 configs saved in /etc/target/backup.
+Configuration saved to /etc/target/saveconfig.json
+[root@centos7 ~]#
+
+The iSCSI Target is now ready.
+
+12.9.

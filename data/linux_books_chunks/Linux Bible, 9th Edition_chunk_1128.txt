@@ -1,0 +1,5 @@
+Using the tools described in this chapter, you 
+can view and manage the processes running on your system.
+
+Managing processes includes viewing processes in different ways, running them in the 
+ foreground or background, and killing or renicing them.

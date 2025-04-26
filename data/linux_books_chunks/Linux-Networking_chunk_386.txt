@@ -1,0 +1,11 @@
+2 root root 4096 Apr  3 23:57 cgi-bin
+drwxr-xr-x. 3 root root 4096 May  6 13:08 error
+drwxr-xr-x. 2 root root 4096 Apr  3 23:57 html
+drwxr-xr-x. 3 root root 4096 May  6 13:08 icons
+[root@centos65 ~]#
+
+78
+
+apache web server
+
+8.1.3.

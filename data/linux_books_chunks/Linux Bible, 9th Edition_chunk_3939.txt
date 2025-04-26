@@ -1,0 +1,6 @@
+With mtr, the route is queried continuously, so you can watch the 
+performance of each leg of the journey over time.
+
+Check hostname resolution
+If you cannot reach remote hosts by name, but you can reach them by pinging IP addresses, 
+your system is having a problem with hostname resolution.

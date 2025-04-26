@@ -1,0 +1,9 @@
+For Ubuntu, we would issue the following:
+
+$ for h in http https ;do sudo ufw allow $h ;done
+
+Or on CentOS we would issue the following:
+
+$ for h in http https; do sudo firewall-cmd --zone public --add-service=$h ;done
+
+Once this is done, we can use Certbot to create our certificates for our mail host.

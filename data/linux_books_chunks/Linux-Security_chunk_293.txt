@@ -1,0 +1,12 @@
+Can another normal user read this
+file ? Test writing to this file with vi.
+
+echo hello > file ; chmod 744 file
+
+Yes, others can read this file
+
+13b. Can root read this file ? Can root write to this file with vi ?
+
+Yes, root can read and write to this file. Permissions do not apply to root.
+
+14.

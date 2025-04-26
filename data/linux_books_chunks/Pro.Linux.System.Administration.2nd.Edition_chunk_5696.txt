@@ -1,0 +1,5 @@
+The case statement, a concept common to many programming languages, specifies a result 
+based on the value of a variable—in this case we use the $facts['os']['name'] fact, which contains the 
+name of the operating system running on the client (e.g., CentOS or Red Hat or Debian or Ubuntu).
+
+ puppet has two other types of conditionals: selectors and if/else clauses.

@@ -1,0 +1,7 @@
+All others set which ﬁ les and directories the 
+Samba server can read and write on behalf of Samba users:
+
+ ■ samba_run_unconfined—Allows samba to run unconﬁ ned scripts.
+
+ ■ smbd_anon_write—Allows Samba to let anonymous users modify public ﬁ les 
+used for public ﬁ le transfer services.

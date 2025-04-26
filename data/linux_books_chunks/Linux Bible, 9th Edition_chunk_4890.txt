@@ -1,0 +1,2 @@
+If I allow 1GB or 2GB for each VM, this system should be able to run two 
+to four VMs along with the desktop.

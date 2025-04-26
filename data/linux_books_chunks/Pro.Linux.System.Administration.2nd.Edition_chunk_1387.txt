@@ -1,0 +1,3 @@
+We are 
+setting a static IP address, and our master will start IP connections and respond to “ping” even though the 
+slave interfaces are not up. In DHCP, the master will not get an IP until the slaves are up.

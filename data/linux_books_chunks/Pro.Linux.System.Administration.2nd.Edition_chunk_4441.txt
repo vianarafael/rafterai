@@ -1,0 +1,4 @@
+it allows 
+you to manage identities (user accounts and the like), perform policy authorization such as Kerberos policies 
+for DNS and sudo, and create mutual trusts between other identity services (such as Microsoft AD). you can 
+view more information about it at https://www.freeipa.org/page/Main_Page.

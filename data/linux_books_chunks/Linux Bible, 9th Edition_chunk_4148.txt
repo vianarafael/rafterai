@@ -1,0 +1,19 @@
+Device ﬁ les should be stored in /dev and not in /home.
+
+ ■ You can set the noexec option so no executable programs, which are stored in 
+
+/home, can be run.
+
+ ■ You can put the /tmp subdirectory, where temporary ﬁ les are located, on its own 
+
+partition and use the same options settings as for /home:
+
+ ■ nosuid
+
+ ■ nodev
+
+ ■ noexec
+
+ ■ You can put the /usr subdirectory, where user programs and data are located, on 
+its own partition and set the nodev option so no device ﬁ le located there is recog-
+nized.

@@ -1,0 +1,4 @@
+All logs files rotate weekly, logs are rotated four times before they 
+are deleted, new log files are created, rotated files have a date extension added to them, and the logrotate 
+tool checks the logrotate.d directory for any new logrotate files. You can use other options, some of which 
+are shown in Table 18-2.

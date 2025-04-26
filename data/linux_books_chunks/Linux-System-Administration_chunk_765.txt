@@ -1,0 +1,8 @@
+practice: package management ...............................................................................................  248
+20.12. solution: package management ...............................................................................................  249
+
+193
+
+Chapter 16. scheduling
+
+Linux  administrators  use  the  at  to  schedule  one  time  jobs.

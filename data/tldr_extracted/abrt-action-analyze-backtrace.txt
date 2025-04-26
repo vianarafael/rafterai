@@ -1,0 +1,14 @@
+# abrt-action-analyze-backtrace
+
+
+- Analyze backtrace for the current working directory:
+
+`abrt-action-analyze-backtrace`
+
+- Analyze backtrace for a specific directory:
+
+`abrt-action-analyze-backtrace -d {{path/to/directory}}`
+
+- Analyze backtrace verbosely:
+
+`abrt-action-analyze-backtrace -v`

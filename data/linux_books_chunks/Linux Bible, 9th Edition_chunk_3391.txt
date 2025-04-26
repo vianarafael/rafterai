@@ -1,0 +1,36 @@
+497
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c19.indd  04/01/2015  Page 499
+
+ C H A P T E R 
+
+19
+
+Confi guring a Windows File 
+Sharing (Samba) Server
+
+IN THIS CHAPTER
+
+Getting and installing Samba
+
+Using Samba security features
+
+Editing the smb.conf confi guration fi le
+
+Accessing Samba from Linux and Windows clients
+
+Using Samba in the enterprise
+
+S amba is the project that implements open source versions of protocols used to share ﬁ les and 
+
+printers, as well as authenticate users and restrict hosts, among Windows systems.

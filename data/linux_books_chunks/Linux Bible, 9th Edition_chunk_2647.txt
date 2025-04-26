@@ -1,0 +1,17 @@
+Advantages of using init systems include the ability 
+to do the following:
+
+ ■ Identify runlevels—Put together sets of services in what are referred to as runlevels or 
+
+targets
+
+ ■ Establish dependencies—Set service dependencies so, for example, a service that requires 
+network interfaces won’t start until all network startup services have started successfully
+
+ ■ Set the default runlevel—Select which runlevel or target starts up when the system boots
+
+ ■ Manage services—Run commands that tell individual services to start, stop, pause, 
+
+restart, or even reload conﬁ guration ﬁ les
+
+Several different init systems are in use with Linux systems today.

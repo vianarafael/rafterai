@@ -1,0 +1,4 @@
+In the following code snippet, you can 
+see the output from running john against the sample password.file. For demonstra-
+tion purposes, only one account was left in the sample ﬁ le. And the account, Samantha, 
+was given the bad password of password.

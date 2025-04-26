@@ -1,0 +1,10 @@
+Type 
+mount -a to make sure all the ﬁ lesystems mount.
+
+21
+
+ ■ Reinstall missing components. It might be that the ﬁ lesystems are ﬁ ne, but 
+
+the system failed to boot because some critical command or conﬁ guration ﬁ le is 
+ missing. You might be able to ﬁ x the problem by reinstalling the package with 
+the missing components.

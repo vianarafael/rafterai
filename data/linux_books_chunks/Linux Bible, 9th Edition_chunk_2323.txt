@@ -1,0 +1,6 @@
+This causes the contents of the myfile ﬁ le 
+from that system to be displayed on the local screen.
+
+Another type of remote execution you can do with ssh is X11 forwarding. If X11 forwarding is 
+enabled on the server (X11Forwarding yes is set in the /etc/sshd/sshd_config ﬁ le), you 
+can run graphical applications from the server securely over the SSH connection using ssh -X.

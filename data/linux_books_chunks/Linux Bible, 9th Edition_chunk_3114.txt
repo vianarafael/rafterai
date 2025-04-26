@@ -1,0 +1,6 @@
+Directories inherit settings from directories above them, with the most speciﬁ c 
+Directory block overriding less-speciﬁ c ones, regardless of the order in which 
+they appear in the conﬁ guration ﬁ les.
+
+ ■ Files tags are used to specify ﬁ les by name. Files tags can be contained within 
+Directory blocks to limit them to ﬁ les under that directory.

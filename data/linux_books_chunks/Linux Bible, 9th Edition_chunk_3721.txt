@@ -1,0 +1,7 @@
+Another alternative is to run fuser -v mountpoint to see what users are holding your 
+mounted NFS share open, and then fuser -k mountpoint to kill all those processes.
+
+Summary
+Network File System (NFS) is one of the oldest computer ﬁ le sharing products in existence 
+today. It is still the most popular for sharing directories of ﬁ les between UNIX and Linux 
+systems.

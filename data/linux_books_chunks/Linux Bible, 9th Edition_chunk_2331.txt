@@ -1,0 +1,16 @@
+Instead of a ﬁ le, pass a directory 
+name to the scp command and all ﬁ les and directories below that point in the ﬁ lesystem 
+are copied to the other system.
+
+$ scp johndoe@10.140.67.23:/usr/share/man/man1/ /tmp/
+johndoe@10.140.67.23's password: ***************
+volname.1.gz                              100%  543   0.5KB/s  00:00
+mtools.1.gz                               100% 6788   6.6KB/s  00:00
+roqet.1.gz                                100% 2496   2.4KB/s  00:00
+...
+
+As long as the user johndoe has access to the ﬁ les and directories on the remote system 
+and the local user can write to the target directory (both are true in this case), the  directory 
+structure from /usr/share/man/man1 down is copied to the local /tmp directory.
+
+The scp command can be used to back up ﬁ les and directories over a network.

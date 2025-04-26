@@ -1,0 +1,6 @@
+But keep in mind that because writeable space on 
+a live medium uses virtual memory (RAM), that space is limited and can easily run out. Also, when you reboot your 
+system, anything you install disappears.
+
+When Fedora is installed, it is automatically conﬁ gured to connect your system to the 
+huge Fedora software repository that is available on the Internet.

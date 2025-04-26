@@ -1,0 +1,24 @@
+In our Storage 
+file we have the following:
+
+Storage {                             # definition of myself
+  Name = example-sd
+  Maximum Concurrent Jobs = 20
+
+  # remove comment from "Plugin Directory" to load plugins from specified directory.
+  # if "Plugin Names" is defined, only the specified plugins will be loaded,
+  # otherwise all storage plugins (*-sd.so) from the "Plugin Directory".
+  #
+  # Plugin Directory = /usr/lib64/bareos/plugins
+  # Plugin Names = ""
+}
+
+#
+# List Directors who are permitted to contact Storage daemon
+#
+Director {
+  Name = example-dir
+  Password = "4ncvx7V+Mw4NOMDMyuYjCHsNg1nKgcdh8nl0szWpi6t4"
+}
+
+In the file /etc/bareos/bareos-sd.conf, we have defined the Name of our Storage daemon, example-sd.

@@ -1,0 +1,7 @@
+However, if you prefer, you can install many 
+different versions of Linux or Windows as your virtual machine.
+
+Step 1: Get images to make virtual machines
+You can create a virtual machine in many ways. In general, you start with either a pre-built 
+image (basically a copy of a working virtual machine) or just install from an installation 
+ISO image into a fresh storage area.

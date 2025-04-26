@@ -1,0 +1,19 @@
+git init
+
+Then we tell git to create an empty git repository in this directory.
+
+paul@debian6~/project42$ ls -la
+total 12
+drwxrwxr-x  2 paul paul 4096 Dec  8 16:41 .
+drwxr-xr-x 46 paul paul 4096 Dec  8 16:41 ..
+-rw-rw-r--  1 paul paul   23 Dec  8 16:41 question.sh
+paul@debian6~/project42$ git init
+Initialized empty Git repository in /home/paul/project42/.git/
+paul@debian6~/project42$ ls -la
+total 16
+drwxrwxr-x  3 paul paul 4096 Dec  8 16:44 .
+drwxr-xr-x 46 paul paul 4096 Dec  8 16:41 ..
+drwxrwxr-x  7 paul paul 4096 Dec  8 16:44 .git
+-rw-rw-r--  1 paul paul   23 Dec  8 16:41 question.sh
+
+20.3.2.

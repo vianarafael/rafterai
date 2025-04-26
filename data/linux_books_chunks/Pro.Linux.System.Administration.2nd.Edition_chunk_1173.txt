@@ -1,0 +1,6 @@
+a terM or SiGterM signal tells a process 
+
+ ■ Note 
+to finish up what it is doing and exit. You can also send harsher signals like SiGKiLL which will exit the 
+process immediately, possibly in the middle of something important. SiGhup can sometimes be used to reload 
+configurations of running processes.

@@ -1,0 +1,37 @@
+The following 
+configuration will enable this: 
+
+The smb.conf options
+
+[global]
+
+printcap name = cups
+
+load printers = yes
+
+printing = cups
+
+# printing without filters
+
+[printers]
+
+comment = All Printers defined using CUPS
+
+path = /var/spool/samba
+
+browseable = no
+
+guest ok = yes             # allow 'guest account to print'
+
+writable = no
+
+printable = yes
+
+create mode = 0700
+# printer drivers must be on the client side
+print command  = lpr-cups -P %p -o raw %s -r 
+
+Implementing WINS with Samba?
+
+On a NetBIOS network machine names are resolved using “Windows information network 
+services” or WINS.

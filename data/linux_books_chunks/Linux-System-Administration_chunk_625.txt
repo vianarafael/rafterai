@@ -1,0 +1,8 @@
+boot terminology
+
+The  exact  order  of  things  that  happen  when  starting  a  computer  system,  depends  on  the
+hardware architecture (Intel x86 is different from Sun Sparc etc), on the boot loader (grub
+is different from lilo) and on the operating system (Linux, Solaris, BSD etc). Most of this
+chapter is focused on booting Linux on Intel x86 with grub.
+
+14.1.1.

@@ -1,0 +1,16 @@
+In the example
+below, a file of size 5000 bytes is split into three smaller files, with maximum 2000 bytes
+each.
+
+paul@laika:~/test$ ls -l
+total 8
+-rw-r--r-- 1 paul paul 5000 2007-09-09 20:46 bigfile1
+paul@laika:~/test$ split -b 2000 bigfile1 splitfile.
+paul@laika:~/test$ ls -l
+total 20
+-rw-r--r-- 1 paul paul 5000 2007-09-09 20:46 bigfile1
+-rw-r--r-- 1 paul paul 2000 2007-09-09 20:47 splitfile.aa
+-rw-r--r-- 1 paul paul 2000 2007-09-09 20:47 splitfile.ab
+-rw-r--r-- 1 paul paul 1000 2007-09-09 20:47 splitfile.ac
+
+30.9.

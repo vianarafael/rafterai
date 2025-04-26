@@ -1,0 +1,5 @@
+Some alternatives might be in your Linux 
+ distribution. You can try them out if you fi nd vi to be too taxing. Here are some of the options:
+
+ ■ nano—This popular, streamlined text editor is used with many bootable Linux systems and 
+other limited-space Linux environments.

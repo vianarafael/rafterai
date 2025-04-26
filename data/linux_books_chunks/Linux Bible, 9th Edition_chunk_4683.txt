@@ -1,0 +1,7 @@
+The left column contains 
+the name of each service. The middle column deﬁ nes the port number and protocol type 
+used for that service. The right column contains an optional alias or list of aliases for 
+the service.
+
+Many Linux distributions come with unneeded network services running. An unneces-
+sary service exposes your Linux system to malicious attacks.

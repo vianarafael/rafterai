@@ -1,0 +1,5 @@
+This statement takes a set of parameters that defines a set of 
+operations a user on a given host is allowed to perform on a specific object.
+
+In practice, you usually just create a user who is allowed to perform all operations on a single database.
+This means that each application that uses its own database gets its own MariaDB login.

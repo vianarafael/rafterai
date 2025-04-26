@@ -1,0 +1,6 @@
+The best way to secure your Linux system is to 
+keep it off all networks. However, that is rarely a feasible option.
+
+Entire books have been ﬁ lled with information on how to secure a computer system on a network. 
+Many organizations hire full-time computer security administrators to watch over their network-
+attached Linux systems.

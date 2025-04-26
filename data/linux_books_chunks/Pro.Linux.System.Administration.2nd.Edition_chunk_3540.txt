@@ -1,0 +1,7 @@
+Domain Keys Identified Mail (DKIM) is a way that mail coming from your servers can be 
+identified by validating a header against your publicly available key.
+
+SPF
+
+SPF uses text records added to your DNS for your domain. Your SPF record tells the e-mail servers receiving 
+your e-mail if they should accept or reject it based on the server sending it.

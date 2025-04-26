@@ -1,0 +1,10 @@
+Put them in the background and you 
+can have several remote X applications running on your local desktop at once. For example:
+
+$ ssh -X johndoe@10.140.67.23
+johndoe@10.140.67.23's password: **********
+$ system-config-network &
+$ gedit &
+$ exit
+
+After you have ﬁ nished using the graphical applications, close them as you would normally.

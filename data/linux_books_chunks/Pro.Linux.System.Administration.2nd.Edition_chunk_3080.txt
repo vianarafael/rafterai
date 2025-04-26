@@ -1,0 +1,9 @@
+if other organizations are using your Ca or the numbers of certificates issued is large, then 
+the effort to re-create Cas can be annoying and disruptive.
+
+Of course, the passwords associated with the Ca would be stored securely in a password manager, and 
+a copy of the Ca’s private key could be stored on an encrypted thumb drive and stored in a secure vault.
+
+Signing Your Certificate with Your Certificate Authority
+
+Now that you’ve created your CA, you can use it to sign your certificate request.

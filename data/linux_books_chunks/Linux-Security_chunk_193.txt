@@ -1,0 +1,5 @@
+Besides
+vi (or vipw) you can also accomplish this with usermod.
+
+The first command in the next screenshot will show the hashed password of laura in /etc/
+shadow.

@@ -1,0 +1,4 @@
+With that accepted, the public key 
+ belonging to chris is copied to the authorized_keys ﬁ le in johndoe’s .ssh directory 
+on the remote system. Now, the next time chris tries to connect to johndoe’s account, 
+the SSH connection is authenticated using those keys.

@@ -1,0 +1,3 @@
+We will explain them in greater detail shortly.
+
+The manifests directory needs to contain a file called site.pp that is the root of our configuration.

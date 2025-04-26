@@ -1,0 +1,5 @@
+3 root root  4096 Apr 18 05:52 devel
+drwxr-xr-x. 2 root root  4096 Apr 18 05:52 packages
+drwxr-xr-x. 2 root root 12288 Apr 18 05:52 targeted
+
+5.

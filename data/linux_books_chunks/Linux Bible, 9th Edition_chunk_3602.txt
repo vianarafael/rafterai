@@ -1,0 +1,7 @@
+Security options that you can add to 
+your /etc/exports ﬁ le are described throughout the sections that follow.
+
+Hostnames in /etc/exports
+You can indicate in the /etc/exports ﬁ le which host computers can have access to 
+your shared directory. If you want to associate multiple hostnames or IP addresses with a 
+ particular shared directory, be sure to have a space before each hostname.

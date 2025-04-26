@@ -1,0 +1,173 @@
+(directory), 69
+.bash_login, 31
+.bash_logout, 32
+.bash_profile, 30
+.bashrc, 30, 31
+777, 52
+
+A
+access control list, 64
+acl, 66
+acls, 64
+auditd, 100
+
+C
+chage, 24
+chain (iptables), 86
+chcon(1), 106, 107
+chgrp(1), 47
+chkconfig, 100
+chmod, 15, 52, 103
+chmod(1), 51
+chmod +x, 53
+chown, 15
+chown(1), 47
+chsh(1), 16
+context type(selinux), 105
+crypt, 22
+
+D
+df -i, 68
+dhclient, 81
+directory, 69
+DNAT, 78
+
+E
+eiciel, 66
+
+F
+file ownership, 46
+filter table (iptables), 86
+find(1), 58, 59, 70
+firewall, 77
+
+G
+gcc(1), 23
+getenforce, 101
+getfacl, 64
+getfattr(1), 107
+GID, 37
+gpasswd, 39
+groupadd(1), 37
+groupdel(1), 38
+groupmod(1), 38
+groups, 36
+groups(1), 37
+
+H
+hard link, 70
+
+I
+id, 5
+id(1), 106
+identity(selinux), 104
+inode, 67, 70
+inode table, 68
+iptables, 85, 86
+iptables save, 90
+
+K
+Korn Shell, 16
+
+L
+ln, 71
+ln(1), 70
+ls, 49, 68, 103
+ls(1), 68, 69, 107
+ls -l, 48
+
+M
+mac address, 80
+mangle table (iptables), 86
+masquerading, 78
+md5, 23
+
+122
+
+mkdir, 15
+mkdir(1), 53
+mkfs, 68
+
+N
+NAPT, 78
+NAT, 78
+nat table (iptables), 86
+
+O
+octal permissions, 52
+openssl, 22
+owner, 49
+
+P
+packet filtering, 77, 87
+packet forwarding, 77
+passwd, 21, 21, 22, 24
+passwd(1), 59
+PAT, 78
+ping, 80, 81
+port forwarding, 78
+primary group, 14
+ps(1), 107
+
+R
+rm(1), 71
+role(selinux), 104
+root, 6, 7, 8, 13
+router, 77
+
+S
+salt (encryption), 23
+SELinux, 99
+selinux, 102
+selinux-activate, 100
+sestatus, 102
+setenforce, 101
+setfacl, 64
+setgid, 58, 58
+setuid, 59, 59, 59
+shell, 29
+SNAT, 78
+soft link, 71
+stateful firewall, 77
+sticky bit, 58
+su, 6, 6, 25, 39
+sudo, 7, 8, 25
+sudo su -, 8
+superuser, 13
+symbolic link, 71
+sysctl, 79
+
+T
+tcpdump, 81
+transition(selinux), 106
+type(selinux), 105
+
+Index
+
+U
+umask(1), 53
+useradd, 14, 15, 22
+useradd(1), 15
+useradd -D, 14
+userdel(1), 14
+usermod, 25, 25, 38
+usermod(1), 14
+
+V
+vi, 40
+vigr(1), 40
+vipw, 25
+virtualbox, 80
+visudo, 7
+vmware, 80
+
+W
+w, 5
+who, 5
+whoami, 5
+who am i, 5
+wireshark, 81
+
+123
+
+.

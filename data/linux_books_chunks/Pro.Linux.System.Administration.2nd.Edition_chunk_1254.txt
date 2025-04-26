@@ -1,0 +1,7 @@
+You may have a web server and mail server, and you will probably have a file/print server (sometimes all 
+these servers are actually one host). Undoubtedly, you will have a connection to the Internet, and you will 
+probably want to share that connection with others in your organization.
+
+The nature of your business and the work you do will heavily dictate how you choose to set up your 
+
+network.

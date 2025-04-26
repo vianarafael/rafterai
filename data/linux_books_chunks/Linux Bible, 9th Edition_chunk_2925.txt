@@ -1,0 +1,4 @@
+Under Maintenance, click Pause Printer (to stop the printer from printing but still 
+accept print jobs for the queue), Reject Jobs (to not accept any further print jobs 
+for the moment), Move All Jobs (to move them to another printer), Cancel All Jobs 
+(to delete all print jobs), or Print Test Page (to print a page).

@@ -1,0 +1,6 @@
+Type the new folder name over the highlighted Untitled Folder, and 
+press Enter to name the folder.
+
+ ■ Accessing remote content—Nautilus can display content from remote  servers 
+as well as the local ﬁ lesystem. In Nautilus, select Connect to Server from the 
+ﬁ le menu.

@@ -1,0 +1,19 @@
+The source statement is where we will be 
+downloading the gem from, which is the public rubygems.org server where people publish their Ruby gems.
+
+Now we can use the bundle command to install the gem locally.
+
+$ bundle install --path vendor/cache
+Fetching gem metadata from https://rubygems.org/.......
+Fetching version metadata from https://rubygems.org/.
+Resolving dependencies...
+Installing diff-lcs 1.2.5
+Installing multi_json 1.12.1
+Installing net-ssh 3.2.0
+...
+
+975
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+This will install the serverspec gem and any serverspec gem requirements.

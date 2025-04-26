@@ -1,0 +1,9 @@
+The first numbers of each 
+line, for example, 19:26:35.250934, are timestamps.
+
+ARP, Request who-has 192.168.0.1 tell 192.168.0.254
+
+The first field (taking away the timestamp) is the protocol in the TCP/IP model. This is an ARP request, 
+
+and ARP operates at the layer 2 (or data link layer) of the TCP/IP protocol stack. ARP is used to match up 
+MAC addresses to IP addresses.

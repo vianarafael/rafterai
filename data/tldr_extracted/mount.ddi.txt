@@ -1,0 +1,6 @@
+# mount.ddi
+
+
+- Mount an OS image:
+
+`mount.ddi {{path/to/image.raw}} {{/mnt/image}}`

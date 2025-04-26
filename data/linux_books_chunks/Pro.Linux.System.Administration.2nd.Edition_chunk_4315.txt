@@ -1,0 +1,6 @@
+For example, it won’t be effective to allow multiple mobile users to connect to your head office.
+
+Instead, we’re going to use certificates to secure the VPNs between our head office and branch offices. 
+
+To use certificates, we need to create and sign them with a certificate authority (CA). The alternative to 
+this is to use Let’s Encrypt or commercial certificates.

@@ -1,0 +1,7 @@
+In the 
+past few years, however, a new standard called Global Unique Identiﬁ ers (GUID) partition 
+tables began being used on systems as part of the UEFI computer architecture to replace 
+the older BIOS method of booting the system.
+
+Some Linux partitioning tools have been updated to handle GUID partition tables. Other 
+tools for handling GUID partition tables have been added.

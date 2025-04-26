@@ -1,0 +1,51 @@
+Pro Linux System 
+Administration
+
+Learn to Build Systems for Your Business 
+Using Free and Open Source Software
+—
+Second Edition
+—
+Dennis Matotek
+James Turnbull
+Peter Lieverdink
+
+Pro Linux System 
+Administration
+
+Learn to Build Systems for Your Business 
+Using Free and Open Source Software
+
+Second Edition
+
+Dennis Matotek
+
+James Turnbull
+
+Peter Lieverdink
+
+Pro Linux System Administration: Learn to Build Systems for Your Business Using Free and Open Source 
+Software
+
+Dennis Matotek 
+Footscray, Victoria,  
+Australia  
+
+James Turnbull 
+Brooklyn, New York,  
+United States 
+
+Peter Lieverdink
+North Melbourne, Victoria, 
+Australia
+
+ISBN-13 (pbk): 978-1-4842-2007-8 
+DOI 10.1007/978-1-4842-2008-5 
+
+Library of Congress Control Number: 2017935471
+
+ISBN-13 (electronic): 978-1-4842-2008-5
+
+Copyright © 2017 by Dennis Matotek, James Turnbull and Peter Lieverdink
+
+This work is subject to copyright.

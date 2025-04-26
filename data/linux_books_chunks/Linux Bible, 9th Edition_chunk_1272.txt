@@ -1,0 +1,7 @@
+Here’s what the root entry looks like in the /etc/passwd ﬁ le:
+
+root:x:0:0:root:/root:/bin/bash
+
+This shows that for the user named root, the user ID is set to 0 (root user), the group 
+ID is set to 0 (root group), the home directory is /root, and the shell for that user is 
+/bin/bash.

@@ -1,0 +1,7 @@
+For this reason, it is a good idea to 
+add a number as a suffix to the configuration file like 00-www.example.com.conf, which will determine the 
+order the virtual hosts are loaded.
+
+Before we open this up to the wide world, we should ensure that our firewall allows Hypertext Transfer 
+
+Protocol (HTTP) traffic to our host.

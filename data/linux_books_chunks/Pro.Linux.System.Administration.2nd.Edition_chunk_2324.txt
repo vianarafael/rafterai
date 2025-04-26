@@ -1,0 +1,5 @@
+Provided you have enough hard 
+
+disks, you can grow the size of a RAID 5 array as well. This causes data to be shifted and checksums to be 
+recalculated, so it will take some time to complete. You’ll add a sixth disk, /dev/sdg, to your host, so you can 
+grow the array and still have a spare device available.

@@ -1,0 +1,23 @@
+For this we use the force user and force group options.
+Now  we  can  be  sure  that  all  files  in  the  Samba  writable  share  are  owned  by  the  same
+sambanobody user.
+
+Below is the renewed definition of our share in smb.conf.
+
+[pubwrite]
+ path = /srv/samba/writable
+ comment = files to write
+ force user = sambanobody
+ force group = sambanobody
+ read only = no
+ guest ok = yes
+
+When you reconnect to the share and write a file, then this sambanobody user will own the
+newly created file (and nobody needs to know the password).
+
+227
+
+ 
+samba first user account
+
+19.7.

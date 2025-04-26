@@ -1,0 +1,9 @@
+Add information about the share to the /etc/fstab ﬁ le. 
+
+For our example, to allow the directory from the 192.168.0.1 system to be mounted 
+on the same directory locally each time the system boots, the entry in the /etc/
+fstab ﬁ le could look like this:
+
+storage.example.com:/storage /var/lib/libvirt/images nfs defaults 0 0
+
+c.  Test the NFS mount.

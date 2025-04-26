@@ -1,0 +1,4 @@
+We use the countrycode as a primary
+key (all country codes are uniquely defined). Most country codes are two or three letters, so
+a char of three uses less space than a varchar of three. The country name and the name of
+the capital are both defined as varchar.

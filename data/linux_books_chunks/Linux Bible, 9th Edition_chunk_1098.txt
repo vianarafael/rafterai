@@ -1,0 +1,6 @@
+For most x86 and power PC 
+architectures, use the middle value. The ﬁ rst value usually works for Alpha and Sparc, while 
+the last one is for MIPS architecture.
+
+Using kill to signal processes by PID
+Using commands such as ps and top, you can ﬁ nd processes you want to send a signal to.

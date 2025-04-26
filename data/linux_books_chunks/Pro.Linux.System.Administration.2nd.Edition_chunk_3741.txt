@@ -1,0 +1,5 @@
+To remove these credentials, we can issue the following:
+
+$ sudo cifscreds clear –u sharedcreds
+
+Take a look at the man page for cifscreds for other options.

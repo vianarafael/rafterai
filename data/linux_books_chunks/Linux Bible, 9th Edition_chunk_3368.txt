@@ -1,0 +1,34 @@
+It assumes that the 
+FTP server (and associated security measures) has been conﬁ gured to allow local users to 
+connect and to read and write ﬁ les:
+
+# lftp -u chris localhost
+Password:
+********
+lftp chris@localhost:~> pwd
+ftp://chris@localhost/%2Fhome/chris
+lftp chris@localhost:~> cd stuff/state/
+lftp chris@localhost:~/stuff/state> ls
+-rw-r--r--    1 13597    13597        1394 Oct 23  2014 enrolled-
+   20141012
+-rw-r--r--    1 13597    13597         514 Oct 23  2014 enrolled-
+   20141013
+lftp chris@localhost:~/stuff/state> !pwd
+/root
+lftp chris@localhost:~/stuff/state> get survey-20141023.txt
+3108 bytes transferred                          
+lftp chris@localhost:~/stuff/state> put /etc/hosts
+201 bytes transferred
+lftp chris@localhost:~/stuff/state> ls
+-rw-r--r--    1 13597    13597        1394 Oct 23  2014 enrolled-
+   20141012
+-rw-r--r--    1 13597    13597         514 Oct 23  2014 enrolled-
+   20141013
+-rw-r--r--    1 0        0             201 May 03 20:22 hosts
+lftp chris@localhost:~/stuff/state> !ls
+anaconda-ks.cfg          bin           install.log
+dog                      Pictures      sent
+Downloads                Public        survey-20141023.txt
+lftp chris@localhost:~/stuff/state> quit
+
+After providing the username (-u chris), lftp prompts for chris’s Linux user password.

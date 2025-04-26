@@ -1,0 +1,23 @@
+(services)
+lftp chris@localhost:~> quit
+
+834
+
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 835
+
+Appendix B: Exercise Answers
+
+To view information about the denial, and change the Boolean to allow FTP access, 
+do the following:
+
+# ausearch -m avc
+type=AVC msg=audit(1411217594.188:70555): avc: denied { create } for
+    pid=25470 comm="vsftpd" name="services" 
+    scontext=system_u:system_r:ftpd_t:s0-s0:c0.c1023 
+    tcontext=system_u:object_r:user_home_t:s0 tclass=file
+# journalctl | grep "SELinux is preventing"
+Sep 20 08:53:18 fedora20 setroubleshoot: SELinux is preventing /usr/
+    sbin/vsftpd from create access on the file services.

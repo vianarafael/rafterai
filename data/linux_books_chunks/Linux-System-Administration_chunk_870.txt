@@ -1,0 +1,13 @@
+This should
+be similar on Red Hat, Fedora, CentOS and all derived distributions.
+
+227
+
+package management
+
+20.1. package terminology
+
+20.1.1. repository
+
+A lot of software and documentation for your Linux distribution is available as packages
+in one or more centrally distributed repositories.

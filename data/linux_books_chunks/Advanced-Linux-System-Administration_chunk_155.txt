@@ -1,0 +1,13 @@
+Used for external devices CDROMs ...
+
+ Executables cannot be started from the device
+
+ Ignore SUID bit throughout the filesystem
+
+ Special device files such as block or character devices are ignored
+
+ Do not update atimes (performance gain)
+
+ The device can be mounted only by it's owner
+
+ Implies noexec, nosuid and nodev.

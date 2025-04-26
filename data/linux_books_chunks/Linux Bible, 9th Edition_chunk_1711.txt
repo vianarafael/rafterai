@@ -1,0 +1,8 @@
+You can 
+upgrade packages, get new packages, or view installed packages.
+
+ ■ apt*—There is a set of apt commands (apt-get, apt-config, apt-cache, and so 
+
+on) that you can use to manage package installation.
+
+The Ubuntu Software Center is fairly intuitive for ﬁ nding and installing packages.

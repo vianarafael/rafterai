@@ -1,0 +1,2 @@
+Note also the NM_CONTROLLED paramater to disable control
+of this nic by Network Manager.

@@ -1,0 +1,17 @@
+(This may be called bash.
+
+bashrc on some Linux distributions.)
+
+ ■ crontab—Sets times for running automated tasks and variables associated with 
+
+the cron facility (such as the SHELL and PATH associated with cron).
+
+ ■ csh.cshrc (or cshrc)—Sets system-wide defaults for csh (C shell) users.
+
+ ■ exports—Contains a list of local directories that are available to be shared by 
+
+remote computers using the Network File System (NFS).
+
+ ■ fstab—Identiﬁ es the devices for common storage media (hard disk, ﬂ oppy, 
+
+CD-ROM, and so on) and locations where they are mounted in the Linux system.

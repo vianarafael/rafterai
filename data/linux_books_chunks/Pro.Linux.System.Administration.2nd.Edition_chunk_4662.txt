@@ -1,0 +1,20 @@
+The object class organizationalUnit requires that we declare the ou attribute 
+as we have here, ou: people.
+
+Now we are going to add a user, jsmith.
+
+dn: uid=jsmith,ou=people,dc=example,dc=com
+objectclass: top
+objectclass: person
+objectclass: posixAccount
+objectclass: exampleClient
+cn: Jane Smith
+sn: Smith
+uid: jsmith
+uidNumber: 1000
+gidNumber: 1000
+exampleActive: TRUE
+homeDirectory: /home/jsmith
+userPassword: {SSHA}IZ6u7bmw12t345s3GajRt4D4YHkDScH8
+
+So, let’s look at the DN first.

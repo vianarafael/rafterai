@@ -1,0 +1,6 @@
+For example, if the cur-
+rent working directory was /var/spool/mail, this value simply appears as mail.
+
+This precedes a sequence of nonprinting characters. This can be used to add a 
+terminal control sequence into the prompt for such things as changing colors, add-
+ing blink effects, or making characters bold.

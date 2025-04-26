@@ -1,0 +1,19 @@
+The interface is limited to modifying the follow-
+ing kinds of information: Edit or Activate a connection (network interface cards) and Set 
+system hostname (hostname and DNS conﬁ guration).
+
+Editing a connection
+From the NetworkManager TUI screen displayed, here is how to edit an existing 
+connection.
+
+360
+
+c14.indd  04/01/2015  Page 361
+
+Chapter 14: Administering Networking
+
+FIGURE 14.5
+
+Confi guring networking with NetworkManager TUI.
+
+1.

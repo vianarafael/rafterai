@@ -1,0 +1,11 @@
+Because I am on the local 
+system in this example, I just use the name localhost and the user I added (chris):
+
+# smbclient -U chris //localhost/salesdata
+Enter chris's password: ********
+Domain=[DATAGROUP] OS=[Unix] Server=[Samba 4.1.15]
+smb: \> lcd /etc
+smb: \> put hosts
+putting file hosts as \hosts (43.5 kb/s) (average 43.5 kb/s)
+smb: \> ls
+  .

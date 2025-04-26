@@ -1,0 +1,5 @@
+We’re not going to cover every detail of the boot loader, because you’ll rarely need to change it, and most 
+changes to it occur automatically, for example, when you install a new kernel package. But you should 
+understand what it does and where it fits into your host’s boot process.
+
+Some history; in the Linux world, there were two main boot loaders that existed: LILO and GRUB.

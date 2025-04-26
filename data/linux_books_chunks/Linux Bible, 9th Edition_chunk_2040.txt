@@ -1,0 +1,5 @@
+This action is done using the mount command, along with options to tell the 
+command where the storage device is and what directory in the fi lesystem to connect it to.
+
+The business of connecting disk partitions to the Linux ﬁ lesystem is done automatically 
+and invisibly to the end user.

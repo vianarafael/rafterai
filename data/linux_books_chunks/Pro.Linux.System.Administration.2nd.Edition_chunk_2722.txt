@@ -1,0 +1,6 @@
+We’ve included a snippet in  
+
+Listing 10-32. On CentOS this log file would be /var/log/messages, and on Ubuntu it would be /var/log/
+syslog. We’ll show you how you can redirect specific log messages to different files in Chapter 18.
+
+Listing 10-32.

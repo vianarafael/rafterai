@@ -1,0 +1,3 @@
+If you are installing on a host that has an existing operating 
+system or important data, you can lose all existing data and the operating system may become unusable. 
+please proceed with appropriate caution and a necessary backup regime if needed.

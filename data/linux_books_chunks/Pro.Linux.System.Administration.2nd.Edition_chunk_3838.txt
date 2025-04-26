@@ -1,0 +1,3 @@
+However, it does have certain 
+limitations when it comes to tracking and versioning documents. Without excessive overhead in writing and 
+checking permissions, you can’t get great fine-grained control of who is accessing your documents.

@@ -1,0 +1,4 @@
+In 
+between, there are tildes (~) as ﬁ ller because there is no text in the ﬁ le yet. Now, here’s 
+the intimidating part: There are no hints, menus, or icons to tell you what to do. To make 
+it worse, you can’t just start typing. If you do, the computer is likely to beep at you.

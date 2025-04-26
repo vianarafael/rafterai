@@ -1,0 +1,15 @@
+For example, if the attribute 
+check_period is defined in the templates generic-host and linux-server and in the host object definition 
+for localhost, its value in the localhost object is the value used.
+
+885
+
+Chapter 18 ■ Logging and Monitoring
+
+The next five attributes in Listing 18-17, check_period, check_interval, retry_interval, max_check_
+
+attempts, and check_command, are all related.
+
+Time Periods
+
+The first attribute, check_period, tells Nagios when to check the host.

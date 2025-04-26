@@ -1,0 +1,9 @@
+From the Installation Destination screen, select the device to use for the instal-
+lation (probably sda if you have a single hard disk that you can completely 
+erase or vda for a virtual install).
+
+d. Select the “I will conﬁ gure partitioning” button.
+
+e. Select Done to get to the Manual Partitioning screen.
+
+f.

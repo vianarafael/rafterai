@@ -1,0 +1,6 @@
+You should read their man pages for more information.
+
+Copying Files
+In addition to viewing files, one of the most common actions you’ll need to take while administering your 
+host is to copy a file. The first thing to understand about copying files is that, like reading files, you need 
+to have appropriate permissions in order to copy.

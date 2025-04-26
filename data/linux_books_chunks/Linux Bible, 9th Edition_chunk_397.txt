@@ -1,0 +1,6 @@
+With GNOME 3, a Linux desktop now appears more 
+like the graphical interfaces on mobile devices, with less focus on multiple mouse buttons 
+and key combinations and more on mouse movement and one-click operations.
+
+Instead of feeling structured and rigid, the GNOME 3 desktop seems to expand as you 
+need it to. As a new application is run, its icon is added to the Dash.

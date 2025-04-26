@@ -1,0 +1,14 @@
+If you have less than or N uppercase letters, each letter counts +1 
+toward meeting the current minlen value.
+
+ ■ If (N < 0): The minimum number of uppercase letters that must be met for a new 
+
+password.
+
+ ■ lcredit=N
+
+ ■ Default = 1
+
+ ■ If (N >= 0): The maximum credit for having lowercase letters in the new 
+
+ password.

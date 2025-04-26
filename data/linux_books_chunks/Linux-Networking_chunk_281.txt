@@ -1,0 +1,10 @@
+Using public
+and private keys they can communicate with encryption and with authentication.
+
+When Alice wants to send an encrypted message to Bob, she uses the public key of Bob.
+Bob shares his public key with Alice, but keeps his private key private! Since Bob is the
+only one to have Bob's private key, Alice is sure that Bob is the only one that can read the
+encrypted message.
+
+When Bob wants to verify that the message came from Alice, Bob uses the public key of
+Alice to verify that Alice signed the message with her private key.

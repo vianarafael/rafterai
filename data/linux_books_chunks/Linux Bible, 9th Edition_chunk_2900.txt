@@ -1,0 +1,8 @@
+With the cupsd service running, type 
+localhost:631 from a web browser on the computer running the CUPS service to 
+manage printing. (See the section “Using web-based CUPS administration” later in 
+this chapter.)
+
+ ■ Configuring CUPS manually—You also can conﬁ gure CUPS manually (that is, 
+edit the conﬁ guration ﬁ les and start the cupsd daemon from the command 
+line).

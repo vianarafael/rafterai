@@ -1,0 +1,21 @@
+The client sends a command 
+
+called DATA to the server.
+
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Message-ID:
+Date: Mon, 17 Aug 2016 12:29:26 +1100
+From: Anne Taylor ataylor@example.com
+To: John Smith jsmith@example.com
+Subject: Email is cool
+This is an email message.
+.
+250 2.0.0 Ok: queued as DF44644A9
+
+The server responds with a request for the content of the e-mail and then a marker of a single period or 
+
+full stop on a line by itself that indicates the end of the e-mail.
+
+You can see we’ve passed some fairly default headers like the date, the To and From headers, the 
+subject, and the content of the e-mail.

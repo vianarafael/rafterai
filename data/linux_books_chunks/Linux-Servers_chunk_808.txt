@@ -1,0 +1,11 @@
+ls -Z
+
+To  see  the  DAC  permissions  on  a  file,  use  ls  -l  to  display  user  and  group  owner  and
+permissions.
+
+For MAC permissions there is new -Z option added to ls. The output shows that file in /root
+have a XXXtype of admin_home_t.
+
+[root@centos65 ~]# ls -Z
+-rw-------. root root system_u:object_r:admin_home_t:s0 anaconda-ks.cfg
+-rw-r--r--.

@@ -1,0 +1,6 @@
+However, Puppet has some suggestions on how to write the documentation for any modules 
+you create and want to publish to the broader community via sites like Puppet Forge. You can read about 
+manifest documentation at https://docs.puppet.com/puppet/latest/modules_documentation.html.
+
+Troubleshooting Puppet
+Puppet has a big and helpful community as well as extensive documentation.

@@ -1,0 +1,8 @@
+It then helps you create your own 
+meta-data and user-data ﬁ les and apply them to your cloud instance so the information can 
+be used when the cloud image boots.
+
+27
+
+Creating Linux Images for Clouds
+Think about what you did when you installed a Linux system in Chapter 9.

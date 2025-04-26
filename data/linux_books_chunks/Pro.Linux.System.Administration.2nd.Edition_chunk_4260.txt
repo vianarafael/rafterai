@@ -1,0 +1,6 @@
+Some people 
+prefer a GUI, however, so Bareos created a nice, clean web interface called Web-UI for managing the Bareos 
+Director.
+
+We set up a PHP web service in Chapter 11 and now would be a good time to review that if you have 
+forgotten. The Web-UI can be installed on any web host; it does not require a Bareos Director to be installed.

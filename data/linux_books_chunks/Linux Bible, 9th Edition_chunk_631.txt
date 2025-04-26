@@ -1,0 +1,8 @@
+There are also ways 
+of deﬁ ning a function that consists of a stored series of commands. Here is the order in 
+which the shell checks for the commands you type:
+
+1.  Aliases. Names set by the alias command that represent a particular command 
+
+and a set of options. Type alias to see what aliases are set. Often, aliases enable 
+you to deﬁ ne a short name for a long, complicated command.

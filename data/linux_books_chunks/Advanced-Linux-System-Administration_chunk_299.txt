@@ -1,0 +1,20 @@
+Also included, is manipulating filesystems to adjust for disk space 
+requirements or device additions.
+
+Key files, terms, and utilities include:
+/etc/fstab 
+/etc/mtab 
+/proc/mounts 
+mount and umount 
+sync 
+swapon
+swapoff 
+
+• 2.203.2 Maintaining a Linux filesystem
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 4 
+
+Description: Candidates should be able to properly maintain a Linux filesystem using 
+system utilities.

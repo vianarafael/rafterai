@@ -1,0 +1,6 @@
+These numbers form an index that indicates 
+the average ratio of work scheduled to be done by a CPU versus the work actually being done, over the past 
+1-minute, 5-minute, and 15-minute periods.
+
+A load of 1.00 means the amount of work being scheduled is identical to the amount of work a CPU can 
+handle.

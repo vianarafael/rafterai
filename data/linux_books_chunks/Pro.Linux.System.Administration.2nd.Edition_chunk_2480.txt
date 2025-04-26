@@ -1,0 +1,8 @@
+Let’s see how it does 
+this, starting with the root servers.
+
+ ■ Note  Before Dns existed, a single hosts.txt file was used. this file was maintained by the network 
+Information Center (nIC) and distributed to all arpanet-connected machines via ftp (file transfer protocol).
+
+Root Servers
+Somehow, a DNS server needs to know which host or hosts to query for the correct address.

@@ -1,0 +1,8 @@
+Another even more modern init 
+daemon is systemd.
+
+Understanding systemd initialization
+The systemd initialization daemon is the newer replacement for the SysVinit and the 
+Upstart init daemons. This modern initialization daemon currently runs on Fedora 15 
+and above and RHEL 7 and above, and is backward compatible with both SysVinit and 
+Upstart.

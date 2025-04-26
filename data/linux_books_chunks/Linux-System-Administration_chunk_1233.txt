@@ -1,0 +1,10 @@
+You can use
+time make bzImage to know how long it takes to compile, so next time you can go for a
+short walk.
+
+[root@RHEL52 linux-2.6.18.i686]# time make bzImage
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/docproc
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/kxgettext.o
+...

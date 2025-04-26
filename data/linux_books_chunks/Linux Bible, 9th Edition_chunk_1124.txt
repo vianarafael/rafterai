@@ -1,0 +1,7 @@
+Or 
+you can use the cgreate command to create cgroups, which results in those groups being 
+added to the /sys/fs/cgroup hierarchy. Setting up cgroups can be tricky and, if done 
+improperly, can make your system unbootable.
+
+The reason I introduce cgroups here is to help you understand some of the underlying 
+ features in Linux that you can use to limit and monitor resource usage.

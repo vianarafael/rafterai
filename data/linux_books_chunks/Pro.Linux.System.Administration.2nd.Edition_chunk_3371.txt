@@ -1,0 +1,3 @@
+We then add the permit_sasl_authenticated option that tells Postfix to accept mail 
+from SASL-authenticated users. Lastly, for Postfix to receive e-mail and have a valid configuration, we must 
+finish with a reject restriction, in this case the reject_unauth_destination option.

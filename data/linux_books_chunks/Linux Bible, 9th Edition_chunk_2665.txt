@@ -1,0 +1,25 @@
+Running ps -e can immediately tell you if yours is a 
+Systemd system:
+
+# ps -e | head
+  PID TTY          TIME CMD
+    1 ?        00:04:36 systemd
+    2 ?        00:00:03 kthreadd
+    3 ?        00:00:15 ksoftirqd/0
+
+If your initialization process is init, look through the following to help determine your 
+Linux server’s initialization system:
+
+15
+
+ ■ Do your Linux distribution and version appear in the preceding list of Upstart 
+adopters? If they do, your Linux init daemon is the Upstart init daemon.
+
+379
+
+c15.indd  04/01/2015  Page 380
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Try searching your Linux distribution’s init daemon for clues, using the strings 
+and the grep commands.

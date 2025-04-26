@@ -1,0 +1,6 @@
+We also demonstrated how that ownership, in 
+combination with permissions, controls access to those files and objects. Users and groups are also used to 
+initiate and run processes.
+
+In this chapter, we’ll go into detail about how users and groups work, starting with what happens when 
+you log in, and how to control some of that process.

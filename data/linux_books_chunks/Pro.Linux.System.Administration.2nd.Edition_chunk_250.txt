@@ -1,0 +1,14 @@
+You can provide the URL including the username and password if you 
+have one. We are going to leave it blank as in Figure 2-61.
+
+65
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-61.  Proxy server settings
+
+After that we are now asked about how we would like to handle software updates on our system.
+
+Figure 2-62.  Automatically install system updates
+
+This can be a controversial issue.

@@ -1,0 +1,9 @@
+(I had to break the line into two because it was too long to ﬁ t 
+in one line on the printed page, so be sure to type the entire address on one line 
+with no space):
+
+# rpm -Uvh http://download1.rpmfusion.org/free/fedora/
+rpmfusion-free-release-stable.noarch.rpm
+
+The RPM Fusion non-free repository contains such things as codecs needed to play many 
+popular multimedia formats.

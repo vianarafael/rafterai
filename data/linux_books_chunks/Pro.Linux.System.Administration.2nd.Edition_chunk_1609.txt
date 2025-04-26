@@ -1,0 +1,10 @@
+We are going to add enp0s9 to this interface and like we said, 
+
+the interface needs to ‘upped’ again.
+
+$ sudo nmcli c up enp0s9
+
+You should now be able to reach the HTTPS web service running on the enp0s9 interface.
+
+Using the ufw Command
+Ubuntu also has a tool for manipulating firewall rules from the command line.

@@ -1,0 +1,11 @@
+It is also quite common for people to use the ProxyCommand ssh -W %h:%p 
+jumphost instead of the nc command.
+
+With this we can now issue a ssh private.foo.com command and ssh will connect to the jumphost 
+
+and then establish a connection to private.foo.com directly.
+
+Tunnelng
+
+You can also use SSH to access protected services on remote hosts and networks without first setting up a 
+VPN (Virtual Private Network).

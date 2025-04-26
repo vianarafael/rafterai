@@ -1,0 +1,6 @@
+To grow the logical volume from 200MB to 300MB, type the following:
+
+# lvextend -L +100M /dev/mapper/abc-data
+# resize2fs -p /dev/mapper/abc-data
+
+10.

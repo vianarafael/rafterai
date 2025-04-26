@@ -1,0 +1,9 @@
+For 
+example, you can add a name to identify the instance (instance-id), a hostname 
+ (local-hostname), and other information. To keep it simple for the ﬁ rst try, I 
+assign only two ﬁ elds (set them to any names you like):
+
+instance-id: FedoraWS01
+local-hostname: fedora01
+
+2.  Create a cloud-init user-data ﬁ le.

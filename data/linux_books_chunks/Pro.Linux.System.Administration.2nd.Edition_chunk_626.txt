@@ -1,0 +1,21 @@
+Using date on the command line without any options will return the current time and date 
+as follows:
+
+$ date
+Tue Aug 19 13:01:20 EST 2016
+
+You can also add switches to the date command to format the output into different date or time format; 
+
+for example, to display Unix epoch time (the number of seconds since January 1, 1970), you would execute 
+the date command as follows:
+
+$ date +%s
+1219116319
+
+131
+
+ChapTeR 4 ■ LInux BasICs
+
+Here we’ve used the + symbol to add a format and then specified the format, in this case %s, to display 
+
+epoch time.

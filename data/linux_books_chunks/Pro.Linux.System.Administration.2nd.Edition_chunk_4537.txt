@@ -1,0 +1,5 @@
+We then have some 
+default schemata that are provided by our installation. The core schema provides such object classes as the 
+dcObject (dc) and organizationalUnit (ou). The cosine schema provides the dNSDomain object class and 
+host attribute. The nis schema provides user account objects and attributes, such as posixAccount and 
+shadow password settings.

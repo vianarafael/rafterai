@@ -1,0 +1,39 @@
+Also available are some online 
+tutorials:
+
+•	
+
+•	
+
+https://help.ubuntu.com/community/IptablesHowTo
+
+http://www.linuxtopia.org/Linux_Firewall_iptables/index.html
+
+Ubuntu also installs some iptables documentation on the local hard disk:
+
+•	
+
+•	
+
+/usr/share/doc/iptables/html/packet-filtering-HOWTO.html
+
+/usr/share/doc/iptables/html/NAT-HOWTO.html
+
+And for more advanced topics, these may be of interest:
+
+•	 Designing and Implementing Linux Firewalls with QoS using netfilter, iproute2, NAT 
+
+and L7-filter by Lucian Gheorghe (PACKT Publishing, 2006)
+
+•	
+
+•	
+
+Linux Firewalls: Attack Detection and Response with iptables, psad, and fwsnort by 
+Michael Rash (No Starch Press, 2007)
+
+Linux Firewalls: Enhancing Security with nftables and Beyond (4th Edition) by Steve 
+Suehring (Pearson Education 2015)
+
+Explaining Firewall Rules
+Now is a good time to explore the firewall rules you may see on your hosts more closely.

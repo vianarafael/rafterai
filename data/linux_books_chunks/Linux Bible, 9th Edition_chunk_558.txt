@@ -1,0 +1,7 @@
+That is because the Linux distributions featured in this book, Fedora and 
+Red Hat Enterprise Linux, both use the bash shell by default. The bash shell can also easily 
+be added to Ubuntu.
+
+The following are a few major reasons to learn how to use the shell:
+
+ ■ You will know how to get around any Linux or other UNIX-like system.

@@ -1,0 +1,11 @@
+You will need to change the 
+
+user’s password using the passwd command (which we’ll cover in more detail later in this chapter).
+
+Table 5-1 lists some other useful useradd command-line options.
+
+150
+
+Chapter 5 ■ Users and GroUps
+
+Table 5-1.

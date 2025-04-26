@@ -1,0 +1,5 @@
+Once you have created these hosts 
+and services, it is useful to have a console to view them in. Nagios comes with a fully functional web-based 
+console, and we’re going to show you how to set it up.
+
+ alternatives to the nagios console are also available.

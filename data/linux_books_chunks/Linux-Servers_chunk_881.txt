@@ -1,0 +1,4 @@
+network id and host id
+
+One of the few similarities between ipv4 and ipv6 is that addresses have a host part and a
+network part determined by a subnet mask.

@@ -1,0 +1,23 @@
+The [sysvol] service is 
+required by each domain controller and is a folder that is replicated on other domain controllers.
+
+We are going to add the following to the section at the end of the file to set up a sales share that 
+
+members of the sales group can share:
+
+[sales]
+        comment = shared sales directory
+        path = /data/staff/sales
+        readonly = yes
+        public = no
+        browseable = yes
+        valid users = +SAMBA\sales
+        write list = jsmith, bsingh
+        force create mode = 0770
+        force directory mode = 2770
+        create mask = 0770
+        directory mask = 2770
+        force group = sales
+        force user = exbackup
+
+We have added a share called [sales].

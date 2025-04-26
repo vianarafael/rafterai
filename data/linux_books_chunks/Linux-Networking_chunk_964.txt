@@ -1,0 +1,11 @@
+Below a screenshot of the windows 2003 computer account, created by Samba 3.
+
+[root@RHEL52 samba]# tail -5 /etc/passwd
+jelena:x:510:514::/home/jelena:/bin/bash
+figo:x:511:515::/home/figo:/bin/bash
+ronaldo:x:512:516::/home/ronaldo:/bin/bash
+pfaff:x:513:517::/home/pfaff:/bin/bash
+w2003ee$:x:514:518::/home/nobody:/bin/false
+
+To be able to create the account, you will need to provide credentials of an account with
+the permission to create accounts (by default only root can do this on Linux).

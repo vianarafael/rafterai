@@ -1,0 +1,3 @@
+this means a filesystem can contain only as many files and directories as it has inodes. So, in the 
+case with ext filesystems, with a tiny block size and lots of files, you can run out of inodes before you run 
+out of disk space.

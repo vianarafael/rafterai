@@ -1,0 +1,8 @@
+Furthermore, 
+complex methods of accessing disks, tapes, and other devices were greatly simpli-
+ﬁ ed by representing those devices as individual device ﬁ les that you could also 
+access as items in a directory.
+
+ ■ Input/output redirection—Early UNIX systems also included input redirec-
+
+tion and pipes.

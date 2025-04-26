@@ -1,0 +1,4 @@
+iostat
+
+The iostat tool can display disk and cpu statistics. The -d switch below makes iostat only
+display disk information (500 times every two seconds).

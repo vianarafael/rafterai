@@ -1,0 +1,3 @@
+On Linux, however, unlike Windows, there isn’t a quick and easy way to undelete files, so you need 
+to be careful and take some precautions before you delete files. The first precaution is the use of the -i switch 
+with the rm command. The -i switch enables interactive mode, which prompts you each time a file is deleted.

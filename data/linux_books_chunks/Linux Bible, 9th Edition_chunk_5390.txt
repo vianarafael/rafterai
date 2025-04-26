@@ -1,0 +1,11 @@
+To boot up your computer to runlevel 1 so you can do some system maintenance, 
+get to the GRUB boot screen (as described in the previous exercise), and then do 
+the following:
+
+a. Use the arrow keys to highlight the operating system and kernel you want to 
+
+boot.
+
+b. Type e to see the entries needed to boot the operating system.
+
+c. Move your cursor to the line that included the kernel.

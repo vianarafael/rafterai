@@ -1,0 +1,9 @@
+We do this via the DROP DATABASE 
+
+statement.
+
+MariaDB [mydb]> DROP DATABASE `my-db`;
+Query OK, 0 rows affected (0.00 sec)
+
+ ■ Caution 
+roll back.

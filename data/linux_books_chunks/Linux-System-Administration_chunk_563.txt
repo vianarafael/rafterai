@@ -1,0 +1,10 @@
+ISCSI initiator on ubuntu
+
+First we install the iSCSi client software (on another computer than the target).
+
+root@ubu1104:~# aptitude install open-iscsi
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+Reading extended state information
+Initializing package states...

@@ -1,0 +1,6 @@
+Start installing from an RHEL installation DVD, and set the disk partitioning as 
+
+ follows: a 400MB /boot, / (3GB), /var (2GB), and /home (2GB). Leave the rest as 
+unused space.
+
+ Completing Exercise 4 ultimately deletes all content on your hard disk.

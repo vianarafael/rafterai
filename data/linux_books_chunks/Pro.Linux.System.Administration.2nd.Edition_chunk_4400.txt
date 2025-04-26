@@ -1,0 +1,7 @@
+These can be distributed via the OpenVPN Access Server or by other means. In this example, we will create 
+an .ovpn profile file for our mobile client, upload that to our OpenVPN app in iTunes, and connect to our 
+OpenVPN server.
+
+A profile is basically the same as a normal OpenVPN configuration file. The difference is we include the TLS 
+
+certificates, including the private key.

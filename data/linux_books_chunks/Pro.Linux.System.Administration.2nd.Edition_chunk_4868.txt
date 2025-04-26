@@ -1,0 +1,10 @@
+Run a dd command to create a 1Gb file containing only zeroes in the 
+background, while running vmstat simultaneously, as shown in Figure 17-5.
+
+On the same host we will run the following command:
+
+$ dd if=/dev/zero of=./largefile bs=1M count=1024
+
+Then when we run the vmstat command at the same time, you will see something similar to Figure 17-5.
+
+Figure 17-5.

@@ -1,0 +1,3 @@
+With our Apache web server, we can use the Apache LDAP module to get 
+our web server to use an LDAP server to authenticate requests. Without this authentication, the web site will 
+not be accessible. We can also have other services authenticating against our OpenLDAP directory server.

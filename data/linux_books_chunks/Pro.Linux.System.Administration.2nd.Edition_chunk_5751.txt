@@ -1,0 +1,19 @@
+At the basic level, Ansible needs to know 
+
+three things.
+
+•	 How to find the host to target
+
+•	
+
+•	
+
+The host to target
+
+The module to run and any arguments for that module
+
+959
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+While there are many more options to the ansible command, we can apply this to run our first task.

@@ -1,0 +1,8 @@
+Therefore, in this chapter, you learned 
+how to ﬁ x common SELinux conﬁ guration problems.
+
+In the next chapter, you’ll learn how to protect your Linux system on a network. You’ll 
+learn about controlling access, managing ﬁ rewalls, and securing remote access.
+
+Exercises
+Use these exercises to test your knowledge of using SELinux.

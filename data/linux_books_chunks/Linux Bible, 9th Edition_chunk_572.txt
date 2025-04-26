@@ -1,0 +1,5 @@
+To conﬁ gure 
+your prompt, see the section “Setting your prompt” later in this chapter.
+
+Although a tremendous number of features are available with the shell, it’s easy to begin 
+by just typing a few commands.

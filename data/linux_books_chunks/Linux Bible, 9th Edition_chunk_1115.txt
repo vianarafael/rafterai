@@ -1,0 +1,6 @@
+In other words, “nice” doesn’t limit the total amount of resources a particular user or 
+ application can consume from a Linux system.
+
+As cloud computing takes hold, many Linux systems will be used more as hypervisors than 
+as general-purpose computers. Their memory, processing power, and access to storage will 
+become commodities to be shared by many users.

@@ -1,0 +1,14 @@
+If you now view the INPUT chain in the filter table, you will see there are no longer any rules associated 
+with it.
+
+276
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+$ sudo /sbin/iptables -L IPV4-INCOMING --line-numbers
+Chain IPV4-INCOMING (policy ACCEPT)
+num target   prot opt source        destination
+
+In this case, since we have a default policy of ACCEPT, clearing this chain does not affect the way our 
+
+host operates.

@@ -1,0 +1,6 @@
+The NAME=”bond0-
+slave” will become clear when we bring up our bonded interface, but it provides an easy-to-read name 
+that NetworkManager will display (remembering that unless we explicitly have NM_CONTROLLED=”no”, 
+NetworkManager will manage our connection).
+
+Next are the two options that add this device to a bonded configuration.

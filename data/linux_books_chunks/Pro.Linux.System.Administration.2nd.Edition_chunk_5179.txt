@@ -1,0 +1,3 @@
+With Beats, particularly Filebeat, we are going 
+to gather data from our host and ship it to a Logstash server. In this scenario, the Filebeat will run on our 
+gateway host and send its data to our monitor server.

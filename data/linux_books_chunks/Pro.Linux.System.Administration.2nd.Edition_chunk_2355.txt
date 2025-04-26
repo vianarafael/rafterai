@@ -1,0 +1,7 @@
+However, with LVM you can simply expand the logical 
+volume and then resize the filesystem on it. If there was no space left in the volume group, you could add a 
+physical volume to the group first.
+
+You need to complete two steps to safely resize the filesystem contained in your logical volume. First, 
+
+you need to resize the logical volume itself, and second, you need to resize the filesystem.

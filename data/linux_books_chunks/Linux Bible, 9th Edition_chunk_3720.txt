@@ -1,0 +1,6 @@
+Check your Terminal windows and other 
+shells, and then cd out of the directory if you are in it, or just close the Terminal windows.
+
+If an NFS ﬁ lesystem doesn’t unmount, you can force it (umount -f /mnt/maple) or 
+unmount and clean up later (umount -l /mnt/maple). The -l option is usually the 
+ better choice because a forced unmount can disrupt a ﬁ le modiﬁ cation that is in progress.

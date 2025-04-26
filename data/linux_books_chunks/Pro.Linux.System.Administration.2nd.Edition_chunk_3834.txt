@@ -1,0 +1,2 @@
+We have just wiped out the /data/brick1_r2/vol1 directory on au-mel-dfs-1. This now 
+puts that brick into a failed state.

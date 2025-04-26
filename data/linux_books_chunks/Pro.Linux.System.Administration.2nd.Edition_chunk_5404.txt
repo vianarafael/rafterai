@@ -1,0 +1,7 @@
+It also will have all the 
+notification and check period definitions provided by the linux-server template and the generic-host 
+templates as we do not override anything here or in the templates.
+
+This is a simple example of how to perform remote monitoring; it is not ideal (the key-based SSH 
+
+connection could be a security vulnerability), but it is the simplest method.

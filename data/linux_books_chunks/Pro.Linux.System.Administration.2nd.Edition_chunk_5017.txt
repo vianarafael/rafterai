@@ -1,0 +1,9 @@
+Schedulers can be changed to improve the efficiency of this process. Three schedulers are available to the 
+kernel.
+
+•	
+
+Cfq: This is the default scheduler for SATA devices and tries to implement completely 
+fair queues for processing I/O.
+
+•	 Deadline: This is the default scheduler for block devices.

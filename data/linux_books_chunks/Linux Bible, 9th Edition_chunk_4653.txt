@@ -1,0 +1,6 @@
+Now, your 
+scripts should be able to connect out to the network.
+
+As you encounter various problems with SELinux, your troubleshooting skills will improve. 
+Meanwhile, here is another excellent resource to help you with troubleshooting: http://
+docs.redhat.com.

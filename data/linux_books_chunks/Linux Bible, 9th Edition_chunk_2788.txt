@@ -1,0 +1,4 @@
+This is the option to use when you have 
+made changes to the conﬁ guration ﬁ le.
+
+The following example illustrates how to reload the cups daemon with initctl.

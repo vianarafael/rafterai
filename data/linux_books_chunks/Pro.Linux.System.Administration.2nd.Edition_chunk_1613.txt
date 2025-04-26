@@ -1,0 +1,8 @@
+You can also 
+
+specify the rule you wish to delete this:
+
+$ sudo ufw delete allow http
+
+You can also use a simplified syntax to describe rules you might need for applications. You can see the 
+way ufw allows TCP port 22 access to the system (remembering that TCP port 22 is used for OpenSSH).

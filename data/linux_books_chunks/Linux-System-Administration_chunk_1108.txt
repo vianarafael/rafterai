@@ -1,0 +1,18 @@
+copy the public key to the other computer
+
+To copy the public key from Alice's server tot Bob's laptop, Alice decides to use scp.
+
+[alice@RHEL5 .ssh]$ scp id_rsa.pub bob@192.168.48.92:~/.ssh/authorized_keys
+bob@192.168.48.92's password: 
+id_rsa.pub                                    100%  393     0.4KB/s   00:00
+
+Be careful when copying a second key! Do not overwrite the first key, instead append the
+key to the same ~/.ssh/authorized_keys file!
+
+cat id_rsa.pub >> ~/.ssh/authorized_keys
+
+Alice could also have used ssh-copy-id like in this example.
+
+ssh-copy-id -i .ssh/id_rsa.pub bob@192.168.48.92
+
+25.5.5.

@@ -1,0 +1,5 @@
+Enter Rescue Mode
+
+From there we are taken through a similar installation process like the one we executed when we first 
+
+installed out system, and note, this is an Ubuntu system.

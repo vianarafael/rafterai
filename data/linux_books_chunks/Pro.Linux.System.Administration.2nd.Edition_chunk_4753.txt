@@ -1,0 +1,14 @@
+We are attaching users to the staff group, and we can add more, providing the groups already exist, 
+by clicking the “Edit groups” button.
+
+Figure 16-7.  Linux(Unix) details
+
+784
+
+Prior to the enabling the Shadow section, we need to enable the shadow extension. Once this is done, 
+
+you will see the screen in Figure 16-8.
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Figure 16-8.

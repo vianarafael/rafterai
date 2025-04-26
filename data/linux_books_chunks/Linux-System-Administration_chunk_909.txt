@@ -1,0 +1,18 @@
+The  available  parameter  is
+optional.
+
+root@rhel65:/etc# yum list | wc -l
+This system is receiving updates from Red Hat Subscription Management.
+3935
+root@rhel65:/etc#
+
+Issue yum list $package to get all versions (in different repositories) of one package.
+
+[root@rhel55 ~]# yum list samba
+Loaded plugins: rhnplugin, security
+Installed Packages
+samba.i386                 3.0.33-3.28.el5         installed         
+Available Packages
+samba.i386                 3.0.33-3.29.el5_5       rhel-i386-server-5
+
+20.7.3.

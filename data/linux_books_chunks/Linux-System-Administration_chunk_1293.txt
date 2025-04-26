@@ -1,0 +1,12 @@
+dd
+
+30.7.1. About dd
+
+Some people use dd to create backups. This can be very powerful, but dd backups can only
+be restored to very similar partitions or devices. There are however a lot of useful things
+possible with dd. Some examples.
+
+30.7.2. Create a CDROM image
+
+The easiest way to create a .ISO file from any CD. The if switch means Input File, of is the
+Output File.

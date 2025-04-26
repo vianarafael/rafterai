@@ -1,0 +1,11 @@
+For example, to monitor the load on a remote host, we could use the following command:
+
+$ sudo vi /etc/nagios/objects/commands.cfg
+# ssh_check_commands
+define command{
+         command_name       check_load_ssh
+         command_line       $USER1$/check_by_ssh -H $HOSTADDRESS$ -l nagios  
+-C "/usr/lib64/nagios/plugins/check_load -w $ARG1$ -c $ARG2$"
+        }
+
+We have added the previous command definition to the /etc/nagios/objects/commands.cfg file.

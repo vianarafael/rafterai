@@ -1,0 +1,2 @@
+Users mounting that share will be given the rights of that 
+anonymous ID on the server.

@@ -1,0 +1,7 @@
+a note on netcat
+
+The Windows command line screenshot is made in a Linux console, using netcat as a pipe
+to a Windows command shell.
+
+The way this works, is by enabling netcat to listen on the windows computer to a certain
+port, executing cmd.exe when a connection is received.

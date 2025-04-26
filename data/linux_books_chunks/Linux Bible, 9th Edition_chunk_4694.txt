@@ -1,0 +1,5 @@
+Its primary purpose is to negotiate and initiate a 
+connection using what is called a “three-way handshake.” TCP sends a synchronize 
+packet (SYN) to a remote server, specifying a speciﬁ c port number in the packet. 
+The remote server receives the SYN and replies with an acknowledgment packet 
+(SYN-ACK) to the originating computer.

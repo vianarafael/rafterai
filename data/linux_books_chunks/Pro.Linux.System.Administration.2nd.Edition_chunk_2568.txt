@@ -1,0 +1,4 @@
+here we make a hash of 
+the rrsIG and the DnsKeY and compare that to the hash we received in the Ds record from the root 
+domain. If they match, they are valid and we will then use those rrsets to find the name servers for 
+google.com. at the google.com name servers we receive the rrsIG.

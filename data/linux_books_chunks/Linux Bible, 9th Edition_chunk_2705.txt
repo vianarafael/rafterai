@@ -1,0 +1,33 @@
+All the job deﬁ nition ﬁ les are 
+located in the /etc/init directory as shown here:
+
+$ ls /etc/init
+acpid.conf               networking.conf
+alsa-restore.conf        network-interface.conf
+alsa-store.conf          network-interface-security.conf
+anacron.conf             network-manager.conf
+control-alt-delete.conf  procps.conf
+cron.conf                rc.conf
+cups.conf                rcS.conf
+dbus.conf                rc-sysinit.conf
+dmesg.conf               rsyslog.conf
+failsafe.conf            setvtrgb.conf
+friendly-recovery.conf   ssh.conf
+hostname.conf            tty1.conf
+
+15
+
+387
+
+c15.indd  04/01/2015  Page 388
+
+Part IV: Becoming a Linux Server Administrator
+
+hwclock.conf             tty2.conf
+hwclock-save.conf        tty3.conf
+irqbalance.conf          tty4.conf
+lightdm.conf             tty5.conf
+...
+
+The Upstart init daemon depends upon events to trigger certain services to start, stop, 
+restart, and so on.

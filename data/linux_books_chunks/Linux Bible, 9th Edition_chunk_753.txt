@@ -1,0 +1,6 @@
+Here are some places you can look to supple-
+ment what you learn in this chapter:
+
+ ■ Check the PATH. Type echo $PATH. You see a list of the directories containing 
+commands that are immediately accessible to you. Listing the contents of those 
+directories displays most standard Linux commands.

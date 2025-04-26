@@ -1,0 +1,5 @@
+this list of magic 
+bytes for thousands of file types is stored in /usr/share/file/magic. Once you know how the tarball was 
+compressed, you can unpack it.
+
+The -v parameter tells tar to be verbose and print the path of each file it extracts from the archive.

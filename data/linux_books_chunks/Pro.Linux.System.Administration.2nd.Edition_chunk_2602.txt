@@ -1,0 +1,4 @@
+Now, we simply copy and paste the zone header from Listing 10-18 into 
+this file and save it. With the header done, we can start to add actual host and service records into this file.
+
+You need two basic service record types to be present in your zone.

@@ -1,0 +1,7 @@
+MariaDB First Run on CentOS
+
+$ sudo systemctl start mariadb
+
+The server is now running, so we can set a root password and clean up the default tables. We can do this 
+
+on both CentOS and Ubuntu.

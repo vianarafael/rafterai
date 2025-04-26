@@ -1,0 +1,6 @@
+In either case, you can access more shells as described in the “Using virtual con-
+soles” section.
+
+Using the shell prompt
+If your Linux system has no graphical user interface (or one that isn’t working at the 
+moment), you will most likely see a shell prompt after you log in.

@@ -1,0 +1,18 @@
+Note that some time passes before the nic is back to 1000Mbit.
+
+root@laika:~# ethtool eth0 | grep Speed
+ Speed: 1000Mb/s
+root@laika:~# ethtool -s eth0 speed 100
+root@laika:~# ethtool eth0 | grep Speed
+ Speed: 100Mb/s
+root@laika:~# ethtool -s eth0 speed 1000
+root@laika:~# ethtool eth0 | grep Speed
+ Speed: 1000Mb/s
+
+26
+
+interface configuration
+
+2.12. practice: interface configuration
+
+1.

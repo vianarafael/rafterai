@@ -1,0 +1,14 @@
+You will find an example configuration for your Apache web server and the configuration 
+file, /etc/ldap-account-manager/config.cfg, containing the default username and password for your 
+LAM installation.
+
+$ sudo vi /etc/ldap-account-manager/config.cfg
+# password to add/delete/rename configuration profiles
+password: {SSHA}tj1yDeQfLJbmISXwh8JfjMb2ro3v5u44
+
+# default profile, without ".conf"
+default: lam
+
+In the config.cfg file, you can see we have set our own password to {SSHA}
+
+tj1yDeQfLJbmISXwh8JfjMb2ro3v5u44 (be careful with your ownership and permissions).

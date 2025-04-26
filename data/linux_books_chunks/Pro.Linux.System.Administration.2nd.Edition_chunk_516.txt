@@ -1,0 +1,11 @@
+The top Command
+
+$ top
+
+The top command starts an interactive monitoring tool that updates every few seconds with the top 
+
+running processes on your host. You can see a snapshot of the top command’s output in Figure 4-7.
+
+Figure 4-7.  The top process-monitoring command
+
+This is the output of a very quiet system.

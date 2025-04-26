@@ -1,0 +1,7 @@
+Features in, or 
+closely related to, the kernel include Udev (to dynamically name and create devices as 
+hardware comes and goes) and HAL (to pass information about hardware changes to 
+user space).
+
+If all this sounds confusing, don’t worry. It’s designed to make your life as a Linux user 
+much easier.

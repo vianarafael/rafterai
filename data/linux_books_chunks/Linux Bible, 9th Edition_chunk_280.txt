@@ -1,0 +1,7 @@
+They can also get training and 
+certiﬁ cation exams for their employees (see the discussion of RHCE certiﬁ cation later in 
+this chapter).
+
+Red Hat has also added other products as natural extensions to Red Hat Enterprise Linux. 
+JBoss is a middleware product for deploying Java-based applications to the Internet or 
+ company intranets.

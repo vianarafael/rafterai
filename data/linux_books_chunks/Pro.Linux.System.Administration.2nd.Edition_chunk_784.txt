@@ -1,0 +1,7 @@
+Here the 
+user ataylor is a member of a unique UPG scheme primary group called ataylor, and we’re trying to add 
+her to the additional supplemental groups printing and finance.
+
+If we execute that command now, however, it will fail because each of these groups needs to exist before 
+
+we can add a user to them, otherwise we’ll get an error message and the user will fail to be created.

@@ -1,0 +1,15 @@
+Generating a New SSH Key Pair
+
+$ ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/jsmith/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/jsmith/.ssh/id_rsa.
+Your public key has been saved in /home/jsmith/.ssh/id_rsa.pub.
+The key fingerprint is:
+c9:62:dd:da:cd:71:33:78:3d:08:93:3e:8c:25:b0:f3 jsmith@au-ubuntu-1.example.com
+
+It is important to add a passphrase to your private key, as without one anyone who gets hold of your 
+private key can use it to log in (without the need for a password) to any host that contains your public key.
+Now that we have a key pair, we can copy the public part to a remote host.

@@ -1,0 +1,9 @@
+On CentOS and Ubuntu 
+it’s provided by the whois package. After installing the package, we can look at the delegation’s detail for the 
+google.com domain, as shown in Listing 10-6.
+
+428
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Listing 10-6.

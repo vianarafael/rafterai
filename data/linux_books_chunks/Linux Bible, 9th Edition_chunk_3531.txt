@@ -1,0 +1,7 @@
+For example, to provide both chris and jim access to 
+a share, you could add the following line:
+
+valid users = jim, chris
+
+If the read only option is set to no for the share, both users could potentially write ﬁ les 
+to the share (depending on ﬁ le permissions).

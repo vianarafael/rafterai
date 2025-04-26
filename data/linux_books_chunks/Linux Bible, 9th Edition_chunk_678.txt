@@ -1,0 +1,5 @@
+A metacharacter is a typed character that has 
+special meaning to the shell for connecting commands or requesting expansion.
+
+Metacharacters include the pipe character (|), ampersand (&), semicolon (;), right paren-
+thesis ( ) ), left parenthesis ( ( ), less than sign (<), and greater than sign (>).

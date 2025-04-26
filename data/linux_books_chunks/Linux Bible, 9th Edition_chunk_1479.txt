@@ -1,0 +1,20 @@
+Or you can select OFF and set the date and time 
+manually from boxes on the bottom of the screen. Select Done in the upper-right 
+corner when you are ﬁ nished.
+
+205
+
+ 
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 206
+
+Part III: Becoming a Linux System Administrator
+
+FIGURE 9.2
+
+Select confi guration options from the Installation Summary screen.
+
+6.  Select INSTALLATION DESTINATION.

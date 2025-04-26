@@ -1,0 +1,20 @@
+So the output of fdisk might be as simple as the following:
+
+# fdisk -cul /dev/sda
+Disk /dev/sda: 500.1 GB, 500107862016 bytes
+255 heads, 63 sectors/track, 60801 cylinders, total 976773168 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x000ebb20
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048      411647      204800   83  Linux
+/dev/sda2          411648   976773119   488180736   8e  Linux LVM
+
+287
+
+c12.indd  04/01/2015  Page 288
+
+Part III: Becoming a Linux System Administrator
+
+The ﬁ rst partition is roughly 200MB and is mounted on the /boot directory.

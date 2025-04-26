@@ -1,0 +1,6 @@
+Searching with YUM
+
+$ sudo yum search nmap
+
+In Listing 8-1, we’ve issued the yum command with the search option and then specified the name of 
+the package we wish to search for. This produces a list of available packages that have nmap in their name.

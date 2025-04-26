@@ -1,0 +1,14 @@
+You can manually start and stop the 
+rsyslog daemon with the systemctl command.
+
+Chapter 18 ■ Logging and Monitoring
+
+$ sudo systemctl start rsyslog
+$ sudo systemctl stop rsyslog
+$ sudo systemctl status rsyslog
+
+On both CentOS and Ubuntu, you can customize rsyslogd’s options using the /etc/sysconfig/
+
+rsyslog and /etc/default/rsyslogd files, respectively.
+
+When setting up your host, it is important to note the following.

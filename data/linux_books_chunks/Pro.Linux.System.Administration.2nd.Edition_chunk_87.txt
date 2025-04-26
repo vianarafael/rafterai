@@ -1,0 +1,6 @@
+You can also purchase virtual hosts from hosting companies.
+
+In Chapter 3, we demonstrate how to install VirtualBox. The following instructions apply to “bare 
+
+ ■ Note 
+metal” or virtual hosts. The differences between bare metal installs and virtual installs are relatively minor.

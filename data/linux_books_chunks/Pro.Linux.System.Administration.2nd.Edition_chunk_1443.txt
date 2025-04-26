@@ -1,0 +1,20 @@
+We will examine a variety of tools:
+
+•	
+
+•	
+
+•	
+
+•	
+
+ping: A command that sends packets between hosts to confirm connectivity
+
+tcpdump: A command that displays and captures network traffic
+
+mtr: A network diagnostic tool
+
+nc: The netcat, another network diagnostic and testing tool
+
+Ping!
+Probably the most common tool that people use for checking their network is a command called ping.

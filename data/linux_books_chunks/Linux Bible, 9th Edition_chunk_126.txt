@@ -1,0 +1,5 @@
+741
+Step 2: Check the network bridge ....................................................... 741
+Step 3: Start Virtual Machine Manager (virt-manager) ......................... 741
+Step 4: Check connection details ........................................................742
+Step 5: Create a new virtual machine  .................................................

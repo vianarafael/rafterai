@@ -1,0 +1,13 @@
+Generate the key pair and the key ring.
+
+2.  Export a copy of your public key to a ﬁ le.
+
+3.  Share the public key ﬁ le.
+
+4.  Individuals who want to send you encrypted ﬁ les add your public key to their key ring.
+
+5.  A ﬁ le is encrypted using your public key.
+
+6.  The encrypted ﬁ le is sent to you.
+
+7.

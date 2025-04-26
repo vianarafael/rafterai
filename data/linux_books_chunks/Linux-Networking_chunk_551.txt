@@ -1,0 +1,8 @@
+master and slave
+
+When adding a secondary dns server to a zone, then you will configure this server as a
+slave server to the primary server. The primary server then becomes the master server
+of the slave server.
+
+Often the primary dns server is the master server of all slaves. Sometimes a slave server
+is master server for a second line slave server.

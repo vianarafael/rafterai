@@ -1,0 +1,7 @@
+Now they are well accepted and supported on the Linux platform including being the default on CentOS 7.
+
+XFS
+
+You already created an ext4 partition to store some small files on. Let’s format the other partition using the 
+XFS filesystem. To this end, we will use the mkfs.xfs tool. Depending on the distribution, you may not have 
+the necessary utilities to manage XFS filesystems.

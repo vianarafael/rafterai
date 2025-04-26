@@ -1,0 +1,10 @@
+# scancel
+
+
+- Cancel a job using its ID:
+
+`scancel {{job_id}}`
+
+- Cancel all jobs from a user:
+
+`scancel {{user_name}}`

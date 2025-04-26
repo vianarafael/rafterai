@@ -1,0 +1,9 @@
+What  is  the  difference  between  locking  a  user  account  and  disabling  a  user  account's
+password like we just did with usermod -L and passwd -d?
+
+Locking will prevent the user from logging on to the system with his password by putting
+a ! in front of the password in /etc/shadow.
+
+Disabling with passwd will erase the password from /etc/shadow.
+
+5.

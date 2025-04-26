@@ -1,0 +1,6 @@
+You 
+cannot track individual use of the root account. To allow tracking of root account use by indi-
+viduals, a policy for using sudo (see Chapter 8) instead of logging into root should be instituted.
+
+Instead of giving multiple people root permission on a Linux system, you can grant root 
+access on a per-command basis with the sudo command.

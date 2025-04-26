@@ -1,0 +1,8 @@
+In 
+most cases, you add these values to the .bashrc ﬁ le in your home directory. However, if 
+you administer a system, you may want to set some of these values as defaults for all your 
+Linux system’s users.
+
+Setting your prompt
+Your prompt consists of a set of characters that appear each time the shell is ready to 
+accept a command.

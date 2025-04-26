@@ -1,0 +1,15 @@
+File permission breakdown
+
+ ■ Note 
+
+ a dash in any position means that particular permission is not set at all.
+
+You can see a single file in Listing 4-10 whose permissions we’re going to examine in more detail, and 
+
+then you’ll learn how to make some changes to those permissions.
+
+124
+
+ChapTeR 4 ■ LInux BasICs
+
+Listing 4-10.

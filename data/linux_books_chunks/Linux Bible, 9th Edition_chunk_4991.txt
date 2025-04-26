@@ -1,0 +1,4 @@
+Copy the ﬁ les to the images directory. It’s good practice to copy images to the 
+
+/var/lib/libvirt/images/ directory when you are using them on a hypervisor 
+(libvirtd service).

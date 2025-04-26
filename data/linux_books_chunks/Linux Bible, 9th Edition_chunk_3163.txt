@@ -1,0 +1,4 @@
+You can enable users to add content they want to share via your 
+web server in a subdirectory of their home directories, as described in the next section.
+
+Keeping individual virtual hosts in separate fi les is a convenient way to manage virtual hosts.

@@ -1,0 +1,4 @@
+As you may have 
+already worked out, our Loglevel of 480 comprises the level 32 (search filter), 64 (configuration processing), 
+128 (access control list processing), and 256 (connections and LDAP operations results). This is a good 
+setting while we are setting up our LDAP service, as it provides a nice level of information.

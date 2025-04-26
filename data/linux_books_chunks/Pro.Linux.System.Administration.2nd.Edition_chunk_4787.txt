@@ -1,0 +1,4 @@
+The 
+
+sufficient control value says that if this module is successful, consider the user authenticated. pam_sss.
+so is the PAM shared object to be used, the code that determines how a user is authenticated.

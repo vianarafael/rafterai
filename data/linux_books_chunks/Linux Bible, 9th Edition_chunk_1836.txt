@@ -1,0 +1,5 @@
+When you start working with RPM ﬁ les in a large enterprise, you need to extend 
+that knowledge.
+
+Features used to manage RPM packages in the enterprise with Red Hat Enterprise Linux 
+offer a bit more complexity and much more power.

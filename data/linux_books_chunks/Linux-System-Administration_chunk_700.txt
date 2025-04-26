@@ -1,0 +1,19 @@
+This is
+to avoid that post installation scripts using update-rc.d are overwriting changes made by
+a system administrator.
+
+root@barry:~# update-rc.d cron remove
+update-rc.d: /etc/init.d/cron exists during rc.d purge (use -f to force)
+
+As you can see in the next screenshot, nothing changed for the cron daemon.
+
+root@barry:~# find /etc/rc?.d/ -name '*cron' -exec ls -l {} \;|cut -b44-
+/etc/rc0.d/K11cron -> ../init.d/cron
+/etc/rc1.d/K11cron -> ../init.d/cron
+/etc/rc2.d/S89cron -> ../init.d/cron
+/etc/rc3.d/S89cron -> ../init.d/cron
+/etc/rc4.d/S89cron -> ../init.d/cron
+/etc/rc5.d/S89cron -> ../init.d/cron
+/etc/rc6.d/K11cron -> ../init.d/cron
+
+15.5.2.

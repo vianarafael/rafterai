@@ -1,0 +1,7 @@
+Also, notice that the enable option simply creates a 
+few symbolic links. You may be tempted to create these links yourself. However, the pre-
+ferred method is to use the systemctl command to accomplish this.
+
+Disabling a service with systemd
+You can use the disable option on the systemctl command to keep a service from start-
+ing at boot. However, it does not immediately stop the service.

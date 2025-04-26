@@ -1,0 +1,23 @@
+This route would take effect when the eth0 network interface 
+was restarted.
+
+To check that the route is working after you restart the network interface, you could type 
+the following:
+
+# route
+Kernel IP routing table
+Destination  Gateway     Genmask         Flags Metric Ref Use Iface
+
+370
+
+c14.indd  04/01/2015  Page 371
+
+Chapter 14: Administering Networking
+
+default      192.168.0.1 0.0.0.0         UG    0      0     0 eth0
+192.168.0.0  *           255.255.255.0   U     1      0     0 eth0
+192.168.99.0 192.168.0.5 255.255.255.0   UG    0      0     0 eth0
+
+The output from the route -n command shows that the default route (anything not 
+destined for the local network 192.168.0 or the 192.168.99 network) is via the 192.168.0.1 
+address.

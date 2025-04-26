@@ -1,0 +1,18 @@
+git config
+
+Next we use git config to set some global options.
+
+paul@debian6$ git config --global user.name Paul
+paul@debian6$ git config --global user.email "paul.cobbaut@gmail.com"
+paul@debian6$ git config --global core.editor vi
+
+We can verify this config in ~/.gitconfig:
+
+paul@debian6~/project42$ cat ~/.gitconfig
+[user]
+ name = Paul
+ email = paul.cobbaut@gmail.com
+[core]
+ editor = vi
+
+20.3.3.

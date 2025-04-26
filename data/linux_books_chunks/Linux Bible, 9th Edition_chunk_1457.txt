@@ -1,0 +1,4 @@
+In recent releases, the Fedora live media ISO has become too big to 
+ﬁ t on a CD, so you need to burn it to a DVD or USB drive. If you can’t boot from a DVD 
+or USB drive, there are ways to start the installation from a hard disk or by using a 
+PXE install.

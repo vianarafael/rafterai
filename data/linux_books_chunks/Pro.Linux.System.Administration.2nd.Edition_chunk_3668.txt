@@ -1,0 +1,3 @@
+The output in 
+Listing 13-1 tells us that the Kerberos configuration file has been generated and placed in /var/lib/samba/
+private/krb5.conf.

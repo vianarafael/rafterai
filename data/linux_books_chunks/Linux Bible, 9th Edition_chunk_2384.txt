@@ -1,0 +1,22 @@
+This format is determined by the following entry in the /etc/rsyslog.conf ﬁ le:
+
+$ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
+
+When you view messages in ﬁ les from the /var/log directory, from left to right, message 
+parts include:
+
+ ■ The date and time that the message was logged
+
+ ■ The name of the computer from which the message came
+
+ ■ The program or service name to which the message pertains
+
+ ■ The process number (enclosed in square brackets) of the program sending the 
+
+13
+
+message
+
+ ■ The actual text message
+
+Take another look at the preceding ﬁ le snippet.

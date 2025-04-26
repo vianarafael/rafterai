@@ -1,0 +1,11 @@
+We will talk more about these shortly.
+
+ You can find more information on defining kernels and kernel options to GruB2 at http://www.
+
+ ■ Note 
+gnu.org/software/grub/manual/grub.html and https://wiki.archlinux.org/index.php/kernel_
+parameters. You can also find information via the info grub command.
+
+MANAGING YOUR KERNEL
+
+not all kernels need an initrd file.

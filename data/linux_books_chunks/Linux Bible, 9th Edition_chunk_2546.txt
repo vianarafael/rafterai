@@ -1,0 +1,7 @@
+Search domains—The Search domains entries are used when you request a host 
+from an application without using a fully qualiﬁ ed domain name. For example, if 
+you type ping host1 with an example.com search path, the command would try 
+to send ping packets to host1.example.com.
+
+9.  Routing—You can set custom routes by highlighting Edit in the Routing ﬁ eld and 
+pressing Enter.

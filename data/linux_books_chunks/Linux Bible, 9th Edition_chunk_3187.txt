@@ -1,0 +1,8 @@
+This allows you to immediately use HTTPS protocol to 
+communicate with the web server.
+
+17
+
+Although the default conﬁ guration of mod_ssl allows you to have encrypted communica-
+tions between your web server and clients, because the certiﬁ cate is self-signed, a client 
+accessing your site is warned that the certiﬁ cate is untrusted.

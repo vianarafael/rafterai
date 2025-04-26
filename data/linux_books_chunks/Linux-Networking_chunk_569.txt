@@ -1,0 +1,6 @@
+Setup caching only dns server. This is normally the default setup. A caching-only name
+server will look up names for you and cache them. Many tutorials will tell you to add a
+forwarder, but we first try without this!
+
+Hey this seems to work without a forwarder. Using a sniffer you can find out what really
+happens.

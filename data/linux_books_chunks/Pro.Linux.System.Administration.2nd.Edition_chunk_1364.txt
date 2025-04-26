@@ -1,0 +1,27 @@
+We will explain more about how this works in Chapter 10.
+
+Table 7-2 lists the options you can use in your CentOS interface files.
+
+236
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Table 7-2.  Some of the Common Network Configuration File Options, CentOS
+
+Option
+
+DEVICE
+
+BOOTPROTO
+
+ONBOOT
+
+NETWORK
+
+NETMASK
+
+IPADDR
+
+Description
+
+The name of the device you are creating.

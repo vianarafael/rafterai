@@ -1,0 +1,4 @@
+In other words, the permissions for that directory (and a file would be the 
+same) would have been set with ‘u+rws,g+rws,o+r’.
+
+On most distributions, setuid/setgid permissions are used sparely to allow this sort of access.

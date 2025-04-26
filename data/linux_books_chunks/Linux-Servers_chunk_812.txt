@@ -1,0 +1,8 @@
+1 root root    0 Apr 12 19:40 deny_unknown
+--w-------.  1 root root    0 Apr 12 19:40 disable
+-rw-r--r--.  1 root root    0 Apr 12 19:40 enforce
+dr-xr-xr-x.  2 root root    0 Apr 12 19:40 initial_contexts
+-rw-------.  1 root root    0 Apr 12 19:40 load
+-rw-rw-rw-.  1 root root    0 Apr 12 19:40 member
+-r--r--r--.  1 root root    0 Apr 12 19:40 mls
+crw-rw-rw-.

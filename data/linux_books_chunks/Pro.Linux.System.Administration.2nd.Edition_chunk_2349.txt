@@ -1,0 +1,8 @@
+In preparation for later 
+
+chapters, why don’t we create a storage area for web sites? With LVM, we can easily give each of these 
+functions its own dedicated area on disk.
+
+First, you need to create a logical volume, which you do via the lvcreate command. You need to specify 
+
+a name, a size, and the volume group to create the volume in.

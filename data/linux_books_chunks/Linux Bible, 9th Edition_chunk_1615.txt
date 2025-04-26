@@ -1,0 +1,6 @@
+Because /var is the default location for web and FTP servers, 
+and is expected to hold lots of data, entire hard disks often are assigned to the 
+/var  ﬁ lesystem alone.
+
+ ■ Protection from corrupted filesystems—If you have only one ﬁ lesystem (/), 
+its corruption can cause the whole Linux system to be damaged.

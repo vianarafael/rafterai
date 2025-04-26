@@ -1,0 +1,9 @@
+In the location box from a browser window from another computer on your net-
+work, type the following replacing hostname with the name or IP address of 
+the system running your print service: http://hostname:631.
+
+b. Type root as the user and the root password, when prompted. The CUPS home 
+
+page should appear from that system.
+
+9.

@@ -1,0 +1,4 @@
+Most user commands that come with Linux are stored in the 
+/bin, /usr/bin, or /usr/local/bin directories. The /sbin and /usr/sbin directories 
+contain administrative commands (some Linux systems don’t put those directories in regu-
+lar users’ paths).

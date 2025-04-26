@@ -1,0 +1,22 @@
+This
+mask is calculated every time you execute the setfacl or chmod commands.
+
+You can prevent the calculation by using the --no-mask switch.
+
+paul@laika:~/test$ setfacl --no-mask -m u:sandra:7 file33
+paul@laika:~/test$ getfacl file33
+# file: file33
+# owner: paul
+# group: paul
+user::rw-
+user:sandra:rwx   #effective:rw-
+group::r--
+mask::rw-
+other::r--
+
+65
+
+  
+access control lists
+
+8.7.

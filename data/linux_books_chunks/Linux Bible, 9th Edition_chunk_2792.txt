@@ -1,0 +1,5 @@
+This means that the cups daemon is still 
+started upon server boot.
+
+Starting a service with systemd
+Starting the cups daemon is just as easy as stopping it.

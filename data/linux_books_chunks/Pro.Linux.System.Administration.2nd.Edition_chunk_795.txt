@@ -1,0 +1,4 @@
+It’s a very good idea 
+to confirm the files and directories a user owns and work out what you are going to do with them prior to 
+deleting the user. We’ll show you how to assign ownership of files and directories later in this chapter. In light 
+of this issue, it is sometimes better to disable a user rather than delete the user.

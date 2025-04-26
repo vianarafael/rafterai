@@ -1,0 +1,6 @@
+Chapter 26 and 
+27 describe ways of installing or deploying a virtual machine on a Linux KVM host or in a 
+cloud environment.
+
+To try the procedures in this chapter along with me, you should have a computer in front of 
+you that you don’t mind totally erasing.

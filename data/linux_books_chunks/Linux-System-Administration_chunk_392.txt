@@ -1,0 +1,19 @@
+noacl
+
+To prevent cluttering permissions with acl's, use the noacl option.
+
+root@rhel53 ~# mount -o noacl /dev/hdb1 /home/project42
+
+More mount options can be found in the manual page of mount.
+
+72
+
+   
+mounting
+
+7.6. mounting remote file systems
+
+7.6.1. smb/cifs
+
+The Samba team (samba.org) has a Unix/Linux service that is compatible with the SMB/
+CIFS protocol.

@@ -1,0 +1,14 @@
+# eselect
+
+
+- Display a list of installed modules:
+
+`eselect`
+
+- View documentation for a specific module:
+
+`tldr eselect {{module}}`
+
+- Display a help message for a specific module:
+
+`eselect {{module}} help`

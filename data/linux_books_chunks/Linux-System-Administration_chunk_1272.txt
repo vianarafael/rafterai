@@ -1,0 +1,5 @@
+IDE tapes
+
+On the official Linux device list (http://www.lanana.org/docs/device-list/) we find the names
+for  IDE  tapes  (major  37  char).  IDE  tape  devices  are  located  underneath  /dev/ht  and  are
+numbered starting with 0 for the first tape device.

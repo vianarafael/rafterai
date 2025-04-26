@@ -1,0 +1,6 @@
+If you get into trouble you may find Chapter 2 of the following PDF helpful:  
+http://download.virtualbox.org/virtualbox/5.0.14/UserManual.pdf.
+
+Licensing
+VirtualBox is an open source virtualization platform owned by Oracle. It has been released under the GNU 
+General Public License (GPL) Version 2 license.

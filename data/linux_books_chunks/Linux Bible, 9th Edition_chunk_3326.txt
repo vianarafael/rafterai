@@ -1,0 +1,8 @@
+Depending on how you want to use your FTP site, 
+the following sections discuss a few ways to conﬁ gure your FTP server.
+
+Remember to restart the vsftpd service after making any conﬁ guration changes.
+
+Setting up user access
+The vsftpd server comes with both the anonymous user and all local Linux users (those 
+listed in the /etc/passwd ﬁ le) conﬁ gured to access the server.

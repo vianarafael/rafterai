@@ -1,0 +1,4 @@
+You can use it to create VPN tunnels from these sorts 
+of devices to allow you to securely access resources in your internal networks.
+
+OpenVPN can also be configured to use several different authentication services.

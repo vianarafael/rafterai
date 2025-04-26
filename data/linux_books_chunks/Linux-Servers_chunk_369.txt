@@ -1,0 +1,27 @@
+The ip address of this server is 8.8.8.8 .
+
+Before the change:
+
+root@debian7:~# grep -A2 'forwarders {' /etc/bind/named.conf.options
+        // forwarders {
+        //      0.0.0.0;
+        // };
+
+changing:
+
+root@debian7:~# vi /etc/bind/named.conf.options
+
+After the change:
+
+root@debian7:~# grep -A2 'forwarders {' /etc/bind/named.conf.options
+         forwarders {
+                8.8.8.8;
+         };
+
+Restart the server:
+
+root@debian7:~# service bind9 restart
+Stopping domain name service...: bind9.
+Starting domain name service...: bind9.
+
+6.

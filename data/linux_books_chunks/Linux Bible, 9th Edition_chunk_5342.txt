@@ -1,0 +1,9 @@
+Type the following into the location box of a browser on a system on your net-
+
+work that can reach the FTP server (replace host with your system’s fully quali-
+ﬁ ed hostname or IP address):
+
+ftp://host/test
+
+If you cannot see the welcome message in your browser window, check what may 
+be preventing access.

@@ -1,0 +1,14 @@
+You can edit /etc/inittab so it
+looks like the screenshot below. Don't forget to also run kill -1 1.
+
+[root@RHEL5 ~]# grep tty /etc/inittab 
+# Run gettys in standard runlevels
+1:2345:respawn:/sbin/mingetty tty1
+2:2345:respawn:/sbin/mingetty tty2
+3:2:respawn:/sbin/mingetty tty3
+4:2:respawn:/sbin/mingetty tty4
+5:2:respawn:/sbin/mingetty tty5
+6:2:respawn:/sbin/mingetty tty6
+[root@RHEL5 ~]# 
+
+2.

@@ -1,0 +1,5 @@
+Finally, a volume group can contain any number of logical volumes, which are the LVM 
+equivalent of partitions.
+
+Both Ubuntu and CentOS have a graphical user interface (GUI) that you can use to manage disks, 
+but they do not support LVM (there is an application called “Disks”).

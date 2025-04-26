@@ -1,0 +1,6 @@
+We are also going to use the Let’s Encrypt staging 
+environment so that our testing will not impact their services.
+
+To install Certbot, we can see the instructions here: https://certbot.eff.org. We selected the 
+
+instructions for Apache and CentOS 7.

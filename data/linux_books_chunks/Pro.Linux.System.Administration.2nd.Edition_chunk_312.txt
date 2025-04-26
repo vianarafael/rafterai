@@ -1,0 +1,11 @@
+But because these virtual disks are just files on your host we can move them onto other storage 
+devices or clean them up if we start running out of space on our host.
+We are going to select Dynamically allocated and Continue.
+
+78
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-6.  Dynamically allocating disk
+
+The default disk size is 8GB.

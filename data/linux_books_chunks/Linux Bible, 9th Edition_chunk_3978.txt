@@ -1,0 +1,13 @@
+System tunable parameters 
+
+580
+
+c21.indd  04/01/2015  Page 581
+
+Chapter 21: Troubleshooting Linux
+
+can be changed if the default settings don’t work well for the types of applications 
+you have on your system.
+
+ ■ Uncovering problem applications or users—Sometimes, a system performs poorly 
+because a user or an application is doing something wrong.

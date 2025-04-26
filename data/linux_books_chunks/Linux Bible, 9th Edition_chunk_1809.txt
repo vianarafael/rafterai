@@ -1,0 +1,6 @@
+The command 
+best suited for working with the local RPM database is the rpm command.
+
+Downloading RPMs from a yum repository
+If you just want to examine a package without actually installing it, you can use the 
+ yumdownloader command.

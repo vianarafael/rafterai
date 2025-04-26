@@ -1,0 +1,8 @@
+We’ll also look at the generic-host template in a moment.
+
+dns-servers <- critical-servers <- linux-servers <- generic-host
+
+You can define the defaults you want in the generic-host template, override or add to those in linux-
+
+servers, override or add to those in critical-servers, and finally override or add to those definitions in 
+the dns-servers template.

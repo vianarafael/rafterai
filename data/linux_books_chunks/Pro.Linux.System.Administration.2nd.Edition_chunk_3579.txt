@@ -1,0 +1,6 @@
+Additionally, with the cheap cost of storage, it is no 
+longer an issue in most organizations to store e-mail centrally on a server or disk array.
+
+The major caveat is that if your users cannot connect to the IMAP server, they will not be able to retrieve 
+
+their e-mail.

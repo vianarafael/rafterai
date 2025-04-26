@@ -1,0 +1,6 @@
+Ansible playbooks are made up of sequential 
+tasks. As you step through each task, you execute a module.
+
+A module is an action that should be performed on target node. There is an extensive set of core 
+modules. They are called to manage files, packages, and services; they can also manage cloud service 
+infrastructure.

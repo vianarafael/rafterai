@@ -1,0 +1,8 @@
+In Fedora, you can start up the nfs-server service; in Red Hat 
+Enterprise Linux, you start the nfs service.
+
+3. Choose what to share from the server. Decide which ﬁ lesystems on your Linux NFS server 
+to make available to other computers. You can choose any point in the ﬁ lesystem and make 
+all ﬁ les and directories below that point accessible to other computers.
+
+4.

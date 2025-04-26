@@ -1,0 +1,10 @@
+If one end of your connection is a network device that supports connecting to 
+OpenVPN, then you’ll need to install the server only on the host that you will be using as the tunnel endpoint.
+
+We’re going to start by installing the server on our bastion host, gateway.example.com, which has the 
+internal IP address of 192.168.0.254 and external IP address of 192.0.2.155, in the head office branch of our 
+example network.
+
+OpenVPN works on both CentOS and Ubuntu, and it can be installed via normal package management 
+
+methods.

@@ -1,0 +1,6 @@
+It can help reject spam based on several elements (HELO, IP/DNS, to and 
+from, and so on). The other two DBLs work on the HELO (reject_rhsbl_helo) and sender (reject_rhsbl_
+sender), respectively.
+
+We have included the reject_unauth_pipelining restriction that rejects e-mails submitted using 
+a special technique called pipelining without checking to see whether pipelining is supported.

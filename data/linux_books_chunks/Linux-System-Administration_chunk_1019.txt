@@ -1,0 +1,9 @@
+dhclient
+
+Home and client Linux desktops often have /sbin/dhclient running. This is a daemon that
+enables a network interface to lease an ip configuration from a dhcp server. When your
+adapter is configured for dhcp or bootp, then /sbin/ifup will start the dhclient daemon.
+
+When a lease is renewed, dhclient will override your ifconfig set ip address!
+
+22.7.

@@ -1,0 +1,8 @@
+This command 
+line results in a line similar to the following being added to the /etc/passwd ﬁ le:
+
+sara:x:1002:1007:Sara Green:/home/sara:/bin/tcsh
+
+Each line in the /etc/passwd ﬁ le represents a single user account record. Each ﬁ eld 
+is  separated from the next by a colon (:) character. The ﬁ eld’s position in the sequence 
+determines what it is. The login name is ﬁ rst.

@@ -1,0 +1,5 @@
+To create an array, you need to specify create 
+mode, which RAID level you want to use, and which partitions need to become part of the array. Listing 9-13 
+shows how to create a RAID 1 array.
+
+Listing 9-13.

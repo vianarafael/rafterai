@@ -1,0 +1,4 @@
+192.168.
+
+Samba considers some of the services, demarcated in sections beginning with the [] brackets, to be 
+“special.” Specifically, [global], [printers], and [homes] describe special services.

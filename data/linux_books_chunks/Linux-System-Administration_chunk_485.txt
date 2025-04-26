@@ -1,0 +1,1 @@
+The demonstration starts with a 100MB partition named /dev/sde1.

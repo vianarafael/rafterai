@@ -1,0 +1,62 @@
+In the screenshot
+below eth0 has no ip address.
+
+root@ubu1010:~# ifconfig 
+eth0 Link encap:Ethernet  HWaddr 00:26:bb:5d:2e:52  
+     UP BROADCAST MULTICAST  MTU:1500  Metric:1
+     RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:1000 
+     RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+     Interrupt:43 Base address:0xe000 
+
+eth1 Link encap:Ethernet  HWaddr 00:26:bb:12:7a:5e  
+     inet addr:192.168.1.30  Bcast:192.168.1.255  Mask:255.255.255.0
+     inet6 addr: fe80::226:bbff:fe12:7a5e/64 Scope:Link
+     UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+     RX packets:11141791 errors:202 dropped:0 overruns:0 frame:11580126
+     TX packets:6473056 errors:3860 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:1000 
+     RX bytes:3476531617 (3.4 GB)  TX bytes:2114919475 (2.1 GB)
+     Interrupt:23 
+
+lo   Link encap:Local Loopback  
+     inet addr:127.0.0.1  Mask:255.0.0.0
+     inet6 addr: ::1/128 Scope:Host
+     UP LOOPBACK RUNNING  MTU:16436  Metric:1
+     RX packets:2879 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:2879 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:0 
+     RX bytes:486510 (486.5 KB)  TX bytes:486510 (486.5 KB)
+
+You can also use ifconfig to obtain information about just one network card.
+
+[root@rhel6 ~]# ifconfig eth0
+eth0 Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C  
+     inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+     inet6 addr: fe80::a00:27ff:fedd:d5c/64 Scope:Link
+     UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+     RX packets:2969 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:1918 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:1000 
+
+20
+
+interface configuration
+
+     RX bytes:335942 (328.0 KiB)  TX bytes:190157 (185.7 KiB)
+
+When /sbin is not in the $PATH of a normal user you will have to type the full path, as
+seen here on Debian.
+
+paul@debian5:~$ /sbin/ifconfig eth3
+eth3 Link encap:Ethernet  HWaddr 08:00:27:ab:67:30  
+     inet addr:192.168.1.29  Bcast:192.168.1.255  Mask:255.255.255.0
+     inet6 addr: fe80::a00:27ff:feab:6730/64 Scope:Link
+     UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+     RX packets:27155 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:30527 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:1000 
+     RX bytes:13095386 (12.4 MiB)  TX bytes:25767221 (24.5 MiB)
+
+2.4.1.

@@ -1,0 +1,9 @@
+To make it 
+easier to have the term root stand out on each line, the --color option is added. By 
+default, the matched term appears in red.
+
+$ grep -ri --color root /etc/sysconfig/
+
+To search the output of a command for a term, you can pipe the output to the grep 
+ command. In this example, I know that IP addresses are listed on output lines from the ip 
+command that include the string inet.

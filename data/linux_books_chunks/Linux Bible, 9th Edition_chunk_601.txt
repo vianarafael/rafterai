@@ -1,0 +1,5 @@
+To tell a command 
+to use a whole word as an option, you typically precede it with a double hyphen (--). For 
+example, to use the help option on many commands, you enter --help on the command 
+line. Without the double hyphen, the letters h, e, l, and p would be interpreted as separate 
+options.

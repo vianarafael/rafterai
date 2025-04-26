@@ -1,0 +1,8 @@
+Notice that the type select is hard; thus, the 
+limit of 50 processes cannot be exceeded. Of course, this limit is not enforced because the 
+line is commented out with a # symbol.
+
+#@faculty        hard    nproc           50
+
+Limit settings are set per login and only last for the duration of the login session. A 
+ malicious user could log in several times to create a fork bomb.

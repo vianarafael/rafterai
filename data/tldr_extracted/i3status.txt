@@ -1,0 +1,14 @@
+# i3status
+
+
+- Print the status line to `stdout` periodically, using the default configuration:
+
+`i3status`
+
+- Print the status line to `stdout` periodically, using a specific configuration:
+
+`i3status -c {{path/to/i3status.conf}}`
+
+- Display help and version:
+
+`i3status -h`

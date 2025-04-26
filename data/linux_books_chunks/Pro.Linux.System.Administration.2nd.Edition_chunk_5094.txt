@@ -1,0 +1,7 @@
+On CentOS, however, mail-related rsyslog entries are written to the maillog file. You 
+can check your host’s rsyslog.conf configuration file to determine where the information you want will be 
+written.
+
+Each line in the rsyslog.conf file is structured into two fields: a selector field and an action field. These 
+
+fields are separated by spaces or a tab.

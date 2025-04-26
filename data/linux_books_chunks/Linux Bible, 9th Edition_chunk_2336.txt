@@ -1,0 +1,6 @@
+Again, if you were to restore this directory, batch.1.gz would be 
+replaced by the actual at.1.gz ﬁ le instead of a link to it.
+
+ ■ Copy repeated unnecessarily—If you watched the second scp output, you would 
+notice that all ﬁ les were copied again, even though the exact ﬁ les being copied 
+were already on the target. The updated modiﬁ cation date conﬁ rms this.

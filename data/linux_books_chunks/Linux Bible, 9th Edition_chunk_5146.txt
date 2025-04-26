@@ -1,0 +1,9 @@
+If you have multiple image viewers on your system, right-click the icon and 
+select the application you want to use to open it.
+
+6.  Moving back and forth between the workspace with Firefox on it and the one with 
+
+the Nautilus ﬁ le manager is fairly straightforward.
+
+If you did the previous exercises properly, Nautilus and Firefox should be in 
+ different workspaces.

@@ -1,0 +1,23 @@
+Requiring Resources
+
+class ssh {
+    service { 'sshdaemon':
+        name => $facts['os']['name'] ? {
+            'CentOS' => 'sshd',
+            'Ubuntu' => 'ssh',
+            default   => 'ssh',
+        },
+        ensure => 'running',
+        require => File['/etc/ssh/sshd_config'],
+    }
+
+    file { '/etc/ssh/sshd_config':
+         owner  => 'root',
+         group   => 'root',
+         mode   => '0644',
+         source => 'puppet://modules/ssh/sshd_config',
+         notify   => Service['sshdaemon'],
+    }
+}
+
+Listing 19-13 shows a new class called ssh, which contains the service resource we created in Listing 19-12.

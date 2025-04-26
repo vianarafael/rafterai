@@ -1,0 +1,23 @@
+The example 
+that follows shows you how to use secon to view the current and the systemd process’s 
+security context.
+
+# secon -urt
+user: unconfined_u
+role: unconfined_r
+type: unconfined_t
+# secon -urt -p 1
+user: system_u
+role: system_r
+type: init_t
+
+24
+
+To view a ﬁ le’s security context, you use the -f option, as shown here:
+
+# secon -urt -f /etc/passwd
+user: system_u
+role: object_r
+type: etc_t
+
+A user’s security context is not viewed using the secon command.

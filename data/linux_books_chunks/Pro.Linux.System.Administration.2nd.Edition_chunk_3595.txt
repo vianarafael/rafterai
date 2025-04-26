@@ -1,0 +1,17 @@
+You will need to edit /etc/dovecot/conf.d/10-mail.conf.
+
+mail_location = maildir:~/Maildir
+
+This tells Dovecot we’re using Maildirs located in the user’s home directory, or ~, and in the directory 
+
+Maildir.
+
+Now we need to restart the Dovecot server, and then we can test to see whether we can make a 
+
+connection and retrieve our e-mail on our server, for example:
+
+$ sudo systemctl restart dovecot
+
+Testing Dovecot
+
+Now that we’ve configured Dovecot, we can enable a client and test its access.

@@ -1,0 +1,6 @@
+Also, as noted earlier, groups are created 
+automatically when a user account is created.
+
+Group ID numbers from 0 through 999 are assigned to special administrative groups. For 
+example, the root group is associated with GID 0. Regular groups begin at 1000 for Red 
+Hat Enterprise Linux and Fedora. On the ﬁ rst UNIX systems, GIDs went from 0 to 99.

@@ -1,0 +1,31 @@
+346
+
+ 
+ 
+ 
+ 
+ 
+c14.indd  04/01/2015  Page 347
+
+C H A P T E R 
+
+14
+
+Administering Networking
+
+IN THIS CHAPTER
+
+Automatically connecting Linux to a network
+
+Using NetworkManager for simple network connectivity
+
+Confi guring networking from the command line
+
+Working with network confi guration fi les
+
+Confi guring routing, DHCP, DNS, and other networking infrastructure features for the enterprise
+
+C onnecting a single desktop system or laptop to a network, particularly one that connects to 
+
+the Internet, has become so easy that I felt I could put off a full chapter on Linux networking 
+until now.

@@ -1,0 +1,10 @@
+On a virtual machine, create a swap partition (you might need an extra virtual disk for this).
+
+4. Add a 20 megabyte swap file to the system.
+
+5.  Put  all  swap  spaces  in  /etc/fstab  and  activate  them.  Test  with  a  reboot  that  they  are
+mounted.
+
+6. Use free to verify usage of current swap.
+
+7.

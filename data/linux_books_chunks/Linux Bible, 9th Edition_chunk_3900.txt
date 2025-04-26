@@ -1,0 +1,7 @@
+After 
+the upgrade is done, you can often add the package back in, using a version of the 
+package that may be more consistent with the new repositories you are using.
+
+Using cron for Software Updates
+The cron facility provides a means of running commands at predetermined times and intervals. You 
+can set the exact minute, hour, day, or month that a command runs.

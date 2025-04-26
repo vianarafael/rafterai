@@ -1,0 +1,8 @@
+Use this option to create two internal networks. I named them
+leftnet and rightnet, but you can choose any other name.
+
+1. Set up two Linux machines, one on leftnet, the other on rightnet. Make sure they both
+get an ip-address in the correct subnet. These two machines will be 'left' and 'right' from
+the 'router'.
+
+2.

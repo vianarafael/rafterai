@@ -1,0 +1,32 @@
+To ﬁ nd out how 
+to do this, go to the Ubuntu Download page and under “Easy ways to switch to 
+
+ A
+
+779
+
+ 
+ 
+bapp01.indd  04/02/2015  Page 780
+
+Appendix A: Media
+
+Ubuntu,” look for the appropriate “How to create a bootable USB stick...” proce-
+dure for Ubuntu, Windows, or Mac OS X: http://www.ubuntu.com/download/
+ubuntu/downloaddesktop.
+
+Visit the Linux Bible website
+To fi nd links to various Linux distributions and other useful content related to Linux, go to the Linux 
+Bible, Ninth Edition website: http://www.wiley.com/go/linuxbible 9 .
+
+780
+
+bapp02.indd  04/01/2015  Page 781
+
+A P P E N D I X 
+
+B
+
+Exercise Answers
+
+This appendix provides answers to each of the chapter exercises.

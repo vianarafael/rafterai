@@ -1,0 +1,30 @@
+route
+
+You can see the computer's local routing table with the /sbin/route command (and also with
+netstat -r ).
+
+root@RHEL4b ~]# netstat -r
+Kernel IP routing table
+Destination     Gateway   Genmask         Flags   MSS Window  irtt Iface
+192.168.1.0     *         255.255.255.0   U         0 0          0 eth0
+[root@RHEL4b ~]# route
+Kernel IP routing table
+Destination     Gateway   Genmask         Flags Metric Ref    Use Iface
+192.168.1.0     *         255.255.255.0   U     0      0        0 eth0
+[root@RHEL4b ~]#
+
+It appears this computer does not have a gateway configured, so we use route add default
+gw to add a default gateway on the fly.
+
+[root@RHEL4b ~]# route add default gw 192.168.1.1
+[root@RHEL4b ~]# route
+Kernel IP routing table
+Destination     Gateway      Genmask        Flags Metric Ref  Use Iface
+192.168.1.0     *            255.255.255.0  U     0      0      0 eth0
+default         192.168.1.1  0.0.0.0        UG    0      0      0 eth0
+[root@RHEL4b ~]#
+
+Unless you configure the gateway in one of the /etc/ file from the start of this chapter, your
+computer will forget this gateway after a reboot.
+
+2.10.

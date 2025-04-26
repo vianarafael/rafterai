@@ -1,0 +1,14 @@
+(See “Killing 
+processes with kill and killall” later in this chapter for more information on using 
+different signals you can send to processes.)
+
+141
+
+c06.indd  04/01/2015  Page 142
+
+Part II: Becoming a Linux Power User
+
+Listing processes with System Monitor
+If you have GNOME desktop available on your Linux system, System Monitor (gnome- 
+system-monitor) is available to provide a more graphical way of displaying processes on 
+your system.

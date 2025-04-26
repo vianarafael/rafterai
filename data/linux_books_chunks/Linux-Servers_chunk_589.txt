@@ -1,0 +1,16 @@
+A solution can be the use of a NetBIOS name server (NBNS) like WINS (Windows
+Internet Naming Service).
+
+143
+
+introduction to samba
+
+9.7. practice: introduction to samba
+
+0. !! Make sure you know your student number, anything *ANYTHING* you name must
+include your student number!
+
+1. Verify that you can logon to a Linux/Unix computer. Write down the name and ip address
+of this computer.
+
+2.

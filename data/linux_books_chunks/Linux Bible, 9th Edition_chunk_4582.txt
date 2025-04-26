@@ -1,0 +1,8 @@
+Possible values are:
+#      targeted - Only targeted network daemons are protected.
+#      strict - Full SELinux protection.
+SELINUXTYPE=mls
+
+Do not be fooled by the out-of-date comments in the SELinux confi guration fi le. You cannot set SELINUXTYPE to 
+strict in newer Linux distributions. If you do, the system hangs on the next reboot and you must use grub com-
+mands to fi x the problem.

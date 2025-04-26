@@ -1,0 +1,6 @@
+Using tools such as the useradd and usermod 
+ commands, you can assign settings such as the location of a home directory, a default shell, a default 
+group, and speciﬁ c user ID and group ID values.
+
+Creating User Accounts
+Every person who uses your Linux system should have a separate user account.

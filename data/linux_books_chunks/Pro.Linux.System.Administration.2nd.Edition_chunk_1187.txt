@@ -1,0 +1,8 @@
+If we remember that the [Install] section contains directives that tells systemctl to create the 
+symlink or remove the symlink when we enable or disable the service, it is this option that tells systemctl to 
+remove the symlink when we disable the service.
+
+Enabling Services
+
+Now that we have done that, we want to enable the service so that it starts automatically when our system 
+boots.

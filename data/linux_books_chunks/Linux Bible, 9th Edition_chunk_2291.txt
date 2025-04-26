@@ -1,0 +1,10 @@
+For more information on rpm -V, refer to the description of rpm -V in 
+Chapter 10, “Getting and Managing Software.”
+
+Now that you have an overview of how Linux server conﬁ guration is done, the next 
+ sections of this chapter focus on the tools you need to access, secure, and maintain your 
+Linux server systems.
+
+Managing Remote Access with the Secure Shell Service
+The Secure Shell tools are a set of client and server applications that allow you to do basic 
+communications between client computers and your Linux server.

@@ -1,0 +1,9 @@
+Notice that the process ID (PID) is still 2490, which is the same as it was in the 
+example for restarting the cups daemon because the process was not stopped and 
+started in the reload process.
+
+# initctl reload cups
+# initctl status cups
+cups start/running, process 2490
+
+You need root privileges to stop and start services.

@@ -1,0 +1,15 @@
+Our 
+host needs to match the following configuration:
+
+$ hostname –s
+dc1
+$ hostname –d
+samba.example.com
+
+It is a good idea to add dc1.samba.example.com to your /etc/hosts file too.
+
+127.0.0.1   localhost dc1 dc1.samba.example.com
+
+Also, because we are going to let Samba manage its own DNS subdomain, we need to allow it access to 
+
+bind configuration.

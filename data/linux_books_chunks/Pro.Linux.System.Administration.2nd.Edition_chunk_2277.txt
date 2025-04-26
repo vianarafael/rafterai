@@ -1,0 +1,17 @@
+Should a disk in an array fail, its place can be 
+
+immediately taken over by the spare disk.
+
+It’s possible to run raId without any spare devices, but you will then need to replace a failed device 
+
+ ■ Note 
+immediately, to avoid data loss.
+
+Striping and Mirroring
+
+The most basic way to use RAID is with two disks, which gives you the option to use either RAID level 0 or 
+RAID level 1.
+
+RAID 0, which is also known as striping, causes Linux to see the two disks as a combined disk of twice 
+
+the size.

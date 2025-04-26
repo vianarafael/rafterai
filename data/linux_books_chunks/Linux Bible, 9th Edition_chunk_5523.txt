@@ -1,0 +1,4 @@
+However, it does not 
+include the work’s System Libraries, or general-purpose tools or generally available free 
+programs which are used unmodiﬁ ed in performing those activities but which are not part 
+of the work.

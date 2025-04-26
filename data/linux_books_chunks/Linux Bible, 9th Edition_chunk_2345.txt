@@ -1,0 +1,4 @@
+Using sftp, 
+you can connect to a remote system over SSH, change directories, list directory  contents, and 
+then (given proper permission) get ﬁ les from and put ﬁ les on the server. Keep in mind that, 
+despite its name, sftp has nothing to do with the FTP protocol and doesn’t use FTP servers.

@@ -1,0 +1,14 @@
+For example:
+
+$ umask
+0002
+
+112
+
+c04.indd  04/01/2015  Page 113
+
+Chapter 4: Moving around the Filesystem
+
+If you ignore the leading zero for the moment, the umask value masks what is considered 
+to be fully opened permissions for a ﬁ le 666 or a directory 777. The umask value of 002 
+results in permission for a directory of 775 (rwxrwxr-x).

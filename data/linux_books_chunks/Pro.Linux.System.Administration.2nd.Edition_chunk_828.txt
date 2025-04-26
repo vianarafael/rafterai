@@ -1,0 +1,4 @@
+The values between the brackets[ ] indicate the 
+current values to which this user’s password aging is set.
+
+Listing 5-10.

@@ -1,0 +1,5 @@
+Ext3, ext4, and XFS are such journaled filesystems, and thus don’t have the 
+long recovery wait time that ext2 does. See the sidebar “Journaled Filesystems” for more information.
+
+With lessons learned from ext3, a further advancement, ext4, was developed. It offers some features not 
+available in ext3, such as online defragmentation, better journal reliability, and faster filesystem checks.

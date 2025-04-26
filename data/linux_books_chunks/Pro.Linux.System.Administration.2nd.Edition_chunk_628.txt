@@ -1,0 +1,11 @@
+You can find out more about Unix epoch time at http://en.wikipedia.org/wiki/
+Unix_time.
+
+ This is just one way to set the time, and we’ll discuss other more effective methods such as network 
+
+ ■ Note 
+Time protocol in Chapter 10.
+
+Working with Files
+So, in the course of exploring our simple file listing, we’ve covered a lot of concepts, introduced you to some 
+Linux commands, and taught you how to perform a few key administrative tasks.

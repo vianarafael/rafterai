@@ -1,0 +1,8 @@
+Servers 
+that synchronize off stratum 1 servers are stratum 2 servers, and so on.
+
+ ■ Note  You can read more about ntp strata at http://www.akadia.com/services/ntp_synchronize.html.
+
+You can make use of NTP servers in two ways. One is by running a client utility called ntpdate that 
+
+synchronizes the system clock each time you run it.

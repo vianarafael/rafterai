@@ -1,0 +1,19 @@
+So the delay below is three seconds, not thirty!
+
+boot = /dev/hda
+delay = 30
+
+image = /boot/vmlinuz
+  root = /dev/hda1
+  label = Red Hat 5.2
+
+image = /boot/vmlinuz
+  root = /dev/hda2
+  label = S.U.S.E. 8.0
+
+other = /dev/hda4
+  table = /dev/hda
+  label = MS-DOS 6.22
+
+The configration file shows three example stanzas. The first one boots Red Hat from the first
+partition on the first disk (hda1).

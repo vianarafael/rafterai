@@ -1,0 +1,5 @@
+The anaconda 
+installer automatically adds ACL support to every ﬁ lesystem it creates during install time. 
+To check that the acl option has been added to a ﬁ lesystem, determine the device name 
+associated with the ﬁ lesystem, and run the tune2fs -l command to view the implanted 
+mount options.

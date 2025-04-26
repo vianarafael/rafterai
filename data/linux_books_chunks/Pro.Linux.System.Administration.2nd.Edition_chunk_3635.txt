@@ -1,0 +1,8 @@
+NFS on its own does not 
+provide any user authentication, but it can be integrated into a Kerberos domain for authentication. This is 
+complicated to set up, and we will not attempt to cover it in this book.
+
+Next, we give you an up-close look at Samba.
+
+Samba
+Samba is a file-sharing and printing service for Linux.

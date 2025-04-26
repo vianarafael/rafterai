@@ -1,0 +1,10 @@
+Test that it works.
+
+91
+
+Chapter 10. introduction to raid
+
+10.1. hardware or software
+
+Redundant Array of Independent (originally Inexpensive) Disks or RAID can be set up using
+hardware or software.

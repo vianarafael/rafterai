@@ -1,0 +1,11 @@
+In 
+Unity desktop there is an application store, Ubuntu Software, and it is very similar to the one we saw in our 
+CentOS desktop.
+
+335
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+You can skip this section if you don’t have the Unity desktop installed on your server. Most servers sit in 
+a rack without a screen or keyboard attached, so installing a large and complex desktop environment makes 
+no sense.

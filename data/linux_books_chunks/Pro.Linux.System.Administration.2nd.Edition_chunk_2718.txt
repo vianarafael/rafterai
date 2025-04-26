@@ -1,0 +1,7 @@
+On a 
+
+host that we’d like to be named au-mel-centos-2.example.com, we add the following:
+
+send host-name "au-mel-centos-2";
+
+ ■ Note  the configuration in /etc/dhclient.conf is applied to all network interfaces.

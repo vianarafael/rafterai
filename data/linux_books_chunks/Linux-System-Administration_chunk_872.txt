@@ -1,0 +1,9 @@
+.rpm packages
+
+Red Hat, Fedora, CentOS, OpenSUSE, Mandriva, Red Flag and others use .rpm packages.
+The tools to manage software packages on these systems are yum and rpm.
+
+20.1.4. dependency
+
+Some packages need other packages to function. Tools like apt-get, aptitude and yum will
+install all dependencies you need.

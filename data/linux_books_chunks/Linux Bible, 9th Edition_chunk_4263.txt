@@ -1,0 +1,8 @@
+A 
+parent may take the plaintext word “candy” and turn it into cipher text by saying to the 
+other parent “C-A-N-D-Y.” The other parent decrypts the word by using the same spelling 
+cipher, and recognizes the word is “candy.” Unfortunately, it does not take children long to 
+learn how to decrypt via the spelling cipher.
+
+You may have noticed that hashing was not included in the preceding cryptography deﬁ ni-
+tion list.

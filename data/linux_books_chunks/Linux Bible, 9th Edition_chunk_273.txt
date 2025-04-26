@@ -1,0 +1,5 @@
+As a user, you could step through some simple questions, in most cases accepting 
+defaults, to install Red Hat Linux.
+
+ ■ Graphical administration—Red Hat added simple graphical tools to conﬁ gure 
+printers, add users, set time and date, and do other basic administrative tasks.

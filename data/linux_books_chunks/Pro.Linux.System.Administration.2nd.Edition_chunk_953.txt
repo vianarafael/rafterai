@@ -1,0 +1,8 @@
+On Ubuntu this group is called admin 
+rather than wheel.
+
+%wheel ALL=(ALL) ALL
+
+Additionally, the sudoers file itself has a number of options and defaults you can define to change 
+the behavior of the sudo command. For example, you can configure sudo to send e-mail when the sudo 
+command is used.

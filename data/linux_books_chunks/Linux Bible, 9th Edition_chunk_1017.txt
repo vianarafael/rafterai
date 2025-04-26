@@ -1,0 +1,9 @@
+In the 
+ following example, all lines from the /etc/services ﬁ le are displayed except those 
+ containing the text tcp (case-insensitive):
+
+$ grep -vi tcp /etc/services
+
+To do recursive searches, use the -r option and a directory as an argument. The following 
+example includes the -l option, which just lists ﬁ les that include the search text, without 
+showing the actual lines of text.

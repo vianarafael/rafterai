@@ -1,0 +1,24 @@
+Their placement in this ﬁ le is extremely important.
+
+# cat system-auth-local
+#%PAM-1.0
+# Local system-auth file.
+# Changes will not be destroyed by authconfig
+auth        required      pam_tally2.so deny=3 quiet
+auth        required      pam_env.so
+auth        sufficient    pam_fprintd.so
+auth        sufficient    pam_unix.so nullok try_first_pass
+auth        requisite     pam_succeed_if.so uid >= 1000 quiet
+auth        required      pam_deny.so
+
+account     required      pam_tally2.so
+account     required      pam_unix.so
+account     sufficient    pam_localuser.so
+account     sufficient    pam_succeed_if.so uid < 1000 quiet
+account     required      pam_permit.so
+...
+
+23
+
+Make a backup copy of system-auth-local, and test your changes in a test environment before you make 
+changes to your production Linux system.

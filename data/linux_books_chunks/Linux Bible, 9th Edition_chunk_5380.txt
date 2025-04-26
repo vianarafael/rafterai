@@ -1,0 +1,9 @@
+To create a directory called /var/remote and temporarily mount the /var/
+
+mystuff directory from the NFS server (named nfsserver in this example) on 
+that mount point, type the following as root user from the NFS client:
+
+# mkdir /var/remote
+# mount -t nfs nfsserver:/var/mystuff /var/remote
+
+9.

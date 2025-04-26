@@ -1,0 +1,8 @@
+Making no changes to the SELinux primary conﬁ guration ﬁ le, write down the 
+command to set your system into the Permissive Operating Mode for SELinux.
+
+2.  Making no changes to the SELinux primary conﬁ guration ﬁ le, write down the 
+
+command to set your system into the Enforcing mode for SELinux.
+
+3.

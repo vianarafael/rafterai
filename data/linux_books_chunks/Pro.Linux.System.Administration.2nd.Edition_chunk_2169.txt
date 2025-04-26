@@ -1,0 +1,7 @@
+If you 
+are mainly storing files smaller than 4 KB in size, you might opt to use a different, smaller, block size 
+for your filesystem. Likewise, if your files are expected to be much larger than 4 KB you might choose a 
+larger block size.
+
+It is important to trial and test the performance of different block sizes when you are setting up servers 
+for specific tasks.

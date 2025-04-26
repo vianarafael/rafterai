@@ -1,0 +1,18 @@
+Getting the 
+output will do two things: confirm that our username and password are working correctly and that the 
+scripts actually did create some tables.
+
+ ■ Note 
+ you can find additional information on using Bareos with MySQL and MariadB at  
+http://doc.bareos.org/master/html/bareos-manual-main-reference.html#x1-41100032.1.2.
+
+Other things to be aware of are that the /data/backups/bareos/FileStorage directory must exist, and 
+
+it must also be writable by the Bareos user, as should the /var/log/bareos.log file.
+
+669
+
+Chapter 14 ■ BaCkup and reCovery
+
+Configuring Bareos
+We’ll now examine the configuration files that need to be defined for your Bareos server.

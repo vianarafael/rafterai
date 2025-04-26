@@ -1,0 +1,14 @@
+hostname
+
+Every host receives a hostname, often placed in a DNS name space forming the fqdn or
+Fully Qualified Domain Name.
+
+This screenshot shows the hostname command and the configuration of the hostname on
+Red Hat/Fedora.
+
+[root@rhel6 ~]# grep HOSTNAME /etc/sysconfig/network
+HOSTNAME=rhel6
+[root@rhel6 ~]# hostname
+rhel6
+
+Starting with RHEL7/CentOS7 this file is empty.

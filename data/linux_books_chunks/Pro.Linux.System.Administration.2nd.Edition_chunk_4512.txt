@@ -1,0 +1,5 @@
+In a production environment, we recommend setting this value to 0 and, if you want, using 
+the audit overlay to monitor what is happening to your installation (an overlay being a software module that 
+can hook into the back end to provide particular information, in this case an audit trail).
+
+We will like to set our logging level to 480.

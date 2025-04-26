@@ -1,0 +1,2 @@
+The search is done by 
+base name of the ﬁ le; the directory names are not searched by default.

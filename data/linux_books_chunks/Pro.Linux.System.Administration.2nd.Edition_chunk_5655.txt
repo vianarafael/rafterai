@@ -1,0 +1,7 @@
+It will continue to 
+check for a signed certificate every 15 seconds until it receives one or is canceled (using Ctrl+C or the like).
+
+ ■ Note  You can change the time the puppet client will wait using the --waitforcert option like we have 
+done. You can specify a time in seconds or 0 to not wait for a certificate.
+
+Now on the master, we need to sign the certificate.

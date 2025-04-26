@@ -1,0 +1,8 @@
+On Red Hat-derived systems you find Chrony.
+
+417
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D. Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_10Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Time with timedatectl
+We would like to show you how to manage time on your Linux server with the timedatactl command.

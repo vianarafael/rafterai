@@ -1,0 +1,6 @@
+Limiting the transfer rate 
+to 50000 (bytes per second) with anon_max_rate can improve overall performance of the 
+server by limiting how much bandwidth each client can consume.
+
+Using FTP Clients to Connect to Your Server
+Many client programs come with Linux that you can use to connect to your FTP server.

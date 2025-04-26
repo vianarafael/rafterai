@@ -1,0 +1,5 @@
+The ﬁ rst Linux systems were accessed from a command-line interpreter 
+called a shell. Today, graphical desktop interfaces are commonly available as well.
+
+ ■ Controlling filesystems—Filesystem structures are built into the operating system 
+(or loaded as modules).

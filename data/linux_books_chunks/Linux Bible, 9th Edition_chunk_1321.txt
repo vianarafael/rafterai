@@ -1,0 +1,5 @@
+If you open such a confi guration fi le in vim, notice that different elements of the fi le are shown in different 
+colors. In particular, you can see comment lines in a different color than data.
+
+Throughout this book, you’ll ﬁ nd descriptions of the conﬁ guration ﬁ les you need to 
+set up the different features that make up Linux systems.

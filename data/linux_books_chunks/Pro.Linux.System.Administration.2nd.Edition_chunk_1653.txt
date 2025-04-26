@@ -1,0 +1,6 @@
+This can be used to clear any existing rules before you add a fresh set.
+
+ we are going to show you how to save your iptables shortly, and that is something you might want to 
+
+ ■ Note 
+do before this next step if you don’t want to lose your current set.

@@ -1,0 +1,5 @@
+Another popular tool that has a similar purpose is Apt (https://
+wiki.debian.org/Apt).
+
+The dpkg tool is the base command-line tool used to install and remove packages. Aptitude uses dpkg 
+internally to manage packages.

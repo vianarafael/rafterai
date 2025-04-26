@@ -1,0 +1,4 @@
+In the future if we migrate mail services to a different host, we only need to change the A 
+record and all CNAME entries will automatically point at the new address as well.
+
+Listing 10-20.

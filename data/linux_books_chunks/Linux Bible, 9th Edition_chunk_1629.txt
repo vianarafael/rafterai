@@ -1,0 +1,15 @@
+The boot loader that is installed by 
+default with Red Hat Enterprise Linux systems is the GRand Uniﬁ ed Boot loader (GRUB).
+
+GRUB Legacy is a GNU boot loader (http://www.gnu.org/software/grub) that offers 
+the following features:
+
+ ■ Support for multiple executable formats.
+
+ ■ Support for multi-boot operating systems (such as Fedora, RHEL, FreeBSD, NetBSD, 
+
+OpenBSD, and other Linux systems).
+
+ ■ Support for non-multi-boot operating systems (such as Windows 95, Windows 98, 
+Windows NT, Windows ME, Windows XP, Windows Vista, Windows 7, and OS/2) via 
+a chain-loading function.

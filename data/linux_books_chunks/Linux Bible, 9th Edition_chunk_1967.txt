@@ -1,0 +1,12 @@
+For example:
+
+11
+
+# mount | grep home
+/dev/mapper/mybox-home on /home type ext4 (rw)
+# tune2fs -l /dev/mapper/mybox-home | grep "mount options"
+Default mount options:    user_xattr acl
+
+First, I typed the mount command to see a list of all ﬁ lesystems that are currently mounted, 
+limiting the output by grepping for the word home (because I was looking for the ﬁ lesystem 
+mounted on /home).

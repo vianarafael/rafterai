@@ -1,0 +1,6 @@
+You can configure it manually, 
+
+ ■ Note 
+allowing it to request a random iP in a pool of addresses, and allowing it to request an assigned iP address that 
+it is guaranteed to get. For important iP addresses like network gateways you should always manually configure 
+it or make sure they always receive a known guaranteed address.

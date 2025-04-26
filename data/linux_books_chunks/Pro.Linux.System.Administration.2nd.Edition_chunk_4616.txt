@@ -1,0 +1,15 @@
+This setting will give the users the ability to change their own attribute details that define their 
+personal information, whereas read access does not.
+
+In the following code, we grant access to the ou=groups branch where we will hold all our group 
+
+information.
+
+to dn.children="ou=groups,dc=example,dc=com"
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" read
+        by group.exact="cn=admins,ou=groups,dc=example,dc=com" write
+        by anonymous read
+
+As you can see, this is similar to the ou=people branch with the same administrator accounts having 
+
+the same access.

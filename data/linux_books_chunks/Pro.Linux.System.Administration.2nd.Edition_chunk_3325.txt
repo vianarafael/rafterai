@@ -1,0 +1,8 @@
+Spammers make extensive use of open relays to pollute the Internet with unwanted 
+e-mail.
+
+ Open relays are highly problematic, and incorrect configuration that results in your server 
+
+ ■ Caution 
+becoming an open relay can be greatly troublesome for your organization. Open relays generally get blacklisted 
+when they are detected.

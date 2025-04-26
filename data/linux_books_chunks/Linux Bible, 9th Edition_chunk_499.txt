@@ -1,0 +1,38 @@
+Figure 2.16 shows the 
+Panel menu on the top.
+
+FIGURE 2.16
+
+The GNOME Panel menu.
+
+From GNOME’s Panel menu, you can choose from a variety of functions, including these:
+
+ ■ Use the menus
+
+ ■ The Applications menu displays most of the applications and system tools you 
+
+will use from the desktop.
+
+ ■ The Places menu lets you select places to go, such as the Desktop folder, home 
+
+folder, removable media, or network locations.
+
+ ■ The System menu lets you change preferences and system settings, as well as 
+
+get other information about GNOME.
+
+53
+
+c02.indd  04/01/2015  Page 54
+
+Part I: Getting Started
+
+ ■ Add to Panel—Add an applet, menu, launcher, drawer, or button.
+
+ ■ Properties—Change the panel’s position, size, and background properties.
+
+ ■ Delete This Panel—Delete the current panel.
+
+ ■ New Panel—Add panels to your desktop in different styles and locations.
+
+You can also work with items on a panel.

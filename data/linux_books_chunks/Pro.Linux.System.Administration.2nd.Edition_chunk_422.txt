@@ -1,0 +1,7 @@
+Once you’re booted up, you can also switch between these two modes, 
+and we’ll discuss how to do that in the section “Shells” later in this chapter and in some more detail in 
+Chapter 5.
+
+On Linux the GUI is a combination of several applications. The basic application is called the X Window 
+
+System (you’ll also see it called X11 or simply X).

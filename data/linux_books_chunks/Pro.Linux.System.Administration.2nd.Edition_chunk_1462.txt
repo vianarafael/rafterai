@@ -1,0 +1,4 @@
+What the output from this command shows is that our first hop (each host/router we pass through is called 
+a hop) is our firewall router. Next is the default gateway of our Internet connection at our ISP. As we pass 
+through each hop along the way, we record information about our route. At the penultimate hop, we reach 
+the IBM gateway.

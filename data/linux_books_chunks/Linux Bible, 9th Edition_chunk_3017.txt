@@ -1,0 +1,19 @@
+The following 
+example from a printers.conf entry earlier in this chapter demonstrates what the new 
+entry would look like:
+
+<DefaultPrinter printer>
+Info HP LaserJet 2100M
+Location HP LaserJet 2100M in hall closet
+DeviceURI parallel:/dev/lp0
+State Idle
+Accepting Yes
+Shared Yes
+JobSheets none none
+QuotaPeriod 0
+PageLimit 0
+KLimit 0
+</Printer>
+
+On Linux systems that use the Print Settings window described earlier in this chapter, 
+it’s best to set up your printer as a shared printer using that window.

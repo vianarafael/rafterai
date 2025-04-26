@@ -1,0 +1,4 @@
+If you need to restore those 
+ﬁ les later, you can put them back exactly as they were.
+
+This use of rsync is good for backups.

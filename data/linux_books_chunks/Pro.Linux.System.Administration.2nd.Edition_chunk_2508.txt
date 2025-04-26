@@ -1,0 +1,9 @@
+IN       A
+
+;; ANSWER SECTION:
+www.google.com.        41     IN      A       150.101.161.153
+www.google.com.        41     IN      A       150.101.161.159
+www.google.com.        41     IN      A       150.101.161.160
+www.google.com.        41     IN      A       150.101.161.166
+www.google.com.        41     IN      A       150.101.161.167
+www.google.com.

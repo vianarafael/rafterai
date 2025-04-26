@@ -1,0 +1,4 @@
+It uses SSH as its transport mechanism, which means 
+
+there is no certificate management like with Puppet; instead, you use your existing SSH key management to 
+provide secure transport. It works by sending an Ansible payload (a playbook) via SSH to the target server.

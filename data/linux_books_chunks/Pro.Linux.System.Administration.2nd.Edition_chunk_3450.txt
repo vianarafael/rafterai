@@ -1,0 +1,6 @@
+One is to scan your user’s incoming e-mail using an MDA before delivering them to the user. 
+The spam filter then usually adds a header to the e-mail, which your MDA detects, and directs spam e-mail 
+to a particular folder.
+
+Another method is to analyze the e-mail while it is still inside the MTA. This allows us to pass the e-mail 
+from Postfix’s mail queue to SpamAssassin.

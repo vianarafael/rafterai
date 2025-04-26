@@ -1,0 +1,7 @@
+NS > db.root.
+
+Let’s now take a look at the /etc/named.conf file (see Listing 10-15) that is installed when we install the 
+
+BIND package on CentOS.
+
+Listing 10-15.

@@ -1,0 +1,7 @@
+However, it would be prudent 
+now to stop that mail from getting through and being mistakenly opened by someone.
+
+Getting Help with ClamAV
+
+You can find a variety of resources for troubleshooting ClamAV. You should start with the ClamAV home 
+page (www.clamav.net/).

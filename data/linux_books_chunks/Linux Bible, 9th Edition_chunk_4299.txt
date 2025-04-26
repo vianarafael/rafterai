@@ -1,0 +1,9 @@
+In this case, the user johndoe chose the ﬁ lename JohnDoe.pub.
+
+$ gpg2 --export John Doe > JohnDoe.pub
+$ ls *.pub
+JohnDoe.pub
+
+The ﬁ le containing the public key can be shared any number of ways. It can be sent as an 
+attachment via email or even posted on a web page. The public key is considered public, 
+so there is no need to hide it.

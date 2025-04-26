@@ -1,0 +1,23 @@
+Notice the difference with the usual
+commands.
+
+[paul@rhel53 pipes]$ renice +15 4025
+4025: old priority 10, new priority 15
+[paul@rhel53 pipes]$ renice +15 4026
+
+20
+
+process priorities
+
+4026: old priority 10, new priority 15
+
+[paul@rhel53 pipes]$ ps -C cat -o pid,ppid,pri,ni,comm
+  PID  PPID PRI  NI COMMAND
+ 4013  3947  14   0 cat
+ 4016  3947  21   0 cat
+ 4025  3947   9  15 cat
+ 4026  3947   8  15 cat
+
+21
+
+Chapter 3.

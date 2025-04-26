@@ -1,0 +1,10 @@
+Now 
+the pam_time module checks login restrictions you set within the /etc/security/
+time.conf ﬁ le.
+
+account    required   pam_time.so
+
+On Ubuntu, you need to modify the /etc/pam.d/common-auth fi le instead of the system-auth 
+ confi guration fi le.
+
+Remember that system-auth is a symbolically linked ﬁ le.

@@ -1,0 +1,14 @@
+Serverspec will take these plain descriptions and handle how it 
+will validate our tests.
+
+We will remove the second last test describing a Darwin family operating system (Mac OS), but the rest 
+
+of the tests suit our purpose well.
+
+977
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Running Tests
+
+Let’s start by running our tests; we can then see the work we need to do to get our tests to pass.

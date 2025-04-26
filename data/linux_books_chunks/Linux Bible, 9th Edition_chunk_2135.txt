@@ -1,0 +1,16 @@
+Note how much space is currently on the logical volume, and then check that space 
+
+is available in the logical volume’s volume group:
+
+# vgdisplay myvg0
+...
+  VG Size               396.00 MiB
+  PE Size               4.00 MiB
+  Total PE              99
+  Alloc PE / Size       25 / 100.00 MiB
+  Free  PE / Size       74 / 296.00 MiB
+# df -h /mnt/mymusic/
+Filesystem                 Size  Used Avail Use% Mounted on
+/dev/mapper/myvg0-music     97M  5.6M   87M   7% /mnt/mymusic
+
+2.

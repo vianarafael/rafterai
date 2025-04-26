@@ -1,0 +1,18 @@
+Also, both the physical memory slots on the computer and the computer 
+
+581
+
+c21.indd  04/01/2015  Page 582
+
+Part IV: Becoming a Linux Server Administrator
+
+system itself (64-bit computers can address more RAM than 32-bit computers) can 
+limit how much RAM a computer is capable of having.
+
+ ■ More expensive—Although RAM is tremendously more affordable than it was a 
+decade or two ago, it is still much more expensive (per GB) than hard disks.
+
+ ■ Temporary—RAM holds data and metadata that the CPU is using now for the 
+
+work it is doing (plus some content the Linux kernel is keeping around because 
+it  suspects a process will need it before long).

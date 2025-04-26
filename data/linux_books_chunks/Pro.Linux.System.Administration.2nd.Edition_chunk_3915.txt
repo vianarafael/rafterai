@@ -1,0 +1,6 @@
+It is because of this use 
+of ssh that we can provide secure, efficient copying of data from hosts in hostile environments such as the 
+Internet.
+
+The rsync program is a fast and efficient way of copying data because it copies only data that has 
+changed from the initial copy.

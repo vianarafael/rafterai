@@ -1,0 +1,12 @@
+However, as shown in the example that follows, the service is successfully started 
+when a restart is attempted.
+
+# service cups stop
+Stopping cups:           [  OK  ]
+# service cups restart
+Stopping cups:           [FAILED]
+Starting cups:           [  OK  ]
+# service cups status
+cupsd (pid 8236) is running...
+
+Reloading a service is different from restarting a service.

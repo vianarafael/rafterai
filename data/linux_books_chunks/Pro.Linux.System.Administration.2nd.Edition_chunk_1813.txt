@@ -1,0 +1,13 @@
+You can also pass –v 
+or use the repoinfo command for more information.
+
+Next, we’ll look at each action and how we might use it.
+
+307
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Installing a Package with YUM
+
+Let’s get started with YUM by trying to install a package. In a normal situation, we would first search for 
+the package to make sure it’s available.

@@ -1,0 +1,16 @@
+mkdir
+
+This example shows how to create a new mount point with mkdir.
+
+root@RHELv4u2:~# mkdir /home/project42
+
+7.1.2. mount
+
+When the mount point is created, and a file system is present on the partition, then mount
+can mount the file system on the mount point directory.
+
+root@RHELv4u2:~# mount -t ext2 /dev/sdb1 /home/project42/
+
+Once mounted, the new file system is accessible to users.
+
+7.1.3.

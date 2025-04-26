@@ -1,0 +1,6 @@
+Instead of multiple drives, for example, C:\ and D:\, 
+with separate directory trees beneath them, all drives, partitions, and storage are located off the root, or /, 
+directory.
+
+How does this work? Linux drives and devices are mounted (this can occur automatically when 
+you boot, or you can do it manually).

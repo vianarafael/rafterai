@@ -1,0 +1,7 @@
+You can specify the user you want the command to be started as by placing the 
+username in parentheses in front of the command, as follows:
+
+ataylor au-mel-centos-1=(mysql) /usr/bin/mysqld,(named) /usr/sbin/named
+
+As you can imagine, lists of authorized commands, users, and hosts can become quite long. The sudo 
+command also comes with the option of defining aliases.

@@ -1,0 +1,4 @@
+pvmove
+
+With  pvmove  you  can  move  Logical  Volumes  from  within  a  Volume  Group  to  another
+Physical Volume.

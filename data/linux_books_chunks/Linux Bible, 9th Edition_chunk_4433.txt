@@ -1,0 +1,5 @@
+It is also a security 
+administrative task. Setting resource limitations helps you avoid many adverse problems 
+on your Linux system. Problems such as fork bombs can be averted by limiting the 
+number of processes a single user can create. A fork bomb occurs when a process spawns 
+one process after another in a recursive manner until system resources are consumed.

@@ -1,0 +1,10 @@
+The Microsoft Outlook client, for example, supports only a small number of mechanisms, while the Mozilla 
+Thunderbird supports a wider variety.
+
+ ■ Note 
+
+ You can learn about one-time passwords at http://en.wikipedia.org/wiki/One-time_password.
+
+To confirm the user’s credentials are valid, the AUTH command makes use of an authentication 
+
+framework called Simple Authentication and Security Layer (SASL).

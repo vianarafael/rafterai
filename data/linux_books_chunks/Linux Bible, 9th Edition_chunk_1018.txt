@@ -1,0 +1,10 @@
+That search turns up ﬁ les that contain the text peerdns 
+(case-insensitive).
+
+$ grep -rli peerdns /usr/share/doc/
+/usr/share/doc/dnsmasq-2.66/setup.html
+/usr/share/doc/initscripts-9.49.17/sysconfig.txt
+...
+
+The next example recursively searches the /etc/sysconfig directory for the term root. 
+It lists every line in every ﬁ le beneath the directory that contains that text.

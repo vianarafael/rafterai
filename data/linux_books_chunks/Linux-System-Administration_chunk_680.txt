@@ -1,0 +1,4 @@
+Links allow for the
+script to have a different name. When entering a runlevel, all scripts that start with uppercase
+K or uppercase S will be started in alphabetical order. Those that start with K will be started
+first, with stop as the only parameter.

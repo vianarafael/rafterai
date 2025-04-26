@@ -1,0 +1,10 @@
+As new hardware, such as USB 
+
+378
+
+c15.indd  04/01/2015  Page 379
+
+Chapter 15: Starting and Stopping Services
+
+devices, came along, the classic init daemons had trouble dealing with these and other 
+hot-plug devices. Computer hardware had changed from static to event-based.

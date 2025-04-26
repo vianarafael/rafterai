@@ -1,0 +1,3 @@
+Rich is an online instruc-
+tor for an Introduction to Linux course that is used by colleges and universities across the 
+United States.

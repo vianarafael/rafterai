@@ -1,0 +1,6 @@
+Businesses now expect this ease of access to documents, and neither Samba nor NFS is 
+particularly suited for this work.
+
+To go beyond basic file sharing, though, we are going to introduce you to different platforms that can be 
+
+cheap and effective for document management.

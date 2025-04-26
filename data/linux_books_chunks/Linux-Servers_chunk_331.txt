@@ -1,0 +1,12 @@
+There is exactly
+one SOA record for each zone.
+
+CNAME record
+
+A  CNAME  record  maps  a  hostname  to  a  hostname,  creating  effectively  an  alias  for  an
+existing hostname. The name of the mail server is often aliased to mail or smtp, and the
+name of a web server to www.
+
+MX record
+
+The MX record points to an smtp server.

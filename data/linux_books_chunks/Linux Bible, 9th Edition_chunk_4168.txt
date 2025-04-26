@@ -1,0 +1,28 @@
+However, a few of them have special commands for viewing (see Table 22.4).
+
+TABLE 22.4    Viewing Log Files That Need Special Commands
+
+Filename
+
+btmp
+
+dmesg
+
+lastlog
+
+wtmp
+
+View Command
+
+dump-utmp btmp
+
+dmesg
+
+lastlog
+
+dump-utmp wtmp
+
+With the change in Fedora, RHEL, Ubuntu, and other Linux distributions to systemd 
+(which manages the boot process and services), as noted earlier, the mechanism for gath-
+ering and displaying log messages associated with the kernel and system services has 
+changed as well.

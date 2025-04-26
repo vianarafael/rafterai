@@ -1,0 +1,8 @@
+globally unique unicast addresses
+
+Since ipv6 was designed to have multiple ip addresses per interface, the global ipv6 address
+can be used next to the link local address.
+
+These globally unique addresses all begin with 2... or 3... as the first 16-bits.
+
+25.8.

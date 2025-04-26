@@ -1,0 +1,12 @@
+I think that nobody from AT&T expected someone to actually be able to write his own clone of UNIX from those inter-
+faces, without using any of its UNIX source code.
+
+10
+
+c01.indd  04/01/2015  Page 11
+
+Chapter 1: Starting with Linux
+
+ ■ Technical approach—Again, until the very end of USL, most decisions on the 
+
+direction of UNIX were made based on technical considerations.

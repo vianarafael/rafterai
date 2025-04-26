@@ -1,0 +1,6 @@
+We will show you how to compile your own packages from 
+source in the section “Compiling from Source”, and provide you a way to make both RPMs and deb packages.
+
+Package Management on Ubuntu
+Managing packages on Ubuntu servers is usually done using command-line tools, because the Ubuntu Server 
+Edition does not install a GUI by default.

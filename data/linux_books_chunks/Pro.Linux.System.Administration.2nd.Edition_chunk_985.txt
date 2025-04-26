@@ -1,0 +1,8 @@
+Usually a message appears on your screen 
+indicating the appropriate key to press. From here a menu is usually displayed, and you can select the boot 
+sequence you would like.
+
+The Unified Extensible Firmware Interface
+
+More recent motherboards will support UEFI. When you boot your host with UEFI you will notice very little 
+difference compared to BIOS; the lights will flash and things will whirr.

@@ -1,0 +1,12 @@
+df -h
+
+In the df -h example below you can see the size, free space, used gigabytes and percentage
+and mount point of a partition.
+
+root@laika:~# df -h | egrep -e "(sdb2|File)"
+Filesystem            Size Used Avail Use% Mounted on
+/dev/sdb2              92G   83G  8.6G  91% /media/sdb2
+
+7.2.6. du
+
+The du command can summarize disk usage for files and directories.

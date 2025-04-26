@@ -1,0 +1,8 @@
+This file is normally installed into 
+the MBR gap, the space between the MBR and the first partition on the disk. The job of core.img is to access 
+/boot/grub and load the modules it finds there. The core.img will load the menu and has the ability to load 
+the target operating system.
+
+The Boot Loader with UEFI
+
+If you use an UEFI system the boot process is a little different.

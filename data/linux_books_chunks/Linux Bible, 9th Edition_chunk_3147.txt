@@ -1,0 +1,4 @@
+With Require all granted set, httpd doesn’t prevent any access to the server.
+
+If all the settings just described work for you, you can begin adding the content you want 
+to the var/www/html and var/www/cgi-bin directories.

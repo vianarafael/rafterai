@@ -1,0 +1,21 @@
+The security keyword is deprecated.
+
+auth (security)
+authpriv
+cron
+daemon
+ftp
+kern
+lpr mail
+mark (internal use only)
+news
+syslog
+user
+uucp
+local0-7
+
+17.2.5. priorities
+
+The worst severity a message can have is emerg followed by alert and crit. Lowest priority
+should go to info and debug messages. Specifying a severity will also log all messages with
+a higher severity.

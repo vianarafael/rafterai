@@ -1,0 +1,5 @@
+Checking /etc/yum.conf
+When any yum command starts, it checks the ﬁ le /etc/yum.conf for default settings. The 
+/etc/yum.conf ﬁ le is the basic YUM conﬁ guration ﬁ le. You can also identify the  location 
+of repositories here, although the /etc/yum.repos.d directory is the more  typical location 
+for identifying repositories.

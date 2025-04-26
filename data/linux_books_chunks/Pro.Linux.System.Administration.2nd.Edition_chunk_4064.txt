@@ -1,0 +1,2 @@
+The backups of the files themselves are 
+in the *.difftar.gpg files. There are *.manifest.gpg and *.sigtar.gpg files too.

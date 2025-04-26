@@ -1,0 +1,4 @@
+The 
+hash results can be posted in public, as was done in Figure 23.1. To ensure the integrity of 
+your downloaded software ﬁ le, you create an MD5 hash of the software ﬁ le at your location. 
+You then compare the results of your hash to the posted hash results.

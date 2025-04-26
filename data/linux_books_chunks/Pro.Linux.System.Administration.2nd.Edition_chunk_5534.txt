@@ -1,0 +1,10 @@
+It’s a simple scripted process for most installation options, but it can be extended to do some complex 
+configuration.
+
+You can find the latest detailed documentation for Kickstart at http://pykickstart.readthedocs.io/
+
+en/latest/kickstart-docs.html.
+
+You can find documentation on Preseed and its directives at https://wiki.debian.org/
+
+DebianInstaller/Preseed.

@@ -1,0 +1,5 @@
+Take a look at the one we are going to use:
+
+/data/staff 192.168.0.2/255.255.255.255(rw,root_squash,fsid=0)
+
+Here we are going to share the /data/staff directory to the host at 192.168.0.2/32.

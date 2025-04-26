@@ -1,0 +1,18 @@
+As you can see below, the symbolic
+link gets an inode of its own.
+
+paul@RHELv4u4:~/test$ ln -s file2 symlink_to_file2
+paul@RHELv4u4:~/test$ ls -li
+total 32
+817273 -rw-rw-r--  1 paul paul  13 Feb  5 17:06 file1
+817270 -rw-rw-r--  2 paul paul 106 Feb  5 17:04 file2
+817268 -rw-rw-r--  1 paul paul   0 Feb  5 15:38 file3
+817270 -rw-rw-r--  2 paul paul 106 Feb  5 17:04 hardlink_to_file2
+817267 lrwxrwxrwx  1 paul paul   5 Feb  5 16:55 symlink_to_file2 -> file2
+paul@RHELv4u4:~/test$
+
+Permissions on a symbolic link have no meaning, since the permissions of the target apply.
+Hard links are limited to their own partition (because they point to an inode), symbolic links
+can link anywhere (other file systems, even networked).
+
+9.5.

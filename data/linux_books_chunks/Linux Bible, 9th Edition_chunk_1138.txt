@@ -1,0 +1,5 @@
+Likewise, you could work more efﬁ ciently if you grouped together sets 
+of commands that you run all the time. Shell scripts can handle these tasks.
+
+A shell script is a group of commands, functions, variables, or just about anything else you can use 
+from a shell. These items are typed into a plain text ﬁ le. That ﬁ le can then be run as a command.

@@ -1,0 +1,14 @@
+Most often, a 0 is used.)
+
+ ■ Field 6—The number in this ﬁ eld indicates whether the indicated ﬁ lesystem should 
+be checked with fsck when the time comes for it to be checked: 1 means it needs 
+to be checked ﬁ rst, 2 means to check after all those indicated by 1 have already 
+been checked, and 0 means don’t check it.
+
+If you want to ﬁ nd out more about mount options as well as other features of the 
+/etc/fstab ﬁ le, there are several man pages you can refer to, including man 5 nfs 
+and man 8 mount.
+
+Using the mount command to mount fi le systems
+Linux systems automatically run mount -a (mount all ﬁ lesystems from the /etc/fstab 
+ﬁ le) each time you boot.

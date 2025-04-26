@@ -1,0 +1,13 @@
+Make a note of Where: /tmp/bareos-restores, as this is where your restored file will be found.
+
+Looking at stat dir and the Terminated Jobs section, a complete restore will look like this:
+
+JobId  Level    Files      Bytes    Status    Finished          Name
+==========================================================================
+    4      1      403        OK     10-Oct-16 01:32          RestoreFiles
+
+Now we can check that the file has been restored to the /tmp/bareos-restores directory.
+
+$ $ sudo ls -l /tmp/bareos-restores/etc/
+total 4
+-rw-r--r--.

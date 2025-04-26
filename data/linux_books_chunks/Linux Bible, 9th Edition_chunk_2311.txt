@@ -1,0 +1,24 @@
+(If 
+you don’t have another Linux system, you can simulate this by typing localhost instead 
+of the IP address and logging in as a local user.) The following is an example of remotely 
+logging in to johndoe’s account on 10.140.67.23:
+
+$ ssh johndoe@10.140.67.23
+The authenticity of host '10.140.67.23 (10.140.67.23)' 
+     can't be established.
+
+326
+
+c13.indd  04/01/2015  Page 327
+
+Chapter 13: Understanding Server Administration
+
+RSA key fingerprint is 
+     a4:28:03:85:89:6d:08:fa:99:15:ed:fb:b0:67:55:89.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '10.140.67.23' (RSA) to the 
+     list of known hosts.
+johndoe@10.140.67.23's password: *********
+
+If this is the very ﬁ rst time you have logged in to that remote system using the ssh 
+ command, the system asks you to conﬁ rm that you want to connect.

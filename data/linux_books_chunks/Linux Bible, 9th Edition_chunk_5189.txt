@@ -1,0 +1,11 @@
+To run the top command and then go back and forth between sorting by CPU usage 
+
+and memory consumption, type the following:
+
+$ top
+P
+M
+P
+M
+
+5.

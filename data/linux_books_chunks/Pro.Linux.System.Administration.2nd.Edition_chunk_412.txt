@@ -1,0 +1,4 @@
+By default, this does not install anything to your host, and your original desktop configuration will be 
+available when you remove the CD/DVD and reboot your computer.
+
+LiveCDs are available for a variety of distributions.

@@ -1,0 +1,13 @@
+There is also an ongoing effort to create initng (init next generation).
+
+In 2014 the systemd initiative has taken a lead when after Fedora, RHEL7 and CentOS7
+also Debian has chosen this to be the prefered replacement for init. The end of this module
+contains an introduction to systemd.
+
+170
+
+init and runlevels
+
+15.1. system init(ialization)
+
+15.1.1.

@@ -1,0 +1,9 @@
+We are going to take our auditd log and extract information and add it to our event data.
+
+When we look at a raw audit.log file, we see information like this:
+
+type=SERVICE_STOP msg=audit(1480844911.323:1080): pid=1 uid=0 auid=4294967295 ses=4294967295 
+subj=system_u:system_r:init_t:s0 msg='unit=openvpn@gateway comm="systemd" exe="/usr/lib/
+systemd/systemd" hostname=? addr=? terminal=? res=success'
+
+These are key=value logs.

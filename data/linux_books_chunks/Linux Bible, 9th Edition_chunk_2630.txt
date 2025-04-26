@@ -1,0 +1,3 @@
+The ﬁ le comes with a 
+recommended minimal conﬁ guration. However, you might want to deﬁ ne the hosts (based 
+on IP address or name) you want to allow to use the service.

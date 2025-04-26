@@ -1,0 +1,24 @@
+If we are 
+successful, we will get the following result:
+
+authcDN: "cn=webadmin,ou=meta,dc=example,dc=com"
+auth access to userPassword: ALLOWED
+
+This confirms that the line in our access control list is working like we expect.
+
+olcAccess: {1}to attrs=userPassword,shadowLastChange,entry,member
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" tls_ssf=128 auth
+
+We’ll test to see whether we can get write access to the same attribute to confirm that our access control 
+
+list doesn’t have a security hole in it.
+
+sudo slapacl -F /etc/ldap/slapd.d \
+  -b uid=ataylor,ou=people,dc=example,dc=com \
+  -D cn=webadmin,ou=meta,dc=example,dc=com \
+  -o tls_ssf=128 \
+  -v userPassword/write
+ authcDN: "cn=webadmin,ou=meta,dc=example,dc=com"
+write access to uid: DENIED
+
+This is as we expect: we should be denied everything but auth access and below.

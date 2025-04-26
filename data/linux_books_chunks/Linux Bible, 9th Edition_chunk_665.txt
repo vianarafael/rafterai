@@ -1,0 +1,14 @@
+Type the command without options 
+or followed by a number to list that many of the most recent commands. For example:
+
+$ history 8
+ 382 date
+ 383 ls /usr/bin | sort -a | more
+ 384 man sort
+ 385 cd /usr/local/bin
+ 386 man more
+ 387 useradd -m /home/chris -u 101 chris
+ 388 passwd chris
+ 389 history 8
+
+A number precedes each command line in the list.

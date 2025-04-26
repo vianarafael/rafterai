@@ -1,0 +1,16 @@
+Use top and ps to display information (pid, ppid, priority, nice value, ...) about these two
+cat processes.
+
+top (probably the top two lines)
+
+[paul@rhel53 pipes]$ ps -C cat
+  PID TTY          TIME CMD
+ 4013 pts/0    00:03:38 cat
+ 4016 pts/0    00:01:07 cat
+
+[paul@rhel53 pipes]$ ps fax | grep cat
+ 4013 pts/0    R      4:00  |           \_ cat - p1
+ 4016 pts/0    S      1:13  |           \_ cat
+ 4044 pts/0    S+     0:00  |           \_ grep cat
+
+4.

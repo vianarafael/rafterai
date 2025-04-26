@@ -1,0 +1,7 @@
+To change the default, you can specify something like this:
+
+Listen 192.168.0.1:8080
+
+The previous line specifies to listen only to a specific IPv4 address and on the port 8080. Be careful, 
+because multiple Listen directives with the same IP and port will give an error ((98)Address already in 
+use) when Apache tries to start.

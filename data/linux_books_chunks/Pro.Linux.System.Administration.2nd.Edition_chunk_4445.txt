@@ -1,0 +1,2 @@
+We can always introduce the LocalityName attribute further down the tree if we want, as 
+we have with the compB branch where we specify a locality of l=Amsterdam.

@@ -1,0 +1,4 @@
+This is convenient, as you would not normally 
+create partitions on a software RAID array.
+
+For our examples, we’ll be setting up LVM on the RAID 5 array created earlier.

@@ -1,0 +1,10 @@
+A pop-up should 
+
+appear, asking what you want to do with the ISO.
+
+3.  Select to save the ISO. Depending on your settings, either you are asked where you 
+want to download it or it simply begins downloading to a default folder (in Linux, 
+it is probably a Downloads folder).
+
+4.  If you are prompted for where to put the ISO, select a folder that has enough space 
+to hold it.

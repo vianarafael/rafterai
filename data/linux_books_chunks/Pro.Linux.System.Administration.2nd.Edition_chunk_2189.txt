@@ -1,0 +1,4 @@
+But what is that? When data is modified, rather 
+
+than writing the modified data over the previously data location, the data is copied, modified, and then 
+written to a new free location.

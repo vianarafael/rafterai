@@ -1,0 +1,22 @@
+We could use the 
+yum_repository to create the repository for us using the details of the URI (you can add Apt repositories in a 
+similar way too).
+
+For more on managing packages and repositories, see http://docs.ansible.com/ansible/list_of_
+
+packaging_modules.html.
+
+  - name: install pip
+    yum: name={{ item }} state=latest update_cache=yes
+    with_items:
+      - python-pip
+      - python-devel
+
+  - name: install mariadb
+    yum: name={{ item }} state=latest
+    with_items:
+      - mariadb-devel
+      - mariadb-server
+    notify: mariadb_restarted
+
+This next tasks are similar to the first but use a loop.

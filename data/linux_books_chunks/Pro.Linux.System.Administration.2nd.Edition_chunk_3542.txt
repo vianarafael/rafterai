@@ -1,0 +1,8 @@
+How can the client’s e-mail server be sure it really came 
+from your marketing team?
+
+With SPF we can tell our client’s e-mail server that it should accept e-mail from this bulk e-mail service 
+on our behalf. In this way, we can say that e-mail server 1.bulk.mailer.net can send mail for the example.
+com domain.
+
+Let’s take a look at an example DNS record for our example.com domain.

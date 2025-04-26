@@ -1,0 +1,7 @@
+To set the disk partitioning as described in Question 4 for a Red Hat Enterprise 
+
+Linux DVD installation, do the following:
+
+This procedure ultimately deletes all content on your hard disk. If you want to just use this exercise to practice 
+ partitioning, you can reboot your computer before clicking Next at the very end of this procedure without harming 
+your hard disk.

@@ -1,0 +1,5 @@
+Aside from guest users, 
+which you may or may not allow, the default user authentication for Samba requires you to 
+add a Samba (Windows) user account that maps into a local Linux user account.
+
+To allow a user to access the Samba server, you need to create a password for the user.

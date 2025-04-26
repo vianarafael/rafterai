@@ -1,0 +1,15 @@
+Here is an example:
+
+network-interfaces: |
+  iface eth0 inet static
+  address 192.168.100.50
+  network 192.168.100.0
+  netmask 255.255.255.0
+  broadcast 192.168.1.255
+  gateway 192.168.100.1
+bootcmd:
+  - ifdown eth0
+  - ifup eth0
+
+The network-interfaces values shown here identify the eth0 interface within the 
+cloud instance as containing static addresses (in other words, not from DHCP).

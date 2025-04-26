@@ -1,0 +1,23 @@
+{
+        load_video
+        set gfxpayload=keep
+        insmod gzio
+        insmod part_msdos
+        insmod xfs
+        set root='hd0,msdos1'
+        if [ x$feature_platform_search_hint = xy ]; then
+           search --no-floppy --fs-uuid --set=root --hint-bios=hd0,msdos1 --hint-
+
+efi=hd0,msdos1 --hint-baremetal=ahci0,msdos1 --hint='hd0,msdos1'  85932bb0-c5fe-
+431f-b129-93c567e4f76f
+
+        else
+          search --no-floppy --fs-uuid --set=root 85932bb0-c5fe-431f-b129-93c567e4f76f
+        fi
+         linux16 /vmlinuz-3.10.0-327.el7.x86_64 root=/dev/mapper/centos-root ro 
+crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet
+
+        initrd16 /initramfs-3.10.0-327.el7.x86_64.img
+}
+
+Inside the curly braces of the menuentry code the first few lines of code install various modules.

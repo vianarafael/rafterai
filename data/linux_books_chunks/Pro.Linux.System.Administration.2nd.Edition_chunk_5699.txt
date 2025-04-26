@@ -1,0 +1,14 @@
+A Selector
+
+  $ssh_service = $facts['os']['name'] ? {
+        'CentOS' => 'sshd',
+        'Ubuntu' => 'ssh',
+        default => 'ssh',
+    }
+
+  service { $ssh_service:
+    ensure => ‘running’,
+  }
+
+In Listing 19-12, we introduced a new type, service, that manages services on hosts. We’ve titled our 
+service resource $ssh_service, and we’ve defined that variable just above it.

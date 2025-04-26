@@ -1,0 +1,7 @@
+Most shells are highly 
+customizable, and many users eventually tweak every aspect of their shell environment to help them work 
+faster and more efficiently.
+
+The Bash shell reads its initial configuration from the /etc/profile file. This file usually contains 
+references to other global configuration files and is used to configure Bash for all users on the host except the 
+root user.

@@ -1,0 +1,6 @@
+This certiﬁ cate must be veriﬁ able using a public key that is known to 
+the client.
+
+Certiﬁ cates are generally digitally signed by a third-party certiﬁ cate authority (CA) that 
+has veriﬁ ed the identity of the requester and the validity of the request to have the 
+ certiﬁ cate signed.

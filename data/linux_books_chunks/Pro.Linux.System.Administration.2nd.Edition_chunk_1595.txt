@@ -1,0 +1,2 @@
+However, while NAt is a routing servicing (as opposed to a firewall service) it does provide 
+some security for the address space it hides.

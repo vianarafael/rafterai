@@ -1,0 +1,7 @@
+First comes some 
+information about the command you’re running, including whether or not the query succeeded (opcode: 
+QUERY, status: NOERROR, id: 33352). Next is the query section, which shows you what you actually sent 
+to the DNS server. In this case, we are looking for an A record for the host www.google.com.
+
+;; QUESTION SECTION:
+;www.google.com.

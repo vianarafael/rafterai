@@ -1,0 +1,7 @@
+The potential downside is that you can kill more processes than you mean to if you 
+are not careful. (For example, typing killall bash may kill a bunch of shells that you 
+don’t mean to kill.)
+
+Like the kill command, killall uses SIGTERM (signal 15) if you don’t explicitly enter 
+a signal number. Also as with kill, you can send any signal you like to the process you 
+name with killall.

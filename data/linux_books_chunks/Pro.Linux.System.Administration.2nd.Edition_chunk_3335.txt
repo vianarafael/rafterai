@@ -1,0 +1,1 @@
+What mechanisms are used very much depends on what mechanisms are supported by your client.

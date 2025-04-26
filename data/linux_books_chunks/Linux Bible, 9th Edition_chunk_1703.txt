@@ -1,0 +1,6 @@
+After the contents of a tarball are installed, you may not 
+have a way to tell what version of the software you are using, making it difﬁ cult to 
+track down bugs and get new versions of your software.
+
+To deal with these problems, packages progressed from simple tarballs to more complex 
+packaging.

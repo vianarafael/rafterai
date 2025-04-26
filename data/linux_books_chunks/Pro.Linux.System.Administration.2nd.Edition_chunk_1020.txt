@@ -1,0 +1,5 @@
+This mode, which functions much like the Microsoft Windows Recovery 
+Console, allows you to work with resources like disks and files without worrying about conflicts or other 
+users manipulating the host. Let’s look at booting into single-user mode now.
+
+First, again, this is slightly different between CentOS and Ubuntu.

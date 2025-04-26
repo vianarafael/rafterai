@@ -1,0 +1,8 @@
+We see the crond and sshd daemons, crond being a job scheduling service and sshd being the OpenSSH 
+daemon for handling connections from ssh clients.
+
+There is another useful command that can tell you which processes are running on your host and which 
+
+are consuming the most CPU and memory. This command is called top, and we run it in Listing 4-5.
+
+Listing 4-5.

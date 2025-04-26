@@ -1,0 +1,5 @@
+Doing this allows it to 
+reclaim the otherwise idle RAM and use it as buffer or cache.
+
+This means that having your host use swap space is not necessarily a bad thing. However, if all memory 
+and all swap space are in use, there is obviously a problem.

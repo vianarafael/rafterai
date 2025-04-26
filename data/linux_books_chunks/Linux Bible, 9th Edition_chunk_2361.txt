@@ -1,0 +1,6 @@
+System logging is one of the basic services conﬁ gured for Linux to keep track of what is 
+happening on the system.
+
+The rsyslog service (rsyslogd daemon) provides the features to gather log messages 
+from software running on the Linux system and direct those messages to local log ﬁ les, 
+devices, or remote logging hosts.

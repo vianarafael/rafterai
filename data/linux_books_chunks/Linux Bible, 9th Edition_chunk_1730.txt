@@ -1,0 +1,9 @@
+The  command, 
+however, has some major drawbacks:
+
+ ■ Dependencies—Most RPM packages are dependent on some other software 
+
+(library, executables, and so on) being installed on the system for that package 
+to work. When you try to install a package with rpm, if a dependent package is 
+not installed, the package installation fails, telling you which components were 
+needed.

@@ -1,0 +1,6 @@
+In that chapter, you learn how to partition disks, add ﬁ lesystems, and 
+mount them, so the contents of the disk partitions are accessible to those using your system.
+
+Exercises
+Use these exercises to test your knowledge of adding and managing user and group 
+accounts in Linux.

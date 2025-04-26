@@ -1,0 +1,11 @@
+The disks 
+
+need to be of identical size for RAID to work, if they are not the same size you need to create partitions on 
+the disks of the same size. Here we create a 2 G partition and set the partition type to fd00 – Linux RAID, as 
+shown in Listing 9-12.
+
+389
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Listing 9-12.

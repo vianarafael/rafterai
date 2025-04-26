@@ -1,0 +1,3 @@
+It requires a user with USAGE privileges 
+
+only and will gather internal metrics the equivalent of the mysql SHOW STATUS; command.

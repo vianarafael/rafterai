@@ -1,0 +1,7 @@
+Otherwise you can leave it commented out.
+
+You may also need to add the cmdallow setting on CentOS to enable the chronyc command to access 
+
+the service. We will look at chronyc shortly.
+
+Now we use the systemctl command to enable and start our service.

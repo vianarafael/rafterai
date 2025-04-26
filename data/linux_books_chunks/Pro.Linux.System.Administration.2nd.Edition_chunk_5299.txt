@@ -1,0 +1,12 @@
+Values are n for no rotation, h for hourly, d for daily, w for 
+
+log_archive_path
+
+The directory to store archived, rotated log files.
+
+weekly, and m for monthly.
+
+use_syslog
+
+Whether to log Nagios output to syslog (rsyslog). This defaults to 1 for syslog 
+logging.

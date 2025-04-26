@@ -1,0 +1,16 @@
+The DoD model calls
+this the host-to-host layer.
+
+21.1.7. layers 5, 6 and 7
+
+The tcp/ip application layer includes layers 5, 6 and 7. Details on the difference between
+these layers are out of scope of this course.
+
+255
+
+general networking
+
+21.1.8. network layers in this book
+
+Stacking  of  layers  in  this  book  is  based  on  the  Protocols  in  Frame  explanation  in  the
+wireshark sniffer.

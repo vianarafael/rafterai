@@ -1,0 +1,13 @@
+Estimate the number of inodes needed in the current initrd:
+
+df -i /mnt/current
+
+Filesystem            Inodes   IUsed   IFree IUse% Mounted on
+
+/tmp/initrd.img           48      33      15   69% /mnt/current
+
+6. Create a filesystem on the file /tmp/initrd-new.img with 48 inodes 
+
+mke2fs -F -m 0 -N 48 /tmp/initrd-new.img
+
+7.

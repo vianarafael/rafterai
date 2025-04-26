@@ -1,0 +1,14 @@
+This example shows how to add a disk
+(or hardware RAID device) to lvm.
+
+[root@RHEL5 ~]# pvcreate /dev/sdb
+  Physical volume "/dev/sdb" successfully created
+[root@RHEL5 ~]#
+
+This example shows how to add a partition to lvm.
+
+[root@RHEL5 ~]# pvcreate /dev/sdc1
+  Physical volume "/dev/sdc1" successfully created
+[root@RHEL5 ~]#
+
+You can also add multiple disks or partitions as target to pvcreate.

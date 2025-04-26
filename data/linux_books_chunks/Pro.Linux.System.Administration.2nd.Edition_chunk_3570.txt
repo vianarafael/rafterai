@@ -1,0 +1,30 @@
+We chose a Gmail address, and if 
+
+we view the headers of that e-mail, we see this:
+
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@example.com;
+        spf=pass (google.com: domain of jsmith@example.com designates 52.82.67.42 as 
+
+permitted sender) smtp.mailfrom=jsmith@example.com
+Received: by mail.example.com (Postfix, from userid 1000)
+
+584
+
+Chapter 12 ■ Mail ServiCeS
+
+id 99CFA187135A; Tue,  6 Sep 2016 07:59:43 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+d=example.com; s=201609; t=1473163183;
+bh=ShAzA6t1zCobzHEAhrmK5udJcy/7FvQ3DqD9cIsQ/Lk=;
+h=Date:Subject:From:From:Subject:Date;
+b=ecfUXsieztVsVnngyFtsY1RrAeApoCCt+MoAclGdrS4XmSEOQIMrq3olstlsLm8WO
+ /qmV5MSxvFzpQ0EXZ5RnRMyo0VPAgaHx4gSP5mjEpWozawD4KYC6WA09jxVNSX8fzU
+ Mc0Jn7wQdDIWAjXjv0ubEkFFn9AyLs77aUhwRj0T2CwpJhSzzPYvWOR+LZrO6PymTf
+ FQ6C9t4jMSRfGDHnWMTp/QkleeSjCzLlebaQFaDgo38phdNYx2LOKLxdyqzJq/nkeK
+ 2XXM7rGRM9fllTMy4OHDiabvjSg2GfubOMkwKiJaEv7S0Fc5MrW6nGFR+3s5u4jdq8
+ kKDmm2pyeR+oQ==
+
+The Authentication-Results header is now added to the e-mail we have sent, and you can see that our 
+
+public key has been added too.

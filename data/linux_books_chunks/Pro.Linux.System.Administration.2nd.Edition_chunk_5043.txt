@@ -1,0 +1,8 @@
+Anyone with Linux experience will tell you their favorite incantations 
+to investigate logs. With filters we no longer need to rely on piping logs through commands such as grep and 
+awk so much.
+
+We will start with filtering the journalctl output by just kernel messages by using the –k option.
+
+$ sudo journalctl –k
+-- Logs begin at Fri 2016-11-25 22:16:00 AEDT, end at Mon 2016-11-28 22:06:08 AEDT.

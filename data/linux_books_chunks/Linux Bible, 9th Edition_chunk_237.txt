@@ -1,0 +1,5 @@
+(See the “OSI open source  deﬁ nition” 
+section later in this chapter for a more detailed deﬁ nition of open source software.)
+
+Despite its success in producing thousands of UNIX utilities, the GNU project itself failed to 
+produce one critical piece of code: the kernel.

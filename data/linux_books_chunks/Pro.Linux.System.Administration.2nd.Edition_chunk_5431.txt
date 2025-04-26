@@ -1,0 +1,12 @@
+The directive looks like this:
+
+use_authentication=1
+
+903
+
+Chapter 18 ■ Logging and Monitoring
+
+A setting of 1, which is the default, enables authentication, and a setting of 0 disables it. Authorization 
+
+for particular functions on the console is provided by a series of directives in the cgi.cfg file that take lists of 
+users, separated by commas, as options.

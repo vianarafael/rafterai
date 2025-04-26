@@ -1,0 +1,13 @@
+Earlier releases of other distributions 
+adopted it for a short time before transitioning to systemd, including:
+
+ ■ RHEL version 6
+
+ ■ Fedora versions 9 through 14
+
+ ■ Ubuntu versions 6–14.10
+
+ ■ openSUSE versions 11.3–12.1
+
+A new daemon, systemd, available at http://fedoraproject.org/wiki/Systemd, 
+was written primarily by Lennart Poettering, a Red Hat developer.

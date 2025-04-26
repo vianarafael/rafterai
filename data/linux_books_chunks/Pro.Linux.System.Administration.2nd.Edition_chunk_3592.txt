@@ -1,0 +1,5 @@
+if you are running 
+
+ ■ Note 
+your Dovecot server on another host, you should create a new key and certificate with the hostname of the 
+server running Dovecot.

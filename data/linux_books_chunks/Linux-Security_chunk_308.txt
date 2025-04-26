@@ -1,0 +1,15 @@
+Reset the permissions back and try again.
+
+root@deb503:~# ls -l /usr/bin/passwd 
+-rwsr-xr-x 1 root root 31704 2009-11-14 15:41 /usr/bin/passwd
+root@deb503:~# chmod 755 /usr/bin/passwd 
+root@deb503:~# ls -l /usr/bin/passwd 
+-rwxr-xr-x 1 root root 31704 2009-11-14 15:41 /usr/bin/passwd
+
+A normal user cannot change password now.
+
+root@deb503:~# chmod 4755 /usr/bin/passwd 
+root@deb503:~# ls -l /usr/bin/passwd 
+-rwsr-xr-x 1 root root 31704 2009-11-14 15:41 /usr/bin/passwd
+
+3.

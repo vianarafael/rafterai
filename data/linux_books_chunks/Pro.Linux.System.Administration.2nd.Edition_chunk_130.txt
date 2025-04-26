@@ -1,0 +1,5 @@
+We will go into greater 
+detail in Chapter 9 about how to carve up one or several drives for various purposes.
+
+Also in previous versions of this installation process you could secure your GRUB2 boot loader by 
+providing a password at installation time. This is still available via Kickstart but unavailable in this process.

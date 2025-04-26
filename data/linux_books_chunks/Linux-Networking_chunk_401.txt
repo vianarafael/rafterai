@@ -1,0 +1,23 @@
+1 root root   19 May  6 13:08 run -> ../../var/run/httpd
+[root@centos65 ~]#
+
+Debian (and ubuntu/mint/...) use /etc/apache2.
+
+root@debian7:~# ls -l /etc/apache2/
+total 72
+-rw-r--r-- 1 root root  9659 May  6 14:23 apache2.conf
+drwxr-xr-x 2 root root  4096 May  6 13:19 conf.d
+-rw-r--r-- 1 root root  1465 Jan 31 18:35 envvars
+-rw-r--r-- 1 root root 31063 Jul 20  2013 magic
+drwxr-xr-x 2 root root  4096 May  6 13:19 mods-available
+drwxr-xr-x 2 root root  4096 May  6 13:19 mods-enabled
+-rw-r--r-- 1 root root   750 Jan 26 12:13 ports.conf
+drwxr-xr-x 2 root root  4096 May  6 13:19 sites-available
+drwxr-xr-x 2 root root  4096 May  6 13:19 sites-enabled
+root@debian7:~#
+
+83
+
+apache web server
+
+8.2.

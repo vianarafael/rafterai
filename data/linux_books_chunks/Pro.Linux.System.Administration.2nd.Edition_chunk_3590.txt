@@ -1,0 +1,21 @@
+The file is located 
+at /etc/dovecot/conf.d/10-ssl.conf.
+
+ssl = required
+
+ssl_cert = </etc/letsencrypt/live/mail.exmaple.com/cert.pem
+ssl_key = </etc/letsencrypt/live/mail.example.com/privkey.pem
+ssl_ca = </etc/letsencrypt/live/mail.example.com/chain.pem
+# SSL protocols to use
+
+587
+
+Chapter 12 ■ Mail ServiCeS
+
+ssl_protocols = !SSLv2 !SSLv3
+ssl_cipher_list = ALL:!LOW:!SSLv2:!SSLv3:!EXP:!aNULL
+# Prefer the server's order of ciphers over client's.
+ssl_prefer_server_ciphers = yes
+
+The certificate and key files we’re going to use are the same ones we used to provide Postfix’s 
+encryption.

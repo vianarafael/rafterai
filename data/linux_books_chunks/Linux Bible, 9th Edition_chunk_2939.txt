@@ -1,0 +1,6 @@
+As you add other printers, you can change the default 
+printer by selecting the one you want and Set As Default again.
+
+9.  Make sure printing is working. Open a Terminal window and use the lpr com-
+
+mand to print a ﬁ le (such as lpr /etc/hosts).

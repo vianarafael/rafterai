@@ -1,0 +1,4 @@
+Thus, the initialization process (init or 
+ systemd) daemon has a parent process ID (PPID) of 0, and a PID of 1. Once started, init 
+is responsible for spawning (launching) processes conﬁ gured to be started at the server’s 
+boot time, such as the login shell (getty or mingetty process).

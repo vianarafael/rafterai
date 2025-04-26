@@ -1,0 +1,12 @@
+When you need more
+than one Domain Controller, then the Samba team advises to not use tdbsam.
+
+23.4. [global] section in smb.conf
+
+Now is a good time to start adding comments in your smb.conf. First we will take a look at
+the naming of our domain and server in the [global] section, and at the domain controlling
+parameters.
+
+23.4.1. security
+
+The security must be set to user (which is the default).

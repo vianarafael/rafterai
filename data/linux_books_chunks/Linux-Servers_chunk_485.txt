@@ -1,0 +1,11 @@
+This  computer  will  be  the  'router'.  Complete  the  table  below  with  the  relevant
+names, ip-addresses and mac-addresses.
+
+root@router~# cat router.sh
+ifconfig eth1 192.168.60.1 netmask 255.255.255.0
+ifconfig eth2 192.168.70.1 netmask 255.255.255.0
+#echo 1 > /proc/sys/net/ipv4/ip_forward
+
+Your setup may use different ip and mac addresses than the ones in the table below.
+
+Table 7.2.

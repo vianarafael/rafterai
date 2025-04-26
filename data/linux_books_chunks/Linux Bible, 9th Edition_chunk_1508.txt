@@ -1,0 +1,5 @@
+The installation DVD is used, by default, to provide the 
+
+RPM packages used during installation. You have the option of selecting “On the 
+network” and choosing a Web URL (http, https, or ftp) when a Red Hat Enterprise 
+Linux software repository is installed.

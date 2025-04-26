@@ -1,0 +1,9 @@
+Listing 19-1 shows an example of this file.
+
+Listing 19-1.  The /etc/cobbler/dhcp.template File
+
+# ******************************************************************
+# Cobbler managed dhcpd.conf file
+#
+# generated from cobbler dhcp.conf template ($date)
+# Do NOT make changes to /etc/dhcpd.conf.

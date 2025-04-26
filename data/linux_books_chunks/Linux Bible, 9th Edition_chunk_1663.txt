@@ -1,0 +1,6 @@
+When you feel conﬁ dent that the new kernel is working properly, you can use it to replace 
+the old kernel or perhaps just make the new kernel the default boot deﬁ nition.
+
+Using GRUB 2
+GRUB 2 represents a major rewrite of the GRUB Legacy project. It has been adopted as 
+the default boot loader for Red Hat Enterprise Linux 7, Fedora, and Ubuntu.

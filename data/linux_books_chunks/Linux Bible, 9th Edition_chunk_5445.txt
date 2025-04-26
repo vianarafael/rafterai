@@ -1,0 +1,6 @@
+To set your Linux system’s ﬁ rewall ﬁ lter table 
+for the input chain to a policy of DROP, type iptables -P INPUT DROP at the 
+command line.
+
+9.  To change your Linux system ﬁ rewall’s ﬁ lter table policy back to accept for the 
+input chain, type iptables -P INPUT ACCEPT at the command line.

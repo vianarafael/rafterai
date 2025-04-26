@@ -1,0 +1,3 @@
+Next, 
+we are allowing the hosts on the example.com network to connect to our SSH daemon. Here also we are 
+explicitly denying baddomain.com.

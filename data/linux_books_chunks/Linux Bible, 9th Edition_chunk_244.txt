@@ -1,0 +1,7 @@
+Also, because of its 
+licensing, BSD code can be used by proprietary software vendors, such as Microsoft and Apple, who don’t want 
+to share their operating system code with others. Mac OS X is built on a BSD derivative.
+
+Linus builds the missing piece
+Linus Torvalds started work on Linux in 1991, while he was a student at the University of 
+Helsinki, Finland.

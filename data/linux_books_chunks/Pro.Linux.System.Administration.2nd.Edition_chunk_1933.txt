@@ -1,0 +1,7 @@
+Processing installation tasks
+
+After installation finishes, press Enter and you are back at the Aptitude menu. You will now learn 
+
+how to remove packages by removing the nmap package you just installed (see Figure 8-22). Search for it 
+using the / key again. You will see that it has an (i) beside it for installed. Press the hyphen (-) key to mark 
+the package for removal.

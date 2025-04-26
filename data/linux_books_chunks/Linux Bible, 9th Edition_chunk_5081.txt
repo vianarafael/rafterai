@@ -1,0 +1,36 @@
+27
+
+767
+
+bapp01.indd  04/02/2015  Page 769
+
+Part VII
+
+Appendixes
+
+IN THIS PART 
+
+Appendix A
+Media
+
+Appendix B
+Exercise Answers
+
+bapp01.indd  04/02/2015  Page 771
+
+A P P E N D I X 
+
+A
+
+Media
+
+IN THIS APPENDIX
+
+Getting Linux distributions
+
+Creating a bootable CD or DVD 
+
+U nless you bought a computer with Linux preinstalled or had someone install it for you, you 
+
+need to ﬁ nd a way to get a Linux distribution and then either install or run it live on your 
+computer.

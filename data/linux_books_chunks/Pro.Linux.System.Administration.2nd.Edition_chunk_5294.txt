@@ -1,0 +1,2 @@
+The cfg_file option allows you to specify an 
+individual file that contains the Nagios object configuration.

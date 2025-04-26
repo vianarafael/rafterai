@@ -1,0 +1,8 @@
+First, to enable it, we will issue the following:
+
+$ sudo a2enmod status
+Enabling module status.
+To activate the new configuration, you need to run:
+  service apache2 restart
+
+This can be executed from any directory and will require a restart of the apache2 service like it says.

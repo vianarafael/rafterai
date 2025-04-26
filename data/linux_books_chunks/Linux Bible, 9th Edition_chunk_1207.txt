@@ -1,0 +1,8 @@
+Type 
+^, H, and O (the uppercase letter) to see what items start with the uppercase characters HO.
+
+To ﬁ nd a list of options to use with the grep command, type man grep.
+
+Remove sections of lines of text (cut)
+The cut command can extract ﬁ elds from a line of text or from ﬁ les. It is very  useful 
+for parsing system conﬁ guration ﬁ les into easy-to-digest chunks.

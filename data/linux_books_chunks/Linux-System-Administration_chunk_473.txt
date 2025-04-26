@@ -1,0 +1,4 @@
+logical volume (lv)
+
+A logical volume is created in a volume group. Logical volumes that contain a file system
+can  be  mounted.

@@ -1,0 +1,15 @@
+installing grub
+
+Run  the  grub-install  command  to  install  grub.  The  command  requires  a  destination  for
+overwriting the boot sector or mbr.
+
+# grub-install /dev/hda
+
+You will rarely have to do this manually, since grub is installed when installing the operating
+system and does not need any re-install when changing configuration (as is the case for lilo).
+
+165
+
+bootloader
+
+14.3.

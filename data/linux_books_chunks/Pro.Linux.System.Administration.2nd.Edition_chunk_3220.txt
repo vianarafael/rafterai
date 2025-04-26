@@ -1,0 +1,2 @@
+the command also has some useful command-line options for 
+debugging and displaying your configuration.

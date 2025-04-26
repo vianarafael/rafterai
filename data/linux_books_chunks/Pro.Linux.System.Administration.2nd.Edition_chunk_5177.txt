@@ -1,0 +1,4 @@
+Filters allow for processing of events 
+before sending to the output (dropping events on certain conditions, anonymize data, and so on). Outputs 
+write the outputs of the Logstash processing to a stash or some kind of storage like Elasticsearch. Other 
+outputs could be S3 or Graphite.

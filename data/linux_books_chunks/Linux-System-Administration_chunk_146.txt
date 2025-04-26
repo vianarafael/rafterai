@@ -1,0 +1,6 @@
+exec
+
+With the exec command, you can execute a process without forking a new process. In the
+following screenshot a Korn shell (ksh) is started and is being replaced with a bash shell
+using the exec command. The pid of the bash shell is the same as the pid of the Korn
+shell.

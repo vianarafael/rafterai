@@ -1,0 +1,3 @@
+In that way, commands installed to those direc-
+tories not only are accessible, but also can override commands of the same name in other 
+directories.

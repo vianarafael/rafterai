@@ -1,0 +1,21 @@
+With the implementation of a simple Bash 
+script, you can automate your backups by connecting to the remote host and copying the files back to 
+your backup host.
+
+In this section, we are going to do the following:
+
+•	 Create a user to manage our backups
+
+•	 Create our passphrase-less SSH keys
+
+•	 Copy our keys to our remote hosts
+
+•	 Create a script that allows only certain commands via SSH
+
+•	 Create a script that uses rsync to sync files from remote hosts
+
+•	
+
+Add that script to cron
+
+We introduced you to SSH communications in Chapters 4 and 10.

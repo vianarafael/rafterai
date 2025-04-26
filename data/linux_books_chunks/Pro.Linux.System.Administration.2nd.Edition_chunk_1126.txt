@@ -1,0 +1,3 @@
+As you may know, runlevels 0, 1, 6 are special runlevels that either shut down, reboot, or put your host into 
+maintenance mode. We expect the service to fork another process and the respawn option directs Upstart to 
+restart the job if it is stopped unexpectedly.

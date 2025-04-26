@@ -1,0 +1,11 @@
+If the domain is “*”, it 
+
+applies to all users.
+
+ ■ type—A hard limit cannot be exceeded. A soft limit can be exceeded, but only 
+
+temporarily.
+
+Look at the limits.conf ﬁ le setting example that follows. The group faculty is listed, 
+but notice nproc. The nproc limit sets the maximum number of processes a user can start. 
+This setting is what prevents a fork bomb.

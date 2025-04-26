@@ -1,0 +1,2 @@
+In these situations, you can use rsync to remotely access 
+those hosts via SSH and pull data off them or make a backup.

@@ -1,0 +1,13 @@
+minimal smb.conf
+
+Below is an example of a very minimalistic smb.conf. It allows samba to start, and to be
+visible to other computers (Microsoft shows computers in Network Neighborhood or My
+Network Places).
+
+[paul@RHEL4b ~]$ cat /etc/samba/smb.conf
+[global]
+workgroup = WORKGROUP
+[firstshare]
+path = /srv/samba/public
+
+16.1.4.

@@ -1,0 +1,8 @@
+For example, if you want to install the Adobe Flash plug-in for Linux, 
+download the YUM repository package from Adobe and you can use the yum command to 
+install the Flash plug-in, and get updates later by running the yum update command, 
+when updates are available.
+
+Managing software with the YUM command
+The yum command has dozens of subcommands you can use to work with RPM packages 
+on your system.

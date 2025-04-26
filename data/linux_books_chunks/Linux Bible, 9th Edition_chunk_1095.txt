@@ -1,0 +1,6 @@
+Besides telling a process 
+to end, a signal might tell a process to reread conﬁ guration ﬁ les, pause (stop), or continue 
+after being paused, to name a few possibilities.
+
+Signals are represented by both numbers and names. Signals that you might send most 
+ commonly from a command include SIGKILL (9), SIGTERM (15), and SIGHUP (1).

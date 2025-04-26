@@ -1,0 +1,9 @@
+However, 
+in a restricted deletion directory, unless you are the root user or the owner of the 
+ directory, you can never delete another user’s ﬁ les.
+
+Typically, a restricted deletion directory is used as a place where lots of different users can 
+create ﬁ les. For example, the /tmp directory is a restricted deletion directory:
+
+$ ls -ld /tmp
+drwxrwxrwt.

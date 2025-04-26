@@ -1,0 +1,14 @@
+The SYN packet carries the SYN bit set and has an initial sequence number of seq 
+3194824921.
+
+IP 192.168.0.254.33348 > 192.168.0.1.smtp: Flags [S], seq 3194824921, 
+win 29200, options [mss 1460,sackOK,TS val 47080429 ecr 0,nop, 
+wscale 7], length 0
+
+252
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+The source and destination are described by 192.168.0.254 > 192.168.0.1.smtp, where .smtp is the 
+
+port we are connecting to.

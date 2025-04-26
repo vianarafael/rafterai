@@ -1,0 +1,4 @@
+You can quarantine your 
+
+infected files on the mail server by setting the OnInfected Quarantine value in the clamav-milter.conf 
+file. We set it earlier to accept so that we could see the mail arrive in our inbox.

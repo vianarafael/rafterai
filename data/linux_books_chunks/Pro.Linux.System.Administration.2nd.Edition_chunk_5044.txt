@@ -1,0 +1,15 @@
+--
+Nov 25 22:16:00 au-mel-centos-1 kernel: Initializing cgroup subsys cpuset
+Nov 25 22:16:00 au-mel-centos-1 kernel: Initializing cgroup subsys cpu
+...
+Nov 28 21:01:01 backup kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+Nov 28 22:01:01 backup kernel: SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+
+841
+
+Chapter 18 ■ Logging and Monitoring
+
+Now let’s reduce that long list to only those kernel log messages that are of an ERROR priority (-p).
+
+$ sudo journalctl -p err -k
+-- Logs begin at Fri 2016-11-25 22:16:00 AEDT, end at Mon 2016-11-28 22:10:14 AEDT.

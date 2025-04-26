@@ -1,0 +1,8 @@
+We thus need to configure the firewall on the DHCP server host to accept packets 
+to port 67 at any address.
+
+$ sudo /sbin/iptables –t filter –A INPUT -p udp --dport 67 -j ACCEPT
+
+We now have a DHCP server configuration that assigns specific reserved IP addresses to defined hosts 
+
+and uses a different address range for other hosts.

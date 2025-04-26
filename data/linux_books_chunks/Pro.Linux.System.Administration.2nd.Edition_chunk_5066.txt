@@ -1,0 +1,11 @@
+To do this, we need to edit the 
+
+following:
+
+$ sudo vi /etc/systemd/journal-remote.conf
+[Remote]
+ServerKeyFile=/etc/pki/tls/private/backup.example.com.key
+ServerCertificateFile=/etc/pki/tls/certs/backup.example.com.cert
+TrustedCertificateFile=/etc/pki/tls/certs/cacert.pem
+
+This provides the details of the TLS keys and certs we need.

@@ -1,0 +1,2 @@
+To temporarily 
+enable that swap area, you can use the swapon command.

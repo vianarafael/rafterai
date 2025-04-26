@@ -1,0 +1,12 @@
+Create a directory that belongs to a group, where every member of that group can read
+and write to files, and create files. Make sure that people can only delete their own files.
+
+mkdir /home/project42 ; groupadd project42
+
+chgrp project42 /home/project42 ; chmod 775 /home/project42
+
+You can not yet do the last part of this exercise...
+
+56
+
+Chapter 7.

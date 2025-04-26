@@ -1,0 +1,4 @@
+It tells the 
+shell to use the character following the backslash literally, instead of giving the character a special meaning to the shell. 
+(The * and ? characters are examples of characters with special meaning.) Because the backslash itself has special 
+meaning to the shell, if you want to literally use a backslash, you need to precede it with a backslash.

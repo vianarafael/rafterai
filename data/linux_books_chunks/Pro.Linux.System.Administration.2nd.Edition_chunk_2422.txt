@@ -1,0 +1,25 @@
+Let’s demonstrate how to 
+
+change that to our local time zone.
+
+First we are going to list the time zones, but because the result is a very long list we are going to use grep 
+
+to return only the result for Melbourne.
+
+$ timedatectl list-timezones |grep Melb
+Australia/Melbourne
+
+Now to set the time zone we issue the following:
+
+$ sudo timedatectl set-timezone Australia/Melbourne
+
+Now when we check our status we have the correct time zone set.
+
+$ timedatectl status
+      Local time: Sat 2016-10-01 11:29:01 AEST
+  Universal time: Sat 2016-10-01 01:29:01 UTC
+        RTC time: Fri 2016-09-30 18:13:03
+       Time zone: Australia/Melbourne (AEST, +1000)
+     NTP enabled: yes
+
+You can use the timedatectl --help option to list more options.

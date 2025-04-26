@@ -1,0 +1,11 @@
+The last field has no meaning yet.
+
+All the passwords in the screenshot above are hashes of hunter2.
+
+21
+
+user passwords
+
+3.3. encryption with passwd
+
+Passwords are stored in an encrypted format.

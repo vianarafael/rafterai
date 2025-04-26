@@ -1,0 +1,9 @@
+/sbin/shutdown
+
+The shutdown command is used to properly shut down a system.
+
+Common switches used with shutdown are -a, -t, -h and -r.
+
+The  -a  switch  forces  /sbin/shutdown  to  use  /etc/shutdown.allow.  The  -t  switch  is  used
+to define the number of seconds between the sending of the TERM signal and the KILL
+signal. The -h switch halts the system instead of changing to runlevel 1.

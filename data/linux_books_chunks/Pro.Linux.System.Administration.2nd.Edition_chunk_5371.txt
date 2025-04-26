@@ -1,0 +1,10 @@
+You can read more about this at https://assets.nagios.com/
+downloads/nagioscore/docs/nagioscore/4/en/statetypes.html.
+
+893
+
+Chapter 18 ■ Logging and Monitoring
+
+Note that this template also has a parent template, generic-service, which we’re not going to discuss 
+
+in detail.

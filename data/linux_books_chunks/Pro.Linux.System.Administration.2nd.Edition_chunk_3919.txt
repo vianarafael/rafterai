@@ -1,0 +1,3 @@
+These connections do not run over an encrypted session 
+and therefore can be a security issue, so we are not going to discuss this method of using rsync further. 
+In this chapter, we are going to describe using rsync with Secure Shell (SSH) to provide secure transport.

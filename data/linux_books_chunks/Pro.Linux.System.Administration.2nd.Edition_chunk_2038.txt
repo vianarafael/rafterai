@@ -1,0 +1,5 @@
+We talked about header files and libraries 
+at the start of this chapter and mentioned that you generally only need them when compiling software from 
+source. In Listing 7-29, note that the script was unable to find the zlib headers. We are given the option to 
+give the path where the zlib files are installed (--with-zlib=<path>), to compile without zlib (--without-
+http_gzip_module).

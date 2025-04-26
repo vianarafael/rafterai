@@ -1,0 +1,8 @@
+It uses the MAC address of the 
+network interface to identify itself in the request.
+
+ ■ Get response from DHCP server—A DHCP server, possibly running on the DSL 
+
+modem, cable modem, or other device providing a route to the Internet from your 
+location, responds to the DHCP request. It can provide lots of different types of 
+information to the DHCP client.

@@ -1,0 +1,18 @@
+Thus it is important that you understand 
+how permissions work and how to change them.
+
+There are three commonly assigned types of permissions for files:
+
+•	
+
+Read, indicated by the letter r
+
+•	 Write, indicated by the letter w
+
+•	
+
+Execute, indicated by the letter x
+
+ ■ Note 
+ There are two other types of permissions, sticky and setuid/setgid permissions, represented by t or 
+s characters, respectively.

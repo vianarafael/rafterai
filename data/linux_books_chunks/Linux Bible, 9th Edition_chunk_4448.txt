@@ -1,0 +1,14 @@
+In the partial listing that follows, 
+grep shows the PAM module; pam_time is not used within any of the system event 
+conﬁ guration ﬁ les.
+
+# grep "pam_time" /etc/pam.d/*
+config-util:auth              sufficient   pam_timestamp.so
+config-util:session           optional     pam_timestamp.so
+selinux-polgengui:auth        sufficient   pam_timestamp.so
+selinux-polgengui:session     optional     pam_timestamp.so
+system-config-selinux:auth    sufficient   pam_timestamp.so
+system-config-selinux:session optional     pam_timestamp.so
+
+Because pam_time is not listed, you must modify the /etc/pam.d/system-auth ﬁ le in 
+order for PAM to enforce it the time restrictions.

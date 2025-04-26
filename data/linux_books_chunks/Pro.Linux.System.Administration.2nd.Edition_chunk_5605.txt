@@ -1,0 +1,8 @@
+On CentOS, on both servers and clients, you will need to add the Puppet repositories for Red  
+Hat–based machines.
+
+$ sudo yum install -y https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
+
+There are several components that make up the Puppet ecosystem such as Facter, a tool for discovering 
+
+system facts on nodes.

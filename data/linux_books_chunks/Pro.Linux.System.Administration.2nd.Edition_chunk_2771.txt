@@ -1,0 +1,5 @@
+This allows you to hop from host to host via SSH, without needing to enter 
+passwords to start an SSH agent on each of these hosts.
+
+So you don’t have to keep adding the -X parameter to ssh in order to enable X forwarding, you can 
+enable it on a per-host basis in the configuration file as well.

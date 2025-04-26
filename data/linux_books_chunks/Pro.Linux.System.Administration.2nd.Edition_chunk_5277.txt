@@ -1,0 +1,20 @@
+If we want to install version 4, we will have to install 
+from source.
+
+$ sudo apt-get install nagios3 nagios-plugins
+
+This will install Nagios version 3 and all the required supporting packages including the Nagios plug-ins.
+If you want to install from source (for either CentOS or Ubuntu, but this is for Ubuntu), you need to do 
+
+the following.
+
+First we need to create users and groups to run and manage the Nagios service.
+
+$ sudo useradd nagios  && \
+sudo groupadd nagcmd && \
+sudo usermod -aG nagcmd www-data && \
+sudo usermod –aG nagcmd nagios
+
+We have added the nagcmd group to the www-data and nagios users so that the web service can read the 
+
+Nagios results.

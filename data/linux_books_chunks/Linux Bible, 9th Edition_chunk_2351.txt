@@ -1,0 +1,4 @@
+If you decide to add a passphrase, even though you don’t need to enter a password to 
+authenticate to the remote system, you still need to enter your passphrase to unlock your 
+private key. If you don’t add a passphrase, you can communicate using your private/public 
+key pairs in a way that is completely passwordless.

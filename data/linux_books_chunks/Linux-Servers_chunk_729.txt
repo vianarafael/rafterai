@@ -1,0 +1,14 @@
+adding winbind to nsswitch.conf
+
+The winbind daemon is talking with the Active Directory domain.
+
+We need to update the /etc/nsswitch.conf file now, so user group and host names can be
+resolved against the winbind daemon.
+
+[root@RHEL52 samba]# vi /etc/nsswitch.conf 
+[root@RHEL52 samba]# grep winbind /etc/nsswitch.conf 
+passwd:     files winbind
+group:      files winbind
+hosts:      files dns winbind
+
+16.3.2.

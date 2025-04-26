@@ -1,0 +1,11 @@
+On Windows, we’d call this user the Administrator. Like the 
+
+Administrator user on Windows, the root user can control and configure everything. So if you see the # 
+symbol, you know you are logged in as the root user.
+
+107
+
+ChapTeR 4 ■ LInux BasICs
+
+In some distributions, you can log in as the root user, and you’ll usually be prompted to specify a 
+password for the root user during installation.

@@ -1,0 +1,4 @@
+iostat
+
+iostat  reports  IO  statitics  every  given  period  of  time.  It  also  includes  a  small  cpu  usage
+summary.

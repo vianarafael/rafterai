@@ -1,0 +1,3 @@
+SIGSTOP and SIGCONT
+
+A running process can be suspended when it receives a SIGSTOP signal.

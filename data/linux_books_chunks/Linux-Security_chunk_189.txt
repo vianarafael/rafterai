@@ -1,0 +1,26 @@
+(You will also find the numerical limits of user ids and group ids
+and whether or not a home directory should be created by default).
+
+root@rhel65:~# grep ^PASS /etc/login.defs
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   0
+PASS_MIN_LEN    5
+PASS_WARN_AGE   7
+
+Debian also has this file.
+
+root@debian7:~# grep PASS /etc/login.defs
+#  PASS_MAX_DAYS   Maximum number of days a password may be used.
+#  PASS_MIN_DAYS   Minimum number of days allowed between password changes.
+#  PASS_WARN_AGE   Number of days warning given before a password expires.
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   0
+PASS_WARN_AGE   7
+#PASS_CHANGE_TRIES
+#PASS_ALWAYS_WARN
+#PASS_MIN_LEN
+#PASS_MAX_LEN
+# NO_PASSWORD_CONSOLE
+root@debian7:~#
+
+3.7.

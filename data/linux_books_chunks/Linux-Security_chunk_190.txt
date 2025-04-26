@@ -1,0 +1,6 @@
+chage
+
+The chage command can be used to set an expiration date for a user account (-E), set a
+minimum (-m) and maximum (-M) password age, a password expiration date, and set the
+number of warning days before the password expiration date. Much of this functionality is
+also available from the passwd command.

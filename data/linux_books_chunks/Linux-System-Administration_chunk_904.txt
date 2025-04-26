@@ -1,0 +1,10 @@
+The -vh switches are for
+nicer output.
+
+root@RHELv4u4:~# rpm -Uvh gcc-3.4.6-3
+
+237
+
+package management
+
+20.6.5.

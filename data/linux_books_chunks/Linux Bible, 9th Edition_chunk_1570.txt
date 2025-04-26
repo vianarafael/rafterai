@@ -1,0 +1,6 @@
+By interrupt-
+ing the boot loader before the installation kernel boots, you can add your own boot options 
+to direct how the installation behaves.
+
+When you see the installation boot screen, depending on the boot loader, press Tab or some 
+other key to be able to edit the anaconda kernel command line.

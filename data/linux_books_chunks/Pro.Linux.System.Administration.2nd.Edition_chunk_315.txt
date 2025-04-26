@@ -1,0 +1,12 @@
+Navigate to the directory where you downloaded the ISO image previously. Select 
+the CentOS-7 ISO.
+
+80
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-9.  Selecting image
+
+The disk should now appear attached to the IDE controller.
+
+Figure 3-10.

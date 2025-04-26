@@ -1,0 +1,16 @@
+Second, you can modify an existing user and add 
+groups using the usermod command.
+
+On the following line, we’re going to create a second user called ataylor and add her to some groups 
+
+when we create her.
+
+$ sudo useradd –m –c 'Anne Taylor' –G printing,finance ataylor
+
+154
+
+Chapter 5 ■ Users and GroUps
+
+We have specified the –G option, which allows us to provide a comma-separated list of groups that we’d 
+
+like our new user ataylor to join.

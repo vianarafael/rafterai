@@ -1,0 +1,15 @@
+For group packages, you can use tasksel 
+(or task select owner) to multiselect a package group—like ubuntu-desktop.
+
+tasksel tasksel/first multiselect ubuntu-desktop
+
+For individual packages, you can just use the following:
+
+d-i pkgsel/include string openssh-server
+
+You can have more than one package selected if you like.
+
+d-i pkgsel/include string openssh-server build-essential
+
+MAAS
+We’re going to briefly introduce you to the MAAS tool—or Metal As A Service by Ubuntu.

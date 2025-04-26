@@ -1,0 +1,9 @@
+We’ll show you how to 
+configure the syslog side of things in Chapter 18. The options are passed to the dhcp-client and used to 
+update the resolv.conf file. These current options are examples and not something we have set.
+
+455
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Let’s change this configuration somewhat to suit our own needs.

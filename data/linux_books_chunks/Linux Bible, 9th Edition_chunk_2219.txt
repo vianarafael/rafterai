@@ -1,0 +1,4 @@
+These processes are referred to as daemon processes.
+
+As the name implies, servers exist to serve. The data they serve can include web pages, ﬁ les, data-
+base information, e-mail, and lots of other types of content.

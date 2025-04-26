@@ -1,0 +1,5 @@
+Commands also exist for querying print queues (lpq), manipulating print 
+queues (lpc), and removing print queues (lprm).
+
+Common UNIX Printing System
+CUPS has become the standard for printing from Linux and other UNIX-like operating systems.

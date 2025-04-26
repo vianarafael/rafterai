@@ -1,0 +1,29 @@
+using iSCSI devices
+
+There  is  no  difference  between  using  SCSI  or  iSCSI  devices  once  they  are  connected  :
+partition, make filesystem, mount.
+
+root@ubu1104:/etc/iscsi/nodes# history | tail -13
+   94  fdisk /dev/sdc
+   95  fdisk /dev/sdd
+   96  fdisk /dev/sdb
+   97  mke2fs /dev/sdb1
+   98  mke2fs -j /dev/sdc1
+   99  mkfs.ext4 /dev/sdd1
+  100  mkdir /mnt/is1
+  101  mkdir /mnt/is2
+  102  mkdir /mnt/is3
+  103  mount /dev/sdb1 /mnt/is1
+  104  mount /dev/sdc1 /mnt/is2
+  105  mount /dev/sdd1 /mnt/is3
+  106  history | tail -13
+root@ubu1104:/etc/iscsi/nodes# mount | grep is
+/dev/sdb1 on /mnt/is1 type ext2 (rw)
+/dev/sdc1 on /mnt/is2 type ext3 (rw)
+/dev/sdd1 on /mnt/is3 type ext4 (rw)
+
+136
+
+iSCSI devices
+
+12.8.

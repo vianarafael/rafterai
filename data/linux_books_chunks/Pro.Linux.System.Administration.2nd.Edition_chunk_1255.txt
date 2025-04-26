@@ -1,0 +1,4 @@
+Many businesses these days make good use of SaaS (Software as a Service) providers to give 
+them certain business functions such as e-mail, file storage, and access. These businesses can have simple 
+network requirements. Alternatively a business that is starting out often has only one main server that 
+pretty much does all the functions the business requires.

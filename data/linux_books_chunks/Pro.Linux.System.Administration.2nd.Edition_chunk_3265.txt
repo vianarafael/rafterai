@@ -1,0 +1,6 @@
+This allows multiple processes to interact with your mailbox 
+without risking any conflicts or corruption. It’s also easier to back up and restore.
+
+The Maildir format is a directory, appropriately called Maildir, containing three subdirectories: cur, 
+
+new, and tmp.

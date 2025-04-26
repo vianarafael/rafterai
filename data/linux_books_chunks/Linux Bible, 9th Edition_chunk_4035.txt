@@ -1,0 +1,7 @@
+Using the tools described in that chap-
+ter, you can provide access to those services you and your users need, while blocking access 
+to system resources that you want to protect from harm.
+
+Exercises
+The exercises in this section enable you to try out useful troubleshooting techniques in 
+Linux.

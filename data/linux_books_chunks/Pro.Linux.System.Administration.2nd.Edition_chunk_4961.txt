@@ -1,0 +1,8 @@
+On CentOS the 
+standard pip command will suffice as it is a Python 2.7 install.
+
+$ sudo pip3 install gunicorn
+
+Again, specifically for Ubuntu, we are going to create a symlink for /usr/local/bin/gunicorn to be /
+
+usr/bin/gunicorn.

@@ -1,0 +1,27 @@
+File Listing Subset
+
+-rw-r--r--      1 root  root        0  2016-07-15 20:47 .autofsck
+drwxr-xr-x   2 root  root   4096  2016-05-18 04:11  bin
+
+Each line of the listing contains seven pieces of information about each object:
+
+•	 Unix file type
+
+•	
+
+Permissions
+
+•	 Number of hard links
+
+•	 User and group ownership
+
+•	
+
+Size
+
+•	 Date and time
+
+•	 Name
+
+Some of the information contained in the listing also introduces some key Linux concepts, such as 
+permissions and users, groups, and ownership.

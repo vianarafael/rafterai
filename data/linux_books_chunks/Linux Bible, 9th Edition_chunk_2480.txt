@@ -1,0 +1,6 @@
+Three DNS servers are 
+ available (205.152.128.23, 192.168.1.254, and 192.168.0.1), so if one is not available, 
+requests for DNS service can be directed to the address of the next DNS server in the list.
+
+To see more about how your Linux system is conﬁ gured, click the Add Proﬁ le button in the 
+NetworkManager window.

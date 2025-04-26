@@ -1,0 +1,9 @@
+Since we don’t have a valid Secure Sockets Layer (SSL) certificate 
+installed, we will get a warning that this site is untrusted. We will accept that risk, which brings us to the 
+following page, as shown in Figure 13-5.
+
+Figure 13-5.  The CUPS home page
+
+From this page we are going to click Adding Printers and Classes under the CUPS for the Administrators 
+
+column.

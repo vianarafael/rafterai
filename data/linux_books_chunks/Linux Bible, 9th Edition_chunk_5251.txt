@@ -1,0 +1,26 @@
+(For this reason, you 
+should remove or change ownership of ﬁ les left behind when you delete a user.)
+
+# find /home -user mjones -ls
+262184 4 drwx------ 4 mjones mjones 4096 Jan 25 08:00 /home/jbaxter
+262193 4 -rw-r--r-- 1 mjones mjones 176 Jan 27 2011 /home/jbaxter/
+     .bash_profile
+262189 4 -rw-r--r-- 1 mjones mjones 18 Jan 27 2011 /home/jbaxter/
+     .bash_logout
+262194 0 -rw-rw-r-- 1 mjones testing 0 Jan 25 07:59 /home/jbaxter/
+     file.txt
+262188 4 -rw-r--r-- 1 mjones mjones 124 Jan 27 2011 /home/jbaxter/
+     .bashrc
+262197 4 drwx------ 4 mjones  mjones 4096 Jan 25 08:27 /home/
+     maryjones
+262207 4 -rw-r--r-- 1 mjones mjones 176 Jan 27 2011 /home/
+maryjones/
+     .bash_profile
+262202 4 -rw-r--r-- 1 mjones mjones 18 Jan 27 2011 /home/maryjones/
+     .bash_logout
+262206 628 -rw-r--r-- 1 mjones mjones 640999 Jan 25 08:27 /home/
+     maryjones/services
+262201 4 -rw-r--r-- 1 mjones mjones 124 Jan 27 2011 /home/
+     maryjones/.bashrc
+
+9.

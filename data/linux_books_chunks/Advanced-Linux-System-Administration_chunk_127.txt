@@ -1,0 +1,9 @@
+Question: In the case above since the drive isn't a SCSI drive what could have caused the 
+problem?
+
+•
+
+ If the wrong root device is passed to the kernel by the boot loader  (LILO or GRUB) 
+then the INIT stage cannot start since /sbin/init will be missing
+
+Kernel Panic: No init found.

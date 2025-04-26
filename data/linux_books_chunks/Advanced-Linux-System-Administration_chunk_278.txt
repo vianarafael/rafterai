@@ -1,0 +1,7 @@
+Monitor Processes and generate alerts
+
+This objective gives us the opportunity to use bash's control flow capabilities to make 
+decisions when checking for the status of a given process.
+
+Say we want to check that the smbd daemon is running, then restart it and send a message 
+if it is stoped and do nothing if it is still running.

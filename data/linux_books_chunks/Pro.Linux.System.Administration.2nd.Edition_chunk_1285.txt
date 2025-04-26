@@ -1,0 +1,5 @@
+interfaces that are down are not connected to the network.
+
+What kinds of interfaces can you configure? Modern computer hosts nowadays can easily have more 
+
+than one network card (or network interface) and sometimes have many hundreds of IP addresses.

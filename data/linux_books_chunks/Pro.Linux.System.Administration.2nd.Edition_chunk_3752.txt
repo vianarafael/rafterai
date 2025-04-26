@@ -1,0 +1,6 @@
+There are plenty of 
+instructional pages on the Internet that can help you with your particular version of software or help you 
+with different errors that may pop for both Windows and macOS.
+
+There are already several resources about mounting drives for Windows hosts available online, like 
+this one: www.laptopmag.com/articles/map-network-drive-windows-10.

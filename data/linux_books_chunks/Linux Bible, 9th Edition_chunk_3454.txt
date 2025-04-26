@@ -1,0 +1,3 @@
+For example, Samba conﬁ guration ﬁ les (/etc/
+samba/*), log ﬁ les (/var/log/samba/*), and libraries (/var/lib/samba/*) have rules 
+assigned to ensure they get the proper ﬁ le contexts.

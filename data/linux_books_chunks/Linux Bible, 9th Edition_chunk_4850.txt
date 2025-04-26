@@ -1,0 +1,2 @@
+For a virtual machine to be able to move to run on another 
+hypervisor, its storage must be available from that new hypervisor.

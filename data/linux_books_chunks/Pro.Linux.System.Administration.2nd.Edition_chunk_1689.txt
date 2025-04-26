@@ -1,0 +1,2 @@
+You must allow the NEW connection state, either incoming or outgoing, if you want to 
+allow new connections to a service.

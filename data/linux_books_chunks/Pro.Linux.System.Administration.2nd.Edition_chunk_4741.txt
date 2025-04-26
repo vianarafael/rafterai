@@ -1,0 +1,8 @@
+We have chosen to house this site on 
+our host with the IP address 192.168.0.1 and DNS name of ldap.example.com, also known as headoffice.
+example.com.
+
+ Our headoffice.example.com host may now be overloaded with secure virtual hosts (https), and 
+
+ ■ Note 
+we may have to choose a nonstandard port, like 8443, to run our ldap.example.com web site.

@@ -1,0 +1,5 @@
+Using traceroute, you 
+can see where the bottlenecks are along the way if your network communication is stalling.
+
+Viewing the host and domain names
+To see the hostname assigned to the local system, type hostname.

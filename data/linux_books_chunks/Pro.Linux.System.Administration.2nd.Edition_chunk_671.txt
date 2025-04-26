@@ -1,0 +1,16 @@
+You can do 
+this on other distributions using the alias command; see www.ss64.com/bash/alias.html for more details.
+
+138
+
+ChapTeR 4 ■ LInux BasICs
+
+If we didn’t have permission to read the file, we’d get an error like the following:
+
+cp: cannot open `/home/jsmith/myfile' for reading: Permission denied
+
+We’d get a similar error if we could not write to the target destination.
+
+cp: cannot stat `/home/jsmith/yourfile': Permission denied
+
+You can also do a few more things with cp.

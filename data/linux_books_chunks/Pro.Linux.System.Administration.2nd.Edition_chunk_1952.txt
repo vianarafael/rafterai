@@ -1,0 +1,3 @@
+the 
+configuration information for your default repositories is usually stored in the /etc/apt/sources.list 
+file, which is created during the installation of your host.

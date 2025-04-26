@@ -1,0 +1,7 @@
+Most daemon processes usually have a name ending in “d” for daemon.
+
+In Listing 4-4, we’ve used the ps command with the -A flag (for all) to list all the processes currently 
+
+running on our host.
+
+Listing 4-4.

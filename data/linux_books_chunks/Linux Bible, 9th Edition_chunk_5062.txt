@@ -1,0 +1,6 @@
+(Ephemeral space is space that is available from the local disk 
+while the instance is running, but is not saved when the instance shuts down.) 
+Default ﬂ avors include m1.tiny, m1.small, m1.medium, m1.large, and 
+m1.xlarge. Other ﬂ avors can be added by your cloud administrator.
+
+ ■ Instance Count—By default, this is set to 1, to start one instance.

@@ -1,0 +1,6 @@
+If you are just getting started, 
+the following sections list some cool applications to try out.
+
+Managing files and folders with Nautilus
+To move, copy, delete, rename, and otherwise organize ﬁ les and folders in GNOME 3, you 
+can use the Nautilus ﬁ le manager.

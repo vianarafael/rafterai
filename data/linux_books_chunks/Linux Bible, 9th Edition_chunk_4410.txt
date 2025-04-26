@@ -1,0 +1,4 @@
+There are also module documentation fi les in the /usr/share/doc/pam-*/txts/ directory.
+
+Even though Linux comes with many PAM-aware applications, various conﬁ guration ﬁ les, 
+and PAM modules already installed, you cannot just hope PAM will take care of herself.

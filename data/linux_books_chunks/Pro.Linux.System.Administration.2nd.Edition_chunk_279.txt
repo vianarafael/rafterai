@@ -1,0 +1,6 @@
+As a 
+bonus, along the way you will get familiar with some of the tools we use.
+
+One combination of tools we use daily in our prototyping and testing is VirtualBox, Vagrant and Git (to 
+track changes to our configurations as we trial and test). Being able to prototype full systems without having 
+to pollute your local host or another server is a real benefit.

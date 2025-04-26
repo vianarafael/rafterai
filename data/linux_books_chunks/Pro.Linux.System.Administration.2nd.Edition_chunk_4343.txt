@@ -1,0 +1,11 @@
+For 
+the Common Name field, you should specify the fully qualified domain name of your server, in our case 
+branch1.example.com.
+
+Then we use our CA to sign our certificate as we did earlier.
+
+[ca]$ cd /etc/pki/CA
+[ca]$ sudo openssl ca -out branch1.example.com.cert -cert certs/cacert.pem 
+-infiles branch1.example.com.req
+
+Now we need to send our certificate and key as well as the CA certificate to the branch server.

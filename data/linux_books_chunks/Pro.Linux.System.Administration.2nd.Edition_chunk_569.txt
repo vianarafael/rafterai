@@ -1,0 +1,2 @@
+If this permission is set on a directory, you are able to traverse the 
+directory, for example, by using the cd command to access a subdirectory.

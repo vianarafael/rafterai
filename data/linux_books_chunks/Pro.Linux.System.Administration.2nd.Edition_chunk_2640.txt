@@ -1,0 +1,14 @@
+Change to the /etc/bind/keys directory and we will create our ZSK.
+
+$ sudo dnssec-keygen -a RSASHA256 -b 2048 -3 example.com
+Generating key pair...............................................+++ ...............+++
+Kexample.net.+008+50331
+
+Now we need a KSK to verify our zone key.
+
+$ sudo dnssec-keygen -a RSASHA256 -b 2048 -f KSK -3 example.com
+Generating key pair........................................................................+
+++ ...........................+++
+Kexample.net.+008+62695
+
+Looking inside the directory we see that there are four keys produced.

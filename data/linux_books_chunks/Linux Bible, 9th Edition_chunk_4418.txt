@@ -1,0 +1,12 @@
+The 
+ following shows a /etc/pam.d/other ﬁ le’s contents:
+
+$ cat /etc/pam.d/other
+#%PAM-1.0
+auth     required       pam_deny.so
+account  required       pam_deny.so
+password required       pam_deny.so
+session  required       pam_deny.so
+
+Notice that all four PAM contexts—auth, account, password, and session—are listed. 
+Each context uses the required control ﬂ ag and the pam_deny.so module.

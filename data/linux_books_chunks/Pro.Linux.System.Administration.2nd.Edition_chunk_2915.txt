@@ -1,0 +1,2 @@
+The php-fpm.conf file configures this daemon. PHP-FPM can 
+separate applications into pools. You create pools in the /etc/php-fpm.d directory.

@@ -1,0 +1,2 @@
+After I saw the ﬁ lesystem’s device name, I used it as an option to 
+tune2fs -l to ﬁ nd the default mount options line.

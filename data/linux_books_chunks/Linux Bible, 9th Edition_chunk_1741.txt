@@ -1,0 +1,2 @@
+The ﬁ les in the package are put in the 
+ ﬁ lesystem where needed (/etc, /bin, /usr/share/man, and so on).

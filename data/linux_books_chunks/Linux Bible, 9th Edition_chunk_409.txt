@@ -1,0 +1,6 @@
+Right-click to open a menu 
+that lets you choose to open a New Window, add or remove the application from 
+Favorites (so the application’s icon appears on the Dash), or Show Details about 
+the application. Figure 2.4 shows an example of the menu.
+
+5.  Open additional applications. Start up additional applications.

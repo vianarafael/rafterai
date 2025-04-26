@@ -1,0 +1,16 @@
+error_check() {
+23.     if [ $1 -eq 0 ] ; then
+24.     echo "backup successful"
+25.     else
+26.     echo "backup failed: see error number: $1"
+27.     fi
+28. }
+29.
+30. # The rsync functions
+31. get_sales() {
+32.    ${RSYNC} ${RSYNC_OPTS} --exclude $EXCLUDED $HOST:$SALES_DIR $BACKUP_DIR/$HOST 
+      2>&1 > /dev/null
+33. }
+34.
+35. # Bash for loop to go through each host and rsync the data.
+36.

@@ -1,0 +1,6 @@
+These variables act as 
+default options that are used by many applications. They can define characteristics like your preferred text 
+editor, your preferred language, and the colors used when listing files and directories with ls. You can also 
+define your own variables for use with your own scripts.
+
+To get a full listing of all environment variables, use the env command.

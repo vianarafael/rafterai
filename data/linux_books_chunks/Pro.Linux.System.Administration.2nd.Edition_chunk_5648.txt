@@ -1,0 +1,4 @@
+The Puppet client binary is called 
+puppet agent, and you can see a connection to the master initiated in Listing 19-7.
+
+Listing 19-7.

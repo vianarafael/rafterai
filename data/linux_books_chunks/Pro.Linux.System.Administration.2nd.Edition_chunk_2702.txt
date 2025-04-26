@@ -1,0 +1,6 @@
+Next we’ll define a pool for 
+
+all other clients. On this pool we will also override the lease times, as visiting machines generally won’t need 
+an address all day long.
+
+subnet ...

@@ -1,0 +1,15 @@
+extraversion
+
+Enter into /usr/src/redhat/BUILD/kernel-2.6.9/linux-2.6.9/ and change the extraversion
+in the Makefile.
+
+[root@RHEL52 linux-2.6.18.i686]# pwd
+/usr/src/redhat/BUILD/kernel-2.6.18/linux-2.6.18.i686
+[root@RHEL52 linux-2.6.18.i686]# vi Makefile 
+[root@RHEL52 linux-2.6.18.i686]# head -4 Makefile 
+VERSION = 2
+PATCHLEVEL = 6
+SUBLEVEL = 18
+EXTRAVERSION = -paul2008
+
+28.5.2.

@@ -1,0 +1,7 @@
+They can also be time-consuming 
+and are generally not an effective use of time and effort.
+
+The usual first response to this issue is to try to automate the tasks, which leads to the development 
+
+of custom-built scripts and applications. Few scripts developed in this ad hoc manner are ever published, 
+documented, or reused, so the same tool is developed over and over again.

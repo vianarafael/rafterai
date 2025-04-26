@@ -1,0 +1,10 @@
+We’ll talk more about logging in 
+Chapter 18.
+
+Unless the user is set to not log in, most users will have a shell entry that references the binary that 
+
+launches their shell, for example, /bin/bash.
+
+SHADOW PASSWORDS
+
+You may have noted that no password appears in /etc/passwd but rather the letter x.

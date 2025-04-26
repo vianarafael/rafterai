@@ -1,0 +1,24 @@
+The new router appears on 
+the Routers screen.
+
+762
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 763
+
+Chapter 27: Deploying Linux to the Cloud
+
+4.  Connect your network to the external router. From the Routers screen (you 
+should still be on that screen), select the name of the router you just created 
+(myrouter1):
+
+ a. 
+
+ b.

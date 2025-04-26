@@ -1,0 +1,19 @@
+client reservations
+
+You can reserve an ip configuration for a client using the mac address.
+
+host pc42 {
+hardware ethernet 11:22:33:44:55:66;
+fixed-address 192.168.42.42;
+}
+
+You can add individual options to this reservation.
+
+host pc42 {
+hardware ethernet 11:22:33:44:55:66;
+fixed-address 192.168.42.42;
+option domain-name "linux-training.be";
+option routers 192.168.42.1;
+}
+
+12.6.

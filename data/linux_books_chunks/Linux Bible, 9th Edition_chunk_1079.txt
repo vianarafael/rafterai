@@ -1,0 +1,10 @@
+For example, if output appears from a command run-
+ning in the background during a vi session, simply press Ctrl+L to redraw the screen to 
+get rid of the output.
+
+To avoid having the output appear, you should have any process running in the background send its output to a fi le or 
+to null (add 2> /dev/null to the end of the command line).
+
+Starting background processes
+If you have programs that you want to run while you continue to work in the shell, you can 
+place the programs in the background.

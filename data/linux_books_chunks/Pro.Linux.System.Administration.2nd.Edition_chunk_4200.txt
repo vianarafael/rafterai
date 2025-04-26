@@ -1,0 +1,4 @@
+That requires the Name of the Director we are connecting to and the Password we have 
+defined in the Client resource for headoffice-fd. The FileDaemon defines primarily the Name and Maximum 
+Concurrent Jobs settings. The Name setting must match the Name in the Client resource in the bareos-dir.
+conf file.

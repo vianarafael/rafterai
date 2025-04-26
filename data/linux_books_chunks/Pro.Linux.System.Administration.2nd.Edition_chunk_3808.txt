@@ -1,0 +1,7 @@
+Only peers in this 
+list can probe new peers. Now we will create our volume directory on all our peers. This can be any name, 
+but we are calling ours vol1.
+
+$ sudo mkdir /data/brick1_r1/vol1
+
+We shall now create our Gluster volume.

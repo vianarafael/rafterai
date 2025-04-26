@@ -1,0 +1,5 @@
+The organization in charge 
+of the .com domain is the Internet Corporation for Assigned Names and Numbers (ICANN), and it manages 
+the registrars.
+
+When you buy a domain from a registrar, you can specify the name servers the domain is delegated to.

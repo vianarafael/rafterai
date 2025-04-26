@@ -1,0 +1,12 @@
+From the left column, select Access & Security.
+
+2.  Create a keypair. If you already have a keypair, you can skip to the next step. If 
+not, select the Keypairs tab and click the Create Keypair button. When the Create 
+Keypair window appears, do this:
+
+ a. 
+
+ b. 
+
+ Type a Keypair Name (mycloudkey), and click the Create Keypair but-
+ton.

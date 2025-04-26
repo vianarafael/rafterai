@@ -1,0 +1,4 @@
+Add the text joe.example.org to the end of the localhost entry in your /etc/
+hosts ﬁ le on the machine that is running the web server. Then type http://
+joe.example.org  into the location box of your web browser. You should see 
+“Welcome to the House of Joe” when the page is displayed.

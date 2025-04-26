@@ -1,0 +1,19 @@
+this should fail.
+(Details on adding user accounts are explained in the next chapter.)
+
+8. Now try the same, but with sudo before your command.
+
+9
+
+introduction to users
+
+1.16. solution: introduction to users
+
+1. Run a command that displays only your currently logged on user name.
+
+laura@debian7:~$ whoami
+laura
+laura@debian7:~$ echo $USER
+laura
+
+2.

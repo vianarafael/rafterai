@@ -1,0 +1,5240 @@
+Study Guide for 
+
+Advanced Linux System Administration I 
+
+Lab work for LPI 201 
+
+released under the GFDL by LinuxIT
+
+ 
+License Agreement
+
+Copyright (c)  2005 LinuxIT.
+
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the GNU Free Documentation License, Version 1.2
+      or any later version published by the Free Software Foundation;
+      with the Invariant Sections being History, Acknowledgements, with the 
+
+Front-Cover Texts being “released under the GFDL by LinuxIT”.
+
+GNU Free Documentation License
+Version 1.2, November 2002 
+
+Copyright (C) 2000,2001,2002  Free Software Foundation, Inc.
+59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+0. PREAMBLE 
+
+The purpose of this License is to make a manual, textbook, or other functional and useful document "free" in the 
+sense of freedom: to assure everyone the effective freedom to copy and redistribute it, with or without modifying 
+it, either commercially or noncommercially. Secondarily, this License preserves for the author and publisher a 
+way to get credit for their work, while not being considered responsible for modifications made by others. 
+
+This License is a kind of "copyleft", which means that derivative works of the document must themselves be free 
+in the same sense. It complements the GNU General Public License, which is a copyleft license designed for free 
+software. 
+
+We have designed this License in order to use it for manuals for free software, because free software needs free 
+documentation: a free program should come with manuals providing the same freedoms that the software does. 
+But this License is not limited to software manuals; it can be used for any textual work, regardless of subject 
+matter or whether it is published as a printed book. We recommend this License principally for works whose 
+purpose is instruction or reference. 
+
+1. APPLICABILITY AND DEFINITIONS 
+
+This License applies to any manual or other work, in any medium, that contains a notice placed by the copyright 
+holder saying it can be distributed under the terms of this License. Such a notice grants a world-wide, royalty-free 
+license, unlimited in duration, to use that work under the conditions stated herein. The "Document", below, refers 
+to any such manual or work. Any member of the public is a licensee, and is addressed as "you". You accept the 
+license if you copy, modify or distribute the work in a way requiring permission under copyright law. 
+
+A "Modified Version" of the Document means any work containing the Document or a portion of it, either copied 
+verbatim, or with modifications and/or translated into another language. 
+
+A "Secondary Section" is a named appendix or a front-matter section of the Document that deals exclusively with 
+the relationship of the publishers or authors of the Document to the Document's overall subject (or to related 
+matters) and contains nothing that could fall directly within that overall subject. (Thus, if the Document is in part a 
+textbook of mathematics, a Secondary Section may not explain any mathematics.) The relationship could be a 
+matter of historical connection with the subject or with related matters, or of legal, commercial, philosophical, 
+ethical or political position regarding them. 
+
+The "Invariant Sections" are certain Secondary Sections whose titles are designated, as being those of Invariant 
+Sections, in the notice that says that the Document is released under this License. If a section does not fit the 
+above definition of Secondary then it is not allowed to be designated as Invariant. The Document may contain 
+zero Invariant Sections. If the Document does not identify any Invariant Sections then there are none. 
+
+The "Cover Texts" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, 
+in the notice that says that the Document is released under this License. A Front-Cover Text may be at most 5 
+
+2
+
+License Agreement
+
+words, and a Back-Cover Text may be at most 25 words. 
+
+A "Transparent" copy of the Document means a machine-readable copy, represented in a format whose 
+specification is available to the general public, that is suitable for revising the document straightforwardly with 
+generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely 
+available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of 
+formats suitable for input to text formatters. A copy made in an otherwise Transparent file format whose markup, 
+or absence of markup, has been arranged to thwart or discourage subsequent modification by readers is not 
+Transparent. An image format is not Transparent if used for any substantial amount of text. A copy that is not 
+"Transparent" is called "Opaque". 
+
+Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, 
+LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, 
+PostScript or PDF designed for human modification. Examples of transparent image formats include PNG, XCF 
+and JPG. Opaque formats include proprietary formats that can be read and edited only by proprietary word 
+processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the 
+machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only. 
+
+The "Title Page" means, for a printed book, the title page itself, plus such following pages as are needed to hold, 
+legibly, the material this License requires to appear in the title page. For works in formats which do not have any 
+title page as such, "Title Page" means the text near the most prominent appearance of the work's title, preceding 
+the beginning of the body of the text. 
+
+A section "Entitled XYZ" means a named subunit of the Document whose title either is precisely XYZ or contains 
+XYZ in parentheses following text that translates XYZ in another language. (Here XYZ stands for a specific 
+section name mentioned below, such as "Acknowledgements", "Dedications", "Endorsements", or "History".) To 
+"Preserve the Title" of such a section when you modify the Document means that it remains a section "Entitled 
+XYZ" according to this definition. 
+
+The Document may include Warranty Disclaimers next to the notice which states that this License applies to the 
+Document. These Warranty Disclaimers are considered to be included by reference in this License, but only as 
+regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has 
+no effect on the meaning of this License. 
+
+2. VERBATIM COPYING 
+
+You may copy and distribute the Document in any medium, either commercially or noncommercially, provided 
+that this License, the copyright notices, and the license notice saying this License applies to the Document are 
+reproduced in all copies, and that you add no other conditions whatsoever to those of this License. You may not 
+use technical measures to obstruct or control the reading or further copying of the copies you make or distribute. 
+However, you may accept compensation in exchange for copies. If you distribute a large enough number of 
+copies you must also follow the conditions in section 3. 
+
+You may also lend copies, under the same conditions stated above, and you may publicly display copies. 
+
+3. COPYING IN QUANTITY 
+
+If you publish printed copies (or copies in media that commonly have printed covers) of the Document, 
+numbering more than 100, and the Document's license notice requires Cover Texts, you must enclose the copies 
+in covers that carry, clearly and legibly, all these Cover Texts: Front-Cover Texts on the front cover, and Back-
+Cover Texts on the back cover. Both covers must also clearly and legibly identify you as the publisher of these 
+copies. The front cover must present the full title with all words of the title equally prominent and visible. You may 
+add other material on the covers in addition. Copying with changes limited to the covers, as long as they preserve 
+the title of the Document and satisfy these conditions, can be treated as verbatim copying in other respects. 
+
+If the required texts for either cover are too voluminous to fit legibly, you should put the first ones listed (as many 
+as fit reasonably) on the actual cover, and continue the rest onto adjacent pages. 
+
+If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a 
+machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a 
+computer-network location from which the general network-using public has access to download using public-
+
+3
+
+License Agreement
+
+standard network protocols a complete Transparent copy of the Document, free of added material. If you use the 
+latter option, you must take reasonably prudent steps, when you begin distribution of Opaque copies in quantity, 
+to ensure that this Transparent copy will remain thus accessible at the stated location until at least one year after 
+the last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition to the 
+public. 
+
+It is requested, but not required, that you contact the authors of the Document well before redistributing any large 
+number of copies, to give them a chance to provide you with an updated version of the Document. 
+
+4. MODIFICATIONS 
+
+You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, 
+provided that you release the Modified Version under precisely this License, with the Modified Version filling the 
+role of the Document, thus licensing distribution and modification of the Modified Version to whoever possesses 
+a copy of it. In addition, you must do these things in the Modified Version: 
+
+• A. Use in the Title Page (and on the covers, if any) a title distinct from that of the Document, and from 
+those of previous versions (which should, if there were any, be listed in the History section of the 
+Document). You may use the same title as a previous version if the original publisher of that version 
+gives permission. 
+
+• B. List on the Title Page, as authors, one or more persons or entities responsible for authorship of the 
+
+modifications in the Modified Version, together with at least five of the principal authors of the Document 
+(all of its principal authors, if it has fewer than five), unless they release you from this requirement. 
+
+• C. State on the Title page the name of the publisher of the Modified Version, as the publisher. 
+• D. Preserve all the copyright notices of the Document. 
+• E. Add an appropriate copyright notice for your modifications adjacent to the other copyright notices. 
+• F. Include, immediately after the copyright notices, a license notice giving the public permission to use 
+
+the Modified Version under the terms of this License, in the form shown in the Addendum below. 
+
+• G. Preserve in that license notice the full lists of Invariant Sections and required Cover Texts given in the 
+
+Document's license notice. 
+
+• H. Include an unaltered copy of this License. 
+•
+
+I. Preserve the section Entitled "History", Preserve its Title, and add to it an item stating at least the title, 
+year, new authors, and publisher of the Modified Version as given on the Title Page. If there is no section 
+Entitled "History" in the Document, create one stating the title, year, authors, and publisher of the 
+Document as given on its Title Page, then add an item describing the Modified Version as stated in the 
+previous sentence. 
+
+• J. Preserve the network location, if any, given in the Document for public access to a Transparent copy 
+of the Document, and likewise the network locations given in the Document for previous versions it was 
+based on. These may be placed in the "History" section. You may omit a network location for a work that 
+was published at least four years before the Document itself, or if the original publisher of the version it 
+refers to gives permission. 
+
+• K. For any section Entitled "Acknowledgements" or "Dedications", Preserve the Title of the section, and 
+preserve in the section all the substance and tone of each of the contributor acknowledgements and/or 
+dedications given therein. 
+
+• L. Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles. Section 
+
+numbers or the equivalent are not considered part of the section titles. 
+
+• M. Delete any section Entitled "Endorsements". Such a section may not be included in the Modified 
+
+Version. 
+
+• N. Do not retitle any existing section to be Entitled "Endorsements" or to conflict in title with any Invariant 
+
+Section. 
+
+• O. Preserve any Warranty Disclaimers. 
+
+If the Modified Version includes new front-matter sections or appendices that qualify as Secondary Sections and 
+contain no material copied from the Document, you may at your option designate some or all of these sections as 
+invariant. To do this, add their titles to the list of Invariant Sections in the Modified Version's license notice. These 
+titles must be distinct from any other section titles. 
+
+You may add a section Entitled "Endorsements", provided it contains nothing but endorsements of your Modified 
+
+4
+
+License Agreement
+
+Version by various parties--for example, statements of peer review or that the text has been approved by an 
+organization as the authoritative definition of a standard. 
+
+You may add a passage of up to five words as a Front-Cover Text, and a passage of up to 25 words as a Back-
+Cover Text, to the end of the list of Cover Texts in the Modified Version. Only one passage of Front-Cover Text 
+and one of Back-Cover Text may be added by (or through arrangements made by) any one entity. If the 
+Document already includes a cover text for the same cover, previously added by you or by arrangement made by 
+the same entity you are acting on behalf of, you may not add another; but you may replace the old one, on explicit 
+permission from the previous publisher that added the old one. 
+
+The author(s) and publisher(s) of the Document do not by this License give permission to use their names for 
+publicity for or to assert or imply endorsement of any Modified Version. 
+
+5. COMBINING DOCUMENTS 
+
+You may combine the Document with other documents released under this License, under the terms defined in 
+section 4 above for modified versions, provided that you include in the combination all of the Invariant Sections of 
+all of the original documents, unmodified, and list them all as Invariant Sections of your combined work in its 
+license notice, and that you preserve all their Warranty Disclaimers. 
+
+The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be 
+replaced with a single copy. If there are multiple Invariant Sections with the same name but different contents, 
+make the title of each such section unique by adding at the end of it, in parentheses, the name of the original 
+author or publisher of that section if known, or else a unique number. Make the same adjustment to the section 
+titles in the list of Invariant Sections in the license notice of the combined work. 
+
+In the combination, you must combine any sections Entitled "History" in the various original documents, forming 
+one section Entitled "History"; likewise combine any sections Entitled "Acknowledgements", and any sections 
+Entitled "Dedications". You must delete all sections Entitled "Endorsements." 
+
+6. COLLECTIONS OF DOCUMENTS 
+
+You may make a collection consisting of the Document and other documents released under this License, and 
+replace the individual copies of this License in the various documents with a single copy that is included in the 
+collection, provided that you follow the rules of this License for verbatim copying of each of the documents in all 
+other respects. 
+
+You may extract a single document from such a collection, and distribute it individually under this License, 
+provided you insert a copy of this License into the extracted document, and follow this License in all other 
+respects regarding verbatim copying of that document. 
+
+7. AGGREGATION WITH INDEPENDENT WORKS 
+
+A compilation of the Document or its derivatives with other separate and independent documents or works, in or 
+on a volume of a storage or distribution medium, is called an "aggregate" if the copyright resulting from the 
+compilation is not used to limit the legal rights of the compilation's users beyond what the individual works permit. 
+When the Document is included in an aggregate, this License does not apply to the other works in the aggregate 
+which are not themselves derivative works of the Document. 
+
+If the Cover Text requirement of section 3 is applicable to these copies of the Document, then if the Document is 
+less than one half of the entire aggregate, the Document's Cover Texts may be placed on covers that bracket the 
+Document within the aggregate, or the electronic equivalent of covers if the Document is in electronic form. 
+Otherwise they must appear on printed covers that bracket the whole aggregate. 
+
+8. TRANSLATION 
+
+Translation is considered a kind of modification, so you may distribute translations of the Document under the 
+terms of section 4. Replacing Invariant Sections with translations requires special permission from their copyright 
+holders, but you may include translations of some or all Invariant Sections in addition to the original versions of 
+these Invariant Sections. You may include a translation of this License, and all the license notices in the 
+Document, and any Warranty Disclaimers, provided that you also include the original English version of this 
+License and the original versions of those notices and disclaimers. In case of a disagreement between the 
+
+5
+
+License Agreement
+
+translation and the original version of this License or a notice or disclaimer, the original version will prevail. 
+
+If a section in the Document is Entitled "Acknowledgements", "Dedications", or "History", the requirement (section 
+4) to Preserve its Title (section 1) will typically require changing the actual title. 
+
+9. TERMINATION 
+
+You may not copy, modify, sublicense, or distribute the Document except as expressly provided for under this 
+License. Any other attempt to copy, modify, sublicense or distribute the Document is void, and will automatically 
+terminate your rights under this License. However, parties who have received copies, or rights, from you under 
+this License will not have their licenses terminated so long as such parties remain in full compliance. 
+
+10. FUTURE REVISIONS OF THIS LICENSE 
+
+The Free Software Foundation may publish new, revised versions of the GNU Free Documentation License from 
+time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address 
+new problems or concerns. See http://www.gnu.org/copyleft/. 
+
+Each version of the License is given a distinguishing version number. If the Document specifies that a particular 
+numbered version of this License "or any later version" applies to it, you have the option of following the terms 
+and conditions either of that specified version or of any later version that has been published (not as a draft) by 
+the Free Software Foundation. If the Document does not specify a version number of this License, you may 
+choose any version ever published (not as a draft) by the Free Software Foundation. 
+
+6
+
+Contents
+
+_______________________________________________________
+
+Table of Contents
+
+The Linux Kernel.........................................................................................................................9
+1. Kernel Components............................................................................................................9
+2. Compiling a Kernel...........................................................................................................11
+3. Patching a Kernel.............................................................................................................12
+4. Customising a Kernel........................................................................................................15
+
+System Startup..........................................................................................................................20
+1. Customising the Boot Process.........................................................................................20
+2. System Recovery..............................................................................................................23
+3. Customised initrd..............................................................................................................28
+
+The Linux Filesystem................................................................................................................33
+1. Operating the Linux Filesystem........................................................................................33
+2. Maintaining a Linux Filesystem........................................................................................35
+3. Configuring automount.....................................................................................................37
+
+Hardware and Software Configuration......................................................................................39
+1. Software RAID..................................................................................................................39
+2. LVM Configuration............................................................................................................42
+3. CD Burners and Linux......................................................................................................49
+4. Bootable CDROMs...........................................................................................................52
+5. Configuring PCMCIA Devices..........................................................................................54
+
+File and Service Sharing...........................................................................................................56
+1. Samba Client Tools..........................................................................................................56
+2. Configuring a SAMBA server............................................................................................57
+3. Configuring an NFS server...............................................................................................60
+4. Setting up an NFS Client..................................................................................................63
+
+System Maintenance................................................................................................................64
+1. System Logging................................................................................................................64
+2. RPM Builds.......................................................................................................................66
+3. Debian Rebuilds...............................................................................................................68
+
+System Automation...................................................................................................................70
+1. Writing simple perl scripts (using modules)......................................................................70
+2. Using the Perl taint module to secure data......................................................................71
+3. Installing Perl modules (CPAN)........................................................................................72
+4. Check for process execution............................................................................................74
+5. Monitor Processes and generate alerts............................................................................75
+6. Using rsync.......................................................................................................................78
+
+7
+
+Contents
+
+_______________________________________________________
+
+AppendixA.................................................................................................................................80
+Example Perl Module:  Spreadsheet....................................................................................80
+
+Exam 201: Detailed Objectives.................................................................................................82
+Topic 201: Linux Kernel........................................................................................................82
+Topic 202: System Startup...................................................................................................84
+Topic 203: Filesystem...........................................................................................................84
+Topic 204: Hardware............................................................................................................86
+Topic 209: File and Service Sharing....................................................................................87
+Topic 211: System Maintenance..........................................................................................88
+Topic 213: System Customization and Automation.............................................................89
+Topic 214: Troubleshooting..................................................................................................90
+
+INDEX.......................................................................................................................................93
+
+8
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+The Linux Kernel
+
+This module will describe the kernel source tree and the documentation available. We will 
+also apply patches and recompile patched kernels. Information found in the /proc 
+directory will be highlighted.
+
+1. Kernel Components
+
+Modules 
+
+Module Components in the Source Tree
+
+In the kernel source tree /usr/src/linux, the kernel components are stored in various 
+subdirectories:
+
+ Subdirectory
+ ./drivers
+./fs
+./net
+
+ Description
+ contains code for different types of hardware support  pcmcia
+ code for filesystem supported
+ code for network support
+
+ nfs
+ ipx
+
+ Example
+
+These components can be selected while configuring the kernel (see 2. Compiling a 
+Kernel). 
+
+Module Components at Runtime
+
+The /lib/modules/<kernelversion>/kernel directory, has many of the same 
+subdirectories present in the kernel source tree. However only the modules that have 
+been compiled will be stored here.
+
+Types of Kernel Images
+
+The various kernel image types differ depending only on the type of compression used to 
+compress the kernel.
+
+The make tool will read the /usr/src/linux/Makefile to compile  
+
+• A compressed linux kernel using gzip is compiled with: make zImage
+The compiled kernel will be:
+
+/usr/src/linux/arch/i386/boot/zImage
+
+9
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+• A compressed linux kernel using better compression is compiled with: make bzImage
+The compiled image will be:
+
+/usr/src/linux/arch/i386/boot/bzImage
+
+• One can also use: make zdisk or make bzdisk to create compressed kernels on 
+
+a floppy. The compiled kernel will be written to:
+
+/dev/fd0
+
+Remember to put a floppy in the drive!
+
+Documentation 
+
+Most documentation is available in the /usr/src/linux/Documentation directory. The 
+main files are the following:
+
+ File
+ 00-INDEX
+
+ Description
+ Summary of the contents for each file in the Documentation 
+directory
+
+ Configure.help  Contains the help displayed when configuring a kernel
+
+The Configure.help file also provides further information for when a kernel module 
+doesn't load properly. Specific options and aliases for /etc/modules.conf are specified in 
+that file. 
+
+Information about compiling and documentation is available in /usr/src/linux/README. 
+
+The version of the kernel is set at the beginning of the Makefile.
+
+VERSION = 2
+PATCHLEVEL = 4
+SUBLEVEL = 22
+EXTRAVERSION =
+
+Make sure to add something to the EXTRAVERSION line like
+EXTRAVERSION=-test
+
+This will build a kernel called 2.4.22-test
+Notice: You need the “-” sign in EXTRAVERSION or else the version will be 2.4.22test
+
+10
+
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+2. Compiling a Kernel
+
+Compiling and installing a kernel can be described in three stages.
+
+Stage 1: configuring the kernel
+
+Here we need to decide what kind of hardware and network support needs to be included 
+in the kernel as well as which type of kernel we wish to compile (modular or monolithic). 
+These choices will be saved in a single file:
+
+/usr/src/linux/.config
+
+ Creating the .config file
+ Command
+ make config
+ make menuconfig
+ make xconfig
+
+ Description
+ Edit each line of .config one at a time
+ Edit .config browsing through menus (uses ncurses)
+ Edit .config browsing through menus (uses GUI 
+widgets)
+
+When editing the .config file using any of the above methods the choices available for 
+most kernel components are:
+
+Do not use the module (n)
+Statically compile the module into the kernel (y)
+Compile the module as dynamically loadable (M)
+
+Notice that some kernel components can only be statically compiled into the kernel. One 
+cannot therefore have a totally modular kernel.
+
+When compiling a monolithic kernel none of the components should be compiled 
+dynamically.
+
+Stage 2: compiling the modules and the kernel
+
+The next table outlines the various 'makes' and their function during this stage. Notice that 
+not all commands actually compile code and that the make modules_install has been 
+
+11
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+included
+
+ Compiling
+Command 
+make clean
+
+ Description
+ makes sure no stale .o files have been left over from a previous 
+build
+ adds a .depend with headers specific to the kernel components
+make dep
+ build the kernel
+make 
+make modules
+ build the dynamic modules
+make modules_install install the modules in /lib/modules/kernel-version/
+
+Stage 3: Installing the kernel image
+
+This stage has no script and involves copying the kernel image manually to the boot 
+directory and configuring the bootloader (LILO or GRUB) to find the new kernel.
+
+3. Patching a Kernel
+
+Incremental upgrades can be applied to an existing source tree. If you have downloaded 
+the linux-2.4.21.tgz kernel source and you want to update to a more recent kernel linux-
+2.4.22 for example, you must download the patch-2.4.22.gz patch.  
+
+Applying the Patch
+
+The patch file attempts to overwrite files in the 2.4.21 tree. One way to apply the patch is 
+to proceed as follows:
+
+cd /usr/src
+
+zcat patch-2.4.22.gz | patch -p0
+
+The -p option can strip any number of directories the patch is expecting to find. In the 
+above example the patch starts with:
+
+--- linux-2.4.21/...
++++ linux-2.4.22/...
+
+12
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+This indicates that the patch can be applied in the directory where the linux-2.4.21 is. 
+
+However if we apply the patch from the /usr/src/linux-2.4.21 directory then we need to 
+strip the first part of all the paths in the patch. So that
+
+--- linux-2.4.21/arch/arm/def-configs/adsagc     
++++ linux-2.4.22/arch/arm/def-configs/adsagc
+
+becomes
+
+--- ./arch/arm/def-configs/adsagc     
++++ ./arch/arm/def-configs/adsagc
+
+This is done with the -p1 option of patch effectively telling it to strip the first directory.
+
+cd /usr/src/linux-2.4.21
+
+zcat patch-2.4.22.gz | patch -p1
+
+Testing the Patch
+
+Before applying a patch one can test what will be changed without making them:
+
+patch -p1 –dry-run  < patchfile
+
+Recovering the Old Source Tree
+
+The patch tool has several mechanisms to reverse the effect of a patch.
+
+In all cases, make sure the old configuration (.config file) is saved. For example, copy 
+the .config file to the /boot directory. 
+
+cp .config /boot/config-kernelversion
+
+1. Apply the patch in reverse
+
+The patch tool has a -R switch which can be used to reverse all the operations in a patch 
+file
+
+13
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+Example: assuming we have patched the 2.4.21 Linux kernel with patch-2.4.22.gz
+
+The next command will extract the patch: 
+
+cd /usr/src
+
+zcat patch-2.4.22.gz | patch -p0 -R
+
+2. You can backup the old changed file to a directory of your choice
+
+mkdir oldfiles
+
+patch -B oldfiles/ -p0 < patch-file
+
+This has the advantage of letting you create a backup patch that can restore the source 
+tree to it's original state.
+
+diff -ur linux-2.4.21 oldfiles/linux-2.4.21  > recover-2.4.21-
+patch
+
+NOTICE
+
+Applying this recover-2.4.21-patch will have the effect of removing the 
+2.4.22 patch we just applied in the previous paragraph
+
+3. You can apply the patch with the 
+
+ -b 
+
+ option
+
+By default this option keeps all the original files and appends a “.orig” to them.
+
+patch -b -p0 < patch-file
+
+The patch can be removed with the following lines:
+
+for file in $(find linux-2.4.29 | grep orig) 
+
+do 
+
+FILENAME=$(echo $file | sed 's/\.orig//')
+
+mv -f $file $FILENAME
+
+14
+
+ 
+ 
+ 
+ 
+   
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+done
+
+Building the New Kernel after a patch
+
+Simply copy the old .config to the top of the source directory. 
+
+cp /boot/config-kernelversion /usr/src/linux-
+kernelversion/.config
+
+Next 'make oldconfig' will only prompt for new features. 
+
+make oldconfig
+
+make dep
+
+make clean bzImage modules modules_install
+
+4. Customising a Kernel
+
+Loading Kernel modules
+
+Loadable modules are inserted into the kernel at runtime using various methods. 
+
+The modprobe tool can be used to selectively insert or remove modules and their 
+dependencies. 
+
+The kernel can automatically insert modules using the kmod module. This module has 
+replaced the kerneld module. 
+
+When using kmod the kernel will use the tool listed in  /proc/sys/kernel/modprobe 
+whenever a module is needed.
+
+Check that kmod has been selected in the source tree as a static component:
+
+grep -i “kmod” /usr/src/linux/.config
+
+CONFIG_KMOD=y
+
+15
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+When making a monolithic kernel the CONFIG_MODULES option must be set to no.
+
+The /proc/ directory
+
+The kernel capabilities that have been selected in a default or a patched kernel are 
+reflected in the /proc directory. We will list some of the files containing useful information:
+
+/proc/cmdline
+Contains the command line passed at boot time to the kernel by the bootloader
+
+/proc/cpuinfo
+CPU information is stored here
+
+/proc/meminfo
+Memory statistics are written to this file
+
+/proc/filesystems
+Filesystems currently supported by the kernel. Notice that by inserting a new module (e.g 
+cramfs) this will add an entry to the file. So the file isn't a list of all filesystems supported 
+by the kernel!
+
+/proc/partitions
+The partition layout is displayed with further information such as the name, the number of 
+block, the major/minor numbers, etc
+
+/proc/sys/
+The /proc/sys directory is the only place were files with write permission can be found 
+(the rest of /proc is read-only). Values in this directory can be changed with the sysctl 
+utility or set in the configuration file /etc/sysctl.conf
+
+/proc/sys/kernel/hotplug
+Path to the utility invoked by the kernel which implements hotplugin (used for USB 
+devices or hotplug PCI and SCSI devices)
+
+/proc/sys/kernel/modprobe
+Path to the utility invoked by the kernel to insert modules
+
+16
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+/proc/sys/overflowgid/uid
+Maximum number of users on a system. The filesystem uses 16 bits for the user and 
+group fields, so the maximum is 2^16 = 65534 which is usually mapped to the user 
+nobody or nfsnobody more recently
+
+/proc/modules
+List of currently loaded modules, same as the output of lsmod
+
+TASK: Patch the linux-2.4.22-1.2149.nptl kernel to support Extended Attributes and 
+Posix Access Control Lists (ACL) for ext2 and ext3 filesystems. 
+
+ACLs are beyond this course. All we need to know is that they provide a greater flexibility 
+for directory and file permissions on the filesystem allowing, for example, several groups 
+to access resources with different permissions.
+
+WARNING
+
+This patch will fail on older kernel versions (e.g linux-2.4.22-1.2115.nptl )
+
+Install the 2.4.22-1.2149.nptl kernel and point the /usr/src/linux link to the new source. 
+Then do:
+
+cd /usr/src/linux
+
+bzcat /usr/src/ea+acl+nfsacl-2.4.22-0.8.65.patch.bz2 | patch -p1 
+–dry-run
+
+If there are no error messages then run patch with no –dry-run option. Next, we compile 
+the new kernel:
+
+Step 1:
+Use an editor to add “EXTRAVERSION=-acl” to the Makefile
+
+Step 2:
+
+make mrproper
+cp configs/kernel-2.4.22-i686.config .config
+
+17
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+make oldconfig   (answer y to all questions relative to ACLs)
+make dep bzImage modules modules_install 
+
+A quick test:
+
+Once you have rebooted with the new kernel, add the acl option into /etc/fstab on any 
+EXT3 filesystem
+
+LABEL=/usr   /usr       ext3    defaults,acl    1 2
+
+You can then use the setfacl to add assign permissions for different groups on the same 
+directory.
+
+We first create two groups eng and sales:
+
+groupadd eng
+
+groupadd sales
+
+Then add a directory called /usrNEWS:
+
+mkdir /usr/NEWS
+
+The getfacl is a tool that lists ACL privileges. So before we do anything lets look at the 
+following output:
+
+getfacl /usr/NEWS
+
+# file: share
+
+# owner: root
+
+# group: root
+
+user::rwx
+
+group::r-x
+
+other::r-x
+
+Next add rwx permissions on NEWS for the group sales:
+
+setfacl -m g:sales:rwx NEWS/ 
+
+18
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+List the ACL privileges:
+
+getfacl NEWS/
+# file: NEWS
+# owner: root
+# group: sales
+user::rwx
+group::r-x
+group:sales:rwx
+mask::rwx
+other::r-x 
+
+Finally add r_x permissions for the group eng and list the permissions:
+
+setfacl -m g:eng:r-x NEWS/
+
+getfacl NEWS/
+
+# file: NEWS
+
+# owner: root
+
+# group: sales
+
+user::rwx
+
+group::r-x
+
+group:sales:rwx
+
+group:eng:r-x
+
+mask::rwx
+
+other::r-x
+
+The kernel patch has worked. The above tools are not in the 201 objectives.
+
+19
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+System Startup
+
+Customising the boot process involves understanding how startup script are called. The 
+chapter also describes common problems that arise at different points during the booting 
+process as well as some recovery techniques. Finally we focus our attention on the “initial 
+ram disk” (or initial root device) initrd stage of the booting process. This will allow us to 
+make decisions as to when new initial ram disks need to be made.
+.    
+
+1. Customising the Boot Process
+
+Overview of init
+
+In order to prevent processes run by users from interfering with the kernel two distinct 
+memory areas are defined. These are referred to as “kernel space memory” and “user 
+space memory”. The init process is the first program to run in user-space.  
+
+Init is therefore the parent of all processes. The init program's configuration file is 
+
+/etc/inittab  
+
+Runlevels
+
+Runlevels determine which processes should run together. All processes that can be 
+started or stopped at a given runlevel are controlled by a script (called an “init script” or an 
+“rc script”) in /etc/rc.d/init.d
+
+List of rc scripts on a typical system
+
+anacron    halt       kudzu    ntpd        rusersd   syslog 
+ypxfrd
+
+apmd       identd     lpd      portmap     rwalld    vncserver
+
+atd        ipchains   netfs    radvd       rwhod     xfs
+
+autofs     iptables   network  random      sendmail  xinetd
+
+crond      kdcrotate  nfs      rawdevices  single    ypbind
+
+functions  keytable   nfslock  rhnsd       snmpd     yppasswdd
+
+gpm        killall    nscd     rstatd      sshd      ypserv
+
+Selecting a process to run or be stopped in a given runlevel is done by creating symbolic 
+
+20
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+links in the  /etc/rc.d/rcN.d/ directory, where N is a runlevel.
+
+Example 1: selecting httpd process for runlevel 3:
+
+ln -s  /etc/rc.d/init.d/httpd /etc/rc.d/rc3.d/S85httpd
+
+Notice that the name of the link is the same as the name of the process and is preceded 
+by an S for start and a number representing the order of execution.
+
+Example 2: stopping httpd process for runlevel 3:
+
+rm /etc/rc.d/rc3.d/S85httpd
+
+ln -s  /etc/rc.d/init.d/httpd /etc/rc.d/rc3.d/K15httpd
+
+This time the name of the link starts with a K for kill to make sure the process is stopped 
+when switching from one runlevel to another.
+
+Starting Local scripts
+
+We want to run a script at a given run level. Our script will be called printtotty10 and will 
+simply print the message given as an argument to /dev/tty10.
+
+/bin/printtotty10
+
+#!/bin/bash
+
+echo $1 > /dev/tty10
+
+1. One way to have the script started at a specific run level is to add a line in /etc/inittab 
+like
+
+pr10:3:once:/bin/printtotty10 “Printtotty was started in inittab”
+
+This is not always the best way to do this. What if many scripts need to be started? The 
+inittab file would look messy. 
+
+2. We can write a custom rc-script. We follow the usage to call the script the same name 
+as the actual tool we want to startup.
+
+21
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+/etc/rc.d/init.d/printtotty10
+#!/bin/sh
+# chkconfig: 345 85 15
+# description: This line has to be here for chkconfig to work ... \
+#The script will display a message on /dev/tty10
+#First source some predefined functions such as echo_success()
+./etc/rc.d/init.d/functions
+
+start()  {
+        echo -n  "Starting printtotty10"
+        /bin/printtotty10 "printtotty10 was started with an rc-script "
+        echo_success
+        echo
+}
+
+stop() {
+        echo -n "Stopping custom-rc"
+        /bin/printtotty10 "The custom script has stopped"
+        echo_success
+        echo
+}
+case "$1" in
+  start)
+        start;;
+  stop)
+        stop;;
+esac
+exit 0
+
+3. The printtotty10 script can be started at boot time by placing the command in 
+/etc/rc.d/rc.local. The rc.local script is the last rc-script to be run. 
+
+Notice: When setting up a linux server as a router it is possible to switch on ip-forwarding 
+at boot time by adding the following line to rc.local:
+
+echo 1 > /proc/sys/net/ipv4/ip_forward 
+
+However it is better to use the sysctl mechanism to switch ip-forwarding on every time the 
+network interface is started. This is done by adding the following line to /etc/sysctl.conf:
+
+net.ipv4.ip_forward = 1
+
+22
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+2. System Recovery
+
+When a system crashes and fails to restart it is necessary to alter the normal booting 
+process. This section describes a few solutions  corresponding to problems that can occur 
+at the following stages of the booting process
+
+Booting Stage 
+
+Type of error 
+
+INIT 
+
+corrupt root filesystem or a 
+faulty /etc/fstab entry 
+
+Suggested Solution   
+
+use root login prompt  
+
+a kernel module  fails to 
+load or an RC script fails 
+
+override INIT (see below p.23) or use 
+alternative runlevel 
+
+KERNEL 
+
+Kernel panic
+
+(see below p.24) 
+
+Hardware initialisation 
+errors (often with older 
+kernels on latest mother 
+boards)
+
+Pass appropriate bootloader 
+parameter  - e.g acpi=off. (p.27) 
+
+BOOT LOADER
+
+Not installed or broken
+
+use a rescue disk or a boot disk (see 
+below p.24)
+
+Overriding the INIT stage
+
+This is necessary if the boot process fails due to a faulty init script. Once the kernel 
+successfully locates the root file system it will attempt to run /sbin/init. But the kernel can 
+be instructed to run a shell instead which will allow us to have access to the system before 
+the services are started.
+
+At the LILO or GRUB boot prompt add the following kernel parameter:
+
+init=/bin/bash
+
+At the end of the kernel boot stage you should get a bash prompt. Read-write access to 
+the root filesystem is achieved with the following
+
+mount /proc
+
+mount -o remount,rw /
+
+23
+
+  
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+Errors at the end of the kernel stage
+
+•
+
+ If the kernel can't mount the root filesystem it will print the following message:
+
+Kernel panic: VFS: Unable to mount root fs on 03:05
+
+The number 03 is the major number for the first IDE controller, and 05 is the 5th partition 
+on the disk. The problem is that the kernel is missing the proper modules to access the 
+disk.
+
+We need to boot the system using an alternative method. The fix next involves creating a 
+custom initrd and using it for the normal boot process.  
+
+Question: In the case above since the drive isn't a SCSI drive what could have caused the 
+problem?
+
+•
+
+ If the wrong root device is passed to the kernel by the boot loader  (LILO or GRUB) 
+then the INIT stage cannot start since /sbin/init will be missing
+
+Kernel Panic: No init found. Try passing init= option to kernel
+
+Again we need to boot the system using a different method, then edit the bootloader's 
+configuration file (telling the kernel to use another device as the root filesystem), and 
+reboot.
+
+In both scenarios above it isn't always necessary to use a rescue disk. In fact, it often is a 
+case of booting with a properly configured kernel. But what happens if the we don't have 
+the option? What if the bootloader was reconfigured with the wrong kernels using no initial 
+root disks or trying to mount the wrong root filesystem?
+
+This leads us to the next possible cause of booting problems.
+
+Misconfigured Bootloaders
+
+At this stage we need to use a rescue method to boot the system. 
+
+Using a rescue disk
+
+24
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+We already know from LPI 101 that any Linux distribution CD can be used to start a 
+system in rescue mode. The advantage of these CDs is that they work on any Linux 
+system. 
+
+The rescue process can be broken down into the following steps:
+
+1. Boot from the CD and find the appropriate option (often called “rescue” or “boot an 
+existing system” )
+2. In most cases the root device for the existing system is automatically detected and 
+mounted on a subdirectory of the initiatial root device (in RAM)
+3. If the mount point is called /system it can become the root of the filesystem for our 
+current shell by typing:
+
+chroot /system    
+
+4. At this stage the entire system is available and the bootloader can be fixed
+
+When a bootloader is misconfigured one can use an alternative bootloader (on a floppy or 
+a CD). This bootloader will  load a kernel which is instructed to use the root device on the 
+hard drive.
+
+This method is called a boot disk and is used to recover a specific system.  
+
+Custom Boot Disk 1:
+
+All we need is a floppy with a Linux kernel image that can boot, and this image must be 
+told were to find the root device on the hard drive.
+
+Assuming that we are using a pre-formatted DOS floppy, the following creates a bootable 
+floppy which will launch a linux kernel image
+
+dd if=/boot/vmlinuz of=/dev/fd0
+
+Next,  rdev is used to tell the kernel where the root device is. The command must be run 
+on the system we wish to protect and the floppy with the kernel must be in the drive
+
+rdev /dev/fd0 /dev/hda2
+
+25
+
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+Custom Boot Disk 2: 
+
+The syslinux package installs a binary called syslinux that can be used to create 
+bootable floppies. The procedure (taken form the packages documentation) is as follows:
+
+  1. Make a DOS bootable disk.  This can be done either by specifying the /s option when 
+formatting the disk in DOS, or by running the DOS command SYS (this can be done under 
+DOSEMU if DOSEMU has direct device access to the relevant drive):
+
+        format a: /s
+   or
+
+        sys a:
+
+2. Boot Linux.  Copy the DOS boot sector from the disk into a file:
+
+        dd if=/dev/fd0 of=dos.bss bs=512 count=1
+
+3. Run SYSLINUX on the disk:
+
+        syslinux /dev/fd0
+
+4. Mount the disk and copy the DOS boot sector file to it.  The file
+   *must* have extension .bss:
+
+        mount -t msdos /dev/fd0 /mnt
+        cp dos.bss /mnt
+
+5. Copy the Linux kernel image(s), initrd(s), etc to the disk, and
+   create/edit syslinux.cfg and help files if desired:
+
+For example if your root device is /dev/sda1 then syslinux.cfg would be:
+
+DEFAULT linux
+LABEL linux
+
+KERNEL vmlinuz
+
+26
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+APPEND initrd=initrd.img root=/dev/sda1
+
+then
+
+       cp /boot/vmlinuz /mnt
+
+        cp /boot/initrd.img /mnt
+
+6. Unmount the disk (if applicable.)
+
+        umount /mnt
+
+NOTICE
+
+Although SYSLINUX can be installed on a CD it is recommended to use the ISOLINUX 
+bootloader instead (see p.53).
+
+Bootloader Kernel Parameters 
+
+load_ramdisk=n
+
+ If n is 1 then load a ramdisk, the default is 0
+
+prompt_ramdisk=n  If n is 1 prompt to insert a floppy disk containing a ramdisk
+
+nosmp or 
+maxcpus=N
+
+apm=off
+
+init=
+
+root=
+
+mem=
+
+vga=
+
+ Disable or limit the number of CPUs
+
+ Disable APM, sometime needed to boot from yet unsupported 
+motherboards
+
+ Defaults to /sbin/init but may also be a shell or an alternative 
+process
+
+ Set the root filesystem device (can be set with rdev*)
+
+ Assign available RAM size
+
+ Change the console video mode (can be changed with rdev*)
+
+*The rdev manual pages say; “The rdev utility, when used other than to find a name for 
+the current root device, is an ancient hack that works by patching a kernel image at a 
+magic offset with magic numbers. It does not work on architectures other  than  i386.   Its 
+use is strongly discouraged. Use a boot loader like SysLinux or LILO instead”
+
+Troubleshooting LILO
+
+27
+
+        
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+When installing LILO the bootloader mapper, /sbin/lilo, will backup the existing 
+bootloader.
+
+For example if you install LILO on a floppy, the original bootloader will be save to
+/boot/boot.0200
+
+Similarly when changing the bootloader on an IDE or a SCSI disk the files will be called 
+
+boot.0300 and boot.0800 respectively. The original bootloader can be restored with:
+
+lilo -u
+
+By default the second stage LILO is called /boot/boot.b and when it is successfully 
+loaded it will prompt you with a “boot: ”. 
+
+Here the possible errors during the boot stage (taken from the LILO README)
+
+• nothing
+
+LILO is either not installed or the partition isn't active
+
+• L The first stage loader has been loaded but the second stage has failed 
+
+• LI The second stage boot loader has loaded but was unable to execute
+
+This could be cause if /boot/boot.b moved and /sbin/lilo wasn't rerun
+
+• LIL The second stage boot loader has been started, but it can't load the descriptor 
+table from the map file or the second stage boot loader has been loaded at an 
+incorrect address
+
+This could be cause if /boot/boot.b moved and /sbin/lilo wasn't rerun.
+
+• LIL- The descriptor table is corrupt  
+
+This could be cause if /boot/map moved and /sbin/lilo wasn't rerun.
+
+• Scrolling 010101 errors   This happens when the second stage boot loader is on a 
+
+slave device 
+
+3. Customised initrd
+
+In most cases a “customised initrd” requires running mkinitrd which will determine the 
+kernel modules needed to support block devices and filesystems used on the root device. 
+
+The mkinitrd script
+
+28
+
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+The following are methods used in the mkinitrd script to determine critical information 
+about the root device and filesystem.
+
+-The root filesystem type:
+
+Using /etc/fstab the script determines which filesystem is used on the root device and 
+the corresponding module (for example ext3 or xfs).
+
+-Software RAID:
+
+Using /etc/raidtab the mkinitrd script deduces the names of the raid arrays to start all 
+the devices (even non root).
+
+-LVM root device  
+
+Once the root device $rootdev is determined in /etc/fstab the major number is 
+obtained from the following line: 
+
+root_major=$(/bin/ls -l $rootdev | awk '{ print $5 }')
+
+If this corresponds to a logical volume, the logical volume commands are copied onto the 
+ram disk.
+
+The mkinitrd script will transfer all the required tools and modules to a file mounted as a 
+loop device on a temporary directory. Once unmounted, the file is compressed and can 
+be used as an initrd.
+
+Syntaxes
+
+The syntax for the Debian and the other distribution's mkinitrd is different.
+
+Debian mkinitrd 
+
+Options:
+
+  -d confdir  Specify an alternative configuration directory.
+
+  -k          Keep temporary directory used to make the image.
+
+  -m command  Set the command to make an initrd image.
+
+  -o outfile  Write to outfile
+
+  -r root     Override ROOT setting in mkinitrd.conf
+
+29
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+Example: mkinitrd -o /boot/initrd-test-$(uname -r).img
+
+Mandriva, RedHat, Suse/Novell mkinitrd
+
+usage: mkinitrd [--version] [-v] [-f] [--preload <module>]
+
+       [--omit-scsi-modules] [--omit-raid-modules] [--omit-lvm-modules]
+
+       [--with=<module>] [--image-version] [--fstab=<fstab>] [--nocompress]
+
+       [--builtin=<module>] [--nopivot] <initrd-image> <kernel-version>
+
+Example: mkinitrd /boot/initrd-test-2.2.5-15.img 2.2.5-15
+
+Example:
+
+As an example we will copy the content of an existing initrd to a new initrd and change the 
+root filesystem type form ext3 to ext2..
+
+1. Uncompress the current initrd
+cp /boot/initrd-your-kernel-version.img /tmp/initrd.img.gz 
+
+gunzip /tmp/initrd.img.gz
+
+2. Mount the current initrd using a loop device
+mkdir /mnt/current
+
+mount -o loop /tmp/initrd.img /mnt/current
+
+3. Estimate the size needed for the new initrd:
+df -k /mnt/current
+
+Filesystem           1K-blocks      Used Available Use% Mounted on
+
+/tmp/initrd.img            317       191       126  61% 
+/mnt/current
+
+4. Create a new image file called initrd-new.img of size 161K
+
+dd if=/dev/zero of=/tmp/initrd-new.img bs=1K count=317
+
+30
+
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+5. Estimate the number of inodes needed in the current initrd:
+
+df -i /mnt/current
+
+Filesystem            Inodes   IUsed   IFree IUse% Mounted on
+
+/tmp/initrd.img           48      33      15   69% /mnt/current
+
+6. Create a filesystem on the file /tmp/initrd-new.img with 48 inodes 
+
+mke2fs -F -m 0 -N 48 /tmp/initrd-new.img
+
+7. Mount the file on a new directory and copy across all the files of the current initrd to the 
+new one:
+
+mkdir /mnt/new
+
+mount -o loop /tmp/initrd-new.img /mnt/new
+
+(cd /mnt/current/; tar cf - .) | (cd /mnt/new; tar xf -)
+
+8. Edit the /mnt/new/linuxrc file and delete the line where the ext3 module is inserted. Also 
+replace the ext3 option by ext2 at the mount command.
+
+9. Finally, unmount the /tmp/initrd-new.img then compress and rename it.
+
+gzip /tmp/initrd-new.img ; mv /tmp/initrd-new.img.gz /boot/initrd-
+test.img
+
+Or
+
+gzip < /tmp/initrd-new.img > /boot/initrd-test.img
+
+10. Create a new kernel entry in /etc/lilo.conf or /boot/grub/grub.conf instructing the 
+bootloader to use the new initrd.
+
+Sample 
+
+ :
+ grub.conf
+
+title linux (2.4.22)
+        root (hd0,1)
+
+31
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+        kernel /vmlinuz-2.4.22 ro root=LABEL=/ 
+        initrd /initrd-2.4.22.img
+
+title broken?
+        root (hd0,1)
+        kernel /vmlinuz-2.4.22-1.2115.nptl ro root=LABEL=/ 
+        initrd /initrd-new.img
+
+Sample 
+
+ :
+ lilo.conf
+
+ image=/boot/vmlinuz-2.4.22-1.2115.nptl
+
+initrd=/boot/initrd-2.4.22.img
+
+read-only
+
+label=linux
+
+     append=”root=LABEL=/”
+
+image=/boot/vmlinuz-2.4.22-1.2115.nptl
+
+initrd=/boot/initrd-new.img
+
+read-only
+
+label=broken?
+
+     append=”root=LABEL=/”
+
+32
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+The Linux Filesystem
+
+This objective covers most points seen in LPI 101. Configuring automount is a new 
+feature where special attention has to be payed to the syntax. 
+
+1. Operating the Linux Filesystem
+
+When adding new filesystems to the existing root filesystem the key file involved is 
+/etc/fstab which assigns a mount point, a mount order and global options per device. 
+
+/etc/fstab options
+
+ro or rw
+
+noauto
+
+noexec
+
+nosuid
+
+nodev
+
+noatime
+
+owner
+
+user
+
+ Read only or read write
+
+ Do not respond to mount -a. Used for external devices CDROMs ...
+
+ Executables cannot be started from the device
+
+ Ignore SUID bit throughout the filesystem
+
+ Special device files such as block or character devices are ignored
+
+ Do not update atimes (performance gain)
+
+ The device can be mounted only by it's owner
+
+ Implies noexec, nosuid and nodev. A single user's name is added to 
+mtab so that other users may not unmount the devices
+
+users
+
+ Same as user but the device may be unmounted by any other user
+
+Mount will also keep track of mounted operations by updating /etc/mtab. The content of 
+this file is similar to another table held by the kernel in /proc/mounts. 
+
+Regular local filesystems
+
+When the system boots all local filesytems are mounted from the rc.sysinit scrpt. The 
+mount command will mount every thing in /etc/fstab that has not yet been mounted and 
+that is not encrypted or networked:
+
+mount -a -t nonfs,smbfs,ncpfs -o no_netdev,noloop,noencrypted
+
+When shutting down, all filesystem are unmounted by the halt script by scanning the 
+/proc/mounts file with the help of some awk commands! 
+
+33
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+Swap Partions and SWAP files
+
+At boot time, swap partitions are activated in /etc/rc.d/rc.sysinit 
+
+swapon -a
+
+Similarly when the system shuts down swap is turned off in the halt rc-script:
+
+SWAPS=`awk '! /^Filename/ { print $1 }' /proc/swaps`
+
+[ -n "$SWAPS" ] && runcmd "Turning off swap: " swapoff $SWAPS
+
+Example 1: Making a swap file of 10MB
+
+1. 
+
+dd if=/dev/zero of=/tmp/SWAPFILE bs=1k count=10240
+
+2. 
+
+mkswap /tmp/SWAPFILE
+
+3.
+
+ swapon /tmp/SWAPFILE
+
+5. 
+
+cat /proc/swaps
+
+Filename                  Type            Size    Used    Priority
+
+/dev/hda6                 partition       522072  39744   -1
+
+/tmp/SWAPFILE             file            10232   0       -2
+
+34
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+Example 2: Making a swap partition of 16MB
+
+1. Make a new partition (e.g /dev/hda16) of type swap (82) and size 16MB. Reboot
+
+2. Make a swap filesystem on the devices
+
+mkswap /dev/hda16
+
+3. Add the following to /etc/fstab
+
+/dev/hda16 swap swap  pri=-1 0 0
+
+4. Make the swap partition available with swapon -a 
+
+Notice that if two swap partition are defined the kernel will automatically access them in 
+“striped”mode, provided they have been mounted with the same priority determined by the 
+pri= option in /etc/fstab
+
+2. Maintaining a Linux Filesystem
+
+This section covers a list of commands related to filesystem maintenance.
+
+fsck - check and repair a Linux file system
+
+Main options:
+
+-b
+
+-c
+
+-f
+
+-p
+
+-y
+
+use alternative superblck
+
+check for bad blocks
+
+force checking even when partition is marked clean
+
+automatic repair
+
+answer yes to all question
+
+35
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+sync - flush filesystem buffers
+
+Updates modified superblocks and inodes and executes delayed writes. The operating 
+system keeps data in RAM in order to speed up operations. This may cause data to be 
+lost in the event of a crash unless sync is executed. Sync will simply call the 'sync' system 
+call. Another way of doing this is to use the 'ALT+sysreq+s' key combination  
+
+badblocks - search a device for bad blocks
+
+It is recommended NOT to use badblocks directly but to use the -c flag with fsck or mkfs.
+
+Main options:
+
+-b
+
+-c
+
+-i
+
+-o
+
+block size
+
+number of blocks tested at a time
+
+file with a list of known bad blocks, these blocks will be skipped
+
+output file, passed to mkfs 
+
+mke2fs - create an ext2/3 filesyste
+
+Main options:
+
+-b
+
+-i
+
+-N
+
+-m
+
+-c
+
+-l
+
+-L
+
+blocksize
+
+number of bytes between consecutive inodes 'bytes-per-inode'
+
+number of inodes
+
+Percentage of blocks reserved for user root
+
+Check for bad blocks
+
+Read bad blocks from  file
+
+Set a volume LABEL
+
+-j/-J Create journal (ext3) 
+
+-T
+
+Optimise filesystem “type”, values are:
+
+news
+largefile   
+largefile4  
+
+one inode per 4kb block
+one inode per megabyte
+one inode per 4 megabytes
+
+dumpe2fs - dump filesystem information
+
+dumpe2fs  prints  the  super block and blocks group information for the filesystem present 
+on a device
+
+36
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+debugfs - ext2 file system debugger
+
+debugfs is used to test and repair an ext2 filesystem. The main options are:
+
+-w
+
+-b
+
+open the filesystem as writeable
+
+blocksize
+
+tune2fs  -  adjust  tunable  filesystem  parameters  on second extended filesystems
+
+Main options:
+
+-l
+
+-L
+
+-m
+
+read the superblock
+
+set the device's volume LABEL 
+
+change the filesystem's reserved blocks for user root
+
+-j or -J
+
+set a journal
+
+3. Configuring automount
+
+Mounting can be automated using a mechanism called automount or autofs. 
+
+The /usr/sbin/automount is invoked with the rc-script /etc/init.d/autofs. 
+
+service autofs start
+
+This script reads the configuration file /etc/auto.master also called a map. The map file 
+defines mount points to be monitored by individual automount daemons. 
+
+Sample /etc/auto.master
+
+/extra /etc/auto.extra
+
+/home /etc/auto.home
+
+37
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+ /extra                                    /home
+
+automount
+
+automount
+
+When autofs is started it will invoke an instance of /usr/sbin/automount for each mount 
+point defined in the master map /etc/auto.master. 
+When the map file /etc/auto.master is changed it is necessary to restart autofs. For 
+example if mount points have been deleted, then the associated automount daemon is 
+terminated. Likewise,  new daemons are started for newly defined mount points.
+
+Multiple filesystems can be mounted on a single mount point. These filesystems as well as 
+the mount options needed (filesystem type, read-write permissions, etc) are defined in a 
+separate file.
+
+Sample /etc/auto.extra
+
+cdrom       -fstype=iso9660,ro,user,exec,nodev,nosuid                                :/dev/cdrom
+
+nfs            -fstype=nfs,soft,intr,rsize=8192,wsize=8        192 192.168.3.100:/usr/local
+
+/extra
+
+cdrom
+
+nfs
+
+The CDROM will automatically be accessible in /extra/cdrom and the NFS share is 
+mounted as soon as the /extra/nfs directory is accessed 
+
+NOTICE
+
+In the above example:
+
+The directories /extra/cdrom and /extra/nfs must not be created
+
+New entries in /etc/auto.extra are immediately made available: adding 'new -fstype=ext3 
+:/dev/hda2' to the file will automatically make /extra/new available
+
+By default a mounted device will stay mounted for 5 minutes: if we uncomment the 
+'cdrom' device in the map file /etc/auto.extra shortly after the CDROM has been 
+accessed, then the device will still be available for approximately 5 minutes in 
+/extra/cdrom
+
+38
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Hardware and Software Configuration
+
+This module will cover the configuration of components which need both kernel support 
+and software tools. 
+
+1. Software RAID
+
+RAID stands for “Redundant Array of Inexpensive Disks” and was originally designed to 
+combine cheap hard disks together. RAID can either increase speed or reliability 
+depending on the RAID level used. 
+
+RAID Levels
+
+RAID-
+Linear
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+RAID-0 (stripe)
+
+RAID-1 (mirror)
+
+1
+
+3
+
+5
+
+7
+
+2
+
+4
+
+6
+
+8
+
+1
+
+2
+
+3
+
+4
+
+1
+
+2
+
+3
+
+4
+
+ read
+ 0
+
+ write  redundancy
+ no
+ 0
+
+ read  write
+ +
+
+ +
+
+ redundancy
+ no
+
+read write  redundancy
+ +
+
+ yes
+
+  -
+
+RAID-4
+
+1
+
+3
+
+5
+
+7
+
+2
+
+4
+
+6
+
+8
+
+p
+
+p
+
+p
+
+p
+
+RAID-5
+
+1
+
+p
+
+5
+
+7
+
+2
+
+3
+
+p
+
+8
+
+p
+
+4
+
+6
+
+p
+
+ read
+ +
+
+ write
+ -
+
+ redundancy
+ yes
+
+ read
+ +
+
+ write
+ 0
+
+ redundancy
+ yes
+
+Spare Disks
+
+If spare disks are configured they will be used in the RAID array as soon as one of the 
+array disks fail.
+
+39
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Kernel and software components
+
+Software raid is handle by the following kernel module:
+
+RAID0
+
+RAID1
+
+RAID4 or RAID5
+
+raid0.o
+
+raid1.o
+
+raid5.o
+
+The raidtools package will provide these most common tools:
+
+Tool
+
+/sbin/lsraid
+
+/sbin/mkraid
+
+Description
+
+query raid devices
+
+create md devices from instructions given in /etc/raidtab
+
+/sbin/raidstart and raidstop
+
+start and stop the md devices 
+
+Once a meta device has been successfully created the information can be found in
+
+/proc/mdstats
+
+Booting from a RAID root device (exercise)
+
+1. Make two new partitions of the same size as the root device of type “Linux raid 
+autodetect”. 
+
+One can make a smaller new root partition by checking the actual used space on the 
+current root device
+
+df -h /
+
+Filesystem            Size  Used Avail Use% Mounted on
+
+/dev/hda7             286M  71M  201M  27% /
+
+Use fdisk to create the new partions (e.g /dev/hda14 and /dev/hda15) Reboot.
+
+40
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+2. Configure software RAID 1 on these partitions
+
+/etc/raidtab
+
+raiddev
+
+/dev/md0
+
+raidlevel 1
+
+nr-raid-disks 2
+
+nr-spare-disks 0
+
+chunk-size 4
+
+persistent-superblock 1
+
+device /dev/hda14
+
+raid-disk 0
+
+device /dev/hda15
+
+raid-disk 1
+
+Use the raidtools to make the array and start it up:
+
+mkraid /dev/md0
+
+raidstart /dev/md0
+
+Make an EXT2 filesystem on the new meta device and mount it on /mnt/sys:
+
+mke2fs /dev/md0
+
+mkdir /mnt/sys
+
+mount /dev/md0 /mnt/sys
+
+3. Copy all files on the current root device to the new root device:
+
+(tar lcvf - /) | (cd /mnt/sys; tar xvf -)
+
+The l option for tar is an instruction to stay on the same file system.  
+
+41
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+4. Prepare to reboot
+
+The mkinitrd script will read /etc/raitab and /mnt/sys/etc/fstab to customise an initrd.
+
+Edit /mnt/sys/etc/fstab and change the root device to /dev/md0 as well as the filesystem 
+type to ext2.
+
+/mnt/sys/etc/fstab
+
+/dev/md0   /    ext2   defaults   1   1
+
+Make the initial rootdisk and call it initrd-raid.img
+
+mkinitrd  --fstab=/mnt/sys/etc/fstab /boot/initrd-raid.img $(uname -r)
+
+Uncompress /boot/initrd-raid.img and mount it on a loop device to check that linuxrc will 
+insert the correct modules.
+
+Reconfigure LILO/GRUB to change the following
+
+Sample 
+
+ :
+ lilo.conf
+
+ image=/boot/vmlinuz-2.4.22-1.2115.nptl
+
+initrd=/boot/initrd-raid.img
+
+read-only
+
+root=/dev/md0
+
+label=linux-raid
+
+2. LVM Configuration
+
+Logical Volume Management (LVM)
+
+The Logical Volume Management framework allows one to group different block devices 
+(disks, partitions, RAID arrays...) together as a single larger device, the volume group 
+(VG). 
+
+Individual devices used to form a volume group are referred to as physical volumes (PV). 
+
+42
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Physical volumes once regrouped into a volume group lose their individual character. 
+
+Instead the entire volume group is divided into physical extents (PE) of fixed size (4MB by 
+default) from which logical volumes (LV) are created. A logical volume can be thought of 
+as a partition. 
+
+           Volume Group (VG)                                  
+
+                     Logical Volume
+
+              Physical Extent (PE) 
+
+                                              /dev/hda10      /dev/hdb1        /dev/hdd1     
+
+Physical Volume (PV)
+
+Kernel and software components
+
+The LVM kernel module is lvm-mod.o. The software tools are installed by the  lvm 
+package which provides in particular /sbin/vgscan. This command will start the LVM 
+environment by scanning all the volume groups and build the /etc/lvmtab as well as 
+databases in /etc/lvmtab.d which are used by all the other LVM tools.
+
+Main LVM tools :
+
+PV tools:
+
+pvcreate, pvmove, pvchange, pvdisplay, pvscan ...
+
+VG tools:
+
+vgcreate, vgremove, vgchange, vgdisplay, vgscan ... 
+
+LV tools:
+
+lvcreate, lvextend, lvreduce, lvremove, lvchange, lvscan ... 
+
+43
+
+  
+  
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+We won't need to use or know all the above tools. We will rather focus on the various LVM 
+components (as depicted in the diagram) and the commands needed to create these 
+components: pvcreate,vgcreate and lvcreate. 
+
+Example:
+
+Create a volume group called volumeA with three physical volumes ( 3 partitions in this 
+case) and create a logical volume called lv0  of size 150MB initially. 
+
+1. Run vgscan to create the /etc/lvmtab file
+
+2. Create three new partitions (say /dev/hda16, /dev/hda17, /dev/hda18) of 100MB each.
+Make sure you toggle the partition type to 8e (Linux LVM). Then reboot.
+
+3. Prepare the physical volumes
+pvcreate /dev/hda16
+pvcreate /dev/hda17
+pvcreate /dev/hda18
+
+4. Create a volume group called volumeA with the above physical volumes:
+
+vgcreate volumeA /dev/hda16 /dev/hda17 /dev/hda18
+
+This will create a directory called /dev/volumeA/. The default PE size of 4MB will be 
+used, one can change this with the -s option.
+
+5. Create a logical volume called lv0 of size 150MB on this volume group
+
+lvcreate -L 150M -n lv0 volumeA
+
+This will create the block device /dev/volume1/lv0
+
+6. Make a filesystem on lv0 and mount it on /mnt/lvm
+
+mkfs -t ext3 /dev/volumeA/lv0
+mkdir /mnt/lvm
+mount /dev/volumeA/lv0 /mnt/lvm
+
+This wouldn't be very different from other partition types if it weren't for the possibility to 
+change the logical volume's size at anytime. 
+
+44
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Let's first show how to reduce the existing 150MB logical volume lv0 with the esfsadm 
+tool installed by the lvm package.
+
+umount /mnt/lvm
+
+e2fsadm -L 25 /dev/volumeA/lv0
+
+NOTICE 
+
+The -L option refers to size in megabytes.  The is the case with most LVM tools. The -l 
+option can be used to specify logical extents (LE) instead. The default size of an LE is 
+4MB.
+.
+
+The next section will show how to add a new physical volume (a disk) to a volume group 
+and demonstrates how an existing logical volume can be made larger by including 
+physical extents available in the volume group to itself. Once this is done the e2fsadm 
+tool will resize the filesystem across the logical volume.
+
+Extending the Volume Group with a RAID 0 device
+
+So far we have:
+
+VG = /dev/hda16  +  /dev/hda17  + /dev/hda18
+
+and we would like to add a RAID0 device to 
+this
+
+1. Create three more partitions (e.g /dev/hda19, /dev/hda20 and /dev/hda21) of size 50MB 
+and of type “Linux raid autodetect” (fd) – reboot!
+
+2. Edit /etc/mtab to add the following RAID 0 device:
+
+raiddev /dev/md1
+
+        raid-level 0
+        nr-raid-disks 3
+        nr-spare-disks 0
+        persistent-superblock 1
+        chunk-size 4
+        device /dev/hda19
+        raid-disk 0
+        device /dev/hda20
+
+45
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+        raid-disk 1
+        device /dev/hda21
+        raid-disk 2
+
+3. Start the raid meta device:
+
+mkraid /dev/md1
+
+raidstart /dev/md1
+
+4. Add this device to the Volume Group volumeA
+
+Before adding the device to the volume group run pvscan to see which physical volumes 
+are available. Notice that  /dev/md1 is not listed.
+
+We now prepare /dev/md1 as a PV (physical volume):
+
+pvcreate /dev/md1
+
+When running pvscan again the output should look like the following. Notice that 
+/dev/md1 is now listed.
+
+pvscan
+pvscan -- reading all physical volumes (this may take a while...)
+pvscan -- ACTIVE  PV "/dev/md1"   is in no VG [305.62 MB]
+pvscan -- ACTIVE  PV "/dev/hda10" of VG "volumeA"[96 MB / 0 free]
+pvscan -- ACTIVE  PV "/dev/hda11" of VG "volumeA"[96 MB / 0 free]
+pvscan -- ACTIVE  PV "/dev/hda12" of VG "volumeA"[96 MB / 84 MB free]
+
+pvscan -- total:4[611.46 MB]  /in use:3[305.83 MB]  /in no VG:1 [305.62 
+MB]
+
+We next add the device /dev/md1 to the volume group volumeA: 
+
+vgextend volumeA /dev/md1
+
+At this stage the volume group has four devices:
+
+VolumeA = /dev/hda10 + /dev/hda11 + /dev/hda12 + /dev/md1
+
+We can take 50MB from /dev/md1 and add them to lv0 (unmount the volume first)
+
+lvextend -L +50 /dev/volumeA/lv0 /dev/md1
+
+46
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+The original lv0 volume had 150 megabytes. The + flag in front of the requested size has 
+added 50MB to the logical volume, making it about 200 megabytes. But we haven't 
+extended the filesystem across the entire logical volume yet.
+
+The output of lvscan will show 80MB available. This corresponds to the 25 megabytes 
+resizing done with e2fsadm on p. 21  plus the 50MB added by lvextend above
+
+.
+
+lvscan
+lvscan -- ACTIVE            "/dev/volumeA/lv0" [80 MB]
+lvscan -- 1 logical volumes with 80 MB total in 1 volume group
+lvscan -- 1 active logical volume
+
+The next command will extend the filesystem to 80 megabytes:
+
+e2fsadm -L 80 /dev/volume/lv0
+
+If you remount this volume on /mnt/lvm you can see the new available space with df.
+
+REBOOT WARNING
+
+The LVM tools need the lvm-mod.o module and in our case the metadevice /dev/md1. 
+You need to create a new initrd with mkinitrd or add the following lines to a new initrd: 
+
+insmod /lib/lvm-mod.o
+
+raidautorun /dev/md1
+
+The volume group is then activated with vgscan from the rc.sysinit script.
+
+Booting from a logical volume root device
+
+As with software RAID we are going to investigate some issues we need to consider when 
+using LVM on the root device.
+
+First make sure the volume we have created previously is mounted. If it isn't then do
+
+mount /dev/volumeA/lv0 /mnt/lvm
+
+Next we archive the root device in the same way as we did for RAID:
+
+47
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+tar clvf - / | (cd /mnt/lvm/; tar xvf -)
+
+Edit /mnt/lvm/etc/fstab and enter
+
+/dev/volumeA/lv0   /     ext2    defaults 0 1
+
+Edit /etc/lilo.conf or /etc/grub.conf to add a new entry where the kernel points to the new 
+root logical volume. For a 2.4.22 kernel an additional entry in /etc/grub.conf looks like 
+this:
+
+title lvm-root
+
+        root (hd0,1)
+
+        kernel /vmlinuz-2.4.22 ro root=LABEL=/ 
+
+        initrd /initrd-2.4.22-lvm.img
+
+All we need is the initrd initrd-2.4.22-lvm.img. 
+
+Once again we will run mkinitrd with   –-fstab=<fstab>  which we will use to make the 
+script read our new fstab file /mnt/lvm/etc/fstab. 
+
+We test this:
+
+mkinitrd --fstab=/mnt/lvm/etc/fstab /boot/initrd-lvm.img $(uname -r)
+
+If we mount this initial ram disk we can see that this is going to work by looking at the 
+linuxrc script.
+
+linuxrc
+echo "Loading lvm-mod.o module"
+insmod /lib/lvm-mod.o
+echo Creating block devices
+mkdevices /dev
+echo Scanning logical volumes
+vgscan
+echo Activating logical volumes
+
+48
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+vgchange -ay
+
+----snip---
+
+3. CD Burners and Linux
+
+Hardware detection
+
+The tools available on the commandline to burn CDs assume that the CD writer is a SCSI 
+device.  However most cheaper CD burners are IDE devices. The 2.4 kernels get around 
+this by providing a ide-scsi.o module to drive the CD burner device. 
+
+If you run cdrecord with the -scanbus option you will see that the tool is looking for a 
+SCSI device. 
+
+If the CD burner is attached as a secondary master (./dev/hdc) then the following entry in 
+
+/etc/modules.conf will enable the ide-sci module for this device :
+
+/etc/modules.conf  (from the CD-Writing HOWTO)
+options ide-scsi=/dev/hdb
+options ide-cd ignore=hdb
+alias scd0 sr_mod
+pre-install sg     modprobe ide-scsi     # load ide-scsi before sg
+pre-install sr_mod modprobe ide-scsi # load ide-scsi before sr_mod
+pre-install ide-scsi modprobe ide-cd   # load ide-cd  before ide-scsi
+
+The device will be seen as /dev/scd0 and can be added to /etc/fstab with it's own mount 
+point. 
+
+The following command shows that the hardware has been correctly detected:
+
+cdrecord -scanbus
+Cdrecord 2.0 (i686-pc-linux-gnu) Copyright (C) 1995-2002 J rg Schilling
+Linux sg driver version: 3.1.24
+Using libscg version 'schily-0.7'
+cdrecord: Warning: using inofficial libscg transport code version (schily - Red 
+Hat-scsi-linux-sg.c-1.75-RH '@(#)scsi-linux-sg.c        1.75 02/10/21 Copyright 
+1997 J. Schilling').
+scsibus0:
+
+�
+
+49
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+        0,0,0     0) 'PHILIPS ' 'CDRW48A         ' 'P1.3' Removable CD-ROM
+        0,1,0     1) *
+        0,2,0     2) *
+        0,3,0     3) *
+        0,4,0     4) *
+        0,5,0     5) *
+        0,6,0     6) *
+        0,7,0     7) *
+
+Burning an IsoImage
+
+The cdrecord tool can record either data or sound files.
+
+cdrecord  [  general  options  ] dev=device   [   track   options   ] track1...trackn
+
+The Device
+
+From the output of the cdrecord -scanbus we will use the device dev=0,0,0 for our 
+examples.
+
+Main general options
+speed
+
+specify the speed of the CD burner, e.g speed=8
+
+-eject
+
+-multi
+session 
+
+eject the CD when the recording is done
+
+start multi session recording. This option must be used with each multi 
+
+recording 
+
+Main track options
+-data
+
+the track contains data
+
+-audio
+
+the track is an audio file (.au, .wav or .cdr)
+
+Data Recording
+
+cdrecord -v speed=2 dev=0,0,0  -data  cd_image.iso
+
+Audio Recordng
+
+cdrecord -v speed=2 dev=0,0,0  -audio  *.wav 
+
+50
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Mixed Recording
+
+cdrecord -v speed=2 dev=0,0,0  -data cd_image.iso -audio  *.wav  
+
+ISO9660 Filesystem and burning CDs
+
+      From Wikipedia, the free encyclopedia* 
+
+ISO 9660, a standard published by the International Organization for Standardization, defines a file system 
+for CD-ROM media. It aims at supporting different computer operating systems such as Microsoft Windows, 
+Mac OS, and systems that follow the Unix specification, so that data may be exchanged.
+
+Levels and restrictions
+
+There are different levels to this standard.
+
+Level 1 File names are restricted to eight characters with a three-character extension, upper case letters, 
+numbers and underscore; maximum depth of directories is eight
+
+Level 2 File names may be up to 31 characters
+
+Level 3 Files allowed to be fragmented (mainly to allow packet writing, or incremental CD recording).
+
+Extensions
+
+There are common extensions to ISO 9660 to deal with the limitations. Rock Ridge supports the preservation 
+of Unix/Linux permissions and longer ASCII-coded names; Joliet supports names stored in Unicode, thus 
+allowing almost any character to be used, even from non-Latin scripts; El Torito enables CDs to be bootable.
+ISO 13490 is basically ISO 9660 with multisession support.
+
+*This article is licensed under the "http://www.gnu.org/copyleft/fdl.htm
+"http://en.wikipedia.org/wiki/ISO_9660" Wikipedia article "ISO_9660"
+
+ l  " GNU Free Documentation License. It uses material from the 
+
+Creating a CD Image 
+
+Store all the data that need to be copied in a separated directory (e.g backups/). We next 
+need to create an isoimage of this directory as follows:
+
+mkisofs -o baskups-image.iso backups/
+
+51
+
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Check the image file by mounting it as a loop device:
+
+mount -o loop backups-image.iso /mnt
+
+ls /mnt
+
+umount /mnt
+
+Finally, burn the CD with cdrecord. From the output of cdrecord -scanbus on the 
+previous page we see that the CD writer device is seen as dev=0,0,0 so we type:
+
+cdrecord -v dev=0,0,0 backups-image.iso
+
+4. Bootable CDROMs
+
+To allow the BIOS to boot from a CDROM, an extension to the ISO-9660 specification 
+called El Torito was written in 1995 by Phoenix Technologies and IBM. This specification 
+uses the existing ISO-9660 definitions and will cause the BIOS to boot a disk image using 
+a floppy or hard disk emulation.
+
+The ISO -9660 standard specifies that a CDROM should contain any number of  “Volume 
+Descriptors”. The El Torito specification adds such a descriptor called a “Boot Record”.
+
+The “Boot Record” points to a “Boot Catalog” which can contain a list of boot entries. The 
+boot catalog contains a default entry which points to a floppy or hard disk boot image.
+
+52
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+The mkisofs tool can take a boot image (floppy or hard disk) and add the image in the 
+root directory of th CDROM (usually boot/).
+
+Using disk emulation
+
+Assuming we are creating the CD in a directory called CD-root, we can create the 
+bootable disk image with dd.
+
+dd  if=/path/to/boot/image  of=<CD-root>/boot/boot.img
+
+The iso-image is then created with the following command:
+
+mkisofs -b boot/boot.img -c boot/boot.catalog -o boot-cd.iso .
+
+Alternatives without disk emulation
+
+It is possible to make a bootable CD using the ISOLINUX bootloader. 
+
+53
+
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+“ISOLINUX is a boot loader for Linux/i386 that operates off ISO 9660/El Torito CD-ROMs 
+in "no emulation" mode.  This avoids the need to create an "emulation disk image" with 
+limited space (for "floppy emulation") or compatibility problems (for "hard disk emulation".)” 
+
+The syslinux package will install the isolinux.bin bootloader. Depending on the 
+distribution this can be found in /usr/lib/syslinux/ or /usr/share/syslinux/.
+
+You next need to create a bootable CD.
+
+1. Make a directory in /tmp
+
+mkdir /tmp/boot-cd
+
+2. Copy the files needed
+
+     cp /usr/share/syslinux/isolinux.bin /tmp/boot-cd
+
+cp /boot/vmlinuz-<full-version>  /tmp/boot-cd/vmlinuz
+
+cp /boot/initrd-<full-version>.img /tmp/boot-cd/initrd
+
+3. Edit the /tmp/boot-cd/isolinux.cfg file with the following content:
+
+DEFAULT linux
+LABEL  linux 
+KERNEL vmlinuz
+APPEND  initrd=initrd root=/dev/???
+
+4. Create the isoimage with the -no-emul-boot option
+
+cd /tmp/boot-cd/
+
+mkisofs -o ../boot-cd.iso -b isolinux.bin -c boot.cat \ 
+
+ -no-emul-boot -boot-load-size 4  -boot-info-table ./
+
+Copying a Bootable CD
+
+In this section we assume that we already have a bootable CDROM. For example the first 
+disk of a boxed Linux distribution.
+
+54
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Put the bootable CD into the CDROM tray. Do not mount the disk! 
+
+Then simply type:
+
+dd if=/dev/cdrom of=distro-inst1.iso
+
+This will create an iso-image of the disk called distro-inst1.iso and can be written to a 
+blank disk with cdrecord.
+
+5. Configuring PCMCIA Devices
+
+The cardmgr utility monitors the PCMCIA slots. It will scan the /proc/devices file 
+searching for the pcmcia entry. If this entry isn't there then cardmgr will exit.
+
+In order to get the kernel to write an entry into /proc/devices it is necessary to load the 
+relevant modules. Only once kernel support is enabled will cardmgr work properly. The 
+module names are kept in the following configuration files:
+
+For RedHat like distributions: /etc/sysconfig/pcmcia
+
+For Debian like distributions: /etc/pcmcia.conf
+
+The main module is called pcmcia_core and uses two other modules called 
+yenta_socket and ds.  
+
+One can start cardmgr on the commandline after having inserted the above kernel 
+modules
+
+modprobe pcmcia_core
+
+modprobe yenta_socket
+
+modprobe ds
+
+cardmgr
+
+cardmgr[18772]: watching 2 sockets
+
+But it is best to use the rc-script provided with the pcmcia-cs package:
+
+/etc/rc.d/init.d/pcmcia restart
+
+The configuration file with a database of possible devices (e.g modems, wireless network 
+
+55
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+interfaces, memory cards ...) is called /etc/pcmcia/config. 
+
+To get infornation about your pcmcia card use the cardctl utility. Put the card into the 
+pcmcia slot and run:
+
+cardctl info
+
+....snip....
+
+PRODID_1="Xircom"
+
+PRODID_2="CardBus Ethernet 10/100 + Modem 56"
+
+PRODID_3="CBEM56G"
+
+....snip....
+
+We can check that this card is listed in /etc/pcmcia/config. The next table shows the 
+information relevant to this card, in particular the xircom_cb module needed. 
+
+/etc/pcmcia/config – section relevent to scanned card
+
+card "Xircom CBEM56G-100 CardBus 10/100 Ethernet + 56K Modem"
+
+version "Xircom", "*", "CBEM56G"
+
+bind "xircom_cb" to 0
+
+56
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+File and Service Sharing
+
+This module covers SAMBA and NFS. The objectives state a few specific implementations 
+such as file servers and printer shares. 
+
+1. Samba Client Tools
+
+nmblookup
+
+nmblookup trainer-1
+
+querying trainer-1 on 192.168.3.255
+
+192.168.3.101 trainer-1<00>
+
+smbpasswd 
+
+smbpasswd -a USER 
+
+ add a samba user
+
+smbpasswd -e USER
+
+ enable a samba user
+
+smbtar
+
+Script using smbclient to archive SMB shares directly to tape
+
+smbclient
+
+smbclient //HOST/SHARE Logs onto the specified share
+
+smbclient -L //HOST
+
+List all available shares
+
+ Output of smbstatus
+
+Samba version 2.2.7a-security-rollup-fix
+
+Service      uid      gid      pid     machine
+
+----------------------------------------------
+
+dean         dean     dean      3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:54 2003
+
+IPC$         nobody   nogroup   3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:45 2003
+
+IPC$         nobody   nogroup   3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:53 2003
+
+dean         dean     dean      3106   trainer-1 (192.168.3.101) Mon Nov 26 13:35:14 2003
+
+netlogon     dean     dean      3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:54 2003
+
+public       nobody   nogroup   3145   drakelap (192.168.3.100) Mon Nov 26 13:35:34 2003
+
+IPC$         nobody   nogroup   3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:54 2003
+
+57
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+2. Configuring a SAMBA server
+
+The SAMBA server configuration file smb.conf is usually in /etc/samba/. Within the 
+'[global]' options, parameters such as the 'WORKGROUP = ' can be set.
+
+The SAMBA server uses two daemons called nmbd and smbd implementing NMB and 
+SMB services respectively. Both daemons are started with the single rc-script:
+
+/etc/rc.d/init.d/smb start
+
+The LanManager host file lmhosts
+
+This file is usually in the same directory as the smb.conf file and is read by nmbd to 
+resolve netBIOS hostnames. The file content is similar to /etc/hosts:
+
+10.0.0.20 accounts
+
+Shared Directories
+
+We will define one share called 'readshare'  which is readable and another called 'rw-
+share' which has read-write permissions but is only accessible for user 'tux':
+
+The smb.conf options
+
+[readshare]
+
+comment = Read-only Directory
+
+path = /usr/local/news/
+
+guest only = yes
+
+browseable = yes  # this is optional
+
+[rw-share]
+
+comment = Read-write Share for tux
+
+path = /usr/local/documents
+
+browseable = yes
+
+guest ok = yes
+
+writeable = yes
+
+valid users = tux 
+
+58
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+Sharing Printers
+
+We choose to export all printers defined with CUPS on the Linux server. The following 
+configuration will enable this: 
+
+The smb.conf options
+
+[global]
+
+printcap name = cups
+
+load printers = yes
+
+printing = cups
+
+# printing without filters
+
+[printers]
+
+comment = All Printers defined using CUPS
+
+path = /var/spool/samba
+
+browseable = no
+
+guest ok = yes             # allow 'guest account to print'
+
+writable = no
+
+printable = yes
+
+create mode = 0700
+# printer drivers must be on the client side
+print command  = lpr-cups -P %p -o raw %s -r 
+
+Implementing WINS with Samba?
+
+On a NetBIOS network machine names are resolved using “Windows information network 
+services” or WINS. 
+Clients can either use broadcasts to query host names or be configured to use a WINS 
+server. This server reduces the amount of traffic on the network due to broadcasts.
+
+SAMBA as a WINS server
+To enable WINS in SAMBA the following option is set in smb.conf
+
+wins support = yes
+
+Windows clients can then be configured to use the SAMBA server as a WINS server.
+
+59
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+Second WINS server
+A NetBIOS network generally only has one WINS server. If a second server is configured 
+then the servers should be able to synchronise their host information. One can configure 
+SAMBA to register on an existing network as a second WINS server by giving it the 
+address of this server with the option:
+
+wins server = <existing wins server> 
+
+NOTICE
+
+The options 'wins support' and 'wins server' are mutually exclusive.
+The 'wins server' option registers the SAMBA server with an existing WINS server 
+and enables WINS capabilities, there is no need to set 'wins support' as well.
+
+Samba server as a Domain Controller
+
+Options selected in /etc/samba/smb.conf:
+
+security = users
+
+domain master = yes
+
+local master
+
+preferred master = yes
+
+domain logon = yes
+
+[netlogon]
+
+path=/var/lib/samba/netlogon
+
+writable = no
+
+public = no
+
+Notice: You don't need to have a logon script. This netlogon share is something the 
+Windows client needs to connect to even if it is empty
+
+60
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+3. Configuring an NFS server
+
+“ The NFS protocol is designed to be portable across different machines, 
+operating systems, network architectures, and transport protocols.  This 
+portability is achieved through the use of Remote Procedure Call (RPC) 
+primitives built on top of an eXternal Data Representation (XDR)” (RFC1094 NFS 
+v2)
+
+“NFS (Network File System) version 4 is a distributed file system protocol which 
+owes heritage to NFS protocol versions 2 [RFC1094] and 3 [RFC1813].  Unlike 
+earlier versions, the NFS version 4 protocol supports traditional file access 
+while integrating support for file locking and the mount protocol
+
+[...]
+
+The NFS version 4 protocol [...] retains the essential characteristics of 
+previous versions: design for easy recovery, independent of transport protocols, 
+operating systems and filesystems, simplicity, and good performance” (RFC3010)
+
+The NFS server runs the following daemons:
+
+rpc.nfsd
+rpc.mountd
+
+These services are started with the nfs sevice:
+
+/etc/init.d/nfs start/stop/status/restart/reload
+
+In addition rpc.statd is used to notify the client when the NFS service is unexpectedly 
+interrupted, and rpc.lockd allows clients to lock files accessed on the server.
+
+These services are started with the nfslock service:
+
+/etc/init.d/nfslock start/stop/status/restart
+
+Programs using remote procedure calls (RPC) use specific program numbers listed in 
+/etc/rpc. When a RPC service is started it will tell portmap which port number it is using 
+as well as its program number. 
+
+It is necessary for portmap to be running before starting any NFS service 
+
+RPC clients connect to the portmap service, although it is possible to work around 
+
+61
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+portmap if the RPC program number is known.
+
+The /etc/exports file
+
+Syntax:
+
+directory <host>(<option1,option2,...>) <host>(<option1,...>)
+
+/etc/exports common options:
+
+ Option
+
+ro 
+
+ Description
+
+ Read only. There is also the read-write option rw
+
+no_root_squash  override the default (root_squash) where root is mapped to user 
+
+nobody 
+
+async
+
+sync
+
+ the server writes to disk at predefined intervals (may cause data 
+loss)
+
+ use sync rather than async when exporting a directory read-write
+
+User Mappings
+
+Once a remote directory is mounted on the local client one would expect local users to 
+access their files as if the directory was locally mounted. However this will only be the 
+case if UIDs on both the local and remote systems correspond.
+
+Client
+
+root=0
+tux=500
+penguin=600
+
+Server
+
+root=0
+tux=500
+penguin=600
+
+NFS is generally used in an environment where UIDs are common between the server 
+and the clients.
+
+Anonuid and Anongid
+
+It is possible, using anonuid and anongid options to assign a unique anonymous UID or 
+GID per exported directory. Users mounting that share will be given the rights of that 
+anonymous ID on the server. For example, everybody accessing the share bellow will 
+inherit the right of the remote user with UID=150 and GID=100
+
+62
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+        /share       *(rw,anonuid=150,anongid=100)
+
+Root Squashing
+
+By default the root user on the client system will be mapped to the user nobody on the 
+server. This option is disabled in /etc/exports with the no_root_squash option
+
+            Client
+
+Server
+
+root
+UID=0
+GID=0
+
+UID=65534
+GID=65534
+
+Finally, it is possible to map all users from any client to the user nobody with the 
+all_squash option.
+
+TCPwrappers
+
+The portmap tool has been compiled with libwrap giving us the option to control access 
+through /etc/hosts.allow and /etc/hosts.deny.
+
+strings `which portmap ` |grep hosts.allow
+
+Using exportfs and nfsstat 
+
+The exportfs command with no arguments will show all exported directories. 
+
+exportfs options
+-r
+-u
+-a
+-o
+
+re-read /etc/exports and export all directories listed
+unexport all shares (until exportfs -r is called)
+applies to all exports
+specify directories not listed in /etc/exports
+
+The nfsstat displays statistics about NFS server and client activity. The information is 
+read from two files:
+
+/proc/net/rpc/nfs
+
+contains information about NFS client activity
+
+63
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+/proc/net/rpc/nfsd contains information about the NFS server
+
+nfsstat options
+-s
+-c
+-n
+-r
+-o
+
+ show only server statistics
+ shpw only client statistics
+ print NFS statistics only
+ print RPC statistics only
+ print statistics for specific utility (nfs,rpc,net,fh,rc)
+
+4. Setting up an NFS Client
+
+Mount options
+soft
+
+When a major timeout happens send the calling program an I/O error, rather 
+than retry indefinitely.
+When a major timeout happens, report “server not responding” and continues 
+to reconnect indefinitely unless the intr option is also specified
+If the first mount fails retry subsequent mounts in the background (default is 
+fg)
+Allows NFS requests to be interrupted
+Sometimes needed with older NFS servers
+Set communication block sizes for read and write. The default is 1024 bytes. 
+On a clear network the speed may be improved by setting n to 8192 
+
+hard
+
+bg
+
+intr
+nolock
+rsize=n 
+wsize=n
+
+ERRORS
+mount: RPC: Program not registered
+
+mount: IP:share failed, reason given by server: 
+Permission denied
+
+ Possible cause
+ The remote NFS server is not 
+running
+ Wrong directory
+
+The showmount tool can view NFS shares available on a remote host. The main options 
+are:
+
+showmount -a server  lists client IP and directory mounted
+
+showmount -e server  lists the content of /etc/exports from the server
+
+showmount -d server  lists only the exported directories on the server
+
+64
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+65
+
+ 
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+System Maintenance
+
+This module covers the syslogd similarly to LPI 102. The added emphasis is on remote 
+logging and name resolution. Sotware packaging is covered here to. We will see how to 
+make our own RPM package. 
+
+1. System Logging
+
+Stopping and Starting syslogd
+
+The syslogd daemon is responsible for system logging. It is started as a service:
+
+/etc/rc.d/init.d/syslogd start/stop/status/restart/condrestart
+
+The following lines are from the syslogd rc-script:
+
+if [ -f /etc/sysconfig/syslog ] ; then
+        . /etc/sysconfig/syslog
+
+The /etc/sysconfig/syslog file defines the following default variables:
+
+SYSLOGD_OPTIONS="-m 0"
+KLOGD_OPTIONS="-2"
+
+Configuration File
+
+The configuration file is /etc/syslog.conf with the following format:
+
+ FACILITY.PRIORITY  ACTION
+
+Facilities 
+auth, authpriv, cron,daemon, kern, lpr, mail, mark, news, security (same as  auth),  syslog, 
+user,  uucp and local0 to local7
+
+Priorities
+debug,  info, notice, warning,err, crit, alert, emerg
+The following are deprecated: 
+error (same as err), warn (same as warning), panic (same as emerg)
+
+66
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+Actions
+Flat file
+Terminal
+Username
+Host
+
+Full path to a file, usually in /var/log/
+use /dev/ttyN to output logs to
+if Username is logged in, send logs to the user's tty 
+send logs to a remote host. Prepend the remote host's IP with a @ sign.
+
+Sending logs to a remote server
+
+A seen above the local syslogd can send logs to a remote host (say 192.168.10.33) running 
+a syslogd. Assume we want to send all logs to this remote host, this would be the syntax:
+
+*.* @192.168.10.33
+
+Configuring syslogd to accept remote logs
+
+In this case we want remote systems to send their logs to our server. The only option that 
+needs to be added at startup is -r.
+
+Edit /etc/sysconfig/syslog and add the -r option to the SYSLOGD_OPTIONS variable
+
+SYSLOGD_OPTIONS="-r -m 0"
+
+Then restart the syslog service.
+
+Name resolution
+
+Once a server has been setup as a remote logging server it will accept logs from hosts on the 
+network. By default these hosts will appear with an IP address in the logs unless the hosts 
+are listed in /etc/hosts. This is due to the fact that syslogd cannot use DNS services. In fact 
+syslogd has not been compiled with libresolv.so, as seen below:
+
+ldd syslogd
+libc.so.6 => /lib/i686/libc.so.6 (0x40024000)
+/lib/ld-linux.so.2 => /lib/ld-linux.so.2 (0x40000000)
+
+ldd ping
+libresolv.so.2 => /lib/libresolv.so.2 (0x40024000)
+libc.so.6 => /lib/i686/libc.so.6 (0x40035000)
+/lib/ld-linux.so.2 => /lib/ld-linux.so.2 (0x40000000
+
+67
+
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+2. RPM Builds
+
+Here is an overview of the specfile sections
+
+Desciption
+ Summary
+ Name 
+ Version
+ Release
+ Copyright
+ Group
+ Source
+ BuildRoot
+
+ A summary of what the package provides
+ Name of the package
+ Package version
+ Package release
+ Copyright agreement under which the package is released
+ The package group (Amusement, Documentation ...)
+ Path to the archive containing source and files
+ Path to the temporary (fake) root filesystem
+
+Macros and Section
+%define
+%description Paragraph type description for the package (usually longer than Summary
+
+Define a variable that can be referenced later in the SPEC file
+
+%prep
+%setup
+%patch
+
+%build
+
+%install
+
+The preparation section, includes unpacking the source archive and patching
+Unpack the source archive
+Apply patches if needed
+
+ The build section, includes commands to run in the BUILD directory and 
+execute the next commands (make, ...)
+
+The install section, includes command to copy files from the BUILD directory 
+to the fake $RPM_BUILD_ROOT directory
+
+%clean
+
+Delete all files in $RPM_BUILD_ROOT
+
+%files
+%doc
+%config
+
+List of files in the package
+List which files are part of the documentation 
+List which files are configuration files
+
+68
+
+ 
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+Example: Copy fstab to /tmp/etc/fstab
+
+We can build a simple RPM package that installs an fstab file into /tmp/etc/. The spec file will 
+look like this:
+
+#This is the Header section
+Summary: Installs a fstab file to /tmp/etc
+%define name tmp-fstab
+%define version 0.2
+%define release 1
+Name: %{name}
+Version: %{version}
+Release: %{release}
+Copyright: Freely distributable
+Group: Documentation
+Source: %{name}-%{version}.tar.gz
+Packager: Adrian Thomasset <adrian@linuxit.com>
+
+#The BuildRoot directory is a temporary replacement for root (/) while the package is being built.
+BuildRoot: /var/tmp/rpm-%{name}/
+
+%description
+This package copies a file called fstab to /tmp/etc/
+
+%prep
+#The %setup macro simply opens the archived files from SOURCES into BUILD and changes #directory to it 
+(/../../BUILD/%{name}-%{version}/ 
+%setup
+
+#All the work is done here: $RPM_BUILD_ROOT is a reference to the variable defined using the %BuildRoot 
+command earlier 
+%install
+
+rm -rf $RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/tmp/etc/
+install -m 644 fstab $RPM_BUILD_ROOT/tmp/etc/fstab
+
+%clean 
+rm -rf $RPM_BUILD_ROOT
+#Define which files must be copied to the binary RPM package. The $RPM_BUILD_ROOT is #taken as the root 
+directory
+%files 
+/tmp/etc/fstab
+%defattr(-,adrian,adrian)
+
+69
+
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+All that is left to do is to prepare the source. In this case we need to create a directory called 
+tmp-fstab-0.2 containing fstab. Notice that the name and the version correspond to the name 
+and version defined in the SPEC file
+
+mkdir tmp-fstab-0.2
+
+cp /etc/fstab tmp-fstab-0.2/
+
+Next we archive the directory and copy this to the SOURCES directory
+
+tar cvzf tmp-fstab-0.2.tar.gz tmp-fstab/
+
+cp tmp-fstab-0.2.tar.gz /path/to/SOURCES/
+
+3. Debian Rebuilds
+
+The Debian rebuilding tools are installed with
+
+apt-get install devscripts build-essential fakeroot 
+
+Example: building a package foo
+
+The following command will get the source package foo
+
+apt-get source foo
+
+We must also install the packages required to rebuild the package foo as follows
+
+apt-get build-dep foo
+
+We next go into the source directory of foo and use debuild to make the package:
+
+70
+
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+cd foo/
+
+debuild -us -uc
+
+Finally, the directory above will contain the dpkg package.
+
+71
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+System Automation
+
+This module covers most scripting objectives for LPI 201. You do not need to learn a new 
+language such as perl or bash. All that is expected is to accurately describe what a script is 
+doing. Knowing the exact syntax for a specific scripting language is not expected.
+
+The best way to train for this is to go through a few examples. For this we will implement the 
+suggested automated tasks in the LPI objectives.
+
+1. Writing simple perl scripts (using modules)
+
+The online documentation for perl is contained in the perldoc package. The man pages are 
+split into sections. For example the perlintro section can be accessed with:
+
+man perlintro
+
+or
+
+perldoc perlintro
+
+Here is a summary of this perldoc.
+
+Perl scripts must be readable and executable. The first line of the script must point to the 
+interpreter.
+For example if which perl returns /usr/bin/perl, then the first line in a script should 
+be:
+#!/usr/bin/perl
+
+There are three variable types which can be declared and referenced as in the following 
+script:
+
+    # Scalars
+    my $VARIABLE = “value”;                    #declare VARIABLE   
+
+72
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+    print (“$VARIABLE  \n”);                   #print VARIABLE
+
+    # Arrays
+    my @ARRAY = (“color1”,”color2”,”color3”);   # declare ARRAY
+    $index=0                   # print ARRAY
+    while ($index < @ARRAY)  {     
+
+print (“element of $index is @ARRAY[$index] \n”);
+$index++;
+
+     }
+
+     # Hashes or Associative Arrays ({key,value} pairs)
+
+my %HASH=(“color1”, “blue”,”color2”, “red”, “color3”, “white”);
+foreach $key (keys %HASH) {
+
+print (“The key $key corresponds to the value $HASH{$key} \n”);
+
+            }
+
+@color_rank =  sort keys %HASH;  # assign the keys to an array
+
+2. Using the Perl taint module to secure data
+
+The taint module is used to check that external variables supplied by the user cannot be 
+used to exploit the system. This module is automatically used when running scripts that have 
+the setuid or setgid bit turned on. It is possible to force a perl script to switch the taint module 
+on with the -T option. 
+
+For example the system call bellow will allow any user to read  files with read access :
+
+insecure.pl
+#!/usr/bin/perl
+$FILENAME=ARGV[0]   # this is the equivalent to $1 in bash
+system(“/usr/bin/less”, $FILENAME);
+
+If the script is set SUID root or if the -T option is used then the taint module will be called and 
+this script will not execute. 
+
+check-secure.pl
+#!/usr/bin/perl -T
+$FILENAME=ARGV[0]   # this is the equivalent to $1 in bash
+
+73
+
+ 
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+system(“/usr/bin/less”, $FILENAME);
+
+In fact the check-secure.pl script isn't secure, it simply won't run with SUID root or the -T 
+option. Here is a version of insecure.pl which works around the taint mechanism and is VERY 
+INSECURE !!
+
+if (open (FILE,"$FILENAME")) {
+  $line = <FILE>;
+  while ($line ne "") {
+                print ($line);
+                $line = <FILE>;
+                }
+}
+
+3. Installing Perl modules (CPAN)
+
+Read the following perldoc pages for information on perl modules 
+
+man perlmod
+
+A set of specific functions can be written as modules and imported into new scripts with the 
+directive: 
+
+use module 
+
+There are two methods available to dowload, build and install modules from www.cpan.org
+
+Method 1: The modules can be downloaded from www.cpan.org and build as follows:
+
+Unpack the archive and type
+
+perl Makefile.pl
+make 
+make test
+make install
+
+74
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+Method 2: Use the cpan tool
+
+We can interactively configure CPAN as follows:
+
+# cpan
+CPAN is the world-wide archive of perl resources. It consists of about
+100 sites that all replicate the same contents all around the globe.
+Many countries have at least one CPAN site already. The resources
+found on CPAN are easily accessible with the CPAN.pm module. If you
+want to use CPAN.pm, you have to configure it properly
+Are you ready for manual configuration? [yes] 
+
+This can also be done with the commandline
+
+CPAN build and cache directory? [/root/.cpan]
+
+How big should the disk cache be for keeping the build directories
+with all the intermediate files?
+Cache size for build directory (in MB)? [10]
+
+Where is your gzip program? [/bin/gzip] 
+Where is your tar program? [/bin/tar] 
+Where is your unzip program? [/usr/bin/unzip] 
+Where is your make program? [/usr/bin/make] 
+Where is your links program? [/usr/bin/links] 
+Where is your wget program? [/usr/bin/wget] 
+Warning: ncftpget not found in PATH
+Where is your ncftpget program? [] /usr/bin/lftpget
+
+Now we need to know where your favorite CPAN sites are located.
+[...]
+(1) Africa
+(2) Asia
+(3) Central America
+(4) Europe
+(5) North America
+(6) Oceania
+(7) South America
+Select your continent (or several nearby continents) [] 4
+[...]
+
+cpan shell -- CPAN exploration and modules installation (v1.7601)
+ReadLine support available (try 'install Bundle::CPAN')
+
+cpan> install Bundle::CPAN
+[...]
+
+75
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+Once CPAN is configured we can install modules from the command line
+
+perl -MCPAN -e “install MODULENAME”
+
+Modules are installed in subdirectories of /usr/lib/perl. One can check if a specific module is 
+installed with:
+
+perl -MMODULENAME -e 1
+
+For an example application using perl modules see the Appendix.
+
+4. Check for process execution
+
+Searching through the output of ps for a process using grep will sometimes return a positive 
+status even though the process is not running! 
+
+This is due to the fact that the grep  process itself is sometimes printed out by ps. As in the 
+example below:
+
+ps au|grep junk
+root   13643  0.0  0.2  1724  600 pts/1   S    11:22   0:00 grep junk
+
+Needless to say, there aren't any pre-installed tools called junk in general, so the above line 
+would return a positive evaluation in a script!
+
+There is a work around for this problem.
+
+Use pgrep
+
+This tool will search the output of ps for the PIDs of all processes that match the search 
+criteria. For example:
+
+76
+
+   
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+ps aux | pgrep -u root httpd
+
+will match all httpd processes run by user root. One can also use pgrep like grep with a 
+single keyword.
+
+Use |grep -v grep
+
+By piping the output of ps into grep -v grep one can prevent grep from matching itself. This 
+will not work however if the process you are monitoring contains the string grep. 
+
+ps aux | grep smbd | grep -v grep
+
+5. Monitor Processes and generate alerts
+
+This objective gives us the opportunity to use bash's control flow capabilities to make 
+decisions when checking for the status of a given process.
+
+Say we want to check that the smbd daemon is running, then restart it and send a message 
+if it is stoped and do nothing if it is still running. The following script will do this:
+
+#!/bin/bash
+PROCESS=smb
+if ps aux | grep "$PROCESS" | grep -v grep >/dev/null ; then
+        echo Process $PROCESS is running
+else
+        echo Process $PROCESS is stopped – Restarting it ...
+        /etc/rc.d/init.d/smb start > /dev/null
+fi
+
+77
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+Checking the response from a host using ping
+
+#!/bin/bash
+while (true)
+do
+
+#get the times from 10 ping outputs
+   x=$(ping -c 10 $1 | cut -d"=" -f4 | tail +2|head | sed "s/ms//")
+
+#loop through the times to check which ones are longer than 14ms
+   for times in $x 
+       do  
+          dectimes=$(echo $times | cut -d. -f1) # get an integer 
+          if [ $(($dectimes-14)) -gt 0 ]; then 
+             echo Time exceeded 14ms:  $times 
+          fi
+       done
+done
+
+Schedule scripts that parse log files and email them
+
+We can use a perl script to run last in order to read /var/run/utmp and get it to search for the 
+string still which will match all logged users and mail the line to root.
+
+#!/usr/bin/perl
+
+$LOGFILE="/tmp/lastlog";
+$line="0";
+system("last> $LOGFILE");
+
+open (MAIL, "| mail root");
+
+if (open (FILE,"$LOGFILE")) {
+
+        while ($line ne "") { 
+             $line=<FILE>;
+              if ($line =~ still) {
+                  print MAIL $line;
+              }
+        }
+}
+
+close MAIL;
+
+78
+
+        
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+If this script needs to run every hour and it is called /usr/bin/last-log.pl, then you can create a 
+symbolic link in /etc/cron.hourly pointing to it. 
+
+Monitor changed files and generate email alert
+
+A 128-bit fingerprint (or “message-digest) for a file can be computed with md5sum. 
+
+The foillowing script will check the MD5 checksums for all the files in /etc and compare the 
+output from each run with diff. If there are any differences the changed files are mailed to 
+user root
+
+#!/bin/bash
+touch /tmp/md5old
+touch /tmp/md5new
+mv /tmp/md5new /tmp/md5old
+
+for files in $(find /etc -type f ) 
+do
+        md5sum $files >> /tmp/md5new
+done
+
+x=$(diff /tmp/md5old /tmp/md5new)
+
+if [ -z "$x" ]; then
+        break
+else
+        echo $x |mail root
+fi
+
+Notice that the first time you run this script all the files will be seen as changed!
+
+Checking valid MD5 fingerprints can be done from the STDIN or from a list of pre-computed 
+sums using md5sum -c (--check). We first compute these sums with
+
+find /etc -type f | xargs md5sum > etc-md5.dat
+
+We next pass the content of etc-md5.dat to md5sum -c. 
+
+79
+
+        
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+If for example we delete a few blank lines in /etc/sysctl.conf we can see that something has 
+changed with:
+
+md5sum -c etc-md5.dat | grep -v OK 
+
+/etc/sysctl.conf: FAILED
+
+md5sum: WARNING: 1 of 1906 computed checksums did NOT match
+
+Write a script that notifies administrators when somebody logs in or out
+
+It may not be a good idea to mail all this information but it is possible to gather it and possibly 
+format it using XML or HTML. 
+
+Here we read from a list of users we wish to monitor /etc/checks and send an email as soon 
+as they are logged in. 
+
+This can run through a cron every minute. This does imply that when somebody from the list 
+is logged in, an email every minute would be sent! 
+
+#!/bin/bash
+for luser in $(cat /etc/checks) 
+ do 
+  x=$(last |grep $luser|grep still) 
+  if [ -n "$x" ]; then
+    echo User $luser is logged in | mail root;
+  fi
+ done
+
+6. Using rsync
+
+Rsync works like an optimised rcp or scp command. It will copy to the destination directory 
+only the files that are missing or have been changed in the source directory. Even with 
+changed files rsync will send only the difference between the two files.
+
+The syntaxes are:
+
+rsync SRC HOST:/DEST
+
+rsync HOST:/SRC  DEST 
+
+80
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+One can change the value of the remote shell variable RSYNC_RSH used by rsync :
+
+export RSYNC_RSH=ssh
+
+Here is an example script using rsync to keep “Fedora Updates” updated on the local server:
+
+#!/bin/sh
+
+cd /var/ftp/pub/updates/fedora
+
+(
+date
+echo
+echo "=== Sync Files ==="
+rsync -vaz --delete --delete-excluded --exclude="*/debug/*" 
+rsync://rsync.mirror.ac.uk:873/download.fedora.redhat.com/pub/fedora/linux/core/up
+dates/1/ 
+linux/core/updates/1/ 2>&1
+echo "=== Sync Files Done ==="
+echo
+date
+) | mail -s "Fedora Updates Sync Results" andrew@anvil.org
+
+81
+
+LinuxIT Technical Training Centre
+
+AppendixA
+
+_____________________________________________________
+
+AppendixA
+
+Example Perl Module:  Spreadsheet
+
+The Spreadsheet::WriteExcel perl module can generate spreadsheet files.
+This module is dependent on the Parse::RecDescent module. 
+
+So we need the following module sources from http://search.cpan.org/
+
+Parse-RecDescent-1.94.tar.gz
+Spreadsheet-WriteExcel-0.42.tar.gz
+
+Extract the archives and run
+
+perl Makefile.PL
+
+make
+
+make test
+
+make install
+
+Then try the following test script:
+
+#!/usr/bin/perl -w
+
+#
+
+use strict;
+
+use Spreadsheet::WriteExcel;
+
+# vars
+
+my($workbook,$worksheet,$format,$col,$row);
+
+# Create a new Excel workbook
+
+$workbook = Spreadsheet::WriteExcel->new("perl.xls");
+
+82
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+AppendixA
+
+_____________________________________________________
+
+# Add a worksheet
+
+$worksheet = $workbook->add_worksheet();
+
+#  Add and define a format
+
+$format = $workbook->add_format(); # Add a format
+
+$format->set_bold();
+
+$format->set_color('red');
+
+$format->set_align('center');
+
+# Write a formatted and unformatted string, row and column notation.
+
+$col = $row = 0;
+
+$worksheet->write($row, $col, "Hi Excel!", $format);
+
+$worksheet->write(1,    $col, "Hi Excel!");
+
+# Write a number and a formula using A1 notation
+
+$worksheet->write('A3', 1.2345);
+
+$worksheet->write('A4', '=SIN(PI()/4)');
+
+$workbook->close();
+
+83
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Exam 201: Detailed Objectives
+This is a required exam for LPI certification Level 2. It covers advanced system administration 
+skills that are common across all distributions of Linux.
+
+Each objective is assigned a weighting value. The weights range roughly from 1 to 10, and 
+indicate the relative importance of each objective. Objectives with higher weights will be 
+covered in the exam with more questions.
+
+Topic 201: Linux Kernel
+
+• 2.201.1 Kernel Components
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to utilize kernel components that are 
+necessary to specific hardware, hardware drivers, system resources and requirements. 
+This objective includes implementing different types of kernel images, identifying 
+stable and development kernels and patches, as well as using kernel modules.
+
+Key files, terms, and utilities include:
+
+zImage 
+bzImage
+
+• 2.201.2 Compiling a kernel
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to properly compile a kernel to include or 
+disable specific features of the Linux kernel as necessary. This objective includes 
+compiling and recompiling the Linux kernel as needed, implementing updates and 
+noting changes in a new kernel, creating a system initrd image, and installing new 
+kernels.
+
+Key files, terms, and utilities include:
+/usr/src/linux/ 
+/etc/lilo.conf 
+make options (config, xconfig, menuconfig, oldconfig, mrproper zImage, bzImage,  
+modules, modules_install)
+mkinitrd (both Red Hat and Debian based)
+make
+
+84
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+• 2.201.3 Patching a kernel
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to properly patch a kernel for various 
+purposes including to implement kernel updates, to implement bug fixes, and to add 
+support for new hardware. This objective also includes being able to properly remove 
+kernel patches from existing production kernels.
+
+Key files, terms, and utilities include:
+Makefile 
+patch
+gzip 
+bzip
+
+• 2.201.4 Customizing a kernel
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to customize a kernel for specific system 
+requirements by patching, compiling, and editing configuration files as required. This 
+objective includes being able to assess requirements for a kernel compile versus a 
+kernel patch as well as build and configure kernel modules.
+
+Key files, terms, and utilities include:
+/usr/src/linux 
+/proc/sys/kernel/
+/etc/conf.modules, /etc/modules.conf 
+patch 
+make 
+modprobe 
+insmod, lsmod 
+kerneld
+kmod 
+
+85
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Topic 202: System Startup
+
+• 2.202.1 Customizing system startup and boot processes
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to edit appropriate system startup scripts to 
+customize standard system run levels and boot processes. This objective includes 
+interacting with run levels and creating custom initrd images as needed.
+
+Key files, terms, and utilities include:
+/etc/init.d/ 
+/etc/inittab 
+/etc/rc.d/ 
+mkinitrd (both Red Hat and Debian scripts) 
+
+• 2.202.2 System recovery
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: Candidates should be able to properly manipulate a Linux system during 
+both the boot process and during recovery mode. This objective includes using both 
+the init utility and init= kernel options.
+
+Key files, terms, and utilities include:
+inittab 
+LILO
+init
+mount 
+fsck
+
+Topic 203: Filesystem
+
+• 2.203.1 Operating the Linux filesystem
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+
+86
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Weight: 3 
+
+Description: Candidates should be able to properly configure and navigate the 
+standard Linux filesystem. This objective includes configuring and mounting various 
+filesystem types. Also included, is manipulating filesystems to adjust for disk space 
+requirements or device additions.
+
+Key files, terms, and utilities include:
+/etc/fstab 
+/etc/mtab 
+/proc/mounts 
+mount and umount 
+sync 
+swapon
+swapoff 
+
+• 2.203.2 Maintaining a Linux filesystem
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 4 
+
+Description: Candidates should be able to properly maintain a Linux filesystem using 
+system utilities. This objective includes manipulating a standard ext2 filesystem.
+
+Key files, terms, and utilities include:
+fsck (fsck.ext2) 
+badblocks 
+mke2fs 
+dumpe2fs 
+debuge2fs 
+tune2fs
+
+• 2.203.3 Creating and configuring filesystem options
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: Candidates should be able to configure automount filesystems. This 
+objective includes configuring automount for network and device filesystems. Also 
+included is creating non ext2 filesystems for devices such as CD-ROMs.
+
+87
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Key files, terms, and utilities include:
+/etc/auto.master 
+/etc/auto.[dir] 
+mkisofs 
+dd 
+mke2fs
+
+Topic 204: Hardware
+
+• 2.204.1 Configuring RAID
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to configure and implement software RAID. 
+This objective includes using mkraid tools and configuring RAID 0, 1, and 5.
+
+Key files, terms, and utilities include:
+/etc/raidtab 
+mkraid
+
+• 2.204.2 Adding new hardware
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: Candidates should be able to configure internal and external devices for 
+a system including new hard disks, dumb terminal devices, serial UPS devices, multi-
+port serial cards, and LCD panels.
+
+Key files, terms, and utilities include:
+/proc/bus/usb 
+XFree86 
+modprobe 
+lsmod 
+lsdev 
+lspci 
+setserial 
+
+88
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+usbview 
+
+• 2.204.3 Software and kernel configuration
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to configure kernel options to support various 
+hardware devices including UDMA66 drives and IDE CD burners. This objective 
+includes using LVM (Logical Volume Manager) to manage hard disk drives and 
+particitions as well as software tools to interact with hard disk settings.
+
+Key files, terms, and utilities include:
+/proc/interrupts 
+hdparm 
+tune2fs 
+sysctl
+
+• 2.204.4 Configuring PCMCIA devices
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidates should be able to configure a Linux installation to include 
+PCMCIA support. This objective includes configuring PCMCIA devices, such as 
+ethernet adapters, to autodetect when inserted.
+
+Key files, terms, and utilities include:
+/etc/pcmcia/ 
+*.opts 
+cardctl 
+cardmgr
+
+Topic 209: File and Service Sharing
+
+• 2.209.1 Configuring a samba server
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 5 
+
+Description: The candidate should be able to set up a Samba server for various 
+
+89
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+clients. This objective includes setting up a login script for Samba clients, and setting 
+up an nmbd WINS server. Also included is to change the workgroup in which a server
+
+ participates, define a shared directory in smb.conf, define a shared printer in 
+
+smb.conf, 
+command to 
+
+use nmblookup to test WINS server functionality, and use the smbmount 
+
+mount an SMB share on a Linux client.
+
+Key files, terms, and utilities include:
+smbd, nmbd 
+smbstatus, smbtestparm, smbpasswd, nmblookup
+smb.conf, lmhosts
+
+• 2.209.2 Configuring an NFS server
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: The candidate should be able to create an exports file and specify 
+filesystems to be exported. This objective includes editing exports file entries to restrict 
+access to certain hosts, subnets or netgroups. Also included is to specify mount 
+options in the exports file, configure user ID mapping, mount an NFS filesystem on a 
+client, using mount options to specify soft or hard and background retries, signal 
+handling, locking, and block size. The candidate should also be able to configure 
+tcpwrappers to further secure NFS.
+
+Key files, terms, and utilities include:
+/etc/exports 
+exportfs 
+showmount 
+nfsstat
+
+Topic 211: System Maintenance
+
+• 2.211.1 System logging
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: The candidate should be able to configure syslogd to act as a central 
+network log server. This objective also includes configuring syslogd to send log output 
+to a central log server, logging remote connections, and using grep and other text utils 
+to automate log analysis.
+
+90
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Key files, terms, and utilities include:
+syslog.conf 
+/etc/hosts 
+sysklogd
+
+• 2.211.2 Packaging software
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: The candidate should be able to build a package. This objective includes 
+building (or rebuilding) both RPM and DEB packaged software.
+
+Key files, terms, and utilities include:
+/debian/rules 
+SPEC file format 
+rpm
+
+• 2.211.3 Backup operations
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: The candidate should be able to create an off site backup storage plan.
+
+Topic 213: System Customization and Automation
+
+• 2.213.1 Automating tasks using scripts
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: The candidate should be able to write simple Perl scripts that make use 
+of modules where appropriate, use the Perl taint mode to secure data, and install Perl 
+modules from CPAN. This objective includes using sed and awk in scripts, and using 
+scripts to check for process execution and generate alerts by email or pager if a 
+process dies. Candidates should be able to write and schedule automatic execution of 
+scripts to parse logs for alerts and email them to administrators, synchronize files 
+across machines using rsync, monitor files for changes and generate email alerts, and 
+write a script that notifies administrators when specified users log in or out.
+
+91
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Key files, terms, and utilities include:
+perl -MCPAN -e shell 
+
+bash, awk, sed 
+crontab 
+at 
+
+Topic 214: Troubleshooting
+
+• 2.214.2 Creating recovery disks
+
+Modified: 2001-August-24
+Maintainer:Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidate should be able to: create both a standard bootdisk for system 
+entrance, and a recovery disk for system repair.
+
+Key files, terms, and utilities include:
+/etc/fstab
+/etc/inittab 
+Any standard editor
+Familiarity with the location and contents of the LDP Bootdisk-HOWTO
+/usr/sbin/rdev 
+/bin/cat 
+/bin/mount (includes -o loop switch) 
+/sbin/lilo 
+/bin/dd 
+/sbin/mke2fs 
+/usr/sbin/chroot 
+
+• 2.214.3 Identifying boot stages
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidate should be able to: determine, from bootup text, the 4 stages 
+of boot sequence and distinguish between each.
+
+Key files, terms, and utilities include:
+boot loader start and hand off to kernel
+kernel loading
+
+92
+
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+hardware initializiation and setup
+daemon initialization and setup
+
+• 2.214.4 Troubleshooting LILO
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: Candidate should be able to: determine specific stage failures and 
+corrective techniques.
+
+Key files, terms, and utilities include:
+/boot/boot.b 
+Know meaning of L, LI, LIL, LILO, and scrolling 010101 errors
+Know the different LILO install locations, MBR, /dev/fd0, or primary/extended partition.
+Know significance of /boot/boot.### files
+
+• 2.214.5 General troubleshooting
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: A candidate should be able to recognize and identify boot loader and 
+kernel specific stages and utilize kernel boot messages to diagnose kernel errors. This 
+objective includes being able to identify and correct common hardware issues, and be 
+able to determine if the problem is hardware or software.
+
+Key files, terms, and utilities include:
+/proc filesystem 
+Various system and daemon log files in /var/log/ 
+/, /boot, and /lib/modules 
+screen output during bootup
+kernel syslog entries in system logs (if entry is able to be gained)
+location of system kernel and attending modules
+dmesg 
+/sbin/lspci 
+/usr/bin/lsdev 
+/sbin/lsmod 
+/sbin/modprobe 
+/sbin/insmod 
+/bin/uname 
+strace 
+strings 
+ltrace 
+
+93
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+lsof
+
+• 2.214.6 Troubleshooting system resources
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: A candidate should be able to identify, diagnose and repair local system 
+environment.
+
+Key files, terms, and utilities include:
+/etc/profile && /etc/profile.d/ 
+/etc/init.d/ 
+/etc/rc.* 
+/etc/sysctl.conf 
+/etc/bashrc /etc/ld.so.conf 
+(or other appropriate global shell configuration files)
+Core system variables
+Any standard editor
+/bin/ln 
+/bin/rm 
+/sbin/ldconfig 
+/sbin/sysctl
+
+• 2.214.8 Troubleshooting environment configurations
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: A candidate should be able to identify common local system and user 
+environment configuration issues and common repair techniques.
+
+Key files, terms, and utilities include:
+/etc/inittab 
+/etc/rc.local
+/etc/rc.boot 
+/var/spool/cron/crontabs/ 
+/etc/`shell_name`.conf 
+/etc/login.defs 
+/etc/syslog.conf
+/etc/passwd 
+/etc/shadow 
+/etc/group 
+/etc/profile 
+/sbin/init 
+
+94
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+/usr/sbin/cron 
+/usr/bin/crontab
+
+95
+
+INDEX
+
+A
+autofs
+automount
+
+B
+badblocks
+
+C
+cardctl
+cardmgr
+CD Writing
+
+37
+37
+
+36
+
+55
+54
+
+/etc/modules.conf  49
+El Torito
+ISO9660
+
+52
+51
+
+49
+
+37
+
+36
+
+47
+52
+44
+62
+
+cdrecord
+cpan  73
+
+D
+debugfs
+diff
+dumpe2fs 
+
+77
+
+E
+e2fsadm 
+El Torito
+esfsadm 
+exportfs
+
+F
+files
+
+37
+
+62
+62
+
+16
+/etc/auto.master
+/etc/exports 61
+/etc/fstab
+33
+/etc/hosts.allow
+/etc/hosts.deny
+/etc/inittab
+21
+/etc/inittab   20
+/etc/lvmtab 43
+/etc/lvmtab.d 43
+/etc/pcmcia.conf
+54
+/etc/pcmcia/config 55
+/etc/raidtab 41
+/etc/rc.d/init.d
+/etc/rpc
+60
+/etc/samba/ 57
+/etc/sysconfig/pcmcia
+64
+/etc/syslog.conf 
+
+20
+
+16
+16
+16
+40
+16
+17
+33
+16
+
+/proc/cmdline
+/proc/cpuinfo
+/proc/filesystems
+/proc/mdstats
+/proc/meminfo
+/proc/modules
+/proc/mounts
+/proc/partitions
+/proc/sys/
+16
+/proc/sys/kernel/hotplug
+/proc/sys/kernel/modprobe
+/proc/sys/overflowgid/uid 17
+/usr/src/linux/
+Makefile.pl
+35
+
+16
+
+72
+
+9
+
+fsck
+fstab options
+
+33
+
+16
+
+I
+49
+ide-scsi.o
+ISOLINUX 53
+
+K
+kernel image types
+10
+10
+
+bzdisk
+bzImage
+zdisk 10
+zImage
+
+9
+
+kernel panic - no init found
+kernel panic - unable to mount root fs
+kernel parameters 27
+
+24
+
+24
+
+L
+LILO errors 28
+lmhosts
+57
+lsraid 40
+lvcreate
+lvextend
+LVM
+
+44
+46
+
+/etc/lvmtab 43
+/etc/lvmtab.d 43
+Linux raid autodetect
+logical volumes (LV)
+LV tools
+lvm-mod.o
+physical extents (PE)
+physical volumes (PV)
+PV tools
+
+43
+43
+
+43
+
+45
+43
+
+43
+42
+
+54
+
+96
+
+ 
+VG tools
+vgscan
+volume group (VG) 42
+
+43
+43
+
+M
+md5sum
+mke2fs
+mkinitrd
+mkisofs
+mkraid
+mkswap
+
+77
+36
+28
+51
+40, 46
+34
+
+N
+NFS sevice 60
+60
+nfslock
+nfsstat
+62
+nmbd 57
+nmblookup 56
+
+P
+patch 12
+PCMCIA
+
+/etc/pcmcia.conf
+54
+/etc/pcmcia/config 55
+/etc/sysconfig/pcmcia
+cardctl
+cardmgr
+ds
+55
+pcmcia_core 55
+yenta_socket
+
+55
+54
+
+55
+
+70
+
+perl
+perldoc
+
+70
+
+54
+
+39
+
+portmap
+pvcreate
+pvscan
+
+60
+44, 46
+46
+
+R
+raidautorun 47
+raidstart
+raidtools
+rdev  25
+RPM Builds 66
+rsync  78
+
+40, 46
+40
+
+S
+showmount 63
+smbclient
+56
+smbd 57
+smbpasswd  56
+56
+smbstatus
+smbtar
+56
+software RAID
+swapon
+sync 36
+sysctl 22
+syslogd
+
+64
+
+34
+
+T
+taint  71
+tune2fs
+
+V
+vgcreate
+vgextend
+vgscan
+
+37
+
+44
+46
+43p.
+
+97
+
+

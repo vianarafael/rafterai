@@ -1,0 +1,3 @@
+That means you need a solid understanding of Linux 
+to work effectively in tomorrow’s data centers. Learn Linux basics in the front of 
+this book.

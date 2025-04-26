@@ -1,0 +1,4 @@
+We can import the database 
+structure, and this is the purpose of the state=import and target={{ sql_import }}. We are using the 
+default root user access in this instance, but we could also use a user/password combination in this module 
+to gain access to the database.

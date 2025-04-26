@@ -1,0 +1,32 @@
+Press the up arrow until 
+you see the ls $HOME command. Use the left arrow key or Alt+B to position 
+
+784
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 785
+
+Appendix B: Exercise Answers
+
+your cursor to the left of $HOME. Type -t, so the line appears as ls -t $HOME. 
+Press Enter to run the command.
+
+c. Type man date to view the date man page.

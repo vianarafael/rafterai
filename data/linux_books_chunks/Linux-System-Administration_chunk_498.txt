@@ -1,0 +1,13 @@
+This backup will contain all data as it existed on bigLV at the time the
+snapshot was taken. When the backup is done, you can remove the snapshot.
+
+[root@RHEL5 ~]# lvremove vg42/snapLV
+Do you really want to remove active logical volume "snapLV"? [y/n]: y
+  Logical volume "snapLV" successfully removed
+[root@RHEL5 ~]#
+
+110
+
+logical volume management
+
+11.8.

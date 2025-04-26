@@ -1,0 +1,8 @@
+The installation is simple once we have the APT repository configured provided by Elastic Co. (the one we 
+configured in the installation of Logstash).
+
+Not surprisingly, the installation is simply using the aptitude package manager:
+
+$ sudo aptitude install –y elasticsearch
+
+In our one server scenario, we do not need much extra configuration.

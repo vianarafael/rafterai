@@ -1,0 +1,11 @@
+We are going to install that rpm now using rpm –ivh.
+
+$ sudo rpm –i RPMS/x86_64/simple_echo-1.0-1.el7.centos.x86_64.rpm
+
+Now we can test that the script is installed and working correctly:
+
+$ simple_echo.sh hello
+hello
+
+It should be pointed out that creating your own packages from source can take some time depending on 
+the complexity of the package you are trying to build and the number of dependencies it has.

@@ -1,0 +1,7 @@
+The sales directory, SALES_DIR='/data/staff/sales', is 
+the target directory we are backing up. The temp/ directory is the one we want to exclude.
+
+ the user exbackup must have read permissions on all the files and directories you want to back up 
+
+ ■ Note 
+and write permissions on the directories you are backing up to.

@@ -1,0 +1,11 @@
+(Notice that 
+applications that are not on the current workspace are to the right of a line 
+dividing the icons.)
+
+ ■ In GNOME 2, with multiple windows open on multiple workspaces, press and hold 
+
+the Ctrl+Alt+Tab keys. While continuing to hold the Ctrl+Alt keys, press Tab 
+until you have highlighted the application you want. Release the Ctrl and Alt 
+keys to select it.
+
+9.

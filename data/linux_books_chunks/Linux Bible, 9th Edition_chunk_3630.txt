@@ -1,0 +1,7 @@
+In particular, getting iptables ﬁ rewall features working with 
+NFS can be particularly challenging. These security features are described in the sections 
+that follow.
+
+Opening up your fi rewall for NFS
+The NFS service relies on several different service daemons for normal operation, with most 
+of these daemons listening on different ports for access.

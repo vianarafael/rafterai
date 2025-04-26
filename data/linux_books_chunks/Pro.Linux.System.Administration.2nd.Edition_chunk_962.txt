@@ -1,0 +1,7 @@
+In Chapter 18 we 
+will talk about logging, and indeed one of the first resources you will use to keep track of the actions of 
+your users is the content of your log files. But other commands and sources are also useful for keeping 
+track of users and their activities.
+
+the who command displays all users logged on to the host currently, together with the terminal they are 
+logged on to.

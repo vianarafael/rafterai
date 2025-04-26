@@ -1,0 +1,5 @@
+TERMINATION 
+
+You may not copy, modify, sublicense, or distribute the Document except as expressly provided for under this 
+License. Any other attempt to copy, modify, sublicense or distribute the Document is void, and will automatically 
+terminate your rights under this License.

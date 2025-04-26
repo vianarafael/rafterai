@@ -1,0 +1,9 @@
+starting a project
+
+First we create a project directory, with a simple file in it.
+
+paul@debian6~$ mkdir project42
+paul@debian6~$ cd project42/
+paul@debian6~/project42$ echo "echo The answer is 42." >> question.sh
+
+20.3.1.

@@ -1,0 +1,8 @@
+piping passes the output of a command to 
+another command, for example
+
+$ cat /etc/passwd | grep ataylor
+
+In the previous line we’ve outputted the contents of the /etc/passwd file and then piped the result to 
+the grep command to search for the term ataylor. This would output any line or lines containing the 
+term ataylor.

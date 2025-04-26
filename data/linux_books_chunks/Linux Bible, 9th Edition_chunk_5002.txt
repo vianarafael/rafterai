@@ -1,0 +1,16 @@
+To create a clone of the running cloud instance, using virt-manager, do the 
+following:
+
+1.  Launch virt-manager. On the host system running the virtual machine, run 
+
+the virt-manager command or start Virtual Machine Manager from the Activities 
+screen on your desktop.
+
+754
+
+ 
+c27.indd  04/01/2015  Page 755
+
+Chapter 27: Deploying Linux to the Cloud
+
+2.  Pause the virtual machine.

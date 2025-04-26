@@ -1,0 +1,8 @@
+For a default system that only 
+does local (passwd/shadow) authentication, the window appears.
+
+To add LDAP authentication, select the User Account Database box and select LDAP. Then 
+ﬁ ll in the information described in the preceding bullet points.
+
+If the new authentication method is conﬁ gured properly, you should be able to go to a shell 
+and validate that.

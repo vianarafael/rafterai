@@ -1,0 +1,5 @@
+The other lines are 
+called stanzas and have special syntax for controlling Upstart jobs. The stanzas from the 
+preceding ﬁ le are as follows:
+
+ ■ start on—This stanza deﬁ nes what emitted event starts the service or task.

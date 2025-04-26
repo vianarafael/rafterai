@@ -1,0 +1,7 @@
+You will learn how to connect to other networks and how to troubleshoot your 
+connections.
+
+We will also be looking at a software application called Netfilter, which is a firewall common to all Linux 
+
+distributions. You will learn how to manage a firewall and how to write firewall rules. To do this, we will 
+introduce you to Netfilter’s management interface, iptables.

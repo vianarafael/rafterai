@@ -1,0 +1,13 @@
+DNS delegation
+
+You can delegate a child domain to another DNS server. The child domain then becomes
+a new zone, with authority at the new dns server.
+
+When delegation is properly set up, then clients that query your parent zone will also be
+able to resolve the delegated child zones.
+
+148
+
+advanced DNS
+
+11.3.

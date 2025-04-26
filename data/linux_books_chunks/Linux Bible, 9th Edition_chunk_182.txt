@@ -1,0 +1,6 @@
+I don’t want to see or change how my operating system is built.”
+
+That may be true. But the fact that others can take free and open source software and 
+use it as they please has driven the explosive growth of the Internet (think Google), 
+mobile phones (think Android), special computing devices (think Tivo), and hundreds of 
+ technology companies.

@@ -1,0 +1,5 @@
+However, you can manually add your own digital signatures to documents.
+
+Let’s say that user johndoe is going to send a message to the user christineb, along with 
+his digital signature. He has created a ﬁ le containing the plaintext message to send. He uses 
+the gpg2 utility to create the signature ﬁ le and encrypt the message ﬁ le.

@@ -1,0 +1,3 @@
+And behind every door is a particular service waiting to help whoever knocks on that door.
+
+To audit your server’s ports, the nmap utility offers several useful scan types.

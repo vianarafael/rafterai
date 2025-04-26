@@ -1,0 +1,17 @@
+To start and enable the smb and nmb services, type the following as root from a 
+
+shell on the local system:
+
+# systemctl enable smb.service
+# systemctl start smb.service
+# systemctl enable nmb.service
+# systemctl start nmb.service
+
+or
+
+# chkconfig smb on
+# service smb start
+# chkconfig nmb on
+# service nmb start
+
+3.

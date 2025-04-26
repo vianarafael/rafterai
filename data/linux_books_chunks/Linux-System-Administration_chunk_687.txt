@@ -1,0 +1,7 @@
+daemon or demon ?
+
+A daemon is a process that runs in background, without a link to a GUI or terminal. Daemons
+are usually started at system boot, and stay alive until the system shuts down. In more recent
+technical writings, daemons are often refered to as services.
+
+Unix daemons are not to be confused with demons.

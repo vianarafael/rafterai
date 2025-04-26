@@ -1,0 +1,6 @@
+Permissions
+
+-rw-r--r--   1 root  root     0 2016-07-15 20:47 myfile
+
+In Listing 4-10, we have a file, as indicated by the dash (-) at the beginning of the listing. The file is 
+owned by the root user and root group.

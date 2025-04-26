@@ -1,0 +1,11 @@
+There are several 
+variations of if statements for testing various types of conditions.
+
+159
+
+c07.indd  04/01/2015  Page 160
+
+Part II: Becoming a Linux Power User
+
+The ﬁ rst if...then example tests if VARIABLE is set to the number 1. If it is, then the 
+echo command is used to say that it is set to 1.

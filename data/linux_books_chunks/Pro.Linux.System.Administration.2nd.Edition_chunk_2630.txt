@@ -1,0 +1,14 @@
+root.example.com. (
+       2016070100  ; Serial
+       604800          ; Refresh
+       86400            ; Retry
+       2419200        ; Expire
+       3600 )            ; Negative Cache TTL
+
+       IN  NS      ns.example.com.
+
+1      PTR    mail.example.com.
+1      PTR    au-mel-ubuntu-1.example.com.
+254    PTR    ns.example.com.
+
+When we finish, we issue the sudo rndc reload command again.

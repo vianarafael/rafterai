@@ -1,0 +1,2 @@
+In either case, the names and IP 
+addresses of one or more DNS servers end up in your /etc/resolv.conf ﬁ le.

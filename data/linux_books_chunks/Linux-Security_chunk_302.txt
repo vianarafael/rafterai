@@ -1,0 +1,19 @@
+Setting the setgid bit will
+result in these programs to run with the credentials of their group owner.
+
+7.4. setuid on sudo
+
+The sudo binary has the setuid bit set, so any user can run it with the effective userid of root.
+
+paul@rhel65:~$ ls -l $(which sudo)
+---s--x--x. 1 root root 123832 Oct  7  2013 /usr/bin/sudo
+paul@rhel65:~$
+
+59
+
+  
+  
+  
+advanced file permissions
+
+7.5.

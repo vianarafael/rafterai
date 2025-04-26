@@ -1,0 +1,5 @@
+Follow the next procedure to change your boot options 
+temporarily.
+
+If you want to change your boot options so they take effect every time you boot your 
+computer, see the section on permanently changing boot options.

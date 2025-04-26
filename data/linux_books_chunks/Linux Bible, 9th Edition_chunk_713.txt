@@ -1,0 +1,35 @@
+For the root user, the value also includes /sbin, /usr/sbin, and 
+/usr/local/sbin.
+
+PPID
+
+This is the process ID of the command that started the current shell (for 
+example, the Terminal window containing the shell).
+
+86
+
+c03.indd  04/01/2015  Page 87
+
+Chapter 3: Using the Shell
+
+Variable
+
+PROMPT_
+COMMAND
+
+PS1
+
+PWD
+
+RANDOM
+
+SECONDS
+
+SHLVL
+
+TMOUT
+
+Description
+
+This can be set to a command name that is run each time before your shell 
+prompt is displayed.

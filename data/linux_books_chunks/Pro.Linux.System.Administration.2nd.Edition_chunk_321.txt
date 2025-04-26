@@ -1,0 +1,16 @@
+You will either have it available to you as a standard package in most 
+
+(if not all) Linux distributions or you can go to
+
+http://git-scm.com/download.
+
+We are going to demonstrate the installation on a Windows machine as that is less common than 
+
+installing Git on Mac or Linux and has some options that might be difficult to understand.
+
+ the git site here also has installation instructions for Mac, linux, and Windows:  
+
+ ■ Tip 
+https://git-scm.com/book/en/v1/Getting-Started-Installing-Git.
+
+Starting off, after downloading and opening the installer we are asked some questions.

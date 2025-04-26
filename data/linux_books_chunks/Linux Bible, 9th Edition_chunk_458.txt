@@ -1,0 +1,7 @@
+Figure 2.12 shows an example 
+of a Nautilus window displaying folders from a remote server over SSH protocol 
+(ssh://192.168.0.138).
+
+Installing and managing additional software
+The Fedora Live Desktop comes with a web browser (Firefox), a ﬁ le manager (Nautilus), 
+and a few other common applications.

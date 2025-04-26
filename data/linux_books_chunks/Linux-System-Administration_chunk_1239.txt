@@ -1,0 +1,3 @@
+/boot
+
+We still need to copy the kernel, the System.map and our configuration file to /boot.

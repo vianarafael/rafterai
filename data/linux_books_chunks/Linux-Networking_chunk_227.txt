@@ -1,0 +1,13 @@
+Verify that you can connect to the gateway, that it is alive.
+
+paul@debian5:~$ ping -c3 192.168.1.1
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+64 bytes from 192.168.1.1: icmp_seq=1 ttl=254 time=2.28 ms
+64 bytes from 192.168.1.1: icmp_seq=2 ttl=254 time=2.94 ms
+64 bytes from 192.168.1.1: icmp_seq=3 ttl=254 time=2.34 ms
+
+--- 192.168.1.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2008ms
+rtt min/avg/max/mdev = 2.283/2.524/2.941/0.296 ms
+
+8.

@@ -1,0 +1,12 @@
+However, if you download the CentOS installation 
+DVD for CentOS 7 from links on the CentOS site (http://www.centos.org/download/), the installation 
+procedure is similar to the one described for Red Hat Enterprise Linux in Chapter 9.
+
+774
+
+bapp01.indd  04/02/2015  Page 775
+
+Appendix A: Media
+
+Getting Ubuntu
+Many people new to Linux begin by downloading and installing Ubuntu.

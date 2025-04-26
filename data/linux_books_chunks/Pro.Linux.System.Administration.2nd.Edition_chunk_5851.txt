@@ -1,0 +1,2 @@
+rake is a Ruby version of the make 
+utility; you can see more about it here: https://github.com/ruby/rake.

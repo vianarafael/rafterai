@@ -1,0 +1,4 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_3Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Git is a version source control technology for computer software. It is great at tracking changes to 
+text-based files, like configuration files.

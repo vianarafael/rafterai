@@ -1,0 +1,14 @@
+We are giving the admin user write access to the 
+userPassword, and everything will be silently refused.
+
+The man pages are excellent resources for further information on access control lists, and the OpenLDAP 
+
+Administrator’s Guide is also very good: www.openldap.org/doc/admin24/access-control.html.
+
+757
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Defining Our Access Control Lists
+
+We’ll now take you through the access control list we are going to use in our example.com LDAP DIT.

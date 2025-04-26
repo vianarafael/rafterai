@@ -1,0 +1,31 @@
+Issue the systemctl list-units -t service --all
+(or systemctl -at service) to get a list of all services on your system.
+
+[root@rhel7 ~]# systemctl -at service | head -5 | column -t | cut -c1-78
+UNIT                 LOAD    ACTIVE    SUB      DESCRIPTION
+abrt-ccpp.service    loaded  active    exited   Install      ABRT     coredump
+abrt-oops.service    loaded  active    running  ABRT         kernel   log
+abrt-vmcore.service  loaded  inactive  dead     Harvest      vmcores  for
+abrt-xorg.service    loaded  active    running  ABRT         Xorg     log
+[root@rhel7 ~]#
+
+And here an example on how to see the status of the sshd service.
+
+[root@rhel7 ~]# systemctl status sshd.service
+sshd.service - OpenSSH server daemon
+   Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled)
+   Active: active (running) since Wed 2014-09-10 13:42:21 CEST; 55min ago
+ Main PID: 1400 (sshd)
+   CGroup: /system.slice/sshd.service
+           --1400 /usr/sbin/sshd -D
+
+Sep 10 13:42:21 rhel7 systemd[1]: Started OpenSSH server daemon.
+Sep 10 13:42:21 rhel7 sshd[1400]: Server listening on 0.0.0.0 port 22.
+Sep 10 13:42:21 rhel7 sshd[1400]: Server listening on :: port 22.
+[root@rhel7 ~]#
+
+185
+
+init and runlevels
+
+15.8.3.

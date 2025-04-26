@@ -1,0 +1,8 @@
+Consider the amount of data 
+you need to store. Although documents can consume very little space, videos can 
+ consume massive amounts of space. (By comparison, you can install the Damn 
+Small Linux Live CD to disk with only about 200MB of disk space.)
+
+ ■ Special hardware features—Some Linux features require special hardware 
+
+ features.

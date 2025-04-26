@@ -1,0 +1,14 @@
+# flatpak mask
+
+
+- Ignore updates for a specific flatpak:
+
+`flatpak mask {{com.example.app}}`
+
+- Undo ignore updates:
+
+`flatpak mask --remove {{com.example.app}}`
+
+- List all currently masked patterns:
+
+`flatpak mask {{--system|--user}}`

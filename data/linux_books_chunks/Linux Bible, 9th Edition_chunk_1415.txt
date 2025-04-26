@@ -1,0 +1,4 @@
+If multiple users have login accounts, each can have his or her own way of handling 
+removable media.
+
+The Totem movie player does not play movie DVDs unless you add extra software to decrypt the DVD.

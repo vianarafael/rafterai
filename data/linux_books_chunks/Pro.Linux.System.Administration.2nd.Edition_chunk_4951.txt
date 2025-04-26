@@ -1,0 +1,24 @@
+Pretending that we want to send metrics from backup.example.com to a different 
+carbon-cache, we could do the following:
+
+[backup_example]
+pattern = ^collectd_backup_example_com\.*
+destination = 192.168.0.250:2004
+continue = true
+
+We would need to add 192.168.0.250 to the DESTINATIONS field in the carbon.conf file.
+You can start and stop your carbon-relay service like this on CentOS:
+
+$ sudo systemctl start carbon-relay
+
+and like this for Ubuntu where we pass the instance name to the systemd service:
+
+$ sudo systemctl start carbon-relay@default
+
+820
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Updating Collectd Configuration
+
+Now we need to make our changes to the Collectd configuration to send metrics to our carbon-relay.

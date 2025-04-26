@@ -1,0 +1,6 @@
+Display only the ping echo's in the top pane using a filter.
+
+type 'icmp' (without quotes) in the filter box, and then click 'apply'
+
+5. Now ping to a name (like www.linux-training.be) and try to sniff the DNS query and
+response.

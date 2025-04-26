@@ -1,0 +1,10 @@
+NetworkManager will integrate with the older style (LSB) files 
+for managing network interfaces too via a LSB network service.
+
+NetworkManager integrates and configures Domain Name System (DNS) resolution via the Dnsmasq 
+
+program (a local DNS server) and handles configuring and setting up VPN and wireless connections.
+
+We talked about systemd and about about the multi-user.target in Chapter 6 and this is what brings 
+
+up the NetworkManager.

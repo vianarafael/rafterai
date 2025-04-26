@@ -1,0 +1,7 @@
+They would rely on your 
+PaaS to provide the compute power, storage, memory, network interfaces, and man-
+agement features needed to run the virtual machines containing their applications.
+
+Examples of a PaaS include OpenStack and Red Hat Enterprise Virtualization 
+(RHEV). Those projects provide a much more reﬁ ned way of accessing PaaS 
+resources.

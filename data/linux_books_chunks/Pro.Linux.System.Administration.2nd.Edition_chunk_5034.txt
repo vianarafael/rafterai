@@ -1,0 +1,17 @@
+--
+Nov 25 22:16:00 au-mel-centos-1 systemd-journal[89]: Runtime journal is using 8.0M...current 
+limit 92.0M).
+Nov 25 22:16:00 au-mel-centos-1 systemd-journal[89]: Runtime journal is using 8.0M...current 
+limit 92.0M).
+Nov 25 22:16:00 au-mel-centos-1 kernel: Initializing cgroup subsys cpuset
+Nov 25 22:16:00 au-mel-centos-1 kernel: Initializing cgroup subsys cpu
+Nov 25 22:16:00 au-mel-centos-1 kernel: Initializing cgroup subsys cpuacct
+Nov 25 22:16:00 au-mel-centos-1 kernel: Linux version 3.10.0-327.4.5.el7.x86_64 ...CentOS 
+4.8.3-9) (GCC)...
+Nov 25 22:16:00 au-mel-centos-1 kernel: Command line: BOOT_IMAGE=/vmlinuz-3.10.0-
+327.4.5.el7.x86_64...
+Nov 25 22:16:00 au-mel-centos-1 kernel: e820: BIOS-provided physical RAM map:
+
+The output of journalctl will show our logs from when we booted our host, and we have truncated 
+
+some long lines for clarity.

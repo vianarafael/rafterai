@@ -1,0 +1,4 @@
+For a long time Linux systems were initialized by a program called SystemV 
+Init, SysV Init, SysV, or just init. Init has since been replaced by another program called Systemd in most 
+major distributions, including CentOS and Ubuntu. However, both of these distributions still support 
+SysVInit startup scripts.

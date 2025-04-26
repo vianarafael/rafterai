@@ -1,0 +1,30 @@
+The capital of Spain is not Barcelona, it is Madrid.
+
+mysql> insert into country values ('ES','Spain','48000000','Barcelona');
+Query OK, 1 row affected (0.08 sec)
+
+Using an update statement, the record can be updated.
+
+mysql> update country set countrycapital='Madrid' where countrycode='ES';
+Query OK, 1 row affected (0.07 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+We can use a select statement to verify this change.
+
+mysql> select * from country;
++-------------+---------------+------------+----------------+
+| countrycode | countryname   | population | countrycapital |
++-------------+---------------+------------+----------------+
+| BE          | Belgium       |   11000000 | Brussels       |
+| CN          | China         | 1400000000 | Beijing        |
+| DE          | Germany       |   82000000 | Berlin         |
+| ES          | Spain         |   48000000 | Madrid         |
+| FR          | France        |   64000000 | Paris          |
+| IN          | India         | 1300000000 | New Delhi      |
+| JP          | Japan         |  128000000 | Tokyo          |
+| MX          | Mexico        |  113000000 | Mexico City    |
+| US          | United States |  313000000 | Washington     |
++-------------+---------------+------------+----------------+
+9 rows in set (0.00 sec)
+
+3.5.4.

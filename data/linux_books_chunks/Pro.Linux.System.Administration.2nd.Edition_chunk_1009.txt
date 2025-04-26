@@ -1,0 +1,3 @@
+Your operating system is started, and 
+a special program called systemd, upstart or init is called that starts your services and brings your host 
+to life.

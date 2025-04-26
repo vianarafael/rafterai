@@ -1,0 +1,13 @@
+So, on the Samba 
+server, we issue the following:
+
+$ sudo samba-tools group addmembers sales bsingh
+
+Now in bsingh’s local Linux server sign-in, we issue the following:
+
+$ sudo cifscreds add -u bsingh dc1.samba.example.com
+
+Now bsingh too can access the Samba share mounted on /data/sales.
+
+Mounting Shares on macOS
+We are going to show you how to mount your Linux Samba shares on macOS using the graphical interface.

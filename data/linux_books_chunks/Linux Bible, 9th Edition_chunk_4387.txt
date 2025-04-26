@@ -1,0 +1,2 @@
+Thus, there is no need for this application to have PAM password or 
+session management services.

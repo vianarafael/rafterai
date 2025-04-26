@@ -1,0 +1,9 @@
+Here are some more examples:
+
+# journalctl _SYSTEMD_UNIT=sshd.service
+# journalctl PRIORITY=0
+# journalctl -a -f
+
+Use the _SYSTEMD_UNIT= options to show messages for speciﬁ c services (here, the sshd 
+service) or for any other systemd unit ﬁ le (such as other services or mounts). To see 
+ messages associated with a particular syslog log level (from 0 to 7).

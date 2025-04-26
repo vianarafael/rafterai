@@ -1,0 +1,5 @@
+You can read about these commands in their 
+man pages.
+
+You can also take redirection a step further and redirect multiple times or use piping and redirection 
+together.

@@ -1,0 +1,8 @@
+You can also run most nagios plug-ins on the command line to see how they work, their command-line 
+options, and what results they return.
+
+The next two options, -w and -c, specify the thresholds for this check. If these thresholds are broken, 
+
+Nagios will update the status of the host or service.
+
+Hosts and services have different statuses.

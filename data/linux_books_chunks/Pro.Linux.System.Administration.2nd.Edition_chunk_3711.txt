@@ -1,0 +1,37 @@
+The tool 
+samba-tool uses the following syntax:
+
+$ sudo samba-tool user --help
+Usage: samba-tool user <subcommand>
+
+User management.
+
+Options:
+  -h, --help  show this help message and exit
+
+Available subcommands:
+  add          - Create a new user.
+  create       - Create a new user.
+  delete       - Delete a user.
+
+605
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+  disable      - Disable an user.
+  enable       - Enable an user.
+  list         - List all users.
+  password     - Change password for a user account (the one provided in authentication).
+  setexpiry    - Set the expiration of a user account.
+  setpassword  - Set or reset the password of a user account.
+For more help on a specific subcommand, please type: samba-tool user <subcommand> (-h|--help)
+
+Let’s list the current users we have.
+
+$ sudo samba-tool user list
+Administrator
+dns-dc1
+krbtgt
+Guest
+
+You can see that we have four current users that have been created by the Samba provisioning.

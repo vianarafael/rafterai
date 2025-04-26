@@ -1,0 +1,21 @@
+Then restore your backups.
+
+54
+
+disk partitions
+
+5.8. solution: partitions
+
+1. Use fdisk -l to display existing partitions and sizes.
+
+as root: # fdisk -l
+
+2. Use df -h to display existing partitions and sizes.
+
+df -h
+
+3. Compare the output of fdisk and df.
+
+Some partitions will be listed in both outputs (maybe /dev/sda1 or /dev/hda1).
+
+4.

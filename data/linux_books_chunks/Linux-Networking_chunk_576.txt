@@ -1,0 +1,14 @@
+(46)
+google-public-dns-a.google.com.domain > 10.104.33.30.19381: 18237 1/0/1 A 188\
+.93.155.87 (62)
+
+136
+
+introduction to DNS
+
+Below is an (old) wireshark screenshot that can help, you should see something similar (but
+with different ip addresses).
+
+7. What happens when you query for the same domain name more than once ?
+
+8.

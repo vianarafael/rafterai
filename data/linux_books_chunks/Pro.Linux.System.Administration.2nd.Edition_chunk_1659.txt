@@ -1,0 +1,4 @@
+Here we have issued the command to 
+
+append the rule to our INPUT chain. It is the first chain to receive packets inbound to our firewall with our 
+host as the final destination. Like with our other rules we append it with -t filter –A INPUT.

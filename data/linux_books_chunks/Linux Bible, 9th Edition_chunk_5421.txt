@@ -1,0 +1,7 @@
+To set your system into the permissive mode for SELinux, type setenforce 
+
+ permissive at the command line. It would also be acceptable to type 
+setenforce 0 at the command line.
+
+2.  To set your system into the enforcing Operating mode for SELinux without chang-
+ing the SELinux primary conﬁ guration ﬁ le, use caution.

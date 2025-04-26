@@ -1,0 +1,10 @@
+These users 
+and group don’t exist in the normal Linux /etc/passwd or /etc/group file, so we need to use the GID that 
+Samba will use when accessing files and directories.
+
+$ wbinfo --group-info sales
+SAMBA\sales:x:3000010:
+
+We can see that wbinfo has queried the group information for the sales group and the GID 3000010 has 
+
+been assigned to it.

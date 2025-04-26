@@ -1,0 +1,2 @@
+Enable and/or disable packet
+forwarding on the router and verify what happens to the ping between the two networks.

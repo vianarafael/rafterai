@@ -1,0 +1,11 @@
+bootloader
+
+Compilation is now finished, don't forget to create an additional stanza in grub or lilo.
+
+342
+
+the Linux kernel
+
+28.6. compiling one module
+
+28.6.1.

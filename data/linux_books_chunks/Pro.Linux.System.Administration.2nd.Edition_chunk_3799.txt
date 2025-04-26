@@ -1,0 +1,10 @@
+We do that with the following:
+
+$ sudo mkfs.xfs –L brick1_r1 /dev/sdb
+$ sudo mkdir –p /data/brick1_r1 && sudo bash –c 'echo LABEL=brick1_r1  /data/brick1_
+r1  xfs  defaults  1  2 >> /etc/fstab'
+$ sudo mount –a
+
+We have chosen to create our device labels and bricks with the brickN_rN suffix, with brickN being an 
+
+incrementing number and _rN being the replication set they belong to.

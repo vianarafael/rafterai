@@ -1,0 +1,7 @@
+The line with # chkconfig: contains the runlevels in which the service should be
+started (2345), followed by the priority for start (90) and stop (60).
+
+[root@RHEL52 ~]# head -9 /etc/init.d/crond | tail -5
+# chkconfig: 2345 90 60
+# description: cron is a standard UNIX program that runs user-specified
+#              programs at periodic scheduled times.

@@ -1,0 +1,12 @@
+You will need to 
+
+ ■ Note 
+uncomment them and add any required users to the directives.
+
+If you want to specify that all users have access to a particular function, use the * symbol.
+
+authorized_for_all_services=*
+
+This directive setting would provide all authenticated users with access to view information about all 
+
+services defined on the Nagios server.

@@ -1,0 +1,15 @@
+Here are some examples listed in the printers.conf ﬁ le:
+
+16
+
+DeviceURI parallel:/dev/plp
+DeviceURI serial:/dev/ttyd1?baud=38400+size=8+parity=none+flow=soft
+DeviceURI scsi:/dev/scsi/sc1d6l0
+DeviceURI socket://hostname:port
+DeviceURI tftp://hostname/path
+DeviceURI ftp://hostname/path
+DeviceURI http://hostname[:port]/path
+DeviceURI ipp://hostname/path
+DeviceURI smb://hostname/printer
+
+The ﬁ rst three examples show the form for local printers (parallel, serial, and scsi).

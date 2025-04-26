@@ -1,0 +1,6 @@
+Instead of typing the local mount point (/oak/apps), 
+you could have typed the remote ﬁ lesystem name (oak:/apps) and had other information 
+ﬁ lled in.
+
+When naming mount points, including the name of the remote NFS server in that name can help you remember where 
+the fi les are actually being stored.

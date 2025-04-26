@@ -1,0 +1,9 @@
+You can find more details in the umask man page.
+
+SETUID, SETGID, AND STICKY PERMISSIONS
+
+There are two additional types of permissions, setuid/setgid and sticky, that are also important to 
+understand.
+
+The setuid and setgid permissions allow a user to run a command as if he were the user or group that 
+owned the command.

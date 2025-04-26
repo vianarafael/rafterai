@@ -1,0 +1,4 @@
+The 
+rpm command contains dozens of options to enable you to ﬁ nd information about each 
+package, such as the ﬁ les it contains, who created it, when it was installed, how large it is, 
+and many other attributes.

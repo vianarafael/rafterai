@@ -1,0 +1,16 @@
+The  use  of  logical  volumes  is  similar  to  the  use  of  partitions  and  is
+accomplished with the same standard commands (mkfs, mount, fsck, df, ...).
+
+The commands used to manage a logical volume start with lv.
+
+[root@centos65 ~]# lv
+lvchange     lvextend     lvmdiskscan  lvmsar       lvresize     
+lvconvert    lvm          lvmdump      lvreduce     lvs          
+lvcreate     lvmchange    lvmetad      lvremove     lvscan       
+lvdisplay    lvmconf      lvmsadc      lvrename
+
+102
+
+logical volume management
+
+11.3.

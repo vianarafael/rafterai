@@ -1,0 +1,52 @@
+Unix special files
+
+first character
+
+-
+
+d
+
+l
+
+p
+
+b
+
+c
+
+s
+
+file type
+
+normal file
+
+directory
+
+symbolic link
+
+named pipe
+
+block device
+
+character device
+
+socket
+
+Below a screenshot of a character device (the console) and a block device (the hard disk).
+
+paul@debian6lt~$ ls -ld /dev/console /dev/sda
+crw-------   1 root root  5, 1 Mar 15 12:45 /dev/console
+brw-rw----   1 root disk  8, 0 Mar 15 12:45 /dev/sda
+
+And here you can see a directory, a regular file and a symbolic link.
+
+paul@debian6lt~$ ls -ld /etc /etc/hosts /etc/motd
+drwxr-xr-x 128 root root 12288 Mar 15 18:34 /etc
+-rw-r--r--   1 root root   372 Dec 10 17:36 /etc/hosts
+lrwxrwxrwx   1 root root    13 Dec  5 10:36 /etc/motd -> /var/run/motd
+
+48
+
+standard file permissions
+
+6.3.

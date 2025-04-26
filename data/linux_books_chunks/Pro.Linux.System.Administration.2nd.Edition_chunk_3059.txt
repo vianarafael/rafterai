@@ -1,0 +1,2 @@
+Usually, you would cut and paste the contents of the CSR into 
+a web page and submit it.

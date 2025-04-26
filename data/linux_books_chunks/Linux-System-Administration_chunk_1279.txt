@@ -1,0 +1,20 @@
+The example below takes a backup of /
+etc into the file /backup/etc.tar .
+
+root@RHELv4u4:~# tar cf /backup/etc.tar /etc
+root@RHELv4u4:~# ls -l /backup/etc.tar 
+-rw-r--r--  1 root root 47800320 May 12 11:47 /backup/etc.tar
+root@RHELv4u4:~#
+
+Compression can be achieved without pipes since tar uses the z flag to compress with gzip,
+and the j flag to compress with bzip2.
+
+root@RHELv4u4:~# tar czf /backup/etc.tar.gz /etc
+root@RHELv4u4:~# tar cjf /backup/etc.tar.bz2 /etc
+root@RHELv4u4:~# ls -l /backup/etc.ta*
+-rw-r--r--  1 root root 47800320 May 12 11:47 /backup/etc.tar
+-rw-r--r--  1 root root  6077340 May 12 11:48 /backup/etc.tar.bz2
+-rw-r--r--  1 root root  8496607 May 12 11:47 /backup/etc.tar.gz
+root@RHELv4u4:~# 
+
+The t option is used to list the contents of a tar file.

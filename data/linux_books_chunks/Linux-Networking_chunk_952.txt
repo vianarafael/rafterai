@@ -1,0 +1,13 @@
+This mode will make samba control
+the user accounts, so it will allow samba to act as a domain controller.
+
+security = user
+
+23.4.2. os level
+
+A samba server is the most stable computer in the network, so it should win all browser
+elections (os level above 32) to become the browser master
+
+os level = 33
+
+23.4.3.

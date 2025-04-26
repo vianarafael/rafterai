@@ -1,0 +1,11 @@
+If everything is right, we should not 
+receive an error.
+
+$ sudo gluster peer status
+Number of Peers: 0
+
+This is great. We have used the gluster command to query the Gluster cluster and check the status of 
+
+our peers. We have not added any peers, so we expect this to be 0 at this stage.
+
+You access and configure the GlusterFS service via the gluster command utility.

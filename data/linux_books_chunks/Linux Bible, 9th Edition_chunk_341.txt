@@ -1,0 +1,7 @@
+■ Kernel tunables—Set kernel tunable parameters using the /etc/sysctl.conf 
+ﬁ le and the sysctl command. See Chapter 14 for a description of how to use the
+/etc/sysctl.conf ﬁ le to change IP forwarding settings in /proc/sys.
+
+1
+
+ ■ Kerberos authentication—Use Kerberos to authenticate users on a RHEL system.

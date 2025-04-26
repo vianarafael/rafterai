@@ -1,0 +1,5 @@
+You can read some details of UpG at https://wiki.debian.
+org/UserPrivateGroups
+
+In our case, our first user, jsmith, would automatically belong to a group called jsmith. This group is 
+called the primary group.

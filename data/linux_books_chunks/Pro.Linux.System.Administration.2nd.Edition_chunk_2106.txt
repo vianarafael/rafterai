@@ -1,0 +1,7 @@
+Finally, x allows you 
+
+to access advanced gdisk options, such as recovery and transformation options, changing GUID, changing 
+the disk geometry and moving the data contained within a partition. We don’t cover the use of any of these 
+rarely used expert options.
+
+Now press p to print the listing of partitions on the current disk. You’ll see that it’s empty.

@@ -1,0 +1,6 @@
+If the port is 
+listening and has a service that uses the UDP protocol, it responds to the scan.
+
+Keep in mind that Free and Open Source Software (FOSS) utilities are also available to those with malicious intent. 
+While you are doing these nmap scans, realize that the remote scan results you see for your Linux server are the 
+same scan results others will see.

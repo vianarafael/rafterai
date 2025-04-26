@@ -1,0 +1,2 @@
+From a security point of view, it is easier to manage one jump host that proxies SSH 
+connections into a private network, than to have every host in that private network exposed.

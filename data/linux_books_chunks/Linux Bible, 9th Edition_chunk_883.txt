@@ -1,0 +1,9 @@
+1 joe joe 0 Dec 19 11:07 file03
+
+If you want to permanently change your umask value, add a umask command to the 
+.bashrc ﬁ le in your home directory (near the end of that ﬁ le). The next time you open a 
+shell, your umask is set to whatever value you chose.
+
+Changing fi le ownership
+As a regular user, you cannot change ownership of ﬁ les or directories to have them belong 
+to another user.

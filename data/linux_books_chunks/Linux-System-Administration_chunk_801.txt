@@ -1,0 +1,7 @@
+about rsyslog
+
+The new method is called reliable and extended syslogd and uses the rsyslogd daemon
+and the /etc/rsyslogd.conf configuration file. The syntax is backwards compatible.
+
+Each line in the configuration file uses a facility to determine where the message is coming
+from.

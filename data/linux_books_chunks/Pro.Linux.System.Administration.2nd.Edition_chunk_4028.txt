@@ -1,0 +1,12 @@
+You can get a 
+list of AWS resources by issuing the following:
+
+$ aws help
+
+Now that we have our AWS credentials set up, we are going to test that we can list our S3 bucket.
+
+$ aws s3 ls our-backup/
+
+If there are no errors, that shows we can list our S3 bucket. We can try to copy, or put, a local file up into 
+
+our S3 bucket.

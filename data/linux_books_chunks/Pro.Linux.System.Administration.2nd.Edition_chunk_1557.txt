@@ -1,0 +1,4 @@
+The selection criteria could include such items 
+as the destination IP address and the destination port. In this example, say you want incoming web traffic 
+on your network interface to be allowed access to the HTTP port 80 of your listening web service. If the 
+incoming traffic matches these criteria, you specify an action to let it through.

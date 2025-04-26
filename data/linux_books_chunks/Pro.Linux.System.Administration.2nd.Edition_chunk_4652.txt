@@ -1,0 +1,6 @@
+For 
+
+example, everything under ou=people,dc=example,dc=com can be in people.ldif, and everything under 
+ou=groups,dc=example,dc=com can be in groups.ldif. Alternatively, for fresh LDAP servers, you can have 
+all your entries in the one file, but be wary that in LDAP servers with existing entries, you will get errors if you 
+try to add an existing entry again.

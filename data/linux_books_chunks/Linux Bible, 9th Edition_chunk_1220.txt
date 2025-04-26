@@ -1,0 +1,5 @@
+The ./ph command runs the ph 
+ command from the current directory with the new option. This adds Mary Jones as the 
+name and 608-555-1212 as the phone number to the database ($HOME/.phone.txt). The 
+next ph command searches the database for the name Mary and displays the phone entry 
+for Mary.

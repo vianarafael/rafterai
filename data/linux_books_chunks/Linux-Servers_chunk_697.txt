@@ -1,0 +1,11 @@
+In the example below,
+only the users listed as valid will be able to access the tennis share.
+
+[tennis]
+ path = /srv/samba/tennis
+ comment = authenticated and valid users only
+ read only = No
+ guest ok = No
+ valid users = serena, kim, venus, justine 
+
+15.1.2.

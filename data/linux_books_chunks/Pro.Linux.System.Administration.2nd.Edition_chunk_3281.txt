@@ -1,0 +1,12 @@
+To do this, you can install a package called maildrop, which contains the maildirmake command, a more 
+sophisticated version of the maildirmake.dovecot command.
+
+You can then use the maildirmake command to create the skeleton directory and any required folders.
+
+$ sudo maildirmake /etc/skel/Maildir
+$ sudo maildirmake -f Sent /etc/skel/Maildir
+$ sudo maildirmake -f Trash /etc/skel/Maildir
+$ sudo maildirmake -f Drafts /etc/skel/Maildir
+$ sudo maildirmake -f Spam /etc/skel/Maildir
+
+Here we’ve used the -f option of the malldirmake command to create folders.

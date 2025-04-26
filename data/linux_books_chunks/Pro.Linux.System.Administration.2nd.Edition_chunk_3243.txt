@@ -1,0 +1,13 @@
+Save the zone file and exit.
+
+Next we need to thaw the zone again.
+
+$ sudo rndc thaw example.com
+
+And lastly let’s validate that the change has worked with the dig command.
+
+$ dig -t MX example.com @192.168.0.1
+;; ANSWER SECTION:
+example.com. 86400 IN MX 10 mail.example.com. 
+
+That looks like we expect it to.

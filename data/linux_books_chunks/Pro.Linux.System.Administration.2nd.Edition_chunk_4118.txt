@@ -1,0 +1,3 @@
+For instance, to group the requirements for our web servers that define their FileSet, 
+Schedule, and Storage media, we can create a JobDefs section for them, and mail servers can be defined 
+in another. All the options that you use to define a Job can be put into the JobDefs section.

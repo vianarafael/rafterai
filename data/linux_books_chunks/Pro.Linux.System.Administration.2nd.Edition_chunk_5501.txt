@@ -1,0 +1,6 @@
+You can find more information on firewall rules in Chapter 7.
+
+Using Cobbler
+
+Once you’ve configured Cobbler, you can start to make use of it. Cobbler allows you to specify a distribution 
+you’d like to build hosts with, imports that distribution’s files, and then creates a profile.

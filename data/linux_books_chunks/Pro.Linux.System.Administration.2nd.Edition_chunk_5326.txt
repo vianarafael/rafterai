@@ -1,0 +1,15 @@
+In this example, the value of the $USER1$ 
+macro is the directory that contains the Nagios plug-ins.
+
+$USER1$=/usr/lib64/nagios/plugins
+
+The next part of the command is the Nagios plug-in the command will employ, check_ping, which uses 
+
+ICMP pings to check the status of your host.
+
+ ■ Note 
+
+ this assumes your host’s firewall is configured to accept iCMp pings, as we discussed in Chapter 7.
+
+In this command, you can see the use of one of Nagios’s macros, $HOSTADDRESS$, that you learned 
+earlier contains the IP address of the host.

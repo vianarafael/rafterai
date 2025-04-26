@@ -1,0 +1,8 @@
+The default method of access control, 
+Discretionary Access Control (DAC), is used instead. This mode is useful for circumstances 
+in which enhanced security is not required.
+
+24
+
+If at all possible, Red Hat recommends setting SELinux to Permissive mode rather than 
+disabling it.

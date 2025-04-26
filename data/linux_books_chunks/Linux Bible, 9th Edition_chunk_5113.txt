@@ -1,0 +1,7 @@
+Before you begin, you must have the following:
+
+ ■ DVD or CD ISO images—Download the ISO images to your computer that represent 
+the physical DVD or CD you will ultimately burn. Today, many Linux ISO images are 
+too big to ﬁ t on a DVD (including those for RHEL, Fedora, and Ubuntu).
+
+ ■ Blank DVDs/CDs—You need blank DVDs or CDs to burn the images to.

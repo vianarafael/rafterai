@@ -1,0 +1,6 @@
+Later in the book we will be using Puppet and Ansible, the 
+configuration management tools, to deploy our server configurations and we will be using the combination 
+of VirtualBox, Vagrant, and Git to achieve and track this.
+
+The ability to share and download Vagrant boxes, or shared VirtualBox machines, means that you 
+quickly integrate or trial different technology.

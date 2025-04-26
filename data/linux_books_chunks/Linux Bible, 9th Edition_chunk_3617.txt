@@ -1,0 +1,7 @@
+(An ls -l on the 
+server shows the UID of the owner.) Use the map_static option to identify a ﬁ le 
+that contains user mappings.
+
+Exporting the shared fi lesystems
+After you have added entries to your /etc/exports ﬁ le, run the exportfs command 
+to have those directories exported (made available to other computers on the network).

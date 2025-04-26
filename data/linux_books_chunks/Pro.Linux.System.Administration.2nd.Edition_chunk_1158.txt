@@ -1,0 +1,11 @@
+As we explained in Chapter 4, each of these processes has a name; for example, sshd daemon or httpd, or 
+apache for the Apache web server.
+
+203
+
+Chapter 6 ■ Startup and ServiCeS
+
+ all processes on Linux originate from a parent process. Forking a process involves a parent process 
+
+ ■ Note 
+making a copy of itself, called a child process. With Systemd, the systemd process would be the parent.

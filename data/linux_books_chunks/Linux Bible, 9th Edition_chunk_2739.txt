@@ -1,0 +1,31 @@
+The following 
+example shows the contents of the multi-user.target conﬁ guration ﬁ le.
+
+# cat /lib/systemd/system/multi-user.target
+#  This file is part of systemd.
+#
+...
+
+[Unit]
+Description=Multi-User
+Requires=basic.target
+Conflicts=rescue.service rescue.target
+
+396
+
+c15.indd  04/01/2015  Page 397
+
+Chapter 15: Starting and Stopping Services
+
+After=basic.target rescue.service rescue.target
+AllowIsolate=yes
+
+[Install]
+Alias=default.target
+
+This basic target unit conﬁ guration ﬁ le has the following options:
+
+ ■ Description—This is just a free-form description of the target.
+
+ ■ Requires—If this multi-user.target gets activated, the listed target unit is 
+also activated.

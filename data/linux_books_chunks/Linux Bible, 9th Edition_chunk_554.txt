@@ -1,0 +1,5 @@
+Shells have been around a long time, and many advanced features that aren’t 
+available from the desktop can be accessed by running shell commands.
+
+The Linux shell illustrated in this chapter is called the bash shell, which stands for Bourne 
+Again Shell.

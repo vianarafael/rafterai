@@ -1,0 +1,5 @@
+You may want to do this if you 
+require only anonymized data to traverse the network, or you may want to use the distributed processing 
+power of your hosts rather than relying on a centralized Logstash service to transform your data.
+The format of Filebeat configuration file is YAML (see the “YAML Format” sidebar for more 
+information).

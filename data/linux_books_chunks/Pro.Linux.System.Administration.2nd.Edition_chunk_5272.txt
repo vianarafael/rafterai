@@ -1,0 +1,3 @@
+Each host is defined to Nagios, and then the services that run on that host are defined.
+
+You also tell Nagios how you are going to monitor each host and service by defining commands.

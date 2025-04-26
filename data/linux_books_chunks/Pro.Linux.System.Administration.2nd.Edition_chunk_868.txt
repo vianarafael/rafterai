@@ -1,0 +1,43 @@
+Environment Variables
+
+Name
+
+HOME
+
+LANG
+
+Used For
+
+The user’s home directory
+
+Defines which language files applications should use
+
+LS_COLORS
+
+Defines colors used by the ls command
+
+MAIL
+
+PATH
+
+PS1
+
+SHELL
+
+_
+
+The location of the user’s mailbox
+
+A colon-separated list of directories where shells look for executable files
+
+Defines the normal prompt
+
+The current shell
+
+Contains the last command executed in this session
+
+167
+
+Chapter 5 ■ Users and GroUps
+
+You can display the contents of an environment variable via the echo command.

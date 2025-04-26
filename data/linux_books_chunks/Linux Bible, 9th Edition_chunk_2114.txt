@@ -1,0 +1,6 @@
+The 
+ smallest unit of storage that can be used from this physical volume is 4.0MiB, which is 
+referred to as a Physical Extent (PE).
+
+Notice that LVM tools show disk space in MiB and GiB. One MB is 1,000,000 bytes (10∧6), while a MiB is 1,048,576 
+bytes (2∧20). A MiB is a more accurate way to refl ect how data are stored on a computer.

@@ -1,0 +1,10 @@
+However, giving them different 
+names means we can give them different levels of access to the Web, should we want to.
+
+Another configuration option that might be useful is to set the time you want to allow access from any 
+
+particular network or zone.
+
+acl wireless_hours time M T W T F 8:30-17:30
+
+Squid contains an ACL called Safe_ports that contains commonly used ports for web and FTP traffic.

@@ -1,0 +1,4 @@
+Why is that? It is because Host 
+F knows nothing of the 192.168.0.0/24 network. This host will send anything it doesn’t know about to its 
+default gateway. And because the default gateway of Host F isn't configured to know where to send packets 
+to 192.168.0.50, it will send them off to its default gateway. Eventually these packets will die.

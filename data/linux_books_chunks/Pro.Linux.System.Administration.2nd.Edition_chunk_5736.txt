@@ -1,0 +1,6 @@
+You can see more about hosts and groups here: http://docs.
+ansible.com/ansible/intro_inventory.html.
+
+Any variables that are declared in hosts or groups can be used throughout your playbooks. Ansible uses 
+
+the Jinja2 Python templating engine to allow for complex filtering and playbook compilation.

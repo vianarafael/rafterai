@@ -1,0 +1,4 @@
+They have a “vagrant” user that has access to root 
+privileges and OpenSSH has been installed and is running. Vagrant uses VirtualBox commands (or 
+VBoxManage commands) to create, configure, start, and stop these boxes—it does this with a combination 
+of the VirtualBox CLI and SSH access via the vagrant user.

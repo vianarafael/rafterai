@@ -1,0 +1,6 @@
+The GRUB2 
+documentation says that this is not really the best form of security as it will require access to the console on 
+reboots but might be considered in kiosk type of installations. We will talk more on this and superusers in 
+the section “Securing Your Boot Loader.”
+
+In Listing 6-3 we have left out the code between the curly braces, { }.

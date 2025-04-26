@@ -1,0 +1,7 @@
+It is expected 
+that these will replace Cron for managing regularly scheduled job management.
+
+It has advantages over Cron in that it can trigger events based on not only the wall clock (the system’s 
+
+time) but also things like the period after the last event was run, on boot, on startup or a combination of 
+these sorts of things.

@@ -1,0 +1,13 @@
+If we click the Dashboards tab, we will import the Graphite metrics dashboard (Figure 17-12).
+
+Figure 17-12.  Clicking Import
+
+827
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+After you have imported the dashboard, you can click Graphite Carbon Metrics and you will be shown 
+
+Figure 17-13.
+
+Figure 17-13.

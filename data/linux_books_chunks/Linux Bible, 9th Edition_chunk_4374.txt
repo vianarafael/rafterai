@@ -1,0 +1,5 @@
+Any needed changes are made within a PAM conﬁ guration ﬁ le for the PAM-aware  applications. 
+Thus, authentication management for these applications is  centralized and simpliﬁ ed.
+
+You can see whether a particular Linux application or utility is PAM-aware. Check whether 
+it is compiled with the PAM library, libpam.so.

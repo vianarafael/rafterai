@@ -1,0 +1,2 @@
+You can purchase a dedicated 
+or virtual server from providers like Rackspace (www.rackspace.com) or Linode (www.linode.com).

@@ -1,0 +1,3 @@
+Many iSps offer smarthosts to their users.
+
+there are two types of smarthost—unauthenticated and authenticated.

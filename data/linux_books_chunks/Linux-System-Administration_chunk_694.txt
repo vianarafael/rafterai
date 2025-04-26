@@ -1,0 +1,21 @@
+runlevel configuration
+
+Here you see how to use chkconfig to disable (or enable) a service in a certain runlevel.
+
+This screenshot shows how to disable crond in runlevel 3.
+
+[root@RHEL52 ~]# chkconfig --level 3 crond off
+[root@RHEL52 ~]# chkconfig --list crond
+crond           0:off 1:off 2:on 3:off 4:on 5:on 6:off
+
+This screenshot shows how to enable crond in runlevels 3 and 4.
+
+[root@RHEL52 ~]# chkconfig --level 34 crond on
+[root@RHEL52 ~]# chkconfig --list crond
+crond           0:off 1:off 2:on 3:on 4:on 5:on 6:off
+
+177
+
+init and runlevels
+
+15.4.3.

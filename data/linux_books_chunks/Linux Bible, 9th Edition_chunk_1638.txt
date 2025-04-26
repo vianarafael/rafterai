@@ -1,0 +1,5 @@
+Then select the operating system you want (using the arrow keys), and type e 
+(as described earlier).
+
+Three lines in the example of the GRUB Legacy editing screen identify the boot process for 
+the operating system you chose.

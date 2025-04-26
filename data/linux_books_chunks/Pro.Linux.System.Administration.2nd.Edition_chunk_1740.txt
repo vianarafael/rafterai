@@ -1,0 +1,4 @@
+The PPP service makes a connection to 
+your ISP, provides some authentication details, and receives the IP address provided to you by the ISP. This 
+IP address can be either a static address, meaning it doesn’t’t change, or a dynamic address, which means it 
+is provided from a pool of addresses and will regularly change every few days.

@@ -1,0 +1,4 @@
+Standard port numbers are assigned to services so a service 
+knows to listen on a particular port number and a client knows to request the service on that port number.
+
+For example, port 80 is the standard network port for unencrypted (HTTP) traffi c to the Apache web service.

@@ -1,0 +1,7 @@
+All computers are connected by a hub or switch
+(pictured in the middle). All four computers have a cable to the hub (cables not pictured).
+
+1. The client SunWS1 sends a dhcp discover on the network. All computers receive this
+broadcast.
+
+2. Both dhcp servers answer with a dhcp offer.

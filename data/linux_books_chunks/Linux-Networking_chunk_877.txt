@@ -1,0 +1,13 @@
+passdb backend
+
+Note  that  recent  versions  of  Samba  have  tdbsam  as  default  for  the  passdb  backend
+paramater.
+
+root@ubu1110:~# testparm -v 2>/dev/null| grep 'passdb backend'
+
+ passdb backend = tdbsam
+
+19.6. forcing this user
+
+Now  that  Samba  knows  about  this  user,  we  can  adjust  our  writable  share  to  force  the
+ownership of files created through it.

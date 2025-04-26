@@ -1,0 +1,9 @@
+The passwd ﬁ le needs to be publicly 
+ readable, whereas the shadow ﬁ le can be unreadable by all but the root user.)
+
+ ■ shells—Lists the shell command-line interpreters (bash, sh, csh, and so on) 
+
+that are available on the system, as well as their locations.
+
+ ■ sudoers—Sets commands that can be run by users, who may not otherwise have 
+permission to run the command, using the sudo command.

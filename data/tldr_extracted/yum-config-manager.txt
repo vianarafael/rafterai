@@ -1,0 +1,6 @@
+# yum config-manager
+
+
+- View documentation for the original command:
+
+`tldr dnf config-manager`

@@ -1,0 +1,21 @@
+However, since this is UDP, remembering that UDP is a fire-and-forget 
+protocol, there is no guarantee that the server at the other end will receive it.
+
+To get around this and prevent possible message loss, we would use RELP, which is the reliable event 
+
+logging protocol (see www.rsyslog.com/doc/v8-stable/configuration/modules/omrelp.html).
+
+*.*    :omrelp:backup.example.com:2514
+
+Of course, we need to load the module in the module section of our rsyslog.conf file, and we will show 
+
+how to configure RELP shortly.
+
+853
+
+Chapter 18 ■ Logging and Monitoring
+
+Combining Multiple Selectors
+
+You can also combine multiple selectors in your rsyslog.conf file, allowing for more sophisticated 
+selections and filtering.

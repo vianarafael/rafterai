@@ -1,0 +1,5 @@
+The Let’s Encrypt root CA is also 
+bundled in a lot of modern browsers, which solves many of the issues faced by noncommercial CAs. You can 
+find more information about Let’s Encrypt at https://letsencrypt.org/.
+
+An alternative way of getting noncommercial certificates is using CAcert.

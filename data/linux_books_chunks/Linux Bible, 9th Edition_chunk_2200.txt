@@ -1,0 +1,7 @@
+Type lsof with 
+the name of the partition you want to unmount (such as lsof /mnt/test). The output shows you what  commands 
+are holding fi les open on that partition. The fuser-v /mnt/test command can be used in the same way.
+
+Using the mkfs Command to Create a Filesystem
+You can create a ﬁ lesystem for any supported ﬁ lesystem type on a disk or partition that 
+you choose.

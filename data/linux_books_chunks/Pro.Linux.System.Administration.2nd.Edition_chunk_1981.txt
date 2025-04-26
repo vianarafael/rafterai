@@ -1,0 +1,13 @@
+Listing the packages in the OS Updates update
+
+Now we shall install all the updates (see Figure 8-37).
+
+Figure 8-37.  Installing updates
+
+342
+
+Finally, when all your updates have been installed you should see the following screen (Figure 8-38):
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-38.

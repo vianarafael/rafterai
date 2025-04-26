@@ -1,0 +1,7 @@
+With least 
+privilege implemented, a user or process is limited on the accidental (or on-pur-
+pose) damage to objects they can cause.
+
+ ■ It allows process sandboxing. The term process sandboxing means that each pro-
+cess runs in its own area (sandbox). It cannot access other processes or their ﬁ les 
+unless special permissions are granted.

@@ -1,0 +1,14 @@
+many others
+
+There are many other nested raid combinations, like raid 30, 51, 60, 100, 150, ...
+
+94
+
+introduction to raid
+
+10.3. building a software raid5 array
+
+10.3.1. do we have three disks?
+
+First, you have to attach some disks to your computer. In this scenario, three brand new disks
+of eight gigabyte each are added.

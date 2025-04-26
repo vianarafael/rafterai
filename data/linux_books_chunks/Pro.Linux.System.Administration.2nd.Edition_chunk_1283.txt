@@ -1,0 +1,6 @@
+Let’s get 
+started by looking at setting up our interfaces. 
+
+Getting Started with Interfaces
+The first element of networking we’re going to introduce to you is interface, or network interface. Each of the 
+one or more network cards on your host will be a network interface.

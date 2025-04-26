@@ -1,0 +1,4 @@
+This is 
+from the SSH server you are connecting to. After you accept this key, it is stored against the server name in 
+a file called known_hosts. Every subsequent SSH connection to this host will check the fingerprint to see if 
+it is changed. If it has you will be asked to clean the key before reconnecting.

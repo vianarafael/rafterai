@@ -1,0 +1,9 @@
+So, now we can see that our Logstash service is sending data in from our gateway server as we expected.
+
+872
+
+Chapter 18 ■ Logging and Monitoring
+
+Rather than using curl commands to search your logs, there is another open source tool that can help 
+
+visualize our logs, Kibana.

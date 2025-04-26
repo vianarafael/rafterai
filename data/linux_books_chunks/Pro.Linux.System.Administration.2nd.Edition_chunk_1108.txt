@@ -1,0 +1,5 @@
+Systemd will then start other units once it 
+reads this message. Since this is a logging service, it makes sense to make sure the service is up and running 
+before starting other units dependent on recording log events.
+
+EnvironmentFile is where we can load environmental parameters.

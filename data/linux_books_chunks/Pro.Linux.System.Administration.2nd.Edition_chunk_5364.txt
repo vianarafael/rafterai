@@ -1,0 +1,9 @@
+That plug-in is check_disk, which checks the status of a local disk.
+
+892
+
+Chapter 18 ■ Logging and Monitoring
+
+You can also see the -w and -c options—which we told you earlier set the threshold values for the 
+WARNING and CRITICAL statuses. Lastly, we have the -p option, which specifies the disk partition we’re 
+monitoring.

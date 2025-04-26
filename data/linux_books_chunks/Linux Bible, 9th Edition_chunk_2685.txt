@@ -1,0 +1,12 @@
+In the example that follows, the telinit command is used to 
+reboot the server by taking it to runlevel 6:
+
+# telinit 6
+INIT: Sending processes the TERM signal
+Shutting down smartd:                         [ OK ]
+Shutting down Avahi daemon:                   [ OK ]
+Stopping dhcdbd:                              [ OK ]
+Stopping HAL daemon:                          [ OK ]
+...
+Starting killall:
+Sending all processes the TERM signal...

@@ -1,0 +1,3 @@
+Squid supports many types, but we’ll 
+be using only src, dst, and port, which control whether we’re dealing with source addresses, destination 
+addresses, or port numbers. Finally, we define the source, destination, or port using a string.

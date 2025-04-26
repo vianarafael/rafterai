@@ -1,0 +1,10 @@
+We talk about the differences between BIOS (Basic Input/
+Output System) and UeFI later on in Chapter 6.
+
+Figure 2-67.  Installing the GRUB into the boot loader
+
+In Figure 2-67 we are selecting Yes to install the boot loader into the MBR. And now your installation is 
+
+complete and Ubuntu will notify you of this, as you can see in Figure 2-68.
+
+Figure 2-68.

@@ -1,0 +1,14 @@
+Set up two primary zones on two servers and implement a conditional forwarder (you
+can use the two servers from before).
+
+87
+
+introduction to DNS
+
+4.17. solution: dns
+
+1. Install bind9 and verify with a sniffer how it works.
+
+You should see queries to the root name servers with tcpdump or wireshark.
+
+2.

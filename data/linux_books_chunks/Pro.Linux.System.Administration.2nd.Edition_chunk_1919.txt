@@ -1,0 +1,10 @@
+Switch to this window by pressing the Tab key, 
+
+323
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+and then scroll up and down the information using the arrow keys. Press Tab again to switch back to the list 
+window. In Figure 8-15, you can see we have highlighted the adduser package.
+
+Figure 8-15.

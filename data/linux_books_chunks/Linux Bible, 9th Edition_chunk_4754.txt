@@ -1,0 +1,7 @@
+It operates on the lower layers of the OSI reference model.
+
+An application-layer ﬁ rewall ﬁ lters at the higher layers of the OSI reference model. 
+This ﬁ rewall allows only certain applications access to/from the system.
+
+You can see how these ﬁ rewall categories overlap. The best ﬁ rewall setup is a combination 
+of all the categories.

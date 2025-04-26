@@ -1,0 +1,16 @@
+Google is your friend in exploring DDNS with
+keys, with key-files or without keys.
+
+10. Configure your DNS server to allow dynamic updates from your DHCP server.
+
+11. Configure your DHCP server to send dynamic updates to your DNS server.
+
+12. Test the working of Dynamic DNS.
+
+167
+
+Part V. iptables firewall
+
+Table of Contents
+
+13.

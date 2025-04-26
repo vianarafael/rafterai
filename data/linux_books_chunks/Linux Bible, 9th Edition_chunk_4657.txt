@@ -1,0 +1,8 @@
+This allows requests that SELinux sees 
+
+as insecure to succeed.
+
+ ■ Run your current system for a signiﬁ cant amount of time in Permissive mode. 
+Review the logs and see what problems may occur with the default SELinux set-
+tings. You can then change Booleans or ﬁ le contexts so features improperly denied 
+can be allowed.

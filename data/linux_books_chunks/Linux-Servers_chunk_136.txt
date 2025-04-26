@@ -1,0 +1,14 @@
+200 OK
+Length: 177 [text/html]
+Saving to: `index.html'
+
+100%[==================================================>] 177    --.-K/s   in 0s
+
+2014-05-06 13:27:02 (15.8 MB/s) - `index.html' saved [177/177]
+
+root@debian7:~# file index.html
+index.html: HTML document, ASCII text
+root@debian7:~#
+
+Or verify that apache is running by opening a web browser, and browse to the ip-address of
+your server.

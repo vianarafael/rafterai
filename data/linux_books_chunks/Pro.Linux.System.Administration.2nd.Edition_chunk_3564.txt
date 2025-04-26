@@ -1,0 +1,14 @@
+The –s is the selector, which, as we 
+have said, is used in the DNS name lookup.
+
+We are going to move these two generated file to the names we specified in our KeyTable file.
+
+$ sudo mv /etc/opendkim/keys/201609.private /etc/opendkim/keys/example.com.private
+$ sudo mv /etc/opendkim/keys/201609.txt /etc/opendkim/keys/example.com.txt
+$ sudo chown opendkim /etc/opendkim/keys/ownenergy.com.au.private
+
+583
+
+Chapter 12 ■ Mail ServiCeS
+
+We now need to update our DNS again with the text in the example.com.txt file.

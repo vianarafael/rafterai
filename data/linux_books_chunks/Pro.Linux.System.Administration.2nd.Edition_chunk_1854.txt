@@ -1,0 +1,9 @@
+When you create a 
+new Yum repository, you can use the makecache command to refresh your repository cache and add the new 
+repository to it.
+
+$ sudo yum makecache
+
+On modern Fedora distributions (since release 22) and upcoming Red Hat and CentOS distributions 
+
+you will newer package manager to handle rpms called DNF.

@@ -1,0 +1,6 @@
+In the next example, 
+~ro expands to the root user’s home directory (~root/). Next, fing expands to the 
+finger command.
+
+Pressing Tab twice offers some wonderful possibilities. Sometimes, several possible comple-
+tions for the string of characters you have entered are available.

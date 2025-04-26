@@ -1,0 +1,3 @@
+How can you verify whether the router will allow packet forwarding by default or not ?
+Test  that  you  can  ping  from  the  router  to  the  two  other  machines,  and  from  those  two
+machines to the router.

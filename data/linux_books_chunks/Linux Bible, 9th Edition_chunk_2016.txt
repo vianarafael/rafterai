@@ -1,0 +1,8 @@
+(See Chapter 20, “Conﬁ guring an NFS File Server,” for information on 
+setting up an NFS server and conﬁ guring clients to automount from that server.)
+
+11
+
+Summary
+Having separate user accounts is the primary method of setting secure boundaries between 
+the people who use your Linux system.

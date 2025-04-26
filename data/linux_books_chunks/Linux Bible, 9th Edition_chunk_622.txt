@@ -1,0 +1,8 @@
+For example, you run the date com-
+mand from the /bin directory by typing
+
+$ /bin/date
+
+Of course, this can be inconvenient, especially if the command resides in a directory with a 
+long pathname. The better way is to have commands stored in well-known directories and 
+then add those directories to your shell’s PATH environment variable.

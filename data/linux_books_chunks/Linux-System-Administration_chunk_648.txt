@@ -1,0 +1,14 @@
+Note that DOS requires the boot/root partition to be active!
+
+Here is a complete example to chainload an old operating system.
+
+title MS-DOS 6.22
+root  (hd0,1)
+makeactive
+chainloader +1
+
+164
+
+bootloader
+
+14.2.6.

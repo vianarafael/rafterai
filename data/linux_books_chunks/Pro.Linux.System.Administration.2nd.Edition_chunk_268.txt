@@ -1,0 +1,6 @@
+This is much less common now that major manufacturers have started to support Linux 
+more and more and actively contribute drivers to the kernel.
+
+Non-reproducible crashes at random points in the installation usually indicate a hardware problem, 
+
+and the most common problems are bad RAM or overheating.

@@ -1,0 +1,11 @@
+It also started a kernel thread to flush data from the journal to the filesystem every five seconds—our 
+librarian emptying the book chute.
+
+Taking a look inside the newly mounted partition, we can use ls to see if it contains anything:
+
+$ cd /mnt/data && ls -l
+total 16
+drwx------ 2 root root 16384 Jun 19 10:42 lost+found
+
+Your brand-new filesystem contains a single directory called lost+found, which you didn’t create! 
+This is a special directory that exists on all ext2, ext3 and ext4 filesystems.

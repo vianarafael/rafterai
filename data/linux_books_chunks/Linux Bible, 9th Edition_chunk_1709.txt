@@ -1,0 +1,8 @@
+The metadata includes such things as dependen-
+cies, licensing, package sizes, descriptions, and other information.Multiple  command-line and 
+graphical tools are available for working with DEB ﬁ les in Ubuntu, Debian, and other Linux 
+distributions. Some of these include the following:
+
+ ■ Ubuntu Software Center—Select the Ubuntu Software Center icon from the 
+
+Ubuntu desktop.

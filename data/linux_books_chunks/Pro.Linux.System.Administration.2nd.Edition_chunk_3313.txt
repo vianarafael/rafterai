@@ -1,0 +1,13 @@
+With smtpd_tls_mandatory_
+protocols, we are declaring that we will only support TLSv1 and above as, again, anything lower is 
+considered vulnerable.
+
+After making the changes, you will need to restart the Postfix service.
+
+$ sudo service postfix restart
+
+Once the Postfix service has restarted, you can test to see whether TLS is enabled using the same nc 
+
+command we introduced earlier, as you can see in Listing 12-8.
+
+Listing 12-8.

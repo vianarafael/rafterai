@@ -1,0 +1,10 @@
+sshd
+
+The ssh server is called sshd and is provided by the openssh-server package.
+
+root@ubu1204~# dpkg -l openssh-server | tail -1
+ii  openssh-server   1:5.9p1-5ubuntu1    secure shell (SSH) server,... 
+
+25.9. sshd keys
+
+The public keys used by the sshd server are located in /etc/ssh and are world readable.

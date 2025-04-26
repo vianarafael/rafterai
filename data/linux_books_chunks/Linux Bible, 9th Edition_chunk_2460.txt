@@ -1,0 +1,9 @@
+However, to give you a head start using Linux in an 
+enterprise environment, I discuss basic networking technologies, such as DHCP 
+and DNS, which make it possible for desktop systems to connect to the Internet 
+automatically.
+
+Confi guring Networking for Desktops
+Whether you connect to the Internet from Linux, Windows, a smartphone, or any other 
+kind of network-enabled device, certain things must be in place for that connection to 
+work.

@@ -1,0 +1,7 @@
+To open a list of applications installed on your system and select an image 
+
+viewer to open from that list using as few clicks or keystrokes as possible, do the 
+following:
+
+ ■ In GNOME 3, move the mouse to the upper-left corner of the screen to get to the 
+Overview screen.

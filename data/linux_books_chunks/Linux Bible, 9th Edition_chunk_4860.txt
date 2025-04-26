@@ -1,0 +1,4 @@
+It offers a huge amount of 
+ﬂ exibility and power in how you conﬁ gure and use it.
+
+Red Hat Enterprise Virtualization (RHEV) is another popular cloud platform.

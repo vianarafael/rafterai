@@ -1,0 +1,14 @@
+In other words, it lists which units should be 
+
+ activated before this service is started.
+
+ ■ Environment File—The service’s conﬁ guration ﬁ le.
+
+ ■ ExecStart—The command used to start this service.
+
+ ■ ExecReload—The command used to reload this service.
+
+ ■ WantedBy—The target unit this service belongs to.
+
+Notice that the target unit, multi-user.target, is used in the sshd service unit conﬁ gu-
+ration ﬁ le.

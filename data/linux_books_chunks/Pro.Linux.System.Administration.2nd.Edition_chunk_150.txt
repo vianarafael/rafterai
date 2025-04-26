@@ -1,0 +1,5 @@
+We are going to set ours to example.com to match our pretend network.
+
+The default gateway is the route all traffic passes along before leaving your network. It will be either 
+a modem/ADSL gateway or a physical router that connects your network to the Internet or other private 
+networks.

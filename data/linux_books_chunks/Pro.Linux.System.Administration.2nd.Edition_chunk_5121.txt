@@ -1,0 +1,4 @@
+Those of emerg priority are also sent to the console.
+
+It is also common to use the omfwd output module, which allows you to send logs to a remote server via 
+TCP or UDP.

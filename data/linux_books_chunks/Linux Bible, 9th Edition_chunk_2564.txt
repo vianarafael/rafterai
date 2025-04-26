@@ -1,0 +1,9 @@
+Those are described later in this section.
+
+Other networking files
+In addition to the network interface ﬁ les, there are other network conﬁ guration ﬁ les that 
+you can edit directly to conﬁ gure Linux networking. Here are some of those ﬁ les.
+
+/etc/sysconfig/network file
+System-wide settings associated with your local networking can be included in your 
+/etc/sysconfig/network ﬁ le.

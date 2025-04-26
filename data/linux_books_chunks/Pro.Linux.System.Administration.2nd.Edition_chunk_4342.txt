@@ -1,0 +1,2 @@
+You will be prompted to populate the 
+required fields: State, City, and so forth. You need to use the same values as your certificate authority.

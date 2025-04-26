@@ -1,0 +1,7 @@
+The general format of a PAM 
+ conﬁ guration ﬁ le is:
+
+context   control flag   PAM module  [module options]
+
+The following shows the PAM conﬁ guration ﬁ le for the poweroff command. Notice that 
+the ﬁ le starts with a comment line.

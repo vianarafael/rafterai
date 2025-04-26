@@ -1,0 +1,6 @@
+Improving your com-
+puter hardware capacity is often the easiest way of solving performance problems.
+
+ ■ Tuning the system—Linux comes with default settings that deﬁ ne how it inter-
+
+nally saves data, moves data around, and protects data.

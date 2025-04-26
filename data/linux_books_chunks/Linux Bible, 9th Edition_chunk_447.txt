@@ -1,0 +1,3 @@
+To use GNOME 3 as your everyday desktop, you should install it 
+ permanently to your computer’s hard disk and add the applications you need (a word 
+ processor, image editor, drawing application, and so on).

@@ -1,0 +1,9 @@
+We could separate this section into a new file for just our people entries if we wanted.
+
+dn: ou=people,dc=example,dc=com
+objectclass: organizationalUnit
+ou: people
+
+You can see that the LDIF format requires the declaration of the DN, followed by the object classes 
+
+we want to use and the attributes. Each declaration should be separated by a blank line.

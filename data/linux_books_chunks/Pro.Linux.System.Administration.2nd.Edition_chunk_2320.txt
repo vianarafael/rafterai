@@ -1,0 +1,16 @@
+Creating a RAID 5 Array
+
+$ sudo mdadm --create /dev/md0 --level=raid5 --raid-devices=3 --spare-devices=1 /dev/sdc /
+dev/sdd /dev/sde /dev/sdf
+mdadm: /dev/sdc appears to be part of a raid array:
+       level=raid1 devices=2 ctime=Mon Jun 20 09:41:18 2016
+mdadm: /dev/sdd appears to be part of a raid array:
+       level=raid1 devices=2 ctime=Mon Jun 20 09:41:18 2016
+mdadm: /dev/sde appears to be part of a raid array:
+       level=raid1 devices=2 ctime=Mon Jun 20 09:41:18 2016
+Continue creating array? y
+mdadm: Defaulting to version 1.2 metadata
+mdadm: array /dev/md0 started.
+
+Some of these devices were part of the previous RAID 1 array, and they still contain the old RAID 
+superblock with array information.

@@ -1,0 +1,6 @@
+# caffeine-indicator
+
+
+- Manually inhibit desktop idleness with a toggle:
+
+`caffeine-indicator`

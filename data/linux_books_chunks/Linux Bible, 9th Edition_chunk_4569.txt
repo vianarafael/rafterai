@@ -1,0 +1,2 @@
+To see both 
+the current mode and the mode set in the conﬁ guration ﬁ le, use the sestatus command.

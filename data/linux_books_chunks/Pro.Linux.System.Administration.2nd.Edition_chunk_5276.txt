@@ -1,0 +1,6 @@
+While we won’t show you how to use each 
+plug-in, you can see that there are plug-ins available for most of the services we have shown in this book.
+
+Installing Nagios on Ubuntu
+
+On Ubuntu, the default version of Ubuntu is version 3.

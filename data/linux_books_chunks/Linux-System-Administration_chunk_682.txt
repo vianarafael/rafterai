@@ -1,0 +1,20 @@
+mingetty
+
+mingetty in /etc/inittab
+
+Almost at the end of /etc/inittab there is a section to start and respawn several mingetty
+daemons.
+
+[root@RHEL4b ~]# grep getty /etc/inittab 
+# Run gettys in standard runlevels
+1:2345:respawn:/sbin/mingetty tty1
+2:2345:respawn:/sbin/mingetty tty2
+3:2345:respawn:/sbin/mingetty tty3
+4:2345:respawn:/sbin/mingetty tty4
+5:2345:respawn:/sbin/mingetty tty5
+6:2345:respawn:/sbin/mingetty tty6
+
+mingetty and /bin/login
+
+This /sbin/mingetty will display a message on a virtual console and allow you to type a
+userid.

@@ -1,0 +1,6 @@
+Thus, Type Enforcement ensures 
+that only certain “types” of subjects can access certain “types” of objects.
+
+Understanding multi-level security
+With SELinux, the default policy type is called targeted, which primarily controls how 
+network services (such as web servers and ﬁ le servers) can access on a Linux system.

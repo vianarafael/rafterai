@@ -1,0 +1,17 @@
+For Ubuntu, install the package with apt-get install 
+lemon and type debsums lemon to check it.
+
+829
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 830
+
+Appendix B: Exercise Answers
+
+7.

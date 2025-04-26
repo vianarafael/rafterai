@@ -1,0 +1,6 @@
+Most command-line print-
+ing with CUPS can be performed with the lpr command. Word processing applications such 
+as LibreOfﬁ ce, OpenOfﬁ ce, and AbiWord are set up to use this facility for printing.
+
+You can use the Print Settings window to deﬁ ne the ﬁ lters needed for each printer so that 
+the text can be formatted properly.

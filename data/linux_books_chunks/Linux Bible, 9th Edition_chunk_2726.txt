@@ -1,0 +1,33 @@
+Conﬁ guration ﬁ les for target units can be displayed via the following method.
+
+15
+
+393
+
+c15.indd  04/01/2015  Page 394
+
+Part IV: Becoming a Linux Server Administrator
+
+# systemctl list-unit-files --type=target
+UNIT FILE                  STATE
+anaconda.target            static
+basic.target               static
+bluetooth.target           static
+cryptsetup.target          static
+ctrl-alt-del.target        disabled
+default.target             enabled
+...
+shutdown.target            static
+sigpwr.target              static
+smartcard.target           static
+sockets.target             static
+sound.target               static
+swap.target                static
+sysinit.target             static
+syslog.target              static
+time-sync.target           static
+umount.target              static
+43 unit files listed.
+
+Notice that both of the conﬁ guration units’ ﬁ le examples shown display units with a status 
+of either static, enabled, or disabled.

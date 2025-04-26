@@ -1,0 +1,5 @@
+If 
+you would like to have an unauthenticated guest account that can access your Samba 
+server, click the box that says No guest account, and choose which Linux user is assigned 
+to the guest user. For example, if you assigned joe to the guest account, the user account 
+joe would need to have access to a shared directory or ﬁ le for a guest user to access it.

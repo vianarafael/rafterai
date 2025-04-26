@@ -1,0 +1,12 @@
+You 
+can use yum to upgrade between minor versions though (i.e., from 7.1 to 7.2).
+
+Removing Packages with YUM
+
+You can also remove packages with YUM, as shown in Listing 8-5.
+
+Listing 8-5.  Removing Packages with YUM
+
+$ sudo yum remove nmap
+
+The remove option used in Listing 8-5 will remove all the files relating to that package from your system.

@@ -1,0 +1,6 @@
+For more information on configuring TCP Wrappers, please see the man 
+page for hosts_options or hosts.allow and hosts.deny.
+
+Setting Up a ppp Connection
+On our gateway.example.com bastion, or gateway, host, which is another name for the router/ firewall on 
+the perimeter of a network, we will need to set up a PPP service.

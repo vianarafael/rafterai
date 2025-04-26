@@ -1,0 +1,4 @@
+The second option, status, outputs a status file that shows current connections 
+to a log file, in our case /var/log/openvpn-status.log. The third option, verb, tells OpenVPN how much 
+logging to do. It ranges from 0 to 15, where 0 is no logging and 15 is maximum logging. A value of 4 generates 
+sufficient logging to suit most purposes.

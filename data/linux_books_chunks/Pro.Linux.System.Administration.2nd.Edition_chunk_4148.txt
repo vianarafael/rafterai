@@ -1,0 +1,10 @@
+We chose /etc because it contains the main configuration files for our system, the /var/
+lib/ directory because some of our Samba and MariaDB data will be stored there, and the /data and /home 
+directories because that is where our user data will be stored.
+
+676
+
+Chapter 14 ■ BaCkup and reCovery
+
+We are also excluding some directories (or at least making sure that they will not be backed up by 
+mistake): /proc, /sys, /dev, and others.

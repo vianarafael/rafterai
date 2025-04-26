@@ -1,0 +1,8 @@
+The same authentication mechanism we enabled for Postfix, 
+using the PAM authentication to check the local user’s username and password, will work fine for IMAP 
+connections.
+
+Configuring Dovecot
+
+The Dovecot server is configured using the dovecot.conf configuration file, as you discovered earlier 
+in this chapter. On both distributions this file is located at /etc/dovecot/dovecot.conf.

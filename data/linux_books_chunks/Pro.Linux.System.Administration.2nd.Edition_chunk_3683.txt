@@ -1,0 +1,6 @@
+If you were to use the classic domain controller, you would set it here (NT4). The 
+server services directive defines the services that this server supports. You can add or remove services 
+here with a + or -, like -kdc.
+
+You can further control access to your Samba service by specifying what hosts can access your service 
+by using the hosts allow option.

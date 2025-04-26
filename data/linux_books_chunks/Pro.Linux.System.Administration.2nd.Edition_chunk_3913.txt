@@ -1,0 +1,4 @@
+the Samba community has taken rsync under their wing, though, and it is housed here: 
+http://rsync.samba.org/.
+
+The rsync tool can be used in a client/server configuration or a remote shell.

@@ -1,0 +1,30 @@
+For example the graphical.target is reached when you get a graphical interface,
+and the nfs.target requires a running nfs server.
+
+To switch to a target (for example multi-user.target), we now use systemctl isolate (instead
+of the equivalent init 3 to change the runlevel).
+
+[root@rhel7 ~]# ps fax | wc -l
+169
+[root@rhel7 ~]# systemctl isolate multi-user.target
+[root@rhel7 ~]# ps fax | wc -l
+129
+[root@rhel7 ~]#
+
+To change the default target, we again use this systemctl command (instead of editing the
+/etc/inittab file).
+
+[root@rhel7 ~]# systemctl enable multi-user.target --force
+rm '/etc/systemd/system/default.target'
+ln -s '/usr/lib/systemd/system/multi-user.target' '/etc/systemd/system/default\
+.target'
+[root@rhel7 ~]#
+
+This command removed the file /etc/systemd/system/default.target and replaced it with a
+symbolic link to the multi-user-.target target.
+
+184
+
+init and runlevels
+
+15.8.2.

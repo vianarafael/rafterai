@@ -1,0 +1,4 @@
+The --test is commonly mistaken, and people think that it only “tests” a 
+Puppet run and isn’t destructive. This sadly misnamed option is actually a meta parameter for onetime, 
+verbose, no-daemonize, no-usecacheonfailure, detailed-exitcodes, no-splay, show_diff, and no-use_
+cached_catalog.

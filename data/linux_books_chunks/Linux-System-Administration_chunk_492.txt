@@ -1,0 +1,2 @@
+Notice the -m 1 switch to create
+one mirror.

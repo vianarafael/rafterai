@@ -1,0 +1,7 @@
+You then learned how 
+to add and configure storage hardware. Now it’s time to look at how to make the software work for you. In 
+this chapter, we will cover the infrastructure services that help you manage the basics of your network.
+
+We’ll first describe how to keep the time on your systems synchronized, which is important because 
+
+a lot of applications rely on your host having the correct time.

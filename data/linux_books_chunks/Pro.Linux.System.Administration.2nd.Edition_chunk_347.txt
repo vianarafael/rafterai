@@ -1,0 +1,4 @@
+If you can’t get SSh to work you should check that the path to your SSh executable 
+is in your console environment’s path. Common place in Windows is C:\Program Files\Git\usr\bin. add 
+it to your current powerShell environment with $env:path =+'; C:\Program Files\Git\usr\bin'. For the 
+Windows command prompt, set PATH=%PATH%;C:\Program Files\Git\usr\bin.

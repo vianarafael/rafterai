@@ -1,0 +1,6 @@
+To this end, we’ll show you some tools that can help you pinpoint bottlenecks.
+
+CPU and Memory Use
+To list details about currently running tasks, Linux provides the top utility. This is similar to the Task 
+Manager you may be used to from Windows or Activity Monitor on macOS, but it runs in a terminal window, 
+as shown in Figure 17-1.

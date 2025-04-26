@@ -1,0 +1,10 @@
+You can also explicitly define your RAID arrays in the mdadm 
+configuration file, to ensure their device node names do not change. The configuration file to define your 
+arrays in is /etc/mdadm.conf on CentOS and /etc/mdadm/madadm.conf on Ubuntu. We’ve included a default 
+mdadm.conf file from Ubuntu in Listing 9-16.
+
+392
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Listing 9-16.

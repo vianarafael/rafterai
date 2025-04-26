@@ -1,0 +1,4 @@
+TCP Wrappers control access to the daemons running on your host, not to the ports, through a series 
+of definitions in the /etc/hosts.allow and /etc/hosts.deny files.
+
+The rules in hosts.allow take precedence over the rules in hosts.deny.

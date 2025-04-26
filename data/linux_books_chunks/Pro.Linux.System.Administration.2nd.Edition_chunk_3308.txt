@@ -1,0 +1,1 @@
+Unfortunately, not all e-mail servers will support TLS.

@@ -1,0 +1,14 @@
+@herculesteam     types apache
+...
+$ sudo /opt/puppetlabs/bin/puppet module install puppetlabs-apache
+Notice: Preparing to install into /etc/puppetlabs/code/environments/production/sites ...
+Notice: Created target directory /etc/puppetlabs/code/environments/production/sites
+Notice: Downloading from https://forgeapi.puppet.com ...
+Notice: Installing -- do not interrupt ...
+/etc/puppetlabs/code/environments/production/sites
+└─┬ puppetlabs-apache (v1.11.0)
+    ├── puppetlabs-concat (v2.2.0)
+     └── puppetlabs-stdlib (v4.14.0)
+
+You can see that we first searched for an apache module and found more than 900 modules that 
+have the keyword apache.

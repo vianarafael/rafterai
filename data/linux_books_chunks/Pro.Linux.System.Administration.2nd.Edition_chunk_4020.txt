@@ -1,0 +1,10 @@
+The resource 
+is the AWS resource (the Amazon resource name) you are applying this to; arn:aws:s3:::* is our S3.
+
+Chapter 14 ■ BaCkup and reCovery
+
+Figure 14-8.  Attaching an inline policy to our user
+
+The second part of the policy statement shows the other API actions we allow. They manage our objects 
+
+and allow us to put (PutObject), get (GetObject), and list (ListObject).

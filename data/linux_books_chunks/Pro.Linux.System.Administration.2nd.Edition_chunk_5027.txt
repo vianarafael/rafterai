@@ -1,0 +1,6 @@
+You can then ensure these hosts are up and that your services are functioning 
+correctly. If they are not functioning, your monitoring system can then notify you about what has gone 
+wrong. This process can greatly speed up the time it takes to identify and fix issues.
+
+Logging
+You’ve seen throughout the book that many applications and tools log data about their actions and status.

@@ -1,0 +1,20 @@
+Once it is started we can view which zones we have active:
+
+$ sudo firewall-cmd --get-active-zones
+public
+ interfaces: enp0s8 enp0s9
+
+To get information about a zone, you can execute the following:
+
+$ sudo firewall-cmd --zone=public --list–all
+public (default, active)
+ interfaces: enp0s8 enp0s9
+ sources:
+ services: dhcpv6-client ssh
+ ports:
+ masquerade: no
+ forward-ports:
+ icmp-blocks:
+ rich rules:
+
+Here we can see that the public zone is the default and that it is active.

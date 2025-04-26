@@ -1,0 +1,6 @@
+The Red Hat document “Red Hat Enterprise Linux” has an entire chap-
+ter (Chapter 8) dedicated to troubleshooting SELinux.
+
+Putting It All Together
+Obviously, SELinux is a rather complicated and rich tool. You now have a good, solid foun-
+dation on the SELinux basics.

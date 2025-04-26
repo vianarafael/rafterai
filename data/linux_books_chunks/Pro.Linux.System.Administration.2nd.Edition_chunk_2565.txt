@@ -1,0 +1,6 @@
+If they 
+match, then we can trust the rest of the keys.
+
+ICann, the guardian of the Dns infrastructure, controls the root and creates the rrsIG and DnsKeYs 
+records for the whole of the Internet that we use in DnsseC. It then provides Ds records for all the 
+tLDs.

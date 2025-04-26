@@ -1,0 +1,8 @@
+The status results of all the PAM modules are combined into a single overall result 
+
+of authentication success or failure.
+
+Typically, if a single PAM module returns a failure status, access to the application is 
+denied. However, this is dependent upon the conﬁ guration ﬁ le settings.
+
+Most PAM conﬁ guration ﬁ les are located in /etc/pam.d.

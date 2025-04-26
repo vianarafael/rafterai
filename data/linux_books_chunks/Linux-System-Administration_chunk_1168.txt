@@ -1,0 +1,51 @@
+Look
+at rpcinfo to verify that nfs and its related services are running.
+
+root@RHELv4u2:~# /etc/init.d/portmap status
+portmap (pid 1920) is running...
+root@RHELv4u2:~# rpcinfo -p
+program vers proto   port
+100000    2   tcp    111  portmapper
+100000    2   udp    111  portmapper
+100024    1   udp  32768  status
+100024    1   tcp  32769  status
+root@RHELv4u2:~# service nfs start
+Starting NFS services:                                     [  OK  ]
+Starting NFS quotas:                                       [  OK  ]
+Starting NFS daemon:                                       [  OK  ]
+Starting NFS mountd:                                       [  OK  ]
+
+The same rpcinfo command when nfs is started.
+
+root@RHELv4u2:~# rpcinfo -p
+program vers proto   port
+100000    2   tcp    111  portmapper
+100000    2   udp    111  portmapper
+100024    1   udp  32768  status
+100024    1   tcp  32769  status
+100011    1   udp    985  rquotad
+100011    2   udp    985  rquotad
+100011    1   tcp    988  rquotad
+100011    2   tcp    988  rquotad
+100003    2   udp   2049  nfs
+100003    3   udp   2049  nfs
+100003    4   udp   2049  nfs
+100003    2   tcp   2049  nfs
+100003    3   tcp   2049  nfs
+100003    4   tcp   2049  nfs
+100021    1   udp  32770  nlockmgr
+100021    3   udp  32770  nlockmgr
+100021    4   udp  32770  nlockmgr
+100021    1   tcp  32789  nlockmgr
+100021    3   tcp  32789  nlockmgr
+100021    4   tcp  32789  nlockmgr
+100005    1   udp   1004  mountd
+100005    1   tcp   1007  mountd
+100005    2   udp   1004  mountd
+100005    2   tcp   1007  mountd
+100005    3   udp   1004  mountd
+100005    3   tcp   1007  mountd
+root@RHELv4u2:~#
+
+nfs  version  4  requires  tcp  (port  2049)  and  supports  Kerberos  user  authentication  as  an
+option.

@@ -1,0 +1,4 @@
+The default access for OpenLDAP is read, and you will want to lock this down if you 
+store secret such as passwords. You can specify from where you accept connections, the level of security, or 
+the encryption that connection must have to gain access, right down to the branch or attribute that you allow 
+access to.

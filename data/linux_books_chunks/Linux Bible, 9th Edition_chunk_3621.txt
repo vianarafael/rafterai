@@ -1,0 +1,3 @@
+In this example, 
+the /pub and /home directories from the local server are immediately available for 
+ mounting by those client computers that are named (maple and spruce).

@@ -1,0 +1,6 @@
+From this site, you can get media that contains a variety of 
+desktop and server installs.
+
+Creating Linux CDs and DVDs
+After you have downloaded a Linux CD or DVD image, you can use several tools to create 
+bootable CDs or DVDs for either installing or just running Linux live from those media.

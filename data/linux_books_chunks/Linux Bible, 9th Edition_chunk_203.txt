@@ -1,0 +1,7 @@
+It seems certain that much of the success of UNIX follows from 
+the readability, modiﬁ ability, and portability of its software that in turn follows 
+from its expression in high-level languages.
+
+If you are a Linux enthusiast and are interested in what features from the early days 
+of Linux have survived, an interesting read is Dennis Ritchie’s reprint of the ﬁ rst UNIX 
+ programmer’s manual (dated November 3, 1971).

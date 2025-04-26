@@ -1,0 +1,5 @@
+All other packets go to the default route via the address 192.168.0.1. 
+As for the ﬂ ags shown in the output, a U says the route is up, a G identiﬁ es the interface as a 
+gateway, and an H says the target is a host (as is the case with the VPN connection).
+
+So far, I have shown you the routes to leave the local system.

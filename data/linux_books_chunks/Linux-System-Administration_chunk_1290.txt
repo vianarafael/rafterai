@@ -1,0 +1,8 @@
+In  the
+following example, /etc/hosts is excluded from dump archives.
+
+chattr +d /etc/hosts
+
+To restore the complete file system with restore, use the -r option. This can be useful to
+change the size or block size of a file system. You should have a clean file system mounted
+and cd'd into it.

@@ -1,0 +1,25 @@
+It probably won’t happen, but it is possible that the new disk might be 
+identiﬁ ed as /dev/sda, causing the system to look for the contents of /boot on the ﬁ rst 
+partition of that disk.
+
+To see all the UUIDs assigned to storage devices on your system, type the blkid command, 
+as follows:
+
+# blkid
+/dev/sda1:
+  UUID="78bdae46-9389-438d-bfee-06dd934fae28" TYPE="ext4"
+/dev/sda2:
+  UUID="wlvuIv-UiI2-pNND-f39j-oH0X-9too-AOII7R" TYPE="LVM2_member"
+/dev/mapper/vg_abc-lv_root:
+  UUID="3e6f49a6-8fec-45e1-90a9-38431284b689" TYPE="ext4"
+/dev/mapper/vg_abc-lv_swap:
+  UUID="77662950-2cc2-4bd9-a860-34669535619d" TYPE="swap"
+/dev/mapper/vg_abc-lv_home:
+  UUID="7ffbcff3-36b9-4cbb-871d-091efb179790" TYPE="ext4"
+/dev/sdb1:
+  SEC_TYPE="msdos" UUID="75E0-96AA" TYPE="vfat"
+
+Any of the device names can be replaced by the UUID designation in the left column of an 
+/etc/fstab entry.
+
+I added the next three entries in /etc/fstab to illustrate some different kinds of entries.

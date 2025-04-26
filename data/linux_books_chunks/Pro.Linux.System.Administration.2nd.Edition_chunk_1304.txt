@@ -1,0 +1,14 @@
+This is because 
+each SLAAC IPv6 address is intended to be world routable and is combined with the network address to 
+make a universally unique address.
+
+224
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+ See http://www.ipv6.com/articles/general/Stateless-Auto-Configuration.htm for more 
+
+ ■ Note 
+information on stateless autoconfiguration and iPv6.
+
+In the next example we are going to look at a network device we have just attached to our host.

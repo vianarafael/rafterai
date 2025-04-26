@@ -1,0 +1,8 @@
+So we’re going to start by creating a key to use between our 
+Nagios server and the remote host.
+
+ ■ Note 
+
+ We introduced key-based SSh authentication in Chapter 10.
+
+To create this key, we should be the user who runs Nagios, usually nagios.

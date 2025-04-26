@@ -1,0 +1,13 @@
+We will be prompted for a username and password; we will use bsingh’s credentials (Figure 13-6).
+
+629
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Figure 13-6.  Using the administrator’s credentials
+
+From here we will add a printer using the Add Printer button (Figure 13-7).
+
+Figure 13-7.  Administration page for CUPS
+
+Clicking the Add Printer button brings up the first of our printer dialogs.

@@ -1,0 +1,9 @@
+Here’s how to conﬁ gure a virtual host:
+
+After you enable NameVirtualHost, your default DocumentRoot (/var/www/html) is no longer used if some-
+one accesses the server by IP address or some name that is not set in a VirtualHost container. Instead, the fi rst 
+VirtualHost container is used as the default location for the server.
+
+17
+
+1.

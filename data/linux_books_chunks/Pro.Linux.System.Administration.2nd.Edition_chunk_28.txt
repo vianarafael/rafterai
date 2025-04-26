@@ -1,0 +1,7 @@
+The software is still open source, but you 
+can pay for support and maintenance. Most commercial Linux vendors support themselves through the sale 
+of maintenance and support services.
+
+Let’s look at some of the available choices; this won’t be a comprehensive list, but we’ll cover most of 
+
+the major popular distributions and then present some reasons for selecting particular platforms.

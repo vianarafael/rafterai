@@ -1,0 +1,11 @@
+IN      NS
+
+;; ANSWER SECTION:
+google.com.            10158  IN      NS      ns2.google.com.
+google.com.            10158  IN      NS      ns3.google.com.
+google.com.            10158  IN      NS      ns1.google.com.
+google.com.            10158  IN      NS      ns4.google.com.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.        8267   IN      A       216.239.32.10
+ns2.google.com.

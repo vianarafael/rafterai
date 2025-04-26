@@ -1,0 +1,3 @@
+These can be 
+seen and edited easily, making ongoing management of our playbook easier. You will notice the {{ words 
+}}. This is our templating engine syntax.

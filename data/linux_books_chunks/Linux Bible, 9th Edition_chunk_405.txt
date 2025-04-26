@@ -1,0 +1,4 @@
+Open applications from Applications list. From the Overview screen, select the 
+
+Application button from the bottom of the left column (the button has nine dots in 
+a box).

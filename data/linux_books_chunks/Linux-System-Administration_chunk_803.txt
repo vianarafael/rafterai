@@ -1,0 +1,14 @@
+Modules
+allow for example exporting of syslog logging to a database.
+
+Se the manuals for more information (when you are done with this chapter).
+
+root@rhel65:/etc# man rsyslog.conf
+root@rhel65:/etc# man rsyslogd
+root@rhel65:/etc#
+
+205
+
+logging
+
+17.2.4.

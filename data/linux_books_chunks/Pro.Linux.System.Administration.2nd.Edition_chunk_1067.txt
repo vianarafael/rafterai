@@ -1,0 +1,2 @@
+Many small offices will have their servers on or under a couple of desks rather than in a locked 
+computer room, and these servers are therefore very susceptible to such attacks.

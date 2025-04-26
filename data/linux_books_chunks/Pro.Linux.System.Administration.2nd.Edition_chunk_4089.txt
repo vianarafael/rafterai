@@ -1,0 +1,1 @@
+CentOS still has Bacula available but not Bareos.

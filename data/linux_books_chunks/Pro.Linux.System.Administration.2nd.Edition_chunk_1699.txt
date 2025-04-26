@@ -1,0 +1,7 @@
+In IN_public_allow we have rule 
+that allows our ssh connections.
+
+-A IN_public_allow -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+
+To explain this line, let’s suppose we are going to initiate an incoming connection to our local SSH 
+service on our host. The initial incoming packet will contain the the SYN flag to try to initiate a socket.

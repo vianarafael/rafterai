@@ -1,0 +1,28 @@
+To enable the printer driver share, add a 
+Samba share called print$ that looks like the following:
+
+[print$]
+comment = Printer Drivers
+path = /var/lib/samba/drivers
+browseable = yes
+guest ok = no
+
+444
+
+c16.indd  04/01/2015  Page 445
+
+Chapter 16: Confi guring a Print Server
+
+read only = yes
+write list = chris, dduffey
+
+After you have the share available, you can start copying Windows print drivers to the
+/var/lib/samba/drivers directory, as described in the Samba HOWTO: 
+http://www.samba.org/samba/docs/man/Samba-HOWTO-Collection/
+classicalprinting.html#id2626941
+
+16
+
+Setting up SMB clients
+Chances are good that if you are conﬁ guring a Samba printer on your Linux computer, you 
+want to share it with Windows clients.

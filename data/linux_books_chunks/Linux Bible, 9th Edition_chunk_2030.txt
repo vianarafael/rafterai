@@ -1,0 +1,9 @@
+Storage devices that are attached to 
+the systems from removable devices and network devices can be partitioned and managed in the 
+same ways.
+
+After covering basic partitions, I describe how logical volume management (LVM) can be used to 
+make it easier to grow, shrink, and otherwise manage ﬁ lesystems more efﬁ ciently.
+
+Understanding Disk Storage
+The basics of how data storage works are the same in most modern operating systems.

@@ -1,0 +1,4 @@
+You can also 
+see that definitions of configuration objects, such as Storage, Pools, FileSets, and so forth, require the 
+name of the object being configured and the definitions to be enclosed in curly brackets: {<definition = 
+value>}.

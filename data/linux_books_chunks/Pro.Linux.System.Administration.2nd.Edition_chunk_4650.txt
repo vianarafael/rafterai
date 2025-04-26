@@ -1,0 +1,3 @@
+Using the 
+command line, you can add entries from text files, search for existing entries, and delete entries. The text 
+files are required to be in a format called LDIF.

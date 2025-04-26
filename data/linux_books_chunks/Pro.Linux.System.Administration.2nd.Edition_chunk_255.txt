@@ -1,0 +1,7 @@
+Every time you install 
+new applications on Ubuntu that require input to be configured, you will be prompted to answer similar 
+questions.
+
+As you can see in Figure 2-64, you are first asked to provide a password for the MySQL database root 
+user. This is the master password for your MySQL installation and you should enter a secure and complex 
+password.

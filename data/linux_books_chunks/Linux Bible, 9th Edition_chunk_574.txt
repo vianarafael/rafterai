@@ -1,0 +1,4 @@
+A $ indicates that the command can be run by any user, but a # typically means you 
+should run the command as the root user—many administrative tools require root per-
+mission to be able to run them. The prompt is followed by the command that you type 
+(and then press Enter).

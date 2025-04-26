@@ -1,0 +1,3 @@
+Therefore, sometimes you 
+need to abandon the NetworkManager GUI and go directly to commands and conﬁ guration 
+ﬁ les to get the network features you want.

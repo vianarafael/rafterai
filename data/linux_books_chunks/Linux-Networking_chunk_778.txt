@@ -1,0 +1,13 @@
+The non-graphical
+way is to use rpm or yum.
+
+When you downloaded the .rpm file, you can install Samba like this.
+
+[paul@RHEL52 ~]$ rpm -i samba-3.0.28-1.el5_2.1.rpm
+
+When you have a subscription to RHN (Red Hat Network), then yum is an easy tool to use.
+This yum command works by default on Fedora and CentOS.
+
+[root@centos6 ~]# yum install samba
+
+15.2.2.

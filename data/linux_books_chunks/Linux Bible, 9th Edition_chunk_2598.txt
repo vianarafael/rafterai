@@ -1,0 +1,11 @@
+That’s because the eth0 interface uses the IP address from the bond0 interface 
+by deﬁ ning itself as a slave (SLAVE=yes) to bond0 (MASTER=bond0).
+
+369
+
+c14.indd  04/01/2015  Page 370
+
+Part IV: Becoming a Linux Server Administrator
+
+The last thing you want to do is make sure the bond0 interface is set to use the bonding 
+module.

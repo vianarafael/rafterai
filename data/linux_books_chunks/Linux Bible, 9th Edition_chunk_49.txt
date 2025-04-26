@@ -1,0 +1,5 @@
+44
+Starting with desktop applications .............................................................. 45
+Managing ﬁ les and folders with Nautilus ............................................. 45
+Installing and managing additional software ....................................... 46
+Playing music with Rhythmbox ..........................................................

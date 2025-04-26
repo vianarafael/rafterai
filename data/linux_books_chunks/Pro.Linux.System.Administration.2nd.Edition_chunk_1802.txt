@@ -1,0 +1,14 @@
+We can check that this is the most recent list by clicking 
+the refresh button in the top left.
+
+304
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-10.  Refresh Updates
+
+Because we have an OS Update we are asked to Restart & Install; normally we can just install updates 
+
+without a restart.
+
+Figure 8-11.

@@ -1,0 +1,11 @@
+We do that with the systemctl command 
+
+like so, and then we can tail the logs that are produced by the service.
+
+$ sudo systemctl start filebeat && tail –f /var/log/filebeat/filebeat
+
+Now on the monitor host, we can start the logstash service, and we should see a rapid amount of data 
+
+coming in from our Filebeat on the gateway server.
+
+In Listing 18-15 we see the one of the captured log messages from the gateway host.

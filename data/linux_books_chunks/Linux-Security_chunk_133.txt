@@ -1,0 +1,12 @@
+practice: introduction to users
+
+1. Run a command that displays only your currently logged on user name.
+
+2. Display a list of all logged on users.
+
+3. Display a list of all logged on users including the command they are running at this very
+moment.
+
+4. Display your user name and your unique user identification (userid).
+
+5.

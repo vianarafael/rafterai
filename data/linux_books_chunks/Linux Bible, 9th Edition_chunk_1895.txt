@@ -1,0 +1,10 @@
+By 
+default, each user is added to his or her own group, beginning with the next available GID, 
+starting with 1000.
+
+11
+
+Setting user defaults
+The useradd command determines the default values for new accounts by reading the
+/etc/login.defs and /etc/default/useradd ﬁ les. You can modify those defaults by 
+editing the ﬁ les manually with a standard text editor.

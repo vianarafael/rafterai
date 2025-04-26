@@ -1,0 +1,2 @@
+Before you can log in and see the kernel messages, the kernel needs to ﬁ nish bringing up 
+the system.

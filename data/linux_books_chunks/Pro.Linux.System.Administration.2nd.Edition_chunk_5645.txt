@@ -1,0 +1,11 @@
+--
+Dec 21 09:25:29 puppetmaster systemd[1]: Starting puppetserver Service...
+Dec 21 09:25:29 puppetmaster puppetserver[4877]: OpenJDK 64-Bit Server VM warning: ignoring 
+option MaxPermSize=256m; support was removed in 8.0
+Dec 21 09:26:30 puppetmaster systemd[1]: Started puppetserver Service.
+
+Also, the running server logs can be found in /var/log/puppetlabs.
+We can use this for keeping an eye on the tasks in the next section.
+
+Connecting Our First Client
+Once you have the Puppet master configured and started, you can configure and initiate your first client.

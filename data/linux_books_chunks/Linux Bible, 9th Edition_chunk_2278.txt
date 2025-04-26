@@ -1,0 +1,12 @@
+Descriptions of how iptables and firewalld work are included in 
+Chapter 25, “Securing Linux on a Network.”
+
+321
+
+c13.indd  04/01/2015  Page 322
+
+Part IV: Becoming a Linux Server Administrator
+
+TCP Wrappers
+Using the /etc/hosts.allow and /etc/hosts.deny ﬁ les, you can allow or deny access 
+to those services that have the TCP Wrappers features enabled (libwrap).

@@ -1,0 +1,108 @@
+See SELinux
+server security, 321–322
+
+conﬁ guration ﬁ le settings, 322
+ﬁ rewalls, 321
+password protection, 321
+SELinux, 322
+TCP Wrappers, 322
+user accounts, 593–596
+
+security clearance attribute, SELinux, 673
+security contexts, SELinux, 672, 674–677, 683–686
+security labels, SELinux, 672, 684–685
+Security Log, 609
+security reviews, 623–624
+security table, iptables, 714
+sed command, 166
+SELinux
+
+Apache web server, 456–457
+AVC (Access Vector Cache) denials, 670, 673, 689–692, 
+
+694, 697, 834
+
+beneﬁ ts, 669–671
+conﬁ guring, 679–689
+
+via Booleans, 688–689
+for FTP server, 486–487
+mode, 680–682
+for NFS servers, 539–540
+policy rule packages, 686–688
+policy type, 682
+for Samba, 508–510
+security contexts, 683–686
+
+exercises, 696–697, 832–835
+information sources, 695
+logging, 689–692
+MLS (Multi-Level Security), 672–673
+operational modes, 673–674, 680–682
+policy rules, 672, 678–679, 686–688
+policy types, 677–678, 682
+RHCE exam, 25
+securing Apache, 456–457
+security contexts, 672, 674–677, 683–686
+TE (Type Enforcement), 671–672
+troubleshooting, 689–694
+
+SELinux Management, 176
+semanage command, 487, 509, 510, 540, 684, 693, 820
+semodule command, 686, 687, 692, 834
+semodule_deps, 687
+semodule_expand, 687
+semodule_link, 687
+semodule_package, 687
+Sendmail Log, 609
+sendmail package, 317
+sequential commands, 83
+server administration
+
+conﬁ guring servers, 318–319
+
+854
+
+enterprise servers, 344
+exercises, 345–346, 805–807
+installing servers, 316–318
+monitoring servers, 322–323
+package categories, 316–318
+remote access, managing, 323–334
+securing servers, 321–322
+starting servers, 319–320
+system logging, conﬁ guring, 334–340
+system resources, checking, 340–341
+system space, checking, 341–343
+
+server internal errors, 474–475
+service ssh start command, 325
+service sshd start command, 325
+services, 377–422
+
+adding, 414–422
+default runlevel, conﬁ guring, 412–414
+initialization daemon, 378–399
+persistent services, enabling, 408–412
+status, checking, 399–403
+stopping and starting, 403–408
+target units, conﬁ guring, 412–414
+
+services ﬁ le, 187, 699–700
+Services, graphical admin tool, 176
+session PAM context, 651
+set GID, 107, 270, 271, 276–277
+set UID, 107, 276–277
+setfacl command, 271, 272–274
+setsebool command, 487, 509, 518, 540, 688–689, 694
+sftp command, 332
+SHA-1 hash, 630, 639, 831
+SHA-2 hash, 630, 639–640
+sha1sum command, 639, 831
+sha224sum command, 639–640
+shadow ﬁ le, 187, 628
+shared folders, Samba, 513–514
+shell
+
+choosing, 69–70
+commands.

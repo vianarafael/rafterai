@@ -1,0 +1,7 @@
+When a filesystem fills up, services that use it may refuse to start, stop working, or crash.
+You can list space usage for an entire filesystem via the df command, which is usually used with the 
+
+-h option. This option produces human-readable output with numbers in KiB, MiB, GiB, or TiB instead of 
+blocks, as shown in Listing 9-11.
+
+Listing 9-11.

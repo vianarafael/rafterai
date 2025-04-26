@@ -1,0 +1,9 @@
+These two values are combined to make the 
+resource’s title (e.g., File['/etc/passwd']).
+
+ in a resource title, the name of the resource type is capitalized (File), and the name of the resource 
+
+ ■ Note 
+is encapsulated in block brackets and single quotes (['/etc/passwd']).
+
+Here the name, /etc/passwd, also tells Puppet the path of the file to be managed.

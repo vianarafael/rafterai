@@ -1,0 +1,7 @@
+From 
+those volume groups, you have much more ﬂ exibility for growing and shrinking logical 
+ volumes than you have resizing disk partitions directly.
+
+For Linux, at least one disk partition is required, assigned to the root (/) of the entire 
+Linux ﬁ lesystem. However, it is more common to have separate partitions that are assigned 
+to particular directories, such as /home, /var, and/or /tmp.

@@ -1,0 +1,3 @@
+A policy is the default action a chain 
+takes on a packet to determine whether a packet makes it all the way through the rules in a chain without 
+matching any of them. The policies you can use for packets are DROP, REJECT, and ACCEPT.

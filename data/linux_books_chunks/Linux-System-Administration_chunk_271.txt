@@ -1,0 +1,7 @@
+The first one is a single ata hard disk, the
+second one is the cdrom (by default configured as slave).
+
+4.2.2. scsi device naming
+
+scsi drives follow a similar scheme, but all start with /dev/sd. When you run out of letters
+(after /dev/sdz), you can continue with /dev/sdaa and /dev/sdab and so on.

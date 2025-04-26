@@ -1,0 +1,6 @@
+# umount
+
+
+- View documentation for the correct command:
+
+`tldr umount`

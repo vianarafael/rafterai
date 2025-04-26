@@ -1,0 +1,11 @@
+Considering that the whole iPv4 address space is 32 bits it is a 
+considerable amount to work with.
+
+220
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+it is also important to remember here that each iPv6 is intended to be world routable, unlike the private 
+address space we are using in our iPv4 example where we have to use Source Network Address 
+translation (SNAt) to route our connections originating from our private address space into the world 
+routable public address space.

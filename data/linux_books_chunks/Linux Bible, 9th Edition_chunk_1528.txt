@@ -1,0 +1,14 @@
+Fortunately, with Red Hat Enterprise Linux and other 
+
+211
+
+c09.indd  04/01/2015  Page 212
+
+Part III: Becoming a Linux System Administrator
+
+distributions, you can automate installation in such a way that all you need to do is turn 
+on a computer and boot from the computer’s network interface card to get your desired 
+Linux installation.
+
+Although we have focused on installing Linux from a DVD or USB media, there are many 
+other ways to launch a Linux installation and many ways to complete an installation.

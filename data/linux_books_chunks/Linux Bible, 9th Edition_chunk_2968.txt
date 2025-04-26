@@ -1,0 +1,3 @@
+To translate this name into the address 
+needed to reach the SMB host, Samba checks several places where the name may be 
+assigned to an IP address.

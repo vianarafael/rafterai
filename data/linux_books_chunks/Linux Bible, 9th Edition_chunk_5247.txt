@@ -1,0 +1,3 @@
+Use the following command to ﬁ nd any ﬁ les in the /home directory (and any subdi-
+rectories) that are assigned to the user ID that recently belonged to the user named 
+jbaxter (when I did it, the UID/GID were both 1001; yours may differ).

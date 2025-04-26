@@ -1,0 +1,11 @@
+To do that, we going to copy two files from the GitHub repository with the 
+curl command.
+
+# curl -s https://raw.githubusercontent.com/bareos/bareos-contrib/master/fd-plugins/mysql-
+python/BareosFdMySQLclass.py \
+  -o /usr/lib64/bareos/plugins/BareosFdMySQLclass.py
+# curl -s https://raw.githubusercontent.com/bareos/bareos-contrib/master/fd-plugins/mysql-
+python/bareos-fd-mysql.py \
+  -o /usr/lib64/bareos/plugins/bareos-fd-mysql.py
+
+These two files have been copied via curl into the plugins directory as the root user.

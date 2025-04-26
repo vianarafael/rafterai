@@ -1,0 +1,12 @@
+This example adds three
+disks to lvm.
+
+[root@RHEL5 ~]# pvcreate /dev/sde /dev/sdf /dev/sdg
+  Physical volume "/dev/sde" successfully created
+  Physical volume "/dev/sdf" successfully created
+  Physical volume "/dev/sdg" successfully created
+[root@RHEL5 ~]#
+
+11.11.2. pvremove
+
+Use the pvremove command to remove physical volumes from lvm.

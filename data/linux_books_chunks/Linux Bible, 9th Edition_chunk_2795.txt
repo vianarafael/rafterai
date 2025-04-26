@@ -1,0 +1,13 @@
+If the service 
+was not currently running, restarting it simply starts the service.
+
+# systemctl restart cups.service
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+   Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+   Active: active (running) since Tue, 01 May 2018 04:45:2...
+  Main PID: 17015 (cupsd)
+   CGroup: name=systemd:/system/cups.service
+          └  17015 /usr/sbin/cupsd -f
+
+You can also perform a conditional restart of a service using systemctl.

@@ -1,0 +1,5 @@
+BSD continued forward in the free-ﬂ owing, share-the-code manner that was 
+the hallmark of the early Bell Labs UNIX, whereas AT&T started steering UNIX toward 
+ commercialization. With the formation of a separate UNIX Laboratory, which moved out 
+of Murray Hill and down the road to Summit, New Jersey, AT&T began its attempts to 
+ commercialize UNIX.

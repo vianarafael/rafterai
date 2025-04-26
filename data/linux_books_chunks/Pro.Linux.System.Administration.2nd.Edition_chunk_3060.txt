@@ -1,0 +1,14 @@
+The CA would then sign it and notify you when a signed certificate was available to 
+download.
+
+509
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+In the next chapter we are going to show you how you can create another certificate and use it in your 
+
+Postfix installation.
+
+Creating Your Own Certificate Authority
+
+Creating your own CA is an easy task.

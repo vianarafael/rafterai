@@ -1,0 +1,2 @@
+You may be given an option to configure controllers or other hardware by pressing 
+a certain key sequence (usually displayed on the screen when the hardware is initiated).

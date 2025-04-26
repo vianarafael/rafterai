@@ -1,0 +1,32 @@
+We can declare the following:
+
+[remote:vars]
+ansible_ssh_common_args: '-o ProxyCommand="ssh  -W %h:%p -q jumphost"'
+
+In this way, all hosts classified in the [remote] group will reached via the host jumphost.
+
+ Not sure what the ProxyCommand does? Check out this page for this and other interesting SSh tricks: 
+
+ ■ Tip 
+https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts.
+
+962
+
+With that host configuration now in place, we can run a test to see that we can see all our hosts with the 
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+following ansible command:
+
+$ ansible all_servers -m ping
+gateway.example.com | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+...
+db.example.com | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+
+We have successfully connected, authenticated, and executed the module ping on the host.

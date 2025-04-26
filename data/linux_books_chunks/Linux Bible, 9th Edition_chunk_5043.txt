@@ -1,0 +1,9 @@
+The OpenStack envi-
+ronment’s administrator has created a project for me called cnegus-test-project and a 
+user account (cnegus) that lets me access that project. Here’s what I plan to do:
+
+27
+
+ ■ Conﬁ gure networking—Just as I would set up a router and physically plug my 
+
+computers into that router, I’m going to set up a virtual network.

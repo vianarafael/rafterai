@@ -1,0 +1,15 @@
+This protocol is mainly used by networked Microsoft Windows computers.
+
+Connecting to a Samba server (or to a Microsoft computer) is also done with the mount
+command.
+
+This example shows how to connect to the 10.0.0.42 server, to a share named data2.
+
+[root@centos65 ~]# mount -t cifs -o user=paul //10.0.0.42/data2 /home/data2
+Password: 
+[root@centos65 ~]# mount | grep cifs
+//10.0.0.42/data2 on /home/data2 type cifs (rw)
+
+The above requires yum install cifs-client.
+
+7.6.2.

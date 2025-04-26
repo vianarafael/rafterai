@@ -1,0 +1,7 @@
+This example follows our demo from above.
+
+Imagine a student named Jesse having completed the setup as shown before, with the domain
+name  jesse.local  and  the  ip  address  10.104.15.20.  The  goal  is  to  have  a  slave  server  of
+paul.local on Jesse's computer and a slave zone of jesse.local on my computer.
+
+Below  is  an  example  of  an  allow-transfer  statement.

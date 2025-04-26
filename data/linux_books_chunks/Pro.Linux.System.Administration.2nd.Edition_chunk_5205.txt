@@ -1,0 +1,4 @@
+We can see that we 
+
+will output the data to stdout, and to help us debug that output, we will use a codec called rubydebug. This 
+is good for viewing what Logstash is doing while we begin our journey.

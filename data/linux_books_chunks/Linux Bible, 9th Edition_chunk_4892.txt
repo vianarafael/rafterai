@@ -1,0 +1,4 @@
+With the second command, for the ﬁ rst processor, you can see 
+that it is GenuineIntel, the model, model name, the CPU speed, and other information.
+
+To do live VM migration between the two hypervisors, the CPUs must be in the same  family.

@@ -1,0 +1,12 @@
+introduction to
+networking
+
+313
+
+introduction to networking
+
+27.1. introduction to iptables
+
+27.1.1. iptables firewall
+
+The Linux kernel has a built-in stateful firewall named iptables.

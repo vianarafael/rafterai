@@ -1,0 +1,35 @@
+Kernel RAID Information
+
+$ sudo dmesg
+[ 9508.794689] md: bind<sdc>
+[ 9508.795609] md: bind<sdd>
+[ 9508.795996] md: bind<sde>
+[ 9508.806492] md: raid1 personality registered for level 1
+[ 9508.807304] md/raid1:md0: not clean -- starting background reconstruction
+[ 9508.807306] md/raid1:md0: active with 2 out of 2 mirrors
+[ 9508.807318] md0: detected capacity change from 0 to 8584626176
+[ 9508.809302] RAID1 conf printout:
+[ 9508.809305]  --- wd:2 rd:2
+[ 9508.809306]  disk 0, wo:0, o:1, dev:sdc
+[ 9508.809307]  disk 1, wo:0, o:1, dev:sdd
+[ 9508.812318] md: resync of RAID array md0
+[ 9508.812320] md: minimum _guaranteed_  speed: 1000 KB/sec/disk.
+[  9508.812321]  md: using maximum available idle IO bandwidth (but not more than 200000 KB/sec) 
+
+for resync.
+
+[ 9508.812323] md: using 128k window, over a total of 8383424k.
+[ 9508.821845]  md0: unknown partition table
+[ 9550.509411] md: md0: resync done.
+[ 9550.516479] RAID1 conf printout:
+[ 9550.516481]  --- wd:2 rd:2
+[ 9550.516483]  disk 0, wo:0, o:1, dev:sdc
+[ 9550.516484]  disk 1, wo:0, o:1, dev:sdd
+[ 9550.517712] RAID1 conf printout:
+[ 9550.517715]  --- wd:2 rd:2
+[ 9550.517716]  disk 0, wo:0, o:1, dev:sdc
+[ 9550.517717]  disk 1, wo:0, o:1, dev:sdd
+
+Because your new array was never synchronized, the kernel will start by ensuring the data on both disks 
+
+is identical.

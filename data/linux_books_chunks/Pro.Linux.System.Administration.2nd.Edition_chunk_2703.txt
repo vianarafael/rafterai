@@ -1,0 +1,15 @@
+{
+    ...
+    pool {
+        range 192.168.0.101 192.168.0.150;
+        deny unknown clients
+    }
+    pool {
+        range 192.168.0.151 192.168.0.200;
+        allow unknown clients;
+        default-lease-time 7200;
+        max-lease-time 21600;
+    }
+}
+
+We have split our original range of IP addresses into two.

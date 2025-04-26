@@ -1,0 +1,7 @@
+In the next screen, you 
+could select the DHCP option and get an IP address automatically.
+
+ ■ Caution  adding your own Ip addresses to your network can cause “collisions.” That is where two hosts 
+with the same address appear on the network causing confusion as to where to send traffic.
+
+From the Network screen, we click Configure and we see a screen similar to Figure 2-10.

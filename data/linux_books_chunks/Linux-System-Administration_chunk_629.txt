@@ -1,0 +1,13 @@
+You can sometimes set a password to boot the system, and
+another password to protect the bios from being modified.
+
+14.1.5. boot device
+
+The bios will look for a boot device in the order configured in the bios setup. Usually an
+operating system on a production server boots of a hard disk.
+
+159
+
+bootloader
+
+14.1.6.

@@ -1,0 +1,4 @@
+Main Installation Summary screen
+
+Here we can access the main configuration items. They are broken up into sections: Localization, 
+Security, Software, and System.

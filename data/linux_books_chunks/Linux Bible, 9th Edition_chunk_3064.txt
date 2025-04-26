@@ -1,0 +1,20 @@
+Next, 
+look inside to the package to see the conﬁ guration ﬁ les:
+
+17
+
+# rpm -qpc httpd-*rpm
+/etc/httpd/conf.d/autoindex.conf
+/etc/httpd/conf.d/userdir.conf
+/etc/httpd/conf.d/welcome.conf
+/etc/httpd/conf.modules.d/00-base.conf
+/etc/httpd/conf.modules.d/00-dav.conf
+...
+/etc/httpd/conf/httpd.conf
+/etc/httpd/conf/magic
+/etc/logrotate.d/httpd
+/etc/sysconfig/htcacheclean
+/etc/sysconfig/httpd
+...
+
+The main conﬁ guration ﬁ le is /etc/httpd/conf/httpd.conf for Apache.

@@ -1,0 +1,5 @@
+All 
+users have an entry in this file, and we’ll examine this file and the /etc/group file that is used to store group 
+data later in this chapter. Finally, we’ve specified the name of our new user, jsmith.
+
+By default, the new user will be created disabled and with no password set.

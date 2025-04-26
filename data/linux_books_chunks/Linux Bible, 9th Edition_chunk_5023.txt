@@ -1,0 +1,28 @@
+Inside your user-data 
+ﬁ le, you can deﬁ ne yum repositories (in Fedora and RHEL) or apt repositories (in Ubuntu 
+or Debian), and then identify any packages you want to have installed when the cloud 
+instance starts.
+
+The following example shows what entries in a user-data ﬁ le might look like to add a yum 
+repository (for Fedora or RHEL) to your cloud instance and then install packages from that 
+repository or any other enabled repository:
+
+758
+
+c27.indd  04/01/2015  Page 759
+
+Chapter 27: Deploying Linux to the Cloud
+
+myownrepo:
+    baseurl: http://myrepo.example.com/pub/myrepo/
+    enabled: true
+    gpgcheck: true
+    gpgkey: file:///etc/pki/rpm-gpg/RPM-GPG-KEY-MYREPO
+    name: My personal software repository
+packages:
+ - nmap
+ - mycoolcmd
+ - [libmystuff, 3.10.1-2.fc21.noarch]
+
+In the example just shown, a new yum repository is created in the ﬁ le /etc/yum.
+repos.d/myownrepo.repo.

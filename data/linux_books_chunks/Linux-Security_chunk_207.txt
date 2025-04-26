@@ -1,0 +1,10 @@
+Use vi to copy an encrypted hunter2 hash from
+venus to serena. Can serena now log on with hunter2 as a password ?
+
+Yes.
+
+9. Why use vipw instead of vi ? What could be the problem when using vi or vim ?
+
+vipw will give a warning when someone else is already using that file (with vipw).
+
+10.

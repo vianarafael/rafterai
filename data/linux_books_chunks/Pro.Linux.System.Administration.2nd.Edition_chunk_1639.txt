@@ -1,0 +1,7 @@
+We could also define the chain by the logical network group, 
+we are going to keep it simple and call it IPV4-INCOMING.
+
+$ sudo /sbin/iptables –t filter –N IPV4-INCOMING
+
+This command creates a new chain using –N IPV4-INCOMING in the filter table as denoted by –t 
+filter.

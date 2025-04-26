@@ -1,0 +1,1 @@
+The DocumentRoot directory setting is where Apache serves the files for the web site from.

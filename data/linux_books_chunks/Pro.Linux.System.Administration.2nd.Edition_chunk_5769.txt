@@ -1,0 +1,9 @@
+With Ansible, it is the same command to do 1 as it is to do 1,000.
+
+$ ansible all_servers --become –m service –a "name=sshd state=restarted"
+
+Here we have provided the hosts to target (all_servers), we will execute our command using sudo on 
+the target host (--become), we want to use the service module (-m service), and that module will take the 
+arguments -a "name=sshd state=restarted".
+
+Each module has different arguments, and you can pass them as key/value pairs (key=value).

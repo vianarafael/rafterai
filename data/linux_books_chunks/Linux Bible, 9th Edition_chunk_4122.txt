@@ -1,0 +1,26 @@
+Just use the pwconv command, and the /etc/shadow fi le is created and hashed 
+passwords moved to it.
+
+602
+
+c22.indd  04/15/2015  Page 603
+
+Chapter 22: Understanding Basic Linux Security 
+
+The following are also stored in the /etc/shadow ﬁ le, in addition to the account name 
+and hashed password:
+
+ ■ Number of days (since January 1, 1970) since the password was changed
+
+ ■ Number of days before password can be changed
+
+ ■ Number of days before a password must be changed
+
+ ■ Number of days to warn a user before a password must be changed
+
+ ■ Number of days after password expires that an account is disabled
+
+ ■ Number of days (since January 1, 1970) that an account has been disabled
+
+These should sound familiar because they are the settings for password aging covered ear-
+lier in the chapter.

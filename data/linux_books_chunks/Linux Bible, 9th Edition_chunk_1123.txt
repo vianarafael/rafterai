@@ -1,0 +1,6 @@
+Namespaces can 
+include separate process tables, mount tables, and network interfaces.
+
+Creating and managing cgroups, at its most basic level, is generally not a job for new Linux 
+system administrators. It can involve editing conﬁ guration ﬁ les to create your own cgroups 
+(/etc/cgconfig.conf) or limit particular users or groups (/etc/cgrules.conf).

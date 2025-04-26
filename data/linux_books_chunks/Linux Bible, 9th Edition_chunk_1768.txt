@@ -1,0 +1,8 @@
+To enable the non-free repository in Fedora, type the  following 
+(again, type the following two lines on a single line, with no space between the two):
+
+# rpm -Uhv http://download1.rpmfusion.org/nonfree/fedora/
+rpmfusion-nonfree-release-stable.noarch.rpm
+
+Most of the other third-party repositories that might interest you contain software that 
+is not open source.

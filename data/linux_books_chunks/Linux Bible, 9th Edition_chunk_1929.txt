@@ -1,0 +1,8 @@
+Here are a few facts about 
+using groups:
+
+ ■ When sara creates a ﬁ le or directory, by default, that ﬁ le or directory is assigned 
+
+to sara’s primary group (also called sara).
+
+ ■ The user sara can belong to zero or more supplementary groups.

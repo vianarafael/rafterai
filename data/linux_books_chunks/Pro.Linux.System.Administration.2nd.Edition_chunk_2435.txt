@@ -1,0 +1,7 @@
+When it starts, the ntpd 
+service will read its options from the /etc/ntp.conf file and listen on UDP port 123. When you look at this 
+configuration file, you can see it consists of two main sections: first is the actual time source configuration 
+and second is the authorization configuration. We’ll start with the reporting and time source configuration 
+as shown in Listing 10-1.
+
+Listing 10-1.

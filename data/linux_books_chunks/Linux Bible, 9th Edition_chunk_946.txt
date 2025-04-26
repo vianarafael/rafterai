@@ -1,0 +1,8 @@
+First, however, consider the following tips to smooth out your ﬁ rst trials with vi:
+
+ ■ Esc—Remember that Esc gets you back to command mode. (I’ve watched people 
+
+press every key on the keyboard trying to get out of a ﬁ le.) Esc followed by ZZ gets 
+you out of command mode, saves the ﬁ le, and exits.
+
+ ■ u—Press u to undo the previous change you made.

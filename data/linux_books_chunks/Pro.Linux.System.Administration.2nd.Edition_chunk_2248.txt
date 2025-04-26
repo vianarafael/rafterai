@@ -1,0 +1,30 @@
+Displaying All UUIDs
+
+$ sudo blkid
+/dev/mapper/sda5_crypt: UUID="MdUlYF-y6Ol-XcB5-mS9L-mxPN-jNLF-ATAImA" TYPE="LVM2_member"
+/dev/mapper/au--mel--ubuntu--1--vg-root: UUID="0b9eec02-06a4-46e4-b9ac-1e1ea871ff89" 
+TYPE="ext4"
+/dev/sda1: UUID="d036bc4a-6f9b-4989-a377-7778a29bf16c" TYPE="ext2" PARTUUID="105922fd-01"
+/dev/sda5: UUID="33dcd288-27f0-4f09-ab74-617db851a552" TYPE="crypto_LUKS" 
+PARTUUID="105922fd-05"
+/dev/mapper/au--mel--ubuntu--1--vg-swap_1: UUID="e45b953f-284f-45f5-b16d-8f5be5d5a970" 
+TYPE="swap"
+/dev/sdb2: LABEL="mail" UUID="71bd5774-33cb-491b-8ffe-49cb33935001" TYPE="ext4" 
+PARTLABEL="Linux filesystem" PARTUUID="b704ec19-833d-4727-a572-189f214f2ecf"
+/dev/sdb1: UUID="6d0ce2f6-f9f6-4ac2-91f6-3099a40d5624" TYPE="swap" PARTLABEL="Linux swap" 
+PARTUUID="db962e77-53f3-4cfe-847c-f53133f063f7"
+/dev/sdb3: UUID="ccd60fc3-bbaf-40e5-a93e-43743f9176d9" TYPE="xfs" PARTLABEL="Linux 
+filesystem" PARTUUID="f9d90e5f-0186-4cd5-a2be-9b89e7286abb"
+
+To have it print the UUID for only a single device, pass the device node name as a parameter, like
+
+$ sudo blkid /dev/sdb2
+
+To mount your ext4 partition (the uuid command will print the filesystem type too) with the default 
+
+mount options, add the following line to the /etc/fstab file:
+
+UUID="71bd5774-33cb-491b-8ffe-49cb33935001"  /mnt/
+data       ext4  defaults          0            0
+
+The options “defaults” provide us with the following mount options when mounting an ext4 filesystem.

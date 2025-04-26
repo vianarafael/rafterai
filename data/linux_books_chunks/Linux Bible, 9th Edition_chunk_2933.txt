@@ -1,0 +1,15 @@
+Select 
+Forward to see a list of printer models from which you can choose.
+
+429
+
+ 
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 430
+
+Part IV: Becoming a Linux Server Administrator
+
+If your printer doesn’t appear on the list but supports PCL (HP’s Printer Control Language), try selecting one of the 
+HP printers (such as HP LaserJet).

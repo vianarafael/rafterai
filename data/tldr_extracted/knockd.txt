@@ -1,0 +1,10 @@
+# knockd
+
+
+- Start knockd system daemon:
+
+`knockd {{[-d|--daemon]}}`
+
+- Use specified configuration file for knockd:
+
+`knockd {{[-c|--config]}} {{path/to/file}}.configuration`

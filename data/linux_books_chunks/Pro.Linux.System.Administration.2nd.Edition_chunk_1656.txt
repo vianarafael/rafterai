@@ -1,0 +1,3 @@
+If we changed the policy to DROP and flushed the chain, all inbound connections will be cut, 
+making our host unusable for network-related tasks and services. This is because the policy determines what 
+happens to packets that are not matched by any rule.

@@ -1,0 +1,9 @@
+This means 
+you need to own it or belong to a group that has read permissions to the file, or the file has read permission set 
+for the Other class.
+
+The first of these tools is cat. The cat command is so named because it “concatenates and prints files.” 
+
+In Listing 4-14, you can see the use of the cat command on a text file.
+
+Listing 4-14.

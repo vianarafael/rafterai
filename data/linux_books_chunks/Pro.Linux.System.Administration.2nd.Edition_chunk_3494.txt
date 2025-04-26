@@ -1,0 +1,18 @@
+For Ubuntu you find the files in /etc/clamav.
+
+For CentOS we want to remove the word Example from /etc/mail/clamav-milter.conf and set the 
+
+following:
+
+MilterSocket /var/run/clamav-milter/clamav-milter.socket
+MilterSocketGroup mail
+MilterSocketMode 660
+AllowSupplementaryGroups yes
+ClamdSocket unix:/var/run/clamd.scan/clamd.sock
+OnInfected Accept
+AddHeader Add
+ReportHostname mail.example.com
+
+In the previous lines, we have set some configuration options like socket files for clamav-milter and the 
+
+socket we talk to the scanner (clamd) on.

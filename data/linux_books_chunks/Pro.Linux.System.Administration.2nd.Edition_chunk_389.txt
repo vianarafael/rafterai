@@ -1,0 +1,6 @@
+This may take a few minutes...
+    default: SSH address: 127.0.0.1:2203
+    default: SSH username: vagrant
+    default: SSH auth method: private key
+    default:
+    default: Vagrant insecure key detected.

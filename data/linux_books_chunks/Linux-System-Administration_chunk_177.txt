@@ -1,0 +1,9 @@
+The top of the top screen might look something like this.
+
+top - 13:59:29 up 48 min,  4 users,  load average: 1.06, 0.25, 0.14
+Tasks: 139 total,   3 running, 136 sleeping,   0 stopped,   0 zombie
+Cpu(s):  0.3%us, 99.7%sy, 0.0%ni, 0.0%id, 0.0%wa, 0.0%hi, 0.0%si, 0.0%st
+Mem:    509352k total,   460040k used,    49312k free,    66752k buffers
+Swap:   746980k total,        0k used,   746980k free,   247324k cached
+
+Notice the cpu idle time (0.0%id) is zero.

@@ -1,0 +1,11 @@
+Don’t worry if you don’t 
+know what these functions are at the moment—we explain DNS in Chapter 10, web servers in Chapter 11  
+and mail servers in Chapter 12.
+
+ ■ Tip  We recommend you read the whole chapter, including the sections covering the CentOS and Ubuntu 
+installation processes, to gain the best understanding of installing Linux hosts.
+
+We’ll start by installing a Red Hat–based distribution in the section “CentOS Server Installation.” While 
+
+the screenshots in this section are specific to CentOS, the installation processes for Red Hat Enterprise Linux 
+(RHEL) and Fedora operate in a very similar fashion (CentOS and RHEL are derived from Fedora).

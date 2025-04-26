@@ -1,0 +1,42 @@
+The /var/log/openvpn.log Log File
+
+Sat Oct 22 22:37:09 2016 us=712503 OpenVPN 2.3.12 x86_64-redhat-linux-gnu [SSL (OpenSSL)] 
+[LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Aug 23 2016
+Sat Oct 22 22:37:09 2016 us=712511 library versions: OpenSSL 1.0.1e-fips 11 Feb 2013, LZO 2.06
+Sat Oct 22 22:37:09 2016 us=724495 Diffie-Hellman initialized with 2048 bit key
+Sat Oct 22 22:37:09 2016 us=724919 TLS-Auth MTU parms [ L:1542 D:1212 EF:38 EB:0 ET:0 EL:3 ]
+Sat Oct 22 22:37:09 2016 us=724982 Socket Buffers: R=[212992->212992] S=[212992->212992]
+Sat Oct 22 22:37:09 2016 us=725172 ROUTE_GATEWAY 10.0.2.2/255.255.255.0 IFACE=eth0 
+HWADDR=52:54:00:c5:83:ad
+Sat Oct 22 22:37:09 2016 us=733863 TUN/TAP device tun0 opened
+Sat Oct 22 22:37:09 2016 us=733929 TUN/TAP TX queue length set to 100
+
+711
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Sat Oct 22 22:37:09 2016 us=733946 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Sat Oct 22 22:37:09 2016 us=733963 /usr/sbin/ip link set dev tun0 up mtu 1500
+Sat Oct 22 22:37:09 2016 us=740224 /usr/sbin/ip addr add dev tun0 local 10.8.0.1 peer 
+10.8.0.2
+Sat Oct 22 22:37:09 2016 us=745857 /usr/sbin/ip route add 10.8.0.0/24 via 10.8.0.2
+Sat Oct 22 22:37:09 2016 us=755742 Data Channel MTU parms [ L:1542 D:1450 EF:42 EB:143 ET:0 
+EL:3 AF:3/1 ]
+Sat Oct 22 22:37:09 2016 us=756240 GID set to nobody
+Sat Oct 22 22:37:09 2016 us=756256 UID set to nobody
+Sat Oct 22 22:37:09 2016 us=756265 UDPv4 link local (bound): [undef]
+Sat Oct 22 22:37:09 2016 us=756270 UDPv4 link remote: [undef]
+Sat Oct 22 22:37:09 2016 us=756279 MULTI: multi_init called, r=256 v=256
+Sat Oct 22 22:37:09 2016 us=756297 IFCONFIG POOL: base=10.8.0.4 size=62, ipv6=0
+Sat Oct 22 22:37:09 2016 us=756313 Initialization Sequence Completed
+
+Listing 15-5 shows that the OpenVPN server has started, our interface tun0 was created, and our IP 
+
+address of 10.8.0.1 was added and bound to the UDP port of 1194.
+
+ ensure you have the right firewall rules in place to allow VpN connections to your host—in this case, 
+
+ ■ Note 
+incoming connections on UDp port 1194 need to be accepted.
+
+Our server is running, but we’re still not quite done.

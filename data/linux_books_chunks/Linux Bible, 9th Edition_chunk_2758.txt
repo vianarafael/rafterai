@@ -1,0 +1,13 @@
+Most importantly for troubleshooting purposes, you need to 
+be able to quickly know what should and should not be running on your Linux server.
+
+15
+
+399
+
+c15.indd  04/01/2015  Page 400
+
+Part IV: Becoming a Linux Server Administrator
+
+Of course, knowing which initialization service is being used by your Linux server 
+is the ﬁ rst piece of information to obtain.

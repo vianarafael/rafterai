@@ -1,0 +1,3 @@
+inode number
+
+Each inode has a unique number (the inode number).

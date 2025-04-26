@@ -1,0 +1,35 @@
+Table 24.1 lists options available on the secon command.
+
+TABLE 24.1    secon Command Options
+
+Option
+
+Description
+
+-u
+
+-r
+
+-t
+
+-s
+
+-c
+
+-m
+
+Use this option to show the user of the security context.
+
+Use this option to show the role of the security context.
+
+Use this option to show the type of the security context.
+
+Use this option to show the sensitivity level of the security context.
+
+Use this option to show the clearance level of the security context.
+
+Use this option to show the sensitivity and clearance level of the security context as 
+an MLS range.
+
+If you use the secon command with no designation, it shows you the current process’s 
+security context.

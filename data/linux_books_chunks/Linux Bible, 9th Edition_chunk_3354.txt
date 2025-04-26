@@ -1,0 +1,20 @@
+The two pasv settings restrict 
+the range of ports that can be used with passive FTP (where the server picks a higher 
+number port on which to send data) to between 50000 and 60000.
+
+491
+
+c18.indd  04/01/2015  Page 492
+
+Part IV: Becoming a Linux Server Administrator
+
+The next section contains features of the vsftpd server:
+
+# Features
+xferlog_enable=YES
+ls_recurse_enable=NO
+ascii_download_enable=NO
+async_abor_enable=YES
+
+With xferlog_enable=YES, all ﬁ le transfers to and from the server are logged to the
+/var/log/xferlog ﬁ le.

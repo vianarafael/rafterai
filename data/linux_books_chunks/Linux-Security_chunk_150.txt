@@ -1,0 +1,17 @@
+/etc/default/useradd
+
+Both Red Hat Enterprise Linux and Debian/Ubuntu have a file called /etc/default/useradd
+that contains some default user options. Besides using cat to display this file, you can also
+use useradd -D.
+
+[root@RHEL4 ~]# useradd -D
+GROUP=100
+HOME=/home
+INACTIVE=-1
+EXPIRE=
+SHELL=/bin/bash
+SKEL=/etc/skel
+
+2.6. userdel
+
+You can delete the user yanina with userdel.

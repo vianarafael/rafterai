@@ -1,0 +1,11 @@
+This means the 
+downloaded ISO ﬁ le has not been corrupted and is ready for use.
+
+629
+
+c23.indd  04/01/2015  Page 630
+
+Part V: Learning Linux Security Techniques
+
+While MD5 hashing is fi ne for ensuring that a downloaded software fi le has not been corrupted, the algorithm is not 
+ collision-free. Therefore, it is no longer considered a true cryptographic hash.

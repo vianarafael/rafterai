@@ -1,0 +1,10 @@
+We are going to use the Debian package as we are running this 
+on our Xenial server.
+
+Let’s run the aptitude command like so:
+
+$ sudo aptitude install –y ansible
+
+It is also available via yum install. You can also install it via Python Pip, which is a Python package 
+
+manager.

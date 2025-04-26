@@ -1,0 +1,5 @@
+Access is granted to content 
+added under that directory, but overriding settings is not allowed.
+
+The /var/www/html Directory container follows symbolic links and does not allow 
+ overrides.

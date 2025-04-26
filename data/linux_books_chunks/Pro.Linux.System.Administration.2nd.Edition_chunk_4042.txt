@@ -1,0 +1,8 @@
+after a
+  system crash). Keep access to these files restricted as they contain
+  _all_ informations (gpg data, ftp data) to access and modify your backups.
+
+  Repeat this step after _all_ configuration changes. Some configuration
+  options are crucial for restoration.
+
+This command creates a directory (~/.duply) in the home directory of the user issuing the command.

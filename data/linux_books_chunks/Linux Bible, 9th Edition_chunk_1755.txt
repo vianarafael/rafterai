@@ -1,0 +1,7 @@
+Any 
+further queries about packages, package groups, or other information from the repository 
+are gathered from the cached metadata until a timeout period is reached.
+
+After the timeout period is reached, yum retrieves fresh metadata if the yum command 
+is run. By default, the timeout is 90 minutes. You can change that period by setting 
+ metadata_expire in the /etc/yum.conf ﬁ le.

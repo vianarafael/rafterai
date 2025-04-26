@@ -1,0 +1,16 @@
+If time permits (or if you are waiting for other students to finish this practice), then install
+a sniffer (wireshark) and watch the browser elections.
+
+On ubuntu: sudo aptitude install wireshark
+
+then: sudo wireshark, select interface
+
+212
+
+Chapter 17. a read only file server
+
+213
+
+a read only file server
+
+17.1.

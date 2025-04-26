@@ -1,0 +1,5 @@
+Find the PAM “other” conﬁ guration ﬁ le on your system. Does it exist? Does it 
+
+enforce Implicit Deny?
+
+10.  Find the PAM limits conﬁ guration ﬁ le.

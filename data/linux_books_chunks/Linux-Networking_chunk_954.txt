@@ -1,0 +1,19 @@
+domain logons
+
+Setting the domain logons parameter will make this samba server a domain controller.
+
+253
+
+samba domain controller
+
+domain logons = yes
+
+23.4.6. domain master
+
+Setting  the  domain  master  parameter  can  cause  samba  to  claim  the  domain  master
+browser role for its workgroup. Don't use this parameter in a workgroup with an active
+NT4 PDC.
+
+domain master = yes
+
+23.4.7.

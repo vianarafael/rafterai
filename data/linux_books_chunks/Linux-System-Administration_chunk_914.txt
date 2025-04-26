@@ -1,0 +1,55 @@
+yum update
+
+To bring all applications up to date, by downloading and installing them, issue yum update.
+All software that was installed via yum will be updated to the latest version that is available
+in the repository.
+
+yum update
+
+If you only want to update one package, use yum update $package.
+
+[root@rhel55 ~]# yum update sudo
+Loaded plugins: rhnplugin, security
+Skipping security plugin, no data
+Setting up Update Process
+Resolving Dependencies
+Skipping security plugin, no data
+--> Running transaction check
+---> Package sudo.i386 0:1.7.2p1-7.el5_5 set to be updated
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=====================================================================
+ Package     Arch    Version           Repository                Size
+=====================================================================
+Updating:
+ sudo        i386    1.7.2p1-7.el5_5   rhel-i386-server-5       230 k
+
+Transaction Summary
+=====================================================================
+Install       0 Package(s)
+Upgrade       1 Package(s)
+
+Total download size: 230 k
+Is this ok [y/N]: y
+Downloading Packages:
+sudo-1.7.2p1-7.el5_5.i386.rpm                      | 230 kB     00:00 
+Running rpm_check_debug
+Running Transaction Test
+Finished Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Updating       : sudo                                           1/2
+  Cleanup        : sudo                                           2/2
+
+Updated:
+  sudo.i386 0:1.7.2p1-7.el5_5
+
+Complete!
+
+242
+
+package management
+
+20.7.7.

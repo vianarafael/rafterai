@@ -1,0 +1,11 @@
+Thus, the appended rule is not 
+quite what is needed to reach the entire goal.
+
+$ ping -c 2 10.140.67.23
+PING 10.140.67.23 (10.140.67.23) 56(84) bytes of data.
+--- 10.140.67.23 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1007ms
+$ ssh root@10.140.67.23
+ssh: connect to host 10.140.67.23 port 22: Connection timed out
+
+Blocking a protocol and port.

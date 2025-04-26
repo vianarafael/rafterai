@@ -1,0 +1,4 @@
+The 
+schema is used to describe the syntax and matching rules for an available class and attribute definitions. If 
+you find your organization is not properly described by the available schema files, you can create your own 
+schema file for your company if you want.

@@ -1,0 +1,8 @@
+A gpgkey is provided to check the validity of installed pack-
+ages, and GPG checking is turned on. After that, the nmap package is installed (that’s in 
+the standard Fedora yum repository), the mycoolcmd package is installed (from my private 
+repository), and a speciﬁ c version of the libmystuff package is installed.
+
+27
+
+Conﬁ guring apt software repositories for Ubuntu is done a bit differently.

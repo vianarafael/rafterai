@@ -1,0 +1,25 @@
+No secu-
+rity software can fully protect your systems if someone with malicious intent has physical access to 
+the Linux server.
+
+591
+
+c22.indd  04/15/2015  Page 592
+
+Part V: Learning Linux Security Techniques
+
+Basic server room physical security includes items such as these:
+
+ ■ A lock or security alarm on the server room door
+
+ ■ Access controls that allow only authorized access and identify who accessed the 
+
+room and when the access occurred, such as a card key entry system
+
+ ■ A sign stating “no unauthorized access allowed” on the door
+
+ ■ Policies on who can access the room and when access may occur, for groups such as 
+
+the cleaning crew, server administrators, and others
+
+Physical security includes environmental controls.

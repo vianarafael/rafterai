@@ -1,0 +1,23 @@
+You can also use pvdisplay
+without an argument to display information about all physical (lvm) volumes.
+
+[root@RHEL5 ~]# pvdisplay /dev/sda2
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               VolGroup00
+  PV Size               15.90 GB / not usable 20.79 MB
+  Allocatable           yes (but full)
+  PE Size (KByte)       32768
+  Total PE              508
+  Free PE               0
+  Allocated PE          508
+  PV UUID               TobYfp-Ggg0-Rf8r-xtLd-5XgN-RSPc-8vkTHD
+
+[root@RHEL5 ~]#
+
+112
+
+   
+logical volume management
+
+11.9.

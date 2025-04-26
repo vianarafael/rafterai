@@ -1,0 +1,9 @@
+In our example, a new version of each of these files is created each 
+day due to the type day directive.
+
+420
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Finally, the pool option tells ntpd which upstream servers to use for synchronization. To make sure your 
+host stays in sync, it is generally a good idea to add multiple server directives with multiple different servers.

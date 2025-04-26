@@ -1,0 +1,12 @@
+Configuring Postfix for Dovecot SASL
+
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_recipient_restrictions = permit_sasl_authenticated,permit_mynetworks,reject_unauth_
+destination
+smtpd_sasl_auth_enable = yes
+smtpd_tls_auth_only = yes
+
+In Listing 12-12, we’ve used the smtpd_sasl_type option to specify that we’re using Dovecot to perform 
+
+our SASL authentication.

@@ -1,0 +1,5 @@
+There are other features you may want to experiment 
+
+with, such as setting how much scrolled data is kept.
+
+9.  Close the Proﬁ le window when you are ﬁ nished.

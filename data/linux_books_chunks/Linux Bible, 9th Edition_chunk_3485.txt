@@ -1,0 +1,7 @@
+D        0  Sun Oct 23 09:52:51 2014
+  ..                            D        0  Sun Oct 23 09:11:50 2014
+  hosts                         A       89  Sun Oct 23 09:52:51 2014
+          39941 blocks of size 524288. 28197 blocks available
+smb: \> quit
+
+A Samba share is in the form //host/share or \\host\share.

@@ -1,0 +1,18 @@
+# machinectl
+
+
+- Start a machine as a service using `systemd-nspawn`:
+
+`sudo machinectl start {{machine_name}}`
+
+- Stop a running machine:
+
+`sudo machinectl stop {{machine_name}}`
+
+- Display a list of running machines:
+
+`machinectl list`
+
+- Open an interactive shell inside the machine:
+
+`sudo machinectl shell {{machine_name}}`

@@ -1,0 +1,15 @@
+You will see how useful this is shortly in the “Mtr” section.
+
+So how do we fix this? Well, we add a route to Host F telling it how to send packets to Host D via Host E.
+
+$ sudo /sbin/ip route add 192.168.0.0/24 via 192.168.10.2 dev enp0s8
+
+Now when Host F tries to ping Host D, we get the following result:
+
+$ ping 192.168.0.50
+PING 192.168.0.50 (192.168.0.50) 56(84) bytes of data.
+64 bytes from 192.168.0.50: icmp_seq=1 ttl=64 time=1.24 ms
+
+262
+
+After adding the route to Host F, we can now reach Host D.

@@ -1,0 +1,15 @@
+man smb.conf
+
+You can access a lot of documentation when typing man smb.conf.
+
+[root@RHEL4b samba]# apropos samba
+cupsaddsmb       (8)  - export printers to samba for windows clients
+lmhosts          (5)  - The Samba NetBIOS hosts file
+net              (8)  - Tool for administration of Samba and remote CIFS servers
+pdbedit          (8)  - manage the SAM database (Database of Samba Users)
+samba            (7)  - A Windows SMB/CIFS fileserver for UNIX
+smb.conf [smb]   (5)  - The configuration file for the Samba suite
+smbpasswd        (5)  - The Samba encrypted password file
+smbstatus        (1)  - report on current Samba connections
+swat             (8)  - Samba Web Administration Tool
+tdbbackup        (8)  - tool for backing up and ...

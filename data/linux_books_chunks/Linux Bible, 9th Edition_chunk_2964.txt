@@ -1,0 +1,9 @@
+(Type lpq -P printer to see the status of your print job.)
+
+Adding a Windows (SMB) printer
+Enabling your computer to access an SMB printer (the Windows printing service) involves 
+adding an entry for the printer in the Select Connection window.
+
+When you choose to add a Windows printer to the Print Settings window (Windows Printer 
+via Samba), select Browse to see a list of computers on your network that have been 
+detected as offering SMB services (ﬁ le and/or printing service).

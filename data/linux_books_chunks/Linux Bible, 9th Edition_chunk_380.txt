@@ -1,0 +1,14 @@
+Think of it as a professional desktop environment, 
+ focusing on stability more than fancy effects.
+
+ ■ K Desktop Environment—KDE is probably the second most popular desktop 
+
+ environment for Linux. It has more bells and whistles than GNOME and offers more 
+
+31
+
+c02.indd  04/01/2015  Page 32
+
+Part I: Getting Started
+
+integrated applications.

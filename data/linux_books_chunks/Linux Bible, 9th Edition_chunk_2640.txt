@@ -1,0 +1,13 @@
+Try to contact google.com from the command line in a way that ensures that DNS 
+
+is working properly.
+
+4.  Run a command to check the routes being used to communicate outside your local 
+
+network.
+
+5.  Trace the route being taken to connect to google.com .
+
+6.  Turn off and disable NetworkManager and start the network service.
+
+7.

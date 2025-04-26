@@ -1,0 +1,10 @@
+# qm resume
+
+
+- Resume a specific virtual machine:
+
+`qm resume {{vm_id}}`
+
+- Resume a specific virtual machine ignoring locks (requires root):
+
+`sudo qm resume {{vm_id}} --skiplock true`

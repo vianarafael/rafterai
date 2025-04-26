@@ -1,0 +1,23 @@
+All that is left to do is to add a ProxyPassMatch 
+
+directive to our HTTP config to match on any .php files and pass those to the PHP-FPM daemon.
+
+<VirtualHost *:80>
+
+  ServerName www.example.com
+  ServerAdmin webmaster@example.com
+  DocumentRoot  /var/www/html/www.example.com
+  DirectoryIndex index.php
+  ProxyPassMatch ^/(.*\.php(/.*)?)$ unix:/run/php-fcgi.sock|fcgi://127.0.0.1:9000/var/www/
+html/www.example.com/
+
+487
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+  <Directory /var/www/html/www.example.com>
+     Require all granted
+  </Directory>
+</VirtualHost>
+
+The virtual host is now ready to handle our PHP applications, which we will install later in this chapter.

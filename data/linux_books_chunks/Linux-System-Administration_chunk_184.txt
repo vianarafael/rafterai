@@ -1,0 +1,19 @@
+Using negative nice values can have a severe impact on a system's usability.
+
+2.1.8. nice
+
+The nice works identical to the renice but it is used when starting a command.
+
+The screenshot shows how to start a script with a nice value of five.
+
+paul@ubuntu910:~$ nice -5 ./backup.sh
+
+18
+
+  
+  
+process priorities
+
+2.2. practice : process priorities
+
+1.

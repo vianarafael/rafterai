@@ -1,0 +1,9 @@
+To check that these 
+DNS servers are configured properly, we can query them for all records of the NS type in the google.com 
+domain, as shown in Listing 10-10.
+
+434
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Listing 10-10.

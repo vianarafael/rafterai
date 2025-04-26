@@ -1,0 +1,37 @@
+You have also looked at the LSB project and got an overview of the new Upstart init 
+daemon.
+
+You should now be able to do the following:
+
+•	 Describe the boot process for Linux.
+
+•	 Use, configure, and secure GRUB2.
+
+•	 Describe init scripts, including those using the LSB standard.
+
+•	 Describe SysV, Upstart, and Systemd
+
+•	
+
+Start and stop services on Red Hat and Ubuntu.
+
+•	 Understand targets and runlevels.
+
+•	
+
+Schedule tasks with crontab and Systemd Timers.
+
+In the next chapter, we will show you how to configure your network, discuss firewalls, and introduce 
+
+you to Linux security.
+
+216
+
+CHAPTER 7
+
+Networking and Firewalls
+
+By Dennis Matotek
+
+So far we have shown you some of the basic features of Linux, but one of the most critical features is 
+networking.

@@ -1,0 +1,3 @@
+If this mail 
+server is poorly configured and accepts mail for domains not under its control, it is called an open relay.
+Next, in our simple example, we need the content of the actual e-mail.

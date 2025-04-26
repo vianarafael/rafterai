@@ -1,0 +1,8 @@
+Host-to-address records are called A records and remember 
+that AAAA records are for IPv6. We’ll also add an A record for our current hostname.
+
+445
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Listing 10-19.

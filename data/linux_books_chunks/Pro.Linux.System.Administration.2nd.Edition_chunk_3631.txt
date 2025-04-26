@@ -1,0 +1,8 @@
+Linux desktops can easily mount a Samba or NFS share; however, 
+they can’t run Windows executable files without some modification.
+
+ You may get some success running some Windows applications using software developed by Wine 
+
+ ■ Note 
+(www.winehq.org). This open source community works on integrating a selected group of Windows applications 
+to run on Linux operating systems (or macOS).

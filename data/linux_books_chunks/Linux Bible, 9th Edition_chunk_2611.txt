@@ -1,0 +1,7 @@
+To make this change perma-
+nent, you must add that value to the /etc/sysctl.conf ﬁ le, so it appears as follows:
+
+net.ipv4.ip_forward = 1
+
+With that ﬁ le modiﬁ ed as shown, each time the system reboots, the value for ip_for-
+ward is reset to 1.

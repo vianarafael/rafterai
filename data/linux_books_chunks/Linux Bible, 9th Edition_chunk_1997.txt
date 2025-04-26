@@ -1,0 +1,5 @@
+Linux provides ways 
+of conﬁ guring those types of information.
+
+Because I hope you will someday use your Linux skills to work in a large Linux installation, 
+I want to introduce the concept of centralized authentication.

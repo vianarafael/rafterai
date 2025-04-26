@@ -1,0 +1,8 @@
+You do not need to learn a new 
+language such as perl or bash. All that is expected is to accurately describe what a script is 
+doing. Knowing the exact syntax for a specific scripting language is not expected.
+
+The best way to train for this is to go through a few examples. For this we will implement the 
+suggested automated tasks in the LPI objectives.
+
+1.

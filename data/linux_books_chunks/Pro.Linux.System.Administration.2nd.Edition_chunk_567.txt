@@ -1,0 +1,6 @@
+We discuss these in the sidebar “setuid, setgid, and sticky permissions” later in this 
+chapter.
+
+Read permissions allow a file to be read or viewed but not edited. If it is set on a directory, the names of 
+the files in the directory can be read, but other details, like their permissions and size, are not visible. Write 
+permissions allow you to make changes or write to a file.

@@ -1,0 +1,7 @@
+The NCSA HTTP daemon was the most popular HTTP server at the time, but had 
+started to show its age after its author, Rob McCool, left NCSA in mid-1994.
+
+Another project that came from NCSA is Mosaic. Most modern web browsers can trace their origins to Mosaic.
+
+In early 1995, a group of developers formed the Apache Group and began making extensive 
+modiﬁ cations to the NCSA HTTPD code base.

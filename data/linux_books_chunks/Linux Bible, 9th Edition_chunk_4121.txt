@@ -1,0 +1,9 @@
+Those are the 
+hashed passwords.
+
+# tail -2 /etc/shadow
+johndoe:$6$jJjdRN9/qELmb8xWM1LgOYGhEIxc/:15364:0:99999:7:::
+Tim:$6$z760AJ42$QXdhFyndpbVPVM5oVtNHs4B/:15372:5:30:7:16436::
+
+You may inherit a Linux system that still uses the old method of keeping the hashed passwords in the /etc/
+passwd fi le. It is easy to fi x.

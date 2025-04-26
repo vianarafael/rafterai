@@ -1,0 +1,5 @@
+There are many ways to 
+accomplish tasks in Linux. The answers provided here are suggestions.
+
+Some of the exercises require that you modify system ﬁ les that could change the basic functioning 
+of your system, or even make it unbootable.

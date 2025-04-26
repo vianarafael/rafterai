@@ -1,0 +1,6 @@
+FSS key generation and QR code 
+
+As the text in Figure 18-1 says, we should store the secret verification key in a safe place, and it gives us 
+
+the handy ability to use the QR code to store it on our phone. The signing key has been place in the fss file in 
+the /var/log/journal/ e3c7f…db6ab/ directory.

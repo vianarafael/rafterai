@@ -1,0 +1,6 @@
+In this example we have stopped 
+the openvpn service, and this is the resultant log notification.
+
+This is not in the format that we would like and is not like an rsyslog message. Let’s change that so that 
+
+we record this as a different type of event.

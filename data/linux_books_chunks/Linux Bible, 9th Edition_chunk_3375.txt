@@ -1,0 +1,10 @@
+To install gFTP in Fedora and Red Hat Enterprise Linux, run the 
+following command to install the gftp package:
+
+18
+
+# yum install gftp
+
+To start gFTP, launch it from the applications menu or run gftp & from the shell. To use it, 
+type the URL of the FTP server you want to connect to, enter the username you want to use 
+(such as anonymous), and press Enter.

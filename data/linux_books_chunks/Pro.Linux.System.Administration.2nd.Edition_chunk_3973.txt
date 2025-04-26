@@ -1,0 +1,6 @@
+You can also use --exclude-from=<file> and --include-from=<file> to 
+list multiple selections of files or directories you want to target.
+
+The rsync Backup Script
+
+Let’s take a look at a typical script we can use to sync our remote hosts to our local host.

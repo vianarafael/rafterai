@@ -1,0 +1,10 @@
+If you are distributing content to tens of thousands of people 
+around the world, you will definitely want to look at a CDN.
+
+In our example, we are going to install a web caching server to help reduce our local bandwidth and 
+
+speed up our browsing.
+
+Squid-Cache
+When multiple users in your office start browsing the Web simultaneously, they can end up using quite a lot 
+of bandwidth.

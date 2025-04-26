@@ -1,0 +1,15 @@
+Here’s an example of /etc/yum.conf on a RHEL 7 system:
+
+[main]
+cachedir=/var/cache/yum/$basearch/$releasever
+keepcache=0
+debuglevel=2
+logfile=/var/log/yum.log
+exactarch=1
+
+gpgcheck=1
+plugins=1
+
+Settings in yum.conf tell YUM where to keep cache ﬁ les (/var/cache/yum) and log 
+entries (/var/log/yum.log), and whether to keep cache ﬁ les around after a package is 
+installed (0 means no).

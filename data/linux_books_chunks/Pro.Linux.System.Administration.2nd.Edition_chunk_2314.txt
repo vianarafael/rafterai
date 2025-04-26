@@ -1,0 +1,5 @@
+mdadm will automatically detect and 
+
+assemble the array even if you leave this array definition out of the configuration file.
+
+We already mentioned that mdadm will send an e-mail to the root user if an event occurs.

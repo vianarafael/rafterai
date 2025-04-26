@@ -1,0 +1,7 @@
+The client checks for a reference to a root certificate.
+
+4.  The client uses the root certificate bundled with it to validate that your certificate 
+
+is genuine.
+
+5.

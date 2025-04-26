@@ -1,0 +1,7 @@
+But, although 
+
+this configuration stops open relaying, it leaves a security hole and creates a functionality gap.
+
+Regarding the hole, anyone who can get an IP address on your network can send e-mail to your e-mail 
+
+server.

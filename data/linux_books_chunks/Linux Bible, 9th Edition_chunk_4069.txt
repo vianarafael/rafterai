@@ -1,0 +1,14 @@
+Find ﬁ les on the system owned by the account, using the following command: 
+
+ﬁ nd / -user username
+
+2.  Expire or disable the account.
+
+3.  Back up the ﬁ les.
+
+4.  Remove the ﬁ les or reassign them to a new owner.
+
+5.  Delete the account from the system.
+
+Problems occur when Step 5 is forgotten, and expired or disabled accounts are still on the 
+system.

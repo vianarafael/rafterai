@@ -1,0 +1,25 @@
+To create the script described, do the following: 
+
+a. To create a ﬁ le called $HOME/bin/myhome and make it executable, type this:
+
+B
+
+$ touch $HOME/bin/myhome
+$ chmod 755 $HOME/bin/myhome
+
+791
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 792
+
+Appendix B: Exercise Answers
+
+b.

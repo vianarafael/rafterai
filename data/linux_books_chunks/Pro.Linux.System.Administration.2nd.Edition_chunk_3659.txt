@@ -1,0 +1,9 @@
+The password needs to be eight or more 
+characters and complex, requiring symbols, letters, and numbers. Once that has been entered, the setup of 
+Samba completes quickly. Once it is complete, we can start our service.
+
+$ sudo systemctl start samba-ad-dc
+
+This starts the Samba service, and you can use the systemctl status samba-ad-dc command to check 
+
+it has started alright.

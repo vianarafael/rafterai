@@ -1,0 +1,24 @@
+The example below force a transfer of the
+fred.local zone, and shows the log from /var/log/syslog.
+
+root@debian7:/etc/bind# rndc refresh fred.local
+
+128
+
+introduction to DNS
+
+root@debian7:/etc/bind# grep fred /var/log/syslog | tail -7 | cut -c38-
+zone fred.local/IN: sending notifies (serial 1)
+received control channel command 'refresh fred.local'
+zone fred.local/IN: Transfer started.
+transfer of 'fred.local/IN' from 10.104.109.1#53: connected using 10.104.33.30#57367
+zone fred.local/IN: transferred serial 2
+transfer of 'fred.local/IN' from 10.104.109.1#53: Transfer completed: 1 messages, 10 records, 264 bytes, 0.001 secs (264000 bytes/sec)
+zone fred.local/IN: sending notifies (serial 2)
+root@debian7:/etc/bind#
+
+129
+
+introduction to DNS
+
+10.7.

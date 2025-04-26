@@ -1,0 +1,8 @@
+To use the renice command to change the nice value of the gedit command you 
+
+just started to 7, type the following:
+
+$ renice -n 7 21578
+21578: old priority 0, new priority 7
+Use any command you like to verify that the current nice value for the gedit com-
+mand is now set to 7.

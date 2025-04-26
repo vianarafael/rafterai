@@ -1,0 +1,4 @@
+In other words, 
+there should be one person per user account, so actions cannot be denied.
+
+You always want to set up your computer security for nonrepudiation. But that term can be confusing.

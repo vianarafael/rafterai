@@ -1,0 +1,10 @@
+New kernel has been installed
+
+305
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+These system updates have installed a new kernel and your grub configuration has been updated with 
+
+a new menu entry, which we talked about in Chapter 6. You can see now that we have the choice of selecting 
+the latest (the new system default) or the older kernel version.

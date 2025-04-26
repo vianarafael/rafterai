@@ -1,0 +1,16 @@
+480
+
+c18.indd  04/01/2015  Page 481
+
+Chapter 18: Confi guring an FTP Server
+
+(See the section “Securing Your FTP Server” for details on opening ports, enabling 
+connection tracking needed for passive FTP, and setting other ﬁ rewall rules 
+related to FTP.)
+
+ ■ The vsftpd daemon reads vsftpd.conf to determine what features the 
+
+service allows.
+
+ ■ Linux user accounts (excluding administrative users) and the anonymous user 
+account (no password required) can access the FTP server.

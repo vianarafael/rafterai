@@ -1,0 +1,7 @@
+For example, instead 
+of shuttle, you might have used shuttle.example.com or an IP address such as 
+192.168.0.122.
+
+Automounting home directories
+Instead of just mounting an NFS ﬁ lesystem under the /net directory, you might want 
+to conﬁ gure autofs to mount a speciﬁ c NFS directory in a speciﬁ c location.

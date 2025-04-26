@@ -1,0 +1,10 @@
+In the worker model, the parent process 
+creates a child process that launches several threads; one thread is assigned to each 
+incoming connection. One listens for incoming connections and passes them off to 
+waiting server threads.
+
+1See http://news.netcraft.com/archives/web_server_survey.html.
+
+473
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

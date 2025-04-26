@@ -1,0 +1,4 @@
+While its popularity has 
+declined over the last few years, it is still used to host more than 30 percent of all web sites in existence1 and 
+is usually chosen for its maturity, stability, and the nature of the application. It is designed to be modular, so 
+extra functionality can be added or removed by enabling or disabling modules.

@@ -1,0 +1,6 @@
+You gain access to the repository using your SSH public key for 
+authentication on the githost.com server. Git will then make a copy of the git-repository.git repository on 
+your local filesystem in a directory of the same name.
+
+Once you have a copy of the repository you can begin to make your changes. One of the first steps is to 
+create a branch.

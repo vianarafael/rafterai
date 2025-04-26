@@ -1,0 +1,10 @@
+A contactgroup object looks like this:
+
+define contactgroup{
+          contactgroup_name       admins
+          alias                   Nagios Administrators
+          members                 nagios-admin
+          }
+
+A contact group has a name defined via the contactgroup_name attribute, a description provided by the 
+alias attribute, and a list of the contacts in that group, specified using the members attribute.

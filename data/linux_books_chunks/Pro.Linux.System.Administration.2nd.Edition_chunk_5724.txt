@@ -1,0 +1,13 @@
+There are a number of 
+other functions, including the generate function, which calls external commands and returns the result, and 
+the notice function, which logs messages on the master and is useful for testing a configuration.
+
+You can see a full list of functions at https://docs.puppet.com/puppet/latest/function.html.
+
+956
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Reports
+
+Puppet has the ability to report on events that have occurred on your nodes or clients.

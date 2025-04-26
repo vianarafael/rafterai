@@ -1,0 +1,8 @@
+Fill in the following information (only Address and Netmask are required):
+
+ ■ Address—The IP address you want to assign to your local network interface. For 
+
+example, 192.168.0.40.
+
+ ■ Netmask—The subnetwork mask that deﬁ nes which part of the IP address repre-
+sents the network and which the host.

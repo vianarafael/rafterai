@@ -1,0 +1,6 @@
+From a web browser on the system running your FTP server, open the test ﬁ le 
+
+from the anonymous FTP home directory. Be sure you can see that ﬁ le’s contents.
+
+6.  From a web browser outside the system that is running the FTP server, try to access 
+the test ﬁ le in the anonymous FTP home directory.

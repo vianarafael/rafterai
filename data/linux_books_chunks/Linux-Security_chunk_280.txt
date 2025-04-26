@@ -1,0 +1,11 @@
+You can display the umask with the umask command.
+
+[Harry@RHEL4b ~]$ umask
+0002
+[Harry@RHEL4b ~]$ touch test
+[Harry@RHEL4b ~]$ ls -l test
+-rw-rw-r--  1 Harry Harry 0 Jul 24 06:03 test
+[Harry@RHEL4b ~]$
+
+As you can also see, the file is also not executable by default. This is a general security
+feature  among  Unixes;  newly  created  files  are  never  executable  by  default.

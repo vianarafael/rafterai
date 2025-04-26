@@ -1,0 +1,14 @@
+All files created in this directory should be group-owned by the sports group.
+
+chmod 2770 /home/sports
+
+1d. Users should be able to delete only their own user-owned files.
+
+chmod +t /home/sports
+
+1e. Test that this works!
+
+Log in with different users (group members and others and root), create files and watch the
+permissions. Try changing and deleting files...
+
+2.

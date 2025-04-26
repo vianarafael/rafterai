@@ -1,0 +1,8 @@
+Without the -a, current date/time stamps are 
+used and permissions are determined by your unmask.
+
+The cp command typically also is aliased with the -i option, to prevent you from inadver-
+tently overwriting ﬁ les.
+
+As with the cp and mv commands, rm is also usually aliased to include the -i option. This 
+can prevent the damage that can come from an inadvertent recursive remove (-r) option.

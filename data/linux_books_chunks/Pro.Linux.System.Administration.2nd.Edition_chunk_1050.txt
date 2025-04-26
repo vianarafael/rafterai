@@ -1,0 +1,5 @@
+For 
+
+example, the first line, load_video calls a function within the grub.cfg script that inserts the various video 
+modules for the splash screen. The modules on a CentOS 7 host can be found in /boot/grub/i386-pc/ and 
+are loaded via the insmod command you see in the subsequent lines.

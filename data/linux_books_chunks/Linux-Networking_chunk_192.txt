@@ -1,0 +1,21 @@
+/etc/sysconfig/network
+
+The /etc/sysconfig/network file is a global (across all network cards) configuration file.
+It  allows  us  to  define  whether  we  want  networking  (NETWORKING=yes|no),  what  the
+hostname should be (HOSTNAME=) and which gateway to use (GATEWAY=).
+
+[root@rhel6 ~]# cat /etc/sysconfig/network
+NETWORKING=yes
+HOSTNAME=rhel6
+GATEWAY=192.168.1.1
+
+There are a dozen more options settable in this file, details can be found in /usr/share/doc/
+initscripts-*/sysconfig.txt.
+
+Note that this file contains no settings at all in a default RHEL7 install (with networking
+enabled).
+
+[root@rhel71 ~]# cat /etc/sysconfig/network
+# Created by anaconda
+
+2.3.2.

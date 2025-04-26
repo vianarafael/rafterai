@@ -1,0 +1,12 @@
+examples 
+of such utilities are apt-cacher, apt-cacher-ng, and apt-proxy, both of which are available as 
+packages.
+
+332
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Removing Packages Using Aptitude
+
+Listing 8-14 shows how to remove a package using aptitude. Again, like with dpkg, you can remove or purge 
+a package.

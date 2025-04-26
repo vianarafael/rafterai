@@ -1,0 +1,9 @@
+You can boot this image on your computer, and if you choose, you can 
+permanently install it to your computer’s hard disk. To download this image, do 
+the following:
+
+1.  Select Workstation, Server, or Cloud. I recommend Workstation to follow along with 
+
+this book.
+
+2.  Select the Download Now button, and click the Download button.

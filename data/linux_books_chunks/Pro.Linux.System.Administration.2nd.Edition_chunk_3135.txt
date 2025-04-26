@@ -1,0 +1,10 @@
+If a 
+site you need to access runs on a nonstandard port, you can add the port number to the Safe_ports ACL 
+and so permit browsers to connect to it.
+
+acl Safe_ports port 80  # http
+acl Safe_ports port 21     # ftp
+acl Safe_ports port 443 # https
+
+Now that we have defined all the ACLs we need, we can complete our configuration by defining access 
+rules for these ACLs.

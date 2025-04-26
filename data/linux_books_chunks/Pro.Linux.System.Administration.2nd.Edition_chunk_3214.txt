@@ -1,0 +1,14 @@
+as such, when you start postfix, 
+you may see a number of processes start rather than a single process.
+
+In this case, the smtp service is the basic SMTP service that receives mail for your host on TCP port 25, 
+and the submission service is an alternative service that listens on TCP port 567 and is sometimes used to 
+receive e-mail from internal mail clients (MUAs).
+
+533
+
+Chapter 12 ■ Mail ServiCeS
+
+Next on the line, we define the type of service; here inet defines these as network-based services (i.e., 
+
+services that run on your network interface).

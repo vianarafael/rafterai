@@ -1,0 +1,5 @@
+Finally, swap is a slice of disk for writing out pages of memory to 
+free up system RAM.
+
+ ■ Note  LVM allows you to manage disk volumes and extend, shrink, and change the size of your disk 
+partitions on the fly.

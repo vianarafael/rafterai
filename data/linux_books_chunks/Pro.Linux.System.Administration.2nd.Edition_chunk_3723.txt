@@ -1,0 +1,9 @@
+We will use this GID to change the group ownership.
+
+$ sudo chgrp 3000010 /data/staff/sales
+
+We also found that the staff GID was 3000012, and we will use that here:
+
+$ sudo chgrp 3000012 /data/staff
+
+Now we have set permissions on those directories.

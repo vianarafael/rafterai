@@ -1,0 +1,5 @@
+a customer returning a book might also think, just because they are standing in the library, the library 
+catalog knows they have returned the book. this is not an efficient system and customers can be lining 
+up waiting to return their books, or worse, leave them on the floor and walk out.
+
+With a book return chute, this problem can be solved.

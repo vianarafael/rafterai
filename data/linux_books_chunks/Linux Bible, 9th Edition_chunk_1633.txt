@@ -1,0 +1,11 @@
+GRUB is very ﬂ exible to conﬁ gure, so it looks different in different Linux 
+distributions.
+
+9
+
+With the GRUB boot loader that comes with Red Hat Enterprise Linux installed in the 
+ master boot record of your hard disk, when the BIOS starts up the boot loader one of 
+ several things can happen:
+
+ ■ Default—If you do nothing, the default operating system boots automatically after 
+ﬁ ve seconds.

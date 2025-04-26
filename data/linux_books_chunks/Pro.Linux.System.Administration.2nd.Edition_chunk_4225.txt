@@ -1,0 +1,9 @@
+1 root root 403 Oct 10 00:53 hosts
+
+We could always use the restore command to restore to a different host and a different destination by 
+
+changing the Client and Where options before we confirm that we want to run the restore job.
+
+Using GlusterFS for Backup Storage
+We are going to quickly go through how to set up your Bareos server to use the GlusterFS storage as our 
+backup device.

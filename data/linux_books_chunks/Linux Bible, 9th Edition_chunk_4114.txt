@@ -1,0 +1,7 @@
+The passwords were 
+hashed. A hashed password is created using a one-way mathematical process. After you 
+create the hash, you cannot re-create the original characters from the hash. Here’s how it 
+works. 
+
+When a user enters the account password, the Linux system rehashes the password and 
+then compares the hash result to the original hash in /etc/passwd.

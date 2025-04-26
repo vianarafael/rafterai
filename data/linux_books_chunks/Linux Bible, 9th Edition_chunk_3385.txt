@@ -1,0 +1,9 @@
+Keep in mind that the solutions shown in Appendix B are usually just one of multiple 
+ways to complete a task.
+
+Don’t do these exercises on a Linux system running a public FTP server because they almost 
+certainly interfere with that server.
+
+1.  Determine which package provides the Very Secure FTP Daemon service.
+
+2.

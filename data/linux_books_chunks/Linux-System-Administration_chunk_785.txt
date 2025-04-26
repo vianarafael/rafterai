@@ -1,0 +1,14 @@
+As the normal user again, remove your crontab file.
+
+paul@rhel55 ~$ crontab -r
+paul@rhel55 ~$ crontab -l
+no crontab for paul
+
+5. Take a look at the cron files and directories in /etc and understand them. What is the run-
+parts command doing ?
+
+run-parts runs a script in a directory
+
+200
+
+Chapter 17.

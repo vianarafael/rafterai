@@ -1,0 +1,7 @@
+Compiling a 
+Kernel). 
+
+Module Components at Runtime
+
+The /lib/modules/<kernelversion>/kernel directory, has many of the same 
+subdirectories present in the kernel source tree.

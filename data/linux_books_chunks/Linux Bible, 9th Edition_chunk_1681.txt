@@ -1,0 +1,2 @@
+Those distributions have 
+ excellent software installation tools that automatically point to huge software repositories.

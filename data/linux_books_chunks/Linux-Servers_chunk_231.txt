@@ -1,0 +1,11 @@
+In  this
+example we use imagemagick (which provides tools like convert and mogrify).
+
+root@debian7:~# aptitude install imagemagick wget perl apache2
+...output truncated...
+root@debian7:~# dpkg -S $(readlink -f $(which mogrify))
+imagemagick: /usr/bin/mogrify.im6
+root@debian7:~#
+
+The perl script that is shown in the screenshot below can be found on several websites, yet
+I have not found the original author.

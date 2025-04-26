@@ -1,0 +1,6 @@
+Some third-party applications that are not included with Linux  distributions 
+are sometimes placed in the /usr/local/bin, /opt/bin, or /usr/local/sbin 
+directories.
+
+Administrative confi guration fi les
+Conﬁ guration ﬁ les are another mainstay of Linux administration.

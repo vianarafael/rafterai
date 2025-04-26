@@ -1,0 +1,14 @@
+To create a volume group called abc from the LVM partition, create a 200MB logi-
+
+cal volume from that group called data, create a VFAT ﬁ lesystem on it, temporarily 
+mount the logical volume on a new directory named /mnt/test, and then check 
+that it was successfully mounted, type the following:
+
+# pvcreate /dev/sdb3
+# vgcreate abc /dev/sdb3
+# lvcreate -n data -L 200M abc
+# mkfs -t vfat /dev/mapper/abc-data
+# mkdir /mnt/test
+# mount /dev/mapper/abc-data /mnt/test
+
+9.

@@ -1,0 +1,8 @@
+Create a volume group called volumeA with the above physical volumes:
+
+vgcreate volumeA /dev/hda16 /dev/hda17 /dev/hda18
+
+This will create a directory called /dev/volumeA/. The default PE size of 4MB will be 
+used, one can change this with the -s option.
+
+5.

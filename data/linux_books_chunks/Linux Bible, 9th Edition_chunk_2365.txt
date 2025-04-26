@@ -1,0 +1,10 @@
+It can 
+be told to ignore all but the most critical messages, or it can record every detail.
+
+334
+
+c13.indd  04/01/2015  Page 335
+
+Chapter 13: Understanding Server Administration
+
+The rsyslogd daemon can even accept messages from other computers on your network.

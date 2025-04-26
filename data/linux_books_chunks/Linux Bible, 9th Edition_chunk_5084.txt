@@ -1,0 +1,5 @@
+The following sections describe websites associated with Linux distributions that 
+offer ISO images you can download.
+
+An ISO is a disk image that is formatted in the ISO 9660 fi le system format, a format that is commonly used with CD 
+and DVD images.

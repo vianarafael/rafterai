@@ -1,0 +1,11 @@
+This screenshot shows the location of
+the isdn module files.
+
+paul@laika:~$ find /lib/modules -name isdn.ko
+/lib/modules/2.6.24-21-generic/kernel/drivers/isdn/i4l/isdn.ko
+/lib/modules/2.6.24-22-generic/kernel/drivers/isdn/i4l/isdn.ko
+/lib/modules/2.6.24-16-generic/kernel/drivers/isdn/i4l/isdn.ko
+
+28.4.4. lsmod
+
+To  see  a  list  of  currently  loaded  modules,  use  lsmod.

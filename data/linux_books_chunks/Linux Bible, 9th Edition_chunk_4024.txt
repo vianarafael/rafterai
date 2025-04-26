@@ -1,0 +1,6 @@
+If you think you might need to get something from another system on your net-
+work (such as RPM packages or debugging tools), select Yes and try to conﬁ gure 
+your network interfaces. You are then asked if you want to try to mount ﬁ lesys-
+tems from your installed Linux system under /mnt/sysimage.
+
+8.

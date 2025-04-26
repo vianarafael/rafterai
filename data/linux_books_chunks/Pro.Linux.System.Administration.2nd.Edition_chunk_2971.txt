@@ -1,0 +1,6 @@
+Depending on your 
+situation and version, you might choose ALL_O_DIRECT (for large InnoDB database files).
+
+When data is not in RAM and needs to be written from disk, MariaDB defaults to read data one tiny 
+128KB chunk at a time. This saves on memory use but is very slow when many megabytes of data need to be 
+read.

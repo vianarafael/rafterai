@@ -1,0 +1,5 @@
+systemd is a recent addition to mainstream Linux Os’s, 
+having been accepted in Oss like Fedora and Debian unstable for some time. On systems that are older you will 
+see init. We help explain the difference between the two in Chapter 6.
+
+Many of the processes whose name starts with “k” are not real processes, but kernel threads.

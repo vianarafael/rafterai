@@ -1,0 +1,13 @@
+You can see how to use these snippets in the sample.
+ks file, and you can find instructions on how to make use of templates and snippets at http://cobbler.
+github.io/manuals/2.8.0/3/5_-_Kickstart_Templating.html and http://cobbler.github.io/
+manuals/2.8.0/3/6_-_Snippets.html.
+
+931
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Disks and Partitions
+
+You’ve already seen one option Kickstart uses to configure disks and partitions, clearpart, which clears the 
+partitions on the host.

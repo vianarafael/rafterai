@@ -1,0 +1,4 @@
+You should regularly test that your server isn’t behaving like an open relay using a service like www.mailradar.
+com/openrelay/.
+
+Postfix’s configuration prevents your server from behaving like an open relay by default.

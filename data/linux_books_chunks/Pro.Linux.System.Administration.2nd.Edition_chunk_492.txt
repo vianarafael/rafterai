@@ -1,0 +1,9 @@
+The longer version is sometime more helpful when writing 
+scripts and can be less ambiguous. Like making sure people know that you mean --version when using –v, and 
+not --verbose.
+
+Listing 4-3.  The --help Switch
+
+$ ls --help
+
+ also available via the man command is a good introduction to Linux in general.

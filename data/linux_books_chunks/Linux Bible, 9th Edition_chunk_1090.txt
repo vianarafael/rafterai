@@ -1,0 +1,6 @@
+The string must be unambiguous or the match fails.
+
+ ■ %--—Refers to the previous job stopped before the one most recently stopped.
+
+If a command is stopped, you can start it running again in the background using the bg 
+command.

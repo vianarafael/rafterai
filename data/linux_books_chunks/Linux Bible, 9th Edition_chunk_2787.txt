@@ -1,0 +1,9 @@
+However, the conﬁ guration ﬁ le is not reloaded.
+
+# initctl restart cups
+cups start/running, process 2430
+# initctl status cups
+cups start/running, process 2490
+
+ ■ Reloading a service with Upstart—Reloading does not stop and start the service. 
+It only loads the conﬁ guration ﬁ le again.

@@ -1,0 +1,23 @@
+Filebeat.yml
+
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /var/log/messages
+    - /var/log/*.log
+    - /var/log/audit/audit.log
+
+862
+
+Chapter 18 ■ Logging and Monitoring
+
+tags: ["security", "network"]
+fields:
+  env: production
+output.logstash:
+  hosts: ["monitor.example.com:5044"]
+  ssl.certificate_authorities: ["/etc/pki/tls/certs/cacert.pem"]
+  ssl.certificate: "/etc/pki/tls/certs/gateway.example.com.cert"
+  ssl.key: "/etc/pki/tls/private/gateway.example.com.key"
+
+It is common to send data to a local Logstash service instead of a remote one as we have done here.

@@ -1,0 +1,6 @@
+This lets you add and delete partitioning 
+to divide up you disk exactly as you like.
+
+ ■ Other options—From this screen, you can also choose your partitioning scheme 
+(I recommend LVM because it allows you to expand your storage more easily 
+later).

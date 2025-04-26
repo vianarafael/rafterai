@@ -1,0 +1,7 @@
+control specifies how the list is processed after this 
+entry and is optional.
+
+ in this section, when we show the access list directive, from this point we will ignore the access 
+
+ ■ Note 
+directive or index number.

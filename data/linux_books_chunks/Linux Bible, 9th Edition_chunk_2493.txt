@@ -1,0 +1,6 @@
+After a few 
+pings, press Ctrl+C to end the pings, and the last few lines show you how many of the ping 
+requests succeeded.
+
+You could have used the IP address (192.168.0.15, in this case) to see that you could reach 
+the system.

@@ -1,0 +1,33 @@
+To create a public/private key pair to use for SSH communications (no passphrase 
+
+on the key), copy the public key ﬁ le to a remote user’s account with ssh-copy-id, 
+and use key-based authentication to log in to that user account without having to 
+enter a password, use the following code:
+
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/joe/.ssh/id_rsa): ENTER
+/home/joe/.ssh/id_rsa already exists.
+Enter passphrase (empty for no passphrase):  ENTER
+Enter same passphrase again:  ENTER
+Your identification has been saved in /home/joe/.ssh/id_rsa.
+Your public key has been saved in /home/joe/.ssh/id_rsa.pub.
+The key fingerprint is:
+58:ab:c1:95:b6:10:7a:aa:7c:c5:ab:bd:f3:4f:89:1e joe@cnegus.csb
+The key's randomart image is:
+$ ssh-copy-id -i ~/.ssh/id_rsa.pub joe@localhost
+joe@localhost's password: ********
+Now try logging into the machine, with "ssh 'joe@localhost'",
+and check in:
+.ssh/authorized_keys
+to make sure we haven't added extra keys that you weren't expecting.
+$ ssh joe@localhost
+$ cat .ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyN2Psp5/LRUC9E8BDCx53yPUa0qoOPd
+v6H4sF3vmn04V6E7D1iXpzwPzdo4rpvmR1ZiinHR2xGAEr2uZag7feKgLnww2KPcQ6S
+iR7lzrOhQjV+SGb/a1dxrIeZqKMq1Tk07G4EvboIrq//9J47vI4l7iNu0xRmjI3TTxa
+DdCTbpG6J3uSJm1BKzdUtwb413x35W2bRgMI75aIdeBsDgQBBiOdu+zuTMrXJj2viCA
+XeJ7gIwRvBaMQdOSvSdlkX353tmIjmJheWdgCccM/1jKdoELpaevg9anCe/yUP3so31
+tTo4I+qTfzAQD5+66oqW0LgMkWVvfZI7dUz3WUPmcMw== chris@abc.example.com
+
+7.

@@ -1,0 +1,6 @@
+However, keep in mind that when 
+you use yum commands, every repository is checked and metadata about all packages is 
+downloaded to the local system running the yum command. So to be more efﬁ cient, don’t 
+enable repositories you don’t need.
+
+4.

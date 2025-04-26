@@ -1,0 +1,1 @@
+In this example, the ﬁ rewall is wide open with no restrictions implemented.

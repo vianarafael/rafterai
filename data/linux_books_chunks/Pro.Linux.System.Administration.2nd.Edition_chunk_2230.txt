@@ -1,0 +1,4 @@
+this prevents an automated filesystem check the next time your host boots.
+
+When you run lsof as a non-root user, it will only list processes owned by that user. Someone else 
+might still be using a file or directory on the filesystem you’re trying to unmount.

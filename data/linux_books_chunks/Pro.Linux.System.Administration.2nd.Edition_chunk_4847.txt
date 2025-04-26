@@ -1,0 +1,7 @@
+Press ? to 
+
+access it. When you have customized the way top displays information to your liking, you can save the 
+configuration by pressing W. This will write the settings to a file called .toprc in your home directory.
+
+If you find a misbehaving task, you can use top to quit it. To do this, press k and enter the PID of the 
+task in question.

@@ -1,0 +1,9 @@
+GUID partition table
+
+gpt was developed because of the limitations of the 1980s mbr partitioning scheme (for
+example only four partitions can be defined, and they have a maximum size two terabytes).
+
+Since 2010 gpt is a part of the uefi specification, but it is also used on bios systems.
+
+Newer versions of fdisk work fine with gpt, but most production servers today (mid 2015)
+still have an older fdisk..

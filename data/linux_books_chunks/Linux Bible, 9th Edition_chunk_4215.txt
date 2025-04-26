@@ -1,0 +1,6 @@
+Linux systems need to be monitored for both such tools.
+
+Monitoring for viruses
+A computer virus is malicious software that can attach itself to already installed system 
+software and has the ability to spread through media or networks. It is a misconception 
+that there are no Linux viruses.

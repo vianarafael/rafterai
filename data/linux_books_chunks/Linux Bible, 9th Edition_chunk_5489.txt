@@ -1,0 +1,57 @@
+do loop, 164
+
+prompt, shell, 67
+PROMPT_COMMAND environment variable, 87
+proprietary operating systems, 6
+protocols ﬁ le, 187
+proxy connections, conﬁ guring, 358–359
+ps -el command, 676–677
+ps -eZ command, 677
+ps command, 138–140
+PS1 environment variable, 80, 85, 87, 89–91, 90, 91
+PS2 environment variable, 80, 89
+PS3 environment variable, 80, 89
+PS4 environment variable, 80, 89
+public cloud, 750
+Public FTP, 46
+publishing web content, 464–465
+Puppet, 344, 732
+pure-ftpd package, 317
+pvdisplay command, 299
+pwd command, 70–71, 100–102, 478, 495
+PWD environment variable, 80, 87, 108
+Pyrite, 647–648
+
+Q
+
+QEMU, 733, 742
+
+R
+
+RAID partitions, 221–222
+rainbow tables, 602
+RANDOM environment variable, 87
+raw table, iptables, 714
+Raymond, Eric S., 16
+RBAC (Role Based Access Controls), 669, 670, 671–672, 673
+rc0.d (shutdown state), 185
+rc1.d (single-user state), 185
+
+852
+
+rc2.d (multiuser state), 185
+rc3.d (multiuser plus networking state), 185
+RC4, 466, 631
+rc4.d (user-deﬁ ned state), 185
+RC5, 631
+rc5.d (multiuser, networking, plus GUI login state), 185
+RC6, 631
+rc6.d (reboot state), 185
+read command, 157
+Reboot runlevel, 382, 563
+reboot state (rc6.d), 185
+recalling commands, 76–82
+Red Hat Certiﬁ ed Engineer (RHCE), 21, 22–23, 24–26
+Red Hat Certiﬁ ed System Administrator (RHCSA), 21, 22–24
+Red Hat Cloudforms, 187, 751
+Red Hat Enterprise Linux.

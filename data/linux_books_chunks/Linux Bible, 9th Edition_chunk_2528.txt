@@ -1,0 +1,16 @@
+You can try to auto-detect the proxy settings or, if you set the proxy in 
+
+NetworkManager, you can choose to use system proxy settings. You can also select 
+Manual Proxy Conﬁ guration, ﬁ ll in the following information, and click OK.
+
+358
+
+ 
+ 
+ 
+ 
+c14.indd  04/01/2015  Page 359
+
+Chapter 14: Administering Networking
+
+ ■ HTTP Proxy—The IP address of the computer providing the proxy service.

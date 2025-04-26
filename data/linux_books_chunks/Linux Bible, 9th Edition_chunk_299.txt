@@ -1,0 +1,6 @@
+The open 
+source world also comes with communities of developers, administrators, and users who are 
+available to help you.
+
+If you want to get involved with an existing open source project, projects are always 
+ looking for people to write code, test software, or write documentation.

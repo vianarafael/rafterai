@@ -1,0 +1,20 @@
+You can partition them and assign a structure (ﬁ lesystem, 
+swap space, and so on) or leave them alone and simply mount them where you want the 
+data to be available.
+
+The following types of specialized storage devices can be selected from the Specialized 
+Storage Devices screen when you install Red Hat Enterprise Linux, Fedora, or other Linux 
+distributions:
+
+219
+
+c09.indd  04/01/2015  Page 220
+
+Part III: Becoming a Linux System Administrator
+
+ ■ Firmware RAID—A ﬁ rmware RAID device is a type of device that has hooks in the 
+
+BIOS, allowing it to be used to boot the operating system, if you choose.
+
+ ■ Multipath devices—As the name implies, multipath devices provide multiple paths 
+between the computer and its storage devices.

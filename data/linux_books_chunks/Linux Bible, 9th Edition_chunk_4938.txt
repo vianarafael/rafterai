@@ -1,0 +1,9 @@
+You can do these things:
+
+ ■ View the system from a console. Double-click a running VM in the virt- 
+
+manager window. A console window opens to the VM, allowing you to use the VM 
+just as you would from a physical console to access an operating system installed 
+directly on the hardware.
+
+ ■ Shut down the VM. Right-click the VM entry, and select Shut down.

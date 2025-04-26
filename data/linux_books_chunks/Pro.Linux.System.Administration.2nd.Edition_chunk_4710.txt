@@ -1,0 +1,15 @@
+For example, if we want to make sure that the DN cn=webadmin
+,ou=meta,dc=example,dc=com, which is the user we use to bind our web services during authentication, has 
+auth access to the userPassword attribute of our user Angela Taylor, we would issue the following:
+
+sudo slapacl -F /etc/ldap/slapd.d \
+  -b uid=ataylor,ou=people,dc=example,dc=com \
+  -D cn=webadmin,ou=meta,dc=example,dc=com \
+  -o tls_ssf=128 \
+  -v userPassword/auth
+
+775
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+The slapacl command requires sudo access.

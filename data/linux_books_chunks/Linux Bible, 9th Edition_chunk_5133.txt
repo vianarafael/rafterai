@@ -1,0 +1,6 @@
+The procedure for 
+using Live USB creator is located at https://fedoraproject.org/wiki/
+How_to_create_and_use_Live_USB.
+
+ ■ Ubuntu on USB drive—Ubuntu has procedures for creating a bootable USB drive 
+with Ubuntu on it that work from Windows, Mac OS X, or Linux.

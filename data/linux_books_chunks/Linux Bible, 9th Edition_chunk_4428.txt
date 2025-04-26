@@ -1,0 +1,6 @@
+Read the man pam-auth-config man page to learn more about this utility if it is installed on 
+your system.
+
+The authconfig utility does not use the symbolic links, nor does it modify them. Thus, 
+you can create a new local PAM system event conﬁ guration ﬁ le and point the symbolic link 
+to it.

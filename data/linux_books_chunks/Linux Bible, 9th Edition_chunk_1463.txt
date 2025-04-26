@@ -1,0 +1,6 @@
+For example, to use Fedora or RHEL as a virtualization host using KVM, 
+the computer must have a processor that supports virtualization. These include 
+AMD-V or Intel-VT chips.
+
+If you’re not sure about your computer hardware, there are a few ways to check what 
+you have.

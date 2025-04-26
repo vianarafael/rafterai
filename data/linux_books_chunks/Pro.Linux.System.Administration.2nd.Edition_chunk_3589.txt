@@ -1,0 +1,2 @@
+To do this, we need to uncomment and update the 
+ssl_cert_file and ssl_key_file options and add the location of our certificate and key.

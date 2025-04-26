@@ -1,0 +1,5 @@
+Each application and command 
+you run creates a process. Some processes finish when the command completes, for example, listing the 
+contents of a directory. Other processes are more long running and don’t stop until you request them to 
+do so or you reboot the host. Some of these long-running processes run applications and services like mail 
+and web servers or print or file services.

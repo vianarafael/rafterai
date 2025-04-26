@@ -1,0 +1,3 @@
+For services, the nagios-admin contact will receive WARNING, UNKNOWN, or 
+CRITICAL as indicated by the w, u, and c options, respectively; the r option means it will also receive recovery 
+notifications.

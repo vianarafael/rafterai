@@ -1,0 +1,13 @@
+Use the full pathname, plus any required options.
+
+ ■ Comment—Enter a comment describing the application. It also appears when 
+
+you later move your mouse over the launcher.
+
+4.  Click the Icon box (it might say No Icon), select one of the icons shown, and 
+
+click OK. Alternatively, you can browse your ﬁ lesystem to choose an icon.
+
+5.  Click OK.
+
+The application should now appear in the panel.

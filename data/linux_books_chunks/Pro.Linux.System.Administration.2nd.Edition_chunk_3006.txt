@@ -1,0 +1,6 @@
+This is following the access of least privilege principle where we provide 
+only the rights a user needs and no more. We have also used a poor example of a good password for that 
+user.
+
+A WordPress site has a configuration file that requires editing and describes the database details and 
+some secret keys. We can make a copy of this file and rename it to the required name.

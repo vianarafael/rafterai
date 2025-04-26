@@ -1,0 +1,10 @@
+Great! They’re running, aren’t they? You’re right—how can we 
+tell? We can use the status argument to see whether they are running.
+
+$ sudo systemctl enable bareos-dir bareos-sd bareos-fd
+$ sudo systemctl start bareos-dir bareos-sd bareos-fd
+$ sudo systemctl status bareos-dir bareos-sd bareos-fd
+
+bconsole.conf
+
+We now have to set up the console so we can administer and monitor the backup service.

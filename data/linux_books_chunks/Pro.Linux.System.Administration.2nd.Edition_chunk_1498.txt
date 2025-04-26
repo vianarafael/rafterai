@@ -1,0 +1,7 @@
+10960   IN      NS      ns3.google.com.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.         9192    IN      A       216.239.32.10
+ns2.google.com.         13861   IN      A       216.239.34.10
+ns3.google.com.         9192    IN      A       216.239.36.10
+ns4.google.com.

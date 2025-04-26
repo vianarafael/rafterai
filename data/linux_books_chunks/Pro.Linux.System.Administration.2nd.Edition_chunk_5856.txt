@@ -1,0 +1,4 @@
+Our tests for the Ansible 
+
+host is already all green. That is because on Ubuntu when you install service packages they can be started 
+automatically. With CentOS, they won’t do this until they are told.

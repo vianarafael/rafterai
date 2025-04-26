@@ -1,0 +1,11 @@
+To do this, we are 
+
+going to use Python.
+
+$ python  -c 'import base64; print base64.b64encode("jsmith")'
+anNtaXRo
+$ python  -c 'import base64; print base64.b64encode("secret")'
+c2VjcmV0
+
+In the previous snippet, we have used the python command to execute (-c) the code that will create 
+a base64 encoding of the username and password we need.

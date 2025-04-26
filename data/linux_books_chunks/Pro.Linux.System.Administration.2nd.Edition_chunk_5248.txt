@@ -1,0 +1,21 @@
+The –d option for curl allows us to send a data POST, which we 
+send as a JSON-formatted query.
+
+The result of this query can look like this:
+
+{
+  "took":2,
+  "timed_out":false,
+  "_shards": {
+     "total":5,
+     "successful":5,
+     "failed":0
+   },
+  "hits":  {
+    "total":74,
+    "max_score":null,
+    "hits":[...the events...]
+  }
+}
+
+The first section tells us how long it took to run the query and that we successfully queried five shards.

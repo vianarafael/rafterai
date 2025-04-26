@@ -1,0 +1,18 @@
+A Host Object
+
+define host {
+        use                   linux-server    ; Name of host template to use
+                                                        ; This host definition will inherit 
+
+                                                        ; in (or inherited by) the linux-
+server host template definition.
+
+all variables that are defined
+
+        host_name       localhost
+        alias                 localhost
+        address            127.0.0.1
+        }
+
+You can see that an object definition starts with define, the type of object to define (in our case a host 
+object), and the definition, which is enclosed in the { } curly braces.

@@ -1,0 +1,7 @@
+The only details we will 
+enter in the Personal tab are first name, last name, and description (see Figure 16-6); you can, of course, add 
+as much detail as you want.
+
+In the Unix tab, we fill in the details required to add a Unix/Linux account, as shown in Figure 16-7. If 
+we do not enter a UID number, one will be generated for us according to the limits we specified in the lam.
+conf file.

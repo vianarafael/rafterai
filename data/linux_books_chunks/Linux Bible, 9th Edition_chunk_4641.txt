@@ -1,0 +1,5 @@
+When you do this, SELinux needs to know that this nonstandard behavior has occurred. 
+Otherwise, it denies access to legitimate service access requests.
+
+For example, you decided to keep your HTML ﬁ les in a different location from the 
+ standard /var/www/html. You put the ﬁ les in /abc/www/html.

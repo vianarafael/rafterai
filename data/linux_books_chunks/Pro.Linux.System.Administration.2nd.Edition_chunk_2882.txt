@@ -1,0 +1,4 @@
+These settings should be adjusted, monitored, and refined if you are 
+experiencing poor performance.
+
+The Apache httpd documentation provides some guidance as to some sensible performance settings.

@@ -1,0 +1,5 @@
+Often, servers don’t have desktops installed, so they boot to runlevel 3 so 
+they don’t incur the processing overhead or the added security risks for having a desktop 
+running on their web servers or ﬁ le servers.
+
+You can go either up or down with runlevels.

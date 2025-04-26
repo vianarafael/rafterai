@@ -1,0 +1,7 @@
+The copy module supports assigning owner, group, and mode permissions to the file we create. The path 
+of src is relative to the playbooks directory.
+
+In this simple playbook, we are not taking advantage of the templating engine that comes with Ansible. 
+
+If you remember to Chapter 14 where we set up Bareos, we needed to add clients and passwords to our 
+Bareos configuration files.

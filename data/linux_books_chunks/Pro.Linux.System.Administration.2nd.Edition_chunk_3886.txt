@@ -1,0 +1,4 @@
+Incremental backups are backups of files 
+and directories that have changed since the last backup (be it full, differential, or incremental). Incremental 
+backups are smaller than full and differential backups, and they are normally much quicker to perform. 
+Differential backups are backups of all changed files since the last full backup.

@@ -1,0 +1,10 @@
+We’ll take a look at all three of these system initializers and how to manage services later in 
+this chapter, but first, more on the boot loader.
+
+185
+
+Chapter 6 ■ Startup and ServiCeS
+
+Understanding the GRUB2 Boot Loader
+So let’s now delve into what the boot loader is and what it does. We’ll also look a bit at how you can configure 
+it.

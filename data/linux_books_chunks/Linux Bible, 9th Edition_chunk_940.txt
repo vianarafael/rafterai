@@ -1,0 +1,54 @@
+For example:
+
+ ■ dw—Deletes (d) a word (w) after the current cursor position.
+
+ ■ db—Deletes (d) a word (b) before the current cursor position.
+
+ ■ dd—Deletes (d) the entire current line (d).
+
+ ■ c$—Changes (c) the characters (actually erases them) from the current character 
+
+to the end of the current line ($) and goes into input mode.
+
+ ■ c0—Changes (c) (again, erases characters) from the previous character to the 
+
+beginning of the current line (0) and goes into input mode.
+
+ ■ cl—Erases (c) the current letter (l) and goes into input mode.
+
+ ■ cc—Erases (c) the line (c) and goes into input mode.
+
+ ■ yy—Copies (y) the current line (y) into the buffer.
+
+ ■ y)—Copies (y) the current sentence ( ) ), to the right of the cursor, into the buffer.
+
+ ■ y}—Copies (y) the current paragraph ( } ), to the right of the cursor, into the buffer.
+
+Any of the commands just shown can be further modiﬁ ed using numbers, as you can see in 
+the following examples:
+
+ ■ 3dd—Deletes (d) three (3) lines (d), beginning at the current line.
+
+ ■ 3dw—Deletes (d) the next three (3) words (w).
+
+5
+
+ ■ 5cl—Changes (c) the next ﬁ ve (5) letters (l) (that is, removes the letters and 
+
+enters input mode).
+
+121
+
+c05.indd  04/01/2015  Page 122
+
+Part II: Becoming a Linux Power User
+
+ ■ 12j—Moves down (j) 12 lines (12).
+
+ ■ 5cw—Erases (c) the next ﬁ ve (5) words (w) and goes into input mode.
+
+ ■ 4y)—Copies (y) the next four (4) sentences ( ) ).
+
+Pasting (putting) text
+After text has been copied to the buffer (by deleting, changing, or yanking it), you can 
+place that text back in your ﬁ le using the letter p or P.

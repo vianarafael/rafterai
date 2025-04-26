@@ -1,0 +1,7 @@
+Window 
+managers that may have system-wide conﬁ guration ﬁ les in these directories include twm 
+(twm/) and xfce (xdg/).
+
+Administrative log fi les and systemd journal
+One of the things that Linux does well is keep track of itself. This is a good thing, when 
+you consider how much is going on in a complex operating system.

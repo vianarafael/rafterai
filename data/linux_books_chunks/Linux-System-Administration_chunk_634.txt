@@ -1,0 +1,12 @@
+After discussing bootloaders, we continue with the
+init system that starts all the daemons.
+
+160
+
+bootloader
+
+14.2. grub
+
+14.2.1. /boot/grub/grub.cfg
+
+Debian switched to grub2, which will be discussed in the next section.

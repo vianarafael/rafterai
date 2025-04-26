@@ -1,0 +1,25 @@
+Here are examples of how to 
+immediately stop the smb and nmb services:
+
+# systemctl stop smb.service
+# systemctl stop nmb.service
+
+In RHEL 6 and earlier, you would type the following to stop the smb and nmb services:
+
+# service smb stop
+# service nmb stop
+
+To prevent the smb and nmb services from starting the next time the system reboots, type 
+the following commands in Fedora or RHEL 7:
+
+# systemctl disable smb.service
+# systemctl disable nmb.service
+
+In Red Hat Enterprise Linux 6, type the following commands to disable the smb and 
+nmb services:
+
+# chkconfig smb off
+# chkconfig nmb off
+
+Of course, you only want to stop or disable the smb and nmb services if you no longer want 
+to use the Samba service.

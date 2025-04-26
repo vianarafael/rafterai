@@ -1,0 +1,6 @@
+State on the Title page the name of the publisher of the
+Modified Version, as the publisher.
+   * D. Preserve all the copyright notices of the Document.
+   * E. Add an appropriate copyright notice for your modifications
+adjacent to the other copyright notices.
+   * F.

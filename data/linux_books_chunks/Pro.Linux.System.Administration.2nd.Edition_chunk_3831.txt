@@ -1,0 +1,9 @@
+Now we create our new replica set and add it to the vol1 volume.
+
+$ sudo gluster volume add-brick vol1 replica 3  \
+          au-mel-dfs-1:/data/brick1_r2/vol1  \
+          au-mel-dfs-2:/data/brick1_r2/vol1  \
+          au-mel-dfs-3:/data/brick1_r2/vol1
+volume add-brick: success
+
+We have now added these new bricks to the vol1 volume.

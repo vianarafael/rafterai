@@ -1,0 +1,18 @@
+Those packages include the following:
+
+ ■ samba-client package—Contains command-line tools such as smbclient 
+
+(for  connecting to Samba or Windows shares), nmblookup (for looking up host 
+addresses), and findsmb (to ﬁ nd SMB hosts on the network).
+
+ ■ system-config-samba package—Contains a graphical interface for 
+
+managing Samba.
+
+ ■ system-config-samba-docs package—Contains documentation associated with the 
+
+system-conﬁ g-samba graphical interface.
+
+ ■ samba-swat package—Contains a web-based interface for conﬁ guring a Samba 
+
+server.

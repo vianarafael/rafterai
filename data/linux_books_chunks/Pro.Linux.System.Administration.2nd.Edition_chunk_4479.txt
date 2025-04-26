@@ -1,0 +1,4 @@
+If you do not want to supply one, you can 
+just press the Enter key twice (we will show you how to create a password in the upcoming “Configuration” 
+section). Once installed, the ldap-utils package will install the files needed to manage and search your 
+LDAP directory.

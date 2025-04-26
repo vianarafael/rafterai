@@ -1,0 +1,37 @@
+Disabled (off) means that the service will not 
+turn on automatically when your start the system.
+
+To start and enable vsftpd in Fedora or RHEL 7 (then check the status), type the following:
+
+# systemctl start vsftpd.service
+# systemctl enable vsftpd.service
+ln -s '/lib/systemd/system/vsftpd.service'
+  '/etc/systemd/system/multi-user.target.wants/vsftpd.service'
+# systemctl status vsftpd.service
+vsftpd.service - Vsftpd ftp daemon
+       Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled)
+       Active: active (running) since Wed, 2014-08-27 00:09:54 EDT; 
+   22s ago
+       Main PID: 4229 (vsftpd)
+       CGroup: name=systemd:/system/vsftpd.service
+               └4229 /usr/sbin/vsftpd /etc/vsftpd/vsftpd.conf
+
+In Red Hat Enterprise Linux 6, start and turn on (enable) vsftpd (then check the status), 
+as follows:
+
+# service vsftpd start
+Starting vsftpd for vsftpd:                                [  OK  ]
+# chkconfig vsftpd on ; chkconfig --list vsftpd
+vsftpd             0:off    1:off    2:on    3:on    4:on    5:on
+   6:off
+
+Now, on either system, you could check that the service is running using the netstat 
+command:
+
+# netstat -tupln | grep vsftpd
+tcp     0      0 0.0.0.0:21      0.0.0.0:*      LISTEN      4229/
+   vsftpd      
+
+From the netstat output, you can see that the vsftpd process (process ID of 4229) is 
+ listening (LISTEN) on all IP addresses for incoming connections on port 21 (0.0.0.0:21) for 
+the TCP (tcp) protocol.

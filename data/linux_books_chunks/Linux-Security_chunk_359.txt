@@ -1,0 +1,9 @@
+A nat can hide private addresses from the internet.
+
+It is important to understand that people and vendors do not always use the right term when
+referring to a certain type of nat. Be sure you talk about the same thing. We can distuinguish
+several types of nat.
+
+10.6. pat (port address translation)
+
+nat often includes pat.

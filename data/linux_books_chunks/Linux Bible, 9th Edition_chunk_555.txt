@@ -1,0 +1,7 @@
+The name is derived from the fact that bash is compatible with the one of the 
+earliest UNIX shells: the Bourne shell (named after its creator Stephen Bourne, and represented 
+by the sh command).
+
+Although bash is included with most distributions, and considered a standard, other shells are 
+available, including the C shell (csh), which is popular among BSD UNIX users, and the Korn shell 
+(ksh), which is popular among UNIX System V users.

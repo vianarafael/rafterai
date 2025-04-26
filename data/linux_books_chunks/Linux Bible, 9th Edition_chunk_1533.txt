@@ -1,0 +1,8 @@
+That kickstart can contain all the information needed to complete the 
+installation: root password, partitioning, time zone, and so on to further  conﬁ gure 
+the installed system. After the installer starts, it either prompts for needed 
+ information or uses the answers provided in the kickstart ﬁ le.
+
+ ■ Find software packages. Software packages don’t have to be on the  installation 
+
+medium.

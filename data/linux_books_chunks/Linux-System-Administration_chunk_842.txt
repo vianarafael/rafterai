@@ -1,0 +1,2 @@
+It generates a lot
+of disk i/o (bi and bo are disk blocks in and out).

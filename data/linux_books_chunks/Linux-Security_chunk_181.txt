@@ -1,0 +1,13 @@
+This encryption is done by the crypt function.
+The easiest (and recommended) way to add a user with a password to the system is to add
+the user with the useradd -m user command, and then set the user's password with passwd.
+
+[root@RHEL4 ~]# useradd -m xavier
+[root@RHEL4 ~]# passwd xavier
+Changing password for user xavier.
+New UNIX password: 
+Retype new UNIX password: 
+passwd: all authentication tokens updated successfully.
+[root@RHEL4 ~]#
+
+3.4.

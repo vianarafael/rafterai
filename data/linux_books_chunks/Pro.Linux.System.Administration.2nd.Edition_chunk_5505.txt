@@ -1,0 +1,8 @@
+The --name is any name you 
+want to give the distribution, and you can add --breed and --os-version to help the import command find 
+the right signature to match your distribution.
+
+ if you get errors when doing an import, make sure you run $ sudo cobbler signature update and 
+
+ ■ Note 
+try again.

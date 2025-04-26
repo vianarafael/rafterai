@@ -1,0 +1,5 @@
+authorized_keys
+
+In your ~/.ssh directory, you can create a file called authorized_keys. This file can contain
+one or more public keys from people you trust. Those trusted people can use their private
+keys to prove their identity and gain access to your account via ssh (without password).

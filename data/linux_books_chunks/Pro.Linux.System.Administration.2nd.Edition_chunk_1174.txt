@@ -1,0 +1,15 @@
+See http://linux.die.net/man/7/signal for more information.
+
+Now that the postfix service is stopped, we will start it again.
+
+$ sudo systemctl start postfix.service
+
+Again there is no output to the console; we run the status to confirm that it is running.
+
+● postfix.service - Postfix Mail Transport Agent
+   Loaded: loaded (/usr/lib/systemd/system/postfix.service; enabled; vendor preset: disabled)
+   Active: active (running) since Thu 2016-04-28 11:51:45 AEST; 2s ago
+
+What we have seen in this section is how to start, stop, and see the status of a service using the 
+
+systemctl command.

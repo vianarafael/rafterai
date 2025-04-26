@@ -1,0 +1,6 @@
+We are 
+going to apply these to a prefix nightly, as these are the nightly backups for our hosts. After you have created 
+the bucket, on the right pane of the console you will see a Lifecycle option. Click it and you will see the 
+screen shown in Figure 14-4.
+
+Figure 14-4.

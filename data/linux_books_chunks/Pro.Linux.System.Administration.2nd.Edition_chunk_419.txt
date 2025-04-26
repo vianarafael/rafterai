@@ -1,0 +1,5 @@
+Microsoft Windows
+The title of this section might sound a bit like we’re about to present a pro wrestling match. However, it’s more 
+about the similarities between Linux and Microsoft Windows (hereafter just Windows) than their differences. 
+Windows and Linux are both operating systems, and while different in many technical aspects, they share a 
+lot of the same concepts.

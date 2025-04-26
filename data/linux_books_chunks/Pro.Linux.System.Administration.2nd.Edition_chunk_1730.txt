@@ -1,0 +1,9 @@
+First we can check to see if it already has it and 
+
+then add it like so:
+
+$ sudo firewall-cmd --zone=external --query-masquerade
+no
+$ sudo firewall-cmd --zone=external --add-masquerade --permanent
+
+We add --permanent to make the changes persistent.

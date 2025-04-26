@@ -1,0 +1,6 @@
+We can now check the .ssh/authorized_keys file on au-mel-centos-1 to make sure we haven’t 
+added extra, unexpected keys.
+
+Of course public keys can also be installed into user’s home directories at the time we provision our 
+servers. They can also be provisioned by configuration management services like Puppet, Ansible, Chef, or 
+SaltStack.

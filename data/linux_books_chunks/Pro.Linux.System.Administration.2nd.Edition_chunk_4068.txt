@@ -1,0 +1,19 @@
+Not GPG_KEY entries in config.
+Checking TEMP_DIR '/tmp' is a folder and writable (OK)
+Test - Encryption with passphrase (OK)
+Test - Decryption with passphrase (OK)
+Test - Compare (OK)
+Cleanup - Delete '/tmp/duply.20766.1476618075_*'(OK)
+
+--- Start running command FETCH at 11:41:15.242 ---
+Synchronizing remote metadata to local cache...
+Copying duplicity-full-signatures.20161015T235721Z.sigtar.gpg to local cache.
+Copying duplicity-full-signatures.20161016T100158Z.sigtar.gpg to local cache.
+Copying duplicity-full.20161015T235721Z.manifest.gpg to local cache.
+Copying duplicity-full.20161016T100158Z.manifest.gpg to local cache.
+Last full backup date: Sun Oct 16 10:01:58 2016
+--- Finished state OK at 12:04:32.407 - Runtime 00:23:17.164 ---
+
+The duply fetch process will download the signature files and manifest files locally so they can be 
+
+processed.

@@ -1,0 +1,2 @@
+This option highlights the major difference between creating users on CentOS 
+and Ubuntu distributions.

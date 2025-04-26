@@ -1,0 +1,3 @@
+Hardware appliances can come bundled 
+with different vendor software, or you can buy your hardware and run open source software to run your 
+backups.

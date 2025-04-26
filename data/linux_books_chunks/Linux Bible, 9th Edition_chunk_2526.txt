@@ -1,0 +1,8 @@
+(SOCKS is a network protocol made to 
+allow client computers to access the Internet through a ﬁ rewall.) You can identify a proxy 
+server in NetworkManager and have communications for selected protocols go through that 
+server (select Network proxy in the Network Settings window).
+
+Instead of identifying a proxy server to your network interfaces (via NetworkManager), you 
+can conﬁ gure your browser to use a proxy server directly by changing your Firefox prefer-
+ences to use a proxy server.

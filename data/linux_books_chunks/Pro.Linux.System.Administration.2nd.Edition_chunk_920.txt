@@ -1,0 +1,16 @@
+The file is pulled in and parsed at the point at which it is included, and any modules in 
+that included file are executed in order.
+
+173
+
+Chapter 5 ■ Users and GroUps
+
+You can also use the include option as a control flag as follows:
+
+auth    include system-auth
+
+This will include all auth type lines from the file system-auth.
+
+More about sudo
+As discussed earlier in this chapter, the sudo command allows you to run some commands yourself with the 
+privilege of another user, in most cases the root user.

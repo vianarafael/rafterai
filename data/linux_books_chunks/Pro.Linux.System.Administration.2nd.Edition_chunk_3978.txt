@@ -1,0 +1,14 @@
+It is the equivalent of specifying $ ssh –I 
+~/.ssh/exbackup exbackup@somehost.example.com.
+
+The script that we will use to run rsync between our hosts looks like Listing 14-2.
+
+Chapter 14 ■ BaCkup and reCovery
+
+Listing 14-2.  The nightly_remote_sync.sh Script
+
+ 1. #!/usr/bin/env bash
+ 2.
+ 3. # This uses rsync to sync down remote files to the /data/backups/<hostname>
+ 4. # directories.
+ 5.

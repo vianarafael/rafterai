@@ -1,0 +1,3 @@
+In this chapter, we will 
+show you how this can be done using Linux. Linux provides many ways to share information. It can share 
+information with Microsoft Windows clients or macOS using an integration tool called Samba.

@@ -1,0 +1,8 @@
+Suffice to say that options like notification_options, notification_period, contact_groups, 
+and check_period are defined there and can be overridden in downstream templates.  The options used in 
+that template are explained at https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/
+en/objectdefinitions.html - service.
+
+ ■ Note 
+ nagios tries to be smart about monitoring and usually doesn’t check hosts for their status unless a 
+service running on that host has an issue.

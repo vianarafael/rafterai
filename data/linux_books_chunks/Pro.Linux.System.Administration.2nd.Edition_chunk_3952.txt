@@ -1,0 +1,4 @@
+We need to make sure that the exbackup home directory on the remote host has an .ssh 
+directory and that it has the permissions of 0700 set on it. We will now copy the remote_authorized_keys 
+file to our remote server using a normal user. First, we’ll copy the remote_authorized_keys file somewhere 
+we can access by the user jsmith; /tmp should be OK.

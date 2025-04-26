@@ -1,0 +1,2 @@
+This 
+will give us a total of 100GB of usable storage with a redundancy factor of 3.

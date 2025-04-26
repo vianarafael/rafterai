@@ -1,0 +1,22 @@
+Many web sites are dedicated to teaching MySQL and therefore MariaDB skills, and the following resources 
+are also excellent sources of information:
+
+•	
+
+•	
+
+•	
+
+•	
+
+https://mariadb.com/kb/en/mariadb/getting-started/
+
+www.techonthenet.com/mariadb/index.php
+
+http://dev.mysql.com/doc/
+
+Learning MySQL and MariaDB by Russell JT Dyer (O’Reilly Media, 2015)
+
+Managing Web Site Contents
+With a working web and SQL server, you can now install some web applications to enhance your online 
+presence.

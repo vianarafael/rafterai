@@ -1,0 +1,13 @@
+In our case, we specify the following:
+
+server 192.168.0.1
+next_server 192.168.0.1
+
+To update Cobbler’s configuration, you then run this:
+
+$ sudo cobbler sync
+
+ You need to run the $ sudo cobbler sync command any time you change the /etc/cobbler/
+
+ ■ Note 
+settings file. Common errors include leaving trailing spaces after options in the settings file.

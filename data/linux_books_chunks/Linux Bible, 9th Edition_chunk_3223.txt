@@ -1,0 +1,5 @@
+A common error when using Listen is to specify a port on all IP addresses (*:80) as well 
+as that same port on a speciﬁ c IP address (1.2.3.4:80), which results in the error from 
+make_sock.
+
+Conﬁ guration errors relating to SSL commonly result in Apache starting improperly.

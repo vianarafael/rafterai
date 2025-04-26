@@ -1,0 +1,9 @@
+For example, either of these two commands can be 
+used to see if the DNS server at 192.168.0.254 can resolve the hostname 
+www.google.com into an IP address. Repeat this for each name server’s IP address 
+until you ﬁ nd which ones work:
+
+# host www.google.com 192.168.0.254
+# dig @192.168.0.254 www.google.com
+
+ ■ Correct your DNS servers.

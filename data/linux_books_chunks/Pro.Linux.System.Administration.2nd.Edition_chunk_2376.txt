@@ -1,0 +1,12 @@
+By typing journalctl –xb we access we add more detail to 
+messages (-x) and specify this boot (-b). In Figure 9-5 we see the reason we have stopped our system.
+
+403
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-5.  Error message on disk mount
+
+We can see that we have failed to mount /dev/sdg1 on the /data directory. It is saying that it can’t find 
+
+the filesystem.

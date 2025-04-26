@@ -1,0 +1,9 @@
+Every time chunks are written
+to the array, one of the disks will receive a parity chunk. Unlike raid 4, the parity chunk
+will alternate between all disks. The main advantage of this is that raid 5 will allow for full
+data recovery in case of one hard disk failure.
+
+10.2.6. raid 6
+
+raid 6 is very similar to raid 5, but uses two parity chunks. raid 6 protects against two hard
+disk failures.

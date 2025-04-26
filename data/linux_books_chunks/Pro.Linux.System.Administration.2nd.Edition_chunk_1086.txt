@@ -1,0 +1,11 @@
+It is designed to be a drop in replacement for SysVInit but is not 100% 
+compatible in every sense.
+
+Let’s go through how to manage Systemd native implementations. We will also briefly discuss Upstart 
+
+and the older SysV init.
+
+ there is a long history of init programs and popular and unpopular attempts to solve the 
+
+ ■ Note 
+problem of how to start a system.

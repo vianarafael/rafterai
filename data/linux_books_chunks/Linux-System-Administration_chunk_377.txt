@@ -1,0 +1,12 @@
+mount
+
+The simplest and most common way to view all mounts is by issuing the mount command
+without any arguments.
+
+root@RHELv4u2:~# mount | grep /dev/sdb
+/dev/sdb1 on /home/project42 type ext2 (rw)
+
+7.2.2. /proc/mounts
+
+The kernel provides the info in /proc/mounts in file form, but /proc/mounts does not exist
+as a file on any hard disk.

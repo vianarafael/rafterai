@@ -1,0 +1,10 @@
+Within that ﬁ le, you can set mount options that apply to 
+any NFS  directory you mount or only those associated with speciﬁ c mount points or NFS 
+servers.
+
+Before you set about mounting NFS shared directories, however, you probably want to check 
+out what shared directories are available via NFS using the showmount command.
+
+Viewing NFS shares
+From a client Linux system, you can use the showmount command to see what shared 
+directories are available from a selected computer.

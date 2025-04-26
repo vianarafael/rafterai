@@ -1,0 +1,6 @@
+On a targeted SELinux system, processes 
+run by the root user have a system_r role, while regular users run under the 
+unconfined_r role.
+
+ ■ type—This attribute deﬁ nes a domain type for processes, a user type for users, and 
+a ﬁ le type for ﬁ les.

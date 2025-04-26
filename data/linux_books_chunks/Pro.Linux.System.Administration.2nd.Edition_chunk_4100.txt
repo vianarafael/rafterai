@@ -1,0 +1,5 @@
+Finally, we use FLUSH PRIVILEGES, which reloads the grants table with all the recent changes.
+
+On CentOS and Ubuntu hosts, there are scripts to create, drop, update, and back up your Bareos 
+
+databases.

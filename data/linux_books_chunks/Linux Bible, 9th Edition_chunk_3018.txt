@@ -1,0 +1,12 @@
+Here’s how, 
+using Fedora 21:
+
+1.  From the Activities screen on a GNOME 3 desktop in Fedora, type Print Settings 
+
+and press Enter. The Print Settings window appears.
+
+2.  To allow all your printers to be shared, select Server ➪ Settings. If you are not 
+the root user, you are prompted for the root password. The Basic Server Settings 
+pop-up appears.
+
+3.

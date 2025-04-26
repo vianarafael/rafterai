@@ -1,0 +1,9 @@
+We can see messages since the last system boot with the –b option.
+
+$ sudo journalctl –p info –b
+
+This can often still be a lot of messages, so we can further refine this with more specific time filters.
+
+$ sudo journalctl -p info --since "2016-11-28 22:44:00" --until "2016-11-28 22:54:00"
+
+Here we are displaying the logs at priority info for the last ten minutes. The times are in local time.

@@ -1,0 +1,9 @@
+This security feature makes it less likely for 
+unattended shells to be accessed by unauthorized people. (This must be 
+set in the login shell for it to actually cause the shell to log out the user.)
+
+3
+
+Creating and using aliases
+Using the alias command, you can effectively create a shortcut to any command and 
+options you want to run later. You can add and list aliases with the alias command.

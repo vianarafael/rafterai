@@ -1,0 +1,6 @@
+241
+1. Checking /etc/yum.conf ................................................................242
+2. Checking /etc/sysconﬁ g/rhn/up2date (RHEL only) ..........................242
+3. Checking /etc/yum.repos.d/*.repo ﬁ les ...........................................243
+4. Downloading RPM packages and metadata from a YUM repository .....243
+5.

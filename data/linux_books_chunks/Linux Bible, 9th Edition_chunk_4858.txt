@@ -1,0 +1,7 @@
+With that setup in place, you can simply 
+boot a computer from a network interface and come back a short time later to ﬁ nd a fully 
+installed Linux system.
+
+After a computer is deployed, systems can be conﬁ gured and possibly monitored and 
+updated, using tools such as Puppet (http://puppetlabs.com) and Chef (www.chef
+.io).

@@ -1,0 +1,5 @@
+What do you think happened in the packets between 93 and 98 ? Try
+to answer this before reading on (it always helps to try to predict what you will see, and
+then checking your prediction).
+
+23.1.7.

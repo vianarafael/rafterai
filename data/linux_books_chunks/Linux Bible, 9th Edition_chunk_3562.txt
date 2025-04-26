@@ -1,0 +1,9 @@
+From the local system, use the smbclient command to list that the homes share 
+
+is available.
+
+8.  From a Nautilus (ﬁ le manager) window on the local system, connect to the homes 
+share for the user phil on the local Samba server in a way that allows you to drag 
+and drop ﬁ les to that folder.
+
+9.

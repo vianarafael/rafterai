@@ -1,0 +1,6 @@
+The kernel is what all distributions have in common (it is 
+sometimes customized by the distribution maintainers), but at their core they all run Linux.
+
+ ■ Note  So what’s a kernel, you ask? Don’t panic, we’ll fill you in. The kernel is the core of all computer 
+operating systems and is usually the layer that allows the operating system to interact with the hardware in 
+your computer.

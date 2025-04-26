@@ -1,0 +1,13 @@
+(
+       2016070100 ; Serial
+       604800     ; Refresh
+       86400      ; Retry
+       2419200    ; Expire
+       3600 )     ; Negative Cache TTL
+
+With the header created, we can now start adding PTR records, which map addresses to names. Let’s 
+
+add one for our bastion host and one for our host on 192.168.0.254 and the mail A records, as shown in 
+Listing 10-22.
+
+Listing 10-22.

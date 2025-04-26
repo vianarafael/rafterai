@@ -1,0 +1,8 @@
+By default, it listens on the local interface 
+only on many Linux systems (Listen localhost:631). For Fedora, CUPS listens on all 
+interfaces by default.
+
+16
+
+By turning on BrowseRelay (it’s off by default), you can allow CUPS browse information 
+to be passed among two or more networks.

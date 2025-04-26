@@ -1,0 +1,15 @@
+An ssd is more expensive than a hard disk, but it typically has a much faster access
+time.
+
+In this book we will use the following pictograms for spindle disks (in brown) and solid
+state disks (in blue).
+
+33
+
+disk devices
+
+4.2. device naming
+
+4.2.1. ata (ide) device naming
+
+All ata drives on your system will start with /dev/hd followed by a unit letter.

@@ -1,0 +1,16 @@
+It has an internal IP 
+address of 192.168.0.1, and external connections go out through the gateway host.
+
+ ■ Note 
+
+ we show how you can create these DNs CNAMEs (e.g., gateway and headoffice) in Chapter 10.
+
+We also have three branch offices, each with its own internal and external IP address ranges.
+
+•	
+
+•	
+
+•	
+
+branch1.example.com: A branch office host with an external IP address of 10.0.2.156.

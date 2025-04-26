@@ -1,0 +1,30 @@
+We can see the stratum we are syncing against, the system time, and the offset.
+
+426
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Next we can view the clock sources using the following:
+
+$ chronyc sources
+210 Number of sources = 4
+MS Name/IP address             Stratum   Poll   Reach   LastRx  Last sample
+===========================================================================================
+^+ 0.time.itoc.com.au                2      9     377      446   +798us[ +798us] +/-   73ms
+^+ dns02.ntl01.nsw.privatecl         2      9     377      249  +1507us[+1507us] +/-   52ms
+^* warrane.connect.com.au            2      9     377      504  -1782us[-1876us] +/-   50ms
+^+ 203.122.222.45                    2      9     377      183   -200us[ -200us] +/-   85ms
+
+You can use the chronyc command to add and deny access to chrony and to add and remove peers also.
+For more information, see the following:
+
+•	
+
+•	
+
+https://chrony.tuxfamily.org/faq.html
+
+https://chrony.tuxfamily.org/comparison.html
+
+Domain Name System
+In Chapter 2 we suggested using descriptive names for hosts.

@@ -1,0 +1,7 @@
+By adding those settings to shell conﬁ guration ﬁ les, you can have the settings 
+available every time you open a shell.
+
+Confi guring your shell
+Several conﬁ guration ﬁ les support how your shell behaves. Some of the ﬁ les are executed 
+for every user and every shell, whereas others are speciﬁ c to the user who creates the con-
+ﬁ guration ﬁ le.

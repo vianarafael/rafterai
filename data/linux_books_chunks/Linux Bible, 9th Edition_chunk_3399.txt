@@ -1,0 +1,7 @@
+For the 
+clients, shared resources just show up under the Network selection in the window manager 
+or in the Network Neighborhood on older Windows systems.
+
+Interfaces for managing Samba on a Linux server include the Samba Server Conﬁ guration 
+window (system-config-samba) and the Samba SWAT (Samba Web Administration Tool) 
+web-based interface.

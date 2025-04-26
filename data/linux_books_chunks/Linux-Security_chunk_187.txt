@@ -1,0 +1,9 @@
+A better method is to use md5 passwords which can be recognized
+by a salt starting with $1$.
+
+paul@rhel65:~$ ./MyCrypt hunter2 '$1$42'
+$1$42$7l6Y3xT5282XmZrtDOF9f0
+paul@rhel65:~$ ./MyCrypt hunter2 '$6$42'
+$6$42$OqFFAVnI3gTSYG0yI9TZWX9cpyQzwIop7HwpG1LLEsNBiMr4w6OvLX1KDa./UpwXfrFk1i...
+
+The md5 salt can be up to eight characters long.

@@ -1,0 +1,2 @@
+Following the general information are listings of each process, sorted by what percent of 
+the CPU is being used by each process.

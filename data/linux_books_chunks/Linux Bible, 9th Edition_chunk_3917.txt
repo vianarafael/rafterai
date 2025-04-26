@@ -1,0 +1,7 @@
+Alternatively, you could run yum makecache 
+to get metadata from all repositories up to date.
+
+21
+
+ ■ You are running out of disk space. Normally, yum might cache as much as a few 
+hundred megabytes of data in /var/cache/yum directories.

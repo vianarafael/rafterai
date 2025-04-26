@@ -1,0 +1,9 @@
+If the host does not come up and 
+the network ping times out, the Gluster client will request access to one of the other peers in the volfile and 
+
+622
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+try to require the resources it needs (file locks and so on; this can take up to a minute). The network timeout is 
+configurable, and we will show you how to change that shortly.

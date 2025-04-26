@@ -1,0 +1,3 @@
+By setting the plain-text variable (backup_database_password) to look at the encrypted 
+variable (vault_backup_database_password), we make it easier for people following us to know how these 
+variables are stored.

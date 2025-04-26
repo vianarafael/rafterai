@@ -1,0 +1,28 @@
+This  example  extends  a  200MB  Logical
+Volume with 100 MB.
+
+[root@RHEL5 ~]# lvdisplay /dev/vg2/lvol0 | grep Size
+  LV Size                200.00 MB
+[root@RHEL5 ~]# lvextend -L +100 /dev/vg2/lvol0
+  Extending logical volume lvol0 to 300.00 MB
+  Logical volume lvol0 successfully resized
+[root@RHEL5 ~]# lvdisplay /dev/vg2/lvol0 | grep Size
+  LV Size                300.00 MB
+
+The next example creates a 100MB Logical Volume, and then extends it to 500MB.
+
+[root@RHEL5 ~]# lvcreate --size 100M -n extLV vg42
+  Logical volume "extLV" created
+[root@RHEL5 ~]# lvextend -L 500M vg42/extLV
+  Extending logical volume extLV to 500.00 MB
+  Logical volume extLV successfully resized
+[root@RHEL5 ~]#
+
+This example doubles the size of a Logical Volume.
+
+[root@RHEL5 ~]# lvextend -l+100%LV vg42/extLV
+  Extending logical volume extLV to 1000.00 MB
+  Logical volume extLV successfully resized
+[root@RHEL5 ~]#
+
+11.13.4.

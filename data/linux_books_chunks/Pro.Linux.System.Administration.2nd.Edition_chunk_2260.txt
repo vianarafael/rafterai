@@ -1,0 +1,8 @@
+This command is quick, as it simply queries the filesystem 
+metadata. As you have seen you can also pass the mount path to only return the information for that mount.
+
+$ df -h /data
+Filesystem      Size  Used    Avail   Use%   Mounted on
+/dev/sdb         16G   22M    14G     1%       /data
+
+ ■ Note  to check the number of inodes, use the df -i command.

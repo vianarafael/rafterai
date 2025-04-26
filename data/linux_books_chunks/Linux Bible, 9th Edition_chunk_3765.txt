@@ -1,0 +1,8 @@
+Right after you turn on the power, you should see 
+a BIOS screen that usually includes a few words noting how to go into Setup mode and 
+change the boot order. If you press the function key noted (often F1, F2, or F12) to choose 
+one of those two items, here’s what you can do:
+
+21
+
+ ■ Setup utility—The setup utility lets you change settings in the BIOS.

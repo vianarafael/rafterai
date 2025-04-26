@@ -1,0 +1,6 @@
+If you get an error while using the ecryptfs utilities, make sure you did not use the syntax 
+encryptfs by mistake.
+
+In the example that follows, the user johndoe will have a subdirectory encrypted using 
+the ecryptfs utility. First, there should be no ﬁ les currently residing in the directory 
+before it is encrypted.

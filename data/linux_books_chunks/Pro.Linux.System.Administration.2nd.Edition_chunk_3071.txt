@@ -1,0 +1,5 @@
+Next, we’re creating a key, 
+
+this one also RSA and 4,096 bits long. We store that key in the /etc/pki/CA/private/cakey.pem file. We’re 
+also creating the certificate as self-signed because we don’t have another CA to sign it. We specify the age of 
+the certificate as 3,650 days (or 10 years).

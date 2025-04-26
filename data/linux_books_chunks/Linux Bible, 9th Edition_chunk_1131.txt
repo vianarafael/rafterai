@@ -1,0 +1,9 @@
+Pipe that 
+
+output to the less command so you can page through the list of processes.
+
+2.  List all processes running on the system, and sort those processes by the name of 
+
+the user running each process.
+
+3.

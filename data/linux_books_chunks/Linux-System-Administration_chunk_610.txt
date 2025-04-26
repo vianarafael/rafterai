@@ -1,0 +1,14 @@
+Use tune2fs -c or -i to override.
+[root@server2 ~]# mkdir /srv/multipath
+[root@server2 ~]# mount /dev/mapper/mpathi /srv/multipath/
+[root@server2 ~]# df -h /srv/multipath/
+Filesystem          Size  Used Avail Use% Mounted on
+/dev/mapper/mpathi 1008M   34M  924M   4% /srv/multipath
+
+151
+
+introduction to multipathing
+
+13.7. practice: multipathing
+
+1.

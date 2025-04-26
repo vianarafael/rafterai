@@ -1,0 +1,6 @@
+In this instance, we chose a label for what will be used for.
+
+With Ext filesystems, you then see a series of statistics about the filesystem size and how storage space 
+
+was allocated. In the output you can see the settings for “Block size,” “Maximum filesystem blocks,” and 
+“Inodes,” which describe how your filesystem has been set up.

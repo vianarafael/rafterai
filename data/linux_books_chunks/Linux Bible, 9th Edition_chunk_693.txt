@@ -1,0 +1,5 @@
+First, 
+the find command starts at the /home directory and prints out all ﬁ les and directories 
+below that point in the ﬁ lesystem. The output is piped to the grep command, which ﬁ lters 
+out all ﬁ les except for those that include the string xyzzy in the ﬁ lename. Finally, the vi 
+command opens all ﬁ lenames for editing (one at a time) that include xyzzy.

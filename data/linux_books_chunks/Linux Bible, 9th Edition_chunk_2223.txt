@@ -1,0 +1,5 @@
+Unlike desktop systems, which can  simply 
+close down all network ports that allow incoming requests for access, a server 
+must make itself vulnerable by allowing some access to its ports. That’s why it is 
+important as a server administrator to open ports to services that are needed and 
+lock down ports that are not needed.

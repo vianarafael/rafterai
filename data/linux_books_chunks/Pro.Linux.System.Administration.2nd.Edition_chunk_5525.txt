@@ -1,0 +1,6 @@
+We are going to create a profile 
+called centos-base that will inherit the distro and other settings from the parent CentOS7-x86_64.
+
+$ sudo cobbler profile add --name centos-base --parent CentOS7-x86_64
+
+This is how we can use different common Kickstart or preseed files for different host groups.

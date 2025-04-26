@@ -1,0 +1,9 @@
+Alright, now we have metrics being 
+
+generated on our backup host and being sent to our monitor via the relay. Let’s now set up our Graphite-API 
+service so that we can use Grafana to view them.
+
+Configuring Graphite-API
+
+As we have said, Graphite-API is the lightweight front end for Graphite. It allows applications to query 
+metrics from our carbon-cache.

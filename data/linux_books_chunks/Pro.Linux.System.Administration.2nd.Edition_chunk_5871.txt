@@ -1,0 +1,621 @@
+See Platform as a Service (PaaS)
+Package management, 4
+
+CentOS, Application Installer, 300–306
+compiling from source, 348–350
+compile and make, 352
+configure, 350–352
+install, 353
+uninstall, 354
+
+defined, 297
+introduction, 297–298
+Ubuntu, 322
+
+software app, 335–337, 339–341, 343
+
+Package manager, 117, 297
+Packages, 117, 297, 299
+PAM, 791
+Partitions
+
+disks and, 360
+fdisk, 360
+
+992
+
+filesystem, 363
+IDs and types, 364
+introduction, 359
+to /etc/fstab, 382–383
+
+Partition table, 183
+Passphrase, 18–19
+passwd command, 128
+Password aging, 162–163
+Password Policy (ppolicy), 737, 746
+
+overlay, 774, 776
+
+Passwords
+
+aging, 162–163
+introduction, 161
+
+Path, 109
+Permissions, 123
+class, 123–124
+File breakdown, 124
+octal notation, 126–127
+setgid, 128–129
+setuid, 128–129
+types, 123
+umask, 128
+
+PHP, 486–487
+Physical volume (PV), 397–398
+Pipelining, 564
+Piping, 140–141
+Platform as a Service (PaaS), 8
+Playbook tasks
+
+definition, 966–970
+running, 971–973
+
+Pluggable Authentication Modules (PAM), 171, 550, 
+
+553, 793–794
+configure, 171, 173–174
+control flags, 172, 174
+directives, 173
+introduction, 171
+login, 172
+Ubuntu login, 174
+Pool.ntp.org project, 422
+Pools directory, 680–681
+postalias command, 559
+Postfix, 204, 206
+
+authentication, 549
+
+Dovecot’s SASL, 550–554
+SMTP AUTH and SASL, 550
+test, 555–556, 558–559
+CentOS installation, 530–531
+ClamAV, 579
+configuration, 532–533, 535
+edit, 534
+encryption, 544
+
+SSL certificates, 545
+TLS, 545–549
+
+help, 561–562
+
+■ INDEXinitial configuration, 535–537
+lookup tables, 559–561
+start, 531–532
+test, 537–540
+Ubuntu installation, 531
+virtual domains, 559–561
+
+Post Office Protocol (POP3), 585–586
+Power-on self-test (POST), 182
+PowerShell, 88
+PPP service
+ADSL
+
+dsl-provider, 294
+modem/concentrators, 289
+nmcli, 288
+pppoeconf, 289–293
+Ubuntu, 294–295
+
+Preboot Execution Environment (PXE), 912
+Preseeding, 911
+Primary domain controller (PDC), 602
+Primary group, 130, 153
+Print servers, 627
+Private enterprise number (PEN), 751–752
+Process ID (PID), 115, 193–194
+Proc filesystem, 394, 833–834
+Proposed VPN configuration, 704
+Public key encryption, 505
+Public key infrastructure (PKI), 582
+Puppet masters, 937
+PuTTY client, 111
+pwd command, 117
+Python3, 915
+
+ Q
+Querying name servers, 429–430
+
+ R
+Rackspace, 7
+RAM, 801
+Raspberry Pi, 627
+Read permissions, 123
+Read plug-ins, 811
+Real-time blackhole lists (RBLs), 564
+Reboot, 210
+Red Hat, 617
+Red Hat Enterprise Linux Advanced Platform 
+
+(RHELAP), 4
+
+Red Hat Enterprise Linux (RHEL), 300
+
+CentOS, 5
+Fedora Project, 5
+free of charge, 6
+RHELAP, 4
+server platforms, 4
+
+Red Hat Package Management (RPM), 4–5
+
+install, 318
+introduction, 315
+query, 315–318
+remove, 318
+from source, 319–322
+
+Redirection, 140
+Redundant Array of Inexpensive Disks  
+
+(RAID), 359, 834
+
+array, 389–396
+fake, 386
+hardware, 386
+introduction, 386
+mdadm command, 390, 393
+processor to rescue, 388
+software, 386
+striping and mirroring, 387
+types, 386
+Regex style, 756
+Regular expressions, 135–136
+Relative distinguished name (RDN), 735
+Reliable event logging protocol (RELP)
+
+client, 855–856
+defined, 847
+server, 855–856
+
+Remote access
+
+help, 112–114
+SSH, 110–112
+Remote host, 645–646
+Replicated volume, 618
+Repositories, 306, 309–310, 333
+Require directive, 484
+Required flag, 172
+Requisite flag, 172–173
+Rescue mode, 14, 410–411
+Reserved blocks, 371
+Resource Abstraction Layer (RAL), 943
+Resource record sets (RRsets), 439
+Resource record signature (RRSIG), 440
+Reverse lookup zones, 446–449
+Reverse proxy, 519
+Ring buffer, 361–362
+Root certificate, 506
+Root directory, 117, 120
+Root name servers, 427–428
+Root password, 39
+Root user, 38
+Root volume, 21
+Root zone, 427
+Round-robin database (RRD), 812
+Routing, 717
+Rsync
+
+backup script, 648–651
+crontab, 648
+
+993
+
+■ INDEXRsync (cont.)
+
+introduction, 640
+options, 648
+over SSH
+
+authorized_keys, 642–643
+Bash script, 641
+chroot jail, 642
+
+test, 646–647
+
+Rsyslog
+
+actions, 852–853
+combine multiple selectors, 854
+configuration, 847–848, 850
+facilities, 851
+priorities, 852
+start, 857
+stop, 857
+syslog, 847
+uses UDP port 514, 853
+
+rsyslogd daemon, 198
+Ruby code, 91
+Ruby hash syntax, 865
+Runlevels, 200–202, 206
+
+ S
+S3 buckets
+
+AWS user policies, 656–657
+Glacier storage, 655
+life-cycle option, 654
+life-cycle policy, 654
+our-backups, 653–654
+test, 657–659
+
+Safe-upgrade, 334
+Samba
+
+AD, 597, 599
+configuration, 601–605
+DNS test, 600
+interactive mode, 598–599
+introduction, 596
+iptables rules, 608
+Kerberos test, 600–601
+linux, 609–611
+Mac OS X, 611–613
+test, 599
+tool, 598, 605
+users, 605–608
+variable substitutions, 605
+
+Schedules directory, 678
+Schema
+
+cosine, 750
+creation, 750–753
+definition, 736
+ldapsearch, 754
+nis, 750
+slaptest command, 753
+vi editor, 754
+
+994
+
+Sealing key, 843
+Secure Shell (SSH), 88, 640–643, 897
+
+agent, 465
+check_by_ssh plug-in, 895
+client configuration, 467–468
+configuration, 466–467
+defined, 110
+file transfer, 470
+Git Bash, 111
+introduction, 463
+keys, 464–465
+PuTTY client’s, 111
+TCP/IP, 110
+tunnelng, 468–469
+
+Secure Sockets Layer (SSL), 544–545
+Security Content Automation Protocol  
+
+(SCAP), 33
+
+Security profile, 34
+Self-signed certificates, 507
+SELinux, 575–578, 913
+Sender Policy Framework (SPF), 580–581
+Sendmail, 530
+Service configuration files, 171
+Services
+
+check_command, 892
+check_smtp, 894
+defined, 892
+disable, 207
+enable, 207–208
+local-service, 893
+manage, 203
+systemd, 204–206
+
+Setgid permissions, 128–129
+Shadow passwords, 165–166
+SHA512 hashes, 166
+Shell, 106
+
+command aliases, 170
+configuration, 168
+environment variables, 168–169
+
+Shut down, 210
+Sieve, 572–573
+Signatures, 573
+Simple Authentication and Security  
+Layer (SASL), 738
+
+Dovecot, 550–554
+SMTP AUTH and, 550
+Simple Mail Transfer Protocol  
+(SMTP), 506, 526, 536
+
+Simple method, 737
+Single sign-on, 787–788
+Single-user mode, 186–187
+SKEL option, 152
+Slapd
+
+OpenLDAP, 740, 742, 744
+run, 763
+with TLS, 764–765
+
+■ INDEXslaptest command, 753
+Slave server, 444, 452
+Small Computer System Interface (SCSI), 358
+Smarthosts, 558–559
+Snapshots, 377
+Socket, 247, 551
+Soft fail state, 893
+Software RAID, 386
+Source Network Address Translation (SNAT), 221
+Sources directory, 319
+Spam
+
+defined, 562
+Maildir directory, 571
+Postfix for Antispam, 563–565
+Sieve, 572–573
+
+SpamAssassin
+
+help, 570
+install and configure, 565–566
+Postfix, 566–567
+test, 567–570
+spamc command, 567
+Spamd daemon, 565
+Specs directory, 320
+Splash screen, 13–14, 54–55
+SQL database
+
+configuration, 489–491
+installation, 489
+introduction, 488–489
+MariaDB administration, 496
+MariaDB databases, 496–497
+MariaDB storage engines, 492–493
+server test, 491
+users and privileges, 498–499
+XtraDB, 493–496
+
+Squid-Cache, 519
+ACLs, 520
+client configuration, 522–523
+configuration, 519–521
+transparency, 523
+web accelerator, 519
+
+SRPMS directory, 319
+SSF, 764–765
+sssd, 788–790, 792–793
+Standard Technical Implementation  
+Guide (STIG), 35
+
+Start of Authority (SOA), 436
+Stateless address autoconfiguration (SLAAC), 224
+Static addresses, 24
+Statistics-file, 442
+Sticky permissions, 129
+Storage, 357–359
+Storage daemon, 666
+Storage devices, 834
+Strata, 419
+Striped volume, 618
+Striping, 387
+
+sudo command, 60, 108, 149
+
+CentOS, 175
+command-line options, 179
+configure, 176–179
+send e-mail, 178
+Ubuntu, 175
+unauthorized, 176
+using, 175
+
+Sufficient flag, 172, 174
+Superblock, 370
+Supplementary groups, 130, 153
+Support models, 4
+Swap memory, 800
+Swap space, 65, 806–807
+Symbolic links, 122
+sysctl, 833–834
+syslog, 847, 851
+System administrators, 861
+System clocks, 419
+systemctl command, 204, 206, 208, 209
+systemd, 115, 203–206, 210
+AllowIsolate option, 196
+CentOS, 194
+EnvironmentFile, 197
+ExecStart option, 197
+install section, 196–197
+load path, 195
+Restart option, 197
+Service sections, 197
+targets to boot to rescue mode, 195
+timers
+
+Cron, 211
+OnCalendar option, 211
+section, 211
+UMask sets, 197
+unit files, 198
+unit section, 196
+
+SystemV, 193–194, 198–200, 208–210
+SysV init, 198, 200–203, 206
+SysV init.d, 208–209
+
+ T
+Tarball file, 349
+TCP, 667
+TCP Wrappers, 287–288
+Terminal emulator tool, 105
+Terminator
+
+install, 339
+more information, 338
+remove, 340
+search, 337
+
+Test Driven Development (TDD), 974
+Thunderbird, Mozilla, 588–590
+timedatactl command, 418
+Time, NTP, 419–421
+
+995
+
+■ INDEXTime-series database, 812
+Time to live (TTL), 444–445
+Top-level domains (TLDs), 439
+Transmission control protocol/internet protocol 
+
+(TCP/IP), 110
+OSI model, 247–248
+socket, 247
+
+Transmission Control Protocol (TCP), 264
+Transparent proxy, 523
+Transport Layer Security (TLS), 505–506, 508–509, 
+
+530, 544–549, 764–765
+
+Trivial File Transfer Protocol (TFTP), 912, 919
+Troubleshooting, 71
+
+diagnostic information, 71
+resources, 71
+restart installation, 71
+network
+
+chains, 265–266
+diagnostic tools, 257
+dig, 255–257
+Firewalld, 268–270
+MTR, 250–251
+NAT, 267–268
+Netcat, 254
+Netfilter/iptables, 263–264
+ping, 249–250
+policy, 267
+routes and forwarding packets, 257, 259–263
+tables, 265
+tcpdump, 251–253
+ufw, 270–272
+
+OpenVPN, 730
+Trusted facts, 951
+Trusted pool, 617
+tune2fs, 371, 373
+Tunneling protocol, 468–469
+TXT record, 580, 584
+
+ U
+Ubuntu, 4–6, 53–60, 62–70, 92, 226
+
+adduser command, 157
+admin, 179
+backports, 348
+bond device, 244
+command-line login, 100, 101
+Debian, 11
+DHCP, 243
+diagnostic information, 71
+EFI partition, 185
+GUI tool, 159
+LiveCDs, 100, 102
+login PAM service configuration file, 174
+Nagios, 879–881
+OpenLDAP, 740
+
+996
+
+PAM, 172
+parameters, 243
+PID, 194
+Postfix, 531
+runlevel, 200
+server installation, 53
+
+applications for host, 67
+assumptions, 53
+automatic install system updates, 66
+base system requirements, 65
+booting, 70
+configure mail server, 68
+decrypt hard drives, 69–70
+disk encryption password, 64
+disks partitions, 62–63
+full name of new user, 60
+GRUB, 69
+home directory, 61
+installation complete, 69
+language, 54, 56
+LVM partition, 64–65
+master boot record, 69
+Metal As A Service, 54
+MySQL database, 67
+origin of keyboard, 58
+password for new user, 60–61
+proxy server settings, 66
+select keyboard, 57, 59
+select region, 56–57
+setting hostname, 59
+splash screen, 55
+sudo command, 60
+time zone, 61
+username, 60
+
+sudo command, 149, 175
+SysV init.d, 208–209
+unity desktop, 104
+useradd command, 151
+
+Udev, 628
+ulimit command, 831–832
+Umask, 128, 197
+Unified Extensible Firmware Interface  
+(UEFI), 69, 181–185
+
+Unity desktop, 104, 335
+Universal unique identifier (UUID), 89, 369
+Update-rc.d command, 209
+Upstart, 198–199
+Upstream RPMs, 319
+Uptime command, 799
+USB drive, 11–12
+useradd command, 150, 154
+User class, 124–126
+User Datagram Protocol (UDP), 264
+User ID (UID), 154, 156, 165
+User private group (UPG), 153
+
+■ INDEXUsers
+
+auditing access, 180
+control, 170
+create, 150–151
+default settings, 151–153
+delete, 156
+disable, 163–164
+GUI, 159–160
+store data, 164–166
+working with, 148
+User space filesystem, 617
+UUID.

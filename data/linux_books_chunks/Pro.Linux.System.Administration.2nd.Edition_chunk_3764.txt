@@ -1,0 +1,11 @@
+This (fsid=0) is telling NFS that /data/
+staff is the root of all the exported filesystems and not /data. This means that when we issue the following 
+mount command:
+
+$ sudo mount nfs1:/ /path/to/mountpoint
+
+614
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+only /data/staff, and everything under it, will be mountable from nfs1:/.

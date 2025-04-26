@@ -1,0 +1,12 @@
+The hosts deny example shows that you can 
+use the same form to identify names and IP addresses to prevent access from  certain hosts.
+
+520
+
+c19.indd  04/01/2015  Page 521
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+Restricting Samba access by user
+Particular Samba users and groups can be allowed access to speciﬁ c Samba shares by identi-
+fying those users and groups within a share in the smb.conf ﬁ le.

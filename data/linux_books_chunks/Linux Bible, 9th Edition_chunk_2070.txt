@@ -1,0 +1,8 @@
+The section following this 
+describes how to partition a disk with multiple partitions.
+
+If you make a mistake partitioning your disk with fdisk, just type q to exit without saving your changes. If you are 
+stuck in the middle of an operation, such as adding a partition, just complete that operation, and then type q after 
+you see the command prompt.
+
+1.

@@ -1,0 +1,8 @@
+testing the three websites
+
+Testing the model train club named Choo Choo on port 7000.
+
+root@debian7:/etc/apache2# wget 127.0.0.1:7000 
+--2014-05-06 21:16:03--  http://127.0.0.1:7000/
+Connecting to 127.0.0.1:7000... connected.
+HTTP request sent, awaiting response...

@@ -1,0 +1,18 @@
+1 root root   0 Apr 13 17:49 standard.txt
+root@rhel65:~/prigroup# exit
+exit
+root@rhel65:~/prigroup#
+
+5.9. vigr
+
+Similar to vipw, the vigr command can be used to manually edit the /etc/group file, since
+it will do proper locking of the file. Only experienced senior administrators should use vi
+or vigr to manage groups.
+
+40
+
+groups
+
+5.10. practice: groups
+
+1.

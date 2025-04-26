@@ -1,0 +1,6 @@
+It is a good idea to dump this file into a separate partition so 
+that if you do run out of space, it does not impact other processes on your host.
+
+Bareos also provides two instructions in the Job resource that we can take advantage of when 
+
+running complex jobs: Client Run Before Job and Client Run After Job.

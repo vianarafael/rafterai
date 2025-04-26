@@ -1,0 +1,5 @@
+It does this by going through a series of files on the file system and reading their 
+instructions.
+
+Currently Linux is in a bit of a transition. Up until recently, there were at least three different possible 
+programs that handled the system initialization.

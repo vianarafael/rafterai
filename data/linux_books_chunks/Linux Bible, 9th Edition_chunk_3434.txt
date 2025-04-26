@@ -1,0 +1,4 @@
+Because the default SELinux Booleans (on/off switches for certain 
+ features) are set to provide the least access required, you need to turn Booleans 
+on for features such as allowing users to access their own home directories with 
+Samba.

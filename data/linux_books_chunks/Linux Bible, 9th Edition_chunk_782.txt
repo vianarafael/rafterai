@@ -1,0 +1,10 @@
+Most of these ﬁ les are plaintext 
+
+ﬁ les that can be edited with any text editor if the user has proper permission.
+
+ ■ /home—Contains directories assigned to each regular user with a login account. 
+
+(The root user is an exception, using /root as his or her home directory.)
+
+ ■ /media—Provides a standard location for automounting devices (removable media 
+in particular).

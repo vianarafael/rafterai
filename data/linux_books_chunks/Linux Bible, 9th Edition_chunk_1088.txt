@@ -1,0 +1,9 @@
+You can also use the following to refer to a background job:
+
+ ■ %—Refers to the most recent command put into the background (indicated by the 
+plus sign when you type the jobs command). This action brings the command to 
+the foreground.
+
+ ■ %string—Refers to a job where the command begins with a particular string of 
+
+ characters. The string must be unambiguous.

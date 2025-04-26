@@ -1,0 +1,3 @@
+In the Pool definition, you specify things like retention policies, labeling 
+formatting, and so on. We are using our hard disk as our storage device, so we won’t have any physically 
+different media to load in or rotate out like you do with tape media.

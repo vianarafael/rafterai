@@ -1,0 +1,8 @@
+Those requests can come from 
+an application designed to manage virtual machines (such as virt-manager or 
+OpenStack Dashboard) or from an application you create to talk directly to the 
+libvirt application programming interface.
+
+ ■ Virtual Machine Manager—The Virtual Machine Manager (virt-manager 
+
+ command) is a GUI tool for managing virtual machines.

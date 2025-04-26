@@ -1,0 +1,6 @@
+Use multiple workspaces. Move the mouse to the upper-left corner again 
+
+to show a minimized view of all windows. Notice all the applications on the 
+right jammed into a small representation of one workspace while an additional 
+ workspace is empty. Drag and drop a few of the windows to an empty desktop 
+space. Figure 2.5 shows what the small workspaces look like.

@@ -1,0 +1,4 @@
+Most servers serve up data to 
+remote clients, but others serve the local system (such as those that gather logging messages or 
+kick off maintenance tasks at set times using the cron facility). Many servers are represented by 
+processes that run continuously in the background and respond to requests that come to them.

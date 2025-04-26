@@ -1,0 +1,11 @@
+If that service were not running, you could start the CUPS service 
+as follows:
+
+# systemctl start cups.service
+
+See Chapter 15, “Starting and Stopping Services,” for more information on the systemctl 
+and service commands for working with services.
+
+Confi guring CUPS printer options manually
+If your Linux distribution doesn’t have a graphical means of conﬁ guring CUPS, you can 
+edit conﬁ guration ﬁ les directly.

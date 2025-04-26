@@ -1,0 +1,5 @@
+Journalists often
+refer to these servers as the master servers of the internet, because if these servers go
+down, then nobody can (use names to) connect to websites.
+
+The root servers are not thirteen physical machines, they are many more.

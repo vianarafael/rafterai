@@ -1,0 +1,6 @@
+You don’t have to use SELinux. You can set SELinux to 
+
+Permissive mode if you feel it is too difﬁ cult and unnecessary to create the SELinux 
+policies needed to get your web server to work with SELinux in Enforcing mode. 
+You can change the mode to Permissive by editing the /etc/sysconfig/selinux 
+ﬁ le so the SELINUX value is set as follows.

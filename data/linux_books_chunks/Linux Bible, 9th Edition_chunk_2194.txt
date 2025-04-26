@@ -1,0 +1,7 @@
+This 
+is useful for downloaded CD images from which you want to install software without 
+having to burn the image to CD. You could also share that mount point over NFS, so 
+you could install the software from another computer. When you are ﬁ nished, just type 
+umount/mnt/mycdimage to unmount it.
+
+Other options to mount are available only for speciﬁ c ﬁ lesystem types.

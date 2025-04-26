@@ -1,0 +1,5 @@
+The name of the site is determined by a special header that is sent in the request to the web server.
+
+We are going to create a named virtual host. To do this, we need to create a configuration file for our site. 
+
+We create this file in the Apache conf.d directory /etc/httpd/conf.d/www.example.com.conf.

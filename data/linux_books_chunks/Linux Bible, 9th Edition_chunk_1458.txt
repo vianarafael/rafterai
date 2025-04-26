@@ -1,0 +1,5 @@
+After the installation process is started, more software can sometimes be 
+retrieved from different locations (over the network or from hard disk, for example).
+
+PXE (pronounced pixie) stands for Preboot eXecution Environment. You can boot a client computer from a Network 
+Interface Card (NIC) that is PXE-enabled.

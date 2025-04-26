@@ -1,0 +1,6 @@
+(If you run 
+this and are not familiar with vi, you can type :q! to exit the ﬁ le.)
+
+This particular example is useful if you want to edit a ﬁ le for which you know the name but 
+not the location. As long as the string is uncommon, you can ﬁ nd and open every instance 
+of a ﬁ lename existing beneath a point you choose in the ﬁ lesystem.

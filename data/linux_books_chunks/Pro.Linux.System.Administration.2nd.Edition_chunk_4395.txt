@@ -1,0 +1,33 @@
+The mobileclient.conf Configuration File
+
+# Network configuration
+dev tun
+client
+remote gateway.example.com 1195
+keepalive 10 120
+
+# Certificate configuration
+ca /etc/ssl/certs/cacert.pem
+cert /etc/ssl/certs/mobile1.example.com.cert
+key /etc/ssl/private/mobile1.example.com.key
+tls-auth ta.key 1
+
+auth-user-pass
+
+# Logging configuration
+log-append /var/log/openvpn.log
+status /var/log/openvpn-status.log
+verb 4
+mute 20
+
+# Security configuration
+user nobody
+group nobody
+
+persist-key
+persist-tun
+
+# Compression
+comp-lzo
+
+You can see the options we’ve used previously with one addition and some minor changes.

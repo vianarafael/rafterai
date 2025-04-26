@@ -1,0 +1,19 @@
+After nmap is installed (yum install nmap), use your system hostname or IP address to 
+use nmap to scan your system to see what is running on common ports:
+
+# nmap 192.168.0.119
+Starting Nmap 5.21 ( http://nmap.org ) at 2012-06-16 08:27 EDT
+Nmap scan report for spike (192.168.0.119)
+Host is up (0.0037s latency).
+Not shown: 995 filtered ports
+PORT    STATE  SERVICE
+21/tcp  open   ftp
+22/tcp  open   ssh
+80/tcp  open   http
+443/tcp open   https
+631/tcp open   ipp
+MAC Address: 00:1B:21:0A:E8:5E (Intel Corporate)
+Nmap done: 1 IP address (1 host up) scanned in 4.77 seconds
+
+The preceding output shows that TCP ports are open to the regular (http) and secure 
+(https) web services.

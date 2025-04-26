@@ -1,0 +1,10 @@
+Refer to Chapter 27 
+for a description of how to use the OpenStack Dashboard.
+
+8
+
+ ■ Red Hat Enterprise Virtualization (RHEV)—With RHEV, the RHEV manager 
+
+ provides the browser-based interface for managing virtual machines,  including 
+ allocating storage and user access to resources. Many other examples of 
+ browser-based graphical administration tools are available with open source projects.

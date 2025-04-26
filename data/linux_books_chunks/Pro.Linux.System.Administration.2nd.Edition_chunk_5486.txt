@@ -1,0 +1,23 @@
+the previous script for 
+
+ ■ Note 
+generating the password can be run on any host that has python 3 installed already and can be copied across.
+
+Now when we run $ sudo cobbler check, the list contains only three items, which we don’t need to 
+
+address.
+
+Cobbler Managing Your DHCP
+
+If you want to enable Cobbler to manage your DHCP server, then you need to enable another option in the /
+etc/cobbler/settings file.
+
+manage_dhcp: 1
+
+915
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+You also need to update a template file that Cobbler will use to configure your DHCP server, /etc/
+
+cobbler/dhcp.template.

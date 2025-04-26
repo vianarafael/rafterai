@@ -1,0 +1,10 @@
+We’ll increase this chunk size via the read_buffer_size and read_rnd_buffer_size variables.
+
+read_buffer_size = 1M
+read_rnd_buffer_size = 1M
+
+495
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+We’ll also allow the server to perform very large queries, so larger amounts of data can be stored.

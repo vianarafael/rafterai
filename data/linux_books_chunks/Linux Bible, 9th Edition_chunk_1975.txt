@@ -1,0 +1,14 @@
+So, if there is no entry for the ﬁ lesystem 
+
+275
+
+c11.indd  04/01/2015  Page 276
+
+Part III: Becoming a Linux System Administrator
+
+in the /etc/fstab ﬁ le, after creating the mount point (/var/stuff), type the following 
+ command to mount the ﬁ lesystem and include ACL support:
+
+# mount -o acl /dev/sdc1 /var/stuff
+
+Keep in mind that the mount command only mounts the ﬁ lesystem temporarily.

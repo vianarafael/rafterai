@@ -1,0 +1,11 @@
+(1900)
+
+23
+
+The entry in time.conf would look like the following:
+
+login; * ; !root ; Wd0700-1900
+
+The ﬁ nal step in implementing this example time restriction is to ensure that the PAM 
+module using time.conf is included in one of the PAM system event conﬁ guration ﬁ les. 
+The PAM module using time.conf is pam_time.

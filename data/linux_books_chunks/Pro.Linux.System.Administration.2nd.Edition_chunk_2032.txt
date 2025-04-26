@@ -1,0 +1,6 @@
+Otherwise, you might end up in a situation where a file installed from source overwrites a packaged 
+file. This would confuse the package system, and when you removed the package in question, your compiled 
+file would be deleted.
+
+Generally when you install applications from source, they are deployed in the /usr/local directory 
+structure. This is usually the default option for --prefix.

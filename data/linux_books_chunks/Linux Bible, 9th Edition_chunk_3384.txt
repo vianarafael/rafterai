@@ -1,0 +1,4 @@
+You could do this procedure on 
+an Ubuntu system, but it would require extra conﬁ guration because Ubuntu doesn’t support 
+anonymous FTP by default. If you are stuck, solutions to the tasks are shown in Appendix 
+B.

@@ -1,0 +1,19 @@
+For Ubuntu
+this can be in /etc/bind, for Fedora in /var/named.
+
+165
+
+introduction to dhcp
+
+12.8. advanced dhcp
+
+12.8.1. 80/20 rule
+
+DHCP servers should not be a single point of failure. Let us discuss redundant dhcp server
+setups.
+
+12.8.2. relay agent
+
+To avoid having to place a dhcp server on every segment, we can use dhcp relay agents.
+
+12.8.3.

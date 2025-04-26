@@ -1,0 +1,18 @@
+And then removes it again using vgreduce.
+
+[root@RHEL5 ~]# pvs | grep sdg
+  /dev/sdg              lvm2 --   819.20M 819.20M
+[root@RHEL5 ~]# vgextend vg1 /dev/sdg
+  Volume group "vg1" successfully extended
+[root@RHEL5 ~]# pvs | grep sdg
+  /dev/sdg   vg1        lvm2 a-   816.00M 816.00M
+[root@RHEL5 ~]# vgreduce vg1 /dev/sdg
+  Removed "/dev/sdg" from volume group "vg1"
+[root@RHEL5 ~]# pvs | grep sdg
+  /dev/sdg              lvm2 --   819.20M 819.20M
+
+117
+
+logical volume management
+
+11.12.5.

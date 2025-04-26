@@ -1,0 +1,2 @@
+That included conﬁ guring network interfaces, choosing how the virtual 
+instance would run, and launching the virtual image.

@@ -1,0 +1,6 @@
+This provides the structure to place our default polices that we will 
+define later.
+
+The ppolicy overlay provides certain functions that allow you to better control password security 
+on your LDAP server. OpenLDAP itself provides no password management features, such as password 
+expiry and password history.

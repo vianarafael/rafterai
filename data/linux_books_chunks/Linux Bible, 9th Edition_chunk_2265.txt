@@ -1,0 +1,7 @@
+Still others run 
+only a set number of times, being launched when the crond daemon sees that the service 
+was conﬁ gured to run at the particular time.
+
+Of the services just mentioned, the on-demand services are the primary way of  running 
+always available (if not always running) services. On-demand services don’t run  continuously 
+listening for requests.

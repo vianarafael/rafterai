@@ -1,0 +1,4 @@
+This overlay will now make all password 
+accounts comply with the password policy.
+
+We will use ldapadd to apply this ppolicy.ldif file.

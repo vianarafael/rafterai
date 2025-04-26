@@ -1,0 +1,25 @@
+You can use the tune2fs utility to check whether it’s enabled.
+
+$sudo tune2fs -l /dev/md0 | grep features
+Filesystem features: has_journal ext_attr resize_inode dir_index filetype needs_recovery 
+extent 64bit flex_bg 
+    sparse_super large_file huge_file uninit_bg dir_nlink extra_isize
+
+If you need to change features, and you rarely do, you could use tune2fs to enable a particular feature.
+
+sudo tune2fs -O dir_index /dev/md0
+
+Alternatively, features can be turned off by prefixing their name with a caret.
+
+sudo tune2fs -O ^dir_index /dev/md0
+
+You can set which options should be enabled on the various ext file systems by changing the defaults in 
+
+the /etc/mke2fs.conf file.
+
+835
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+I/O Schedulers
+I/O schedulers, also called I/O elevators, are algorithms that kernel will use to order I/O to disk subsystems.

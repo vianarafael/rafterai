@@ -1,0 +1,7 @@
+The 
+ﬁ rst virtual workspace in Fedora is where the GUI is and the next six virtual consoles 
+are text-based virtual consoles. You can return to the GUI (if one is running) by pressing 
+Ctrl+Alt+F1. (On some systems the GUI runs on the virtual console 5 or 6. So you’d return to 
+the GUI by pressing Ctrl+Alt+F5 or Ctrl+Alt+F6.)
+
+Try it right now. Hold down the Ctrl+Alt keys, and press F3.

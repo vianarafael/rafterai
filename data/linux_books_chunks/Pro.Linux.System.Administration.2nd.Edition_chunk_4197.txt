@@ -1,0 +1,13 @@
+File daemon 
+plug-ins concern themselves mainly with how to back up things from, and storage deals with how to back up 
+things to.
+
+ you can read more on the configuration of the Storage daemon at http://doc.bareos.org/
+
+ ■ Note 
+master/html/bareos-manual-main-reference.html#x1-15000010.
+
+bareos-fd.conf
+
+The last thing we have to do before we can take a backup is to install the bareos-fd software on our 
+headoffice.example.com host.

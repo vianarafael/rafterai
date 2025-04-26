@@ -1,0 +1,5 @@
+If there were shared directories from other top-level directories (such as /var or /tmp), 
+you would see those as well. Of course, seeing any of those directories depends on how 
+security is set up on the server.
+
+Try going straight to the shared directory as well.

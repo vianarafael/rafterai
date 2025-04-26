@@ -1,0 +1,12 @@
+On CentOS, you specify a section starting 
+with %packages and then the list of package groups or packages you want to install.
+
+%packages
+@ Administration Tools
+@ Server Configuration Tools
+@ System Tools
+@ Text-based Internet
+dhcp
+
+We specify an at symbol (@), a space, and then the name of the package group we want to install, for 
+example, Administration Tools.

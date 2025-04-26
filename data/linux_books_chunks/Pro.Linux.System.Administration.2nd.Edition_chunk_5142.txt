@@ -1,0 +1,7 @@
+Each line in the file would be written 
+
+to the daemon facility with a priority of info.
+
+Log Management and Rotation
+An important part of managing your logging environment is controlling the volume of your log files and 
+keeping your log files to a manageable size.

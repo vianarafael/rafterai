@@ -1,0 +1,6 @@
+If you boot up to this mode, you can use it to immediately become root 
+user to change a forgotten root password. (You could also use the word single 
+instead of 1 to get to single-user runlevel. The difference between single and 1 is 
+that single does not start scripts in the /etc/rc1.d directory.)
+
+ ■ 2—Multiuser runlevel. This runlevel is rarely used today.

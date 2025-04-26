@@ -1,0 +1,6 @@
+Note that it tells us it needs 
+to get 0 of 6,311KB of archives. Because we had previously installed nmap, the original package files are still 
+cached on the machine, otherwise you will see aptitude download the packages once you enter y to start the 
+installation.
+
+It uses the dpkg command internally to handle this part.

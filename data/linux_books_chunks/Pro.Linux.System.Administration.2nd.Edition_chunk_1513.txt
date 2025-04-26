@@ -1,0 +1,6 @@
+You can set many 
+other parameters in the sysctl.conf file, including memory, swap, and other network-related kernel 
+parameters that can be tweaked during runtime.
+
+the kernel stores this kind of information in the /proc directory. For example, the iP forwarding setting 
+is located in the /proc/sys/net/ipv4/ip_forward file.

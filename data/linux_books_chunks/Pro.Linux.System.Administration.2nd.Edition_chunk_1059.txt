@@ -1,0 +1,5 @@
+The menuentry will 
+be slightly different for an Ubuntu host. Normally you see at least two menu entries per kernel you have 
+installed, with one entry being a “rescue” kernel for system recovery. It is a copy of the kernel in case one 
+is corrupted on CentOS with no special kernel options. Ubuntu is different as it passes the recovery and 
+nomodeset kernel options.

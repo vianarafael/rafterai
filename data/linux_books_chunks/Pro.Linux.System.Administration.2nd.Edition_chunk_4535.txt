@@ -1,0 +1,3 @@
+While not the 
+same as a database schema, the LDAP schema describes the object classes and attributes your LDAP server 
+will hold, much like a database schema would describe tables and rows.

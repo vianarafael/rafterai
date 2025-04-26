@@ -1,0 +1,7 @@
+vixie cron adds a
+#              number of features to the basic UNIX cron, including better
+#              security and more powerful configuration options.
+
+15.4.4. enable and disable services
+
+Services can be enabled or disabled in all runlevels with one command.

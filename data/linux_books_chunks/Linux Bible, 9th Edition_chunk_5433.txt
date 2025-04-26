@@ -1,0 +1,9 @@
+To list all SELinux policy modules on your system, along with their version num-
+
+bers, type semodule –l.
+
+If you chose ls /etc/selinux/targeted/modules/active/modules/*.pp as your answer to 
+Question 9, that is okay, but this command doesn’t give you the version numbers of the policy modules. Only 
+semodule -l gives the version numbers.
+
+10.

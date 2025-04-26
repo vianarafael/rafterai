@@ -1,0 +1,9 @@
+Samba provides a tool, called samba-tool, to help configure the 
+Samba server. You may need to remove or copy off any existing /etc/samba/smb.conf file that is present on 
+your system as the following command will create a new file for you.
+
+597
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+In Listing 13-1, we have used samba-tool in interactive mode (--interactive).

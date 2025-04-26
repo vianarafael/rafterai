@@ -1,0 +1,10 @@
+In those cases, you can use SELinux commands to set the ﬁ le contexts and 
+Booleans you need to get SELinux working the way you want.
+
+17
+
+Be sure to read Chapter 24 to learn more about SELinux.
+
+Understanding the Apache confi guration fi les
+The conﬁ guration ﬁ les for Apache HTTPD are incredibly ﬂ exible, meaning that you can 
+ conﬁ gure the server to behave in almost any manner you want.

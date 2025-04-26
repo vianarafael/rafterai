@@ -1,0 +1,4 @@
+The primary group for chris also is called chris, which has a group ID (gid) of 501. 
+It is normal for Fedora and Red Hat Enterprise Linux users to have the same primary group 
+name as their username. The user chris also belongs to other groups called sales (gid 
+105) and lp (gid 7).

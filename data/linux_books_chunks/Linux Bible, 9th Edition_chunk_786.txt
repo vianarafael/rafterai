@@ -1,0 +1,11 @@
+The home directory for root 
+
+does not reside beneath /home for security reasons.
+
+ ■ /sbin—Contains administrative commands and daemon processes.
+
+ ■ /tmp—Contains temporary ﬁ les used by applications.
+
+ ■ /usr—Contains user documentation, games, graphical ﬁ les (X11), libraries (lib), 
+and a variety of other commands and ﬁ les that are not needed during the boot 
+ process.

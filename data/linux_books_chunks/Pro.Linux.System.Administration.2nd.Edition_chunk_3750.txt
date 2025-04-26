@@ -1,0 +1,15 @@
+Adding Samba credentials
+
+If we want to keep these credentials securely, we can add them to our keychain, which is an encrypted 
+
+safe for credentials (Figure 13-3).
+
+Figure 13-3.  Adding credentials to the keychain
+
+612
+
+Now all we need to do is click Connect (Figure 13-4).
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Figure 13-4.

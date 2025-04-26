@@ -1,0 +1,11 @@
+The second 
+matches any ﬁ le that begins with g and has e as its ﬁ fth character (grape, grapefruit).
+
+The following examples use braces to do pattern matching:
+
+$ ls [abw]*
+apple banana watermelon
+$ ls [agw]*[ne]
+apple grape watermelon
+
+In the ﬁ rst example, any ﬁ le beginning with a, b, or w is matched.

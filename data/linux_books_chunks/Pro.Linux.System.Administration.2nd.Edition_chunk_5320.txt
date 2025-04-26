@@ -1,0 +1,6 @@
+We’ve then defined each day of the week and the times during those days that we want the time 
+period to cover. In this time-period definition, we’re defining every day of the week and 24 hours a day.
+
+To not cover a particular day, you simply don’t specify it. The times are specified in 24-hour time, and 
+
+you can specify multiple ranges.

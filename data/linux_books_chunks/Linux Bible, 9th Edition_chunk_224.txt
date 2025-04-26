@@ -1,0 +1,6 @@
+As a project of the Free Software Foundation (FSF), 
+GNU was intended to become a recoding of the entire UNIX operating system that could be 
+freely distributed.
+
+The GNU Project page (http://www.gnu.org/gnu/thegnuproject.html) tells the 
+story of how the project came about in Stallman’s own words.

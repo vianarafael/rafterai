@@ -1,0 +1,11 @@
+Notice that one of the auth contexts is ignored because its 
+line starts with a # character:
+
+$ cat /etc/pam.d/poweroff
+#%PAM-1.0
+auth       sufficient   pam_rootok.so
+auth       required     pam_console.so
+#auth       include      system-auth
+account    required     pam_permit.so
+
+The auth context is listed twice in the conﬁ guration ﬁ le shown in the preceding code.

@@ -1,0 +1,8 @@
+The id Command
+
+$ id jsmith
+uid=1001(jsmith) gid=1001(jsmith) groups=1001(jsmith)
+
+In Listing 5-4, we query our new user, jsmith, using the id command. But the command has returned 
+
+some fairly cryptic information about uid and gid, the name of our user, and some numbers.

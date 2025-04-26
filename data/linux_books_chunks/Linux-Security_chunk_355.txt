@@ -1,0 +1,7 @@
+A firewall can be configured to block access based
+on networks, hosts, protocols and ports. Firewalls can also change the contents of packets
+while forwarding them.
+
+10.2. packet forwarding
+
+Packet forwarding means allowing packets to go from one network to another.

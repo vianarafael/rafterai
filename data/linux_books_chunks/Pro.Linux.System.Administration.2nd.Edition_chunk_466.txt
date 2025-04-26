@@ -1,0 +1,5 @@
+In many cases, these hosts don’t even have screens or 
+keyboards attached and are only accessible via a network.
+
+With Linux, it is very easy to remotely connect to these hosts so you can administer and manage them. 
+You can use a number of different methods to do this remote connection.

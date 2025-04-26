@@ -1,0 +1,2 @@
+(This is viewed as a more secure way to store passwords than the original 
+encrypted password in the passwd ﬁ le.

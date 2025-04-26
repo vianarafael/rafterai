@@ -1,0 +1,10 @@
+For example, for our example network, we will allow network 
+
+services by setting the following:
+
+ALL: localhost ACCEPT
+sshd: .example.com EXCEPT .baddomain.com
+
+These settings will first allow any localhost connections to be accepted. Many services require 
+
+connections to services running on the loopback (localhost) interface, and these need to be accepted.

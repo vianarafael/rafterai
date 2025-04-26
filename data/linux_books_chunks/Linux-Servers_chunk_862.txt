@@ -1,0 +1,5 @@
+git branches
+
+Working on the project can be done in one or more git branches. Here we create a new
+branch that will make changes to the script. We will merge this branch with the master
+branch when we are sure the script works.

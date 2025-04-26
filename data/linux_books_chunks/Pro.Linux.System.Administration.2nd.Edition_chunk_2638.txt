@@ -1,0 +1,21 @@
+We will need create that 
+
+directory and then change our bind configuration file for the local zones to be like the following:
+
+zone "example.com" {
+    type master;
+    file "master/example.com.db";
+    key-directory "/etc/bind/keys";
+    auto-dnssec maintain;
+    inline-signing yes;
+};
+
+zone "0.168.192.in-addr.arpa" {
+    type master;
+    file "master/192.168.0.db";
+    key-directory "/etc/bind/keys";
+    auto-dnssec maintain;
+    inline-signing yes;
+};
+
+We use the key-directory directive to tell bind where to find the keys we are going to creating.

@@ -1,0 +1,6 @@
+To change that behavior (to do nothing or open the media contents 
+in a folder), you can select that from this box.
+
+ ■ Other Media—Select the Type box under the Other Media heading to select how 
+less commonly used media are handled. For example, you can select what actions 
+are taken to handle audio DVDs or blank Blu-ray discs, CDs, DVDs or HD DVD discs.

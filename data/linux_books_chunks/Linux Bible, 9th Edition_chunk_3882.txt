@@ -1,0 +1,7 @@
+However, when you start using third-party repositories, those repositories may 
+have dependencies on repositories that they can’t control. For example, if a reposi-
+tory creates a new version of its own software that requires later versions of basic 
+software (such as libraries), the versions they need might not be available from the 
+Fedora repository.
+
+ ■ Consistently update your system.

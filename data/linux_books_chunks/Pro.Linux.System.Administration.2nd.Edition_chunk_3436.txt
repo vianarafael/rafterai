@@ -1,0 +1,14 @@
+Finally, we will reject any mail to unauthorized 
+destinations (reject_unauth_destination).
+
+Next, we want to add another rejection criterion to our smtpd_recipient_restrictions option.
+
+$ sudo postconf –e 'smtpd_recipient_restrictions = reject_rbl_client zen.spamhaus.org, 
+  reject_rhsbl_reverse_client dbl.spamhaus.org, 
+    reject_rhsbl_helo dbl.spamhaus.org, reject_rhsbl_sender dbl.spamhaus.org, reject_unauth_
+
+pipelining '
+
+In this section we are attempting to reduce the amount of spam by rejecting known blacklisted servers 
+
+and domains.

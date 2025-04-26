@@ -1,0 +1,7 @@
+By default, 
+our OpenVPN server will take the address 10.8.0.1 and assign the remaining addresses to incoming VPN 
+connections.
+
+We’ve specified an option called keepalive that is used to keep our connection open. We specify the 
+keepalive option and two values, 10 and 120. The value 10 indicates that OpenVPN will ping the connection 
+every 10 seconds to check it is active.

@@ -1,0 +1,6 @@
+The answer 
+was the YUM facility.
+
+Managing RPM Packages with YUM
+The Yellowdog Updater Modiﬁ ed (YUM) project set out to solve the headache of  managing 
+dependencies with RPM packages.

@@ -1,0 +1,5 @@
+1. Software RAID
+
+RAID stands for “Redundant Array of Inexpensive Disks” and was originally designed to 
+combine cheap hard disks together. RAID can either increase speed or reliability 
+depending on the RAID level used.

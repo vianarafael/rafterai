@@ -1,0 +1,8 @@
+As 
+a result, the root user can copy, move, or change any other user’s ﬁ les—a privilege 
+needed to make backup copies of the ﬁ lesystem for safe keeping.
+
+ ■ Software installation—Because malicious software can harm your system or 
+
+make it insecure, you need root privilege to install software so it is available to 
+all users on your system.

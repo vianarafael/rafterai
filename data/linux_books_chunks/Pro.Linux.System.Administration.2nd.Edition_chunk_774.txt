@@ -1,0 +1,11 @@
+GIDs also range from 0 to 65535, with the root user also 
+always having a GID of 0.
+
+If you run the id command for the root user, you can see the results on the following line:
+
+$ id root
+uid=0(root) gid=0(root) groups=0(root)
+
+This shows the root user having a UID of 0 and a GID of 0.
+
+ each user and group on a host must have a unique UId and GId.

@@ -1,0 +1,82 @@
+Done
+The following NEW packages will be installed:
+  open-iscsi open-iscsi-utils{a}
+
+Then we set the iSCSI client to start automatically.
+
+root@ubu1104:/etc/iscsi# cp iscsid.conf iscsid.conf.original
+root@ubu1104:/etc/iscsi# vi iscsid.conf
+root@ubu1104:/etc/iscsi# grep ^node.startup iscsid.conf
+node.startup = automatic
+
+Or you could start it manually.
+
+root@ubu1104:/etc/iscsi/nodes# /etc/init.d/open-iscsi start
+ * Starting iSCSI initiator service iscsid                        [ OK ] 
+ * Setting up iSCSI targets                                       [ OK ] 
+root@ubu1104:/etc/iscsi/nodes#
+
+Now we can connect to the Target server and use iscsiadm to discover the devices it offers:
+
+root@ubu1104:/etc/iscsi# iscsiadm  -m discovery -t st -p 192.168.1.31
+192.168.1.31:3260,1 iqn.2010-02.be.linux-training:storage.lun2
+192.168.1.31:3260,1 iqn.2010-02.be.linux-training:storage.lun1
+192.168.1.31:3260,1 iqn.2010-02.be.linux-training:storage.lun3 
+
+We can use the same iscsiadm to edit the files in /etc/iscsi/nodes/.
+
+root@ubu1104:/etc/iscsi# iscsiadm -m node --targetname "iqn.2010-02.be.linu\
+x-training:storage.lun1" --portal "192.168.1.31:3260" --op=update --name no\
+de.session.auth.authmethod --value=CHAP
+root@ubu1104:/etc/iscsi# iscsiadm -m node --targetname "iqn.2010-02.be.linu\
+x-training:storage.lun1" --portal "192.168.1.31:3260" --op=update --name no\
+de.session.auth.username --value=isuser
+root@ubu1104:/etc/iscsi# iscsiadm -m node --targetname "iqn.2010-02.be.linu\
+x-training:storage.lun1" --portal "192.168.1.31:3260" --op=update --name no\
+de.session.auth.password --value=hunter2
+
+Repeat the above for the other two devices.
+
+134
+
+iSCSI devices
+
+Restart the initiator service to log in to the target.
+
+root@ubu1104:/etc/iscsi/nodes# /etc/init.d/open-iscsi restart
+ * Disconnecting iSCSI targets                                      [ OK ]
+ * Stopping iSCSI initiator service                                 [ OK ]
+ * Starting iSCSI initiator service iscsid                          [ OK ]
+ * Setting up iSCSI targets  
+
+Use fdisk -l to enjoy three new iSCSI devices.
+
+root@ubu1104:/etc/iscsi/nodes# fdisk -l 2> /dev/null | grep Disk
+Disk /dev/sda: 17.2 GB, 17179869184 bytes
+Disk identifier: 0x0001983f
+Disk /dev/sdb: 209 MB, 209715200 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdd: 314 MB, 314572800 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdc: 104 MB, 104857600 bytes
+Disk identifier: 0x00000000 
+
+The Target (the server) now shows active sessions.
+
+root@debby6:/etc/iet# cat /proc/net/iet/session 
+tid:3 name:iqn.2010-02.be.linux-training:storage.lun3
+ sid:5348024611832320 initiator:iqn.1993-08.org.debian:01:8983ed2d770
+  cid:0 ip:192.168.1.35 state:active hd:none dd:none
+tid:2 name:iqn.2010-02.be.linux-training:storage.lun2
+ sid:4785074624856576 initiator:iqn.1993-08.org.debian:01:8983ed2d770
+  cid:0 ip:192.168.1.35 state:active hd:none dd:none
+tid:1 name:iqn.2010-02.be.linux-training:storage.lun1
+ sid:5066549618344448 initiator:iqn.1993-08.org.debian:01:8983ed2d770
+  cid:0 ip:192.168.1.35 state:active hd:none dd:none
+root@debby6:/etc/iet# 
+
+135
+
+iSCSI devices
+
+12.7.

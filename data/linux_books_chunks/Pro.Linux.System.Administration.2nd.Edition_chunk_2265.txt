@@ -1,0 +1,9 @@
+It cannot calculate the size of these directories, so the total that it reports is not 
+correct in this case. To always get the correct total, you can run du as the root user:
+
+$ sudo du -sh /etc
+7.0M    /etc
+
+And while we have the same amount shown in our result (7.0 M) this is due to rounding. If we used a –k 
+
+(for KiB) instead of –h, we see values of 7,084 and 7,116 respectively.

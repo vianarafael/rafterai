@@ -1,0 +1,49 @@
+You can configure iptables
+to start at boot time with chkconfig.
+
+root@RHELv4u4:~# service iptables start
+Applying iptables firewall rules:                          [  OK  ]
+root@RHELv4u4:~# chkconfig iptables on
+root@RHELv4u4:~# 
+
+65
+
+  
+  
+  
+introduction to networking
+
+One of the nice features of iptables is that it displays extensive status information when
+queried with the service iptables status command.
+
+root@RHELv4u4:~# service iptables status
+Table: filter
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+RH-Firewall-1-INPUT  all  --  0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+RH-Firewall-1-INPUT  all  --  0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain RH-Firewall-1-INPUT (2 references)
+target  prot opt source      destination  
+ACCEPT  all  --  0.0.0.0/0   0.0.0.0/0 
+ACCEPT  icmp --  0.0.0.0/0   0.0.0.0/0   icmp type 255 
+ACCEPT  esp  --  0.0.0.0/0   0.0.0.0/0 
+ACCEPT  ah   --  0.0.0.0/0   0.0.0.0/0    
+ACCEPT  udp  --  0.0.0.0/0   224.0.0.251 udp dpt:5353 
+ACCEPT  udp  --  0.0.0.0/0   0.0.0.0/0   udp dpt:631 
+ACCEPT  all  --  0.0.0.0/0   0.0.0.0/0   state RELATED,ESTABLISHED 
+ACCEPT  tcp  --  0.0.0.0/0   0.0.0.0/0   state NEW tcp dpt:22 
+ACCEPT  tcp  --  0.0.0.0/0   0.0.0.0/0   state NEW tcp dpt:80 
+ACCEPT  tcp  --  0.0.0.0/0   0.0.0.0/0   state NEW tcp dpt:21 
+ACCEPT  tcp  --  0.0.0.0/0   0.0.0.0/0   state NEW tcp dpt:25 
+REJECT  all  --  0.0.0.0/0   0.0.0.0/0   reject-with icmp-host-prohibited 
+
+root@RHELv4u4:~# 
+
+Mastering  firewall  configuration  requires  a  decent  knowledge  of  tcp/ip.

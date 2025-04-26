@@ -1,0 +1,30 @@
+--
+Mon 2016-11-28 21:29:46.407435 AEDT [s=1798dd89d9ff412b8edcc9e7b5cb8484;i=1c0b;b=11ffa7916ba
+a42a89cbbc756af6d26bc;m=2486cb476a;t=54259f362b5ab;x=68026ef74697a39]
+    _BOOT_ID=11ffa7916baa42a89cbbc756af6d26bc
+    _MACHINE_ID=e3c7fd86ed8b4ef69e569a93e30db6ab
+    PRIORITY=5
+    _CAP_EFFECTIVE=1fffffffff
+    _HOSTNAME=backup
+    _TRANSPORT=rsyslog
+    SYSLOG_FACILITY=10
+    _AUDIT_LOGINUID=1000
+    _SYSTEMD_OWNER_UID=1000
+    _SYSTEMD_SLICE=user-1000.slice
+    SYSLOG_IDENTIFIER=sudo
+    _COMM=sudo
+    _EXE=/usr/bin/sudo
+    _SELINUX_CONTEXT=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+    _AUDIT_SESSION=40
+    _SYSTEMD_CGROUP=/user.slice/user-1000.slice/session-40.scope
+    _SYSTEMD_SESSION=40
+    _SYSTEMD_UNIT=session-40.scope
+    _UID=1005
+    _GID=1006
+    MESSAGE=  bsingh : TTY=pts/0 ; PWD=/home/bsingh ; USER=root ; COMMAND=/bin/journalctl -n 
+1 -o verbose
+    _PID=9653
+    _CMDLINE=sudo journalctl -n 1 -o verbose
+    _SOURCE_REALTIME_TIMESTAMP=1480328986407435
+
+You can see that each log contains a wealth of associated metadata.

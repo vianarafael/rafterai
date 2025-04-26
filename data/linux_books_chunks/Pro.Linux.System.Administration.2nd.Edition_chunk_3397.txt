@@ -1,0 +1,10 @@
+We can use the postalias command to create and manage the index directory; however, the 
+newaliases command manages this for us as we also need to reload the configuration into the daemon after 
+every change and so is easier to use (and is compatible with the Sendmail program too).
+
+We can use the postalias command to query the alias hash.
+
+$ sudo postalias -c /etc/postfix/ -q root hash:/etc/aliases
+ataylor
+
+We tell Postfix which table to use via the alias_database configuration in the main.cf file.

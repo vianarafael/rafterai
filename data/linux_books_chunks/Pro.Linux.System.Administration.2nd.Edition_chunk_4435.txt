@@ -1,0 +1,5 @@
+These 
+actions are restricted with access lists, and different users can have different access rights. There is an 
+authentication process that happens in this initial phase that determines access level, and this is called 
+binding. This can be done by a user on behalf of another user or anonymously depending on how you 
+configure your access lists.

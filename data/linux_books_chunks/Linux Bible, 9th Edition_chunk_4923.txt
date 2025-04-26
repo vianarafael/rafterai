@@ -1,0 +1,16 @@
+Here, we are going to do the latter and create a VM 
+from the Fedora 21 Workstation installation ISO image.
+
+26
+
+Assuming you are logged in to one of the hypervisors as root and the ISO image is in the 
+current directory, copy the ISO to the default directory used by virt-manager for storage 
+(/var/lib/libvirt/images):
+
+# cp Fedora-Live-Workstation-x86_64-21-5.iso /var/lib/libvirt/images/
+
+Because that directory is shared by both hypervisors, you can go to either hypervisor to 
+use that image.
+
+Step 2: Check the network bridge
+On each hypervisor, there should be a default network bridge name virbr0.

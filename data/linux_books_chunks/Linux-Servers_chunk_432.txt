@@ -1,0 +1,6 @@
+four broadcasts
+
+dhcp works with layer 2 broadcasts. A dhcp client that starts, will send a dhcp discover
+on the network. All dhcp servers (that have a lease available) will respond with a dhcp
+offer. The client will choose one of those offers and will send a dhcp request containing
+the chosen offer.

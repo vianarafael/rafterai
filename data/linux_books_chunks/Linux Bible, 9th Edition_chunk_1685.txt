@@ -1,0 +1,6 @@
+That’s 
+ followed by a description of how to manage software packages in  enterprise computing.
+
+Managing Software on the Desktop
+In Fedora 21, the Fedora Project includes the new Software application to replace the PackageKit Add/
+Remove Software window.

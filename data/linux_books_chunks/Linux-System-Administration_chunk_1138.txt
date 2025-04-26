@@ -1,0 +1,19 @@
+It will write the exported directories to /var/
+lib/nfs/etab, where they are immediately applied.
+
+root@debian6 ~# exportfs -va
+exporting pasha:/var/ftp
+exporting barry:/var/ftp
+exporting pasha:/var/www
+exporting barry:/var/www
+exporting *:/srv/iso
+
+310
+
+    
+    
+    
+    
+introduction to nfs
+
+26.6.

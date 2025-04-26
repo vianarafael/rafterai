@@ -1,0 +1,32 @@
+YaML is a 
+superset of the JSon data serialization format and is used commonly for configuration files.
+
+it is structured data that can contain strings, lists, associative arrays, and block scalars.
+
+---
+key: value
+- lista
+- listb
+keya:
+  - valuea
+  - valueb
+
+You can read more about YaML at www.yaml.org/start.html.
+
+If we wanted a different to capture our Apache logs, we would do that separately like this:
+
+- input_type: log
+  paths:
+    - /var/log/*.log
+- input_type: log
+  paths:
+    - /var/log/apache/httpd-*.log
+  document_type: apache
+
+863
+
+Chapter 18 ■ Logging and Monitoring
+
+We don’t run an Apache server on our gateway, but here you can see that we would target the Apache 
+
+logs as a different input type, and we would apply a document_type of apache.

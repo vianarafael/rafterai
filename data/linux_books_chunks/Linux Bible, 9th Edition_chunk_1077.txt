@@ -1,0 +1,6 @@
+You can also 
+use the at command to run commands in such a way that they are not connected to the shell.
+
+To stop a running command and put it in the background, press Ctrl+Z. After the 
+command is stopped, you can either bring it back into the foreground to run (the fg 
+command) or start it running in the background (the bg command).

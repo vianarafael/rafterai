@@ -1,0 +1,2 @@
+If it cannot find one it will look in /etc/init.d/ for 
+an executable postfix file (without the .service suffix).

@@ -1,0 +1,6 @@
+Some techniques for debugging services include adding a debug option 
+to the daemon process so it spews more data into a log ﬁ le or running the daemon 
+process manually so error messages come straight to your screen. See Chapter 15 for 
+further information on starting services manually.
+
+ ■ A service can hang.

@@ -1,0 +1,8 @@
+Two main services are associated with a Samba server, 
+each of which has its own service daemon. Those services include the following:
+
+ ■ smb—This service controls the smbd daemon process, which provides the ﬁ le and 
+
+print sharing services that can be accessed by Windows clients.
+
+ ■ nmb—This service controls the nmbd daemon.

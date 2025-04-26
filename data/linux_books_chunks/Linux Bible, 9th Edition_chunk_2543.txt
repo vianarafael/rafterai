@@ -1,0 +1,9 @@
+Automatic is what allows the network interface 
+to come up automatically on the network if a DHCP service is available. To enter 
+address and other information yourself, use the Tab key to highlight the Automatic 
+ﬁ eld and press the spacebar; then use the arrow keys to highlight Manual, and 
+press Enter.
+
+14
+
+5.  Addresses—Now ﬁ ll in the address information (IP address and netmask).

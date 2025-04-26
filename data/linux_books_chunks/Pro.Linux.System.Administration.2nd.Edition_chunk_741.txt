@@ -1,0 +1,7 @@
+This opens an editing application that looks much like the vi or vim editor. Inside this file 
+is the following line:
+
+# %wheel ALL=(ALL) ALL
+
+Shown above, in this line the # indicates the line you are working on is a comment. You need to 
+uncomment the line. To do this put your cursor near on the # and press the x key twice.

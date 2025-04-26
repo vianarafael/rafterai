@@ -1,0 +1,5 @@
+Now you want to share that printer with other people in your home, school, or ofﬁ ce. 
+Basically, that means conﬁ guring the printer as a print server.
+
+The printers conﬁ gured on your Linux system can be shared in different ways with other 
+computers on your network.

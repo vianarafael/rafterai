@@ -1,0 +1,6 @@
+setgid and setuid on regular files
+
+These two permissions cause an executable file to be executed with the permissions of the
+file owner instead of the executing owner. This means that if any user executes a program
+that belongs to the root user, and the setuid bit is set on that program, then the program
+runs as root.

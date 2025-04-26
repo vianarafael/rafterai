@@ -1,0 +1,4 @@
+ulimit -a
+
+To prevent a fork bomb from being run by this shell user, you can change the maximum number of 
+running processes, for instance, from 3909 to 1, using the -u option.

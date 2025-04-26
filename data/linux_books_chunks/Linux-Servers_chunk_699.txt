@@ -1,0 +1,13 @@
+read list
+
+On a writable share, you can set a list of read only users with the read list parameter.
+
+[football]
+ path = /srv/samba/football
+ read only = No
+ guest ok = No
+ read list = martina, roberto
+
+15.1.4. write list
+
+Even  on  a  read  only  share,  you  can  set  a  list  of  users  that  can  write.

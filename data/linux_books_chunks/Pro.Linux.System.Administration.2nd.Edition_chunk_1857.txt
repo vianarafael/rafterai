@@ -1,0 +1,4 @@
+The differences are mainly in how the code has been rewritten to make it easier 
+for developers to maintain and extend with a predictable and documented API (application programming 
+interface). It is also Python3 compatible where YUM is not. Also the package dependency algorithm has 
+been entirely rewritten.

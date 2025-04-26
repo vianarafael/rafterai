@@ -1,0 +1,9 @@
+Then you can add the new device to your array and 
+grow the array using mdadm in manage mode via the --add option, as shown in Listing 9-18.
+
+Listing 9-18.  Expanding a RAID 5 Array
+
+$ sudo mdadm --manage /dev/md0 --add /dev/sdg
+mdadm: added /dev/sdf
+
+To add multiple devices in a single command, just list them all after the --add option.

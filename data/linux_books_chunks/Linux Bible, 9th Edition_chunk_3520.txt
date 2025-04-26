@@ -1,0 +1,8 @@
+In 
+ particular, the examples demonstrate how to make shares available to particular users, 
+hosts, and network interfaces.
+
+Restricting Samba access by network interface
+To restrict access to all your shares, you can set the global interfaces setting in the smb.
+conf ﬁ le. Samba is designed more for local ﬁ le sharing than sharing over wide area 
+ networks.

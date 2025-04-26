@@ -1,0 +1,5 @@
+It uses a database to query what packages are installed on your host and then compares 
+that to package lists provided by the repository. If you need an additional package or packages to meet any 
+dependencies, then these are also downloaded and installed.
+
+YUM is simple to use.

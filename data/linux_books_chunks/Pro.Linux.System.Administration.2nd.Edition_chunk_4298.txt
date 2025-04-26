@@ -1,0 +1,3 @@
+By specifying dev tun, we’re also creating a routed VPN. OpenVPN can 
+create two types of VPNs: bridged and routed. In simple terms, a bridged VPN joins your networks together 
+at the Ethernet level, while a routed VPN relies on TCP/IP networking to join your networks together.

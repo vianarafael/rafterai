@@ -1,0 +1,33 @@
+By default, anonymous login is allowed when querying the server (so I just pressed Enter 
+when prompted for a password).
+
+You can discern a number of things about the default Samba server setup from this output:
+
+ ■ The default domain (this is a Windows domain and not a DNS domain) is set to 
+
+MYGROUP.
+
+ ■ The default server name is set to the current version of Samba, in this case Samba 
+
+4.1.15.
+
+ ■ All printers that are shared via the CUPS server on your Linux system are, by 
+
+default, also made available from the Samba server running on that same system.
+
+ ■ No directories are shared yet from the server.
+
+ ■ There is no NetBIOS name service running yet from the Samba server.
+
+504
+
+c19.indd  04/01/2015  Page 505
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+Next, you can decide whether you want to run the NetBIOS name service on your 
+Samba server.
+
+Starting the NetBIOS (nmbd) name server
+If no Windows domain server is running on the network, as is the case here, you can start 
+the nmb service on the Samba host to provide that service.

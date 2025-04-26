@@ -1,0 +1,11 @@
+After an operating system is installed, typically you should let the 
+ﬁ rmware do its work and not interrupt it.
+
+554
+
+c21.indd  04/01/2015  Page 555
+
+Chapter 21: Troubleshooting Linux
+
+There are, however, occasions when you want to interrupt the ﬁ rmware. For this  discussion, 
+we focus on how BIOS generally works.

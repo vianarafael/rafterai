@@ -1,0 +1,15 @@
+We are going to use SSH, so choose 1.
+
+Vagrant instance y/n: y
+Auto-configure Vagrant from Vagrantfile? y/n: y
+0) ansible
+1) puppet
+Choose a VM from the Vagrantfile: 0
+ + spec/
+ + spec/ansible/
+ + spec/ansible/sample_spec.rb
+ + spec/spec_helper.rb
+
+Serverspec has detected the Vagrantfile and now wants to know whether we want to configure one of 
+
+those hosts automatically for us.

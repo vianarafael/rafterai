@@ -1,0 +1,6 @@
+Automatic filesystem recovery
+
+While we don’t recommend it, you can force your system to run a fsck on boot by adding fsck.
+
+mode=force to the kernel at boot, either permanently by editing grub or once off by interrupting the boot and 
+adding it via the grub console.

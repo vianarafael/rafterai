@@ -1,0 +1,16 @@
+run 
+    sealert -l 2ad99cba-13d8-4bb1-8d74-bbfc31b68f8b
+# sealert -l 2ad99cba-13d8-4bb1-8d74-bbfc31b68f8b
+SELinux is preventing /usr/sbin/vsftpd from create access on the file
+    gshadow.
+    *** Plugin catchall_boolean (47.5 confidence) suggests *********
+    If you want to determine whether ftpd can read and write files
+    in user home directories.
+    Then you must tell SELinux about this by enabling 
+    the 'ftp_home_dir' boolean.
+    You can read 'user_selinux' man page for more details.
+    Do  setsebool -P ftp_home_dir 1
+
+Chapter 25: Securing Linux on a Network
+
+1.

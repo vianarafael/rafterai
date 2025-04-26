@@ -1,0 +1,13 @@
+Do not mount the disk! 
+
+Then simply type:
+
+dd if=/dev/cdrom of=distro-inst1.iso
+
+This will create an iso-image of the disk called distro-inst1.iso and can be written to a 
+blank disk with cdrecord.
+
+5. Configuring PCMCIA Devices
+
+The cardmgr utility monitors the PCMCIA slots. It will scan the /proc/devices file 
+searching for the pcmcia entry.

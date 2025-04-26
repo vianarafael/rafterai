@@ -1,0 +1,64 @@
+Now we are ready to run the playbook.
+
+$ sudo ansible-playbook  --ask-vault-pass -b playbooks/backup.yml
+Vault password:
+
+PLAY ***************************************************************************
+
+TASK [setup] *******************************************************************
+ok: [backup.example.com]
+
+TASK [install epel] ************************************************************
+changed: [backup.example.com]
+
+TASK [install pip] *************************************************************
+changed: [backup.example.com] => (item=[u'python-pip', u'python-devel'])
+
+TASK [add bareos] **************************************************************
+changed: [backup.example.com]
+
+972
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+TASK [install mariadb] *********************************************************
+changed: [backup.example.com] => (item=[u'mariadb-devel', u'mariadb-server'])
+
+TASK [install pre-reqs] ********************************************************
+changed: [backup.example.com]
+
+TASK [start db service] ********************************************************
+changed: [backup.example.com]
+
+TASK [install bareos] **********************************************************
+changed: [backup.example.com] => (item=[u'bareos-client', u'bareos-director', u'bareos-
+storage', u'bareos-storage-glusterfs', u'bareos-bconsole', u'bareos-filedaemon'])
+
+TASK [create db] ***************************************************************
+changed: [backup.example.com]
+
+TASK [create db user bareos] ***************************************************
+changed: [backup.example.com]
+
+TASK [install bareos-database-mysql CentOS] ************************************
+changed: [backup.example.com]
+
+TASK [add bareos-dir.conf] *****************************************************
+changed: [backup.example.com]
+
+TASK [add bareos-sd.conf] ******************************************************
+changed: [backup.example.com]
+
+TASK [add bareos-fd.conf] ******************************************************
+changed: [backup.example.com]
+
+TASK [add bconsole.conf] *******************************************************
+changed: [backup.example.com]
+
+TASK [create backup directory] *************************************************
+ok: [backup.example.com]
+
+PLAY RECAP *********************************************************************
+backup.example.com         : ok=2   changed=14   unreachable=0    failed=0
+
+We have successfully run our playbook.

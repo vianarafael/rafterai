@@ -1,0 +1,13 @@
+Likewise, excluding -s /bin/tcsh 
+causes /bin/bash to be assigned as the default shell.
+
+The /etc/group ﬁ le holds information about the different groups on your Linux system 
+and the users who belong to them. Groups are useful for enabling multiple users to share 
+
+264
+
+c11.indd  04/01/2015  Page 265
+
+Chapter 11: Managing User Accounts
+
+access to the same ﬁ les while denying access to others.

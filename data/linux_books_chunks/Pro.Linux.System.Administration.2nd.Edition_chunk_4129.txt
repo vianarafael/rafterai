@@ -1,0 +1,5 @@
+the incremental backups can be set to be stored 
+depending on number of days or job numbers.
+
+after that backup age has expired, a consolidation job merges the incremental backups into a new 
+backup.

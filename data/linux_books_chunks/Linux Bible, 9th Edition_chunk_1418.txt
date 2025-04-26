@@ -1,0 +1,6 @@
+This is 
+done automatically, so you don’t have to do any special conﬁ guration to make this happen.
+
+When you are ﬁ nished with a USB drive, right-click the device’s name in the Nautilus ﬁ le 
+manager window and select Safely Remove Drive. This action unmounts the drive and 
+removes the mount point in the /run/media/username directory.

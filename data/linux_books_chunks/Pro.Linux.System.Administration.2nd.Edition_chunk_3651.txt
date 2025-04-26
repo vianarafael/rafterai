@@ -1,0 +1,28 @@
+Remember, we spoke about Apparmor in Chapter 12; it is 
+a security module that describes security access for system resources (such as ports and files).
+
+We will add the following to our /etc/apparmor.d/local/usr.sbin.named file, remembering that we 
+
+add localhost changes into the /etc/apparmor.d/local directory:
+
+# Samba4 DLZ and Active Directory Zones
+/var/lib/samba/lib/** rm,
+/var/lib/samba/private/dns.keytab r,
+/var/lib/samba/private/named.conf r,
+/var/lib/samba/private/dns/** rwk,
+
+After saving this file, we then need to load this into Apparmor with the following:
+
+$ sudo apparmor_parser -r /etc/apparmor.d/usr.sbin.named
+
+To configure our bind9 service in preparation for our Samba configuration, we are going to add the 
+
+following to the bottom of our /etc/bind/named.conf.options file:
+
+include "/var/lib/samba/private/named.conf";
+
+We will need to reload our bind9 configuration with the following:
+
+$ sudo rndc reload
+
+Now it’s time to configure Samba.

@@ -1,0 +1,2 @@
+For example, ~joe 
+would be expanded to the joe home directory (probably /home/joe).

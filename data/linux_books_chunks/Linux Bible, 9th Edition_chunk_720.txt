@@ -1,0 +1,7 @@
+(This is 
+an alias that is often set automatically for the root user. Instead of just removing ﬁ les, you 
+are prompted for each individual ﬁ le removal. This prevents you from automatically remov-
+ing all the ﬁ les in a directory by mistakenly typing something such as rm *.)
+
+While you are in the shell, you can check which aliases are set by typing the alias com-
+mand.

@@ -1,0 +1,8 @@
+If you’re domain is not listed here in mydestination, you will 
+receive something like this when you send mail to a user:
+
+RCPT TO: <bobby@unlisted.org>
+554 5.7.1 <bobby@unlisted.org>: Relay access denied
+
+Next, we need to add our local networks to the mynetworks configuration option. This tells Postfix 
+what trusted IP address ranges SMTP clients will have to process e-mail.

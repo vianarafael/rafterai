@@ -1,0 +1,7 @@
+directory will also be copied recursively, which probably is not your intent!
+
+ When using the -r switch, be careful to not use the *.* wildcard like you might on Windows. 
+
+Finally, when copying files using the cp command, some items about the file, such as dates, times, and 
+
+permissions, can be changed or updated.

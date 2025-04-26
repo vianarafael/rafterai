@@ -1,0 +1,5 @@
+The default configuration handles most typical log files from applications installed on the host.
+The logrotate command is simple to configure and relies on crontab to run on a scheduled basis. The 
+base logrotate configuration is located in /etc/logrotate.conf, and you can see a typical file in Listing 18-12.
+
+Listing 18-12.

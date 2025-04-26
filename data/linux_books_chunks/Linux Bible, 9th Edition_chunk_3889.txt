@@ -1,0 +1,6 @@
+For recent releases of well-known distributions (RHEL, 
+
+Fedora, or Ubuntu, for example), dependency problems are rare and often 
+ﬁ xed quickly. However, if you are relying on repositories for older releases or 
+ development-oriented repositories (such as Fedora’s Rawhide repository), expect 
+to ﬁ nd more dependency problems.

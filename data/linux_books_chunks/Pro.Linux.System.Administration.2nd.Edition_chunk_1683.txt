@@ -1,0 +1,5 @@
+Lastly we require the COMMIT to tell Netfilter to add the table stanza.
+Lines 2-5 in Listing 7-8 are the definitions of our chains in the filter table. We have only shown the 
+
+chains relating to INPUT but there are also FORWARD, OUTPUT and other user defined chains not seen here. 
+INPUT ACCEPT on line 2 is the default INPUT chain and the default policy for that chain is ACCEPT.

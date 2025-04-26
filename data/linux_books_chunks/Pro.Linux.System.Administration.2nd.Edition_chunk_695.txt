@@ -1,0 +1,14 @@
+For 
+instructions, check the alias command’s man page.
+
+You can also delete directories and their contents recursively with the -r switch as follows:
+
+$ rm -r /home/jsmith/backup
+
+This would delete the /home/jsmith/backup directory and all its contents.
+You can also override the -i switch using the -f, or force, switch like so:
+
+$ rm -fr /home/jsmith/backup
+
+This will also delete the backup directory and all its contents, but you will not be prompted to confirm 
+the deletions.

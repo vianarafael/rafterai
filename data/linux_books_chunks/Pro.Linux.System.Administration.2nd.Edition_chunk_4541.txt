@@ -1,0 +1,7 @@
+Remember that index number 
+
+as we are going to need it when we add our own schema. Let’s see how we create and add our own schema.
+
+Creating Our Schema
+
+We will create a file called /etc/ldap/schema/exampleactive.schema.

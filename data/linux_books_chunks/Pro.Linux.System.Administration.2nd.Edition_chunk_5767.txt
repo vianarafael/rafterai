@@ -1,0 +1,7 @@
+We recommend you 
+re-run the command using -vvvv, which will enable SSH debugging output to help diagnose the 
+issue",
+    "unreachable": true
+}
+
+Make sure you can SSH to the target host as the user executing ansible.

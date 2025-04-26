@@ -1,0 +1,12 @@
+You can also query certain record types by using the –t type option. For 
+example, if we wanted to test our DNS server was working properly, we could use dig to find the IP address 
+of Google’s mail server.
+
+$ dig @8.8.8.8 –t MX google.com
+
+<snip>
+;; QUESTION SECTION:
+;google.com.                    IN      MX
+
+;; ANSWER SECTION:
+google.com.

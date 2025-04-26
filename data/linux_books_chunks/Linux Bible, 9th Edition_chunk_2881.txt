@@ -1,0 +1,7 @@
+Before you do any service management, 
+be sure to use the examples in this chapter to help you determine your Linux server’s ini-
+tialization daemon.
+
+The concepts of starting and stopping services go along with other service management 
+concepts, such as making a service persistent, starting certain services at server boot time, 
+reloading a service, and restarting a service.

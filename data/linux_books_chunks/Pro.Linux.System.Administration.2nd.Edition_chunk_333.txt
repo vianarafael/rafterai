@@ -1,0 +1,3 @@
+A branch is a set of discrete commits that all relate to a particular change. There is 
+a main branch that is considered the main line or master branch (usually called master). Changes 
+in branches are usually merged into the master branch.

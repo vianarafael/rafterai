@@ -1,0 +1,6 @@
+Many power users hardly touch a 
+graphical interface, doing most of their work from a shell.
+
+ ■ You can gather commands into a ﬁ le using programming constructs such as con-
+ditional tests, loops, and case statements to quickly do complex operations that 
+would be difﬁ cult to retype over and over.

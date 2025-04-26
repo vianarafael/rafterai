@@ -1,0 +1,7 @@
+Here is the /etc/group entry 
+ created for sara:
+
+sara:x:1007:
+
+Each line in the group ﬁ le contains the name of a group, a group password (usually ﬁ lled 
+with an x), the group ID number associated with it, and a list of users in that group.

@@ -1,0 +1,7 @@
+A login session for 
+root opens. When you are ﬁ nished, type exit, and then press Ctrl+Alt+F1 to return to the 
+ regular desktop login.
+
+After you have logged in as root, the home directory for the root user is typically /root. 
+The home directory and other information associated with the root user account are located 
+in the /etc/passwd ﬁ le.

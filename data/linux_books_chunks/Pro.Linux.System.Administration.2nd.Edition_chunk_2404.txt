@@ -1,0 +1,44 @@
+We can use the journalctl –xb command to see any messages.
+
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: md/raid:md127: Disk failure on sdd1, disabling 
+device.
+                                        md/raid:md127: Operation continuing on 3 devices.
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: RAID conf printout:
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  --- level:5 rd:4 wd:3
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 0, o:1, dev:sdb1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 1, o:1, dev:sdc1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 2, o:0, dev:sdd1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 3, o:1, dev:sdf1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: RAID conf printout:
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  --- level:5 rd:4 wd:3
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 0, o:1, dev:sdb1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 1, o:1, dev:sdc1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 3, o:1, dev:sdf1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: RAID conf printout:
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  --- level:5 rd:4 wd:3
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 0, o:1, dev:sdb1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 1, o:1, dev:sdc1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 2, o:1, dev:sde1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel:  disk 3, o:1, dev:sdf1
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: md: recovery of RAID array md127
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: md: minimum _guaranteed_  speed: 1000 KB/sec/disk.
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: md: using maximum available idle IO bandwidth (but 
+not more than 200000 KB/sec) for recovery.
+Jun 23 01:06:01 au-mel-ubuntu-1 kernel: md: using 128k window, over a total of 8382976k.
+
+After the rebuild has complete we should see something similar to this:
+
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel: md: md127: recovery done.
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel: RAID conf printout:
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel:  --- level:5 rd:4 wd:4
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel:  disk 0, o:1, dev:sdb1
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel:  disk 1, o:1, dev:sdc1
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel:  disk 2, o:1, dev:sde1
+Jun 23 01:09:21 au-mel-ubuntu-1 kernel:  disk 3, o:1, dev:sdf1
+Jun 23 01:09:21 au-mel-ubuntu-1 mdadm[1341]: RebuildFinished event detected on md device  
+/dev/md127
+Jun 23 01:09:21 au-mel-ubuntu-1 mdadm[1341]: SpareActive event detected on md device  
+/dev/md127, component device /dev/sde1
+
+Great! The monitor has picked up on the failure, activated the spare, started the rebuild, and completed 
+rebuilding the array.

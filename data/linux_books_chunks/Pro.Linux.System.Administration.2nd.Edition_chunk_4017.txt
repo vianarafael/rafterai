@@ -1,0 +1,2 @@
+We are going to add an inline policy to the AWS user we asked you to create earlier.
+Now we can add the policy to allow the proper access to the S3 bucket from our AWS user.

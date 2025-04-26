@@ -1,0 +1,5 @@
+It will then contact the target client and the Storage daemon, and they will 
+begin the restoration process.
+
+The backup and restore operations are referred to as jobs in Bareos. You can schedule backup and 
+restore jobs in the Bareos Director configuration file, /etc/bareos/bareos-dir.conf.

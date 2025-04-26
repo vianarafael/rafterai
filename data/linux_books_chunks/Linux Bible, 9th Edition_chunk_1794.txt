@@ -1,0 +1,4 @@
+The update subcommand can 
+be used to update a single package or to get updates to all packages that are currently 
+installed and have an update available. Or you can simply update a single package (such as 
+the cups package).

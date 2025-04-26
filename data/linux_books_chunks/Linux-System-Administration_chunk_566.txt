@@ -1,0 +1,16 @@
+iSCSI Target RHEL7/CentOS7
+
+The prefered tool to setup an iSCSI Target on RHEL is targetcli.
+
+[root@centos7 ~]# yum install targetcli
+Loaded plugins: fastestmirror
+...
+...
+Installed:
+  targetcli.noarch 0:2.1.fb37-3.el7
+
+Complete!
+[root@centos7 ~]#
+
+The targetcli tool is interactive and represents the configuration fo the target in a structure
+that resembles a directory tree with several files.

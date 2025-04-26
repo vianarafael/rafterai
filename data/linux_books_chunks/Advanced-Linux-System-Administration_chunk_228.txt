@@ -1,0 +1,7 @@
+Configuring a SAMBA server
+
+The SAMBA server configuration file smb.conf is usually in /etc/samba/. Within the 
+'[global]' options, parameters such as the 'WORKGROUP = ' can be set.
+
+The SAMBA server uses two daemons called nmbd and smbd implementing NMB and 
+SMB services respectively.

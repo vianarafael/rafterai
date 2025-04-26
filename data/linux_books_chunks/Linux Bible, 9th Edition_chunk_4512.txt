@@ -1,0 +1,8 @@
+The ﬁ le has owner and group listed as well as its assignments for read, write, 
+and execute. If you need a review of ﬁ le permissions, see Chapter 4, “Moving around the 
+Filesystem.”
+
+24
+
+$ ls -l my_stuff
+-rw-rw-r--.

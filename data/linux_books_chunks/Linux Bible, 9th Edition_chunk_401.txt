@@ -1,0 +1,4 @@
+The top bar has the word 
+“Activities” on the left, a clock in the middle, and some icons on the right for such things 
+as adjusting audio volume, checking your network connection, and viewing the name of 
+the current user.

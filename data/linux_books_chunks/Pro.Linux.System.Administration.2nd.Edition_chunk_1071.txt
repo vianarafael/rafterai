@@ -1,0 +1,12 @@
+CentOS hosts have tools that make this 
+easy for us and we will explore that distribution in this exercise. First we issue the following command:
+
+$ sudo grub2-setpassword
+
+192
+
+Chapter 6 ■ Startup and ServiCeS
+
+This will ask you for a password and confirmation and will only create a password for the root user. 
+
+What this command actually does is create a file /boot/grub2/user.cfg.

@@ -1,0 +1,5 @@
+You can 
+still use the iptables-save command to create an iptables confi guration fi le from the current iptables 
+setting and use iptables-restore to restore it. However, having a saved iptables confi guration load on 
+boot is a little more complicated. There is no /etc/sysconfig/iptables fi le. There are several options for 
+loading a confi guration fi le on system boot.

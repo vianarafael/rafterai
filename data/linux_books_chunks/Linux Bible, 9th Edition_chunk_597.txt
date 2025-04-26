@@ -1,0 +1,20 @@
+Here are a few other com-
+mands you can try:
+
+$ pwd
+/home/chris
+$ hostname
+mydesktop
+
+70
+
+c03.indd  04/01/2015  Page 71
+
+Chapter 3: Using the Shell
+
+$ ls
+Desktop    Downloads  Pictures  Templates
+Documents  Music      Public    Videos
+
+The pwd command shows your current working directory. Typing hostname shows your 
+computer’s hostname.

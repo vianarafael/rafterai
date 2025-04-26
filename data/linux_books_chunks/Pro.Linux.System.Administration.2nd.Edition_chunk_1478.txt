@@ -1,0 +1,9 @@
+This is the original initial sequence number incremented by 1, indicating that it 
+is acknowledging our first sequence.
+
+The next packet is another acknowledgment packet sent by the originating host:
+
+IP 192.168.0.254.33348 > 192.168.0.1.smtp: Flags [.], 
+ack 1, win 29200, length 0
+
+In this output, the dot (.) means that no flags were set.

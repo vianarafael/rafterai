@@ -1,0 +1,15 @@
+If the share is accessible when you turn off either of those ser-
+vices, go back and debug the problems with the service that is not working:
+
+# setenforce 0
+# service iptables stop
+
+When you have ﬁ xed the problem, set SELinux back to Enforcing mode and restart 
+iptables:
+
+# setenforce 1
+# service iptables start
+
+Chapter 20: Confi guring an NFS File Server
+
+1.

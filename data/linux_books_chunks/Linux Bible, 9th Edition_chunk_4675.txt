@@ -1,0 +1,7 @@
+What command would list out all the SELinux policy modules on your system, along 
+
+with their version number?
+
+10.  Prepare your system to run a vsftpd FTP server that is protected by SELinux (I 
+
+did this on a Fedora system).

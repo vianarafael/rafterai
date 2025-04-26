@@ -1,0 +1,31 @@
+the components of the shadow file are as follows:
+
+• 
+
+• 
+
+Username
+
+password
+
+•  date password last changed
+
+•  Minimum days between password changes
+
+• 
+
+• 
+
+password expiration time in days
+
+password expiration warning period in days
+
+•  number of days after password expiration that account is disabled
+
+•  date since account has been disabled
+
+165
+
+Chapter 5 ■ Users and GroUps
+
+the username matches the username in the passwd file.

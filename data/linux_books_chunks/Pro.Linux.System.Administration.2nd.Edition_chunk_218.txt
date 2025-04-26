@@ -1,0 +1,2 @@
+It can also mean that installing a complete 4gB operating system may take a long time on a slow Internet 
+connection, but using a net installer can be a great way to load a smaller system.

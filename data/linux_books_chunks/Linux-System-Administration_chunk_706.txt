@@ -1,0 +1,11 @@
+bum
+
+This screenshot shows bum in advanced mode.
+
+180
+
+init and runlevels
+
+15.7. runlevels
+
+15.7.1.

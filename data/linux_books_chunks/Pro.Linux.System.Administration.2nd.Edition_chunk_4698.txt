@@ -1,0 +1,25 @@
+Assume we 
+have the following entries in a new users.ldif file, and we want to delete them.
+
+uid=jbob,ou=people,dc=example,dc=com uid=tbird,ou=people,dc=example,dc=com
+
+We can now add these two entries to a file called deluser.ldif and then run the ldapdelete command 
+
+with the -f argument as follows:
+
+ldapdelete -xvW -D uid=ataylor,ou=people,dc=example,dc=com \
+-h ldap.example.com -Z -f deluser.ldif
+ldap_initialize( ldap://ldap.example.com )
+deleting entry "uid=jbob,ou=people,dc=example,dc=com"
+deleting entry "uid=tbird,ou=people,dc=example,dc=com"
+
+As a result, these entries are no longer in our directory and have been deleted.
+
+773
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+ OpenLDAP is case insensitive, meaning that uid=jsmith,ou=people,dc=example,dc=com is 
+
+ ■ Note 
+treated the same as uid=jSmith,ou=people,dc=example,dc=com.

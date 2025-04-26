@@ -1,0 +1,5 @@
+By setting the sticky bit on a directory, the 
+directory’s owner can allow other users and groups to add ﬁ les to the directory, 
+but prevent users from deleting each other’s ﬁ les in that directory. With a set GID 
+assigned to a directory, any ﬁ les created in that directory are assigned the same 
+group as the directory’s group.

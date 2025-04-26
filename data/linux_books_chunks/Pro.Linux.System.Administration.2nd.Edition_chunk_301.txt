@@ -1,0 +1,12 @@
+Find the application and start it. 
+
+You will be presented with a screen similar to this one.
+
+Figure 3-1.  VirtualBox console
+
+75
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+A new installation will not have any virtual machines installed. To create our own CentOS installation, 
+we select the New button.

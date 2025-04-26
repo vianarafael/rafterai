@@ -1,0 +1,5 @@
+We have used String and Numeric, but the others, like Boolean, Array, and 
+Hash are described here: https://docs.puppet.com/puppet/4.8/lang_data_type.html.
+
+In Listing 9-11 we have included the apache module. This is a module we are now going to install 
+using the Puppet module command like we described earlier, and it will be the puppetlab/apache module.

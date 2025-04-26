@@ -1,0 +1,7 @@
+After you are in rescue mode, the 
+portion of your ﬁ lesystem that is not damaged is mounted under the /mnt/sysimage 
+directory. Type ls /mnt/sysimage to check that the ﬁ les and directories from the 
+hard disk are there.
+
+Right now, the root of the ﬁ lesystem (/) is from the ﬁ lesystem that comes on the rescue 
+medium.

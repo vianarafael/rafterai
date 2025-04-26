@@ -1,0 +1,8 @@
+Use yum if you are
+on Red Hat/CentOS.
+
+root@debian7:~# aptitude install squid
+The following NEW packages will be installed:
+  squid squid-common{a} squid-langpack{a}
+0 packages upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,513 kB of archives.

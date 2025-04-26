@@ -1,0 +1,4 @@
+That line 
+shows that the INPUT chain’s default policy is applied to all the network packets that don’t 
+match another rule. Currently, all the default INPUT, FORWARD and OUTPUT policies are set 
+to ACCEPT. All network packets are allowed in, through, and out.

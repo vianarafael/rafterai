@@ -1,0 +1,11 @@
+Then restart the iSCSI daemon and
+rund fdisk -l to see the iSCSI devices.
+
+142
+
+iSCSI devices
+
+2.  Set  up  an  iSCSI  Target  and  Initiator  on  two  CentOS7/RHEL7  computers  with  the
+following information:
+
+Table 12.2.

@@ -1,0 +1,7 @@
+Also, modifying an account in any way that gives it a different unauthor-
+ized User Identiﬁ cation (UID) number or adds unauthorized group memberships is a form of 
+rights escalation. Keeping an eye on the /etc/passwd and /etc/group ﬁ les will monitor 
+these potential breaches.
+
+To help you monitor the /etc/passwd and /etc/group ﬁ les, you can use the audit dae-
+mon.

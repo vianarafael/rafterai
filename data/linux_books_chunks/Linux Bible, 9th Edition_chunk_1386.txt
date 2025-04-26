@@ -1,0 +1,10 @@
+Any user can run 
+the dmesg command to see what hardware was detected and which drivers were loaded by 
+
+191
+
+c08.indd  04/01/2015  Page 192
+
+Part III: Becoming a Linux System Administrator 
+
+the kernel at boot time.

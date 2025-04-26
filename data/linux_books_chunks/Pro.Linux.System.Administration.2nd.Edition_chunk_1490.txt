@@ -1,0 +1,3 @@
+If you use this tool in combination with others like ping 
+and nc, you will be able to solve many problems. The dig command, short for domain information groper, 
+is used to query DNS servers.

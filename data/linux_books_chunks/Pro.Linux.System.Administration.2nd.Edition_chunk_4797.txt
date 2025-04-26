@@ -1,0 +1,4 @@
+We indicate that we want the LDAP server to be the authoritative service 
+to accept or decline access by specifying AuthzLDAPAuthoritative on. Next is the LDAP URL we are going 
+to use for our authentication service, AuthLDAPURL ldap:// ldap.example.com/ou=people,dc=example,
+dc=com?uid?sub.

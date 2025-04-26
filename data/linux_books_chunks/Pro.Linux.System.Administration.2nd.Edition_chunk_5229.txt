@@ -1,0 +1,6 @@
+A grok function is 
+made up of two parts, the syntax and the semantic, and is written like this:
+
+%{SYNTAX:SEMANTIC}
+
+The SYNTAX is a name of a pattern that matches your text.

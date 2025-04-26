@@ -1,0 +1,7 @@
+Using this example, employ the following form for printing:
+
+$ cat file1.ps | lpr -P NS1-PS
+
+If you are receiving failure messages, make sure the computer to which you are printing is accessible. For the Printer 
+NS1 hp example, you can type smbclient -L NS1 -U jjones. Then type the password (my9passswd, in 
+this case).

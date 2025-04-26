@@ -1,0 +1,5 @@
+If the user exists on the server and the correct credentials are provided, the 
+client is allowed to connect to the server.
+
+On most distributions, SSH is installed as one of the default applications, and a server is started by 
+default.

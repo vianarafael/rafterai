@@ -1,0 +1,37 @@
+If you don’t want to see this output, you can 
+
+use the –q option.
+
+We are going to add key “dynamic-update-key” to our /etc/bind/named.conf.options file.
+
+key "dynamic-update-key" {
+     algorithm hmac-sha512;
+     secret "kHATLZ8hl4RbSoe7W71pqaGZ3oCIP3WIgZZI/UcXYzbOooCOTS3cN7lFdQ/+97VYVfFYEGmzRCqRKy
+j4AcLfdg==";
+};
+
+Next we need to add the update-policy to the zone definition for the example.com zone file.
+
+zone "example.com" {
+    type master;
+    file "master/example.com.db";
+    notify yes;
+    allow-transfer {
+      transfer-hosts ;
+    };
+    update-policy {
+      grant dynamic-update-key zonesub ANY;
+    };
+    key-directory "/etc/bind/keys";
+    auto-dnssec maintain;
+    inline-signing yes;
+};
+
+We then reload the name server configuration via sudo rndc reload.
+
+ ■ Tip  You can also use key-based authentication between master and slave Dns servers.
+
+Configuring DHCP
+
+The next step is to tell the DHCP server about this key as well, and to configure it so it sends DNS update 
+requests to named when it hands out a new lease.

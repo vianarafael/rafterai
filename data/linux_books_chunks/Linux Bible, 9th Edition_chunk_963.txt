@@ -1,0 +1,5 @@
+A locate command ﬁ nds ﬁ les faster because it searches 
+a database instead of having to search the whole ﬁ lesystem live. A disadvantage 
+is that the locate command cannot ﬁ nd any ﬁ les added to the system since the 
+previous time the database was created. Not every ﬁ le in your ﬁ lesystem is stored 
+in the database.

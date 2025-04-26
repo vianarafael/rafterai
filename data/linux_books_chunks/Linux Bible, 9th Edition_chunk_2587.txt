@@ -1,0 +1,10 @@
+To 
+do this, create a ﬁ le in the /etc/sysconfig/network-scripts directory called 
+ifcfg-eth0:0 that contains information such as the following:
+
+DEVICE=eth0:0
+ONPARENT=yes
+IPADDR=192.168.0.141
+NETMASK=255.255.255.0
+
+The example code creates an alias for the network interface eth0 called eth0:0.

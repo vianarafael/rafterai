@@ -1,0 +1,8 @@
+You can change this by changing the Port and ListenAddress 
+options in the configuration file.
+
+The Port option takes a single parameter, which is the port number you want the server to listen on. To 
+
+have the server listen on multiple ports, you can add extra Port directives, one for each port number.
+
+This also applies to the ListenAddress directive.

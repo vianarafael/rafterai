@@ -1,0 +1,6 @@
+See the section “Tips for creating partitions” for some 
+ideas for creating disk partitions.
+
+Understanding different partition types
+Many Linux distributions give you the option of selecting different partition types when 
+you partition your hard disk during installation.

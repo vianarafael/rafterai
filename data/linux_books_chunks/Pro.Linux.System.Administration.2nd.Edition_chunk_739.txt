@@ -1,0 +1,5 @@
+The only user allowed to do this is the user you created 
+when you installed the host; hence you must be logged in as that user to make this change.)
+
+On CentOS, if you did not create the user (jsmith) as an administrator, the sudo command is not 
+enabled by default, and you’ll need to enable it.

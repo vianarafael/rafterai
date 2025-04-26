@@ -1,0 +1,2 @@
+On that window, you can identify the location (Domain) of a central 
+authentication server.

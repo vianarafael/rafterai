@@ -1,0 +1,8 @@
+postfix uses a configuration option called 
+alias_maps in the main.cf configuration file to specify a file that matches recipients to the user who 
+will actually receive the e-mail. the default aliases file is usually /etc/aliases. inside this file you’ll 
+find a list of users like so:
+
+user1:user2
+
+here all mail for user1 will be redirected to user2, with each username separated by a colon.

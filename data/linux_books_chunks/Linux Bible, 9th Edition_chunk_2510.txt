@@ -1,0 +1,7 @@
+The default route will route packets from the local network to any 
+address that is not available on the local network or via some other custom route.
+
+ ■ DNS servers—Fill in the IP addresses for the systems providing DNS service to 
+
+your computer. Click the plus button to add a second DNS server (it’s common to 
+have two or three, in case the ﬁ rst is not available).

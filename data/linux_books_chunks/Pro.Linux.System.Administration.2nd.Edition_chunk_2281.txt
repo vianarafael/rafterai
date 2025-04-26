@@ -1,0 +1,6 @@
+RAID 0 and RAID 1 file storage
+
+When you have more disks to play with, you get more options to pick a RAID level that can give you 
+
+improved performance as well as redundancy. The simplest extension is RAID 1+0 (RAID 10), which uses 
+multiple RAID 1 mirrors as elements of a RAID 0 stripe.

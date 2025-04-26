@@ -1,0 +1,9 @@
+We’ll tell you about any minor variations between distributions.
+
+148
+
+Chapter 5 ■ Users and GroUps
+
+Introducing sudo
+Before we jump into explaining how to create users and groups, we want to discuss the sudo command, 
+which we talked about a little in Chapter 4.

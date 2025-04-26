@@ -1,0 +1,11 @@
+Chain-loading is the act of loading another boot loader 
+(presumably one that is speciﬁ c to the proprietary operating system) from GRUB to 
+start the selected operating system.
+
+ ■ Support for multiple ﬁ lesystem types.
+
+ ■ Support for automatic decompression of boot images.
+
+ ■ Support for downloading boot images from a network.
+
+At the time of this writing, GRUB version 1 is used in Red Hat Enterprise Linux 6.

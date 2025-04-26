@@ -1,0 +1,11 @@
+The -out option specifies the signed 
+certificate we’re going to output, and the -infiles option specifies the CSR we want to sign (we’ve assumed 
+our CSR file is in the /root directory).
+
+ ■ Tip 
+
+ You can see the other options available with the openssl ca command by entering man ca.
+
+You will be prompted for the passphrase you created for the CA’s private key, then the details of your 
+certificate will be displayed, and finally you will be prompted to sign the certificate and write its details to the 
+CA’s database.

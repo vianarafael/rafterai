@@ -1,0 +1,5 @@
+We’ll demonstrate how to differentiate configuration on 
+two clients and apply a slightly different configuration to each.
+
+To implement this differentiation, we’re going to use Puppet’s partner tool, Facter. Facter is a system 
+inventory tool that returns facts about your hosts.

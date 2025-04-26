@@ -1,0 +1,15 @@
+The next command disables the password of laura, making it impossible for Laura
+to authenticate using this password.
+
+root@debian7:~# grep laura /etc/shadow | cut -c1-70
+laura:$6$JYj4JZqp$stwwWACp3OtE1R2aZuE87j.nbW.puDkNUYVk7mCHfCVMa3CoDUJV
+root@debian7:~# usermod -L laura
+
+As you can see below, the password hash is simply preceded with an exclamation mark.
+
+root@debian7:~# grep laura /etc/shadow | cut -c1-70
+laura:!$6$JYj4JZqp$stwwWACp3OtE1R2aZuE87j.nbW.puDkNUYVk7mCHfCVMa3CoDUJ
+root@debian7:~#
+
+The root user (and users with sudo rights on su) still will be able to su into the laura account
+(because the password is not needed here).

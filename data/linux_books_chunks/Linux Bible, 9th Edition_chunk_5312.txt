@@ -1,0 +1,30 @@
+Select Server ➪ Settings and type the root password if prompted.
+
+c. Click the check box next to Allow remote administration, and click OK.
+
+8.  To demonstrate that you can do remote administration of your system from a web 
+
+browser on another system, do the following:
+
+814
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 815
+
+Appendix B: Exercise Answers
+
+a.

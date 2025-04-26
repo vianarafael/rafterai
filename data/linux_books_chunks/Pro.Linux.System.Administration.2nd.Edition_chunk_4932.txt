@@ -1,0 +1,3 @@
+WHISPER_AUTOFLUSH and 
+
+WHISPER_FALLOCATE_CREATE are related to kernel options.

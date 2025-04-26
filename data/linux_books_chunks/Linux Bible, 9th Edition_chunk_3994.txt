@@ -1,0 +1,8 @@
+Remember, writing to disk is much slower than writing to RAM.
+
+ ■ When data is returned from swap to RAM because it is needed again (swapped in), 
+
+you get another performance hit.
+
+ ■ When Linux runs out of space in RAM, swapping is like being wounded in battle. 
+It’s not something you aspire to, but it’s better than being killed.

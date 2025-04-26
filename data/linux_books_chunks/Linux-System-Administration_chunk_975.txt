@@ -1,0 +1,11 @@
+An  anycast  signal  goes  the  the
+(geographically) nearest of a well defined group.
+
+With thanks to the nice anonymous wikipedia contributor to put these pictures in the public
+domain.
+
+258
+
+general networking
+
+21.3.

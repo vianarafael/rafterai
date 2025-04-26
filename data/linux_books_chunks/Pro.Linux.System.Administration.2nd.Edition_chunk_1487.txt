@@ -1,0 +1,3 @@
+The *:http 
+indicates that it is listening on all available addresses (network interface IP addresses) on port 80 (the :http 
+port maps to port 80). OK, so we know our nc command is listening and waiting for connections.

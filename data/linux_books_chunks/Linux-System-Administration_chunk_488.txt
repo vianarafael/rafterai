@@ -1,0 +1,14 @@
+The correct size can be displayed with pvs.
+
+[root@RHEL5 ~]# pvresize /dev/sde1
+  Physical volume "/dev/sde1" changed
+  1 physical volume(s) resized / 0 physical volume(s) not resized
+[root@RHEL5 ~]# pvs | grep sde1
+  /dev/sde1             lvm2 --   199.98M 199.98M
+[root@RHEL5 ~]#
+
+108
+
+logical volume management
+
+11.6.

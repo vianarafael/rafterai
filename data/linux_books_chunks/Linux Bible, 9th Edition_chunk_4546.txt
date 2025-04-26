@@ -1,0 +1,21 @@
+johndoe johndoe
+ unconfined_u:object_r:user_home_t:s0 my_stuff
+
+The ﬁ le context list shows the following:
+
+ ■ user—The ﬁ le is mapped to the SELinux unconfined_u user.
+
+ ■ role—The ﬁ le is mapped to the role of object_r.
+
+ ■ type—The ﬁ le is considered to be part of the user_home_t domain.
+
+ ■ level—
+
+ ■ sensitivity—The user has only one sensitivity level, and it is the lowest 
+
+level of s0.
+
+ ■ categories—MCS is not set for this ﬁ le.
+
+Processes have security contexts
+A process’s security context has the same four attributes as a user and a ﬁ le’s context.

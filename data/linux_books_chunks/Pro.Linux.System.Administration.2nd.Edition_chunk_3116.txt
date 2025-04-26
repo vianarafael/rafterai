@@ -1,0 +1,5 @@
+If it has changed, then the 
+resource is downloaded again; if not, then the web server sends back a 304 Not Modified response, and the 
+object in the cache is renewed for another 120 seconds.
+
+Some organizations will use a web caching server in front of their main web servers.

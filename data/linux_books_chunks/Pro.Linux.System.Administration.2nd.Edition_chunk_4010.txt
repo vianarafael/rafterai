@@ -1,0 +1,14 @@
+Adding a life-cycle rule
+
+Click “Add rule” to start adding our rule.
+In Figure 14-5 we are creating a life-cycle policy that is concerned only with objects that have the 
+
+“nightly” prefix in their keys. Now we click Configure Rule.
+
+654
+
+Chapter 14 ■ BaCkup and reCovery
+
+Figure 14-5.  Setting life-cycle policy target
+
+In Figure 14-6 you can see there are three nobs we can tweak.

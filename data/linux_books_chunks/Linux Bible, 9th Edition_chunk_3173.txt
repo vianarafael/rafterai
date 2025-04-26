@@ -1,0 +1,2 @@
+That means that anyone who can watch the trafﬁ c on a network between your server 
+and your client can view your unprotected data.

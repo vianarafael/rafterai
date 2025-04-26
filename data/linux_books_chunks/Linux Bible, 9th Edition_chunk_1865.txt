@@ -1,0 +1,12 @@
+The 
+ password should be at least eight characters and contain a mixture of uppercase 
+and  lowercase letters, numbers, and punctuation. It should not contain real words, 
+
+260
+
+c11.indd  04/01/2015  Page 261
+
+Chapter 11: Managing User Accounts
+
+repeated letters, or letters in a row on the keyboard. Through this interface, you 
+must set a password that meets the above criteria.

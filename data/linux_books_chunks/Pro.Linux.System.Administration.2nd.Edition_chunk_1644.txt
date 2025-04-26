@@ -1,0 +1,3 @@
+Be we are just going to concentrate on explaining the command we have issued rather than its merits. 
+Breaking it down we are again working on the filter table. Next we are adding (-A) a rule to the IPV4-
+INCOMING chain.

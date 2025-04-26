@@ -1,0 +1,3 @@
+The local server checks that it is
+not authoritative for the linux-training.be domain, nor for the .be tld, and it is also not a root
+server.

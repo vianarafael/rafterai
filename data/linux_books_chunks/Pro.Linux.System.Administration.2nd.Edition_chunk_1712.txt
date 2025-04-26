@@ -1,0 +1,8 @@
+If we see 5 hits for the that rule in the 60 second time period then DROP those 
+connections.
+
+283
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+You can also use the firewall-cmd to enable logging and rate limiting.

@@ -1,0 +1,16 @@
+You can find out more about LiveCDs at http://en.wikipedia.org/wiki/Live_CD.
+
+You can find popular distributions such as the following in LiveCD format:
+
+•	 Ubuntu: https://help.ubuntu.com/community/LiveCD
+
+•	
+
+Fedora: http://fedoraproject.org/wiki/FedoraLiveCD
+
+•	 Debian: http://debian-live.alioth.debian.org/
+
+You can also find a full list of the many LiveCDs available at www.livecdlist.com/.
+
+Virtual Machines
+You can also run your Linux distribution on a virtual machine.

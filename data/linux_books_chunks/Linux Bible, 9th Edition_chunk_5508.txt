@@ -1,0 +1,10 @@
+For both users’ and authors’ sake, the GPL requires that 
+modiﬁ ed versions be marked as changed, so that their problems will not be attributed 
+erroneously to authors of previous versions.
+
+both.indd  04/07/2015  Page 2
+
+GNU General Public License
+
+Some devices are designed to deny users access to install or run modiﬁ ed versions of the 
+software inside them, although the manufacturer can do so.

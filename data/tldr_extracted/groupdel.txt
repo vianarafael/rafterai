@@ -1,0 +1,6 @@
+# groupdel
+
+
+- Delete an existing group:
+
+`sudo groupdel {{group_name}}`

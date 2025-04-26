@@ -1,0 +1,8 @@
+Visit the website of the certiﬁ cate signing authority you choose, and request 
+a signed certiﬁ cate. At some point, the CA site will probably ask you to copy and 
+paste the contents of your CSR (server.csr ﬁ le in this example) into a form 
+needed to make the request.
+
+17
+
+4.

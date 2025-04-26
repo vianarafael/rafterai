@@ -1,0 +1,7 @@
+Click a task to minimize or maximize it.
+
+The following sections describe some things you can do with the GNOME panel.
+
+Using the Applications and System menus
+Click Applications on the panel, and you see categories of applications and system tools 
+that you can select. Click the application you want to launch.

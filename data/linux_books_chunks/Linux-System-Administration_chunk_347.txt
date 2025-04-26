@@ -1,0 +1,8 @@
+A
+disadvantage is that file system checks on ext2 can take a long time.
+
+ext2 was being replaced by ext3 on most Linux machines. They are essentially the same,
+except for the journaling which is only present in ext3.
+
+Journaling  means  that  changes  are  first  written  to  a  journal  on  the  disk.  The  journal  is
+flushed regularly, writing the changes in the file system.

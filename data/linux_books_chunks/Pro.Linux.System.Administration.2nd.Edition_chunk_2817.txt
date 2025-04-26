@@ -1,0 +1,4 @@
+As 
+
+with many other Linux configuration files, # signifies comments, and options are in the form of <name> 
+<directive>.

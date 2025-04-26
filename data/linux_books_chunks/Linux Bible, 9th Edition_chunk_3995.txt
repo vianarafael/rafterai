@@ -1,0 +1,7 @@
+In other words, 
+all your processes stay active and they don’t lose any data or fail completely, but 
+the system performance can signiﬁ cantly slow down.
+
+ ■ If both RAM and swap are full, and no data can be discarded or written to disk, 
+
+your system can reach an out-of-memory (OOM) condition.

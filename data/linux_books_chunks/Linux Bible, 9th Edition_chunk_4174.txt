@@ -1,0 +1,13 @@
+The following examples display boot IDs 
+and then show boot messages for a selected boot ID:
+
+# journalctl --list-boots
+-2 eb3d5cbdda8f4f8da7bdbc71fb94e61e 
+    Sun 2014-08-17 15:33:30 EDT—Wed 2014-08-20 06:43:29 EDT
+-1 534713a5a65c41c1b5b3d056487a16db 
+    Wed 2014-08-20 06:45:15 EDT—Fri 2014-08-29 12:01:01 EDT
+ 0 64147da7154b4499a312a88a696c19bd 
+    Fri 2014-08-29 23:14:38 EDT—Sun 2014-09-14 07:15:26 EDT
+# journalctl -b 534713a5a65c41c1b5b3d056487a16dbb
+-- Logs begin at Sun 2014-08-17 15:33:30 EDT, end at 
+    Sun 2014-09-14 07:23:09 EDT.

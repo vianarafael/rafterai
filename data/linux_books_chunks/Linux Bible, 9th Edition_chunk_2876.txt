@@ -1,0 +1,6 @@
+1 root root 37 Nov  2 22:29 abrt-ccpp.service ->
+    /lib/systemd/system/abrt-ccpp.service
+lrwxrwxrwx. 1 root root 33 Nov  2 22:29 abrtd.service ->
+    /lib/systemd/system/abrtd.service
+...
+lrwxrwxrwx.

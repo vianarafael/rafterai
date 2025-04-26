@@ -1,0 +1,11 @@
+You can see this example network in Figure 7-1.
+
+218
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-1.  Our example network
+
+Here is our complete network diagram. By the end of this chapter, this diagram will not be as daunting 
+as it may appear now. We are going to take you through what the components of this are and how they are 
+configured.

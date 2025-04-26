@@ -1,0 +1,10 @@
+Summary of actions
+
+96
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Summary
+This Chapter has introduced you to some handy virtualization software which will help you quickly and 
+safely experiment and play with Linux. We have also shown you some of the tools that we use to develop and 
+test our server configuration code.

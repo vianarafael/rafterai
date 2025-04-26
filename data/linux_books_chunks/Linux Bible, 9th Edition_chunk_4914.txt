@@ -1,0 +1,11 @@
+For 
+this example, I allowed read-write access (rw) to all systems on the 192.168.0 
+subnetwork:
+
+/var/storage 192.168.0.*(no_root_squash,rw,sync)
+
+Step 3: Start the NFS service
+Start the NFS service and open the ﬁ rewall on the storage system to allow access to that 
+service. Here’s how:
+
+a.  Start and enable NFS.

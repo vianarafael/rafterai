@@ -1,0 +1,9 @@
+The Bash shell is especially powerful, and you’ll find yourself 
+wondering how you ever got by without a command shell.
+
+Learn a bit more about globbing and regular expressions—you’ll find both useful 
+and powerful tools in your arsenal when administering your hosts.
+
+•	 Don’t use the root user to administer your host. Instead, make use of the sudo 
+
+command.

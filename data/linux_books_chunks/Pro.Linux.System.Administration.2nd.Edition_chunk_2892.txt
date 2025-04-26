@@ -1,0 +1,39 @@
+Require Options
+
+Require all granted
+
+Allow access unconditionally.
+
+Require all denied
+
+Deny access unconditionally.
+
+Require env <envvar>
+
+Access is granted if an environment variable is set.
+
+Require method <method>
+
+Access is granted to certain HTTP methods.
+
+Require expr <expression>
+
+Access is granted if the expression is true.
+
+Require user <userid>
+
+Access is granted only to these users (mod_authz_user).
+
+Require group <group-name>
+
+Access is granted to users in specified groups (mod_authz_groupfile).
+
+Require valid-user
+
+Access is granted to an authorized user.
+
+Require ip <IPaddress>
+
+Access is granted to clients within the IP address range.
+
+The other way to restrict access to resources is by requiring users to enter a username and password.

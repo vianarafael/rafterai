@@ -1,0 +1,6 @@
+To conﬁ gure a printer to work as a Microsoft 
+Windows style of print server, you can use the Samba service in Linux.
+
+This chapter focuses on CUPS. In particular, it shows you the graphical front end to CUPS, called 
+the Print Settings window, which comes with Fedora, Red Hat Enterprise Linux, and other Linux 
+distributions.

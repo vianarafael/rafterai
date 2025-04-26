@@ -1,0 +1,11 @@
+We will see more details
+later on the relation between a dns server and a dns zone.
+
+A dns zone consists of records, also called resource records. We will list some of those
+resource records on the next page.
+
+123
+
+introduction to DNS
+
+10.2.8.

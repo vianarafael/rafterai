@@ -1,0 +1,4 @@
+You then get Bareos to back it up; Bareos can delete it by running the Client Run After 
+Job script (see Listing 16-5).
+
+Listing 16-5.

@@ -1,0 +1,10 @@
+For example, if you can’t type ls to view ﬁ les in 
+the /root directory, you can’t locate ﬁ les stored in that directory.
+
+125
+
+c05.indd  04/01/2015  Page 126
+
+Part II: Becoming a Linux Power User
+
+ ■ When you search for a string, the string can appear anywhere in a ﬁ le’s path.

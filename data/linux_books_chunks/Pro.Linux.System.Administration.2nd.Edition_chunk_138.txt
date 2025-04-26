@@ -1,0 +1,5 @@
+In small 
+startups and home networks it is common to name hosts after favorite TV characters, bands, or mythical 
+creatures. While this is fun, it soon becomes annoying when you have multiple hosts in multiple geographical 
+locations doing particular jobs. Plus you have used all your favorite characters first and it becomes really hard 
+when you have to kill off your “pet” server.

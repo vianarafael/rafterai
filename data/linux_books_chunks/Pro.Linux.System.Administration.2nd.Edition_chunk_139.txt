@@ -1,0 +1,3 @@
+Our hostname is au-mel-centos-1, as we prefer the descriptive 
+naming standard region-city-OS type-number. As another example of a descriptive naming format, if you have 
+a file server in the United States with an IP address ending in 155, you could choose us-ny-fileserver-155.

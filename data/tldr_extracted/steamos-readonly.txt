@@ -1,0 +1,10 @@
+# steamos-readonly
+
+
+- Set the filesystem to be mutable:
+
+`sudo steamos-readonly disable`
+
+- Set the filesystem to be read only:
+
+`sudo steamos-readonly enable`

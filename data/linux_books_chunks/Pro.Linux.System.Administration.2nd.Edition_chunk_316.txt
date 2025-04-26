@@ -1,0 +1,9 @@
+Selected CentOS ISO is ready
+
+81
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+We are now ready to install our operating system. Simply follow the steps in Chapter 2. An alternative 
+
+way of getting a machine up and running quickly, however, is to use another tool, Vagrant.

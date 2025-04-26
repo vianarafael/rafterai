@@ -1,0 +1,3 @@
+A long listing (ownership, permission, size, 
+and so on) is printed with each ﬁ le when you add -ls to the find command (similar to 
+output of the ls -l command).

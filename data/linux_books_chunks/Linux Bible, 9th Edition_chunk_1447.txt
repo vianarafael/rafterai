@@ -1,0 +1,12 @@
+The second 
+installation procedure I show in this chapter steps you through an installation process from 
+a Red Hat Enterprise Linux 7 installation DVD.
+
+201
+
+c09.indd  04/01/2015  Page 202
+
+Part III: Becoming a Linux System Administrator
+
+ ■ Installing in the enterprise—Sitting in front of a computer and clicking through 
+installation questions isn’t inconvenient if you are installing a single system.

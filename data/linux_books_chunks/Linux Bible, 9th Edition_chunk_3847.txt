@@ -1,0 +1,38 @@
+Here are a few ﬁ les 
+you might ﬁ nd in the /etc/rc3.d/ directory, which are set to start up (with a description 
+of each to the right):
+
+563
+
+c21.indd  04/01/2015  Page 564
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ S01sysstat—Start gathering system statistics.
+
+ ■ S08iptables—Start iptables ﬁ rewall.
+
+ ■ S10network—Start network interfaces.
+
+ ■ S12rsyslog—Start system logging.
+
+ ■ S28autofs—Start automounter.
+
+ ■ S50bluetooth—Start Bluetooth service.
+
+ ■ S55sshd—Start the secure shell service.
+
+ ■ S58ntpd—Start NTP time synchronization service.
+
+ ■ S85httpd—Start the Apache web service.
+
+ ■ S90crond—Start the crond service.
+
+ ■ S91smb—Start the samba service.
+
+ ■ S97rhnsd—Start the Red Hat Network service.
+
+ ■ S99local—Start user-deﬁ ned local commands.
+
+This example of a few services started from the /etc/rc3.d directory should give you 
+a sense of the order in which processes boot up when you enter runlevel 3.

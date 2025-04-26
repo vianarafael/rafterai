@@ -1,0 +1,7 @@
+Store YUM repository metadata to local RPM database
+The metadata contained in each RPM package that is installed is ultimately copied into the 
+local RPM database. The RPM database is contained in ﬁ les stored in the /var/lib/rpm 
+directory.
+
+After information about installed packages is in the local RPM database, you can do all 
+sorts of queries of that database.

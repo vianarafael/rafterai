@@ -1,0 +1,9 @@
+When we run a purge on our backup files, the actual 
+
+files are not deleted until we run a --force option with our command. We can still keep our files in S3 for 
+12 months, but they will not be in the duply catalog. Having many months of backups can slow our duply 
+commands down.
+
+MAX_AGE=1M
+
+That is all we need to configure for the conf file.

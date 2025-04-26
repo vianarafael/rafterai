@@ -1,0 +1,11 @@
+If you do that as a 
+
+regular user, you are prompted for the root password.
+
+ ■ From a GNOME 2.X desktop, select System Administration Date & Time.
+
+ ■ From a GNOME 3 desktop, select Activities and type System-Conﬁ g-Date. When 
+the Date & Time window opens, select the Time Zone tab to check your time 
+zone.
+
+2.

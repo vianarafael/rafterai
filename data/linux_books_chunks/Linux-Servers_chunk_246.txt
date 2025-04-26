@@ -1,0 +1,13 @@
+installing mysql
+
+On Debian/Ubuntu you can use aptitude install mysql-server to install the mysql server
+and client.
+
+root@ubu1204~# aptitude install mysql-server
+The following NEW packages will be installed:
+  libdbd-mysql-perl{a} libdbi-perl{a} libhtml-template-perl{a}
+  libnet-daemon-perl{a} libplrpc-perl{a} mysql-client-5.5{a} 
+  mysql-client-core-5.5{a} mysql-server mysql-server-5.5{a}
+  mysql-server-core-5.5{a} 
+0 packages upgraded, 10 newly installed, 0 to remove and 1 not upgraded.
+Need to get 25.5 MB of archives.

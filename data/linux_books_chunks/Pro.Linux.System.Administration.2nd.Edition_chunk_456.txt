@@ -1,0 +1,8 @@
+We can fix 
+that. Let’s start by correcting the command. We can bring back a previously typed command by using the up 
+arrow key. Do that now, and you can see that the previous command has returned to the command line:
+
+$ whoamii
+
+Bash usefully has what is called command history, which keeps track of a number of the previous 
+commands typed.

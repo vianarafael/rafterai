@@ -1,0 +1,27 @@
+Getting the Status of the postfix Service
+
+$ sudo systemctl status postfix.service
+• postfix.service - Postfix Mail Transport Agent
+   Loaded: loaded (/usr/lib/systemd/system/postfix.service; enabled; vendor preset: 
+disabled)
+   Active: active (running) since Wed 2016-04-27 20:35:10 AEST; 3h 0min ago
+  Process: 642 ExecStart=/usr/sbin/postfix start (code=exited, status=0/SUCCESS)
+  Process: 636 ExecStartPre=/usr/libexec/postfix/chroot-update (code=exited, status=0/
+SUCCESS)
+  Process: 621 ExecStartPre=/usr/libexec/postfix/aliasesdb (code=exited, status=0/SUCCESS)
+ Main PID: 993 (master)
+   CGroup: /system.slice/postfix.service
+           ├─ 993 /usr/libexec/postfix/master -w
+           ├─1003 qmgr -l -t unix -u
+           └─1926 pickup -l -t unix -u
+
+204
+
+Chapter 6 ■ Startup and ServiCeS
+
+Apr 27 20:35:09 au-mel-centos-1 systemd[1]: Starting Postfix Mail Transport Agent...
+Apr 27 20:35:10 au-mel-centos-1 postfix/master[993]: daemon started -- version 2.10.1, 
+configuration /etc/postfix
+Apr 27 20:35:10 au-mel-centos-1 systemd[1]: Started Postfix Mail Transport Agent.
+
+We see a lot of detail here.

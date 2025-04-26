@@ -1,0 +1,11 @@
+Click Advanced 
+Options, and make sure the “bridge0” entry is selected. Select Customize 
+Conﬁ guration Before Install to further review settings. Leave other settings at the 
+default for now, and click Finish.
+
+g.  Review the hardware settings. If you selected “Customize” on the previous 
+
+screen, you can review the settings in more detail. When you are satisﬁ ed, select 
+Begin Installation.
+
+h.

@@ -1,0 +1,10 @@
+Xen has been around longer than KVM and is 
+supported in products from Citrix Systems and Oracle.
+
+Later in this chapter, I describe how to check to see if a computer has the hardware 
+ features to be used as a hypervisor and how to conﬁ gure it to be used with KVM.
+
+Cloud controllers
+Because a cloud conﬁ guration can include multiple hypervisors, pools of storage, multiple 
+virtual networks, and many virtual machines, you need centralized tools to manage 
+and monitor those features.

@@ -1,0 +1,6 @@
+You should look 
+into legal issues and other movie player options if you want to play commercial DVD movies from Linux.
+
+The options to connect regular USB ﬂ ash drives or hard drives are not listed on this 
+ window. But if you connect one of those drives to your computer, devices are created 
+when you plug them in (named /dev/sda, /dev/sdb, and so on).

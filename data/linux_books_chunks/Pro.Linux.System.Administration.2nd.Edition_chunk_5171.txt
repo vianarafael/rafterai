@@ -1,0 +1,6 @@
+Make sure you carefully document each message, 
+the response to the message, and any special information that relates to this message.
+
+Introducing Beats and Logstash
+We looked at how the system write logs and manages them; now we want to take a look at the next level of 
+logging, namely, shipping and transforming those logs into useful information.

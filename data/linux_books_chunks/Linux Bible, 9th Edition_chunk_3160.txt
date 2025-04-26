@@ -1,0 +1,6 @@
+Although shown as a subdirectory that you create under the 
+default DocumentRoot (/var/www/html), often sites are attached to the home 
+directories of speciﬁ c users (such as /home/chris/public_html) so that each 
+site can be managed by a different user.
+
+2.

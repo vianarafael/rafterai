@@ -1,0 +1,26 @@
+Depending on the performance 
+
+of your host (and, if you are importing over the network, the speed of your connection), this may take some 
+time.
+
+920
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+You can view the distributions install via this command:
+
+$ sudo cobbler distro list
+   CentOS7-x86_64
+   Ubuntu-16.04-x86_64
+
+The import will create two profiles as well; we can see them with this command:
+
+$ sudo cobbler profile list
+   CentOS7-x86_64
+   Ubuntu-16.04-x86_64
+
+After you’ve created your distribution and profile, you can see the full details in Cobbler using the 
+
+report option, as shown in Listing 19-3.
+
+Listing 19-3.

@@ -1,0 +1,13 @@
+You can decide what is 
+
+recorded in your Apache logs by using the LogFormat directive.
+
+LogFormat "%v:%p %h %l %u %t \"%r\" %>s %O \"%{Referer}i\" \"%{User-Agent}i\""  
+vhost_combined
+
+478
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Apache interprets each %<value> in the string and allows you to format your logging output in a way 
+that is useful to you.

@@ -1,0 +1,10 @@
+For example:
+
+# mkfs -t ext4 /dev/mapper/myvg0-music
+# mkdir /mnt/mymusic
+# mount /dev/mapper/myvg0-music /mnt/mymusic
+# df -h /mnt/mymusic
+Filesystem               Size  Used Avail Use%  Mounted on
+/dev/mapper/myvg0-music   97M  5.6M   87M   7%  /mnt/mymusic
+
+6.

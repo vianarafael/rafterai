@@ -1,0 +1,8 @@
+If 
+you were on a Mac and starting an Apache service, it would use launchctl—it uses whatever is appropriate 
+for the system it is run on.
+
+We can see if it has started using the normal systemctl command, and we can see the logs here:
+
+$ sudo journalctl -u puppetserver -f
+-- Logs begin at Tue 2016-12-20 09:24:04 UTC.

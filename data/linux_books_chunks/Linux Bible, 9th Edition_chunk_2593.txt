@@ -1,0 +1,6 @@
+You can start with one bonding ﬁ le (for example, ifcfg-bond0), and then point multiple 
+ifcfg-eth? ﬁ les at that bond interface. Then you can load the bond module.
+
+Depending on the type of bonding you want to do, you can set your bonding interface 
+to different modes. Using the BONDING_OPTS variable, you deﬁ ne the mode and other 
+bonding options (all of which are passed to the bonding module).

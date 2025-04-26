@@ -1,0 +1,21 @@
+This time, though, we make 
+a spelling error and type the wrong command name:
+
+$ whoamii
+
+ Throughout this book, we’re going to abbreviate the shell prompt to just the final prompt character, 
+
+ ■ Note 
+either $ or #.
+
+We then press the Enter key to run the command and find that Bash has returned the following 
+
+response:
+
+-bash: whoamii: command not found
+
+108
+
+ChapTeR 4 ■ LInux BasICs
+
+So what happened? Well, Bash is telling us that no command called whoami exists on the host.

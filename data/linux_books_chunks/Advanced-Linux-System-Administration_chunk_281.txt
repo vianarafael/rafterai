@@ -1,0 +1,6 @@
+Monitor changed files and generate email alert
+
+A 128-bit fingerprint (or “message-digest) for a file can be computed with md5sum. 
+
+The foillowing script will check the MD5 checksums for all the files in /etc and compare the 
+output from each run with diff.

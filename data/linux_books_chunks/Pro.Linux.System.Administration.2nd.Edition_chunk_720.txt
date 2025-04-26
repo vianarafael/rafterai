@@ -1,0 +1,38 @@
+In this chapter, we’re going to explain a bit more about 
+what happens when you log in, and we’ll begin to explore some of the options and security controls that you 
+can manage as part of this process.
+
+So what actually happens after you enter your username and password and before you are delivered to 
+your command-line prompt or graphical user interface (GUI) screen? Well, this process varies slightly from 
+distribution to distribution, but generally an application called login is executed and performs the following 
+actions:
+
+•	 Checks that the user and group exist and the user is allowed to log in
+
+•	 Checks that the user is allowed to log in from a particular location (e.g., only some 
+
+users can log in to the console, or the screen attached to a Linux host)
+
+•	 Checks that the password is correct, and, if the password is incorrect, allows a 
+
+specified number (usually three) of retries
+
+•	 Checks that the password is valid and prompts the user for a new password if it has 
+
+expired
+
+•	
+
+•	
+
+•	
+
+Sets environment variables like the user’s home directory and path
+
+Starts the shell process
+
+Presents the user with a command-line prompt or GUI screen
+
+147
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

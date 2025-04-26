@@ -1,0 +1,5 @@
+The --sign option 
+tells the gpg2 utility that MessageForChristine.txt is the ﬁ le to encrypt and use to 
+ create the digital signature. In response, the gpg2 utility:
+
+ ■ Creates a message digest (a.k.a.

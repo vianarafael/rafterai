@@ -1,0 +1,21 @@
+(If you want to share this printer 
+with other computers on your network, refer to the section “Conﬁ guring Print 
+Servers,” later in this chapter.)
+
+16
+
+Editing a local printer
+After double-clicking the printer you want to conﬁ gure, choose from the following menu 
+options to change its conﬁ guration:
+
+ ■ Settings—The Description, Location, Device URI, and Make and Model information 
+
+you created earlier are displayed in this dialog box.
+
+ ■ Policies—Click Policies to set the following items:
+
+ ■ State—Select check boxes to indicate whether the printer will print jobs that 
+
+are in the queue (Enabled), accept new jobs for printing (Accepting Jobs), or be 
+available to be shared with other computers that can communicate with your 
+computer (Shared).

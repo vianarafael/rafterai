@@ -1,0 +1,6 @@
+# fprintd
+
+
+- Display the man page for `fprintd`:
+
+`man fprintd`

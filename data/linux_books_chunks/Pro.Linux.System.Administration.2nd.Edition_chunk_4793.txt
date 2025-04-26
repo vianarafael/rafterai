@@ -1,0 +1,3 @@
+When clients 
+try to access the https://ldap.example.com web site, they will be required to enter their LDAP username 
+and password before they gain access.

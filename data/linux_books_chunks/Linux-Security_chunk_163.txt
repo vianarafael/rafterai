@@ -1,0 +1,15 @@
+Create a file named welcome.txt and make sure every new user will see this file in their
+home directory.
+
+9. Verify this setup by creating (and deleting) a test user account.
+
+10. Change the default login shell for the serena user to /bin/bash. Verify before and after
+you make this change.
+
+17
+
+user management
+
+2.14. solution: user management
+
+1.

@@ -1,0 +1,6 @@
+For a server, it may be linked to the multi-user.target ﬁ le; for a desktop, it 
+is linked to the graphical.target ﬁ le (as is shown here).
+
+Unlike with the System V init facility, which just runs service scripts in alphanumeric 
+order, the systemd service needs to work backward from the default.target to deter-
+mine which services and other targets are run.

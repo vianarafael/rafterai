@@ -1,0 +1,6 @@
+However, for each auth context, a different control ﬂ ag and PAM module are used. Each 
+control ﬂ ag has a special meaning and function.
+
+Understanding PAM control flags
+In a PAM conﬁ guration ﬁ le, control ﬂ ags are used to determine the overall status, which 
+are returned to the application.

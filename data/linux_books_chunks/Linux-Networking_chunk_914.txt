@@ -1,0 +1,20 @@
+inherit permissions
+
+With inherit permissions = yes you can force newly created files and directories to inherit
+permissions  from  their  parent  directory,  overriding  the  create  mask  and  directory  mask
+settings.
+
+[authwrite]
+ path = /srv/samba/authwrite
+ comment = authenticated users only
+ read only = no  
+ guest ok = no   
+ create mask = 600
+ directory mask = 555
+ inherit permissions = yes
+
+240
+
+samba securing shares
+
+21.5.

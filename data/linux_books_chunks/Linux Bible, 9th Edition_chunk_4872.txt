@@ -1,0 +1,14 @@
+You can use the virsh command to pass options 
+
+733
+
+c26.indd  04/01/2015  Page 734
+
+Part VI: Extending Linux into the Cloud
+
+to the command line to work with virtual machines, instead of clicking in a GUI 
+window.
+
+ ■ Virtualization Viewer—The virt-viewer command launches a virtual machine 
+
+console window on your desktop.

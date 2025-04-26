@@ -1,0 +1,4 @@
+Some networks have already migrated to this new address space.
+
+however, there is no need to panic if you do not have an Ipv6 address. Many ISps offer a “dual-stack,” 
+offering Ipv4 and Ipv6 to their customers, while they themselves connect to other networks via Ipv6.

@@ -1,0 +1,7 @@
+A better way to change these values, however, is to use 
+the usermod command (see the section “Modifying Users with usermod” in Chapter 11 for 
+ further information).
+
+At this point, any command you run from your shell is run with root privilege. So be 
+ careful. You have much more power to change (and damage) the system than you did as a 
+regular user.

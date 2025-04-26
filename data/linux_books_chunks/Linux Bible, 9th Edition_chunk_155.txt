@@ -1,0 +1,6 @@
+Before you start putting your hands on Linux (which we will do 
+soon enough), Chapter 1 seeks to answer some of your questions about the origins and fea-
+tures of Linux.
+
+Take your time and work through this book to get up to speed on Linux and how you can 
+make it work to meet your needs.

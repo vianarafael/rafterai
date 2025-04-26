@@ -1,0 +1,7 @@
+At 
+the top, you can see how long the system has been up, how many users are currently logged 
+in to the system, and how much demand there has been on the system for the past 1, 5, 
+and 10 minutes.
+
+Other general information includes how many processes (tasks) are currently running, 
+how much CPU is being used, and how much RAM and swap are available and being used.

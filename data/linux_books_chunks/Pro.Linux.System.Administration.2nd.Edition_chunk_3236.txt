@@ -1,0 +1,20 @@
+In this case, we’re going to 
+
+bind to all network interfaces, which is the default.
+
+inet_interfaces = all
+
+Or we could use the postconf command.
+
+$ sudo postconf –e "inet_interfaces = all"
+
+You can be more selective, though, and if you wanted to bind Postfix to listen only on a single interface, 
+
+you could do so as follows:
+
+inet_interfaces = enp0s3
+
+ there is a setting called inet_protocols that controls which ip version postfix will attempt to use 
+
+ ■ Tip 
+when making or accepting connections.

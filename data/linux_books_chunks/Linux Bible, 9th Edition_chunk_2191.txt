@@ -1,0 +1,7 @@
+Suppose you want to remount /dev/sdb1 as read/write, but you do not want to 
+unmount it (maybe someone is using it). You could use the remount option as follows:
+
+# mount -t ext3 -o remount,rw /dev/sdb1
+
+Mounting a disk image in loopback
+Another valuable way to use the mount command has to do with disk images.

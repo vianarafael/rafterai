@@ -1,0 +1,11 @@
+Start by adding a .arpa zone to /etc/bind/named.conf.local like this (we set notify to no to
+avoid sending of notify messages to other name servers):
+
+root@ubu1010srv:/etc/bind# grep -A4 arpa named.conf.local 
+zone "1.168.192.in-addr.arpa" {
+ type master;
+ notify no;
+ file "/etc/bind/db.192";
+};
+
+3.

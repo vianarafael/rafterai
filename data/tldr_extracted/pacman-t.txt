@@ -1,0 +1,6 @@
+# pacman -T
+
+
+- View documentation for the original command:
+
+`tldr pacman deptest`

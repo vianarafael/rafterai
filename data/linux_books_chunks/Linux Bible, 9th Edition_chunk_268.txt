@@ -1,0 +1,6 @@
+It made Linux friendly for less technical users by  distributing 
+ software already compiled and grouped into packages (those packages of software 
+ components were in a format called tarballs). You would use basic Linux commands then 
+to do things like format your disk, enable swap, and create user accounts.
+
+Before long, many other Linux distributions were created.

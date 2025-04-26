@@ -1,0 +1,9 @@
+They assume you are booting a PC 
+with standard BIOS. To do these exercises, you need to be able to reboot your computer and 
+interrupt any work it may be doing.
+
+1.  Boot your computer, and as soon as you see the BIOS screen, go into Setup mode as 
+
+instructed on the BIOS screen.
+
+2.

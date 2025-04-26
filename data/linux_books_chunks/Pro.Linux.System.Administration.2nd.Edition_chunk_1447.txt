@@ -1,0 +1,3 @@
+This 
+is very handy if you have multiple interfaces and wish to test one of those. If you don’t define an address, it 
+will normally ping using the primary interface on the host, usually eth0.

@@ -1,0 +1,7 @@
+The /etc/rc.d/rc.local file needs to have the execute bit set (chmod +x rc.local) and 
+because we are running systemd and not SysVInit we need to make sure that systemd will execute it when 
+we restart our system. If you remember from Chapter 6 we do that by executing the following:
+
+$ sudo systemctl enable rc-local.service
+
+That is how we can manage different types of interfaces under CentOS.

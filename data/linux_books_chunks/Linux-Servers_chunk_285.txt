@@ -1,0 +1,32 @@
+left join
+
+A left join is different from an inner join in that it will take all rows from the left table,
+regardless of a match in the right table.
+
+mysql> select Name,Field,countryname from country left join people on people.countrycode=country.countrycode;
++-----------------+-----------+---------------+
+| Name            | Field     | countryname   |
++-----------------+-----------+---------------+
+| Guy Verhofstadt | politics  | Belgium       |
+| Justine Henin   | tennis    | Belgium       |
+| Kim Clijsters   | tennis    | Belgium       |
+| Deng Xiaoping   | politics  | China         |
+| Li Na           | tennis    | China         |
+| Liu Yang        | astronaut | China         |
+| NULL            | NULL      | Germany       |
+| NULL            | NULL      | Egypt         |
+| NULL            | NULL      | Spain         |
+| NULL            | NULL      | France        |
+| NULL            | NULL      | India         |
+| NULL            | NULL      | Japan         |
+| NULL            | NULL      | Mexico        |
+| Barack Obama    | politics  | United States |
+| Serena Williams | tennis    | United States |
+| Venus Williams  | tennis    | United States |
++-----------------+-----------+---------------+
+16 rows in set (0.00 sec)
+
+You can see that some countries are present, even when they have no matching records in
+the people table.
+
+3.7.

@@ -1,0 +1,5 @@
+Remember that SysVinit 
+keeps symbolic links here for starting and stopping various services at certain runlevels. 
+Each directory represents a particular runlevel; for example, rc5.d is for runlevel 5. Notice 
+that only ﬁ les starting with a K are listed, so there are links for killing off the cups dae-
+mon.

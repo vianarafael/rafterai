@@ -1,0 +1,5 @@
+Problems can occur with your computer BIOS, boot loader, or other parts of the boot process 
+that you can correct by intercepting them at different stages of the boot process.
+
+After the system has started, you can troubleshoot problems with software packages, 
+network interfaces, or memory exhaustion.

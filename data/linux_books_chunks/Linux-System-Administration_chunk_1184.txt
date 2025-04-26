@@ -1,0 +1,16 @@
+tracing with strace ..................................................................................................................... 349
+
+324
+
+Chapter 28. the Linux kernel
+
+325
+
+the Linux kernel
+
+28.1. about the Linux kernel
+
+28.1.1. kernel versions
+
+In 1991 Linux Torvalds wrote (the first version of) the Linux kernel. He put it online, and
+other people started contributing code.

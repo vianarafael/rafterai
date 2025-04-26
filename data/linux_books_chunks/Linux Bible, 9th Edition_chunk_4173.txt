@@ -1,0 +1,8 @@
+For example, to follow kernel messages or httpd messages 
+as they come in, add the -f option (press Ctrl+C when you are ﬁ nished):
+
+# journalctl -k -f
+# journalctl -f -u NetworkManager.service
+
+To check only boot messages, you can list the boot IDs for all system boots and then boot 
+the particular boot instance that interests you.

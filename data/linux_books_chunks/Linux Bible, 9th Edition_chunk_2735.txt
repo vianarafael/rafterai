@@ -1,0 +1,7 @@
+Remember that a target 
+unit is simply a grouping of other units, as shown in the preceding example. Also notice 
+that the units in this group are not all service units. There are path units and other target 
+units as well.
+
+A target unit has both Wants and requirements, called Requires. A Wants means that all 
+the units listed are triggered to activate (start).

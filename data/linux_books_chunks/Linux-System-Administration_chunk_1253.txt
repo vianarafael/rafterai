@@ -1,0 +1,5 @@
+ltrace
+
+The ltrace program allows to see all the calls made to library functions by a program. The
+example below uses the -c option to get only a summary count (there can be many calls),
+and the -l option to only show calls in one library file.

@@ -1,0 +1,5 @@
+LVM also 
+ supports advanced features, such as mirroring and working in clusters.
+
+Checking an existing LVM
+Let’s start by looking at an existing LVM example on a Red Hat Enterprise Linux system.

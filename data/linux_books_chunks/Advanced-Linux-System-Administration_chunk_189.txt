@@ -1,0 +1,18 @@
+44
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Let's first show how to reduce the existing 150MB logical volume lv0 with the esfsadm 
+tool installed by the lvm package.
+
+umount /mnt/lvm
+
+e2fsadm -L 25 /dev/volumeA/lv0
+
+NOTICE 
+
+The -L option refers to size in megabytes.  The is the case with most LVM tools.

@@ -1,0 +1,10 @@
+Additional e-mails would be appended to this file. As a result, if you have a large volume of 
+e-mail, these files can become unwieldy to manage, search, and back up.
+
+539
+
+Chapter 12 ■ Mail ServiCeS
+
+ALIASES
+
+When e-mail reaches your host, postfix looks at the recipient to determine who to deliver it to.

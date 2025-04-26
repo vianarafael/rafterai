@@ -1,0 +1,20 @@
+More information can be otained
+on the website www.kernel.org.
+
+Anyone can anonymously use an ftp client to access ftp.kernel.org
+
+paul@laika:~$ ftp ftp.kernel.org
+Connected to pub3.kernel.org.
+220 Welcome to ftp.kernel.org.
+Name (ftp.kernel.org:paul): anonymous
+331 Please specify the password.
+Password:
+230-       Welcome to the
+230-
+230-   LINUX KERNEL ARCHIVES
+230-       ftp.kernel.org
+
+All the Linux kernel versions are located in the pub/linux/kernel/ directory.
+
+ftp> ls pub/linux/kernel/v*
+200 PORT command successful.

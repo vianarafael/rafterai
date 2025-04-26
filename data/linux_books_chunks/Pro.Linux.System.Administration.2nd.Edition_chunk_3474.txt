@@ -1,0 +1,12 @@
+To do this, we can use two main methods to leverage our newly acquired headers 
+to move the e-mail to where we want it to go. These methods are
+
+•	 Use a Local Mail Transfer Protocol (LTMP) agent like Dovecot
+
+•	 Use MDAs like procmail or maildrop
+
+•	 Use Mail client rules or filtering
+
+Using Dovecot
+
+We have seen Dovecot before for configuring our SMTP authentication.

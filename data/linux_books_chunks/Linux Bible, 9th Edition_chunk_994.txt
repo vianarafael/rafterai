@@ -1,0 +1,7 @@
+The 
+last example, -perm +002, is very useful for ﬁ nding ﬁ les that have open write permission 
+for “other,” regardless of how the other permission bits are set.
+
+Finding files by date and time
+Date and time stamps are stored for each ﬁ le when it is created, when it is accessed, when 
+its content is modiﬁ ed, or when its metadata is changed.

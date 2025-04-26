@@ -1,0 +1,12 @@
+The ﬁ le named file.txt can be read and changed 
+by members of the sales group (based on the second rw-).
+
+268
+
+c11.indd  04/01/2015  Page 269
+
+Chapter 11: Managing User Accounts
+
+Using group accounts
+Every user is assigned to a primary group. In Fedora and RHEL, by default, that group is 
+a new group with the same name as the user.

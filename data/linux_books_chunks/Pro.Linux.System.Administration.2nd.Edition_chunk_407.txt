@@ -1,0 +1,9 @@
+Rather, it’ll prepare you to 
+
+ ■ Note 
+take the first steps to deploy your Linux infrastructure.
+
+Getting Started
+If you haven’t already installed a Linux host, the easiest way to try out Linux commands prior to tackling a 
+Linux install is to try a LiveCD. LiveCDs are Linux distributions on a CD, DVD, or USB. To use a LiveCD, you 
+need to download an image, in the form of an ISO file.

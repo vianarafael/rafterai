@@ -1,0 +1,3 @@
+We’ve chosen to cover a Red Hat–derived distribution and Ubuntu, a 
+Debian-derived distribution. We’ve chosen these because they represent good examples of the two major 
+families of distributions.

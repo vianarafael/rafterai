@@ -1,0 +1,12 @@
+Because backup.tar is an argument 
+to the f option, backup.tar must immediately follow the option.
+
+Here are a few commands you can try out. See how they behave differently with 
+different options:
+
+$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates
+   Videos
+$ ls -a
+.              Desktop     .gnome2_private  .lesshst       Public
+..

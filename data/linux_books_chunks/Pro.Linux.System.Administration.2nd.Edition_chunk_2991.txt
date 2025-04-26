@@ -1,0 +1,7 @@
+Creating a GRANT for users
+
+We could limit access to tables in a single database called mydb by using mydb.* instead. Finally, we 
+specify GRANT OPTION, which gives this user permission to use the GRANT statement. Table 11-6 shows the 
+possible privileges.
+
+Table 11-6.

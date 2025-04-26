@@ -1,0 +1,4 @@
+If that is the case, you might 
+also want to use that same system as a ﬁ rewall that does network address translation (NAT) 
+and provides DHCP service, so the systems on the private network can route through the 
+Linux system using private IP addresses.

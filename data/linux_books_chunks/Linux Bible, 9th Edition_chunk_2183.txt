@@ -1,0 +1,3 @@
+(This ﬁ eld is no longer particularly use-
+ful because most Linux administrators use more sophisticated backup options than 
+the dump command.

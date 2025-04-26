@@ -1,0 +1,9 @@
+This of course is different on 
+
+Ubuntu (/etc/collectd/collectd.conf.d/) compared to CentOS (/etc/collectd.d/).
+
+810
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+There is a required format for the configuration files used with Collectd.

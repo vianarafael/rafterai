@@ -1,0 +1,4 @@
+The following code example shows the init daemon on 
+a Linux Mint distribution being searched for systemd and Upstart init daemon 
+references. The search for systemd yields nothing. However, the search for Upstart 
+produces results.

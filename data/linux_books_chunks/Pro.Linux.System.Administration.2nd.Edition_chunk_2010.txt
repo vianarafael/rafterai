@@ -1,0 +1,6 @@
+A best practice is to always check if a 
+package is available in the distribution itself before you download it from a third-party source.
+
+Removing a Package
+You have two different ways of removing an Ubuntu package: one is to remove the package, and the other 
+is to purge the package from the system altogether.

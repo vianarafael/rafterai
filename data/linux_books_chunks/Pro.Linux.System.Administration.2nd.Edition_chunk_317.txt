@@ -1,0 +1,7 @@
+We will show you 
+that in a moment, but first we want to show you Git (we actually really just want the terminal emulator but it 
+doesn’t hurt to have Git working on your system).
+
+Installing Git
+One of the tools you will find very handy throughout your development and system administration tasks is 
+Git.

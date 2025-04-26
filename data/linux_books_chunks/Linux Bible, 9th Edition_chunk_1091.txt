@@ -1,0 +1,9 @@
+For example, take job 5 from the jobs list in the previous example:
+
+[5]+ Stopped nroff -man man4/* >/tmp/man4
+
+Type the following:
+
+$ bg %5
+
+After that, the job runs in the background.

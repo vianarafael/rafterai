@@ -1,0 +1,22 @@
+Instead, make your changes
+# in /etc/cobbler/dhcp.template, as /etc/dhcpd.conf will be
+# overwritten.
+#
+# ******************************************************************
+
+ddns-update-style interim;
+
+allow booting;
+allow bootp;
+
+ignore client-updates;
+set vendorclass = option vendor-class-identifier;
+
+option pxe-system-type code 93 = unsigned integer 16;
+
+key dynamic-update-key {
+        algorithm hmac-sha256;
+        secret "RZqM/JutbhgHiBR8ICG0LDyN+9c1LpNU83ycuU9LPaY=";
+}
+
+zone 0.168.192.in-addr.arpa.

@@ -1,0 +1,6 @@
+xinetd superdaemon
+
+The xinetd daemon is often called a superdaemon because it listens to a lot of incoming
+connections, and starts other daemons when they are needed. When a connection request
+is received, xinetd will first check TCP wrappers (/etc/hosts.allow and /etc/hosts.deny) and
+then give control of the connection to the other daemon.

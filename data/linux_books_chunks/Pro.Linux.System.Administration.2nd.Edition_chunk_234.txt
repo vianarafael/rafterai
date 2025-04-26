@@ -1,0 +1,13 @@
+Choosing not to encrypt the home directory
+
+We are now asked to confirm our time zone. Here we are using local time zone.
+
+Figure 2-53.  Confirming time zone
+
+61
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Next, you need to partition your host. This partitioning occurs in much the same way described in our 
+
+example CentOS installation.

@@ -1,0 +1,6 @@
+People tend to need lots of warnings and prodding, so the preceding 
+example sets the warning time to 7 days.
+
+Earlier in the chapter, I mentioned that a strong password is between 15 and 25 charac-
+ters long. With the PASS_MIN_LEN setting, you can force users to use a certain minimum 
+number of characters in their passwords.

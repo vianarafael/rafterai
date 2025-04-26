@@ -1,0 +1,9 @@
+Regular users can still install some software in their own 
+ directories and can list information about installed system software.
+
+ ■ User accounts—Only the root user can add and remove user accounts and 
+
+group accounts.
+
+ ■ Network interfaces—In the past, the root user had to conﬁ gure network interfaces 
+and start and stop those interfaces.

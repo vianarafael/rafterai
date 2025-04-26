@@ -1,0 +1,13 @@
+See fstab(5).
+#
+# <file system>                  <mount point>   <type>    <options>          <dump>  <pass>
+/dev/mapper/au--mel--ubuntu--1--vg-root     /      ext4    errors=remount-ro  0         1
+# /boot was on /dev/sda1 during installation
+UUID=d036bc4a-6f9b-4989-a377-7778a29bf16c   /boot  ext2     defaults          0         2
+/dev/mapper/au--mel--ubuntu--1--vg-swap_1    none  swap     sw                0         0
+
+381
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Each line in the file consists of six fields, separated by spaces or tabs.

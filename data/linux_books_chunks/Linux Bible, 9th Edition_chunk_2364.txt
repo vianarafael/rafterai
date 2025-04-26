@@ -1,0 +1,6 @@
+It 
+accepts log messages from a variety of other programs and writes them to the appropriate 
+log ﬁ les. This is better than having every program write directly to its own log ﬁ le because 
+it enables you to centrally manage how log ﬁ les are handled.
+
+Conﬁ guring rsyslogd to record varying levels of detail in the log ﬁ les is possible.

@@ -1,0 +1,18 @@
+The  numbers 
+
+in the RES column for each process should go down as well.
+
+Chapter 22: Understanding Basic Linux Security
+
+1.  To check log messages from the systemd journal for the NetworkManager.ser-
+
+vice, sshd.service, and auditd.service services, type the following:
+
+# journalctl -u NetworkManager.service
+...
+# journalctl -u sshd.service
+...
+# journalctl -u auditd.service
+...
+
+2.

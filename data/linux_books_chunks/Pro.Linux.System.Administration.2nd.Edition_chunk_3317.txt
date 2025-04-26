@@ -1,0 +1,6 @@
+We used the 
+openssl s_client command to connect to our e-mail server and pass the STARTTLS command. You can 
+see that the e-mail server responded and that we set up an encrypted session. After we issued the EHLO 
+command, the e-mail server responded with the supported commands available.
+
+If you connect with just netcat, you’ll see a new command listed here, STARTTLS.

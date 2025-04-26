@@ -1,0 +1,9 @@
+If it doesn’t, which 
+it quite possibly may not, see the next section, “Securing Your FTP Server.” That section 
+tells you how to open ﬁ rewalls and modify other security features to allow access and 
+otherwise secure your FTP server.
+
+Securing Your FTP Server
+
+Even though it is easy to get a vsftpd FTP server started, that doesn’t mean it is  immediately 
+fully accessible.

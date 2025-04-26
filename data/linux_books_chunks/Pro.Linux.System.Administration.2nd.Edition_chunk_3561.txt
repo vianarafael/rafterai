@@ -1,0 +1,9 @@
+We are now going generate our keys. We do 
+
+that with the following commands:
+
+$ opendkim-genkey –D /etc/opendkim/keys -a -d example.com -b 2048 -r -s 201609
+$ sudo ls –l /etc/opendkim/keys
+total 8
+-rw-------. 1 root root 1679 Sep  5 09:21 201609.private
+-rw-------.

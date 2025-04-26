@@ -1,0 +1,4 @@
+When you want to renew your certificate, after a year in our case, 
+
+ ■ Tip 
+you can just re-sign this request using the command in Listing 11-8.

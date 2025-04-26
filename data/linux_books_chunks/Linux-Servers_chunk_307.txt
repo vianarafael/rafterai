@@ -1,0 +1,3 @@
+forward and reverse lookup queries
+
+The question a client asks a dns server is called a query.

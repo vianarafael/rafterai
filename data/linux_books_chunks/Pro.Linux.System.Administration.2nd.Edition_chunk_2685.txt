@@ -1,0 +1,4 @@
+The broadcast address is a special address on the network that is used to send requests to all hosts on the 
+same network range, and we specify it via the broadcast-address option.
+
+However, we have not yet specified any addresses that the DHCP server is allowed to hand out.

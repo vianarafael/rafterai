@@ -1,0 +1,6 @@
+This means we can talk and return information from our LDAP server successfully.
+
+790
+
+The next step is to prove that we can log in as her. To do that, we are going to use the su command, or 
+superuser command. This command allows you to sign in as the root user or into another account.

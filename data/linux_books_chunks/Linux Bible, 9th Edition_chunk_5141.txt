@@ -1,0 +1,10 @@
+To pick a background you like from the GNOME art site (http://gnome-look.
+
+org), download it to your Pictures folder, and select it as your current background 
+on both GNOME 2 and GNOME 3 systems, do the following:
+
+a. Type http://gnome-look.org/ in the Firefox location box, and press Enter.
+
+b. Find a background you like and select it, and then click zoom to display it.
+
+c.

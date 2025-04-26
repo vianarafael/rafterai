@@ -1,0 +1,9 @@
+They do, however, have to include the 
+source code with their distribution (or make it easily available).
+
+ ■ Copyright maintained—Even if you were to repackage and resell the software, the 
+original GNU agreement must be maintained with the software, which means all 
+future recipients of the software have the opportunity to change the source code, 
+just as you did.
+
+There is no warranty on GNU software.

@@ -1,0 +1,8 @@
+Again, refer to the 
+Cloud-Init Cloud Conﬁ g Examples page (http://cloudinit.readthedocs.org/en/
+latest/topics/examples.html) for details.
+
+Using cloud-init in enterprise computing
+So far, the cloud-init examples in this chapter have focused on taking a cloud image, 
+manually adding conﬁ guration data, and running it as a virtual machine temporarily on 
+your local hypervisor.

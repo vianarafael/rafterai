@@ -1,0 +1,8 @@
+Running nginx
+
+~/nginx-1.10.1$ sudo /opt/nginx/sbin/nginx -v
+nginx version: nginx/1.10.1
+
+Uninstall
+The tricky part of managing source installations comes when you want to remove them from the system. 
+Some, but not all, contain uninstall rules.

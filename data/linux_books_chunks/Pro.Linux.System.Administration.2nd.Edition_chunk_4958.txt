@@ -1,0 +1,6 @@
+To run it, we need to other components, Gunicorn and Nginx.
+
+Gunicorn is a Python fork of the unicorn project, a web server gateway interface that powers many Ruby 
+on Rails applications. We will use this to glue the Nginx web server requests to the Graphite-API application.
+
+Nginx we have spoken of briefly.

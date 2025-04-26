@@ -1,0 +1,23 @@
+Using grep, you can quickly ﬁ nd which PAM conﬁ guration ﬁ les have 
+this potential problem.
+
+# grep "authconfig" /etc/pam.d/*
+/etc/pam.d/fingerprint-auth:# User changes will be destroyed
+   the next time authconfig is run.
+/etc/pam.d/fingerprint-auth-ac:# User changes will be destroyed
+   the next time authconfig is run.
+...
+/etc/pam.d/system-auth:# User changes will be destroyed
+    the next time authconfig is run.
+/etc/pam.d/system-auth-ac:# User changes will be destroyed
+    the next time authconfig is run.
+...
+
+655
+
+c23.indd  04/01/2015  Page 656
+
+Part V: Learning Linux Security Techniques
+
+These PAM system event conﬁ guration ﬁ les use symbolic links (see Chapter 4, “Moving 
+around the Filesystem”).

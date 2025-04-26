@@ -1,0 +1,74 @@
+312
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c13.indd  04/01/2015  Page 313
+
+ Part IV
+
+Becoming a Linux 
+Server Administrator
+
+IN THIS PART
+
+Chapter 13
+Understanding Server Administration
+
+Chapter 14
+Administering Networking
+
+Chapter 15
+Starting and Stopping Services
+
+Chapter 16
+Confi guring a Print Server
+
+Chapter 17
+Confi guring a Web Server
+
+Chapter 18
+Confi guring an FTP Server
+
+Chapter 19
+Confi guring a Windows File Sharing (Samba) 
+Server
+
+Chapter 20
+Confi guring an NFS File Server
+
+Chapter 21
+Troubleshooting Linux
+
+c13.indd  04/01/2015  Page 315
+
+C H A P T E R 
+
+13
+
+Understanding Server 
+Administration
+
+IN THIS CHAPTER
+
+Administering Linux servers
+
+Communicating with servers over networks
+
+Setting up logging locally and remotely
+
+Monitoring server systems
+
+Managing servers in the enterprise
+
+A lthough some system administration tasks are needed even on a desktop system (installing 
+
+software, setting up printers, and so on), many new tasks appear when you set up a Linux 
+system to act as a server.

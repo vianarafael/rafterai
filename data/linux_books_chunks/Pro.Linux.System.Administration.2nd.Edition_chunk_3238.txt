@@ -1,0 +1,12 @@
+We can issue the following:
+
+$ sudo systemctl reload postfix.service
+
+ ■ Note 
+
+ every time you change a postfix configuration option, you should reload or restart postfix.
+
+536
+
+In addition to restarting Postfix, you’ll need to ensure TCP port 25 is open on your host to allow 
+incoming connections.

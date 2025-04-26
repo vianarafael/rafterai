@@ -1,0 +1,3 @@
+other [share] sections
+
+We create some sections for file shares, to test the samba server.

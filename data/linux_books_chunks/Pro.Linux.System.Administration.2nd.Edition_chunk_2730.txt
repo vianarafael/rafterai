@@ -1,0 +1,8 @@
+When you’re 
+done editing the zone file, you can permit dynamic updates again by unlocking the zone via sudo rndc 
+unfreeze.
+
+THE INTERNET SUPERSERVER
+
+not all network services need to run all the time. for some of them, it would be handy to have a way of 
+listening for traffic on a specific port number and start the service only when it is needed.

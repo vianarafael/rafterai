@@ -1,0 +1,7 @@
+The reason you can use Alt+SysRq keystrokes on an otherwise 
+unresponsive system is that the kernel processes Alt+SysRq requests ahead of other 
+requests.
+
+To enable Alt+SysRq keystrokes, the system must have already set /proc/sys/
+kernel/sysrq to 1. An easy way to do this is to add kernel.sysrq = 1 
+to the /etc/sysctl.conf ﬁ le.

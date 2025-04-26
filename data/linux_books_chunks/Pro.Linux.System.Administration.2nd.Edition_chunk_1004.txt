@@ -1,0 +1,3 @@
+In this case 
+
+on our Ubuntu host will find /EFI/ubuntu/grubx64.efi.

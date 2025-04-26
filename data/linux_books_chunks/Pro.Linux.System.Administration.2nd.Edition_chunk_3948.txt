@@ -1,0 +1,4 @@
+First, we deny control commands &, ;, and |, which can be used to add other 
+commands to the end of our intended command. If the command starts with rsync --server, then we 
+accept it (\ --server is making sure Bash escapes the <space>--). Anything else that may be passed as a 
+command is denied by *..

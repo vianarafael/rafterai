@@ -1,0 +1,7 @@
+A persistent service is one that is started at server boot time or at a particular runlevel. 
+Services that need to be set as persistent are typically new services that the Linux server 
+is offering.
+
+Confi guring persistent services for SysVinit
+One of the nice features of the classic SysVinit daemon is that making a particular service 
+persistent or removing its persistence is very easy to do.

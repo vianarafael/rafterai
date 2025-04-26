@@ -1,0 +1,10 @@
+Finally, we select a partition ID, represented by a hex code, the 
+default is 8300, or Linux filesystem.
+
+Repeat the process to create another partititon.
+
+Partition number (2-128, default 2):
+First sector (34-16777182, default = 4196352) or {+-}size{KMGTP}:
+Last sector (4196352-16777182, default = 16777182) or {+-}size{KMGTP}: +2G
+
+For partition 2 again we took the defaults for partition number and first sector.

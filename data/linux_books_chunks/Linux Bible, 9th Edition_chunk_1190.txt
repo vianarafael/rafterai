@@ -1,0 +1,154 @@
+(If you’re in a 
+hurry, you can type help test on the command line to get the same information.)
+
+160
+
+c07.indd  04/01/2015  Page 161
+
+Chapter 7: Writing Simple Shell Scripts
+
+TABLE 7.1    Operators for Test Expressions
+
+Operator
+
+-a file
+
+-b file
+
+-c file
+
+-d file
+
+-e file
+
+-f file
+
+-g file
+
+-h file
+
+-k file
+
+-L file
+
+What Is Being Tested?
+
+Does the fi le exist? (same as -e)
+
+Is the fi le a block special device?
+
+Is the fi le character special (for example, a character device)? Used to iden-
+tify serial lines and terminal devices.
+
+Is the fi le a directory?
+
+Does the fi le exist? (same as -a)
+
+Does the fi le exist, and is it a regular fi le (for example, not a directory, 
+socket, pipe, link, or device fi le)?
+
+Does the fi le have the set-group-id (SGID) bit set?
+
+Is the fi le a symbolic link? (same as -L)
+
+Does the fi le have the sticky bit set?
+
+Is the fi le a symbolic link?
+
+7
+
+-n string
+
+Is the length of the string greater than 0 bytes?
+
+-O file
+
+-p file
+
+-r file
+
+-s file
+
+-S file
+
+-t fd
+
+-u file
+
+-w file
+
+-x file
+
+-z string
+
+expr1 -a expr2
+
+expr1 -o expr2
+
+Do you own the fi le?
+
+Is the fi le a named pipe?
+
+Is the fi le readable by you?
+
+Does the fi le exist, and is it larger than 0 bytes?
+
+Does the fi le exist, and is it a socket?
+
+Is the fi le descriptor connected to a terminal?
+
+Does the fi le have the set-user-id (SUID) bit set?
+
+Is the fi le writable by you?
+
+Is the fi le executable by you?
+
+Is the length of the string 0 (zero) bytes?
+
+Are both the fi rst expression and the second expression true?
+
+Is either of the two expressions true?
+
+file1 -nt file2 Is the fi rst fi le newer than the second fi le (using the modifi cation timestamp)?
+file1 -ot file2 Is the fi rst fi le older than the second fi le (using the modifi cation timestamp)?
+file1 -ef file2 Are the two fi les associated by a link (a hard link or a symbolic link)?
+var1 = var2
+
+Is the fi rst variable equal to the second variable?
+
+var1 -eq var2
+
+var1 -ge var2
+
+var1 -gt var2
+
+var1 -le var2
+
+var1 -lt var2
+
+var1 != var2
+
+var1 -ne var2
+
+Is the fi rst variable equal to the second variable?
+
+Is the fi rst variable greater than or equal to the second variable?
+
+Is the fi rst variable greater than the second variable?
+
+Is the fi rst variable less than or equal to the second variable?
+
+Is the fi rst variable less than the second variable?
+
+Is the fi rst variable not equal to the second variable?
+
+Is the fi rst variable not equal to the second variable?
+
+161
+
+c07.indd  04/01/2015  Page 162
+
+Part II: Becoming a Linux Power User
+
+There is also a special shorthand method of performing tests that can be useful for 
+simple one-command actions.

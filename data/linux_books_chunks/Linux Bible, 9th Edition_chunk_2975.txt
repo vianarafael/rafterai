@@ -1,0 +1,13 @@
+Check the names, and try printing again.
+
+Working with CUPS Printing
+Tools such as CUPS web-based administration and the Print Settings window effectively 
+hide the underlying CUPS facility. Sometimes, however, you want to work directly with the 
+
+435
+
+c16.indd  04/01/2015  Page 436
+
+Part IV: Becoming a Linux Server Administrator
+
+tools and conﬁ guration ﬁ les that come with CUPS.

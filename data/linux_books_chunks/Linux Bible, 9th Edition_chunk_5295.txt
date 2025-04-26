@@ -1,0 +1,14 @@
+A positive result here, along with negative 
+results for the preceding tests, means sshd is still using the SysVinit daemon.
+
+# service ssh status
+sshd (pid 2390) is running...
+
+3.  To determine your server’s previous and current runlevel, use the runlevel com-
+
+mand. It still works on all init daemons:
+
+$ runlevel
+N 3
+
+4.

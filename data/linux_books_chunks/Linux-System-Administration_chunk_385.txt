@@ -1,0 +1,57 @@
+from start to finish
+
+Below is a screenshot that show a summary roadmap starting with detection of the hardware
+(/dev/sdb) up until mounting on /mnt.
+
+[root@centos65 ~]# dmesg | grep '\[sdb\]'
+sd 3:0:0:0: [sdb] 150994944 512-byte logical blocks: (77.3 GB/72.0 GiB)
+sd 3:0:0:0: [sdb] Write Protect is off
+sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+sd 3:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support \
+DPO or FUA
+sd 3:0:0:0: [sdb] Attached SCSI disk
+
+[root@centos65 ~]# parted /dev/sdb
+
+(parted) mklabel msdos
+(parted) mkpart primary ext4 1 77000
+(parted) print
+Model: ATA VBOX HARDDISK (scsi)
+Disk /dev/sdb: 77.3GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+
+Number  Start   End     Size    Type     File system  Flags
+ 1      1049kB  77.0GB  77.0GB  primary
+
+(parted) quit
+[root@centos65 ~]# mkfs.ext4 /dev/sdb1
+mke2fs 1.41.12 (17-May-2010)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+4702208 inodes, 18798592 blocks
+939929 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=4294967296
+574 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+( output truncated )
+...
+[root@centos65 ~]# mount /dev/sdb1 /mnt
+[root@centos65 ~]# mount | grep mnt
+/dev/sdb1 on /mnt type ext4 (rw)
+[root@centos65 ~]# df -h | grep mnt
+/dev/sdb1              71G  180M   67G   1% /mnt
+[root@centos65 ~]# du -sh /mnt
+20K     /mnt
+[root@centos65 ~]# umount /mnt
+
+70
+
+mounting
+
+7.4.

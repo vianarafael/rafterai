@@ -1,0 +1,11 @@
+To set the Samba server’s workgroup to TESTGROUP, the netbios name to 
+
+MYTEST, and the server string to Samba Test System, as root user in a text edi-
+tor, open the /etc/samba/smb.conf ﬁ le and change three lines so they appear as 
+follows:
+
+workgroup = TESTGROUP
+netbios name = MYTEST
+server string = Samba Test System
+
+4.

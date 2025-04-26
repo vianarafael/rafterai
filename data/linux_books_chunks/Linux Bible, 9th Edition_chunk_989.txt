@@ -1,0 +1,5 @@
+(Refer to Chapter 4, “Moving around the 
+Filesystem,” to see how to use numbers and letters with chmod to reﬂ ect ﬁ le permissions.)
+
+If you use numbers for permission, as I do below, remember that the three numbers  represent 
+permissions for the user, group, and other.

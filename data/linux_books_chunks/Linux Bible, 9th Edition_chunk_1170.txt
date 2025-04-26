@@ -1,0 +1,11 @@
+Those three 
+variables are then included in a silly sentence, which is displayed on the screen. If the 
+script were called sillyscript, here’s an example of how it might run:
+
+7
+
+$ chmod 755 /home/chris/bin/sillyscript
+$ sillyscript
+Type in an adjective, noun and verb (past tense): hairy football 
+danced
+He sighed and danced to the elixir.

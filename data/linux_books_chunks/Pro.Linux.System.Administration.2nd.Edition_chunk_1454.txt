@@ -1,0 +1,5 @@
+There 
+are instances in which part of the Internet will go down because a core router is broken. In this situation, all 
+your private network pings will return, but some pings to hosts on the Internet may not. If you don’t get a 
+response from one host on the Internet, try another to see if the issue is local or somewhere else down the 
+line.

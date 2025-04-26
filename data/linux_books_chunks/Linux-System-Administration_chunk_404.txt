@@ -1,0 +1,10 @@
+(optional) Perform a file system check on the partition mounted at /srv/nfs/salesnumbers.
+
+# umount /srv/nfs/salesnumbers (optional but recommended)
+# fsck /dev/sdb1
+
+76
+
+Chapter 8. troubleshooting tools
+
+This chapter introduces some tools that go beyond df -h and du -sh.

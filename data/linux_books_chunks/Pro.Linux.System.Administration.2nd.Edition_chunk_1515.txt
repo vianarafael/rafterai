@@ -1,0 +1,18 @@
+if it is set to 1, iP forwarding will 
+redirect those packets not destined for it to their destination host.
+
+to make the setting persistent across reboots, you need to uncomment the following line in /etc/
+sysctl.conf, save the file, and then issue the sysctl –p command to load the changes into the 
+kernel:
+
+# Uncomment the next line to enable packet forwarding for IPv4
+net.ipv4.ip_forward=1
+
+You can also immediately turn on packet forwarding by echoing the number 1 into the file /proc/sys/ 
+net/ipv4/ip_forward like this:
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+this change is not persistent across reboots, but editing /etc/sysctl will make it permanent.
+
+You can also configure iP forwarding for iPv6 interfaces as well.

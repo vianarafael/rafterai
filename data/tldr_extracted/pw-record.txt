@@ -1,0 +1,6 @@
+# pw-record
+
+
+- View documentation for the original command:
+
+`tldr pw-cat`

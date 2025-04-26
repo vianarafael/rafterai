@@ -1,0 +1,2 @@
+Setting this attribute to TRUE will mean that our account is active. Setting it to FALSE will mean the account 
+is inactive. We can index this attribute, which will again speed up our searches.

@@ -1,0 +1,6 @@
+On a CentOS 
+host we can perform the same iptables instructions via firewall-cmd. In this example we are going to add 
+enp0s8 to the external zone, then configure IP masquerading on that interface. Then we are going to ‘port 
+forward’ port 80 to our internal host on 192.168.0.1:80.
+
+First we need to set our enp0s8 interface to be in the external zone.

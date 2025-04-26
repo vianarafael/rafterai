@@ -1,0 +1,7 @@
+LOW_
+WATERMARK means that if the queue exceeds 80 percent, we will stop accepting metrics.
+
+The relay-rules.conf file enables us to direct certain metrics to particular carbon-cache destinations. 
+
+Each rule requires a unique name, a pattern, a destination, and whether we continue processing after this 
+rule.

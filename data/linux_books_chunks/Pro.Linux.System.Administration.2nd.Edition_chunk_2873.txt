@@ -1,0 +1,42 @@
+Options
+
+Option
+
+All
+
+ExecCGI
+
+Function
+
+All options except MultiViews.
+
+Scripts are executed as applications, and their output is sent to the browser.
+
+FollowSymLinks
+
+The server may follow a symbolic link and serve the file or directory it points to.
+
+Includes
+
+The server will process server-side include directives that can be embedded 
+in pages.
+
+IncludesNOEXEC
+
+Server-side include directives may not execute scripts on the server.
+
+Indexes
+
+If no index page exists in a directory, display the directly contents in a listing.
+
+SymLinksIfOwnerMatch
+
+The server may follow a symbolic link only if the owner of the link is the same 
+as the owner of the link target.
+
+MultiViews
+
+With the mod_negotiation module, you can specify how content is selected, 
+based on the client’s capabilities.
+
+We can enable the virtual host by using the utility a2ensite.

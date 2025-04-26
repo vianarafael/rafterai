@@ -1,0 +1,5 @@
+It’s 
+important to be able to experience Linux as you read. So try the examples and do the exercises.
+
+Linux distributions are most commonly available from the websites of the organizations that 
+ produce them.

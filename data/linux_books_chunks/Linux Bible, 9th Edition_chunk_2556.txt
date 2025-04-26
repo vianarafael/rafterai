@@ -1,0 +1,3 @@
+The BOOTPROTO variable is set to dhcp, which causes it 
+to request address information from a DHCP server. With ONBOOT=yes, the interface starts 
+automatically at system boot time.

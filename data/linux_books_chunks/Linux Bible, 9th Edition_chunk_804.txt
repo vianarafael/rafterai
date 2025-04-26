@@ -1,0 +1,15 @@
+(For other ways of referring to your home directory, see the “Identifying 
+Directories” sidebar.)
+
+2.  To make sure that you’re in your home directory, type pwd. When I do this, I get 
+
+the following response (yours will reﬂ ect your home directory):
+
+$ pwd
+/home/joe
+
+3.  Create a new directory called test in your home directory, as follows:
+
+$ mkdir test
+
+4.

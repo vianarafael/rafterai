@@ -1,0 +1,9 @@
+When you list permissions, you can see that the directory 
+is a set GID directory because a lowercase s appears where the group execute per-
+mission should be (rwxrwsr-x):
+
+# su - mary
+[mary]$ touch /mnt/salestools/test.txt
+[mary]$ ls -ld /mnt/salestools/ /mnt/salestools/test.txt
+drwxrwsr-x. 2 root sales 4096 Jan 22 14:32 /mnt/salestools/
+-rw-rw-r--.

@@ -1,0 +1,10 @@
+It was also used with earlier versions of Fedora and Ubuntu.
+
+ ■ GRUB 2—The current versions of Red Hat Enterprise Linux, Ubuntu, and Fedora use 
+
+GRUB 2 as the default boot loader.
+
+The GRUB Legacy version is described in the following sections. After that, there is a 
+description of GRUB 2.
+
+SYSLINUX is another boot loader you will encounter with Linux systems.

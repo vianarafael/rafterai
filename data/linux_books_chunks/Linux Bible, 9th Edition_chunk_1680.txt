@@ -1,0 +1,29 @@
+232
+
+ 
+ 
+ 
+ 
+c10.indd  04/01/2015  Page 233
+
+Getting and Managing Software
+
+ C H A P T E R 
+
+10
+
+IN THIS CHAPTER
+
+Installing software from the desktop
+
+Working with RPM packaging
+
+Using yum to manage packages
+
+Using rpm to work with packages
+
+Installing software in the enterprise
+
+I n Linux distributions such as Fedora and Ubuntu, you don’t need to know much about how 
+
+ software is packaged and managed to get the software you want.

@@ -1,0 +1,5 @@
+We submit the username, and then we are asked for the password 
+(334 UGFzc3dvcmQ6). We submit the password, all in base64 encoding. The authentication succeeded, and 
+the test e-mail was submitted. If the authentication mechanism had failed, Postfix would have kept trying 
+authentication mechanisms, in our case LOGIN and then PLAIN, until one mechanism succeeds or all have 
+failed.

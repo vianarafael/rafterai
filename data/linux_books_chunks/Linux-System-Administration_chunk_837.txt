@@ -1,0 +1,27 @@
+The screenshot below shows the
+creation and activation of a swap partition.
+
+root@RHELv4u4:~# fdisk -l 2> /dev/null | grep hda
+Disk /dev/hda: 536 MB, 536870912 bytes
+/dev/hda1               1        1040      524128+  83  Linux
+root@RHELv4u4:~# mkswap /dev/hda1
+Setting up swapspace version 1, size = 536702 kB
+root@RHELv4u4:~# swapon /dev/hda1
+
+Now you can see that /proc/swaps displays all swap spaces separately, whereas the free -
+om command only makes a human readable summary.
+
+root@RHELv4u4:~# cat /proc/swaps
+Filename                          Type         Size    Used    Priority
+/dev/mapper/VolGroup00-LogVol01   partition    1048568 0       -1
+/dev/hda1                         partition    524120  0       -2
+root@RHELv4u4:~# free -om
+          total     used    free   shared    buffers    cached
+Mem:        249      245       4        0        125        54
+Swap:      1535        0    1535
+
+215
+
+memory management
+
+18.2.3.

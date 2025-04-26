@@ -1,0 +1,7 @@
+When the BIOS screen appears, 
+look for a message that tells you to press a particular function key (such as F12) 
+to interrupt the boot process and select the boot medium. Select the DVD or USB 
+drive, depending on which you have, and Fedora should come up and display the 
+boot screen. When you see the boot screen, select Start Fedora Live.
+
+3.  Start the installation.

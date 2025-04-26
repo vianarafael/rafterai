@@ -1,0 +1,6 @@
+# pkgctl release
+
+
+- Release a build artifact:
+
+`pkgctl release --repo {{repository}} --message {{commit_message}}`

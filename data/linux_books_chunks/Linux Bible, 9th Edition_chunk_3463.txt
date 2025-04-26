@@ -1,0 +1,8 @@
+However, Fedora has a graphical 
+interface for conﬁ guring Samba (system-config-samba). The next sections step through 
+how to use the graphical interfaces to conﬁ gure Samba. After that, you look at the result-
+ing smb.conf ﬁ le.
+
+Using system-confi g-samba
+On Fedora systems, you can install the system-config-samba package to use the Samba 
+Server Conﬁ guration window to conﬁ gure Samba.

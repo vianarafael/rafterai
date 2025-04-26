@@ -1,0 +1,7 @@
+We’ll demonstrate how to create users and groups, give 
+you some more information about passwords, and explain the process by which Linux controls access to 
+your host.
+
+Among the topics we’re going to talk about are the su and sudo commands. These commands let you 
+
+run commands as other users, specifically the root user.

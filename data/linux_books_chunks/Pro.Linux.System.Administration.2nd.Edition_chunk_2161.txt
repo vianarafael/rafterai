@@ -1,0 +1,4 @@
+This label 
+would then allow you to refer to the partition by the label name, as opposed to the device name or UUID. On 
+systems without many formatted partitions (and the less chance of naming collisions), using labels can help 
+readability.

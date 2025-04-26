@@ -1,0 +1,10 @@
+every morning and guarantee that the HOME environment 
+
+variable is set correctly as many parts (gpg, duply) rely on the correct home directory.
+
+665
+
+Chapter 14 ■ BaCkup and reCovery
+
+Using Bareos
+The cost of a commercial backup solution can be extremely high.

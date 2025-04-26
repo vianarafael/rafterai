@@ -1,0 +1,19 @@
+Where these denial messages are logged depends upon the status of the auditd 
+and rsyslogd daemons:
+
+ ■ If the auditd daemon is running, the denial messages are logged to /var/log/
+
+audit/audit.log.
+
+ ■ If auditd is not running, but the rsyslogd daemon is running, the denial mes-
+
+sages are logged to /var/log/messages.
+
+689
+
+c24.indd  04/15/2015  Page 690
+
+Part V: Learning Linux Security Techniques
+
+If both auditd and rsyslogd are running, and you have the setroubleshootd daemon on your system, 
+denial messages are sent to both the audit.log and messages log fi les.

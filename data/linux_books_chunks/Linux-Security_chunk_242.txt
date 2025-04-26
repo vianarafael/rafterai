@@ -1,0 +1,19 @@
+solution: groups
+
+1. Create the groups tennis, football and sports.
+
+groupadd tennis ; groupadd football ; groupadd sports
+
+2. In one command, make venus a member of tennis and sports.
+
+usermod -a -G tennis,sports venus
+
+3. Rename the football group to foot.
+
+groupmod -n foot football
+
+4. Use vi to add serena to the tennis group.
+
+vi /etc/group
+
+5.

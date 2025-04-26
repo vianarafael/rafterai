@@ -1,0 +1,6 @@
+If there are no rules in your chain, then iptables will 
+use the default policy to handle packets accordingly.
+
+Currently we have been able to make changes at will to our chain because Netfilter wasn’t configured to 
+
+use it.

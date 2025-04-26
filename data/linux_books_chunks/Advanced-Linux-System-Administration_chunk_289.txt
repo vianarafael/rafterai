@@ -1,0 +1,89 @@
+So we need the following module sources from http://search.cpan.org/
+
+Parse-RecDescent-1.94.tar.gz
+Spreadsheet-WriteExcel-0.42.tar.gz
+
+Extract the archives and run
+
+perl Makefile.PL
+
+make
+
+make test
+
+make install
+
+Then try the following test script:
+
+#!/usr/bin/perl -w
+
+#
+
+use strict;
+
+use Spreadsheet::WriteExcel;
+
+# vars
+
+my($workbook,$worksheet,$format,$col,$row);
+
+# Create a new Excel workbook
+
+$workbook = Spreadsheet::WriteExcel->new("perl.xls");
+
+82
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+AppendixA
+
+_____________________________________________________
+
+# Add a worksheet
+
+$worksheet = $workbook->add_worksheet();
+
+#  Add and define a format
+
+$format = $workbook->add_format(); # Add a format
+
+$format->set_bold();
+
+$format->set_color('red');
+
+$format->set_align('center');
+
+# Write a formatted and unformatted string, row and column notation.
+
+$col = $row = 0;
+
+$worksheet->write($row, $col, "Hi Excel!", $format);
+
+$worksheet->write(1,    $col, "Hi Excel!");
+
+# Write a number and a formula using A1 notation
+
+$worksheet->write('A3', 1.2345);
+
+$worksheet->write('A4', '=SIN(PI()/4)');
+
+$workbook->close();
+
+83
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Exam 201: Detailed Objectives
+This is a required exam for LPI certification Level 2.

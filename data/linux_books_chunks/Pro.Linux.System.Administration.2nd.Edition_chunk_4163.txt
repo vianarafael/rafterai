@@ -1,0 +1,7 @@
+We have changed only the Address details, 
+the password being created during the installation process. In Figure 14-9, you saw that the Name, Password, 
+Device, and Media Type details should also be in the /etc/bareos/bareos-sd.conf file.
+
+Catalog
+
+Next, we should add these details to the Bareos Director configuration file.

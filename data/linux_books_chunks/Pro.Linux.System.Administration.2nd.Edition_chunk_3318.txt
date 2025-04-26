@@ -1,0 +1,20 @@
+This tells us that Postfix 
+
+is now offering TLS to clients and other servers.
+
+$ nc localhost 25
+220 mail.example.com ESMTP Postfix
+EHLO ah.ah.com
+250-mail.example.com
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+STARTTLS
+220 2.0.0 Ready to start TLS
+
+We’ve then entered the STARTTLS command to tell Postfix we’d like to initiate an encrypted connection.

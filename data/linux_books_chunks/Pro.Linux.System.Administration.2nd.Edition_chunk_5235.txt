@@ -1,0 +1,6 @@
+Let’s now take a look at 
+where we will store our log data, namely, Elasticsearch.
+
+Elasticsearch is an Apache Lucene–based full-text search and analytics engine. (Lucene is a code 
+library and API: http://lucene.apache.org/core/.) Elasticsearch is great at searching and making sense 
+of text-based data. It has a RESTful API that allows you to query and store data.

@@ -1,0 +1,4 @@
+BIOS reads from a small section of a hard drive (the master boot record, or MBR) to load the operating system. 
+UEFI instead reads from a special FAT32 partition created at installation time and is not limited to 512 bytes. 
+Also UEFI requires that the partition table on the disk is GPT (GUID Partition Table), and this means that we 
+can boot off disks over 2TiB in size.

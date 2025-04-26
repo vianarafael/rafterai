@@ -1,0 +1,4 @@
+[Storage Objects: 3]
+  o- target.disk1 ................... [/dev/sdb (8.0GiB) write-thru deactivated]
+  o- target.disk2 ................... [/dev/sdc (8.0GiB) write-thru deactivated]
+  o- target.disk3 ...................

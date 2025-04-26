@@ -1,0 +1,16 @@
+They  make  routers  that  connect  many  lan
+networks using wan protocols.
+
+1.3.4. pan-wpan
+
+Your home network is called a pan (Personal Area Network). A wireless pan is a wpan.
+
+11
+
+general networking
+
+1.4. internet - intranet - extranet
+
+The internet is a global network. It connects many networks using the tcp/ip protocol stack.
+
+The origin of the internet is the arpanet.

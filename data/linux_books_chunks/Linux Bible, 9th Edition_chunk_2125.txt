@@ -1,0 +1,10 @@
+For example, pvdisplay shows physical volumes, vgdisplay shows volume groups, and 
+lvdisplay shows logical volumes.
+
+The following procedure takes you through the steps of creating LVM volumes from scratch. 
+To do this procedure, you could use the USB ﬂ ash drive and partitions I described earlier in 
+this chapter. Use these steps:
+
+12
+
+1.

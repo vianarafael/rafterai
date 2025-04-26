@@ -1,0 +1,16 @@
+Use tune2fs -c or -i to override.
+root@RHELv4u2:~# mkdir /home/project10
+root@RHELv4u2:~# mount /dev/vg/lvol0 /home/project10/
+root@RHELv4u2:~# df -h | grep proj
+/dev/mapper/vg-lvol0  485M   11M  474M   3% /home/project10
+
+A logical volume is very similar to a partition, it can be formatted with a file system, and
+can be mounted so users can access it.
+
+104
+
+   
+   
+logical volume management
+
+11.4.

@@ -1,0 +1,10 @@
+(You may need to actually 
+power off the computer for it to boot back up.)
+
+13.  Log in and begin using Fedora. The login screen appears at this point, allowing 
+
+you to log in as the user account and password you just created.
+
+9
+
+14.  Get software updates.

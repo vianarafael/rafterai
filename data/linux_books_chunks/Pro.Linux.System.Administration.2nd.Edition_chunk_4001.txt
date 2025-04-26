@@ -1,0 +1,21 @@
+We are going to use AWS in this example, but 
+you could just as easily use Dropbox, RackSpace Cloudfiles, Google Cloud Storage, or more, as listed in the 
+Duplicity man page.
+
+In this exercise, we are going to do the following things:
+
+•	 Create an S3 bucket with a retention policy
+
+•	 Create a policy that allows access to our bucket
+
+•	 Configure Duply
+
+•	
+
+•	
+
+Test our backup
+
+Set up a cron job to trigger the backup nightly
+
+We will assume that you already have an AWS account and that you have created a user to access it.

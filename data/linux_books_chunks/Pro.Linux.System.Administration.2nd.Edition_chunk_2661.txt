@@ -1,0 +1,12 @@
+Slave Server Zone Configuration
+
+zone "example.com" {
+    type slave;
+    masters {
+       192.168.0.1;
+    };
+    file "slaves/example.com.db";
+};
+
+When you’ve finished, save the configuration file and tell the slave server to reload it via sudo rndc 
+reload.

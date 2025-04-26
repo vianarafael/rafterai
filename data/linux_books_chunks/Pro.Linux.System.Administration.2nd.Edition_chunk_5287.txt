@@ -1,0 +1,5 @@
+Along the way, we’ll show you a variety of the other elements in the Nagios configuration.
+
+The Nagios configuration is stored in /etc/nagios on CentOS and, depending how you configured your 
+
+Ubuntu installation, in /etc/nagios as well.

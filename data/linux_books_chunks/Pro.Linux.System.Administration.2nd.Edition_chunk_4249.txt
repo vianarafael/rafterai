@@ -1,0 +1,49 @@
+Now we are going to 
+
+change the Director configuration and create a new FileSet for the database server.
+
+FileSet {
+  Name = "DBLinux"
+  Include {
+    Options {
+      Compression = GZIP
+
+694
+
+Chapter 14 ■ BaCkup and reCovery
+
+      Signature = SHA1
+     }
+     File = "/etc"
+     File = "/var/lib" File = "/data" File = "/home"
+     Plugin = "python:module_path=/usr/lib64/bareos/plugins:module_name=bareos-fd-mysql"
+     }
+  Exclude {
+    File = "/proc"
+    File = "/sys"
+    File = "/dev"
+    File = "/run"
+    File = "/tmp"
+    File = "/data/backups"
+  }
+}
+
+We are going to create a new JobDefs for headoffice.example.com also.
+
+JobDefs {
+  Name = "DBLinux"
+  Type = Backup
+  Level = Incremental
+  Client = headoffice-fd
+  FileSet = "DBLinux"
+  Schedule = "WeeklyCycle"
+  Storage = Gluster
+  Messages = Standard
+  Pool = Incremental
+  Priority = 10
+  Write Bootstrap = "/var/lib/bareos/%c.bsr"
+  Full Backup Pool = Full
+  Incremental Backup Pool = Incremental
+}
+
+We have created a new JobDefs and added the DBLinux FileSet for the database server.

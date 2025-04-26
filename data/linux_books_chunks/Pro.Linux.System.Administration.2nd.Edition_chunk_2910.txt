@@ -1,0 +1,4 @@
+We’ll set 
+
+up a MariaDB server shortly, so to have web applications use that, we need to add MariaDB support in 
+PHP.

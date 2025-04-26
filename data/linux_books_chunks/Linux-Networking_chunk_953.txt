@@ -1,0 +1,15 @@
+passdb backend
+
+The passdb backend parameter will determine whether samba uses smbpasswd, tdbsam
+or ldap.
+
+passdb backend = tdbsam
+
+23.4.4. preferred master
+
+Setting the preferred master parameter to yes will make the nmbd daemon force an election
+on startup.
+
+preferred master = yes
+
+23.4.5.

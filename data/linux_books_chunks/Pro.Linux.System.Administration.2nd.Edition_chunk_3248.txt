@@ -1,0 +1,4 @@
+The nonbolded 
+text is the expected response from our e-mail server.
+
+ You can see that each line is prefixed with the SMtp response code, for example, 250.

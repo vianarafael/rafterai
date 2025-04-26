@@ -1,0 +1,7 @@
+Select 
+System ➪ Preferences ➪ Desktop Effects again, and toggle off the Enable Desktop Effects 
+button to turn off the feature.
+
+If you have a supported video card, but ﬁ nd that you cannot turn on the Desktop Effects, 
+check that your X server started properly. In particular, make sure that your /etc/X11/
+xorg.conf ﬁ le is properly conﬁ gured.

@@ -1,0 +1,3 @@
+But the nttennis group is not available on the windows
+machines. To make the groups available on windows (like in the ntfs security tab of files
+and folders), we have to map unix groups to windows groups.

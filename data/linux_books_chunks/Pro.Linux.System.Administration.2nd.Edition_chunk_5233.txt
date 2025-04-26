@@ -1,0 +1,12 @@
+For the first match we will give it the name audit_epoch, and for the second we will give it audit_counter. 
+Now when we run our Logstash service again, we will see the following appear:
+
+{
+...
+    "offset" => 5745528,
+    "audit_epoch" => "1480846476.689",
+   "audit_counter" => "1106",
+...
+}
+
+We now have our audit log being successfully transformed and adding extra labels to our Logstash data.

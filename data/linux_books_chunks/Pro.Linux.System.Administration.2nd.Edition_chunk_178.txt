@@ -1,0 +1,5 @@
+From the Installation Summary select the Software Selection screen.
+
+We are going to select to install a DNS server and to make it easier, the Gnome Desktop. This is optional if 
+
+you are comfortable with the Linux command line.

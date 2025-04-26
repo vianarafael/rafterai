@@ -1,0 +1,8 @@
+For more information on Allow or Deny, Satisfy or other directives, refer 
+to the Apache Directive Index: http://httpd.apache.org/docs/current/
+mod/directives.html.
+
+Understanding default settings
+The reason you can start using your Apache web server as soon as you install it is that the 
+httpd.conf ﬁ le includes default settings that tell the server such things as where to ﬁ nd 
+web content, scripts, log ﬁ les, and other items the server needs to operate.

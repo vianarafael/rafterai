@@ -1,0 +1,7 @@
+There are content delivery networks (CDNs) 
+
+services such as Akamai, Cloudflare, CloudFront, and Fastly as well as software such as Varnish, Nginx, 
+Apache, and Squid-Cache.
+
+Web caching works by using HTTP headers. The Cache-Control and ETag headers are used by the 
+browser to determine when the resource it is requesting has changed and should be fetched again.

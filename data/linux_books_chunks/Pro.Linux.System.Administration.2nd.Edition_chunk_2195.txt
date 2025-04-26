@@ -1,0 +1,3 @@
+Here we have passed the options 
+
+resize -2G /data1 which tell the utility to decrease the filesystem by 2 GiB.

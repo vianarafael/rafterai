@@ -1,0 +1,6 @@
+Other 
+lines consist of a comma-separated list of service names followed by a colon (:) character 
+and then a comma-separated list of client addresses to check. In this context, a client is 
+any computer that attempts to access a network service on your system.
+
+The preceding example is a rather restrictive conﬁ guration.

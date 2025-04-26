@@ -1,0 +1,10 @@
+After the 
+line is typed, press ESC to return to command mode and type ZZ to write and quit.
+
+6.  To use the sudo command to create a ﬁ le called /mnt/test2.txt and verify that 
+
+the ﬁ le is there and owned by the root user, type the following:
+
+[bill]$ sudo touch /mnt/test2.txt
+We trust you have received the usual lecture from the local System
+Administrator.

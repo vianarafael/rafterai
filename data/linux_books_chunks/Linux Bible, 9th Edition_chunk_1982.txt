@@ -1,0 +1,13 @@
+Add some users to the group that you want to be able to share ﬁ les (I used mary):
+
+# usermod -aG sales mary
+
+3.  Create the collaborative directory:
+
+# mkdir /mnt/salestools
+
+11
+
+Using Set UID and Set GID Bit Commands
+The set UID and set GID bits are used on special executable fi les that allow commands set to be run 
+differently from most.

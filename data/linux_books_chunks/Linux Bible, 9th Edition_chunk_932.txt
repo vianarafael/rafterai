@@ -1,0 +1,13 @@
+With this command, you can input text that starts to the 
+
+left of the cursor.
+
+ ■ I—The insert at beginning command. With this command, you can input text that 
+
+starts at the beginning of the current line.
+
+ ■ o—The open below command. This command opens a line below the current line 
+
+and puts you in insert mode.
+
+ ■ O—The open above command.

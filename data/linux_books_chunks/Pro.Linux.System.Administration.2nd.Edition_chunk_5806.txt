@@ -1,0 +1,6 @@
+The sql_import variable is defined at the top of our playbook and is the 
+import SQL script provided by the Bareos installation.
+
+We go on to create the Bareos user on the MariaDB database. We provide the user, password, password 
+
+type, and privileges for the user.

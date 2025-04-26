@@ -1,0 +1,8 @@
+System initialization time is reduced by systemd because it can start services 
+in a parallel manner.
+
+Learning systemd basics
+With the SysVinit daemon, services are stopped and started based upon runlevels. The 
+ systemd is also concerned with runlevels, but they are called target units. Although 
+the main job of systemd is to start services, it can manage other types of things called 
+units.

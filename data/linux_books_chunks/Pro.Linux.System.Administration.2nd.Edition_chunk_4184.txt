@@ -1,0 +1,37 @@
+The resource 
+named Standard is defined in the Messages section and looks like the following:
+
+Messages {
+  Name = Standard
+   mailcommand = "/usr/bin/bsmtp -h localhost -f \"\(Bareos\) \<%r\>\" -s \"Bareos: %t  
+
+%e of %c %l\" %r"
+
+   operatorcommand = "/usr/bin/bsmtp -h localhost -f \"\(Bareos\) \<%r\>\" -s \"Bareos: 
+
+Intervention needed for %j\" %r"
+
+  mail = admin@example.com = all, !skipped, !audit # (#02)
+  operator = admin@example.com = mount     # (#03)
+  console = all, !skipped, !saved, !audit
+  append = "/var/log/bareos/bareos.log" = all, !skipped, !audit
+  catalog = all, !audit
+}
+
+#
+# Message delivery for daemon messages (no job).
+#
+Messages {
+  Name = Daemon
+   mailcommand = "/usr/bin/bsmtp -h localhost -f \"\(Bareos\) \<%r\>\" -s \"Bareos daemon 
+
+message\" %r"
+
+  mail = admin@example.com = all, !skipped, !audit # (#02)
+  console = all, !skipped, !saved, !audit
+  append = "/var/log/bareos/bareos.log" = all, !skipped, !audit
+  append = "/var/log/bareos/bareos-audit.log" = audit
+}
+
+Bareos uses the mailcommand and operatorcommand commands to send e-mail messages indicating the 
+status of Bareos, either alerts or completion messages.

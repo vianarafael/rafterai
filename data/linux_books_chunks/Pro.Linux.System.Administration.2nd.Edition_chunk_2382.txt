@@ -1,0 +1,7 @@
+If a lot of 
+corruption occurred and there are many hundreds of files in the lost+found directory, it is probably better 
+to restore your data from a backup.
+
+Boot Loader Problems
+If a problem occurs with a hard disk, the system may fail to boot altogether because the boot sector was 
+corrupted.

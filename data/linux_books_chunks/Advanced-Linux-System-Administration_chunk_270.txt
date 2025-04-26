@@ -1,0 +1,36 @@
+Installing Perl modules (CPAN)
+
+Read the following perldoc pages for information on perl modules 
+
+man perlmod
+
+A set of specific functions can be written as modules and imported into new scripts with the 
+directive: 
+
+use module 
+
+There are two methods available to dowload, build and install modules from www.cpan.org
+
+Method 1: The modules can be downloaded from www.cpan.org and build as follows:
+
+Unpack the archive and type
+
+perl Makefile.pl
+make 
+make test
+make install
+
+74
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+Method 2: Use the cpan tool
+
+We can interactively configure CPAN as follows:
+
+# cpan
+CPAN is the world-wide archive of perl resources.

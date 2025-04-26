@@ -1,0 +1,17 @@
+mount /mountpoint
+
+Adding  an  entry  to  /etc/fstab  has  the  added  advantage  that  you  can  simplify  the  mount
+command. The command in the screenshot below forces mount to look for the partition
+info in /etc/fstab.
+
+root@rhel65:~# mount /home/project42
+
+71
+
+mounting
+
+7.5. securing mounts
+
+File systems can be secured with several mount options. Here are some examples.
+
+7.5.1.

@@ -1,0 +1,7 @@
+Make sure it is set to On.
+
+Troubleshooting boot order
+Depending on the hardware attached to your computer, a typical boot order might boot 
+a CD/DVD drive ﬁ rst, then the hard drive, then a USB device, and ﬁ nally the network 
+interface card. The BIOS would go to each device, looking for a boot loader in the master 
+boot record for that device. If the BIOS ﬁ nds a boot loader, it starts it.

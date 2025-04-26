@@ -1,0 +1,10 @@
+You can install it on your localhost or a central server; it does 
+not store metric data locally but will make request to back-end storage services, in our case Graphite.
+
+824
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Installing Grafana
+
+We are going to install Grafana on our Ubuntu server.

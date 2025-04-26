@@ -1,0 +1,9 @@
+Type the ps command to 
+make sure the options took effect:
+
+$ ps -ef | grep httpd
+root   14575 1     0 08:49 ? 00:00:01 /usr/sbin/httpd -DFOREGROUND -X
+apache 14582 14575 0 08:49 ? 00:00:00 /usr/sbin/httpd -DFOREGROUND -X
+
+If you added a debug option (-X), remember to remove that option from /etc/sysconfig/
+httpd when you are done debugging Apache and restart the service.

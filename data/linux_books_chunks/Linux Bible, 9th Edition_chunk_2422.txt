@@ -1,0 +1,18 @@
+To make the output friendlier (in kilobytes, megabytes, and 
+gigabytes), use the -h option as follows:
+
+342
+
+c13.indd  04/01/2015  Page 343
+
+Chapter 13: Understanding Server Administration
+
+$ du -h /home/jake
+114k    /home/jake/httpd/stuff
+234k    /home/jake/httpd
+137k    /home/jake/uucp/data
+701k    /home/jake/uucp
+1.0M    /home/jake
+
+The output shows the disk space used in each directory under the home directory of 
+the user named jake (/home/jake).

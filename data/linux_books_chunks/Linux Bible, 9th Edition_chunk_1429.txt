@@ -1,0 +1,6 @@
+To 
+permanently add the module to your system, add the modprobe command line to one of 
+the startup scripts run at boot time.
+
+Removing modules
+Use the rmmod command to remove a module from a running kernel.

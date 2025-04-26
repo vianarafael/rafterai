@@ -1,0 +1,6 @@
+entry is a special pseudo-
+attribute that we must specify to access an entry, and member is to access group memberships.
+
+We are going to allow only the administrators to have special access. The webadmin user will be used to 
+
+bind to our LDAP server from our web server so that our web users can authenticate.

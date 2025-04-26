@@ -1,0 +1,17 @@
+With this command, you can input text that starts to the 
+
+5
+
+right of the cursor.
+
+ ■ A—The add at end command. With this command, you can input text starting at 
+
+the end of the current line.
+
+119
+
+c05.indd  04/01/2015  Page 120
+
+Part II: Becoming a Linux Power User
+
+ ■ i—The insert command.

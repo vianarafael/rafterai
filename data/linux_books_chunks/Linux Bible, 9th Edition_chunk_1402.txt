@@ -1,0 +1,19 @@
+That command gives basic 
+information about your computer’s processors.
+
+$ lscpu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    4
+...
+
+From the sampling of output of lscpu, you can see that this is a 64-bit system (x86-64), it 
+can operate in 32-bit or 64-bit modes, and there are four CPUs.
+
+Managing removable hardware
+Linux systems such as Red Hat Enterprise Linux, Fedora, and others that support full KDE 
+and GNOME desktop environments include simple graphical tools for conﬁ guring what 
+ happens when you attach popular removable devices to the computer.

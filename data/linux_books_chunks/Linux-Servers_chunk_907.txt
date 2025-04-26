@@ -1,0 +1,23 @@
+The cd boots into a root console where we can use fdisk to discover
+and prepare the attached disks.
+
+When the partitions are created and have their filesystem, then we can use dd to copy the /
+boot partition.
+
+247
+
+ 
+cloning
+
+ssh root@192.168.1.40 "dd if=/dev/sda1" | dd of=/dev/sda1
+
+Then we use a dump and restore combo to copy the / partition.
+
+mkdir /mnt/x
+mount /dev/sda2 /mnt/x
+cd /mnt/x
+ssh root@192.168.1.40 "dump -0 -f - /" | restore -r -f -
+
+248
+
+Appendix B.

@@ -1,0 +1,8 @@
+It may be different from the name by which local users of the SMB 
+printer know the printer.
+
+16
+
+ ■ User—A username is required by the SMB server system to give you access to the 
+SMB printer. A username is not necessary if you are authenticating the printer 
+based on share-level rather than user-level access control.

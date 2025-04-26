@@ -1,0 +1,4 @@
+Netfilter was pioneered by Paul 
+“Rusty” Russell and has been in the Linux kernel since version 2.4. It allows the operating system to perform 
+packet filtering and shaping at a kernel level, and this allows it to be under fewer restrictions than user-space 
+programs.

@@ -1,0 +1,3 @@
+Solaris  also  used  init  up  to  Solaris  9,  for  Solaris  10  Sun  developed  Service
+Management Facility. Both systems start daemons in parallel and can replace the SysV init
+scripts.

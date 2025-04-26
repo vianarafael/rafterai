@@ -1,0 +1,6 @@
+In our case we have just named it the same as the device name which we have added to the Device 
+section.
+
+We can set an IP address or we can allow our interface to receive one from a DHCP server, which is what 
+
+we decided to do. However, adding the IP address is simply like we have done previously.

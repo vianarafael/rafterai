@@ -1,0 +1,10 @@
+As with all distributed 
+
+services, having an odd number of hosts is usually preferred as it helps to avoid “split brain.” There are other 
+things you can think about too when designing your cluster, such as housing the physical servers in different 
+racks or different data centers to help with your data resiliency.
+
+ Split brain is where at least two servers serving the same application in a cluster can no longer see 
+
+ ■ Note 
+each other and yet they still respond to clients.

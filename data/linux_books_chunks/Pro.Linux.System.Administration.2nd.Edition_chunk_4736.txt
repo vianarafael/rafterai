@@ -1,0 +1,9 @@
+We also need 
+to change the following file to add our own LDAP directory details. First, we make a copy of the file /var/
+lib/ldap-account-manager/config/lam.conf. We then make the changes in bold to the /var/lib/ldap-
+account-manager/config/lam.conf file.
+
+$ sudo vi /var/lib/ldap-account-manager/config/lam.conf
+# LDAP Account Manager configuration
+
+# server address (e.g.

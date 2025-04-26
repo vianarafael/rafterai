@@ -1,0 +1,10 @@
+When you use the --purge 
+option, you are telling dpkg to remove everything installed by that package onto your host, including 
+configuration files you modified yourself.
+
+Why have the two methods? Because there are times when you want to completely remove everything 
+
+and times when you want to remove something with the view of installing it again at some later stage.
+Listing 8-21 shows both methods of deleting packages from a host with the dpkg command.
+
+Listing 8-21.

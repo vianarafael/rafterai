@@ -1,0 +1,12 @@
+In this situation it is a good idea to make sure that you get ataylor to log in as soon as is 
+immediately possible and confirm access.
+
+Finally, in Figure 5-4 we show how you can view the login history of the user JSmith.
+
+159
+
+Chapter 5 ■ Users and GroUps
+
+Figure 5-4.  Login history for JSmith
+
+In Figure 5-4 we can see that JSmith logged out at 21:17 and logged in again 21:18.

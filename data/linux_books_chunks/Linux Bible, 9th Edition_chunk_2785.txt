@@ -1,0 +1,16 @@
+This is shown in the following example:
+
+# service cups status
+cupsd is stopped
+# service cups reload
+Reloading cups:             [FAILED]
+
+404
+
+c15.indd  04/01/2015  Page 405
+
+Chapter 15: Starting and Stopping Services
+
+Stopping and starting Upstart services
+The primary command for stopping and starting Upstart init services is the initctl 
+command.

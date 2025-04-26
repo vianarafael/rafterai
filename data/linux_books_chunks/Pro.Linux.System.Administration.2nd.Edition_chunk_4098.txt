@@ -1,0 +1,31 @@
+While we do that, we will also make sure that our Bareos File daemon is installed on headoffice.example.
+com and that we have firewall access for TCP port 9103 on that host from backup.example.com.
+
+We need to install the following packages on the host that will house the Bareos database; they contain 
+
+the helper scripts that help manage the database:
+
+$ sudo aptitude install –y bareo-database-common bareos-database-mysql
+
+Of course, on CentOS, you would use the yum command.
+On headoffice.example.com we will do the following:
+
+$ sudo mysql –u root –p
+Enter Password:
+...
+mysql> CREATE DATABASE 'bareos';
+Query OK, 1 row affected (0.00 sec)
+mysql> GRANT ALL PRIVILEGES ON bareos.* to bareos@backup.example.com 
+
+668
+
+Chapter 14 ■ BaCkup and reCovery
+
+IDENTIFIED BY 'somepassword';
+Query OK, 0 rows affected (0.00 sec)
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.00 sec)
+mysql> \q;
+Bye
+
+In the previous code, we have created a database called bareos.

@@ -1,0 +1,5 @@
+The process consuming the 
+
+most CPU time will be at the top of the list, which is immediately useful for problem solving.
+
+We can sort on many columns in top. To sort on CPU usage, we will need to sort the %CPU column.

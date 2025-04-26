@@ -1,0 +1,5 @@
+note that performance in this configuration will be quite slow, as data will need to be written to 
+different parts of the same disk multiple times. It also doesn’t provide much additional resilience against disk 
+failures. If the single disk fails, then your raId array will also fail.
+
+On our example host we will again use three new disks, sdc, sdd, and sde, all of identical size.

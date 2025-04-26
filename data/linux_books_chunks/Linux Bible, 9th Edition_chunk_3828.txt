@@ -1,0 +1,2 @@
+The script constructs software RAID arrays and 
+sets up Logical Volume Management volume groups and volumes.

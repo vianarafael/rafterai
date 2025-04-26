@@ -1,0 +1,7 @@
+To allow access to the administra-
+tion tool, CUPS must be conﬁ gured to prompt for a password (AuthType Basic).
+
+Starting the CUPS server
+For Linux systems that use SystemV-style startup scripts (such as earlier releases of Fedora 
+and RHEL), starting and shutting down the CUPS print service is pretty easy. Use the 
+ chkconfig command to turn on CUPS so it starts at each reboot.

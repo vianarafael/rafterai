@@ -1,0 +1,6 @@
+Also, you can start or stop it manually using the 
+sservice command.
+
+Adding new services to Upstart
+You need to complete only one step to add a new service or customize an existing service 
+with Upstart. Just add a new job conﬁ guration ﬁ le or modify an existing one.

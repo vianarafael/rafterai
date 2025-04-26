@@ -1,0 +1,5 @@
+Opts: (null)
+
+The kernel detected an ext4 filesystem and mounted it with the default option of “ordered data mode” 
+
+(which means we first write data to the main filesystem and then commit the metadata to the journal).

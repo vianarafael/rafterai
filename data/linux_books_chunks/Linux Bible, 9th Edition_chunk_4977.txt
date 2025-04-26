@@ -1,0 +1,3 @@
+During a 
+manual installation process, you set a root password, created a regular user account and 
+password, possibly deﬁ ned your network interfaces, and did other tasks.

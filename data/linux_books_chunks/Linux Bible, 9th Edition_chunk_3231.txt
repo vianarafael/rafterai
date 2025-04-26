@@ -1,0 +1,4 @@
+By default, httpd is run by the apache user and group. Make sure the account 
+has execute permissions on the directory and every directory above it, as well as 
+read permissions on the ﬁ les themselves. Read permissions on a directory are also 
+ necessary if you want Apache to generate an index of ﬁ les.

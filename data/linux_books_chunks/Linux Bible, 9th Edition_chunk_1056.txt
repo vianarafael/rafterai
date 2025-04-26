@@ -1,0 +1,15 @@
+Because I want to see the highest ones ﬁ rst, I put a hyphen in front 
+of that option to sort (sort=-rss).
+
+$ ps -eo pid,user,group,gid,vsz,rss,comm --sort=-rss | less
+  PID USER     GROUP      GID     VSZ    RSS COMMAND
+12005 cnegus   cnegus   13597 1271008 522192 firefox
+ 5412 cnegus   cnegus   13597  949584 157268 thunderbird-bin
+25870 cnegus   cnegus   13597 1332492 112952 swriter.bin
+
+Refer to the ps man page for information on other columns of information you can display 
+and sort by.
+
+Listing and changing processes with top
+The top command provides a screen-oriented means of displaying processes running on 
+your system.

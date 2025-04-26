@@ -1,0 +1,12 @@
+Use quotes to enter 
+ multiple words (for example, -c "Jake Jackson").
+
+266
+
+c11.indd  04/01/2015  Page 267
+
+Chapter 11: Managing User Accounts
+
+ ■ -d home_dir—Change the home directory to use for the account. The default is 
+
+to name it the same as the login name and to place it in /home.

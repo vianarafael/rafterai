@@ -1,0 +1,6 @@
+Not only that, but every system you build 
+after that is also just right, even if it consists of thousands of them. And it can be done automatically for you 
+after you have completed your CI builds!
+
+Provisioning
+We’ve talked a little about what provisioning is, but how you go about it varies between distributions.

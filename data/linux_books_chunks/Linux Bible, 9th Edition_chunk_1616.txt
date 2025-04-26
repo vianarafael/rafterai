@@ -1,0 +1,21 @@
+Corruption of 
+a smaller partition can be easier to ﬁ x and often allows the computer to stay in 
+ service while the correction is made.
+
+Table 9.4 lists some directories that you may want to consider making into separate 
+ ﬁ lesystem partitions.
+
+TABLE 9.4    Assigning Partitions to Particular Directories
+
+Directory
+
+Explanation
+
+9
+
+/boot
+
+/usr
+
+Sometimes, the BIOS in older PCs can access only the fi rst 1,024 cylinders of 
+your hard disk.

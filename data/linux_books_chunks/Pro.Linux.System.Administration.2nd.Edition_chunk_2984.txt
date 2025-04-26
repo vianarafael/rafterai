@@ -1,0 +1,5 @@
+For instance, if you want to create a database called my-db, you need to use backquotes; otherwise, 
+MariaDB would interpret my-db as subtracting the value in the db column from the value in the my column. 
+Since neither of these columns exists, an error would be generated, as shown in Figure 11-7.
+
+Figure 11-7.

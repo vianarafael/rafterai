@@ -1,0 +1,20 @@
+You learned how to do the following:
+
+•	
+
+•	
+
+•	
+
+Install and configure Cobbler
+
+Automatically boot a host with a chosen operating system
+
+Install a chosen operating system and automatically answer the installation 
+questions
+
+980
+
+We also introduced a configuration management tool, Puppet, that will help you consistently and 
+
+accurately manage your environment.

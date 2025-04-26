@@ -1,0 +1,5 @@
+The top object class, an ABSTRACT superclass, 
+
+is required to provide the other object classes and is used to terminate the hierarchy.
+
+The person object class provides the sn (surname) and cn (common name) attributes.

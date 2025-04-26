@@ -1,0 +1,11 @@
+To add more options, just type 
+them at the end of that line and press Enter.
+
+So, for example, if you have a kickstart ﬁ le available from /root/ks.cfg on a CD, your 
+anaconda boot prompt to start the installation using the kickstart ﬁ le could look like the 
+following:
+
+vmlinuz initrd=initrd.img ks=cdrom:/root/ks.cfg
+
+For Red Hat Enterprise Linux 7 and the latest Fedora releases, kernel boot options used dur-
+ing installation are transitioning to a new naming method.

@@ -1,0 +1,5 @@
+It dedicates several threads to handle keepalives, which hand active connections 
+to waiting threads.
+
+The other popular alternative to Apache web servers is Nginx. Nginx is a fast and modular web server 
+that is often used in conjunction with the Apache server as a caching server or on its own as a web server.

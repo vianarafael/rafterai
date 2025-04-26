@@ -1,0 +1,7 @@
+A full listing of available resources is included in the sample 
+
+file, and it also available on the man limits.conf page. Last on each line is the value that the limit should be 
+set to. Lines beginning with # are comments or examples.
+
+In the case of the sample file, the @faculty group is allowed to run 20 concurrent processes (nproc) 
+according to their soft limit.

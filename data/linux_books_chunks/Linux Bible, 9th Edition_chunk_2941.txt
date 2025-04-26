@@ -1,0 +1,7 @@
+You also must select Server Settings and click the Share 
+Published printers connected to this system check box before the printer will 
+accept print jobs from other computers.
+
+ ■ Policies—In case of error, the stop-printer selection causes all printing to 
+
+that printer to stop.

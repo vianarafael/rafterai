@@ -1,0 +1,9 @@
+Also, 
+the SELinux Guide is not located within the Security manual, but the Security 
+manual is a good manual to review as well.
+
+ ■ SELinux on Ubuntu—Because there are subtle differences between SELinux on 
+RHEL/Fedora and Ubuntu, the site https://wiki.ubuntu.com/SELinux pro-
+vides you with the additional help you need.
+
+ ■ SELinux Project Wiki—This is the ofﬁ cial SELinux project page.

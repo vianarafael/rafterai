@@ -1,0 +1,2 @@
+For cloud, when you install a system, you are probably not booting from a physical DVD, 
+erasing the local hard drive, and installing Linux directly on a computer sitting in front of you.

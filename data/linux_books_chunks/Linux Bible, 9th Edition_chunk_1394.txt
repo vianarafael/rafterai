@@ -1,0 +1,5 @@
+The last few lines reﬂ ect a 4GB USB 
+drive being plugged into the computer.
+
+If something goes wrong detecting your hardware or loading drivers, you can refer to this 
+information to see the name and model number of hardware that’s not working.

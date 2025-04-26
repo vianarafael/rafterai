@@ -1,0 +1,12 @@
+In the authorized_key file, we specified command=~/bin/
+ssh_limiter.sh, so our ssh_limiter.sh script needs to be copied to the bin directory with the appropriate 
+permissions as well.
+
+ this rather convoluted setup process can be made infinitely easier with configuration management 
+
+ ■ Tip 
+tools, like those explained in Chapter 19.
+
+Testing rsync
+
+We are going to create a file on our remote host to test the rsync script we are about to show you.

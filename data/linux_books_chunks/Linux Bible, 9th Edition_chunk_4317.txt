@@ -1,0 +1,11 @@
+The  following 
+code demonstrates this process:
+
+$ gpg2 --output JohnDoe.DS --sign MessageForJill.txt
+
+You need a passphrase to unlock the secret key for
+user: "John Doe (The User) <jdoe@example.com>"
+2048-bit RSA key, ID 3B2E46D5, created 2016-12-08
+
+After the user jill receives the signed and encrypted ﬁ le, she can use the gpg2 utility 
+to check the digital signature and decrypt the ﬁ le in one step.

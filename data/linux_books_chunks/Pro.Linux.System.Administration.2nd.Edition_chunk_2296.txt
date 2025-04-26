@@ -1,0 +1,6 @@
+For this you will need the 
+
+RAID management utilities, which are provided by the mdadm package.
+
+The command that manages all aspects of the RAID configuration is also called mdadm, and you can 
+specify what it should do with your array via the mode option.

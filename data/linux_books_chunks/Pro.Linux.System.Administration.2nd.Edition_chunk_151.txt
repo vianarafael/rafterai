@@ -1,0 +1,4 @@
+The primary and secondary DNS name servers are special servers that resolve IP addresses to fully 
+qualified domain names. A fully qualified domain name is au-mel-centos-1.example.com for example.
+
+ ■ Tip  Specifying a primary and a secondary DnS server adds redundancy to your network.

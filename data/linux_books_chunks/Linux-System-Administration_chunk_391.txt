@@ -1,0 +1,23 @@
+nosuid
+
+The nosuid option will ignore setuid bit set binaries on the mounted file system.
+
+Note that you can still set the setuid bit on files.
+
+root@rhel53 ~# mount -o nosuid /dev/hdb1 /home/project42
+root@rhel53 ~# cp /bin/sleep /home/project42/
+root@rhel53 ~# chmod 4555 /home/project42/sleep 
+root@rhel53 ~# ls -l /home/project42/sleep 
+-r-sr-xr-x 1 root root 19564 Jun 24 17:57 /home/project42/sleep
+
+But users cannot exploit the setuid feature.
+
+root@rhel53 ~# su - paul
+[paul@rhel53 ~]$ /home/project42/sleep 500 &
+[1] 2876
+[paul@rhel53 ~]$ ps -f 2876
+UID        PID  PPID  C STIME TTY      STAT   TIME CMD
+paul      2876  2853  0 17:58 pts/0    S      0:00 /home/project42/sleep 500
+[paul@rhel53 ~]$
+
+7.5.4.

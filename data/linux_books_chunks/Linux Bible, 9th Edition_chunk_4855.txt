@@ -1,0 +1,7 @@
+Authentication is necessary for 
+those who are using cloud features as well as for those who are allowed to administer cloud 
+features.
+
+Cloud platform projects sometimes let you connect centralized authentication mechanisms 
+to validate and authorize cloud users. These can include Kerberos, Microsoft Active Directory, 
+and others.

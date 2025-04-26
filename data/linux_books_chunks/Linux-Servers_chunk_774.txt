@@ -1,0 +1,7 @@
+Knowing that the %m variable contains the computername, create a separate log file for
+every computer(account).
+
+8. Knowing that %s contains the client operating system, include a smb.%s.conf file that
+contains a share. (The share will only be visible to clients with that OS).
+
+9.

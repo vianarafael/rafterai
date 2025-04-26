@@ -1,0 +1,9 @@
+To check the memory and swap on the computer, I typed the following:
+
+# free -m
+         total    used     free   shared  buff/cache   available
+Mem:      7867    3433     2835      298        1598        3860
+Swap:    12287       0    12287
+
+This system has about 8GB of RAM and 12GB of swap. I estimate that 4GB is good for a 
+desktop system.

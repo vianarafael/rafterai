@@ -1,0 +1,8 @@
+Inside the definition are the attributes 
+of the object defined by a series of key/value statements, separated by spaces. Our host object definition has 
+four attributes: use, host_name, alias, and address.
+
+ Some attributes are mandatory for certain object definitions, meaning you must specify the attribute 
+
+ ■ Tip 
+and a value for them.

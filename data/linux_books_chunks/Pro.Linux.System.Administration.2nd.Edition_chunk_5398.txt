@@ -1,0 +1,12 @@
+run it with the --help option to see all its 
+
+ ■ Tip 
+capabilities.
+
+897
+
+Chapter 18 ■ Logging and Monitoring
+
+We are going to create a file called linux-servers-base.cfg in the /etc/nagios/objects directory. 
+This is going to be used to define our gateway host and define the service check we will use to check the load 
+on the gateway server.

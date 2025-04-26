@@ -1,0 +1,21 @@
+The following example of a conﬁ guration ﬁ le has some very 
+simple syntax:
+
+# cat ck-log-system-restart.conf
+# Upstart event
+# ck-log-system-restart - write system restart to log
+start on runlevel 6
+task
+exec /usr/sbin/ck-log-system-restart
+
+15
+
+417
+
+ 
+ 
+c15.indd  04/01/2015  Page 418
+
+Part IV: Becoming a Linux Server Administrator
+
+Any pound sign (#) denotes a comment line and is ignored by Upstart.

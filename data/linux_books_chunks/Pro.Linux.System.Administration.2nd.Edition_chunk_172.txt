@@ -1,0 +1,6 @@
+What this section does is install tools that perform Security Content Automation Protocol (SCAP) scans and 
+integrity check against your system according to a predefined security policy.
+
+Which should you choose? On their own they don’t make your system any more secure but they can 
+
+help you identify, report, and remedy any vulnerability.

@@ -1,0 +1,6 @@
+The sftp  command 
+provides an FTP-like interface for traversing a remote ﬁ lesystem and getting and  putting 
+ﬁ les between the systems interactively.
+
+By default, all the SSH-related tools authenticate using standard Linux usernames and pass-
+words, all done over encrypted connections.

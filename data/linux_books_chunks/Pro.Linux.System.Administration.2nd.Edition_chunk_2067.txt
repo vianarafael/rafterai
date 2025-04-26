@@ -1,0 +1,9 @@
+These partitions can, in turn, be formatted or gathered 
+into logical volumes and then formatted.
+
+Let’s start by looking at devices, which are the basic building blocks of Linux storage. We’ll then move 
+
+on to cover partitions and filesystems.
+
+Devices
+We briefly touched on device files in Chapter 4.

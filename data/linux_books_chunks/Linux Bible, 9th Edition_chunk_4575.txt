@@ -1,0 +1,5 @@
+This means SELinux checks and changes 
+the security contexts of any ﬁ les with incorrect security contexts (for example, mislabeled 
+ﬁ les) that can cause problems in the new mode. Also, any ﬁ les not labeled are labeled 
+with contexts. This relabeling process can take a long time because each ﬁ le’s context is 
+checked.

@@ -1,0 +1,16 @@
+So, I use grep to just display those lines:
+
+$ ip addr show | grep inet
+inet 127.0.0.1/8 scope host lo
+inet 192.168.1.231/24 brd 192.168.1.255 scope global wlan0
+
+5
+
+133
+
+c05.indd  04/01/2015  Page 134
+
+Part II: Becoming a Linux Power User
+
+Summary
+Being able to work with plain-text ﬁ les is a critical skill for using Linux.

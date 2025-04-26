@@ -1,0 +1,9 @@
+This means you don’t need 
+to wait until the slave reaches the zone expiration time, as any zone changes on the master server will be 
+replicated to the slave immediately.
+
+Next, you add an allow-transfer directive, which should contain the IP address of the slave server. 
+
+We’ve included the new definition for the example.com zone in Listing 10-27.
+
+Listing 10-27.

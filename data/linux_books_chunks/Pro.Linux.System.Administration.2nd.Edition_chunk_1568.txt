@@ -1,0 +1,7 @@
+Found in the filter, 
+mangle and security table only.
+
+Used to sequence rules for outgoing packets originating from the host interface(s). 
+Found in the filter, nat, mangle, raw and security tables.
+
+Used to alter packets before they are routed to the other chains.

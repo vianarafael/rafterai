@@ -1,0 +1,35 @@
+This 
+objective includes being able to assess requirements for a kernel compile versus a 
+kernel patch as well as build and configure kernel modules.
+
+Key files, terms, and utilities include:
+/usr/src/linux 
+/proc/sys/kernel/
+/etc/conf.modules, /etc/modules.conf 
+patch 
+make 
+modprobe 
+insmod, lsmod 
+kerneld
+kmod 
+
+85
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Topic 202: System Startup
+
+• 2.202.1 Customizing system startup and boot processes
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to edit appropriate system startup scripts to 
+customize standard system run levels and boot processes.

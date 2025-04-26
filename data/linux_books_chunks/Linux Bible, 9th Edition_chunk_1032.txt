@@ -1,0 +1,6 @@
+Multitasking means that many programs can be running at the same time. An instance of a 
+running program is referred to as a process. Linux provides tools for listing running processes, 
+
+monitoring system usage, and stopping (or killing) processes when necessary.
+
+From a shell, you can launch processes, and then pause, stop, or kill them.

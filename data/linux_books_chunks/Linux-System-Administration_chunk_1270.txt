@@ -1,0 +1,15 @@
+SCSI tape devices are located underneath /dev/st and are
+numbered starting with 0 for the first tape device.
+
+/dev/st0   First tape device
+/dev/st1   Second tape device
+/dev/st2   Third tape device
+
+To prevent automatic rewinding of tapes, prefix them with the letter n.
+
+/dev/nst0   First no rewind tape device
+/dev/nst1   Second no rewind tape device
+/dev/nst2   Third no rewind tape device
+
+By default, SCSI tapes on Linux will use the highest hardware compression that is supported
+by the tape device.

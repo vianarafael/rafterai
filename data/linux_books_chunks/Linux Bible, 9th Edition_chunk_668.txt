@@ -1,0 +1,14 @@
+For example, here’s how to repeat the date command shown as 
+command number 382 in the preceding history listing:
+
+$ !382
+dateWed Oct 29 21:30:06 PDT 2014
+
+ ■ !!—Run previous command. Runs the previous command line. Here’s how you 
+
+would immediately run that same date command:
+
+$ !!
+dateWed Oct 29 21:30:39 PDT 2014
+
+ ■ !?string?—Run command containing string.

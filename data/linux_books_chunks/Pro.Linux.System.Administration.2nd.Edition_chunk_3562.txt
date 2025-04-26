@@ -1,0 +1,6 @@
+1 root root  504 Sep  5 09:21 201609.txt
+
+Here we have created a 2,048-bit private key (-b 2048) and a public key in the /etc/opendkim/keys 
+directory (-D). We append the domain (-a), which appends our domain to the zone file stub. The –d says 
+we are generating the keys for a particular domain. You can remove this if you want to use the same key for 
+multiple domains.

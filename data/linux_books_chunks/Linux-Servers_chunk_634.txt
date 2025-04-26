@@ -1,0 +1,16 @@
+Everyone (even
+anonymous guests) will receive read access.
+
+The first step is to create a directory and put some test files in it.
+
+[root@RHEL52 ~]# mkdir -p /srv/samba/readonly
+[root@RHEL52 ~]# cd /srv/samba/readonly/
+[root@RHEL52 readonly]# echo "It is cold today." > winter.txt
+[root@RHEL52 readonly]# echo "It is hot today." > summer.txt
+[root@RHEL52 readonly]# ls -l
+total 8
+-rw-r--r-- 1 root root 17 Jan 21 05:49 summer.txt
+-rw-r--r-- 1 root root 18 Jan 21 05:49 winter.txt
+[root@RHEL52 readonly]#
+
+11.2.

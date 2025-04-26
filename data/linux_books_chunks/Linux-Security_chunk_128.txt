@@ -1,0 +1,2 @@
+This means that it is not possible to login as root (extra security). To perform tasks as
+root, the first user is given all sudo rights via the /etc/sudoers.

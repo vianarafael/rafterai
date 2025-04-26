@@ -1,0 +1,14 @@
+Or they may allow access only to up to 30 percent of the total 
+ processing power of a machine.
+
+The types of resources that can be limited by cgroups include the following:
+
+ ■ Storage (blkio)—Limits total input and output access to storage devices (such 
+
+as hard disks, USB drives, and so on).
+
+ ■ Processor scheduling (cpu)—Assigns the amount of access a cgroup has to 
+
+be scheduled for processing power.
+
+ ■ Process accounting (cpuacct)—Reports on CPU usage.

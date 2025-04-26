@@ -1,0 +1,14 @@
+Uncomment that line, and change the 
+number of minutes.
+
+10
+
+243
+
+c10.indd  04/01/2015  Page 244
+
+Part III: Becoming a Linux System Administrator
+
+Next, yum looks at the packages you requested to install and checks if any dependent 
+ packages are needed by those packages. With the package list gathered, yum asks you if it 
+is okay to download all those packages.

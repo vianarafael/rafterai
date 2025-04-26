@@ -1,0 +1,10 @@
+Higher resolutions result in better quality but take longer 
+to print.
+
+ ■ EconoMode—Either use the printer’s current setting or choose a mode where 
+
+you save toner or one where you have the highest possible quality.
+
+ ■ Job Options—Click Job Options to set common default options that will be used 
+
+for this printer if the application printing the job doesn’t already set them.

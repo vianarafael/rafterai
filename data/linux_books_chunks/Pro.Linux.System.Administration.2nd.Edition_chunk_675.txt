@@ -1,0 +1,9 @@
+If you want to preserve the original values on the copy, you can use 
+the -p switch.
+
+$ cp -p /home/jsmith/myfile /home/jsmith/yourfile
+
+WORKING WITH DIRECTORIES
+
+In addition to files, you can also manipulate directories. To create a directory, use the mkdir command. 
+You must have write permissions to the location you’re creating the directory in.

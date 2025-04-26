@@ -1,0 +1,13 @@
+Use chkconfig to setup your script to start in runlevels 3,4 and 5, and to stop in any other
+runlevel.
+
+189
+
+init and runlevels
+
+15.10. solution : init
+
+1. Change /etc/inittab so that only two mingetty's are respawned. Kill the other mingetty's
+and verify that they don't come back.
+
+Killing the mingetty's will result in init respawning them.

@@ -1,0 +1,4 @@
+The 
+targeted policy places fewer restrictions on what valid user accounts can do on the system. 
+For a more restricted policy, you can choose Multi-Level Security (MLS). MLS uses Type 
+Enforcement along with the additional feature of security clearances.

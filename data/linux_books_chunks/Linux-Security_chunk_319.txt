@@ -1,0 +1,16 @@
+file links
+
+An average computer using Linux has a file system with many hard links and symbolic
+links.
+
+To understand links in a file system, you first have to understand what an inode is.
+
+67
+
+file links
+
+9.1. inodes
+
+9.1.1. inode contents
+
+An inode is a data structure that contains metadata about a file.

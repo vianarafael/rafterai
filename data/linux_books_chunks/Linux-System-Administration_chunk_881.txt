@@ -1,0 +1,12 @@
+dpkg
+
+You could use dpkg -i to install a package and dpkg -r to remove a package, but you'd have
+to manually keep track of dependencies. Using apt-get or aptitude is much easier.
+
+231
+
+package management
+
+20.3. apt-get
+
+Debian  has  been  using  apt-get  to  manage  packages  since  1998.

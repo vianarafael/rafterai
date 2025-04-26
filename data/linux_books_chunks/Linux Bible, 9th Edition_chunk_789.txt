@@ -1,0 +1,10 @@
+On server computers, it is 
+ common to create the /var directory as a separate ﬁ lesystem, using a ﬁ lesystem 
+type that can be easily expanded.
+
+The ﬁ lesystems in the DOS and Microsoft Windows operating systems differ from Linux’s ﬁ le 
+structure, as the sidebar “Linux Filesystems versus Windows-Based Filesystems” explains.
+
+Linux Filesystems versus Windows-Based Filesystems
+Although similar in many ways, the Linux fi lesystem has some striking differences from fi lesystems used 
+in MS-DOS and Windows operating systems.

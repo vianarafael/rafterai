@@ -1,0 +1,4 @@
+There 
+are a number of ways you can do this, but you must do it securely—don’t e-mail them, for example, as they 
+can be readily intercepted. Take them on a USB key, add them to your configuration management system 
+(encrypted), and install them locally on the target server/client.

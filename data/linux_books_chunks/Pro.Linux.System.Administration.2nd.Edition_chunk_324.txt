@@ -1,0 +1,3 @@
+Now to confuse things, Windows and Linux systems 
+(and even Macs) have different ways of telling a computer where the end of a line is in a file. In Linux the 
+end of a line in a file is called LF (line feed) and in Windows it is called CRLF (carriage return line feed).

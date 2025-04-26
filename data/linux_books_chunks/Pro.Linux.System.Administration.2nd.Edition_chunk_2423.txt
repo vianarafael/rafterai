@@ -1,0 +1,10 @@
+For example, to set the system time you 
+would issue timedatectl set-time. Managing your time with timedatectl is very easy. Let’s move on to how 
+we manage keeping your hosts time in sync with world clocks automatically.
+
+418
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Network Time Protocol
+We’ll start by showing you how to keep all system clocks on your hosts synchronized.

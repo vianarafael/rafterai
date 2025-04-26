@@ -1,0 +1,11 @@
+For more information, 
+type man ip6tables at the command line.
+
+Modifying iptables policies and rules
+Before you begin to modify the netfilter/iptables ﬁ rewall, it is helpful to understand 
+a few command options. Below are a few options for modifying the ﬁ rewall:
+
+ ■ -t table
+
+The iptables command listed along with this switch is applied to the table. By 
+default, the filter table is used.

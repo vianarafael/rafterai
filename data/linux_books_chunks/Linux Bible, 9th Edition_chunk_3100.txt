@@ -1,0 +1,13 @@
+With this set, the next time you reboot 
+the system, it is in Permissive mode. This means that if you break SELinux policies, 
+that event is logged, but not prevented (as it would be in Enforcing mode).
+
+SELINUX=permissive
+
+456
+
+c17.indd  04/01/2015  Page 457
+
+Chapter 17: Confi guring a Web Server
+
+ ■ Read the httpd_selinux man page. Type man httpd_selinux from the shell.

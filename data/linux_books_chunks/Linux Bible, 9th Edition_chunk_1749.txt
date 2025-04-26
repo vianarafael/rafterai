@@ -1,0 +1,14 @@
+In Fedora, 
+even your basic Fedora repositories are enabled from .repo ﬁ les in this directory.
+
+Here’s an example of a simple yum conﬁ guration ﬁ le named /etc/yum.repos.d/
+myrepo.repo:
+
+[myrepo]
+name=My repository of software packages
+baseurl=http://myrepo.example.com/pub/myrepo
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/MYOWNKEY
+
+Each repository entry begins with the name of the repository enclosed in square brackets.

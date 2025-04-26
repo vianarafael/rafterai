@@ -1,0 +1,10 @@
+In the example below, you can see that the root file system has
+acl support, whereas /home/data does not.
+
+root@laika:~# tail -4 /etc/fstab
+/dev/sda1        /              ext3     acl,relatime    0  1
+/dev/sdb2        /home/data     auto     noacl,defaults  0  0
+pasha:/home/r    /home/pasha    nfs      defaults        0  0
+wolf:/srv/data   /home/wolf     nfs      defaults        0  0
+
+8.2.

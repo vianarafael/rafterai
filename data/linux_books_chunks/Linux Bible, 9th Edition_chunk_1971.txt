@@ -1,0 +1,11 @@
+To implant the acl mount option and check that it is there, I ran the following commands:
+
+# tune2fs -o acl /dev/sdc1
+# tune2fs -l /dev/sdc1 | grep "mount options"
+Default mount options:    acl
+
+You can test that this worked by remounting the ﬁ lesystem and trying to use the setfacl 
+command on a ﬁ le in that ﬁ lesystem.
+
+A second way to add acl support to a ﬁ lesystem is to add the acl option to the line in the 
+/etc/fstab ﬁ le that automatically mounts the ﬁ lesystem at boot time.

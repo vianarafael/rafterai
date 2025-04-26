@@ -1,0 +1,4 @@
+Reboot again, and when you see the BIOS screen, look for some words that 
+say something like “Boot Order.” The onscreen instructions may say to press the F12 or F1 key. Press that key imme-
+diately from the BIOS screen. Next, you should see a screen that shows available selections. Highlight an entry for 
+CD/DVD or USB drive, and press Enter to boot the live image.

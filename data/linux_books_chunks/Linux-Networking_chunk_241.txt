@@ -1,0 +1,8 @@
+specific ip address
+
+This is a screenshot that filters for dns packets that contain a certain ip address. The filter
+in use is ip.addr==10.104.33.30 and dns. The and directive forces each displayed packet
+to match both conditions.
+
+Packet 93 is the dns query for the A record of linux-training.be. Packet 98 is the response
+from the dns server.

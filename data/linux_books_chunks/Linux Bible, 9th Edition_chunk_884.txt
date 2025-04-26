@@ -1,0 +1,7 @@
+You can change ownership as the root user. For example, suppose you 
+ created a ﬁ le called memo.txt, while you were root user, in the user joe’s home directory. 
+Here’s how you could change it to be owned by joe:
+
+# chown joe /home/joe/memo.txt
+# ls -l /home/joe/memo.txt
+-rw-r--r--.

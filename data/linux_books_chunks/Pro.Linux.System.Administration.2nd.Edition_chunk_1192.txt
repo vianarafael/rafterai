@@ -1,0 +1,8 @@
+You can see all inactive units too by adding --all to the 
+command.
+
+Managing SysV style files
+
+So far we have seen how we handle systemd unit files that control services. Remember we can also use the 
+older SysV init.d files too. We have also said that systemd will first look in its own directory paths looking 
+for a name.service file, or in our case postfix.service.

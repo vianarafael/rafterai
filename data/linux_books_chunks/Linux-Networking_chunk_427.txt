@@ -1,0 +1,9 @@
+port virtual hosts on CentOS
+
+8.5.1. default virtual host
+
+Unlike Debian, CentOS has no virtualHost configuration file for its default website. Instead
+the default configuration will throw a standard error page when no index file can be found
+in the default location (/var/www/html).
+
+8.5.2.

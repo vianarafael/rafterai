@@ -1,0 +1,15 @@
+Once the application is started, select Go ➤ Connect to 
+
+Server, or you can press ⌘ K and get to the same screen.
+
+In Figure 13-1 we just add our server address and click Connect.
+
+Figure 13-1.  Adding server address
+
+611
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+The next step is to add credentials, as shown in Figure 13-2.
+
+Figure 13-2.

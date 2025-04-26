@@ -1,0 +1,11 @@
+Some 
+ administrators like using an undeﬁ ned group number under 1000 so the group they create 
+doesn’t intrude on the group designations above 1000 (so UID and GID numbers can go 
+along in parallel).
+
+To change a group later, use the groupmod command. For example:
+
+# groupmod -g 330 jokers
+# groupmod -n jacks jokers
+
+In the ﬁ rst example, the group ID for jokers is changed to 330.

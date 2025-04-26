@@ -1,0 +1,7 @@
+On that second system, you need to make sure that the 
+sshd service is running, that the ﬁ rewall is open, and that ssh is allowed for the user 
+account you are trying to log in to (root is often blocked by sshd).
+
+If you have only one Linux system, you can create an additional user account and simply 
+simulate communications with another system by connecting to the name localhost 
+instead.

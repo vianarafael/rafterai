@@ -1,0 +1,6 @@
+Finally, I show you how you can apply that expertise to cloud 
+technologies.
+
+Understanding What Linux Is
+Linux is a computer operating system. An operating system consists of the software that 
+manages your computer and lets you run applications on it.

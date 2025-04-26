@@ -1,0 +1,7 @@
+See the Red Hat Storage Administration Guide for 
+ further information (https://access.redhat.com/documentation/en-US/
+Red_Hat_Enterprise_Linux/7/html/Storage_Administration_Guide/
+ch-iscsi.html)
+
+ ■ System reports—Use features such as sar to report on system use of memory, disk 
+access, network trafﬁ c, and processor utilization.

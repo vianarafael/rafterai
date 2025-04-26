@@ -1,0 +1,4 @@
+Customers 
+can be assured that, along with support, they can get hardware and third-party software 
+that is certiﬁ ed to work with RHEL. They can get Red Hat consultants and engineers to help 
+them put together the computing environments they need.

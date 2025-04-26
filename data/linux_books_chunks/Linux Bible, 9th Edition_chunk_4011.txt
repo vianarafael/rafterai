@@ -1,0 +1,8 @@
+When you do this, some memory pages are written to disk; others are just 
+discarded (because they are stored permanently and can be gotten again from disk 
+when they are needed).
+
+21
+
+This action is the equivalent of cleaning your desk and putting all but the most 
+critical information into the trash or into a ﬁ le cabinet.

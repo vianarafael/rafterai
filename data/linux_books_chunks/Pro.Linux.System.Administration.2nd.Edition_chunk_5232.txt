@@ -1,0 +1,8 @@
+We will use grok to search for the string containing the epoch and the unique ID and 
+extract them as labels for us.
+
+    grok {
+      match => { "msg" => "audit\(%{NUMBER:audit_epoch}:%{NUMBER:audit_counter}\):" }
+    }
+
+Here we are telling grok to match the msg key and find the audit(<somenumber>:<somenumber): string.

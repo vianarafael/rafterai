@@ -1,0 +1,8 @@
+Our true certificate
+
+Other Web Applications
+We’ve shown you how to install two web applications in a virtual host of their own, which should 
+provide you with a basic understanding of the process. We can’t include installation guidance for all web 
+applications here, but we can suggest some that you might find useful.
+
+MediaWiki is a collaboration tool that runs Wikipedia (among other sites).

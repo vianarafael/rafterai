@@ -1,0 +1,15 @@
+This is 
+why many people have moved away from this to other metric storage and collection systems, like Graphite, 
+which will use to replace this shortly.
+
+<Include "/etc/collectd/collectd.conf.d">
+    Filter "*.conf"
+</Include>
+
+Lastly we have an include statement that says, include any files ending with the .conf suffix in the /etc/
+
+collectd/collectd.conf.d directory.
+
+Starting and Stopping Collectd
+
+Starting and stopping Collectd is again very straightforward.

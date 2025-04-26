@@ -1,0 +1,3 @@
+It is a much longer license than the others 
+just mentioned because it contains more deﬁ nitions of how contributors and those 
+reusing the source code should behave.

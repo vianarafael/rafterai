@@ -1,0 +1,6 @@
+Once the backup is complete, the Bareos program can verify the backup 
+was successful by comparing what was written to the catalog and what was written to the tape.
+
+When a restore operation is requested, Bareos will read the contents of the catalog and request that the 
+
+appropriate media be loaded.

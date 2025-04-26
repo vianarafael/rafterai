@@ -1,0 +1,5 @@
+It contains information about the filesystem such 
+
+as its size, the amount of free space in the filesystem, and where on the filesystem the data can be found. If 
+a crash occurred and this superblock were damaged, you’d have no way of determining which parts of the 
+filesystem contained your data.

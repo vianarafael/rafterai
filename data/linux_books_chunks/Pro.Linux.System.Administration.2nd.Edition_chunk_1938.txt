@@ -1,0 +1,9 @@
+To demonstrate that using aptitude this way is just as handy as using the 
+GUI, we will install the nmap package again. When using aptitude noninteractively, you need to run it as root 
+for install and uninstall tasks. Take a look at how to install nmap again in Listing 8-13.
+
+331
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Listing 8-13.

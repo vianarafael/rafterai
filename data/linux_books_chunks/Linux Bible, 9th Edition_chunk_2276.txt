@@ -1,0 +1,5 @@
+Further, you can tell iptables to only allow service requests from certain 
+IP addresses (good guys) or not allow requests from other addresses (bad guys).
+
+In RHEL 7 and Fedora, the relatively new firewalld feature adds a layer of functionality 
+to Linux ﬁ rewall rules.

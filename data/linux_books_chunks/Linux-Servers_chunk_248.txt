@@ -1,0 +1,18 @@
+This  screenshot  shows
+version 5.0 installed.
+
+root@ubu1204~# dpkg -l mysql-server | tail -1 | tr -s ' ' | cut -c-72
+ii mysql-server 5.5.24-0ubuntu0.12.04.1 MySQL database server (metapacka
+
+Issue rpm -q to get version information about MySQL on Red Hat/Fedora/CentOS.
+
+[paul@RHEL52 ~]$ rpm -q mysql-server
+mysql-server-5.0.45-7.el5
+
+You will need at least version 5.0 to work with triggers.
+
+44
+
+introduction to sql using mysql
+
+3.2.

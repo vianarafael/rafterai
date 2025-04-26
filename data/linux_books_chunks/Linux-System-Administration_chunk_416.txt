@@ -1,0 +1,7 @@
+It effectively hides
+anything outside of this directory.
+
+In the example below we assume that our system refuses to start (maybe because there is a
+problem with /etc/fstab or the mounting of the root file system).
+
+We start a live system (booted from cd/dvd/usb) to troubleshoot our server.

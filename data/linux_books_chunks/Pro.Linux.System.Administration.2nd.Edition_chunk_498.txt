@@ -1,0 +1,5 @@
+Users are also created for particular systems components and used to run services; for 
+example, if you install a mail server, a user called mail might also be created that is used with this service, or 
+a user called lp (for line printer) may exist to control printer resources.
+
+Linux also relies on groups, which are collections of like users.

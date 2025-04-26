@@ -1,0 +1,9 @@
+login logging
+
+To keep track of who is logging into the system, Linux can maintain the /var/log/wtmp, /
+var/log/btmp, /var/run/utmp and /var/log/lastlog files.
+
+17.1.1. /var/run/utmp (who)
+
+Use the who command to see the /var/run/utmp file. This command is showing you all the
+currently logged in users.

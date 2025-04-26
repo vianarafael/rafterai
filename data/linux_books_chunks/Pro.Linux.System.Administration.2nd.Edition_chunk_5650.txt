@@ -1,0 +1,2 @@
+The first option, 
+--server, specifies the name or address of the Puppet master to connect to.

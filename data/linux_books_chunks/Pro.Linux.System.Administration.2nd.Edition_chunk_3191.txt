@@ -1,0 +1,7 @@
+However, as we have said, 
+a properly configured e-mail server should be set to accept mail only for the domain under its control.
+
+ it’s important to note that e-mail is classified as “best effort” and is not guaranteed. Meaning, a mail 
+
+ ■ Note 
+server will try to send mail for normally 4 hours before it gives up.

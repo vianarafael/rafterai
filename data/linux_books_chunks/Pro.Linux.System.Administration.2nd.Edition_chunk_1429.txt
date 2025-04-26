@@ -1,0 +1,8 @@
+When it has this information it will initiate a connection to the 
+webserver and then transmit the data in the packet on the physical wire and that information will find its 
+way to web server.
+
+You will be interested to know that when you initiate a TCP/IP connection (also known as a socket), 
+
+a three-stage process gets that connection into an “established” state, meaning both hosts are aware of 
+their socket to each other, agree how they are going to send data, and are ready to send that data.

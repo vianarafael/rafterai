@@ -1,0 +1,8 @@
+Compare the output again of fdisk and df. Do both commands display the new partitions ?
+
+8. Create a backup with dd of the mbr that contains your 200MB primary partition.
+
+9. Take a backup of the partition table containing your 400MB primary and 300MB logical
+drives. Make sure the logical drives are in the backup.
+
+10. (optional) Remove all your partitions with fdisk.

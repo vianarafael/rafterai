@@ -1,0 +1,32 @@
+To attempt to restart the cups daemon on your Linux server, use the following:
+
+ ■ For SysVinit:
+
+# service cups restart
+Stopping cups:          [  OK  ]
+Starting cups:          [  OK  ]
+
+812
+
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 813
+
+Appendix B: Exercise Answers
+
+ ■ For Upstart:
+
+# initctl restart cups
+cups start/running, process 2490
+
+ ■ Remember that if a service has not yet been ported to Upstart, you need to use 
+
+the service command instead of initctl.
+
+ ■ For systemd:
+
+# systemctl restart cups.service
+
+10.

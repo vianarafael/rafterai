@@ -1,0 +1,2 @@
+Disabling ASCII downloads forces all downloads to be in binary mode 
+(preventing ﬁ les from being translated in ASCII, which is inappropriate for binary ﬁ les).

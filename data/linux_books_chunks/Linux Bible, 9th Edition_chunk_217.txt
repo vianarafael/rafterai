@@ -1,0 +1,7 @@
+To that end, 
+Portable Operating System Interface (POSIX) standards and the AT&T UNIX System 
+V Interface Deﬁ nition (SVID) were speciﬁ cations UNIX vendors could use to create 
+compliant UNIX systems. Those same documents also served as road maps for the 
+creation of Linux.
+
+In an early email newsgroup post, Linus Torvalds made a request for a copy, preferably online, of the POSIX standard.

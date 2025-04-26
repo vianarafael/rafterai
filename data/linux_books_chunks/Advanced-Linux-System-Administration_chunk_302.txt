@@ -1,0 +1,27 @@
+Also 
+included is creating non ext2 filesystems for devices such as CD-ROMs.
+
+87
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+Key files, terms, and utilities include:
+/etc/auto.master 
+/etc/auto.[dir] 
+mkisofs 
+dd 
+mke2fs
+
+Topic 204: Hardware
+
+• 2.204.1 Configuring RAID
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: Candidates should be able to configure and implement software RAID.

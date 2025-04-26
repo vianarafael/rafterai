@@ -1,0 +1,12 @@
+The command to 
+accomplish this is rpm -V package_name.
+
+615
+
+c22.indd  04/15/2015  Page 616
+
+Part V: Learning Linux Security Techniques
+
+When you verify the software, information from the installed package ﬁ les is compared 
+against the package metadata (see Chapter 10) in the rpm database. If no problems are 
+found, the rpm -V command returns nothing.

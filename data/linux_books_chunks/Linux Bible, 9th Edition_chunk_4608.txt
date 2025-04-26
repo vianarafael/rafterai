@@ -1,0 +1,59 @@
+Table 24.3 
+shows the various Policy rule package tools available on a Fedora system.
+
+686
+
+c24.indd  04/15/2015  Page 687
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+TABLE 24.3    SELinux Policy Package Tools
+
+Policy Tool
+
+audit2allow
+
+audit2why
+
+checkmodule
+
+checkpolicy
+
+load_policy
+
+semodule
+
+Description
+
+Generates policy allow/dontaudit rules from logs of denied 
+operations
+
+Generates a description of why the access was denied from logs 
+of denied operations
+
+Compiles policy modules
+
+Compiles SELinux policies
+
+Loads new policies into the kernel
+
+Manages policy modules
+
+semodule_deps
+
+semodule_expand
+
+semodule_link
+
+Lists dependencies between policy packages
+
+Expands a policy module package
+
+Links policy module packages together
+
+semodule_package
+
+Creates a policy module package
+
+The following is an example policy typically used as a framework to create local policy 
+rules.

@@ -1,0 +1,16 @@
+In Listing 7-8, we have cut down the output and added line numbers to help clarify our explanation 
+of the output.
+
+279
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Listing 7-8.  Firewalld INPUT chain
+
+1. *filter
+2. :INPUT ACCEPT [0:0]
+3. :INPUT_ZONES – [0:0]
+4. :INPUT_ZONES_SOURCE - [0:0]
+5. :INPUT_direct - [0:0]
+6. -A INPUT -i virbr0 -p udp -m udp --dport 53 -j ACCEPT
+7.

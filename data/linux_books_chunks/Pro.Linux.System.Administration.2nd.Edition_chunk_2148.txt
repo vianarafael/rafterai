@@ -1,0 +1,7 @@
+And for frequently updating file data, Btrfs 
+uses a log tree, which is a per sub volume journal that records changes to help maintain consistency in the 
+event of crashes or reboots.
+
+Creating Swap Filesystem
+We are going to use the first partition you created earlier, /dev/sdb1, as a swap partition. The choice of 
+filesystem for this one is easy, as there is only one swap filesystem format.

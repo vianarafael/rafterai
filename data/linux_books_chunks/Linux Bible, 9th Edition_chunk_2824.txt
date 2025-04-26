@@ -1,0 +1,8 @@
+For example, to set the NetworkManager service so it never runs, 
+type the following:
+
+# systemctl mask NetworkManager.service
+ln -s '/dev/null' '/etc/systemd/system/NetworkManager.service'
+
+As the output shows, the NetworkManager.service ﬁ le in /etc is linked to /dev/
+null. So even if someone tried to run that service, nothing would happen.

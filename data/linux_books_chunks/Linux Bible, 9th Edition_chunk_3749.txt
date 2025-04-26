@@ -1,0 +1,4 @@
+Although systemd is more complicated than 
+System V init, it also offers many more features, such as these:
+
+ ■ Targets—Instead of runlevels, systemd focuses on targets.

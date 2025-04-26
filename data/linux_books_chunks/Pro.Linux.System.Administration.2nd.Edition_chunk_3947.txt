@@ -1,0 +1,27 @@
+We will use case to test and limit the commands
+# we are running.
+
+case "$SSH_ORIGINAL_COMMAND" in
+  *\&*)
+  echo "UNAUTHORIZED COMMAND"
+  ;;
+  *\;*)
+  echo "UNAUTHORIZED COMMAND"
+  ;;
+  *\|*)
+  echo "UNAUTHORIZED COMMAND"
+  ;;
+  rsync\ --server*)
+  $SSH_ORIGINAL_COMMAND
+  ;;
+  *)
+  echo "UNAUTHORIZED COMMAND"
+  ;;
+esac
+
+In Listing 14-1, we are using the Bash scripting language to test the commands that are being presented 
+
+by the ssh user.
+
+The case statement tests the variable $SSH_ORIGINAL_COMMAND to make sure it contains only the 
+command rsync --server.

@@ -1,0 +1,7 @@
+For other 
+Linux systems, or if you don’t have a desktop on your server, you may need to conﬁ gure the 
+cupsd.conf ﬁ le manually. You can step through the cupsd.conf ﬁ le to further tune your 
+CUPS server. Most of the settings are optional or can just be left as the default. Let’s look at 
+some of the settings that you can use in the cupsd.conf ﬁ le.
+
+No classiﬁ cation is set by default.

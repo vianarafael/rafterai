@@ -1,0 +1,13 @@
+Additionally, you can migrate data
+away from a failing hard disk device, create mirrors and create snapshots.
+
+100
+
+logical volume management
+
+11.1. introduction to lvm
+
+11.1.1. problems with standard partitions
+
+There are some problems when working with hard disks and standard partitions. Consider
+a system with a small and a large hard disk device, partitioned like this.

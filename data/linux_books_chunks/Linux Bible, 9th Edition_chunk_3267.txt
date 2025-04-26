@@ -1,0 +1,13 @@
+When 
+you see a ﬁ le you want, you use the get and put commands to download ﬁ les from or 
+upload them to the server, respectively.
+
+478
+
+c18.indd  04/01/2015  Page 479
+
+Chapter 18: Confi guring an FTP Server
+
+With graphical tools for accessing FTP servers (such as a web browser), you type the URL of 
+the site you want to visit (such as ftp://docs.example.com) into the location box of the 
+browser.

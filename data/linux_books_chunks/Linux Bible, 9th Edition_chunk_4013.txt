@@ -1,0 +1,5 @@
+Sometimes, memory exhaustion has made the 
+
+system so unusable that you may not be able to get a response from a shell or GUI. 
+In those cases, you might be able to use Alt+SysRq keystrokes to kill an out-of-
+memory process.

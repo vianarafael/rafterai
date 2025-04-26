@@ -1,0 +1,7 @@
+It does this by using SysV initd scripts to initialize many services 
+using compatibility scripts provided by Systemd packages.
+
+Figure 6-6.  PID 1 onUbuntu
+
+On Ubuntu the /sbin/init program is PID 1. That init program with PID 1 comes from the systemd-
+sysv package and is actually linked to the systemd binary or program.

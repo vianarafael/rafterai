@@ -1,0 +1,14 @@
+By default this feature is activated in bind.
+
+Notify can be disabled as in this screenshot.
+
+zone "1.168.192.in-addr.arpa" {
+        type master;
+        notify no;
+        file "/etc/bind/db.192";
+};
+
+5.5.4. old testing IXFR and AXFR
+
+Full  zone  transfers  (AXFR)  are  initiated  when  you  restart  the  bind  server,  or  when  you
+manually  update  the  zone  database  file  directly.

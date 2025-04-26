@@ -1,0 +1,24 @@
+Here is an 
+example:
+
+# free -m 
+         total    used     free     shared    buffers     cached
+Mem:      1955    1720      235          0         42       1310
+-/+ buffers/cache: 367     1588
+Swap:     1843       0     1843
+# swapoff /var/opt/myswap
+
+304
+
+c12.indd  04/01/2015  Page 305
+
+Chapter 12: Managing Disks and Filesystems
+
+# free -m
+Mem:      1955    1720      235          0         42       1310
+-/+ buffers/cache: 367     1588
+Swap:      819       0      819
+
+Using the fstab fi le to defi ne mountable fi le systems
+The hard disk partitions on your local computer and the remote ﬁ lesystems you use every 
+day are probably set up to automatically mount when you boot Linux.

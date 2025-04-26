@@ -1,0 +1,7 @@
+If Samba is set up properly on your computer and 
+the client computers can reach you over the network, users should have no trouble ﬁ nding 
+and using your printer.
+
+For many Windows systems, click Start ➪ Devices and Printers and select the printer 
+from the list to conﬁ gure it. In some older Windows systems, look for your shared Samba 
+printer in Network Neighborhood (or My Network Places).

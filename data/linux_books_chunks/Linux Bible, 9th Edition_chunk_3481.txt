@@ -1,0 +1,9 @@
+After that is done, check that the Samba share you created is available and that 
+
+514
+
+c19.indd  04/01/2015  Page 515
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+any user you assigned to the share can access it.

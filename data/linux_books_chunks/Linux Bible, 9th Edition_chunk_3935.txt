@@ -1,0 +1,12 @@
+For example:
+
+# ping -c 2 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+From 192.168.0.105 icmp_seq=1 Destination Host Unreachable
+From 192.168.0.105 icmp_seq=2 Destination Host Unreachable
+--- 192.168.0.1 ping statistics ---
+
+2 packets transmitted, 0 received, +2 errors, 100% packet loss
+
+The “Destination Host Unreachable” message tells you that the router is either turned off or 
+not physically connected to you (maybe the router isn’t connected to the switch you share).

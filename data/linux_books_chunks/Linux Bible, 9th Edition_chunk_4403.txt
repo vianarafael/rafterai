@@ -1,0 +1,9 @@
+Check out sources such as:
+
+ ■ http://www.openwall.com/pam/
+
+ ■ http://puszcza.gnu.org.ua/software/pam-modules/download.html
+
+Understanding PAM system event configuration files
+So far, the focus has been on PAM-aware applications and their conﬁ guration ﬁ les. 
+However, other system events, such as logging into the Linux system, also use PAM.

@@ -1,0 +1,5 @@
+The total is the amount of RAM that is available to this host. 
+This is then divided into RAM that is in use and RAM that is free. Different versions of the free program may 
+show different memory values on the same system.
+
+The shared refers to shared memory, mainly tmpfs.

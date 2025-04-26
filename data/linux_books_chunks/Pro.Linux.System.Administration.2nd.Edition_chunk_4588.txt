@@ -1,0 +1,11 @@
+The scope of dn.one will act 
+on the immediate part of the tree after ou=people,dc=example,dc=com.
+
+The dn.subtree scope will act on everything under ou=people,dc=example,dc=com and itself, whereas 
+
+dn.children will work on everything under ou=people,dc=example,dc=com.
+
+Defining who by Filters
+
+In LDAP, you can use filters, which are a means of weeding out undesirable data and leaving behind the 
+exact results you want.

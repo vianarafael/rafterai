@@ -1,0 +1,6 @@
+tarballs have file extensions that normally indicate how the archive was 
+compressed. examples include tar.gz or .tgz for gzip and tar.bz2 or .tbz for bzip2 compression. You can 
+see more information about tar on its man page.
+
+The -c flag tells wget to resume a partial download. This means it won’t restart the download from 
+scratch if it was interrupted for some reason.

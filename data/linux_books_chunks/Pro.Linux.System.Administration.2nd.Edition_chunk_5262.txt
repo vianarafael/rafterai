@@ -1,0 +1,16 @@
+Searching for SERVICE_STOP
+
+Further Information
+For further information on Beats, Logstash, Elasticsearch, and Kibana, you can see the following:
+
+•	
+
+•	
+
+https://logstashbook.com/
+
+https://www.elastic.co/products
+
+Monitoring
+Once you have all your applications and services running, you need to have some mechanism available to 
+monitor them.

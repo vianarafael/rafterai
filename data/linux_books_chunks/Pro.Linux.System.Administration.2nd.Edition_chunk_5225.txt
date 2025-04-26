@@ -1,0 +1,48 @@
+Let’s take a look at what this does to our Logstash data:
+
+{
+    "msg" => [
+        [0] "audit(1480844911.323:1080):",
+         [1] "unit=openvpn@gateway comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" 
+
+hostname=? addr=? terminal=? res=success"
+
+    ],
+    "uid" => "0",
+    "ses" => "4294967295",
+    "auid" => "4294967295",
+    "pid" => "1",
+
+868
+
+Chapter 18 ■ Logging and Monitoring
+
+    "source" => "/var/log/audit/audit.log",
+     "message" => "type=SERVICE_STOP msg=audit(1480844911.323:1080): pid=1 uid=0 
+
+auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=openvpn@
+gateway comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=?  
+terminal=? res=success'",
+    "type" => "SERVICE_STOP",
+    "subj" => "system_u:system_r:init_t:s0"
+    "tags" => [
+        [0] "security",
+        [1] "network",
+        [2] "beats_input_codec_plain_applied"
+    ],
+    "offset" => 5738705,
+    "input_type" => "log",
+    "@timestamp" => 2016-12-04T09:48:31.650Z,
+    "@version" => "1",
+    "beat" => {
+        "hostname" => "gateway.example.com",
+        "name" => "gateway.example.com",
+        "version" => "5.0.2"
+    },
+    "host" => "gateway.example.com",
+    "fields" => {
+        "env" => "production"
+    },
+}
+
+Now you can see that we are adding further texture to our data by labeling it with more usable data.

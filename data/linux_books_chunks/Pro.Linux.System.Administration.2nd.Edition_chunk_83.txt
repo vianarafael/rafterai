@@ -1,0 +1,7 @@
+These 
+methods allow you to explore a Linux distribution and how to use it with a minimal investment of time and 
+infrastructure.
+
+LiveCDs
+LiveCDs are versions of distributions that you can run on your computer from a CD or DVD. They load 
+themselves into memory without the need to install any software on your computer.

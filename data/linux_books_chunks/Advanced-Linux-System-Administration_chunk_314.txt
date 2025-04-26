@@ -1,0 +1,405 @@
+This 
+objective includes being able to identify and correct common hardware issues, and be 
+able to determine if the problem is hardware or software.
+
+Key files, terms, and utilities include:
+/proc filesystem 
+Various system and daemon log files in /var/log/ 
+/, /boot, and /lib/modules 
+screen output during bootup
+kernel syslog entries in system logs (if entry is able to be gained)
+location of system kernel and attending modules
+dmesg 
+/sbin/lspci 
+/usr/bin/lsdev 
+/sbin/lsmod 
+/sbin/modprobe 
+/sbin/insmod 
+/bin/uname 
+strace 
+strings 
+ltrace 
+
+93
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+lsof
+
+• 2.214.6 Troubleshooting system resources
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: A candidate should be able to identify, diagnose and repair local system 
+environment.
+
+Key files, terms, and utilities include:
+/etc/profile && /etc/profile.d/ 
+/etc/init.d/ 
+/etc/rc.* 
+/etc/sysctl.conf 
+/etc/bashrc /etc/ld.so.conf 
+(or other appropriate global shell configuration files)
+Core system variables
+Any standard editor
+/bin/ln 
+/bin/rm 
+/sbin/ldconfig 
+/sbin/sysctl
+
+• 2.214.8 Troubleshooting environment configurations
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 1 
+
+Description: A candidate should be able to identify common local system and user 
+environment configuration issues and common repair techniques.
+
+Key files, terms, and utilities include:
+/etc/inittab 
+/etc/rc.local
+/etc/rc.boot 
+/var/spool/cron/crontabs/ 
+/etc/`shell_name`.conf 
+/etc/login.defs 
+/etc/syslog.conf
+/etc/passwd 
+/etc/shadow 
+/etc/group 
+/etc/profile 
+/sbin/init 
+
+94
+
+ 
+LinuxIT Technical Training Centre
+
+LPI 201 Objectives
+
+_____________________________________________________
+
+/usr/sbin/cron 
+/usr/bin/crontab
+
+95
+
+INDEX
+
+A
+autofs
+automount
+
+B
+badblocks
+
+C
+cardctl
+cardmgr
+CD Writing
+
+37
+37
+
+36
+
+55
+54
+
+/etc/modules.conf  49
+El Torito
+ISO9660
+
+52
+51
+
+49
+
+37
+
+36
+
+47
+52
+44
+62
+
+cdrecord
+cpan  73
+
+D
+debugfs
+diff
+dumpe2fs 
+
+77
+
+E
+e2fsadm 
+El Torito
+esfsadm 
+exportfs
+
+F
+files
+
+37
+
+62
+62
+
+16
+/etc/auto.master
+/etc/exports 61
+/etc/fstab
+33
+/etc/hosts.allow
+/etc/hosts.deny
+/etc/inittab
+21
+/etc/inittab   20
+/etc/lvmtab 43
+/etc/lvmtab.d 43
+/etc/pcmcia.conf
+54
+/etc/pcmcia/config 55
+/etc/raidtab 41
+/etc/rc.d/init.d
+/etc/rpc
+60
+/etc/samba/ 57
+/etc/sysconfig/pcmcia
+64
+/etc/syslog.conf 
+
+20
+
+16
+16
+16
+40
+16
+17
+33
+16
+
+/proc/cmdline
+/proc/cpuinfo
+/proc/filesystems
+/proc/mdstats
+/proc/meminfo
+/proc/modules
+/proc/mounts
+/proc/partitions
+/proc/sys/
+16
+/proc/sys/kernel/hotplug
+/proc/sys/kernel/modprobe
+/proc/sys/overflowgid/uid 17
+/usr/src/linux/
+Makefile.pl
+35
+
+16
+
+72
+
+9
+
+fsck
+fstab options
+
+33
+
+16
+
+I
+49
+ide-scsi.o
+ISOLINUX 53
+
+K
+kernel image types
+10
+10
+
+bzdisk
+bzImage
+zdisk 10
+zImage
+
+9
+
+kernel panic - no init found
+kernel panic - unable to mount root fs
+kernel parameters 27
+
+24
+
+24
+
+L
+LILO errors 28
+lmhosts
+57
+lsraid 40
+lvcreate
+lvextend
+LVM
+
+44
+46
+
+/etc/lvmtab 43
+/etc/lvmtab.d 43
+Linux raid autodetect
+logical volumes (LV)
+LV tools
+lvm-mod.o
+physical extents (PE)
+physical volumes (PV)
+PV tools
+
+43
+43
+
+43
+
+45
+43
+
+43
+42
+
+54
+
+96
+
+ 
+VG tools
+vgscan
+volume group (VG) 42
+
+43
+43
+
+M
+md5sum
+mke2fs
+mkinitrd
+mkisofs
+mkraid
+mkswap
+
+77
+36
+28
+51
+40, 46
+34
+
+N
+NFS sevice 60
+60
+nfslock
+nfsstat
+62
+nmbd 57
+nmblookup 56
+
+P
+patch 12
+PCMCIA
+
+/etc/pcmcia.conf
+54
+/etc/pcmcia/config 55
+/etc/sysconfig/pcmcia
+cardctl
+cardmgr
+ds
+55
+pcmcia_core 55
+yenta_socket
+
+55
+54
+
+55
+
+70
+
+perl
+perldoc
+
+70
+
+54
+
+39
+
+portmap
+pvcreate
+pvscan
+
+60
+44, 46
+46
+
+R
+raidautorun 47
+raidstart
+raidtools
+rdev  25
+RPM Builds 66
+rsync  78
+
+40, 46
+40
+
+S
+showmount 63
+smbclient
+56
+smbd 57
+smbpasswd  56
+56
+smbstatus
+smbtar
+56
+software RAID
+swapon
+sync 36
+sysctl 22
+syslogd
+
+64
+
+34
+
+T
+taint  71
+tune2fs
+
+V
+vgcreate
+vgextend
+vgscan
+
+37
+
+44
+46
+43p.
+
+97
+
+.

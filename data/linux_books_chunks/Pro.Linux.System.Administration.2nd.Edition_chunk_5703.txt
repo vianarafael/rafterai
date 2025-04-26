@@ -1,0 +1,7 @@
+■ Note 
+remember to consult the style guide for puppet at https://docs.puppet.com/guides/style_guide.html.
+
+Relating Resources
+Resources in Puppet also have the concept of relationships. For example, a service resource can be 
+connected to the package that installs it. Using this, we could trigger a restart of the service when a new 
+version of the package is installed.

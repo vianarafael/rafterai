@@ -1,0 +1,7 @@
+A shared directory in NFS may represent all or part of a computer’s fi lesystem, which can be attached (from the 
+shared directory down the directory tree) to another computer’s fi lesystem.
+
+Installing an NFS Server
+To run an NFS server, you need a set of kernel modules (which are delivered with the kernel 
+itself) plus some user-level tools to conﬁ gure the service, run daemon processes, and query 
+the service in various ways.

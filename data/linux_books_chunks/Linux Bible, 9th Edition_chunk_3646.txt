@@ -1,0 +1,3 @@
+The public_content_t 
+and public_content_rw_t ﬁ le contexts can be set on any directory you want to share 
+via NFS (or other ﬁ le share protocols, such as HTTP, FTP, and others, for that matter).

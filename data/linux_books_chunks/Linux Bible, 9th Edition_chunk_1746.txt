@@ -1,0 +1,8 @@
+For packages that come with Fedora or RHEL, the key is included 
+with the distribution to check all packages. However, if you try to install packages that 
+are not from your distribution, you need to either import the key needed to sign those 
+ packages or turn off that feature (gpgcheck=0).
+
+To ﬁ nd other features you can set in the yum.conf ﬁ le, type man yum.conf.
+
+2.

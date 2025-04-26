@@ -1,0 +1,18 @@
+installing on Debian
+
+This  screenshot  shows  that  there  is  no  apache  server  installed,  nor  does  the  /var/www
+directory exist.
+
+root@debian7:~# ls -l /var/www
+ls: cannot access /var/www: No such file or directory
+root@debian7:~# dpkg -l | grep apache
+
+To install apache on Debian:
+
+root@debian7:~# aptitude install apache2
+The following NEW packages will be installed:
+  apache2 apache2-mpm-worker{a} apache2-utils{a} apache2.2-bin{a} apache2.2-com\
+mon{a} libapr1{a} libaprutil1{a} libaprutil1-dbd-sqlite3{a} libaprutil1-ldap{a}\
+ ssl-cert{a} 
+0 packages upgraded, 10 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,487 kB of archives.

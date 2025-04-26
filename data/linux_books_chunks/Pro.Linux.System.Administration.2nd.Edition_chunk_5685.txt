@@ -1,0 +1,36 @@
+We can run Facter from the command line using the facter 
+binary to see what it knows about our web1.example.com client.
+
+950
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+web1$ sudo /opt/puppetlabs/bin/facter -p
+...
+facterversion => 3.5.0
+filesystems => ext2,ext3,ext4
+identity => {
+  gid => 0,
+  group => ‘root’,
+  privileged => true,
+  uid => 0,
+  user => ‘root’
+}
+is_virtual => true
+kernel => Linux
+kernelmajversion => 3.10
+kernelrelease => 3.10.0-327.28.3.el7.x86_64
+kernelversion => 3.10.0
+load_averages => {
+  15m => 0.05,
+  1m => 0.05,
+  5m => 0.04
+}
+...
+
+We’ve shown you a small selection of the facts available in Facter, but you can see that it knows a lot 
+
+about our host, including its name, network information, operating system, and even the release of the 
+operating system.
+
+So, how is this useful to Puppet? Well, each of these facts is available to Puppet as a variable.

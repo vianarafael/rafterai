@@ -1,0 +1,7 @@
+To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+
+When we are happy that we are ready to generate our certificate for real, we would remove --test-
+cert.

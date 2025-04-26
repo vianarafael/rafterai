@@ -1,0 +1,4 @@
+Each iptables rule relies on specifying a set of network parameters as selection criteria to select the 
+
+packets and traffic for each rule. You can use a number of network parameters to build each iptables rule. 
+For example, a network connection between two hosts is referred to as a socket.

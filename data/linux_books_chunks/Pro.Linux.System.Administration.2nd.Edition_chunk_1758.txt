@@ -1,0 +1,5 @@
+As you learned in that chapter, a host can be installed with 
+a variety of different applications, ranging from a bare-bones installation to one with every application 
+and tool installed. But this isn’t the end of the line for installing and managing applications. Once you’ve 
+installed your host, you’ll often need to add applications, upgrade and patch them, and sometimes remove 
+them.

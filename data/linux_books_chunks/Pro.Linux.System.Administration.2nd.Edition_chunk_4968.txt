@@ -1,0 +1,7 @@
+That is declared in the upstream <name> 
+
+{ .. } section. In this section we tell Nginx to direct any requests for Graphite upstream servers to server 
+127.0.0.1:8881 where our Gunicorn server will be listening. If you have more than one back-end server listed, 
+Nginx will round-robin between the two.
+
+The server { ... } section is the front-end server declaration.

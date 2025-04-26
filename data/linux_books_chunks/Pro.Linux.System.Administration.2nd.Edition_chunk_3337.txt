@@ -1,0 +1,4 @@
+SASL is much like Pluggable 
+Authentication Modules (PAM), which we looked at in Chapter 5, and it abstracts authentication. It allows 
+multiple types of authentication to be hidden behind the Simple Authentication and Security Layer (SASL) 
+protocol.

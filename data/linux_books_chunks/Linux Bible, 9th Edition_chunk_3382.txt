@@ -1,0 +1,3 @@
+The Samba 
+service provides a way to share ﬁ les over a network so the shared Linux directory looks like 
+a shared directory from a Windows system.

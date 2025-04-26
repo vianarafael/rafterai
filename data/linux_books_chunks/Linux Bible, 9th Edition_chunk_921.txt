@@ -1,0 +1,8 @@
+Use the Alt key to 
+select menus to manipulate your text.
+
+ ■ joe—The joe editor is similar to many PC text editors. Use control and arrow keys to move 
+
+around. Press Ctrl+C to exit with no save or Ctrl+X to save and exit.
+
+ ■ kate—This nice-looking editor comes in the kdebase package.

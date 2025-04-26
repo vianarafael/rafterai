@@ -1,0 +1,6 @@
+history of tcp/ip
+
+In the Sixties development of the tcp/ip protocol stack was started by the US Department of
+Defense. In the Eighties a lot of commercial enterprises developed their own protocol stack:
+IBM created sna, Novell had ipx/spx, Microsoft completed netbeui and Apple worked with
+appletalk. All the efforts from the Eighties failed to survive the Nineties.

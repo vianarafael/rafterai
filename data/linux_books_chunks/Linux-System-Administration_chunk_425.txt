@@ -1,0 +1,15 @@
+Use this command to find files that
+you open yourself.
+
+3. Boot a live image on an existing computer (virtual or real) and chroot into to it.
+
+4. Start one or more disk intensive jobs and monitor them with iostat and iotop (compare
+to vmstat).
+
+84
+
+troubleshooting tools
+
+8.8. solution: troubleshooting tools
+
+0. It is imperative that you practice these tools before trouble arises.

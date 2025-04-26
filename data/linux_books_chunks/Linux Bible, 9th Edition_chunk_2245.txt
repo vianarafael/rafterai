@@ -1,0 +1,7 @@
+Often, there is a primary conﬁ guration ﬁ le; sometimes, there is a related 
+conﬁ guration directory in which ﬁ les ending in .conf can be pulled into the main 
+ conﬁ guration ﬁ le.
+
+The httpd package (Apache web server) is an example of a server package that has a 
+ primary conﬁ guration ﬁ le and a directory where other conﬁ guration ﬁ les can be dropped in 
+and be included with the service.

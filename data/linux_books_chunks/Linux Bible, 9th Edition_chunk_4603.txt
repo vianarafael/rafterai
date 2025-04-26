@@ -1,0 +1,5 @@
+The child process in this case also inherits 
+its parent process’s security context. Thus, the child process runs in the same domain.
+
+So a process’s security context is set before the program is run and depends upon who 
+started it.

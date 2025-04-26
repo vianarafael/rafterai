@@ -1,0 +1,13 @@
+Administrators have very strict control on
+access permissions granted to roles.
+
+SELinux  is  present  in  the  latest  versions  of  Red  Hat  Enterprise  Linux,  Debian,  CentOS,
+Fedora, and many other distributions..
+
+99
+
+introduction to SELinux
+
+12.1. selinux modes
+
+selinux knows three modes: enforcing, permissive and disabled.

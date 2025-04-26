@@ -1,0 +1,22 @@
+Because ping commands are 
+blocked, this does not meet the objective to block only remote login connections using ssh 
+from Host-B.
+
+$ ping -c 2 10.140.67.23
+PING 10.140.67.23 (10.140.67.23) 56(84) bytes of data.
+
+--- 10.140.67.23 ping statistics ---
+2 packets transmitted, 0 received, 100% packet loss, time 1007ms
+$ ssh root@10.140.67.23
+
+ssh: connect to host 10.140.67.23 port 22: Connection timed out
+
+25
+
+719
+
+c25.indd  04/02/2015  Page 720
+
+Part V: Learning Linux Security Techniques
+
+When Host-C attempts to ping Host-A and make an ssh connection, both attempts fail.

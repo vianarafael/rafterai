@@ -1,0 +1,2 @@
+OpenVPN’s extensive logging (you saw the log-append, status, and verb 
+options earlier in the chapter) allows you to quickly see errors.

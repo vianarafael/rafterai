@@ -1,0 +1,7 @@
+However, as long as bill has a 
+password and local account access to the FTP server is enabled, bill should be able to log 
+in to the FTP server via an FTP client.
+
+Not every user with an account on the Linux system has access to the FTP server. The 
+setting userlist_enable=YES in vsftpd.conf says to deny access to the FTP server to 
+all accounts listed in the /etc/vsftpd/user_list ﬁ le.

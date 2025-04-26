@@ -1,0 +1,12 @@
+However, you can 
+see that the search for systemd yields the existence of the systemd daemon.
+
+# strings /sbin/init | grep -i upstart
+# strings /sbin/init | grep -i systemd
+systemd.unit=
+systemd.log_target=
+systemd.log_level=
+...
+
+If you do not have the strings command on your Linux system, you can install it via the binutils package. On 
+RHEL and Fedora, use the command yum install binutils.

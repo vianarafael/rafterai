@@ -1,0 +1,17 @@
+15
+
+c01.indd  04/01/2015  Page 16
+
+Part I: Getting Started
+
+As a result, proprietary software vendors such as Apple and Microsoft have used 
+BSD code in their own operating systems.
+
+ ■ MIT—The MIT license is like the BSD license, except that it doesn’t include the 
+
+endorsement and promotion requirement.
+
+ ■ Mozilla—The Mozilla license covers the use and redistribution of source code 
+
+ associated with the Firefox web browser and other software related to the Mozilla 
+project (http://www.mozilla.org).

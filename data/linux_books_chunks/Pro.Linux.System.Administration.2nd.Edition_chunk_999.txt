@@ -1,0 +1,5 @@
+The BIOS uses the special section on your hard drive, the master boot record.
+
+When we installed our operating system our installation installed a boot loader called GRUB2. This 
+stands for GRand Unified Bootloader (2) and its job is to launch itself, then find, load, and hand off to your 
+operating system. It does this in two stages, the purpose of the first stage is to load the second stage.

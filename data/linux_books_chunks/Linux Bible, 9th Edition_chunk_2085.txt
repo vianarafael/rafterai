@@ -1,0 +1,6 @@
+For example, use mkfs.
+vfat to create a VFAT fi lesystem, mkfs.msdos for DOS, or mkfs.reiserfs for the Reiser fi lesystem type. You 
+may want a VFAT fi lesystem if you want to share fi les among Linux, Windows, and Mac systems.
+
+16.  To be able to use the new ﬁ lesystem, you need to create a mount point and mount 
+it to the partition. Here is an example of how to do that.

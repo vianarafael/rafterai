@@ -1,0 +1,8 @@
+The parameters can also be used to match packets, capture them, tag them, and release 
+them.
+
+iptables –t table-name command chain rulenumber paramaters –j target
+
+The target argument, depicted by –j target in the iptables command syntax, is the action to be 
+performed on the packet if it has been hooked. Common targets are ACCEPT, DROP, LOG, MASQUERADE, and 
+CONNMARK.

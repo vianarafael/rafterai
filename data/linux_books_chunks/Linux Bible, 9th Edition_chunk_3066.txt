@@ -1,0 +1,10 @@
+The /etc/tmpfiles.d/httpd.conf ﬁ le deﬁ nes a directory that contains temporary 
+run-time ﬁ les (no need to change that ﬁ le). The last conﬁ guration ﬁ le entries are in the
+
+451
+
+c17.indd  04/01/2015  Page 452
+
+Part IV: Becoming a Linux Server Administrator
+
+/var/www/error directory.

@@ -1,0 +1,13 @@
+We are going to select this and you can use the slider or type in the amount 
+of disk you wish for your virtual host. Here you can also change the name and the location of the disk if you 
+wished by selecting the little folder icon.
+
+Figure 3-7.  Disk amount
+
+79
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+That creates the virtual host Centos7.
+
+Figure 3-8.

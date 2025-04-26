@@ -1,0 +1,16 @@
+)|(ssh user@srv 'cd /backup/cp_of_etc/; tar -xf - ')
+
+tar can be used together with gzip and copy a file to a remote server through ssh
+
+cat backup.tar | gzip | ssh bashuser@192.168.1.105 "cat - > backup.tgz"
+
+Compress  the  tar  backup  when  it  is  on  the  network,  but  leave  it  uncompressed  at  the
+destination.
+
+cat backup.tar | gzip | ssh user@192.168.1.105 "gunzip|cat - > backup.tar"
+
+Same as the previous, but let ssh handle the compression
+
+cat backup.tar | ssh -C bashuser@192.168.1.105 "cat - > backup.tar"
+
+30.4.

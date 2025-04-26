@@ -1,0 +1,14 @@
+We’ll also 
+
+show you how to configure logging and monitor the logs for unusual or suspicious activity.
+
+837
+
+CHAPTER 18
+
+Logging and Monitoring
+
+By James Turnbull and Dennis Matotek
+
+Throughout this book, we’ve talked about logging and monitoring and their value in troubleshooting your 
+applications and services.

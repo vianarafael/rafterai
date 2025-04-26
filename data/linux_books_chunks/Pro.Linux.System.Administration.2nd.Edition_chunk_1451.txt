@@ -1,0 +1,9 @@
+You can do this as follows:
+
+$ ping 192.168.0.253
+PING 192.168.0.253 (192.168.0.253) 56(84) bytes of data.
+64 bytes from 192.168.0.253: icmp_seq=2 ttl=128 time=1.68 ms
+
+Here we have sent a ping to the local IP address of our host, and we can see a series of responses 
+
+indicating that a connection has been made and the time it took.

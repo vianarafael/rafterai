@@ -1,0 +1,14 @@
+We talk more about networking in Chapter 7. When in 
+doubt, try DhCp.
+
+Next we add our DNS details as in Figure 2-12.
+
+26
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-12.  DNS details
+
+In our case our DNS server is also our gateway address. You may have one or more DNS servers on your 
+
+network and you can add them here, separated by a comma.

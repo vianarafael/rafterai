@@ -1,0 +1,6 @@
+If you modify this ﬁ le, you 
+must take extra steps to preserve the modiﬁ cations from the authconfig utility. Review 
+the section “Managing PAM system event conﬁ guration ﬁ les” earlier in this chapter.
+
+You can employ additional PAM modules and conﬁ guration ﬁ les to set even more  restrictions 
+on subjects.

@@ -1,0 +1,14 @@
+(44)
+11:01:29.640093 IP 192.168.1.42.domain > 192.168.1.103.42041: 14763 1/0\
+/0 PTR antares.ginsys.net. (76)
+
+And here is what it looks like in wireshark (note this is an older screenshot).
+
+61
+
+introduction to DNS
+
+4.1.4. /etc/resolv.conf
+
+A client computer needs to know the ip address of the dns server to be able to send queries
+to it.

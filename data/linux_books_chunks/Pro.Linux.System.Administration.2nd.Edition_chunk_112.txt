@@ -1,0 +1,9 @@
+Automatically configuring and encrypting disks
+
+17
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+In Figure 2-4 we have selected ATA VBOX HARDDISK and Encrypt my data. We have also selected 
+Automatically configure partitioning. The installer will configure a sensible default disk partitioning layout 
+for you.

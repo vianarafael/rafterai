@@ -1,0 +1,32 @@
+We need to
+make sure those websites are accesible using the names choochoo.local, chessclub42.local
+and hunter2.local.
+
+We start by creating three new virtualhosts.
+
+root@debian7:/etc/apache2/sites-available# vi choochoo.local 
+root@debian7:/etc/apache2/sites-available# vi chessclub42.local 
+root@debian7:/etc/apache2/sites-available# vi hunter2.local 
+root@debian7:/etc/apache2/sites-available# cat choochoo.local 
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName choochoo.local
+        DocumentRoot /var/www/choochoo
+</VirtualHost>
+root@debian7:/etc/apache2/sites-available# cat chessclub42.local 
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName chessclub42.local
+        DocumentRoot /var/www/chessclub42
+</VirtualHost>
+root@debian7:/etc/apache2/sites-available# cat hunter2.local 
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName hunter2.local
+        DocumentRoot /var/www/hunter2
+</VirtualHost>
+root@debian7:/etc/apache2/sites-available#
+
+Notice that they all listen on port 80 and have an extra ServerName directive.
+
+8.3.2.

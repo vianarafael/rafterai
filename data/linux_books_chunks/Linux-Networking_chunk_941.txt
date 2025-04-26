@@ -1,0 +1,20 @@
+file ownership
+
+[root@RHEL4b samba]# ll /srv/samba/domaindata/
+total 0
+-rwxr--r--  1 justine 20000 0 Jun 22 19:54 create_by_justine_on_winxp.txt
+-rwxr--r--  1 venus   20000 0 Jun 22 19:55 create_by_venus.txt
+-rwxr--r--  1 maria   20000 0 Jun 22 19:57 Maria.txt
+
+249
+
+ 
+ 
+ 
+samba domain member
+
+22.7. practice : samba domain member
+
+1. Verify that you have a working Active Directory (AD) domain.
+
+2.

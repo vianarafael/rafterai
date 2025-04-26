@@ -1,0 +1,5 @@
+If you are following along 
+with VirtualBox, VirtualBox has its own DHCP server that assigns addresses to its own internal network. In 
+Figure 2-9 we rely on DHCP to provide us an IP address and we manually assign our host a name.
+
+Figure 2-9.

@@ -1,0 +1,7 @@
+After that point, 
+if you use ssh to log in to that system from a remote client, you must do so as a regular 
+user, and then use su or sudo to become the root user.
+
+Using SSH client tools
+Many tools for accessing remote Linux systems have been created to make use of the SSH 
+service.

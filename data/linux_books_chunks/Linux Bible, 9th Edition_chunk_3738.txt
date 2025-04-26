@@ -1,0 +1,7 @@
+The 
+initialization process is changing so services can start more efﬁ ciently, based on dependen-
+cies and in reaction to the state of the system (such as what hardware is plugged in or what 
+ﬁ les exist) rather than a static boot order.
+
+Troubleshooting the Linux boot process begins when you turn on your computer and ends 
+when all the services are up and running.

@@ -1,0 +1,19 @@
+Introducing grep
+
+$ grep localhost /etc/hosts
+127.0.0.1      localhost.localdomain localhost localhost
+::1                 localhost6.localdomain6 localhost6
+
+To use grep, you specify the string you’re searching for, in this case localhost (grep is case sensitive, so 
+
+it will only find this lowercase string), and then the name of the file you’re searching in.
+
+ ■ Note 
+
+ You can make grep case insensitive by adding the -i switch to the command.
+
+133
+
+ChapTeR 4 ■ LInux BasICs
+
+By default, grep returns those lines in the file that contain the string we’re searching for.

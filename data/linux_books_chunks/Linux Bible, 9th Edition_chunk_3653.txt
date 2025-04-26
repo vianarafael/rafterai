@@ -1,0 +1,8 @@
+The /mnt/public shared directory, 
+however, is available to anyone.
+
+Manually mounting an NFS fi lesystem
+After you know that the directory from a computer on your network has been exported 
+(that is, made available for mounting), you can mount that directory manually using the 
+mount command. This is a good way to make sure it is available and working before you 
+set it up to mount permanently.

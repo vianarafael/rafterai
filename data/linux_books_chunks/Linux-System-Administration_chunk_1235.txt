@@ -1,0 +1,12 @@
+make modules
+
+Now run make modules. It can take 20 to 50 minutes to compile all the modules.
+
+[root@RHEL52 linux-2.6.18.i686]# time make modules
+  CHK     include/linux/version.h
+  CHK     include/linux/utsrelease.h
+  CC [M]  arch/i386/kernel/msr.o
+  CC [M]  arch/i386/kernel/cpuid.o
+  CC [M]  arch/i386/kernel/microcode.o
+
+28.5.8.

@@ -1,0 +1,15 @@
+Type cd and the ~ shortcut for your home 
+directory, and then check /mnt/data again using lsof.
+
+$ cd ~
+$ lsof /mnt/data
+
+This time the lsof command has returned no open files and directories, and as the directory is no 
+
+longer listed as in use, you can now safely unmount it:
+
+$ sudo umount /mnt/data
+
+ ■ Note  Unmounting a filesystem properly will set the Filesystem state flag you saw in the tune2fs output 
+to clean, because it will ask the kernel to process the entire journal file and make sure all data is written to the 
+disk.

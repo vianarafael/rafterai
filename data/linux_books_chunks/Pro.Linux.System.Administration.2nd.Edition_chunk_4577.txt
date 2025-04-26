@@ -1,0 +1,13 @@
+The final access list will be in LDiF format.
+
+In the following simple example, we give read access to everything in our DIT.
+
+to *
+   by * read stop
+
+755
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+You can use the wildcard * to allow general unrestricted access. The access control here indicates any user 
+has read access to anything.

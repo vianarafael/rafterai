@@ -1,0 +1,3 @@
+This denial can be problematic, because setting a default policy of DROP for the 
+INPUT and OUTPUT chains means incoming and outgoing traffic are not allowed unless you explicitly add 
+rules to allow traffic to come into and out of the firewalled host.

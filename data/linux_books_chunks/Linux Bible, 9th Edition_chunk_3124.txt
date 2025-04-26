@@ -1,0 +1,4 @@
+Possible error codes include 403 (access 
+denied), 404 (ﬁ le not found), and 500 (server internal error). You can ﬁ nd more 
+information about the ErrorDocument directive at http://httpd.apache.
+org/docs/mod/core.html#errordocument.

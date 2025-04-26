@@ -1,0 +1,6 @@
+The following sections describe different tools for troubleshooting network 
+ connectivity for Linux client and server systems.
+
+Troubleshooting outgoing connections
+You open your web browser, but are unable to get to any website. You suspect that you are 
+not connected to the network.

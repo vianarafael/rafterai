@@ -1,0 +1,3 @@
+But, during that critical period, there was enough fear and doubt about the legality of the 
+BSD code that the momentum BSD had gained to that point in the ﬂ edgling open source 
+community was lost. Many people started looking for another open source alternative.

@@ -1,0 +1,17 @@
+He usually works with AWS rather than bare metal and 
+appreciates not having to change failed disks.
+
+With two young children, Ziggy and Anika, he happily lives with his 
+
+partner Bianca and a number of pets—one dog and six chickens.
+
+James Turnbull is the CTO at Empatico, co-chair of O’Reilly’s Velocity conference, an advisor at AccessNow 
+and Docker Inc.
+
+Previously CTO at Kickstarter, VP of Engineering at Venmo and was an early employee and executive at 
+
+Docker and Puppet Labs.
+
+He is a contributor to a number of open source projects and regularly speaks on topics related  
+
+to writing, systems administration, and open source technologies.

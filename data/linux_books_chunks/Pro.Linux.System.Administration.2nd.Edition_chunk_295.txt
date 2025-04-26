@@ -1,0 +1,4 @@
+There are self-installing packages for Windows, Mac, Linux, and even 
+Solaris (which is a Unix operating system for those who don’t know). Simply go to www.virtualbox.org/
+wiki/Downloads and choose the appropriate download for your operating system. You should be able to 
+install VirtualBox easily.

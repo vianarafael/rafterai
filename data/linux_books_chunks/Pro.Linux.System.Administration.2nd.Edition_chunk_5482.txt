@@ -1,0 +1,7 @@
+You have two 
+choices here: you can get Cobbler to manage your existing DHCP server, or you can tell your existing DHCP 
+server to point to Cobbler.
+
+After you have run cobbler sync and rerun cobbler check, you will notice the list of outstanding 
+
+things to check has been reduced.

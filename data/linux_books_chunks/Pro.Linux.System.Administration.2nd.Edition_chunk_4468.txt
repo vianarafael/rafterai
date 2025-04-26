@@ -1,0 +1,4 @@
+Suppose that we have a web server on our network and we 
+want to make sure only people from a certain group within our organization are able to access it. Normally, 
+we would need to add a complicated login mechanism to our web site, have some kind of user database to 
+store the information, and so on.

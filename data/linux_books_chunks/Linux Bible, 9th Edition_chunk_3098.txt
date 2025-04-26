@@ -1,0 +1,12 @@
+You can selec-
+tively turn on Booleans as they are needed, if they meet your security requirements.
+
+ ■ Keep the httpd daemon from accessing nonstandard features, such as a port 
+
+ outside the default ports the service would expect to use.
+
+A full description of SELinux is contained in Chapter 24, “Enhancing Linux Security with 
+SELinux.” However, here are a few speciﬁ cs you should know about using SELinux with the 
+Apache httpd service:
+
+ ■ Turn off SELinux.

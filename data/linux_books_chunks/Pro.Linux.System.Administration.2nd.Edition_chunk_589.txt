@@ -1,0 +1,5 @@
+The second value, 5, assigns the Group class the read permission with a value 
+of 4 and the execute permission with a value of 1. The last value, 4, assigns only the read permission to the 
+Other class. To make this clearer, you can see a list of the possible values from 0 to 7 in Table 4-4.
+
+Table 4-4.

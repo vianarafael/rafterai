@@ -1,0 +1,15 @@
+Set the boot menu timeout to 30 seconds.
+
+[root@centos65 grub]# vi menu.lst
+[root@centos65 grub]# grep timeout /boot/grub/grub.conf
+timeout=30
+
+4. Reboot and test the new stanza.
+
+[root@centos65 grub]# reboot
+
+Select your stanza and if it boots then you did it correct.
+
+169
+
+Chapter 15.

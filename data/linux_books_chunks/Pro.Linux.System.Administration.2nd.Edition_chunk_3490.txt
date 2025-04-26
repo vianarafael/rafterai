@@ -1,0 +1,5 @@
+each signature contains information about a particular virus, for example, a string of data the virus file 
+contains that, when found, tells Clamav a virus has been detected.
+
+We’re going to show you how to integrate ClamAV into Postfix as a milter. Postfix allows for mail to be 
+sent to a filter and then re-queued. There are two types of Postfix milters, smtpd only and non-smtpd only.

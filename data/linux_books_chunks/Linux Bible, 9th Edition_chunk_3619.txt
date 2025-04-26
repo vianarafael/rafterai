@@ -1,0 +1,15 @@
+If any errors are in the fi le, 
+exportfs identifi es them for you.
+
+Here’s an example of the exportfs command:
+
+# /usr/sbin/exportfs -a -r -v
+exporting maple:/pub
+exporting spruce:/pub
+exporting maple:/home
+exporting spruce:/home
+exporting *:/mnt/win
+
+2020
+
+The -a option indicates that all directories listed in /etc/exports should be exported.

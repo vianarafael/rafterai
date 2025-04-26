@@ -1,0 +1,4 @@
+To keep your system secure and up to date, one of the 
+
+ﬁ rst tasks you should do after installing Fedora is to get the latest versions of the 
+ software you just installed.

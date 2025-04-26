@@ -1,0 +1,13 @@
+From the Print Settings window, right-click the myprinter icon and select Delete.
+
+c. When prompted, select Delete again.
+
+Chapter 17: Confi guring a Web Server
+
+1.  To install all the packages associated with the Web Server group on a Fedora sys-
+
+tem, do the following:
+
+# yum groupinstall "Web Server"
+
+2.

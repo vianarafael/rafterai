@@ -1,0 +1,12 @@
+This variation prevents two users with the same password from having the
+same entry in /etc/shadow.
+
+paul@rhel65:~$ ./MyCrypt hunter2 42
+42ZrbtP1Ze8G.
+paul@rhel65:~$ ./MyCrypt hunter2 33
+33d6taYSiEUXI
+
+Did you notice that the first two characters of the password are the salt?
+
+The standard output of the crypt function is using the DES algorithm which is old and can
+be cracked in minutes.

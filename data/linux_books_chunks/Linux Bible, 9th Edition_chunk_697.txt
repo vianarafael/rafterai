@@ -1,0 +1,16 @@
+The echo command displays the text, with the results 
+of the arithmetic (58) inserted.
+
+Here’s an example of the other form:
+
+$ echo "There are $(ls | wc -w) files in this directory."
+There are 14 files in this directory.
+
+84
+
+c03.indd  04/01/2015  Page 85
+
+Chapter 3: Using the Shell
+
+This lists the contents of the current directory (ls) and runs the word count command to 
+count the number of ﬁ les found (wc -w).

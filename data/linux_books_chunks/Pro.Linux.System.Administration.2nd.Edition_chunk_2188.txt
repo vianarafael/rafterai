@@ -1,0 +1,4 @@
+If you do not have the utility programs already installed, you can do so by installing 
+the btrfs-progs package, similarly to the way we installed the XFS packages.
+
+We have said that Btrfs uses COW (or copy on write).

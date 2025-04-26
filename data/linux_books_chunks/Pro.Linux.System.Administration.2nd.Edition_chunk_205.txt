@@ -1,0 +1,14 @@
+CentOS is the distribution, or flavor, of Linux.
+
+When the system passes the boot loader we are required to put in the disk encryption password as in in 
+
+Figure 2-31.
+
+44
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-31.  Disk encryption password
+
+We cannot go further than here if we do not know the password, and if you have forgotten it you will 
+have to start again.

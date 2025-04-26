@@ -1,0 +1,6 @@
+Performance issues are the same as with the rsize option.
+
+ ■ timeo=#—This sets the time after an RPC timeout occurs that a second transmis-
+sion is made, where # represents a number in tenths of a second. The default value 
+is seven-tenths of a second. Each successive timeout causes the timeout value to 
+be doubled (up to 60 seconds maximum).

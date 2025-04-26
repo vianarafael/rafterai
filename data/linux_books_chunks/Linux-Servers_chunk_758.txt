@@ -1,0 +1,7 @@
+about computer accounts
+
+Every NT computer (Windows NT, 2000, XP, Vista) can become a member of a domain.
+Joining the domain (by right-clicking on My Computer) means that a computer account will
+be created in the domain. This computer account also has a password (but you cannot know
+it) to prevent other computers with the same name from accidentally becoming member of
+the domain.

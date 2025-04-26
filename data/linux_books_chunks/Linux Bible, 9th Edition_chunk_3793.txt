@@ -1,0 +1,5 @@
+If that doesn’t work, try hd0,1 to access the next partition on that disk (and so 
+on) or hd1,0 to try the ﬁ rst partition of the next disk (and so on). When you ﬁ nd 
+the lines representing the grub.conf ﬁ le, manually type the root, kernel, and 
+initrd lines for the entry you want (replacing the location of the hard drive you 
+found on the root line). Then type boot.

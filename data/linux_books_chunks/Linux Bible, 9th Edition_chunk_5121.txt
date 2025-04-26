@@ -1,0 +1,8 @@
+After the image has been burned, eject the disk; you are ready to boot the CD or 
+
+DVD on an appropriate computer.
+
+Burning CDs/DVDs in Linux
+Linux has both graphical and command-line tools for burning CD and DVD images to physi-
+cal media. Examples in this section show how to use K3b from the desktop or cdrecord 
+(or wodim) to burn ISO images to CD or DVD.

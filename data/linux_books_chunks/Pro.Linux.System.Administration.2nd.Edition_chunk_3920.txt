@@ -1,0 +1,2 @@
+This also means that we require only TCP port 22 to be enabled on our firewall rather than TCP port 873, 
+which is required by the rsync daemon.

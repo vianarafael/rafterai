@@ -1,0 +1,7 @@
+this output is also available as a 
+macro called $HOSTOUTPUT$ for hosts and $SERVICEOUTPUT$ for service checks.
+
+Notification Period
+
+The next attribute in Listing 18-17 is the notification_period attribute. This differs slightly from the check 
+period.

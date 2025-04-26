@@ -1,0 +1,40 @@
+Authorization Directives
+
+Directive
+
+Description
+
+authorized_for_system_information
+
+Users who can access the Nagios process information
+
+authorized_for_configuration_information Users who can see all configuration information
+
+authorized_for_system_commands
+
+Users who can issue commands through the web console
+
+authorized_for_all_services
+
+Users who are authorized to all services
+
+authorized_for_all_hosts
+
+Users who are authorized to all hosts
+
+authorized_for_all_service_commands
+
+Users who can issue service-related external commands
+
+authorized_for_all_host_commands
+
+Users who can issue host-related external commands
+
+The first directive in Table 18-8, authorized_for_system_information, provides access to view 
+
+information about the Nagios process and the server, such as when the process started and what settings are 
+set on the server.
+
+The second directive, authorized_for_configuration_information, provides authorization to view 
+
+all configuration information and the object definitions for your monitoring environment.

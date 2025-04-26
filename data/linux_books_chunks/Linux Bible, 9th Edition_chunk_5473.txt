@@ -1,0 +1,126 @@
+do loop, 163–164
+foreground processes, 137–152
+
+killing, 146–148
+limiting with cgroups, 149–151
+listing, 138–143
+managing, 144–146
+renicing, 148–149
+
+fork bombs, 657
+FOSS (Free and Open Source Software), 12
+free software, 12
+Free Software Directory, 12
+Free Software Foundation (FSF), 11–12, 26
+FreeBSD, 13, 225
+
+bindex.indd  04/02/2015  Page 846
+
+Index
+
+GNOME Tweak Tool, 44–45
+gnome-disks, 177
+gnome-system-monitor, 142–143
+gnome-terminal, 68
+gnome-utils, 176
+GNU Hurd project, 12
+GNU Lesser General Public License (LGPL), 15
+GNU project, 11–12, 14
+GNU Public License (GPL), 12, 14, 15, 27
+gnupg2 package, 632
+Google Cloud Platform, 732
+gpg, 645
+gpg-agent daemon, 632
+gpg-zip, 646
+gpg2, 632–637, 632–639, 830–831
+gpgcheck, 242
+gpgcheck, 242
+gpgkey, 243
+GPL (GNU Public License), 12, 14, 15, 27
+GRand Uniﬁ ed Bootloader (GRUB), 224–231
+graphical boot option, 217
+Graphical Mode runlevel, 382
+graphical system administration tools, 175–177
+grep command, 69, 84, 132–133, 165
+group accounts, 269–270
+
+creating, 270
+exercises, 281–282, 798–802
+managing in the enterprise, 270–278
+process association, 137, 268–270
+
+group ﬁ le, 186
+groupadd command, 270
+groupmod command, 270
+GRUB (GRand Uniﬁ ed Bootloader), 224–231
+GRUB 2, 229–231
+GRUB Legacy, 225–229
+grub.cfg ﬁ le, 230–231
+grub.conf ﬁ le, 226–229
+gshadow ﬁ le, 186
+GUID (Global Unique Identiﬁ ers) partitions, 286
+
+H
+
+h special character, 90
+Hadoop, 450
+HAL (Hardware Abstraction Layer), 194
+Halt runlevel, 382
+hard disks
+
+partitioning, 285–295
+storage overview, 283–284
+
+hardware
+
+boot options for disabling, 217
+requirements, 202–203
+hashed passwords, 601–603
+hashing, 628–630
+
+846
+
+help command, 92–93
+here documents, 104
+here text, 104
+Hesiod authentication, 176
+HISTCMD environment variable, 86
+HISTFILE environment variable, 82, 86
+HISTFILESIZE environment variable, 86
+history command, 75, 76–77, 80–81, 80–82
+history of Linux, 6–16
+$HOME directory, 184
+/home directory, 97, 98, 224
+HOME environment variable, 86, 108–109, 155
+host-based ﬁ rewalls, 711
+host.conf ﬁ le, 186
+hostname command, 70–71
+hostname ﬁ le, 186
+hosts ﬁ le, 79, 186
+hosts.allow ﬁ le, 186
+hosts.deny ﬁ le, 186
+HOSTTYPE environment variable, 86
+HP JetDirect connections, 427, 433
+hpfs ﬁ lesystem, 303
+hpijs package, 317
+HTTP, graphical admin tool, 176
+httpd package, 184, 254–255, 317, 318, 449, 450–453
+httpd-manual package, 317, 452
+Hurd project, 12
+hybrid cloud, 751
+RHELOSP, 177
+hypervisors, 730
+
+conﬁ guring, 735–738
+creating virtual machines, 740–744
+managing virtual machines, 744–745
+migrating virtual machines, 745–747
+providing networked storage, 738–740
+
+I
+
+id command, 73
+IDEA, 631
+identiﬁ cation and authentication process, 648
+IDS (Intrusion Detection System) software, 620–622
+if .

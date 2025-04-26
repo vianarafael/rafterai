@@ -1,0 +1,10 @@
+iSCSI target on Debian
+
+Installing the software for the target server requires iscsitarget on Ubuntu and Debian, and
+an extra iscsitarget-dkms for the kernel modules only on Debian.
+
+root@debby6:~# aptitude install iscsitarget
+The following NEW packages will be installed:
+  iscsitarget 
+0 packages upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 69.4 kB of archives.

@@ -1,0 +1,10 @@
+We’ve also specified the 
+
+user and group options (in this case, we’ve used the nobody group on CentOS).
+
+Next, we need to restart our OpenVPN service to start our mobile VPN tunnel.
+
+Configuring Mobile VPN Clients
+
+You need to configure your clients to connect to the gateway, which you can do in a variety of ways 
+depending on the client.

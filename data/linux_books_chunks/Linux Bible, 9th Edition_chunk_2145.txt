@@ -1,0 +1,6 @@
+CIFS is an attempt to reﬁ ne 
+and standardize the SMB protocol used by Samba and Windows ﬁ le sharing.
+
+ ■ ext4—Successor to the popular ext3 ﬁ lesystem. It includes many improvements 
+over ext3, such as support for volumes up to 1 exbibyte and ﬁ le sizes up to 16 
+ tebibytes. (This replaced ext3 as the default ﬁ lesystem used in Fedora and RHEL.

@@ -1,0 +1,16 @@
+Then add the word confirm to the end of the kernel line, press Enter, and 
+type b to boot the new kernel.
+
+21
+
+Figure 21.1 shows an example of the messages that appear when RHEL boots up in interac-
+tive startup mode.
+
+FIGURE 21.1
+
+Confi rm each service in RHEL interactive startup mode.
+
+Most messages shown in Figure 21.1 are generated from rc.sysinit.
+
+After the Welcome message, udev starts (to watch for new hardware that is attached to 
+the system and load drivers as needed).

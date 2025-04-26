@@ -1,0 +1,14 @@
+To check to see what ports are open on your external network interface, do the 
+
+following:
+
+If possible, run the nmap command from another Linux system on your network, 
+replacing yourhost with the hostname or IP address of your system:
+
+# nmap yourhost
+
+10.  To clear your system’s page cache and watch the effect it has on your memory 
+
+usage, do the following:
+
+a.

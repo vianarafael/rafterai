@@ -1,0 +1,6 @@
+the latest and most feature-rich 
+version of this software is provided by the xinetd package.
+
+each service that is managed by xinetd has its own configuration file snippet in the /etc/xinetd.d 
+directory, and by default it will install configuration files for some very basic services, such as echo, 
+which simply repeats any character you send to it.

@@ -1,0 +1,45 @@
+vmstat
+
+While  vmstat  is  mainly  a  memory  monitoring  tool,  it  is  worth  mentioning  here  for  its
+reporting on summary I/O data for block devices and swap space.
+
+This  example  shows  some  disk  activity  (underneath  the  -----io----  column),  without
+swapping.
+
+[root@RHEL65 ~]# vmstat 5 10
+procs ----------memory---------- ---swap-- -----io---- --system-- -----cpu-----
+ r  b  swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0  5420   9092  14020 340876    7   12   235   252   77  100  2  1 98  0  0
+ 2  0  5420   6104  13840 338176    0    0  7401  7812  747 1887 38 12 50  0  0
+ 2  0  5420  10136  13696 336012    0    0 11334    14 1725 4036 76 24  0  0  0
+ 0  0  5420  14160  13404 341552    0    0 10161  9914 1174 1924 67 15 18  0  0
+ 0  0  5420  14300  13420 341564    0    0     0    16   28   18  0  0 100  0  0
+ 0  0  5420  14300  13420 341564    0    0     0     0   22   16  0  0 100  0  0
+...
+[root@RHEL65 ~]#
+
+You can benefit from vmstat's ability to display memory in kilobytes, megabytes or even
+kibibytes and mebibytes using -S (followed by k K m or M).
+
+[root@RHEL65 ~]# vmstat -SM 5 10
+procs ----------memory---------- ---swap-- -----io---- --system-- -----cpu-----
+ r  b  swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0     5     14     11    334    0    0   259   255   79  107  2  1 97  0  0
+ 0  0     5     14     11    334    0    0     0     2   21   18  0  0 100  0  0
+ 0  0     5     15     11    334    0    0     6     0   35   31  0  0 100  0  0
+ 2  0     5      6     11    336    0    0 17100  7814 1378 2945 48 21 31  0  0
+ 2  0     5      6     11    336    0    0 13193    14 1662 3343 78 22  0  0  0
+ 2  0     5     13     11    330    0    0 11656  9781 1419 2642 82 18  0  0  0
+ 2  0     5      9     11    334    0    0 10705  2716 1504 2657 81 19  0  0  0
+ 1  0     5     14     11    336    0    0  6467  3788  765 1384 43  9 48  0  0
+ 0  0     5     14     11    336    0    0     0    13   28   24  0  0 100  0  0
+ 0  0     5     14     11    336    0    0     0     0   20   15  0  0 100  0  0
+[root@RHEL65 ~]#
+
+vmstat is also discussed in other chapters.
+
+83
+
+troubleshooting tools
+
+8.7.

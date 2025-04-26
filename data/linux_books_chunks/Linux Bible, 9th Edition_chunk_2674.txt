@@ -1,0 +1,3 @@
+A runlevel is a categorization number that determines what services are started and what 
+services are stopped. In the preceding example, a default runlevel of 5 is set with the line 
+id:5:initdefault:.

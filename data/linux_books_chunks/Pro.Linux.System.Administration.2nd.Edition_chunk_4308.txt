@@ -1,0 +1,4 @@
+This drops 
+any privileges (e.g., from the root user) the process has and ensures that if someone were to compromise 
+the process, he would have limited privileges to exploit that compromise on your host. On CentOS, you use 
+the nobody user and the nobody group.

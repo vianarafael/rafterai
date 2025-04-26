@@ -1,0 +1,12 @@
+Popular server features include web, 
+mail, database, printer, ﬁ le, DNS, and DHCP servers.
+
+ ■ Programming tools—A wide variety of programming utilities for creating 
+
+ applications and libraries for implementing specialty interfaces are available 
+with Linux.
+
+1
+
+As someone managing Linux systems, you need to learn how to work with those 
+features just described.

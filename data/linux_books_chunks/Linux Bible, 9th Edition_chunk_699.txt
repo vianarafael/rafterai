@@ -1,0 +1,12 @@
+When you expand an environment variable on a command line, the value of 
+the variable is printed instead of the variable name itself, as follows:
+
+$ ls -l $BASH
+-rwxr-xr-x 1 root  root  1012808 Oct  8 08:53 /bin/bash
+
+Using $BASH as an argument to ls -l causes a long listing of the bash command to 
+be printed.
+
+Using Shell Variables
+The shell itself stores information that may be useful to the user’s shell session in what are 
+called variables.

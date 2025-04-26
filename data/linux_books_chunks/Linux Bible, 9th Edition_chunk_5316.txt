@@ -1,0 +1,10 @@
+To create a ﬁ le called index.html in the directory assigned to DocumentRoot in 
+the main Apache conﬁ guration ﬁ le (with the words My Own Web Server inside), do 
+the following:
+
+a. Determine the location of DocumentRoot:
+
+# grep ^DocumentRoot /etc/httpd/conf/httpd.conf
+DocumentRoot "/var/www/html"
+
+b.

@@ -1,0 +1,5 @@
+Here are a few SELinux ﬁ le contexts associated with NFS that you might need to 
+know about:
+
+ ■ nfs_export_all_ro—With this Boolean set to on, SELinux allows you to share 
+ﬁ les with read-only permission using NFS.

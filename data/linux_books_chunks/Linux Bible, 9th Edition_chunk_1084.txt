@@ -1,0 +1,5 @@
+The minus sign (-) next to number 4 shows that it was placed in the  background just before 
+the most recent background job. Because job 1 requires terminal input, it cannot run in the 
+background. As a result, it is Stopped until it is brought to the foreground again.
+
+To see the process ID for the background job, add a -l (the lowercase letter L) option to the jobs command.

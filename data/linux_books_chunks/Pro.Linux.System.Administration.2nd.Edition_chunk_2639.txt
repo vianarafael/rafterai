@@ -1,0 +1,3 @@
+We will 
+create those keys now. To do that we need the dnssec-keygen command to create a zone signing key (ZSK) 
+and a key signing key (KSK).

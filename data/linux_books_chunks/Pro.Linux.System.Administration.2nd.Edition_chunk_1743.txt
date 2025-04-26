@@ -1,0 +1,2 @@
+This is relatively easy as you 
+can see. First you will need to discover what interface your Linux server is connecting to your modem on.

@@ -1,0 +1,7 @@
+For information on the LiLO boot 
+loader, please see http://tldp.org/HOWTO/LILO.html.
+
+So how does GRUB2 work? GRUB2 at its heart uses four items to boot your system: a kernel file, the 
+name of the drive, the partition number where the kernel file resides, and optionally an initial RAM disk.
+
+GRUB2 is capable of booting in two ways.

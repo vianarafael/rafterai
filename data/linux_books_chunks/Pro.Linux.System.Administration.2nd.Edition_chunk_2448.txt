@@ -1,0 +1,4 @@
+These limits are defined 
+with the discard option, and since we haven’t defined such limits, it’s not used here. notrap rejects any 
+control packets that get sent, while nomodify disallows attempts to modify the time on the server. nopeer 
+ensures your server doesn’t start using a connecting client as an upstream NTP server.

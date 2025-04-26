@@ -1,0 +1,5 @@
+Part of the tCP/iP protocol is a ttl—time to live—where after a period of time the packets are 
+
+ ■ Note 
+ignored and dropped by upstream routers. ttl is indicated by a number, usually 64 these days, but can be 32 
+or 128. As packets pass through each router (or hop), they decrease the ttl value by 1.

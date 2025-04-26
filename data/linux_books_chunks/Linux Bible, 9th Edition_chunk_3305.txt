@@ -1,0 +1,18 @@
+The following output shows partial contents of the /etc/sysconfig/
+iptables ﬁ le with the rule allowing access to your FTP server in bold:
+
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+-A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 21 -j ACCEPT
+...
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+COMMIT
+
+This example shows that, for the ﬁ lter table, the ﬁ rewall accepts packets from established 
+connections, connections from local hosts, and any new requests on TCP port 22 (SSH 
+ service).

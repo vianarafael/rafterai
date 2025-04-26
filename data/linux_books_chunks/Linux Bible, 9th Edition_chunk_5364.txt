@@ -1,0 +1,15 @@
+From the local system, use the smbclient command to list that the homes share 
+
+is available.
+
+# smbclient -L localhost
+Enter root's password: 
+<ENTER>
+Anonymous login successful
+Domain=[DATAGROUP] OS=[Unix] Server=[Samba 4.1.15]
+     Sharename       Type      Comment
+     ---------       ----      -------
+     homes           Disk      Home Directories
+  ...
+
+8.

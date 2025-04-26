@@ -1,0 +1,9 @@
+Other Linux systems often assign a new user to the group named users instead.
+
+ ■ -o—Use with -u uid to create a user account that has the same UID as another 
+username. (This effectively lets you have two different usernames with authority 
+over the same set of ﬁ les and directories.)
+
+ ■ -p passwd—Enter a password for the account you are adding. This must be an 
+
+encrypted password.

@@ -1,0 +1,8 @@
+At this point, the disk is repartitioned, 
+ ﬁ lesystems are formatted, the Linux image is copied to hard disk, and the 
+ necessary settings are implemented.
+
+12.  Reboot. Select the little on/off button on the top-right corner of the screen. When 
+
+prompted, click the restart button. Eject or remove the Live media. The computer 
+should boot to your newly installed Fedora system.

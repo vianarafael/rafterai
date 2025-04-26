@@ -1,0 +1,22 @@
+Notice that the output is directed into the /etc/sysconfig/iptables ﬁ le using a redi-
+rection symbol, > (see the last line of code in the example).
+
+# iptables -vnL
+Chain INPUT (policy ACCEPT)
+target     prot opt source     destination
+DROP       tcp  --  10.140.67.22   anywhere  tcp dpt:ssh
+Chain FORWARD (policy ACCEPT)
+target     prot opt source     destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source     destination
+# cp /etc/sysconfig/iptables/etc/sysconfig/iptables.bck
+# iptables-save > /etc/sysconfig/iptables
+
+722
+
+c25.indd  04/02/2015  Page 723
+
+Chapter 25: Securing Linux on a Network
+
+You can also remove all the modiﬁ cations for the current netfilter/iptables ﬁ rewall 
+by using the ﬂ ush option, iptables -F.

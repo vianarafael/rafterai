@@ -1,0 +1,2 @@
+VirtualBox, for this reason, makes a good entry-level virtualization platform to begin with and 
+prototype on—it is not a platform you would use for performance, however.

@@ -1,0 +1,7 @@
+By specifying both smtp_tls_security_level and smtpd_
+tls_security_level, we are telling Postfix we want to potentially encrypt both incoming and outgoing 
+connections.
+
+The may value for both options enables a mode called opportunistic TLS. This basically means that if 
+TLS is supported by the remote client or server, it should be used. Otherwise, plain-text connections are 
+acceptable.

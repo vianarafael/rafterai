@@ -1,0 +1,5 @@
+Modules that are currently 
+disabled are preceded by a pound sign (#). The imjournal module lets rlogind access 
+the systemd journal. The imuxsock module is needed to accept messages from the local 
+system (it should not be commented out—preceded by a pound sign—unless you have a 
+speciﬁ c reason to do so).

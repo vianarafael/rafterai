@@ -1,0 +1,3 @@
+One way 
+to do this is by having multiple partitions on a hard disk and/or multiple hard disks, and 
+then installing different operating systems on different partitions.

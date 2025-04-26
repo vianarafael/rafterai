@@ -1,0 +1,10 @@
+The Debian distribution strives toward freedom, 
+openness, and maintaining a focus on delivering what users want.
+
+The Debian distribution is well known for the dpkg packaging system and the availability of nearly 
+
+23,000 applications and tools for the distribution.
+
+Ubuntu
+Initiated by South African technologist and entrepreneur Mark Shuttleworth, the Ubuntu operating system 
+(www.ubuntu.com/) is free and based on the Debian Linux platform.

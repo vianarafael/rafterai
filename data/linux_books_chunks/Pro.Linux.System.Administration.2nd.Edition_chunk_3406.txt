@@ -1,0 +1,17 @@
+We cannot have virtual alias domains and virtual mailbox domains for the 
+same domains, so it is either one or the other.
+
+To set up virtual mailbox domains, we will need to set the following:
+
+/etc/postfix/main.cf:
+mydestination = localhost
+virtual_mailbox_domains = hash:/etc/postfix/virt_domains
+virtual_mailbox_maps = hash:/etc/postfix/virt_mailbox
+virtual_alias_maps = hash:/etc/postfix/virtual
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+
+560
+
+In the previous example, we have reset the mydestination option to localhost, and we get our list of 
+
+destinations from the virtual_mailbox_domains setting.

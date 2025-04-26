@@ -1,0 +1,7 @@
+You can add a single directory to the start of the path as follows:
+
+$ PATH=/home/ataylor/scripts:$PATH
+
+Here we’ve added the directory /home/ataylor/scripts to the front of the path and then included 
+
+the existing path by separating it with a colon and specifying the $PATH value.

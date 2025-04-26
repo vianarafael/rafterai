@@ -1,0 +1,11 @@
+To start the autofs service in Fedora or RHEL 7, type the following as root user:
+
+# systemctl start autofs.service
+
+3.  On a Fedora or RHEL 7 system, set up the autofs service to restart every time 
+
+you boot your system:
+
+# systemctl enable autofs
+
+Believe it or not, that’s all you have to do.

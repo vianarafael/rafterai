@@ -1,0 +1,4 @@
+Mail servers can be configured to encrypt the sending and receiving of e-mail via STARTTLS. 
+Because mail servers are not required to use STARTTLS, many will downgrade to clear text, or they can be 
+vulnerable to malicious downgrade attacks. So while we recommend using a secure transport like TLS, it 
+is not a guaranteed protection against eavesdropping.

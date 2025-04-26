@@ -1,0 +1,8 @@
+For example, suppose you wanted to give 
+an entire directory structure 755 permission (rwxr-xr-x), starting at the $HOME/myapps 
+directory. To do that, you could use the -R option, as follows:
+
+$ chmod -R 755 $HOME/myapps
+
+All ﬁ les and directories below, and including, the myapps directory in your home directory 
+will have 755 permissions set.

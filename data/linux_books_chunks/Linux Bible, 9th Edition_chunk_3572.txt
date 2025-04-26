@@ -1,0 +1,36 @@
+Then you can use the 
+cd command below the /mnt/maple mount point to see the ﬁ les and directories 
+it contains.
+
+Figure 20.1 illustrates a Linux ﬁ le server using NFS to share (export) a ﬁ lesystem and a cli-
+ent computer mounting the ﬁ lesystem to make it available to its local users.
+
+FIGURE 20.1
+
+NFS can make selected fi lesystems available to other computers.
+
+/etc/exports ﬁle:
+/apps/bin pins(rw) maple(rw) spruce(rw)
+
+# mount -t nfs oak:/apps/bin /oak/apps
+
+oak
+
+/
+
+apps/
+
+bin/
+
+ﬁle1 ﬁle2 ﬁle3
+
+pine
+
+/
+
+oak/
+
+apps/
+
+In this example, a computer named oak makes its /apps/bin directory available to  clients 
+on the network (pine, maple, and spruce) by adding an entry to the /etc/exports ﬁ le.

@@ -1,0 +1,3 @@
+Let’s start by using the ping command 
+
+on our gateway host to ping our branch1 host.

@@ -1,0 +1,39 @@
+example config files
+
+Below you see several sections of /etc/dhcp/dhcpd.conf on a Debian 6 server.
+
+# NetSec Antwerp Network
+
+106
+
+introduction to dhcp
+
+subnet 192.168.1.0 netmask 255.255.255.0 {
+ range 192.168.1.20 192.168.1.199;
+ option domain-name-servers ns1.netsec.local;
+ option domain-name "netsec.local";
+ option routers 192.168.1.1;
+ option broadcast-address 192.168.1.255;
+ default-lease-time 7200;
+ max-lease-time 7200;
+}
+
+Above the general configuration for the network, with a pool of 180 addresses.
+
+Below two client reservations:
+
+#
+# laptops
+#
+
+host mac {
+  hardware ethernet 00:26:bb:xx:xx:xx;
+  fixed-address mac.netsec.local;
+}
+
+host vmac {
+  hardware ethernet 8c:7b:9d:xx:xx:xx;
+  fixed-address vmac.netsec.local;
+}
+
+6.7.

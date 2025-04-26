@@ -1,0 +1,10 @@
+86400 IN RRSIG A 8 3 86400 (
+                              20160802124245 20160703120630 65028 example.com.
+                              <snip>
+                              qGxaP6lJ+WKbIhw3NoqSd++E6bVUU5L46qaxczIhact3
+                              xZEOwrAnAQ2MSq9Qx1b41ghbwfVBUOMQZQ== )
+
+Adding a Slave Server
+
+In order to provide reliable DNS services, virtually all domain registrars require you to enter a minimum of 
+two DNS servers for any domain.

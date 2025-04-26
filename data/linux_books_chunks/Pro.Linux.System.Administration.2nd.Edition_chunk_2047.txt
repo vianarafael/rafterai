@@ -1,0 +1,3 @@
+The issue you are experiencing may be detailed on the 
+application’s web site—for example, in the installation documentation or in an FAQ section. Searching for 
+the particular error message via Google may also point to possible solutions.

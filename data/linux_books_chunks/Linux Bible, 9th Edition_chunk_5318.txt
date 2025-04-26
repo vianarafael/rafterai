@@ -1,0 +1,6 @@
+To start the Apache web server and set it to start up automatically at boot time, 
+then check that it is available from a web browser on your local host, do the fol-
+lowing (you should see the words “My Own Web Server” displayed if it is working 
+properly):
+
+The httpd service is started and enabled differently on different Linux systems.

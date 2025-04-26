@@ -1,0 +1,8 @@
+This is one of the features discussed next, in the “Allowing 
+uploading” section.
+
+Allowing uploading
+To allow any form of writing to the vsftpd server, you must have write_enable=YES 
+set in the vsftpd.conf ﬁ le (which it is, by default). Because of that, if local accounts 
+are enabled, users can log in and immediately begin uploading ﬁ les to their own home 
+directories.

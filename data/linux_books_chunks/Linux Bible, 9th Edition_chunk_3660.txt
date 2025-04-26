@@ -1,0 +1,5 @@
+Many other settings related to the mount are shown as well, 
+such as the read and write sizes of packets and the NFS version number.
+
+The mount operation just shown temporarily mounts an NFS ﬁ lesystem on the local 
+system.

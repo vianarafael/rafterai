@@ -1,0 +1,14 @@
+You can 
+also rename files in place with the mv command.
+
+$ mv -i ~/myfile ~/mynewfile
+
+You can do the same for directories.
+
+141
+
+ChapTeR 4 ■ LInux BasICs
+
+Deleting Files
+Use the rm (remove) command to delete files. As with any host, deleting files should be done carefully and with 
+thought.

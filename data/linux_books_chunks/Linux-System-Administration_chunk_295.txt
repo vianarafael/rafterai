@@ -1,0 +1,15 @@
+Use dmesg to make a list of hard disk devices detected at boot-up.
+
+Some possible answers...
+
+dmesg | grep -i disk
+
+Looking for ATA disks: dmesg | grep hd[abcd]
+
+Looking for ATA disks: dmesg | grep -i "ata disk"
+
+Looking for SCSI disks: dmesg | grep sd[a-f]
+
+Looking for SCSI disks: dmesg | grep -i "scsi disk"
+
+2.

@@ -1,0 +1,5 @@
+The inode contains a pointer to that data.
+
+9.2. about directories
+
+9.2.1.

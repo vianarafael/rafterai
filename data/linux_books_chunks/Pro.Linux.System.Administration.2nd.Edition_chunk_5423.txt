@@ -1,0 +1,10 @@
+The Require valid-user directive indicates that only 
+users specified in this file can log into the console.
+
+Once you’ve found where your authentication file needs to be, you need to create the file to hold your 
+
+users and passwords. You do this using a command called htpasswd.
+
+Listing 18-22 shows this command in action.
+
+Listing 18-22.

@@ -1,0 +1,19 @@
+We can override the default umask for this 
+group via the -K parameter.
+
+$ sudo groupadd -K UMASK=0002 www
+$ sudo usermod -G www jsmith
+
+499
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Once we log out and log back in, the group membership change will be active.
+Next, we’ll change the ownership and permissions of the /var/www/html/www.example.com directory 
+
+and any directories it contains so the www group has full access to it.
+
+$ sudo chgrp -R www /var/www/html/www.example.com
+$ sudo chmod u+rwx,g+srwx,o+rx /var/www/html/www.example.com
+
+Instead of the full permission string, we could have also specified octal mode 2775.

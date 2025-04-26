@@ -1,0 +1,8 @@
+This ﬁ lesystem is the default type for RHEL 7.
+
+ ■ gfs2—A shared disk ﬁ lesystem that allows multiple machines to all use the same 
+shared disk without going through a network ﬁ lesystem layer such as CIFS, NFS, 
+and so on.
+
+To see the list of ﬁ lesystems that come with the kernel you are currently using, type 
+ls /lib/ modules/kernelversion/kernel/fs/.

@@ -1,0 +1,13 @@
+For more information, see 
+the following documentation: http://doc.bareos.org/master/html/bareos-manual-main-reference.
+html#x1-16500012.
+
+In the next section, we’ll look at the file we are going to configure to describe our Storage daemon.
+
+682
+
+Chapter 14 ■ BaCkup and reCovery
+
+bareos-sd.conf
+
+Bareos stores the configuration details for the Storage daemon in the /etc/bareos/bareos-sd.

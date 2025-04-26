@@ -1,0 +1,12 @@
+We can now validate that our bonded interface is 
+working correctly by looking at the special /proc/net/bonding/bond0 file.
+
+$ sudo cat /proc/net/bonding/bond0
+
+Bonding Mode: fault-tolerance (active-backup)
+Primary Slave: None
+Currently Active Slave: enp0s8
+MII Status: up
+MII Polling Interval (ms): 100
+
+That is part of the output from the cat command against that file.

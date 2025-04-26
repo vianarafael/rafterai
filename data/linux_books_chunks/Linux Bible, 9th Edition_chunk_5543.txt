@@ -1,0 +1,3 @@
+“Installation Information” for a User Product means any methods, procedures, authoriza-
+tion keys, or other information required to install and execute modiﬁ ed versions of a cov-
+ered work in that User Product from a modiﬁ ed version of its Corresponding Source.

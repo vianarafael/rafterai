@@ -1,0 +1,11 @@
+This 
+is done to offer more ﬂ exibility in building your ﬁ rewalls by allowing your rules to be split 
+into zones for different types of interfaces.
+
+716
+
+c25.indd  04/02/2015  Page 717
+
+Chapter 25: Securing Linux on a Network
+
+Only the ﬁ rst line of the iptables output is shown in the preceding example.

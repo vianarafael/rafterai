@@ -1,0 +1,2 @@
+This should not be a surprise; we don’t let unauthorized users install packages without appropriate sudo 
+privileges.

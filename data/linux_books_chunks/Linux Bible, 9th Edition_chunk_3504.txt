@@ -1,0 +1,11 @@
+If 
+this is not set, the host portion of the system’s fully qualiﬁ ed domain name is used as the 
+hostname.
+
+19
+
+If you want to restrict access to the Samba server so it only responds on certain interfaces, 
+you can uncomment the interfaces line and add either the IP address or name (lo, 
+eth0, eth1, and so on) of the network interfaces you want.
+
+You can restrict access to the Samba server to speciﬁ c hosts as well.

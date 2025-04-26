@@ -1,0 +1,11 @@
+It is also a threat to your organization and users, as spam often hides 
+phishing attacks (http://en.wikipedia.org/wiki/Phishing), virus distributions, and other types of 
+malware attacks.
+
+562
+
+Chapter 12 ■ Mail ServiCeS
+
+We’re going to configure our Postfix server to reject some spam on its own and then introduce you to a 
+
+popular antispam tool called SpamAssassin.

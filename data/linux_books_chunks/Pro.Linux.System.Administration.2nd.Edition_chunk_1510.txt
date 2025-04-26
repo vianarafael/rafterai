@@ -1,0 +1,15 @@
+We will show you how to use host in 
+Chapter 9.
+
+openssl s_client
+
+This is useful to test SSL connections as it can try to establish an SSL connection 
+to a port on a remote host.
+
+arp
+
+This program queries and manages the ARP cache table, and allows you to 
+delete ARP entries.
+
+Adding Routes and Forwarding Packets
+The other common thing you will do with the ip command is add routes to your host.

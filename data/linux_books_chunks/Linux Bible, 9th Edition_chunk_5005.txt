@@ -1,0 +1,17 @@
+After you do, select clone.
+
+755
+
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 756
+
+Part VI: Extending Linux into the Cloud
+
+The cloned cloud instance is now available to start, stop, and otherwise manage as you like 
+from the Virtual Machine Manager window or the virsh command.
+
+Trying an Ubuntu cloud image
+Any Linux image that is enabled for cloud-init can be conﬁ gured in much the same way 
+as has just been shown for Fedora.

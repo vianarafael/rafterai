@@ -1,0 +1,2 @@
+The term Linux fi lesystem refers to the entire directory structure (which may include fi lesystems from 
+several disk partitions, NFS, or a variety of network resources), beginning from root (/) on a single computer.

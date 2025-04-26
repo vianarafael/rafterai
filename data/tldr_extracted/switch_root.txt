@@ -1,0 +1,10 @@
+# switch_root
+
+
+- Move `/proc`, `/dev`, `/sys` and `/run` to the specified filesystem, use this filesystem as the new root and start the specified init process:
+
+`switch_root {{new_root}} {{/sbin/init}}`
+
+- Display help:
+
+`switch_root {{[-h|--help]}}`

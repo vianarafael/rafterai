@@ -1,0 +1,3 @@
+When your program receives 
+input, it can receive that input by attaching to the stdin file descriptor. Likewise, when it produces its output, 
+it can write that to stdout. If there is an error in the program, it can write that to stderr.

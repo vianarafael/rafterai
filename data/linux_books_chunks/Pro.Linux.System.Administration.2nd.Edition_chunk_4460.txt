@@ -1,0 +1,3 @@
+Overlays give OpenLDAP advanced functionality to alter or extend 
+the normal LDAP behavior. Overlays such as the Password Policy (ppolicy) overlay enable password controls 
+that are not provided in the base code of OpenLDAP.

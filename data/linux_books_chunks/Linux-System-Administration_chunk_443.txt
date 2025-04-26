@@ -1,0 +1,10 @@
+raid levels
+
+10.2.1. raid 0
+
+raid 0 uses two or more disks, and is often called striping (or stripe set, or striped volume).
+Data is divided in chunks, those chunks are evenly spread across every disk in the array.
+The main advantage of raid 0 is that you can create larger drives. raid 0 is the only raid
+without redundancy.
+
+10.2.2.

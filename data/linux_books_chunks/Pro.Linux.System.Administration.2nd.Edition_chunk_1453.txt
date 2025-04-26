@@ -1,0 +1,9 @@
+You would then ping a host outside 
+
+your network, say www.ibm.com or www.google.com, and test its response:
+
+$ ping www.google.com
+PING www.l.google.com (150.101.98.222) 56(84) bytes of data.
+64 bytes from g222.internode.on.net (150.101.98.222): icmp_seq=1 ttl=59 time=20.0 ms
+
+When you experience problems connecting to hosts on the Internet, it can be for many reasons.

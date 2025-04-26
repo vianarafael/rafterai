@@ -1,0 +1,9 @@
+You can see we’ve adjusted the template in Listing 19-1 to reflect the DHCP configuration we 
+used in Chapter 10. We’ve added two settings.
+
+allow booting;
+allow bootp;
+
+These two options tell the DHCP server to respond to queries from hosts who request network boots.
+The other two important settings to note in Listing 19-1 are next-server and filename configuration 
+options.

@@ -1,0 +1,47 @@
+/proc/sys Subdirectories
+
+Directory
+
+Used By
+
+abi
+
+crypto
+
+debug
+
+dev
+
+fs
+
+kernel
+
+net
+
+sunrpc
+
+vm
+
+System emulation (e.g., running 32-bit applications on a 64-bit host).
+
+Cryptography-related information, like ciphers, modules, and so on.
+
+This is an empty directory; it’s not used.
+
+Device-specific information.
+
+File system settings and tuning.
+
+Kernel settings and tuning.
+
+Network settings and tuning.
+
+Sun Remote Procedure Call (NFS) settings.
+
+Memory, buffer, and cache settings and tuning.
+
+We won’t go into detail on every single file, but we’ll give you an idea of the kinds of tweaking that can 
+
+be done.
+
+Each of the virtual files contains one or more values that can be read via cat or the sysctl utility.

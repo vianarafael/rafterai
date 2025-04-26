@@ -1,0 +1,10 @@
+The 
+
+ desktop cube spins to each successive workspace (forward or back).
+
+ ■ Slowly rotate cube—Hold the Ctrl+Alt keys, press and hold the left mouse button, 
+and move the mouse around on the screen. The cube moves slowly with the mouse 
+among the workspaces.
+
+ ■ Scale and separate windows—If your desktop is cluttered, hold Ctrl+Alt and press 
+the up arrow key.

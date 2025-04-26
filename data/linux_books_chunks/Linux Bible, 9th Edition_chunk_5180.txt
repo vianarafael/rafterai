@@ -1,0 +1,13 @@
+Construct a find command that would ﬁ nd 
+those ﬁ les and any other ﬁ les that have write permission open to “others” from 
+your home directory and below.
+
+$ mkdir $HOME/TEST
+$ touch $HOME/TEST/{one,two,three}
+$ chmod 777 $HOME/TEST/{one,two,three}
+$ find $HOME -perm -002 -type f -ls
+148120 0 -rwxrwxrwx 1 chris chris 0 Jan 1 08:56 /home/chris/TEST/two
+148918 0 -rwxrwxrwx 1 chris chris 0 Jan 1 08:56 home/chris/TEST/three
+147306 0 -rwxrwxrwx 1 chris chris 0 Jan 1 08:56 /home/chris/TEST/one
+
+6.

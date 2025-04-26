@@ -1,0 +1,7 @@
+If not (e.g., port 22 traffic might be firewalled or the remote username 
+is different for each host), you might want to tweak the configuration for your server or client somewhat.
+
+Basic Server Configuration
+
+The server side of SSH reads its configuration from the /etc/ssh/sshd_config file. By default, it listens on 
+port 22 on all available network interfaces.

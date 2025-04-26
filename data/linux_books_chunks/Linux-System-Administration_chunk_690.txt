@@ -1,0 +1,9 @@
+These can also be used when the
+system is running to start and stop daemons (or services). Most of them accept the following
+parameters: start, stop, restart, status.
+
+For example in this screenshot we restart the samba daemon.
+
+root@laika:~# /etc/init.d/samba restart
+ * Stopping Samba daemons...                               [ OK ] 
+ * Starting Samba daemons...

@@ -1,0 +1,8 @@
+ansible 
+provides a simple when conditional that you will use frequently.
+
+  - name: install mariadb
+    apt: name=mariadb-server state=latest
+    when: ansible_distribution == "Ubuntu"
+
+here we are selecting to run this task when the ansible_distribution is equal to Ubuntu.

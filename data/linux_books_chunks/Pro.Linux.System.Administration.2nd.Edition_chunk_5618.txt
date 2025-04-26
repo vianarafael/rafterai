@@ -1,0 +1,21 @@
+See here for more details: https://docs.puppet.com/puppetdb/.
+
+940
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We recommend you create a DNS CNAME for your Puppet host (e.g., puppet.example.com) or add it to 
+
+your /etc/hosts file.
+
+# /etc/hosts
+127.0.0.1 localhost
+192.168.0.1 au-mel-ubuntu-1 puppet puppetmaster puppet.example.com puppetmaster.example.com
+
+ ■ Note 
+
+ We cover how to create CNAMEs in Chapter 10.
+
+Writing the Manifest
+We’re going to store our actual configuration in a directory called manifests under the /etc/puppetlabs/
+code/environments/production directory.

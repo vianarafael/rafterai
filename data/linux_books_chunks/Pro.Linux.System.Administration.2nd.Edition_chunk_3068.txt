@@ -1,0 +1,9 @@
+If we wanted to change the 
+
+openssl command to read CA information from the current directory, we would do the following:
+
+dir = .
+
+This tells OpenSSL to look in the current directory for directories and files needed to configure and sign 
+
+certificates. For CentOS, this is already set to /etc/pki/CA. Ubuntu has this set to ./demoCA.

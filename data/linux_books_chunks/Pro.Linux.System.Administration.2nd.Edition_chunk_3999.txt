@@ -1,0 +1,5 @@
+Duplicity is a program 
+that uses rsync, and rsync can sync large amounts of data. Around the world rsync has been used by many 
+companies as their remote backup strategy successfully. rsync by itself is great at syncing, but it does not 
+easily manage discrete backups. Duplicity manages discrete backups effectively, but it can have many 
+options to choose from.

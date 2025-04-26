@@ -1,0 +1,8 @@
+On Red Hat and 
+
+CentOS, this variable defaults to the version of the redhat-release package.
+
+$ cat /etc/redhat-release
+CentOS Linux release 7.2.1511 (Core)
+
+In this case, $releasever will equal 7.2.1511.

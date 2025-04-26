@@ -1,0 +1,9 @@
+However, if the remote 
+system is not requesting a connection to the sshd or vsftpd, it is denied access by the 
+line in the hosts.deny ﬁ le:
+
+ALL: ALL
+
+A client entry can be a numeric IP address (such as 199.170.177.25) or a hostname (such 
+as jukebox.linuxtoys.net). Often, a wildcard variation is used that speciﬁ es an entire 
+range of addresses.

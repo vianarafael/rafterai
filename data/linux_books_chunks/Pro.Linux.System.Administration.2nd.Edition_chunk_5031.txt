@@ -1,0 +1,6 @@
+Because of the extra metadata, the log events are larger in size than normal logs and take more space. You 
+can persist them to disk, and we will show you how to do that a little later in the chapter.
+
+839
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

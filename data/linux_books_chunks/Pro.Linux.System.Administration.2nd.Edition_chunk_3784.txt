@@ -1,0 +1,7 @@
+Ceph itself is object block storage 
+and a reliable autonomous distributed object store (RADOS) that can support huge amounts of data. All can 
+be supported by commercial support licenses or the relevant communities that create them.
+
+GlusterFS
+GlusterFS is a network filesystem, and the company that initiated its development (Gluster Inc.) was 
+acquired by Red Hat.

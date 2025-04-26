@@ -1,0 +1,10 @@
+In fact, it’s a good idea to develop the habit of running 
+this every time you make a conﬁ guration change:
+
+# apachectl configtest
+Syntax OK
+# apachectl graceful
+/usr/sbin/apachectl graceful: httpd gracefully restarted
+
+In the event of a syntax error, apachectl indicates where the error occurs and also does 
+its best to give a hint about the nature of the problem.

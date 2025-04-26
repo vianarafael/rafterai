@@ -1,0 +1,6 @@
+The resulting number (14, in this case) is echoed 
+back with the rest of the sentence shown.
+
+Expanding variables
+Variables that store information within the shell can be expanded using the dollar sign ($) 
+metacharacter.

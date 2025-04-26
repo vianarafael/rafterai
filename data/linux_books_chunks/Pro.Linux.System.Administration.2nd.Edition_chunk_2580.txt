@@ -1,0 +1,10 @@
+We will need to change the listen-on(-v6) to listen on a 
+reachable IP address.
+
+listen-on port 53 { 127.0.0.1; 192.168.1.1; };
+listen-on-v6 port 53 { ::1; };
+
+The next settings in Listing 10-5 are recursion (should be ‘yes’) as we are not using this dns server as 
+
+an authoritative name server (meaning it won’t be queried for any zones itself, but rather ask other dns 
+servers).

@@ -1,0 +1,8 @@
+To do that, we need to add the 
+
+following to the bottom of our bareos-dir.conf file:
+
+@/etc/bareos/bareos-dir.d/webui-consoles.conf
+@/etc/bareos/bareos-dir.d/webui-profiles.conf
+
+Again, we are using the @ symbol to tell the Bareos Director to read in these files.

@@ -1,0 +1,8 @@
+When you are ready, check out here for details www.vagrantup.com/docs/boxes/
+base.html.
+
+88
+
+You are not limited to using just VirtualBox machines either. You can run Amazon AWS or Openstack 
+instances, LXC containers, and of course Docker containers. In this exercise we are going to show you how to 
+work with a VirtualBox virtual machine.

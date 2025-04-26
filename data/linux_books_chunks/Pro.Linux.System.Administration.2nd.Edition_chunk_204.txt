@@ -1,0 +1,11 @@
+If you press Enter on the highlighted CentOS Linux above 
+you will be booted into that kernel.
+
+43
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-30.  Booting your new host
+
+ ■ Note  We use the word “kernel” and “operating system” pretty interchangeably here. In this respect it 
+means the same thing, the kernel is the Linux operating system.

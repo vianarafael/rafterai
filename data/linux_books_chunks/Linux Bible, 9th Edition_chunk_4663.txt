@@ -1,0 +1,12 @@
+Several resources 
+are available at this site, which is located at http://selinuxproject.org.
+
+ ■ SELinux News—Just as it sounds, there is current news on SELinux at http://
+
+selinuxnews.org.
+
+24
+
+Summary
+SELinux provides a security enhancement to Linux and is installed by default on many 
+Linux distributions.

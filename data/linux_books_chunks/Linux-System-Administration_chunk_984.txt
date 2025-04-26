@@ -1,0 +1,13 @@
+An intranet uses the same protocols as the internet,
+but is only accessible to people from within one organization.
+
+An  extranet  is  similar  to  an  intranet,  but  some  trusted  organizations  (partners/clients/
+suppliers/...) also get access.
+
+261
+
+general networking
+
+21.5. tcp/ip
+
+21.5.1.

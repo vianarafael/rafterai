@@ -1,0 +1,6 @@
+You can also choose your GZIP compression ratio with choosing between GZIP1 to GZIP9 (with GZIP9 
+being the best, and slowest, compression).
+
+With the signature, you can use either SHA1 or MD5, but MD5 will add an extra overhead to each file 
+saved in both data size and CPU time. The signature is stored in the catalog for use with verification of the 
+file’s contents and if they have changed.

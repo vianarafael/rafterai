@@ -1,0 +1,11 @@
+After you have made the symbolic link(s), test that your new or modiﬁ ed service 
+
+works as expected before performing a server reboot.
+
+# service My_New_Service start
+Starting My_New_Service:       [  OK  ]
+# service My_New_Service stop
+Stopping My_New_Service:       [  OK  ]
+
+After everything is in place, your new or modiﬁ ed service starts at every runlevel 
+you have selected on your system.

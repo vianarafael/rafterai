@@ -1,0 +1,6 @@
+That should be
+enough,  even  if  every  cell  phone,  every  coffee  machine  and  every  pair  of  socks  gets  an
+address.
+
+Technically speaking ipv6 uses 128-bit addresses (instead of the 32-bit from ipv4). 128-bit
+addresses are huge numbers.

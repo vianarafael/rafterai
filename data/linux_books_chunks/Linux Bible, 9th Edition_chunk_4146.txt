@@ -1,0 +1,7 @@
+However, you may want to also consider the following:
+
+ ■ Typically, you put the /home subdirectory, where user directories are located, on 
+its own partition and when you add mount options, you can do the following:
+
+ ■ You can set the nosuid option to prevent SUID and SGID permission-enabled 
+executable programs running from there.

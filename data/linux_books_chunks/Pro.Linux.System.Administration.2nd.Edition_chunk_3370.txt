@@ -1,0 +1,25 @@
+By default, as we mentioned earlier, Postfix will accept e-mail
+
+From clients whose IP addresses match the values in the mynetworks option
+
+To remote destinations that match the value of the relay_domains option, which 
+defaults to the value of the mydestination option
+
+To and from the local host
+
+•	
+
+•	
+
+•	
+
+554
+
+Chapter 12 ■ Mail ServiCeS
+
+We’re going to adjust this default behavior by telling Postfix to also accept e-mails from users 
+
+authenticated by SASL.
+
+So first, we have the permit_mynetworks option, which maintains access for the networks in the 
+mynetworks options.

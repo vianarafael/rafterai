@@ -1,0 +1,10 @@
+So the file isn't a list of all filesystems supported 
+by the kernel!
+
+/proc/partitions
+The partition layout is displayed with further information such as the name, the number of 
+block, the major/minor numbers, etc
+
+/proc/sys/
+The /proc/sys directory is the only place were files with write permission can be found 
+(the rest of /proc is read-only).

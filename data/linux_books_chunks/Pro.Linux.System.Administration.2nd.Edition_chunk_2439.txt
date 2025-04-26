@@ -1,0 +1,2 @@
+It stores the clock frequency offset every hour, depending on the tolerance of drift, and 
+uses this information when the daemon is started. If the file is not there it sets the frequency offset to zero.

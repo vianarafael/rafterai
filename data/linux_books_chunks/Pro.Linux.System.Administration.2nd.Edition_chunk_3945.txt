@@ -1,0 +1,10 @@
+When we perform an rsync on our remote host, the variable will contain rsync --server <some other 
+arguments for rsync>. We want to allow this and exclude anything else.
+
+643
+
+Chapter 14 ■ BaCkup and reCovery
+
+We do this with a wrapper script, as shown in Listing 14-1.
+
+Listing 14-1.

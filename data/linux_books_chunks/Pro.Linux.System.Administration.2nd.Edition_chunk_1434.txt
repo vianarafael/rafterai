@@ -1,0 +1,10 @@
+The OSI model is made 
+up of seven layers. Each of those layers has a special responsibility in the process of communicating data 
+between hosts over the wire. In diagnosing your network, you will normally be interested in the layers 1, 2, 
+and 3. You can see a description of these layers in Figure 7-12.
+
+247
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-12.

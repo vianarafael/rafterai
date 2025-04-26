@@ -1,0 +1,5 @@
+Smaller values mean that records will be cached by other DNS 
+
+servers for a shorter period of time. That means your DNS servers will be queried more often, whereas 
+longer TTLs means less queries to your DNS servers. If your host IPs are changing regularly you will want to 
+have this value small.

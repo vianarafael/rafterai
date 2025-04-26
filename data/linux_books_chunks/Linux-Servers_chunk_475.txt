@@ -1,0 +1,10 @@
+/etc/sysctl.conf
+
+By  default,  most  Linux  computers  are  not  configured  for  automatic  packet  forwarding.
+To enable packet forwarding whenever the system starts, change the net.ipv4.ip_forward
+variable in /etc/sysctl.conf to the value 1.
+
+root@router~# grep ip_forward /etc/sysctl.conf 
+net.ipv4.ip_forward = 0
+
+7.13.

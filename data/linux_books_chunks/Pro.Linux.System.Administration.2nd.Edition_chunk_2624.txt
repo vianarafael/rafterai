@@ -1,0 +1,6 @@
+Not only can it reload the named 
+
+configuration (after you have edited files), it can reload particular zones, change logging levels, and flush 
+caches. We will show you more uses for rndc throughout the chapter.
+
+The name server should know about our new zones, and we can query it to check this.

@@ -1,0 +1,12 @@
+You can also copy ﬁ les recursively 
+through a whole directory structure, if you choose.
+
+The following is an example of using the scp command to copy a ﬁ le called memo from 
+the home directory of the user chris to the /tmp directory on a remote computer as the 
+user johndoe:
+
+$ scp /home/chris/memo johndoe@10.140.67.23:/tmp
+johndoe@10.140.67.23's password: ***************
+memo       100%|****************|  153   0:00
+
+You must enter the password for johndoe.

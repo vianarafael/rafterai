@@ -1,0 +1,17 @@
+Our /etc/my.conf on CentOS
+
+[mysqld]
+bind-address = 127.0.0.1
+
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+[mysqld_safe]
+log-error=/var/log/mariadb/mariadb.log
+pid-file=/var/run/mariadb/mariadb.pid
+
+!includedir /etc/my.cnf.d
+
+There are many different settings that can be configured for the MariaDB server.

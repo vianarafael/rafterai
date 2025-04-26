@@ -1,0 +1,17 @@
+For example, the Storage tab appears in Figure 26.1, showing that 
+there are 438.40GB of free space in the location used by default for storage by this 
+hypervisor (/var/lib/libvirt/images directory).
+
+FIGURE 26.1
+
+Start Virtual Machine Manager and check connection details.
+
+742
+
+ 
+ 
+c26.indd  04/01/2015  Page 743
+
+Chapter 26: Using Linux for Cloud Computing 
+
+b.

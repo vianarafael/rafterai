@@ -1,0 +1,9 @@
+snat (source nat)
+
+A  snat  device  is  changing  the  source  ip-address  when  a  packet  passes  our  nat.  snat
+configuration with iptables includes a fixed target source address.
+
+10.8. masquerading
+
+Masquerading is a form of snat that will hide the (private) source ip-addresses of your
+private network using a public ip-address.

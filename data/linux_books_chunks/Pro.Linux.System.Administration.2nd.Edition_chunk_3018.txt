@@ -1,0 +1,6 @@
+Anything that is encrypted using the public key can be decrypted only with the corresponding 
+private key; this is the same concept described in the “DNSSEC” sidebar section in Chapter 10.
+
+ ■ Note 
+ digital certificates and public key cryptography are complicated topics. this is really only an 
+introduction to give you the basics for using tLS.

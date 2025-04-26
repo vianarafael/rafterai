@@ -1,0 +1,7 @@
+Later in the chapter we will 
+show how to configure our DNS MX record.
+
+ if the DNS query indicates that there isn’t an MX record, your e-mail server will be unable to deliver 
+
+ ■ Note 
+the e-mail and will send you a message indicating this.

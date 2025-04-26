@@ -1,0 +1,6 @@
+With this module enabled (which it is not by default), 
+the  public_html directory under every user’s home directory is available to the web at 
+http://servername/~username/.
+
+For example, a user named wtucker on www.example.org stores web content in 
+/home/wtucker/public_html.

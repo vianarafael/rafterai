@@ -1,0 +1,7 @@
+We knew 
+from experience that the essence of communal computing as supplied by 
+ remote-access, time-shared machines is not just to type programs into a terminal 
+instead of a keypunch, but to encourage close communication.
+
+The simplicity and power of the UNIX design began breaking down barriers that, until 
+this point, had impeded software developers.

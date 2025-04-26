@@ -1,0 +1,11 @@
+You can be somewhat more selective with your authorization by granting access to the commands in a 
+
+particular directory:
+
+ataylor au-mel-centos-1=/bin/*
+
+176
+
+Chapter 5 ■ Users and GroUps
+
+This applies only to the directory defined and not to any of its subdirectories.

@@ -1,0 +1,12 @@
+Become root using the su - command and then open the /etc/rsyslog.conf ﬁ le in a 
+text editor (such as vi).
+
+337
+
+c13.indd  04/01/2015  Page 338
+
+Part IV: Becoming a Linux Server Administrator
+
+On the client side
+To send the messages to another computer (the loghost) instead of a ﬁ le, start by replacing 
+the log ﬁ le name with the @ character followed by the name of the loghost.

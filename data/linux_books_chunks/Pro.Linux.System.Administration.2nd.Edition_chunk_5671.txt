@@ -1,0 +1,4 @@
+Here we declare the class role::apache_web, and we provide a 
+list of parameters we expect this class to be provided with when it is used. Class parameters in Puppet can 
+either be declared when we create the class or be looked up from a key/value database like Hiera at the 
+time this class is compiled for a node.

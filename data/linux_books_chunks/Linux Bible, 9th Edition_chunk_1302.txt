@@ -1,0 +1,3 @@
+However, the /etc/sudoers ﬁ le gives you an incredible amount of ﬂ exibility 
+in permitting individual users and groups to use individual applications or groups of 
+applications.

@@ -1,0 +1,14 @@
+If you want to install the package and the 
+dependencies without being prompted for confirmation you can issue
+
+$ sudo yum install –y nmap
+
+This will answer “yes” (-y) to any installation questions and is useful when you are installing packages 
+
+via scripts.
+
+You can also use the groups install command as follows:
+
+$ sudo yum groups install 'Basic Web Server'
+
+This will install all the packages in the group Basic Web Server.

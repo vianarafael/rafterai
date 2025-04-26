@@ -1,0 +1,16 @@
+/etc/default/myapp
+
+  # stop job from continuing if admin has not enabled service in
+  # config file.
+  [ -z "$ENABLED" ] && { stop; exit 0; }
+
+end script
+
+You can read more on Upstart at http://upstart.ubuntu.com/cookbook/.
+
+199
+
+Chapter 6 ■ Startup and ServiCeS
+
+Remembering SystemV
+Let’s go back in time somewhat.

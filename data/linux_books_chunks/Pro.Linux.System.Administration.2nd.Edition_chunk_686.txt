@@ -1,0 +1,10 @@
+We’ve then told grep to search for the term accounts and used the > symbol to direct the 
+output of this command into a file called matched_accounts.
+
+another useful trick is the ability to run multiple commands on a single command line by separating 
+each with a semicolon.
+
+$ ./configure; make; make test
+
+This command line would run the configure script in the current directory and then the make and the 
+make test commands.

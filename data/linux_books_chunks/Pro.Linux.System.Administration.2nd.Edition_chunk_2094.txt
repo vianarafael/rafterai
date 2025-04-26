@@ -1,0 +1,2 @@
+First, you need to check that the disk was detected by the 
+operating system and what its device name is.

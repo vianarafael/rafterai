@@ -1,0 +1,7 @@
+This gives you the opportunity 
+to verify if the host or your communication has been tampered with. Again, we will talk more about this in 
+Chapter 10.
+
+In Figure 4-6 we accept the fingerprint after ideally first checking that we are connecting to the host we 
+think we are connecting to (this is harder to do in an online world where you might connect to hosts outside 
+your domains).

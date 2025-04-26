@@ -1,0 +1,5 @@
+By using du on a
+mount point you effectively get the disk space used on a file system.
+
+While du can go display each subdirectory recursively, the -s option will give you a total
+summary for the parent directory. This option is often used together with -h.

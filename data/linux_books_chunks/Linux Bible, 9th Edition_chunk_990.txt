@@ -1,0 +1,5 @@
+Each of those three numbers varies from no 
+permission (0) to full read/write/execute permission (7), by adding read (4), write (2), and 
+execute (1) bits together. With a hyphen (-) in front of the number, all three of the bits 
+ indicated must match; with a plus (+) in front of it, any of the numbers can match for the 
+search to ﬁ nd a ﬁ le.

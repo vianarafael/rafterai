@@ -1,0 +1,7 @@
+a job is running
+starting             (7) - ... a job is starting
+startup              (7) - ... system startup
+stopped              (7) - ... a job has stopped
+stopping             (7) - ... a job is stopping
+
+Switching to a different runlevel is still allowed through the init or telinit commands.

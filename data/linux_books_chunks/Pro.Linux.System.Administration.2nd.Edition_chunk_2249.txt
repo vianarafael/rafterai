@@ -1,0 +1,5 @@
+They are rw, which is read/write, relatime which means that the system updates inode access time relative 
+to modify or change times (a performance improvement), and data=ordered means that the system will first 
+write data to the main filesystem and then commit the metadata to the journal.
+
+If you want to use the device node instead, you can do the following.

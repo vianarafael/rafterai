@@ -1,0 +1,10 @@
+This 
+
+does not currently have an IP address associated with it:
+
+  $ ip addr show
+3: enp0s8: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether 08:00:27:13:3c:00 brd ff:ff:ff:ff:ff:ff
+
+Comparing it to our previous output you can immediately notice that the state is DOWN and that we can 
+only see a MAC address that has been assigned to the network device enp0s8.

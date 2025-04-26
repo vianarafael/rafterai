@@ -1,0 +1,5 @@
+Begin by going to the applications screen and opening the Software window.
+
+With the Software window open, you can select the applications you want to install by 
+searching (type the name into the Find box) or choosing a category. Each category offers 
+packages sorted by subcategories and featured packages in that category.

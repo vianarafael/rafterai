@@ -1,0 +1,8 @@
+Recent GNOME releases include advances in 3D effects (see “3D effects with AIGLX” later 
+in this chapter) and improved usability features that I’ll show you as well.
+
+To use your GNOME desktop, you should become familiar with the following components:
+
+ ■ Metacity (window manager)—The default window manager for GNOME 2 is 
+
+Metacity.

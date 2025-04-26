@@ -1,0 +1,14 @@
+If you are logged in as a regular user, 
+you must enter the root password before the Graphical User Interface (GUI) application’s 
+window opens or, in some cases, when you request to do some special activity.
+
+The following list describes many of the graphical tools you can use to administer a Fedora 
+or Red Hat Enterprise Linux system (some are only in Fedora and many are not installed 
+
+175
+
+c08.indd  04/01/2015  Page 176
+
+Part III: Becoming a Linux System Administrator 
+
+by default).

@@ -1,0 +1,6 @@
+using the debug module allows you to print out the result of that substitution.
+
+for more information on filters, see http://docs.ansible.com/ansible/playbooks_filters.html.
+
+You can provide variables to ansible using host group names and YaML files also. You can create a 
+directory called group_vars in your /etc/ansible directory or local directory.

@@ -1,0 +1,10 @@
+You choose a Linux instance, such as Ubuntu, 
+Red Hat Enterprise Linux (RHEL), or SUSE Linux Enterprise Server (SLES), that is tuned for speciﬁ c 
+
+749
+
+c27.indd  04/01/2015  Page 750
+
+Part VI: Extending Linux into the Cloud
+
+purposes.

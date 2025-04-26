@@ -1,0 +1,6 @@
+To add an item from a menu 
+so that it can launch from the panel, drag and drop the item you want to the panel.
+
+You can add items to your GNOME 2 menus. To do that, right-click any of the menu 
+names and select Edit Menus. The window that appears lets you add or delete menus 
+associated with the Applications and System menus.

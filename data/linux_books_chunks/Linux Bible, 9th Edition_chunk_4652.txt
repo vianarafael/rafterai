@@ -1,0 +1,10 @@
+The example here shows these commands being used:
+
+# getsebool -a | grep http
+...
+httpd_can_network_connect --> off
+...
+
+The getsebool command shows the Boolean httpd_can_network_connect is set to off. 
+To change this Boolean, use the following command: setsebool -P httpd_can_network_
+connect on. Notice the -P option was used to make the setting permanent.

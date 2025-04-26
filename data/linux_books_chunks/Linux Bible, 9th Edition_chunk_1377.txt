@@ -1,0 +1,6 @@
+As  mentioned earlier, however, they are really not intended for interactive logins.
+
+Checking and Confi guring Hardware
+In a perfect world, after installing and booting Linux, all your hardware is detected 
+and available for access. Although Linux systems are rapidly moving closer to that 
+world,  sometimes you must take special steps to get your computer hardware working.

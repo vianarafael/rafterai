@@ -1,0 +1,24 @@
+Issuing help shows our options.
+
+$ sudo samba-tool group
+Usage: samba-tool group <subcommand>
+
+Group management.
+
+Options:
+  -h, --help  show this help message and exit
+
+Available subcommands:
+  add            - Creates a new AD group.
+  addmembers     - Add members to an AD group.
+  delete         - Deletes an AD group.
+  list           - List all groups.
+  listmembers    - List all members of an AD group.
+  removemembers  - Remove members from an AD group.
+For more help on a specific subcommand, please type: samba-tool group <subcommand> (-h|--help)
+
+606
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+As you can see, it is similar to the user subcommand.

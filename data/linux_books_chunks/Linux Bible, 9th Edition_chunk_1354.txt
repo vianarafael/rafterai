@@ -1,0 +1,13 @@
+(Typically, log messages are stored in ﬁ les 
+contained in the /var/log directory.)
+
+8
+
+187
+
+c08.indd  04/01/2015  Page 188
+
+Part III: Becoming a Linux System Administrator 
+
+ ■ termcap—Lists deﬁ nitions for character terminals, so character-based applications 
+know what features are supported by a given terminal.

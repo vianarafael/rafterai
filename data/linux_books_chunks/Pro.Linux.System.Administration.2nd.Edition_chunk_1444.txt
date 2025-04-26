@@ -1,0 +1,5 @@
+You 
+can ping a host or an interface to see if it responds. In the output response from issuing the ping command, 
+you are shown the time it has taken for that response to come back. You can ping the other side of the world 
+and receive a response in milliseconds. That is good. If you get response times in the order of whole seconds 
+or a “host unreachable” message, that is bad.

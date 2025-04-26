@@ -1,0 +1,12 @@
+Let’s look at it now.
+
+define command{
+          command_name    check-host-alive
+          command_line     $USER1$/check_ping -H $HOSTADDRESS$ -w 3000.0,80% -c 5000.0,100% -p 1
+          }
+
+886
+
+Chapter 18 ■ Logging and Monitoring
+
+Commands are defined just like other objects.

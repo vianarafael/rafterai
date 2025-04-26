@@ -1,0 +1,15 @@
+28191 blocks available
+
+518
+
+c19.indd  04/01/2015  Page 519
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+The main point to remember is that, even though the share is not browseable, you can 
+request it by giving the Samba server’s hostname or IP address, followed by the user’s name 
+(here, chris), to access the user’s home directory.
+
+Configuring the [printers] section
+Any printer that you conﬁ gure for CUPS printing on your Linux system is automatically 
+shared to others over Samba, based on the [printers] section that is added by default.

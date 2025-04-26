@@ -1,0 +1,2 @@
+This means the value passed by the MAIL FROM command must be in the form of a valid 
+e-mail address, for example, ataylor@example.com.

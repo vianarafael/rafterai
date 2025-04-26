@@ -1,0 +1,58 @@
+Linux, 6
+Linux ISO image, burning, 776–777
+
+Workspace Switcher, Metacity, 52, 58
+wtmp ﬁ le, 610
+
+X
+
+X Windowing System, 30–32
+X.Org X11 Log, 610
+X11 forwarding, 328–329
+
+bindex.indd  04/02/2015  Page 859
+
+Index
+
+xdriver-vesa boot option, 217
+Xen, 5, 204, 216, 730
+xeyes command, 152
+Xfce desktop, 14, 29, 31, 32
+xferlog ﬁ le, 609
+XFree86.0.log ﬁ le, 189
+xfs ﬁ lesystem, 303
+xinetd.conf ﬁ le, 188
+Xorg.0.log ﬁ le, 189, 610
+xorg.conf ﬁ le, 60, 188
+
+Y
+
+ypserv package, 317
+YUM (Yellowdog Updater Modiﬁ ed) project, 240–252
+
+downloading packages, 252
+installing packages, 247–249
+maintaining package database/cache, 251–252
+removing packages, 248–249
+searching for packages, 246–247
+updating packages, 249–251
+using with third-party repositories, 244–245
+
+yum command, 241–244, 245–252
+YUM Log, 610
+yum.conf ﬁ le, 242
+yum.log ﬁ le, 242, 610
+
+Z
+
+Zipcloak , 646
+Zorin OS, 19 
+
+859
+
+both.indd  04/07/2015  Page 1
+
+GNU General Public License
+Version 3, 29 June 2007
+
+Copyright © 2007 Free Software Foundation, Inc.

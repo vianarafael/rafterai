@@ -1,0 +1,7 @@
+91941   IN     NS     ns3.google.com.
+;; Query time: 0 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Mon Apr 30 13:57:44 2012
+;; MSG SIZE  rcvd: 276
+
+9.

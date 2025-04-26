@@ -1,0 +1,4 @@
+systemd targets
+
+The  first  command  to  learn  is  systemctl  list-units  --type=target  (or  the  shorter  version
+systemctl -t target).

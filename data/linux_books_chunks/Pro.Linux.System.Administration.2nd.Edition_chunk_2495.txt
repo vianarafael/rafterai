@@ -1,0 +1,11 @@
+This is something to keep 
+
+in mind when choosing a registrar to buy your domain from, as it’s a relatively convenient way for spammers 
+to collect e-mail addresses.
+
+ ■ Note  Most registrars allow only a limited number of lookups per day from a specific address against their 
+database, to discourage address harvesting.
+
+Querying Name Servers
+You will already be using the DNS server or servers run by your Internet service provider to look up 
+addresses for hosts on the Internet.

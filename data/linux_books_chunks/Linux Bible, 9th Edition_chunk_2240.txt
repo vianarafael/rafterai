@@ -1,0 +1,5 @@
+Related packages, such as dovecot, allow the mail 
+server to deliver e-mail to clients.
+
+ ■ Directory Server—Packages in this category provide remote and local  authentication 
+services.

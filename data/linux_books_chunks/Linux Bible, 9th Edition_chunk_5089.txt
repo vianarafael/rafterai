@@ -1,0 +1,5 @@
+You can run it live without committing to overwriting your computer’s hard disk until you 
+feel comfortable enough to install it permanently.
+
+To test the examples in this book, I used Fedora 21, 32-bit or the 64-bit Fedora Workstation 
+Image. If you have a 64-bit ISO, you must use a 64-bit machine.

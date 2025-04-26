@@ -1,0 +1,7 @@
+The repository is placed on an 
+installation CD or DVD or in a directory that is made available as an FTP, web, or NFS server.
+
+Installing RPMs
+When you initially install a Fedora or Red Hat Enterprise Linux system, many individual 
+RPM packages make up that installation. After Linux is installed, you can add more pack-
+ages using the Software window (as described earlier).

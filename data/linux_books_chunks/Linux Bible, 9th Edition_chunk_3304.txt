@@ -1,0 +1,2 @@
+You typically want to add the rule somewhere before the ﬁ nal DROP 
+or REJECT rule.

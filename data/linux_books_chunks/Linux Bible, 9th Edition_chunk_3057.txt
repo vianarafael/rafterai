@@ -1,0 +1,7 @@
+Among other things, modules are available to handle the 
+processing of scripting languages, such as Perl or PHP, within web documents and to add 
+encryption to connections between clients and the server.
+
+Apache began as a collection of patches and improvements from the National Center for 
+Supercomputing Applications (NCSA), University of Illinois, Urbana-Champaign, to the HTTP 
+daemon.

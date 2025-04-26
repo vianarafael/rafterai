@@ -1,0 +1,6 @@
+Let’s look at the other tools you can use to manage your LDAP 
+servers, including the ldapsearch tool we just mentioned.
+
+Backing Up Your LDAP Directory
+Text-based files are great for building or restoring your LDAP directory. Once your directory is implemented, 
+we suggest that you set up a script that might regularly output your LDAP database into a text file and save it.

@@ -1,0 +1,13 @@
+Having duplicate names on an SMB network can seriously harm
+communications.
+
+9.6.3. NetBIOS names
+
+NetBIOS names are similar to hostnames, but are always uppercase and only 15 characters
+in length. Microsoft Windows computers and Samba servers will broadcast this name on
+the network.
+
+9.6.4. network bandwidth
+
+Having many broadcasting SMB/CIFS computers on your network can cause bandwidth
+issues.

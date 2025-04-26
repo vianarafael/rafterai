@@ -1,0 +1,8 @@
+The -r option of userdel will also remove the
+home directory.
+
+[root@RHEL5 ~]# userdel -r yanina
+
+2.7. usermod
+
+You can modify the properties of a user with the usermod command.

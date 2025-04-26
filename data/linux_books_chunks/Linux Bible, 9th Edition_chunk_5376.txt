@@ -1,0 +1,9 @@
+To make sure the share you created is accessible to all hosts, ﬁ rst check that 
+
+rpcbind is not blocked by TCP wrappers by adding the following entry to the 
+beginning of the /etc/hosts.allow ﬁ le:
+
+rpcbind: ALL
+
+To open the ﬁ rewall in systems that use ﬁ rewalld (RHEL 7 and recent Fedora sys-
+tems), install the ﬁ rewall-conﬁ g package.

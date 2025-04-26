@@ -1,0 +1,8 @@
+Consider the following examples of using alias from a bash shell:
+
+$ alias p='pwd ; ls –CF'
+$ alias rm='rm -i'
+
+In the ﬁ rst example, the letter p is assigned to run the command pwd, and then to run ls 
+-CF to print the current working directory and list its contents in column form. The 
+second example runs the rm command with the -i option each time you type rm.

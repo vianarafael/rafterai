@@ -1,0 +1,9 @@
+You can 
+also run the arp command to list IP addresses and associated MAC addresses on the local network, but that 
+might be hard to match the address to the right machine.
+
+These configuration directives all go within the subnet block in the dhcpd.conf file. You start by 
+
+defining a group, which you can give any name you like; here we’ve chosen “static.”
+
+subnet ...

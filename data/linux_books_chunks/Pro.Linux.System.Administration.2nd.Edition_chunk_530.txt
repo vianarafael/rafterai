@@ -1,0 +1,5 @@
+The absolute 
+path always starts with a slash symbol (/) representing the root directory and specifies the definitive location 
+of the place you are describing; for example, /home/jsmith/ is an absolute path.
+
+Relative paths allow you to specify a location relative to your current location or starting point.

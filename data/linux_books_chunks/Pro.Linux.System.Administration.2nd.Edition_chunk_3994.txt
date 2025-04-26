@@ -1,0 +1,6 @@
+type yes to confirm the signature and the script should proceed as normal from 
+then on.
+
+We will now put this script into a crontab file so we can run it on a regular basis. Recall that we 
+
+discussed crontab files in Chapter 5.

@@ -1,0 +1,6 @@
+In other words, setting userlist_enable=NO, 
+removing all usernames from the user_list ﬁ le, and adding the usernames chris, joe, 
+and mary to that ﬁ le cause the server to allow only those three users to log in to the server.
+
+No matter how the value of userlist_enable is set, the /etc/vsftpd/ftpusers ﬁ le 
+always includes users who are denied access to the server.

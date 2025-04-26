@@ -1,0 +1,22 @@
+There 
+is a plug-in called write_graphite, which will send Collectd metrics to a Graphite carbon-cache or relay.
+
+The configuration is simple and looks like the following:
+
+LoadPlugin write_graphite
+
+<Plugin write_graphite>
+  <Node "monitor">
+    Host "relay.example.com"
+    Port "2013"
+    Protocol "tcp"
+    ReconnectInterval 0
+    LogSendErrors true
+    Prefix "collectd_"
+    StoreRates true
+    AlwaysAppendDS false
+    EscapeCharacter "_"
+  </Node>
+</Plugin>
+
+This is the same plug-in format we saw earlier.

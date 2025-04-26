@@ -1,0 +1,6 @@
+disabling fake raId would cause Windows to stop working, and you 
+might lose your data.
+
+The third RAID implementation type is via software contained in the Linux kernel. This system is called 
+md or multiple disk. The md system usually performs much better than fake RAID, and md RAID arrays are 
+transferable between hosts.

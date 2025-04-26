@@ -1,0 +1,7 @@
+This also means that you don’t 
+have to specify nfs1:/data/staff with your mount command. You will also not be able to see any other 
+directory in the /data directory when you mount nfs1:/.
+
+There are many other options that can be specified, and we suggest you read the man page for exports to 
+
+get further details.

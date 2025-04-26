@@ -1,0 +1,4 @@
+Whenever your system boots you will need to enter the password on the console as 
+the system boots up. That means that unattended reboots are not possible and that you will need console 
+access (physical or virtual) to enter it. One other problem is that the automation of installs is more difficult 
+as the passphrase has to be passed at install time and that passphrase could be intercepted.

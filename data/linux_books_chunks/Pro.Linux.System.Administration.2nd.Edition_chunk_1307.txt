@@ -1,0 +1,12 @@
+We do that by using the following ip link subcommand and then ip 
+addr show enp0s8:
+
+$ sudo ip link set dev enp0s8 up
+...
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group 
+default qlen 1000
+    link/ether 08:00:27:13:3c:00 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::a00:27ff:fe13:3c00/64 scope link
+       valid_lft forever preferred_lft forever
+
+Device enp0s8 now is UP and has been assigned a qdisc (pfifo_fast).

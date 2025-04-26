@@ -1,0 +1,12 @@
+Recurring  jobs  are  better
+scheduled with cron. The next two sections will discuss both tools.
+
+194
+
+scheduling
+
+16.1. one time jobs with at
+
+16.1.1. at
+
+Simple scheduling can be done with the at command.

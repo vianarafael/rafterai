@@ -1,0 +1,9 @@
+Typing www.google.com is a lot more convenient than having to 
+remember 74.125.19.147 whenever you want to do a web search. The addresses for these DNS servers are 
+stored in the /etc/resolv.conf file. We’ve included ours in Listing 10-7; yours will, of course, be different.
+
+429
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Listing 10-7.

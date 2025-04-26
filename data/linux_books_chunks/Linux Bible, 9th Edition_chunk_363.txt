@@ -1,0 +1,6 @@
+For applications that 
+are not available in Linux, you can often run a Windows application in Linux using Windows 
+ compatibility software.
+
+The goal of this chapter is to familiarize you with the concepts related to Linux desktop systems 
+and to give you tips for working with a Linux desktop.

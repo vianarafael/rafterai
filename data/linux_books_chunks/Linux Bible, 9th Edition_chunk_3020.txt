@@ -1,0 +1,17 @@
+(If the printer is not yet conﬁ gured, refer 
+to the section “Setting Up Printers” earlier in this chapter.)
+
+5.  Choose the Policies heading, and select Shared so a check mark appears in the box.
+
+442
+
+ 
+ 
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 443
+
+Chapter 16: Confi guring a Print Server
+
+6.

@@ -1,0 +1,9 @@
+You can reduce this download time by increasing the expire time (in the /etc/yum.conf fi le) or by not 
+enabling repositories you don’t need.
+
+Searching for packages
+Using different searching subcommands, you can ﬁ nd packages based on key words,  package 
+contents, or other attributes.
+
+Let’s say you want to try out a different text editor, but you can’t remember the name of 
+the one you wanted.

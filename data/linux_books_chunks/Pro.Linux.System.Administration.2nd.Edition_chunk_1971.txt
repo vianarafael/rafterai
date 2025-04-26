@@ -1,0 +1,10 @@
+If you do want to add a full GUI, you should be able to install the unity8-desktop-session-mir 
+package.
+
+When installation is complete, start the display manager via sudo service lightdm start and log in 
+
+with your username and password.
+
+It is very easy to access the Ubuntu Software store, you access it from the icon shown in Figure 8-25.
+
+Figure 8-25.

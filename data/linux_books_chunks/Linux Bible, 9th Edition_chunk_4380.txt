@@ -1,0 +1,9 @@
+Each PAM module in the stack is invoked in the order it is listed.
+
+4.  Each PAM module returns either a success or failure status.
+
+5.  The stack continues to be read in order and is not necessarily stopped by a single 
+
+returned failure status.
+
+6.

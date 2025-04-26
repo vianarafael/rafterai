@@ -1,0 +1,7 @@
+See Chapter 11 for information on conﬁ g-
+uring users and groups.
+
+ ■ Manage security—You must have a basic understanding of how to set up a ﬁ rewall 
+(firewalld, system-config-firewall or iptables) and how to use SELinux. 
+You must be able to set up SSH to do key-based authentication. Learn about 
+SELinux in Chapter 24. Firewalls are covered in Chapter 25.

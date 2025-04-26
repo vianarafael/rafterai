@@ -1,0 +1,8 @@
+You are free to explore others at your leisure.
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+HOW VAGRANT INTEGRATES WITH VIRTUALBOX
+
+What we are going to do through this exercise is initialize a Vagrant configuration file, make some edits 
+to that file, then use the Vagrant ClI to start that VirtualBox virtual machine.

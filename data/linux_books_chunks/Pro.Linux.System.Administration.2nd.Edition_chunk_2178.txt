@@ -1,0 +1,22 @@
+Other 
+information that can be useful diagnosing capacity problems are “Free inodes” and “Free blocks.” “Last write 
+time,” “Last mount time,” and “Last mounted on” can also be useful.
+
+ ■ Note  We’ll take a closer look at some of the filesystem features in Chapter 17 when we cover capacity 
+planning and performance.
+
+372
+
+We are now going to use tune2fs to set the reserved blocks percentage to 0, as we don’t need reserved 
+
+space on this partition.
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+$ sudo tune2fs -m 0 /dev/sdb2
+tune2fs 1.42.9 (28-Dec-2013)
+Setting reserved blocks percentage to 0% (0 blocks)
+
+Table 9-3 lists the options for tune2fs that you’re most likely to use.
+
+Table 9-3.

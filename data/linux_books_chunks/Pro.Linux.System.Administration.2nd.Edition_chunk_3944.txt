@@ -1,0 +1,7 @@
+So if we make the following SSH connection:
+
+$ ssh somehost@example.com ls –l /tmp
+
+the variable $SSH_ORIGINAL_COMMAND will hold the value ls –l /tmp. When presented with an SSH key, 
+
+we can now test that variable and decide whether it’s the kind of command we will accept this key to use.

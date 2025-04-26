@@ -1,0 +1,11 @@
+This command tells the 
+
+kernel it can use the specified partition as swap space.
+
+$ sudo swapon /dev/sdb1
+
+This command will complete without printing anything, but you can check dmesg for information on 
+what happened. Pipe the output into tail, to limit the number of lines displayed to the specified number.
+
+$ sudo dmesg | tail -n 1
+[13066.031700] Adding 2096124k swap on /dev/sdb1.

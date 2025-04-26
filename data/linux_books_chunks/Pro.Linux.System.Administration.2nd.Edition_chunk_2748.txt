@@ -1,0 +1,6 @@
+We will look at configuration management service later in Chapter 19.
+
+Using SSH Agent
+However, we did still have to enter the password we set on the private SSH key. If you have to do this each 
+time you want to connect to a remote host, it defeats the purpose of setting up key-based authentication. 
+Enter the SSH agent, a small daemon that keeps unlocked private SSH keys in memory.

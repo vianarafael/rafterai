@@ -1,0 +1,8 @@
+If there is a problem on a filesystem the system 
+will inform you that the filesystem could not be mounted and drop into a maintenance mode, as shown in 
+Figure 9-4.
+
+Figure 9-4.  A filesystem problem prevents an automatic mount
+
+You can press enter to access the maintenance mode and on that we are going to look at the journal log 
+(journalctl which is the systemd logging utility).

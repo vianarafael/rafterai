@@ -1,0 +1,6 @@
+The info grub command contains more details about GRUB.
+
+Booting with GRUB Legacy
+When you install Linux, you are typically given the option to conﬁ gure the  information 
+needed to boot your computer (with one or more operating systems) into the default 
+boot loader.

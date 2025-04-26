@@ -1,0 +1,8 @@
+One important security module is pam_cracklib.
+
+Enforcing good passwords with PAM
+When a password is modiﬁ ed, the PAM module pam_cracklib is involved in the process. 
+The module prompts the user for a password and checks its strength against a system 
+ dictionary and a set of rules for identifying poor choices.
+
+The pam_cracklib module is installed by default on Fedora and RHEL.

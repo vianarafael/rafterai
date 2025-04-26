@@ -1,0 +1,8 @@
+One can check if a specific module is 
+installed with:
+
+perl -MMODULENAME -e 1
+
+For an example application using perl modules see the Appendix.
+
+4.

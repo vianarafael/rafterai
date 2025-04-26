@@ -1,0 +1,9 @@
+This means we cannot use the X protocol; 
+therefore, we cannot open new X windows or terminals.
+
+Prevents interactive shell. This means the user with this key can only 
+run commands and not have an interactive shell.
+
+Chapter 14 ■ BaCkup and reCovery
+
+Table 14-1 is a subset of the complete options available.

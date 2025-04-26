@@ -1,0 +1,2 @@
+Verify the permissions on /usr/bin/passwd. Remove the setuid, then try changing your
+password as a normal user.

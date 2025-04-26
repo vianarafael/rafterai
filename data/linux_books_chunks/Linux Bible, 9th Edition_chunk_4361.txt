@@ -1,0 +1,6 @@
+This gives you the ﬂ exibility and variety you need in order to implement the 
+cryptology standards your particular organization requires.
+
+Using Encryption from the Desktop
+The Passwords and Keys window provides a means of viewing and managing keys and  passwords 
+from the GNOME desktop.

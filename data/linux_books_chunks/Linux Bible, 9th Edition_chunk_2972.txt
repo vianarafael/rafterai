@@ -1,0 +1,14 @@
+Be sure that the fi le remains readable only by root.
+
+The following is an example of the SMB URI you could add to the SMB:// box:
+
+jjones:my9passswd@FSTREET/NS1/hp
+
+The URI shown here identiﬁ es the username (jjones), the user’s password (my9passswd), 
+the workgroup (FSTREET), the server (NS1), and the printer queue name (hp).
+
+Complete the rest of the procedure as you would for a local printer (see the section “Adding 
+a local printer” earlier in this chapter).
+
+If everything is set up properly, you can use the standard lpr command to print the ﬁ le to 
+the printer.

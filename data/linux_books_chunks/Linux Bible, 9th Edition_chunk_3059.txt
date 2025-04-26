@@ -1,0 +1,7 @@
+Apache soon replaced NCSA HTTPD as the most 
+popular web server, a title it still holds today.
+
+The Apache Group later formed the Apache Software Foundation (ASF) to promote the 
+development of Apache and other free software. With the start of new projects at ASF, 
+the Apache server became known as Apache HTTPD, although the two terms are still used 
+interchangeably.

@@ -1,0 +1,13 @@
+The command line also offers some powerful tools that can make your 
+administration tasks faster and more effective.
+
+104
+
+ChapTeR 4 ■ LInux BasICs
+
+ This is not to say we’re going to ignore the GuI. We’ll also show you how to administer your Linux 
+
+ ■ Note 
+host using GuI tools.
+
+Let’s take a look at the Linux command line. You can access the command line in one of several ways.

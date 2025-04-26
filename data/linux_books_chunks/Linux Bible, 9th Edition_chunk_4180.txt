@@ -1,0 +1,2 @@
+The audit daemon tracks the ﬁ le by its 
+inode number.

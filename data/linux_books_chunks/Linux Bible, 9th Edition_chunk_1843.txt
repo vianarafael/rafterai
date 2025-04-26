@@ -1,0 +1,7 @@
+In other words, turn on the computer, and if 
+it hits the NIC in its boot order, a few minutes later you can have a freshly installed 
+system, conﬁ gured to your exact speciﬁ cations without intervention.
+
+ ■ Satellite server (Spacewalk)—Red Hat Enterprise Linux systems can be deployed 
+using what is referred to as Satellite Server (the open source project is called 
+Spacewalk).

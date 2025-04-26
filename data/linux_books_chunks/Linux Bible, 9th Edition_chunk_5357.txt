@@ -1,0 +1,26 @@
+Using any FTP client you choose, download the man-pages-3.78.tar.gz ﬁ le 
+from the kernel.org directory you just visited to the /tmp directory on your 
+local system.
+
+# lftp ftp://kernel.org/pub/linux/docs/man-pages
+cd ok, cwd=/pub/linux/docs/man-pages
+lftp kernel.org:man-pages> get man-pages-3.78.tar.gz
+1739208 bytes transferred in 4 seconds (481.0K/s)
+lftp kernel.org:man-pages> quit
+
+B
+
+821
+
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 822
+
+Appendix B: Exercise Answers
+
+Chapter 19: Confi guring a Windows File Sharing 
+(Samba) Server
+
+1.

@@ -1,0 +1,4 @@
+In the preceding code, we first created two 
+
+partitions, /boot and /, both ext4. We specified a size of 150MB for the /boot partition and a size of 4000MB 
+(or 4GB) for the / or root partition.

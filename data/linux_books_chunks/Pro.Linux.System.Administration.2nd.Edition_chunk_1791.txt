@@ -1,0 +1,9 @@
+This is how we did it in Figure 8-1.
+
+Figure 8-1.  Finding Application Installer on CentOS
+
+This tool is very easy to use, as we demonstrate in the next sections.
+
+The Application Installer
+The Application Installer has a simple interface and may be similar to many other app installer interfaces 
+you might have seen.

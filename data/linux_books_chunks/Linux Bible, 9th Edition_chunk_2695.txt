@@ -1,0 +1,2 @@
+The following is a partial example of the httpd script 
+on a Linux system that uses the SysVinit daemon.

@@ -1,0 +1,9 @@
+JobId=15
+
+Here you can see our job being scheduled and run with the DBLinux FileSet. As this job runs, we can 
+
+follow it in /var/log/bareos/bareos.log, and we can see the databases being backed up here:
+
+11-Oct 22:29 example-sd JobId 15: Ready to append to end of Volume "Full-0004" 
+size=145926917
+11-Oct 22:29 headoffice-fd JobId 15:      /var/lib/nfs/rpc_pipefs is a different filesystem.

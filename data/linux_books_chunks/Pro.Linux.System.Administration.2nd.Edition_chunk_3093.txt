@@ -1,0 +1,10 @@
+We need to issue the following:
+
+$ sudo yum install epel-release
+
+Then we need to install the python-certbot-apache package.
+
+$ sudo yum install python-certbot-apache
+
+For Apache HTTPS on CentOS, we require that the mod_ssl package be installed. On Ubuntu the 
+SSL module is part of the core Apache packages.

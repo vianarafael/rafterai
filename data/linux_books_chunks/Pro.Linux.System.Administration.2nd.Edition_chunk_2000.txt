@@ -1,0 +1,34 @@
+Output of the dpkg -p Command
+
+$ dpkg -p adduser
+Package: adduser
+Priority: required
+Section: admin
+Installed-Size: 648
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Architecture: all
+Multi-Arch: foreign
+Version: adduser-3.113+nmu3ubuntu4
+Replaces: manpages-it (<< 0.3.4-2), manpages-pl (<= 20051117-1)
+Depends: perl-base (>= 5.6.0), passwd (>= 1:4.1.5.1-1.1ubuntu6), debconf | debconf-2.0
+Suggests: liblocale-gettext-perl, perl-modules, ecryptfs-utils (>= 67-1)
+Filename: pool/main/a/adduser/adduser_3.113+nmu3ubuntu4_all.deb
+Size: 161698
+MD5sum: 36f79d952ced9bde3359b63cf9cf44fb
+Description: add and remove users and groups
+Original-Maintainer: Debian Adduser Developers <adduser-devel@lists.alioth.debian.org>
+SHA1: 6a5b8f58e33d5c9a25f79c6da80a64bf104e6268
+SHA256: ca6c86cb229082cc22874ed320eac8d128cc91f086fe5687946e7d05758516a3
+
+346
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Homepage: http://alioth.debian.org/projects/adduser/
+Description-md5: 7965b5cd83972a254552a570bcd32c93
+Supported: 5y
+Task: minimal
+
+The adduser package contains commands for user management on your system.

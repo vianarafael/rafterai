@@ -1,0 +1,10 @@
+For 
+example, if you wanted to share a directory, /mystuff, you would create that directory 
+with the proper permissions and run the following command to make it available for read/
+write access from Samba:
+
+# semanage fcontext -a -t samba_share_t "/mystuff(/.*)?"
+# restorecon -v /mystuff
+
+After those commands are run, the /mystuff directory, along with any ﬁ les and directories 
+below that point, have the ﬁ le context of samba_share_t.

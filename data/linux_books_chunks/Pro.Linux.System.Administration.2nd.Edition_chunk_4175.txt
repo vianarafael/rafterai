@@ -1,0 +1,3 @@
+We have 
+set our pools to different values: we want to keep the data in our full volumes for 12 months and 90 days for 
+differentials and our incremental volumes for 30 days. You may want to consider longer retention periods.

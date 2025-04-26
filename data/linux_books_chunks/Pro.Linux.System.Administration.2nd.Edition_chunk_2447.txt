@@ -1,0 +1,6 @@
+The same access levels are defined for IPv4 and 
+
+IPv6 clients here, by using the -4 and -6 parameters.
+
+default is a wildcard keyword that matches all possible addresses. Kod, “kiss-of-death” is used to slow 
+down clients that exceed a defined rate limit, by sending a special response packet.

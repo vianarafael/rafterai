@@ -1,0 +1,6 @@
+In other words, being assigned user or group permissions with setfacl does 
+not give you permission to change ACLs on those ﬁ les yourself.
+
+ ■ Because multiple users and groups can be assigned to a ﬁ le/directory, the actual 
+permission a user has is based on a union of all user/group designations to which 
+they belong.

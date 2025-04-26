@@ -1,0 +1,14 @@
+# chntpw
+
+
+- List all users in the SAM file:
+
+`chntpw -l {{path/to/sam_file}}`
+
+- Edit user interactively:
+
+`chntpw -u {{username}} {{path/to/sam_file}}`
+
+- Use chntpw interactively:
+
+`chntpw -i {{path/to/sam_file}}`

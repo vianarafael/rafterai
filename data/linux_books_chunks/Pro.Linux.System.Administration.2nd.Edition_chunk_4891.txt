@@ -1,0 +1,19 @@
+collectd.conf Configuration Global Options
+
+#Hostname "localhost"
+FQDNLookup true
+#BaseDir "/var/lib/collectd"
+#PluginDir "/usr/lib/collectd"
+#TypesDB "/usr/share/collectd/types.db" "/etc/collectd/my_types.db"
+#AutoLoadPlugin false
+#CollectInternalStats false
+#Interval 10
+#MaxReadInterval 86400
+#Timeout         2
+#ReadThreads     5
+#WriteThreads    5
+#WriteQueueLimitHigh 1000000
+#WriteQueueLimitLow   800000
+
+The Global options for Collectd apply to the Collectd service itself and define things like the base 
+directory, plug-in directory, interval and read/write threads, and queue limits.

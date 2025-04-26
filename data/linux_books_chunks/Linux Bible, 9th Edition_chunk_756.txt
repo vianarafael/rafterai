@@ -1,0 +1,7 @@
+The help command works with the 
+bash shell only.
+
+ ■ Use --help with the command. Many commands include a --help option that 
+you can use to get information about how the command is used. For example, if 
+you type date --help | less, the output shows not only options, but also time 
+formats you can use with the date command.

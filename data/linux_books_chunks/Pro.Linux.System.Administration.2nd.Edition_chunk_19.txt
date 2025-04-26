@@ -1,0 +1,4 @@
+The kernel contains software that allows you to make use of your hard disk drives, network 
+cards, RAM, and other hardware components. In the Linux world, the kernel is based on code originally 
+developed by the founder of Linux, Finnish developer Linus Torvalds. The kernel is now maintained by a 
+community of open source developers, and changes go through a software life-cycle process.

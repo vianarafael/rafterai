@@ -1,0 +1,8 @@
+For example, suppose that you want to remove write permission for “other” 
+without changing any other permission bits on a set of ﬁ les and directories. You could do 
+the following:
+
+$ chmod -R o-w $HOME/myapps
+
+This example recursively removes write permissions for “other” on any ﬁ les and directories 
+below the myapps directory.

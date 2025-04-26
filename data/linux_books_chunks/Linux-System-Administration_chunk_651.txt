@@ -1,0 +1,13 @@
+This will boot the
+kernel in single user mode (although some distributions will still require you to type the
+root password.
+
+kernel  /boot/vmlinuz-2.6.17-2-686 root=/dev/hda1 ro single
+
+Another option to reset a root password is to use an init=/bin/bash parameter.
+
+kernel  /boot/vmlinuz-2.6.17-2-686 root=/dev/hda1 ro init=/bin/bash
+
+Note that some distributions will disable this option at kernel compile time.
+
+14.2.8.

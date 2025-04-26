@@ -1,0 +1,16 @@
+In this chapter you:
+
+ ■ Step through the desktop features and technologies that are available in Linux
+
+ ■ Tour the major features of the GNOME desktop environment
+
+ ■ Learn tips and tricks for getting the most out of your GNOME desktop experience
+
+29
+
+c02.indd  04/01/2015  Page 30
+
+Part I: Getting Started
+
+To use the descriptions in this chapter, I recommend you have a Fedora system running in 
+front of you.

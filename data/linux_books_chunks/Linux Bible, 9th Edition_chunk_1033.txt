@@ -1,0 +1,7 @@
+You can also put them 
+in the background and bring them to the foreground. This chapter describes tools such as ps, top, 
+kill, jobs, and other commands for listing and managing processes.
+
+Understanding Processes
+A process is a running instance of a command. For example, there may be one vi command on the 
+system.

@@ -1,0 +1,13 @@
+We need to add the following to the modulepath directive:
+
+$ sudo vi /etc/puppetlabs/code/environments/production/environment.conf
+modulepath = ./sites:./modules:$basemodulepath
+
+941
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+MODULES
+
+in puppet you can create *.pp files that contain collections of resources, classes, and definitions, but 
+puppet has another, more complex type of collection called a module.

@@ -1,0 +1,8 @@
+Bareos common configuration file definitions
+
+671
+
+Chapter 14 ■ BaCkup and reCovery
+
+As you can see in Figure 14-9, the Bareos /etc/bareos/bareos-dir.conf file for the Director will 
+contain information for the Storage daemon, the Client daemon, and the bconsole program.

@@ -1,0 +1,15 @@
+277
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+$ sudo /sbin/iptables –t filter –P INPUT DROP
+
+When we now list the INPUT chain in the filter table, the default policy is shown to be DROP.
+
+$ sudo iptables -L INPUT
+sudo /sbin/iptables -t filter -L --line-numbers
+Chain INPUT (policy DROP)
+num target     prot opt source    destination
+1  IPV4-INCOMING all --  anywhere   anywhere
+
+It is good practice and a good habit to remember to apply the policy of DROP to all your chains.

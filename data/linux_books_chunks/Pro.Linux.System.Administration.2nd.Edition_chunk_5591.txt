@@ -1,0 +1,5 @@
+Each Puppet client generates 
+a self-signed certificate that is then validated and authorized on the Puppet master.
+
+Thereafter, each client contacts the server—by default every 30 minutes, but this interval is 
+customizable—to confirm that its configuration is up-to-date.

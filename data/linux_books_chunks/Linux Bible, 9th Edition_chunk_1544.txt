@@ -1,0 +1,6 @@
+Read through the topics in this 
+section to get a greater understanding of speciﬁ c installation topics.
+
+Upgrading or installing from scratch
+If you have an earlier version of Linux already installed on your computer, Fedora, Ubuntu, 
+and other Linux distributions offer an upgrade option.

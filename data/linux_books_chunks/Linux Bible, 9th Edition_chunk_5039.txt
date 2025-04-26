@@ -1,0 +1,7 @@
+If you want to try it 
+yourself, OpenStack is available in the following ways:
+
+ ■ Linux distributions—Fedora, Ubuntu, and CentOS have free versions of OpenStack 
+
+that you can deploy yourself. Red Hat Enterprise Linux offers a version of 
+OpenStack that is available by subscription. It’s tricky to set up.

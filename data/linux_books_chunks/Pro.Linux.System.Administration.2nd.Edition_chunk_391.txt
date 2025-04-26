@@ -1,0 +1,4 @@
+The name of the VM will be in the form of directory_box name_random 
+numbers. You will be able to view this in your VirtualBox console (and change the settings just like any other 
+VirtualBox). We can see the network is being set up including the ports we will use for SSH (22 => 2222). 
+There is automatic port collision detection so instead of using port 2222, Vagrant chooses port 2203.

@@ -1,0 +1,11 @@
+If these lines get printed, you know the correct logic branch is being taken.
+
+ ■ You can use set -x near the beginning of the script to display each command that 
+
+is executed or launch your scripts using
+
+$ bash -x myscript
+
+ ■ Because useful scripts have a tendency to grow over time, keeping your code 
+
+ readable as you go along is extremely important.

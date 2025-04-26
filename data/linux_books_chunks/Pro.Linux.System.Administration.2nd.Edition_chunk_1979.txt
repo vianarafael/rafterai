@@ -1,0 +1,5 @@
+Updates view
+
+Again we see that we can refresh the listing, making sure we have the most recent list, by clicking the 
+
+reload icon in the top left.

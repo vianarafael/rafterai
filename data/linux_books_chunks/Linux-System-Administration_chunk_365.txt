@@ -1,0 +1,23 @@
+checking a file system
+
+The fsck command is a front end tool used to check a file system for errors.
+
+[root@RHEL4b ~]# ls /sbin/*fsck*
+/sbin/dosfsck  /sbin/fsck         /sbin/fsck.ext2  /sbin/fsck.msdos
+/sbin/e2fsck   /sbin/fsck.cramfs  /sbin/fsck.ext3  /sbin/fsck.vfat
+[root@RHEL4b ~]#
+
+The last column in /etc/fstab is used to determine whether a file system should be checked
+at boot-up.
+
+[paul@RHEL4b ~]$ grep ext /etc/fstab 
+/dev/VolGroup00/LogVol00   /             ext3    defaults        1 1
+LABEL=/boot                /boot         ext3    defaults        1 2
+[paul@RHEL4b ~]$
+
+Manually checking a mounted file system results in a warning from fsck.
+
+[root@RHEL4b ~]# fsck /boot
+fsck 1.35 (28-Feb-2004)
+e2fsck 1.35 (28-Feb-2004)
+/dev/sda1 is mounted.

@@ -1,0 +1,12 @@
+Here we are going to change the 
+first 2 GiB partition from a Linux filesystem type to a Linux swap.
+
+$ sudo gdisk /dev/sdb
+Command (? for help): t
+Partition number (1-3): 1
+Current type is 'Linux filesystem'
+Hex code or GUID (L to show codes, Enter = 8300): 8200
+Changed type of partition to 'Linux swap'
+
+Here we have used gdisk to manage our partition table and have issued the t option to change the 
+partition’s type code.

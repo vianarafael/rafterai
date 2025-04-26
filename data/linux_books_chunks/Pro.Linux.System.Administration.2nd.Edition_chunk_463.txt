@@ -1,0 +1,5 @@
+By default, most 
+distributions set a default path, usually containing the typical locations that contain executable binaries. 
+Most of the time you won’t need to set your path; the default path will be suitable. If you want to change 
+the path, you’ll need to update an environmental variable called $PATH. You can see what it is currently 
+set to by typing $ echo $PATH.

@@ -1,0 +1,10 @@
+We 
+covered firewalls and iptables in Chapter 7.
+
+We now have our own caching DNS server, which we can use to do lookups. We call it a caching DNS 
+server because it keeps the answers to any queries we do, so the next time we perform the same query, it can 
+respond immediately with the cached information.
+
+To make sure it works, we will query it directly, as shown in Listing 10-16.
+
+Listing 10-16.

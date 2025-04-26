@@ -1,0 +1,5 @@
+run sealert -l 8f52dd56-8025-4208-af41-7d296bdaa46b
+
+From the example, you can see that a Linux user attempted to log into an FTP service 
+(vsftpd) as a particular user. Because FTP uses clear text passwords, that action is consid-
+ered insecure and is, therefore, denied by SELinux.

@@ -1,0 +1,9 @@
+392     IN      MX      20 alt1.aspmx.l.google.com.
+<snip>
+google.com.             392     IN      MX      10 aspmx.l.google.com.
+
+;; AUTHORITY SECTION:
+google.com.             10736   IN      NS      ns4.google.com.
+google.com.             10736   IN      NS      ns3.google.com.
+google.com.             10736   IN      NS      ns1.google.com.
+google.com.

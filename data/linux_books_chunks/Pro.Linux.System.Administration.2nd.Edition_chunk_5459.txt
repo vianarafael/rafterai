@@ -1,0 +1,6 @@
+This allows you to manage and control changes to your environment and protects you against 
+accidental or malicious configuration changes.
+
+The third is testing your infrastructure just like you would your application code. Because configuration 
+management is just code, this makes testing your configurations easier and helps to ensure fewer bugs creep 
+into your production servers.

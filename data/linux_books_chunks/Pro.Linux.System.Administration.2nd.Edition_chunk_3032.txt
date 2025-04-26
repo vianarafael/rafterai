@@ -1,0 +1,2 @@
+One of the reasons for not using HTTPS on sites is that certificates 
+are too expensive and noncommercial certificates are not widely supported, as we have mentioned.

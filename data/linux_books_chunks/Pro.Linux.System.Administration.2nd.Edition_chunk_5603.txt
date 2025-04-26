@@ -1,0 +1,13 @@
+We’ll look at some of these collection types later in this chapter.
+
+938
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Installing Puppet
+Let’s start by installing Puppet. For Puppet, the client and server installations are slightly different, and we’ll 
+show you how to install each.
+
+The Puppet master will require at least 3Gb of memory for the JVM and operating system to have 
+
+enough room.

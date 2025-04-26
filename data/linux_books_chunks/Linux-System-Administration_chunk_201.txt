@@ -1,0 +1,12 @@
+practice : background processes
+
+1. Use the jobs command to verify whether you have any processes running in background.
+
+2. Use vi to create a little text file. Suspend vi in background.
+
+3. Verify with jobs that vi is suspended in background.
+
+4. Start find / > allfiles.txt 2>/dev/null in foreground. Suspend it in background before it
+finishes.
+
+5.

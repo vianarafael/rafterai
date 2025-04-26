@@ -1,0 +1,6 @@
+Use this command when applications 
+report that the disk is full, even if there is apparently a lot of free space left.
+
+You can check the cumulative size of a directory and all the files it contains with the du command. This 
+command needs to recursively scan files under the directory you’re running it on, so it may take a long time 
+to complete.

@@ -1,0 +1,2 @@
+We’re also going to change our default mailbox location from its existing location, either /var/mail or /var/
+spool/mail, to the user’s home directory.

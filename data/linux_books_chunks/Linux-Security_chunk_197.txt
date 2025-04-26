@@ -1,0 +1,18 @@
+The vipw
+tool will do proper locking of the file.
+
+[root@RHEL5 ~]# vipw /etc/passwd
+vipw: the password file is busy (/etc/ptmp present)
+
+25
+
+user passwords
+
+3.10. practice: user passwords
+
+1. Set the password for serena to hunter2.
+
+2. Also set a password for venus and then lock the venus user account with usermod. Verify
+the locking in /etc/shadow before and after you lock it.
+
+3.

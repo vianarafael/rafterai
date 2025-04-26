@@ -1,0 +1,20 @@
+We’ve entered the username of a user on the gateway 
+
+host, jsmith, and his password.
+
+722
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+The client will then connect, and you should be able to see a new interface (tun1, in our case).
+
+$ ip addr show tun0
+10: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UNKNOWN 
+qlen 100
+    link/none
+    inet 10.8.0.6 peer 10.8.0.5/32 scope global tun0
+       valid_lft forever preferred_lft forever
+
+The interface has the IP address of 10.9.0.6 issued by the gateway host (remember, we set our mobile 
+
+client VPN network as 10.9.0.0/24).

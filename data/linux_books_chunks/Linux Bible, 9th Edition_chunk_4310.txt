@@ -1,0 +1,4 @@
+The receiver can now read the decrypted ﬁ le.
+
+Notice in Step 3 that the private key is used ﬁ rst. In the description of asymmetric key 
+ cryptography, the public key was used ﬁ rst.

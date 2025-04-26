@@ -1,0 +1,5 @@
+a parent will send a wait system call 
+to the child process to read its exit status. if this does not happen, the process cannot be removed from 
+the process list and remains there. it is not necessarily a problem as it should be eventually reaped by 
+the parent or by systemd (init). in this state, it has already deallocated its memory and is not using 
+CpU.

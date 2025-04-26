@@ -1,0 +1,10 @@
+A snapshot Logical
+Volume will retain a copy of all changed files of the snapshotted Logical Volume.
+
+The example below creates a snapshot of the bigLV Logical Volume.
+
+[root@RHEL5 ~]# lvcreate -L100M -s -n snapLV vg42/bigLV
+  Logical volume "snapLV" created
+[root@RHEL5 ~]#
+
+You can see with lvs that the snapshot snapLV is indeed a snapshot of bigLV.

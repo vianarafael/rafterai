@@ -1,0 +1,11 @@
+We do that with the following command:
+
+$ sudo gluster volume create vol1 replica 3 \
+       au-mel-dfs-1:/data/brick1_r1/vol1 \
+       au-mel-dfs-2:/data/brick1_r1/vol1 \
+       au-mel-dfs-3:/data/brick1_r1/vol1
+volume create: vol1: success: please start the volume to access data
+
+620
+
+We have created a new Gluster volume called vol1. It is going to replicate each file over the three bricks.

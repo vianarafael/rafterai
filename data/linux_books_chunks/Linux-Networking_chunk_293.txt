@@ -1,0 +1,18 @@
+Alice does
+not enter a passphrase.
+
+[alice@RHEL5 ~]$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/alice/.ssh/id_rsa): 
+Created directory '/home/alice/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/alice/.ssh/id_rsa.
+Your public key has been saved in /home/alice/.ssh/id_rsa.pub.
+The key fingerprint is:
+9b:ac:ac:56:c2:98:e5:d9:18:c4:2a:51:72:bb:45:eb alice@RHEL5
+[alice@RHEL5 ~]$
+
+You can use ssh-keygen -t dsa in the same way.
+
+5.5.2.

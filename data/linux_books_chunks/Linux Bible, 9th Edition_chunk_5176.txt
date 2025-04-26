@@ -1,0 +1,15 @@
+Follow these steps to create the /tmp/services ﬁ le, and then edit it so that 
+
+“WorldWideWeb” appears as “World Wide Web”.
+
+$ cp /etc/services /tmp
+$ vi /tmp/services
+/WorldWideWeb<Enter>
+cwWorld Wide Web<Esc>
+
+The next two lines show the before and after.
+
+http            80/tcp     www www-http    # WorldWideWeb HTTP
+http            80/tcp     www www-http    # World Wide Web HTTP
+
+2.

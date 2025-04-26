@@ -1,0 +1,6 @@
+However, you can also tell find to start at a particular point in the ﬁ lesystem, so the 
+search can go faster by limiting the area of the ﬁ lesystem being searched.
+
+Nearly any ﬁ le attribute you can think of can be used as a search option. You can search 
+for ﬁ lenames, ownership, permission, size, modiﬁ cation times, and other attributes. You 
+can even use combinations of attributes.

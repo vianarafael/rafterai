@@ -1,0 +1,24 @@
+In both cases, the 
+images are saved to the Pictures folder in your home folder.
+
+B
+
+783
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 784
+
+Appendix B: Exercise Answers
+
+Chapter 3: Using the Shell
+
+1.  To switch virtual consoles and return to the desktop:
+
+a. Hold Ctrl+Alt and press F2 (Ctrl+Alt+F2). A text-based console should appear.
+
+b.

@@ -1,0 +1,6 @@
+It is said that UEFI is more like a modern operating system than the old 
+BIOS; it can even run nicer graphical interfaces with mouse and keyboard support.
+
+One of the ways that malware can be loaded on a system is via the boot loader. UEFI offers “secure boot” 
+that is designed to protect against this by verifying signed boot loaders and hardware via public/private keys 
+before loading them.

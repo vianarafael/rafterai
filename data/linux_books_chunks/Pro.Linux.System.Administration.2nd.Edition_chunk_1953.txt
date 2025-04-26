@@ -1,0 +1,6 @@
+Further repositories may also be defined in the 
+/etc/apt/sources.list.d/ directory.
+
+generally, separate repositories exist for different distributions, and within these distributions different 
+repositories exist for each version of a distribution. A further set of repositories exists for different types 
+of software. Sounds complicated? Well, it isn’t when you break it down.

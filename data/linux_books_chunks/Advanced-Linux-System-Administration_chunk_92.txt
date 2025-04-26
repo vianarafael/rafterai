@@ -1,0 +1,2 @@
+However if we apply the patch from the /usr/src/linux-2.4.21 directory then we need to 
+strip the first part of all the paths in the patch.

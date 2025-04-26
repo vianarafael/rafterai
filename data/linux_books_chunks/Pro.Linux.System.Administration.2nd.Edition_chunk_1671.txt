@@ -1,0 +1,9 @@
+Then you could use the following in your /etc/network/interfaces file to activate your rules and save them 
+again.
+
+auto enp0s3
+iface enp0s3 inet dhcp
+  pre-up iptables-restore < /etc/network/firewall
+  post-down iptables-save -c > /etc/network/firewall
+
+Here we have a standard interface configuration for enp0s3.

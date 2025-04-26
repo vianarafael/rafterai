@@ -1,0 +1,5 @@
+We 
+
+first specify that we are performing a simple bind with verbose output, and we want to be prompted for a 
+password, -xvW. -h declares the host we want to connect to, and -Z says try to make a connection using TLS 
+(a -ZZ would mean to confirm that the TLS connection was successful before proceeding).

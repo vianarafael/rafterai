@@ -1,0 +1,14 @@
+A 
+screen similar to the one shown in Figure 16.1 appears.
+
+FIGURE 16.1
+
+CUPS provides a web-based administration tool.
+
+426
+
+c16.indd  04/01/2015  Page 427
+
+Chapter 16: Confi guring a Print Server
+
+By default, web-based CUPS administration is available only from the local host.

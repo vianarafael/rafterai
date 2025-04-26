@@ -1,0 +1,19 @@
+Using the printing window, set the basic server setting that publishes your printers 
+
+so other systems on your local network can print to your printers.
+
+446
+
+ 
+ 
+ 
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 447
+
+Chapter 16: Confi guring a Print Server
+
+7.  Allow remote administration of your system from a web browser.
+
+8.

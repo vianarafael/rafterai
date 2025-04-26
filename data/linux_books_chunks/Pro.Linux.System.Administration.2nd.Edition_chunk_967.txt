@@ -1,0 +1,8 @@
+every time the host is rebooted, an entry is logged that 
+gives the time of the reboot and the version of the kernel into which the host was booted.
+
+the lastb command produces the same style of report but lists only those logins that were “bad.” 
+In other words, it lists those logins in which an incorrect password was entered, or some other error 
+resulted in a failure to log in.
+
+related to the last and lastb commands is the lastlog command.

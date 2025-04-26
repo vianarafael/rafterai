@@ -1,0 +1,7 @@
+This is often used to test version control system (VCS) branches of your 
+Puppet code or can be used to multihome your Puppet master for more than one organization.
+
+Do not fall into the mistake of making environments that mirror the roles your hosts may perform. That 
+
+is, don’t have an environment for development, UAT, staging, and production and assign relevant hosts 
+to those environments.

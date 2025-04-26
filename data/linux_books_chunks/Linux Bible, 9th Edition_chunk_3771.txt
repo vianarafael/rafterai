@@ -1,0 +1,10 @@
+The Setup screen tells you the type of system, its BIOS version, its processors, its 
+memory slots and types, whether it is 32-bit or 64-bit, which devices are in each 
+slot, and many details about the types of devices attached to the system.
+
+If you can’t get an operating system booted at all, the BIOS Setup screen may be 
+the only way to determine the system model, processor type, and other information 
+you need to search for help or call for support.
+
+ ■ To disable/enable a device—Most devices connected to your computer are enabled 
+and made available for use by the operating system.

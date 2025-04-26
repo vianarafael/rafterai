@@ -1,0 +1,3 @@
+display the new partition
+
+Let's verify again with fdisk -l to make sure reality fits our dreams.

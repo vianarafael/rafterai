@@ -1,0 +1,3 @@
+Notice that as you 
+open a new application, an icon representing that application appears in the Dash 
+bar on the left.

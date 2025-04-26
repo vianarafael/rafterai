@@ -1,0 +1,8 @@
+Your current directory 
+will be root’s home directory (probably /root), and things such as the root user’s PATH 
+variable are used. If you become the root user by just typing su, rather than su -, you 
+don’t change directories or the environment of the current login session.
+
+8
+
+You can also use the su command to become a user other than root.

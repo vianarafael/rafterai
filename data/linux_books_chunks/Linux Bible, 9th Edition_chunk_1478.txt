@@ -1,0 +1,7 @@
+English) and select Next. You should see the Installation summary 
+screen, as shown in Figure 9.2.
+
+5.  Select DATE & TIME. From the DATE & TIME screen, you can select your time zone 
+by either clicking the map or choosing the region and city from drop-down boxes. 
+To set the date and time, if you have an Internet connection, you can select the 
+Network Time button to turn it on.

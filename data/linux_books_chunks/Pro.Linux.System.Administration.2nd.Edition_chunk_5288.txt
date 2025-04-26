@@ -1,0 +1,14 @@
+Nagios configuration files are suffixed with .cfg, and the main 
+configuration file for Nagios is called nagios.cfg.
+
+881
+
+ 
+ 
+ 
+ 
+ 
+ 
+Chapter 18 ■ Logging and Monitoring
+
+Both CentOS and Ubuntu come with some sample configuration to help you get started with Nagios.

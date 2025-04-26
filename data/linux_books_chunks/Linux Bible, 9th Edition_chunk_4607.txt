@@ -1,0 +1,16 @@
+An example 
+of the semodule -l command is shown here:
+
+# semodule -l
+abrt          1.2.0
+accountsd     1.0.6
+acct          1.5.1
+...
+xserver       3.8.4
+zabbix        1.5.3
+zarafa        1.1.0
+zebra         1.12.0
+zoneminder    1.1.1
+zosremote     1.1.1
+
+Several tools can help you to manage and even create your own policy modules.

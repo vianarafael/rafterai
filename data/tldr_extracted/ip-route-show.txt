@@ -1,0 +1,6 @@
+# ip route show
+
+
+- View documentation for the original command:
+
+`tldr ip route list`

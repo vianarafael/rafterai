@@ -1,0 +1,14 @@
+You can override these by changing the permissions only for the more 
+speciﬁ c path to which you want to allow access.
+
+474
+
+c17.indd  04/01/2015  Page 475
+
+Chapter 17: Confi guring a Web Server
+
+ ■ Index not found—The “Directory index forbidden by rule” error indicates that 
+
+Apache could not ﬁ nd an index ﬁ le with a name speciﬁ ed in the DirectoryIndex 
+directive and was conﬁ gured to not create an index containing a list of ﬁ les in a 
+directory.

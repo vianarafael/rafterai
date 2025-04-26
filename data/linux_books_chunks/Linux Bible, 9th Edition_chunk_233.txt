@@ -1,0 +1,3 @@
+Although many other software licenses cover 
+slightly different approaches to protecting free software, the GPL is the most well known—
+and it’s the one that covers the Linux kernel itself.

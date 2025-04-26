@@ -1,0 +1,20 @@
+You  can  see  that  the
+round robin is still active for internal users, computers from 10.104.15.0/24 (Jesse) will
+always  receive  10.104.33.30  while  computers  from  10.104.42.0/24  (Keith)  will  receive
+10.104.33.31.
+
+root@debian7:/etc/bind# grep www db.paul.local db.paul.local.[jk]*
+db.paul.local:www               IN      A       10.104.33.30
+db.paul.local:www               IN      A       10.104.33.31
+db.paul.local.jesse:www         IN      A       10.104.33.30
+db.paul.local.keith:www         IN      A       10.104.33.31
+
+94
+
+advanced DNS
+
+95
+
+advanced DNS
+
+5.5.

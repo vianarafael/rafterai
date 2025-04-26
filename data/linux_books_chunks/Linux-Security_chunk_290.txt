@@ -1,0 +1,23 @@
+Make sure you have all rights to these files, and others can only read.
+
+chmod 644 (on files)
+
+chmod 755 (on directories)
+
+7. With chmod, is 770 the same as rwxrwx--- ?
+
+yes
+
+8. With chmod, is 664 the same as r-xr-xr-- ?
+
+No
+
+9. With chmod, is 400 the same as r-------- ?
+
+yes
+
+10. With chmod, is 734 the same as rwxr-xr-- ?
+
+no
+
+11a.

@@ -1,0 +1,6 @@
+The three computers 
+running Fedora 21 and the network connecting them are conﬁ gured as follows:
+
+ ■ Networking—A high-speed, wired network was set up to connect the three 
+
+ computers. Fast network connections are critical to successful VM migration.

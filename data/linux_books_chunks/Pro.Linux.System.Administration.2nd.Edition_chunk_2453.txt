@@ -1,0 +1,8 @@
+Microsoft and 
+Apple run time servers that are used by default by their respective operating systems, and many Linux 
+vendors do the same.
+
+However, when you want to add extra servers (using the server configuration) to your own ntp.conf 
+
+file, you will need to know their addresses. Luckily, there is an open source project that aims to provide 
+a pool of local NTP servers for all continents.

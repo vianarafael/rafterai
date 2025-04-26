@@ -1,0 +1,8 @@
+This is considered the strongest 
+
+access control model.
+
+ ■ It uses least privilege access for subjects (for example, users and processes). 
+
+The term least privilege means that every subject is given a limited set of privileges 
+that are only enough to allow the subject to be functional in its tasks.

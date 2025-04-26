@@ -1,0 +1,33 @@
+For 
+
+example, say we have a Windows list like the following that we have saved to a file called /etc/bareos/
+windows.list:
+
+File = "C:/"
+File = "D:/"
+
+In our FileSet we would include that file list like so:
+
+FileSet {
+  Name = "Windows All Drives"
+  Enable VSS = yes
+  Include {
+    Options {
+      Signature = MD5
+      Drive Type = fixed
+      IgnoreCase = yes
+      WildFile = "[A-Z]:/pagefile.sys"
+      WildDir = "[A-Z]:/RECYCLER"
+      WildDir = "[A-Z]:/$RECYCLE.BIN"
+      WildDir = "[A-Z]:/System Volume Information"
+      WildDir = "*/Cache/*"
+      WildDir = "*/cache/*"
+      Exclude = yes
+      }
+  @/etc/bareos/windows.list
+  }
+}
+
+Here we have included the C: and D: drives on our Windows host via the @/etc/bareos/windows.list 
+
+file.

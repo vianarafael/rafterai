@@ -1,0 +1,6 @@
+This is used by the mount command to choose which ﬁ lesystems to mount when 
+the system ﬁ rst boots.
+
+ ■ group—Identiﬁ es group names and group IDs (GIDs) that are deﬁ ned on the 
+
+ system.

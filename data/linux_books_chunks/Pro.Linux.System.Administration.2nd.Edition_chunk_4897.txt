@@ -1,0 +1,2 @@
+You might have records that are collected every second, and they can be stored at that 
+granularity in the RRD files.

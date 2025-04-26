@@ -1,0 +1,11 @@
+Finally we focus our attention on the “initial 
+ram disk” (or initial root device) initrd stage of the booting process. This will allow us to 
+make decisions as to when new initial ram disks need to be made.
+.    
+
+1. Customising the Boot Process
+
+Overview of init
+
+In order to prevent processes run by users from interfering with the kernel two distinct 
+memory areas are defined.

@@ -1,0 +1,4 @@
+If you have a restrictive ﬁ rewall, it may not permit  printing. 
+
+You must enable access to TCP port 631 to allow access to printing on your 
+ computer. The Printing window may prompt you at some point to open this port.

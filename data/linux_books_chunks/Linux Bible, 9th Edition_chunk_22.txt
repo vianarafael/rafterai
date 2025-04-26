@@ -1,0 +1,3 @@
+Discussions with Victor Costea, 
+Andrew Blum, and other Red Hat instructors have helped me adapt my ways of thinking 
+about how people learn Linux.

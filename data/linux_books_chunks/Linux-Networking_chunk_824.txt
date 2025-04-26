@@ -1,0 +1,14 @@
+To enable the tool, first find
+out whether your system is using the inetd or the xinetd superdaemon.
+
+[root@RHEL4b samba]# ps fax | grep inet
+ 15026 pts/0    S+     0:00                      \_ grep inet
+  2771 ?        Ss     0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+ [root@RHEL4b samba]#
+
+Then edit the inetd.conf or change the disable = yes line in /etc/xinetd.d/swat to disable
+= no.
+
+[root@RHEL4b samba]# cat /etc/xinetd.d/swat 
+# default: off
+# description: SWAT is the Samba Web Admin Tool.

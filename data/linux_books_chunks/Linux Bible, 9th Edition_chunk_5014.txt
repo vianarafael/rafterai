@@ -1,0 +1,8 @@
+If you are not 
+familiar with yaml, I recommend digging around the Yaml Project site (https://github.com/yaml). 
+
+27
+
+Adding ssh keys with cloud-init
+Instead of using passwords to log into your cloud instances, you can use key-based authen-
+tication along with the ssh command to log in over the network.

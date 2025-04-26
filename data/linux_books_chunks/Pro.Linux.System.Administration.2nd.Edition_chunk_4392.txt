@@ -1,0 +1,6 @@
+A number of clients are available, ranging from the normal OpenVPN binary right 
+through to sophisticated GUI clients. We’ll provide a list of some of the available clients in this section, and 
+we’ll show you how to connect via OpenVPN.
+
+The simplest client is the OpenVPN binary. We will create and sign a key and certificate for mobile1.
+example.com like we have for our other TLS certificates.

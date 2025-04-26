@@ -1,0 +1,16 @@
+The $RPM_BUILD_ROOT is #taken as the root 
+directory
+%files 
+/tmp/etc/fstab
+%defattr(-,adrian,adrian)
+
+69
+
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+All that is left to do is to prepare the source. In this case we need to create a directory called 
+tmp-fstab-0.2 containing fstab.

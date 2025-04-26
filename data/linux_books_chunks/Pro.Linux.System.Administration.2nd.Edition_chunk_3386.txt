@@ -1,0 +1,7 @@
+Both types are specified 
+with the relayhost configuration option in the main.cf configuration file (see www.postfix.org/
+postconf.5.html#relayhost) like so, where mail.isp.net is the hostname of your smarthost:
+
+relayhost = mail.isp.net
+
+this will tell your postfix e-mail server to send all outgoing e-mail to mail.isp.net.

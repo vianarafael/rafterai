@@ -1,0 +1,5 @@
+These projects, referred to 
+as upstream software providers, usually make the software available to anyone who wants it, 
+under certain licensing conditions.
+
+A Linux distribution takes the source code and builds it into binaries.

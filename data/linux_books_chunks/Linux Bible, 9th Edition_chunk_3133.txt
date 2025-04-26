@@ -1,0 +1,4 @@
+Conﬁ guration 
+ﬁ les are often associated with Apache modules (which are often included in the  software 
+package with a module) or with virtual host blocks (which you might add yourself to 
+virtual host conﬁ gurations in separate ﬁ les).

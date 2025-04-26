@@ -1,0 +1,6 @@
+The nine fields contain (from
+left to right) the user name, the encrypted password (note that only inge and laura have an
+encrypted password), the day the password was last changed (day 1 is January 1, 1970),
+number of days the password must be left unchanged, password expiry day, warning number
+of days before password expiry, number of days after expiry before disabling the account,
+and the day the account was disabled (again, since 1970).

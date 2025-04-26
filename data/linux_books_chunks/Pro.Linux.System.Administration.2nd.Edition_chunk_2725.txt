@@ -1,0 +1,4 @@
+It 
+then offered this host the address 192.168.0.200 and was told the host’s name is au-mel-centos-2. Next, you 
+can see the name server adding an A and a TXT record for the au-mel-centos-2.example.com FQDN. The 
+TXT entry contains a checksum that is used to track whether a DNS entry was created by the DHCP server.

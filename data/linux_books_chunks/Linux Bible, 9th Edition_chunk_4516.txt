@@ -1,0 +1,6 @@
+The name given depends upon what object or subject it 
+has been assigned: Files have a ﬁ le context, users have a user context, and processes have a 
+process context, also called a “domain.”
+
+The rules allowing access are called “allow rules” or “policy rules.” A policy rule is the 
+ process SELinux follows to grant or deny access to a particular system security type.

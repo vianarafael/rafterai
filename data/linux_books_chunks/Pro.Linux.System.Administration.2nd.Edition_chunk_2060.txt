@@ -1,0 +1,11 @@
+We name it (-n) nginx and give the 
+version (-v) or 1-10.1. And finally we tell FPM to change to the (-C /tmp/installdir) and package up 
+whatever is in that directory.
+
+This creates a nginx_1-10.1_amd64.deb package in the local directory. You can now install that with the 
+
+dpkg command.
+
+$ sudo dpkg -i nginx_1-10.1_amd64.deb
+Selecting previously unselected package nginx.
+(Reading database ...

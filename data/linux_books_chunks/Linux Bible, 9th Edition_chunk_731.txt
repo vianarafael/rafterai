@@ -1,0 +1,8 @@
+For example, type the following 
+to edit and add stuff to your $HOME/.bashrc ﬁ le:
+
+$ nano $HOME/.bashrc
+
+With the ﬁ le open in nano, move the cursor down to the bottom of the ﬁ le (using the down 
+arrow key). Type the line you want (for example, you could type alias d='date +%D'). 
+To save the ﬁ le, press Ctrl+O (the letter O); to quit, press Ctrl+X.

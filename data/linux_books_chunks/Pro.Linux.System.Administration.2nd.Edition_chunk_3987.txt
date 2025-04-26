@@ -1,0 +1,4 @@
+We can use this 
+error-check function to test for the success or failure of any other function that exits with a zero on success.
+The get_sales function declared in lines 31–33 describes the rsync function that calls the rsync 
+command and syncs the /data/staff/sales directory to the /data/backups/<hostname> directory.

@@ -1,0 +1,21 @@
+When the script runs, it should output information that looks as 
+follows:
+
+Today is Sat Dec 10 15:45:04 EDT 2016.
+You are in /home/joe and your host is abc.example.com.
+
+790
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 791
+
+Appendix B: Exercise Answers
+
+The following steps show one way to create the script named myownscript:
+
+a.

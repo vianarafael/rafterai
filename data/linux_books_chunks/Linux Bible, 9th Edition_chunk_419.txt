@@ -1,0 +1,9 @@
+Use arrow keys to move up and down that menu, and press Enter to open the 
+highlighted application.
+
+ ■ Windows—Selects the Windows view.
+
+ ■ Applications—Selects the Applications view.
+
+ ■ Search—Highlights the search box. Type a few letters to show only icons for 
+applications that contain the letters you type.

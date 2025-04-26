@@ -1,0 +1,23 @@
+Logical
+volumes
+(lv)
+
+/dev/mapper/vg_abc-lv_root
+/dev/mapper/vg_abc-lv_home
+/dev/mapper/vg_abc-lv_swap
+
+Volume group
+(vg)
+
+vg_abc
+
+/dev/sda1
+
+Physical
+volume
+(pv)
+
+/dev/sda2
+
+If you run out of space on any of the logical volumes, you can assign more space from 
+the volume group.

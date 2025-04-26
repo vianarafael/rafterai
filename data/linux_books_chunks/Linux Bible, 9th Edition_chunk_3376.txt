@@ -1,0 +1,5 @@
+Figure 18.3 shows an example of gFTP being used to 
+connect to a documentation directory at the site ftp://kernel.org.
+
+To traverse the FTP site from gFTP, just double-click folders (just as you would from a ﬁ le 
+manager window).

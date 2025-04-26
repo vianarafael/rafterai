@@ -1,0 +1,9 @@
+The RAID 
+
+controller combines multiple disks into a Redundant Array of Inexpensive Disks (RAID). We’ll talk more 
+about RAID later on in this chapter. To find out what the device nodes for the RAID array are, you can list all 
+block devices in the /dev/ directory with the following command:
+
+$ ls -l /dev | grep ^b
+
+This command will list only lines starting with b.

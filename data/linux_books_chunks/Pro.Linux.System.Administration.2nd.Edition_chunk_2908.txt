@@ -1,0 +1,7 @@
+As 
+your web browser requests a page from such an application, the web server processes the code in the page 
+and displays the output to your browser. To be able to host these web applications, the web server needs to 
+be able to understand and execute PHP code.
+
+Executing PHP can be done two ways. You can add PHP support to Apache by installing a module and 
+using the prefork Apache MPM.

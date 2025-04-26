@@ -1,0 +1,4 @@
+If your computer has an Internet connection (plugging 
+into a wired Ethernet network or selecting an accessible wireless network from the 
+desktop takes care of that), you can simply open a Terminal as root and type yum 
+update to download and update all your packages from the Internet.

@@ -1,0 +1,8 @@
+Remember 
+
+that on Ubuntu the TLS files will have a different path.
+
+We handle authentications via our certificate names (x509/name). That means we verify our connection 
+
+to our peer by testing their common name in their TLS certificate. If it matches the peer backup.example.
+com, then we will permit the connection; if not, we will fail it.

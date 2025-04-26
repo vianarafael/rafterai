@@ -1,0 +1,7 @@
+security mask
+
+The security mask and directory security mask work in the same way as create mask
+and directory mask, but apply only when a windows user is changing permissions using
+the windows security dialog box.
+
+15.4.4.

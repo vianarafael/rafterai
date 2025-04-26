@@ -1,0 +1,7 @@
+You can still do so by removing /dev/md0 from the centos group via the vgreduce command:
+
+$ sudo vgreduce centos /dev/md0
+Removed "/dev/md0" from volume group "centos"
+
+It is now available to be used for a different volume group, which you create using the vgcreate 
+command. You will assign the /dev/md0 device to the new raid-volume volume group.

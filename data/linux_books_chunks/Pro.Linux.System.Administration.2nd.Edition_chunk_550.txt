@@ -1,0 +1,6 @@
+It only shows a list of 
+
+names. To find out some more information about this list, you can add switches to the ls command, as you 
+can see in Listing 4-8, to reveal more information.
+
+Listing 4-8.

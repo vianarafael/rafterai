@@ -1,0 +1,22 @@
+Let’s begin with the latter.
+
+/etc/bareos/bareos-sd.d/device-gluster.conf
+Device {
+  Name = GlusterStorage
+  Archive Device = "Gluster Device"
+  Device Options = "uri=gluster://storage.example.com/backups/FileStore"
+  Device Type = gfapi
+  Media Type = GlusterFile
+  Label Media = yes
+  Random Access = yes
+
+692
+
+Chapter 14 ■ BaCkup and reCovery
+
+  Automatic Mount = yes
+  Removable Media = no
+  Always Open = no
+}
+
+Once this is done, we can change bareos-dir.conf.

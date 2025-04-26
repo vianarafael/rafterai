@@ -1,0 +1,13 @@
+vgchange
+
+Use the vgchange command to change parameters of a Volume Group.
+
+This example shows how to prevent Physical Volumes from being added or removed to the
+Volume Group vg1.
+
+[root@RHEL5 ~]# vgchange -xn vg1
+  Volume group "vg1" successfully changed
+[root@RHEL5 ~]# vgextend vg1 /dev/sdg
+  Volume group vg1 is not resizable.
+
+You  can  also  use  vgchange  to  change  most  other  properties  of  a  Volume  Group.

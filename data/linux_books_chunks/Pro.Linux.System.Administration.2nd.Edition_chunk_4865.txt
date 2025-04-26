@@ -1,0 +1,5 @@
+vmstat with low disk I/O
+
+These two numbers tell you exactly how many blocks of data are being read from (bi) and written to 
+(bo) your disks during each interval. In our case, the system is reading more data from disk than it is writing 
+back, but both numbers are low.

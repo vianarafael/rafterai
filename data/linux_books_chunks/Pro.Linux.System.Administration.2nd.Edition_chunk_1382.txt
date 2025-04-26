@@ -1,0 +1,7 @@
+For more information, you can look at the documentation provided by the iputils 
+package that manages bonding on CentOS hosts, specifically the /usr/share/doc/iputils-<version>/
+README.bonding.
+
+What happens when you interface comes up is that your scripts (NetworkManager or ifup-eth scripts) 
+
+will insert the bonding module into the kernel.

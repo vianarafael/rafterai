@@ -1,0 +1,5 @@
+The Create 
+Samba Share window appears. Start by ﬁ lling in the folder name (select Choose to browse 
+for it), a name to represent the share, and a description. Then you want to choose whether 
+you want to let anyone write to it and whether you want the existence of the share to be 
+visible to anyone.

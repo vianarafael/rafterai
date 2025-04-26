@@ -1,0 +1,7 @@
+The 
+ﬁ nal  partition (/dev/sdc5) is assigned to the root ﬁ lesystem (/) and consumes all the 
+ remaining disk space.
+
+12
+
+Your drive might be assigned to a different device name.

@@ -1,0 +1,7 @@
+Waiting for the non-
+commercial distributions to release patches you are interested in can be hit and miss.
+
+Securing Your Boot Loader
+Having such a versatile and configurable boot loader can have its drawbacks. One of those we have 
+mentioned is security. An unsecured boot loader can be altered at boot time by any person with malicious 
+intent.

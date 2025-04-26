@@ -1,0 +1,17 @@
+If set to yes, then 
+this target unit, multi-user.target, is activated along with its dependencies 
+and all others are deactivated.
+
+ ■ ExecStart—This command starts the service.
+
+ ■ ExecReload—This command reloads the service.
+
+ ■ Alias—With this command, systemd creates a symbolic link from the target unit 
+
+names listed to this unit, multi-user.target.
+
+To get more information on these conﬁ guration ﬁ les and their options, enter man systemd
+.service, man systemd.target, and man systemd.unit at the command line.
+
+For the Linux server using systemd, the boot process is easier to follow now that you 
+understand systemd target units.

@@ -1,0 +1,11 @@
+SIGTERM will allow the process to close 
+down gracefully before exiting.
+
+You can read more about signals and what they do in the man 7 signal manual page.
+
+805
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+If you have a process that is using too much CPU time and interrupting more important processes, 
+you can try making it nicer, by lowering its priority.

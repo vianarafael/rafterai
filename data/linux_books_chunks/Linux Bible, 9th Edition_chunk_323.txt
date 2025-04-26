@@ -1,0 +1,8 @@
+Often, 
+the two exams are given on the same day.
+
+1
+
+You can sign up for RHCSA and RHCE training and exams at http://training.redhat.
+com. Training and exams are given at major cities all over the United States and around the 
+world.

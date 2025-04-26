@@ -1,0 +1,18 @@
+# The rsync command we will use.
+ 6. RSYNC='which rsync'
+ 7. RSYNC_OPTS="-av "
+ 8.
+ 9. # Host list - Bash array
+10. HOSTLIST='
+11. branch1.example.com
+12. branch2.example.com
+13. '
+14. # Back up directory on local host and source directory on remote host
+15. BACKUP_DIR='/data/backups/'
+16. SALES_DIR='/data/staff/sales'
+17.
+18. # excluded directory
+19. EXCLUDED="temp/"
+20.
+21. # error function
+22.

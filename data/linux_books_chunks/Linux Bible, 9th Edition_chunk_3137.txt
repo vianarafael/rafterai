@@ -1,0 +1,4 @@
+For example, a client could access a script located in /var/www/cgi-bin/script.
+cgi by entering a URL such as http://example.com/cgi-bin/script.cgi.
+
+In addition to ﬁ le locations, you can ﬁ nd other information in the httpd.conf ﬁ le.

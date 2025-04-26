@@ -1,0 +1,3 @@
+It also contains all system log ﬁ les (/var/log) and spool 
+ﬁ les in /var/spool (such as mail, cups, and news). The /var directory contains 
+directories and ﬁ les that are meant to change often.

@@ -1,0 +1,7 @@
+Multiple partitions can limit the effects 
+of deliberate damage (such as denial-of-service attacks), problems from errant users, and 
+ accidental ﬁ lesystem corruption.
+
+Using the GRUB boot loader
+A boot loader lets you choose when and how to boot the operating systems installed on your 
+computer’s hard disks.

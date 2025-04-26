@@ -1,0 +1,4 @@
+Normally, changes to environment variables change only the current session or script in which they are 
+being made. In order to use them in other sessions or scripts, you need to export them. To make a path or 
+other environmental change for all users, add the changes to the /etc/profile file or generally you would 
+add those to a file in the /etc/profile.d/ directory.

@@ -1,0 +1,9 @@
+AsyncRequestFactor can provide a fine-
+tuning of idle threads by limiting the number of concurrent connections.
+
+It is recommended that you use the mod_status module in conjunction with any metrics collection 
+
+tools available to you when measuring and tuning your Apache server.
+
+Access Restriction
+In the configuration section we talked about the use of the Require directive to limit access to a directory.

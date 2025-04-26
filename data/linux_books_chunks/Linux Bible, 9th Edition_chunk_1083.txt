@@ -1,0 +1,6 @@
+Job 2 shows the find command I just ran. 
+Jobs 3 and 4 show nroff commands currently running in the background. Job 5 had been 
+running in the shell (foreground) until I decided too many processes were running and 
+pressed Ctrl+Z to stop job 5 until a few processes had completed.
+
+The plus sign (+) next to number 5 shows that it was most recently placed in the  background.

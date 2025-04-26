@@ -1,0 +1,10 @@
+Even though SELinux comes preconﬁ g-
+ured, you may need to make some modiﬁ cations to meet your organization’s security needs. 
+
+695
+
+c24.indd  04/15/2015  Page 696
+
+Part V: Learning Linux Security Techniques
+
+Each component has its own conﬁ guration steps and settings to choose.

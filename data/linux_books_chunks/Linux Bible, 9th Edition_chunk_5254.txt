@@ -1,0 +1,54 @@
+Test that it worked by creating the /tmp/mydir/testing/ directory and /tmp/
+mydir/newfile.txt.
+
+[mary]$ mkdir /tmp/mydir
+[mary]$ setfacl -m d:u:adm:rwx /tmp/mydir
+[mjones]$ getfacl /tmp/mydir
+# file: tmp/mydir
+# owner: mjones
+# group: mjones
+user::rwx
+group::rwx
+other::r-x
+default:user::rwx
+default:user:adm:rwx
+default:group::rwx
+default:mask::rwx
+default:other::r-x
+[mjones]$ mkdir /tmp/mydir/testing
+[mjones]$ touch /tmp/mydir/newfile.txt
+[mjones]$ getfacl /tmp/mydir/testing/
+# file: tmp/mydir/testing/
+# owner: mjones
+# group: mjones
+user::rwx
+user:adm:rwx
+group::rwx
+mask::rwx
+other::r-x
+default:user::rwx
+default:user:adm:rwx
+default:group::rwx
+default:mask::rwx
+default:other::r-x
+[mjones]$ getfacl /tmp/mydir/newfile.txt
+# file: tmp/mydir/newfile.txt
+# owner: mjones
+# group: mjones
+user::rw-
+
+B
+
+801
+
+ 
+bapp02.indd  04/01/2015  Page 802
+
+Appendix B: Exercise Answers
+
+user:adm:rwx     #effective:rw-
+group::rwx       #effective:rw-
+mask::rw-
+other::r--
+
+Notice that the adm user effectively has only rw- permission.

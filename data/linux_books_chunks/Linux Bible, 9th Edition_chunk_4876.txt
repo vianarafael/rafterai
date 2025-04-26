@@ -1,0 +1,5 @@
+Our mini-PaaS, however, gets similar results.
+
+Setting Up a Small Cloud
+With three physical machines connected together on a network, you can illustrate some of 
+the basic concepts you need to understand to build your own cloud.

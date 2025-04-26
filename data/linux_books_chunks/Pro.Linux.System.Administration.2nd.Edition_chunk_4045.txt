@@ -1,0 +1,9 @@
+These should be included in .duply/nightly/pre or .duply/nightly/post files.
+
+Also, the output in the end of the create command tells us to make a safe copy of the whole profile 
+
+directory after the first backup as we may need it when we restore our systems.
+
+Configuring Duply Backups
+
+As we said previously, the create command will create a conf file in the profile directory.

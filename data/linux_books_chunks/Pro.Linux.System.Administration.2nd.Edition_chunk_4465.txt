@@ -1,0 +1,3 @@
+One side of the argument goes something 
+like this: “Once i access your database, i’ve got access to all your passwords.” The counter to this is, “if you’ve 
+got access to my database, the game is over anyway.

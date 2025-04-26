@@ -1,0 +1,14 @@
+Consider the following examples:
+
+ ■ x—Deletes the character under the cursor.
+
+ ■ X—Deletes the character directly before the cursor.
+
+ ■ d<?>—Deletes some text.
+
+ ■ c<?>—Changes some text.
+
+ ■ y<?>—Yanks (copies) some text.
+
+The <?> after each letter in the preceding list identiﬁ es the place where you can use a 
+movement command to choose what you are deleting, changing, or yanking.

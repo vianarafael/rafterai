@@ -1,0 +1,5 @@
+It does this because it is easier to manage several small files than one rather large file.
+
+There are two ways you can secure your data with Duplicity, one with GPG symmetric keys and the 
+other using GPG asymmetric keys. We are going to use symmetric keys, but if you have GPG asymmetric keys 
+available, please use those.

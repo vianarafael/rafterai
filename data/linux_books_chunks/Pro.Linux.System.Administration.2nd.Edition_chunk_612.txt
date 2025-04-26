@@ -1,0 +1,3 @@
+We explained that only the user who owns a file could change its permissions, and that groups 
+were collections of users. Groups are generally used to allow access to resources; for example, all users who 
+need to access a printer or a file share might belong to groups that provide access to these resources.

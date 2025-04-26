@@ -1,0 +1,8 @@
+2 joe joe 6 Dec 19 11:03 dir01
+----------. 1 joe joe 0 Dec 19 11:02 file01
+$ umask 000 ; touch file02 ; mkdir dir02 ; ls -ld file02 dir02
+drwxrwxrwx. 2 joe joe 6 Dec 19 11:00 dir02/
+-rw-rw-rw-. 1 joe joe 0 Dec 19 10:59 file02
+$ umask 022 ; touch file03 ; mkdir dir03 ; ls -ld file03 dir03
+drwxr-xr-x. 2 joe joe 6 Dec 19 11:07 dir03
+-rw-r--r--.

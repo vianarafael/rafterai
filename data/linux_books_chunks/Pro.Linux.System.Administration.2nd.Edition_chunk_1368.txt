@@ -1,0 +1,14 @@
+If no, they are not added.
+
+Set this device as a VLAN interface (‘yes’, ‘no’)
+
+Enable or disable the IPv6 configuration for this device.
+
+The options in Table 7-2 are just some of what can be set in your network connection profile; for a 
+full list of the options you can read the /usr/share/doc/initscripts-<version>/sysconfig.txt, where 
+<version> is the version number of the initscripts package.
+
+Creating Bonded Interfaces
+
+We are now going to take you through how to manually configure a bonded Ethernet device by setting 
+some options in the connection profile file.

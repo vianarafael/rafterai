@@ -1,0 +1,18 @@
+Let’s look at an example.
+
+$ cat *.txt | sort | uniq > text
+
+140
+
+ChapTeR 4 ■ LInux BasICs
+
+In this example we’ve asked the host to output all files with a suffix of .txt, sort them alphabetically, 
+delete duplicate lines (using the uniq command), and then output the result to a file called text (which 
+would be created if not present and overwritten if present).
+
+You can also redirect input as well as output.
+
+$ grep accounts < /etc/group > matched_accounts
+
+In the previous example, we’ve directed the file /etc/group into the grep command using the < 
+symbol.

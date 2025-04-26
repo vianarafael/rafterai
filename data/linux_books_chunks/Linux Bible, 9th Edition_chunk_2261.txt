@@ -1,0 +1,7 @@
+See the man page for 
+the service (for example, man rsyslogd) to see what options are supported.
+
+ ■ Port numbers—Packets of data go to and from your system over network  interfaces 
+
+through ports for each supported protocol (usually UDP or TCP). Most standard 
+ services have speciﬁ c port numbers that daemons listen to and clients connect to.

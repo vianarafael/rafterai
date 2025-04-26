@@ -1,0 +1,2 @@
+Security varies among Microsoft systems. Because DOS and Microsoft Windows began as 
+single-user systems, fi le ownership was not built into those systems when they were designed.

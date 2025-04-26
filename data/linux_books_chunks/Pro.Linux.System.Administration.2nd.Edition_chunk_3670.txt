@@ -1,0 +1,9 @@
+We have already 
+tested the SRV record (host -t SRV _kerberos._udp.samba.example.com.) in our DNS tests previously and 
+have confirmed that it is working for our KDC (Kerberos Domain Controller).
+
+600
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Let’s now test the implementation to make sure it is working correctly.

@@ -1,0 +1,5 @@
+If you pass the filesystem type, like with a mount 
+-t ext4, it will mount all the ext4 filesystems. You can mount all the mount points in the fstab file with a 
+mount –a. You can double-check that the filesystem is mounted by running the mount as in Listing 9-10.
+
+Listing 9-10.

@@ -1,0 +1,6 @@
+You can use it to put your system in 
+a particular “state,” so to start your graphical environment you may choose to run systemctl isolate 
+graphical.target. For this reason, AllowIsolate is set to “false/no” by default because not every target file 
+provides a stable system state.
+
+The [Install] section is used by the systemctl tool when the unit is enabled or disabled.

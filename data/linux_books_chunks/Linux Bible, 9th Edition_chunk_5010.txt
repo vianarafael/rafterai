@@ -1,0 +1,9 @@
+For 
+the Ubuntu image ﬁ le to run, you need to add the ﬂ oppy image to make the cloud 
+instance bootable:
+
+# cp ubuntu-data.iso      \
+     utopic-server-cloudimg-amd64-floppy  \
+     utopic-server-cloudimg-amd64.img /var/lib/libvirt/images/
+
+6.  Start the cloud instance.

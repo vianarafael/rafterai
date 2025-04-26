@@ -1,0 +1,12 @@
+(46)
+ns2.openminds.be.domain > 192.168.1.103.7514: 60888*- 1/0/1 A 188.93.155.\
+87 (62)
+
+69
+
+introduction to DNS
+
+4.3.2. caching only server with forwarder
+
+A caching only server with a forwarder is a DNS server that will get all its information
+from the forwarder.

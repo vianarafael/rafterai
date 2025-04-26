@@ -1,0 +1,5 @@
+Knowing where things are and 
+ understanding how to get around the ﬁ lesystem from the shell are critical skills in Linux.
+
+In Linux, ﬁ les are organized within a hierarchy of directories. Each directory can contain ﬁ les, as 
+well as other directories.

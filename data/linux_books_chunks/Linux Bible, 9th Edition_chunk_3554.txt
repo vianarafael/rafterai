@@ -1,0 +1,7 @@
+On the Linux side, 
+that means conﬁ guring Kerberos on the Linux system and using ADS (instead of user) for 
+the type of security in the smb.conf ﬁ le.
+
+The advantage of central authentication is that users have to remember only one set of 
+credentials throughout the enterprise, and system administrators need to manage fewer 
+user accounts and passwords.

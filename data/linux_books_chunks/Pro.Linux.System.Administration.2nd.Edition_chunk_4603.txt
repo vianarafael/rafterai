@@ -1,0 +1,3 @@
+There are three ways to authenticate; one is to not provide a username or password 
+(anonymous), another is to provide only a username, and the other is to provide a username and password. 
+Anonymous is not particularly recommended without strict access conditions.

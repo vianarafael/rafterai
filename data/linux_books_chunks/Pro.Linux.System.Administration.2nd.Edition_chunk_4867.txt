@@ -1,0 +1,7 @@
+If a large file is 
+
+being written, this number will go up for the duration of the write operation but drop down again later.
+
+You can get an idea of what your host is capable of by checking the numbers you get when creating a 
+
+large file on an otherwise idle system.

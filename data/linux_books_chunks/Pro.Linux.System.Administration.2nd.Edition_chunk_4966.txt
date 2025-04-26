@@ -1,0 +1,16 @@
+The –w2 says to start two worker processes to 
+handle requests.
+
+We can now use the systemctl command to start and stop the service and the socket.
+
+$ sudo systemctl start graphite-api.service
+
+You can read more about Gunicorn here:
+
+•	
+
+http://gunicorn.org/
+
+Setting Up Nginx
+
+While Gunicorn is a web server, it is recommended to deploy behind a proxy server.

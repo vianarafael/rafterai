@@ -1,0 +1,7 @@
+Options can include a variety of options to deﬁ ne the 
+security measures attached to the shared directory for the host. (You can repeat Host/
+Option pairs.) Comments are any optional comments you want to add 
+(following the # sign).
+
+The exports man page (man exports) contains details about the syntax of the /etc/
+exports ﬁ le.

@@ -1,0 +1,9 @@
+Your first terminal session
+
+52
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Ubuntu Installation
+Ubuntu comes in two flavors: desktop and server. In this section, we’ll demonstrate how to install the server 
+version. Installing Ubuntu Server is a very similar process to installing a CentOS server.

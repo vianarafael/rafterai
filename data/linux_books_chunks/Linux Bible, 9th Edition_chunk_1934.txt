@@ -1,0 +1,13 @@
+After 
+that, any user can type newgrp sales into a shell and temporarily use sales as their 
+primary group by simply entering the group password when prompted.
+
+269
+
+c11.indd  04/01/2015  Page 270
+
+Part III: Becoming a Linux System Administrator
+
+Creating group accounts
+As the root user, you can create new groups from the User Manager window or from the 
+command line with the groupadd command.

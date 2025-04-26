@@ -1,0 +1,8 @@
+If you lose 
+
+connectivity with a remote server, this allows you to easily determine whether the system was rebooted once 
+you can log back in.
+
+The number of logged-in users is the total number of current logins via the terminal console, in X, and 
+
+via SSH. If you are logged in twice, you will be counted as two users.

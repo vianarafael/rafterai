@@ -1,0 +1,3 @@
+Besides letting you request 
+to start and stop virtual machines, virt-manager lets you install, conﬁ gure, and 
+manage VMs in different ways.

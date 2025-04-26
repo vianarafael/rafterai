@@ -1,0 +1,11 @@
+An authoritive DNS will provide DNS resolution for our local network, 
+which will house our example.com domain. We do this by defining two zones: one to provide mappings 
+from name to address and one to provide reverse mappings, from address to name.
+
+443
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Rezoning
+
+Domains are described as zones.

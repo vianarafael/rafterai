@@ -1,0 +1,9 @@
+You should modify or add to those ﬁ les to conﬁ gure 
+GRUB 2 yourself.
+
+ ■ The grub.cfg ﬁ le can contain scripting syntax, including such things as func-
+
+tions, loops, and variables.
+
+ ■ Device names needed to identify the location of kernels and initial RAM disks can 
+be more reliably identiﬁ ed using labels or Universally Unique Identiﬁ ers (UUIDs).

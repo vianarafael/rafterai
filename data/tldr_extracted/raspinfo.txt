@@ -1,0 +1,6 @@
+# raspinfo
+
+
+- Display system information:
+
+`raspinfo`

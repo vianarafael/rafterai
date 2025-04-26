@@ -1,0 +1,9 @@
+Finally, we’ll talk about how to make services start and stop 
+automatically when your host boots or shuts down.
+
+What Happens When Your Host Starts?
+The boot process (boot is short for bootstrap) usually involves three separate but connected processes: the 
+BIOS (Basic Input/Output System) or UEFI Unified Extensible Firmware Interface), the boot loader, and the 
+loading of the operating system.
+
+1.

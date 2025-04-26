@@ -1,0 +1,13 @@
+Here are 
+some examples:
+
+ ■ This command ﬁ nds any ﬁ le named iptables under the /etc directory and 
+
+includes that name in the output of an echo command:
+
+$ find /etc -iname iptables -exec echo "I found {}" \;
+I found /etc/bash_completion.d/iptables
+I found /etc/sysconfig/iptables
+
+ ■ This command ﬁ nds every ﬁ le under the /usr/share directory that is more than 
+5MB in size.

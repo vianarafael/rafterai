@@ -1,0 +1,10 @@
+At the time, Linus was 
+using Minix, but he wanted to go beyond what the Minix standards permitted.
+
+As noted earlier, Linus announced the ﬁ rst public version of the Linux kernel to the comp
+.os.minix newsgroup on August 25, 1991, although Torvalds guesses that the ﬁ rst version 
+didn’t actually come out until mid-September of that year.
+
+Although Torvalds stated that Linux was written for the 386 processor and probably wasn’t 
+portable, others persisted in encouraging (and contributing to) a more portable approach in 
+the early versions of Linux.

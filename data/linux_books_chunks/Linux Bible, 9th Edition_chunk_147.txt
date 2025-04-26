@@ -1,0 +1,7 @@
+The chapter 
+also describes how to use variables, aliases, and man pages (traditional Linux com-
+mand reference pages).
+
+ ■ Chapter 4, “Moving around the Filesystem,” includes commands for listing, creat-
+
+ing, copying, and moving ﬁ les and directories.

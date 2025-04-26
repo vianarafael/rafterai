@@ -1,0 +1,7 @@
+However, to allow any user 
+to mount a fi lesystem (such as a fi lesystem on a CD), you could add the user option to Field 4 of /etc/fstab.
+
+ ■ Field 5—The number in this ﬁ eld indicates whether the ﬁ lesystem needs to be 
+
+dumped (that is, have its data backed up). A 1 means that the ﬁ lesystem needs to 
+be dumped, and a 0 means that it doesn’t.

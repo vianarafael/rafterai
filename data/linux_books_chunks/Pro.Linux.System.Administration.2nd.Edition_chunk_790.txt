@@ -1,0 +1,10 @@
+Changes won’t take effect until the user logs out and back in again 
+if the user is currently logged in.
+
+155
+
+Chapter 5 ■ Users and GroUps
+
+Also available to manage groups is the gpasswd command, which allows you to delegate responsibility 
+for managing groups and their memberships. You can assign a particular user rights to add or remove users 
+to a particular group.

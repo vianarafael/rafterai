@@ -1,0 +1,2 @@
+This way, you are able to access a remote 
+web site by browsing an address on your local network.

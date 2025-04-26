@@ -1,0 +1,10 @@
+You can list all your name servers for your DNS zone in distinct NS records.
+
+glue A record
+
+An A record that maps the name of an NS record to an ip address is said to be a glue record.
+
+SOA record
+
+The SOA record of a zone contains meta information about the zone itself. The contents of
+the SOA record is explained in detail in the section about zone transfers.

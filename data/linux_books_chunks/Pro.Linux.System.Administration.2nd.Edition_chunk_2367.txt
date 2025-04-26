@@ -1,0 +1,65 @@
+Basic LVM Commands
+
+Command
+
+Used For
+
+pvcreate
+
+pvremove
+
+Labeling devices for use with LVM
+
+Removing the LVM label from a physical volume
+
+pvdisplay / pvs
+
+Displaying information on the specified device or all physical volumes on the system
+
+vgcreate
+
+vgremove
+
+vgextend
+
+vgreduce
+
+Creating a new volume group
+
+Removing (deleting) a volume group
+
+Adding physical volumes to a volume group
+
+Removing physical volumes from a volume group
+
+vgdisplay / vgs
+
+Displaying information about the specified group or all volume groups on the system
+
+lvcreate
+
+lvremove
+
+lvextend
+
+lvreduce
+
+Creating a new logical volume
+
+Removing (deleting) a logical volume
+
+Increasing the size of a logical volume
+
+Decreasing the size of a logical volume
+
+lvdisplay / lvs
+
+Displaying all logical volumes on the system or in a specified volume group
+
+401
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Recovering from Failure
+If your host suffers a crash that leaves a filesystem in an inconsistent state, the system will automatically try 
+to repair the problem at boot time.

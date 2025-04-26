@@ -1,0 +1,3 @@
+The = modifier indicates that only one priority is selected; for example, cron.=crit 
+indicates that only cron facility messages of crit priority are to be selected. The ! modifier has a negative 
+effect; for example, cron.!crit selects all cron facility messages except those of crit or higher priority.

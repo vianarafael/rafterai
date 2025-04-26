@@ -1,0 +1,2 @@
+It will copy to the destination directory 
+only the files that are missing or have been changed in the source directory.

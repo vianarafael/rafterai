@@ -1,0 +1,19 @@
+The simple method has 
+three modes of operation.
+
+•	
+
+Anonymous: No username or password is supplied.
+
+•	 Unauthenticated: A username but no password is supplied.
+
+•	 Username/password authentication: A valid username and password must be 
+
+provided.
+
+737
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Of the SASL method, the OpenLDAP Administrator’s Guide says you need an existing working Cyrus 
+SASL installation to provide the SASL mechanism.

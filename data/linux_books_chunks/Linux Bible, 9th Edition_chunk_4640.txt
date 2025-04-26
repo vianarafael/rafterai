@@ -1,0 +1,18 @@
+For example, 
+use the ls -l command and double-check that a ﬁ le’s owner, group, and read, write, and 
+execute assignments are correct.
+
+With SELinux, several regular items can cause problems:
+
+ ■ Using a nonstandard directory for a service
+
+ ■ Using a nonstandard port for a service
+
+ ■ Moving ﬁ les that result in losing their security context labels
+
+ ■ Having Booleans set incorrectly
+
+Each one of these problems can be solved fairly quickly.
+
+Using a nonstandard directory for a service
+For various reasons, you may decide to store a service’s ﬁ les in a nonstandard directory.

@@ -1,0 +1,6 @@
+To ﬁ nd out if the performance problems have occurred 
+because you have run out of memory, you can try commands such as top and ps to begin 
+looking for memory consumption on your system.
+
+To run the top command to watch for memory consumption, type top and then type a 
+capital M.

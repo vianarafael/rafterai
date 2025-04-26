@@ -1,0 +1,8 @@
+You can also 
+edit the GRUB menu and change parameters, commands, and arguments before proceeding to boot into 
+your chosen kernel.
+
+For example, we could choose to boot into what is called single-user mode, or maintenance mode. This 
+
+special mode, used when something is broken on your host, restricts access to the host to the root user: 
+usually at the system console.

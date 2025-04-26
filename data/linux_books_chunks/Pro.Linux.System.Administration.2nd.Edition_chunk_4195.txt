@@ -1,0 +1,4 @@
+We don’t have any tape drives or 
+
+autoloaders, so this will be a simple disk-based storage setup. We define where on our host the backup files 
+will be stored. In this instance, we are going to store them in the /data/backups/FileStorage directory.

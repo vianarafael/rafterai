@@ -1,0 +1,2 @@
+You will remember the first step in the 
+process of creating a new certificate is to create a certificate signing request (CSR) and a secret key.

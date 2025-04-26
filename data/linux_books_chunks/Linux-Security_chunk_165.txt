@@ -1,0 +1,6 @@
+Create a user named venus, including home directory, bash shell, a description that reads
+Venus Williams all in one single command.
+
+root@debian7:~# useradd -m -c "Venus Williams" -s /bin/bash venus
+
+3.

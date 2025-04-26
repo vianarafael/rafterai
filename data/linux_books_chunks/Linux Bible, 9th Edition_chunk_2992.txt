@@ -1,0 +1,18 @@
+This is what a 
+printer entry looks like:
+
+<DefaultPrinter printer>
+Info HP LaserJet 2100M
+Location HP LaserJet 2100M in hall closet
+DeviceURI parallel:/dev/lp0
+State Idle
+Accepting Yes
+Shared No
+JobSheets none none
+QuotaPeriod 0
+PageLimit 0
+KLimit 0
+</Printer>
+
+This is an example of a local printer that serves as the default printer for the local 
+system.

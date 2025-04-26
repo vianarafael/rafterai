@@ -1,0 +1,16 @@
+For example, you can bring the localhost lo (ifcfg-lo) interface up and down 
+using the following commands:
+
+# ifdown lo
+# ifconfig
+# ifup lo
+# ifconfig
+
+364
+
+c14.indd  04/01/2015  Page 365
+
+Chapter 14: Administering Networking
+
+The commands just shown turn off the loopback network interface (ifdown lo) and then 
+let you see that it is not active (ifconfig).

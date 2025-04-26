@@ -1,0 +1,8 @@
+A regular user can upload or download ﬁ les, based on regular Linux 
+permissions.
+
+ ■ Log messages detailing ﬁ le uploads or downloads are written in the /var/log/
+xferlogs ﬁ le. Those log messages are stored in a standard xferlog format.
+
+If you are ready to start your server using the defaults just described, the following 
+examples show you how to do that.

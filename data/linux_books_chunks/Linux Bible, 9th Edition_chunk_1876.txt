@@ -1,0 +1,6 @@
+Replace -1 (that’s minus 
+one) with the number to use.
+
+ ■ -g group—Set the primary group (it must already exist in the /etc/group ﬁ le) 
+the new user will be in. Replace group with the group name (for example, -g 
+wheel).

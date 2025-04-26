@@ -1,0 +1,7 @@
+If one server 
+doesn’t respond, your host will try the other server.
+
+Every time your host goes to a web site, it uses both the default gateway and DNS server to find out how 
+
+to get there. For example, if you type www.google.com in your browser’s address bar, your host will first find 
+the DNS server, which may or may not be on your network.

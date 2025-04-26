@@ -1,0 +1,5 @@
+If you want the client’s 
+root user to have root permission on the server, use the no_root_squash option.
+
+Keep in mind that even though root is squashed, the root user from the client can still become any other user account 
+and access fi les for those user accounts on the server.

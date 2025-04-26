@@ -1,0 +1,8 @@
+there are several others too that can be found here: https://www.nagios.org/
+downloads/nagios-core-addons/.
+
+For operating systems that are unsuitable for installing either plug-in, you can also check via SSh with 
+the check_by_ssh plug-in.
+
+nrpe is a tool that allows you to execute the nagios plug-ins on remote hosts and get the results 
+back to the nagios daemon.

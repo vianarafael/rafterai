@@ -1,0 +1,3 @@
+Also, we need to ensure that the cobblerd 
+
+service can access the httpd server port.

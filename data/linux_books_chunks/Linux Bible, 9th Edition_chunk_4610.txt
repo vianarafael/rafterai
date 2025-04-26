@@ -1,0 +1,5 @@
+To create 
+and modify policy rules, you need to learn this policy rule language syntax, learn how 
+to use the SELinux policy compilers, and learn how to link policy rule ﬁ les together 
+to form modules; you probably need to take a couple of day-long classes. You may be 
+tempted to give up on SELinux at this point.

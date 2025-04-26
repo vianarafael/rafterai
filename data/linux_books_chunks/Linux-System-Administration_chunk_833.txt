@@ -1,0 +1,6 @@
+managing swap space
+
+18.2.1. about swap space
+
+When the operating system needs more memory than physically present in RAM, it can use
+swap space. Swap space is located on slower but cheaper memory.

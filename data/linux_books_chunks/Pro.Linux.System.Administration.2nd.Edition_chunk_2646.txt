@@ -1,0 +1,19 @@
+Now take a look at our zone file directory.
+
+$ ll /var/cache/bind/master/
+total 48
+drwxr-xr-x 2 bind bind  4096 Jul  3 12:46 ./
+drwxrwxr-x 3 root bind  4096 Jul  3 12:47 ../
+-rw-r--r-- 1 bind bind   346 Jul  3 12:35 192.168.0.db
+-rw-r--r-- 1 bind bind   512 Jul  3 12:35 192.168.0.db.jbk
+-rw-r--r-- 1 bind bind   349 Jul  3 12:35 192.168.0.db.signed
+-rw-r--r-- 1 bind bind   899 Jul  3 12:25 example.com.db
+-rw-r--r-- 1 bind bind   512 Jul  3 12:35 example.com.db.jbk
+-rw-r--r-- 1 bind bind   839 Jul  3 12:35 example.com.db.signed
+-rw-r--r-- 1 bind bind 13384 Jul  3 12:46 example.com.db.signed.jnl
+
+451
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+We now have zone files that have been signed (example.com.db.signed).

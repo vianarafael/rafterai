@@ -1,0 +1,3 @@
+/sbin/lshw
+
+The lshw tool will list hardware.

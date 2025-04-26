@@ -1,0 +1,11 @@
+You can see cloud_config_modules that set the locale, set the time zone, and 
+run further conﬁ guration tools (such as chef and puppet).
+
+Because yum repositories are enabled, provided you have an available network connection 
+(DHCP should have assigned addresses to the virtual machine by default), you can install 
+any packages available from the Fedora repositories.
+
+Cloning the cloud instance
+If you decide you like the cloud instance you created, you can save a copy of it to run 
+later by making a clone of the two images (cloud and data image) that make up the cloud 
+instance.

@@ -1,0 +1,9 @@
+We are going to create a system user 
+
+that will run this daemon called spamd.
+
+$ sudo useradd –r –m –s /sbin/nologin spamd
+
+–r indicates we want a system user (a UID below 1000), –m indicates that we want the home directory 
+
+created, and -s is the shell.

@@ -1,0 +1,3 @@
+The reason we use partitioning instead of 
+lumping all the data into the one partition is that you can fill that partition completely without disrupting 
+other partitions around it.

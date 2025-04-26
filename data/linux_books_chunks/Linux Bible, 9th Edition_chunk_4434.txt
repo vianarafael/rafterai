@@ -1,0 +1,5 @@
+Fork bombs can be malicious or just accidental—such as those created by poor program 
+code development.
+
+The PAM module pam-limits uses a special conﬁ guration ﬁ le to set these resource limits: 
+/etc/security/limits.conf. By default, this ﬁ le has no resource limits set within it.

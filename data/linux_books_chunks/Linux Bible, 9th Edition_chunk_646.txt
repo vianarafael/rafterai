@@ -1,0 +1,5 @@
+Likewise, you can recall a previous command 
+line and change the elements to make a new command.
+
+By default, the bash shell uses command-line editing that is based on the emacs text 
+editor.

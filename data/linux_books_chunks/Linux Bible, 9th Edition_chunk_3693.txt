@@ -1,0 +1,16 @@
+(For Fedora and RHEL, you can type yum install 
+autofs or for Ubuntu or Debian apt-get install autofs to install the package from 
+the network.)
+
+2020
+
+545
+
+c20.indd  04/01/2015  Page 546
+
+Part IV: Becoming a Linux Server Administrator
+
+Automounting to the /net directory
+With autofs enabled, if you know the hostname and directory being shared by 
+another host computer, simply change (cd) to the autofs mount directory (/net or 
+/var/autofs by default).

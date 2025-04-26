@@ -1,0 +1,9 @@
+If you need to 
+re-install your boot loader because of some issue you can use your installation media (DVD, USB) and enter 
+the rescue section (see Figure 9-7).
+
+405
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-7.

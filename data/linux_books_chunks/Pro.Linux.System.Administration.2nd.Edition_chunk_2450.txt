@@ -1,0 +1,16 @@
+None of these prevent a client from 
+synchronizing with your NTP server, though.
+
+The last set of restrict directives allow for the pool server to become peers, meaning we can query them 
+
+for time information.
+
+restrict source notrap nomodify noquery
+
+Here the source refers to the the pool servers and you will notice that nopeer is not set but the other 
+
+restricts are still in place.
+
+You can further restrict your ntp servers by using cryptographic keys to ensure that only servers that can 
+
+participate in exchanging public key encrypted packets can use your ntp services.

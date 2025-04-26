@@ -1,0 +1,153 @@
+do, 164
+
+lp administrative login, 190
+lpc command, 440–441
+lpr command, 435, 440
+lprm command, 441
+ls command, 71–72, 102–103, 105–108, 105–109
+lscpu command, 194
+lsmod command, 197–198
+lspci command, 193
+lsusb command, 193–194
+LUKS (Linux Uniﬁ ed Key Setup), 640
+lvdisplay command, 299
+LVM (logical volume management), 295–301
+lvs command, 641–642
+LXDE (Lightweight X11 Desktop Environment), 14, 29, 31, 
+
+32, 250–251
+
+LXLE, 19
+
+M
+
+Magnatune, 49
+MAIL environment variable, 85, 86
+Mail Log, 609
+Mail Transport Agent (MTA), 317
+maillog ﬁ le, 609
+man command, 93–94
+man pages, 70, 93–94
+Mandrake distribution, 17
+Mandriva distribution, 17
+mangle table, iptables, 713
+MariaDB, 26, 318
+MBR (Master Boot Record), 286
+mcedit text editor, 118
+md5sum, 252, 256, 628–629, 639, 831
+/media directory, 98
+memory, troubleshooting, 580–585
+message digests, 628
+messages log ﬁ le, 189, 337, 338–339, 610, 690–691
+metacharacters
+
+$ (dollar sign), 85
+& (ampersand), 82, 83–84, 144, 162
+; (semicolon), 82, 83, 132, 444, 516, 659
+| (pipe), 8, 82–83, 103, 139, 162, 166
+command substitution, 84
+deﬁ nition of, 82
+ﬁ le-direction, 103–104
+ﬁ le-matching, 102–103
+text searches, 124
+
+Metacity window manager, 50–52
+mime.types ﬁ le, 439
+mini-PaaS, 734
+Minimum policy, SELinux, 678, 682
+
+bindex.indd  04/02/2015  Page 849
+
+Index
+
+Minix, 6–7, 13, 221, 302
+minix ﬁ lesystem, 302
+/misc directory, 98
+Miscellaneous man page section, 94
+MIT license, 16
+mkdir command, 100, 101, 109, 162
+mkfs command, 310–311
+mkswap command, 303–304
+MLS (Multi-Level Security), 672–673
+MLS policy, SELinux, 678, 682
+/mnt directory, 98
+mod_perl package, 452
+mod_ssl package, 452, 467
+mod_userdir module, 464–465
+modprobe command, 198
+modules
+
+listing, 197–198
+loading, 198
+PAM, 652–653
+removing, 198–199
+
+monitoring systems, 608–622
+ﬁ lesystems, 615–622
+log ﬁ les, 608–611
+user accounts, 612–615
+
+mount command, 307–309, 541–544
+mounting ﬁ lesystems, 301–310
+
+deﬁ ning mountable ﬁ lesystems, 305–306
+disabling swap areas, 304–305
+enabling swap areas, 303–304
+mount command, 307–309
+NFS ﬁ lesystems, 541–548
+supported ﬁ lesystems, 301–303
+unmounting ﬁ lesystems, 309, 549
+
+Mozilla license, 16
+msdos ﬁ lesystem, 302
+MTA (Mail Transport Agent), 317
+mtab ﬁ le, 187
+mtools.conf ﬁ le, 187
+multi-user.target file, 395–397, 398–399, 413–414, 
+
+420–421, 567
+
+Multics project, 8
+Multilevel plus networking runlevel, 562–563
+multipath devices, 220
+Multiuser Mode runlevel, 382
+multiuser plus networking state (rc3.d), 185
+Multiuser runlevel, 562
+multiuser state (rc2.d), 185
+Multiuser, networking, plus graphical user interface 
+
+runlevel, 563
+
+multiuser, networking, plus GUI login state (rc5.d), 185
+Music Integration extension, 43
+music players
+
+Music Integration extension, 43
+Rhythmbox, 48–49, 195, 196
+
+mv command, 114
+MySQL databases, 3, 318, 452, 609
+mysql package, 318
+MySQL Server Log, 609
+mysql-server package, 318
+mysqld.log ﬁ le, 609
+
+N
+
+n special character, 90
+named.conf ﬁ le, 187, 373
+nano text editor, 89, 118
+nat table, iptables, 713
+Nautilus ﬁ le manager, 45–46, 47, 50, 195–196, 
+
+522–523
+
+ncpfs ﬁ lesystem, 303
+NCSA HTTPD, 450
+nedit text editor, 118
+Nero, 777
+/net directory, 546–547
+Net/1, 13
+Net/2, 13
+NetBSD, 13, 225
+netfilter/iptables ﬁ rewall.

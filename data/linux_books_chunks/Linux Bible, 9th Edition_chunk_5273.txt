@@ -1,0 +1,2 @@
+To create an entry in /etc/rsyslog.conf that stores all authentication messages 
+at the info level and higher into a ﬁ le named /var/log/myauth, do the following.

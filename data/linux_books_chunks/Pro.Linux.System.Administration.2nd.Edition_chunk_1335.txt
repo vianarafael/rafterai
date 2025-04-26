@@ -1,0 +1,16 @@
+the names mean 
+something.
+
+• 
+
+• 
+
+• 
+
+em[1,2,3…] – embedded network interface
+
+p1p1 – PCi card (p<slot>p<port>)
+
+p2p1_1 – Virtual interface (p<slot>p<port>_<virtual interface>
+
+Different hardware vendors have this enabled by default and some don’t.

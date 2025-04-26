@@ -1,0 +1,15 @@
+We need to change the 
+
+service imap-login to the following:
+
+service imap-login {
+  inet_listener imap {
+    port = 0
+  }
+  inet_listener imaps {
+    port = 993
+    ssl = yes
+  }
+
+This turns off the non-SSL plain-text port and listens only on the SSL port 993.
+Next, we specify our SSL certificate and key files.

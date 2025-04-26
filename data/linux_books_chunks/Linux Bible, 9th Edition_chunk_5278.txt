@@ -1,0 +1,5 @@
+To use the desktop to check that NetworkManager has successfully started your 
+
+network interface (wired or wireless), do the following:
+
+Left-click the NetworkManager icon in your top panel.

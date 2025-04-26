@@ -1,0 +1,10 @@
+Possible values are:
+#       targeted - Only targeted network daemons are protected.
+#       strict - Full SELinux protection.
+SELINUXTYPE=targeted
+
+102
+
+introduction to SELinux
+
+12.9.

@@ -1,0 +1,7 @@
+Settings within a 
+Files block override the ones in Directory blocks.
+
+ ■ Location tags are used to specify the URI used to access a ﬁ le or directory. This 
+
+is different from Directory in that it relates to the address contained within the 
+request and not to the real location of the ﬁ le on the drive.

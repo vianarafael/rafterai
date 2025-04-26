@@ -1,0 +1,6 @@
+The following sections describe how to 
+use some special CUPS features.
+
+Confi guring the CUPS server (cupsd.conf)
+The cupsd daemon process listens for requests to your CUPS print server and responds to 
+those requests based on settings in the /etc/cups/cupsd.conf ﬁ le.

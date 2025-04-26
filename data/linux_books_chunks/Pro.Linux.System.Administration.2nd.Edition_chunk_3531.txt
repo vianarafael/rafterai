@@ -1,0 +1,10 @@
+E-mail Headers After SpamAssassin with ClamAV Scan
+
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+X-Spam-Level: *
+X-Spam-Status: No, score=-0.9 required=5.0 tests=ALL_TRUSTED,MISSING_MID
+X-Mailer: swaks v20130209.0 jetmore.org/john/code/swaks/
+X-Virus-Scanned: clamav-milter 0.99.2 at mail.example.com
+X-Virus-Status: Infected (Eicar-Test-Signature)
+
+In Listing 12-15, you can see that a header called X-Spam-Virus has been added to the e-mail.

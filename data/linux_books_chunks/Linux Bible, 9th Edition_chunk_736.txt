@@ -1,0 +1,12 @@
+The follow-
+ing is an example of that prompt:
+
+[chris@myhost bin]$
+
+89
+
+c03.indd  04/01/2015  Page 90
+
+Part II: Becoming a Linux Power User 
+
+If you change directories, the bin name would change to the name of the new directory.

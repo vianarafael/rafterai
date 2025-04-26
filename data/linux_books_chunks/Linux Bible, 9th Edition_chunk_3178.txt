@@ -1,0 +1,2 @@
+A symmetric encryption algorithm such as DES or RC4 is then 
+used with the negotiated key to encrypt the data that are transmitted during the session.

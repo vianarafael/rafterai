@@ -1,0 +1,2 @@
+If they respond to pings from your own host, they are up and your interface is responding to TCP 
+traffic.

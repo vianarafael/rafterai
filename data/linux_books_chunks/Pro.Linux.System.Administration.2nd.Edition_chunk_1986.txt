@@ -1,0 +1,33 @@
+Options and Flags for dpkg
+
+Options and Flags
+
+Description
+
+-l | --list
+
+Lists all installed packages on your host.
+
+-p | --print-avail
+
+Prints package information.
+
+-c | --contents
+
+Lists the contents of a particular uninstalled package.
+
+-L | --listfiles
+
+Lists the contents of an installed package.
+
+-i | --install
+
+Installs a package on your host.
+
+-S | --search
+
+-r | --remove
+
+Finds which package an installed file belongs to.
+
+Removes a package from your host.

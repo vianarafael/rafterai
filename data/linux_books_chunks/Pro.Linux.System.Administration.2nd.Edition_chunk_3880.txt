@@ -1,0 +1,4 @@
+You need to know how often it changes and in what 
+volume. You also need to know your storage media and how much data it can store, and for how long. Data 
+volumes can be tricky things—without planning, you could have too much data to back up or not enough 
+time to back up your data.

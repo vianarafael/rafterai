@@ -1,0 +1,14 @@
+Network Time settings
+
+Clicking on the settings option in the top right, you can see that a new window pops up allowing us to 
+
+add our own NTP servers.
+
+32
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-18.  Network Time Servers
+
+Here you can add a local time server or choose your favorite. The “closer” you are to the time server the 
+better as distance and latency can skew your clock results.

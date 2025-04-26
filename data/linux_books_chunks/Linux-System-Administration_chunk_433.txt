@@ -1,0 +1,22 @@
+The device name can change depending on the disk devices that are present at boot
+time, but a uuid never changes.
+
+First we use tune2fs to find the uuid.
+
+[root@RHEL5 ~]# tune2fs -l /dev/sdc1 | grep UUID
+Filesystem UUID:          7626d73a-2bb6-4937-90ca-e451025d64e8
+
+Then  we  check  that  it  is  properly  added  to  /etc/fstab,  the  uuid  replaces  the  variable
+devicename /dev/sdc1.
+
+[root@RHEL5 ~]# grep UUID /etc/fstab 
+UUID=7626d73a-2bb6-4937-90ca-e451025d64e8 /home/pro42 ext3 defaults 0 0
+
+Now we can mount the volume using the mount point defined in /etc/fstab.
+
+[root@RHEL5 ~]# mount /home/pro42
+[root@RHEL5 ~]# df -h | grep 42
+/dev/sdc1             397M   11M  366M   3% /home/pro42
+
+The real test now, is to remove /dev/sdb from the system, reboot the machine and see what
+happens.

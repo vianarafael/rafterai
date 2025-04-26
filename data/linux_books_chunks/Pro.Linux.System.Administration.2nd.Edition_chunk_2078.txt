@@ -1,0 +1,5 @@
+now your system can theoretically support 
+10,000 drives (https://access.redhat.com/articles/rhel-limits). this is the definitive document on 
+block and character devices in the Linux Kernel: www.kernel.org/doc/Documentation/devices.txt.
+
+If you have a hardware RAID controller, it may name your array and any partitions differently.

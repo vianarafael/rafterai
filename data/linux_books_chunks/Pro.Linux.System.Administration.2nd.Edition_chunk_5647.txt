@@ -1,0 +1,6 @@
+This installation will also create a /etc/puppetlabs/puppet/ directory 
+with a puppet.conf configuration file.
+
+When connecting our client, we first want to run the Puppet client from the command line rather than 
+
+as a service. This will allow us to see what is going on when we connect.

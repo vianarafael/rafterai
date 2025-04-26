@@ -1,0 +1,27 @@
+Figure 26.2 
+shows an example of the virt-manager window with the Fedora 21 Workstation 
+virtual machine displayed.
+
+743
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c26.indd  04/01/2015  Page 744
+
+Part VI: Extending Linux into the Cloud
+
+FIGURE 26.2
+
+Open the virtual machine and begin using it.
+
+Managing virtual machines
+After you have one or more virtual machines installed on a hypervisor, you can  manage 
+each VM in much the same ways you manage a computer system installed directly on 
+ hardware.

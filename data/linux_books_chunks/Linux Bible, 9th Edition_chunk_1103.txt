@@ -1,0 +1,10 @@
+If the httpd process had a PID of 
+1833, you could use either of these commands to have it read conﬁ guration ﬁ les again:
+
+# kill -1 1833
+# systemctl reload httpd
+
+Using killall to signal processes by name
+With the killall command, you can signal processes by name instead of by process ID. 
+The advantage is that you don’t have to look up the process ID of the process you want to 
+kill.

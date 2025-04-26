@@ -1,0 +1,5 @@
+To make it easier to explore the 
+
+configuration of a particular interface, you can also display a single interface, as follows:
+
+Listing 7-1.

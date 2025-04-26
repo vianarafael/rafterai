@@ -1,0 +1,6 @@
+# nmcli monitor
+
+
+- Start monitoring NetworkManager changes:
+
+`nmcli monitor`

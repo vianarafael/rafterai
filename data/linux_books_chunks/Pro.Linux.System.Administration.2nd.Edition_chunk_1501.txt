@@ -1,0 +1,4 @@
+Numbers 
+
+such as 233, 10960, and 9192, shown in the three sections in the preceding code, indicate how long in 
+seconds the record is cached for.

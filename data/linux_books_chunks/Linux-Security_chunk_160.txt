@@ -1,0 +1,29 @@
+At the next login, harry will default into ksh instead of bash.
+
+[laura@centos7 ~]$ chsh -l
+/bin/sh
+/bin/bash
+/sbin/nologin
+/usr/bin/sh
+/usr/bin/bash
+/usr/sbin/nologin
+/bin/ksh
+/bin/tcsh
+/bin/csh
+[laura@centos7 ~]$
+
+Note that the -l option does not exist on Debian and that the above screenshot assumes that
+ksh and csh shells are installed.
+
+The screenshot below shows how laura can change her default shell (active on next login).
+
+[laura@centos7 ~]$ chsh -s /bin/ksh
+Changing shell for laura.
+Password: 
+Shell changed.
+
+16
+
+user management
+
+2.13.

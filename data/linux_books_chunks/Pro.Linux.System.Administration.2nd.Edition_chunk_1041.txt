@@ -1,0 +1,6 @@
+The grub2-mkconfig command has probed our system and 
+found them via /etc/grub.d/30_os-prober script.
+
+Taking a look at the mygrub.cfg file that has been produced (use $ less mygrub.cfg) you will see the 
+
+output of all those files in /etc/grub.d.

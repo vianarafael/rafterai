@@ -1,0 +1,15 @@
+You  see  the  name  of  each  loaded
+module, the size, the use count, and the names of other modules using this one.
+
+[root@RHEL52 ~]# lsmod | head -5
+Module                  Size  Used by
+autofs4                24517  2 
+hidp                   23105  2 
+rfcomm                 42457  0 
+l2cap                  29505  10 hidp,rfcomm
+
+335
+
+the Linux kernel
+
+28.4.5.

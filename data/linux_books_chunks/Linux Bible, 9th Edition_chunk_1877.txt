@@ -1,0 +1,7 @@
+Without this option, a new group is created that is the same as the user 
+name and is used as that user’s primary group.
+
+ ■ -G grouplist—Add the new user to the supplied comma-separated list of 
+
+ supplementary groups (for example, -G wheel,sales,tech,lunch). (If you use 
+-G later with usermod, be sure to use -aG and not just -G.

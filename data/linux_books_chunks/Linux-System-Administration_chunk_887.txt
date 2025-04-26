@@ -1,0 +1,28 @@
+apt-get clean
+
+apt-get keeps a copy of downloaded packages in /var/cache/apt/archives, as can be seen
+in this screenshot.
+
+232
+
+package management
+
+root@ubu1204~# ls /var/cache/apt/archives/ | head
+accountsservice_0.6.15-2ubuntu9.4_i386.deb
+apport_2.0.1-0ubuntu14_all.deb
+apport-gtk_2.0.1-0ubuntu14_all.deb
+apt_0.8.16~exp12ubuntu10.3_i386.deb
+apt-transport-https_0.8.16~exp12ubuntu10.3_i386.deb
+apt-utils_0.8.16~exp12ubuntu10.3_i386.deb
+bind9-host_1%3a9.8.1.dfsg.P1-4ubuntu0.4_i386.deb
+chromium-browser_20.0.1132.47~r144678-0ubuntu0.12.04.1_i386.deb
+chromium-browser-l10n_20.0.1132.47~r144678-0ubuntu0.12.04.1_all.deb
+chromium-codecs-ffmpeg_20.0.1132.47~r144678-0ubuntu0.12.04.1_i386.deb
+
+Running apt-get clean removes all .deb files from that directory.
+
+root@ubu1204~# apt-get clean
+root@ubu1204~# ls /var/cache/apt/archives/*.deb
+ls: cannot access /var/cache/apt/archives/*.deb: No such file or directory
+
+20.3.4.

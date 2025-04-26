@@ -1,0 +1,2 @@
+The actual values will depend on the amount of swapping that is occurring and 
+the speed of your swap device.

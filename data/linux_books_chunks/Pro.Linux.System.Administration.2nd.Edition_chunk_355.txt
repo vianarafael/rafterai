@@ -1,0 +1,4 @@
+But how does that all work?
+
+Well, when you download a Vagrant box, it is basically a compressed tarball (similiar to a zipped file) 
+of VirtualBox virtual machine including the virtual disk images.

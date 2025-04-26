@@ -1,0 +1,2 @@
+The browser asks the web server if the resource with this particular ETag has changed 
+by setting a header in the request, IF-NONE-MATCH, with the ETag value it has.

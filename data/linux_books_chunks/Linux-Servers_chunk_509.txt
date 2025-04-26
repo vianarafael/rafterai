@@ -1,0 +1,11 @@
+iptables save
+
+Use iptables save to automatically implement these rules when the firewall is (re)started.
+
+[root@RHEL5 ~]# /etc/init.d/iptables save
+Saving firewall rules to /etc/sysconfig/iptables:          [  OK  ]
+[root@RHEL5 ~]#
+
+8.3.8. scripting example
+
+You can write a simple script for these rules.

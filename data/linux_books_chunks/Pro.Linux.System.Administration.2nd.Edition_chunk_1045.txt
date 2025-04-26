@@ -1,0 +1,6 @@
+Other information is provided by the --class parameter 
+are used to display certain themes (like splash screens and so on).
+
+The --unrestricted option is used to allow any user to run that entry at boot time via the console 
+
+menu.

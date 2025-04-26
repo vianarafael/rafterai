@@ -1,0 +1,27 @@
+Like the other applications 
+and tools we’ve introduced you to in this book, a number of open source tools are available that can perform 
+this monitoring.
+
+Chapter 18 ■ Logging and Monitoring
+
+•	 Hyperic (www.hyperic.com/)
+
+•	 M/Monit (http://mmonit.com/)
+
+•	 Nagios (www.nagios.org)
+
+•	 OpenNMS (www.opennms.org/)
+
+•	
+
+•	
+
+Zenoss (http://zenoss.com/)
+
+Zabbix (www.zabbix.com/)
+
+Probably the most well-known of these is Nagios, which we’ll take a closer look at next.
+
+Introducing Nagios-Core
+Nagios-Core is a popular GPL-licensed monitoring tool that allows you to monitor infrastructure, 
+applications, and even environmental characteristics such as power and air conditioning.

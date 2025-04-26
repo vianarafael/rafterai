@@ -1,0 +1,14 @@
+To start that service, enable it (so it starts each time your 
+system boots) and check the status by running the following three commands:
+
+# systemctl start nfs-server.service
+# systemctl enable nfs-server.service
+# systemctl status nfs-server.service
+nfs-server.service - NFS Server
+     Loaded: loaded (/lib/systemd/system/nfs-server.service; enabled)
+     Active: active (exited) since Mon 2014-9-01 15:15:11 EDT; 24s 
+        ago
+   Main PID: 7767 (code=exited, status=0/SUCCESS)
+     CGroup: /system.slice/nfs-server.service
+
+You can see from the status that the nfs-server service is enabled and active.

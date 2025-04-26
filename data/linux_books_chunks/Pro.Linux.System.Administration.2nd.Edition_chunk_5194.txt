@@ -1,0 +1,5 @@
+Encrypting the data 
+prevents this.
+
+There are more configuration options that you can use on your Filebeat prospectors. You can include or 
+exclude specific lines, exclude files, add specific tags, add specific fields, and add multiline pattern matching.

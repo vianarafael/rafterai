@@ -1,0 +1,27 @@
+However, if 
+your network supports LDAP, Kerberos, SMB, NIS, or Hesiod authentication, you can 
+select to use any of those authentication types.
+
+ ■ Date & Time (system-config-date)—Set the date and time or choose to have an 
+
+NTP server keep system time in sync.
+
+ ■ Firewall (system-config-firewall)—Conﬁ gure your ﬁ rewall to allow or deny 
+
+services to computers from the network.
+
+ ■ Language (system-config-language)—Select the default language used for the 
+
+system.
+
+ ■ Printing (system-config-printer)—Conﬁ gure local and network printers.
+
+ ■ SELinux Management (policycoreutils-gui)—Set SELinux enforcing modes 
+
+and default policy.
+
+ ■ Users & Groups (system-config-users)—Add, display, and change user and 
+
+group accounts for your Fedora system.
+
+Other administrative utilities are available from the Applications menu on the top panel.

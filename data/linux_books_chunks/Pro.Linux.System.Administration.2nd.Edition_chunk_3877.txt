@@ -1,0 +1,24 @@
+Homeland Security): www.ready.gov/business/index.html
+
+Australian National Security, Business Continuity Planning: www.ag.gov.au/ 
+agd/www/nationalsecurity.nsf/Page/Information_For_BusinessBusiness_
+Continuity
+
+•	 Wikipedia, Business Continuity Planning: http://en.wikipedia.org/wiki/
+
+Business_continuity_planning
+
+•	 Wikipedia, Disaster Recovery: http://en.wikipedia.org/wiki/Disaster_recovery
+
+•	
+
+Business Continuity and Disaster Recovery Checklist for Small Business Owners: 
+http://www.continuitycentral.com/feature0501.htm
+
+•	 Disaster Recovery Using Bareos: https://www.bareos.org/en/HOWTO/articles/
+
+relax-and-recover-with-bareos.html
+
+In this chapter, we’re going to focus on the process of backing up and restoring your data, which should 
+
+be part of your organization’s BCM and DRP plans.

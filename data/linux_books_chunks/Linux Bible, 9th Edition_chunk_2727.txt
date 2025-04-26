@@ -1,0 +1,3 @@
+The enabled status means that the unit is currently 
+enabled. The disabled status means that the unit is currently disabled. The next status, 
+static, is slightly confusing.

@@ -1,0 +1,10 @@
+Let’s set it up first using the mkswap 
+command, as shown in Listing 9-3.
+
+Listing 9-3.  Setting Up Swap Space
+
+$ sudo mkswap /dev/sdb1
+Setting up swapspace version 1, size = 2 GiB (2146430976 bytes)
+no label, UUID=6d0ce2f6-f9f6-4ac2-91f6-3099a40d5624
+
+You’re using the mkswap utility to mark /dev/sdb1 as swap space.

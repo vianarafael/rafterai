@@ -1,0 +1,13 @@
+Refer to Chapter 9 for information 
+on installing Linux.
+
+10
+
+239
+
+c10.indd  04/01/2015  Page 240
+
+Part III: Becoming a Linux System Administrator
+
+The ﬁ rst tool to be developed for installing RPM packages, however, was the rpm  command. 
+Using rpm, you can install, update, query, validate, and remove RPM packages.

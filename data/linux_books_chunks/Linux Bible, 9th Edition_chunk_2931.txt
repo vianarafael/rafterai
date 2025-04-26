@@ -1,0 +1,6 @@
+If it is not detected, choose the device to which the printer is connected 
+(LPT #1 and Serial Port #1 are the ﬁ rst parallel and serial ports, respectively) 
+and click Forward. (Type /usr/sbin/lpinfo -v | less in a shell to see printer 
+connection types.) You are asked to identify the printer’s driver.
+
+4.

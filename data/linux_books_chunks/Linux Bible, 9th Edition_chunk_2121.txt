@@ -1,0 +1,12 @@
+The sda1 device is formatted as a ﬁ lesystem and 
+mounted on the /boot directory. The sda2 device provides space for the vg_abc volume 
+group. Then logical volumes lv-home and lv-root are mounted on the /home and / 
+directories, respectively.
+
+FIGURE 12.1
+
+LVM logical volumes can be mounted like regular partitions on a Linux fi lesystem.
+
+/
+
+/bin    /boot    /etc   /home ...

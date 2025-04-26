@@ -1,0 +1,5 @@
+If a host with the appropriate MAC address connects to our Cobbler host, then Cobbler will use 
+these configuration settings to provision the host.
+
+If you need to change the way you build a host, you can create a new profile. Your new profiles can 
+inherit settings from other profiles, which are regarded as their parents.

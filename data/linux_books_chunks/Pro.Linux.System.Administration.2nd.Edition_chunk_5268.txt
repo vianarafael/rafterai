@@ -1,0 +1,3 @@
+Luckily, Nagios is 
+very well documented, and you can find the documentation for version 4 at https://assets.nagios.com/
+downloads/nagioscore/docs/nagioscore/4/en/. CentOS has version 4 available from the EPEL repository.

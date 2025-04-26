@@ -1,0 +1,6 @@
+We need the first job, named BackupCatalog, to 
+
+back up our MariaDB database, which holds the catalog. The second job definition is used by restore jobs. 
+These are both defaults in the current Bareos installation.
+
+You can also see we have now described a new job.

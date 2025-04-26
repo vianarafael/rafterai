@@ -1,0 +1,3 @@
+systemd services
+
+The  chkconfig  and  service  commands  are  considered  'legacy'.

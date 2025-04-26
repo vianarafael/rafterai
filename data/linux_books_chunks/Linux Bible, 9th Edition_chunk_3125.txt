@@ -1,0 +1,9 @@
+As an example, when a client 
+requests a URL from the server that is not found, the following ErrorDocument line 
+causes the 404 error code to send the client an error message that is listed in the 
+/var/www/error/HTTP_NOT_FOUND.html.var ﬁ le.
+
+ErrorDocument 404 /error/HTTP_NOT_FOUND.html.var
+
+Another common use for location blocks and access control ﬁ les is to limit or expand access 
+to a resource.

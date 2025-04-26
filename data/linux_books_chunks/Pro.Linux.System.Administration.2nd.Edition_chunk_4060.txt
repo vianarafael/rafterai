@@ -1,0 +1,17 @@
+On CentOS you may have to create the group 
+
+prior to this step; on Ubuntu the backup group should exist already.
+
+$ sudo usermod -aG backup exbackup
+
+To make sure that we back up all our system files, we are going to use the sudo command to elevate our 
+
+permission.
+
+$ sudo duply nightly backup
+Start duply v1.11, time is 2016-10-15 23:57:21.
+Using profile '/home/exbackup/.duply/nightly'.
+Using installed duplicity version 0.7.06, python 2.7.12, gpg: unsafe (Home: ~/.gnupg), awk 
+'GNU Awk 4.1.3, API: 1.1 (GNU MPFR 3.1.4, GNU MP 6.1.0)', grep 'grep (GNU grep) 2.25', bash 
+'4.3.46(1)-release (x86_64-pc-linux-gnu)'.
+Signing disabled.

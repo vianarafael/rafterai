@@ -1,0 +1,9 @@
+284
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+DIFFERENT TYPES OF ATTACKS
+
+there are different types of attacks that people can use to bring down your network. Some target the 
+perimeter of your network, tying it up with bogus connections until it breaks and stops responding; 
+these are known as Denial of Service attacks (DoS), for example, SYN flood attacks.

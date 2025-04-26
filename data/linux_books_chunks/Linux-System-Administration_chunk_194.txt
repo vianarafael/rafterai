@@ -1,0 +1,6 @@
+control-Z
+
+Some processes can be suspended with the Ctrl-Z key combination. This sends a SIGSTOP
+signal to the Linux kernel, effectively freezing the operation of the process.
+
+When doing this in vi(m), then vi(m) goes to the background.

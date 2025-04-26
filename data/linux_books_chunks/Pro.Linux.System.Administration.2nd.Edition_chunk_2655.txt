@@ -1,0 +1,26 @@
+Adding Zone Definitions
+
+acl "transfer-hosts" {
+        192.168.0.254 ;
+        127.0.0.1 ;
+};
+zone "example.com" {
+    type master;
+    file "master/example.com.db";
+    notify yes;
+
+452
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+    allow-transfer {
+      transfer-hosts ;
+    };
+    key-directory "/etc/bind/keys";
+    auto-dnssec maintain;
+    inline-signing yes;
+};
+
+What we have done in Figure 10-26 is use a variable called “transfer-hosts,” which we created with 
+
+the acl option in our bind zone configuration file.

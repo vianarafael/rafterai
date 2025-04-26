@@ -1,0 +1,6 @@
+Creating new user JSmith
+
+In Figure 2-27 also select the option that this user requires a password; some accounts are created 
+where you don’t expect the user to ever access the host or run commands that require passwords—like the 
+user that runs the web server, for example. You will also notice that we will need to have correctly matched 
+passwords before we can create this user.

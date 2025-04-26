@@ -1,0 +1,6 @@
+We 
+talked previously about the MBR and said that there was 446 bytes at the start of the disk before the partition 
+table. This is where the first stage of the boot loader code for your operating system will be stored and the 
+BIOS will attempt to execute the code it finds there. For Linux, this a file called boot.img.
+
+When BIOS executes boot.img it finds and runs a file called core.img.

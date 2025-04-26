@@ -1,0 +1,11 @@
+(PPP was 
+more commonly used when dial-up modems were popular.)
+
+ ■ /etc/rc?.d—There is a separate rc?.d directory for each valid system state: 
+
+rc0.d (shutdown state), rc1.d (single-user state), rc2.d (multiuser state), rc3.d 
+(multiuser plus networking state), rc4.d (user-deﬁ ned state), rc5.d (multiuser, 
+networking, plus GUI login state), and rc6.d (reboot state).
+
+ ■ /etc/security—Contains ﬁ les that set a variety of default security conditions 
+for your computer, basically deﬁ ning how authentication is done.

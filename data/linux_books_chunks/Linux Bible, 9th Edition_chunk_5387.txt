@@ -1,0 +1,6 @@
+Look in the Processor Info, or 
+similar, section on your computer to see the type of processor you have.
+
+ ■ On my Dell workstation, under the Onboard Devices heading, I highlight 
+
+Integrated NIC and press Enter.

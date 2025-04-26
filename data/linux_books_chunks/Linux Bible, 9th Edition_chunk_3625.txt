@@ -1,0 +1,9 @@
+Therefore, if you are doing something like sharing home directories with read/write 
+permission, the root user on any box you are sharing to has complete access to the 
+contents of those home directories.
+
+ ■ Unencrypted communications—Because NFS trafﬁ c is unencrypted, anyone 
+
+ snifﬁ ng your network can see the data that is being transferred.
+
+ ■ User mapping—Default permissions to NFS shares are mapped by user ID.

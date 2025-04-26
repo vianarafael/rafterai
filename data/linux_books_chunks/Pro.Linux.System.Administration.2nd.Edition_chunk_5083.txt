@@ -1,0 +1,7 @@
+syslog is both a series of 
+programs and libraries, including rsyslogd, the rsyslog daemon, and a communications protocol.
+
+The most frequently used component of rsyslog is the rsyslogd daemon. This daemon runs on your 
+
+system from startup and listens for messages from your operating system and applications. It is important to 
+note that the rsyslogd daemon is a passive tool.

@@ -1,0 +1,7 @@
+ip help command
+
+The most common object you will work on are link, address, and route. Table 7-1 describes these and 
+
+the rest of the objects for this command.
+
+Table 7-1.

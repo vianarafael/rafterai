@@ -1,0 +1,10 @@
+But first you need to gain root privileges  
+
+(or also referred to as administrator privileges in the GUI) to be able to change settings here. Figure 5-2 
+shows you that you need to click the unlock button and will then be prompted to enter your password.
+
+Figure 5-2.  Unlocking the Users settings interface
+
+158
+
+In Figure 5-2 the list of the current users is in the left panel.

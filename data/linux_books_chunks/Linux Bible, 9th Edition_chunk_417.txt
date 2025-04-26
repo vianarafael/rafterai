@@ -1,0 +1,7 @@
+On most PC keyboards, 
+this is the key with the Microsoft Windows logo on it next to the Alt key. This 
+toggles the mini-window (Overview) and active-window (current workspace) views. 
+Many people use this key often.
+
+ ■ Select different views—From the Windows or Applications view, hold Ctrl+Alt+Tab 
+to see a menu of the different views (see Figure 2.6).

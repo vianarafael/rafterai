@@ -1,0 +1,10 @@
+You 
+can configure the sudo command to allow users to execute all commands, some commands, or even to 
+execute commands without prompting for their password (though this isn’t recommended).
+
+Chapter 5 ■ Users and GroUps
+
+ as you learned at the start of the chapter, you configure exactly what sudo can do by editing a file 
+
+ ■ Tip 
+called /etc/sudoers using a special command called visudo.

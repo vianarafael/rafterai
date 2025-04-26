@@ -1,0 +1,8 @@
+Now we will quickly check that metrics are being 
+created for our backup host. The /var/log/carbon/creates.log file on the monitor host will show us if we 
+are getting metrics from our backup hosts.
+
+21/11/2016 11:35:48 :: new metric collectd_backup_example_com.cpu-0.cpu-user matched schema 
+default_1min_for_1day
+
+Here you can see that we have a metric being created for our CPU.

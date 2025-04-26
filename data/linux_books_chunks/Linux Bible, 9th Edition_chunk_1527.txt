@@ -1,0 +1,15 @@
+You might also want to choose to have a speciﬁ c amount 
+of disk space, particular network conﬁ guration, and a certain number of CPU processors.
+
+Methods for installing Linux in a local cloud-like KVM environment are discussed in 
+Chapter 26, “Using Linux for Cloud Computing.” Methods for deploying cloud images are 
+contained in Chapter 27, “Deploying Linux to the Cloud.” That chapter covers how to run 
+a Linux system as a virtual machine image on a KVM environment, Amazon EC2 cloud, or 
+OpenStack environment.
+
+9
+
+Installing Linux in the Enterprise
+If you were managing dozens, hundreds, even thousands of Linux systems in a large 
+enterprise, it would be terribly inefﬁ cient to have to go to each computer to type and 
+click through each installation.

@@ -1,0 +1,8 @@
+This is where you can add the kinds of informa-
+tion you added in the user-data ﬁ les described in the sections on cloud-init ear-
+lier in this chapter.
+
+27
+
+Select Launch to start up the virtual machine. With the virtual machine running, you can 
+log in to that system by selecting the instance and clicking the Console tab.

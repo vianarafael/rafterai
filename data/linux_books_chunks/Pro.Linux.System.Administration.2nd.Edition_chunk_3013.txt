@@ -1,0 +1,13 @@
+First we gain access via our username and password we just 
+
+created (Figure 11-13).
+
+Figure 11-13.  Logging in
+
+On signing in, we are given access to the WordPress administration console (Figure 11-14).
+
+504
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-14.

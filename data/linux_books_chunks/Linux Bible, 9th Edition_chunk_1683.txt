@@ -1,0 +1,5 @@
+Not only is it easy to get the software, but after it’s installed, it’s 
+easy to manage, query, update, and remove it.
+
+This chapter begins by describing how to install software in Fedora using the new Software  graphical 
+installation tool.

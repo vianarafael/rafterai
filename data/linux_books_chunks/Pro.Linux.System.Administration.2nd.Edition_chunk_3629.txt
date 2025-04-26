@@ -1,0 +1,6 @@
+The benefits 
+of this are enormous, as it cuts down on the proliferation of multiple copies of one document on everyone’s 
+desktops and makes restricting access and backing up documents much easier. Certain applications require 
+a file share before they can be accessed by desktop clients, and file sharing can be used for this.
+
+On your desktops, you can mount a network drive.

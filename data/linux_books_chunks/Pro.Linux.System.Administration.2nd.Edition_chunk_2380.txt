@@ -1,0 +1,34 @@
+Finding Backup Superblocks
+
+$ sudo dumpe2fs /dev/sdg1 | grep Backup
+dumpe2fs 1.42.13 (17-May-2015)
+Journal backup:           inode blocks
+  Backup superblock at 32768, Group descriptors at 32769-32769
+  Backup superblock at 98304, Group descriptors at 98305-98305
+  Backup superblock at 163840, Group descriptors at 163841-163841
+  Backup superblock at 229376, Group descriptors at 229377-229377
+  Backup superblock at 294912, Group descriptors at 294913-294913
+  Backup superblock at 819200, Group descriptors at 819201-819201
+  Backup superblock at 884736, Group descriptors at 884737-884737
+  Backup superblock at 1605632, Group descriptors at 1605633-1605633
+
+Once you know the location of a backup superblock, you can try running e2fsck and specifying the 
+
+location of a backup superblock using the -b option.
+
+$ sudo e2fsck -b 98304 -y /dev/sdg1
+e2fsck 1.42.13 (17-May-2015)
+/dev/sdg1 was not cleanly unmounted, check forced.
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+
+/dev/sdg1: ***** FILE SYSTEM WAS MODIFIED *****
+/dev/sdg1: 11/524288 files (0.0% non-contiguous), 70287/2096891 blocks
+
+The e2fsck command can now run and repair the filesystem.
+If there are problems and file data is found in inodes that e2fsck cannot place, this data will be stored in 
+
+files in the lost+found directory on the filesystem you’re checking.

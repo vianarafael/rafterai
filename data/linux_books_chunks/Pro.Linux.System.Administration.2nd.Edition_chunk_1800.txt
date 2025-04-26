@@ -1,0 +1,4 @@
+You can also look 
+
+at more detailed information of the installed packages by clicking on them and you can launch them from 
+there too. You will notice when you open this screen that you cannot uninstall system packages.

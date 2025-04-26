@@ -1,0 +1,16 @@
+This
+example  changes  the  maximum  number  of  Logical  Volumes  and  maximum  number  of
+Physical Volumes that vg1 can serve.
+
+[root@RHEL5 ~]# vgdisplay vg1 | grep -i max
+  MAX LV                0
+  Max PV                0
+[root@RHEL5 ~]# vgchange -l16 vg1
+  Volume group "vg1" successfully changed
+[root@RHEL5 ~]# vgchange -p8 vg1
+  Volume group "vg1" successfully changed
+[root@RHEL5 ~]# vgdisplay vg1 | grep -i max
+  MAX LV                16
+  Max PV                8
+
+11.12.6.

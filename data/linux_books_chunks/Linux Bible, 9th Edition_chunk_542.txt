@@ -1,0 +1,7 @@
+Check your /var/log/
+Xorg.log ﬁ le to make sure that DRI and AIGLX features were started correctly. The 
+messages in that ﬁ le can help you debug other problems as well.
+
+Summary
+The GNOME desktop environment has become the default desktop environment for many 
+Linux systems, including Fedora and RHEL.

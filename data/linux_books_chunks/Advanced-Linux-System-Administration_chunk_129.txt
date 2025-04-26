@@ -1,0 +1,9 @@
+But what happens if the we don't have 
+the option? What if the bootloader was reconfigured with the wrong kernels using no initial 
+root disks or trying to mount the wrong root filesystem?
+
+This leads us to the next possible cause of booting problems.
+
+Misconfigured Bootloaders
+
+At this stage we need to use a rescue method to boot the system.

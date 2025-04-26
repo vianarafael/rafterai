@@ -1,0 +1,5 @@
+They contain descriptions and options 
+for most Linux administrative commands. If you want to add commands to your system, 
+consider adding them to directories such as /usr/local/bin or /usr/local/sbin. 
+Some Linux distributions automatically add those directories to your PATH,  usually before 
+your standard bin and sbin directories.

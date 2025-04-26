@@ -1,0 +1,6 @@
+LOWER UP indicates that the cable or the underlying link is up.
+
+In the same line we have some other information. The state of the interface is currently UP. This 
+means that the interface is active and can potentially receive traffic if it is properly configured. The MTU, or 
+maximum transmission unit, is the maximum size in bytes of packets on your network; 1,500 is the common 
+default.

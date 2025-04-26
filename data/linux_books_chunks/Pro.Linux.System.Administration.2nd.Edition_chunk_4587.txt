@@ -1,0 +1,2 @@
+As you can see, the scope dn.base 
+will just reference the level of the declared tree, ou=people,dc=example,dc=com.

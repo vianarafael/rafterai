@@ -1,0 +1,6 @@
+Having a separate /var partition can prevent an 
+attack on those facilities from corrupting or fi lling up your entire hard disk.
+
+Because your user account directories are located in this directory, having a 
+ separate /home account can prevent a reckless user from fi lling up the entire hard 
+disk.

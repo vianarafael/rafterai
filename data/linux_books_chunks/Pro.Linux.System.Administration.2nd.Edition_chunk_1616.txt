@@ -1,0 +1,37 @@
+We can create a ufw 
+application by adding the file /etc/ufw/applications.d/web-server with the following:
+
+[WebServer]
+title=Application Web Server
+description=Application X web services
+ports=80/tcp|443/tcp|8080/tcp
+
+271
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+To view our new configuration we can use the following command:
+
+$ sudo ufw app info WebServer
+sudo: unable to resolve host ubuntu-xenial
+Profile: WebServer
+Title: Application Web Server
+Description: Application X web services
+
+Ports:
+ 80/tcp
+ 443/tcp
+8080/tcp
+
+After creating an application configuration we need issue the update subcommand like this:
+
+$ sudo ufw app update WebServer
+
+Then to apply the new ruleset you can issue something like this to allow only hosts in the 192.168.0.0/24 
+
+address range.
+
+$ sudo ufw allow from 192.168.0.0/24 to any app WebServer
+Rule added
+
+Let’s break this down a little.

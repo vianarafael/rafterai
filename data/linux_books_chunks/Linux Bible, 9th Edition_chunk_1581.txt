@@ -1,0 +1,23 @@
+The following 
+ examples show the syntax to use for creating repo= entries:
+
+repo=hd:/dev/sda1:/myrepo
+Repository in /myrepo on disk 1 first partition
+repo=http://abc.example.com/myrepo
+Repository available from /myrepo on Web server
+repo=ftp://ftp.example.com/myrepo
+Repository available from /myrepo on FTP server
+repo=cdrom
+Repository available from local CD or DVD
+repo=nfs::mynfs.example.com:/myrepo/
+Repository available from /myrepo on NFS share
+repo=nfsiso::nfs.example.com:/mydir/rhel7.iso
+Installation ISO image available from NFS server
+
+218
+
+c09.indd  04/01/2015  Page 219
+
+Chapter 9: Installing Linux
+
+Instead of identifying the repository directly, you can specify it within a kickstart ﬁ le.

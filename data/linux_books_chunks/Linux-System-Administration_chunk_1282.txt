@@ -1,0 +1,34 @@
+And you can exclude directories or file
+with --exclude.
+
+root ~# tar cpzf /backup/etc_with_perms.tgz /etc 
+
+354
+
+ 
+ 
+ 
+ 
+ 
+backup
+
+root ~# tar cpzf /backup/etc_no_sysconf.tgz /etc --exclude /etc/sysconfig
+root ~# ls -l /backup/etc_*
+-rw-r--r--  1 root root 8434293 May 12 12:48 /backup/etc_no_sysconf.tgz
+-rw-r--r--  1 root root 8496591 May 12 12:48 /backup/etc_with_perms.tgz
+root ~# 
+
+You can also create a text file with names of files and directories to archive, and then supply
+this file to tar with the -T flag.
+
+root@RHELv4u4:~# find /etc -name *.conf > files_to_archive.txt
+root@RHELv4u4:~# find /home -name *.pdf >> files_to_archive.txt
+root@RHELv4u4:~# tar cpzf /backup/backup.tgz -T files_to_archive.txt 
+
+The tar utility can receive filenames from the find command, with the help of xargs.
+
+find /etc -type f -name "*.conf" | xargs tar czf /backup/confs.tar.gz
+
+You can also use tar to copy a directory, this is more efficient than using cp -r.
+
+(cd /etc; tar -cf - .

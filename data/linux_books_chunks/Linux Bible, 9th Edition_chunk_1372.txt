@@ -1,0 +1,3 @@
+The home directory for lp is /var/spool/lpd.
+
+ ■ apache—User can be used to set up content ﬁ les and directories.

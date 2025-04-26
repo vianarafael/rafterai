@@ -1,0 +1,3 @@
+We want the owner to always be exbackup so that we will always be able to access 
+the shares with our backup scripts, and we want the shares to have group ownership according to their 
+departmental group.

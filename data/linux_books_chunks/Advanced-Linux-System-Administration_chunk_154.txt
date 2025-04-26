@@ -1,0 +1,21 @@
+/etc/fstab options
+
+ro or rw
+
+noauto
+
+noexec
+
+nosuid
+
+nodev
+
+noatime
+
+owner
+
+user
+
+ Read only or read write
+
+ Do not respond to mount -a.

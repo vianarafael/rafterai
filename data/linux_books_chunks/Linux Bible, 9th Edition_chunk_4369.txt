@@ -1,0 +1,3 @@
+Likewise, you can 
+select the box below “Input File For Direct Operation” to fi nd an encrypted fi le in your fi lesystem to 
+decrypt.

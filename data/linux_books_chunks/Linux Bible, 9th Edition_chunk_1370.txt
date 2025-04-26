@@ -1,0 +1,6 @@
+For example, people sitting near a printer could have lp permissions to move print 
+jobs to another printer if they knew a printer wasn’t working.
+
+In any case, administrative logins are available with Linux; however, logging in directly 
+as those users is disabled by default. The accounts are maintained primarily to provide 
+ownership for ﬁ les and processes associated with particular services.

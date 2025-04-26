@@ -1,0 +1,5 @@
+Shared storage devices available in Linux include iSCSI, Fibre Channel, and 
+Inﬁ niband. Entire open source storage platforms include projects such as Ceph 
+(http://ceph.com) and GlusterFS (http://gluster.org).
+
+Some of these advanced topics are not covered in this book.

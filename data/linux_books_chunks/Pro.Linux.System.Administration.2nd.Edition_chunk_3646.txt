@@ -1,0 +1,12 @@
+You can configure Samba as a classic NT4 server or you can buy a Samba software subscription from 
+https://www.sernet.de/en/samba/samba/ for CentOS. We suggest that you just use Samba with Ubuntu 
+instead.
+
+On Ubuntu, you issue the following:
+
+$ sudo aptitude install samba-client samba-common samba winbind
+
+596
+
+Configuring Samba AD
+We are going to install Samba on our Ubuntu server.

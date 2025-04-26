@@ -1,0 +1,13 @@
+They are expressed differently 
+
+to object class hierarchies in these ways:
+
+•	
+
+•	
+
+They are not terminated with a top.
+
+The absence of the SUPerior definition indicates the end of the hierarchy.
+
+The common example of attribute inheritance is the name attribute.

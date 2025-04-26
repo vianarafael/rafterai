@@ -1,0 +1,5 @@
+Some of these targets are “special” targets like 
+
+swap.target which is used to manage swap partitions and swap files and slices.target, which sets up all the 
+CGroup slice units. The multiuser target is made up of all these other targets. If you look into the unit file for 
+multiuser.target you will see that it Requires=basic.target. The basic.target has Requires=sysinit.target.

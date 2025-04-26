@@ -1,0 +1,24 @@
+Moving running VMs can be useful if a hypervisor becomes overloaded or 
+needs to shut down for maintenance.
+
+26
+
+The setup we build during this procedure allows you to work with virtual machines in the 
+following ways:
+
+ ■ Install a new virtual machine on a hypervisor
+
+ ■ Set features on your virtual machines
+
+ ■ Log in to and use a virtual machine running on a hypervisor
+
+ ■ Migrate a running virtual machine to another hypervisor
+
+The technologies we explore here include: 
+
+ ■ Kernel Virtualization Module (KVM)—KVM is the basic kernel technology that 
+
+allows virtual machines to interact with the Linux Kernel.
+
+ ■ QEMU Processor Emulator—One qemu process runs for each active virtual machine 
+on the system.

@@ -1,0 +1,12 @@
+If yourfile 
+
+does not exist, it will be created.
+
+ ■ Tip 
+ Redirection can be used by many other commands as well to direct output from one command to 
+another. It is also closely linked to another Bash capability called piping (see the sidebar “piping and Other  
+Bash Tips”).
+
+PIPING AND OTHER BASH TIPS
+
+You’ve had a quick look at the Bash command line and some of the things you can do with it.

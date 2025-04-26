@@ -1,0 +1,4 @@
+Because of this, the practice of adding the dot to your path is highly discouraged.
+
+ ■ WHATEVER—You can create your own environment variables to provide shortcuts in 
+your work. Choose any name that is not being used and assign a useful value to it.

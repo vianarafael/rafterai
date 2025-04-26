@@ -1,0 +1,11 @@
+After you go forward and partition your disk, assume that all data has been deleted.
+
+a. On a computer you can erase with at least 10GB of disk space, insert a RHEL 
+
+installation DVD, reboot, and begin stepping through the installation screens.
+
+b. When you get to the Installation Summary screen, select Installation 
+
+Destination.
+
+c.

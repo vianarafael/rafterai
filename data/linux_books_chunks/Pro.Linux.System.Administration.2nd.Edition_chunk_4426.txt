@@ -1,0 +1,5 @@
+Since that time, directory services have grown to take on roles as the central repositories for all 
+user information and authentication services. Applications are developed with the ability to authenticate 
+against directory services, further enhancing their importance within an organization.
+
+In this chapter, we are going to show you how to install and configure an OpenLDAP server.

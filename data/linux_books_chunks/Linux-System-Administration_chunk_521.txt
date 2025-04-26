@@ -1,0 +1,16 @@
+This can be useful if you plan to remove a Physical Volume.
+
+[root@RHEL5 ~]# pvchange -xn /dev/sdd
+  Physical volume "/dev/sdd" changed
+  1 physical volume changed / 0 physical volumes not changed
+[root@RHEL5 ~]#
+
+To revert your previous decision, this example shows you how te re-enable the Physical
+Volume to allow allocation.
+
+[root@RHEL5 ~]# pvchange -xy /dev/sdd
+  Physical volume "/dev/sdd" changed
+  1 physical volume changed / 0 physical volumes not changed
+[root@RHEL5 ~]#
+
+11.11.5.

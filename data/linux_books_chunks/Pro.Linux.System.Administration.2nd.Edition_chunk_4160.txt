@@ -1,0 +1,4 @@
+We do that by providing an Address, 
+a Name, and a Password. The Name in the Client definition will match the Client defined in the Job resource. 
+The Password must match the password defined in the File daemon configuration file (bareos-fd.conf) 
+Director resource. The Address can be the fully qualified domain name or the IP address.

@@ -1,0 +1,6 @@
+RELP allows you to relay logs from clients to servers 
+that can push logs onto other servers. We will use TLS to encrypt our log traffic and avoid rouge clients from 
+connecting and potentially sending bogus log traffic or staging DoS attacks, which is possible with the plain 
+UDP/TCP modules.
+
+On Ubuntu the syslog user runs the rsyslogd service.

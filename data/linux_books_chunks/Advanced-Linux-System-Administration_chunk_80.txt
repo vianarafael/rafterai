@@ -1,0 +1,35 @@
+However only the modules that have 
+been compiled will be stored here.
+
+Types of Kernel Images
+
+The various kernel image types differ depending only on the type of compression used to 
+compress the kernel.
+
+The make tool will read the /usr/src/linux/Makefile to compile  
+
+• A compressed linux kernel using gzip is compiled with: make zImage
+The compiled kernel will be:
+
+/usr/src/linux/arch/i386/boot/zImage
+
+9
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+• A compressed linux kernel using better compression is compiled with: make bzImage
+The compiled image will be:
+
+/usr/src/linux/arch/i386/boot/bzImage
+
+• One can also use: make zdisk or make bzdisk to create compressed kernels on 
+
+a floppy.

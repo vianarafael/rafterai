@@ -1,0 +1,9 @@
+You can see more about wireshark 
+here: http://www.wireshark.org/.
+
+251
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+To show you how a network connection is established, we are going to make a connection from our 
+firewall to our mail server.

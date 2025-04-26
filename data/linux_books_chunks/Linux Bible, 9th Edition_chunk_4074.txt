@@ -1,0 +1,20 @@
+The following demonstrates how to set up 
+the shell variable TODAY.
+
+# TODAY=$(echo $(($(date --utc --date "$1" +%s)/86400)))
+# echo $TODAY
+16373
+
+595
+
+ 
+ 
+ 
+ 
+ 
+c22.indd  04/15/2015  Page 596
+
+Part V: Learning Linux Security Techniques
+
+Next, the accounts and their expiration dates are pulled from the /etc/shadow ﬁ le 
+using gawk.

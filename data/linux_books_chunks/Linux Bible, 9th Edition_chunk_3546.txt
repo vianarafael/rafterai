@@ -1,0 +1,9 @@
+In that ﬁ le, put the 
+name of the user and the user’s password you want to present when the system tries to 
+mount the ﬁ lesystem. Here is an example of the contents of that ﬁ le:
+
+user=chris
+pass=mypass
+
+Before you reboot to check that the entry is correct, try mounting it from the command 
+line.

@@ -1,0 +1,7 @@
+It does not have any rules associated with it yet, but by the end of this section you will be able to add 
+and remove rules.
+
+ You don’t have to use the preceding naming standard for naming your chains. However, you will 
+
+ ■ Note 
+benefit from using something that makes sense to your configuration.

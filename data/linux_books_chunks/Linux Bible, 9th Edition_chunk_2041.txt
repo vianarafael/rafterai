@@ -1,0 +1,4 @@
+How does this happen? Each regular disk partition created 
+when you install Linux is associated with a device name. An entry in the /etc/fstab 
+ﬁ le tells Linux each partition’s device name and where to mount it (as well as other bits 
+of information).

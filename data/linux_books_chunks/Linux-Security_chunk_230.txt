@@ -1,0 +1,13 @@
+Group membership is defined by the /etc/group
+file.
+
+root@laika:~# tail -5 /etc/group
+tennis:x:1006:
+football:x:1007:
+snooker:x:1008:
+formula1:x:1009:
+salsa:x:1010:
+root@laika:~#
+
+The first field is the group's name. The second field is the group's (encrypted) password (can
+be empty). The third field is the group identification or GID.

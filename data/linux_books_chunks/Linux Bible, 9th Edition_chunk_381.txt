@@ -1,0 +1,5 @@
+KDE is also available with Fedora, RHEL, Ubuntu, and many 
+other Linux systems.
+
+ ■ Xfce—The Xfce desktop was one of the ﬁ rst lightweight desktop environments. 
+It is good to use on older or less powerful computers.

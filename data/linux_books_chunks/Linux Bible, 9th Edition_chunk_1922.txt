@@ -1,0 +1,7 @@
+Here are two find commands to do those things:
+
+# find / -user chris -ls
+# find / -uid 504 -ls
+
+Because ﬁ les that are not assigned to any username are considered to be a security risk, it 
+is a good idea to ﬁ nd those ﬁ les and assign them to a real user account.

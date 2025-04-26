@@ -1,0 +1,13 @@
+Later releases added features such as fi le and folder attributes to address this problem.
+
+4
+
+99
+
+c04.indd  04/01/2015  Page 100
+
+Part II: Becoming a Linux Power User
+
+Using Basic Filesystem Commands
+I want to introduce you to a few simple commands for getting around the ﬁ lesystem to 
+start out. If you want to follow along, log in and open a shell.

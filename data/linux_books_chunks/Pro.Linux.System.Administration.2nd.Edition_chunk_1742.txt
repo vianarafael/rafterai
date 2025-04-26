@@ -1,0 +1,12 @@
+On Ubuntu, you have to install pppoeconf.
+
+Let’s take a brief look at how you go about setting up your PPP ADSL connections using CentOS and 
+
+Ubuntu.
+
+With Ubuntu, you can use the pppoeconf command or create a PPP connection in your /etc/network/
+
+interfaces file.
+
+ADSL Setup Using nmcli
+We will look at how we can use the nmcli command for your PPPOE connection.

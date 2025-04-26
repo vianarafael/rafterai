@@ -1,0 +1,3 @@
+example: caching only with forwarder
+
+5. Add the public Google dns server as a forwarder.

@@ -1,0 +1,12 @@
+The guard reviews the ID badge and access rules kept in a large manual.
+
+ ■ If the access rules allow this particular ID badge inside the door, the subject 
+
+may enter the room to access the object.
+
+ ■ If the access rules do not allow this particular ID badge access to the object, 
+
+then the guard refuses entry.
+
+SELinux provides a combination of Role Based Access Control (RBAC) and either Type 
+Enforcement (TE) or Multi-Level Security (MLS).

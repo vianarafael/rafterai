@@ -1,0 +1,7 @@
+Although emacs 
+required that emacs-common be installed, emacs-common did not depend on emacs and 
+could therefore stay on the system without breaking dependencies. Running yum remove 
+emacs-common would have removed both packages.
+
+An alternative method to remove a set of packages you have installed is to use the  history 
+subcommand.

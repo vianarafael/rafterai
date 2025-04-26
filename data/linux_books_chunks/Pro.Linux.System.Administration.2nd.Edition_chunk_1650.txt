@@ -1,0 +1,1 @@
+But our rules still don’t look right. Rule number 2 should not be accepting connections but dropping them.

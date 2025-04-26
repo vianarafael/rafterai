@@ -1,0 +1,4 @@
+Ideally, you do not want your main 
+
+server to also be your backup host because if you lose your main server, you also lose the ability to restore 
+your backups.

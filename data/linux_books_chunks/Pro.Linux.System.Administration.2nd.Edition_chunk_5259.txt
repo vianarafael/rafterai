@@ -1,0 +1,10 @@
+There is a visual display showing how many events we have for a particular time period. We 
+can change the time period by picking a time period from the drop-down in the top right.
+
+Figure 18-6.  All logs for the last 15 minutes
+
+875
+
+Chapter 18 ■ Logging and Monitoring
+
+In the middle we have the results that are displayed in date order of the time the event was created.

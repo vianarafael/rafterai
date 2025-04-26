@@ -1,0 +1,8 @@
+An entry such as this should be needed only if there 
+is a line in the /etc/hosts.deny ﬁ le that denies access to services that are 
+not explicitly allowed.
+
+7.  To conﬁ gure your Very Secure FTP Daemon server to allow ﬁ le uploads by anony-
+mous users to a directory named in, do the following as root on your FTP server:
+
+a.

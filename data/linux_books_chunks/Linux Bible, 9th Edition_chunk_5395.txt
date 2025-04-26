@@ -1,0 +1,11 @@
+To look at the messages that were produced in the kernel ring buffer (which shows 
+the activity of the kernel as it booted up), type the following from the shell after 
+the system ﬁ nishes booting:
+
+# dmesg | less
+
+Or on a system using systemd, type the following:
+
+# journalctl -k
+
+7.

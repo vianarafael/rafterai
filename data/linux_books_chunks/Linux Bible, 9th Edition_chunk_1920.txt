@@ -1,0 +1,7 @@
+If you choose not to use –r, as follows, the home directory 
+for chris is not removed:
+
+# userdel chris
+
+Keep in mind that simply removing the user account does not change anything about the 
+ﬁ les that user leaves around the system (except those that are deleted when you use -r).

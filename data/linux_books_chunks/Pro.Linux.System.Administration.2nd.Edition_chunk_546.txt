@@ -1,0 +1,8 @@
+We could also use the wildcard or 
+
+asterisk symbol to select files.
+
+$ ls foo*
+
+This would return any file called foo plus any files that started with foo, such as foobar, as well as the 
+contents of any directories whose name starts with foo.

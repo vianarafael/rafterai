@@ -1,0 +1,5 @@
+However, gconf-editor is a good way 
+to see descriptions of each Metacity feature.
+
+From the gconf-editor window, select apps ➪ metacity, and choose from general, 
+global_keybindings, keybindings_commands, window_keybindings, and workspace_names.

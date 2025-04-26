@@ -1,0 +1,7 @@
+An apple.com 
+DNS server has no idea about a google.com host, so how does our own DNS server know where to look?
+
+The entire DNS structure is like a large upside-down tree. Each period in a domain name is like a 
+
+branch in this tree. As you read a domain name from left to right, each period indicates a split to a lower level 
+in the tree, which is closer to the root.

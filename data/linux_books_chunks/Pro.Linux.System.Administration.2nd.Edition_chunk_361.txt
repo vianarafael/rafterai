@@ -1,0 +1,6 @@
+To see all subcommands, run the command
+`vagrant list-commands`.
+
+This shows you the full list of available subcommands to Vagrant. We are going to only show you four to 
+
+get you started.

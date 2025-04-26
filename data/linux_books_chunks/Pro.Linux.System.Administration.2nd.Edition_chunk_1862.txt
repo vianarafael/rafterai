@@ -1,0 +1,17 @@
+To get a complete list of these 
+
+commands, we recommend that you read its man page.
+
+$ man rpm
+
+On the rpm man page, you can see that the rpm tool can perform three basic functions.
+
+1.  Query packages
+
+2. 
+
+Install, upgrade, and remove packages
+
+3.  Miscellaneous functions
+
+Let’s look at some of these options in more detail.

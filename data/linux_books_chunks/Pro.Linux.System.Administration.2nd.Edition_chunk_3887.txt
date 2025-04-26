@@ -1,0 +1,3 @@
+These can be larger than 
+incremental backups but are useful when doing restores, as you need only the full backup and the latest 
+differential (if you are not running incremental backups at all).

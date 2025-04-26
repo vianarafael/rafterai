@@ -1,0 +1,8 @@
+This 
+flag is set to off by default.
+
+Sends e-mail if the user running sudo does not exist in the sudoers file.
+This flag is set to on by default.
+
+Sends e-mail if the user running sudo exists in the sudoers file but is not 
+authorized to run commands on this host.

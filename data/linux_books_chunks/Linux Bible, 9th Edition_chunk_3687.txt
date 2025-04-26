@@ -1,0 +1,2 @@
+In that block, you can set such things as protocols 
+and NFS versions, as well as transmission rates and retry settings.

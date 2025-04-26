@@ -1,0 +1,12 @@
+For example, in /etc/fstab, if you change the option defaults to default, the 
+word’s color changes from green to black.
+
+318
+
+c13.indd  04/01/2015  Page 319
+
+Chapter 13: Understanding Server Administration
+
+Checking the default configuration
+Most server software packages in Fedora and RHEL are installed with minimal conﬁ guration 
+and lean more toward being secure than totally useful out of the box.

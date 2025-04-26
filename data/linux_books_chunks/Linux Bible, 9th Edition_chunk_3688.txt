@@ -1,0 +1,14 @@
+Here is an example of 
+an NFSMount_Global_Options block:
+
+[ NFSMount_Global_Options ]
+# This sets the default version to NFS 4
+Defaultvers=4
+# Sets the number of times a request will be retried before
+# generating a timeout
+Retrans=2
+# Sets the number of minutes before retrying a failed
+# mount to 2 minutes
+# Retry=2
+
+In the example just shown, the default NFS version is 4.

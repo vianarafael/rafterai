@@ -1,0 +1,11 @@
+It is always a good idea to 
+run lsof using sudo to check.
+
+If a mounted filesystem is being used by a system service, you will have to stop the service before 
+
+ ■ Note 
+you can unmount the filesystem.
+
+Automating Mounts
+You’ve probably noticed that your other partitions don’t need to be manually mounted. When you started 
+your host they were already mounted.

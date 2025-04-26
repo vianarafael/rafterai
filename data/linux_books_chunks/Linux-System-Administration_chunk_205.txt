@@ -1,0 +1,12 @@
+Start find / > allfiles.txt 2>/dev/null in foreground. Suspend it in background before it
+finishes.
+
+[paul@rhel53 ~]$ find / > allfiles.txt 2>/dev/null
+   (press ctrl-z)
+[2]+  Stopped                 find / > allfiles.txt 2> /dev/null
+
+5. Start two long sleep processes in background.
+
+sleep 4000 & ; sleep 5000 &
+
+6.

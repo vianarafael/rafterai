@@ -1,0 +1,8 @@
+This example tells SELinux to allow uploading of ﬁ les to the /var/ftp/
+pub/uploads directory:
+
+# semanage fcontext -a -t public_content_rw_t "/var/ftp/pub/uploads(/.*)?"
+# restorecon -F -R -v /var/ftp/pub/uploads
+
+FTP server features that are considered insecure by SELinux have Booleans that let you 
+allow or disallow those features.

@@ -1,0 +1,5 @@
+Puppet runs 
+
+Facter prior to applying any configuration, collects the client’s facts, and then sends them to the Puppet master 
+for use in configuring the client. For example, the hostname fact is available in our Puppet configuration as the 
+variable $hostname – or as $fact['hostname'].

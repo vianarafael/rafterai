@@ -1,0 +1,131 @@
+See VirtualBox Disk Image (VDI)
+Verify key, 843
+Version control systems (VCS), 82, 883, 940
+VirtualBox, 17, 23, 73, 75–80, 82, 88, 92
+
+installation, 74
+Centos7, 80
+CentOS ISO ready, 81
+Choose disk, 77
+console, 75
+disk amount, 79
+dynamically disk allocation, 79
+licensing, 74
+memory allocation, 77
+memory size, 76
+naming and setting, 76
+select image, 81
+VirtualBox Disk Image, 78
+
+VirtualBox Disk Image (VDI), 78
+VirtualBox host, 922
+Virtual domains, 559–561, 592
+Virtual host, Apache, 478–479
+apachectl command, 476
+curl command, 477
+
+IP-based, 476
+name-based, 476
+PHP, 486, 488
+Ubuntu, 477–479
+Virtualization, 73–74, 88
+Virtual Machine Manager
+
+information screen, 302
+installation, 303
+pending installation, 302–303
+select, 302
+
+Virtual Machines, 12
+Virtual private network (VPN)
+
+application, 703
+authentication, 707–712
+branch server, 712–714
+configuring, 704
+gateway server, 705–707
+head office with hosts, 702
+installation, 703
+IP address, 702
+mobile users, 719
+platforms, 703
+private network, 701
+software, 701
+start and stop services, 704
+
+Virtual users, 592
+Viruses, 579
+visudo command, 176
+vmstat, 806–807
+VRFY command, 565
+
+ W
+Web accelerator, 519
+Web applications, 518
+Web-based GUI, 779
+Web caching, 518–519
+Web presence, 500–504
+Web server, 739
+Web services, 505
+Web-UI, 698, 700
+wget command, 349
+Whisper, 816, 818
+whoami command, 108
+who command, 180
+Whois command, 428–429
+Winbind, 607
+WordPress
+
+administration console, 504
+administration details, 502–503
+edit, 501
+installation, 502
+login, 504
+password, 503
+
+Workgroup, 602
+
+997
+
+■ INDEXWrapper script, 643–644
+Write permissions, 123
+Write plug-ins, 811
+
+ X
+X application, 103
+X.500 DAP OSI model, 734–735
+XFS filesystem, 373–374
+XtraDB engine, 493–496
+
+ Y
+YAML, 863
+Yellowdog Updater Modified (YUM)
+
+additional tasks, 310–311
+configure, 311
+
+repository options, 312
+variables, 313
+
+DNF, 314
+install, 308–309
+introduction, 306–307
+options, 307
+remove, 310
+repositories, 309–310
+
+ Z
+Zen Discovery module, 871
+Zombie process, 805
+Zone metadata, 436–437
+Zones
+
+defined, 427
+forward lookup, 445
+header fields, 444
+reverse lookup, 446–449
+rezone, 444
+
+998
+
+■ INDEX.

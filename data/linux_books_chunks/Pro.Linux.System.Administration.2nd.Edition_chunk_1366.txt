@@ -1,0 +1,36 @@
+The choices here are static, 
+dhcp, and none.
+
+Whether the device is started when the host boots up.
+
+The network address for this device.
+
+The netmask for this device.
+
+The IP address for this device.
+
+IPV4_FAILURE_FATAL
+
+If set to yes, if we don’t get an IP address from DHCP the ifup-eth script 
+will end immediately
+
+MASTER
+
+SLAVE
+
+NM_CONTROLLED
+
+DNS{1,2}
+
+PEERDNS
+
+VLAN
+
+IPV6INIT
+
+The device to which this device is the SLAVE.
+
+Whether the device is controlled by the master specified in the MASTER 
+directive.
+
+If set tono, Network manager ignores the device.

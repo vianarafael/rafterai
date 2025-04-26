@@ -1,0 +1,12 @@
+Figure 14.2 shows an example of the window that appears.
+
+FIGURE 14.2
+
+Viewing network settings with NetworkManager.
+
+14
+
+Figure 14.2 shows the IPv4 Settings tab, because that tab contains information you are 
+most likely to want to change. The Automatic (DHCP) setting is what tells this interface 
+to connect to DHCP at startup so you might want to change that to manually set IPv4 
+ information.

@@ -1,0 +1,10 @@
+This is 
+what we want to do:
+
+•	 We want users to change their own passwords and bind.
+
+•	 We want to create a meta users group that can bind on behalf of users.
+
+•	 We want an admin group to able to manage the user’s entries.
+
+We are going to give our system root user manage access to our DIT.

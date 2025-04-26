@@ -1,0 +1,6 @@
+It does this in two ways. It provides a 
+mechanism for distributing and downloading other VirtualBox virtual machines as well as tools to manage 
+the configuration and running of them.
+
+Primarily Vagrant works with boxes. Boxes are just compressed files of pre-built VirtualBox virtual 
+machines that have a few special things configured.

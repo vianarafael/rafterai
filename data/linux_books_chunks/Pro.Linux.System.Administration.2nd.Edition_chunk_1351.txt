@@ -1,0 +1,8 @@
+CentOS stores 
+its files in a collection of network-related directories under /etc/sysconfig/network-scripts, and Ubuntu 
+stores its files under the /etc/networks directory.
+
+Network Configuration Files for CentOS
+
+As we have said previously, CentOS uses NetworkManager to manage network interfaces as they are plugged 
+in or connect.

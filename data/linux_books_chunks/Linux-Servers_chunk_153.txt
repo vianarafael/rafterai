@@ -1,0 +1,14 @@
+Open this file with vi
+and add three lines to listen on three extra ports.
+
+root@debian7:~# vi /etc/apache2/ports.conf
+
+Verify with grep that the Listen directives are added correctly.
+
+root@debian7:~# grep ^Listen /etc/apache2/ports.conf
+Listen 80
+Listen 7000
+Listen 8000
+Listen 9000
+
+1.2.4.

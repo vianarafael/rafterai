@@ -1,0 +1,8 @@
+You can also set the groups for a user 
+using –G <group1>,<group2> and this will replace any existing groups assigned to the user.
+
+Creating Users
+Now that you know how to enable and use the sudo command, we can start looking at users and groups. 
+Let’s begin by creating a new user using the useradd command, as shown in Listing 5-1.
+
+Listing 5-1.

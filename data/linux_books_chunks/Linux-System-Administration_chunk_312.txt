@@ -1,0 +1,3 @@
+parted and others
+
+You may be interested in alternatives to fdisk like parted, cfdisk, sfdisk and gparted.

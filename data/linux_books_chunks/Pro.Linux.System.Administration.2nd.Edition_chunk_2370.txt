@@ -1,0 +1,8 @@
+The fsck can take a substantial amount of time, depending on the size of your 
+filesystem—up to hours! These automated recoveries will generally work, but on occasion the repair tools 
+will find a problem they cannot fix automatically.
+
+If this happens for the root filesystem, on which the repair utilities are stored, you can try to use the 
+
+systemd emergency target (systemctl emergency) or you will need to boot from your installation DVD or 
+USB.

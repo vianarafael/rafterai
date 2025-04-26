@@ -1,0 +1,12 @@
+found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-2.6.26-2-686
+Updating /boot/grub/menu.lst ... done
+
+SE Linux is activated.  You may need to reboot now.
+
+210
+
+introduction to SELinux
+
+19.4.

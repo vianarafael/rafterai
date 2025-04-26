@@ -1,0 +1,25 @@
+The options to the systemctl command should 
+look familiar.
+
+Stopping a service with systemd
+In the example that follows, the status of the cups daemon is checked and then stopped 
+using the systemctl stop cups.service command:
+
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+    Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+    Active: active (running) since Mon, 30 Apr 2018 12:36:3...
+  Main PID: 1315 (cupsd)
+    CGroup: name=systemd:/system/cups.service
+            1315 /usr/sbin/cupsd -f
+# systemctl stop cups.service
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+    Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+    Active: inactive (dead) since Tue, 01 May 2018 04:43:4...
+    Process: 1315 ExecStart=/usr/sbin/cupsd -f
+ (code=exited, status=0/SUCCESS)
+    CGroup: name=systemd:/system/cups.service
+
+Notice that when the status is taken, after stopping the cups daemon, the service is 
+ inactive (dead) but still considered enabled.

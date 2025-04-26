@@ -1,0 +1,5 @@
+The full paths to the local directory (on the left) and remote directory 
+(on the right) are shown above the listings of ﬁ les and folders below.
+
+To transfer a ﬁ le from the remote side to the local side, select the ﬁ le you want from the 
+right and click the arrow in the middle of the screen pointing to the left.

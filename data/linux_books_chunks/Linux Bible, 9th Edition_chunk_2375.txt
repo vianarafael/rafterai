@@ -1,0 +1,19 @@
+The following is an example of some of the rules in the RULES section 
+of the /etc/rsyslog.conf ﬁ le (note that in Ubuntu, you need to look in the 
+/etc/rsyslog.d directory for this conﬁ guration information):
+
+#### RULES ####
+# Log all kernel messages to the console.
+# Logging much else clutters up the screen.
+#kern.*                                        /dev/console
+# Log anything (except mail) of level info or higher.
+# Don't log private authentication messages!
+*.info;mail.none;authpriv.none;cron.none       /var/log/messages
+# The authpriv file has restricted access.
+authpriv.*                                     /var/log/secure
+# Log all the mail messages in one place.
+mail.*                                         -/var/log/maillog
+# Log cron stuff
+cron.*                                         /var/log/cron
+
+Rules entries come in two columns.

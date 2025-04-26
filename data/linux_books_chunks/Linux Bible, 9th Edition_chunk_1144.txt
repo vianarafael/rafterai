@@ -1,0 +1,7 @@
+The shell speciﬁ ed on the command line is used to interpret the 
+ commands in the script ﬁ le. This is most common for quick, simple tasks.
+
+ ■ The shell script may also have the name of the interpreter placed in the ﬁ rst line 
+
+of the script preceded by #! (as in #!/bin/bash) and have the execute bit of the 
+ﬁ le containing the script set (using chmod +x filename).

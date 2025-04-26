@@ -1,0 +1,17 @@
+OverSignHeaders tells OpenDKIM to include these headers, even if they 
+are absent, and record them as null, which prevents them from being added at a later date.
+
+582
+
+Chapter 12 ■ Mail ServiCeS
+
+On Ubuntu we will create the required OpenDKIM directories with the following:
+
+$ sudo mkdir –p /etc/opendkim/keys && sudo touch /etc/opendkim/{KeyTable,SigningTable,Trust
+edHosts}
+$ sudo mkdir –p /var/spool/opendkim
+$ sudo chown opendkim:opendkim –R /etc/opendkim/* /var/spool/opendkim && sudo chmod 0640 /
+etc/opendkim/*
+$ sudo chmod 0750 /etc/opendkim/keys
+
+Next we are going to address the cryptographic configuration now.

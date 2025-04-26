@@ -1,0 +1,3 @@
+As you can see there 
+are others in that list like, E-mail Server, FTP server, and File and Storage Server. This will install only the 
+barest of requirements you need for a DNS Name Server and will not install a GUI (graphical user interface).

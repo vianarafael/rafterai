@@ -1,0 +1,3 @@
+Choosing a 
+VFAT instead of NTFS ﬁ lesystem for Windows also makes sharing ﬁ les between your 
+Windows and Linux systems easier and more reliable.

@@ -1,0 +1,5 @@
+From the list of available networks, 
+grab the one you want with your mouse and drag it into the Selected Networks box.
+
+4.  Add Post-Creation settings. You can add commands and scripts that conﬁ gure the 
+system further after it is booted.

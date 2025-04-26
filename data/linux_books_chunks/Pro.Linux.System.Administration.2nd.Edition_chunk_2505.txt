@@ -1,0 +1,11 @@
+It’s called a reverse name lookup and may not always return 
+any results as you don’t have to record that information in your DNS records, it is just sometimes nice to have.
+
+431
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+The dig Command
+
+Though host is useful, it does not generally provide enough information to help resolve any DNS problem 
+you might have, especially when you run your own DNS servers.

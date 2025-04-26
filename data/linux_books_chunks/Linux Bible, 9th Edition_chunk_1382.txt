@@ -1,0 +1,9 @@
+For example, features built into 
+GNOME and KDE desktops let you choose what happens when a music CD or data DVD 
+is inserted, or when a digital camera is connected. If you prefer that a different 
+program be launched to handle it, you can easily make that change.
+
+8
+
+This section covers several issues related to getting your hardware working properly in 
+Linux.

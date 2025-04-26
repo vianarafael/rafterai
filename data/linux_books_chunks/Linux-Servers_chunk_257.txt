@@ -1,0 +1,22 @@
+The default delimiter is ; (the semicolon).
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+4 rows in set (0.00 sec)
+
+We will use this prompt in the next sections.
+
+46
+
+introduction to sql using mysql
+
+3.3. mysql databases
+
+3.3.1.

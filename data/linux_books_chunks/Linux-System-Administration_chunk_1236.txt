@@ -1,0 +1,4 @@
+make modules_install
+
+To copy all the compiled modules to /lib/modules just run make modules_install (takes
+about 20 seconds).

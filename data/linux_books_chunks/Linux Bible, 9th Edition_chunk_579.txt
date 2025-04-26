@@ -1,0 +1,5 @@
+In Fedora, Red Hat Enterprise Linux 
+(RHEL), and other Linux distributions that use the GNOME desktop, the default Terminal 
+emulator window is the GNOME Terminal (represented by the gnome-terminal command).
+
+GNOME Terminal supports many features beyond the basic shell.

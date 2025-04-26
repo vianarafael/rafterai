@@ -1,0 +1,12 @@
+Using three computers, I’ll 
+help you create a setup that includes:
+
+732
+
+c26.indd  04/01/2015  Page 733
+
+Chapter 26: Using Linux for Cloud Computing 
+
+ ■ Hypervisors—A hypervisor is a computer system that allows you run other com-
+
+puter systems on it. Those other systems are referred to as virtual machines.

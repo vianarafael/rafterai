@@ -1,0 +1,8 @@
+Use the Red Hat Enterprise Linux virtual machine. Go to runlevel 5, display the current
+and previous runlevel, then go back to runlevel 3.
+
+init 5 (watch the console for the change taking place)
+runlevel
+init 3 (again you can follow this on the console)
+
+3.

@@ -1,0 +1,6 @@
+Because /etc/httpd is set to the right 
+ﬁ le context for conﬁ guration ﬁ les, /var/www/html is right for content ﬁ les, and 
+so on, simply copying ﬁ les to or creating new ﬁ les in those locations causes the ﬁ le 
+contexts to be set properly.
+
+ ■ Modify SELinux to allow nonstandard features.

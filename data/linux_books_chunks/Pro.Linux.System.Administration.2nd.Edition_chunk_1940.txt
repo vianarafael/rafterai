@@ -1,0 +1,4 @@
+After unpacking 28.1 MB will be used.
+Do you want to continue? [Y/n/?] y
+Selecting previously unselected package libblas-common.
+(Reading database ...

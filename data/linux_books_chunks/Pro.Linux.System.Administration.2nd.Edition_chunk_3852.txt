@@ -1,0 +1,10 @@
+This means that applications such as word processors can 
+
+627
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+consistently know how to use a printer device, and a calendar can talk to a smart device using a consistent 
+and defined set of rules.
+
+Let’s look at what happens when we plug in an Epson USB printer on our Ubuntu host.

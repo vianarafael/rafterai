@@ -1,0 +1,15 @@
+But an index.html file created in /var/www/html/ will automatically be used as
+default page.
+
+[root@centos65 ~]# echo '<html><head><title>Default website</title></head><body\
+><p>A new web page</p></body></html>' > /var/www/html/index.html
+[root@centos65 ~]# cat /var/www/html/index.html
+<html><head><title>Default website</title></head><body><p>A new web page</p></b\
+ody></html>
+[root@centos65 ~]#
+
+82
+
+apache web server
+
+8.1.7.

@@ -1,0 +1,5 @@
+PAM 
+also includes other features for locking down authentication to your Linux server. For a 
+description of PAM, see Chapter 23, “Understanding Advanced Linux Security.”
+
+Of course, you can bypass passwords altogether by requiring public key authentication.

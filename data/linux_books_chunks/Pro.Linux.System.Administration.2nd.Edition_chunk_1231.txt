@@ -1,0 +1,9 @@
+Let’s take a look at our last line again:
+
+42 4 1 * 3 root run-parts /etc/cron.monthly
+
+Here we’ve changed the value in the day of the week column to 3. Our job would now run at 04:42 a.m. 
+
+on the first day of the month and also every Wednesday.
+
+ day of the week starts with Sunday at 0 and goes through to Saturday at 6.

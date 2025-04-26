@@ -1,0 +1,6 @@
+If you don’t like the applet’s location, right-click it, click Move, 
+slide the mouse until the applet is where you want it (even to another panel), and click to 
+set its location.
+
+If you no longer want an applet to appear on the panel, right-click it, and click Remove 
+From Panel. The icon representing the applet disappears.

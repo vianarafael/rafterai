@@ -1,0 +1,7 @@
+Then the fact that 
+the hardware is present (or removed) is passed to the user level, where applications 
+listening for hardware changes are ready to mount the hardware and/or launch an 
+application (such as an image viewer or music player).
+
+ ■ More flexible—If you don’t like what happens automatically when a hardware item 
+is connected or disconnected, you can change it.

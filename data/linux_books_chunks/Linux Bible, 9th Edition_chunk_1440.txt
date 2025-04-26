@@ -1,0 +1,5 @@
+Were other modules loaded with it?
+
+10.  Remove the bttv  module along with any other modules that were loaded with it. 
+
+List your modules to make sure this was done.

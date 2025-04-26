@@ -1,0 +1,13 @@
+This will help you identify performance bottlenecks and make better 
+use of the resources you have.
+
+A small amount of tuning can alleviate the need to purchase additional hardware, so monitoring 
+
+performance can help you save money as well as time.
+
+Basic Health Checks
+In this section, we look at some basic tools that help you determine the status of your hosts.
+
+CPU Usage
+When applications are running slow, the first thing you should check is whether the system is in fact busy 
+doing anything.

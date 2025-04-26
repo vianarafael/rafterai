@@ -1,0 +1,16 @@
+We can view that from our system log and from the volume status 
+subcommand.
+
+$ sudo gluster volume status
+Status of volume: vol1
+Gluster process                             TCP Port  RDMA Port  Online     Pid
+--------------------------------------------------------------------------------
+Brick au-mel-dfs-1:/data/brick1_r1/vol1        49152      0         Y       1292
+Brick au-mel-dfs-2:/data/brick1_r1/vol1        49152      0         Y       3198
+Brick au-mel-dfs-3:/data/brick1_r1/vol1        49152      0         Y       1978
+Brick au-mel-dfs-1:/data/brick1_r2/vol1        N/A        N/A       N       N/A
+Brick au-mel-dfs-2:/data/brick1_r2/vol1        49153      0         Y       11652
+Brick au-mel-dfs-3:/data/brick1_r2/vol1        49153      0         Y       2133
+
+As you can see, the current status shows that service for au-mel-dfs-1:/data/brick1_r2/vol1 
+is not listening on a port and does not have a PID.

@@ -1,0 +1,7 @@
+On the system running your FTP server, type the following to create a ﬁ le named 
+test in the anonymous FTP directory that contains the words “Welcome to your 
+vsftpd server”:
+
+# echo "Welcome to your vsftpd server" > /var/ftp/test
+
+5.

@@ -1,0 +1,4 @@
+If data from that document were 
+swapped out to disk, more RAM would be available for more active applications that could 
+put that space to better use. The performance hit would come the next time you needed to 
+access the data from the edited document and the data was swapped in from disk to RAM.

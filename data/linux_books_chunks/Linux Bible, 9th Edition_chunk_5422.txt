@@ -1,0 +1,7 @@
+It is best not to run this 
+command on your system for an exercise until you are ready for the SELinux to be 
+enforced. Use the following command: setenforce enforcing at the command 
+line. It would also be acceptable to type setenforce 1 at the command line.
+
+3.  To ﬁ nd and view the permanent SELinux policy type (set at boot time), go to the 
+main SELinux conﬁ guration ﬁ le, /etc/selinux/config.

@@ -1,0 +1,4 @@
+Redo log file size
+
+We can do this by forcing the server to process all entries in the transaction log and write them to the 
+table files when we shut the server down.

@@ -1,0 +1,4 @@
+Salting a hash means 
+that a randomly generated value is added to the original password before it is hashed. This makes it even more dif-
+fi cult for the hashed password to be matched to its original password. However, in Linux, the hash salt is also stored 
+with the hashed passwords.

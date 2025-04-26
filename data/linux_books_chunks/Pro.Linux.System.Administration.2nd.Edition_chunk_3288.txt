@@ -1,0 +1,5 @@
+Many people 
+use MDas to sort e-mails from mailing lists into separate folders. MDas are also used to sort e-mail 
+based on headers added by other applications; for example, many spam filters add headers indicating 
+whether an e-mail is spam. MDas can read these headers and place e-mails into an appropriate 
+folder—for example, into a spam folder.

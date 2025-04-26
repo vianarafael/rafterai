@@ -1,0 +1,13 @@
+It currently shows a 100 percent copy.
+
+[root@RHEL5 ~]# lvs vg33/lvmir
+  LV    VG   Attr   LSize   Origin Snap%  Move Log        Copy% 
+  lvmir vg33 mwi-ao 300.00M                    lvmir_mlog 100.00
+
+109
+
+logical volume management
+
+11.7. example: snapshot a logical volume
+
+A snapshot is a virtual copy of all the data at a point in time on a volume.

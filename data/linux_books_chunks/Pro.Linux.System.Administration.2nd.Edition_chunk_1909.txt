@@ -1,0 +1,7 @@
+You also have to 
+support it, which can sometime be more burdensome than you think. Because you may choose uncommon 
+options, you may find yourself alone with production problems that no one else has experienced.
+
+Before you build your own, you can also check out the EPEL packages which are upstream packages 
+
+based on Fedora but rebuilt for RHEL, CentOS, and Scientific Linux.

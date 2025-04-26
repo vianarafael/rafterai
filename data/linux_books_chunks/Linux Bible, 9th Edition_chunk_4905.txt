@@ -1,0 +1,15 @@
+However, for 
+our simple example, you can just edit the /etc/hosts ﬁ le on each system and add entries 
+for each host.
+
+Here is an example of what additional entries to your /etc/hosts ﬁ le might look like for 
+the three systems used in this procedure:
+
+192.168.0.138  host1.example.com host1
+192.168.0.139  host2.example.com host2 
+192.168.0.1    storage.example.com storage
+
+Next you need to conﬁ gure the storage.
+
+Confi guring storage
+You can provide networked storage to the hypervisors for this procedure in many ways.

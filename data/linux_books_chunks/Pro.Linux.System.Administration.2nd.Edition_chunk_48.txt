@@ -1,0 +1,10 @@
+You can download and 
+install them without having to pay a license fee.
+
+ ■ Note  You can get the Red hat enterprise Linux software for free and install it without having to pay a 
+license—the only trouble is that you will not be able to get any updates without a support agreement, which 
+can leave you with a buggy and insecure host.
+
+Several of the distributions we’ve discussed have commercial support, and if your technical skills are 
+not strong, it is worth considering such a distribution, such as Red Hat Enterprise Linux or Ubuntu (with 
+support provided by Canonical, their coordinating company).

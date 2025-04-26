@@ -1,0 +1,7 @@
+We will 
+show more about this shortly.
+
+See here for more details: http://docs.ansible.com/ansible/playbooks_vault.html.
+
+With conditionals we can determine when to run a task based on some value. With Jinja2 you can also 
+execute complex conditionals inside the templating engine to return a desired result or action.

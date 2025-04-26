@@ -1,0 +1,22 @@
+Also keep in mind that running passwd as root user lets you add short or blank passwords that regular users cannot 
+add themselves.
+
+263
+
+c11.indd  04/01/2015  Page 264
+
+Part III: Becoming a Linux System Administrator
+
+In creating the account for Sara, the useradd command performs several actions:
+
+ ■ Reads the /etc/login.defs and /etc/default/useradd ﬁ les to get default 
+
+values to use when creating accounts.
+
+ ■ Checks command-line parameters to ﬁ nd out which default values to override.
+
+ ■ Creates a new user entry in the /etc/passwd and /etc/shadow ﬁ les based on the 
+
+default values and command-line parameters.
+
+ ■ Creates any new group entries in the /etc/group ﬁ le.

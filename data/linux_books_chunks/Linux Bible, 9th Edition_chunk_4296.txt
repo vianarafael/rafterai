@@ -1,0 +1,6 @@
+If you share the 
+same key pair, you have the ability to decrypt their public key encrypted messages with your private key. Therefore, 
+you should, at a minimum, use the 2,048-bit key size to reduce the chance of this potential situation.
+
+The user johndoe can check his key ring by using the gpg2 --list-keys command, as 
+shown in the code that follows.

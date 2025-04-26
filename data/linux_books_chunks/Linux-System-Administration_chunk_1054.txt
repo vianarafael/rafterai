@@ -1,0 +1,9 @@
+When  selecting  a  line  in  this  pane,  you  can  see  the
+corresponding bytes in the frame in the bottom panel.
+
+This screenshot shows the middle pane with the source address of my laptop selected.
+
+Note that the above works fine when sniffing one interface. When sniffing with for example
+tcpdump -i any you will end up with Linux cooked at this level.
+
+23.1.9.

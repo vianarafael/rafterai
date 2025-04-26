@@ -1,0 +1,6 @@
+CUPS also comes with a web UI that we will use to add and share our 
+printer.
+
+When you plug in your printer, the kernel will send an event notice to both Udev and the Hardware 
+Abstraction Level (HAL) manager. Udev is a user-space device management application, and HAL provides 
+a consistent interface for the desktop programs.

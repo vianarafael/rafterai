@@ -1,0 +1,14 @@
+configuring the share
+
+We add the following [share] section to our smb.conf (and we do not forget to create the
+directory /srv/samba/authwrite).
+
+[authwrite]
+path = /srv/samba/authwrite
+comment = authenticated users only
+read only = no
+guest ok = no
+
+20.5. testing access with net use
+
+After restarting samba, we test with different users from within Microsoft computers.

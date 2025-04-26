@@ -1,0 +1,16 @@
+Many people still use this directory to 
+temporarily mount local or remote ﬁ lesystems that are not mounted permanently.
+
+ ■ /misc—A directory sometimes used to automount ﬁ lesystems upon request.
+
+ ■ /opt—Directory structure available to store add-on application software.
+
+98
+
+c04.indd  04/01/2015  Page 99
+
+Chapter 4: Moving around the Filesystem
+
+ ■ /proc—Contains information about system resources.
+
+ ■ /root—Represents the root user’s home directory.

@@ -1,0 +1,6 @@
+To fi x this, temporarily 
+disable all dontaudit policy rules using the command semodule -DB.
+
+Troubleshooting common SELinux problems
+When you begin working with SELinux, it is easy to overlook the obvious. Whenever access 
+is denied, you should ﬁ rst check the “traditional” Linux DAC permissions.

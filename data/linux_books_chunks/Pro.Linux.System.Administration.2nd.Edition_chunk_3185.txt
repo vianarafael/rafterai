@@ -1,0 +1,4 @@
+Querying 
+the MX record returns one or more entries that tell your e-mail server where to send the e-mail, usually a 
+specific host or IP address. If there is more than one e-mail server returned, a priority is also returned that 
+tells your e-mail server which entry to use first, and then second, and so on.

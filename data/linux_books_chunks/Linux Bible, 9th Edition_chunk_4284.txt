@@ -1,0 +1,6 @@
+For Ubuntu, you need to install the gnupg2 package to get 
+the gpg2 command.
+
+The example that follows shows the tar command used to create a compressed tar archive 
+(backup.tar.gz) and the gpg2 utility used to encrypt the ﬁ le. With the -c option, gpg2 
+encrypts the ﬁ le with a symmetric key.

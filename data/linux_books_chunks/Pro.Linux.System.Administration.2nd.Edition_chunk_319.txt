@@ -1,0 +1,6 @@
+You can also use Git to quickly see what has changed between different commits.
+
+ git comes from a long heritage of version control systems. the main version control systems (VCS) 
+
+ ■ Note 
+of the past were centralized, meaning you made all your changes on the one VCS.

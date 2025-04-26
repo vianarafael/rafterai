@@ -1,0 +1,7 @@
+However, an RPM ﬁ le also contains metadata 
+that stores information about the contents of that package, where the package came from, what 
+it needs to run, and other information.
+
+What is in an RPM?
+Before you even look inside an RPM, you can tell much about it by the name of the RPM 
+package itself.

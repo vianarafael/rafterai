@@ -1,0 +1,5 @@
+Many Linux applications and desktop environments use fi le suffi xes to determine the contents 
+of a fi le. In Linux, however, DOS command extensions such as .com, .exe, and .bat don’t 
+necessarily signify an executable. (Permission fl ags make Linux fi les executable.)
+
+ ■ Every fi le and directory in a Linux system has permissions and ownership associated with it.

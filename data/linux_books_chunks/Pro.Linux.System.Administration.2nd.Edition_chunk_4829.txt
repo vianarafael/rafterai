@@ -1,0 +1,13 @@
+In our case, we are not using any swap space and 
+so it is showing as 0s out of a possible 1.5GB available to us.
+
+ ■ Note 
+
+ on Linux, free memory means wasted memory, as it is not being utilized, not even as buffer or cache.
+
+We’ll show you how to find out how much memory individual tasks are using in the “Advanced Tools” 
+
+section.
+
+Disk Space
+The other finite resources a computer system has are disk space and disk speed.

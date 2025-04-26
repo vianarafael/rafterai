@@ -1,0 +1,5 @@
+The [S.] is an SYN ACK (or 
+
+no flag to be precise)—this is a response to a SYN packet. The sequence number is another randomly 
+generated number, and the data payload is again zero, (length 0). Attached to this sequence is an ACK 
+response, ack 3194824922.

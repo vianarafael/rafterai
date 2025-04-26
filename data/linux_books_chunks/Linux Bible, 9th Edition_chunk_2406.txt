@@ -1,0 +1,5 @@
+By installing sysstat and enabling 
+the sysstat service, your system immediately begins gathering system activity data 
+that can be reviewed later using certain options to the sar command. The data  gathering 
+is done by a crontab conﬁ guration ﬁ le (/etc/cron.d/sysstat) that is launched at 
+ regular intervals.

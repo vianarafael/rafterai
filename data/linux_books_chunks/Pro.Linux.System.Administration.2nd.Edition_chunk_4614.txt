@@ -1,0 +1,4 @@
+The earlier access definition 
+will override any access we detail here for the previously defined attributes. The administrator accounts 
+require at least read access, and we have given the admins group write access. We will want the admins 
+group to also change details from time to time. The webadmin user just requires read access only.

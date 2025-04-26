@@ -1,0 +1,8 @@
+To restore the ﬁ rewall’s rules on older Fedora systems or RHEL 6 systems, 
+type iptables-restore < /etc/sysconfig/iptables. On a RHEL 7 or recent 
+Fedora system, type systemctl restart firewalld.service to reinstate 
+your system’s permanent ﬁ rewall rules.
+
+8.  This is a trick question! You cannot set a Linux system’s ﬁ rewall policy to reject. 
+
+You can set it to drop, but not reject.

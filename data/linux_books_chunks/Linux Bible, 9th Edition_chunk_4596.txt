@@ -1,0 +1,7 @@
+It can be run for fi le 
+label verifi cation and/or relabeling fi les when adding a new policy module 
+to the system. Does exactly the same thing as the restorecon utility, but 
+has a different interface than restorecon.
+
+The chcat and chcon commands, shown in Table 24.2, allow you to change a ﬁ le’s security 
+context.

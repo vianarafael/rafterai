@@ -1,0 +1,15 @@
+Notice that in this directory, the 
+ﬁ les are symbolic links pointing to service unit conﬁ guration ﬁ les in the /lib/systemd/
+system directory.
+
+# ls /etc/systemd/system/multi-user.target.wants
+abrt-ccpp.service     cups.path           remote-fs.target
+abrtd.service         fcoe.service        rsyslog.service
+abrt-oops.service     irqbalance.service  sendmail.service
+abrt-vmcore.service   lldpad.service      sm-client.service
+atd.service           mcelog.service      sshd-keygen.service
+auditd.service        mdmonitor.service   sshd.service
+...
+# ls -l /etc/systemd/system/multi-user.target.wants
+total 0
+lrwxrwxrwx.

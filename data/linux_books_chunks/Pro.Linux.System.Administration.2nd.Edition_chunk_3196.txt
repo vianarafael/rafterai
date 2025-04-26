@@ -1,0 +1,10 @@
+We think 
+you’ll find postfix powerful and easy to use and that it meets all your needs.
+
+First, let’s see whether Postfix and Dovecot are already installed.
+
+$ sudo rpm -q postfix dovecot
+postfix-2.10.1-6.el7.x86_64
+package dovecot is not installed
+
+If one or more packages are not installed, we need to install them.

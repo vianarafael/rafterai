@@ -1,0 +1,9 @@
+First thing to do is discover the disk layout.
+
+[root@RHEL5 ~]# df -h 
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda2              15G  4.5G  9.3G  33% /
+/dev/sda1              99M   31M   64M  33% /boot
+
+The /boot partition is small but big enough. If we create an identical partition, then dd should
+be a good cloning option.

@@ -1,0 +1,8 @@
+If the addresses are wrong, you can 
+override them.
+
+With NetworkManager enabled, you can’t just add name server entries to the /etc/
+resolv.conf ﬁ le because NetworkManager overwrites that ﬁ le with its own name 
+server entries. Instead, add a PEERDNS=no line to the ifcfg ﬁ le for the network 
+interface (for example, ifcfg-eth0 in the /etc/sysconfig/network-scripts 
+directory).

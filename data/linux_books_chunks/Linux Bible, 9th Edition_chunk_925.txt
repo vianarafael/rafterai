@@ -1,0 +1,17 @@
+For example, to open a ﬁ le called 
+/tmp/test, type the following command:
+
+$ vi /tmp/test
+
+If this is a new ﬁ le, you should see something similar to the following:
+
+❏
+~
+~
+~
+~
+~
+"/tmp/test" [New File]
+
+A blinking box at the top represents where your cursor is. The bottom line keeps you 
+informed about what is going on with your editing (here, you just opened a new ﬁ le).

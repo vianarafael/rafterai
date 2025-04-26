@@ -1,0 +1,7 @@
+The troff command formatted the document and then piped the output to the printer. 
+When the formatting was ﬁ nished, the date and time were printed again (so I knew how 
+long the troff command took to complete).
+
+3
+
+Another useful command to add to the end of a long command line is mail.

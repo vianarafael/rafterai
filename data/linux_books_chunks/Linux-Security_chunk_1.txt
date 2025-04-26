@@ -1,0 +1,6 @@
+For self-study, the intent is to read
+this book next to a working Linux computer so you can immediately do every subject, practicing
+each command.
+
+This book is aimed at novice Linux system administrators (and might be interesting and useful
+for home users that want to know a bit more about their Linux system).

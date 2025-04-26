@@ -1,0 +1,12 @@
+Status Output of ip addr show on an Active Interface
+
+$ ip addr show enp0s3
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group 
+default qlen 1000
+    link/ether 08:00:27:a4:da:6b brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.1/24 brd 192.168.0.255 scope global enp0s3
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fea4:da6b/64 scope link
+       valid_lft forever preferred_lft forever
+
+The first line shows the status of the interface.

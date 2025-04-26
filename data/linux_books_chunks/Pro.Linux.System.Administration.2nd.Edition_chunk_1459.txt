@@ -1,0 +1,15 @@
+It now drops the packet and sends the expired-in-transit message.
+
+$ ping -t 1 -c 1 www.ibm.com
+PING www.ibm.com.cs186.net (129.42.60.216) 56(84) bytes of data.
+From 192.168.0.254 (192.168.0.254) icmp_seq=1 Time to live exceeded
+
+250
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+--- www.ibm.com.cs186.net ping statistics  ---
+1 packets transmitted, 0 received, +1 errors, 100% packet loss, time 0ms
+
+The mtr and traceroute applications use the packet sent back to discover the IP address of the router 
+(as the TCP/IP packet containing the reply will hold this information).

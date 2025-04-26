@@ -1,0 +1,19 @@
+The enp0s9 interface again mirrors the enp0s8 configuration.
+
+Moving on to the bond device, we can set that like the following:
+
+# The primary network interface
+auto bond0
+iface bond0 inet static
+address 192.168.0.10
+netmask 255.255.255.0
+bond-mode active-backup
+bond-miimon 100
+bond_downdelay 25
+bond_updelay 25
+bond-primary enp0s8
+bond-slaves enp0s8 enp0s9
+
+In the first line, auto bond0, we have declared here that the bond0 device should be loaded 
+
+automatically at boot time.

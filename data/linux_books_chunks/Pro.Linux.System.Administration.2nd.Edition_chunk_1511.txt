@@ -1,0 +1,11 @@
+Routes are the 
+pathways your host should follow to access other networks or other hosts.
+
+257
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+IP FORWARDING
+
+linux hosts generally have iP forwarding turned off by default. iP forwarding allows your host to act 
+as a router, directing packets sent to it by hosts on your network to the destination host.

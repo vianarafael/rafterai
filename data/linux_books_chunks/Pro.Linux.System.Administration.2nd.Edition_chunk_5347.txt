@@ -1,0 +1,4 @@
+In this case, we’re printing some text 
+including a number of macros to the /bin/mail binary.
+
+This would send an e-mail to any required contacts notifying them of the change in status.

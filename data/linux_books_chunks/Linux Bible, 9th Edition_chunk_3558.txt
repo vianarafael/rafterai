@@ -1,0 +1,13 @@
+NFS is the native 
+Linux facility for sharing and mounting ﬁ lesystems over networks with other Linux 
+and UNIX systems.
+
+525
+
+c19.indd  04/01/2015  Page 526
+
+Part IV: Becoming a Linux Server Administrator
+
+Exercises
+The exercises in this section describe tasks related to setting up a Samba server in Linux 
+and accessing that server using a Samba client.

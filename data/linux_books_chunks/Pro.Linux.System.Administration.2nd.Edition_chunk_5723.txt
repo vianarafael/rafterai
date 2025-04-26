@@ -1,0 +1,2 @@
+You’ve already seen two functions: template, which we used to create a template 
+configuration file, and include, which we used to specify the classes for our nodes.

@@ -1,0 +1,6 @@
+If the drive isn’t mounted automati-
+cally, it is up to an administrator to create a mount point in the fi lesystem and then connect the disk 
+to that point.
+
+Linux can understand VFAT fi lesystems, which are often the default format when you buy a USB fl ash 
+drive. A VFAT USB fl ash drive provides a good way to share data between Linux and Windows systems.

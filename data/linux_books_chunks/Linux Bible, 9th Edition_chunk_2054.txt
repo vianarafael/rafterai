@@ -1,0 +1,7 @@
+If you happen to have a system 
+that uses GUID partition tables, you can use a tool called gdisk instead of the fdisk 
+ command described in this chapter.
+
+Limitations imposed by the MBR speciﬁ cation brought about the need for GUID  partitions. 
+In particular, MBR partitions are limited to 2TB in size. GUID partitions can create 
+ partitions up to 9.4ZB (zettabytes).

@@ -1,0 +1,8 @@
+It is 
+also this layer that is responsible for responding to your pings and other routing requests.
+
+248
+
+Layers 4 to 7 are described as the host layers. TCP operates in layers 4-5, the network and the session layers. 
+
+The network layer is concerned with addressing and link reliability, things like error control and flow control.

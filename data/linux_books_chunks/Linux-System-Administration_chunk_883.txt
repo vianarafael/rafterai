@@ -1,0 +1,7 @@
+apt-get update
+
+When typing apt-get update you are downloading the names, versions and short description
+of all packages available on all configured repositories for your system.
+
+In  the  example  below  you  can  see  some  repositories  at  the  url  be.archive.ubuntu.com
+because this computer was installed in Belgium.

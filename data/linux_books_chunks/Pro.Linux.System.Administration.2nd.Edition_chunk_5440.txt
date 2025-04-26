@@ -1,0 +1,8 @@
+For example, if you are an authenticated contact for the server1 host, you are able to view the status, 
+configuration, service history, and notifications as well as issue commands to all the services defined on 
+that host.
+
+Console Functions
+
+The Nagios console provides not only an interface through which to view your hosts and services but also 
+the ability to control how they are monitored.

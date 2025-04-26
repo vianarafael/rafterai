@@ -1,0 +1,32 @@
+ntpd Status in the Ubuntu System Log
+
+Jun 25 09:07:00 ubuntu ntp[13644]:  * Starting NTP server ntpd
+Jun 25 09:07:00 ubuntu ntpd[13653]: ntpd 4.2.8p4@1.3265-o Fri Apr  8 20:58:07 UTC 2016 (1): 
+Starting
+Jun 25 09:07:00 ubuntu ntpd[13653]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 
+112:116
+Jun 25 09:07:00 ubuntu ntp[13644]:    ...done.
+Jun 25 09:07:00 ubuntu systemd[1]: Started LSB: Start NTP daemon.
+Jun 25 09:07:00 ubuntu ntpd[13655]: proto: precision = 0.059 usec (-24)
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listen and drop on 0 v6wildcard [::]:123
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listen normally on 2 lo 127.0.0.1:123
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listen normally on 3 enp0s3 10.0.2.15:123
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listen normally on 4 lo [::1]:123
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listen normally on 5 enp0s3 [fe80::ff:86ff:fe2d:
+ca23%2]:123
+Jun 25 09:07:00 ubuntu ntpd[13655]: Listening on routing socket on fd #22 for interface 
+updates
+Jun 25 09:07:01 ubuntu ntpd[13655]: Soliciting pool server 203.122.222.45
+Jun 25 09:07:02 ubuntu ntpd[13655]: Soliciting pool server 27.124.125.251
+Jun 25 09:07:02 ubuntu ntpd[13655]: Soliciting pool server 103.51.68.133
+Jun 25 09:07:03 ubuntu ntpd[13655]: Soliciting pool server 130.102.128.23
+Jun 25 09:07:03 ubuntu ntpd[13655]: Soliciting pool server 150.101.217.196
+Jun 25 09:07:03 ubuntu ntpd[13655]: Soliciting pool server 121.0.0.41
+Jun 25 09:07:04 ubuntu ntpd[13655]: Soliciting pool server 121.0.0.42
+Jun 25 09:07:04 ubuntu ntpd[13655]: Soliciting pool server 202.127.210.36
+Jun 25 09:07:04 ubuntu ntpd[13655]: Soliciting pool server 202.127.210.37
+Jun 25 09:07:04 ubuntu ntpd[13655]: Soliciting pool server 200.160.7.186
+
+We can also verify that our host is synchronized by querying the NTP server from the local host via the 
+ntpq command, as shown in Listing 10-4.

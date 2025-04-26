@@ -1,0 +1,2 @@
+There is a tool you can use to test your ACLs called slapacl. This tool tests access to attributes and object 
+classes by the DN you want to grant access to.

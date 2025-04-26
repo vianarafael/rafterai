@@ -1,0 +1,8 @@
+These sorts of tools include Red Hat’s Red Hat Network (RHN, which is Red Hat’s commercial 
+update service), Duke University’s Yellowdog Updater Modified or yum, Mandriva’s urpmi, and the new 
+
+299
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+package manager in Fedora called dnf.

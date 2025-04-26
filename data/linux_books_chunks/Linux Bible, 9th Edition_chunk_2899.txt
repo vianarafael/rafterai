@@ -1,0 +1,13 @@
+You can turn off the feature to prevent others on 
+the local network from seeing a printer.
+
+ ■ UNIX print commands—To integrate into Linux and other UNIX environments, 
+CUPS offers versions of standard commands for printing and managing printers 
+that have been traditionally offered with UNIX systems.
+
+Instead of using the Print Settings window, you can conﬁ gure CUPS printing in other 
+ways as well:
+
+ ■ Configuring CUPS from a browser—The CUPS project itself offers a web-based 
+
+interface for adding and managing printers.

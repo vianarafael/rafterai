@@ -1,0 +1,2 @@
+To open the Panel Properties window that applies to a speciﬁ c panel, 
+ right-click an open space on the panel and choose Properties.

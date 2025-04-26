@@ -1,0 +1,7 @@
+Instead, I want you to 
+understand what you will be dealing with if you eventually land in a cloud data center . . . 
+because many people believe that most data centers will be managed as cloud infrastruc-
+tures in the not-too-distant future.
+
+So far in this chapter, you have looked at the inside of conﬁ guring Linux for cloud 
+ computing.

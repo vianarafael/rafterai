@@ -1,0 +1,6 @@
+To avoid such security issues, watching over user accounts is an important 
+activity.
+
+Detecting counterfeit new accounts and privileges
+Accounts created without going through the appropriate authorization should be consid-
+ered counterfeit.

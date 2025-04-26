@@ -1,0 +1,6 @@
+this date is 
+also known as Unix epoch or Unix time. It is used to describe points in time and is measured in seconds since 
+January 1, 1970 (e.g., 1229519557). You can find the Unix time on your host by using the command date +%s.
+
+The first option, -m, allows you to specify the minimum amount of time between password changes. A 
+setting of 0 allows the user to change the password at any time.

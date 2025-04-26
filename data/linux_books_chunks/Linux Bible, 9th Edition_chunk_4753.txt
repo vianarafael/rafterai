@@ -1,0 +1,6 @@
+A software ﬁ rewall is also called a rule-based ﬁ rewall.
+
+ ■ A firewall is either a network-layer filter or application-layer filter. A 
+
+ ﬁ rewall that examines individual network packets is also called a packet ﬁ lter. A 
+ network-layer ﬁ rewall allows only certain packets into and out of the system.

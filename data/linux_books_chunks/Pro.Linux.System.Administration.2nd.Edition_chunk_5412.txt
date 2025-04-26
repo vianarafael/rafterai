@@ -1,0 +1,10 @@
+For example, you can find a huge 
+
+collection of such plug-ins at https://exchange.nagios.org/directory/Plugins.
+
+ You can also find some useful add-ons at https://www.nagios.org/downloads/nagios-core-
+
+ ■ Note 
+addons/.
+
+You can develop your own plug-ins, if required.

@@ -1,0 +1,4 @@
+The latest version is FAT32, which supports disk sizes over 32 GiB and 
+file sizes of up to 4 GiB.
+
+To create a FAT32 filesystem, you use the mkfs.vfat utility.

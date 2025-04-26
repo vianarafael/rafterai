@@ -1,0 +1,38 @@
+Here are some rules to follow when choosing a password:
+
+ ■ Do not use any variation of your login name or your full name.
+
+22
+
+ ■ Do not use a dictionary word.
+
+ ■ Do not use proper names of any kind.
+
+ ■ Do not use your phone number, address, family, or pet names.
+
+ ■ Do not use website names.
+
+ ■ Do not use any contiguous line of letters or numbers on the keyboard (such as 
+
+“qwerty” or ”asdfg”).
+
+ ■ Do not use any of the above with added numbers or punctuation to the front or 
+
+end, or typed backward.
+
+So now that you know what not to do, look at the two primary items that make a strong 
+password:
+
+ ■ A password should be at least 15 to 25 characters in length.
+
+ ■ A password should contain all of the following:
+
+ ■ Lowercase letters
+
+ ■ Uppercase letters
+
+ ■ Numbers
+
+ ■ Special characters, such as : ! $ % * ( ) - + = , < > : : " '
+
+Twenty-ﬁ ve characters is a long password.

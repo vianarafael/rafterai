@@ -1,0 +1,11 @@
+In fact, if you attach a local printer in Fedora and the print driver is not yet installed, 
+you are prompted to install the software packages needed to use the printer.
+
+425
+
+c16.indd  04/01/2015  Page 426
+
+Part IV: Becoming a Linux Server Administrator
+
+The ﬁ rst time you go to print a document or view your Print Settings tool, the printers are 
+ready to use.

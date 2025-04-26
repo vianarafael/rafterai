@@ -1,0 +1,14 @@
+uuid as a boot device
+
+Recent Linux distributions (Debian, Ubuntu, ...) use grub with a uuid to identify the root
+file system.
+
+This example shows how a root=/dev/sda1 is replaced with a uuid.
+
+title           Ubuntu 9.10, kernel 2.6.31-19-generic
+uuid            f001ba5d-9077-422a-9634-8d23d57e782a
+kernel          /boot/vmlinuz-2.6.31-19-generic \
+root=UUID=f001ba5d-9077-422a-9634-8d23d57e782a ro quiet splash 
+initrd          /boot/initrd.img-2.6.31-19-generic
+
+The  screenshot  above  contains  only  four  lines.

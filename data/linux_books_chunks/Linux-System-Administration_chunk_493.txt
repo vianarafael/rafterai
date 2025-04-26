@@ -1,0 +1,12 @@
+Notice also the change in free space in all three Physical Volumes!
+
+[root@RHEL5 ~]# lvcreate --size 300m -n lvmir -m 1 vg33 
+  Logical volume "lvmir" created
+[root@RHEL5 ~]# pvs
+  PV         VG         Fmt  Attr PSize   PFree  
+  /dev/sda2  VolGroup00 lvm2 a-    15.88G      0 
+  /dev/sdb   vg33       lvm2 a-   408.00M 108.00M
+  /dev/sdc   vg33       lvm2 a-   408.00M 108.00M
+  /dev/sdd   vg33       lvm2 a-   408.00M 404.00M
+
+You can see the copy status of the mirror with lvs.

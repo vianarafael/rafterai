@@ -1,0 +1,5 @@
+When a test expression is evaluated, it returns either a value 
+of 0, meaning that it is true, or a 1, meaning that it is false. Notice that the echo lines are 
+indented. The indentation is optional and done only to make the script more readable.
+
+Table 7.1 lists the conditions that are testable and is quite a handy reference.

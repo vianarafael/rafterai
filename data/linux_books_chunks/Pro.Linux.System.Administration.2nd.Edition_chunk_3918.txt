@@ -1,0 +1,5 @@
+Unfortunately, this can’t be done with binary files (like JPEGs), 
+because with binary files, it is harder to differentiate any changes to the file.
+
+As mentioned earlier, we can use rsync in a client/server model, where we run an rsync daemon on 
+the target host that waits for rsync connections.

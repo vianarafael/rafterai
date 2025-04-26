@@ -1,0 +1,28 @@
+Unlike 
+earlier versions, the NFS version 4 protocol supports traditional file access 
+while integrating support for file locking and the mount protocol
+
+[...]
+
+The NFS version 4 protocol [...] retains the essential characteristics of 
+previous versions: design for easy recovery, independent of transport protocols, 
+operating systems and filesystems, simplicity, and good performance” (RFC3010)
+
+The NFS server runs the following daemons:
+
+rpc.nfsd
+rpc.mountd
+
+These services are started with the nfs sevice:
+
+/etc/init.d/nfs start/stop/status/restart/reload
+
+In addition rpc.statd is used to notify the client when the NFS service is unexpectedly 
+interrupted, and rpc.lockd allows clients to lock files accessed on the server.
+
+These services are started with the nfslock service:
+
+/etc/init.d/nfslock start/stop/status/restart
+
+Programs using remote procedure calls (RPC) use specific program numbers listed in 
+/etc/rpc.

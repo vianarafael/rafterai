@@ -1,0 +1,12 @@
+tracing with strace
+
+More detailed tracing of all function calls can be done with strace. We start by creating a
+read only file.
+
+root@deb503:~# echo hello > 42.txt
+root@deb503:~# chmod 400 42.txt 
+root@deb503:~# ls -l 42.txt 
+-r-------- 1 root root 6 2011-09-26 12:03 42.txt
+
+We open the file with vi, but include the strace command with an output file for the trace
+before vi.

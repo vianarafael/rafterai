@@ -1,0 +1,15 @@
+The dhcp server usually responds with a dhcp ack(knowledge).
+
+In wireshark it looks like this.
+
+When this procedure is finished, then the client is allowed to use that ip-configuration until
+the end of its lease time.
+
+103
+
+introduction to dhcp
+
+6.2. picturing dhcp
+
+Here we have a small network with two dhcp servers named DHCP-SRV1 and DHCP-
+SRV2 and two clients (SunWS1 and Mac42).

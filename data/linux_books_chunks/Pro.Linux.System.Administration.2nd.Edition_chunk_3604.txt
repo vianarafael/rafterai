@@ -1,0 +1,25 @@
+Dovecot Debugging Options
+
+Option
+
+Description
+
+mail_debug
+
+When set to yes, it shows more information about the mail process.
+
+auth_verbose
+
+When set to yes, it shows more information about the authentication process.
+
+auth_debug
+
+When set to yes, it shows debugging information about the authentication process.
+
+auth_debug_
+password
+
+If both auth_debug and this option are set to yes, the authentication mechanisms and 
+password are displayed.
+
+Turn on one or more of these options to see verbose debugging information.

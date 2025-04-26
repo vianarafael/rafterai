@@ -1,0 +1,7 @@
+Allow Git commands from the windows command line
+
+In Figure 3-11 we are choosing the setting that allows us to use Git from the Windows Command 
+
+Prompt and the Git Bash prompt. This gives us a bit of flexibility when working with our files.
+
+The next step may take a bit of thinking as well.

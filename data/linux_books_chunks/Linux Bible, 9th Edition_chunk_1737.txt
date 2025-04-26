@@ -1,0 +1,7 @@
+So if a  package 
+being installed from rpmfusion.org needed a library or command from the main Fedora 
+repository, the Fedora package could be downloaded and installed at the same time you 
+install the rpmfusion.org package.
+
+The yum repositories could be put in a directory on a web server (http://), an FTP server 
+(ftp://), or a local medium such as a CD, DVD, or local directory (file://).

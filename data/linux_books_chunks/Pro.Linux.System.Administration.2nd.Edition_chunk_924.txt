@@ -1,0 +1,5 @@
+Then the specified command will be executed as the root user, unless you specify a different user with the 
+–u <username> option to sudo.. This allows you to perform the actions the root user can, like creating users, 
+without actually having to sign in as the root user. You can see sudo at work in Listing 5-16.
+
+Listing 5-16.

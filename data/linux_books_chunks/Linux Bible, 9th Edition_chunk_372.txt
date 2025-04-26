@@ -1,0 +1,6 @@
+X clients (such as word 
+ processors, music players, or image viewers) can be launched from the local system or from 
+any system on your network, provided that the X server gives permission to do so.
+
+X was created in a time when graphical terminals (thin clients) simply managed the key-
+board, mouse, and display.

@@ -1,0 +1,7 @@
+A server can also broadcast the availability of a printer so a printing client 
+can easily ﬁ nd a list of locally available printers without conﬁ guration.
+
+ ■ Drivers—CUPS also standardized how printer drivers are created. The idea was to 
+
+have a common format that could be used by printer manufacturers so that a driver 
+could work across all different types of UNIX systems.

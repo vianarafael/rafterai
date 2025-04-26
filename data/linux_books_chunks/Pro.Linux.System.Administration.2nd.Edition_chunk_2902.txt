@@ -1,0 +1,2 @@
+It should be noted that we are passing credentials over an 
+unencrypted HTTP session, which is a dangerous practice.

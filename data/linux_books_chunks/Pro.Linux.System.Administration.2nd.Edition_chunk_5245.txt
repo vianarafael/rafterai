@@ -1,0 +1,33 @@
+It does this by sending either network pings to nodes or 
+unicast packets that participating hosts can react to.
+
+Since we are not setting up a cluster, we can just start the service now without changing the 
+
+configuration.
+
+$ sudo systemctl start elasticsearch
+
+871
+
+Chapter 18 ■ Logging and Monitoring
+
+Of course, we can always use the status subcommand of systemctl to check the status of our 
+
+Elasticsearch service, but we can also issue the following command from the command line:
+
+$ curl http://localhost:9200
+{
+  "name" : "7mf_JBi",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "69nMGfoYRYiwatKO6Nj1BA",
+  "version" : {
+    "number" : "5.0.2",
+    "build_hash" : "f6b4951",
+    "build_date" : "2016-11-24T10:07:18.101Z",
+    "build_snapshot" : false,
+    "lucene_version" : "6.2.1"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+This curl command to port 9200 shows that our Elasticsearch server is responding.

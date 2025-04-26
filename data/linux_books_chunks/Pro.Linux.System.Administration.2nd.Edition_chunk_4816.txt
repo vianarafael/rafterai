@@ -1,0 +1,7 @@
+This may happen if a badly written application or daemon keeps 
+spawning copies of itself. See the “Fork Bomb” sidebar for more information. We’ll show you how to prevent 
+this using the ulimit command later.
+
+Finally, it’s possible that a process is waiting for the host to perform a task that cannot be interrupted, 
+
+such as moving data to or from disk.

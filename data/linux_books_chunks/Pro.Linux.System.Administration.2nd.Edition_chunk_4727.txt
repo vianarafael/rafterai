@@ -1,0 +1,20 @@
+If you discover you do not like using this tool, you might want to try some of the others that 
+exist, such as the following:
+
+•	
+
+Luma: http://luma.sourceforge.net/
+
+•	 GQ: http://sourceforge.net/projects/gqclient/
+
+•	
+
+phpldapAdmin: http://phpldapadmin.sourceforge.net/
+
+•	 web2ldap: https://web2ldap.de/web2ldap.html
+
+•	
+
+LDAPAdmin: https://github.com/ibv/LDAP-Admin (Linux version)
+
+Some of these are old, and some more are recent.

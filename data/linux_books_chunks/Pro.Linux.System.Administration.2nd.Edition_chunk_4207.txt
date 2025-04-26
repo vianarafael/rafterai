@@ -1,0 +1,5 @@
+We can now start the Bareos console program using the bconsole command like so:
+
+$ sudo /usr/sbin/bconsole
+
+First, we can list the current status of the Director by issuing the status all command.

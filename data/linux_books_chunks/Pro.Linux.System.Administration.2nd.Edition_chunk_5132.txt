@@ -1,0 +1,1 @@
+This is going to collect our logs from our network and store them.

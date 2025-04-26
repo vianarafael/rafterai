@@ -1,0 +1,4 @@
+Each plug-in can be 
+placed in its own configuration file; however, if there are duplicates that LoadPlugin calls, the first that is read 
+in will be executed, and any other configuration for that plug-in will be silently ignored. The configuration is 
+similar to Apache web server configuration files.

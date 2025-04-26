@@ -1,0 +1,13 @@
+common problems
+
+14.8.1. NT_STATUS_BAD_NETWORK_NAME
+
+You  can  get  NT_STATUS_BAD_NETWORK_NAME  when  you  forget  to  create  the
+target directory.
+
+[root@RHEL52 samba]# rm -rf /srv/samba/authwrite/
+[root@RHEL52 samba]# smbclient //teacher0/authwrite -U martina stargate
+Domain=[TEACHER0] OS=[Unix] Server=[Samba 3.0.33-3.7.el5]
+tree connect failed: NT_STATUS_BAD_NETWORK_NAME
+
+14.8.2.

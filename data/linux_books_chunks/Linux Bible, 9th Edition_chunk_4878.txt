@@ -1,0 +1,8 @@
+In 
+this example, each hypervisor also has a network bridge conﬁ gured so each virtual 
+machine can pick up an IP address directly from a DHCP service on the network.
+
+ ■ Hypervisors—Two of the computers are conﬁ gured as hypervisors. A hypervi-
+
+sor (sometimes referred to as a host or a computer node) allows you to run virtual 
+machines.

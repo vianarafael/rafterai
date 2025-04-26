@@ -1,0 +1,11 @@
+If they are not installed, you can install either 
+one as follows:
+
+# yum install k3b
+# yum install wodim
+
+Burning CDs from a Linux desktop
+Here’s how to create bootable Linux CDs from a running Linux system (such as Fedora) 
+using K3b. K3b comes with the KDE desktop but runs on the GNOME desktop as well.
+
+1.  Download the ISO images you want to your computer’s hard drive.

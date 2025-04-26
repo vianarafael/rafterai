@@ -1,0 +1,29 @@
+Both Red
+Hat and Debian have decided in 2014 that systemd will be replacing init in future releases
+(RHEL7/CentOS7 and Debian 8).
+
+The screenshot below shows systemd running as pid 1 on RHEL7.
+
+[root@rhel7 ~]# ps fax | grep systemd | cut -c1-76
+    1 ?        Ss     0:01 /usr/lib/systemd/systemd --switched-root --system
+  505 ?        Ss     0:00 /usr/lib/systemd/systemd-journald
+  545 ?        Ss     0:00 /usr/lib/systemd/systemd-udevd
+  670 ?        Ss     0:00 /usr/lib/systemd/systemd-logind
+  677 ?        Ssl    0:00 /bin/dbus-daemon --system --address=systemd: --no
+ 2662 pts/1    S+     0:00          \_ grep --color=auto systemd
+[root@rhel7 ~]#
+
+Debian 8 (not yet released in September 2014) uses parts of systemd, but still has init as
+pid 1.
+
+root@debian8:~# ps fax | grep systemd
+ 2042 ?        S      0:00 /sbin/cgmanager --daemon -m name=systemd
+10127 pts/4    S+     0:00          |                   \_ grep systemd
+ 2777 ?        S      0:00 /lib/systemd/systemd-logind
+root@debian8:~#
+
+183
+
+init and runlevels
+
+15.8.1.

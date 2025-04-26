@@ -1,0 +1,6 @@
+(Bash can run on other operating systems as well.)
+
+This is the colon-separated list of directories used to fi nd commands that 
+you type. The default value for regular users varies for different distribu-
+tions, but typically includes the following: /bin:/usr/bin:/usr/local/
+bin:/usr/bin/X11:/usr/X11R6/bin:~/bin.

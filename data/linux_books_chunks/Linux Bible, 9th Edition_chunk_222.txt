@@ -1,0 +1,7 @@
+Sun Microsystems was selling lots of UNIX 
+ workstations (originally based on BSD but merged with UNIX in SVR4) for programmers and 
+high-end technology applications (such as stock trading).
+
+Other commercial UNIX systems were also emerging by the 1980s as well. This new 
+ ownership assertion of UNIX was beginning to take its toll on the spirit of open 
+ contributions.

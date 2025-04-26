@@ -1,0 +1,7 @@
+You need to use the same values as your 
+certificate authority. For the Common Name field, you should specify the fully qualified domain name of 
+your server, in our case gateway.example.com.
+
+We need to sign on to our host that manages our CA to sign our CSR request and generate our public 
+
+certificate.

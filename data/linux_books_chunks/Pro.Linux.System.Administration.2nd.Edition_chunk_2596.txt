@@ -1,0 +1,4 @@
+You can use the 
+YYYYMMDD for the current year, month, and day, followed by a two-digit number. This allows people to 
+easily see when the zone was last changed, while still allowing for 99 changes each day. You can also choose 
+to use a date based on unix epoch time (number of seconds since 01/01/1970) for the zone.

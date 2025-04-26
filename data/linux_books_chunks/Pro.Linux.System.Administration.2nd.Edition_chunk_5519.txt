@@ -1,0 +1,13 @@
+Selecting Boot from Hard Disk
+
+925
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Remember, when we have finished installing our host on VirtualBox, we need power on the host and 
+
+need to change the boot device and then start the host again.
+
+Figure 19-7.  CentOS installed
+
+Figure 19-8.

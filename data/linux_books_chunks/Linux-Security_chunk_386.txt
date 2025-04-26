@@ -1,0 +1,4 @@
+We will discuss chains and the nat table
+later in this chapter.
+
+11.2.

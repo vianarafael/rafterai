@@ -1,0 +1,7 @@
+This is a way 
+that add-on packages to a service can have their conﬁ guration  information enabled in 
+the httpd server, without the package trying to run a script to edit the main 
+httpd.conf ﬁ le.
+
+The one downside to plain-text conﬁ guration ﬁ les is that you don’t get the kind of 
+ immediate error checking you get when you use graphical administration tools.

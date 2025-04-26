@@ -1,0 +1,3 @@
+Lastly, we log the referrer (%{Referer}i) and user agent (%{User-Agent}i), which makes use 
+of Apache VARNAMEs - variable names available to the logging format. These are derived from the headers 
+sent by the browser. We then give this log format the name vhost_combined.

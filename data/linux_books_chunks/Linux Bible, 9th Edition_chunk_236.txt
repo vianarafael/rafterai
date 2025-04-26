@@ -1,0 +1,4 @@
+If something goes wrong, the original developer of 
+the software has no obligation to ﬁ x the problem. However, many organizations, big and 
+small, offer paid support (often in subscription form) for the software when it is included in 
+their Linux or other open source software distribution.

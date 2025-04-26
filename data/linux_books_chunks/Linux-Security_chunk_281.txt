@@ -1,0 +1,7 @@
+You  have  to
+explicitly do a chmod +x to make a file executable. This also means that the 1 bit in the
+umask has no meaning--a umask of 0022 is the same as 0033.
+
+6.3.7. mkdir -m
+
+When  creating  directories  with  mkdir  you  can  use  the  -m  option  to  set  the  mode.

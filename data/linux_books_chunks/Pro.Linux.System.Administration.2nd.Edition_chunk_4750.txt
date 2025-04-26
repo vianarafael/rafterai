@@ -1,0 +1,12 @@
+When we enter the password for our rootDN, we are presented with the users we 
+have already configured, as shown in Figure 16-5.
+
+Figure 16-5.  Front page of the LAM web GUI
+
+783
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+We are now going to create a new user using the standard profile. Profiles serve as templates for creating 
+
+users.

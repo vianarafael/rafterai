@@ -1,0 +1,18 @@
+They also allow us to demonstrate the major configuration options and styles, 
+package management tools, and associated administrative techniques used by a broad swathe of the 
+available Linux distributions.
+
+Specifically, this book covers the material needed to implement applications and tools on
+
+•	
+
+Red Hat Enterprise Linux or a Red Hat–based distribution like CentOS or Fedora
+
+•	 Ubuntu or other Debian-based distributions
+
+When providing specific examples, we’ve chosen to demonstrate using CentOS 7 and Ubuntu LTS 
+
+XenialXerus (16.04).
+
+ ■ Note  LTS is an abbreviation for “long-term support.” The ubuntu project updates its server and desktop 
+releases every six months.

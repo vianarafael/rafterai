@@ -1,0 +1,6 @@
+In that case, going to the Setup screen, as described in 
+the previous section, to either enable the device or change a setting to make it bootable, 
+may be the thing to do.
+
+If the device you want to boot from does appear in the boot order, typically you just have 
+to move the arrow key to highlight the device you want and press Enter.

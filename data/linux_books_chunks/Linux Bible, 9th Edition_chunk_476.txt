@@ -1,0 +1,7 @@
+Nautilus can also display other types of 
+content, such as shared folders from Windows computers on the network (using SMB).
+
+ ■ GNOME panels (application/task launcher)—These panels, which line the top and 
+bottom of your screen, are designed to make it convenient for you to launch the 
+applications you use, manage running applications, and work with multiple virtual 
+desktops.

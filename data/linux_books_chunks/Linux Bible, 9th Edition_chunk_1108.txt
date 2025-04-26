@@ -1,0 +1,4 @@
+So, for example, if a user 
+
+sets the nice value on a process to 10, and then later wants to set it back to 5, that 
+action will fail.

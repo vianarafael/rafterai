@@ -1,0 +1,23 @@
+So how did chmod know to do that? Well, the u in our 
+
+change represents the User class. With chmod, each class is abbreviated to a single letter:
+
+•	
+
+•	
+
+•	
+
+•	
+
+u: User
+
+g: Group
+
+o: Other or everyone
+
+a: All
+
+After the class, you specify the action you’d like to take on the class. In the first line in Listing 4-11, the + 
+
+sign represents adding a permission.

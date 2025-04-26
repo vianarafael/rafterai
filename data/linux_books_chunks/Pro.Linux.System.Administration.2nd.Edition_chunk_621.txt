@@ -1,0 +1,4 @@
+This command displays all of your disks and storage devices and the free 
+space present on them. You can see the df command in Listing 4-13.
+
+Listing 4-13.

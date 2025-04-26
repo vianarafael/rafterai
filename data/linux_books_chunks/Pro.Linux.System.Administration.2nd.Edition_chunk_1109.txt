@@ -1,0 +1,6 @@
+There are many optional parameters 
+
+that can be set for rsyslogd and you can add them into the /etc/sysconfig/rsyslog file. Options found in 
+man rsyslogd can be added to the file.
+
+Next we have the ExecStart option. This is the command that is executed, along with any arguments.

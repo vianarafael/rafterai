@@ -1,0 +1,49 @@
+It is however a very simple script that uses wget and
+mogrify to download images (.jpg .gif and .png), flip them and store them in /var/www/
+images.
+
+root@debian7:~# cat /usr/local/bin/flip.pl
+#!/usr/bin/perl
+$|=1;
+$count = 0;
+$pid = $$;
+while (<>) {
+ chomp $_;
+ if ($_ =~ /(.*\.jpg)/i) {
+  $url = $1;
+  system("/usr/bin/wget", "-q", "-O","/var/www/images/$pid-$count.jpg", "$url");
+  system("/usr/bin/mogrify", "-flip","/var/www/images/$pid-$count.jpg");
+  print "http://127.0.0.1/images/$pid-$count.jpg\n";
+ }
+ elsif ($_ =~ /(.*\.gif)/i) {
+  $url = $1;
+  system("/usr/bin/wget", "-q", "-O","/var/www/images/$pid-$count.gif", "$url");
+  system("/usr/bin/mogrify", "-flip","/var/www/images/$pid-$count.gif");
+  print "http://127.0.0.1/images/$pid-$count.gif\n";
+ }
+ elsif ($_ =~ /(.*\.png)/i) {
+  $url = $1;
+  system("/usr/bin/wget", "-q", "-O","/var/www/images/$pid-$count.png", "$url");
+  system("/usr/bin/mogrify", "-flip","/var/www/images/$pid-$count.png");
+  print "http://127.0.0.1/images/$pid-$count.png\n";
+ }
+ else {
+         print "$_\n";;
+ }
+ $count++;
+}
+
+Change (or enable) also the following line in /etc/squid/suiqd.conf.
+
+http_access allow localnet
+http_port 3128 transparent
+
+110
+
+introduction to squid
+
+url_rwwrite_program /usr/local/bin/flip.pl
+
+The  directory  this  script  uses  is  /var/www/images  and  should  be  accessible  by  both  the
+squid  server  (which  uses  the  user  named  proxy  and  by  the  apache2  webserver  (which
+uses the user www-data.

@@ -1,0 +1,8 @@
+We will look at Filebeat, which will ship our logs to Logstash.
+
+861
+
+Chapter 18 ■ Logging and Monitoring
+
+Logstash is a tool that can transform logs (or other data such as metrics and so on) into data that can 
+be indexed and tagged and then stored (or shipped again) to make discovery of that data easier.

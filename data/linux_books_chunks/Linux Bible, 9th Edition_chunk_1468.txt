@@ -1,0 +1,10 @@
+After the installation, you can add 
+and remove packages as you please.
+
+The ﬁ rst decisions you have to make about your Live media installation include where 
+you want to install the system and whether you want to keep existing operating systems 
+around when your installation is done:
+
+ ■ Single-boot computer—The easiest way to install Linux is to not have to worry 
+about other operating systems or data on the computer and have Linux replace 
+everything.

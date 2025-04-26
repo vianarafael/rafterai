@@ -1,0 +1,27 @@
+To illustrate what happens we are going to use the tcpdump command, the output 
+appears as follows:
+
+$ sudo /usr/sbin/tcpdump -i enp0s3
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on enp0s3,  link-type EN10MB (Ethernet), capture size 96 bytes
+19:26:35.250934 ARP, Request who-has 192.168.0.1 tell 192.168.0.254, length 46
+
+19:26:35.475678 ARP, Reply 192.168.0.1 is-at 00:50:56:a9:54:44 (oui Unknown), length 28
+
+19:31:17.336554 IP 192.168.0.254.33348 > 192.168.0.1.smtp: Flags [S], 
+seq 3194824921, win 29200, options [mss 1460,sackOK,TS val 47080429 
+ecr 0,nop,wscale 7], length 0
+
+19:31:17.619210 IP 192.168.0.1.smtp > 192.168.0.254.33348: Flags [S.], 
+seq 2011016705, ack 3194824922, win 65535, options [mss 1460], length 0
+
+19:31:17.619249 IP 192.168.0.254.33348 > 192.168.0.1.smtp: Flags [.], 
+ack 1, win 29200, length 0
+
+19:31:17.900048 IP 192.168.0.1.smtp > 192.168.0.254.33348: Flags [P.], 
+seq 1:42, ack 1, win 65535, length 41
+
+19:31:17.900081 IP 192.168.0.254.33348 > 192.168.0.1.smtp: Flags [.], 
+ack 42, win 29200, length 0
+
+We have issued the command and told it to dump all the traffic that crosses the enp0s3 interface.

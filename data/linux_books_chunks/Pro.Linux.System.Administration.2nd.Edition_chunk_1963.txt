@@ -1,0 +1,8 @@
+In that instance, you must use full-upgrade, which 
+will upgrade all installed packages by removing and installing any packages it needs to get the job done.
+
+Listing 8-16 shows the syntax of each of these commands.
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Listing 8-16.

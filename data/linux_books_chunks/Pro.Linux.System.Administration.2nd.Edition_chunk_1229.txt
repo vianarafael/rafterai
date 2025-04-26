@@ -1,0 +1,8 @@
+Let’s look 
+
+at the last line:
+
+42 4 1 * * root run-parts /etc/cron.monthly
+
+Here, 42 is the 42nd minute of the hour, the hour is 4 (with hours being based on a 24-hour clock), and 
+1 represents the first day of the month. So crontab will run the last line at 04:42 a.m.

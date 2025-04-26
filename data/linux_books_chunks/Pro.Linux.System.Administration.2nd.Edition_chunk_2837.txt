@@ -1,0 +1,9 @@
+You can follow the logs with 
+
+following command:
+
+$ sudo tail –f /var/log/httpd/access_log /var/log/httpd/error_log
+
+Now we can check to see whether our host is responding as we expect. To do this, we will use the curl 
+
+command.

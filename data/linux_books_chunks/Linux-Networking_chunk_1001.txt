@@ -1,0 +1,18 @@
+host part generation
+
+The host part of an automatically generated (stateless) ipv6 address contains part of the hosts
+mac address:
+
+paul@debian5:~$ /sbin/ifconfig | head -3
+
+267
+
+Introduction to ipv6
+
+eth3      Link encap:Ethernet  HWaddr 08:00:27:ab:67:30  
+          inet addr:192.168.1.29  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:feab:6730/64 Scope:Link
+
+Some people are concerned about privacy here...
+
+25.4.

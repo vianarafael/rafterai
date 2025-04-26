@@ -1,0 +1,7 @@
+If you were using scp as a backup tool, you would prob-
+ably want to keep permissions and time stamps on the ﬁ les if you needed to restore 
+the ﬁ les later.
+
+ ■ Symbolic links lost—The batch.1.gz ﬁ le is actually a symbolic link to the 
+at.1.gz ﬁ le. Instead of copying the link, scp follows the link and actually 
+copies the ﬁ le.

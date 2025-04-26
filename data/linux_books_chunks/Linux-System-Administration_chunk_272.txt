@@ -1,0 +1,8 @@
+(We will see later
+on that lvm volumes are commonly seen as /dev/md0, /dev/md1 etc.)
+
+Below a sample of how scsi devices on a Linux can be named. Adding a scsi disk or raid
+controller with a lower scsi address will change the naming scheme (shifting the higher scsi
+addresses one letter further in the alphabet).
+
+Table 4.2.

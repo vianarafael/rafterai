@@ -1,0 +1,11 @@
+On a virtual machine, create a swap partition (you might need an extra virtual disk for this).
+
+mkswap /dev/sdd1 ; swapon /dev/sdd1
+
+4. Add a 20 megabyte swap file to the system.
+
+dd if=/dev/zero of=/swapfile20mb bs=1024 count=20000
+mkswap /swapfile20mb
+swapon /swapfile20mb
+
+5.  Put  all  swap  spaces  in  /etc/fstab  and  activate  them.

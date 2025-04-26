@@ -1,0 +1,6 @@
+# dump.exfat
+
+
+- Print on-disk information for a given filesystem:
+
+`dump.exfat {{/dev/sdXY}}`

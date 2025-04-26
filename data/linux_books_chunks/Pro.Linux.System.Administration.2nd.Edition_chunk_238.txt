@@ -1,0 +1,6 @@
+This is the option you should choose 
+if you have a pre-existing Windows installation you want to resize.
+
+For our example host we are interested in using the “Guided—use entire disk and set up encrypted 
+
+LVM” option. This uses the entire hard disk available to us and makes use of LVM.

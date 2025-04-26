@@ -1,0 +1,13 @@
+Both ports are associated with the TCP 
+
+455
+
+c17.indd  04/01/2015  Page 456
+
+Part IV: Becoming a Linux Server Administrator
+
+protocol (tcp6). To open those ports in Fedora or Red Hat Enterprise Linux, you need to 
+add some ﬁ rewall rules.
+
+On a current Fedora or RHEL 7 system, open the Firewall window (type Firewall, and press 
+Enter from the Activities screen on the GNOME 3 desktop).

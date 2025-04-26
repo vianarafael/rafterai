@@ -1,0 +1,7 @@
+In this example, if none of the other entries are matched on the way down the 
+loop, the asterisk is matched, and the value of BACKUP becomes none. Note the use of esac, 
+or case spelled backwards, to end the case statement.
+
+The “for…do” loop
+Loops are used to perform actions over and over again until a condition is met or until all 
+data has been processed.

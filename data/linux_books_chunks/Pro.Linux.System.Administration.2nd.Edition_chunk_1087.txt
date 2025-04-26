@@ -1,0 +1,6 @@
+For a good look at them please see http://blog.darknedgy.net/
+technology/2015/09/05/0/.
+
+Understanding Systemd
+As we have already mentioned, Systemd is the newest system initializer that is used across many modern 
+distributions. Systemd is the replacement for both SysV Init and Upstart.

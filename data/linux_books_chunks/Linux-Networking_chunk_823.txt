@@ -1,0 +1,5 @@
+Samba Web Administration Tool
+(SWAT)
+
+Samba comes with a web based tool to manage your samba configuration file. SWAT is
+accessible with a web browser on port 901 of the host system.

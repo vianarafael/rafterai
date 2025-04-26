@@ -1,0 +1,6 @@
+The nice and renice commands can be used to 
+set or change the processor priority of a process.
+
+Killing processes with kill and killall
+Although usually used for ending a running process, the kill and killall commands 
+can actually be used to send any valid signal to a running process.

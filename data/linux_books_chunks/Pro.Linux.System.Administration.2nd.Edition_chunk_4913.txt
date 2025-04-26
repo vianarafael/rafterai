@@ -1,0 +1,18 @@
+We are unqualified to verify the first two statements, but the third statement is 
+correct.
+
+There are four components to Graphite.
+
+•	
+
+Carbon: A high-performance listener for receiving time-series data
+
+•	 Whisper: A time-series database for metrics data
+
+•	 Graphite-web: A web UI that renders graphs and dashboards
+
+•	 Graphite-API: An API that fetches JSON data from the time-series Whisper database
+
+In this exercise we are going to be installing Carbon, the time-series Whisper database and the 
+
+Graphite-API.

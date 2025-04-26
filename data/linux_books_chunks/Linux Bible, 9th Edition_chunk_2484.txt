@@ -1,0 +1,6 @@
+That tab lets you select the MAC address of the network interface 
+card (NIC) you are interested in and set an aliased address for that interface.
+
+Checking your network from the command line
+To get more detailed information about your network interfaces, try running some 
+ commands.

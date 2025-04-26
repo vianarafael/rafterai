@@ -1,0 +1,18 @@
+Try to change or delete a file from another user.
+
+you should not be able to change or overwrite files from others.
+
+179
+
+ 
+Chapter 15. samba securing shares
+
+180
+
+samba securing shares
+
+15.1. security based on user name
+
+15.1.1. valid users
+
+To restrict users per share, you can use the valid users parameter.

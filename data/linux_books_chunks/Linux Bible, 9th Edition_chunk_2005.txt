@@ -1,0 +1,8 @@
+Because NIS passes 
+information in clear text, most enterprises now use the more secure LDAP or 
+Winbind protocols for centralized authentication.
+
+ ■ Winbind—Selecting Winbind from the Authentication Conﬁ guration window 
+
+enables you to authenticate your users against a Microsoft Active Directory (AD) 
+server.

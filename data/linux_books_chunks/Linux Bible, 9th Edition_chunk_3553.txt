@@ -1,0 +1,2 @@
+Most large enterprises use 
+Microsoft Active Directory Services (ADS) servers for authentication.

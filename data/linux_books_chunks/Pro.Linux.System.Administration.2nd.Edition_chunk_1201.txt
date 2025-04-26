@@ -1,0 +1,5 @@
+The update-rc.d command 
+will create symbolic links into the /etc/rc?.d directories or remove them if instructed to do so. The update-
+rc.d command takes the options listed in Table 6-2.
+
+Table 6-2.

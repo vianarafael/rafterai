@@ -1,0 +1,3 @@
+As an alternative, you can use a computer that has 
+another operating system installed (such as Windows), as long as there is enough unused disk 
+space available outside that operating system.

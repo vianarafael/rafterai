@@ -1,0 +1,7 @@
+Of course, be sure not 
+to use the passwords listed here. Now that they are public, they will be added to malicious 
+attackers’ dictionaries.
+
+Setting and changing passwords
+You set your own password using the passwd command. Type the passwd command, and it 
+enables you to change your password. First, it prompts you to enter your old password.

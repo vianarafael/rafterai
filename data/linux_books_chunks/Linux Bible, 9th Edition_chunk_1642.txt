@@ -1,0 +1,5 @@
+The third line (starting with initrd) identiﬁ es the location of the initial RAM disk, 
+which contains additional modules and tools needed during the boot process.
+
+If you are going to change any of the lines related to the boot process, you will probably 
+change only the second line to add or remove boot options.

@@ -1,0 +1,7 @@
+If this is the case, you can take a 
+couple of approaches.
+
+Many packages have what are called upstream RPMs. Upstream RPMs are packages that contain a newer 
+
+version of the application than the one shipped with your distribution. Frequently they are built by the 
+developer of an application or another member of the application’s development community.

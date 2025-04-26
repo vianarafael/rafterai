@@ -1,0 +1,26 @@
+Those bricks we are adding are on our three peers, and we have listed the peers previously.
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+ it is worth noting here that having three replicas of each file increases your storage requirements by 
+
+ ■ Note 
+at least three.
+
+We can see the information associated with this volume now; let’s run the following command:
+
+$ sudo gluster volume info
+Volume Name: vol1
+Type: Replicate
+Volume ID: e9964568-feef-4f2f-a61d-14ba643b76e5
+Status: Created
+Number of Bricks: 1 x 3 = 3
+Transport-type: tcp
+Bricks:
+Brick1: au-mel-dfs-1:/data/brick1_r1/vol1
+Brick2: au-mel-dfs-2:/data/brick1_r1/vol1
+Brick3: au-mel-dfs-3:/data/brick1_r1/vol1
+Options Reconfigured:
+performance.readdir-ahead: on
+
+Our Gluster volume has been created, and we can see the details in the previous lines.

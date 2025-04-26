@@ -1,0 +1,6 @@
+# qm nbdstop
+
+
+- Stop embedded nbd server:
+
+`qm nbdstop {{VM_ID}}`

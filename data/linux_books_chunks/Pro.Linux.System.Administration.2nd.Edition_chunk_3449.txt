@@ -1,0 +1,12 @@
+We use the systemctl command.
+
+$ sudo systemctl start spamassassin
+
+ ■ Tip 
+
+ like postfix, it is a good idea to restart Spamassassin after you make configuration changes.
+
+Configuring Postfix for SpamAssassin
+
+There are a number of different ways to integrate spam filters like SpamAssassin into your e-mail 
+environment.

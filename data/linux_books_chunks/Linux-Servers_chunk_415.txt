@@ -1,0 +1,8 @@
+old DNS notify
+
+The original design of DNS in rfc 1034 and rfc 1035 implemented a refresh time in the
+SOA record to configure a time loop for slaves to query their master server. This can result
+in a lot of useless pull requests, or in a significant lag between updates.
+
+For  this  reason  dns  notify  (rfc  1996)  was  designed.  The  server  will  now  notify  slaves
+whenever there is an update.

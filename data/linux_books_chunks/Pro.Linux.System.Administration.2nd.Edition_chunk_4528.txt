@@ -1,0 +1,4 @@
+Because there are 
+already values for these attributes, we are using the replace directive in our LDIF file, for example: replace: 
+olcRootPW. You can have more than one suffix declared here. The olcRootDN is the root user, who has full 
+access to database; the password is declared in olcRootPW.

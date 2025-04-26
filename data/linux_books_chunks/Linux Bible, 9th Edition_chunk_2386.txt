@@ -1,0 +1,5 @@
+The last line shows chris using the su 
+ command to become root user.
+
+By occasionally reviewing the messages and secure ﬁ les, you could catch a cracking 
+attempt before it is successful.

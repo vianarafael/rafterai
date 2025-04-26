@@ -1,0 +1,25 @@
+To make sure the server service is set up to start automatically, 
+you need to use one of the commands in Table 13.3 using root privileges.
+
+13
+
+TABLE 13.3    Commands to Start sshd at Boot
+
+Distribution
+
+RHEL 6
+
+Fedora and RHEL 7
+
+Ubuntu
+
+Command to Start sshd at Boot
+
+chkconfi g sshd on
+
+systemctl enable sshd.service
+
+update-rc.d ssh defaults
+
+When you install openssh-server on Ubuntu, the sshd daemon is conﬁ gured to start 
+automatically at boot.

@@ -1,0 +1,10 @@
+For now, I just discuss how 
+to connect to existing authentication servers (rather than set up those servers themselves) 
+and have users of a Linux system you conﬁ gure authenticate against those types of servers.
+
+11
+
+Using the Users window
+If you add a new user to your system with the Users window (described earlier in this 
+chapter), you have the option of selecting the Enterprise Login button instead of adding a 
+password for that user.

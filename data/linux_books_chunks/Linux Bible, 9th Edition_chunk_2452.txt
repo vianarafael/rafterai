@@ -1,0 +1,7 @@
+After you turn on your computer, boot up Linux and log in. Clicking the 
+NetworkManager icon on the desktop should show you that you are connected to the 
+Internet or allow you to connect with a single click.
+
+ ■ Wireless network—For a wireless computer running Linux, log in and click the 
+
+NetworkManager icon on the desktop.

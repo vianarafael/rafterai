@@ -1,0 +1,9 @@
+The following command line ﬁ lters out all lines except those associated with 
+the httpd process:
+
+# netstat -tupln | grep httpd
+tcp    0  0 :::80        :::*         LISTEN      2567/httpd
+tcp    0  0 :::443       :::*         LISTEN      2567/httpd
+
+The previous example shows that the httpd process is listening on port 80 and 443 for all 
+interfaces.

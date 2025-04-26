@@ -1,0 +1,7 @@
+Finally, you’ll see how to integrate your LDAP server 
+with your existing network and applications, including the ability to implement single sign-on services and 
+Apache web authentication.
+
+Directory services implementations can be complicated. While installation is simple, they are often 
+
+intricate to configure securely.

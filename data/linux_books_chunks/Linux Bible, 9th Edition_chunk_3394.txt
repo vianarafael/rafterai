@@ -1,0 +1,6 @@
+Windows, DOS, OS/2, Mac 
+OS/X, and other client systems can access Samba servers to share ﬁ les and printers in the same 
+ways they would from Windows ﬁ le and print servers.
+
+With Samba, you can use standard TCP/IP networking to communicate with clients. For name 
+ service, Samba supports regular TCP/IP hostnames, as well as NetBIOS names.

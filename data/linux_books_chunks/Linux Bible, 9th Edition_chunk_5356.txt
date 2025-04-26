@@ -1,0 +1,13 @@
+Here’s 
+how to do that with the lftp client:
+
+# lftp ftp://kernel.org/pub/linux/docs/man-pages
+cd ok, cwd=/pub/linux/docs/man-pages
+lftp kernel.org:/pub/linux/docs/man-pages> ls
+drwxrwsr-x 2 536  536   24576 May 10 20:29 Archive
+-rw-rw-r-- 1 536  536 1135808 Feb 09 23:23 man-pages-3.34.tar.bz2
+-rw-rw-r-- 1 536  536 1674738 Feb 09 23:23 man-pages-3.34.tar.gz
+-rw-rw-r-- 1 536  536     543 Feb 09 23:23 man-pages-3.34.tar.sign
+...
+
+10.

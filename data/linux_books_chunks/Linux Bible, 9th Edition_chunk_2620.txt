@@ -1,0 +1,6 @@
+Before using that ﬁ le, you want to change the domain-name options 
+to reﬂ ect your domain and IP address ranges to suit those you are using. The comments in 
+the ﬁ le will help you do this.
+
+When you install some virtualization and cloud services on a Linux system, by default a 
+DHCP server is set up for you within that system.

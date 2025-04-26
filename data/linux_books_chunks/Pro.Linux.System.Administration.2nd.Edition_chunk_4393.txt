@@ -1,0 +1,8 @@
+We will put them in similar place as before, either in 
+the /etc/pki/tls directories or in the /etc/ssl directories depending on our host.
+
+721
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+If you’re using the OpenVPN binary, you’re also going to need to create a client configuration file.

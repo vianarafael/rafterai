@@ -1,0 +1,244 @@
+See also speciﬁ c distributions
+dmesg command, 191, 192–183, 203
+dmesg ﬁ le, 609, 610
+DNS servers
+
+/etc/resolv.conf ﬁ le, 366–367
+conﬁ guring Linux as, 372–373
+hostname resolution, 576–577
+hypervisor-storage system communication, 738
+interface conﬁ guration, 355–358
+named.conf ﬁ le, 187
+queries, checking, 367
+RHCE exam, 25–26
+
+dnsdomainname command, 355
+Domain Name System, graphical admin tool, 176
+dovecot package, 317
+dpkg Log, 609
+dpkg.log ﬁ le, 609
+DSA (Digital Signature Algorithm), 638
+du command, 342–343
+dual booting, 214–215
+dumb terminals, 144
+dump utility, 291, 305, 307, 593, 606, 610
+Duplicity, 646
+
+bindex.indd  04/02/2015  Page 843
+
+Index
+
+/etc/hostname ﬁ le, 186, 365
+/etc/hosts ﬁ le, 79, 186, 365–366, 738
+/etc/hosts.allow ﬁ le, 186, 322
+/etc/hosts.d ﬁ le, 186
+/etc/hosts.deny ﬁ le, 186, 322
+/etc/httpd directory, 184
+/etc/httpd/conf.d directory, 452
+/etc/httpd/conf.d/ssl.conf ﬁ le, 467
+/etc/init.d directory, 184–185
+/etc/inittab ﬁ le, 187, 382–386, 389–391, 398–399, 
+
+412–413
+
+/etc/logrotate.d/httpd ﬁ le, 451
+/etc/logrotate.d/samba ﬁ le, 502
+/etc/logrotate.d/vsftpd ﬁ le, 480
+/etc/mail directory, 185
+/etc/mtab ﬁ le, 187
+/etc/mtools.conf ﬁ le, 187
+/etc/named.conf ﬁ le, 187, 373
+/etc/nfsmount.conf ﬁ le, 545
+/etc/nsswitch.conf ﬁ le, 187, 366–367
+/etc/ntp.conf ﬁ le, 187
+/etc/pam.d ﬁ le, 650
+/etc/pam.d.vsftpd ﬁ le, 480
+/etc/pam.d/common-auth ﬁ le, 660
+/etc/pam.d/other ﬁ le, 655
+/etc/pam.d/passwd ﬁ le, 661
+/etc/pam.d/su ﬁ le, 664
+/etc/pam.d/system-auth ﬁ le, 659, 661–663, 666
+/etc/passwd ﬁ le, 69, 71, 82, 187, 264, 269, 278, 279, 280, 
+
+601–603
+/etc/pcmcia directory, 185
+/etc/pki/tls/private/localhost.key ﬁ le, 468
+/etc/pki/tsl/cert/localhost.crt ﬁ le, 468
+/etc/postfix directory, 185
+/etc/ppp directory, 185
+/etc/printcap ﬁ le, 187
+/etc/profile ﬁ le, 88, 89, 187
+/etc/protocols ﬁ le, 187
+/etc/rc.d//rc#.d directory, 384
+/etc/rc.d/rc5.d directory, 384
+/etc/rc?.d directory, 185
+/etc/resolv.conf ﬁ le, 349, 364, 366
+/etc/rpc ﬁ le, 187
+/etc/rsyslog.conf ﬁ le, 187, 335–336
+/etc/samba directory, 502
+/etc/samba/smb.conf ﬁ le, 444, 511, 516–521
+/etc/samba/smbusers ﬁ le, 502
+/etc/security directory, 185
+/etc/security/limits.conf ﬁ le, 657–658, 832
+/etc/security/time.conf ﬁ le, 659–660
+/etc/selinux/config ﬁ le, 679–680
+/etc/services ﬁ le, 187, 699–700
+/etc/shadow ﬁ le, 187, 628
+/etc/shells ﬁ le, 187
+
+843
+
+E
+
+echo command, 79–80, 85, 92
+El Gamal, 631
+elementary OS, 19
+elif statements, 160
+Elliptic Curve Cryptosystems, 631
+emacs command, 118
+encryptfs command, 642–645
+encryption, 628
+
+cryptographic cipher keys, 631–637
+cryptographic ciphers, 630–631
+digital signatures, 637–639
+directories, 642–645
+ﬁ les, 645
+ﬁ lesystems, 640–642
+from GNOME desktop, 646–647
+with Pyrite, 647–648
+SSL/TLS, 465–471
+
+Enforcing mode, SELinux, 674, 680–682
+enterprise environments
+
+Linux installation, 211–213
+network conﬁ guration, 371–373
+RPM package management, 256–257
+Samba, 525
+server administration, 344
+user/group account management, 270–278
+
+env command, 85
+environment variables
+bash shell, 88–89
+expanding, 85
+
+errata, 607
+ErrorDocument direction, 459
+esac, 163
+escaping shell characters, 155
+/etc directory, 98, 184, 186–188
+/etc/aliases ﬁ le, 186
+/etc/apache2/apache2.conf ﬁ le, 457
+/etc/bashrc ﬁ le, 88, 89, 186
+/etc/cloud/cloud.cfg ﬁ le, 754
+/etc/cron directory, 184
+/etc/crontab ﬁ le, 186
+/etc/crypttab ﬁ le, 562, 641–642
+/etc/csh.cshrc ﬁ le, 186
+/etc/cups directory, 184, 424
+/etc/cups/cupsd.conf ﬁ le, 436–437
+/etc/cups/mime.types ﬁ le, 439
+/etc/cups/printers.conf ﬁ le, 435, 438–439, 442–443
+/etc/default directory, 184
+/etc/exports ﬁ le, 186, 528, 529, 531, 532–535
+/etc/fstab ﬁ le, 186, 274, 275, 276, 305–306
+/etc/group ﬁ le, 186
+/etc/gshadow ﬁ le, 186
+/etc/host.conf ﬁ le, 186
+
+bindex.indd  04/02/2015  Page 844
+
+Index
+
+/etc/skel directory, 185
+/etc/sudoers ﬁ le, 187
+/etc/sysconfig directory, 185
+/etc/sysconfig/network ﬁ le, 365
+/etc/sysconfig/network-scripts directory, 363, 365
+/etc/sysconfig/rhn/up2date ﬁ le, 242
+/etc/sysconfig/samba ﬁ le, 502, 503
+/etc/sysct1.conf ﬁ le, 25
+/etc/systemd directory, 185
+/etc/systemd/system directory, 420
+/etc/termcap ﬁ le, 188
+/etc/tmpfiles.d/httpd.conf ﬁ le, 451
+/etc/ttytab ﬁ le, 381
+/etc/vsftpd/chroot_list ﬁ le, 489
+/etc/vsftpd/ftpusers ﬁ le, 481, 489
+/etc/vsftpd/user_list ﬁ le, 481, 489
+/etc/vsftpd/vsftpd.conf ﬁ le, 480, 488
+/etc/X11 directory, 188
+/etc/X11/xorg.conf ﬁ le, 60
+/etc/xinetd.d directory, 185–186
+/etc/xinetd/conf ﬁ le, 188
+/etc/yum.conf ﬁ le, 242
+/etc/yum.repos.d/*.repo ﬁ les, 243
+Ethernet channel bonding, 368–370
+EUID environment variable, 86
+execute bits, 106, 107, 110, 111, 129, 276–278
+exercises and answers
+
+Apache web servers, 475–476, 815–818
+basic security, 624–625, 829–830
+cloud computing, 747–748, 837–838
+cryptography, 668, 830–832
+ﬁ lesystem, 115–116, 786–787
+FTP servers, 497, 818–821
+GNOME, 61, 781–783
+Linux installation, 231–232, 795–797
+network security, 724–725, 835–837
+networking, 374–375, 807–810
+NFS servers, 550, 824–826
+PAM, 668, 830–832
+printing, 446–447, 813–815
+processes, 151–152, 789–790
+RPM packages, 258, 797–798
+Samba servers, 526, 822–824
+SELinux, 696–697, 832–835
+server administration, 345–346, 805–807
+shell, 95, 784–786
+shell scripts, 169, 790–793
+starting/stopping services, 422, 810–813
+system administration, 199–200, 793–795
+text ﬁ les, 134–135, 787–789
+troubleshooting Linux, 587–588, 826–829
+user and group accounts, 281–282, 798–802
+
+exim package, 317
+exit command, 69, 75, 81, 87, 88
+
+844
+
+exports ﬁ le, 186, 528, 529, 531, 532–535
+expr command, 158–159
+ext ﬁ lesystem, 302
+ext2 ﬁ lesystem, 302
+ext3 ﬁ lesystem, 302
+ext4 ﬁ lesystem, 302
+Extended Multiuser Mode runlevel, 382
+
+F
+
+Facebook, LAMP stack, 3
+false positives, 619
+fc command, 81–82
+FCEDIT environment variable, 86
+FCoE (Fibre Channel over Ethernet) devices, 220
+fdisk command, 222–223, 286–288, 289, 290, 292, 296, 557, 
+
+802–803
+
+Fedora
+
+aliased ls command, 105
+backup script, 168
+backup shell script, 168
+booting from USB drive, 779
+downloading, 772–774
+GNOME Terminal, 68
+installing from live media, 203–207
+mcedit text editor, 118
+NFS Server Conﬁ guration window, 531–532
+vs.

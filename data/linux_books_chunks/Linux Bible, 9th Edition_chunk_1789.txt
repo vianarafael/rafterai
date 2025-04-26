@@ -1,0 +1,3 @@
+Using history, you can see your yum activities and undo an entire  transaction. 
+In other words, all the packages you installed can be uninstalled using the undo option to the 
+history subcommand.

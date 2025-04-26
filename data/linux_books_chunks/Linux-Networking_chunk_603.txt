@@ -1,0 +1,7 @@
+example: DNS round robin
+
+When you create multiple A records for the same name, then bind will do a round robin of
+the order in which the records are returned. This allows the use of DNS as a load balancer
+between hosts, since clients will usually take the first ip-address offered.
+
+Consider this example from the /etc/bind/db.paul.local zone configuration file.

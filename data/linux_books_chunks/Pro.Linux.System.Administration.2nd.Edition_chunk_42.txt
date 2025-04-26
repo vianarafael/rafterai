@@ -1,0 +1,10 @@
+Many people consider Ubuntu one of the easiest Linux 
+platforms to use and understand, and much of its development is aimed at ease of use and good user 
+experience. Ubuntu makes use of Debian’s packaging system and a number of its administration tools.
+
+5
+
+ChApTeR 1 ■ InTRoDuCIng LInux
+
+Gentoo
+The Gentoo distribution (www.gentoo.org/) is another community-developed platform.

@@ -1,0 +1,18 @@
+We 
+are going to use the setup module, a module that gathers the facts that we can use in our tasks or playbooks.
+
+$ ansible –c local localhost –m setup
+localhost | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.0.61",
+            "10.0.2.15"
+        ],
+...
+        "ansible_virtualization_type": "virtualbox",
+        "module_setup": true
+    },
+    "changed": false
+}
+
+There is a long list of Ansible facts returned as a JSON string; we have shown only a small portion.

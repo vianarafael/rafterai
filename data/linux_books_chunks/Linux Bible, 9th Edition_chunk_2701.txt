@@ -1,0 +1,8 @@
+An event is a Linux server occurrence that triggers a needed system state change, which is 
+communicated to the Upstart init daemon. The following are examples of system events:
+
+ ■ The server boots up.
+
+ ■ The init command is used.
+
+ ■ A USB device is plugged into the server.

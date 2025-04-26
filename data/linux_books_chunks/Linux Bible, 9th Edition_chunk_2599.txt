@@ -1,0 +1,12 @@
+To do that, create a /etc/modprobe.d/bonding.conf ﬁ le that contains the 
+following entry:
+
+alias bond0 bonding
+
+Because all the interfaces are set to ONBOOT=yes, the bond0 interface starts and all the 
+eth? interfaces are available as they are needed.
+
+Setting custom routes
+On a simple network conﬁ guration, communications that are destined for the local network 
+are directed to the appropriate interface on your LAN, while communications for hosts out-
+side your LAN go to a default gateway to be sent on to remote hosts.

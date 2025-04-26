@@ -1,0 +1,6 @@
+Any resource 
+
+you specify in the require metaparameter will be configured before this resource; hence, Puppet will process 
+and configure the File['/etc/ssh/sshd_config'] resource before the Service['sshdaemon'] resource. 
+This approach ensures that the appropriate configuration file is installed prior to starting the SSH daemon 
+service.

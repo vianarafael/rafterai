@@ -1,0 +1,5 @@
+Kickstart 
+
+and Preseed files may have different disk configurations or package lists that are tailored for particular 
+profiles. To add a particular Kickstart or Preseed file, you first copy and modify any existing one to the way 
+you like it and add it to the /var/lib/cobbler/kickstarts directory.

@@ -1,0 +1,3 @@
+If you are in full control of the e-mail for your domain, you should be able to set it to –all.
+
+For help in creating your SPF record, you can go to the following site.

@@ -1,0 +1,7 @@
+We expected this error, so let’s see what it is telling us. It says that on line 
+2 in /etc/puppetlabs/code/environments/production/manifests/site.pp we could not find the class 
+::profile::web_server for web1.example.com. Looking on line 2 of the site.pp file we see the following:
+
+include profile::web_server
+
+We have told it to include a profile that we have not created yet.

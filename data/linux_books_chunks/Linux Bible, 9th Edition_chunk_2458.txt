@@ -1,0 +1,7 @@
+You can conﬁ gure such 
+things as proxy servers or virtual private network connections to allow your 
+ desktop to work from behind an organization’s ﬁ rewall or to connect through a 
+ ﬁ rewall, respectively.
+
+ ■ Server networking—Although NetworkManager is an excellent service for desktop 
+and laptop network conﬁ guration, until recently it did not work as well on servers.

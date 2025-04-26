@@ -1,0 +1,4 @@
+Not only can it block unwanted traffic and route packets around the network, but it can also shape traffic. 
+“Shape traffic?” you may be wondering, “What’s that?”
+
+Packet shaping is the ability to alter packets passing in and out of your network.

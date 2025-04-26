@@ -1,0 +1,3 @@
+Try running the scp command shown previously to 
+copy the man1 directory (you can simulate the command using localhost instead of the 
+IP address, if you only have one accessible Linux system).

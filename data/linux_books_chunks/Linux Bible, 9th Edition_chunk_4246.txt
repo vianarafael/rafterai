@@ -1,0 +1,5 @@
+You should also use checklists from industry security sites.
+
+Conducting security reviews
+Conducting a security review requires that you know current best security practices. There 
+are several ways to stay informed about best security practices.

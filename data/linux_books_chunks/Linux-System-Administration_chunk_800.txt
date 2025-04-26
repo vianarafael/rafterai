@@ -1,0 +1,6 @@
+The syslog daemon can receive
+messages on udp port 514 from many applications (and appliances), and can append to log
+files, print, display messages on terminals and forward logs to other syslogd daemons on
+other machines. The syslogd daemon is configured in /etc/syslog.conf.
+
+17.2.2.

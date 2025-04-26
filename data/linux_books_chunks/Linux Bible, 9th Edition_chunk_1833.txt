@@ -1,0 +1,7 @@
+In my example, you can 
+see that the ﬁ le size has changed (S), the md5sum checked against the ﬁ le’s ﬁ ngerprint has 
+changed (5), and the modiﬁ cation time (T) on the ﬁ le differs.
+
+To restore the package to its original state, use rpm with the --replacepkgs option, as 
+shown next. (The yum reinstall zsh command would work as well). Then check it with 
+-V again.

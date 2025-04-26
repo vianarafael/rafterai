@@ -1,0 +1,5 @@
+If you are stuck, solutions to the tasks are shown in 
+Appendix B.
+
+Some of the exercises assume you have a second Linux system available that you can log 
+in to and try different commands.

@@ -1,0 +1,7 @@
+A firewall is a device that besides acting
+as a router, also contains (and implements) rules to determine whether packets are allowed
+to travel from one network to another. A firewall can be configured to block access based
+on networks, hosts, protocols and ports. Firewalls can also change the contents of packets
+while forwarding them.
+
+7.2.

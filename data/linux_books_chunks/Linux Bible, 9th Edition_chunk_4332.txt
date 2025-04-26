@@ -1,0 +1,8 @@
+See Chapter 12, “Managing Disks and Filesystems,” for a review of the lvs command.
+
+# lvs -o devices
+  Devices
+  /dev/mapper/luks-b099fbbe-0e56-425f-91a6-44f129db9f4b(56)
+  /dev/mapper/luks-b099fbbe-0e56-425f-91a6-44f129db9f4b(0)
+
+On this system, notice that the underlying device names start with luks.

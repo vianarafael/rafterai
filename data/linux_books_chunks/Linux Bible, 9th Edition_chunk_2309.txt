@@ -1,0 +1,8 @@
+However, SSH also supports key-based authenti-
+cation, which can be used to conﬁ gure passwordless authentication between clients and SSH 
+servers (as described in the “Using key-based (passwordless)  authentication” section later in 
+this chapter).
+
+Using ssh for remote login
+Use the ssh command from another Linux computer to test that you can log in to the 
+Linux system running your sshd service.

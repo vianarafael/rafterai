@@ -1,0 +1,9 @@
+Use ssh -X to run firefox on your display, but on your neighbour's computer. Do you
+see your neighbour's bookmark ?
+
+8. Use ssh-keygen to create a key pair without passphrase. Setup passwordless ssh between
+you and your neighbour. (or between your client and your server)
+
+See solution in book "setting up passwordless ssh"
+
+9.

@@ -1,0 +1,19 @@
+Setting security = user will
+require the client to provide samba with a valid userid and password before giving access
+to a share.
+
+Our [global] section now looks like this.
+
+174
+
+ 
+  
+samba authentication
+
+[global]
+ workgroup = WORKGROUP
+ netbios name = TEACHER0
+ server string = Samba File Server
+ security = user
+
+14.4.

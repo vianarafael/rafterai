@@ -1,0 +1,25 @@
+The kernel prints information on all devices it detects when it 
+boots up, and you can access that information via the dmesg command once you log in.
+
+$ dmesg | grep sd
+[    1.838874] sd 2:0:0:0: [sda] 16777216 512-byte logical blocks: (8.59 GB/8.00 GiB)
+[    1.839510] sd 2:0:0:0: [sda] Write Protect is off
+[    1.839824] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    1.839834] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[     1.840183] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support 
+
+DPO or FUA
+
+[    1.842304]  sda: sda1 sda2 < sda5 >
+[    1.842784] sd 2:0:0:0: [sda] Attached SCSI disk
+[    2.178862] sd 3:0:0:0: [sdb] 16777216 512-byte logical blocks: (8.59 GB/8.00 GiB)
+[    2.179508] sd 3:0:0:0: [sdb] Write Protect is off
+[    2.179863] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+[    2.179874] sd 3:0:0:0: Attached scsi generic sg2 type 0
+[     2.180268] sd 3:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support 
+
+DPO or FUA
+
+[    2.181498] sd 3:0:0:0: [sdb] Attached SCSI disk
+[   25.702112] EXT4-fs (sda1): mounting ext2 filesystem using the ext4 subsystem
+[   25.711836] EXT4-fs (sda1): mounted filesystem without journal.

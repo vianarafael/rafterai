@@ -1,0 +1,6 @@
+A simple e-mail server, designed to send and receive e-mail for a domain, can be set up in 
+minutes.
+
+The first step is telling Postfix what domains it should be handling mail for. To do this, we update the 
+mydestination configuration option in the main.cf configuration file by adding our domain to it, in this case 
+example.com.

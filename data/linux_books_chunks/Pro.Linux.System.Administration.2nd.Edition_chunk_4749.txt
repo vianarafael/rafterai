@@ -1,0 +1,6 @@
+On the login page, you will be asked for the password you have added to /var/lib/
+ldap-account-manager/config.cfg. Here you can change the general login settings as well as the password 
+for your manager.
+
+The admin user you can see in Figure 16-4 refers to the rootDN we specified in /var/lib/ldap-account-
+manager/config/lam.conf.

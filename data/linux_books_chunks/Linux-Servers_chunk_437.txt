@@ -1,0 +1,11 @@
+installing a dhcp server
+
+dhcp server for Debian/Mint
+
+debian5:~# aptitude install dhcp3-server
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Reading extended state information      
+Initializing package states... Done
+Reading task descriptions...

@@ -1,0 +1,24 @@
+We are going to create a new FileSet called 
+Linux.
+
+FileSet {
+  Name = "Linux"
+  Include {
+    Options {
+      Compression = GZIP
+      Signature = SHA1
+     }
+     File = "/etc"
+     File = "/var/lib" File = "/data" File = "/home"
+     }
+  Exclude {
+    File = "/proc"
+    File = "/sys"
+    File = "/dev"
+    File = “/run”
+    File = “/tmp”
+    File = "/data/backups/FileStorage"
+  }
+}
+
+In this FileSet we first define the Name.

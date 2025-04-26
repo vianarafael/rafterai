@@ -1,0 +1,8 @@
+Our Service Records
+
+IN      NS           ns.example.com.
+IN      MX      10   mail.example.com.
+
+The data for the MX record consists of a priority number and then the hostname that remote servers 
+should try to deliver mail to. A properly configured remote mail server will work through a list of MX records, 
+starting with the lowest priority number, and try to deliver e-mail.

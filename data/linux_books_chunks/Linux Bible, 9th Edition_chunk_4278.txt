@@ -1,0 +1,2 @@
+Understanding how each cipher works is important because the strength of the cipher 
+you choose should directly relate to the security needs of your data.

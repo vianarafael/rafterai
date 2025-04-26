@@ -1,0 +1,14 @@
+The following example demonstrates using the 
+chkconfig command to disable the cups service at runlevel 5.
+
+# chkconfig --level 5 cups off
+# chkconfig --list cups
+cups            0:off  1:off  2:on   3:on   4:on   5:off   6:off
+# ls /etc/rc.d/rc5.d/S*cups
+ls: cannot access /etc/rc.d/rc5.d/S*cups: No such file or directory
+
+As expected, there is now no symbolic link, starting with the letter S, for the cups service 
+in the /etc/rc.d/rc5.d directory.
+
+Confi guring persistent services for Upstart
+The Upstart init daemon emits the startup signal that triggers the service jobs to start.

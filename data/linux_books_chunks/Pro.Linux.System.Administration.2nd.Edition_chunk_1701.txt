@@ -1,0 +1,7 @@
+Once the connection 
+is in the ESTABLISHED state, our firewall allows the ongoing communication. ESTABLISHED and RELATED 
+connections are then handled by line 10 in Listing 7-8.
+
+THE DIFFERENT PROTOCOLS
+
+Netfilter or iptables filters traffic based on different protocols in the tCP/iP protocol stack.

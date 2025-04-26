@@ -1,0 +1,3 @@
+Using the Linux automounter (autofs service), you could set up home directories 
+that are automatically mounted when each user logs in, regardless of which machine they 
+are logging into.

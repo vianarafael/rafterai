@@ -1,0 +1,17 @@
+It aims at supporting different computer operating systems such as Microsoft Windows, 
+Mac OS, and systems that follow the Unix specification, so that data may be exchanged.
+
+Levels and restrictions
+
+There are different levels to this standard.
+
+Level 1 File names are restricted to eight characters with a three-character extension, upper case letters, 
+numbers and underscore; maximum depth of directories is eight
+
+Level 2 File names may be up to 31 characters
+
+Level 3 Files allowed to be fragmented (mainly to allow packet writing, or incremental CD recording).
+
+Extensions
+
+There are common extensions to ISO 9660 to deal with the limitations.

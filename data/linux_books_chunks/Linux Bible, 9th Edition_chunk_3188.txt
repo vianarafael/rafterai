@@ -1,0 +1,8 @@
+To begin exploring the SSL 
+conﬁ guration for your Apache web server, make sure the mod_ssl package is installed on 
+the server running your Apache (httpd) service:
+
+# yum install mod_ssl
+
+The mod_ssl package includes the module needed to implement SSL on your web server 
+(mod_ssl.so) and a conﬁ g ﬁ le for your SSL hosts: /etc/httpd/conf.d/ssl.conf.

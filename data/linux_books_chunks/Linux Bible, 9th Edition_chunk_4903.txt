@@ -1,0 +1,7 @@
+The 
+libvirtd service is the one you might not be as familiar with. It is listening for requests 
+to manage your virtual machines on each host.
+
+Step 5: Edit /etc/hosts or set up DNS
+To make it convenient to communicate between the hypervisors and storage system, you 
+should assign host names to each system and map those names to IP addresses.

@@ -1,0 +1,8 @@
+Older Ubuntu releases use 
+GNOME 2 by default.
+
+Understanding Linux Desktop Technology
+Modern computer desktop systems offer graphical windows, icons, and menus that are 
+ operated from a mouse and keyboard. If you are under 30 years old, you might think there’s 
+nothing special about that. But the ﬁ rst Linux systems did not have graphical interfaces 
+available.

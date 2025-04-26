@@ -1,0 +1,7 @@
+Use the Tab key or 
+arrow keys (up, down, right, and left) to highlight the application icon you 
+want, and press Enter.
+
+ ■ Command box—If you know the name (or part of a name) of a command 
+
+you want to run, press Alt+F2 to display a command box.

@@ -1,0 +1,5 @@
+So you search /etc to see what has changed in the past 10 minutes:
+
+$ find /etc/ -mmin -10
+
+ ■ You suspect that someone hacked your system three days ago.

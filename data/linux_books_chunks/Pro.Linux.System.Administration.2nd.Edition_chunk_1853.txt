@@ -1,0 +1,43 @@
+The mirrorlist.txt file would simply contain the following:
+
+mirrorlist=http://myrepo.org/mirrorlist.txt
+http://myrepo1.org/centos/...
+http://myrepo2.org/centos/...
+
+With the fastestmirror plugin for YUM loaded, yum will find the fastest responding mirror from that 
+
+list and use that when it runs.
+
+There are other variables that can exist in your YUM repository configurations:
+
+•	
+
+•	
+
+•	
+
+•	
+
+$arch–the architecture of your system (as detected by yum)
+
+$basearch–the base architecture of your system (e.g., i686 becomes i386)
+
+$uuid–a unique identifier that is generated for your system and stored in /var/lib/
+yum/uuid
+
+$infra–currently unused, but you may see it in your mirrorlist URL 
+(&repo=os&infra=$infra).
+
+When the variables are used as follows:
+
+http://myrepo.org/centos/$releasever/$arch/myapp
+
+That would be extrapolated to
+
+http://myrepo.org/centos/7-2.1511/x64_86/myapp
+
+313
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+For a full list of configuration options to use with YUM please see man yum.conf.

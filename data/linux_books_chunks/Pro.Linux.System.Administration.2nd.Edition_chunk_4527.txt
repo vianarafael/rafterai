@@ -1,0 +1,22 @@
+The next detail we configure is the top of the DIT, the suffix, and a user that will have 
+full access to it, like a root user.
+
+ if you configured your OpenLDAP server when you installed it on your Ubuntu server, you won’t need 
+
+ ■ Note 
+to do this step.
+
+Here we will create a file called db.ldif that has the following contents:
+
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+replace: olcSuffix
+olcSuffix: dc=example,dc=com
+-
+replace: olcRootDN
+olcRootDN: cn=admin,dc=example,dc=com
+-
+replace: olcRootPW
+olcRootPW: {SSHA}QN+NZNjLxIsG/+PGDvb/6Yg3qX2SsX95
+
+The olcSuffix directs queries for dc=example,dc=com to this database instance.

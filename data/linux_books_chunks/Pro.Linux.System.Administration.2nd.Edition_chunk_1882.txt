@@ -1,0 +1,12 @@
+Using query and list
+
+# rpm  --query  --list bash
+/etc/skel/.bash_logout
+/etc/skel/.bash_profile
+/etc/skel/.bashrc
+/usr/bin/alias
+<snip> ...
+
+Listing 8-12 displays a truncated list of all the files present in the bash package. We can also list other 
+
+useful information about packages.

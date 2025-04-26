@@ -1,0 +1,18 @@
+There are three types of object classes.
+
+•	
+
+•	
+
+•	
+
+AUXILIARY: Allows you to add attributes to the entry but not create an entry
+
+STRUCTURAL: Allows you create a valid entry
+
+ABSTRACT: The base object from which other object classes can be defined; top is an 
+ABSTRACT example
+
+The MUST dc says that if this object is declared in the directory server, the attribute dc must also be 
+
+added.

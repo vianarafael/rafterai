@@ -1,0 +1,5 @@
+1 root root 1644 Feb  2 02:30 /etc/passwd
+
+These settings are needed so users can log in to the system and see usernames associated 
+with user ID and group ID numbers. However, users should not be able to modify the /etc/
+passwd directly.

@@ -1,0 +1,7 @@
+It includes your hostname, 
+information on when the certiﬁ cate was issued and when it expires, and lots of 
+other organization information.
+
+4.  Close that window, and then select Conﬁ rm Security Exception to accept the 
+
+connection. You should now see your default web page using HTTPS protocol.

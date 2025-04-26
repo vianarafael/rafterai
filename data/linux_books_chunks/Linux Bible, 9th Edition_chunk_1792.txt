@@ -1,0 +1,6 @@
+If you are trying to undo an install that included dozens or even 
+hundreds of packages, undo can be a very useful option.
+
+Updating packages
+As new releases of a package become available, they are sometimes put in separate 
+update repositories or simply added to the original repository.

@@ -1,0 +1,8 @@
+This provides a means of 
+controlling or ﬁ ltering content that clients can reach from a home, school, or place 
+of business.
+
+ ■ webalizer—Contains tools for analyzing web server data.
+
+Optional packages in the Web Server group come from the web-server sub-group. Run yum 
+groupinfo web-server to display those packages.

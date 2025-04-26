@@ -1,0 +1,25 @@
+Of course, documents are online (or partly 
+online) and so can be subject to network problems, but in general they are very secure, highly available, 
+and low cost.
+
+626
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+There are several open source, or partly open source alternatives, that you might like to try.
+
+•	
+
+•	
+
+Alfresco: Community edition LGPLv3 license, limited features compared to 
+commercial editions
+
+LogicalDoc: Community edition LGPLv2 license, limited features compared to 
+commercial editions
+
+•	 OpenKM: Community edition GPLv2, limited features compared to commercial 
+
+editions
+
+Each of these solutions has online documentation and the ability for you to purchase support if needed.

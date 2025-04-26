@@ -1,0 +1,8 @@
+In larger organizations, the proxy server is one of many
+servers in the DMZ.
+
+When web traffic passes via a proxy server, it is common practice to configure the proxy
+with extra settings for access control. Access control in a proxy server can mean user account
+access, but also website(url), ip-address or dns restrictions.
+
+9.1.2.

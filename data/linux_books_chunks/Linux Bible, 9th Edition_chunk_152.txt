@@ -1,0 +1,11 @@
+Here’s an example:
+
+$ ftp ftp.handsonhistory.com
+Name (home:jake): jake
+Password: ******
+
+As for styles in the text:
+
+ ■ New terms and important words appear in italics when introduced.
+
+ ■ Keyboard strokes appear like this: Ctrl+A.

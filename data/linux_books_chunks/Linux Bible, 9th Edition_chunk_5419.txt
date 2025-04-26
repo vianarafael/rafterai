@@ -1,0 +1,11 @@
+An “other” conﬁ guration ﬁ le that enforces Implicit 
+Deny should look similar to the following code:
+
+$ cat /etc/pam.d/other
+#%PAM-1.0
+auth     required       pam_deny.so
+account  required       pam_deny.so
+password required       pam_deny.so
+session  required       pam_deny.so
+
+10.

@@ -1,0 +1,10 @@
+We talk more about this a 
+little later.
+
+You can see a full list of the available switches for the ls command by reading the command’s man 
+
+page—just enter man ls.
+
+So what does the long listing format tell you about your files and directories? In Listing 4-8, each item 
+
+has a small collection of information returned about it.

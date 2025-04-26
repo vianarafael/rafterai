@@ -1,0 +1,4 @@
+The K refers to a script that will kill (stop) a process. The S refers to 
+a script that will start a process. Also, each K and S script has a number before the name of 
+the service or daemon they control. This allows the services to be stopped or started in a 
+particular controlled order.

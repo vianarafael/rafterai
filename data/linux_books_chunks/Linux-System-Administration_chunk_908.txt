@@ -1,0 +1,10 @@
+yum
+
+20.7.1. about yum
+
+The  Yellowdog  Updater,  Modified  (yum)  is  an  easier  command  to  work  with  rpm
+packages. It is installed by default on Fedora and Red Hat Enterprise Linux since version 5.2.
+
+20.7.2. yum list
+
+Issue  yum  list  available  to  see  a  list  of  available  packages.

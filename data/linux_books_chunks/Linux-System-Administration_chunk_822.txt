@@ -1,0 +1,23 @@
+Test that it works with the logger tool!
+
+With syslog:
+
+echo local4.error /var/log/l4e.log >> /etc/syslog.conf
+echo local4.=info /var/log/l4i.log >> /etc/syslog.conf
+service syslog restart
+
+With rsyslog:
+
+echo local4.error /var/log/l4e.log >> /etc/rsyslog.conf
+echo local4.=info /var/log/l4i.log >> /etc/rsyslog.conf
+service rsyslog restart
+
+On both:
+
+logger -p local4.error "l4 error test"
+logger -p local4.alert "l4 alert test"
+logger -p local4.info "l4 info test"
+cat /var/log/l4e.log
+cat /var/log/l4i.log
+
+6.

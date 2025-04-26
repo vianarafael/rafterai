@@ -1,0 +1,7 @@
+To ﬁ nd more information on chkrootkit, go to 
+http://chkrootkit.org.
+
+Detecting an intrusion 
+Intrusion Detection System (IDS) software—a software package that monitors a system’s 
+activities (or its network) for potential malicious activities and reports these activities—
+can help you monitor your system for potential intrusions.

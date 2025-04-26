@@ -1,0 +1,2 @@
+These peripherals 
+will allow you to interact with the installation tool effectively.

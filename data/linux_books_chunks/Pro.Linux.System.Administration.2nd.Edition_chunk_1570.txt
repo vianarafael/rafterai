@@ -1,0 +1,7 @@
+Not all tables 
+contain all the built-in chains listed in Table 7-5.
+
+Let’s look at the filter table for example. It contains only the INPUT, OUTPUT, and FORWARD chains 
+
+and it is the one you configure most often. If a packet is coming into the host through a network interface, 
+it needs to be evaluated by the rules in the INPUT chain.

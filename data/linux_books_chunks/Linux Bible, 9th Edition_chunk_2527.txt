@@ -1,0 +1,11 @@
+Here’s how to deﬁ ne a proxy server from the Firefox window:
+
+1.  From Firefox, select Edit Preferences. The Firefox Preferences window appears.
+
+2.  From the Firefox Preferences window, click the Advanced button.
+
+3.  Choose the Network tab, and choose the Settings button under the Connection 
+
+heading. The Conﬁ gure Proxies window appears.
+
+4.

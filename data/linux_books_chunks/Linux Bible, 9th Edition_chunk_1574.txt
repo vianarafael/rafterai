@@ -1,0 +1,7 @@
+preﬁ x.
+
+Boot options for disabling features
+Sometimes, a Linux installation fails because the computer has some non-functioning or 
+non-supported hardware. Often, you can get around those issues by passing options to the 
+installer that do such things as disable selected hardware when you need to select your 
+own driver.

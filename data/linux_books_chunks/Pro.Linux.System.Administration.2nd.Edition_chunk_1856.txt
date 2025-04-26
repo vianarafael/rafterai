@@ -1,0 +1,5 @@
+Therefore, you will already be familiar with the main commands of the DNF 
+package manager.
+
+While the end user is not supposed to notice much difference between YUM and DNF, under the hood 
+there are a lot of differences.

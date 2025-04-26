@@ -1,0 +1,2 @@
+USB drives offer the advantage of being writable as well as readable, so you can 
+save your content between sessions.

@@ -1,0 +1,3 @@
+We will 
+
+take a look at gdisk again on the /dev/sdb drive we have just partitioned.

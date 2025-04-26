@@ -1,0 +1,13 @@
+Replace chronyd for chrony on 
+
+Ubuntu.
+
+$ sudo systemctl enable chronyd && sudo systemctl start chronyd
+
+Then check the service is running with
+
+$ sudo systemctl status chronyd
+
+Managing Chrony with Chronyc
+
+Chrony provides a command-line interface tool to query and manage Chrony called chronyc.

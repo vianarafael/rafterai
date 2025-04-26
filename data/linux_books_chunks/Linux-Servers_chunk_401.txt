@@ -1,0 +1,29 @@
+Notice the order of ip
+addresses returned.
+
+root@debian7:~# nslookup www.paul.local 10.104.33.30
+Server:         10.104.33.30
+Address:        10.104.33.30#53
+
+Name:   www.paul.local
+Address: 10.104.33.31
+Name:   www.paul.local
+Address: 10.104.33.30
+
+root@debian7:~# nslookup www.paul.local 10.104.33.30
+Server:         10.104.33.30
+Address:        10.104.33.30#53
+
+Name:   www.paul.local
+Address: 10.104.33.30
+Name:   www.paul.local
+Address: 10.104.33.31
+
+Try to set up a website on two web servers (with a small difference so you can distinguish
+the websites) and test the round robin.
+
+90
+
+advanced DNS
+
+5.2.

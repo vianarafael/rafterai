@@ -1,0 +1,34 @@
+Event handlers can perform tasks such as restarting services or 
+deleting temporary files in an effort to automatically recover a host or service (see 
+https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/
+eventhandlers.html).
+
+You can specify parent-child relationships and dependencies between hosts and 
+services; for example, if a router is down, you can indicate you don’t want Nagios 
+to bother to check hosts behind that router because they won’t be contactable (see 
+https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/
+dependencies.html).
+
+You can design a distributed monitoring environment where there are redundant 
+monitoring servers or where checks are distributed over multiple sites or locations 
+(see https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/
+en/distributed.html and https://assets.nagios.com/downloads/nagioscore/
+docs/nagioscore/4/en/redundancy.html).
+
+878
+
+Chapter 18 ■ Logging and Monitoring
+
+Installing Nagios
+Nagios is easy to install, and packages are available for both CentOS and Ubuntu.
+
+Installing Nagios on CentOS
+
+On CentOS, we can install our Nagios package with the following:
+
+$ sudo yum install nagios nagios-plugins nagios-plugins-ssh nagios-plugins-smtp  
+nagios-plugins-bacula 
+nagios-plugins-disk nagios-plugins-fping nagios-plugins-http nagios-plugins-ldap  
+nagios-plugins-mysql
+
+We have chosen a selection of plug-ins to install as well.

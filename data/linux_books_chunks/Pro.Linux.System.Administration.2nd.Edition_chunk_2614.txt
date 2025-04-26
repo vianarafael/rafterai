@@ -1,0 +1,7 @@
+That’s all we need for now. We’ll save the file and create an accompanying 
+reverse zone file, which will provide an address-to-name mapping.
+
+Reverse Lookup Zones
+
+In order to set up a reverse zone, you need to first find out what it is called. Unlike a forward zone, it has no 
+domain name, but it does have a unique address range.

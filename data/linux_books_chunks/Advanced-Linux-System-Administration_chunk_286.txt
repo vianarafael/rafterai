@@ -1,0 +1,15 @@
+This does imply that when somebody from the list 
+is logged in, an email every minute would be sent! 
+
+#!/bin/bash
+for luser in $(cat /etc/checks) 
+ do 
+  x=$(last |grep $luser|grep still) 
+  if [ -n "$x" ]; then
+    echo User $luser is logged in | mail root;
+  fi
+ done
+
+6. Using rsync
+
+Rsync works like an optimised rcp or scp command.

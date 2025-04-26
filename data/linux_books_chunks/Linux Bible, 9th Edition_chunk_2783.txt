@@ -1,0 +1,2 @@
+When you reload a service, the 
+service itself is not stopped. Only the service’s conﬁ guration ﬁ les are loaded again.

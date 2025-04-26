@@ -1,0 +1,78 @@
+See Line feed (LF)
+Library packages, 298
+Lightning Memory Mapped Database  
+
+(LMDB), 737
+
+Lightweight Directory Access Protocol (LDAP)
+
+Apache authentication, 794–795
+authentication of web services, 739
+backup, 778–779
+clients, 765–766
+defined, 734–737
+delete entries, 774
+management and tools, 766
+replication, 738
+tool options, 769
+tree, 772, 774
+Line feed (LF), 83
+Linode, 7
+Linux-image, 325, 345
+Linux Standard Base (LSB), 201–202
+List (ls) command, 113, 120–121
+LiveCDs, 12
+
+burn ISO files, 99
+CentOS, 100
+
+990
+
+Fedora, 100
+installations, 63
+Linux distributions, 99
+Ubuntu, 100
+
+Log analysis and correlation, 861
+Logger, 857–858
+LogicalDoc, 627
+Logical volume management (LVM), 21, 62–65
+
+commands, 401
+expand, 399–400
+groups, 396–399
+introduction, 396
+shrink, 400
+volumes, 396–399
+
+Login, 147
+Login messages, 167–168
+Log rotation, 858
+
+command-line options, 860
+options, 859
+postrotate command, 860
+prerotate command, 860
+Logs, 744–745, 802, 821–822
+Logstash, 863
+
+codec plug-ins, 862
+configuration files, 865
+defined, 862
+Elasticsearch, 861, 871
+filebeat, 867
+filters, 868–870
+grok function, 870
+input plug-ins, 862
+Java process, 864
+Kibana, 861
+monitor host, 866
+mutate function, 870
+rsyslog, 867
+rubydebug, 865
+Ruby syntax, 865
+
+Long-term support (LTS), 7
+Lookup tables, 559–561
+Loopstats, NTP, 420
+LVM.

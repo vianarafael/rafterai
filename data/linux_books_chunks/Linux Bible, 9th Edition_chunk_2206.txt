@@ -1,0 +1,11 @@
+So the  number of 
+inodes shown here limits the total number of ﬁ les you can create in that ﬁ lesystem.
+
+12
+
+Now mount this ﬁ lesystem (mkdir /mnt/myusb ; mount /dev/sdc1 /mnt/myusb), 
+change to /mnt/myusb as your current directory (cd /mnt/myusb), and create ﬁ les on it 
+as you please.
+
+Summary
+Managing ﬁ lesystems is a critical part of administering a Linux system.

@@ -1,0 +1,36 @@
+The following screenshot
+shows the parent child relationship between three bash processes.
+
+[paul@RHEL4b ~]$ echo $$ $PPID
+4224 4223
+[paul@RHEL4b ~]$ bash
+[paul@RHEL4b ~]$ echo $$ $PPID
+4866 4224
+[paul@RHEL4b ~]$ bash
+[paul@RHEL4b ~]$ echo $$ $PPID
+4884 4866
+[paul@RHEL4b ~]$ ps fx
+  PID TTY      STAT   TIME COMMAND
+ 4223 ?        S      0:01 sshd: paul@pts/0 
+ 4224 pts/0    Ss     0:00  \_ -bash
+ 4866 pts/0    S      0:00      \_ bash
+ 4884 pts/0    S      0:00          \_ bash
+ 4902 pts/0    R+     0:00              \_ ps fx
+[paul@RHEL4b ~]$ exit
+exit
+[paul@RHEL4b ~]$ ps fx
+  PID TTY      STAT   TIME COMMAND
+ 4223 ?        S      0:01 sshd: paul@pts/0 
+ 4224 pts/0    Ss     0:00  \_ -bash
+ 4866 pts/0    S      0:00      \_ bash
+ 4903 pts/0    R+     0:00          \_ ps fx
+[paul@RHEL4b ~]$ exit
+exit
+[paul@RHEL4b ~]$ ps fx
+  PID TTY      STAT   TIME COMMAND
+ 4223 ?        S      0:01 sshd: paul@pts/0 
+ 4224 pts/0    Ss     0:00  \_ -bash
+ 4904 pts/0    R+     0:00      \_ ps fx
+[paul@RHEL4b ~]$   
+
+On Linux, ps fax is often used.

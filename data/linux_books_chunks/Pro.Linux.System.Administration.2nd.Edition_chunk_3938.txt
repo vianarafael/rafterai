@@ -1,0 +1,30 @@
+Takes domain, FQDN, 
+and IP addresses.
+
+Command="/command/to/execute"
+
+Specifies the command to be executed whenever this key is used for 
+authentication.
+
+Environment
+
+no-agent-forwarding
+
+no-port-forwarding
+
+no-X11-forwarding
+
+no-pty
+
+642
+
+Sets user environment if it is allowed by sshd.
+
+Prevents SSH authentication agent forwarding, meaning we cannot 
+use these keys to make connections to other hosts using the ssh 
+agent.
+
+Prevents SSH port forwarding, meaning we cannot use ssh port 
+forwarding to open connections to other hosts.
+
+Prevents X11 forwarding.

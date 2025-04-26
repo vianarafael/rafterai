@@ -1,0 +1,15 @@
+You can use the showmount command to check your 
+NFS shares by issuing the following:
+
+$ sudo showmount -e localhost
+Export list for localhost:
+/data/staff 192.168.0
+
+You can see that the output shows our NFS mount and the host IP address that can connect to it.
+On the remote host, 192.168.0.2, we need to issue the following command to mount the share  
+
+/data/staff to /data/remote (/data/remote needs to exist prior to running this command):
+
+$ sudo mount -t nfs4 -o rw,intr,hard 192.168.0.1:/data/staff /data/remote
+
+This will mount the /data/staff directory to the /data/remote directory on the remote host.

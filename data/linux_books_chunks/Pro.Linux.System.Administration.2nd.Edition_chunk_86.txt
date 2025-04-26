@@ -1,0 +1,4 @@
+Virtual machines are software 
+implementations of hosts that run just like physical hosts. You can run multiple virtual hosts on a single 
+physical host. Examples of virtualization applications and servers include VMware (www.vmware.com/), 
+VirtualBox (www.virtualbox.org/), and open source alternatives like Xen (www.xen.org/), among others.

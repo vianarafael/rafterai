@@ -1,0 +1,6 @@
+We’ll do this by adding a variety of new disks, 
+partitioning these disks, and then formatting and managing this storage.
+
+Drives under Windows show up as a drive letter once you format them, but Linux works differently. It 
+has no concept of drive letters, and formatting also doesn’t work quite in the same way. Instead, drives and 
+storage appear as devices, which can be partitioned.

@@ -1,0 +1,4 @@
+Other Troubleshooting Tools
+The programs we have just discussed cover basic network troubleshooting. Many other networking tools 
+are available to further help diagnose problems. We briefly touched on the netstat command, but there 
+are a multitude of others.

@@ -1,0 +1,12 @@
+To encrypt a ﬁ le and add your digital signature using the gpg2 utility, do the 
+
+following:
+
+a. You must have ﬁ rst generated a key ring (Exercise 2).
+
+b. After you have generated the key ring, type:
+
+ $ gpg2 --output EncryptedSignedFile --sign FiletoEncryptSign
+
+5.  To use the appropriate message digest utility to ensure that the downloaded ﬁ le is 
+not corrupted, you must do the following.

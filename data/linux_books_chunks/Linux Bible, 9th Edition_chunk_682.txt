@@ -1,0 +1,11 @@
+A standard practice in UNIX was to 
+connect utilities in different ways to get different jobs done. For example, before the days 
+of graphical word processors, users created plain-text ﬁ les that included macros to 
+
+82
+
+c03.indd  04/01/2015  Page 83
+
+Chapter 3: Using the Shell
+
+indicate formatting.

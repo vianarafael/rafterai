@@ -1,0 +1,9 @@
+The slave server
+
+130
+
+introduction to DNS
+
+will compare the serial number of its own copy of the SOA record with the serial number
+of its master's SOA record. When both serial numbers are the same, then no update is needed
+(because no records were added, removed or deleted).

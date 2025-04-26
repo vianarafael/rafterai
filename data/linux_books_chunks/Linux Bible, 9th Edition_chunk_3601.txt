@@ -1,0 +1,6 @@
+The root_squash is used to exclude the root user from another 
+computer from having root privilege to the shared directory.
+
+These are just examples; you can share any directories that you choose, including the 
+entire ﬁ lesystem (/). Of course, there are security implications of sharing the whole 
+ ﬁ lesystem or sensitive parts of it (such as /etc).

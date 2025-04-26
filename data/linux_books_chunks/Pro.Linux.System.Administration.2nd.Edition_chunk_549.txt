@@ -1,0 +1,13 @@
+Collectively, this activity is called globbing, and you can read about its use in Linux 
+shells at www.faqs.org/docs/abs/HTML/globbingref.html.
+
+120
+
+ChapTeR 4 ■ LInux BasICs
+
+You can also list files in other directories by specifying the directory name:
+
+$ ls /usr/local/bin
+
+This would list all the files in the /usr/local/bin directory.
+You don’t see a lot of details about these files and directories in Listing 4-7, though.

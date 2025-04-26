@@ -1,0 +1,11 @@
+This will clean up and end 
+any of those jobs. You can learn more about that process here:
+
+•	
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/mpuoverview.html#mpu-
+abort-incomplete-mpu-lifecycle-config
+
+We can click the Review button when we are done.
+We have the opportunity in Figure 14-7 to give our policy a name, and we have called it nightly-
+lifecycle.

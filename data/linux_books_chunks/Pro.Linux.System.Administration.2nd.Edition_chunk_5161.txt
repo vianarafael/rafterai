@@ -1,0 +1,12 @@
+logrotate Command-Line Options
+
+Option Description
+
+-d
+
+-v
+
+-f
+
+Debug mode in which no changes will be made to log files;  
+it will output the results of what it may have rotated.

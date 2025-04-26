@@ -1,0 +1,4 @@
+The rest of this section describes the bash shell.
+
+Bash includes features originally developed for sh and ksh shells in early UNIX systems, as 
+well as some csh features.

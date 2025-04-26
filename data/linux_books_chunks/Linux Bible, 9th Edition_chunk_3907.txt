@@ -1,0 +1,12 @@
+To read about the crontab 
+command, type man 1 crontab.
+
+571
+
+c21.indd  04/01/2015  Page 572
+
+Part IV: Becoming a Linux Server Administrator
+
+Fixing RPM databases and cache
+Information about all the RPM packages on your system is stored in your local RPM data-
+base.

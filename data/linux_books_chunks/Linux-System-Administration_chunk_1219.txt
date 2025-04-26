@@ -1,0 +1,4 @@
+modprobe
+
+The  big  advantage  of  modprobe  over  insmod  is  that  modprobe  will  load  all  necessary
+modules, whereas insmod requires manual loading of dependencies.

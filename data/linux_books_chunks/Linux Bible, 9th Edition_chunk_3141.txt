@@ -1,0 +1,5 @@
+For 
+example, if a web browser requested http://host/whatever/, httpd would see whether 
+/var/www/html/whatever/index.html existed and serve it if the ﬁ le existed. If it 
+didn’t exist, in this example, httpd would look for index.php. If that ﬁ le couldn’t be 
+found, the contents of the directory would be displayed.

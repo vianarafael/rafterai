@@ -1,0 +1,7 @@
+NAts ability to hide our ‘private’ network address space 
+means that many hosts and devices don’t have to worry about network attacks (well, they should, but 
+they don’t).
+
+when we consider that every iPv6 device is reachable from the internet and we consider the default 
+rules for the firewall chains we have just shown, our systems could be in for a wild time without the 
+security fig leaf of NAt’ing.

@@ -1,0 +1,13 @@
+To find out that 
+
+information we can use dig with the +trace option.
+
+Listing 10-11.  Seeing the Delegation Path
+
+$ dig +trace www.google.com
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> +trace www.google.com
+;; global options: +cmd
+.                      9903    IN     NS      a.root-servers.net.
+.                      9903    IN     NS      d.root-servers.net.
+.

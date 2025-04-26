@@ -1,0 +1,4 @@
+We first do 
+a “pull” on the origin (or the githost.com master repository) to pull in any other changes that have been 
+checked in already. Then you merge your changes into the master repository and take care of any conflicts 
+this causes.

@@ -1,0 +1,7 @@
+In Chapter 4, we mentioned that the /mnt directory is commonly used as a place to 
+temporarily mount filesystems. Next, you’ll create a directory called /mnt/data, and you’ll use that for your 
+new ext4 partition.
+
+$ sudo mkdir /mnt/data
+
+Mounting a partition is done via the mount command.

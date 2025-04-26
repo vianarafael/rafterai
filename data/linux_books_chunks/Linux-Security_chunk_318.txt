@@ -1,0 +1,13 @@
+eiciel
+
+Desktop users might want to use eiciel to manage acls with a graphical tool.
+
+You  will  need  to  install  eiciel  and  nautilus-actions  to  have  an  extra  tab  in  nautilus  to
+manage acls.
+
+paul@laika:~$ sudo aptitude install eiciel nautilus-actions
+
+66
+
+  
+Chapter 9.

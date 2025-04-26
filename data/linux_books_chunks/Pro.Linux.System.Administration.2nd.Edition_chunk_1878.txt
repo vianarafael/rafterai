@@ -1,0 +1,2 @@
+You can also see what group the package is in, as each package on your host belongs to a 
+group of like packages.

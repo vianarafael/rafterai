@@ -1,0 +1,15 @@
+There are many other options for lookup tables too; for a full list, you can visit the following:
+
+•	
+
+www.postfix.org/DATABASE_README.html
+
+Getting Help for Postfix
+Postfix is not only one of the easiest applications to configure, with a simple configuration model and lots of 
+documentation, but also one of the friendliest to troubleshoot, with most error messages being descriptive 
+and helpful.
+
+ Not all Mtas are as easy to configure, and others have complex syntax and bewildering error 
+
+ ■ Note 
+messages.

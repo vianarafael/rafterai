@@ -1,0 +1,6 @@
+for example, you can install a module from the 
+forge like this:
+
+$ puppet module search apache
+NAME                         DESCRIPTION                     AUTHOR            KEYWORDS
+puppetlabs-apache           Installs, configures, ...

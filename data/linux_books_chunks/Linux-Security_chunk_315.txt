@@ -1,0 +1,14 @@
+remove an acl entry
+
+The -x option of the setfacl command will remove an acl entry from the targeted file.
+
+paul@laika:~/test$ setfacl -m u:sandra:7 file33 
+paul@laika:~/test$ getfacl file33 | grep sandra
+user:sandra:rwx
+paul@laika:~/test$ setfacl -x sandra file33
+paul@laika:~/test$ getfacl file33 | grep sandra
+
+Note that omitting the u or g when defining the acl for an account will default it to a user
+account.
+
+8.5.

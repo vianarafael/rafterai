@@ -1,0 +1,17 @@
+None are listed with S, which is consistent with chkconfig that the cups daemon 
+does not start at any runlevel on this server.
+
+408
+
+c15.indd  04/01/2015  Page 409
+
+Chapter 15: Starting and Stopping Services
+
+# ls /etc/rc.d/rc?.d/*cups
+/etc/rc.d/rc0.d/K10cups  /etc/rc.d/rc3.d/K10cups
+/etc/rc.d/rc1.d/K10cups  /etc/rc.d/rc4.d/K10cups
+/etc/rc.d/rc2.d/K10cups  /etc/rc.d/rc5.d/K10cups
+/etc/rc.d/rc6.d/K10cups
+
+To make a service persistent at a particular runlevel, the chkconfig command is used 
+again.

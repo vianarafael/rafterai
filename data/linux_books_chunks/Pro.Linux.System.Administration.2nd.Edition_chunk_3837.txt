@@ -1,0 +1,38 @@
+We have added another 
+device to our peer of 50GB and have formatted and mounted it similarly as we did when we expanded 
+the volume.
+
+$ sudo mkfs.xfs  -L brick2_r2 /dev/sdd && sudo mkdir -p /data/brick2_r2 && \
+         sudo bash -c 'echo LABEL=brick2_r2 /data/brick2_r2 xfs defaults 1 2 >> /etc/fstab' && \
+         sudo mount –a
+$ sudo mkdir /data/brick2_r2/vol1
+
+Now to replace the damaged brick, we use the following command:
+
+$ sudo gluster volume replace-brick vol1 au-mel-dfs-1:/data/brick1_r2/vol1 au-mel-dfs-1:/
+data/brick2_r2/vol1 commit force
+volume replace-brick: success: replace-brick commit force operation successful
+
+Now we can see the health with the volume status.
+
+$ sudo gluster volume status
+Status of volume: vol1
+
+625
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Gluster process                             TCP Port  RDMA Port  Online     Pid
+---------------------------------------------------------------------------------
+Brick au-mel-dfs-1:/data/brick1_r1/vol1      49152       0          Y       12252
+...
+Brick au-mel-dfs-3:/data/brick2_r2/vol1      49154       0          Y       2280
+
+The brick has been replaced, and we can see from the df command that data has been synced to it.
+
+$ df -h /data/brick2_r2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sde        50G   42M   50G   1% /data/brick2_r2
+
+Managing Documents
+File sharing is an important part of distributing documents in your company.

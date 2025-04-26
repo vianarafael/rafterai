@@ -1,0 +1,11 @@
+You can also install Grafana on macOS or Windows.
+
+First we will add the Grafana repository.
+
+$ sudo bash -c 'echo "deb https://packagecloud.io/grafana/stable/debian/ jessie main" > /
+etc/apt/sources.list.d/grafana.list'
+$ curl https://packagecloud.io/gpg.key | sudo apt-key add -
+$ sudo aptitude update
+$ sudo aptitude install –y grafana
+
+Once it is installed, we can start the Grafana service.

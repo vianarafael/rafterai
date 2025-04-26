@@ -1,0 +1,5 @@
+In the previous lines, only hosts that have a remote IP address in the 192.168.0.0/24 subnet will 
+be allowed to access this directory. In Table 11-3, you can see the other options available to the Require 
+directive.
+
+Table 11-3.

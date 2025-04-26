@@ -1,0 +1,36 @@
+Prepare to reboot
+
+The mkinitrd script will read /etc/raitab and /mnt/sys/etc/fstab to customise an initrd.
+
+Edit /mnt/sys/etc/fstab and change the root device to /dev/md0 as well as the filesystem 
+type to ext2.
+
+/mnt/sys/etc/fstab
+
+/dev/md0   /    ext2   defaults   1   1
+
+Make the initial rootdisk and call it initrd-raid.img
+
+mkinitrd  --fstab=/mnt/sys/etc/fstab /boot/initrd-raid.img $(uname -r)
+
+Uncompress /boot/initrd-raid.img and mount it on a loop device to check that linuxrc will 
+insert the correct modules.
+
+Reconfigure LILO/GRUB to change the following
+
+Sample 
+
+ :
+ lilo.conf
+
+ image=/boot/vmlinuz-2.4.22-1.2115.nptl
+
+initrd=/boot/initrd-raid.img
+
+read-only
+
+root=/dev/md0
+
+label=linux-raid
+
+2.

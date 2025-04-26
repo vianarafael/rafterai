@@ -1,0 +1,6 @@
+With LVM, you create pools of storage, called volumes, that can allow you 
+to grow and shrink logical volumes, as well as extend the size of your volume groups by 
+ adding more physical volumes.
+
+With most of the basics needed to become a system administrator covered at this point in the 
+book, Chapter 13 introduces concepts for extending those skills to manage network servers.

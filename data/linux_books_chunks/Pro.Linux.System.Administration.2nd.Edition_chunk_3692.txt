@@ -1,0 +1,39 @@
+Samba Service Directives
+
+Directive
+
+path
+
+browseable
+
+comment
+
+writable
+
+readonly
+
+printable
+
+guest ok
+
+valid users
+
+write list
+
+force user
+
+force group
+
+Description
+
+Defines the path of the share you are describing (e.g., /tmp).
+
+Describes whether the share is visible in the browser list of shares.
+
+Gives a description of the share.
+
+Indicates the share can be written to, as opposed to being read-only.
+
+Signifies the share is read-only.
+
+Allows spool files to be created and submitted to the share.

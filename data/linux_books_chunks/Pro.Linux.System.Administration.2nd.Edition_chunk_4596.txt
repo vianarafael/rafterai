@@ -1,0 +1,3 @@
+As we have previously mentioned, the access 
+
+control lists are read and implemented from top to bottom.

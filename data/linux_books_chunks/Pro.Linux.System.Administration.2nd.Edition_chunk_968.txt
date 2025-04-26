@@ -1,0 +1,5 @@
+the lastlog command displays 
+a report that shows the login status of all users on your host, including those users who have never 
+logged in. the command displays a list of all users and their last login date and time, or it displays 
+a message indicating **Never Logged In** if that user has never logged in. Using command-line 
+options, you can search records for specific users.

@@ -1,0 +1,14 @@
+In Linux, Identity, Policy, and Audit (IPA) software (see www.freeipa.org) 
+offers a full set of authentication features that can be used across an enterprise cloud 
+platform.
+
+731
+
+c26.indd  04/01/2015  Page 732
+
+Part VI: Extending Linux into the Cloud
+
+Cloud deployment and confi guration
+If you are managing a large cloud infrastructure, you don’t want to have to walk over to 
+each machine and click through a graphical installation every time you want to add a hyper-
+visor or other node on your network.

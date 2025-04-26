@@ -1,0 +1,9 @@
+Create a host entry that allows you to communicate with your local host system 
+
+using the name myownhost.
+
+8.  Add the public Google DNS server (IP address 8.8.8.8) as the last in your list of 
+
+DNS servers.
+
+9.

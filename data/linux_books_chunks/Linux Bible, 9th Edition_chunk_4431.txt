@@ -1,0 +1,10 @@
+1 root root 14 Feb 28 01:36
+ system-auth -> system-auth-ac
+# rm -i system-auth
+rm: remove symbolic link 'system-auth'? y
+
+4.  Create a new symbolic link pointing to the new conﬁ guration ﬁ le.
+
+# ln -s system-auth-local system-auth
+# ls -l system-auth
+lrwxrwxrwx.

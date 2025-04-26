@@ -1,0 +1,16 @@
+To 
+do this using Sieve, you add a recipe like the following to your user’s ~/.dovecot.sieve file:
+
+require ["fileinto"];
+if header :contains "X-Virus-Status" "" {
+        fileinto "Spam";
+}
+if not header :contains "X-Virus-Status" "Clean" {
+        fileinto "Virus";
+}
+
+579
+
+Chapter 12 ■ Mail ServiCeS
+
+However, it may be better to not pass on infected files to your users at all.

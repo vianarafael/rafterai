@@ -1,0 +1,4 @@
+The operating 
+system keeps data in RAM in order to speed up operations. This may cause data to be 
+lost in the event of a crash unless sync is executed. Sync will simply call the 'sync' system 
+call.

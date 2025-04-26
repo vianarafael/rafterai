@@ -1,0 +1,18 @@
+SASL provides the following mechanisms:
+
+•	
+
+PLAIN/LOGIN
+
+•	 DIGESTMD5
+
+•	 GSSAPI (Kerberos v5)
+
+•	
+
+EXTERNAL (X.509 public/private key authentication)
+
+ SASL (PLAiN/LOGiN, DiGeSTMD5) requires clear-text passwords to be used in the userPasswd 
+
+ ■ Note 
+attribute. Whether this is good or not for security is heavily debated.

@@ -1,0 +1,2 @@
+System facts are things like operating system, IP addresses, and any custom facts. 
+Another one is Hiera, a key/value lookup database for declaring Puppet configuration data.

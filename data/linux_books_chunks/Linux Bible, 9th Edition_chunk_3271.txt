@@ -1,0 +1,12 @@
+From Fedora or RHEL, run this command to get 
+some general information about the package:
+
+18
+
+# rpm -qi vsftpd
+...
+Packager    : Fedora Project
+Vendor      : Fedora Project
+URL         : https://security.appspot.com/vsftpd.html
+Summary     : Very Secure Ftp Daemon
+Description : vsftpd is a Very Secure FTP daemon.

@@ -1,0 +1,6 @@
+Because this is a well-known format, it is readable by Windows, Mac, and Linux systems.
+
+An ISO image can be burned to a CD or DVD medium, depending on the size of the image. An ISO image in your fi le 
+system can be mounted on a Linux system in loopback mode, so you can view or copy its contents.
+
+When an ISO image contains a Linux Live CD or installation image, the images are bootable.

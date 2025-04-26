@@ -1,0 +1,10 @@
+The 
+ following list describes what elements need to be set:
+
+ ■ services—Login
+
+ ■ ttys—* (Designating that all terminals are to be included)
+
+ ■ users—Everyone but root (!root)
+
+ ■ times—Allowed on weekdays (Wd) from 7 a.m. (0700) to 7 p.m.

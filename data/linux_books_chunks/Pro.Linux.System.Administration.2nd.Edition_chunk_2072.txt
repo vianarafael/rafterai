@@ -1,0 +1,9 @@
+you can read more about this specification at 
+
+http://en.wikipedia.org/wiki/SCSI.
+
+You can see which disk devices are available on your host by listing them using the ls command, as in 
+
+Listing 9-1.
+
+Listing 9-1.

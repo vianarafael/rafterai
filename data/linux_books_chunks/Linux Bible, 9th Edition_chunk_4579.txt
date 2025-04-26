@@ -1,0 +1,11 @@
+To change the default policy type, edit the 
+/etc/selinux/config ﬁ le. Change the line SELINUXTYPE= to one of the following:
+
+ ■ targeted
+
+ ■ mls
+
+ ■ minimum
+
+If you set the SELinux type to mls or minimum, you need to make sure you have their pol-
+icy package installed ﬁ rst.

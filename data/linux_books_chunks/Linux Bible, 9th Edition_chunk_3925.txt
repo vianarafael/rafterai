@@ -1,0 +1,3 @@
+For example, in RHEL 7, you might see a network 
+interface of enp11s0. That would indicate that the NIC is a wired Ethernet card (en) on 
+PCI board 11 (p11) and slot 0 (s0). A wireless card would start with wl instead of en.

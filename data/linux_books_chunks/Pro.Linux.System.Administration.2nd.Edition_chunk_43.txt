@@ -1,0 +1,5 @@
+It is notable 
+because it provides the option to compile the entire distribution from source code on your hardware. 
+This allows you to customize every option to suit your particular hardware combination but can take a 
+considerable time to complete. Gentoo can also be installed in a precompiled form for those with less 
+technical skill who don’t wish to compile everything.

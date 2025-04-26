@@ -1,0 +1,7 @@
+Reinstalling or upgrading can often ﬁ x 
+ dependency problems.
+
+ ■ Only use third-party apps and repositories when necessary. The further you 
+
+are from the core of a Linux distribution, the more likely you are to someday have 
+dependency problems.

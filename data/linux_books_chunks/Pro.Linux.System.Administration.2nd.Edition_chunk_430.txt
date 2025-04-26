@@ -1,0 +1,4 @@
+This is where at least some of your administration tasks are going to occur, and it’s important 
+to be able to understand and make use of the command line. Indeed, in some cases you will not have a GUI 
+environment available. If your GUI environment is not functional, you will need to be able to administer 
+your hosts using the command line.

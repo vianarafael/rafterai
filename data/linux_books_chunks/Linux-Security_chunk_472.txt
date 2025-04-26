@@ -1,0 +1,23 @@
+setroubleshoot
+
+The log file above was not very helpful, but these two packages can make your life much
+easier.
+
+[root@centos65 ~]# yum -y install setroubleshoot setroubleshoot-server
+
+You need to reboot for this to work...
+
+So we reboot, restart the httpd server, reactive SELinux Enforce, and do the wget again...
+and it fails (because of SELinux).
+
+[root@centos65 ~]# service httpd restart
+Stopping httpd:                                         [FAILED]
+Starting httpd:                                         [  OK  ]
+[root@centos65 ~]# getenforce 
+Permissive
+[root@centos65 ~]# setenforce  1
+[root@centos65 ~]# getenforce 
+Enforcing
+[root@centos65 ~]# wget http://localhost/test42.txt
+--2014-04-12 21:44:13--  http://localhost/test42.txt
+Resolving localhost...

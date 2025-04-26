@@ -1,0 +1,8 @@
+The following is an example of some chown settings you 
+could put in your vsftpd.conf ﬁ le to use with your anonymous upload directory:
+
+chown_uploads=YES
+chown_username=joe
+
+If an anonymous user were to upload a ﬁ le after vsftpd was restarted with these settings, 
+the uploaded ﬁ le would be owned by the user joe and the ftp group.

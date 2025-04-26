@@ -1,0 +1,11 @@
+Conﬁ guration ﬁ les for CUPS are contained in the /etc/cups directory. 
+In  particular, you might be interested in the cupsd.conf ﬁ le, which identiﬁ es 
+permission, authentication, and other information for the printer daemon, and 
+
+424
+
+c16.indd  04/01/2015  Page 425
+
+Chapter 16: Confi guring a Print Server
+
+printers.conf, which identiﬁ es addresses and options for conﬁ gured printers.

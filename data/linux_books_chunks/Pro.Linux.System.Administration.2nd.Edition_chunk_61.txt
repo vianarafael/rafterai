@@ -1,0 +1,10 @@
+And if 
+you want fully virtualized servers you can also look at Amazon Cloud Services (https://aws.amazon.com) or 
+Google Compute Engine (https://cloud.google.com/compute) and even simple services like DigitalOcean 
+(www.digitalocean.com)
+
+7
+
+ChApTeR 1 ■ InTRoDuCIng LInux
+
+ ■ Note  The decision to go to the Cloud or buy your own hardware comes down to various factors.

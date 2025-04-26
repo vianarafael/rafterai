@@ -1,0 +1,13 @@
+The rest -22-generic
+is specific to the distribution (Ubuntu in this case).
+
+paul@laika:~$ uname -r
+2.6.24-22-generic
+
+The  same  command  on  Red  Hat  Enterprise  Linux  shows  an  older  kernel  (2.6.18)  with
+-92.1.17.el5 being specific to the distribution.
+
+[paul@RHEL52 ~]$ uname -r
+2.6.18-92.1.17.el5
+
+28.1.3.

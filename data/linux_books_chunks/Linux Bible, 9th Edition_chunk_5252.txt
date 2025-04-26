@@ -1,0 +1,29 @@
+As the user mjones, you can use the following to create a ﬁ le called /tmp/maryfile
+.txt and use ACLs to assign the bin user read/write permission and the lp group read/
+write permission to that ﬁ le.
+
+[mjones]$ touch /tmp/maryfile.txt
+[mjones]$ setfacl -m u:bin:rw /tmp/maryfile.txt
+[mjones]$ setfacl -m g:lp:rw /tmp/maryfile.txt
+[mjones]$ getfacl /tmp/maryfile.txt
+# file: tmp/maryfile.txt
+# owner: mjones
+
+800
+
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 801
+
+Appendix B: Exercise Answers
+
+# group: mjones
+user::rw-
+user:bin:rw-
+group::rw-
+group:lp:rw-
+mask::rw-
+other::r —
+
+10.

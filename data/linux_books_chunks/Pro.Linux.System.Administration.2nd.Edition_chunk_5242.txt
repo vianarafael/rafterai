@@ -1,0 +1,5 @@
+We can start the Elasticsearch 
+service now, and we can start storing our logs in it. However, if we want to create an Elasticsearch cluster, we 
+will need to edit the /etc/elasticsearch/elasticsearch.yml file.
+
+To create an Elasticsearch cluster, you need to supply the cluster name and the node name.

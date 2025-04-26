@@ -1,0 +1,25 @@
+smbclient anonymous
+
+The screenshot below uses smbclient to display information about a remote smb server (in
+this case a computer with Ubuntu 11.10).
+
+root@ubu1110:/etc/samba# testparm smbclient -NL 127.0.0.1
+Anonymous login successful
+Domain=[LINUXTR] OS=[Unix] Server=[Samba 3.5.11]
+
+ Sharename       Type      Comment
+ ---------       ----      -------
+ share1          Disk      
+ IPC$            IPC       IPC Service (Samba 3.5.11)
+Anonymous login successful
+Domain=[LINUXTR] OS=[Unix] Server=[Samba 3.5.11]
+
+ Server               Comment
+ ---------            -------
+
+ Workgroup            Master
+ ---------            -------
+ LINUXTR              DEBIAN6
+ WORKGROUP            UBU1110
+
+10.3.3.

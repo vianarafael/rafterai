@@ -1,0 +1,11 @@
+This is done by simply issuing the following:
+
+$ sudo semodule –i clamav-write.pp
+
+We have told semodule to install (-i) the clamav-write.pp policy into SELinux. We are now ready to 
+
+start the ClamAV services.
+
+Once all the relevant packages have been installed, you need to ensure the ClamAV daemon has been 
+
+enabled and started.

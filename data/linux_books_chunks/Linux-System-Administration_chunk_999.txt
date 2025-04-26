@@ -1,0 +1,3 @@
+/sbin/ifup
+
+Below a screenshot of ifup bringing the eth0 ethernet interface up using dhcp.

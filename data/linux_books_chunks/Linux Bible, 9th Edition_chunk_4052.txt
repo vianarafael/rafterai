@@ -1,0 +1,22 @@
+Whereas you may need 
+only three backup copies of one particular object, another may have enough importance for you to maintain more 
+copies.
+
+592
+
+c22.indd  04/15/2015  Page 593
+
+Chapter 22: Understanding Basic Linux Security 
+
+Backup utilities on a Linux system include the following:
+
+ ■ amanda (Advanced Maryland Automatic Network Disk Archiver)
+
+ ■ cpio
+
+ ■ dump/restore
+
+ ■ tar
+
+The cpio, dump/restore, and tar utilities are typically pre-installed on a Linux dis-
+tribution.

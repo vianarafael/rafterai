@@ -1,0 +1,4 @@
+However, there 
+are many other options to deploying a Linux server—including network provisioning, deploying virtualized 
+machine images, or launching a Linux instance in the “cloud.” There is also a greater ability now to share 
+virtualized machines with others locally or all over the world.

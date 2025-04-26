@@ -1,0 +1,7 @@
+When disks are both large and cheap, and you have enough 
+slots in your server to hold at least four disks, this might be a good option.
+
+Processor to the Rescue
+
+In order to get the best of all worlds—redundancy, storage size, and speed—you can call in the help of 
+some processing power.

@@ -1,0 +1,7 @@
+We are saying we want to use the yum module to 
+
+install some packages. To install the packages, we could write out a task for each package saying install the 
+latest package and make sure we have an up-to-date repository cache (update_cache=yes). But since this is 
+repetitive, we will use a loop.
+
+We say, loop through the items listed in the with_items: list and install them.

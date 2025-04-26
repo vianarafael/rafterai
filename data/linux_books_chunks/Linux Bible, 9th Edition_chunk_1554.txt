@@ -1,0 +1,12 @@
+Although you can run a bootable Linux, such as KNOPPIX 
+or Damn Small Linux, without touching the hard disk, to do a more permanent installation, 
+you’ll want to ﬁ nd disk space outside the Windows installation. There are a few ways to 
+do this:
+
+214
+
+c09.indd  04/01/2015  Page 215
+
+Chapter 9: Installing Linux
+
+ ■ Add a hard disk.

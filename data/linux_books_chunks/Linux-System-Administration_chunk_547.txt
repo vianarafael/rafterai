@@ -1,0 +1,16 @@
+Use tune2fs -c or -i to override.
+
+123
+
+logical volume management
+
+The mounting and copying of files.
+
+root@rhel65:~# mkdir /srv/LVsmall
+root@rhel65:~# mkdir /srv/LVbig
+root@rhel65:~# mount /dev/mapper/VG42-LVsmall /srv/LVsmall
+root@rhel65:~# mount /dev/VG42/LVbig /srv/LVbig
+root@rhel65:~# cp -r /etc /srv/LVsmall/
+root@rhel65:~# cp -r /var/log /srv/LVbig/
+
+3.

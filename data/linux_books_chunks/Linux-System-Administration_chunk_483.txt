@@ -1,0 +1,20 @@
+This is because the filesystem is only set for the size of the
+volume before the extension was added.
+
+[root@RHEL5 ~]# df -h | grep resizetest
+                      194M  5.6M  149M   4% /home/resizetest
+
+With lvdisplay however we can see that the volume is indeed extended.
+
+[root@RHEL5 ~]# lvdisplay /dev/vg2/lvol0 | grep Size
+  LV Size                300.00 MB
+
+To finish the extension, you need resize2fs to span the filesystem over the full size of the
+logical volume.
+
+[root@RHEL5 ~]# resize2fs /dev/vg2/lvol0 
+resize2fs 1.39 (29-May-2006)
+Filesystem at /dev/vg2/lvol0 is mounted on /home/resizetest; on-line re\
+sizing required
+Performing an on-line resize of /dev/vg2/lvol0 to 307200 (1k) blocks.
+The filesystem on /dev/vg2/lvol0 is now 307200 blocks long.

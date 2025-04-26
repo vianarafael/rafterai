@@ -1,0 +1,7 @@
+We are shortly going to 
+create our Samba users and groups via the samba-tool command, and once that is done, we will create our 
+directories and assign permissions.
+
+We have set up Samba in such a way that requires user accounts to be administered on the Samba host. 
+
+Samba provides a subcommand to samba-tool to administer user accounts on your Samba host.

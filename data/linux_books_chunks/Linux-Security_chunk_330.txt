@@ -1,0 +1,15 @@
+. and ..
+
+You can see five names, and the mapping to their five inodes. The dot . is a mapping to itself,
+and the dotdot .. is a mapping to the parent directory. The three other names are mappings
+to different inodes.
+
+69
+
+file links
+
+9.3. hard links
+
+9.3.1. creating hard links
+
+When we create a hard link to a file with ln, an extra entry is added in the directory.

@@ -1,0 +1,3 @@
+This would define a static network configuration for interface 
+eth0. We specify that the boot protocol is static using the --static=1 option; we would specify --static=0 
+for a DHCP configuration.

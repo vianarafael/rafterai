@@ -1,0 +1,7 @@
+In 
+NFS, user-level security is implemented by mapping users from the client sys-
+tems to users on the NFS server (based on UID and not username) so they can 
+rely on  standard Linux read/write/execute permissions, ﬁ le ownership, and group 
+ permissions to access and protect ﬁ les.
+
+5.  Mount the filesystem on the client.

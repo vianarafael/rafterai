@@ -1,0 +1,14 @@
+We then close the virtual host configuration with the closing directive </VirutalHost>.
+
+For a basic virtual host, we can use the following configuration:
+
+<VirtualHost *:80>
+
+  ServerName www.example.com
+  ServerAdmin webmaster@example.com
+  DocumentRoot  /var/www/html/www.example.com
+
+</VirtualHost>
+
+ServerName tells the Apache server that it should direct requests for the www.example.com web site to 
+this virtual host.

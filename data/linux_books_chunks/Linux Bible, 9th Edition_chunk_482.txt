@@ -1,0 +1,12 @@
+The creator of Metacity refers to it as a “boring window 
+
+50
+
+c02.indd  04/01/2015  Page 51
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+manager for the adult in you” and then goes on to compare other window managers to 
+ colorful, sugary cereal, whereas Metacity is characterized as Cheerios.
+
+To use 3D effects, your best solution is to use the Compiz window manager, described later in this chapter.

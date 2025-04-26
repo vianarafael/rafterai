@@ -1,0 +1,6 @@
+You can also 
+search messages, create and delete folders, and perform a variety of other management tasks.
+
+POP3
+POP3 is also used for accessing e-mail mailboxes from a remote client. E-mail is received and held in the 
+users’ mailboxes until they check their e-mail.

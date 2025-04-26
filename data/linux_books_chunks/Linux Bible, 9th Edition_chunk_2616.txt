@@ -1,0 +1,5 @@
+In its most basic form, a DHCP server can 
+hand out IP addresses from a pool of addresses to any system that requests it. Usually, how-
+ever, the DHCP server also distributes the locations of DNS servers and the default gateway.
+
+Conﬁ guring a DHCP server is not something that should be done without some thought.

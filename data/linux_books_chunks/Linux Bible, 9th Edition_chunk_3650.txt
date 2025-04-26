@@ -1,0 +1,6 @@
+With a noauto option, an NFS directory listed in 
+/etc/fstab is inactive until the mount command is used, after the system is up and 
+running, to mount the ﬁ lesystem.
+
+In addition to the /etc/fstab ﬁ le, you can also set mount options using the 
+/etc/nfsmount.conf ﬁ le.

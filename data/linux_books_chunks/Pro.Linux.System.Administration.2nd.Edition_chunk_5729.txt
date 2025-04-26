@@ -1,0 +1,29 @@
+Start at these Puppet sites:
+
+•	
+
+•	
+
+•	
+
+https://puppet.com/resources
+
+https://docs.puppet.com/puppet/4.8
+
+https://puppet.com/community/get-help
+
+The following books are recommended:
+
+•	
+
+•	
+
+Pro Puppet by Spencer Krum, William Van Hevelingen, Ben Kero, James Turnbull, 
+and Jeffrey McCune (Apress, 2014)
+
+Extending Puppet by Alessandro Franceschi and Jaime Soriano Pastor (Packt, 2016)
+
+These and more can be found here: https://puppet.com/resources/books.
+
+Introducing Ansible
+Ansible has a different approach than Puppet.

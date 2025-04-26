@@ -1,0 +1,7 @@
+Sometimes this 
+ happens when the BIOS detects the disks in the wrong order and looks for the 
+grub.conf ﬁ le on the wrong partition.
+
+One workaround to this problem, assuming grub.conf is on the ﬁ rst partition of 
+the ﬁ rst disk, is to list the contents of this ﬁ le and enter the root, kernel, and 
+initrd lines manually. To list the ﬁ le, type cat (hd0,0)/grub/grub.conf.

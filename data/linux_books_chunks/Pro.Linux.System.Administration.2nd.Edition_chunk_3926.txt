@@ -1,0 +1,6 @@
+Not having a passphrase on our keys is a security concern, so 
+we will take steps to mitigate any chance of them being abused a little later.
+
+First, we are going to create a new user, exbackup, to control these backups, if you haven’t created them 
+
+already.

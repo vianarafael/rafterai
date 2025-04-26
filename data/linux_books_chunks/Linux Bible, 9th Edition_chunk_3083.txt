@@ -1,0 +1,5 @@
+To change the behavior of the httpd  daemon, you can add 
+options to the OPTIONS= variable in the /etc/sysconfig/httpd ﬁ le.
+
+Because there are different versions of httpd around, check the man page (man httpd) to 
+see what options can be passed to the httpd daemon.

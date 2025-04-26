@@ -1,0 +1,69 @@
+older example config files
+
+For dhcpd.conf on Fedora with dynamic updates for a DNS domain.
+
+[root@fedora14 ~]# cat /etc/dhcp/dhcpd.conf 
+authoritative;
+include "/etc/rndc.key";
+
+log-facility local6;
+
+server-identifier    fedora14;
+ddns-domainname  "office.linux-training.be";
+ddns-update-style interim;
+ddns-updates  on;
+update-static-leases on;
+
+option domain-name "office.linux-training.be";
+option domain-name-servers 192.168.42.100;
+option ip-forwarding off;
+
+default-lease-time 1800;
+max-lease-time  3600;
+
+zone office.linux-training.be {
+ primary 192.168.42.100;
+}
+
+subnet 192.168.4.0 netmask 255.255.255.0 {
+ range 192.168.4.24 192.168.4.40;
+}
+
+Allowing any updates in the zone database (part of the named.conf configuration)
+
+zone "office.linux-training.be" {
+
+107
+
+introduction to dhcp
+
+ type master;
+ file "/var/named/db.office.linux-training.be";
+ allow-transfer { any; };
+ allow-update { any; };
+};
+
+Allowing secure key updates in the zone database (part of the named.conf configuration)
+
+zone "office.linux-training.be" {
+ type master;
+ file "/var/named/db.office.linux-training.be";
+ allow-transfer { any; };
+ allow-update { key mykey; };
+};
+
+Sample key file contents:
+
+[root@fedora14 ~]# cat /etc/rndc.key 
+key "rndc-key" {
+ algorithm hmac-md5;
+ secret "4Ykd58uIeUr3Ve6ad1qTfQ==";
+};
+
+Generate your own keys with dnssec-keygen.
+
+How to include a key in a config file:
+
+include "/etc/bind/rndc.key";
+
+Also make sure that bind can write to your db.zone file (using chmod/chown).

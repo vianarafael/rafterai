@@ -1,0 +1,5 @@
+The STAT 
+column represents the state of the process, with R indicating a currently running process 
+and S representing a sleeping process.
+
+Several other values can appear under the STAT column.

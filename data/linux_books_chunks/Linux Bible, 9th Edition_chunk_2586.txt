@@ -1,0 +1,2 @@
+Following the example of an eth0 interface on a RHEL system, 
+you could create an eth0:0 interface associated with the same network interface card.

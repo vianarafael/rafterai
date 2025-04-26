@@ -1,0 +1,5 @@
+Your secondary database can be 
+promoted to primary, providing time for you to rebuild your host.
+
+You can make use of virtualization technology. Your host can be rebuilt quickly from 
+a template or image, or it can be moved off failing hardware without interruption.

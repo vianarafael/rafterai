@@ -1,0 +1,15 @@
+On many LAN's the command dhclient eth0 just works (replace eth0 with the
+correct interface).
+
+root@router~# dhclient eth0
+
+You now have a setup similar to this picture. What needs to be done to give internet access
+to leftnet and rightnet.
+
+118
+
+introduction to routers
+
+7.15. solution: packet forwarding
+
+1. Set up two Linux machines, one on leftnet, the other on rightnet.

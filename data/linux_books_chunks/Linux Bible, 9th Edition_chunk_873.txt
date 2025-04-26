@@ -1,0 +1,9 @@
+Because the numbers approach to setting permission changes 
+all permission bits at once, it’s more common to use letters to recursively change permission 
+bits over a large set of ﬁ les.
+
+4
+
+Changing permissions with chmod (letters)
+You can also turn ﬁ le permissions on and off using plus (+) and minus (–) signs, 
+respectively, along with letters to indicate what changes and for whom.

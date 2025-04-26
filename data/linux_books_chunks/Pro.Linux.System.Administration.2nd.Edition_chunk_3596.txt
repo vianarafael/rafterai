@@ -1,0 +1,11 @@
+We’re going to configure a 
+Mozilla Thunderbird client to test Dovecot; of course, you can use any IMAP client.
+
+ Mozilla thunderbird is a popular open source mail client released by the Mozilla Foundation, which 
+
+ ■ Note 
+also developed the Firefox browser.
+
+588
+
+To configure the client, we first need to install it.

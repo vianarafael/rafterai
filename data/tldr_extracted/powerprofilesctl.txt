@@ -1,0 +1,10 @@
+# powerprofilesctl
+
+
+- List available power profiles:
+
+`powerprofilesctl list`
+
+- Set a specific power profile:
+
+`powerprofilesctl set {{profile_name}}`

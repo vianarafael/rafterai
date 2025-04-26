@@ -1,0 +1,3 @@
+Preserve the network location, if any, given in the Document for public access to a Transparent copy 
+of the Document, and likewise the network locations given in the Document for previous versions it was 
+based on. These may be placed in the "History" section.

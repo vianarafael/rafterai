@@ -1,0 +1,5 @@
+Together, the items are called the SELinux security 
+ context. A security context (ID badge) is sometimes called a “security label.”
+
+These security context assignments are given to subjects (processes and users). Each secu-
+rity context has a speciﬁ c name.

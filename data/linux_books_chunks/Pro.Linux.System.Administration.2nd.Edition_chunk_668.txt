@@ -1,0 +1,7 @@
+Copying Files
+
+$ cp /home/jsmith/myfile /home/jsmith/yourfile
+
+In Listing 4-16, we’ve copied the file /home/jsmith/myfile to /home/jsmith/yourfile. You need to 
+be a little bit careful with the cp command. By default, the cp command will copy over existing files without 
+prompting you. This can be bad if you already have a file with the same name as the one you are copying to.

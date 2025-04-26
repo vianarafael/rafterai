@@ -1,0 +1,11 @@
+A rejection 
+
+message is sent.
+
+ ■ DROP—Network packet is dropped and not allowed into the server. No rejection 
+
+message is sent.
+
+While REJECT gives a rejection message, DROP is quiet. You may consider using REJECT 
+for internal employees, who should be told that you are rejecting their outbound network 
+ trafﬁ c and why.

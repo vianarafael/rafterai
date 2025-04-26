@@ -1,0 +1,12 @@
+Conﬁ gure your iptables ﬁ rewall to do connection tracking by loading the 
+
+appropriate module to the /etc/sysconfig/iptables-config ﬁ le:
+
+IPTABLES_MODULES="nf_conntrack_ftp"
+
+e. For SELinux to allow uploading to the directory, ﬁ rst set ﬁ le contexts properly:
+
+# semanage fcontext -a -t public_content_rw_t "/var/ftp/in(/.*)?"
+# restorecon -F -R -v /var/ftp/in
+
+f.

@@ -1,0 +1,8 @@
+you will have to update the volume itself to change this limit 
+using the Bareos console.
+
+680
+
+In our Pool definition we have also set AutoPrune = Yes, which enables Bareos to delete backup details 
+from the catalog once the Volume Retention period has expired. There are times when you would not want 
+this to occur.

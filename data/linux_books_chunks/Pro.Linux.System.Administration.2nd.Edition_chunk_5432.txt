@@ -1,0 +1,11 @@
+Here’s an example:
+
+authorized_for_all_services=jsmith,nagiosadmin
+
+The authorized_for_all_services directive controls who can view services on the console, and we’ve 
+
+specified that the users jsmith and nagiosadmin have this access.
+
+Table 18-8 contains the full list of possible authorization directives and describes each one.
+
+Table 18-8.

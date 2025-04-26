@@ -1,0 +1,9 @@
+Listing our installed packages
+
+From the Installed page we can click any package listed there and get more information about it or a 
+
+package can be removed if that is your wish.
+
+Moving on to the Updates page we see the following (see Figure 8-35):
+
+Figure 8-35.

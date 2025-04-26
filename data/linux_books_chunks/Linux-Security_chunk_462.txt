@@ -1,0 +1,10 @@
+process security context
+
+A new option is added to ps to see the selinux security context of processes.
+
+[root@RHEL5 etc]# ps -ZC mingetty
+LABEL                             PID TTY          TIME CMD
+system_u:system_r:getty_t        2941 tty1     00:00:00 mingetty
+system_u:system_r:getty_t        2942 tty2     00:00:00 mingetty
+
+12.20.

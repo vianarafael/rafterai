@@ -1,0 +1,37 @@
+root root system_u:object_r:etc_t:s0 /etc/passwd
+
+You can use several commands to manage ﬁ le security context labels, as shown in 
+Table 24.2.
+
+684
+
+c24.indd  04/15/2015  Page 685
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+TABLE 24.2    File Security Context Label Management Commands
+
+Utility
+
+chcat
+
+chcon
+
+fixfiles
+
+restorecon
+
+setfiles
+
+Description
+
+Use this to change a fi le’s security context label’s category.
+
+Use this to change a fi le’s security context label.
+
+This calls the restorecon/setfiles utility.
+
+This does the exact same thing as setfiles utility, but it has a different 
+interface than setfiles.
+
+Use this to verify and/or correct security context labels.

@@ -1,0 +1,7 @@
+(For more informa-
+tion on mounting CIFS and NFS shares, refer to Chapters 19, “Conﬁ guring a Windows File 
+Sharing (Samba) Server,” and 20, “Conﬁ guring an NFS File Server,” respectively.)
+
+Coming from Windows
+The section “Using the fstab fi le to defi ne mountable fi le systems” shows mounting a hard disk 
+ partition from an old VFAT fi lesystem being used in Windows.

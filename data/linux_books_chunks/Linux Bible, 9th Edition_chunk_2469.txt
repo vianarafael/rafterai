@@ -1,0 +1,7 @@
+The default lease time is 86,400 seconds (24 hours).
+
+ ■ Domain name server—Because computers like to think in numbers (such as 
+
+IP addresses like 192.168.0.100) and people tend to think in names (such as the 
+hostname www.example.com), computers need a way to translate hostnames 
+into IP addresses and sometimes the opposite as well.

@@ -1,0 +1,6 @@
+This usually indicates a problem, so you should find out which application is 
+the culprit and rectify the problem.
+
+Deeper with dstat
+How could you find out which application might have a problem? The vmstat command is great to see a 
+problem, but it doesn’t allow you to go deeper in your investigations.

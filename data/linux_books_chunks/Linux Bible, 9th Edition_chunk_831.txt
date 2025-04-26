@@ -1,0 +1,8 @@
+Many options available with the ls command allow you to gather 
+different sets of ﬁ les and directories, as well as to view different kinds of information 
+about them.
+
+4
+
+By default, when you type the ls command, the output shows you all non-hidden ﬁ les and 
+directories contained in the current directory.

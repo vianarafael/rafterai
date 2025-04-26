@@ -1,0 +1,6 @@
+The password ﬁ eld contains an x because, 
+in this example, the shadow password ﬁ le is used to store encrypted password data (in
+/etc/shadow).
+
+The user ID selected by useradd is 1002. The primary group ID is 1007, which corresponds to 
+a private sara group in the /etc/group ﬁ le.

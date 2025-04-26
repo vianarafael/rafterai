@@ -1,0 +1,8 @@
+Find every ﬁ le in the /tmp/FILES directory and make a backup copy of each ﬁ le 
+
+in the same directory. Use each ﬁ le’s existing name and just append .mybackup to 
+create each backup ﬁ le.
+
+$ find /tmp/FILES/ -type f -exec cp {} {}.mybackup \;
+
+9.  Install the kernel-doc package in Fedora or Red Hat Enterprise Linux.

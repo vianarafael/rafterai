@@ -1,0 +1,11 @@
+When you run the script, the output should look as follows:
+
+$ animals
+I have a moose
+I have a cow
+I have a goose
+I have a sow
+
+Chapter 8: Learning System Administration
+
+1.

@@ -1,0 +1,4 @@
+Hardware is pretty easy; with databases, the general rule is a faster disk, a faster CPU, and 
+more and faster memory are better. The operating system has many performance tweaks available to it, 
+including disk mount options, sysctl settings, kernel schedulers, and many more. With database tuning we 
+have many configuration options as well as database optimization strategies.

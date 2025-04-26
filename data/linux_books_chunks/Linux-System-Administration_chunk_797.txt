@@ -1,0 +1,5 @@
+su and ssh logins
+
+Depending on the distribution, you may also have the /var/log/secure file being filled with
+messages  from  the  auth  and/or  authpriv  syslog  facilities.  This  log  will  include  su  and/or
+ssh failed login attempts.

@@ -1,0 +1,11 @@
+On occasion, a SIGTERM doesn’t kill a process, so you may need a SIGKILL to 
+kill it. Instead of SIGKILL, you can use –9.
+
+147
+
+c06.indd  04/01/2015  Page 148
+
+Part II: Becoming a Linux Power User
+
+Another useful signal is SIGHUP. Some server processes, such as the httpd process, which 
+provides web services, respond to a SIGHUP (1) signal by rereading its conﬁ guration ﬁ les.

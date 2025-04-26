@@ -1,0 +1,8 @@
+It does, however, provide a good example of the syntax of a crontab file.
+
+Chapter 6 ■ Startup and ServiCeS
+
+ When a single host is used to run a lot of virtualized servers, you should change the times cron jobs 
+
+ ■ Tip 
+start on each virtual server to ensure they do not all start running at the same time.

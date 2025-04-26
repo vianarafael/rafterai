@@ -1,0 +1,9 @@
+When the CD is ﬁ nished burning, eject it (or it may eject automatically) and mark 
+it appropriately (information such as the distribution name, version number, date, 
+and name of the ISO image).
+
+Now you’re ready to begin installing (or booting) the Linux distribution you just burned.
+
+Burning CDs from a Linux command line
+If you have no GUI, or you don’t mind working from the shell, you can use the cdrecord 
+command to burn the ISOs.

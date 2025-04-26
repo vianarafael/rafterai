@@ -1,0 +1,10 @@
+However, type the following from a shell on the host running the FTP server to 
+make sure the hosts ﬁ le is there:
+
+# ls /var/ftp/in hosts
+
+If you cannot upload the ﬁ le, troubleshoot the problem as described in Exercise 7, 
+recheck your vsftpd.conf settings, and review the ownership and permissions on 
+the /var/ftp/in directory.
+
+9.

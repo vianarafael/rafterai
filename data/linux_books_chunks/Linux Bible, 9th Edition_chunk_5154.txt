@@ -1,0 +1,15 @@
+To launch a music player from your desktop using only the keyboard, do the 
+
+following:
+
+ ■ In GNOME 3:
+
+a. Press the Windows key to go to the Overview screen.
+
+b. Type Rhyth (until the icon appears and is highlighted), and press Enter. (In 
+Ubuntu, if you don’t have Rhythmbox installed, type Bansh to open the 
+Banshee Media Player.)
+
+ ■ In GNOME 2:
+
+Press Alt+F2.

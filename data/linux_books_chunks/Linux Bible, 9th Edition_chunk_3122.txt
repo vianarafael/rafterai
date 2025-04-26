@@ -1,0 +1,4 @@
+Another common option is the Indexes option, which tells Apache to 
+ generate a list of ﬁ les if one of the ﬁ lenames found in the DirectoryIndex 
+ setting is missing. An absolute list of options can be speciﬁ ed, or the list of 
+options can be modiﬁ ed by adding + or - in front of an option name.

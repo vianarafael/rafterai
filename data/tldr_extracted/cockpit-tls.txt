@@ -1,0 +1,10 @@
+# cockpit-tls
+
+
+- Serve HTTP requests to a specific port instead of port `9090`:
+
+`cockpit-tls --port {{port}}`
+
+- Display help:
+
+`cockpit-tls --help`

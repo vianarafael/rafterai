@@ -1,0 +1,10 @@
+DNF will be a welcome, speedier, if mostly unnoticed, improvement.
+
+Commands like the following perform a similar function to the equivalent YUM commands.
+
+$ dnf search nmap
+$ dnf info nmap
+$ dnf install  nmap
+$ dnf remove nmap
+
+Those commands all have similar if not the same syntax as YUM.

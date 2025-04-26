@@ -1,0 +1,24 @@
+Copy the master boot record
+
+Use dd to copy the MBR (Master Boot Record) of hard disk /dev/hda to a file.
+
+dd if=/dev/hda of=/MBR.img bs=512 count=1
+
+30.7.5. Copy files
+
+This  example  shows  how  dd  can  copy  files.  Copy 
+copy_of_summer.txt .
+
+the  file  summer.txt 
+
+to
+
+dd if=~/summer.txt of=~/copy_of_summer.txt
+
+357
+
+ 
+ 
+backup
+
+30.7.6.

@@ -1,0 +1,3 @@
+When that connection can up so did our 
+
+bond0 device but our enp0s9 device was still disconnected.

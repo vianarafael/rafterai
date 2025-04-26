@@ -1,0 +1,3 @@
+Next, we declare the interface 
+enp0s3 will use an IPv4 address, which it will get from a DHCP server, iface enp0s3 inet dhcp. If you were 
+to configure other Ethernet cards, enp0s8 or enp0s9, you would also use the /etc/network/interfaces file.

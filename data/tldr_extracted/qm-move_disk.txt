@@ -1,0 +1,6 @@
+# qm move_disk
+
+
+- View documentation for the original command:
+
+`tldr qm disk move`

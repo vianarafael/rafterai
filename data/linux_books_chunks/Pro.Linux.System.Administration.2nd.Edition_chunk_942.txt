@@ -1,0 +1,8 @@
+For example, if you 
+authorize access to the /bin/* directory, then you will not be able to run any commands in the /bin/extra/ 
+directory unless you explicitly define access to that directory, like the configuration on the next line:
+
+ataylor au-mel-centos-1=/bin/*,/bin/extra/*
+
+Sometimes you want to grant access to a particular command to a user, but you want that command to 
+be run as another user.

@@ -1,0 +1,6 @@
+Next, you can see the following line:
+
+dn: cn={0}exampleactive
+
+Remembering that the {0} refers to the index, if we try to load this DN, we will conflict with any existing 
+schema that has cn={0}, which, going back to our ldapsearch output, is the core schema.

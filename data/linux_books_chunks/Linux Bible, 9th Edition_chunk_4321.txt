@@ -1,0 +1,6 @@
+There are many more cryptography topics, such as digital certiﬁ cates and public key 
+ infrastructure, that would be worth your time to learn.
+
+Implementing Linux cryptography
+Many cryptography tools are available on your Linux system. Which ones you choose to use 
+depend upon your organization’s security requirements.

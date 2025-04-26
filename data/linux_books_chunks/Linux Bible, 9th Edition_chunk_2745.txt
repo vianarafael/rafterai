@@ -1,0 +1,6 @@
+This allows Linux distributions time to slowly migrate to systemd.
+
+15
+
+While runlevels are not truly part of systemd, the systemd infrastructure has been 
+ created to provide compatibility with the concept of runlevels.

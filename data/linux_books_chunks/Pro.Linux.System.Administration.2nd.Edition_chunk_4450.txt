@@ -1,0 +1,5 @@
+The classes may support other classes 
+in order to provide extended attributes to them. These attributes are described by the RDN value. Classes 
+and attributes must be defined in a schema and must be unique.
+
+A schema is set of definitions that describe the data that can be stored in the directory server.

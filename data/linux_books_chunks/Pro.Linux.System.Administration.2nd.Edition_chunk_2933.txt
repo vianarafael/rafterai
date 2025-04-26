@@ -1,0 +1,5 @@
+By default on CentOS, the MariaDB server listens for 
+connections on all configured network interfaces and addresses. Since we are going to have the web server 
+and the database on the same host, we are going to limit the database to listen only on the loopback address. 
+This is more secure, but in an ideal world we would have the database server and the web server on separate 
+hosts.

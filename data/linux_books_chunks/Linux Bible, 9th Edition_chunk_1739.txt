@@ -1,0 +1,8 @@
+With the 
+YUM  repository and conﬁ guration in place, a user can install a package by simply typing 
+ something like this:
+
+# yum install firefox
+
+The user only needs to know the package name (which could be queried in different ways, 
+as described in the section “Searching for packages” later in this chapter).

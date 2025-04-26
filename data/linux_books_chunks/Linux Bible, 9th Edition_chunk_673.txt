@@ -1,0 +1,6 @@
+(It may not work in all instances.)
+
+Another way to work with your history list is to use the fc command. Type fc followed 
+by a history line number, and that command line is opened in a text editor (vi by default; 
+type :wq to save and exit or :q! to just exit if you are stuck in vi). Make the changes that 
+you want. When you exit the editor, the command runs.

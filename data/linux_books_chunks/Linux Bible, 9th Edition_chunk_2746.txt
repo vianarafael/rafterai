@@ -1,0 +1,25 @@
+There are seven target 
+unit conﬁ guration ﬁ les speciﬁ cally created for backward compatibility to SysVinit:
+
+397
+
+c15.indd  04/01/2015  Page 398
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ runlevel0.target
+
+ ■ runlevel1.target
+
+ ■ runlevel2.target
+
+ ■ runlevel3.target
+
+ ■ runlevel4.target
+
+ ■ runlevel5.target
+
+ ■ runlevel6.target
+
+As you probably have already ﬁ gured out, there is a target unit conﬁ guration ﬁ le for each 
+of the seven classic SysVinit runlevels.

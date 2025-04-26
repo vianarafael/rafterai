@@ -1,0 +1,12 @@
+If after changing partitions your system 
+fails to boot, refer to Chapter 21, “Troubleshooting Linux,” for information on how to fi x the problem.
+
+285
+
+c12.indd  04/01/2015  Page 286
+
+Part III: Becoming a Linux System Administrator
+
+Understanding partition tables
+PC architecture computers have traditionally used Master Boot Record (MBR) partition 
+tables to store information about the sizes and layouts of the hard disk partitions.

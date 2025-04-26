@@ -1,0 +1,13 @@
+In those projects, 
+you will ﬁ nd people who use the software, work on the software, and are usually willing 
+to share their expertise to help you as well.
+
+But whether you seek to develop the next great open source software project or simply 
+want to gain the skills needed to compete for the thousands of well-paying Linux admin-
+istrator or development jobs, it will help you to know how to install, secure, and maintain 
+Linux systems.
+
+So, what are the prospects for Linux careers? “The 2014 Linux Jobs Report” from the Linux 
+Foundation (http://www.linuxfoundation.org/publications/linux-founda-
+tion/linux-adoption-trends-end-user-report-2014) surveyed more than 1,100 
+hiring managers and 4,000 Linux professionals.

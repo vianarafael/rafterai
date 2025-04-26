@@ -1,0 +1,6 @@
+Samba treats these services 
+differently from, say, a [sales] or [tmp] share.
+
+For example, as you would expect, when Samba receives a file via the [printer] service, it deals with it 
+differently from a file received via a user-defined [tmp] service. Samba has functions that are associated with 
+definitions only in these “special” services.

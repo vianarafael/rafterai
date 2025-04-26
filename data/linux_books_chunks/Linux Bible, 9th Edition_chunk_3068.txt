@@ -1,0 +1,2 @@
+Most module packages that come with 
+conﬁ guration ﬁ les put those conﬁ guration ﬁ les in the /etc/httpd/conf.d directory.

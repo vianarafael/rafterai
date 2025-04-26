@@ -1,0 +1,11 @@
+From the Router Details screen, select the Add Interface button.
+
+ From the Add Interface screen, click the Subnet box and choose the 
+subnet you created earlier (mynet: 192.168.100.0/24 mysub01). 
+You shouldn’t have to change Router Name or Router ID.
+
+ c. 
+
+Click Add Interface.
+
+5.  View the network topology. Click Network Topology from the left column.

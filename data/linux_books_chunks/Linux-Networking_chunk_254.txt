@@ -1,0 +1,20 @@
+Which DNS server was used ? Was it a tcp or udp query and response ?
+
+First start the sniffer.
+
+Enter 'dns' in the filter box and click apply.
+
+root@ubuntu910:~# ping www.linux-training.be
+PING www.linux-training.be (88.151.243.8) 56(84) bytes of data.
+64 bytes from fosfor.openminds.be (88.151.243.8): icmp_seq=1 ttl=58 time=14.9 ms
+64 bytes from fosfor.openminds.be (88.151.243.8): icmp_seq=2 ttl=58 time=16.0 ms
+^C
+--- www.linux-training.be ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 14.984/15.539/16.095/0.569 ms
+
+The wireshark screen should look something like this.
+
+The details in wireshark will say the DNS query was inside a udp packet.
+
+6.

@@ -1,0 +1,6 @@
+This will create a file with all the function calls done by vi.
+
+root@deb503:~# strace -o strace.txt vi 42.txt
+
+The file is read only, but we still change the contents, and use the :w! directive to write to
+this file.

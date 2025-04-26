@@ -1,0 +1,11 @@
+You will be 
+
+asked for your password.
+
+That is all you need to do to install and remove packages. To see all the installed packages we go back to 
+
+the initial screen and select the Installed button at the top (see Figure 8-9).
+
+Figure 8-9.  Installed packages
+
+Obviously you can remove packages from this screen by clicking the Remove button.

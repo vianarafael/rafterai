@@ -1,0 +1,6 @@
+In our case, the CA is on the 
+same host that we have created our CSR requests. You would normally need to copy the CSR file to the CA 
+host. This takes your CSR and signs it with your CA and outputs a signed certificate. In Listing 11-8, we’ve 
+signed our CSR.
+
+Listing 11-8.

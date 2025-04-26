@@ -1,0 +1,6 @@
+To use this conﬁ guration tool, simply type in the command 
+system-config-selinux and a GUI interface appears.
+
+Monitoring and Troubleshooting SELinux
+SELinux is another tool for monitoring your system. It logs all access denials, which can 
+help you determine whether an attack is being attempted.

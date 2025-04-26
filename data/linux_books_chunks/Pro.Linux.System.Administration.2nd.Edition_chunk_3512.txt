@@ -1,0 +1,6 @@
+MaC, on the other hand, mandates the permissions for resources in 
+the kernel, and the permissions can be changed only by loading access policies into the kernel from 
+user space.
+
+Selinux was developed by the US National Security agency (NSa) and works by tagging each object 
+on the system and then using the Selinux security module to validate access to the resources.

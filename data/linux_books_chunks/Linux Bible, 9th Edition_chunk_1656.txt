@@ -1,0 +1,5 @@
+There are other options on the kernel line as well.
+
+For the Windows XP partition, the rootnoverify line indicates that GRUB should not 
+try to mount the partition. In this case, Windows XP is on the ﬁ rst partition of the ﬁ rst 
+hard disk (hd0,1) or /dev/sda2.

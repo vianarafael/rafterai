@@ -1,0 +1,18 @@
+sshd_config Template
+
+Port 22
+Protocol 2
+ListenAddress <%= $ipaddress %>
+
+SyslogFacility AUTHPRIV
+PermitRootLogin <%= $root_login %>
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+GSSAPIAuthentication yes
+GSSAPICleanupCredentials yes
+UsePAM yes
+X11Forwarding yes
+Banner /etc/motd
+
+We’ve used only one piece of EPP in Listing 19-15, to specify the ListenAddress of our SSH daemon, 
+<%= $ipaddress %>.

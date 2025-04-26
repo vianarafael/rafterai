@@ -1,0 +1,7 @@
+The result of features built on the kernel is that device handling in Linux has 
+become:
+
+ ■ More automatic—For most common hardware, when a hardware device is 
+
+ connected or disconnected, it is automatically detected and identiﬁ ed. Interfaces 
+to access the hardware are added, so it is accessible to Linux.

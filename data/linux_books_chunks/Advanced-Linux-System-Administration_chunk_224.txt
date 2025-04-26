@@ -1,0 +1,2 @@
+The next table shows the 
+information relevant to this card, in particular the xircom_cb module needed.

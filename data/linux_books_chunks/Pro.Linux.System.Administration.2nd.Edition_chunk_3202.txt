@@ -1,0 +1,12 @@
+For CentOS and Ubuntu, you start Postfix using the systemctl command.
+
+$ sudo systemctl start postfix.service
+
+531
+
+Chapter 12 ■ Mail ServiCeS
+
+ it is also important to reload or restart postfix after making configuration changes, and you’ll see we 
+
+ ■ Tip 
+mention that throughout the chapter.

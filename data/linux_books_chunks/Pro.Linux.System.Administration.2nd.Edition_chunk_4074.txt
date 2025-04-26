@@ -1,0 +1,6 @@
+Bareos and 
+Bacula have since diverged significantly in features but still remain similar in configuration and installation. In 
+most instances, in this section you could swap Bareos for Bacula and you would be fine for configuring either.
+Bareos works on the client/server model and requires a Bareos client installed on the target host to be 
+
+backed up.

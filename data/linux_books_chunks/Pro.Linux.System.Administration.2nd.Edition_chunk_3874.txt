@@ -1,0 +1,32 @@
+BCM covers various aspects 
+of your organization and should detail timelines that your business agrees upon for the restoration of 
+particular services.
+
+The following are questions to consider when formulating your organization’s BCM and DRP strategy:
+
+•	 Can we predict the most likely disruptions our business could face? What are the 
+
+steps required to recover from them? What are timelines for expected recovery?
+
+•	 What are the costs associated with mitigating the risks for and recovering from each 
+
+potential event?
+
+•	 Do we need a co-location where we can move our business?
+
+•	 Do we need to rent extra equipment, such as power generators, in any potential 
+
+crisis scenario?
+
+•	 Who are the people and organizations that need to reached/communicated 
+
+with in the event of disruption to the business? How should the disruption be 
+communicated to the public?
+
+•	
+
+In the case of a large-scale catastrophic event, what are the points that determine 
+whether continuation of the business can be achieved? Losses can quickly 
+accumulate if key infrastructure or business assets are disrupted.
+
+Developing BCM and DRP plans can be a complex process.

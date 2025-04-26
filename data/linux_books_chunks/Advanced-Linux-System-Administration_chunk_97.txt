@@ -1,0 +1,38 @@
+You can apply the patch with the 
+
+ -b 
+
+ option
+
+By default this option keeps all the original files and appends a “.orig” to them.
+
+patch -b -p0 < patch-file
+
+The patch can be removed with the following lines:
+
+for file in $(find linux-2.4.29 | grep orig) 
+
+do 
+
+FILENAME=$(echo $file | sed 's/\.orig//')
+
+mv -f $file $FILENAME
+
+14
+
+ 
+ 
+ 
+ 
+   
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+done
+
+Building the New Kernel after a patch
+
+Simply copy the old .config to the top of the source directory.

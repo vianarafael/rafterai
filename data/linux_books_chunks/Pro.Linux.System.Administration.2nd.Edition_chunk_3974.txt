@@ -1,0 +1,3 @@
+On our remote hosts, 
+we will have a directory called /data/staff/sales that we want to sync down to our local host, and then we 
+will back that up with our backup application.

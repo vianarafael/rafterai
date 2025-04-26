@@ -1,0 +1,4 @@
+The ubuntu project guarantees that an LTS release will be supported (e.g., bugs fixed 
+and security issues patched) for a period of five years after its release. Red hat also has a similar release cycle 
+where Red hat tries to maintain binary compatibility for the life of the release (meaning it doesn’t change major 
+packages for life of the release).

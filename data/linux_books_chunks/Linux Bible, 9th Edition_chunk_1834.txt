@@ -1,0 +1,7 @@
+No output from -V means that every ﬁ le is back to its original state.
+
+# rpm -i --replacepkgs zsh-5.0.2-7.el7.x86_64.rpm
+# rpm -V zsh
+
+Good practice is to back up your RPM database (from /var/lib/rpm) and copy it to 
+some read-only medium (such as a CD).

@@ -1,0 +1,5 @@
+They also each contain 
+tons of features, so you can continue to grow with them.
+
+This section provides a brief tutorial on the vi text editor, which you can use to manually 
+edit a text ﬁ le from any shell. It also describes the improved versions of vi called vim.

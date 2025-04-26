@@ -1,0 +1,13 @@
+Installed by default on Ubuntu. To 
+install on Fedora and RHEL, type yum install seahorse at the command line.
+
+Ssh
+
+Encrypts remote access across a network. Installed by default.
+
+Zipcloak
+
+Encrypts entries in a Zip fi le. Installed by default.
+
+Like many other items on a Linux system, the cryptography tools available are rich and 
+plentiful.

@@ -1,0 +1,24 @@
+Some good distributions to try using their LiveCDs 
+
+include the following:
+
+•	 Ubuntu: You can find LiveCDs, called Desktop CDs, for Ubuntu at www.ubuntu.com/
+
+download/desktop.
+
+•	
+
+•	
+
+Fedora: You can find a LiveCD for Fedora (called Fedora Desktop Live Media) at 
+https://getfedora.org/.
+
+CentOS: Available for the latest CentOS 7 release is a LiveCD from one of the mirror 
+sites listed at https://wiki.centos.org/Download.
+
+ There is a comparison list of some of the available Linux LiveCDs available at http://en.wikipedia.
+
+ ■ Tip 
+org/wiki/Comparison_of_Linux_LiveDistros.
+
+You can also consider using Vagrant, as we showed you in Chapter 3.

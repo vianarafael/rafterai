@@ -1,0 +1,5 @@
+You can also 
+declare variables on the command line or in the playbooks themselves.
+
+You can also find system facts, like Puppet Facts, that can also be used by the templating engine inside 
+your playbooks. We can also perform lookups that can be read from external services or from local files.

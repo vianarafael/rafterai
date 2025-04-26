@@ -1,0 +1,11 @@
+This is either provided by a dhcp server or manually entered.
+
+Linux clients keep this information in the /etc/resolv.conf file.
+
+root@debian7:~# cat /etc/resolv.conf
+domain linux-training.be
+search linux-training.be
+nameserver 192.168.1.42
+root@debian7:~#
+
+You can manually change the ip address in this file to use another dns server.

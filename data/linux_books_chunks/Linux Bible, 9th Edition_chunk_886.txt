@@ -1,0 +1,3 @@
+Using the recursive option (-R) is 
+ helpful if you need to change a whole directory structure to ownership by a particular 
+user.

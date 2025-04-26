@@ -1,0 +1,12 @@
+Can root read this file ? Can root write to this file with vi ?
+
+14. Create a directory that belongs to a group, where every member of that group can read
+and write to files, and create files. Make sure that people can only delete their own files.
+
+54
+
+standard file permissions
+
+6.5. solution: standard file permissions
+
+1. As normal user, create a directory ~/permissions.

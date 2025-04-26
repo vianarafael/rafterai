@@ -1,0 +1,2 @@
+For instance, $local_fs means “all local filesystems are mounted.” So 
+when you see ‘Required-Start’, it means the listed services must be started before executing this script.

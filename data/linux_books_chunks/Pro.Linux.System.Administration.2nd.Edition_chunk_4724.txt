@@ -1,0 +1,6 @@
+Because 
+LDAP has no write-ahead logs, you cannot replay your most recent updates to your LDAP directory server 
+like you can in a fully featured transactional relational database, so regular backups are important. We 
+suggest at minimum you make backups nightly.
+
+Managing your directory server via text files can get tiresome.

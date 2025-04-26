@@ -1,0 +1,18 @@
+To copy some ﬁ les to the /var/mystuff directory, type the following on the NFS 
+
+server:
+
+# cp /etc/hosts /etc/services /var/mystuff
+
+From the NFS client, to make sure you can see the ﬁ les just added to that directory 
+and to make sure you can’t write ﬁ les to that directory from the client, type the 
+following:
+
+# ls /var/remote
+hosts    services
+# touch /var/remote/file1
+touch: cannot touch '/var/remote/file1': Read-only file system
+
+Chapter 21: Troubleshooting Linux
+
+1.

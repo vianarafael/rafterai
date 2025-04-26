@@ -1,0 +1,15 @@
+We’ll set up this file shortly.
+
+ after configuring your DhCp server, you will need to restart the Cobbler server for the new 
+
+ ■ Tip 
+configuration to be applied.
+
+918
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Configuring TFTP
+
+Once the daemon is started, you need to enable your TFTP server to send your boot file to the host to be 
+installed.

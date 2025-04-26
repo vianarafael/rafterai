@@ -1,0 +1,10 @@
+The state is present, meaning we want to create the user; if we want to 
+remove the user, we can choose absent.
+
+968
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+The password variable (password={{ backup_database_password }}) we use here is interesting. This 
+is a sensitive secret, so we need to make sure that we do not have it in plain text anywhere, but Ansible still 
+needs access to it.

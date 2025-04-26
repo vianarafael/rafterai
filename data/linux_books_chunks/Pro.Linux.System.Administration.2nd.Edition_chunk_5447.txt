@@ -1,0 +1,10 @@
+We would have to change the 
+check to handle the authentication the Nagios web service requires before we will get a 200 OK and for it to 
+be green.
+
+On both these screens, you can click the hosts and services to drill down into their status and 
+
+configuration.
+
+The last console screen we’re going to show you in Figure 18-14 is the Process Info screen, which 
+displays the status of the Nagios process and its configuration.

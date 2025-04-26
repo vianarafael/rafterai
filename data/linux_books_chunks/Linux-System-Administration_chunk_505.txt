@@ -1,0 +1,3 @@
+pvdisplay
+
+Use pvdisplay to get more information about physical volumes.

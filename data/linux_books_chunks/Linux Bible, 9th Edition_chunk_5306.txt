@@ -1,0 +1,13 @@
+To use the Print Settings window to add a new printer called myprinter to your 
+system (generic PostScript printer, connected to a port), do the following from 
+Fedora 21:
+
+a. Install the system-conﬁ g-printer package:
+
+# yum install system-config-printer
+
+b. From the GNOME 3 desktop, select Print Settings from the Activities screen.
+
+c. Unlock the interface and enter the root password.
+
+d.

@@ -1,0 +1,15 @@
+default 15667199):
+<Enter>
+Using default value 15667199
+Command (m for help): n
+First sector (2666496-15667199, default 2666496):
+<Enter>
+Using default value 2666496
+Last sector, +sectors or +size{K,M,G} (...default 15667199): +350M
+Command (m for help): n
+First sector (...default 3385344):
+<Enter>
+Using default value 3385344
+Last sector, +sectors or +size {K,M,G} (...default 15667199): +400M
+
+2.

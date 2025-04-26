@@ -1,0 +1,28 @@
+Once decrypted, he can read the plaintext message.
+
+$ ls MessageForJohn
+MessageForJohn
+$ gpg2 --out JillsMessage --decrypt MessageForJohn
+
+You need a passphrase to unlock the secret key for
+user: "John Doe (The User) <jdoe@gmail.com>"
+2048-bit RSA key, ID 0F0E0672, created 2016-12-08
+ (main key ID 3B2E46D5)
+
+gpg: encrypted with 2048-bit RSA key, ID 0F0E0672,
+ created 2016-02-27
+
+636
+
+c23.indd  04/01/2015  Page 637
+
+Chapter 23: Understanding Advanced Linux Security 
+
+      "John Doe (The User) <jdoe@example.com>"
+$ cat JillsMessage
+I know you are not the real John Doe.
+
+To review, the steps needed for encryption/decryption of ﬁ les using asymmetric keys 
+include the following:
+
+1.

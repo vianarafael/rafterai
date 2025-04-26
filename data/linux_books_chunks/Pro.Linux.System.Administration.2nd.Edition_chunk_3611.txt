@@ -1,0 +1,3 @@
+The domain we’re accepting e-mail for is the domain the mail server belongs to, and 
+our users actually exist on our mail server. With virtual domains and users, you can configure destinations 
+and recipients for e-mail that aren’t physical.

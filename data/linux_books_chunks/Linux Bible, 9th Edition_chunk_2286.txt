@@ -1,0 +1,18 @@
+The logrotate 
+
+322
+
+c13.indd  04/01/2015  Page 323
+
+Chapter 13: Understanding Server Administration
+
+feature backs up log ﬁ les into compressed archives when the logs reach a certain size or 
+pass a set amount of time since the previous backup.
+
+The features for conﬁ guring and managing system logging are described in the 
+“Conﬁ guring System Logging” section later in this chapter.
+
+Run system activity reports
+The sar facility (which is enabled by the sysstat package) can be conﬁ gured to watch 
+activities on your system, such as memory usage, CPU usage, disk latency, network  activities, 
+and other resource drains.

@@ -1,0 +1,20 @@
+You can read more about these here:
+
+•	
+
+https://www.elastic.co/guide/en/beats/filebeat/current/configuration-
+filebeat-options.html
+
+We will not start our Filebeat service straightaway, but you can start and stop it using systemctl as you 
+
+would normally.
+
+$ sudo systemctl enable filebeat
+$ sudo systemctl start filebeat
+
+Before we start our Filebeat service, we will configure our Logstash service to accept the logs.
+
+Installing and Configuring Logstash
+
+Logstash is a Java process that is used to transform data prior to “stashing” the output in some kind of 
+storage for further analysis or viewing.

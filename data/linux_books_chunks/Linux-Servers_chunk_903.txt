@@ -1,0 +1,8 @@
+The second step is explained in the Disk Management chapter. For
+the third step, you can use a combination of ssh or netcat with cp, dd, dump and restore,
+tar, cpio, rsync or even cat.
+
+A.3. Offline cloning example
+
+We have a working Red Hat Enterprise Linux 5 server, and we want a perfect copy of it on
+newer hardware.

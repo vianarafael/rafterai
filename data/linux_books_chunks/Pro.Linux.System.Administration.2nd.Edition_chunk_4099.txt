@@ -1,0 +1,3 @@
+On that database, we have given the 
+user bareos signing in from backup.example.com all privileges if they use the somepassword password. If you 
+were setting this up for a localhost, you would change bareos@backup.example.com to bareos@localhost.

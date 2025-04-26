@@ -1,0 +1,11 @@
+Copy the /etc/services ﬁ le to the default skeleton directory so it shows 
+
+up in the home directory of any new user. Then add a new user to the system 
+named mjones, with a full name of Mary Jones and a home directory of /home/
+maryjones.
+
+8.  Find all ﬁ les under the /home directory that belong to mjones. Are there any ﬁ les 
+
+owned by mjones that you didn’t expect to see?
+
+9.

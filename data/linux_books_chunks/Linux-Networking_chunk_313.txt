@@ -1,0 +1,13 @@
+(optional) Protect your keypair with a passphrase, then add this key to the ssh-agent
+and test your passwordless ssh to the server.
+
+56
+
+ssh client and server
+
+5.12. solution: ssh
+
+0. Make sure that you have access to two Linux computers, or work together with a partner
+for this exercise. For this practice, we will name one of the machines the server.
+
+1.

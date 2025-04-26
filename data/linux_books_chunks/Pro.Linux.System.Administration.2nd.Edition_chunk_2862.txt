@@ -1,0 +1,18 @@
+The 
+
+command has created the following symlinks:
+
+$ ls -l mods-enabled/status*
+lrwxrwxrwx 1 root root 29 Aug  6 05:08 mods-enabled/status.conf -> ../mods-available/status.conf
+lrwxrwxrwx 1 root root 29 Aug  6 05:08 mods-enabled/status.load -> ../mods-available/status.load
+
+Now let’s disable that module with the following:
+
+$ sudo a2dismod status
+Module status disabled.
+To activate the new configuration, you need to run:
+  service apache2 restart
+
+Rather than checking for symlinks in directories, Ubuntu provides another command to check the 
+
+current Apache settings.

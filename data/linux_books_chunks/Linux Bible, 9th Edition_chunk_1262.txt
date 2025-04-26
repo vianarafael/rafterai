@@ -1,0 +1,7 @@
+When you want to go beyond a point-and-click administrative 
+interface, you need to learn how to gain root privilege from the shell, as described in the 
+next section.
+
+Using browser-based admin tools
+To simplify the management of many enterprise-quality open source projects, those 
+ projects have begun offering browser-based graphical management tools.

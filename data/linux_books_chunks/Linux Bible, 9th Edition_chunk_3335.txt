@@ -1,0 +1,8 @@
+Here are examples of some chroot settings:
+
+chroot_local_user=YES
+chroot_list_enable=YES
+chroot_list_file=/etc/vsftpd/chroot_list
+
+With the settings just shown uncommented, you could create a list of local users and add 
+them to the /etc/vsftpd/chroot_list ﬁ le.

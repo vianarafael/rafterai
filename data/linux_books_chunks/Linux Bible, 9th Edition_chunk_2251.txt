@@ -1,0 +1,6 @@
+Some Linux distribu-
+tions ask you, while installing a software package, such things as the directory you want 
+to install it in or the user account you want to manage it.
+
+Because RPM packages are designed to be installed unattended, the person installing the 
+package has no choice on how it is installed.

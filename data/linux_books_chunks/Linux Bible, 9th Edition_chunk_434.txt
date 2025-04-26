@@ -1,0 +1,18 @@
+To add your own 
+Background, download a wallpaper image you like to your Pictures folder, click the 
+Wallpapers box to change it to Pictures folder, and choose the image you want.
+
+ ■ Bluetooth—If your computer has Bluetooth hardware, you can enable that device to 
+communicate with other Bluetooth devices (such as a Bluetooth headset or printer).
+
+ ■ Printers—Instead of using the System Settings window to conﬁ gure a printer, 
+
+refer to Chapter 16, “Conﬁ guring a Print server,” for information on setting up a 
+printer using the CUPS service.
+
+ ■ Sound—Click the Sound settings button to adjust sound input and output devices 
+
+on your system.
+
+Extending the GNOME 3 desktop
+If the GNOME 3 shell doesn’t do everything you like, don’t despair.

@@ -1,0 +1,4 @@
+You could then pipe that output through the grep tool, which searches the output for the 
+string vim, as you can see in Listing 8-9.
+
+Listing 8-9.

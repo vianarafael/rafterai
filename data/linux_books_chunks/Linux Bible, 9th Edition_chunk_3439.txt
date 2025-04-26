@@ -1,0 +1,7 @@
+Simply open 
+the Firewall Conﬁ guration window, and select the check boxes next to the samba and 
+samba-client entries on the public zone, Services tab. Those ports become immediately 
+accessible (no restart of the firewalld service is required).
+
+For earlier Fedora and RHEL systems that use iptables directly instead of the firewalld 
+service, opening the ﬁ rewall is a more manual process.

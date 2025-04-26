@@ -1,0 +1,22 @@
+This points your apt sources to the Ubuntu 
+
+mirrors.
+
+d-i mirror/country string manual
+d-i mirror/http/hostname string archive.ubuntu.com
+d-i mirror/http/directory string /ubuntu
+d-i mirror/http/proxy string
+
+You can choose the different apt pools with these settings to get to packages available from backports 
+
+and the like:
+
+#d-i apt-setup/restricted boolean true
+#d-i apt-setup/universe boolean true
+#d-i apt-setup/backports boolean true
+
+You can just uncomment what pool you would like.
+
+Keyboard, Language, and Time Zone
+
+Setting the keyboard and language can be a time-consuming process but not with the installer.

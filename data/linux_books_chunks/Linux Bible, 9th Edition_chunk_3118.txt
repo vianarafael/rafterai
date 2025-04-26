@@ -1,0 +1,12 @@
+Access conﬁ guration 
+ﬁ les are processed at the same time as Directory blocks, using a similar “most speciﬁ c 
+match” order.
+
+458
+
+c17.indd  04/01/2015  Page 459
+
+Chapter 17: Confi guring a Web Server
+
+Access control fi les are useful for allowing users to change specifi c settings without having access to the server 
+confi guration fi les.

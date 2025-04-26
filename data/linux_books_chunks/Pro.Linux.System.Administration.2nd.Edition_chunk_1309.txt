@@ -1,0 +1,3 @@
+We have checked on our network and IP address 
+
+192.168.10.1 is available.

@@ -1,0 +1,8 @@
+list of special files
+
+When you use ls -l, for each file you can see ten characters before the user and group owner.
+The first character tells us the type of file. Regular files get a -, directories get a d, symbolic
+links are shown with an l, pipes get a p, character devices a c, block devices a b, and sockets
+an s.
+
+Table 6.1.

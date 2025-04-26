@@ -1,0 +1,5 @@
+1 root root 7 Apr 20 20:41 /dev/mapper/VG42-LVsmall -> ../dm-2
+root@rhel65:~# ls -l /dev/VG42/LVsmall
+lrwxrwxrwx. 1 root root 7 Apr 20 20:41 /dev/VG42/LVsmall -> ../dm-2
+root@rhel65:~# ls -l /dev/dm-2
+brw-rw----.

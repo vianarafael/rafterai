@@ -1,0 +1,9 @@
+After the 
+rescue medium boots, it tries to mount any ﬁ lesystems it can ﬁ nd from your Linux system 
+so you can repair any problems.
+
+For many Linux distributions, the installation CD or DVD can serve as boot media for going 
+into rescue mode. Here’s an example of how to use a Fedora installation DVD to go into 
+rescue mode to ﬁ x a broken Linux system:
+
+1.

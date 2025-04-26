@@ -1,0 +1,2 @@
+Setting up 
+a DNS server that all the systems point to is probably the best way to do that.

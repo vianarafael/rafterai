@@ -1,0 +1,11 @@
+this information recorded when you use yum or dnf, 
+but not when you use rpm.
+
+315
+
+ 
+ 
+ 
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Let’s now use rpm to examine the heart of the Linux operating system, the kernel.

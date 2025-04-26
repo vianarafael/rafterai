@@ -1,0 +1,10 @@
+Done  
+The following NEW packages will be installed:
+  dhcp3-server 
+
+You get a configuration file with many examples.
+
+debian5:~# ls -l /etc/dhcp3/dhcpd.conf 
+-rw-r--r-- 1 root root 3551 2011-04-10 21:23 /etc/dhcp3/dhcpd.conf
+
+6.4.

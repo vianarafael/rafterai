@@ -1,0 +1,7 @@
+Linux kernel source
+
+28.2.1. ftp.kernel.org
+
+The home of the Linux kernel source is ftp.kernel.org. It contains all official releases of
+the Linux kernel source code from 1991. It provides free downloads over http, ftp and rsync
+of all these releases, as well as changelogs and patches.

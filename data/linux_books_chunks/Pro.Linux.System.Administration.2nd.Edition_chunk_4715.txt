@@ -1,0 +1,18 @@
+You can also pass in 
+
+other options that allow you to test access against such things as peernames and ssf.
+
+One of the other useful ways to figure out what is going on with your access control lists, which can be 
+
+hard to get right, is to have the following in your access control list while you are testing:
+
+access to * by * search
+
+You can combine this with modifying the logging configuration in your SLAPD, changing your log level to 
+
+something like this:
+
+olcLogLevel:  416
+
+This will show the search filter and the access control list processing as well as connection management 
+and configuration file processing.

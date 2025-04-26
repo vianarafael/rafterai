@@ -1,0 +1,6 @@
+# lid
+
+
+- View documentation for `libuser-lid`:
+
+`tldr libuser-lid`

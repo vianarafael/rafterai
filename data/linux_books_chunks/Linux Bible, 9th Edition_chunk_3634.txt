@@ -1,0 +1,28 @@
+Figure 20.3 shows an example of this window:
+
+FIGURE 20.3
+
+Open your fi rewall to allow access to the NFS service using the Firewall 
+Confi guration window
+
+2020
+
+537
+
+c20.indd  04/01/2015  Page 538
+
+Part IV: Becoming a Linux Server Administrator
+
+For RHEL 6 and other systems that use iptables service directly (prior to ﬁ rewalld being 
+added), to open ports on the NFS server’s ﬁ rewall, make sure iptables is enabled and 
+started with ﬁ rewall rules similar to the following added to the /etc/sysconfig/
+iptables ﬁ le :
+
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 111 -j ACCEPT
+-A INPUT -m state --state NEW -m udp -p udp --dport 111 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 2049 -j ACCEPT
+-A INPUT -m state --state NEW -m udp -p udp --dport 2049 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 20048 -j ACCEPT
+-A INPUT -m state --state NEW -m udp -p udp --dport 20048 -j ACCEPT
+
+In Red Hat Enterprise Linux 6.x and earlier, the ﬁ rewall issue is a bit more complex.

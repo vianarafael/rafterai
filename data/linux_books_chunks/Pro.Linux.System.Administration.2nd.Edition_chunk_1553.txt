@@ -1,0 +1,6 @@
+This allows the firewall to filter packets based on the state of the connection, 
+which offers considerably finer-grained control over your traffic.
+
+Netfilter is part of the Linux kernel and can be controlled and configured in the user space by the 
+iptables command.. In this chapter, we will frequently use iptables to refer to the firewall technology in 
+general.

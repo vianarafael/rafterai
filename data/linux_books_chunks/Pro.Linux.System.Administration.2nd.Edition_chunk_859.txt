@@ -1,0 +1,7 @@
+We recommend you use a login message like the following:
+
+^[c
+\d at \t
+Access to this host is for authorized persons only.
+Unauthorized use or access is regarded as a criminal act
+and is subject to civil and criminal prosecution.

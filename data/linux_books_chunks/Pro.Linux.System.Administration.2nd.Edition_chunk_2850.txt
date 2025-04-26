@@ -1,0 +1,4 @@
+In this LogFormat directive we are getting Apache to include the virtual host (%v) and 
+port (%p) of the virtual host accepting the request. Next we have the remote hostname (%h) and remote 
+username (%l), the authenticated user (%u). The request is recorded (%r) along with the final status (%>s) and 
+byte size (%O).

@@ -1,0 +1,7 @@
+Save the changes to the /etc/sudoers ﬁ le (in vi, type Esc, and then :wq). The 
+following is an example of a session by the user joe after he has been assigned 
+sudo privileges:
+
+[joe]$ sudo touch /mnt/testfile.txt
+  We trust you have received the usual lecture
+  from the local System Administrator.

@@ -1,0 +1,5 @@
+User account passwords also play an important role in the process.
+
+Securing passwords
+Passwords are the most basic security tool of any modern operating system and, conse-
+quently, the most commonly attacked security feature.

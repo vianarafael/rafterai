@@ -1,0 +1,11 @@
+The just-mounted NFS ﬁ lesystem is the /stuff directory from 
+
+541
+
+c20.indd  04/01/2015  Page 542
+
+Part IV: Becoming a Linux Server Administrator
+
+maple (maple:/stuff). It is mounted on /mnt/maple, and its mount type is nfs. The 
+ﬁ lesystem was mounted read/write (rw), and the IP address of maple is 192.168.0.122 
+(addr=192.168.0.122).

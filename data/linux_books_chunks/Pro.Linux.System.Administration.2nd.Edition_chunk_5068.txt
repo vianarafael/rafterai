@@ -1,0 +1,9 @@
+We will need to add this to our allowed 
+
+rules in our firewall.
+
+$ sudo firewall-cmd --permanent --zone public --add-port=19532/tcp
+$ sudo firewall-cmd --reload
+
+By default the service is configured to listen with https://. This is configurable in the /usr/lib/
+systemd/system/systemd-journal-remote.service file.

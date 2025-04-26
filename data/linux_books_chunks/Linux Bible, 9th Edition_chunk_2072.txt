@@ -1,0 +1,38 @@
+Messages appear, 
+indicating the device name of the drive you just plugged in (press Ctrl+C to exit 
+the tail command when you are ﬁ nished):
+
+288
+
+ 
+ 
+ 
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 289
+
+Chapter 12: Managing Disks and Filesystems
+
+12
+
+# tail -f /var/log/messages
+kernel: usb 3-2: new high speed USB device number 69 using xhci_hcd
+kernel: usb 3-2: New USB device found, idVendor=0930, 
+idProduct=6545
+kernel: usb 3-2: New USB device strings: 
+     Mfr=1, Product=2, SerialNumber=3
+kernel: usb 3-2: Product: USB Flash Memory
+kernel: usb 3-2: Manufacturer:
+kernel: usb 3-2: SerialNumber: 001D92AD6ADAB98043230329
+kernel: usb 3-2: configuration #1 chosen from 1 choice
+kernel: scsi8 : SCSI emulation for USB Mass Storage devices
+kernel: sd 8:0:0:0: Attached scsi generic sg2 type 0
+kernel: sd 8:0:0:0: [sdc] 15740928 512-byte 
+     logical blocks: (8.05 GB/7.50 GiB)
+kernel: sd 8:0:0:0: [sdc] Write Protect is off
+kernel: sd 8:0:0:0: [sdc] Assuming drive cache: write through
+kernel: sd 8:0:0:0: [sdc] Assuming drive cache: write through
+kernel: sdc: sdc1 sdc2 sdc3 < sdc5 >
+
+3.

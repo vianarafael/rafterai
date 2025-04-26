@@ -1,0 +1,5 @@
+A range of priorities are 
+available, and we’ll explain each shortly. Again, applications choose the priority of each message when they 
+send them to rsyslog.
+
+The action tells rsyslog what to do with the message; generally this means writing it to a file.

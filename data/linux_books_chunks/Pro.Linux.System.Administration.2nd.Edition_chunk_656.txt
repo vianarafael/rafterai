@@ -1,0 +1,16 @@
+That would make the regular expression look as follows:
+
+"\b[A-Za-z0-9._-]+@example.com\b"
+
+and now if we run the grep over our text file example we only match on the e-mail addresses we are 
+after:
+
+$ egrep -o "\b[A-Za-z0-9._%+-]+@example.com\b" file.txt
+root@example.com
+jsmith@example.com
+bjuice@example.com
+
+The grep command with regular expressions can be very powerful and you can do some very complex 
+expressions, but remember the old joke:
+
+“I solved my problem with a regular expression .

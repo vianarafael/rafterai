@@ -1,0 +1,3 @@
+A 
+separate /usr partition is also useful if you have diskless workstations on your local 
+network.

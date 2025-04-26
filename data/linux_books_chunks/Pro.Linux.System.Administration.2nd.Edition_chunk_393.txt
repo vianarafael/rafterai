@@ -1,0 +1,10 @@
+Final Steps of the vagrant up
+
+==> default: Checking for guest additions in VM...
+==> default: Mounting shared folders...
+    default: /vagrant => /Users/dennismatotek/workspace/source/book/first
+    default: /home/vagrant/temp => /Users/dennismatotek/workspace/source/book/first/temp
+
+94
+
+Once the machine is up we can then mount our directories.

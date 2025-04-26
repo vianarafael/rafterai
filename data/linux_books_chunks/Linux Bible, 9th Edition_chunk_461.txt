@@ -1,0 +1,20 @@
+As long as you have an 
+
+46
+
+c02.indd  04/01/2015  Page 47
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+Internet connection, you can run the Add/Remove software tool to download and install 
+any of thousands of Fedora packages.
+
+FIGURE 2.12
+
+Access remote folders using the Nautilus Connect to Server feature.
+
+2
+
+Although the entire facility for managing software in Fedora (the yum and rpm features) 
+is described in detail in Chapter 10, “Getting and Managing Software,” you can start 
+ installing some software packages without knowing much about how the feature works.

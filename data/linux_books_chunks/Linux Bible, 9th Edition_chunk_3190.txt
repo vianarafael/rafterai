@@ -1,0 +1,20 @@
+Here are 
+some of those lines:
+
+Listen 443 https
+...
+<VirtualHost _default_:443>
+ErrorLog logs/ssl_error_log
+TransferLog logs/ssl_access_log
+LogLevel warn
+SSLEngine on
+...
+SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+...
+</VirtualHost>The SSL service is set to listen on standard SSL port 
+   443 on all the system's network interfaces.
+
+A VirtualHost block is created that causes error messages and access messages to be 
+logged to log ﬁ les that are separate from the standard logs used by the server (ssl_
+error_log and ssl_access_log in the /var/log/httpd/ directory).

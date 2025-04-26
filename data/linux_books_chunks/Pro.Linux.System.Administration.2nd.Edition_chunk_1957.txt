@@ -1,0 +1,6 @@
+Finally, we have a list of one or more sections that define which sets of packages 
+you want to be available.
+
+the packages are divided into these sections by license type and support level. Ubuntu has four 
+sections. First is “main,” which contains all free software that is supported by Ubuntu’s developer, 
+Canonical.

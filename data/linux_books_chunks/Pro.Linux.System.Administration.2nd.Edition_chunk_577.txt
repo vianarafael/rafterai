@@ -1,0 +1,4 @@
+Finally, we have r-- for the last three permissions, which tell us 
+what permissions the Other class has. In this case, others can read the file but cannot write to it or execute it.
+Now you’ve seen what permissions look like, but how do you go about changing them? Permissions are 
+changed using the chmod (change file mode bits) command.

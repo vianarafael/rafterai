@@ -1,0 +1,32 @@
+rpm2cpio
+
+We can use rpm2cpio to convert an rpm to a cpio archive.
+
+[root@RHEL53 ~]# file kernel.src.rpm 
+kernel.src.rpm: RPM v3 src PowerPC kernel-2.6.18-92.1.13.el5
+[root@RHEL53 ~]# rpm2cpio kernel.src.rpm > kernel.cpio
+[root@RHEL53 ~]# file kernel.cpio 
+kernel.cpio: ASCII cpio archive (SVR4 with no CRC)
+
+But why would you want to do this ?
+
+Perhaps just to see of list of files in the rpm file.
+
+[root@RHEL53 ~]# rpm2cpio kernel.src.rpm | cpio -t | head -5
+COPYING.modules
+Config.mk
+Module.kabi_i686
+Module.kabi_i686PAE
+Module.kabi_i686xen
+
+Or to extract one file from an rpm package.
+
+[root@RHEL53 ~]# rpm2cpio kernel.src.rpm | cpio -iv Config.mk
+Config.mk
+246098 blocks
+
+238
+
+package management
+
+20.7.

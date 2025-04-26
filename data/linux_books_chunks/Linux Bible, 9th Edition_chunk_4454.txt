@@ -1,0 +1,29 @@
+Therefore, to get access to the pam_cracklib module on Ubuntu, issue the command sudo 
+apt-get install libpam-cracklib.
+
+Using pam_cracklib, you can check a newly chosen password for the following:
+
+ ■ Is it a dictionary word?
+
+ ■ Is it a palindrome?
+
+ ■ Is it the old password with the case changed?
+
+ ■ Is it too much like the old password?
+
+ ■ Is it too short?
+
+ ■ Is it a rotated version of the old password?
+
+ ■ Does it use the same consecutive characters?
+
+ ■ Does it contain the username in some form?
+
+660
+
+c23.indd  04/01/2015  Page 661
+
+Chapter 23: Understanding Advanced Linux Security 
+
+You can change the rules pam_cracklib uses for checking new passwords by making 
+ modiﬁ cations to the /etc/pam.d/system-auth ﬁ le.

@@ -1,0 +1,5 @@
+If you want to list multiple priorities, you need to list multiple 
+
+selectors separated by semicolons, as shown in Listing 18-9.
+
+Listing 18-9.

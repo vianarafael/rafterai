@@ -1,0 +1,9 @@
+To ﬁ x this 
+problem, use the su command with the dash (-) option instead, like this:
+
+$ su -
+Password: ******
+#
+
+You still need to type the password, but after that, everything that normally happens at 
+login for the root user happens after the su command is completed.

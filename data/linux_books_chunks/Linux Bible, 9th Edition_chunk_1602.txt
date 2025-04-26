@@ -1,0 +1,15 @@
+221
+
+c09.indd  04/01/2015  Page 222
+
+Part III: Becoming a Linux System Administrator
+
+RAID arrays can help improve performance, reliability, or both as those features 
+relate to reading, writing, and storing your data.
+
+ ■ Swap partitions—Create a swap partition to extend the amount of virtual memory 
+
+available on your system.
+
+The following sections describe how to add regular Linux partitions, LVM, RAID, and swap 
+partitions using the Fedora graphical installer.

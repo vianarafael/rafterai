@@ -1,0 +1,6 @@
+This is a set of commands that are executed together within the 
+
+current shell.
+
+4.  Built-in command. This is a command built into the shell. As a result, there 
+is no representation of the command in the ﬁ lesystem.

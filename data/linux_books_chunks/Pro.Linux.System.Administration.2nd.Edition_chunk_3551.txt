@@ -1,0 +1,32 @@
+The defaults should be fine, but you might 
+want to adjust skip_addresses and set the debug_level (1 to 5 with 5 being most verbose).
+
+Now when you send a test e-mail, you will see the following header being added to the e-mail (which 
+
+SpamAssasin will use in the calculation of spam scores):
+
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+        ip-10-0-10-154.ap-southeast-2.compute.internal
+X-Spam-Level: *
+X-Spam-Status: No, score=1.8 required=5.0 tests=MISSING_SUBJECT autolearn=no
+        autolearn_force=no version=3.4.0
+Received-SPF: Pass (sender SPF authorized)  identity=mailfrom; client-ip=31.28.208.98; 
+helo=mail.example.net; envelope-from=ataylor@example.net; receiver=jsmith@example.com
+X-Virus-Scanned: clamav-milter 0.99.2 at mail.example.com
+X-Virus-Status: Clean
+
+581
+
+Chapter 12 ■ Mail ServiCeS
+
+You can see now we have Received-SPF: Pass (sender SPF authorized), which means that we have 
+
+looked up the TXT record for example.net and found that mail.example.net was able to send mail for the 
+example.net domain.
+
+Let’s now look at setting up Domain Key Identified Mail.
+
+DKIM
+
+Domain Key Identified Mail is where we will add a signature header to the mail we send so that other mail 
+servers can verify it came from us via our published public key.

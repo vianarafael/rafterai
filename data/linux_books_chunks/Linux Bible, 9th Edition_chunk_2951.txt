@@ -1,0 +1,7 @@
+(Not all printers report these values.)
+
+Click Apply when you are satisﬁ ed with the changes you made to the local printer.
+
+Configuring remote printers
+To use a printer that is available on your network, you must identify that printer to 
+your Linux system.

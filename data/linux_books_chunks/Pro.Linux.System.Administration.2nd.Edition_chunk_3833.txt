@@ -1,0 +1,14 @@
+You can also see that we now 
+
+have two sets of three disks for a total of 6 (2 × 3 = 6). Looking at our mounted volume on our test server, we 
+can see that the volume has increased to 100GB.
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+$ df -h /mnt
+Filesystem            Size    Used  Avail   Use%   Mounted on
+au-mel-dfs-1:/vol1    100G    85M   100G    1%     /mnt
+
+Replacing a Brick
+
+We are stupid.

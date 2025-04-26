@@ -1,0 +1,6 @@
+The window that appears lets you search for applications and 
+packages that you want by searching for keywords or navigating categories.
+
+ ■ aptitude—The aptitude command is a package installation tool that provides 
+a screen-oriented menu that runs in the shell. After you run the command, use 
+arrow keys to highlight the selection you want and press Enter to select it.

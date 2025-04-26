@@ -1,0 +1,6 @@
+One of the ﬁ rst 
+things you should do is get software updates for the new system.
+
+Understanding Cloud-Based Installations
+When you install a Linux system on a physical computer, the installer can see the 
+ computer’s hard drive, network interfaces, CPUs, and other hardware components.

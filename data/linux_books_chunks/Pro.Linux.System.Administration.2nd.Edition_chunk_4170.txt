@@ -1,0 +1,7 @@
+This means that we will have small files to deal with, rather than one huge file containing all our 
+backup data.
+
+ ■ Note 
+ With tape media, you probably won’t set the Maximum Volume Bytes limit, as in general you will 
+want the tape to hold as much as its capacity. If a volume is created with this limit, it will remain at that limit 
+regardless of the setting in the Pool resource.

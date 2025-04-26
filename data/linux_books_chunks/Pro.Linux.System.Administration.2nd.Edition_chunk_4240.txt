@@ -1,0 +1,13 @@
+Let’s do that now.
+
+/etc/bareos/bareos-dir.conf
+Storage {
+  Name = Gluster
+  Address = backup.example.com                # N.B. Use a fully qualified name here
+  Password = "4ncvx7V+Mw4NOMDMyuYjCHsNg1nKgcdh8nl0szWpi6t4"
+  Device = GlusterStorage
+  Media Type = GlusterFile
+  Maximum Concurrent Jobs = 10
+}
+
+This maps the directory storage to the device storage file.

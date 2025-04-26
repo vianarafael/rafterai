@@ -1,0 +1,4 @@
+We recommend you use a password age between 30 and 60 days 
+for most passwords, depending on the nature of the host and encouraging password managers. More 
+important, hosts should have shorter password expiration periods (e.g., 30 days), while less critical hosts 
+could have longer periods.

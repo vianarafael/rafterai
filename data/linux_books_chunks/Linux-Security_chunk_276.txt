@@ -1,0 +1,6 @@
+setting octal permissions
+
+Most  Unix  administrators  will  use  the  old  school  octal  system  to  talk  about  and  set
+permissions. Look at the triplet bitwise, equating r to 4, w to 2, and x to 1.
+
+Table 6.4.

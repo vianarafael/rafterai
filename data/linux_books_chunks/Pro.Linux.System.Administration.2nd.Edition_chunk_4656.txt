@@ -1,0 +1,8 @@
+Let’s look at the object class 
+declaration from the core.schema file:
+
+objectclass ( 1.3.6.1.4.1.1466.344 NAME 'dcObject'
+         DESC 'RFC2247: domain component object'
+         SUP top AUXILIARY MUST dc )
+
+You can see how we use the preceding object class in the declaration of the DN: dc=example, dc=com.

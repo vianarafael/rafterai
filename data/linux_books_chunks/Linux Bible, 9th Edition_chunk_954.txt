@@ -1,0 +1,3 @@
+Follow the slash or question mark with a pattern (string of 
+text) to search forward or backward, respectively, for that pattern. Within the search, you 
+can also use metacharacters.

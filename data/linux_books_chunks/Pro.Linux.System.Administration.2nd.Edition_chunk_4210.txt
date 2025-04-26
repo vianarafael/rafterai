@@ -1,0 +1,24 @@
+Jobs: run=0, running=0 mode=0 db=mysql
+ Heap: heap=274,432 smbytes=86,156 max_bytes=86,156 bufs=321 max_bufs=322
+
+686
+
+Chapter 14 ■ BaCkup and reCovery
+
+Scheduled Jobs:
+
+Level          Type     Pri  Scheduled          Name                      Volume
+=================================================================================
+Incremental    Backup    10  10-Oct-16 23:05    headoffice.example.com     *unknown*
+Full                 Backup    11  10-Oct-16 
+23:10    BackupCatalog                   *unknown*
+
+Running Jobs:
+Console connected at 10-Oct-16 00:57
+No Jobs running.
+====
+No Terminated Jobs.
+====
+*
+
+As you can see, we have no jobs completed and no jobs currently running.

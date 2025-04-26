@@ -1,0 +1,6 @@
+apache web server
+
+In this chapter we learn how to setup a web server with the apache software.
+
+According  to  NetCraft  (http://news.netcraft.com/archives/web_server_survey.html)  about
+seventy  percent  of  all  web  servers  are  running  on  Apache.

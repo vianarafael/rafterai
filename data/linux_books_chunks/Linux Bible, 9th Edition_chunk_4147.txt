@@ -1,0 +1,4 @@
+Programs that need SUID and SGID 
+permissions should not be stored in /home and are most likely malicious.
+
+ ■ You can set the nodev option so no device ﬁ le located there will be recognized.

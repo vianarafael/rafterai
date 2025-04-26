@@ -1,0 +1,7 @@
+To install the packages needed to conﬁ gure the NFS service on the Linux system 
+
+you choose, type the following as root user at a shell (Fedora or RHEL):
+
+# yum install nfs-utils
+
+2.

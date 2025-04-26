@@ -1,0 +1,12 @@
+w
+
+The w command shows you who is logged on and what they are doing.
+
+[paul@centos7 ~]$ w
+ 23:34:07 up 31 min,  2 users,  load average: 0.00, 0.01, 0.02
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+root     pts/0     23:07   15.00s  0.01s  0.01s top
+paul     pts/1     23:30    7.00s  0.00s  0.00s w
+[paul@centos7 ~]$
+
+1.5.

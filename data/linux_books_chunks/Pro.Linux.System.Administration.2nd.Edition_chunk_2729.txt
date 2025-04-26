@@ -1,0 +1,5 @@
+If you simply change the zone file, these changes will be ignored because the data 
+in the journal file will supersede it.
+
+You can tell the DNS server you want to lock the zone journal files and reject any dynamic changes 
+while you’re editing a zone by issuing the sudo rndc freeze command before you start editing.

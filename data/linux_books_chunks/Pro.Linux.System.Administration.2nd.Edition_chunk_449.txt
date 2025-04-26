@@ -1,0 +1,11 @@
+To use the sudo 
+command, you simply type sudo and the command you wish to run. You will usually be prompted for your 
+password, and if you enter the correct password, the command will be executed.
+
+$ sudo passwd root
+
+This command would change the password of the root user, which is one method of enabling the root 
+
+user on Ubuntu.
+
+The root user is all-powerful and can do anything on your host.

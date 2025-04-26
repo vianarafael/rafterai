@@ -1,0 +1,18 @@
+Actually $$ is a shell
+parameter and not a variable, you cannot assign a value to it.
+
+Below we use echo to display the values of $$ and $PPID.
+
+[paul@RHEL4b ~]$ echo $$ $PPID
+4224 4223
+
+1.2.2. pidof
+
+You can find all process id's by name using the pidof command.
+
+root@rhel53 ~# pidof mingetty
+2819 2798 2797 2796 2795 2794
+
+1.2.3. parent and child
+
+Processes have a parent-child relationship.

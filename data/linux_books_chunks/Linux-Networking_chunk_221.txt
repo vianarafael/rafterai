@@ -1,0 +1,13 @@
+Verify whether dhclient is running.
+
+2. Display your current ip address(es).
+
+3. Display the configuration file where this ip address is defined.
+
+4. Follow the nic configuration in the book to change your ip address from dhcp client to
+fixed. Keep the same ip address to avoid conflicts!
+
+5. Did you also configure the correct gateway in the previous question ? If not, then do
+this now.
+
+6.

@@ -1,0 +1,5 @@
+You can also use 
+the rpm tool to query this information. For example, we have the /bin/bash command installed on our host, 
+and we can find out what installed this command by using rpm as shown in Listing 8-11.
+
+Listing 8-11.

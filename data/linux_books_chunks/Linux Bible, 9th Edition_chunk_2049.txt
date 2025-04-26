@@ -1,0 +1,7 @@
+To be safe, I use a USB ﬂ ash drive that doesn’t contain any data I want to 
+keep to practice partitioning.
+
+Changing partitioning can make a system 
+unbootable!
+I don’t recommend using your system’s primary hard disk to practice changing partitioning because 
+a mistake can make your system unbootable.

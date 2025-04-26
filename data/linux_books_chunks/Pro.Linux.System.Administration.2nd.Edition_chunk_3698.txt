@@ -1,0 +1,5 @@
+This share is to be made available to our sales staff only. We 
+
+have decided to put our staff-shared documents into the /data/staff directory, and the sales directory 
+will be under that. We have specified that it should be read-only by default (readonly = yes). This stops 
+unintended users from writing to this directory. We have also denied public or guest users (public = no).

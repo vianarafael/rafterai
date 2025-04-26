@@ -1,0 +1,7 @@
+Although Apache 
+offers tremendous ﬂ exibility, security, and complexity, a basic Apache web server can be 
+conﬁ gured in just a few minutes in Fedora, RHEL, and most other Linux distributions.
+
+The chapter described the steps for installing, conﬁ guring, securing, and troubleshooting 
+a basic Apache web server. You learned how to conﬁ gure virtual hosting and secure SSL 
+hosts.

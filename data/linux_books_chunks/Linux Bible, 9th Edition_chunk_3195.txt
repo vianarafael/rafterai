@@ -1,0 +1,13 @@
+468
+
+ 
+c17.indd  04/01/2015  Page 469
+
+Chapter 17: Confi guring a Web Server
+
+2.  Because you are accessing the site via a browser on the local host, click Add 
+
+Exception to allow connections to this site. You are warned that you are overrid-
+ing Firefox to accept this certiﬁ cate.
+
+3.  Select View to see the certiﬁ cate that was generated.

@@ -1,0 +1,3 @@
+By default on most Linux 
+distributions, including CentOS and Ubuntu, when you create a new user, a new group with the same name 
+as the user is also created.

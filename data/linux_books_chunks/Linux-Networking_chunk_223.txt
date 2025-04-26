@@ -1,0 +1,13 @@
+Which ip-addresses did your computer recently have contact with ?
+
+27
+
+interface configuration
+
+2.13. solution: interface configuration
+
+1. Verify whether dhclient is running.
+
+paul@debian5:~$ ps fax | grep dhclient
+
+2.

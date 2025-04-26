@@ -1,0 +1,4 @@
+We showed you how to set up data storage that can scale to petabyte size with GlusterFS. We talked 
+about alternative solutions to traditional file sharing, such as document management services (DMS). 
+They have many advantages over file sharing, since they offer finer-grained access control and versioning 
+of documents and they allow you to implement company workflows.

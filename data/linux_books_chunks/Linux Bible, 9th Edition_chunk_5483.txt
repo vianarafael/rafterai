@@ -1,0 +1,13 @@
+Linux, 6
+OSI (Open Source Initiative), 12, 14–16, 710, 711
+OSTYPE environment variable, 80, 86
+Overview screen
+
+GNOME 3 desktop, 34, 35, 40
+OpenStack dashboard, 723–724
+
+P
+
+Package Collections, 316
+Package Groups, 316
+packages.

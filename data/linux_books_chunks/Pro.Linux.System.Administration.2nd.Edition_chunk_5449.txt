@@ -1,0 +1,9 @@
+The Nagios Process Information screen
+
+You can do other things through this console, such as host and service reports, check the event log, and 
+
+see and schedule downtime for hosts and services.
+
+Troubleshooting Nagios
+Lots of resources are available to help you with Nagios including web sites, forums, and books, such as 
+Pro Nagios 2.0 by James Turnbull, one of the authors of this book (Apress, 2006).

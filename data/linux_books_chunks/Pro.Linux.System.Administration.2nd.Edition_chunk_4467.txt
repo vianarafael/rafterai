@@ -1,0 +1,7 @@
+See Chapter 10 for instructions on DNS.
+
+•	 We are not using any replication of our directory service. Replication is where we can 
+have more than one LDAP server on our network sharing all or part of our LDAP data 
+and answering client requests. It takes additional configuration to enable this.
+
+Let’s view just one piece of our network.

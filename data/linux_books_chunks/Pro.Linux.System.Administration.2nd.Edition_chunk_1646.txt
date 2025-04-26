@@ -1,0 +1,9 @@
+The ACCEPT target allows the socket to make the connection.
+
+Okay, that was a mistake, let’s remove that rule. From our iptables listing above we can see that the rule 
+
+we want to remove is in position 1. We will use that when we delete that rule.
+
+$ sudo /sbin/iptables –t filter –D IPV4-INCOMING 1
+
+If you list the tables again we see that there are no rules associated again.

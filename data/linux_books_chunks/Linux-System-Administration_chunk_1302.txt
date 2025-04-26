@@ -1,0 +1,10 @@
+Combine ssh and tar to put a backup of your /boot on your neighbours computer in /
+mnt/YourName
+
+4a. Combine find and cpio to create a cpio archive of /etc.
+
+4b. Choose a file in /etc and restore it from the cpio archive into your home directory.
+
+5. Use dd and ssh to put a backup of the master boot record on your neighbours computer.
+
+6.

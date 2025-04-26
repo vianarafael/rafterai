@@ -1,0 +1,15 @@
+Because no passphrase is put on the 
+private key, no passphrase is required to unlock that key when it is used.
+
+[chris]$ ssh johndoe@10.140.67.23
+Last login: Sun Apr 17 10:12:22 2016 from  10.140.67.22
+[johndoe]$
+
+333
+
+c13.indd  04/01/2015  Page 334
+
+Part IV: Becoming a Linux Server Administrator
+
+With the keys in place, chris could now use ssh, scp, rsync, or any other SSH-enabled 
+command to do key-based authentication.

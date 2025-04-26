@@ -1,0 +1,11 @@
+You suspect you have had a malicious attack on your system today and important 
+binary ﬁ les have been modiﬁ ed. What command should you use to ﬁ nd these modi-
+ﬁ ed ﬁ les?
+
+8.  Install and run chkrootkit to see if the malicious attack from Exercise 7 installed 
+
+a rootkit.
+
+9.  Find ﬁ les with the SetUID or SetGID permission set.
+
+10.

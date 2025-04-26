@@ -1,0 +1,6 @@
+For example, if 
+the router provides access to the Class C address 192.168.100, you could use the 
+ netmask 255.255.255.0.
+
+ ■ Gateway—Add the IP address for the router (gateway) that provides access to the 
+new route.

@@ -1,0 +1,6 @@
+They are declared right after the class name and inside parentheses 
+separated by a comma. Read more about class parameters here: https://docs.puppet.com/puppet/4.8/
+lang_classes.html.
+
+In Puppet you can define the data types of the variables you are passing in, and if they are not the 
+correct types, Puppet will error.

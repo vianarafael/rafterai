@@ -1,0 +1,5 @@
+these strings are 
+universally unique identifiers (UUIds).
+
+UUIds provide a convenient and computationally cheap way of identifying information without the need 
+to check if a generated Id is already in use.

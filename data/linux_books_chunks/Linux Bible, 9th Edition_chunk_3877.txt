@@ -1,0 +1,9 @@
+If more unit ﬁ les appear as failed, you can run the 
+journalctl -u command again, using those unit ﬁ lenames as arguments.
+
+The next section describes how to troubleshoot issues that can arise with your software 
+packages.
+
+Troubleshooting Software Packages
+Software packaging facilities (such as yum for RPM and apt-get for DEB packages) are 
+designed to make it easier for you to manage your system software.

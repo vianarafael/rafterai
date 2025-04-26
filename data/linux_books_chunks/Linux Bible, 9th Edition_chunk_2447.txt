@@ -1,0 +1,7 @@
+Create an entry in /etc/rsyslog.conf that stores all authentication messages 
+
+(authpriv) info level and higher into a ﬁ le named /var/log/myauth. From one 
+terminal, watch the ﬁ le as data comes into it, and in another terminal, try to ssh 
+into your local machine as any valid user, with a bad password.
+
+8.

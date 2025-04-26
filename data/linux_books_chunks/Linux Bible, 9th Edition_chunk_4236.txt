@@ -1,0 +1,9 @@
+The command to move the database to its new location and give it a 
+new name is as follows:
+
+# cp /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
+
+When you are ready to check whether your ﬁ les have been tampered with, you need to 
+create a new database, the “second picture,” and compare it to the original database, the 
+“ﬁ rst picture.” The check option on the aide command, -c, creates a new database and 
+runs a comparison against the old database.

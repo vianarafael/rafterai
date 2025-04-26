@@ -1,0 +1,9 @@
+To see what applets are available and to add applets that you 
+want to your panel, follow these steps:
+
+1.  Right-click an open space in the panel so the Panel menu appears.
+
+2.  Click Add to Panel. An Add to Panel window appears.
+
+3.  Select from among several dozen applets, including a clock, dictionary lookup, 
+stock ticker, and weather report.

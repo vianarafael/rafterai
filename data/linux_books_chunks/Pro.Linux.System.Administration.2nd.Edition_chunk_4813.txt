@@ -1,0 +1,4 @@
+Confusingly, if a host contains multiple CPUs, the load for each CPU is added to create a total; on a 
+host with four CPU cores, a load of 4.00 means the same as a load of 1.00 on a single-core system.
+
+In our example, the average workload over the past minute was about 1 percent.

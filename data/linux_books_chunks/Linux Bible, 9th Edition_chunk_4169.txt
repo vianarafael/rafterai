@@ -1,0 +1,6 @@
+Those messages are directed to the systemd journal and can be displayed 
+with the journalctl command.
+
+You can view journal messages directly from the systemd journal instead of simply list-
+ing the contents of /var/log ﬁ les. In fact, the /var/log/messages ﬁ le, which many 
+services direct log messages to by default, does not even exist in the latest Fedora release.

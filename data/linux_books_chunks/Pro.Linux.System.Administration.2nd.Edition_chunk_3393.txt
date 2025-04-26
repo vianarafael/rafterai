@@ -1,0 +1,6 @@
+the smtp_sasl_mechanism_filter option specifies what types 
+of authentication mechanisms are supported by the smarthost, and the smtp_sasl_security_options 
+option disables anonymous mechanisms.
+
+after your configuration is updated, you will need to reload or restart postfix, and you can then test to 
+see whether your server can send SaSl-authenticated e-mail to the smarthost.

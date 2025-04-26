@@ -1,0 +1,4 @@
+Ansible uses the ansible-playbook command to execute 
+plays. It has similar command options to the ansible command. Let’s take a look at them now; see Table 19-2.
+
+Table 19-2.

@@ -1,0 +1,4 @@
+the source context (scontext) is system_u:system_r:postfix_smtpd_t:s0, and the target 
+context (tcontext) is tcontext=unconfined_u:object_r:var_run_t:s0. this means that the process 
+with the postfix_smtpd_t type tried to access the socket file with the var_run_t type and couldn’t. 
+the solution is to allow the write on the socket file by the postfix smtpd process.

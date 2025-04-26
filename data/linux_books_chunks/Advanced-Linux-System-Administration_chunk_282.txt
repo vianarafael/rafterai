@@ -1,0 +1,25 @@
+If there are any differences the changed files are mailed to 
+user root
+
+#!/bin/bash
+touch /tmp/md5old
+touch /tmp/md5new
+mv /tmp/md5new /tmp/md5old
+
+for files in $(find /etc -type f ) 
+do
+        md5sum $files >> /tmp/md5new
+done
+
+x=$(diff /tmp/md5old /tmp/md5new)
+
+if [ -z "$x" ]; then
+        break
+else
+        echo $x |mail root
+fi
+
+Notice that the first time you run this script all the files will be seen as changed!
+
+Checking valid MD5 fingerprints can be done from the STDIN or from a list of pre-computed 
+sums using md5sum -c (--check).

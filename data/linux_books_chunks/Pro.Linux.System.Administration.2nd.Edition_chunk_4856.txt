@@ -1,0 +1,4 @@
+Swap space and 
+RAM make up the total allocatable memory available to your system. The kernel will swap out less used 
+memory pages into the swap space when it requires memory for a particular process and does not have that 
+immediately available.

@@ -1,0 +1,4 @@
+To enable logwatch all you have to do is install the logwatch package.
+
+The logwatch service runs from a cron job (01logwatch) placed in /etc/cron.daily. 
+The /etc/logwatch/conf/logwatch.conf ﬁ le holds local settings.

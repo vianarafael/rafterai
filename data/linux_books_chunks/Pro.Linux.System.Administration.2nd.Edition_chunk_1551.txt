@@ -1,0 +1,5 @@
+Netfilter does this by rewriting the packet headers as they enter, pass 
+through, and/or leave the host.
+
+Netfilter is a stateful packet-filtering firewall. Two types of packet-filtering firewalls exist: stateful and 
+stateless. A stateless packet-filtering firewall examines only the header of a packet for filtering information.

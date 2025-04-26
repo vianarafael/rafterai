@@ -1,0 +1,6 @@
+To 
+ﬁ ll in the information you need to launch the instance, follow these steps:
+
+1.  Select Details. From the Details tab, select the following items:
+
+ ■ Availability Zone—An availability zone consists of a group of compute hosts.

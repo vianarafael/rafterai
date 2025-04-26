@@ -1,0 +1,13 @@
+In other words, the tunnel is encrypted before
+you start typing anything.
+
+Then  authentication  takes  place  (using  user  id/password  or  public/private  keys)  and
+communication can begin over the encrypted connection.
+
+The ssh protocol will remember the servers it connected to (and warn you in case something
+suspicious happened).
+
+The openssh package is maintained by the OpenBSD people and is distributed with a lot of
+operating systems (it may even be the most popular package in the world).
+
+25.1.2.

@@ -1,0 +1,5 @@
+The two 
+recursive (-r) copies copy the bash-completion directory, and all ﬁ les it contains, ﬁ rst to 
+new /tmp/a/ and /tmp/b/ directories. If you run ls -l on those two directories, you 
+see that for the cp command run with the archive (-a) option, the date/time stamps and 
+ permissions are maintained by the copy.

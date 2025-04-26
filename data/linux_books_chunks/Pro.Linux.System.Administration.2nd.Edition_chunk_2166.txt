@@ -1,0 +1,12 @@
+We’ll revisit recovery later in this chapter.
+
+370
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+The reserved blocks for the superuser percentage exist so that a normal user cannot fill a filesystem to 
+such an extent that the superuser (root) could no longer log in, or services running as the root user would 
+be unable to write data to disk.
+
+The 5% limit is historical and suitable, for instance, for the root filesystem '/', which is not normally 
+larger than a few gibibytes.

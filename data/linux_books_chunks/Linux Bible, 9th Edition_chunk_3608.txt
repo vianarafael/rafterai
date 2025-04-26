@@ -1,0 +1,9 @@
+In the options part of each entry in /etc/exports, you can add options that 
+allow or limit access by setting read/write permission. These options, which are passed to 
+NFS, are as follows:
+
+ ■ ro—Client can mount this exported ﬁ lesystem read-only. The default is to mount 
+
+the ﬁ lesystem read/write.
+
+ ■ rw—Explicitly asks that a shared directory be shared with read/write permissions.

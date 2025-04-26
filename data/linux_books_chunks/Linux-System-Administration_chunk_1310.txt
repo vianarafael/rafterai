@@ -1,0 +1,11 @@
+This  requires  adding
+usrquota and/or grpquota to one or more of the file systems in /etc/fstab.
+
+root@RHELv4u4:~# cat /etc/fstab | grep usrquota
+/dev/VolGroup00/LogVol02     /home     ext3     usrquota,grpquota   0 0
+
+Next you need to remount the file system.
+
+root@RHELv4u4:~# mount -o remount /home
+
+The next step is to build the quota.user and/or quota.group files.

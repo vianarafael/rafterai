@@ -1,0 +1,23 @@
+The service jobs are in 
+a start/running state, such as the cups daemon.
+
+$ initctl list
+avahi-daemon start/running, process 456
+mountall-net stop/waiting
+rc stop/waiting
+rsyslog start/running, process 411
+...
+ssh start/running, process 405
+udev-fallback-graphics stop/waiting
+control-alt-delete stop/waiting
+hwclock stop/waiting
+mounted-proc stop/waiting
+network-manager start/running, process 458
+...
+rc-sysinit stop/waiting
+cups start/running, process 1066
+...
+tty6 start/running, process 833
+ureadahead stop/waiting
+
+These various jobs are deﬁ ned via a jobs deﬁ nition ﬁ le.

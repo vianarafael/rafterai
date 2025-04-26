@@ -1,0 +1,6 @@
+This can be cumbersome
+to maintain. Luckily rfc 2136 describes integration of DHCP servers with a DNS server.
+Whenever DHCP acknowledges a client ip configuration, it can notify DNS with this clients
+ip-address and name. This is called dynamic updates or DDNS.
+
+5.5.6.

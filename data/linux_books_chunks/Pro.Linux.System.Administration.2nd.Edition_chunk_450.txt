@@ -1,0 +1,4 @@
+As a result, it can be easy to accidentally 
+
+make a mistake that could delete data or disrupt your applications and services when logged in as the root 
+user. Thus, for security and safety reasons, you should never log in as the root user.

@@ -1,0 +1,33 @@
+The information is 
+read from two files:
+
+/proc/net/rpc/nfs
+
+contains information about NFS client activity
+
+63
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+/proc/net/rpc/nfsd contains information about the NFS server
+
+nfsstat options
+-s
+-c
+-n
+-r
+-o
+
+ show only server statistics
+ shpw only client statistics
+ print NFS statistics only
+ print RPC statistics only
+ print statistics for specific utility (nfs,rpc,net,fh,rc)
+
+4.

@@ -1,0 +1,7 @@
+See the RHEL System Administrator’s 
+Guide for information on conﬁ guring mail servers (https://access.redhat.
+com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html-single/
+System_Administrators_Guide/index.html#ch-Mail_Servers).
+
+ ■ Secure Shell server—Set up the SSH service (sshd) to allow remote login to your 
+local system as well as key-based authentication.

@@ -1,0 +1,2 @@
+The FTP protocol was created at a time when most computer communication was done on 
+ private lines or over dial-up, where encryption was not thought to be critical.

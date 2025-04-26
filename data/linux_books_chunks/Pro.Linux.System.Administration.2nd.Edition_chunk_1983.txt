@@ -1,0 +1,4 @@
+The apt and 
+aptitude tools are both wrappers around dpkg, much like yum is a wrapper around the rpm command.
+
+ ■ Tip  We recommend you use aptitude to manage your packages rather than dpkg.

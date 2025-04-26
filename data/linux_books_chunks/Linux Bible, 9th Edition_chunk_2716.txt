@@ -1,0 +1,15 @@
+It
+# is usually started by the telinit compatibility wrapper.
+
+start on runlevel [0123456]
+
+stop on runlevel [!$RUNLEVEL]
+
+task
+
+export RUNLEVEL
+console output
+exec /etc/rc.d/rc $RUNLEVEL
+
+If you look back at the /etc/inittab in the classic SysVinit daemon section, you will 
+notice that /etc/inittab also handled spawning the getty or mingetty processes.

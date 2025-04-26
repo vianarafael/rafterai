@@ -1,0 +1,7 @@
+For example, if you search for passwd, you could turn up /etc/passwd, 
+/usr/bin/passwd, /home/chris/passwd/pwdfiles.txt, and many other 
+ﬁ les with passwd in the path.
+
+ ■ If you add ﬁ les to your system after updatedb runs, you can’t locate those 
+
+ﬁ les until updatedb runs again (probably that night).

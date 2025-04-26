@@ -1,0 +1,13 @@
+for HOST in $HOSTLIST ; do
+37.   get_sales
+38.   error_check $?
+39. done
+40.
+41. exit 0
+
+649
+
+Chapter 14 ■ BaCkup and reCovery
+
+The purpose of the script in Listing 14-2 is to sync files from one or more remote hosts to the /data/
+backups directory of the host the script is running on.

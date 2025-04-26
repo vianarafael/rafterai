@@ -1,0 +1,9 @@
+For example, to have the 
+ permissions of a user named jsmith, you’d type the following:
+
+$ su - jsmith
+
+Even if you were root user before you typed this command, afterward you would have 
+only the permissions to open ﬁ les and run programs that are available to jsmith. As root 
+user, however, after you type the su command to become another user, you don’t need a 
+ password to continue.

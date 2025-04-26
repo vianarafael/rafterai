@@ -1,0 +1,7 @@
+You can search that 
+ interface for available FCoE devices.
+
+Partitioning hard drives
+The hard disk (or disks) on your computer provide the permanent storage area for your 
+data ﬁ les, application programs, and the operating system itself. Partitioning is the act 
+of dividing a disk into logical areas that can be worked with separately.

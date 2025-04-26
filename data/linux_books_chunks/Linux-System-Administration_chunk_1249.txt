@@ -1,0 +1,7 @@
+The name of the library file usually starts with
+lib, followed by the actual name of the library, then the chracters .so and finally a version
+number.
+
+29.2. /lib and /usr/lib
+
+When you look at the /lib or the /usr/lib directory, you will see a lot of symbolic links.

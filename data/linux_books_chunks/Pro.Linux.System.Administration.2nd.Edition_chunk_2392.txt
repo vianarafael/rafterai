@@ -1,0 +1,14 @@
+You can continue on here and take whatever 
+action is necessary to mount any partitions.
+
+Figure 9-13.  Information about other mounts
+
+Now we have the rescue shell (see Figure 9-14). It is your system that been specially mounted via chroot. 
+
+A chroot is a special mount we explain shortly.
+
+409
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-14.

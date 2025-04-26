@@ -1,0 +1,6 @@
+Instead, their services are registered with the xinetd daemon. When 
+requests come to the xinetd daemon for a service, at that time, the xinetd launches the 
+requested service and hands the request off to that service.
+
+The advantage of the xinetd daemon is that you can have fewer daemon processes 
+ running and consuming memory and process slots.

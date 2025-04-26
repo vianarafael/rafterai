@@ -1,0 +1,12 @@
+The example 
+
+shown in Listing 18-5 will tell rsyslog to not log any kernel messages to the file/var/log/messages.
+
+Listing 18-5.  rsyslog.conf none Wildcard Selector
+
+kern.none                      /var/log/messages
+
+Priorities
+
+Priorities are organized in an escalating scale of importance. They are debug, info, notice, warning, err, 
+crit, alert, and emerg.

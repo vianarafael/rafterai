@@ -1,0 +1,8 @@
+logical volume
+management
+
+Most lvm implementations support physical storage grouping, logical volume resizing
+and data migration.
+
+Physical storage grouping is a fancy name for grouping multiple block devices (hard disks,
+but also iSCSI etc) into a logical mass storage device.

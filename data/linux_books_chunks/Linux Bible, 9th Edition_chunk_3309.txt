@@ -1,0 +1,22 @@
+Use one of the following two commands to restart your 
+ﬁ rewall, depending on whether your system is using the older iptables service or the 
+newer firewalld service:
+
+# service iptables restart
+
+or
+
+# systemctl restart firewalld.service
+
+485
+
+c18.indd  04/01/2015  Page 486
+
+Part IV: Becoming a Linux Server Administrator
+
+Try again to access your FTP server from a remote system (using a web browser or some 
+other FTP client).
+
+Allowing FTP access in TCP wrappers
+The TCP wrappers feature in Linux lets you add information to the /etc/hosts.allow 
+and /etc/hosts.deny ﬁ les to indicate who can or cannot access selected services.

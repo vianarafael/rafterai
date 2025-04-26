@@ -1,0 +1,7 @@
+So the meta-data tells 
+the cloud provider how much of those resources, and possibly others, to allocate 
+early in the process of starting up the instance.
+
+ ■ user-data—The user-data information is inserted into the operating system that 
+exists on the image. This is data that the person using the virtual machine pro-
+vides.

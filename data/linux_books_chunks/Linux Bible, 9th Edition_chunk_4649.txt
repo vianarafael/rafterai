@@ -1,0 +1,5 @@
+Now, the ﬁ le has the security context of the 
+temporary directory instead of its original security context, and your system is getting AVC 
+denial messages when the service using that ﬁ le tries to start up.
+
+This is an easy ﬁ x, thanks to the restorecon -R command.

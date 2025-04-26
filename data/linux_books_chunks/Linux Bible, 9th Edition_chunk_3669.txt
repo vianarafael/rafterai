@@ -1,0 +1,3 @@
+A noauto ﬁ lesystem can 
+be mounted manually. The advantage is that when you type the mount command, you can 
+type less information and have the rest ﬁ lled in by the contents of the /etc/fstab ﬁ le.

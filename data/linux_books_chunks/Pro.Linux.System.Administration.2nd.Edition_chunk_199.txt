@@ -1,0 +1,11 @@
+You can also have system or service users on your hosts. These 
+system or service users do not have to have passwords (as they would never sign into the host but maybe 
+execute a program like a database server). We talk more about users in Chapters 4 and 5.
+
+41
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+After fixing the passwords, we are going to click Advanced and go on to Figure 2-28.
+
+Figure 2-28.

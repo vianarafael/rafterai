@@ -1,0 +1,16 @@
+The information is
+similar to pvs, plus you get a line with total sizes.
+
+[root@RHEL5 ~]# pvscan
+  PV /dev/sdc    VG vg33         lvm2 [408.00 MB / 408.00 MB free]
+  PV /dev/sdd    VG vg33         lvm2 [408.00 MB / 408.00 MB free]
+  PV /dev/sda2   VG VolGroup00   lvm2 [15.88 GB / 0    free]
+  PV /dev/sdb                    lvm2 [409.60 MB]
+  Total: 4 [17.07 GB] / in use: 3 [16.67 GB] / in no VG: 1 [409.60 MB]
+[root@RHEL5 ~]#
+
+111
+
+logical volume management
+
+11.8.4.

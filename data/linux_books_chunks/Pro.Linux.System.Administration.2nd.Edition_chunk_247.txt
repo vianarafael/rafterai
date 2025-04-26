@@ -1,0 +1,6 @@
+When we confirm this layout by selecting Yes, the LVM partitions shown 
+in Figure 2-59 are created and formatted.
+
+Figure 2-59.  . Writing LVM partition changes to disk
+
+ ■ Note  Swap space is additional storage on your hard disk drive that is used for “overflow” data from raM.

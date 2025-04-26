@@ -1,0 +1,16 @@
+The case statement is ended by the esac statement.
+
+We now need to edit our remote_authorized_keys file to add options for our key.
+
+$ vi remote_authorized_keys
+command="~/bin/ssh_limiter.sh",from="*.example.com", no-port-forwarding,no-X11-
+forwarding,no-agent-forwarding,no-pty ssh-rsa
+AAAAB3NzaC1yc2EAAAABIwAAAgEAp7jGL2il3QKREVTpNWkdPqiEbG4rKdCLt/nx57PHkZvz
+SGI64Glscl0zIz92PBN/ZjNb4Z1ZaOGS7UYQOg4SHKXsw5/VHchIN1k3p9Vwm9rZUiDg3azKr9J+R
++r9TDhwReyYt0QhR/j1aZf1gYS3+xRLs+bQb6UXVRrccygCFtxvrA2B5Kkgw2QJhctSlNRyi8XobUK
+7kOs2Bw4zIY8hEZMRBFEibqi/diXPngWsMeo2UQQGICo6yXmgUKqiuQq1azdDuTbEstLS97/LdT
+qWd9MNAsYk= exbackup@backup.example.com
+
+Here we added the options to the remote_authorized_key file that will eventually be on our remote 
+
+host.

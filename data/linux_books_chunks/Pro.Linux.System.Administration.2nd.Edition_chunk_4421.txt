@@ -1,0 +1,9 @@
+You need to check that the connection is up, that firewall rules allow the VPN tunnel 
+to connect, and finally that rules and routing exist that allow your traffic to flow across the VPN and to the 
+intended destination.
+
+ ■ Tip 
+
+ Chapter 6 covers network and firewall troubleshooting.
+
+The best place to start to look for troubleshooting help is the OpenVPN web site (http://openvpn.net/).

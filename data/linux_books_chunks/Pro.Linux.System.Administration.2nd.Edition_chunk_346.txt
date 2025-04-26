@@ -1,0 +1,7 @@
+On Windows machines you can run commands from the 
+cmd.exe program, from PowerShell, or from Git Bash like we just installed.
+
+ ■ Tip 
+ there are some things that you cannot natively do in the Windows command or powerShell console. 
+one of the them is SSh. SSh is a secure way to access consoles over a network. By installing git Bash we get 
+access to an SSh client.

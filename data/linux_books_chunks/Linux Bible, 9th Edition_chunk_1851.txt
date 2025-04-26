@@ -1,0 +1,8 @@
+Chapter 11 describes user management in Fedora, RHEL, and 
+other Linux systems.
+
+Exercises
+
+These exercises test your knowledge of working with RPM software packages in Fedora or 
+Red Hat Enterprise Linux. To do the exercises, I recommend you have a Fedora system in 
+front of you that has an Internet connection.

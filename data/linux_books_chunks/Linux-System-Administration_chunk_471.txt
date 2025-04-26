@@ -1,0 +1,9 @@
+All these devices can become a member of a volume group.
+
+The commands used to manage a physical volume start with pv.
+
+[root@centos65 ~]# pv
+pvchange   pvck       pvcreate   pvdisplay  pvmove     pvremove
+pvresize   pvs        pvscan
+
+11.2.2.

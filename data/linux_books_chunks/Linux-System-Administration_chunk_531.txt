@@ -1,0 +1,8 @@
+This example
+creates an 8GB Logical Volume in Volume Group vg42.
+
+[root@RHEL5 ~]# lvcreate -L5G vg42
+  Logical volume "lvol0" created
+[root@RHEL5 ~]#
+
+As  you  can  see,  lvm  automatically  names  the  Logical  Volume  lvol0.

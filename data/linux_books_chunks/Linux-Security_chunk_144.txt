@@ -1,0 +1,7 @@
+These tools have a look and feel that depends
+on  the  distribution.  If  you  are  a  novice  Linux  user  on  your  home  system,  then  use  the
+graphical tool that is provided by your distribution. This will make sure that you do not run
+into problems.
+
+Another option is to use command line tools like useradd, usermod, gpasswd, passwd and
+others.

@@ -1,0 +1,20 @@
+Using Network Address Translation (NAT), the host can 
+route packets from the virtual machines using these private addresses to external network 
+interfaces.
+
+Do the following on each hypervisor to check the bridge for each:
+
+# brctl show virbr0
+bridge name  bridge id            STP enabled  interfaces
+virbr0      8000.001aa0d7483e    yes           vnet0
+# ip addr show virbr0
+5: virbr0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue 
+        state UP group default
+   link/ether fe:54:00:57:71:67 brd ff:ff:ff:ff:ff:ff
+   inet 192.168.122.1 brd 192.168.122.255 scope global dynamic virbr0
+
+Step 3: Start Virtual Machine Manager (virt-manager)
+From the desktop on either hypervisor, do the following to open Virtual Machine Manager 
+and connect it to the hypervisor:
+
+a.

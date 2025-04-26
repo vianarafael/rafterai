@@ -1,0 +1,13 @@
+You can use your arrow keys to 
+navigate to see the recovery mode kernel.
+
+We are going to use the normal kernel of an Ubuntu host in this exercise. Press the e key to edit the 
+
+highlighted kernel. You will see the configuration of that kernel, such as its location and parameters, 
+displayed as in Figure 6-3.
+
+186
+
+Chapter 6 ■ Startup and ServiCeS
+
+Figure 6-3.

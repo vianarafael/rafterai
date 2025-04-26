@@ -1,0 +1,4 @@
+Set SELinux to Permissive mode 
+ temporarily (setenforce 0), and try to access the ﬁ le again. If the ﬁ le is now accessi-
+ble, set SELinux to Enforcing mode again (setenforce 1) and check ﬁ le contexts and 
+Booleans. File contexts must be correct for httpd to be able to access a ﬁ le.

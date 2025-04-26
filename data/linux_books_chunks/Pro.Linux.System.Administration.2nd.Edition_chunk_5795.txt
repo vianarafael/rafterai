@@ -1,0 +1,11 @@
+module_argx=valuex
+
+We can also install repositories this way.
+
+  - name: add bareos
+    get_url:
+      url: "{{ url }}/bareos.repo"
+      dest: /etc/yum.repos.d/bareos.repo
+      mode: 0444
+
+Of course, this can also apply to other types of files if you want.

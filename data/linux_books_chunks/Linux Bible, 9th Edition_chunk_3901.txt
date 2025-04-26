@@ -1,0 +1,6 @@
+You can confi gure a command to 
+run every fi ve minutes, every third hour, or at a particular time on Friday afternoon.
+
+If you want to use cron to set up nightly software updates, you can do that as the root user by running 
+the crontab -e command. That opens a fi le using your default editor (vi command by default) that you 
+can confi gure as a crontab fi le.

@@ -1,0 +1,12 @@
+Using the arrows in 
+
+the title bar scroll through the history to view further back in time.
+
+While you can add and delete users through this application you cannot administer group settings. To 
+
+do this you must use the command line.
+
+ remember, the Ubuntu server version does not come with a GUI by default, and you should make 
+
+ ■ Note 
+use of the command-line tools provided.

@@ -1,0 +1,7 @@
+Using the mv command, you can move a file or 
+directory from one location to another. In order to move a file, you must have write permissions to the file 
+and write permissions to the location you want to move it to.
+
+Listing 4-17 demonstrates how to move a file.
+
+Listing 4-17.

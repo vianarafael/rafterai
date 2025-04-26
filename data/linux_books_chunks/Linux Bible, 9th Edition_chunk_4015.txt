@@ -1,0 +1,6 @@
+Also, you must run the Alt+SysRq keystrokes 
+from a text-based interface (such as the virtual console you see when you press 
+Ctrl+Alt+F2).
+
+With kernel.sysrq set to 1, you can kill the process on your system with the 
+highest OOM score by pressing Alt+SysRq+f from a text-based interface.

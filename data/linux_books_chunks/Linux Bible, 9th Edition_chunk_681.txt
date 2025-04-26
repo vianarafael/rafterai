@@ -1,0 +1,6 @@
+The sort command takes the usernames that begin each line of the 
+/etc/passwd ﬁ le, sorts them alphabetically, and pipes the output to the less command 
+(to page through the output).
+
+Pipes are an excellent illustration of how UNIX, the predecessor of Linux, was created 
+as an operating system made up of building blocks.

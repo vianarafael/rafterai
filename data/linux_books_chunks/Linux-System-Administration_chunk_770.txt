@@ -1,0 +1,6 @@
+at.allow and at.deny
+
+You can also use the /etc/at.allow and /etc/at.deny files to manage who can schedule jobs
+with at.
+
+The /etc/at.allow file can contain a list of users that are allowed to schedule at jobs.

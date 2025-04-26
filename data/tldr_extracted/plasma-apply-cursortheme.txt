@@ -1,0 +1,14 @@
+# plasma-apply-cursortheme
+
+
+- List available cursor themes:
+
+`plasma-apply-cursortheme --list-themes`
+
+- Apply a cursor theme:
+
+`plasma-apply-cursortheme {{breeze_cursors}}`
+
+- Display help:
+
+`plasma-apply-cursortheme --help`

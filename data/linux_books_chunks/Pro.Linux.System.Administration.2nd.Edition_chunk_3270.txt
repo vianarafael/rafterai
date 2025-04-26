@@ -1,0 +1,14 @@
+To do both of these things, we’re going to update a Postfix option 
+called home_mailbox like so:
+
+home_mailbox = Maildir/
+
+or using the postconf command, like so:
+
+$ sudo postconf -e "home_mailbox = Maildir/"
+
+The home_mailbox option tells Postfix the location of the user’s mailbox, relative to the user’s home 
+
+directory, so that Maildir/ translates to /home/ataylor/Maildir.
+
+ the trailing / is important.

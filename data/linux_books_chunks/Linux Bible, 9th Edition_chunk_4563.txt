@@ -1,0 +1,3 @@
+If you do not have the policy docu-
+mentation on your system, you can install it on a Fedora or RHEL system, by typing yum 
+install selinux-policy-doc at the command line.

@@ -1,0 +1,5 @@
+By selecting Watermark (behind the text) or Overlay (over the 
+text), you can set the other Watermark settings to determine how watermarks 
+and overlays are done. Watermarks can go on every page (All) or only the ﬁ rst 
+page (First Only). Select Watermark Text to choose what words are used for the 
+watermark or overlay (Draft, Copy, Conﬁ dential, Final, and so on).

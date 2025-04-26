@@ -1,0 +1,7 @@
+This fi le provides values for your path, in addition 
+to setting environment variables for such things as the location of your 
+mailbox and the size of your history fi les. Finally, /etc/profile gathers 
+shell settings from confi guration fi les in the /etc/profile.d directory.
+
+This executes for every user who runs the bash shell, each time a bash 
+shell is opened.

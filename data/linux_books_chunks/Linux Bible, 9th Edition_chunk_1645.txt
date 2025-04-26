@@ -1,0 +1,8 @@
+If you forgot your root password or if your boot process hangs, 
+you can boot directly to a shell by adding init=/bin/sh to the boot line.
+
+ ■ Select a run level. If you want to boot to a particular run level, you can add 
+
+the run level you want to the end of the kernel line. For example, to have RHEL 
+boot to run level 3 (multiuser plus networking mode), add 3 to the end of the 
+kernel line.

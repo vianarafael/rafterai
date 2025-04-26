@@ -1,0 +1,4 @@
+For example, only the root user can create another user.
+When you run the sudo command, it will prompt you to enter your password (to confirm you are 
+actually who you say you are), and then you are allowed to make use of the sudo command for a period of 
+5 minutes on CentOS and 15 minutes on Ubuntu.

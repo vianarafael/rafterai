@@ -1,0 +1,15 @@
+Both searches are for the string localhost.
+
+You can also recursively search down into lower directories by adding the -r switch as follows:
+
+$ grep -r localhost /etc
+
+ ■ Tip 
+
+ On ubuntu and Debian hosts, the rgrep command automatically recurses into directories.
+
+You can also specify more complicated search terms, for example, multiple words, as follows:
+
+$ grep "local host" /etc/hosts
+
+You can see we’ve specified the words “local” and “host” with a space between them.

@@ -1,0 +1,5 @@
+Often this isn’t an ideal situation.
+
+With authentication, your users can send e-mail from anywhere as long as they are authenticated. It 
+also means internal users on your trusted network need to provide authentication credentials before they 
+will be allowed to send e-mail.

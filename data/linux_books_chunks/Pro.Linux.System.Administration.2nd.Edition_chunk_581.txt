@@ -1,0 +1,8 @@
+On directories x means traverse, meaning that you 
+can list directories in the parent directory but you can’t go any further.
+
+After our update, the permissions on our file would now look as follows:
+
+-rwxr--r--   1 root  root      0  2016-07-15 20:47 myfile
+
+You can see the addition of the x to the User class.

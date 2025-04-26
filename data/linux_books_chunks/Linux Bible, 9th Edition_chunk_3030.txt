@@ -1,0 +1,19 @@
+Here are a few lines from the smb.conf ﬁ le that 
+relate to printer sharing:
+
+[global]
+     ...
+  load printers = yes
+  cups options = raw
+; printcap name = /etc/printcap
+; printing = cups
+    ...
+[printers]
+        comment = All Printers
+        path = /var/spool/samba
+        browseable = yes
+        writeable = no
+        printable = yes
+
+These example settings are the result of conﬁ guring Samba from the Samba Server 
+Conﬁ guration window (system-config-samba) in Fedora.

@@ -1,0 +1,10 @@
+Putting dns and icmp would render nothing
+because there is no packet that matches both protocols.
+
+In the screenshot above you can see that packets 25 and 26 both have 10.104.33.30 as source
+and destination ip address. That is because the dns client is the same computer as the dns
+server.
+
+The same is true for packets 31 and 32, since the machine is actually pinging itself.
+
+23.1.6.

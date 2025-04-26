@@ -1,0 +1,15 @@
+The hosts.deny ﬁ le is checked.
+
+ ■ If the remote system’s address is listed, access is denied.
+
+ ■ If the remote system’s address is not listed, access is allowed.
+
+708
+
+ 
+ 
+c25.indd  04/02/2015  Page 709
+
+Chapter 25: Securing Linux on a Network
+
+The order in which the hosts ﬁ les are evaluated is important.

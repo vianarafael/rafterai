@@ -1,0 +1,3 @@
+Normally, we 
+recommend creating only a single partition on a data storage disk, but let’s have some fun with this disk and 
+create a few.

@@ -1,0 +1,4 @@
+Up to 1,000 history commands are stored for you by default.
+
+Some people disable the history feature for the root user by setting the HISTFILE to /dev/null or simply leav-
+ing HISTSIZE blank. This prevents information about the root user’s activities from potentially being exploited.

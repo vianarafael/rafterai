@@ -1,0 +1,16 @@
+For  example
+192.168.1.42/24 will be encoded as:
+
+238
+
+Introduction to ipv6
+
+2002:c0a8:12a:18::1
+
+You can use the command below to convert any ipv4 address to this range.
+
+paul@ubu1010:~$ printf "2002:%02x%02x:%02x%02x:%04x::1\n" `echo 192.168.1.42/24 \
+|tr "./" "  "`
+2002:c0a8:012a:0018::1
+
+21.9.

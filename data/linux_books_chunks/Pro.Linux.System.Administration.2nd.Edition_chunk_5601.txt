@@ -1,0 +1,4 @@
+In Listing 19-5, we are managing the owner, group, and mode (or permissions) attributes of 
+the file. Each attribute is separated from its value with the => symbols and is terminated with a comma.
+
+Puppet also uses the concept of collections, which allow you to group together many resources.

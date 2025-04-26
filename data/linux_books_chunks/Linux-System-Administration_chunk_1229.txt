@@ -1,0 +1,12 @@
+make mrproper
+
+Now clean up the source from any previous installs with make mrproper. If this is your
+first after downloading the source code, then this is not needed.
+
+[root@RHEL52 linux-2.6.18.i686]# make mrproper
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  CLEAN   include/config
+  CLEAN   .config .config.old
+
+28.5.3.

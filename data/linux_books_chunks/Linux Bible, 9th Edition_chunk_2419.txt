@@ -1,0 +1,14 @@
+For example, type df -x 
+
+tmpfs -x devtmpfs to exclude temporary ﬁ lesystem types (limiting output to 
+ﬁ lesystems that represent real storage areas).
+
+ ■ Include ﬁ lesystems that have no space, such as /proc and /dev/pts (-a).
+
+ ■ List only available and used inodes (-i).
+
+ ■ Display disk space in certain block sizes (--block-size=#).
+
+Checking disk usage with du
+To ﬁ nd out how much space is being consumed by a particular directory (and its subdirecto-
+ries), use the du command.

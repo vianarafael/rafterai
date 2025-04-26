@@ -1,0 +1,6 @@
+# trash-empty
+
+
+- View documentation for `trash-empty`:
+
+`tldr trash`

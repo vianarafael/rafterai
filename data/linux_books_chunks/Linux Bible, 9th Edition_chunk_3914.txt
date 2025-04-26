@@ -1,0 +1,8 @@
+The next time 
+you run a yum command, necessary data is downloaded again. Here are some reasons for 
+cleaning out your yum cache:
+
+ ■ Metadata is obsolete. The ﬁ rst time you connect to a Yum repository 
+
+(by  downloading a package or querying the repository), metadata is downloaded 
+to your system.

@@ -1,0 +1,33 @@
+logging
+
+Verify that syslog is running and activated on boot to enable logging of deny messages in
+/var/log/messages.
+
+[root@rhel55 ~]# chkconfig --list syslog
+syslog          0:off 1:off 2:on 3:on 4:on 5:on 6:off
+
+Verify  that  auditd  is  running  and  activated  on  boot  to  enable  logging  of  easier  to  read
+messages in /var/log/audit/audit.log.
+
+[root@rhel55 ~]# chkconfig --list auditd
+auditd          0:off 1:off 2:on 3:on 4:on 5:on 6:off
+
+If not activated, then run chkconfig --levels 2345 auditd on and service auditd start.
+
+[root@rhel55 ~]# service auditd status
+auditd (pid  1660) is running...
+[root@rhel55 ~]# service syslog status
+syslogd (pid  1688) is running...
+klogd (pid  1691) is running...
+
+The /var/log/messages log file will tell you that selinux is disabled.
+
+root@deb503:~# grep -i selinux /var/log/messages
+Jun 25 15:59:34 deb503 kernel: [    0.084083] SELinux:  Disabled at boot.
+
+Or that it is enabled.
+
+root@deb503:~# grep SELinux /var/log/messages | grep -i Init
+Jun 25 15:09:52 deb503 kernel: [    0.084094] SELinux:  Initializing.
+
+12.3.

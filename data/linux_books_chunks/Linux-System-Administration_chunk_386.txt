@@ -1,0 +1,7 @@
+permanent mounts
+
+Until  now,  we  performed  all  mounts  manually.  This  works  nice,  until  the  next  reboot.
+Luckily there is a way to tell your computer to automatically mount certain file systems
+during boot.
+
+7.4.1.

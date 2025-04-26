@@ -1,0 +1,5 @@
+When an MDa is specified in this option, postfix will deliver e-mail to this MDa, and the MDa 
+will deliver the e-mail to the user’s mailbox.
+
+During the delivery process, the MDa can perform a variety of actions; for example, it can look for a 
+characteristic of an e-mail, like whom it is from, and redirect it to a specific mailbox folder.

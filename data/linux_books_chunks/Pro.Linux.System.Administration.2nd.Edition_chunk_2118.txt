@@ -1,0 +1,2 @@
+We select partition 1 and it displays our current type, ‘Linux filesystem’. Next we have 
+entered the code 8200 and it has now changed the type to Linux swap.

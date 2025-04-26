@@ -1,0 +1,8 @@
+Then the user can run any command he or she is privileged to use by preceding that 
+ command with the sudo command.
+
+Here’s an example of how to use the sudo facility to cause the user named joe to have full 
+root privilege.
+
+If you look at the sudoers fi le in Ubuntu, you see that the initial user on the system already has privilege, by 
+default, for the admin group members.

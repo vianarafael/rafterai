@@ -1,0 +1,27 @@
+Fedora, 18
+GNOME Terminal, 68
+installing, 208–211
+ISO image, 774
+mcedit text editor, 118
+Networking Guide, 26
+RHELOSP, 177
+RHEV, 177
+software subscriptions, 21
+
+bindex.indd  04/02/2015  Page 853
+
+Index
+
+sudo command, 174
+System Administrator’s Guide, 26
+system-config-* tools, 175–177
+terminal emulators, 68
+updatedb command, 125
+RHEL OpenStack Platform, 18
+RHELOSP (Red Hat Enterprise Linux OpenStack Platform), 
+
+177
+
+RHEV (Red Hat Enterprise Virtualization), 177, 732
+Rhythmbox music player, 48–49, 195, 196
+Rijndael, 631.

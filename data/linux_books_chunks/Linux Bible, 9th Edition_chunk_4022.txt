@@ -1,0 +1,9 @@
+The moment you see the BIOS screen, press the function key noted on that screen 
+
+for selecting the boot device (possibly the F12 or F2 function key).
+
+4.  Choose the drive (CD or DVD) from the list of bootable devices, and press Enter.
+
+5.  When the RHEL 7 boot menu appears, use the arrow keys to highlight the word 
+
+Troubleshooting and press Enter.

@@ -1,0 +1,9 @@
+That same umask results in a ﬁ le 
+permission of 644 (rw-rw-r--). (Execute permissions are off by default for regular ﬁ les.)
+
+To temporarily change your umask value, run the umask command. Then try creating 
+some ﬁ les and directories to see how the umask value affects how permissions are set. 
+For example:
+
+$ umask 777 ; touch file01 ; mkdir dir01 ; ls -ld file01 dir01
+d---------.

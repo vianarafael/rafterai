@@ -1,0 +1,3 @@
+Different operating systems often have 
+ different views of partition tables and master boot records that can cause your machine to become unbootable 
+(at least temporarily) or lose data permanently.

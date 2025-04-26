@@ -1,0 +1,3 @@
+The domain name system 
+(DNS) was designed to handle that problem by providing a hierarchy of servers 
+to do name-to-address mapping on the Internet.

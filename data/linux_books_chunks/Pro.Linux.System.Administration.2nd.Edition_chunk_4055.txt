@@ -1,0 +1,4 @@
+Ordering is important as files included will take precedence 
+over files excluded.
+
+In our example, we are going to do a full system backup.

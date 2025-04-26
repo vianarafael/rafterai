@@ -1,0 +1,9 @@
+So 
+
+the value of 654 in Listing 4-11 would represent the following permissions:
+
+-rw-r-xr-- 1 root root 0  2016-08- 14 22:37 myfile
+
+The first value, 6, equates to assigning the User class the read permission with a value of 4 plus the write 
+
+permission with a value of 2.

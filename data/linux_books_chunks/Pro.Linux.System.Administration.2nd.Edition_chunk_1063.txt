@@ -1,0 +1,6 @@
+Managing “hand-rolled” kernels can be a burden to patch and update, sometimes leaving you with a 
+system you can’t update.
+
+When you do update your kernel you will need to reboot for critical patches. in version 4 of the Linux 
+kernel, a way of patching the kernel to no longer require a reboot, even for critical patches, has been 
+committed since 2015.

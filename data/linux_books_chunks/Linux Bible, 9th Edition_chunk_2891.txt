@@ -1,0 +1,3 @@
+It was designed to meet today’s needs for standardized printer deﬁ nitions and sharing on Internet 
+Protocol–based networks (as most computer networks are today). Nearly every Linux distribution 
+today comes with CUPS as its printing service.

@@ -1,0 +1,12 @@
+Take a look at other commands that start with vg* , pv* or lv*.
+
+6. Create a mirror and a striped Logical Volume.
+
+7. Convert a linear logical volume to a mirror.
+
+8. Convert a mirror logical volume to a linear.
+
+9. Create a snapshot of a Logical Volume, take a backup of the snapshot. Then delete some
+files on the Logical Volume, then restore your backup.
+
+10.

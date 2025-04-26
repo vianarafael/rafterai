@@ -1,0 +1,4 @@
+It shows 
+
+our current filesystems and their used and free space, as well as percentage used. There are additional 
+options you can use with the df command, and you can review these in the command’s man page.

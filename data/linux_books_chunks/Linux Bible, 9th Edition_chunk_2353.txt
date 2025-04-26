@@ -1,0 +1,19 @@
+I start by logging in as the local user named chris and typing the following to 
+generate my local public/private key pair:
+
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/chris/.ssh/id_rsa): ENTER
+Enter passphrase (empty for no passphrase): ENTER
+Enter same passphrase again: ENTER
+Your identification has been saved in /home/chris/.ssh/id_rsa.
+Your public key has been saved in /home/chris/.ssh/id_rsa.pub.
+The key fingerprint is:
+bf:06:f8:12:7f:f4:c3:0a:3a:01:7f:df:25:71:ec:1d chris@abc.example.com
+The key's randomart image is:
+ ...
+
+13
+
+I accepted the default RSA key (DSA keys are also allowed) and pressed Enter twice to 
+have a blank passphrase associated with the key.

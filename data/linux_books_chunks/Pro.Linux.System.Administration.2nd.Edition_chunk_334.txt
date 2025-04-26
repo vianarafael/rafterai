@@ -1,0 +1,14 @@
+To make a new branch from the master 
+branch you do this following command:
+
+$ git branch my_change
+
+You do this so that you can make contained and discrete branches of work in a named branch—and 
+
+branches are cheap with Git (it is one of the selling points!).
+
+86
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+You have now cloned, created a branch, and you have edited some files.

@@ -1,0 +1,16 @@
+For an installed system, you see the login screen, with 
+
+33
+
+ 
+ 
+ 
+ 
+c02.indd  04/01/2015  Page 34
+
+Part I: Getting Started
+
+user accounts on the system ready for you to select and enter a password. Log in with the 
+ username and password you have deﬁ ned for your system. 
+
+Figure 2.1 is an example of the GNOME 3 desktop screen that appears for Fedora.

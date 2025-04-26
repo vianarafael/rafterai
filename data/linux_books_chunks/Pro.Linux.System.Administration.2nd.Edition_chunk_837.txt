@@ -1,0 +1,14 @@
+Listing 5-12 shows examples of 
+
+some passwd entries.
+
+Listing 5-12.  /etc/passwd Entries
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+
+Each entry can be broken into its component pieces, separated by a colon.
+
+username:password:UID:GID:GECOS:Home Directory:Shell
+
+The username can be up to 32 characters and is case sensitive (though it’s usually all in lowercase).

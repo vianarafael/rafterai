@@ -1,0 +1,6 @@
+However, here are some 
+instances when you may want to go into Setup mode and change something in the BIOS:
+
+ ■ To see an overview of your hardware—If your troubleshooting problem is 
+
+ hardware-related, the BIOS setup is a great place to start examining your system.

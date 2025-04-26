@@ -1,0 +1,7 @@
+And we will
+have to tell Samba how to to this, by adding an add machine script to the global section
+of smb.conf.
+
+add machine script = /usr/sbin/useradd -s /bin/false -d /home/nobody %u
+
+You can now join a Microsoft computer to the sports domain (with the root user).

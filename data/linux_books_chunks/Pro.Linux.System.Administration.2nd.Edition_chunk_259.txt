@@ -1,0 +1,7 @@
+The MBR is small bit of space on your hard drive that describes your partition layout to your 
+system. It also has a small space where the GRUB boot loader is installed into.
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+ ■ Note  You may not see the grUB installation screen (Figure 2-67). Systems running UeFI (Unified extensible 
+Firmware Interface) do not show this next screen.

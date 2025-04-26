@@ -1,0 +1,4 @@
+We generally 
+recommend you purchase hardware with sufficient reliability and support to meet your organization’s 
+requirements. If you need to rely on your infrastructure 24/7/365 and require high levels of availability, 
+you should purchase hardware with redundant features, such as backup power supplies.

@@ -1,0 +1,25 @@
+/etc/init/rsyslog.conf
+
+# rsyslog - system logging daemon
+#
+# rsyslog is an enhanced multi-threaded replacement for the traditional
+# syslog daemon, logging messages from applications
+
+Description      "system logging daemon"
+
+start on filesystem
+stop on runlevel [06]
+
+198
+
+Chapter 6 ■ Startup and ServiCeS
+
+expect fork
+respawn
+
+pre-start script
+    /lib/init/apparmor-profile-load usr.sbin.rsyslogd
+end script
+
+script
+    .

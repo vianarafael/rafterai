@@ -1,0 +1,8 @@
+You can generate a static key with the --genkey option of the 
+openvpn command like so:
+
+$ sudo openvpn --genkey --secret /etc/openvpn/secret.key
+
+This will create a file containing a key in a file called secret.key in the directory /etc/openvpn, the file 
+
+name and directory being specified with the --secret option.

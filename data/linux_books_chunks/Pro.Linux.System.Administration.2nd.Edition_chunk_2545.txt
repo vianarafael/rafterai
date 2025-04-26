@@ -1,0 +1,4 @@
+This tells other the dns servers to cache negative results (“NXDOMAIN”) 
+to prevent authoritive name servers from continuously performing a lookup for a host that does not exist.  
+In this case, a remote server should keep responding with “No such host” for 60 seconds after the initial 
+query before it queries the authoritative name servers again.

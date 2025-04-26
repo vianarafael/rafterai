@@ -1,0 +1,5 @@
+You can then change directives, such as those described 
+in the previous section, as needed.
+
+To help you understand the settings that come in the default httpd.conf ﬁ le, I’ve 
+ displayed some of those settings with descriptions below.

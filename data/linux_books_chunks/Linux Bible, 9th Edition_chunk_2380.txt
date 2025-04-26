@@ -1,0 +1,5 @@
+All the matched mes-
+sages are directed to the /var/log/messages ﬁ le.
+
+The mail, authpriv (authentication messages), and cron (cron facility messages) services 
+each have their own log ﬁ les, as listed in the columns to their right.

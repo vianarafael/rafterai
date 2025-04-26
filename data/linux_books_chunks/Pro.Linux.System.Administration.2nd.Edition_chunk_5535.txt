@@ -1,0 +1,7 @@
+We’ll work with a few of these directives later in this section.
+
+You’ve already seen how to specify Kickstart files to your provisioning environments, using Cobbler. 
+
+Let’s start by looking at some of the contents of a simple Kickstart file in Listing 19-4.
+
+Listing 19-4.

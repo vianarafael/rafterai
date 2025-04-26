@@ -1,0 +1,14 @@
+Run the --querytags option to be able to see all the 
+tags that are available:
+
+# rpm --querytags | less
+ARCH
+ARCHIVESIZE
+BASENAMES
+BUGURL
+...
+# rpm -q binutils --queryformat "The package is %{NAME} \
+     and the release is %{RELEASE}\n"
+The package is binutils and the release is 30.fc21
+
+All the queries you have done so far have been to the local RPM database.

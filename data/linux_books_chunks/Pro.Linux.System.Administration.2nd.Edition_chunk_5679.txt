@@ -1,0 +1,19 @@
+We 
+
+removed the README (and saved it to a file bucket; see https://docs.puppet.com/puppet/latest/man/
+filebucket.html) and started the Apache service.
+
+949
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We can now test that the Apache service is up and running with the following command:
+
+$ curl -I  http://localhost
+HTTP/1.1 200 OK
+Date: Wed, 21 Dec 2016 13:07:46 GMT
+Server: Apache/2.4.6 (CentOS)
+Connection: close
+Content-Type: text/html;charset=UTF-8
+
+Every subsequent run of the Puppet agent will make sure the node stays in its current configuration.

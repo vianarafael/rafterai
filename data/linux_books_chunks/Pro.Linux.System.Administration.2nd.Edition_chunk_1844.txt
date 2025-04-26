@@ -1,0 +1,12 @@
+Let’s look at a generic repository file:
+
+$ cat /etc/yum.repo.d/myrepo.repo
+[myrepo]
+name=myrepo
+baseurl=http://myrepo.mydomain.com/pub/linux/releases/$releasever/$basearch/os/enabled=1
+gpgcheck=1
+gpgkey=http://myrepo.mydomain.com/linux/RPM-GPG-KEY-linux
+
+Each of these options is explained in Table 8-2.
+
+Table 8-2.

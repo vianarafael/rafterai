@@ -1,0 +1,4 @@
+We will show you how to securely copy data 
+from a remote host, whether it is on your network or on the other side of the world. We will then introduce 
+you to the backup server Bareos and show you how to use it to save and restore your files. Also using Bareos, 
+we will demonstrate how to back up and restore a database.

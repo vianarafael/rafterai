@@ -1,0 +1,7 @@
+To make 
+sure you are properly separating access to those two types of services, you want to be able 
+to check what a malicious scanner can see of the services available on your public-facing 
+network interfaces.
+
+The idea here is to compare what your Linux server looks like from the inside versus what 
+it looks like from the outside.

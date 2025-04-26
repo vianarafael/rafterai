@@ -1,0 +1,2 @@
+Also, you 
+can restrict speciﬁ c entries in these ﬁ les so they apply only to speciﬁ c network services.

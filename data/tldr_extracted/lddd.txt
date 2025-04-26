@@ -1,0 +1,6 @@
+# lddd
+
+
+- Scan directories to find and list packages with broken library links that need to be rebuilt:
+
+`lddd`

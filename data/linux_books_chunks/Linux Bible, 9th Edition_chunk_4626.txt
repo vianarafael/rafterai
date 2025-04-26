@@ -1,0 +1,11 @@
+The example that follows shows the ausearch 
+command being used to review the logged AVC denial message.
+
+# ausearch -m avc
+type=AVC msg=audit(1411184014.986:69860): avc: denied { create } for
+  pid=21875 comm="vsftpd" name="services" 
+  scontext=system_u:system_r:ftpd_t:s0-s0:c0.c1023 
+  tcontext=system_u:object_r:user_home_t:s0 tclass=file
+
+The display provides information on who was attempting access, along with his security 
+context when attempting it.

@@ -1,0 +1,23 @@
+The output will look similar to the following and your system’s IP address 
+follows “inet addr:” in the ifconfig command’s output.
+
+B
+
+835
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 836
+
+Appendix B: Exercise Answers
+
+# ifconfig
+...
+p2p1  Link encap:Ethernet  HWaddr 08:00:27:E5:89:5A
+      inet addr:10.140.67.23
+
+b.

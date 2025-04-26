@@ -1,0 +1,5 @@
+Any setting within the Schedule overrides the setting here.
+
+The value for Level can be Full, Incremental, or Differential. The full backup takes a backup of 
+all files in the specified FileSet regardless of their backup history. The incremental backup will back up 
+files changed since the last full, differential, or incremental backup.

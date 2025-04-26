@@ -1,0 +1,12 @@
+These are useful 
+
+resources packed with information.
+
+•	
+
+Learn to use the vim editor (or another editor of your choice) to help you work with 
+configuration files on the command line.
+
+•	 Don’t forget online resources or the Linux community if you need help. Lots of 
+people use Linux, and someone may have found a solution to a problem you’re 
+having.

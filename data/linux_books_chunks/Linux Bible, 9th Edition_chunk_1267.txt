@@ -1,0 +1,7 @@
+However, keep in mind that often you need to use command line tools if you need to 
+troubleshoot problems, because graphical tools are often limited in that area.
+
+Using the root user account
+Every Linux system starts out with at least one administrative user account (the root user) 
+and possibly one or more regular user accounts (given a name that you choose, or a name 
+assigned by your Linux distribution).

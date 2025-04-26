@@ -1,0 +1,8 @@
+To do that, 
+
+we need to use the IAM service in AWS.
+
+ In general, the preferred way to attach a policy to a user is to not use an inline policy like we will do 
+
+ ■ Tip 
+here but to make a managed policy and attach that to the user or even a role.

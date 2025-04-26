@@ -1,0 +1,17 @@
+Let’s look at one of these commands, notify-by-email.
+
+889
+
+Chapter 18 ■ Logging and Monitoring
+
+define command{
+          command_name      host-notify-by-email
+           command_line    /usr/bin/printf "%b" "***** Nagios *****\n\nNotification Type: 
+$NOTIFICATIONTYPE$\nHost: $HOSTNAME$\nState: $HOSTSTATE$\nAddress: $HOSTADDRESS$\nInfo: 
+$HOSTOUTPUT$\n\nDate/Time: $LONGDATETIME$\n" | /usr/bin/mail -s "** $NOTIFICATIONTYPE$ Host 
+Alert: $HOSTNAME$ is $HOSTSTATE$ **" $CONTACTEMAIL$
+   }
+
+Like the previous command you saw, a name is provided with the command_name attribute, and the 
+
+actual command to be executed by the command_line attribute.

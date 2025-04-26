@@ -1,0 +1,6 @@
+# cgexec
+
+
+- Execute a process in a given cgroup with given controller:
+
+`cgexec -g {{controller}}:{{cgroup_name}} {{process_name}}`

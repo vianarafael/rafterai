@@ -1,0 +1,8 @@
+You can have more than one policy on a bucket. You use this page to review the settings; we are 
+just going to click the Create and Activate Rule button.
+
+Figure 14-7.  Reviewing the life cycle
+
+AWS User Policies
+We want to secure the S3 bucket we have created to allow only those AWS users with the right credentials to 
+access and upload to it.

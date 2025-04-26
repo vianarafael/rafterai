@@ -1,0 +1,15 @@
+Notice that aide tells you 
+where it is creating its initial “ﬁ rst picture” database.
+
+# aide -i
+AIDE, version 0.15.1
+
+### AIDE database at /var/lib/aide/aide.db.new.gz initialized.
+
+620
+
+c22.indd  04/15/2015  Page 621
+
+Chapter 22: Understanding Basic Linux Security 
+
+The next step is to move the initial “ﬁ rst picture” database to a new location.

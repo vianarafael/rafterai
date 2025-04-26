@@ -1,0 +1,4 @@
+When a new home directory is created (using the –m 
+option), then all the files contained in this directory are copied to the user’s new home directory.
+
+The –c option adds a description of our new user. This description is stored in the /etc/passwd file.

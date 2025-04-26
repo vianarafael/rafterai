@@ -1,0 +1,22 @@
+Sample /etc/auto.master
+
+/extra /etc/auto.extra
+
+/home /etc/auto.home
+
+37
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+ /extra                                    /home
+
+automount
+
+automount
+
+When autofs is started it will invoke an instance of /usr/sbin/automount for each mount 
+point defined in the master map /etc/auto.master.

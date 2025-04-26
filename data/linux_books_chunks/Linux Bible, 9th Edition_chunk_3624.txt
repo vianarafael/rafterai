@@ -1,0 +1,5 @@
+These are some of the issues:
+
+ ■ Remote root users—Even with the default root_squash (which prevents root 
+users from having root access to remote shares), the root user on any machine 
+to which you share NFS directories can gain access to any other user account.

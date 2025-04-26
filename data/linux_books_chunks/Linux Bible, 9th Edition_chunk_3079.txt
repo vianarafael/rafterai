@@ -1,0 +1,15 @@
+If you are 
+thinking of creating a secure (SSL) site and possibly generating some statistics about your 
+website, you can just install the entire group:
+
+453
+
+c17.indd  04/01/2015  Page 454
+
+Part IV: Becoming a Linux Server Administrator
+
+# yum groupinstall "Web Server"
+
+Assuming you have an Internet connection to the Fedora repository (or RHEL repository, 
+if you are using RHEL), all the mandatory and default packages from that group are 
+installed.

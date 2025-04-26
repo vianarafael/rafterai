@@ -1,0 +1,5 @@
+This practice effectively refreshes the list 
+of those who know the password.
+
+To keep users from changing their password to a new password and then immediately 
+changing it back, you need to set the PASS_MIN_DAYS to a number larger than 0.

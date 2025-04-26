@@ -1,0 +1,6 @@
+to install these modules, you can use something like r10k (https://docs.puppet.com/pe/
+latest/r10k.html) to help manage the installation of your modules.
+
+You can use the puppet module command to manage modules as well. the puppet module command 
+will create skeleton modules for you, search for existing modules from the puppet forge, install 
+modules, and manage the life cycle of modules for you.

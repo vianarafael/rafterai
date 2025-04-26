@@ -1,0 +1,2 @@
+The  file  is  called
+kernel-2.6.9-42.EL.src.rpm (example for RHELv4u4).

@@ -1,0 +1,16 @@
+Files Found in /etc/sysconfig/network-scripts
+
+$ sudo ls /etc/sysconfig/network-scripts/
+ifcfg-enp0s3 ifdown-ipv6  ifdown-ppp ifdown-tunnel
+ifup-ipv6 ifup-routes  ifup-wireless network-functions-ipv6
+ifcfg-lo ifdown-eth ifdown-routes ifup ifup-eth ifup-post
+init.ipv6-global ifdown ifdown-post ifup-aliases
+ifup-ppp ifup-tunnel  network-functions
+
+235
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+In Listing 7-3, you can see a reduced list of the scripts that are used to configure your interfaces and 
+
+bring them up or down.

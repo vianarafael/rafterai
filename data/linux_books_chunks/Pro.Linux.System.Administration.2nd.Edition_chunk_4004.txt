@@ -1,0 +1,2 @@
+S3 objects are made up of a unique key, data, and metadata and are 
+stored in a flat structure.

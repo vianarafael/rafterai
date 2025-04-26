@@ -1,0 +1,33 @@
+Consider the following example of yum install:
+
+10
+
+# yum install emacs
+...
+
+247
+
+c10.indd  04/01/2015  Page 248
+
+Part III: Becoming a Linux System Administrator
+
+ Package           Arch     Version            Repository       Size
+====================================================================
+Installing:
+ emacs             x86_64   1:24.4-3.fc21      updates         3.0 M
+Installing for dependencies:
+ ImageMagick-libs  x86_64   6.8.8.10-5.fc21    fedora          2.0 M
+ emacs-common      x86_64   1:24.4-3.fc21      updates          37 M
+ libXaw            x86_64   1.0.12-4.fc21      fedora          190 k
+ liblockfile       x86_64   1.08-16.fc21       updates          27 k
+ libotf            x86_64   0.9.13-5.fc21      fedora           96 k
+
+Transaction Summary
+====================================================================
+Install  1 Package (+5 Dependent packages)
+
+Total download size: 42 M
+Installed size: 109 MIs this ok [y/N]: y
+
+You can see here that emacs requires that emacs-common and several other packages 
+be installed so all are queued up for installation.

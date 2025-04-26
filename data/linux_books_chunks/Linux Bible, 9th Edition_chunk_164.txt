@@ -1,0 +1,4 @@
+This chapter starts you on a path to becoming a Linux expert by helping 
+you understand what Linux is, where it came from, and what your opportunities are for 
+ becoming proﬁ cient in it. The rest of this book provides you with hands-on activities to 
+help you gain that expertise.

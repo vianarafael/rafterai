@@ -1,0 +1,16 @@
+This allows paul to create new users on the system without
+becoming root and without knowing the root password.
+
+First the command fails for paul.
+
+paul@debian7:~$ /usr/sbin/useradd -m valentina
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+
+But with sudo it works.
+
+paul@debian7:~$ sudo /usr/sbin/useradd -m valentina
+[sudo] password for paul:
+paul@debian7:~$
+
+1.12.

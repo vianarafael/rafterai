@@ -1,0 +1,5 @@
+Once this is done, we store the fingerprint and are then prompted for our password.
+
+If you intend to manage Linux servers from Windows, we recommend you download a client like 
+PuTTY if you prefer a GUI; otherwise you can install and use the Git Bash terminal, like we showed you in 
+Chapter 3.

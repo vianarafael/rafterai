@@ -1,0 +1,6 @@
+Once we start it, we 
+can unlock one or more private keys and add them to the agent. SSH can then use the agent to provide a 
+private key and authenticate us to a remote host.
+
+The way to tell SSH about the agent is by setting two environment variables, SSH_AUTH_SOCK and SSH_
+AGENT_PID. If these are set, ssh can communicate with the agent.

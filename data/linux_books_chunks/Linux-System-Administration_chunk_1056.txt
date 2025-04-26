@@ -1,0 +1,10 @@
+Here are some examples.
+
+Using the tcpdump host $ip command displays all traffic with one host (192.168.1.38 in
+this example).
+
+root@ubuntu910:~# tcpdump host 192.168.1.38
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 96 bytes
+
+Capturing only ssh (tcp port 22) traffic can be done with tcpdump tcp port $port.

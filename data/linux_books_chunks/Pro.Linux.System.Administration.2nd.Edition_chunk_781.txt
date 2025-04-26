@@ -1,0 +1,6 @@
+The last field, 
+groups, is where the primary and any supplementary groups are displayed.
+
+You have two methods for adding your user to a group or groups. First, you can add the user to a group 
+
+or groups upon creation with the useradd command.

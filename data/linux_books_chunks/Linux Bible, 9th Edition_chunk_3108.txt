@@ -1,0 +1,5 @@
+Conﬁ guration is read from start to ﬁ nish, with most directives being processed in the 
+order in which they are read.
+
+Using directives
+The scope of many conﬁ guration directives can be altered based on context.

@@ -1,0 +1,10 @@
+It is called ufw and is available 
+from the ufw package.
+
+ ■ Tip 
+
+ we will talk more about installing packages in Chapter 8.
+
+ufw is completely different to Firewalld. Under the covers it uses straight iptables directives to create 
+
+firewall rules.

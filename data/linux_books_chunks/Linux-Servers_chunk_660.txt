@@ -1,0 +1,17 @@
+Instead,
+the Linux owner of the files created through this writable share is the Linux guest account
+(usually named nobody).
+
+[root@RHEL52 samba]# ls -l /srv/samba/writable/
+total 4
+-rwxr--r-- 1 nobody nobody 6 Jan 21 06:16 hoi.txt
+
+So this is not the cleanest solution. We will need to improve this.
+
+165
+
+a writable file server
+
+12.7. practice: writable file server
+
+1.

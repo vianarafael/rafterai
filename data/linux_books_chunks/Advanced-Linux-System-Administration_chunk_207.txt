@@ -1,0 +1,9 @@
+Rock Ridge supports the preservation 
+of Unix/Linux permissions and longer ASCII-coded names; Joliet supports names stored in Unicode, thus 
+allowing almost any character to be used, even from non-Latin scripts; El Torito enables CDs to be bootable.
+ISO 13490 is basically ISO 9660 with multisession support.
+
+*This article is licensed under the "http://www.gnu.org/copyleft/fdl.htm
+"http://en.wikipedia.org/wiki/ISO_9660" Wikipedia article "ISO_9660"
+
+ l  " GNU Free Documentation License.

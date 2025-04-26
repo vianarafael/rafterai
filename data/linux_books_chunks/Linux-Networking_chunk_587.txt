@@ -1,0 +1,12 @@
+IN      A
+
+;; ANSWER SECTION:
+debian7.paul.local.     86400   IN      A       10.104.33.30
+
+;; AUTHORITY SECTION:
+paul.local.             86400   IN      NS      ns1.paul.local.
+paul.local.             86400   IN      NS      debian7.paul.local.
+paul.local.             86400   IN      NS      debianpaul.paul.local.
+
+;; ADDITIONAL SECTION:
+ns1.paul.local.

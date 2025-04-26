@@ -1,0 +1,8 @@
+In this case, only 
+ emergency (0) messages are shown. To follow messages as they come in, use the -f option; 
+to show all ﬁ elds, use the -a option.
+
+Managing log messages with rsyslogd
+The rsyslogd facility, and its predecessor syslogd, gather log messages and direct 
+them to log ﬁ les or remote log hosts. Logging is done according to information in the 
+/etc/rsyslog.conf ﬁ le.

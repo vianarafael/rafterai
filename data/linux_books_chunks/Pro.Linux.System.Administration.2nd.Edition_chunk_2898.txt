@@ -1,0 +1,15 @@
+We are not going add the .htaccess 
+directive; we are going to add our authentication at the directory level in the virtual host config.
+
+    <Directory /var/www/html/www.example.com/uploads>
+        Options -Indexes -FollowSymLinks
+        AllowOverride None
+        AuthType Basic
+        AuthName "Restricted Uploads"
+        AuthBasicProvider file
+        AuthUserFile "/opt/apache/www.example.com/passwords"
+        Require valid-user
+</Directory>
+
+First, we specify the authentication type we want to use via the AuthType directive, which in our 
+case is basic.

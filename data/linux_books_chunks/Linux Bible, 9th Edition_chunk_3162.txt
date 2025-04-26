@@ -1,0 +1,5 @@
+If that works, 
+you can start adding other virtual hosts to the system as well.
+
+Another way to extend the use of your website is to allow multiple users to share their own 
+content on your server.

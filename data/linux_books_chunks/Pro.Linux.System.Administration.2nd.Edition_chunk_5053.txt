@@ -1,0 +1,9 @@
+--
+Nov 28 23:27:11 backup systemd[1]: Starting The Apache HTTP Server...
+Nov 28 23:27:11 backup systemd[1]: Started The Apache HTTP Server.
+
+Here you can see the output of the Apache service as it starts up.
+
+Securing Journald with FSS
+
+We said earlier that we can detect whether journal logs have been tampered with.

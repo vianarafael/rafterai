@@ -1,0 +1,4 @@
+it will 
+log access violations to the audit log, usually /var/log/audit/audit.log. From there you can use 
+the audit2allow command to create new target entry files and policy packages. the target entry files 
+(usually ending in .te) explain the policy in plain text.

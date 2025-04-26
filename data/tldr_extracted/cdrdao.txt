@@ -1,0 +1,6 @@
+# cdrdao
+
+
+- Read a CD and write its contents to a file:
+
+`cdrdao read-cd --device {{/dev/cdrom}} --read-raw {{image.toc}}`

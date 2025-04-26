@@ -1,0 +1,2 @@
+Once the menu is displayed, you will be presented with a list of boot options, and 
+you can use the up and down arrows on your keyboard to choose the kernel you wish to boot.

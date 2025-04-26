@@ -1,0 +1,4 @@
+When it detected 
+
+sda, it also found the partitions sda1, sda2, and sda5. The angle brackets around partition sda5 (<sda5>) 
+indicate this is a logical partition.

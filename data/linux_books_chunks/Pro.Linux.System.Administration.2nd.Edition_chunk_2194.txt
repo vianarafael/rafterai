@@ -1,0 +1,8 @@
+We will show you a few of the features of the 
+utility: the first is how to resize the filesystem. We are going to decrease our filesystem by 2 GiB and then add 
+it back again.
+
+$ sudo btrfs filesystem resize -2G /data1
+Resize '/data1' of '-2G'
+
+One of the subcommands of the Btrfs utility is filesystem.

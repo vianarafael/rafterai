@@ -1,0 +1,5 @@
+Several tools
+exists, hdparm and sdparm are two of them.
+
+hdparm can be used to display or set information and parameters about an ATA (or SATA)
+hard  disk  device.

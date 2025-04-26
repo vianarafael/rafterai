@@ -1,0 +1,11 @@
+The -p option will prompt us for the 
+associated password.
+
+491
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-2.  Signing in to MariaDB
+
+We are able to connect and run a query; the MariaDB server is working fine. Note that the version string 
+that is returned on your host may differ, depending on which MariaDB server version is installed.

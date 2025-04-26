@@ -1,0 +1,3 @@
+First is to 
+
+build the binary only. The second is to build the source and and binary.

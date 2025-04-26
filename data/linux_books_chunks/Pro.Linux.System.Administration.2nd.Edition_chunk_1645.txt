@@ -1,0 +1,4 @@
+We are using the shortened syntax for --destination (-d) and using the anywhere IP notation 
+of 0.0.0.0/0 to show that this rule should match all IPv4 addresses on our local host. Likewise for --source 
+(-s) we accept all source addresses for this rule (0.0.0.0/0). Lastly we provide the target for this rule (-j) 
+which is to jump to the ACCEPT target.

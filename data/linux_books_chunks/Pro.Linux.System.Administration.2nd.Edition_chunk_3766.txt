@@ -1,0 +1,7 @@
+To make these settings active, you need to run the following command:
+
+$ sudo exportfs –a
+
+The previous command will export or unexport all listed directories in /etc/exports. You can also 
+
+use exportfs –rv, which will also update exported directories and remove unexported directories.

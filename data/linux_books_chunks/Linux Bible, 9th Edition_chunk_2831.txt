@@ -1,0 +1,6 @@
+Therefore, just change the default runlevel as you would on a SysVinit system.
+
+Ubuntu’s Upstart init daemon uses the /etc/init/rc-sysinit.conf ﬁ le to set the 
+default runlevel, a portion of which is shown in the code that follows. The code line to 
+change is env DEFAULT_RUNLEVEL=. Simply edit this ﬁ le and change that number to the 
+runlevel you desire.

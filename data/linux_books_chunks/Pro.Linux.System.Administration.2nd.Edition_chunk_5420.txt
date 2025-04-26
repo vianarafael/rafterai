@@ -1,0 +1,4 @@
+to ensure better protection of your 
+nagios console, you should consider enabling SSL for it.
+
+Let’s look inside our Nagios Apache configuration for the location of our password file.

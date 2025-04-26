@@ -1,0 +1,11 @@
+What needs to be done to give internet access
+to leftnet and rightnet.
+
+The clients on leftnet and rightnet need a working dns server. We use one of Google's
+dns servers here.
+
+echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+84
+
+Chapter 11.

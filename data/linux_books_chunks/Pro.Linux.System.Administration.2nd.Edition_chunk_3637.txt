@@ -1,0 +1,6 @@
+It is based on the Common Internet Filesystem (CIFS) 
+and Server Message Block (SMB) protocols, the protocols that handle interhost communications of the 
+filesystem on Microsoft products, making Samba compatible with Microsoft Windows desktop clients and 
+Microsoft Windows domain services.
+
+There are currently two supported versions of Samba, version 3.x and version 4.x.

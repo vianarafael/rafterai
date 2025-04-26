@@ -1,0 +1,9 @@
+Also in Figure 13-2, you see that the bconsole program 
+configuration file requires the name of the Director and the password for that Director before it will establish 
+a connection.
+
+Let’s start with the main file, the Director, at /etc/bareos/bareos-dir.conf.
+
+bareos-dir.conf
+
+The Director configuration file is the main file used by Bareos.

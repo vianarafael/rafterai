@@ -1,0 +1,7 @@
+Adding e-mail address to Certbot
+
+This process creates a series of files in the /etc/letsencrypt/accounts directory for the staging 
+API. When we first run certbot, we provide an e-mail address for correspondence about our certificates 
+(Figure 11-16).
+
+Figure 11-16.

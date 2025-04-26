@@ -1,0 +1,9 @@
+Keep in mind that the solutions shown in Appendix B are usually 
+just one of multiple ways to complete a task.
+
+Although the example shown in this chapter for setting up hypervisors uses three physical 
+machines, these exercises can be done on a single physical machine.
+
+1.  Check your computer to see if it can support KVM virtualization.
+
+2.

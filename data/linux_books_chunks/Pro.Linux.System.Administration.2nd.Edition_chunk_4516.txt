@@ -1,0 +1,11 @@
+To set Loglevel, you can also 
+list the hexadecimal numbers on one line to achieve the same result; in this case, we would set the log level 
+to Loglevel 0x20 0x40 0x80 0x100.
+
+745
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Modifying the LogLevel Configuration with ldapmodify
+
+Let’s modify LogLevel to our wanted level. To do that we will use the ldapmodify command.

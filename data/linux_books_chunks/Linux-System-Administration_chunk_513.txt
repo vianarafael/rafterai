@@ -1,0 +1,10 @@
+lvscan
+
+The lvscan command will scan all disks for existing Logical Volumes.
+
+[root@RHEL5 ~]# lvscan
+  ACTIVE            '/dev/VolGroup00/LogVol00' [14.88 GB] inherit
+  ACTIVE            '/dev/VolGroup00/LogVol01' [1.00 GB] inherit
+[root@RHEL5 ~]#
+
+11.10.3.

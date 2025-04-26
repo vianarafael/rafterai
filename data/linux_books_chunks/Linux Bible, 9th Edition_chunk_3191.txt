@@ -1,0 +1,11 @@
+The level of log 
+messages is set to warn and the SSLEngine is turned on.
+
+467
+
+c17.indd  04/01/2015  Page 468
+
+Part IV: Becoming a Linux Server Administrator
+
+In the preceding sample code, two entries associated with SSL Certiﬁ cates in the 
+VirtualHost block identify the key and certiﬁ cate information.

@@ -1,0 +1,9 @@
+We can now begin to add that into Elasticsearch.
+
+870
+
+Chapter 18 ■ Logging and Monitoring
+
+Elasticsearch for Log Stashing
+We have our logs being shipped from our Filebeat, we have the logs going into our Logstash service, and 
+we are transforming some of our logs to be more discoverable after we store them.

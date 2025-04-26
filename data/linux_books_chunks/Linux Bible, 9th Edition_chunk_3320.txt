@@ -1,0 +1,27 @@
+To turn it on 
+permanently, type this:
+
+# setsebool -P ftp_home_dir on
+
+18
+
+ ■ For SELinux to allow anonymous users to read and write ﬁ les and directories, you 
+
+need to turn on the allow_ftpd_anon_write Boolean:
+
+# setsebool -P allow_ftpd_anon_write on
+
+ ■ To be able to mount remote NFS or CIFS (Windows) shared ﬁ lesystems and share 
+them from your vsftpd server, you need to turn on the following two Booleans, 
+respectively:
+
+# setsebool -P allow_ftpd_use_nfs on
+# setsebool -P allow_ftpd_use_cifs on
+
+If you ever ﬁ nd that you cannot access ﬁ les or directories from your FTP server that you 
+believe should be accessible, try turning off SELinux temporarily:
+
+# setenforce 0
+
+If you can access the ﬁ les or directories with SELinux now in Permissive mode, put the 
+system back in Enforcing mode (setenforce 1).

@@ -1,0 +1,22 @@
+Instead of the --list option, the --level option is used, as shown in the 
+ following code:
+
+# chkconfig --level 3 cups on
+# chkconfig --list cups
+cups            0:off  1:off  2:off  3:on   4:off  5:off  6:off
+# ls /etc/rc.d/rc3.d/S*cups
+/etc/rc.d/rc3.d/S56cups
+
+The service’s persistence at runlevel 3 is veriﬁ ed by both using the chkconfig --list 
+command and looking at the rc3.d directory for any ﬁ les starting with the letter S.
+
+To make a service persistent on more than one runlevel, you can do the following:
+
+# chkconfig --level 2345 cups on
+# chkconfig --list cups
+cups            0:off  1:off  2:on   3:on   4:on   5:on   6:off
+# ls /etc/rc.d/rc?.d/S*cups
+/etc/rc.d/rc2.d/S56cups  /etc/rc.d/rc4.d/S56cups
+/etc/rc.d/rc3.d/S56cups  /etc/rc.d/rc5.d/S56cups
+
+Disabling a service is just as easy as enabling one with SysVinit.

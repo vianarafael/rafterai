@@ -1,0 +1,11 @@
+After setting the variable BIGNUM value to 1024, 
+
+158
+
+c07.indd  04/01/2015  Page 159
+
+Chapter 7: Writing Simple Shell Scripts
+
+the three commands that follow would all store the value 64 in the RESULT variable. 
+The bc command is a calculator application that is available in most Linux distribu-
+tions.

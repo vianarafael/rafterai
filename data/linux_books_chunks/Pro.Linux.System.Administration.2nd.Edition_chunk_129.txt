@@ -1,0 +1,10 @@
+We’ll talk about LVM and Btrfs in more detail 
+in Chapter 9.
+
+21
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+If you had any special requirements, you could alter this default structure and create new partitions, or 
+
+you could delete everything and start again using the installer’s partition manager.

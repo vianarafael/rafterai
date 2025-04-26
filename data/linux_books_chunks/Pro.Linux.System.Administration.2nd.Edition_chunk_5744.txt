@@ -1,0 +1,15 @@
+Other things like SSH 
+options that you want to use as defaults can also go in there.
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+inventory     = /etc/ansible/hosts
+library       = /usr/share/my_modules/
+roles_path    = /etc/ansible/roles
+log_path      = /var/log/ansible.log
+fact_caching  = memory
+ssh_args       = -o ControlMaster=auto -o ControlPersist=60s -o  
+
+ProxyCommand="ssh  -W %h:%p -q jumphost"
+
+Here you can see a small subset of things you may want to change or add to.

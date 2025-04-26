@@ -1,0 +1,7 @@
+For more information, read the man page 
+
+for sshd.
+
+Let’s use this information to create an authorized_keys file that we will send to our remote host. 
+First, we’ll copy the existing exbackup.pub key to a file called remote_authorized_keys. This creates a 
+file containing the public key for the exbackup user.

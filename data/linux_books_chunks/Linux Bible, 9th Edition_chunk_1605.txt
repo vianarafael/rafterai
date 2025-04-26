@@ -1,0 +1,6 @@
+One reason for partitioning an operating system is to keep 
+the entire system from running out of disk space at once. That also serves to put 
+boundaries on what an individual can use up in his or her home directory (although 
+disk quotas provide a more reﬁ ned way of limiting disk use).
+
+ ■ Do you have multiple hard disks? You need at least one partition per hard disk.

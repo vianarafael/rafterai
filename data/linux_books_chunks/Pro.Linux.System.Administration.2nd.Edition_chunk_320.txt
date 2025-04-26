@@ -1,0 +1,6 @@
+git changed that to be 
+distributed so that you no longer had to rely on the “one” server to be available for all your teams to commit 
+into. this greatly helped distributed teams to be able to make changes on very complex systems like the linux 
+kernel and became a great way to collaborate on, and share, code and projects.
+
+Downloading Git is very painless.

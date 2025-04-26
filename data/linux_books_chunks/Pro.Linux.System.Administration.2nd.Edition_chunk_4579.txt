@@ -1,0 +1,5 @@
+For example, read access 
+automatically grants the preceding disclose, auth, compare, and search access levels, including read access 
+rights. Table 16-3 lists the access levels you can assign to a request for access to an entity.
+
+Table 16-3.

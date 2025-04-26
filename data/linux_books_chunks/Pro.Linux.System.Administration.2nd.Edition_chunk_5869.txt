@@ -1,0 +1,153 @@
+See Metal As A Service (MAAS)
+Mac OS X, 611–613
+Magnetic tapes, 637
+Mailbox, 539, 541–543
+Mail delivery agents (MDAs), 541, 544, 566
+Maildir, 541, 543
+Maildrop package, 543
+Mail filters, 541, 544
+Mail transfer agents (MTAs), 530–531
+Maintenance mode, 186–188
+
+■ INDEXMakefile, 352–353
+man command, 112–113
+Mandatory Access Control (MAC), 576
+Manifests, 941, 943
+Man-made disaster, 635
+MariaDB, 668
+
+administration, 496
+databases, 496–497
+to MySQL versions, 489
+storage engines, 492–493
+
+Master boot record (MBR), 69, 183, 359–360
+Maximum transmission unit (MTU), 224
+Mbox, 539, 541
+MediaWiki, 518
+Memory, 76, 800–803, 805–806
+Messaging directory, 682–683
+Metal As A Service (MAAS), 54
+Meta users, 759
+Microsoft Windows
+Linux vs., 102
+
+command line, 104–105, 107–108
+GUI desktop, 103
+shells, 106
+type commands, 108–109
+
+services, 114
+
+Mirroring, 387
+Mobile VPN
+
+clients, 721–722
+configuring, 720–721
+routing, 728, 730
+
+Modprobe, 239
+Moodle, 518
+Mozilla Thunderbird, 588–590
+Multiple selectors, 854
+Multiprocessing modules (MPMs), 473
+Multiuser mode, 200
+Multiuser operating system, 114
+MX record, 529, 537, 564, 581
+mydb database, 499
+
+ N
+Nagios
+
+alias attribute, 884
+Apache basic authentication, 902
+authenticated contacts, 903
+authenticated users, 903
+authorization directives, 904
+CentOS, 879
+check_by_ssh plug-in, 895, 897
+check_command, 886
+console, 901, 903, 905
+contact groups, 889–891
+-core, 877
+debug, 899
+
+functions, 878
+hosts detail screen, 906
+host templates, 885
+htpasswd command, 902
+ICMP, 892
+logs, 899
+macro, 887, 890
+nagios.cfg, 881–883
+notification period, 888
+plug-ins, 878, 900
+plug-in status conversions, 888
+process information screen, 908
+remote hosts, 895
+service detail screen, 907
+ssh command, 897
+systemctl command, 881
+Tactical Monitoring Overview screen, 905
+template, 884
+time periods, 886
+troubleshoot, 908
+Ubuntu, 879–881
+
+Name-based virtual hosts, 476
+Netcat (nc), 537–538
+NetBIOS, 602
+Netfilter, 217
+Net installer, 53
+Network address translation (NAT), 267–268
+Network File System (NFS), 595–596
+
+linux to linux, 614–616
+troubleshoot, 616
+Network mount, 614
+Networks
+
+architecture, 219
+backups, 639–640
+configuration
+
+bonded interfaces, 237–241
+CentOS, 235–237
+multiple IP addresses, 241–242
+Ubuntu, 242–245
+IP Addressing, 220–222
+SaaS, 218
+subnetting, 220–222
+TCP/IP, 247–249
+TCP Wrappers, 287–288
+Network Time Protocol (NTP)
+
+access control, 421
+configuration, 420
+cron method, 419
+driftfile directive, 420
+filegen directive, 420
+loopstats, 420
+ntpdate, 419
+pool, 422–424
+strata, 419
+system clock, 419
+
+991
+
+■ INDEXNetwork Time service, 32–33
+newaliases command, 559
+Nginx, 474, 823–824
+Nis schema, 750
+nmcli, 232–234
+nmtui, 229–231
+Noninteractive mode, 331–332
+Noop scheduler, 836
+NRPE, 895
+NSCA, 895
+
+ O
+Object classes, 736
+Object identifier (OID), 751–752
+Octal notation, 126–127, 129
+OEM.

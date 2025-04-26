@@ -1,0 +1,4 @@
+In your 
+
+system provisioning process you can install the operating system with Cobbler, or different provisioning 
+system, and then use Ansible or Puppet to apply the tested configuration as part of that process.

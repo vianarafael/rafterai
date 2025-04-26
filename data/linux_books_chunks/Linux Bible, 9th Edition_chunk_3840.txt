@@ -1,0 +1,6 @@
+For example, as root, you might type init 0 to shutdown, init 3 if 
+you want to kill the graphical interface (from runlevel 5) but leave all other services up, or 
+init 6 to reboot.
+
+Normal default runlevels (in other words, the runlevel you boot to) are 3 (for a server) and 
+5 (for a desktop).

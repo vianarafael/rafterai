@@ -1,0 +1,4 @@
+In Listing 12-3, both services are started with the command 
+smtpd, but the submission service has several options passed to the command. These are the same options 
+available in the main.cf configuration file, which allows us to configure a particular service in a way that 
+varies from our main configuration.

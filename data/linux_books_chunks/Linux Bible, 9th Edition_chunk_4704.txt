@@ -1,0 +1,2 @@
+For the purposes of building a network services list, the example nmap scans are conducted 
+on a Fedora system.

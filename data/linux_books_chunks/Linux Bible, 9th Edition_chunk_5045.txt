@@ -1,0 +1,9 @@
+However, the experience would be similar on any 
+OpenStack environment. The next section shows you how to start conﬁ guring your 
+network.
+
+Configuring your OpenStack virtual network
+
+1.  Log in to OpenStack. Using the username and password assigned to you by 
+the OpenStack administrator, log in to the OpenStack Dashboard from your 
+web browser.

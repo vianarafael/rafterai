@@ -1,0 +1,5 @@
+You can read more about the differences at www.internetsociety.org/deploy360/
+resources/dnssec-nsec-vs-nsec3/.
+
+ ■ Tip  the next couple of steps will require a good amount of system entropy to create good-quality 
+encryption keys. You should install haveged which is a daemon that will provide an additional source of entropy.

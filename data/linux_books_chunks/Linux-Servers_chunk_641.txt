@@ -1,0 +1,11 @@
+restart the server
+
+After testing with testparm, restart the samba server (so you don't have to wait).
+
+[root@RHEL4b readonly]# service smb restart
+Shutting down SMB services:                                [  OK  ]
+Shutting down NMB services:                                [  OK  ]
+Starting SMB services:                                     [  OK  ]
+Starting NMB services:                                     [  OK  ]
+
+11.4.

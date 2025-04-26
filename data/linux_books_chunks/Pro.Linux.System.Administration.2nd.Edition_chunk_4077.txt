@@ -1,0 +1,5 @@
+It has a configuration file that contains the details that control the running of the Director daemon 
+itself, as well as the Storage daemon and the File daemon that run on the target host.
+
+The Storage daemon communicates with the Director daemon and the File daemon running on the 
+target host and controls the access to the devices where your data will be stored, either on disk or on tape.

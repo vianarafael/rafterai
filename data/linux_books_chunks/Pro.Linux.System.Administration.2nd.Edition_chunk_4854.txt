@@ -1,0 +1,5 @@
+This means it will yield more easily to other processes, 
+allowing them to use some of the CPU cycles that were assigned to it. You can change process niceness by 
+pressing the R key. top will ask you for the process ID and then the new niceness value.
+
+Unless you run top as root or via sudo, you can only make processes nicer.

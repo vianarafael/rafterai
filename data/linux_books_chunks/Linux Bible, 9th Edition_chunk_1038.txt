@@ -1,0 +1,7 @@
+Each process stores its information in a subdirectory of /proc, named after the process 
+ID of that process. You can view some of that raw data by displaying the contents of fi les in one of those directories 
+(using cat or less commands).
+
+Listing Processes
+From the command line, the ps command is the oldest and most common command for  listing 
+processes currently running on your system.

@@ -1,0 +1,7 @@
+This means the STARTTLS command needs to have been issued with an encrypted 
+connection created between the client and server.
+
+The last option, smtpd_recipient_restrictions, is one of Postfix’s restriction lists. It tells Postfix what 
+
+to allow or deny when the RCPT TO command is issued, for example, when an e-mail is received from a 
+client.

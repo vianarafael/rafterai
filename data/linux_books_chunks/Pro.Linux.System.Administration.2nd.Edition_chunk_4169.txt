@@ -1,0 +1,5 @@
+Each has the Pool 
+Type of Backup, which is currently the only available type, according to the Bareos documentation. We have 
+set two different Maximum Volume Bytes, one at 50GB, 10GB, and one at 1GB. This will roll over the volume 
+to the next available volume (or Bareos will create a new volume for us) when the volumes reach those size 
+limits.

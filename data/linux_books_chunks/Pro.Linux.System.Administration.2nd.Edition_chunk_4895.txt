@@ -1,0 +1,3 @@
+We are covering the 
+basics of cpu, df, disk, interface, load, memory, and swap. These should be fairly self-explanatory to you by 
+now. The mysql plug-in will be used to collect some InnoDB statistics from our MariaDB database.

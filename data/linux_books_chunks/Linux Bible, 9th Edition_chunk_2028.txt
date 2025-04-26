@@ -1,0 +1,33 @@
+What could you do to make sure ad m gets execute permission as well? )
+
+282
+
+ 
+ 
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 283
+
+Managing Disks and Filesystems
+
+C H A P T E R 
+
+12
+
+IN THIS CHAPTER
+
+Creating disk partitions
+
+Creating logical volumes with LVM 
+
+Adding fi lesystems
+
+Mounting fi lesystems
+
+Unmounting fi lesystems
+
+Y our operating system, applications, and data all need to be kept on some kind of perma-
+
+nent storage so that when you turn off your computer, it is all still there when the computer 
+is turned on again.

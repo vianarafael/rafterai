@@ -1,0 +1,5 @@
+Additionally, 
+the process of installing and updating applications (which are usually installed by a package) is not 
+consistent across distributions. Many distributions use different application installation and management 
+tools (generally called package management tools). This can be confusing and can make administration 
+difficult if you have an environment with differing distributions.

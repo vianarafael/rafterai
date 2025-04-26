@@ -1,0 +1,13 @@
+We can change 
+
+other defaults for the job as we require, like schedules or storage. Lastly we need to change the job for the 
+database server.
+
+Job {
+  Name = headoffice.example.com
+  Client = headoffice-fd
+  Enabled = yes
+  JobDefs = "DBLinux"
+}
+
+We need to reload or restart the Director service before this becomes active.

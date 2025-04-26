@@ -1,0 +1,3 @@
+Your environment can quickly get complicated and difficult to manage if you don’t take steps to control 
+and automate it. Configuration management allows you to centralize your configuration, document it, and 
+automate it.

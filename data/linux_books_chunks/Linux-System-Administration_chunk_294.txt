@@ -1,0 +1,17 @@
+Verify that you can see the disk devices in /dev.
+
+6. Use fdisk (with grep and /dev/null) to display the total size of the new disks.
+
+7. Use badblocks to completely erase one of the smaller hard disks.
+
+8. Look at /proc/scsi/scsi.
+
+9. If possible, install lsscsi, lshw and use them to list the disks.
+
+42
+
+disk devices
+
+4.7. solution: hard disk devices
+
+1.

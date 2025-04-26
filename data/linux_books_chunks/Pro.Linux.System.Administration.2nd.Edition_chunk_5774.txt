@@ -1,0 +1,7 @@
+In this way, you can build complex deployment playbooks.
+
+Playbooks are YAML files. We have spoken previously about YAML files. YAML files are a markup 
+
+language for data serialization that lets us describe key/values including lists and associative arrays. 
+Playbooks can describe tasks to run on a collection of hosts or include other playbooks as well as Ansible 
+roles.

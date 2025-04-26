@@ -1,0 +1,5 @@
+We’ve chosen to install the nmap package (which, as mentioned 
+previously, is a useful network-mapping and scanning tool). We will use the search option to see if the 
+package is available, as you can see in Listing 8-1.
+
+Listing 8-1.

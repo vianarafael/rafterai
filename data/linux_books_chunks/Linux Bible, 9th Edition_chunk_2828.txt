@@ -1,0 +1,17 @@
+A portion of this ﬁ le is shown here:
+
+# cat /etc/inittab
+#
+# inittab       This file describes how the INIT process should
+#               set up the system in a certain run-level.
+...
+id:5:initdefault:
+...
+
+412
+
+c15.indd  04/01/2015  Page 413
+
+Chapter 15: Starting and Stopping Services
+
+The initdefault line in the example shows that the current default runlevel is runlevel 5.

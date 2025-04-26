@@ -1,0 +1,16 @@
+Figure 15-1 shows that 
+network again.
+
+701
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D. Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_15Chapter 15 ■ NetworkiNg with VpNs
+
+Figure 15-1.  Our example network
+
+Currently in our example network we have a head office with two main hosts:
+
+•	
+
+•	
+
+gateway.example.com: Our bastion host.

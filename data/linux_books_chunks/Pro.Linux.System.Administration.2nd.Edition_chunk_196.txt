@@ -1,0 +1,5 @@
+Selecting User Creation
+
+You will notice in Figure 2-27 that as we type in the Full Name the suggested user name is created. You 
+can change this to anything you wish but be sensible, you may have to remember who this user is at a later 
+date. In this example we are going to make this person an administrator.

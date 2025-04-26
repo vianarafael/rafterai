@@ -1,0 +1,23 @@
+done
+test_sync.txt
+
+sent 48 bytes received 213 bytes 174.00 bytes/sec
+total size is 77 speedup is 0.30
+
+When we use the cat command on the /tmp/test_sync.txt file, on our localhost you will notice that it 
+
+contains the new changes to the file.
+
+$ cat /tmp/test_sync.txt
+fldjfsl
+...
+<snip>
+...
+fsa
+23433
+ldjas
+dfald
+asd
+12344556
+
+So, we can securely sync a file from a remote host without needing to use a password.

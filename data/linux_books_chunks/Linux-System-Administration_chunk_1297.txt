@@ -1,0 +1,9 @@
+The first example creates a one MEBIbyte file,
+the second a one MEGAbyte file.
+
+dd if=/dev/zero of=file1MB count=1024 bs=1024
+dd if=/dev/zero of=file1MB count=1000 bs=1024
+
+30.7.8. CDROM server example
+
+And there are of course endless combinations with ssh and bzip2.

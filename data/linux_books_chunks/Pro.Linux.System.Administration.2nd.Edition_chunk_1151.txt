@@ -1,0 +1,8 @@
+These 
+map to the runlevels that we have talked about previously. In this script we are told that Postfix should start 
+in runlevels 2 3 4 and 5. We should not be running in runlevels 0 1 and 6.
+
+ Older operating systems like CentOS 5 used the pre-LSB standard for writing init.d scripts. these 
+
+ ■ Note 
+were superseded and replaced with the LSB standard.

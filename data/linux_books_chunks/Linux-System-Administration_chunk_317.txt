@@ -1,0 +1,6 @@
+After that, of course, the previous
+content won't be recoverable.
+
+Warning: invalid flag 0x0000 of partition table 4 will be corrected...
+
+5.3.3.

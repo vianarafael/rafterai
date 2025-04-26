@@ -1,0 +1,22 @@
+These commands need root privileges in order to work.
+
+TABLE 13.2    Commands to Start sshd
+
+Distribution
+
+RHEL 6
+
+Fedora and RHEL 7
+
+Ubuntu
+
+Command to Start sshd
+
+service sshd start
+
+systemctl start sshd.service
+
+service ssh start
+
+The commands in Table 13.2 only start the ssh or sshd service. They do not conﬁ gure it to 
+start automatically at boot.

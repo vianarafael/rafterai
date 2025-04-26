@@ -1,0 +1,9 @@
+The
+rest of the permissions have no influence on your access to the file.
+
+When you belong to the group that is the group owner of a file, then the group owner
+permissions apply to you. The rest of the permissions have no influence on your access to
+the file.
+
+When you are not the user owner of a file and you do not belong to the group owner, then
+the others permissions apply to you.

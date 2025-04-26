@@ -1,0 +1,9 @@
+We’ll set up this file shortly.
+
+Now, after changing these files, you need to run the following command:
+
+$ sudo cobbler sync
+
+ ■ Caution 
+ if you have an existing DhCp server, this template will overwrite its configuration by overwriting 
+the /etc/dhcpd.conf configuration file.

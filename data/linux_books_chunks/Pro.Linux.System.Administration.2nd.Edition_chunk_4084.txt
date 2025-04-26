@@ -1,0 +1,3 @@
+These 
+volumes can be grouped into pools and given common definitions concerning retention periods, usage, and 
+rotation.

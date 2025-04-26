@@ -1,0 +1,8 @@
+This is how the hosts entry in the /etc/resolv.conf ﬁ le 
+appears in Red Hat Enterprise Linux:
+
+hosts:      files dns
+
+You can add other locations, such as Network Information Service (nis or nisplus) 
+ databases, for querying hostname to IP address resolution. You can also change the order in 
+which the different services are queried.

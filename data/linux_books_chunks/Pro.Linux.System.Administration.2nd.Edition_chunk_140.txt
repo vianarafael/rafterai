@@ -1,0 +1,8 @@
+The 
+main thing is to be descriptive rather than naming your host “Katy” or “Thor.”
+
+ ■ Note  You can choose any naming standard you like that suits your environment. Our preference is for a 
+descriptive naming convention.
+
+If we were to assign our own IP address to this server we would take the following extra steps. There 
+are generally two ways to assign an IP address on your network.

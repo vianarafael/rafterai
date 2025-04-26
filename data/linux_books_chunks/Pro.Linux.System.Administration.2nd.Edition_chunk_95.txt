@@ -1,0 +1,7 @@
+The CentOS 7 installation splash screen
+
+From the splash screen you can initiate the installation via a graphical interface. If we don’t select 
+
+anything the automatic boot will begin the install process. Just press Enter here to begin the install.
+
+Pressing the Tab key will give you access to the boot command line.

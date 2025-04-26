@@ -1,0 +1,15 @@
+To help you find out, the lsof command lists open 
+files and directories:
+
+$ sudo lsof /mnt/data
+COMMAND     PID     USER      FD     TYPE   DEVICE  SIZE/OFF   NODE     NAME
+bash        2750    jsmith    cwd    DIR      8,18      4096      2     /mnt/data
+sudo        3999    root      cwd    DIR      8,18      4096      2     /mnt/data
+lsof        4000    root      cwd    DIR      8,18      4096      2     /mnt/data
+lsof        4001    root      cwd    DIR      8,18      4096      2     /mnt/data
+
+380
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Apart from lsof itself, there is a bash process owned by the user jsmith.

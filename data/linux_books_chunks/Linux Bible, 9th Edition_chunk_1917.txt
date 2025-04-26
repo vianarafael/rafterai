@@ -1,0 +1,3 @@
+In the second 
+example, supplementary groups are added for the user chris. The -a option (-Ga) makes 
+sure that the supplementary groups are added to any existing groups for the user chris.

@@ -1,0 +1,10 @@
+Let’s look in the /etc/fstab ﬁ le to see how 
+these logical volumes are used:
+
+# grep vg_ /etc/fstab
+/dev/mapper/vg_abc-lv_root /      ext4  defaults    1 1
+/dev/mapper/vg_abc-lv_home /home  ext4  defaults    1 2
+/dev/mapper/vg_abc-lv_swap swap   swap  defaults    0 0
+
+Figure 12.1 illustrates how the different partitions, volume groups, and logical volumes 
+relate to the complete Linux ﬁ lesystem.

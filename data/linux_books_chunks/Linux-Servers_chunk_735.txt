@@ -1,0 +1,21 @@
+getent
+
+We  can  use  getent  to  verify  that  winbindd  is  working  and  actually  adding  the  Active
+directory users to /etc/passwd.
+
+191
+
+  
+  
+  
+  
+samba domain member
+
+[root@RHEL52 ~]# getent passwd harry
+harry:*:20000:20008:harry potter:/home/BATMAN/harry:/bin/false
+[root@RHEL52 ~]# getent passwd arthur
+arthur:*:20001:20008:arthur dent:/home/BATMAN/arthur:/bin/false
+[root@RHEL52 ~]# getent passwd bilbo
+bilbo:*:20002:20008:bilbo baggins:/home/BATMAN/bilbo:/bin/false
+
+If  the  user  already  exists  locally,  then  the  local  user  account  is  shown.

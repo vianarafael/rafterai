@@ -1,0 +1,6 @@
+You should also review your PAM “other” conﬁ guration ﬁ le on your Linux system 
+to ensure that it enforces Implicit Deny.
+
+Managing PAM system event configuration files
+Similar to PAM-aware application and utility conﬁ guration ﬁ les, your PAM system event 
+ conﬁ guration ﬁ les need to be audited with your organization’s Access Control Matrix.

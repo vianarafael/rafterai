@@ -1,0 +1,58 @@
+To add a 100MB Linux partition, 200MB swap partition, and 500MB LVM partition to 
+
+the USB ﬂ ash drive, type the following:
+
+# fdisk /dev/sdb
+
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 1
+First sector (2048-15667199, default 2048):  <ENTER>
+Last sector, +sectors or +size{K,M,G} (default 15667199): +100M
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 2
+First sector (616448-8342527, default 616448):  <ENTER>
+Last sector, +sectors or +size{K,M,G} (default 15667199): +200M
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 3
+First sector (616448-15667199, default 616448):  <ENTER>
+Using default value 616448
+Last sector, +sectors or +size{K,M,G} (default 15667199): +500M
+Command (m for help): t
+Partition number (1-4): 2
+Hex code (type L to list codes): 82
+Changed system type of partition 2 to 82 (Linux swap / Solaris)
+Command (m for help): t
+Partition number (1-4): 3
+Hex code (type L to list codes): 8e
+
+B
+
+803
+
+ 
+bapp02.indd  04/01/2015  Page 804
+
+Appendix B: Exercise Answers
+
+Changed system type of partition 3 to 8e (Linux LVM)
+Command (m for help): w
+# partprobe /dev/sdb
+# grep sdb /proc/partitions
+   8       16    7833600 sdb
+   8       17     102400 sdb1
+   8       18     204800 sdb2
+   8       19     512000 sdb3
+
+5.

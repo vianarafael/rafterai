@@ -1,0 +1,7 @@
+one process creates two, two 
+create two more, four leads to eight, and so on, thus starving other processes of resources such as CpU 
+cycles and, eventually, ram.
+
+Memory Usage
+Another cause of reduced performance is excessive memory use. If a task starts using a lot of memory, 
+the host will be forced to free up memory for it by putting other tasks into swap memory.

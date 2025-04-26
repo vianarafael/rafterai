@@ -1,0 +1,6 @@
+However, unlike 
+encryption, after you create a hash, you cannot de-hash it back to its original plaintext.
+
+In order for a hashing algorithm to be used in computer security, it needs to be  collision-free, 
+which means that the hashing algorithm does not output the same hash for two totally 
+ different inputs. Each input must have a unique hashed output.

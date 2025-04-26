@@ -1,0 +1,11 @@
+This is usually when the e-mail has been sent from a bogus domain, as is often the case with 
+spam e-mail.
+
+We can protect our e-mail server from becoming a relay server by adding the following:
+
+$ sudo postconf –e 'smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, 
+reject_unauth_destination'
+
+Here we are saying that we will permit any specified networks (permit_mynetworks) to send mail to 
+
+other destination mail servers.

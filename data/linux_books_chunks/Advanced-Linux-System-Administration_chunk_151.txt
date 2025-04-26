@@ -1,0 +1,10 @@
+Finally, unmount the /tmp/initrd-new.img then compress and rename it.
+
+gzip /tmp/initrd-new.img ; mv /tmp/initrd-new.img.gz /boot/initrd-
+test.img
+
+Or
+
+gzip < /tmp/initrd-new.img > /boot/initrd-test.img
+
+10.

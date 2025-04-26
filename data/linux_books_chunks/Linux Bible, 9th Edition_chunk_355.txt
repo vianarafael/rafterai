@@ -1,0 +1,6 @@
+Those can include ﬁ rewall rules (iptables), SELinux, TCP Wrappers, or any fea-
+tures built into conﬁ guration ﬁ les for the particular service.
+
+Summary
+ Linux is an operating system that is built by a community of software developers around 
+the world and led by its creator, Linus Torvalds.

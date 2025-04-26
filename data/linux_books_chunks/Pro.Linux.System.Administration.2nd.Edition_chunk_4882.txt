@@ -1,0 +1,7 @@
+On CentOS you would issue the following to install Collectd and the mysql plug-in:
+
+$ sudo yum install collectd collectd-mysql
+
+There are several plug-in packages that you can install in the same way, depending on your 
+
+requirements (use yum search collectd for a list).

@@ -1,0 +1,5 @@
+To see a ﬁ le’s current label (aka security context), use 
+the ls -Z command, as shown here:
+
+# ls -Z /etc/passwd
+-rw-r--r--.

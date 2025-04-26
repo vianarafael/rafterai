@@ -1,0 +1,11 @@
+We, by default, have no rules in any of our chains in the filter table. This 
+of course means that any service that is started on our host can immediately begin communicating on our 
+network. We should fix that.
+
+274
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+It is up to you to set the minimal rule requirements and we will give help with these rules as we go 
+
+along.

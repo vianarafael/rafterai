@@ -1,0 +1,7 @@
+Now we should be able to access our site from 
+
+remote clients.
+
+On Ubuntu, the basic configuration has been divided among multiple files. The main file loaded by 
+Apache on Ubuntu is /etc/apache2/apache2.conf. We’ve included the basic configuration directives from 
+this file in Listing 11-1.

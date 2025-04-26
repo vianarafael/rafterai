@@ -1,0 +1,4 @@
+The /boot partition is where our kernel images and boot configuration files reside 
+and so is set to “Standard Partition” and an xfs file system. The root volume / is a LVM (logical volume 
+management) volume and has the most space allocated to it as a percentage of the disk size of the LVM. The 
+main operating system programs are in /.

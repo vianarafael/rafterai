@@ -1,0 +1,6 @@
+The result might be that the 
+graphical login screen doesn’t start when the system boots or your network card 
+fails to load, so you have no wireless networking.
+
+Because most Linux systems keep the two most recent kernels, you can reboot, 
+interrupt GRUB, and select the previous (still working) kernel to boot from.

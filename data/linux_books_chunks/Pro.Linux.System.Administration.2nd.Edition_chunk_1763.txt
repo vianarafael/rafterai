@@ -1,0 +1,5 @@
+We’ll demonstrate all of these tasks using command-line tools as well as the available graphical user 
+interfaces (GUIs) for the CentOS and Ubuntu distributions.
+
+ ■ Note  After the section “Introduction to Package Management,” this chapter is divided into sections 
+covering installation on CentOS, on Ubuntu, and from source code.

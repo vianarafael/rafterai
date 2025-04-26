@@ -1,0 +1,9 @@
+They can also store values 
+for your shell prompts, the size of your history list, and type of operating system. You 
+can refer to the value of any of those variables by preceding it with a dollar sign ($) and 
+placing it anywhere on a command line. For example:
+
+$ echo $USER
+chris
+
+This command prints the value of the USER variable, which holds your username (chris).

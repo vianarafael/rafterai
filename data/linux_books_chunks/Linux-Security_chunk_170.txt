@@ -1,0 +1,13 @@
+Just logging
+in opens the application for them, and closing the application automatically logs them out.
+
+18
+
+user management
+
+8. Create a file named welcome.txt and make sure every new user will see this file in their
+home directory.
+
+root@debian7:~# echo Hello > /etc/skel/welcome.txt
+
+9.

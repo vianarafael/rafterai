@@ -1,0 +1,12 @@
+ipv4 mapped ipv6 address
+
+Some applications use ipv4 addresses embedded in an ipv6 address. (Yes there will be an
+era of migration with both ipv4 and ipv6 in use.) The ipv6 address then looks like this:
+
+::ffff:192.168.1.42/96
+
+Indeed a mix of decimal and hexadecimal characters...
+
+25.5. link local addresses
+
+ipv6 addresses starting with fe8.

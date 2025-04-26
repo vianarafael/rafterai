@@ -1,0 +1,10 @@
+Here’s what the output of 
+that command may look like:
+
+# lpq
+printer is ready and printing
+Rank   Owner                Job Files                Total Size Time
+active root                 133 /home/jake/pr1         467
+2      root                 197 /home/jake/mydoc     23948
+
+The output shows two printable jobs waiting in the queue.

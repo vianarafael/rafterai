@@ -1,0 +1,4 @@
+Before you can encrypt a ﬁ le, you must ﬁ rst create your key 
+pair and a “key ring.” In the example that follows, the gpg2 --gen-key command was 
+used. This command creates a public/private key pair for the user johndoe, according to 
+his desired speciﬁ cations.

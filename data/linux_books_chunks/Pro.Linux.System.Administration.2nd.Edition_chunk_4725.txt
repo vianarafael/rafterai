@@ -1,0 +1,7 @@
+Luckily, we have a solution if you’re one 
+
+of those who prefer a web-based GUI to do all the fiddly work for you, and we’ll discuss this next.
+
+LDAP Account Manager: Web-Based GUI
+Several tools are available to manage your LDAP directories. We have decided to focus on one of them in 
+this book, LDAP Account Manager (LAM).

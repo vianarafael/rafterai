@@ -1,0 +1,4 @@
+1 systemd-journal-remote systemd-journal 8388608 Nov 29 22:58 remote- 
+gateway@3a016bda55334bcd88d8a6fa52b1dc61-0000000000000001-0005426ea713ed3c.journal
+
+Now we have our remote host sending logs to our backup server.

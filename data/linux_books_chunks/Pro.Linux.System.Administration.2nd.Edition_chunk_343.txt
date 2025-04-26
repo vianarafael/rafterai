@@ -1,0 +1,6 @@
+We will show you how we use Git Bash in the next section.
+
+Introducing Vagrant
+Vagrant is a way of sharing and distributing development environments between developers quickly and 
+easily. In this sense a “development environment” is a set of virtual machines and a configuration for 
+running those machines.

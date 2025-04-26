@@ -1,0 +1,8 @@
+To store information used by a shell script in such a way that it can be easily 
+reused, you can set variables. Variable names within shell scripts are case-sensitive and can 
+be deﬁ ned in the following manner:
+
+NAME=value
+
+The ﬁ rst part of a variable is the variable name, and the second part is the value set for 
+that name.

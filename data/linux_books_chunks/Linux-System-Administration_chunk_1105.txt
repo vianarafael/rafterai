@@ -1,0 +1,11 @@
+If you create the .ssh directory manually, then you need
+to chmod 700 it! Otherwise ssh will refuse to use the keys (world readable private keys are
+not secure!).
+
+As you can see, the .ssh directory is secure in Alice's home directory.
+
+[alice@RHEL5 ~]$ ls -ld .ssh
+drwx------ 2 alice alice 4096 May  1 07:38 .ssh
+[alice@RHEL5 ~]$
+
+Bob is using Ubuntu at home.

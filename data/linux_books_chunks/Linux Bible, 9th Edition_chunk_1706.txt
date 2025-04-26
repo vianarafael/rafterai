@@ -1,0 +1,5 @@
+The rpm command was the ﬁ rst 
+tool to manage RPMs, but later yum was added to enhance the RPM facility.
+
+For managing software on individual systems, there are proponents on both sides of the 
+RPM vs. DEB debate with valid points.

@@ -1,0 +1,5 @@
+If you want to change some settings ﬁ rst, go to the 
+section “Conﬁ guring Your FTP Server,” ﬁ nalize your settings, and then come back here for 
+instructions on how to enable and start your server.
+
+Before you start the vsftpd service, you can check whether it is running already.

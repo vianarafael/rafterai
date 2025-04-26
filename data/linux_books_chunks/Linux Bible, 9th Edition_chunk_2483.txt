@@ -1,0 +1,10 @@
+By default, this feature is off, but you can enable it and then 
+
+351
+
+c14.indd  04/01/2015  Page 352
+
+Part IV: Becoming a Linux Server Administrator
+
+identify remote hosts that you want to connect to using secure protocols. The last tab on 
+the window is Identity.

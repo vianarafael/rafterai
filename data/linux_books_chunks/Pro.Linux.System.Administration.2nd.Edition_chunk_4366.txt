@@ -1,0 +1,9 @@
+This isn’t much 
+
+use to us because we can’t access any of the resources available on the internal network (e.g., a file share 
+on the headoffice.example.com host). We can test this from our branch office host by trying to ping the 
+headoffice host:
+
+branch1$ ping 192.168.0.1
+
+We’ll get no reply from these pings because there is no route to this network.

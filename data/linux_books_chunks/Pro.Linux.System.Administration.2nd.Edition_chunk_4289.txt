@@ -1,0 +1,9 @@
+Looking at the Systemd service file for OpenVPN, you will see the 
+following:
+
+ExecStart=/usr/sbin/openvpn --daemon --writepid /var/run/openvpn/%i.pid --cd /etc/openvpn/ 
+--config %i.conf
+
+Do you notice the %i? We need to specify the configuration file (--config %i.conf) when we start the 
+
+openvpn service.

@@ -1,0 +1,14 @@
+Other tools are built on top of the rpm 
+facility for doing that.
+
+10
+
+235
+
+c10.indd  04/01/2015  Page 236
+
+Part III: Becoming a Linux System Administrator
+
+Before I launch into some of the command-line tools for installing and managing 
+ software in Linux, the next section describes how the underlying packaging and package 
+ management systems in Linux work.

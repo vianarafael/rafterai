@@ -1,0 +1,8 @@
+Most people don’t need to worry 
+beyond composing e-mails and clicking the Send button. To run your own mail server, however, you 
+need to understand a bit more about the inner workings of e-mail. In Figure 12-1, you can see the typical 
+e-mail life cycle.
+
+525
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

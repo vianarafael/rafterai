@@ -1,0 +1,15 @@
+Example:
+
+# iptables -A INPUT -p icmp -j DROP
+
+ ■ --dport port#
+
+Assigns the rule listed to apply to certain protocol packets coming into the desig-
+nated port#. Example:
+
+# iptables -A INPUT -p tcp --dport 22 -j DROP
+
+ ■ --sport port#
+
+Assigns the rule listed to apply to certain protocol packets going out of the desig-
+nated port#.

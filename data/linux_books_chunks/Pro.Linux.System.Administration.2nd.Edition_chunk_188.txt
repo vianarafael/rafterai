@@ -1,0 +1,5 @@
+Adding a network installation source
+
+You can also configure any proxy server settings that you may need to access to either access remote 
+
+repository. Also, you can add additional repositories.

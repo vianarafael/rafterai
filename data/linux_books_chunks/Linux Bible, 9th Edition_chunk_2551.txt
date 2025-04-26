@@ -1,0 +1,23 @@
+The reason 
+for doing this is that NetworkManager sometimes overwrites ﬁ les you conﬁ gure manually 
+(from information gathered from DHCP or when using the NetworkManager GUI).
+
+To turn NetworkManager off (immediately and permanently) on a RHEL 6 or older Fedora 
+system, type the following as root (do this on a console because this procedure stops your 
+networking if you are logged in over the network):
+
+# service NetworkManager stop
+# service network restart
+# chkconfig NetworkManager off
+# chkconfig network on
+
+For RHEL 7 and newer Fedora systems that use the systemctl command to start, stop, 
+enable, and disable services, you could type the following:
+
+# systemctl stop NetworkManager.service
+# systemctl disable NetworkManager.service
+# systemctl restart network.service
+# systemctl enable network.service
+
+At this point, you can safely use the following sections to help you directly edit net-
+work conﬁ guration ﬁ les.

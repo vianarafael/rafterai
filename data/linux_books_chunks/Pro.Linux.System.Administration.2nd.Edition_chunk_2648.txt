@@ -1,0 +1,6 @@
+86400 IN RRSIG A 8 3 86400 (
+                              20160802120825 20160703120630 6513 example.com.
+                              <snip>
+                              TorDjrwEutOJnt1HLxoJ/+EVJ6K9l+sZfrfG4ZM4lB5i
+                              eVxmZe3quQ3M+HHDHPVwZu1XwJkNz97Kuw== )
+mail.example.com.

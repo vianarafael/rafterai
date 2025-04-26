@@ -1,0 +1,6 @@
+That way, rather 
+than executing the code, you can see what will be executed without making any 
+ permanent changes.
+
+ ■ To achieve the same goal, you can place dummy echo statements throughout the 
+code.

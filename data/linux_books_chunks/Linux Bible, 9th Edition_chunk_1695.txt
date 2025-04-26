@@ -1,0 +1,3 @@
+This set of 
+packages may just be a default package set that includes  documentation, extra fonts, 
+additional software plugins, or multiple language packs that you may or may not want.

@@ -1,0 +1,5 @@
+It is very powerful, and you can do a lot with it. This chapter will not 
+do it justice as we are only able to show the barest essentials of its power. In this section we are going to show 
+you how to install and then do a basic configuration so that we can output our log data to Elasticsearch.
+
+The current version of Logstash requires Java 8.

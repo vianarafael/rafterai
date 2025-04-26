@@ -1,0 +1,21 @@
+In fact 
+syslogd has not been compiled with libresolv.so, as seen below:
+
+ldd syslogd
+libc.so.6 => /lib/i686/libc.so.6 (0x40024000)
+/lib/ld-linux.so.2 => /lib/ld-linux.so.2 (0x40000000)
+
+ldd ping
+libresolv.so.2 => /lib/libresolv.so.2 (0x40024000)
+libc.so.6 => /lib/i686/libc.so.6 (0x40035000)
+/lib/ld-linux.so.2 => /lib/ld-linux.so.2 (0x40000000
+
+67
+
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+2.

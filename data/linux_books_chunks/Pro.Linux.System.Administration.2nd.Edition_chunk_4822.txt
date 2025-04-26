@@ -1,0 +1,9 @@
+We’ll 
+pass it the -h (human-readable) option so it displays the sizes in gigabytes (-g), megabytes (-m), or kilobytes 
+(-k), as in Listing 17-2.
+
+800
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Listing 17-2.

@@ -1,0 +1,10 @@
+Today  Debian  and
+many Debian-based distributions still actively support apt-get, though some experts claim
+aptitude is better at handling dependencies than apt-get.
+
+Both commands use the same configuration files and can be used alternately; whenever you
+see apt-get in documentation, feel free to type aptitude.
+
+We will start with apt-get and discuss aptitude in the next section.
+
+20.3.1.

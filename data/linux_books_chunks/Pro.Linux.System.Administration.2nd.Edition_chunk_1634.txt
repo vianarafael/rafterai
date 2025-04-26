@@ -1,0 +1,8 @@
+We do that by issuing the 
+following command:
+
+$ sudo /sbin/iptables -t filter -L --line-numbers
+
+Here we are viewing the filter table. The –L option lists all the chains and their associated rules with 
+
+line numbering, specified by --line-numbers, for each.

@@ -1,0 +1,7 @@
+Echo the words “My Own Web Server” into the index.html ﬁ le located in 
+
+DocumentRoot:
+
+# echo "My Own Web Server" > /var/www/html/index.html
+
+3.

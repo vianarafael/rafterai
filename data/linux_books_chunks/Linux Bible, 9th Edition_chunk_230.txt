@@ -1,0 +1,5 @@
+The term “free software” is preferred by the Free Software Foundation, while open source 
+software is promoted by the Open Source Initiative (http://www.opensource.org).
+
+To accommodate both camps, some people use the term Free and Open Source Software 
+(FOSS) instead.

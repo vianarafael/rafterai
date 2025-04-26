@@ -1,0 +1,4 @@
+If you are new to Linux and want to try out 
+some services, the “Server with GUI” selection provides a GNOME 3 desktop 
+ system on top of a basic server install. You can select to add other services, such 
+as a DNS, File and Storage, Identity Management, and other services.

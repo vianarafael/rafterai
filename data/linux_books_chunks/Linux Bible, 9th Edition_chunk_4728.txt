@@ -1,0 +1,8 @@
+Also, there are 
+ additional nmap scans that may be beneﬁ cial to your organization. Look at the nmap 
+ utility’s website for additional suggestions.
+
+If you have been following along and lowered your server’s fi rewall to conduct these nmap scans, be sure to raise it 
+again: systemctl start firewalld.service.
+
+You still need to implement controls for those services your Linux server should offer.

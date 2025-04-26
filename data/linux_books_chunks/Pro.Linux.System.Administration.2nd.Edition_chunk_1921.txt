@@ -1,0 +1,7 @@
+Displaying detailed package information
+
+Press q to close the information window and return to the package listing.
+Since scrolling through this listing is not fast, being able to search it is useful. Bring up the search dialog 
+
+by pressing the forward slash (/) and entering the required search term. Let’s look for the Ubuntu kernel 
+package, called linux-image.

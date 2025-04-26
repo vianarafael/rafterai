@@ -1,0 +1,8 @@
+The slave 
+
+interfaces will bring up the master automatically, but the master will not bring up the slaves.
+
+$ sudo ifup enp0s8 && sudo ifup enp0s9
+
+Here we are saying bring up the enp0s8 interface and, if the exit code is 0 (‘&&’), then bring up the 
+enp0s9 interface. We could have also rebooted our host.

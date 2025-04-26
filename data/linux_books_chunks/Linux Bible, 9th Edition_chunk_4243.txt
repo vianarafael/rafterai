@@ -1,0 +1,6 @@
+These reviews can be as simple as someone sitting down and com-
+paring implemented security to your company’s stated policies. However, a more popular 
+method is conducting audits using penetration testing.
+
+Penetration testing is an evaluation method used to test a computer system’s security by 
+simulating malicious attacks. It is also called pen testing and ethical hacking.

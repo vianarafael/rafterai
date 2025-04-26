@@ -1,0 +1,4 @@
+The database server provides data storage and retrieval, while the client can be any application that uses the 
+database server — that can be a command-line utility, LibreOffice, or a library that is used by a web site.
+
+Because MariaDB is a fork of MySQL, it is a drop-in replacement for the MySQL database.

@@ -1,0 +1,6 @@
+One way is to add users and groups to 
+
+each host in your domain; the other is to centralize your user administration on one or two authentication 
+servers. In this chapter, we will explain the former, and in Chapter 16 we will explain the latter.
+
+As on Microsoft Windows hosts, everyone who needs to log in to your host will need a user created.

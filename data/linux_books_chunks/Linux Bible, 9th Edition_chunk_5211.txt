@@ -1,0 +1,9 @@
+You can open the Date & Time window from a GNOME desktop in RHEL or Fedora by 
+
+doing one of the following:
+
+ ■ If it isn’t already installed, install the system-conﬁ g-date package (yum 
+
+install system-config-date).
+
+ ■ Open a Terminal window and type system-config-date.

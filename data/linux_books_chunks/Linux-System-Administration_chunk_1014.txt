@@ -1,0 +1,3 @@
+setting ip address
+
+You can temporary set an ip address with ifconfig.

@@ -1,0 +1,4 @@
+The asterisk 
+(*) under the Boot column indicates that the partition is bootable (that’s where the 
+kernel and other components needed to boot the system are stored). The rest of the disk is 
+ consumed by the LVM partition, which is ultimately used to create logical volumes.

@@ -1,0 +1,7 @@
+You can always settle on a combination of in house hardware and 
+paaS (platform as a Service) depending on your requirements.
+
+Supported Hardware
+In addition to purchasing the right hardware, you should take into account some important selection and 
+performance considerations. The most important consideration is that not all hardware is supported by the 
+Linux operating system.

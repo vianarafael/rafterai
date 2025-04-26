@@ -1,0 +1,11 @@
+This approach is useful if you want to understand how cloud-init 
+works and the opportunities you have for tuning cloud images to your speciﬁ cations. But 
+this approach doesn’t scale well if you are managing large enterprises of virtual machines.
+
+759
+
+c27.indd  04/01/2015  Page 760
+
+Part VI: Extending Linux into the Cloud
+
+Cloud-init supports the concept of datasources.

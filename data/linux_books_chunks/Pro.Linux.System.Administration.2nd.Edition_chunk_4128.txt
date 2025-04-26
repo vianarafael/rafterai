@@ -1,0 +1,5 @@
+this, as the name suggests, is where you only ever do incremental backups 
+of your file data (it works only for file-based backups).
+
+It is useful for reducing the amount of network traffic that occurs during backups and of course makes 
+backups quicker as it does away with full backups.

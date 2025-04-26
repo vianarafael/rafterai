@@ -1,0 +1,22 @@
+We expect to see exactly (...){3} of these:
+
+([0-9]{1,3}[\.]){3}
+
+We then expect to see one more set of octets not followed by a dot.
+
+([0-9]{1,3}[\.]){3}[0-9]{1,3}
+
+putting this all together will in fact match any IP address from 000.000.000.000 to 999.999.999.999 
+which we know is technically wrong but chosen because it is clearer to explain as to match only on 
+numbers between 0 and 255 is a more complex and long regular expression (but widely documented on 
+the Internet).
+
+another useful grep regular expression is searching for e-mail addresses in the mail log.
+
+egrep -o "[A-Za-z0-9._-]+@example.com" /var/log/mail.log
+
+135
+
+ChapTeR 4 ■ LInux BasICs
+
+here you can see that we are using the egrep command, which just executes grep with the –E flag.

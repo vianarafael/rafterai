@@ -1,0 +1,30 @@
+Search for the e100 0 term again in the same location, but this time list every line 
+
+that contains the term and highlight the term in color .
+
+5
+
+135
+
+ 
+ 
+ 
+ 
+ 
+c06.indd  04/01/2015  Page 137
+
+ C H A P T E R 
+
+6
+
+Managing Running Processes
+
+IN THIS CHAPTER
+
+Displaying processes
+
+Running processes in the foreground and background
+
+Killing and renicing processes
+
+I n addition to being a multiuser operating system, Linux is also a multitasking system.

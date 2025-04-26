@@ -1,0 +1,11 @@
+It is also 
+available as the macro $HOSTADDRESS$.
+
+884
+
+Chapter 18 ■ Logging and Monitoring
+
+ You can also specify the fully qualified domain name of the host, but this requires that your dnS is 
+
+ ■ Note 
+working and can resolve the hostname. if your dnS fails, your nagios checks may also fail.

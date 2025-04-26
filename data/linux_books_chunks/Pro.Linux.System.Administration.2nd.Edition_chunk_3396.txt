@@ -1,0 +1,3 @@
+This command uses the postalias command to 
+take the names and aliases listed in the /etc/aliases file and makes an index file used by the local delivery 
+daemon.

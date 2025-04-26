@@ -1,0 +1,6 @@
+But the first section tells 
+sssd that we are going to use nss and pam to run our LDAP domain. In the LDAP domain section we have the 
+provider for id and auth and then the connection details including TLS settings and password policy details.
+When Linux looks for a piece of information such as a host or a password, it checks a file called /etc/
+
+nsswitch.conf for where to find that information.

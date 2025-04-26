@@ -1,0 +1,3 @@
+Because logs on busy systems can become very large over time, it doesn’t take long for 
+there to be too many messages for a system administrator to watch every message in every 
+log.

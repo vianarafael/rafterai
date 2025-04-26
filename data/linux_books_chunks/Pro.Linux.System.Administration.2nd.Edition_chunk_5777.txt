@@ -1,0 +1,6 @@
+If you use it, you can then use those facts in your plays as conditionals or as values in your plays.
+
+We can list our own variables in the vars key as an associate array. These key/value pairs can be used 
+
+by our templating engine. Tasks and handlers are similar and are essentially tasks. The handlers are used to 
+“handle” restarts of services mainly.

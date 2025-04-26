@@ -1,0 +1,9 @@
+If we select 
+
+Ubuntu-16.04-x86_64, we will install Ubuntu; Figures 19-4 through 19-6 tell that story.
+
+Figure 19-4.  Installing CentOS
+
+Figure 19-5.  Installing Ubuntu
+
+Figure 19-6.

@@ -1,0 +1,4 @@
+This is because our cat processes are consuming
+the whole cpu. Results can vary on systems with four or more cpu cores.
+
+2.1.5.

@@ -1,0 +1,10 @@
+These are referred to as “kernel space memory” and “user 
+space memory”. The init process is the first program to run in user-space.  
+
+Init is therefore the parent of all processes. The init program's configuration file is 
+
+/etc/inittab  
+
+Runlevels
+
+Runlevels determine which processes should run together.

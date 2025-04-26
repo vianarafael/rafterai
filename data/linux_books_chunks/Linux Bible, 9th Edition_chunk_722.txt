@@ -1,0 +1,7 @@
+If you go to the shell 
+from a Terminal window and you are using the original shell from that window, exiting 
+causes the Terminal window to close. If you are at a virtual console, the shell exits and 
+returns you to a login prompt.
+
+If you have multiple shells open from the same shell session, exiting a shell simply returns 
+you to the shell that launched the current shell.

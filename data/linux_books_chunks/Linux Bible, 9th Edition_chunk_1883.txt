@@ -1,0 +1,9 @@
+Without the -u option, the default behavior is to automatically assign the next 
+available number. Replace user_id with the ID number.
+
+Let’s create an account for a new user. The user’s full name is Sara Green, and her login 
+name is sara. To begin, become root user and type the following command:
+
+# useradd -c "Sara Green" sara
+
+Next, set the initial password for sara using the passwd command.

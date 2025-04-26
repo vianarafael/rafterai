@@ -1,0 +1,11 @@
+(The last two zeros conﬁ gure the system to not dump the contents of the 
+ﬁ lesystem and to not run fsck on the ﬁ lesystem.)
+
+The following are examples of NFS entries in /etc/fstab:
+
+maple:/stuff   /mnt/maple nfs   bg,rsize=8192,wsize=8192  0 0
+oak:/apps      /oak/apps  nfs   noauto,ro                 0 0
+
+In the ﬁ rst example, the remote directory /stuff from the computer named maple 
+(maple:/stuff) is mounted on the local directory /mnt/maple (the local directory must 
+already exist).

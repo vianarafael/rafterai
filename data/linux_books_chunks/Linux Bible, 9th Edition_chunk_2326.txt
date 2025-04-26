@@ -1,0 +1,12 @@
+You can do this for 
+any graphical administration tool or just regular X applications (such as the gedit graphi-
+cal editor, so you don’t have to use vi).
+
+328
+
+c13.indd  04/01/2015  Page 329
+
+Chapter 13: Understanding Server Administration
+
+If you want to run several X commands and don’t want to have to reconnect each time, you can 
+use X11 forwarding directly from a remote shell as well.

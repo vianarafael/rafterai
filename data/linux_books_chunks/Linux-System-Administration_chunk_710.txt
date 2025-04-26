@@ -1,0 +1,13 @@
+The -r switch tells
+/sbin/shutdown to reboot after shutting down.
+
+This screenshot shows how to use shutdown with five seconds between TERM and KILL
+signals.
+
+root@barry:~# shutdown -t5 -h now
+
+The now is the time argument. This can be +m for the number of minutes to wait before
+shutting down (with now as an alias for +0. The command will also accept hh:mm instead
+of +m.
+
+15.7.4.

@@ -1,0 +1,9 @@
+Otherwise, use the full 
+host.domain format. These are valid ways to indicate individual host computers:
+
+maple
+maple.handsonhistory.com
+10.0.0.11
+
+ ■ IP network—Allow access to all hosts from a particular network address by 
+ indicating a network number and its netmask, separated by a slash (/).

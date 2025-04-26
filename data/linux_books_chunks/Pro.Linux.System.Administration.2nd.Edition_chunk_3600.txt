@@ -1,0 +1,4 @@
+Now all we have to do is send an 
+e-mail to ourselves and we have successfully set up our e-mail server.
+
+Figure 12-6.

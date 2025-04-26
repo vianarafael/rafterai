@@ -1,0 +1,5 @@
+We are ready to back up or system now.
+
+Running a Duply Backup
+
+Now it is time to back up our system. The first backups are always the longest, as are any full backups.

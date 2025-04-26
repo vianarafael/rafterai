@@ -1,0 +1,42 @@
+scsi device naming
+
+device
+
+disk 0
+
+disk 1
+
+raid controller 0
+
+raid controller 1
+
+scsi id
+
+device name
+
+0
+
+1
+
+5
+
+6
+
+/dev/sda
+
+/dev/sdb
+
+/dev/sdc
+
+/dev/sdd
+
+A modern Linux system will use /dev/sd* for scsi and sata devices, and also for sd-cards,
+usb-sticks, (legacy) ATA/IDE devices and solid state drives.
+
+34
+
+disk devices
+
+4.3. discovering disk devices
+
+4.3.1.

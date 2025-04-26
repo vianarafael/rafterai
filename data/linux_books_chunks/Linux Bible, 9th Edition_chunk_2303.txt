@@ -1,0 +1,14 @@
+Therefore, you may not need to run the command in Table 13.3 for 
+your Ubuntu server.
+
+To manage services on an older Fedora distribution, use the chkconfig command both for starting the ssh 
+ service and to ensure it starts at boot.
+
+325
+
+c13.indd  04/01/2015  Page 326
+
+Part IV: Becoming a Linux Server Administrator
+
+Modify your netfilter/iptables ﬁ rewall settings to allow the openssh-client to 
+access port 22 (ﬁ rewalls are covered in Chapter 25, “Securing Linux on a Network”).

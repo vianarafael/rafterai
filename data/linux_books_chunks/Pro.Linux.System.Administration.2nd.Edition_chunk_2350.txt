@@ -1,0 +1,11 @@
+You can then list it via lvs.
+
+$ sudo lvcreate --name www --size 2G raid-volume
+  Logical volume "www" created
+$ sudo lvs
+  LV    VG           Attr         LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  root  centos       -wi-ao----   6.67g
+  swap  centos       -wi-ao---- 820.00m
+  www   raid-volume  -wi-a-----   2.00g
+
+All that’s left to do now is create a filesystem on the logical volume and mount it somewhere.

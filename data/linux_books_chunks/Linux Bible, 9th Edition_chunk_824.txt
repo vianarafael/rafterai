@@ -1,0 +1,8 @@
+Here documents 
+involve entering two less-than characters (<<) after a command, followed by a word. All 
+typing following that word is taken as user input until the word is repeated on a line by 
+itself. Here is an example:
+
+$ mail root cnegus rjones bdecker <<thetext
+> I want to tell everyone that there will be a 10 a.m.
+> meeting in conference room B.

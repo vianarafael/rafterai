@@ -1,0 +1,13 @@
+The gateway host happens to be a CentOS host, so we will install an RPM version.
+
+$ sudo yum install -y https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-
+5.0.2-x86_64.rpm
+
+ You can also set up the apt or YUM repositories on your machines too; see here for details: https://
+
+ ■ Tip 
+www.elastic.co/guide/en/beats/libbeat/current/setup-repositories.html.
+
+For both Ubuntu and CentOS, the configuration file for Filebeat is stored in /etc/filebeat/filebeat.
+
+yml.

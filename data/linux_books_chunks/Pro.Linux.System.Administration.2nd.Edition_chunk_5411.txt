@@ -1,0 +1,4 @@
+Most Nagios plug-ins are simple and self-explanatory. Almost all 
+of them provide the --help option to display their function and options.
+
+Other plug-ins outside of the Nagios plug-in pack are also available.

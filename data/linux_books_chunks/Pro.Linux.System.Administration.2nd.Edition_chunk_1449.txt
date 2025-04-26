@@ -1,0 +1,10 @@
+Normally it is set to 1,500 bytes, 
+but with jumbo frames it can be up to 9,000 bytes. Having larger-sized packets should mean that you can send 
+more data more efficiently due to less packets traveling over the wire.
+
+249
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+One of the first things you can do to test your network is to use ping to ping the interfaces you have 
+configured.

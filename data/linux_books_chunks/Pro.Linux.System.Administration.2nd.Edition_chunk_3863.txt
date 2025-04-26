@@ -1,0 +1,13 @@
+Selecting the printer model
+
+If we don’t find the printer model, we can add a PPD file. Next comes the printer defaults (Figure 13-11).
+
+Figure 13-11.  Editing or selecting defaults
+
+You can edit or select defaults for your printer. We will just keep the defaults (Figure 13-12).
+
+632
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Figure 13-12.

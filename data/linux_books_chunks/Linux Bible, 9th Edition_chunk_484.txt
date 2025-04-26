@@ -1,0 +1,34 @@
+Table 2.1 shows 
+keyboard shortcuts to get around the Metacity window manager.
+
+FIGURE 2.15
+
+The GNOME 2 desktop environment.
+
+2
+
+TABLE 2.1    Keyboard Shortcuts
+
+Actions
+
+Keystrokes
+
+Cycle backward, without pop-up icons
+
+Alt+Shift+Esc
+
+Cycle backward among panels
+
+Alt+Ctrl+Shift+Tab
+
+Close menu
+
+Esc
+
+51
+
+c02.indd  04/01/2015  Page 52
+
+Part I: Getting Started
+
+You can use other keyboard shortcuts with the window manager as well.

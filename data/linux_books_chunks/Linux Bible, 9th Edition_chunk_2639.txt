@@ -1,0 +1,16 @@
+Use the desktop to check that NetworkManager has successfully started your 
+
+ network interface (wired or wireless) to the network. If it has not, then try to 
+start your network interface.
+
+2.  Run a command to check the active network interfaces available on your computer.
+
+374
+
+ 
+ 
+c14.indd  04/01/2015  Page 375
+
+Chapter 14: Administering Networking
+
+3.

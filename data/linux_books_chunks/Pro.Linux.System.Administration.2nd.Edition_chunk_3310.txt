@@ -1,0 +1,2 @@
+Specifying 0 here disables logging, specifying 1 provides basic logging, and specifying 3 and 
+4 produce the highest level of logging (and are not recommended unless you are troubleshooting).

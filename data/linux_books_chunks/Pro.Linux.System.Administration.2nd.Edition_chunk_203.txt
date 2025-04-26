@@ -1,0 +1,7 @@
+If 
+you press any key during this countdown process, loading will be interrupted.
+
+Following the instructions on the screen in Figure 2-30, you can choose the kernel image you wish to 
+
+boot into or change the way it loads (pressing e). You can access the GRUB2 shell by pressing c. We talk a lot 
+more about the boot loader process in Chapter 6.

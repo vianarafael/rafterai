@@ -1,0 +1,6 @@
+This procedure is meant to be very simple to get a cloud image booted. Later, I tell you 
+how to add more features to these data ﬁ les. To conﬁ gure and run a cloud image, follow 
+these steps:
+
+1.  Create a cloud-init meta-data ﬁ le. Create a ﬁ le named meta-data to hold 
+data that identiﬁ es information about the cloud instance from the outside.

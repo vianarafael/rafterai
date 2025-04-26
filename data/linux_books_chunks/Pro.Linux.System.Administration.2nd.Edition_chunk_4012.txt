@@ -1,0 +1,3 @@
+This gives us the standard month plus a 
+couple of days for holidays or people being off work as a buffer. We will not bother moving to Glacier storage 
+because if we need it, we will need it relatively quicker than Glacier will take retrieve.

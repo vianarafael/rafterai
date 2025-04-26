@@ -1,0 +1,9 @@
+Add a local user account to your Linux system that has a username of jbaxter and 
+a full name of John Baxter, and uses /bin/sh as its default shell. Let the UID be 
+assigned by default. Set the password for jbaxter to: My1N1te0ut!
+
+2.  Create a group account named testing that uses group ID 315.
+
+3.  Add jbaxter to the testing group and the bin group.
+
+4.

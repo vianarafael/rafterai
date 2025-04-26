@@ -1,0 +1,7 @@
+You can secure services using tools such as 
+iptables and firewalld (ﬁ rewall tools), TCP wrappers (to allow and deny service 
+access), and Security Enhanced Linux (to limit the resources a service can access 
+from the local system).
+
+ ■ Continuous monitoring—Although you typically turn off your laptop or  desktop 
+system when you are not using it, servers usually stay on 24x7, 365 days per year.

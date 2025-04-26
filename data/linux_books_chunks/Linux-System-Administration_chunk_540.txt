@@ -1,0 +1,11 @@
+Move your volume group to another disk (keep the Logical Volumes mounted).
+
+11. If time permits, split a Volume Group with vgsplit, then merge it again with vgmerge.
+
+121
+
+logical volume management
+
+11.15. solution : lvm
+
+1.

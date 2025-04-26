@@ -1,0 +1,10 @@
+When you use some graphical tools to install package groups, 
+you can uncheck default packages or check optional packages to change whether they are 
+installed with the group.
+
+If you decide you want to install a package group, use the groupinstall subcommand:
+
+# yum groupinstall LXDE
+
+This groupinstall resulted in 30 packages from the group being installed and 5 existing 
+packages being updated.

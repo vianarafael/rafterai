@@ -1,0 +1,4 @@
+The connection section 
+
+describes the interface and type. The adsl section contains the necessary configuration details for our 
+connection. The ipv4 and ipv6 are connection information.

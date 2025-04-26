@@ -1,0 +1,4 @@
+We know what usually causes this, though, so if we go and check the reverse zone file, we can see that 
+we did indeed forget the trailing period at the end of the entry for mail.example.com.
+
+But let’s take the time to investigate how we can see the query logs on our bind server.

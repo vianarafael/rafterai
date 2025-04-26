@@ -1,0 +1,16 @@
+Figure 27.3 shows an 
+example of what your network conﬁ guration might look like.
+
+FIGURE 27.3
+
+View your Network Topology from the OpenStack Dashboard.
+
+27
+
+With your networking in place, you can create keys to use to access your virtual machines 
+in OpenStack.
+
+Configuring keys for remote access
+The normal way to conﬁ gure access to your virtual machines in a cloud environment is to 
+create a public/private keypair that provides secure access to your virtual machines using 
+ssh and related tools from your desktop system.

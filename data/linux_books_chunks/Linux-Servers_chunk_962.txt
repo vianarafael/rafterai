@@ -1,0 +1,320 @@
+A
+"Massive Multiauthor Collaboration" (or "MMC") contained in the site
+means any set of copyrightable works thus published on the MMC site.
+
+"CC-BY-SA" means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-profit
+corporation with a principal place of business in San Francisco,
+California, as well as future copyleft versions of that license
+published by that same organization.
+
+"Incorporate" means to publish or republish a Document, in whole or in
+part, as part of another Document.
+
+An MMC is "eligible for relicensing" if it is licensed under this
+License, and if all works that were first published under this License
+somewhere other than this MMC, and subsequently incorporated in whole
+or in part into the MMC, (1) had no cover texts or invariant sections,
+and (2) were thus incorporated prior to November 1, 2008.
+
+The operator of an MMC Site may republish an MMC contained in the site
+under CC-BY-SA on the same site at any time before August 1, 2009,
+provided the MMC is eligible for relicensing.
+
+255
+
+Index
+
+Symbols
+/etc/apache2, 10
+/etc/bind/named.conf.local, 76
+/etc/group, 45
+/etc/httpd, 10
+/etc/inetd.conf, 152
+/etc/init.d/samba, 141
+/etc/init.d/smb, 141
+/etc/init.d/winbind, 142
+/etc/nsswitch.conf, 190, 192
+/etc/passwd, 45, 199
+/etc/resolv.conf, 62
+/etc/samba/passdb.tdb, 198
+/etc/samba/smb.conf, 146, 147, 148, 164, 188
+/etc/samba/smbpasswd, 169, 196
+/etc/selinux/config, 212
+/etc/squid/squid.conf, 34
+/etc/sysctl.conf, 116
+/etc/xinetd.d/swat, 152
+/proc/sys/net/ipv4/ip_forward, 116
+/selinux, 214
+/selinux/enforce, 214
+/var/log/audit/audit.log, 210
+/var/log/squid, 39
+.htaccess, 27
+.htpasswd, 17, 24
+.my.cnf, 46
+
+A
+A (DNS record), 67
+AAAA (DNS record), 67
+allow hosts (Samba), 181
+apache2, 6
+aptitude, 138, 139, 227
+aptitude(8), 44
+auditd, 210
+authoritative (dns), 71
+authoritative zone, 66
+axfr, 74
+
+B
+bind, 64
+bind(DNS), 90
+browsable (Samba), 182
+browseable (Samba), 182
+browser master, 196
+
+C
+cahing only name server, 68
+chain (iptables), 123
+char(mysql), 49
+chcon(1), 216, 217
+chkconfig, 210
+chmod, 213
+
+CIFS, 143
+CNAME (DNS record), 67
+context type(selinux), 215
+create(mysql), 47, 49, 55
+create mask (Samba), 182
+
+D
+delete(mysql), 54
+deny hosts (Samba), 182
+describe(mysql), 50
+dhclient, 118
+dhcp server, 62
+directory mask (Samba), 182
+directory security mask(samba), 183
+DNAT, 115
+dns, 60, 60
+dnsdomainname, 66
+dns namespace, 63
+dns server, 62
+domain (dns), 64
+domain name system, 60, 60
+dpkg, 138
+dpkg(1), 44
+drop(mysql), 48, 50, 56
+
+F
+filter table (iptables), 123
+firewall, 114
+force create mode(samba), 183
+force directory mode(samba), 183
+force directory security mode(samba), 183
+force group(samba), 170
+force security mode(samba), 183
+force user(samba), 170
+forwarder (dns), 70
+forward lookup query, 61
+fqdn, 66
+fully qualified domain name, 66
+
+G
+getenforce, 211
+getent(1), 191
+getfattr(1), 217
+git, 226
+github, 232
+glue record (dns), 67
+grant(mysql), 48
+group by(mysql), 54
+guest ok (Samba), 157
+
+H
+hide unreadable (Samba), 182
+host (DNS record), 67
+hostname, 66, 143
+hosts.txt, 60
+hosts allow (Samba), 181
+hosts deny (Samba), 182
+
+256
+
+htpasswd(1), 17, 24
+httpd, 7
+
+I
+IBM, 143
+id(1), 216
+identity(selinux), 214
+idmap gid(samba), 188
+idmap uid(samba), 188
+inetd(8), 152
+insert(mysql), 51
+integer(mysql), 49
+invalid users (Samba), 181
+iptables, 122, 123
+iptables save, 127
+iterative query, 70
+ixfr, 74
+
+L
+LAMP, 43
+ls, 213
+ls(1), 217
+
+M
+mac address, 117
+mangle table (iptables), 123
+masquerading, 115
+master server (DNS), 73
+MX (DNS record), 67
+mysql, 43, 45, 46, 47
+mysql(group), 45
+mysql(user), 45
+mysql-client, 44
+mysqld, 45
+mysql-server, 44
+
+N
+NAPT, 115
+NAT, 115
+nat table (iptables), 123
+NetBIOS names, 143
+netcat, 160
+net groupmap, 201
+net rpc join(samba), 189
+net use(microsoft), 159, 164, 175
+net view(microsoft), 146, 151
+nmbd(8), 142
+NS (DNS record), 67
+nslookup, 61
+NT_STATUS_BAD_NETWORK_NAME, 176
+NT_STATUS_LOGON_FAILURE, 176
+
+O
+order by(mysql), 53
+
+P
+packet filtering, 114, 124
+
+Index
+
+packet forwarding, 114
+passdb backend (Samba), 170
+PAT, 115
+Paul Mockapetris, 60
+php, 43
+ping, 117, 118
+port forwarding, 115
+primary dns server, 71
+primary server (DNS), 73
+proxy server, 33
+ps(1), 217
+PTR (DNS record), 67
+public key, 232
+
+Q
+query (dns), 61
+
+R
+read list (Samba), 181
+read only (Samba), 164
+recursive query, 70
+reverse lookup query, 61
+roaming profiles(samba), 200
+role(selinux), 214
+root(DNS), 63
+root(mysql), 44
+root hints, 64
+root server (dns), 69
+root servers (dns), 63
+router, 114
+rpm, 138
+rpm(1), 44
+rpm(8), 139
+
+S
+samba, 138
+secondary dns server, 71
+secondary server (DNS), 73
+security(Samba), 157
+security mask(samba), 183
+security mode(samba), 174
+select(mysql), 51, 52, 52
+SELinux, 209
+selinux, 212
+selinux-activate, 210
+service(8), 141
+sestatus, 212
+setenforce, 211
+show(mysql), 47, 49
+slave server (DNS), 73
+SMB, 143
+smbclient, 149, 158
+smbclient(1), 148, 175
+smbd(8), 142, 146, 169
+smbpasswd(1), 201
+smbpasswd(8), 169, 174
+smbtree, 151
+
+257
+
+smbtree(1), 150
+smtp, 67
+SNAT, 115
+soa (dns record), 71
+SQL, 43, 51
+squid, 33
+stateful firewall, 114
+swat(8), 152
+sysctl, 116
+
+T
+tcpdump, 61, 118
+tdbsam, 170, 196, 198
+testparm(1), 147, 147, 148
+tld, 65
+TLD (dns), 65
+top level domain, 65
+transition(selinux), 216
+trigger(mysql), 55
+triggers(mysql), 44
+type(selinux), 215
+
+U
+update(mysql), 52
+use(mysql), 48
+
+V
+valid users (Samba), 181
+varchar(mysql), 49
+virtualbox, 117
+vmware, 117
+
+W
+wbinfo(1), 190, 191
+webalizer, 27
+winbind(8), 190
+winbind(samba), 188
+winbindd(8), 142, 142, 190
+wireshark, 118
+workgroup, 157
+writable (Samba), 164
+write list (Samba), 181
+
+X
+xinetd(8), 152
+
+Y
+yum, 139
+
+Z
+zone (dns), 66, 71
+zone transfer (dns), 71
+
+Index
+
+258
+
+.

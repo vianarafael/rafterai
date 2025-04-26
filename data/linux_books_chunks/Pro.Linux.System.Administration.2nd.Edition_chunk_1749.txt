@@ -1,0 +1,25 @@
+Checking for modem/concentrators
+
+289
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Select yes like in Figure 7-17.
+
+Figure 7-17.  Okay to Modify? 
+
+Take the defaults in Figure 7-18.
+
+Figure 7-18.  Popular options
+
+290
+
+Enter the ISP username you use to connect to the ISP.
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-19.  ISP username
+
+Enter your ISP password.
+
+Figure 7-20.

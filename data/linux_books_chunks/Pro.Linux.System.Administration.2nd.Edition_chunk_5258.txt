@@ -1,0 +1,7 @@
+Saved Objects tab
+
+Figure 18-6 shows the search interface of Kibana. The default view here is the last 15 minutes of our log 
+
+events. In the top left we can see how many events we can search over (14,094 hits). Just below that is the 
+search bar where we can enter our search queries. Currently, the * means we are searching (and displaying) 
+all 14,094 events.

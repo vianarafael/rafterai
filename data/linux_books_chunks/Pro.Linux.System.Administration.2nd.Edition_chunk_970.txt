@@ -1,0 +1,7 @@
+You also learned what happens when you sign on to your host, as well as about PAM and how to control 
+access to your host.
+
+This chapter also detailed the sudo command and how to use it to avoid the use of the root user 
+
+to administrate your host. Additionally, we examined how to configure sudo to control who can access 
+particular commands and how to report on sudo use.

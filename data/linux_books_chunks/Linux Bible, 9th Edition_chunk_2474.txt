@@ -1,0 +1,8 @@
+For example, it can provide the location of 
+an NTP server (to sync time between clients), font server (to get fonts for your 
+X display), IRC server (for online chats), or print server (to designate available 
+printers).
+
+ ■ Update local network settings—After the settings are received from the DHCP 
+
+server, they are implemented as appropriate on the local Linux system.

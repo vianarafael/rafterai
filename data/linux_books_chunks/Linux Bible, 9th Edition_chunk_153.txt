@@ -1,0 +1,26 @@
+This means to hold the Ctrl key as you 
+
+also press the letter “a” key.
+
+xxxvi
+
+ﬂ ast.indd  04/02/2015  Page xxxvii
+
+Introduction
+
+ ■ Filenames, URLs, and code within the text appear like so: persistence.
+
+properties.
+
+The following items call your attention to points that are particularly important.
+
+A Note box provides extra information to which you need to pay special attention.
+
+A Tip box shows a special way of performing a particular task.
+
+A Caution box alerts you to take special care when executing a procedure, or damage to your computer hardware or 
+software could result.
+
+Jumping into Linux
+If you are new to Linux, you might have vague ideas about what it is and where it came 
+from.

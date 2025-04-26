@@ -1,0 +1,10 @@
+You also have several levels of access that you can then grant to the requesting connection: manage, 
+write, read, search, and auth.
+
+754
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Listing Access Controls
+
+Access controls are attached to the database configuration.

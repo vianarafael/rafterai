@@ -1,0 +1,4 @@
+When most general users are created, 
+a home directory analogous to a Windows profile is also created. This home directory provides users with 
+a place to store their data and is also the default location for many applications to store their user-specific 
+configuration.

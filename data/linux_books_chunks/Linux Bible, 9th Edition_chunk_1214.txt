@@ -1,0 +1,11 @@
+The output from sed goes to stdout, so this command 
+ redirects the output to a ﬁ le for safekeeping.
+
+$ sed 's/Mac/Linux/g' somefile.txt > fixed_file.txt
+
+You can get the same result using a pipe:
+
+$ cat somefile.txt | sed 's/Mac/Linux/g' > fixed_file.txt
+
+By searching for a pattern and replacing it with a null pattern, you delete the original 
+pattern.

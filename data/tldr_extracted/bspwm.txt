@@ -1,0 +1,6 @@
+# bspwm
+
+
+- Start `bspwm` (note that a pre-existing window manager must not be open when this command is run):
+
+`bspwm -c {{path/to/config}}`

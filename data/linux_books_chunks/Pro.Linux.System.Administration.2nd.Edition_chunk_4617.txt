@@ -1,0 +1,6 @@
+However, we have allowed authenticated users the ability to read the groups by specifying 
+users read.
+
+Next, we have the ou=hosts organizational unit. Some people name this unit machines, but the choice is 
+
+yours. It will hold all your host information, IP addresses, locations, and so forth.

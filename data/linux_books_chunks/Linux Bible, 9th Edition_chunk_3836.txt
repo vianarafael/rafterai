@@ -1,0 +1,9 @@
+A 
+ graphical desktop environment may or may not be installed (typically not) on 
+machines that boot to runlevel 3, but the graphical environments must be started 
+after boot time to be used.
+
+ ■ 4—Undeﬁ ned. This runlevel tends to start the same services as runlevel 3. It can 
+
+be used if you want to have different services available from runlevels 3 and 4. This 
+runlevel is typically not used.

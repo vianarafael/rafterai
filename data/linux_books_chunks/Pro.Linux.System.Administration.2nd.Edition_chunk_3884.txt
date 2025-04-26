@@ -1,0 +1,4 @@
+What time window do you have available to schedule 
+backups in? You may be running 24/7 shops that leave little time for offline backup regimens. You may have 
+to perform hot backups (i.e., backups of live hosts at a moment in time), and you may not have much time to 
+do this in.

@@ -1,0 +1,10 @@
+On the NFS client, create a directory called /var/remote and temporarily mount 
+
+the /var/mystuff directory from the NFS server on that mount point.
+
+9.  On the NFS client, unmount /var/remote, add an entry so that the same mount 
+
+is done automatically when you reboot (with a bg mount option), and test that the 
+entry you created is working properly.
+
+10.

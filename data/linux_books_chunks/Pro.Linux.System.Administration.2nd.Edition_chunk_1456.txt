@@ -1,0 +1,7 @@
+It is also 
+handy in these situations to combine your investigations with other tools, one of which is mtr.
+
+MTR
+If you can ping hosts inside your network but can’t ping hosts outside your network, you can use a tool like 
+traceroute or mtr for troubleshooting. Both provide a similar service: they trace the route they use to get to 
+the destination host.

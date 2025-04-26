@@ -1,0 +1,15 @@
+Windows 
+ systems have their own version of ping that you can use from those systems.
+
+If the name-to-address resolution is working to reach your system and you can ping your 
+server from the outside, the next thing to try is the availability of the service.
+
+577
+
+c21.indd  04/01/2015  Page 578
+
+Part IV: Becoming a Linux Server Administrator
+
+Check if the service is available to the client
+From a Linux client, you can check if the service you are looking for (in this case httpd) is 
+available from the server.

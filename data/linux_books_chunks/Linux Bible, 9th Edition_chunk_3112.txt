@@ -1,0 +1,10 @@
+These blocks take the following form:
+
+<locationtag specifier>
+(options specific to objects matching the specifier go within this 
+   block)
+</locationtag>
+
+Different types of location tags exist and are selected based on the type of resource 
+ location that is being speciﬁ ed. The speciﬁ er included in the start tag is handled based on 
+the type of location tag.

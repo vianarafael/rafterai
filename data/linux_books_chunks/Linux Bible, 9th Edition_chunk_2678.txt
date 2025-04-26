@@ -1,0 +1,11 @@
+This is a common runlevel for servers.
+
+User Defi ned
+
+Users can customize this runlevel.
+
+Graphical 
+Mode
+
+Users can log in to the server. Command line and graphical 
+ interfaces are  available. Network services are started.

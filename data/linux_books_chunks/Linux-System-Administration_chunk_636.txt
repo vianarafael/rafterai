@@ -1,0 +1,9 @@
+/boot/grub/grub.conf
+
+Distributions like Red Hat Enterprise Linux 6 use grub.conf and provide a symbolic link
+from /boot/grub/menu.lst and from /etc/grub.conf to this file.
+
+[root@centos65 ~]# ls -l /boot/grub/menu.lst
+lrwxrwxrwx. 1 root root 11 Mar  7 11:53 /boot/grub/menu.lst -> ./grub.conf
+[root@centos65 ~]# ls -l /boot/grub/grub.conf
+-rw-------.

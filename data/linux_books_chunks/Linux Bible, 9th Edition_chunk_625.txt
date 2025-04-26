@@ -1,0 +1,5 @@
+The last directory shown is the bin directory in the user’s home directory 
+(/home/chris/bin).
+
+If you want to add your own commands or shell scripts, place them in the bin directory in your home directory (such 
+as /home/chris/bin for the user named chris).

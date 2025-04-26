@@ -1,0 +1,4 @@
+Having more than one AD allows for ease of maintenance (you can perform maintenance on one while still 
+serving with the other), reliability, and availability.
+
+First you need to install the software.

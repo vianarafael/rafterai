@@ -1,0 +1,84 @@
+yum software groups
+
+Issue yum grouplist to see a list of all available software groups.
+
+[root@rhel55 ~]# yum grouplist
+Loaded plugins: rhnplugin, security
+Setting up Group Process
+Installed Groups:
+   Administration Tools
+   Authoring and Publishing
+   DNS Name Server
+   Development Libraries
+   Development Tools
+   Editors
+   GNOME Desktop Environment
+   GNOME Software Development
+   Graphical Internet
+   Graphics
+   Legacy Network Server
+   Legacy Software Development
+   Legacy Software Support
+   Mail Server
+   Network Servers
+   Office/Productivity
+   Printing Support
+   Server Configuration Tools
+   System Tools
+   Text-based Internet
+   Web Server
+   Windows File Server
+   X Software Development
+   X Window System
+Available Groups:
+   Engineering and Scientific
+   FTP Server
+   Games and Entertainment
+   Java Development
+   KDE (K Desktop Environment)
+   KDE Software Development
+   MySQL Database
+   News Server
+   OpenFabrics Enterprise Distribution
+   PostgreSQL Database
+   Sound and Video
+Done
+
+243
+
+package management
+
+To  install  a  set  of  applications,  brought  together  via  a  group,  use  yum  groupinstall
+$groupname.
+
+[root@rhel55 ~]# yum groupinstall 'Sound and video'
+Loaded plugins: rhnplugin, security
+Setting up Group Process
+Package alsa-utils-1.0.17-1.el5.i386 already installed and latest version
+Package sox-12.18.1-1.i386 already installed and latest version
+Package 9:mkisofs-2.01-10.7.el5.i386 already installed and latest version
+Package 9:cdrecord-2.01-10.7.el5.i386 already installed and latest version
+Package cdrdao-1.2.1-2.i386 already installed and latest version
+Resolving Dependencies
+--> Running transaction check
+---> Package cdda2wav.i386 9:2.01-10.7.el5 set to be updated
+---> Package cdparanoia.i386 0:alpha9.8-27.2 set to be updated
+---> Package sound-juicer.i386 0:2.16.0-3.el5 set to be updated
+--> Processing Dependency: libmusicbrainz >= 2.1.0 for package: sound-juicer
+--> Processing Dependency: libmusicbrainz.so.4 for package: sound-juicer
+---> Package vorbis-tools.i386 1:1.1.1-3.el5 set to be updated
+--> Processing Dependency: libao >= 0.8.4 for package: vorbis-tools
+--> Processing Dependency: libao.so.2 for package: vorbis-tools
+--> Running transaction check
+---> Package libao.i386 0:0.8.6-7 set to be updated
+---> Package libmusicbrainz.i386 0:2.1.1-4.1 set to be updated
+--> Finished Dependency Resolution
+...
+
+Read the manual page of yum for more information about managing groups in yum.
+
+244
+
+package management
+
+20.7.8.

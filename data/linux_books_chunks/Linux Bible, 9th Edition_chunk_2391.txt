@@ -1,0 +1,7 @@
+That way, if you ever need to 
+switch the loghost duties to a different machine, you need to change only the loghost alias; 
+you do not need to re-edit the syslog.conf ﬁ le on every computer.
+
+On the loghost side
+The loghost that is set to accept the messages must listen for those messages on standard 
+ports (514 UDP, although it can be conﬁ gured to accept messages on 514 TCP as well).

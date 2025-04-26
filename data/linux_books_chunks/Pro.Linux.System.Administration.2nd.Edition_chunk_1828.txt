@@ -1,0 +1,2 @@
+These are small db files that contain things 
+like file lists and package lists.

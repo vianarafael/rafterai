@@ -1,0 +1,7 @@
+These commands take advantage of polite routers that send back “TTL expired in transit” messages when 
+they kill your packet.
+
+Let’s take a look at an example. If we do a ping to www.ibm.com and set the TTL to 1, it gets to the first 
+
+router along the path to whatever www.ibm.com resolves to. That first router looks at the TTL and sees that it 
+is 1.

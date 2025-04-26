@@ -1,0 +1,3 @@
+Your Linux system comes with security contexts already assigned.
+
+To view current SELinux ﬁ le and process security contexts, use the secon command.

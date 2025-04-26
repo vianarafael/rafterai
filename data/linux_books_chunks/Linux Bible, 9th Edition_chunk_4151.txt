@@ -1,0 +1,6 @@
+The items you choose to implement must be determined by your organiza-
+tion’s security needs.
+
+Managing software and services
+Often, the administrator’s focus is on making sure the needed software and services are on 
+a Linux system.

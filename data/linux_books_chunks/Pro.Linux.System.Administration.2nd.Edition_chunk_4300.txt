@@ -1,0 +1,6 @@
+For more 
+information on taps or tuns, visit https://www.kernel.org/doc/Documentation/networking/tuntap.txt.
+
+Next, we’ve specified two options, port 1194 and proto udp. These tell OpenVPN to listen for UDP 
+
+traffic on port 1194 when making VPN connections.

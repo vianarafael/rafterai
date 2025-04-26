@@ -1,0 +1,3 @@
+In the code that follows, 
+the --decrypt option is used along with the name of the digitally signed ﬁ le, JohnDoe.
+DS. The ﬁ le’s message is decrypted and shown.

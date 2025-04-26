@@ -1,0 +1,6 @@
+Make 
+sure all key and certiﬁ cate ﬁ les exist and that they are in the proper format (use openssl 
+to examine them).
+
+For other error messages, try doing a web search to see whether somebody else has encoun-
+tered the problem.

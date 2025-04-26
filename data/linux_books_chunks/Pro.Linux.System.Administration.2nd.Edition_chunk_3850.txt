@@ -1,0 +1,7 @@
+To demonstrate this, we will then attach our printer to a 
+client.
+
+Installing and Configuring CUPS
+
+You can configure your printers from the command line and by hand-editing your CUPS configuration 
+files (though it’s not recommended).

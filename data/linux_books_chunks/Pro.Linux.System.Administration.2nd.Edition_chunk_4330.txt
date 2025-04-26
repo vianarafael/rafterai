@@ -1,0 +1,8 @@
+It’s a 2,048-bit DH parameter 
+
+file, and we’ve specified the size using the 2048 option. This will be a sufficiently safe key size for several 
+years, but you can increase this to 4,096 if you want longer protection from future cracking.
+
+One more thing we will quickly do is create a tls-auth key. This is also used to provide greater security 
+
+to the TLS channel by using a pre-shared key.

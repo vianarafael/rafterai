@@ -1,0 +1,9 @@
+For example, 
+ information generated from the /etc/grub.d/00_header ﬁ le comes right after this 
+ comment line:
+
+### BEGIN /etc/grub.d/00_header ###
+
+In the beginning of the 00_header section, there are some functions, such as those that 
+load drivers to get your video display to work. After that, most of the sections in the 
+grub.cfg ﬁ le consist of menu entries.

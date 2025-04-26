@@ -1,0 +1,6 @@
+The –H argument is the URI we want to attach to, ldapi:///, which is saying, connect to local LDAP 
+server via the Unix socket on the local host. With this we can pass the UID and GID of the user to the LDAP 
+server for authentication. Next, -b defines the search base; we are searching in the cn=config DIT for each 
+dn (or distinguished name) by using dn as a filter.
+
+Listing 16-1.

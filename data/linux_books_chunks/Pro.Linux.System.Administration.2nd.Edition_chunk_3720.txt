@@ -1,0 +1,10 @@
+We need to make sure that the appropriate groups can access the shares we 
+have defined, and we will do that shortly.
+
+$ sudo mkdir –p /data/staff/sales
+$ sudo chown exbackup –R /data/staff
+
+ any of these user and group ids are arbitrary, and they may already be used on your host. You may 
+
+ ■ Note 
+want to choose a different range for your network.

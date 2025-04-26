@@ -1,0 +1,5 @@
+With some tools, when root privilege is 
+needed, you are prompted for the root password.
+
+Tasks that can be done by only the root user tend to be those that affect the system as 
+a whole or impact the security or health of the system.

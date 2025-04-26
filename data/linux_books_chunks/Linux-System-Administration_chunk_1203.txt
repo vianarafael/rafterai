@@ -1,0 +1,4 @@
+initrd
+
+The  kernel  uses  initrd  (an  initial  RAM  disk)  at  boot  time.  The  initrd  is  mounted  before
+the kernel loads, and can contain additional drivers and modules.

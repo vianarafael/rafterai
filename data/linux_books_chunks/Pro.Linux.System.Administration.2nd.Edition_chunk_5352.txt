@@ -1,0 +1,7 @@
+The default setting for register is 1, which means 
+any object definition that doesn’t explicitly specify register 0 will be assumed to be a real host object and 
+will be monitored by Nagios.
+
+Now let’s take a quick look at the parent template, generic-host, shown in Listing 18-18.
+
+Listing 18-18.

@@ -1,0 +1,3 @@
+ownership of files
+
+We can use this user as owner of files and directories, instead of using the root account.

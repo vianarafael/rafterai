@@ -1,0 +1,4 @@
+If the write permission is set on a directory, you 
+are able to create, delete, and rename files in that directory. Execute permissions allow you to run a file; for 
+example, all binary files and commands (binary files are similar to Windows executables) must be marked 
+executable to allow you to run them.

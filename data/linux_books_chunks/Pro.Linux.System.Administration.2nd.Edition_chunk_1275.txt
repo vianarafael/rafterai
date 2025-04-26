@@ -1,0 +1,2 @@
+this leaves you with 128 bits–48 bits for your 
+available address space, or 80 bits.

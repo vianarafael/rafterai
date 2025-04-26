@@ -1,0 +1,16 @@
+(This and hosts.deny are part of the TCP Wrappers 
+service.)
+
+ ■ hosts.deny—Lists host computers that are not allowed to use certain TCP/IP ser-
+vices from the local computer (although this ﬁ le is used if you create it, it doesn’t 
+exist by default).
+
+186
+
+c08.indd  04/01/2015  Page 187
+
+Chapter 8: Learning System Administration
+
+ ■ inittab—On earlier Linux systems, contained information that deﬁ ned which 
+programs start and stop when Linux boots, shuts down, or goes into different 
+states in between.

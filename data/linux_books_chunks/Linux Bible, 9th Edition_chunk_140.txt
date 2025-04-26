@@ -1,0 +1,8 @@
+That said, many software developers have also 
+used this book to understand how to work on a Linux system as a development platform or 
+target for their applications.
+
+ ■ Emphasis on command-line tools: Although point-and-click interfaces for managing 
+
+Linux have improved greatly in recent years, many advanced features can only be utilized 
+by typing commands and editing conﬁ guration ﬁ les manually.

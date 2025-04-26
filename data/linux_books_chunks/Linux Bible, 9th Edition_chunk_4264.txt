@@ -1,0 +1,5 @@
+Hashing needs some special attention because it is often confused with encryption.
+
+Understanding hashing
+Hashing is not encryption, but it is a form of cryptography. Remember from Chapter 22 
+that hashing is a one-way mathematical process used to create cipher text.

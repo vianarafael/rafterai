@@ -1,0 +1,6 @@
+You can use the –vvv option to 
+increase the verbosity of the ansible command output, which should help you track down any connection 
+issues.
+
+Imagine we needed for some reason to restart sshd on all our hosts. That would be a difficult task to 
+manage each host individually. We have only around five different hosts, but you could have thousands.

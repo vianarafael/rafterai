@@ -1,0 +1,9 @@
+who am i
+
+With who am i the who command will display only the line pointing to your current session.
+
+[paul@centos7 ~]$ who am i
+paul     pts/1        2014-10-10 23:30 (10.104.33.101)
+[paul@centos7 ~]$
+
+1.4.

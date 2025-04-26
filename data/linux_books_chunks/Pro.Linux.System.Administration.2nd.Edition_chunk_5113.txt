@@ -1,0 +1,10 @@
+Logging to a Remote System
+
+mail     @backup.example.com
+
+In this example, all mail messages are sent to the host backup.example.com.
+To send all logs, we’d use this syntax:
+
+*.*     @backup.example.com
+
+rsyslog uses UDP port 514 to transmit log messages.

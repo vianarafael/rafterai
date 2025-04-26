@@ -1,0 +1,7 @@
+On Ubuntu, type sudo apt-get 
+install selinux-policy-doc at the command line.
+
+You can review this policy documentation to see how policy rules are created and packaged.
+
+The policy rule packages, along with the SELinux operation mode, policy type, and various 
+security contexts, work together to secure your Linux system via SELinux.

@@ -1,0 +1,20 @@
+Built-in Chains
+
+Chain
+
+INPUT
+
+FORWARD
+
+OUTPUT
+
+PREROUTING
+
+POSTROUTING
+
+Description
+
+Used to sequence rules for packets coming to the host interface(s). Found in the 
+filter, mangle and security tables only.
+
+Used to sequence rules for packets destined for another host.

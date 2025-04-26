@@ -1,0 +1,7 @@
+Find descriptions of these ﬁ les in the /usr/share/doc/
+initscripts*/sysconfig.txt ﬁ le.
+
+Network interface files
+Conﬁ guration ﬁ les for each wired, wireless, ISDN, dialup, or other type of network interface 
+are represented by ﬁ les in the /etc/sysconfig/network-scripts directory that begin 
+with ifcfg-interface.

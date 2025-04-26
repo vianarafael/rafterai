@@ -1,0 +1,7 @@
+There we 
+can see that the host gateway, the host dc1 and the backup server are all now logging to our backup server.
+
+856
+
+Starting and Stopping rsyslog
+The rsyslogd daemon is usually started when your system boots up.

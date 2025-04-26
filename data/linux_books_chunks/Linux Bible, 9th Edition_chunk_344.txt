@@ -1,0 +1,10 @@
+Chapter 13 describes how to use 
+the sar command.
+
+ ■ Shell scripting—Create a simple shell script to take input and produce output in 
+
+various ways. Shell scripting is described in Chapter 7.
+
+ ■ Remote logging—Conﬁ gure the rsyslogd facility to gather log messages and 
+
+distribute them to a remote logging server.

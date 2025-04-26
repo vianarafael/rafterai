@@ -1,0 +1,28 @@
+27
+
+c02.indd  04/01/2015  Page 29
+
+C H A P T E R 
+
+2
+
+Creating the Perfect Linux 
+Desktop
+
+IN THIS CHAPTER
+
+Understanding the X Window System and desktop environments
+
+Running Linux from a Live CD/DVD
+
+Navigating the GNOME 3 desktop
+
+Adding extensions to GNOME 3
+
+Using Nautilus to manage fi les in GNOME 3
+
+Working with the GNOME 2 desktop
+
+Enabling 3D effects in GNOME 2
+
+U sing Linux as your everyday desktop system is becoming easier to do all the time.

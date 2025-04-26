@@ -1,0 +1,6 @@
+Next, I describe how to manage user accounts from 
+centralized authentication servers using the Authentication Conﬁ guration window.
+
+Setting permissions with Access Control Lists
+The Access Control List (ACL) feature was created so regular users could share their ﬁ les 
+and directories selectively with other users and groups.

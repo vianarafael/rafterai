@@ -1,0 +1,15 @@
+This netlogon share is something the 
+Windows client needs to connect to even if it is empty
+
+60
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+3. Configuring an NFS server
+
+“ The NFS protocol is designed to be portable across different machines, 
+operating systems, network architectures, and transport protocols.

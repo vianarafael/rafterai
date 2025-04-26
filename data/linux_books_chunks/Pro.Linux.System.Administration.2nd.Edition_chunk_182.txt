@@ -1,0 +1,6 @@
+Only if you are using desktop applications like 
+graphical editors or integrated development environments (IDes) do you really need to use a desktop gUI.
+
+In Figure 2-21 we are going to install the desktop. CentOS provides two standard Linux desktops for you 
+
+to choose from, Gnome being one, and KDE being the other.

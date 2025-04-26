@@ -1,0 +1,13 @@
+However, if you are blocking access 
+in the hosts.deny ﬁ le to all services that have not been explicitly allowed (by adding an 
+ALL:ALL line to hosts.deny), adding a line such as the following to the beginning of the 
+/etc/hosts.allow ﬁ le allows access to the vsftpd server:
+
+vsftpd:   ALL :  ALLOW
+
+For more information on how to use TCP wrappers, refer to Chapter 25, “Securing Linux on a 
+Network,” or the hosts.allow man page (type man hosts.allow).
+
+Confi guring SELinux for your FTP server
+If SELinux is set to Permissive or Disabled, it does not block access to the vsftpd service 
+in any way.

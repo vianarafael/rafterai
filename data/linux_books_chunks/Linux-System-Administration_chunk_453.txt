@@ -1,0 +1,27 @@
+See this (truncated) screenshot:
+
+[root@rhel6c ~]# fdisk /dev/sdd
+...
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 1
+First cylinder (1-1044, default 1): 
+Using default value 1
+Last cylinder, +cylinders or +size{K,M,G} (1-1044, default 1044): 
+Using default value 1044
+
+Command (m for help): t
+Selected partition 1
+Hex code (type L to list codes): fd
+Changed system type of partition 1 to fd (Linux raid autodetect)
+
+Command (m for help): w
+The partition table has been altered!
+
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+10.3.3.

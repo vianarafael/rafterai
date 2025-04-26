@@ -1,0 +1,15 @@
+The sudo command does require you to enter your own password.
+Thus the password prompt in the screenshot below is for sudo, not for su.
+
+paul@laika:~$ sudo su -
+Password:
+root@laika:~#
+
+1.14. sudo logging
+
+Using sudo without authorization will result in a severe warning:
+
+paul@rhel65:~$ sudo su -
+
+We trust you have received the usual lecture from the local System
+Administrator.

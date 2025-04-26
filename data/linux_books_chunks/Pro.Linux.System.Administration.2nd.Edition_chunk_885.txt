@@ -1,0 +1,11 @@
+To remove our interactive delete we would use this:
+
+$ unalias ll
+
+169
+
+Chapter 5 ■ Users and GroUps
+
+To read more about aliases, see the ALIASES section of the bash man page.
+The Bash shell is extremely powerful and flexible, and it can make everyday administration tasks 
+very easy.

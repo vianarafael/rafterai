@@ -1,0 +1,4 @@
+Using live CDs or live USB 
+drives offered by Ubuntu, you could have Ubuntu up and running in just a few minutes. 
+Often included on live CDs were open source applications, such as web browsers and word 
+processors, that actually ran in Windows.

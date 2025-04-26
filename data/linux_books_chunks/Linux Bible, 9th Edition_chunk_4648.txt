@@ -1,0 +1,6 @@
+Then 
+restart the sshd service so the service listens on the nonstandard port 47347.
+
+Moving files and losing security context labels
+You used the cp command to move a ﬁ le from /etc temporarily to the /tmp directory. 
+Then you used the mv command to put it back.

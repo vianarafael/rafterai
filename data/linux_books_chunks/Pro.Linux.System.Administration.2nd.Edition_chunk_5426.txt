@@ -1,0 +1,8 @@
+If they do, the command will be successful, and the user will 
+be added to the specified password file.
+
+We can then use this username and password to sign in to the Nagios console and display the console 
+
+screen, as you can see in Figure 18-10.
+
+Figure 18-10.

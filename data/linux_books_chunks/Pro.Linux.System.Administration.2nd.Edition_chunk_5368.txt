@@ -1,0 +1,8 @@
+This is done before it marks the 
+service as not OK. During this retry period, instead of checking once every 5 minutes as specified in normal_
+check_interval, the check is made every 1 minute as specified in retry_check_interval.
+
+ nagios has the concepts of soft and hard states. When a check fails, we’ve discovered nagios 
+
+ ■ Note 
+checks it the number of times specified by max_check_attempts.

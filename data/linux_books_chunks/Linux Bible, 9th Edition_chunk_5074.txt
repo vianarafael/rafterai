@@ -1,0 +1,9 @@
+Select EC2, and you see the EC2 Management Console, as shown in Figure 27.4.
+
+FIGURE 27.4
+
+Launch cloud instances using the Amazon EC2 Management Console.
+
+To start your ﬁ rst instance, select the Launch Instance button. You are then given a choice 
+of Linux (Red Hat Enterprise Linux, SUSE Linux, Ubuntu, and so on) and Windows images 
+to start up.

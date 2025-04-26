@@ -1,0 +1,33 @@
+14
+
+375
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c15.indd  04/01/2015  Page 377
+
+Starting and Stopping Services
+
+C H A P T E R 
+
+15
+
+IN THIS CHAPTER
+
+Understanding the various Linux init services
+
+Auditing Linux daemon-controlled services
+
+Stopping and starting services
+
+Changing the Linux server’s default runlevel
+
+Removing services
+
+T he primary job of a Linux server system is to offer services to local or remote users.

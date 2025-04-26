@@ -1,0 +1,6 @@
+In most cases, you can ﬁ nd a solution within the ﬁ rst few matches.
+
+If you aren’t getting enough information in the ErrorLog, you can conﬁ gure it to log 
+more information using the LogLevel directive. The options available for this directive, in 
+increasing order of verbosity, are emerg, alert, crit, error, warn, notice, info, and 
+debug.

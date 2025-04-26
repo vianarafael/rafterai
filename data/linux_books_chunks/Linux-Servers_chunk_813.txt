@@ -1,0 +1,8 @@
+1 root root 1, 3 Apr 12 19:40 null
+-r--------.  1 root root    0 Apr 12 19:40 policy
+dr-xr-xr-x.  2 root root    0 Apr 12 19:40 policy_capabilities
+-r--r--r--.  1 root root    0 Apr 12 19:40 policyvers
+-r--r--r--.  1 root root    0 Apr 12 19:40 reject_unknown
+-rw-rw-rw-.  1 root root    0 Apr 12 19:40 relabel
+-r--r--r--.  1 root root    0 Apr 12 19:40 status
+-rw-rw-rw-.

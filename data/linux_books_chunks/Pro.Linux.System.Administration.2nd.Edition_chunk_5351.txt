@@ -1,0 +1,4 @@
+This attribute is 
+
+what tells Nagios that this is a template rather than a real host definition; when register is set to 0, Nagios 
+doesn’t try to create the host object. Instead, it ignores it.

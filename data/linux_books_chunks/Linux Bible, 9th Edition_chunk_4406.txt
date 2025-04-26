@@ -1,0 +1,4 @@
+For example, the system-auth-ac ﬁ le can be modiﬁ ed to force 
+certain password restrictions.
+
+Modifying or deleting PAM system event confi guration fi les incorrectly can lock you out of your own system.

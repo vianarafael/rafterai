@@ -1,0 +1,20 @@
+Good  iptables
+tutorials can be found online here http://iptables-tutorial.frozentux.net/iptables-tutorial.html
+and here http://tldp.org/HOWTO/IP-Masquerade-HOWTO/.
+
+7.2. practice : iptables
+
+1. Verify whether the firewall is running.
+
+2. Stop the running firewall.
+
+66
+
+    
+    
+  
+introduction to networking
+
+7.3. solution : iptables
+
+1.

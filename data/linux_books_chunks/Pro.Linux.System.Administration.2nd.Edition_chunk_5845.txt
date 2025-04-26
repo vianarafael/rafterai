@@ -1,0 +1,6 @@
+Choosing either puppet or ansible is fine here, so we will use the copy 
+command to add the other.
+
+We have now set up Serverspec. There is a spec directory that has been created, and Serverspec is 
+
+managed via the spec/spec_helper.rb file.

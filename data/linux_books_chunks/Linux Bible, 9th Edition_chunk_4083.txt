@@ -1,0 +1,6 @@
+Obviously, choosing good passwords is 
+critical to having a secure system.
+
+Choosing good passwords
+In general, a password must not be easy to guess, be common or popular, or be linked to 
+you in any way.

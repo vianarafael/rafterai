@@ -1,0 +1,6 @@
+If we do not specify an IP address for the forward starting point, it 
+will be accessible only to local users, while it will be available to any users on the same network as the tunnel 
+starting point if we specify an accessible address.
+
+Since this requires quite a lot of typing, it’s easier to define commonly used tunnels in the SSH client 
+configuration file.

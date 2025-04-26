@@ -1,0 +1,11 @@
+(A tarball is a single ﬁ le in which  multiple 
+ﬁ les are gathered together for convenient storage or distribution.) When you install  software 
+from a tarball, the ﬁ les from that tarball might be spread across your Linux  system in 
+ appropriate directories (/usr/share/man, /etc, /bin, and /lib, to name a few).
+
+Although it is easy to create a tarball and just drop a set of software onto your Linux 
+ system, this method of installing software makes it difﬁ cult to do these things:
+
+ ■ Get dependent software—You would need to know if the software you were 
+
+installing depended on other software being installed for your software to work.

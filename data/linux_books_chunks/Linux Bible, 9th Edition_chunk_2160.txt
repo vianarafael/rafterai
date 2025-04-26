@@ -1,0 +1,27 @@
+For example, here’s how to check 
+
+303
+
+c12.indd  04/01/2015  Page 304
+
+Part III: Becoming a Linux System Administrator
+
+your available swap space, create a swap ﬁ le, enable the swap ﬁ le, and then check that the 
+space is available on your system:
+
+# free -m
+         total    used     free    shared  buffers  cached
+Mem:      1955     663     1291         0       42     283
+-/+ buffers/cache:          337      1617
+Swap:      819       0      819
+# dd if=/dev/zero of=/var/tmp/myswap bs=1M count=1024
+# mkswap /var/opt/myswap
+# swapon /var/opt/myswap
+# free -m
+         total    used     free  shared  buffers     cached
+Mem:      1955    1720      235       0       42       1310
+-/+ buffers/cache:          367    1588
+Swap:     1843       0     1843
+
+The free command shows the amount of swap before and after creating, making, and 
+enabling the swap area with the swapon command.

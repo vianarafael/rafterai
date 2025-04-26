@@ -1,0 +1,4 @@
+CentOS and Ubuntu both have separate files that define the 
+common authentication configuration. Many of the service files reference and include this common 
+configuration. On CentOS, this file is /etc/pam.d/system-auth, which is automatically generated when you 
+install your host and is updated with a special command called authconfig.

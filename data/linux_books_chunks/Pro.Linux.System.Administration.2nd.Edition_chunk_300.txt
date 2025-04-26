@@ -1,0 +1,9 @@
+If you choose the Minimal ISO your download will be 
+quicker but you will have to download any extra packages (applications) from the Internet when you need 
+them.
+
+In this example we are installing CentOS from the following download link: http://isoredirect.
+
+CentOS.org/CentOS/7/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso.
+
+The VirtualBox application runs like any other application on desktop.

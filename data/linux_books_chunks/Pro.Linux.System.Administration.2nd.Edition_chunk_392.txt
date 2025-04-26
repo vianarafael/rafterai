@@ -1,0 +1,6 @@
+The port 
+forwarding for 80 => 8080 is next and then we wait for the machine to boot. When it does we create a set of 
+SSH keys that we use to sign into the host. The public key of this key pair is injected into the machine. Finally 
+we get the machine is booted and ready.
+
+Listing 3-12.

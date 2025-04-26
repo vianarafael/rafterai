@@ -1,0 +1,10 @@
+You can use only the ﬁ ve options 
+listed here.
+
+ ■ -b default_home—Set the default directory in which user home directories are 
+created. Replace default_home with the directory name to use (for example, -b 
+/garage). Usually, this is /home.
+
+ ■ -e default_expire_date—Set the default expiration date on which the user 
+
+account is disabled.

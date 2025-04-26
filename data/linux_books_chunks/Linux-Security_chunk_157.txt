@@ -1,0 +1,3 @@
+login shell
+
+The /etc/passwd file specifies the login shell for the user.

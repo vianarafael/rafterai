@@ -1,0 +1,16 @@
+ubuntu has used LSB-compliant init.d scripts for many 
+releases now.
+
+The rest of the contents of the postfix init script (which we’ve omitted from Listing 6-10) are the 
+
+instructions used to start, stop, and sometimes query the status of the application or service managed by 
+the script.
+
+202
+
+Chapter 6 ■ Startup and ServiCeS
+
+HOW SYSTEMD EMULATES SYSV INIT
+
+Systemd is has been implemented with support for backward compatibility with Sysv init (and upstart, 
+as it happens).

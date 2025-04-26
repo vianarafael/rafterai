@@ -1,0 +1,5 @@
+creating the users on Linux
+
+The goal of this example is to set up a file share accessible to a number of different users.
+The users will need to authenticate with their password before access to this share is granted.
+We will first create three randomly named users, each with their own password.

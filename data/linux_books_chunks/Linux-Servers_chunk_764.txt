@@ -1,0 +1,19 @@
+local or roaming profiles
+
+For your information, if you want to force local profiles instead of roaming profiles, then
+simply add the following two lines to the global section in smb.conf.
+
+199
+
+ 
+ 
+ 
+ 
+samba domain controller
+
+logon home =
+logon path =
+
+Microsoft  computers  store  a  lot  of  User  Metadata  and  application  data  in  a  user  profile.
+Making this profile available on the network will enable users to keep their Desktop and
+Application  settings  across  computers.

@@ -1,0 +1,5 @@
+For example, this makes using noncommercial certificates for 
+an e-commerce site problematic.
+
+However, things have changed more recently. There has been a big push to encrypt the Internet in an 
+effort to make the Internet more secure.

@@ -1,0 +1,8 @@
+The systemd-journal-remote user will 
+
+need to be able to read the private key file. Next we need to make some additional filesystem changes.
+
+$ sudo mkdir –p /var/log/journal/remote && sudo chown systemd-journal-remote /var/log/
+journal/remote
+
+By default the remote journal service will listen on port 19532.

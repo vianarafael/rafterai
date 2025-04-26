@@ -1,0 +1,12 @@
+What is that blue screen for?"
+elif [ $opsys = Linux ] ; then
+  echo "Great Choice!"
+else
+  echo "Is $opsys an operating system?"
+fi
+
+5.  To create a script named $HOME/bin/animals that runs the words moose, cow, 
+goose, and sow through a for loop and have each of those words appended to the 
+end of the line, “I have a…,” do the following:
+
+a.

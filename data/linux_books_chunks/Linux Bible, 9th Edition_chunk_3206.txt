@@ -1,0 +1,4 @@
+Use the openssl command to generate the CSR. The result is a CSR ﬁ le in the 
+current directory named server.csr. When you enter the information, the 
+Common Name should match the name that clients will use to access your server. 
+Be sure to get the other details right so it can be validated by a third-party CA.

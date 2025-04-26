@@ -1,0 +1,9 @@
+The first line after the log date range 
+
+information is the cursor position information, or the entry’s position in the journal. The rest are key/value 
+pairs with a wealth of filterable data. Let’s now look at some common filters.
+
+journalctl Filters
+
+The great thing about the journal logging facility is that it is structured, meaning that we can filter 
+information we are interested in easily.

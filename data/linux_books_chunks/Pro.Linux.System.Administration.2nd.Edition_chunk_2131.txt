@@ -1,0 +1,27 @@
+Linux Filesystems and Their Main Features
+
+Filesystem
+
+Features
+
+Ext2
+
+Ext3
+
+Ext4
+
+XFS
+
+Btrfs
+
+Stable, general use, can be shrunk or expanded
+
+Stable, general use, quick recovery, can be shrunk or expanded
+
+Stable, general use, quick recovery, improves on ext3
+
+Stable, general use, quick recovery, can be expanded online
+
+Unstable, fault-tolerant, copy on write (COW), pooling, and multi-device spanning
+
+The ext2 and ext3 filesystems are older filesystems.

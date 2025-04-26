@@ -1,0 +1,14 @@
+When done, it processes triggers that may 
+
+be defined by the packages just added and rechecks the package status database to make sure everything 
+succeeded.
+
+Now we can check to see that nmap is installed by executing the following from the command line.
+
+$ nmap –v
+Starting Nmap 7.01 ( https://nmap.org ) at 2016-05-31 23:37 AEST
+
+THE APT CACHE
+
+When you install packages from the Internet, they are first downloaded to your computer and stored in 
+a cache located at /var/cache/apt/archives.

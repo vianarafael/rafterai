@@ -1,0 +1,11 @@
+The 
+
+configuration file is located here: /etc/kibana/kibana.yml.
+
+server.port: 5601
+server.host: "192.168.0.250"
+elasticsearch.url: "http://localhost:9200"
+
+Here we are setting up our Kibana server with the following settings. We specify the port to listen on, the 
+
+IP address to listen on, and where it can find the Elasticsearch service.

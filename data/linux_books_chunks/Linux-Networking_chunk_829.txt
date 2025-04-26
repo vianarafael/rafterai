@@ -1,0 +1,10 @@
+Verify that another (Microsoft) computer can see your Samba server.
+
+9. Browse the network with net view, smbtree and with Windows Explorer.
+
+10. Change the "Server String" parameter in smb.conf. How long does it take before you see
+the change (net view, smbclient, My Network Places,...) ?
+
+11. Will restarting Samba after a change to smb.conf speed up the change ?
+
+12.

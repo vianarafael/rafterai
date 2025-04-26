@@ -1,0 +1,6 @@
+The IPv6 tab sets how connections to IPv6 networks are made from this 
+Interface (also Automatic, by default). Later in this chapter, you learn how to manually 
+conﬁ gure IPv4 network interfaces.
+
+The Security tab lets you set up secure connections to remote systems using 802.1x 
+ speciﬁ cations from the IEEE.

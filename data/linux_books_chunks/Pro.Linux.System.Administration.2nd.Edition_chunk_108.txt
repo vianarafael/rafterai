@@ -1,0 +1,4 @@
+Now we need to partition our disk.
+
+Partitioning a disk is like slicing a cake: you can choose how big each “slice” of cake should be, 
+depending on the appetite of those eating the cake.

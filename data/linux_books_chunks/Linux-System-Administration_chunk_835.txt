@@ -1,0 +1,14 @@
+You can
+see the swap space with the free command, or with cat /proc/swaps.
+
+paul@ubu1010:~$ free -o | grep -v Mem
+           total       used       free     shared    buffers     cached
+Swap:    6384636      84988    6299648
+paul@ubu1010:~$ cat /proc/swaps
+Filename                Type            Size     Used   Priority
+/dev/sda3               partition       6384636  84988  -1
+
+The amount of swap space that you need depends heavily on the services that the computer
+provides.
+
+18.2.2.

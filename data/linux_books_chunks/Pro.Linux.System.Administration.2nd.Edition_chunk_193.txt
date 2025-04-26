@@ -1,0 +1,8 @@
+Remember to store this securely like you have the disk encryption 
+password.
+
+Here in Figure 2-25 you are again given an indicator of how strong your password is as you enter it. It 
+
+also won’t accept your password unless your confirmation matches. When you are finished select Done.
+
+Figure 2-25.

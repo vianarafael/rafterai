@@ -1,0 +1,35 @@
+fuser
+
+The fuser command will display the 'user' of a file system.
+
+In this example we still have a vi process in background and we use fuser to find the process
+id of the process using this file system.
+
+[root@RHEL65 ~]# jobs
+[1]+  Stopped                 vi /srv/project33/busyfile.txt
+[root@RHEL65 ~]# fuser -m /srv/project33/
+/srv/project33/:      3243
+
+Adding the -u switch will also display the user name.
+
+[root@RHEL65 ~]# fuser -m -u /srv/project33/
+/srv/project33/:      3243(root)
+
+You can quickly kill all processes that are using a specific file (or directory) with the -k
+switch.
+
+[root@RHEL65 ~]# fuser -m -k -u /srv/project33/
+/srv/project33/:      3243(root)
+[1]+  Killed                  vi /srv/project33/busyfile.txt
+[root@RHEL65 ~]# fuser -m -u /srv/project33/
+[root@RHEL65 ~]#
+
+This example shows all processes that are using the current directory (bash and vi in this
+case).
+
+root@debian7:~/test42# vi file42
+
+[1]+  Stopped                 vi file42
+root@debian7:~/test42# fuser -v .
+                     USER        PID ACCESS COMMAND
+/root/test42:        root       2909 ..c..

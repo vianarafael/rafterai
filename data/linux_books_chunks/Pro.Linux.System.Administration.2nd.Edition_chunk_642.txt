@@ -1,0 +1,4 @@
+In order to 
+tell grep these words are grouped together and have them parsed correctly, we need to enclose them in 
+quotation marks. The quotation marks are used often on the command for a number of commands to 
+protect input from being inappropriately parsed.

@@ -1,0 +1,9 @@
+The Ansible Inc., the company that was formed for the commercial support 
+of Ansible (the Tower product), was acquired by Red Hat, which continues to support the open source 
+community as well as provide subscription-based commercial support service.
+
+957
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Written in Python, it was designed to be agentless.

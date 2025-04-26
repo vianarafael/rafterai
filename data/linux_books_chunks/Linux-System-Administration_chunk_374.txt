@@ -1,0 +1,7 @@
+/etc/filesystems
+
+Actually the explicit -t ext2 option to set the file system is not always necessary. The mount
+command is able to automatically detect a lot of file systems.
+
+When mounting a file system without specifying explicitly the file system, then mount will
+first probe /etc/filesystems.

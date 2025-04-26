@@ -1,0 +1,11 @@
+A role is denied to enter a domain,
+unless the role is explicitely authorized to do so.
+
+104
+
+introduction to SELinux
+
+12.15. type (or domain)
+
+The selinux context is the security context of a process. An selinux type determines what a
+process can do.

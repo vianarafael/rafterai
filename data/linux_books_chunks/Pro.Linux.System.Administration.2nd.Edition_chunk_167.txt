@@ -1,0 +1,12 @@
+So in Figure 2-16, that is what we will do.
+
+Figure 2-16.  Setting to UTC
+
+31
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Once this is done we can move to the next step which is setting up our Network Time servers.
+
+ ■ Note  network Time is a service that helps keep your computers system time in sync with other time servers 
+around the world. Over time a computer’s system clock will “drift” out of sync.

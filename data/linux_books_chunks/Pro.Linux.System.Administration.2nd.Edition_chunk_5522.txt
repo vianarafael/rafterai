@@ -1,0 +1,17 @@
+You don’t need to do 
+this, but it is useful if you have a specific role in mind for a host and want to specify a particular profile or 
+Kickstart configuration.
+
+To do this, you add hosts to Cobbler, identifying them via their MAC or IP addresses, using the system 
+
+command.
+
+$ sudo cobbler system add --name=web1.example.com --mac=08:00:27:66:EF:C2 
+--profile=CentOS7-x86_64 --interface eth1
+
+Here we’ve added a system named web1.example.com with the specified MAC address.
+
+ You can usually see your MaC address during the network boot process, or you can often find it 
+
+ ■ Note 
+printed on a label on your network card.

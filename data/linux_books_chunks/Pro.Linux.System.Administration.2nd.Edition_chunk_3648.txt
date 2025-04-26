@@ -1,0 +1,2 @@
+For a complete understanding of Samba naming 
+recommendations, please read https://wiki.samba.org/index.php/Active_Directory_Naming_FAQ.

@@ -1,0 +1,20 @@
+You can combine them in your access control lists to control what those connections 
+
+can access, depending on the security strength of the connection.
+
+764
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+We are not going to apply this configuration at present, but we have already secured our sensitive user 
+
+data with ssf_tls=128 in our access control list.
+
+We now have to set up our LDAP client with our TLS certificate details if we want to make adjustments 
+
+to user passwords or other sensitive data.
+
+Setting Up Your LDAP Client
+Ubuntu and CentOS both use the ldap.conf file to configure system-wide LDAP defaults for clients (there is 
+also another method using the sssd program that we will discuss in the “Single Sign-On: Centralized Linux 
+Authentication” section).

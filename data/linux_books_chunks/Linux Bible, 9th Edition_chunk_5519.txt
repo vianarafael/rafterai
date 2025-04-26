@@ -1,0 +1,4 @@
+A “Standard Interface” 
+means an interface that either is an ofﬁ cial standard deﬁ ned by a recognized standards 
+body, or, in the case of interfaces speciﬁ ed for a particular programming language, one 
+that is widely used among developers working in that language.

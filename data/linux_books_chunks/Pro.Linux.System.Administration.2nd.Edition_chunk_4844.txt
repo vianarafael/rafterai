@@ -1,0 +1,9 @@
+this creates an orphan process, and it is adopted by systemd 
+(or init). When it is finished, it reports and is reaped (or cleaned up).
+
+804
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+a zombie process is a child process that has terminated but still exists in the process table awaiting its 
+parent to read its exit status. this is how every child process ends.

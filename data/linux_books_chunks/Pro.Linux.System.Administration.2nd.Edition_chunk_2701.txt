@@ -1,0 +1,13 @@
+We can reserve some of our 100 addresses for this purpose 
+by defining address pools. We’ll first define a pool for hosts the DHCP server knows about. Again, these pool 
+definitions go within the subnet block.
+
+subnet ... {
+    ...
+    pool {
+        range 192.168.0.101 192.168.0.150;
+        deny unknown clients
+    }
+}
+
+This reserves 50 addresses for use with hosts that need a static assignment.

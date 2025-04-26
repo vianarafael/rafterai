@@ -1,0 +1,11 @@
+The no rewind
+is mandatory to put the volumes behind each other on the tape.
+
+dump 0f /dev/nst0 /boot
+dump 0f /dev/nst0 /
+
+Listing files in a dump archive is done with dump -t, and you can compare files with dump
+-C.
+
+You can omit files from a dump by changing the dump attribute with the chattr command.
+The  d  attribute  on  ext  will  tell  dump  to  skip  the  file,  even  during  a  full  backup.

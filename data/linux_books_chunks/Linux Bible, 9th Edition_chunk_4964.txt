@@ -1,0 +1,7 @@
+This information falls into two general categories: meta-data and 
+user-data:
+
+ ■ meta-data—Included with meta-data is information that is needed before the 
+
+image boots. This is data that is outside the contents of the image and is typically 
+managed by the cloud provider.

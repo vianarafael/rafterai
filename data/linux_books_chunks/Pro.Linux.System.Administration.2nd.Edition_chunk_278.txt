@@ -1,0 +1,4 @@
+We want to take this opportunity to introduce some tools to you that we 
+will be using later in this book, or you can use them now to follow along with us, as we take you through 
+the different examples in the chapters to come. For you it means that you can follow along on your desktop, 
+whatever that happens to be, and if you make a horrible mistake, you can recover quickly and safely.

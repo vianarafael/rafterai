@@ -1,0 +1,22 @@
+Installing nginx
+
+~/nginx-1.10.1$ sudo make install
+[sudo] password for jsmith:
+make -f objs/Makefile install
+make[1]: Entering directory '/home/jsmith/nginx-1.10.1'
+test -d '/opt/nginx' || mkdir -p '/opt/nginx'
+test -d '/opt/nginx/sbin' \
+        || mkdir -p '/opt/nginx/sbin'
+test ! -f '/opt/nginx/sbin/nginx' \
+        || mv '/opt/nginx/sbin/nginx' \
+                '/opt/nginx/sbin/nginx.old'
+<snip>
+test -d '/opt/nginx/logs' \
+        || mkdir -p '/opt/nginx/logs'
+make[1]: Leaving directory '/home/jsmith/nginx-1.10.1'
+
+353
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+We need to use sudo, because as a normal user we’re not allowed to create new files under /opt/nginx.

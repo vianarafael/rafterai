@@ -1,0 +1,8 @@
+Each time a page is displayed, you will be prompted as to how you’d like to proceed. We run less by 
+specifying the name of the file as follows:
+
+$ less /etc/services
+
+From inside the less interface, you can scroll through the file. To go to the next page, you use the 
+spacebar, and to advance one line at a time, you use the Enter key. To scroll backward, you can use the B 
+key.

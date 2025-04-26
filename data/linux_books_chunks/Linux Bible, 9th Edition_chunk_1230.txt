@@ -1,0 +1,7 @@
+Create a script called myos that asks the user, “What is your favorite operating 
+
+system?” Output an insulting sentence if the user types Windows or Mac. Respond 
+“Great choice!” if the user types Linux. For anything else, say “Is <what is typed in> 
+an operating system?”
+
+5.  Create a script that runs the words moose, cow, goose, and sow through a for  loop.

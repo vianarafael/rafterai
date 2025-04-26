@@ -1,0 +1,36 @@
+root root system_u:object_r:useradd_exec_t:s0 usermod
+
+Ports also have a context.
+
+[root@centos65 sbin]# netstat -nptlZ | tr -s ' ' | cut -d' ' -f6-
+
+Foreign Address State PID/Program name Security Context 
+LISTEN 1096/rpcbind system_u:system_r:rpcbind_t:s0 
+LISTEN 1208/sshd system_u:system_r:sshd_t:s0-s0:c0.c1023 
+LISTEN 1284/master system_u:system_r:postfix_master_t:s0 
+LISTEN 1114/rpc.statd system_u:system_r:rpcd_t:s0 
+LISTEN 1096/rpcbind system_u:system_r:rpcbind_t:s0 
+LISTEN 1666/httpd unconfined_u:system_r:httpd_t:s0 
+LISTEN 1208/sshd system_u:system_r:sshd_t:s0-s0:c0.c1023 
+LISTEN 1114/rpc.statd system_u:system_r:rpcd_t:s0 
+LISTEN 1284/master system_u:system_r:postfix_master_t:s0 
+
+You can also get a list of ports that are managed by SELinux:
+
+[root@centos65 ~]# semanage port -l | tail
+xfs_port_t                     tcp      7100
+xserver_port_t                 tcp      6000-6150
+zabbix_agent_port_t            tcp      10050
+zabbix_port_t                  tcp      10051
+zarafa_port_t                  tcp      236, 237
+zebra_port_t                   tcp      2600-2604, 2606
+zebra_port_t                   udp      2600-2604, 2606
+zented_port_t                  tcp      1229
+zented_port_t                  udp      1229
+zope_port_t                    tcp      8021
+
+105
+
+introduction to SELinux
+
+12.16.

@@ -1,0 +1,9 @@
+Next we will start the database.
+
+  - name: start db service
+    service: name=mariadb enabled=yes state=started
+
+The previous is an example of using the service module to start (started) the database. Other service 
+
+states are stopped, restarted, and reloaded. The enabled here indicates that we would like this service 
+started on boot.

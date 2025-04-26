@@ -1,0 +1,12 @@
+To list all processes running on the system with the column names process ID, user 
+name, group name, nice value, virtual memory size, resident memory size, and com-
+mand, type the following:
+
+$ ps -eo 'pid,user,group,nice,vsz,rss,comm' | less
+  PID USER     GROUP     NI    VSZ   RSS COMMAND
+    1 root     root       0  19324  1236 init
+    2 root     root       0      0     0 kthreadd
+    3 root     root       -      0     0 migration/0
+    4 root     root       0      0     0 ksoftirqd/0
+
+4.

@@ -1,0 +1,5 @@
+If we us the ? option from the gdisk utility, we get the help output. Let’s quickly run 
+through some of these options.
+
+You can list the partitions on a device with the l option. The d option allows you to delete one (be 
+careful, deleting partitions is dangerous).

@@ -1,0 +1,7 @@
+After 
+the service is up and running and the ﬁ rewall is properly conﬁ gured, you should be able to 
+use ssh client commands to access your system via the ssh server.
+
+Any further conﬁ gurations for what the sshd daemon is allowed to do are handled in the
+/etc/ssh/sshd_config ﬁ le. At a minimum, change the PermitRootLogin setting from 
+yes to no.

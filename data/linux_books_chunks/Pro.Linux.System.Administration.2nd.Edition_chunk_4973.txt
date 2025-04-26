@@ -1,0 +1,14 @@
+We can test that our API is working correctly 
+
+with the following:
+
+$ curl -H 'Host: monitor' http://127.0.0.1:80/metrics/find?query=*
+[{"text": "carbon", "expandable": 1, "allowChildren": 1, "id": "carbon", "leaf": 0}, 
+{"text": "relay", "expandable": 1, "allowChildren": 1, "id": "relay", "leaf": 0}]
+
+This shows that we can contact the Nginx web server, and that will make a request to the back-end 
+
+Gunicorn service that will return our query request for our metrics.
+
+Grafana
+Grafana is a visualization web application for graphing time-series data.

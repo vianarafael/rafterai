@@ -1,0 +1,5 @@
+If an attacker compromises your wireless network, for example, she could make use of your e-mail 
+server to send spam.
+
+This configuration also leaves a functionality gap for mobile users. You almost certainly have users who 
+travel, work from home, or have mobile devices such as cell phones or tablets.

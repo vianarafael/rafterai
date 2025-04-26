@@ -1,0 +1,9 @@
+We’ll also 
+
+ ■ Note 
+install some additional packages later in the chapter to provide support for other functions.
+
+Ubuntu Installation
+
+The Postfix MTA is also the default MTA on Ubuntu distributions, so it is usually already installed. Indeed, 
+you saw in Chapter 2 that our Ubuntu installation prompted us to perform some basic MTA configuration.

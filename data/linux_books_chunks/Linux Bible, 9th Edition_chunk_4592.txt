@@ -1,0 +1,5 @@
+This time, 
+the command is semanage user -a selinux_username. To map a login ID to the newly 
+added SELinux username, the command is semanage login -a -s selinux_username 
+loginID. The semanage utility is a powerful tool in managing your SELinux conﬁ gura-
+tion.

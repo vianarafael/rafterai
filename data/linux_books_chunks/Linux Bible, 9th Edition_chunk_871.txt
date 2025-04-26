@@ -1,0 +1,23 @@
+Any combination of permissions can result from 0 (no permission) through 
+7 (full permission).
+
+Here are some examples of how to change permission on a ﬁ le (named ﬁ le) and what the 
+resulting permission would be:
+
+The following chmod command results in this permission: rwxrwxrwx
+
+# chmod 777 file
+
+The following chmod command results in this permission: rwxr-xr-x
+
+# chmod 755 file
+
+The following chmod command results in this permission: rw-r--r--
+
+# chmod 644 file rw-r--r-
+
+The following chmod command results in this permission: ---------
+
+# chmod 000 file
+
+The chmod command also can be used recursively.

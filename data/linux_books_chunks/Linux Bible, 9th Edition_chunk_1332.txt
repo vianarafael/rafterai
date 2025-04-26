@@ -1,0 +1,10 @@
+With many devices now available as USB devices, 
+PCMCIA slots are less common than they were.
+
+ ■ /etc/postfix—Contains conﬁ guration ﬁ les for the postﬁ x mail transport 
+
+agent.
+
+ ■ /etc/ppp—Contains several conﬁ guration ﬁ les used to set up Point-to-Point 
+
+Protocol (PPP) so you can have your computer dial out to the Internet.

@@ -1,0 +1,13 @@
+The  name  is  derived  from  a
+patchy web server, because of all the patches people wrote for the NCSA httpd server.
+
+Later chapters will expand this web server into a LAMP stack (Linux, Apache, Mysql, Perl/
+PHP/Python).
+
+3
+
+apache web server
+
+1.1. introduction to apache
+
+1.1.1.

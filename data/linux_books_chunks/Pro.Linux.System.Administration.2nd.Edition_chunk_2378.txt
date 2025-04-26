@@ -1,0 +1,7 @@
+We can now reboot our system 
+or continue booting with ctrl-d.
+
+On occasion there is a problem with the superblock for an ext2, ext3, or ext4 filesystem, which means 
+
+the filesystem–checking tools cannot locate the filesystem metadata they need in order to repair the 
+filesystem. For this reason, these filesystems keep backup superblocks as well.

@@ -1,0 +1,6 @@
+If you specify an incorrect hostname, you 
+will get an error about a mismatch between the server and certificate name. In this case, we specify mail.
+example.com, which is the fully qualified hostname of the e-mail server.
+
+Then specify the e-mail address of the contact for the certificate, in this case admin@example.com.
+Last, you are prompted for some extra attributes for the certificate.

@@ -1,0 +1,2 @@
+Or you can view 
+just the documentation (-qd) or conﬁ guration ﬁ les (-qc).

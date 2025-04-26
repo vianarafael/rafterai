@@ -1,0 +1,7 @@
+We’ll come back to the free command in Chapter 17, when we look at performance 
+management.
+
+UUID
+
+you may have seen long, random-looking strings of hexadecimal characters like “6d0ce2f6-f9f6-4ac2-
+91f6-3099a40d5624” while installing software or in the UrIs of some web sites.

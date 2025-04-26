@@ -1,0 +1,8 @@
+Samba 3 has all features found in Windows NT4 PDC and BDC, and more.
+This includes file and print serving, domain control with single logon, logon scripts, home
+directories and roaming profiles.
+
+17.1.2. Windows 200x
+
+With Windows 2000 came Active Directory. AD includes multimaster replication and group
+policies.

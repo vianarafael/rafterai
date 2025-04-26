@@ -1,0 +1,3 @@
+So, typically, regular users should 
+at least be able to get (download) and put (upload) ﬁ les to and from their own home 
+directories, respectively.

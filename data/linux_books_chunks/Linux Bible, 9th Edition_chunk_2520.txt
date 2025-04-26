@@ -1,0 +1,11 @@
+For example, if the router has an IP address on your 192.168.0 network 
+of 192.168.0.199, add that address in this ﬁ eld.
+
+357
+
+c14.indd  04/01/2015  Page 358
+
+Part IV: Becoming a Linux Server Administrator
+
+Click Apply to apply the new routing information. You may have to restart the interface 
+for this to take effect (for example, ifup p4p1).

@@ -1,0 +1,6 @@
+So, for example, it would be up to the Fedora project to 
+make sure that every component needed by every package in its Linux distribution could 
+be resolved by some other package in the repository.
+
+Repositories could also build on each other. So, for example, the rpmfusion.org repository 
+could assume that a user already had access to the main Fedora repository.

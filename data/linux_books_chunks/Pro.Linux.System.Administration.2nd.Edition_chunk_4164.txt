@@ -1,0 +1,16 @@
+The configuration for the catalog 
+will begin with the Catalog definition.
+
+Catalog {
+  Name = MyCatalog
+  # Uncomment the following lines if you want the dbi driver
+  # dbdriver = "dbi:postgresql"; dbaddress = 127.0.0.1; dbport =
+  #dbdriver = "postgresql"
+  dbdriver = "mysql"
+  dbname = "bareos"
+  dbuser = "bareos"
+  dbpassword = "somepassword"
+  dbaddress = headoffice.example.com
+}
+
+The Name can be anything, and we will stick with the default MyCatalog.

@@ -1,0 +1,2 @@
+Systemd Journal provides a systemd-journal-remote service that can receive journal 
+messages from other hosts and provide a centralized logging service.

@@ -1,0 +1,19 @@
+If you have less than or N lowercase letters, each letter counts +1 
+toward meeting the current minlen value.
+
+ ■ If (N < 0): The minimum number of lowercase letters that must be met for a 
+
+new password.
+
+662
+
+c23.indd  04/01/2015  Page 663
+
+Chapter 23: Understanding Advanced Linux Security 
+
+ ■ ocredit=N
+
+ ■ Default = 1
+
+ ■ If (N >= 0): The maximum credit for having other characters in the new pass-
+word.

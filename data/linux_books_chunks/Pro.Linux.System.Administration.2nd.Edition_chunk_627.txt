@@ -1,0 +1,4 @@
+Epoch time can be useful when calculating time differences or for adding as a suffix to a 
+file for uniqueness. You can see additional formats in the date command’s man page. You can also use 
+the date command to set the time. Type date and then specify the required date and time in the format 
+MMDDhhmm[[CC]YY].

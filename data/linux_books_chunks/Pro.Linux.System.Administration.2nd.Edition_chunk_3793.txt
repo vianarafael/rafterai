@@ -1,0 +1,10 @@
+This configuration provides zero redundancy.
+
+•	 Distributed striped volume: Here we stripe (chunk) the data across a number of 
+
+bricks. The number of bricks must be a multiple of the number of stripes. This can 
+provide greater speed but still doesn’t provide redundancy.
+
+Installing GlusterFS
+
+Luckily GlusterFS is easy to install. Both Ubuntu and CentOS have native packages available to them.

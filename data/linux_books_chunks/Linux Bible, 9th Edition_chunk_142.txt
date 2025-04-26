@@ -1,0 +1,3 @@
+With only a few notable exceptions, most popular Linux distributions 
+are either Red Hat–based (Red Hat Enterprise Linux, Fedora, CentOS, and so on) or Debian-
+based (Ubuntu, Linux Mint, KNOPPIX, and so on).

@@ -1,0 +1,13 @@
+The /etc/passwd ﬁ le should have the following 
+permission settings:
+
+ ■ Owner: root
+
+ ■ Group: root
+
+ ■ Permissions: (644) Owner: rw- Group: r-- Other: r--
+
+The example that follows shows that the /etc/passwd ﬁ le has the appropriate settings.
+
+# ls -l /etc/passwd
+-rw-r--r--.

@@ -1,0 +1,6 @@
+Also, contact the support lists 
+and generally there are people more than willing to help.
+
+Install
+Now that our nginx application has been compiled, we need to make it available to all users on the system, 
+by installing it to the prefix location we chose earlier when configuring.

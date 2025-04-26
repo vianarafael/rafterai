@@ -1,0 +1,19 @@
+The  example 
+of the /etc/inittab ﬁ le that follows comes from a server running a version of Fedora, 
+which uses the Upstart init daemon.
+
+$ cat /etc/inittab
+# inittab is only used by upstart for the default runlevel.
+#
+# ADDING OTHER CONFIGURATION HERE WILL HAVE NO EFFECT ON YOUR SYSTEM.
+#
+...
+#
+id:5:initdefault:
+
+As you can see from the comment lines in the /etc/inittab ﬁ le, the only thing this 
+ﬁ le is used for on Linux distributions that maintain it is to change the default runlevel at 
+server boot time.
+
+To change the default runlevel on an Ubuntu distribution that uses Upstart, edit /etc/init/rc-sysinit.conf 
+and change the line env DEFAULT_RUNLEVEL=# where # is 2 to 5.

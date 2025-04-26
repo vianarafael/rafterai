@@ -1,0 +1,29 @@
+The useradd -D Defaults
+
+Option
+
+Description
+
+-b path/to/default/home
+
+Specifies the path prefix of a new user’s home directory
+
+-e date
+
+-f days
+
+-g group
+
+-s shell
+
+Specifies the default expiration date
+
+Specifies the number of days after a password has expired before the 
+account will be disabled
+
+Specifies the default group
+
+Specifies the default shell
+
+Creating Groups
+We mentioned earlier that every user must belong to at least one group.

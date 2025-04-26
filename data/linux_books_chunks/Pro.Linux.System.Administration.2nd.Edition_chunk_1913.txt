@@ -1,0 +1,4 @@
+The distribution offers online software repositories containing 
+over 22,000 ready-to-install packages. Over the years, several tools have been created to help you add 
+applications to your Ubuntu hosts from remote repositories. These tools provide the Ubuntu equivalent of 
+rpm and yum for Red Hat–based distributions.

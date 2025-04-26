@@ -1,0 +1,11 @@
+To keep your familiar setup, you could 
+
+add a user ubuntu either in the Preseed or in a SNIPPET at the end of the installation.
+
+#d-i passwd/user-fullname string Ubuntu User
+#d-i passwd/username string ubuntu
+
+Firewall and Network
+
+You can set up the network in whichever fashion suits you with Preseed, but you cannot do any firewall 
+configurations.

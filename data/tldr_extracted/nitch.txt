@@ -1,0 +1,14 @@
+# nitch
+
+
+- Display system information (hostname, kernel, uptime, etc.):
+
+`nitch`
+
+- Display help:
+
+`nitch {{[-h|--help]}}`
+
+- Display version:
+
+`nitch {{[-v|--version]}}`

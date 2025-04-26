@@ -1,0 +1,7 @@
+Then we will generate our SSH keys.
+
+$ sudo /usr/sbin/useradd -m -d /data/backups -u 903 -g adm exbackup
+
+Here we have created a user called exbackup with a UID of 903 and default group of adm. We have 
+chosen a UID for this user that is lower than 1000, as we are creating a service user (any user UID less than 
+1000 is fine) and we prefer to have service users between 900 and 999.

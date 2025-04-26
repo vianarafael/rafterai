@@ -1,0 +1,5 @@
+Some Linux distributions (particularly bootable Linuxes used as rescue CDs) include 
+a tool called GParted (which includes software from the  Linux-NTFS project for 
+resizing Windows NTFS partitions).
+
+Type yum install gparted (in Fedora) or apt-get install gparted (in Ubuntu) to install GParted.

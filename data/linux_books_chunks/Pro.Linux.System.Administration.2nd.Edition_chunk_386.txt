@@ -1,0 +1,10 @@
+Vagrant will parse the Vagrantfile and make sure everything in is in place before we start our machine. Go 
+ahead and create the temp directory in the first directory and try the command again (mkdir temp).
+
+Listing 3-10.  Issuing Vagrant up
+
+> vagrant up
+
+During your first “up” you will see things as shown in Listing 3-11:
+
+Listing 3-11.

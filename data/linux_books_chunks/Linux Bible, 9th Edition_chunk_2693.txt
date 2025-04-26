@@ -1,0 +1,35 @@
+Thus, there is no need to 
+have multiple copies of particular scripts.
+
+384
+
+c15.indd  04/01/2015  Page 385
+
+Chapter 15: Starting and Stopping Services
+
+# ls -l /etc/rc.d/rc5.d/K15httpd
+lrwxrwxrwx 1 root root 15 Oct 10 08:15
+ /etc/rc.d/rc5.d/K15httpd -> ../init.d/httpd
+# ls /etc/rc.d/init.d
+anacron            functions  multipathd               rpcidmapd
+atd                fuse       netconsole               rpcsvcgssd
+auditd             gpm        netfs                    saslauthd
+autofs             haldaemon  netplugd                 sendmail
+avahi-daemon       halt       network                  setroubleshoot
+avahi-dnsconfd     hidd       NetworkManager           single
+bluetooth          hplip      NetworkManagerDispatcher smartd
+btseed             hsqldb     nfs                      smolt
+bttrack            httpd      nfslock                  spamassassin
+capi               ip6tables  nscd                     squid
+ConsoleKit         iptables   ntpd                     sshd
+cpuspeed           irda       pand                     syslog
+crond              irqbalance pcscd                    tux
+cups               isdn       psacct                   udev-post
+cups-config-daemon killall    rdisc                    vncserver
+dc_client          kudzu      readahead_early          winbind
+dc_server          mcstrans   readahead_later          wpa_supplicant
+dhcdbd             mdmonitor  restorecond              xfs
+dund               messagebus rpcbind                  ypbind
+firstboot          microcode  rpcgssd                  yum-updatesd
+
+Notice that each service has a single script in /etc/rc.d/init.d.

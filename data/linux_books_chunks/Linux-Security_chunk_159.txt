@@ -1,0 +1,5 @@
+chsh
+
+Users can change their login shell with the chsh command. First, user harry obtains a list of
+available shells (he could also have done a cat /etc/shells) and then changes his login shell
+to the Korn shell (/bin/ksh).

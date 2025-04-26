@@ -1,0 +1,6 @@
+# systemd-resolve
+
+
+- View documentation for `resolvectl`:
+
+`tldr resolvectl`

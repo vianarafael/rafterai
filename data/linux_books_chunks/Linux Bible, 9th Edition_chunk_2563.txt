@@ -1,0 +1,7 @@
+After that, you turn it back on again (ifup 
+lo) and check again to see that it is on (ifconfig).
+
+In addition to conﬁ guring the primary network interfaces, you can also create ﬁ les in the 
+/etc/sysconfig/network-scripts directory that can be used to set aliases (multiple 
+IP addresses for the same interface), bonded interfaces (multiple NICs listening on the same 
+address), and custom routes.

@@ -1,0 +1,7 @@
+The default installation allows local 
+root access to the installed LDAP server.
+
+LDIF FORMAT
+
+The LDAP Directory interchange Format (LDiF) is a specification of how to add and remove entries in a 
+LDAP database.

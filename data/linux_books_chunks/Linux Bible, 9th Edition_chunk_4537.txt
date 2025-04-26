@@ -1,0 +1,6 @@
+The SELinux username ends with a u, making it easier to identify in 
+the output. Regular unconﬁ ned users have an unconfined_u user attribute in the 
+default targeted policy.
+
+ ■ role—A designated role in the company is mapped to an SELinux role name. 
+The role attribute is then assigned to various subjects and objects.

@@ -1,0 +1,9 @@
+If not, install it now using those instructions 
+if you want to work through the upcoming instructions. Then you need to ensure Postfix supports SASL 
+authentication with Dovecot. This can be done with the postconf command using the -a option.
+
+$ sudo postconf -a
+cyrus
+dovecot
+
+Here the postconf command has returned all the SASL authentication plug-ins supported by Postfix.

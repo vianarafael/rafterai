@@ -1,0 +1,7 @@
+Feel free to install other software that is of interest to you.
+First we select Infrastructure Server and select DNS Name server as we have done in Figure 2-20
+
+Figure 2-20.  Selecting DNS Name server
+
+We have spoken previously about DNS Name servers and what they do. They help computers map IP 
+addresses to hostnames. We are going to select that from the Infrastructure Server list.

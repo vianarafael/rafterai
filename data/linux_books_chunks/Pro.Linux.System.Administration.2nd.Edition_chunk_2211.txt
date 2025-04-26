@@ -1,0 +1,9 @@
+This utility is provided on both Ubuntu and 
+
+CentOS by the dosfstools package, so you need to ensure that dosfstools is installed.
+
+After plugging in the USB drive you wish to format, check its device node name via the kernel log, as 
+
+shown in Listing 9-7.
+
+Listing 9-7.

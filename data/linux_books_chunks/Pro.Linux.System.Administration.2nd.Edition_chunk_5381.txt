@@ -1,0 +1,5 @@
+details are here: https://exchange.nagios.org/directory/Addons/
+Passive-Checks/NSCA--2D-Nagios-Service-Check-Acceptor/details.
+
+nCpa is designed to be both active and passive. it supports a wide variety of operating systems 
+(including Macs and Windows) and includes a local monitoring interface.

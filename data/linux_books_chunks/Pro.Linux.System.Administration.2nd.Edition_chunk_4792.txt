@@ -1,0 +1,10 @@
+you’ll find the red hat docs for doing this at https://
+access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Windows_Integration_
+Guide/sssd-ad-integration.html.
+
+793
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+LDAP and Apache Authentication
+Let’s now look at how we get our web server to use our LDAP server to authenticate clients.

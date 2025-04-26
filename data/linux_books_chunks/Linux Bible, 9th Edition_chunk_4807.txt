@@ -1,0 +1,7 @@
+What if, instead of blocking Host-B’s IP address entirely, 
+only connections to the ssh port (port 22) from Host-B’s IP address were blocked? Would 
+that reach the goal of allowing Host-C full access to Host-A, and only blocking ssh 
+ connections from Host-B?
+
+In the example that follows, the iptables rules for Host-A are modiﬁ ed to try  blocking 
+Host-B’s IP address from port 22.

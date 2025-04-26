@@ -1,0 +1,4 @@
+stanza commands
+
+Every operating system or kernel that you want to boot with grub will have a stanza aka
+an entry of a couple of lines.

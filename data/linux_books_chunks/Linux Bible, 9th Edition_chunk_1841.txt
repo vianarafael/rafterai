@@ -1,0 +1,7 @@
+Any modiﬁ cations to the default package installs can be made by running pre 
+and post scripts from the kickstart ﬁ le, to do such things as add user accounts or 
+modify conﬁ guration ﬁ les.
+
+ ■ PXE boot—You can conﬁ gure a PXE server to allow client computers to boot an 
+
+anaconda (installer) kernel and a select kickstart ﬁ le.

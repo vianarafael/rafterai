@@ -1,0 +1,52 @@
+multipath list
+
+You can list the multipath connections and devices with multipath -ll.
+
+[root@server2 ~]# multipath -ll
+mpathj (1IET     00010001) dm-4 Reddy,VBOX HARDDISK
+size=1.0G features='0' hwhandler='0' wp=rw
+|-+- policy='round-robin 0' prio=1 status=active
+| `- 13:0:0:1 sdh 8:112 active ready running
+|-+- policy='round-robin 0' prio=1 status=enabled
+| `- 12:0:0:1 sdi 8:128 active ready running
+`-+- policy='round-robin 0' prio=1 status=enabled
+  `- 14:0:0:1 sdm 8:192 active ready running
+mpathi (1IET     00010003) dm-3 Reddy,VBOX HARDDISK
+size=1.0G features='0' hwhandler='0' wp=rw
+|-+- policy='round-robin 0' prio=1 status=active
+| `- 13:0:0:3 sdk 8:160 active ready running
+|-+- policy='round-robin 0' prio=1 status=enabled
+| `- 12:0:0:3 sdn 8:208 active ready running
+`-+- policy='round-robin 0' prio=1 status=enabled
+  `- 14:0:0:3 sdp 8:240 active ready running
+mpathh (1IET     00010002) dm-2 Reddy,VBOX HARDDISK
+size=1.0G features='0' hwhandler='0' wp=rw
+|-+- policy='round-robin 0' prio=1 status=active
+| `- 12:0:0:2 sdl 8:176 active ready running
+|-+- policy='round-robin 0' prio=1 status=enabled
+| `- 13:0:0:2 sdj 8:144 active ready running
+`-+- policy='round-robin 0' prio=1 status=enabled
+  `- 14:0:0:2 sdo 8:224 active ready running
+[root@server2 ~]#
+
+The IET (iSCSI Enterprise Target) ID should match the ones you see on the Target server.
+
+[root@server1 ~]# tgt-admin -s | grep -e LUN -e IET -e dev
+    LUN information:
+        LUN: 0
+            SCSI ID: IET     00010000
+        LUN: 1
+            SCSI ID: IET     00010001
+            Backing store path: /dev/sdb
+        LUN: 2
+            SCSI ID: IET     00010002
+            Backing store path: /dev/sdc
+        LUN: 3
+            SCSI ID: IET     00010003
+            Backing store path: /dev/sdd
+
+150
+
+introduction to multipathing
+
+13.6.

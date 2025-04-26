@@ -1,0 +1,4 @@
+overwriting the data or corruption 
+of the data will make restoring the data impossible, regardless of what the Bareos catalog says.
+
+Volume Retention tells Bareos how long it should consider the data on the volume as current.

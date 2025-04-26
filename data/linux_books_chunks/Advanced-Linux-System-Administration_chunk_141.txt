@@ -1,0 +1,6 @@
+The original bootloader can be restored with:
+
+lilo -u
+
+By default the second stage LILO is called /boot/boot.b and when it is successfully 
+loaded it will prompt you with a “boot: ”.

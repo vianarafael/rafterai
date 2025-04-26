@@ -1,0 +1,7 @@
+Suppose you want to be able to verify your network 
+ interfaces or change some of those settings. You can do that using tools described in the 
+next sections.
+
+Checking your network interfaces
+There are both graphical and command-line tools for viewing information about your 
+network interfaces in Linux.

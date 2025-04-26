@@ -1,0 +1,3 @@
+These keywords can be combined with a 
+style qualifier, which can be something like regex or exact. The regex style refers to a regular expression 
+that can be used to match various parts of a DN.

@@ -1,0 +1,14 @@
+On CentOS, 
+MariaDB is installed via the mariadb-server package.
+
+$ sudo yum install mariadb-server
+
+On Ubuntu, the server component is provided by the mariadb-server-core-10.0 package (at the time 
+
+of writing). You can install it via the virtual package.
+
+$ sudo aptitude install mariadb-server.
+
+Initial Configuration
+
+You’ll need to make a few basic configuration changes.

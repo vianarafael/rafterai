@@ -1,0 +1,30 @@
+(By default, the AllowOverride None setting prevents 
+the .htaccess ﬁ le from being used for any directives.)
+
+The following Directory containers deﬁ ne behavior when the root directory (/), /var/
+www, and /var/www/html directories are accessed:
+
+<Directory />
+    AllowOverride none
+    Require all denied
+
+461
+
+c17.indd  04/01/2015  Page 462
+
+Part IV: Becoming a Linux Server Administrator
+
+</Directory>
+<Directory "/var/www">
+    AllowOverride None
+    # Allow open access:
+    Require all granted
+</Directory>
+<Directory "/var/www/html">
+    Options Indexes FollowSymLinks
+    AllowOverride None
+    Require all granted
+</Directory>
+
+The ﬁ rst Directory container (/) indicates that if httpd tries to access any ﬁ les in the 
+Linux ﬁ le system, access is denied.

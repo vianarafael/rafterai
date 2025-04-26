@@ -1,0 +1,13 @@
+See the systemctl --help for more information.
+
+We can still issue the older commands too to shut down the host—you can issue the appropriately 
+
+named shutdown command:
+
+$ sudo shutdown –h now
+
+The systemctl poweroff and the shutdown command both link to the same systemd target of /lib/
+
+systemd/system/poweroff.target.
+
+From the GUI, shutting down the host is easy.

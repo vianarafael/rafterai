@@ -1,0 +1,5 @@
+In this case, the filesystem will be immediately mounted in read-only 
+mode. This prevents additional data corruption while keeping files readable to services and users.
+
+The other two possible values for error behavior are continue, which would cause the system to write a 
+log entry but otherwise ignore the problem, and panic, which would cause the system to crash ungracefully.

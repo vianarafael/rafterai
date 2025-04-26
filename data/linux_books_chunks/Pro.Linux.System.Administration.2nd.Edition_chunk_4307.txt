@@ -1,0 +1,4 @@
+Finally, mute reduces consecutive messages from the same category.
+The next block of configuration options provides some additional security for our OpenVPN server. The 
+
+first two options, user and group, allow us to specify a user and group for OpenVPN to run as.

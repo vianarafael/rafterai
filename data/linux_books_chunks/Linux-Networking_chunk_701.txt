@@ -1,0 +1,19 @@
+starting and stopping iptables
+
+The following screenshot shows how to stop and start iptables on Red Hat/Fedora/CentOS
+and compatible distributions.
+
+[root@centos6 ~]# service iptables stop
+[root@centos6 ~]# service iptables start
+iptables: Applying firewall rules                              [ ok ]
+[root@centos6 ~]#
+
+Debian and *buntu distributions do not have this script, but allow for an uninstall.
+
+root@debian6~# aptitude purge iptables
+
+180
+
+iptables firewall
+
+14.3.

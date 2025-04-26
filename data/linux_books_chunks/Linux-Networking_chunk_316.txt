@@ -1,0 +1,11 @@
+(optional, only works when you have a graphical install of Linux) Install the xeyes package
+on the server and use ssh to run xeyes on the server, but display it on your client.
+
+on the server:
+apt-get install xeyes
+on the client:
+ssh -X user@server-ip
+xeyes
+
+7. (optional, same as previous) Create a bookmark in firefox, then quit firefox on client and
+server.

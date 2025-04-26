@@ -1,0 +1,5 @@
+Your company might also have the domains product.
+com and anotherproduct.com. You can configure Postfix to receive e-mail for these additional domains.
+
+Virtual users are a similar concept. Thus far, all our users have existed as actual Linux users, jsmith and 
+ataylor, for example. Their mailboxes have been stored in the /home directory tree.

@@ -1,0 +1,11 @@
+The remaining scripts with S will be started with start
+as the only parameter.
+
+All  this  is  done  by  the  /etc/rc.d/rc  script  on  Red  Hat  and  by  the  /etc/init.d/rc  script  on
+Debian.
+
+173
+
+init and runlevels
+
+15.1.7.

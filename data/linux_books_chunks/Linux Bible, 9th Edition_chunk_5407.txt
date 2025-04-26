@@ -1,0 +1,13 @@
+To install and run chkrootkit to see if the malicious attack from the exercise 
+
+above installed a rootkit, choose your distribution and do the following:
+
+a. To install on a Fedora or RHEL distribution, type yum install chkrootkit 
+
+at the command line.
+
+b. To install on a Ubuntu or debian-based distribution, type sudo apt-get 
+
+install chkrootkit at the command line.
+
+c.

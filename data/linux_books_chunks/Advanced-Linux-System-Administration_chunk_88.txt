@@ -1,0 +1,34 @@
+Notice that 
+not all commands actually compile code and that the make modules_install has been 
+
+11
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+included
+
+ Compiling
+Command 
+make clean
+
+ Description
+ makes sure no stale .o files have been left over from a previous 
+build
+ adds a .depend with headers specific to the kernel components
+make dep
+ build the kernel
+make 
+make modules
+ build the dynamic modules
+make modules_install install the modules in /lib/modules/kernel-version/
+
+Stage 3: Installing the kernel image
+
+This stage has no script and involves copying the kernel image manually to the boot 
+directory and configuring the bootloader (LILO or GRUB) to find the new kernel.
+
+3.

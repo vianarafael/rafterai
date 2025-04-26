@@ -1,0 +1,12 @@
+After that, you can 
+safely unplug the USB drive from your computer.
+
+196
+
+c08.indd  04/01/2015  Page 197
+
+Chapter 8: Learning System Administration
+
+Working with loadable modules
+If you have added hardware to your computer that isn’t properly detected, you might need 
+to manually load a module for that hardware.

@@ -1,0 +1,2 @@
+We inherit some of our definitions from the linux-server template, 
+which in turn will inherit from the generic-host template in the same way as we’ve shown here.

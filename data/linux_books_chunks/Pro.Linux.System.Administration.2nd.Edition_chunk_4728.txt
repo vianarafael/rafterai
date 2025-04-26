@@ -1,0 +1,3 @@
+OpenLDAP hasn’t changed very much over the years, so 
+you are free to try any you choose. We chose to show you LAM because it is designed not only to manage LDAP 
+but also to provision user accounts. It allows you to create users based on templates that are easy to follow.

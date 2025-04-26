@@ -1,0 +1,3 @@
+With the 
++trace option we can see that the ‘.’ root zone delegates to the servers in the ‘com.’ zone which then delegate 
+to the name servers at ‘google.com.’.

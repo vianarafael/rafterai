@@ -1,0 +1,7 @@
+This will help make log 
+analysis and correlation a simple part of your daily monitoring routine.
+
+The first thing to remember is that analysis and correlation are two very different things. Analysis is the 
+
+study of constituent parts and their interrelationships in making up a whole. As a system administer, the best 
+analysis tool available is you.

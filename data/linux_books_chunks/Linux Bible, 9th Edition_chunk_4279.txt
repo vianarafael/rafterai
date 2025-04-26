@@ -1,0 +1,119 @@
+Table 23.1 lists a few 
+ modern ciphers.
+
+TABLE 23.1    Cryptography Ciphers
+
+Method
+
+Description
+
+AES (Advanced 
+Encryption Standard) 
+also called Rijndael
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 128-, 192-, or 256-bit blocks using a 
+128-, 192-, or 256-bit key for encrypting/decrypting.
+
+Blowfi sh
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 64-bit blocks using the same 32-bit to 
+448-bit keys for encrypting/decrypting.
+
+630
+
+c23.indd  04/01/2015  Page 631
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Method
+
+CAST5
+
+Description
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 64-bit blocks using the same up to 
+128-bit key for encrypting/decrypting.
+
+DES (Data Encryption 
+Standard)
+
+No longer considered secure.
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 64-bit blocks using the same 56-bit 
+key for encrypting/decrypting.
+
+3DES
+
+Improved DES cipher.
+
+Symmetric cryptography.
+
+Data is encrypted up to 48 times with 3 different 56-bit keys before 
+the encryption process is completed.
+
+El Gamal
+
+Asymmetric cryptography.
+
+Elliptic Curve 
+Cryptosystems
+
+Uses two keys derived from a logarithm algorithm.
+
+Asymmetric cryptography.
+
+Uses two keys derived from an algorithm containing two  randomly 
+chosen points on an elliptic curve.
+
+IDEA
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 64-bit blocks using the same  128-bit 
+key for encrypting/decrypting.
+
+RC4 also called 
+ArcFour or ARC4
+
+Stream cipher, encrypting data in 64-bit blocks using a variable key 
+size for encrypting/decrypting.
+
+RC5
+
+RC6
+
+Rijndael also called 
+AES
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 32-, 64-, or 128-bit blocks using the 
+same up to 2,048-bit keys for encrypting/decrypting.
+
+Symmetric cryptography.
+
+Same as RC5, but slightly faster.
+
+Symmetric cryptography.
+
+Block cipher, encrypting data in 128-, 192-, or 256-bit blocks using a 
+128-, 192-, or 256-bit key for encrypting/decrypting.
+
+RSA
+
+Most popular asymmetric cryptography.
+
+Uses two keys derived from an algorithm containing a multiple of two 
+randomly generated prime numbers.
+
+Understanding cryptographic cipher keys
+Cryptographic ciphers require a piece of data, called a key, to complete their mathematical 
+process of encryption/decryption.

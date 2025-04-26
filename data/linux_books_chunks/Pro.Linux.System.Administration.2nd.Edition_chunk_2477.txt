@@ -1,0 +1,4 @@
+We also provided an IP (Internet Protocol) 
+address for the host. We can, of course, use the IP address to access our host; however, humans tend to 
+like to use names more than than “strange” numbers. But how do we map the hostname to the IP address? 
+We can use local host’s files to do address-to-name mappings, as we showed you in Chapter 4.

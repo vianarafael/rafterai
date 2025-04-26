@@ -1,0 +1,12 @@
+Prepend the remote host's IP with a @ sign.
+
+Sending logs to a remote server
+
+A seen above the local syslogd can send logs to a remote host (say 192.168.10.33) running 
+a syslogd. Assume we want to send all logs to this remote host, this would be the syntax:
+
+*.* @192.168.10.33
+
+Configuring syslogd to accept remote logs
+
+In this case we want remote systems to send their logs to our server.

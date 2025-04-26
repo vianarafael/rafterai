@@ -1,0 +1,4 @@
+It merely waits for input from devices or programs. It does 
+not go out and actively gather messages.
+
+The next major feature of the rsyslog tools is the RELP communications protocol.

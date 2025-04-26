@@ -1,0 +1,19 @@
+update-grub
+
+Whenever the /etc/default/grub file is changed, you will need to run update-grub to apply
+the changes.
+
+root@debian7:~# vi /etc/default/grub
+root@debian7:~# update-grub
+Generating grub.cfg ...
+Found linux image: /boot/vmlinuz-3.2.0-4-amd64
+Found initrd image: /boot/initrd.img-3.2.0-4-amd64
+done
+
+166
+
+bootloader
+
+14.4. lilo
+
+14.4.1.

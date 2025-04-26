@@ -1,0 +1,15 @@
+Use chsh to list all shells (only works on RHEL/CentOS/Fedora), and compare to cat /
+etc/shells.
+
+11. Which useradd option allows you to name a home directory ?
+
+12. How can you see whether the password of user serena is locked or unlocked ? Give a
+solution with grep and a solution with passwd.
+
+26
+
+user passwords
+
+3.11. solution: user passwords
+
+1.

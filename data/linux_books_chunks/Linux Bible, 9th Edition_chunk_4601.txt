@@ -1,0 +1,10 @@
+For instance, when the apache daemon is started by 
+ systemd, it is assigned the type (aka domain) httpd_t. The context assigned is handled 
+
+685
+
+c24.indd  04/15/2015  Page 686
+
+Part V: Learning Linux Security Techniques
+
+by the SELinux policy written speciﬁ cally for that daemon.

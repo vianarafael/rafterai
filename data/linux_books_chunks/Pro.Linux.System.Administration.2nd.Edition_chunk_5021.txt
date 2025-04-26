@@ -1,0 +1,24 @@
+You then need to remake GRUB 
+
+with the following:
+
+$ sudo grub2-mkconfig -o /boot/grub2//grub.cfg
+
+Now when you reboot your host, the default scheduler is deadline.
+
+$ cat /sys/block/sda/queue/scheduler
+noop [deadline] cfq
+
+Remember that on Ubuntu grub2-mkconfig needs to be like this:
+
+$ sudo grub2-mkconfig -o /boot/grub/grub2.cfg
+
+Now your changes will persist across reboots.
+
+836
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Summary
+In this chapter, we showed you simple tools that allow you to easily determine the basic health of a running 
+host.

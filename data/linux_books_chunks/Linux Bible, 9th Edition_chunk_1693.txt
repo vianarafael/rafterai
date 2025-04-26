@@ -1,0 +1,7 @@
+You may want to install some commer-
+cial software (such as Adobe Flash Player) or non-free software (available from 
+ repositories such as rpmfusion.org).
+
+ ■ Beyond desktop applications—Tens of thousands of software packages in the 
+Fedora repository are not available through the Software window. Most of these 
+packages are not associated with graphical applications at all.

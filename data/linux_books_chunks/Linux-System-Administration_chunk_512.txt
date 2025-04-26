@@ -1,0 +1,10 @@
+Below  you  can  see  two  logical
+volumes named LogVol00 and LogVol01.
+
+[root@RHEL5 ~]# lvs
+  LV       VG         Attr   LSize  Origin Snap%  Move Log Copy% 
+  LogVol00 VolGroup00 -wi-ao 14.88G                              
+  LogVol01 VolGroup00 -wi-ao  1.00G                              
+[root@RHEL5 ~]#
+
+11.10.2.

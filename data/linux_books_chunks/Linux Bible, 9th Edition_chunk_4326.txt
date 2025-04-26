@@ -1,0 +1,4 @@
+They have another cryptographic hash standard to be released soon, SHA-3.
+
+Encrypting a Linux filesystem
+You may need to encrypt an entire ﬁ lesystem on your Linux server.

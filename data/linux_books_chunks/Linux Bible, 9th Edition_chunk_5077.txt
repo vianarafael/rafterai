@@ -1,0 +1,13 @@
+In the beginning of this chapter, I encouraged you to get your hands 
+
+766
+
+c27.indd  04/01/2015  Page 767
+
+Chapter 27: Deploying Linux to the Cloud
+
+on some cloud images, combine them with data, and launch them on a local Linux hypervi-
+sor to understand how cloud images work.
+
+After that, I demonstrated how you can launch your own virtual images in an OpenStack 
+cloud platform.

@@ -1,0 +1,17 @@
+The fi le must 
+be in the same format as /etc/hosts.
+
+Here are a few examples of command completion. (When you see <Tab>, it means to press 
+the Tab key on your keyboard.) Type the following:
+
+$ echo $OS<Tab>
+$ cd ~ro<Tab>
+$ fing<Tab>
+
+79
+
+c03.indd  04/01/2015  Page 80
+
+Part II: Becoming a Linux Power User 
+
+The ﬁ rst example causes $OS to expand to the $OSTYPE variable.

@@ -1,0 +1,110 @@
+Table 3.1 lists the keystrokes 
+that you can use to move around the command line.
+
+TABLE 3.1    Keystrokes for Navigating Command Lines
+
+Keystroke
+
+Full Name
+
+Meaning
+
+Ctrl+F
+
+Ctrl+B
+
+Alt+F
+
+Alt+B
+
+Ctrl+A
+
+Ctrl+E
+
+Ctrl+L
+
+Character forward
+
+Go forward one character.
+
+Character backward
+
+Go backward one character.
+
+Word forward
+
+Go forward one word.
+
+Word backward
+
+Go backward one word.
+
+Beginning of line
+
+Go to the beginning of the current line.
+
+End of line
+
+Clear screen
+
+Go to the end of the line.
+
+Clear screen and leave line at the top of the screen.
+
+The keystrokes in Table 3.2 can be used to edit command lines.
+
+TABLE 3.2    Keystrokes for Editing Command Lines
+
+Keystroke
+
+Full Name
+
+Meaning
+
+Ctrl+D
+
+Delete current
+
+Delete the current character.
+
+Backspace
+
+Delete previous
+
+Delete the previous character.
+
+Ctrl+T
+
+Alt+T
+
+Alt+U
+
+Alt+L
+
+Alt+C
+
+Ctrl+V
+
+Transpose character
+
+Switch positions of current and previous characters.
+
+Transpose words
+
+Switch positions of current and previous words.
+
+Uppercase word
+
+Change the current word to uppercase.
+
+Lowercase word
+
+Change the current word to lowercase.
+
+Capitalize word
+
+Change the current word to an initial capital.
+
+Insert special character
+
+Add a special character.

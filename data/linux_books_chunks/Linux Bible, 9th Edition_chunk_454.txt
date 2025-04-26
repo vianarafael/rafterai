@@ -1,0 +1,5 @@
+In the next few chapters, you learn how the ﬁ lesystem is organized (especially in 
+ relation to the Linux command shell).
+
+ ■ Working with files and folders—Right-click a ﬁ le or folder icon to see how you 
+can act on it.

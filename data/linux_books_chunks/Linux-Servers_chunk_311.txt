@@ -1,0 +1,17 @@
+For example
+Google provides a public name server at 8.8.8.8 and 8.8.4.4.
+
+root@debian7:~# cat /etc/resolv.conf
+nameserver 8.8.8.8
+root@debian7:~#
+
+Please  note  that  on  dhcp  clients  this  value  can  be  overwritten  when  the  dhcp  lease  is
+renewed.
+
+62
+
+introduction to DNS
+
+4.2. dns namespace
+
+4.2.1.

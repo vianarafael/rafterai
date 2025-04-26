@@ -1,0 +1,9 @@
+You can then use the part option to configure partitions on the host like so:
+
+# Partition clearing information
+clearpart --all --initlabel
+part /boot --asprimary --bytes-per-inode=4096 --fstype="ext4" --size=150
+part / --asprimary --bytes-per-inode=4096 --fstype="ext4" --size=4000
+part swap --bytes-per-inode=4096 --fstype="swap" --size=512
+
+ on CentoS, you can create a similar configuration just by specifying the autopart option.

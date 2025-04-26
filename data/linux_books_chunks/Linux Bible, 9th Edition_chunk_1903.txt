@@ -1,0 +1,8 @@
+The default_expire_date value should be replaced with a 
+date in the form YYYY-MM-DD (for example, -e 2011-10-17).
+
+ ■ -f default_inactive—Set the number of days after a password has expired 
+before the account is disabled. Replace default_inactive with a number 
+ representing the number of days (for example, -f 7).
+
+ ■ -g default_group—Set the default group that new users will be placed in.

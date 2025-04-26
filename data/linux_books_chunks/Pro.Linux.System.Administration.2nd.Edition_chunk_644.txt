@@ -1,0 +1,8 @@
+You can use grep to do 
+
+complex regular expression searches in files, for example:
+
+$ grep 'J[oO][bB]' *
+
+This would find the strings JOB, Job, JOb, or JoB in all files in the current directory (remember, grep is 
+case sensitive by default, so our regular expression has explicitly specified upper- and lowercase variations).

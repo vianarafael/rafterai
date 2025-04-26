@@ -1,0 +1,20 @@
+Getting More Information from ls
+
+$ ls -la
+total 192
+drwxr-xr-x      25  root  root         4096  2016-07-22 12:47  .
+drwxr-xr x      25  root  root         4096  2016-07-22 12:47  ..
+-rw-r--r--          1   root  root              0  2016-07-15 20:47  .autofsck
+drwxr-xr-x       2   root  root         4096  2016-05-18 04:11  bin
+drwxr-xr-x       6   root  root         3072  2016-05-25 21:57  boot
+drwxr-xr-x     14   root  root         4100  2016-07-19 12:26  dev
+drwxr-xr-x   116   root  root       12288  2016-07-22 12:47  etc
+drwxr-xr-x      7   smtpd smtpd    4096  2016-05-02 12:00  home
+drwxr-xr-x    12   root  root          4096  2016-05-17 18:14  lib
+drwxr-xr-x      8   root  root          4096  2016-06-06 10:19  lib64
+drwx------       2   root  root        16384  2016-06-11 16:01  lost+found
+drwxr-xr-x      2   root  root          4096  2016-06-11 16:14  media
+drwxr-xr-x      4   root  root          4096  2016-06-12 11:28  mnt
+...
+
+In Listing 4-8, the l and a switches have been added to the ls command.

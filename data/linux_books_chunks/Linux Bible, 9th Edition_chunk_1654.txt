@@ -1,0 +1,5 @@
+The title lines for each of those partitions are followed by the name that appears on the 
+boot screen to represent each partition.
+
+For the RHEL system, the root line indicates the location of the boot partition as the 
+ second partition on the ﬁ rst disk.

@@ -1,0 +1,14 @@
+In other words, you can conﬁ gure Samba to share user home directories, 
+but SELinux prohibits someone trying to use that feature unless you explicitly 
+ conﬁ gure SELinux to allow that feature.
+
+ ■ Host and user restrictions—Within the Samba conﬁ guration ﬁ les themselves, you 
+can indicate which hosts and users can have access to the Samba server as a whole 
+or to particular shared directories.
+
+The next sections describe how to set up the security features just mentioned for Samba.
+
+Confi guring fi rewalls for Samba
+If an iptables or firewalld ﬁ rewall is conﬁ gured for your system when you ﬁ rst 
+install it, the ﬁ rewall typically allows any requests for services from local users, but none 
+by  outside users.

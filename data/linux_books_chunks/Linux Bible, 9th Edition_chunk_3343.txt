@@ -1,0 +1,7 @@
+Because anyone who can 
+ﬁ nd the server can write to this directory, some form of security needs to be in place. You 
+want to prevent an anonymous user from seeing ﬁ les uploaded by other users, taking ﬁ les, 
+or deleting ﬁ les uploaded by other anonymous FTP users. One form of security is the chown 
+feature of FTP.
+
+By setting the following two values, you can allow anonymous uploads.

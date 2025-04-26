@@ -1,0 +1,16 @@
+Use ssh to log on to the server, show your current directory and then exit the server.
+
+user@client$ ssh user@server-ip-address
+user@server$ pwd
+/home/user
+user@server$ exit
+
+4. Use scp to copy a file from your computer to the server.
+
+scp localfile user@server:~
+
+5. Use scp to copy a file from the server to your computer.
+
+scp user@server:~/serverfile .
+
+6.

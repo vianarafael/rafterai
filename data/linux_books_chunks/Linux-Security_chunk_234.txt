@@ -1,0 +1,24 @@
+groupmod
+
+You can change the group name with the groupmod command.
+
+root@laika:~# groupmod -n darts snooker 
+root@laika:~# tail -5 /etc/group
+tennis:x:1006:inge,katrien
+football:x:1007:
+formula1:x:1009:annelies
+salsa:x:1010:katrien
+darts:x:1008:sandra
+
+5.6. groupdel
+
+You can permanently remove a group with the groupdel command.
+
+root@laika:~# groupdel tennis
+root@laika:~#
+
+38
+
+groups
+
+5.7.

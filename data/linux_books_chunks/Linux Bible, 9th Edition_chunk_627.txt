@@ -1,0 +1,4 @@
+To make commands available to all users, add them to /usr/local/bin.
+
+Unlike some other operating systems, Linux does not, by default, check the current direc-
+tory for an executable before searching the path.

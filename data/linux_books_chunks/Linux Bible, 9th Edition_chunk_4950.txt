@@ -1,0 +1,7 @@
+Although it is beyond the scope of this book to help 
+you develop an entire cloud computing platform, it is within our charter to help you use 
+ different cloud platforms to run your Linux systems. The next chapter helps you do that.
+
+Summary
+Linux is in the foundation on which most of today’s emerging cloud technologies are being 
+built.

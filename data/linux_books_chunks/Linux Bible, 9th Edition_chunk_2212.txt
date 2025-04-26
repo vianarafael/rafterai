@@ -1,0 +1,10 @@
+Delete all the partitions on your USB ﬂ ash drive, save the changes, and make sure 
+the changes were made both on the disk’s partition table and in the Linux kernel.
+
+4.  Add three partitions to the USB ﬂ ash drive: 100MB Linux partition, 200MB swap 
+
+partition, and 500MB LVM partition. Save the changes.
+
+5.  Put an ext3 ﬁ lesystem on the Linux partition.
+
+6.

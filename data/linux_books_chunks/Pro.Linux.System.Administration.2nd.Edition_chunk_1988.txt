@@ -1,0 +1,9 @@
+It is usually a very long list, but we can 
+pipe the output from dpkg into the more command and display the output page by page (see Listing 8-19). 
+We can then scroll through it at our leisure.
+
+Listing 8-19.  Piping the dpkg -l Output to More
+
+$ dpkg -l | more
+
+Notice in Figure 8-39 that dpkg lists output in four columns: status, name, version, and description.

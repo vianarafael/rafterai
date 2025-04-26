@@ -1,0 +1,3 @@
+/etc/samba/smbpasswd
+
+To  find  out  where  Samba  keeps  this  information  (for  now),  use  smbd  -b.

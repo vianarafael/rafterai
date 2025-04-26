@@ -1,0 +1,3 @@
+This can happen if one of the partitions on 
+the disk you were editing was still mounted. To avoid having to reboot, make sure no partitions on the disk 
+you’re partitioning are mounted.

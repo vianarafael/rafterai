@@ -1,0 +1,6 @@
+The partition information needs to be written to disk before LVM can be configured. Select Yes 
+and go to the next screen.
+
+Figure 2-56.  Writing partition information to disk
+
+We now need to add a passphrase to secure the encrypted data.

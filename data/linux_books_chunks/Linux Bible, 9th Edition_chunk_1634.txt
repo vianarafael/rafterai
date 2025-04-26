@@ -1,0 +1,13 @@
+(The timeout is set by the timeout value, in seconds, in the grub.
+conf or menu.lst ﬁ le.)
+
+ ■ Select an operating system—Press any key before the ﬁ ve seconds expires, and 
+you see a list of titles to select from. The titles can represent one or more kernels 
+
+225
+
+c09.indd  04/01/2015  Page 226
+
+Part III: Becoming a Linux System Administrator
+
+for the same Linux system.

@@ -1,0 +1,9 @@
+You just created the profile 'nightly'.
+The initial config file has been created as
+'/home/exbackup/.duply/nightly/conf'.
+You should now adjust this config file to your needs.
+
+IMPORTANT:
+  Copy the _whole_ profile folder after the first backup to a safe place.
+  It contains everything needed to restore your backups. You will need
+  it if you have to restore the backup from another system (e.g.

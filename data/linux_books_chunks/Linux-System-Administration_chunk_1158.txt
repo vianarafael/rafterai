@@ -1,0 +1,6 @@
+It uses the
+authpriv facility to log the host ip-address and pid of successful daemon spawns. When a
+service (aka protocol linked to daemon) gets more than 25 cps (connections per second), it
+holds subsequent requests for 30 seconds.
+
+The directory /etc/xinetd.d contains more specific configuration files.

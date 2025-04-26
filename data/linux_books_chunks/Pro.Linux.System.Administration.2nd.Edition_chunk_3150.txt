@@ -1,0 +1,5 @@
+the client thinks it is talking directly to the origin servers.
+
+To turn our current configuration into a transparent proxy, we have to make two small changes to the 
+
+configuration file.

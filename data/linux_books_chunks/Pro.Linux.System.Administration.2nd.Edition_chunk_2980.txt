@@ -1,0 +1,8 @@
+This means you need to 
+know how to manage MariaDB users, as you do not want all applications to connect to the MariaDB 
+server as root. We’ll demonstrate how to create and remove databases and users via the command-line 
+mysql client.
+
+Databases
+
+Creating databases in MariaDB is easy.

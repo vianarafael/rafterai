@@ -1,0 +1,2 @@
+After you start this type of installation, you can go to another system and open a vnc 
+viewer, giving the viewer the address of the installation machine (such as 192.168.0.99:1).

@@ -1,0 +1,9 @@
+(See Chapter 25, “Securing Linux on a Network,” for a description 
+of how to open speciﬁ c ports to allow access to your system.)
+
+ ■ Restart the rsyslog service (service rsyslog restart or systemctl 
+
+restart rsyslog.service).
+
+ ■ If the service is running, you should be able to see that the service is listening on 
+the ports you enabled (UDP and/or TCP ports 514).

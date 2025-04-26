@@ -1,0 +1,9 @@
+Chapter 27 covers how to deploy Linux to some of these cloud providers.
+
+Now that you have heard about many of the technologies that make up Linux cloud 
+ computing, you can get your ﬁ rst small taste of some of the foundational technologies of 
+Linux clouds by setting up your own mini-cloud in the next section.
+
+Trying Basic Cloud Technology
+To help you understand cloud technology from the ground up, this section illustrates some 
+of the basic building blocks of a modern cloud infrastructure.

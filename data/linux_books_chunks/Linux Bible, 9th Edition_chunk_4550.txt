@@ -1,0 +1,6 @@
+However, before you learn how to change the settings of these security contexts, 
+you need to understand another piece of the SELinux puzzle, SELinux policy types.
+
+Understanding SELinux policy types
+The policy type chosen directly determines what sets of policy rules are used to dictate 
+what an object can access.

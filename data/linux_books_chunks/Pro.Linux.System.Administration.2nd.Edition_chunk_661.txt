@@ -1,0 +1,13 @@
+You can also specify / for the root (and thus search the whole directory tree), or any other 
+location that you can access.
+
+ If you don’t have permission to search a particular directory, you’ll get an error message indicating 
+
+ ■ Note 
+that your search has been denied.
+
+137
+
+ChapTeR 4 ■ LInux BasICs
+
+Next, we’ve specified two options, -type and -iname.

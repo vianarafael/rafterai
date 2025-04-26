@@ -1,0 +1,6 @@
+You can ﬁ ne-tune the rules to allow 
+network trafﬁ c from one location but not from another. These rules essentially make 
+up a network access control list for your Linux server.
+
+Fedora, RHEL, and other Linux distributions have added the firewalld service on 
+top of iptables, to provide a more dynamic way of managing ﬁ rewall rules.

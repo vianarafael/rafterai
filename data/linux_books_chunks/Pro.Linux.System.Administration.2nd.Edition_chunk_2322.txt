@@ -1,0 +1,18 @@
+You can check the array status again via /proc/mdstat.
+
+394
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+$ cat /proc/mdstat
+Personalities : [raid1] [raid6] [raid5] [raid4]
+md0 : active raid5 sde[4] sdf[3](S) sdd[1] sdc[0]
+      16765952 blocks super 1.2 level 5, 512k chunk, algorithm 2 [3/2] [UU_]
+       [===>.................]  recovery = 15.2% (1280840/8382976) finish=0.7min 
+
+speed=160105K/sec
+
+Here you can see that we have [3/2][UU_] which means two of the drives are functioning normally and 
+
+the other is degraded but recovering, meaning it is getting a copy of the data it needs to bring it into the RAID 
+array.

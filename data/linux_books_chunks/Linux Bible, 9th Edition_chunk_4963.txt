@@ -1,0 +1,6 @@
+For example, there are instances that are optimized for high-performance pro-
+cessing or memory-intensive applications.
+
+The content of a cloud instance tends to be generic in nature. It is expected that more 
+information is attached to the image by the cloud user or the cloud provider using a service 
+such as cloud-init.

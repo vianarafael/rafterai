@@ -1,0 +1,3 @@
+The kill command can send a kill signal to any process 
+to end it, assuming you have permission to do so. It can also send different signals to a 
+process to otherwise change its behavior.

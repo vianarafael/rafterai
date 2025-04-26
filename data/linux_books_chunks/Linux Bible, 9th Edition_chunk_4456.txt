@@ -1,0 +1,15 @@
+However, the /etc/pam.d/
+passwd includes the system-auth ﬁ le in its stack.
+
+# cat /etc/pam.d/passwd
+#%PAM-1.0
+auth       include     system-auth
+account    include     system-auth
+password   substack    system-auth
+-password  optional    pam_gnome_keyring.so use_authtok
+password   substack    postlogin
+
+On Ubuntu, you need to modify the /etc/pam.d/common-password fi le, instead of the system-auth con-
+fi guration fi le.
+
+The current settings of the system-auth ﬁ le are shown here.

@@ -1,0 +1,5 @@
+You  can  find  the  latter  in  the  graphical  menu,
+somewhere  in  System  Tools  -  Security,  or  you  can  start  it  by  typing  system-config-
+securitylevel  in  bash.  These  tools  allow  for  some  basic  firewall  configuration.  You  can
+decide whether to enable or disable the firewall, and what typical standard ports are allowed
+when the firewall is active.

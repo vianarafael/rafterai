@@ -1,0 +1,15 @@
+To ﬁ nd the PAM limits conﬁ guration ﬁ le, type:
+
+$ ls /etc/security/limits.conf
+
+  Display the ﬁ le’s contents by typing the following:
+
+$ cat /etc/security/limits.conf
+
+  Settings in this ﬁ le to prevent a fork bomb look like the following:
+
+@staff       hard    nproc           50
+@staff       hard    maxlogins        1
+
+Chapter 24: Enhancing Linux Security with SELinux
+1.

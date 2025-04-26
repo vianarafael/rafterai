@@ -1,0 +1,7 @@
+We can also add this DNS server to the resolv.conf 
+files on any other hosts we have in our local network.
+
+Authoritative DNS
+If you need to map hostnames to IP addresses for hosts in your own network, then a DNS caching server 
+will not do. You will need to have an authoritative DNS server. An authoritive DNS server is an authoritative 
+source of information for a zone.

@@ -1,0 +1,13 @@
+We talk about Kickstart in Chapter 19.
+
+14
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-2.  The CentOS graphical installer
+
+In Figure 2-2 we select the language we wish to use. Here we are localizing English to the Australian 
+
+version, mate. Select Continue to move to the next screen.
+
+ ■ Tip  The release notes tell you what has changed between this version and the last version.

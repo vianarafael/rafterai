@@ -1,0 +1,9 @@
+the profile is built 
+after answering questions about the application access. the resultant profile can then be copied into the 
+/etc/apparmor.d/ directory and enabled by issuing the following:
+
+$ sudo aa-enforce /etc/apparmor.d/<your profile>
+
+apparmor is distributed on Ubuntu and OpenSUSe but can be installed on Debian and CentOS.
+
+We have only touched on these subjects.

@@ -1,0 +1,17 @@
+Network packets can be identiﬁ ed many ways by the netfilter/iptables 
+ ﬁ rewall. These are a few of the ways:
+
+ ■ Source IP address
+
+ ■ Destination IP address
+
+ ■ Network protocol
+
+ ■ Inbound port
+
+ ■ Outbound port
+
+ ■ Network state
+
+If no rule exists for a particular packet, then the overall policy is used. Each packet 
+ category or chain has a default policy.

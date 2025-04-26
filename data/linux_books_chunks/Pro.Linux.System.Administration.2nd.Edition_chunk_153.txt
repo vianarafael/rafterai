@@ -1,0 +1,4 @@
+If it is not on your network, your host will use 
+the default gateway to reach it. Your host then will ask the DNS server for the IP address of www.google.com, 
+and the DNS server will answer with something like 74.125.19.104. Your host will then again use your default 
+gateway to leave your network and fetch the web page provided by www.google.com.

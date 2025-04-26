@@ -1,0 +1,16 @@
+verifying extra ip-addresses
+
+Use  ping  from  another  computer  to  check  the  activation,  or  use  ifconfig  like  in  this
+screenshot.
+
+debian5:~# ifconfig | grep 'inet '
+      inet addr:192.168.1.34  Bcast:192.168.1.255  Mask:255.255.255.0
+      inet addr:192.168.1.233  Bcast:192.168.1.255  Mask:255.255.255.0
+      inet addr:192.168.1.242  Bcast:192.168.1.255  Mask:255.255.255.0
+      inet addr:127.0.0.1  Mask:255.0.0.0
+
+289
+
+binding and bonding
+
+24.3.

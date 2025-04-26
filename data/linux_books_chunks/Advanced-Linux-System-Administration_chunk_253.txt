@@ -1,0 +1,42 @@
+/etc/sysconfig/syslog
+
+The /etc/sysconfig/syslog file defines the following default variables:
+
+SYSLOGD_OPTIONS="-m 0"
+KLOGD_OPTIONS="-2"
+
+Configuration File
+
+The configuration file is /etc/syslog.conf with the following format:
+
+ FACILITY.PRIORITY  ACTION
+
+Facilities 
+auth, authpriv, cron,daemon, kern, lpr, mail, mark, news, security (same as  auth),  syslog, 
+user,  uucp and local0 to local7
+
+Priorities
+debug,  info, notice, warning,err, crit, alert, emerg
+The following are deprecated: 
+error (same as err), warn (same as warning), panic (same as emerg)
+
+66
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+Actions
+Flat file
+Terminal
+Username
+Host
+
+Full path to a file, usually in /var/log/
+use /dev/ttyN to output logs to
+if Username is logged in, send logs to the user's tty 
+send logs to a remote host.

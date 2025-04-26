@@ -1,0 +1,14 @@
+You can also add firewall configurations in post-install scripts in Cobbler if that is a requirement.
+
+# IPv4 example
+#d-i netcfg/get_ipaddress string 192.168.1.42
+#d-i netcfg/get_netmask string 255.255.255.0
+#d-i netcfg/get_gateway string 192.168.1.1
+#d-i netcfg/get_nameservers string 192.168.1.1
+#d-i netcfg/confirm_static boolean true
+
+You can set a static IP or allow for DHCP in your network settings.
+
+Disks and Partitions
+
+Disk partition can be fairly complex in Preseed.

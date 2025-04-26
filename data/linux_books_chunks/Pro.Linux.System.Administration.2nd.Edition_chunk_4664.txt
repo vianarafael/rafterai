@@ -1,0 +1,4 @@
+Which of these you end up using on your system depends on what you think will be best for your server 
+(keeping indexes in mind), and you should be aware that these must be unique (SINGLE-VALUE).
+
+Next, we have to declare the object class top and person.

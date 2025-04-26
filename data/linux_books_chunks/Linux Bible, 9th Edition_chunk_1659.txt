@@ -1,0 +1,6 @@
+GRUB automatically picks up those changes when you reboot your computer.
+
+Adding a new GRUB boot image
+You may have different boot images for kernels that include different features. In most 
+cases, installing a new kernel package automatically conﬁ gures grub.conf to use that new 
+kernel.

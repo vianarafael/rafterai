@@ -1,0 +1,24 @@
+The process is similar to how we mounted the drive for our Mac and is similar to mounting other 
+Windows network drives.
+
+Resources
+For more information on setting up Samba, please see the following resources:
+
+•	
+
+•	
+
+•	
+
+https://wiki.samba.org/index.php/Main_Page
+
+https://www.samba.org/samba/docs/
+
+www.samba.org/samba/docs/man/Samba-HOWTO-Collection/-v3.5
+
+613
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+NFS Shares: Linux to Linux
+Linux hosts can also mount shares from each other much in the same way that Samba does.

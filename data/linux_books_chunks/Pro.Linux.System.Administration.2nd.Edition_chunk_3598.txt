@@ -1,0 +1,7 @@
+Launching Mozilla Thunderbird
+
+If this is the first time you’ve launched Thunderbird, the Account Wizard will start. This wizard allows 
+you to create an account with a service provider. You can create a new account by selecting Preferences ➤ 
+Account Settings and clicking Add Account.
+
+By now most people will be familiar with setting up an e-mail client.

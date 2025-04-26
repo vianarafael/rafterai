@@ -1,0 +1,6 @@
+PAM can also limit resources, restrict access times, enforce good password  selection, and so on.
+
+Managing PAM-aware application configuration files
+You should review PAM conﬁ guration ﬁ les for your PAM-aware applications and utilities 
+to ensure that their authentication process matches your organization’s desired authen-
+tication process.

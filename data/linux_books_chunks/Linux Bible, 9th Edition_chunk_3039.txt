@@ -1,0 +1,7 @@
+Click Yes to proceed to conﬁ gure the printer for local use. 
+The Add Printer Wizard appears. Answer the questions that ask you how you intend to use 
+the printer, and add the appropriate drivers. When you are ﬁ nished, the printer appears in 
+your printer window.
+
+Another way to conﬁ gure an SMB printer from a Windows XP operating system is to go to 
+Start ➪ Printers and Faxes.

@@ -1,0 +1,6 @@
+Rather than a cron 
+job on Ubuntu, the FreshClam service is run as a daemon and will try to download any available signatures 
+several times per day.
+
+On both CentOS and Ubuntu, running the ClamAV daemon will create a Unix socket file. This special 
+type of file is used by the ClamAV milter to communicate with the antivirus scanner.

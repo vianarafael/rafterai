@@ -1,0 +1,8 @@
+tables in those databases are stored in /var/lib/
+mysql/<databasename>/<tablename.frm>.
+
+When data in a table changes in memory (e.g., because you insert a record), innodb stores it in its redo 
+logs. When these transaction logs fill up, the Mariadb server flushes these changed data records to the 
+table files.
+
+One of the reasons for this is performance, just like with a journaling filesystem.

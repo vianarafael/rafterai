@@ -1,0 +1,14 @@
+One way to move the paragraph in your /tmp/services ﬁ le is to search for the 
+
+ﬁ rst line of the paragraph, delete ﬁ ve lines (5dd), go to the end of the ﬁ le (G), and 
+put in the text (p):
+
+$ vi /tmp/services
+/Note that it is<Enter>
+5dd
+G
+p
+
+B
+
+3.

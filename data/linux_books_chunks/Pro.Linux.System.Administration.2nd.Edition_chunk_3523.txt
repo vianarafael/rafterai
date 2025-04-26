@@ -1,0 +1,2 @@
+On CentOS, the ClamAV daemon is configured via the /etc/clamd.d/scan.conf file. 
+The scan.conf file configures the ClamAV daemon.

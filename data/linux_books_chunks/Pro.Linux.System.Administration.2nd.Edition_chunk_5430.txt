@@ -1,0 +1,6 @@
+Authenticated contacts are granted further rights to view and manipulate the hosts and services for which 
+they are contacts.
+
+Let’s look at the cgi.cfg file. The first directive in the cgi.cfg file is called use_authentication. It 
+controls whether authentication is enabled for the Nagios web console and whether Nagios will use the 
+authentication credentials provided from the web server.

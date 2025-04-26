@@ -1,0 +1,25 @@
+This  determines  the  computers  operating  system  or  the
+partitions file system.
+
+Table 5.1. primary, extended and logical partitions
+
+Partition Type
+
+Primary (max 4)
+
+Extended (max 1)
+
+Logical
+
+naming
+
+1-4
+
+1-4
+
+5-
+
+5.1.2. partition naming
+
+We saw before that hard disk devices are named /dev/hdx or /dev/sdx with x depending on
+the hardware configuration.

@@ -1,0 +1,4 @@
+The respective disk to be used is specified with the --ondisk option, here ranging from sda to sde. Lastly, we 
+used the raid option to specify the md0 RAID disk as the / or root partition.
+
+You can also create partitions using LVM during an automated installation.

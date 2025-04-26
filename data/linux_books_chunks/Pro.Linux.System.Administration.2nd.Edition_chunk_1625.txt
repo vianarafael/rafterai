@@ -1,0 +1,34 @@
+Command Options Available to the iptables Command
+
+Option
+
+Description
+
+-L
+
+-D
+
+-I
+
+-F
+
+-A
+
+-X
+
+-N
+
+-R
+
+-C
+
+-S
+
+-P
+
+Lists the current rules of iptables you have in memory.
+
+Deletes a rule in a chain. The rule to delete can be expressed as a rule number or as a 
+pattern to match.
+
+Inserts a rule into a chain.

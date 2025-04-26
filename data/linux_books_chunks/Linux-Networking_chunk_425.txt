@@ -1,0 +1,29 @@
+The htpasswd command can create a .htpasswd file that contains a userid
+and an (encrypted) password.
+
+This screenshot creates a user and password for the hacker named cliff and uses the -c flag
+to create the .htpasswd file.
+
+root@debian7:~# htpasswd -c /var/www/.htpasswd cliff 
+New password:
+Re-type new password:
+Adding password for user cliff
+root@debian7:~# cat /var/www/.htpasswd
+cliff:$apr1$vujll0KL$./SZ4w9q0swhX93pQ0PVp.
+
+Hacker rob also wants access, this screenshot shows how to add a second user and password
+to .htpasswd.
+
+root@debian7:~# htpasswd /var/www/.htpasswd rob 
+New password:
+Re-type new password:
+Adding password for user rob
+root@debian7:~# cat /var/www/.htpasswd 
+cliff:$apr1$vujll0KL$./SZ4w9q0swhX93pQ0PVp.
+rob:$apr1$HNln1FFt$nRlpF0H.IW11/1DRq4lQo0
+
+Both  Cliff  and  Rob  chose  the  same  password  (hunter2),  but  that  is  not  visible  in  the
+.htpasswd file because of the different salts.
+
+Next we need to create a .htaccess file in the DocumentRoot of the website we want to
+protect.

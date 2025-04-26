@@ -1,0 +1,8 @@
+root root unconfined_u:object_r:httpd_sys_content_t:s0 /var/www/h\
+tml/test42.txt
+
+Files created elsewhere do not get this type.
+
+[root@centos65 ~]# touch /root/test42.txt
+[root@centos65 ~]# ls -Z /root/test42.txt 
+-rw-r--r--.

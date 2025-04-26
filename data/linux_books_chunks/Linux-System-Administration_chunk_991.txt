@@ -1,0 +1,17 @@
+There is a list of port numbers in /etc/services.
+
+paul@ubu1010:~$ grep ssh /etc/services 
+ssh             22/tcp                 # SSH Remote Login Protocol
+ssh             22/udp
+
+262
+
+Chapter 22. interface configuration
+
+This chapter explains how to configure network interface cards to work with tcp/ip.
+
+263
+
+interface configuration
+
+22.1.

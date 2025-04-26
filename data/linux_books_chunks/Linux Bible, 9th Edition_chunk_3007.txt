@@ -1,0 +1,2 @@
+The ﬁ rst (hp) is connected to a local USB port. The 
+second (deskjet_5550) is a network printer (shown as /dev/null).

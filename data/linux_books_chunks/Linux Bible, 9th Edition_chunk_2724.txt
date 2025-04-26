@@ -1,0 +1,41 @@
+( sysinit is used for starting up services at system initialization.) The target unit names 
+end with .target.
+
+# systemctl list-units | grep .service
+...
+cups.service           loaded active running CUPS Printing Service
+dbus.service           loaded active running D-Bus Message Bus
+
+392
+
+c15.indd  04/01/2015  Page 393
+
+Chapter 15: Starting and Stopping Services
+
+...
+NetworkManager.service loaded active running Network Manager
+prefdm.service         loaded active running Display Manager
+remount-rootfs.service loaded active exited  Remount Root FS
+rsyslog.service        loaded active running System Logging
+...
+sshd.service           loaded active running OpenSSH server daemon
+systemd-logind.service loaded active running Login Service
+...
+# systemctl list-units | grep .target
+basic.target           loaded active active  Basic System
+cryptsetup.target      loaded active active  Encrypted Volumes
+getty.target           loaded active active  Login Prompts
+graphical.target       loaded active active  Graphical Interface
+local-fs-pre.target    loaded active active  Local File Systems (Pre)
+local-fs.target        loaded active active  Local File Systems
+multi-user.target      loaded active active  Multi-User
+network.target         loaded active active  Network
+remote-fs.target       loaded active active  Remote File Systems
+sockets.target         loaded active active  Sockets
+sound.target           loaded active active  Sound Card
+swap.target            loaded active active  Swap
+sysinit.target         loaded active active  System Initialization
+syslog.target          loaded active active  Syslog
+
+The Linux system unit conﬁ guration ﬁ les are located in the /lib/systemd/system and
+/etc/systemd/system directories.

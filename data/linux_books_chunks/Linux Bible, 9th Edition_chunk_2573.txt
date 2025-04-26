@@ -1,0 +1,6 @@
+More than that and it can take too long for an unresolvable 
+hostname to get checked for each server.
+
+Another type of entry you can add to this ﬁ le is a search entry. A search entry lets you 
+indicate domains to be searched when a hostname is requested by its base name instead of 
+its entire fully qualiﬁ ed domain name.

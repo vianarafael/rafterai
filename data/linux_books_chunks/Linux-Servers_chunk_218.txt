@@ -1,0 +1,5 @@
+The proxy server will also cache the pages retrieved from the internet server.
+A proxy server may provide pages from his cache to a client, instead of connecting to the
+internet server to retrieve the (same) pages.
+
+A proxy server has two main advantages.

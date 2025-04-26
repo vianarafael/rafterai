@@ -1,0 +1,6 @@
+Also, we will need the OpenDKIM package to manage our DKIM service.
+
+$ sudo yum install –y opendkim (CentOS)
+$ sudo aptitude install –y opendkim (Ubuntu)
+
+This will install the OpenDKIM packages as well as create the opendkim user.

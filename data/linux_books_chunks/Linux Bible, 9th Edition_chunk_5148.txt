@@ -1,0 +1,25 @@
+As an alternative, you can go directly to the application you 
+want by pressing Alt+Tab and pressing Tab again to highlight the application 
+you want to open.
+
+782
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 783
+
+Appendix B: Exercise Answers
+
+ ■ In GNOME 2, select the workspace you want with your mouse by clicking the 
+small representation of the workspace in the right side of the lower panel.

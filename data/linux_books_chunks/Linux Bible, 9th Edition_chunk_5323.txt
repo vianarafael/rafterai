@@ -1,0 +1,4 @@
+If connecting to 
+the web server succeeds after that, you need to add new ﬁ rewall rules to open tcp 
+ports 80 and 443 on the server. On a system using the firewalld service, do this 
+by clicking the check box next to those ports on the Firewall window.

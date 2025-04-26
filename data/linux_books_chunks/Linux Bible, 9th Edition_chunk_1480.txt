@@ -1,0 +1,4 @@
+Available storage devices (such as your hard 
+drive) are displayed, with your hard drive selected as the installation destination. 
+If you want the installer to automatically install Fedora, just select Done in the 
+upper-left corner.

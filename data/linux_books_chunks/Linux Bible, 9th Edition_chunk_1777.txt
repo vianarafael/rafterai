@@ -1,0 +1,16 @@
+Here you 
+can see that the dvdrecord command is part of the wodim package:
+
+246
+
+c10.indd  04/01/2015  Page 247
+
+Chapter 10: Getting and Managing Software
+
+# yum provides dvdrecord
+wodim-1.1.11-25.fc21.x86_64 : A command line CD/DVD recording program
+Repo        : fedora
+Matched from:
+Provides    : dvdrecord
+
+The list subcommand can be used to list package names in different ways.

@@ -1,0 +1,9 @@
+[Storage Objects: 0]
+/backstores/block> create target.disk1 /dev/sdb
+Created block storage object target.disk1 using /dev/sdb.
+/backstores/block> create target.disk2 /dev/sdc
+Created block storage object target.disk2 using /dev/sdc.
+/backstores/block> create target.disk3 /dev/sdd
+Created block storage object target.disk3 using /dev/sdd.
+/backstores/block> ls
+o- block ..................................................

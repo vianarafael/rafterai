@@ -1,0 +1,11 @@
+three sets of rwx
+
+We  already  know  that  the  output  of  ls  -l    starts  with  ten  characters  for  each  file.  This
+screenshot shows a regular file (because the first character is a - ).
+
+paul@RHELv4u4:~/test$ ls -l proc42.bash
+-rwxr-xr--  1 paul proj 984 Feb  6 12:01 proc42.bash
+
+Below is a table describing the function of all ten characters.
+
+Table 6.3.

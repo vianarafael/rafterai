@@ -1,0 +1,18 @@
+The chmod
+command will accept these numbers.
+
+paul@laika:~/perms$ chmod 777 permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwxrwxrwx 1 paul paul 0 2007-02-07 22:34 permissions.txt
+paul@laika:~/perms$ chmod 664 permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rw-rw-r-- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+paul@laika:~/perms$ chmod 750 permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwxr-x--- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+52
+
+standard file permissions
+
+6.3.6.

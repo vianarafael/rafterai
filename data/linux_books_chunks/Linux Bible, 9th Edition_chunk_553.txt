@@ -1,0 +1,3 @@
+Although the shell is less intuitive 
+than common graphic user interfaces (GUIs), most Linux experts consider the shell to be much more 
+powerful than GUIs.

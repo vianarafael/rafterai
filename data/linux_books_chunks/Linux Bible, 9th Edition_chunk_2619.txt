@@ -1,0 +1,6 @@
+By default, the dhcpd 
+daemon listens on UDP port 67, so remember to keep that port open on your ﬁ rewall.
+
+To conﬁ gure a DHCP server, you could copy the dhcpd.conf.sample ﬁ le from the 
+/usr/share/doc/dhcp-4* directory and replace the /etc/dhcp/dhcpd.conf ﬁ le. Then 
+modify it as you like.

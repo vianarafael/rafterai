@@ -1,0 +1,10 @@
+Some thought should be given 
+to how you want to lay out your directory structure, but ultimately you want it to be as simple and easy to 
+understand as possible.
+
+ it is important to define a standard way of naming your branches and describing your organization 
+
+ ■ Tip 
+now and stick to it.
+
+The branches are used to organize your information into logical groups.

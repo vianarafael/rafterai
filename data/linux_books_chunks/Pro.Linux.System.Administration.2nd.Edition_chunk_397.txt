@@ -1,0 +1,10 @@
+As you can see, it is a very simple way to build and run Linux servers. When you want to stop your 
+Vagrant host, simply type exit to log out of the terminal session and then issue vagrant halt.
+
+In Figure 3-15 we show the steps and output from our Git Bash terminal running on our Windows host.
+
+95
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-15.

@@ -1,0 +1,5 @@
+The sar command itself can 
+display system activity continuously, at set intervals (every second or two), and display it 
+on the screen. It can also display system activity data that was gathered earlier.
+
+The sar command is part of the sysstat package.

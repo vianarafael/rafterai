@@ -1,0 +1,5 @@
+Zones are defined in zone files, much like the root zone file we mentioned 
+earlier. Zone files always contain a header, also known as the SOA record. This header is optionally followed 
+by DNS records that define services and hosts. We’ve included a sample zone file header in Listing 10-17.
+
+Listing 10-17.

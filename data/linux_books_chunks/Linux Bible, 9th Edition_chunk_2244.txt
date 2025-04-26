@@ -1,0 +1,6 @@
+Here are some things to think about when you set 
+out to conﬁ gure a server.
+
+Using configuration files
+Most Linux servers are conﬁ gured using plain text ﬁ les in the /etc directory (or 
+ subdirectories).

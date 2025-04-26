@@ -1,0 +1,8 @@
+To help you ﬁ nd 
+ﬁ les on your system, you can use commands such as locate (to ﬁ nd commands by name), 
+find (to ﬁ nd ﬁ les based on lots of different attributes), and grep (to search within text 
+ﬁ les to ﬁ nd lines in ﬁ les that contain search text).
+
+Using locate to fi nd fi les by name
+On most Linux systems (Fedora and RHEL included), the updatedb command runs once per 
+day to gather the names of ﬁ les throughout your Linux system into a database.

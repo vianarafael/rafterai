@@ -1,0 +1,6 @@
+On Linux hosts, SSH is provided by an open source version of the 
+application called OpenSSH (see www.openssh.com/).
+
+SSH connects over TCP/IP (Transmittion Control Protocol/Internet Protocol) networks in a client-
+server model. Your connecting host is the client. For example, if you are connecting to a remote host from 
+your laptop, your laptop is the client.

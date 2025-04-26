@@ -1,0 +1,3 @@
+creating a swap file
+
+Here is one more example showing you how to create a swap file.

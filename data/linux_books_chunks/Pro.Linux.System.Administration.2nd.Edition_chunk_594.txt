@@ -1,0 +1,4 @@
+So here we would take the default permissions for a file, 0666, 
+and subtract the 0022 value, leaving us with permissions of 0644. With a umask of 0022, a new file would be 
+created with read and write permissions for the owner of the file and read permissions for the group and 
+others.

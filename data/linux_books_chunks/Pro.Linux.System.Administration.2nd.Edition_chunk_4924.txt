@@ -1,0 +1,11 @@
+The developers of Graphite have provided 
+
+a quick way to install and configure it.
+
+•	
+
+https://graphite.readthedocs.io/en/latest/install-synthesize.html
+
+At the time of writing, this will spin up a Vagrant Ubuntu 14.04 and install version 0.9.5 of the Graphite 
+
+software.

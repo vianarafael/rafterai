@@ -1,0 +1,39 @@
+Commonly Used tune2fs Options
+
+Option
+
+Function
+
+-c N
+
+-l
+
+-m N
+
+-r N
+
+-j
+
+Sets the number of mounts before a filesystem check is forced to N
+
+Lists the current filesystem options
+
+Sets the reserved blocks percentage to N% of all blocks
+
+Sets the number of reserved blocks to N
+
+Creates a journal on this filesystem (converts ext2 to ext3)
+
+-L label
+
+-O feat
+
+Assigns the label “label” to the filesystem
+
+Toggles the filesystem feature “feat” on or off
+
+ ■ Note  We’ll come back to the -O option and advanced filesystem features in Chapter 17 when we discuss 
+performance and capacity planning.
+
+The XFS Filesystem
+The XFS filesystem was originally proprietary and closed source.

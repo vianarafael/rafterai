@@ -1,0 +1,13 @@
+Using the following find 
+command, you can list all files in this state:
+
+# find / -nouser -o -nogroup
+
+This command, run as root, will search the whole directory tree for any files that don’t belong to a valid 
+
+user or group.
+
+ There are some other search-related commands you might want to look at, including locate, 
+
+ ■ Tip 
+whereis, and which.

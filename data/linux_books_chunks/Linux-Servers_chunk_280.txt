@@ -1,0 +1,39 @@
+Consider this table.
+
+mysql> select countryname,population from country;
++---------------+------------+
+| countryname   | population |
++---------------+------------+
+| Belgium       |   11000000 |
+| China         | 1400000000 |
+| Germany       |   82000000 |
+| Egypt         |   82000000 |
+| Spain         |   48000000 |
+| France        |   64000000 |
+| India         | 1300000000 |
+| Japan         |  128000000 |
+| Mexico        |  113000000 |
+| United States |  313000000 |
++---------------+------------+
+10 rows in set (0.00 sec)
+
+Using the order by clause, we can change the order in which the records are presented.
+
+mysql> select countryname,population from country order by countryname;
++---------------+------------+
+| countryname   | population |
++---------------+------------+
+| Belgium       |   11000000 |
+| China         | 1400000000 |
+| Egypt         |   82000000 |
+| France        |   64000000 |
+| Germany       |   82000000 |
+| India         | 1300000000 |
+| Japan         |  128000000 |
+| Mexico        |  113000000 |
+| Spain         |   48000000 |
+| United States |  313000000 |
++---------------+------------+
+10 rows in set (0.00 sec)
+
+3.5.7.

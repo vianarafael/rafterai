@@ -1,0 +1,5 @@
+You can refer to any ﬁ le or directory using either a full path (for  example, 
+/home/joe/myfile.txt) or a relative path (for example, if /home/joe were your current 
+ directory, you could simply refer to the ﬁ le as myfile.txt).
+
+If you were to map out the ﬁ les and directories in Linux, it would look like an upside-down tree.

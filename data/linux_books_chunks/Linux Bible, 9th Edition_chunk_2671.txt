@@ -1,0 +1,13 @@
+Understanding 
+the classic init daemons will help you to understand the modern init daemons.
+
+The classic SysVinit and BSD init daemons operate in a very similar fashion. Although 
+in the beginning they may have been rather different, over time, very few signiﬁ cant 
+
+380
+
+c15.indd  04/01/2015  Page 381
+
+Chapter 15: Starting and Stopping Services
+
+differences remained.

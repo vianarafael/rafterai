@@ -1,0 +1,2 @@
+If you have set up a PXE server on that network, that server can present a 
+menu to the computer containing entries to launch an installation process.

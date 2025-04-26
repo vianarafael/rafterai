@@ -1,0 +1,14 @@
+The debug value is available only if Collectd has been compiled with debugging support, notice, 
+warning, and err are acceptable also.
+
+LoadPlugin cpu
+LoadPlugin df
+LoadPlugin disk
+LoadPlugin interface
+LoadPlugin load
+LoadPlugin memory
+LoadPlugin mysql
+LoadPlugin swap
+LoadPlugin rrdtool
+
+In this section we are loading in our plug-ins that we will use for metrics collection.

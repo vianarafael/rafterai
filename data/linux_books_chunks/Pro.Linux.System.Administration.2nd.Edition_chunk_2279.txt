@@ -1,0 +1,7 @@
+So you lose all your data.
+
+ ■ Caution  avoid using raId 0 on a server or on any machine that holds persistent data.
+
+RAID 1, also known as mirroring, allows you to store only as much data on the array as a single disk 
+holds. It stores identical copies of all files on both disks, so if one disk fails, you can still retrieve your data 
+from the other.

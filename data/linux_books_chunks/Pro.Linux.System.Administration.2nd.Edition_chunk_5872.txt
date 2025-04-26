@@ -1,0 +1,23 @@
+See Universal unique identifier (UUID)
+
+ V
+Vagrant, 74, 88–92, 94–96, 100
+
+base box, 94
+box, 92
+concepts, 88
+Git Bash terminal, 95–96
+installation, 88
+integrates with virtualbox, 89
+introduction, 87
+licensing, 88
+options, 90
+SSH, 95
+start with, 94
+status, 95
+subcommands, 90
+up, 93–94
+Vagrantfile, 91–93
+vagrant init, 91
+
+VDI.

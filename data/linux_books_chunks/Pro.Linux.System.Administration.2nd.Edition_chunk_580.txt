@@ -1,0 +1,6 @@
+This translates to adding the execute permission to the 
+User class.
+
+ ■ Note 
+ The execute permission is usually set only on files that are executable in nature such as scripts and 
+binaries (a.k.a. applications or programs) and on directories.

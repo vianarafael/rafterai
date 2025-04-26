@@ -1,0 +1,18 @@
+A quick way to check that vsftpd is working is to put a ﬁ le in the 
+/var/ftp directory and try to open it from your web browser on the local host:
+
+# echo "Hello From Your New FTP Server" > /var/ftp/hello.txt
+
+From a web browser on the local system, type the following into the location box of Firefox 
+or other browser:
+
+ftp://localhost/hello.txt
+
+482
+
+c18.indd  04/01/2015  Page 483
+
+Chapter 18: Confi guring an FTP Server
+
+If the text Hello From Your New FTP Server appears in the web browser, the 
+vsftpd server is working and accessible from your local system.

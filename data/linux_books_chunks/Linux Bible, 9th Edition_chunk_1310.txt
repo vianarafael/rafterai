@@ -1,0 +1,12 @@
+Also, only /usr/sbin is added to the PATH of the root user, as well as the PATH of all 
+regular users.
+
+182
+
+c08.indd  04/01/2015  Page 183
+
+Chapter 8: Learning System Administration
+
+Some administrative commands are contained in regular user directories (such as /bin 
+and /usr/bin). This is especially true of commands that have some options available to 
+everyone.

@@ -1,0 +1,6 @@
+(Support for NTFS partitions 
+from Linux has improved greatly in the past few years, but not all Linux systems 
+include NTFS support.)
+
+ ■ The fdisk man page recommends that you use partitioning tools that come with 
+an operating system to create partitions for that operating system.

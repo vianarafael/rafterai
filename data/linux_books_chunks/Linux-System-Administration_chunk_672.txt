@@ -1,0 +1,12 @@
+In that file, it
+will look for the value of initdefault (3 in the screenshot below).
+
+[paul@rhel4 ~]$ grep ^id /etc/inittab 
+id:3:initdefault:
+
+15.1.3. initdefault
+
+The value found in initdefault indicates the default runlevel. Some Linux distributions have
+a brief description of runlevels in /etc/inittab, like here on Red Hat Enterprise Linux 4.
+
+# Default runlevel.

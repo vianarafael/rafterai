@@ -1,0 +1,7 @@
+To select everything recursively in a directory, you can use the 
+mark * command. When you are finished selecting the files you want to restore, use the done command.
+
+You are given a list of the media volumes required to perform this restore. You will have to load them if 
+
+they are not already available to your backup host. Then you are given the rundown of the restore job you are 
+going to run.

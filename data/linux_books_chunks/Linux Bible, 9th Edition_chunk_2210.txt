@@ -1,0 +1,11 @@
+You need a USB ﬂ ash drive that is at least 
+1GB that you can erase for these exercises.
+
+311
+
+c12.indd  04/01/2015  Page 312
+
+Part III: Becoming a Linux System Administrator
+
+These tasks assume you are running a Fedora or Red Hat Enterprise Linux system 
+(although some tasks work on other Linux systems as well).

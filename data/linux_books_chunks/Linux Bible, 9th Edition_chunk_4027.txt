@@ -1,0 +1,22 @@
+To troubleshoot your installed Linux system, however, you can type the following 
+command:
+
+# chroot /mnt/sysimage
+
+586
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c21.indd  04/01/2015  Page 587
+
+Chapter 21: Troubleshooting Linux
+
+Now the /mnt/sysimage directory becomes the root of your ﬁ lesystem (/) so it looks like 
+the ﬁ lesystem installed on your hard disk.

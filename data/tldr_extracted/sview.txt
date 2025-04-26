@@ -1,0 +1,6 @@
+# sview
+
+
+- Start a GUI to view and modify the state of Slurm:
+
+`sview`

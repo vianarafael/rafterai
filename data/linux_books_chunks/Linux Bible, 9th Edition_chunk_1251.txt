@@ -1,0 +1,5 @@
+As Linux has become more popular, however, both graphical and command-line interfaces 
+began to be offered for most common Linux administrative tasks.
+
+Some of the ﬁ rst graphical system administration tools came from Red Hat. Commands for 
+launching these GUI tools typically start with system-config-*.

@@ -1,0 +1,16 @@
+Instead, they are handled by the 
+time.conf ﬁ le.
+
+Implementing time restrictions with PAM
+PAM can make your entire Linux system operate on “PAM time.” Time restrictions such as 
+access to particular applications during certain times of the day or allowing logins only 
+during speciﬁ ed days of the week are all handled by PAM.
+
+658
+
+c23.indd  04/01/2015  Page 659
+
+Chapter 23: Understanding Advanced Linux Security 
+
+The PAM conﬁ guration ﬁ le that handles these restrictions is located in the /etc/ 
+security directory.

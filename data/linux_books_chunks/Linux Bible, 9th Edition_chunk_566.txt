@@ -1,0 +1,5 @@
+Three of the most common are 
+the shell prompt, Terminal window, and virtual console, which you learn more about in the 
+following sections.
+
+To start using this section, boot up your Linux system.

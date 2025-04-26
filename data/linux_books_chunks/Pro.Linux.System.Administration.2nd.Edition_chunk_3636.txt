@@ -1,0 +1,2 @@
+It operates in the standard client-server model with 
+a daemon accepting requests from network clients.

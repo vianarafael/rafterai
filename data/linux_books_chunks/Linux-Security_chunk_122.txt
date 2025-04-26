@@ -1,0 +1,13 @@
+su as root
+
+You need to know the password of the user you want to substitute to, unless your are logged
+in as root. The root user can become any existing user without knowing that user's password.
+
+root@debian7:~# id
+uid=0(root) gid=0(root) groups=0(root)
+root@debian7:~# su - valentina
+valentina@debian7:~$
+
+1.9. su - $username
+
+By default, the su command maintains the same shell environment.

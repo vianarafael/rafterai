@@ -1,0 +1,11 @@
+If 
+
+both are installed, you already have what’s needed.
+
+If they are not installed, you can use the aptitude command to install them.
+
+$ sudo aptitude install postfix dovecot-core dovecot-imapd dovecot-pop3d
+
+Starting Postfix
+After installation, it is easy to start Postfix using the service management tools we introduced to you in 
+Chapter 6.

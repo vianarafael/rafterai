@@ -1,0 +1,41 @@
+Configure software RAID 1 on these partitions
+
+/etc/raidtab
+
+raiddev
+
+/dev/md0
+
+raidlevel 1
+
+nr-raid-disks 2
+
+nr-spare-disks 0
+
+chunk-size 4
+
+persistent-superblock 1
+
+device /dev/hda14
+
+raid-disk 0
+
+device /dev/hda15
+
+raid-disk 1
+
+Use the raidtools to make the array and start it up:
+
+mkraid /dev/md0
+
+raidstart /dev/md0
+
+Make an EXT2 filesystem on the new meta device and mount it on /mnt/sys:
+
+mke2fs /dev/md0
+
+mkdir /mnt/sys
+
+mount /dev/md0 /mnt/sys
+
+3.

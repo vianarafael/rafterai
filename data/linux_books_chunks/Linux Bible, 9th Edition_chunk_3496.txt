@@ -1,0 +1,20 @@
+Editing smb.conf directly is the most common way to conﬁ gure Samba on a 
+Red Hat Enterprise Linux server that has no graphical desktop interface installed.
+
+Configuring the [global] section
+If you look at the [global] section of the smb.conf ﬁ le, you can see that some settings 
+were modiﬁ ed and others are commented out, ready for you to modify as you like:
+
+[global]
+        workgroup = datagroup
+        server string = Sales Data
+
+516
+
+c19.indd  04/01/2015  Page 517
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+;       netbios name = MYSERVER
+;       interfaces = lo eth0 192.168.12.2/24 192.168.13.2/24
+;       hosts allow = 127.

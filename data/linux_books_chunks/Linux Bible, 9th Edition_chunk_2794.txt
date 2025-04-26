@@ -1,0 +1,10 @@
+Also, its process ID (PID) number, 17003, is shown.
+
+406
+
+c15.indd  04/01/2015  Page 407
+
+Chapter 15: Starting and Stopping Services
+
+Restarting a service with systemd
+Restarting a service means that a service is stopped and then started again.

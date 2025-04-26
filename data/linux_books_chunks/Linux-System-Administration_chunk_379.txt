@@ -1,0 +1,15 @@
+/etc/mtab
+
+The /etc/mtab file is not updated by the kernel, but is maintained by the mount command.
+Do not edit /etc/mtab manually.
+
+root@RHELv4u2:~# cat /etc/mtab | grep /dev/sdb
+/dev/sdb1 /home/project42 ext2 rw 0 0
+
+68
+
+mounting
+
+7.2.4. df
+
+A more user friendly way to look at mounted file systems is df.

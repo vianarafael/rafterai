@@ -1,0 +1,6 @@
+You will rarely 
+need to edit this file, but it has things like various path settings and TLS ciphers being used.
+
+The other main configuration file is on both the agent and the master. It is located at /etc/puppetlabs/
+
+puppet/puppet.conf.

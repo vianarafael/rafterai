@@ -1,0 +1,14 @@
+We will use this information in the bareos-sd.conf file soon.
+
+Chapter 14 ■ BaCkup and reCovery
+
+Storage {
+  Name = File
+# Do not use "localhost" here
+  Address = backup.example.com
+  Password = "4ncvx7V+Mw4NOMDMyuYjCHsNg1nKgcdh8nl0szWpi6t4"
+  Device = FileStorage
+  Media Type = File
+}
+
+This is the default configuration for the Storage section.

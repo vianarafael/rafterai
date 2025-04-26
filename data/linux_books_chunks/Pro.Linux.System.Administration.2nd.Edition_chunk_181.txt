@@ -1,0 +1,9 @@
+35
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Depending on what you are used to, this might feel a little uncomfortable for you as if we go ahead with this 
+you will only be able to use the command line, not a nice GUI to get around.
+
+ ■ Tip  as you become more familiar with Linux you may find you rarely use a gUI to configure and use 
+Linux. practically everything can be run from the command line.

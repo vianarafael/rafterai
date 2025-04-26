@@ -1,0 +1,13 @@
+The sa2 -A command gathers all data gathered to this point in the day (at 11:23 p.m.) 
+and places that in the /var/log/sa/sar?? ﬁ le, where ?? is replaced by the current day.
+
+To read the data in the sa?? and sar?? ﬁ les, you can use some of the following sar 
+commands:
+
+# sar -u | less
+Linux 3.10.0-123.el7.x86_64 (rhel7-01) 4/16/2017 _x86_64_ (4 CPU)
+12:00:01 AM     CPU   %user   %nice  %system %iowait  %steal  %idle
+12:10:01 AM     all    6.48    0.00     0.82    0.59    0.00  92.12
+12:20:01 AM     all    6.50    0.00     0.78    0.82    0.00  91.91
+
+The -u option shows CPU usage.

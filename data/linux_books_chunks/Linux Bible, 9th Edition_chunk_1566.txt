@@ -1,0 +1,7 @@
+Typically, you 
+have a host operating system running (such as your Linux or Windows desktop), and then 
+you conﬁ gure guest operating systems to run within that environment.
+
+If you have a Windows system, you can use commercial VMWare products to run Linux on 
+your Windows desktop. Visit http://www.vmware.com/try-vmware to get a trial of 
+VMWare Workstation.

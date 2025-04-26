@@ -1,0 +1,11 @@
+Using the htpasswd Command
+
+$ sudo htpasswd -c /etc/nagios/passwd jsmith
+New password:
+Re-type new password:
+Adding password for user jsmith
+
+The htpasswd command has two variables: the location of the file that holds our usernames and 
+
+passwords and the username of the user. We also use a command-line switch, -c. The -c switch is used 
+when you first create a password file.

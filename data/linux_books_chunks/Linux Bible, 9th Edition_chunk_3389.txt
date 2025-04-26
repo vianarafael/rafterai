@@ -1,0 +1,9 @@
+If you cannot upload ﬁ les to the in 
+directory, check that your ﬁ rewall, SELinux, and TCP wrappers are conﬁ gured to 
+allow access to that ﬁ le.
+
+9.  Using any FTP client you choose, visit the /pub/linux/docs/man-pages 
+
+directory on the ftp://kernel.org site and list the contents of that directory.
+
+10.

@@ -1,0 +1,13 @@
+You can use this request again to create a new certificate, as we 
+mentioned in Chapter 11.
+
+We want to protect our certificate and key with the right ownership and some restricted permissions for 
+
+our key.
+
+$ sudo chown root:root /etc/pki/tls/{private,certs}/gateway.example.com.*
+$ sudo chmod 0400 /etc//pki/tls/private/gateway.example.com.key
+
+We also need to create some Diffie-Hellman parameters, cryptographic parameters that enhance 
+
+the security of our VPN session.

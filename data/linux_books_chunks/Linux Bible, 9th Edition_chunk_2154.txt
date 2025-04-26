@@ -1,0 +1,11 @@
+NFS is used to mount ﬁ lesystems 
+
+on other Linux or UNIX computers.
+
+ ■ hpfs—Filesystem is used to do read-only mounts of an OS/2 HPFS ﬁ lesystem.
+
+ ■ ncpfs—A ﬁ lesystem used with Novell NetWare. NetWare ﬁ lesystems can be mounted 
+
+over a network.
+
+ ■ ntfs—Windows NT ﬁ lesystem.

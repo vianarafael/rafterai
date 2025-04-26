@@ -1,0 +1,11 @@
+For example, after pressing Alt+F2 (to enter a command), opening an 
+icon from the top bar, or going to an overview page, pressing Esc returns you to the 
+active window on the active desktop.
+
+40
+
+c02.indd  04/01/2015  Page 41
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+I hope you now feel comfortable navigating the GNOME 3 desktop.

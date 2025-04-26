@@ -1,0 +1,18 @@
+The modiﬁ cations will 
+look similar to the following:
+
+# cat /etc/hosts.allow
+...
+sshd: 10.140.67.32
+#
+# cat /etc/hosts.deny
+#...
+ALL: ALL
+
+6.  To determine your Linux system’s current netfilter/iptables ﬁ rewall policies 
+
+and rules, type iptables -vnL at the command line.
+
+7.  To ﬂ ush your Linux system’s current ﬁ rewall rules, type iptables -F at the com-
+
+mand line.

@@ -1,0 +1,3 @@
+In fact, one of the deﬁ ning properties of the UNIX systems on which Linux is based is that 
+nearly everything you need to identify on your system (data, commands, symbolic links, 
+devices, and directories) is represented by items in the ﬁ lesystems.

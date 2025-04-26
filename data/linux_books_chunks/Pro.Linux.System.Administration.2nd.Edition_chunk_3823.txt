@@ -1,0 +1,10 @@
+Once it does, we will resume the copy.
+
+If our host mounted the volume from one of the other peers, nothing exciting will happen, and the copy 
+
+will continue. If this is the case, reboot one of the other peers when au-mel-dfs-1 comes up and see what 
+happens.
+
+Managing GlusterFS
+
+In this section, we are going to show you how to manage your GlusterFS server.

@@ -1,0 +1,4 @@
+This indicates 
+that the Linux Uniﬁ ed Key Setup (LUKS) standard for hard disk encryption has been used.
+
+Ubuntu does not have the lvs command installed by default.

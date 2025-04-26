@@ -1,0 +1,14 @@
+To do that, we will edit the Filebeat configuration on the gateway 
+host and change the following:
+
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /var/log/messages
+    - /var/log/*.log
+- input_type: log
+  paths:
+    - /var/log/audit/audit.log
+  document_type: auditd
+
+We have moved the audit.log into its own input_type section.

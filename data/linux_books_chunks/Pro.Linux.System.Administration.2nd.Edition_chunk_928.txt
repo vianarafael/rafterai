@@ -1,0 +1,9 @@
+On CentOS, we earlier 
+configured it so that if you are a member of the wheel group and then you can run commands using the sudo 
+command.
+
+174
+
+The sudo command is also highly configurable. You can specify exactly what commands, including 
+
+grouping commands together as categories of commands, can be executed using the sudo command.

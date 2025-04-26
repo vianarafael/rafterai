@@ -1,0 +1,14 @@
+All Mounted Filesystems
+
+$ sudo mount –t ext4
+/dev/mapper/au--mel--ubuntu--1--vg-root on / type ext4 (rw,relatime,errors=remount-
+ro,data=ordered)
+/dev/sdb2 on /mnt/data type ext4 (rw,relatime,data=ordered)
+
+383
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+We have used the parameter –t ext4 to only specify ext4 fs-types in our output and you can see our  
+
+/dev/sdb2 is mount on /mnt/data.

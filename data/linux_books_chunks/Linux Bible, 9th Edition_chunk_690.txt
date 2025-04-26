@@ -1,0 +1,16 @@
+You also 
+might want to create your own shell scripts that run in the background to check con-
+tinuously for certain events to occur, such as the hard disk ﬁ lling up or particular users 
+ logging in.
+
+83
+
+c03.indd  04/01/2015  Page 84
+
+Part II: Becoming a Linux Power User 
+
+The following is an example of a command being run in the background:
+
+$ troff -me verylargedocument | lpr &
+
+Don’t close the shell until the process is completed, or that kills the process.

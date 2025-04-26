@@ -1,0 +1,2 @@
+One example is to use .htaccess to prevent people
+from certain domains to access your website.

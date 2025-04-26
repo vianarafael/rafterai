@@ -1,0 +1,9 @@
+The syntax for 
+using -exec and -ok is the same:
+
+$ find [options] -exec command {} \;
+$ find [options] -ok command {} \;
+
+With -exec or -ok, you run find with any options you like to ﬁ nd the ﬁ les you are 
+ looking for. Then enter the -exec or -ok option, followed by the command you want 
+to run on each ﬁ le.

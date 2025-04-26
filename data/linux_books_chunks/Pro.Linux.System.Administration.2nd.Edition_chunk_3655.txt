@@ -1,0 +1,11 @@
+Configuring Samba with samba-tool
+
+$ sudo samba-tool domain provision --use-rfc2307 --host-name=dc1 --interactive
+Realm [SAMBA.EXAMPLE.COM]:
+ Domain [SAMBA]:
+ Server Role (dc, member, standalone) [dc]:
+ DNS backend (SAMBA_INTERNAL, BIND9_FLATFILE, BIND9_DLZ, NONE) [SAMBA_INTERNAL]: BIND9_DLZ
+Administrator password:
+Retype password:
+Looking up IPv4 addresses
+More than one IPv4 address found.

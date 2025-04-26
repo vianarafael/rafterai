@@ -1,0 +1,18 @@
+It is going to write zeros in 100 files 
+in the mount directory of incrementing sizes.
+
+$ for a in {1..100} ; do sudo dd if=/dev/zero of=/mnt/datafile${a} bs=4096 count=$a ;done
+....
+100+0 records in
+100+0 records out
+409600 bytes (410 kB, 400 KiB) copied, 0.0287382 s, 14.3 MB/s
+
+We can see that the test data files have been created, and when take a look at df, we will see that all 
+
+hosts are reporting the same disk usage for their bricks.
+
+$ df -h /data/brick1_r1/
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc        50G   62M  50G   1% /data/brick1_r1
+
+Let’s do another exercise.

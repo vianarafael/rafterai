@@ -1,0 +1,2 @@
+We have formatted it as an Ext4 filesystem 
+and we are going to resize it to 2 G.

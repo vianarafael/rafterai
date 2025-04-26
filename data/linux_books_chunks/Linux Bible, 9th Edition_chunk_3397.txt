@@ -1,0 +1,6 @@
+In fact, many people prefer using Samba servers over Windows ﬁ le servers because of the 
+added security that is inherent in running Windows-style ﬁ le sharing services on Linux or 
+other UNIX-like operating systems.
+
+Beyond all the technical mumbo-jumbo, however, the end result is that Samba makes it 
+easy to share ﬁ les and printers between Linux servers and Windows desktop systems.

@@ -1,0 +1,5 @@
+If you are 
+using an older Red Hat Enterprise Linux system (RHEL 6 uses GNOME 2, but RHEL 7 uses 
+GNOME 3), I added descriptions of GNOME 2 that you can try as well.
+
+Ubuntu uses its own Unity desktop as its default, instead of GNOME. There is, however, an Ubuntu GNOME project.

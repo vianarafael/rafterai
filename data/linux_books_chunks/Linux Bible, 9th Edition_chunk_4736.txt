@@ -1,0 +1,18 @@
+Consider the following example of a typical pair of hosts.allow and hosts.deny ﬁ les.
+
+# cat /etc/hosts.allow
+# hosts.allow This file describes the names of the hosts that are
+#          allowed to use the local INET services, as decided
+#          by the '/usr/sbin/tcpd' server.
+#
+sshd: 199.170.177.
+vsftpd: ALL
+#
+# cat /etc/hosts.deny
+# hosts.deny This file describes names of the hosts which are
+#          *not* allowed to use the local INET services, as
+#          decided by the '/usr/sbin/tcpd' server.
+#
+ALL: ALL
+
+In the hosts ﬁ les, lines beginning with a # character are comments and are ignored.

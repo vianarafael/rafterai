@@ -1,0 +1,21 @@
+(If there is more than a screenful, the output is piped to the more 
+command.)
+
+ ■ :s/Local/Remote—Substitutes Remote for the ﬁ rst occurrence of the word 
+
+Local on the current line.
+
+ ■ :g/Local/s//Remote—Substitutes the ﬁ rst occurrence of the word Local on 
+
+every line of the ﬁ le with the word Remote.
+
+ ■ :g/Local/s//Remote/g—Substitutes every occurrence of the word Local with 
+
+the word Remote in the entire ﬁ le.
+
+ ■ :g/Local/s//Remote/gp—Substitutes every occurrence of the word Local with 
+the word Remote in the entire ﬁ le, and then prints each line so you can see the 
+changes (piping it through less if output ﬁ lls more than one page).
+
+Learning more about vi and vim
+To learn more about the vi editor, try typing vimtutor.

@@ -1,0 +1,11 @@
+By simply
+repartitioning,  or  by  using  the  Microsoft  Windows  format  utility,  or  even  after  an  mkfs
+command, some people will still be able to read most of the data on the disk.
+
+root@debian6~# aptitude search foremost autopsy sleuthkit | tr -s ' '
+p autopsy - graphical interface to SleuthKit 
+p foremost - Forensics application to recover data 
+p sleuthkit - collection of tools for forensics analysis
+
+Although technically the /sbin/badblocks tool is meant to look for bad blocks, you can use
+it to completely erase all data from a disk.

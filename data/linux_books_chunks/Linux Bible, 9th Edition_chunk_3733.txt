@@ -1,0 +1,5 @@
+The system can fail to boot up properly for, well, lots of different reasons.
+
+In Linux, the dedication to openness and the focus on making the software run with maximum 
+efﬁ ciency has led to an amazing number of tools you can use to troubleshoot every  imaginable 
+problem.

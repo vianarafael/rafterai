@@ -1,0 +1,11 @@
+We wish to select Manual and assign our own IP address by clicking Add 
+on the right-hand side.
+
+25
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-11.  Default gateway
+
+We have entered an IPv4 address of 192.168.1.150 after making sure the IP address wasn’t already taken 
+on our network.

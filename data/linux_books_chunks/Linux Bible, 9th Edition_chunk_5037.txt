@@ -1,0 +1,3 @@
+With OpenStack, you 
+get a continually evolving platform for managing your physical cloud computing infrastruc-
+ture, as well as the virtual systems that run on it.

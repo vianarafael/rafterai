@@ -1,0 +1,8 @@
+(See the description of the mkfs command in the section “Using the mkfs 
+Command to Create a Filesystem” for information on creating and using labels.)
+
+ ■ Field 2—The mount point in the ﬁ lesystem. The ﬁ lesystem contains all data from 
+the mount point down the directory tree structure unless another ﬁ lesystem is 
+mounted at some point beneath it.
+
+ ■ Field 3—The ﬁ lesystem type.

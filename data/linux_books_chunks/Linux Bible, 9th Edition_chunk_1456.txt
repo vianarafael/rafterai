@@ -1,0 +1,11 @@
+On my RHEL desktop, I’m running a web browser, word processor, and 
+mail reader, and I’m consuming over 2GB of RAM.
+
+202
+
+c09.indd  04/01/2015  Page 203
+
+Chapter 9: Installing Linux
+
+ ■ DVD or CD drive—You need to be able to boot up the installation process from a DVD, 
+CD, or USB drive.

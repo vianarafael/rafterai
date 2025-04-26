@@ -1,0 +1,13 @@
+6to4 setup on Linux ................................................................................................................ 272
+
+265
+
+Chapter 25. Introduction to ipv6
+
+266
+
+Introduction to ipv6
+
+25.1. about ipv6
+
+The ipv6 protocol is designed to replace ipv4.

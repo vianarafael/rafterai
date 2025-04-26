@@ -1,0 +1,660 @@
+A
+"Massive Multiauthor Collaboration" (or "MMC") contained in the site
+means any set of copyrightable works thus published on the MMC site.
+
+"CC-BY-SA" means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-profit
+corporation with a principal place of business in San Francisco,
+California, as well as future copyleft versions of that license
+published by that same organization.
+
+"Incorporate" means to publish or republish a Document, in whole or in
+part, as part of another Document.
+
+An MMC is "eligible for relicensing" if it is licensed under this
+License, and if all works that were first published under this License
+somewhere other than this MMC, and subsequently incorporated in whole
+or in part into the MMC, (1) had no cover texts or invariant sections,
+and (2) were thus incorporated prior to November 1, 2008.
+
+The operator of an MMC Site may republish an MMC contained in the site
+under CC-BY-SA on the same site at any time before August 1, 2009,
+provided the MMC is eligible for relicensing.
+
+371
+
+Index
+
+Symbols
+/bin/dmesg, 36
+/bin/login, 174
+/boot/grub/grub.conf, 161
+/boot/grub/menu.lst, 161
+/dev, 47
+/dev/hdX, 34
+/dev/ht, 352
+/dev/nst, 352
+/dev/sdb, 88
+/dev/sdX, 34
+/dev/st, 352
+/etc/apt/sources.list, 236
+/etc/at.allow, 196
+/etc/at.deny, 196
+/etc/cron.allow, 197
+/etc/cron.d, 198
+/etc/cron.deny, 197
+/etc/crontab, 198
+/etc/default/grub, 166
+/etc/exports, 310, 321
+/etc/filesystems, 60, 67
+/etc/fstab, 63, 71, 88, 216, 311, 321, 362
+/etc/grub.conf, 161
+/etc/grub.d/40_custom, 166
+/etc/hostname, 272
+/etc/inetd.conf, 318
+/etc/init.d/, 176, 178
+/etc/init.d/rc, 173
+/etc/init.d/rcS, 172
+/etc/inittab, 171, 173, 174
+/etc/lvm/.cache, 113
+/etc/modprobe.conf, 338
+/etc/modprobe.d/, 338
+/etc/mtab, 68, 172
+/etc/network/interfaces, 265, 289, 292
+/etc/passwd, 174
+/etc/protocols, 262
+/etc/raidtab, 96
+/etc/rc.d/rc, 173
+/etc/rc.d/rc.sysinit, 172
+/etc/rcS.d/, 172
+/etc/rcX.d/, 173
+/etc/rsyslog.conf, 207
+/etc/services, 262, 318
+/etc/shutdown.allow, 182
+/etc/ssh, 297
+/etc/ssh/ssh_config, 297
+/etc/ssh/sshd_config, 297
+/etc/sysconfig/iptables, 314
+/etc/sysconfig/network, 267
+/etc/sysconfig/network-scripts/, 267
+/etc/sysconfig/network-scripts/ifcfg-bond0, 290
+/etc/syslog.conf, 205
+
+/etc/xinetd.conf, 317
+/etc/xinetd.d, 317
+/etc/yum.conf, 245
+/etc/yum.repos.d/, 245
+/lib, 346
+/lib/modules, 335, 341
+/lib/modules/<kernel-version>/modules.dep, 338
+/proc/cmdline, 163, 326
+/proc/devices, 47, 47
+/proc/filesystems, 60, 67
+/proc/kallsyms, 334
+/proc/mdstat, 96
+/proc/meminfo, 213, 214
+/proc/modules, 336
+/proc/mounts, 68
+/proc/net/bonding, 290, 292
+/proc/partitions, 47
+/proc/scsi/scsi, 39
+/proc/swaps, 215
+/sbin, 270
+/sbin/init, 171
+/sbin/mingetty, 174
+/sbin/telinit, 181
+/usr/lib, 346
+/usr/share/doc, 267
+/usr/src, 330
+/var/lib/nfs/etab, 310, 321
+/var/lib/rpm, 238
+/var/log/auth.log, 204
+/var/log/btmp, 202, 203
+/var/log/lastlog, 202
+/var/log/messages, 327, 344
+/var/log/sa, 224
+/var/log/secure, 204
+/var/log/wtmp, 182, 202
+/var/run/utmp, 202
+./configure, 247
+.deb, 227
+.rpm, 227
+.ssh, 301
+~/.ssh/authorized_keys, 302
+$$, 5
+$PPID, 5
+
+A
+access time, 32
+active partition, 164
+Alica and Bob, 298
+anycast, 258
+apt-get(8), 228, 232
+aptitude, 347
+aptitude(1), 331
+aptitude(8), 228, 235
+arp(1), 273
+arp table, 273
+at(1), 194, 195
+ata, 32
+atapi, 32
+
+372
+
+atm, 260
+atq(1), 195
+atrm(1), 196
+
+B
+badblocks(8), 40
+bg(1), 24
+Bill Callkins, 159
+binding, 288
+binding(ip), 287
+BIOS, 158
+block device, 33
+bonding(ip), 287
+boot(grub), 163
+bootloader, 160
+bootp, 267, 283
+broadcast, 258
+BSD, 158
+btrfs, 59
+bum(8), 180
+bzImage, 163
+bzip2, 163
+bzip2(1), 353
+
+C
+cable select, 32
+Canonical, 170
+chainloader, 164
+chainloading, 164
+character device, 33
+chattr(1), 356
+chkconfig, 176
+chkconfig(8), 177
+chroot, 80
+CHS, 33
+Cisco, 260
+cpio(1), 238, 356
+cron(8), 194
+crontab(1), 197
+crontab(5), 197
+Ctrl-Alt-Delete, 182, 182
+Ctrl-Z, 23
+cylinder, 32
+
+D
+daemon, 4, 176
+dd(1), 51, 160, 216, 357
+deb(5), 228
+debsums, 347
+default(grub), 162, 164
+default gateway, 274
+depmod(1), 338
+device driver, 47
+devices.txt, 47
+df, 220
+df(1), 69, 69
+dhclient(1), 272
+
+Index
+
+dhcp, 267, 283
+dhcp client, 265, 272
+directory, 57
+disk platters, 32
+dmesg(1), 36
+dmesg(8), 328
+dns, 283
+DOS, 164
+dpkg(8), 228, 230
+dpkg -S, 347
+dsa, 298
+du, 220
+du(1), 69
+dump(1), 356
+
+E
+e2fsck(1), 63
+echo(1), 5
+edquota(1), 362
+egrep, 172
+elilo, 160
+el torito, 59
+Eric Allman, 205
+eth0, 265
+ethtool(1), 275
+Evi Nemeth, 176
+exec, 6
+exportfs(1), 310, 321
+ext2, 58, 61
+ext3, 58
+extended partition, 46
+
+F
+fallback(grub), 162
+fat16, 59
+fat32, 59
+fd (partition type), 95
+fddi, 260
+fdisk, 135
+fdisk(1), 47, 49, 50, 95
+fdisk(8), 35
+fdisk limitations, 52
+fg(1), 24
+file system, 56
+fixed ip, 268
+fixed ip address, 265
+fork, 6
+FQDN, 272
+frame relay, 260
+free, 220, 221
+free(1), 213, 214
+fsck(1), 63
+ftp, 317
+ftp://ftp.kernel.org, 329
+fuser, 79, 79
+
+373
+
+G
+gateway, 274
+gnome-session, 363
+gpt, 52
+grep, 172, 336
+grpquota, 362
+grub, 157, 160, 164
+grub2, 161
+grub-install, 165
+gzip(1), 163, 353
+
+H
+halt(8), 182
+hdparm(8), 41
+head (hard disk device), 32
+hiddenmenu(grub), 162
+hostname, 272
+hostname(1), 272
+http://www.kernel.org, 329
+
+I
+icmp, 262
+id_dsa, 302
+id_dsa.pub, 302
+id_rsa, 301
+id_rsa.pub, 301
+ide, 47
+ifcfg(1), 288
+ifcfg-eth0, 268
+ifconfig(1), 269, 270, 288, 289, 290, 292
+ifdown(1), 266, 269, 270, 288
+ifenslave, 292
+iftop(1), 225
+ifup(1), 266, 269, 270, 288, 289, 290
+igmp, 262
+inetd, 317
+init, 4, 171, 182
+init=/bin/bash, 327
+initiator(iSCSI), 127
+initng, 170
+initrd, 333
+initrd(grub), 163
+insmod(1), 337, 337
+Intel, 158
+iostat, 81
+iostat(1), 223
+iotop, 82
+iptables, 314
+iSCSI, 127
+iscsiadm, 134
+iso9660, 59, 357
+
+J
+jbod, 93
+jobs, 23
+joliet, 59
+journaling, 58
+
+Index
+
+K
+Kerberos, 309, 320
+kernel(grub), 163
+kill(1), 4, 9, 9, 174, 175
+killall(1), 11
+kmyfirewall, 314
+
+L
+LAN, 259
+last(1), 182, 202
+lastb(1), 203
+lastlog(1), 203
+LBA, 33
+ldap, 310
+ldd, 346
+libraries, 346
+lilo, 160, 167
+lilo.conf, 167
+logger(1), 208
+logical drive, 46
+logical drives, 51
+login, 202
+logrotate(1), 209
+lsmod, 336
+lsmod(1), 335
+lsof, 78
+lsscsi(1), 38
+ltrace, 347
+lvcreate(1), 103, 105, 119
+lvdisplay(1), 106, 114
+lvextend(1), 106, 120
+lvm, 80
+LVM, 100
+lvmdiskscan(1), 111
+lvol0, 119
+lvremove(1), 119
+lvrename(1), 120
+lvs(1), 114
+lvscan(1), 114
+
+M
+mac address, 270
+major number, 47
+make, 344
+make(1), 247
+make bzImage, 341
+make clean, 340
+make menuconfig, 340
+make modules, 341
+make mrproper, 340
+make xconfig, 340
+MAN, 259
+master (hard disk device), 32
+master boot record, 51, 160
+mbr, 51, 51, 52, 160
+MBR, 357
+mdadm(1), 96
+
+374
+
+mingetty, 174
+minor number, 47
+mirror, 93
+mkdir, 67
+mke2fs(1), 58, 61, 105
+mkfifo, 16
+mkfile(1), 216
+mkfs(1), 58, 61
+mkinitrd(1), 58, 342
+mknod(1), 352
+mkswap(1), 215
+modinfo, 344
+modinfo(1), 337
+modprobe(1), 337, 338
+mount, 67
+mount(1), 66, 68, 311, 321
+mounting, 66
+mount point, 66
+mpstat(1), 224
+mt(1), 352
+multicast, 257
+multipath, 147
+
+N
+netstat(1), 274
+network file system, 308
+nfs, 308, 309
+NFS, 320
+nice, 18
+nice(1), 16
+no_subtree_check(nfs), 310
+noacl(mount), 72
+nodev, 60, 67
+noexec(mount), 72
+nosuid(mount), 72
+ntop(1), 225
+
+O
+od(1), 160
+OpenBoot(Sun), 159
+OpenBSD, 297
+openssh, 297
+openssh-server, 304
+OS/2, 164
+
+P
+package management, 227
+paging, 213
+PAN, 260
+Parallel ATA, 32
+parity(raid), 93
+parted, 52, 53
+parted(1), 49
+partition, 46
+partition table, 51, 51
+partprobe(1), 51
+password(grub), 162
+
+Index
+
+pgrep(1), 8
+PID, 4
+pidof(1), 5
+ping, 262, 274
+pipes, 16
+pkill(1), 11
+portmap, 309, 320
+POST, 158
+poweroff(8), 182
+Power On Self Test, 158
+PPID, 4
+primary partition, 46, 160, 164
+private key, 298
+process, 4
+process id, 4
+ps, 7, 220
+ps -ef, 7
+ps fax, 7
+public key, 298
+pvchange(1), 116
+pvcreate(1), 103, 105, 115
+pvdisplay(1), 105, 112
+pvmove(1), 116
+pvremove(1), 115
+pvresize(1), 115
+pvs(1), 111
+pvscan(1), 111
+
+Q
+quota.group, 362
+quota.user, 362
+quota's, 362
+quota(1), 362
+quotacheck(1), 362
+quotaoff(1), 362
+quotaon(1), 362
+
+R
+RAID, 92
+raid 1, 93
+reboot(8), 182
+reiserfs, 59
+Remote Desktop, 363
+renice, 17
+renice(1), 16
+repository, 227, 228
+repquota(1), 362
+resize2fs(1), 106
+respawn(init), 174, 174
+restore(1), 356
+rfc 3010, 309
+rfc 3530, 309
+rlogin, 297
+rmmod(1), 338
+rock ridge, 59
+root(grub), 163
+root servers(DNS), 258
+
+375
+
+rootsquash, 310, 321
+rotational latency, 32
+route(1), 274, 274
+router, 260
+rpc, 309
+RPC, 320
+rpcinfo(1), 309, 320
+rpm, 237
+rpm(8), 228
+rpm2cpio(8), 238
+rpm -qf, 348
+rpm -V, 348
+rsa, 298
+rsh, 297
+rsyslog, 78
+runlevel, 171
+runlevel(1), 181
+
+S
+sa2(1), 224
+sadc(1), 224
+sal, 224
+sar(1), 224, 224
+sata, 32
+savedefault(grub), 164
+scp(1), 302
+scsi, 32
+scsi id, 32
+sector, 32
+seek time, 32
+service(1), 176, 314
+setuid, 72
+sfdisk(1), 51
+shutdown(8), 181
+SIGHUP, 9
+SIGKILL, 181
+SIGTERM, 11, 181
+silo, 160
+single user mode, 327
+slave (hard disk device), 32
+SMF, 170
+Solaris, 158
+solid state drive, 33
+SPARC, 159
+split(1), 358
+ssd, 33
+ssh, 297
+ssh_host_dsa_key, 304
+ssh_host_dsa_key.pub, 304
+ssh_host_rsa_key, 304
+ssh_host_rsa_key.pub, 304
+sshd, 304
+ssh-keygen, 301
+ssh-keygen(1), 301
+ssh -X, 302
+stanza(grub), 163
+strace, 349
+striped disk, 93
+
+Index
+
+su, 346
+subtree_check(nfs), 310
+Sun, 158, 170
+swapoff(1), 215
+swapon(1), 215
+swap partition, 59
+swap partition(s), 217
+swapping, 213
+swap space, 215
+swat, 317
+sysctl(1), 272
+syslog, 327
+syslogd, 205, 205
+System.map, 334
+system-config-securitylevel, 314
+System V, 170
+
+T
+tail(1), 208
+tar(1), 247, 353, 354
+tcp, 262, 309
+tcpdump, 279, 284, 284
+telinit(8), 181
+telnet, 297, 317
+time(1), 341
+timeout(grub), 162
+title(grub), 162
+top, 11
+top(1), 8, 213, 214, 221
+track, 32
+tune2fs(1), 58, 62, 87
+
+U
+udf, 59
+udp, 262, 309
+uefi, 52
+uname(1), 326
+universally unique identifier, 86
+update-grub, 166
+update-rc.d, 176
+update-rc.d(8), 179
+upstart, 170
+usrquota, 362
+uuid, 86
+
+V
+vanilla, 228
+vfat, 59
+vgchange(1), 118
+vgcreate(1), 103, 105, 117
+vgdisplay(1), 113
+vgextend(1), 117
+vgmerge(1), 118
+vgreduce(1), 117
+vgremove(1), 117
+vgs(1), 113
+vgscan(1), 113
+
+376
+
+vi, 349
+virtual memory, 213
+vmlinuz, 333
+vmstat, 83, 217
+vmstat(1), 222
+vnc, 363
+vncviewer(1), 363
+vol_id(1), 87
+
+W
+WAN, 260
+watch(1), 208, 222
+who(1), 181, 202
+wireshark, 279, 297
+WPAN, 260
+
+X
+X.25, 260
+x86, 158
+xinetd, 317, 317
+xstartup(vnc), 363
+
+Y
+yaboot, 160
+yum, 348
+yum(8), 239
+
+Z
+z/IPL, 160
+zfs, 59
+zImage, 163
+zombie, 4
+
+Index
+
+377
+
+.

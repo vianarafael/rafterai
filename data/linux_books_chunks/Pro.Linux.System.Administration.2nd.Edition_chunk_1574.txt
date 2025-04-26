@@ -1,0 +1,10 @@
+Looking at Figure 7-15, which shows how a normal network packet 
+would flow through the filter table.
+
+265
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-15.  Traffic flow through the filter table
+
+In Figure 7-15, you can see the way that packets will flow through the filter table.

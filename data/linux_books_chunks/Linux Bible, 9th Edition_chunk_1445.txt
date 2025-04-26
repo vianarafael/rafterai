@@ -1,0 +1,5 @@
+The ﬁ rst installation procedure in this chapter shows you how to permanently 
+install Linux from a Fedora Live media ISO.
+
+ ■ Installing from an installation DVD—An installation DVD, available with Fedora, RHEL, 
+Ubuntu and other Linux distributions, offers more ﬂ exible ways of installing Linux.

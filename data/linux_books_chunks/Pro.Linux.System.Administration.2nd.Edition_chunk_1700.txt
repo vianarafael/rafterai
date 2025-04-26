@@ -1,0 +1,4 @@
+The 
+above line tells us we match on first tcp (-m tcp) packets with a destination port of 22 (--dport 22). If we 
+have not seen the connection before, it is not related to any packets, it also is a SYN packet so we are not yet 
+established. The --ctstate NEW allows us to initiate the socket from the remote host.

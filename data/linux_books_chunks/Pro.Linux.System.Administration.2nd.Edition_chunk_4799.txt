@@ -1,0 +1,47 @@
+You don’t have to provide the password as clear text; if it makes you uncomfortable, you can 
+try these other methods as well:
+
+•	
+
+https://httpd.apache.org/docs/2.4/mod/mod_authnz_ldap.html#authldapbind
+password
+
+Finally, we specify that we require a valid user, and the authenticating user must also belong to the 
+
+LDAP group cn=admin,ou=groups,dc=example,dc=com.
+
+ To find out more on LDAP and Apache authentication, read the following: https://httpd.apache.
+
+ ■ Note 
+org/docs/2.4/mod/mod_authnz_ldap.html.
+
+Before we proceed, we will need to make sure that the modules are added to our web host, and on 
+
+Ubuntu we would do the following:
+
+$ sudo a2enmod authnz_ldap
+$ sudo a2enmod ldap
+$ sudo a2enmod ssl
+
+For CentOS, we need to make sure that the packages mod_ssl and mod_ldap are installed; this will create 
+
+the file in the conf.modules.d directory.
+
+$ cat /etc/httpd/conf.modules.d/01-ldap.conf
+# This file configures the LDAP modules:
+LoadModule ldap_module modules/mod_ldap.so
+LoadModule authnz_ldap_module modules/mod_authnz_ldap.so
+
+795
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+We need to now restart our Apache service (restart apache2 for Ubuntu).
+
+$ sudo systemctl restart httpd
+
+We use our web browser now to connect to the LAM web GUI at the following address: https://ldap.
+
+example.com/lam.
+
+In Figure 16-13, you can see the authentication challenge provided by Apache.

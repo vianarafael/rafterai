@@ -1,0 +1,8 @@
+For example, type gedit to run a simple graphical text editor.
+
+ ■ Lock Screen—If you want to step away from your screen and lock it, press 
+Ctrl+Alt+L. You need to type your user password to open the screen again.
+
+ ■ Show Main Menu—To open an application from the Applications, Places, or System 
+
+menu, press Alt+F1.

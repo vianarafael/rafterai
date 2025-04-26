@@ -1,0 +1,9 @@
+Click links to ﬁ les to display or download those ﬁ les to your local system.
+
+Armed with some understanding of how FTP works, you are now ready to install an FTP 
+server (vsftpd package) on your Linux system.
+
+Installing the vsftpd FTP Server
+
+Setting up the Very Secure FTP server requires only one package in Fedora, RHEL, and other 
+Linux distributions: vsftpd.

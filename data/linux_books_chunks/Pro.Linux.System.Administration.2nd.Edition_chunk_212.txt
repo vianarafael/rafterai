@@ -1,0 +1,17 @@
+Next we will show you quickly how to 
+
+access a terminal console.
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-38.  The end of the desktop configuration!
+
+It is simple enough to find the applications, and the terminal application we are after as in Figure 2-39. 
+
+Click Applications, Utilities and then scroll down to Terminal.
+
+51
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-39.

@@ -1,0 +1,8 @@
+Limiting the Commands ssh Can Do Using Keys
+
+$ vi ssh_limiter.sh
+#!/bin/bash
+# Command to be used by exbackup at example.com to limit what exbackup can
+# do on a remote host.
+# SSH2 stores the original command sent by the remote host in a variable
+# $SSH_ORIGINAL_COMMAND.

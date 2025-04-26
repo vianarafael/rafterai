@@ -1,0 +1,9 @@
+This is a 
+common runlevel for desktop systems.
+
+Reboot
+
+The server is rebooted.
+
+Linux distributions can differ slightly on the deﬁ nition of each runlevel as well as which 
+runlevels are offered.

@@ -1,0 +1,15 @@
+This information can 
+
+be leveraged to charge clients for the amount of processing power they use.
+
+ ■ CPU assignment (cpuset)—On systems with multiple CPU cores, assigns a task 
+
+to a particular set of processors and associated memory.
+
+ ■ Device access (devices)—Allows tasks in a cgroup to open or create (mknod) 
+
+selected device types.
+
+ ■ Suspend/resume (freezer)—Suspends and resumes cgroup tasks.
+
+ ■ Memory usage (memory)—Limits memory usage by task.

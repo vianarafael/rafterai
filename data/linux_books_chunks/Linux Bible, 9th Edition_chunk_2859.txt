@@ -1,0 +1,5 @@
+Using brackets means that the stanza is valid for any 
+of those numbers. Thus, the service starts on runlevel 2, 3, 4, or 5.
+
+ ■ stop on—The stanza here deﬁ nes what emitted events the service stops on. The 
+[!2345] in this stanza means not runlevel 2 or 3 or 4 or 5.

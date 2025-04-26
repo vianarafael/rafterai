@@ -1,0 +1,13 @@
+To become root and edit the /etc/sudoers ﬁ le to allow your regular user account 
+(for example, bill) to have full root privilege via the sudo command, do the 
+following:
+
+$ su -
+Password: *********
+# visudo
+o
+bill     ALL=(ALL)     ALL
+Esc ZZ
+
+Because visudo opens the /etc/sudoers ﬁ le in vi, the example types o to open a 
+line, and then types in the line to allow bill to have full root privilege.

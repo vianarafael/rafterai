@@ -1,0 +1,4 @@
+The SELINUX= variable in /etc/sysconfig/selinux shows how SELinux is 
+set when the system comes up. If it is in Enforcing mode, as it is here, check the ftpd_
+selinux man page for information about SELinux settings that can impact the operation 
+of your vsftpd service.

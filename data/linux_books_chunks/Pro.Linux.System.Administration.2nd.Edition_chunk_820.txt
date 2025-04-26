@@ -1,0 +1,8 @@
+Some organizations choose a single expiration period so the period is consistent 
+for all users on all hosts.
+
+Two ways exist to handle password aging. The first uses the command-line tool called chage to set or 
+
+change the password expiration of a user account individually. Listing 5-9 shows this command.
+
+Listing 5-9.

@@ -1,0 +1,6 @@
+the superdaemon
+
+Back when resources like RAM memory were limited, a super-server was devised to listen
+to all sockets and start the appropriate daemon only when needed. Services like swat, telnet
+and ftp are typically served by such a super-server. The xinetd superdaemon is more recent
+than inetd.

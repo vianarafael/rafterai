@@ -1,0 +1,4 @@
+This can be dangerous, but sometimes this is good for security.
+
+Take the example of passwords; they are stored in /etc/shadow which is only readable by
+root.

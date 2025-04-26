@@ -1,0 +1,7 @@
+This information needs to be redi-
+rected into a ﬁ le for use by john, as shown here:
+
+# unshadow /etc/passwd /etc/shadow > password.file
+
+Now, edit the password.file using your favorite text editor to remove any accounts 
+without passwords.

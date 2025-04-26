@@ -1,0 +1,6 @@
+This process is called log analysis and correlation, and it is often considered a black art. The 
+good news is we’re going to introduce you to a tool called Logstash.
+
+Logstash is going to feed all our logs into a distributed search and analytics tools called Elasticsearch. 
+
+From there we can view the log data we collect with an interface called Kibana.

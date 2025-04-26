@@ -1,0 +1,5 @@
+This is not 
+to say that there isn’t a broad array of graphical administration tools available for Linux. If you’re more 
+comfortable in a graphical, Windows-like environment, you can still easily and effectively find mechanisms 
+to administer your Linux hosts. For most command-line tools we’re going to show you, there is a graphical 
+equivalent.

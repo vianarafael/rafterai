@@ -1,0 +1,4 @@
+It specifies the base of our searches, ou=people,dc=example,dc=com; the attribute we are 
+interested in, uid; and the scope of our searches, sub. Here you can now see where we are using the cn=web
+admin,ou=meta,dc=example,dc=com meta account, which will bind to our LDAP server with the password 
+also provided.

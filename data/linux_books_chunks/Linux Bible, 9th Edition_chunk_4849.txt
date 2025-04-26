@@ -1,0 +1,11 @@
+For Red Hat Enterprise Virtualization (RHEV), the RHEV Manager provides the same 
+features.
+
+26
+
+Later in this chapter, I describe how to use virt-manager to manage your ﬁ rst 
+mini-cloud-like environment.
+
+Cloud storage
+New demands on data storage arise when you move your operating systems and applica-
+tions into a cloud environment.

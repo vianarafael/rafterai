@@ -1,0 +1,8 @@
+To open the homes share again as the user phil from another system on your net-
+
+work (Windows or Linux), and make sure you can drag and drop ﬁ les to it, do the 
+following:
+
+This step is really just repeating the Nautilus example described previously or 
+accessing a Windows Explorer window and opening the share (by selecting Network, 
+then the Samba server).

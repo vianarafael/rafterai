@@ -1,0 +1,41 @@
+Typically we would set up our Netfilter (with either 
+iptables, firewall-cmd or ufw) like this:
+
+-A INPUT_ZONES -g IN_public
+-A IN_public -j IN_public_log
+-A IN_public -j IN_public_deny
+-A IN_public -j IN_public_allow
+-A IN_public_allow -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW -j ACCEPT
+
+In the IN_public_log chain we could add a rule like this:
+
+-A IN_public_log ! --source 10.0.0.1/32 \ 
+ –p tcp –m tcp --dport 22 \ 
+ –m conntrack --ctstate NEW \ 
+ –m limit --limit 2/m --limit-burst 5 \ 
+ –j LOG --log-prefix “IN_LOG_SSH:” 
+
+Here we have added a rule that says:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+If our source address is not from our trusted IP address
+
+And it is a TCP request on port 22
+
+And it has the NEW connection state
+
+Apply limit of 2 connections per minute after the first 5 matching packets
+
+LOG those connection attempts and add a prefix to the log of “IN_LOG_SSH”.
+
+This will log SSH connection attempts addresses we don’t normally expect connections from (! 
+--source 10.0.0.1/32 – the exclamation, !, says ‘not from’).

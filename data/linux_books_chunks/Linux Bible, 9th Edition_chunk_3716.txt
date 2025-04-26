@@ -1,0 +1,22 @@
+The NFS directory was both shared and mounted as read/write with 
+ ownership to UID 507 (joe on both systems), so the user joe on the local system 
+should be able to add, delete, change, and view ﬁ les in that directory.
+
+After joe logs off (actually, when he stops accessing the directory) for a timeout period 
+(10 minutes, by default), the directory is unmounted.
+
+548
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c20.indd  04/01/2015  Page 549
+
+Chapter 20: Confi guring an NFS File Server
+
+Unmounting NFS fi lesystems
+After an NFS ﬁ lesystem is mounted, unmounting it is simple.

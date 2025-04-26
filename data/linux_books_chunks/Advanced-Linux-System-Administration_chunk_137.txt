@@ -1,0 +1,27 @@
+Copy the Linux kernel image(s), initrd(s), etc to the disk, and
+   create/edit syslinux.cfg and help files if desired:
+
+For example if your root device is /dev/sda1 then syslinux.cfg would be:
+
+DEFAULT linux
+LABEL linux
+
+KERNEL vmlinuz
+
+26
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+APPEND initrd=initrd.img root=/dev/sda1
+
+then
+
+       cp /boot/vmlinuz /mnt
+
+        cp /boot/initrd.img /mnt
+
+6.

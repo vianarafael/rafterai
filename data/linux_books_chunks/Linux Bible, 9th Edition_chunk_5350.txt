@@ -1,0 +1,8 @@
+For earlier RHEL and 
+Fedora systems, conﬁ gure your iptables ﬁ rewall to allow new requests on 
+TCP port 21 by adding the following rule at some point before a ﬁ nal DROP or 
+REJECT rule in your /etc/sysconfig/iptables ﬁ le:
+
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 21 -j ACCEPT
+
+d.

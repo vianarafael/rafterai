@@ -1,0 +1,9 @@
+If your Linux system’s sshd does not use TCP 
+Wrappers, then no output is shown.
+
+$ ldd /usr/sbin/sshd | grep libwrap
+libwrap.so.0 => /lib/libwrap.so.0 (0x0012f000)
+
+When a network service that incorporates TCP Wrapper support is requested, the hosts.
+allow and hosts.deny ﬁ les are scanned and checked for an entry that matches the 
+address of the remote system making the request.

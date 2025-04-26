@@ -1,0 +1,8 @@
+Using scp to Transfer a File to a Remote Host
+
+$ scp data.txt jsmith@au-mel-centos-1:/tmp
+data.txt                                        100% 3072KB    3.0MB/s    00:00
+
+Because we had sent our public SSH key to au-mel-centos-1 previously, scp was able to use the SSH 
+
+agent to authenticate and we weren’t asked for a password.

@@ -1,0 +1,9 @@
+Entering the full name of a new user
+
+In the next screen (Figure 2-50), you set the username for your new user.
+
+Figure 2-50.  Entering the username
+
+Finally, you set the password for your user, as shown in Figure 2-51. Again, as we discussed in the 
+
+CentOS installation section, we recommend implementing a strong and complex password.

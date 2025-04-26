@@ -1,0 +1,9 @@
+Sometimes, the module you are trying to remove depends on other modules that may be 
+loaded. For instance, the usbcore module cannot be unloaded while the USB printer mod-
+ule (usblp) is loaded, as shown here:
+
+# rmmod usbcore
+
+ERROR: Module usbcore is in use by wacom,usblp,ehci_hcd,ohci_hcd
+
+Instead of using rmmod to remove modules, you could use the modprobe -r command.

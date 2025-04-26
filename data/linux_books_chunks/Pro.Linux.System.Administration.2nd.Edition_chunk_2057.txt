@@ -1,0 +1,4 @@
+We will be building and executing 
+
+this on our Ubuntu host (but you can build both RPMs and debs on either distribution if you have the 
+required packages installed).

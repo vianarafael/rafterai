@@ -1,0 +1,8 @@
+We, however, are going to be using the worker MPM, and since PHP is not 
+threadsafe, we will use a FastGGI process manager to link Apache to PHP.
+
+ ■ Note 
+
+ You can read all about php at www.php.net/.
+
+PHP itself is modular, so you can add functionality to PHP by installing additional packages.

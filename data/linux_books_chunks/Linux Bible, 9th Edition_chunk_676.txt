@@ -1,0 +1,4 @@
+If 
+you are an administrative user with root privileges, you may want to consider emptying your fi le upon exiting as well 
+for the same reasons. Also, because shell history is stored permanently when the shell exits properly, you can prevent 
+storing a shell’s history by killing a shell.

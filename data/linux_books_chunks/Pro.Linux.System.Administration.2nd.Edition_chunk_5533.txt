@@ -1,0 +1,5 @@
+For simplicity’s sake and because it’s an easier language to use, we’re going to show you how to use 
+Kickstart to automate your installation for both CentOS and Ubuntu. Where something isn’t supported on 
+Ubuntu, we’ll show you how to use Preseed to configure it.
+
+A Kickstart configuration file contains the instructions required to automate the installation process.

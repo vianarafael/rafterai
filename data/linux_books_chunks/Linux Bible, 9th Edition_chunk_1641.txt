@@ -1,0 +1,4 @@
+The options 
+identify the partition as initially being loaded ro (read-only) and the location of the root 
+ﬁ lesystem on a partition with the label that begins root=/dev/mapper/vg_myhost-lv_
+root.

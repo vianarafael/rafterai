@@ -1,0 +1,30 @@
+Let us try the old smbtree version on our RHEL server, but
+this time with Administrator credentials (which are the same on all computers).
+
+[paul@RHEL4b ~]$ smbtree -UAdministrator%Stargate1
+WORKGROUP
+  \\W2000          
+PEGASUS
+  \\WINXP          
+    \\WINXP\C$              Default share
+    \\WINXP\ADMIN$          Remote Admin
+    \\WINXP\share55        
+    \\WINXP\IPC$            Remote IPC
+  \\RHEL4B                  Pegasus Domain Member Server
+    \\RHEL4B\ADMIN$         IPC Service (Pegasus Domain Member Server)
+    \\RHEL4B\IPC$           IPC Service (Pegasus Domain Member Server)
+    \\RHEL4B\domaindata     Active Directory users only
+  \\HM2003         
+    \\HM2003\NETLOGON       Logon server share 
+    \\HM2003\SYSVOL         Logon server share 
+    \\HM2003\WSUSTemp       A network share used by Local Publishing ...
+    \\HM2003\ADMIN$         Remote Admin
+    \\HM2003\tools          
+    \\HM2003\IPC$           Remote IPC
+    \\HM2003\WsusContent    A network share to be used by Local ...
+    \\HM2003\C$             Default share
+[paul@RHEL4b ~]$
+
+As you can see, this gives a very nice overview of all SMB computers and their shares.
+
+10.5.

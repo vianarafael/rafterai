@@ -1,0 +1,10 @@
+If the gpg-agent daemon is running on the system, that passphrase is cached, so that ﬁ le 
+could be decrypted again without entering the passphrase again.
+
+632
+
+c23.indd  04/01/2015  Page 633
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Symmetric key cryptography is rather simple and easy to understand.

@@ -1,0 +1,13 @@
+When the viewer window appears, log in as you would normally.
+
+8.  To check that your virtual machine can connect to the Internet or other network 
+
+outside the hypervisor, do one of the following:
+
+ ■ Open a web browser and try to connect to a website on the Internet.
+
+ ■ Open a Terminal window, type ping redh at.com, and then press Ctrl+C to 
+
+exit.
+
+9.

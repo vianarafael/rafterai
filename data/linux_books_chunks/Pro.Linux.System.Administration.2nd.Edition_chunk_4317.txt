@@ -1,0 +1,9 @@
+We will use our own CA because it will be cheaper and we 
+can manage the renewal cycle.
+
+ ■ Note 
+
+ we discuss the Ca process extensively in Chapter 11 (refer there now if you like).
+
+We’re going to show you how to create and sign your own using the CA we created in Chapter 11.
+We first need to create a server certificate for the VPN server.

@@ -1,0 +1,13 @@
+Thus dns requires all business units to work together.
+
+Even at home, most home modems and routers have builtin dns functionality.
+
+This module will explain what dns actually is and how to set it up using Linux and bind9.
+
+116
+
+introduction to DNS
+
+10.1. about dns
+
+10.1.1.

@@ -1,0 +1,5 @@
+At this point, 
+the remote and local directories are different because the local system has the services ﬁ le 
+and the remote doesn’t. That is correct behavior for a backup directory (you want to have 
+ﬁ les on the backup in case something was removed by mistake). However, if you want the 
+remote and local directories to be mirrored, you would have to add the --delete option.

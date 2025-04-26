@@ -1,0 +1,10 @@
+With the host enabled, use apachectl to check the conﬁ guration, and then do 
+
+a graceful restart:
+
+# apachectl configtest
+Syntax OK
+# apachectl graceful
+
+Provided you have registered the system with a DNS server, a web browser should be able to 
+access this website using either www.example.org or web.example.org.

@@ -1,0 +1,30 @@
+The bg will
+send a SIGCONT signal.
+
+Below  an  example  of  the  sleep  command  (suspended  with  Ctrl-Z)  being  reactivated  in
+background with bg.
+
+[paul@RHEL5 ~]$ jobs
+[paul@RHEL5 ~]$ sleep 5000 &
+[1] 6702
+[paul@RHEL5 ~]$ sleep 3000
+
+[2]+  Stopped                 sleep 3000
+[paul@RHEL5 ~]$ jobs
+[1]-  Running                 sleep 5000 &
+[2]+  Stopped                 sleep 3000
+[paul@RHEL5 ~]$ bg 2
+[2]+ sleep 3000 &
+[paul@RHEL5 ~]$ jobs
+[1]-  Running                 sleep 5000 &
+[2]+  Running                 sleep 3000 &
+[paul@RHEL5 ~]$ 
+
+24
+
+  
+  
+  
+background jobs
+
+3.2.

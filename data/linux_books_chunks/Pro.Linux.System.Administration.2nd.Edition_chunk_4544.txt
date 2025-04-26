@@ -1,0 +1,5 @@
+We need to declare what type 
+
+of entity we are using, and for an object class we start with objectclass ( schema detail ). Whitespace is 
+important when declaring your object classes and attributes, and there must be a space inside the ( ) at 
+each end.

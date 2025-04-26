@@ -1,0 +1,9 @@
+Instead of adding an encrypted password here, you can simply 
+use the passwd user command later to add a password for user. (To generate an 
+encrypted MD5 password, type openssl passwd.)
+
+ ■ -s shell—Specify the command shell to use for this account. Replace shell 
+
+with the command shell (for example, -s /bin/csh).
+
+ ■ -u user_id—Specify the user ID number for the account (for example, -u 793).

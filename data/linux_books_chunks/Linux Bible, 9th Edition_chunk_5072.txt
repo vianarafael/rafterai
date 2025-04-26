@@ -1,0 +1,7 @@
+To do administration on the system, 
+you can use the sudo command as the default user.
+
+Using Amazon EC2 to Deploy Cloud Images
+Amazon Elastic Computer Cloud (Amazon EC2) is a cloud platform that is particularly suited 
+for pay-as-you-go cloud computing. Like OpenStack, it lets you choose from preconﬁ gured 
+virtual machine images and conﬁ gure them as you need.

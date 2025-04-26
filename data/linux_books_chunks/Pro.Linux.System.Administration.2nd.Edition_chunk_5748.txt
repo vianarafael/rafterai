@@ -1,0 +1,6 @@
+The option we have 
+added here is how you can run your commands via a jump host, so any target hosts will be accessed via this 
+SSH proxy server.
+
+There is no ansible service to start. However, you may want to automate the process of running 
+playbooks on your hosts; that is where Ansible Tower (https://www.ansible.com/tower) comes in.

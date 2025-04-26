@@ -1,0 +1,12 @@
+For example, an image backup of /home would be much faster 
+(and probably more useful) than an image backup of the root ﬁ lesystem (/).
+
+220
+
+c09.indd  04/01/2015  Page 221
+
+Chapter 9: Installing Linux
+
+ ■ Different filesystem types—Different kinds of ﬁ lesystems have different 
+
+ structures. Filesystems of different types must be on their own partitions.

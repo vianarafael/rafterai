@@ -1,0 +1,11 @@
+hash) of the message ﬁ le
+
+ ■ Encrypts the message digest, which creates the digital signature
+
+ ■ Encrypts the message ﬁ le
+
+ ■ Places the encrypted contents into the ﬁ le speciﬁ ed by the --output option, 
+
+JohnDoe.DS
+
+The ﬁ le JohnDoe.DS now contains an encrypted and digitally signed message.

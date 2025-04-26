@@ -1,0 +1,5 @@
+Here, we can see that a unit file for a timer needs these three sections, [Unit], [Timer], 
+and [Install].
+
+The [Timer] section is where we put our timer options. We have chosen here to trigger our cURL job 2 
+minutes after the boot event (OnBootSec), and then every 20 minutes after the last event (OnUnitActiveSec).

@@ -1,0 +1,20 @@
+Some of the most common passwords are:
+
+ ■ 123456
+
+ ■ Password
+
+596
+
+c22.indd  04/15/2015  Page 597
+
+Chapter 22: Understanding Basic Linux Security 
+
+ ■ princess
+
+ ■ rockyou
+
+ ■ abc123
+
+Just use your favorite Internet search engine and look for “common passwords.” If you can 
+ﬁ nd these lists, then malicious attackers can, too.

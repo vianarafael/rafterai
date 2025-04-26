@@ -1,0 +1,2 @@
+An overlay, as previously mentioned, provides certain 
+additional functionality not normally supplied by the OpenLDAP server.

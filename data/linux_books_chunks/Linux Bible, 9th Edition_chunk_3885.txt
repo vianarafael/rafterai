@@ -1,0 +1,3 @@
+So, although you don’t have to upgrade to the new release every six 
+months, you should upgrade once per year or face possible dependency and  security 
+problems when Fedora stops supplying updates.

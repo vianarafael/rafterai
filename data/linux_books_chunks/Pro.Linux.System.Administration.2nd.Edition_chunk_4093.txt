@@ -1,0 +1,6 @@
+To get Bareos up and running, you will have to edit the following files in the configuration directory to access 
+the Bareos management console: /etc/bareos/bareos-dir.conf, /etc/bareos/bareos-sd.conf, /etc/
+bareos/bareos-fd.conf, and /etc/bareos/bconsole.conf.
+
+Configuring the Database
+We talked about MariaDB servers in Chapter 11.

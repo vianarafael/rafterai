@@ -1,0 +1,8 @@
+Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+root@debian6:~# 
+
+The above screenshot shows that all software is updated to the latest version available for
+my distribution.
+
+20.3.3.

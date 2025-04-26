@@ -1,0 +1,7 @@
+For example, to remove all print jobs for the user named mike, the 
+root user types the following:
+
+# lprm –U mike
+
+To remove an individual print job from the queue, indicate its job number on the lprm 
+command line. To ﬁ nd the job number, type the lpq command.

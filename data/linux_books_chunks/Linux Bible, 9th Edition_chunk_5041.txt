@@ -1,0 +1,5 @@
+A list of public OpenStack clouds is available from the OpenStack project 
+site (http://www.openstack.org/marketplace/public-clouds/).
+
+My ﬁ rst point is to help you run a Linux system in a cloud, when you don’t have the capac-
+ity to do what you want on your own computers.

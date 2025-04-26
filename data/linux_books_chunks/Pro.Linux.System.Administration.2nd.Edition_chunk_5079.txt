@@ -1,0 +1,4 @@
+You could add it using third-party 
+tools to Windows systems, and most network devices such as firewalls, routers, and switches are capable of 
+generating syslog messages. This resulted in the syslog format being the closest thing to a universal logging 
+standard that exists.

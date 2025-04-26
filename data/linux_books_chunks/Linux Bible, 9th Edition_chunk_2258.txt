@@ -1,0 +1,5 @@
+The reason for this is that if someone cracks these daemons, they would not have 
+permissions to access ﬁ les beyond what that service can access.
+
+ ■ Daemon configuration files—Often, a service has a conﬁ guration ﬁ le for the 
+ daemon stored in the /etc/sysconfig directory.

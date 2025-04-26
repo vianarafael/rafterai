@@ -1,0 +1,5 @@
+Use Linux fdisk or a product made for multi-boot systems (such as Acronis 
+Disk Director).
+
+ ■ You can have up to 63 partitions on an IDE hard disk. A SCSI hard disk can have up 
+to 15 partitions. You typically won’t need nearly that many partitions.

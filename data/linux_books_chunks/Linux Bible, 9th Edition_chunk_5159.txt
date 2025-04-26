@@ -1,0 +1,13 @@
+Select the box next to Text Color, click the color red you want from the color 
+
+wheel, and click OK.
+
+f. Select the box next to Background Color, click the color yellow you want from 
+
+the color wheel, and click OK.
+
+g. Click Close on each window to go back to the Terminal window with the new 
+
+colors.
+
+h.

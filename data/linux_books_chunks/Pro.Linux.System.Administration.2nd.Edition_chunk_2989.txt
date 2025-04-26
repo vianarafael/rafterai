@@ -1,0 +1,7 @@
+If an 
+
+application turns out to contain a bug that allows access to the database server, only the data used by that 
+application is at risk.
+
+We connect to the MariaDB server as root and then create a user called jsmith, just like our host 
+account, who can access all databases and tables and create new users.

@@ -1,0 +1,3 @@
+ps
+
+One of the most common tools on Linux to look at processes is ps.

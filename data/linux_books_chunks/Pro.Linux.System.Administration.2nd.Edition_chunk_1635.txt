@@ -1,0 +1,6 @@
+The line numbering is important because, as has 
+been mentioned, iptables runs through each rule sequentially starting from the first to the last. When you 
+want to add a new rule or delete an old rule, you can use these numbers to pinpoint which rule you want to 
+target. Here is the listed output of that command in Listing 7-7.
+
+Listing 7-7.

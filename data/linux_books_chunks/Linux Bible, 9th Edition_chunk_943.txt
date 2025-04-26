@@ -1,0 +1,13 @@
+You can go through a ﬁ le this way, pressing n to go 
+to the next occurrence and period (.) to change the word.
+
+Exiting vi
+To wrap things up, use the following commands to save or quit the ﬁ le:
+
+ ■ ZZ—Saves the current changes to the ﬁ le and exits from vi.
+
+ ■ :w—Saves the current ﬁ le but doesn't exit from vi.
+
+ ■ :wq—Works the same as ZZ.
+
+ ■ :q—Quits the current ﬁ le.

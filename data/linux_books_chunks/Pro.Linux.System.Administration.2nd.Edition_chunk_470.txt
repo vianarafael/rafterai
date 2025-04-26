@@ -1,0 +1,6 @@
+The host you are connecting to is called the server and receives and 
+manages your connection.
+
+Remote connections using SSH are encrypted and require authentication, either a password or public 
+key cryptography. To make an SSH connection, you need to know the IP address or hostname of the remote 
+host.

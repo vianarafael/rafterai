@@ -1,0 +1,6 @@
+# getenforce
+
+
+- Display the current mode of SELinux:
+
+`getenforce`

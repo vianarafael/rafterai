@@ -1,0 +1,6 @@
+Facilities tell you the source of log messages; for 
+example, the mail facility is used for log messages related to mail services such as Postfix. A number of 
+facilities are available, and we’ll look at each in the next section. Each application specifies the facility it will 
+use for its log entries.
+
+The priority (.*) tells rsyslog the importance of the message being sent.

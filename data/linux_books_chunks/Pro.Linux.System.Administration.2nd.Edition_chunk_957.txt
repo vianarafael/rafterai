@@ -1,0 +1,7 @@
+This flag is set to off by default.
+
+Sends e-mail if the user running sudo exists in the sudoers file but does not have 
+authority to the command he tried to run. This flag is set to off by default.
+
+The sudoers man page details a number of other options and defaults.
+The sudo command itself also has some command-line options you can issue with it.

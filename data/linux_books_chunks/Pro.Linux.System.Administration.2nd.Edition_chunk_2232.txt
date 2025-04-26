@@ -1,0 +1,5 @@
+This was done as part of the startup process. Each partition you want 
+to mount automatically at startup needs to be listed in the /etc/fstab file. Listing 9-8 shows the one from 
+our Ubuntu host.
+
+Listing 9-8.

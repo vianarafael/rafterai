@@ -1,0 +1,4 @@
+You can read about how to use templates in more detail at https://docs.puppet.com/puppet/latest/
+lang_template_epp.html.
+
+You can also explore the older style of Puppet templating using Ruby’s ERB templating language.

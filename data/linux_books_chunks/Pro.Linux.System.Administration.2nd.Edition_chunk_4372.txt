@@ -1,0 +1,7 @@
+On our gateway host, this involves forwarding IP traffic from our gateway host into the 
+internal network and back, much like the configuration we created in Chapter 7 for forwarding our services 
+from our bastion host, gateway.example.com.
+
+First, we direct traffic that we want to forward through our gateway host from the VPN tunnel interface 
+
+tun0 using the public zone.

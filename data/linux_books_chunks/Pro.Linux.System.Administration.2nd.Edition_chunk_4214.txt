@@ -1,0 +1,21 @@
+The other is to place the 
+commands directly on the command line like this:
+
+* run job=headoffice.example.com level=full priority=7 yes
+
+687
+
+Chapter 14 ■ BaCkup and reCovery
+
+When we run the * stat dir command, we can see that our job is running.
+
+Running Jobs:
+
+Console connected at 10-Oct-16 01:21
+ JobId Level   Name                       Status
+============================================================
+     1 Full    headoffice.example.com.2016-10-10_01.21.34_04 is running
+====
+
+From that status you can see that we have a job ID of 1 and that we are running a full backup, since we 
+do not have a full backup yet.

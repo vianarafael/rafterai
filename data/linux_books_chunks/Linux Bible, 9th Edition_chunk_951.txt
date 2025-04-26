@@ -1,0 +1,7 @@
+It also displays the total number of lines in the ﬁ le, the percentage 
+of how far you are through the ﬁ le, and the column number the cursor is on. This 
+just helps you get your bearings after you’ve stopped for a cup of coffee at 3 a.m.
+
+Skipping around in the fi le
+Besides the few movement commands described earlier, there are other ways of moving 
+around a vi ﬁ le.

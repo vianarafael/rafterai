@@ -1,0 +1,4 @@
+Each distribution, CentOS and Ubuntu, manages the addition, 
+removal, starting, and stopping of these services slightly differently. We’ll show you how to manage these 
+services on each of these distributions and the nuances involved. You’ll learn what services are, how to start 
+and stop services, and how to see their status.

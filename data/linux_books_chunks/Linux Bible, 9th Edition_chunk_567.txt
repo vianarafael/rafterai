@@ -1,0 +1,16 @@
+On your screen, you should either 
+see a plain-text login prompt similar to the following:
+
+66
+
+c03.indd  04/01/2015  Page 67
+
+Chapter 3: Using the Shell
+
+Red Hat Enterprise Linux Server release 7.0 (Maipo)
+Kernel 3.10.0-121.el7.x86_64 on an X86
+joe login:
+
+Or you will see a graphical login screen.
+
+In either case, you should log in with a regular user account.

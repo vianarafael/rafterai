@@ -1,0 +1,13 @@
+make  clean  will  remove  most
+generated files, but keeps your kernel configuration. Running a make mrproper at this point
+would destroy the .config file that you built with make menuconfig.
+
+[root@RHEL52 linux-2.6.18.i686]# make clean
+
+340
+
+the Linux kernel
+
+28.5.6. make bzImage
+
+And then run make bzImage, sit back and relax while the kernel compiles.

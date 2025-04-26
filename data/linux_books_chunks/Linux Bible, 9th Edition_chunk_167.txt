@@ -1,0 +1,11 @@
+The 
+system also must offer ways of starting, stopping, and changing the status 
+of processes.
+
+ ■ Managing memory—RAM and swap space (extended memory) must be allocated to 
+applications as they need memory. The operating system decides how requests for 
+memory are handled.
+
+ ■ Providing user interfaces—An operating system must provide ways of accessing 
+
+the system.

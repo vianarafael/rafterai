@@ -1,0 +1,2 @@
+By default, both CentOS and Ubuntu use a mailbox format called mbox 
+to store received e-mail. The mbox format has all of your e-mail held in a single file.

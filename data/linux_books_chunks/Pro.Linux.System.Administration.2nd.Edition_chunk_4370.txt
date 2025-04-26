@@ -1,0 +1,33 @@
+For the new route to be pushed, 
+
+we need to restart the openvpn service on both the gateway host and the branch office hosts.
+
+717
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+If we look at the route table on our branch1 host, we can see a new route to the 192.168.0.0/24 network 
+
+in our routes (in bold).
+
+[branch1]$ ip route
+default via 10.0.2.2 dev eth0  proto static  metric 100
+10.0.2.0/24 dev eth0  proto kernel  scope link  src 10.0.2.15  metric 100
+10.8.0.1 via 10.8.0.5 dev tun0
+10.8.0.5 dev tun0  proto kernel  scope link  src 10.8.0.6
+169.254.0.0/16 dev eth1  scope link  metric 1003
+10.0.2.0/24 dev eth1  proto kernel  scope link  src 10.0.2.156
+192.168.0.0/24 via 10.8.0.5 dev tun0
+192.168.10.0/24 dev eth1  proto kernel  scope link  src 192.168.10.254
+
+We can now ping this network from the branch1 host.
+
+branch1$ ping 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_seq=1 ttl=64 time=1.18 ms
+64 bytes from 192.168.0.1: icmp_seq=2 ttl=64 time=1.31 ms
+64 bytes from 192.168.0.1: icmp_seq=3 ttl=64 time=2.33 ms
+64 bytes from 192.168.0.1: icmp_seq=4 ttl=64 time=1.25 ms
+64 bytes from 192.168.0.1: icmp_seq=5 ttl=64 time=0.923 ms
+
+You can see we’re getting a response from the host 192.168.0.1 on our branch1 host.

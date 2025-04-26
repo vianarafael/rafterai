@@ -1,0 +1,10 @@
+IN      A
+
+An A record is one that maps names to addresses. We’ll cover record types in more detail shortly.
+
+If a record doesn’t exist you will get a status response of “NXDOMAIN.” for a list of all the possible 
+
+ ■ Note 
+responses see www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-parameters-6.
+
+The answer section holds the response to your query.

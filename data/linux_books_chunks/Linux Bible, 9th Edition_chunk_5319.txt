@@ -1,0 +1,32 @@
+In 
+recent Fedora or RHEL 7 or later, type the following:
+
+# systemctl start httpd.service
+# systemctl enable httpd.service
+
+B
+
+815
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 816
+
+Appendix B: Exercise Answers
+
+In RHEL 6 or earlier, type:
+
+# service httpd start
+# chkconfig httpd on
+
+4.

@@ -1,0 +1,6 @@
+In this case, if the File['/
+etc/ssh/sshd_config'] resource is changed (e.g., if the configuration file is updated), then Puppet will 
+notify the Service['sshdaemon'] resource, causing it to be run and thus restarting the SSH daemon service.
+
+ ■ Tip 
+ two other relationships you can construct are subscribe and before.

@@ -1,0 +1,6 @@
+Using Dovecot lDa (local delivery agent - MDa and lDa are synonyms) we can use the Sieve plugin to 
+do mail filtering, forwarding and auto e-mail replies.
+
+Extending Postfix Configuration
+So far we’ve just touched on the basics of Postfix configuration that allow our local users to send and receive 
+e-mail.

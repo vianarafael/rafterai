@@ -1,0 +1,2 @@
+Standard web service (HTTP) 
+is accessible over TCP port 80; secure web service (HTTPS) is accessible via TCP port 443.

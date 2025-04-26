@@ -1,0 +1,24 @@
+When using kmod the kernel will use the tool listed in  /proc/sys/kernel/modprobe 
+whenever a module is needed.
+
+Check that kmod has been selected in the source tree as a static component:
+
+grep -i “kmod” /usr/src/linux/.config
+
+CONFIG_KMOD=y
+
+15
+
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+When making a monolithic kernel the CONFIG_MODULES option must be set to no.
+
+The /proc/ directory
+
+The kernel capabilities that have been selected in a default or a patched kernel are 
+reflected in the /proc directory.

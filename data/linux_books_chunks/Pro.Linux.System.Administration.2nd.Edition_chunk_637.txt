@@ -1,0 +1,7 @@
+The grep command allows you to search 
+through a file or files for a string or pattern (using regular expressions) and return the results of that search.
+
+ The word “grep” has become a commonly used term in IT for searching, much like the term “google” 
+
+ ■ Note 
+has for using an online search engine.

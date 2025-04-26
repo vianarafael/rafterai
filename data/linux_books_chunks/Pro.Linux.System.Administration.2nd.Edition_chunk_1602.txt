@@ -1,0 +1,6 @@
+In the /etc/firewalld/firewalld.conf you can set the default zone and other 
+options. In the /etc/sysconfig/firewalld you can add any arguments to the the firewalld daemon.
+
+268
+
+By default the firewalld is not running on your system. You will need to enable it to make use of it.

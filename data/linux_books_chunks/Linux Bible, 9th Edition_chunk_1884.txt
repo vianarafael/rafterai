@@ -1,0 +1,9 @@
+You’re prompted to 
+type the password twice:
+
+# passwd sara
+Changing password for user sara.
+New password: **********
+Retype new password: **********
+
+Asterisks in this example represent the password you type. Nothing is actually displayed when you type the password.

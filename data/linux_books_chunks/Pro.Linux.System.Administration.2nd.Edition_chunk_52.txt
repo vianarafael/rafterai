@@ -1,0 +1,6 @@
+Your own feelings about which distribution suits you and is the easiest for you to work with shouldn’t be 
+underestimated.
+
+So Which Distributions Does This Book Cover?
+As we have discussed, two popular choices are Red Hat, or derivatives like CentOS and Fedora, and Ubuntu 
+and other related distributions.

@@ -1,0 +1,2 @@
+The Apache service is started by the root 
+user, so it can bind to port 80 (a privileged port) and launch child processes as the user defined here.

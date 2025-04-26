@@ -1,0 +1,18 @@
+For example, if you wanted to ﬁ nd the location of 
+the chage command, you could type the following:
+
+$ locate chage
+/usr/bin/chage
+/usr/sbin/lchage
+/usr/share/man/fr/man1/chage.1.gz
+/usr/share/man/it/man1/chage.1.gz
+/usr/share/man/ja/man1/chage.1.gz
+/usr/share/man/man1/chage.1.gz
+/usr/share/man/man1/lchage.1.gz
+/usr/share/man/pl/man1/chage.1.gz
+/usr/share/man/ru/man1/chage.1.gz
+/usr/share/man/sv/man1/chage.1.gz
+/usr/share/man/tr/man1/chage.1.gz
+
+Notice that locate not only found the chage command, but also found the lchage 
+command and a variety of man pages associated with chage for different languages.

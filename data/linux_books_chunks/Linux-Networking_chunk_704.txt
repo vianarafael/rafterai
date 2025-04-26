@@ -1,0 +1,17 @@
+The OUTPUT chain is for any packet leaving the system.
+And the FORWARD chain is for packets that are forwarded (routed) through the system.
+
+The screenshot below shows how to list the filter table and all its rules.
+
+[root@RHEL5 ~]# iptables -t filter -nL
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+[root@RHEL5 ~]#
+
+As you can see, all three chains in the filter table are set to ACCEPT everything.

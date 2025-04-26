@@ -1,0 +1,5 @@
+BIOS is still available in most motherboards 
+
+as “legacy” and has been widely tested and supported. It is, however, mandatory under the following 
+circumstances; you are running dual boot with a system already running UEFI and you want to access disks 
+larger than 2TiB.

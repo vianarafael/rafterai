@@ -1,0 +1,15 @@
+Note the information here:
+
+server os  : Debian 7
+ip address : 10.104.33.30
+domain name: paul.local
+server name: ns1.paul.local
+
+141
+
+introduction to DNS
+
+10.15. example: a DNS slave server
+
+1. A slave server transfers zone information over the network from a master server (a slave
+can also be a master). A primary server maintains zone records in its local file system.

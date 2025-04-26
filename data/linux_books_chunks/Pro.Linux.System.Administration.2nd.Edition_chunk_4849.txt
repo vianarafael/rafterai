@@ -1,0 +1,11 @@
+If this doesn’t work, you might want to try sending signal 3, which is a bit sterner, or 
+signal 9, which is akin to axe-murdering the process.
+
+To find out more about signals, read the “Killing Is Not Always Murder” sidebar.
+
+ ■ Note  You need to be the process owner or root user to be allowed to send signals to a process.
+
+KILLING IS NOT ALWAYS MURDER
+
+though the act of sending signals to processes is called killing and is usually done via the kill 
+command, it won’t necessarily quit the process.

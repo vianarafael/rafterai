@@ -1,0 +1,3 @@
+The ls command lists the ﬁ les and directories in your current direc-
+tory. Although many commands can be run by just typing command names, it’s more com-
+mon to type more after the command to modify its behavior.

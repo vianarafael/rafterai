@@ -1,0 +1,7 @@
+Some extra tasks 
+were running and probably completed a few minutes ago, as the average workload over the past 5 minutes 
+was 7 percent.
+
+Though these numbers should by no means be taken as gospel, they do provide a quick way to check 
+whether a system is likely to be healthy. If the system load is 6.00 on a host with eight CPU cores, a lot of tasks 
+may have just finished running.

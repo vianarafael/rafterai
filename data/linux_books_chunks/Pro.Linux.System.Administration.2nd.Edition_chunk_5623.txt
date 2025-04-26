@@ -1,0 +1,2 @@
+We will need to edit our environment.conf file to get 
+Puppet to see these.

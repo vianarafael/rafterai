@@ -1,0 +1,3 @@
+Instead of using 
+password-based authentication, SSH allows you to set up key-based authentication to use 
+instead.

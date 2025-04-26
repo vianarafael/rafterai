@@ -1,0 +1,10 @@
+The script performs the required additions to the /etc/shells file after 
+installing the bash package.
+
+As you can probably now see we can do similar tasks as these with yum or dnf. Let’s move on to installing 
+
+packages with rpm.
+
+Installing Packages and Removing Packages with RPM
+
+The rpm tool can also be used to install or upgrade packages; however, it is not recommended.

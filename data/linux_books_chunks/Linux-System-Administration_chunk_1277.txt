@@ -1,0 +1,20 @@
+Let us
+compare the two.
+
+paul@RHELv4u4:~/test$ cp allfiles.txt bllfiles.txt 
+paul@RHELv4u4:~/test$ time gzip allfiles.txt 
+
+real    0m0.050s
+user    0m0.041s
+sys     0m0.009s
+paul@RHELv4u4:~/test$ time bzip2 bllfiles.txt 
+
+real    0m5.968s
+user    0m5.794s
+sys     0m0.076s
+paul@RHELv4u4:~/test$ ls -l ?llfiles.tx*
+-rw-rw-r--  1 paul paul 931863 Feb 27 05:38 allfiles.txt.gz
+-rw-rw-r--  1 paul paul 708871 May 12 10:52 bllfiles.txt.bz2
+paul@RHELv4u4:~/test$ 
+
+30.3.

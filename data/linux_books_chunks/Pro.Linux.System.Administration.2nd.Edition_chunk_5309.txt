@@ -1,0 +1,5 @@
+This 
+alias is usually used as a longer description of the host and is also available as a macro called $HOSTALIAS$.
+The last attribute, address, provides the IP address of the host; in this case we’re monitoring our local 
+
+host, 127.0.0.1. This IP address must be contactable by Nagios to allow monitoring to take place.

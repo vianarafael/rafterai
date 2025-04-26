@@ -1,0 +1,10 @@
+Vagrantfile—Adding Forwarded Ports
+
+Vagrant.configure(2) do |config|
+ config.vm.box = "ubuntu/xenial64"
+ config.vm.network "forwarded_port", guest: 80, host: 8080
+end
+
+In Listing 3-6 you can see we are adding the forwarded port by setting the config.vm.network. We can 
+
+also synchronize folders from our host to our guest hosts. This is invaluable when developing.

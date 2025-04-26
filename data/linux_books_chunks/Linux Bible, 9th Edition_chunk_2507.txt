@@ -1,0 +1,13 @@
+Select the Settings icon from the upper-right corner of the desktop, and open the 
+
+Network icon.
+
+14
+
+2.  Select Wired, and click the settings button (small gear icon) next to the interface 
+
+you want to change.
+
+3.  Choose IPv4, and change the box that says Automatic (DHCP) to Manual.
+
+4.

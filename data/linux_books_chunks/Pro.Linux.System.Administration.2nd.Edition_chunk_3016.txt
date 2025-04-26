@@ -1,0 +1,10 @@
+Google now uses HTTPS as a ranking signal, meaning that if your site is fully 
+encrypted, then your rank will be higher than an unencrypted site of the same content.
+
+We are going to talk about TLS and then show you how to create your own certificate authority (CA), 
+
+and finally we will install a certificate provided by Let’s Encrypt.
+
+TLS and Certificates
+
+TLS works using digital certificates and a type of cryptography called public key encryption.

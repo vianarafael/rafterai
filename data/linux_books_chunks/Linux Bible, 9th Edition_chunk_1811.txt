@@ -1,0 +1,7 @@
+With any downloaded RPM packages now sitting 
+in your current directory, you can use a variety of rpm commands to query or use those 
+ packages in different ways (as described in the next section).
+
+Installing, Querying, and Verifying Software 
+with the rpm Command
+There is a wealth of information about installed packages in the local RPM database.

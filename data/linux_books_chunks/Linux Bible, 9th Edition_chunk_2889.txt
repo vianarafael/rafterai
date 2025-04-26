@@ -1,0 +1,6 @@
+Using Print Settings, you can also conﬁ gure your printers as print servers so people 
+can print to your printer from their own computers.
+
+If you don’t have a desktop or want to print from within a shell script, this chapter shows you how 
+to use printing commands. From the command line, print commands such as lpr are available for 
+carrying out printing.

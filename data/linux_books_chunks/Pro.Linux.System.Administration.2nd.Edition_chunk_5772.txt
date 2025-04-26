@@ -1,0 +1,10 @@
+But how do we execute several tasks? Well, that’s where we use playbooks.
+
+963
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Ansible Playbooks
+
+Now that we have configured Ansible and we can execute modules on our hosts, we are going to run several 
+tasks to bring up a particular service.

@@ -1,0 +1,12 @@
+They begin with olcAccess and have been assigned an 
+
+index number, {0}. We can view index {0} as follows:
+
+(access) to attrs=userPassword
+    by self write
+    by anonymous auth
+    by * none
+
+This allows a user to write to their own userPassword attribute, and the anonymous user can 
+
+authenticate.

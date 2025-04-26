@@ -1,0 +1,6 @@
+The Server Settings pop-up window appears, as shown in Figure 19.1.
+
+In this example, the name of the Workgroup is changed to datagroup and Sales Data is set 
+as the Description. Next, select the Security tab. The default Authentication mode is User, 
+which means that Samba (Windows) usernames are mapped into real user accounts on the 
+Linux system.

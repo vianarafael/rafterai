@@ -1,0 +1,8 @@
+From our rpmdevtools package we use the rpmdev-newspec command as follows:
+
+$ rpmdev-newspec simple_echo && mv simple_echo.spec SPECS/
+simple_echo.spec created; type minimal, rpm version >= 4.11.
+
+This has created our spec file and moved it into our SPECS directory. We can now use our vi editor to 
+
+edit the file.

@@ -1,0 +1,7 @@
+It is reached by clicking the Tactical Monitoring Overview link in the left menu.
+
+To see your hosts and services in more detail, the Host Detail and Service Detail links in the left 
+menu display a full list of the hosts and services being monitored. You can see the Service Detail screen in 
+Figure 18-12.
+
+Figure 18-12.

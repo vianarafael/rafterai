@@ -1,0 +1,6 @@
+The container would provide the location of the content 
+and possibly different error logs or Directory directives from the global settings. This 
+way, each virtual host could be managed as if it were on a separate machine.
+
+To use name-based virtual hosting, turn on the NameVirtualHost directive. Then add as 
+many VirtualHost containers as you like.

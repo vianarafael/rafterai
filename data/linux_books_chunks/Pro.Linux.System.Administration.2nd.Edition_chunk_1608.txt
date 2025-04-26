@@ -1,0 +1,25 @@
+You 
+can reload the configuration without losing state information (does not interrupt connections) and you can 
+reload that does lose state (people lose connections) with the complete reload:
+
+$ sudo firewall-cmd reload
+$ sudo firewall-cmd --complete-reload
+
+269
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Here you can see that our dmz now has the https and ssh services attached to it:
+
+$ sudo firewall-cmd --zone=dmz --list-all
+dmz
+ interfaces:
+ sources:
+ services: https ssh
+ ports:
+ masquerade: no
+ forward-ports: 
+ icmp-blocks:
+ rich rules:
+
+But you can see that it has no interfaces.

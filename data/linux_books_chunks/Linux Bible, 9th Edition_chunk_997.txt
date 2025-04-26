@@ -1,0 +1,15 @@
+So you search the 
+
+system to see if any commands have had their ownership or permissions changed in 
+the past three days:
+
+$ find /bin /usr/bin /sbin /usr/sbin -ctime -3
+
+ ■ You want to ﬁ nd ﬁ les in your FTP server (/var/ftp) and web server (/var/www) 
+that have not been accessed in more than 300 days, so you can see if any need to 
+be deleted:
+
+$ find /var/ftp /var/www -atime +300
+
+As you can glean from the examples, you can search for content or metadata changes over a 
+certain number of days or minutes.

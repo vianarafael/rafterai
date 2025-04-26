@@ -1,0 +1,3 @@
+Puppet uses TLS certificates to authenticate connections 
+between the master and the client. The client is now waiting for the master to sign its certificate and enable 
+the connection. At this point, the client is still running and awaiting the signed certificate.

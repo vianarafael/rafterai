@@ -1,0 +1,3 @@
+Pressing any key 
+will stop the countdown, show you a more detailed menu of available options, and give you the opportunity 
+to edit your boot configuration.

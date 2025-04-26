@@ -1,0 +1,7 @@
+You need to use the following syntax:
+
+directory network(nfs_options),network(nfs_options)
+
+You select the directory you want to share, the network to which you want it shared, and then several 
+
+NFS options.

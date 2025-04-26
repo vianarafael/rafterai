@@ -1,0 +1,23 @@
+git add
+
+Time now to add file to our project with git add, and verify that it is added with git status.
+
+227
+
+git
+
+paul@debian6~/project42$ git add question.sh
+paul@debian6~/project42$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+# new file:   question.sh
+#
+
+The git status tells us there is a new file ready to be committed.
+
+20.3.4.

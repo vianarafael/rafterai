@@ -1,0 +1,16 @@
+it is used by the time-stamped messages that rsyslogd 
+
+ ■ Note 
+generates when you use the -m (minutes) flag.
+
+There are also two special facilities: *, a wildcard that indicates all facilities, and none, which negates a 
+
+facility selection.
+
+851
+
+Chapter 18 ■ Logging and Monitoring
+
+You can see the wildcard selector in Listing 18-4.
+
+Listing 18-4.

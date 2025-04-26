@@ -1,0 +1,2 @@
+You need to allow ESTABLISHED connections if you want a service to be able to maintain a 
+connection with a remote client or server.

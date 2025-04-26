@@ -1,0 +1,4 @@
+force create mode
+
+Similar to create mask, but different. Where the mask from above was a logical AND, the
+mode you set here is a logical OR (so it adds permissions).

@@ -1,0 +1,7 @@
+Lastly, 
+we have a group of groups [all_servers:children] host group that contains the all_ubuntu and  
+all_centos host groups as well as the [dbs] host.
+
+Let’s see how we now execute something across a few hosts. We will assume that the user we are 
+
+running this command as has had their public SSH key deployed to all the hosts already.

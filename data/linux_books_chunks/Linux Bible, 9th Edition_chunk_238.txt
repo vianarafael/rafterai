@@ -1,0 +1,13 @@
+Its attempts to build an open source kernel 
+with the GNU Hurd project (http://www.gnu.org/software/hurd) were unsuccessful 
+at ﬁ rst, so it failed to become the premier open source kernel.
+
+12
+
+c01.indd  04/01/2015  Page 13
+
+Chapter 1: Starting with Linux
+
+BSD loses some steam
+The one software project that had a chance of beating out Linux to be the premier 
+open source kernel was the venerable BSD project.

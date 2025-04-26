@@ -1,0 +1,12 @@
+We create them in the home directory of our user on our remote host. We can 
+use these options to limit what our keys can do, as shown in Table 14-1.
+
+Table 14-1.  authorized_keys Options
+
+Option
+
+Description
+
+From="hostname.example.com"
+
+Limits where connections can come from.

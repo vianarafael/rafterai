@@ -1,0 +1,3 @@
+Metadata is downloaded again after the metadata_expire time is reached 
+(90 minutes, by default). The more YUM repositories you enable and the larger they are, the longer this download 
+can take.

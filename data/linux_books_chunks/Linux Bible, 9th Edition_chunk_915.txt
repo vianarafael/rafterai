@@ -1,0 +1,7 @@
+117
+
+c05.indd  04/01/2015  Page 118
+
+Part II: Becoming a Linux Power User
+
+You can also run a simple text editor called nano from the shell.

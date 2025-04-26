@@ -1,0 +1,3 @@
+A Schedule defines when a job should run. We can also describe the 
+level of our backup (if it is declared in the schedule, it overrides the setting in the Job or JobDefs resource). 
+For the WeeklyCycle we are using, we need to change it slightly from the default.

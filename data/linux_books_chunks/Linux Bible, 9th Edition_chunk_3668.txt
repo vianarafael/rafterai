@@ -1,0 +1,6 @@
+If you are unable to write to an NFS fi lesystem, check that it was exported as read/write from the server.
+
+Mounting noauto filesystems
+Your /etc/fstab ﬁ le may also contain devices for other ﬁ lesystems that are not mounted 
+automatically. For example, you might have multiple disk partitions on your hard disk or an 
+NFS shared ﬁ lesystem that you want to mount only occasionally.

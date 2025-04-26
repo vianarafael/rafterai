@@ -1,0 +1,11 @@
+The following commands show the nfs service not 
+running currently and disabled:
+
+# service nfs status
+rpc.svcgssd is stopped
+rpc.mountd is stopped
+nfsd is stopped
+# chkconfig --list nfs
+nfs  0:off  1:off  2:off  3:off  4:off  5:off  6:off
+
+As mentioned earlier, the rpcbind service must be running for NFS to work.

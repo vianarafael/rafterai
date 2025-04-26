@@ -1,0 +1,37 @@
+As you 
+can see, crontab on this particular Linux system is PAM-aware.
+
+# ldd /usr/bin/crontab | grep pam
+libpam.so.0 => /lib/libpam.so.0 (0x44d12000)
+
+The beneﬁ ts of using PAM on your Linux system include the following:
+
+ ■ Simpliﬁ ed and centralized authentication management from the administrator 
+
+viewpoint
+
+ ■ Simpliﬁ ed application development, because developers can write applications using 
+the documented PAM library, instead of writing their own authentication routines
+
+ ■ Flexibility in authentication:
+
+ ■ Allow or deny access to resources based on traditional criteria, such as identiﬁ cation
+
+ ■ Allow or deny access based on additional criteria, such as time of day restrictions
+
+ ■ Set subject limitations, such as resource usage
+
+Although the beneﬁ ts of PAM simplify authentication management, the way PAM actually 
+works is not so simple.
+
+Understanding the PAM authentication process
+When a subject (user or process) requests access to a PAM-aware application or utility, two 
+primary components are used to complete the subject authentication process:
+
+23
+
+ ■ The PAM-aware application’s conﬁ guration ﬁ le
+
+ ■ The PAM modules the conﬁ guration ﬁ le uses
+
+Each PAM-aware application conﬁ guration ﬁ le is at the center of the process.

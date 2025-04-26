@@ -1,0 +1,11 @@
+Most modern computers can boot from a USB drive, 
+although you may have to interrupt the boot process to tell the BIOS to boot from USB 
+instead of hard drive or CD/DVD drive.
+
+You can ﬁ nd procedures for putting Fedora and Ubuntu on a USB drive in the following 
+locations:
+
+ ■ Fedora on USB drive—Using a tool called Live USB Creator (https://fedorahosted
+
+.org/liveusb-creator/), you can install a Fedora ISO image to a USB drive 
+in either Windows or Linux.

@@ -1,0 +1,7 @@
+This way, it’s 
+possible to have visiting laptops assigned a random free address in a specific range from a specific pool.
+
+Installing and Configuring
+The DHCP server is provided by the isc-dhcp-server package on Ubuntu and the dhcp package on CentOS. 
+On Ubuntu and CentOS, a sample configuration file is installed as /etc/dhcp/dhcpd.conf. On CentOS this 
+file doesn’t have any configuration.

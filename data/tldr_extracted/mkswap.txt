@@ -1,0 +1,14 @@
+# mkswap
+
+
+- Set up a given swap area:
+
+`sudo mkswap {{path/to/file}}`
+
+- Check a partition for bad blocks before creating the swap area:
+
+`sudo mkswap {{[-c|--check]}} {{path/to/file}}`
+
+- Specify a label for the partition (to allow `swapon` to use the label):
+
+`sudo mkswap {{[-L|--label]}} {{label}} {{/dev/sda1}}`

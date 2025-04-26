@@ -1,0 +1,8 @@
+You have to respond with a y or Y to delete the file or anything else to abort, as you can see in Listing 4-18.
+
+Listing 4-18.  The rm -i Switch
+
+$ rm -i /home/jsmith/myfile
+rm: remove regular file `/home/jsmith/myfile'? n
+
+ Many distributions used to alias the rm command to rm -i to force deletion checking.

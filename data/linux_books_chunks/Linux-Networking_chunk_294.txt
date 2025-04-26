@@ -1,0 +1,4 @@
+~/.ssh
+
+While  ssh-keygen  generates  a  public  and  a  private  key,  it  will  also  create  a  hidden  .ssh
+directory with proper permissions.

@@ -1,0 +1,7 @@
+It also includes 
+settings that tell the server how many server processes to run at a time and how directory 
+contents are displayed.
+
+If you want to host a single website (such as for the example.com domain), you can simply 
+add content to the /var/www/html directory and add the address of your website to a DNS 
+server so others can browse to it.

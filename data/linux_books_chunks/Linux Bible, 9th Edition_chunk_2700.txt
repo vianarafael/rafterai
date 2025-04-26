@@ -1,0 +1,6 @@
+The Upstart init daemon was created to operate in a ﬂ exible and ever-changing 
+environment. 
+
+With SysVinit, services are stopped and started based upon runlevels. The Upstart init 
+daemon is not concerned with runlevels but with system events. Events are what determine 
+when services are stopped and/or started.

@@ -1,0 +1,5 @@
+The plus sign 
+indicates that ACLs are set on the ﬁ le, so you know to run the getfacl command to see 
+how ACLs are set. The output shows mary as owner and group (same as what you see with 
+ls -l), the regular user permissions (rw-), and permissions for ACL user bill (rw-). The 
+same is true for group permissions and permissions for the group sales.

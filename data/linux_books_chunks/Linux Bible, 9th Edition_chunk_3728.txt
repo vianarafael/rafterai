@@ -1,0 +1,7 @@
+On a second Linux system (NFS client), view the shares available from the NFS 
+
+server. (If you don’t have a second system, you can do this from the same system.) 
+If you do not see the shared NFS directory, go back to the previous question and 
+try again.
+
+8.

@@ -1,0 +1,6 @@
+The next section shows what the resulting settings look like and how you might 
+want to change them.
+
+Understanding smb.conf for printing
+When you conﬁ gure Samba, the /etc/samba/smb.conf ﬁ le is constructed to enable all 
+your conﬁ gured printers to be shared.

@@ -1,0 +1,11 @@
+You can use this type to mount ﬂ oppy disks that 
+
+come from Microsoft operating systems.
+
+ ■ vfat—Microsoft extended FAT (VFAT) ﬁ lesystem.
+
+ ■ umsdos—An MS-DOS ﬁ lesystem with extensions to allow features that are similar 
+
+to UNIX (including long ﬁ lenames).
+
+ ■ proc—Not a real ﬁ lesystem, but rather a ﬁ lesystem interface to the Linux kernel.

@@ -1,0 +1,10 @@
+The background vi(m) can
+be seen with the jobs command.
+
+[paul@RHEL4a ~]$ vi procdemo.txt
+
+[5]+  Stopped                 vim procdemo.txt
+[paul@RHEL4a ~]$ jobs
+[5]+  Stopped                 vim procdemo.txt
+
+3.1.3.

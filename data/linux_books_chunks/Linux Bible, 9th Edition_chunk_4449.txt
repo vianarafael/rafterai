@@ -1,0 +1,11 @@
+The PAM conﬁ guration ﬁ le system-auth 
+is used by PAM at system login and during password modiﬁ cations. This conﬁ guration ﬁ le 
+checks many items, such as time restrictions.
+
+659
+
+c23.indd  04/01/2015  Page 660
+
+Part V: Learning Linux Security Techniques
+
+Add the following near the top of the “account” section of the conﬁ guration ﬁ le.

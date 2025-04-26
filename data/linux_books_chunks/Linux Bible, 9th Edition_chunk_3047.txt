@@ -1,0 +1,6 @@
+If you are stuck, solutions to the tasks are shown in 
+Appendix B (although in Linux, you can often complete a task in multiple ways).
+
+1.  Use the Print Settings window (system-conﬁ g-printer package) to add a new printer 
+called myprinter to your system (the printer does not have to be connected to 
+set up a print queue for the new printer).

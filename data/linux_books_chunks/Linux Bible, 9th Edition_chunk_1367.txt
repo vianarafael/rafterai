@@ -1,0 +1,2 @@
+Messages are typically directed to log ﬁ les that are usually 
+in the /var/log directory, but can also be directed to log hosts for additional security.

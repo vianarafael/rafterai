@@ -1,0 +1,6 @@
+You can use a domain 
+ registrar (such as http://www.networksolutions.com) to do that.
+
+When clients cannot reach your website by name from their web browsers, if the client 
+is a Linux system, you can go through ping, host, traceroute, and other commands 
+described in the previous section to track down the connectivity problem.

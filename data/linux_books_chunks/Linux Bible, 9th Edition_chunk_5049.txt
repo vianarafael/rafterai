@@ -1,0 +1,17 @@
+Select Create to create the new network. The new network appears on 
+the Networks screen.
+
+3.  Create a router. For your virtual machines to be able to access the Internet, 
+you need to identify a router that is attached to your private network on one 
+interface and a network that can reach the public Internet on the other. Here’s 
+how to do that:
+
+ a. 
+
+ b. 
+
+ c. 
+
+ d. 
+
+ e.

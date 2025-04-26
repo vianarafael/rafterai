@@ -1,0 +1,6 @@
+Because there is only the eth0 interface here 
+and only a route to the 192.168.0.0 network is shown, all communication not addressed to 
+a host on the 192.168.0.0/24 network is sent through the default gateway (192.168.0.1). The 
+default gateway is more properly referred to as a router.
+
+To make sure you can reach your router, try to ping it.

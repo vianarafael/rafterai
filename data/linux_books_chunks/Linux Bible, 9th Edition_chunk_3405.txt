@@ -1,0 +1,6 @@
+The samba-common package contains server 
+conﬁ guration ﬁ les (smb.conf, lmhosts, and others) and commands for adding passwords 
+and testing conﬁ guration ﬁ les, along with other Samba features.
+
+Features from other packages are referenced in this chapter, so I describe how to install 
+those packages as well.

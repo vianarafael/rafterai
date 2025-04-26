@@ -1,0 +1,34 @@
+sudo Command-Line Options
+
+Option
+
+Description
+
+-l
+
+-L
+
+-b
+
+Prints a list of the allowed (and forbidden) commands for the current user on the current host
+
+Lists any default options set in the sudoers file
+
+Runs the given command in the background
+
+-u user
+
+Runs the specified command as a user other than root
+
+The -l option is particularly useful to allow you to determine what commands the current user on the 
+
+current host is authorized and forbidden to run.
+
+$ sudo -l
+Password:
+User ataylor may run the following commands on this host:
+    (root) ALL
+
+For readability, it is also a good idea to break up your rules into logically grouped files and place them in 
+
+the /etc/sudoers.d directory.

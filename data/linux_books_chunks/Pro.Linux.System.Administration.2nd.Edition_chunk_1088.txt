@@ -1,0 +1,7 @@
+It has been criticized as being 
+against the Unix philosophy (do one thing, do it well), but it offers many advantages over its predecessors in 
+the following ways (to a greater or lesser degree):
+
+•	
+
+It is event driven.

@@ -1,0 +1,11 @@
+Entering rescue console from pressing the Alt+ArrowUp keys
+
+Let’s take a quick look at a service file that configures how we manage the rsyslog daemon. Rsyslog is 
+the logging service on Linux and we look at it in depth in Chapter 18. In Listing 6-8 we have displayed the 
+contents of our rsyslog.service file.
+
+196
+
+Chapter 6 ■ Startup and ServiCeS
+
+Listing 6-8.

@@ -1,0 +1,10 @@
+BONDING_MASTER is fairly straightforward and just means that this is a bonding master interface. 
+BONDING_OPTS allow you to set per interface bonding options to your interface. Let’s look at what we have 
+set in the above.
+
+238
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Mode 1 sets the interface bonding type to active backup, and you can use “mode=active-backup” 
+instead of “mode=1” if you prefer.

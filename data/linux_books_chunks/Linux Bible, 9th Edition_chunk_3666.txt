@@ -1,0 +1,3 @@
+In the second example, the remote directory is 
+/apps on the computer named oak. It is set up as an NFS ﬁ lesystem (nfs) that can be 
+mounted on the /oak/apps directory locally.

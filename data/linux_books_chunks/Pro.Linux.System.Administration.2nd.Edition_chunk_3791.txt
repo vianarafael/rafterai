@@ -1,0 +1,11 @@
+In this setup, a file can be stored on any brick in the volume with 
+no redundancy.
+
+•	
+
+Replicated volume: In a replicated volume setup, your files are replicated across all 
+bricks in the volume. This requires a minimum of two bricks and provides a level of 
+redundancy. 
+
+•	 Distributed replicated volume: Files in this configuration are stored across replicated 
+sets of bricks.

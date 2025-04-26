@@ -1,0 +1,9 @@
+The multi-user.target unit is similar to the 
+legacy Extended Multi-user Mode.
+
+# ls -l /lib/systemd/system/runlevel*.target
+lrwxrwxrwx. 1 root root 15 Mar 27 15:39
+ /lib/systemd/system/runlevel0.target -> poweroff.target
+lrwxrwxrwx. 1 root root 13 Mar 27 15:39
+ /lib/systemd/system/runlevel1.target -> rescue.target
+lrwxrwxrwx.

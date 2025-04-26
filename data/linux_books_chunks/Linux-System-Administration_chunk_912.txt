@@ -1,0 +1,3 @@
+yum install
+
+To  install  an  application,  use  yum  install  $package.

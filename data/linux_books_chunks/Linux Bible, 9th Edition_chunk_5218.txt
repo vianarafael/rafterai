@@ -1,0 +1,14 @@
+It usually boils down to these three things:
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+[sudo] password for bill:
+*********
+[bill]$ ls -l /mnt/text2.txt
+-rw-r--r--. 1 root root 0 Jan  9 23:37 /mnt/text2.txt
+
+7.  Do the following to mount and unmount a USB drive and watch the system journal 
+
+during this process:
+
+a.

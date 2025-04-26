@@ -1,0 +1,11 @@
+Netbooks and live CD distributions some-
+times use the LXDE or Xfce desktops.
+
+60
+
+c02.indd  04/01/2015  Page 61
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+Now that you have a grasp of how to get and use a Linux desktop, it’s time to start digging 
+into the more professional administrative interfaces.

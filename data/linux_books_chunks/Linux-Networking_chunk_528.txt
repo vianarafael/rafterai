@@ -1,0 +1,10 @@
+In the meantime more useless tld's were create like .travel (for travel agents) and
+.tel (for internet communications) and .jobs (for jobs sites).
+
+In 2012 ICANN released a list of 2000 new tld's that would gradually become available.
+
+122
+
+introduction to DNS
+
+10.2.6.

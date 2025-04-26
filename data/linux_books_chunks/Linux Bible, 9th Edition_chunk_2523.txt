@@ -1,0 +1,9 @@
+Presumably, that host has a network interface that faces the 192.168.100 
+network and is set up to allow other hosts to route through it to that network.
+
+See the section “Setting custom routes” later in this chapter for information on how to set 
+routes directly in conﬁ guration ﬁ les.
+
+Confi guring a network proxy connection
+If your desktop system is running behind a corporate ﬁ rewall, you might not have direct 
+access to the Internet.

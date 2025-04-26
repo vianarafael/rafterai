@@ -1,0 +1,7 @@
+One way to do that, if it is not already open, is to open the virtual machine with 
+virt-viewer:
+
+# virt-viewer fedora21-01
+
+From the console window that appears, use the data we added to the image to log in. 
+Use fedora as the user and cloudpass as the password to log in.

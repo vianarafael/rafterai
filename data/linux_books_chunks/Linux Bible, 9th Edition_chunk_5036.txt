@@ -1,0 +1,6 @@
+Next, let’s step back and look at how you can use two of the most popular 
+Linux-based cloud platforms to run your own Linux-based virtual machines: OpenStack 
+and Amazon EC2.
+
+Using OpenStack to Deploy Cloud Images
+By most accounts, OpenStack is the hottest open source project today.

@@ -1,0 +1,14 @@
+For example, if you want to install the nmap package with apt-get, you use the following:
+
+$ sudo apt-get install nmap
+
+to find out information about a particular package using the apt-cache command, you use it as follows:
+
+$ sudo apt-cache showpkg nmap
+
+to use the apt-file command to find out which package provides a specific file that is not yet installed 
+on the system, you can use apt-file to search the package contents files provided by the repositories:
+
+$ apt-file search /usr/sbin/foo
+
+this requires an up-to-date contents listing on your system.

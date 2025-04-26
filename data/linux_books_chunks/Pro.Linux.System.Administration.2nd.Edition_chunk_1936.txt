@@ -1,0 +1,13 @@
+Process pending removals
+
+For more information on the commands available in Aptitude, press the question mark (?) key. 
+
+Figure 8-24 shows a listing of the available commands.
+
+330
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-24.  The aptitude command list
+
+You can exit the help listing by pressing q.

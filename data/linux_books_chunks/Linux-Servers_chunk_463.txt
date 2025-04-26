@@ -1,0 +1,15 @@
+network address translation ........................................................................................................  131
+
+112
+
+Chapter 7. introduction to routers
+
+What follows is a very brief introduction to using Linux as a router.
+
+113
+
+introduction to routers
+
+7.1. router or firewall
+
+A router is a device that connects two networks.

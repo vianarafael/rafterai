@@ -1,0 +1,7 @@
+syslogd
+
+17.2.1. about syslog
+
+The standard method of logging on Linux was through the syslogd daemon. Syslog was
+developed  by  Eric  Allman  for  sendmail,  but  quickly  became  a  standard  among  many
+Unix applications and was much later written as rfc 3164.

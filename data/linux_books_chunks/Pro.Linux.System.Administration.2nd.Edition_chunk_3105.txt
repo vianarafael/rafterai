@@ -1,0 +1,10 @@
+In doing so, it will restart the Apache server, and we can access the https:// 
+version (Figure 11-18).
+
+Figure 11-18.  We have our certificates.
+
+As we said earlier, we can’t test with www.example.com for real, so you can see the pretend URL 
+
+(Figure 11-19).
+
+Figure 11-19.

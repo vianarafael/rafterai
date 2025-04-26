@@ -1,0 +1,8 @@
+After copying these remote files, we can 
+then back them up using a full-featured backup application that will reside on backup.example.com.
+
+639
+
+Chapter 14 ■ BaCkup and reCovery
+
+We have chosen to use a separate host to house our backup server.

@@ -1,0 +1,5 @@
+Currently, we have two paths from our branch offices to our head 
+
+office. The first is across the 10.0.2.0/24 network you saw in Chapter 7. This is our DSL or ASDL (or similar 
+type) Internet connection between our offices and the Internet. Each individual office will generally have an 
+individual Internet connection.

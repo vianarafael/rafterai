@@ -1,0 +1,59 @@
+Information about 
+the package is stored in the local RPM database, where it can be queried.
+
+FIGURE 10.2
+
+Local and remote activities when installing an RPM with YUM.
+
+1
+
+2
+
+3
+
+# yum install ﬁrefox
+
+/etc/yum.conf
+
+/etc/sysconﬁg/rhn/up2date
+(RHEL only)
+
+/etc/yum.repos.d/
+myrepo.repo
+[myrepo]
+name=My own repo
+baseurl=http://myrepo.example.com/pub/myrepo
+
+5
+
+6
+
+Linux ﬁle system
+/bin /etc /usr ...
+
+RPM database
+(store metadata)
+
+rpm -q package
+
+4
+
+YUM repository
+
+RPM packages
+
+metadata
+
+10
+
+241
+
+c10.indd  04/01/2015  Page 242
+
+Part III: Becoming a Linux System Administrator
+
+To gain more experience with the YUM facility, and see where there are opportunities for 
+you to customize how YUM works on your system, follow the descriptions of each phase of 
+the YUM install process illustrated in Figure 10.2 and deﬁ ned here.
+
+1.

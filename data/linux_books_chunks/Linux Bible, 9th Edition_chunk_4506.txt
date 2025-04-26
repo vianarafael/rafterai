@@ -1,0 +1,14 @@
+Being unconstrained by SELinux, httpd can do 
+these things:
+
+ ■ Access any ﬁ le or directory, based on read/write/execute permissions for the asso-
+
+ciated owner and group.
+
+ ■ Perform potentially insecure activities, such as allowing a ﬁ le upload or changing 
+
+system limits.
+
+ ■ Listen on any port it likes for incoming requests.
+
+On a system constrained by SELinux, the httpd daemon is much more tightly controlled.

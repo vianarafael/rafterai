@@ -1,0 +1,16 @@
+If you delete all hard links to a file, the file they reference is also deleted.
+
+142
+
+ChapTeR 4 ■ LInux BasICs
+
+ hard links can hence only be created on the physical partition or hard drive; you can’t link to a file 
+
+ ■ Note 
+located on another drive or partition.
+
+Soft, or symbolic, links are more like Windows shortcuts: if they are deleted, the original file remains 
+
+and only the link is removed.
+
+You create links with the ln command.

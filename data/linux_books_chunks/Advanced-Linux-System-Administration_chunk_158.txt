@@ -1,0 +1,32 @@
+The 
+mount command will mount every thing in /etc/fstab that has not yet been mounted and 
+that is not encrypted or networked:
+
+mount -a -t nonfs,smbfs,ncpfs -o no_netdev,noloop,noencrypted
+
+When shutting down, all filesystem are unmounted by the halt script by scanning the 
+/proc/mounts file with the help of some awk commands! 
+
+33
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+Swap Partions and SWAP files
+
+At boot time, swap partitions are activated in /etc/rc.d/rc.sysinit 
+
+swapon -a
+
+Similarly when the system shuts down swap is turned off in the halt rc-script:
+
+SWAPS=`awk '! /^Filename/ { print $1 }' /proc/swaps`
+
+[ -n "$SWAPS" ] && runcmd "Turning off swap: " swapoff $SWAPS
+
+Example 1: Making a swap file of 10MB
+
+1.

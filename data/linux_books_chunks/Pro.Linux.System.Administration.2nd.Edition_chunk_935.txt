@@ -1,0 +1,5 @@
+The command locks the file against multiple simultaneous edits, 
+provides basic sanity checks, and checks for any parse errors. If the /etc/sudoers file is currently being 
+edited, you will receive a message to try again later.
+
+We’ll start by looking at how we might allow our user ataylor to run the userdel command.

@@ -1,0 +1,5 @@
+Stop the processes or change to a directory outside the device 
+you are trying to unmount for the umount request to succeed.
+
+An alternative for unmounting a busy device is the -l option. With umount -l (a lazy 
+unmount), the unmount happens as soon as the device is no longer busy.

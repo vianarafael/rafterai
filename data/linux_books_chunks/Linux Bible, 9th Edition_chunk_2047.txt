@@ -1,0 +1,6 @@
+Because VFAT was used in MS-DOS and early Windows operating systems, it offers a good 
+lowest common denominator for sharing fi les with many types of systems (including Linux). NTFS is 
+the fi le system type most commonly used with modern Microsoft Windows systems.
+
+Partitioning Hard Disks
+Linux provides several tools for managing your hard disk partitions.

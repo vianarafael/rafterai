@@ -1,0 +1,28 @@
+it would be good for you to read the following documents:
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+https://www.linux.com/learn/overview-linux-kernel-security-features
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/SELinux_Users_and_Administrators_Guide/index.html
+
+https://wiki.centos.org/HowTos/SELinux
+
+https://wiki.ubuntu.com/AppArmor
+
+https://help.ubuntu.com/lts/serverguide/apparmor.html
+
+it is a sensible idea to use either one of the two with any internet-facing system.
+
+Configuring ClamAV
+You generally won’t need to change any of ClamAV’s configuration options, but you should know a bit about 
+how it is configured.

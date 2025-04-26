@@ -1,0 +1,4 @@
+When a node 
+goes down, replica shards can be promoted to primary shards, and shards can be redistributed across the cluster.
+We are going to install it and configure it on our monitoring host, which is a single node. Depending on 
+how much data you intend to have, you will obviously need to make some decisions about your deployment.

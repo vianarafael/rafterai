@@ -1,0 +1,9 @@
+mysql client application
+
+You can now use mysql from the commandline by just typing mysql -u root -p and you
+'ll be asked for the password (of the mysql root account). In the screenshot below the user
+typed exit to exit the mysql console.
+
+root@ubu1204~# mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.

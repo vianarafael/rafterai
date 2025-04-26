@@ -1,0 +1,7 @@
+They then send the e-mail.
+
+The user’s e-mail client is configured with a server, and your client now contacts this server (on TCP port 
+25) and says “Hello! I have mail from this person to these people—please send it to them!” Actually, our client 
+doesn’t precisely say “hello,” it says something pretty close—a command called EHLO (or more rarely HELO).
+
+ there are a lot of names for e-mail servers.

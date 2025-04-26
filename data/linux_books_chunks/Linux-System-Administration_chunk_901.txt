@@ -1,0 +1,11 @@
+rpm
+
+20.6.1. about rpm
+
+The Red Hat package manager can be used on the command line with rpm or in a graphical
+way going to Applications--System Settings--Add/Remove Applications. Type rpm --help
+to see some of the options.
+
+Software distributed in the rpm format will be named foo-version.platform.rpm .
+
+20.6.2.

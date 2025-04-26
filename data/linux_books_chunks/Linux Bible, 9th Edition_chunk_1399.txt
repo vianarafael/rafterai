@@ -1,0 +1,5 @@
+For example, using 
+lspci -vvv, I received information about my Ethernet controller, including latency, 
+ capabilities of the controller, and the Linux driver (e1000) being used for the device.
+
+If you are speciﬁ cally interested in USB devices, try the lsusb command.

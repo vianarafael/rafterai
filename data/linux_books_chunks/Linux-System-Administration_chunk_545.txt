@@ -1,0 +1,25 @@
+1 root disk 253, 2 Apr 20 20:41 /dev/dm-2
+
+root@rhel65:~# mkfs.ext3 /dev/mapper/VG42-LVsmall
+mke2fs 1.41.12 (17-May-2010)
+Filesystem label=
+OS type: Linux
+Block size=1024 (log=0)
+Fragment size=1024 (log=0)
+Stride=0 blocks, Stripe width=0 blocks
+51200 inodes, 204800 blocks
+10240 blocks (5.00%) reserved for the super user
+First data block=1
+Maximum filesystem blocks=67371008
+25 block groups
+8192 blocks per group, 8192 fragments per group
+2048 inodes per group
+Superblock backups stored on blocks: 
+ 8193, 24577, 40961, 57345, 73729
+
+Writing inode tables: done
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 39 mounts or
+180 days, whichever comes first.

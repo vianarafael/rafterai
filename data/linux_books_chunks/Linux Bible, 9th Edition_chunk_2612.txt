@@ -1,0 +1,9 @@
+(Notice that net.ipv4.ip_forward reﬂ ects the actual location of the 
+
+371
+
+c14.indd  04/01/2015  Page 372
+
+Part IV: Becoming a Linux Server Administrator
+
+ip_forward ﬁ le, minus the /proc/sys and with dots replacing slashes.

@@ -1,0 +1,10 @@
+Here is our list.
+
+1  ACCEPT   all -- anywhere  anywhere  ctstate INVALID
+2  ACCEPT   all -- anywhere  anywhere  ctstate RELATED,ESTABLISHED
+3  DROP    all -- anywhere  anywhere
+4  ACCEPT   tcp -- anywhere  anywhere  tcp   dpt:ssh
+
+This ruleset, if it was in the INPUT chain would be causing problems. Let’s use our iptables commands 
+
+to fix it. First we need to move rule 4 to above rule 1.

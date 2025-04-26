@@ -1,0 +1,21 @@
+You can also use 
+the system to perform exercises from any of the chapters in this book.
+
+207
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 208
+
+Part III: Becoming a Linux System Administrator
+
+Installing Red Hat Enterprise Linux from 
+Installation Media
+In addition to offering a live DVD, most Linux distributions offer a single image or set of 
+images that can be used to install the distribution.

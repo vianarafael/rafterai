@@ -1,0 +1,61 @@
+Useful for detecting spamming.
+
+Includes information related to activities 
+of the MySQL database server (mysqld).
+
+Provides a directory containing logs of 
+messages from the Usenet News server if 
+you are running one.
+
+Shows messages from the Samba SMB 
+fi le service daemon.
+
+Records the date, time, and duration of 
+login attempts and sessions.
+
+Shows error messages recorded by the 
+sendmail daemon.
+
+Contains messages related to the squid 
+proxy/caching server.
+
+Continues
+
+609
+
+c22.indd  04/15/2015  Page 610
+
+Part V: Learning Linux Security Techniques
+
+TABLE 22.3     (continued)
+
+System Log Name
+
+Filename
+
+Description
+
+System Log
+
+messages
+
+UUCP Log
+
+uucp
+
+YUM Log
+
+yum.log
+
+X.Org X11 Log
+
+Xorg.0.log
+
+Provides a general-purpose log fi le 
+where many programs record messages.
+
+Shows status messages from the UNIX to 
+UNIX Copy Protocol daemon.
+
+Shows messages related to RPM software 
+packages.

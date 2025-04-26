@@ -1,0 +1,9 @@
+When you are ﬁ nished using the drive, you can unmount it with the umount 
+
+ command, after which you can safely remove the drive (see the description of the 
+umount command later if this command fails):
+
+# umount /dev/sdc1
+
+18.  You don’t usually set up a USB ﬂ ash drive to mount automatically every time the 
+system boots because it mounts automatically when you plug it in.

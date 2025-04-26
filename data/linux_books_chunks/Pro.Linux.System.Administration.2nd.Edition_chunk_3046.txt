@@ -1,0 +1,8 @@
+It is this signing process that allows a client to confirm the identity of a 
+server certificate.
+
+In Listing 11-6, we generate a key and the request using the openssl command that is part of the 
+OpenSSL application. The OpenSSL application is an open source SSL implementation that allows Linux 
+and other operating systems to encrypt and secure applications using SSL.
+
+Listing 11-6.

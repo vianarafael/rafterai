@@ -1,0 +1,7 @@
+compute nodes)
+In cloud computing, the operating systems serving cloud users are not running directly on 
+computer hardware. Instead, hypervisors are conﬁ gured to run many operating systems as 
+what are referred to as virtual machines.
+
+Depending on your cloud environment, you may hear a hypervisor referred to as a  compute 
+node or simply as a host.

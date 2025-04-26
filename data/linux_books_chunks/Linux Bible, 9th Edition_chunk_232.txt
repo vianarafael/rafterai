@@ -1,0 +1,5 @@
+In that way, everyone in the community can beneﬁ t 
+from your work as you have beneﬁ ted from the work of others.
+
+To clearly deﬁ ne how open source software should be handled, the GNU software project 
+created the GNU Public License, or GPL.

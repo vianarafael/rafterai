@@ -1,0 +1,1 @@
+The default error behavior can also be specified in the filesystem itself via the tune2fs -e command.

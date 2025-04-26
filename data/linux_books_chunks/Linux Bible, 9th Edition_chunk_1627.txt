@@ -1,0 +1,2 @@
+The SYSLINUX boot loaders are not typically 
+used for installed Linux systems. However, SYSLINUX is commonly used as the boot loader for Linux CDs and DVDs.

@@ -1,0 +1,10 @@
+This field usually contains data such as the name of the 
+
+user, office locations, and phone numbers. If you have more than one item of data in the GECOS field, then a 
+comma separates each data item.
+
+The user’s home directory comes next. As we described in Chapter 4, this is usually located in the /home 
+
+directory (e.g., /home/jsmith).
+
+The last item is the user’s default shell.

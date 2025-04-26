@@ -1,0 +1,4 @@
+once the book is in the return chute, the customer 
+can go back to their business, knowing that the book has been safely accepted by the library. the 
+librarian can process returned books when the library isn’t busy with people checking out new books. 
+and even if the books in the chute aren’t processed before the library closes, they won’t get lost.

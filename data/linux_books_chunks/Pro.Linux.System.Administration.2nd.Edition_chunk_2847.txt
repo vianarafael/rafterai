@@ -1,0 +1,5 @@
+The 
+server will check whether the file exists and process any directives it contains before attempting to serve files 
+to a connecting client.
+
+Because the .htaccess file can contain sensitive information, we should restrict access to this file.

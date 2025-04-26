@@ -1,0 +1,5 @@
+To use these more advanced services, you can enable the net-
+work service.
+
+Beyond the basics of network connectivity in Linux, features are available that enable you 
+to provide network infrastructure types of services.

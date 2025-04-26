@@ -1,0 +1,8 @@
+We talked about home directories earlier, and they roughly equate to a combination of the 
+Windows concept of the Documents and Settings profile and the My Documents folder. You would usually 
+find home directories under a directory called /home.
+
+ Linux is a multiuser operating system where multiple users can log on multiple times and 
+
+ ■ Note 
+work simultaneously.

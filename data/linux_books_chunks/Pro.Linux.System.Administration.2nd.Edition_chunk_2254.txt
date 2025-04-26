@@ -1,0 +1,6 @@
+Alternatively, to add a XFS partition, create the mount point directory 
+and add the correct UUID or device node name and filesystem type to /etc/fstab:
+
+UUID="ccd60fc3-bbaf-40e5-a93e-43743f9176d9" /mnt/data2 xfs defaults  0  0
+
+ ■ Caution  a mistake in the fstab file might result in a system that cannot boot.

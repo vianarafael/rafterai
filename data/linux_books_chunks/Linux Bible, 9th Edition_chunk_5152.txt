@@ -1,0 +1,8 @@
+To change the view of the windows on your current workspace to smaller views of 
+
+those windows you can step through, do the following:
+
+ ■ In GNOME 3, with multiple windows open on multiple workspaces, press and 
+
+hold the Alt+Tab keys. While continuing to hold the Alt key, press Tab until you 
+highlight the application you want. Release the Alt key to select it.

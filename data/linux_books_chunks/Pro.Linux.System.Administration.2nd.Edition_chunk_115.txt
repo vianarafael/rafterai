@@ -1,0 +1,4 @@
+Also this is only 
+encryption at rest, effective when the system is not powered on or the passphrase has not been entered. 
+Assuming you have only one disk, we could not take that disk and mount that disk on another system and 
+read its contents.

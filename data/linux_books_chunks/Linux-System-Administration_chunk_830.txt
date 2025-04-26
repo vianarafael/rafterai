@@ -1,0 +1,7 @@
+The file gives us much more information
+outside of the scope of this course.
+
+18.1.2. free
+
+The free tool can display the information provided by /proc/meminfo in a more readable
+format.

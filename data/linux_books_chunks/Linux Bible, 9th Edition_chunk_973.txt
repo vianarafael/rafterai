@@ -1,0 +1,5 @@
+After ﬁ les are found, you can act on those ﬁ les as well (using the 
+-exec or -okay options) by running any commands you want on them.
+
+When you run find, it searches your ﬁ lesystem live, which causes it to run slower than 
+locate, but gives you an up-to-the-moment view of the ﬁ les on your Linux system.

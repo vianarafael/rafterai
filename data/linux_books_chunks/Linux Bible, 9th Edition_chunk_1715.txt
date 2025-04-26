@@ -1,0 +1,2 @@
+Inside an RPM can be the commands,  conﬁ guration ﬁ les, and 
+documentation that make up the software feature.

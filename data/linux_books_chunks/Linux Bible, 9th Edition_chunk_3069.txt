@@ -1,0 +1,5 @@
+For example, the mod_ssl (for secure web servers) and mod_python (for interpret-
+ing python code) modules have related conﬁ guration ﬁ les in the /etc/httpd/conf.d 
+ directory named ssl.conf and python.conf, respectively.
+
+You can just install the httpd package to begin setting up your web server.

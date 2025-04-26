@@ -1,0 +1,13 @@
+To open the test ﬁ le from the anonymous FTP home directory, using a web browser 
+
+on the system running your FTP server, do the following:
+
+Start the Firefox web browser, type the following in the location box, and press 
+Enter:
+
+ftp://localhost/test
+
+The text “Welcome to your Very Secure FTP Daemon server” should appear in the 
+Firefox window.
+
+6.

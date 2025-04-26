@@ -1,0 +1,13 @@
+Settings in the ﬁ rst 
+section set the access rights for the server:
+
+# Access rights
+anonymous_enable=YES
+local_enable=NO
+write_enable=NO
+anon_upload_enable=NO
+anon_mkdir_write_enable=NO
+anon_other_write_enable=NO
+
+Turning on anonymous_enable (YES) and turning off local_enable (NO) ensures that 
+no one can log in to the FTP server using a regular Linux user account.

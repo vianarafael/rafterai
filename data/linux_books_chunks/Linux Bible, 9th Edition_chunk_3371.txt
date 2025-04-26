@@ -1,0 +1,4 @@
+For example, running !pwd shows that the 
+current directory on the system that initiated the lftp is /root. This is good to know 
+because if you get a ﬁ le from the server without specifying its destination, it goes to the 
+client’s current directory (in this case, /root).

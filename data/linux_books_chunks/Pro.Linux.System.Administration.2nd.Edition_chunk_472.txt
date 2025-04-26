@@ -1,0 +1,4 @@
+port numbers range from 0 to 
+65535 with some commonly known ports being 80 for hTTp, 25 for sMTp, and 21 for FTp. ports between 1 and 
+1023 are generally reserved for system services, while ports 1024 and higher (also called ephemeral ports) are 
+more arbitrarily assigned.

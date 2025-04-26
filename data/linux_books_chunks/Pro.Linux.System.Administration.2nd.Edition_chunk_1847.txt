@@ -1,0 +1,11 @@
+Specifying 0 turns off checking and 1 indicates 
+checking is on.
+
+gpgkey
+
+This is the URL where yum should find the repository’s GPG key. It can a be http://, 
+ftp://, or file:/// resource.
+
+In Listing 8-6, we have defined a new repository for a CentOS distribution to download source rpm files. 
+
+The source rpm files are used if we wish to rebuild our own rpm packages.

@@ -1,0 +1,25 @@
+To open the ﬁ rewall ports so those outside the local system can 
+
+use your NFS share, do the following on Fedora 21:
+
+# firewall-cmd --permanent --add-service=rpc-bind
+# firewall-cmd --permanent --add-service=nfs
+# systemctl restart firewalld
+
+739
+
+ 
+ 
+ 
+ 
+ 
+c26.indd  04/01/2015  Page 740
+
+Part VI: Extending Linux into the Cloud
+
+  For systems using iptables directly, see Chapter 20 for information on how to 
+
+open your ﬁ rewall for the NFS service.
+
+Step 4: Mount the NFS share on the hypervisors
+Log in to each hypervisor and follow these steps to make the share available locally.

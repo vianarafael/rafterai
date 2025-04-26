@@ -1,0 +1,17 @@
+yum search
+
+To  search  for  a  package  containing  a  certain  string  in  the  description  or  name  use  yum
+search $string.
+
+[root@rhel55 ~]# yum search gcc44
+Loaded plugins: rhnplugin, security
+========================== Matched: gcc44 ===========================
+gcc44.i386 : Preview of GCC version 4.4
+gcc44-c++.i386 : C++ support for GCC version 4.4
+gcc44-gfortran.i386 : Fortran support for GCC 4.4 previe
+
+239
+
+package management
+
+20.7.4.

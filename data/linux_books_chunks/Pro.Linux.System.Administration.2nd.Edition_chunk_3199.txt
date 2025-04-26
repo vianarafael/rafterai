@@ -1,0 +1,3 @@
+We’ll revisit that configuration dialog shortly (see the “Editing Postfix Configuration” sidebar).
+
+If the Postfix MTA is not installed, we want to install the Postfix and Dovecot packages.

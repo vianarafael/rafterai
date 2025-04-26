@@ -1,0 +1,6 @@
+On the server, the ﬁ le would be owned by the ftp user and ftp group. The 
+permissions set on the directory (775) would allow you to see the ﬁ les that were uploaded, 
+but not change or overwrite them.
+
+One reason for allowing anonymous FTP, and then enabling it for anonymous uploads, is to 
+allow people you don’t know to drop ﬁ les in your uploads folder.

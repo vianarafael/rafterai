@@ -1,0 +1,1 @@
+You do so with the mkfs command.

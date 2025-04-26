@@ -1,0 +1,7 @@
+Just by glancing through this logwatch message, you should get an 
+idea whether sustained attacks are under way or if some repeated failures are taking place.
+
+Checking System Resources with sar
+
+The System Activity Reporter (sar) is one of the oldest system monitoring facilities created 
+for early UNIX systems—predating Linux by a few decades.

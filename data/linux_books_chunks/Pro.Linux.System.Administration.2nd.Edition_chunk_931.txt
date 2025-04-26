@@ -1,0 +1,11 @@
+We’ll talk more about this in the 
+section “Configuring sudo.”
+
+So, what happens if you’re not allowed to execute the sudo command? In Listing 5-17 we try to use the 
+
+sudo command as the user ataylor, who doesn’t have the correct authority to use the sudo command.
+
+Listing 5-17.  Unauthorized sudo
+
+$ sudo useradd –m –c 'Illegal User' iuser
+ataylor is not in the sudoers file.

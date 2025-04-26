@@ -1,0 +1,7 @@
+The qcow2 image that is created grows to the size you actually consume (up to 
+the amount allocated), so overallocating space causes no problem until you actually 
+try to use that space. Click Forward.
+
+f.  Review the settings before the installation starts. Choose the name for the 
+
+ virtual machine, and review the other setting for your installation.

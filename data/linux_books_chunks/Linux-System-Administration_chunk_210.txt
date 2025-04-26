@@ -1,0 +1,9 @@
+The  current  bash  shell  will  not  replace  the  $$  and
+the $PPID. The bash -c command will be executed before the variables replaced with their
+value. This latter bash is the one replacing the $$ and $PPID with their value.
+
+[paul@RHEL4b ~]$ bash -c 'echo $$ $PPID'
+5059 4224
+
+With  backticks  the  shell  will  still  replace  both  variable  before  the  embedded  echo  is
+executed.

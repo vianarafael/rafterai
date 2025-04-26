@@ -1,0 +1,7 @@
+Newer lightweight desktop environments such as Xfce and LXDE now offer efﬁ cient 
+ alternatives that today bring Linux to thousands of netbook owners.
+
+Linus Torvalds continues to maintain and improve the Linux kernel.
+
+For a more detailed history of Linux, see the book Open Sources: Voices from the Open Source Revolution (O’Reilly, 
+1999).

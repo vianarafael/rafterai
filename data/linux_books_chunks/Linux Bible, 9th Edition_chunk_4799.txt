@@ -1,0 +1,2 @@
+Remember that if no rules are 
+listed for an incoming packet, then the chain’s policy is followed.

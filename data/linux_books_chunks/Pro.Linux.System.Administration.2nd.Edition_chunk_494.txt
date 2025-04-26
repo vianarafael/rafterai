@@ -1,0 +1,6 @@
+You will then be prompted to view each page that is returned, skip a page and go to the next page, or 
+quit the search.
+
+This search can be a little slow because your host usually has a lot of man pages, so there are two simpler 
+
+search commands available that may offer a shortcut to what you are looking for: whatis and apropos.

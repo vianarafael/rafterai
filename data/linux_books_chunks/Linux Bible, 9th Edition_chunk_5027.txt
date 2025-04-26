@@ -1,0 +1,5 @@
+Note that packages you want to install can be entered in basically 
+the same format as you did with Fedora, although speciﬁ c version information (if entered) 
+might look different in some cases.
+
+You can add many other settings to your user-data and meta-data ﬁ les.

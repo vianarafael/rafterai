@@ -1,0 +1,17 @@
+To use it,
+# you must invoke `xconsole' with the `-file' option:
+#
+#    $ xconsole -file /dev/xconsole [...]
+#
+# NOTE: adjust the list below, or you'll go crazy if you have a reasonably
+#      busy site..
+#
+daemon.*;mail.*;\
+    news.err;\
+    *.=debug;*.=info;\
+    *.=notice;*.=warn    |/dev/xconsole
+
+As you’ve discovered, both CentOS and Ubuntu store their log files in the /var/log directory but use 
+different file names to store different types of log entries; for example, you saw in Chapter 12 (and you can 
+see in the preceding 50-default.conf configuration file) that Ubuntu stores mail-related rsyslog entries 
+in the mail.log file.

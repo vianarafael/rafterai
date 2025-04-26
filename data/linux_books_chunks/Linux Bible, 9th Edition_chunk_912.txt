@@ -1,0 +1,5 @@
+The fact that most professional Linux servers don’t even have a graphical interface  available 
+makes the need for editing of plain-text conﬁ guration ﬁ les with a non-graphical text editor necessary.
+
+After you know how to edit text ﬁ les, you still might ﬁ nd it tough to ﬁ gure out where the ﬁ les 
+are located that you need to edit.

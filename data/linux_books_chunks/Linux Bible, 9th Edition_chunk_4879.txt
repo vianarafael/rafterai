@@ -1,0 +1,7 @@
+In Fedora 21, the basic hypervisor technology is called Kernel-based 
+Virtual Machine (KVM) while the actual virtual machines are managed by the 
+ libvirtd service.
+
+ ■ Storage—One computer is conﬁ gured to offer shared storage between the two 
+
+hypervisors.

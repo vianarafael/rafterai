@@ -1,0 +1,6 @@
+You can learn more about firestarter at http://www.fs-security.com.
+
+ ■ A firewall is either a hardware or a software firewall. Firewalls can be located 
+on network devices, such as routers. Their ﬁ lters are conﬁ gured in the router’s 
+ ﬁ rmware. In your home, your Internet service provider (ISP) may provide a DSL or 
+cable modem to gain access to the Internet.

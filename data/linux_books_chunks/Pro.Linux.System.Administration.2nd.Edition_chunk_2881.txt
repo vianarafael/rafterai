@@ -1,0 +1,4 @@
+Many web browsers make multiple connections to a web server, 
+so they can download style sheets and images simultaneously. Therefore, a single web connection from a 
+user can launch more than one thread. This means each user connection increases the amount of system 
+resources, such as RAM and CPU time.

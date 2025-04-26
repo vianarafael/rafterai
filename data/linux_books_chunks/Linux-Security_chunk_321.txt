@@ -1,0 +1,9 @@
+All this information (except the name of the file and the contents of the file) is
+stored in the inode of the file.
+
+The ls -l command will display some of the inode contents, as seen in this screenshot.
+
+root@rhel53 ~# ls -ld /home/project42/
+drwxr-xr-x 4 root pro42 4.0K Mar 27 14:29 /home/project42/
+
+9.1.2.

@@ -1,0 +1,2 @@
+By adding the 
+--iscrypted option, you can add a user with an encrypted password.

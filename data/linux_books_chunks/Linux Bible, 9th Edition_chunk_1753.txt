@@ -1,0 +1,3 @@
+Downloading RPM packages and metadata from a YUM repository
+After yum knows the locations of the repositories, metadata from the repodata 
+ directory of each repository is downloaded to the local system.

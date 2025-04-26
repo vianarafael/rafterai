@@ -1,0 +1,19 @@
+ISP password
+
+291
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+We are going to say ‘no’, like we did with the CentOS configuration, for the DNS settings as we will 
+
+manage them shortly. For the next screens we are going to select the defaults.
+
+Figure 7-21.  Say No ot USER PEER DNS
+
+Figure 7-22.  Clamp MSS at 1452. 
+
+292
+
+Figure 7-23.  Start the PPPOE connection at boot.
+
+Figure 7-24.

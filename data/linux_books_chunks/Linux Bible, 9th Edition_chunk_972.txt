@@ -1,0 +1,13 @@
+For example, 
+if you search for services using the locate command, you ﬁ nd ﬁ les and directories that 
+contain the “services” string of text.
+
+126
+
+c05.indd  04/01/2015  Page 127
+
+Chapter 5: Working with Text Files
+
+Searching for fi les with fi nd
+The find command is the best command for searching your ﬁ lesystem for ﬁ les, based on 
+a variety of attributes.

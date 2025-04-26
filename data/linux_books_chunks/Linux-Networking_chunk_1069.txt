@@ -1,0 +1,11 @@
+If the Document specifies
+
+282
+
+License
+
+that a proxy can decide which future versions of this License can be
+used, that proxy's public statement of acceptance of a version
+permanently authorizes you to choose that version for the Document.
+
+11.

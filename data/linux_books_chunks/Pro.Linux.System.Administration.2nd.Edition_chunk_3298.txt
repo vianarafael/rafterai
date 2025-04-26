@@ -1,0 +1,9 @@
+Again, if we are testing 
+the creation of our certificates, we should use the --test-cert option to use the staging API at Let’s Encrypt.
+
+$ sudo certbot certonly --test-cert --standalone --uir --hsts --agree-tos -n -m admin@
+example.com -d mail.example.com
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at
+   /etc/letsencrypt/live/mail.example.com/fullchain.pem.
+   Your cert will expire on 2016-11-22.

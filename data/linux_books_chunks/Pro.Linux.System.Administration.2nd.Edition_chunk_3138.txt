@@ -1,0 +1,8 @@
+This is why it’s important 
+
+to always leave http_access deny all in place as the final rule; it means Squid will deny access unless it 
+encounters a rule to allow access.
+
+We should insert our new rules in between, as shown in Listing 11-10.
+
+Listing 11-10.

@@ -1,0 +1,7 @@
+We can also use the | symbol to 
+indicate we want to search for one OR the other.
+
+We specify the base of the DIT tree we wish to start searching from, -b ou=people, 
+
+dc=example,dc=com, and the scope of our search is -s sub, or everything under it. And finally, we are 
+searching for Jane’s common name, or cn.

@@ -1,0 +1,5 @@
+You can also see that we can declare the common name 
+(cn:), an arguments file for slapd (olcArgsFile:), log level (olcLogLevel:), process ID (olcPidFile:), and 
+threads to use (olcToolThreads:).
+
+The olcToolThreads directive tells the slapd daemon to use only one CPU to run indexes on.

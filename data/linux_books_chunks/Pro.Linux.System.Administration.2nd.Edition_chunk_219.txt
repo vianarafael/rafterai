@@ -1,0 +1,13 @@
+We will explore net installs 
+further in Chapter 19, when we look at ways to provision multiple systems.
+
+We will make a few assumptions here:
+
+•	
+
+•	
+
+•	
+
+You are using an Ubuntu 16.04 LTS Server Edition ISO from the Ubuntu web site 
+(www.ubuntu.com/download/server), and you have burned it to a CD/DVD or a USB.

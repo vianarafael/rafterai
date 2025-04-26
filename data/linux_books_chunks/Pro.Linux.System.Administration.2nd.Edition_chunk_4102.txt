@@ -1,0 +1,2 @@
+-p prompts for a password, and -psomepassword is how you would 
+submit the password on the command line (there is no space between –p and the password).

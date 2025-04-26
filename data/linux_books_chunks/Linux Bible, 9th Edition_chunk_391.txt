@@ -1,0 +1,7 @@
+If you have a standard PC (32-bit or 64-bit) with a CD/DVD drive 
+and at least 1GB of memory (RAM) and at least a 400-MHz processor, you are 
+ready to start. (Just make sure the image you download matches your computer’s 
+ architecture—a 64-bit medium does not run on a 32-bit computer.)
+
+2.  Start the live CD/DVD. Insert the live CD/DVD or USB drive into your computer and 
+reboot your computer.

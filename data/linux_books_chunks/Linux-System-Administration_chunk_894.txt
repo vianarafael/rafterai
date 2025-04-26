@@ -1,0 +1,14 @@
+323681 files and directories currently installed.)
+Removing ubuntu-standard ...
+Removing rsync ...
+ * Stopping rsync daemon rsync                                                                                                                                                                 [ OK ] 
+Processing triggers for ureadahead ...
+Processing triggers for man-db ...
+root@ubu1204~#
+
+Note however that some configuration information is not removed.
+
+root@ubu1204~# dpkg -l rsync | tail -1 | tr -s ' ' 
+rc rsync 3.0.9-1ubuntu1 fast, versatile, remote (and local) file-copying tool
+
+20.3.7.

@@ -1,0 +1,10 @@
+Here is an 
+example of that ﬁ le:
+
+search example.com
+nameserver 192.168.0.254
+nameserver 192.168.0.253
+
+When you ask to connect to a hostname in Fedora or Red Hat Enterprise Linux, the /etc/
+hosts ﬁ le is searched; then the ﬁ rst name server entry in resolv.conf is queried; then 
+each subsequent name server is queried.

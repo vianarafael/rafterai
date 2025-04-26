@@ -1,0 +1,24 @@
+So, if a 
+command turns out lots of text and you want to ﬁ nd only lines that contain certain text, 
+you can use grep to ﬁ lter just want you want.
+
+Here are some examples of grep command lines, used to ﬁ nd text strings in one or more ﬁ les:
+
+132
+
+c05.indd  04/01/2015  Page 133
+
+Chapter 5: Working with Text Files
+
+$ grep desktop /etc/services
+desktop-dna 2763/tcp  # Desktop DNA
+desktop-dna 2763/udp  # Desktop DNA
+
+$ grep -i desktop /etc/services
+sco-dtmgr   617/tcp   # SCO Desktop Administration Server
+sco-dtmgr   617/udp   # SCO Desktop Administration Server
+airsync     2175/tcp  # Microsoft Desktop AirSync Protocol
+...
+
+In the ﬁ rst example, a grep for the word desktop in the /etc/services ﬁ le turned up 
+two lines.

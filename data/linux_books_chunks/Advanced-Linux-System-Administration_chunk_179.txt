@@ -1,0 +1,16 @@
+42
+
+ 
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Physical volumes once regrouped into a volume group lose their individual character. 
+
+Instead the entire volume group is divided into physical extents (PE) of fixed size (4MB by 
+default) from which logical volumes (LV) are created.

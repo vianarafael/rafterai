@@ -1,0 +1,6 @@
+That’s the same command 
+used to mount ﬁ lesystems from local hard disks, CDs, and USB drives, but with slightly 
+ different options.
+
+The mount command enables a client to automatically mount NFS directories added to the 
+/etc/fstab ﬁ le, just as it does with local disks.

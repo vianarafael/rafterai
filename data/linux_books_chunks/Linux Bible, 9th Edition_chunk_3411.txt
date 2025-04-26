@@ -1,0 +1,10 @@
+There are also man pages for 
+Samba commands, such as smbpasswd (to change passwords), smbclient (to connect to 
+a Samba server), and nmblookup (to look up NetBIOS information).
+
+After you have installed Samba packages and completed a quick survey of what they 
+ contain, try starting up the Samba service and see what you get in a default conﬁ guration.
+
+Starting and Stopping Samba
+With samba and samba-common installed, you can start the server and investigate how 
+it runs in the default conﬁ guration.

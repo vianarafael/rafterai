@@ -1,0 +1,4 @@
+There are dot ﬁ les that deﬁ ne the behavior of each user’s shell, 
+the desktop look-and-feel, and options used with your text editor. There are even 
+ﬁ les such as those in each user’s $HOME/.ssh directory that conﬁ gure permissions 
+for logging into remote systems.

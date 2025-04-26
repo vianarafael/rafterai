@@ -1,0 +1,7 @@
+The form of this 
+ documentation is UNIX man pages, which is still the primary format for documenting UNIX 
+and Linux operating system commands and programming tools today.
+
+What’s clear as you read through the early documentation and accounts of the UNIX  system 
+is that the development was a free-ﬂ owing process, lacked ego, and was dedicated to 
+ making UNIX excellent.

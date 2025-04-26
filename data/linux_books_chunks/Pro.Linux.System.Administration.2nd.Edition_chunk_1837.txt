@@ -1,0 +1,24 @@
+This will list openssh-client packages as well as 
+
+others.
+
+Another way to see the list of updates available for your host, is to issue the following command:
+
+$ sudo yum list updates
+
+If your host is up to date, this command should produce no results.
+Next, you can list all the packages that are available to be installed on your host by issuing the following 
+
+command:
+
+$ sudo yum list available
+
+The preceding command lists all the available packages that are not already installed for your host from 
+
+your repositories.
+
+To get a list of just security updates for your host, use the following command:
+
+$ sudo yum --security check-update
+
+This will provide a list of the current security packages that are waiting to be installed on your host.

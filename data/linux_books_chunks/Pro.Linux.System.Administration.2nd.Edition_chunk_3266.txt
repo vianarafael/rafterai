@@ -1,0 +1,11 @@
+You can see the listing of the Maildir-format directory here:
+
+$ ls -l Maildir
+total 168
+drwxr-xr-x 2 ataylor ataylor 28672 2009-01-01 13:53 cur
+drwxr-xr-x 2 ataylor ataylor  4096 2009-01-01 13:53 new
+drwxr-xr-x 2 ataylor ataylor  4096 2009-01-01 13:53 tmp
+
+E-mail messages are first delivered into the tmp directory and given a unique name (usually constructed 
+
+from the current time, the hostname, and other pseudorandom characteristics).

@@ -1,0 +1,14 @@
+modinfo
+
+As you can see in the screenshot of modinfo below, the isdn module depends in the slhc
+module.
+
+[root@RHEL52 drivers]# modinfo isdn/i4l/isdn.ko | head -6
+filename:       isdn/i4l/isdn.ko
+license:        GPL
+author:         Fritz Elfert
+description:    ISDN4Linux: link layer
+srcversion:     99650346E708173496F6739
+depends:        slhc
+
+28.4.9.

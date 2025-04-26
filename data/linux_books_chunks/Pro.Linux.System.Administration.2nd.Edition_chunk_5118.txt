@@ -1,0 +1,11 @@
+Multiple Priorities
+
+auth;auth-priv.debug;auth-priv.!=emerg        /var/log/auth
+
+This example shows you how to send all auth messages and all auth-priv messages with a priority of 
+
+debug or higher, excluding auth-priv messages of emerg priority to the file /var/log/auth.
+
+ ■ Tip 
+ Just remember with multiple selectors that filtering works from left to right; rsyslogd will process the 
+line starting from the selectors on the left and moving to the right of each succeeding selector.

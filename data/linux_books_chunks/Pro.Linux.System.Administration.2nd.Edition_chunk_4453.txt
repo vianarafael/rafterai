@@ -1,0 +1,7 @@
+When creating your schema file, you must remember to make 
+the names for your object classes and attributes unique.
+
+It is good practice to add a prefix to all your created attributes and classes to make sure they are unique. 
+
+Suppose we wanted to add an attribute ourselves that would allow us to know when a user has been 
+disabled.

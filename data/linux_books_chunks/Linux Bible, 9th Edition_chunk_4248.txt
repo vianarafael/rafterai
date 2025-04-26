@@ -1,0 +1,4 @@
+Given how fast the best security practices change, it would be wise to conduct security 
+reviews often, depending upon your organization’s security needs.
+
+Now you understand a lot more about basic Linux security.

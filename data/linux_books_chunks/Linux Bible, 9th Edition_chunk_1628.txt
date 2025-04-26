@@ -1,0 +1,13 @@
+SYSLINUX is particularly good for booting ISO9660 CD images (isolinux) and USB sticks (syslinux), and for working 
+on older hardware or for PXE booting (pxelinux) a system over the network.
+
+224
+
+c09.indd  04/01/2015  Page 225
+
+Chapter 9: Installing Linux
+
+Using GRUB Legacy (version 1)
+With multiple operating systems installed and several partitions set up, how does your 
+computer know which operating system to start? To select and manage which partition is 
+booted and how it is booted, you need a boot loader.

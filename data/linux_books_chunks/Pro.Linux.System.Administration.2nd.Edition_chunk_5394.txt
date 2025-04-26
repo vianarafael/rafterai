@@ -1,0 +1,13 @@
+On CentOS, we issue the following:
+
+gateway$ sudo yum install nagios-plugins nagios-plugins-load
+
+On Ubuntu, you can install the plug-ins like we did on the Nagios server, or you should be able to install 
+
+them from the APT repository.
+
+gateway$ sudo apt-get install nagios-plugins
+
+We can then define a command that uses the check_by_ssh plug-in to monitor a service on the remote 
+
+host.

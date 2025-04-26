@@ -1,0 +1,7 @@
+If you are not running an anonymous FTP site, you 
+might not want to use the ALL fl ag here.
+
+A good general rule is to make your hosts.deny ﬁ le as restrictive as possible and then 
+explicitly enable only those services that you really need.
+
+Along with TCP Wrappers, ﬁ rewalls control access to your Linux system’s ports as well.

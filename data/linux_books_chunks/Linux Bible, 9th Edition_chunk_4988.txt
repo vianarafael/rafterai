@@ -1,0 +1,8 @@
+Get an ofﬁ cial Fedora cloud image (images for other 
+ distributions are described later), and do the following:
+
+ ■ Go to getfedora.org. Open a web browser, and go to https://getfedora.
+
+org/en/cloud/download/.
+
+ ■ Click OpenStack.

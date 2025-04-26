@@ -1,0 +1,7 @@
+This check_command is slightly different; after 
+the command we want to use, you can see a string.
+
+!20%!10%!/
+
+This string consists of variables we’re passing to the command definition, with each variable value 
+prefixed with an exclamation mark (!). So here we are passing the values 20%, 10%, and / to the command.

@@ -1,0 +1,17 @@
+Here we list the e-mail 
+
+address we accept on the left side and the destination on the right:
+
+/etc/postfix/virtual:
+admin@example.com ataylor@example.com
+
+Once we have configured or changed these, we need to run the postmap command again.
+
+$ sudo postmap /etc/postfix/virt_domains
+$ sudo postmap /etc/postfix/virt_mailbox
+$ sudo postmap /etc/postfix/virtual
+$ sudo systemct reload postfix
+
+Now that we have this working for our domains, we could change the lookup tables to be SQL or LDAP 
+
+backed.

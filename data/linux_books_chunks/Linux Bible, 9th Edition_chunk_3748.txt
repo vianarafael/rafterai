@@ -1,0 +1,7 @@
+In contrast, systemd and Upstart were designed to address these 
+and other System V init shortcomings.
+
+Starting with systemd
+The systemd facility is quickly becoming the present and future of the initialization 
+ process for many Linux systems. It was adopted in Fedora 15, in RHEL 7, and is scheduled to 
+replace Upstart in Debian and Ubuntu 15.04.

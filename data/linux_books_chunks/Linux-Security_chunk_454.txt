@@ -1,0 +1,6 @@
+root root system_u:object_r:httpd_exec_t:s0 httpd
+-rwxr-xr-x. root root system_u:object_r:postfix_master_exec_t:s0 postcat
+-rwxr-xr-x. root root system_u:object_r:postfix_master_exec_t:s0 postfix
+-rwxr-x---. root root system_u:object_r:useradd_exec_t:s0 useradd
+-rwxr-x---. root root system_u:object_r:useradd_exec_t:s0 userdel
+-rwxr-x---.

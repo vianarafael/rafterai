@@ -1,0 +1,29 @@
+Resources consist of the following:
+
+•	
+
+•	
+
+•	
+
+Type
+
+Title
+
+Attributes
+
+937
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Listing 19-5 shows an example of a simple resource.
+
+Listing 19-5.  A Puppet Resource
+
+file { '/etc/passwd':
+       owner => 'root',
+       group => 'root',
+       mode => '0644',
+}
+
+The resource in Listing 19-5 is a file type resource.

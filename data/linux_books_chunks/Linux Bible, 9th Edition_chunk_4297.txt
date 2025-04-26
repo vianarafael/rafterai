@@ -1,0 +1,13 @@
+Notice the User ID (UID) of the public key is displayed just 
+as it was created, containing johndoe’s real name, comment, and e-mail address.
+
+23
+
+$ gpg2 --list-keys
+/home/johndoe/.gnupg/pubring.gpg
+--------------------------------
+pub   2048R/3B2E46D5 2015-12-08 [expires: 2016-12-15]
+uid                  John Doe (The User) <jdoe@example.com>
+sub   2048R/0F0E0672 2015-12-08 [expires: 2016-12-15]
+
+After the key pair and key ring are generated, ﬁ les can be encrypted and decrypted.

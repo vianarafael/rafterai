@@ -1,0 +1,1 @@
+Ubuntu is derived from Debian, but it has a different installation process.

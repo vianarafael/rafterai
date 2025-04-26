@@ -1,0 +1,5 @@
+The mounting is done when the system boots.
+
+Most of this chapter focuses on understanding how your computer’s disk is partitioned 
+and connected to form your Linux ﬁ lesystem, as well as how to partition disks, format 
+ ﬁ lesystems and swap space, and have those items used when the system boots.

@@ -1,0 +1,12 @@
+What 
+happens when we try one of the system directories like the /etc directory?
+
+$ du -sh /etc
+du: cannot read directory '/etc/ssl/private': Permission denied
+du: cannot read directory '/etc/lvm/archive': Permission denied
+du: cannot read directory '/etc/lvm/backup': Permission denied
+du: cannot read directory '/etc/polkit-1/localauthority': Permission denied
+7.0M    /etc
+
+Because it scans the subdirectories in /etc, this command may encounter directories that you don’t 
+have permission to access.

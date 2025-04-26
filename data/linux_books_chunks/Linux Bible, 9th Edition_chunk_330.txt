@@ -1,0 +1,7 @@
+LUKS and other encryption 
+topics are described in Chapter 23.
+
+ ■ Create and configure filesystems—Create and automatically mount different 
+kinds of ﬁ lesystems, including regular Linux ﬁ lesystems (ext2, ext3, or ext4), 
+LUKS-encrypted ﬁ lesystems, and network ﬁ lesystems (NFS and CIFS). Create collab-
+orative directories using the set group ID bit feature and Access Control Lists (ACL).

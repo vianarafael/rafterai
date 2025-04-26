@@ -1,0 +1,18 @@
+To remedy that, you 
+need to expand the permissions of the mask. One way to do that is with the chmod 
+command, as follows:
+
+[mjones]$ chmod 775 /tmp/mydir/newfile.txt
+[mjones]$ getfacl /tmp/mydir/newfile.txt
+# file: tmp/mydir/newfile.txt
+# owner: mjones
+# group: mjones
+user::rwx
+user:adm:rwx
+group::rwx
+mask::rwx
+other::r-x
+
+Chapter 12: Managing Disks and Filesystems
+
+1.

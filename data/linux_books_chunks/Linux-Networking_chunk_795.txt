@@ -1,0 +1,19 @@
+Open the Official Samba-3 howto pdf file that is installed on your computer. How many
+A4 pages is this file ? Then look at the same pdf on samba.org, it is updated regularly.
+
+6. Stop the Samba server.
+
+201
+
+Chapter 16. getting started with
+samba
+
+202
+
+getting started with samba
+
+16.1. /etc/samba/smb.conf
+
+16.1.1. smbd -b
+
+Samba configuration is done in the smb.conf file.

@@ -1,0 +1,13 @@
+The conﬁ guration ﬁ le is located at /etc/httpd/conf.d/ssl.conf.
+
+ ■ crypto-utils—Contains commands for generating keys and certiﬁ cates needed to 
+
+do secure communications with the Apache web server.
+
+ ■ mod_perl—Contains the Perl module (mod_perl), conﬁ guration ﬁ le and 
+ associated ﬁ les needed to allow the Apache web server to directly execute 
+any Perl code.
+
+ ■ php—Contains the PHP module and conﬁ guration ﬁ le needed to run PHP scripts 
+
+directly in Apache.

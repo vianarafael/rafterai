@@ -1,0 +1,5 @@
+That means we can safely move the existing files out of the way and change the 
+transaction log file size. On CentOS, we do this via sudo systemtctl stop mariadb.
+
+The log files are called ib_logfile0 and ib_logfile1, and they can be found in the /var/ lib/mysql 
+directory.

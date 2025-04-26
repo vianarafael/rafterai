@@ -1,0 +1,3 @@
+the “restricted” packages are supported by Canonical but not completely free license, 
+packages like nvidia drivers. there are other types too. the “universe” packages are not supported 
+by Canonical directly but are supported by the wider Linux community.

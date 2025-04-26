@@ -1,0 +1,4 @@
+You can also find documentation at www.linux-pam.org/Linux-PAM-html/Linux-PAM_SAG.html/.
+
+There is a last PAM function we need to mention: include. The include function allows you to include one 
+PAM file in another. This is how our common configuration is included in specific service configuration files.

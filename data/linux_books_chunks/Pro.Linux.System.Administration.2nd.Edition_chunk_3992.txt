@@ -1,0 +1,7 @@
+Then the script checks the error code of each to see whether it is zero, and if so, it prints the 
+success message.
+
+ a good resource for learning more about Bash programming is located at www.tldp.org/LDP/
+
+ ■ Note 
+abs/html/index.html.

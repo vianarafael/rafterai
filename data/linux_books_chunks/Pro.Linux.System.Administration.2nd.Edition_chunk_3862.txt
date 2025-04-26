@@ -1,0 +1,14 @@
+We are going to enable sharing of this 
+printer and allow color management, as shown in Figure 13-9.
+
+Figure 13-9.  Printer information
+
+We are then asked more information, this time about the model of the printer. We will choose from the 
+
+drop-down list (Figure 13-10).
+
+631
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Figure 13-10.

@@ -1,0 +1,5 @@
+Use this option if it is imperative that the 
+mount be successful before continuing (for example, if you were mounting /usr).
+
+Not all NFS mount options need to go into the /etc/fstab ﬁ le. On the client side, the 
+/etc/nfsmount.conf ﬁ le can be conﬁ gured for Mount, Server, and Global sections.

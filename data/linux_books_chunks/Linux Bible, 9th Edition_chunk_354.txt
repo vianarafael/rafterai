@@ -1,0 +1,6 @@
+Learn how to conﬁ gure MariaDB from the MariaDB.org site (https://mariadb.
+com/kb/en/mariadb/documentation/).
+
+Although there are other tasks in the RHCE exam, as just noted, keep in mind that most 
+of the tasks have you conﬁ gure servers and then secure those servers using any technique 
+you need.

@@ -1,0 +1,24 @@
+To learn more about it, look 
+at the man pages for the following audit daemon utilities and conﬁ guration ﬁ les:
+
+ ■ auditd—The audit daemon
+
+ ■ auditd.conf—The audit daemon conﬁ guration ﬁ le
+
+613
+
+c22.indd  04/15/2015  Page 614
+
+Part V: Learning Linux Security Techniques
+
+ ■ autditctl—Controls the auditing system
+
+ ■ audit.rules—Conﬁ guration rules loaded at boot
+
+ ■ ausearch—Searches the audit logs for speciﬁ ed items
+
+ ■ aureport—Report creator for the audit logs
+
+ ■ audispd—Sends audit information to other programs
+
+The audit daemon is one way to keep an eye on important ﬁ les.

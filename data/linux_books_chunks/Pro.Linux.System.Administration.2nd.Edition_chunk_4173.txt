@@ -1,0 +1,8 @@
+In this case, you 
+would set AutoPrune to No, just to be safe.
+
+Chapter 14 ■ BaCkup and reCovery
+
+ ■ Caution 
+ even if you have set your Pool to AutoPrune = No and Volume Retention = 10 years, your 
+backup data will last only as long as the data on the tape or the disks lasts.

@@ -1,0 +1,10 @@
+Figure 14.3 shows an example of those network settings.
+
+FIGURE 14.3
+
+Changing network settings with NetworkManager.
+
+Setting IP address aliases
+You can attach multiple IP addresses to a single network interface. In the same 
+NetworkManager screen, this is done by simply clicking the plus sign (+) at the bottom of 
+the Addresses box and adding the new IP address information.

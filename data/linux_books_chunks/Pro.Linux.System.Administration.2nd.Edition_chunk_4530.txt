@@ -1,0 +1,15 @@
+You can view the 
+current indexes on your database by running the following:
+
+$ sudo ldapsearch -H ldapi:/// -Y EXTERNAL -b "olcDatabase={1}mdb,cn=config" -LLL –Q 
+olcDbIndex
+olcDbIndex: objectClass eq
+olcDbIndex: cn,uid eq
+olcDbIndex: uidNumber,gidNumber eq
+olcDbIndex: member,memberUid eq
+
+748
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+As a rule, you should index what your clients are commonly going to search for.

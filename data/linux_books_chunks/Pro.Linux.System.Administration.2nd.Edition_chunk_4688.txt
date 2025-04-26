@@ -1,0 +1,8 @@
+Let’s look at ways we can search our LDAP directory.
+
+$ ldapsearch -xvW -H ldap://ldap.example.com -ZZ \
+-D cn=admin,dc=example,dc=com \
+-b ou=people,dc=example,dc=com -s sub \
+'(&(&(objectclass=person)(uid=jsmith))(exampleActive=TRUE))' cn
+
+The arguments we use for the search are similar to the ones we use for the ldapadd command.

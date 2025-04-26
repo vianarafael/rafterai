@@ -1,0 +1,6 @@
+Make sure they both
+get an ip-address in the correct subnet. These two machines will be 'left' and 'right' from
+the 'router'.
+
+The ip configuration on your computers should be similar to the following two screenshots.
+Both machines must be in a different subnet (here 192.168.60.0/24 and 192.168.70.0/24).

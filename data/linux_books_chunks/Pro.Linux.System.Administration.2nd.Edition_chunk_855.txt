@@ -1,0 +1,6 @@
+The file 
+is broken into a group name, a password, the GID, and a comma-separated list of the members of that group.
+
+groupname:password:GID:member,member
+
+The password in the group file allows a user to log in to that group using the newgrp command.

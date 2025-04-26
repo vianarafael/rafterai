@@ -1,0 +1,20 @@
+We do that by adding the following to 
+
+/etc/dovecot/dovecot.conf.
+
+protocols = lmtp
+
+Now we need to configure the following file, /etc/dovecot/conf.d/20-lmtp.conf:
+
+protocol lmtp {
+  postmaster_address = postmaster@example.com
+  mail_plugins = quota sieve
+}
+
+571
+
+Chapter 12 ■ Mail ServiCeS
+
+We need to add the LMTP process, or Unix socket, to the Dovecot master process so Postfix can pass 
+
+messages through it.

@@ -1,0 +1,4 @@
+Building on the procedure in the previous 
+section, here’s how to grow a logical volume:
+
+1.

@@ -1,0 +1,14 @@
+Use smbclient and a windows computer to access your share, use more than one user
+account (windows requires a logoff/logon for this).
+
+4. Verify that files created by these users belong to them.
+
+5. Try to change or delete a file from another user.
+
+235
+
+samba authentication
+
+20.10. solution: samba authentication
+
+1.

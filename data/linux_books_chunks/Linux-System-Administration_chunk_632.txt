@@ -1,0 +1,7 @@
+When installing Linux on sparc architecture, you
+can choose silo, Itanium systems can use elilo, IBM S/390 and zSeries use z/IPL, Alpha
+uses milo and PowerPC architectures use yaboot (yet another boot loader).
+
+Bootable cd's and dvd's often use syslinux.
+
+14.1.8.

@@ -1,0 +1,2 @@
+For example, you could install GNOME Desktop Environment (to get a whole desktop) or 
+Virtualization (to get packages needed to set up the computer as a virtual host).

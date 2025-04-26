@@ -1,0 +1,16 @@
+Let’s now see if we can copy the file 
+
+back down to our host and then delete that file from S3.
+
+$ aws s3 cp s3://our-backup/afile afile2
+download: s3://our-backup/afile to ./afile2
+$ aws s3 rm s3://our-backup/afile
+delete: s3://our-backup/afile
+
+658
+
+Chapter 14 ■ BaCkup and reCovery
+
+These are all the actions that our backup program will perform, and we can see that our credentials 
+
+allow us to perform these actions.

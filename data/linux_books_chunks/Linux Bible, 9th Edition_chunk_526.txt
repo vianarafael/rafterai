@@ -1,0 +1,5 @@
+Ubuntu, openSUSE, and Fedora used AIGLX (http://http://fedoraproject.org/
+wiki/RenderingProject/aiglx).
+
+The goal of the Accelerated Indirect GLX project (AIGLX) is to add 3D effects to everyday 
+desktop systems.

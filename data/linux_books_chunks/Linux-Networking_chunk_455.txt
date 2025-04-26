@@ -1,0 +1,17 @@
+a missing / before on line 4.
+
+root@debian7:~# cat /etc/apache2/sites-available/chessclub42
+<VirtualHost *:8000>
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/chessclub42
+<VirtualHost>
+
+Let us force another error by renaming the directory of one of our websites:
+
+root@debian7:~# mv /var/www/choochoo/ /var/www/chooshoo
+root@debian7:~# !ser
+service apache2 restart
+Restarting web server: apache2Warning: DocumentRoot [/var/www/choochoo] does n\
+ot exist
+Warning: DocumentRoot [/var/www/choochoo] does not exist
+ ...

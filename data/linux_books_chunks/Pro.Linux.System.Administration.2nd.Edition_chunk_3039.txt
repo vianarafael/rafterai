@@ -1,0 +1,5 @@
+To overcome this error, you need to install your CA’s root 
+certificate on the client. This is something you can do for clients you manage, for example, your internal 
+desktops, but for others this isn’t feasible.
+
+ in this model, you have to secure and manage your own Ca.

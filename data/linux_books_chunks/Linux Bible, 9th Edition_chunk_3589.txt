@@ -1,0 +1,6 @@
+The entry also identiﬁ es the other computers that can share the resource 
+(or opens it to all computers) and includes other options that reﬂ ect permissions associated 
+with the directory.
+
+Remember that when you share a directory, you are sharing all ﬁ les and subdirectories 
+below that directory as well (by default).

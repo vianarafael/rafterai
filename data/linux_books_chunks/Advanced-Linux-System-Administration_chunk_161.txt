@@ -1,0 +1,11 @@
+Make a new partition (e.g /dev/hda16) of type swap (82) and size 16MB. Reboot
+
+2. Make a swap filesystem on the devices
+
+mkswap /dev/hda16
+
+3. Add the following to /etc/fstab
+
+/dev/hda16 swap swap  pri=-1 0 0
+
+4.

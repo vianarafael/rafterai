@@ -1,0 +1,4 @@
+Packet like that are directed 
+to the IPV4-INCOMING chain.
+
+Lastly, we will now set a default policy on our INPUT chain.

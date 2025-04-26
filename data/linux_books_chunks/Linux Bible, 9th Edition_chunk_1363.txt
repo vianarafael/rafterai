@@ -1,0 +1,19 @@
+Here are some examples:
+
+# journalctl
+# journalctl --list-boots | head
+-12 eb3d5cbdda8f4f8da7bdbc71fb94e61e Sun 2014-08-17 15:33:30 EDT...
+-11 534713a5a65c41c1b5b3d056487a16db Wed 2014-08-20 06:45:15 EDT...
+
+188
+
+c08.indd  04/01/2015  Page 189
+
+Chapter 8: Learning System Administration
+
+-10 64147da7154b4499a312a88a696c19bd Fri 2014-08-29 23:14:38 EDT...
+# journalctl -b eb3d5cbdda8f4f8da7bdbc71fb94e61e
+# journalctl -k
+
+In these examples, the journalctl command with no options lets you page through all 
+messages in the systemd journal.

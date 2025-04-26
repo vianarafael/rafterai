@@ -1,0 +1,5 @@
+This is dependent on no other required modules processed prior to this module failing. If a sufficient 
+module fails, however, then the overall stack does not fail.
+
+The last control flag is optional. An optional module is not critical to the overall success or failure of 
+the authentication process or the module stack.

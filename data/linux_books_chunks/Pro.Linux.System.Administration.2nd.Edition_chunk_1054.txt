@@ -1,0 +1,5 @@
+What is happening 
+here is that the search command is looking for a device by a UUID (universal unique identifier). This is used 
+to again set the root device for GRUB2 so it can find the Linux kernel we are going to load.
+
+In Listing 6-4 we are at last loading our Linux kernel.

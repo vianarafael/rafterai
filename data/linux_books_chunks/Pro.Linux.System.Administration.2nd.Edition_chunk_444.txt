@@ -1,0 +1,5 @@
+On a 
+Linux host, most users have a special directory, called a home directory, which is created when the user 
+is created. Like a Microsoft Window’s user profile, the user’s preferences and configuration files and data 
+are stored in this directory. Any time you see the ~ symbol used, it indicates a shortcut that means home 
+directory.

@@ -1,0 +1,7 @@
+It achieved that goal by building a set of products 
+around Red Hat Enterprise Linux (RHEL) that would suit the needs of the most demanding 
+enterprise computing environments.
+
+While other Linux distributions focused on desktop systems or small business computing, 
+RHEL worked on those features needed to handle mission-critical applications for  business 
+and government.

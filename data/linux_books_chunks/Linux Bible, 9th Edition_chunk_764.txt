@@ -1,0 +1,6 @@
+Because just typing man passwd displays the section 1 page, I need to explicitly 
+request the section 5 man page if I want to see that instead (man 5 passwd).
+
+While you are displaying a man page, you can view different parts of the ﬁ le using Page 
+Down and Page Up keys (to move a page at a time). Use the Enter key or up and down 
+arrows to move a line at a time.

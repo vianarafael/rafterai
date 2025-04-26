@@ -1,0 +1,6 @@
+This ensures that the name we set on the host block—au-
+mel-ubuntu-2 in our case—will be sent to the DHCP client as the hostname it should use. If we did not set 
+this, we would have to add a specific hostname option to each static host we define this way. Because we 
+define it within the group, it does not apply to any configurations that fall outside this group.
+
+subnet ...

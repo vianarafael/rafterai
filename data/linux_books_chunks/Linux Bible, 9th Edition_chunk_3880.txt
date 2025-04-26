@@ -1,0 +1,5 @@
+To avoid depen-
+dency failures, here are a few good practices you can follow:
+
+ ■ Use recent, well-tested repositories. There are thousands of software packages in 
+Fedora.

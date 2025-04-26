@@ -1,0 +1,8 @@
+In Listing 4-9, you can see a subset of that listing 
+showing one file and one directory, which we’re going to examine in more detail.
+
+121
+
+ChapTeR 4 ■ LInux BasICs
+
+Listing 4-9.

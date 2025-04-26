@@ -1,0 +1,15 @@
+Done
+Building dependency tree       
+Reading state information... Done
+Reading extended state information      
+Initializing package states... Done
+Reading task descriptions... Done  
+The following packages will be REINSTALLED:
+  e2fslibs 
+...
+
+347
+
+library management
+
+29.6.

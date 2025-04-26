@@ -1,0 +1,5 @@
+These names and numbers represent the permissions that chris has 
+to access computer resources.
+
+Linux distributions that have Security Enhanced Linux (SELinux) enabled, such as Fedora and RHEL, show additional 
+information at the end of the id output.

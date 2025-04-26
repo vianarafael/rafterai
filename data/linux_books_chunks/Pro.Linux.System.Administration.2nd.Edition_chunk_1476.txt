@@ -1,0 +1,17 @@
+This 
+packet has a length of 0, that means that it is a zero-byte packet (i.e., it contains no payload).
+
+The other flags, win 29200, options [mss 1460,sackOK,TS val 47080429 ecr 0,nop,wscale 7], 
+provide other information in the communication like sliding window size, maximum segment size, and so on.
+
+ For more information, see http://www.tcpipguide.com/free/t_
+
+ ■ Note 
+TCPMaximumSegmentSizeMSSandRelationshiptoIPDatagra.htm.
+
+The next packet is the reply from 192.168.0.1.
+
+IP 192.168.0.1.smtp > 192.168.0.254.33348: Flags [S.], seq 2011016705, 
+ack 3194824922, win 65535, options [mss 1460], length 0
+
+This packet has the Flag [S.]set and a sequence number, 2011016705.

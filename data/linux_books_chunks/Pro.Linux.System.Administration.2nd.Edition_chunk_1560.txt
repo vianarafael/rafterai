@@ -1,0 +1,3 @@
+Additionally, if you look at how communication is performed on a TCP/IP-based network, 
+you will see that three protocols are used most frequently: Internet Control Message Protocol (ICMP), 
+Transmission Control Protocol (TCP), and User Datagram Protocol (UDP).

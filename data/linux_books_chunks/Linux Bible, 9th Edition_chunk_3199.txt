@@ -1,0 +1,8 @@
+After that, you can generate your own self-
+signed certiﬁ cate to test the site or to use internally.
+
+1.  If the openssl package is not already installed, install it as follows:
+
+# yum install openssl
+
+2.

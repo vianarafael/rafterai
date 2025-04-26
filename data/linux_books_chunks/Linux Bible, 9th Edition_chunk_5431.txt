@@ -1,0 +1,5 @@
+root root unconfined_u:object_r:etc_t:s0   /etc/test.txt
+# rm /etc/test.txt
+rm: remove regular empty file '/etc/test.txt'? y
+
+8.

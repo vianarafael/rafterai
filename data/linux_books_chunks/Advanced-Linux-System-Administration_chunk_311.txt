@@ -1,0 +1,26 @@
+This objective includes 
+building (or rebuilding) both RPM and DEB packaged software.
+
+Key files, terms, and utilities include:
+/debian/rules 
+SPEC file format 
+rpm
+
+• 2.211.3 Backup operations
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 2 
+
+Description: The candidate should be able to create an off site backup storage plan.
+
+Topic 213: System Customization and Automation
+
+• 2.213.1 Automating tasks using scripts
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: The candidate should be able to write simple Perl scripts that make use 
+of modules where appropriate, use the Perl taint mode to secure data, and install Perl 
+modules from CPAN.

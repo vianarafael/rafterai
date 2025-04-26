@@ -1,0 +1,6 @@
+Then you 
+can search Linux forums or documentation to try to solve the problem.
+
+After your system is up and running, some other commands let you look at detailed infor-
+mation about your computer’s hardware. The lspci command lists PCI buses on your com-
+puter and devices connected to them.

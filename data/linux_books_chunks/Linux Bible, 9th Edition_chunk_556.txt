@@ -1,0 +1,2 @@
+Ubuntu uses the dash shell, by default, which 
+is designed to perform faster than the bash shell.

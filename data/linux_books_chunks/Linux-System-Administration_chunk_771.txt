@@ -1,0 +1,16 @@
+When
+/etc/at.allow does not exist, then everyone can use at unless their username is listed in /
+etc/at.deny.
+
+If none of these files exist, then everyone can use at.
+
+196
+
+scheduling
+
+16.2. cron
+
+16.2.1. crontab file
+
+The crontab(1) command can be used to maintain the crontab(5) file. Each user can have
+their own crontab file to schedule jobs at a specific time.

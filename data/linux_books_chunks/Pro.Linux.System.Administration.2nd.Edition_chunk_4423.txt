@@ -1,0 +1,4 @@
+We introduced 
+point-to-point tunnels, such as between a head office and remote branches. We also explained how you can 
+use VPN tunnels to allow your mobile users to securely and safely connect to resources at your head office or 
+other locations.

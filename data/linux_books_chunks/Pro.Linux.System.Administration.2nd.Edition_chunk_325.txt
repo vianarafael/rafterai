@@ -1,0 +1,4 @@
+So 
+when you are making changes to files, the operating system will add the appropriate line end to the end 
+of each line in the file. When you open this file on another operating system you get strange formatting in 
+your editor. What we are doing here is taking control of what Git does when you commit this change.

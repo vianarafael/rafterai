@@ -1,0 +1,3 @@
+Newly created directories (default permissions of 0777) would now have permissions of 0755 with 
+a umask of 0022. Another commonly used umask is 0002, which results in default permissions of 0664 for 
+files and 0775 for directories.

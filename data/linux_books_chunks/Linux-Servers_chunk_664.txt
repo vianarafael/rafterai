@@ -1,0 +1,10 @@
+samba first user account
+
+168
+
+samba first user account
+
+13.1. creating a samba user
+
+We will create a user for our samba file server and make this user the owner of the directory
+and all of its files.

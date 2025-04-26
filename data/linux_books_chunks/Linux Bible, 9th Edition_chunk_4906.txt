@@ -1,0 +1,6 @@
+I 
+chose to set up a separate Fedora system on the same local network as the hypervisors and 
+use NFS to attach the shared storage to both hypervisors.
+
+NFS is not the most efﬁ cient method of sharing storage among hypervisors, but it is one of 
+the easiest and most common to set up.

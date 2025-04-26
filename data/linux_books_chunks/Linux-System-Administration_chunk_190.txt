@@ -1,0 +1,8 @@
+Bounce another character between two other pipes, but this time start the commands nice.
+Verify that all cat processes are battling for the cpu. (Feel free to fire up two more cats with
+the remaining pipes).
+
+echo -n y | nice cat - p3 > p4 &
+nice cat <p4 >p3 &
+
+5. Use ps to verify that the two new cat processes have a nice value.

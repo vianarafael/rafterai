@@ -1,0 +1,9 @@
+Create the projects directory, create nine empty ﬁ les (house1 to house9), and list 
+
+just those ﬁ les.
+
+$ mkdir $HOME/projects/
+$ touch $HOME/projects/house{1..9}
+$ ls $HOME/projects/house{1..9}
+
+2.

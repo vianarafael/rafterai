@@ -1,0 +1,21 @@
+You have an FTP server on your private network, and you want to allow users to 
+
+log into that server with their regular user accounts (while SELinux is in enforcing 
+mode). Determine what Boolean allows users to access their home directories via 
+FTP, and turn that Boolean on.
+
+696
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c24.indd  04/15/2015  Page 697
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+9.

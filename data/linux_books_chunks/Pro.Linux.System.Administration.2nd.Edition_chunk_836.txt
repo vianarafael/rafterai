@@ -1,0 +1,9 @@
+It is useful, however, to know what information they contain.
+
+ If you use other forms of authentication such as nIs (network Information service), Ldap (Lightweight 
+
+ ■ Tip 
+directory access protocol), or active directory, which we’ll look at in Chapter 16, then your host will usually 
+query one of these authentication stores to confirm your user exists and is allowed to log in.
+
+The first file, /etc/passwd, contains a list of all users and their details.

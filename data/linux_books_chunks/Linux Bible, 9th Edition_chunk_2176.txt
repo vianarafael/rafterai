@@ -1,0 +1,2 @@
+Most Windows systems today use the 
+NTFS  fi lesystem. Support for this system, however, is not delivered with every Linux system.

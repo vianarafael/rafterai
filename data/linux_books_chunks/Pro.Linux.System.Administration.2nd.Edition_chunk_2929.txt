@@ -1,0 +1,8 @@
+The reason that MariaDB came into being is that 
+the former developers of MySQL wanted to keep it free under the GNU General Public License (GNU GPL) 
+license after MySQL was bought by Oracle Corporation.
+
+488
+
+MariaDB still merges code, or ports code, from MySQL into its code base, and while they are not the 
+same, the releases of MariaDB can map to releases of MySQL.

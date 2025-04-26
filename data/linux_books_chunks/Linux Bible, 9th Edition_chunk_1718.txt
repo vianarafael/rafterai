@@ -1,0 +1,4 @@
+The release number 
+is 24.7 (assigned by the upstream producer of Firefox, the Mozilla Project). The version 
+number (assigned by the packager, Red Hat, each time the package is rebuilt at the same 
+release number) is 1.

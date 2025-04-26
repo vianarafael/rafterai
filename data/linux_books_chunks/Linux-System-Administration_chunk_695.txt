@@ -1,0 +1,4 @@
+chkconfig configuration
+
+Every script in /etc/init.d/ can have (comment) lines to tell chkconfig what to do with the
+service.

@@ -1,0 +1,4 @@
+Thus, it was critical for users to know how to use tools for 
+searching for and within plain-text ﬁ les and to be able to change and conﬁ gure those ﬁ les.
+
+Today, most conﬁ gurations of Linux systems can still be done by editing plain-text ﬁ les.

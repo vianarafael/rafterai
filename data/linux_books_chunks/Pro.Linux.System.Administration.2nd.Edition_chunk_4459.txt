@@ -1,0 +1,35 @@
+The following are some of the features it supports:
+
+•	 MirrorMode and MultiMaster replication
+
+•	
+
+•	
+
+•	
+
+Proxy sync replication
+
+Expanded documentation
+
+LDAP version 3 extensions
+
+•	
+
+LDAP chaining operation support
+
+•	 No use of copy control support
+
+•	
+
+LDAP dynamic directory services (RFC 2589)
+
+•	
+
+Added overlays for greater functionality
+
+If you were seeking support for MultiMaster replication capabilities (i.e., the ability to have more than 
+
+one LDAP master directory service), MultiMaster enhances redundancy of your LDAP installation.
+
+You can also make use of overlays.

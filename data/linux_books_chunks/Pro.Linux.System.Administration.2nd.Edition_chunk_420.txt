@@ -1,0 +1,9 @@
+As a result, we’re going to examine these similarities to help you leverage some of 
+your existing knowledge about Windows as a means of understanding related concepts in Linux.
+
+102
+
+ChapTeR 4 ■ LInux BasICs
+
+In this book, we’re going to look at how to interface with your Linux host. There are two principal 
+interfaces: the GUI desktop and the command line.

@@ -1,0 +1,12 @@
+The site.pp File
+
+sudo vi /etc/puppetlabs/code/environments/production/manifests/site.pp
+node /^web\d+\.example\.com$/ {
+  include profile::web_server
+}
+
+The node declaration in Listing 19-6 is how the Puppet master knows what to do with nodes when they 
+
+“check in.” Here we have used a regular expression, but you can also use plan strings like the following:
+
+node 'web1.example.com' { ...

@@ -1,0 +1,11 @@
+However, ext and xfs  ﬁ lesystems 
+are by far more common ﬁ lesystem types used with Linux today.
+
+302
+
+c12.indd  04/01/2015  Page 303
+
+Chapter 12: Managing Disks and Filesystems
+
+ ■ swap—Used for swap partitions. Swap areas are used to hold data temporarily when 
+RAM is used up.

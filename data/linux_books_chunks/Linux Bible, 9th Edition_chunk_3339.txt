@@ -1,0 +1,9 @@
+The ﬁ rst allows anonymous users to 
+upload ﬁ les; the second allows them to create directories:
+
+anon_upload_enable=YES
+anon_mkdir_write_enable=YES
+
+The next step is to create a directory where anonymous users can write. Any directory 
+under the /var/ftp directory that has write permissions for the user ftp, the ftp group, 
+or other can be written to by an anonymous user.

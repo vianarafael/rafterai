@@ -1,0 +1,13 @@
+access control lists
+
+Standard  Unix  permissions  might  not  be  enough  for  some  organisations.  This  chapter
+introduces access control lists or acl's to further protect files and directories.
+
+63
+
+access control lists
+
+8.1. acl in /etc/fstab
+
+File  systems  that  support  access  control  lists,  or  acls,  have  to  be  mounted  with  the  acl
+option listed in /etc/fstab.

@@ -1,0 +1,6 @@
+For example, if we were to 
+monitor that a host is active using an ICMP ping (which we discussed in Chapter 7), we could configure it to 
+alert if it can’t contact the host or if responses take longer than a specified time to return.
+
+To do this monitoring, you tell Nagios about your hosts and services by defining them as objects in the 
+Nagios configuration.

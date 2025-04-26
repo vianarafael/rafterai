@@ -1,0 +1,8 @@
+The following is a brief review of 
+some of the Linux cryptography tools available.
+
+Ensuring file integrity
+Earlier in this chapter, an ISO’s ﬁ le integrity was checked using the message digest  utility 
+md5sum. The other most popular message digest tool is one that uses the SHA-1 hash, 
+ sha1sum. It works identically at the command line to the md5sum utility, as shown in the 
+code that follows.

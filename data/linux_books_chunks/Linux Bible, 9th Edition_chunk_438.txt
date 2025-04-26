@@ -1,0 +1,4 @@
+Or you can click the 
+extension name from the list to see the extension’s page, and click the button on that page 
+from OFF to ON. Click Install when you are asked if you want to download and install the 
+extension.

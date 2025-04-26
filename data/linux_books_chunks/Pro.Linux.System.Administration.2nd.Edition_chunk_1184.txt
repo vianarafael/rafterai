@@ -1,0 +1,7 @@
+So how does systemd know how 
+to start our postfix service on boot?
+
+Disabling Services
+
+Let’s explore this by looking at what happens when we disable our postfix service. If we don’t want the 
+service to start when our system reboots, we need to disable it.

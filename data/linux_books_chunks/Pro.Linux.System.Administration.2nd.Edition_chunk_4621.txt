@@ -1,0 +1,6 @@
+Other processing controls available are break and 
+continue.
+
+The break control option will, on a match, stop further processing in that access control group and 
+jump to the next. The continue option, after a match, will continue processing further down the access 
+control group, allowing for incremental privileges to be granted.

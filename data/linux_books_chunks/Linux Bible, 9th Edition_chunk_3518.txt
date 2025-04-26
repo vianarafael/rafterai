@@ -1,0 +1,10 @@
+(The SELinux ﬁ le context must also be set, if SELinux is in Enforcing mode.) 
+
+519
+
+c19.indd  04/01/2015  Page 520
+
+Part IV: Becoming a Linux Server Administrator
+
+The Samba username chris must be presented along with the associated password to 
+access the share.

@@ -1,0 +1,11 @@
+We’ll first cover package management on CentOS and then on Ubuntu.
+
+298
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+WHAT’S A PACKAGE?
+
+Packages are designed to make managing applications easier. they are generally constructed from the 
+source code of an application and have logic that tells your distribution where to put the application’s 
+binaries, files, and configuration.

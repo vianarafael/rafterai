@@ -1,0 +1,16 @@
+Linux users
+
+The installation of mysql creates a user account in /etc/passwd and a group account in /
+etc/group.
+
+kevin@ubu1204:~$ tail -1 /etc/passwd
+mysql:x:120:131:MySQL Server,,,:/nonexistent:/bin/false
+kevin@ubu1204:~$ tail -1 /etc/group
+mysql:x:131:
+
+The mysql daemon mysqld will run with the credentials of this user and group.
+
+root@ubu1204~# ps -eo uid,user,gid,group,comm | grep mysqld
+  120 mysql      131 mysql    mysqld
+
+3.2.2.

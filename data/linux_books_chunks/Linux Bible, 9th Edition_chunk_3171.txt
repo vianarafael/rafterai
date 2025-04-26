@@ -1,0 +1,13 @@
+If SELinux is in Enforcing mode (which is it by default in Fedora and RHEL), 
+set the SELinux ﬁ le context properly on the content so SELinux allows the 
+httpd daemon to access the content:
+
+# chcon -R --reference=/var/www/html/ /home/*/public_html
+
+6.  Set the SELinux Boolean to allow users to share HTML content from their home 
+
+directories:
+
+# setsebool –P httpd_enable_homedirs true
+
+7.

@@ -1,0 +1,6 @@
+Its success or failure will not determine the success or failure 
+of the overall authentication process.
+
+The next directive, pam_unix.so, indicates what PAM module will be used and its location. If you specify 
+
+a PAM module without a path, then the module is assumed to be located in the /lib/security directory.

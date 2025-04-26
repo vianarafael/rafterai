@@ -1,0 +1,2 @@
+Clients can either use broadcasts to query host names or be configured to use a WINS 
+server.

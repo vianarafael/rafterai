@@ -1,0 +1,7 @@
+So, to have more 
+than four total partitions, at least one must be an extended partition. Notice that 
+/dev/sdc3 is an extended partition that consumes all remaining disk space not 
+used by the ﬁ rst two partitions. Any partitions beyond the four primary partitions 
+are logical partitions that use space from the extended partition.
+
+ ■ The id ﬁ eld indicates the type of partition.

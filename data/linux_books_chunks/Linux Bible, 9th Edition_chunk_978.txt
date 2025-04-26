@@ -1,0 +1,6 @@
+This option helps you in later examples when you want to 
+verify that you have found ﬁ les that contain the ownership, size, modiﬁ cation times, or 
+other attributes you are trying to ﬁ nd.
+
+If, as a regular user, you are searching an area of the fi lesystem where you don’t have full permission to access all 
+fi les it contains (such as the /etc directory), you might receive lots of error messages when you search with find.

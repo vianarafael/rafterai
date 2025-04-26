@@ -1,0 +1,8 @@
+Select Applications, select Graphics from the right column, and 
+then select Image Viewer.
+
+ ■ In GNOME 2, select Applications ➪ Graphics ➪ Image Viewer to open an image 
+
+viewer window on the desktop.
+
+8.

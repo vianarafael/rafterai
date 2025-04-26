@@ -1,0 +1,6 @@
+The value 120 indicates the time in seconds that OpenVPN will wait 
+for a response. If no response is received within 120 seconds, then OpenVPN will assume the connection is 
+down and notify us.
+
+Then we’ve added some logging functions. The first is log-append, which tells OpenVPN to log to the /
+var/log/openvpn.log file.

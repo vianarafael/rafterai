@@ -1,0 +1,4 @@
+If you make use of this, you can change address assignments to any host by simply editing dhcpd.conf, 
+restarting the DHCP service, and waiting for a host to renew its lease.
+
+Recall that you can obtain the MAC address for a host by running the ip link show command.

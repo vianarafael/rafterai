@@ -1,0 +1,7 @@
+Running the !ls command lets you see that the survey-20141023.txt ﬁ le was 
+downloaded from the server to the initiating system.
+
+Using the gFTP client
+Many other FTP clients are available with Linux as well. Another FTP client you could try 
+is gFTP. The gFTP client provides an interface that lets you see both the local and remote 
+sides of your FTP session.

@@ -1,0 +1,10 @@
+More advanced topics in this chapter 
+include ﬁ lesystem security, such as ﬁ le ownership, permissions, and access control 
+lists.
+
+ ■ Chapter 5, “Working with Text Files,” includes everything from basic text editors to 
+
+tools for ﬁ nding ﬁ les and searching for text within ﬁ les.
+
+ ■ Chapter 6, “Managing Running Processes,” describes how to see what processes are 
+running on your system and change those processes.

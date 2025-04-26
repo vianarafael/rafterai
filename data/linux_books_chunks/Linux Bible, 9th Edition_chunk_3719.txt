@@ -1,0 +1,4 @@
+Most likely, one of 
+the  directories in the NFS ﬁ lesystem is the current directory for your shell (or the shell 
+of someone else on your system). The other possibility is that a command is holding a ﬁ le 
+open in the NFS ﬁ lesystem (such as a text editor).

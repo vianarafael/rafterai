@@ -1,0 +1,16 @@
+To 
+keep it simple, pipe the output from the chage command into grep and search for the 
+word “Account.” This produces only the user account’s expiration date.
+
+# chage -l tim | grep Account
+Account expires                    :  Jan  01,  2017
+
+The account expiration date was successfully changed for tim to January 1, 2017.
+
+594
+
+c22.indd  04/15/2015  Page 595
+
+Chapter 22: Understanding Basic Linux Security 
+
+If you do not use the /etc/shadow fi le for storing your account passwords, the chage utility doesn’t work.

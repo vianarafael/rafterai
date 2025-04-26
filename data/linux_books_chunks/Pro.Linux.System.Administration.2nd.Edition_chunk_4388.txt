@@ -1,0 +1,6 @@
+On Ubuntu, we’ve specified the standard shadow password PAM authentication file, 
+passwd, as the authentication mechanism to use. On CentOS, we could specify the system-auth default PAM 
+authentication file.
+
+For other forms of authentication, you specify here an appropriate PAM authentication file for that 
+mechanism.

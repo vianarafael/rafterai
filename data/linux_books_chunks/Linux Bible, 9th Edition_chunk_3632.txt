@@ -1,0 +1,6 @@
+The server must also open TCP and UDP ports 20048 for the showmount 
+command to be able to query available NFS shared directories from the server.
+
+For RHEL 7, Fedora 21, and other systems that use the ﬁ rewalld service, you can use the 
+Firewall Conﬁ guration window (yum install firewall-config) to open the ﬁ rewall 
+for your NFS service.

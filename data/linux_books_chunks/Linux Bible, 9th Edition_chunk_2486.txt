@@ -1,0 +1,4 @@
+The names of the network interfaces are  different in 
+Fedora and RHEL 6 (more on that later), but should otherwise be similar. The lo entry in 
+the ﬁ rst line of the output shows the loopback interface, which is used to allow  network 
+commands run on the local system to connect to the local system.

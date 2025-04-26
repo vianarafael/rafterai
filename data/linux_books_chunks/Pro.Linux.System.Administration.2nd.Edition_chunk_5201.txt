@@ -1,0 +1,19 @@
+Let’s see how we can 
+collect our log file from the gateway host and any other Beats service.
+
+$ sudo vi /etc/logstash/conf.d/general.conf
+input {
+  beats {
+    port => 5044
+    ssl  => true
+    ssl_certificate => “/etc/ssl/certs/monitor.example.com.cert”
+    ssl_key => “/etc/ssl/private/monitor.example.com.key”
+    ssl_certificate_authorities [ “/etc/ssl/certs/cacert.pem” ]
+    ssl_verify_mode => force_peer
+  }
+}
+output {
+  stdout { codec => rubydebug }
+}
+
+Taking a look at this file, you can see that it is made of two sections: an input and an output.

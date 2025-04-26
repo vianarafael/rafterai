@@ -1,0 +1,7 @@
+We can have the key added to 
+that ﬁ le on our cloud instance using entries in the user-data ﬁ le that looks like this:
+
+users:
+  - default
+  - name: wsmith
+    gecos: William B.

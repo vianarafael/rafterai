@@ -1,0 +1,6 @@
+It is best to implement more complex shell scripts 
+in stages, making sure the logic is sound at each step before continuing. Here are a few 
+good, concise tips to make sure things are working as expected during testing:
+
+ ■ In some cases, you can place an echo statement at the beginning of lines within 
+the body of a loop and surround the command with quotes.

@@ -1,0 +1,3 @@
+Linux ext 
+ﬁ lesystem types (ext2, ext3, and ext4) can add ACL support through a mount option. To add 
+ACL support, you must add the acl mount option when you mount it.

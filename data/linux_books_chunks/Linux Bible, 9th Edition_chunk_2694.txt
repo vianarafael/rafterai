@@ -1,0 +1,6 @@
+There aren’t  separate 
+scripts for stopping and starting a service. These scripts will stop or start a service 
+ depending upon what parameter is passed to them by the init daemon.
+
+Each script in /etc/rc.d/init.d takes care of all that is needed for starting or stopping 
+a particular service on the server.

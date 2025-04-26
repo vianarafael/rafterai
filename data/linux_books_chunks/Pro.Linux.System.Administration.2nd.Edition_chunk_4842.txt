@@ -1,0 +1,4 @@
+All processes are now sorted by the number of CPU 
+cycles they use, so if a process is running amok, you’ll be able to spot it easily.
+
+ it is possible to select more fields than will fit onscreen.

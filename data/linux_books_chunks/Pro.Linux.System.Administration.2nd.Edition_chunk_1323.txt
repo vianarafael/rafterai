@@ -1,0 +1,5 @@
+CentOS network settings
+
+If we were to add a new interface and come there to configure it, we will see the interfaces listed in the 
+
+left panel by their device names, like enp0s8.

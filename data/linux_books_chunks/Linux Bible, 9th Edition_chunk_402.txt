@@ -1,0 +1,13 @@
+The Overview screen is where you can select to open applications, active 
+windows, or different workspaces.
+
+Navigating with the mouse
+To get started, try navigating the GNOME 3 desktop with your mouse:
+
+34
+
+c02.indd  04/01/2015  Page 35
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+1.  Toggle activities and windows.

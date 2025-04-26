@@ -1,0 +1,4 @@
+We showed you a variety of ways to deliver those services to your users and customers, 
+including over the Internet, and to mobile users and users located at other sites. Some services, however, are 
+simply easier and safer to deliver locally (e.g., file and print services). If your users are not located locally, 
+then you need some way of connecting them as if they were local.

@@ -1,0 +1,6 @@
+We will leave this as is.
+
+The FileSet = "Linux" directive defines the resource that describes the files we want to back up 
+for our hosts. The FileSet will be defined later in our Director configuration file. In the FileSet, you can 
+include and exclude directories and file names or types. You can also define Linux, Microsoft Windows, or 
+Mac files to be backed up or excluded.

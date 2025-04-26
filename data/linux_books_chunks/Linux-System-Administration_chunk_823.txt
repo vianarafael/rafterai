@@ -1,0 +1,8 @@
+Configure /var/log/Mysu.log, all the su to root messages should go in that log. Test that
+it works!
+
+echo authpriv.*  /var/log/Mysu.log >> /etc/syslog.conf
+
+This will log more than just the su usage.
+
+7. Send the local5 messages to the syslog server of your neighbour.

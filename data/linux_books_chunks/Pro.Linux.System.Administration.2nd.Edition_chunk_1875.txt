@@ -1,0 +1,5 @@
+In Listing 8-10, we use the query option 
+
+combined with the --info option to find out more information about one of our installed kernels.
+
+Listing 8-10.

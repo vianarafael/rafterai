@@ -1,0 +1,8 @@
+In the text 
+that follows, the ﬁ le my_secret_file is copied to the encrypted directory. User  johndoe 
+can still use the cat command to display the ﬁ le in plaintext. The ﬁ le is automatically 
+decrypted by the ecryptfs layer.
+
+$ cp my_secret_file Secret
+$ cat /home/johndoe/Secret/my_secret_file
+Shh...

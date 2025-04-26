@@ -1,0 +1,5 @@
+Most of the other options are not really relevant when talking about backing up to the filesystem, and we’ve 
+left the other options at their defaults.
+
+Also, it is worth noting that the Plugin Names = "" directive is where you can load any particular 
+plug-in that you might like to use. There are file daemon plug-ins and storage daemon plug-ins.

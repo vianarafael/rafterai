@@ -1,0 +1,7 @@
+After you start the httpd service (as shown in later 
+steps), you can access this set of manuals from a web browser on the local 
+machine by typing http://localhost/manual into the location box.
+
+ ■ Externally, instead of localhost, you could use the fully qualiﬁ ed domain name 
+
+or IP address of the system.

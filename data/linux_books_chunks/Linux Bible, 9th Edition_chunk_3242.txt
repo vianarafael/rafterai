@@ -1,0 +1,7 @@
+The examples illustrate how to conﬁ gure an FTP server using the 
+vsftpd package.
+
+Exercises
+The exercises in this section cover topics related to installing and conﬁ guring an Apache 
+web server. As usual, I recommend you use a spare Fedora or Red Hat Enterprise Linux 
+ system to do the exercises.

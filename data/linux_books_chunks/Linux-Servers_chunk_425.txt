@@ -1,0 +1,16 @@
+old DNS security: chrooted bind
+
+Most Linux distributions allow an easy setup of bind in a chrooted environment.
+
+5.5.13. old DNS security: DNSSEC
+
+DNSSEC uses public/private keys to secure communications, this is described in rfc's 4033,
+4034 and 4035.
+
+5.5.14. old DNS security: root
+
+Do not run bind as root. Do not run any application daemon as root.
+
+99
+
+Part IV.

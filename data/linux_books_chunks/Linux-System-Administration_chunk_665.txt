@@ -1,0 +1,18 @@
+Make sure the title is different.
+
+[root@centos65 grub]# cut -c1-70 menu.lst | tail -12
+title CentOS (4.0)
+        root (hd0,0)
+        kernel /vmlinuz-4.0 ro root=/dev/mapper/VolGroup-lv_root rd_NO_LUKS L
+        initrd /initramfs-4.0.img
+title CentOS (2.6.32-431.11.2.el6.x86_64)
+        root (hd0,0)
+        kernel /vmlinuz-2.6.32-431.11.2.el6.x86_64 ro root=/dev/mapper/VolGro
+        initrd /initramfs-2.6.32-431.11.2.el6.x86_64.img
+title CentOS (2.6.32-431.el6.x86_64)
+        root (hd0,0)
+        kernel /vmlinuz-2.6.32-431.el6.x86_64 ro root=/dev/mapper/VolGroup-lv
+        initrd /initramfs-2.6.32-431.el6.x86_64.img
+[root@centos65 grub]#
+
+3.

@@ -1,0 +1,34 @@
+This means that
+#          all kernel and initrd paths are relative to /boot/, eg.
+#       root (hd0,0)
+#       kernel /vmlinuz-version ro root=/dev/mapper/vg_joke-lv_root
+#       initrd /initrd-[generic-]version.img
+#boot=/dev/sda
+default=0
+timeout=5
+splashimage=(hd0,0)/grub/splash.xpm.gz
+
+227
+
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 228
+
+Part III: Becoming a Linux System Administrator
+
+hiddenmenu
+title Red Hat Enterprise Linux (2.6.32-131.17.1.el6.x86_64)
+     root (hd0,0)
+     kernel /vmlinuz-2.6.32-131.17.1.el6.x86_64 ro
+        root=/dev/mapper/vg_myhost-lv_root rd_NO_MD rd_NO_DM
+        LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc
+        KEYTABLE=us rhgb quiet crashkernel=auto
+     initrd /initramfs-2.6.32-131.17.1.el6.x86_64.img
+title Windows XP
+     rootnoverify (hd0,1)
+     chainloader +1
+
+The default=0 line indicates that the ﬁ rst partition in this list (in this case, Red Hat 
+Enterprise Linux) is booted by default.

@@ -1,0 +1,12 @@
+GPT 
+on the other hand, can hold up to 128 partitions.
+
+359
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+DISKS AND PARTITIONS
+
+We have previously explained the differences between MBr and gpt partitions. If you remember that 
+MBr is held in the first 512 bytes of the disk and can only hold enough information for disk sizes less 
+than 2 tb.

@@ -1,0 +1,7 @@
+Services can be conﬁ gured to pass 
+back and forth between cluster nodes, while appearing to those using the services 
+that they are running without interruption.
+
+ ■ Virtualization—To manage computing resources more efﬁ ciently, Linux can run as 
+a virtualization host. On that host, you could run other Linux systems, Microsoft 
+Windows, BSD, or other operating systems as virtual guests.

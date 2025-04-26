@@ -1,0 +1,12 @@
+You can use the force create
+mode and force directory mode to set the minimal required permissions for newly created
+files and directories.
+
+[tennis]
+ path = /srv/samba/tennis
+ read only = No
+ guest ok = No
+ force create mode = 444
+ force directory mode = 550
+
+21.4.3.

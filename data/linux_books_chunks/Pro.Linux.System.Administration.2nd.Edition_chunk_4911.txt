@@ -1,0 +1,32 @@
+Successful 
+
+status output will look like this:
+
+-- Unit collectd.service has begun starting up.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "syslog" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "cpu" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "interface" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "load" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "memory" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "mysql" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: plugin_load: plugin "rrdtool" successfully loaded.
+Nov 15 21:55:26 backup collectd[8000]: Systemd detected, trying to signal readyness.
+Nov 15 21:55:26 backup collectd[8000]: Initialization complete, entering read-loop.
+Nov 15 21:55:26 backup systemd[1]: Started Collectd statistics daemon.
+
+814
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+-- Subject: Unit collectd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+--
+-- Unit collectd.service has finished starting up.
+--
+-- The start-up result is done.
+Nov 15 21:55:26 backup collectd[8000]: mysql plugin: Successfully connected to database 
+<none> at server Localhost via UNIX socket with cipher <none> (server version: 
+5.5.50-MariaDB, protocol version: 10)
+
+You can see that we have successfully connected to our database.

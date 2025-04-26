@@ -1,0 +1,17 @@
+The configuration is similar to the client, and our backup host looks like this:
+
+$ sudo vi /etc/rsyslog.d/relp.conf
+$ModLoad imtcp
+
+$DefaultNetstreamDriver gtls
+
+$DefaultNetstreamDriverCAFile /etc/pki/tls/certs/cacert.pem
+$DefaultNetstreamDriverCertFile /etc/pki/tls/certs/backup.example.com.cert
+$DefaultNetstreamDriverKeyFile /etc/pki/tls/private/backup.example.com.key
+
+$InputTCPServerStreamDriverAuthMode x509/name
+$InputTCPServerStreamDriverPermittedPeer *.example.com
+$InputTCPServerStreamDriverMode 1
+$InputTCPServerRun 6514
+
+First we will need to load our imtcp module, which will provide TCP connections.

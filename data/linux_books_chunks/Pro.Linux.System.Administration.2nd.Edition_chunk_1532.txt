@@ -1,0 +1,4 @@
+The device enp0s8 is attached to the 192.168.0.0/24 network with 
+IP address 192.168.0.2, and enp0s9 is attached to the 192.168.10.0/24 network with IP address 192.168.10.2. 
+Host D is on the 192.168.0.0/24 network with IP address 192.168.0.50. Host D has a default route of 
+192.168.0.254. Host F is on the 192.168.10.0/24 network with IP address 192.168.10.100.

@@ -1,0 +1,41 @@
+Access Privileges
+
+Access
+
+none
+
+disclose
+
+auth
+
+compare
+
+search
+
+read
+
+write
+
+manage
+
+Privileges
+
+Allows no access at all
+
+Allows no access but returns an error
+
+Enables bind operations (authenticate)
+
+Allows you to compare the entity
+
+Allows you to search that part of the DIT
+
+Allows read access
+
+Allows write access
+
+Allows all access and the ability to delete entities
+
+When you choose none, you are denying all access to the entity without returning an error to the 
+
+requestor.

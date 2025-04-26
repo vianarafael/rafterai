@@ -1,0 +1,2 @@
+A workflow like above will no doubt lead to 
+breaking things and you should have a way of testing code prior to merging to master.

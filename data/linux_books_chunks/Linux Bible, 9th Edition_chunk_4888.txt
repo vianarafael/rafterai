@@ -1,0 +1,9 @@
+735
+
+c26.indd  04/01/2015  Page 736
+
+Part VI: Extending Linux into the Cloud
+
+You can lower memory requirements by not having Desktop software installed, as most 
+hypervisors do. In this case, however, I did a Fedora Workstation install, which comes with 
+a Desktop.

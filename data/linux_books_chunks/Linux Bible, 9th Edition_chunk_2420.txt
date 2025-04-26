@@ -1,0 +1,6 @@
+With no options, du lists all directories below the current direc-
+tory, along with the space consumed by each directory. At the end, du produces total disk 
+space used within that directory structure.
+
+The du command is a good way to check how much space is being used by a particular user 
+(du /home/jake) or in a particular ﬁ lesystem partition (du /var).

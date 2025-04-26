@@ -1,0 +1,55 @@
+this is 
+
+ ■ Note 
+because openssl will renegotiate the tlS session if a line starts with a capital R and you will not be able to sign in.
+
+You can also confirm that the session has succeeded by checking the syslog log files for Postfix.
+
+$ sudo less /var/log/maillog
+Aug 26 20:38:31 ip-10-0-10-154 postfix/smtpd[10683]: initializing the server-side TLS engine
+Aug 26 20:38:31 ip-10-0-10-154 postfix/smtpd[10683]: connect from 
+  ppp12-29-41-55.bras1.mel11.internode.on.net[12.29.41.15]
+Aug 26 20:38:31 ip-10-0-10-154 postfix/smtpd[10683]: setting up TLS connection from 
+  ppp12-29-41-55.bras1.mel11.internode.on.net[12.29.41.15]
+Aug 26 20:38:31 ip-10-0-10-154 postfix/smtpd[10683]: ppp12-29-41-15.bras1.mel11.internode.
+on.net[12.29.41.15]: 
+  TLS cipher list "aNULL:-aNULL:ALL:!EXPORT:!LOW:!MEDIUM:+RC4:@STRENGTH:!aNULL:!MD5"
+
+Aug 26 07:52:14 mail postfix/smtpd[9215]: 5F2051866087:  
+  client=ppp12-29-41-55.bras1.mel11.internode.on.net[12.29.41.15], sasl_method=LOGIN,  
+sasl_username=jsmith
+Aug 26 07:52:29 mail postfix/anvil[9162]: statistics: max connection rate 1/60s for  
+(smtp: 12.29.41.15) at Aug 26 07:42:29
+Aug 26 07:52:29 mail postfix/anvil[9162]: statistics: max connection count 1 for  
+(smtp: 12.29.41.15) at Aug 26 07:42:29
+Aug 26 07:52:29 mail postfix/anvil[9162]: statistics: max cache size 1 at Aug 26 07:42:29
+
+Aug 26 07:52:37 mail postfix/cleanup[9227]: 5F2051866087: message-id=<>
+Aug 26 07:52:37 mail postfix/qmgr[1186]: 5F2051866087: from=<me@here.com>, size=270,  
+nrcpt=1 (queue active)
+Aug 26 07:52:37 mail postfix/local[9228]: 5F2051866087: to=<jsmith@example.com>, 
+relay=local, delay=235, delays=235/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Aug 26 07:52:37 mail postfix/qmgr[1186]: 5F2051866087: removed
+
+Aug 26 07:52:44 mail postfix/smtpd[9215]: disconnect from ppp12-29-41-15.bras1.mel11.
+internode.on.net[12.29.41.15]
+
+Notice the TLS connection is established in the first section, then authentication is initiated, the e-mail 
+
+is sent, and, lastly, the disconnection takes place.
+
+557
+
+Chapter 12 ■ Mail ServiCeS
+
+If your authentication has succeeded, you’ve now got Postfix authentication running, your server can 
+
+now be used by remote users, and your internal users can securely submit e-mail.
+
+If you have issues with configuring Postfix authentication, see the pointers and links in the upcoming 
+
+“Getting Help for Postfix” section.
+
+SMARTHOSTING
+
+as we mentioned earlier in the chapter, some iSps block outgoing SMtp traffic.

@@ -1,0 +1,1 @@
+Find any ﬁ les in the /usr  directory that are more than 10MB in size.

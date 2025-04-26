@@ -1,0 +1,8 @@
+Repeat to set secondary NTP servers.
+
+Disables NetBIOS over TCP/IP.
+
+On Linux and other hosts, you can’t directly set these sorts of options using the push option. Instead, 
+
+you need to tell OpenVPN to run scripts when the tunnel goes up and down. To do this, you use the 
+appropriately named up and down options.

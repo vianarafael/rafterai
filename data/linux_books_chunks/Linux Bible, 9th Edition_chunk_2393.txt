@@ -1,0 +1,11 @@
+Uncomment the 
+ﬁ rst two lines to enable incoming UDP log messages on port 514 (default); uncomment 
+the two lines after that to allow messages that use TCP protocol (also port 514):
+
+$ModLoad imudp.so
+$UDPServerRun 514
+$ModLoad imtcp.so
+$InputTCPServerRun 514
+
+ ■ Open your ﬁ rewall (iptables or firewalld) to allow new messages to be directed 
+to your loghost.

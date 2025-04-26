@@ -1,0 +1,26 @@
+ack 81 win 2
+^C
+10 packets captured
+10 packets received by filter
+0 packets dropped by kernel
+
+Same as above, but write the output to a file with the tcpdump -w $filename command.
+
+root@ubuntu910:~# tcpdump -w sshdump.tcpdump tcp port 22
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 96 bytes
+^C
+17 packets captured
+17 packets received by filter
+0 packets dropped by kernel
+
+With tcpdump -r $filename the file created above can be displayed.
+
+root@ubuntu910:~# tcpdump -r sshdump.tcpdump
+
+Many more examples can be found in the manual page of tcpdump.
+
+284
+
+network sniffing
+
+23.3.

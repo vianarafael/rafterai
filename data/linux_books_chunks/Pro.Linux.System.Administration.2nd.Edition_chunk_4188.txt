@@ -1,0 +1,3 @@
+conf file. 
+The Storage configuration file that is supplied by Bareos has many examples of different ways to configure 
+your devices. You should use the file as a guide to setting up different types of storage devices.

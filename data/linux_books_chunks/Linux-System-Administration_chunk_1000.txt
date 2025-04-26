@@ -1,0 +1,30 @@
+(Note that
+this is a Ubuntu 10.10 screenshot, Ubuntu 11.04 omits ifup output by default.)
+
+root@ubu1010srv:/etc/network# ifup eth0
+Internet Systems Consortium DHCP Client V3.1.3
+Copyright 2004-2009 Internet Systems Consortium.
+All rights reserved.
+For info, please visit https://www.isc.org/software/dhcp/
+
+Listening on LPF/eth0/08:00:27:cd:7f:fc
+Sending on   LPF/eth0/08:00:27:cd:7f:fc
+Sending on   Socket/fallback
+DHCPREQUEST of 192.168.1.34 on eth0 to 255.255.255.255 port 67
+DHCPNAK from 192.168.33.100
+DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+DHCPOFFER of 192.168.33.77 from 192.168.33.100
+DHCPREQUEST of 192.168.33.77 on eth0 to 255.255.255.255 port 67
+DHCPACK of 192.168.33.77 from 192.168.33.100
+bound to 192.168.33.77 -- renewal in 95 seconds.
+ssh stop/waiting
+ssh start/running, process 1301
+root@ubu1010srv:/etc/network#
+
+The details of dhcp are covered in a separate chapter in the Linux Servers course.
+
+266
+
+interface configuration
+
+22.3.

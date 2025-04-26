@@ -1,0 +1,13 @@
+realm in /etc/krb5.conf
+
+To connect to a Windows 2003 sp2 (or later) you will need to adjust the kerberos realm in
+/etc/krb5.conf and set both lookup statements to true.
+
+[libdefaults]
+ default_realm = STARGATE.LOCAL
+ dns_lookup_realm = true
+ dns_lookup_kdc = true
+
+16.1.7. [share] section in smb.conf
+
+Nothing  special  is  required  for  the  share  section  in  smb.conf.

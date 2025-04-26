@@ -1,0 +1,15 @@
+indicates that we wish to traverse up one level on the directory tree (if we’re already at the top, we 
+
+won’t go anywhere at all).
+
+We can also traverse in other ways through the directory tree using this mechanism, as you can see on 
+
+the following line:
+
+$ cd ../foo/bar
+
+In this instance we have
+
+1.  Traversed up one directory level as indicated by the .. notation
+
+2.

@@ -1,0 +1,15 @@
+If you are going to use TCP 
+
+Wrappers, it is a good idea to set the following in hosts.deny:
+
+ALL: ALL
+
+287
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+This will set the default action of denial to all services unless specified in the /etc/hosts.allow file. The 
+
+rules are read in order from top to bottom.
+
+You would then add network services.

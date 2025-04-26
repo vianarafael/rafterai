@@ -1,0 +1,8 @@
+This way we do not need to keep 
+using the MariaDB root account.
+
+The code in Figure 11-8 creates a user called jsmith who can connect from localhost only with the 
+password “secret.” The ALL keyword specifies the user has all privileges. We use the shorthand *.* to indicate 
+all tables in all databases.
+
+Figure 11-8.

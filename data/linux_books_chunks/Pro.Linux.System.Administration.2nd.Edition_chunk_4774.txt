@@ -1,0 +1,4 @@
+You will note that at the end of the common-session file we are allowing authenticated users to 
+make their own home directories and populate them with the contents of /etc/skel.
+
+On CentOS you may have to add these pam directives to /etc/pam.d/system-auth yourself.

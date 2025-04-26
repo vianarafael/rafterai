@@ -1,0 +1,2 @@
+You will be asked to provide a password, and then the share 
+should be mounted under the /data directory.

@@ -1,0 +1,6 @@
+Creating a new database in MariaDB
+
+In Figure 11-6 you can see that we created a database called mydb, and then we switched to that 
+database and checked whether it contained any tables. You will notice that when we switched to the mydb 
+database our prompt also changed from [(none)] to [mydb] indicating the current database we are working 
+on.

@@ -1,0 +1,6 @@
+Check for process execution
+
+Searching through the output of ps for a process using grep will sometimes return a positive 
+status even though the process is not running! 
+
+This is due to the fact that the grep  process itself is sometimes printed out by ps.

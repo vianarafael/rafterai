@@ -1,0 +1,5 @@
+It also supports LDAP 
+authentication.
+
+If you want to present your metrics via a different graphical presentation service, you can just install 
+Graphite-API, which will return JSON responses to metric queries.

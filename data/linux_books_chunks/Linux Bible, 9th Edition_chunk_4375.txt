@@ -1,0 +1,10 @@
+In the example that follows, the crontab 
+application is being checked for PAM awareness. The ldd command checks a ﬁ le’s shared 
+
+648
+
+c23.indd  04/01/2015  Page 649
+
+Chapter 23: Understanding Advanced Linux Security 
+
+library dependencies. To keep it simple, grep is used to search for the PAM library.

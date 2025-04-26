@@ -1,0 +1,20 @@
+4 joe joe 4096 Dec 18 22:00 /home/joe/test/
+
+To create multiple directory layers (-p is needed):
+
+$ mkdir -p $HOME/test/documents/memos/
+
+To list all ﬁ les and directories recursively from current directory down:
+
+$ ls -R
+...
+
+To list ﬁ les by size:
+
+$ ls -S
+...
+
+Understanding File Permissions 
+and Ownership
+After you’ve worked with Linux for a while, you are almost sure to get a Permission 
+denied message.

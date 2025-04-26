@@ -1,0 +1,3 @@
+These options are –r, recursive; -l, copy 
+symlinks as symlinks; -p, copy permissions; -t, copy file and directory modified times; -g, preserve groups; -o, 
+preserve ownership; and -D, preserve devices and special files.

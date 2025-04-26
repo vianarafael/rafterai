@@ -1,0 +1,10 @@
+To enable access for a private network
+range, look for the "INSERT YOUR OWN RULE(S) HERE..." sentence in squid.conf and
+add two lines similar to the screenshot below.
+
+# INSERT YOUR OWN RULE(S) HERE TO ALLOW ACCESS FROM YOUR CLIENTS
+
+acl company_network src 192.168.1.0/24
+http_access allow company_network
+
+2.9.

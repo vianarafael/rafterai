@@ -1,0 +1,10 @@
+The server writes any status updates to 
+
+422
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+the system logger; you can find them in /var/log/syslog on Ubuntu or in /var/log/messages on CentOS. 
+Listing 10-4 shows you the output of a server that is started and then synchronizes with upstream servers.
+
+Listing 10-4.

@@ -1,0 +1,6 @@
+When an application has a startup script associ-
+ated with it, that script is placed in the /etc/init.d/ directory and then symbolically 
+linked to a ﬁ le in each /etc/rc?.d/ directory.
+
+Scripts linked to each /etc/rc?.d directory begin with either the letter K or S, followed 
+by two numbers and the service name.

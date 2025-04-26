@@ -1,0 +1,23 @@
+viewing selected records
+
+Using a where clause in a select statement, you can specify which record(s) you want to see.
+
+mysql> SELECT * FROM country WHERE countrycode='ES';
++-------------+-------------+------------+----------------+
+| countrycode | countryname | population | countrycapital |
++-------------+-------------+------------+----------------+
+| ES          | Spain       |   48000000 | Madrid         |
++-------------+-------------+------------+----------------+
+1 row in set (0.00 sec)
+
+Another example of the where clause.
+
+mysql> select * from country where countryname='Spain';
++-------------+-------------+------------+----------------+
+| countrycode | countryname | population | countrycapital |
++-------------+-------------+------------+----------------+
+| ES          | Spain       |   48000000 | Madrid         |
++-------------+-------------+------------+----------------+
+1 row in set (0.00 sec)
+
+3.5.5.

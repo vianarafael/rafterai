@@ -1,0 +1,22 @@
+So, returning to the $HOME/test directory created earlier in the 
+
+105
+
+c04.indd  04/01/2015  Page 106
+
+Part II: Becoming a Linux Power User
+
+chapter, add a couple of different types of ﬁ les, and then see what they look like with 
+the ls command.
+
+$ cd $HOME/test
+$ touch scriptx.sh apple
+$ chmod 755 scriptx.sh
+$ mkdir Stuff
+$ ln -s apple pointer_to_apple
+$ ls
+apple pointer_to_apple scriptx.sh Stuff
+
+Although you can’t see it in the preceding code example, the directory docs shows up in 
+blue, pointer_to_apple (a symbolic link) appears as aqua, and scriptx.sh (which is 
+an executable ﬁ le) appears in green.

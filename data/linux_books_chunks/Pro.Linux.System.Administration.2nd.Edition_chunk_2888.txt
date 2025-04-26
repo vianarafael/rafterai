@@ -1,0 +1,10 @@
+You have seen it 
+
+already being used to protect the access to .htacess files.
+
+<FilesMatch "^\.ht">
+        Require all denied
+</FilesMatch>
+
+Here we have denied access to any file beginning with .ht. This directive comes from the mod_authz_
+core module.

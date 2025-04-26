@@ -1,0 +1,19 @@
+Now, when a system reboot occurs, the mode is changed.
+
+# cat /etc/selinux/config
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#      enforcing - SELinux security policy is enforced.
+
+681
+
+c24.indd  04/15/2015  Page 682
+
+Part V: Learning Linux Security Techniques
+
+#      permissive - SELinux prints warnings instead of enforcing.
+#      disabled - SELinux is fully disabled.
+SELINUX=permissive
+...
+
+The primary SELinux conﬁ guration ﬁ le does not just contain the mode setting.

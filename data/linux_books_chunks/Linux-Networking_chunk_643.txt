@@ -1,0 +1,57 @@
+dhcp server for RHEL/CentOS
+
+Installing is easy with yum.
+
+[root@rhel71 ~]# yum install dhcp
+Loaded plugins: product-id, subscription-manager
+Resolving Dependencies
+--> Running transaction check
+---> Package dhcp.x86_64 12:4.2.5-36.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package    Arch         Version                 Repository                Size
+================================================================================
+Installing:
+ dhcp       x86_64       12:4.2.5-36.el7         rhel-7-server-rpms       510 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 510 k
+Installed size: 1.4 M
+Is this ok [y/d/N]: y
+Downloading packages:
+dhcp-4.2.5-36.el7.x86_64.rpm                               | 510 kB   00:01
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : 12:dhcp-4.2.5-36.el7.x86_64                                  1/1
+  Verifying  : 12:dhcp-4.2.5-36.el7.x86_64                                  1/1
+
+Installed:
+  dhcp.x86_64 12:4.2.5-36.el7
+
+Complete!
+[root@rhel71 ~]#
+
+After  installing  we  get  a  /etc/dhcp/dhcpd.conf  that  points  us  to  an  example  file  named
+dhcpd.conf.sample.
+
+162
+
+introduction to dhcp
+
+[root@rhel71 ~]# cat /etc/dhcp/dhcpd.conf
+#
+# DHCP Server Configuration file.
+#   see /usr/share/doc/dhcp*/dhcpd.conf.example
+#   see dhcpd.conf(5) man page
+#
+[root@rhel71 ~]#
+
+So we copy the sample and adjust it for our real situation.

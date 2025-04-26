@@ -1,0 +1,5 @@
+Think of it as a sign on the door, “Come on in! We are here to help you.” Of course, 
+if you are offering a public service, you want the port to be open.
+
+ ■ closed—A closed port is accessible, but there is no service waiting on the other 
+side of this door.

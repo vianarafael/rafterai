@@ -1,0 +1,14 @@
+# systemd-repart
+
+
+- Grow the root partition (/) to all available disk space:
+
+`systemd-repart`
+
+- View changes without applying:
+
+`systemd-repart --dry-run=yes`
+
+- Grow root partition size to 10 gigabytes:
+
+`systemd-repart --size=10G --root /`

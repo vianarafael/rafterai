@@ -1,0 +1,6 @@
+This sample spam is guaranteed to trigger SpamAssassin’s spam 
+filters and hence test our spam detection.
+
+If we check in our Postfix logs, we can see this e-mail get received and processed, as shown in Listing 12-14.
+
+Listing 12-14.

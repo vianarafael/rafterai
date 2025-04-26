@@ -1,0 +1,5 @@
+Start these exercises on a Linux system that has an active network connection, 
+but is not in the middle of some critical network activity.
+
+I recommend you do these exercises directly from your computer console (in other words, 
+don’t ssh into the computer to do them).

@@ -1,0 +1,5 @@
+If you feel uncomfortable with shell script writing, review Chapter 7, 
+“Writing Simple Shell Scripts,” to improve your skills.
+
+One line you should be sure to check and possibly modify in your new script is the 
+chkconfig line that is commented out.

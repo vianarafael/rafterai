@@ -1,0 +1,35 @@
+The branch1.conf Configuration File
+
+# Network configuration
+dev tun
+client
+remote gateway.example.com 1194
+keepalive 10 120
+
+# Certificate configuration
+ca /etc/ssl/certs/cacert.pem
+cert /etc/ssl/certs/branch1.example.com.cert
+key /etc/ssl/private/branch1.example.com.key
+tls-auth ta.key 1
+
+# Logging configuration
+log-append /var/log/openvpn.log
+status /var/log/openvpn-status.log
+verb 4
+mute 20
+
+# Security configuration
+user nobody
+group nogroup
+persist-key
+persist-tun
+
+# Compression
+comp-lzo
+
+ ■ Note 
+
+ if you’re using Centos, your group setting should be set to nobody rather than nogroup.
+
+The file in Listing 15-6 is similar to the gateway.conf configuration file, but we’ve specified some 
+different options because of the host’s role as a client.

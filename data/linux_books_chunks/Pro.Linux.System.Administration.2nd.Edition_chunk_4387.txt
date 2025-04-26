@@ -1,0 +1,7 @@
+The plugin configuration option allows us to specify external plug-ins, in our case a PAM 
+plug-in called openvpn-pluging-auth-pam.so that ships with the OpenVPN package.
+
+On Ubuntu, the plug-in is located at /usr/lib/openvpn/openvpn-plugin-auth-pam.so.
+We also need to specify the name of a PAM authentication file that OpenVPN will use to authenticate 
+
+the VPN tunnel.

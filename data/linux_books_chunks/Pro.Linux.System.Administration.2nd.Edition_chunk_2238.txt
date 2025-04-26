@@ -1,0 +1,7 @@
+This 
+tries the udf DVD filesystem first and then iso9660, which is used by CD-ROMs.
+
+Mount options are passed as a comma-delimited list as well. In our example fstab, you can see two 
+
+different options being used for the ext4 filesystems. The option, errors=remount-ro, controls what 
+happens if a filesystem error occurs.

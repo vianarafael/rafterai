@@ -1,0 +1,5 @@
+Modules provide different software 
+
+capabilities; there are authorization modules, web language modules like PHP, and other kinds of features. 
+The IncludeOptional directive can be used to store configuration files such as virtual hosts or other 
+configuration files, such as php.conf.

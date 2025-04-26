@@ -1,0 +1,8 @@
+You can 
+
+see other options you can use with the ln command by reviewing its man page.
+
+Editing Files
+Linux provides a wide variety of editing tools for files, including both GUI and command-line tools. In the 
+GUI, you can find editors like kate or the simpler gedit. These are straightforward editors, but they are not 
+word processors—much like Windows Notepad.

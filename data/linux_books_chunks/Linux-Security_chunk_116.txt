@@ -1,0 +1,9 @@
+whoami
+
+The whoami command tells you your username.
+
+[paul@centos7 ~]$ whoami
+paul
+[paul@centos7 ~]$
+
+1.2.

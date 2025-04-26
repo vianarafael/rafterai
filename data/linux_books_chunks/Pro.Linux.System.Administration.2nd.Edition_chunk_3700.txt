@@ -1,0 +1,7 @@
+We then specify exactly who we want to have read/write access, 
+jsmith and bsingh. We could use group lists here as well. If we had a group called sales_admins, we could 
+add write list = @sales_admins.
+
+The last section ensures that files and directories are created with the correct ownership, group, and 
+
+permissions.

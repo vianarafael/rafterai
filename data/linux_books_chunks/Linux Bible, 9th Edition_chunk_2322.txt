@@ -1,0 +1,8 @@
+For example:
+
+$ ssh johndoe@10.140.67.23 "cat myfile"
+johndoe@10.140.67.23's password: **********
+Contents of the myfile file located in johndoe's home directory.
+
+The ssh command just shown goes to the remote host located at 10.140.67.23 and runs the 
+cat myfile command as the user johndoe.

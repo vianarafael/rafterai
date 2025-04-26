@@ -1,0 +1,12 @@
+Make both mounts permanent, test that it works.
+
+add the following lines to /etc/fstab
+
+/dev/sdc1 /home/project22 auto defaults 0 0
+/dev/sdb1 /srv/nfs/salesnumbers auto defaults 0 0
+
+5. What happens when you mount a file system on a directory that contains some files ?
+
+The files are hidden until umount.
+
+6.

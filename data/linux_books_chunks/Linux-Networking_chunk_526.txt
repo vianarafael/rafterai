@@ -1,0 +1,6 @@
+See RFC 1591 for more info.
+
+In  1998  seven  new  general  purpose  tld's  where  chosen,  they  became  active  in  the  21st
+century.
+
+Table 10.2.

@@ -1,0 +1,10 @@
+raid 2, 3 and 4 ?
+
+raid 2 uses bit level striping, raid 3 byte level, and raid 4 is the same as raid 5, but with a
+dedicated parity disk. This is actually slower than raid 5, because every write would have
+to write parity to this one (bottleneck) disk. It is unlikely that you will ever see these raid
+levels in production.
+
+10.2.5. raid 5
+
+raid 5 uses three or more disks, each divided into chunks.

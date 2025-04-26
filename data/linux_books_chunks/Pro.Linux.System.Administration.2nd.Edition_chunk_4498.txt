@@ -1,0 +1,12 @@
+The DN dc=example,dc=com will be made up of those 
+particular object classes and attributes.
+
+To modify an existing DN entry, we could use something like this:
+
+dn: uid=ffrank,ou=people,dc=example,dc=com
+changetype: replace
+replace: userPassword
+userPassword: <new password>
+-
+
+here we have changed ffrank’s userPassword using an LDiF-formatted text file.

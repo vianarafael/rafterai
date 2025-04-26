@@ -1,0 +1,12 @@
+Pending installation
+
+Some of the reasons your installation might be stuck at pending are the following:
+
+•	
+
+•	
+
+•	
+
+Your computer might have problems connecting to the Internet. One of the clues 
+that this might be case is that the information screen is not showing screenshots.

@@ -1,0 +1,4 @@
+An argument is an extra piece of information, such as a ﬁ le-
+name, directory, username, device, or other item that tells the command what to act on. 
+For example, cat /etc/passwd displays the contents of the /etc/passwd ﬁ le on your 
+screen. In this case, /etc/passwd is the argument.

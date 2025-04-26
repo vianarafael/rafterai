@@ -1,0 +1,7 @@
+In the middle are rules that open 
+ports for service requests you have already allowed, such as the secure shell service (sshd 
+on TCP port 22). At the end of the rules, a ﬁ nal rule usually DROPs or REJECTs any request 
+that has not explicitly been allowed.
+
+To allow public access to someone requesting your FTP server, you want to allow new 
+requests to TCP port 21.

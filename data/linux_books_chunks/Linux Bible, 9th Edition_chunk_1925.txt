@@ -1,0 +1,6 @@
+1 root sales    0 Jan 14 09:32 /var/salesstuff/file.txt
+
+Looking at permissions on the directory /var/salesdocs (rwxrwxr-x), you see that the 
+second set of rwx shows that any member of the group (sales) has permission to read ﬁ les 
+in that directory (r is read), create and delete ﬁ les from that directory (w is write), and 
+change to that directory (x is execute).

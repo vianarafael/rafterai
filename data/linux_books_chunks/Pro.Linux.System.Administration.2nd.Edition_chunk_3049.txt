@@ -1,0 +1,7 @@
+as a result, most keys used for web sites 
+are 2,048 bits long and are expected to remain secure until around 2030. You can increase the key length to 
+4,096 if you want.
+
+We pass the -algorithm option to tell the openssl command to use the RSA cipher, and the -out option 
+
+tells the openssl command where to write the key, here to the www.example.com.key file.

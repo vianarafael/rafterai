@@ -1,0 +1,17 @@
+(time and date are truncated from the screenshot, and Jesse did not use the
+current date in the serial number...)
+
+root@debian7:/etc/bind# grep jesse /var/log/syslog
+named[2731]: zone jesse.local/IN: Transfer started.
+named[2731]: transfer of 'jesse.local/IN' from 10.104.15.20#53: connected u\
+sing 10.104.33.30#44719
+named[2731]: zone jesse.local/IN: transferred serial 20110516
+named[2731]: transfer of 'jesse.local/IN' from 10.104.15.20#53: Transfer co\
+mpleted: 1 messages, 8 records, 239 bytes, 0.001 secs (239000 bytes/sec)
+
+And the contents of the slave zone:
+
+root@debian7:/etc/bind# cat /var/cache/named/db.jesse.local
+$ORIGIN .
+$TTL 604800     ; 1 week
+jesse.local             IN SOA  ns.jesse.local.

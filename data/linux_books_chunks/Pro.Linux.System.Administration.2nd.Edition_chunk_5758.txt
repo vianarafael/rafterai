@@ -1,0 +1,7 @@
+That is installing one thing on one host, how do you do that on many hosts?
+
+Ansible Inventory
+
+Ansible inventory is a way of defining our list of hosts that we want to execute our commands over. This can 
+be dynamically discovered with the help of scripts or as a plain static host list. We are going to show you 
+how to configure the static host list.

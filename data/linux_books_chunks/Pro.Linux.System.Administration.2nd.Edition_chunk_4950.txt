@@ -1,0 +1,8 @@
+In our example we have gone with a simple relay-rules.conf file like the following:
+
+[default]
+default = true
+destinations = monitor.example.com:2004
+
+There can be only one rule with default = true. By default we are sending all metrics to monitor.
+example.com on port 2004.

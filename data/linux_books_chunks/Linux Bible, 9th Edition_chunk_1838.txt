@@ -1,0 +1,3 @@
+Other Linux packaging schemes allow packages 
+to stop and prompt you for information when they are being installed (such as asking for a 
+directory location or a username).

@@ -1,0 +1,7 @@
+Then type the following command:
+
+$ date
+Sat Oct 19 08:04:00 EST 2014
+
+Typing the date command, with no options or arguments, causes the current day, month, 
+date, time, time zone, and year to be displayed as just shown.

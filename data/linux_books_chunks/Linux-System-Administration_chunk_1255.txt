@@ -1,0 +1,19 @@
+dpkg -S and debsums
+
+Find out on Debian/Ubuntu to which package a library belongs.
+
+paul@deb503:/lib$ dpkg -S libext2fs.so.2.4 
+e2fslibs: /lib/libext2fs.so.2.4
+
+You can then verify the integrity of all files in this package using debsums.
+
+paul@deb503:~$ debsums e2fslibs
+/usr/share/doc/e2fslibs/changelog.Debian.gz                               OK
+/usr/share/doc/e2fslibs/copyright                                         OK
+/lib/libe2p.so.2.3                                                        OK
+/lib/libext2fs.so.2.4                                                     OK
+
+Should a library be broken, then reinstall it with aptitude reinstall $package.
+
+root@deb503:~# aptitude reinstall e2fslibs
+Reading package lists...

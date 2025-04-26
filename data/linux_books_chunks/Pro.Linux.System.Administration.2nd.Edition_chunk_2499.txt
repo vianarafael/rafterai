@@ -1,0 +1,6 @@
+Simple recursive DNS query
+
+The local dns server will first need to ask the ‘.’ root servers for a server that can answer for the ‘.com.’ 
+
+zone. The local dns server will then ask one of the ‘.com.’ servers which server can answer queries for  
+‘‘.google.com.’. We then query one of the nsX.google.com. servers for the ‘www’ record.

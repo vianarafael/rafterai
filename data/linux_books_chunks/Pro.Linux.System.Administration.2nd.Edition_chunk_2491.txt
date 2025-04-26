@@ -1,0 +1,7 @@
+Using whois to Check Delegation Details
+
+$ whois 'domain google.com'
+Whois Server Version 2.0
+
+Domain names in the .com and .net domains can now be registered
+with many different competing registrars.

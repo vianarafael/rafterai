@@ -1,0 +1,4 @@
+three extra virtual hosts
+
+In this scenario we create three additional websites for three customers that share a clubhouse
+and want to jointly hire you.

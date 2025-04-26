@@ -1,0 +1,26 @@
+Allowing ssh over eth0
+
+This example show how to add two rules to allow ssh access to your system from outside.
+
+[root@RHEL5 ~]# iptables -A INPUT -i eth0 -p tcp --dport 22 -j ACCEPT
+[root@RHEL5 ~]# iptables -A OUTPUT -o eth0 -p tcp --sport 22 -j ACCEPT
+
+The  filter  table  will  look  something  like  this  screenshot  (note  that  -v  is  added  for  more
+verbose output).
+
+[root@RHEL5 ~]# iptables -nvL
+Chain INPUT (policy DROP 7 packets, 609 bytes)
+ pkts bytes target prot opt in    out   source     destination 
+    0     0 ACCEPT all  --  lo    *     0.0.0.0/0  0.0.0.0/0 
+    0     0 ACCEPT tcp  --  eth0  *     0.0.0.0/0  0.0.0.0/0  tcp dpt:22
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target prot opt in    out   source     destination
+
+Chain OUTPUT (policy DROP 3 packets, 228 bytes)
+ pkts bytes target prot opt in    out   source     destination
+    0     0 ACCEPT all  --  *     lo    0.0.0.0/0  0.0.0.0/0
+    0     0 ACCEPT tcp  --  *     eth0  0.0.0.0/0  0.0.0.0/0  tcp spt:22
+[root@RHEL5 ~]#
+
+11.3.6.

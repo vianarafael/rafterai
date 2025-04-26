@@ -1,0 +1,16 @@
+network bandwidth
+
+Having many broadcasting SMB/CIFS computers on your network can cause bandwidth
+issues. A solution can be the use of a NetBIOS name server (NBNS) like WINS (Windows
+Internet Naming Service).
+
+200
+
+introduction to samba
+
+15.7. practice: introduction to samba
+
+0. !! Make sure you know your student number, anything *ANYTHING* you name must
+include your student number!
+
+1.

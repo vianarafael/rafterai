@@ -1,0 +1,8 @@
+It does this by implementing OpenGL (http://opengl.org) accelerated 
+effects using the Mesa (http://www.mesa3d.org) open source OpenGL implementation.
+
+Currently, AIGLX supports a limited set of video cards and implements only a few 3D 
+effects, but it does offer some insight into the eye candy that is in the works.
+
+If your video card was properly detected and conﬁ gured, you may be able to simply turn 
+on the Desktop Effects feature to see the effects that have been implemented so far.

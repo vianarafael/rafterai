@@ -1,0 +1,4 @@
+rpcinfo
+
+Clients  connect  to  the  server  using  rpc  (on  Linux  this  can  be  managed  by  the  portmap
+daemon).

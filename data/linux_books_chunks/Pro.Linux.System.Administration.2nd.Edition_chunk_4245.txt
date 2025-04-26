@@ -1,0 +1,7 @@
+Currently it holds our Bareos catalog database, but it could also contain the 
+WordPress database that we created in Chapter 11 or any other databases we use.
+
+As we have mentioned, you can install Bareos plug-ins on your Storage and File daemons to do special 
+
+tasks. We are going to install a Python plug-in on the database server so the File daemon can back up the 
+MariaDB database for us.

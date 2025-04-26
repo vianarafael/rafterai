@@ -1,0 +1,22 @@
+configure multipath
+
+You can now choose to either edit /etc/multipath.conf or use mpathconf to change this
+file for you.
+
+[root@server2 ~]# grep user_friendly_names /etc/multipath.conf
+ user_friendly_names yes
+# user_friendly_names yes
+[root@server2 ~]# mpathconf --enable --user_friendly_names n
+[root@server2 ~]# grep user_friendly_names /etc/multipath.conf
+ user_friendly_names no
+# user_friendly_names yes
+[root@server2 ~]# mpathconf --enable --user_friendly_names y
+[root@server2 ~]# grep user_friendly_names /etc/multipath.conf
+ user_friendly_names yes
+# user_friendly_names yes
+
+147
+
+introduction to multipathing
+
+13.3.

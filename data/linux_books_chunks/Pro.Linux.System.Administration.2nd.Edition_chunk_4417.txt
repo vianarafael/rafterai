@@ -1,0 +1,7 @@
+This is often used to force users to comply with 
+
+some policy or standard or to ensure all traffic is scanned for viruses and malware through a proxy or virus 
+scanner.
+
+There are some issues with pushing all traffic through your tunnel, though. Most notably, performance 
+can be impacted by pushing traffic through the tunnel to your office and then onto the Internet.

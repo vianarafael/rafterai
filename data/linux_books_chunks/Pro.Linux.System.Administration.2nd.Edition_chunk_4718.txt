@@ -1,0 +1,7 @@
+You 
+can see the process of the request for access starts with a search of ou=people,dc=example,dc=com and then 
+the final acceptance for the search (and read), via the check a_group_pat: cn=admins,ou=groups,dc=exam
+ple,dc=com, and that gives ataylor write access.
+
+With a combination of logs, the slapacl and ldapsearch tools, and the useful OpenLDAP mailing list, 
+you can achieve intricate access control lists.

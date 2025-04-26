@@ -1,0 +1,6 @@
+It is highly configurable and works out of the box to collect metrics for you.
+We are going to use Collectd to gather metrics from our hosts and send them to Graphite, a metrics 
+collection store. However, you can write metrics to many other back ends using the Write HTTP or Network 
+plug-in.
+
+You can install Collectd on both Ubuntu and CentOS via your package manager.

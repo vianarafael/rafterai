@@ -1,0 +1,18 @@
+You can 
+start by running the grouplist subcommand to see a list of group names:
+
+# yum grouplist | less
+Available environment groups:
+   Fedora Server
+...
+Installed groups:
+   Administration Tools
+   Design Suite
+...
+Available Groups:
+   Authoring and Publishing
+   Books and Guides
+   C Development Tools and Libraries
+...
+
+Let’s say you want to try out a different desktop environment.

@@ -1,0 +1,19 @@
+Use the -l and 
+-a options to ls.
+
+$ ls -la /home/joe
+total 158
+drwxrwxrwx 2     joe   sales   4096 May 12 13:55 .
+drwxr-xr-x 3     root  root    4096 May 10 01:49 ..
+-rw------- 1     joe   sales   2204 May 18 21:30 .bash_history
+-rw-r--r-- 1     joe   sales     24 May 10 01:50 .bash_logout
+-rw-r--r-- 1     joe   sales    230 May 10 01:50 .bash_profile
+-rw-r--r-- 1     joe   sales    124 May 10 01:50 .bashrc
+drw-r--r-- 1     joe   sales   4096 May 10 01:50 .kde
+-rw-rw-r-- 1     joe   sales 149872 May 11 22:49 letter
+
+^          ^     ^     ^     ^      ^            ^
+col 1  col 2 col 3 col 4 col 5 col  6        col 7
+
+Displaying a long list (-l option) of the contents of your home directory shows you more 
+about ﬁ le sizes and directories.

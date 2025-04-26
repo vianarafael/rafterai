@@ -1,0 +1,4 @@
+-v is to be verbose in its information. When you specify -D, 
+you give the username you want to bind with. In this case, we are using the cn=admin,dc=example,dc=com 
+user, and as you may remember, this is the rootDN we added to the SLAPD server earlier. The -h switch 
+is the hostname, ldap.example.com.

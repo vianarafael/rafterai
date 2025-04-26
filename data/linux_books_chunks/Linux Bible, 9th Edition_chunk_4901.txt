@@ -1,0 +1,7 @@
+If you did a different install type, make sure you have the following packages also added: 
+libvirt-client (for the virsh command) and libvirt-daemon (to get the lib-
+virtd service).
+
+Step 4: Start services on the hypervisors
+You need to make sure that the libvirtd service is running on both hypervisors. Start 
+the sshd service as well.

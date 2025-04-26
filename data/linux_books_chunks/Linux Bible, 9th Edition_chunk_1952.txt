@@ -1,0 +1,2 @@
+Then she modiﬁ ed permissions for the group sales so anyone 
+belonging to that group would also have read/write permissions.

@@ -1,0 +1,7 @@
+We’ll show you how to check how much the disk is being used in the “Advanced Tools” 
+section a bit later.
+
+FORK BOMB
+
+We explained in Chapter 5 that when a daemon or service runs in the background, it forks a child 
+process and makes init the parent process, while the original process exits.

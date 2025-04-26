@@ -1,0 +1,4 @@
+You should be able to leave the new permissions as 
+they are.
+
+6.

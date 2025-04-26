@@ -1,0 +1,6 @@
+The KeepAlive settings determine how Apache deals with longer-running 
+sessions. Instead of creating new TCP connections for sessions, you can specify that the Apache server 
+should use the same TCP connection. You can fine-tune these settings with MaxKeepAliveRequests and 
+KeepAliveTimeout.
+
+The different MPMs also have ways to tune their performance.

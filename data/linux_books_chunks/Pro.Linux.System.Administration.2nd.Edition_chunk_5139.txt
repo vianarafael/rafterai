@@ -1,0 +1,19 @@
+This means that even if all the space on your disk is 
+consumed, the system will not crash.
+
+Testing Logging with logger
+Present on both CentOS and Ubuntu, logger is a useful command-line tool to test your logging 
+configuration.
+
+$ logger -p mail.info "This is a test message for facility mail and priority info"
+
+This would write the message “This is a test message for facility mail and priority info” to your rsyslog 
+
+daemon and into whatever destination you have configured for messages with a facility of mail and a 
+priority of info.
+
+As you can see, the -p parameter allows you to specify a facility and priority combination, and then the 
+
+test message is contained in quotation marks.
+
+We often use logger inside bash scripts to generate multiple messages for testing purposes.

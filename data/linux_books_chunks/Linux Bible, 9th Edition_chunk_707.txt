@@ -1,0 +1,9 @@
+If this variable isn’t set, the vi command is used.
+
+This is the location of your history fi le. It is typically located at $HOME/.
+bash_history.
+
+HISTFILESIZE
+
+This is the number of history entries that can be stored. After this number is 
+reached, the oldest commands are discarded.

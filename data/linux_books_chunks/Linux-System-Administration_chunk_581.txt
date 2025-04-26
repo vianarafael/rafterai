@@ -1,0 +1,70 @@
+iSCSI Initiator RHEL7/CentOS7
+
+This is identical to the RHEL6/CentOS6 procedure:
+
+[root@centos7 ~]# yum install iscsi-initiator-utils
+Loaded plugins: fastestmirror
+...
+...
+Installed:
+  iscsi-initiator-utils.x86_64 0:6.2.0.873-29.el7
+
+Dependency Installed:
+  iscsi-initiator-utils-iscsiuio.x86_64 0:6.2.0.873-29.el7
+
+Complete!
+
+Map your initiator name to the targetcli acl.
+
+[root@centos7 ~]# cat /etc/iscsi/initiatorname.iscsi
+InitiatorName=iqn.2015-04.be.linux:server2
+[root@centos7 ~]#
+
+Enter the CHAP authentication in /etc/iscsi/iscsid.conf.
+
+[root@centos7 ~]# vi /etc/iscsi/iscsid.conf
+...
+[root@centos7 ~]# grep ^node.session.auth /etc/iscsi/iscsid.conf
+node.session.auth.authmethod = CHAP
+node.session.auth.username = paul
+node.session.auth.password = hunter2
+[root@centos7 ~]#
+
+There are no extra devices yet...
+
+[root@centos7 ~]# fdisk -l | grep sd
+Disk /dev/sda: 22.0 GB, 22038806528 bytes, 43044544 sectors
+/dev/sda1   *        2048     1026047      512000   83  Linux
+/dev/sda2         1026048    43042815    21008384   8e  Linux LVM
+Disk /dev/sdb: 2147 MB, 2147483648 bytes, 4194304 sectors
+
+Enable the service and discover the target.
+
+[root@centos7 ~]# systemctl enable iscsid
+ln -s '/usr/lib/systemd/system/iscsid.service' '/etc/systemd/system/multi-user.target.wants/iscsid.service'
+[root@centos7 ~]# iscsiadm -m discovery -t st -p 192.168.1.128
+192.168.1.128:3260,1 iqn.2015-04.be.linux:iscsi1
+
+139
+
+iSCSI devices
+
+Log into the target and see /dev/sdc appear.
+
+[root@centos7 ~]# iscsiadm -m node -T iqn.2015-04.be.linux:iscsi1 -p 192.168.1.128 -l
+Logging in to [iface: default, target: iqn.2015-04.be.linux:iscsi1, portal: 192.168.1.128,3260] (multiple)
+Login to [iface: default, target: iqn.2015-04.be.linux:iscsi1, portal: 192.168.1.128,3260] successful.
+[root@centos7 ~]#
+[root@centos7 ~]# fdisk -l | grep sd
+Disk /dev/sda: 22.0 GB, 22038806528 bytes, 43044544 sectors
+/dev/sda1   *        2048     1026047      512000   83  Linux
+/dev/sda2         1026048    43042815    21008384   8e  Linux LVM
+Disk /dev/sdb: 2147 MB, 2147483648 bytes, 4194304 sectors
+Disk /dev/sdc: 2147 MB, 2147483648 bytes, 4194304 sectors
+[root@centos7 ~]# 
+
+140
+
+iSCSI devices
+
+12.10.

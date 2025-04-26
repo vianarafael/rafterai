@@ -1,0 +1,6 @@
+Popular Debian-based distributions include Linux Mint, elementary OS, 
+Zorin OS, LXLE, Kali Linux, and many others. However, the Debian derivative that has 
+achieved the most success is Ubuntu (http://www.ubuntu.com).
+
+By relying on stable Debian software development and packaging, the Ubuntu Linux 
+ distribution was able to come along and add those features that Debian lacked.

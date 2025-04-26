@@ -1,0 +1,8 @@
+You can customize top to display the columns of your choice, or to display only the processes
+that you find interesting.
+
+[paul@RHELv4u3 ~]$ top p 3456 p 8732 p 9654
+
+19.3. free
+
+The free command is common on Linux to monitor free memory.

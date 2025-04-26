@@ -1,0 +1,4 @@
+It also creates a directory called .ssh in the home 
+
+directory and sets the permission of 0700 on it, which is a requirement of SSH security. We would like to 
+point out that we used sudo –u exbackup to make the directory so it has the correct ownership permissions.

@@ -1,0 +1,2 @@
+Tools such as Acronis Disk Director (http://www.acronis.com) 
+are available to resize your disk partitions and set up a  workable boot manager.

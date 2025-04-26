@@ -1,0 +1,4 @@
+We will take the default, 
+1. We are asked next to select disk sectors, each sector being 512 bytes. Modern systems align on sector 
+boundaries and here we choose to start at sector 2048, or at 1024 kibibyte. Next, enter 2G to indicate you 
+want to create a partition that is 2 GiB in size.

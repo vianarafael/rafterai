@@ -1,0 +1,35 @@
+We do this with the mutate and rename functions.
+
+filter {
+  if [type] =~ "auditd" {
+    kv { }
+    mutate {
+      rename => {
+        "type"        => "audit_type"
+        "auid"        => "audit_uid"
+        "fsuid"       => "audit_fs_uid"
+        "suid"        => "audit_set_uid"
+        “subj”        => “audit_subject”
+        "ses"         => "session_id"
+        “hostname => “audit_hostname”
+      }
+    }
+  }
+}
+
+869
+
+Chapter 18 ■ Logging and Monitoring
+
+Now when we look at our Logstash data, it will look similar to this:
+
+{
+...
+    "audit_uid"       => "4294967295",
+    "audit_subject" => "system_u:system_r:init_t:s0",
+    "audit_type"     => "SERVICE_STOP"
+    "session_id"     => "4294967295",
+...
+}
+
+The mutate function has changed the state of the log information.

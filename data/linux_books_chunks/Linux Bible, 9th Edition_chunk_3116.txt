@@ -1,0 +1,7 @@
+Location tags are 
+ processed last and override the settings in Directory and Files blocks.
+
+Match versions of these tags—DirectoryMatch, FilesMatch, and LocationMatch—
+have the same function but can contain regular expressions in the resource speciﬁ cation. 
+FilesMatch and LocationMatch blocks are processed at the same time as Files and 
+Location, respectively.

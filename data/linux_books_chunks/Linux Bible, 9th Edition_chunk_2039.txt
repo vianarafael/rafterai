@@ -1,0 +1,5 @@
+Any ﬁ le added to the mount point directory of a 
+ partition, or a subdirectory, is stored on that partition.
+
+The word mount refers to the action of connecting a fi lesystem from a hard disk, USB drive, or network storage device 
+to a particular point in the fi lesystem.

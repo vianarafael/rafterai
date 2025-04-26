@@ -1,0 +1,4 @@
+To secure communications with our new web server, we will use Let’s Encrypt to create Secure 
+Sockets Layer (SSL) /Transport Layer Security (TLS) certificates. This will provide us with certificates for 
+securing other services too. Then we will show how to install a content management system and a webmail 
+application.

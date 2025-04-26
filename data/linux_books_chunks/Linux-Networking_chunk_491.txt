@@ -1,0 +1,11 @@
+failed: Temporary failure in name resolution.
+[paul@RHEL5 ~]$ export http_proxy=http://192.168.1.39:8080
+[paul@RHEL5 ~]$ wget http://grep.be
+--14:35:49--  http://grep.be/
+
+112
+
+introduction to squid
+
+Connecting to 192.168.1.39:8080... connected.
+Proxy request sent, awaiting response...

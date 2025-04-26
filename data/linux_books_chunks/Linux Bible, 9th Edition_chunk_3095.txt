@@ -1,0 +1,13 @@
+Those ports immediately become open.
+
+For RHEL 6 or older Fedora releases, add rules to the /etc/sysconfig/iptables ﬁ le 
+(somewhere before a ﬁ nal DROP or REJECT) such as the following:
+
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 443 -j ACCEPT
+
+Restart  iptables  (service iptables restart) for the new rules to take effect.
+
+Apache and SELinux
+If Security Enhanced Linux (SELinux) is set to Enforcing (as it is by default in Fedora and 
+Red Hat Enterprise Linux), SELinux adds another layer of security over your httpd service.

@@ -1,0 +1,2 @@
+When a RPC service is started it will tell portmap which port number it is using 
+as well as its program number.

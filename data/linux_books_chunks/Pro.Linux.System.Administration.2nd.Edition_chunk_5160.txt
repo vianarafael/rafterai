@@ -1,0 +1,12 @@
+You can also manually run it 
+on the command line.
+
+If running on the command line, logrotate defaults to a configuration file of /etc/logrotate.conf. 
+
+You can override this configuration file, as you can see on the following line:
+
+$ sudo logrotate /etc/logrotate2.conf
+
+The logrotate command also has several command-line options to use, as shown in Table 18-3.
+
+Table 18-3.

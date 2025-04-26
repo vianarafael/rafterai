@@ -1,0 +1,6 @@
+In my 
+three years as a Linux instructor, I honed my teaching skills in front of live people whose Linux 
+experience ranged from none to experienced professional.
+
+In the previous edition, I turned my teaching experience into text to take a reader from someone 
+who has never used Linux to someone with the skills to become a Linux professional.

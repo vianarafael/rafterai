@@ -1,0 +1,16 @@
+For example, if a ﬁ le had read-only permission (r--) for the sales 
+group and read/write/execute (rwx) for the market group, and mary belonged to 
+both, mary would have rwx permission.
+
+If ACLs are not enabled on the fi lesystem you are trying to use with setfacl, see the “Enabling ACLs” section later 
+in this chapter for information on how to mount a fi lesystem with ACLs enabled.
+
+271
+
+c11.indd  04/01/2015  Page 272
+
+Part III: Becoming a Linux System Administrator
+
+Setting ACLs with setfacl
+Using the setfacl command, you can modify permissions (-m) or remove ACL permissions 
+(-x).

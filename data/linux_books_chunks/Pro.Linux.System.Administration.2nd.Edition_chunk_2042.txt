@@ -1,0 +1,25 @@
+found
+...<snip>...
+creating objs/Makefile
+
+Configuration summary
+  + using system PCRE library
+  + OpenSSL library is not used
+  + using builtin md5 code
+  + sha1 library is not found
+  + using system zlib library
+
+  nginx path prefix: "/opt/nginx"
+  nginx binary file: "/opt/nginx/sbin/nginx"
+  nginx modules path: "/opt/nginx/modules"
+  ...<snip>...
+  nginx http proxy temporary files: "proxy_temp"
+  nginx http fastcgi temporary files: "fastcgi_temp"
+  nginx http uwsgi temporary files: "uwsgi_temp"
+  nginx http scgi temporary files: "scgi_temp
+
+The output shows the successful configuration of nginx and provides a summary.
+
+Compile and Make
+When complete, the configure command writes a configuration header file and a special file called 
+Makefile.

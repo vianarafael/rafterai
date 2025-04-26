@@ -1,0 +1,7 @@
+For example, to display any configuration options that 
+have been changed from the default (i.e., modified for your host), you can use the –n configuration flag.
+
+$ sudo postconf -n
+
+if you are looking for troubleshooting, you will be usually asked to provide the output of the postconf -n 
+command. You can also display every configuration option and its default setting using the –d flag.

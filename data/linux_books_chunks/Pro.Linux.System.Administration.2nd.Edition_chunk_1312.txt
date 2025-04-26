@@ -1,0 +1,7 @@
+To disable the IPv6 interface you will need to down 
+the link.
+
+ Changes to your interfaces using the ip command are not persistent across reboots; when you 
+
+ ■ Note 
+reboot, you will lose any changes.

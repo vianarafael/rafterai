@@ -1,0 +1,17 @@
+This is required for installation, but not if upgrading.
+
+rootpw
+
+Specifies the password of the root user.
+
+timezone
+
+Specifies the time zone the host is in.
+
+You can also find a useful list of the available directives with explanations at http://pykickstart.
+
+readthedocs.io/en/latest/kickstart-docs.html#chapter-2-kickstart-commands-in-fedora.
+
+ ■ Tip 
+ if you are on CentoS, you can see an example Kickstart file that was created when you installed your 
+host in the /root/anaconda-ks.cfg file.

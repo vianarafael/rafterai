@@ -1,0 +1,3 @@
+The event can be the adding of a 
+peripheral device, like plugging in a USB memory stick. The kernel can then inform init of this action by 
+sending an event notice.

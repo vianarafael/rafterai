@@ -1,0 +1,3 @@
+In this example, there is also a ﬁ le that a 
+user tried to hide (myvi) . This is a copy of the vi command that, because of permission 
+and ownership, can change ﬁ les owned by root.

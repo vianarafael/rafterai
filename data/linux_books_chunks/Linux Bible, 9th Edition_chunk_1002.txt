@@ -1,0 +1,17 @@
+This command line enables you to 
+
+ﬁ nd ﬁ les that are owned by either joe or chris.
+
+$ find /var/all \( -user joe -o -user chris \) -ls
+679967 0 -rw-r--r-- 1 chris chris 0    Dec 31 2014 /var/all/cn
+679977 0 -rw-r--r-- 1 joe   joe   4379 Dec 31 2014 /var/all/jj
+679972 0 -rw-r--r-- 1 joe   sales 0    Dec 31 2014 /var/all/js
+
+ ■ This command line searches for ﬁ les owned by the user joe, but only those that 
+
+are not assigned to the group joe:
+
+$ find /var/all/ -user joe -not -group joe -ls
+679972 0 -rw-r--r-- 1 joe   sales 0    Dec 31 2014 /var/all/js
+
+ ■ You can also add multiple requirements on your searches.

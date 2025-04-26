@@ -1,0 +1,6 @@
+This is an extremely useful option, so you may as well enable it for all 
+users by adding it to the global section of the /etc/ssh/ssh_config file.
+
+Performing Quick and Secure File Transfers
+The SSH protocol allows for more than just remote logins. You can also use it to securely transfer files 
+between hosts.

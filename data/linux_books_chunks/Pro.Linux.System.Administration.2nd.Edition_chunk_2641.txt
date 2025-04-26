@@ -1,0 +1,15 @@
+Two private keys, ending with 
+
+.private, and two public keys, ending in .key.
+
+-rw-r--r-- 1 root bind  606 Jul  3 02:41  Kexample.net.+008+50331.key
+-rw------- 1 root bind 1776 Jul  3 02:41  Kexample.net.+008+50331.private
+-rw-r--r-- 1 root bind  605 Jul  3 02:44  Kexample.net.+008+62695.key
+-rw------- 1 root bind 1776 Jul  3 02:44  Kexample.net.+008+62695.private
+
+450
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+A copy of the private keys should be stored somewhere safe like we do with all highly sensitive 
+information.

@@ -1,0 +1,6 @@
+# addpart
+
+
+- Tell the kernel about the existence of the specified partition:
+
+`addpart {{device}} {{partition}} {{start}} {{length}}`

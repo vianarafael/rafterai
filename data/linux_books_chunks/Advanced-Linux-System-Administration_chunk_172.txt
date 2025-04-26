@@ -1,0 +1,203 @@
+RAID Levels
+
+RAID-
+Linear
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+RAID-0 (stripe)
+
+RAID-1 (mirror)
+
+1
+
+3
+
+5
+
+7
+
+2
+
+4
+
+6
+
+8
+
+1
+
+2
+
+3
+
+4
+
+1
+
+2
+
+3
+
+4
+
+ read
+ 0
+
+ write  redundancy
+ no
+ 0
+
+ read  write
+ +
+
+ +
+
+ redundancy
+ no
+
+read write  redundancy
+ +
+
+ yes
+
+  -
+
+RAID-4
+
+1
+
+3
+
+5
+
+7
+
+2
+
+4
+
+6
+
+8
+
+p
+
+p
+
+p
+
+p
+
+RAID-5
+
+1
+
+p
+
+5
+
+7
+
+2
+
+3
+
+p
+
+8
+
+p
+
+4
+
+6
+
+p
+
+ read
+ +
+
+ write
+ -
+
+ redundancy
+ yes
+
+ read
+ +
+
+ write
+ 0
+
+ redundancy
+ yes
+
+Spare Disks
+
+If spare disks are configured they will be used in the RAID array as soon as one of the 
+array disks fail.
+
+39
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Kernel and software components
+
+Software raid is handle by the following kernel module:
+
+RAID0
+
+RAID1
+
+RAID4 or RAID5
+
+raid0.o
+
+raid1.o
+
+raid5.o
+
+The raidtools package will provide these most common tools:
+
+Tool
+
+/sbin/lsraid
+
+/sbin/mkraid
+
+Description
+
+query raid devices
+
+create md devices from instructions given in /etc/raidtab
+
+/sbin/raidstart and raidstop
+
+start and stop the md devices 
+
+Once a meta device has been successfully created the information can be found in
+
+/proc/mdstats
+
+Booting from a RAID root device (exercise)
+
+1.

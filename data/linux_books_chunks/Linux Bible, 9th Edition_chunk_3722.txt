@@ -1,0 +1,6 @@
+NFS allows servers to designate speciﬁ c directories to make available to desig-
+nated hosts and then allows client systems to connect to those directories by mounting 
+them locally.
+
+NFS can be secured using ﬁ rewall (iptables) rules, TCP wrappers (to allow and deny 
+host access), and SELinux (to conﬁ ne how ﬁ le sharing protocols can share NFS resources).

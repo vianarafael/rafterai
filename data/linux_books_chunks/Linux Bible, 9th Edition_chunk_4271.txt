@@ -1,0 +1,5 @@
+If they match, the 
+software ﬁ le was not corrupted upon download.
+
+To create your hash, run the hashing algorithm on the ISO image after you download it, 
+using md5sum.

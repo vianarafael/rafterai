@@ -1,0 +1,21 @@
+You can see 
+
+that each log here consists of four things.
+
+•	
+
+•	
+
+•	
+
+•	
+
+A timestamp
+
+The hostname
+
+The service emitting the log
+
+The log message
+
+Looking further at the journalctl command, we will explore some of the options available with it.

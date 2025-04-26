@@ -1,0 +1,11 @@
+This 
+
+allows you to centralize your authentication services on the one host, reducing complexity, increasing 
+authentication security, and providing a central repository for all your staff details.
+
+We are going to show you how to set up both your LDAP service and authentication for an Apache 
+
+web service.
+
+Installation
+OpenLDAP is available on both CentOS and Ubuntu via their online repositories.

@@ -1,0 +1,9 @@
+When you create your own key and certiﬁ cate later, you need to replace the values of 
+SSLCertificateFile and SSLCertificateKeyFile in this ﬁ le.
+
+After installing the mod_ssl package and reloading the conﬁ guration ﬁ le, you can test 
+that the default certiﬁ cate is working by following these steps:
+
+1.  Open a connection to the website from a web browser, using the HTTPS 
+
+protocol.

@@ -1,0 +1,8 @@
+Specifying the asterisk symbol alone lists all files and 
+all directories and their contents.
+
+ You’ll see a lot more of the * symbol, as it is used on Linux much as it is on Windows. It indicates a 
+
+ ■ Tip 
+wildcard that is used to substitute for one or more characters; for example, you’ve just seen foo*, which means 
+anything starting with foo.

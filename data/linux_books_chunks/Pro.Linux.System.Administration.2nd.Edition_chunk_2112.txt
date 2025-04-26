@@ -1,0 +1,21 @@
+Now we can print what we have been doing by 
+
+selecting the p option.
+
+Command (? for help): p
+Disk /dev/sdb: 16777216 sectors, 8.0 GiB
+Logical sector size: 512 bytes
+Disk identifier (GUID): 1C42CAB1-754B-4B21-A7A9-D7CE87C8965B
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 16777182
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 4061 sectors (2.0 MiB)
+
+Number   Start (sector)      End (sector)      Size      Code     Name
+   1               2048           4194304      2.0 GiB   8300     Linux filesystem
+   2            4196352           8390655      2.0 GiB   8300     Linux filesystem
+   3            8390656          16777182      4.0 GiB   8300     Linux filesystem
+
+We haven’t written this partition table to the actual disk yet; if this doesn’t look right we can exit without 
+
+a worry with the q option.

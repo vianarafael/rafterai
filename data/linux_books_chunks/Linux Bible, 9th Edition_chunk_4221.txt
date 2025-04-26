@@ -1,0 +1,9 @@
+A rootkit is a malicious program that:
+
+ ■ Hides itself, often by replacing system commands or programs
+
+ ■ Maintains high-level access to a system
+
+ ■ Can circumvent software created to locate it
+
+The purpose of a rootkit is to get and maintain root-level access to a system.

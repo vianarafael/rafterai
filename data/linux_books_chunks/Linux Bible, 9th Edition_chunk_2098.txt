@@ -1,0 +1,1 @@
+Check the partitioning before saving by typing p.

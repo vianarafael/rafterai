@@ -1,0 +1,5 @@
+For example, Corresponding Source includes interface deﬁ nition ﬁ les associ-
+ated with source ﬁ les for the work, and the source code for shared libraries and dynami-
+cally linked subprograms that the work is speciﬁ cally designed to require, such as by 
+intimate data communication or control ﬂ ow between those subprograms and other parts 
+of the work.

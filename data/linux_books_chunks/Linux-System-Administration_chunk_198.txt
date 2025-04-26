@@ -1,0 +1,13 @@
+fg
+
+Running the fg command will bring a background job to the foreground. The number of the
+background job to bring forward is the parameter of fg.
+
+[paul@RHEL5 ~]$ jobs
+[1]   Running                 sleep 1000 &
+[2]-  Running                 sleep 1000 &
+[3]+  Running                 sleep 2000 &
+[paul@RHEL5 ~]$ fg 3
+sleep 2000
+
+3.1.6.

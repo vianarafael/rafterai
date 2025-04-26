@@ -1,0 +1,6 @@
+The next sections describe how to view and manage virtual memory.
+
+Uncovering memory issues
+Computers have ways of storing data permanently (hard disks) and temporarily (random 
+access memory, or RAM, and swap space). Think of yourself as a CPU, working at a desk try-
+ing to get your work ﬁ nished.

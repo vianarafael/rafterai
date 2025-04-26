@@ -1,0 +1,19 @@
+Let's take a look at the init process and /proc/1/ .
+
+The init process runs in domain init_t.
+
+[root@RHEL5 ~]# ps -ZC init
+LABEL                             PID TTY          TIME CMD
+system_u:system_r:init_t            1 ?        00:00:01 init
+
+The /proc/1/ directory, which identifies the init process, has type init_t.
+
+[root@RHEL5 ~]# ls -Zd /proc/1/
+dr-xr-xr-x  root root system_u:system_r:init_t         /proc/1/
+
+It is not a coincidence that the domain of the init process and the type of /proc/1/ are both
+init_t.
+
+Don't try to use chcon on /proc! It will not work.
+
+19.17.

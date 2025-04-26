@@ -1,0 +1,15 @@
+All these protocols are explained
+later in this chapter.
+
+[Protocols in Frame: eth:arp]
+
+Below is a protocol chart based on wireshark's knowledge. It contains some very common
+protocols that are discussed in this book. The chart does not contain all protocols.
+
+7
+
+general networking
+
+1.2. unicast, multicast, broadcast, anycast
+
+1.2.1.

@@ -1,0 +1,9 @@
+From those 
+panels, you can start applications (from buttons or menus), see what programs are active, 
+and monitor how your system is running. You can also change the top and bottom panels in 
+many ways—by adding applications or monitors or by changing the placement or behavior 
+of the panel, for example.
+
+2
+
+Right-click any open space on either panel to see the Panel menu.

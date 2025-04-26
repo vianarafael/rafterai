@@ -1,0 +1,15 @@
+In the next 
+
+chapter, we are going to give you an introduction to some of the tools we use to help quickly prototype our 
+installations. We will use these tools more throughout the rest of the book.
+
+72
+
+CHAPTER 3
+
+Introducing VirtualBox, Git, and 
+Vagrant
+
+By Dennis Matotek
+
+In Chapter 2 we showed you how to install Linux on a physical server from an ISO image.

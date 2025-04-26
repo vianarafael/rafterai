@@ -1,0 +1,9 @@
+This runs the most recent command 
+that contains a particular string of characters. For example, you can run the date 
+command again by just searching for part of that command line as follows:
+
+$ !?dat?
+dateWed Oct 29 21:32:41 PDT 2014
+
+Instead of just running a history command line immediately, you can recall a particular 
+line and edit it.

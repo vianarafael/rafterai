@@ -1,0 +1,6 @@
+We would store 
+that password value in our Ansible Vault–encrypted file, like we did the database password. The template 
+module syntax is similar to the copy module. For more information on templating, please see http://docs.
+ansible.com/ansible/template_module.html.
+
+There are other ways we can add values into files as well.

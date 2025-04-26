@@ -1,0 +1,13 @@
+To run a trial yum update from Fedora or RHEL and exclude any kernel package 
+that is available, type the following (when prompted, type N to not actually go 
+through with the update, if updates are available):
+
+# yum update --exclude='kernel*'
+
+8.  To check to see what processes are listening for incoming connections on your sys-
+
+tem, type the following:
+
+# netstat -tupln | less
+
+9.

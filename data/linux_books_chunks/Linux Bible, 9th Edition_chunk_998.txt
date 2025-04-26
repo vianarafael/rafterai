@@ -1,0 +1,3 @@
+The time options (-atime, -ctime, and -mtime) enable 
+you to search based on the number of days since each ﬁ le was accessed, was changed, or had 
+its metadata changed.

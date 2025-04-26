@@ -1,0 +1,9 @@
+Most Linux and Unix-like operating systems (Mac OS X, 
+for example) have SSH installed and have the ssh command available. To use the ssh command, you specify 
+your username and the host you’d like to connect to separated with the @ symbol, as you can see in Listing 4-1.
+
+110
+
+ChapTeR 4 ■ LInux BasICs
+
+Listing 4-1.

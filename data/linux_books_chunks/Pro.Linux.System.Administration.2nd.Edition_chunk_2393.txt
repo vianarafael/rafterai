@@ -1,0 +1,7 @@
+The rescue shell
+
+RESCUE AND CHROOT
+
+the chroot command allows you to run a “command or interactive shell with a special root directory.” 
+When we run in rescue mode we are first mounting our disks and then using chroot to change into 
+the root directory on our mounted devices.

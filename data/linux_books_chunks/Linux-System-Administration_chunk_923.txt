@@ -1,0 +1,17 @@
+compiling software
+
+First  and  most  important,  whenever  you  download  source  code  for  installation,  start  by
+reading the README file!
+
+Usually the steps are always the same three : running ./configure followed by make (which
+is the actual compiling) and then by make install to copy the files to their proper location.
+
+./configure
+make
+make install
+
+247
+
+package management
+
+20.11.

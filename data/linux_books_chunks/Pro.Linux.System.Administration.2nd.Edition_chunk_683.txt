@@ -1,0 +1,3 @@
+You can pretty much do this with any command that accepts input on the command line. 
+some useful commands that could be used with piping are sort (sorts input in a variety of ways), uniq 
+(generates a unique list), and wc (counts lines, words, etc.).

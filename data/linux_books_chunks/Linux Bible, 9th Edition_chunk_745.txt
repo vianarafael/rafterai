@@ -1,0 +1,6 @@
+These can help make working with the shell more efﬁ cient and effective:
+
+ ■ TMOUT—This sets how long the shell can be inactive before bash automatically 
+exits. The value is the number of seconds for which the shell has not received 
+input. This can be a nice security feature, in case you leave your desk while you are 
+still logged in to Linux.

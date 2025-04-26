@@ -1,0 +1,6 @@
+You can read about the 
+bonding module by typing modinfo bonding or by installing the kernel-docs pack-
+age and reading the bonding.txt ﬁ le from the /usr/share/doc/kernel-doc*/
+Documentation/networking/directory.
+
+Here is an example of the ﬁ le that deﬁ nes a bonded interface.

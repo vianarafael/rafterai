@@ -1,0 +1,6 @@
+You are graded on how well you 
+obtained the results of those tasks.
+
+If you plan to take the exams, check back to the exam objectives pages often, because they 
+change from time to time. Keep in mind also that the RHCSA is a standalone certiﬁ cation; 
+however, you must pass the RHCSA and the RHCE exams to get an RHCE certiﬁ cation.

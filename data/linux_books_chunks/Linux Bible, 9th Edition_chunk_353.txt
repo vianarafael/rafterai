@@ -1,0 +1,9 @@
+Otherwise, conﬁ gure the sshd.
+conf ﬁ le as needed. Chapter 13 describes how to conﬁ gure the sshd service.
+
+ ■ Network Time server—Conﬁ gure a Network Time Protocol server (ntpd) to syn-
+
+chronize time with other NTP peers. See Chapter 26 for information on conﬁ guring 
+the ntpd service.
+
+ ■ Database server—Conﬁ gure the MariaDB database and manage it in various ways.

@@ -1,0 +1,14 @@
+(optional) Protect your keypair with a passphrase, then add this key to the ssh-agent
+and test your passwordless ssh to the server.
+
+57
+
+ssh client and server
+
+man ssh-keygen
+man ssh-agent
+man ssh-add
+
+58
+
+Chapter 6.

@@ -1,0 +1,27 @@
+To see the documentation ﬁ les in 
+the vsftpd package, use the following:
+
+# rpm -qd vsftpd
+/usr/share/doc/vsftpd-3.0.2-6/EXAMPLE/INTERNET_SITE/README
+...
+/usr/share/doc/vsftpd-3.0.2-6/EXAMPLE/PER_IP_CONFIG/README
+...
+
+479
+
+c18.indd  04/01/2015  Page 480
+
+Part IV: Becoming a Linux Server Administrator
+
+/usr/share/doc/vsftpd-3.0.2-6/EXAMPLE/VIRTUAL_HOSTS/README
+/usr/share/doc/vsftpd-3.0.2-6/EXAMPLE/VIRTUAL_USERS/README
+...
+/usr/share/doc/vsftpd-3.0.2-6/FAQ
+...
+/usr/share/doc/vsftpd-3.0.2-6/vsftpd.xinetd
+/usr/share/man/man5/vsftpd.conf.5.gz
+/usr/share/man/man8/vsftpd.8.gz
+
+In the /usr/share/doc/vsftpd-*/EXAMPLE directory structure, there are sample 
+ conﬁ guration ﬁ les included to help you conﬁ gure vsftpd in ways that are appropriate for 
+an Internet site, multiple IP address site, and virtual hosts.

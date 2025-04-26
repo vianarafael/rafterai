@@ -1,0 +1,13 @@
+A database server is usually built lovingly, with disk arrays created and the operating 
+system installed and tuned. In this scenario, provided you have recent data, rebuilding this host can 
+take a long time.
+
+Of course, there are a couple of ways around this time recovery time.
+
+•	
+
+•	
+
+•	
+
+The best is having primary/secondary databases.

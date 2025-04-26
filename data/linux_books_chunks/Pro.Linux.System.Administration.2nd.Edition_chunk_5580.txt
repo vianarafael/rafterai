@@ -1,0 +1,5 @@
+You can read more about that here: https://maas.ubuntu.com/docs/juju-
+quick-start.html.
+
+You can see how it works here: https://maas.io/how-it-works. There is a quick get-started tutorial 
+here: https://maas.io/get-started.

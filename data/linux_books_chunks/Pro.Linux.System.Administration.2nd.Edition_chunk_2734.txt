@@ -1,0 +1,5 @@
+We’ll 
+set up key-based authentication, use ssh to copy files between hosts, and make use of tunnels to access 
+remote services through a firewall.
+
+When you connect to a host via SSH, you are asked to enter your password.

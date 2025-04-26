@@ -1,0 +1,3 @@
+The –L asks for information about the server; the –U jjones says to log in the user jjones. If you get a 
+positive name query response after you enter a password, you should see a list of shared printers and fi les from that 
+server.

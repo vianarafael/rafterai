@@ -1,0 +1,7 @@
+Another reason for 
+using a different fi lesystem type is to copy an image backup tape from another operating system to your local disk 
+(such as a legacy fi lesystem from an OS/2 or Minix operating system).
+
+Coming from Windows
+If you have only used Windows operating systems before, you probably had your whole hard disk 
+assigned to C: and never thought about partitions.

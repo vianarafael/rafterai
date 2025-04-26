@@ -1,0 +1,9 @@
+Red Hat, and most distributions based on it, 
+make use of the Red Hat Package Management (RPM) packaging system.
+
+4
+
+ChApTeR 1 ■ InTRoDuCIng LInux
+
+At the time of writing, RHEL costs start at approximately $350 a year for basic support and range up to 
+$1,500 for premium support.

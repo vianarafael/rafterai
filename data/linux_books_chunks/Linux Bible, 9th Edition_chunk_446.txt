@@ -1,0 +1,14 @@
+To change the look of the desktop, 
+
+44
+
+c02.indd  04/01/2015  Page 45
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+select the Appearance category and change the Icons theme and GTK+ theme as you like 
+from drop-down boxes.
+
+Starting with desktop applications
+The Fedora GNOME 3 desktop live DVD comes with some cool applications you can start 
+using immediately.

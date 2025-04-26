@@ -1,0 +1,4 @@
+Run the smbclient -L 
+command again, followed by the IP address of the server. This time, the last few lines of 
+the output should show information obtained from the NetBIOS server now running on the 
+server.

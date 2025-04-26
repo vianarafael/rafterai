@@ -1,0 +1,7 @@
+The use of asymmetric encryption during the handshaking phase allows safe communica-
+tion without the use of a preshared key, and the symmetric encryption is faster and more 
+practical for use on the session data.
+
+For the client to verify the identity of the server, the server must have a previously 
+ generated private key, as well as a certiﬁ cate containing the public key and information 
+about the server.

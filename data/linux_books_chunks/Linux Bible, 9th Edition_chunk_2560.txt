@@ -1,0 +1,6 @@
+This allows you to set which DNS servers your system uses 
+without fear of that information being erased by data that is provided by the DHCP 
+server.
+
+ ■ DNS?—If an ifcfg ﬁ le is being managed by NetworkManager, it sets the address 
+of DNS servers using DNS? entries.

@@ -1,0 +1,13 @@
+Available only 
+on CentOS, the –r option lets you create a system group and will ensure the group is assigned a GID within 
+the range for system groups.
+
+When we try to create the ataylor user, we succeed because the prerequisite groups now exist.
+
+$ sudo useradd -m -c 'Anne Taylor' -G printing,finance ataylor
+
+We can also add existing users to groups using the usermod command.
+
+$ sudo usermod -a -G accounts ataylor
+
+The usermod command is used to modify existing users.

@@ -1,0 +1,8 @@
+To install the Very Secure FTP Daemon package on your system and search for the 
+
+conﬁ guration ﬁ les in that package, type the following:
+
+# yum install vsftpd
+# rpm -qc vsftpd | less
+
+3.

@@ -1,0 +1,2 @@
+What we will do to make it slightly harder for an attacker is limit the commands our SSH keys can be 
+used for. On our remote hosts, we will create an executable file called ssh_limiter.sh.

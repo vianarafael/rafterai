@@ -1,0 +1,12 @@
+We can 
+
+restrict access to this from only internal IP addresses.
+
+<Directory /var/www/html/www.example.com/uploads>
+    Options -Indexes -FollowSymLinks
+    AllowOverride None
+    Require ip 192.168.0
+</Directory>
+
+The module mod_authz_host provides us with the facility to restrict access to parts of the site based on 
+IP address.

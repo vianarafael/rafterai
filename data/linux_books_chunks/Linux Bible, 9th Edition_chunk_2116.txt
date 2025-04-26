@@ -1,0 +1,35 @@
+Keep 
+in mind that most tools in Linux display storage data in MiB and GiB, although some can display MB and GB as well.
+
+Next, you want to see information about the volume group:
+
+# vgdisplay vg_abc
+  --- Volume group ---
+  VG Name               vg_abc
+  System ID         
+
+296
+
+c12.indd  04/01/2015  Page 297
+
+Chapter 12: Managing Disks and Filesystems
+
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  4
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                3
+  Open LV               3
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               148.52 GiB
+  PE Size               4.00 MiB
+  Total PE              38021
+  Alloc PE / Size       38021 / 148.52 GiB
+  Free  PE / Size       0 / 0
+  VG UUID               c2SGHM-KU9H-wbXM-sgca-EtBr-UXAq-UnnSTh
+
+You can see that all of the 38,021 PEs have been allocated.

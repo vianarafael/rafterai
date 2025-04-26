@@ -1,0 +1,7 @@
+Asymmetric 
+ cryptography is much more complicated and often is a point of confusion in cryptography.
+
+Asymmetric key cryptography
+Asymmetric cryptography, also called private/public key cryptography, uses two keys, called 
+a key pair. A key pair consists of a public key and a private key. The public key is just 
+that—public. There is no need to keep it secret.

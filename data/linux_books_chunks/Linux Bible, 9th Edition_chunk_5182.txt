@@ -1,0 +1,11 @@
+Find all ﬁ les under the /usr/share directory that 
+are more than 5MB and less than 10MB and copy them to the /tmp/FILES directory.
+
+$ mkdir /tmp/FILES
+$ find /usr/share -size +5M -size -10M -exec cp {} /tmp/FILES \;
+$ du -sh /tmp/FILES/*
+7.0M   /tmp/FILES/cangjie5.db
+5.4M   /tmp/FILES/cangjie-big.db
+8.3M   /tmp/FILES/icon-theme.cache
+
+8.

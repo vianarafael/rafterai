@@ -1,0 +1,19 @@
+What that means is:
+
+ ■ You cannot see the code used to create the operating system.
+
+ ■ You, therefore, cannot change the operating system at its most basic levels if it 
+
+doesn’t suit your needs—and you can’t use the operating system to build your own 
+operating system from source code.
+
+ ■ You cannot check the code to ﬁ nd bugs, explore security vulnerabilities, or simply 
+
+learn what that code is doing.
+
+ ■ You may not be able to easily plug your own software into the operating system if 
+the creators of that system don’t want to expose the programming interfaces you 
+need to the outside world.
+
+You might look at those statements about proprietary software and say, “What do I care? I’m 
+not a software developer.

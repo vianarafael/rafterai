@@ -1,0 +1,5 @@
+The 
+ hostname assigned to the system (in this case FEDORA21) is assigned by default.
+
+However, if you have a ﬁ rewall conﬁ gured or SELinux enabled, you may not be able to fully 
+access the Samba server from a remote system yet.

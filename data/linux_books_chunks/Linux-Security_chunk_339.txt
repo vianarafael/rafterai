@@ -1,0 +1,13 @@
+Create a hard link to winter.txt named hlwinter.txt.
+
+ln winter.txt hlwinter.txt
+
+3. Display the inode numbers of these three files, the hard links should have the same inode.
+
+ls -li winter.txt summer.txt hlwinter.txt
+
+4. Use the find command to list the two hardlinked files
+
+find . -inum xyz #replace xyz with the inode number
+
+5.

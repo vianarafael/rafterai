@@ -1,0 +1,18 @@
+It is a good idea to change your ufw default policy 
+
+to deny to deny access to ports unless explicitly allowed.
+
+$ sudo ufw default deny
+
+This should be done with some caution as it can block other legitimate processes listening on the host.
+
+ ■ Note 
+
+ We discussed iptables in Chapter 7.
+
+608
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Mounting Samba Shares on Linux
+Linux hosts can also mount Windows shares using the mount command and the cifs type.

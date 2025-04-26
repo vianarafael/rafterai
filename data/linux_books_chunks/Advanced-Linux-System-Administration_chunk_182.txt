@@ -1,0 +1,13 @@
+This command will start the LVM 
+environment by scanning all the volume groups and build the /etc/lvmtab as well as 
+databases in /etc/lvmtab.d which are used by all the other LVM tools.
+
+Main LVM tools :
+
+PV tools:
+
+pvcreate, pvmove, pvchange, pvdisplay, pvscan ...
+
+VG tools:
+
+vgcreate, vgremove, vgchange, vgdisplay, vgscan ...

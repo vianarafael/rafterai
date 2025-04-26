@@ -1,0 +1,4 @@
+The at sign (@) indicates that the name that follows is 
+the name of the loghost.
+
+By default, logging is done only to local ﬁ les in the /var/log directory.

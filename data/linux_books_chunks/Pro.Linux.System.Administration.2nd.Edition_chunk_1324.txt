@@ -1,0 +1,8 @@
+If you choose to configure one of the interfaces you can see that 
+the options are similar to what we saw when we were installing our server.
+
+227
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+We have seen this before; in Figure 7-5 we are adding the 192.168.10.1 address.

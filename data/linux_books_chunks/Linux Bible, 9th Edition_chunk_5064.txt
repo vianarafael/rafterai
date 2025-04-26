@@ -1,0 +1,18 @@
+The names typically include 
+
+the names of the operating systems you are booting.
+
+764
+
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 765
+
+Chapter 27: Deploying Linux to the Cloud
+
+ ■ Device size and Device Name (optional)—If, when you selected your Instance 
+Boot Source, you selected to include a new volume, you set the size (in GB) and 
+device name for the volume in these ﬁ elds.

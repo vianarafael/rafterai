@@ -1,0 +1,11 @@
+Installation complete
+
+If you were using a CD or DVD, it should eject automatically. If you used a USB thumb drive, remove 
+that and select Continue. Your system will now reboot and you will be presented with a password prompt 
+(see Figure 2-69) to decrypt your hard drives.
+
+69
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-69.

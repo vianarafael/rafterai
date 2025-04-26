@@ -1,0 +1,43 @@
+This script initializes hardware, sets some basic environment, populates /etc/mtab
+while mounting file systems, starts swap and more.
+
+[paul@rhel ~]$ egrep -e"^# Ini" -e"^# Sta" -e"^# Che" /etc/rc.d/rc.sysinit
+# Check SELinux status
+# Initialize hardware
+# Start the graphical boot, if necessary; /usr may not be mounted yet...
+# Initialiaze ACPI bits
+# Check filesystems
+# Start the graphical boot, if necessary and not done yet.
+# Check to see if SELinux requires a relabel
+# Initialize pseudo-random number generator
+# Start up swapping.
+# Initialize the serial ports.
+
+That egrep command could also have been written with grep like this :
+
+grep "^# \(Ini\|Sta\|Che\)".
+
+/etc/init.d/rcS
+
+Debian has the following line after initdefault.
+
+si::sysinit:/etc/init.d/rcS
+
+The /etc/init.d/rcS script will always run on Debian (independent of the selected runlevel).
+The script is actually running all scripts in the /etc/rcS.d/ directory in alphabetical order.
+
+root@barry:~# cat /etc/init.d/rcS 
+#! /bin/sh
+#
+# rcS
+#
+# Call all S??* scripts in /etc/rcS.d/ in numerical/alphabetical order
+#
+
+exec /etc/init.d/rc S
+
+172
+
+init and runlevels
+
+15.1.5.

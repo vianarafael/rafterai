@@ -1,0 +1,7 @@
+The audit daemon is an extremely powerful auditing tool that allows you to select 
+system events to track and record them, and provides reporting capabilities.
+
+To begin auditing the /etc/passwd and /etc/group ﬁ les, you need to use the auditctl 
+command. Two options at a minimum are required to start this process:
+
+ ■ -w filename—Place a watch on filename.

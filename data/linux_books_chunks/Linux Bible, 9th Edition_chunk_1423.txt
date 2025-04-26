@@ -1,0 +1,9 @@
+For 
+example, you can type the following:
+
+# /sbin/modinfo -d e1000
+Intel(R) PRO/1000 Network Driver
+
+Not all modules have descriptions available and, if nothing is available, no data is 
+returned. In this case, however, the e1000 module is described as an Intel(R) PRO/1000 
+Network Driver module.

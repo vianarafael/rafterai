@@ -1,0 +1,11 @@
+However, if SELinux is in Enforcing mode, a few SELinux issues could cause 
+your vsftpd server to not behave as you would like. Use the following commands to check 
+the state of SELinux on your system:
+
+# getenforce
+Enforcing
+# grep ^SELINUX= /etc/sysconfig/selinux
+SELINUX=enforcing
+
+The getenforce command shows how SELinux is currently set (here, it’s in Enforcing 
+mode).

@@ -1,0 +1,9 @@
+When your system has started you can move between these targets by 
+issuing the following command:
+
+$ sudo systemctl isolate graphical.target
+
+What this command will do look at the graphical.target unit file, determine if it has AllowIsolate=yes, 
+then execute the Requires, Conflicts, After, Wants and other directives to bring the system to that “state.” You 
+will notice when you look at the graphical.target unit file (found in /lib/systemd/system directory) that it 
+Requires the multiuser target and should not start until After it is completed.

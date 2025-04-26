@@ -1,0 +1,5 @@
+Completed installation ready for Reboot
+
+Your system will begin to restart and present to you the GRUB2 (GRand Unified Bootloader) boot 
+loader. The boot loader is the small bit of code that actually loads your operating system. This allows you to 
+choose the operating system to boot into or boot into other operating systems you might have installed.

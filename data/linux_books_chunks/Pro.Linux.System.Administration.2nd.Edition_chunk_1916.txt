@@ -1,0 +1,7 @@
+We’ll take only a brief look at dpkg because you won’t have much need to use 
+it often.
+
+Aptitude
+You can work with the aptitude tool in two ways: interactively via menus and dialog boxes or by passing it 
+instructions via the command line. For beginning users, the easiest way is to use aptitude’s menu-based 
+user interface.

@@ -1,0 +1,2 @@
+Type firewall-config, then make sure that nfs and rpc-bind are 
+checked in the window to open the appropriate ports to allow access to your NFS service.

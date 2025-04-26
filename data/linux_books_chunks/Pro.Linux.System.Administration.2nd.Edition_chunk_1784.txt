@@ -1,0 +1,4 @@
+In the old days, installing a package or updating an application 
+could involve hours of hunting for dependencies, packages that should be on your system before you install and 
+use another package. Before these managers arrived, you had to build all your applications from source code 
+and deal with all the conflicts that arose. nowadays it is much simpler.

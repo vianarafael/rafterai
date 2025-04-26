@@ -1,0 +1,10 @@
+On CentOS, we should create the startup links via 
+
+systemctl first.
+
+$ sudo systemctl enable squid
+
+We can now start Squid via sudo systemctl start squid on CentOS or restart it on Ubuntu via sudo 
+
+service squid restart. On CentOS, the cache directory we specified will be created when Squid first 
+starts.

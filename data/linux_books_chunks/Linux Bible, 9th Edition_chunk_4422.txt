@@ -1,0 +1,6 @@
+Many of the special 
+ requirements require you to make a change to PAM system event conﬁ guration ﬁ les, such 
+as /etc/pam.d/system-auth-ac.
+
+The problem with making changes to some of these PAM system event conﬁ guration ﬁ les is 
+that the utility authconfig can rewrite these ﬁ les and remove any locally made changes.

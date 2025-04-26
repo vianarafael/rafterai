@@ -1,0 +1,33 @@
+We are going to use the connection object to modify our interface and add multiple IP addresses 
+as follows:
+
+sudo nmcli con mod da717740-45eb-4c45-b324-7d78006bb657 ipv4.addresses '192.168.14.10/24, 
+172.10.2.1/16, 10.2.2.2/8'
+
+If we now look inside the /etc/sysconfig/network-script/ifcfg-enp0s3 file we can see we have our 
+
+IP addresses added.
+
+TYPE=Ethernet
+BOOTPROTO=dhcp
+DEFROUTE=yes
+<snip>
+NAME=enp0s3
+UUID=da717740-45eb-4c45-b324-7d78006bb657
+DEVICE=enp0s3
+ONBOOT=yes
+
+241
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+<snip>
+IPV6_PEERROUTES=yes
+IPADDR=192.168.14.10
+PREFIX=24
+IPADDR1=172.10.2.1
+PREFIX1=16
+IPADDR2=10.2.2.2
+PREFIX2=8
+
+Here you can see we have added two IPv4 addresses, IPADDR, IPADDR1 and IPADDR2.

@@ -1,0 +1,3 @@
+/var/log/wtmp
+
+halt, reboot and poweroff all write to /var/log/wtmp.

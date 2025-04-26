@@ -1,0 +1,3 @@
+While several ciphers can handle both encryption and creating 
+signatures, there are a few whose only job is to create digital signatures. The most popular cryptographic ciphers to 
+use in creating signatures are RSA and Digital Signature Algorithm (DSA).

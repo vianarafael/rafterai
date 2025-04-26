@@ -1,0 +1,18 @@
+We can do that by issuing the following:
+
+$ id bareos
+uid=899(bareos) gid=986(bareos) groups=986(bareos),6(disk),30(tape)
+
+Now we will create the directory and then change the ownership and mode of the directory.
+
+$ sudo mkdir /mnt/FileStore && \
+  sudo chown 899:986 /mnt/FileStore && \
+  sudo chmod 2770 /mnt/FileStore
+
+We can now unmount the directory.
+
+$ sudo umount /mnt
+
+Now we need to change the /etc/bareos/bareos-dir.conf and /etc/bareos/bareos-sd.d/device-
+
+gluster.conf files.

@@ -1,0 +1,10 @@
+(See Chapter 10, 
+“Getting and Managing Software,” for the basics on how to manage software packages.) 
+Despite efforts to make it all work, however, sometimes software packaging can break.
+
+The following sections describe some common problems you can encounter with RPM 
+ packages on a RHEL or Fedora system and how you can overcome those problems.
+
+Sometimes, when you try to install or upgrade a package using the yum command, error 
+messages tell you that the dependent packages you need to do the installation you want 
+are not available.

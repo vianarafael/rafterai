@@ -1,0 +1,40 @@
+If we look at the rule files in the /etc/ufw/ directory we can see the instructions that ufw uses 
+to create the Netfilter rulesets.
+
+Let’s now show some of the basic commands.
+You enable or disable ufw like so:
+
+$ sudo ufw enable|disable
+
+To get an output of current firewall status:
+
+$ sudo ufw status numbered
+Status: active
+
+   To             Action     From
+   --             ------       ----
+[ 1] 22/tcp        ALLOW IN  Anywhere
+[ 2] 22/tcp (v6)     ALLOW IN  Anywhere (v6)
+
+This is saying we are going to allow traffic coming in (ALLOW IN), that originates from any network 
+
+(Anywhere), and, that is destined for port TCP 22 (on both IPv4 and IPv6 interfaces).
+
+270
+
+You can add another rule like the following to allow http traffic to any local interface:
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+$ sudo ufw allow 80/tcp
+Rule added
+Rule added (v6)
+$ sudo ufw status numbered
+...
+[ 3] 80             ALLOW IN  Anywhere
+[ 4] 80 (v6)         ALLOW IN  Anywhere (v6)
+...
+
+In the above you can see that we have added access to port 80 from anywhere on all IPv4 and IPv6 
+
+interfaces.

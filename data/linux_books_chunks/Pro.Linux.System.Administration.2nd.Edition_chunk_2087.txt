@@ -1,0 +1,5 @@
+gpt does not have that restriction and can be used on any size disk. this leads to differences 
+in the way you can carve up your disks.
+
+With MBr, partitions come in three flavors: physical, extended, and logical. this is because only a 
+limited amount of partition information can be stored in the 64 bytes that are available for such data.

@@ -1,0 +1,7 @@
+This can give you several 
+AVC denials.
+
+For example, if your system’s scripts are no longer able to connect to the network and you 
+are getting AVC denials in your logs, you need to check the httpd Booleans. Use the 
+getsebool -a command, and pipe it into grep to search for any Booleans that affect 
+httpd.

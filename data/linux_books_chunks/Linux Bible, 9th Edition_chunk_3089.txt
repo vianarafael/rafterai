@@ -1,0 +1,7 @@
+Likewise, any directory the httpd daemon 
+must traverse to get to the content must have execute permission on for the apache user, 
+apache group, or other user.
+
+Although you cannot log in as the apache user (/sbin/nologin is the default shell), 
+you can create content as root and change its ownership (chown command) or permission 
+(chmod command).

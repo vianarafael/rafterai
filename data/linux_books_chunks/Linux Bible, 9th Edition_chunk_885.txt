@@ -1,0 +1,12 @@
+1 joe root 0 Dec 19 11:23 /home/joe/memo.txt
+
+Notice that the chown command changed the user to joe but left the group as root. To 
+change both user and group to joe, you could type the following instead:
+
+4
+
+# chown joe:joe /home/joe/memo.txt
+# ls -l /home/joe/memo.txt
+-rw-r--r--. 1 joe joe 0 Dec 19 11:23 /home/joe/memo.txt
+
+The chown command can be use recursively as well.

@@ -1,0 +1,8 @@
+The RHEL Installation Guide describes how to 
+set up an installation server (https://access.redhat.com/documentation/
+en-US/Red_Hat_Enterprise_Linux/7/html-single/Installation_Guide/
+index.html#sect-making-media-sources-network).
+
+ ■ PXE server—If you have a computer with a network interface card that supports 
+PXE booting (as most do), you can set your computer’s BIOS to boot from that 
+NIC.

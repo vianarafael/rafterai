@@ -1,0 +1,13 @@
+COMMENT would show the name of the remote computer the user 
+had logged in from, if that user had logged in from another computer on the network, or the 
+name of the local X display if that user were using a Terminal window (such as :0.0).
+
+73
+
+c03.indd  04/01/2015  Page 74
+
+Part II: Becoming a Linux Power User 
+
+Locating commands
+Now that you have typed a few commands, you may wonder where those commands are 
+located and how the shell ﬁ nds the commands you type.

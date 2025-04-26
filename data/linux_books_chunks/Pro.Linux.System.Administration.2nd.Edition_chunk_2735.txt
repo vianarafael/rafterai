@@ -1,0 +1,6 @@
+This is fine if you need to 
+type it once a day, but if you connect to remote hosts often, it can become time-consuming, especially if you 
+have a secure, long password.
+
+SSH allows you to use key-based authentication instead. To make use of this, you create public and 
+private keys and then copy the public key to the remote servers you want to connect to.

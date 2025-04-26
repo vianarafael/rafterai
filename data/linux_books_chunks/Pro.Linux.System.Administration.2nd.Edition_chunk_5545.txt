@@ -1,0 +1,2 @@
+It can take either a plain-text 
+value or an encrypted value for the root user’s password when the --iscrtypted option is specified.

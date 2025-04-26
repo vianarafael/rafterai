@@ -1,0 +1,6 @@
+Follow the instructions from the 
+Pyrite page to download and install it. With Pyrite, you can encrypt and decrypt fi les using  passwords 
+or keys and a variety of ciphers (AES256, Twofi sh, CAST5, and so on).
+
+To try Pyrite, type some text in the Message Input/Output box, encrypt it, and copy the output to a 
+fi le to send to another person who could decrypt it (given the proper credentials).

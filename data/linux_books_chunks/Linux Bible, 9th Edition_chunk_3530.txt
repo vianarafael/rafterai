@@ -1,0 +1,6 @@
+After that, the user jim can change the password by simply 
+typing smbpasswd when he is logged in. The root user can change the password by rerun-
+ning the command shown in the example, but dropping the -a option.
+
+If you wanted to give jim access to a share, you could add a valid users line to that 
+shared block in the smb.conf ﬁ le.

@@ -1,0 +1,11 @@
+Remove fi les 
+or directories from the directory.
+
+Execute
+
+Run the fi le as a 
+program.
+
+Change to the directory as the current directory, search 
+through the directory, or execute a program from the 
+directory.

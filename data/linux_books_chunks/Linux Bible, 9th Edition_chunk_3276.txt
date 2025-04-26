@@ -1,0 +1,13 @@
+Type man vsftpd.conf to read about the conﬁ guration ﬁ le and man 
+vsftpd to read about the daemon process.
+
+To list the conﬁ guration ﬁ les, type the following:
+
+# rpm -qc vsftpd
+/etc/logrotate.d/vsftpd
+/etc/pam.d/vsftpd
+/etc/vsftpd/ftpusers
+/etc/vsftpd/user_list
+/etc/vsftpd/vsftpd.conf
+
+The main conﬁ guration ﬁ le is /etc/vsftpd/vsftpd.conf.

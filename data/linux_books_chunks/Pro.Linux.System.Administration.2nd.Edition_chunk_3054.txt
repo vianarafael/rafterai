@@ -1,0 +1,11 @@
+You will be 
+prompted for the two-letter country code, for example, US for the United States, GB for Great Britain, and AU 
+for Australia.
+
+ You can find a full list of country codes at www.nationsonline.org/oneworld/country_code_
+
+ ■ Note 
+list.htm.
+
+You will also be prompted for the state, municipality, and name of your organization and optionally an 
+organizational unit in your organization.

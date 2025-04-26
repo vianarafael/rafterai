@@ -1,0 +1,15 @@
+These files contain the LDAP settings you have specified in slapd.conf and other included files 
+in an LDIF file format.
+
+762
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+ you can see more about managing the configuration of your OpenLDAP server at https://help.
+
+ ■ Note 
+ubuntu.com/lts/serverguide/openldap-server.html.
+
+For troubleshooting, it can often be useful to run the SLAPD daemon in debug mode in the foreground 
+
+to see exactly what the service is doing.

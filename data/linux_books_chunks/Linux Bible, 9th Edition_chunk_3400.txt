@@ -1,0 +1,7 @@
+As an alternative, you can directly edit Samba conﬁ guration ﬁ les 
+(particularly smb.conf) and run a few commands to conﬁ gure Samba.
+
+Working with Samba SWAT
+I do not cover this topic in this chapter, but many people prefer the Samba SWAT interface to directly 
+editing confi guration fi les. On some Linux distributions, Samba SWAT may be the only point-and-click 
+interface available.

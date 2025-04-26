@@ -1,0 +1,24 @@
+Table 9.3 provides the necessary commands, along with what to tell the  system to do.
+
+TABLE 9.3    Boot Options for VNC Installations
+
+Boot Option
+
+vnc
+
+Tells System
+
+Run installation as a VNC server
+
+vncconnect=hostname[:port]
+
+Connect to VNC client hostname and optional port
+
+vncpassword=<password>
+
+Client uses password (at least 8 characters) to connect to 
+installer
+
+Boot options for kickstarts and remote repositories
+You can boot the installation process from an installation medium that contains little 
+more than the kernel and initial RAM disk.

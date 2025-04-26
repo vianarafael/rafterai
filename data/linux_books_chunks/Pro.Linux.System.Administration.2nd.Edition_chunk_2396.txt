@@ -1,0 +1,11 @@
+In this 
+case, we can’t use symbolic links, as they would point to a target outside the chroot, which is not 
+accessible from inside the chroot itself.
+
+# mount –o bind /dev /mnt/dev
+# mount –o bind /proc /mnt/proc
+
+410
+
+When the bind mounts are done, we can chroot to the mounted root filesystem and run a Bash shell 
+there.

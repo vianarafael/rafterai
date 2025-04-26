@@ -1,0 +1,3 @@
+This means it will try to validate the replies from 
+
+dns servers with DNSSEC enabled if it receives a delegated signer record.

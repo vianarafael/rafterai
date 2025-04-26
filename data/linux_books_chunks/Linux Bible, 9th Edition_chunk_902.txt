@@ -1,0 +1,13 @@
+These tasks assume you are running a Fedora or Red Hat 
+Enterprise Linux system (although some tasks work on other Linux systems as well). 
+
+115
+
+c04.indd  04/01/2015  Page 116
+
+Part II: Becoming a Linux Power User
+
+If you are stuck, solutions to the tasks are shown in Appendix B (although in Linux, there 
+are often multiple ways to complete a task).
+
+1.

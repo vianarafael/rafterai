@@ -1,0 +1,8 @@
+To verify which ports are being used by the httpd server, use the netstat command:
+
+# netstat -tupln | grep httpd
+tcp6   0      0 :::80         :::*          LISTEN     29169/httpd
+tcp6   0      0 :::443        :::*          LISTEN     29169/httpd
+
+The output shows that the httpd daemon (process ID 29169) is listening on all addresses 
+for port 80 (:::80) and port 443 (:::443).

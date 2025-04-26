@@ -1,0 +1,6 @@
+Your server’s address will keep changing, and you will 
+need to keep changing the delegation information in the WHOIS database.
+
+An alternative solution is dynamic DNS, which is available from various providers on the Internet. With 
+
+this solution, the dynamic DNS provider hosts DNS servers.

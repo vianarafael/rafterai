@@ -1,0 +1,12 @@
+You can also choose to use an AWS Marketplace–bundled EC2 instance that 
+allows you to pay an hourly price and removes some of the administrative burden to set it up.
+
+It works in a client/server model, with a server running on your host and clients connecting to the 
+
+server and creating VPN tunnels.
+
+ ■ Note 
+
+ other Linux-based VpN solutions are available, including ipsec implementations such as openswan.
+
+OpenVPN runs on a variety of platforms including Linux, Solaris, macOS, and Microsoft Windows.

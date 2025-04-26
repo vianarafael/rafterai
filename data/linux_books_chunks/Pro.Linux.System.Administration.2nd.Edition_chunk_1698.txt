@@ -1,0 +1,10 @@
+The –g 
+
+says go to the user chain IN_public and continue processing there instead of returning to INPUT_ZONES.
+
+281
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+A packet will land into IN_public, then jump to IN_public_log, return to IN_public, jump to IN_
+public_deny, return to IN_public and then jump to IN_public_allow.

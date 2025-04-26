@@ -1,0 +1,9 @@
+To merge back to master, issue the following commands:
+
+$ git checkout master
+$ git pull origin master
+$ git merge my_change
+
+What we are doing above is that we are first leaving our my_change branch and checking out the master 
+
+branch—the master branch is normally the branch from which production code is taken from.

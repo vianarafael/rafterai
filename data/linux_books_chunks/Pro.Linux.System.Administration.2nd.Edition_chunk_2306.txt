@@ -1,0 +1,2 @@
+In the case of our RAID 1 array, you can see that /dev/sdc and /dev/sdd are both active and in 
+sync. This means any data written to the RAID device is immediately written to both /dev/sdc and /dev/sdd.

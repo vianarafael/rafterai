@@ -1,0 +1,23 @@
+At least i’m not sending passwords over the wire where 
+they can be intercepted.”
+
+You can read more about these different authentication methods at the following pages in the 
+
+OpenLDAP Administrator’s Guide:
+
+•	
+
+•	
+
+www.openldap.org/doc/admin24/security.html#Authentication%20Methods
+
+www.openldap.org/doc/admin24/sasl.html
+
+Implementation
+Before we show you how to install the OpenLDAP server on our example system, we need to go over a few 
+details of the implementation.
+
+•	 We will set a CNAME in our DNS that will point ldap.example.com to the 
+
+headoffice.example.com record or define some other DNS A record to the host on 
+which we are installing our LDAP server.

@@ -1,0 +1,6 @@
+# apt moo
+
+
+- Print a cow easter egg:
+
+`apt moo`

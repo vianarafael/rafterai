@@ -1,0 +1,6 @@
+For example, you could have someone on the sales team manage the membership of 
+the sales group. You can read about gpasswd in more detail on its man page.
+
+Deleting Users and Groups
+In addition to creating and modifying users and groups, you will also want to be able to delete them. You can 
+use the following two commands to do this: userdel and groupdel.

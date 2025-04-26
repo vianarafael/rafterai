@@ -1,0 +1,12 @@
+Here is a list of all possible actions.
+
+root,user1      list of users, separated by comma's
+*               message to all logged on users
+/               file (can be a printer, a console, a tty, ...)
+-/              file, but don't sync after every write
+|               named pipe
+@               other syslog hostname
+
+In addition, you can prefix actions with a - to omit syncing the file after every logging.
+
+17.2.7.

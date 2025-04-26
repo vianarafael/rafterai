@@ -1,0 +1,7 @@
+When we look at vmstat, we see the results in Figure 17-7.
+
+Figure 17-7.  Checking I/O with vmstat
+
+We can see that we have a fair bit of data being written (bo), but we have no idea to what disk. With our 
+pretend application, we have three partitions that are mounted to /app/log, /app/sys, and /app/data. The 
+partitions are sdc1, sdb1, and sdb2 respectively.

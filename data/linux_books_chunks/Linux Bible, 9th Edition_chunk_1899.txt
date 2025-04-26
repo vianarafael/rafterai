@@ -1,0 +1,5 @@
+Altering 
+a default value is as simple as editing the value associated with a keyword and saving the 
+ﬁ le before running the useradd command.
+
+If you want to view other default settings, refer to the /etc/default/useradd ﬁ le.

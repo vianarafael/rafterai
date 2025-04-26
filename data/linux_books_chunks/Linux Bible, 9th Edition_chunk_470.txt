@@ -1,0 +1,15 @@
+In Chapter 10, I describe how to get software you need that is not in the 
+repository of your Linux distribution.
+
+FIGURE 2.14
+
+Play music, podcasts, and Internet radio from Rhythmbox.
+
+2
+
+Plug-ins are available for Rhythmbox to get cover art, show information about artists and 
+songs, add support for music services (such as Last.fm and Magnatune), and fetch song lyrics.
+
+Stopping the GNOME 3 desktop
+When you are ﬁ nished with your GNOME 3 session, select the down arrow button in the upper-
+right corner of the top bar.

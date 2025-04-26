@@ -1,0 +1,10 @@
+However, add no 
+spaces between a hostname and its options. For example:
+
+/usr/local maple(rw) spruce(ro,root_squash)
+
+Notice that there is a space after (rw) but none after maple. You can identify hosts in 
+ several ways:
+
+ ■ Individual host—Enter one or more TCP/IP hostnames or IP addresses. If the host is 
+in your local domain, you can simply indicate the hostname.

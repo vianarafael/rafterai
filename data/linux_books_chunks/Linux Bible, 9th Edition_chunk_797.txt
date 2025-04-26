@@ -1,0 +1,29 @@
+Table 4.1 shows commands to create and use ﬁ les and directories.
+
+TABLE 4.1    Commands to Create and Use Files
+
+Command
+
+Result
+
+cd
+
+pwd
+
+mkdir
+
+chmod
+
+ls
+
+Changes to another directory
+
+Prints the name of the current (or present) working directory
+
+Creates a directory
+
+Changes the permission on a fi le or directory
+
+Lists the contents of a directory
+
+One of the most basic commands you use from the shell is cd.

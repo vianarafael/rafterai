@@ -1,0 +1,35 @@
+The Major rpm Options and Flags
+
+Options and Flags
+
+Description
+
+-q | --query
+
+Allows you to query the RPM database and find information about installed 
+packages on your host
+
+-i | --install
+
+Installs a local package on your host
+
+-e | --erase
+
+-U | --upgrade
+
+Removes a package from your host
+
+Upgrades an existing package or installs a package on your host if it is not 
+already installed
+
+-F | --freshen
+
+Upgrades a package only if an earlier version is installed
+
+-V | --verify
+
+Verifies an installed package
+
+Querying Packages
+
+To begin, we’ll look at querying the packages that are installed on your host, using the -q or --query option.

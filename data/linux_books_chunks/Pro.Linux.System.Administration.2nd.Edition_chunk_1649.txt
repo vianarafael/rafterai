@@ -1,0 +1,16 @@
+To do that we issue the following:
+
+iptables –t filter –I IPV4-INCOMING 1 –p tcp –-dport 22 –j ACCEPT
+
+When you look at the third line now in the IPV4-INCOMING chain, you can see that our rule has been 
+
+inserted and has the target of ACCEPT.
+
+num target   prot opt source   destination
+1  ACCEPT   tcp -- anywhere  anywhere   tcp   dpt:ssh
+2  ACCEPT   all -- anywhere  anywhere   ctstate INVALID
+3  ACCEPT   all -- anywhere  anywhere   ctstate RELATED,ESTABLISHED
+4  DROP    all -- anywhere  anywhere
+5  ACCEPT   tcp -- anywhere  anywhere   tcp dpt:ssh
+
+We will remove rule number 5 like we removed our previous rule with the –D IPV4-INCOMING 5 switch.

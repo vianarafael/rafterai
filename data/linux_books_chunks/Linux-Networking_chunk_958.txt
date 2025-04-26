@@ -1,0 +1,28 @@
+Users can all access the
+general sports file share, but only group members can access their own sports share.
+
+[sports]
+comment = Information about all sports
+path = /srv/samba/sports
+valid users = @ntsports
+read only = No
+
+[tennis]
+comment = Information about tennis
+path = /srv/samba/tennis
+valid users = @nttennis
+read only = No
+
+254
+
+  
+ 
+samba domain controller
+
+[football]
+comment = Information about football
+path = /srv/samba/football
+valid users = @ntfootball
+read only = No
+
+23.7.

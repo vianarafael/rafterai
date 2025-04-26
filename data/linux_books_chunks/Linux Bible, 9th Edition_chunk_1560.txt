@@ -1,0 +1,6 @@
+The result of defragmentation is 
+that all the data on your disk are contiguous, creating lots of contiguous free space at the 
+end of the partition. Sometimes, you have to complete the following special tasks to make 
+this true:
+
+ ■ If the Windows swap ﬁ le is not moved during defragmentation, you must remove it.

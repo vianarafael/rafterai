@@ -1,0 +1,7 @@
+Neither of these methods by themselves will 
+stop spam, but each is a part of tools that help make it harder for spam to get through. They do help stop 
+spammers from forging your domain name when they send their mail.
+
+The Sender Policy Framework (SPF) is used to identify an e-mail server that can send e-mail on behalf 
+
+of your domain.

@@ -1,0 +1,3 @@
+In the IPP model, printer servers and clients who want to print can exchange infor-
+mation about the model and features of a printer using HTTP (that is, web content) 
+protocol.

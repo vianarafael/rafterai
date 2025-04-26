@@ -1,0 +1,18 @@
+Now we have to 
+configure the /etc/bareos/bareos-fd.conf file on the headoffice.example.com server where the database 
+lives.
+
+FileDaemon {                          # definition of myself
+  Name = headoffice-fd
+  Maximum Concurrent Jobs = 20
+
+  # remove comment from "Plugin Directory" to load plugins from specified directory.
+  # if "Plugin Names" is defined, only the specified plugins will be loaded,
+  # otherwise all storage plugins (*-fd.so) from the "Plugin Directory".
+  #
+  Plugin Directory = /usr/lib64/bareos/plugins
+  Plugin Names = "bareos-fd-mysql.py"
+...
+}
+
+You will need to restart the File daemon on the headoffice.example.com server.

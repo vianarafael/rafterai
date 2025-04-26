@@ -1,0 +1,6 @@
+If you run find as a regular 
+user, you do not have special permission to ﬁ nd ﬁ les that are readable only by the root 
+user. So find produces a bunch of error messages. If you run find as the root user, find 
+/etc ﬁ nds all ﬁ les under /etc.
+
+A special option to the find command is -ls.

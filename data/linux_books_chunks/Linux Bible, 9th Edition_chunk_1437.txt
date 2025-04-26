@@ -1,0 +1,11 @@
+To prove that you have root 
+
+ privilege, create an empty or plain text ﬁ le named /mnt/test.txt. Exit the shell 
+when you are ﬁ nished. If you are using Ubuntu, you must set your root password 
+ﬁ rst (sudo passwd root).
+
+5.  Log in as a regular user and become root using su -. Edit the /etc/sudoers 
+ﬁ le to allow your regular user account to have full root privilege via the sudo 
+command.
+
+6.

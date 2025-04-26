@@ -1,0 +1,4 @@
+The ack 1 indicates that this is an 
+
+acknowledgment packet and that from now on, tcpdump will show the difference between the current 
+sequence and initial sequence.

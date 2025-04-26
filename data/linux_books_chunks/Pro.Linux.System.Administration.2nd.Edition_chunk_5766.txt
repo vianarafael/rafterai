@@ -1,0 +1,7 @@
+That 
+module responds with pong if we are successful. If we are not able to get a successful connection, we will get 
+an error similar to this:
+
+mail.example.com | UNREACHABLE! => {
+    "changed": false,
+    "msg": "ERROR! SSH encountered an unknown error during the connection.

@@ -1,0 +1,3 @@
+For example, you might have the need for a memcached 
+service in your application. As far as your application is concerned, to test memcached with your application 
+you just need the IP (Internet Protocol) address and a port to reach it.

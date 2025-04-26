@@ -1,0 +1,6 @@
+the apt-cache command searches 
+package lists and displays package information. the apt-file command searches file content lists for 
+which package provides a file.
+
+the aptitude tool was written as a drop-in replacement for apt-get, so in all cases where you run 
+aptitude noninteractively, you can replace it with apt-get.

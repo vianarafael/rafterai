@@ -1,0 +1,17 @@
+describing a table
+
+To see a description of the structure of a table, issue the describe $tablename command
+as shown below.
+
+mysql> describe country;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| countrycode    | char(3)     | NO   | PRI | NULL    |       |
+| countryname    | varchar(70) | NO   |     | NULL    |       |
+| population     | int(11)     | YES  |     | NULL    |       |
+| countrycapital | varchar(50) | YES  |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+3.4.4.

@@ -1,0 +1,20 @@
+You can ﬁ nd those exam objectives on the following sites:
+
+ ■ RHCSA—http://www.redhat.com/en/services/training/
+
+ex200-red-hat-certified-system-administrator-rhcsa-exam
+
+ ■ RHCE—http://www.redhat.com/en/services/training/
+
+ex300-red-hat-certified-engineer-rhce-exam
+
+As the exam objectives state, the RHCSA and RHCE exams are performance-based, which 
+means that you are given tasks to do and you must perform those tasks on an actual Red 
+
+22
+
+c01.indd  04/01/2015  Page 23
+
+Chapter 1: Starting with Linux
+
+Hat Enterprise Linux system, as you would on the job.

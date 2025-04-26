@@ -1,0 +1,5 @@
+This is another SMTP 
+command that prompts a user for a username and password before allowing him to send e-mail. That 
+username and password can be provided via a variety of mechanisms including in plain text and in 
+encrypted forms. Also available are mechanisms that support one-time passwords such as smart cards or 
+tokens.

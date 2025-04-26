@@ -1,0 +1,18 @@
+# informant
+
+
+- Read all unread news:
+
+`sudo informant read`
+
+- Check for news:
+
+`informant check`
+
+- List latest news:
+
+`informant list`
+
+- Display help:
+
+`informant {{[-h|--help]}}`

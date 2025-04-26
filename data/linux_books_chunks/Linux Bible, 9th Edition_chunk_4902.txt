@@ -1,0 +1,15 @@
+They may already be running, but just to make sure do the 
+ following as root on both hypervisors:
+
+# systemctl start sshd.service
+# systemctl enable sshd.service
+# systemctl start libvirtd.service
+# systemctl enable libvirtd.service
+
+737
+
+c26.indd  04/01/2015  Page 738
+
+Part VI: Extending Linux into the Cloud
+
+The sshd service allows you to log into the hypervisors over the network, if necessary.

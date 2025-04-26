@@ -1,0 +1,19 @@
+to 7 p.m.
+Time periods are used in number of places in Nagios, but most commonly they specify when hosts and 
+services should be checked and when notifications (messages generated when hosts and services fail or vary 
+from their required state) should be sent.
+
+The next attribute, max_check_attempts, specifies the number of times Nagios checks a host or service 
+
+before determining that there is a problem.
+
+The check_interval specifies how long between checks, and if there is a failure, we can use retry_
+
+interval to check more or less frequently.
+
+Commands
+
+The last attribute, check_command, tells Nagios what command to use to check the host’s status, in this case 
+check-host-alive.
+
+This is one of the commands we discussed earlier.

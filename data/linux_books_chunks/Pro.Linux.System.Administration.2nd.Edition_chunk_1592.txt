@@ -1,0 +1,4 @@
+It does this with the help of IP masquerade, which rewrites IP packet headers. NAT 
+holds information about connections traversing the firewall/router in translation tables. Generally speaking, 
+an entry is written into the translation table when a packet traverses the firewall/router from the private to 
+the public address space.

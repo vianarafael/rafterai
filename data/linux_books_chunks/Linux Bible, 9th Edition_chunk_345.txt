@@ -1,0 +1,7 @@
+Also, conﬁ gure a remote logging server 
+facility to gather log messages from logging clients. Chapter 13 covers remote 
+ logging with rsyslogd.
+
+ ■ SELinux—With Security Enhanced Linux in Enforcing mode, make sure that all 
+server conﬁ gurations described in the next section are properly secured with 
+SELinux.

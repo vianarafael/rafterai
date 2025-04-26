@@ -1,0 +1,32 @@
+The following are examples of some ways to identify the location of a kickstart ﬁ le.
+
+ks=cdrom:/stuff/ks.cfg
+Get kickstart from CD/DVD.
+ks=hd:sda2:/test/ks.cfg
+Get kickstart from test directory on hard disk (sda2)
+ks=http://www.example.com/ksfiles/ks.cfg
+Get kickstart from a Web server.
+ks=ftp://ftp.example.com/allks/ks.cfg
+Get kickstart from a FTP server.
+ks=nfs:mynfs.example.com:/someks/ks.cfg
+Get kickstart from an NFS server.
+
+Miscellaneous boot options
+Here are a few other options you can pass to the installer that don’t ﬁ t in a category.
+
+rescue
+Instead of installing, run the kernel to open Linux rescue mode.
+
+mediacheck
+Check the installation CD/DVD for checksum errors.
+
+For further information on using the anaconda installer in rescue mode (to res-
+cue a broken Linux system), see Chapter 21, “Troubleshooting Linux.” For infor-
+mation on the latest boot options use in RHEL 7, refer to the RHEL 7 Installation 
+Guide (https://access.redhat.com/documentation/en-US/Red_Hat_
+Enterprise_Linux/7/html-single/Installation_Guide/index.
+html#chap-anaconda-boot-options).
+
+Using specialized storage
+In large enterprise computing environments, it is common to store the operating system 
+and data outside the local computer.

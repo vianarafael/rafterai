@@ -1,0 +1,3 @@
+see details at www.issihosts.com/haveged/.
+
+We are going to create and store our keys in the /etc/bind/keys directory.

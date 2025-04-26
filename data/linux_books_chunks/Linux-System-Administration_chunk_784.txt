@@ -1,0 +1,12 @@
+As normal user, use crontab -e to schedule a script to run every four minutes.
+
+paul@rhel55 ~$ crontab -e
+no crontab for paul - using an empty one
+crontab: installing new crontab
+
+3. As root, display the crontab file of your normal user.
+
+root@rhel55 ~# crontab -l -u paul
+*/4 * * * * echo `date` >> /home/paul/crontest.txt
+
+4.

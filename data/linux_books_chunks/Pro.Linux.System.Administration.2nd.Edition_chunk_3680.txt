@@ -1,0 +1,10 @@
+If the host is not part of a domain, it can still share resources, but it will have to maintain its own 
+authentication and access lists.
+
+Setting the workgroup here does not make our host a PDC, just part of a workgroup. We have set this to 
+
+our domain name, EXAMPLE.
+
+workgroup = SAMBA
+
+Next you need to configure NetBIOS.

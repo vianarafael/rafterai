@@ -1,0 +1,10 @@
+It can also load kernels on PowerPC.
+
+Note  that  grub,  while  still  the  default  in  Debian,  is  slowly  being  replaced  in  most
+distributions with grub2.
+
+157
+
+bootloader
+
+14.1.

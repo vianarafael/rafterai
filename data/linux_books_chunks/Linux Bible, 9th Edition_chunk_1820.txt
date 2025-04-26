@@ -1,0 +1,8 @@
+The --replacepkgs option enables you to reinstall an exist-
+ing version of a package (if, for example, you had mistakenly deleted some components), and 
+the --oldpackage enables you to install an earlier version of a package.
+
+# rpm -Uhv --replacepkgs emacs-common-24.4-3.fc21.x86_64.rpm
+# rpm -Uhv --oldpackage zsh-4.3.10-7.el6.x86_64.rpm
+
+You can remove a package with the -e option.

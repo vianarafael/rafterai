@@ -1,0 +1,15 @@
+You can have a nice
+overview with repquota.
+
+The final step (before your users start complaining about lack of disk space) is to enable
+quotas with quotaon(1).
+
+root@RHELv4u4:~# quotaon -vaug
+
+Issue the quotaoff command to stop all complaints.
+
+root@RHELv4u4:~# quotaoff -vaug
+
+A.2. Practice Disk quotas
+
+1.  Implement  disk  quotas  on  one  of  your  new  partitions.

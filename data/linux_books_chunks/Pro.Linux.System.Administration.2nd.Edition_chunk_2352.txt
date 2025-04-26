@@ -1,0 +1,8 @@
+So for the new “www” LV, you can use /dev/raid-volume/www. We shall create a 
+XFS filesystem for this logical volume using the following:
+
+$ sudo mkfs.xfs /dev/raid-volume/www
+
+You can use the volume as if it were an ordinary partition and add it to the /etc/fstab file, so it is 
+
+automatically mounted on /var/www when your host boots.

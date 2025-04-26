@@ -1,0 +1,10 @@
+Unless  your
+controller and devices support cable select, you have to set this manually with jumpers.
+
+With  the  introduction  of  sata  (serial  ata),  the  original  ata  was  renamed  to  parallel  ata.
+Optical drives often use atapi, which is an ATA interface using the SCSI communication
+protocol.
+
+4.1.4. scsi
+
+A scsi controller allows more than two devices.

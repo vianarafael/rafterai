@@ -1,0 +1,15 @@
+When these needs arise, you must follow speciﬁ c steps 
+for your Linux server’s initialization daemon to either take over the management of the 
+ service or recognize the customization of it.
+
+Adding new services to SysVinit
+When adding a new or customized service to a Linux SysVinit server, you must complete 
+three steps in order to have the service managed by SysVinit.
+
+414
+
+c15.indd  04/01/2015  Page 415
+
+Chapter 15: Starting and Stopping Services
+
+1.

@@ -1,0 +1,6 @@
+They submitted CIFS (Common
+Internet File System) as an internet draft, but it never got final rfc status.
+
+In  2004  the  European  Union  decided  Microsoft  should  document  the  protocol  to  enable
+other developers to write compatible software. December 20th 2007 Microsoft came to an
+agreement.

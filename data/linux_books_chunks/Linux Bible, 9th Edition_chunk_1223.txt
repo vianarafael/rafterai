@@ -1,0 +1,12 @@
+This chapter covered common commands and functions you 
+can use in scripting with the bash shell. It also provided some concrete examples of scripts 
+for doing backups and other procedures.
+
+168
+
+c07.indd  04/01/2015  Page 169
+
+Chapter 7: Writing Simple Shell Scripts
+
+In the next chapter, you transition from learning about user features into examining 
+ system administration topics.

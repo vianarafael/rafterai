@@ -1,0 +1,19 @@
+As an added bonus, not printing file names means the 
+extract operation completes a bit faster as well.
+
+The tarball is now extracted, so we should change into the source directory and have a look around, to 
+
+see which files are there.
+
+$ cd  nginx-1.10.1
+~/ nginx-1.10.1$ ls
+
+349
+
+ 
+ 
+ 
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+In many cases the instructions for compiling and installing the application will be contained in a file 
+called README or INSTALL.

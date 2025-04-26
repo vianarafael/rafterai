@@ -1,0 +1,4 @@
+} statement that matches on the tag [type] if it equals the 
+
+string "auditd". Now that we are working on the right logs coming through, we can now tell Logstash to 
+create key/value pairs from what it sees.

@@ -1,0 +1,3 @@
+Replacing Invariant Sections with translations requires special permission from their copyright 
+holders, but you may include translations of some or all Invariant Sections in addition to the original versions of 
+these Invariant Sections.

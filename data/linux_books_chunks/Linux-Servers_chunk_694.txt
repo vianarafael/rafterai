@@ -1,0 +1,17 @@
+Create three users (on the Linux and on the samba), remember their passwords!
+
+useradd -c 'SMB user1' userx
+
+passwd userx
+
+2. Set up a shared directory that is only accessible to authenticated users.
+
+The shared section in smb.conf could look like this:
+
+[authwrite]
+ path = /srv/samba/authwrite
+ comment = authenticated users only
+ read only = no  
+ guest ok = no
+
+3.

@@ -1,0 +1,10 @@
+# vipw
+
+
+- Edit the password file:
+
+`vipw`
+
+- Display version:
+
+`vipw {{[-V|--version]}}`

@@ -1,0 +1,15 @@
+Release the Alt key to select it.
+
+39
+
+c02.indd  04/01/2015  Page 40
+
+Part I: Getting Started
+
+FIGURE 2.7
+
+Press Alt+Tab to select which running application to go to.
+
+ ■ Launch a command or application—From any active workspace, you can launch a 
+
+Linux command or a graphical application.

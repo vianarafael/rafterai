@@ -1,0 +1,2 @@
+To 
+see process information on a Linux system, you typically use a variant of the ps command.

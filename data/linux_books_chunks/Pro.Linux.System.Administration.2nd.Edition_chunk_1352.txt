@@ -1,0 +1,13 @@
+The CentOS files relating to networking can be found under the /etc/sysconfig directory. 
+The main places to find this information are
+
+•	
+
+•	
+
+The /etc/sysconfig/network file
+
+The /etc/sysconfig/network-scripts directory
+
+The /etc/sysconfig/network file contains global settings and can contain things like HOSTNAME and 
+default GATEWAY.

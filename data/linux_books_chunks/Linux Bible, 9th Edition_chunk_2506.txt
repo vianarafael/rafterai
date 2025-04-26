@@ -1,0 +1,9 @@
+This 
+can include assigning IP addresses, the locations of DNS servers and gateway machines, and 
+routes. This basic information can be set up using NetworkManager.
+
+Setting IP addresses manually
+To change the network conﬁ guration for your wired network interface through 
+NetworkManager, do the following:
+
+1.

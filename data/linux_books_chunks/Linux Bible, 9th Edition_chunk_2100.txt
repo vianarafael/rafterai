@@ -1,0 +1,3 @@
+The default partition type is Linux. I decided I want to use some of the partitions 
+for swap space (type 82), FAT32 (type x), and Linux LVM (type 8e). To do that, 
+I type t and indicate which partition type to use.

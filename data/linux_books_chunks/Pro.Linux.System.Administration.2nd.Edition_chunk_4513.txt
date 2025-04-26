@@ -1,0 +1,3 @@
+This will show search filters, configuration file processing, 
+access controls, and connection information in our logs. As mentioned, the Loglevel setting is additive, 
+meaning you can enable more logging by adding the values of the things you want to log.

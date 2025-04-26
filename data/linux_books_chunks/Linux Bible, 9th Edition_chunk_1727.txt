@@ -1,0 +1,7 @@
+Then it gathers those 
+binaries together with documentation, conﬁ guration ﬁ les, scripts, and other components 
+available from the upstream provider.
+
+After gathering all those components into the RPM, the RPM package is signed (so users 
+can test the package for validity) and placed in a repository of RPMs for the speciﬁ c distri-
+bution and architecture (32-bit x86, 64-bit x86, and so on).

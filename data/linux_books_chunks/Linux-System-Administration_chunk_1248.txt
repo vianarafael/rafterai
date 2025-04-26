@@ -1,0 +1,17 @@
+[root@rhel4a kernel_module]#
+
+344
+
+Chapter 29. library management
+
+345
+
+library management
+
+29.1. introduction
+
+With libraries we are talking about dynamically linked libraries (aka shared objects). These
+are binaries that contain functions and are not started themselves as programs, but are called
+by other binaries.
+
+Several programs can use the same library.

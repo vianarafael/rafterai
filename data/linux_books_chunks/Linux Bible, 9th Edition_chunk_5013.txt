@@ -1,0 +1,4 @@
+The following sections show examples of settings you can add to your user-data ﬁ les.
+
+The user-data and meta-data fi les are in yaml format. The yaml format uses indents and well-known delimiters. Items 
+in a list are preceded by a hyphen and a space. Keys and values are separated by a colon and a space.

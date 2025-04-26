@@ -1,0 +1,7 @@
+Some will provide a basic service, some will be free for a small per-user 
+amount, and some will be free except for certain proprietary modules. We will cover some of these at the 
+end of this chapter.
+
+How Does E-mail Work?
+E-mail is still ubiquitous for personal and business communications. While social media is also now 
+used for communications, e-mail is still core to most companies.

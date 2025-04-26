@@ -1,0 +1,29 @@
+Table 13.1 shows the commands to use, in order to ensure the ssh server 
+daemon, sshd, is up and running on a Linux system.
+
+324
+
+c13.indd  04/01/2015  Page 325
+
+Chapter 13: Understanding Server Administration
+
+TABLE 13.1    Commands to Determine sshd Status
+
+Distribution
+
+RHEL 6
+
+Fedora and RHEL 7
+
+Ubuntu
+
+Command to Determine sshd Status
+
+chkconfi g --list sshd
+
+systemctl status sshd.service
+
+status ssh
+
+If sshd is not currently running, you can start it by issuing one of the commands listed in 
+Table 13.2.

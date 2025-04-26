@@ -1,0 +1,14 @@
+We can execute the following:
+
+$ sudo mkfs.xfs -f -L brick3_r1 /dev/sdf && \
+   sudo mkdir -p /data/brick3_r1 && \
+   sudo bash -c 'echo LABEL=brick3_r1 /data/brick3_r1 xfs defaults 1 2 >> /etc/fstab' && \
+   sudo mount –a && \
+   sudo mkdir /data/brick3_r1/backups
+
+690
+
+We have seen this command previously, and we are formatting the disks, making the directories where 
+
+we will mount the devices, adding the disks to automount in our fstab, mounting the device, and finally 
+creating a backup directory on the mounted disk.

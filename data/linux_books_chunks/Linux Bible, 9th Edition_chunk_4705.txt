@@ -1,0 +1,63 @@
+The ﬁ rst scan is a TCP Connect scan from the command line, using the 
+loop back address, 127.0.0.1.
+
+# nmap -sT 127.0.0.1
+Starting Nmap 5.51 ( http://nmap.org ) at 2016-03-22 10:33 EDT
+Nmap scan report for localhost.localdomain (127.0.0.1)
+
+Host is up (0.016s latency).
+Not shown: 998 closed ports
+
+PORT    STATE SERVICE
+25/tcp  open  smtp
+631/tcp open  ipp
+
+Nmap done: 1 IP address (1 host up) scanned in 1.34 seconds
+
+The TCP Connect nmap scan reports that two TCP ports are open and have services listening 
+on the localhost (127.0.0.1) for requests to these ports:
+
+ ■ Simple Mail Transfer Protocol (SMTP) is listening at TCP port 25.
+
+ ■ Internet Printing Protocol (IPP) is listening at TCP port 631.
+
+The next nmap scan is an UDP scan on the Fedora system’s loopback address.
+
+# nmap -sU 127.0.0.1
+
+Starting Nmap 5.51 ( http://nmap.org ) at 2016-03-22 10:36 EDT
+Nmap scan report for localhost.localdomain (127.0.0.1)
+Host is up (0.00048s latency).
+Not shown: 997 closed ports
+
+PORT     STATE         SERVICE
+68/udp   open|filtered dhcpc
+
+25
+
+703
+
+c25.indd  04/02/2015  Page 704
+
+Part V: Learning Linux Security Techniques
+
+631/udp  open|filtered ipp
+
+Nmap done: 1 IP address (1 host up) scanned in 2.24 seconds
+
+The UDP nmap scan reports that two UDP ports are open and have services listening on 
+those ports:
+
+ ■ Dynamic Host Control Protocol client (dhcpc) is listening at port 68.
+
+ ■ Internet Printing Protocol (ipp) is listening at port 631.
+
+Notice that port 631’s IPP is listed under both nmap’s TCP Connect scan and the UDP scan 
+because the IPP protocol used both the TCP and the UDP protocol and thus is listed in 
+both scans.
+
+Using these two simple nmap scans, TCP Connect and UDP, on your loopback address, you 
+can build a list of the network services offered by your Linux server.
+
+Keep in mind that port numbers are associated with a particular protocol (TCP or UDP) and 
+a particular network interface.

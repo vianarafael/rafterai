@@ -1,0 +1,14 @@
+Several standard methods are available for granting 
+
+access. You can use the following:
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+dn.base
+dn.one
+dn.subtree
+dn.children
+
+To explain how these relate to the objects we are working on, we will borrow an example from the 
+
+OpenLDAP Administrator’s Guide.

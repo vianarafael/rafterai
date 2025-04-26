@@ -1,0 +1,3 @@
+Because it is the most popular desktop 
+ environment, and the one most often used in business Linux systems, most desktop 
+ procedures and exercises in this book use the GNOME desktop.

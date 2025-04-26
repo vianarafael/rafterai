@@ -1,0 +1,25 @@
+The version of the kernel is set at the beginning of the Makefile.
+
+VERSION = 2
+PATCHLEVEL = 4
+SUBLEVEL = 22
+EXTRAVERSION =
+
+Make sure to add something to the EXTRAVERSION line like
+EXTRAVERSION=-test
+
+This will build a kernel called 2.4.22-test
+Notice: You need the “-” sign in EXTRAVERSION or else the version will be 2.4.22test
+
+10
+
+ 
+ 
+ 
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+2.

@@ -1,0 +1,13 @@
+We recommend you add any new log rotation files here.
+
+ ■ Note 
+
+ Many packages will also add log rotation files to this directory when installed.
+
+859
+
+Chapter 18 ■ Logging and Monitoring
+
+Listing 18-13 shows you one of these files.
+
+Listing 18-13.

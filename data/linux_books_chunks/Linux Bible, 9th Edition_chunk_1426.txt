@@ -1,0 +1,2 @@
+A common reason for loading a module is to use a feature temporarily (such as 
+loading a module to support a special ﬁ lesystem on a ﬂ oppy you want to access).

@@ -1,0 +1,57 @@
+There are other options too, and you 
+can find these by using the man rpmbuild command.
+
+$ rpmbuild –bb SPEC/simple_echo.spec
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.7kXFJS
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ cd /home/vagrant/rpmbuild/BUILD
++ rm -rf simple_echo-1.0
++ /usr/bin/gzip -dc /home/vagrant/rpmbuild/SOURCES/simple_echo-1.0.tar.gz
++ /usr/bin/tar -xf -
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd simple_echo-1.0
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ exit 0
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.EJ4LAv
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ '[' /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64 '!=' / ']'
++ rm -rf /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64
+++ dirname /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64
++ mkdir -p /home/vagrant/rpmbuild/BUILDROOT
++ mkdir /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64
++ cd simple_echo-1.0
++ rm -rf /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64
++ mkdir -p /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64/usr/local/
+bin
++ install simple_echo.sh -m0755 /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.
+centos.x86_64/usr/local/bin/simple_echo.sh
++ '[' '%{buildarch}' = noarch ']'
++ QA_CHECK_RPATHS=1
++ case "${QA_CHECK_RPATHS:-}" in
+...
+<snip>
+...
+
+321
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Processing files: simple_echo-1.0-1.el7.centos.x86_64
+Provides: simple_echo = 1.0-1.el7.centos simple_echo(x86-64) = 1.0-1.el7.centos
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 
+rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Requires: /bin/bash
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/vagrant/rpmbuild/BUILDROOT/
+simple_echo-1.0-1.el7.centos.x86_64
+Wrote: /home/vagrant/rpmbuild/RPMS/x86_64/simple_echo-1.0-1.el7.centos.x86_64.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.LPOTLL
++ umask 022
++ cd /home/vagrant/rpmbuild/BUILD
++ cd simple_echo-1.0
++ /usr/bin/rm -rf /home/vagrant/rpmbuild/BUILDROOT/simple_echo-1.0-1.el7.centos.x86_64
++ exit 0
+
+We have the output of our build process.

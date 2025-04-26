@@ -1,0 +1,7 @@
+Some of the tools you can use to monitor your servers are 
+described in the sections that follow.
+
+Configure logging
+Using the rsyslog service (rsyslogd daemon), you can gather critical information 
+and error conditions into log ﬁ les about many different services. By default in RHEL, log 
+ messages from applications are directed into log ﬁ les in the /var/log directory.

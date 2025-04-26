@@ -1,0 +1,11 @@
+In each of the  server-related 
+chapters that follow this chapter, you’ll go through the same basic steps for getting that server 
+started and available to be used by your clients.
+
+Step 1: Install the server
+Although most server software is not preinstalled on the typical Linux system, any general-
+purpose Linux system offers the software packages needed to supply every major type of 
+server available.
+
+Sometimes, multiple software packages associated with a particular type of server are 
+ gathered together in Package Groups (sometimes called Package Collections).

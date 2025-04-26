@@ -1,0 +1,30 @@
+# i3
+
+
+- Start i3 (Note that a pre-existing window manager must not be open when this command is run):
+
+`i3`
+
+- Open a new terminal window:
+
+`<Super Enter>`
+
+- Create a new workspace:
+
+`<Super Shift {{Number}}>`
+
+- Switch to a workspace:
+
+`<Super {{Number}}>`
+
+- Open new window horizontally:
+
+`<Super h>`
+
+- Open new window vertically:
+
+`<Super v>`
+
+- Open application (type out application name after executing command):
+
+`<Super d>`

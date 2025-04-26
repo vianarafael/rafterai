@@ -1,0 +1,13 @@
+But two major distributions rose to become the foundation for 
+many other distributions: Red Hat Linux and Debian.
+
+Choosing a Red Hat distribution
+When Red Hat Linux appeared in the late 1990s, it quickly became the most popular Linux 
+distribution for several reasons:
+
+1
+
+ ■ RPM package management—Tarballs are ﬁ ne for dropping software on your 
+
+ computer, but they don’t work as well when you want to update, remove, or even 
+ﬁ nd out about that software.

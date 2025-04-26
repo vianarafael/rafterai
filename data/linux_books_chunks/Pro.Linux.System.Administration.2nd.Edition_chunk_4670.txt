@@ -1,0 +1,10 @@
+Again, we can create a new LDIF text file for our groups.
+
+dn: ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+You can see that creating the organizational unit for groups is similar to the way we declared the people 
+organizational unit earlier. As required by the schema definition, we have used and declared the ou attribute 
+to name our DN.

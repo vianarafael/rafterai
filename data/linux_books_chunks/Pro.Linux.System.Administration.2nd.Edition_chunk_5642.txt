@@ -1,0 +1,22 @@
+With the Puppet 
+resource we will start puppetserver and make it start on boot like this:
+
+sudo /opt/puppetlabs/bin/puppet resource service puppetserver ensure=running enable=true
+
+943
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We have not yet described how Puppet manages resources, and you will get a deeper understanding of 
+
+what this command is doing shortly, but briefly what this is doing is the following:
+
+•	
+
+Starting a service (ensure=running)
+
+•	 Making the necessary changes to start a service at boot (enable=true)
+
+•	 Using whatever underlying system to start the service (service puppetserver)
+
+In our case, it will use systemctl commands (start and enable) under the hood.

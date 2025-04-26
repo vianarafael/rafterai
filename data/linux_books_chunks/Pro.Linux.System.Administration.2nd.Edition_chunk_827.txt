@@ -1,0 +1,5 @@
+The last option, -I, provides a time frame in days after which user accounts with 
+expired and unchanged passwords are locked and thus unable to be used to log in.
+
+If you run chage without any options and specify only the user, it will launch an interactive series of 
+prompts to set the required values, as shown in Listing 5-10.

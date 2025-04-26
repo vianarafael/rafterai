@@ -1,0 +1,8 @@
+This may take a while...
+  Found volume group "VolGroup00" using metadata type lvm2
+[root@RHEL5 ~]#
+
+LVM will run the vgscan automatically at boot-up, so if you add hot swap devices, then you
+will need to run vgscan to update /etc/lvm/.cache with the new devices.
+
+11.9.3.

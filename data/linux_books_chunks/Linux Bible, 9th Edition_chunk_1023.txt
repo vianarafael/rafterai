@@ -1,0 +1,7 @@
+There, you learn how 
+to see what processes are running, run processes in the foreground and background, and 
+change processes (send signals).
+
+Exercises
+Use these exercises to test your knowledge of using the vi (or vim) text editor, commands 
+for ﬁ nding ﬁ les (locate and find), and commands for searching ﬁ les (grep).

@@ -1,0 +1,14 @@
+Open the Settings icon from 
+the Applications list.
+
+FIGURE 2.8
+
+Change desktop settings from the System Settings window.
+
+2
+
+Here are some suggestions for conﬁ guring a GNOME 3 desktop:
+
+ ■ Configure networking—A wired network connection is often conﬁ gured 
+
+ automatically when you boot up your Fedora system.

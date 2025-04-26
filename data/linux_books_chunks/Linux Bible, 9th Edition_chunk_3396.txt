@@ -1,0 +1,11 @@
+File sharing is done 
+using the Common Internet File System (CIFS), which is an open implementation of the Server 
+Message Block (SMB) protocol.
+
+499
+
+c19.indd  04/01/2015  Page 500
+
+Part IV: Becoming a Linux Server Administrator
+
+The Samba project has gone to great lengths to make its software secure and robust.

@@ -1,0 +1,6 @@
+Generally, the entire path to the fi le 
+shows up in the error log. Make sure you are accessing the correct virtual host, and check for any Alias settings 
+that might be directing your location to a place you don’t expect.
+
+ ■ File permissions—A “File permissions prevent access” error indicates that the 
+apache process is running as a user that is unable to open the requested ﬁ le.

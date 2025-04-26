@@ -1,0 +1,11 @@
+You decide you want 
+to kill it so that other processes have a shot at the CPU. If you use the process ID of the 
+running bigcommand process, here are some examples of the kill command you can use 
+to kill that process:
+
+$ kill 10432
+$ kill -15 10432
+$ kill -SIGKILL 10432
+
+The default signal sent by kill is 15 (SIGTERM), so the ﬁ rst two examples have exactly the 
+same results.

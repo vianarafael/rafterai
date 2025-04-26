@@ -1,0 +1,6 @@
+# broot
+
+
+- Install or reinstall the `br` shell function:
+
+`broot --install`

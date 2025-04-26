@@ -1,0 +1,14 @@
+Replace user_id with 
+
+the ID number (for example, -u 1474).
+
+ ■ -U—Unlocks the user account (by removing the exclamation mark at the beginning 
+
+of the encrypted password).
+
+The following are examples of the usermod command:
+
+# usermod -s /bin/csh chris
+# usermod -Ga sales,marketing, chris
+
+The ﬁ rst example changes the shell to the csh shell for the user named chris.

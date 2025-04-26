@@ -1,0 +1,21 @@
+Find the gedit 
+process on the Processes tab (you can sort alphabetically to make it easier by 
+clicking the Process Name heading). Right-click the gedit command, and then 
+select either End Process or Kill Process; the gedit window on your screen should 
+disappear.
+
+B
+
+789
+
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 790
+
+Appendix B: Exercise Answers
+
+6.

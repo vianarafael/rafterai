@@ -1,0 +1,11 @@
+The N stands for “Nonexistent” and indicates the 
+server was freshly booted to the current runlevel.
+
+$ runlevel
+N 5
+
+15
+
+How does the server know which services to stop and which ones to start when a  particular 
+runlevel is chosen? When a runlevel is chosen, the scripts located in the /etc/rc.d/rc#.d 
+directory (where # is the chosen runlevel) are run.

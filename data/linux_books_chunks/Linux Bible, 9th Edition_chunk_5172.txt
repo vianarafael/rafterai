@@ -1,0 +1,19 @@
+Remove the $HOME/projects/houses/doors directory and its contents.
+
+$ rm -rf projects/houses/doors/
+
+786
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 787
+
+Appendix B: Exercise Answers
+
+9.

@@ -1,0 +1,6 @@
+1 mjones mjones 640999 Jan 25 06:27 services
+
+8.  Run the following command to ﬁ nd all ﬁ les under the /home directory that belong to 
+mjones. If you did the exercises in order, notice that after you deleted the user with 
+the highest user ID and group ID, those numbers were assigned to mjones. As a result, 
+any ﬁ les left on the system by jbaxter now belong to mjones.

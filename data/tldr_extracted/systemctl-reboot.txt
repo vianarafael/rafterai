@@ -1,0 +1,10 @@
+# systemctl reboot
+
+
+- Reboot the system:
+
+`systemctl reboot`
+
+- Reboot into the BIOS/UEFI menu:
+
+`systemctl reboot --firmware-setup`

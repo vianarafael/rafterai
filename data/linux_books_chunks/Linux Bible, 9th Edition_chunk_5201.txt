@@ -1,0 +1,15 @@
+Then replace A with the contents of variable ONE, B with variable TWO, and C 
+with variable THREE.
+
+Here is an example of what that script could contain:
+
+#!/bin/bash
+# myposition
+ONE=$1
+TWO=$2
+THREE=$3
+echo "There are $# parameters that include: $@"
+echo "The first is $ONE, the second is $TWO, the third is 
+$THREE."
+
+b.

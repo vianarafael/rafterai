@@ -1,0 +1,34 @@
+git log
+
+We can see all our commits again using git log.
+
+228
+
+git
+
+paul@debian6~/project42$ git log
+commit 86b8347192ea025815df7a8e628d99474b41fb6c
+Author: Paul <paul.cobbaut@gmail.com>
+Date:   Sat Dec 8 17:12:24 2012 +0100
+
+    adding a she-bang to the main script
+
+commit 5c10768f29aecc16161fb197765e0f14383f7bca
+Author: Paul <paul.cobbaut@gmail.com>
+Date:   Sat Dec 8 17:09:29 2012 +0100
+
+    starting a project
+
+The log format can be changed.
+
+paul@debian6~/project42$ git log --pretty=oneline
+86b8347192ea025815df7a8e628d99474b41fb6c adding a she-bang to the main script
+5c10768f29aecc16161fb197765e0f14383f7bca starting a project
+
+The log format can be customized a lot.
+
+paul@debian6~/project42$ git log --pretty=format:"%an: %ar :%s"
+Paul: 8 minutes ago :adding a she-bang to the main script
+Paul: 11 minutes ago :starting a project
+
+20.3.7.

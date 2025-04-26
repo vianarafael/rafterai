@@ -1,0 +1,10 @@
+Figure 8.1 shows an example of that window.
+
+FIGURE 8.1
+
+Change removable media settings in the Removable Media window.
+
+8
+
+The following settings are available from the Removable Media window. These settings 
+relate to how removable media are handled when they are inserted or plugged in.

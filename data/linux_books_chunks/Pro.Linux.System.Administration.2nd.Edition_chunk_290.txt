@@ -1,0 +1,4 @@
+In the past to see what a new 
+package did, or what the new update to the operating system would do, you might have to find some spare 
+server and run up the new software. With VirtualBox and Vagrant you can do this much more quickly 
+and without poisoning your local desktop.

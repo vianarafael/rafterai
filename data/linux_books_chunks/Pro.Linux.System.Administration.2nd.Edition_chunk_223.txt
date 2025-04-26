@@ -1,0 +1,13 @@
+First installation splash screen
+
+After selecting Install Ubuntu Server we are shown Figure 2-43, language selection for your installation. 
+
+You should select the appropriate language for you.
+
+55
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-43.  Choosing the language for installation
+
+As shown in Figure 2-43, we chose English.

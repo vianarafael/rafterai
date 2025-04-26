@@ -1,0 +1,11 @@
+When you move your mouse to the edge where the panel is, the panel pops up—so you don’t need 
+Hide buttons.
+
+57
+
+c02.indd  04/01/2015  Page 58
+
+Part I: Getting Started
+
+Adding 3D effects with AIGLX
+Several initiatives have made strides in recent years to bring 3D desktop effects to Linux.

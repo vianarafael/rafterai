@@ -1,0 +1,14 @@
+To start a Nautilus File Manager window and move it to the second workspace on 
+
+your desktop, do the following:
+
+ ■ For GNOME 3:
+
+a. Press the Windows key.
+
+b. Grab the Files icon from the Dash (left side) and drag it onto an unused work-
+space on the right side. A new instance of Nautilus starts in that workspace.
+
+ ■ For GNOME 2:
+
+a.

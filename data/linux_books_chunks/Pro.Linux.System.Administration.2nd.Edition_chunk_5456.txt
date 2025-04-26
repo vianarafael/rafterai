@@ -1,0 +1,6 @@
+You inserted a DVD and 
+followed the onscreen prompts to install your distribution. Automated provisioning is a way of installing a 
+distribution without being prompted by the configuration questions. This makes provisioning quick and 
+simple, and it also has the advantage of ensuring every build is identical.
+
+ You can use provisioning for both server hosts and desktop hosts.

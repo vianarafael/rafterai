@@ -1,0 +1,22 @@
+This is pushing, [P.], 41 bytes of data in the payload and is acknowledging the previous 
+communication (ack 1).
+
+IP 192.168.0.254.33348 > 192.168.0.1.smtp: Flags [.], 
+ack 42, win 29200, length 0
+
+The last communication is 192.168.0.254 acknowledging that packet, ack 42.
+So now that you know how to see the communications between two hosts at the most basic level using 
+
+packet-sniffing programs such as tcpdump, let’s take a look at another useful tool, netcat.
+
+253
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+ if you are interested in a deeper discussion of tcpdump and connection establishment, try the 
+
+ ■ Note 
+following article: http://www.linuxjournal.com/article/6447.
+
+The Netcat Tool
+The other very useful tool you can use to diagnose network problems is the nc, or ncat, command.

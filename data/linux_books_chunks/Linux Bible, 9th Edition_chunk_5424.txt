@@ -1,0 +1,10 @@
+To list the /etc/hosts ﬁ le security context and identify the different security 
+
+context attributes, type ls -Z /etc/hosts at the command line:
+
+$ ls -Z /etc/hosts
+-rw-r--r--. root root system_u:object_r:net_conf_t:s0  /etc/hosts
+
+a. The ﬁ le’s user context is system_u, indicating a system ﬁ le.
+
+b.

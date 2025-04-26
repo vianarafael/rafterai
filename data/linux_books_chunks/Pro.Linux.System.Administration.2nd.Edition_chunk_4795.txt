@@ -1,0 +1,18 @@
+The Location directive says that 
+
+any URI matching /lam will now trigger the following configuration, prompting the user to authenticate 
+against LDAP:
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+AuthType Basic
+AuthName "LDAP example.com"
+AuthBasicProvider ldap
+AuthLDAPBindAuthoritative on
+AuthLDAPURL ldap://ldap.example.com/ou=people,dc=example,dc=com?uid?sub
+AuthLDAPBindDN cn=webadmin,ou=meta,dc=example,dc=com
+AuthLDAPBindPassword Zf3If7Ay
+Require valid-user
+Require ldap-group cn=admins,ou=groups,dc=example,dc=com
+
+We have set AuthType to Basic and AuthName to LDAP example.com.

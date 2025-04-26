@@ -1,0 +1,7 @@
+The 
+127.0.0.1, or localhost, address should already be present in the option.
+
+mynetworks = 127.0.0.0/8, 192.168.0.0/24, 192.168.1.0/24
+
+If we had external users that required access to our e-mail server from other networks, they need to 
+authenticate before being allowed to relay.

@@ -1,0 +1,4 @@
+The chunks 
+or packets have additional data added on to them as they traverse down the OSI model. It’s like putting a lettter 
+inside an envelope at each stage as it moves down. One of the purposes of this additional data is to ensure the pack-
+et’s safe and intact arrival at its destination.

@@ -1,0 +1,10 @@
+We’re going to use the Postfix MTA, which is much easier to understand, 
+configure, and troubleshoot.
+
+530
+
+Chapter 12 ■ Mail ServiCeS
+
+ ■ Note 
+ there is always a lot of argument over which Mta is best, and many are available including 
+Sendmail, postfix, exim, and others. Our recommendation is to start with postfix and see how it goes.

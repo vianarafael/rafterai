@@ -1,0 +1,5 @@
+You must be able to start and stop  virtual 
+machines and network services, as well as ﬁ nd and interpret log ﬁ les. Chapter 
+15 describes how to change targets and runlevels and manage system services. 
+See Chapter 6 for information on managing and changing processes. Chapter 26 
+describes how to manage virtual machines.

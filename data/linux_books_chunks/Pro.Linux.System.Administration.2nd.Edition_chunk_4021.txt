@@ -1,0 +1,11 @@
+In lines 22–25 we see that we are 
+limiting these actions to the backup bucket ARN, arn:aws:s3:::our-backup, only.
+
+For further information on this, please read the following:
+
+•	
+
+http://docs.aws.amazon.com/AmazonS3/latest/dev/using-iam-policies.html
+
+Testing S3 Bucket Access
+We are going to test our access to our backup S3 bucket.

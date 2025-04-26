@@ -1,0 +1,7 @@
+The only non-dot ﬁ le in this list is the one named letter. 
+Column 3 shows the directory or ﬁ le owner. The /home directory is owned by root, and 
+everything else is owned by the user joe, who belongs to the sales group (groups are listed 
+in column 4).
+
+In addition to the d or -, column 1 on each line contains the permissions set for that ﬁ le 
+or directory.

@@ -1,0 +1,26 @@
+testing squid
+
+First, make sure that the server running squid has access to the internet.
+
+[root@RHEL4 ~]# wget -q http://linux-training.be/index.html
+[root@RHEL4 ~]# ls -l index.html 
+-rw-r--r--  1 root root 2269 Sep 18 13:18 index.html
+[root@RHEL4 ~]#
+
+Then  configure  a  browser  on  a  client  to  use  the  proxy  server,  or  you  could  set  the
+HTTP_PROXY (sometimes http_proxy) variable to point command line programs to the
+proxy.
+
+[root@fedora ~]# export HTTP_PROXY=http://192.168.1.39:8080
+[root@ubuntu ~]# export http_proxy=http://192.168.1.39:8080
+
+Testing  a  client  machine  can  then  be  done  with  wget  (wget  -q  is  used  to  simplify  the
+screenshot).
+
+[root@RHEL5 ~]# > /etc/resolv.conf
+[root@RHEL5 ~]# wget -q http://www.linux-training.be/index.html
+[root@RHEL5 ~]# ls -l index.html 
+-rw-r--r-- 1 root root 2269 Sep 18  2008 index.html
+[root@RHEL5 ~]#
+
+2.10.

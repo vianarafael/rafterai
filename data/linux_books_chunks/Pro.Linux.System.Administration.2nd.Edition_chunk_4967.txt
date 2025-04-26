@@ -1,0 +1,30 @@
+The proxy server can 
+handle thousands of connections and acts as a buffer between the clients and the Gunicorn processes.
+
+All that is required is for us to put the following graphite.conf file in a place where the Nginx server 
+
+can find it:
+
+upstream graphite {
+    server 127.0.0.1:8881 fail_timeout=0;
+}
+
+server {
+    server_name monitor;
+    listen 80;
+    root /var/www;
+
+823
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+    location / {
+        try_files $uri @graphite;
+    }
+
+    location @graphite {
+        proxy_pass http://graphite;
+    }
+}
+
+With Nginx, a proxy server is declared as an upstream server.

@@ -1,0 +1,17 @@
+The status column actually consists of three states a 
+
+package can be in.
+
+•	 Desired status
+
+•	 Current status
+
+•	
+
+Error
+
+Usually, the status will be ii, which means the package is currently installed and will be upgraded if a 
+
+newer version is available. Table 8-5 lists the most common status codes and their meanings.
+
+Table 8-5.

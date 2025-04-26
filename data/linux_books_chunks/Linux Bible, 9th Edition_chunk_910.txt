@@ -1,0 +1,4 @@
+Even 
+when a graphical tool is available for working with a conﬁ guration ﬁ le, the graphical tool rarely 
+provides a way to do everything you might want to do in that ﬁ le. As a result, you may ﬁ nd a need 
+to use a text editor to conﬁ gure a ﬁ le manually.

@@ -1,0 +1,34 @@
+CentOS has the following runlevels:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+Runlevel 0: Shuts down the host and brings the system to a halt
+
+Runlevel 1: Runs in single-user (maintenance) mode, command console, no network
+
+Runlevel 2: Is unassigned
+
+Runlevel 3: Runs in multiuser mode, with network, and starts level 3 programs
+
+Runlevel 4: Is unassigned
+
+Runlevel 5: Runs in multiuser mode, with network, X Windows (KDE, GNOME), and 
+starts level 5 programs.
+
+Runlevel 6: Reboots the host
+
+Managing SysV init files
+
+Traditionally, on most distributions the /sbin/init tool was configured using the /etc/inittab file.

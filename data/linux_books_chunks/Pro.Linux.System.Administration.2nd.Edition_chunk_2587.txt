@@ -1,0 +1,18 @@
+Querying Our Local Caching DNS Server
+
+$ host www.google.com localhost
+Using domain server:
+Name: localhost
+Address: 127.0.0.1#53
+Aliases:
+
+www.google.com has address 216.58.220.132
+www.google.com has IPv6 address 2404:6800:4006:806::2004
+
+We asked the DNS server running on localhost to look up the address for www.google.com and it 
+
+responded, so it works!
+
+With a working caching DNS, we can replace the nameserver entries in our /etc/resolv.conf file 
+
+with nameserver 192.168.0.1 to use our own server.

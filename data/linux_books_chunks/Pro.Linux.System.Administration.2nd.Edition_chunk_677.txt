@@ -1,0 +1,15 @@
+The rmdir command will only remove 
+empty directories (i.e., directories with no files in them).
+
+139
+
+ChapTeR 4 ■ LInux BasICs
+
+The cat command we examined earlier can also be used to copy files using a command-line function 
+
+called redirection.
+
+$ cat /home/jsmith/myfile > /home/jsmith/yourfile
+
+The use of the > symbol sends the output from one command to the command or action on the other 
+side of the > symbol.

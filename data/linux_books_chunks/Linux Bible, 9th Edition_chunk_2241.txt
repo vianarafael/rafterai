@@ -1,0 +1,20 @@
+These include Kerberos (krb5-server), LDAP ( openldap-servers), and 
+NIS (ypserv).
+
+ ■ DNS Server—The Berkeley Internet Name Domain service (bind) provides the 
+ software needed to conﬁ gure a server to resolve host names into IP addresses.
+
+ ■ Network Time Protocol Server—The ntpd package provides a service you can 
+
+enable to sync up your system clock with clocks from public or private NTP servers.
+
+13
+
+317
+
+c13.indd  04/01/2015  Page 318
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ SQL Server—The PostgreSQL (postgresql and postgresql-server  packages) 
+service is an object-relational database management system.

@@ -1,0 +1,4 @@
+Kerberos is installed as part of the automatic installation of Samba. Since 
+we have only one Samba server, it is not really required unless we are joining another Active Directory domain 
+controller or we want to authenticate our Linux user accounts via the Samba service as a single sign-on authority.
+Before we can test our Kerberos configuration, we first need to create a symlink.

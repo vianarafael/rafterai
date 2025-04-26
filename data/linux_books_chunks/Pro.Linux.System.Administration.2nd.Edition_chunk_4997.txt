@@ -1,0 +1,10 @@
+However, any member of this group is allowed to change that limit to any value 
+up to 50 but no higher than that.
+
+832
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+sysctl and the proc File System
+We briefly mentioned the proc file system in Chapter 9 as a way to obtain system information directly from 
+the kernel.

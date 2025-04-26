@@ -1,0 +1,8 @@
+You can see in the previous Running Jobs output the JobId to use.
+
+*cancel jobid=1
+
+The cancel command can be run without arguments and will automatically select the JobId for you 
+
+(if only one job is running; otherwise, it presents a list to choose from). We have run the job again, this time 
+without canceling it, and it has completed.

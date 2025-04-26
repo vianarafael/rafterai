@@ -1,0 +1,4 @@
+The tools include ssh, 
+scp, sftp, and many others. Because communication is encrypted between the server and 
+the clients, these tools are more secure than similar, older tools. For example, instead of 
+using older remote login commands such as telnet or rlogin, you could use ssh.

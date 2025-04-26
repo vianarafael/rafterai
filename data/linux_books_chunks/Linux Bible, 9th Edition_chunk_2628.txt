@@ -1,0 +1,12 @@
+Such servers provide an excellent way to lock down a 
+ computer lab at a school or restrict websites employees can visit from work.
+
+By physically setting up Linux as a router, but conﬁ guring it as a proxy server, all the 
+ systems on your home or business network can be conﬁ gured to access the Internet using 
+only certain protocols and only after you ﬁ lter the trafﬁ c.
+
+14
+
+Using the Squid Proxy Server, which comes with most Linux systems (squid package in 
+Fedora and RHEL), you can enable the system to accept requests to web servers (HTTP and 
+HTTPS), ﬁ le servers (FTP), and other protocols.

@@ -1,0 +1,5 @@
+The option root_squash means that the root user on the remote host has the UID/
+GID set to the anonymous UID/GID—which means this user’s root powers are valid on this share. This is to 
+protect the network mount from being compromised by the remote root user.
+
+The fsid option identifies the filesystem that NFS is exporting.

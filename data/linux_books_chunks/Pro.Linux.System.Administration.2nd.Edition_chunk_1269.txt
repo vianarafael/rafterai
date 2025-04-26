@@ -1,0 +1,10 @@
+More on the last option when we talk about 
+DHCP in Chapter 10.
+
+Our branch offices each have a separate network address, and they range from 192.168.10.0/24 to 
+192.168.30.0/24. This gives us 254 possible nodes (or devices) in each branch office, with the ability to 
+expand them if required.
+
+IP ADDRESSING AND SUBNETTING
+
+in the foregoing example we looked at an iPv4 network like 192.168.10.0/24.

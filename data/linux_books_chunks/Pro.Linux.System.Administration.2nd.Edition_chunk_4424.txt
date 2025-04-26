@@ -1,0 +1,27 @@
+You’ve learned how to do the following:
+
+•	 Configure VPN tunnels
+
+•	 Create and configure certificates for authentication
+
+•	 Make use of PAM to allow alternative forms of authentication
+
+•	 Configure your iptables firewall to allow VPN tunnels
+
+•	 Configure your networks and routing to allow users to traverse VPN tunnels and 
+
+access resources
+
+•	 Configure networking options on your clients using OpenVPN
+
+In the next chapter, we’ll discuss LDAP services.
+
+731
+
+CHAPTER 16
+
+Directory Services
+
+By Dennis Matotek
+
+Directory services are widespread throughout major computer networks.

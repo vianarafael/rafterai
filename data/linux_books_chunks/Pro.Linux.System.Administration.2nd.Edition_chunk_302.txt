@@ -1,0 +1,8 @@
+In the window that comes up we will give the machine a name, Centos7 and we 
+will select the Type and the Version of Linux and Red Hat (64 bit).
+
+Figure 3-2.  Naming and setting VirtualBox type
+
+Next we can configure our memory size. This can be as large as your system allows. In general, 1024Mb 
+
+is appropriate, or 512Mb for smaller systems without things like a graphic desktop.

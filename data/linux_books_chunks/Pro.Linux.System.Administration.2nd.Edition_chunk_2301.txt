@@ -1,0 +1,8 @@
+We can do by specifying --metadata=0.90 (which is the original superblock format–
+see the man mdadm page for more details).
+
+Creating or starting a RAID array will cause the md kernel modules to be loaded and display some 
+
+status information. You can check the kernel log via dmesg, as shown in Listing 9-14.
+
+Listing 9-14.

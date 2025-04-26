@@ -1,0 +1,14 @@
+The rules are stored by iptables.
+
+10.4. stateful
+
+A stateful firewall is an advancement over stateless firewalls that inspect every individual
+packet. A stateful firewall will keep a table of active connections, and is knowledgeable
+enough to recognise when new connections are part of an active session. Linux iptables is
+a stateful firewall.
+
+77
+
+introduction to routers
+
+10.5.

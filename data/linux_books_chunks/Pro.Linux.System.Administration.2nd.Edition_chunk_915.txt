@@ -1,0 +1,6 @@
+Most modules 
+will ignore invalid or incorrect arguments passed to them, and the module will continue to be processed, 
+though some modules do generate an error message or fail.
+
+ ■ Tip  You can find man pages for most paM modules (e.g., man pam_unix will return the pam_unix man 
+page).

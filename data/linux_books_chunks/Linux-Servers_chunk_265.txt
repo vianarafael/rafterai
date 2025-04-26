@@ -1,0 +1,17 @@
+In the screenshot below, we take a backup of the wikidb database
+on the computer named laika.
+
+mysqldump -u root famouspeople > famouspeople.backup.20120708.sql
+
+Here is a screenshot of a database restore operation from this backup.
+
+mysql -u root famouspeople < famouspeople.backup.20120708.sql
+
+48
+
+  
+introduction to sql using mysql
+
+3.4. mysql tables
+
+3.4.1.

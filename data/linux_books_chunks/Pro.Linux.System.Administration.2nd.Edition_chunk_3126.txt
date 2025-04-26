@@ -1,0 +1,12 @@
+We thus need to add two http_
+port lines: one for the wireless network address range and one for the wired range.
+
+http_port 192.168.0.254:3128
+http_port 192.168.1.254:3128
+
+519
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Next, we need to tell Squid which ranges of IP addresses are allowed to connect to it and access web 
+sites. Squid uses access control lists (ACLs) for this.

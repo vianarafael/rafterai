@@ -1,0 +1,16 @@
+When we type text and press Enter in our connection window, we will see what we have typed being echoed 
+on the au-mel-centos-1 host.
+
+$ sudo nc -l 80
+hello host
+
+We now know our host can connect to the au-mel-centos-1 host on port 80, confirming that our 
+
+firewall rules are working (or too liberal as the case may be if we were trying to block port 80).
+
+254
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+You Dig It?
+dig is another handy tool for resolving DNS issues.

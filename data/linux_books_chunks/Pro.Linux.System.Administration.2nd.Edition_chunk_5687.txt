@@ -1,0 +1,9 @@
+Let’s look at an example in Listing 19-10.
+
+MORE ABOUT FACTER
+
+facts are provided as structured facts or as either an array or a hash. this means you can use them 
+via the $facts variable using a structured syntax, in other words, $facts['hostname']. You can learn 
+more them here: https://docs.puppet.com/puppet/4.8/lang_facts_and_builtin_vars.html.
+
+Certain facts are called trusted facts.

@@ -1,0 +1,9 @@
+You can also do maintenance tasks, such as clean out cache ﬁ les and rebuild the 
+
+257
+
+c10.indd  04/01/2015  Page 258
+
+Part III: Becoming a Linux System Administrator
+
+RPM database.

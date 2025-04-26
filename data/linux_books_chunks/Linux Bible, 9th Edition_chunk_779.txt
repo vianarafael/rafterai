@@ -1,0 +1,3 @@
+To 
+refer to a ﬁ le called memo1.doc in the memos directory, you can type the full path of /home/joe/
+Documents/memos/memo1.doc.

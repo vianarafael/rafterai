@@ -1,0 +1,6 @@
+Just as UC Berkeley was preparing a complete, UNIX-like operating system that was 
+free from all AT&T code, AT&T hit them with a lawsuit in 1992. The suit claimed that the 
+software was written using trade secrets taken from AT&T’s UNIX system.
+
+It’s important to note here that BSD developers had completely rewritten the copyright- 
+protected code from AT&T.

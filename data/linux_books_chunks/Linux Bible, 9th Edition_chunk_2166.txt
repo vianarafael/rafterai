@@ -1,0 +1,23 @@
+Here’s an example of an /etc/fstab ﬁ le:
+
+# /etc/fstab
+/dev/mapper/vg_abc-lv_root     /        ext4   defaults       1 1
+UUID=78bdae46-9389-438d-bfee-06dd934fae28 /boot ext4  defaults  1 2
+/dev/mapper/vg_abc-lv_home     /home    ext4   defaults       1 2
+/dev/mapper/vg_abc-lv_swap     swap     swap   defaults       0 0
+# Mount entries added later
+/dev/sdb1                      /win     vfat   ro             1 2
+192.168.0.27:/nfsstuff         /remote  nfs    users,_netdev  0 0
+//192.168.0.28/myshare         /share   cifs   guest,_netdev  0 0
+# special Linux filesystems
+tmpfs                          /dev/shm tmpfs   defaults      0 0
+devpts                         /dev/pts devpts gid=5,mode=620 0 0
+sysfs                          /sys     sysfs  defaults       0 0
+proc                           /proc    proc   defaults       0 0
+
+12
+
+The /etc/fstab ﬁ le just shown is from a default Red Hat Enterprise Linux 6 server install, 
+with a few lines added.
+
+For now, you can ignore the tmpfs, devpts, sysfs, and proc entries.

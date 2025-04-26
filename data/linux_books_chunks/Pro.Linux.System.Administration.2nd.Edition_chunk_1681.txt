@@ -1,0 +1,10 @@
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+
+The Netfilter likes the configuration of iptables rules in the following format:
+
+* <table name>
+<CHAIN> <POLICY> [<byte:counter>]
+-A <CHAIN> <rule set>
+COMMIT
+
+The * filter is the start of the filter table stanza each line will be read in until the COMMIT statement.

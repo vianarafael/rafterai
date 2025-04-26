@@ -1,0 +1,6 @@
+The quit 
+ command ends the session.
+
+Instead of conﬁ guring the server, users, and shares with the system-config-samba 
+ window, in some Linux systems you could use the samba-swat web-based interface or 
+edit the smb.conf ﬁ le directly.

@@ -1,0 +1,6 @@
+When you execute a stop, your current firewall rules are saved.
+
+Further reading
+
+Netfilter and iptables are complex topics, and we recommend you read up further on them. For additional 
+information about Netfilter and the iptables command, read its man page.

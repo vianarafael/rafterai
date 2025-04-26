@@ -1,0 +1,6 @@
+# qm unlock
+
+
+- Unlock a specific virtual machine:
+
+`qm unlock {{vm_id}}`

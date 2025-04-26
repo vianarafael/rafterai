@@ -1,0 +1,2 @@
+But before you start 
+building these rules, you need to understand how iptables rules are structured and interact.

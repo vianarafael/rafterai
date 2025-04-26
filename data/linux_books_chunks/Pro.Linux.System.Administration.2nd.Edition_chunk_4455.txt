@@ -1,0 +1,10 @@
+We could then use exampleActive to enable and disable entries by setting it to TRUE or FALSE.
+
+Here’s how this would look in an LDAP entry:
+
+dn: uid=user1,ou=people,dc=example,dc=com
+uid: user1
+exampleActive: TRUE
+
+Once this attribute is added to an entry in LDAP, we can use filters to search for all instances of 
+exampleActive = TRUE in our LDAP directory, which would speed up the results for active users.

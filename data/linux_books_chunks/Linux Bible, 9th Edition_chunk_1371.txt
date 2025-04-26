@@ -1,0 +1,7 @@
+By running daemon 
+processes under separate administrative logins, having one of those processes cracked does 
+not give the cracker root permission and the ability to access other processes and ﬁ les. 
+Consider the following examples:
+
+ ■ lp—User owns such things as the /var/log/cups printing log ﬁ le and various 
+printing cache and spool ﬁ les.

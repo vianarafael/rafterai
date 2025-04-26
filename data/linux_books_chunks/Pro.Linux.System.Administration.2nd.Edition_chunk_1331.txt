@@ -1,0 +1,7 @@
+We are going to select Ethernet.
+
+Figure 7-11.  Add in our interface
+
+We have provided a profile name; this name can be anything you wish, but it can often be helpful to 
+name it something meaningful as you can use this profile name when working with the sister command, 
+nmcli.

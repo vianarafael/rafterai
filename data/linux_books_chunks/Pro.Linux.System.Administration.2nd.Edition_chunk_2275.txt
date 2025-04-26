@@ -1,0 +1,47 @@
+Commonly Used RAID Levels
+
+Raid Level
+
+Functionality
+
+Storage capacity
+
+RAID 0
+
+RAID 1
+
+RAID 5
+
+RAID 6
+
+RAID 10
+
+RAID 50
+
+Speed
+
+Redundancy
+
+Redundancy, speed
+
+Redundancy, reliability, speed
+
+Redundancy, reliability, speed
+
+Redundancy, speed
+
+N * size
+
+N * size / 2
+
+N - 1 * size
+
+N - 1 * size
+
+N / 2 * size
+
+N – 1 * size
+
+Storage capacity is calculated by the N (total number of disks) in the raid array (minus any parity disks) 
+
+then multiplied by the size of the disk.

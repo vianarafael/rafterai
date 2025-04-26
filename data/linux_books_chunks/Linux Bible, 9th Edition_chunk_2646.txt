@@ -1,0 +1,3 @@
+Most Linux systems have a 
+method of managing each daemon process as a service using one of several popular initialization 
+systems (also referred to as init systems).

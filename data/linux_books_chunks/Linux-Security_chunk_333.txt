@@ -1,0 +1,16 @@
+The screenshot below
+shows how to search for all filenames that point to inode 817270. Remember that an inode
+number is unique to its partition.
+
+paul@RHELv4u4:~/test$ find / -inum 817270 2> /dev/null
+/home/paul/test/file2
+/home/paul/test/hardlink_to_file2
+
+70
+
+file links
+
+9.4. symbolic links
+
+Symbolic links (sometimes called soft links) do not link to inodes, but create a name to
+name mapping.

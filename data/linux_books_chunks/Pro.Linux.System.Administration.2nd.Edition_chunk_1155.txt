@@ -1,0 +1,21 @@
+1 root root 17 Feb  3 22:55 /usr/lib/systemd/system/runlevel3.target -> 
+multi-user.target
+
+So when you issue the telinit 3 command the following target is run by Systemd.
+
+[Unit]
+Description=Multi-User System
+Documentation=man:systemd.special(7)
+Requires=basic.target
+Conflicts=rescue.service rescue.target
+After=basic.target rescue.service rescue.target
+AllowIsolate=yes
+
+to the applications and packages that are not “Systemd ready,” there is no difference as long as they 
+have a LSB-compliant init.d script.
+
+the original Sysv init actually hasn’t been used on operating systems for quite some time and upstart 
+was swapped in to manage Sysv in both red hat- and debian-based systems.
+
+Managing Services
+In Chapter 4, we introduced you to the concept of processes and services.

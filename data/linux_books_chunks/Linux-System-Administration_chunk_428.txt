@@ -1,0 +1,10 @@
+This 128bit
+standard allows anyone to create a unique uuid.
+
+This chapter takes a brief look at uuid's.
+
+86
+
+introduction to uuid's
+
+9.1.

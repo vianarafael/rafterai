@@ -1,0 +1,22 @@
+This is not a permanent change.
+
+[root@rhel6 ~]# hostname server42
+[root@rhel6 ~]# hostname
+server42
+
+On any Linux you can use sysctl to display and set the hostname.
+
+[root@rhel6 ~]# sysctl kernel.hostname
+kernel.hostname = server42
+[root@rhel6 ~]# sysctl kernel.hostname=rhel6
+kernel.hostname = rhel6
+[root@rhel6 ~]# sysctl kernel.hostname
+kernel.hostname = rhel6
+[root@rhel6 ~]# hostname
+rhel6
+
+272
+
+interface configuration
+
+22.8.

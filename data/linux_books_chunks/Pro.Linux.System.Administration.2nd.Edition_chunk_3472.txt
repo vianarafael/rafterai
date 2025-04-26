@@ -1,0 +1,4 @@
+It is still delivered into the user’s inbox as a new message. In most cases, people put their spam 
+e-mail into a separate folder to review and usually delete. Some people reject or delete any e-mail marked 
+as spam, leading to loss of possibly important e-mail. Spam detection tools, including SpamAssassin, are 
+not infallible, and false positives are sometimes generated.

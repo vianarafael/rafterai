@@ -1,0 +1,14 @@
+Start virt-manager. Go to the Activities screen, type Virtual Machine 
+
+Manager into the search box and press Enter, or type virt-manager from the 
+shell. Type the root password when prompted. You should see the Virtual Machine 
+Manager window.
+
+741
+
+ 
+c26.indd  04/01/2015  Page 742
+
+Part VI: Extending Linux into the Cloud
+
+b.  Check the connection to the hypervisor.

@@ -1,0 +1,6 @@
+--
+Nov 25 22:16:13 backup kernel: CIFS VFS: Send error in SessSetup = -127
+Nov 25 22:16:13 backup kernel: CIFS VFS: cifs_mount failed w/return code = -127
+Nov 25 22:17:13 backup kernel: CIFS VFS: Send error in SessSetup = -13
+
+Here we have listed all the kernel logs that are in error.

@@ -1,0 +1,16 @@
+Done
+...
+
+Next we update the /etc/network/interfaces file with information about the bond0 interface.
+
+debian5:~# tail -7 /etc/network/interfaces
+iface bond0 inet static
+ address 192.168.1.42
+ netmask 255.255.255.0
+ gateway 192.168.1.1
+ slaves eth1 eth2
+ bond-mode active-backup
+ bond_primary eth1
+
+On older version of Debian/Ubuntu you needed to modprobe bonding, but this is no longer
+required.

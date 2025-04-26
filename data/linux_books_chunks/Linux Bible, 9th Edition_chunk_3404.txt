@@ -1,0 +1,14 @@
+Among other components, 
+the samba package includes the Samba service daemon (/usr/sbin/smbd) and NetBIOS 
+
+500
+
+ 
+ 
+ 
+ 
+c19.indd  04/01/2015  Page 501
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+name server daemon (/usr/sbin/nmbd).

@@ -1,0 +1,6 @@
+editing grub at boot time
+
+At boot time, when the grub menu is displayed, you can type e to edit the current stanza.
+This enables you to add parameters to the kernel.
+
+One such parameter, useful when you lost the root password, is single.

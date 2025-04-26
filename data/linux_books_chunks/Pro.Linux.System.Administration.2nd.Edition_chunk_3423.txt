@@ -1,0 +1,8 @@
+For example, a rule might check a 
+particular characteristic of the e-mail, and if it matches, SpamAssassin might add 0.5 to the score assigned to 
+that e-mail.
+
+Bayesian spam filters also learn patterns from your users’ incoming mail and can be trained by telling 
+
+them which mail is spam and which is not, called ham by SpamAssassin (http://en.wikipedia.org/
+wiki/Spam_(food)).

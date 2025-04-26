@@ -1,0 +1,18 @@
+Create ﬁ les in that directory 
+named one, two, and three that have full read/write/execute permissions on for 
+everyone (user, group, and other). Construct a find command to ﬁ nd those ﬁ les 
+and any other ﬁ les that have write permission open to “others” from your home 
+directory and below.
+
+134
+
+ 
+ 
+ 
+ 
+ 
+c05.indd  04/01/2015  Page 135
+
+Chapter 5: Working with Text Files
+
+6.

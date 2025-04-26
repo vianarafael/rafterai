@@ -1,0 +1,5 @@
+The BIOS screen should appear. (If the system starts booting Linux, you didn’t 
+
+press the function key fast enough.)
+
+2.

@@ -1,0 +1,8 @@
+The syntax of the LDAP tool commands usually looks like this:
+
+ldaptool <options> filter entry
+
+Several LDAP tools are available. The main ones are ldapadd, ldapmodify, ldapsearch, and 
+
+ldapdelete, and as we said, they all share some or all of the common options shown previously. For the 
+exact options available, please refer to the man pages for those tools.

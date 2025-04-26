@@ -1,0 +1,21 @@
+After adding a user to smbpasswd and letting the user log on and off, the profile
+of the user will look like this.
+
+[root@RHEL4b samba]# ll /srv/samba/profiles/Venus/
+total 568
+drwxr-xr-x  4 Venus Venus   4096 Jul  5 10:03 Application Data
+drwxr-xr-x  2 Venus Venus   4096 Jul  5 10:03 Cookies
+drwxr-xr-x  3 Venus Venus   4096 Jul  5 10:03 Desktop
+drwxr-xr-x  3 Venus Venus   4096 Jul  5 10:03 Favorites
+drwxr-xr-x  4 Venus Venus   4096 Jul  5 10:03 My Documents
+drwxr-xr-x  2 Venus Venus   4096 Jul  5 10:03 NetHood
+-rwxr--r--  1 Venus Venus 524288 Jul  5  2007 NTUSER.DAT
+-rwxr--r--  1 Venus Venus   1024 Jul  5  2007 NTUSER.DAT.LOG
+-rw-r--r--  1 Venus Venus    268 Jul  5 10:03 ntuser.ini
+drwxr-xr-x  2 Venus Venus   4096 Jul  5 10:03 PrintHood
+drwxr-xr-x  2 Venus Venus   4096 Jul  5 10:03 Recent
+drwxr-xr-x  2 Venus Venus   4096 Jul  5 10:03 SendTo
+drwxr-xr-x  3 Venus Venus   4096 Jul  5 10:03 Start Menu
+drwxr-xr-x  2 Venus Venus   4096 Jul  5 10:03 Templates
+
+17.11.

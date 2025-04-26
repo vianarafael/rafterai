@@ -1,0 +1,15 @@
+So our address can from above can be shortened to:
+
+fe80::a00:27ff:fe8e:8aa8
+
+This :: can only occur once! The following is not a valid ipv6 address:
+
+fe80::20:2e4f::39ac
+
+The ipv6 localhost address is 0000:0000:0000:0000:0000:0000:0000:0001, which can be
+abbreviated to ::1.
+
+paul@debian5:~/github/lt/images$ /sbin/ifconfig lo | grep inet6
+          inet6 addr: ::1/128 Scope:Host
+
+21.2.

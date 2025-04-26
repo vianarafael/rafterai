@@ -1,0 +1,14 @@
+You should know these things that 
+are speciﬁ c to the installation for this procedure:
+
+736
+
+c26.indd  04/01/2015  Page 737
+
+Chapter 26: Using Linux for Cloud Computing 
+
+ ■ Name the hypervisors—I set the hostnames on the hypervisors to 
+
+host1.example.com and host2.example.com.
+
+ ■ Partitioning—When partitioning, I erased the entire hard disk.

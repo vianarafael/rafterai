@@ -1,0 +1,5 @@
+You’ll see more macros 
+later in this chapter; in the meantime, you can see a full list of these macros at https://assets.nagios.com/
+downloads/nagioscore/docs/nagioscore/4/en/macros.html.
+
+The alias attribute is another name for the object; in this case, we’ve used an alias of localhost.

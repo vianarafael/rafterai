@@ -1,0 +1,15 @@
+verify all three partitions
+
+Now all three disks are ready for raid 5, so we have to tell the system what to do with these
+disks.
+
+[root@rhel6c ~]# fdisk -l 2> /dev/null | grep raid
+/dev/sdb1       1        1044     8385898+  fd  Linux raid autodetect
+/dev/sdc1       1        1044     8385898+  fd  Linux raid autodetect
+/dev/sdd1       1        1044     8385898+  fd  Linux raid autodetect
+
+95
+
+introduction to raid
+
+10.3.4.

@@ -1,0 +1,53 @@
+(
+                        2014100802      ; Serial
+                        1h              ; Refresh
+                        1h              ; Retry
+                        2h              ; Expire
+                        900 )           ; Negative Cache TTL
+;
+; name servers
+;
+        IN      NS      ns2.test42.paul.local.
+        IN      NS      debian7b.test42.paul.local.
+;
+; servers
+;
+ns2             IN      A       10.104.33.31
+debian7b        IN      A       10.104.33.31
+testsrv         IN      A       10.104.33.31
+root@debian7b:~#
+
+The second server also needs a zone definition in named.conf.local, followed by a restart
+of bind.
+
+root@debian7b:~# cat /etc/bind/named.conf.local
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "test42.paul.local" IN {
+        type master;
+        file "/etc/bind/db.test42.paul.local";
+        allow-update { none; };
+        allow-transfer { any; };
+};
+root@debian7b:~#
+
+Testing on the parent server:
+
+root@debian7:~# dig ns1.paul.local +short
+10.104.33.30
+root@debian7:~# dig ns2.test42.paul.local +short
+10.104.33.31
+root@debian7:~# dig debian7b.test42.paul.local +short
+10.104.33.31
+
+150
+
+advanced DNS
+
+11.4.

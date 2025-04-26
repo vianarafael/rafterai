@@ -1,0 +1,9 @@
+This setting helps prioritize jobs; the lower the number, 
+
+the higher the priority Bareos will give to the job. Some settings in the JobDefs can be overridden by 
+definitions in other areas, like in the Job, Schedule, and Client definitions.
+
+Jobs
+
+Jobs define the actual backups that can occur. The most basic job must have a name, a client, a JobDefs 
+name, and if it is enabled.

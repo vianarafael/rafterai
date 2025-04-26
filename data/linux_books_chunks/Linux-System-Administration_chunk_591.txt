@@ -1,0 +1,20 @@
+[/dev/sdd (8.0GiB) write-thru deactivated]
+/backstores/block> cd /iscsi
+/iscsi> create iqn.2015-04.be.linux:target
+Created target iqn.2015-04.be.linux:target.
+Created TPG 1.
+Global pref auto_add_default_portal=true
+Created default portal listening on all IPs (0.0.0.0), port 3260.
+/iscsi> cd /iscsi/iqn.2015-04.be.linux:target/tpg1/acls
+/iscsi/iqn.20...get/tpg1/acls> create iqn.2015-04.be.linux:initiator
+Created Node ACL for iqn.2015-04.be.linux:initiator
+/iscsi/iqn.20...get/tpg1/acls> cd iqn.2015-04.be.linux:initiator
+/iscsi/iqn.20...nux:initiator> pwd
+/iscsi/iqn.2015-04.be.linux:target/tpg1/acls/iqn.2015-04.be.linux:initiator
+/iscsi/iqn.20...nux:initiator> set auth userid=paul
+Parameter userid is now 'paul'.
+/iscsi/iqn.20...nux:initiator> set auth password=hunter2
+Parameter password is now 'hunter2'.
+/iscsi/iqn.20...nux:initiator> cd /iscsi/iqn.2015-04.be.linux:target/tpg1/
+/iscsi/iqn.20...x:target/tpg1> ls
+o- tpg1 .................................................

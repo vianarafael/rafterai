@@ -1,0 +1,2 @@
+We are using the SHA1 signature for our catalog. We are also excluding some unwanted directories using 
+the [A-Z] regular expression to handle any drive letter between A and Z.

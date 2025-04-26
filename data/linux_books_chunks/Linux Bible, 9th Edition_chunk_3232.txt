@@ -1,0 +1,9 @@
+See the manual page 
+for chmod for more information about how to view and change permissions.
+
+Read permissions are not necessary for compiled binaries, such as those written in C or C++, but can be safely 
+added unless a need exists to keep the contents of the program secret.
+
+ ■ Access denied—A “Client denied by server conﬁ guration” error indicates that 
+
+Apache was conﬁ gured to deny access to the object.

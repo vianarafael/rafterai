@@ -1,0 +1,6 @@
+You can use both graphical and command-based tools for 
+ controlling cloud environments.
+
+Although not considered a full cloud controller, the Virtual Machine Manager (virt- 
+manager) GUI and virsh command can be used to manage a small cloud-like environ-
+ment.

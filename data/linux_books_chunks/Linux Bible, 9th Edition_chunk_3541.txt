@@ -1,0 +1,2 @@
+Using the standard mount command, you can mount a remote Samba share as a CIFS 
+ﬁ lesystem in Linux.

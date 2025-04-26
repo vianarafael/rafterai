@@ -1,0 +1,10 @@
+For example:
+
+22
+
+# journalctl -u NetworkManager.service
+# journalctl -u httpd.service
+# journalctl -u avahi-daemon.service
+
+If you think a security breach is in progress, you can watch all or selected messages as they 
+come in by following messages.

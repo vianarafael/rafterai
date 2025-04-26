@@ -1,0 +1,16 @@
+Test  with  a  reboot  that  they  are
+mounted.
+
+root@computer# tail -2 /etc/fstab
+/dev/sdd1     swap swap defaults 0 0
+/swapfile20mb swap swap defaults 0 0
+
+6. Use free to verify usage of current swap.
+
+free -om
+
+7. (optional) Display the usage of swap with vmstat and free -s during a memory leak.
+
+219
+
+Chapter 19.

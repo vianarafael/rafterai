@@ -1,0 +1,11 @@
+Make sure you have a unique fixed ip address for your DNS and DHCP server (easier
+on the same machine).
+
+2.  Install  DHCP  and  browse  the  explanation  in  the  default  configuration  file  /etc/dhcp/
+dhcpd.conf or /etc/dhcp3/dhcpd.conf.
+
+3. Decide on a valid scope and activate it.
+
+4. Test with a client that your DHCP server works.
+
+5.

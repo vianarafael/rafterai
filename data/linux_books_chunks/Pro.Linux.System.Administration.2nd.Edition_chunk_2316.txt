@@ -1,0 +1,5 @@
+For instance, you can get information about the host processor via cat /proc/cpuinfo or you can 
+change the kernel network stack to forward Ipv4 packet by issuing echo 1 > /proc/sys/net/ipv4/
+ip_forward.
+
+Internal kernel variables are accessible via files under the /proc/sys directory.

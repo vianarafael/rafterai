@@ -1,0 +1,10 @@
+# virt-xml-validate
+
+
+- Validate an XML file against a specific schema:
+
+`virt-xml-validate {{path/to/file.xml}} {{schema}}`
+
+- Validate the domain XML against the domain schema:
+
+`virt-xml-validate {{path/to/domain.xml}} domain`

@@ -1,0 +1,9 @@
+Likewise, 
+you can drag an application from the Window list to move that application to 
+another workspace.
+
+ ■ Add more workspaces—Right-click the Workspace Switcher, and select 
+
+Preferences. You can add workspaces (up to 32).
+
+ ■ Name workspaces—Right-click the Workspace Switcher, and select Preferences.

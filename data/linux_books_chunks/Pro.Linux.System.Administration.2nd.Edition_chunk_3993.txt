@@ -1,0 +1,17 @@
+another reference is the book Beginning the Linux Command Line by Sander van vugt 
+(apress, 2015).
+
+650
+
+When we run the script from the command line, we get the following result:
+
+exbackup@au-mel-ubuntu-1:~$ ./bin/nightly_remote_rsync.sh
+backup successful
+backup successful
+
+Chapter 14 ■ BaCkup and reCovery
+
+ When you first run this script, you will be presented with SSh asking you to confirm the new key 
+
+ ■ Note 
+signature of the remote hosts.

@@ -1,0 +1,9 @@
+For example, a login prompt for the user named jake 
+on a computer named pine with /usr/share/ as the current working directory would 
+appear as
+
+[jake@pine share]$
+
+You can change the prompt to display any characters you like and even read in pieces of 
+information about your system—for example, you can use the current working directory, 
+the date, the local computer name, or any string of characters as your prompt.

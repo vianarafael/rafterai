@@ -1,0 +1,25 @@
+The -L switch is followed by the name
+of the host to check.
+
+[root@RHEL4b init.d]# smbclient -NL rhel4b
+Anonymous login successful
+Domain=[WORKGROUP] OS=[Unix] Server=[Samba 3.0.10-1.4E.9]
+
+Sharename       Type      Comment
+---------       ----      -------
+firstshare      Disk      
+IPC$            IPC       IPC Service (Public Test Server)
+ADMIN$          IPC       IPC Service (Public Test Server)
+Anonymous login successful
+Domain=[WORKGROUP] OS=[Unix] Server=[Samba 3.0.10-1.4E.9]
+
+Server               Comment
+---------            -------
+RHEL4B               Public Test Server
+WINXP                
+
+Workgroup            Master
+---------            -------
+WORKGROUP            WINXP
+
+16.3.2.

@@ -1,0 +1,9 @@
+As a system administrator, you want to know how to ﬁ nd and ﬁ x 
+these problems.
+
+21
+
+To troubleshoot performance problems in Linux, you use some of the basic tools for 
+ watching and manipulating processes running on your system. Refer to Chapter 6, 
+“Managing Running Processes,” if you need details on commands such as ps, top, kill, 
+and killall.

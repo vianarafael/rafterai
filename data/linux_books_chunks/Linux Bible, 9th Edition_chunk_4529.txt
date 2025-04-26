@@ -1,0 +1,5 @@
+However, sometimes disabling SELinux is appropriate.
+
+If you are running applications that are working properly (from your perspective), but 
+ generating massive amounts of SELinux AVC denial messages (even in Permissive mode), 
+you may end up ﬁ lling up log ﬁ les to the point of making your systems unusable.

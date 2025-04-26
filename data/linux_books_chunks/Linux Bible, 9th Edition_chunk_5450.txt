@@ -1,0 +1,10 @@
+Boot the installation image, and select to install it to a hard disk.
+
+c. For a Fedora Workstation, after the install is complete and you have rebooted, 
+
+install the following package (for different Linux distributions, you might need 
+to install a package that provides libvirtd as well):
+
+# yum install virt-manager libvirt-daemon-config-network
+
+3.

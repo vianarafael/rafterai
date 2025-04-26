@@ -1,0 +1,4 @@
+The host 
+
+template is basically used to attach any hosts that use this template to the linux-group hostgroup. We are 
+using the hostgroup here to link the host template and the service together.

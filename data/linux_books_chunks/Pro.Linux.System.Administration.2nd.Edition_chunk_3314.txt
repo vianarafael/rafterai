@@ -1,0 +1,59 @@
+Testing Postfix with TLS
+
+$ $ openssl s_client -connect localhost:25 -starttls smtp
+CONNECTED(00000003)
+depth=1 CN = Fake LE Intermediate X1
+verify error:num=20:unable to get local issuer certificate
+
+546
+
+Chapter 12 ■ Mail ServiCeS
+
+verify return:0
+---
+Certificate chain
+ 0 s:/CN=mail.example.com
+   i:/CN=Fake LE Intermediate X1
+ 1 s:/CN=Fake LE Intermediate X1
+   i:/CN=Fake LE Root X1
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIE+zCCA+OgAwIBAgITAPpVz+iRXsKC430YQrhOPwEhdjANBgkqhkiG9w0BAQsF
+ADAiMSAwHgYDVQQDDBdGYWtlIExFIEludGVybWVkaWF0ZSBYMTAeFw0xNjA4MjQx
+...<snip>...
+iIVJyRvMWqW2x9i0o/t9bheRaoSX/Vt7X4ZF8vClEQQ0iSNTC956WxAiyFOXLU7A
+86RIlXw3Zm01CtiP4rHi2ZzoIChvcSBfdNG5kOCy5w==
+-----END CERTIFICATE-----
+subject=/CN=mail.example.com
+issuer=/CN=Fake LE Intermediate X1
+---
+Acceptable client certificate CA names
+/CN=Fake LE Intermediate X1
+Server Temp Key: ECDH, prime256v1, 256 bits
+---
+SSL handshake has read 3421 bytes and written 428 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES256-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : ECDHE-RSA-AES256-SHA
+    Session-ID: 419EB576C7D51B5818CD1F64564275F8104AEB4ABAE8FAA0C9EA300A0F44B8F3
+    Session-ID-ctx:
+     Master-Key: 6FD71DE08D3888747E57D506FCDB710BCCEBE7557810DC92F1E4FBCC77CCAD0CCA2DE0616E882 
+
+E0B9BC1775E8054298D
+
+    Key-Arg   : None
+    Krb5 Principal: None
+    PSK identity: None
+    PSK identity hint: None
+    TLS session ticket lifetime hint: 3600 (seconds)
+    TLS session ticket:
+    0000 - 5d e2 39 53 22 6b 33 9e-d9 4e 14 de 63 6d de 73   ].9S"k3..N..cm.s
+    0010 - d0 1c e9 55 7a 1e 70 32-b3 02 30 93 e5 f5 d3 d4   ...Uz.p2..0.....
+    0020 - 8e a6 e5 bf c8 d5 20 a2-88 0e 20 88 15 29 4c f4   ......

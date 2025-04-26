@@ -1,0 +1,6 @@
+Files in that directory deﬁ ne the responses that a user sees 
+when an error is encountered, such as a ﬁ le not found or permission denied message.
+
+Some Apache modules drop conﬁ guration ﬁ les (*.conf) into the /etc/httpd/conf.
+modules.d/ directory. Any ﬁ le in that directory that ends in .conf is pulled into the 
+main httpd.conf ﬁ le and used to conﬁ gure Apache.

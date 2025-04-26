@@ -1,0 +1,11 @@
+For purposes of this deﬁ nition, “control” includes 
+the right to grant patent sublicenses in a manner consistent with the requirements of this 
+License.
+
+Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under 
+the contributor’s essential patent claims, to make, use, sell, offer for sale, import and oth-
+erwise run, modify and propagate the contents of its contributor version.
+
+In the following three paragraphs, a “patent license” is any express agreement or commit-
+ment, however denominated, not to enforce a patent (such as an express permission to 
+practice a patent or covenant not to sue for patent infringement).

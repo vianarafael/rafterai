@@ -1,0 +1,14 @@
+Here are the Security settings:
+
+18
+
+# Security
+anon_world_readable_only=YES
+connect_from_port_20=YES
+hide_ids=YES
+pasv_min_port=50000
+pasv_max_port=60000
+
+Because the vsftpd daemon can read ﬁ les assigned to the ftp user and group, setting 
+anon_world_readable_only=YES ensures that anonymous users can see ﬁ les where 
+the read permission bit is turned on for other (------r--), but not write ﬁ les.

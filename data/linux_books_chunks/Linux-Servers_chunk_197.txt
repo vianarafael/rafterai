@@ -1,0 +1,4 @@
+password protected website on CentOS
+
+You can secure files and directories in your website with a .htaccess file that refers to a
+.htpasswd file.

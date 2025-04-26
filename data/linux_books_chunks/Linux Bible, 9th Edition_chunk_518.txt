@@ -1,0 +1,7 @@
+If there isn’t an icon in the directory you want to use, create your own (in one of 
+those two formats) and assign it to the application.
+
+Adding a drawer
+A drawer is an icon that you can click to display other icons representing menus, applets, and 
+launchers; it behaves just like a panel. Essentially, any item you can add to a panel you can 
+add to a drawer.

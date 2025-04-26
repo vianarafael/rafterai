@@ -1,0 +1,5 @@
+You also learned how to conﬁ gure Apache to allow any user account on the system to 
+publish content from his or her own public_html directory.
+
+Continuing on the topic of server conﬁ guration, in Chapter 18, you learn how to set up 
+an FTP server in Linux.

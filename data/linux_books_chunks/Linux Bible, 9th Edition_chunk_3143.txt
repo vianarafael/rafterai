@@ -1,0 +1,2 @@
+For this ﬁ le to work, however, a Directory container (described next) would have 
+to have AllowOverride opened.

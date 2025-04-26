@@ -1,0 +1,11 @@
+A Network-Based Service Definition
+
+define service{
+          use                               local-service   ; Name of service template to use
+          host_name                    gateway.example.com
+          service_description       Check SMTP
+          check_command           check_smtp!25
+          }
+
+In Listing 18-20, we have a new service, called Check SMTP, that uses our local-service template and 
+a check_command of check_smtp!25.

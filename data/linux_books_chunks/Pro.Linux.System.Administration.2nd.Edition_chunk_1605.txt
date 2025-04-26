@@ -1,0 +1,3 @@
+We can also see the interfaces 
+that have been attached to it. The services describe what services are allowed access, the DHCP client and 
+SSH. DHCP allows us to get an IP address automatically for our interface.

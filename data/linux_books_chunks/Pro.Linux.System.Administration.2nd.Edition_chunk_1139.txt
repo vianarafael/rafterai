@@ -1,0 +1,11 @@
+On systems running Systemd you can 
+forget about basically ignore runlevels as they don’t strictly apply in the new world and you will not find the 
+inittab file on your system.
+
+ if you’re looking for more detailed information than what is in the man page on the inittab, you can 
+
+ ■ Note 
+read information at www.cyberciti.biz/howto/question/man/inittab-man-page.php.
+
+The traditional init program would read the inittab to determine the default runlevel and then execute 
+a series of scripts for that runlevel (files in the /etc/rcX.d directories where X is the runlevel).

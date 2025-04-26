@@ -1,0 +1,18 @@
+For example, you may want to install only supported and free packages from Canonical, in 
+which case your sources line might look as follows:
+
+deb http://archive.ubuntu.com/ubuntu xenial main
+
+As an exercise, why not point your web browser to http://archive.ubuntu.com/ubuntu and see how 
+a repository is laid out?
+
+You can find out more about repositories and sections and how to set them up at https://help.
+ubuntu.com/community/Repositories/Ubuntu.
+
+Updating Packages Using Aptitude
+
+The other standard task of upgrading is accomplished by first updating the list of available packages 
+(checking that you have the most current record of updated packages available from the repository) and 
+performing the upgrade of packages that require upgrading on your host.
+
+Listing 8-15 shows how to perform an update of the list of available packages.

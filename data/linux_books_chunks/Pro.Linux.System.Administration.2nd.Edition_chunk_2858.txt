@@ -1,0 +1,11 @@
+If 
+we now look inside the /etc/apache2/mod-enabled directory, we can see which of these modules is loaded 
+when Apache is started.
+
+$ ls -l mods-enabled/mpm*
+lrwxrwxrwx 1 root root 32 Aug  5 12:18 mods-enabled/mpm_event.conf -> ../mods-available/
+mpm_event.conf
+lrwxrwxrwx 1 root root 32 Aug  5 12:18 mods-enabled/mpm_event.load -> ../mods-available/
+mpm_event.load
+
+Now you can see that by default Ubuntu will run the event MPM.

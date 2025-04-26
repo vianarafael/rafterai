@@ -1,0 +1,2 @@
+For hosts, this means installing the 
+OpenVPN server on both ends.

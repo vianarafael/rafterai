@@ -1,0 +1,37 @@
+ldap://localhost:389 or ldaps://localhost:636)
+ServerURL: ldaps://ldap.example.com
+
+# list of users who are allowed to use LDAP Account Manager
+Admins: cn=admin,dc=example,dc=com
+
+# password to change these preferences via webfrontend
+Passwd: somepassword
+
+# suffix of tree view
+treesuffix: dc=example,dc=com
+
+# maximum number of rows to show in user/group/host lists
+maxlistentries: 30
+
+# default language (a line from config/language)
+defaultLanguage: en_GB.utf8:UTF-8:English (Great Britain)
+
+# Number of minutes LAM caches LDAP searches.
+cachetimeout: 5
+
+780
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+# Module settings
+modules: posixAccount_minUID: 1000
+modules: posixAccount_maxUID: 30000
+modules: posixAccount_minMachine: 50000
+modules: posixAccount_maxMachine: 60000
+modules: posixGroup_minGID: 1000
+modules: posixGroup_maxGID: 20000
+modules: posixGroup_pwdHash: SSHA
+modules: posixAccount_pwdHash: SSHA
+
+In the first section of this file, we add the details for our LDAP directory including the connection 
+details, tree information, Posix UID, GID, and machine numbers.

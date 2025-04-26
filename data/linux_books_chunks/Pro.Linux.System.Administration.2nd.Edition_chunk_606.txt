@@ -1,0 +1,5 @@
+When 
+the sticky bit is set on a directory, files in that directory can be deleted only by the user who owns them, 
+the owner of the directory, or the root user, irrespective of any other permissions set on the directory. 
+This allows the creation of public directories where every user can create files but only delete their own 
+files.

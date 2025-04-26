@@ -1,0 +1,9 @@
+A wan does not use ethernet, but
+protocols like fddi, frame relay, ATM or X.25 to connect computers (and networks).
+
+The  picture  below  shows  a  branch  office  that  is  connected  through  Frame  Relay  with
+headquarters.
+
+The acronym wan is also used for large surface area networks like the internet.
+
+Cisco  is  known  for  their  wan  technology.

@@ -1,0 +1,10 @@
+user owner and group owner
+
+The users and groups of a system can be locally managed in /etc/passwd and /etc/group,
+or they can be in a NIS, LDAP, or Samba domain. These users and groups can own files.
+Actually, every file has a user owner and a group owner, as can be seen in the following
+screenshot.
+
+paul@rhel65:~/owners$ ls -lh
+total 636K
+-rw-r--r--.

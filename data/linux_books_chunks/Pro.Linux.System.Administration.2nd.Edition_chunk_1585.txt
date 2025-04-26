@@ -1,0 +1,2 @@
+The DROP policy is contrary to TCP RFCs (Requests for Comment) and can be a little harsh on network 
+devices; specifically, they can sit waiting for a response from their dropped packet(s) for a long time.

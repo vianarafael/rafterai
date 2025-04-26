@@ -1,0 +1,11 @@
+Files in those 
+directories starting with S or K’ would be executed depending if the system was starting (S) or shutting down 
+(K) (or moving between runlevels where the service is expected to be running or stopped).
+
+200
+
+Chapter 6 ■ Startup and ServiCeS
+
+With hosts with the systemd-sysv package installed, if we cannot find a systemd service file, the system 
+
+will look for files in the /etc/init.d directory; for example, /etc/init.d/postfix.

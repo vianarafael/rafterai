@@ -1,0 +1,3 @@
+But 
+to install the latest GlusterFS on CentOS, we are going to install packages provided by the CentOS Special 
+Interest Group (SIG; see https://wiki.centos.org/SpecialInterestGroup).

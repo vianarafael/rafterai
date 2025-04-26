@@ -1,0 +1,6 @@
+Therefore, the filter 
+table is the primary table to focus on for basic ﬁ rewall packet ﬁ ltering.
+
+netfilter/iptables chains
+The netfilter/iptables ﬁ rewall categorizes network packets into categories, called 
+chains.

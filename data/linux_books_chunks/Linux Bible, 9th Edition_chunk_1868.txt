@@ -1,0 +1,11 @@
+At this point, you 
+can change the account type (Standard or Administrator), change the user’s password, or 
+allow the user account to log in automatically (without a password). This screen is shown 
+in Figure 11.2.
+
+FIGURE 11.2
+
+Modify existing user accounts from the Users window.
+
+The Users window was designed to simplify the process of creating and modifying 
+user accounts.

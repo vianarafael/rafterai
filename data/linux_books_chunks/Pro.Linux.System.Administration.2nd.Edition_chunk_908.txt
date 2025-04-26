@@ -1,0 +1,7 @@
+If the result of this module is a failure, then the overall authentication is also a failure. If more 
+than one module is stacked together, the other modules in the stack will also be processed, but the overall 
+authentication will still fail.
+
+The requisite flag also indicates that the module result must be successful for authentication to be 
+
+successful.

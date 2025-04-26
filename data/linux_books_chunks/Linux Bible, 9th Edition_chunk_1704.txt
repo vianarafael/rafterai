@@ -1,0 +1,14 @@
+With only a few notable exceptions (such as Gentoo, Slackware, and a few 
+others), the majority of Linux distributions went to one of two packaging formats—DEB 
+and RPM:
+
+236
+
+c10.indd  04/01/2015  Page 237
+
+Chapter 10: Getting and Managing Software
+
+ ■ DEB (.deb) packaging—The Debian GNU/Linux project created .deb  packaging, 
+
+which is used by Debian and other distributions based on Debian (Ubuntu, 
+Linux Mint, KNOPPIX, and so on).

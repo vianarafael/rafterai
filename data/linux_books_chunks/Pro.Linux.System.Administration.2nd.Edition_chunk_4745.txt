@@ -1,0 +1,8 @@
+In this 
+VirtualHost we have added our TLS/SSL keys pointing to our /etc/ldap/certs directory and have created 
+separate log files in the /var/log/apache2 directory to aid diagnosis of any problems relating to this 
+VirtualHost.
+
+We have included (Include /etc/.../apache.conf) the Apache configuration file provided by the 
+
+LAM package.

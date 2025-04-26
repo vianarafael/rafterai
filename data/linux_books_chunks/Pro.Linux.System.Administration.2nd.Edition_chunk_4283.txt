@@ -1,0 +1,10 @@
+We will show you how 
+to authenticate using normal Linux PAM modules but you can use PAM to authenticate against services like 
+LDAP and RADIUS.
+
+In the sections that follow, we will demonstrate how to install and set up OpenVPN in a variety of 
+
+configurations.
+
+Installing OpenVPN
+You will need to install OpenVPN on both ends of your connection.

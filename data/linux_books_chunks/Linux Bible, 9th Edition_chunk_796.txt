@@ -1,0 +1,3 @@
+When you log in to a Linux 
+system and open a shell, you are placed in your home directory. In Linux, most of the ﬁ les 
+you save and work with will probably be in that directory or subdirectories that you create.

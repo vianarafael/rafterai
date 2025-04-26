@@ -1,0 +1,4 @@
+He has administered UNIX, Linux, Novell, and Microsoft servers, as well as helped 
+design and maintain a 3,500-user network utilizing Cisco switches and routers. He has used 
+Linux servers and shell scripts to perform automated network monitoring and has written 
+shell scripts in most of the common Linux shell environments.

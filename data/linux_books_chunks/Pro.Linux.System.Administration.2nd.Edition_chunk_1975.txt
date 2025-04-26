@@ -1,0 +1,14 @@
+Entering our password to get root privileges to install packages
+
+We are asked to enter our password before we can install software.
+Once installed (see Figure 8-30), we can launch the application from here or we can remove it  
+
+(see Figure 8-31).
+
+Figure 8-30.  Installing the package
+
+339
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-31.

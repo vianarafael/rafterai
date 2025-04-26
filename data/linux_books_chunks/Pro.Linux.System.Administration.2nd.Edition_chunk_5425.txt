@@ -1,0 +1,10 @@
+After that, you can drop this switch and merely specify the file and the 
+user to be added.
+
+902
+
+Chapter 18 ■ Logging and Monitoring
+
+In Listing 18-22, we added a new password to the file with the -c option called /etc/nagios/passwd. 
+We specify the user we’re adding, jsmith, and are prompted for a password and then a verification of the 
+entered password. Both passwords must match.

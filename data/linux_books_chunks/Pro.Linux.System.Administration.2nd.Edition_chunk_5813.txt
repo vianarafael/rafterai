@@ -1,0 +1,30 @@
+We have created a playbooks/files directory, and in there we 
+
+have added our bareos-*.conf files.
+
+  - name: add bareos-dir.conf
+     copy: src=files/bareos-dir.conf dest=/etc/bareos/bareos-dir.conf owner=bareos 
+
+group=bareos mode=0640
+
+  - name: add bareos-sd.conf
+     copy: src=files/bareos-sd.conf dest=/etc/bareos/bareos-sd.conf owner=bareos group=bareos 
+
+mode=0640
+
+  - name: add bareos-fd.conf
+     copy: src=files/bareos-fd.conf dest=/etc/bareos/bareos-fd.conf owner=bareos group=bareos 
+
+mode=0640
+
+  - name: add bconsole.conf
+     copy: src=files/bconsole.conf dest=/etc/bareos/bconsole.conf owner=root group=bareos 
+
+mode=0640
+
+969
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We use the copy module to copy local files to the server and place them in the appropriate destination 
+file.

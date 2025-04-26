@@ -1,0 +1,2 @@
+However, a proxy server that supports SOCKS can provide a proxy service 
+for different protocols outside the local network.

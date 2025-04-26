@@ -1,0 +1,6 @@
+You can add extra aliases by using more ServerAlias 
+directives or by adding extra hostnames to a single ServerAlias separated by spaces.
+
+As we have said, the DocumentRoot directive specifies the directory from which this virtual host will 
+serve files. Once this is defined, you can use the Directory directive to specify options for this directory 
+and all files and directories it contains.

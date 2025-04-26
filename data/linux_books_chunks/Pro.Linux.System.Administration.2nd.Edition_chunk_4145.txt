@@ -1,0 +1,5 @@
+If we 
+were using a tape drive that did hardware compression on the data as it was written to tape, we would not 
+use the software compression here. It also supports other compression formats like LZO, LZ4, and LZ4HC. 
+The LZ formats tend to provide greater speed in compression/decompression but a smaller compression 
+ratio.

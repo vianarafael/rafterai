@@ -1,0 +1,11 @@
+To install it, type sudo apt-get install lvm2 
+at the command line.
+
+641
+
+c23.indd  04/01/2015  Page 642
+
+Part V: Learning Linux Security Techniques
+
+The encrypted logical volumes are mounted at boot time using the information from the 
+/etc/crypttab ﬁ le, as shown in the following code.

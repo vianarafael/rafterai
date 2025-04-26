@@ -1,0 +1,39 @@
+This option must be used with each multi 
+
+recording 
+
+Main track options
+-data
+
+the track contains data
+
+-audio
+
+the track is an audio file (.au, .wav or .cdr)
+
+Data Recording
+
+cdrecord -v speed=2 dev=0,0,0  -data  cd_image.iso
+
+Audio Recordng
+
+cdrecord -v speed=2 dev=0,0,0  -audio  *.wav 
+
+50
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+Mixed Recording
+
+cdrecord -v speed=2 dev=0,0,0  -data cd_image.iso -audio  *.wav  
+
+ISO9660 Filesystem and burning CDs
+
+      From Wikipedia, the free encyclopedia* 
+
+ISO 9660, a standard published by the International Organization for Standardization, defines a file system 
+for CD-ROM media.

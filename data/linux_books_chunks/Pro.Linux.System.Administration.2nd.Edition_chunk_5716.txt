@@ -1,0 +1,10 @@
+To use the template 
+
+function, we specify a template file, and Puppet populates any EPP code inside the template with 
+appropriate values that have been passed in as a hash to the function. Listing 19-15 shows a simple template.
+
+955
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Listing 19-15.

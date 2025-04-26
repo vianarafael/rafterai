@@ -1,0 +1,3 @@
+passwd
+
+Passwords of users can be set with the passwd command.

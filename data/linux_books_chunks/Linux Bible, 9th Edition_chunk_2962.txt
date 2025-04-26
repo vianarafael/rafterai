@@ -1,0 +1,10 @@
+Select the Probe button to search 
+for the host.
+
+ ■ Queue—This is the printer name on the remote UNIX computer.
+
+Complete the rest of the procedure as you would for a local printer (see the section “Adding 
+a local printer” earlier in this chapter).
+
+If the print job you send to test the printer is rejected, the print server computer may not have allowed you access 
+to the printer.

@@ -1,0 +1,9 @@
+For example, in our 
+
+case we could add tunnels from the branch2.example.com and branch3.example.com offices.
+
+Exposing Head Office Resources with OpenVPN
+With our configuration so far, we can route traffic between our branch offices and our head office over our 
+VPN tunnel. Let’s take a look at how our head office and our branch offices now interact.
+
+Take another look at Figure 15-2.

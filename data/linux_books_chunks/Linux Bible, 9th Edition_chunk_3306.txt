@@ -1,0 +1,8 @@
+The line we just added (--dport 21) allows any packets on new connections to 
+TCP port 21 to be accepted.
+
+18
+
+It is important to have the ESTABLISHED, RELATED line in your iptables fi rewall rules. Without that line, users 
+would be able to connect to your SSH (port 22) and FTP (port 21) services, but would not be able to communicate 
+after that.

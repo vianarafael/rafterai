@@ -1,0 +1,9 @@
+The steps are identical 
+
+when setting up LVM on RAID 1, individual partitions, or whole disks.
+
+396
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Each of these storage devices used by LVM is called a physical volume (PV).

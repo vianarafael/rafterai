@@ -1,0 +1,6 @@
+The list is stored in the current shell until you exit the shell. After that, 
+it is written to a history ﬁ le, from which any command can be recalled to run again at 
+your next session. After a command is recalled, you can modify the command line, as 
+described earlier.
+
+To view your history list, use the history command.

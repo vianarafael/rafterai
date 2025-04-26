@@ -1,0 +1,8 @@
+As a result, ~username indicates the home directory of the 
+named user.
+
+ ■ Hostname—If the text you type begins with the at symbol (@), the shell completes 
+
+the text with a hostname taken from the /etc/hosts ﬁ le.
+
+To add hostnames from an additional fi le, you can set the HOSTFILE variable to the name of that fi le.

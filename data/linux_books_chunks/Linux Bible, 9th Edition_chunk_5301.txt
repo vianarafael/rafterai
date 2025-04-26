@@ -1,0 +1,11 @@
+For each initialization daemon, the following command(s) show a particular ser-
+
+vice’s current status:
+
+ ■ For SysVinit, the service service_name status command is used.
+
+ ■ For Upstart, the initctl status service_name command is used.
+
+ ■ For systemd, the systemctl status service_name command is used.
+
+8.

@@ -1,0 +1,16 @@
+This adds a further level of security to Ubuntu and requires 
+you to use sudo before each command you want to execute as the root user.
+
+Becoming root from the shell (su command)
+Although you can become the superuser by logging in as root, sometimes that is not 
+convenient.
+
+178
+
+c08.indd  04/01/2015  Page 179
+
+Chapter 8: Learning System Administration
+
+ ■ For example, you may be logged in to a regular user account and just want to make 
+a quick administrative change to your system without having to log out and log 
+back in.

@@ -1,0 +1,4 @@
+What this policy will do is to move to lower-cost storage after 35 days and delete any objects just 
+older than one year. The reason is that if we haven’t used the data after a month, the likelihood we will need 
+it beyond that is small and so we will move it to a lower-cost tier of storage. We allow 5 days (30+5) after the 
+month for a little buffer like we do at the expiration of 1 year.

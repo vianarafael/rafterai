@@ -1,0 +1,12 @@
+/var/log/squid
+
+The standard log file location for squid is /var/log/squid.
+
+[root@RHEL4 ~]# grep "/var/log" /etc/squid/squid.conf
+# cache_access_log /var/log/squid/access.log
+# cache_log /var/log/squid/cache.log
+# cache_store_log /var/log/squid/store.log
+
+2.8. access control
+
+The default squid setup only allows localhost access.

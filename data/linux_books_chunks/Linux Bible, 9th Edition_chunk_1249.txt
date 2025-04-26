@@ -1,0 +1,6 @@
+So if someone cracks a service, they can’t get root privilege 
+to other services or system resources.
+
+ ■ Security features—Setting up security features, such as ﬁ rewalls and user access 
+
+lists, is usually done with root privilege.

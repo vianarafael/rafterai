@@ -1,0 +1,10 @@
+OpenLDAP can use other databases as the back end if you desire.
+
+ you can read more about LMDB at https://symas.com/products/lightning-memory-mapped-
+
+ ■ Note 
+database/.
+
+General Considerations
+Ubuntu and CentOS offer different releases of OpenLDAP. Both CentOS and Ubuntu offer a recent 
+OpenLDAP 2.4 release.

@@ -1,0 +1,12 @@
+chgrp
+
+You can change the group owner of a file using the chgrp command.
+
+root@rhel65:/home/paul/owners# ls -l file2
+-rw-r--r--. 1 root tennis 185 Apr  8 18:46 file2
+root@rhel65:/home/paul/owners# chgrp snooker file2
+root@rhel65:/home/paul/owners# ls -l file2
+-rw-r--r--. 1 root snooker 185 Apr  8 18:46 file2
+root@rhel65:/home/paul/owners#
+
+6.1.4.

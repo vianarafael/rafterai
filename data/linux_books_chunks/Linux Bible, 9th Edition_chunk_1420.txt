@@ -1,0 +1,7 @@
+Linux comes with a set of commands for 
+ loading, unloading, and getting information about hardware modules.
+
+Kernel modules are installed in /lib/modules/ subdirectories. The name of each 
+ subdirectory is based on the release number of the kernel. For example, if the kernel 
+were 3.17.4-301.fc21.x86_64, the /lib/modules/3.17.4-301.fc21.x86_64 directory 
+would contain drivers for that kernel.

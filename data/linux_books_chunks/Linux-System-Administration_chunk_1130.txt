@@ -1,0 +1,14 @@
+introduction to nfs
+
+The network file system (or simply nfs) enables us since the Eighties to share a directory
+with other computers on the network.
+
+In this chapter we see how to setup an nfs server and an nfs client computer.
+
+308
+
+introduction to nfs
+
+26.1. nfs protocol versions
+
+The older nfs versions 2 and 3 are stateless (udp) by default (but they can use tcp).

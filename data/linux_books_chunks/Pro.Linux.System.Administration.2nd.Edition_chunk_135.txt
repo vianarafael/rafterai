@@ -1,0 +1,4 @@
+You may have in your network a 
+DHCP (Dynamic Host Configuration Protocol) server already. A DHCP server is a service that assigns IP 
+addresses to MAC addresses (the special and unique address on your network card). Most offices and 
+homes now have DHCP servers in their firewall or routers on their network.

@@ -1,0 +1,5 @@
+For a service to be activated (started) by a particu-
+lar target unit, it must be in that target unit’s Wants directory.
+
+First, add the line WantedBy=desired.target to the bottom of your service conﬁ gura-
+tion unit ﬁ le.

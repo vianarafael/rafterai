@@ -1,0 +1,9 @@
+These root certificates are usually bundled with the clients you use to connect to servers; for 
+example, your web browser will have a collection of root certificates from well-known CAs.
+So, the basic flow for certificate-based encryption (in simple terms) is as follows:
+
+1.  Your client connects to a server and asks for the certificate.
+
+2.  The server presents its certificate.
+
+3.

@@ -1,0 +1,3 @@
+The l switch, which is an 
+
+abbreviation of long, uses a long listing format, which as you can see shows a lot more information.

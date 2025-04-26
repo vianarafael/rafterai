@@ -1,0 +1,6 @@
+The sar 
+facility gathers live data or plays back data gathered earlier at 10-minute intervals. To 
+watch disk space, you can run df and du commands.
+
+The skills described in this chapter are designed to help you build a foundation to do 
+enterprise-quality system administration in the future.

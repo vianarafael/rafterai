@@ -1,0 +1,14 @@
+We will just 
+choose the default, Internet Site.
+
+67
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-65.  Configuring the mail server
+
+We will explain how to configure and secure mail services in Chapter 12. Selecting the default here will 
+
+provide a basic and secure configuration for sending and receiving mail for your domain.
+
+Next, you provide the domain name for your mail server (see Figure 2-66).

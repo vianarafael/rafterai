@@ -1,0 +1,2 @@
+You can have multiple search entries by identifying 
+one or more domain names after the search keyword.

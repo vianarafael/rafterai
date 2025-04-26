@@ -1,0 +1,15 @@
+security = domain
+
+This mode will allow samba to verify user credentials using NTLM in Windows NT4 and
+in all Active Directory domains. This is similar to Windows NT4 BDC's joining a native
+Windows 2000/3 Active Directory domain.
+
+252
+
+samba domain controller
+
+23.2.4. security = ads
+
+This mode will make samba use Kerberos to connect to the Active Directory domain.
+
+23.2.5.

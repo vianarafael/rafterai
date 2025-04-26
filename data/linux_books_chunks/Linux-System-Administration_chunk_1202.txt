@@ -1,0 +1,13 @@
+kernel boot files
+
+28.3.1. vmlinuz
+
+The vmlinuz file in /boot is the compressed kernel.
+
+paul@barry:~$ ls -lh /boot | grep vmlinuz
+-rw-r--r-- 1 root root 1.2M 2006-03-06 16:22 vmlinuz-2.6.15-1-486
+-rw-r--r-- 1 root root 1.1M 2006-03-06 16:30 vmlinuz-2.6.15-1-686
+-rw-r--r-- 1 root root 1.3M 2008-02-11 00:00 vmlinuz-2.6.18-6-686
+paul@barry:~$
+
+28.3.2.

@@ -1,0 +1,4 @@
+Also, remember to enable it on boot with systemctl enable samba-ad-dc.
+
+Testing Samba
+Now we can test that we can authenticate against the service.

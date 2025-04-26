@@ -1,0 +1,14 @@
+Our New Virtual Host Definition
+
+<VirtualHost *>
+    ServerName www.example.com
+    ServerAlias example.com
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html/www.example.com
+    <Directory /var/www/html/www.example.com>
+        Options Indexes FollowSymLinks Includes IncludesNOEXEC SymLinksIfOwnerMatch
+        AllowOverride None
+    </Directory>
+</VirtualHost>
+
+This is similar to our CentOS virtual host declaration.

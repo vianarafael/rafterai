@@ -1,0 +1,13 @@
+We can log in to the au-mel-centos-1 host and 
+see the file data.txt is now in the /tmp directory.
+
+We can also copy from a remote host back to a local host, by specifying a remote file path as the first 
+
+parameter and a local file or directory second.
+
+$ scp jsmith@au-mel-centos-1:/tmp/data.txt /tmp
+data.txt                                      100% 3072KB    3.0MB/s    00:00
+
+We can even copy files or directories from one remote host to another remote host without logging in to 
+
+either of them.

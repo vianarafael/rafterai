@@ -1,0 +1,10 @@
+remember, id values less than 1000 are reserved for system 
+accounts.
+
+607
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+We have set up the sales group in Samba. We need to query Winbind now to get the GID that has been 
+
+assigned to the sales group, and then we will change the group ownership on our directories.

@@ -1,0 +1,4 @@
+This can be internal users or external public clients and can save your web servers from handling every 
+request that comes into your site, freeing them to better handle dynamic content generation.
+
+There are different types of caching software and services.

@@ -1,0 +1,28 @@
+The following 
+
+507
+
+c19.indd  04/01/2015  Page 508
+
+Part IV: Becoming a Linux Server Administrator
+
+example represents a set of ﬁ rewall rules in the /etc/sysconfig/iptables ﬁ le, with 
+four new rules (highlighted in the example that follows) added to open ports for Samba:
+
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+-A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-I INPUT -m state --state NEW -m udp -p udp --dport 137 -j ACCEPT
+-I INPUT -m state --state NEW -m udp -p udp --dport 138 -j ACCEPT
+-I INPUT -m state --state NEW -m tcp -p tcp --dport 139 -j ACCEPT
+-I INPUT -m state --state NEW -m tcp -p tcp --dport 445 -j ACCEPT
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+-A FORWARD -j REJECT --reject-with icmp-host-prohibited
+COMMIT
+
+Your ﬁ rewall may include additional rules to allow incoming packet requests for other 
+services, such as Secure Shell (sshd) or web (httpd) services.

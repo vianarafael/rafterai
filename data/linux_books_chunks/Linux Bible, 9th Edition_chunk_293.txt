@@ -1,0 +1,6 @@
+In pursuit 
+of bringing new users to Linux, the Ubuntu project added a simple graphical installer and 
+easy-to-use graphical tools. It also focused on full-featured desktop systems, while still 
+offering popular server packages.
+
+Ubuntu was also an innovator in creating new ways to run Linux.

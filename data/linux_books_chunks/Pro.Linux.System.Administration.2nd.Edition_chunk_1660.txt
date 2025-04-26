@@ -1,0 +1,8 @@
+Any packets 
+with any protocol will now be sent to chain IPV4-INCOMING, as denoted by -j IPV4-INCOMING, for further 
+processing.
+
+We may not want all our packets to go to our IPV4-INCOMING chain. Maybe we only want tcp packets 
+
+to go to that chain and we will handle udp packets in a different chain. You can refine what you want to catch 
+in your rules by adding other parameters.

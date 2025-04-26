@@ -1,0 +1,24 @@
+In our case, we do so on the remote gateway.
+example.com host as follows:
+
+gateway$ sudo useradd nagios
+
+We also need to create the .ssh directory on the remote host and protect it.
+
+gateway$ sudo mkdir /home/nagios/.ssh
+gateway$ sudo chmod 0700 /home/nagios/.ssh
+
+We can then copy the file, assuming jsmith has the appropriate access to the gateway server.
+
+nagios$ scp .ssh/id_rsa.pub jsmith@gateway.example.com:/tmp/authorized_keys
+nagios$ ssh jsmith@gateway.example.com
+gateway$ sudo mv /tmp/authorized_keys /home/nagios/.ssh/authorized_keys && \
+sudo chown nagios /home/nagios/.ssh/authorized_keys && \
+sudo chmod 0644 /home/nagios/.ssh/authorized_keys
+
+896
+
+Chapter 18 ■ Logging and Monitoring
+
+If this succeeds, we should now be able to SSH from the Nagios server to the gateway host without 
+requiring a password.

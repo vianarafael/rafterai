@@ -1,0 +1,6 @@
+To the outside world, 
+each of those virtual guests appears as a separate computer. KVM and Xen are two 
+technologies in Linux for creating virtual hosts.
+
+ ■ Cloud computing—To manage large-scale virtualization environments, you can use 
+full-blown cloud computing platforms based on Linux.

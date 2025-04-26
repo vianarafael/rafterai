@@ -1,0 +1,6 @@
+The following 
+section describes some of these tools.
+
+Accessing an FTP server from Firefox
+The Firefox web browser provides a quick and easy way to test access to your FTP server or to 
+access any public FTP server. On your own system, type ftp://localhost into the location box.

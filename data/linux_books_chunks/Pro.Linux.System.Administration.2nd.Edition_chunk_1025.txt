@@ -1,0 +1,5 @@
+At the bottom of Figure 6-3 you can see that we can now enter Ctrl-x or F10 to boot with this setting or Ctrl-c 
+to get a command line or ESC to abandon these changes and go back to the main menu.
+
+We can choose Ctrl-x and boot into single-user mode. We are first asked for the password to decrypt 
+our hard drive.

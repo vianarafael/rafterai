@@ -1,0 +1,5 @@
+You may want ﬁ les larger than a certain size, but smaller than another size. Or you 
+might want to ﬁ nd ﬁ les owned by any of several users. The -not and -or options can help 
+you do that. Consider the following examples:
+
+ ■ There is a shared directory called /var/all.

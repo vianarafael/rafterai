@@ -1,0 +1,6 @@
+if the line started with a number 5xx, your client and server 
+would know this was an error code of some kind. You’ll see more of these numbers later.
+
+On the next line, we have entered the command EHLO client.example.com. When a client says hello 
+
+and tells the server who it is, it should provide a fully qualified domain name like client.example.com.

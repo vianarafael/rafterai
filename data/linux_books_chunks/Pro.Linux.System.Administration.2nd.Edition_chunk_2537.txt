@@ -1,0 +1,5 @@
+If you are setting up a DNS server as the authority for your domain, you 
+can validate that your delegation path is correct with the +trace option.
+
+ ■ Tip  there is often a “propagation delay” as the world of Dns reorganizes itself with updates. this delay is 
+dependent on record ttLs and how often name servers update their records.

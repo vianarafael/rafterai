@@ -1,0 +1,22 @@
+Basic Options for Adding a yum Repository
+
+Option
+
+Description
+
+[repo-id]
+
+The repo_id is the unique name for the repository.
+
+name
+
+baseurl
+
+enabled
+
+gpgcheck
+
+The name is a description of the repository.
+
+The baseurl is the URL to the repository. This is generally an HTTP URL, much like you 
+would use in a web browser.

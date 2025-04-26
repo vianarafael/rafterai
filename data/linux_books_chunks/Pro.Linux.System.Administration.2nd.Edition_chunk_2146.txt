@@ -1,0 +1,6 @@
+In our filesystem library, people are allowed to borrow books 
+from the return chute as well, and the librarian is allowed to ignore people who want borrow a book if 
+the chute becomes too full.
+
+Most modern filesystems use journals, though some use the journal only for file metadata. A filesystem 
+like Btrfs can handle metadata in different ways.

@@ -1,0 +1,29 @@
+Make sure the following are in place:
+
+ ■ Shared networked storage among the hypervisors
+
+ ■ The same network interfaces conﬁ gured on each hypervisor
+
+ ■ Compatible CPUs between hypervisors (Often, a set of hypervisors have the 
+
+exact same hardware.)
+
+ ■ A fast network connection between the hypervisors and storage
+
+ ■ The same or similar versions of virtualization software on the hypervisors (In our 
+
+case, we used Fedora 21 on both and installed them similarly.)
+
+With all that in place, live migration requires only a few steps to get going.
+
+Step 1: Identify other hypervisors
+Assuming that the Virtual Machine Manager window is still up and running on one of your 
+hypervisors, go to that window and do the following to connect to the other hypervisor:
+
+745
+
+c26.indd  04/01/2015  Page 746
+
+Part VI: Extending Linux into the Cloud
+
+a.

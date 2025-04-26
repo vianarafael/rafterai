@@ -1,0 +1,7 @@
+--
+Aug 20 06:45:15 fedora20.example.com systemd-journal[81]:
+    Runtime journal is using 8.0M (m
+...
+
+Many other options are available with the journalctl command. For information on 
+those options, see the journalctl man page (man journalctl).

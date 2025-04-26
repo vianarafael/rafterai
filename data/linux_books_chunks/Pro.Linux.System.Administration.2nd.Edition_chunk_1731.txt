@@ -1,0 +1,25 @@
+Now to add our port forwarding, or what we called 
+
+DNATs before, we are going to issue the following:
+
+$ sudo firewall-cmd --zone=external --add-forward-port=port=80:proto=tcp:toport=80:toad
+dr=192.168.0.1 --permanent
+
+Our zone should now look like this:
+
+$ sudo firewall-cmd --zone=external --list-all
+external (active)
+ interfaces: enp0s8
+ sources:
+ services: ssh
+ ports:
+ masquerade: yes
+ forward-ports: port=80:proto=tcp:toport=80:toaddr=192.168.0.1
+ icmp-blocks:
+ rich rules:
+
+286
+
+We are now going to setup a DMZ zone for our services that live inside our network but that are 
+
+accessed by external clients, such as public websites hosted on internal servers.

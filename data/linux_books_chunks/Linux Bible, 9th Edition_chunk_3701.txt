@@ -1,0 +1,5 @@
+What you can do with that content depends on how it was 
+conﬁ gured for sharing by the server.
+
+This can be a bit disconcerting because you don’t see any ﬁ les or directories until you 
+ actually try to use them, such as changing to a network-mounted directory.

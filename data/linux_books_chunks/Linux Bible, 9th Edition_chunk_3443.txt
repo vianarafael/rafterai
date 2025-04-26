@@ -1,0 +1,9 @@
+Try connecting to the Samba service 
+by using the smbclient command again, or by using other techniques described in the 
+section “Accessing Samba Shares” later in this chapter.
+
+See Chapter 25, “Securing Linux on a Network,” for more information on using iptables.
+
+Confi guring SELinux for Samba
+There are both ﬁ le context and Boolean considerations related to using Samba with 
+SELinux in Enforcing mode.

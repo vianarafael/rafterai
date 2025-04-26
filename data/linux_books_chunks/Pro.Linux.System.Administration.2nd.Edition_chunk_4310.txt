@@ -1,0 +1,11 @@
+This improves 
+
+performance across the tunnel.
+
+So, we’ve configured the basics of our VPN, but is it now ready? Not quite yet—we have one more step: 
+
+authentication.
+
+Configuring OpenVPN Authentication
+
+Authentication ensures that only authorized hosts can initiate VPNs and connect.

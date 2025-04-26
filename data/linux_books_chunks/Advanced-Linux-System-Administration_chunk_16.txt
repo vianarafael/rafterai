@@ -1,0 +1,3 @@
+Opaque formats include proprietary formats that can be read and edited only by proprietary word 
+processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the 
+machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only.

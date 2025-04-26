@@ -1,0 +1,10 @@
+With the 
+rpmfusion.org repository enabled, your system should pick up the new drivers 
+when the new kernel is added.
+
+As an alternative to sites such as rpmfusion.org, you can go straight to the 
+ website for the manufacturer and try to download their Linux drivers (Nvidia offers 
+Linux drivers for its video cards), or if source code is available for the driver, you 
+can try to build it yourself.
+
+ ■ Exclude some packages from update.

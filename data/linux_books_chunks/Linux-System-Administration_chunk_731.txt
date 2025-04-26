@@ -1,0 +1,27 @@
+systemd power management
+
+legacy command
+
+poweroff
+
+reboot
+
+halt
+
+pm-suspend
+
+pm-hibernate
+
+systemd command
+
+systemctl poweroff
+
+systemctl reboot
+
+systemctl halt
+
+systemctl suspend
+
+systemctl hibernate
+
+15.8.6.

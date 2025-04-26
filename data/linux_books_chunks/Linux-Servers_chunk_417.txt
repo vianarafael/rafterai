@@ -1,0 +1,14 @@
+With  nsupdate  you  can  update  a  zone
+database and initiate an incremental zone transfer.
+
+You need DDNS allowed for nsupdate to work.
+
+root@ubu1010srv:/etc/bind# nsupdate
+> server 127.0.0.1
+> update add mac14.linux-training.be 86400 A 192.168.1.23
+> send
+update failed: REFUSED
+
+5.5.5. old DDNS integration with DHCP
+
+Some organizations like to have all their client computers in DNS.

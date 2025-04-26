@@ -1,0 +1,9 @@
+If 
+
+you want to see UTC times, you can issue the following:
+
+$ sudo journalctl --utc
+
+In Listing 18-2 we saw the full list of fields that are included in our logs. We can use this metadata 
+as filters too. One of the fields from Listing 18-2 is _COMM, which records the command that was used in 
+generating the log.

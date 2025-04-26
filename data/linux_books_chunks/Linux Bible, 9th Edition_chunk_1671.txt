@@ -1,0 +1,6 @@
+The linux line shows the kernel location (/boot/vmlinuz-3.16.3-200.fc20.x86_64), 
+followed by options that are passed to the kernel. 
+
+There are many, many more features of GRUB 2 you can learn about if you want to dig 
+deeper into your system’s boot loader. The best documentation for GRUB 2 is available on 
+the Fedora system; type info grub2 at the shell.

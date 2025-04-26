@@ -1,0 +1,2 @@
+It does not work on architectures other  than  i386.   Its 
+use is strongly discouraged.

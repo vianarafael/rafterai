@@ -1,0 +1,9 @@
+It is generally the default method for updating and maintaining the packages on those distributions 
+via the command line.
+
+306
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+YUM also has the ability to solve dependency issues by fetching the packages required to install any 
+individual package.

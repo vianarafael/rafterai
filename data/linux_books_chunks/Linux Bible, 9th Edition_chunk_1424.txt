@@ -1,0 +1,2 @@
+You can also use the -a option to see the author of the module or 
+-n to see the object ﬁ le representing the module.

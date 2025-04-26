@@ -1,0 +1,9 @@
+But the kernel can 
+be instructed to run a shell instead which will allow us to have access to the system before 
+the services are started.
+
+At the LILO or GRUB boot prompt add the following kernel parameter:
+
+init=/bin/bash
+
+At the end of the kernel boot stage you should get a bash prompt.

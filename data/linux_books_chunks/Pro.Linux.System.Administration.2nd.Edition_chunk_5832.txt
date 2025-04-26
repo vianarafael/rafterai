@@ -1,0 +1,4 @@
+We are going to show you how to use a tool 
+
+called ServerSpec to help your testing, but you can use other testing frameworks in any of the scripting 
+languages to help test your code.

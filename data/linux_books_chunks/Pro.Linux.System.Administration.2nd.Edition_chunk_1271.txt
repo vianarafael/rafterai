@@ -1,0 +1,4 @@
+the address 
+255.255.255.255 would be represented as 11111111.11111111.11111111.11111111 – 0.0.0.0 is 00
+000000.00000000.00000000.00000000. each position in each octet represents a value with the leading 
+position being 128, then 64, then 32, then 16, then 8, then 4, then 2 and trailing position being 1.

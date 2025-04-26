@@ -1,0 +1,32 @@
+377
+Understanding the Initialization Daemon (init or systemd) ...................................378
+Understanding the classic init daemons ......................................................380
+Understanding the Upstart init daemon ......................................................386
+Learning Upstart init daemon basics ..................................................386
+Learning Upstart’s backward compatibility to SysVinit ........................388
+Understanding systemd initialization .........................................................392
+
+xxiii
+
+ftoc.indd  04/02/2015  Page xxiv
+
+Contents
+
+Learning systemd basics ....................................................................392
+Learning systemd’s backward compatibility to SysVinit........................397
+Checking the Status of Services ..........................................................................399
+Checking services for SysVinit systems .......................................................400
+Checking services for Upstart systems ........................................................401
+Checking services for systemd systems .......................................................402
+Stopping and Starting Services ...........................................................................403
+Stopping and starting SysVinit services ......................................................403
+Stopping and starting Upstart services .......................................................405
+Stopping and starting systemd services ......................................................406
+Stopping a service with systemd ........................................................406
+Starting a service with systemd .........................................................406
+Restarting a service with systemd ......................................................407
+Reloading a service with systemd .......................................................407
+Enabling Persistent Services ...............................................................................408
+Conﬁ guring persistent services for SysVinit .................................................408
+Conﬁ guring persistent services for Upstart ..................................................409
+Conﬁ guring persistent services for systemd .................................................

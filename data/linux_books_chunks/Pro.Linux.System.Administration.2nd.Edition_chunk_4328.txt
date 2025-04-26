@@ -1,0 +1,3 @@
+This is on the server only. This key is used to generate a public key that 
+communicating parties use to generate a shared secret that both parties will use to communicate. (You can 
+read about Diffie-Hellman in more detail at https://wiki.openssl.org/index.php/Diffie_Hellman).

@@ -1,0 +1,11 @@
+To stop the iptables firewall
+on Red Hat, use the service command.
+
+root@RHELv4u4:~# service iptables stop
+Flushing firewall rules:                                   [  OK  ]
+Setting chains to policy ACCEPT: filter                    [  OK  ]
+Unloading iptables modules:                                [  OK  ]
+root@RHELv4u4:~# 
+
+The  easy  way  to  configure  iptables,  is  to  use  a  graphical  tool  like  KDE's  kmyfirewall
+or  Security  Level  Configuration  Tool.

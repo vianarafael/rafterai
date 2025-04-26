@@ -1,0 +1,10 @@
+-A INPUT -i virbr0 -p tcp -m tcp --dport 53 -j ACCEPT
+8. -A INPUT -i virbr0 -p udp -m udp --dport 67 -j ACCEPT
+9. -A INPUT -i virbr0 -p tcp -m tcp --dport 67 -j ACCEPT
+10. -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+11. -A INPUT -i lo -j ACCEPT
+12. -A INPUT -j INPUT_direct
+13. –A INPUT –j INPUT_ZONES_SOURCE
+14. –A INPUT –j INPUT_ZONES
+15. –A INPUT –p icmp –j ACCEPT
+16.

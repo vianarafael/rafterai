@@ -1,0 +1,6 @@
+If the IP address can be reached, it could be that 
+either you were assigned the wrong address for the DNS server or it is 
+currently down.
+
+ ■ Check if DNS server is working. You speciﬁ cally try to use each DNS server with 
+the host or dig command.

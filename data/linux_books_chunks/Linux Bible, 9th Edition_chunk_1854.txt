@@ -1,0 +1,13 @@
+Delete the mogrify command from your system, and verify its package against the 
+
+RPM database to see that the command is indeed missing.
+
+7.  Reinstall the package that provides the mogrify command, and make sure the 
+
+entire package is intact again.
+
+8.  Download the package that provides the mogrify command to your current 
+
+directory.
+
+9.

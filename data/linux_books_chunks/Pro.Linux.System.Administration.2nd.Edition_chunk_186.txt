@@ -1,0 +1,6 @@
+Once again you will need to have set 
+up the Installation Destination and Networking before you will be able to configure anything that requires a 
+network.
+
+In Figure 2-22 you can see that we have added another installation source from the builder.example.com 
+host which is somewhere on our network. This host would be serving via http:// a copy of the ISO image.

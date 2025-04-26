@@ -1,0 +1,35 @@
+top Column Headers
+
+Header
+
+Meaning
+
+PID
+
+USER
+
+PR
+
+NI
+
+VIRT
+
+RES
+
+SHR
+
+S
+
+%CPU
+
+%MEM
+
+TIME+
+
+Task’s process ID. This unique identifier allows you to manipulate a task.
+
+The username of the task’s owner; the account it runs as.
+
+The task priority.
+
+The task niceness; an indication of how willing this task is to yield CPU cycles to other tasks.

@@ -1,0 +1,13 @@
+This virtual layer will allow for an administrator to enlarge a mounted file system in
+use. When lvm is properly used, then there is no need to unmount the file system to enlarge it.
+
+101
+
+logical volume management
+
+11.2. lvm terminology
+
+11.2.1. physical volume (pv)
+
+A physical volume is any block device (a disk, a partition, a RAID device or even an iSCSI
+device).

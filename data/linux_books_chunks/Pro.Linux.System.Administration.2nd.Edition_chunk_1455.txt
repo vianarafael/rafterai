@@ -1,0 +1,2 @@
+Some remote networks will actively block ICMP (Internet Control Message Protocol) traffic. These hosts 
+will not respond to pings, and so you should check the response of other hosts before you panic.

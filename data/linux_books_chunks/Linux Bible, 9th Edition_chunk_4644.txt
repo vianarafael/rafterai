@@ -1,0 +1,10 @@
+This is accomplished in the following:
+
+# restorecon -R -v /srv/www/html
+
+Now the httpd daemon has permission to access your HTML ﬁ les in their nonstandard 
+directory location.
+
+Using a nonstandard port for a service
+Similar to the problem just described, you may decide to have a service listening on a non-
+standard port.

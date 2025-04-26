@@ -1,0 +1,5 @@
+It can also 
+share documents between Linux (and other Unix) hosts using a tool called Network File System (NFS).
+
+In heterogeneous environments, it has become increasingly common to move document management 
+and storage into cloud-based providers.

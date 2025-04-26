@@ -1,0 +1,41 @@
+Table 25.1 shows what chains are available 
+for each table.
+
+TABLE 25.1    Chains Available for Each netﬁ lter/iptables Table
+
+Table
+
+filter
+
+nat
+
+mangle
+
+raw
+
+Chains Available
+
+INPUT, FORWARD, OUTPUT
+
+PREROUTING, OUTPUT, POSTROUTING
+
+INPUT, FORWARD, PREROUTING, OUTPUT, POSTROUTING
+
+PREROUTING, OUTPUT
+
+security
+
+INPUT, FORWARD, OUTPUT
+
+714
+
+c25.indd  04/02/2015  Page 715
+
+Chapter 25: Securing Linux on a Network
+
+After a network packet is categorized into a speciﬁ c chain, iptables can determine what 
+policies or rules apply to that particular packet.
+
+netfilter/iptables rules, policies, and targets
+For each network packet, a rule can be set up deﬁ ning what to do with that individual 
+packet.

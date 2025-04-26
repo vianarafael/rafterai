@@ -1,0 +1,29 @@
+258
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c11.indd  04/01/2015  Page 259
+
+ C H A P T E R 
+
+11
+
+Managing User Accounts
+
+IN THIS CHAPTER
+
+Working with user accounts
+
+Working with group accounts
+
+Confi guring centralized user accounts
+
+A dding and managing users are common tasks for Linux systems administrators.

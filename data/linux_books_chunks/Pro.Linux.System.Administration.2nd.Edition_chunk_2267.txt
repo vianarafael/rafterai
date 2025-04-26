@@ -1,0 +1,15 @@
+An alternative solution 
+would be to resize the filesystem, and we’ll get to that shortly.
+
+In Chapters 17 and 18, when we look at monitoring and logging, we’ll cover how to automate 
+
+ ■ Tip 
+filesystem monitoring.
+
+385
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+RAID
+Storing data on a hard disk is great to keep it accessible on your server, but when the disk fails, you lose your 
+data.

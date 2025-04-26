@@ -1,0 +1,10 @@
+The chain must be empty and not referenced by any other chain at the 
+time you wish to delete it.
+
+Creates a new chain. There can be no target already existing with the same name.
+
+Replace an existing rule
+
+Check if the rules exists in a chain and returns an exit code.
+
+Prints the rules (similar to –L) in the specified chain.

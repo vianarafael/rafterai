@@ -1,0 +1,6 @@
+That image can be burned 
+to a DVD or USB drive and booted from that medium. With the Live media, you can totally 
+ignore your computer’s hard disk; in fact, you can run Live media on a system with no 
+hard disk. After you are running the Live Linux system, some Live media ISOs allow you to 
+launch an application that permanently installs the contents of the Live medium to your 
+hard disk.

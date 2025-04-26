@@ -1,0 +1,1 @@
+These hosts are often connected by leased lines.

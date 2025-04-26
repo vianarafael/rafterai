@@ -1,0 +1,4 @@
+For example, when you install KVM and 
+start the libvirtd service in RHEL or Fedora, it automatically conﬁ gures a default private 
+network in the 192.168.122.0/24 address range. When you launch virtual machines, they are 
+given IP addresses in that range.

@@ -1,0 +1,9 @@
+For example, we 
+
+can see that in that directory the ppolicy.schema and ppolicy.ldif files for the ppolicy schema are present.
+
+$ ls /etc/ldap/schema/pp*
+/etc/ldap/schema/ppolicy.ldif  /etc/ldap/schema/ppolicy.schema
+
+The ppolicy.ldif file has been derived from the ppolicy.schema file for us. We are going to add our 
+ppolicy.ldif schema to our SLAPD. We do that by using the ldapadd command.

@@ -1,0 +1,3 @@
+This means that instead 
+of starting up an operating system, such as Windows or Linux, from the computer’s hard disk, you can tell your 
+computer to boot from the CD or DVD instead.

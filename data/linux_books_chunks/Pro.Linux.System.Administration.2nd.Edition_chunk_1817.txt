@@ -1,0 +1,5 @@
+So, for 
+example, you could type yum search map and get a list of all the packages with the pattern map in their 
+description or name.
+
+ ■ Tip  You can refine the list of packages by using the grep command we showed you in Chapter 4.

@@ -1,0 +1,8 @@
+Menus 
+and other items that open on the desktop also wobble.
+
+ ■ Enables the Workspaces on a Cube effect—Drag a window from the desktop to 
+
+the right or the left, and the desktop rotates like a cube, with each of your desktop 
+workspaces appearing as a side of that cube. Drop the window on the workspace 
+where you want it to go.

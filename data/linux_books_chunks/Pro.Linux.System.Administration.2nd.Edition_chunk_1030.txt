@@ -1,0 +1,15 @@
+In the meantime the following are good sources of information:
+
+•	
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/System_Administrators_Guide/sec-Terminal_Menu_Editing_
+During_Boot.html
+
+•	
+
+https://wiki.ubuntu.com/RecoveryMode
+
+Configuring GRUB2
+The GRUB2 boot loader is highly configurable, and its configuration is contained in the grub.conf 
+configuration file.

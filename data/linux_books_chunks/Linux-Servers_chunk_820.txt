@@ -1,0 +1,15 @@
+security context
+
+The combination of identity, role and domain or type make up the selinux security context.
+The id will show you your security context in the form identity:role:domain.
+
+[paul@RHEL5 ~]$ id | cut -d' ' -f4
+context=user_u:system_r:unconfined_t
+
+The ls -Z command shows the security context for a file in the form identity:role:type.
+
+[paul@RHEL5 ~]$ ls -Z test
+-rw-rw-r--  paul paul user_u:object_r:user_home_t      test
+
+The security context for processes visible in /proc defines both the type (of the file in /proc)
+and the domain (of the running process).

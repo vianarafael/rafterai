@@ -1,0 +1,14 @@
+Similar to a switch statement 
+in programming languages, this can take the place of several nested if statements. The 
+ following is the general form of the case statement:
+
+case "VAR" in
+   Result1)
+      { body };;
+   Result2)
+      { body };;
+   *)
+      { body };;
+esac
+
+Among other things, you can use the case command to help with your backups.

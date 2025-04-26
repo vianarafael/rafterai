@@ -1,0 +1,6 @@
+Chapter 13 includes a 
+description of key-based authentication.
+
+Most of these topics are covered in this book. Refer to Red Hat documentation (https://
+access.redhat.com/documentation/) under the Red Hat Enterprise Linux heading for 
+descriptions of features not found in this book.

@@ -1,0 +1,5 @@
+Using wildcards (such as *) and no -i makes mistakes even more likely. That said, sometimes you don’t 
+want to be bothered to step through each fi le you delete. You have other options:
+
+ ■ As noted with the -f option, you can force rm to delete without prompting. An alternative is to run rm, cp, 
+or mv with a backslash in front of it (\rm bigdir).

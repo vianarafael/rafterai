@@ -1,0 +1,15 @@
+executing a command in remote
+
+This screenshot shows how to execute the pwd command on the remote server. There is no
+need to exit the server manually.
+
+paul@ubu1204:~$ ssh admin42@192.168.1.30 pwd
+admin42@192.168.1.30's password: 
+/home/admin42
+paul@ubu1204:~$
+
+50
+
+ssh client and server
+
+5.4.

@@ -1,0 +1,18 @@
+DNS servers—Type in the IP addresses of either one or two DNS servers, to tell the 
+
+system where to go to translate hostnames you request into IP addresses.
+
+361
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c14.indd  04/01/2015  Page 362
+
+Part IV: Becoming a Linux Server Administrator
+
+8.

@@ -1,0 +1,40 @@
+If the existing disk space is already consumed, you need to delete the parti-
+
+tions before proceeding.
+
+g. Click the plus (+) button at the bottom of the screen. Then add each of the fol-
+
+lowing mount points:
+
+796
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 797
+
+Appendix B: Exercise Answers
+
+/boot - 400M
+
+/ - 3G
+
+/var - 2G
+
+/home -2G
+
+h. Select Done.

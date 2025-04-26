@@ -1,0 +1,13 @@
+By issuing the following command, we can list the route table of 
+
+Host A:
+
+$ sudo /sbin/ip route show
+192.168.0.0/24 dev enp0s8 proto kernel scope link src 192.168.0.1
+default via 192.168.0.254 dev enp0s8 scope link
+
+259
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+The route table shows us the networks that this host knows about.

@@ -1,0 +1,7 @@
+if you can’t work out why something isn’t working, a restart is often a 
+good start to your troubleshooting.
+
+You can confirm Postfix is started by checking its log files. Postfix logs its output to the system logger, 
+
+or syslog, which in turn logs to files located on your host. You can find its log files in the /var/log directory. 
+On CentOS, we need to look in the /var/log/maillog file.

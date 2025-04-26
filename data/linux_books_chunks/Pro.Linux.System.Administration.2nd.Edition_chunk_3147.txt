@@ -1,0 +1,8 @@
+Setting a proxy server in Chrome
+
+522
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+We could configure the traffic for https:// also if we so choose to. We then close the network and 
+Chrome settings and visit our favorite web site.

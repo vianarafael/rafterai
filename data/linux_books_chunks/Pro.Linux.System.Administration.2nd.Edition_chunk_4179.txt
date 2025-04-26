@@ -1,0 +1,3 @@
+Once a tape is labeled, Bareos will always know 
+which tape is inserted into the tape unit. We are using "Full-" and "Incremental-" and adding the suffix 
+"${Year}-${Month:p/2/0/ r}-${Day:p/2/0/r}" to produce a labeled volume like Full-2016-01-01.

@@ -1,0 +1,5 @@
+Some 
+applications use recipients such as the postmaster address (for example, errors from Mtas are usually 
+sent to the user postmaster at your domain) and the root user. Since people do not generally log in as 
+either of these users, this e-mail might never get seen. postfix uses a function called aliases to allow 
+you to redirect mail sent to these recipients to other users.

@@ -1,0 +1,7 @@
+We’ll explain more about the 
+pool.ntp.org servers in a moment.
+
+First let’s quickly look at the next section in the /etc/ntp.conf file, which defines which hosts may 
+access your NTP server. On CentOS, this section is listed at the top of the file, as you can see in Listing 10-2.
+
+Listing 10-2.

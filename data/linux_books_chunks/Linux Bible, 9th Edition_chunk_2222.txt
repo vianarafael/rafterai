@@ -1,0 +1,12 @@
+The most common of these tools are built on the 
+Secure Shell (SSH) facility.
+
+315
+
+c13.indd  04/01/2015  Page 316
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Diligent security—To be useful, a server must be able to accept requests for 
+
+ content from remote users and systems.

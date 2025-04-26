@@ -1,0 +1,5 @@
+To acknowledge this warning, press Enter.
+
+ ■ Tip 
+If we had started aptitude via sudo, the warning dialog would not have appeared. however, making 
+selections as a non-root user adds a layer of protection from mistakes.

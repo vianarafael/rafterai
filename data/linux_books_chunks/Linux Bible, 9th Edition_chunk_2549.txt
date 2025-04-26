@@ -1,0 +1,16 @@
+Then click Quit to exit.
+
+Understanding networking confi guration fi les
+Whether you change your network setup using NetworkManager or nmtui, most of the 
+same conﬁ guration ﬁ les are updated. In Fedora and RHEL, network interfaces and custom 
+
+362
+
+ 
+ 
+ 
+c14.indd  04/01/2015  Page 363
+
+Chapter 14: Administering Networking
+
+routes are set in ﬁ les in the /etc/sysconfig/network-scripts directory.

@@ -1,0 +1,5 @@
+First you see the option workgroup. This option should be familiar 
+
+to you if you are a Windows user. It is the workgroup name that will appear in your network neighborhood.  
+A workgroup is a collection of computers sharing information. Usually, in a workgroup, the computers do 
+not have central authentication, and each host in the workgroup takes care of its own authentication.

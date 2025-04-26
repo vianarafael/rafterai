@@ -1,0 +1,11 @@
+Oracle Solaris zfs calls this raidz2 (and also had raidz3 with triple parity).
+
+93
+
+introduction to raid
+
+10.2.7. raid 0+1
+
+raid 0+1 is a mirror(1) of stripes(0). This means you first create two raid 0 stripe sets, and
+then you set them up as a mirror set. For example, when you have six 100GB disks, then
+the stripe sets are each 300GB. Combined in a mirror, this makes 300GB total.

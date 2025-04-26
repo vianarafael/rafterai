@@ -1,0 +1,15 @@
+Now we can install Logstash.
+
+$ sudo aptitude install –y logstash
+
+For CentOS and the latest installation notes, you can see the instructions here:
+
+•	
+
+https://www.elastic.co/guide/en/logstash/current/installing-logstash.html
+
+864
+
+Chapter 18 ■ Logging and Monitoring
+
+The configuration files for Logstash are kept in /etc/logstash.

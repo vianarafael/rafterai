@@ -1,0 +1,17 @@
+The following example 
+shows how to disable a currently enabled service.
+
+# systemctl disable cups.service
+rm '/etc/systemd/system/printer.target.wants/cups.service'
+rm '/etc/systemd/system/sockets.target.wants/cups.socket'
+rm '/etc/systemd/system/multi-user.target.wants/cups.path'
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+   Loaded: loaded (/lib/systemd/system/cups.service; disabled)
+   Active: active (running) since Tue, 01 May 2018 06:06:41...
+ Main PID: 17172 (cupsd)
+   CGroup: name=systemd:/system/cups.service
+            17172 /usr/sbin/cupsd -f
+
+The disable option simply removes a few ﬁ les via the preferred method of the systemctl 
+command.

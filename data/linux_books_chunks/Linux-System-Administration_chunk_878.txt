@@ -1,0 +1,9 @@
+The  ii  at  the
+beginning means the package is installed.
+
+root@debian6:~# dpkg -l rsync | tail -1 | tr -s  ' ' 
+ii rsync 3.0.7-2 fast remote file copy program (like rcp)
+
+20.2.4. dpkg -S
+
+You can find the package that installed a certain file on your computer with dpkg -S.

@@ -1,0 +1,9 @@
+If you install 
+the bind-chroot package, bind conﬁ guration ﬁ les are moved under the /var/named/
+chroot directory, which attempts to replicate the ﬁ les from /etc and /var that are 
+needed to conﬁ gure bind, so that the named daemon (which provides the service) is con-
+ﬁ ned to the /etc/named/chroot directory structure.
+
+If you are interested in trying out bind, I recommend you ﬁ rst try it out by conﬁ guring 
+DNS for a small home network behind a ﬁ rewall as a way to make it easier for the people in 
+your household to communicate with each other.

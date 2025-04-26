@@ -1,0 +1,11 @@
+practice: securing shares
+
+1. Create a writable share called sales, and a readonly share called budget. Test that it works.
+
+2. Limit access to the sales share to ann, sandra and veronique.
+
+3. Make sure that roberto cannot access the sales share.
+
+4. Even though the sales share is writable, ann should only have read access.
+
+5.

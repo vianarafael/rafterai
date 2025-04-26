@@ -1,0 +1,4 @@
+This is because Samba is going to manage this subdomain, which would 
+conflict with our example.com domain. We are also setting up only one domain controller and having that 
+act as our file server. The Samba documentation recommends that this setup is not suitable for production 
+use, but instead we should have one or two Samba AD and a couple of file servers that hang off the ADs.

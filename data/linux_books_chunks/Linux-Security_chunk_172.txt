@@ -1,0 +1,13 @@
+Verify before and after
+you make this change.
+
+root@debian7:~# grep serena /etc/passwd
+serena:x:1008:1010:Serena Williams:/home/serena:/bin/sh
+root@debian7:~# usermod -s /bin/bash serena
+root@debian7:~# grep serena /etc/passwd
+serena:x:1008:1010:Serena Williams:/home/serena:/bin/bash
+root@debian7:~#
+
+19
+
+Chapter 3.

@@ -1,0 +1,6 @@
+Using the vim command can help you catch 
+ confi guration fi le errors as you are editing.
+
+The vim command knows about the formats of many confi guration fi les (passwd, httpd.conf, fstab, and 
+others). If you make a mistake and type an invalid term or option in one of those fi les, or break the format somehow, 
+the color of the text changes.

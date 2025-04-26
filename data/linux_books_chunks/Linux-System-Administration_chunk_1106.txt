@@ -1,0 +1,13 @@
+He decides to manually create the .ssh directory, so he needs
+to manually secure it.
+
+bob@laika:~$ mkdir .ssh
+bob@laika:~$ ls -ld .ssh
+drwxr-xr-x 2 bob bob 4096 2008-05-14 16:53 .ssh
+bob@laika:~$ chmod 700 .ssh/
+bob@laika:~$
+
+25.5.3. id_rsa and id_rsa.pub
+
+The  ssh-keygen  command  generate  two  keys  in  .ssh.  The  public  key  is  named  ~/.ssh/
+id_rsa.pub.

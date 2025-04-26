@@ -1,0 +1,10 @@
+# aa-enforce
+
+
+- Enable profile:
+
+`sudo aa-enforce --dir {{path/to/profile}}`
+
+- Enable profiles:
+
+`sudo aa-enforce {{path/to/profile1 path/to/profile2 ...}}`

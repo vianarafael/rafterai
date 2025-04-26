@@ -1,0 +1,5 @@
+This objective includes editing exports file entries to restrict 
+access to certain hosts, subnets or netgroups. Also included is to specify mount 
+options in the exports file, configure user ID mapping, mount an NFS filesystem on a 
+client, using mount options to specify soft or hard and background retries, signal 
+handling, locking, and block size.

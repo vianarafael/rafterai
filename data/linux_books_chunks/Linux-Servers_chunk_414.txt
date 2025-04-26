@@ -1,0 +1,7 @@
+When you have more than one DNS server authoritative for a zone, you can
+spread queries amongst all server. One way to do this is by creating NS records for all servers
+that participate in the load balancing of external queries.
+
+You could also configure different name servers on internal clients.
+
+5.5.3.

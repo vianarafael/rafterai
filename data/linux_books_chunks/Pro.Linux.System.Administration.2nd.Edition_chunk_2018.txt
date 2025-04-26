@@ -1,0 +1,9 @@
+Compile or make the application.
+
+3. 
+
+Install the application.
+
+We’ll take you through these three phases and use the nginx web server as our example. This time, 
+rather than installing our application from a package, we’ll build the latest source at the time of this writing 
+(version 1.10.1).

@@ -1,0 +1,17 @@
+Take a backup copy of the original smb.conf, name it smb.conf.orig
+
+cd /etc/samba ; cp smb.conf smb.conf.orig
+
+2. Enable SWAT and take a look at it.
+
+on Debian/Ubuntu: vi /etc/inetd.conf (remove # before swat)
+
+on RHEL/Fedora: vi /etc/xinetd.d/swat (set disable to no)
+
+3. Stop the Samba server.
+
+/etc/init.d/smb stop (Red Hat)
+
+/etc/init.d/samba stop (Debian)
+
+4.

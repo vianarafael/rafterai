@@ -1,0 +1,16 @@
+To backup the partition table
+including the logical drives, you can use sfdisk.
+
+This example shows how to backup all partition and logical drive information to a file.
+
+sfdisk -d /dev/sda > parttable.sda.sfdisk
+
+The following example copies the mbr and all logical drive info from /dev/sda to /dev/sdb.
+
+sfdisk -d /dev/sda | sfdisk /dev/sdb
+
+51
+
+disk partitions
+
+5.5.

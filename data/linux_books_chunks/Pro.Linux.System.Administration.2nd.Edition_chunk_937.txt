@@ -1,0 +1,8 @@
+Any command you specify in the command option 
+must be defined with its full path. You can also specify more than one command, each separated by 
+commas, to be authorized for use, as you can see on the following line:
+
+ataylor ALL=/bin/userdel,/bin/useradd
+
+In the previous line, ataylor is now authorized to use the userdel and useradd commands as if she 
+were the root user.

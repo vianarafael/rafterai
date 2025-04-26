@@ -1,0 +1,7 @@
+These real-
+time blackhole lists (RBLs) will allow you to query their databases of known open relays and bad to and from 
+addresses.
+
+The reject_rbl_client queries the DNS block list (DNSBL) at zen.spamhaus.org and rejects any 
+positive entries there. The reject_rhsbl_reverse_client queries dbl.spamhaus.org based on the client, 
+which is a domain block list (DBLs).

@@ -1,0 +1,14 @@
+man
+
+A  man  (Metropolitan  Area  Network)  is  something  inbetween  a  lan  and  a  wan,  often
+comprising several buildings on the same campus or in the same city. A man can use fddi
+or ethernet or other protocols for connectivity.
+
+259
+
+general networking
+
+21.3.3. wan
+
+A wan (Wide Area Network) is a network with a lot of distance between the computers (or
+hosts).

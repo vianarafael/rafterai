@@ -1,0 +1,6 @@
+As long as the boot 
+loader contains boot information for each of the installed operating systems, you can 
+choose which one to run at boot time.
+
+Although tools for resizing Windows partitions and setting up multi-boot systems have improved in recent years, 
+there is still some risk of losing data on Windows/Linux dual-boot systems.

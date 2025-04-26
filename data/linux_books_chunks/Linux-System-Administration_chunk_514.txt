@@ -1,0 +1,28 @@
+lvdisplay
+
+More  detailed  information  about  logical  volumes  is  available  through  the  lvdisplay(1)
+command.
+
+[root@RHEL5 ~]# lvdisplay VolGroup00/LogVol01
+  --- Logical volume ---
+  LV Name                /dev/VolGroup00/LogVol01
+  VG Name                VolGroup00
+  LV UUID                RnTGK6-xWsi-t530-ksJx-7cax-co5c-A1KlDp
+  LV Write Access        read/write
+  LV Status              available
+  # open                 1
+  LV Size                1.00 GB
+  Current LE             32
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     0
+  Block device           253:1
+
+[root@RHEL5 ~]#
+
+114
+
+   
+logical volume management
+
+11.11.

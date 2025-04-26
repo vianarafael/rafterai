@@ -1,0 +1,2 @@
+The default driver for the authentication store is pam. The pam store is a password database 
+that makes use of the PAM application to authenticate users against the local host’s users.

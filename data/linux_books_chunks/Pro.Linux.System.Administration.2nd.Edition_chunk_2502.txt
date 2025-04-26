@@ -1,0 +1,4 @@
+If you leave off the DNS server, the utility will use one defined in /etc/
+resolv.conf.
+
+Listing 10-8.

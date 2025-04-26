@@ -1,0 +1,8 @@
+These are the ports you should open to get a 
+working Samba service on your Linux system:
+
+ ■ TCP port 445—This is the primary port the Samba smbd daemon listens on. Your 
+ﬁ rewall must support incoming packet requests on this port for Samba to work.
+
+ ■ TCP port 139—The smbd daemon also listens on TCP port 139, to handle sessions 
+associated with NetBIOS hostnames.

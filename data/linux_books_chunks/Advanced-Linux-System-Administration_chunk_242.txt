@@ -1,0 +1,22 @@
+However this will only be the 
+case if UIDs on both the local and remote systems correspond.
+
+Client
+
+root=0
+tux=500
+penguin=600
+
+Server
+
+root=0
+tux=500
+penguin=600
+
+NFS is generally used in an environment where UIDs are common between the server 
+and the clients.
+
+Anonuid and Anongid
+
+It is possible, using anonuid and anongid options to assign a unique anonymous UID or 
+GID per exported directory.

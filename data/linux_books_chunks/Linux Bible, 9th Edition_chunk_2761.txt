@@ -1,0 +1,22 @@
+The status denotes whether a particular service is started 
+(on) or not (off) for that runlevel.
+
+# chkconfig --list
+ConsoleKit      0:off  1:off  2:off  3:on   4:on   5:on   6:off
+NetworkManager  0:off  1:off  2:off  3:off  4:off  5:off  6:off
+...
+crond           0:off  1:off  2:on   3:on   4:on   5:on   6:off
+cups            0:off  1:off  2:on   3:on   4:on   5:on   6:off
+...
+sshd            0:off  1:off  2:on   3:on   4:on   5:on   6:off
+syslog          0:off  1:off  2:on   3:on   4:on   5:on   6:off
+tux             0:off  1:off  2:off  3:off  4:off  5:off  6:off
+udev-post       0:off  1:off  2:off  3:on   4:on   5:on   6:off
+vncserver       0:off  1:off  2:off  3:off  4:off  5:off  6:off
+winbind         0:off  1:off  2:off  3:off  4:off  5:off  6:off
+wpa_supplicant  0:off  1:off  2:off  3:off  4:off  5:off  6:off
+xfs             0:off  1:off  2:on   3:on   4:on   5:on   6:off
+ypbind          0:off  1:off  2:off  3:off  4:off  5:off  6:off
+yum-updatesd    0:off  1:off  2:off  3:on   4:on   5:on   6:off
+
+Some services in the example are never started, such as vncserver.

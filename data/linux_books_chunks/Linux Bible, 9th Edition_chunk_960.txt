@@ -1,0 +1,12 @@
+The vimtutor command opens a 
+tutorial in the vim editor that steps you through common commands and features you can 
+use in vim.
+
+124
+
+c05.indd  04/01/2015  Page 125
+
+Chapter 5: Working with Text Files
+
+Finding Files
+Even a basic Linux installation can have thousands of ﬁ les installed on it.

@@ -1,0 +1,9 @@
+LVM Configuration
+
+Logical Volume Management (LVM)
+
+The Logical Volume Management framework allows one to group different block devices 
+(disks, partitions, RAID arrays...) together as a single larger device, the volume group 
+(VG). 
+
+Individual devices used to form a volume group are referred to as physical volumes (PV).

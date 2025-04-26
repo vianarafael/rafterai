@@ -1,0 +1,43 @@
+Next, we compile 
+the new kernel:
+
+Step 1:
+Use an editor to add “EXTRAVERSION=-acl” to the Makefile
+
+Step 2:
+
+make mrproper
+cp configs/kernel-2.4.22-i686.config .config
+
+17
+
+LinuxIT Technical Training Centre
+
+The Linux Kernel
+
+_____________________________________________________
+
+make oldconfig   (answer y to all questions relative to ACLs)
+make dep bzImage modules modules_install 
+
+A quick test:
+
+Once you have rebooted with the new kernel, add the acl option into /etc/fstab on any 
+EXT3 filesystem
+
+LABEL=/usr   /usr       ext3    defaults,acl    1 2
+
+You can then use the setfacl to add assign permissions for different groups on the same 
+directory.
+
+We first create two groups eng and sales:
+
+groupadd eng
+
+groupadd sales
+
+Then add a directory called /usrNEWS:
+
+mkdir /usr/NEWS
+
+The getfacl is a tool that lists ACL privileges.

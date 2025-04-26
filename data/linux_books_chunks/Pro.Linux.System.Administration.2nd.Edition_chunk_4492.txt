@@ -1,0 +1,5 @@
+This command is part of the suite of 
+commands used to interact with the LDAP server (or any LDAP server). In this example, we have passed in 
+the –Q argument to ldapsearch to enable SASL quiet mode (as we are using elevated sudo privileges). The 
+three Ls (-LLL) all have a meaning. Having one means print in the LDIF format; the other two reduce the 
+output.

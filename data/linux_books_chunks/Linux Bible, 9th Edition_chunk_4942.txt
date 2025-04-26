@@ -1,0 +1,19 @@
+Here are some of the 
+advantages:
+
+ ■ Improve performance by moving VMs from hypervisors that are overloaded to ones 
+
+that have more available memory and CPU capacity.
+
+ ■ Do routine maintenance on a hypervisor while keeping your VMs running.
+
+ ■ Move VMs off underutilized hypervisors so you can shut them off to save energy 
+
+until they are needed again.
+
+ ■ Move VMs off site if you are expecting to shut down a datacenter or expecting a 
+
+hurricane or other catastrophe to hit your datacenter.
+
+Live migration, in particular, is valuable if you need work to continue on the VMs without 
+interruption.

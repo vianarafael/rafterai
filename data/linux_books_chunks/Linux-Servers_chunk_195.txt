@@ -1,0 +1,11 @@
+reload and verify
+
+After a service httpd reload the websites should be available by name.
+
+[root@CentOS65 ~]# service httpd reload
+Reloading httpd: 
+[root@CentOS65 ~]# wget chessclub42.local
+--2014-05-25 16:59:14--  http://chessclub42.local/
+Resolving chessclub42.local... 192.168.1.225
+Connecting to chessclub42.local|192.168.1.225|:80... connected.
+HTTP request sent, awaiting response...

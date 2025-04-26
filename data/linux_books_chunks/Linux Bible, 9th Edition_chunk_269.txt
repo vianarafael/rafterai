@@ -1,0 +1,11 @@
+Some Linux distributions 
+were created to meet special needs, such as KNOPPIX (a live CD Linux), Gentoo (a cool 
+
+16
+
+c01.indd  04/01/2015  Page 17
+
+Chapter 1: Starting with Linux
+
+customizable Linux), and Mandrake (later called Mandriva, which was one of several desk-
+top Linux distributions).

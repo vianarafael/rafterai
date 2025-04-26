@@ -1,0 +1,17 @@
+/etc/passwd
+
+The local user database on Linux (and on most Unixes) is /etc/passwd.
+
+[root@RHEL5 ~]# tail /etc/passwd
+inge:x:518:524:art dealer:/home/inge:/bin/ksh
+ann:x:519:525:flute player:/home/ann:/bin/bash
+frederik:x:520:526:rubius poet:/home/frederik:/bin/bash
+steven:x:521:527:roman emperor:/home/steven:/bin/bash
+pascale:x:522:528:artist:/home/pascale:/bin/ksh
+geert:x:524:530:kernel developer:/home/geert:/bin/bash
+wim:x:525:531:master damuti:/home/wim:/bin/bash
+sandra:x:526:532:radish stresser:/home/sandra:/bin/bash
+annelies:x:527:533:sword fighter:/home/annelies:/bin/bash
+laura:x:528:534:art dealer:/home/laura:/bin/ksh
+
+As you can see, this file contains seven columns separated by a colon.

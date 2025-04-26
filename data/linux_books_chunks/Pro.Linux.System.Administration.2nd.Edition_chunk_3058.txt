@@ -1,0 +1,8 @@
+If you’re going to create your own CA, see the 
+
+next section, “Creating Your Own Certificate Authority.”
+
+Otherwise, you need to provide the contents of the www.example.com.csr file that you would provide 
+
+to your commercial CA, and it will then deliver a certificate to you. Your commercial CA will provide 
+instructions as to how to provide your CSR file.

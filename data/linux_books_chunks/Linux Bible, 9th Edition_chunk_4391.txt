@@ -1,0 +1,4 @@
+Notice that a few of the control ﬂ ags need to be carefully placed within 
+the conﬁ guration ﬁ le’s stack. Some control ﬂ ags cause the authentication process to stop 
+ immediately and the rest of the PAM modules are not called. The control ﬂ ags simply 
+ control how the PAM module status results are combined into a single overall result.

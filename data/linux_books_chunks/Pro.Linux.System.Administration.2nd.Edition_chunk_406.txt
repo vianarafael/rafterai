@@ -1,0 +1,4 @@
+However, you should find the Linux shell easier and faster to operate on one or several Linux 
+systems at once.
+
+ This chapter is a broad introduction to Linux. It won’t make you an expert.

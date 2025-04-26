@@ -1,0 +1,26 @@
+Every host that uses the template 
+basic-ssh-checks will get the Current Load service because they share the same hostgroup.
+
+Taking a look at our service definition closer, we can see that we have declared it like this:
+
+define service{
+         use                              local-service
+         hostgroup_name         linux-group
+         service_description     Current Load
+         check_command         check_load_ssh!5.0,4.0,3.0!10.0,6.0,4.0
+        }
+
+Our service, called Current Load, executes the check_load_ssh command and passes two arguments, 
+
+which specify the average load over the 1-, 5-, and 15-minute intervals required to trigger a WARNING or 
+CRITICAL status.
+
+ ■ Note 
+
+ We discussed load in Chapter 17.
+
+898
+
+Chapter 18 ■ Logging and Monitoring
+
+Finally in Listing 18-21 we have the host definition for the gateway server.

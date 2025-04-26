@@ -1,0 +1,7 @@
+You can see 
+
+how simple it is.
+
+Before we test this, we need to make sure that the Spam folder exists. We can this by using the doveadm 
+
+command.

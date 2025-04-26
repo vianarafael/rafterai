@@ -1,0 +1,7 @@
+Some remain close to the parent distribution, and 
+others follow their own path.
+
+Red Hat Enterprise Linux
+Red Hat Enterprise Linux (www.redhat.com/rhel/) is a popular commercially supported Linux platform. 
+It comes in a number of versions, the two most common being Red Hat Enterprise Linux (also known as 
+RHEL) and Red Hat Enterprise Linux Advanced Platform (RHELAP).

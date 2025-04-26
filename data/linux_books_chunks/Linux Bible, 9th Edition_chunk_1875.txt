@@ -1,0 +1,6 @@
+Replace expire_date with a date you want to use. (For example, to expire an 
+account on May 5, 2017, use -e 2017-05-05.)
+
+ ■ -f -1—Set the number of days after a password expires until the account is per-
+manently disabled. The default, -1, disables the option. Setting this to 0 disables 
+the account immediately after the password has expired.

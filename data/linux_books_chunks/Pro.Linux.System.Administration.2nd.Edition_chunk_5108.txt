@@ -1,0 +1,7 @@
+You can also combine the two modifiers to create the opposite effect of the = modifier so that cron.!=crit 
+selects all cron facility messages except those of critical priority. Only one priority and one priority wildcard 
+can be listed per selector.
+
+Actions
+
+Actions tell rsyslogd what to do with the event notification messages it receives.

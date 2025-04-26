@@ -1,0 +1,2 @@
+For this, you can use either the device node 
+name or the UUID of the filesystem just created. blkid will provide you with both.

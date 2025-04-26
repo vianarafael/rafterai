@@ -1,0 +1,21 @@
+(
+                                20110516   ; serial
+                                300        ; refresh (5 minutes)
+                                200        ; retry (3 minutes 20 seconds)
+                                2419200    ; expire (4 weeks)
+                                604800     ; minimum (1 week)
+                                )
+                        NS      ns.jesse.local.
+$ORIGIN jesse.local.
+anya                    A       10.104.15.1
+mac                     A       10.104.15.30
+ns                      A       10.104.15.20
+ubu1010srv              A       10.104.15.20
+www                     A       10.104.15.25
+root@debian7:/etc/bind#
+
+143
+
+introduction to DNS
+
+10.16.

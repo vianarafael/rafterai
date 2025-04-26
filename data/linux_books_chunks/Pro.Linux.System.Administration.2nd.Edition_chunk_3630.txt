@@ -1,0 +1,4 @@
+A file share can be assigned when you log in to your 
+
+host either via a domain controller that runs login scripts or manually when you require one. You can also 
+mount file shares on your Linux desktop.

@@ -1,0 +1,26 @@
+Using 
+the restart option is also a good way to reread any conﬁ guration options you may have 
+changed in the cupsd.conf ﬁ le (although, if CUPS is already running, service cups 
+reload rereads conﬁ guration ﬁ les without restarting).
+
+437
+
+c16.indd  04/01/2015  Page 438
+
+Part IV: Becoming a Linux Server Administrator
+
+In Fedora 21 and RHEL 7, you use the systemctl command instead of service to start 
+and stop services:
+
+# systemctl status cups.service
+* cups.service - CUPS Printing Service
+   Loaded: loaded (/usr/lib/systemd/system/cups.service; enabled)
+   Active: active (running) since Sat 2016-07-23 22:41:05 EDT; 18h 
+     ago
+ Main PID: 20483 (cupsd)
+   Status: "Scheduler is running..."
+   CGroup: /system.slice/cups.service
+           ├─20483 /usr/sbin/cupsd -f
+
+You can tell the CUPS service is running because the status shows the cupsd daemon 
+active with PID 20483.

@@ -1,0 +1,7 @@
+If you choose yes, the packages are downloaded to 
+the cache directories and installed.
+
+5. RPM packages installed to Linux file system
+After all the necessary packages are downloaded to the cache directories, yum runs rpm 
+commands to install each package. If a package contains preinstall scripts (which might 
+create a special user account or make directories), those scripts are run.

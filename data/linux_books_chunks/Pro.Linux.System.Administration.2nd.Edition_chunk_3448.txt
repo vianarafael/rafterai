@@ -1,0 +1,6 @@
+These defaults are –d for daemonize, -c  
+
+for create user preference files, -m is the number of child processes, and -H is to specify a different help 
+directory (for third-party services).
+
+We then need to start the SpamAssassin spamd daemon.

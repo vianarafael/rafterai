@@ -1,0 +1,7 @@
+Also, although the cracker may 
+not be able to change old log entries, he or she can affect the system such that any new log 
+messages should not be trusted.
+
+Running a dedicated loghost, a computer that serves no other purpose than to record log 
+messages from other computers on the network, is not uncommon. Because this  system 
+runs no other services, it is unlikely that it will be broken into.

@@ -1,0 +1,9 @@
+to do this, we’ve used 
+
+ ■ Note 
+a command called tee, which can read from standard output and then write to standard output and files. You 
+can find more information in the tee command’s man page.
+
+The serial file tracks the last serial number of certificates issued through this CA, starting with the 
+
+number 01.

@@ -1,0 +1,12 @@
+Some simple guidelines and examples for such 
+
+development are located at https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/
+pluginapi.html.
+
+900
+
+Chapter 18 ■ Logging and Monitoring
+
+Setting Up the Nagios Console
+Now that you understand how hosts and services can be defined, you can create your own hosts and 
+services to supplement the examples provided with both distributions.

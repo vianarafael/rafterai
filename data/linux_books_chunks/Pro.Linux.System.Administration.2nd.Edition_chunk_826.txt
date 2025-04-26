@@ -1,0 +1,3 @@
+By setting the -d option to 0, the user’s last password 
+change date becomes January 1, 1970, and if the –M option is greater than 0, then the user must change his 
+password at the next login.

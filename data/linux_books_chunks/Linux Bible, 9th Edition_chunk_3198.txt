@@ -1,0 +1,9 @@
+The next best thing to do is to create a self-signed 
+ certiﬁ cate that at least includes better information about your site and organization. 
+The following section describes how to do that.
+
+17
+
+Generating an SSL key and self-signed certificate
+To begin setting up SSL, use the openssl command, which is part of the openssl pack-
+age, to generate your public and private key.

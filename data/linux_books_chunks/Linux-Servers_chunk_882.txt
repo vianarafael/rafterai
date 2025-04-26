@@ -1,0 +1,12 @@
+Using the cidr notation this looks like this:
+
+fe80::a00:27ff:fe8e:8aa8/64
+
+The above address has 64 bits for the host id, theoretically allowing for 4 billion times four
+billion hosts.
+
+The localhost address looks like this with cidr:
+
+::1/128
+
+21.3.

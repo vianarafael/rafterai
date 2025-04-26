@@ -1,0 +1,7 @@
+Choosing Yes here, as shown in Figure 2-45, leads to a further 
+series of questions and answers through which Ubuntu attempts to work out what type of keyboard you are 
+using by having you press different keys.
+
+Figure 2-45.  Ubuntu attempts to detect your keyboard
+
+Select No to save time and directly tell the installation what kind of keyboard you are using.

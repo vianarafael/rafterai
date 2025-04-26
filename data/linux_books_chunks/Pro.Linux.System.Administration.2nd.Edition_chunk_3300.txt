@@ -1,0 +1,4 @@
+The other options that we have used are certonly, which says we just want the certificate and not 
+to install that into our web configuration. The --standalone option tells certbot to start its own web 
+service to generate the certificates. The next two options, --uir and --hsts, are to make sure that every 
+communication to the Certbot API is under https://.

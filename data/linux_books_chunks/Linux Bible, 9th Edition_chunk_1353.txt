@@ -1,0 +1,6 @@
+In particular, this ﬁ le 
+is used to provide selected users with root permission.
+
+ ■ rsyslog.conf—Deﬁ nes what logging messages are gathered by the rsyslogd 
+
+daemon and what ﬁ les they are stored in.

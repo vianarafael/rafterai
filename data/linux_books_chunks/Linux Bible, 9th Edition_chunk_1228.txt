@@ -1,0 +1,7 @@
+Then 
+replace A with the contents of variable ONE, B with variable TWO, and C with 
+ variable THREE.
+
+3.  Create a script that prompts users for the name of the street and town where 
+
+they grew up.

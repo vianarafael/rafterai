@@ -1,0 +1,7 @@
+Instead of 
+storing papers I’ll need soon in a permanent ﬁ le cabinet, I’ll have one special ﬁ le cabinet 
+(like a desk drawer) to hold those papers I’m still working with, but that I’m not ready to 
+store permanently or throw away.”
+
+Refer to Chapter 12, “Managing Disks and Filesystems,” for more information on swap ﬁ les 
+and partitions and how to create them.

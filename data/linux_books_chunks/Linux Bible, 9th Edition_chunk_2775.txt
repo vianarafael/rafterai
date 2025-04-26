@@ -1,0 +1,3 @@
+In the preced-
+ing example, the printing service was chosen. Notice that the name of the service is cups.
+service.

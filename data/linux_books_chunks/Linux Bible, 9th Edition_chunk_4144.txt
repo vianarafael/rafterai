@@ -1,0 +1,3 @@
+The 
+/etc/fstab ﬁ le is used at boot time to mount storage devices on ﬁ lesystems. It is also 
+used by the mount command, the dump command, and the fsck command.

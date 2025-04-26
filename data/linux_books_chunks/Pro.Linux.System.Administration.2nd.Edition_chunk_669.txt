@@ -1,0 +1,2 @@
+You can change this behavior by adding the -i switch. The -i switch enables interactive mode, where you 
+are prompted with a yes or no question if the file you are copying to already exists.

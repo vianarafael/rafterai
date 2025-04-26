@@ -1,0 +1,7 @@
+This file is for 
+configuring user and host information for your system, while /etc/(open)ldap/ldap.conf is used by the 
+OpenLDAP tools such as ldapmodify, ldapadd, etc.
+
+You will need to edit your ldap.conf file by adding the following lines of text. In our case, we are going 
+
+to cheat a little and not worry about setting up client SSL certificates for our LDAP clients.

@@ -1,0 +1,3 @@
+First, the server needs to find out where to send the e-mail. 
+To do this, the server takes the portion of the e-mail address to the right of the @ symbol. This is usually the 
+fully qualified domain name, for example, example.com.

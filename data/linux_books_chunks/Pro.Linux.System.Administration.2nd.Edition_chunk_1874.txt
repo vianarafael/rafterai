@@ -1,0 +1,19 @@
+Querying All Using Piping and grep
+
+# rpm --query --all | grep vim
+vim-minimal-7.4.160-1.el7.x86_64
+vim-filesystem-7.4.160-1.el7.x86_64
+vim-enhanced-7.4.160-1.el7.x86_64
+vim-common-7.4.160-1.el7.x86_64
+
+316
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+ ■ Note  We cover the grep command and piping in Chapter 4.
+
+Listing 8-9 shows that piping the output of the query to the grep command has reduced the list from 
+thousands of packages to four packages with the string vim in their name (an empty list would indicate there 
+is no package installed with that string in its name).
+
+Let’s find out a bit more information about our kernel package.

@@ -1,0 +1,17 @@
+Every protocol or daemon
+that it is listening for, gets one line in this file.
+
+root@barry:~# grep ftp /etc/inetd.conf 
+tftp dgram udp wait nobody /usr/sbin/tcpd /usr/sbin/in.tftpd /boot/tftp
+root@barry:~#
+
+69
+
+    
+    
+  
+  
+  
+introduction to networking
+
+You can disable a service in inetd.conf above by putting a # at the start of that line.

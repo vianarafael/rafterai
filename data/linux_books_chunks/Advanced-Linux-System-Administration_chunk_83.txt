@@ -1,0 +1,1 @@
+Information about compiling and documentation is available in /usr/src/linux/README.

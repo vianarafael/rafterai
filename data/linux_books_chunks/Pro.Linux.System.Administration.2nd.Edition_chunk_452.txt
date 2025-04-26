@@ -1,0 +1,6 @@
+These controls include tools like seLinux and apparmor, 
+which we briefly discussed in Chapter 2.
+
+Typing Your First Command
+Now it’s time to try entering a command. A command could be a binary executable (like a Windows 
+executable or EXE file), or the command might be provided as part of the shell.

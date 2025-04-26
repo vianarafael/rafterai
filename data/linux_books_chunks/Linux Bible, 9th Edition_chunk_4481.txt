@@ -1,0 +1,5 @@
+You can also use the pam_tally2 command to unlock a 
+user account after it has been locked by the PAM pam_tally2 module.
+
+When an account is locked by PAM, it is not listed as locked in the /etc/shadow ﬁ le, and 
+you cannot unlock it by using the usermod -U username command.

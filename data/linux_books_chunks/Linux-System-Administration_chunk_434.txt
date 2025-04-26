@@ -1,0 +1,15 @@
+After the reboot, the disk previously known as /dev/sdc is now /dev/sdb.
+
+[root@RHEL5 ~]# tune2fs -l /dev/sdb1 | grep UUID
+Filesystem UUID:          7626d73a-2bb6-4937-90ca-e451025d64e8
+
+And thanks to the uuid in /etc/fstab, the mountpoint is mounted on the same disk as before.
+
+[root@RHEL5 ~]# df -h | grep sdb
+/dev/sdb1             397M   11M  366M   3% /home/pro42
+
+88
+
+introduction to uuid's
+
+9.5.

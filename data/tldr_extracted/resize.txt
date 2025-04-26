@@ -1,0 +1,10 @@
+# resize
+
+
+- Resize the terminal:
+
+`resize`
+
+- Print terminal size:
+
+`resize -s`

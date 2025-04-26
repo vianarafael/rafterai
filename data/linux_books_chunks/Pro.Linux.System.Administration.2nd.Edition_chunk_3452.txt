@@ -1,0 +1,7 @@
+SpamAssassin and Postfix filtering
+
+We’re going to choose this latter method because it’s a lot more efficient and scalable for most 
+
+environments.
+
+First, we update the master.cf file to send e-mail to SpamAssassin.

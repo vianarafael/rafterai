@@ -1,0 +1,4 @@
+Bareos provides a robust, reliable, 
+customizable, and efficient open source backup service for Linux, Unix, and Windows desktops and 
+servers. It works with most storage devices, DAT, LTO, and autoloaders, and it can also back up to disk, 
+including GlusterFS.

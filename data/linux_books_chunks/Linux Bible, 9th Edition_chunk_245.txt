@@ -1,0 +1,2 @@
+He wanted to create a UNIX-like kernel so that he could use the same 
+kind of operating system on his home PC that he used at school.

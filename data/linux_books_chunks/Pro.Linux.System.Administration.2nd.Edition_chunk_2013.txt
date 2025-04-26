@@ -1,0 +1,11 @@
+Package Removal
+
+$ sudo dpkg --remove wget
+
+or
+
+$ sudo dpkg --purge wget
+
+Compiling from Source
+Although the list of packaged software is extensive, not everything is available as a convenient deb or 
+RPM package.

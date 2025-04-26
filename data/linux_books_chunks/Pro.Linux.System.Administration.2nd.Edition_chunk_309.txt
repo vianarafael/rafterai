@@ -1,0 +1,4 @@
+What this means is that you can create a disk with a particular format, like Vhd and then 
+move that image file to another host and mount it there.
+
+We can now choose if the disk is of a fixed size or if it will be dynamically allocated.

@@ -1,0 +1,5 @@
+This special behavior also applies to [homes], where Samba will create home directories dynamically if 
+required. You can read more under the “Special Sections” section in the smb.conf man page.
+
+When you define your own services, you use a set of directives that are common to special services and 
+user-defined services.

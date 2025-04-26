@@ -1,0 +1,7 @@
+To list all processes running on the system and sort those processes by the name of 
+
+the user running each process, type the following:
+
+$ ps -ef --sort=user | less
+
+3.

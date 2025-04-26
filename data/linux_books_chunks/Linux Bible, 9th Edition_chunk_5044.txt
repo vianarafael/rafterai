@@ -1,0 +1,10 @@
+That virtual net-
+work will include a set of addresses that are distributed to my virtual machines 
+via DHCP.
+
+ ■ Conﬁ gure virtual machines—I’ll step through the process of choosing, 
+
+conﬁ guring, and deploying a couple of virtual machines.
+
+The version of OpenStack used for this demonstration is Red Hat Enterprise Linux 
+OpenStack Platform (RHEL-OSP).

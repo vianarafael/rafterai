@@ -1,0 +1,19 @@
+done
+test_sync.txt
+sent 42 bytes received 194 bytes 472.00 bytes/sec
+total size is 58 speedup is 0.25
+$ cat /tmp/test_sync.txt
+fldjfsl
+lfdsjfsla
+fsdjfsl
+fjsdl
+fsjfs
+fsl
+fsa
+23433
+LDJAS
+
+646
+
+We used the rsync command to perform a simple copy of the file test_sync.txt to our local /tmp 
+directory. You can see that the file has been copied by using cat to display its contents.

@@ -1,0 +1,2 @@
+The DHCP server knows to listen for these packets and will 
+respond if it receives one.

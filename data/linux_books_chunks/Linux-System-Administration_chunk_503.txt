@@ -1,0 +1,3 @@
+pvscan
+
+The pvscan command will scan all disks for existing Physical Volumes.

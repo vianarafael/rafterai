@@ -1,0 +1,2 @@
+The sudo command allows a user to run commands as if that 
+person were signed in as the root user, Linux’s equivalent of the Windows Administrator account.

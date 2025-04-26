@@ -1,0 +1,15 @@
+We 
+need to be on our DNS server and issue the following command:
+
+$ sudo nsupdate -k /etc/bind/ddns_update.key
+> server localhost
+> update add ldap.example.com 8600 CNAME headoffice.example.com
+> send
+> quit
+$ host ldap.example.com
+ldap.example.com is an alias for headoffice.example.com.
+headoffice.example.com has address 192.168.0.1
+
+Since this points to an internal private IPv4 address, we will not be able to use Let’s Encrypt to create 
+
+our TLS certificate and will have to use our own private CA.

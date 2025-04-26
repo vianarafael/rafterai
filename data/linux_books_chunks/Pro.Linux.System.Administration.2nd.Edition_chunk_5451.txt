@@ -1,0 +1,10 @@
+You can also subscribe to the active and 
+helpful mailing list available at http://lists.nagios.com/mailman/listinfo through the Nagios forum at 
+https://support.nagios.com/forum/index.php, which is the preferred way of getting user help.
+
+908
+
+Chapter 18 ■ Logging and Monitoring
+
+Summary
+In this chapter, you learned about logging and monitoring and how to make them work for you.

@@ -1,0 +1,9 @@
+The Firewall Conﬁ guration 
+window should appear, as shown in Figure 18.1.
+
+FIGURE 18.1
+
+Open access to your FTP service from the Firewall Confi guration window.
+
+Next, to permanently open access to your FTP service, click the Conﬁ guration box 
+and select Permanent. Then add a check box next to ftp under the Services tab.

@@ -1,0 +1,4 @@
+We include headers in our signatures, 
+
+and we tell OpenDKIM to include the From,Subject,Date headers. You can include others if you want, but 
+the From header must be signed.

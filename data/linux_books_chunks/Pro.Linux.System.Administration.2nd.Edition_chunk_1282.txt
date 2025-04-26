@@ -1,0 +1,4 @@
+The head-office host will also provide DNS, DHCP, NTP (Network 
+Time Protocol), SMTP (Simple Mail Transfer Protocol), IMAP (Internet Message Access Protocol), HTTP 
+(Hypertext Transfer Protocol), and HTTPS (Hypertext Transfer Protocol Secure) services to our local 
+network. We will also show you how to route traffic from one host to another host in our network.

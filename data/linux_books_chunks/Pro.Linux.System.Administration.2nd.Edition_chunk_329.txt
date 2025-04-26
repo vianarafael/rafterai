@@ -1,0 +1,11 @@
+We are not going to select it but if you’re feeling 
+adventurous you can.
+
+85
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+Figure 3-14.  Experimental performance options
+
+Git Basics
+Let’s quickly go through the common Git command you will need to know.

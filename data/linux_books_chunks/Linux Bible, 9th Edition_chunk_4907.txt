@@ -1,0 +1,7 @@
+In this procedure, I use the Virtualization Manager 
+window (virt-manager) to conﬁ gure the NFS storage pool.
+
+For consistency’s sake, the NFS share set up from the storage system is the /var/lib/
+libvirt/images directory. It is mounted in the same place on each of the hypervisors. 
+(For testing, if you only have two machines available, you can conﬁ gure storage from one 
+of the hypervisors.

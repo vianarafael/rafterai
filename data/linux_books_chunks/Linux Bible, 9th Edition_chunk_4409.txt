@@ -1,0 +1,12 @@
+The “how-to’s” are covered later 
+in this chapter.
+
+653
+
+c23.indd  04/01/2015  Page 654
+
+Part V: Learning Linux Security Techniques
+
+Many of the PAM confi guration fi les have a man page associated with them. For example, to fi nd out more 
+ information on the pam_unix module, type man pam_unix at the command line of your Fedora and RHEL 
+ distribution.

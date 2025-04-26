@@ -1,0 +1,2 @@
+Next we will permit any authenticated (via SASL) clients (permit_sasl_
+authenticated) to send e-mail to other destination servers.

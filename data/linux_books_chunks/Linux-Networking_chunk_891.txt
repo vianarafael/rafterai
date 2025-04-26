@@ -1,0 +1,27 @@
+First we test with a wrong
+password.
+
+[root@RHEL52 samba]# smbclient //teacher0/authwrite -U martina wrongpass
+session setup failed: NT_STATUS_LOGON_FAILURE
+
+232
+
+ 
+ 
+  
+  
+ 
+samba authentication
+
+Then we test with the correct password, and verify that we can access a file on the share.
+
+[root@RHEL52 samba]# smbclient //teacher0/authwrite -U martina stargate
+Domain=[TEACHER0] OS=[Unix] Server=[Samba 3.0.33-3.7.el5]
+smb: \> more serena.txt 
+getting file \serena.txt of size 14 as /tmp/smbmore.QQfmSN (6.8 kb/s)
+one
+two
+three
+smb: \> q
+
+20.7.

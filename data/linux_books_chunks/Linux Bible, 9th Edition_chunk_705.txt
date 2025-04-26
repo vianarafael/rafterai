@@ -1,0 +1,12 @@
+Table 3.5 shows some variables that either are 
+set when you use a bash shell or can be set by you to use with different features.
+
+TABLE 3.5    Common Shell Environment Variables
+
+Variable
+
+BASH
+
+Description
+
+This contains the full pathname of the bash command.

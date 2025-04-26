@@ -1,0 +1,6 @@
+ack 161 win 200
+14:22:20.722492 IP rhel53.local.ssh > deb503.local.37973: P 161:225(64) ack
+14:22:20.760602 IP deb503.local.37973 > rhel53.local.ssh: . ack 225 win 200
+14:22:23.108106 IP deb503.local.54424 > ubuntu910.local.ssh: P 467252637:46
+14:22:23.116804 IP ubuntu910.local.ssh > deb503.local.54424: P 1:81(80) ack
+14:22:23.116844 IP deb503.local.54424 > ubuntu910.local.ssh: .

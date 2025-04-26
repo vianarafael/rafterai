@@ -1,0 +1,6 @@
+In RHEL 7 and Fedora 21, the new firewalld 
+service manages those rules and rules are stored in the /etc/firewalld/zones 
+directory.
+
+It is best to work on your fi rewall directly from a system console, if possible, instead of over a remote login (such as 
+ssh) because a small error can immediately lock you out of your server.

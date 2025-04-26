@@ -1,0 +1,10 @@
+If that is not possible, you can 
+download an installation DVD from a mirror site of the CentOS project to get a 
+ similar experience: http://wiki.centos.org/Download.
+
+  For this example, I used the 3.4G RHEL 7 Server DVD ISO named rhel-server-
+
+7.0-x86_64-dvd.iso. After you have the DVD ISO, you can burn it to a physical 
+DVD as described in Appendix A.
+
+2.  Boot the installation media.

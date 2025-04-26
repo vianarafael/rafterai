@@ -1,0 +1,21 @@
+If we 
+check the module path described earlier, we can verify that the required files are in there.
+
+$ ll /usr/lib/ldap/pp*
+-rw-r--r-- 1 root root 39328 May 11 17:11 /usr/lib/ldap/ppolicy-2.4.so.2.10.5
+-rw-r--r-- 1 root root   948 May 11 17:11 /usr/lib/ldap/ppolicy.la
+
+746
+
+To load the policy, we are going to create a file called ppolicy_module.ldif and use ldapmodify to add it.
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+dn: cn=module{0},cn=config
+changetype: modify
+add: olcModuleLoad
+olcModuleLoad: ppolicy.la
+
+When we execute the ldapmodify command, you can see we are now asking it to add the module 
+
+ppolicy.la.

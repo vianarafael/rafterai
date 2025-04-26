@@ -1,0 +1,19 @@
+To turn off and disable NetworkManager and start the network service, do the 
+
+following:
+
+From an RHEL 6 system, type:
+
+# service NetworkManager stop
+# service network restart
+# chkconfig NetworkManager off
+# chkconfig network on
+
+For RHEL 7 or newer Fedora systems, type:
+
+# systemctl stop NetworkManager.service
+# systemctl disable NetworkManager.service
+# service network restart
+# chkconfig network on
+
+7.

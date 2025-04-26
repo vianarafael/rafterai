@@ -1,0 +1,6 @@
+You can use several different types of loops, 
+ depending on your needs.
+
+The “if…then” statements
+The most commonly used programming construct is conditional execution, or the if 
+ statement. It is used to perform actions only under certain conditions.

@@ -1,0 +1,6 @@
+If you start vsftpd as it is delivered with Fedora, this is what you get:
+
+ ■ The vsftpd service starts the vsftpd daemon, which runs in the background.
+
+ ■ The standard port on which the vsftpd daemon listens is TCP port 21. By default, 
+data is transferred to the user, after the connection is made, on TCP port 20.

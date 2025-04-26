@@ -1,0 +1,4 @@
+to do this, you need to configure SaSl authentication 
+where postfix is a client rather than the server. remember, when you configured it as a server, all the 
+configuration options started with smtpd_, indicating it was for connections incoming to the server. Now 
+you need to configure postfix to be a client, and you use configuration options starting with smtp.

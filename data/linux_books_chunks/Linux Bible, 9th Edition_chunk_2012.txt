@@ -1,0 +1,8 @@
+If you know of a user account available from the LDAP server, use the 
+following getent command to check that the account is available:
+
+# getent passwd jsmith
+jsmith:x:13599:13600:John Smith:/home/jsmith:/bin/bash
+
+If you see the account information, you know your system was able to retrieve it from the 
+LDAP server. The next thing to check is that the authentication method is working as well.

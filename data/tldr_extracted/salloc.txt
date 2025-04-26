@@ -1,0 +1,14 @@
+# salloc
+
+
+- Start an interactive shell session on a node in the cluster:
+
+`salloc`
+
+- Execute the specified command synchronously on a node in the cluster:
+
+`salloc {{ls --all}}`
+
+- Only allocate nodes fulfilling the specified constraints:
+
+`salloc {{[-C|--constraint]}} {{(amd|intel)&gpu}}`

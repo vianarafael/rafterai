@@ -1,0 +1,13 @@
+We need to remove the # from 
+
+the following line:
+
+/etc/bareos/bareos-sd.conf
+...<snip>...
+@/etc/bareos/bareos-sd.d/device-gluster.conf
+...<snip>...
+
+We now need to reload our configuration so that the Bareos Storage daemon will add in the device-
+
+gluster.conf file. Using bconsole, we can issue the reload command, or we can restart using the normal 
+systemctl commands.

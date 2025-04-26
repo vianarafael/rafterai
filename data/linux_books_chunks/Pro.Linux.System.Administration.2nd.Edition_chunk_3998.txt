@@ -1,0 +1,25 @@
+See man 
+flock for more details.
+
+A few backup tools have been developed around rsync.
+
+•	
+
+•	
+
+BackupPC: http://backuppc.sourceforge.net/
+
+RSnapshot: http://rsnapshot.org/
+
+•	 Duplicity: http://duplicity.nongnu.org/
+
+Next, we’ll take a look at an open source backup server application called Bareos, which can back up 
+
+Linux, Microsoft Windows, and macOS hosts.
+
+651
+
+Chapter 14 ■ BaCkup and reCovery
+
+Backing Up with Duply
+Duply is a backup program that makes using the Duplicity program dead simple.

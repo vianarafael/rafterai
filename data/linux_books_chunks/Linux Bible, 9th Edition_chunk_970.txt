@@ -1,0 +1,13 @@
+Run as root, the same command locates .bashrc ﬁ les in everyone’s 
+home directory.
+
+$ locate muttrc
+/usr/share/doc/mutt-1.5.20/sample.muttrc
+...
+$ locate -i muttrc
+/etc/Muttrc
+/etc/Muttrc.local
+/usr/share/doc/mutt-1.5.20/sample.muttrc
+...
+
+Using locate -i, ﬁ lenames are found regardless of case.

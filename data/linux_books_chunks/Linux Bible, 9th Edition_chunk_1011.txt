@@ -1,0 +1,4 @@
+/var/allusers/five > ? y
+
+Notice in the preceding code that you are prompted for each ﬁ le that is found before it is 
+moved to the /tmp/joe directory.

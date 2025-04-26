@@ -1,0 +1,6 @@
+this frees the clients from long-running backup jobs and transfers the bulk of the mundane 
+full backup processing to the backup server.
+
+The Client directive here is set to bareos-fd. This is overridden by the Client {} definition but 
+is needed by the configuration file. The client bareos-fd resource has to exist in the configuration file; 
+otherwise, an error will occur.

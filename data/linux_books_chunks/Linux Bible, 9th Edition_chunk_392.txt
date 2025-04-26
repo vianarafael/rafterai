@@ -1,0 +1,6 @@
+Depending on the boot order set on your computer, the live 
+image might start up directly from the BIOS (the code that controls the computer 
+before the operating system starts).
+
+If, instead of booting the live medium, your installed operating system starts up instead, you need to perform an 
+additional step to start the live CD/DVD.

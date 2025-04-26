@@ -1,0 +1,4 @@
+If you’re testing Linux with a LiveCD, you may see a default username and password 
+that you will be prompted to log in with, or you may even be automatically logged in. For example, the 
+Ubuntu LiveCD has a default username of ubuntu with a password of ubuntu, and it usually automatically 
+logs you in.

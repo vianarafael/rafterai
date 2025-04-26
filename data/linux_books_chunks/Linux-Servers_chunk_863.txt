@@ -1,0 +1,71 @@
+(It can be useful to add git status commands
+when practicing).
+
+paul@debian6~/project42$ git branch
+* master
+paul@debian6~/project42$ git checkout -b newheader
+Switched to a new branch 'newheader'
+paul@debian6~/project42$ vi thequestion.sh 
+paul@debian6~/project42$ git add thequestion.sh
+paul@debian6~/project42$ source thequestion.sh 
+The answer is 42.
+
+It seems to work, so we commit in this branch.
+
+paul@debian6~/project42$ git commit -m "adding a new company header"
+[newheader 730a22b] adding a new company header
+ 1 file changed, 4 insertions(+)
+paul@debian6~/project42$ git branch
+  master
+* newheader
+paul@debian6~/project42$ cat thequestion.sh 
+#!/bin/bash
+#
+# copyright linux-training.be
+#
+
+echo The answer is 42.
+
+Let us go back to the master branch and see what happened there.
+
+paul@debian6~/project42$ git checkout master
+Switched to branch 'master'
+paul@debian6~/project42$ cat thequestion.sh 
+#!/bin/bash
+echo The answer is 42.
+
+Nothing happened in the master branch, because we worked in another branch.
+
+When we are sure the branch is ready for production, then we merge it into the master branch.
+
+paul@debian6~/project42$ cat thequestion.sh 
+#!/bin/bash
+echo The answer is 42.
+paul@debian6~/project42$ git merge newheader
+Updating 69b2c8b..730a22b
+Fast-forward
+ thequestion.sh |    4 ++++
+ 1 file changed, 4 insertions(+)
+paul@debian6~/project42$ cat thequestion.sh 
+#!/bin/bash
+#
+# copyright linux-training.be
+#
+
+echo The answer is 42.
+
+The newheader branch can now be deleted.
+
+230
+
+git
+
+paul@debian6~/project42$ git branch
+* master
+  newheader
+paul@debian6~/project42$ git branch -d newheader
+Deleted branch newheader (was 730a22b).
+paul@debian6~/project42$ git branch
+* master
+
+20.5.

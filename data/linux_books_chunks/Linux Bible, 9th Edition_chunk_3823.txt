@@ -1,0 +1,11 @@
+To ﬁ x the problem, you need 
+to remount the root ﬁ lesystem, correct the fstab ﬁ le, mount the ﬁ lesystem entry 
+to make sure it now works, and reboot. Here’s what that sequence of commands 
+looks like:
+
+# mount -o remount,rw /
+# vim /etc/fstab
+# mount -a
+# reboot
+
+The vim command is used particularly when editing the /etc/fstab fi le because it knows the format of that fi le.

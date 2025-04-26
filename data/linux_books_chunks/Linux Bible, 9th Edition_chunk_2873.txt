@@ -1,0 +1,18 @@
+The following example shows that the desired target unit for this new service 
+is multi-user.target.
+
+420
+
+c15.indd  04/01/2015  Page 421
+
+Chapter 15: Starting and Stopping Services
+
+# cat /etc/systemd/system/My_New_Service.service
+[Unit]
+Description=My New Fake Service
+[Service]
+ExecStart=/usr/bin/My_New_Service
+[Install]
+WantedBy=multi-user.target
+
+To add a new service unit to a target unit, you need to create a symbolic link.

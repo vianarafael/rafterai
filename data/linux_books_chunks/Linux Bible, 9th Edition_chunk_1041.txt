@@ -1,0 +1,11 @@
+The 
+following is an example of the ps command:
+
+$ ps u
+USER   PID %CPU %MEM  VSZ    RSS   TTY    STAT  START  TIME  COMMAND
+jake   2147 0.0  0.7 1836   1020   tty1   S+    14:50  0:00  -bash
+jake   2310 0.0  0.7 2592    912   tty1   R+    18:22  0:00  ps u
+
+In this example, the u option asks that usernames be shown, as well as other  information 
+such as the time the process started and memory and CPU usage for processes  associated 
+with the current user.

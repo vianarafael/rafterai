@@ -1,0 +1,6 @@
+As the root user, edit the /etc/sudoers ﬁ le by running the visudo command:
+
+# /usr/sbin/visudo
+
+By default, the ﬁ le opens in vi, unless your EDITOR variable happens to be set to 
+some other editor acceptable to visudo (for example, export EDITOR=gedit).

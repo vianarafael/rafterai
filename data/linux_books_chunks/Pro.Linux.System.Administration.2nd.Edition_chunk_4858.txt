@@ -1,0 +1,9 @@
+Pass the -n option to prevent the headers from 
+being reprinted and tell it to redisplay statistics every 5 seconds, as shown in Figure 17-3. Press Ctrl+C to quit 
+vmstat.
+
+Figure 17-3.  vmstat output on heavily swapping host
+
+This rather impressive jumble of numbers gives us an indication of how much data is moving through 
+
+the system.

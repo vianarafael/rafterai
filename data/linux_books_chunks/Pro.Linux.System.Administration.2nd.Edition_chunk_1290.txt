@@ -1,0 +1,13 @@
+If you type ip help, you get a list of the different components you can manage.
+
+222
+
+In Figure 7-3 we can see the output of the ip help command and you can see that we can use it to 
+
+configure many parts of our networking stack. The ip command has the following basic syntax:
+
+ip [ OPTIONS ] OBJECT { COMMAND | help }
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-3.

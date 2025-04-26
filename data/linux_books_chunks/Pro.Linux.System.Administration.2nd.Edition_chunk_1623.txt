@@ -1,0 +1,3 @@
+In this section we are going to talk mostly about the IPv4 command 
+but there is no difference in the commands usage for IPv6. To effectively use the iptables command, you 
+must have root privileges.

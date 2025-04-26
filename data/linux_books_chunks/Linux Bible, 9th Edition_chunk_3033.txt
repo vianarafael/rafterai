@@ -1,0 +1,6 @@
+By changing the browseable option 
+from no to yes, users can print to all printers (printable = yes).
+
+You can also store Windows native print drivers on your Samba server. When a Windows 
+client uses your printer, the driver automatically becomes available. You do not need to  
+download a driver from the vendor’s website.

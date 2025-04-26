@@ -1,0 +1,7 @@
+By adding a -p 
+to those query options, you can query an RPM ﬁ le sitting in your local directory instead. 
+The -p option is a great way to look inside a package that someone gives you to investigate 
+what it is before you install it on your system.
+
+If you haven’t already, get the zsh package and put it in your local directory (yumdown-
+loader zsh).

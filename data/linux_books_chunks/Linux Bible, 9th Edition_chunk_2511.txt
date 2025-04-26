@@ -1,0 +1,5 @@
+Click the Automatic OFF but-
+ton to override any DNS server information you might get automatically via DHCP.
+
+5.  Click the Apply button. The new information is saved, and the network is restarted 
+using the new information.

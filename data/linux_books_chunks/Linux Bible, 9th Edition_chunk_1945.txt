@@ -1,0 +1,26 @@
+With ACLs, a user can allow others 
+to read, write, and execute ﬁ les and directories without leaving those ﬁ lesystem elements 
+wide open or requiring the root user to change the user or group assigned to them.
+
+Here are a few things to know about ACLs:
+
+ ■ For ACLs to be used, they must be enabled on a ﬁ lesystem when that ﬁ lesystem 
+
+is mounted.
+
+ ■ In Fedora and Red Hat Enterprise Linux, ACLs are automatically enabled on any 
+
+ ﬁ lesystem created when the system is installed.
+
+ ■ If you create a ﬁ lesystem after installation (such as when you add a hard disk), 
+
+you need to make sure that the acl mount option is used when the ﬁ lesystem is 
+mounted (more on that later).
+
+ ■ To add ACLs to a ﬁ le, you use the setfacl command; to view ACLs set on a ﬁ le, 
+
+you use the getfacl command.
+
+ ■ To set ACLs on any ﬁ le or directory, you must be the actual owner (user) assigned 
+
+to it.

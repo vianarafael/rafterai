@@ -1,0 +1,8 @@
+Using a + will give you a logical OR listing (_COMM=usermod + _HOSTNAME=backup), which will 
+provide a listing with usermod and any listing with the hostname backup.
+
+ ■ Tip 
+
+ typing journalctl and pressing the tab key twice will give you a list of available fields.
+
+We can also list logs by their systemd unit names.

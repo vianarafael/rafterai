@@ -1,0 +1,5 @@
+In other words, you can make up your own event name. For example, use the event name MyTest. To test the new 
+ confi guration fi le, you type initctl emit MyTest at the command line. If your confi guration fi le works cor-
+rectly, then modify the start on stanza to the correct Upstart event.
+
+Every job conﬁ guration ﬁ le must follow at least three rules.

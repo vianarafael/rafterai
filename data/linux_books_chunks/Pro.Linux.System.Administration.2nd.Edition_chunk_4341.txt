@@ -1,0 +1,13 @@
+We’re going to create our 
+
+certificate and key on the ca.example.com host and sign it using the CA on that host. We’ll start with one 
+branch office, branch1.example.com.
+
+[ca]$ openssl req -new -newkey rsa:4096 -nodes -keyout branch1.example.com.key 
+-out branch1.example.com.req
+
+712
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+We’ve generated a 4,096-bit RSA key and created a CSR.

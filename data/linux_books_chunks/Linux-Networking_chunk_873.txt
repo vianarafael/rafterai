@@ -1,0 +1,12 @@
+Remember, our server is still accessible to everyone, nobody needs to
+know this user account or password. We just want a clean Linux server.
+
+To accomplish this, we first have to tell Samba about this user. We can do this by adding
+the account to smbpasswd.
+
+[root@RHEL52 samba]# smbpasswd -a sambanobody
+New SMB password:
+Retype new SMB password:
+Added user sambanobody.
+
+19.4.

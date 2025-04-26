@@ -1,0 +1,5 @@
+Thus,  cryptographic hashing 
+is a one-way mathematical process that is collision-free.
+
+By default, cryptography is already in use on a Linux system. For example, the /etc/shadow 
+ﬁ le contains hashed passwords.

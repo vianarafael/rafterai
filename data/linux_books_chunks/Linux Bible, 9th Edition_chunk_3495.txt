@@ -1,0 +1,2 @@
+You can simply edit the smb.conf ﬁ le directly, using the techniques described in 
+this section.

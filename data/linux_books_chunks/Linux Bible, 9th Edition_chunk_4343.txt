@@ -1,0 +1,34 @@
+This could mean that you have typed your
+passphrase wrong.
+
+Would you like to proceed with the mount (yes/no)? : yes
+Would you like to append sig [70993b8d49610e67] to
+[/root/.ecryptfs/sig-cache.txt]
+in order to avoid this warning in the future (yes/no)? : yes
+Successfully appended new sig to user sig cache file
+Mounted eCryptfs
+
+23
+
+643
+
+c23.indd  04/01/2015  Page 644
+
+Part V: Learning Linux Security Techniques
+
+The ecryptfs utility allows you to choose the following:
+
+ ■ Key type
+
+ ■ Passphrase
+
+ ■ Cipher
+
+ ■ Key size (in bytes)
+
+ ■ To enable or disable plaintext to pass through
+
+ ■ To enable or disable ﬁ lename encryption
+
+It also warns you when you are ﬁ rst mounting this encrypted directory because the key has not 
+been used before.

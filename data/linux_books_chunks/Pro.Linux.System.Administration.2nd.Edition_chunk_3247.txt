@@ -1,0 +1,4 @@
+Next, we’ve stepped through the SMTP commands (lowercase 
+this time; the commands are case insensitive) needed to send an e-mail. In Listing 12-4, all the text in bold 
+represents commands we’ve entered, and you will need to enter these to send your e-mail. Adjust the text to 
+suit your environment, for example, replacing example.com with the name of your domain.

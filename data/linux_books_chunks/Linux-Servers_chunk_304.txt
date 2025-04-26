@@ -1,0 +1,8 @@
+But for your computer to actually communicate with the web server hosting said
+website, your computer needs the ip address of that web server. That is where dns comes in.
+
+In wireshark you can use the dns filter to see this traffic.
+
+4.1.2. history
+
+In the Seventies, only a few hundred computers were connected to the internet.

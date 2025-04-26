@@ -1,0 +1,7 @@
+The 
+default signal is SIGTERM, which tries to terminate a process cleanly. To kill a  process 
+immediately, you can use SIGKILL. The SIGHUP signal tells a process to reread its 
+ conﬁ guration ﬁ les. SIGSTOP pauses a process, while SIGCONT continues a stopped process.
+
+Different processes respond to different signals. Processes cannot block SIGKILL and 
+SIGSTOP signals, however.

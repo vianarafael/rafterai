@@ -1,0 +1,19 @@
+You can also pull up the entire 
+manual via man tune2fs.
+
+$ tune2fs
+tune2fs 1.42.13 (17-May-2015)
+Usage: tune2fs [-c max_mounts_count] [-e errors_behavior] [-g group]
+       [-i interval[d|m|w]] [-j] [-J journal_options] [-l]
+       [-m reserved_blocks_percent] [-o [^]mount_options[,...]] [-p mmp_update_interval]
+       [-r reserved_blocks_count] [-u user] [-C mount_count] [-L volume_label]
+       [-M last_mounted_dir] [-O [^]feature[,...]]
+       [-Q quota_options]
+       [-E extended-option[,...]] [-T last_check_time] [-U UUID]
+       [ -I new_inode_size ] device
+
+371
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Though it doesn’t explicitly say so, the -l parameter lists current filesystem options.

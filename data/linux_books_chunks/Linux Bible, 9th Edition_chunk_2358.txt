@@ -1,0 +1,12 @@
+Using these keys, for example, an rsync  command 
+could go into a cron script and automatically back up johndoe’s home directory every night.
+
+Want to further secure your remote system? After you have the keys in place on your 
+remote system for everyone you want to allow to log in to that system, you can set the 
+sshd service on the remote system to not allow password authentication by changing the 
+PasswordAuthentication setting in the /etc/ssh/sshd_config ﬁ le to no so it appears 
+as follows:
+
+PasswordAuthentication no
+
+Then restart the sshd service (systemctl restart sshd).

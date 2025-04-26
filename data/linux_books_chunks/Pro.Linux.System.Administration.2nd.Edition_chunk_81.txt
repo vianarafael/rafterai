@@ -1,0 +1,8 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_2
+
+11
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+ ■ Caution  Distributions change, and installation screens and options change with them. Don’t panic if the 
+screenshots presented in this chapter don’t exactly match the ones you see during installation.

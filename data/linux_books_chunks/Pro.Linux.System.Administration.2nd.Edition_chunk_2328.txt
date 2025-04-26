@@ -1,0 +1,6 @@
+Be 
+sure not to store this backup file in the /tmp directory, which is emptied on boot!
+
+$ sudo mdadm --grow /dev/md0 --raid-disks=4 --backup-file=/root/raid-backup-file
+mdadm: Need to backup 384K of critical section..
+mdadm: ...

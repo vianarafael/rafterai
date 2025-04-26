@@ -1,0 +1,7 @@
+When access is denied, called an AVC denial, a denial message 
+is put into a log ﬁ le.
+
+24
+
+These logged denial messages can help you diagnose and address routine SELinux policy 
+violations.

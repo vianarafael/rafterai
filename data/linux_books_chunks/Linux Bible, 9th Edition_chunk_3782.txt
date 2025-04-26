@@ -1,0 +1,7 @@
+The following are 
+reasons for selecting your own device to boot:
+
+ ■ Rescue mode—If Linux does not boot from the hard disk, selecting the CD 
+
+drive or a USB drive allows you to boot to a rescue mode (described later in this 
+chapter) that can help you repair the hard disk on an unbootable system.

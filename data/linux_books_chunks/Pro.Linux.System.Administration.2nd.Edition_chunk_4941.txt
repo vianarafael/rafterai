@@ -1,0 +1,10 @@
+As 
+an example, you might choose something like this:
+
+[database_metrics]
+pattern = ^collectd_(db|backup)_*
+retentions = 15s:7d,1m:90d,15m:180d
+
+Here we are selecting metrics based on the pattern collectd_ followed by either db_ or backup_, and 
+
+we will retain that for 15-second frequency for 7 days, 1 minute for 90 days, and 15 minutes for 180 days.

@@ -1,0 +1,6 @@
+Using a larger number (such as 8192) gets you better performance on a network 
+that is fast (such as a LAN) and is relatively error-free (that is, one that doesn’t 
+have lots of noise or collisions).
+
+ ■ wsize—This is the size of the blocks of data (in bytes) that the NFS client will 
+request be used when it is writing data to an NFS server. The default is 1024.

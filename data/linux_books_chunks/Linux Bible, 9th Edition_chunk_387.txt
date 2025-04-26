@@ -1,0 +1,6 @@
+When you are ﬁ nished with the Linux live image, you can reboot the computer, 
+pop out the CD or DVD, and go back to running whatever operating system was installed on 
+the hard disk.
+
+To try out a GNOME desktop along with the descriptions in this section, I suggest you get a 
+Fedora Live DVD (as described in Appendix A).

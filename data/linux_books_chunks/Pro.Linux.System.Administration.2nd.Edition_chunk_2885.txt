@@ -1,0 +1,5 @@
+Apache will reduce or increase the idle threads available depending on these settings.
+
+With the event MPM, there is also one other performance consideration that you can use along with 
+the tunings for the worker MPM, AsyncRequestWorkerFactor. With the event MPM, situations can lead to 
+thread starvation as there are no threads to handle new requests.

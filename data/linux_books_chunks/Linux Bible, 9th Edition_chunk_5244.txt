@@ -1,0 +1,17 @@
+To create a group account named testing that uses group ID 315, type the 
+
+following:
+
+# groupadd -g 315 testing
+# grep testing /etc/group
+testing:x:315:
+
+3.  To add jbaxter to the testing group and the bin group, type the following:
+
+# usermod -aG testing,bin jbaxter
+# grep jbaxter /etc/group
+bin:x:1:bin,daemon,jbaxter
+jbaxter:x:1001:
+testing:x:315:jbaxter
+
+4.

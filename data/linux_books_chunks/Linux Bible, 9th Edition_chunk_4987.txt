@@ -1,0 +1,9 @@
+(Install the genisoimage package ﬁ rst, if 
+you haven’t already.)
+
+# yum install genisoimage
+# genisoimage -output fedora21-data.iso -volid cidata \
+      -joliet -rock user-data meta-data
+
+4.  Get a base cloud image. Cloud images for Ubuntu, Fedora, and RHEL are conﬁ gured 
+for use with cloud-init.

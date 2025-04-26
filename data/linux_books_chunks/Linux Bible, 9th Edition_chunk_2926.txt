@@ -1,0 +1,10 @@
+Figure 16.2 shows the 
+information on the Printers tab for a speciﬁ c printer.
+
+FIGURE 16.2
+
+You can do administration tasks from the Printers tab.
+
+Using the Print Settings window
+If you are using Fedora, RHEL, or other Red Hat–based systems, you can use the Print 
+Settings window to set up your printers.

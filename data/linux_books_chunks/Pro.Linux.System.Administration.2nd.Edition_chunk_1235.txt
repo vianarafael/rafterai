@@ -1,0 +1,15 @@
+For example, you could use */4 in the hour column, and the job would run every other 
+minute every fourth hour, like so:
+
+*/2 */4 1 * * root run-parts /etc/cron.monthly
+
+The use of the comma indicates a list of values, for example
+
+2 0,1,2,3,4 1 * * root run-parts /etc/cron.monthly
+
+This would run the job at 12:02 a.m., 1:00 a.m., 2:00 a.m., 3:00 a.m., and 4:00 a.m.
+You can also specify ranges of numbers as follows:
+
+2 0-4,12-16 1 * * root run-parts /etc/cron.monthly
+
+Here the command would be run at 2 minutes past the hour between the hours of 12 a.m.

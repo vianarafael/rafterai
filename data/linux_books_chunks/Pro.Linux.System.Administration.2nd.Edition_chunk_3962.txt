@@ -1,0 +1,16 @@
+On our 
+remote host, we will create a text file in the /tmp directory called /tmp/test_sync.txt and fill it with garbage 
+text.
+
+$ vi /tmp/test_sync.txt
+fldjfsl
+lfdsjfsla
+fsdjfsl
+fjsdl
+fsjfs
+fsl
+fsa
+23433
+
+Here we created a file on remotehost.example.com and added random text to a file called /tmp/test_
+sync.txt.

@@ -1,0 +1,8 @@
+Advanced settings for the user JSmith
+
+In the advanced settings we can configure things like the users’ home directory, their user and group IDs, 
+
+and what groups they are members of. In this example they are given access to the “wheel” group. This is the 
+group that gives them equivalent “root” access. We talk more about these advanced settings in Chapter 5.
+
+That is the last installation step.

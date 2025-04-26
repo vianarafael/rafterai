@@ -1,0 +1,18 @@
+The previous is for CentOS; for Ubuntu you would change the shell to /usr/
+sbin/nologin.
+
+Then we enable the SpamAssassin daemon by issuing the following on both distributions:
+
+$ sudo systemctl enable spamassassin
+
+ the Spamassassin packages have some additional prerequisite packages that will also be installed 
+
+ ■ Note 
+on both CentOS and Ubuntu when you install them.
+
+565
+
+Chapter 12 ■ Mail ServiCeS
+
+For SpamAssassin you can make changes to the configuration by editing the files found in /etc/mail/
+spamassassin on both distributions.

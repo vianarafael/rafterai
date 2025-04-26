@@ -1,0 +1,7 @@
+This will keep your host synchronized and also allow you to use it to 
+synchronize other hosts on your network.
+
+The NTP daemon and some associated utilities are provided by the ntp package. You need to install it 
+
+via yum install ntp on CentOS or sudo aptitude install ntp on Ubuntu. However each distribution 
+has a slightly different ntp.conf file and we will show you the Ubuntu version.

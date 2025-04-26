@@ -1,0 +1,5 @@
+The last two lines in the preceding code indicate 
+whether to check the signatures on packages in this repository. The gpgkey line shows the 
+location of the key that is used to check the packages in this repository.
+
+You can have as many repositories enabled as you like.

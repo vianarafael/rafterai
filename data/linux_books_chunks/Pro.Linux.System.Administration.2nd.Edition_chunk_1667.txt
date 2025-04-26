@@ -1,0 +1,10 @@
+Please refer to the iptables man page for a complete list of tasks you can 
+do.
+
+You can save and restore your iptables configurations fairly simply. Both Ubuntu and CentOS have the 
+
+same command to do this. First, let’s save our iptables rules:
+
+$ sudo iptables-save > /path/to/your/iptables.bak
+
+Here we have issued the iptables command and directed that output (>) to a file on our file system.

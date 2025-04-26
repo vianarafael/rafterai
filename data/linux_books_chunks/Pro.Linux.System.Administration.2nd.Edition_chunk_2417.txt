@@ -1,0 +1,6 @@
+In the more mundane world imagine the horror of database transactions 
+having incorrect timestamps! I don’t even want to think about it.
+
+Let’s look at keeping time, or at least our server with the same relative time. The general-purpose tool 
+
+for keeping time is NTP which you will find on many systems.

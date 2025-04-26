@@ -1,0 +1,9 @@
+You can raise the debuglevel value in the yum.conf ﬁ le to above 
+2 if you want to see more details in your log ﬁ les.
+
+Next, you can see whether the exact architecture (x86, x86_64, and so on) should be matched 
+when choosing packages to install (1 means yes) and whether to use plugins (1 means yes) to 
+allow for things such as blacklists, whitelists, or connecting to Red Hat Network for packages.
+
+Finally, gpgcheck says whether to validate each package against a key you receive from 
+those who built the RPM.

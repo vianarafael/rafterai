@@ -1,0 +1,21 @@
+three extra websites
+
+Next we need to create three DocumentRoot directories.
+
+root@debian7:~# mkdir /var/www/choochoo
+root@debian7:~# mkdir /var/www/chessclub42
+root@debian7:~# mkdir /var/www/hunter2
+
+And we have to put some really simple website in those directories.
+
+root@debian7:~# echo 'Choo Choo model train Choo Choo' > /var/www/choochoo/inde\
+x.html
+root@debian7:~# echo 'Welcome to chess club 42' > /var/www/chessclub42/index.ht\
+ml
+root@debian7:~# echo 'HaCkInG iS fUn At HuNtEr2' > /var/www/hunter2/index.html
+
+85
+
+apache web server
+
+8.2.5.

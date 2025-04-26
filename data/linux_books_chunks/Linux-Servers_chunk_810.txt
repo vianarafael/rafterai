@@ -1,0 +1,23 @@
+-Z
+
+There are also some other tools with the -Z switch:
+
+mkdir -Z
+cp -Z
+ps -Z
+netstat -Z
+...
+
+213
+
+introduction to SELinux
+
+19.12. /selinux
+
+When selinux is active, there is a new virtual file system named /selinux. (You can compare
+it to /proc and /dev.)
+
+[root@centos65 ~]# ls -l /selinux/
+total 0
+-rw-rw-rw-.  1 root root    0 Apr 12 19:40 access
+dr-xr-xr-x.

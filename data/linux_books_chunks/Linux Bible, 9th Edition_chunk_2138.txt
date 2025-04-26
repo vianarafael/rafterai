@@ -1,0 +1,9 @@
+When you install Fedora, Ubuntu, Red Hat Enterprise 
+Linux, and other Linux systems, you have the option to let the installer automatically 
+ conﬁ gure your hard disk or create partitions yourself and indicate the mount points for 
+those partitions.
+
+12
+
+When you boot Linux, usually all the Linux partitions on your hard disk are listed in your 
+/etc/fstab ﬁ le and are mounted.

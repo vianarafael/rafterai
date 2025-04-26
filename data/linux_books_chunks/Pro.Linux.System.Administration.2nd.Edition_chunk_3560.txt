@@ -1,0 +1,13 @@
+Then we see the domain and the selector, which is a unique and arbitrary value (used during 
+the DNS lookup and is in YYYYMM format), followed by the private key we will use for the signing.
+
+We are now going to edit the TrustedHosts file to add our trusted hosts we will be mailing from.
+
+127.0.0.1
+::1
+localhost
+mail
+mail.example.com
+example.com
+
+This covers the different names our hosts can be referred to.

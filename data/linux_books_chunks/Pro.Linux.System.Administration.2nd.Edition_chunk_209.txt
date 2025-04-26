@@ -1,0 +1,13 @@
+Selecting localized desktop language
+
+Now we select keyboard layout in Figure 2-35. We are using the US-style keyboard.
+
+48
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-35.  Selecting keyboard layout
+
+In Figure 2-36 we are able to sign into Google to get access to the Google Apps and storage or ownCloud 
+
+or even Windows Live.

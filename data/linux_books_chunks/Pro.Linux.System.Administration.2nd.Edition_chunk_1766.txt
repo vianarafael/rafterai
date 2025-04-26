@@ -1,0 +1,8 @@
+For instance, Fedora, Red Hat Linux, 
+and CentOS use the RPM (Red Hat Package Management) package format, while Ubuntu uses the deb (short 
+for Debian, the distribution Ubuntu was originally based on) format. Just as the package formats differ, so do 
+the tools that you can use to manage them.
+
+297
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017D.

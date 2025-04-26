@@ -1,0 +1,12 @@
+Users can write ﬁ les to the directory as well as read them (indicated by the 
+
+532
+
+c20.indd  04/01/2015  Page 533
+
+Chapter 20: Confi guring an NFS File Server
+
+rw option). The comment (# Company events) simply serves to remind you of what the 
+directory contains.
+
+The /pub entry represents a public directory.

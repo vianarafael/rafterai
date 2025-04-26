@@ -1,0 +1,14 @@
+Access List for Sensitive Attributes
+
+olcAccess: {1}to attrs=userPassword,shadowLastChange,entry,member
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" tls_ssf=128 auth
+        by anonymous tls_ssf=128 auth
+        by group.exact="cn=admins,ou=groups,dc=example,dc=com" tls_ssf=128 write
+        by self tls_ssf=128 write
+        by * tls_ssf=128 search
+        by * none stop
+
+by * none stop
+
+It says any other user (*) has no access (none) and then stop processing further.
+As we have said, order is important.

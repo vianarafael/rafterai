@@ -1,0 +1,8 @@
+Here it is set to 
+d, u, and r, which means Nagios will send notifications when the host is DOWN (d) or UNREACHABLE (u). The 
+last option, r, sends a notification if the host has recovered (i.e., gone from a DOWN or UNREACHABLE state to an 
+UP state).
+
+Contacts and Contact Groups
+
+The next attribute, contact_groups, tells Nagios whom to notify when a notification is generated.

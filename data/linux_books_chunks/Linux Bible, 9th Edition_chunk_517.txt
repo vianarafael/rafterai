@@ -1,0 +1,4 @@
+Click it to start the application.
+
+Icons available to represent your application are contained in the /usr/share/pixmaps directory. These icons 
+are in either.png or .xpm formats.

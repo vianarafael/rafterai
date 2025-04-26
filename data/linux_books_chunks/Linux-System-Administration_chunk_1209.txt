@@ -1,0 +1,3 @@
+/lib/modules
+
+The modules are stored in the /lib/modules/<kernel-version> directory.

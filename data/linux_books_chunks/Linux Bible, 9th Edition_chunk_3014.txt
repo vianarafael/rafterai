@@ -1,0 +1,3 @@
+Not only can your computer act as a Linux print server 
+(by  conﬁ guring CUPS), but it can also appear as an SMB (Windows) print server to client 
+computers.

@@ -1,0 +1,7 @@
+you can choose whatever numbering scheme you desire.
+
+Our attribute exampleActive can only ever be declared once, so we will make it a SINGLE-VALUE. If we 
+
+try to declare this attribute more than once for a particular DN, we will get a violation error.
+
+We set the exampleActive attribute to be a Boolean match, meaning it can be either true or false.

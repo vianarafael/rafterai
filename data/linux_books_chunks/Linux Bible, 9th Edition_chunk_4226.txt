@@ -1,0 +1,4 @@
+It actually is not infected with this rootkit. When 
+running utilities, such as antivirus and rootkit-detecting software, you often get a number 
+of false positives. A false positive is an indication of a virus, rootkit, or other malicious 
+activity that does not really exist.

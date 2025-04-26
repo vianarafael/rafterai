@@ -1,0 +1,12 @@
+(To see the name of your home directory, type 
+echo $HOME from a shell.)
+
+ ■ /etc—This directory contains most of the basic Linux system conﬁ guration ﬁ les.
+
+ ■ /etc/cron*—Directories in this set contain ﬁ les that deﬁ ne how the crond 
+ utility runs applications on a daily (cron.daily), hourly (cron.hourly), 
+monthly (cron.monthly), or weekly (cron.weekly) schedule.
+
+ ■ /etc/cups—Contains ﬁ les used to conﬁ gure the CUPS printing service.
+
+ ■ /etc/default—Contains ﬁ les that set default values for various utilities.

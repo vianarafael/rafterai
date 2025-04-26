@@ -1,0 +1,7 @@
+You could edit a ﬁ le 
+from there called bun by typing vi $M/bun.
+
+Getting Information about Commands
+When you ﬁ rst start using the shell, it can be intimidating. All you see is a prompt. How do 
+you know which commands are available, which options they use, or how to use advanced 
+features? Fortunately, lots of help is available.

@@ -1,0 +1,2 @@
+Many directories only allow access 
+to specific users and groups (the root user can go anywhere).

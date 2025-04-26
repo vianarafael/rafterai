@@ -1,0 +1,8 @@
+The 
+intention is to make the NIC names more predictable, because when the system is rebooted, 
+it is not guaranteed which interfaces would be named eth0, eth1, and so on by the oper-
+ating system.
+
+Check physical connections
+For a wired connection, make sure your computer is plugged into the port on your network 
+switch.

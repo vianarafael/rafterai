@@ -1,0 +1,2 @@
+It is uncommon in most 
+scenarios and impossible when using the pool.ntp.org servers.

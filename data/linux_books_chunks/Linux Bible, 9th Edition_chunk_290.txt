@@ -1,0 +1,7 @@
+However, in 
+the past few years, another Linux distribution has captured the attention of many people 
+starting out with Linux: Ubuntu.
+
+Choosing Ubuntu or another Debian distribution
+Like Red Hat Linux, the Debian GNU/Linux distribution was an early Linux distribution 
+that excelled at packaging and managing software.

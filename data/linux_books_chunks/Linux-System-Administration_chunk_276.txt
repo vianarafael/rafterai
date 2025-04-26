@@ -1,0 +1,2 @@
+This
+server is attached to a NAS with four NAS disks of half a terabyte.

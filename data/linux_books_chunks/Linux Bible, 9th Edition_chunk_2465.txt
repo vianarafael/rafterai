@@ -1,0 +1,3 @@
+In more secure environments, or one in which you want to be sure that 
+speciﬁ c machines get speciﬁ c addresses, the DHCP server provides a speciﬁ c IP 
+address to requests from speciﬁ c MAC addresses.

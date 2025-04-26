@@ -1,0 +1,5 @@
+In the headoffice.example.com job, we have 
+declared the Name and the Client (which we will define shortly), Enabled the job, and given it a JobDef. We 
+have used JobDefs = "DefaultLinux" to define the other options we can use in our job.
+
+The remaining items we need to address are FileSet, Pool, and Schedule, and we need to set a Client.

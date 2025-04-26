@@ -1,0 +1,15 @@
+Each 
+
+service uses particular commands to check its status, and each command specifies the binary or script used 
+to check the status of a service.
+
+ You will also define commands to send notifications (for example, to generate an e-mail or send a 
+
+ ■ Note 
+page) when a service check fails.
+
+To make creating commands easier, Nagios comes with a collection of plug-ins, which are binaries 
+designed to check specific services; for example, Nagios has a plug-in called check_icmp that uses IMCP 
+ping requests to confirm a host is active.
+
+Nagios can query services on the localhost as well as remote hosts.

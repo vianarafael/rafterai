@@ -1,0 +1,10 @@
+Some additional packages may also be 
+
+installed as prerequisites of these packages.
+
+$ sudo aptitude install clamav clamav-daemon clamav-milter
+
+Once again, the distributions put the configuration files into different locations. For CentOS we find 
+
+clamav-milter in /etc/mail/clamav-milter.conf, and for the clamav daemon we find them in /etc/
+clam.d/scan.conf.

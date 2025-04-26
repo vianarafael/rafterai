@@ -1,0 +1,4 @@
+Udev (using the udevd daemon) creates 
+and removes devices (/dev directory) as hardware is added and removed from the com-
+puter. The Hardware Abstraction layer (HAL) provides the overall platform for discovering 
+and conﬁ guring hardware.

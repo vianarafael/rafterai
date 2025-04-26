@@ -1,0 +1,4 @@
+Though many other filesystems exist, we feel that most of them are not suitable or ready for use in a 
+production environment. The foremost feature a filesystem needs to have is stability, and the filesystems 
+we covered offer this, as well as excellent performance. If you choose ext4, XFS, or Btrfs based on the type 
+of data you are storing, you should see excellent reliability and speed.

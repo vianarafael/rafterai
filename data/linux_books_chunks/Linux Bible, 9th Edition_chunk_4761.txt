@@ -1,0 +1,19 @@
+Do 
+this by typing:
+
+# firewall-config &
+
+Figure 25.1 shows an example of the Firewall Conﬁ guration window.
+
+FIGURE 25.1
+
+Firewall Confi guration
+
+712
+
+c25.indd  04/02/2015  Page 713
+
+Chapter 25: Securing Linux on a Network
+
+If all you need to do is open some ﬁ rewall ports to allow access to selected services, that’s 
+very easy to do from the Firewall Conﬁ guration window.

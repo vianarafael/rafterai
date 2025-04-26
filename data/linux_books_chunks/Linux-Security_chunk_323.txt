@@ -1,0 +1,18 @@
+You can use the df -i command to see how many inodes are used and free on
+mounted file systems.
+
+root@rhel53 ~# df -i
+Filesystem            Inodes   IUsed   IFree IUse% Mounted on
+/dev/mapper/VolGroup00-LogVol00
+                     4947968  115326 4832642    3% /
+/dev/hda1              26104      45   26059    1% /boot
+tmpfs                  64417       1   64416    1% /dev/shm
+/dev/sda1             262144    2207  259937    1% /home/project42
+/dev/sdb1              74400    5519   68881    8% /home/project33
+/dev/sdb5                  0       0       0    -  /home/sales
+/dev/sdb6             100744      11  100733    1% /home/research
+
+In the df -i screenshot above you can see the inode usage for several mounted file systems.
+You don't see numbers for /dev/sdb5 because it is a fat file system.
+
+9.1.3.

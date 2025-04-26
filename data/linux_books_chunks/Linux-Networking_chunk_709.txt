@@ -1,0 +1,26 @@
+We  first  append  a  rule  to  the  INPUT  chain  to  allow
+(ACCEPT) traffic from the lo (loopback) interface, then we do the same to allow packets to
+leave the system through the loopback interface.
+
+[root@RHEL5 ~]# iptables -A INPUT -i lo -j ACCEPT
+[root@RHEL5 ~]# iptables -A OUTPUT -o lo -j ACCEPT
+
+Looking at the filter table again (omitting -t filter because it is the default table).
+
+[root@RHEL5 ~]# iptables -nL
+Chain INPUT (policy DROP)
+target     prot opt source               destination
+ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0
+
+Chain FORWARD (policy DROP)
+target     prot opt source               destination
+
+Chain OUTPUT (policy DROP)
+target     prot opt source               destination
+ACCEPT     all  --  0.0.0.0/0            0.0.0.0/0
+
+182
+
+iptables firewall
+
+14.3.5.

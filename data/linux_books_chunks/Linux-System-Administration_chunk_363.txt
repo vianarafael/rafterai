@@ -1,0 +1,9 @@
+The first screenshot lists the reserved
+space for root (which is set at five percent).
+
+[root@rhel4 ~]# tune2fs -l /dev/sda1 | grep -i "block count"
+Block count:              104388
+Reserved block count:     5219
+[root@rhel4 ~]#
+
+This example changes this value to ten percent.

@@ -1,0 +1,6 @@
+this assumes 
+that the smarthost will accept e-mail from you; for example, some iSp smarthosts are happy to accept 
+e-mail from any ip address that the iSp manages.
+
+Sometimes, however, your smarthost won’t accept e-mail from you without SaSl authentication. if so, 
+you need to configure smarthost authentication.

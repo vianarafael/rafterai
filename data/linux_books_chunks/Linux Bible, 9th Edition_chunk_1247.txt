@@ -1,0 +1,6 @@
+This is particularly true for wireless network interfaces, which can come and go by 
+location, as you move your Linux laptop or handheld device around.
+
+ ■ Servers—Conﬁ guring web servers, ﬁ le servers, domain name servers, mail servers, 
+and dozens of other servers requires root privilege, as does starting and stopping 
+those services.

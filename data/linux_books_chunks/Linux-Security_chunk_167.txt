@@ -1,0 +1,8 @@
+Verify that their home directory was created.
+
+root@debian7:~# ls -lrt /home | tail -2
+drwxr-xr-x 2 serena    serena    4096 Oct 15 10:50 serena
+drwxr-xr-x 2 venus     venus     4096 Oct 15 10:59 venus
+root@debian7:~#
+
+5.

@@ -1,0 +1,17 @@
+To boot Linux this means booting
+a gzip compressed zImage or bzip2 compressed bzImage.
+
+This screenshot shows a kernel command used to load a Debian kernel.
+
+kernel  /boot/vmlinuz-2.6.17-2-686 root=/dev/hda1 ro
+
+And this is how RHEL 5 uses the kernel command.
+
+kernel /vmlinuz-2.6.18-128.el5 ro root=/dev/VolGroup00/LogVol00 rhgb quiet
+
+All parameters in the kernel line can be read by the kernel itself or by any other program
+(which are started later) by reading /proc/cmdline
+
+initrd
+
+Many Linux installations will need an initial ramdisk at boot time.

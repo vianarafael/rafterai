@@ -1,0 +1,18 @@
+We now have to edit the 
+/etc/php-fpm.d/www.conf file and add the following line:
+
+; Start a new pool named 'www'.
+[www]
+
+; The address on which to accept FastCGI requests.
+; Valid syntaxes are:
+;   'ip.add.re.ss:port'    - to listen on a TCP socket to a specific address on
+;                            a specific port;
+;   'port'                 - to listen on a TCP socket to all addresses on a
+;                            specific port;
+;   '/path/to/unix/socket' - to listen on a unix socket.
+; Note: This value is mandatory.
+listen = 127.0.0.1:9000
+listen = /run/php-fcgi.sock
+
+You will need to restart php-fpm after you have edited this file.

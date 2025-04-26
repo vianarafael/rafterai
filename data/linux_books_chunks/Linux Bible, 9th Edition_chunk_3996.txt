@@ -1,0 +1,5 @@
+When that happens, the 
+kernel OOM killer kicks in and begins killing off processes, one by one, to regain as 
+much memory as the kernel needs to begin functioning properly again.
+
+The general rule has always been that swapping is bad and should be avoided.

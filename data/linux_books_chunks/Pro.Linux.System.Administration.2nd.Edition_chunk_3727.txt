@@ -1,0 +1,10 @@
+To mount the Samba share on a Linux host, you 
+
+would do something similar to the following:
+
+$ sudo mount -t cifs //dc1.samba.example.com/sales /data/sales -o username=jsmith
+Password for jsmith@\dc1.samba.example.com\sales:  *****************
+
+This will mount the remote Samba share /data/staff/sales under the /data/sales directory. You 
+
+pass the remote host and your username.

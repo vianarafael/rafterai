@@ -1,0 +1,6 @@
+In most cases, the CA is a company that has made arrangements with 
+the web browser vendor to have its own certiﬁ cate installed and trusted by default client 
+installations. The CA then charges the server operator for its services.
+
+Commercial certiﬁ cate authorities vary in price, features, and browser support, but remem-
+ber that price is not always an indication of quality.

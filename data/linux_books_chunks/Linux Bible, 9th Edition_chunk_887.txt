@@ -1,0 +1,14 @@
+For example, if you inserted a USB drive, which is mounted on the /media/myusb 
+ directory, and wanted to give full ownership of the contents of that drive to the user joe, 
+you could type the following:
+
+# chown -R joe:joe /media/myusb
+
+113
+
+c04.indd  04/01/2015  Page 114
+
+Part II: Becoming a Linux Power User
+
+Moving, Copying, and Removing Files
+Commands for moving, copying, and deleting ﬁ les are fairly straightforward.

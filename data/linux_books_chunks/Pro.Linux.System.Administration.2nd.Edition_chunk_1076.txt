@@ -1,0 +1,6 @@
+However, if you 
+want to edit any of the GRUB2 configuration details, by pressing e, you are required to enter a password. You 
+will then be able to edit the GRUB2 configuration as normal.
+
+To remove the password, remove the user.cfg file. Remember the GRUB2 documentation does suggest 
+that this is not recommended except in situations where your hosts are publicly exposed.

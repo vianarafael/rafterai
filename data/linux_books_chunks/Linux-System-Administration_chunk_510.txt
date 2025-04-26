@@ -1,0 +1,35 @@
+vgdisplay
+
+The vgdisplay command will give you more detailed information about a volume group (or
+about all volume groups if you omit the argument).
+
+[root@RHEL5 ~]# vgdisplay VolGroup00
+  --- Volume group ---
+  VG Name               VolGroup00
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  3
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               15.88 GB
+  PE Size               32.00 MB
+  Total PE              508
+  Alloc PE / Size       508 / 15.88 GB
+  Free  PE / Size       0 / 0   
+  VG UUID               qsXvJb-71qV-9l7U-ishX-FobM-qptE-VXmKIg
+
+[root@RHEL5 ~]#
+
+113
+
+   
+logical volume management
+
+11.10.

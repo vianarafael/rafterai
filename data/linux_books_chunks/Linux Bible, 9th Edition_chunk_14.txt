@@ -1,0 +1,6 @@
+Chris also co-authored several books for the Linux Toolbox 
+series for power users: Fedora Linux Toolbox, SUSE Linux Toolbox, Ubuntu Linux Toolbox, Mac 
+OS X Toolbox, and BSD UNIX Toolbox.
+
+For eight years Chris worked with the organization at AT&T that developed UNIX before 
+moving to Utah to help contribute to Novell’s UnixWare project in the early 1990s.

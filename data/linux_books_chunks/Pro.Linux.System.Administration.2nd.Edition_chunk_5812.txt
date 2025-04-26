@@ -1,0 +1,9 @@
+So to be clear, when the ansible commands look for the backup_database_password, it 
+will then do a lookup for the vault_backup_database_password and return that value.
+
+We will now encrypt this file with the ansible-vault command.
+
+$ ansible-vault encrypt playbooks/group_vars/dbs/vault.yml
+
+We are asked to create and enter a password, which we will also store securely.
+Next we have the configuration files.

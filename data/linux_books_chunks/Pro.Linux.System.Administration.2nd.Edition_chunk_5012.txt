@@ -1,0 +1,6 @@
+Unless you need this timestamp, you can speed up disk access 
+by telling your host to not update these.
+
+By default, your system should mount your disks with the relatime option. This option means that 
+each file access does not initiate an update to the file metadata, which increases performance by not issuing 
+unnecessary operations.

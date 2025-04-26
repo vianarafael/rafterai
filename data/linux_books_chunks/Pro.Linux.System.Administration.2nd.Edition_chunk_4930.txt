@@ -1,0 +1,4 @@
+Then we have some 
+settings for our cache writing. MAX_CACHE_SIZE is set to inf, or infinite. You should limit this if you are seeing 
+a lot of swapping or CPU-bound processes. As the cache size grows, the more expensive sorts and queries 
+of the cache become.

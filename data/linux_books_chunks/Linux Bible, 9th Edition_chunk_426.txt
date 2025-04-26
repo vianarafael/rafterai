@@ -1,0 +1,7 @@
+In the search box now highlighted, type a few letters in an 
+ application’s name or description (type scr to see what you get). Keep typing 
+until the application you want is highlighted (in this case, Screenshot), and 
+press Enter to launch it.
+
+ ■ Dash—From the Overview screen, press Ctrl+Alt+Tab and continue to press Tab 
+until the star (Dash) icon is highlighted; then release Ctrl+Alt.

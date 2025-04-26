@@ -1,0 +1,6 @@
+DnsseC provides a way that they root 
+zone validates records from the tLDs that can then validate the records other domains under them.
+
+It does this by signing resource record sets, rrsets (a rrset for example, is all the MX resource records 
+in a zone file, or all the ns resource records, or all the aaaa resource records). these rrsets are signed 
+by a zone signing private key.

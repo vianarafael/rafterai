@@ -1,0 +1,20 @@
+You end up with
+a cmd.exe prompt inside your Linux shell.
+
+paul@laika:~$ nc 192.168.1.38 23
+Microsoft Windows [Version 5.2.3790]
+(C) Copyright 1985-2003 Microsoft Corp.
+
+C:\>net use k: /delete
+net use k: /delete
+k: was deleted successfully.
+
+217
+
+a read only file server
+
+17.6. practice: read only file server
+
+1. Create a directory in a good location (FHS) to share files for everyone to read.
+
+2.

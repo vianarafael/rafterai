@@ -1,0 +1,7 @@
+Try to ﬁ nd a computer where it will do no harm to interrupt 
+ services on the system.
+
+These exercises assume that you are starting with a Fedora or RHEL installation on which 
+the Apache server (httpd package) is not yet installed.
+
+If you are stuck, solutions to the tasks are shown in Appendix B.

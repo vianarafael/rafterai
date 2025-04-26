@@ -1,0 +1,12 @@
+(Note that this is a
+one line command!)
+
+iptables -t nat -A POSTROUTING -o eth1 -s 10.1.1.0/24 -j SNAT \
+--to-source 11.12.13.14
+
+Of course there must exist a proper iptables filter setup to allow the packet to traverse from
+one network to the other.
+
+11.6.3. SNAT example setup
+
+This  example  script  uses  a  typical  nat  setup.

@@ -1,0 +1,18 @@
+Another advantage is
+that you don't need to point to the filename with full path.
+
+This screenshot shows how modprobe loads the isdn module, automatically loading slhc in
+background.
+
+[root@RHEL52 kernel]# lsmod | grep isdn
+[root@RHEL52 kernel]# modprobe isdn
+[root@RHEL52 kernel]# lsmod | grep isdn
+isdn                  122433  0 
+slhc                   10561  1 isdn
+[root@RHEL52 kernel]#
+
+337
+
+the Linux kernel
+
+28.4.10.

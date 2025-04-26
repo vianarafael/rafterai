@@ -1,0 +1,5 @@
+We start by clicking the New User button to bring up the page shown in Figure 16-6.
+
+Figure 16-6.  Creating a new user
+
+We now need to click the Personal tab and fill out the details required there.

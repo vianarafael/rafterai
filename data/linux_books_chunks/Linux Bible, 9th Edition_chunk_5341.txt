@@ -1,0 +1,5 @@
+To access the test ﬁ le in the anonymous FTP home directory, do the following. (If 
+you cannot access the ﬁ le, check that your ﬁ rewall, SELinux, and TCP wrappers are 
+conﬁ gured to allow access to that ﬁ le, as described here.)
+
+a.

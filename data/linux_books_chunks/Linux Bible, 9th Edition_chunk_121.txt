@@ -1,0 +1,28 @@
+674
+Understanding SELinux policy types ..................................................677
+Understanding SELinux policy rule packages ......................................678
+Conﬁ guring SELinux ..........................................................................................679
+Setting the SELinux mode ..........................................................................680
+Setting the SELinux policy type .................................................................682
+Managing SELinux security contexts ...........................................................683
+Managing the user security context ...................................................684
+Managing the ﬁ le security context .....................................................684
+Managing the process security context ...............................................685
+Managing SELinux policy rule packages ......................................................686
+Managing SELinux via booleans ..................................................................688
+Monitoring and Troubleshooting SELinux .............................................................689
+Understanding SELinux logging ..................................................................689
+Reviewing SELinux messages in the audit log......................................690
+Reviewing SELinux messages in the messages log ................................690
+Troubleshooting SELinux logging ................................................................691
+Troubleshooting common SELinux problems ................................................692
+Using a nonstandard directory for a service ........................................692
+Using a nonstandard port for a service ...............................................693
+Moving ﬁ les and losing security context labels ...................................693
+Booleans set incorrectly ....................................................................694
+Putting It All Together .......................................................................................694
+Obtaining More Information on SELinux ..............................................................695
+Summary ...........................................................................................................695
+Exercises ...........................................................................................................696
+
+Chapter 25: Securing Linux on a Network  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

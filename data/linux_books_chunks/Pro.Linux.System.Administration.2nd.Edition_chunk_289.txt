@@ -1,0 +1,5 @@
+This 
+helps your teams develop on a consistent set of images that run on desktop commodity hardware and that 
+are easily created, recreated, developed, and produced.
+
+System administrators find this kind of quick prototyping very useful.

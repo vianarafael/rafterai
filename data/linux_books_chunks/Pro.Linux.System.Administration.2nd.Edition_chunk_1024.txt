@@ -1,0 +1,2 @@
+To boot into single-user mode, add the word ‘single’ (without quotes) to the 
+end of this line. In Figure 6-3, you can see that we have already added the word single to the end of the line.

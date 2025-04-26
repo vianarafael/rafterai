@@ -1,0 +1,6 @@
+You can have multiple partitions, however, and assign them each to 
+different types of ﬁ lesystems and different mount points, if you like.
+
+The following process takes you through partitioning a USB ﬂ ash drive to be used for 
+Linux that has only one partition. If you have a USB ﬂ ash drive (any size) that you don’t 
+mind erasing, you can work through this procedure as you read.

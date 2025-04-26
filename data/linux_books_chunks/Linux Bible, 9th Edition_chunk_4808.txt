@@ -1,0 +1,3 @@
+Note that the --dport option must accompany a 
+ particular protocol, for example, -p tcp. Before the new rule is added, the rule from 
+the previous example must be deleted using the -D option.

@@ -1,0 +1,16 @@
+200 OK
+Length: 32 [text/html]
+Saving to: `index.html'
+
+100%[===========================================>] 32          --.-K/s   in 0s
+
+2014-05-11 11:59:36 (4.47 MB/s) - `index.html' saved [32/32]
+
+[root@CentOS65 ~]# cat index.html 
+Choo Choo model train Choo Choo
+
+Testing the chess club named Chess Club 42 on port 8000.
+
+[root@CentOS65 ~]# wget 127.0.0.1:8000
+--2014-05-11 12:01:30--  http://127.0.0.1:8000/
+Connecting to 127.0.0.1:8000...

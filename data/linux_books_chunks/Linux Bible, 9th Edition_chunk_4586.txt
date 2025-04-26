@@ -1,0 +1,1 @@
+To see another process’s security context, use the -p option.

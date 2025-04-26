@@ -1,0 +1,14 @@
+Below you can
+see gzip in action, notice that it adds the .gz extension to the file.
+
+paul@RHELv4u4:~/test$ ls -l allfiles.tx*
+-rw-rw-r--  1 paul paul 8813553 Feb 27 05:38 allfiles.txt
+paul@RHELv4u4:~/test$ gzip allfiles.txt 
+paul@RHELv4u4:~/test$ ls -l allfiles.tx*
+-rw-rw-r--  1 paul paul 931863 Feb 27 05:38 allfiles.txt.gz
+paul@RHELv4u4:~/test$ gunzip allfiles.txt.gz 
+paul@RHELv4u4:~/test$ ls -l allfiles.tx*
+-rw-rw-r--  1 paul paul 8813553 Feb 27 05:38 allfiles.txt
+paul@RHELv4u4:~/test$ 
+
+In general, gzip is much faster than bzip2, but the latter one compresses a lot better.

@@ -1,0 +1,16 @@
+On CentOS, for example, 
+
+you would create them like so:
+
+part /boot --fstype ext4 --size=150
+part swap --size=1024
+part pv1 --size=1 --grow
+volgroup vg_root pv1
+logvol / --vgname=vg_root --size=81920 --name=lv_root
+
+932
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+In the preceding sample, we created a 150MB boot partition, a 1GB swap partition, and a physical 
+volume called pv1 on the remainder of the disk, using the --grow option to fill the rest of the disk.

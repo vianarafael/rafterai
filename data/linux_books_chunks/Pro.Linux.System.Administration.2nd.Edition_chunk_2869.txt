@@ -1,0 +1,4 @@
+In this one we have added some extra directives. 
+We start by opening the VirtualHost tag and specifying that the definition will apply to all addresses. Next, 
+we specify the names we want this virtual host to reply to. Only a single ServerName can apply to any given 
+virtual host, but others can be added via ServerAlias.

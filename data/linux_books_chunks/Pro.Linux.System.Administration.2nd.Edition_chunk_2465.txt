@@ -1,0 +1,8 @@
+Listing connected peers
+
+You can now configure the hosts on your network to use the bastion host as their upstream NTP server 
+
+and you can verify that they work via the ntpq command.
+
+Chrony
+Chrony is an alternative to the NTP service daemon that keeps hosts in sync with world clocks.

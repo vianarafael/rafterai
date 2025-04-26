@@ -1,0 +1,8 @@
+See interfaces(5) for help on setting a gateway, netmask or any of the other
+options.
+
+16
+
+interface configuration
+
+2.2.2.

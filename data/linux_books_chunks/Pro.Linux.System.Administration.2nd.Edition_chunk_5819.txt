@@ -1,0 +1,7 @@
+More information on the different types of file modules can be 
+found here: http://docs.ansible.com/ansible/list_of_files_modules.html.
+
+  - name: create backup directory
+    file: path=/data/backups/FileStorage state=directory owner=bareos group=bareos mode=0750
+
+Next we create the directory to store our backups using the file module.

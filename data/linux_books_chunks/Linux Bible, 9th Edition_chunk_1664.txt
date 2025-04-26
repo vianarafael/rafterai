@@ -1,0 +1,17 @@
+The major 
+ function of the GRUB 2 boot loader is still to ﬁ nd and start the operating system you want, 
+but now much more power and ﬂ exibility is built into the tools and conﬁ guration ﬁ les that 
+get you there.
+
+229
+
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 230
+
+Part III: Becoming a Linux System Administrator
+
+In GRUB 2, the conﬁ guration ﬁ le is now named /boot/grub2/grub.cfg (in Fedora and 
+other Linux systems using GRUB 2).

@@ -1,0 +1,9 @@
+For example, if you are running Firefox on the system where the web 
+server is running, type https://localhost into the location box and press 
+Enter. Figure 17.2 shows an example of the page that appears.
+
+FIGURE 17.2
+
+Accessing an SSL website with a default certifi cate
+
+This page warns you that there is no way of verifying who created the certiﬁ cate you are accepting.

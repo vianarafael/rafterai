@@ -1,0 +1,5 @@
+Those options are not needed for RHEL 7.)
+
+6.  If you start with a new USB ﬂ ash drive, it may have one partition that is entirely 
+devoted to a Windows-compatible ﬁ lesystem (such as VFAT). Use p to view all 
+ partitions and d to delete the partition.

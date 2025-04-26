@@ -1,0 +1,7 @@
+After
+reboot of the Microsoft computer, you will be able to logon with Administrator (password
+Stargate1), but you will get an error about your roaming profile. We will fix this in the next
+section.
+
+When joining the samba domain, you have to enter the credentials of a Linux account that
+can create users (usually only root can do this).

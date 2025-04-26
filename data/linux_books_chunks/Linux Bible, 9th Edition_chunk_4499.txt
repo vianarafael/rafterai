@@ -1,0 +1,5 @@
+Thus, the SELinux policies are not even checked.
+
+SELinux is the default security enhancement of Red Hat distributions, whereas AppArmor is the default secu-
+rity enhancement for Ubuntu. You can still install SELinux on Ubuntu by using the command sudo apt-get 
+install selinux and then reboot.

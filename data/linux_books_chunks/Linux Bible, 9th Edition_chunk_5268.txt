@@ -1,0 +1,12 @@
+To recursively copy all the ﬁ les from the /usr/share/selinux directory on a 
+remote system to the /tmp directory on your local system in such a way that all 
+the modiﬁ cation times on the ﬁ les are updated to the time on the local system 
+when they are copied, do the following:
+
+$ scp -r joe@localhost:/usr/share/selinux /tmp
+joe@localhost's password: ********
+irc.pp.bz2                          100% 9673     9.5KB/s   00:00
+dcc.pp.bz2                          100%   15KB  15.2KB/s   00:01
+$ ls -l /tmp/selinux | head
+total 20
+drwxr-xr-x.

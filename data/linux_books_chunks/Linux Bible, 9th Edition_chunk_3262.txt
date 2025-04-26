@@ -1,0 +1,2 @@
+With an active FTP connection, the server sends data from its TCP port 20 to some random 
+port the server chooses above port 1023 on the client.

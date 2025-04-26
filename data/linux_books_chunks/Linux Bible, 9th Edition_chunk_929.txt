@@ -1,0 +1,4 @@
+The fi rst obvious difference between vi 
+and vim is that any known text fi le type, such as HTML, C code, or a common confi guration fi le, appears in color. 
+The colors indicate the structure of the fi le. Other features of vim that are not in vi include features such as visual 
+ highlighting and split-screen mode.

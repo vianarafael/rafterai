@@ -1,0 +1,6 @@
+These are some of the networking features in 
+RHEL and Fedora described in the coming sections:
+
+ ■ Basic conﬁ guration—See how to use the nmtui or system-config-network 
+
+commands to conﬁ gure basic networking with a menu-based interface from a shell.

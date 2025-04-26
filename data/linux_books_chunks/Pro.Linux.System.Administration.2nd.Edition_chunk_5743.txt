@@ -1,0 +1,3 @@
+If you have downloaded third-party Ansible modules 
+
+to a particular location, you can declare that location in in the ansible.cfg file.

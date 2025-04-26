@@ -1,0 +1,6 @@
+Refer to Chapter 12 for further information on LVM and other 
+partition and ﬁ lesystem types.
+
+The last “Entering interactive startup” message tells you that rc.sysinit is ﬁ nished and 
+the services for the selected runlevel are ready to start. Because the system is in interac-
+tive mode, a message appears asking if you want to start the ﬁ rst service (sysstat).

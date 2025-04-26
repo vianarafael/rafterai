@@ -1,0 +1,10 @@
+We pass the bit 
+size to openssl via –pkeyopt rsa_keygen_bits:2048.
+
+ ■ Tip 
+
+ You can see more details about the openssl genpkey options by entering man genpkey.
+
+Next we want to generate a CSR. It is this that we would give to the CA for signing. This is generated 
+from our private key we just generated. This way we do not have to give anyone our private key in order to get 
+our certificate.

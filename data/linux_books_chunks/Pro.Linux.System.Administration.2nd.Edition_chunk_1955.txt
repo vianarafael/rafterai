@@ -1,0 +1,4 @@
+the UrL may be localized to your 
+closest repository, like ‘http://au.archive.ubuntu.com’. the type indicates whether the repository 
+contains binary packages or source code. A repository type of deb contains binary packages, and a type 
+of deb-src contains packages containing the source code for applications.

@@ -1,0 +1,2 @@
+(The getent command can be used to query any information setup in 
+the  nsswitch.conf ﬁ le.

@@ -1,0 +1,6 @@
+Again, there is a symlink to the /
+var/spool/mail directory for the /var/mail directory.
+
+Let’s look inside one of these mbox files in Listing 12-5.
+
+Listing 12-5.

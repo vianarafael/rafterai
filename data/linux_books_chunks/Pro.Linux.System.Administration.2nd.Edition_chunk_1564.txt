@@ -1,0 +1,3 @@
+Netfilter has four built-in tables that can hold rules for processing traffic. The first is the 
+filter table, which is the default table used for all rules related to the filtering of your traffic. The second is 
+nat, which handles NAT rules. Next is the mangle table, which covers a variety of packet alteration functions.

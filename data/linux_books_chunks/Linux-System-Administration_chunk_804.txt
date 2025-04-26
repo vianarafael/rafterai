@@ -1,0 +1,6 @@
+facilities
+
+The  man  rsyslog.conf  command  will  explain  the  different  default  facilities  for  certain
+daemons, such as mail, lpr, news and kern(el) messages. The local0 to local7 facility can
+be used for appliances (or any networked device that supports syslog). Here is a list of all
+facilities for rsyslog.conf version 1.3.

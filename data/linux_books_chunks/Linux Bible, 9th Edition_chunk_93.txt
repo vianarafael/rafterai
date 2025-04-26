@@ -1,0 +1,5 @@
+414
+Adding new services to SysVinit ................................................................. 414
+Step 1: Create a new or customized service script ﬁ le .......................... 415
+Step 2: Add the service script to /etc/rc.d/init.d ................................. 416
+Step 3: Add the service to runlevel directories ....................................

@@ -1,0 +1,14 @@
+top -p
+
+The top -p 1670,1671,1673,1674 screenshot below shows four processes, all of then using
+approximately 25 percent of the cpu.
+
+paul@ubuntu910:~$ top -p 1670,1671,1673,1674
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+ 1674 paul      20   0  2972  616  524 S 26.6  0.1   0:11.92 proj42
+ 1670 paul      20   0  2972  616  524 R 25.0  0.1   0:23.16 proj33
+ 1671 paul      20   0  2972  616  524 S 24.6  0.1   0:23.07 proj33
+ 1673 paul      20   0  2972  620  524 R 23.0  0.1   0:11.48 proj42
+
+All four processes have an equal priority (PR), and are battling for cpu time.

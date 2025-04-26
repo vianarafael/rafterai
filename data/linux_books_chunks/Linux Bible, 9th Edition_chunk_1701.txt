@@ -1,0 +1,10 @@
+Then you would have to track down that software and install that too (which might 
+itself have some dependencies).
+
+ ■ List the software—Even if you knew the name of the command, you might not 
+
+know where its documentation or conﬁ guration ﬁ les were located when you looked 
+for it later.
+
+ ■ Remove the software—Unless you kept the original tarball or a list of ﬁ les, you 
+wouldn’t know where all the ﬁ les were when it came time to remove them.

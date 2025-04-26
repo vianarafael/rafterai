@@ -1,0 +1,12 @@
+The last number
+in the Samba version counts the number of updates or patches.
+
+Below  the  same  command  on  a  more  recent  version  of  CentOS  with  Samba  version  3.5
+installed.
+
+[root@centos6 ~]# rpm -q samba
+samba-3.5.10-116.el6_2.i686
+
+9.1.2. .deb based distributions
+
+Use dpkg -l or aptitide show on Debian or Ubuntu.

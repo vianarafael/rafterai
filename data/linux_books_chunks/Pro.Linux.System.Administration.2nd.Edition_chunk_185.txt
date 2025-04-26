@@ -1,0 +1,5 @@
+In Chapter 8 we explain more about packages and how to use them.
+
+We will now quickly go over the last item, Installation Source. If we wanted to choose a different 
+installation source to the current media (CD/DVD/USB), then we could add it here. You can install Linux 
+from a network httpd server or run your installation via a proxy server.

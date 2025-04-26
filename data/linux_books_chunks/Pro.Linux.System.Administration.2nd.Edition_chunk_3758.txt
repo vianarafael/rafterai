@@ -1,0 +1,10 @@
+You would add it like so for CentOS:
+
+$ sudo firewall-cmd --permanent --zone public --add-service nfs
+$ sudo firewall-cmd --reload
+
+On Ubuntu you would add the following:
+
+$ sudo ufw allow 2049/tcp
+
+Let’s now make sure that the NFS server is running on our host.

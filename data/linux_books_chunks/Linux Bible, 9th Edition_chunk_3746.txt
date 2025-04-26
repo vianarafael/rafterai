@@ -1,0 +1,6 @@
+For 
+example, the multi-user runlevel can start basic system services, network interfaces, and 
+network services. Single-user mode just starts enough of the basic Linux system so some-
+one can log in from the system console, without starting network interfaces or services.
+After a System V init system is up and running, you can use commands such as reboot, 
+shutdown, and init to change runlevels.

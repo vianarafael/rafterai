@@ -1,0 +1,4 @@
+Let’s 
+again look at our CentOS host and its enp0s3 profile.
+
+We can use the nmcli command to do this. To do that we have to modify an existing interface.

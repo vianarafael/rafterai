@@ -1,0 +1,3 @@
+If you select the 
+Security Policy, you can add a security policy to your host. It is not mandatory that you implement a security 
+policy but you may be required to by either government regulation or by individual security requirements.

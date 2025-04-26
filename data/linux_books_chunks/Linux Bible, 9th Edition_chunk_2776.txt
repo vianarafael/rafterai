@@ -1,0 +1,10 @@
+A great deal of helpful information about the service is given here, such as the 
+fact that it is enabled and active, its start time, and its process ID (PID) as well.
+
+Now that you can check the status of services and determine some information about them, 
+you need to know how to accomplish starting, stopping, and reloading the services on your 
+Linux server.
+
+Stopping and Starting Services
+The tasks of starting, stopping, and restarting services typically refer to immediate needs—
+in other words, managing services without a server reboot.

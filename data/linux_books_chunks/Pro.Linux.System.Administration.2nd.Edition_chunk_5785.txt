@@ -1,0 +1,11 @@
+using the ansible command with the debug module, we can 
+print the results of our substitutions like this:
+
+$ ansible -c local localhost -m debug -a "msg={{ '/etc/bareos/bareos-dir.conf'  
+|basename }}"
+localhost | SUCCESS => {
+    "msg": "bareos-dir.conf"
+}
+
+here we have taken the full path, and using the pipe (|) into the Jinja2 basename filter, we can extract 
+just the file name.

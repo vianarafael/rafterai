@@ -1,0 +1,5 @@
+Next, we will show how to add LDAP authentication to web services. 
+Lastly, we will show how a web-based application can use LDAP for its authentication services as well.
+
+Single Sign-On: Centralized Linux Authentication
+We are now going to show you how to centralize your user accounts on your Linux hosts.

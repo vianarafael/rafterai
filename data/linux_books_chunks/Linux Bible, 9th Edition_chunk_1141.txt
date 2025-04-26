@@ -1,0 +1,2 @@
+Shell scripts are capable of handling everything from simple 
+ one-line commands to something as complex as starting up your Linux system.

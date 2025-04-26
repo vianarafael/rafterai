@@ -1,0 +1,15 @@
+The async_abor_enable=YES setting ensures that some FTP clients that might hang 
+when aborting a transfer will not hang.
+
+The following settings have an impact on performance:
+
+# Performance
+one_process_model=YES
+idle_session_timeout=120
+data_connection_timeout=300
+accept_timeout=60
+connect_timeout=60
+anon_max_rate=50000
+
+With one_process_model=YES set, performance can improve because vsftpd launches 
+one process per connection.

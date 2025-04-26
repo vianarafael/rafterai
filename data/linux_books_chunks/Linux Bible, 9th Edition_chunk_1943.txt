@@ -1,0 +1,9 @@
+Red Hat 
+Enterprise Linux includes features that enable you to authenticate users from LDAP 
+servers or Microsoft Active Directories servers.
+
+11
+
+The following sections describe how to use features such as Access Control Lists (ACLs) 
+and shared directories (sticky bit and set GID bit directories) to provide powerful ways to 
+selectively share ﬁ les and directories.

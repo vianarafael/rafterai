@@ -1,0 +1,10 @@
+The rest of the permissions have no influence on your
+access to the file.
+
+49
+
+standard file permissions
+
+6.3.3. permission examples
+
+Some example combinations on files and directories are seen in this screenshot.

@@ -1,0 +1,3 @@
+To prevent this from happening, the 
+allow_user_exec_content policy rule needs to be turned off. The example that follows 
+shows the setsebool command being used to do just that.

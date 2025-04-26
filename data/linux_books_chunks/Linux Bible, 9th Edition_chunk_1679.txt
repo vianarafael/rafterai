@@ -1,0 +1,4 @@
+If you want to use this exercise only to prac-
+tice partitioning, you can reboot your computer before clicking Accept Changes at the very end of this procedure 
+without harming your hard disk. If you go forward and partition your disk, assume that all data that you have not 
+explicitly changed has been deleted.

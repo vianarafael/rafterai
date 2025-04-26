@@ -1,0 +1,6 @@
+When an access request comes into your LDAP host, the access 
+
+control list is parsed, and if a match is found, access is either granted or denied. You can speed your access 
+requests by putting your access control list in order of most requested access to least. You want all those 
+common requests to be toward the top of your access control list and the less common requests closer to the 
+bottom.

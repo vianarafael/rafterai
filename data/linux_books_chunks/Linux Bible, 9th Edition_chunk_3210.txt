@@ -1,0 +1,17 @@
+Or, if you have multiple SSL hosts, you 
+might want to create a separate entry (possibly in a separate .conf ﬁ le) that looks 
+like the following:
+
+Listen 192.168.0.56:443
+<VirtualHost *:443>
+    ServerName      secure.example.org
+    ServerAlias     web.example.org
+    DocumentRoot    /home/username/public_html/
+    DirectoryIndex  index.php index.html index.htm
+    SSLEngine       On
+    SSLCertificateKeyFile /etc/pki/tls/private/server.key
+    SSLCertificateFile /etc/pki/tls/certs/example.org.crt
+</VirtualHost>
+
+The IP address shown in the Listen directive should be replaced by the public IP address 
+representing the SSL host you are serving.

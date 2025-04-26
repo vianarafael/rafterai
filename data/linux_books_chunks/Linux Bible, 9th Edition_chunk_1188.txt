@@ -1,0 +1,22 @@
+In the following example, if 
+STRING is not Monday, then "At least it's not Monday" is echoed.
+
+STRING="FRIDAY"
+if [ "$STRING" != "Monday" ] ; then
+   echo "At least it's not Monday"
+fi
+
+In the following example, elif (which stands for “else if”) is used to test for an additional 
+condition (for example, whether filename is a ﬁ le or a directory).
+
+filename="$HOME"
+if [ -f "$filename" ] ; then
+   echo "$filename is a regular file"
+elif [ -d "$filename" ] ; then
+   echo "$filename is a directory"
+else
+   echo "I have no idea what $filename is"
+fi
+
+As you can see from the preceding examples, the condition you are testing is placed 
+between square brackets [ ].

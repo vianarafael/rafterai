@@ -1,0 +1,2 @@
+Once dealt with by any rule set in that chain, the 
+packets will leave the host if they are allowed or be dropped (DROP) if they are not.

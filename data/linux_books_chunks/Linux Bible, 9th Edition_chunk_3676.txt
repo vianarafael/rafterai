@@ -1,0 +1,4 @@
+(This is the default behavior.)
+
+ ■ soft—If the NFS server disconnects or goes down, a process trying to access data 
+from the server times out after a set period when this option is on.

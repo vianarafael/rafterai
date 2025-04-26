@@ -1,0 +1,12 @@
+For example, 
+an HP printer on a computer named maple could be named hp-maple.
+
+ ■ Description—Add a few words describing the printer, such as its features 
+
+(for example, an HP LaserJet 2100M with PCL and PS support).
+
+ ■ Location—Add some words that describe the printer’s location (for example, 
+
+“In Room 205 under the coffeepot”).
+
+7.

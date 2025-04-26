@@ -1,0 +1,9 @@
+When these 
+plug-ins are run for a host, Nagios interprets and converts these statuses into the appropriate UP and DOWN 
+statuses, as you can see in Table 18-5.
+
+887
+
+Chapter 18 ■ Logging and Monitoring
+
+Table 18-5.

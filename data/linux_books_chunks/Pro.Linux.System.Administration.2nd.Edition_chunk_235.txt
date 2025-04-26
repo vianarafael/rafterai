@@ -1,0 +1,6 @@
+You can divide your disks into partitions of differing sizes depending on the 
+requirements of your host. Again, as in the CentOS installation, you are prompted to either select one of 
+several default partitioning options or customize your own using the partitioning tool.
+
+•	 Guided—use entire disk: This option asks you to select a hard disk, which will be 
+completely erased.

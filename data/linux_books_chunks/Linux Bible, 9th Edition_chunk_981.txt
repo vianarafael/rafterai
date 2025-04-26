@@ -1,0 +1,26 @@
+To make the search 
+
+5
+
+127
+
+c05.indd  04/01/2015  Page 128
+
+Part II: Becoming a Linux Power User
+
+more ﬂ exible, you can use ﬁ le-matching characters, such as asterisks (*) and question 
+marks (?), as in the following examples:
+
+# find /etc -name passwd
+/etc/pam.d/passwd
+/etc/passwd
+# find /etc -iname '*passwd*'
+/etc/pam.d/passwd
+/etc/passwd-
+/etc/passwd.OLD
+/etc/passwd
+/etc/MYPASSWD
+/etc/security/opasswd
+
+Using the -name option and no asterisks, the ﬁ rst example above lists any ﬁ les in the 
+/etc directory that are named passwd exactly.

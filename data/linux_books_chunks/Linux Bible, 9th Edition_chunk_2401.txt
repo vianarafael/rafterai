@@ -1,0 +1,9 @@
+Then make your additions to 
+/etc/logwatch/conf/logwatch.conf as mentioned.
+
+When the service is enabled (which it is just by installing the logwatch package), you will 
+see a message each night in the root user’s mailbox. When you are logged in as root, you 
+can use the old mail command to view the root user’s mailbox:
+
+# mail
+Heirloom Mail version 12.5 7/5/10.

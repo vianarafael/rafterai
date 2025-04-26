@@ -1,0 +1,9 @@
+Again, check the 
+RHCE exam objectives site for the most up-to-date information on topics you should study 
+for the exam.
+
+System configuration and management
+The system conﬁ guration and management requirement for the RHCE exam covers a range 
+of topics, including the following:
+
+ ■ Bonding—Set up bonding to aggregate network links.

@@ -1,0 +1,13 @@
+to 5 p.m., rather than 24 hours every day of the 
+
+week as specified by our 24x7 check period.
+
+The next attribute in Listing 18-17, notification_interval, configures how often Nagios will resend 
+
+notifications if the status of the host doesn’t change; here it’s every 120 minutes, or 2 hours.
+
+888
+
+Chapter 18 ■ Logging and Monitoring
+
+The notification_options attribute specifies when Nagios should send a notification.

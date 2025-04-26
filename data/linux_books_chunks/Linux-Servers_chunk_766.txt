@@ -1,0 +1,16 @@
+First
+we need to add the relevant section in smb.conf.
+
+[Profiles]
+ comment = User Profiles
+ path = /srv/samba/profiles
+ readonly = No
+ profile acls = Yes
+
+Besides the share section, we also need to set the location of the profiles share (this can be
+another Samba server) in the global section.
+
+logon path = \\%L\Profiles\%U
+
+The  %L  variable  is  the  name  of  this  Samba  server,  the  %U  variable  translates  to  the
+username.

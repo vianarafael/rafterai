@@ -1,0 +1,4 @@
+It is  important 
+to remember, however, that those log messages are not, by default, encrypted (though 
+encryption can be enabled). Anyone tapping into your local network can eavesdrop on 
+those messages as they pass from one machine to another.

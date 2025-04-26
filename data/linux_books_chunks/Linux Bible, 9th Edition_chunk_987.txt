@@ -1,0 +1,6 @@
+You can see ﬁ les 
+owned by other users in the sample output.
+
+Finding files by permission
+Searching for ﬁ les by permission is an excellent way to turn up security issues on your 
+system or uncover access issues.

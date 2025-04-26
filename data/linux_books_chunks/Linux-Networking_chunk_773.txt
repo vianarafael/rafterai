@@ -1,0 +1,12 @@
+introduction to samba
+
+This introduction to the Samba server simply explains how to install Samba 3 and briefly
+mentions the SMB protocol.
+
+194
+
+introduction to samba
+
+15.1. verify installed version
+
+15.1.1.

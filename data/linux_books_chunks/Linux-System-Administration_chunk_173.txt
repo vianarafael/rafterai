@@ -1,0 +1,17 @@
+These pipes can be created with the
+mkfifo command.
+
+The screenshots shows the creation of four distinct pipes (in a new directory).
+
+paul@ubuntu910:~$ mkdir procs
+paul@ubuntu910:~$ cd procs/
+paul@ubuntu910:~/procs$ mkfifo pipe33a pipe33b pipe42a pipe42b
+paul@ubuntu910:~/procs$ ls -l
+total 0
+prw-r--r-- 1 paul paul 0 2010-04-12 13:21 pipe33a
+prw-r--r-- 1 paul paul 0 2010-04-12 13:21 pipe33b
+prw-r--r-- 1 paul paul 0 2010-04-12 13:21 pipe42a
+prw-r--r-- 1 paul paul 0 2010-04-12 13:21 pipe42b
+paul@ubuntu910:~/procs$
+
+2.1.3.

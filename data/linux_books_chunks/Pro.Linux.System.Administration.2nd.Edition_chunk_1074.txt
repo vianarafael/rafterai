@@ -1,0 +1,3 @@
+If there is a $GRUB2_PASSWORD variable declared, then we will add root to the superusers list and this locks 
+out other users to the GRUB2 command line. Then, finally, password_pbkdf2 is a GRUB2 command that 
+associates the user with a password.

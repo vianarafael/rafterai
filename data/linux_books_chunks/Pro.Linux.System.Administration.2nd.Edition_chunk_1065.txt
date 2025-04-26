@@ -1,0 +1,4 @@
+however, this is also 
+where having supported distributions like rheL (red hat enterprise Linux), Oracle Linux, the Canonical 
+enterprise Support, and others can be of enormous benefit. if you need urgent patches to the kernel, 
+they will often update and release kernel patches for problems you have reported.

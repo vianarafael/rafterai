@@ -1,0 +1,6 @@
+# gif2webp
+
+
+- Convert a GIF image to WebP:
+
+`gif2webp {{path/to/image.gif}} -o {{path/to/image.webp}}`

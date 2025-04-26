@@ -1,0 +1,16 @@
+display the runlevel
+
+You can see your current runlevel with the runlevel or who -r commands.
+
+The runlevel command is typical Linux and will output the previous and the current runlevel.
+If there was no previous runlevel, then it will mark it with the letter N.
+
+[root@RHEL4b ~]# runlevel 
+N 3
+
+The history of who -r dates back to Seventies Unix, it still works on Linux.
+
+[root@RHEL4b ~]# who -r
+         run-level 3  Jul 28 09:15                   last=S
+
+15.7.2.

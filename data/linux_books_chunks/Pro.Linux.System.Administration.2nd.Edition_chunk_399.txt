@@ -1,0 +1,26 @@
+This also makes it easier to share your development environments with 
+others.
+
+In recapping we have shown the following:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+how to install VirtualBox
+
+how to create a virtual host
+
+how to install Git (on Windows)
+
+how to install Vagrant
+
+how to bring up a virtual host using Vagrant and VirtualBox
+
+In the next chapter we are going to show you around a Linux host.

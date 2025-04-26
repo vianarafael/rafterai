@@ -1,0 +1,5 @@
+After chris is connected to the share, chris has read and write access 
+to it (read only = no).
+
+Now that you have seen default settings for Samba and an example of a simple shared 
+directory (folder), read the next few sections to see how to further conﬁ gure shares.

@@ -1,0 +1,25 @@
+Go to http://www.internic.net
+for detailed information.
+
+   Domain Name: GOOGLE.COM
+   Registrar: MARKMONITOR INC.
+   Sponsoring Registrar IANA ID: 292
+   Whois Server: whois.markmonitor.com
+   Referral URL: http://www.markmonitor.com
+   Name Server: NS1.GOOGLE.COM
+   Name Server: NS2.GOOGLE.COM
+   Name Server: NS3.GOOGLE.COM
+   Name Server: NS4.GOOGLE.COM
+   Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Updated Date: 20-jul-2011
+   Creation Date: 15-sep-1997
+   Expiration Date: 14-sep-2020
+
+>>> Last update of whois database: Sat, 25 Jun 2016 12:34:50 GMT <<<
+
+We issue the whois command and we specify that we are looking only for the domain google.com.

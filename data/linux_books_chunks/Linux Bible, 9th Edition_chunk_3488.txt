@@ -1,0 +1,11 @@
+That is why, when 
+you want to type a Samba address that includes two backslashes, you have to actually enter four backslashes.
+
+515
+
+c19.indd  04/01/2015  Page 516
+
+Part IV: Becoming a Linux Server Administrator
+
+When prompted, enter the Samba password for that user (it may be different from the 
+Linux user’s password).

@@ -1,0 +1,4 @@
+Instead of building out another 
+server for this, you can download a Vagrant box with a fully configured memcached service created by 
+somebody else in your team or a publicly available box from the online Vagrant box repository. From a 
+development point view, this makes for much faster prototyping and building.

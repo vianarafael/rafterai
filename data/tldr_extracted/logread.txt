@@ -1,0 +1,22 @@
+# logread
+
+
+- Print the log:
+
+`logread`
+
+- Print `n` messages:
+
+`logread -l {{n}}`
+
+- Filter messages by (Keyword/Regular Expression):
+
+`logread -e {{pattern}}`
+
+- Print log messages as they happen:
+
+`logread -f`
+
+- Display help:
+
+`logread -h`

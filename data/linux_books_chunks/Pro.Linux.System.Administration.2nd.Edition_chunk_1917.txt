@@ -1,0 +1,11 @@
+Let’s start it up and have a look.
+
+$ aptitude
+
+After processing the package lists, aptitude presents its main window, as shown in Figure 8-14.
+
+Figure 8-14.  The main aptitude screen
+
+The main screen consists of a menu bar, a command list, a window list, status information, the package 
+
+list window, and an information window. Your cursor will first appear in the package list window.

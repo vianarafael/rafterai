@@ -1,0 +1,7 @@
+Browsers accessing the Web don’t know they’re using a cache, and you don’t need 
+to explicitly configure any web browsers to use it.
+
+ if you want to use authentication with your proxy services, you will not be able to use transparent 
+
+ ■ Note 
+proxying.

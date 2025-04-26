@@ -1,0 +1,5 @@
+If you want to keep SELinux in Enforcing mode, yet still allow Linux logins, you can change a Boolean 
+(see the “Confi guring SELinux for your FTP server” section) to allow regular user logins to succeed.
+
+After the authentication phase (on the control port, TCP port 21), a second connection is 
+made between the client and server. FTP supports both active and passive connection types.

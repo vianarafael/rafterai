@@ -1,0 +1,5 @@
+A Lightweight Directory Access 
+Protocol (LDAP) directory is an example of this type of service. LDAP directories are special databases that 
+usually contain usernames, passwords, common names, e-mail addresses, business addresses, and other 
+attributes. Organizations first used directory services to facilitate the distribution of address books and user 
+information.

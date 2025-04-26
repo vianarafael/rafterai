@@ -1,0 +1,4 @@
+You can use the commands to move around the FTP server, and then 
+use the get and put commands to download and upload ﬁ les.
+
+The following example shows how to use commands as just described.

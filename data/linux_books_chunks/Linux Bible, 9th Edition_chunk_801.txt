@@ -1,0 +1,21 @@
+Here are a few other 
+ interesting cd command options:
+
+$ cd ~
+$ pwd
+/home/chris
+$ cd ~/Music
+
+100
+
+c04.indd  04/01/2015  Page 101
+
+Chapter 4: Moving around the Filesystem
+
+$ pwd
+/home/chris/Music
+$ cd ../../../usr
+$ pwd
+/usr
+
+The tilde (~) represents your home directory. So cd ~ takes you there.

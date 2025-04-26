@@ -1,0 +1,5 @@
+We introduced users 
+and the collections of users called groups in Chapter 4, and you discovered they are much like the users and 
+groups that exist on the Microsoft Windows platform.
+
+You can organize users and groups on your host in two ways.

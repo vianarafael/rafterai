@@ -1,0 +1,11 @@
+Let’s use a 
+
+single line from Listing 5-14 to examine them in more detail.
+
+auth         sufficient    pam_unix.so nullok try_first_pass
+
+171
+
+Chapter 5 ■ Users and GroUps
+
+The first directive in our line is auth, which is the management group we’re configuring.

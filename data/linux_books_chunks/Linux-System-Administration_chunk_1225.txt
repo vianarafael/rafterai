@@ -1,0 +1,14 @@
+modprobe -r
+
+Contrary to rmmod, modprobe will automatically remove unneeded modules.
+
+[root@RHELv4u3 ~]# modprobe isdn
+[root@RHELv4u3 ~]# lsmod | grep isdn
+isdn                  133537  0 
+slhc                    7233  1 isdn
+[root@RHELv4u3 ~]# modprobe -r isdn
+[root@RHELv4u3 ~]# lsmod | grep isdn
+[root@RHELv4u3 ~]# lsmod | grep slhc
+[root@RHELv4u3 ~]#
+
+28.4.14.

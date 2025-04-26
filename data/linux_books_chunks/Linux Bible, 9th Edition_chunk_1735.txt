@@ -1,0 +1,6 @@
+Its major contribution was to stop thinking about RPM 
+packages as individual components and think of them as parts of larger software repositories.
+
+With repositories, the problem of dealing with dependencies fell not to the person who 
+installed the software, but to the Linux distribution or third-party software distributor 
+that makes the software available.

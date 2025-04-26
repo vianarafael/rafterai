@@ -1,0 +1,6 @@
+The enforcing mode will
+enforce policies, and may deny access based on selinux rules. The permissive mode will not
+enforce policies, but can still log actions that would have been denied in enforcing mode.
+The disabled mode disables selinux.
+
+19.2.

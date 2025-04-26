@@ -1,0 +1,30 @@
+Other useful sites include
+
+•	
+
+•	
+
+ServerFault: http://serverfault.com
+
+AskUbuntu: http://askubuntu.com
+
+•	 Unix & Linux: unix.stackexchange.com
+
+•	
+
+Linux Forums: www.linuxforums.org/forum
+
+9
+
+ChApTeR 1 ■ InTRoDuCIng LInux
+
+Summary
+In this chapter, we’ve introduced you to some varieties of Linux, including the two distributions this book 
+focuses on:
+
+•	 CentOS
+
+•	 Ubuntu
+
+We’ve also discussed some of the reasons to choose a particular distribution, how to choose some 
+appropriate hardware, and where to get some basic support for your choice of distribution.

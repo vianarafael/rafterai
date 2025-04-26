@@ -1,0 +1,2 @@
+For that reason, 
+Samba doesn’t require the NetBEUI (Microsoft Raw NetBIOS frame) protocol.

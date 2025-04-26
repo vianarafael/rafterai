@@ -1,0 +1,5 @@
+Ubuntu currently is supporting all 
+three init types while it is transitioning to run Systemd natively.
+
+Both distributions have the systemd-sysv package installed and that contains the compatibility utilities 
+for running SysVInit style initd scripts.

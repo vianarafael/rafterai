@@ -1,0 +1,7 @@
+So any data the CPU 
+needs, it can just grab immediately if the data is in RAM.
+
+ ■ Faster—Its proximity to the CPU and the way it is accessed (solid state versus 
+
+ optical) makes it much faster for the CPU to get information from RAM than it can 
+from a hard disk.

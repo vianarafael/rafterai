@@ -1,0 +1,4 @@
+The –E says use the Nagios 
+user’s environment. This is important because this command will write the host key to the Nagios user’s ~/.
+ssh/known_hosts file. We now configure Nagios to use this connection to check services. The check_by_ssh 
+plug-in also relies on having the command to be executed installed on the remote host.

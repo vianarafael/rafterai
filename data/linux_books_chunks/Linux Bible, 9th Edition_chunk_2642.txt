@@ -1,0 +1,9 @@
+Create a custom route that directs trafﬁ c destined for the 
+
+192.168.99.0/255.255.255.0 network to some IP address on your local network, such 
+as 192.168.0.5 (ﬁ rst ensuring that the 10.0.99 network is not being used at your 
+location).
+
+10.  Check to see if your system has been conﬁ gured to allow IPv4 packets to be routed 
+
+between network interfaces on your system.

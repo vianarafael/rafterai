@@ -1,0 +1,6 @@
+In this case, the ARP table may 
+need to be flushed, and the host with the incorrect IP address will need to be taken offline.
+
+Layer 3 is the network layer. It is able to discover the routes to your destination and send your data, 
+
+checking for errors as it does so. This is the IP layer, so it can also be responsible for IPsec tunnelling.

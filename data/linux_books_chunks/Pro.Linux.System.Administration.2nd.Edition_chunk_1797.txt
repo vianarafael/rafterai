@@ -1,0 +1,8 @@
+You 
+should now be able to check your interface to make it work properly; if not, go back 
+to Chapter 7 and look that the ip command again.
+
+There is a problem with the package and it cannot be installed. CentOS forums can 
+usually help confirm this.
+
+There is a problem with the repository the package is installed from.

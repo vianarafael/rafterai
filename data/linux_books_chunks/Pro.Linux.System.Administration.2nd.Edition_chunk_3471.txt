@@ -1,0 +1,30 @@
+This will increase your logging levels and give you great insight into what spamd is doing.
+
+Remember that if you submit a question or a bug, you should include the following information:
+
+Your SpamAssassin and Perl version (run the spamassassin command with the 
+--version option)
+
+Your platform (run uname -a)
+
+Any log messages generated (either in the /var/log/mail.log file on Ubuntu or in 
+the /var/log/maillog file on CentOS)
+
+•	
+
+•	
+
+•	
+
+570
+
+Also available is an IRC channel called #spamassassin on the Freenode IRC server (http://freenode.
+
+Chapter 12 ■ Mail ServiCeS
+
+net/) where you can seek assistance.
+
+What to Do with the Spam?
+
+If we have e-mail identified as spam by SpamAssassin, we alter the Subject line by adding “[SPAM]” to it, but 
+that is all.

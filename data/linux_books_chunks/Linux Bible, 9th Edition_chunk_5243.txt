@@ -1,0 +1,25 @@
+Then set 
+the password for jbaxter to: My1N1te0ut!
+
+# useradd -c "John Baxter" -s /bin/sh jbaxter
+# grep jbaxter /etc/passwd
+jbaxter:x:1001:1001:John Baxter:/home/jbaxter:/bin/sh
+# passwd jbaxter
+
+798
+
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 799
+
+Appendix B: Exercise Answers
+
+Changing password for user jbaxter
+New password: My1N1te0ut!
+Retype new password: My1N1te0ut!
+passwd: all authentication tokens updated successfully
+
+2.

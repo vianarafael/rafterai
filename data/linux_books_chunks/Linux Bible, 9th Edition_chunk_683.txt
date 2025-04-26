@@ -1,0 +1,8 @@
+To see how the document really appeared, they would use a command 
+such as the following:
+
+$ gunzip < /usr/share/man/man1/grep.1.gz | nroff -c -man | less
+
+In this example, the contents of the grep man page (grep.1.gz) are directed to the 
+ gunzip command to be unzipped. The output from gunzip is piped to the nroff com-
+mand to format the man page using the manual macro (-man).

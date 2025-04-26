@@ -1,0 +1,46 @@
+Schilling').
+scsibus0:
+
+�
+
+49
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+        0,0,0     0) 'PHILIPS ' 'CDRW48A         ' 'P1.3' Removable CD-ROM
+        0,1,0     1) *
+        0,2,0     2) *
+        0,3,0     3) *
+        0,4,0     4) *
+        0,5,0     5) *
+        0,6,0     6) *
+        0,7,0     7) *
+
+Burning an IsoImage
+
+The cdrecord tool can record either data or sound files.
+
+cdrecord  [  general  options  ] dev=device   [   track   options   ] track1...trackn
+
+The Device
+
+From the output of the cdrecord -scanbus we will use the device dev=0,0,0 for our 
+examples.
+
+Main general options
+speed
+
+specify the speed of the CD burner, e.g speed=8
+
+-eject
+
+-multi
+session 
+
+eject the CD when the recording is done
+
+start multi session recording.

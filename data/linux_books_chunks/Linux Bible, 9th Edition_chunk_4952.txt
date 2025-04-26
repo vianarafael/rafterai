@@ -1,0 +1,8 @@
+It then helps you learn about some 
+of those basic technologies by setting up a couple of hypervisors and launching virtual 
+machines.
+
+Exercises
+The exercises in this section describe tasks related to setting up a hypervisor (KVM host 
+computer) and using it to run virtual machines. If you are stuck, solutions to the tasks are 
+shown in Appendix B.

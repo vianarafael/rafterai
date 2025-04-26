@@ -1,0 +1,3 @@
+NetworkManager is a 
+daemon process that manages the network connections and services. It is installed on Ubuntu as part of the 
+Unity desktop or you can install it on its own.

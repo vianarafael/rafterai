@@ -1,0 +1,3 @@
+virtual hosts example
+
+Below is a sample virtual host configuration.

@@ -1,0 +1,4 @@
+The admin@example.com address is aliased 
+
+to ataylor, and admin@example.net will be sent to bsingh. The address can be local Linux addresses or 
+remote addresses, like you can see in the sales@example.net address.

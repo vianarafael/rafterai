@@ -1,0 +1,5 @@
+When the map file /etc/auto.master is changed it is necessary to restart autofs. For 
+example if mount points have been deleted, then the associated automount daemon is 
+terminated. Likewise,  new daemons are started for newly defined mount points.
+
+Multiple filesystems can be mounted on a single mount point.

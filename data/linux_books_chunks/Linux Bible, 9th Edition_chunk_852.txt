@@ -1,0 +1,9 @@
+The -t option displays ﬁ les in the order in which they were most recently modiﬁ ed. With 
+the -F option, a backslash (/) appears at the end of directory names, an asterisk (*) is 
+added to executable ﬁ les, and an at sign (@) is shown next to symbolic links.
+
+To show hidden and non-hidden ﬁ les:
+
+$ ls -a
+. apple   docs  grapefruit pointer_to_apple .stuff  watermelon
+..

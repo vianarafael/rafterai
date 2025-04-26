@@ -1,0 +1,7 @@
+Likewise, systemd supports System V init scripts 
+and commands such as chkconfig and service for manipulating those services.
+
+ ■ Dependency-based start-up—When the system starts up, any service in the 
+
+default target (graphical.target for desktops and multi-user.target for 
+most servers) that has had its dependencies met can start.

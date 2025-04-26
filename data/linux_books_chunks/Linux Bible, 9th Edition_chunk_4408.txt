@@ -1,0 +1,3 @@
+However, many of these ﬁ les are symbolically linked 
+(see Chapter 4, “Moving around the Filesystem”). Therefore, these conﬁ guration ﬁ les 
+require a few extra steps when changes are made to them.

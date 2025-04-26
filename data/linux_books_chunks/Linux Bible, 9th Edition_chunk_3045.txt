@@ -1,0 +1,6 @@
+A variety of 
+drivers makes it possible to print to different kinds of printers, as well as to printers that 
+are connected to computers on the network.
+
+You can set up your computer as a Linux print server, and you can also have your computer 
+emulate an SMB (Windows) print server.

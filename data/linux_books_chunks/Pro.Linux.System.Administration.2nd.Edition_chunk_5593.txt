@@ -1,0 +1,6 @@
+The results of any activity are logged and transmitted to the master.
+At the heart of how Puppet works is a language that allows you to articulate and express your 
+
+configuration. This is called the Puppet Declarative Scripting Language (Puppet DSL). Your configuration 
+components are organized into entities called resources, which in turn can be grouped together in 
+collections.

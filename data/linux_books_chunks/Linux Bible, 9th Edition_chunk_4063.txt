@@ -1,0 +1,6 @@
+The expiration 
+date is a safeguard, in case you forget to remove their accounts when they no longer need 
+access to your organization’s systems.
+
+To set a user account with an expiration date, use the usermod command. The format is 
+usermod -e yyyy-mm-dd user _name.

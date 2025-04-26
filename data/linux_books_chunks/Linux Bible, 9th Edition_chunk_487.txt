@@ -1,0 +1,8 @@
+Then use the up and down arrow keys to select from the 
+ current menu, or use the right and left arrow keys to select from other menus.
+
+ ■ Print Screen—Press the Print Screen key to take a picture of the entire desktop. 
+
+Press Alt+Print Screen to take a picture of the current window.
+
+Another Metacity feature of interest is the workspace switcher.

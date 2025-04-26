@@ -1,0 +1,7 @@
+Maybe you have a system that was 
+working ﬁ ne, but begins to slow down to a point where it is practically unusable. Maybe 
+applications begin to just crash for no apparent reason. Finding and ﬁ xing the problem may 
+take some detective work.
+
+Linux comes with many tools for watching activities on your system and ﬁ guring out what 
+is happening.

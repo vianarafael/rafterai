@@ -1,0 +1,5 @@
+We will listen on the ports 2013 (line-delimited metrics) and 
+
+2014 (pickle format). With a carbon-relay we need to provide a destination (or destinations) for our metrics. 
+If using RELAY_METHOD rules, like we are, then you need to specify each carbon-cache you have listed in your 
+relay-rules.conf file.

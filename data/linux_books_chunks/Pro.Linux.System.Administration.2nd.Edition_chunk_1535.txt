@@ -1,0 +1,11 @@
+We give the command the IP address of the host, 192.168.0.2, 
+which is the router on our network for the destination network.
+
+Now that Host D has the pathway to get to the 192.168.10.0/24 network, we should be able to ping Host 
+
+F, right?
+
+$ ping 192.168.10.100
+PING 192.168.10.100 (192.168.10.100) 56(84) bytes of data.
+
+It appears packets are not being returned, we see no output from that command.

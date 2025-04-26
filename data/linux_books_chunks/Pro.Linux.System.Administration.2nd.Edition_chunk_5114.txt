@@ -1,0 +1,9 @@
+This assumes the rsyslog daemon on the remote 
+
+host has been configured to receive logs and that you have suitable firewall rules in place to receive the log 
+entries. Here’s an example:
+
+$ sudo firewall-cmd --permanent --zone public --add-port=514/udp
+
+Here we’ve created a firewall rule that allows the host to receive rsyslog data from the host 
+192.168.0.254 on UDP port 514.

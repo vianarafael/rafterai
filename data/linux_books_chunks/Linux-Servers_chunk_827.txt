@@ -1,0 +1,20 @@
+chcon
+
+Use chcon to change the selinux security context.
+
+This example shows how to use chcon to change the type of a file.
+
+[root@rhel55 ~]# ls -Z /var/www/html/test42.txt 
+-rw-r--r--  root root user_u:object_r:httpd_sys_content_t /var/www/html/test4\
+2.txt
+[root@rhel55 ~]# chcon -t samba_share_t /var/www/html/test42.txt 
+[root@rhel55 ~]# ls -Z /var/www/html/test42.txt 
+-rw-r--r--  root root user_u:object_r:samba_share_t    /var/www/html/test42.txt
+
+Be sure to read man chcon.
+
+217
+
+introduction to SELinux
+
+19.21.

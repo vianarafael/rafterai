@@ -1,0 +1,16 @@
+Will restarting Samba after a change to smb.conf speed up the change ?
+
+yes
+
+211
+
+getting started with samba
+
+12. Which computer is the master browser master in your workgroup ? What is the master
+browser ?
+
+The computer that won the elections.
+
+This machine will make the list of computers in the network
+
+13.

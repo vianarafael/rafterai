@@ -1,0 +1,4 @@
+It could be a DHCP, DNS, file, mail, and web 
+server all rolled into one. Those familiar with Microsoft products would regard this as similar to a product 
+like Windows Small Business Server. But as that business grows, it will probably begin to move some of 
+these combined functions to its own hosts.

@@ -1,0 +1,21 @@
+A unit is a group consisting of a name, type, and conﬁ guration ﬁ le and is focused 
+on a  particular service or action. There are eight systemd unit types:
+
+ ■ automount
+
+ ■ device
+
+ ■ mount
+
+ ■ path
+
+ ■ service
+
+ ■ snapshot
+
+ ■ socket
+
+ ■ target
+
+The two primary systemd units you need to be concerned with for dealing with services 
+are service units and target units.

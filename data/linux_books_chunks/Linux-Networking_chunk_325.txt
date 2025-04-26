@@ -1,0 +1,22 @@
+/etc/exports
+
+Here is a sample /etc/exports to explain the syntax:
+
+paul@laika:~$ cat /etc/exports 
+# Everyone can read this share
+/mnt/data/iso  *(ro)
+
+# Only the computers named pasha and barry can readwrite this one
+/var/www pasha(rw) barry(rw)
+
+# same, but without root squashing for barry
+/var/ftp pasha(rw) barry(rw,no_root_squash)
+
+# everyone from the netsec.local domain gets access
+/var/backup       *.netsec.local(rw)
+
+# ro for one network, rw for the other
+/var/upload   192.168.1.0/24(ro) 192.168.5.0/24(rw)
+
+More recent incarnations of nfs require the subtree_check option to be explicitly set (or
+unset with no_subtree_check).

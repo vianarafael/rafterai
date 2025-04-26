@@ -1,0 +1,3 @@
+To run Fedora from that drive, insert it into a USB 
+port on your computer, reboot the computer, interrupt the BIOS as it is boot-
+ing (possibly F12), and select to boot from a USB drive.

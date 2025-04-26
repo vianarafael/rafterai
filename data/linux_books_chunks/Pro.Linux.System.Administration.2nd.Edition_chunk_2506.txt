@@ -1,0 +1,9 @@
+A more flexible utility is dig, which is also 
+provided by the bind-utils or dnsutils package.
+
+At its most basic level, dig also does name- or address-based lookups, but it provides additional 
+
+information with each lookup. Let’s do the same lookup we did in Listing 10-8, but use dig instead  
+(see Listing 10-9).
+
+Listing 10-9.

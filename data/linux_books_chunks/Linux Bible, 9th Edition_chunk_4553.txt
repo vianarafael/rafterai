@@ -1,0 +1,7 @@
+It is 
+critical to understand these policy types in order to select the correct one for your particu-
+lar security requirements.
+
+Targeted policy
+The Targeted policy’s primary purpose is to restrict “targeted” daemons. However, it can 
+also restrict other processes and users. Targeted daemons are sandboxed.

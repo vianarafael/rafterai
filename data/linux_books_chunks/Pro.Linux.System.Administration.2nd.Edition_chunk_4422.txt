@@ -1,0 +1,26 @@
+There you can find documentation, including a comprehensive HOWTO page:
+
+http://openvpn.net/index.php/documentation/howto.html
+
+and a FAQ page:
+
+http://openvpn.net/index.php/documentation/faq.html
+
+You can find OpenVPN’s man page here:
+
+https://openvpn.net/index.php/open-source/documentation/manuals.html
+
+Also available is a mailing list you can join here:
+
+http://openvpn.net/index.php/documentation/miscellaneous/mailing-lists.html.
+
+For more complex implementations, the OpenVPN developers provide commercial support, or you 
+can turn to the book OpenVPN: Building and Integrating Virtual Private Networks by Markus Feilner (Packt 
+Publishing, 2006) for help.
+
+730
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Summary
+In this chapter, we took you through the process of configuring and managing VPN tunnels.

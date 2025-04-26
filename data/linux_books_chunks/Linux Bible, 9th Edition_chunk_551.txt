@@ -1,0 +1,67 @@
+Take a picture of your desktop, using only keys t rokes.
+
+61
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c03.indd  04/01/2015  Page 63
+
+ Part II
+
+Becoming a Linux 
+Power User
+
+IN THIS PART
+
+Chapter 3
+Using the Shell
+
+Chapter 4
+Moving around the Filesystem
+
+Chapter 5
+Working with Text Files
+
+Chapter 6
+Managing Running Processes
+
+Chapter 7
+Writing Simple Shell Scripts
+
+c03.indd  04/01/2015  Page 65
+
+C H A P T E R 
+
+3
+
+Using the Shell
+
+IN THIS CHAPTER
+
+Understanding the Linux shell
+
+Using the shell from consoles or terminals
+
+Using commands
+
+Using command history and tab completion
+
+Connecting and expanding commands
+
+Understanding variables and aliases
+
+Making shell settings permanent
+
+Using man pages and other documentation
+
+B efore icons and windows took over computer screens, you typed commands to interact with 
+
+most computers.

@@ -1,0 +1,7 @@
+AT&T, which owned the UNIX trademark 
+originally, eventually made UNIX into a commercial product, but by that time, many of 
+the concepts (and even much of the early code) that made UNIX special had fallen into the 
+ public domain.
+
+If you are not old enough to remember when AT&T split up in 1984, you may not remember 
+a time when AT&T was “the” phone company.

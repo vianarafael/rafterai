@@ -1,0 +1,6 @@
+Instead of a dash, you might see 
+a d (for a directory), l (for a symbolic link), b (for a block device), c (for a character device), s (for a socket), or p 
+(for a named pipe).
+
+Of the nine-bit permissions, the ﬁ rst three bits apply to the owner’s permission, the next 
+three apply to the group assigned to the ﬁ le, and the last three apply to all others.

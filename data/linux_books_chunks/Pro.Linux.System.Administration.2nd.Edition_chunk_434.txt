@@ -1,0 +1,10 @@
+For example, 
+
+ ■ Note 
+when you start a command prompt, or command-line shell, in Windows, you’ve started a Windows terminal 
+emulator.
+
+To launch a virtual console from inside a Gnome or KDE GUI, use the key combination Ctrl+Alt and 
+
+one of the F1 through F7 keys. Each of the windows that can be opened is a new virtual console. Six virtual 
+consoles are available.

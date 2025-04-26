@@ -1,0 +1,26 @@
+Edit /etc/mtab to add the following RAID 0 device:
+
+raiddev /dev/md1
+
+        raid-level 0
+        nr-raid-disks 3
+        nr-spare-disks 0
+        persistent-superblock 1
+        chunk-size 4
+        device /dev/hda19
+        raid-disk 0
+        device /dev/hda20
+
+45
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+        raid-disk 1
+        device /dev/hda21
+        raid-disk 2
+
+3.

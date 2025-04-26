@@ -1,0 +1,5 @@
+Unless we secure a particular application or 
+protocol (e.g., in the way we used SSL/TLS in Chapter 12 to protect our SMTP and IMAP services), then 
+an attacker could read our data from that network. Because of this potential security issue, across this 
+connection we’ve instantiated our second path between these hosts, the 10.8.0.0/24 network that we are 
+using for our VPN tunnels.

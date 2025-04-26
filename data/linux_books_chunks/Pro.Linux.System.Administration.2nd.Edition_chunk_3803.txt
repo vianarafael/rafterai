@@ -1,0 +1,9 @@
+The syntax looks like this:
+
+$ sudo gluster <subcommand> <options> <args...>
+
+The gluster help option is useful in describing the subcommands, options, and arguments to each 
+
+instruction. Table 13-2 lists some of the common subcommands you will use.
+
+Table 13-2.

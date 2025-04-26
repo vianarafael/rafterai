@@ -1,0 +1,14 @@
+What is the process id of your shell ?
+
+2973 in the screenshot above, probably different for you
+
+echo $$ should display same number as the one you found
+
+6. What is the parent process id of your shell ?
+
+2972 in the screenshot above, probably different for you
+
+in this example the PPID is from the su - command, but when inside gnome then for example
+gnome-terminal can be the parent process
+
+7.

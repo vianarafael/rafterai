@@ -1,0 +1,3 @@
+The initiating host then sends a packet, another SYN, ACK packet, 
+acknowledging that packet and telling the remote host it is going to begin sending data. When they have 
+finished communicating, the connection is closed with a FIN packet.

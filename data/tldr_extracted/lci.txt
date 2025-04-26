@@ -1,0 +1,14 @@
+# lci
+
+
+- Run a LOLCODE file:
+
+`lci {{path/to/file}}`
+
+- Display help:
+
+`lci -h`
+
+- Display version:
+
+`lci -v`

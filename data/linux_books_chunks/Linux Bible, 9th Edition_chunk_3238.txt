@@ -1,0 +1,4 @@
+A Boolean 
+might prevent a ﬁ le being served from a remotely mounted directory or prevent a page 
+from sending an e-mail or uploading a ﬁ le. Type man httpd_selinux for details 
+about SELinux conﬁ guration settings associated with the httpd services.

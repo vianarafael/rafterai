@@ -1,0 +1,2 @@
+You can get Ubuntu with a GNOME desktop, and its default dash shell is similar to 
+bash (or you can switch to bash in Ubuntu to match the shell examples in this book).

@@ -1,0 +1,12 @@
+However, if 
+you compare scp to the rsync command, you see that rsync (which also works over SSH 
+
+13
+
+329
+
+c13.indd  04/01/2015  Page 330
+
+Part IV: Becoming a Linux Server Administrator
+
+connections) is a better backup tool.

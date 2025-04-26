@@ -1,0 +1,25 @@
+Kernel Components
+
+Modules 
+
+Module Components in the Source Tree
+
+In the kernel source tree /usr/src/linux, the kernel components are stored in various 
+subdirectories:
+
+ Subdirectory
+ ./drivers
+./fs
+./net
+
+ Description
+ contains code for different types of hardware support  pcmcia
+ code for filesystem supported
+ code for network support
+
+ nfs
+ ipx
+
+ Example
+
+These components can be selected while configuring the kernel (see 2.

@@ -1,0 +1,7 @@
+Entering the root password
+
+ ■ Tip  You can read about the characteristics of a good password at http://en.wikipedia.org/wiki/
+Password_strength.
+
+It is optional to set up a user account on your host, but it is recommended you have one. In Ubuntu, 
+which we will see later on, you don’t get to access the root account directly.

@@ -1,0 +1,7 @@
+We’ll talk a bit 
+more about groups, membership, and GIDs in the sections that follow.
+
+Finally, two other options, INACTIVE and EXPIRE, control two different types of user account 
+
+expiration. The INACTIVE value controls how long in days after a user’s password expires that the user can 
+reset his password.

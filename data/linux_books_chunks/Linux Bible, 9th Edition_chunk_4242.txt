@@ -1,0 +1,6 @@
+A security review is an audit of current policies and procedures to ensure that they 
+follow accepted best security practices.
+
+Conducting compliance reviews
+Similar to audits in other ﬁ elds, such as accounting, audits can be conducted internally or 
+by external personnel.

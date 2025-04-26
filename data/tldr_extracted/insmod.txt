@@ -1,0 +1,6 @@
+# insmod
+
+
+- Insert a kernel module into the Linux kernel:
+
+`sudo insmod {{path/to/module.ko}}`

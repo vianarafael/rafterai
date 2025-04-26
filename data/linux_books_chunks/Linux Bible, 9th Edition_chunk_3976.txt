@@ -1,0 +1,7 @@
+Solutions can include:
+
+ ■ Adding capacity—Your computer may be trying to do what you ask of it, but 
+
+ failures might occur because you don’t have enough memory, processing power, disk 
+space, or network capacity to get reasonable performance. Even nearing the bound-
+aries of resource exhaustion can cause performance problems.

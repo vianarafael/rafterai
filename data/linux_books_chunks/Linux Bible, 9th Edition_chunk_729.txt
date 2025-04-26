@@ -1,0 +1,8 @@
+This is the best location to add aliases so that your shell picks them up.
+
+~/.bash_logout
+
+This executes each time you log out (exit the last bash shell). By default, 
+it simply clears your screen.
+
+To change the /etc/profile or /etc/bashrc ﬁ les, you must be the root user.

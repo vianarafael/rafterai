@@ -1,0 +1,11 @@
+One of the most commonly used loops is the for...do loop. It 
+iterates through a list of values, executing the body of the loop for each element in the list. 
+The syntax and a few examples are presented here:
+
+for VAR in LIST
+do
+    { body }
+done
+
+The for loop assigns the values in LIST to VAR one at a time. Then for each value, the 
+body in braces between do and done is executed.

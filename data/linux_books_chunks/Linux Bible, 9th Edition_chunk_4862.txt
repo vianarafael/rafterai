@@ -1,0 +1,4 @@
+Public cloud 
+providers that you can use to run Linux VMs include Amazon Web Services (www.amazon
+.com/aws), Google Cloud Platform (https://cloud.google.com), and Rackspace (www
+.rackspace.com).

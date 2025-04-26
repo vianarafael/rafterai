@@ -1,0 +1,6 @@
+Extensions to the High Sierra standard (called Rock Ridge extensions) 
+allow iso9660 ﬁ lesystems to support long ﬁ lenames and UNIX-style information 
+(such as ﬁ le permissions, ownership, and links). Data CD-ROMs typically use this 
+ﬁ lesystem type.
+
+ ■ kafs—AFS client ﬁ lesystem.

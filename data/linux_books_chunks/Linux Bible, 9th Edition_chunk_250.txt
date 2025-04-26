@@ -1,0 +1,7 @@
+Linux continues to aim toward 
+ compliance with POSIX as well as with standards set by the owner of the UNIX trademark, 
+The Open Group (http://www.unix.org).
+
+The non-proﬁ t Open Source Development Labs, renamed the Linux Foundation after 
+ merging with the Free Standards Group (http://www.linuxfoundation.org), which 
+employs Linus Torvalds, manages the direction today of Linux development efforts.

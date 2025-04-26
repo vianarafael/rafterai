@@ -1,0 +1,18 @@
+# toolbox
+
+
+- Run a `toolbox` subcommand:
+
+`toolbox {{subcommand}}`
+
+- Display help for a specific subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
+
+`toolbox help {{subcommand}}`
+
+- Display help:
+
+`toolbox --help`
+
+- Display version:
+
+`toolbox --version`

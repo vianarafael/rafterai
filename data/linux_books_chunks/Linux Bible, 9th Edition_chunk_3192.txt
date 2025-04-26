@@ -1,0 +1,4 @@
+A key is generated when 
+mod_ssl is installed and placed in the ﬁ le /etc/pki/tls/private/localhost.key. 
+A self-signed certiﬁ cate, /etc/pki/tls/certs/localhost.crt, is created using that 
+key.

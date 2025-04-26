@@ -1,0 +1,7 @@
+To troubleshoot a problem, you 
+may need to disable a device.
+
+For example, let’s say your computer has two network interface cards (NICs). You 
+want to use the second NIC to install Linux over a network, but the installer keeps 
+trying to use the ﬁ rst NIC to connect to the network. You can disable the ﬁ rst NIC 
+so the installer doesn’t even see the NIC when it tries to connect to the network.

@@ -1,0 +1,3 @@
+As your business grows, 
+so will the workload on your servers. In this chapter, we will show you how to monitor resources such as disk 
+space and processor and RAM usage.

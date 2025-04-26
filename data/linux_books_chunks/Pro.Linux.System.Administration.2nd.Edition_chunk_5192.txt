@@ -1,0 +1,7 @@
+This changes the event 
+type field, one of the metadata tags we apply to our logs, to apache instead of log. This helps us with 
+transformations further down the processing chain.
+
+In Listing 18-14 you will also see that there are global directives we apply to all our data. We tag our data 
+
+with security and network, and we give it an environment tag of production.

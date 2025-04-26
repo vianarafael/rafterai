@@ -1,0 +1,13 @@
+What your organization chooses as the minimum password length is dependent 
+upon its security needs.
+
+Gibson Research Center has some excellent material on strong passwords, including an article called “How big is 
+your haystack…and how well hidden is your needle?” at www.grc.com/haystack.htm.
+
+597
+
+c22.indd  04/15/2015  Page 598
+
+Part V: Learning Linux Security Techniques
+
+Choosing a good password can be difﬁ cult.

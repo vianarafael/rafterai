@@ -1,0 +1,8 @@
+broadcast
+
+A broadcast is meant for everyone.
+
+Typical  example  here  is  the  BBC  (British  Broadcasting  Corporation)  broadcasting  to
+everyone. In datacommunications a broadcast is most common confined to the lan.
+
+Careful,  a  layer  2  broadcast  is  very  different  from  a  layer  3  broadcast.

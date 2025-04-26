@@ -1,0 +1,6 @@
+For example, if your MTA is delivering a message to your 
+mbox file at the same time your MUA or mail client is deleting a message, there is the potential that your 
+mbox file could become corrupted or return unpredictable results.
+
+An alternative to mbox is the Maildir mailbox format. Rather than a single file, Maildir stores your 
+e-mails in separate files under a directory.

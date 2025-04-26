@@ -1,0 +1,3 @@
+To be honest, to the new user it can be very 
+confusing as to what is being reported. However, the logging level is additive, and you can get finer-grained 
+detail in the logs.

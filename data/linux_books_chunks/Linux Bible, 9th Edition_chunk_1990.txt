@@ -1,0 +1,3 @@
+What makes a 
+restricted deletion directory different than other directories? Normally, if write permission 
+is open to a user on a ﬁ le or directory, that user can delete that ﬁ le or directory.

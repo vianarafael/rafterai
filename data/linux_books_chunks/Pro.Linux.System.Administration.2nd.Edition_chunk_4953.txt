@@ -1,0 +1,8 @@
+In the Node block we are setting the relay host and port. 
+
+We can add prefixes to our metrics and suffixes as well. Here we are adding collectd_ as a prefix to each 
+metric to more easily track the metric origins.
+
+We can now restart the Collectd, service and metrics should begin to be sent via the relay to the monitor 
+
+server.

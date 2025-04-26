@@ -1,0 +1,4 @@
+It has text-based configuration files that are suitable 
+for tracking changes in Git. This helps you prototype and develop host builds or applications. It allows for 
+integration with many of the configuration management tools like Puppet, Ansible, or SaltStack. But one of 
+the major benefits is that you can share images, or “boxes” and build instructions with other developers.

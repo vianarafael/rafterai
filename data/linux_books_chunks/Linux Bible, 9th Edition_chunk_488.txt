@@ -1,0 +1,6 @@
+Four virtual workspaces 
+appear in the Workspace Switcher on the GNOME 2 panel. You can do the following with the 
+Workspace Switcher:
+
+ ■ Choose current workspace—Four virtual workspaces appear in the Workspace 
+Switcher.

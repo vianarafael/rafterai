@@ -1,0 +1,11 @@
+Remember 
+that the MX record is short for mail exchange, and your MTA server will look for this record when it sends 
+mail to another domain.
+
+First we need to freeze any nsupdate (name server updates) to our example.com zone from services like 
+
+DHCP on our master DNS server.
+
+$ sudo rndc freeze example.com
+
+Now open the zone file and increment the serial number to the appropriate date.

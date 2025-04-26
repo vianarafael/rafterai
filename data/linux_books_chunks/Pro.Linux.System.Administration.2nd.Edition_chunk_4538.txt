@@ -1,0 +1,4 @@
+The inetorgperson holds other various employee-related objects and classes. 
+You may or may not use objects and attributes that these provide.
+
+To see all the schemata available to you, you can list the /etc/ldap/schema directory.

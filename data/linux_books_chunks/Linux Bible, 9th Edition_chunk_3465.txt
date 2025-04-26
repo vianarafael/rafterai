@@ -1,0 +1,7 @@
+If you have not already installed system-config-samba, type the following as 
+root at the command line:
+
+# yum install system-config-samba*
+
+With system-config-samba and system-config-samba-docs packages installed, you 
+can launch it from Fedora from the Applications page by double-clicking the Samba icon.

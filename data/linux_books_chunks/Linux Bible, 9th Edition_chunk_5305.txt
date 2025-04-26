@@ -1,0 +1,11 @@
+You cannot reload the cups daemon on a 
+
+systemd Linux server!
+
+# systemctl reload cups.service
+Failed to issue method call: Job type reload is
+  not applicable for unit cups.service.
+
+Chapter 16: Confi guring a Print Server
+
+1.

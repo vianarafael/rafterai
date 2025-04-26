@@ -1,0 +1,12 @@
+To add a Samba user, select Add User from the Samba Users window.
+
+From the Create New Samba User screen that pops up, select the local Linux user account 
+(UNIX Username) from the drop-down box. You can use the same name or a different one 
+
+512
+
+c19.indd  04/01/2015  Page 513
+
+Chapter 19: Confi guring a Windows File Sharing (Samba) Server
+
+for the Windows Username.

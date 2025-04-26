@@ -1,0 +1,3 @@
+halt, reboot and poweroff
+
+The binary /sbin/reboot is the same as /sbin/halt and /sbin/poweroff.

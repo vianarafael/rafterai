@@ -1,0 +1,7 @@
+Lines 3-5 
+are the chains that Firewalld uses to group rules into more logical units. They have no policy attached (-).
+
+In Listing 7-8, lines 6-9 do a similar thing. First thing to notice is that packets matching these rules will 
+
+jump to the ACCEPT target. Lines 6-7 allow DNS queries on both udp and tcp protocols from any source to 
+any destination on the virbr0 interface.

@@ -1,0 +1,6 @@
+Combining this security with running highly reliable and durable services makes AWS or Google a good 
+choice for intermediate and long-term storage.
+
+AWS also offers an AWS Storage Gateway, which is a virtual appliance (a virtual machine) that you 
+
+install inside your data center and use as a gateway to S3 and Glacier.

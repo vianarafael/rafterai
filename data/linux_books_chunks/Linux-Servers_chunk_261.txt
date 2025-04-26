@@ -1,0 +1,24 @@
+creating a database
+
+You can create a new database with the create database command.
+
+mysql> create database famouspeople;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| famouspeople       |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+5 rows in set (0.00 sec)
+
+47
+
+introduction to sql using mysql
+
+3.3.3.

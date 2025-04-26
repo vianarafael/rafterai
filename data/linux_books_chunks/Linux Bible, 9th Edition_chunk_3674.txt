@@ -1,0 +1,6 @@
+You can 
+read about these and other NFS mount options you can put in the /etc/fstab ﬁ le from 
+the nfs man page (man 5 nfs):
+
+ ■ hard—If this option is used and the NFS server disconnects or goes down while a 
+process is waiting to access it, the process hangs until the server comes back up.

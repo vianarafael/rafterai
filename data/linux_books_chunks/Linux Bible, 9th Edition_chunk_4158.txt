@@ -1,0 +1,12 @@
+Being able to get timely security updates is one 
+of the primary reasons companies subscribe critical systems to Red Hat Enterprise Linux.
+
+607
+
+c22.indd  04/15/2015  Page 608
+
+Part V: Learning Linux Security Techniques
+
+Advanced implementation
+You should be aware of several other important security topics as you are planning your 
+deployments.

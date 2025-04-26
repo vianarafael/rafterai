@@ -1,0 +1,32 @@
+Here is the list of possible logging levels:
+
+#          -1 = Everything
+#          0 = Nothing
+#          1 = Functions
+#          2 = Configuration
+#          4 = Process information
+#          8 = Scheduled events
+#          16 = Host/service checks
+#          32 = Notifications
+#          64 = Event broker
+#          128 = External commands
+#          256 = Commands
+#          512 = Scheduled downtime
+#          1024 = Comments
+#          2048 = Macros
+
+So if we wanted to see host and service checks in our logs and the external commands, we would 
+
+change debug=0 to debug=144, which is 16 (host/service checks) + 128 (external commands).
+
+899
+
+Chapter 18 ■ Logging and Monitoring
+
+You will need to restart Nagios for this to take effect, and the debug logs will appear in a /var/log/
+
+nagios/debug.log file.
+
+Nagios Plug-ons
+
+You can choose from a large collection of plug-ins to create services and commands to check them.

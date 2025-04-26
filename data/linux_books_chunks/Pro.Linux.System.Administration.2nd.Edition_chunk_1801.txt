@@ -1,0 +1,5 @@
+If you need 
+to remove any of these you will have to do so via the YUM package manager (more on that shortly).
+
+You can see any updates that your system currently needs by going to the Updates tab. And in Figure 8-10 
+we can see that we have three updates waiting for us.

@@ -1,0 +1,6 @@
+For scheduling, you may need to think in terms of daily, weekly, or monthly backup regimens.
+
+Finally, you’ll need to determine the type of backup you’ll perform. In most backup regimens, you can 
+
+break backups into three types: full, incremental, and differential. Full backups are definitive backups of 
+data, and they will be the largest and longest backups performed.

@@ -1,0 +1,16 @@
+You can use tune2fs while the file system
+is active, even if it is the root file system (as in this example).
+
+[root@rhel4 ~]# tune2fs -m10 /dev/sda1 
+tune2fs 1.35 (28-Feb-2004)
+Setting reserved blocks percentage to 10 (10430 blocks)
+[root@rhel4 ~]# tune2fs -l /dev/sda1 | grep -i "block count"
+Block count:              104388
+Reserved block count:     10430
+[root@rhel4 ~]#
+
+62
+
+file systems
+
+6.5.

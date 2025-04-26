@@ -1,0 +1,12 @@
+However, remember that Ubuntu’s runlevel 2 is equivalent to runlevels 
+3, 4, and 5.
+
+$ cat /etc/init/rc-sysinit.conf
+# rc-sysinit - System V initialisation compatibility
+...
+# Default runlevel, this may be overriden on the kernel command-line
+# or by faking an old /etc/inittab entry
+env DEFAULT_RUNLEVEL=2
+
+Confi guring the default target unit for systemd
+For systemd, the term target units refers to groups of services to be started.

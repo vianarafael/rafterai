@@ -1,0 +1,15 @@
+Configuration for a Bonded Interface
+
+[jsmith@au-mel-centos-1~]$ vi /etc/sysconfig/network-scripts/ifcfg-bond0
+DEVICE="bond0"
+NAME="bond0"
+TYPE="bond"
+BONDING_MASTER="yes"
+BONDING_OPTS="mode=1 delayup=0 delaydown=0 miimon=100"
+BOOTPROTO="none"
+ONBOOT="yes"
+NETWORK="192.168.0.0"
+NETMASK="255.255.255.0"
+IPADDR="192.168.0.1" 
+
+As you can see, it is very similar to a standard Ethernet device file.

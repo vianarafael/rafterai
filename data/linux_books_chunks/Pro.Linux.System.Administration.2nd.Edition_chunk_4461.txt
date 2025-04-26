@@ -1,0 +1,5 @@
+The ppolicy overlay allows you to set things such as 
+password aging and minimum character length.
+
+You will also need to decide what kind of authentication methods you are going to support in your 
+organization. OpenLDAP supports two authentication methods, simple and SASL.

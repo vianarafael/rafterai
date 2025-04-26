@@ -1,0 +1,9 @@
+Most distributions have one of these desktop environments as their 
+default; for example, Gnome is the default desktop environment on the Debian, CentOS, Red Hat, and 
+Fedora distributions, and KDE is the default on Ubuntu derivative Kubuntu and on SUSE, while Ubuntu uses 
+Unity, which is a Gnome shell (based on Gnome).
+
+ In keeping with the flexibility of Linux, you can change the default desktop environment on all of 
+
+ ■ Tip 
+these distributions.

@@ -1,0 +1,6 @@
+There, I could see that mount options 
+user_xattr (for extended attributes such as SELinux) and acl were both implanted in the 
+ﬁ lesystem super block so they would be used when the ﬁ lesystem was mounted.
+
+If the Default mount options ﬁ eld is blank (such as when you have just created a new 
+ﬁ lesystem), you can add the acl mount option using the tune2fs -o command.

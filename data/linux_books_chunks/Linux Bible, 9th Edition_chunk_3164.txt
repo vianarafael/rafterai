@@ -1,0 +1,3 @@
+However, you should 
+be careful to keep your primary virtual host in a fi le that will be read before the others because the fi rst virtual host 
+receives requests for site names that don’t match any in your confi guration.

@@ -1,0 +1,8 @@
+Then it executes the /bin/login command with that userid. The /bin/login program
+will verify whether that user exists in /etc/passwd and prompt for (and verify) a password.
+If the password is correct, /bin/login passes control to the shell listed in /etc/passwd.
+
+respawning mingetty
+
+The mingetty daemons are started by init and watched until they die (user exits the shell and
+is logged out).

@@ -1,0 +1,8 @@
+The Linux vfat implementation supports all of these, but vfat lacks a
+lot of features like security and links. fat disks can be read by every operating system, and
+are used a lot for digital cameras, usb sticks and to exchange data between different OS'ses
+on a home user's computer.
+
+6.2.6. iso 9660
+
+iso 9660 is the standard format for cdroms.

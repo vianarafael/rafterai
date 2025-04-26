@@ -1,0 +1,7 @@
+However, if you want to stop a 
+service and not allow it to be restarted at server reboot, then you need to actually disable the 
+service, which is covered in the “Enabling Persistent Services” section later in this chapter.
+
+Stopping and starting SysVinit services
+The primary command for stopping and starting SysVinit services is the service com-
+mand.

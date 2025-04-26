@@ -1,0 +1,6 @@
+The + flag in front of the requested size has 
+added 50MB to the logical volume, making it about 200 megabytes. But we haven't 
+extended the filesystem across the entire logical volume yet.
+
+The output of lvscan will show 80MB available. This corresponds to the 25 megabytes 
+resizing done with e2fsadm on p.

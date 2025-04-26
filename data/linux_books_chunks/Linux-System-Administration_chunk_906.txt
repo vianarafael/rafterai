@@ -1,0 +1,7 @@
+/var/lib/rpm
+
+The rpm database is located at /var/lib/rpm. This database contains all meta information
+about packages that are installed (via rpm). It keeps track of all files, which enables complete
+removes of software.
+
+20.6.7.

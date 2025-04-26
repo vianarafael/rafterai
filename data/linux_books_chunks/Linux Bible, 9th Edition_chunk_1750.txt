@@ -1,0 +1,6 @@
+The name line contains a human-readable description of the repository. The baseurl line 
+identiﬁ es the directory containing the RPM ﬁ les, which can be an httpd://, ftp://, or 
+file:// entry.
+
+The enabled line indicates whether the entry is active. A 1 is active; 0 is inactive. If there 
+is no enabled line, the entry is active.

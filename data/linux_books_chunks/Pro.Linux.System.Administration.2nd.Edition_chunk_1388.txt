@@ -1,0 +1,6 @@
+Also, remember that 
+NetworkManager is going to manage these interfaces so we will begin using some of the nmcli commands to 
+show our connections but you can also use the ip command we saw earlier.
+
+When we make changes to our interface scripts, like ifcfg-enp0s8, we need to tell NetworkManager to 
+reread it.

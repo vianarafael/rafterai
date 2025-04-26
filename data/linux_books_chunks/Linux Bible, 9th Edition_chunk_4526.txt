@@ -1,0 +1,13 @@
+SELinux implements these models through a 
+combination of four primary SELinux pieces:
+
+ ■ Operational Modes
+
+ ■ Security contexts
+
+ ■ Policy types
+
+ ■ Policy rule packages
+
+Although I’ve touched on some of these design elements, the following gives you an in-
+depth understanding of them.

@@ -1,0 +1,7 @@
+Managing large sets of enterprise 
+ computers is different from managing just one or two systems in some of the following ways:
+
+ ■ Deployment—Rather than set up a single system manually, enterprise servers 
+are typically preconﬁ gured, tested, and then deployed over and over again. A 
+single automated Linux install can be done from a PXE server using a kickstart 
+ﬁ le.

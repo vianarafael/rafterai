@@ -1,0 +1,19 @@
+Still holding the Ctrl+Alt keys, 
+press Tab again to highlight one of the following icons from the menu and release 
+to select it:
+
+ ■ Top bar—Keeps the current view.
+
+38
+
+c02.indd  04/01/2015  Page 39
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+FIGURE 2.6
+
+Press Ctrl+Alt+Tab to display additional desktop areas to select.
+
+2
+
+ ■ Dash—Highlights the ﬁ rst application in the application bar on the left.

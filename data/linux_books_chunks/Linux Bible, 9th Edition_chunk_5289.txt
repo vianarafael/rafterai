@@ -1,0 +1,42 @@
+In that case, as root run the following commands:
+
+# cd /etc/sysconfig/network-scripts
+# vi route-eth0
+
+Add the following lines to that ﬁ le:
+
+ADDRESS0=192.168.99.0
+NETMASK0=255.255.255.0
+GATEWAY0=192.168.0.5
+
+Restart networking and run route to see that the route is active:
+
+# service network restart
+# route
+Destination  Gateway       Genmask        Flags Metric Ref Use Iface
+default      192.168.0.1   0.0.0.0        UG    0      0     0 eth0
+
+B
+
+809
+
+ 
+ 
+bapp02.indd  04/01/2015  Page 810
+
+Appendix B: Exercise Answers
+
+192.168.0.0  *             255.255.255.0  U     1      0     0 eth0
+192.168.99.0 192.168.0.5   255.255.255.0  UG    0      0     0 eth0
+
+To check to see if your system has been conﬁ gured to allow IPv4 packets to be 
+routed between network interfaces on your system, type the following:
+
+# cat /proc/sys/net/ipv4/ip_forward
+0
+
+A 0 shows that IPv4 packet forwarding is disabled; a 1 shows it is enabled.
+
+Chapter 15: Starting and Stopping Services
+
+1.

@@ -1,0 +1,7 @@
+If you choose to outsource DNS 
+hosting this way, the dynamic DNS provider you choose will provide you with DNS server details to enter in 
+your registrar’s registration form.
+
+If you require dynamic updates, you should choose a provider that offers a client utility that works 
+
+under Linux.

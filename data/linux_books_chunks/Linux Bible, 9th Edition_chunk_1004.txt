@@ -1,0 +1,6 @@
+With the -exec option, the command you use is executed 
+on every ﬁ le found, without stopping to ask if that’s okay. The -ok option stops at each 
+matched ﬁ le and asks whether you want to run the command on it.
+
+The advantage of using -ok is that, if you are doing something destructive, you can make 
+sure that you okay each ﬁ le individually before the command is run on it.

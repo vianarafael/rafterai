@@ -1,0 +1,7 @@
+Configuring automount is a new 
+feature where special attention has to be payed to the syntax. 
+
+1. Operating the Linux Filesystem
+
+When adding new filesystems to the existing root filesystem the key file involved is 
+/etc/fstab which assigns a mount point, a mount order and global options per device.

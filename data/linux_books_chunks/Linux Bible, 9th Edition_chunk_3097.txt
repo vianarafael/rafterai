@@ -1,0 +1,9 @@
+For httpd in 
+
+SELinux, there are different ﬁ le contexts for content, conﬁ guration ﬁ les, log ﬁ les, 
+scripts, and other httpd-related ﬁ les. Any ﬁ le that is not set to the proper context 
+is not accessible to the httpd daemon.
+
+ ■ Prevent insecure features from being used, such as ﬁ le uploading and clear-text 
+
+authentication, by setting Booleans for such features to the off position.

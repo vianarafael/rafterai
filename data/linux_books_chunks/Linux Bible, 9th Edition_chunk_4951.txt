@@ -1,0 +1,2 @@
+This chapter describes many of the basic components that go into building a cloud 
+based on Linux and other open source technology.

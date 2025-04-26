@@ -1,0 +1,5 @@
+This event in turn can trigger other jobs to be initiated or stopped depending on the 
+job definitions under init’s control.
+
+Upstart collectively calls processes under its command jobs, and you interact with those jobs using the 
+initctl command. Jobs can either be services or tasks or abstract.

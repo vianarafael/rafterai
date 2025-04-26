@@ -1,0 +1,4 @@
+Brute-force cracking is a 
+method of attacking passwords where thousands or millions of different passwords are tried until a 
+matching password is found. the /etc/passwd file was especially susceptible to this attack because 
+its use by applications requires it to be readable by all users, or world readable.

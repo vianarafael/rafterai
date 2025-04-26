@@ -1,0 +1,26 @@
+Use the -c option with fdisk 
+to turn off DOS compatibility mode and -u to show the size in sectors instead of cylinders, 
+because partitions may not fall on cylinder boundaries (default options changed recently, so 
+the -c and -u options are no longer needed in the latest RHEL or Fedora releases):
+
+# fdisk -cul /dev/sdc
+Disk /dev/sdc: 8059 MB, 8059355136 bytes
+248 heads, 62 sectors/track, 1023 cylinders, total 15740928 sectors
+
+286
+
+c12.indd  04/01/2015  Page 287
+
+Chapter 12: Managing Disks and Filesystems
+
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x0007a9f4
+   Device Boot   Start       End   Blocks   Id  System
+/dev/sdc1   *     2048    194559    96256   83  Linux
+/dev/sdc2       194560   2148351   976896   82  Linux swap / Solaris
+/dev/sdc3      2150398  15738879  6794241    5  Extended
+/dev/sdc5      2150400  15738879  6794240   83  Linux
+
+The example just shown is for a USB drive that had a bootable Linux system installed on it.

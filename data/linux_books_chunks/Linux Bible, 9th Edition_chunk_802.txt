@@ -1,0 +1,5 @@
+You can use the 
+tilde to refer to directories relative to your home directory as well, such as /home/chris/
+Music with ~/Music. Typing a name as an option takes you to a directory below the 
+ current directory, but you can use two dots (..) to go to a directory above the current 
+directory.

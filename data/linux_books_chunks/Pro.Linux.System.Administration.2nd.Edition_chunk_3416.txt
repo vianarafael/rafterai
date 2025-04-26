@@ -1,0 +1,37 @@
+You can set 
+
+it like this:
+
+debug_peer_list = troubled.domain.com
+
+On the next connection from troubled.domain.com, you will see an increase in logging, which you will 
+
+find immensely useful.
+
+You can also find some tips on running Postfix in a small office/home office environment at  
+
+www.postfix.org/SOHO_README.html, and you might want to consider joining the Postfix mailing list at  
+www.postfix.org/lists.html.
+
+Remember that if you submit a question or a bug, you should include the following information:
+
+•	
+
+•	
+
+•	
+
+Your Postfix configuration (run postconf -n)
+
+Your platform (run uname -a)
+
+Any log messages generated (either in the /var/log/mail.log file on Ubuntu or in 
+the /var/log/maillog file on CentOS)
+
+Also available is an IRC channel called #postfix on the Freenode IRC server (http://freenode.net/) 
+
+where you can seek assistance.
+
+Combating Viruses and Spam
+Now that you have Postfix running with encryption and authentication, we’re going to show you how you 
+can defend your users and your organization from spam and viruses.

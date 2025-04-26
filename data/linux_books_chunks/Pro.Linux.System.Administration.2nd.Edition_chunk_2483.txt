@@ -1,0 +1,9 @@
+The next level consists of top-level 
+domains (TLDs), including generic domains such as net, com, org, and edu, as well as country codes such as 
+au, nz, uk, and us. Figure 10-2 shows a small part of this tree structure.
+
+427
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Figure 10-2.

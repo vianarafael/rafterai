@@ -1,0 +1,5 @@
+.rpm based distributions
+
+Samba is installed by default on Red Hat Enterprise Linux. If Samba is not yet installed,
+then  you  can  use  the  graphical  menu  (Applications  --  System  Settings  --  Add/Remove
+Applications) and select "Windows File Server" in the Server section.

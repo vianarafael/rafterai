@@ -1,0 +1,18 @@
+# rexec
+
+
+- Execute a command on a remote host:
+
+`rexec {{[-h|--host]}} {{remote_host}} {{ls -l}}`
+
+- Specify the remote username on a remote host:
+
+`rexec {{[-u|--username]}} {{username}} {{[-h|--host]}} {{remote_host}} {{ps aux}}`
+
+- Redirect `stdin` from `/dev/null` on a remote host:
+
+`rexec {{[-n|--noerr]}} {{[-h|--host]}} {{remote_host}} {{ls -l}}`
+
+- Specify the remote port on a remote host:
+
+`rexec {{[-P|--port]}} {{1234}} {{[-h|--host]}} {{remote_host}} {{ls -l}}`

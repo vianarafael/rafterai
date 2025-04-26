@@ -1,0 +1,10 @@
+Selecting to install a server with a GUI
+
+Select Done and we will now have a list of packages to install on our new server.
+
+36
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+ ■ Note  packages are the bundles of files that are required by a software application. They can be binary files 
+or configuration files.

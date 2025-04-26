@@ -1,0 +1,6 @@
+# links2
+
+
+- Visit a website in graphics mode:
+
+`links2 -g {{https://example.com}}`

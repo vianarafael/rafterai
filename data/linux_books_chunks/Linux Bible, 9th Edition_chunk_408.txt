@@ -1,0 +1,9 @@
+If you have a 
+wheel mouse, you can use that instead to scroll the icons.
+
+ ■ Frequent—Select the Frequent button on the bottom of the screen to see 
+
+ often-run applications or the All button to see all applications again.
+
+ ■ Launching an application—To start the application you want, left-click its icon 
+to open the application in the current workspace.

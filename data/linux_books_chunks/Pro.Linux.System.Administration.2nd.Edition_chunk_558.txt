@@ -1,0 +1,5 @@
+We’re going to take advantage of this introduction to not only 
+explain each item but also explore some of the broader concepts they represent.
+
+File Types and Permissions
+The file type and permissions are contained in the first ten characters, the section resembling -rw-r--r--.

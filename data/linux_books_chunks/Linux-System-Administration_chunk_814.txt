@@ -1,0 +1,33 @@
+The -f option
+will dynamically display lines that are appended to the log.
+
+paul@ubu1010:~$ tail -f /var/log/udev 
+SEQNUM=1741
+SOUND_INITIALIZED=1
+ID_VENDOR_FROM_DATABASE=nVidia Corporation
+ID_MODEL_FROM_DATABASE=MCP79 High Definition Audio
+ID_BUS=pci
+ID_VENDOR_ID=0x10de
+ID_MODEL_ID=0x0ac0
+ID_PATH=pci-0000:00:08.0
+SOUND_FORM_FACTOR=internal
+
+You  can  automatically  repeat  commands  by  preceding  them  with  the  watch  command.
+When executing the following:
+
+[root@rhel6 ~]# watch who
+
+Something similar to this, repeating the output of the who command every two seconds,
+will appear on the screen.
+
+Every 2.0s: who                Sun Jul 17 15:31:03 2011
+
+root     tty1         2011-07-17 13:28
+paul     pts/0        2011-07-17 13:31 (192.168.1.30)
+paul     pts/1        2011-07-17 15:19 (192.168.1.30)
+
+208
+
+logging
+
+17.5.

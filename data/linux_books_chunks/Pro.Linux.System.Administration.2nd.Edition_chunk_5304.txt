@@ -1,0 +1,5 @@
+in the nagios documentation, these values are specified in red at https://assets.
+nagios.com/downloads/nagioscore/docs/nagioscore/4/en/objectdefinitions.html.
+
+The use attribute tells our host object to refer to a template. A template is a technique Nagios uses to 
+populate an object definition with values that might be the same across many objects.

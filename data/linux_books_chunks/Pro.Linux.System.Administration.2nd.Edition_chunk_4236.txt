@@ -1,0 +1,5 @@
+On backup.example.com we are going to mount the Gluster 
+volume, create the storage directory, and set the ownership of that directory.
+
+We will need to mount the Gluster volume via the FUSE package. We are going to make sure that the 
+package glusterfs-fuse is installed on our CentOS backup server.

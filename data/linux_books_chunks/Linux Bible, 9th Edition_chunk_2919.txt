@@ -1,0 +1,9 @@
+Select the make of the print driver. If you don’t see the manufacturer of your 
+printer listed, choose PostScript for a PostScript printer or HP for a PCL printer. 
+For the manufacturer you choose, you can select a speciﬁ c model.
+
+6.  Set options. If you are asked to set options for your printer, you may do so. Then 
+
+select Set Printer Options to continue.
+
+7.  Your printer should be available.

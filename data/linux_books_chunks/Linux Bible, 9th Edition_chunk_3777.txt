@@ -1,0 +1,8 @@
+If you need to do that, and you ﬁ nd that the NIC doesn’t 
+come up as a bootable device on your Boot Order screen, you may have to enable 
+that feature in the BIOS.
+
+ ■ Virtualization settings—If you want to run a RHEL system as a virtual host, 
+
+the computer’s CPU must include Intel Virtual Technology or AMD Secure Virtual 
+Machine (SVM) support.

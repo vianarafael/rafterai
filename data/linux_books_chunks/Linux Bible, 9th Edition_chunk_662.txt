@@ -1,0 +1,12 @@
+In those cases, you can 
+check the possible ways text can be expanded by pressing Tab twice at the point where you 
+want to do completion.
+
+The following shows the result you would get if you checked for possible completions 
+on $P:
+
+$ echo $P<Tab><Tab>
+$PATH $PPID $PS1 $PS2 $PS4 $PWD
+$ echo $P
+
+In this case, there are six possible variables that begin with $P.

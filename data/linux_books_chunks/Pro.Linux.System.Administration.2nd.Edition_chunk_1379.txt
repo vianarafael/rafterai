@@ -1,0 +1,4 @@
+With active backup, when the active interface fails, the other takes over. 
+This primarily for network card redundancy and not throughput. The miimon is how often (in milliseconds) 
+the interfaces are checked for being active. In high-availability configurations, when miimon notices that 
+one interface is down, it will activate the remaining interface(s).

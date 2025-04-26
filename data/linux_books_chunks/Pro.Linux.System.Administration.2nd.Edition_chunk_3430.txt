@@ -1,0 +1,5 @@
+For this to work, smtpd_helo_required tells Postfix to deny connections 
+from clients that don’t send a proper EHLO and announce their name. The smtpd_helo_required makes the 
+connecting MTAs send the EHLO command.
+
+In this case, we’re going to add some options to the sender, recipient, and data restriction lists.

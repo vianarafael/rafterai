@@ -1,0 +1,7 @@
+Each service is generally a daemon process that 
+
+runs in the background and performs a specific function.
+
+ ■ Note 
+ Unlike many other services, postfix isn’t a single monolithic daemon but rather a collection of small 
+processes that perform individual functions and communicate with each other.

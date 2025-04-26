@@ -1,0 +1,4 @@
+Remember we talked about the S3 tiers 
+earlier? We back up originally to the Standard tier. The next below that is Standard Infrequently Accessed 
+(Standard-IA) and then below that is the Glacier storage. The Standard tier costs the most, so we want to 
+transition off that as soon as possible, and we have chosen 35 days.

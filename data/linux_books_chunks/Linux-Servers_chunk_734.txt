@@ -1,0 +1,11 @@
+query a user
+
+We can use wbinfo -a to verify authentication of a user against Active Directory. Assuming
+a user account harry with password stargate is just created on the Active Directory, we get
+the following screenshot.
+
+[root@RHEL52 ~]# wbinfo -a harry%stargate
+plaintext password authentication succeeded
+challenge/response password authentication succeeded
+
+16.5.

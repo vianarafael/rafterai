@@ -1,0 +1,4 @@
+The bonding module allows the kernel to know how to 
+handle bonded interfaces and it can be also be referred to as a driver for the kernel. The low-level tools that 
+manage bonding interfaces, like ifenslave from the iputils package, require the bonding module to be 
+loaded prior to bonding your interface.

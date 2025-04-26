@@ -1,0 +1,11 @@
+When this period expires, you will be prompted to enter 
+your password again.
+
+ the first time you run the sudo command, it may also show you a warning to be careful with the 
+
+ ■ Tip 
+power of the sudo command.
+
+On Ubuntu, the sudo command is available and configured for the user you created when you installed 
+
+Ubuntu. If you’re logged in as that user, you can use the sudo command already.

@@ -1,0 +1,6 @@
+When prompted, you can leave the 
+default subscription management system in place (subscription.rhn.redhat.com) 
+or enter the location of a Red Hat Satellite server to register your system. You 
+need your Red Hat account and password to register and entitle your system 
+for updates. In most cases, you can automatically attach an entitlement to the 
+system.

@@ -1,0 +1,5 @@
+You can also 
+select the Simulate check box to test the burn before actually writing to the CD/
+DVD. Click Start to continue.
+
+7.
