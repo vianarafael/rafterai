@@ -7,10 +7,6 @@ It uses a local LLM (Phi-2) and a vector database (ChromaDB) to retrieve context
 
 1. Clone this repository:
 
-```bash
-git clone https://github.com/your-username/linux-tutor.git
-cd linux-tutor
-```
 
 2. Create a Python environment and install dependencies:
 
