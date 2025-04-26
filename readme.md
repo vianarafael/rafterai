@@ -28,10 +28,11 @@ bash start-phi2.sh
 This will run Phi-2 on http://localhost:8081.
 
 4. Prepare the knowledge base (only needed once):
+5. 
 You must recreate the vector database because it is not stored in the repo.
 
 ```bash
-You must recreate the vector database because it is not stored in the repo.
+python scripts/embed_all.py
 ```
 
 This will:
