@@ -1,0 +1,5 @@
+instead, we are using another domain in these examples.
+
+The certbot command has several options available to it. You can see them by typing certbot --help, 
+
+or for all available options, you can issue certbot --help all.

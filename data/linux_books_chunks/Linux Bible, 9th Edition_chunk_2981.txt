@@ -1,0 +1,7 @@
+Using a certiﬁ cate and key lets you share your 
+printer as an HTTPS IPP printer.
+
+The term browsing refers to the act of broadcasting information about your printer on your 
+local network and listening for other print servers’ information. Browsing is on by default 
+only for the local host (@LOCAL). You can allow CUPS browser information (BrowseAllow) 
+for additional selected addresses.

@@ -1,0 +1,3 @@
+The 
+router option specifies the default gateway to be used by the client. The domain-name option speaks for itself. 
+In the domain-name-servers option, we can add one or more DNS server addresses, separated by spaces.

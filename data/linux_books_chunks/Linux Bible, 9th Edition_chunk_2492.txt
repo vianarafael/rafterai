@@ -1,0 +1,12 @@
+Here is an example:
+
+$ ping host1
+PING host1 (192.168.0.15 ) 56(84) bytes of data.
+64 bytes from host1 (192.168.0.15 ): icmp_seq=1 ttl=64 time=0.062 ms
+64 bytes from host1 (192.168.0.15 ): icmp_seq=2 ttl=64 time=0.044 ms
+^C
+--- host1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1822ms
+rtt min/avg/max/mdev = 0.044/0.053/0.062/0.009 ms
+
+The ping command shown here continuously pings the host named host1.

@@ -1,0 +1,11 @@
+We input our e-mail, marking 
+
+its end with a period (.) and quitting.
+
+Chapter 12 ■ Mail ServiCeS
+
+ as mentioned earlier, another way to send local e-mail from the command line is to use the mail 
+
+ ■ Tip 
+command, available from the mailutils package (Ubuntu) or the mailx package (CentOS). this doesn’t give 
+us a diagnostic view of our server, but it is easier to use to send mail.

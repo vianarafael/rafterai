@@ -1,0 +1,7 @@
+If it was a 
+temporary mount (or listed as noauto in /etc/fstab), it isn’t remounted at boot time.
+
+The command is umount, not unmount. This is easy to get wrong.
+
+If you get the message device is busy when you try to unmount a ﬁ lesystem, it 
+means the unmount failed because the ﬁ lesystem is being accessed.

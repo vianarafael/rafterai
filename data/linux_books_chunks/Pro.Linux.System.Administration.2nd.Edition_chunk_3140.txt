@@ -1,0 +1,21 @@
+Logs will be written to /var/log/squid.
+
+access_log daemon:/var/log/squid/access.log squid
+
+This is will give us some logging details for our access logs like this example:
+
+1471953526.429    934 192.168.0.1 TCP_MISS/200 10265 GET http://blahblah.com/ - HIER_
+DIRECT/64.207.180.61 text/html
+1471953526.961    493 192.168.0.1 TCP_MISS/200 19834 GET http://blahblah.com/blah.jpg - 
+HIER_DIRECT/64.207.180.61 image/jpeg
+...
+1471953633.942    389 192.168.0.1 TCP_REFRESH_UNMODIFIED/304 305 GET http://blahblah.com/ - 
+HIER_DIRECT/64.207.180.61 –
+
+In this example of our access log, you can see that we first get the resource we are after, and then we can 
+
+see a subsequent request returns a 304 unmodified status.
+
+Finally, we can change the directory on the disk that Squid uses to store its cached objects using the 
+
+cache_dir directive.

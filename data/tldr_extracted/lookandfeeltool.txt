@@ -1,0 +1,6 @@
+# lookandfeeltool
+
+
+- View documentation for the original command:
+
+`tldr plasma-apply-lookandfeel`

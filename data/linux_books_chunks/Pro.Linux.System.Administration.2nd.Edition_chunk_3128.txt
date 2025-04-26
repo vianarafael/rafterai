@@ -1,0 +1,8 @@
+ACL Definitions
+
+acl all src 0.0.0.0/0.0.0.0
+acl localhost src 127.0.0.1/255.255.255.255
+acl to_localhost dst 127.0.0.0/8
+
+The acl directive tells Squid the rest of the line is an ACL definition. Next, we give the ACL a label so 
+we can refer to it later. Then we specify the ACL type we’re creating.

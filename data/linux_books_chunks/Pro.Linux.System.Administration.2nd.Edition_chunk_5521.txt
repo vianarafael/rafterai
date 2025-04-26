@@ -1,0 +1,3 @@
+If you are watching your installation process, you will 
+see the installation screens progress—all without requiring input from you to continue or select options.
+Using Cobbler, you can also specify configuration options for particular hosts.

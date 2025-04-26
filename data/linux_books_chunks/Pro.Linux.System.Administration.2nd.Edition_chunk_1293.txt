@@ -1,0 +1,7 @@
+For example, more 
+
+information about the ip address command can be found by entering $ man ip-address. You can see all the 
+appropriate man pages by looking at the SEE ALSO section of the $ man ip page.
+
+We are now going to show you how to use the ip command to discover more about your network 
+interfaces.

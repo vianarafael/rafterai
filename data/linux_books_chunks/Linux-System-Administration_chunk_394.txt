@@ -1,0 +1,8 @@
+nfs
+
+Unix servers often use nfs (aka the network file system) to share directories over the network.
+Setting up an nfs server is discussed later. Connecting as a client to an nfs server is done
+with mount, and is very similar to connecting to local storage.
+
+This command shows how to connect to the nfs server named server42, which is sharing
+the directory /srv/data.

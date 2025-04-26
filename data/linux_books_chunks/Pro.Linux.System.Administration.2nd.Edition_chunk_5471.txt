@@ -1,0 +1,12 @@
+To run Cobbler, you need to install the EPEL repositories.
+
+$ sudo yum install –y epel-release
+
+Then we need to install Cobbler.
+
+$ sudo yum install –y cobbler
+
+This will install some additional YUM utilities and the createrepo package, which assist in repository 
+
+management. We’ve also installed some additional packages Cobbler uses: the DHCP daemon, a TFTP 
+server, and the Apache web server.

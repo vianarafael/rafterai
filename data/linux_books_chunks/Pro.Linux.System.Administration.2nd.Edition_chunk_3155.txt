@@ -1,0 +1,31 @@
+You should now be able to do the following:
+
+•	 Create and manage virtual web sites
+
+•	
+
+Add functionality to Apache via modules
+
+•	 Control access to sites based on hostname or username and password
+
+•	 Create and manage MariaDB databases and users
+
+•	
+
+Install and configure third-party web applications
+
+•	 Configure a web proxy to save on bandwidth costs and increase speed
+
+In the next chapter, we will look at setting up our mail server.
+
+524
+
+CHAPTER 12
+
+Mail Services
+
+By James Turnbull and Dennis Matotek
+
+One of the most common reasons to deploy a Linux host is to provide mail services including receiving and 
+sending e-mail and retrieving e-mail via mechanisms such as Internet Message Access Protocol (IMAP) and 
+Post Office Protocol (POP3).

@@ -1,0 +1,12 @@
+We 
+can choose a column to sort by pressing the F key, which brings up a list of available columns, as shown in 
+Figure 17-2.
+
+803
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Figure 17-2.  Choosing a sort field
+
+The first line tells us the current sort field, %CPU. Below that we have instructions on how to choose a 
+different sort field.

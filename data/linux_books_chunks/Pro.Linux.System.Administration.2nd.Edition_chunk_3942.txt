@@ -1,0 +1,20 @@
+In fact, we are 
+
+going to do these extra things:
+
+•	 Create a wrapper script to deny unauthorized commands
+
+•	 On the remote host, create a user and home directory containing .ssh and  
+
+bin directories
+
+•	 Move the SSH wrapper script with authorized commands to the bin directory
+
+•	 Move the authorized_keys to the .ssh directory
+
+•	 Make sure the permissions are correct for each file and directory
+
+Creating the Wrapper Script
+
+First up, we are going to create a file called ssh_limiter.sh, and that will be the script we’ll force our 
+connection to run when we connect with the exbackup SSH key.

@@ -1,0 +1,7 @@
+If the file is too large, then the recovery time can be lengthened. 
+
+In Figure 11-5, we can see the log file size of MariaDB 5.5, which has the default of 5MB. Versions of 
+MariaDB 10.0 and above have a default of 48MB. For older MariaDB 5.5 versions, before we change the 
+InnoDB transaction log file size, we need to ensure the transaction log files no longer contain any live data.
+
+Figure 11-5.

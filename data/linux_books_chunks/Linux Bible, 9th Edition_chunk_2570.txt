@@ -1,0 +1,4 @@
+The IPv4 
+address for the local host is 127.0.0.1; the IPv6 address for the local host is ::1. There 
+are also entries for two IP addresses. You could reach the ﬁ rst IP address (192.168.0.201) by 
+the names node1.example.com, node1, or joe.

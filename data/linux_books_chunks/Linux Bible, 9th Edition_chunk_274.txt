@@ -1,0 +1,6 @@
+As a result, desktop users could use a Linux system without even having to 
+run commands.
+
+For years, Red Hat Linux was the preferred Linux distribution for both Linux professionals 
+and enthusiasts. Red Hat, Inc., gave away the source code, as well as the compiled, ready-
+to-run versions of Red Hat Linux (referred to as the binaries).

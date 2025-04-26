@@ -1,0 +1,11 @@
+And what if we looked at 0.au.pool.ntp.org
+
+$ host 0.au.pool.ntp.org
+0.au.pool.ntp.org has address 129.250.35.251
+0.au.pool.ntp.org has address 27.124.125.252
+0.au.pool.ntp.org has address 121.0.0.41
+0.au.pool.ntp.org has address 129.250.35.250
+
+Well isn’t that interesting. You should test the results from 0.us.pool.ntp.org and see what you 
+
+get.

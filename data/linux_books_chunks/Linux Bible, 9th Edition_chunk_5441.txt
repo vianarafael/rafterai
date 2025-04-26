@@ -1,0 +1,8 @@
+From a remote Linux system, type the command nmap -sU IP address at the 
+command line, using the IP address you obtained from above. For example:
+
+# nmap -sU 10.140.67.23
+
+4.  To check whether the ssh daemon on your Linux system uses TCP Wrapper support, 
+type ldd /usr/sbin/sshd | grep libwrap at the command line. The output 
+will look similar to the following if it does use TCP Wrapper support.

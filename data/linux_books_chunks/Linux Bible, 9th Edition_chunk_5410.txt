@@ -1,0 +1,9 @@
+This is not 
+installed by default in Ubuntu, although it is for recent Fedora and RHEL releases.
+
+1.  To encrypt a ﬁ le using the gpg2 utility and a symmetric key, type the following 
+command (the gpg2 utility asks for a passphrase to protect the symmetric key):
+
+$ gpg2 -c filename
+
+2.

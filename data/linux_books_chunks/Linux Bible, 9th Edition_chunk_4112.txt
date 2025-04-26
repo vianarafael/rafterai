@@ -1,0 +1,9 @@
+Thus, using the -M option, the maximum number of days is set before the password 
+expires and the setting for the password inactivity time should take hold.
+
+# chage -M 30 -I 5 tim
+# chage -l tim | grep Password
+Password expires                 : Mar 03, 2017
+Password inactive                : Mar 08, 2017
+
+Now, tim’s account will be locked 5 days after his password expires.

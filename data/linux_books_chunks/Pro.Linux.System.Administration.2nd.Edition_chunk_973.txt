@@ -1,0 +1,6 @@
+To demonstrate all of this, we’ll take you through the process of how your host boots from 
+when you power it on to the login prompt.
+
+We’ll also take you beyond the boot process and look at how your host starts and stops applications, 
+
+system services, and other processes.

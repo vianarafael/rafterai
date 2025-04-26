@@ -1,0 +1,14 @@
+tar
+
+The tar utility gets its name from Tape ARchive. This tool will receive and send files to
+a destination (typically a tape or a regular file). The c option is used to create a tar archive
+
+353
+
+ 
+  
+  
+ 
+backup
+
+(or tarfile), the f option to name/create the tarfile.

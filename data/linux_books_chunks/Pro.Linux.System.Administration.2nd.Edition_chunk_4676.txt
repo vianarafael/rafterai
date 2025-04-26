@@ -1,0 +1,11 @@
+ZZ indicates that use of TLS must be 
+successful before continuing with the connection.
+
+Specifies the SASL authentication mechanism to connect to your LDAP server. You must 
+have SASL configured to use this option.
+
+Specifies the SASL authzid, or the requested authorization ID for a SASL bind.
+
+Specifies the SASL authcid, or the authentication ID for a SASL bind.
+
+Specifies the base DN.

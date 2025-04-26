@@ -1,0 +1,13 @@
+The /etc/exports file then looks like this:
+
+root@debian6 ~# cat /etc/exports
+# Everyone can read this share
+/srv/iso  *(ro,no_subtree_check)
+
+# Only the computers named pasha and barry can readwrite this one 
+/var/www pasha(rw,no_subtree_check) barry(rw,no_subtree_check)
+
+# same, but without root squashing for barry
+/var/ftp pasha(rw,no_subtree_check) barry(rw,no_root_squash,no_subtree_check)
+
+26.5.

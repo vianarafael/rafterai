@@ -1,0 +1,5 @@
+The backup 
+
+started with several checks, then we read the exclude file, and then we started the backup. There was one 
+file that was not successfully backed up (/var/lib/lxcfs, which is a docker view of the /proc filesystem 
+cgroups and can be excluded too). Despite this, we had a successful backup.

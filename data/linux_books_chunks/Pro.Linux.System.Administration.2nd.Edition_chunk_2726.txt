@@ -1,0 +1,6 @@
+If 
+it is not present, the server will not change or remove the associated A entry.
+
+The changes to the zone are then written to a journal file that is associated with the zone file created 
+earlier. The actual zone file itself is not modified. After the forward zone is updated, it sends a notification to 
+any slave servers that are configured for this zone.

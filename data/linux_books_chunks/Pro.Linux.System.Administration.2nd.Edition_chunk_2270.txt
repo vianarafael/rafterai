@@ -1,0 +1,5 @@
+On such systems, you would usually configure RAID via the BIOS (Basic Input/Output 
+System) or UEFI ( Unified Extensible Firmware Interface) (which we discussed briefly in Chapter 6). Linux 
+will then see a single RAID array, which you would use like a normal hard disk.
+
+Fake RAID is a lesser form of hardware RAID used on smaller systems or desktop machines.

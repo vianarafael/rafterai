@@ -1,0 +1,5 @@
+With ansible and Jinja2, we can do this:
+
+{{ /etc/bareos/bareos-dir.conf | basename }}
+
+We can use ansible to test our results.

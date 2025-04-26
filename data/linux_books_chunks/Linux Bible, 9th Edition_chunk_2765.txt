@@ -1,0 +1,15 @@
+Also, the process ID 
+(PID) number is given for the daemon.
+
+Checking services for Upstart systems
+To see all the services running on a Linux server using the Upstart init daemon, use the 
+following command:
+
+# initctl list | grep start/running
+tty (/dev/tty3) start/running, process 1163
+...
+system-setup-keyboard start/running, process 656
+prefdm start/running, process 1154
+
+Keep in mind that there may still be services that have not been ported to the Upstart 
+init daemon.

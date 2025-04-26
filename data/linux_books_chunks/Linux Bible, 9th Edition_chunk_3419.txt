@@ -1,0 +1,4 @@
+The /etc/sysconfig/samba ﬁ le contains variables that are passed 
+as arguments to the /usr/sbin/smbd daemon when it starts. No options are set by default 
+for the smbd daemon (none are set for nmbd or winbindd daemons either, which can also 
+have options entered in that ﬁ le).

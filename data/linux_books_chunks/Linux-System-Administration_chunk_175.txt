@@ -1,0 +1,15 @@
+Or you could just look at the pid of each process.)
+
+paul@ubuntu910:~/procs$ cp /bin/cat proj33
+paul@ubuntu910:~/procs$ cp /bin/cat proj42
+paul@ubuntu910:~/procs$ echo -n x | ./proj33 - pipe33a > pipe33b &
+[1] 1670
+paul@ubuntu910:~/procs$ ./proj33 <pipe33b >pipe33a &
+[2] 1671
+paul@ubuntu910:~/procs$ echo -n z | ./proj42 - pipe42a > pipe42b &
+[3] 1673
+paul@ubuntu910:~/procs$ ./proj42 <pipe42b >pipe42a &
+[4] 1674
+
+The commands you see above will create two proj33 processes that use cat to bounce the x
+character between pipe33a and pipe33b.

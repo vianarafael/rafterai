@@ -1,0 +1,13 @@
+Hashing is used on Linux systems for:
+
+ ■ Passwords (Chapter 22)
+
+ ■ Verifying ﬁ les
+
+ ■ Digital signatures
+
+ ■ Virus signatures (Chapter 22)
+
+A hash is also called a message digest, checksum, ﬁ ngerprint, or signature. One Linux 
+utility that produces message digests is the md5sum utility. In Chapter 10, “Getting and 
+Managing Software,” you learned about getting software for your Linux system.

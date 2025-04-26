@@ -1,0 +1,8 @@
+downloading software outside the
+repository
+
+First and most important, whenever you download software, start by reading the README
+file!
+
+Normally the readme will explain what to do after download. You will probably receive
+a .tar.gz or a .tgz file.

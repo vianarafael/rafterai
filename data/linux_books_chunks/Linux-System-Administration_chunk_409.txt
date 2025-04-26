@@ -1,0 +1,28 @@
+For init this
+would look like this:
+
+lsof -p 1
+
+The screenshot below shows basic use of lsof to prove that vi keeps a .swp file open (even
+when stopped in background) on our freshly mounted file system.
+
+[root@RHEL65 ~]# df -h | grep sdb
+/dev/sdb1                     541M   17M  497M   4% /srv/project33
+[root@RHEL65 ~]# vi /srv/project33/busyfile.txt
+[1]+  Stopped                 vi /srv/project33/busyfile.txt
+[root@RHEL65 ~]# lsof /srv/*
+COMMAND  PID USER  FD  TYPE DEVICE SIZE/OFF NODE NAME
+vi      3243 root   3u  REG   8,17   4096   12 /srv/project33/.busyfile.txt.swp
+
+Here we see that rsyslog has a couple of log files open for writing (the FD column).
+
+root@debian7:~# lsof /var/log/*
+COMMAND   PID USER   FD   TYPE DEVICE SIZE/OFF    NODE NAME
+rsyslogd 2013 root    1w   REG  254,0   454297 1308187 /var/log/syslog
+rsyslogd 2013 root    2w   REG  254,0   419328 1308189 /var/log/kern.log
+rsyslogd 2013 root    5w   REG  254,0   116725 1308200 /var/log/debug
+rsyslogd 2013 root    6w   REG  254,0   309847 1308201 /var/log/messages
+rsyslogd 2013 root    7w   REG  254,0    17591 1308188 /var/log/daemon.log
+rsyslogd 2013 root    8w   REG  254,0   101768 1308186 /var/log/auth.log
+
+You  can  specify  a  specific  user  with  lsof  -u.

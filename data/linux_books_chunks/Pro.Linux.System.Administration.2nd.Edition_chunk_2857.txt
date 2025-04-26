@@ -1,0 +1,16 @@
+In fact, this is how we choose the MPM we want 
+to load for Ubuntu.
+
+$ ll mods-available/mpm*
+-rw-r--r-- 1 root root 668 Mar 19 09:48 mods-available/mpm_event.conf
+-rw-r--r-- 1 root root 106 Mar 19 09:48 mods-available/mpm_event.load
+-rw-r--r-- 1 root root 571 Mar 19 09:48 mods-available/mpm_prefork.conf
+-rw-r--r-- 1 root root 108 Mar 19 09:48 mods-available/mpm_prefork.load
+-rw-r--r-- 1 root root 836 Mar 19 09:48 mods-available/mpm_worker.conf
+-rw-r--r-- 1 root root 107 Mar 19 09:48 mods-available/mpm_worker.load
+
+479
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+In the previous listing, you can see the three different Apache MPM engines we have talked about.

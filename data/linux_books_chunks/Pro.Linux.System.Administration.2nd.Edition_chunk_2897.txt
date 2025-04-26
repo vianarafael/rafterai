@@ -1,0 +1,3 @@
+If you choose to do this in a .htaccess file inside 
+the /var/www/www.example.com directory, you will need to add the ability to override the AuthConfig option. 
+We would need to set AllowOverride AuthConfig for this to work fine.

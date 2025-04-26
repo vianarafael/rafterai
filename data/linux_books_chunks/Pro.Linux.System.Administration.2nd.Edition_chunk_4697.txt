@@ -1,0 +1,6 @@
+Next, let’s look at deleting entries.
+
+Deleting Entries from Your LDAP Directory
+The other thing you are going to want to do often is delete entries in your LDAP directory. To delete entries, 
+use the ldapdelete command. Again, this takes the same arguments as ldapadd and ldapsearch. For 
+deleting more than one entry, you can input a text file, or you can delete entries individually.

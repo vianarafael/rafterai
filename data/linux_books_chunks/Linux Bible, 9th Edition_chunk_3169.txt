@@ -1,0 +1,21 @@
+You can add multiple 
+usernames.
+
+<IfModule mod_userdir.c>
+     UserDir enabled chris
+     UserDir public_html
+</IfModule>
+
+2.  Create a <Directory /home/*/public_html> directive block and change any 
+
+settings you like. This is how the block will look:
+
+</IfModule>
+<Directory "/home/*/public_html">
+    Options Indexes Includes FollowSymLinks
+    Require all granted
+</Directory>
+
+17
+
+3.

@@ -1,0 +1,6 @@
+These include a desktop sharing 
+protocol like Virtual Network Computing (commonly called VNC), Remote Desktop Protocol (RDP), which 
+is often used to provide remote access to Windows hosts, and the extensively used Secure Shell (SSH).
+
+Using SSH
+We’re quickly going to look at using SSH to provide remote command-line access to a Linux host.

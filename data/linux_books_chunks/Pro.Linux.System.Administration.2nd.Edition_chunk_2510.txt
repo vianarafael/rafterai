@@ -1,0 +1,10 @@
+41     IN      A       150.101.161.152
+
+;; AUTHORITY SECTION:
+google.com.            2071   IN      NS      ns4.google.com.
+google.com.            2071   IN      NS      ns1.google.com.
+google.com.            2071   IN      NS      ns3.google.com.
+google.com.            2071   IN      NS      ns2.google.com.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.

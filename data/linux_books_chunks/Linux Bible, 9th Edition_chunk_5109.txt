@@ -1,0 +1,21 @@
+Here’s how to do that from the Download Ubuntu page:
+
+1.  Click the Download button. By default, this downloads the most recent 64-bit 
+
+Ubuntu desktop Live ISO image.
+
+ A
+
+2.  Either you are asked where you want to download the ISO image or it simply begins 
+
+downloading to a default folder.
+
+775
+
+ 
+ 
+bapp01.indd  04/02/2015  Page 776
+
+Appendix A: Media
+
+3.

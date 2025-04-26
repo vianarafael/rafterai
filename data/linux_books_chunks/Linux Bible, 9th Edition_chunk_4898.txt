@@ -1,0 +1,5 @@
+After installation is complete and the system is rebooted, I 
+install more of the software that’s needed for each hypervisor.
+
+Reboot the computer when installation is ﬁ nished (ejecting the DVD and starting up on the 
+hard disk).

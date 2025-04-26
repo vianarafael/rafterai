@@ -1,0 +1,12 @@
+This option rejects any 
+e-mail not in accordance with the last two criteria we just established: to the specified remote destinations 
+or to and from the local host.
+
+ You can see a bit more about recipient restrictions at www.postfix.org/postconf.5.html#smtpd_
+
+ ■ Note 
+recipient_restrictions.
+
+Testing Postfix Authentication
+
+Now, once we’ve restarted Postfix, our SASL configuration should be active, and we can test this.

@@ -1,0 +1,7 @@
+1 root root  2559  Nov 25 02:49  20_ppc_terminfo
+-rwxr-xr-x. 1 root root 11169 Nov 25 02:49  30_os-prober
+-rwxr-xr-x. 1 root root   214   Nov 25 02:49  40_custom
+-rwxr-xr-x. 1 root root   216   Nov 25 02:49  41_custom
+-rw-r--r--.   1 root root   483   Nov 25 02:49  README
+
+Listing 6-1 shows the files that make up a grub.cfg file.

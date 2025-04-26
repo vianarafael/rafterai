@@ -1,0 +1,15 @@
+a writable file server
+
+220
+
+a writable file server
+
+18.1. set up a directory to share
+
+In this second example, we will create a share where everyone can create files and write to
+files. Again, we start by creating a directory
+
+[root@RHEL52 samba]# mkdir -p /srv/samba/writable
+[root@RHEL52 samba]# chmod 777 /srv/samba/writable/
+
+18.2.

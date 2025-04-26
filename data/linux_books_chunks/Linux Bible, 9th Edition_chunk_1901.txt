@@ -1,0 +1,4 @@
+When run with this ﬂ ag, useradd 
+refrains from actually creating a new user account; instead, it saves any additionally 
+ supplied options as the new default values in /etc/default/useradd. Not all useradd 
+options can be used in conjunction with the -D option.

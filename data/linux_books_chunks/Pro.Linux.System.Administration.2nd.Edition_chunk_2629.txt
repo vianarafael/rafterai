@@ -1,0 +1,31 @@
+Using the rndc 
+
+utility again we can issue the following command:
+
+$ sudo rndc querylog on
+
+If we tail the /var/log/syslog (on Ubuntu) we will see the following:
+
+Jun 28 12:23:26 localhost named[2548]: received control channel command 'querylog on'
+Jun 28 12:23:26 localhost named[2548]: query logging is now on
+
+We will now be able to see the DNS queries in the system log as follows:
+
+Jun 28 12:25:31 localhost named[2548]: client 127.0.0.1#47616 (1.0.168.192.in-addr.arpa): 
+query: 1.0.168.192.in-addr.arpa IN PTR + (127.0.0.1)
+
+To turn off the query logging we simply issue the following:
+
+$ sudo rndc querylog off
+
+448
+
+We’ll add the period now and increment the zone serial number and the records should now look as 
+
+follows:
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+$ORIGIN 0.168.192.in-addr.arpa.
+$TTL  86400
+@  IN  SOA    ns.example.com.

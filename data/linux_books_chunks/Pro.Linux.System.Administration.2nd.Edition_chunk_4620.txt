@@ -1,0 +1,11 @@
+This 
+
+is basically superfluous, as anything not granted explicit access will be denied; however, it shows the end of 
+your access control list set and prevents any access control lists that might be present below it being read in 
+by mistake.
+
+to * by * none stop
+
+The wildcards here match everything, meaning that any access sort is denied, and all further processing 
+
+is stopped by the stop option in the control field.

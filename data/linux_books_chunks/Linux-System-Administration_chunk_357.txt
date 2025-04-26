@@ -1,0 +1,35 @@
+If /etc/
+filesystems ends with a line containing only an asterisk (*) then both files are probed.
+
+paul@RHELv4u4:~$ cat /proc/filesystems 
+nodev   sysfs
+nodev   rootfs
+nodev   bdev
+nodev   proc
+nodev   sockfs
+nodev   binfmt_misc
+nodev   usbfs
+nodev   usbdevfs
+nodev   futexfs
+nodev   tmpfs
+nodev   pipefs
+nodev   eventpollfs
+nodev   devpts
+        ext2
+nodev   ramfs
+nodev   hugetlbfs
+        iso9660
+nodev   relayfs
+nodev   mqueue
+nodev   selinuxfs
+        ext3
+nodev   rpc_pipefs
+nodev   vmware-hgfs
+nodev   autofs
+paul@RHELv4u4:~$
+
+60
+
+file systems
+
+6.3.

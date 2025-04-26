@@ -1,0 +1,7 @@
+You may 
+
+like add the VirtualHost directives in our Ubuntu example into a copy of this file to include the SSL and 
+logging directives. If you don’t, the LAM GUI will be available from http://ldap.example.com/lam. Refer to 
+Chapter 11 for more information on managing CentOS virtual hosts.
+
+Next, we start the Apache web server and point our browser at https://ldap.example.com/lam.

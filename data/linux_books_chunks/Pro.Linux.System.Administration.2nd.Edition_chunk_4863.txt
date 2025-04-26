@@ -1,0 +1,13 @@
+In that case, either allocate or install more memory to your system.
+
+ top itself is fairly resource hungry, so if a system is unresponsive and under extremely heavy load, it 
+
+ ■ Note 
+might be easier and quicker to reboot it than to wait for top to start.
+
+procs - ---------memory------------- ---swap-- ---io--- --system-- ------cpu-----
+ r  b   swpd   free     buff  cache   si   so    bi    bo    in    cs     us sy id wa st
+ 0  0   422336 750352   8252 130736    0    0     0     0     27   56     0  0 100  0  0
+ 0  0   422332 750352   8252 130736    1    0     1     0     27   55     0  0 100  0  0
+
+In the previous example, this is an example of a host under light load.

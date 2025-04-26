@@ -1,0 +1,4 @@
+Because so 
+many conﬁ guration ﬁ les and document ﬁ les are in plain-text format, you need to become 
+ proﬁ cient with a text editor to effectively use Linux. Finding ﬁ lenames and content in ﬁ les 
+are also critical skills.

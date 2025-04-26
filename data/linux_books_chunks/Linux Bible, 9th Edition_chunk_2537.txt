@@ -1,0 +1,7 @@
+Another is to use menu-based commands that let 
+you press arrow and Tab keys to navigate and forms you ﬁ ll in to conﬁ gure your network 
+interface.
+
+Before NetworkManager existed, the system-config-network command launched a 
+graphical interface that was the primary way to conﬁ gure networking in earlier Fedora 
+releases and Red Hat Enterprise Linux up to RHEL 6.

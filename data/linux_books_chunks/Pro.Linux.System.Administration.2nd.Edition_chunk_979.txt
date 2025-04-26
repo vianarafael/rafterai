@@ -1,0 +1,9 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_6 
+ 
+ 
+Chapter 6 ■ Startup and ServiCeS
+
+The BIOS
+
+The BIOS performs rudimentary system checks or power-on self-test (POST) operations on the availability of 
+different bits of hardware attached to your system, like the memory, hard drives, keyboard, and video card.

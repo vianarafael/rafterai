@@ -1,0 +1,17 @@
+The view changes to a set of icons representing the applications installed on 
+your system, as shown in Figure 2.3.
+
+35
+
+ 
+ 
+ 
+c02.indd  04/01/2015  Page 36
+
+Part I: Getting Started
+
+FIGURE 2.3
+
+Show the list of available applications.
+
+4.  View additional applications.

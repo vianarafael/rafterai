@@ -1,0 +1,5 @@
+This means 
+when you sign a certificate, you must change your working directory to the CA directory, in our case, /etc/
+pki/CA.
+
+ have a look at the default settings in the openssl.cnf file for your Ca.

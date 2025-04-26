@@ -1,0 +1,6 @@
+A man page 
+tells you what the command can do, what options are available, and a variety of other information about it. 
+You can access the man page by typing man and the name of the command whose man page you wish to view, 
+as you can see in Listing 4-2.
+
+Listing 4-2.

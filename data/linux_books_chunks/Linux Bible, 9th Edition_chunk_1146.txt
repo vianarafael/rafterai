@@ -1,0 +1,6 @@
+Anything following the name of the script is referred to as a 
+ command-line argument.
+
+As with writing any software, there is no substitute for clear and thoughtful design and 
+lots of comments. The pound sign (#) prefaces comments and can take up an entire line or 
+exist on the same line after script code.

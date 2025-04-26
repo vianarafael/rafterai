@@ -1,0 +1,2 @@
+Creating a user account that has no default shell (actually, /sbin/nologin) is how 
+you can keep a user from logging into a shell, but still allow FTP access.

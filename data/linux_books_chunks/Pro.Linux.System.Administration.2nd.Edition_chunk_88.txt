@@ -1,0 +1,3 @@
+One 
+of the differences with virtual hosts is that you can install your host directly from an ISO image, rather than 
+having to burn an ISO image to CD/DVD/USB first and load it into the CD/DVD drive or load it in the USB drive.

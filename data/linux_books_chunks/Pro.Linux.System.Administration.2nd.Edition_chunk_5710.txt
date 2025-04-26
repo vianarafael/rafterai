@@ -1,0 +1,6 @@
+When set to true, this 
+attribute ensures our service starts when the host boots (similar to using the systemctl enable command).
+
+We’ve also specified another metaparameter, this one called notify, in Listing 19-13. This 
+metaparameter has been added to the File['/etc/ssh/sshd_config'] resource. The notify 
+metaparameter tells other resources about changes and updates to a resource.

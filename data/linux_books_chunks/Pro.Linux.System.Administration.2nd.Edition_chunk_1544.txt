@@ -1,0 +1,10 @@
+This sort of script can be used to 
+copy files from one host to another host or make any sort of connection.
+
+Let’s now move on to further explore how you can test your connections and troubleshoot your network 
+
+using a few simple utilities.
+
+Netfilter and iptables
+Many people now understand what a firewall is, as they have started to become mandatory on even the 
+simplest of hosts.

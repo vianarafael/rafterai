@@ -1,0 +1,4 @@
+This is done with a feature 
+called Forward Secure Sealing (FSS), which signs the logs with one of a generated key pair. A sealing key will 
+seal the logs at a specified interval, and the verify key can be used to detect tampering. The logs are singed, 
+or sealed, at regular configurable intervals.

@@ -1,0 +1,14 @@
+You can see more about FPM here:
+
+•	
+
+•	
+
+https://github.com/jordansissel/fpm
+
+www.digitalocean.com/community/tutorials/how-to-use-fpm-to-easily-
+create-packages-in-multiple-formats
+
+Summary
+In this chapter, we have seen a lot. Now you should be able to install, remove, update, and maintain the 
+packages on your Linux server.

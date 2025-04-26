@@ -1,0 +1,19 @@
+for an interesting 
+look at the root key signing ceremony, please read the following: www.cloudflare.com/dnssec/root-
+signing-ceremony/
+
+for a more detailed explanation of DnsseC please see the following:
+
+• 
+
+• 
+
+• 
+
+www.cloudflare.com/dnssec/how-dnssec-works/
+
+https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions
+
+www.youtube.com/watch?v=yUPnI6JFTYI
+
+The next option, auth-nxdomain, is set to no.

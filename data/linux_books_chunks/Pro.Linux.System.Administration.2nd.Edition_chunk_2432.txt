@@ -1,0 +1,11 @@
+Or you can use the more 
+effective and accurate ntp daemon.
+
+If you are going to use the cron method, you should redirect standard input and standard output to 
+
+/dev/null, so you don’t receive twice-hourly e-mails.
+
+0 */2 * * *    root    /usr/sbin/ntpdate pool.ntp.org > /dev/null 2>&1
+
+However, you’d need to install and maintain such a crontab entry on each of your hosts, and even then, 
+depending on the quality of the hardware, the system clock can skew quite a lot over the course of two hours.

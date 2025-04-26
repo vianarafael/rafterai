@@ -1,0 +1,4 @@
+arp
+
+The ip to mac resolution is handled by the layer two broadcast protocol arp. The arp table
+can be displayed with the arp tool.

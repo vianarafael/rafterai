@@ -1,0 +1,6 @@
+We also store our data encrypted at rest with S3, and we could further encrypt 
+our files using server-side encryption.
+
+Installing Duply will install Duplicity as a requirement. It may not, however, install python-boto, and 
+
+you may have to install this also.

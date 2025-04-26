@@ -1,0 +1,13 @@
+make
+
+The running of the make command.
+
+[root@rhel4a kernel_module]# make
+make -C /lib/modules/2.6.9-paul-2/build M=~/kernel_module modules
+make[1]: Entering dir... `/usr/src/redhat/BUILD/kernel-2.6.9/linux-2.6.9'
+CC [M]  /home/paul/kernel_module/hello.o
+Building modules, stage 2.
+MODPOST
+CC      /home/paul/kernel_module/hello.mod.o
+LD [M]  /home/paul/kernel_module/hello.ko
+make[1]: Leaving dir...

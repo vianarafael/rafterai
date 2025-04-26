@@ -1,0 +1,8 @@
+We are going to test both 
+Puppet and Ansible side by side, so we will choose Serverspec.
+
+Installing Serverspec
+
+In this testing scenario, we have checked out a particular Git repository that will have our configuration 
+management files we want to test. We are going to use Vagrant to help bring up and test how our 
+configurations are applied to our hosts.

@@ -1,0 +1,3 @@
+The /etc/shadow file is read only
+and can only be read by root. We will see in the file permissions section how it is possible
+for users to change their password.

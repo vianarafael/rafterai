@@ -1,0 +1,11 @@
+For example, a plus sign (+) indicates that the process is 
+associated with the foreground operations.
+
+138
+
+c06.indd  04/01/2015  Page 139
+
+Chapter 6: Managing Running Processes
+
+The USER column shows the name of the user who started the process. Each process is 
+represented by a unique ID number referred to as a process ID (PID).

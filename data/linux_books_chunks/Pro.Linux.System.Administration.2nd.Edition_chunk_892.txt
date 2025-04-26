@@ -1,0 +1,4 @@
+These checks are stacked together; for example, when logging 
+in we check the user exists, then check that the user’s password is valid, and then that the password hasn’t 
+expired. This stack is usually made up of multiple PAM modules, each of which performs some check 
+function. Additionally, some checks must pass (e.g., your user must exist), and other checks may be optional.

@@ -1,0 +1,10 @@
+You should see a summary of changes.
+
+i. If the changes look acceptable, select Accept Changes. If you are just practic-
+
+ing and don’t actually want to change your partitions, select Cancel & Return to 
+Custom Partitioning. Then simply exit the installer.
+
+Chapter 10: Getting and Managing Software
+
+1.

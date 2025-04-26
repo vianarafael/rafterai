@@ -1,0 +1,15 @@
+Since we have no need 
+
+for this user at the moment, we’ll show you how to delete the user by removing mydb from the system.
+
+MariaDB [(none)]> DROP USER `mydb`@`localhost`;
+Query OK, 0 rows affected (0.00 sec)
+
+And since we also have no need for the mydb database, we’ll remove that, too.
+
+MariaDB [(none)]> DROP DATABASE `mydb`;
+Query OK, 0 rows affected (0.00 sec)
+
+Teaching SQL and MariaDB administration skills is beyond the scope of this book, but these basic skills 
+
+will allow you to set up most MariaDB-based web applications by following their installation instructions.

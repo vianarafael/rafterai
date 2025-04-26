@@ -1,0 +1,9 @@
+However most people use 
+a centrally hosted Git repository service like GitLab, GitHub, or BitBucket and one of the first actions is to 
+clone the repository:
+
+$ git clone git@<githost.com>:<username>/git-repository.git
+
+The foregoing command will log into the githost.com server using the SSH protocol (you can also 
+
+use HTTPS, Git, or a local protocol).

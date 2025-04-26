@@ -1,0 +1,16 @@
+200 OK
+Length: 32 [text/html]
+Saving to: `index.html'
+
+100%[============================================>] 32          --.-K/s   in 0s
+
+2014-05-06 21:16:03 (2.92 MB/s) - `index.html' saved [32/32]
+
+root@debian7:/etc/apache2# cat index.html 
+Choo Choo model train Choo Choo
+
+Testing the chess club named Chess Club 42 on port 8000.
+
+root@debian7:/etc/apache2# wget 127.0.0.1:8000 
+--2014-05-06 21:16:20--  http://127.0.0.1:8000/
+Connecting to 127.0.0.1:8000...

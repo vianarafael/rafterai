@@ -1,0 +1,10 @@
+You can find instructions at http://cobbler.github.io/manuals/2.8.0/5_-_Web_
+Interface.html.
+
+Troubleshooting Cobbler
+
+You can troubleshoot the network boot process by monitoring elements on your host, including your log 
+files, and by using a network monitoring tool like the tcpdump or tshark command.
+
+You can start by monitoring the output of the DHCP process by looking at the /var/log/messages log 
+files.

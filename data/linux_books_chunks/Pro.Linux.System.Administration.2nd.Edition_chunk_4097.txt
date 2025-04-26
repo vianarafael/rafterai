@@ -1,0 +1,2 @@
+We will then make sure that our backup.
+example.com host can connect to port 3306 on headoffice.example.com by making a change to the firewall.

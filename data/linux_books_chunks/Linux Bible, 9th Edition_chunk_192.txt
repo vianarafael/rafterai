@@ -1,0 +1,12 @@
+The mecca for such 
+ projects was the Bell Laboratories site in Murray Hill, New Jersey.
+
+7
+
+c01.indd  04/01/2015  Page 8
+
+Part I: Getting Started
+
+After a project called Multics failed in around 1969, Bell Labs employees Ken Thompson 
+and Dennis Ritchie set off on their own to create an operating system that would offer 
+an improved environment for developing software.

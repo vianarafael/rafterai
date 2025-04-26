@@ -1,0 +1,6 @@
+To have a good desktop PC experience 
+with Linux, however, you should consider what you want to be able to do with Linux when 
+you are choosing your computer.
+
+Be sure to consider the basic speciﬁ cations you need for a PC-type computer to run the 
+Fedora and Red Hat Enterprise Linux distributions.

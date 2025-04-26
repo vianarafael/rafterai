@@ -1,0 +1,7 @@
+Finally, it 
+describes how to use tools for manually loading and working with drivers for hardware that 
+is not detected and loaded properly.
+
+Checking your hardware
+When your system boots, the kernel detects your hardware and loads drivers that allow 
+Linux to work with that hardware.

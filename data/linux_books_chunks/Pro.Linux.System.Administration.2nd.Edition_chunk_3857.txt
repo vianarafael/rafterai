@@ -1,0 +1,10 @@
+We should now 
+
+restart our cups service and make sure it is available on boot.
+
+$ sudo systemctl enable cups
+$ sudo systemctl start cups
+
+Now we can go to the web administration page and add our printer. Open a web page and go to the URL 
+
+https://print-srv.example.com:631.

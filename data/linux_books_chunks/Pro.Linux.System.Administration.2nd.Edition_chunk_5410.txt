@@ -1,0 +1,68 @@
+Nagios Plug-Ins
+
+Plug-in
+
+check_ntp
+
+check_swap
+
+Description
+
+Checks the status of an NTP service
+
+Checks your swap
+
+check_ifstatus
+
+Checks the status of network interfaces
+
+check_tcp
+
+Checks the status of a TCP-based network service
+
+check_by_ssh
+
+Checks the status of a service via SSH
+
+check_imap
+
+check_clamd
+
+check_udp
+
+check_dig
+
+check_ping
+
+check_simap
+
+Checks the status of an IMAP service
+
+Checks the status of a ClamAV daemon
+
+Checks the status of a UDP-based network service
+
+Checks the DNS status via dig
+
+Checks the status of a host via ICMP
+
+Checks the status of an IMAP service
+
+check_nagios
+
+Checks the status of the Nagios process
+
+check_snmp
+
+check_http
+
+check_ssh
+
+Checks via SNMP
+
+Checks the status of a web server
+
+Checks the status of an sshd service
+
+This is a small selection of the available plug-ins, but it should give you a good basis for creating 
+appropriate checks for your environment.

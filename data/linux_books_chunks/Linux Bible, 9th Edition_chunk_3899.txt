@@ -1,0 +1,7 @@
+You can also keep using your system during this process.
+
+21
+
+If you do have dependency problems during preupgrade, you can work them out 
+before the upgrade actually takes place. Removing packages that have dependency 
+problems is one way to deal with the problem (yum remove somepackage).

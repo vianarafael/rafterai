@@ -1,0 +1,11 @@
+and 4 a.m. 
+
+and between 12 p.m. and 4 p.m.
+
+The next column, root, represents the user that this program will run as. When you add your own cron 
+
+jobs (or scripts), you can set this to be any valid user.
+
+The run-parts option is the command that is being run. run-parts is a special command that will run 
+
+any executable script within a specified directory.

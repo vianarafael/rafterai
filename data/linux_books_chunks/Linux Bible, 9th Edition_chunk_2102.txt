@@ -1,0 +1,18 @@
+I check that the partition table is the way I want it and then write the changes:
+
+Command (m for help): p
+...
+   Device Boot    Start       End    Blocks  Id  System
+/dev/sdc1          2048   1026047    512000  83  Linux
+/dev/sdc2       1026048   2050047    512000  82  Linux swap / 
+Solaris
+/dev/sdc3       2050048   2664447    307200  83  Linux
+/dev/sdc4       2664448  15667199   6501376   5  Extended
+/dev/sdc5       2666496   3383295    358400   c  W95 FAT32 (LBA)
+/dev/sdc6       3385344   4204543    409600  8e  Linux LVM
+Command (m for help): w
+The partition table has been altered!
+Calling ioctl() to re-read partition table.
+...
+
+5.

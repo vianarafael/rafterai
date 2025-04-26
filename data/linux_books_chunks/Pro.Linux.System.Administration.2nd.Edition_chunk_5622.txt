@@ -1,0 +1,18 @@
+Let’s 
+
+create that now.
+
+$ sudo touch /etc/puppetlabs/code/environments/production/manifests/site.pp
+
+ ■ Note 
+
+ Manifest files containing configuration have a suffix of .pp.
+
+We’re also going to create three more directories at the base of our production directory, first site and 
+
+in that directory profile and role.
+
+$ sudo mkdir -p /etc/puppetlabs/code/environments/production/site/{profile,role}
+
+The site directory is actually another module and, like role, will be used to contain specific role and 
+profile information for this particular environment.

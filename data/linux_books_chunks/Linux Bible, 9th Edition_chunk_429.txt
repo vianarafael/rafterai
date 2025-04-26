@@ -1,0 +1,7 @@
+Next, you can try 
+ running some useful and fun desktop applications from GNOME 3.
+
+Setting up the GNOME 3 desktop
+Much of what you need GNOME 3 to do for you is set up automatically. However, you need to 
+make a few tweaks to get the desktop the way you want. Most of these setup activities are 
+available from the System Settings window (see Figure 2.8).

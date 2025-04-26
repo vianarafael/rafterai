@@ -1,0 +1,11 @@
+Creating a New User
+
+$ sudo useradd –m –c 'John Smith' jsmith
+
+ In Listing 5-1, you can see we’ve prefixed the useradd command with the sudo command to avoid 
+
+ ■ Note 
+having to log on as the root user.
+
+The useradd command has a number of options, and we’re using just a couple in Listing 5-1. The first 
+argument, -m, tells the host to create a home directory for the user.

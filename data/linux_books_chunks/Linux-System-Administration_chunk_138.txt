@@ -1,0 +1,21 @@
+solution : background processes ...................................................................................................  26
+
+2
+
+Chapter 1. introduction to processes
+
+3
+
+introduction to processes
+
+1.1. terminology
+
+1.1.1. process
+
+A process is compiled source code that is currently running on the system.
+
+1.1.2. PID
+
+All processes have a process id or PID.
+
+1.1.3.

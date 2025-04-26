@@ -1,0 +1,7 @@
+Can be either base, one, sub, or children.
+
+Most commonly you will use the –D option to specify the user you are binding as to make a query or 
+
+modification and will use the -xW option to perform a simple bind and be prompted for a password (as 
+opposed to a SASL bind –Y). Some of the options we have shown in Table 16-4 will not be available to all 
+LDAP tools.

@@ -1,0 +1,4 @@
+Other common daemons include master (the Postfix mail server), httpd (the Apache 
+web server), and mysqld (the MySQL database server). Some of these processes may be running by default 
+on your host together with a number of other processes that perform a variety of system and application 
+functions.

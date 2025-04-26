@@ -1,0 +1,6 @@
+In Fedora 21, the 
+Connect to Server window should appear as shown in Figure 19.6.
+
+Fill in the address of a Samba share you want to access and click Connect. In the example, 
+the salesdata share was chosen. If required, you are prompted for a username, domain, 
+and password.

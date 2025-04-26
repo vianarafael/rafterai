@@ -1,0 +1,11 @@
+Try running the following code in a test directory:
+
+for file in * ; do
+   f=`echo $file | tr [:blank:] [_]`
+   [ "$file" = "$f" ] || mv -i -- "$file" "$f"
+done
+
+The stream editor (sed)
+The sed command is a simple scriptable editor, so it can perform only simple edits, such 
+as removing lines that have text matching a certain pattern, replacing one pattern of 
+ characters with another, and so on.

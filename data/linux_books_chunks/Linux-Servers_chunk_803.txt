@@ -1,0 +1,11 @@
+policy
+
+Most Red Hat server will have the targeted policy. Only NSA/FBI/CIA/DOD/HLS use the
+mls policy.
+
+The  targted  policy  will  protect  hundreds  of  processes,  but  lets  other  processes  run
+'unconfined' (= they can do anything).
+
+19.8. /etc/selinux/config
+
+The main configuration file for selinux is /etc/selinux/config.

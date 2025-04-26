@@ -1,0 +1,2 @@
+The X server runs on the local sys-
+tem, providing an interface to your screen, mouse, and keyboard.

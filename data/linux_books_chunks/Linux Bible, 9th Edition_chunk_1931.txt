@@ -1,0 +1,8 @@
+Only someone with root privilege can assign users 
+to groups.
+
+ ■ Any ﬁ le assigned to the sales or marketing group is accessible to sara with 
+
+group and other permissions (whichever provides the most access). If sara wants 
+to create a ﬁ le with the sales or marketing groups assigned to it, she could use 
+the newgrp command.

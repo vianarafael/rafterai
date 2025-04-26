@@ -1,0 +1,33 @@
+Another alternative is to have something like this where we use 
+environment variables that are populated from a secured keychain:
+
+TARGET_USER=`echo $AWS_ACCESS_KEY_ID`
+TARGET_PASS=`echo $AWS_SECRET_ACCESS_KEY`
+
+A list of alternatives to storing your secrets for AWS would look like this:
+
+•	
+
+•	
+
+•	
+
+https://github.com/fugue/credstash
+
+https://github.com/99designs/aws-vault
+
+https://github.com/pda/aws-keychain
+
+Next we list the base root, or source, of all our backups.
+
+SOURCE='/'
+
+661
+
+Chapter 14 ■ BaCkup and reCovery
+
+If you are doing home directories, you might like to use your home directory as the source.
+
+SOURCE='/home/jsmith' 
+
+Lastly, we are going to set MAX_AGE to 1 month.

@@ -1,0 +1,8 @@
+Include, immediately after the copyright notices, a license
+notice giving the public permission to use the Modified Version under
+the terms of this License, in the form shown in the Addendum below.
+   * G. Preserve in that license notice the full lists of Invariant
+Sections and required Cover Texts given in the Document's license
+notice.
+   * H. Include an unaltered copy of this License.
+   * I.

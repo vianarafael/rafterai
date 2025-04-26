@@ -1,0 +1,15 @@
+The 
+main files are the following:
+
+ File
+ 00-INDEX
+
+ Description
+ Summary of the contents for each file in the Documentation 
+directory
+
+ Configure.help  Contains the help displayed when configuring a kernel
+
+The Configure.help file also provides further information for when a kernel module 
+doesn't load properly. Specific options and aliases for /etc/modules.conf are specified in 
+that file.

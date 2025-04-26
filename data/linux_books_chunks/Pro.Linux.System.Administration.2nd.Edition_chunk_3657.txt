@@ -1,0 +1,7 @@
+The Server Role setting is dc, which stands for domain controller, 
+meaning we are the authority for the Samba Windows domain, SAMBA.
+
+For DNS, we have the options SAMBA_INTERNAL, BIND9_FLATFILE, BIND9_DLZ, and NONE. We have chosen 
+
+BIND9_DLZ, which will tells Samba to manage our DNS subdomain dynamically through the special Samba 
+module we included in our named.conf.options file previously.

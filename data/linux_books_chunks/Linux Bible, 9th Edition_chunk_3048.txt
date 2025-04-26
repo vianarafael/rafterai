@@ -1,0 +1,12 @@
+Make it a generic PostScript printer 
+ connected to a local serial, LPT, or other port.
+
+2.  Use the lpc command to see the status of all your printers.
+
+3.  Use the lpr command to print the /etc/hosts ﬁ le to that printer.
+
+4.  Check the print queue for that printer to see that the print job is there.
+
+5.  Remove the print job from the queue (cancel it).
+
+6.

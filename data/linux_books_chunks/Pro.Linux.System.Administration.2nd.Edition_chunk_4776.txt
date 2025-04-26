@@ -1,0 +1,1 @@
+In our sssd.conf file, we specified the ldap_tls_cacert.

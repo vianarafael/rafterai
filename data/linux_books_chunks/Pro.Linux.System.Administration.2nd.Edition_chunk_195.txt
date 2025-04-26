@@ -1,0 +1,11 @@
+The root account being a very 
+powerful account is one you don’t use lightly. We are going to create a user on our system for our initial 
+access.
+
+39
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+In Figure 2-26 we are going to create a user called JSmith by first selecting User Creation.
+
+Figure 2-26.

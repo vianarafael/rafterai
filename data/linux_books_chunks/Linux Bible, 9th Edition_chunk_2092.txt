@@ -1,0 +1,6 @@
+Taking that same 8GB USB ﬂ ash drive, I ran the procedure described later 
+in this section to create multiple partitions on one disk.
+
+In this procedure, I create a partition of 500MB (sdc1 and sdc2), 300MB (sdc3), 350MB 
+(sdc5), and 400MB (sdc6). The sdc4 device is an extended partition, which consumes 
+all remaining disk space.

@@ -1,0 +1,32 @@
+The following is a brief list 
+of organizations that can help you.
+
+ ■ United States Computer Emergency Readiness Team (CERT)
+
+ ■ URL: www.us-cert.gov
+
+ ■ Offers the National Cyber Alert System
+
+ ■ Offers RSS feeds on the latest security threats
+
+623
+
+c22.indd  04/15/2015  Page 624
+
+Part V: Learning Linux Security Techniques
+
+ ■ The SANS Institute
+
+ ■ URL: www.sans.org/security-resources
+
+ ■ Offers Computer Security Research newsletters
+
+ ■ Offers RSS feeds on the latest security threats
+
+ ■ Gibson Research Corporation
+
+ ■ URL: www.grc.com
+
+ ■ Offers the Security Now! security netcast
+
+Information from these sites will assist you in creating stronger policies and procedures.

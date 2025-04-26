@@ -1,0 +1,2 @@
+We show you how to set up a simple file using Samba that will allow you to 
+share documents with your co-workers.

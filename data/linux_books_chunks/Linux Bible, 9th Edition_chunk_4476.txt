@@ -1,0 +1,6 @@
+Keeping a user ignorant of what 
+has  happened to an account is helpful if you are being attacked maliciously. The malicious 
+attacker does not know the account has been locked and thinks he has just entered 
+another incorrect password. This can allow you time to track down what is happening.
+
+Using the quiet option can, however, cause lots of problems for your users.

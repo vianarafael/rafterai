@@ -1,0 +1,30 @@
+# makepkg
+
+
+- Make a package:
+
+`makepkg`
+
+- Make a package and install its dependencies:
+
+`makepkg {{[-s|--syncdeps]}}`
+
+- Make a package, install its dependencies then install it to the system:
+
+`makepkg {{[-s|--syncdeps]}} {{[-i|--install]}}`
+
+- Make a package, but skip checking the source's hashes:
+
+`makepkg --skipchecksums`
+
+- Clean up work directories after a successful build:
+
+`makepkg {{[-c|--clean]}}`
+
+- Verify the hashes of the sources:
+
+`makepkg --verifysource`
+
+- Generate and save the source information into `.SRCINFO`:
+
+`makepkg --printsrcinfo > .SRCINFO`

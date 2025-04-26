@@ -1,0 +1,6 @@
+The Service Detail screen
+
+Here in Figure 18-13 we can see the status of the services that we are checking on our hosts. You can see 
+
+the check for Current Load is working on our gateway server. The HTTP check is in a WARNING state because 
+the httpd service is responding but the result is not 200 OK but rather 403.

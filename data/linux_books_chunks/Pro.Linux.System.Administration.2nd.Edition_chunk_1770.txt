@@ -1,0 +1,4 @@
+When these distributions were originally created, 
+the developers did not agree on how the package systems should work, so they created their own. Over the 
+years, development on them has continued, and nowadays we have multiple different mature package systems 
+and formats.

@@ -1,0 +1,14 @@
+Examine syslog to find the location of the log file containing ssh failed logins.
+
+Answer depends on whether you machine uses syslog or rsyslog (newer).
+
+[root@rhel53 ~]# grep authpriv /etc/syslog.conf
+authpriv.*                                              /var/log/secure
+
+[root@rhel71 ~]# grep ^authpriv /etc/rsyslog.conf
+authpriv.*                                              /var/log/secure
+
+paul@debian8:~$ grep ^auth /etc/rsyslog.conf
+auth,authpriv.*                   /var/log/auth.log
+
+5.

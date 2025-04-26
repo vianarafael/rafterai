@@ -1,0 +1,9 @@
+Use the -n option to label the partition and specify that you want a 
+FAT32 filesystem via the -F 32 option.
+
+$ sudo mkfs.vfat -n "USB Key" -F 32 /dev/sdg1
+mkfs.vfat 2.11 (12 Mar 2005)
+
+Other Filesystems
+A plethora of different filesystems are available for Linux, so you might ask why we covered only three of 
+them.

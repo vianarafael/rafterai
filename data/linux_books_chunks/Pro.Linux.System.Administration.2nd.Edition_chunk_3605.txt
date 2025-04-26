@@ -1,0 +1,2 @@
+This information is sent 
+to the syslog daemon and hence onto either your /var/log/maillog or /var/log/mail.log log files.

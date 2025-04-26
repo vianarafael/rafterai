@@ -1,0 +1,3 @@
+If that is the case, you need to identify the 
+ repository where the software packages exist. You can do that by providing a kickstart 
+ﬁ le or by identifying the location of the repositories in some way.

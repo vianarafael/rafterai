@@ -1,0 +1,21 @@
+We do that with the serverspec-init command.
+
+$ serverspec-init
+Select OS type:
+
+  1) UN*X
+  2) Windows
+
+Select number: 1
+
+We are asked what type of OS we are going to test; here we choose 1) UN*X.
+
+Select a backend type:
+
+  1) SSH
+  2) Exec (local)
+
+Select number: 1
+
+We can now choose how we are going to access the host: either run serverspec commands locally or 
+use SSH to sign into a host and run commands from inside that host.

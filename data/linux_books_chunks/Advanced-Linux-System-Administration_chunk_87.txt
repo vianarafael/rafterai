@@ -1,0 +1,9 @@
+One 
+cannot therefore have a totally modular kernel.
+
+When compiling a monolithic kernel none of the components should be compiled 
+dynamically.
+
+Stage 2: compiling the modules and the kernel
+
+The next table outlines the various 'makes' and their function during this stage.

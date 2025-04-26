@@ -1,0 +1,8 @@
+Each has a name provided via the contact_name attribute and an alias.
+For each contact, we specify when they should receive notifications and what notifications they should 
+
+receive.
+
+For specifying when to receive notifications, we use service_notification_period and host_
+
+notification_period.

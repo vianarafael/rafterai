@@ -1,0 +1,7 @@
+1 root root 36 Mar 13 17:27
+ /etc/systemd/system/default.target ->
+   /lib/systemd/system/runlevel3.target
+
+The capability to switch runlevels using the init or telinit command is still available. 
+When issued, either of the commands is translated into a systemd target unit activa-
+tion request.

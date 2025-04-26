@@ -1,0 +1,6 @@
+Because Fedora is used as the basis for 
+Red Hat Enterprise Linux releases, hardware requirements are similar for basic desktop and 
+server hardware for those two distributions.
+
+ ■ Processor—A 400 MHz Pentium processor is the minimum for a GUI installation. 
+For most applications, a 32-bit processor is ﬁ ne (x86).

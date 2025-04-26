@@ -1,0 +1,2 @@
+Sometimes you aren’t able to connect to services, or some part of 
+your network is incorrectly configured. To identify and resolve these problems, you will need a set of tools.

@@ -1,0 +1,8 @@
+You can find out the package contents using the dpkg -L command as follows:
+
+$ dpkg –L adduser
+
+This returns a full list of the files installed by the adduser package.
+
+ ■ Tip  An easy way to find out which commands are provided by a package is to list the files it installs to directories 
+that hold executable applications.

@@ -1,0 +1,5 @@
+Add the following information, and click Forward:
+
+ ■ Printer Name—Add the name you want to give to identify the printer. The 
+name must begin with a letter, but after the initial letter, it can contain a 
+ combination of letters, numbers, dashes (-), and underscores (_).

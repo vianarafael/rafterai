@@ -1,0 +1,12 @@
+To understand the format 
+of those and other log ﬁ les, the format of the /var/log/messages ﬁ le is described next.
+
+336
+
+c13.indd  04/01/2015  Page 337
+
+Chapter 13: Understanding Server Administration
+
+Understanding the messages log file
+Because of the many programs and services that record information to the messages log 
+ﬁ le, understanding the format of this ﬁ le is important.

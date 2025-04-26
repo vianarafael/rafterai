@@ -1,0 +1,34 @@
+It's strongly recommended to
+         switch off the mode (command 'c') and change display units to
+         sectors (command 'u').
+
+Command (m for help): n
+Command action
+   e   extended
+   p   primary partition (1-4)
+p
+Partition number (1-4): 1
+First cylinder (1-130, default 1): 
+Using default value 1
+Last cylinder, +cylinders or +size{K,M,G} (1-130, default 130): 
+Using default value 130
+
+Command (m for help): w
+The partition table has been altered!
+
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+step 3: pvcreate and vgcreate
+
+root@rhel65:~# pvcreate /dev/sdb /dev/sdc1
+  Physical volume "/dev/sdb" successfully created
+  Physical volume "/dev/sdc1" successfully created
+root@rhel65:~# vgcreate VG42 /dev/sdb /dev/sdc1
+  Volume group "VG42" successfully created
+
+122
+
+logical volume management
+
+2.

@@ -1,0 +1,7 @@
+You are asked to provide a password. 
+Note that you need to input this password at boot time, so this option is not suitable 
+for a remote or headless server. If you lose the encryption password, you will not be 
+able to retrieve your data.
+
+•	 Manual: This option opens the partition editor and allows you to manually configure 
+partitions, software raid, encryption, and LVM.

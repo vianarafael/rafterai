@@ -1,0 +1,10 @@
+We’ll also make use of 
+Transport Layer Security (TLS), a form of encryption that can be used to encrypt your e-mail, and talk about 
+SMTP AUTH, which is a way to authenticate your users when they send e-mail.
+
+We’re going to use the headoffice.example.com host as our e-mail server, and our gateway.example.com 
+will pass e-mail traffic through to that host, as we described in our example network configuration in Chapter 7.
+
+Our mail server will be called mail.example.com (which is a DNS CNAME we created in Chapter 10) 
+
+and have an internal IP address of 192.168.0.1.

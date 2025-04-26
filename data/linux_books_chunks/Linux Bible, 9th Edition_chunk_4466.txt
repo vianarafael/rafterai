@@ -1,0 +1,5 @@
+If your organization has such a policy, you can 
+accomplish this with PAM in just a few steps.
+
+The su command is PAM-aware, which greatly simpliﬁ es things. It uses the PAM module 
+pam_wheel to check for users in the wheel group.

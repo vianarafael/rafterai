@@ -1,0 +1,23 @@
+Exiting the child bash shell will get me back to the parent bash, not to the Korn shell
+(which does not exist anymore).
+
+[paul@RHEL4b ~]$ echo $$
+4224                                # PID of bash
+[paul@RHEL4b ~]$ ksh
+$ echo $$ $PPID
+5343 4224                           # PID of ksh and bash
+$ exec bash
+[paul@RHEL4b ~]$ echo $$ $PPID
+5343 4224                           # PID of bash and bash
+[paul@RHEL4b ~]$ exit
+exit
+[paul@RHEL4b ~]$ echo $$
+4224
+
+6
+
+  
+  
+introduction to processes
+
+1.2.6.

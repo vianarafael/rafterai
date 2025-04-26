@@ -1,0 +1,12 @@
+Create a report from the auditd daemon on the /etc/shadow ﬁ le, and then turn 
+
+off auditing on that ﬁ le.
+
+6.  Install the lemon package, damage the /usr/bin/lemon ﬁ le (perhaps copy 
+
+/etc/services there), verify that the ﬁ le has been tampered with, and remove 
+the lemon package.
+
+22
+
+7.

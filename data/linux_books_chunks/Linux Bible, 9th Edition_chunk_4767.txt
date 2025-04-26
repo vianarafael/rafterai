@@ -1,0 +1,15 @@
+Mangling packets is used in Network Address Translation.
+
+713
+
+c25.indd  04/02/2015  Page 714
+
+Part V: Learning Linux Security Techniques
+
+ ■ raw—The raw table is used to exempt certain network packets from something 
+
+called “connection tracking.” This feature is important when you are using Network 
+Address Translation and Virtualization on your Linux server.
+
+ ■ security—This table is available only on Linux distributions that have SELinux 
+(see Chapter 24, “Enhancing Linux Security with SELinux”).

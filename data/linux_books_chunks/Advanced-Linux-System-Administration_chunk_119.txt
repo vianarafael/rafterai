@@ -1,0 +1,2 @@
+The printtotty10 script can be started at boot time by placing the command in 
+/etc/rc.d/rc.local. The rc.local script is the last rc-script to be run.

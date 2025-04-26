@@ -1,0 +1,29 @@
+When are the variables replaced by their value ? By which shell ?
+
+[paul@RHEL4b ~]$ echo $$ $PPID
+4224 4223
+[paul@RHEL4b ~]$ bash -c "echo $$ $PPID"
+
+26
+
+background jobs
+
+4224 4223
+[paul@RHEL4b ~]$ bash -c 'echo $$ $PPID'
+5059 4224
+[paul@RHEL4b ~]$ bash -c `echo $$ $PPID`
+4223: 4224: command not found
+
+The current bash shell will replace the $$ and $PPID while scanning the line, and before
+executing the echo command.
+
+[paul@RHEL4b ~]$ echo $$ $PPID
+4224 4223
+
+The variables are now double quoted, but the current bash shell will replace $$ and $PPID
+while scanning the line, and before executing the bach -c command.
+
+[paul@RHEL4b ~]$ bash -c "echo $$ $PPID"
+4224 4223
+
+The  variables  are  now  single  quoted.

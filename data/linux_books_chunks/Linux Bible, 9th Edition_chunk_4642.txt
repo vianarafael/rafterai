@@ -1,0 +1,10 @@
+You must let SELinux 
+know you want the http service to be able to access the ﬁ les within /abc/www/html. 
+
+692
+
+c24.indd  04/15/2015  Page 693
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+The commands to accomplish this are semanage and restorecon.

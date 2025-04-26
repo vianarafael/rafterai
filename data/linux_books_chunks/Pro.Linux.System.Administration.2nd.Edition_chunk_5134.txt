@@ -1,0 +1,3 @@
+Then we have the 
+same configuration options as we had in the client for our TLS keys except we change the names. We accept 
+all peers that are signed by our CA with example.com in their common name.

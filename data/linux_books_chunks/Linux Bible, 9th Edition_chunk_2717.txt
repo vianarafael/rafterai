@@ -1,0 +1,6 @@
+The Upstart init daemon handles this via the start-ttys task.
+
+# initctl status start-ttys
+start-ttys stop/waiting
+
+The start-ttys task job’s conﬁ guration ﬁ le is shown next.

@@ -1,0 +1,5 @@
+For example, kernels that you have compiled yourself with all the 
+modules that your kernel needs for your system shouldn’t require an initrd file.
+
+You might, for example, wish to compile your own kernel if a later release of the kernel supported some 
+new hardware or functionality you required.

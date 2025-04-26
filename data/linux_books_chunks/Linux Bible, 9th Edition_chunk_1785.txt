@@ -1,0 +1,6 @@
+You can put a -y 
+on the command line (just after the yum command) to avoid having to press y to install the 
+packages, but personally, I usually want to see all the packages about to be installed before 
+I agree to the installation.
+
+You can reinstall a package if you mistakenly delete components of an installed package.

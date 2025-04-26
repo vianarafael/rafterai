@@ -1,0 +1,8 @@
+example: using lvm
+
+This example shows how you can use a device (in this case /dev/sdc, but it could have been /
+dev/sdb or any other disk or partition) with lvm, how to create a volume group (vg) and how
+to create and use a logical volume (vg/lvol0).
+
+First thing to do, is create physical volumes that can join the volume group with pvcreate.
+This command makes a disk or partition available for use in Volume Groups.

@@ -1,0 +1,12 @@
+The last field (amount) is the multiplication
+of the two fields named unitprice and unitcount.
+
+mysql> create table invoices (
+    -> id char(8) NOT NULL,
+    -> customerid char(3) NOT NULL,
+    -> unitprice int,
+    -> unitcount smallint,
+    -> amount int );
+Query OK, 0 rows affected (0.00 sec)
+
+We can let mysql do the calculation for that by using a before trigger.

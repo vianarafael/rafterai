@@ -1,0 +1,6 @@
+Now, using the 
+semanage command again, add that type to port 47347, as shown here:
+
+# semanage port -a -t ssh_port_t -p tcp 47347
+
+Next, edit the /etc/ssh/sshd_config ﬁ le to add a Port 47347 line to the ﬁ le.

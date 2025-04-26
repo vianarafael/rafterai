@@ -1,0 +1,15 @@
+The 
+
+default is 1Mb (on older releases); we’ll change this to 16Mb.
+
+max_allowed_packet = 16M
+
+Finally, we’ll enable the binary log by setting the log_bin variable. This will help us recover in case of a 
+
+crash.
+
+log_bin  = /var/log/mariadb/mariadb-bin.log
+expire_logs_days = 14
+max_binlog_size = 128M
+
+The bin logs, or binary logs, are used to replication transactions on the database.

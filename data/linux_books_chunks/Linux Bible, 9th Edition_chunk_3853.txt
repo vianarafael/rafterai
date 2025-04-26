@@ -1,0 +1,2 @@
+Some services that don’t get what they need to start can 
+hang indeﬁ nitely, keeping you from logging in to debug the problem.

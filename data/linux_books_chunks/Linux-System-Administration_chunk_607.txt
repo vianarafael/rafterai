@@ -1,0 +1,53 @@
+The bottom
+three are the multipath devices to use.
+
+[root@server2 ~]# fdisk -l | grep Disk
+Disk /dev/sda: 42.9 GB, 42949672960 bytes
+Disk identifier: 0x0004f229
+Disk /dev/sdb: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdc: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdd: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sde: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdf: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdg: 2147 MB, 2147483648 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/VolGroup-lv_root: 41.4 GB, 41448112128 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/VolGroup-lv_swap: 973 MB, 973078528 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdh: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdi: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdj: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdl: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdn: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdk: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdm: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdp: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdo: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/mpathh: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/mpathi: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/mapper/mpathj: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+[root@server2 ~]#
+
+149
+
+introduction to multipathing
+
+13.5.

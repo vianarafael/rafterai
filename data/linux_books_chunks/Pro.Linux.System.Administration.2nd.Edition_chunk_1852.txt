@@ -1,0 +1,6 @@
+You can have more than one baseurl listed in the baseurl option.
+
+baseurl=http://myrepo1.org/centos/...
+        http://myrepo2.org/centos/...
+
+The list of URLs can also be retrieved from a web server via the mirrorlist= option instead of baseurl=.

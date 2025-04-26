@@ -1,0 +1,18 @@
+You can see the names of the database ﬁ le and the log ﬁ le directories set here:
+
+# cat /etc/aide.conf
+# Example configuration file for AIDE.
+
+@@define DBDIR /var/lib/aide
+@@define LOGDIR /var/log/aide
+
+# The location of the database to be read.
+database=file:@@{DBDIR}/aide.db.gz
+
+# The location of the database to be written.
+#database_out=sql:host:port:database:login_name:passwd:table
+#database_out=file:aide.db.new
+database_out=file:@@{DBDIR}/aide.db.new.gz
+...
+
+An Intrusion Detection System can be a big help in monitoring the system.

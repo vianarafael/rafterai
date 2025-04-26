@@ -1,0 +1,5 @@
+In most cases, you log in as a regular user and become 
+the root user to do an administrative task.
+
+The root user has complete control of the operation of your Linux system. That user can 
+open any ﬁ le or run any program.

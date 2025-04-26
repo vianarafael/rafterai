@@ -1,0 +1,27 @@
+SELinux by default will prevent this, so we need to issue the 
+following:
+
+$ sudo setsebool -P httpd_can_network_connect true
+
+Cobbler has some specific SELinux settings, and you can view them with the following command:
+
+$ sudo getsebool -a|grep cobbler
+cobbler_anon_write --> off
+cobbler_can_network_connect --> off
+cobbler_use_cifs --> off
+cobbler_use_nfs --> off
+httpd_can_network_connect_cobbler --> off
+httpd_serve_cobbler_files --> off
+
+913
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We will enable the following SELinux Booleans:
+
+$ sudo setsebool -P httpd_serve_cobbler_files on
+$ sudo setsebool -P httpd_can_network_connect_cobbler  on
+
+Configuring Cobbler
+
+After you’ve installed the required packages, you need to configure Cobbler.

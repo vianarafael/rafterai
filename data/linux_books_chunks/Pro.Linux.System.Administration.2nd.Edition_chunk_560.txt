@@ -1,0 +1,4 @@
+A dash (-) here indicates a regular file that might contain data or 
+text, or be a binary executable. A d indicates a directory, which is essentially a file that lists other files. An l 
+indicates a symbolic link. Symbolic links allow you to make files and directories visible in multiple locations 
+in the filesystem.

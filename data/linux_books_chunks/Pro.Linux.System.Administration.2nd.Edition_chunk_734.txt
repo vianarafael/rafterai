@@ -1,0 +1,4 @@
+You cannot sign on as the root user at all.
+
+We’re going to need sudo in this chapter because almost all of the commands used to manage users and 
+groups require the privileges of the root user to run.

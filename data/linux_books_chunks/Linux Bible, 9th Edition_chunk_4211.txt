@@ -1,0 +1,5 @@
+However, this type of program has already been created and works well. 
+It’s called an Intrusion Detection System and is covered later in this chapter.
+
+You need to perform several other ﬁ lesystem scans on a regular basis. Favorite ﬁ les or ﬁ le 
+settings of malicious attackers are listed in Table 22.6.

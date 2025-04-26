@@ -1,0 +1,9 @@
+The 40_custom file is 
+where you may wish to add custom GRUB2 configurations.
+
+ in Linux configuration files, lines prefixed with the # symbol usually indicate comments, and these 
+
+ ■ Tip 
+lines are skipped when processing your configuration files.
+
+The GRUB2 configuration file is made via the grub2-mkconfig command.

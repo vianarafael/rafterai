@@ -1,0 +1,10 @@
+# distrobox-list
+
+
+- List all Distrobox containers:
+
+`distrobox-list`
+
+- List all Distrobox containers with verbose information:
+
+`distrobox-list {{[-v|--verbose]}}`

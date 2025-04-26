@@ -1,0 +1,6 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_11Chapter 11 ■ Web and SQL ServiCeS
+
+•	
+
+The event module is newer and based on the worker module. Its threading  
+model is similar to worker but is optimized for handling keepalive connections.

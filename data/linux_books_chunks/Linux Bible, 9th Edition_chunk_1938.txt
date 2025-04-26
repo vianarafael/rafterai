@@ -1,0 +1,8 @@
+In the second, the 
+name jokers is changed to jacks. If you wanted to then assign any of the groups as 
+ supplementary groups to a user, you can use the usermod command (as described earlier in 
+this chapter).
+
+Managing Users in the Enterprise
+The basic Linux method of handling user and group accounts has not changed since the 
+ﬁ rst UNIX systems were developed decades ago.

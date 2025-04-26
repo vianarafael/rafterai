@@ -1,0 +1,12 @@
+Choose one 
+of the zones from the list.
+
+ ■ Instance Name—Give the instance any name that helps you remember 
+
+what it is.
+
+ ■ Flavor—By choosing a ﬂ avor, you allocate a set of resources to your virtual 
+
+machine instance. The resources include the number of virtual CPU cores, the 
+amount of memory available, the disk space assigned, and ephemeral disk 
+space available.

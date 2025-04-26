@@ -1,0 +1,6 @@
+Vagrant up Output
+
+==> default: Importing base box 'ubuntu/xenial64'...
+==> default: Setting the name of the VM: first_default_1455714694375_15606
+==> default: Clearing any previously set forwarded ports...
+==> default: Fixed port collision for 22 => 2222.

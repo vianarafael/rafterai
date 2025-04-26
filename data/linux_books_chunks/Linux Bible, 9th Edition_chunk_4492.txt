@@ -1,0 +1,11 @@
+List out the key ring you generated.
+
+4.  Encrypt a ﬁ le, and add your digital signature using the gpg2 utility.
+
+5.  Go to the Linux Mint home page at www.linuxmint.com. From the Download 
+
+page, select one of the Linux Mint distributions to download. When the download is 
+complete, use the appropriate message digest utility to ensure that the downloaded 
+ﬁ le was not corrupted.
+
+6.

@@ -1,0 +1,7 @@
+Click 
+in the Workspaces pane to change names of workspaces to any names you choose.
+
+You can view and change information about Metacity controls and settings using the 
+gconf-editor window (type gconf-editor from a Terminal window). As the window 
+says, it is not the recommended way to change preferences, so when possible, you should 
+change the desktop through GNOME 2 preferences.

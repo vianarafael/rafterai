@@ -1,0 +1,13 @@
+Selecting the origin of your keyboard
+
+In Figure 2-47, we select the keyboard layout for US that will give us the standard key mapping for 
+
+Australian computers.
+
+ ■ Tip  You can change the keyboard settings at any time after the installation is finished.
+
+58
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-47.

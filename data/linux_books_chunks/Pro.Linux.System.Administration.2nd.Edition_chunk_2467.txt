@@ -1,0 +1,11 @@
+The main differences between the two implementations are the following:
+
+•	 Chrony does not support multicast and manycast.
+
+•	 Chrony is useful in situations where networks are intermittent.
+
+•	 Chrony works better in congested networks and virtual hosts.
+
+Install and Configure Chrony
+
+Chrony is quick and easy to install and is available on both CentOS and Ubuntu.

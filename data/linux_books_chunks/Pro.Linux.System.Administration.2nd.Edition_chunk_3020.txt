@@ -1,0 +1,2 @@
+It identifies the server or the web site you are connecting to. When you connect to an HTTPS web site, 
+what your browser is doing is accepting the site’s digital certificate as evidence the site is who it says it is.

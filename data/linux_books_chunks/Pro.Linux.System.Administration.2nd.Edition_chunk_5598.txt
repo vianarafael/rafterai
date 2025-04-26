@@ -1,0 +1,2 @@
+Each title is made up of the name of the resource type 
+(e.g., file) and the name of the resource (e.g., /etc/passwd).

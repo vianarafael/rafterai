@@ -1,0 +1,5 @@
+In case the
+target is not big enough to hold the dump (end-of-media), it is broken into multiple volumes.
+
+Restoring files that were backed up with dump is done with the restore command. In the
+example below we take a full level 0 backup of two partitions to a SCSI tape.

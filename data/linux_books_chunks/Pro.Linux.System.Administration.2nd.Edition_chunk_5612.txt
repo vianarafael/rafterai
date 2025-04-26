@@ -1,0 +1,4 @@
+You can see that this matches one of the dns_alt_names.
+
+The Puppet agents can specify the environment that they should use to collect their catalog when 
+they connect to the Puppet master.

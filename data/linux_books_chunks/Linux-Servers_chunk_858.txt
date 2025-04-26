@@ -1,0 +1,30 @@
+First we change a file:
+
+paul@debian6~/project42$ git status
+# On branch master
+nothing to commit (working directory clean)
+paul@debian6~/project42$ vi question.sh 
+
+Then we verify the status and see that it is modified:
+
+paul@debian6~/project42$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+# modified:   question.sh
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Next we add it to the git repository.
+
+paul@debian6~/project42$ git add question.sh
+paul@debian6~/project42$ git commit -m "adding a she-bang to the main script"
+[master 86b8347] adding a she-bang to the main script
+ 1 file changed, 1 insertion(+)
+paul@debian6~/project42$ git status
+# On branch master
+nothing to commit (working directory clean)
+
+20.3.6.

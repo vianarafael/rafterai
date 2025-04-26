@@ -1,0 +1,3 @@
+To open up the ﬁ rewall so anyone who has access to the server can access the 
+Samba service (smbd and nmbd daemons), you can simply open the Firewall 
+Conﬁ guration window and check the samba and samba-client check boxes.

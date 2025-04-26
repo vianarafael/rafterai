@@ -1,0 +1,15 @@
+Type the following to 
+ download the latest version of the zsh package:
+
+# yumdownloader zsh
+zsh-5.0.7-4.fc21.x86_64.rpm  |  2.5 MB  00:03
+
+With the zsh package downloaded to your current directory, try some rpm commands on it.
+
+Installing and removing packages with rpm
+To install a package with the rpm command, type this:
+
+# rpm -i zsh-5.0.7-4.fc21.x86_64.rpm
+
+Notice that the entire package name is given to install with rpm, not just the package base 
+name.

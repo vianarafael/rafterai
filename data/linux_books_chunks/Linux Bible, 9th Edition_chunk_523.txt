@@ -1,0 +1,31 @@
+The Panel Properties window 
+that appears includes the following values:
+
+2
+
+ ■ Orientation—Move the panel to a different location on the screen by clicking a 
+
+new position.
+
+ ■ Size—Select the size of your panel by choosing its height in pixels (48 pixels 
+
+by default).
+
+ ■ Expand—Select this check box to have the panel expand to ﬁ ll the entire side, or 
+clear the check box to make the panel only as wide as the applets it contains.
+
+ ■ AutoHide—Select whether a panel is automatically hidden (appearing only when 
+
+the mouse pointer is in the area).
+
+ ■ Show Hide buttons—Choose whether the Hide/Unhide buttons (with pixmap 
+
+arrows on them) appear on the edges of the panel.
+
+ ■ Arrows on hide buttons—If you select Show Hide Buttons, you can choose to have 
+
+arrows on those buttons.
+
+ ■ Background—From the Background tab, you can assign a color to the background 
+of the panel, assign a pixmap image, or just leave the default (which is based on 
+the current system theme).

@@ -1,0 +1,5 @@
+It can be common for administrators to 
+use the TCP protocol and port 443 for mobile users; this is because ports like 1195 or 1194 can be blocked at 
+places like airports. We’ve also specified an additional IP subnet for our mobile users, 10.9.0.0/24.
+
+We need to ensure we have suitable firewall rules in place for this subnet.

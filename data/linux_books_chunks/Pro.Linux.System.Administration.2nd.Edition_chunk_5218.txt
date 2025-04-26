@@ -1,0 +1,5 @@
+We can now use this in our filter section to make the audit log easier to further process.
+
+Logstash Filters
+
+Logstash filters are a way of parsing and transforming data to make it easier to discover what’s in your logs.

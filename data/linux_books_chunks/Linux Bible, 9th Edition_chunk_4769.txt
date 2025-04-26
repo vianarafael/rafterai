@@ -1,0 +1,5 @@
+This way the MAC rules are applied only 
+after the DAC rules (see Chapter 22) are applied, which is consistent with SELinux 
+implementation.
+
+Of all the tables listed, three focus on Network Address Translation.

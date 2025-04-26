@@ -1,0 +1,13 @@
+For example, to 
+remove the module parport_pc from the current kernel, type the following:
+
+198
+
+c08.indd  04/01/2015  Page 199
+
+Chapter 8: Learning System Administration
+
+# rmmod parport_pc
+
+If it is not currently busy, the parport_pc module is removed from the running kernel. If 
+it is busy, try killing any process that might be using the device. Then run rmmod again.

@@ -1,0 +1,5 @@
+This should be the main process of the daemon, unless you are going to fork the process (with Type=fork).
+
+The Restart option controls how systemd monitors the service and reacts to any issues. The options are 
+“no,” “on-success,” “on-failure,” “on-abnormal,” “on-watchdog,” “on-abort,” or “always.” The rsyslog service is 
+set to restart on failure and the default is “no” if not set.

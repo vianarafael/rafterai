@@ -1,0 +1,3 @@
+For example, during the normal boot of your host, the init tool at each runlevel will 
+initiate all the required sets of applications and services in that runlevel. Another example occurs when you 
+shut down your host. When you tell your host to shut down, the init tool changes the runlevel to 0.

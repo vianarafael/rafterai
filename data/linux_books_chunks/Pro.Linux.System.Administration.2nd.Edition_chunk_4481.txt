@@ -1,0 +1,6 @@
+The LDAP server is called SLAPD. We 
+are going to show you how to configure that service.
+
+OpenLDAP uses a dynamic runtime configuration to manage SLAPD, meaning that it configures itself 
+
+via its own DIT (directory tree).

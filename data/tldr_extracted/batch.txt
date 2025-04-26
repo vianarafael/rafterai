@@ -1,0 +1,14 @@
+# batch
+
+
+- Start the `atd` daemon:
+
+`systemctl start atd`
+
+- Execute commands from `stdin` (press `<Ctrl d>` when done):
+
+`batch`
+
+- Execute a command from `stdin`:
+
+`echo "{{./make_db_backup.sh}}" | batch`

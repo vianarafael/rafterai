@@ -1,0 +1,4 @@
+You need to specify the slapd config directory you want 
+to test against with -F /etc/ldap/slapd.d on an Ubuntu host; on a CentOS host, you would need to use the 
+/etc/openldap/slapd.d directory. The -b uid=ataylor,ou=people,dc=example,dc=com DN is the DN we 
+want to test our access on.

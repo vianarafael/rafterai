@@ -1,0 +1,2 @@
+We strongly recommend that you only use 
+visudo to edit this file, as bad configuration will make all sudo commands fail.

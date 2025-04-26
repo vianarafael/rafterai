@@ -1,0 +1,12 @@
+If you don’t, existing 
+supplementary groups are removed and the groups you provide here are the only 
+ones assigned.)
+
+262
+
+c11.indd  04/01/2015  Page 263
+
+Chapter 11: Managing User Accounts
+
+ ■ -k skel_dir—Set the skeleton directory containing initial conﬁ guration ﬁ les and 
+login scripts that should be copied to a new user’s home directory.

@@ -1,0 +1,3 @@
+By default on most 
+distributions, some basic password checking is performed to try to prevent you from providing a weak or 
+easy-to-guess password.

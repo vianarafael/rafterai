@@ -1,0 +1,6 @@
+This chapter is your guide to working with the 
+Linux system commands, processes, and ﬁ lesystem from the shell. It describes the shell 
+environment and helps you tailor it to your needs.
+
+About Shells and Terminal Windows
+There are several ways to get to a shell interface in Linux.

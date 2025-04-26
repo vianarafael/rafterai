@@ -1,0 +1,5 @@
+It offers some of the same advantages as ext4; however, you cannot shrink a XFS partition (online). It is as 
+performant as ext4. It can support up to 8 exbibytes and file sizes of 8 exibytes. It is the default choice for the 
+CentOS 7.
+
+Finally, Btrfs is a more recent filesystem with different features to both XFS and ext4.

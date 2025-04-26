@@ -1,0 +1,4 @@
+Besides this ﬁ le, any ﬁ le ending in .conf in the 
+/etc/httpd/conf.d directory is also used for Apache conﬁ guration (based on an 
+Include line in the httpd.conf ﬁ le). In Ubuntu, the Apache conﬁ guration is stored in 
+text ﬁ les read by the Apache server, beginning with /etc/apache2/apache2.conf.

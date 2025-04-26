@@ -1,0 +1,8 @@
+If we have NM_CONTROLLED=”no”, then 
+ifup will use the ip command to manage the interface. Before doing so, it checks to see if this device is 
+already managed by the NetworkManager and if so, it does not attempt to manage the device. To bring up 
+the enp0s3 device you issue the following:
+
+$ ifup enp0s3
+
+Files like network-functions are scripts can that contain functions and variables.

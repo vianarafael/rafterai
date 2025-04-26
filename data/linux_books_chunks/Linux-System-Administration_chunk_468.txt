@@ -1,0 +1,6 @@
+The first disk (/
+dev/sda) is partitioned in two, the second disk (/dev/sdb) has two partitions and some empty
+space.
+
+In the example above, consider the options when you want to enlarge the space available
+for /srv/project42.

@@ -1,0 +1,11 @@
+This option stops the service and 
+then immediately starts it again.
+
+# service cups restart
+Stopping cups:          [  OK  ]
+Starting cups:          [  OK  ]
+# service cups status
+cupsd (pid 7955) is running...
+
+When a service is already stopped, a restart generates a FAILED status on the attempt to 
+stop it.

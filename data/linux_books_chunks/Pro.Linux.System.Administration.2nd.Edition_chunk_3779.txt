@@ -1,0 +1,18 @@
+It’s time now for us to show you an alternative: distributed 
+network filesystems.
+
+Resources
+You can find more information about NFS here:
+
+•	
+
+•	
+
+http://nfs.sourceforge.net/nfs-howto/
+
+https://help.ubuntu.com/community/NFSv4Howto
+
+Distributed Network Filesystems
+
+A distributed network filesystem (DNFS) is a large, distributed and scalable filesystem using commodity 
+hardware.

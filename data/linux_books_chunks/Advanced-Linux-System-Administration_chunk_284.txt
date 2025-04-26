@@ -1,0 +1,22 @@
+79
+
+        
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+If for example we delete a few blank lines in /etc/sysctl.conf we can see that something has 
+changed with:
+
+md5sum -c etc-md5.dat | grep -v OK 
+
+/etc/sysctl.conf: FAILED
+
+md5sum: WARNING: 1 of 1906 computed checksums did NOT match
+
+Write a script that notifies administrators when somebody logs in or out
+
+It may not be a good idea to mail all this information but it is possible to gather it and possibly 
+format it using XML or HTML.

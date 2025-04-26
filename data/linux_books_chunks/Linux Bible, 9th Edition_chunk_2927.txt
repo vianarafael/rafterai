@@ -1,0 +1,14 @@
+In fact, I recommend that you use it instead of 
+CUPS web administration because the resulting printer conﬁ guration ﬁ les are tailored to 
+work with the way the CUPS service is started on those systems.
+
+428
+
+c16.indd  04/01/2015  Page 429
+
+Chapter 16: Confi guring a Print Server
+
+After the package is installed (yum install system-config-printer), to install 
+a printer from your GNOME desktop, start the Print Settings window by typing Print 
+Settings from the Activity screen, or as root user by typing system-config-
+printer.

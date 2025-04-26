@@ -1,0 +1,9 @@
+Group permissions in Linux are deﬁ ned by the second of three sets of rwx 
+(read, write, execute) bits associated with each ﬁ le and directory.
+
+ ■ gshadow—Contains shadow passwords for groups.
+
+ ■ host.conf—Used by older applications to set the locations in which domain 
+
+names (for example, redhat.com) are searched for on TCP/IP networks (such as 
+the Internet).

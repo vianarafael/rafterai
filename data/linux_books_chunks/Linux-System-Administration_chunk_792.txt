@@ -1,0 +1,3 @@
+/var/log/btmp (lastb)
+
+There is also the lastb command to display the /var/log/btmp file.

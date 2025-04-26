@@ -1,0 +1,30 @@
+Finally, you learned how to set up the 
+CUPS printing service.
+
+In this chapter, you learned how to do the following:
+
+•	 Configure a Samba server to be an AD domain controller
+
+•	 Configure an NFS server to mount filesystems between Linux hosts
+
+•	
+
+•	
+
+Install and configure the GlusterFS
+
+Talked about DMSs
+
+•	 Configure CUPS printer servers and attach them to a host
+
+In the next chapter, we will look at backup and recovery for your office.
+
+634
+
+CHAPTER 14
+
+Backup and Recovery
+
+By Dennis Matotek
+
+The ability to back up and restore data is critical in any organization.

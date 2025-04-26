@@ -1,0 +1,7 @@
+Access can 
+be allowed or denied based on IP address or host name. Descriptions of TCP Wrappers are 
+ contained in Chapter 25.
+
+SELinux
+Fedora, Red Hat Enterprise Linux, and other Linux distributions come with the Security 
+Enhanced Linux (SELinux) feature included and in Enforcing mode.

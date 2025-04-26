@@ -1,0 +1,10 @@
+The contents of that file looks as 
+follows:
+
+GRUB2_PASSWORD=grub.pbkdf2.sha512.10000.00E574C[...]DDF512CC090A9B[...]CCEA3B
+
+Now that is file is created, when your host is rebooted this code in the /boot/grub2/grub.cfg file will 
+
+now be executed:
+
+Listing 6-5.

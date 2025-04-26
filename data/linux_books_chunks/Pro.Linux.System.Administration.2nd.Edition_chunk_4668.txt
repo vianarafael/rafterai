@@ -1,0 +1,2 @@
+The exampleClient object class that we created in the schema section 
+provides the exampleActive attribute, which we can use to activate and deactivate our users.

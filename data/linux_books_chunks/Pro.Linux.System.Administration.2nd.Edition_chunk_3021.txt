@@ -1,0 +1,6 @@
+Like 
+driver’s licenses, certificates have an expiry period and are valid only for a fixed period, usually 12 months.
+
+Each digital certificate can also contain a reference to a certificate authority. A CA is a mechanism that 
+issues certificates and has a special certificate called a root certificate that is then used to validate the server 
+certificate’s veracity.

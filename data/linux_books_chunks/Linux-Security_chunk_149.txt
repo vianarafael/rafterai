@@ -1,0 +1,11 @@
+The example below shows how to add a
+user named yanina (last parameter) and at the same time forcing the creation of the home
+directory (-m), setting the name of the home directory (-d), and setting a description (-c).
+
+[root@RHEL5 ~]# useradd -m -d /home/yanina -c "yanina wickmayer" yanina
+[root@RHEL5 ~]# tail -1 /etc/passwd
+yanina:x:529:529:yanina wickmayer:/home/yanina:/bin/bash
+
+The user named yanina received userid 529 and primary group id 529.
+
+2.5.

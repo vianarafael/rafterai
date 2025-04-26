@@ -1,0 +1,3 @@
+System.map
+
+The System.map contains the symbol table and changes with every kernel compile.

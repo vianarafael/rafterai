@@ -1,0 +1,12 @@
+The Free Software Foundation helped make many of the components 
+needed to create a fully-free UNIX-like operating system. The Linux kernel itself was the 
+last major component needed to complete the job.
+
+26
+
+c01.indd  04/01/2015  Page 27
+
+Chapter 1: Starting with Linux
+
+Most Linux software projects are protected by one of a set of licenses that fall under the 
+Open Source Initiative umbrella.

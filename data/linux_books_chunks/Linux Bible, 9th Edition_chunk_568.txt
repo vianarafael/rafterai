@@ -1,0 +1,4 @@
+If you have a plain-text login 
+prompt, continue to the “Using the shell prompt” section. If you log in through a graphical 
+screen, go to the “Using a terminal window” section to see how to access a shell from the 
+desktop.

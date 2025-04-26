@@ -1,0 +1,14 @@
+We will also create the /data/backups/bin directory and move ssh_limiter.sh there.
+
+$ ssh jsmith@branch1.example.com 
+'sudo mv remote_authorized_keys /data/backups/.ssh/authorized_keys \ 
+&& sudo chown exbackup:adm /data/backups/.ssh/authorized_keys \ 
+&& sudo chmod 0600 /data/backups/.ssh/authorized_keys \ 
+&& sudo -u exbackup mkdir /data/backups/bin \ 
+&& sudo mv ssh_limiter.sh /data/backups/bin \ 
+&& sudo chown exbackup:adm /data/backups/bin/ssh_limiter.sh \ 
+&& sudo chmod 0750 /data/backups/bin/ssh_limiter.sh'
+
+In the preceding code, we used the backslash (\) to break up the lines; the backslash tells Bash that 
+our command continues on the next line rather than to execute the line of code when we press the Enter 
+key.

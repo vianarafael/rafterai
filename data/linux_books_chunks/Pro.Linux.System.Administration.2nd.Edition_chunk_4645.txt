@@ -1,0 +1,7 @@
+Applications that use the OpenLDAP libraries will use these files to get the LDAP 
+details. You will find Ubuntu’s file in the directory /etc/ldap and CentOS’s in /etc/openldap.
+
+ it is important that you don’t get this confused with the file provided by the libnss-ldap file, 
+
+ ■ Note 
+which is also called ldap.conf and can be found here on both distributions: /etc/ldap.conf.

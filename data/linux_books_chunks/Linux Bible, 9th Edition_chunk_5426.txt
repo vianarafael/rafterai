@@ -1,0 +1,12 @@
+It may be listed 
+in a range of numbers, such as c0-c102. This is not required except in highly 
+secure environments and is not set here.
+
+5.  To create a ﬁ le called test.html and assign its type as httpd_sys_content_t, 
+
+type the following:
+
+$ touch test.html
+$ chcon -t httpd_sys_content_t test.html
+$ ls -Z test.html
+-rw-rw-r--.

@@ -1,0 +1,4 @@
+You need to update two fields in this file: server 
+
+and next_server. You need to replace the existing values (usually 127.0.0.1) with the IP address of your host 
+so a PXE-booted host can find your Cobbler host.

@@ -1,0 +1,14 @@
+Use Google or your favorite search engine to find these solutions.
+
+In the next chapter, we’ll cover more on users and groups and how to manage them on your hosts.
+
+146
+
+CHAPTER 5
+
+Users and Groups
+
+By James Turnbull and Dennis Matotek
+
+Chapter 4 introduced Linux basics and the concepts of users and collections of users called groups. We 
+explained how users and groups own files and objects.

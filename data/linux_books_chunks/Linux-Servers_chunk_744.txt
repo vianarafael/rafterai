@@ -1,0 +1,7 @@
+security = user
+
+The client will send a userid + password before the server knows which share the client
+wants to access. This mode should be used whenever the samba server is in control of the
+user database. Both for standalone and samba domain controllers.
+
+17.2.3.

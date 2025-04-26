@@ -1,0 +1,4 @@
+See the Ubuntu community website at https://help.ubuntu.
+com/community/IptablesHowTo for the various options.
+
+You can also save your netfilter/iptables ﬁ rewall rules to create an audit report.

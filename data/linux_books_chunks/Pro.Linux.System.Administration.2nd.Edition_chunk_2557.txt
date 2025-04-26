@@ -1,0 +1,7 @@
+DNSSEC is designed to prevent 
+response tampering or dns cache poisoning, where a malicious actor can inject fake records into dns cache 
+servers and route Internet traffic to hosts of their choosing.
+
+In Figure 10-4 we use the dig tool to find out more information about the google.com dnssec records.
+
+Figure 10-4.

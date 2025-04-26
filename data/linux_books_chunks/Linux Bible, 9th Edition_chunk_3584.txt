@@ -1,0 +1,6 @@
+The NFS 
+service also requires that the RPC service be running (rpcbind). The nfs-server service 
+automatically starts the rpcbind service, if it is not already running.
+
+In Red Hat Enterprise Linux 6, you need the service and chkconfig commands to check, 
+start, and enable the NFS service (nfs).

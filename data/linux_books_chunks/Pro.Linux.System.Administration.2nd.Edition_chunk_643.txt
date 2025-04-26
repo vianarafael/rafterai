@@ -1,0 +1,4 @@
+In this case, we’re searching for the exact string "local 
+host", and grep has returned no results because the string is not present in the /etc/hosts file.
+
+The grep command is capable of much more than these simple examples.

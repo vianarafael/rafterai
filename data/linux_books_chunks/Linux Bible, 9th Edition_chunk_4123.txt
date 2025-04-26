@@ -1,0 +1,7 @@
+Remember that the chage command does not work if you do not have a 
+/etc/shadow ﬁ le set up, nor is the /etc/login.defs ﬁ le available.
+
+22
+
+Obviously, ﬁ lesystem security settings are very important for keeping your Linux system 
+secure.

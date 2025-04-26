@@ -1,0 +1,8 @@
+They are 
+
+all clearly listed in the module document link we gave earlier.
+
+The --become option has further options available to it. The default --become-method is sudo, but 
+depending on your system, you can choose su, pbrun, pfexec, runas, or doas. If you need to provide an 
+authentication password with those options, you can with --ask-become-pass, which will prompt you for a 
+password.

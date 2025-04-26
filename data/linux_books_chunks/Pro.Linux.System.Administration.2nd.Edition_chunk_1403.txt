@@ -1,0 +1,14 @@
+It contains all the interface information for any configured 
+interface.
+
+242
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+An interface that uses DHCP can be as simple as the following:
+
+# The primary network interface
+auto enp0s3
+iface enp0s3 inet dhcp
+
+First we declare that enp0s3 is automatically started with auto enp0s3.

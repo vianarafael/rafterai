@@ -1,0 +1,4 @@
+Not only do properly secured web server communications prevent 
+any eavesdropping on your communications for things such as usernames and passwords or credit card 
+information, they also stop spying on cookies or session information and help to prevent cross-site scripting 
+and malicious code injection.

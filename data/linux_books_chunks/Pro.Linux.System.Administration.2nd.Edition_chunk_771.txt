@@ -1,0 +1,8 @@
+Our user can also belong to other groups, and these additional groups are called 
+supplementary groups.
+
+So how do we tell what groups our new user belongs to? To check the details of a particular user, we can 
+
+use the id command as shown in Listing 5-4.
+
+Listing 5-4.

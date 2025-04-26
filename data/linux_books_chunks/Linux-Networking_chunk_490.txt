@@ -1,0 +1,8 @@
+name resolution
+
+You need name resolution working on the squid server, but you don't need name resolution
+on the clients.
+
+[paul@RHEL5 ~]$ wget http://grep.be
+--14:35:44--  http://grep.be
+Resolving grep.be...

@@ -1,0 +1,47 @@
+Consider the following partial example of the cupsd 
+service’s script:
+
+# cat /etc/rc.d/init.d/cups
+#!/bin/sh
+...
+#   chkconfig: 2345 25 10
+...
+start () {
+        echo -n $"Starting $prog: "
+        # start daemon
+        daemon $DAEMON
+        RETVAL=$?
+        echo
+        [ $RETVAL = 0 ] && touch /var/lock/subsys/cups
+        return $RETVAL
+}
+
+stop () {
+        # stop daemon
+        echo -n $"Stopping $prog: "
+        killproc $DAEMON
+        RETVAL=$?
+        echo        [ $RETVAL = 0 ] && rm -f /var/lock/subsys/cups
+}
+
+restart() {
+        stop
+        start
+}
+
+15
+
+415
+
+ 
+ 
+ 
+c15.indd  04/01/2015  Page 416
+
+Part IV: Becoming a Linux Server Administrator
+
+case $1 in
+...
+
+The cups service script starts out by creating functions for each of the start, stop, and 
+restart options.

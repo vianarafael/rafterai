@@ -1,0 +1,26 @@
+It should contain the 
+
+following:
+
+username=bsingh
+password=C0mpl#xp$sSw0rd
+
+You should secure it with the following:
+
+$ chmod 0600 .smb_credentials
+
+You will need to edit your /etc/fstab file and add the following for automounting:
+
+//dc1.samba.example.com/sales /data/sales cifs _netdev,credentials=/home/bsingh/.smb_
+credentials
+
+This is useful for single desktop access but becomes more complicated if you have people sharing 
+
+development servers.
+
+609
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Where you have many people sharing one server, you can share access to shared directories using 
+the multiuser mount option.

@@ -1,0 +1,15 @@
+The output has again been shortened, but you can see that we have 
+"change": true, which means that the task was executed on the system and the system was changed.
+
+What happens if we run that ansible task again?
+
+$ ansible -c local localhost --become -m apt -a 'name=nginx state=latest update_cache=yes'
+localhost | SUCCESS => {
+    "cache_update_time": 1481951681,
+    "cache_updated": true,
+    "changed": false
+}
+
+Again, we are successful but this time, because Nginx is already install there was nothing to change, so 
+
+"changed" is false.

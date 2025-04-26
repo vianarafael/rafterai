@@ -1,0 +1,22 @@
+While the keys can have prefixes (such as nightly/backupfile.zip, where nightly 
+is the prefix and nightly/backupfile.zip is the key), they are not nested hierarchically but instead all live 
+in the one bucket.
+
+•	 We are going to set up an S3 bucket.
+
+•	 We are to create a life-cycle version policy.
+
+•	
+
+Set the access policy to allow our backup user to put files in S3, list them, and get 
+them.
+
+When you have logged into the AWS web console for your account, you will need to make your way to 
+
+the S3 service tab like in Figure 14-2.
+
+652
+
+Chapter 14 ■ BaCkup and reCovery
+
+Figure 14-2.

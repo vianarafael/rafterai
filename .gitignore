@@ -1,0 +1,37 @@
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.local
+
+# Model and embedding files
+chroma-linux-rag/
+models/
+checkpoints/
+*.bin
+*.gguf
+*.safetensors
+
+# LLM server temp stuff
+llm_output/
+llama.cpp/build/
+
+# Virtual environment
+venv/
+env/
+linux-tut-env/
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Mac junk
+.DS_Store
+

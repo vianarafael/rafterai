@@ -1,0 +1,17 @@
+removing a table
+
+To remove a table from a database, issue the drop table $tablename command as shown
+below.
+
+mysql> drop table country;
+Query OK, 0 rows affected (0.00 sec)
+
+50
+
+introduction to sql using mysql
+
+3.5. mysql records
+
+3.5.1. creating records
+
+Use insert to enter data into the table.

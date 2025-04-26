@@ -1,0 +1,10 @@
+To this end, we will install a CMS to use as our web site.
+
+A CMS allows us to focus our energy on creating content and making it look good, while providing us 
+
+with a framework that can save multiple revisions of pages, separates the web content from the graphic 
+design, and manages access permissions for users and staff.
+
+One of the most popular web site frameworks around the world is PHP, and one of the most popular 
+
+tools used to develop web sites is called WordPress.

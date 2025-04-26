@@ -1,0 +1,3 @@
+In the Printers and Faxes window that appears, click the Add a 
+Printer icon in the upper-left portion of the window, and select Network Printer from the 
+ﬁ rst window.

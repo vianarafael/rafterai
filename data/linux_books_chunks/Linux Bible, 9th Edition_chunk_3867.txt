@@ -1,0 +1,14 @@
+When you list the contents of that ﬁ le, you 
+can see the following:
+
+ ■ The multi-user.target is required to start ﬁ rst.
+
+ ■ The display-manager.service is started after that.
+
+566
+
+c21.indd  04/01/2015  Page 567
+
+Chapter 21: Troubleshooting Linux
+
+By continuing to discover what those two units require, you can ﬁ nd what else is required.

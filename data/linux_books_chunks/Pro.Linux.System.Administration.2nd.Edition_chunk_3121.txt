@@ -1,0 +1,8 @@
+A reverse proxy is used when sites serve large amounts 
+of content that doesn’t change very often. By allowing the data that does not change to be cached by the 
+reverse proxy, the load on the underlying web servers can be reduced. This kind of proxy is also known as a 
+web accelerator.
+
+Configuration
+
+Squid is provided by the squid package.

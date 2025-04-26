@@ -1,0 +1,14 @@
+Erasing once with
+a tool like dd is enough to destroy all data.
+
+Warning, this screenshot shows how to permanently destroy all data on a block device.
+
+[root@rhel65 ~]# dd if=/dev/zero of=/dev/sdb
+
+40
+
+disk devices
+
+4.5. advanced hard disk settings
+
+Tweaking of hard disk settings (dma, gap, ...) are not covered in this course.

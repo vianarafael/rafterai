@@ -1,0 +1,37 @@
+network
+
+This  example  uses  three  networks,  make  sure  the  iSCSI  Target  is  connected  to  all  three
+networks.
+
+[root@server1 tgt]# ifconfig | grep -B1 192.168
+eth1      Link encap:Ethernet  HWaddr 08:00:27:4E:AB:8E  
+          inet addr:192.168.1.98  Bcast:192.168.1.255  Mask:255.255.255.0
+--
+eth2      Link encap:Ethernet  HWaddr 08:00:27:3F:A9:D1  
+          inet addr:192.168.2.98  Bcast:192.168.2.255  Mask:255.255.255.0
+--
+eth3      Link encap:Ethernet  HWaddr 08:00:27:94:52:26  
+          inet addr:192.168.3.98  Bcast:192.168.3.255  Mask:255.255.255.0
+
+The same must be true for the multipath Initiator:
+
+[root@server2 ~]# ifconfig | grep -B1 192.168
+eth1      Link encap:Ethernet  HWaddr 08:00:27:A1:43:41  
+          inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+--
+eth2      Link encap:Ethernet  HWaddr 08:00:27:12:A8:70  
+          inet addr:192.168.2.99  Bcast:192.168.2.255  Mask:255.255.255.0
+--
+eth3      Link encap:Ethernet  HWaddr 08:00:27:6E:99:9B  
+          inet addr:192.168.3.99  Bcast:192.168.3.255  Mask:255.255.255.0
+
+Test the triple discovery in three networks (screenshot newer than above).
+
+[root@centos7 ~]# iscsiadm -m discovery -t st -p 192.168.1.150
+192.168.1.150:3260,1 iqn.2015-04.be.linux:target1
+[root@centos7 ~]# iscsiadm -m discovery -t st -p 192.168.2.150
+192.168.2.150:3260,1 iqn.2015-04.be.linux:target1
+[root@centos7 ~]# iscsiadm -m discovery -t st -p 192.168.3.150
+192.168.3.150:3260,1 iqn.2015-04.be.linux:target1
+
+13.4.

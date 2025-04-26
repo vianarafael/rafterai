@@ -1,0 +1,7 @@
+This means your e-mail server can check a variety of back-end services to validate that the user is 
+allowed to send e-mail without needing to understand how to authenticate to those services.
+
+These back-end services can include PAM (which can be used to allow users to authenticate with their 
+
+Linux login and password), databases of users and passwords, and even user repositories like LDAP or 
+Active Directory.

@@ -1,0 +1,8 @@
+The mount point can be on 
+a partition that was also mounted separately.
+
+ ■ Tip  Keep in mind that entries in the /etc/fstab file are processed in order from top to bottom.
+
+The filesystem type tells the system which type to expect. If this does not match, the mount will fail. You 
+
+can specify a comma-separated list of types to try, as is the case with the DVD-ROM drive, /dev/scd0.

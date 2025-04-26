@@ -1,0 +1,5 @@
+Also, 
+you might need different ﬁ lesystems to have different mount options for special 
+features (such as read-only or user quotas). In most Linux systems, you need at 
+least one ﬁ lesystem type for the root of the ﬁ lesystem (/) and one for your swap 
+area.

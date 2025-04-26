@@ -1,0 +1,5 @@
+Files can be stored in Gluster volumes either with or without levels of redundancy depending 
+on your configuration options.
+
+•	 Distributed volume: By default, if no distribution type is specified, GlusterFS creates a 
+distributed volume.

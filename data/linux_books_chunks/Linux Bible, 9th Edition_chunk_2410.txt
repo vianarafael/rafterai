@@ -1,0 +1,13 @@
+By default, the output starts at midnight on the current 
+day and then shows how much processing time is being consumed by different parts of 
+
+340
+
+c13.indd  04/01/2015  Page 341
+
+Chapter 13: Understanding Server Administration
+
+the system. The output continues to show the activity every 10 minutes until the current 
+time is reached.
+
+To see disk activity output, run the sar -d command.

@@ -1,0 +1,20 @@
+nagios.cfg Configuration File Options
+
+Option
+
+Description
+
+resource_file
+
+nagios_user
+
+nagios_group
+
+A separate configuration file used to hold system variables such as paths and 
+passwords.
+
+The user to run Nagios as. This defaults to nagios.
+
+The group to run Nagios as. This defaults to nagios.
+
+log_rotation_method When to rotate logs.

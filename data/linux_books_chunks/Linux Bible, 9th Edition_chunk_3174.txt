@@ -1,0 +1,21 @@
+To secure that information, you can add 
+ certiﬁ cates to your site (so a client can validate who you are) and encrypt your data (so 
+nobody can sniff your network and see your data).
+
+Electronic commerce applications such as online shopping and banking are generally 
+encrypted using either the Secure Sockets Layer (SSL) or Transport Layer Security (TLS) 
+
+465
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c17.indd  04/01/2015  Page 466
+
+Part IV: Becoming a Linux Server Administrator
+
+speciﬁ cations.

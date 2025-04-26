@@ -1,0 +1,13 @@
+Here is an example of the mount command and its output 
+(with ﬁ lesystems not pertinent to this discussion edited out):
+
+# mount -t nfs
+maple:/stuff on /mnt/maple type nfs (rw,relatime,vers=3,rsize=65536,
+  wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,
+  mountaddr=192.168.0.122,mountvers=3,mountport=892,mountproto=udp,
+  local_lock=none,addr=192.168.0.122)
+
+2020
+
+The output from the mount -t nfs command shows only those ﬁ lesystems mounted 
+from NFS ﬁ le servers.

@@ -1,0 +1,4 @@
+Background system  processes 
+ perform such tasks as logging system activity or listening for data coming in from the 
+ network. They are often started when Linux boots up and run continuously until the 
+ system shuts down.

@@ -1,0 +1,8 @@
+In the picture below ns1 is the primary dns
+server and ns2, ns3 and ns4 are secondaries. The master for slaves ns2 and ns3 is ns1, but
+the master for ns4 is ns2.
+
+10.8. SOA record
+
+The soa record contains a refresh value. If this is set to 30 minutes, then the slave server
+will request a copy of the zone file every 30 minutes. There is also a retry value.

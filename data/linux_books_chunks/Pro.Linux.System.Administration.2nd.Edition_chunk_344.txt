@@ -1,0 +1,4 @@
+Originally it was designed to manage VirtualBox machines via a combination of 
+configuration files and command-line tools, but it has since expanded to be much more and supports other 
+virtualization technologies. It was developed by Mitchell Hashimoto who then founded HashiCorp on the 
+popularity of the product. It is written in Ruby and can run on any operating system that supports Ruby.

@@ -1,0 +1,15 @@
+To do that, we need to do 
+the following.
+
+First we need to edit the /etc/glusterfs/glusterd.vol file and add the following on each Gluster 
+
+server:
+
+volume management
+    type mgmt/glusterd
+    option working-directory /var/lib/glusterd
+...<snip>...
+    option rpc-auth-allow-insecure on
+end-volume
+
+We will need to restart the glusterd service after making this change.

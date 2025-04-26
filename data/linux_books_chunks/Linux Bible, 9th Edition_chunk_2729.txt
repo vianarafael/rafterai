@@ -1,0 +1,30 @@
+The following example shows the sshd’s unit conﬁ guration ﬁ le:
+
+# cat /lib/systemd/system/sshd.service
+[Unit]
+Description=OpenSSH server daemon
+After=syslog.target network.target auditd.service
+
+[Service]
+EnvironmentFile=/etc/sysconfig/sshd
+ExecStartPre=/usr/sbin/sshd-keygen
+ExecStart=/usr/sbin/sshd -D $OPTIONS
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+
+[Install]
+WantedBy=multi-user.target
+
+This basic service unit conﬁ guration ﬁ le has the following options:
+
+394
+
+c15.indd  04/01/2015  Page 395
+
+Chapter 15: Starting and Stopping Services
+
+ ■ Description—A free-form description (comment line) of the service.
+
+ ■ After—Conﬁ gures ordering.

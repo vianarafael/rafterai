@@ -1,0 +1,7 @@
+Finally, software that may be 
+encumbered with patents or legal issues—like MP3 players or DVD player software—are available 
+from “multiverse.” You can read more about them at https://help.ubuntu.com/community/
+Repositories/Ubuntu.
+
+By not specifying one or more of these sections, you can restrict what types of packages to install on 
+your host.

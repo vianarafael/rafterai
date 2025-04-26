@@ -1,0 +1,4 @@
+We have set it to come up automatically when our host boots, 
+auto enp0s3, and told our operating system it will have a static IP address assigned to it, iface enp0s3 inet 
+static. We have given the enp0s3 interface the address 192.168.0.10 and a default gateway (default route) of 
+192.168.0.254.

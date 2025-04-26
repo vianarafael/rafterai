@@ -1,0 +1,2 @@
+User  profiles  on  the  network  are  called  roaming
+profiles or roving profiles. The Samba domain controller can manage these profiles.

@@ -1,0 +1,5 @@
+a task that is ignoring polite requests to stop may be 
+forced to via the 9, or SIGKILL, signal.
+
+Sending SIGKILL will immediately stop the process regardless of what it is doing. this could leave your 
+process (and possibly data) in a messy state, so use with care.

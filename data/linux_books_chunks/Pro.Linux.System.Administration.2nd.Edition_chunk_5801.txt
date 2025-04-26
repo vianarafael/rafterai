@@ -1,0 +1,8 @@
+The actual mariadb_restarted handler will be described 
+a little later too.
+
+  - name: install pre-reqs
+    pip: name=mysql state=latest
+
+In this task we are again installing a Pip package called mysql. Pip is a package manager for Python 
+modules and takes similar arguments to both the apt and yum modules.

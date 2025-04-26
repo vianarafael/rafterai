@@ -1,0 +1,11 @@
+Next, we 
+test our ability to connect from the host with the IP address of 192.168.0.254.
+
+We will use the nc command to make a connection to port 80 on host 192.168.0.1 as in the following 
+
+example:
+
+$ nc 192.168.0.1 80
+hello host
+
+The nc program allows us to test the connection between two hosts and send text to the remote host.

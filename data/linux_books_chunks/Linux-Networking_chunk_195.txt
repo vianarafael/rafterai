@@ -1,0 +1,57 @@
+This parameter is not explained (not even mentioned) in
+/usr/share/doc/initscripts-*/sysconfig.txt, but many others are.
+
+[root@rhel6 ~]# cat /etc/sysconfig/network-scripts/ifcfg-eth0
+DEVICE="eth0"
+HWADDR="08:00:27:DD:0D:5C"
+NM_CONTROLLED="no"
+BOOTPROTO="dhcp"
+ONBOOT="yes"
+
+The  BOOTPROTO  variable  can  be  set  to  either  dhcp  or  bootp,  anything  else  will  be
+considered static meaning there should be no protocol used at boot time to set the interface
+values.
+
+RHEL7 adds ipv6 variables to this file.
+
+[root@rhel71 network-scripts]# cat ifcfg-enp0s3
+TYPE="Ethernet"
+BOOTPROTO="dhcp"
+DEFROUTE="yes"
+PEERDNS="yes"
+PEERROUTES="yes"
+IPV4_FAILURE_FATAL="no"
+
+18
+
+interface configuration
+
+IPV6INIT="yes"
+IPV6_AUTOCONF="yes"
+IPV6_DEFROUTE="yes"
+IPV6_PEERDNS="yes"
+IPV6_PEERROUTES="yes"
+IPV6_FAILURE_FATAL="no"
+NAME="enp0s3"
+UUID="9fa6a83a-2f8e-4ecc-962c-5f614605f4ee"
+DEVICE="enp0s3"
+ONBOOT="yes"
+[root@rhel71 network-scripts]#
+
+fixed ip
+
+Below  a  screenshot  of  a  fixed  ip  configuration  in  /etc/sysconfig/network-scripts/ifcfg-
+eth0.
+
+[root@rhel6 ~]# cat /etc/sysconfig/network-scripts/ifcfg-eth0
+DEVICE="eth0"
+HWADDR="08:00:27:DD:0D:5C"
+NM_CONTROLLED="no"
+BOOTPROTO="none"
+IPADDR="192.168.1.99"
+NETMASK="255.255.255.0"
+GATEWAY="192.168.1.1"
+ONBOOT="yes"
+
+The  HWADDR  can  be  used  to  make  sure  that  each  network  card  gets  the  correct  name
+when multiple network cards are present in the computer.

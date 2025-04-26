@@ -1,0 +1,6 @@
+in this case the internal operating system component is called Netfilter, and the user-space 
+component, the command you use to configure Netfilter, is called iptables.
+
+Packet filtering and shaping is the ability to change or discard packets as they enter or leave a host 
+
+according to set of criteria, or rules.

@@ -1,0 +1,10 @@
+# cockpit-bridge
+
+
+- List all cockpit packages:
+
+`cockpit-bridge --packages`
+
+- Display help:
+
+`cockpit-bridge --help`

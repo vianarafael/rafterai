@@ -1,0 +1,2 @@
+You can see how many packets were transmitted 
+and received and how many KB of data were transmitted and received.

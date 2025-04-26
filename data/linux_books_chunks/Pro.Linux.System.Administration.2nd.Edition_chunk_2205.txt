@@ -1,0 +1,40 @@
+They have the following benefits:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+you can rename and remove subvolumes
+
+you can easily and quickly snapshot subvolumes
+
+you can mount snapshots
+
+you can nest subvolumes
+
+you can apply quotas to subvolumes
+
+We are going to create a subvolume called mail and we will mount that.
+
+$ sudo btrfs subvolume create /data2/mail
+Create subvolume '/data2/mail'
+
+We have now created a directory called /srv/mail and we are going to mount our mail subvolume 
+
+there:
+
+$ sudo mount -t btrfs -o subvol=mail /dev/sdc /srv/mail
+
+We can now see that that filesystem is mounted.
+
+$ df -h /srv/mail
+Filesystem      Size  Used    Avail  Use%  Mounted on
+/dev/sdb         16G   18M      14G    1%   /srv/mail
+
+The great feature of BtrFS subvolumes is the speed of snapshotting.

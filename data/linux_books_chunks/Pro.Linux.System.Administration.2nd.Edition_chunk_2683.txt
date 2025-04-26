@@ -1,0 +1,11 @@
+We’ll start with options that 
+define which address to use as the default route on our network and which host to use as the name server.
+
+subnet 192.168.0.0 netmask 255.255.255.0 {
+    option routers 192.168.0.254;
+    option domain-name "example.com";
+    option domain-name-servers 192.168.0.1;
+    option broadcast-address 192.168.0.255;
+}
+
+Here we have defined which network settings should be sent to a client when it requests a lease.

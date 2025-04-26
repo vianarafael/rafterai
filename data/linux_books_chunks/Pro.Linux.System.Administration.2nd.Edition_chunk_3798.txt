@@ -1,0 +1,10 @@
+The Ubuntu server has attached the 50GB disk to  
+/dev/sdc, and on CentOS it’s attached to /dev/sdb.
+
+618
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+We are going to format those drives with the XFS filesystem as it is the recommended filesystem. With 
+
+that in mind, you could format with ext4, if you wanted.

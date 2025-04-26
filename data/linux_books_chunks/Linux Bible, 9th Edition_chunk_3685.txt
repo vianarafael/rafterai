@@ -1,0 +1,11 @@
+In the 
+
+544
+
+c20.indd  04/01/2015  Page 545
+
+Chapter 20: Confi guring an NFS File Server
+
+Mount section, you can indicate which mount options are used when an NFS ﬁ lesystem is 
+mounted to a particular mount point. The Server section lets you add options to any NFS 
+ﬁ lesystem mounted from a particular NFS server.

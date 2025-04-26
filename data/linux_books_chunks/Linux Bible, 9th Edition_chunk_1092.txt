@@ -1,0 +1,8 @@
+Its jobs entry appears as follows:
+
+[5] Running nroff -man man4/* >/tmp/man4 &
+
+Killing and Renicing Processes
+Just as you can change the behavior of a process using graphical tools such as System 
+Monitor (described earlier in this chapter), you can also use command-line tools to kill a 
+process or change its CPU priority.

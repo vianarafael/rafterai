@@ -1,0 +1,5 @@
+For example, if you want to allow SSH connections to your 
+host, you must allow NEW and ESTABLISHED incoming traffic and eStABliSHeD outgoing traffic to ensure 
+the connection is possible.
+
+the RELATED state refers to a connection that is used to facilitate another connection.

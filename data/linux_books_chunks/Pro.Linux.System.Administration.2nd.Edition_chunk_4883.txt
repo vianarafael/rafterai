@@ -1,0 +1,8 @@
+On Ubuntu it is simply as follows:
+
+$ sudo aptitude install collectd
+
+Collectd Configuration
+
+The Collectd service is configured from the main collectd.conf file. Of course, there is a slight difference 
+where these are installed.

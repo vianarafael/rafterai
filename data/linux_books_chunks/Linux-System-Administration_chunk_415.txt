@@ -1,0 +1,12 @@
+vi
+[root@RHEL65 ~]# ps -fp 13938
+UID        PID  PPID  C STIME TTY          TIME CMD
+root     13938  3110  0 15:47 pts/0    00:00:00 vi /srv/project33/busyfile.txt
+
+79
+
+troubleshooting tools
+
+8.3. chroot
+
+The chroot command creates a shell with an alternate root directory.

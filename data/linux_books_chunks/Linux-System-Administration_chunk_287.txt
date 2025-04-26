@@ -1,0 +1,14 @@
+Since this is really writing to every sector of the
+disk, it can take a long time!
+
+root@RHELv4u2:~# badblocks -ws /dev/sdb
+Testing with pattern 0xaa: done
+Reading and comparing: done
+Testing with pattern 0x55: done
+Reading and comparing: done
+Testing with pattern 0xff: done
+Reading and comparing: done
+Testing with pattern 0x00: done
+Reading and comparing: done
+
+The previous screenshot overwrites every sector of the disk four times.

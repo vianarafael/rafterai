@@ -1,0 +1,24 @@
+Then in the last few chapters, I demonstrate how you can try out Linux 
+systems as hypervisors, cloud controllers, and virtual machines, as well as manage 
+virtual networks and networked storage.
+
+How This Book Is Organized
+The book is organized to enable you to start off at the very beginning with Linux and grow 
+to become a professional Linux system administrator and power user.
+
+Part I, “Getting Started,” includes two chapters designed to help you understand what 
+Linux is and get you started with a Linux desktop:
+
+ ■ Chapter 1, “Starting with Linux,” covers topics such as what the Linux operating 
+
+system is, where it comes from, and how to get started using it.
+
+ ■ Chapter 2, “Creating the Perfect Linux Desktop,” provides information on how you 
+can create a desktop system and use some of the most popular desktop features.
+
+Part II, “Becoming a Linux Power User,” provides in-depth details on how to use the Linux 
+shell, work with ﬁ lesystems, manipulate text ﬁ les, manage processes, and use shell scripts:
+
+ ■ Chapter 3, “Using the Shell,” includes information on how to access a shell, run 
+
+commands, recall commands (using history), and do tab completion.

@@ -1,0 +1,5 @@
+This outputs a certificate signed by our CA. We now have our public certificate 
+file, gateway.example.com.cert. We need to copy this file to the /etc/pki/tls/certs directory on our 
+gateway host. We will also need to copy the CA root certificate.
+
+To do this, we have an OpenSSH shell open on both the CA server and the gateway server.

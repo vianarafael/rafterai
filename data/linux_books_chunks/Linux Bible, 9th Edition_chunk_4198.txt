@@ -1,0 +1,2 @@
+Even though 
+Password1234 is still a weak password, it takes longer than 7 days of CPU time to crack it.

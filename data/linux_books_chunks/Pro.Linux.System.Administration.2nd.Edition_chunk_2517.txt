@@ -1,0 +1,6 @@
+2071    IN     NS      ns2.google.com.
+
+dig provides us with the IP addresses of these four servers in the additional section.
+
+;; ADDITIONAL SECTION:
+ns1.google.com.

@@ -1,0 +1,17 @@
+If  time  permits  (or  if  you  are  waiting  for  other  students  to  finish  this  practice),  then
+combine "valid users" and "invalid users" with groups and usernames with "hosts allow"
+and "hosts deny" and make a table of which get priority over which.
+
+259
+
+Chapter 24. a brief look at samba 4
+
+260
+
+a brief look at samba 4
+
+261
+
+a brief look at samba 4
+
+24.1.

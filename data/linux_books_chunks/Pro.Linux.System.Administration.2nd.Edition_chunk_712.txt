@@ -1,0 +1,14 @@
+Some of the key things you should take away from this chapter are 
+the following:
+
+•	
+
+•	
+
+•	
+
+You can test out lots of things using LiveCDs without any risk to your existing hosts 
+and data, or use a virtual machine.
+
+Learn to use the command line—it’s useful and powerful (and sometimes you 
+won’t have a choice!).

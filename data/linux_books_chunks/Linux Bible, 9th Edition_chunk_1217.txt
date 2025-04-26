@@ -1,0 +1,5 @@
+The 
+ following sections offer a couple of simple, but useful, shell scripts.
+
+Telephone list
+This idea has been handed down from generation to generation of old UNIX hacks.

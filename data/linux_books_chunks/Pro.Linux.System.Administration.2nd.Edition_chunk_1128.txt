@@ -1,0 +1,10 @@
+This will in turn run through the old /etc/rcN.d directory and start and stop services 
+for that particular runlevel.
+
+You manage Upstart with the initclt command and that allows you to start, stop services.
+
+$ sudo initctl start rsyslog
+$ sudo initctl stop rsyslog
+
+Upstart doesn’t have a tool to enable or disable services, but you can use pre-start script section to 
+source in a file that contains an ENABLED variable set.

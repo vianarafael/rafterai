@@ -1,0 +1,15 @@
+To determine your account’s password aging and whether it will expire using a 
+
+single command, type chage -l user_name . For example:
+
+# chage -l chris
+
+4.  To start auditing writes to the /etc/shadow with the auditd daemon, type the 
+
+following at the command line:
+
+# auditctl -w /etc/shadow -p w
+
+To check your audit settings, type in auditctl -l at the command line.
+
+5.

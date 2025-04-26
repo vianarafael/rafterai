@@ -1,0 +1,15 @@
+In the example that 
+ follows, the iptables conﬁ guration ﬁ le is redirected into the restore command and the 
+original DROP rule for 10.140.67.22 is restored.
+
+# iptables-restore < /etc/sysconfig/iptables
+# iptables -vnL
+Chain INPUT (policy ACCEPT)
+target     prot opt source     destination
+DROP       tcp  --  10.140.67.22   anywhere   tcp dpt:ssh
+Chain FORWARD (policy ACCEPT)
+target     prot opt source     destination
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source     destination
+
+For an Ubuntu system, saving and restoring your netfilter/iptables modifi cations are very similar.

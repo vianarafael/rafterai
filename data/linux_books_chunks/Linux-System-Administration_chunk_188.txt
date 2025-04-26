@@ -1,0 +1,8 @@
+Bounce a character between two pipes.
+
+[paul@rhel53 pipes]$ echo -n x | cat - p1 > p2 &
+[1] 4013
+[paul@rhel53 pipes]$ cat <p2 >p1 &
+[2] 4016
+
+3.

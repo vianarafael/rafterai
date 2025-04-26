@@ -1,0 +1,13 @@
+To turn on the ip_forward param-
+eter immediately and temporarily, type the following as root:
+
+14
+
+# cat /proc/sys/net/ipv4/ip_forward
+0
+# echo 1 > /proc/sys/net/ipv4/ip_forward
+# cat /proc/sys/net/ipv4/ip_forward
+1
+
+Packet forwarding (routing) is disabled by default, with the value of ip_forward set to 0. 
+By setting it to 1, packet forwarding is immediately enabled.

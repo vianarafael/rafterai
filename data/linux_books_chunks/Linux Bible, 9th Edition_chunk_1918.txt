@@ -1,0 +1,13 @@
+If 
+the -a is not used, existing supplementary groups for chris are erased and the new list of 
+groups includes the only supplementary groups assigned to that user.
+
+267
+
+c11.indd  04/01/2015  Page 268
+
+Part III: Becoming a Linux System Administrator
+
+Deleting users with userdel
+Just as usermod is used to modify user settings and useradd is used to create users, 
+userdel is used to remove users.

@@ -1,0 +1,17 @@
+TLS for mail traffic is the same as when connecting to a web site 
+using the Hypertext Transfer Protocol Secure (HTTPS) protocol, for example, https://www.gmail.com.
+
+TLS provides two key features for our e-mail communication.
+
+•	
+
+•	
+
+Prevents eavesdropping on our e-mail contents
+
+Encrypts communication between the client and server and hence protects 
+authentication
+
+Unfortunately, you should be aware that TLS in e-mail transportation is not really as secure as everyone 
+
+would like.

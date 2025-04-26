@@ -1,0 +1,15 @@
+https://github.com/cobbler/cobbler/
+
+wiki/Selinux
+
+4 : change 'disable' to 'no' in /etc/xinetd.d/tftp
+5 :  some network boot-loaders are missing from /var/lib/cobbler/loaders, ...is the easiest 
+
+way to resolve these requirements.
+
+6 :  debmirror package is not installed, it will be required to manage debian deployments and 
+
+repositories
+
+7 : ksvalidator was not found, install pykickstart
+8 :  The default password used by the sample templates ...

@@ -1,0 +1,17 @@
+Connect to Samba shares with AD users, and verify ownership of their files.
+
+250
+
+Chapter 23. samba domain controller
+
+251
+
+samba domain controller
+
+23.1. about Domain Controllers
+
+23.1.1. Windows NT4
+
+Windows NT4 works with single master replication domain controllers. There is exactly one
+PDC (Primary Domain Controller) in the domain, and zero or more BDC's (Backup Domain
+Controllers).

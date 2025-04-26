@@ -1,0 +1,2 @@
+Squid uses the http_access directive to determine whether a given ACL is allowed to 
+use the cache. This directive has two parameters, an action and an ACL.

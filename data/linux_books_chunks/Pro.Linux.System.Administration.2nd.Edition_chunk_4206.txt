@@ -1,0 +1,5 @@
+Again, the password was created and installed during the installation process.
+
+Managing Bareos with bconsole
+After you configure Bareos, you can start the services by using the systemctl command, like we just did 
+previously.

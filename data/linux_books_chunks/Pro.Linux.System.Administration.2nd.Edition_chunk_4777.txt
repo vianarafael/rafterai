@@ -1,0 +1,12 @@
+We need to make sure 
+that we have /etc/ssl/certs/cacert.pem installed in the correct location; otherwise, we will be rejected 
+from the LDAP server.
+
+Once we have placed cacert.pem in the correct place, we can test to see whether we can query the 
+
+LDAP server for users.
+
+$ grep ataylor /etc/passwd
+
+On our host, this returns no result, meaning that the user ataylor has not been created, but we did 
+create her in our LDAP configuration.

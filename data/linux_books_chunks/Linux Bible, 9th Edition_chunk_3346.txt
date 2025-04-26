@@ -1,0 +1,6 @@
+Permissions would be 
+read/write for the owner and nothing for anyone else (rw-------).
+
+So far, you have seen conﬁ guration options for individual features on your vsftpd server. 
+Some sets of vsftp.conf variables can work together in ways that are appropriate for 
+certain kinds of FTP sites.

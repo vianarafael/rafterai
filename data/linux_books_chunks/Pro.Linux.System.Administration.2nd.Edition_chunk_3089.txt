@@ -1,0 +1,4 @@
+Let’s Encrypt is a free 
+CA that will automatically create, request, and sign certificates, primarily for web servers. We are going to be 
+using Let’s Encrypt for many of our services as it is a secure and convenient way to encrypt all your traffic.
+How does it work? Well, like we said, the heart of it is just like a normal CA.

@@ -1,0 +1,10 @@
+In that example, 
+samplings of data were taken every 5 seconds and repeated twice.
+
+Refer to the sar, sadc, sa1, and sa2 man pages for more information on how sar data 
+can be gathered and displayed.
+
+Checking System Space
+Although logwatch can give you a daily snapshot of space consumption on your system 
+disks, the df and du commands can help you immediately see how much disk space is 
+available.

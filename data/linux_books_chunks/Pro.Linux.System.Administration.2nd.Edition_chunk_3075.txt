@@ -1,0 +1,12 @@
+You now have your own CA 
+
+and can use it to sign certificates.
+
+511
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+SECURING YOUR CERTIFICATE AUTHORITY
+
+if you are using your Ca to secure production or any sensitive data transmissions, you will want to keep 
+your Ca (private keys, CrLs, and so on) very secure.

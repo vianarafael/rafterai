@@ -1,0 +1,2 @@
+The web service can run on any host; it does not have to be on the 
+same host as the LDAP server, but in our example, this will be the case.

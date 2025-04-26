@@ -1,0 +1,10 @@
+You can then use the graceful 
+restart option (apachectl graceful) to instruct Apache to reload its conﬁ guration 
+ without disconnecting any active clients.
+
+The graceful restart option in apachectl automatically tests the confi guration before sending the reload signal 
+to apache, but getting in the habit of running the manual confi guration test after making any confi guration changes 
+is still a good idea.
+
+Some conﬁ guration problems pass the syntax tests performed by apachectl but cause the 
+HTTP daemon to exit immediately after reloading its conﬁ guration.

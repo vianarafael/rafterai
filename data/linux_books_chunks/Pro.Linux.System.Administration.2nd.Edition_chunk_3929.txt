@@ -1,0 +1,15 @@
+Next, we will sudo into the user’s 
+account and create our SSH keys.
+
+$ sudo su – exbackup
+$ mkdir .ssh && chmod 0700 –R .ssh && cd .ssh
+$ ssh-keygen -b 4096 -t rsa -f exbackup
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in exbackup.
+Your public key has been saved in exbackup.pub.
+The key fingerprint is:
+c1:0c:1f:a5:e4:cf:b9:a5:30:c3:4b:45:23:4f:c9:96 exbackup@backup
+$ ls –l total 16
+-rw-------.

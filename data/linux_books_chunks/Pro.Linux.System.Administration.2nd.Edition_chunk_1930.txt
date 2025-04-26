@@ -1,0 +1,4 @@
+Although the package lists return to their initial collapsed state, the command to install your 
+package was added to the internal to-do list.
+
+To process your pending installation, press g.

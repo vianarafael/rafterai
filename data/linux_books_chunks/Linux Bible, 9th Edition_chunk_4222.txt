@@ -1,0 +1,6 @@
+The term was 
+created by putting together “root,” which means that it has to have administrator access, 
+and “kit,” which means it is usually several programs that operate in concert.
+
+A rootkit detector that can be used on a Linux system is chkrootkit. To install 
+chkrootkit on a Fedora or RHEL system, issue the command yum install chkrootkit.

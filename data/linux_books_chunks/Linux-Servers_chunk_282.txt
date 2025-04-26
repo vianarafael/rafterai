@@ -1,0 +1,45 @@
+The screenshot shows how to use the avg function to calculate
+an average.
+
+mysql> select * from people;
++-----------------+-----------+-----------+-------------+
+| Name            | Field     | birthyear | countrycode |
++-----------------+-----------+-----------+-------------+
+| Barack Obama    | politics  | 1961      | US          |
+| Deng Xiaoping   | politics  | 1904      | CN          |
+
+53
+
+introduction to sql using mysql
+
+| Guy Verhofstadt | politics  | 1953      | BE          |
+| Justine Henin   | tennis    | 1982      | BE          |
+| Kim Clijsters   | tennis    | 1983      | BE          |
+| Li Na           | tennis    | 1982      | CN          |
+| Liu Yang        | astronaut | 1978      | CN          |
+| Serena Williams | tennis    | 1981      | US          |
+| Venus Williams  | tennis    | 1980      | US          |
++-----------------+-----------+-----------+-------------+
+9 rows in set (0.00 sec)
+
+mysql> select Field,AVG(birthyear) from people;
++----------+-------------------+
+| Field    | AVG(birthyear)    |
++----------+-------------------+
+| politics | 1967.111111111111 |
++----------+-------------------+
+1 row in set (0.00 sec)
+
+Using the group by clause, we can have an average per field.
+
+mysql> select Field,AVG(birthyear) from people group by Field;
++-----------+--------------------+
+| Field     | AVG(birthyear)     |
++-----------+--------------------+
+| astronaut |               1978 |
+| politics  | 1939.3333333333333 |
+| tennis    |             1981.6 |
++-----------+--------------------+
+3 rows in set (0.00 sec)
+
+3.5.8.

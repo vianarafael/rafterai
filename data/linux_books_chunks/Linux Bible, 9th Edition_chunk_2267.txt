@@ -1,0 +1,4 @@
+The xinetd super server (originally 
+called inetd when it was created in the early days of UNIX) came about in a time when 
+memory was very expensive, so freeing up space by only launching rarely used services 
+on demand made sense.

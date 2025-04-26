@@ -1,0 +1,5 @@
+We have 
+one module that is loaded, back_mdb, which is the hierarchical Memory Mapped database we spoke of earlier.
+We want to also enable the ppolicy overlay module. The ppolicy module allows us to have greater 
+
+control of the passwords in our database via password expiry and other password control features.

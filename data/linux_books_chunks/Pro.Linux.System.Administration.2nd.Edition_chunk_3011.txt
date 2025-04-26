@@ -1,0 +1,11 @@
+WordPress installation
+
+To proceed, we click Continue to install WordPress in our local language. The next page, shown in 
+
+Figure 11-11, gives us the opportunity to name our web site and provide the administration details.
+
+502
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-11.

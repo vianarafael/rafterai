@@ -1,0 +1,5 @@
+root user warning dialog
+
+You can disable this warning from appearing in the future. You will notice there is a “Never display this 
+message again” check box. First press Tab to jump to the check box, press the spacebar to check it, and then 
+press Tab again to select the OK button and Enter to accept.

@@ -1,0 +1,12 @@
+now I have two problems,” meaning that complex 
+regular expressions can be tricky to maintain.
+
+For further reading, we recommend picking up a book such as Mastering Regular Expressions by Jeffrey 
+Friedl (O’Reilly, 2006) to help you learn about regular expressions.
+
+136
+
+Searching for Files
+We’ve shown you how you can read a file, but what if you need to find the location of a file? A number of 
+commands and tools on a Linux host allow you to find files in much the same way as the Windows Search 
+function works.

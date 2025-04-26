@@ -1,0 +1,15 @@
+We are going to build a 
+nginx installation package as a deb, but the process works the same for a RPM package.
+
+Starting with installing FPM, it comes as a Ruby Gem, a Gem being another way of packaging and 
+
+distributing software, specifically for Ruby applications.
+First, on Ubuntu, we will issue the following:
+
+$ sudo aptitude install –y install ruby ruby-dev
+
+If you are running CentOS:
+
+$ sudo yum install -y ruby ruby-devel
+
+The following steps are the same for CentOS as they are for Ubuntu.

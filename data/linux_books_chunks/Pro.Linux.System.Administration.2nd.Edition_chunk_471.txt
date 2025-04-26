@@ -1,0 +1,6 @@
+A connection is then initiated on the client and connects to the server via TCP on port 22 (you can 
+change this port, and we’ll talk about how to do that in Chapter 10).
+
+ ■ Note 
+ You have probably encountered Ip addresses and hostnames before, but you might not have come 
+across ports. Ports are communications end points used by services like ssh.

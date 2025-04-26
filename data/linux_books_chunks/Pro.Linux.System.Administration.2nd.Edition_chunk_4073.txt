@@ -1,0 +1,5 @@
+Bareos is easy to configure, secure, and upgrade, and it is a complete, free, and 
+robust backup server.
+
+Bareos is a fork of the popular Bacula backup server software. Bacula is still available in an open source 
+community version, but it has dedicated development for the commercial version of its software.

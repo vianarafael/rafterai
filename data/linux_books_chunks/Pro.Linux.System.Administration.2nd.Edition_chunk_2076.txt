@@ -1,0 +1,2 @@
+This means that sda1 is 
+the first partition on disk sda, sdb2 is the second partition on disk sdb, and so on.

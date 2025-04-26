@@ -1,0 +1,4 @@
+Customised initrd
+
+In most cases a “customised initrd” requires running mkinitrd which will determine the 
+kernel modules needed to support block devices and filesystems used on the root device.

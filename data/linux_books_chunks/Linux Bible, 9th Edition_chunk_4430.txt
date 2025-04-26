@@ -1,0 +1,14 @@
+Copy the current PAM system event conﬁ guration ﬁ le to a new ﬁ le, adding a new 
+
+ﬁ lename ending, such as “local.”
+
+# cp system-auth-ac system-auth-local
+
+2.  Make the needed changes to the new conﬁ guration ﬁ le.
+
+# vi system-auth-local
+
+3.  Remove the old symbolic link ﬁ le.
+
+# ls -l system-auth
+lrwxrwxrwx.

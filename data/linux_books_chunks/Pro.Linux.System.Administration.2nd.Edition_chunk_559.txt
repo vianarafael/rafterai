@@ -1,0 +1,7 @@
+This potentially intimidating collection of characters is actually quite simple to decipher: the first character 
+describes the type of file, and the next nine characters describe the permissions of the file.
+
+File Types
+
+Almost everything on the Linux file system can be generally described as a file. The first character of the 
+listing tells us exactly what sort of file.

@@ -1,0 +1,6 @@
+But what does the /24 
+mean?
+
+Due to the limited address space of iPv4 it was necessary to conserve iP addresses, which is how the 
+idea of carving up the address space into smaller chunks, or subnetting, came about. iPv4 addresses 
+are made up of 32 binary bits. these bits are broken up into 4 octets (1 octet is 8bits).

@@ -1,0 +1,6 @@
+However, most daemons don’t use shells, so adding limits to the shell 
+configuration files won’t have any effect.
+
+You can instead use the limits module for PAM. This module is invoked when a user creates a new 
+process, and it sets limits that you can define in /etc/security/limits.conf. This file defines both soft and 
+hard limits for users and groups.

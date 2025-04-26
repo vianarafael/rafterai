@@ -1,0 +1,4 @@
+primary key in where clause ?
+
+The primary key of a table is a field that uniquely identifies every record (every row) in
+the table.

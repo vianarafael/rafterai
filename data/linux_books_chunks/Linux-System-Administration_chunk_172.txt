@@ -1,0 +1,3 @@
+pipes (mkfifo)
+
+Processes can communicate with each other via pipes.

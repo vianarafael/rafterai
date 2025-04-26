@@ -1,0 +1,16 @@
+There are other options for you; you might consider one 
+of the following:
+
+•	
+
+Joomla! (http://joomla.org), PHP based
+
+•	 Drupal (www.drupal.org), PHP based
+
+•	
+
+Jekyll (https://jekyllrb.com/), Ruby based
+
+•	 Django (https://www.django-cms.org), Python based
+
+The software is available as a tarball from https://wordpress.org/download/.

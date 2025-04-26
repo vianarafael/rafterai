@@ -1,0 +1,14 @@
+For example:
+
+$ host redhat.com
+redhat.com has address 209.132.183.181
+redhat.com mail is handled by 5 mx1.redhat.com.
+redhat.com mail is handled by 10 mx2.redhat.com.
+$ dig redhat.com
+; <<>> DiG 9.9.6-RedHat-9.9.6-4.fc21 <<>> redhat.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 54399
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+;; QUESTION SECTION:
+;redhat.com.

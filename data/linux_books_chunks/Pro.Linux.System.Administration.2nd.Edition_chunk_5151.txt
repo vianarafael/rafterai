@@ -1,0 +1,7 @@
+If 
+count is 0, old log files are removed, not rotated.
+
+Log files are rotated when they get bigger than the maximum size; M 
+indicates size in megabytes, and k indicates size in kilobytes.
+
+Prescripts and postscripts can be run for each log file being rotated.

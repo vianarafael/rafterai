@@ -1,0 +1,9 @@
+As you can see, you can choose to 
+override values that you might have in the passwd file, like the home directory of the user to put their mail in 
+a different directory to their normal home directory.
+
+ ■ Note 
+
+ You can read more about the user database lookups at http://wiki.dovecot.org/UserDatabase.
+
+After you have configured Dovecot, you’ll need to start (or restart) it.

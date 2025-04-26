@@ -1,0 +1,3 @@
+The 
+name “loghost” was not an arbitrary choice. Creating such a hostname and making it an 
+alias to the actual system acting as the loghost is customary.

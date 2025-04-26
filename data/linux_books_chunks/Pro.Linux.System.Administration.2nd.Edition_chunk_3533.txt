@@ -1,0 +1,2 @@
+You 
+can do this using the Sieve configurations you previously used to sort spam e-mail into a separate folder.

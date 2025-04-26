@@ -1,0 +1,4 @@
+As we explained, in our 
+slapd.conf file all object classes are indexed, so choosing one that you know is in the entity you are looking 
+for will speed your searches. The uid attributes are also indexed, so we also want to filter on the uid of the 
+entry we are looking for.

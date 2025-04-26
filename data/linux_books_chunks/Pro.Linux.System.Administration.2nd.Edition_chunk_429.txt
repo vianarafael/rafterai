@@ -1,0 +1,4 @@
+The command 
+line can be referred to as the “console,” “terminal,” or “shell”; each has a slightly different context, but in 
+the end it is the place where you type Linux commands in. In this book, a lot of focus is going to be on the 
+command line.

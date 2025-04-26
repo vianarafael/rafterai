@@ -1,0 +1,27 @@
+Some useradd Command-Line Options
+
+Option
+
+-c
+
+-d homedir
+
+-m
+
+-M
+
+Description
+
+Add a description of the user
+
+The user’s home directory
+
+Create the user’s home directory
+
+Do not create the user’s home directory (CentOS only)
+
+-s shell
+
+Specify the shell the user will use
+
+The –d option allows you to specify the user’s home directory.

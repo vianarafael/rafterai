@@ -1,0 +1,6 @@
+# snake4scores
+
+
+- Show the highscores:
+
+`snake4scores`

@@ -1,0 +1,9 @@
+To add a user click the + button at the bottom 
+
+of that list. You can delete users by clicking the – button. In Figure 5-3 we add a new user called ataylor.
+
+Chapter 5 ■ Users and GroUps
+
+Figure 5-3.  Adding user ATaylor
+
+In Figure 5-3 we are adding the user ataylor.

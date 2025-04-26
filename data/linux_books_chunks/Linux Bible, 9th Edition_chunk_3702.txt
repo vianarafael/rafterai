@@ -1,0 +1,7 @@
+The ls 
+ command, for example, doesn’t show anything under a network-mounted directory until 
+the directory is mounted, which may lead to a sometimes-it’s-there-and-sometimes-it’s-
+not impression. Just change to a network-mounted directory, or access a ﬁ le on such a 
+ directory, and autofs takes care of the rest.
+
+In the example shown, the hostname shuttle is used.

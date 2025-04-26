@@ -1,0 +1,3 @@
+This 
+includes using redirection with the > or >> symbols to redirect output from one command to another. 
+This concept can be extended using the |, or pipe, symbol.

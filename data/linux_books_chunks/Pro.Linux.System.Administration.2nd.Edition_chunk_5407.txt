@@ -1,0 +1,16 @@
+You may also have these 
+notifications being replicated to the syslog (rsyslog) daemon.
+
+If you do not want this functionality, you can set your use_syslog directive to the following:
+
+use_syslog=0
+
+When you need to debug Nagios, you will need to edit the /etc/nagios/nagios.cfg file and edit the 
+
+following:
+
+debug_level=0
+
+Do you remember from LDAP logging when we had additive logging directives that give different log 
+
+levels by adding binary numbers together? Nagios is the same.

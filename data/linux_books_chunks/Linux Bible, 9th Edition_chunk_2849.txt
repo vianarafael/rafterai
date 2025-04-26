@@ -1,0 +1,13 @@
+To add the script based on the chkconfig line in the service script, type the 
+
+following:
+
+# chkconfig --add My_New_Service
+# ls /etc/rc?.d/*My_New_Service
+/etc/rc0.d/K10My_New_Service  /etc/rc4.d/S25My_New_Service
+/etc/rc1.d/K10My_New_Service  /etc/rc5.d/S25My_New_Service
+/etc/rc2.d/S25My_New_Service  /etc/rc6.d/K10My_New_Service
+/etc/rc3.d/S25My_New_Service
+
+Based on the previous example (chkconfig: 2345 25 10), symbolic links to the script 
+set the service to start in the position 25 (S25) for runlevels 2, 3, 4, and 5.

@@ -1,0 +1,8 @@
+This shows that the master will transfer zone 
+
+files to the slave. You should now be able to dig the slave and resolve the following:
+
+$ dig @192.168.0.254 mail.example.com
+...
+;; ANSWER SECTION:
+mail.example.com.

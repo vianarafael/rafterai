@@ -1,0 +1,7 @@
+After the DNS type (SOA) you will see seven fields.
+
+<name server>    <admin email address>      serial #     refresh   retry  expiry   nx ttl
+ns2.google.com.   dns-admin.google.com.    125880391         900    900     1800       60
+
+We will look at them in greater detail shortly but we would like to mention the last item in the list, which 
+is the negative cache TTL, or nx ttl.

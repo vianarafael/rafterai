@@ -1,0 +1,14 @@
+Type ? for help.
+"/var/spool/mail/root": 2 messages 2 new
+>N  1 logwatch@abc.ex  Sun Feb 15 04:02 45/664   "Logwatch for abc"
+    2 logwatch@abc.ex  Mon Feb 16 04:02 45/664   "Logwatch for abc"
+& 1
+& x
+
+339
+
+c13.indd  04/01/2015  Page 340
+
+Part IV: Becoming a Linux Server Administrator
+
+In mail, you should see e-mail messages from logwatch run each day (here at 4:02 a.m.).

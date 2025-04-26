@@ -1,0 +1,3 @@
+It liter-
+ally runs off the right edge of the screen so you cannot see the full results. And you must 
+enter q to return to the command prompt.

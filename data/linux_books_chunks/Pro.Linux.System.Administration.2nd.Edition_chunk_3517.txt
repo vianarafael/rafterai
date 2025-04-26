@@ -1,0 +1,13 @@
+if we collect these 
+messages and pass them to the audit2allow program, we will be able to create the policy package we 
+need to allow the correct access.
+
+sudo grep "denied" /var/log/audit/audit.log |grep clamav | audit2allow -M clamav-
+write
+
+this command will create clamav-write.te and clamav-write.pp, which you can then load in via the 
+following:
+
+sudo semodule -i clamav-write.pp
+
+For apparmor it is a different concept.

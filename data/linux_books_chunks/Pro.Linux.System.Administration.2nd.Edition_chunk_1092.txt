@@ -1,0 +1,7 @@
+Using Systemd Targets to Boot to Rescue Mode
+
+linux16 /vmlinuz-3.10.0-327.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto 
+rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet systemd.unit=rescue.target
+
+From looking at Listing 6-6 you might be able to recognize that we are on a CentOS server; we can do 
+the same on an Ubuntu server.

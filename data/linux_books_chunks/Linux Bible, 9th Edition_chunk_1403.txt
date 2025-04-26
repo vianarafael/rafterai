@@ -1,0 +1,7 @@
+So, with a KDE 
+or GNOME desktop running, you simply plug in a USB device or insert a CD or DVD and a 
+ window may pop up to deal with that device.
+
+Although different desktop environments share many of the same underlying mechanisms 
+(in particular, Udev) to detect and name removable hardware, they offer different tools 
+for conﬁ guring how they are mounted or used.

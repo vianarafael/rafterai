@@ -1,0 +1,22 @@
+You can get basic information from a Samba server using the 
+ following command:
+
+# smbclient -L localhost
+Enter root's password: <ENTER>
+Anonymous login successful
+Domain=[MYGROUP] OS=[Unix] Server=[Samba 4.1.15]
+   Sharename     Type     Comment
+   ---------     ----     -------
+   IPC$          IPC      IPC Service
+                          (Samba Server Version 4.1.15)
+   DeskJet       Printer  DeskJet
+   Jeeves        Printer  HP Deskjet 3050 J610 series
+   deskjet-5550  Printer  hp deskjet 5550
+Anonymous login successful
+Domain=[MYGROUP] OS=[Unix] Server=[Samba 4.1.15]
+       Server             Comment
+       ---------          -------
+       Workgroup          Master
+       ---------          -------
+
+The smbclient output allows you to see what services are available from the server.

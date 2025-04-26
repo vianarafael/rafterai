@@ -1,0 +1,3 @@
+This objective includes using sed and awk in scripts, and using 
+scripts to check for process execution and generate alerts by email or pager if a 
+process dies.

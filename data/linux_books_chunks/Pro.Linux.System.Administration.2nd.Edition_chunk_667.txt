@@ -1,0 +1,6 @@
+To copy a file, you will need two permissions: read 
+permissions on the file you are copying and write permissions in the destination you are copying to.
+
+To copy a file, use the cp command (short for copy). In Listing 4-16, you can see a simple cp command.
+
+Listing 4-16.

@@ -1,0 +1,15 @@
+(optional) Perform a file system check on the partition mounted at /srv/nfs/salesnumbers.
+
+74
+
+mounting
+
+7.8. solution: mounting file systems
+
+1. Mount the small 200MB partition on /home/project22.
+
+mkdir /home/project22
+mount /dev/sdc1 /home/project22
+
+2. Mount the big 400MB primary partition on /mnt, the copy some files to it (everything in /
+etc).

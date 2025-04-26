@@ -1,0 +1,7 @@
+Most Linux 
+distributions come with a package manager, which usually has a set of command-line and graphical tools for 
+managing packages, and a small database that records what has been installed.
+
+By the end of this chapter, you’ll have a good understanding of what packages are, how to install 
+and remove them, how to find the right package for your needs, and how to install software from source 
+code.

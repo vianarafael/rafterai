@@ -1,0 +1,50 @@
+The following 
+keywords are available for cracklib:
+
+ ■ retry=N
+
+ ■ Default = 1
+
+ ■ Prompt user at most N times before returning with an error.
+
+661
+
+c23.indd  04/01/2015  Page 662
+
+Part V: Learning Linux Security Techniques
+
+ ■ difok=N
+
+ ■ Default = 5
+
+ ■ The number of characters in the new password that must not be present in the 
+
+old password.
+
+ ■ Exception 1: If half of the characters in the new password are different, then 
+
+the new password is accepted.
+
+ ■ Exception 2: See difignore.
+
+ ■ difignore=N
+
+ ■ Default = 23
+
+ ■ The number of characters the password has before the difok setting is ignored.
+
+ ■ minlen=N
+
+ ■ Default = 9
+
+ ■ The minimum acceptable size for the new password.
+
+ ■ See dcredit, ucredit, lcredit, and ocredit for how their settings affect 
+
+minlen.
+
+ ■ dcredit=N
+
+ ■ Default =1
+
+ ■ If (N >= 0): The maximum credit for having digits in the new password.

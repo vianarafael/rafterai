@@ -1,0 +1,23 @@
+To load the bttv module, list the modules that were loaded, and unload it, type 
+
+the following:
+
+# modprobe -a bttv
+# lsmod | grep bttv
+bttv                  124516  0
+v4l2_common            10572  1 bttv
+videobuf_dma_sg         9814  1 bttv
+videobuf_core          20076  2 bttv,videobuf_dma_sg
+btcx_risc               4416  1 bttv
+rc_core                19686  7 ir_lirc_codec,ir_sony_decoder,
+     ir_jvc_decoder,ir_rc6_decoder
+tveeprom               14042  1 bttv
+videodev               76244  3 bttv,v4l2_common,uvcvideo
+i2c_algo_bit            5728  2 bttv,i915
+i2c_core               31274  9 bttv,v4l2_common,tveeprom,videodev,
+     i2c_i801,i915,drm_kms_helper
+
+Notice that other modules (v4l2_common, videodev, and others) were loaded 
+when you loaded bttv with modprobe -a.
+
+10.

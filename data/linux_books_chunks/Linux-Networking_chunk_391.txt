@@ -1,0 +1,43 @@
+running apache on CentOS
+
+Starting the httpd on RHEL/CentOS is done with the service command.
+
+[root@centos65 ~]# service httpd status
+httpd is stopped
+[root@centos65 ~]# service httpd start
+Starting httpd: httpd: Could not reliably determine the server's fully qualifie\
+d domain name, using 127.0.0.1 for ServerName
+                                                           [  OK  ]
+[root@centos65 ~]#
+
+To verify that apache is running, use ps or issue the service httpd status command again.
+
+[root@centos65 ~]# service httpd status
+httpd (pid  2410) is running...
+[root@centos65 ~]# ps -C httpd
+  PID TTY          TIME CMD
+ 2410 ?        00:00:00 httpd
+ 2412 ?        00:00:00 httpd
+ 2413 ?        00:00:00 httpd
+ 2414 ?        00:00:00 httpd
+ 2415 ?        00:00:00 httpd
+ 2416 ?        00:00:00 httpd
+ 2417 ?        00:00:00 httpd
+ 2418 ?        00:00:00 httpd
+ 2419 ?        00:00:00 httpd
+[root@centos65 ~]#
+
+To  prevent  the  'Could  not  reliably  determine  the  fqdn'  message,  issue  the  following
+command.
+
+[root@centos65 ~]# echo ServerName Centos65 >> /etc/httpd/conf/httpd.conf
+[root@centos65 ~]# service httpd restart
+Stopping httpd:                                            [  OK  ]
+Starting httpd:                                            [  OK  ]
+[root@centos65 ~]#
+
+80
+
+apache web server
+
+8.1.5.

@@ -1,0 +1,3 @@
+Be sure that the NAME and value touch the equal sign, without any spaces. 
+Variables can be assigned from constants, such as text, numbers, and underscores. This 
+is useful for initializing values or saving lots of typing for long constants.

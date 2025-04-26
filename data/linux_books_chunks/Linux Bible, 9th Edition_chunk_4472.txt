@@ -1,0 +1,2 @@
+The tally2 lines you need to add to system-auth-local are highlighted in the 
+sample ﬁ le that follows.

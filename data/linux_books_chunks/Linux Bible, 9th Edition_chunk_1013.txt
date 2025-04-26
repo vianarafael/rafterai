@@ -1,0 +1,5 @@
+With grep, you can search a single ﬁ le or search a whole directory structure of 
+ﬁ les recursively.
+
+When you search, you can have every line containing the term printed on your screen 
+(standard output) or just list the names of the ﬁ les that contain the search term.

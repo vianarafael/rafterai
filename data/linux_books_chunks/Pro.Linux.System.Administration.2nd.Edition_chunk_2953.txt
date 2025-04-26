@@ -1,0 +1,14 @@
+We are going to concentrate on 
+basic tunings for the XtraDB engine in MariaDB.
+
+To show the current settings of the MariaDB, you can issue the following command from the  
+
+command line:
+
+MariaDB [(none)]> show variables;
+
+This command produces a long list of all the variables currently stored in MariaDB. To see individual 
+
+settings, we can use the SQL shown in Figure 11-4.
+
+Figure 11-4.

@@ -1,0 +1,11 @@
+For example, a malicious user could add a new account to the ﬁ le if write 
+access were granted to Other.
+
+604
+
+c22.indd  04/15/2015  Page 605
+
+Chapter 22: Understanding Basic Linux Security 
+
+The next ﬁ le is the /etc/shadow ﬁ le. Of course, it is closely related to the /etc/passwd 
+ﬁ le because it is also used during the login authentication process.

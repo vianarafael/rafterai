@@ -1,0 +1,10 @@
+[ OK ]
+Sending all processes the KILL signal...      [ OK ]
+...
+Unmounting filesystems                        [ OK ]
+Please stand by while rebooting the system
+...
+
+On a freshly booted Linux server, the current runlevel number should be the same as the 
+default runlevel number in the /etc/inittab ﬁ le. However, notice that the previous 
+runlevel in the example that follows is N.

@@ -1,0 +1,6 @@
+Sample of the /etc/groups File
+
+root:x:0:root
+ataylor:x:501:finance,printing
+
+The /etc/group file is structured much like the /etc/passwd file, with the data separated by a colon.

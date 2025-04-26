@@ -1,0 +1,6 @@
+It also contains a priority for the severity of the message, and an action to decide on
+what to do with the message.
+
+17.2.3. modules
+
+The new rsyslog has many more features that can be expanded by using modules.

@@ -1,0 +1,5 @@
+For true cryptographic hashing, you 
+need to use one of the SHA cryptographic hashes discussed later in this chapter.
+
+You can implement even more cryptography besides hashing on your Linux system. The 
+Linux utilities to do so are very easy to use.

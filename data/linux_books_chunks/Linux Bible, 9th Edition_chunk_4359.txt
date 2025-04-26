@@ -1,0 +1,9 @@
+To install on 
+Ubuntu, type sudo apt-get install duplicity at the command line.
+
+Uses GNU Privacy Guard to encrypt or sign fi les into an archive. Installed by default.
+
+A toolkit that implements Secure Socket Layer (SSL) and Transport Layer Security 
+(TLS) protocols. These protocols require encryption. Installed by default.
+
+A GNU Privacy Guard encryption key manager.

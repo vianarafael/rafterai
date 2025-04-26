@@ -1,0 +1,6 @@
+From the Panel Properties, select where you want the panel from the 
+
+Orientation box (Top, Bottom, Left, or Right).
+
+After you’ve added a panel, you can add applets or application launchers to it as you did to 
+the default panel.

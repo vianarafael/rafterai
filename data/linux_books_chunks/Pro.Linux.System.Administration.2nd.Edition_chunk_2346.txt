@@ -1,0 +1,5 @@
+Adding the new physical volume to 
+
+the group means it now has 23.50 GiB of unallocated space.
+
+The alternative would have been to create a new volume group and use your physical volume with that.

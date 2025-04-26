@@ -1,0 +1,5 @@
+Given that the user chris in this 
+example has read-write permission to the shared directory, users on your system should be 
+able to read and write to the mounted directory. Regardless of who saves ﬁ les on the shared 
+directory, on the server those ﬁ les are owned by the user chris. This mount lasts until the 
+system is rebooted or you run the umount command on the directory.

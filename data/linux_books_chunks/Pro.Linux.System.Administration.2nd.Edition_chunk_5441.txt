@@ -1,0 +1,9 @@
+We’re going to walk you through a few of the screens available 
+in the console, but we recommend you take a look at the views, graphs, lists, and controls available on the 
+console.
+
+For a summary of the status of your environment, the best view is the Tactical Monitoring Overview 
+
+screen, which you can see in Figure 18-11.
+
+Figure 18-11.

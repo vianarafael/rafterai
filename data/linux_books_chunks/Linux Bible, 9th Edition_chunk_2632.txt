@@ -1,0 +1,7 @@
+If you use NetworkManager over a wired or wireless Ethernet connec-
+tion, address and server information needed to start up can be automatically obtained from 
+a DHCP server.
+
+With NetworkManager’s graphical interface, you can do some network conﬁ guration, if 
+you like. You can set static IP addresses and select the name server and gateway comput-
+ers to use.

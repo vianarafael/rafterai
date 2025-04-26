@@ -1,0 +1,6 @@
+We will be using Grafana to display our metrics (in the next section) and so do not need install 
+Graphite-web.
+
+The Carbon components are comprised of carbon-relays and carbon-aggregators and carbon-cache. 
+
+We are interested in installing the carbon-cache and a carbon-relay.

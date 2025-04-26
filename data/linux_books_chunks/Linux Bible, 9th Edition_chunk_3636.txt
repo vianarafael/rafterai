@@ -1,0 +1,6 @@
+To get around that 
+problem, you need to lock down the port numbers those services use and open the ﬁ rewall 
+so those ports are accessible.
+
+To make locking down NFS server ports easier, entries in the /etc/sysconfig/nfs ﬁ le 
+can be added to assign speciﬁ c port numbers to services.

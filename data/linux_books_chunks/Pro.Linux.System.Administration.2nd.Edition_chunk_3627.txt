@@ -1,0 +1,6 @@
+Printing on 
+Linux is easy to implement, and both CentOS and Ubuntu share a common toolset that makes it easy to 
+implement and manage.
+
+File Sharing with Samba and NFS
+File sharing is the ability to share documents between your users.

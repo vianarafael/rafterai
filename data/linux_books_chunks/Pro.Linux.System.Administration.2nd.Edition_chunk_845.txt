@@ -1,0 +1,5 @@
+this is because 
+modern distributions use shadow passwords to handle password management.
+
+previously, passwords were stored as one-way hashes in /etc/passwd, which provided limited security 
+and exposed usernames and passwords to brute-force cracking methods.

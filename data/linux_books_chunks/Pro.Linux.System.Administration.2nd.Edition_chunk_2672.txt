@@ -1,0 +1,7 @@
+We are going to go through dynamic dns updates shortly.
+
+Dynamic Host Configuration Protocol
+
+Now that we have naming of hosts sorted, it might be nice to have network addresses assigned automatically 
+to some hosts, like workstations or laptops. The service used for this is Dynamic Host Configuration 
+Protocol.

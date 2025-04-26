@@ -1,0 +1,9 @@
+However, it is much easier to use Booleans 
+to modify policies.
+
+Managing SELinux via booleans
+SELinux policy rule writing and module creation is a rather complicated and time-consum-
+ing activity. Creating incorrect policy rules could potentially compromise your Linux sys-
+tem’s security. Thankfully, SELinux provides Booleans.
+
+A Boolean is a toggle switch that toggles a setting on or off.

@@ -1,0 +1,6 @@
+A sandbox is an 
+environment where programs can run, but their access to other objects is tightly controlled.
+
+A process running in such an environment is said to be “sandboxed.” Thus, a targeted 
+ daemon is restricted so that no malicious attacks launched through it can affect other ser-
+vices or the Linux system as a whole.

@@ -1,0 +1,13 @@
+Display the umask in octal and in symbolic form.
+
+umask ; umask -S
+
+11b. Set the umask to 077, but use the symbolic format to set it. Verify that this works.
+
+umask -S u=rwx,go=
+
+55
+
+standard file permissions
+
+12. Create a file as root, give only read to others.

@@ -1,0 +1,15 @@
+Let’s create a manifests file inside the profile directory. In that directory we will create a 
+file called init.pp. This file is not technically necessary and will not hold any configuration. You can see the 
+contents of this file in Listing 19-8.
+
+946
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Listing 19-8.  Our init.pp Configuration
+
+class profile {
+
+}
+
+It is simply an empty Puppet file.

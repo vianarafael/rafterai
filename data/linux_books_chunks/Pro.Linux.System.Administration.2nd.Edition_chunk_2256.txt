@@ -1,0 +1,11 @@
+If this 
+happens, attempting to mount the filesystem by using the UUID reference would result in an error like the 
+following:
+
+$ sudo mount /mnt/datax
+mount: special device /dev/disk/by-uuid/ccd60fc3-bbaf-40e5-a93e-43743f9176d9
+    does not exist
+
+You can cause the UUID to be redetected and the correct symbolic link in /dev/disk/by-uuid to be 
+
+created by reloading the udev service.

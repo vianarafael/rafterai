@@ -1,0 +1,4 @@
+start typing a command and then press the Tab key, 
+
+ ■ Tip 
+and Bash will search your path to try to find the command you’re trying to issue.

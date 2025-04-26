@@ -1,0 +1,6 @@
+We’ll talk more about these files in Chapter 6.
+
+Users and groups are important, and we’re going to explain how they work and how to create them in 
+
+Chapter 6. Conceptually, users and groups operate in much the same way as they do on a Windows host. 
+Each user has an account that is usually secured with a password.

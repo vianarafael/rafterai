@@ -1,0 +1,30 @@
+152
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c07.indd  04/01/2015  Page 153
+
+Writing Simple Shell Scripts
+
+ C H A P T E R 
+
+7
+
+IN THIS CHAPTER
+
+Working with shell scripts
+
+Doing arithmetic in shell scripts
+
+Running loops and cases in shell scripts
+
+Creating simple shell scripts
+
+Y ou’d never get any work done if you typed every command that needs to be run on your Linux 
+
+system when it starts.

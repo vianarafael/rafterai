@@ -1,0 +1,6 @@
+Later in this 
+chapter, we’ll show you how to configure Kickstart to automate your configuration and installation options.
+
+Installing Cobbler
+
+Let’s start by installing Cobbler on your host.

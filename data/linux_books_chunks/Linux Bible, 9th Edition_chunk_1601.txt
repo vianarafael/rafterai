@@ -1,0 +1,5 @@
+LVMs give you more ﬂ exibility in growing, shrinking, and moving 
+partitions later than regular partitions do.
+
+ ■ RAID partitions—Create two or more RAID partitions to create a RAID array. 
+These partitions should be on separate disks to create an effective RAID array.

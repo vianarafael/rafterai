@@ -1,0 +1,8 @@
+While the private key is precious and needs to be secured, the CSR is public and doesn’t need 
+such restrictions. We create a CSR as shown in Listing 11-7.
+
+508
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Listing 11-7.

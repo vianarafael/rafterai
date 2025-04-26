@@ -1,0 +1,10 @@
+Also, 
+we really hope fewer people require printing as there are many alternative ways to transport and read 
+documents in this day and age.
+
+If you still need to set up a printer on your network (for example, you have a USB printer and you want 
+
+to share that among the hosts on your network), you can attach it to a Linux server or even attach it to a small 
+Raspberry Pi and use the CUPS print server.
+
+ There are many uses for a raspberry pi; one of them is being a print server.

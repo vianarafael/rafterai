@@ -1,0 +1,13 @@
+Make the $HOME/projects/houses/doors/ directory path, and create some 
+
+empty ﬁ les in that path.
+
+$ cd
+$ mkdir projects/houses
+$ touch $HOME/projects/houses/bungalow.txt
+$ mkdir $HOME/projects/houses/doors/
+$ touch $HOME/projects/houses/doors/bifold.txt
+$ mkdir -p $HOME/projects/outdoors/vegetation/
+$ touch projects/outdoors/vegetation/landscape.txt
+
+3.

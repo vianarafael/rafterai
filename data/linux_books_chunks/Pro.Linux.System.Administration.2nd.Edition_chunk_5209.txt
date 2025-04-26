@@ -1,0 +1,4 @@
+You will see that we are starting the Beats input on port 5044, the main pipeline, and a web API 
+on port 9600.
+
+Now, on the gateway host we can start our filebeat service.

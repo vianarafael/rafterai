@@ -1,0 +1,13 @@
+In the code that follows, john was ﬁ nally aborted to end the cracking attempt.
+
+# passwd Samantha
+Changing password for user Samantha.
+...
+# john password.file
+Loaded 1 password hash (generic crypt(3) [?/32])
+...
+time: 0:07:21:55 (3)  c/s: 119  trying: tth675 - tth787
+Session aborted
+
+As soon as password cracking attempts have been completed, the password.file should 
+be removed from the system.

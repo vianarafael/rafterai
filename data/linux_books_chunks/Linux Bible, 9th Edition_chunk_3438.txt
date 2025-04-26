@@ -1,0 +1,10 @@
+It is possible to use Samba over TCP without 
+opening this port, but it is not recommended.
+
+ ■ UDP ports 137 and 138—The nmbd daemon uses these two ports for incoming 
+NetBIOS requests. If you are using the nmbd daemon, these two ports must be 
+open for new packet requests for NetBIOS name resolution.
+
+19
+
+For Fedora and RHEL 7, allowing incoming access to those four ports is easy.

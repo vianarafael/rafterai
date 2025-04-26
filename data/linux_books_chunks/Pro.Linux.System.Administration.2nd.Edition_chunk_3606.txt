@@ -1,0 +1,7 @@
+The 
+additional information should make it much easier to determine whether anything is wrong with your 
+Dovecot installation.
+
+ ■ Note 
+ You must restart the Dovecot server after changing any of these options, and we recommend setting 
+the options back to no after you’ve fixed any issues.

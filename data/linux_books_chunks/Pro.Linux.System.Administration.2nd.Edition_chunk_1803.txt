@@ -1,0 +1,8 @@
+Restart & Install Updates message
+
+After clicking the Restart & Install button we are given the option to Cancel or proceed within 30 seconds 
+
+before the restart and install. After the host has installed the updates we will notice that we have a new 
+kernel installed as in Figure 8-12.
+
+Figure 8-12.

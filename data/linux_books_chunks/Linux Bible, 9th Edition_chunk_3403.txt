@@ -1,0 +1,9 @@
+By clicking around, you should be able to 
+fi nd how to plug that information into the SWAT interface.
+
+To begin using Samba on your Linux system, you need to install a few software packages, 
+as described in the next section.
+
+Installing Samba
+In Red Hat Enterprise Linux and Fedora, to conﬁ gure a Samba ﬁ le and print server, the only 
+required packages are the samba and samba-common packages.

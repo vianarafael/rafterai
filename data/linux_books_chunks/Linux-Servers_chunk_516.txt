@@ -1,0 +1,7 @@
+network address translation
+
+8.6.1. about NAT
+
+A NAT device is a router that is also changing the source and/or target ip-address in packets.
+It is typically used to connect multiple computers in a private address range with the (public)
+internet.

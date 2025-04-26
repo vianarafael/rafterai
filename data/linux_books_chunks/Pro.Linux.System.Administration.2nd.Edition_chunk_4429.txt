@@ -1,0 +1,3 @@
+OpenLDAP does not have a commercially supported version, but even the 
+simplest question to the OpenLDAP mailing list is regularly answered by senior engineers and designers 
+of the project (which is an enormous help and absolute credit to their dedication).

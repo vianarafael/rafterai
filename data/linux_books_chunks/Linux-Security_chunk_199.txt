@@ -1,0 +1,8 @@
+Make sure every new user needs to change their password every 10 days.
+
+8. Take a backup as root of /etc/shadow. Use vi to copy an encrypted hunter2 hash from
+venus to serena. Can serena now log on with hunter2 as a password ?
+
+9. Why use vipw instead of vi ? What could be the problem when using vi or vim ?
+
+10.

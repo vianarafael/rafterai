@@ -1,0 +1,11 @@
+Most of the information in Listing 19-3 isn’t overly important to us; we are going to use these profiles to 
+create a new system shortly.
+
+ You can see the other options you can edit on your profile by looking at the cobbler command’s man 
+
+ ■ Note 
+page or visiting the documentation at http://cobbler.github.io/manuals/2.8.0/.
+
+Building a Host with Cobbler
+
+Now that you’ve added a profile and a distribution, you can boot a host and install your distribution.

@@ -1,0 +1,6 @@
+Or 
+you could just type the following from the shell:
+
+# system-config-samba &
+
+The Samba Server Conﬁ guration window should appear on your desktop.

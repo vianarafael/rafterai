@@ -1,0 +1,6 @@
+One way to do that is to 
+take a generic Linux image (one that is bootable but unconﬁ gured) and provide information 
+to conﬁ gure that image to your needs. Another way is to go to a cloud provider, choose an image, 
+click through selections to conﬁ gure it, and launch it.
+
+The point is that cloud computing is offering new ways to start up and use Linux systems.

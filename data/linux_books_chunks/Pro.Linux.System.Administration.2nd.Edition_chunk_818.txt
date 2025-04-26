@@ -1,0 +1,5 @@
+After the time period 
+has expired, the user will be forced to choose a new password. This has the benefit of ensuring passwords 
+are changed regularly and that a password that is stolen, cracked, or known by a former employee will have 
+a time-limited value. Unfortunately for many users, the need to regularly change their passwords increases 
+their desire to write down the passwords.

@@ -1,0 +1,13 @@
+The 
+procedure for doing that is covered next.
+
+Generating a certificate signing request
+If you plan to have your certiﬁ cate signed by a CA (including one that you run yourself), 
+you can use your private key to generate a certiﬁ cate signing request (CSR):
+
+1.  Create a directory for storing your CSR.
+
+# mkdir /etc/pki/tls/ssl.csr
+# cd /etc/pki/tls/ssl.csr/
+
+2.

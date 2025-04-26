@@ -1,0 +1,8 @@
+The printer is installed and ready
+
+Now our printer is installed and ready for printing.
+
+Summary
+In this chapter, we explored file- and print-sharing offerings from Linux. We showed that the traditional 
+methods of file sharing are via the Samba server and via the NFS server, depending on the clients you want 
+to serve.

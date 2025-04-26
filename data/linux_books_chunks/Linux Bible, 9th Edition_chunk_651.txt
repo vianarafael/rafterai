@@ -1,0 +1,13 @@
+This displays the most recent command from your 
+
+shell history.
+
+2.  Press Ctrl+A. This moves the cursor to the beginning of the command line.
+
+3.  Press Ctrl+F or the right arrow (→) key. Repeat this command a few times to 
+
+position the cursor under the ﬁ rst slash (/).
+
+4.  Press Ctrl+D. Type this command four times to delete /usr from the line.
+
+5.  Press Enter.

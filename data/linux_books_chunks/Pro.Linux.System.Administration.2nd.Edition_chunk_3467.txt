@@ -1,0 +1,6 @@
+The list of 
+checks that were triggered on the previous test spam message were ALL_TRUSTED,GTUBE,MISSING_MID. You 
+will see others triggered when you see spam like ADVANCE_FEE_5_NEW_FRM_MNY, FILL_THIS_FORM,FILL_
+THIS_FORM_LOAN.
+
+You can also train your Bayesian filters to better detect spam from ham.

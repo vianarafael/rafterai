@@ -1,0 +1,7 @@
+The X Window System provides a framework on 
+which different types of desktop environments or simple window managers can be built.
+
+The X Window System (sometimes simply called X) was created before Linux existed and even 
+predates Microsoft Windows. It was built to be a lightweight, networked desktop framework.
+
+X works in a sort of backward client/server model.

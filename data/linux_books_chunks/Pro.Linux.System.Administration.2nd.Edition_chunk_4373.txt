@@ -1,0 +1,13 @@
+We will add the tun0 interface to the public zone.
+
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-interface tun0
+
+We then need to create a rule set for this zone to allow our gateway host to forward particular traffic 
+
+through the host, as shown in Listing 15-8.
+
+718
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Listing 15-8.

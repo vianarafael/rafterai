@@ -1,0 +1,9 @@
+However, since each host is different, you can usually tweak settings to make the 
+configuration more optimal for a specific workload.
+
+In this section, we’ll show you some tips and tricks that should help speed up your host for most 
+
+server-related tasks.
+
+Resource Limits
+Linux allows you to enforce resource limits on users via the ulimit command.

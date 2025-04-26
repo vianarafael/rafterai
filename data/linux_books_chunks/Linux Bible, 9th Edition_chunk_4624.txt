@@ -1,0 +1,7 @@
+However, denial information in the 
+messages log fi le is put into a more understandable format by the setroubleshootd daemon.
+
+Reviewing SELinux messages in the audit log
+If you have the auditd daemon running, you can quickly see if any AVC denials have been 
+logged by using the aureport command. The example that follows shows the use of 
+aureport and grep to search for AVC denials.

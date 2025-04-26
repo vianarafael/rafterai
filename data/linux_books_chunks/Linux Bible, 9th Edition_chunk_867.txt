@@ -1,0 +1,3 @@
+As a result, the 
+owner can add, change, or delete ﬁ les in that directory, and everyone else can only read 
+the contents, change to that directory, and list the contents of the directory.

@@ -1,0 +1,12 @@
+To use the netstat command to see which addresses the cupsd daemon is listen-
+
+ing on, type the following:
+
+# netstat -tupln | grep 631
+tcp    0    0 0.0.0.0:631      0.0.0.0:*      LISTEN    6492/cupsd
+
+10.  To delete the myprinter printer entry from your system, do the following:
+
+a. Click the Unlock button and type the root password when prompted.
+
+b.

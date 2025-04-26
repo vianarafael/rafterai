@@ -1,0 +1,17 @@
+visudo
+
+Check the man page of visudo before playing with the /etc/sudoers file. Editing the sudoers
+is out of scope for this fundamentals book.
+
+paul@rhel65:~$ apropos visudo
+visudo               (8)  - edit the sudoers file
+paul@rhel65:~$
+
+7
+
+introduction to users
+
+1.13. sudo su -
+
+On some Linux systems like Ubuntu and Xubuntu, the root user does not have a password
+set.

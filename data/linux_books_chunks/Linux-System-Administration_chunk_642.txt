@@ -1,0 +1,13 @@
+Listed here are some of the common stanza commands.
+
+boot
+
+Technically the boot command is only mandatory when running the grub command line.
+This command does not have any parameters and can only be set as the last command of
+a stanza.
+
+boot
+
+kernel
+
+The kernel command points to the location of the kernel.

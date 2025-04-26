@@ -1,0 +1,4 @@
+For example, if your system has a web site and that 
+web site has pretty extensive logging, you may choose to divide the disk so that you have more room in the 
+partition that holds your web data and logging files. If you are running a file server instead, you will reserve 
+more of the disk for user data rather than web data or logging.

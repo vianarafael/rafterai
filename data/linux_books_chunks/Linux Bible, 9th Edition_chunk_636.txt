@@ -1,0 +1,8 @@
+(If you are using a shell other than bash, use the which command instead.) For example, 
+to ﬁ nd out where the bash shell command is located, type the following:
+
+$ type bash
+bash is /bin/bash
+
+Try these few words with the type command to see other locations of commands: which, 
+case, and return.

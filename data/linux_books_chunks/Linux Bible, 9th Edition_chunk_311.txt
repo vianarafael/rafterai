@@ -1,0 +1,7 @@
+Novell centers its training and  certiﬁ cation on its SUSE 
+Linux products.
+
+ ■ Bounties—Software bounties are a fascinating way for open source software 
+
+ companies to make money. Suppose you are using XYZ software package and you 
+need a new feature right away.

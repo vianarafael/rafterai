@@ -1,0 +1,6 @@
+(Changing your PATH and 
+adding directories to it are described later in this chapter.)
+
+Not all the commands you run are located in directories in your PATH variable. Some com-
+mands are built into the shell. Other commands can be overridden by creating aliases that 
+deﬁ ne any commands and options that you want the command to run.

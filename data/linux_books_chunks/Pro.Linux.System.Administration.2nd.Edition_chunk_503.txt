@@ -1,0 +1,6 @@
+Users also belong to groups, as they do on Windows, which provide them with access to 
+additional resources or services.
+
+Services and Processes
+On a Windows host, a lot of background activities and server applications run as services. Services can be 
+started and stopped and often have to be restarted when an application is reconfigured.

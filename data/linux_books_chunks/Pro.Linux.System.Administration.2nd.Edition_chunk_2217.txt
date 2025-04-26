@@ -1,0 +1,6 @@
+however, we 
+recommend you don’t use ntFS filesystems to store data under Linux.
+
+Using Your Filesystem
+You’ve now created partitions on your new disk, /dev/sdb, and you’ve formatted these partitions with the 
+filesystem of your choice.

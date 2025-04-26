@@ -1,0 +1,6 @@
+Check this page for the most 
+up to date status of the filesystem: https://btrfs.wiki.kernel.org/index.php/Status.
+
+ ■ Note  Btrfs is not the only large-scale filesystem, but it is the one that is available in the default install of 
+Linux. others like ZFS are also popular and performant, but ZFS cannot be redistributed due to its license  
+(it cannot be part of a Linux distribution).

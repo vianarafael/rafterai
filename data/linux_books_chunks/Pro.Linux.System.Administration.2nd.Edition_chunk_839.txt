@@ -1,0 +1,10 @@
+Depending on the distribution, lower-
+numbered UIDs and GIDs indicate system accounts and groups such as root or daemon. On CentOS and 
+Ubuntu you will usually see system account UIDs and GIDs lower than 1000.
+
+ as mentioned earlier, the root user has a UId and GId of 0. this should be the only user on the host 
+
+ ■ Note 
+with a UId and GId of 0.
+
+The next item is the GECOS or comment field.

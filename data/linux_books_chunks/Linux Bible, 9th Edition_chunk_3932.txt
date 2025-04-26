@@ -1,0 +1,2 @@
+Then try to reach 
+the local network’s gateway device to the next network.

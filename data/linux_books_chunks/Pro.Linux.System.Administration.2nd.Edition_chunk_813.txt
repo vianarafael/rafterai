@@ -1,0 +1,15 @@
+Changing Your Password
+
+$ passwd
+Changing password for ataylor.
+(current) UNIX password:
+Enter new UNIX password:
+Retype new UNIX password:
+
+160
+
+Chapter 5 ■ Users and GroUps
+
+You type in your current password and then your new password. You’ll be prompted to type the new 
+
+password in twice to ensure it’s correct. You’ll also have to provide a suitable password.

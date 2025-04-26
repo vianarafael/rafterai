@@ -1,0 +1,10 @@
+YUM has its configuration files stored under  
+/etc/yum.conf and /etc/yum.repos.d/, and it stores state files in the directories /var/lib/yum and /var/
+cache/yum.
+
+311
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+ ■ Note  State files tell YUM what is already installed on your host and also hold cached versions of 
+downloaded packages.

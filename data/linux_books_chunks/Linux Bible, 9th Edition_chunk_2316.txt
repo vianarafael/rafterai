@@ -1,0 +1,23 @@
+Your server’s public and private keys are stored in the /etc/ssh 
+directory.
+
+$ ls .ssh
+known_hosts
+$ cat .ssh/known_hosts
+10.140.67.23 ssh-rsa
+AAAAB3NzaC1yc2EAAAABIwAAAQEAoyfJK1YwZhNmpHE4yLPZAZ9ZNEdRE7I159f3I
+yGiH21IjfqsNYFR10ZlBLlYyTQi06r/9O19GwCaJ753InQ8FWHW+OOYOG5pQmghhn
+/x0LD2uUb6egOu6zim1NECJwZf5DWkKdy4euCUEMSqADh/WYeuOSoZ0pp2IAVCdh6
+w/PIHMF1HVR069cvdv+OTL4vD0X8llSpw0ozqRptz2UQgQBBbBjK1RakD7fY1TrWv
+NQhYG/ugt gPaY4JDYeY6OBzcadpxZmf7EYUw0ucXGVQ1aNP/erIDOQ9rA0YNzCRv
+y2LYCm2/9adpAxc+UYi5UsxTw4ewSBjmsXYq//Ahaw4mjw==
+
+13
+
+327
+
+c13.indd  04/01/2015  Page 328
+
+Part IV: Becoming a Linux Server Administrator
+
+Any later attempts by this user to contact the server at 10.140.67.23 are authenticated using this stored key.

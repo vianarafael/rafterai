@@ -1,0 +1,2 @@
+If the rebuilding process is automated via configuration management, then you are in a 
+great position as an administrator.

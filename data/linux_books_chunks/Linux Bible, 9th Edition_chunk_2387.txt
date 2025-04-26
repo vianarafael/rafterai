@@ -1,0 +1,7 @@
+If you see an excessive number of connection attempts for a 
+particular service, especially if they are coming from systems on the Internet, you may be 
+under attack.
+
+Setting up and using a loghost with rsyslogd
+To redirect your computer’s log ﬁ les to another computer’s rsyslogd, you must make 
+changes to both the local and remote rsyslog conﬁ guration ﬁ le, /etc/rsyslog.conf.

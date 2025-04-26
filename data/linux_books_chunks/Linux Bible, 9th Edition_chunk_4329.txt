@@ -1,0 +1,6 @@
+Figure 23.4 
+shows the installation asking for the key’s password. The password must be at least 
+eight characters long.
+
+If you select this encryption option, whenever you boot the system, you are asked for the 
+symmetric key password. Figure 23.5 shows what this looks like.

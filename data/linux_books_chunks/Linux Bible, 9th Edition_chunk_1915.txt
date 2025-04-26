@@ -1,0 +1,5 @@
+Replace 
+
+shell with the command shell (for example, -s bash).
+
+ ■ -u user_id—Change the user ID number for the account.

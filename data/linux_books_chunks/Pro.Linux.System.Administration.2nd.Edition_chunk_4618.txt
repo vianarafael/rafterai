@@ -1,0 +1,8 @@
+We have used the scope of 
+subtree, and there is minimal write access granted to everything except the cn=admins group.
+
+to dn.children="ou=hosts,dc=example.com"
+        by group.exact="cn=admins,ou=groups,dc=example,dc=com" write
+        by anonymous read
+
+Here the cn=admins group will require write access.

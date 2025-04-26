@@ -1,0 +1,7 @@
+The computer goes through its boot order and looks 
+at the master boot record on the physical medium or looks for a PXE server on the 
+network.
+
+ ■ Start the anaconda kernel. The job of the boot loader is to point to the special 
+kernel (and possibly an initial RAM disk) that starts the Linux installer (called 
+ anaconda).

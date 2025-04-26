@@ -1,0 +1,12 @@
+You can see how these two target units are linked 
+by the following command:
+
+# systemctl show --property "WantedBy" getty.target
+WantedBy=multi-user.target
+
+Now that you have a basic understanding of classic and modern init daemons, it’s time to 
+do some practical server administrator actions that involve the init daemon.
+
+Checking the Status of Services
+As a Linux administrator, you need to check the status of the services being offered on your 
+server.

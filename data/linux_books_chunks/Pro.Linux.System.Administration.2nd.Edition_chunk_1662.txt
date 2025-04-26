@@ -1,0 +1,11 @@
+Maybe we only want 
+
+tcp packets with a destination address in our 192.168.10.0/24 network? That would look like this:
+
+$ sudo /sbin/iptables –t filter –R INPUT 1 –s 0.0.0.0/0 –d 192.168.10.0/24 –p tcp –j IPV4-
+INCOMING
+num target     prot opt source    destination
+1  IPV4-INCOMING tcp -- anywhere   192.168.10.0/24
+
+We have now replaced a rule, by specifying -R, to the INPUT chain that directs only packets with the tcp 
+protocol and only if their destination address in the 192.168.10.0/24 network.

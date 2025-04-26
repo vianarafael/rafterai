@@ -1,0 +1,4 @@
+The AuthUserFile specifies the 
+
+location of the password file, /etc/nagios/passwd on CentOS and /etc/nagios/htpasswd.users on 
+Ubuntu. This is the file we need to add our users to.

@@ -1,0 +1,8 @@
+Connections can 
+be provided by iSCSI or Fibre Channel over Ethernet (FCoE) devices.
+
+ ■ Other SAN devices—Any device representing a Storage Area Network (SAN).
+
+While conﬁ guring these specialized storage devices is beyond the scope of this book, know 
+that if you are working in an enterprise where iSCSI and FCoE devices are available, you can 
+conﬁ gure your Linux system to use them at installation time.

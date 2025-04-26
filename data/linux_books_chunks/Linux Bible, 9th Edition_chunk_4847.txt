@@ -1,0 +1,12 @@
+Using virt-manager, you can get a feel for managing multiple virtual machines 
+across several hypervisors, and you can learn how to deal with virtual networks and shared 
+ storage pools.
+
+730
+
+c26.indd  04/01/2015  Page 731
+
+Chapter 26: Using Linux for Cloud Computing 
+
+Full-blown cloud platforms have their own controllers for offering much more complex 
+interactions between cloud components.

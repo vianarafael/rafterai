@@ -1,0 +1,7 @@
+A small ofﬁ ce or personal user might take a risk 
+on using Fedora (which is itself an excellent operating system), but a big company 
+that’s running mission-critical applications will probably put down a few dollars 
+for RHEL.
+
+ ■ Training and certification—With Linux system use growing in government and 
+big business, professionals are needed to support those systems.

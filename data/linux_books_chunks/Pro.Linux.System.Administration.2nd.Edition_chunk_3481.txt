@@ -1,0 +1,14 @@
+We do this via the 
+
+following:
+
+$ postconf –e 'mailbox_transport = lmtp:unix:private/dovecot-lmtp'
+
+We need to restart Postfix and Dovecot now to push the changes through the following:
+
+$ sudo systemctl restart dovecot
+$ sudo systemctl restart postfix
+
+Filtering with Sieve
+
+The syntax for filtering your mail with Sieve is fairly simple.

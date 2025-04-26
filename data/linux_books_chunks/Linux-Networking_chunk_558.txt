@@ -1,0 +1,8 @@
+DNS cache
+
+DNS is a caching protocol.
+
+When a client queries its local DNS server, and the local DNS server is not authoritative
+for the query, then this server will go looking for an authoritative name server in the DNS
+tree. The local name server will first query a root server, then a tld server and then a domain
+server.

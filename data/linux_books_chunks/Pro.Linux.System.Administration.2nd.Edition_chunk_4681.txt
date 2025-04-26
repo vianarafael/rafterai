@@ -1,0 +1,84 @@
+If you are adding hundreds of users, you 
+may want to use a script or program that handles the existing users (or LDAP errors generated from trying to 
+re-add an existing user or DN).
+
+$ sudo cat users.ldif
+dn: dc=example,dc=com
+objectclass: dcObject
+objectclass: organizationalUnit
+dc: example
+ou: example
+
+dn: ou=people,dc=example,dc=com
+objectclass: organizationalUnit
+ou: people
+
+769
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+dn: uid=jsmith,ou=people,dc=example,dc=com
+objectclass: top
+objectclass: person
+objectclass: posixAccount
+objectclass: exampleClient
+cn: Jane Smith
+sn: Smith
+uid: jsmith
+uidNumber: 1000
+gidNumber: 1000
+exampleActive: TRUE
+homeDirectory: /home/jsmith
+userPassword: {SSHA}IZ6u7bmw12t345s3GajRt4D4YHkDScH8
+
+dn: uid=ataylor,ou=people,dc=example,dc=com
+objectclass: top
+objectclass: person
+objectclass: posixAccount
+objectclass: exampleClient
+cn: Angela Taylor
+sn: Taylor
+uid: ataylor
+uidNumber: 1002
+gidNumber: 1000
+exampleActive: TRUE
+homeDirectory: /home/ataylor
+userPassword: {SSHA}PRqu69QU5WK5i8/dvqQuvFXo0xJ74OFG
+
+dn: ou=meta,dc=example,dc=com
+objectclass: organizationalUnit
+objectclass: top
+ou: meta
+
+dn: cn=webadmin,ou=meta,dc=example,dc=com
+objectClass: organizationalRole
+objectclass: simpleSecurityObject
+userPassword: {SSHA}KE0JMvJjYjQ/9lpigDCbLla5iNoBb8O8
+
+dn: ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: cn=staff,ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: posixGroup
+gidNumber: 1000
+cn: staff
+
+770
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+dn: cn=admins,ou=groups,dc=example,dc=com
+objectclass: top
+objectclass: groupOfNames
+cn: admins
+member: uid=ataylor,ou=people,dc=example,dc=com
+
+dn: ou=hosts,dc=example,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: hosts
+
+We are now going to add our users using the file users.ldif.

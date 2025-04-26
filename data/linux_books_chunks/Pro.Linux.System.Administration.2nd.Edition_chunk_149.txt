@@ -1,0 +1,5 @@
+Search domains are again DNS settings that 
+allow you to append a domain name to your DNS search queries. For example, when you query for the IP 
+address of au-mel-centos-2, your networking layer will know to add the domain au-mel-centos-2.example.
+com to the query for you. Again you can have multiple domains here separated by commas or you can leave 
+this blank.

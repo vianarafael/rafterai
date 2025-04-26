@@ -1,0 +1,11 @@
+/etc/grub.d/40_custom
+
+The /etc/grub.d/40_custom file can be changed to include custom entries. These entries are
+automatically added to grub.
+
+root@debian7:~# ls -l /etc/grub.d/40_custom
+-rwxr-xr-x 1 root root 214 Jul  3  2013 /etc/grub.d/40_custom
+root@debian7:~# cat /etc/grub.d/40_custom
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.

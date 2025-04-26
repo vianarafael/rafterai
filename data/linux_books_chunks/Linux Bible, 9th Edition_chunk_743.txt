@@ -1,0 +1,16 @@
+For the bash shell, the value would be bash.
+
+This prints the current time in hours, minutes, and seconds—for example, 10:14:39.
+
+This prints your current username.
+
+This displays the full path to the current working directory.
+
+90
+
+c03.indd  04/01/2015  Page 91
+
+Chapter 3: Using the Shell
+
+To make a change to your prompt permanent, add the value of PS1 to your .bashrc ﬁ le 
+in your home directory (assuming that you are using the bash shell).

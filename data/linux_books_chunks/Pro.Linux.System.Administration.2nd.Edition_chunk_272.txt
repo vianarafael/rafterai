@@ -1,0 +1,7 @@
+Because files from the 
+previous installation attempt might still be present on disk, it’s best to have the installer re-initialize the 
+partitions and start from scratch.
+
+Troubleshooting Resources
+Don’t be afraid to make use of the communities that exist around most Linux distributions if you run into 
+trouble.

@@ -1,0 +1,3 @@
+One of these is called Mandatory access Control (MaC), which 
+is provided by Selinux on rhel-based and Debian distributions and by apparmor on Ubuntu and 
+Debian.

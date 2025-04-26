@@ -1,0 +1,20 @@
+This server reduces the amount of traffic on the network due to broadcasts.
+
+SAMBA as a WINS server
+To enable WINS in SAMBA the following option is set in smb.conf
+
+wins support = yes
+
+Windows clients can then be configured to use the SAMBA server as a WINS server.
+
+59
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+Second WINS server
+A NetBIOS network generally only has one WINS server.

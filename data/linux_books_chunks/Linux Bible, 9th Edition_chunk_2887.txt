@@ -1,0 +1,7 @@
+Likewise, any printer 
+you  conﬁ gure on your local system can be shared with users on other Linux, Windows, or Mac 
+
+ systems by opening up your printer as a print server.
+
+You conﬁ gure a printer as a native Linux printer in Fedora, RHEL, Ubuntu, and other Linux  systems 
+with the Common UNIX Printing System (CUPS).

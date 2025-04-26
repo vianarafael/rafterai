@@ -1,0 +1,15 @@
+Configuring Dovecot auth
+
+service auth {
+...
+  # Postfix smtp-auth
+  unix_listener /var/spool/postfix/private/auth {
+    mode = 0660
+    user   = postfix
+    group = postfix
+  }
+....
+}
+
+service auth consists of a series of directives enclosed in brackets ({ }). The service may be already 
+partially configured in your existing 10-master.conf configuration file.

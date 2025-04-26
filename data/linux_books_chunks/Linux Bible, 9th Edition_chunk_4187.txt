@@ -1,0 +1,6 @@
+It is doubtful that this was an innocent action and it 
+requires more investigation.
+
+The ausearch command returns nothing if no watch events on a fi le have been triggered.
+
+The audit daemon and its associated tools are extremely rich.

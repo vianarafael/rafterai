@@ -1,0 +1,7 @@
+old ipv6
+
+With rfc 3596 came ipv6 extensions for DNS. There is the AAAA record for ipv6 hosts on
+the network, and there is the ip6.int domain for reverse lookup (having 16 child domains
+from 0.ip6.int to f.ip6.int, each of those having again 16 child domains...and this 16 times.
+
+5.5.8.

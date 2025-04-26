@@ -1,0 +1,9 @@
+Configuring life-cycle rules
+
+655
+
+Chapter 14 ■ BaCkup and reCovery
+
+We permanently delete the files just after a year with again a buffer in case we discover we need to 
+retrieve them just after a year is up. Any partly uploaded files will be cleaned up, and multipart uploads will 
+end after 7 days. A multipart upload is when you upload files in smaller chunks.

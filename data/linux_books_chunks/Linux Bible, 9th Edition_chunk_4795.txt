@@ -1,0 +1,3 @@
+There are two other Linux servers on your 
+network. One is Host-B at IP address 10.140.67.22 and the other is Host-C at IP address 
+10.140.67.25.

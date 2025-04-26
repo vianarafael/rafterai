@@ -1,0 +1,16 @@
+We want to take a full 
+backup of our data bimonthly, so we change the Schedule to look like this:
+
+Schedule {
+  Name = "WeeklyCycle"
+  Run = Full 1st 3rd sun at 23:05
+  Run = Differential 2nd 4th 5th sun at 23:05
+  Run = Incremental mon-sat at 23:05
+}
+Schedule {
+  Name = "WeeklyCycleAfterBackup"
+  Run = Full sun-sat at 23:10
+}
+
+As described in the Schedule named WeeklyCycle, we are running a full backup on the first and third 
+Sundays of every month.

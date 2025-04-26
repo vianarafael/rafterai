@@ -1,0 +1,2 @@
+For example, say you need to start and stop some daemons as specific users, such as 
+the MySQL or named daemon.

@@ -1,0 +1,26 @@
+When working with dynamic access lists and 
+ldapmodify, there are some rules to remember.
+
+•	
+
+•	
+
+•	
+
+If you replace an index element, you need to load in the full access list.
+
+You can append to the end of the access list only with an add directive.
+
+The access list is read from first to last.
+
+We can now put these access list directives into a file called access.ldif and then use ldapmodify to 
+
+apply them.
+
+$ sudo ldapmodify -H ldapi:/// -Y EXTERNAL  -f access.ldif
+
+We will explain how to search test these shortly.
+
+Working with the slapd Daemon
+You can run your slapd daemon in two ways: with the slapd.d configuration engine (dynamic 
+configuration) or without it.

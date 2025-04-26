@@ -1,0 +1,8 @@
+When we log on to 
+our remote host with our SSH key, this script will be called, which allows only one command to be executed 
+by anyone with this key.
+
+You can limit what SSH can do by adding some options to the authorized_keys file. authorized_keys 
+
+is a file in the .ssh directory of the user on the remote host that holds copies of the public keys authorized to 
+make connections to our host.

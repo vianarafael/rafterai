@@ -1,0 +1,13 @@
+In that chapter, you will learn 
+
+how to install, remove, and update software on your hosts.
+
+295
+
+CHAPTER 8
+
+Package Management
+
+By James Turnbull, Peter Lieverdink, and Dennis Matotek
+
+In Chapter 2 you installed your first Linux host.

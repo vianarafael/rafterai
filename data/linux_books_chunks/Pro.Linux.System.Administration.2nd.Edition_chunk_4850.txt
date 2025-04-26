@@ -1,0 +1,5 @@
+it uses a facility in the kernel to send processes a 
+signal.
+
+provided services have been designed to listen for this signal; they can be made to perform an action. 
+most commonly used is signal 1—also known as hUp.

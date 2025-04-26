@@ -1,0 +1,6 @@
+You may know this as formatting.
+
+A filesystem is a bit like a library. It stores large amounts of data and has a catalog to ensure you can find 
+
+what you’re looking for. The layout of the aisles and shelves and the design of the catalog determine how 
+long it takes to find and retrieve any particular piece of information.

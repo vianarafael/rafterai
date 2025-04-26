@@ -1,0 +1,8 @@
+Then he ate the hairy 
+football.
+
+Parameter expansion in bash
+As mentioned earlier, if you want the value of a variable, you precede it with a $ (for 
+ example, $CITY). This is really just shorthand for the notation ${CITY}; curly braces 
+are used when the value of the parameter needs to be placed next to other text without a 
+space.

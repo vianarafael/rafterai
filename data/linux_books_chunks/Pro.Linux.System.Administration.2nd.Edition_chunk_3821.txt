@@ -1,0 +1,4 @@
+You can 
+
+tell that we are paused because the date output will stop incrementing. We need to wait for the Gluster network 
+ping to time out or the host to be restarted and the service to come back up.

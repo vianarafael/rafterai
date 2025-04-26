@@ -1,0 +1,3 @@
+From that window, you can conﬁ gure 
+basic server settings, add shares, and set up user accounts so people can access those 
+shares.

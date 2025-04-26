@@ -1,0 +1,16 @@
+Ubuntu includes the
+kernel modules in the main package.
+
+The iSCSI target server is disabled by default, so we enable it.
+
+root@debby6:~# cat /etc/default/iscsitarget 
+ISCSITARGET_ENABLE=false
+root@debby6:~# vi /etc/default/iscsitarget 
+root@debby6:~# cat /etc/default/iscsitarget 
+ISCSITARGET_ENABLE=true
+
+131
+
+iSCSI devices
+
+12.5.

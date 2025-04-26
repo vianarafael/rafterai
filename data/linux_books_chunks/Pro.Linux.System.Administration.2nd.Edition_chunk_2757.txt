@@ -1,0 +1,18 @@
+You can have it listen on multiple addresses by adding additional ListenAddress directives.
+
+466
+
+For instance, to make the SSH server on our bastion host listen on ports 22 and 2022 only on the 
+
+internal network interfaces, we can add these directives to the configuration file:
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Port 22
+Port 2022
+ListenAddress 192.168.0.1
+ListenAddress 19.168.1.1
+
+We can now tell the server to reload its configuration file via sudo systemctl reload sshd on CentOS 
+
+or sudo systemctl reload ssh on Ubuntu.

@@ -1,0 +1,15 @@
+Install the aide package, run the aide command to initialize the aide database, 
+copy the database to the correct location, and run the aide command to check 
+whether any important ﬁ les on your system have been modiﬁ ed.
+
+# yum install aide
+# aide -i
+# cp /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
+# aide -C
+
+To make the output more interesting, you could install the lemon package 
+(described in an earlier exercise) before you run aide -i and modify it before run-
+ning aide -C to see how a modiﬁ ed binary looks from aide.
+
+Chapter 23: Understanding Advanced Linux Security
+To do the ﬁ rst few exercises, you must have the gnupg2 package installed.

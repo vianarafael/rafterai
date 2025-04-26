@@ -1,0 +1,2 @@
+To verify that the 
+MariaDB server is happy and has created the new InnoDB transaction log files, you can check the logs.

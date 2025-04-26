@@ -1,0 +1,5 @@
+Everyone must come 
+in through the anonymous account. No one can upload ﬁ les (write_enable=NO). Then, 
+the anonymous user cannot upload ﬁ les (anon_upload_enable=NO), create directories 
+(anon_mkdir_write_enable=NO), or otherwise write to the server (anon_other_
+write_enable=NO).

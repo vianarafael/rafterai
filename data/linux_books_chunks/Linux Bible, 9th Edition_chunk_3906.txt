@@ -1,0 +1,6 @@
+An */3 
+in the second fi eld causes the command to run every three hours (midnight, 3 a.m., 6 a.m., and so on). 
+A 1-3 in the fourth fi eld tells cron to run the command in January, February, and March. Days of the 
+week and months can be entered as numbers or words.
+
+For more information on the format of a crontab fi le, type man 5 crontab.

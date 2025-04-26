@@ -1,0 +1,29 @@
+Watch from one terminal as the data comes in.
+
+# vim /etc/rsyslog.conf
+authpriv.info                             /var/log/myauth
+# service rsyslog restart
+     or
+# systemctl restart rsyslog.service
+<Terminal 1>                             <Terminal 2>
+
+806
+
+ 
+ 
+bapp02.indd  04/01/2015  Page 807
+
+Appendix B: Exercise Answers
+
+# tail -f /var/log/myauth                $ ssh joe@localhost
+Apr 18 06:19:34 abc unix_chkpwd[30631]   joe@localhost's password:
+Apr 18 06:19:34 abc sshd[30631]          Permission denied,try again
+ :pam_unix(sshd:auth):
+ authentication failure;logname= uid=501
+ euid=501 tty=ssh ruser= rhost=localhost
+ user=joe
+Apr 18 06:19:34 abc sshd[30631]:
+ Failed password for joe from
+ 127.0.0.1 port 5564 ssh2
+
+8.

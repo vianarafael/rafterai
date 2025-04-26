@@ -1,0 +1,28 @@
+The
+symbol table is also present in /proc/kallsyms (pre 2.6 kernels name this file /proc/ksyms).
+
+root@RHELv4u4:/boot# head System.map-`uname -r`
+00000400 A __kernel_vsyscall
+0000041a A SYSENTER_RETURN_OFFSET
+00000420 A __kernel_sigreturn
+00000440 A __kernel_rt_sigreturn
+c0100000 A _text
+c0100000 T startup_32
+c01000c6 t checkCPUtype
+c0100147 t is486
+c010014e t is386
+c010019f t L6
+root@RHELv4u4:/boot# head /proc/kallsyms 
+c0100228 t _stext
+c0100228 t calibrate_delay_direct
+c0100228 t stext
+c0100337 t calibrate_delay
+c01004db t rest_init
+c0100580 t do_pre_smp_initcalls
+c0100585 t run_init_process
+c01005ac t init
+c0100789 t early_param_test
+c01007ad t early_setup_test
+root@RHELv4u4:/boot#
+
+28.3.4.

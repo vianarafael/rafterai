@@ -1,0 +1,6 @@
+Other types of services also available include local Unix sockets 
+and named pipes. Unix domain sockets and named pipes are used to send messages between services; see 
+http://en.wikipedia.org/wiki/Unix_domain_socket and http://en.wikipedia.org/wiki/Named_pipe.
+Next, we have a series of settings for each service. Each setting is specified on the line in sequence and 
+
+separated with spaces.

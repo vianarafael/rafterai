@@ -1,0 +1,11 @@
+See the section “Conﬁ guring Print Servers” 
+later in this chapter for information on how to do that on your Linux server.
+
+Use the Print Settings window (system-config-printer) to conﬁ gure each of the 
+remote printer types. This is how it is done in Fedora 21:
+
+1.  From the GNOME 3 Activities screen, type Print Settings and press Enter.
+
+2.  Click Add. The New Printer window appears.
+
+3.

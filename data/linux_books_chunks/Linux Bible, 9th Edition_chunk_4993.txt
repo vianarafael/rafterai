@@ -1,0 +1,14 @@
+With the ﬁ les in place, run the following commands to 
+
+start an instance of your cloud image:
+
+27
+
+# cd /var/lib/libvirt/images
+# virt-install --import --name fedora21-01 --ram 4096 --vcpus 2 \
+  --disk path=Fedora-Cloud-Base-01.qcow2,format=qcow2,bus=virtio \
+  --disk path=fedora21-data.iso,device=cdrom \
+  --network bridge=virbr0 &
+
+The previous virt-install example shows that the virtual machine is assigned to consume 
+4GB of RAM (--ram 4096) and two virtual CPUs (--vcpus 2).

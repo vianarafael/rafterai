@@ -1,0 +1,6 @@
+If it supports hot-swapping of drives, you could 
+unplug the broken disk and replace it with a new one. If not, you will have to shut down the host to physically 
+replace the drive.
+
+When you’ve installed the new drive and started the host, you will need to partition the new disk as 
+you have the other disks in the array.

@@ -1,0 +1,27 @@
+What  is  our  dns  server  doing  when  it
+receives a query ?
+
+root@debian7:~# nslookup
+> server
+Default server: 10.104.33.30
+Address: 10.104.33.30#53
+> linux-training.be
+Server:         10.104.33.30
+Address:        10.104.33.30#53
+
+Non-authoritative answer:
+Name:   linux-training.be
+Address: 188.93.155.87
+>
+
+This  is  the  output  of  tcpdump  udp  port  53  while  executing  the  above  query  for  linux-
+training.be in nslookup.
+
+root@debian7:~# tcpdump udp port 53
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+
+You should find the following two lines in the output of tcpdump:
+
+10.104.33.30.19381 > google-public-dns-a.google.com.domain: 18237+% [1au] A? \
+linux-training.be.

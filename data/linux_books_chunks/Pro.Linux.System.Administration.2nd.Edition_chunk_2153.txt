@@ -1,0 +1,3 @@
+Priority:-2 extents:1 across:2096124k FS
+
+Another way of checking swap is seeing if the free command reports swap space.

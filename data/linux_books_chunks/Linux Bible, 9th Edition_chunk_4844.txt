@@ -1,0 +1,5 @@
+KVM is supported on Ubuntu, Red Hat Enterprise 
+Linux, Fedora, and many other Linux systems.
+
+The other major technology that can be used instead of KVM to make a Linux system into a 
+hypervisor is Xen (www.xenproject.org).

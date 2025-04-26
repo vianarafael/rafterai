@@ -1,0 +1,13 @@
+To ﬁ nd any ﬁ les in the /usr directory that are more than 10MB in size, do the 
+
+following:
+
+$ find /usr -size +10M
+/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0/jre/lib/rt.jar
+/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.3/jre/lib/rt.jar
+/usr/lib/llvm/libLLVM-2.9.so
+/usr/lib/flash-plugin/libflashplayer.so
+
+Chapter 14: Administering Networking
+
+1.

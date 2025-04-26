@@ -1,0 +1,15 @@
+ISP
+
+Should you be so lucky to get an ipv6 address from an isp, then it will start with 2001:.
+
+21.10. non routable addresses
+
+Comparable to example.com for DNS, the following ipv6 address ranges are reserved for
+examples, and not routable on the internet.
+
+3fff:ffff::/32
+2001:0db8::/32
+
+21.11. ping6
+
+Use ping6 to test connectivity between ipv6 hosts.

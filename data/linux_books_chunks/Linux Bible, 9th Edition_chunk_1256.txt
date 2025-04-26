@@ -1,0 +1,2 @@
+The command you can launch to get the feature is shown in parentheses (often, 
+it is the same as the package name).

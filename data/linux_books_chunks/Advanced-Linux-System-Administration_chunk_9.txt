@@ -1,0 +1,3 @@
+A "Secondary Section" is a named appendix or a front-matter section of the Document that deals exclusively with 
+the relationship of the publishers or authors of the Document to the Document's overall subject (or to related 
+matters) and contains nothing that could fall directly within that overall subject.

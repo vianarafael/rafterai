@@ -1,0 +1,5 @@
+This means you don’t need to have all the physical media physically attached to your host. You might choose 
+to have a minimal install disk to get to this screen and then access the larger media over the network—when 
+you are doing more than one server this can be very beneficial.
+
+Figure 2-22.

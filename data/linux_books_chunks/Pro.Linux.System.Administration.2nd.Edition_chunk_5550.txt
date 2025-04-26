@@ -1,0 +1,2 @@
+You 
+can see we’ve set the various options required to configure the eth0 interface.

@@ -1,0 +1,19 @@
+create mask
+
+You can use create mask and directory mask to set the maximum allowed permissions for
+newly created files and directories. The mask you set is an AND mask (it takes permissions
+away).
+
+[tennis]
+ path = /srv/samba/tennis
+ read only = No
+
+182
+
+samba securing shares
+
+ guest ok = No
+ create mask = 640
+ directory mask = 750
+
+15.4.2.

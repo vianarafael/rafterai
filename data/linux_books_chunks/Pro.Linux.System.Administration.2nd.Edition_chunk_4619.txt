@@ -1,0 +1,5 @@
+We give anonymous clients, which are clients that 
+have not made a bind connection (nonauthenticated), read access. Various applications can make use of the 
+ou=hosts organizational unit including such applications as Samba.
+
+The final rule we will have is a blanket denial rule. This will enforce the rejection of all other access.

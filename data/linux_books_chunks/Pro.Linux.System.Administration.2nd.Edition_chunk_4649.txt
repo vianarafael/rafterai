@@ -1,0 +1,11 @@
+Other options are try, which means the connection will continue if no 
+certificate is provided, but if a bad certificate is provided, the connection is stopped immediately; allow, 
+which means that if the certificate provided is bad, the session can continue anyway; and never, which 
+means your host will not request or check the server certificate before establishing the connection.
+
+If you were looking at a CentOS host, you would most likely find your SSL CA certificate in the /etc/
+
+pki/tls/certs directory.
+
+LDAP Management and Tools
+So how do you manage entries with LDAP? Several tools are available for just this purpose.

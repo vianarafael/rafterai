@@ -1,0 +1,10 @@
+To start the Apache service, you can also use the systemctl 
+command on CentOS. Let’s go ahead and do that.
+
+$ systemctl start httpd.service
+
+476
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+You will see logs for the Apache service in the /var/log/httpd directory.

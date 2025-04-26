@@ -1,0 +1,3 @@
+It is here that IP addresses get matched to MAC addresses by the use of 
+ARP (Address Resolution Protocol). When two hosts on the network have the same IP address and a different 
+MAC address, your host might start trying to send data to the wrong host.

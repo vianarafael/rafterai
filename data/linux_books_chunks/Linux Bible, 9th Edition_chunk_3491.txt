@@ -1,0 +1,7 @@
+The next section shows you how to use the smb.conf 
+ﬁ le directly to conﬁ gure Samba.
+
+Confi guring Samba in the smb.conf fi le
+Inside the /etc/samba/smb.conf ﬁ le are settings for conﬁ guring your Samba server, 
+deﬁ ning shared printers, conﬁ guring how authentication is done, and creating shared 
+directories.

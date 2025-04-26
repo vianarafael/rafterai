@@ -1,0 +1,7 @@
+The following sections describe things you can try 
+to see where the problem is.
+
+Check if the client can reach your system at all
+To be a public server, your system’s hostname should be resolvable so any client on the 
+Internet can reach it. That means locking down your system to a particular, public IP 
+address and registering that address with a public DNS server.

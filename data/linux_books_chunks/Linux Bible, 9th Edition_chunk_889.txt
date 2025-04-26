@@ -1,0 +1,8 @@
+Here are some examples:
+
+$ mv abc def
+$ mv abc ~
+$ mv /home/joe/mymemos/ /home/joe/Documents/
+
+The ﬁ rst mv command moves the ﬁ le abc to the ﬁ le def in the same directory ( essentially 
+renaming it), whereas the second moves the ﬁ le abc to your home directory (~).

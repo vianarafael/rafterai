@@ -1,0 +1,3 @@
+enabling extra websites
+
+The last step is to enable the websites with the a2ensite command.

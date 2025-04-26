@@ -1,0 +1,14 @@
+(You could similarly set up to boot a Windows Vista or 
+Windows 7 operating system.)
+
+228
+
+c09.indd  04/01/2015  Page 229
+
+Chapter 9: Installing Linux
+
+Microsoft operating systems require that you use the chainloader to boot them from GRUB because GRUB 
+doesn’t offer native support for Windows operating systems.
+
+If you make any changes to the /boot/grub/grub.conf ﬁ le, you do not need to load 
+those changes.

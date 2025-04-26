@@ -1,0 +1,5 @@
+With cups options set to raw, Samba assumes that print ﬁ les have 
+already been formatted by the time they reach your print server. This allows the Linux or 
+Windows clients to provide their own print drivers.
+
+The last few lines are the actual printers’ deﬁ nition.

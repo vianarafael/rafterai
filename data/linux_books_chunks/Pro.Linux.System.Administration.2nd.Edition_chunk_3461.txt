@@ -1,0 +1,14 @@
+Lastly, the ${recipient} option contains the recipient of the e-mail 
+so Postfix knows to whom to send the e-mail.
+
+Testing SpamAssassin
+
+To test SpamAssassin, let’s send an e-mail using the swaks tool, an e-mail testing tool that can be installed 
+via the package manager, and examine the results.
+
+$ swaks -tls -a -au ataylor -ap password -t jsmith@example.com -f 
+ataylor@example.com --body /usr/share/doc/spamassassin-3.4.0/sample-spam.txt
+
+This command connects to your mail server and sends an e-mail to the user jsmith@example.com from 
+
+the SASL-authenticated user ataylor.

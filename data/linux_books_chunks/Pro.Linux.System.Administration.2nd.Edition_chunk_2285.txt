@@ -1,0 +1,5 @@
+Should 
+a disk fail, the checksum can be used to reconstruct the data in the missing stripes.
+
+The trade-off is that this approach uses processing power to calculate the checksums. When data is 
+written to the array, a checksum needs to be calculated and stored on one of the disks.

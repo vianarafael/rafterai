@@ -1,0 +1,8 @@
+Changing your firewall rules 
+over the network, especially on remotely housed systems, can leave you in an awkward position if you make a 
+mistake (and everyone makes at least one mistake).
+
+iptables –t table-name command chain rulenumber paramaters –j target
+
+A large number of parameters, shown in the iptables command syntax as parameters above, can be 
+used to manipulate packets as they pass through your firewall.

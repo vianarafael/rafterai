@@ -1,0 +1,5 @@
+The /
+etc/systemd/system and /run/systemd/system directories are called “drop-in” directories and systemd will 
+search for unit and *.conf files there. The target file will look like the following rescue.target.
+
+Listing 6-7.

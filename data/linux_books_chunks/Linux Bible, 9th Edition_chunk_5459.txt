@@ -1,0 +1,120 @@
+Start the virtual machine again so it is running and available.
+
+Right-click the virtual machine entry, and selec t Run.
+
+838
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bindex.indd  04/02/2015  Page 839
+
+ Index
+
+! (exclamation point), 80, 155, 160, 267, 495
+" (double quotes), 155, 160, 262, 266
+# (hash mark), 67
+$ (dollar sign), 67, 79, 85, 89, 155, 156
+$# variable, 156–157
+$(()) notation, 159
+$@ variable, 156
+$0 variable, 156
+% (percent), 145
+& (ampersand), 82, 83–84, 144, 162
+` (backtick), 39, 84, 155
+' (single quotes), 155
+( (left parenthesis), 82, 155
+> (greater than sign), 82, 103
+< (less than sign), 82, 103
+) (right parenthesis), 82, 155
+* (asterisk), 108, 128, 155, 163, 263, 288, 534, 571
++ (plus sign), 107, 111, 112, 129, 138, 145, 272, 292, 521
+- (hyphen), 71–72, 106, 129, 130, 165, 757
+– (minus sign), 111, 145
+-- (double hyphen), 71–72
+/ (forward slash), 94, 97, 99, 100, 124, 533
+\! special character, 90
+\# special character, 90
+\$ special character, 90
+\[ special character, 90
+\] special character, 90
+; (semicolon), 82, 83, 132, 444, 516, 517, 659
+= (equal sign), 71–72
+? (question mark), 103, 124, 128, 534
+[] (brackets), 89, 103, 124, 243, 337, 418
+\ (backslash), 90, 108, 115, 132, 155, 515
+\ special character, 90
+^ (caret), 165
+{} (curly braces), 105, 131–132, 157
+| (pipe), 8, 82–83, 103, 139, 162, 166
+~ (tilde), 79, 101, 108, 119
+3DES, 631
+
+A
+
+absolute path, 100
+Accelerated Indirect GLX (AIGLX) project, 58–60
+Access Control Lists (ACLs), 271–276
+
+Access Vector Cache (AVC) denials, 670, 673, 689–692, 694, 
+
+697, 834
+
+account PAM context, 651
+ACLs (Access Control Lists), 271–276
+acpi=off boot option, 217
+activity reports, 323
+Advanced Encryption Standard (AES), 630, 631, 645
+Advanced Intrusion Detection Environment (aide), 620–622
+AES (Advanced Encryption Standard), 630, 631, 645
+aescrypt, 645
+affs ﬁ lesystem, 303
+aide, 620–622
+AIGLX (Accelerated Indirect GLX) project, 58–60
+alias command, 75, 87
+aliases
+
+command aliases, 75, 87
+IP addresses, 356–357
+
+aliases ﬁ le, 186
+allusers directory, 107, 132
+Alt+SysRq keystrokes, 585
+amanda utility, 593
+Amazon EC2, 765–766
+anaconda installer, 17, 212, 213, 216, 219, 275
+Ansible, 344
+apache administrative login, 190
+Apache Software Foundation (ASF), 450
+Apache web server, 449
+
+conﬁ guration ﬁ les, 457–462
+installing, 450–454
+publishing web content, 464–465
+securing, 455–457
+SSL/TLS, 465–471
+starting, 454–455
+troubleshooting, 471–475
+virtual hosts, adding, 462–464
+
+apache2.conf ﬁ le, 457
+Apple
+
+OS X vs.

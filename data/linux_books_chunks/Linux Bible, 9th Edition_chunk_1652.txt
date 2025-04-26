@@ -1,0 +1,6 @@
+GRUB loads splash.xpm.gz as the image 
+on the splash screen (/boot/grub/splash.xpm.gz). The splash screen appears as the 
+ background of the boot screen.
+
+GRUB indicates disk partitions using the following notation: (hd0,0). The fi rst number represents the disk, and the 
+second is the partition on that disk.

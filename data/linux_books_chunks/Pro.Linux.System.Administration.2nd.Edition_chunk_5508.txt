@@ -1,0 +1,4 @@
+hosting your own syncs of repositories will speed up your deployments greatly and reduce online network 
+downloads.
+
+Cobbler will run the import process and then return you to the prompt.

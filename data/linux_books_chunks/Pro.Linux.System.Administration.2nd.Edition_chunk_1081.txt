@@ -1,0 +1,9 @@
+These were the older SysV Init program, Ubuntu’s Upstart 
+program, or the much more recent Systemd.
+
+193
+
+Chapter 6 ■ Startup and ServiCeS
+
+Upstart was Ubuntu’s attempt at replacing the older SysV Init initializer. Because it was compatible with 
+SysV it was used by other distributions too as their initializer; however, not many fully implemented Upstart.

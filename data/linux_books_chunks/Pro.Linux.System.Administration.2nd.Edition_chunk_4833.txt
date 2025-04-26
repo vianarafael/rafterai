@@ -1,0 +1,6 @@
+It provides a sortable and configurable listing of running processes and threads on 
+the host. You access it with the following command:
+
+$ top
+
+Figure 17-1.

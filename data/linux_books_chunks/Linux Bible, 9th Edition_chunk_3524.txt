@@ -1,0 +1,6 @@
+Here, however, hosts allow and hosts deny entries are added directly to 
+the smb.conf ﬁ le.
+
+Here are some examples of hosts allow and hosts deny entries:
+
+hosts allow = 192.168.22.

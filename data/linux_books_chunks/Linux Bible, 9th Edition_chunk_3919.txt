@@ -1,0 +1,7 @@
+So, if you drop your network connection or can’t reach 
+the systems you want to communicate with, it’s good to know that there are many tools in 
+Linux for looking at the problem.
+
+For client computers (laptops, desktops, and handheld devices), you want to connect to 
+the network to reach other computer systems. On a server, you want your clients to be able 
+to reach you.

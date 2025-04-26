@@ -1,0 +1,10 @@
+These are defined in the services 
+xml files and we can also use ports if you need to.
+
+If you want to permanently change the zone for an interface you can modify the network interface with 
+
+nmcli:
+
+$ sudo nmcli c modify enp0s9 connection.zone dmz
+
+This will add the ‘ZONE=dmz’ to the interface profile file /etc/sysconfig/network-scripts/ifcfg-enp0s9.

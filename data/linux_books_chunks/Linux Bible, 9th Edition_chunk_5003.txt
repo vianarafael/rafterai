@@ -1,0 +1,7 @@
+Right-click the virtual machine instance entry in the 
+virt-manager window, and select Pause. This makes the virtual machine inactive 
+for the moment.
+
+3.  Clone the virtual machine. Right-click the virtual machine instance entry 
+
+again, and select Clone.

@@ -1,0 +1,5 @@
+Simply put, we can 
+create a disk that will allocate the full size of disk we request or we can allocate only a small portion of that 
+now, and as we need it, VirtualBox will allocate more of that space. The benefits of dynamic allocation are 
+that you can overallocate your disk (meaning you can allocate more disk space to your virtual hosts than 
+you actually have on your host).

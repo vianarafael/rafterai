@@ -1,0 +1,10 @@
+From the Add Connection pop-up, the 
+hypervisor (QEMU/KVM) should already be set and the Autoconnect check box 
+should be checked. Click Connect to connect to the local hypervisor if it has not 
+already been done.
+
+Step 4: Check connection details
+After connecting to the hypervisor, set up some connection details. To do that from the 
+Virtual Machine Manager window, do the following:
+
+a.

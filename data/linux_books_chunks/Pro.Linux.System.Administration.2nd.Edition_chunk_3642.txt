@@ -1,0 +1,6 @@
+You will also learn how to set up a Samba AD domain server so 
+your users can authenticate, as well as how to set up a departmental share that you can also mount to 
+your desktop.
+
+Also, in this example, it is important to note that we are going to create a samba.example.com Domain 
+Name System (DNS) subdomain.

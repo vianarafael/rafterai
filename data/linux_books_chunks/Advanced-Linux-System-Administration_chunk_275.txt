@@ -1,0 +1,15 @@
+As in the 
+example below:
+
+ps au|grep junk
+root   13643  0.0  0.2  1724  600 pts/1   S    11:22   0:00 grep junk
+
+Needless to say, there aren't any pre-installed tools called junk in general, so the above line 
+would return a positive evaluation in a script!
+
+There is a work around for this problem.
+
+Use pgrep
+
+This tool will search the output of ps for the PIDs of all processes that match the search 
+criteria.

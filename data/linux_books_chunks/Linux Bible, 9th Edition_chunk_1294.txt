@@ -1,0 +1,6 @@
+The reason for using visudo is that the command locks the /etc/sudoers ﬁ le and 
+does some basic sanity checking of the ﬁ le to ensure it has been edited correctly.
+
+If you are stuck here, try running the vimtutor command for a quick tutorial on using vi and vim.
+
+2.

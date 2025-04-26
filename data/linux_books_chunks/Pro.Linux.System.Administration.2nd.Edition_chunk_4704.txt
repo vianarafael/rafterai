@@ -1,0 +1,4 @@
+This overlay allows you to declare a policy or associate different policies with 
+different parts of the DIT tree. Here we declare a default policy with the DN cn=default,ou=Policies,dc
+=example,dc=com. We also declare that we want to use the lockout feature of the ppolicy. This allows us to 
+send a message back to the requesting client if it is locked out.

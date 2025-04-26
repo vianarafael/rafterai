@@ -1,0 +1,15 @@
+If you are after 
+query metrics, you can look at the dbi plug-in, which you can use to run metrics against your database.
+
+In the mysql plug-in, you can specify the database or several databases in <Database> </Database> blocks.
+
+<Plugin rrdtool>
+    DataDir "/var/lib/collectd/rrd"
+    CacheTimeout 120
+    CacheFlush 900
+    WritesPerSecond 30
+    CreateFilesAsync false
+    RandomTimeout 0
+</Plugin>
+
+The rrdtool plug-in is a write plug-in and is used to write rrd files to local disk.

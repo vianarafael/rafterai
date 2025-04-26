@@ -1,0 +1,17 @@
+Refer to Chapter 10 for details on how to add software 
+
+47
+
+c02.indd  04/01/2015  Page 48
+
+Part I: Getting Started
+
+repositories and use yum and rpm commands to manage software in Fedora and Red Hat 
+Enterprise Linux.
+
+FIGURE 2.13
+
+Download and install software from the huge Fedora repository.
+
+Playing music with Rhythmbox
+Rhythmbox is the music player that comes on the Fedora GNOME Live Desktop.

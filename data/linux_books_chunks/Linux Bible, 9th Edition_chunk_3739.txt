@@ -1,0 +1,6 @@
+At that point, typically a graphical or text-based 
+login prompt is available from the console, ready for you to log in.
+
+After reading the short descriptions of startup methods, go to “Starting from the ﬁ rmware” 
+to understand what happens at each stage of the boot process and where you might need 
+to troubleshoot.

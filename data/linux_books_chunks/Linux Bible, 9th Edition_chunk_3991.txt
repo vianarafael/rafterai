@@ -1,0 +1,6 @@
+If the demand for memory exceeds 
+the supply of RAM, the kernel can temporarily move data out of RAM to an area called 
+swap space.
+
+If we revisit the desk analogy, this would be like saying, “There is no room left on my desk, 
+yet I have to add more papers to it for the projects I’m currently working on.

@@ -1,0 +1,3 @@
+When the system starts up or after a systemctl 
+daemon-reload is triggered, if systemd finds a postfix init.d service file it passes it to systemd-generate-
+sysv which will create a postfix.service and place it in /run/systemd/generator.late/postfix.service.

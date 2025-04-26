@@ -1,0 +1,12 @@
+Notice in the example host.allow ﬁ le, the sshd entry’s allowed IP 
+address is 199.170.177. This matches any IP address that begins with that string, such as 
+
+25
+
+709
+
+c25.indd  04/02/2015  Page 710
+
+Part V: Learning Linux Security Techniques
+
+199.170.177.25.

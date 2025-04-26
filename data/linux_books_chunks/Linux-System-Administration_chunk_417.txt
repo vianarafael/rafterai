@@ -1,0 +1,51 @@
+The live system
+will not use our main hard disk as root device
+
+root@livecd:~# df -h | grep root
+rootfs          186M   11M  175M   6% /
+/dev/loop0      807M  807M     0 100% /lib/live/mount/rootfs/filesystem.squashfs
+root@livecd:~# mount | grep root
+/dev/loop0 on /lib/live/mount/rootfs/filesystem.squashfs type squashfs (ro)
+
+We create some test file on the current rootfs.
+
+root@livecd:~# touch /file42
+root@livecd:~# mkdir /dir42
+root@livecd:~# ls /
+bin   dir42   home        lib64  opt   run      srv  usr
+boot  etc     initrd.img  media  proc  sbin     sys  var
+dev   file42  lib         mnt    root  selinux  tmp  vmlinuz
+
+First we mount the root file system from the disk (which is on lvm so we use /dev/mapper
+instead of /dev/sda5).
+
+root@livecd:~# mount /dev/mapper/packer--debian--7-root /mnt
+
+We are now ready to chroot into the rootfs on disk.
+
+root@livecd:~# cd /mnt
+root@livecd:/mnt# chroot /mnt
+root@livecd:/# ls /
+bin   dev   initrd.img  lost+found  opt   run      srv  usr      vmlinuz
+boot  etc   lib         media       proc  sbin     sys  vagrant
+data  home  lib64       mnt         root  selinux  tmp  var
+
+Our  test  files  (file42  and  dir42)  are  not  visible  because  they  are  out  of  the  chrooted
+environment.
+
+Note that the hostname of the chrooted environment is identical to the existing hostname.
+
+To exit the chrooted file system:
+
+root@livecd:/# exit
+exit
+root@livecd:~# ls /
+bin   dir42   home        lib64  opt   run      srv  usr
+boot  etc     initrd.img  media  proc  sbin     sys  var
+dev   file42  lib         mnt    root  selinux  tmp  vmlinuz
+
+80
+
+troubleshooting tools
+
+8.4.

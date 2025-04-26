@@ -1,0 +1,6 @@
+It has multiple IP addresses, one for every 
+network it acts as a router for: 192.168.0.254 on our internal network, 192.168.1.254 on our wireless network, 
+and an external IP address of 10.0.2.155.
+
+We will also configure a main server that we’re going to call headoffice.example.com. It will have the 
+IP address of 192.168.0.1 on our internal network.

@@ -1,0 +1,17 @@
+1 mary sales    0 Jan 22 14:32 /mnt/salestools/test.txt
+
+Typically, a ﬁ le created by mary would have the group mary assigned to it. But because 
+test.txt was created in a set group ID bit directory, the ﬁ le is assigned to the sales 
+
+277
+
+ 
+ 
+ 
+ 
+ 
+c11.indd  04/01/2015  Page 278
+
+Part III: Becoming a Linux System Administrator
+
+group.

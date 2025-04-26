@@ -1,0 +1,37 @@
+yum provides
+
+To search for a package containing a certain file (you might need for compiling things) use
+yum provides $filename.
+
+root@rhel65:/etc# yum provides /usr/share/man/man5/passwd.5.gz
+Loaded plugins: product-id, subscription-manager
+This system is receiving updates from Red Hat Subscription Management.
+rhel-6-server-cf-tools-1-rpms                                 | 2.8 kB     00:00
+rhel-6-server-rpms                                            | 3.7 kB     00:00
+man-pages-3.22-12.el6.noarch : Man (manual) pages from the Linux Documenta...
+Repo        : rhel-6-server-rpms
+Matched from:
+Filename    : /usr/share/man/man5/passwd.5.gz
+
+man-pages-3.22-20.el6.noarch : Man (manual) pages from the Linux Documenta...
+Repo        : rhel-6-server-rpms
+Matched from:
+Filename    : /usr/share/man/man5/passwd.5.gz
+
+man-pages-3.22-17.el6.noarch : Man (manual) pages from the Linux Documenta...
+Repo        : rhel-6-server-rpms
+Matched from:
+Filename    : /usr/share/man/man5/passwd.5.gz
+
+man-pages-3.22-20.el6.noarch : Man (manual) pages from the Linux Documenta...
+Repo        : installed
+Matched from:
+Other       : Provides-match: /usr/share/man/man5/passwd.5.gz
+
+root@rhel65:/etc#
+
+240
+
+package management
+
+20.7.5.

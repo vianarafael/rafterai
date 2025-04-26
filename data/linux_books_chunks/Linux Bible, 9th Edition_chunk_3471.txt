@@ -1,0 +1,6 @@
+Figure 19.2 shows an example of the Security settings.
+
+Configuring Samba user accounts
+If you are using the default User type of authentication, as I am here, you can conﬁ gure user 
+accounts to access your Fedora system by selecting Preferences ➪ Samba Users. At ﬁ rst, there 
+are no Samba users listed.

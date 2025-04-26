@@ -1,0 +1,14 @@
+In that chapter we will cover some of 
+
+the basics concepts like logging in, navigating around, and some basic Linux commands.
+
+97
+
+CHAPTER 4
+
+Linux Basics
+
+By James Turnbull and Dennis Matotek
+
+In Chapter 1, we talked a little about what Linux is and where it came from, and in Chapter 2 we installed our 
+first Linux host.

@@ -1,0 +1,28 @@
+In the line above we are making use of the special variable $? in our bash shell which 
+holds the exit code of the last command run.
+
+Now that we know how to see the status of our service and we can see that is it already running, let’s 
+
+stop the service.
+
+$ sudo systemctl stop postfix.service
+
+There is no noticeable output from that command so if we query the status, we can see that it is 
+
+stopped.
+
+● postfix.service - Postfix Mail Transport Agent
+   Loaded: loaded (/usr/lib/systemd/system/postfix.service; enabled; vendor preset: 
+disabled)
+   Active: inactive (dead) since Thu 2016-04-28 11:28:04 AEST; 1s ago
+  Process: 5304 ExecStop=/usr/sbin/postfix stop (code=exited, status=0/SUCCESS)
+.....
+Main PID: 5267 (code=killed, signal=TERM)
+
+205
+
+Chapter 6 ■ Startup and ServiCeS
+
+Clearly we can see that the service is “inactive” and that the Main PID was killed with a TERM signal.
+
+ processes can accept “signals” from the kill command.

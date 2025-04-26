@@ -1,0 +1,12 @@
+To see the 
+amount of space available on all the mounted ﬁ lesystems on your Linux computer, type df 
+with no options:
+
+$ df
+Filesystem  1k-blocks     Used  Available  Use%   Mounted on
+/dev/sda3    30645460  2958356   26130408   11%   /
+/dev/sda2       46668     8340      35919   19%   /boot
+...
+
+This example output shows the space available on the hard disk partition mounted on the 
+/ (root) directory (/dev/sda1) and /boot partition (/dev/sda2).

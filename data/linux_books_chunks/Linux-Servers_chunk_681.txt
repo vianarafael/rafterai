@@ -1,0 +1,18 @@
+creating the users on samba
+
+Then we add them to the smbpasswd file, with the same password.
+
+[root@RHEL52 ~]# smbpasswd -a serena
+New SMB password:
+Retype new SMB password:
+Added user serena.
+[root@RHEL52 ~]# smbpasswd -a justine
+New SMB password:
+Retype new SMB password:
+Added user justine.
+[root@RHEL52 ~]# smbpasswd -a martina
+New SMB password:
+Retype new SMB password:
+Added user martina.
+
+14.3.

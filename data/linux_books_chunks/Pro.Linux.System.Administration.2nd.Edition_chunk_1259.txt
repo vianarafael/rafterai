@@ -1,0 +1,5 @@
+losing your data could be a disaster for your business, so you should always have 
+backups and the ability to recover your hosts and data. See Chapter 13 for details of how to implement a 
+backup and recovery strategy for your organization.
+
+Then there are the interconnecting pieces of hardware you may require.

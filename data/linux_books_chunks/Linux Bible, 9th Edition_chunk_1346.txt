@@ -1,0 +1,2 @@
+This conﬁ guration ﬁ le was the ﬁ rst one read when Linux 
+started the init process.

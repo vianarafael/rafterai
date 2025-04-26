@@ -1,0 +1,13 @@
+Using the filesystem show 
+subcommand, we can see the result.
+
+$ sudo btrfs filesystem show /data1
+Label: none  uuid: e1c6cbb0-4fbf-4a61-a912-0a9cda611128
+       Total devices 1 FS bytes used 42.03MiB
+       devid    1 size 6.00GiB used 1.64GiB path /dev/sdc
+
+375
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+We are now going to add the 2 GiB back.

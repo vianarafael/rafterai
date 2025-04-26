@@ -1,0 +1,4 @@
+For the Bareos daemons to communicate with each other, they require the exchange of a 
+set of passwords. Each Storage daemon (you can have more than one) and each File daemon (you will 
+generally have more than one) must contain the name of the Bareos Director and the password it uses 
+to verify itself.

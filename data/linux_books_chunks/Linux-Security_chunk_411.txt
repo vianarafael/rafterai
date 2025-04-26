@@ -1,0 +1,6 @@
+in the private network).
+
+Because SNAT is about packets leaving the system, it uses the POSTROUTING chain.
+
+Here is an example SNAT rule. The rule says that packets coming from 10.1.1.0/24 network
+and exiting via eth1 will get the source ip-address set to 11.12.13.14.

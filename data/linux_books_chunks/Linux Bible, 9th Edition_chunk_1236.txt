@@ -1,0 +1,8 @@
+Beyond the basics, 
+this chapter also teaches you how to work with ﬁ le systems and monitor the setup and performance 
+of your Linux system.
+
+Understanding System Administration
+Separating the role of system administrator from that of other users has several effects. For a 
+ system that has many people using it, limiting who can manage it enables you to keep a system 
+more secure.

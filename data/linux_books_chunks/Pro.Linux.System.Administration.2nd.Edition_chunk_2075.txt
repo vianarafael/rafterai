@@ -1,0 +1,6 @@
+Finally, the date and time the device file was last modified  
+are shown.
+
+The actual device file name consists of the prefix sd and a letter indicating which disk it belongs to. The 
+first detected disk is sda, the second is sdb, the third is sdc, and so on. Finally, each partition on the disk gets 
+its own device node as well, and the partition number is the final part of the name.

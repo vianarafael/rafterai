@@ -1,0 +1,6 @@
+But, of course, if you really want to do 
+so, you can always build from source—Linux is so powerful, it gives you that choice. We’ll talk about building 
+from source in the last section of this chapter.
+
+To provide some of the functionality that rpm lacks, most Red Hat–derived distributions have some 
+additional tools.

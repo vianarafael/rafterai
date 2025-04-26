@@ -1,0 +1,11 @@
+To do this, your e-mail server tries to connect, via TCP port 25 or a secured transport 
+port of TCP 465, to each e-mail server returned by the MX query in the priority sequence the record specifies. 
+The e-mail server then follows a submission sequence to see whether it can deliver your e-mail.
+
+1. 
+
+2. 
+
+3. 
+
+4.

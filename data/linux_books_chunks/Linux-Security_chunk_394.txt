@@ -1,0 +1,9 @@
+Note that you
+might lose your connection when typing this over ssh ;-).
+
+[root@RHEL5 ~]# iptables -P INPUT DROP
+[root@RHEL5 ~]# iptables -P FORWARD DROP
+[root@RHEL5 ~]# iptables -P OUTPUT DROP
+
+Next, we allow the server to use its own loopback device (this allows the server to access
+its  services  running  on  localhost).

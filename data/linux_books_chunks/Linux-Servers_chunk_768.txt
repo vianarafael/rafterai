@@ -1,0 +1,27 @@
+Groups in NTFS acls
+
+We have users on Unix, we have groups on Unix that contain those users.
+
+[root@RHEL4b samba]# grep nt /etc/group
+...
+ntadmins:x:506:Administrator
+ntsports:x:507:Venus,Serena,Kim,Figo,Pfaff
+nttennis:x:508:Venus,Serena,Kim
+ntfootball:x:509:Figo,Pfaff
+
+200
+
+ 
+ 
+ 
+ 
+samba domain controller
+
+[root@RHEL4b samba]# 
+
+We already added Venus to the tdbsam with smbpasswd.
+
+smbpasswd -a Venus
+
+Does  this  mean  that  Venus  can  access  the  tennis  and  the  sports  shares  ?  Yes,  all  access
+works fine on the Samba server.

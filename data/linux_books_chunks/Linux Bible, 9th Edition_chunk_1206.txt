@@ -1,0 +1,17 @@
+Gaining expertise 
+with regular expressions is quite a challenge, but after you master it, you can accomplish 
+many useful things with just the simplest forms.
+
+For example, you can display a list of all regular user accounts by using grep to search for 
+all lines that contain the text /home in the /etc/passwd ﬁ le as follows:
+
+$ grep /home /etc/passwd
+
+7
+
+Or you could ﬁ nd all environment variables that begin with HO using the following 
+command:
+
+$ env | grep ^HO
+
+The ^ in the preceding code is the actual caret character, ^, not what you’ll commonly see for a backspace, ^H.

@@ -1,0 +1,14 @@
+More information about these
+algorithms can be found here:
+
+http://en.wikipedia.org/wiki/RSA_(algorithm)
+http://en.wikipedia.org/wiki/Digital_Signature_Algorithm
+
+49
+
+ssh client and server
+
+5.2. log on to a remote server
+
+The following screenshot shows how to use ssh to log on to a remote computer running
+Linux.

@@ -1,0 +1,18 @@
+Here’s an example 
+of an ifcfg-eth0 ﬁ le for a wired DHCP connection:
+
+DEVICE=eth0
+HWADDR=F0:DE:F1:28:46:D9
+TYPE=Ethernet
+BOOTPROTO=dhcp
+ONBOOT=yes
+USERCTL=no
+
+363
+
+c14.indd  04/01/2015  Page 364
+
+Part IV: Becoming a Linux Server Administrator
+
+In this ifcfg-eth0 example, the ﬁ rst three lines set the device name, MAC address, and 
+the type of interface to Ethernet.

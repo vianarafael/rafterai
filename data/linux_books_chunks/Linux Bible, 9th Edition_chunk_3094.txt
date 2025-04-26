@@ -1,0 +1,3 @@
+From there, select Permanent as 
+the Conﬁ guration. Then, with the public zone selected, click the check boxes next to the 
+http and https service boxes.

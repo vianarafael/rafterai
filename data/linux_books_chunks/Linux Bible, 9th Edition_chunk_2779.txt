@@ -1,0 +1,3 @@
+With the service command, the name of the service you want to control comes 
+second in the command line. The last option is what you want to do to the service, stop, 
+start, restart, and so on. The following example shows how to stop the cups service.

@@ -1,0 +1,7 @@
+You can select “Make this user 
+administrator” to give that user sudo privileges (allowing the account to act as the 
+root user as needed). Select Done when you are ﬁ nished. If the password you enter 
+is too short or otherwise weak, you must change it or click Done again if you still 
+want to use the weak password.
+
+15.  Complete the installation. When installation is ﬁ nished, click Reboot.

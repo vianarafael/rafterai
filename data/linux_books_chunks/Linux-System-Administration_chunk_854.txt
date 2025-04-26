@@ -1,0 +1,21 @@
+You can use free to display
+information every x seconds, but the output is not ideal.
+
+[paul@RHELv4u3 gen]$ free -om -s 10
+total       used       free     shared    buffers     cached
+Mem:        249        222         27          0         50        109
+Swap:       511          0        511
+
+total       used       free     shared    buffers     cached
+Mem:        249        222         27          0         50        109
+Swap:       511          0        511
+
+[paul@RHELv4u3 gen]$
+
+221
+
+  
+  
+resource monitoring
+
+19.4.

@@ -1,0 +1,13 @@
+sestatus
+
+You can see the current selinux status and policy with the sestatus command.
+
+[root@rhel55 ~]# sestatus 
+SELinux status:                 enabled
+SELinuxfs mount:                /selinux
+Current mode:                   permissive
+Mode from config file:          permissive
+Policy version:                 21
+Policy from config file:        targeted
+
+12.7.

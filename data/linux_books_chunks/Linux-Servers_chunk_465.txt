@@ -1,0 +1,8 @@
+packet forwarding
+
+Packet forwarding means allowing packets to go from one network to another. When a
+multihomed host is connected to two different networks, and it allows packets to travel from
+one network to another through its two network interfaces, it is said to have enabled packet
+forwarding.
+
+7.3.

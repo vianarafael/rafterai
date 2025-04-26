@@ -1,0 +1,14 @@
+Click to open some applications from the 
+
+Dash on the left (Firefox, File Manager, Shotwell, or others). Move the mouse to the 
+upper-left corner again, and toggle between showing all active windows minimized 
+(Overview screen) and showing them overlapping (full-sized). Figure 2.2 shows an 
+example of the miniature windows view.
+
+FIGURE 2.2
+
+Show all windows on the desktop minimized.
+
+2
+
+3.

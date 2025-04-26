@@ -1,0 +1,9 @@
+We have secured 
+anonymous to auth only if it has a TLS security strength factor (tls_ssf) of 128. We also give users the ability 
+to change their own password details by allowing self write access.
+
+The last line in Listing 16-2 is important. It is a control statement to prevent access further down the 
+
+access list.
+
+Listing 16-2.

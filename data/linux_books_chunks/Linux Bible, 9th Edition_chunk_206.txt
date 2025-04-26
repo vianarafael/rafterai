@@ -1,0 +1,2 @@
+This process led to a sharing of code (both inside and outside Bell 
+Labs), which allowed rapid development of a high-quality UNIX operating system.

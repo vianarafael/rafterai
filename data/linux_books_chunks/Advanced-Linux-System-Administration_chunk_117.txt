@@ -1,0 +1,15 @@
+We follow the usage to call the script the same name 
+as the actual tool we want to startup.
+
+21
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+/etc/rc.d/init.d/printtotty10
+#!/bin/sh
+# chkconfig: 345 85 15
+# description: This line has to be here for chkconfig to work ...

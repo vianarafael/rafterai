@@ -1,0 +1,8 @@
+In more recent times, an enhanced version of SMTP called Extended SMTP 
+(ESMTP) has been created that adds many more useful commands to the language to provide features such 
+as authentication and encryption.
+526
+
+Chapter 12 ■ Mail ServiCeS
+
+ the HELO command we mentioned previously is an older form of the EHLO command.

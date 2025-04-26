@@ -1,0 +1,3 @@
+A third type of install 
+called freshen (-F) installs a package only if an existing, earlier version of a package is 
+installed on the computer.

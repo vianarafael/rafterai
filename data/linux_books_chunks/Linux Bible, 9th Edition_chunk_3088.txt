@@ -1,0 +1,7 @@
+By default, 
+HTML content is stored in the /var/www/html directory (as determined by the value of 
+DocumentRoot in the httpd.conf ﬁ le).
+
+For the httpd daemon to be able to access that content, standard Linux permissions apply: 
+If read permission is not on for “other” users, it must be on for the apache user or group 
+for the ﬁ les to be read and served to clients.

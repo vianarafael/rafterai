@@ -1,0 +1,7 @@
+These areas where processes run are called 
+“domains.”
+
+ ■ It allows a test of its functionality before implementation. SELinux has a 
+
+Permissive mode, which allows you to see the effect of enforcing SELinux on your 
+system.

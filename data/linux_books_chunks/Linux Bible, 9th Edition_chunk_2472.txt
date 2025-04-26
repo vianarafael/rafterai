@@ -1,0 +1,4 @@
+In order for a 
+network request to leave your local network, it must know what node on your 
+ network provides a route to addresses outside your local network. The DHCP 
+server usually provides the “default gateway” IP address.

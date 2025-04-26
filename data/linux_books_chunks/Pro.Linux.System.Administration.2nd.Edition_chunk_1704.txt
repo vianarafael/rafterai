@@ -1,0 +1,6 @@
+You can also use ! to exclude a protocol by 
+specifying your rule like this: 
+
+iptables –A INPUT –p ! udp –m conntrack --ctstate NEW –j ACCEPT
+
+this rule accepts packets of all protocols except those using the UDP protocol in a New state.

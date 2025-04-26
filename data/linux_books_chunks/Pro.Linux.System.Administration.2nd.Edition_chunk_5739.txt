@@ -1,0 +1,8 @@
+We are then going to use ServerSpec to validate our 
+
+configuration.
+
+Ansible Installation and Configuration
+
+Ansible is simple to install and is available from either .deb or .rpm packages, Python Pip installation or tar 
+files, and more, depending on your system.

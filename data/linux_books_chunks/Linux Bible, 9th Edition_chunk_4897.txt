@@ -1,0 +1,13 @@
+(More on 
+that later.)
+
+26
+
+ ■ Networking—If given the option, turn on wired network interfaces for each hyper-
+visor. The hypervisors and storage should all be on the same local network, because 
+the speed of your network connection between those machines is critical to getting 
+good performance.
+
+ ■ Software packages—During installation, I install only the default Fedora 
+
+Workstation packages.

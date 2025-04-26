@@ -1,0 +1,14 @@
+Many large companies extend their desktop authentication setup to do 
+server conﬁ guration as well as using an AD server.
+
+279
+
+c11.indd  04/01/2015  Page 280
+
+Part III: Becoming a Linux System Administrator
+
+For this introduction to conﬁ guring centralized authentication servers, you will  conﬁ gure 
+a Linux system to authenticate against an LDAP server, using the Authentication 
+Conﬁ guration window in Red Hat Enterprise Linux.
+
+To begin, you need to gather information about the LDAP service at your location.

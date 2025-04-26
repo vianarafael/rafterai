@@ -1,0 +1,27 @@
+See also shell
+
+command-line completion, 79–80
+command-line editing, 77–79
+conﬁ guration ﬁ les, 88–89
+environment variables, 85–88, 88–89
+ﬁ le-matching metacharacters, 102–103
+ﬁ le-redirection metacharacters, 103–104
+locating commands, 74–76
+moving programs between background and foreground, 
+
+144
+
+parameter expansion, 157–158
+prompt, setting, 89–91
+running commands, 70–73
+shell history, 76–77, 80–82
+untyped variables, 158–159
+
+BASH_VERSION environment variable, 86
+bashrc ﬁ le, 88, 89, 186
+bc command, 158–159
+bcrypt, 645
+befs ﬁ lesystem, 302
+Bell Laboratories, 7–10
+Bell-LaPadula Mandatory Access security model, 672
+Berkeley Software Distribution.

@@ -1,0 +1,7 @@
+While that is still true to a great extent 
+with systemd, you can now also view log messages directly from the systemd journal 
+using the journalctl command.
+
+The log ﬁ les for your Linux system are primarily located in the /var/log directory. 
+Most of the ﬁ les in the /var/log directory are directed there from the systemd journal 
+through the rsyslogd service (see Chapter 13).

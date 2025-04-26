@@ -1,0 +1,20 @@
+Smith
+    primary-group: wsmith
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    lock-passwd: true
+    ssh-authorized-keys:
+
+757
+
+c27.indd  04/01/2015  Page 758
+
+Part VI: Extending Linux into the Cloud
+
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMzdq6hqDUhueWzl7rIUwjx
+B/rrJY4oZpoWINzeGVf6m8wXlHmmqd9C7LtnZg2P24/ZBb3S1j7vK2WymOcwEoWekhbZH
+BAyYeqXKYQQjUB2E2Mr6qMkmrjQBx6ypxbz+VwADNCwegY5RCUoNjrN43GVu6nSOxhFf7
+hv6dtCjvosOvtt0979YS3UcEyrobpNzreGSJ8FMPMRFMWWg68Jz5hOMCIE1IldhpODvQV
+bTNsn/STxO7ZwSYV6kfDj0szvdoDDCyh8mPNC1kIDhf/qu/Zn1kxQ9xfecQ+SUi+2IwN6
+9o1fNpexJPFr+Bwjkwcrk58C6uowG5eNSgnuu7GMUkT root@host2.example.com
+
+From the previous information, you can see that wsmith is the default user.

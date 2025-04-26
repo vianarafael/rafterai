@@ -1,0 +1,7 @@
+Thus, this server’s current persistent target unit is graphical.target.
+
+To set a different target unit to be persistent, you simply need to change the symbolic link 
+for default.target. To be consistent, stick with the runlevel target units if they are 
+used on your server.
+
+The following example changes the server’s persistent target unit from graphical.

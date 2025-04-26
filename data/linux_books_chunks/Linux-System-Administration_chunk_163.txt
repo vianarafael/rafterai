@@ -1,0 +1,10 @@
+killall5
+
+Its SysV counterpart killall5 can by used when shutting down the system. This screenshot
+shows how Red Hat Enterprise Linux 5.3 uses killall5 when halting the system.
+
+root@rhel53 ~# grep killall /etc/init.d/halt
+action $"Sending all processes the TERM signal..." /sbin/killall5 -15
+action $"Sending all processes the KILL signal..."  /sbin/killall5 -9
+
+1.3.10.

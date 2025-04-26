@@ -1,0 +1,35 @@
+One can configure 
+SAMBA to register on an existing network as a second WINS server by giving it the 
+address of this server with the option:
+
+wins server = <existing wins server> 
+
+NOTICE
+
+The options 'wins support' and 'wins server' are mutually exclusive.
+The 'wins server' option registers the SAMBA server with an existing WINS server 
+and enables WINS capabilities, there is no need to set 'wins support' as well.
+
+Samba server as a Domain Controller
+
+Options selected in /etc/samba/smb.conf:
+
+security = users
+
+domain master = yes
+
+local master
+
+preferred master = yes
+
+domain logon = yes
+
+[netlogon]
+
+path=/var/lib/samba/netlogon
+
+writable = no
+
+public = no
+
+Notice: You don't need to have a logon script.

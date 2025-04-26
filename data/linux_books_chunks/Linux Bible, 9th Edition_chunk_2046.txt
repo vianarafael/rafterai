@@ -1,0 +1,7 @@
+Linux kernel support is available for NTFS fi lesystems, which are usually used with Windows these days. 
+However, NTFS often requires that you install additional kernel drivers in Linux.
+
+12
+
+VFAT fi le systems are often used when fi les need to be exchanged between different types of operating 
+systems.

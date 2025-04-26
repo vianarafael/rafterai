@@ -1,0 +1,7 @@
+We are now going to configure it 
+to transport our mail from the MTA and into the users’ home directories. Dovecot allows us to use Sieve 
+(http://sieve.info/) to filter what e-mail gets delivered to where for our users.
+
+To use Dovecot, we are going to set an LMTP (Local Mail Transfer Protocol), which is a long-running 
+
+process started by the Dovecot master process.

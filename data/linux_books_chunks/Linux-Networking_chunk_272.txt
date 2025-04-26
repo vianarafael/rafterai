@@ -1,0 +1,8 @@
+Make  sure  your  neighbour  also  succeeded  in  binding  an  extra  ip  address  before  you
+continue.
+
+ping $extra_ip_neighbour
+or
+ssh $extra_ip_neighbour
+
+4.

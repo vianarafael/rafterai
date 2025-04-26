@@ -1,0 +1,7 @@
+(Be sure to unmount the logical volume and remove this line if you want to remove the USB 
+ﬂ ash drive from your computer.)
+
+Growing LVM logical volumes
+If you run out of space on a logical volume, you can add space to it without even unmount-
+ing it. To do that, you must have space available in the volume group, grow the logical 
+volume, and grow the ﬁ lesystem to ﬁ ll it.

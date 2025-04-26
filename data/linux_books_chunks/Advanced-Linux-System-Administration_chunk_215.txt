@@ -1,0 +1,9 @@
+This avoids the need to create an "emulation disk image" with 
+limited space (for "floppy emulation") or compatibility problems (for "hard disk emulation".)” 
+
+The syslinux package will install the isolinux.bin bootloader. Depending on the 
+distribution this can be found in /usr/lib/syslinux/ or /usr/share/syslinux/.
+
+You next need to create a bootable CD.
+
+1.

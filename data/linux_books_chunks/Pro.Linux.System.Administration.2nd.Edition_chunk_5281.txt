@@ -1,0 +1,9 @@
+If you want to install the latest plug-ins, you can do so like this:
+
+$ wget https://nagios-plugins.org/download/nagios-plugins-2.1.4.tar.gz && \
+tar zxf nagios-plugins-2.1.4.tar.gz && \
+cd nagios-plugins-2.1.4/ && \
+./configure --with-nagios-user=nagios --with-nagios-group=nagcmd && \
+make && sudo make install
+
+This will install the plug-ins into the /usr/local/nagios/libexec/ directory.

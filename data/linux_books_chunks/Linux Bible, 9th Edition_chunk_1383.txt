@@ -1,0 +1,2 @@
+First, it describes how to check information about the hardware components of your 
+system. It then covers how to conﬁ gure Linux to deal with removable media.

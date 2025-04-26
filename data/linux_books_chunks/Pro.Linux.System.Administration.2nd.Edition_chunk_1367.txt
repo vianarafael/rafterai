@@ -1,0 +1,8 @@
+The default is yes on 
+CentOS.
+
+DNS host’s IP address (multiple addresses are comma separated). This will 
+be added to /etc/resolv.conf if PEERDNS is set to yes.
+
+Setting that determines whether DNS hosts specified in DNS are added to /
+etc/resolv.conf. If set to yes, they are added.

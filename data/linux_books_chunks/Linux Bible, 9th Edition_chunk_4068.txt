@@ -1,0 +1,10 @@
+These activ-
+ities help to eliminate any potential backdoors to your Linux system.
+
+Removing unused user accounts
+Keeping old expired accounts around is asking for trouble. After a user has left an organi-
+zation, it is best to perform a series of steps to remove his or her account along with data:
+
+22
+
+1.

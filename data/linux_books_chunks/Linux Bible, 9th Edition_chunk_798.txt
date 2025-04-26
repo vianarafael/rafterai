@@ -1,0 +1,14 @@
+The cd command can be used 
+with no options (to take you to your home directory) or with full or relative paths. Consider 
+the following commands:
+
+$ cd /usr/share/
+$ pwd
+/usr/share
+$ cd doc
+/usr/share/doc
+$ cd
+$ pwd
+/home/chris
+
+The /usr/share option represents the absolute path to a directory on the system.

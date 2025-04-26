@@ -1,0 +1,17 @@
+For this, data collected from system metrics will be your guide.
+
+482
+
+The following settings determine how Apache manages connection timeouts and keepalives:
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Timeout 300
+
+KeepAlive On
+MaxKeepAliveRequests 100
+KeepAliveTimeout 5
+
+Timeout is the connection timeout setting, measured in seconds. This can be lengthened or shortened 
+
+depending on your requirements.

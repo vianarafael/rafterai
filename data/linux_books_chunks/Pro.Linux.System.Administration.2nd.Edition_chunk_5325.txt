@@ -1,0 +1,4 @@
+The $USERx$ macros are configuration 
+
+variables, usually configured in a file called resource.cfg (or another file specified in the nagios.cfg 
+configuration file using the resource_file configuration option).

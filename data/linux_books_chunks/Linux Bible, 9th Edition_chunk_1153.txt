@@ -1,0 +1,9 @@
+The following 
+examples show variables set to a string of characters (CITY) and a numeric value (PI):
+
+CITY="Springfield"
+PI=3.14159265
+
+Variables can contain the output of a command or command sequence. You can accomplish 
+this by preceding the command with a dollar sign and open parenthesis, and following it 
+with a closing parenthesis.

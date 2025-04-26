@@ -1,0 +1,6 @@
+However, if you 
+were to uncomment that line, the next directive, statistics, would enable loopstats, peerstats, and 
+clockstats reporting to files in /var/log/ntpstats.
+
+loopstats collects information on the updates made to the local clock by the ntpd server. peerstats 
+logs information about all peers—upstream servers as well as clients that use your server to synchronize.

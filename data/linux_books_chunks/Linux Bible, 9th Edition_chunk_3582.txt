@@ -1,0 +1,3 @@
+The service is started 
+in different ways for different Linux distributions. The basic NFS service in Fedora and 
+RHEL 7 is called nfs-server.

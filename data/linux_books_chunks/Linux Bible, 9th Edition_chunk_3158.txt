@@ -1,0 +1,8 @@
+The port is optional for both NameVirtualHost and VirtualHost speciﬁ ca-
+tions but should always be used to prevent interference with SSL virtual hosts 
+(which use port 443 by default).
+
+ ■ The ServerName and ServerAlias lines tell Apache which names this 
+
+ virtual host should be recognized as, so replace them with names appropriate 
+to your site.

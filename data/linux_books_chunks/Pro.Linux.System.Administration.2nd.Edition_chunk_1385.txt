@@ -1,0 +1,12 @@
+You can use the modprobe 
+
+command to insert the bonding module if you wish.
+
+sudo /usr/sbin/modprobe bonding
+
+ the modprobe command is the smarter way to insert modules (instead of the insmod command) into 
+
+ ■ Tip 
+the kernel as it handles dependencies.
+
+We are now going to bring up the bond0 device or master interface.

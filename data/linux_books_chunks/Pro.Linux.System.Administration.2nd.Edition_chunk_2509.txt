@@ -1,0 +1,7 @@
+41     IN      A       150.101.161.173
+www.google.com.        41     IN      A       150.101.161.174
+www.google.com.        41     IN      A       150.101.161.180
+www.google.com.        41     IN      A       150.101.161.181
+www.google.com.        41     IN      A       150.101.161.187
+www.google.com.        41     IN      A       150.101.161.146
+www.google.com.

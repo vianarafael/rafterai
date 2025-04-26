@@ -1,0 +1,15 @@
+This executes the command line.
+
+77
+
+ 
+ 
+ 
+ 
+ 
+c03.indd  04/01/2015  Page 78
+
+Part II: Becoming a Linux Power User 
+
+As you edit a command line, at any point you can type regular characters to add those 
+characters to the command line. The characters appear at the location of your text cursor.

@@ -1,0 +1,10 @@
+# vigr
+
+
+- Edit the group file:
+
+`vigr`
+
+- Display version:
+
+`vigr {{[-V|--version]}}`

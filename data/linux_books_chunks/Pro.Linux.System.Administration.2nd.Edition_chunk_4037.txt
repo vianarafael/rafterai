@@ -1,0 +1,14 @@
+Use --force to 
+actually delete these files.
+
+Lists number of full backups and associated incrementals to keep, 
+counting in reverse chronological order. Use --force to actually 
+delete these files.
+
+(continued)
+
+659
+
+Chapter 14 ■ BaCkup and reCovery
+
+Table 14-3.

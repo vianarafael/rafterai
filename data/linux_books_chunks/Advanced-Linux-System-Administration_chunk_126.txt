@@ -1,0 +1,5 @@
+The problem is that the kernel is missing the proper modules to access the 
+disk.
+
+We need to boot the system using an alternative method. The fix next involves creating a 
+custom initrd and using it for the normal boot process.

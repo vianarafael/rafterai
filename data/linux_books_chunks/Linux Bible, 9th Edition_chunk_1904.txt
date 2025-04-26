@@ -1,0 +1,6 @@
+Normally, useradd creates a new group with the same name and ID number as 
+the user. Replace default_group with the group name to use (for example, -g 
+bears).
+
+ ■ -s default_shell—Set the default shell for new users. Typically, this is 
+/bin/bash.

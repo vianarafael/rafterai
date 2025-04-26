@@ -1,0 +1,6 @@
+However, we are going to take the defaults, 
+which means our codedir will be /etc/puppetlabs/code.
+
+It is in here you will set reporting settings and configuration for using PuppetDB. Using PuppetDB is a 
+great idea as it allows you to do complex catalogs as it collects data from multiple nodes but is outside the 
+scope of this exercise.

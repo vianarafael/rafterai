@@ -1,0 +1,5 @@
+Bonding is described in 
+
+Chapter 14.
+
+ ■ Route IP traffic—Set up static routes to speciﬁ c network addresses.

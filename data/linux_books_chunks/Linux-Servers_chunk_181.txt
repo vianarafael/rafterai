@@ -1,0 +1,5 @@
+enabling extra websites
+
+The  only  way  to  enable  or  disable  configurations  in  RHEL/CentOS  is  by  renaming  or
+moving the configuration files. Any file in /etc/httpd/conf.d ending on .conf will be loaded
+by Apache.

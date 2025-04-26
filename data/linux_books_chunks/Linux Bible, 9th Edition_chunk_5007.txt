@@ -1,0 +1,9 @@
+Untar the cloud tarball. I typed the following to extract the ﬁ les from the 
+
+tarball:
+
+# tar xvf ubuntu-14.10-server-cloudimg-amd64.tar.gz
+
+3.  Combine the data into a separate image. Start with the same meta-data 
+and user-data ﬁ les you used for Fedora. Change the meta-data names to 
+ubuntu instead of fedora.

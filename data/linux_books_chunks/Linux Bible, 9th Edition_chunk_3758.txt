@@ -1,0 +1,7 @@
+Another of Upstart’s major improvements over System V init is 
+that it can start services by reacting when certain events occur (such as when a piece of 
+hardware is connected).
+
+If you are using a Linux system the employs Upstart, you should know a few things about 
+it. The ﬁ rst process that starts on an Upstart system is still called the init process, but it 
+is actually an Upstart daemon.

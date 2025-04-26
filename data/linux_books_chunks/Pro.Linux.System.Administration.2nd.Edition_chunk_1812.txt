@@ -1,0 +1,66 @@
+Options Available with YUM
+
+Option
+
+search
+
+list
+
+install
+
+Description
+
+Allows you to search for packages available for download.
+
+Lists all the packages available for download.
+
+Installs a package or packages.
+
+check-update
+
+Lists packages available for update.
+
+update
+
+remove
+
+info
+
+provides
+
+Updates the package specified or downloads and installs any available updates.
+
+Removes a package or packages from your host.
+
+Provides package information about a package.
+
+Tells you what package a particular file or feature belongs to.
+
+list updates
+
+Lists all the packages with updates available only.
+
+list available
+
+Lists all the available packages only.
+
+deplist
+
+clean all
+
+history
+
+fssnapshot
+
+repolist
+
+Lists package dependencies.
+
+Cleans up downloaded package files that are no longer needed.
+
+Shows the history of the YUM commands that have been executed on this system.
+
+This and associated subcommands can manage the creation and deletion on LVM 
+snapshots prior to issuing YUM updates or installs.
+
+Views the YUM repositories that are configured on your system.

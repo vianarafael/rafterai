@@ -1,0 +1,3 @@
+Duply provides a simple way to configure Duplicity backups.
+
+Duplicity can back up to various cloud storage providers.

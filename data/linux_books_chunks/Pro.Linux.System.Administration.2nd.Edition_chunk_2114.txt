@@ -1,0 +1,7 @@
+Linux itself doesn’t generally care what the partition type 
+
+is, but to make management easier, we recommend you change the type to match the intended use. As we 
+have said, the partition id is a hex code. You get a listing of all the possible choices by issuing a l. In Table 9-1 
+we are giving you a listing of just those relating to Linux.
+
+Table 9-1.

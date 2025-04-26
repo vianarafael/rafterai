@@ -1,0 +1,10 @@
+From here you can navigate the filesystem; start by changing the directory to the root directory 
+using the cd, or change directory, command, as you can see in Listing 4-6.
+
+Listing 4-6.  Changing Directories
+
+user@host:~$ cd /
+user@host:/$
+
+If you can ignore the user@host for a moment in Listing 4-6, you can see we’ve moved from our current 
+directory to /, which is called the root directory.

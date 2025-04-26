@@ -1,0 +1,6 @@
+Click to keep the size.
+
+ ■ Workspace selections—Several selections let you use workspaces in different 
+ways. Select Always on Top to make the current window always on top of other 
+windows in the workspace. Select Always on Visible Workspace to always show 
+the window on the workspace that is visible.

@@ -1,0 +1,6 @@
+Configuration blocks are enclosed in <>...</>.
+
+In this example, we will collect the basic system metrics, such as CPU, memory, and disk space, and 
+we will measure some database stats with the mysql plug-in. Our database server happens to be CentOS, 
+and the installation of the mysql collectd plug-in has placed a mysql.conf file in the /etc/collectd.d 
+directory.

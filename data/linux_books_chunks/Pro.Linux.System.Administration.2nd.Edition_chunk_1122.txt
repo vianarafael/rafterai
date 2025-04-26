@@ -1,0 +1,6 @@
+Services are persistent, like a mail server, 
+and tasks perform a function and then exit to a waiting state, like a backup program. An abstract job runs 
+forever but has no child process. The definition files (or Upstart scripts) for jobs can be found under the /
+etc/init directory.
+
+Listing 6-9 illustrates what is called a system job definition for the rsyslogd daemon.

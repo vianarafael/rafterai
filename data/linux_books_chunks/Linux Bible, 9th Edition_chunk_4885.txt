@@ -1,0 +1,16 @@
+You 
+should check these things on your computer before you start installing:
+
+ ■ Support virtualization—You can check for virtualization support by looking at 
+
+the ﬂ ags set in the CPU.
+
+ ■ Memory—The computer must have enough RAM not only to run the host operating 
+
+system, but for each virtual machine that you expect to run on the system.
+
+ ■ Processing power—Keep in mind that each virtual machine consumes processing 
+
+power for itself and any application running inside the virtual machine.
+
+Storage is another consideration.

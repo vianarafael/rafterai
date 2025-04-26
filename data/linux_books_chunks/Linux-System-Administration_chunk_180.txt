@@ -1,0 +1,5 @@
+On some
+systems the Linux kernel might attribute slightly varying priority values, but the result
+will still be four processes fighting for cpu time.
+
+2.1.6.

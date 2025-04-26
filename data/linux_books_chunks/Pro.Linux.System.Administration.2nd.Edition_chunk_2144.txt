@@ -1,0 +1,4 @@
+any information that needs to be written to disk is put in the journal and then put in 
+its final place on disk later, when the operating system has a spare moment. Similarly, if the machine 
+crashes, data in the journal is not lost. If a system crashes, the journal can be re-applied when the disk 
+has been remounted.

@@ -1,0 +1,15 @@
+Here, only 
+the loopback interface has an inet address (127.0.0.1).
+
+# ip addr show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqueue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 state DOWN 
+       qlen 1000
+    link/ether f0:de:f1:28:46:d9 brd ff:ff:ff:ff:ff:ff
+
+In RHEL 7 and Fedora, by default, network interfaces are now named based on how they 
+are connected to the physical hardware.

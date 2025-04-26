@@ -1,0 +1,11 @@
+After this time, it 
+will fetch the resource again.
+
+518
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+However, if the resource hasn’t changed at all in that time, it would be a waste of resources to download 
+
+it again. It is better to renew the cached version. The browser can determine if the resource has changed by 
+using the ETag value.

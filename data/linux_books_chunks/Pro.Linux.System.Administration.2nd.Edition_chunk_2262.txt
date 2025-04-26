@@ -1,0 +1,8 @@
+We’ll use the -h option again to give us human-readable output. By default, it will print the size 
+for each subdirectory as well. To avoid this, we pass the -s option, so it shows us only the final total.
+
+$ du -sh *
+2.5M    Documents
+44G     src
+
+Here we are listing and calculating the files and directories in our home directory.

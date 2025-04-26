@@ -1,0 +1,5 @@
+Bareos gives a name or label to volumes based on this 
+
+format. Tapes from autoloaders with barcode labels are not automatically read into Bareos and need to be 
+manually labeled when you add a new tape. In the case of tape media, a small section of data is written to 
+the start of the tape, giving it the label name for that volume.

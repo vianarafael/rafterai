@@ -1,0 +1,10 @@
+Modules are added to the configuration to provide 
+access to certain functionality.
+
+dn: cn=module{0},cn=config
+objectClass: olcModuleList
+cn: module{0}
+olcModulePath: /usr/lib/ldap
+olcModuleLoad: {0}back_mdb
+
+Here we are declaring the path in which to find our modules, olcModulePath: /usr/lib/ldap.

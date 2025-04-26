@@ -1,0 +1,6 @@
+Using visudo, you can 
+configure the sudoers file to restrict access to particular users, to certain commands, and on particular hosts.
+Let’s look at the /etc/sudoers file. First, you will need to use the command visudo to edit the /etc/
+
+sudoers file. The visudo command is a special editor designed to be used with the sudo command, and it 
+is the safest way to edit the sudoers file.

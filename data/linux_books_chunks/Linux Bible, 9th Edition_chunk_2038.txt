@@ -1,0 +1,3 @@
+Each of the partitions is 
+ connected to the larger Linux ﬁ lesystem by mounting it to a point in the ﬁ lesystem where 
+you want that partition to be used.

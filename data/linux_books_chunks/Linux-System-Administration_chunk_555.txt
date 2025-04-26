@@ -1,0 +1,100 @@
+iSCSI Target in RHEL/CentOS
+
+This section will describe iSCSI Target setup on RHEL6, RHEL7 and CentOS.
+
+Start with installing the iSCSI Target package.
+
+yum install scsi-target-utils
+
+We configure three local disks in /etc/tgt/targets.conf to become three LUN's.
+
+<target iqn.2008-09.com.example:server.target2>
+    direct-store /dev/sdb
+    direct-store /dev/sdc
+    direct-store /dev/sdd
+    incominguser paul hunter2
+</target>
+
+Restart the service.
+
+[root@centos65 ~]# service tgtd start
+Starting SCSI target daemon:                               [  OK  ]
+
+The standard local port for iSCSI Target is 3260, in case of doubt you can verify this with
+netstat.
+
+[root@server1 tgt]# netstat -ntpl | grep tgt
+tcp    0   0 0.0.0.0:3260       0.0.0.0:*          LISTEN      1670/tgtd
+tcp    0   0 :::3260            :::*               LISTEN      1670/tgtd
+
+127
+
+iSCSI devices
+
+The tgt-admin -s command should now give you a nice overview of the three LUN's (and
+also LUN 0 for the controller).
+
+[root@server1 tgt]# tgt-admin -s
+Target 1: iqn.2014-04.be.linux-training:server1.target1
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00010000
+            SCSI SN: beaf10
+            Size: 0 MB, Block size: 1
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            Backing store type: null
+            Backing store path: None
+            Backing store flags: 
+        LUN: 1
+            Type: disk
+            SCSI ID: IET     00010001
+            SCSI SN: VB9f23197b-af6cfb60 
+            Size: 1074 MB, Block size: 512
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdb
+            Backing store flags: 
+        LUN: 2
+            Type: disk
+            SCSI ID: IET     00010002
+            SCSI SN: VB8f554351-a1410828 
+            Size: 1074 MB, Block size: 512
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdc
+            Backing store flags: 
+        LUN: 3
+            Type: disk
+            SCSI ID: IET     00010003
+            SCSI SN: VB1035d2f0-7ae90b49 
+            Size: 1074 MB, Block size: 512
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            Backing store type: rdwr
+            Backing store path: /dev/sdd
+            Backing store flags: 
+    Account information:
+    ACL information:
+        ALL
+
+128
+
+iSCSI devices
+
+12.3.

@@ -1,0 +1,8 @@
+If the ﬁ lesystem were already mounted, I could 
+type the following mount command as root to remount the ﬁ lesystem, using acl or any 
+other values added to the /etc/fstab ﬁ le:
+
+# mount -o remount /dev/sdc1
+
+A third way you can add ACL support to a ﬁ lesystem is to mount the ﬁ lesystem by hand 
+and speciﬁ cally request the acl mount option.

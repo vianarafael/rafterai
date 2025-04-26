@@ -1,0 +1,9 @@
+We can slice this group up for our volumes and also use fancy disk magic to extend and 
+shrink volumes after we have created them.
+
+In Figure 2-58 we are asked how much of the Volume Group we want to use for this partitioning, and we 
+
+will choose the default to use all of it, or 8.1 GB.
+
+You will now be shown the LVM partition layout, which will show a small amount for swap space and 
+the rest for the root or / partition.

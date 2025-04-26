@@ -1,0 +1,10 @@
+The path consists of 
+a list of directories that are checked sequentially for the commands you enter. To see your 
+current path, type the following:
+
+$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:↵
+/home/chris/bin
+
+The results show a common default path for a regular Linux user. Directories in the path 
+list are separated by colons.

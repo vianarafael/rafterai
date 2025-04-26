@@ -1,0 +1,31 @@
+Let's first take a look
+at /etc/xinetd.conf.
+
+paul@RHELv4u2:~$ cat /etc/xinetd.conf 
+#
+# Simple configuration file for xinetd
+#
+# Some defaults, and include /etc/xinetd.d/
+
+defaults
+{
+instances               = 60
+log_type                = SYSLOG authpriv
+log_on_success          = HOST PID
+log_on_failure          = HOST
+cps                     = 25 30
+
+317
+
+  
+  
+    
+introduction to networking
+
+}
+
+includedir /etc/xinetd.d
+
+paul@RHELv4u2:~$ 
+
+According to the settings in this file, xinetd can handle 60 client requests at once.

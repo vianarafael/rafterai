@@ -1,0 +1,30 @@
+The screenshot below
+shows the creation of a trigger that calculates the amount by multiplying two fields that are
+about to be inserted.
+
+mysql> create trigger total_amount before INSERT on invoices
+
+55
+
+introduction to sql using mysql
+
+    -> for each row set new.amount = new.unitprice * new.unitcount ;
+Query OK, 0 rows affected (0.02 sec)
+
+Here we verify that the trigger works by inserting a new record, without providing the total
+amount.
+
+mysql> insert into invoices values ('20090526','ABC','199','10','');
+Query OK, 1 row affected (0.02 sec)
+
+Looking at the record proves that the trigger works.
+
+mysql> select * from invoices;
++----------+------------+-----------+-----------+--------+
+| id       | customerid | unitprice | unitcount | amount |
++----------+------------+-----------+-----------+--------+
+| 20090526 | ABC        |       199 |        10 |   1990 | 
++----------+------------+-----------+-----------+--------+
+1 row in set (0.00 sec)
+
+3.7.2.

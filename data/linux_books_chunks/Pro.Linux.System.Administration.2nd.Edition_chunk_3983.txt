@@ -1,0 +1,7 @@
+We could also use the traditional 
+
+shebang (#!/bin/bash) to let Linux know we are running a Bash script.
+
+Lines 2–5 are comments describing our script. Lines 6–7 set RSYNC variables, and lines 10–13 declare the 
+list of hosts we want to sync from. Lines 15–19 are more variables. The backup directory we will be directing 
+our backups to is BACKUP_DIR='/data/backups'.

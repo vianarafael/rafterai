@@ -1,0 +1,2 @@
+The Zen Discovery module is used to discover other cluster nodes, perform master 
+elections, detect faults, and notify of cluster updates.

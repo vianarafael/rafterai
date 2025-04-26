@@ -1,0 +1,16 @@
+For 
+example:
+
+# cd /usr/src/Linux-2.6.25.11/arch/i386/boot
+# cp bzImage /boot/bz-2.6.25-11
+
+2.  Add several lines to the /boot/grub/grub.conf ﬁ le so that the image can be 
+
+started at boot time if it is selected. For example:
+
+title Red Hat Enterprise Linux 6.3 (My own IPV6 build)
+   root (hd0,4)
+   kernel /bz-2.6.25-11 ro root=/dev/sda5
+   initrd /initrd-2.6.25-11.img
+
+3.

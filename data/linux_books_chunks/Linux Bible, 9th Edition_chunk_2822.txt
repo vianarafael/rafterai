@@ -1,0 +1,7 @@
+Remember that static means that the service is enabled by default and cannot be 
+disabled, even by root.
+
+Sometimes, disabling a service is not enough to make sure that it does not run. For 
+ example, you might want network.service to replace NetworkManager.service for 
+starting network interfaces on your system. Disabling NetworkManager would keep the 
+ service from starting on its own.

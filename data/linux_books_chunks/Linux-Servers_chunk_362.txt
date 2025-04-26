@@ -1,0 +1,14 @@
+installing DNS software on Debian
+
+root@debian7:~# aptitude update && aptitude upgrade
+...
+root@debian7:~# aptitude install bind9
+...
+root@debian7:~# dpkg -l | grep bind9 | tr -s ' '
+ii bind9 1:9.8.4.dfsg.P1-6+nmu2+deb7u2 amd64 Internet Domain Name Server
+ii bind9-host 1:9.8.4.dfsg.P1-6+nmu2+deb7u2 amd64 Version of 'host' bundled...
+ii bind9utils 1:9.8.4.dfsg.P1-6+nmu2+deb7u2 amd64 Utilities for BIND
+ii libbind9-80 1:9.8.4.dfsg.P1-6+nmu2+deb7u2 amd64 BIND9 Shared Library use...
+root@debian7:~#
+
+2.

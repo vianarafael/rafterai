@@ -1,0 +1,13 @@
+185
+
+c08.indd  04/01/2015  Page 186
+
+Part III: Becoming a Linux System Administrator 
+
+When the xinetd daemon process receives a request for a service, it uses the 
+information in these ﬁ les to determine which daemon processes to start to 
+handle the request.
+
+The following are some interesting conﬁ guration ﬁ les in /etc:
+
+ ■ aliases—Can contain distribution lists used by the Linux mail services.

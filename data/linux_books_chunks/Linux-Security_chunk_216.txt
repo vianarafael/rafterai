@@ -1,0 +1,17 @@
+"$HOME/.bashrc"
+    fi
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+RHEL/CentOS does not have this file by default.
+
+4.5. ~/.bashrc
+
+The ~/.bashrc script is often sourced by other scripts. Let us take a look at what it does
+by default.
+
+Red Hat uses a very simple ~/.bashrc, checking for /etc/bashrc and sourcing it.

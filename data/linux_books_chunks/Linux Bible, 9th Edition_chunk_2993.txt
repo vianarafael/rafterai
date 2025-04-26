@@ -1,0 +1,3 @@
+The Shared No value is set because the printer is currently available only on the 
+local  system. The most interesting information relates to DeviceURI, which shows that 
+the printer is connected to parallel port /dev/lp0.

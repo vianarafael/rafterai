@@ -1,0 +1,6 @@
+The conﬁ guration 
+variables in the cupsd.conf ﬁ le are in the same form as those in the Apache conﬁ gura-
+tion ﬁ le (httpd.conf or apache2.conf). Type man cupsd.conf to see details on any 
+of the settings.
+
+The Print Settings window adds access information to the cupsd.conf ﬁ le.

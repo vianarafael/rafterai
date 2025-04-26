@@ -1,0 +1,4 @@
+All hypervi-
+sors will be added to this network interface and automatically assigned an IP address. By 
+default, the hypervisor uses the address range of 192.168.122.2 through 192.168.122.254 
+to assign to the virtual machines.

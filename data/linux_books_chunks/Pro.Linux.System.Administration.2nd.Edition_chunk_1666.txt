@@ -1,0 +1,8 @@
+For 
+
+firewalls to be most secure, a default policy of denial should be mandatory in all your chains.
+
+Armed with these basic commands, you will be able to perform most functions on your chains and 
+
+rule sets. There are many more features that you can add to your rules to make your firewall perform very 
+complex and interesting routing.

@@ -1,0 +1,5 @@
+DEB packaging tools were made to automatically resolve package 
+dependencies well before RPM-related packaging tools could do that.
+
+ ■ Location of RPMs—The rpm command expects you to provide the exact location 
+of the RPM ﬁ le when you try to install it.

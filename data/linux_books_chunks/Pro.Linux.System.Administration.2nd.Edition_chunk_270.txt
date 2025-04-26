@@ -1,0 +1,8 @@
+These are called virtual consoles (also known as a tty) and we talk about them again in 
+Chapter 4.
+
+On Ubuntu, Alt+F2 and Alt+F3 each give access to a limited shell. Alt+F4 provides verbose installation 
+
+progress and logs for the installer. The Alt+F1 combination switches back to the installer interface.
+
+OnCentOS, the graphical installation runs on Ctrl-Alt-F1.

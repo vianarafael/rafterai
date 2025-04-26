@@ -1,0 +1,9 @@
+Some of the most common useful programs you’ll see used are 
+
+164
+
+c07.indd  04/01/2015  Page 165
+
+Chapter 7: Writing Simple Shell Scripts
+
+grep, cut, tr, awk, and sed.

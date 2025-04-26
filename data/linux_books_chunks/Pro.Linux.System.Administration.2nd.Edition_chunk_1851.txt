@@ -1,0 +1,8 @@
+That release file is placed on the system by the  
+
+centos-release-7-2.1511.el7.centos.2.10.x86_64 package.
+
+You will also see that the baseurl we are using for the sources is pointing to the vault.centos.org host. 
+
+This is where you can find older historical releases of CentOS and the source files for building your own 
+RPMs.

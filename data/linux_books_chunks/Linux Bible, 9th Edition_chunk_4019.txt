@@ -1,0 +1,9 @@
+To go into rescue mode, you bypass the Linux system installed on your 
+
+585
+
+c21.indd  04/01/2015  Page 586
+
+Part IV: Becoming a Linux Server Administrator
+
+hard disk and boot some rescue medium (such as a bootable USB key or boot CD).

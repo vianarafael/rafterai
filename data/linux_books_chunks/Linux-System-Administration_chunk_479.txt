@@ -1,0 +1,7 @@
+example: extend a logical volume
+
+A logical volume can be extended without unmounting the file system. Whether or not a
+volume can be extended depends on the file system it uses. Volumes that are mounted as
+vfat or ext2 cannot be extended, so in the example here we use the ext3 file system.
+
+The fdisk command shows us newly added scsi-disks that will serve our lvm volume.

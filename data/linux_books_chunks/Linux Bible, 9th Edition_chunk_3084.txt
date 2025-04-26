@@ -1,0 +1,10 @@
+For example, setting OPTIONS="-e 
+debug" increases the log level so the maximum number of Apache messages are sent to 
+
+454
+
+c17.indd  04/01/2015  Page 455
+
+Chapter 17: Confi guring a Web Server
+
+log ﬁ les. Restart the httpd service for the changes to take effect.

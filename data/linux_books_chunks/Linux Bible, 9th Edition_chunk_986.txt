@@ -1,0 +1,3 @@
+The next lists ﬁ les owned by chris or joe. The find  command 
+of /etc turns up all ﬁ les that have ntp as their primary group assignment. The last 
+ example shows all ﬁ les under /var/spool that are not owned by root.

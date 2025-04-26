@@ -1,0 +1,11 @@
+Now we can start the Kibana service.
+
+$ sudo systemctl start kibana
+
+We can now open a browser to http://192.168.0.250, and we will be presented with the front page of 
+
+Kibana.
+
+In Figure 18-2 we are presented with the first page for Kibana. This allows us to configure our index 
+
+pattern.

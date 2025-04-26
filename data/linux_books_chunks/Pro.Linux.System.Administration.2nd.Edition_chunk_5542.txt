@@ -1,0 +1,6 @@
+this will show you how your current host is built and can be used as 
+an example to build similar hosts.
+
+Installation Source
+
+You’ve already seen the install and upgrade directives that specify the behavior of the installation.

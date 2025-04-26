@@ -1,0 +1,10 @@
+samba by example
+
+Besides  the  howto,  there  is  also  an  excellent  book  called  Samba  By  Example  (again
+available as printed edition in shops, and as a free pdf and html).
+
+140
+
+introduction to samba
+
+9.4.

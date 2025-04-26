@@ -1,0 +1,6 @@
+To use System Monitor to sort all processes running on your system by username, 
+type System Monitor from the Activities screen and press Enter. Click the settings 
+button (icon with three lines), click All Processes, and click the User column. This 
+sorts the processes by user name. Scroll down to see the processes.
+
+3.

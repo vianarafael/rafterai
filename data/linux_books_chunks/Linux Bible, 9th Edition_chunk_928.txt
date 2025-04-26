@@ -1,0 +1,4 @@
+Case is important, so use uppercase and lowercase exactly as shown in the examples!
+
+On Red Hat Enterprise Linux, Fedora, and other Linux distributions, for regular users the vi command is aliased 
+to run vim. If you type alias vi, you should see alias vi='vim'.

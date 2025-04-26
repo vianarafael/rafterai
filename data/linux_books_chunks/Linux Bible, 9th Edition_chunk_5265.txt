@@ -1,0 +1,10 @@
+To log in to any account on another computer using the ssh command, type the 
+
+following, and then enter the password when prompted:
+
+$ ssh joe@localhost
+joe@localhost's password:
+*********
+[joe]$
+
+2.

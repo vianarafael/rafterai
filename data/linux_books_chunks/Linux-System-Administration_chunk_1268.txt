@@ -1,0 +1,7 @@
+About tape devices
+
+Don't forget that the name of a device strictly speaking has no meaning since the kernel will
+use the major and minor number to find the hardware! See the man page of mknod and the
+devices.txt file in the Linux kernel source for more info.
+
+30.1.1.

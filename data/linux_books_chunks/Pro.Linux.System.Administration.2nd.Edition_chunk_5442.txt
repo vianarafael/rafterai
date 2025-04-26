@@ -1,0 +1,9 @@
+The Tactical Monitoring Overview screen
+
+905
+
+Chapter 18 ■ Logging and Monitoring
+
+This screen displays the current status of the Nagios server and a summary of your host and service 
+
+statuses.

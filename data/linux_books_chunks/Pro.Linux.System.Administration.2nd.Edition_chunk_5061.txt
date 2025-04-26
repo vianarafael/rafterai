@@ -1,0 +1,6 @@
+This is quite new, and it currently has 
+a few detractors since the TLS service isn’t really secure (doesn’t enforce client certificate verification), but it 
+shows great promise as it matures.
+
+The service can act either passively (wait for journal messages) or actively (pull messages from a remote 
+host). It can be configured to listen over HTTP or HTTPS.

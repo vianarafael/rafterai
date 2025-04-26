@@ -1,0 +1,24 @@
+johndoe johndoe
+unconfined_u:object_r:user_home_t:s0 my_stuff
+
+671
+
+ 
+ 
+c24.indd  04/15/2015  Page 672
+
+Part V: Learning Linux Security Techniques
+
+The ls -Z example displays four items associated with the ﬁ le that are speciﬁ c to 
+SELinux:
+
+ ■ A user (unconfined_u)
+
+ ■ A role (object_r)
+
+ ■ A type (user_home_t)
+
+ ■ A level (s0)
+
+These four RBAC items (user, role, type, and level) are used in the SELinux access control 
+to determine appropriate access levels.

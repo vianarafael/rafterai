@@ -1,0 +1,7 @@
+And, 
+ﬁ nally, a “no written passwords” policy is mandatory.
+
+Implementing disaster recovery
+Disasters do happen, and they can expose your organization’s data to insecure situations. 
+Therefore, part of computer security includes preparing for a disaster. Disaster recovery 
+includes creating disaster recovery plans, testing the plans, and conducting plan reviews.

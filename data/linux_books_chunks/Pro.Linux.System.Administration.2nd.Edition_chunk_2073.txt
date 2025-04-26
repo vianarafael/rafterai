@@ -1,0 +1,10 @@
+Listing Device Nodes
+
+$ $ ll /dev/sda*
+brw-rw---- 1 root disk 8, 0 Jun  7 22:45 /dev/sda
+brw-rw---- 1 root disk 8, 1 Jun  7 22:45 /dev/sda1
+brw-rw---- 1 root disk 8, 2 Jun  7 22:45 /dev/sda2
+brw-rw---- 1 root disk 8, 5 Jun  7 22:45 /dev/sda5
+
+Listing 9-1 shows four block devices, or device nodes. They are readable and writable by the root user 
+and the disk group.

@@ -1,0 +1,10 @@
+Increase this value if you believe that 
+ timeouts are occurring because of slow response from the server or a slow network.
+
+ ■ retrans=#— This sets the number of minor timeouts and retransmissions that 
+
+need to happen before a major timeout occurs.
+
+ ■ retry=#—This sets how many minutes to continue to retry failed mount requests, 
+
+where # is replaced by the number of minutes to retry.

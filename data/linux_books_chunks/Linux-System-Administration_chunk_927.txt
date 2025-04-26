@@ -1,0 +1,20 @@
+Did
+you find them all ?
+
+On Red Hat/CentOS:
+yum search scp
+yum search tmux
+yum search man-pages
+
+On Debian/Ubuntu:
+aptitude search scp
+aptitude search tmux
+aptitude search man-pages
+
+3. Search the internet for 'webmin' and figure out how to install it.
+
+Google should point you to webmin.com.
+
+There are several formats available there choose .rpm, .deb or .tgz .
+
+4.

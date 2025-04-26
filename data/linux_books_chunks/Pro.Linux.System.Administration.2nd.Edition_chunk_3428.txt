@@ -1,0 +1,2 @@
+If the client does not send the EHLO command, these restrictions 
+are ineffective. With the postconf command, we can add directives to the main.cf file with postconf –e.

@@ -1,0 +1,8 @@
+Once it is, we are going to mount our 
+volume.
+
+$ sudo mount –t glusterfs storage.example.com:/backups /mnt
+
+Now that we have mounted our Gluster volume, we are going to create a directory and change the 
+
+ownership. We first get the UID and GID of our bareos user.

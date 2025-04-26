@@ -1,0 +1,3 @@
+For instance, you 
+have decided that regular users should be allowed to log in on terminals on weekdays only 
+(Monday through Friday). They can log in from 7 a.m. to 7 p.m. on these weekdays.

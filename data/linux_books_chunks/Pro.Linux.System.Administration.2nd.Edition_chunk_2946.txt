@@ -1,0 +1,10 @@
+To ensure that it is started on boot, we will use the systemctl 
+command to enable mariadb on boot.
+
+$ sudo systemctl enable mariadb
+
+Let’s now test our server to make sure we can connect to it.
+
+Testing the Server
+To check that the MariaDB server is running, we can connect to it via the command-line client. We need 
+to specify the -u option to specify a user to connect as (Figure 11-2).

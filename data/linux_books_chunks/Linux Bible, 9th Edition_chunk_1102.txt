@@ -1,0 +1,3 @@
+In fact, the command service httpd reload (in RHEL 6) or systemctl reload 
+httpd (RHEL 7) actually sends SIGHUP to httpd processes running on your system to 
+tell them that conﬁ guration ﬁ les need to be read again.

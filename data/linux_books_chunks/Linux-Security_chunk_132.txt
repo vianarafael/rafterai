@@ -1,0 +1,16 @@
+This incident will be reported.
+paul@rhel65:~$
+
+The root user can see this in the /var/log/secure on Red Hat and in /var/log/auth.log on
+Debian).
+
+root@rhel65:~# tail /var/log/secure | grep sudo | tr -s ' '
+Apr 13 16:03:42 rhel65 sudo: paul : user NOT in sudoers ; TTY=pts/0 ; PWD=\
+/home/paul ; USER=root ; COMMAND=/bin/su -
+root@rhel65:~#
+
+8
+
+introduction to users
+
+1.15.

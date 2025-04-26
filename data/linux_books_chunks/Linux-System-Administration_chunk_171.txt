@@ -1,0 +1,21 @@
+Use one command to kill all sleep processes.
+
+pkill sleep
+
+14
+
+Chapter 2. process priorities
+
+15
+
+process priorities
+
+2.1. priority and nice values
+
+2.1.1. introduction
+
+All  processes  have  a  priority  and  a  nice  value.  Higher  priority  processes  will  get  more
+cpu time than lower priority processes. You can influence this with the nice and renice
+commands.
+
+2.1.2.

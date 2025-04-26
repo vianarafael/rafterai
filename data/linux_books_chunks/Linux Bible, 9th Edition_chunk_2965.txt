@@ -1,0 +1,12 @@
+You can conﬁ gure the 
+printer from this window as follows:
+
+1.  Type the URI of the printer, excluding the leading smb://. For example, you 
+
+might type /host1/myprinter or /mygroup/host1/myprinter.
+
+2.  Select either Prompt user if authentication is required or Set authentication 
+
+details now.
+
+3.

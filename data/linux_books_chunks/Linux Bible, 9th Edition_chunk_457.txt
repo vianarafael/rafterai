@@ -1,0 +1,4 @@
+You can connect to a remote server via SSH (secure shell), FTP with 
+login, Public FTP, Windows share, WebDav (HTTP), or Secure WebDav (HTTPS). 
+Add appropriate user and password information as needed, and the content of 
+the remote server appears in the Nautilus window.

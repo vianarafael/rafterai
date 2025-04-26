@@ -1,0 +1,120 @@
+Table 22.3 contains a list of /var/log 
+ﬁ les and a brief description of each.
+
+TABLE 22.3    Log Files in the /var/log Directory
+
+System Log Name
+
+Filename
+
+Description
+
+Apache 
+Access Log
+
+Apache 
+Error Log
+
+/var/log/httpd/access_log
+
+/var/log/httpd/error_log
+
+Logs requests for information from your 
+Apache Web server.
+
+Logs errors encountered from clients 
+trying to access data on your Apache 
+Web server.
+
+Bad Logins Log
+
+btmp
+
+Logs bad login attempts.
+
+608
+
+c22.indd  04/15/2015  Page 609
+
+Chapter 22: Understanding Basic Linux Security 
+
+System Log Name
+
+Filename
+
+Description
+
+Boot Log
+
+boot.log
+
+Kernel Log
+
+dmesg
+
+Cron Log
+
+cron
+
+dpkg Log
+
+dpkg.log
+
+FTP Log
+
+vsftpd.log
+
+FTP Transfer 
+Log
+
+GNOME 
+Display 
+Manager Log
+
+xferlog
+
+/var/log/gdm/:0.log
+
+LastLog
+
+lastlog
+
+Login/out Log
+
+wtmp
+
+Mail Log
+
+maillog
+
+MySQL Server 
+Log
+
+mysqld.log
+
+News Log
+
+spooler
+
+Samba Log
+
+/var/log/samba/log.smbd
+
+Security Log
+
+secure
+
+Sendmail Log
+
+sendmail
+
+Squid Log
+
+/var/log/squid/access.log
+
+22
+
+Contains messages indicating which sys-
+tem services have started and shut down 
+successfully and which (if any) have failed 
+to start or stop.

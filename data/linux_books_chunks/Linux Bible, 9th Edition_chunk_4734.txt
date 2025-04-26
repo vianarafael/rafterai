@@ -1,0 +1,7 @@
+For example, you cannot 
+deny access to a host in the hosts.deny ﬁ le that has already been given access in the 
+hosts.allow ﬁ le.
+
+Listing every single address that may try to connect to your computer is not necessary. The 
+hosts.allow and hosts.deny ﬁ les enable you to specify entire subnets and groups of 
+addresses. You can even use the keyword ALL to specify all possible IP addresses.

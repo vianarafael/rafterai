@@ -1,0 +1,5 @@
+Of course, you can 
+also use such a service even if your external IP address never changes.
+
+There are various dynamic DNS providers, a non-exhaustive list of which is available at www.dmoz.
+org/Computers/Internet/Protocols/DNS/DNS_Providers/Dynamic_DNS.

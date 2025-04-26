@@ -1,0 +1,9 @@
+Alternatively, we could do something like the 
+following:
+
+TARGET_USER=`awk '/aws_access_key_id/ {print $3}' ~.aws/credentials`
+TARGET_PASS=`awk '/aws_secret_access_key/ {print $3}' ~.aws/credentials`
+
+Here we use the awk command to search the ~/.aws/credentials file for the access and secret AWS 
+
+keys, printing the third (print $3) column.

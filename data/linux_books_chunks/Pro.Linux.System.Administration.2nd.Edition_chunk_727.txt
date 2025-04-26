@@ -1,0 +1,7 @@
+When they are 
+started, these applications will then make use of that user’s rights and privileges to access system resources 
+like files, your network, or other aspects of your host.
+
+Every user on your Linux host also needs to belong to at least one group but can belong to any number 
+
+of additional groups as well.

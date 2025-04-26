@@ -1,0 +1,8 @@
+Most 
+of those that have moved maintain backward compatibility with the SysVinit and BSD 
+init daemons.
+
+Understanding the classic init daemons
+The classic init daemons, SysVinit and BSD init, are worth understanding, even if your 
+Linux server has a different init daemon. Not only is backward compatibility to the clas-
+sics often used in the newer init daemons, but many are based upon them.

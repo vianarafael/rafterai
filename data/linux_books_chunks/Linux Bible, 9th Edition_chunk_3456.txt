@@ -1,0 +1,6 @@
+Unlike the vsftpd (FTP) and httpd (web) servers that come with 
+Linux, Samba has no default shared content directories (those just mentioned used 
+/var/ftp and /var/www/html).
+
+You can change a ﬁ le context permanently by creating a new ﬁ le context rule and then 
+applying that rule to the ﬁ le or directory for which it is intended.

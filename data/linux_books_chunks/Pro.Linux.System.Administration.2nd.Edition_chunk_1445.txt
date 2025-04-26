@@ -1,0 +1,10 @@
+Of course, if the host you’re pinging is on another continent or 
+connected via a satellite link, ping times will be higher than if the host is sitting under your desk.
+
+We just used the ping command to test our routes as follows:
+
+$  ping 192.168.0.50
+PING 192.168.0.50 (192.168.0.50) 56(84) bytes of data.
+64 bytes from 192.168.0.50: icmp_seq=1 ttl=64 time=1.24 ms
+
+The ping command can take the following arguments.

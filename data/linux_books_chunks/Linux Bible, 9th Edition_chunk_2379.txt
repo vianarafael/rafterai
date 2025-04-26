@@ -1,0 +1,7 @@
+However, if you 
+uncomment the kern.* entry, you can easily direct kernel messages of all levels to your 
+computer’s console screen.
+
+The ﬁ rst working entry in the preceding example shows that info level messages from all 
+services (*) are matched by that rule, with the exception of messages from mail, auth-
+priv, and cron services (which are excluded with the word none).

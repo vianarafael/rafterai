@@ -1,0 +1,21 @@
+/etc/fstab
+
+The file system table located in /etc/fstab contains a list of file systems, with an option to
+automtically mount each of them at boot time.
+
+Below is a sample /etc/fstab file.
+
+root@RHELv4u2:~# cat /etc/fstab 
+/dev/VolGroup00/LogVol00 /                ext3    defaults        1 1
+LABEL=/boot             /boot             ext3    defaults        1 2
+none                    /dev/pts          devpts  gid=5,mode=620  0 0
+none                    /dev/shm          tmpfs   defaults        0 0
+none                    /proc             proc    defaults        0 0
+none                    /sys              sysfs   defaults        0 0
+/dev/VolGroup00/LogVol01 swap             swap    defaults        0 0
+
+By adding the following line, we can automate the mounting of a file system.
+
+/dev/sdb1                /home/project42      ext2    defaults    0 0
+
+7.4.2.

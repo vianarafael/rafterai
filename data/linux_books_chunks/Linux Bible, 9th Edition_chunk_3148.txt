@@ -1,0 +1,4 @@
+One reason you might not be 
+satisﬁ ed with the default setting is that you might want to serve content for multiple 
+domains (such as example.com, example.org, and example.net). To do that, you need 
+to conﬁ gure virtual hosts.

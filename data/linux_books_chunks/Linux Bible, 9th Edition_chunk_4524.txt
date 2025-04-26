@@ -1,0 +1,4 @@
+This is a classic example of the Bell-LaPadula model.
+
+The combination of RBAC along with either Type Enforcement (TE) or Multi-Level Security 
+(MLS) enables SELinux to provide such a strong security enhancement.

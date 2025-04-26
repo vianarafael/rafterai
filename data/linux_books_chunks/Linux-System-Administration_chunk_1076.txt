@@ -1,0 +1,18 @@
+bonding on Debian/Ubuntu
+
+We start with ifconfig -a to get a list of all the network cards on our system.
+
+debian5:~# ifconfig -a | grep Ethernet
+eth0      Link encap:Ethernet  HWaddr 08:00:27:bb:18:a4
+eth1      Link encap:Ethernet  HWaddr 08:00:27:63:9a:95
+eth2      Link encap:Ethernet  HWaddr 08:00:27:27:a4:92
+
+In this demo we decide to bond eth1 and eth2.
+
+We also need to install the ifenslave package.
+
+debian5:~# aptitude search ifenslave
+p ifenslave     - Attach and detach slave interfaces to a bonding device
+p ifenslave-2.6 - Attach and detach slave interfaces to a bonding device
+debian5:~# aptitude install ifenslave
+Reading package lists...

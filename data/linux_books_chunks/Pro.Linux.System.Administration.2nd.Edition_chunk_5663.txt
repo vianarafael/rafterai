@@ -1,0 +1,4 @@
+The Puppet master autoloader, 
+the mechanism that looks for and loads the Puppet files, will, when it sees include profile::web_server, 
+look in its module path for first the directory profile and then in the manifests directory in that. Then it will 
+load all the *.pp files until it finds the class profile::webserver { ...

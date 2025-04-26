@@ -1,0 +1,43 @@
+You can use the certificate fingerprint to verify you are signing the correct certificate.
+
+puppet$ sudo /opt/puppetlabs/puppet/bin/puppet cert sign web1.example.com
+Signing Certificate Request for:
+  "web1.example.com" (SHA256) 3E:D9:02:08:98:79:FB:8C:40:65:75:4E:15:7C:51:89:4C:14:25:90:16
+:2A:DB:29:D6:3C:F4:82:64:7E:C8:62
+Notice: Signed certificate request for web1.example.com
+Notice: Removing file Puppet::SSL::CertificateRequest web1.example.com at '/etc/puppetlabs/
+puppet/ssl/ca/requests/web1.example.com.pem'
+
+ ■ Note  You can sign all waiting certificates with the puppet cert sign --all command.
+
+On the client, after we’ve signed our certificate, we should see the following entries:
+
+Notice: Did not receive certificate
+Info: Caching certificate for web1.example.com
+Info: Caching certificate_revocation_list for ca
+Info: Using configured environment 'production'
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Loading facts
+
+945
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Error: Could not retrieve catalog from remote server: Error 500 on SERVER: Server 
+Error: Evaluation Error: Error while evaluating a Function Call, Could not find class 
+::profile::web_server for web1.example.com at /etc/puppetlabs/code/environments/production/
+manifests/site.pp:2:3 on node web1.example.com
+Warning: Not using cache on failed catalog
+Error: Could not retrieve catalog; skipping run
+
+The client is now authenticated with the master, but we have an error, and nothing has been applied.
+
+Error: Could not retrieve catalog from remote server: Error 500 on SERVER: Server 
+Error: Evaluation Error: Error while evaluating a Function Call, Could not find class 
+::profile::web_server for web1.example.com at /etc/puppetlabs/code/environments/production/
+manifests/site.pp:2:3 on node web1.example.com
+Warning: Not using cache on failed catalog
+Error: Could not retrieve catalog; skipping run
+
+The error is fairly detailed.

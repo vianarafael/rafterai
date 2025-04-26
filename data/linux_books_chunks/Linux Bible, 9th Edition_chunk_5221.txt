@@ -1,0 +1,5 @@
+To see what USB devices are connected to your computer, type the following:
+
+$ lsusb
+
+9.

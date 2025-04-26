@@ -1,0 +1,12 @@
+For the master you will 
+need to add the following to the /etc/bind/named.conf.options file.
+
+listen-on port 53 { 127.0.0.1; 192.168.0.1; };
+
+On the slave you will need to add the following to the /etc/named.conf file:
+
+listen-on port 53 { 127.0.0.1; 192.168.0.254; };
+...
+allow-query     { localhost; 192.168.0.0/24; };
+
+The next step is to tell the slave server where to find the master.

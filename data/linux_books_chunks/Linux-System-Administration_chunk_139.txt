@@ -1,0 +1,12 @@
+PPID
+
+Every process has a parent process (with a PPID). The child process is often started by the
+parent process.
+
+1.1.4. init
+
+The init process always has process ID 1. The init process is started by the kernel itself so
+technically it does not have a parent process. init serves as a foster parent for orphaned
+processes.
+
+1.1.5.

@@ -1,0 +1,6 @@
+However, since we are starting out, 
+having these installed automatically is a preferred option.
+
+ ■ Note  With the LTS(Long Term Support) systems you do get more certainty that the updates will make only 
+the minimum change on your system. also the changes will be well tested across a large deployment surface 
+area.

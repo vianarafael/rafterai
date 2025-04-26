@@ -1,0 +1,8 @@
+Anyone who tries to log in without a key gets the following 
+ failure message and doesn’t even get a chance to enter a username and password: 
+
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+
+Confi guring System Logging
+With the knowledge of how to access your remote server using SSH tools, you can log in 
+to the server and set up some of the services needed to make sure it’s running smoothly.

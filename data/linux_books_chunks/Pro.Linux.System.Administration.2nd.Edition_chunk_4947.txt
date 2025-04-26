@@ -1,0 +1,2 @@
+The relay-rules.conf file is an ordered list of relay destinations based on particular 
+matching patterns.

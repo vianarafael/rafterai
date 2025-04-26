@@ -1,0 +1,5 @@
+Combining data with the image at runtime allows you to change the data each time before 
+the image is run, instead of installing it permanently in the image.
+
+I suggest that you run this procedure on one of the hypervisors you conﬁ gured in Chapter 
+26.

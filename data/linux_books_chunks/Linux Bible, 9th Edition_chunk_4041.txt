@@ -1,0 +1,5 @@
+Check to see what ports are open on your external network interface.
+
+10.  Run the top command in a Terminal window. Open a second Terminal window, 
+clear your page cache, and notice on the top  screen if more RES memory is now 
+available.

@@ -1,0 +1,6 @@
+Further conﬁ guration can be done using the web-based CUPS administration 
+tool or the Print Settings window.
+
+Using web-based CUPS administration
+CUPS offers its own web-based administrative tool for adding, deleting, and modifying 
+printer conﬁ gurations on your computer.

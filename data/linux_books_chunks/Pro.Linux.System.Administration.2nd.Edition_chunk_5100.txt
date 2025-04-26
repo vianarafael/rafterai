@@ -1,0 +1,8 @@
+Table 18-1 lists all rsyslog facilities.
+
+ on CentoS systems, local7 is, by default, used for boot messages, and these are directed to /var/
+
+ ■ Tip 
+log/boot.log.
+
+Table 18-1.

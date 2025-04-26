@@ -1,0 +1,6 @@
+Users can 
+change the information in the $HOME/.bash_profile, $HOME/.bashrc, and $HOME/.
+bash_logout ﬁ les in their own home directories.
+
+Until you learn to use the vi editor, described in Chapter 5, “Working with Text Files,” you 
+can use a simple editor called nano to edit plain-text ﬁ les.

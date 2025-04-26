@@ -1,0 +1,13 @@
+If it is found, the new password is rejected.
+
+ ■ try_first_pass
+
+Try to get the password from a previous PAM module. If that does not work, prompt 
+the user for the password.
+
+23
+
+ ■ use_authtok
+
+This argument is used to force the module to not prompt the user for a new pass-
+word.

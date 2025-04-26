@@ -1,0 +1,3 @@
+We will install WordPress on the www.example.com 
+virtual host. There are of course many CMSs; we have chosen WordPress because out of the other PHP-
+based CMSs, it is the simplest and most widespread.

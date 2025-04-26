@@ -1,0 +1,9 @@
+After we have created this file and 
+after each time we change it, we need to use the postmap command to re-create the indexes and restart 
+Postfix to pick up the changes.
+
+$ sudo postmap /etc/postfix/virtual
+$ sudo systemctl reload postfix
+
+Say we don’t want to create Linux user accounts on our mail servers. We can still deliver mail for our 
+mail users with virtual mailboxes.

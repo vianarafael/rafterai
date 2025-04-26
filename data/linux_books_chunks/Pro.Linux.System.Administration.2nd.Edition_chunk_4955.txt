@@ -1,0 +1,19 @@
+Taking a look at Collectd, we want to see the following in our logs:
+
+Nov 22 23:19:06 backup collectd[5999]: plugin_load: plugin "write_graphite" successfully 
+loaded.
+
+On our relay host, we want to see our hosts connecting to us in the /var/log/carbon/listener.log.
+
+22/11/2016 12:29:56 :: MetricLineReceiver connection with 192.168.0.30:38309 established
+
+821
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Then on our monitor host, we want to see this in the /var/log/carbon/listener.log.
+
+20/11/2016 10:19:03 :: MetricPickleReceiver connection with 192.168.0.251:52146 established
+
+So, we can see from our logs that our connections are being established between our Collectd service 
+running on our backup host to our relay to our monitor.

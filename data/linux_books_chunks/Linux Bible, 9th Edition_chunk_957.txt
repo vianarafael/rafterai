@@ -1,0 +1,4 @@
+However, it did enable you to run commands that let you ﬁ nd and change text on 
+one or more lines at a time. When you type a colon and the cursor goes to the bottom of 
+the screen, you are essentially in ex mode. The following are examples of some of those ex 
+commands for searching for and changing text.

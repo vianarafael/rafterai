@@ -1,0 +1,4 @@
+116 root root 36864 Jan 22 14:18 /tmp
+
+You can see the permissions are wide open, but instead of an x for the execute bit for 
+other, the t indicates that the sticky bit is set.

@@ -1,0 +1,10 @@
+Look at the %CPU values.
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+ 1674 paul      20   0  2972  616  524 S 46.6  0.1   0:22.37 proj42
+ 1673 paul      20   0  2972  620  524 R 42.6  0.1   0:21.65 proj42
+ 1671 paul      28   8  2972  616  524 S  5.7  0.1   0:29.65 proj33
+ 1670 paul      28   8  2972  616  524 R  4.7  0.1   0:29.82 proj33
+
+Important to remember is to always make less important processes nice to more important
+processes.

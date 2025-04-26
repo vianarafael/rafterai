@@ -1,0 +1,6 @@
+However, my other point is to show you 
+how a cloud provider’s web-based interface (like OpenStack Dashboard) can greatly simplify 
+the cloud conﬁ guration we did manually with cloud-init earlier in this chapter.
+
+Starting from the OpenStack Dashboard
+I’m going to start with an OpenStack setup that is already in place.

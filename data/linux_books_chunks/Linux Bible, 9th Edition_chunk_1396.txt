@@ -1,0 +1,18 @@
+Here’s a snippet of output:
+
+$ lspci
+00:00.0 Host bridge: Intel Corporation 
+     5000X Chipset Memory ControllerHub
+00:02.0 PCI bridge: Intel Corporation 5000 Series Chipset 
+     PCI Express x4 Port 2
+00:1b.0 Audio device: Intel Corporation 631xESB/632xESB
+     High Definition Audio Controller (rev 09)
+00:1d.0 USB controller: Intel Corporation 631xESB/632xESB/3100 
+     Chipset UHCI USBController#1 (rev 09)
+07:00.0 VGA compatible controller: nVidia Corporation NV44
+0c:02.0 Ethernet controller: Intel Corporation 82541PI
+     Gigabit Ethernet Controller (rev 05)
+
+8
+
+The host bridge connects the local bus to the other components on the PCI bridge.

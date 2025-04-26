@@ -1,0 +1,14 @@
+For example, 
+the /etc/passwd entry for the FTP-only user account bill might look something like 
+the following:
+
+bill:x:1000:1000:Bill Jones:/home/bill:/sbin/nologin
+
+488
+
+c18.indd  04/01/2015  Page 489
+
+Chapter 18: Confi guring an FTP Server
+
+With the user account set with /sbin/nologin as the default shell, any attempts to log 
+in from a console or via ssh as the user bill are denied.

@@ -1,0 +1,19 @@
+This ﬁ le is no longer used on Linux systems that 
+support systemd.
+
+ ■ mtab—Contains a list of ﬁ lesystems that are currently mounted.
+
+ ■ mtools.conf—Contains settings used by DOS tools in Linux.
+
+ ■ named.conf—Contains DNS settings if you are running your own DNS server (bind 
+
+or bind9 package).
+
+ ■ nsswitch.conf—Contains name service switch settings, for identifying where 
+
+critical systems information (user accounts, host name-to-address mappings, and so 
+on) comes from (local host or via network services).
+
+ ■ ntp.conf—Includes information needed to run the Network Time Protocol (NTP).
+
+ ■ passwd—Stores account information for all valid users on the local system.

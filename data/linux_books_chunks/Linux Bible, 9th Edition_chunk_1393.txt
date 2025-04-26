@@ -1,0 +1,4 @@
+Next, you can see 
+the type of processors (Intel Xeon) and the number of CPUs (4). After that, I trimmed down 
+to information about hardware connected to the computer: serial ports, mouse port, CD 
+drive, network interface card (e1000), and parallel port.

@@ -1,0 +1,6 @@
+We did this by adding (add) a connection (c) 
+type of team. We have given this interface the name of team0 (ifname) and a profile name of team0  
+(con-name) also.
+
+With a teamed interface we need to provide a JSON configuration to describe the runner we wish to use. 
+This can either be in a JSON file or on the command line as we have above.

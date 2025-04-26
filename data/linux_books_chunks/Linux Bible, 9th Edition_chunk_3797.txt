@@ -1,0 +1,5 @@
+You can override the 
+default runlevel by putting a different runlevel number at the end of the kernel 
+line from the boot menu. To do this, highlight the operating system entry you 
+want, type e, highlight the kernel, type e, and add the new runlevel to the end of 
+the line (for example, add a space and the number 1 to go into single-user mode).

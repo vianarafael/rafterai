@@ -1,0 +1,9 @@
+172800  IN     NS      ns2.google.com.
+google.com.            172800  IN     NS      ns1.google.com.
+google.com.            172800  IN     NS      ns3.google.com.
+google.com.            172800  IN     NS      ns4.google.com.
+...<snip>...
+;; Received 664 bytes from 192.52.178.30#53(k.gtld-servers.net) in 176 ms
+
+www.google.com.        300     IN     A      150.101.213.166
+www.google.com.

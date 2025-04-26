@@ -1,0 +1,6 @@
+You can then run your 
+script just like any other program in your path simply by typing the name of the 
+script on the command line.
+
+When scripts are executed in either manner, options for the program may be  speciﬁ ed 
+on the command line.

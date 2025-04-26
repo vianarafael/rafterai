@@ -1,0 +1,11 @@
+Expand the logical volume using the lvextend command:
+
+# lvextend -L +100M /dev/mapper/myvg0-music
+  Extending logical volume music to 200.00 MiB
+  Logical volume music successfully resized
+
+3.  Resize the ﬁ lesystem to ﬁ t the new logical volume size:
+
+# resize2fs -p /dev/mapper/myvg0-music
+
+4.

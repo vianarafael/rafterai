@@ -1,0 +1,8 @@
+Once you are happy with the state of the repository you can “push” back to the origin (githost.
+com repository).
+
+$ git push origin master
+
+Your change is now able to be shared with anybody using that githost.com copy of the repository. This, 
+
+of course, is a very simplified and potentially bad example.

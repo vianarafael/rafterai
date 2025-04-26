@@ -1,0 +1,7 @@
+First is using the systemctl command to restart 
+
+the networking.service as follows:
+
+$ sudo systemctl restart networking.service
+
+The other is using the ifup command. This should be done in a particular order though.

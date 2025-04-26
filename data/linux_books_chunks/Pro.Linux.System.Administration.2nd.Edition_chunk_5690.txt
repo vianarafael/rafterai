@@ -1,0 +1,8 @@
+You can read about how to add these custom 
+facts at https://docs.puppet.com/facter/3.5/fact_overview.html.
+
+951
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Listing 19-10.

@@ -1,0 +1,10 @@
+In addition, the gateway.example.com.key should be on our 
+gateway.example.com host and moved into the proper location.
+
+709
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+ ■ Note 
+ in addition to the private key and certificate files, you have a Csr request file. it’s worth hanging 
+on to this for when your certificate expires.

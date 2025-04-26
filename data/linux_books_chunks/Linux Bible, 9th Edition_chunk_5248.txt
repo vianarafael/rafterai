@@ -1,0 +1,29 @@
+Notice that 
+the username jbaxter is no longer assigned on the system, so any ﬁ les that user 
+created are listed as belonging to UID 1001 and GID 1001, except for a couple of ﬁ les 
+that were assigned to the testing group, because of the newgrp command run earlier:
+
+# find /home -uid 1001 -ls
+262184  4 drwx------ 4 1001  1001  4096 Jan 25 08:00 /home/jbaxter
+262193  4 -rw-r--r-- 1 1001  1001   176 Jan 27  2011 /home/jbaxter/
+     .bash_profile
+262196  4 -rw------- 1 13602 testing 93 Jan 25 08:00 /home/jbaxter/
+     .bash_history
+262194  0 -rw-rw-r-- 1 13602 testing  0 Jan 25 07:59 /home/jbaxter/
+     file.txt
+...
+
+B
+
+799
+
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 800
+
+Appendix B: Exercise Answers
+
+7.

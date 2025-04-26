@@ -1,0 +1,8 @@
+If we wanted to log our SSH connections we would issue the following:
+
+$ sudo ufw allow log 22/tcp
+
+This will log connections for SSH. For further information on these options see the ufw man page. 
+
+Further Exploring firewall-cmd
+As we have said, we can also use firewall-cmd on our CentOS hosts to manage our iptables.

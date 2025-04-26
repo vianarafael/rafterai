@@ -1,0 +1,10 @@
+# pinout
+
+
+- View the pinout information and GPIO header diagram for the current Raspberry Pi:
+
+`pinout`
+
+- Open <https://pinout.xyz/> in the default browser:
+
+`pinout {{[-x|--xyz]}}`

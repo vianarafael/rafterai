@@ -1,0 +1,7 @@
+You install these via yum install bind. On 
+Ubuntu, these are provided by the bind9 package, which you add via sudo aptitude install bind9. The 
+DNS server binary itself is called named—because it is name(server) daemon.
+
+The main configuration file shipped on Ubuntu is /etc/bind/named.conf, while on CentOS the  
+
+/etc/named.conf file is used.

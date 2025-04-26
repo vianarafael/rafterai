@@ -1,0 +1,4 @@
+Many Linux desktops include a panel at the top or bottom 
+of the screen from which you can launch applications. For example, in some sys-
+tems that use the GNOME 2 desktop, you can select Applications ➪ System Tools ➪ 
+Terminal to open a Terminal window.

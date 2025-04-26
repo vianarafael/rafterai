@@ -1,0 +1,12 @@
+You should enter the domain 
+
+name of the host for now, and we’ll explain other potential options in Chapter 12.
+
+Figure 2-66.  Setting the mail server domain name
+
+68
+
+Moving on, we have spoken about GRUB in the CentOS installation guide and talked about how it is the 
+
+software that loads your operating system. In this screen we are asked to install it into the MBR, or Master 
+Boot Record.

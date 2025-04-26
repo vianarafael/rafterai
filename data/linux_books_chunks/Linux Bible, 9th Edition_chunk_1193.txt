@@ -1,0 +1,9 @@
+The following example tests that the directory represented by $dirname 
+already exists. If it does, a message says the directory already exists. If it doesn’t, the 
+statement creates the directory:
+
+# dirname=mydirectory
+# [ -e $dirname ] && echo $dirname already exists || mkdir $dirname
+
+The case command
+Another frequently used construct is the case command.

@@ -1,0 +1,42 @@
+The syntax is the following:
+
+$ sudo gluster volume set <volume name> <option> <value>
+
+So in our case, we would issue the following to change the network.ping-timeout setting:
+
+$ sudo gluster volume set vol1 network.ping-timeout 15
+
+If we look at the volume information, we will now see our change in the Options Reconfigured section.
+
+$ sudo gluster volume info
+Volume Name: vol1
+Type: Replicate
+Volume ID: e9964568-feef-4f2f-a61d-14ba643b76e5
+Status: Started
+Number of Bricks: 1 x 3 = 3
+Transport-type: tcp
+Bricks:
+Brick1: au-mel-dfs-1:/data/brick1_r1/vol1
+Brick2: au-mel-dfs-2:/data/brick1_r1/vol1
+Brick3: au-mel-dfs-3:/data/brick1_r1/vol1
+Options Reconfigured:
+network.ping-timeout: 15
+performance.readdir-ahead: on
+
+623
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+There are a large number of configuration options that can be changed using the volume set 
+
+subcommand; you can see them here:
+
+•	
+
+http://gluster.readthedocs.io/en/latest/Administrator%20Guide/
+Managing%20Volumes/#tuning-options
+
+Expanding GlusterFS Volume Storage
+
+Of course, there will be time you need to expand the size of your storage, and that is where Gluster is a great 
+performer, compared to alternatives like plain old NFS.

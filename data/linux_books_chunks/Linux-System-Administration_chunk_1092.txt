@@ -1,0 +1,7 @@
+Since Alice is the only
+one to have Alice's private key, Bob is sure the message came from Alice.
+
+25.1.5. rsa and dsa algorithms
+
+This  chapter  does  not  explain  the  technical  implementation  of  cryptographic  algorithms,
+it only explains how to use the ssh tools with rsa and dsa.

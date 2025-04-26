@@ -1,0 +1,4 @@
+Next is the partition number, starting the count at 1. Hence the
+four (possible) primary partitions are numbered 1 to 4. Logical partition counting always
+starts at 5. Thus /dev/hda2 is the second partition on the first ATA hard disk device, and /
+dev/hdb5 is the first logical partition on the second ATA hard disk device.

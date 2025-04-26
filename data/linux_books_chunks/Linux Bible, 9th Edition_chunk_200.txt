@@ -1,0 +1,5 @@
+By having device drivers 
+(represented by ﬁ les in the ﬁ lesystem tree), UNIX could present an interface to 
+applications in such a way that the programs didn’t have to know about the details 
+of the underlying hardware. To later port UNIX to another system, developers had 
+only to change the drivers.

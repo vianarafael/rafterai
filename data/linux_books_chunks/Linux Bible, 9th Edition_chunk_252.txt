@@ -1,0 +1,6 @@
+The Linux Foundation’s primary charter is to protect and accelerate the 
+growth of Linux by  providing legal protection and software development standards for 
+Linux developers.
+
+Although much of the thrust of corporate Linux efforts is on corporate, enterprise 
+ computing, huge improvements are continuing in the desktop arena as well.

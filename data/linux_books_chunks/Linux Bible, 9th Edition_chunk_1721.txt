@@ -1,0 +1,5 @@
+Regardless of where it came from, once installed, the name and other information about the 
+package are stored in an RPM database on the local machine.
+
+To ﬁ nd out more about what is inside an RPM package, you can use options other than the 
+rpm command to query that local RPM database.

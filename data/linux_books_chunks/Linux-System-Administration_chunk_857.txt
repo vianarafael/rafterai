@@ -1,0 +1,7 @@
+vmstat
+
+To monitor CPU, disk and memory statistics in one line there is vmstat. The screenshot
+below shows vmstat running every two seconds 100 times (or until the Ctrl-C). Below the
+r, you see the number of processes waiting for the CPU, sleeping processes go below b.
+Swap usage (swpd) stayed constant at 144 kilobytes, free memory dropped from 16.7MB
+to 12.9MB.

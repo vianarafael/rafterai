@@ -1,0 +1,7 @@
+It does not 
+prompt for his old password in this case.
+
+Enforcing best password practices
+Now, you know what a good password looks like and how to change a password, but how 
+do you enforce it on your Linux system? To get a good start on enforcing best password 
+practices, educate system users. Educated users are better users.

@@ -1,0 +1,6 @@
+For more complicated 
+environments, using the NRPE server and corresponding command is usually a better approach. NCAP 
+and NRDP are also available and require a combination of different plug-ins with a mix of languages (which 
+makes them awkward to install and configure).
+
+ as with hosts, we haven’t covered all the available functionality for services.

@@ -1,0 +1,2 @@
+The delayup and delaydown are settings 
+giving the time period in milliseconds where we should wait to act on changes in the slave state.

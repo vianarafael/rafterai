@@ -1,0 +1,10 @@
+For example:
+
+search example.com example.org example.net
+
+The search options are separated by spaces or tabs.
+
+/etc/nsswitch.conf
+Settings in the /etc/nsswitch.conf ﬁ le determine that hostname resolution is done 
+by ﬁ rst searching the local /etc/hosts ﬁ le (files) and then DNS servers listed in the
+/etc/resolv.conf ﬁ le (dns).

@@ -1,0 +1,7 @@
+See the section “Adding a virtual host 
+to Apache.”
+
+As errors are encountered and content is served, messages about those activities are placed 
+in ﬁ les indicated by the ErrorLog and CustomLog entries. In this example, those logs 
+are stored in the /etc/httpd/logs/error_log and /etc/httpd/logs/access_log 
+directories, respectively.

@@ -1,0 +1,10 @@
+rsyslog is an advancement on syslog, which provides things like TCP (SSL/TLS), extra 
+modules, and reliable event logging protocol (RELP).
+
+ rFC 5424 documents the core rsyslog functionality, and you can read it at https://tools.ietf.
+
+ ■ Tip 
+org/html/rfc5424.
+
+The syslog format is used by a variety of tools that vary in function and complexity and are generally all 
+collectively called syslog daemons.

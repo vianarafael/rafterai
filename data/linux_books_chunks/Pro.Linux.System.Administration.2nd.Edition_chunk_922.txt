@@ -1,0 +1,3 @@
+note that su will not work if the root account is locked, as it is on Ubuntu. 
+You can unlock the account by setting a password for the root user, but usually you will just use sudo su to 
+temporarily open the root subshell.

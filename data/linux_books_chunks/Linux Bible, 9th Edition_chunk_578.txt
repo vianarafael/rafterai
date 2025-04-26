@@ -1,0 +1,5 @@
+In GNOME 3, go to the activities screen, type 
+Terminal, and press Enter.
+
+In all cases, you should be able to type a command as you would from a shell with no GUI. 
+Different terminal emulators are available with Linux.

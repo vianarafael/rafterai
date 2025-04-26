@@ -1,0 +1,31 @@
+There are currently two 
+volumes, root and swap_1.
+
+$ sudo lvs
+    LV      VG  Attr        LSize  Pool  Origin  Data%  Meta%  Move  Log  Cpy%Sync  Convert
+  root  centos  -wi-ao---   6.67g
+  swap  centos  -wi-ao--- 820.00m
+
+ ■ Note  you will get more detailed information about logical volumes if you use the lvdisplay command.
+
+You can now add your physical volume to an existing group via the vgextend command:
+
+$ sudo vgextend centos /dev/md0
+  Volume group "centos" successfully extended
+
+397
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+And to check, you can display the physical volumes using pvs and vgs.
+
+$ sudo pvs
+  PV         VG        Fmt    Attr    PSize    PFree
+  /dev/md0   centos    lvm2   a--    15.99g   15.99g
+  /dev/sda2  centos    lvm2   a--     7.51g   40.00m
+
+$ sudo vgs
+  VG      #PV   #LV   #SN     Attr       VSize    VFree
+  centos    2     2     0     wz--n-    23.50g   16.03g
+
+The new physical volume is now part of the centos volume group.

@@ -1,0 +1,4 @@
+For example, host 
+objects will share many of the same attributes and characteristics. Rather than specify every single attribute 
+in each host object definition, you can instead refer to a template. Nagios then creates the host object with 
+all the attributes in the host definition plus those attributes in the template.

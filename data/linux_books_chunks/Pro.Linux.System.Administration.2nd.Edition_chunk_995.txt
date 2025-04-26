@@ -1,0 +1,3 @@
+Gpt 
+makes a copy of itself at the end of the disk for recovery in case of corruption. the remaining disk, 
+excluding the partition tables, can be divided as you see fit.

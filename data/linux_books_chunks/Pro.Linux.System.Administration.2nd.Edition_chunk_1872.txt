@@ -1,0 +1,10 @@
+Querying All Packages
+
+# rpm --query --all
+
+This command, which uses the --query flag together with the --all flag, indicating that you are 
+
+querying all packages, lists all the packages installed.
+
+As you will see, this list can be quite long. Suppose instead you want to find only any package whose 
+name contains vim.

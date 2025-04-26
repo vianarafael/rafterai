@@ -1,0 +1,15 @@
+a directory is a table
+
+A directory is a special kind of file that contains a table which maps filenames to inodes.
+Listing our current directory with ls -ali will display the contents of the directory file.
+
+paul@RHELv4u4:~/test$ ls -ali
+total 32
+817262 drwxrwxr-x   2 paul paul 4096 Feb  5 15:42 .
+800768 drwx------  16 paul paul 4096 Feb  5 15:42 ..
+817266 -rw-rw-r--   1 paul paul    0 Feb  5 15:38 file1
+817270 -rw-rw-r--   1 paul paul   92 Feb  5 15:42 file2
+817268 -rw-rw-r--   1 paul paul    0 Feb  5 15:38 file3
+paul@RHELv4u4:~/test$
+
+9.2.2.

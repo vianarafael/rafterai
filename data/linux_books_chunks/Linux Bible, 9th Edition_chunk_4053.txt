@@ -1,0 +1,7 @@
+Only amanda is not installed by default. However, amanda is extremely popular 
+because it comes with a great deal of ﬂ exibility and can even back up a Windows system. 
+If you need more information on the amanda backup utility, see www.amanda.org. The 
+utility you ultimately pick should meet your organization’s particular security needs for 
+backup.
+
+With luck, disasters occur only rarely.

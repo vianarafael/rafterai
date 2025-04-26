@@ -1,0 +1,12 @@
+Done
+
+233
+
+package management
+
+The following packages will be REMOVED:
+  rsync ubuntu-standard
+0 upgraded, 0 newly installed, 2 to remove and 8 not upgraded.
+After this operation, 692 kB disk space will be freed.
+Do you want to continue [Y/n]? 
+(Reading database ...

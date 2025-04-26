@@ -1,0 +1,10 @@
+These scripts are run whether the run-
+level is chosen via a server boot and the /etc/inittab initdefault setting, or when the 
+
+383
+
+c15.indd  04/01/2015  Page 384
+
+Part IV: Becoming a Linux Server Administrator
+
+init or telinit command is used.

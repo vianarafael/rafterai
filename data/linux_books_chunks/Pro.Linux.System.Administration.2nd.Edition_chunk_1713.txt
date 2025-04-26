@@ -1,0 +1,14 @@
+If we wanted to apply the recent 
+
+module with our firewall-cmd issue something similar to this from your command line:
+
+$ sudo firewall-cmd --permanent --direct --add-rule ipv4 filter IN_public_allow 0 -p tcp 
+--dport 22 \
+ -m state --state NEW -m recent --set –name ssh_drop
+$ sudo firewall-cmd --permanent --direct --add-rule ipv4 filter IN_public_allow 1 -p tcp 
+--dport 22 \
+ -m state --state NEW -m recent –name ssh_drop --update --seconds 60 --hitcount 5 -j DROP
+
+This uses the firewall-cmd and the --direct configuration option to add our rule using the recent 
+
+module.

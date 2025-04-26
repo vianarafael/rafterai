@@ -1,0 +1,5 @@
+However, in systemd, 
+some targets have a special purpose.
+
+In systemd, targets like multiuser, if they have the Boolean AllowIsolate=yes set in their unit files. This 
+means that these targets will respond to the systemctl isolate command.

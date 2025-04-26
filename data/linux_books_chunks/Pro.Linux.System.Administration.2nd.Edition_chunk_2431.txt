@@ -1,0 +1,2 @@
+There are two effect ways to make sure the system clock remains synchronized, you 
+can add an entry in /etc/crontab that runs ntpdate once, say, every two hours.

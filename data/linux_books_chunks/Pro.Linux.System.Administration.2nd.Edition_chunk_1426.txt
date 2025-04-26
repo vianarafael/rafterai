@@ -1,0 +1,8 @@
+246
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+TCP/IP 101
+It’s time to delve a little further into TCP/IP (Transmission Control Protocol/Internet Protocol). You may 
+be familiar with an IP address, but how does that fit in with the rest of TCP/IP? An IP address is used to find 
+other hosts on the network and for other hosts to find you.

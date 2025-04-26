@@ -1,0 +1,7 @@
+We will change into 
+the www.example.com directory to edit these files.
+
+$ sudo cp wp-config-sample.php wp-config.php
+
+Before we edit the wp-config.php file, go to this site, which creates the randomized keys required in the 
+configuration file: https://api.wordpress.org/secret-key/1.1/salt/.

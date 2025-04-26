@@ -1,0 +1,323 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5Authentication, 707–712
+Authoritative name servers, 443
+Automating mounts, 381–382
+AWS storage, 638, 656–658
+
+ B
+Backports, Ubuntu, 348
+Backup
+
+AWS storage, 638
+differential, 637
+duply, 652, 654–662, 664–665
+full, 637
+Google storage, 638
+hot, 637
+incremental, 637
+network, 639–640
+
+Bare metal, 12
+Bareos
+
+Bacula, 666
+bareos-dir.conf, 672–673
+
+catalog, 679
+clients, 678
+console, 682
+FileSets, 676–677
+JobDefs, 673–674
+jobs, 675–676
+messaging, 682–683
+pools, 680–681
+schedules, 678
+storage, 679
+syntax test, 686
+bareos-fd.conf, 684–685
+bareos-sd.conf, 683–684
+bconsole, 667, 686, 688, 690
+catalog records, 666
+components, 666
+configuration, 670, 672
+database, 668–669
+Director daemon, 666
+File daemon, 666
+incremental backup, 673–674
+introduction, 666
+plug-ins, 694–697
+restore operation, 666
+software, 667
+Storage daemon, 666
+TCP ports, 667
+Web-UI, 698, 700
+
+Bash
+
+package, 318
+command, 140–141
+shell, 168, 170, 831
+Basic Input/Output System  
+
+(BIOS), 182, 184
+
+984
+
+Bayesian spam filters, 563
+Bconsole, 686, 688, 690
+Beats
+
+Apache, 864
+defined, 861
+Filebeat, 862
+YAML, 863
+
+Begin Installation, 38
+Berkeley Internet Name Domain (BIND), 437
+Binary logs, 496
+Binding, 734
+Bind mount, 410
+Bin logs, 496
+Blanket denial rule, 760
+Block devices, 358
+Blocks, 371
+Boot partition, 21
+Boot loader
+
+BIOS, 184
+problems
+
+execute shell, 408
+questions, 408–409
+re-install GRUB, 407–408
+rescue menu, 407
+rescue mode, 405–406
+rescue shell, 409–410
+root partition, 407
+
+secure, 192–193
+UEFI, 184–185
+
+Boot source, 182
+Bootstrapping, 911
+Branch server, 712–714
+Brick, 618, 625–626
+Brute-force cracking methods, 165
+Btrfs filesystem, 367–368, 374, 376–377
+Build directory, 319
+Business continuity management  
+
+(BCM), 636
+
+ C
+Caching name server, 437–439, 441–443
+Carbon-aggregators, 815
+Carbon-cache, 815, 817–819
+Carbon-relay, 815, 819–820
+Carriage return line feed (CRLF), 83–84
+cat command, 132, 140
+cd command, 118
+CentOS, 4–5, 7, 13–27, 29–31, 33–43, 45–52, 226, 
+
+235–237
+
+Apache web server, 474–475
+diagnostic information, 71
+graphical login, 100, 102
+GUI tool, 159
+LiveCDs, 100
+
+■ INDEXNagios, 879
+OpenLDAP, 740
+PAM, 172
+PID, 194
+Postfix, 530–531
+runlevel, 200
+server installation
+
+anaconda application, 14
+assumptions, 13
+ATA VBOX HARDDISK, 18
+automatic configuration, 17–18
+automatic partition, 21
+Begin Installation, 38
+boot partition, 21
+booting new host, 44
+cloud storage, 49
+default gateway, 26
+desktop language, 47–48
+destination screen, 17
+destroying and recreating disk layout, 20
+DHCP server, 23–25
+disk encryption password, 45
+DNS server, 27, 35
+encrypting disks, 17–18
+encryption technology, 18
+end of desktop configuration, 51
+EULA, 45
+find applications, 51–52
+Google sign, 50
+graphical user interface, 35, 36
+host name, 24
+IPv4, 24–26, 28–30
+IPv6, 28–30
+keyboard layout, 48–49
+kickstart, 14
+network confirmation screen, 28
+network installation source, 37
+NTP servers, 33
+passphrase, 18–19
+ready to use, 46–47
+root password, 39
+root user, 38
+root volume, 21
+security profile, 34
+select network & host name, 22
+setting date & time, 29, 31
+splash screen, 14
+summary screen, 16
+user creation, 40–43
+UTC, 30–31
+X Window System, 14–15
+
+sudo command, 149, 175
+systemd, 194
+and Ubuntu hosts, 912
+wheel, 179
+
+Centos7, 80
+CentOS Cobbler
+
+CentOS7-x86_64 distribution, 922
+configuration, 914–915
+DHCP, 915–918
+host
+
+CentOS7-x86_64 profile, 927
+DHCP address, 924
+hard disk, 925
+installation, 926
+installing CentOS, 925
+installing Ubuntu, 925
+list and report options, 927
+MAC/IP addresses, 927
+menu, 924
+setting network boot, 923
+Ubuntu installation, 926
+
+import command, 919
+installation, 913
+kickstart, 928–929
+report, 921
+and Spacewalk, 912
+TFTP, 919
+troubleshoot, 928
+Ubuntu ISO, 920
+Ubuntu Xenial, 920
+web interface, 928
+
+Centralized linux authentication, 787–788
+Certbot, 514, 545
+Certificate authority (CA), 506, 545
+
+commercial, 506
+creation, 510–512
+non-commercial, 506–507
+secure, 512
+self-managed, 507
+sign in, 512–513
+
+Certificate-based encryption, 506
+Certificates
+
+CA, 505–513
+HTTPS, 514, 516–518
+self-signed, 507
+TLS, 505, 508–509
+type, 508
+
+Certificate signing request (CSR), 708
+Cfq scheduler, 836
+chage command, 162
+Chain loading, 186
+chown command, 130
+Chrome, 522–523
+Chrony
+
+chronyc, 426–427
+install and configure, 424, 426
+introduction, 424
+
+Chronyc, 426–427
+Chroot command, 410–411
+
+985
+
+■ INDEXChroot jail, 642
+ClamAV
+
+configuration, 578
+defined, 573
+help, 580
+install, 574–578
+Postfix, 579
+signatures, 573
+
+Cloud, 7
+CNAME, 446
+Codec plug-ins, 862
+Collectd
+
+configuration, 810–814
+introduction, 810
+plugin, 821
+start and stop, 814
+
+Command-line interface (CLI), 227, 314
+Command-line, Linux, 100, 104
+Computer operating systems, 3
+Configuration management
+Apache service, 950
+bootstrapping, 911
+CentOS installation, 939
+client, 944–945
+configuring puppet, 940
+configuring master, 940
+creation, 946–949
+disks and partitions, 935
+documentation, 957
+external nodes, 957
+facter, 951–953
+firewall and network, 935
+functions, 956
+installation source, 934
+installing serverspec, 974–977
+keyboard, language and time zone, 934–935
+MAAS, 936
+managing users, 935
+manifests, 941, 943
+module, 942
+multiple hosts, 950
+package management, 936
+preseeding, 911
+Puppet, 937–938, 949, 950, 956
+reports, 957
+resources, 953–954
+running tests, 978–980
+serverspec testing, 973
+templates, 955–956
+troubleshooting puppet, 957
+Ubuntu installation, 939
+
+Console directory, 682
+Contact groups, 889–891
+Content delivery networks (CDNs), 518
+Content management system (CMS), 500
+
+986
+
+Coordinated Universal Time (UTC), 30–31
+Correlation, 861
+Cosine schema, 750
+CPU, 799–800, 802–803, 805–806, 812
+Createrepo package, 913
+CRLF.

@@ -1,0 +1,27 @@
+Here the possible errors during the boot stage (taken from the LILO README)
+
+• nothing
+
+LILO is either not installed or the partition isn't active
+
+• L The first stage loader has been loaded but the second stage has failed 
+
+• LI The second stage boot loader has loaded but was unable to execute
+
+This could be cause if /boot/boot.b moved and /sbin/lilo wasn't rerun
+
+• LIL The second stage boot loader has been started, but it can't load the descriptor 
+table from the map file or the second stage boot loader has been loaded at an 
+incorrect address
+
+This could be cause if /boot/boot.b moved and /sbin/lilo wasn't rerun.
+
+• LIL- The descriptor table is corrupt  
+
+This could be cause if /boot/map moved and /sbin/lilo wasn't rerun.
+
+• Scrolling 010101 errors   This happens when the second stage boot loader is on a 
+
+slave device 
+
+3.

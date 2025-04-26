@@ -1,0 +1,3 @@
+On a Windows system, you can select Network from the 
+Windows Explorer ﬁ le manager window and select the icon representing your Samba server. 
+All shared printers and folders appear in that window.

@@ -1,0 +1,10 @@
+To do this, find the section in the configuration file that starts with 
+the following:
+
+[ CA_default ]
+
+510
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+In the following example, we change the configuration option called dir.

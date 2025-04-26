@@ -1,0 +1,5 @@
+To find out what is installed on your host, the rpm tool queries data stored in a database. This database is 
+updated when packages are installed and removed.
+
+ ■ Note  the rPM database knows only your host’s current state; it doesn’t know what was removed 
+yesterday or what the previous version of a package was.

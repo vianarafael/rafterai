@@ -1,0 +1,5 @@
+We 
+could have also used the posixGroup object class, which would allow us to use gidNumbers as well. We can 
+add as many members to the group as we like by adding member: DN on a separate line.
+
+Now we can look at adding our details to the LDAP database.

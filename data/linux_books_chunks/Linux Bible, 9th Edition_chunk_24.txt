@@ -1,0 +1,6 @@
+For the new content I wrote in this book on Linux cloud 
+technologies, I’d like to thank members of OpenStack, Docker, and RHEV teams, who help 
+me learn cutting-edge cloud technology every day.
+
+As for the people at Wiley, thanks for letting me continue to develop and improve this book 
+over the years. Marty Minner has helped keep me on task through a demanding schedule.

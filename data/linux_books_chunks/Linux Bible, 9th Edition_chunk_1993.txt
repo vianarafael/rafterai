@@ -1,0 +1,10 @@
+The following is an example of creating a 
+restricted deletion directory with a ﬁ le that is wide open for writing by anyone:
+
+[mary]$ mkdir /tmp/mystuff
+[mary]$ chmod 1777 /tmp/mystuff
+[mary]$ cp /etc/services /tmp/mystuff/
+[mary]$ chmod 666 /tmp/mystuff/services
+[mary]$ ls -ld /tmp/mystuff /tmp/mystuff/services
+drwxrwxrwt. 2 mary mary   4096 Jan 22 15:28 /tmp/mystuff/
+-rw-rw-rw-.

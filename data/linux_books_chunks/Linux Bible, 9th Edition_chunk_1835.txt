@@ -1,0 +1,8 @@
+Then, when you go to verify packages that you 
+ suspect were cracked, you know you aren’t checking it against a database that has also 
+been cracked.
+
+Managing Software in the Enterprise
+At this point, you should have a good working knowledge of how to install, query, remove, 
+and otherwise manipulate packages with graphical tools, the yum command, and the rpm 
+command.

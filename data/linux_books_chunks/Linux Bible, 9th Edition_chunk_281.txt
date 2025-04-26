@@ -1,0 +1,5 @@
+Red Hat Enterprise Virtualization is composed of the virtualization 
+hosts, managers, and guest computers that allow you to install, run, manage, migrate, and 
+decommission huge virtual computing environments.
+
+In recent years, Red Hat has extended its portfolio into cloud computing.

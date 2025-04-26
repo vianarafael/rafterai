@@ -1,0 +1,7 @@
+To increase the maximum number of open files to half a million, run sudo sysctl -w 
+fs.file-max=500000.
+
+ ■ Caution 
+ Changing kernel variables in the proc filesystem can have not only a positive impact but also a 
+large adverse impact on system performance. We recommend you do not change anything unless you have a 
+good reason to. a good approach for tuning is measure, change, measure.

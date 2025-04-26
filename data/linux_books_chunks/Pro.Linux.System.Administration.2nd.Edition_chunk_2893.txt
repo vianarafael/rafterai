@@ -1,0 +1,3 @@
+Many web applications manage this internally, but you can also have Apache manage a list of usernames 
+and passwords, allowing you to protect specific directories without needing additional software. The 
+authentication sources can be a file, a database, or Lightweight Directory Access Protocol (LDAP).

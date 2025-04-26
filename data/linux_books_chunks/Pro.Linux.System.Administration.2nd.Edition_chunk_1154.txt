@@ -1,0 +1,8 @@
+the output of which is then converted into Systemd units.
+
+the Sysv runlevels are also mapped to Systemd targets. Systemd will map each runlevel to an 
+appropriate target, like runlevel 3 will be linked to the multiuser.target. here we show how Systemd 
+maps runlevel 3 to the multiuser “target.” by using symlinks.
+
+$ ls -la /usr/lib/systemd/system/runlevel3.target
+lrwxrwxrwx.

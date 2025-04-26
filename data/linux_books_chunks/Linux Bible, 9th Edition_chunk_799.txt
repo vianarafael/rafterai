@@ -1,0 +1,4 @@
+Because 
+it begins with a slash (/), this path tells the shell to start at the root of the ﬁ lesystem and 
+take you to the share directory that exists in the usr directory. The doc option to the cd 
+command said to look for a directory called doc that is relative to the current directory.

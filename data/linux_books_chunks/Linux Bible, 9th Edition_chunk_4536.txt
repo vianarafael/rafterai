@@ -1,0 +1,13 @@
+A security context 
+consists of four attributes: user, role, type, and level.
+
+ ■ user—The user attribute is a mapping of a Linux username to an SELinux name. 
+This is not the same as a user’s login name and is referred to speciﬁ cally as the 
+
+674
+
+c24.indd  04/15/2015  Page 675
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+SELinux user.

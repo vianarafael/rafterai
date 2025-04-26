@@ -1,0 +1,9 @@
+Here are two basic 
+port scans to get you started on your service auditing:
+
+ ■ TCP Connect port scan—For this scan, nmap attempts to connect to ports using 
+the Transmission Control Protocol (TCP) on the server. If a port is listening, the 
+connect attempt succeeds.
+
+TCP is a network protocol used in the TCP/IP network protocol suite. TCP is a 
+connection-oriented protocol.

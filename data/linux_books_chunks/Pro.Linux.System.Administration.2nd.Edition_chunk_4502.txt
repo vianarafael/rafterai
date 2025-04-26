@@ -1,0 +1,15 @@
+These, as 
+
+their names imply, describe the back-end data storage.
+
+dn: olcBackend={0}mdb,cn=config
+dn: olcDatabase={-1}frontend,cn=config
+dn: olcDatabase={0}config,cn=config
+dn: olcDatabase={1}mdb,cn=config
+
+To get a full listing, or a backup, of the cn=config DIT, you can issue the following command:
+
+sudo ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:/// -b cn=config > slapd.ldif
+
+We have used the same command as previously but have removed the dn filter from the end and 
+directed the output to the slapd.ldif file.

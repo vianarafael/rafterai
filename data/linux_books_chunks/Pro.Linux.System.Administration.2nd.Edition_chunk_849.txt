@@ -1,0 +1,3 @@
+these sha512 
+hashes are harder to break, and to further protect the passwords, the /etc/shadow file is owned by the 
+root user, and root is the only user with access to the file.

@@ -1,0 +1,13 @@
+Install the Very Secure FTP Daemon package on your system, and search for the 
+
+conﬁ guration ﬁ les in that package.
+
+3.  Start the Very Secure FTP Daemon service, and set it to start when the 
+
+system boots.
+
+4.  On the system running your FTP server, create a ﬁ le named test in the anonymous 
+
+FTP directory that contains the words “Welcome to your vsftpd server.”
+
+5.

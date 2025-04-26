@@ -1,0 +1,6 @@
+You are expected to conﬁ gure the software after the package is 
+installed to make the server fully functional.
+
+Two examples of servers that are installed with limited functionality are mail servers 
+(sendmail or postfix packages) and DNS servers (bind package). Both of these servers 
+are installed with default conﬁ gurations and start up on reboot.

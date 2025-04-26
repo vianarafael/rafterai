@@ -1,0 +1,18 @@
+As we have seen, the nc 
+command is the Swiss Army knife of network tools and can be used to create and manipulate Transmission 
+Control Protocol (TCP) and User Datagram Protocol (UDP) connections.
+
+ ■ Note 
+ there are others ways of sending a test e-mail (e.g., using the mail command from the command 
+line), but the nc command allows you to view the SMtp commands and displays any error messages on the 
+command line where you can see them.
+
+537
+
+Chapter 12 ■ Mail ServiCeS
+
+Let’s use the nc command to script a session with our Postfix e-mail server again, as you can see in 
+
+Listing 12-4.
+
+Listing 12-4.

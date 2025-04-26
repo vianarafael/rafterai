@@ -1,0 +1,8 @@
+DAC or MAC
+
+Standard Unix permissions use Discretionary Access Control to set permissions on files.
+This means that a user that owns a file, can make it world readable by typing chmod 777
+$file.
+
+With selinux the kernel will enforce Mandatory Access Control which strictly controls
+what processes or threads can do with files (superseding DAC).

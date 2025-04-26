@@ -1,0 +1,12 @@
+This program can run
+commands with a delay, and can highlight changes (with the -d switch).
+
+[paul@RHELv4u3 ~]$ watch -d -n 3 free -om
+...
+Every 3.0s: free -om                             Sat Jan 27 12:13:03 2007
+
+total       used       free     shared    buffers     cached
+Mem:           249        230         19          0         56        109
+Swap:          511          0        511
+
+19.5.

@@ -1,0 +1,8 @@
+rpm -qf and rpm -V
+
+Find out on Red Hat/Fedora to which package a library belongs.
+
+paul@RHEL5 ~$ rpm -qf /lib/libext2fs.so.2.4 
+e2fsprogs-libs-1.39-8.el5
+
+You can then use rpm -V to verify all files in this package.

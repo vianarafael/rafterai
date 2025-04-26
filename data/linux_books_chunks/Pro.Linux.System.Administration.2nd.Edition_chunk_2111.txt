@@ -1,0 +1,17 @@
+For the last sector we 
+
+have to add a +2G so that the utility will add an additional 2 GiB.
+
+To create the last 4 GiB partition we again select the defaults for partition number, first sector, and last 
+
+sector.
+
+Partition number (3-128, default 3):
+First sector (34-16777182, default = 8390656) or {+-}size{KMGTP}:
+Last sector (8390656-16777182, default = 16777182) or {+-}size{KMGTP}:
+
+363
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+This create a partition will all the remaining disk space.

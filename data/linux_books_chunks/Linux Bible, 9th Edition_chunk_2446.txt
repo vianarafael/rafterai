@@ -1,0 +1,6 @@
+Create a public/private key pair to use for SSH communications (no passphrase on 
+the key), copy the public key ﬁ le to a remote user’s account with ssh-copy-id, 
+and use key-based authentication to log in to that user account without having to 
+enter a password.
+
+7.

@@ -1,0 +1,6 @@
+The two major locations of 
+ conﬁ guration ﬁ les are your home directory (where your personal conﬁ guration ﬁ les are 
+kept) and the /etc directory (which holds system-wide conﬁ guration ﬁ les).
+
+Following are descriptions of directories (and subdirectories) that contain useful 
+ conﬁ guration ﬁ les.

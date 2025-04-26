@@ -1,0 +1,6 @@
+this indicates that your processor doesn’t have the appropriate hardware virtualization extensions enabled or 
+virtualization is not supported by your processor. You may be able to enable these extensions and you can check 
+out the following FaQ post, https://forums.virtualbox.org/viewtopic.php?f=1&t=62339, for possible 
+solutions.
+
+Next we are going to show you how to configure a forwarded_port.

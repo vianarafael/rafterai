@@ -1,0 +1,16 @@
+Or we might choose a granularity of 5 minutes for those metrics, and 1-second 
+metrics are rolled up as 5-minute averages.
+
+There are other options for storing your metrics, and we will show you how they can be configured in 
+
+the next section.
+
+<Plugin cpu>
+    ReportByCpu true
+    ReportByState true
+    ValuesPercentage false
+</Plugin>
+
+When we declare our configuration options for our CPU, we are giving the options to report by CPU and 
+
+report by state, and we are not showing values as percentages.

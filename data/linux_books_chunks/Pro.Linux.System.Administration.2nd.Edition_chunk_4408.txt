@@ -1,0 +1,9 @@
+We do this 
+
+by adding the push option to our mobile.conf configuration on the gateway host and use it to push a route.
+
+push "route 192.168.0.0 255.255.255.0"
+
+We also need to update the firewall rules on our gateway host, in much the same way as we added rules 
+
+for the branch to head office tunnel.

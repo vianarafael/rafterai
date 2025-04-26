@@ -1,0 +1,7 @@
+Using 
+
+grep, search inside the ﬁ les contained in the /usr/share/doc/kernel-doc* 
+directory for the term e1000 (case insensitive) and list the names of the ﬁ les that 
+contain that term.
+
+NOTE: The kernel-doc package was dropped for Fedora 21.

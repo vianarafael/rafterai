@@ -1,0 +1,13 @@
+The key can be either a single key or a pair of keys.
+
+631
+
+23
+
+c23.indd  04/01/2015  Page 632
+
+Part V: Learning Linux Security Techniques
+
+Notice the different cipher key sizes listed in Table 23.1. The key size is directly related to 
+how easily the cipher is cracked. The bigger the key size, the less the chance of cracking 
+the cipher.

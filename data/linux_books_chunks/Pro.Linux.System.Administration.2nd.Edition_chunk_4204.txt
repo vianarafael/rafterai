@@ -1,0 +1,7 @@
+The file that holds 
+the configuration for our bconsole is called /etc/bareos/bconsole.conf.
+
+Several consoles are available, and depending on your own preferences, you can set up either a GUI or a 
+
+screen-based console. We’ll first set up the screen-based console, and then we’ll set up the Web-UI console 
+later in the chapter.

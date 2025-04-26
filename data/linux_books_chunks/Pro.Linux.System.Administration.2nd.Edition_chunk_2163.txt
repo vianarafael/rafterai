@@ -1,0 +1,10 @@
+Take a look at the sidebar “Blocks and Inodes” 
+for a short explanation of these. Of Note are the blocks reserved for the superuser and the superblock 
+backups.
+
+26214 blocks (5.00%) reserved for the super user
+...<snip>...
+Superblock backups stored on blocks:
+       32768, 98304, 163840, 229376, 294912
+
+The superblock is part of the filesystem metadata.

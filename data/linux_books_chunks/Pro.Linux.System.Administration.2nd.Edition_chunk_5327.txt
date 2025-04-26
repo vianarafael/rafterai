@@ -1,0 +1,8 @@
+Whenever a host executes the check command, its address 
+replaces the macro. This allows the same command to be used by multiple host objects. The macro is 
+specified as the value of the -H option, which specifies the host to ping.
+
+ You can get the help text from most nagios plug-ins by running the command with the --help 
+
+ ■ Note 
+option.

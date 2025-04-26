@@ -1,0 +1,5 @@
+It deﬁ nes what type of ﬁ rewall functionality is taking place. There are four tables in 
+the iptables utility, with an additional table added by SELinux. The tables offer the 
+ following functionalities:
+
+ ■ filter—The filter table is the packet ﬁ ltering feature of the ﬁ rewall.

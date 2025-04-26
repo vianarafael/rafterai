@@ -1,0 +1,6 @@
+The 
+sysinit.target has Wants=local-fs.target swap.target. I am leaving out some other detail here, like Conflicts and 
+After directives, but you should be able to see that the multiuser target is made up of all these other targets 
+and that is how systemd knows what target to pull in.
+
+We have said that some of these targets define a “state” of a machine.

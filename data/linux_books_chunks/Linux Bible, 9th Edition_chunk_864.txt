@@ -1,0 +1,5 @@
+Access fi le metadata (fi le size, time stamps, and 
+so on) of fi les in that directory.
+
+As noted earlier, you can see the permission for any ﬁ le or directory by typing the ls -ld 
+command.

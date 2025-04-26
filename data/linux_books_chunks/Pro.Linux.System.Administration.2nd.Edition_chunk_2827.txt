@@ -1,0 +1,4 @@
+This is done by adding additional addresses to an interface, as we 
+discussed in Chapter 7. This should be less common now that Server Name Indication (SNI; www.ietf.org/
+rfc/rfc4366.txt) is available, which is a way to provide the server name to the web server when using SSL/
+TLS certificates.

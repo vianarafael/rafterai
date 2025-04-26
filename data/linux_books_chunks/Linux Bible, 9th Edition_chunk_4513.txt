@@ -1,0 +1,7 @@
+1 johndoe johndoe 0 Feb 12 06:57 my_stuff
+
+The example that follows includes ls -Z and the same ﬁ le, my_stuff, but instead of just 
+the DAC controls, the -Z option displays the SELinux security RBAC controls, too.
+
+$ ls -Z my_stuff
+-rw-rw-r--.

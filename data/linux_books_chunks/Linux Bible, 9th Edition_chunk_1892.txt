@@ -1,0 +1,3 @@
+For example, by not using -g sales or -G wheel,apache, the 
+group name mary was assigned to the new user. Some Linux systems (other than Fedora 
+and RHEL) assign users as the group name by default.

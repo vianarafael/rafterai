@@ -1,0 +1,15 @@
+(This is the same as pressing Ctrl+Z on a process from the shell.)
+
+142
+
+c06.indd  04/01/2015  Page 143
+
+Chapter 6: Managing Running Processes
+
+ ■ Continue—Continues running a paused process.
+
+ ■ End—Sends a Terminate signal (15) to a process. In most cases, this terminates the 
+
+process cleanly.
+
+ ■ Kill—Sends a Kill signal (9) to a process.

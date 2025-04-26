@@ -1,0 +1,17 @@
+Move your volume group to another disk (keep the Logical Volumes mounted).
+
+11. If time permits, split a Volume Group with vgsplit, then merge it again with vgmerge.
+
+125
+
+Chapter 12. iSCSI devices
+
+This chapter teaches you how to setup an iSCSI target server and an iSCSI initiator client.
+
+126
+
+iSCSI devices
+
+12.1. iSCSI terminology
+
+iSCSI is a protocol that enables SCSI over IP.

@@ -1,0 +1,5 @@
+Every process running on your system has a nice value between –20 and 19. By default, the 
+nice value is set to 0. Here are a few facts about nice values:
+
+ ■ The lower the nice value, the more access to the CPUs the process has. In other 
+words, the nicer a process is, the less CPU attention it gets.

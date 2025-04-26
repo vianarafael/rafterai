@@ -1,0 +1,13 @@
+Create a minimalistic smb.conf.minimal and test it with testparm.
+
+cd /etc/samba ; mkdir my_smb_confs ; cd my_smb_confs
+
+vi smb.conf.minimal
+
+testparm smb.conf.minimal
+
+5. Use tesparm -s to create /etc/samba/smb.conf from your smb.conf.minimal .
+
+testparm -s smb.conf.minimal > ../smb.conf
+
+6.

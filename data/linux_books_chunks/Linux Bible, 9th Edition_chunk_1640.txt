@@ -1,0 +1,6 @@
+GRUB represents the hard disk as hd, 
+regardless of whether it is a SCSI, IDE, or other type of disk. In GRUB Legacy, you just count 
+the drive number and partition number, starting from zero (0).
+
+The second line of the example (beginning with kernel) identiﬁ es the kernel boot image 
+(/boot/vmlinuz-2.6.32-131.17.1.el6.x86_64) and several options.

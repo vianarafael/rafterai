@@ -1,0 +1,12 @@
+With a blank CD inserted and the ISO image you want to burn 
+in the current directory, you can use the following simple command line for burning a CD 
+image to CD using cdrecord:
+
+# cdrecord -v whatever.iso
+
+See the cdrecord man page (man cdrecord) for other options available with the 
+ cdrecord command.
+
+Booting Linux from a USB Drive
+Instead of burning ISO images to a CD or DVD, you can put your Linux system on a USB 
+drive.

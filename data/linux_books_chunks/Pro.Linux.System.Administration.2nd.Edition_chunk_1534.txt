@@ -1,0 +1,8 @@
+To get Host D 
+to see Host F, we need to tell Host D to get to Host F via Host E. We do that by adding a route like this:
+
+$ sudo /sbin/ip route add 192.168.10.0/24 via 192.168.0.2 dev enp0s8
+
+Here we have to use the ip command combined with the route object to add a route to the 
+
+192.168.10.0/24 network from our Host D.

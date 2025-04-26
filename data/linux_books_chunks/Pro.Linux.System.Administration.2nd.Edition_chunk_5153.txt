@@ -1,0 +1,6 @@
+The logrotate.d 
+directory included in Listing 18-12 holds a collection of files that tell logrotate how to handle your various 
+log files.
+
+You can also define additional directories and files and include them in the logrotate.conf file to suit 
+your environment.

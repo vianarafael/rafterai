@@ -1,0 +1,13 @@
+the default smb.conf
+
+The default smb.conf file contains a lot of examples with explanations.
+
+[paul@RHEL4b ~]$ ls -l /etc/samba/smb.conf 
+-rw-r--r--  1 root root 10836 May 30 23:08 /etc/samba/smb.conf
+
+Also on Ubuntu and Debian, smb.conf is packed with samples and explanations.
+
+paul@laika:~$ ls -l /etc/samba/smb.conf 
+-rw-r--r-- 1 root root 10515 2007-05-24 00:21 /etc/samba/smb.conf
+
+10.1.3.

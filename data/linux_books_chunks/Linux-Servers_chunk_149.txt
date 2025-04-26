@@ -1,0 +1,12 @@
+port virtual hosts on Debian
+
+1.2.1. default virtual host
+
+Debian  has  a  virtualhost  configuration  file  for  its  default  website  in  /etc/apache2/sites-
+available/default.
+
+root@debian7:~# head -2 /etc/apache2/sites-available/default
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+
+1.2.2.

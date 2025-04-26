@@ -1,0 +1,63 @@
+logrotate.conf Options
+
+Option
+
+daily
+
+weekly
+
+monthly
+
+compress
+
+Description
+
+Logs are rotated on a daily basis.
+
+Logs are rotated on a weekly basis.
+
+Logs are rotated on a monthly basis.
+
+Old log files are compressed with gzip.
+
+create mode owner group
+
+New log files are created with a mode in octal form of 0700 and the 
+owner and group (the opposite is nocreate).
+
+ifempty
+
+The log file is rotated even if it is empty.
+
+include directory or filename
+
+The contents of the listed file and directory to be processed  
+by logrotate.
+
+are included.
+
+mail address
+
+nomail
+
+missingok
+
+nomissingok
+
+rotate count
+
+size size[M,k]
+
+sharedscripts
+
+When a log is rotated out of existence, it is mailed to address.
+
+The last log is not mailed to any address.
+
+If the log file is missing, it is skipped and logrotate moves on to the 
+next without issuing an error message.
+
+If the log file is missing, an error message is issued (the default 
+behavior).
+
+The log files are rotated count times before they are removed.

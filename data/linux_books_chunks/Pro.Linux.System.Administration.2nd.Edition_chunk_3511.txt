@@ -1,0 +1,6 @@
+each provides the ability to allow or restrict access to files, processes, and network resources, 
+and, of course, each does it differently.
+
+MaC is different from Discretionary access Control (DaC), which is the core of the linux operating 
+system and the one we are more familiar with. DaC allows the owner of a resource, for example, a file, 
+to set the permissions for that file.

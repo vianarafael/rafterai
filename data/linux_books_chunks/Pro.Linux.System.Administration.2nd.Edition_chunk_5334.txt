@@ -1,0 +1,8 @@
+The last 
+option on our command line, -p, specifies the number of pings to send.
+
+ in addition to the status returned by a plug-in, for example, WARNING or CRITICAL, you will also get 
+
+ ■ Note 
+some output describing that state, which you can use in notifications or display in the console. For example, the 
+check_ping plug-in returns PING OK - Packet loss = 0%, RTA = 3.98 ms.

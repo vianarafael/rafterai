@@ -1,0 +1,7 @@
+In this case, rsyslogd 
+
+is a logging daemon that needs to write to the /var/log/syslog file. As logging daemon, it is important 
+that if this gets stopped for some reason, it is good to get it to try to restart itself. Let’s run through the major 
+points here.
+
+Listing 6-9.

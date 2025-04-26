@@ -1,0 +1,6 @@
+On a per-service basis, access can be allowed or denied, ﬁ ne-tuning access 
+to each network service.
+
+Recent versions of Fedora and RHEL have added the firewalld service as a front-end to the 
+iptables ﬁ rewall facility that is built into the Linux kernel. Using the firewalld-config 
+window, you can easily open ports in your ﬁ rewall to allow access to selected services.

@@ -1,0 +1,6 @@
+Now, data exchanged between these two systems can be encrypted and decrypted 
+using RSA asymmetric encryption (see Chapter 23, “Understanding Advanced Linux 
+Security”).
+
+After you are logged in to the remote system, you can begin typing shell commands. The 
+connection functions like a normal login.

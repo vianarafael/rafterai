@@ -1,0 +1,10 @@
+Remember  that  we  do  not
+manually create users in smbpasswd or on the Linux (/etc/passwd). Only Active Directory
+users are allowed access.
+
+[domaindata]
+ path = /srv/samba/domaindata
+ comment = Active Directory users only
+ read only = No
+
+22.2.

@@ -1,0 +1,7 @@
+We can do that with the following:
+
+$ sudo udevadm control --reload
+
+Checking Filesystem Usage
+When you start using a filesystem for data storage, you’ll want to be able to keep an eye on the amount of 
+available space.

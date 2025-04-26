@@ -1,0 +1,6 @@
+Notice how much 
+more the /etc/shadow ﬁ le is restricted than the /etc/passwd ﬁ le. For the /etc/
+shadow ﬁ le, there is no access permission on, although the root user can still access the 
+ﬁ le. So if only root can view this ﬁ le, how can a user change his or her password because it 
+is stored in /etc/shadow? The passwd utility, /usr/bin/passwd, uses the special per-
+mission SUID.

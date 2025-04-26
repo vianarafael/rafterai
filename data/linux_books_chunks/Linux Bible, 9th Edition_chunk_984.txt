@@ -1,0 +1,7 @@
+The second ﬁ nds ﬁ les 
+less than 1MB. In the third example, I’m searching for ISO images and video ﬁ les that are 
+between 500MB and 5GB. This includes an example of the -exec option (which I describe 
+later) to run the du command on each ﬁ le to see its size.
+
+Finding files by user
+You can search for a particular owner (-user) or group (-group) when you try to ﬁ nd ﬁ les.

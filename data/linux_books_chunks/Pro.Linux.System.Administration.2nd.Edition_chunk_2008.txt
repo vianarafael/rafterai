@@ -1,0 +1,5 @@
+Don’t worry, you can 
+change the answers to these questions later.
+
+Be careful when installing packages you manually download. If the package was not created for your 
+Ubuntu version, other packages that it depends on may not be available in the correct version.

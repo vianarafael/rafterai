@@ -1,0 +1,11 @@
+The following 
+directories should already exist:
+
+$ sudo mkdir /etc/pki/CA
+$ sudo mkdir /etc/pki/CA/{private,newcerts,crl,certs}
+$ sudo chown –R root:root /etc/pki/CA
+$ sudo chmod 0700 /etc/pki/CA/private
+
+The private directory will hold the CA’s private key, and the newcerts directory will contain a copy of 
+
+each certificate the CA will sign.

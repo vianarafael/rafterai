@@ -1,0 +1,13 @@
+Figure 19.5 shows an example of the Access settings for 
+the share.
+
+FIGURE 19.5
+
+Set access to the new share.
+
+Select OK when you are ﬁ nished conﬁ guring the share. Next you want to test that the share 
+is available.
+
+Checking the Samba share
+For the changes to your Samba conﬁ guration to take effect, you need to restart the smb 
+service.

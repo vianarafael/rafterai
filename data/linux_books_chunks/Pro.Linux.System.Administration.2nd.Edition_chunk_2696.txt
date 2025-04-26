@@ -1,0 +1,8 @@
+The hardware ethernet option specifies the MAC address that will have the address specified with the 
+fixed-address option assigned to it.
+
+ ■ Note  You can find out the MaC address for a network interface via the ip link show command.
+
+This option can contain either an IP address or a resolvable FQDN. We’ll use the FQDN, as DNS is 
+
+working fine for us.

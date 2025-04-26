@@ -1,0 +1,2 @@
+Conﬁ guration and 
+policy ﬁ les are located in the /etc/selinux directory.

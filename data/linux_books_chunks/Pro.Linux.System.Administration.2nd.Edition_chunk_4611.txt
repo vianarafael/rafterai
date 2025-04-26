@@ -1,0 +1,3 @@
+We don’t always require a user to bind directly to our directory server, but sometimes we want them to still 
+authenticate against it, such as when we are performing web authentication. You have already seen that we 
+have granted auth access to the user password entries to webadmin.

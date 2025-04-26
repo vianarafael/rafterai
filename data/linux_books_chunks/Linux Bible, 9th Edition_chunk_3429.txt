@@ -1,0 +1,2 @@
+You can use the same command to disable the services 
+as well, so they do not start up again when the system boots.

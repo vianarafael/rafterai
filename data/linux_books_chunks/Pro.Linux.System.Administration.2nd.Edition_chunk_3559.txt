@@ -1,0 +1,7 @@
+Next we edit the /etc/opendkim/KeyTable file with the following:
+
+example     example.com:201609:/etc/opendkim/keys/example.com.private
+
+Here we are using the shortened name to like in the KeyTable to the match like the one in the 
+
+SigningTable.

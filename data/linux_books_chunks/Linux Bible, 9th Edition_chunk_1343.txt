@@ -1,0 +1,10 @@
+By default, the local hosts ﬁ le is searched and then any name server 
+entries in resolv.conf.
+
+ ■ hostname—Contains the host name for the local system (beginning in RHEL 7 and 
+
+recent Fedora and Ubuntu systems).
+
+ ■ hosts—Contains IP addresses and host names that you can reach from your 
+
+ computer.

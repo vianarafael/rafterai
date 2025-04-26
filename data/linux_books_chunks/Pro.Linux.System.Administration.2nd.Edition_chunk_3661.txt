@@ -1,0 +1,24 @@
+To do that, we use the smbclient command, 
+which is the tool used to interact with the Samba service.
+
+$ smbclient –L dc1 -U Administrator
+Enter Administrator's password:
+Domain=[EXAMPLE] OS=[Windows 6.1] Server=[Samba 4.3.9-Ubuntu]
+
+    Sharename       Type      Comment
+    ---------       ----      -------
+    netlogon        Disk
+    sysvol          Disk
+    IPC$            IPC       IPC Service (Samba 4.3.9-Ubuntu)
+Domain=[EXAMPLE] OS=[Windows 6.1] Server=[Samba 4.3.9-Ubuntu]
+
+    Server               Comment
+    ---------            -------
+
+    Workgroup            Master
+    ---------            -------
+    WORKGROUP            DC1
+
+Here we have gotten a listing (-L) from our dc1 Samba service using the Administrator user (-U) to 
+
+authenticate.

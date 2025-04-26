@@ -1,0 +1,18 @@
+Thus, the kill -1 1 command forces the init process
+(init always runs with pid 1) to re-read its configuration file.
+
+root@deb503:~# kill -1 1
+root@deb503:~#
+
+It is up to the developer of the process to decide whether the process can do this running,
+or whether it needs to stop and start. It is up to the user to read the documentation of the
+program.
+
+9
+
+  
+  
+  
+introduction to processes
+
+1.3.4.

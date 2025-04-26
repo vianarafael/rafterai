@@ -1,0 +1,9 @@
+Use with the GNU Affero General Public License.
+
+both.indd  04/07/2015  Page 11
+
+GNU General Public License
+
+Notwithstanding any other provision of this License, you have permission to link or com-
+bine any covered work with a work licensed under version 3 of the GNU Affero General 
+Public License into a single combined work, and to convey the resulting work.

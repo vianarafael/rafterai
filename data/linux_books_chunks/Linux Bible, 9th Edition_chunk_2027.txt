@@ -1,0 +1,3 @@
+(Note that despite 
+assigning rwx permission to the adm user, the effective permission on newfile.txt 
+is only rw.

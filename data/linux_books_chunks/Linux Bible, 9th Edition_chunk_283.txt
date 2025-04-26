@@ -1,0 +1,7 @@
+RHEL 
+Atomic and Linux containers in Docker format offer ways of containerizing applications 
+for the cloud.
+
+There are those who have tried to clone RHEL, using the freely available RHEL source code, 
+rebuilding and rebranding it. Oracle Linux is built from source code for RHEL but currently 
+offers an incompatible kernel.

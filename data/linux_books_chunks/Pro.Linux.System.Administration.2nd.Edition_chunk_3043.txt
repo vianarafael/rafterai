@@ -1,0 +1,7 @@
+A certificate from a commercial CA can cost hundreds of dollars 
+a year. This is a considerable expense just to secure your e-mail or your business marketing site. As a result, if 
+you don’t want the expense of buying certificates, we recommend a Let’s Encrypt certificate.
+
+If we choose a commercial certificate, we will need to create the private key and a certificate signing 
+
+request (CSR).

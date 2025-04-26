@@ -1,0 +1,21 @@
+NetworkManager was conceived to make networking “just work” and 
+your mileage may vary, but a lot of work has gone into it since its inception and it is definitely much better 
+than it was when it started out.
+
+226
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+NetworkManager also provides some CLI (command-line interface) programs to help manage your 
+
+configuration.
+
+•	
+
+•	
+
+nmcli–controls and reports status of NetworkManager
+
+nmtui–text-based user interface for managing NetworkManager
+
+We are going to show you more on nmcli and nmtui later in this Chapter.

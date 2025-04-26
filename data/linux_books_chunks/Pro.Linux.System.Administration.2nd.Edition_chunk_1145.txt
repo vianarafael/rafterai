@@ -1,0 +1,6 @@
+It seeks to make 
+common standards for Linux configurations, file locations, package names, and other conventions. LSB has 
+struggled to stay relevant in recent years and less distributions are being certified under it. You can read 
+more about it at www.linuxfoundation.org/en/LSB.
+
+Listing 6-10.

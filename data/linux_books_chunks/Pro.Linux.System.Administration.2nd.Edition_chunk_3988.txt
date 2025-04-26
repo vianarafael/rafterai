@@ -1,0 +1,2 @@
+In line 
+32, 2>&1 >/dev/null directs the stdout and stderr (or standard out and standard error) to /dev/null.

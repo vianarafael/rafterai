@@ -1,0 +1,7 @@
+If read only is set to yes, you could still 
+allow access to jim and chris to write ﬁ les by adding a write list line as follows:
+
+write list = jim, chris
+
+The write list can contain groups (that is, Linux groups contained in the /etc/group ﬁ le) 
+to allow write permission to any Linux user that belongs to a particular Linux group.

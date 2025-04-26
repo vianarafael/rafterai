@@ -1,0 +1,4 @@
+Alternatively, you might want to give priority to the rebuild process, at 
+the expense of services.
+
+While a rebuild occurs, the kernel keeps the rebuild speed between set minimum and maximum values.

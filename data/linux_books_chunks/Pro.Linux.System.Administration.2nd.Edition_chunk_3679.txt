@@ -1,0 +1,6 @@
+In 
+other words, you maintain a list of users with access to each host on each host.
+
+Central authentication is achieved when one of the hosts in the workgroup becomes a primary 
+domain controller (PDC). Hosts join the domain and then use the PDC to authenticate user access to their 
+resources.

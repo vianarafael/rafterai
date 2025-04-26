@@ -1,0 +1,4 @@
+For RHEL 7, Fedora 21, or any Linux using 
+systemd, you can run the journalctl command to check for AVC denial log messages. In 
+each log message is an sealert command line that you can run to get information about 
+each AVC denial.

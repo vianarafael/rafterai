@@ -1,0 +1,7 @@
+If you want to copy 
+directories and recursively copy their contents, you can do this with the cp command by adding the -r 
+switch.
+
+You can also move directories using the mv command in the same way as you can with files.
+
+Finally, if you want to delete a directory, use the rmdir command.

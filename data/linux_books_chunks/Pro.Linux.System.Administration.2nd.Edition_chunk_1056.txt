@@ -1,0 +1,4 @@
+We pass root=/dev/mapper/centos-root to 
+provide the path to the ‘/’ partition. Initially we load the kernel as ‘ro’ or read only. The crashkernel=auto 
+option is a setting for kdump kernel indicating the amount of memory reserved for it. The next two options 
+tell the kernel that there are two LVM logical volumes it needs to load: centos/root and centos/swap.

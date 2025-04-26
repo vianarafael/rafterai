@@ -1,0 +1,10 @@
+IN TXT ( "v=DKIM1; k=rsa; s=email; " 
+"p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz5DbbqRCsZ564tDCDeonTkr4ggYrVr5H19qBCYPwnks 
+FyqzmQtpntQq78hpt7lcYghwmhDT9V3o72lUKYn151p6e3rsvtSXmNHuhgxHRwozDf7NdQeDEzpEa7+/
+UdWvDDtmg9Bbsx6kLhOfTZU8TvnOW3UCJPFkzKNhCg5rrZGLXUqs0S762T4gLDJYCrgkIxUW1KEazkRn1mr" "XvcvE+
+wt6QL4GPcz6ddPYw4DS9sdZ17DZMa7ngv2C0EjrQwfTcIfoTkfc2G6GgjayVM+RgAs234Eo6+7tX+W7ZmXpzgk2YtHah
+1cNjHV2dAgGRo/B6H2W0KK89LkZsfTzMYjasfQIDAQAB" )  ; ----- DKIM key 201609 for example.com
+
+DNS TXT records cannot have strings longer than 255 characters; we will need to break this up into 
+
+multiple lines.

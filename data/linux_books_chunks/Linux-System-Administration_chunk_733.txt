@@ -1,0 +1,35 @@
+there is more systemd
+
+There are other tools...
+
+systemd-analyze                 systemd-loginctl
+systemd-ask-password            systemd-machine-id-setup
+systemd-cat                     systemd-notify
+systemd-cgls                    systemd-nspawn
+systemd-cgtop                   systemd-run
+systemd-coredumpctl             systemd-stdio-bridge
+systemd-delta                   systemd-sysv-convert
+systemd-detect-virt             systemd-tmpfiles
+systemd-inhibit                 systemd-tty-ask-password-agent
+
+For example systemd-analyze blame will give you an overview of the time it took for each
+service to boot.
+
+[root@rhel7 ~]# systemd-analyze blame | head
+          1.977s firewalld.service
+          1.096s tuned.service
+           993ms postfix.service
+           939ms iprinit.service
+           925ms vboxadd-x11.service
+           880ms firstboot-graphical.service
+           839ms accounts-daemon.service
+           829ms network.service
+           822ms iprupdate.service
+           795ms boot.mount
+[root@rhel7 ~]#
+
+188
+
+init and runlevels
+
+15.9.

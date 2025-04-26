@@ -1,0 +1,7 @@
+Here are some things you can do to repair your 
+system while you are in rescue mode:
+
+ ■ Fix /etc/fstab. If your ﬁ lesystems couldn’t mount because of an error in your
+
+/etc/fstab ﬁ le, you could try to correct any entries that might have problems 
+(such as wrong device names or a mount point directory that doesn’t exist).

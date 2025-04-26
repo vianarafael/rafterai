@@ -1,0 +1,8 @@
+For example, the location of the Nagios log file is specified 
+using the log_file option; on CentOS, this would be done as follows:
+
+log_file=/var/log/nagios/nagios.log
+
+This is usually the first option in your nagios.cfg file followed by the cfg_file and cfg_dir options 
+
+that specify the location of your object configuration files.

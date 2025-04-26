@@ -1,0 +1,4 @@
+Other attributes are declare SINGLE-VALUE and can be declared only once, like the 
+users’ password.
+
+Attributes can be hierarchical and can inherit the properties of its parent.

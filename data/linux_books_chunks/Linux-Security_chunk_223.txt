@@ -1,0 +1,7 @@
+Try several different ways to obtain a shell (su, su -, ssh, tmux, gnome-terminal, Ctrl-
+alt-F1, ...) and verify which of your custom variables, aliases and function are present in
+your environment.
+
+5. Do you also know the order in which they are executed?
+
+6.

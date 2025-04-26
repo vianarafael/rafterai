@@ -1,0 +1,7 @@
+You can see a full list of object types and their attributes at https://assets.nagios.com/downloads/
+nagioscore/docs/nagioscore/4/en/objectinheritance.htmlxodtemplate.html.
+
+Service Configuration
+
+Now that you know something about host objects, we’re going to examine a service object. Services are 
+defined using the service-type object and are linked to their underlying host.

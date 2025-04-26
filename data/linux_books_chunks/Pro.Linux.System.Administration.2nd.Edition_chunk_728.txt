@@ -1,0 +1,3 @@
+Groups are collections of users, gathered together because they are alike or 
+require access to a particular resource. For example, all the users in your organization’s sales department 
+may belong to a group called sales.

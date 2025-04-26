@@ -1,0 +1,6 @@
+It 
+is an open standard that is conﬁ gured in many types of computing environments.
+
+ ■ NIS—The Network Information Service was originally created by Sun Microsystems 
+to propagate information such as user accounts, host conﬁ guration, and other 
+types of system information across many UNIX systems.

@@ -1,0 +1,9 @@
+We’ve forwarded SMTP, HTTP/HTTPS, and IMAP, among other protocols.
+
+ ■ Note 
+
+ You can use the instructions provided in Chapter 7 to add these rules to your gateway host.
+
+VPN Connections for Mobile Users
+OpenVPN is capable of more than just allowing point-to-point connections from your branch offices to your 
+head office.

@@ -1,0 +1,46 @@
+The first line of the script must point to the 
+interpreter.
+For example if which perl returns /usr/bin/perl, then the first line in a script should 
+be:
+#!/usr/bin/perl
+
+There are three variable types which can be declared and referenced as in the following 
+script:
+
+    # Scalars
+    my $VARIABLE = “value”;                    #declare VARIABLE   
+
+72
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+    print (“$VARIABLE  \n”);                   #print VARIABLE
+
+    # Arrays
+    my @ARRAY = (“color1”,”color2”,”color3”);   # declare ARRAY
+    $index=0                   # print ARRAY
+    while ($index < @ARRAY)  {     
+
+print (“element of $index is @ARRAY[$index] \n”);
+$index++;
+
+     }
+
+     # Hashes or Associative Arrays ({key,value} pairs)
+
+my %HASH=(“color1”, “blue”,”color2”, “red”, “color3”, “white”);
+foreach $key (keys %HASH) {
+
+print (“The key $key corresponds to the value $HASH{$key} \n”);
+
+            }
+
+@color_rank =  sort keys %HASH;  # assign the keys to an array
+
+2.

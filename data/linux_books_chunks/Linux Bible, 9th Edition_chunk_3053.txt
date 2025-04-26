@@ -1,0 +1,6 @@
+However, you can 
+ conﬁ gure your Apache web server in a tremendous number of ways. You can conﬁ gure an Apache 
+web server to serve content for multiple domains (virtual hosting), provide encrypted communica-
+tions (HTTPS), and secure some or all of a website using different kinds of authentication.
+
+This chapter takes you through the steps to install and conﬁ gure an Apache web server.

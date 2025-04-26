@@ -1,0 +1,15 @@
+Only the
+root user can use negative nice values. Be very careful with negative nice values, since they
+can make it impossible to use the keyboard or ssh to a system.
+
+17
+
+  
+  
+  
+process priorities
+
+2.1.7. impact of nice values
+
+The impact of a nice value on running processes can vary. The screenshot below shows the
+result of our renice +8 command.

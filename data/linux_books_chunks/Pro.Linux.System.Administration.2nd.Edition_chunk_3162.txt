@@ -1,0 +1,7 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_12Chapter 12 ■ Mail ServiCeS
+
+Figure 12-1.  E-mail life cycle
+
+What Happens When You Send an E-mail?
+E-mail is based around a protocol called SMTP (defined in RFC 5321; www.ietf.org/rfc/rfc5321.txt). 
+Each e-mail has a series of headers that tell your mail server what to do with it and where to send it.

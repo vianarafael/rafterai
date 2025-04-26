@@ -1,0 +1,5 @@
+The MATE-Compiz spin offers more of the other extreme, with 
+desktop effects like wobbly windows and desktops that rotate on a cube.
+
+ ■ Security spins—One of the early uses of live Linux media was to provide bootable, 
+removable media containing security tools.

@@ -1,0 +1,12 @@
+keyboard. We’ve 
+
+specified our language as en_AU (English Australian) and our time zone as Australia/ Melbourne.
+
+Managing Users
+
+You can also set the root user’s password with the Kickstart rootpw directive.
+
+rootpw --iscrypted $6$D7CxLkSBeC9.k.k3$S8G9s3/Y5LJ4dio....S5GS78p2laxALxaJ.
+lCN9tzKB1zIpYz38Fs9/
+
+The rootpw directive is a required Kickstart option for all Kickstart files.

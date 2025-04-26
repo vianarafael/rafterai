@@ -1,0 +1,18 @@
+Creating New Groups
+
+$ sudo groupadd printing
+$ sudo groupadd finance
+
+Table 5-4 shows some command-line options available with the groupadd command.
+
+Table 5-4.  The groupadd Command-Line Options
+
+Option
+
+-g GID
+
+-r
+
+Description
+
+Sets the GID for the group.

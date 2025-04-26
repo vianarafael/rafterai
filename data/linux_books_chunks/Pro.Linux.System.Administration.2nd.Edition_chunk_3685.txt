@@ -1,0 +1,9 @@
+For example, if we want to allow access to all hosts on 
+our 192.168.0. network except a naughty host with the address 192.168.0.15, we would use the following in 
+hosts allow:
+
+hosts allow = 127. 192.168.0. EXCEPT 192.168.0.15
+
+You can also use fully qualified domain names (FQDNs) like headoffice.example.com or gateway.
+
+example.com to specify individual hosts.

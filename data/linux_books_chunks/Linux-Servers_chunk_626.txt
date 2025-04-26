@@ -1,0 +1,13 @@
+Which computer is the master browser master in your workgroup ? What is the master
+browser ?
+
+13. If time permits (or if you are waiting for other students to finish this practice), then install
+a sniffer (wireshark) and watch the browser elections.
+
+153
+
+getting started with samba
+
+10.8. solution: getting started with samba
+
+1.

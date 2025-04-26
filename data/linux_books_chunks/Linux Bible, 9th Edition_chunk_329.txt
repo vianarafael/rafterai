@@ -1,0 +1,7 @@
+Logging is described in Chapter 13.
+
+ ■ Configure local storage—Setting up disk partitions includes creating physical 
+ volumes and conﬁ guring them to be used for Logical Volume Management (LVM) 
+or encryption (LUKS). You should also be able to set up those partitions as 
+ ﬁ lesystems or swap space that can be mounted or enabled at boot time. Disk 
+ partitioning and LVM are covered in Chapter 12.

@@ -1,0 +1,10 @@
+Moments
+after taking the snapshot, there are few changes to bigLV (0.02 percent).
+
+[root@RHEL5 ~]# lvs
+  LV       VG         Attr   LSize   Origin Snap%  Move Log Copy%
+  bigLV    vg42       owi-a- 200.00M                              
+  snapLV   vg42       swi-a- 100.00M bigLV    0.02                
+[root@RHEL5 ~]#
+
+But after using bigLV for a while, more changes are done.

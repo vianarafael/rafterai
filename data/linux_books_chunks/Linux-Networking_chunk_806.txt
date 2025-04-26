@@ -1,0 +1,5 @@
+But it is also good practice to document your samba
+configuration, and to explicitly set options that have the same default values. The testparm
+-s option allows you to do both. It will output the smallest possible samba configuration file,
+while retaining all your settings. The idea is to have your samba configuration in another
+file (like smb.conf.full) and let testparm parse this for you.

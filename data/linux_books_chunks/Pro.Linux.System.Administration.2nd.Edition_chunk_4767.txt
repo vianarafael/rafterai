@@ -1,0 +1,60 @@
+We have also prevented users from changing certain attributes that they 
+shouldn’t have write access to, such as uidNumber, homeDirectory, and so on.
+
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+replace: olcAccess
+olcAccess: {0}to *
+        by dn.exact=gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth manage
+        by * none break
+-
+
+786
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+add: olcAccess
+olcAccess: {1}to attr=entry,member,objectClass,uid,uidNumber,gidNumber,homeDirectory,cn,shad
+owWarning,modifyTimestamp
+        by group.exact="cn=admins,ou=Groups,dc=example,dc=com" tls_ssf=128 write
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" tls_ssf=128 read
+        by anonymous tls_ssf=128 read
+        by self tls_ssf=128 read
+-
+add: olcAccess
+olcAccess: {2}to attrs=userPassword
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" tls_ssf=128 auth
+        by group.exact="cn=admins,ou=Groups,dc=example,dc=com" tls_ssf=128 write
+        by self tls_ssf=128 write
+        by anonymous tls_ssf=128 auth
+        by * none stop
+-
+add: olcAccess
+olcAccess: {3}to dn.children="ou=People,dc=example,dc=com"
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" read
+        by group.exact="cn=admins,ou=Groups,dc=example,dc=com" write
+        by self write
+        by users read
+-
+add: olcAccess
+olcAccess: {4}to dn.children="ou=Groups,dc=example,dc=com"
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" read
+        by group.exact="cn=admins,ou=Groups,dc=example,dc=com" write
+-
+add: olcAccess
+olcAccess: {5}to dn.children="ou=meta,dc=example,dc=com"
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" read
+        by group.exact="cn=admins,ou=Groups,dc=example,dc=com" write
+        by self read
+-
+add: olcAccess
+olcAccess: {6}to dn.children="ou=Hosts,dc=example.com"
+        by group.exact="cn=admins,ou=Groups,dc=example,dc=com" write
+        by dn.exact="cn=webadmin,ou=meta,dc=example,dc=com" search
+-
+add: olcAccess
+olcAccess: {7}to * by * none
+
+Setting Up sssd
+
+To authenticate against an LDAP server from our Linux clients, we will install a package called sssd.

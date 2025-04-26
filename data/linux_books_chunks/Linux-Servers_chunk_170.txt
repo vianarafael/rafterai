@@ -1,0 +1,16 @@
+200 OK
+Length: 25 [text/html]
+Saving to: `index.html'
+
+100%[=============================================>] 25         --.-K/s   in 0s
+
+2014-05-06 21:37:13 (2.06 MB/s) - `index.html' saved [25/25]
+
+root@debian7:/etc/apache2/sites-available# cat index.html 
+Welcome to chess club 42
+
+16
+
+apache web server
+
+1.4.

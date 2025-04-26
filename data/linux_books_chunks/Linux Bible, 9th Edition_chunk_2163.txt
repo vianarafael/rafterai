@@ -1,0 +1,6 @@
+You might do this, in particular, if the swap area is no longer needed and you want to reclaim 
+the space being consumed by a swap ﬁ le or remove a USB drive that is providing a swap 
+partition.
+
+First, make sure that no space is being used on the swap device (using the free command), 
+and then use swapoff to turn off the swap area so you can reuse the space.

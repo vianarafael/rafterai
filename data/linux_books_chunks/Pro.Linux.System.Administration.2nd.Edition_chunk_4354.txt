@@ -1,0 +1,11 @@
+For example, we use the 
+following command on CentOS:
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+[branch1]$ sudo systemctl start openvpn@branch1
+
+Testing Our OpenVPN Tunnel
+
+You can determine whether your connection has worked in a number of ways, and we’ll take you through 
+them all. First, you should see some entries in the /var/log/openvpn.log file on the branch1 host.

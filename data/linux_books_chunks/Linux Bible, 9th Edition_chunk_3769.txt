@@ -1,0 +1,6 @@
+The next sections 
+explore what you can troubleshoot from the Setup and Boot Order screens.
+
+Troubleshooting BIOS setup
+As I already noted, you can usually let the BIOS start without interruption and have the 
+system boot up to the default boot device (probably the hard drive).

@@ -1,0 +1,5 @@
+you can look at using groups to achieve this.
+
+Lines 22–28 are a Bash function that handles our error checking. If the script ends in anything other 
+than a zero, then it fails; if it ends in zero, the script is successful. The error_check() subroutine or function 
+takes the $? argument, the exit code from another function call, and tests it for a zero.

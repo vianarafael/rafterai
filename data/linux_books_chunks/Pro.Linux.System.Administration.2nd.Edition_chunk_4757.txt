@@ -1,0 +1,13 @@
+If you do 
+not like this LDAP management client for managing your LDAP service, we suggest you try one of the other 
+clients we mentioned earlier.
+
+For further documentation on configuring LAM, please visit the following:
+
+•	
+
+https://www.ldap-account-manager.org/static/doc/manual-onePage/index.html
+
+Integration with Other Services
+The main aim of deploying an LDAP server is to be able to integrate different services that require 
+authentication with a single authentication service.

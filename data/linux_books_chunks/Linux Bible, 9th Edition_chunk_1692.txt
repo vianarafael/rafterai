@@ -1,0 +1,9 @@
+Open source versions 
+of most common types of desktop applications are available to you through the Software 
+ window after you have an Internet connection from Fedora to the Internet.
+
+However, here are some examples of why you might want to go beyond what you can do 
+with the Software window:
+
+ ■ More repositories—Fedora and Red Hat Enterprise Linux distribute only open 
+source, freely distributable software.

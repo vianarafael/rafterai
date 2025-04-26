@@ -1,0 +1,5 @@
+The other examples are for remote hosts. In each case, hostname can be the host’s name 
+or IP address. Port numbers or paths identify the locations of each printer on the host.
+
+If you fi nd that you cannot print because a particular printer driver is not supported in CUPS, you can set up your 
+printer to accept jobs in raw mode.

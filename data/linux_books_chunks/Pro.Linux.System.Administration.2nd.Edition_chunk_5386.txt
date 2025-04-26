@@ -1,0 +1,16 @@
+We can do this using the sudo 
+
+command to execute the ssh-keygen command from the Nagios home directory of /var/spool/nagios.
+
+# sudo -u nagios ssh-keygen -t rsa -b 4096
+Generating public/private rsa key pair.
+Enter file in which to save the key (/var/spool/nagios/.ssh/id_rsa):
+Created directory '/var/spool/nagios/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /var/spool/nagios/.ssh/id_rsa.
+Your public key has been saved in /var/spool/nagios/.ssh/id_rsa.pub.
+The key fingerprint is:
+df:fc:d6:d2:50:66:65:51:79:d1:f8:56:a1:78:a4:df nagios@nagios.example.com
+
+We use the -t rsa option to create an RSA key.

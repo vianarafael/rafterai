@@ -1,0 +1,27 @@
+It’s 
+really quite simple, but it employs several of the concepts just introduced.
+
+#!/bin/bash
+# (@)/ph
+# A very simple telephone list
+# Type "ph new name number" to add to the list, or
+# just type "ph name" to get a phone number
+
+PHONELIST=~/.phonelist.txt
+
+# If no command line parameters ($#), there
+# is a problem, so ask what they're talking about.
+if [ $# -lt 1 ] ; then
+  echo "Whose phone number did you want? "
+   exit 1
+fi
+
+# Did you want to add a new phone number?
+if [ $1 = "new" ] ; then
+  shift
+  echo $* >> $PHONELIST
+  echo $* added to database
+  exit 0
+fi
+
+# Nope.

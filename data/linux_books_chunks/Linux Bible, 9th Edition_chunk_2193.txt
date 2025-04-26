@@ -1,0 +1,8 @@
+Here’s an example:
+
+# mkdir /mnt/mycdimage
+# mount -o loop whatever-i686-disc1.iso /mnt/mycdimage
+
+In this example, the /mnt/mycdimage directory is created, and then the disk image ﬁ le 
+(whatever-i686-disc1.iso) residing in the current directory is mounted on it. You can 
+now cd to that directory, view the contents of it, and copy or use any of its contents.

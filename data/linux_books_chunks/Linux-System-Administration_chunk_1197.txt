@@ -1,0 +1,28 @@
+Looking for a specific file (e1000_main.c) with find reveals it's
+exact location.
+
+paul@barry:~$ ls -l /usr/src/
+drwxr-xr-x 20 root root     4096 2006-04-04 22:12 linux-source-2.6.15
+drwxr-xr-x 19 root root     4096 2006-07-15 17:32 linux-source-2.6.16
+paul@barry:~$ find /usr/src -name e1000_main.c
+/usr/src/linux-source-2.6.15/drivers/net/e1000/e1000_main.c
+/usr/src/linux-source-2.6.16/drivers/net/e1000/e1000_main.c
+
+This is very similar to /usr/src on Ubuntu, except there is only one kernel here (and it is
+newer).
+
+paul@laika:~$ ls -l /usr/src/
+drwxr-xr-x 23 root root     4096 2008-11-24 23:28 linux-source-2.6.24
+paul@laika:~$ find /usr/src -name "e1000_main.c"
+/usr/src/linux-source-2.6.24/drivers/net/e1000/e1000_main.c
+
+Now take a look at /usr/src on Red Hat Enterprise Linux.
+
+[paul@RHEL52 ~]$ ls -l /usr/src/
+drwxr-xr-x 5 root root 4096 Dec  5 19:23 kernels
+drwxr-xr-x 7 root root 4096 Oct 11 13:22 redhat
+
+We will have to dig a little deeper to find the kernel source on Red Hat!
+
+[paul@RHEL52 ~]$ cd /usr/src/redhat/BUILD/
+[paul@RHEL52 BUILD]$ find .

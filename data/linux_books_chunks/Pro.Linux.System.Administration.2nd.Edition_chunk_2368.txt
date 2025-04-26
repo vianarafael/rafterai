@@ -1,0 +1,4 @@
+Figure 9-3 shows how the root filesystem on our host was automatically 
+checked and the journal on /dev/mapper/au--mel--ubuntu--1--vg--root was replayed after a crash.
+
+Figure 9-3.

@@ -1,0 +1,5 @@
+Also, today, many Linux servers tuned for special tasks (for example, serving as a 
+web server or ﬁ le server) don’t have desktop software installed.
+
+Nearly every major Linux distribution that offers desktop interfaces is based on the X 
+Window System (http://www.x.org).

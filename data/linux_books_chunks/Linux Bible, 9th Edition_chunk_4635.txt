@@ -1,0 +1,6 @@
+If you have SELinux enforced on your system, it would be wise to have the 
+setroubleshootd daemon running as well.
+
+Troubleshooting SELinux logging
+Obviously, the log ﬁ les are extremely important for diagnosing and addressing SELinux 
+policy violations.

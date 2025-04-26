@@ -1,0 +1,5 @@
+With sudo su <user> you don’t need to know the password of the user you 
+are trying to access as you are using privileges via sudo.
+
+To use this command, you type sudo and then the command you want to execute. If you’re allowed 
+to run sudo on that command, you’ll be prompted to input a password, usually your own user password.

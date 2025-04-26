@@ -1,0 +1,9 @@
+You connect to the server via the command-line utility and issue the 
+CREATE DATABASE statement, giving it the database name as a parameter, as shown in Figure 11-6. (Note that 
+we’ve used uppercase in the SQL statements for clarity only; if you use lowercase, they’ll still work fine.)
+
+496
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-6.

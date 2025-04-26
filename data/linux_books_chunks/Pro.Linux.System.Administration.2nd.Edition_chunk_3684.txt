@@ -1,0 +1,4 @@
+In our configuration, we specify the loopback network and the 192.168.0. 
+network. The notations 127. and 192.168.0. are equivalent to specifying the network masks 127.0.0.0/8 
+and 192.168.0.0/24, respectively. Here you can also specify individual hosts by using their full IP address 
+and exclude certain hosts by using the EXCEPT clause.

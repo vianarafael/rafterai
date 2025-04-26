@@ -1,0 +1,9 @@
+557
+
+c21.indd  04/01/2015  Page 558
+
+Part IV: Becoming a Linux Server Administrator
+
+This probably means that the master boot record portion of GRUB was found, but 
+when GRUB looked on the hard drive to ﬁ nd the next stage of the boot process 
+and a menu of operating systems to load, it could not ﬁ nd them.

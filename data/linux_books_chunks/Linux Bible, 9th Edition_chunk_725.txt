@@ -1,0 +1,18 @@
+Table 3.6 shows the ﬁ les that are of interest to anyone using the bash shell 
+in Linux. (Notice the use of ~ in the ﬁ lenames to indicate that the ﬁ le is located in each 
+user’s home directory.)
+
+TABLE 3.6    Bash Conﬁ guration Files
+
+File
+
+Description
+
+/etc/profile
+
+/etc/bashrc
+
+~/.bash_profile
+
+This sets up user environment information for every user. It is executed 
+when you fi rst log in.

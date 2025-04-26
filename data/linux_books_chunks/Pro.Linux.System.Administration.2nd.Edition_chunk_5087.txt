@@ -1,0 +1,5 @@
+We load the imuxsock module 
+
+(module(load="imuxsock")), which is needed to deliver syslog system calls to rsyslog, and the imklog 
+(module(load="imklog")), which allows for kernel logging. There are many modules that can be loaded, 
+and you can find a list of those that are bundled with rsyslog in the man rsyslog.conf page.

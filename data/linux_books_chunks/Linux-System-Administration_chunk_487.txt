@@ -1,0 +1,10 @@
+LVM is still using the old size.
+
+[root@RHEL5 ~]# fdisk -l 2>/dev/null | grep sde1
+/dev/sde1               1         200      204784   83  Linux
+[root@RHEL5 ~]# pvs | grep sde1
+  /dev/sde1             lvm2 --    99.98M  99.98M
+[root@RHEL5 ~]#
+
+Executing pvresize on the Physical Volume will make lvm aware of the size change of the
+partition.

@@ -1,0 +1,7 @@
+However, there are ways to uncover them through various 
+monitoring tactics covered in this section.
+
+Verifying software packages
+Typically, if you install a software package from a standard repository or download a repu-
+table site’s package, you won’t have any problems. But it is always good to double-check 
+your installed software packages to see if they have been compromised.

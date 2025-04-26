@@ -1,0 +1,6 @@
+In the next lines (again 
+indented), we specify that external command.
+
+We specify the external command will run, the user to run it as, and then the command and arguments 
+
+we’re going to pass to that command.

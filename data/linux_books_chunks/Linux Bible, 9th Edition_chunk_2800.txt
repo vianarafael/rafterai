@@ -1,0 +1,31 @@
+Only the service’s conﬁ guration ﬁ les are loaded again.
+
+# systemctl status sshd.service
+sshd.service - OpenSSH server daemon
+   Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled)
+
+15
+
+407
+
+c15.indd  04/01/2015  Page 408
+
+Part IV: Becoming a Linux Server Administrator
+
+   Active: active (running) since Fri 2018-11-24 14:06:57 EST...
+ Main PID: 1675 (sshd)
+   CGroup: /system.slice/sshd.service
+           └─1675 /usr/sbin/sshd -D
+# systemctl reload sshd.service
+# systemctl status sshd.service
+sshd.service - OpenSSH server daemon
+   Loaded: loaded (/lib/systemd/system/sshd.service; enabled)
+   Active: active (running) since Fri 2018-11-24 14:06:57 EST...
+  Process: 2149 ExecReload=/bin/kill -HUP $MAINPID
+       (code=exited, status=0/SUCCESSd)
+ Main PID: 1675 (sshd)
+   CGroup: /system.slice/sshd.service
+           └─1675 /usr/sbin/sshd -D
+
+Doing a reload of a service, instead of a restart, prevents any pending service 
+ operations from being aborted.

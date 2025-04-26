@@ -1,0 +1,5 @@
+The dump-file directive allows named to write transient data to a file when it exits. It can then reread 
+this data when it is started again. The statistics-file defines where named writes statistical information 
+about the types and number of queries it receives.
+
+This bind server is set to listen on localhost for IPv4 and IPv6.

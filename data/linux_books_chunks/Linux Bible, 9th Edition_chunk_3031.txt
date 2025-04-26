@@ -1,0 +1,6 @@
+You can read the comment lines to 
+learn more about the ﬁ le’s contents. Lines beginning with a semicolon (;) indicate the default 
+setting for the option on a comment line. Remove the semicolon to change the setting.
+
+The selected lines show that printers from /etc/printcap were loaded and that the CUPS 
+service is being used.

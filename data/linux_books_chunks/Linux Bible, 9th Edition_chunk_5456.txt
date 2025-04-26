@@ -1,0 +1,13 @@
+Select the size of disk you want to use, and click Forward.
+
+g. Select “Virtual network default: NAT” (it may already be selected).
+
+h. If it all looks okay, click Finish.
+
+i. Follow the installation process indicated by the installation ISO.
+
+7.  To make sure you can log in to and use the virtual machine, do the following:
+
+a. Double-click the entry for the new virtual machine.
+
+b.

@@ -1,0 +1,10 @@
+# distrobox-create
+
+
+- Create a Distrobox container using the Ubuntu image:
+
+`distrobox-create {{container_name}} {{[-i|--image]}} {{ubuntu:latest}}`
+
+- Clone a Distrobox container:
+
+`distrobox-create {{[-c|--clone]}} {{container_name}} {{cloned_container_name}}`

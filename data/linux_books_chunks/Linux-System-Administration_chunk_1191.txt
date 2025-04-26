@@ -1,0 +1,42 @@
+Looking at this file reveals when the kernel was started, including all the devices
+that were detected at boot time.
+
+[root@RHEL53 ~]# grep -A16 "syslogd 1.4.1:" /var/log/messages|cut -b24-
+syslogd 1.4.1: restart.
+kernel: klogd 1.4.1, log source = /proc/kmsg started.
+kernel: Linux version 2.6.18-128.el5 (mockbuild@hs20-bc1-5.build.red...
+kernel: BIOS-provided physical RAM map:
+kernel:  BIOS-e820: 0000000000000000 - 000000000009f800 (usable)
+kernel:  BIOS-e820: 000000000009f800 - 00000000000a0000 (reserved)
+kernel:  BIOS-e820: 00000000000ca000 - 00000000000cc000 (reserved)
+kernel:  BIOS-e820: 00000000000dc000 - 0000000000100000 (reserved)
+kernel:  BIOS-e820: 0000000000100000 - 000000001fef0000 (usable)
+kernel:  BIOS-e820: 000000001fef0000 - 000000001feff000 (ACPI data)
+kernel:  BIOS-e820: 000000001feff000 - 000000001ff00000 (ACPI NVS)
+kernel:  BIOS-e820: 000000001ff00000 - 0000000020000000 (usable)
+kernel:  BIOS-e820: 00000000fec00000 - 00000000fec10000 (reserved)
+kernel:  BIOS-e820: 00000000fee00000 - 00000000fee01000 (reserved)
+kernel:  BIOS-e820: 00000000fffe0000 - 0000000100000000 (reserved)
+kernel: 0MB HIGHMEM available.
+kernel: 512MB LOWMEM available.
+
+This example shows how to use /var/log/messages to see kernel information about /dev/sda.
+
+[root@RHEL53 ~]# grep sda /var/log/messages | cut -b24-
+kernel: SCSI device sda: 41943040 512-byte hdwr sectors (21475 MB)
+kernel: sda: Write Protect is off
+kernel: sda: cache data unavailable
+kernel: sda: assuming drive cache: write through
+kernel: SCSI device sda: 41943040 512-byte hdwr sectors (21475 MB)
+kernel: sda: Write Protect is off
+kernel: sda: cache data unavailable
+kernel: sda: assuming drive cache: write through
+kernel:  sda: sda1 sda2
+kernel: sd 0:0:0:0: Attached scsi disk sda
+kernel: EXT3 FS on sda1, internal journal
+
+327
+
+the Linux kernel
+
+28.1.7.

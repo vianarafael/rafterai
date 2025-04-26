@@ -1,0 +1,8 @@
+The kernel handles the basic functions
+of the operating system: memory allocation, process allocation, device
+input and output, etc.
+
+Listing 8-10 has produced a lot of information. Some of it may not mean very much to you initially, but 
+
+let’s look at some of the data. You can see the version and release number, and the dates when it was built 
+and installed.

@@ -1,0 +1,18 @@
+To do those things, type the following as 
+root user from a shell on the Samba server:
+
+# systemctl restart smb.service
+# smbclient -L localhost
+Enter root's password: <ENTER>
+Anonymous login successful
+Domain=[DATAGROUP] OS=[Unix] Server=[Samba 4.1.15]
+       Sharename   Type  Comment
+       ---------   ----  -------
+       salesdata   Disk  Sales data for current year
+       IPC$        IPC   IPC Service (Samba Server Version 4.1.15))
+Anonymous login successful
+Domain=[DATAGROUP] OS=[Unix] Server=[Samba 4.1.15]
+...
+
+Here you can see the share name (salesdata), the Domain set to the workgroup name 
+DATAGROUP, and the description entered earlier (Sales data for current year).

@@ -1,0 +1,7 @@
+The File daemon communicates what files have been backed up to the Director 
+daemon, and that information is written to the Bareos catalog.
+
+The catalog records the files that have been backed up, the location from which they were backed up, 
+
+when they were backed up, and onto what media (or volume) they were backed up. This catalog is kept in a 
+SQL database for future reference.

@@ -1,0 +1,4 @@
+You can order how these modules are loaded by prefixing a number to the 
+file name, and this is the default on CentOS. To prevent such a snippet from being included, thus disabling 
+the module, you can rename it so its file name no longer ends in .conf or move or remove the file from the 
+directory.

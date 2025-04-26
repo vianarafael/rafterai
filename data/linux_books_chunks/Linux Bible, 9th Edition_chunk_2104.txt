@@ -1,0 +1,23 @@
+If the new 
+devices are not there, run the partprobe /dev/sdc command on the drive or 
+reboot your computer.
+
+# grep sdc /proc/partitions
+   8       32    7833600 sdc
+   8       33     512000 sdc1
+   8       34     512000 sdc2
+   8       35     307200 sdc3
+   8       36          1 sdc4
+   8       37     358400 sdc5
+   8       38     409600 sdc6
+
+294
+
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 295
+
+Chapter 12: Managing Disks and Filesystems
+
+6.

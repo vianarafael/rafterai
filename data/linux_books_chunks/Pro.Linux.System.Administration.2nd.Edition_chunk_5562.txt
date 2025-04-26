@@ -1,0 +1,6 @@
+We then 
+created an 80GB LVM logical volume called vg_root.
+
+Package Management
+
+Using Kickstart, you can specify the packages you want to install.

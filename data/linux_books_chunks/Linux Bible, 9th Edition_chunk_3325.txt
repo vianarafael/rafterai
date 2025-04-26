@@ -1,0 +1,7 @@
+After permissions and other security provisions are in place for 
+your FTP server, you may want to consider other conﬁ guration settings for your FTP server.
+
+Confi guring Your FTP Server
+Most of the conﬁ guration for the vsftpd service is done in the /etc/vsftpd/vsftpd.
+conf ﬁ le. Examples of the vsftpd.conf for different types of sites are included in the 
+/usr/share/doc/vsftpd-* directory.

@@ -1,0 +1,13 @@
+The hp printer is 
+
+440
+
+c16.indd  04/01/2015  Page 441
+
+Chapter 16: Confi guring a Print Server
+
+currently disabled (ofﬂ ine), although the queue is enabled so people can continue to send 
+jobs to the printer.
+
+Removing print jobs with lprm
+Users can remove their own print jobs from the queue with the lprm command.

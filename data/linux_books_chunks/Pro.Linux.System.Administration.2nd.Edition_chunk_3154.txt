@@ -1,0 +1,22 @@
+Then we forward traffic coming in to 
+the firewall on port 80 to be redirected to port 3128 where Squid will be waiting.
+
+$ sudo firewall-cmd --permanent --zone=public --add-masquerade
+$ sudo firewall-cmd --permanent --zone=public --add-forward-port=port=80:proto=tcp:toport=31
+28:to_addr=192.168.0.254
+$ sudo firewall-cmd --reload
+
+We then reload the firewall to make the changes permanent.
+
+ ■ Caution 
+remote web sites directly, without being redirected to itself.
+
+ if your transparent proxy host is not the gateway host, you should make sure it can access 
+
+523
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Summary
+In this chapter, we showed you how to use your Linux host as a flexible web server with SQL support and 
+how to make use of this by installing web services.

@@ -1,0 +1,15 @@
+This screenshot shows you how.
+
+[root@rhel6 ~]# ifconfig eth0 | grep HWaddr
+eth0 Link encap:Ethernet  HWaddr 08:00:27:DD:0D:5C  
+[root@rhel6 ~]# ifconfig eth0 hw ether 00:42:42:42:42:42
+[root@rhel6 ~]# ifconfig eth0 | grep HWaddr
+eth0 Link encap:Ethernet  HWaddr 00:42:42:42:42:42
+
+21
+
+interface configuration
+
+2.5. ip
+
+The ifconfig tool is deprecated on some systems.

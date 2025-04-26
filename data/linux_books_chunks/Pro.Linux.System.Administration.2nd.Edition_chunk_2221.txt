@@ -1,0 +1,22 @@
+To verify that the 
+
+partition is now mounted, use the df command.
+
+$ df -h
+Filesystem                                  Size   Used    Avail  Use%   Mounted on
+udev                                        478M      0     478M    0%   /dev
+tmpfs                                       100M   3.3M      96M    4%   /run
+/dev/mapper/au--mel--ubuntu--1--vg-root     6.3G   2.6G     3.4G   44%   /
+tmpfs                                       497M      0     497M    0%   /dev/shm
+
+379
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+tmpfs                                       5.0M      0     5.0M    0%   /run/lock
+tmpfs                                       497M      0     497M    0%   /sys/fs/cgroup
+/dev/sda1                                   472M   147M     301M   33%   /boot
+tmpfs                                       100M      0     100M    0%   /run/user/1000
+/dev/sdb2                                   2.0G   3.0M     1.8G    1%   /mnt/data
+
+Our partition is listed at the bottom of the output, so the mount command has succeeded.

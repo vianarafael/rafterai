@@ -1,0 +1,7 @@
+target to multi-user.target by changing the default.target symbolic link 
+from runlevel5.target to runlevel3.target. The -f option is used on the ls -s 
+ command to force any current symbolic link to be broken and the new designated symbolic 
+link to be enforced.
+
+# ls -l /lib/systemd/system/runlevel3.target
+lrwxrwxrwx.

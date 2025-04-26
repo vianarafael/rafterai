@@ -1,0 +1,9 @@
+We will show you how to do this when we authenticate with Apache later in this 
+chapter.
+
+758
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Anonymous auth is required for how we implement single sign-on services, which we will explain 
+later in the “Single Sign-On: Centralized Linux Authentication” section of this chapter.

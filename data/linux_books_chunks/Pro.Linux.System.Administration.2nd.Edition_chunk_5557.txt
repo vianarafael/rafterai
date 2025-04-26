@@ -1,0 +1,8 @@
+the 
+
+ ■ Note 
+autopart option automatically creates three partitions. the first partition is a 1gB or larger root (/) partition, the 
+second is a swap partition, and the third is an appropriate boot partition for the architecture. one or more of the 
+default partition sizes can be redefined with the part directive.
+
+You use the part option to create specific partitions.

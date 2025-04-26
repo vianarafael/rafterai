@@ -1,0 +1,12 @@
+The string done ends the for statement.
+
+If you’re a die-hard C programmer, bash allows you to use C syntax to control your loops:
+
+LIMIT=10
+# Double parentheses, and no $ on LIMIT even though it's a variable!
+for ((a=1; a <= LIMIT ; a++)) ; do
+  echo  "$a"
+done
+
+The “while…do” and “until…do” loops
+Two other possible looping constructs are the while...do loop and the until...do loop.

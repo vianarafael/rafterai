@@ -1,0 +1,15 @@
+You then check to make 
+sure that the mount succeeded.
+
+# mkdir /mnt/test
+# mount /dev/sdc1 /mnt/test
+# df -h /mnt/test
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sdc1             7.4G   17M  7.0G   1% /mnt/test
+# mount | grep sdc1
+/dev/sdc1 on /mnt/test type ext4 (rw)
+
+12
+
+The df command shows that /dev/sdc1 is mounted on /mnt/test and that 
+it offers about 7.4GB of disk space.

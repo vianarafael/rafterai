@@ -1,0 +1,8 @@
+target 
+unit to the runlevel target unit of your choice. To check what default.target is 
+ currently symbolically linked to (or in legacy terms, to check the default runlevel), use the 
+command shown here. You can see that on this Linux server, the default is to start up at 
+legacy runlevel 3.
+
+# ls -l /etc/systemd/system/default.target
+lrwxrwxrwx.

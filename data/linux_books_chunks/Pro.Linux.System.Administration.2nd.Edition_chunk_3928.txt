@@ -1,0 +1,3 @@
+We have added this user to the adm, 
+or administrator, group because this group traditionally has access to read log files. The exbackup home 
+directory is /data/backups, and that is where we will store all our backups.

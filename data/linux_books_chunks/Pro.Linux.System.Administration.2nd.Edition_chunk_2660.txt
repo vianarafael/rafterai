@@ -1,0 +1,7 @@
+Open the /etc/named/named.conf.
+
+local file on the slave server and add a zone definition for the example.com domain. Set the zone type to 
+slave. To make sure that the server can retrieve the zone data, you need to specify the address for the master 
+server in the masters configuration block. We’ve included the configuration for our network in Listing 10-28.
+
+Listing 10-28.

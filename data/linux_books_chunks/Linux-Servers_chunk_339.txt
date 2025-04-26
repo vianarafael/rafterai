@@ -1,0 +1,5 @@
+The forwarder must be a dns server for example the dns server of
+an internet service provider.
+
+This picture shows a dns server on the company LAN that has set the dns server from their
+isp as a forwarder.

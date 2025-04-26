@@ -1,0 +1,7 @@
+If you are running Red Hat Enterprise 
+Linux, you search for, identify, and install the packages associated with a particular CVE 
+and delivered in errata.
+
+For more on how security updates are handled in Red Hat Enterprise Linux, refer to the 
+Security Updates page on the Red Hat customer portal (https://access.redhat.com/
+security/updates/).

@@ -1,0 +1,10 @@
+# mate-calc
+
+
+- Start the calculator:
+
+`mate-calc`
+
+- Calculate a specific mathematic expression:
+
+`mate-calc --solve {{2 + 5}}`

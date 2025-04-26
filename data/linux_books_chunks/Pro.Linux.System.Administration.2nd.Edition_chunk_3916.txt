@@ -1,0 +1,4 @@
+After the initial rsync copy of the remote data to our host, any subsequent 
+copy will be compared against what we already have. rsync does this by sending a file list of the data it wants 
+to copy to the receiving host. The file list includes the pathnames of the data we want to back up and also 
+the permissions, ownership, size, modtimes, and, if specified, checksums of the files.

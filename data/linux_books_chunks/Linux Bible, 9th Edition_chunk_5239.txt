@@ -1,0 +1,12 @@
+To display general information about the package you just downloaded by querying 
+
+the package’s RPM ﬁ le in the current directory, type the following:
+
+# rpm -qip ImageMagick-6.8.8.10-5.fc21.x86_64.rpm 
+Name        : ImageMagick
+Version     : 6.8.8.10
+Release     : 5.fc21
+Architecture: x86_64
+...
+
+10.

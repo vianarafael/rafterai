@@ -1,0 +1,3 @@
+What this says is to tell the handler named mariadb_
+restarted to execute the task associated with it if these packages change. This does not immediately start 
+the database, however, and we will do that shortly.

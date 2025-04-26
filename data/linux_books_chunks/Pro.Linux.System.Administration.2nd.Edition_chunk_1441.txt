@@ -1,0 +1,7 @@
+The session layer controls the establishing and closing out connections between computers. Layers 6 to 7 are 
+responsible for connecting the user and this is where the HTTP and browser connects you to the web server.
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+General Network Troubleshooting
+Things can go wrong on your network.

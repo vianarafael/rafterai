@@ -1,0 +1,7 @@
+Again some care and consideration is 
+required when doing this as it will cause all services and tools that connect from your host or from your 
+internal network via this firewall to fail if they are not explicitly allowed to enter or leave.
+
+Network Address Translation
+Network address translation allows your private network IP address space to appear to originate from a 
+single public IP address.

@@ -1,0 +1,30 @@
+The output 
+this command generates is then interpreted by eval.
+
+$ ssh-agent -k
+unset SSH_AUTH_SOCK;
+unset SSH_AGENT_PID;
+echo Agent pid 11535 killed;
+$ eval `ssh-agent`
+Agent pid 11541
+
+All we need to do now is unlock the private key and add it to the agent.
+
+$ ssh-add
+Enter passphrase for /home/jsmith/.ssh/id_rsa:
+Identity added: /home/jsmith/.ssh/id_rsa (/home/jsmith/.ssh/id_rsa)
+
+We are able to connect to any host that contains the matching public key, without any further need to 
+
+enter a password.
+
+$ ssh jsmith@au-mel-centos-1
+Last login: Tue Feb 10 15:17:19 2009 from au-mel-ubuntu-1.example.com
+[jsmith@au-mel-centos-1 ~]$
+
+ ■ Tip  You can tell multiple shells on the same host that you are using the agent by simply setting the SSH_
+AUTH_SOCK and SSH_AGENT_PID variables to the correct values in the shell.
+
+Tweaking SSH Configuration
+When all your SSH servers listen on the same port and you use a single key pair for all hosts, the default 
+server configuration will suit you fine.

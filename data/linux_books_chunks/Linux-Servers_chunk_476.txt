@@ -1,0 +1,19 @@
+sysctl
+
+For more information, take a look at the man page of sysctl.
+
+root@debian6~# man sysctl
+root@debian6~# sysctl -a 2>/dev/null | grep ip_forward
+net.ipv4.ip_forward = 0
+
+116
+
+ 
+ 
+ 
+introduction to routers
+
+7.14. practice: packet forwarding
+
+0. You have the option to select (or create) an internal network when adding a network card
+in VirtualBox or VMWare.

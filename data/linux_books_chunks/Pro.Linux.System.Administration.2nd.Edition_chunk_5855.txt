@@ -1,0 +1,29 @@
+Let’s run the 
+
+Serverspec test again.
+
+$ rake spec
+Package "apache2"
+  should be installed
+
+Service "apache2"
+  should be enabled
+  should be running
+
+Port "80"
+  should be listening
+
+Finished in 0.06987 seconds (files took 11.03 seconds to load)
+4 examples, 0 failures
+...
+Package "httpd"
+  should be installed
+
+Service "httpd"
+  should be enabled (FAILED - 1)
+  should be running (FAILED - 2)
+
+Port "80"
+  should be listening (FAILED - 3)
+
+Running rake spec will run the tests over any of the hosts in our spec/ folder.

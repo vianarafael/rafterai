@@ -1,0 +1,2 @@
+The key to getting live VM migration to work is setting up your environment 
+properly.

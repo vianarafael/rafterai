@@ -1,0 +1,7 @@
+We’ll also look at some tools to make it easier to interact with 
+your logs.
+
+In the second section of this chapter, we’ll show how you can use an open source tool called Nagios 
+
+to monitor the applications and services we’ve introduced. Nagios allows you to define your hosts and the 
+services that run on them.

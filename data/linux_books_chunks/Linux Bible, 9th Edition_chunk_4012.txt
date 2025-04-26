@@ -1,0 +1,8 @@
+You may need to retrieve 
+information again shortly from a ﬁ le cabinet, but you almost surely don’t need it all 
+immediately. Keep top running in one Terminal window to see the Mem line change 
+as you type the following (as root) into another Terminal window:
+
+# echo 3 > /proc/sys/vm/drop_caches
+
+ ■ Kill an out-of-memory process.

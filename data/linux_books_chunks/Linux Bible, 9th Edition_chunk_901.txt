@@ -1,0 +1,7 @@
+These commands 
+include the vim/vi text editors, the find command and the grep command.
+
+Exercises
+Use these exercises to test your knowledge of efﬁ cient ways to move around the ﬁ lesystem 
+and work with ﬁ les and directories. When possible, try to use shortcuts to type as little as 
+possible to get the desired results.

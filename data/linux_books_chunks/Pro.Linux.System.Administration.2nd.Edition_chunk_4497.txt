@@ -1,0 +1,22 @@
+it has its own rFC (https://www.ietf.org/rfc/rfc2849.txt) and can be used by the 
+LDAP tools to change the records in the LDAP database.
+
+The format of a LDiF file looks like so:
+
+dn: <the distinguished name you wish to change>
+changetype: optional change type of either add, replace, or delete
+<attribute or objectclass>: value
+
+742
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+The following is an example:
+
+dn: dc=example,dc=com
+objectclass: dcObject
+objectclass: organizationalUnit
+dc: example
+ou: example
+
+here we have described the top level of the DiT.

@@ -1,0 +1,5 @@
+These 
+policies and rules essentially make up an access control list for your Linux server network.
+
+At this point in the book, you should have a good grasp of what goes into setting up and 
+securing Linux desktop and server systems.

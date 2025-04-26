@@ -1,0 +1,12 @@
+Assign the group sales to the directory:
+
+# chgrp sales /mnt/salestools
+
+5.  Change the directory permission to 2775. This turns on the set group ID bit (2), full 
+
+rwx for the user (7), rwx for group (7), and r-x (5) for other:
+
+# chmod 2775 /mnt/salestools
+
+6.  Become mary (run su - mary). As mary, create a ﬁ le in the shared directory and 
+look at the permissions.

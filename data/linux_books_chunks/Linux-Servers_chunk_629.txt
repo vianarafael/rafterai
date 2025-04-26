@@ -1,0 +1,15 @@
+Start Samba with your minimal smb.conf.
+
+/etc/init.d/smb restart (Red Hat)
+
+/etc/init.d/samba restart (Debian)
+
+7. Verify with smbclient that your Samba server works.
+
+smbclient -NL 127.0.0.1
+
+8. Verify that another computer can see your Samba server.
+
+smbclient -NL 'ip-address' (on a Linux)
+
+9.

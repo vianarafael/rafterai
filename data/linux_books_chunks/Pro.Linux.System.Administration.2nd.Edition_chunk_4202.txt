@@ -1,0 +1,23 @@
+They are used to 
+allow the Director to get the status of the File daemon and define where to send messages if there is an error.
+
+Testing the Syntax
+
+We can now test the syntax of our bareos-dir.conf configuration file by issuing the following command:
+
+$ sudo /usr/sbin/bareos-dir -t -c /etc/bareos/bareos-dir.conf
+
+For the File and Storage daemons, we would issue this command:
+
+$ sudo /usr/sbin/bareos-fd -t -c /etc/bareos/bareos-fd.conf
+
+or this one:
+
+$ sudo /usr/sbin/bareos-sd -t -c /etc/bareos/bareos-sd.conf
+
+685
+
+Chapter 14 ■ BaCkup and reCovery
+
+If neither command returns an error, then each has a syntactically correct configuration, and we can 
+enable and start our service using systemctl.

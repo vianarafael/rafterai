@@ -1,0 +1,4 @@
+For example, if you have one network interface card (NIC) 
+on a computer that faces the Internet and another that faces a private network, you may 
+want to offer a private service (like the CUPS service for printing) to the NIC on your pri-
+vate network.

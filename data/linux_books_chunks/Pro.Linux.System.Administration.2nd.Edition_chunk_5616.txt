@@ -1,0 +1,6 @@
+strict_variables means that the parse will raise an error when referencing unknown 
+variables.
+
+In the [master] section, we define setting for the Puppet master server. We are not going to set anything 
+here except the dns_alt_names value. Settings that might belong in here are codedir, where Puppet will look 
+for the Puppet code, or the manifest, which we are going to write.

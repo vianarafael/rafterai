@@ -1,0 +1,3 @@
+Though the software can handle this fine, there are some security considerations. The main one of these is 
+due to an attack known as DNS cache poisoning, which allows an attacker to make your caching DNS server 
+hand out incorrect addresses.

@@ -1,0 +1,17 @@
+(optional) Display the usage of swap with vmstat and free -s during a memory leak.
+
+218
+
+memory management
+
+18.5. solution : memory
+
+1. Use dmesg to find the total amount of memory in your computer.
+
+dmesg | grep Memory
+
+2. Use free to display memory usage in kilobytes (then in megabytes).
+
+free ; free -m
+
+3.

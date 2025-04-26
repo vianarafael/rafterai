@@ -1,0 +1,10 @@
+The first one is our EFI System Partition and it is a FAT32 file system of 537MB in size. It has the boot and esp 
+flags (both meaning it is a boot partition). The other thing to note is that the partition table is GPT.
+
+184
+
+Chapter 6 ■ Startup and ServiCeS
+
+Figure 6-2.  EFI partition on Ubuntu
+
+So when UEFI is ready to run the boot loader it reads this partition looking for a boot loader.

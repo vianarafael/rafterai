@@ -1,0 +1,3 @@
+For example, the testparm command 
+is used with Samba to check the sanity of your smb.conf ﬁ le. Other times, the 
+daemon process providing a service offers an option for checking your conﬁ g ﬁ le.

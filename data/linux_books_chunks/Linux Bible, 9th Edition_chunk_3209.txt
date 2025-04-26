@@ -1,0 +1,6 @@
+When the CA sends you the certiﬁ cate (probably via email), save it in the 
+/etc/pki/tls/certs/ directory using a name based on the site you are 
+ hosting — for example, example.org.crt.
+
+5.  Change the value of SSLCertificateFile in the /etc/httpd/conf.d/ssl.
+conf ﬁ le to point to your new CRT ﬁ le.

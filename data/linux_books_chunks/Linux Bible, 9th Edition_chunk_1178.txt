@@ -1,0 +1,7 @@
+Unless you tell it otherwise with declare, your 
+variables are just a bunch of letters to bash. But when you start trying to do arithmetic 
+with them, bash converts them to integers if it can. This makes it possible to do some fairly 
+complex arithmetic in bash.
+
+Integer arithmetic can be performed using the built-in let command or through the 
+ external expr or bc commands.

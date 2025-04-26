@@ -1,0 +1,17 @@
+Here is an example:
+
+$ /usr/sbin/lpc status
+hp:    
+               printer is on device 'usb' speed -1
+               queuing is enabled
+               printing is disabled
+               no entries
+               daemon present
+deskjet_5550:
+               printer is on device '/dev/null' speed -1
+               queuing is enabled
+               printing is disabled
+               no entries
+               daemon present
+
+This output shows two active printers.

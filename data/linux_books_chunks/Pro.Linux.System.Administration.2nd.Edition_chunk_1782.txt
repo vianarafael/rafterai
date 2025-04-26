@@ -1,0 +1,2 @@
+the spec file contains metadata about what is in each package and describes the way 
+the package should be installed on your system.

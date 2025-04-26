@@ -1,0 +1,15 @@
+For example, create an
+/etc/sysconfig/network-scripts/ifcfg-eth0 that looks like the following 
+(then create eth1, eth2, eth3, and so on for each NIC you want to use in the bonding 
+interface):
+
+14
+
+DEVICE=eth0
+MASTER=bond0
+SLAVE=yes
+BOOTPROTO=none
+ONBOOT=yes
+
+With the eth0 interface used as part of the bond0 interface, there is no IP address 
+assigned.

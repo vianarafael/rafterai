@@ -1,0 +1,12 @@
+exportfs options
+-r
+-u
+-a
+-o
+
+re-read /etc/exports and export all directories listed
+unexport all shares (until exportfs -r is called)
+applies to all exports
+specify directories not listed in /etc/exports
+
+The nfsstat displays statistics about NFS server and client activity.

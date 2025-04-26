@@ -1,0 +1,8 @@
+One way to apply the patch is 
+to proceed as follows:
+
+cd /usr/src
+
+zcat patch-2.4.22.gz | patch -p0
+
+The -p option can strip any number of directories the patch is expecting to find.

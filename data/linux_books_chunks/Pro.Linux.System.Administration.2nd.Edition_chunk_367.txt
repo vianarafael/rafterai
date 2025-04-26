@@ -1,0 +1,6 @@
+Now open up the Vagrantfile with your editor. If you are using the Git Bash you can use the vi 
+program. We explain a lot more about vi in Chapter 4.
+
+The contents of the Vagrantfile looks similar to this shortened version shown in Listing 3-4.
+
+Listing 3-4.

@@ -1,0 +1,30 @@
+There is still clearly a need for file sharing, 
+but a better way to manage the documents in your business exists.
+
+A good document management system (DMS) will ideally achieve these five things for you:
+
+•	
+
+•	
+
+•	
+
+•	
+
+Securely share your documents with other staff members
+
+Provide version control for documents so that previous edits are not lost
+
+Require documents to be checked out so that two people can’t edit the same 
+document at the same time
+
+Style the DMS to match your company’s workflow for creating, reviewing, and 
+publishing documents
+
+•	 Have a single entry point for all your document sharing without having to manage 
+
+several file servers and their file shares
+
+With a good document management system, you typically have a web portal that becomes the central 
+
+point for all access to your documents.

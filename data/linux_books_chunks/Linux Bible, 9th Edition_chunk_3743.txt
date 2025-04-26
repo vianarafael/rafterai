@@ -1,0 +1,6 @@
+(Ubuntu 14.04, LTS used in this book still uses Upstart by default.)
+
+Starting with System V init scripts
+The System V init facility consists of the init process (the ﬁ rst process to run after the 
+kernel itself), an /etc/inittab ﬁ le that directs all start-up activities, and a set of shell 
+scripts that starts each of the individual services.

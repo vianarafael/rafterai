@@ -1,0 +1,7 @@
+Since kernel version 2.6 it is an
+integrated part of Linux.
+
+SELinux offers security! SELinux can control what kind of access users have to files and
+processes. Even when a file received chmod 777, SELinux can still prevent applications
+from accessing it (Unix file permissions are checked first!). SELinux does this by placing
+users in roles that represent a security context.

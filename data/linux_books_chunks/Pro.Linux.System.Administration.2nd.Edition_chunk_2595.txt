@@ -1,0 +1,51 @@
+Zone Header Fields
+
+Field
+
+$ORIGIN
+
+$TTL
+
+SOA
+
+Master
+
+Contact
+
+Serial
+
+Refresh
+
+Retry
+
+Expire
+
+Use
+
+Defines the start of the zone
+
+Time to live, which is the default expiration for records in this zone that do not have 
+their own expiration time set
+
+Start of Authority, which contains seven records of zone metadata
+
+Primary authoritative DNS server for this domain
+
+E-mail address of the contact for this domain, with the at sign (@) replaced by a 
+period
+
+Defines the version of this zone file, used by slave name servers
+
+Defines how often slave servers should update their copy of this zone
+
+Defines the interval between attempts to refresh a slave server
+
+Defines how long a slave server is allowed to use any version of this zone file
+
+Negative Cache TTL Defines how long a failed lookup result may be cached
+
+444
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+It’s also worth noting that we’re using a serial number based on the current date.

@@ -1,0 +1,4 @@
+server string
+
+The comment seen by the net view and the smbclient commands is the default value for
+the server string option.

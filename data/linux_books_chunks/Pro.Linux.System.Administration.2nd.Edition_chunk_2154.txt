@@ -1,0 +1,18 @@
+Specify the -h option 
+
+to display sizes in human readable form.
+
+$ sudo free -h
+         total       used     free      shared  buff/cache   available
+Mem:     992M        520M     62M       12M     409M         321M
+Swap:    3.0G        0B       3.0G
+
+Alternatively, you can use the swapon command:
+
+$ swapon –s
+Filename        Type               Size           Used        Priority
+/dev/dm-1       partition          3145728000        0              -1
+
+The command reports a total of 3.0 G of swap space, which is the original 1 G we already had plus the 
+
+2 G we just added.

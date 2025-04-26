@@ -1,0 +1,7 @@
+For 
+example, you could type yum search python | grep boto, and this will refine the list of the packages that are 
+related to python by searching for the term “boto” and then displaying the resulting list of packages.
+
+You can also use yum list see all the packages available from your repository, and you might also 
+find yum groups list useful to see the groupings of packages (yum help groups will list the other possible 
+subcommands for managing groups).

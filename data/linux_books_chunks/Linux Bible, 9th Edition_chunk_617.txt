@@ -1,0 +1,7 @@
+In 
+the following example, the -u option says to add information about idle time and the 
+ process ID and -H asks that a header be printed:
+
+$ who -uH
+NAME      LINE    TIME             IDLE     PID   COMMENT
+chris     tty1    Jan 13 20:57     .

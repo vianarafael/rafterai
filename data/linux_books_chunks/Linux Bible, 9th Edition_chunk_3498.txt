@@ -1,0 +1,6 @@
+Any value set for the server string is used later to 
+ﬁ ll in comment values presented next to IPC lines and in the printer comment box when 
+that information is presented to client applications.
+
+By default, your server’s DNS hostname (type hostname to see what it is) is used as your 
+Samba server’s NetBIOS name as well.

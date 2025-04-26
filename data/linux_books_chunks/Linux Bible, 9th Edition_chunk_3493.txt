@@ -1,0 +1,12 @@
+This is where you set the server’s description, its workgroup (domain), the 
+location of log ﬁ les, the default type of security, and other settings.
+
+ ■ [homes]—This section determines whether users with accounts on the Samba 
+server can see their home directories (browseable) or write to them (writable).
+
+ ■ [printers]—In this section, settings tell Samba whether to make printers available 
+
+through Samba that are conﬁ gured for Linux printing (CUPS).
+
+Inside the smb.conf ﬁ le, many sections are commented out by the lines beginning with semi-
+colons (;).

@@ -1,0 +1,6 @@
+The comment ﬁ eld was correctly set to Sara 
+Green, the home directory was automatically assigned as /home/sara, and the command 
+shell was assigned as /bin/tcsh, exactly as speciﬁ ed with the useradd options.
+
+By leaving out many of the options (as I did in the ﬁ rst useradd example), defaults are 
+assigned in most cases.

@@ -1,0 +1,10 @@
+This is the last communication needed to establish a connection between 
+two hosts and is called the three-way handshake.
+
+The last two packets are the exchange of data.
+
+IP 192.168.0.1.smtp > 192.168.0.254.33348: Flags [P.], 
+seq 1:42, ack 1, win 65535, length 41
+
+The mail server is sending a message to the client on 192.168.0.254, as indicated by [P.] seq 
+1:42, ack 1.

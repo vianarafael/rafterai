@@ -1,0 +1,19 @@
+On both CentOS and Ubuntu, the required package is 
+
+called thunderbird, and you should use your Application Installer tool (or package manager) to install it.
+
+Now, let’s review what we need to know in order to configure our client:
+
+Chapter 12 ■ Mail ServiCeS
+
+•	
+
+The name of our server
+
+•	 Our username and password
+
+We’re going to launch the Mozilla Thunderbird mail client by selecting the menu options Applications 
+
+➤ Internet ➤ Thunderbird, as shown in Figure 12-4.
+
+Figure 12-4.

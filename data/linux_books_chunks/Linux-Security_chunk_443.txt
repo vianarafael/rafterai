@@ -1,0 +1,14 @@
+Processes are confined by
+the kernel to the minimum access they require.
+
+SELinux MAC is about labeling and type enforcing! Files, processes, etc are all labeled with
+an SELinux context. For files, these are extended attributes, for processes this is managed
+by the kernel.
+
+The format of the labels is as follows:
+
+user:role:type:(level)
+
+We only use the type label in the targeted policy.
+
+12.10.

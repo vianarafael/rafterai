@@ -1,0 +1,5 @@
+You first see the journal starting, and then you see the initialization of cgroups, 
+followed by the Linux kernel version and how it was built. Then we see the kernel-loading command 
+followed by low-level memory initialization.
+
+The first line in Listing 18-1 shows us the date of the first entry and the date of the last entry.

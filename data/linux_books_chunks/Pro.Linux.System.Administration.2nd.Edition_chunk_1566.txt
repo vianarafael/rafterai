@@ -1,0 +1,8 @@
+This is used by modules like SELinux.
+
+Chains
+Each of the Netfilter tables, filter, nat, mangle, raw and security, contain sets of predefined hooks that 
+Netfilter will process in order. These hooks contain sequenced groupings of rules called chains. Each table 
+contains default chains that are built into the table. The built-in chains are described in Table 7-5.
+
+Table 7-5.

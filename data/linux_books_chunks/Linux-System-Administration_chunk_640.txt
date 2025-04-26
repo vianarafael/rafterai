@@ -1,0 +1,50 @@
+The first entry has number 0.
+
+default=0
+
+Each entry or stanza starts with a title directive.
+
+fallback
+
+In case the default does not boot, use the fallback entry instead.
+
+fallback=1
+
+timeout
+
+The timeout will wait a number of seconds before booting the default entry.
+
+timeout=5
+
+hiddenmenu
+
+The hiddenmenu will hide the grub menu unless the user presses Esc before the timeout
+expires.
+
+hiddenmenu
+
+title
+
+With title we can start a new entry or stanza.
+
+title CentOS (2.6.32-431.11.2.el6.x86_64)
+
+password
+
+You can add a password to prevent interactive selection of a boot environment while grub
+is running.
+
+password --md5 $1$Ec.id/$T2C2ahI/EG3WRRsmmu/HN/
+
+Use the grub interactive shell to create the password hash.
+
+grub> md5crypt
+
+Password: ********
+Encrypted: $1$Ec.id/$T2C2ahI/EG3WRRsmmu/HN/
+
+162
+
+bootloader
+
+14.2.4.

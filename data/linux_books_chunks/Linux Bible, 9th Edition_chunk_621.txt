@@ -1,0 +1,6 @@
+To ﬁ nd commands you type, the 
+shell looks in what is referred to as your path. For commands that are not in your path, you 
+can type the complete identity of the location of the command.
+
+If you know the directory that contains the command you want to run, one way to run it 
+is to type the full, or absolute, path to that command.

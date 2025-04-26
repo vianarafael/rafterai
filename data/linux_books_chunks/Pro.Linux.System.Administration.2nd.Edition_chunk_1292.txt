@@ -1,0 +1,79 @@
+Describing the Full List of Objects in the ip Command
+
+Object
+
+link
+
+address
+
+addrlabel
+
+l2tp
+
+maddress
+
+monitor
+
+mroute
+
+mrule
+
+neighbor
+
+netns
+
+ntable
+
+route
+
+rule
+
+tcp_metrics
+
+tunnel
+
+tuntap
+
+xfrm
+
+Description
+
+The network device
+
+The address of the interface (IPv4 or IPv6)
+
+Allows you to apply labels to addresses
+
+Tunneling Ethernet over IP
+
+Multicast address
+
+Netlink message monitoring
+
+Multicast routing cache entry
+
+Managing rules in multicast routing policy
+
+ARP or NDISC cache entry
+
+Manage network namespaces
+
+Manage the neighbor cache’s operation
+
+Routing table entry
+
+Rule in the routing policy database
+
+Manage tcp metrics
+
+Tunnel over IP
+
+Manage TUN/TAP devices
+
+Manage IPSec policies
+
+223
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+There are man pages for each of these objects that go further to describe their uses.

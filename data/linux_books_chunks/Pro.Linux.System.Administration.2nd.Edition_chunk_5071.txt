@@ -1,0 +1,11 @@
+We need to edit the following file:
+
+$ sudo vi /etc/systemd/journal-upload.conf
+[Upload]
+URL=https://backup.example.com:19532
+ServerKeyFile=/etc/pki/tls/private/gateway.example.com.key
+ServerCertificateFile=/etc/pki/tls/certs/gateway.example.com.cert
+TrustedCertificateFile=/etc/pki/tls/certs/cacert.pem
+
+This is similar to the remote service file with only one significant difference, as you can no doubt 
+see.

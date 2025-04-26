@@ -1,0 +1,6 @@
+The only difference is that the data is encrypted 
+as it travels over the network.
+
+When you are ﬁ nished, type exit to end the remote connection. The connection is closed, 
+and you are returned to the command prompt on your local system. (If the local shell 
+doesn’t return after you exit the remote shell, typing ~.

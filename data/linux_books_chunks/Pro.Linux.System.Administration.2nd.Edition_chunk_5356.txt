@@ -1,0 +1,2 @@
+We’ve specified its internal IP address, 192.168.0.254, and Nagios will use this 
+address to try to monitor the host via ICMP.

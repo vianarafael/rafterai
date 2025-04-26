@@ -1,0 +1,19 @@
+Samba checks the following (in the order shown) until 
+it ﬁ nds a match: the local /etc/hosts ﬁ le, the local /etc/lmhosts ﬁ le, a WINS 
+
+434
+
+ 
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 435
+
+Chapter 16: Confi guring a Print Server
+
+server on the network, and responses to broadcasts on each local network interface 
+to resolve the name.
+
+ ■ Share—This is the name under which the printer is shared with the remote 
+
+ computer.

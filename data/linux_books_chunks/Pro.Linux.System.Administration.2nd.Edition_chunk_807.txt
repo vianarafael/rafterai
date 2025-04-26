@@ -1,0 +1,6 @@
+By selecting Allow user to set a password when they next 
+
+login, ATaylor will be allowed to create their own password when they next log in. There are two types of 
+users we can add, a Standard user or an Administrator. You can also choose to add an Enterprise Login to 
+your users to an Active Directory domain or an IPA (Identity Policy Audit) domain. In Chapter 16 we will go 
+further into this.

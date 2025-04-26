@@ -1,0 +1,10 @@
+Click Add to Panel ➪ Custom Application Launcher ➪ Add. The Create Launcher 
+
+window appears.
+
+3.  Provide the following information for the application you want to add:
+
+ ■ Type—Select Application (to launch a regular GUI application) or Application 
+
+in Terminal. Use Application in Terminal if the application is a character-based 
+or ncurses application.

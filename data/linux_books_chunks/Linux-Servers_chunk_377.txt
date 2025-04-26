@@ -1,0 +1,8 @@
+Also add a zone database file, similar to this one (add some A records for testing). Set
+the Refresh and Retry values not too high so you can sniff this traffic (this example makes
+the slave server contact the master every hour).
+
+root@debian7:~# cat /etc/bind/db.paul.local
+; zone for classroom teaching
+$TTL    86400
+@       IN      SOA     debianpaul.paul.local.

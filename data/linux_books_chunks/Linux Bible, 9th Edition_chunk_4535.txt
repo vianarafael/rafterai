@@ -1,0 +1,7 @@
+In Enforcing mode, SELinux is turned on and all the security policy 
+rules are enforced.
+
+Understanding SELinux security contexts
+As mentioned earlier, an SELinux security context is the method used to classify objects 
+(such as ﬁ les) and subjects (such as users and programs). The deﬁ ned security context 
+allows SELinux to enforce policy rules for subjects accessing objects.

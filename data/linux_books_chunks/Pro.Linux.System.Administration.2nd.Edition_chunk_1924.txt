@@ -1,0 +1,10 @@
+Use the find 
+command to find this package in the listing, and then highlight it. To mark this package for installation, press 
+the plus sign (+). You will see a warning dialog telling you that aptitude cannot install packages until you 
+become the root user, as shown in Figure 8-18.
+
+326
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-18.

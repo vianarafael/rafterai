@@ -1,0 +1,8 @@
+To provide lookups for addresses, a special domain 
+named in-addr.arpa. is used. This is essentially the root zone for reverse mappings.
+
+Just like forward zones, you prepend the parts of your network address to this zone, with the most 
+significant parts to the right. For our network of 192.168.0.x, this results in a 0.168.192.in-addr.arpa. reverse 
+zone name.
+
+In-addr.arpa.

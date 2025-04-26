@@ -1,0 +1,10 @@
+# steamos-update
+
+
+- Update the operating system:
+
+`steamos-update`
+
+- Check if there is an update available:
+
+`steamos-update check`

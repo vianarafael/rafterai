@@ -1,0 +1,7 @@
+When using dpkg or rpm, or when building from source,
+you will need to install dependencies yourself.
+
+20.1.5. open source
+
+These repositories contain a lot of independent open source software. Often the source code
+is customized to integrate better with your distribution.

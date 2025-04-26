@@ -1,0 +1,10 @@
+We’re going to show you how to use one of these tools, Puppet, to 
+automate your configuration.
+
+936
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Introducing Puppet
+Puppet (https://puppet.com/, formerly Puppetlabs) is an open source configuration management tool 
+that in most installations relies on a client/server deployment model.

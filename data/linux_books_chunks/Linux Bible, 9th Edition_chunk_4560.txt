@@ -1,0 +1,10 @@
+Each particular policy package ﬁ le ends with a *.pp.
+
+678
+
+c24.indd  04/15/2015  Page 679
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+The /etc/selinux/policy_type/modules/active/modules directory contains a 
+number of policy package (*.pp) ﬁ les.

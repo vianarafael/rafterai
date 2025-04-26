@@ -1,0 +1,3 @@
+When you log in 
+as root (or use su - from the shell to become root), your $PATH variable is set to include 
+some directories that contain commands for the root user.

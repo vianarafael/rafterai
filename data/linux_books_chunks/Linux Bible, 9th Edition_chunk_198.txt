@@ -1,0 +1,9 @@
+For example, the following command line concatenates (cat) 
+ﬁ le1 and ﬁ le2, sorts (sort) the lines in those ﬁ les alphabetically, paginates the 
+sorted text for printing (pr), and directs the output to the computer’s default 
+printer (lpr):
+
+$ cat file1 file2 | sort | pr | lpr
+
+This method of directing input and output enabled developers to create their own 
+specialized utilities that could be joined with existing utilities.

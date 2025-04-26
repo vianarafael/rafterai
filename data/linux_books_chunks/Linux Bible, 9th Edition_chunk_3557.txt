@@ -1,0 +1,4 @@
+Both graphical and command-line tools can be 
+used to both set up a Samba server and get to it from Linux and Windows systems.
+
+The next chapter describes the Network File System (NFS) facility.

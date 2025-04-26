@@ -1,0 +1,5 @@
+The asterisks (*) are required as placeholders, instructing cron to run the command on 
+every day of the month, month, and day of the week.
+
+When you create a cron entry, make sure you either direct the output to a fi le or pipe the output to a 
+command that can deal with the output.

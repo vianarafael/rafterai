@@ -1,0 +1,6 @@
+If other dependent 
+packages need to be updated to update cups, those packages would be downloaded and 
+installed as well.
+
+Updating groups of packages
+To make it easier to manage a whole set of packages at once, YUM supports package groups.

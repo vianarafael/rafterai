@@ -1,0 +1,21 @@
+There are ﬁ ve chains (categories) that a network packet can be designated as, 
+as follows:
+
+ ■ INPUT—Network packets coming into the Linux server
+
+ ■ FORWARD—Network packets coming into the Linux server that are to be routed 
+
+elsewhere
+
+ ■ OUTPUT—Network packets coming out of the Linux server
+
+ ■ PREROUTING—Used by NAT, for modifying network packets when they come into 
+
+the Linux server
+
+ ■ POSTROUTING—Used by NAT, for modifying network packets before they come out 
+
+of the Linux server
+
+Which netfilter/iptables table you choose to work with determine what chains are 
+available for categorizing network packets.

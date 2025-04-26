@@ -1,0 +1,13 @@
+Rhythmbox (music 
+player), Audio CD Extractor (CD burner), and Brasero (CD burner) are among the 
+choices you have for handling an inserted audio CD.
+
+195
+
+c08.indd  04/01/2015  Page 196
+
+Part III: Becoming a Linux System Administrator 
+
+ ■ DVD video—When a commercial video DVD is inserted, you are prompted for what 
+
+to do with that DVD.

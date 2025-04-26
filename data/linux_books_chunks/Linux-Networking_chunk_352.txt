@@ -1,0 +1,5 @@
+Port determines the service port, and
+must be the same as the port specified in /etc/services. The socket_type should be set to
+stream for tcp services (and to dgram for udp). The log_on_failure += concats the userid
+to the log message formatted in /etc/xinetd.conf. The last setting disable can be set to yes
+or no.

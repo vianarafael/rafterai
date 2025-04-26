@@ -1,0 +1,7 @@
+Configure  your  DHCP/DNS  server(s)  with  a  proper  hostname  and  domainname  (/etc/
+hosts,  /etc/hostname,  /etc/sysconfig/network  on  Fedora/RHEL,  /etc/resolv.conf  ...).  You
+may need to disable NetworkManager on *buntu-desktops.
+
+9. Make sure your DNS server still works, and is master over (at least) one domain.
+
+There are several ways to do steps 10-11-12.

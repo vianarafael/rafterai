@@ -1,0 +1,2 @@
+Groups are a collection of individual packages that provide a certain 
+application for convenience.

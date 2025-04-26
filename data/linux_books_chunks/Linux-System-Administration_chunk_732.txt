@@ -1,0 +1,23 @@
+remote systemd
+
+The systemctl utility has a buil-in remote control providing there is an ssh daemon running
+on the remote system.
+
+This screenshot shows how to use systemctl to verify a service on an other RHEL server.
+
+[root@rhel7 ~]# systemctl -H root@192.168.1.65 status sshd
+root@192.168.1.65's password:
+sshd.service - OpenSSH server daemon
+   Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled)
+   Active: active (running) since Thu 2014-09-11 13:04:10 CEST; 16min ago
+  Process: 1328 ExecStartPre=/usr/sbin/sshd-keygen (code=exited, status=0/SUCCE\
+SS)
+ Main PID: 1363 (sshd)
+   CGroup: /system.slice/sshd.service
+[root@rhel7 ~]#
+
+187
+
+init and runlevels
+
+15.8.7.

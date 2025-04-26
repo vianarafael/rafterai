@@ -1,0 +1,10 @@
+We’re going to show you how 
+to set up some basic monitoring for your host and for some of the services we’ve introduced you to earlier in 
+the book.
+
+877
+
+Chapter 18 ■ Logging and Monitoring
+
+For this book, we’ll look at the latest version, version 4, of Nagios—it is packed full of features and 
+functions. Nagios, however, is too complex to explain completely in this single chapter.

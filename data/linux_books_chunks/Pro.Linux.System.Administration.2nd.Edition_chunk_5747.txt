@@ -1,0 +1,6 @@
+This can help to speed up fact collection for 
+multiple users of Ansible.
+
+For the ssh_args the default SSH options are ControlMaster=auto and ControlPersist=60s, which 
+allow for the sharing of multiple sessions over the one connection (meaning we don’t need to connect the 
+target host, execute a task, disconnect, connect again, execute another task, and so on).

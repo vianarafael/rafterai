@@ -1,0 +1,10 @@
+A Service Definition
+
+define service{
+          use                                local-service
+          host_name                    localhost
+          service_description       Root Partition
+          check_command           check_local_disk!20%!10%!/
+          }
+
+Our service definition is simple. The use attribute specifies a template our service is going to use.

@@ -1,0 +1,8 @@
+It was soon realized that the available addresses would run out if every host that 
+wanted to be on the Internet was given its own public IP address. NAT was invented to be able to have a 
+private address space appear to come from a single IP address.
+
+THE END OF NAT
+
+iPv6 has of course saved us from the iPcalypse and there is no real need to NAt network addresses 
+anymore.

@@ -1,0 +1,5 @@
+The min options (-amin, -cmin, and -mmin) do the same in minutes.
+
+Numbers that you give as arguments to the min and time options are preceded by a 
+hyphen (to indicate a time from the current time to that number of minutes or days ago) or 
+a plus (to indicate time from the number of minutes or days ago and older).

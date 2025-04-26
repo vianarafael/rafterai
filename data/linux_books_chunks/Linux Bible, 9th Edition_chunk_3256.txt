@@ -1,0 +1,13 @@
+If you use FTP over 
+a public network, someone snifﬁ ng the line anywhere between the client and server would be able 
+to see not only the data being transferred, but also the authentication process (login and password 
+information).
+
+477
+
+c18.indd  04/01/2015  Page 478
+
+Part IV: Becoming a Linux Server Administrator
+
+So FTP is not good for sharing ﬁ les privately (use SSH commands such as sftp, scp, or 
+rsync if you need private, encrypted ﬁ le transfers).

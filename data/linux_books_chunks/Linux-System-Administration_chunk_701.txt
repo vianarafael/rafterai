@@ -1,0 +1,3 @@
+removing a service
+
+Here we remove cron from all runlevels.

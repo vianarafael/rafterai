@@ -1,0 +1,9 @@
+They have the format:
+
+ –A <CHAIN> -j <CHAIN TO JUMP TO>.
+
+So line 12 says to send all packets to the INPUT_direct chain managed by Firewalld. If you looked in the 
+
+full output of the iptables-save command you may not see any rules associated with this chain. If we can’t 
+find any rules we move to the next rules in our INPUT chain. Line 13 also may not have any rules associated 
+with that chain.

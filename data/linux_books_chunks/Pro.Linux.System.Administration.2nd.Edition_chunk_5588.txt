@@ -1,0 +1,7 @@
+Version 3.x will 
+
+ ■ Note 
+be end of lifed by the end of 2016, so you should be using version 4.x. Version 4 is substantially different under 
+the hood than version 3. the current version at the time of writing is v4.8.
+
+When using Puppet, central servers, called Puppet masters, are installed and configured.

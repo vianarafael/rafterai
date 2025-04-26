@@ -1,0 +1,3 @@
+The general use of these filesystems was for storing 
+many small files on them. They were a good choice of filesystem for an e-mail store, web site store, or office 
+file store, as these usually consist of many files that are up to several hundreds of kilobytes in size.

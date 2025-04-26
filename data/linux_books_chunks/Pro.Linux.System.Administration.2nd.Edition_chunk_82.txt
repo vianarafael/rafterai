@@ -1,0 +1,6 @@
+generally, most 
+installation options and steps remain similar between releases.
+
+LiveCDs and Virtual Machines
+Before we begin our first installation, we’ll cover two other options for getting to know Linux on a host that 
+may be useful to try before committing to build a physical server: LiveCDs and virtual machines.

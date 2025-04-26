@@ -1,0 +1,5 @@
+they present some 
+challenges, however. it should be very common knowledge that wireless networks can allow attackers to 
+connect and sniff your network if inappropriately secured, and they don’t perform as well as wired networks 
+(those with physical cables). For example, it is still much faster to transfer large amounts of data over wired 
+connections rather than over wireless connections.

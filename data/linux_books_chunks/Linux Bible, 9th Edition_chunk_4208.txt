@@ -1,0 +1,12 @@
+Also, you 
+can monitor the ﬁ le’s create/change time or ctime.
+
+616
+
+c22.indd  04/15/2015  Page 617
+
+Chapter 22: Understanding Basic Linux Security 
+
+If you suspect malicious activity, you can quickly scan your ﬁ lesystem to see if any bina-
+ries were modiﬁ ed or changed today (or yesterday, depending upon when you think the 
+intrusion took place).

@@ -1,0 +1,5 @@
+Notice the ﬁ les that were created from those few characters.
+
+Listing Files and Directories
+The ls command is the most common command used to list information about ﬁ les 
+and directories.

@@ -1,0 +1,9 @@
+If 
+
+the repository is disabled, meaning we don’t normally fetch packages from this repository, we can enable the 
+repository while we execute this command. Subsequent yum commands will not fetch from this repository 
+unless specified. More on YUM repositories shortly.
+
+Finally, you can clean your cache directory (where YUM temporarily stores the packages you have 
+
+downloaded).

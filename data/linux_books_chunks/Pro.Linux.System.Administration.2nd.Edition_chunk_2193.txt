@@ -1,0 +1,13 @@
+We have created a directory called /data1 and we will mount 
+
+it there.
+
+$ mount /dev/sdc /data1
+
+We can see that the filesystem is mounted.
+
+$ df -h /data1
+Filesystem      Size   Used    Avail   Use%    Mounted on
+/dev/sdc         8.0G   60M    7.2G   1%         /data1
+
+Btrfs comes with a utility to manage Btrfs filesystems.

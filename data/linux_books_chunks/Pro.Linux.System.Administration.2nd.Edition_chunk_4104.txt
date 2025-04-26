@@ -1,0 +1,67 @@
+As mentioned 
+earlier, there are three files for dealing with the Bareos server itself and one for the management console.
+
+What we are going to do in these exercises is the following:
+
+•	
+
+In the bareos-dir.conf file:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+Configure the director with the correct name
+
+Configure the default Linux backup job definition
+
+Configure a backup job for the headoffice server
+
+Configure the set of files to back up
+
+Configure the schedule of the backup
+
+Configure the client to back up
+
+Add the Storage daemon configuration for the Director
+
+Configure the pools
+
+Configure the console
+
+Configure the messages
+
+•	
+
+In the bareos-sd.conf file:
+
+•	
+
+Configure the storage daemon
+
+•	
+
+In the bareos-fd.conf file:
+
+•	
+
+Configure the client daemon
+
+Before we configure anything in Bareos, we should explain the relationship these files have with 
+each other.

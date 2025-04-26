@@ -1,0 +1,11 @@
+The BIOS or UEFI initiates and checks your hardware.
+
+2.  The boot loader lets you select an operating system to load.
+
+3.  Finally, your operating system is loaded and initiated.
+
+These steps are not specific to Linux; you’ll find most operating systems perform a similar set of 
+
+functions and steps.
+
+You will find modern hardware will support UEFI.

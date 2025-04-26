@@ -1,0 +1,4 @@
+The shell, as we discussed in Chapter 4, is a command-line 
+environment through which the user interacts with the host. Each shell is initiated by running a binary. For 
+example, to start the Bash shell, the /bin/bash binary would be executed. This binary is specified in the  
+/etc/passwd file.

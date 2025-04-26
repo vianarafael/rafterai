@@ -1,0 +1,6 @@
+Here’s a more complex routing table:
+
+# route
+Kernel IP routing table
+Destination   Gateway     Genmask         Flags Metric Ref Use Iface
+vpn.example.

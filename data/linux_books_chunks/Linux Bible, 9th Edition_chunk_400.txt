@@ -1,0 +1,9 @@
+Press the 
+Windows key (or move the mouse cursor to the upper-left corner of the desktop) to toggle 
+between a blank desktop and the Overview screen.
+
+FIGURE 2.1
+
+Starting with the GNOME 3 desktop in Fedora.
+
+There is very little on the GNOME 3 desktop when you start out.

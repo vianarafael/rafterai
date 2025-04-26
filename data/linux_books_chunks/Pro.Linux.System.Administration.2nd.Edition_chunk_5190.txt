@@ -1,0 +1,7 @@
+Here 
+we are capturing any in the /var/log directory (excluding any .gz or -20161131 rotated logs), and we are not 
+capturing anything in /var/log/*/*.log except for those we have specified (audit.log).
+
+YAML FORMAT
+
+YaML ain’t Markup Language, or just YaML, is a human-readable data serialization language.

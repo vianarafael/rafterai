@@ -1,0 +1,6 @@
+The RSA algorithm can be used for both 
+encryption and creating signatures, while DSA can be used only for creating digital signatures.
+
+As you can see, a digital signature contains both cryptographic hashing and  asymmetric 
+key cryptography. This complicated process is often handled by an application that 
+has been conﬁ gured to do so, instead of being directly handled by Linux system users.

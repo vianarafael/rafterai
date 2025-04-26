@@ -1,0 +1,15 @@
+The file explains every parameter
+in great detail.
+
+root@debian7:~# wc -l /etc/squid/squid.conf
+4948 /etc/squid/squid.conf
+
+2.3. port 3128
+
+By default the squid proxy server will lsiten to port 3128.
+
+root@debian7:~# grep ^http_port /etc/squid/squid.conf
+http_port 3128
+root@debian7:~#
+
+2.4.

@@ -1,0 +1,3 @@
+Once you start your 
+Collectd service, you will see many files being created in /var/lib/collectd/rrd. While this works fine for 
+small systems, it does not scale very well and, under heavy system usage, can task disk performance.

@@ -1,0 +1,7 @@
+only do this if you are sure you know what you are doing, and make a 
+copy of your existing /etc/dhcpd.conf file before running the command.
+
+Cobbler Not Managing Your DHCP
+
+If you don’t want Cobbler to manage your DHCP, then you just need to adjust your existing DHCP 
+configuration file, /etc/dhcpd.conf, to add the next-server and filename options.

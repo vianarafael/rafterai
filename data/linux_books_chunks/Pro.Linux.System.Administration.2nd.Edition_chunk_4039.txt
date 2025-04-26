@@ -1,0 +1,11 @@
+Use --force to actually delete these files.
+
+version
+
+Shows version information of Duply and needed programs.
+
+When we interact with our backups, we will need to use the duply command like so:
+
+$ duply <profile> command
+
+To configure Duplicity via Duply, we need to create a backup profile.

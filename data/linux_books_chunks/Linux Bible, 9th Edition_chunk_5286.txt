@@ -1,0 +1,15 @@
+If that doesn’t work, try one 
+of the DNS servers listed in the resolv.conf ﬁ le you just copied to your home 
+directory.
+
+Or, if you are using the network service, edit the /etc/resolv.conf ﬁ le directly, 
+so the ﬁ le includes at least the following line:
+
+nameserver 8.8.8.8
+
+In either case, use the dig command to check that the DNS server was able to 
+resolve an address:
+
+# dig google.com
+...
+google.com.

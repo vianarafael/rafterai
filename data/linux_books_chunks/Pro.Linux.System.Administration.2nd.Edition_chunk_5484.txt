@@ -1,0 +1,9 @@
+First you can 
+
+create a secure SHA-512 password using python3 with the following:
+
+python3 -c 'import crypt; print(crypt.crypt("yourpasswordhere", crypt.mksalt(crypt.METHOD_
+SHA512)))'
+$6$KnsQG.tEetSCSmid$HpqUNyEk1UPkt9Dc9MPcwPY...guKOGdUeNXoA7.ugUBGGaDIk8RY8FRYVOwzmsM.u01
+
+Then you need to update the default_password_crypted: setting in the /etc/cobbler/settings file.

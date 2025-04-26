@@ -1,0 +1,11 @@
+Follow the 
+appropriate instructions for your distribution and set OpenVPN to start when your host boots, for example:
+
+[branch1]$ sudo systemctl enable openvpn@branch1
+
+ You can tell we’re running the preceding command on the branch1.example.com host by the 
+
+ ■ Note 
+command prefix, [branch1]$.
+
+The next step is to create a certificate and key for each of our branch offices.

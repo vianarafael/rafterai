@@ -1,0 +1,4 @@
+In this schema file, we will include a 
+simple class and attribute that we will use to indicate whether a user account is active or not.
+
+To get started, let’s look at how to declare an object class in the schema.

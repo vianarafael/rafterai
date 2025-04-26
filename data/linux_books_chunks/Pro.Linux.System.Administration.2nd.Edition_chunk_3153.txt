@@ -1,0 +1,9 @@
+The command firewall-cmd 
+can be used for this again.
+
+ ■ Note 
+
+ We cover firewalls in Chapter 7.
+
+To change the destination address of a packet, we need to create a DNAT target and mangle the HTTP 
+traffic outbound. First make sure that we masquerade our connection.

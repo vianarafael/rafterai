@@ -1,0 +1,10 @@
+To use the netstat command to see which ports the httpd server is listening on, 
+
+type the following:
+
+# netstat -tupln | grep httpd
+tcp6     0   0 :::80      :::*    LISTEN   2496/httpd
+tcp6     0   0 :::443     :::*    LISTEN   2496/httpd
+
+5.  Try to connect to your Apache web server from a web browser that is outside the 
+local system.

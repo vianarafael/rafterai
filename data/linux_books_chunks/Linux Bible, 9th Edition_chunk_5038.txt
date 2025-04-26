@@ -1,0 +1,5 @@
+OpenStack lets you deploy your own pri-
+vate cloud or offer it up to the world as a public cloud.
+
+Rather than have you set up your own OpenStack cloud, I’m going to show how you can use 
+OpenStack to deploy virtual machines from an OpenStack Dashboard.

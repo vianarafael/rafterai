@@ -1,0 +1,6 @@
+The initialization daemon can be thought of as the “mother of all processes.” 
+This daemon is the ﬁ rst process to be started by the kernel on the Linux server. For Linux 
+ distributions that use SysvInit or Upstart, the init daemon is literally named init. For 
+systemd, the init daemon is named systemd.
+
+The Linux kernel has a process ID (PID) of 0.

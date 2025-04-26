@@ -1,0 +1,3 @@
+IP masquerading
+
+IP  masquerading  is  very  similar  to  SNAT,  but  is  meant  for  dynamic  interfaces.

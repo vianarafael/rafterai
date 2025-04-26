@@ -1,0 +1,14 @@
+Also note that laura will still be able to login
+if she has set up passwordless ssh!
+
+root@debian7:~# su - laura
+laura@debian7:~$ 
+
+You can unlock the account again with usermod -U.
+
+root@debian7:~# usermod -U laura
+root@debian7:~# grep laura /etc/shadow | cut -c1-70
+laura:$6$JYj4JZqp$stwwWACp3OtE1R2aZuE87j.nbW.puDkNUYVk7mCHfCVMa3CoDUJV
+
+Watch  out  for  tiny  differences  in  the  command  line  options  of  passwd,  usermod,  and
+useradd  on  different  Linux  distributions.

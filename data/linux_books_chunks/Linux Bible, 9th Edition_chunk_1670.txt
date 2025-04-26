@@ -1,0 +1,4 @@
+The --class entries on that line allow GRUB 2 to group the menu entries 
+into classes (in this case, it identiﬁ es it as a fedora, gnu-linux, gnu, os type of system). The 
+next lines load video drivers and ﬁ le system drivers. After that, lines identify the location 
+of the root ﬁ le system.

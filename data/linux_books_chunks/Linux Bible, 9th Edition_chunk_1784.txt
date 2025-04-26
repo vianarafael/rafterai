@@ -1,0 +1,2 @@
+The six packages together are 26MB to 
+ download, but consume 91MB after installation. Pressing y installs them.

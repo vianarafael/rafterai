@@ -1,0 +1,10 @@
+Here’s what the script myhome might look like:
+
+#!/bin/bash
+# myhome
+read -p "What street did you grow up on? " mystreet
+read -p "What town did you grow up in? " mytown
+echo "The street I grew up on was $mystreet and the town was 
+$mytown."
+
+c. Run the script to check that it works.

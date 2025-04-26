@@ -1,0 +1,7 @@
+Then set DNS1=192.168.0.254 (or whatever your DNS server’s IP 
+address is). The new address is used the next time you restart your networking.
+
+21
+
+If you are using the network service, instead of NetworkManager, you can still use 
+PEERDNS=no to prevent the DHCP server from overwriting your DNS addresses.

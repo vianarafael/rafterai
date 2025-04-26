@@ -1,0 +1,11 @@
+For other arguments, refer to the man page.
+
+ping –c <count> –i <interval> –I <interface address> –s <packet size> destination
+
+The ping command will send pings to a host indefinitely unless you either stop it, using Ctrl+C usually, 
+
+or give it the number of pings to attempt using the –c number option.
+
+You can also express the interval between pings as –i number (in seconds) and choose the interface you 
+
+wish to use as the source address, specified by -I IP address or the interface name like: -I enp0s8.

@@ -1,0 +1,6 @@
+These are the services:
+
+ ■ Web server—Conﬁ gure an Apache (HTTP/HTTPS) server. You must be able to set 
+
+up a virtual host, deploy a CGI script, use private directories, and allow a particular 
+Linux group to manage the content.

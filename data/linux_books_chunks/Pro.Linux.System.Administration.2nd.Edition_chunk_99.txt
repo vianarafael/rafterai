@@ -1,0 +1,4 @@
+X is the graphical user interface used commonly on Linux; we’ll talk a bit more about it in Chapter 4. There 
+is a text-based installer mode that allows you to make the following selections as well. Systems with very low 
+amounts of memory may have to run in this mode to install CentOS. This can also be via a process known as 
+Kickstart, which is a way to automate the installation selections.

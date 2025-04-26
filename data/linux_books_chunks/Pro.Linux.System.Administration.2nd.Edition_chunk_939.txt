@@ -1,0 +1,13 @@
+You would maintain your sudoers file on a central host and distribute the updated file to all your 
+hosts.
+
+ In Chapter 19 we talk about configuration management and how you could distribute this file to 
+
+ ■ Note 
+multiple hosts.
+
+With host access controls, you can define different authorizations for different hosts, as shown in 
+
+Listing 5-19.
+
+Listing 5-19.

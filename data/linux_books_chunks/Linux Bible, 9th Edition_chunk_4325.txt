@@ -1,0 +1,5 @@
+The sha224sum command uses a key length of 224 bits, the 
+ sha256sum command uses a key length of 256 bits, and so on. Remember that the longer 
+the key length, the less the chance of cracking the cipher.
+
+The SHA-2 cryptographic hash standard was created by the National Security Agency (NSA).

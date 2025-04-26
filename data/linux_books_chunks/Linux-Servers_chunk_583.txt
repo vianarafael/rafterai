@@ -1,0 +1,10 @@
+smbd
+
+The smbd daemon manages file transfers and authentication.
+
+[root@RHEL52 ~]# ps -C smbd
+  PID TTY          TIME CMD
+ 5678 ?        00:00:00 smbd
+ 5683 ?        00:00:00 smbd
+
+9.5.3.

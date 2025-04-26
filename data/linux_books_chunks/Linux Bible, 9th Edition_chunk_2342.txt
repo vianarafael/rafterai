@@ -1,0 +1,26 @@
+But what if you wanted to mirror two directories, 
+making the contents of two directory structures exactly the same on two machines? The 
+following commands illustrate how to create an exact mirror of the directory structure on 
+both machines, using the directories shown with the previous rsync commands.
+
+13
+
+First, on the remote system, copy a new ﬁ le into the directory being copied:
+
+# cp /etc/services /usr/share/man/man1
+
+Next, on the local system, run rsync to copy across any new ﬁ les (in this case, just the 
+directory and the new ﬁ le, services):
+
+$ rsync -avl johndoe@10.140.67.23:/usr/share/man/man1 /tmp
+johndoe@10.140.67.23's password:
+***************
+sending incremental file list
+man1/
+man1/services
+
+After that, go back to the remote system and remove the new ﬁ le:
+
+$ sudo rm /usr/share/man/man1/services
+
+Now, on the local system, run rsync again and notice that nothing happens.

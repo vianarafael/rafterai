@@ -1,0 +1,7 @@
+The 
+last ﬁ eld in that entry shows that the bash shell (/bin/bash) is your default shell (the 
+one that starts up when you log in or open a Terminal window).
+
+It’s possible, although not likely, that you might have a different default shell set. To try a 
+different shell, simply type the name of that shell (examples include ksh, tcsh, csh, sh, 
+dash, and others, assuming they are installed).

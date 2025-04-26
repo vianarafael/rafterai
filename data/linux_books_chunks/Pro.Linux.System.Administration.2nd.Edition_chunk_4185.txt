@@ -1,0 +1,4 @@
+It uses its own mailer binary, bsmtp, to send messages 
+to the appropriate addresses. –f sets the From header, and -s sets the Subject header of the e-mail. You 
+need to change the mail and operator settings to suit your environment by setting the e-mail address to 
+the person responsible for administering the Bareos server (in our case, admin@example.com).

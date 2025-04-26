@@ -1,0 +1,5 @@
+The 
+e-mail will be submitted to the user jsmith’s mailbox, and you can then examine the contents of the e-mail’s 
+headers. In Listing 12-15, you can see the headers of the e-mail we’ve just sent.
+
+Listing 12-15.

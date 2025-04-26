@@ -1,0 +1,4 @@
+To understand line 10 we need to remember our talk about tcpdump and the 3 way handshake that 
+
+the IP protocol uses to establish a connection (socket) with another host. In line 10 we want to accept 
+all connections with a connection state of RELATED,ESTABLISHED.

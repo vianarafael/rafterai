@@ -1,0 +1,10 @@
+Used with 
+the -P option, setsebool sets the Boolean you indicate permanently. For example, to 
+allow Samba to share any ﬁ le or directory with read-only permission from the server, you 
+could type the following from a shell as root user:
+
+# setsebool -P samba_export_all_ro on
+# getsebool samba_export_all_ro
+samba_export_all_ro --> on
+
+The setsebool command sets the Boolean, in this case to on.

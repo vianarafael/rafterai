@@ -1,0 +1,12 @@
+The CentOS procedure for entering the Rescue 
+mode is fairly similar in concept.
+
+The rescue process will eventually do a scan of your disks and present you with a list of possible root 
+partitions you can choose to mount. On this Ubuntu system our root partition is similar to the one shown in 
+Figure 9-8:
+
+406
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Figure 9-8.

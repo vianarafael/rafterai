@@ -1,0 +1,13 @@
+The first part of the playbook looks like this:
+
+$ vi playbooks/backup.yml
+- hosts: backup.example.com
+  become: true
+  gather_facts: true
+  vars:
+    url: http://download.bareos.org/bareos/release/latest/{{ ansible_distribution }}_{{ 
+ansible_distribution_major_version }}
+    bareos_db_packages: bareos-database-mysql
+    sql_import: '/usr/lib/bareos/scripts/ddl/creates/mysql.sql'
+
+Here we have targeted one host, backup.example.com.

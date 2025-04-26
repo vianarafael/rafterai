@@ -1,0 +1,23 @@
+200 OK
+Length: 0 [text/plain]
+Saving to: “test42.txt”
+...
+
+Why does this work ? Because Apache2 runs in the httpd_t domain and the files in /var/
+www/html have the httpd_sys_content_t type.
+
+[root@centos65 ~]# ps -ZC httpd | head -4
+LABEL                             PID TTY          TIME CMD
+unconfined_u:system_r:httpd_t:s0 1666 ?        00:00:00 httpd
+unconfined_u:system_r:httpd_t:s0 1668 ?        00:00:00 httpd
+unconfined_u:system_r:httpd_t:s0 1669 ?        00:00:00 httpd
+
+218
+
+introduction to SELinux
+
+So let's set SELinux to enforcing and change the type of this file.
+
+[root@centos65 ~]# chcon -t samba_share_t /var/www/html/test42.txt 
+[root@centos65 ~]# ls -Z /var/www/html/test42.txt 
+-rw-r--r--.

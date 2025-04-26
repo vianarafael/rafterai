@@ -1,0 +1,7 @@
+But 
+some applications do use them, and if you choose to compile applications from source and install them that 
+way, you’ll often require development packages to do this.
+
+Because the package management tools used by CentOS and Ubuntu are completely different, we cover 
+
+each in its own section.

@@ -1,0 +1,14 @@
+Make sure (on the budget share) that users can see only files and directories to which
+they have access.
+
+hide unreadable = yes
+
+9. Make sure the sales share is not visible when browsing the network.
+
+browsable = no
+
+10. All files created in the sales share should have 640 permissions or less.
+
+create mask = 640
+
+11.

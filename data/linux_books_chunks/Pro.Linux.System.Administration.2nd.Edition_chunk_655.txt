@@ -1,0 +1,2 @@
+We can use a word boundary anchor ‘\b’, 
+which will only capture ‘root@example.com‘.

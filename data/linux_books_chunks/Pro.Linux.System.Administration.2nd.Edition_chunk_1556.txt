@@ -1,0 +1,4 @@
+These actions, among others, can be to ignore the packet, accept the packet, reject 
+the packet, or pass the packet on to other rules for more refined processing. Let’s look at an example; say the 
+Ethernet interface on your web server has just received a packet from the Internet. This packet is checked 
+against your rules and compared to their selection criteria.

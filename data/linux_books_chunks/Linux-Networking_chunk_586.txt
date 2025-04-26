@@ -1,0 +1,24 @@
+Use dig or nslookup (or even ping) to test your A records.
+
+root@debian7:~# ping -c1 ns1.paul.local
+PING ns1.paul.local (10.104.33.30) 56(84) bytes of data.
+64 bytes from 10.104.33.30: icmp_req=1 ttl=64 time=0.006 ms
+
+--- ns1.paul.local ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.006/0.006/0.006/0.000 ms
+root@debian7:~# ping -c1 www.paul.local
+ping: unknown host www.paul.local
+
+Note that the www record was commented out, so it should fail.
+
+root@debian7:~# dig debian7.paul.local
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> debian7.paul.local
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50491
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 3, ADDITIONAL: 2
+
+;; QUESTION SECTION:
+;debian7.paul.local.

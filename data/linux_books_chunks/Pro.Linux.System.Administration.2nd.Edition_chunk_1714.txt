@@ -1,0 +1,7 @@
+The direct argument is expressed like this:
+
+--permanent --direct --add-rule { ipv4 | ipv6 | eb } <table> <chain> <priority> <args>
+
+So in the first command, the table is filter, the chain is IN_public_allow and the priority is 0 followed 
+
+by the arguments.

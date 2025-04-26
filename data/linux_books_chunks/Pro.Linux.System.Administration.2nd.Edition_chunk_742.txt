@@ -1,0 +1,4 @@
+That will delete the 
+hash (or pound sign, #) and one space character in the line. Once done, write and quit the file using the 
+same commands you would with vim by typing the colon character, :, and w and q followed by Enter, or :wq. 
+This enables any member of a group called wheel to use the sudo command.

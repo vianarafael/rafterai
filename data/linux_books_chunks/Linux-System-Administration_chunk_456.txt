@@ -1,0 +1,27 @@
+Nowadays, you can just issue
+the command mdadm with the correct parameters.
+
+The command below is split on two lines to fit this print, but you should type it on one line,
+without the backslash (\).
+
+[root@rhel6c ~]# mdadm --create /dev/md0 --chunk=64 --level=5 --raid-\
+devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1
+mdadm: Defaulting to version 1.2 metadata
+mdadm: array /dev/md0 started.
+
+Below a partial screenshot how fdisk -l sees the raid 5.
+
+[root@rhel6c ~]# fdisk -l /dev/md0
+
+Disk /dev/md0: 17.2 GB, 17172135936 bytes
+2 heads, 4 sectors/track, 4192416 cylinders
+Units = cylinders of 8 * 512 = 4096 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 65536 bytes / 131072 bytes
+Disk identifier: 0x00000000
+
+Disk /dev/md0 doesn't contain a valid partition table
+
+We could use this software raid 5 array in the next topic: lvm.
+
+10.3.5.

@@ -1,0 +1,12 @@
+This allows us to reuse a command for multiple services, as you’ll see in a moment.
+
+Let’s take a quick look at the check_local_disk command:
+
+define command{
+          command_name    check_local_disk
+          command_line       $USER1$/check_disk -w $ARG1$ -c $ARG2$ -p $ARG3$
+          }
+
+Like our previous command, with command_line we’ve specified the $USER1$ macro to give us the path 
+
+to the plug-in being executed.

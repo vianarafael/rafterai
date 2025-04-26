@@ -1,0 +1,2 @@
+Then the transaction summary is displayed and we are given the chance to continue with the install (y), 
+download the packages only (d), or not install the packages (N).

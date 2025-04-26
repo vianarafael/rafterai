@@ -1,0 +1,14 @@
+Checking DSL connection
+
+Once you have created a PPPoE device on Ubuntu, you will see that the ppp section has been added to /
+
+etc/network/interfaces file:
+
+auto dsl-provider
+iface dsl-provider inet ppp
+pre-up /bin/ip link set enp0s8 up # line maintained by pppoeconf
+provider dsl-provider
+
+Here you can see that an interface called dsl-provider is going to be created when the network is started, 
+
+signified by auto dsl-provider.

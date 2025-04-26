@@ -1,0 +1,5 @@
+If it fails, correct any problems you encounter by investigating 
+the ﬁ rewall, SELinux, and other security features.
+
+If you don’t have DNS set up yet, use the IP address of the server to view your 
+Apache server from a remote web browser, such as http://192.168.0.1.

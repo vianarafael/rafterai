@@ -1,0 +1,8 @@
+Run the cups startup 
+script to have the CUPS service start immediately. In RHEL 6.x or earlier, type the following 
+as root user:
+
+# chkconfig cups on
+# service cups start
+
+If the CUPS service was already running, you should use restart instead of start.

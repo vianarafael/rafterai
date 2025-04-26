@@ -1,0 +1,29 @@
+Ubuntu is 
+currently a few minor releases behind.
+
+To view what version is currently available on your operating system, issue either of the following:
+
+$ sudo aptitdue show openvpn (Ubuntu)
+$ sudo yum info openvpn (CentOS)
+
+On CentOS we first issue the installation of the EPEL repository, if it is not already installed, and then 
+
+install the package.
+
+$ sudo yum install epel-release
+$ sudo yum install openvpn
+
+On Ubuntu, you install the openvpn package, and some additional prerequisites will generally also be 
+
+installed.
+
+$ sudo aptitude install openvpn
+
+Let’s look at stopping and starting the service now.
+
+703
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Starting and Stopping OpenVPN
+OpenVPN runs as a service on your hosts.

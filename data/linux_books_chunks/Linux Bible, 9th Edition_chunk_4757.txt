@@ -1,0 +1,5 @@
+The Firewall 
+Conﬁ guration window (firewall-config command) provides an easy way to open ports 
+on your ﬁ rewall and do masquerading (routing private addresses to a public network) 
+or port forwarding. The firewalld service can react to changes in conditions, which 
+the static iptables service can’t do as well on its own.

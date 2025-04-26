@@ -1,0 +1,11 @@
+In this scenario, the http:// traffic is 
+redirected to https://. It does this by adding these lines to our virtual host configuration:
+
+<VirtualHost *:80>
+...
+RewriteEngine on
+RewriteCond %{SERVER_NAME} =www.example.com
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,QSA,R=permanent]
+</VirtualHost>
+
+The certbot command also creates a new file to contain our SSL configuration.

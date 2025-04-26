@@ -1,0 +1,5 @@
+The NFS service uses the RPC service.
+
+By default, the administrative logins in the preceding list are disabled. You would need 
+to change the default shell from its current setting (usually /sbin/nologin or 
+/bin/false) to a real shell (typically /bin/bash) to be able to log in as these users.

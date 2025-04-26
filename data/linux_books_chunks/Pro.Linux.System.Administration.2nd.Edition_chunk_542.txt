@@ -1,0 +1,4 @@
+In a 
+similar vein is the /var directory, in which transitory data such as logs are stored. You’ll often look at log 
+files contained in the /var/log/ directory that have been created by applications or via the host’s syslog 
+(or system logger) daemon.

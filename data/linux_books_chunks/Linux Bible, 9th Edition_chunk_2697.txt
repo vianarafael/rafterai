@@ -1,0 +1,21 @@
+/etc/rc.d/init.d/functions
+...
+# See how we were called.
+case "$1" in
+  start)
+        start
+        ;;
+  stop)
+        stop
+        ;;
+  status)
+        status $httpd
+        RETVAL=$?
+        ;;
+...
+esac
+
+exit $RETVAL
+
+After the runlevel scripts linked from the appropriate /etc/rc.d/rc#.d directory are 
+executed, the SysVinit daemon’s process spawning is complete.

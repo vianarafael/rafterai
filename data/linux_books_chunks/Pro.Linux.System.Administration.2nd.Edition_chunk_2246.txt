@@ -1,0 +1,4 @@
+We are going to use the UUID and so we will need to know its UUID.
+
+You can find this in the tune2fs -l listing with Ext filesystems, xfs_admin -u for XFS filesystems, 
+or btrfs filesystem show for BtrFS, or you can use the blkid utility.

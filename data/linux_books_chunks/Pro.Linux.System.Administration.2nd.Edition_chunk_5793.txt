@@ -1,0 +1,15 @@
+In general, we want to make sure we have the 
+necessary repositories installed, we download and install the right packages, and then we configure any 
+services before finally starting them.
+
+966
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+Let’s view the tasks required to install Bareos on our backup server.
+
+  tasks:
+  - name: install epel
+    yum: name=epel-release state=latest
+
+In the first section we are using the yum module to install first the epel repository.

@@ -1,0 +1,9 @@
+index file on CentOS
+
+CentOS does not provide a standard index.html or index.php file. A simple wget gives an
+error.
+
+[root@centos65 ~]# wget 127.0.0.1
+--2014-05-06 15:10:22--  http://127.0.0.1/
+Connecting to 127.0.0.1:80... connected.
+HTTP request sent, awaiting response...

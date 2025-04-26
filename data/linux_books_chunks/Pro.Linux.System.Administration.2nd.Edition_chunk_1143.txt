@@ -1,0 +1,7 @@
+See the man page for more information.
+
+Understanding Initd Scripts in SysV Init
+
+Initd scripts are scripts that stop and start processes, as well as sometimes providing the current status of 
+the process and possibly other actions. Today’s initd scripts are said to be LSB compliant in that they have a 
+certain structure to them.

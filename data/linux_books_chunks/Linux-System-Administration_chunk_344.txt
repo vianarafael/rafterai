@@ -1,0 +1,11 @@
+Directories  are  usually  implemented  as  files,  you  will  have  to  learn  how  this  is
+implemented! Access control in file systems is tracked by user ownership (and group owner-
+and membership) in combination with one or more access control lists.
+
+6.1.1. man fs
+
+The manual page about filesystems is accessed by typing man fs.
+
+[root@rhel65 ~]# man fs
+
+6.1.2.

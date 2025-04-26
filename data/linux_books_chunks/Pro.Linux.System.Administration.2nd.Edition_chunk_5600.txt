@@ -1,0 +1,9 @@
+Each resource 
+
+managed by Puppet must be unique—for example, there can be only one resource called File['/etc/
+passwd'].
+
+The attributes of a resource describe the configuration details being managed, such as defining a 
+
+particular user and the attributes of that user (e.g., the groups the user belongs to or the location of the user’s 
+home directory).

@@ -1,0 +1,9 @@
+You can do this on CentOS with $ sudo 
+
+systemctl restart php-fpm. You should now notice a socket file has been created in the /run directory 
+(which is a special in-memory directory).
+
+$ ll /run/php-fcgi.sock
+srw-rw-rw-. 1 root root 0 Aug 16 09:49 /run/php-fcgi.sock
+
+Once that is done, we are ready to run PHP web sites.

@@ -1,0 +1,4 @@
+It 
+does this by using a special type of file called a socket, which we briefly discussed in Chapter 4, that allows 
+interaction between applications. This socket is located in a Postfix directory that stores files and sockets 
+used by the daemon, /var/spool/postfix/private/, and has a file name of auth.

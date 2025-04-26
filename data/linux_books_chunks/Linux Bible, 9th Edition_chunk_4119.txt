@@ -1,0 +1,9 @@
+Thus, read access to the /etc/passwd fi le means you have the hash value and its salt.
+
+Thus, the hashed passwords were moved to a new conﬁ guration ﬁ le, /etc/shadow, many 
+years ago. This ﬁ le has the following security settings:
+
+# ls -l /etc/shadow
+----------. 1 root root 1049 Feb  2 09:45 /etc/shadow
+
+Despite having no permissions open, root, but no other user, can view this ﬁ le.

@@ -1,0 +1,6 @@
+So Red Hat Enterprise Linux, CentOS, the Fedora Project, and even SUSE (a non-Red Hat based distribution) 
+are distributions that all use RPM. Distributions that use Deb include Ubuntu, Debian, and a number of others.
+
+Files and Filesystems
+In Unix, there is a phrase that says, “Everything in UNIX is either a file or a process.” Linux also adheres to 
+this statement.

@@ -1,0 +1,17 @@
+Using query and whatprovides
+
+# rpm  --query  --whatprovides /bin/bash
+bash-4.2.46-19.el7.x86_64
+
+317
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Listing 8-11 tells us that the package bash is responsible for the file /bin/bash, and it also informs us of the 
+
+version number of the installed bash package (you can also use the shorter format of $ rpm -qf /bin/bash).
+So now we know that bash provided that file, but what other files on our system belong to the bash 
+package? Armed with the information from --whatprovides, we can see what other files belong to the bash 
+package by using the --query --list options as shown in Listing 8-12.
+
+Listing 8-12.

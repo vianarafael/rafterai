@@ -1,0 +1,5 @@
+So 
+that made /usr/share/doc your current directory.
+
+After that, by typing cd alone, you are returned to your home directory. If you ever  wonder 
+where you are in the ﬁ lesystem, the pwd command can help you.

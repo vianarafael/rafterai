@@ -1,0 +1,7 @@
+(And 
+some people complain that Linux isn’t friendly.)
+
+First, you need to know the two main operating modes: command and input. The vi editor 
+always starts in command mode. Before you can add or change text in the ﬁ le, you have to type 
+a command (one or two letters, sometime preceded by an optional number) to tell vi what you 
+want to do.

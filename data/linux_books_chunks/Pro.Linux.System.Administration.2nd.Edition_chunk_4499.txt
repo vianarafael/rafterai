@@ -1,0 +1,3 @@
+you can see the DN 
+we want to change, the change type we want to perform (replace), and the attribute we are going to 
+replace (userPassword); finally we assign the new value to the attribute.

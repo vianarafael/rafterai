@@ -1,0 +1,6 @@
+In this scenario 
+our hosts will send their metrics to our relay.example.com host on port 2013 (which is a line-delimited 
+receiver). From there we will send the metrics on to our monitor.example.com host, which has a carbon-
+cache daemon listening on port 2004.
+
+Configuring a carbon-relay requires a carbon.conf file and a file called relay-rules.conf.

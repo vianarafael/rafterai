@@ -1,0 +1,6 @@
+We will show you how to set up the CUPS printer server, which is the 
+standard for Linux distributions and which also has a consistent web interface available across both CentOS 
+and Ubuntu.
+
+In many circumstances, setting up CUPS servers for printing has become redundant as many modern 
+printers now have their own print servers and are available on the network, Wi-Fi, or even Bluetooth.

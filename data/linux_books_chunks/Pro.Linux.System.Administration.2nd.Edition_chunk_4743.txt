@@ -1,0 +1,2 @@
+The VirtualHost will be placed in /etc/apache2/
+sites-available and will be called ldap.example.com.conf.

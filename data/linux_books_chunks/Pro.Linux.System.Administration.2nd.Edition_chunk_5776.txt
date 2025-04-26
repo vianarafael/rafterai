@@ -1,0 +1,7 @@
+We can declare other key values like become and gather_facts, 
+which are Boolean values that can be true or false.
+
+The gather_facts option will trigger an initial request to all the target hosts and gather all their 
+
+available facts. If you are not using any facts in your plays, you can set this to false, and it will speed up your 
+runs.

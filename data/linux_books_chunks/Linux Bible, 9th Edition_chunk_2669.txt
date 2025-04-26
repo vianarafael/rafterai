@@ -1,0 +1,9 @@
+On Ubuntu, use the command sudo apt-get 
+install binutils.
+
+ ■ If you still cannot tell what init daemon your server has, try looking on the 
+
+init Wikipedia page (http://wikipedia.org/wiki/Init) under 
+“Replacements for init?”
+
+Keep in mind that some Linux distributions have not moved to the newer daemons.

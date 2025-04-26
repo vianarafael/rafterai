@@ -1,0 +1,7 @@
+This 
+portability is achieved through the use of Remote Procedure Call (RPC) 
+primitives built on top of an eXternal Data Representation (XDR)” (RFC1094 NFS 
+v2)
+
+“NFS (Network File System) version 4 is a distributed file system protocol which 
+owes heritage to NFS protocol versions 2 [RFC1094] and 3 [RFC1813].

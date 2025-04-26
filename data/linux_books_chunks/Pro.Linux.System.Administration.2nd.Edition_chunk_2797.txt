@@ -1,0 +1,21 @@
+Using sftp
+
+$ sftp jsmith@au-mel-centos-1
+Connecting to au-mel-centos-1...
+jsmith@au-mel-centos-1's password:
+sftp> cd /tmp
+sftp> ls
+data.txt        ssh-IWYooo5675 sftp>
+get data.txt
+Fetching /tmp/data.txt to data.txt
+/tmp/data.txt                                100% 3072KB    3.0MB/s    00:00
+sftp> quit
+
+470
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+In combination with ssh port forwards, you can also easily copy files to hosts that aren’t directly 
+
+ ■ Tip 
+accessible.

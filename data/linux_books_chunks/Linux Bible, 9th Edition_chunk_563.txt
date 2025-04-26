@@ -1,0 +1,3 @@
+If you have used Microsoft operating systems, 
+you’ll see that using a shell in Linux is similar to—but generally much more powerful than—
+the interpreter used to run commands in DOS or in the CMD command interface.

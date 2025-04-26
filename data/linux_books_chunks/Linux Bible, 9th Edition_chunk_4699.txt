@@ -1,0 +1,5 @@
+Keep in mind that you should use tools like nmap only on your own 
+ systems, because scanning ports on other people’s computers can give the impression that you are trying to break in.
+
+When you run the nmap utility, it provides a handy little report with information on the 
+system you are scanning and the ports it sees. The ports are given a “state” status.

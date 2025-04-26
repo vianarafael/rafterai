@@ -1,0 +1,27 @@
+If the ﬁ le exists, the 
+
+ content of that ﬁ le is overwritten.
+
+103
+
+c04.indd  04/01/2015  Page 104
+
+Part II: Becoming a Linux Power User
+
+ ■ 2>—Directs standard error (error messages) to the ﬁ le.
+
+ ■ &>—Directs both standard output and standard error to the ﬁ le.
+
+ ■ >>—Directs the output of a command to a ﬁ le, adding the output to the end of the 
+
+existing ﬁ le.
+
+The following are some examples of command lines where information is directed to and 
+from ﬁ les:
+
+$ mail root < ~/.bashrc
+$ man chmod | col -b > /tmp/chmod
+$ echo "I finished the project on $(date)" >> ~/projects
+
+In the ﬁ rst example, the content of the .bashrc ﬁ le in the home directory is sent in a 
+mail message to the computer’s root user.

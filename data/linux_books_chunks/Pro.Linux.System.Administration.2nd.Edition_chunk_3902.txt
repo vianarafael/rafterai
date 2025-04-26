@@ -1,0 +1,5 @@
+Combined with configuration management, like Puppet or Ansible, you will be able 
+to recover your systems quickly.
+
+If you have bare-metal hosts, then you need to back up the disk architecture as well 
+as the operating system and the data.

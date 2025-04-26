@@ -1,0 +1,7 @@
+16.4. /usr/bin/smbtree
+
+Another useful tool to troubleshoot Samba or simply to browse the SMB network is smbtree.
+In its simplest form, smbtree will do an anonymous browsing on the local subnet. displaying
+all SMB computers and (if authorized) their shares.
+
+Let's take a look at two screenshots of smbtree in action (with blank password).

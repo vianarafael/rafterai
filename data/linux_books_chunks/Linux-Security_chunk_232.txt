@@ -1,0 +1,18 @@
+usermod
+
+Group membership can be modified with the useradd or usermod command.
+
+root@laika:~# usermod -a -G tennis inge
+root@laika:~# usermod -a -G tennis katrien
+root@laika:~# usermod -a -G salsa katrien
+root@laika:~# usermod -a -G snooker sandra
+root@laika:~# usermod -a -G formula1 annelies
+root@laika:~# tail -5 /etc/group
+tennis:x:1006:inge,katrien
+football:x:1007:
+snooker:x:1008:sandra
+formula1:x:1009:annelies
+salsa:x:1010:katrien
+root@laika:~#
+
+Be careful when using usermod to add users to groups.

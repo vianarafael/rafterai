@@ -1,0 +1,3 @@
+The fourth 
+line is a swap device (used to store data when RAM overﬂ ows). Notice that the device names 
+for /, /home, and swap all start with /dev/mapper.

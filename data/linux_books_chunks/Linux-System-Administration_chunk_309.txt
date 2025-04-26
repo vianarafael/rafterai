@@ -1,0 +1,4 @@
+/proc/partitions
+
+The  /proc/partitions  file  contains  a  table  with  major  and  minor  number  of  partitioned
+devices, their number of blocks and the device name in /dev.

@@ -1,0 +1,3 @@
+This format is identical to the way Berkeley 
+Internet Name Domain (BIND) defines domains internally, where records are defined using five fields and 
+semicolons are used for comments.

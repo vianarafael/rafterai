@@ -1,0 +1,7 @@
+Therefore, Linux systems used for such purposes need to 
+be scanned for Windows viruses as well.
+
+Antivirus software scans ﬁ les using virus signatures. A virus signature is a hash created 
+from a virus’s binary code. The hash will positively identify that virus. Antivirus programs 
+have a virus signature database that is used to compare against ﬁ les to see if there is a sig-
+nature match.

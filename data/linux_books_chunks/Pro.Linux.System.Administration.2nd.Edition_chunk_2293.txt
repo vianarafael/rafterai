@@ -1,0 +1,24 @@
+Clearing the Partition Table and Creating a RAID Partition
+
+$ sudo gdisk /dev/sdc
+GPT fdisk (gdisk) version 0.8.6
+
+Partition table scan:
+  MBR: not present
+  BSD: not present
+  APM: not present
+  GPT: not present
+
+Creating new GPT entries.
+
+Command (? for help): n
+Partition number (1-128, default 1):
+First sector (34-16777182, default = 2048) or {+-}size{KMGTP}:
+Last sector (2048-16777182, default = 16777182) or {+-}size{KMGTP}: 2G
+Current type is 'Linux filesystem'
+Hex code or GUID (L to show codes, Enter = 8300): fd00
+Changed type of partition to 'Linux RAID'
+
+Command (? for help): w
+
+Final checks complete.

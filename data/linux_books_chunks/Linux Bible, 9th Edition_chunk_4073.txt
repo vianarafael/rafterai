@@ -1,0 +1,2 @@
+To get what you need, divide the result from the date com-
+mand by the number of seconds in a day: 86,400.

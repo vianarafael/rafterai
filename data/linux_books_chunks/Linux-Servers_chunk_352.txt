@@ -1,0 +1,10 @@
+When the slave has a lower serial
+number than its master, then a zone transfer is requested.
+
+Below a zone transfer captured in wireshark.
+
+4.9. full or incremental zone transfers
+
+When a zone tranfer occurs, this can be either a full zone transfer or an incremental zone
+transfer. The decision depends on the size of the transfer that is needed to completely update
+the zone on the slave server.

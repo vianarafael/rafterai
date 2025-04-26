@@ -1,0 +1,13 @@
+When a runlevel event is emit-
+ted, the start-ttys conﬁ guration ﬁ le spawns the getty or mingetty process.
+
+$ cat /etc/init/start-ttys.conf
+# This service starts the configured number of gettys.
+
+start on stopped rc RUNLEVEL=[2345]
+
+env ACTIVE_CONSOLES=/dev/tty[1-6]
+env X_TTY=/dev/tty1
+task
+script
+   .

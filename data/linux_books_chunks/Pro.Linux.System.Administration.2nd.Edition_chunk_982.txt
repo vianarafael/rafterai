@@ -1,0 +1,11 @@
+This menu gives 
+you the ability to manipulate the configuration of your host; for example, it allows you to set up RAID 
+(Redundant Array of Inexpensive Disks) on a hard disk controller or troubleshoot problems with existing 
+hardware configuration.
+
+ ■ Caution 
+configuration could destroy your data, so use these menus with caution.
+
+ Changing some configurations can be dangerous; for example, incorrectly changing a raid 
+
+The BIOS also allows you to change the boot source for your host.

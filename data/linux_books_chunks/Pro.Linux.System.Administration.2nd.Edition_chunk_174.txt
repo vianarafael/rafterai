@@ -1,0 +1,22 @@
+You will then need some way to remedy those outliers that 
+are not conforming to your requirements.
+
+If compliance is important to your organization, then you should at least read the following:
+
+•	
+
+•	
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/Security_Guide/chap-Compliance_and_Vulnerability_Scanning.
+html
+
+https://securityblog.redhat.com/2013/11/13/automated-auditing-the-
+system-using-scap-2/
+
+Of course you should also read any relevant standards compliance documentation for your 
+
+organization and take appropriate action.
+
+For the purpose of this installation we are going to install the “Standard System Security Profile,” as we 
+have in Figure 2-19.

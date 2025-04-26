@@ -1,0 +1,3 @@
+This file controls the 
+mechanisms for authenticating. The directive in this file we want to change is mechanisms, which specifies 
+which authentication mechanisms this Dovecot instance supports.

@@ -1,0 +1,8 @@
+For 
+this exercise we will use enp0s8 as our interface.
+
+$ sudo nmcli c add type adsl ifname enp0s8 protocol pppoa username ourname password psswd  
+encapsulation llc
+Connection 'adsl-enp0s8' (ae7bc50a-c4d5-448a-8331-4a6f41c156c5) successfully added.
+
+Depending on your ISP connection these may differ for you.

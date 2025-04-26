@@ -1,0 +1,2 @@
+With commands such as find, you can search for ﬁ les based on 
+ various attributes (ﬁ lename, size, modiﬁ cation date, and ownership, to name a few).

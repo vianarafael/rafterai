@@ -1,0 +1,6 @@
+You need to be sure that you want to share 
+ everything in that directory structure. You can still restrict access within that directory 
+structure in many ways; those are discussed later in this chapter.
+
+In Fedora, there is an NFS Server Confi guration window you can install by typing yum install system- 
+config-nfs; the command to launch the window is the same name as the package.

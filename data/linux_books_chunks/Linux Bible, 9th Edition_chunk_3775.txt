@@ -1,0 +1,6 @@
+Looking at the BIOS tells you whether those devices are not available simply 
+because they have been disabled in the BIOS.
+
+ ■ To change a device setting—Sometimes, the default settings that come in your 
+
+BIOS don’t work for your situation.

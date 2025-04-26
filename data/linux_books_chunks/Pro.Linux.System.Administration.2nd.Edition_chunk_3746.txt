@@ -1,0 +1,2 @@
+We need to add the user to the Samba sales 
+group and then set their Samba credential in their user session on the local Linux server.

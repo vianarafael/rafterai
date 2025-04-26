@@ -1,0 +1,6 @@
+Let’s now move on to creating our nightly backup with Duply.
+
+Installing and Configuring Duply
+Duply, as we have said, is the convenient way to manage our Duplicity backups. Duplicity can run multiple 
+methods to securely back up files to remote systems. With AWS, it is going to copy our backup in file chunks 
+of about 25Mb.

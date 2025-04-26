@@ -1,0 +1,15 @@
+(Be careful where you place this control in the stack.)
+
+sufficient
+
+optional
+
+include
+
+substack
+
+For example, a requisite control might require key-based authentication and 
+fail immediately when a valid key is not provided. In that case, it could fail 
+before even prompting for a username/password.
+
+If failed, the module status is ignored.

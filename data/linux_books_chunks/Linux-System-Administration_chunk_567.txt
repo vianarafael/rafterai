@@ -1,0 +1,13 @@
+Although this is explorable inside targetcli
+with ls, cd and pwd, this are not files on the file system.
+
+This tool also has tab-completion, which is very handy for the iqn names.
+
+[root@centos7 ~]# targetcli
+targetcli shell version 2.1.fb37
+Copyright 2011-2013 by Datera, Inc and others.
+For help on commands, type 'help'.
+
+/> cd backstores/
+/backstores> ls
+o- backstores ............................................................

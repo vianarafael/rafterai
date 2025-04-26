@@ -1,0 +1,4 @@
+scp
+
+The scp command works just like cp, but allows the source and destination of the copy to
+be behind ssh.

@@ -1,0 +1,19 @@
+An mbox File
+
+$ more /var/mail/ataylor
+From jsmith@example.com  Sun Jul 10 12:12:46 2016
+Return-Path: <jsmith@example.com>
+X-Original-To: ataylor@example.com
+Delivered-To: ataylor@example.com
+Received: from example.com (ns.example.com [192.168.0.254])
+    by mail.example.com (Postfix) with ESMTP id 2625C3FA5A
+    for <ataylor@example.com>; Sun, 10 Jul 2016 12:12:18 +0000 (UTC)
+Subject: My first mail for my domain
+
+This is a test.
+Thanks
+Mr Testing
+
+In Listing 12-5, you can see the mbox file contains our e-mail, including all the headers and the content 
+
+of the e-mail.

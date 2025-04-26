@@ -1,0 +1,7 @@
+old DNS security: zone transfers, ip spoofing
+
+You could setup DNSSEC (which is not the easiest to maintain) and with rfc 2845(tsig?) and
+with rfc 2930(tkey, but this is open to brute force), or you could disable all zone transfers
+and use a script with ssh to copy them manually.
+
+11.5.11.

@@ -1,0 +1,3 @@
+these are facts that cannot be self-reported by the node. they 
+are derived from the tLS certificate. this provides some level of assurance when dealing with sensitive 
+data. You can access them via $trusted['fact_name'].

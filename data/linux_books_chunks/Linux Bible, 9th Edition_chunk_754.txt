@@ -1,0 +1,33 @@
+For example:
+
+$ ls /bin
+
+arch     dd            fusermount loadkeys   mv                 rnano
+
+awk      df            gawk       login      nano                    rpm
+
+basename dmesg         gettext    ls         netstat                  rvi
+
+bash     dnsdomainname grep       lsblk      nice                    rview
+
+cat      domainname    gtar       lscgroup   nisdomainname      sed
+
+chgrp    echo          gunzip     lssubsys   ping              setfont
+
+chmod    ed            gzip       mail       ping6              setserial
+
+chown    egrep         hostname   mailx      0ps              sh
+
+cp       env           ipcalc     mkdir      pwd              sleep
+
+cpio     ex            kbd_mode   mknod      readlink         sort
+
+csh      false         keyctl     mktemp     red              stty
+
+cut      fgrep         kill       more       redhat_lsb_init  su
+
+dash     find          link       mount      rm               sync
+
+date     findmnt       ln         mountpoint rmdir            tar
+
+ ■ Use the help command.

@@ -1,0 +1,7 @@
+/etc/default/rsyslog
+    exec rsyslogd $RSYSLOGD_OPTIONS
+end script
+
+Upstart is “evented,” meaning it can react to events on your system. The start on filesystem means that 
+when the filesystem “event” takes place, we will automatically start rsyslog too. The stop on configuration 
+option is an event definition signalling Upstart to stop rsyslogd when a runlevel 0 or 6 event is detected.

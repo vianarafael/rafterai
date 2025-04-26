@@ -1,0 +1,11 @@
+Our installation is finished
+
+Let’s now remove that package (see Figure 8-32). It is as simple as clicking the Remove button.
+
+Figure 8-32.  Are we sure we want to remove?
+
+Once we have confirmed we want to remove the package, you may be asked to confirm your password 
+
+again and then we begin removing the application (see Figure 8-33).
+
+Figure 8-33.

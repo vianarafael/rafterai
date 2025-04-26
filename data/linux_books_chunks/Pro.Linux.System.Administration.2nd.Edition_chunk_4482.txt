@@ -1,0 +1,6 @@
+That means that SLAPD configuration changes can be done dynamically 
+through changing records in the DIT using the standard tools used to change other LDAP records, with 
+commands such as ldapmodify.
+
+In our example, we’ll configure our SLAPD on our Ubuntu host; some of the directory paths will be 
+different for CentOS.

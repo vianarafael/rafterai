@@ -1,0 +1,11 @@
+Some of those are described next.
+
+143
+
+c06.indd  04/01/2015  Page 144
+
+Part II: Becoming a Linux Power User
+
+Managing Background and Foreground Processes
+If you are using Linux over a network or from a dumb terminal (a monitor that allows 
+only text input with no GUI support), your shell may be all that you have.

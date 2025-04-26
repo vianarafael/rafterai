@@ -1,0 +1,4 @@
+A package usually contains all the binaries, 
+configuration files, and other supporting material required to install an application. The package also knows 
+where these files need to be installed and usually if other packages also need to be installed to meet any 
+prerequisites of an application.

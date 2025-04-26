@@ -1,0 +1,7 @@
+You could add your own SQL queries to 
+this script if you believe that Bareos console doesn’t have the information you are looking for.
+
+JobDefs
+
+A JobDefs section groups similar backup job requirements together. They are then referenced in one of 
+the Job sections.

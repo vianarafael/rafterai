@@ -1,0 +1,48 @@
+This example adds both the partitioned disk and the untouched disk
+to the volume group named vg2.
+
+[root@RHEL5 ~]# pvcreate /dev/sdb1
+  Physical volume "/dev/sdb1" successfully created
+[root@RHEL5 ~]# pvcreate /dev/sdc
+  Physical volume "/dev/sdc" successfully created
+[root@RHEL5 ~]# vgcreate vg2 /dev/sdb1 /dev/sdc
+  Volume group "vg2" successfully created
+
+You can use pvdisplay to verify that both the disk and the partition belong to the volume
+group.
+
+[root@RHEL5 ~]# pvdisplay | grep -B1 vg2
+  PV Name               /dev/sdb1
+  VG Name               vg2
+--
+  PV Name               /dev/sdc
+  VG Name               vg2
+
+And you are familiar both with the lvcreate command to create a small logical volume and
+the mke2fs command to put ext3 on it.
+
+[root@RHEL5 ~]# lvcreate --size 200m vg2
+  Logical volume "lvol0" created
+[root@RHEL5 ~]# mke2fs -m20 -j /dev/vg2/lvol0 
+...
+
+105
+
+logical volume management
+
+As you see, we end up with a mounted logical volume that according to df is almost 200
+megabyte in size.
+
+[root@RHEL5 ~]# mkdir /home/resizetest
+[root@RHEL5 ~]# mount /dev/vg2/lvol0 /home/resizetest/
+[root@RHEL5 ~]# df -h | grep resizetest
+                      194M  5.6M  149M   4% /home/resizetest
+
+Extending the volume is easy with lvextend.
+
+[root@RHEL5 ~]# lvextend -L +100 /dev/vg2/lvol0 
+  Extending logical volume lvol0 to 300.00 MB
+  Logical volume lvol0 successfully resized
+
+But as you can see, there is a small problem: it appears that df is not able to display the
+extended volume in its full size.

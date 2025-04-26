@@ -1,0 +1,5 @@
+Type m (the /etc/passwd ﬁ le displays on the screen).
+
+10.  To display the man page for the mount system call, use the man -k command 
+to ﬁ nd man pages that include the word mount (using the ^ ensures that only 
+ commands beginning with the word mount are displayed).

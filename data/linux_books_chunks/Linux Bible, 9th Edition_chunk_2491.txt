@@ -1,0 +1,2 @@
+As long as the computer responds to ping requests (not all do), you can use ping 
+to send packets to that system in a way that asks them to respond.

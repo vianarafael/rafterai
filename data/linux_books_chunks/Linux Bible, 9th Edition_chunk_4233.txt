@@ -1,0 +1,6 @@
+At some time later, another database “second 
+picture” is created, and aide compares the two databases and reports what is different.
+
+To begin, you need to take that “ﬁ rst picture.” The best time to create this picture is when 
+the system has been freshly installed. The command to create the initial database is aide 
+-i and takes a long time to run. Some of its output follows.

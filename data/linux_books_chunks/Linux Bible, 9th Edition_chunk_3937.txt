@@ -1,0 +1,6 @@
+If that ping succeeds, your 
+network is probably ﬁ ne, and it is most likely your hostname-to-address resolution that is 
+not working properly.
+
+If you can reach a remote system, but the connection is very slow, you can use the 
+ traceroute command to follow the route to the remote host.

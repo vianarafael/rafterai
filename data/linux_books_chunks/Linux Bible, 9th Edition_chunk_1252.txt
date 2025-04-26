@@ -1,0 +1,7 @@
+They can be used for 
+doing basic administrative tasks, such as conﬁ guring a printer or setting the date, time, 
+and time zone.
+
+To create wider adoption of Linux in enterprise data centers, however, some of the more 
+prominent software projects for managing cloud projects, identity management, and other 
+services now offer browser-based interfaces.

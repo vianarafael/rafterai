@@ -1,0 +1,7 @@
+Closely related to Intrusion 
+Detection System software is a software package that prevents an intrusion, called 
+Intrusion Prevention software. Some of these packages are bundled together to provide 
+Intrusion Detection and Prevention.
+
+Several Intrusion Detection System software packages are available for a Linux system. A 
+few of the more popular utilities are listed in Table 22.7.

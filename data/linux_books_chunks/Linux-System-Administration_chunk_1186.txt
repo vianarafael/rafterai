@@ -1,0 +1,9 @@
+Since the release of 2.6.0 in January 2004, all development has been
+done in the 2.6 tree. There is currently no v2.7.x and according to Linus the even/stable vs
+odd/development scheme is abandoned forever.
+
+28.1.2. uname -r
+
+To see your current Linux kernel version, issue the uname -r command as shown below.
+
+This first example shows Linux major version 2.6 and minor version 24.

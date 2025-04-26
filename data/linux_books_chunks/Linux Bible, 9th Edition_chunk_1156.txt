@@ -1,0 +1,2 @@
+On some occasions, you want the shell to use these characters’ special meaning and other times you 
+don’t.

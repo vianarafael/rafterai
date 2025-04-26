@@ -1,0 +1,3 @@
+A mount -a command tries to mount any ﬁ lesystem listed in the /etc/fstab ﬁ le 
+that is not already mounted. The df command shows information about disk space for the 
+mounted directory.

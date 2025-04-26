@@ -1,0 +1,7 @@
+1 root root 17 Mar 27 15:39
+ /lib/systemd/system/runlevel3.target ->
+ multi-user.target
+# ln -sf /lib/systemd/system/runlevel3.target \
+ /etc/systemd/system/default.target
+# ls -l /etc/systemd/system/default.target
+lrwxrwxrwx.

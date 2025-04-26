@@ -1,0 +1,7 @@
+Not only is it a quick way of building 
+
+ ■ Tip 
+(or rebuilding) server hosts, but it can also be a quick way to automatically install desktops for your users.
+
+The second process we’re going to examine is configuration management and automation. By now 
+you’ve seen that you can accumulate a lot of installed packages, users, configuration files, and other settings.

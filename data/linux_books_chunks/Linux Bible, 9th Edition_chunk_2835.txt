@@ -1,0 +1,8 @@
+1 root root 16 Mar 27 15:39
+ /lib/systemd/system/runlevel5.target ->
+ graphical.target
+
+The example shows that the current persistent target unit on this server is runlevel5.
+target because default.target is a symbolic link to the runlevel5.target unit ﬁ le. 
+However, notice that runlevel5.target is also a symbolic link and it points to graphi-
+cal.target.

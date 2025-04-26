@@ -1,0 +1,13 @@
+The -s switch summarizes the total, and the -h switch displays the size in a human-readable form.
+
+$ du -sh /usr/local/bin
+4.7M     /usr/local/bin
+
+130
+
+ChapTeR 4 ■ LInux BasICs
+
+The du tool has a number of additional switches and options that you can see by reviewing its man page.
+In addition to the size of files and directories, you can also see the total disk space used and free on your 
+
+host using another command, df.

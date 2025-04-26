@@ -1,0 +1,7 @@
+So, until you conﬁ gure those servers, people who 
+are not logged in to your local server cannot send mail to that server or use your computer 
+as a public DNS server, respectively.
+
+Step 3: Start the server
+Most services you install in Linux are conﬁ gured to start up when the system boots, then 
+run continuously, listening for requests for its service, until the system is shut down.

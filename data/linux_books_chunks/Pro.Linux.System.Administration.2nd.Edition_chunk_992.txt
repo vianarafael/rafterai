@@ -1,0 +1,5 @@
+the partition table is normally found at the beginning of the disk and tells 
+the computer how the disk has been laid out. that is, how much of the disk has been allocated to the  
+'/boot' partition, how much is expected to be logical volume management (LvM), and so on.
+
+above we have talked about MBr and Gpt and these are two types of partition tables.

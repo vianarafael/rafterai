@@ -1,0 +1,5 @@
+By placing mount requests in the background, your 
+ system can continue to mount other ﬁ lesystems instead of waiting for the current 
+one to complete.
+
+If a nested mount point is missing, a timeout to allow for the needed mount point to be added occurs.

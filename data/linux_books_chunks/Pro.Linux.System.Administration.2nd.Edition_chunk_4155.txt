@@ -1,0 +1,24 @@
+We don’t want any temp or cache 
+directories, as these tend to hold lots of data that doesn’t require backing up and can be quite large.
+
+FileSet {
+  Name = "Catalog"
+  Include {
+    Options {
+      signature = MD5
+    }
+
+677
+
+Chapter 14 ■ BaCkup and reCovery
+
+    File = "/var/lib/bareos/bareos.sql" # database dump
+    File = "/etc/bareos"                # configuration
+  }
+}
+
+This last FileSet has been defined in the BackupCatalog resource job.
+
+Schedules
+
+Next, we have the Schedule resources.

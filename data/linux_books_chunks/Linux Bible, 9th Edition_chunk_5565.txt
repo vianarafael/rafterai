@@ -1,0 +1,15 @@
+To “grant” such a patent 
+license to a party means to make such an agreement or commitment not to enforce a patent 
+against the party.
+
+both.indd  04/07/2015  Page 10
+
+GNU General Public License
+
+If you convey a covered work, knowingly relying on a patent license, and the Corresponding 
+Source of the work is not available for anyone to copy, free of charge and under the terms 
+of this License, through a publicly available network server or other readily accessible 
+means, then you must either (1) cause the Corresponding Source to be so available, or (2) 
+arrange to deprive yourself of the beneﬁ t of the patent license for this particular work, 
+or (3) arrange, in a manner consistent with the requirements of this License, to extend 
+the patent license to downstream recipients.

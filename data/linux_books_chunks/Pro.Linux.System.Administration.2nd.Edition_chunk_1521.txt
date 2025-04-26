@@ -1,0 +1,5 @@
+You can also add your own. You can 
+view the different tables by issuing ip route show table local|main|default|number. when we issue the 
+ip route show command we are seeing the main table, the equivalent to ip route show table main.
+
+Let’s view the route table for Host A.

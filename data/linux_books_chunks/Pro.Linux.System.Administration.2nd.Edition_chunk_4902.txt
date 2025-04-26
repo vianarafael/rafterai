@@ -1,0 +1,11 @@
+Here we are 
+selecting the devices we want to monitor and naming them via a regular expression. We may have disks that 
+are named in the following ways:
+
+/dev/sda2
+/dev/hdb4
+/dev/xvda3
+
+We need to be able to match on any of these disk naming conventions. First, we look for the x and v 
+
+together (^(xv)?) and match this pattern zero or more times at the start of string (^).

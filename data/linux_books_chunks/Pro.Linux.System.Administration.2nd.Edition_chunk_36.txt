@@ -1,0 +1,6 @@
+Their original volunteer community still lives on as the Fedora Project.
+
+CentOS
+CentOS (www.centos.org/) is a derivation of the Red Hat Enterprise Linux platform. Based on the same 
+source code, it is available at no charge (and without Red Hat’s support). People who wish to make use of 
+the Red Hat platform and its stability without paying for additional support commonly use it.

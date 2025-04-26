@@ -1,0 +1,14 @@
+However, to make sure that our exbackup user can access all the parts of the system when running duply, we 
+must first make this change in our sudoers file.
+
+662
+
+Chapter 14 ■ BaCkup and reCovery
+
+$ sudo visudo
+# Cmnd alias specification
+Cmnd_Alias BACKUPS = /usr/bin/duply
+
+%backup ALL=(ALL) NOPASSWD:  BACKUPS
+
+We will then need to add exbackup to the backup group.

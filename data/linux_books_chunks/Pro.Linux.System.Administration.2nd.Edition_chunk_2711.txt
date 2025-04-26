@@ -1,0 +1,30 @@
+We will specify the 
+hmac-sha512 algorithm with the -a option, give the key a name with –k option and declare the zone with –z 
+option.
+
+# ddns-confgen -a hmac-sha512 -k dynamic-update-key -z example.com
+# To activate this key, place the following in named.conf, and
+# in a separate keyfile on the system or systems from which nsupdate
+# will be run:
+key "dynamic-update-key" {
+        algorithm hmac-sha512;
+        secret "kHATLZ8hl4RbSoe7W71pqaGZ3oCIP3WIgZZI/UcXYzbOooCOTS3cN7lFdQ/+97VYVfFYEGmzRCq
+RKyj4AcLfdg==";
+};
+
+# Then, in the "zone" definition statement for "example.com",
+# place an "update-policy" statement like this one, adjusted as
+# needed for your preferred permissions:
+update-policy {
+         grant dynamic-update-key zonesub ANY;
+};
+
+459
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+# After the keyfile has been placed, the following command will
+# execute nsupdate using this key:
+nsupdate -k <keyfile>
+
+We are shown a helpful output of what we need to do next.

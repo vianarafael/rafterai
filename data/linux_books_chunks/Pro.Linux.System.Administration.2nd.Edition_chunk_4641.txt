@@ -1,0 +1,5 @@
+Higher key sizes imply greater encryption strength.
+
+If we define the ssf security in the global DIT, it is defined for all other DITs. We have set it to 128, which 
+
+is reasonable, and we can restrict more sensitive DITs with stronger security requirements.

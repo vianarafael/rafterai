@@ -1,0 +1,18 @@
+Dovecot PAM Service
+
+#%PAM-1.0
+auth       required     pam_nologin.so
+auth       include      password-auth
+account    include      password-auth
+session    include      password-auth
+
+You can see in Listing 12-11 that an authentication query to Dovecot uses the same PAM authentication 
+
+check that a user logging on to the host would experience (as you saw in Chapter 5).
+
+ You can find more information on password databases for Dovecot at http://wiki.dovecot.org/
+
+ ■ Note 
+PasswordDatabase and on paM authentication for Dovecot at http://wiki.dovecot.org/PasswordDatabase/PAM.
+
+The other directive in Listing 12-10, userdb, is set to driver = passwd.

@@ -1,0 +1,4 @@
+Figure 2.13 shows 
+the results of a search for the word adventure in the description or name of a package.
+
+You can read a description of each package that comes up in your search.

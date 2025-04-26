@@ -1,0 +1,3 @@
+Some distributions are designed as servers and others as desktops, and some are designed to 
+perform particular functions, for example, as embedded systems. The majority of Linux installations still 
+tend to be servers.

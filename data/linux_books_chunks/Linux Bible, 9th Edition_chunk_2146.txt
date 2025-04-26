@@ -1,0 +1,8 @@
+It has since been supplanted by xfs as the default for RHEL.)
+
+ ■ ext3—Ext ﬁ lesystems are the most common in most Linux systems. The ext3 
+
+ ﬁ lesystem, also called the third extended ﬁ lesystem, includes journaling features 
+that, compared to ext2, improve a ﬁ lesystem’s capability to recover from crashes.
+
+ ■ ext2—The default ﬁ lesystem type for earlier Linux systems.

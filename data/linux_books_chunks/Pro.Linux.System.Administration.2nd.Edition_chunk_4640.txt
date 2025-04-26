@@ -1,0 +1,16 @@
+We can define the minimum security 
+strength we allow for our connections and specify higher-security-strength communications for more 
+sensitive roles.
+
+For example, if we had a sec.ldif file like that shown next, it describes the factors of security we require 
+
+for certain connection types:
+
+dn: cn=config
+changetype: modify
+add: olcSecurity
+olcSecurity: ssf=128 update_ssf=256 simple_bind=128 tls=256
+
+The ssf=128 setting describes the overall security strength factor we require for our service based on 
+
+the encryption key size.

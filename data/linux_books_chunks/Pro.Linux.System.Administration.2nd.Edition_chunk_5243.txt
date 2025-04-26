@@ -1,0 +1,14 @@
+Let’s edit 
+
+the file like so:
+
+cluster.name: monitor
+node.name: monitor-node-1
+
+Also within the elasticsearch.yml file, we can set the data path where we store data, the log directory, 
+
+network options, and so on.
+
+For service discovery, or how Elasticsearch finds other nodes in the cluster, Elasticsearch has a Zen 
+
+Discovery module.

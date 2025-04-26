@@ -1,0 +1,7 @@
+In Ubuntu, instead of setting the root user’s password like we did in the CentOS installation, users use 
+a special command called sudo to access all the same privileges as the root user. We’ll talk more about the 
+sudo command in Chapter 5.
+
+In Figure 2-49 you enter the full name of your new user.
+
+Figure 2-49.

@@ -1,0 +1,10 @@
+The results of this lab can be used in the next three labs (partitions, file systems,
+mounting).
+
+It is adviced to attach three 1GB disks and three 2GB disks to the virtual machine. This will
+allow for some freedom in the practices of this chapter as well as the next chapters (raid,
+lvm, iSCSI).
+
+1. Use dmesg to make a list of hard disk devices detected at boot-up.
+
+2.

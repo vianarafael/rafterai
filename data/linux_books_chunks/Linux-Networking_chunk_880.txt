@@ -1,0 +1,15 @@
+solution: first samba user account
+
+1. Create a user account for use with samba.
+
+useradd -s /bin/false smbguest
+
+usermod -c 'samba guest'
+
+passwd smbguest
+
+2. Add this user to samba's user database.
+
+smbpasswd -a smbguest
+
+3.

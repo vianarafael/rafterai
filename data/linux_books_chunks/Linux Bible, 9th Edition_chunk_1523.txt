@@ -1,0 +1,5 @@
+However, you can click the “Manually attach...” button if you want to 
+choose a speciﬁ c entitlement to attach to the system later when you log in to 
+the system.
+
+You should now be able to log in to your Red Hat Enterprise Linux system.

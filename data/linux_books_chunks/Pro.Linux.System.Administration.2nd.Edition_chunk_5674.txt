@@ -1,0 +1,6 @@
+Looking at the documentation, we can declare a virtual host by giving a name, a port, and doc_root, and we 
+have used the parameters provided to the class.
+
+The apache::vhost is what is called a defined resource type. Defined resource types are normal blocks 
+
+of Puppet code that can be evaluated multiple times.

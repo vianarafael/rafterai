@@ -1,0 +1,5 @@
+An incorrect modifi cation could lock everyone out of your system, including 
+the root user.
+
+On the ﬁ rst auth context line involving pam_tally.so in the preceding code, notice that 
+two options have been added, deny=3 and quiet.

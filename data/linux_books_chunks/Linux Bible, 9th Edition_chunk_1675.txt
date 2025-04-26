@@ -1,0 +1,9 @@
+With your Linux system now installed, Chapter 10 describes how to begin 
+managing the software on your Linux system.
+
+9
+
+Exercises
+Use these exercises to test your knowledge of installing Linux. I recommend you do 
+these exercises on a computer that has no operating system or data on it that you 
+would fear losing (in other words, one you don’t mind erasing).

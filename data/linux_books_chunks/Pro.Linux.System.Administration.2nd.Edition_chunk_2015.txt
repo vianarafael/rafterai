@@ -1,0 +1,3 @@
+this might be the case if you are using an older version of a distribution or if a newer version of an 
+application has not yet been packaged for your release. Creating a backport involves getting the source 
+package from a newer (or older) release of Ubuntu and compiling it on your own machine.

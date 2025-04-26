@@ -1,0 +1,10 @@
+one of the four available physical 
+partitions is marked as an extended partition, which then functions as a container for an unlimited 
+number of logical partitions.
+
+the 16 bytes describes every partition, include information about the partition type, where on the disk it 
+can be found, and whether it is bootable, though Linux doesn’t care about the latter.
+
+you would use the fdisk utitility to manage MBr disks.
+
+With gpt we have previously said that we can partition disks up to 2ZiB.

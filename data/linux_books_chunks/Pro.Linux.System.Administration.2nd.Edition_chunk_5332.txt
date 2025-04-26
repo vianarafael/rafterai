@@ -1,0 +1,8 @@
+also, see further 
+
+ ■ Note 
+information about host checking options here: https://assets.nagios.com/downloads/nagioscore/docs/
+nagioscore/4/en/configmain.html.
+
+The -w and -c options take two values: the round-trip time in milliseconds and the percentage of 
+successful pings needed not to break the threshold.

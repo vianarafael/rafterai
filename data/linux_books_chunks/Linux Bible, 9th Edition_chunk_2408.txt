@@ -1,0 +1,4 @@
+This sa1 
+ command gathers a range of system activity information just once (one time after waiting 
+1 second) and copies it to the /var/log/sa/sa?? ﬁ le, where ?? is replaced by the current 
+day.

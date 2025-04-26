@@ -1,0 +1,52 @@
+iSCSI Target and Initiator practice
+
+variable
+
+Target Server IP
+
+shared devices on target
+
+shared device name sdb
+
+shared device name sdc
+
+shared device name sdd
+
+target iqn
+
+initiator iqn
+
+username
+
+password
+
+value
+
+192.168.1.143 (Adjust for your subnet!)
+
+/dev/sdb /dev/sdc /dev/sdd
+
+target.disk1
+
+target.disk2
+
+target.disk3
+
+iqn.2015-04.be.linux:target
+
+iqn.2015-04.be.linux:initiator
+
+paul
+
+hunter2
+
+On the iSCSI Target server:
+
+[root@centos7 ~]# targetcli
+targetcli shell version 2.1.fb37
+Copyright 2011-2013 by Datera, Inc and others.
+For help on commands, type 'help'.
+
+/> cd /backstores/block
+/backstores/block> ls
+o- block ..................................................

@@ -1,0 +1,2 @@
+The -f ${sender} option makes sure the 
+sender of the e-mail is sent on to Postfix.

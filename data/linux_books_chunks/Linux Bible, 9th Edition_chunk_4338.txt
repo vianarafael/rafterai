@@ -1,0 +1,5 @@
+If it is not installed on a 
+Debian system, use the command sudo apt-get install ecrypt-utils.
+
+Because the ecryptfs utility is used for encryption, it is a common mistake to put the letter n after the letter e in 
+the syntax ecryptfs.

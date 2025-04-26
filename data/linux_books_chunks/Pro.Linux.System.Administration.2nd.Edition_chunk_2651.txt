@@ -1,0 +1,6 @@
+First we will show you how to 
+
+configure the master.
+
+ ■ Note  We do note that some people object to using the “master/slave” terminology when describing leader/
+follower relationships.

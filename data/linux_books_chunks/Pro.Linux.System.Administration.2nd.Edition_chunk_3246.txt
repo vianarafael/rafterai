@@ -1,0 +1,30 @@
+A Scripted E-mail Session with nc
+
+$ nc mail.example.com 25
+220 mail.example.org ESMTP Postfix
+ehlo example.com
+250-mail.example.com
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+mail from: jsmith@example.com
+250 2.1.0 Ok
+rcpt to: ataylor@example.com
+250 2.1.5 Ok
+data
+354 End data with <CR><LF>.<CR><LF>
+Subject: My first mail for my domain
+This is a test.
+Thanks
+Mr Testing
+.
+250 2.0.0 Ok: queued as 61A703FA5E
+quit
+221 2.0.0 Bye
+
+In Listing 12-4, we’ve started by specifying the nc command, the e-mail server we want to connect to, 
+and the port, 25, that we want to connect to.

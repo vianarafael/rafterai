@@ -1,0 +1,11 @@
+The benefits of DNFS over the simple NFS are several:
+
+•	 Distributed (the loss of one server does not affect the service)
+
+•	
+
+Scalable up to several petabytes
+
+•	 Geodistributed, with ability to be available across data centers
+
+There are several different solutions to choose from.

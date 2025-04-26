@@ -1,0 +1,15 @@
+practice: partitions
+
+1. Use fdisk -l to display existing partitions and sizes.
+
+2. Use df -h to display existing partitions and sizes.
+
+3. Compare the output of fdisk and df.
+
+4. Create a 200MB primary partition on a small disk.
+
+5. Create a 400MB primary partition and two 300MB logical drives on a big disk.
+
+6. Use df -h and fdisk -l to verify your work.
+
+7.

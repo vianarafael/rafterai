@@ -1,0 +1,4 @@
+This is the combination of 
+a source IP address, source port, destination IP address, and destination port. All four of these parameters 
+must exist for the connection to be established, and iptables can use these values to filter traffic coming in 
+and out of hosts.

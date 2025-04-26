@@ -1,0 +1,6 @@
+You can 
+also access your GUI desktops with SSH, but we’ll talk about that in Chapter 10.
+
+SSH is both an application and a secure protocol used for a number of purposes but primarily 
+
+for remote administration of hosts.

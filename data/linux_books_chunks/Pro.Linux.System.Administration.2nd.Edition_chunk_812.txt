@@ -1,0 +1,5 @@
+If a normal user, like ataylor, has 
+a password already set and runs the command, then she will be prompted to change her own password. You 
+can see the passwd command in action in Listing 5-7.
+
+Listing 5-7.

@@ -1,0 +1,15 @@
+With yum and rpm commands, you have more ﬂ exibility with exactly which packages 
+related to an application or other software feature is installed on your system.
+
+ ■ More complex queries—Using commands such as yum and rpm, you can get 
+
+detailed information about packages, package groups, and repositories.
+
+ ■ Software validation—Using rpm and other tools, you can check whether a 
+
+signed package has been modiﬁ ed before you installed it or whether any of the 
+ components of a package have been tampered with since the package was installed.
+
+ ■ Managing software installation—Although the Software window works well if 
+you are installing desktop software on a single system, it doesn’t scale well for 
+ managing software on multiple systems.

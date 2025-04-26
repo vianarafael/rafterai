@@ -1,0 +1,10 @@
+The data from its learning is added to a database and used to make future analysis of 
+incoming e-mail more accurate.
+
+SpamAssassin runs as a daemon on your host, and e-mail is submitted to the daemon, analyzed, and 
+
+then returned marked, via the addition of a new header, as either spam or not.
+
+Configuring Postfix for Antispam
+
+Before we configure SpamAssassin, we’re going to tighten our Postfix configuration.

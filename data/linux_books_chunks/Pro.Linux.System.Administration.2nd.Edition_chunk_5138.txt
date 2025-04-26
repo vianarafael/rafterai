@@ -1,0 +1,3 @@
+If your logs are located in the root 
+partition, your system can potentially crash. To reduce the risk of this potential crash, we recommend 
+you store your logs on a nonroot (non-/) partition.

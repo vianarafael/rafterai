@@ -1,0 +1,9 @@
+Enter that information and click Connect.
+
+FIGURE 19.6
+
+Identify a Samba share from the Nautilus Connect to Server window.
+
+If the user and password are accepted, you should see the contents of the remote directory. 
+If you have write access to the share, you can open another Nautilus window and drag and 
+drop ﬁ les between the two systems.

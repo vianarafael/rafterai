@@ -1,0 +1,9 @@
+Ubuntu support resources in particular have grown in recent years due to 
+the many newcomers to Linux who have adopted that distribution.
+
+6
+
+ChApTeR 1 ■ InTRoDuCIng LInux
+
+Finally, don’t discount your own personal experience. Explore the distributions yourself. Try out 
+LiveCDs, install a few of the distributions, and get a feel for the various administration tools and interfaces.

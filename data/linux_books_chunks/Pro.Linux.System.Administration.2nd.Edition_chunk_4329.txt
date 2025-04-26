@@ -1,0 +1,9 @@
+We 
+can use the openssl command to create these.
+
+$ sudo openssl dhparam -out /etc/openvpn/dh2048.pem 2048
+Generating DH parameters, 2048 bit long safe prime, generator 2
+This is going to take a long time
+.........................................+..........................................
+
+Here we’ve created a file called dh2048.pem in the /etc/openvpn directory.

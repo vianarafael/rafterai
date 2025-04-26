@@ -1,0 +1,5 @@
+Copyright was the primary means AT&T used to protect its rights 
+to the UNIX code. Some believe that if AT&T had patented the concepts covered in that 
+code, there might not be a Linux (or any UNIX clone) operating system today.
+
+The lawsuit was dropped when Novell bought UNIX System Laboratories from AT&T in 1994.

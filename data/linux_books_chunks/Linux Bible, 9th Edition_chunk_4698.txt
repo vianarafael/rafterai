@@ -1,0 +1,2 @@
+This will help you evaluate your system’s security settings in terms of how much 
+information is being given out to port scans.

@@ -1,0 +1,9 @@
+server configuration
+
+nfs is configured in /etc/exports. You might want some way (ldap?) to synchronize userid's
+across computers when using nfs a lot.
+
+The rootsquash option will change UID 0 to the UID of a nobody (or similar) user account.
+The sync option will write writes to disk before completing the client request.
+
+26.4.

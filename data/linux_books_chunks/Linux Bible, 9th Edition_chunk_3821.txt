@@ -1,0 +1,10 @@
+In fact, if the boot process fails during processing of rc.sysinit, in all 
+ likelihood, the script was unable to ﬁ nd, mount, or decrypt the local or remote storage 
+devices needed for the system to run.
+
+The following is a list of some common failures that can occur from tasks run from the 
+rc.sysinit ﬁ le and ways of dealing with those failures.
+
+ ■ Local mounts fail—If an entry in the /etc/fstab fails to mount, the boot 
+
+ process ends before runlevel services start.

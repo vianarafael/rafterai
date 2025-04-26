@@ -1,0 +1,12 @@
+For Samba to act as a domain controller, it must respond to the 
+following text record requests:
+
+$ host -t SRV _ldap._tcp.samba.example.com.
+_ldap._tcp.samba.example.com has SRV record 0 100 389 dc1.samba.example.com.
+$ host -t SRV _kerberos._udp.samba.example.com.
+_kerberos._udp.samba.example.com has SRV record 0 100 88 dc1.samba.example.com.
+$ host -t A dc1.samba.example.com.
+dc1.samba.example.com has address 192.168.0.10
+
+Here we have tested that we can resolve the LDAP service record, the Kerberos service record, and the 
+A record for dc1.samba.example.com.

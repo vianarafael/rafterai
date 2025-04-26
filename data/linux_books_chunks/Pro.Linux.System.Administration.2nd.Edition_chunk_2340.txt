@@ -1,0 +1,8 @@
+You can mark a device as 
+
+such via the pvcreate command.
+
+$ sudo pvcreate /dev/md0
+  Physical volume "/dev/md0" successfully created
+
+This command writes a small watermark to the start of the device, identifying it for use with LVM.

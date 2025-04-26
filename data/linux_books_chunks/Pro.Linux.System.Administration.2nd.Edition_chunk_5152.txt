@@ -1,0 +1,5 @@
+If a log file definition consists of a collection of log files (for example, 
+/var/ log/samba/*) and sharedscripts is set, then the pre-script/
+post-scripts are run only once. The opposite is nosharedscripts.
+
+Listing 18-12 shows the last command, include, which principally drives logrotate.

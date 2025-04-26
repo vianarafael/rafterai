@@ -1,0 +1,9 @@
+This example puts a bzip2
+backup of a cdrom on a remote server.
+
+dd if=/dev/cdrom |bzip2|ssh user@host "cat - > /backups/cd/cdrom.iso.bz2"
+
+30.8. split
+
+The split command is useful to split files into smaller files. This can be useful to fit the file
+onto multiple instances of a medium too small to contain the complete file.

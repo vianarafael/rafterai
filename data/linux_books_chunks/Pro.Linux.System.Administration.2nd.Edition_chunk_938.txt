@@ -1,0 +1,5 @@
+All configuration lines in the sudoers file must be on one line only, and you can use \ to 
+indicate the configuration continues on the next line.
+
+A single sudoers file is designed to configure multiple hosts. Thus, it allows host-specific access 
+controls.

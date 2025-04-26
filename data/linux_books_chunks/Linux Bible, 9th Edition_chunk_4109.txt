@@ -1,0 +1,3 @@
+Earlier, the usermod utility was used for 
+account expiration. Use the chage command with the -M and the -I options to lock the 
+account. In the code that follows, the tim account is viewed using chage -l.

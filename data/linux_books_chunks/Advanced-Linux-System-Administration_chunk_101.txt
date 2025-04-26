@@ -1,0 +1,13 @@
+We will list some of the files containing useful information:
+
+/proc/cmdline
+Contains the command line passed at boot time to the kernel by the bootloader
+
+/proc/cpuinfo
+CPU information is stored here
+
+/proc/meminfo
+Memory statistics are written to this file
+
+/proc/filesystems
+Filesystems currently supported by the kernel.

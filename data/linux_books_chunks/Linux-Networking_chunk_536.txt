@@ -1,0 +1,11 @@
+When you send an email to another domain, then
+your mail server will need the MX record of the target domain's mail server.
+
+124
+
+introduction to DNS
+
+10.3. caching only servers
+
+A dns server that is set up without authority over a zone, but that is connected to other
+name servers and caches the queries is called a caching only name server.

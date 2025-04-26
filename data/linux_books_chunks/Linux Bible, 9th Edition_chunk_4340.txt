@@ -1,0 +1,6 @@
+If there are ﬁ les located there, move them to a safe place until after 
+the encryption has been completed. If you do not move them, you cannot access them 
+while the directory is encrypted.
+
+Now, to encrypt the directory /home/johndoe/Secret, use the mount command. Look 
+at the mount command used in the example that follows.

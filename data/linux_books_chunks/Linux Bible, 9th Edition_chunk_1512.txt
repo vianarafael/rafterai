@@ -1,0 +1,6 @@
+The new RHEL system is installed, by default, on the 
+
+local hard drive using automatic partitioning. You also have the option of  attaching 
+network storage or special storage, such as Firmware RAID. (See the  section 
+“Partitioning Hard Drives” later in this chapter for details on conﬁ guring  storage.) 
+Click Done when you are ﬁ nished.

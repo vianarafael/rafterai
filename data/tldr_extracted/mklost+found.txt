@@ -1,0 +1,6 @@
+# mklost+found
+
+
+- Create a `lost+found` directory in the current directory:
+
+`mklost+found`

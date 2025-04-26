@@ -1,0 +1,6 @@
+From the output, you can see that the USB ﬂ ash drive was found and assigned 
+to /dev/sdc. (Your device name may be different!) It also contains multiple 
+ partitions: sdc1, sdc2, sdc3, and sdc5. Be sure you identify the correct disk, 
+or you could lose all data from disks you may want to keep!
+
+4.  If the USB ﬂ ash drive mounts automatically, unmount it.

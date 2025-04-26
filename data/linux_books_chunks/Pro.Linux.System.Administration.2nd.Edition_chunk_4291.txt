@@ -1,0 +1,18 @@
+In the following command, we will start configuration defined in /etc/openvpn/gateway.conf:
+
+$ sudo systemctl start openvpn@gateway
+
+You use the Systemd enable command to ensure it starts at bootup.
+
+$ sudo systemctl enable openvpn@gateway
+
+On Ubuntu, we just run the following:
+
+$ sudo systemctl start openvpn
+
+When we start OpenVPN, these configuration service files will be automatically loaded, and the server 
+
+will attempt to start the specified VPNs.
+
+Configuring OpenVPN
+As we mentioned earlier, we need to configure OpenVPN on both ends of any connection.

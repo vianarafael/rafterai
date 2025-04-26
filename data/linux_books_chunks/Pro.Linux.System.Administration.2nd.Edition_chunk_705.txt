@@ -1,0 +1,6 @@
+You will see the word -- INSERT -- appear at the bottom of the screen. This means you’re in 
+insert mode, which allows you to add to the file. You can now type in the file. Let’s type in hello jsmith. You 
+can also use the arrow keys to move around on the line and through the file. The Enter key can be used to 
+add lines to the file.
+
+ You can use the touch command to create empty files.

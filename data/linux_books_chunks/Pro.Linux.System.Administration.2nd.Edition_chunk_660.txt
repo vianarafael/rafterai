@@ -1,0 +1,2 @@
+First you specify where you are searching, in this case in the /
+home/ directory.

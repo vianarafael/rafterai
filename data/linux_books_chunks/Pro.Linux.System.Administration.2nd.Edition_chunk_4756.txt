@@ -1,0 +1,1 @@
+Remember, LAM is not the only LDAP management tool.

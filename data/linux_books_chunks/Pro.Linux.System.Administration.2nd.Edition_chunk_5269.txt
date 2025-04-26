@@ -1,0 +1,9 @@
+Ubuntu is still on version 3, but you can download the source code for version 4 from the Nagios web site 
+and compile it.
+
+Nagios is capable of monitoring a wide variety of hosts and services on a number of platforms including 
+
+Linux, BSD, Solaris, and even Windows (see https://assets.nagios.com/downloads/nagioscore/docs/
+nagioscore/4/en/monitoring-windows.html for instructions on monitoring on Windows).
+
+Nagios runs as a daemon and monitors the services on your hosts and their state.

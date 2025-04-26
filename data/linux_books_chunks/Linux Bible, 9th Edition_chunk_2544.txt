@@ -1,0 +1,10 @@
+For 
+
+example, 192.168.0.150/24 (where 24 is the CIDR equivalent for the 255.255.255.0 
+netmask).
+
+6.  Gateway—Type in the IP address for the computer or router that is supplying the 
+
+route to the Internet.
+
+7.

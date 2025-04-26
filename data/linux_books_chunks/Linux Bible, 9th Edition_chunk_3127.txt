@@ -1,0 +1,5 @@
+A setting of Allow,Deny 
+denies access to any host not allowed in an Allow directive.
+
+As with most other options, the most speciﬁ c Allow or Deny option for a host is used, 
+meaning that you can Deny access to a range and Allow access to subsets of that range.

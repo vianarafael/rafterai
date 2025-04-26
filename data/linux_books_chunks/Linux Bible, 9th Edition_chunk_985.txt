@@ -1,0 +1,24 @@
+By using -not and -or, you can reﬁ ne your search for ﬁ les associated with speciﬁ c users 
+and groups, as you can see in the following examples:
+
+128
+
+c05.indd  04/01/2015  Page 129
+
+Chapter 5: Working with Text Files
+
+$ find /home -user chris -ls
+131077    4 -rw-r--r--   1 chris   chris 379 Jun 29  2014 ./.bashrc
+# find /home -user chris -or -user joe -ls
+131077    4 -rw-r--r--   1 chris   chris 379 Jun 29  2014 ./.bashrc
+181022    4 -rw-r--r--   1 joe      joe    379 Jun 15  2014 ./.bashrc
+# find /etc -group ntp -ls
+131438    4 drwxrwsr-x   3 root     ntp   4096 Mar  9 22:16 /etc/ntp
+# find /var/spool -not -user root -ls
+262100 0 -rw-rw---- 1 rpc   mail 0 Jan 27 2014 /var/spool/mail/rpc
+278504 0 -rw-rw---- 1 joe   mail 0 Apr 3 2014  /var/spool/mail/joe
+261230 0 -rw-rw---- 1 bill  mail 0 Dec 18 2014 /var/spool/mail/bill
+277373 0 -rw-rw---- 1 chris mail 0 Mar 15 2014 /var/spool/mail/chris
+
+The ﬁ rst example outputs a long listing of all ﬁ les under the /home directory that are 
+owned by the user chris.

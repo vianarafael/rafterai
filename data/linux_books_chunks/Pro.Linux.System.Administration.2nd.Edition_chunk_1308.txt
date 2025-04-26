@@ -1,0 +1,18 @@
+Interestingly we also have an 
+
+IPv6-generated IP address, which is based on the MAC address that is assigned.
+
+To bring down the interface, you would use the following:
+
+$ sudo ip link set dev enp0s8 down
+
+You can validate what you have down by issuing the following command which provides just the link 
+
+status:
+
+$ sudo ip link show enp0s8
+3: enp0s8: <BROADCAST,MULTICAST> mtu 1500 qdisc pfifo_fast state DOWN mode DEFAULT group 
+default qlen 1000
+    link/ether 08:00:27:13:3c:00 brd ff:ff:ff:ff:ff:ff
+
+Let’s now add an IPv4 address to our network device.

@@ -1,0 +1,8 @@
+Try passing init= option to kernel
+
+Again we need to boot the system using a different method, then edit the bootloader's 
+configuration file (telling the kernel to use another device as the root filesystem), and 
+reboot.
+
+In both scenarios above it isn't always necessary to use a rescue disk. In fact, it often is a 
+case of booting with a properly configured kernel.

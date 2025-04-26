@@ -1,0 +1,4 @@
+Namely, now it requires only one port, where before it required 
+several, and prior to that you couldn’t tell what ports it was going to use! This made it impossible to use 
+firewalls, which of course made many security administrators immensely happy to deny its existence on 
+their networks.

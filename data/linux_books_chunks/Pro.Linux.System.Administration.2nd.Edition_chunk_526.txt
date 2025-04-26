@@ -1,0 +1,3 @@
+You can tell that by ~$ changing to ‘/$. The root directory is 
+the base of the directory tree. The Linux filesystem is a single directory. This means that, unlike Windows, 
+Linux has a single hierarchal directory structure.

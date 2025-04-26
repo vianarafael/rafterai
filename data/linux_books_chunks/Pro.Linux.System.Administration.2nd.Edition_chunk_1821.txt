@@ -1,0 +1,5 @@
+Installing the nmap Package
+
+$ sudo yum install nmap
+
+The will download and install a package called nmap.

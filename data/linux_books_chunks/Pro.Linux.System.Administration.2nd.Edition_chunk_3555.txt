@@ -1,0 +1,5 @@
+Mode can be s or v or sv. The s means signing, the v means verifying, and sv means both. 
+SubDomains no means that we will not sign the subdomains of the domains we have listed in our table files. 
+We have also set a socket file, which we will connect to Postfix later.
+
+Last, we will talk about SignHeaders and OversignHeaders From.

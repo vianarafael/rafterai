@@ -1,0 +1,5 @@
+Actually /etc/inittab has fields separated by colons. The second field determines
+the runlevel in which this line should be executed. So in both cases, only one line of the
+seven will be executed, depending on the runlevel set by initdefault.
+
+15.1.6.

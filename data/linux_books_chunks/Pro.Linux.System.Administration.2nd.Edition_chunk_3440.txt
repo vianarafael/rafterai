@@ -1,0 +1,18 @@
+This is a 
+common technique used by spam mailers to submit e-mail.
+
+We’re also going to add this same option to the smtpd_data_restrictions to catch spammers who use 
+
+the same technique when the DATA command is issued.
+
+smtpd_data_restrictions = reject_unauth_pipelining
+
+564
+
+Chapter 12 ■ Mail ServiCeS
+
+Lastly, we’re going to configure an option not related to restriction lists that foils some spam.
+
+$ sudo postconf –e 'disable_vrfy_command = yes'
+
+The disable_vrfy_command option disables the SMTP VRFY command.

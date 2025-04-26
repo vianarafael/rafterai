@@ -1,0 +1,14 @@
+While usually mail is delivered anywhere 
+around the world in less than a minute, it is not something that is guaranteed.
+
+529
+
+ 
+ 
+ 
+ 
+Chapter 12 ■ Mail ServiCeS
+
+Configuring E-mail
+We’re going to show you how to create a basic e-mail server configuration that allows you to send and 
+receive e-mail and helps protect your users from spam, viruses, and malware.

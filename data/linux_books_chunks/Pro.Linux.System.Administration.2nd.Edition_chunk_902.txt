@@ -1,0 +1,32 @@
+Four major 
+management groups are available in PAM, and they represent the different portions of the authentication 
+and authorization process that can be configured:
+
+•	
+
+•	
+
+•	
+
+•	
+
+auth: These modules perform user authentication, for example, checking a 
+password.
+
+account: This management group handles account verification tasks, for example, 
+confirming that the user account is unlocked or if only the root user can perform an 
+action.
+
+password: These modules set passwords, for example, checking to ensure your 
+password is sufficiently strong.
+
+session: These modules check, manage, and configure user sessions.
+
+ remember we talked about setting strong complex passwords; the password management group is 
+
+ ■ Note 
+one of the places you can set password rules on complexity.
+
+Usually one or more modules are assigned to each management group, and these modules are usually 
+
+checked in the order they are specified, and each module will return either a success or failure result.

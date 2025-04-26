@@ -1,0 +1,6 @@
+It is a common pattern to see the same 
+services and targets in the Required option also listed in the After option.
+
+The AllowIsolate option is a Boolean read by the systemctl isolate command. The isolate argument 
+
+to the systemctl command is similar in nature to a SysV runlevel.

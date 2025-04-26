@@ -1,0 +1,7 @@
+The next-server option is set to $next_server. This value will be replaced by the IP address we just 
+configured in the next_server option in the /etc/cobbler/settings file. This tells our DHCP server where 
+to route hosts that request a net boot.
+
+The filename option is set to /pxelinux.0, which is the name of the boot file that PXE-booted hosts 
+
+should look for to start their boot process.

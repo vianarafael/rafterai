@@ -1,0 +1,9 @@
+The required packages must be 
+
+installed prior to building or installing if specified. We have chosen bash as our required package.
+
+320
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+ ■ Tip  You can create your own macros for rPM build too.

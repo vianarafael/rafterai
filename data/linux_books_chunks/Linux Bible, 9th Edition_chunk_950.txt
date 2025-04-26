@@ -1,0 +1,6 @@
+(I recommend doing a save before 
+ escaping to the shell, just in case you forget to go back to vi.)
+
+ ■ Ctrl+G—If you forget what you are editing, pressing these keys displays the name 
+of the ﬁ le that you are editing and the current line that you are on at the bottom 
+of the screen.

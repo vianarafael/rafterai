@@ -1,0 +1,13 @@
+If a license document contains a further restriction but permits 
+relicensing or conveying under this License, you may add to a covered work material gov-
+erned by the terms of that license document, provided that the further restriction does not 
+survive such relicensing or conveying.
+
+If you add terms to a covered work in accord with this section, you must place, in the rel-
+evant source ﬁ les, a statement of the additional terms that apply to those ﬁ les, or a notice 
+indicating where to ﬁ nd the applicable terms.
+
+Additional terms, permissive or non-permissive, may be stated in the form of a separately 
+written license, or stated as exceptions; the above requirements apply either way.
+
+8.

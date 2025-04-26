@@ -1,0 +1,5 @@
+Graphical terminals and 
+applications have made this ﬁ le obsolete to most people.
+
+ ■ xinetd.conf—Contains simple conﬁ guration information used by the xinetd 
+daemon process.

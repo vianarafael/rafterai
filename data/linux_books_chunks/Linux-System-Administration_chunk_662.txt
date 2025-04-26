@@ -1,0 +1,4 @@
+Only do the practices that are
+appropriate for your system.
+
+1. Make a copy of the kernel, initrd and System.map files in /boot.

@@ -1,0 +1,10 @@
+From the GRUB boot loader, add an option to boot up to runlevel 1, so you can do 
+
+some system maintenance.
+
+5.  Reboot a computer with Red Hat Enterprise Linux 6 installed and, from the GRUB 
+
+boot loader, add an option that causes system services to prompt you to conﬁ rm as 
+each service is started.
+
+6.

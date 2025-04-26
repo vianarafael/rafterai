@@ -1,0 +1,8 @@
+The ﬁ nal step the init 
+ process takes at this point is to do anything else indicated in the /etc/inittab ﬁ le 
+(such as spawn mingetty processes for virtual consoles and start the desktop interface, 
+if you are in runlevel 5).
+
+Understanding the Upstart init daemon
+As mentioned earlier, many Linux distributions moved for a while from the classic init 
+daemons to the Upstart init daemon.

@@ -1,0 +1,6 @@
+By passing a kickstart ﬁ le as a boot option to a Linux installer, you 
+can provide answers to all the installation questions you would normally have to 
+click through.
+
+When you install RHEL, a kickstart ﬁ le containing answers to all installation ques-
+tions for the installation you just did is in the /root/anaconda-ks.cfg ﬁ le.

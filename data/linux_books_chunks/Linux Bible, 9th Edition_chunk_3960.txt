@@ -1,0 +1,6 @@
+If you get to this point, it means your network connection is 
+ﬁ ne and you should direct your troubleshooting efforts to how the service itself is conﬁ g-
+ured (for example, you might look in /etc/httpd/conf/httpd.conf to see if speciﬁ c 
+hosts are allowed or denied access).
+
+If TCP ports 80 and/or 443 are not shown, it means they are being ﬁ ltered.

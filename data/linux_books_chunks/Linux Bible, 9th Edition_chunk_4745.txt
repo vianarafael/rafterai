@@ -1,0 +1,2 @@
+For example, a ﬁ rewall can block malicious 
+scans from your Linux server ports.

@@ -1,0 +1,7 @@
+You can see that this has produced a list of the kernels installed.
+
+ ■ Note  You see more than one kernel in Listing 8-7 because you can have more than one kernel installed. 
+this does not mean you have multiple kernels running at the same time; rather, you have multiple potential 
+kernels you could run.
+
+Those numbers at the end of each kernel installed are different versions.

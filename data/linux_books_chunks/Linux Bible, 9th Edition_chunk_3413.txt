@@ -1,0 +1,7 @@
+By providing NetBIOS name  service 
+
+name-to-address mapping, nmbd can map requests from Windows clients for 
+NetBIOS names so they can be resolved into IP addresses.
+
+To share ﬁ les and printers with other Linux systems with Samba, only the smb service is 
+required.

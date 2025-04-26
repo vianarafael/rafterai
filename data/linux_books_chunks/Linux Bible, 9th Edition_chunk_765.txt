@@ -1,0 +1,8 @@
+Press the forward slash (/) and type a term to search the 
+document for that term. Press n to repeat the search forward or N to repeat the search 
+backward. To quit the man page, type q.
+
+Summary
+To become an expert Linux user, you must be able to use the shell to type commands. This 
+chapter focuses on the bash shell, which is the one that is most commonly used with Linux 
+systems.

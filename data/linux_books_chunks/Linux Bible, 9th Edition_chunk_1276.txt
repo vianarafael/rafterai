@@ -1,0 +1,2 @@
+This means that even though the account exists, you 
+cannot log in using it or use su to become the root user.

@@ -1,0 +1,2 @@
+The sudoers facility is the most common way to provide such 
+privilege.

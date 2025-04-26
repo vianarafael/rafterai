@@ -1,0 +1,7 @@
+You also 
+learn how the authentication module utility can simplify your administrative duties, even though 
+it is an advanced security topic.
+
+Implementing Linux Security with Cryptography
+Using cryptography enhances the security of your Linux system and its network  communications. 
+Cryptography is the science of concealing information.

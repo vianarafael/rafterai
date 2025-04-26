@@ -1,0 +1,18 @@
+For the printer name, call it myprinter, give it any Description and Location 
+
+you like, and click Apply.
+
+i. Click Cancel to not print a test page. The printer should appear in the Print 
+
+Settings window.
+
+2.  To use the lpc command to see the status of all your printers, type the following:
+
+# lpc status
+myprinter:
+  queuing is enabled
+  printing is enabled
+  no entries
+  daemon present
+
+3.

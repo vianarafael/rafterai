@@ -1,0 +1,12 @@
+The general approach to conﬁ guring networking in these three types of 
+Linux systems is as follows:
+
+347
+
+c14.indd  04/01/2015  Page 348
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Desktop/laptop networking—On desktop systems, NetworkManager runs by 
+
+default to manage network interfaces.

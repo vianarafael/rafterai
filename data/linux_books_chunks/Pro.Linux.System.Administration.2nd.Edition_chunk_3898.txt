@@ -1,0 +1,6 @@
+It has a significant price associated with 
+it, but that could be offset by the costs of tape drives and storage tapes.
+
+Things to Think About
+We have talked about disaster recovery and business continuity and the importance of securing your data, 
+but there is one other thing we want to talk about.

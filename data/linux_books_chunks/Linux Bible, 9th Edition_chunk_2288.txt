@@ -1,0 +1,6 @@
+The sar facility is described in 
+the “Checking System Resources with sar” section later in this chapter.
+
+Keep system software up to date
+As security holes are discovered and patched, you must make sure that the updated  software 
+packages containing those patches are installed on your servers.

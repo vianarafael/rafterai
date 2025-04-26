@@ -1,0 +1,10 @@
+Displaying Disk Space
+
+$ df -h
+Filesystem                                           Size     Used  Avail   Use%  Mounted on
+/dev/mapper/VolGroup00-LogVol01  178G     11G   159G    6%      /
+/dev/sda1                                             99M     37M    58M    39%    /boot
+tmpfs                                                  910M       0     910M    0%      /
+dev/shm
+
+We’ve executed the command and added the -h switch, which returns human-readable sizes.

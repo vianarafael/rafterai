@@ -1,0 +1,6 @@
+However, it does not prevent you from mounting an NFS 
+shared directory.
+
+Confi guring SELinux for your NFS server
+With SELinux set to Permissive or Disabled, it does not block access to the NFS service. 
+In Enforcing mode, however, you should understand a few SELinux Booleans.

@@ -1,0 +1,5 @@
+An installed system is preferable so you don’t lose your changes when you reboot. To start 
+out, you can use a Fedora Live CD (or installed system), an Ubuntu installed system, or a 
+Red Hat Enterprise Linux installed system. Here are your choices:
+
+ ■ Fedora Live CD (GNOME 3)—Get a Fedora Live CD as described in Appendix A.

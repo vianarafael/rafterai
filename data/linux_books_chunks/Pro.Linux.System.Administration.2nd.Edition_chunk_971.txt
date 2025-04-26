@@ -1,0 +1,17 @@
+Finally, we covered a bit about how to monitor your 
+users’ logins.
+
+In the next chapter, we’ll look at what happens when your host boots up and how to start, stop, and 
+
+manage services.
+
+180
+
+CHAPTER 6
+
+Startup and Services
+
+By Dennis Matotek
+
+In the last few chapters, you’ve learned how to install a Linux host, explored some basic Linux concepts, and 
+been introduced to the concept of users and groups.

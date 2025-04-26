@@ -1,0 +1,17 @@
+This can be set in grub
+with the initrd command.
+
+Here a screenshot of Debian 4.0
+
+initrd /boot/initrd.img-2.6.17-2-686
+
+And the same for Red Hat Enterprise Linux 5
+
+initrd /initrd-2.6.18-128.el5.img
+
+root
+
+The root command accepts the root device as a parameter.
+
+The root command will point to the hard disk and partition to use, with hd0 as the first
+hard disk device and hd1 as the second hard disk device.

@@ -1,0 +1,10 @@
+If we use the ls command to list the contents of our directory we will see 
+the following (you may need to issue dir for Windows cmd.exe).
+
+Listing 3-3.  Showing the Vagrantfile
+
+> ls
+Vagrantfile
+
+In Figure 3-3 we have one file called Vagrantfile and this file contains the configuration information 
+used by the vagrant command to create our Vagrant hosts.

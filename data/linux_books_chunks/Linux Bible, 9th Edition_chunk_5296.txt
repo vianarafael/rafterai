@@ -1,0 +1,15 @@
+To change the default runlevel or target unit on your Linux server, you can do one 
+
+of the following (depending upon your server’s init daemon):
+
+ ■ For SysVinit, edit the ﬁ le /etc/inittab and change the # in the line 
+
+id:#:initdefault: to either 2, 3, 4, or 5.
+
+ ■ For Upstart daemon, edit the ﬁ le /etc/inittab and change the # in the line 
+
+id:#:initdefault: to either 2, 3, 4, or 5.
+
+ ■ For systemd, change the default.target symbolic link to the desired 
+
+ runlevel#.target, where # is either 2, 3, 4, or 5.

@@ -1,0 +1,97 @@
+See software packages
+packet ﬁ lters, 711
+PAM (Pluggable Authentication Module), 648–667
+
+administering, 654–667
+
+good passwords, enforcing, 660–663
+PAM-aware application conﬁ guration ﬁ les, 
+
+654–655
+
+resources, implementing, 657–658
+sudo use, encouraging, 664
+system event conﬁ guration ﬁ les, 653–654, 655–657
+time restrictions, implementing, 658–660
+user accounts, locking, 665–667
+
+authentication process, 649–654
+beneﬁ ts, 649
+contexts, 650–651
+control ﬂ ags, 651–652
+
+exercises, 668, 830–832
+information sources, 667
+modules, 652–653
+
+PAM Module Reference, 667
+pam-auth-config utility, 656
+PAM-aware applications, 648–649
+pam-limits module, 657
+pam.conf ﬁ le, 667
+pam.d ﬁ le, 650
+pam.d.vsftpd ﬁ le, 480
+pam.d/common-auth ﬁ le, 660
+pam.d/other ﬁ le, 655
+pam.d/passwd ﬁ le, 661
+pam.d/su ﬁ le, 664
+pam.d/system-auth ﬁ le, 661–663
+pam_cracklib module, 660–664
+pam_deny.so module, 655
+pam_tully2 module, 665–667
+pam_wheel module, 664
+panels, GNOME 2 desktop, 50, 53–57
+partition tables, 286
+partitioning, 220–224, 285–295
+LVM partitions, 295–301
+multiple-partition disks, 292–295
+partition types, 221–222
+RAID partitions, 221–222
+reasons for, 220–221
+single-partition disks, 288–291
+tips for creating, 222–224
+viewing partitions, 286–288
+
+passdb.tdb ﬁ le, 521
+passwd command, 598–599
+passwd ﬁ le, 69, 71, 82, 187, 601–603
+password PAM context, 651
+passwords, 321, 596–602
+
+best practices, 599–601
+detecting bad account passwords, 
+
+614–615
+
+enforcing with PAM, 660–663
+hashed, 601–603
+
+Passwords and Keys window, GNOME, 646
+PATH environment variable, 86, 91, 
+
+92, 182
+
+penetration testing, 623
+permission errors, 474–475
+permissions
+
+ACLs (Access Control Lists), 271–276
+Apache, 455
+ﬁ lesystem, 109–113, 603–604
+Samba, 510–511
+
+Permissive mode, SELinux, 674, 680–682
+persistent services, enabling, 408–412
+php package, 452
+
+bindex.indd  04/02/2015  Page 851
+
+Index
+
+php-ldap package, 452
+physical security, 591––592
+ping command, 353
+pipe (|), 8, 82–83, 103, 139, 162, 166
+Places Status Indicator extension, 42–43
+plaintext, 627
+Pluggable Authentication Module.

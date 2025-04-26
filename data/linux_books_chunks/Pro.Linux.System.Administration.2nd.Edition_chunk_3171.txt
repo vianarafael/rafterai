@@ -1,0 +1,7 @@
+The first line in Listing 12-1 is the server telling the client who it is, mail.example.com, and 
+that it is an SMTP server that supports ESMTP.
+
+ You can see the line starts with a number in the format 2xx. this is a response code that the client 
+
+ ■ Note 
+and server exchange to indicate success or failure.

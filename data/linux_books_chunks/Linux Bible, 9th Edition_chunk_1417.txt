@@ -1,0 +1,3 @@
+Any ﬁ lesystems found 
+on those devices are automatically mounted on /run/media/username, and you are 
+prompted if you want to open a Nautilus window to view ﬁ les on those devices.

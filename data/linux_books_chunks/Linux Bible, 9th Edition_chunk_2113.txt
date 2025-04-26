@@ -1,0 +1,17 @@
+Next, 
+I use the pvdisplay command to see if that partition is being used in an LVM group:
+
+# pvdisplay /dev/sda2
+  --- Physical volume ---
+  PV Name               /dev/sda2
+  VG Name               vg_abc
+  PV Size               148.52 GiB / not usable 2.00 MiB
+  Allocatable           yes (but full)
+  PE Size               4.00 MiB
+  Total PE              38021
+  Free PE               0
+  Allocated PE          38021
+  PV UUID               wlvuIv-UiI2-pNND-f39j-oH0X-9too-AOII7R
+
+You can see that the LVM physical volume represented by /dev/sda2 has 148.52GiB 
+of space, all of which has been totally allocated to a volume group named vg_abc.

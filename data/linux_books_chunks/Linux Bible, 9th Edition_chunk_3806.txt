@@ -1,0 +1,2 @@
+The main things to look for at this point (although they may scroll by 
+quickly) are hardware failures that may prevent some feature from working properly.

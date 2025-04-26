@@ -1,0 +1,6 @@
+It was originally created for low-memory 
+machines or devices such as smart phones.
+
+The Minimum policy is essentially the same as the Targeted policy, but only the base policy 
+rule package is used. This “bare bones” policy can be used to test out the effects of SELinux 
+on a single designated daemon.

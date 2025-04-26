@@ -1,0 +1,14 @@
+If the CD burner is attached as a secondary master (./dev/hdc) then the following entry in 
+
+/etc/modules.conf will enable the ide-sci module for this device :
+
+/etc/modules.conf  (from the CD-Writing HOWTO)
+options ide-scsi=/dev/hdb
+options ide-cd ignore=hdb
+alias scd0 sr_mod
+pre-install sg     modprobe ide-scsi     # load ide-scsi before sg
+pre-install sr_mod modprobe ide-scsi # load ide-scsi before sr_mod
+pre-install ide-scsi modprobe ide-cd   # load ide-cd  before ide-scsi
+
+The device will be seen as /dev/scd0 and can be added to /etc/fstab with it's own mount 
+point.

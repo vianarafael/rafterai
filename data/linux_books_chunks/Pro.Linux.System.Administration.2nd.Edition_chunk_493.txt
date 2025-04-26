@@ -1,0 +1,18 @@
+To view this 
+
+ ■ Tip 
+introduction, use the command man intro.
+
+You can search for relevant man pages that match words in their short description.
+
+$ man –k user
+adduser (8)                   - create a new user or update default new user information
+applygnupgdefaults (8) - Run gpgconf - apply-defaults for all users.
+arpd (8)                         - userspace arp daemon.
+
+Or you can also search all of the man pages on a host for a keyword using the -K option.
+
+$ man -K user
+
+This would search all man pages for the keyword user and return a list of all man pages containing the 
+term.

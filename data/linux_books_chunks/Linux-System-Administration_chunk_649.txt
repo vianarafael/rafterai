@@ -1,0 +1,17 @@
+simple stanza examples
+
+This is a screenshot of a Debian 4 stanza.
+
+title   Debian GNU/Linux, kernel 2.6.17-2-686
+root    (hd0,0)
+kernel  /boot/vmlinuz-2.6.17-2-686 root=/dev/hda1 ro 
+initrd  /boot/initrd.img-2.6.17-2-686
+
+Here a screenshot of a Red Hat Enterprise Linux 5 stanza.
+
+title Red Hat Enterprise Linux Server (2.6.18-128.el5)
+ root (hd0,0)
+ kernel /vmlinuz-2.6.18-98.el5 ro root=/dev/VolGroup00/LogVol00 rhgb quiet
+ initrd /initrd-2.6.18-98.el5.img
+
+14.2.7.

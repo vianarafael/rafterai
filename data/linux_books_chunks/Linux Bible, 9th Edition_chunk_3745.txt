@@ -1,0 +1,10 @@
+552
+
+c21.indd  04/01/2015  Page 553
+
+Chapter 21: Troubleshooting Linux
+
+It has been supplanted only over the past few years by Upstart and systemd to better suit 
+the demands of modern operating systems.
+
+In System V init, sets of services are assigned to what is referred to as runlevels.

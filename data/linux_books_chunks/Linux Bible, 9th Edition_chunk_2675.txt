@@ -1,0 +1,37 @@
+Table 15.1 shows the standard seven Linux runlevels.
+
+TABLE 15.1    Standard Linux Runlevels
+
+Runlevel #
+
+Name
+
+Description
+
+0
+
+1 or S
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Halt
+
+All services are shut down and the server is stopped.
+
+Single User 
+Mode
+
+Multiuser 
+Mode
+
+The root account is automatically logged in to the server. Other 
+users cannot log in to the server. Only the command line interface 
+is available.

@@ -1,0 +1,2 @@
+Generally, it tries to reassign the same address to a client when it 
+reconnects, even if more time than max-lease-time has passed.

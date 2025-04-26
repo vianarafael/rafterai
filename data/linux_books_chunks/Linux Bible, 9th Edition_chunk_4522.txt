@@ -1,0 +1,10 @@
+Enforcing this model is accomplished by granting object access based on the role’s 
+security clearance and the object’s classiﬁ cation level.
+
+672
+
+c24.indd  04/15/2015  Page 673
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+Security clearance is an attribute granted to roles allowing access to classiﬁ ed objects.

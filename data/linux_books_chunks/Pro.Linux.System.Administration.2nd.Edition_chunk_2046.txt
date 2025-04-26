@@ -1,0 +1,5 @@
+If it fails, you’ll generally receive 
+
+an error message indicating why and, it is hoped, some direction about how to fix it. There are a lot of 
+reasons why building an application may fail—too many to detail here—but generally you’ll probably have 
+encountered a problem someone has found before.

@@ -1,0 +1,5 @@
+Always look in the main repositories for your distribution 
+before you look elsewhere for a package or try to build one yourself.
+
+Even if it works when you ﬁ rst install it, a package someone just handed to you 
+might not have a way to be upgraded.

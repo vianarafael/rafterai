@@ -1,0 +1,6 @@
+As you would expect, for an anonymous user to view or download a ﬁ le, at 
+least read permission must be open for other (------r--). To access a directory, at least 
+execute permission must be on for other (--------x).
+
+For regular user accounts, the general rule is that if a user can access a ﬁ le from the shell, 
+that user can access the same ﬁ le from an FTP server.

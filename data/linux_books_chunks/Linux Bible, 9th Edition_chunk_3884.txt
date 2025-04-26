@@ -1,0 +1,6 @@
+See the sidebar “Using cron for Software Updates” for details on 
+how to do that.
+
+ ■ Occasionally upgrade your system. Fedora and Ubuntu have new releases every six 
+months. Fedora stops supplying updated packages for each version 13 months after 
+it is released.

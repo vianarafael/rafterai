@@ -1,0 +1,8 @@
+You can see 
+
+ ■ Note 
+a full list of these codes at https://www.iana.org/assignments/smtp-enhanced-status-codes/smtp-
+enhanced-status-codes.xml#smtp-enhanced-status-codes-3.
+
+We tell the server who we are with the EHLO command, and it responds with its own identity and a list of 
+its available features. We then indicate to whom we want to send an e-mail and whom it is from.

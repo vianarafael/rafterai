@@ -1,0 +1,5 @@
+This is different than the 
+ service conﬁ guration ﬁ le in that its job is often just to pass arguments to the 
+server process itself, rather than conﬁ gure the service. For example, options you 
+set in the /etc/sysconfig/rsyslogd ﬁ le are passed to the rsyslogd  daemon 
+when it starts up.

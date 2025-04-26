@@ -1,0 +1,23 @@
+You can change the 
+chkconfig line in the service script if you want the service to start earlier (use a smaller 
+number) or later (use a larger number) in the list of service scripts.
+
+Step 2: Add the service script to /etc/rc.d/init.d
+After you have modiﬁ ed or created and tested your service’s script ﬁ le, you can move it to 
+the proper location: /etc/rc.d/init.d:
+
+# cp My_New_Service /etc/rc.d/init.d
+# ls /etc/rc.d/init.d/My_New_Service
+/etc/rc.d/init.d/My_New_Service
+
+416
+
+c15.indd  04/01/2015  Page 417
+
+Chapter 15: Starting and Stopping Services
+
+Step 3: Add the service to runlevel directories
+This ﬁ nal step sets up the service script to start and stop at different runlevels and checks 
+that the service script works.
+
+1.

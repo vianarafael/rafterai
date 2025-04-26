@@ -1,0 +1,14 @@
+Success!
+
+490
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] y
+ ...

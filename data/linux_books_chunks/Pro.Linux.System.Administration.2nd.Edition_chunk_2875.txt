@@ -1,0 +1,13 @@
+You can also use a2query to check that the site is enabled like this:
+
+$ sudo a2query -s www.example.com
+www.example.com (enabled by site administrator)
+
+We can also make sure that our firewalls allow HTTP traffic through to our host by issuing the following:
+
+$ sudo ufw allow http
+
+This allows web traffic through to our web service.
+
+httpd Performance
+There are several nobs and dials that can be tweaked for Apache performance.

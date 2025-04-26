@@ -1,0 +1,5 @@
+Replace group with the group name (for example, -g wheel).
+
+ ■ -G grouplist—Set the user’s secondary groups to the supplied comma-separated 
+list of groups. If the user is already in at least one group besides the user’s private 
+group, you must add the -a option as well (-Ga).

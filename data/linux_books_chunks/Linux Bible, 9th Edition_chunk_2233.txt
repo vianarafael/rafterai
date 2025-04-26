@@ -1,0 +1,3 @@
+It can also act 
+as a remote logging server, gathering logging messages sent from other logging 
+servers.

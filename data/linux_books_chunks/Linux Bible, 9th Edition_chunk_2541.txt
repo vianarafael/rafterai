@@ -1,0 +1,10 @@
+Edit a connection—With Edit a connection highlighted, press Enter. A list of 
+
+ network devices (usually wired or wireless Ethernet cards) is displayed, along with 
+any wireless networks you have connected to in the past.
+
+2.  Network devices—Highlight one of the network devices (in my case, I chose a 
+
+wired Ethernet interface enp0s25) and press Enter.
+
+3.

@@ -1,0 +1,14 @@
+The example that follows 
+ demonstrates this ease.
+
+# systemctl start cups.service
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+    Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+    Active: active (running) since Tue, 01 May 2018 04:43:5...
+  Main PID: 17003 (cupsd)
+    CGroup: name=systemd:/system/cups.service
+           └  17003 /usr/sbin/cupsd -f
+
+After the cups daemon is started, using systemctl with the status option shows that the 
+ service is active (running).

@@ -1,0 +1,6 @@
+To add our peers to the cluster, we issue the following:
+
+$ sudo gluster peer probe au-mel-dfs-1
+peer probe: success.
+
+We do the same for au-mel-dfs-2.

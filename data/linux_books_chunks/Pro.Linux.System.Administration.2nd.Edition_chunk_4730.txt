@@ -1,0 +1,11 @@
+It is a few releases old, and if you 
+are looking for a more recent version, you can get the .deb packages from the web site’s download page 
+(https://www.ldap-account-manager.org/lamcms/releases) or from the Debian repository.
+For LAM, you will need a version of PHP installed on your host higher or equal to 5.2.4.
+To install it, you issue the following:
+
+$ sudo aptitude install php-mcrypt php-zip ldap-account-manager apache2
+
+At the time of writing, the version provided in the Ubuntu repository (5.2-1ubuntu1) does not support 
+
+the default PHP (7.x) installed with Xenial.

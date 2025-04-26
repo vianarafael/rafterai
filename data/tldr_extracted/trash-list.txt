@@ -1,0 +1,6 @@
+# trash-list
+
+
+- View documentation for `trash-list`:
+
+`tldr trash`

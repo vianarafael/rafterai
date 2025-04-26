@@ -1,0 +1,5 @@
+To launch the Firefox web browser and go to the GNOME home page (http://gnome.org), 
+there are some easy steps to take. If your networking is not working, refer to Chapter 14, 
+“Administering Networking,” for help connecting to wired and wireless networks.
+
+ ■ For GNOME 3, you can press the Windows key to get to the Overview screen.

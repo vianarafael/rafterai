@@ -1,0 +1,4 @@
+Track zero is (usually) on the outside.
+The time it takes to position the head over a certain track is called the seek time. Often
+the platters are stacked on top of each other, hence the set of tracks accessible at a certain
+position of the comb forms a cylinder.

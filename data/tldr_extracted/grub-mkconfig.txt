@@ -1,0 +1,14 @@
+# grub-mkconfig
+
+
+- Do a dry run and print the configuration to `stdout`:
+
+`sudo grub-mkconfig`
+
+- Generate the configuration file:
+
+`sudo grub-mkconfig {{[-o|--output]}} {{/boot/grub/grub.cfg}}`
+
+- Display help:
+
+`grub-mkconfig --help`

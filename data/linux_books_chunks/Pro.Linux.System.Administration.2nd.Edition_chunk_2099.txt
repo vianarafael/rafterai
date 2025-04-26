@@ -1,0 +1,30 @@
+It can also show you times when there was a critical failure or a problem the kernel had 
+with a component.
+
+361
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Some useful options for dmesg are:
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+-C Clears the kernel ring buffer
+
+-h human readable
+
+-t human readable timestamp
+
+-w Follow, or wait for new messages
+
+-l <level> only show messages of a certain level, like info, crit, err, emerg
+
+In the output of dmesg we can see that the system has detected two disks, sda and sdb.

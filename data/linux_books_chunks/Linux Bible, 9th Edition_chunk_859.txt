@@ -1,0 +1,12 @@
+Those bits are 
+used to deﬁ ne who can read, write, or execute the ﬁ le.
+
+109
+
+4
+
+c04.indd  04/01/2015  Page 110
+
+Part II: Becoming a Linux Power User
+
+For a regular fi le, a dash appears in front of the nine-bit permissions indicator.

@@ -1,0 +1,28 @@
+encryption with crypt
+
+A third option is to create your own C program using the crypt function, and compile this
+into a command.
+
+paul@rhel65:~$ cat MyCrypt.c
+#include <stdio.h>
+#define __USE_XOPEN
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+ if(argc==3)
+   {
+       printf("%s\n", crypt(argv[1],argv[2]));
+   }
+   else
+   {
+       printf("Usage: MyCrypt $password $salt\n" );
+   }
+  return 0;
+}
+
+This little program can be compiled with gcc like this.
+
+paul@rhel65:~$ gcc MyCrypt.c -o MyCrypt -lcrypt
+
+To use it, we need to give two parameters to MyCrypt.

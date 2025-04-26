@@ -1,0 +1,4 @@
+Searching again, using the -i to be case-insensitive (as in the second example), 
+there were 29 lines of text produced.
+
+To search for lines that don’t contain a selected text string, use the -v option.

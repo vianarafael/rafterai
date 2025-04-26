@@ -1,0 +1,2 @@
+If you want to follow the 
+entire route to a host from beginning to end, you can use the traceroute command.

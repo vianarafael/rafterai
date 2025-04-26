@@ -1,0 +1,19 @@
+Here we will test to see whether we can use 
+our key to ssh across to the remote host and run the top command.
+
+$ ssh -i .ssh/exbackup remotehost.example.com top
+UNAUTHORIZED COMMAND
+
+Perfect—sending prohibited or unexpected commands elicits the UNAUTHORIZED COMMAND response.
+
+647
+
+Chapter 14 ■ BaCkup and reCovery
+
+Setting a rsync Script in crontab
+
+Now we can set up crontab scripts to regularly sync our remote host files down to our backup directory.
+
+Table 14-2 lists some of the options that can be used with rsync.
+
+Table 14-2.

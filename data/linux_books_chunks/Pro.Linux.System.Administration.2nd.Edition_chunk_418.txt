@@ -1,0 +1,8 @@
+If you don’t see a default username and password, you may need to check the LiveCD’s online 
+documentation, or you may be prompted to create a username and a password.
+
+Once your host has verified your access, then you’ll be logged in and, depending on your configuration, 
+
+your host will either display a command-line or a GUI desktop environment.
+
+Linux vs.

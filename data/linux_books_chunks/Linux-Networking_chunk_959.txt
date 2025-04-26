@@ -1,0 +1,38 @@
+Users and Groups
+
+To be able to use users and groups in the samba domain controller, we can first set up some
+groups on the Linux computer.
+
+[root@RHEL52 samba]# groupadd ntadmins
+[root@RHEL52 samba]# groupadd ntsports
+[root@RHEL52 samba]# groupadd ntfootball
+[root@RHEL52 samba]# groupadd nttennis
+
+This enables us to add group membership info to some new users for our samba domain.
+Don't forget to give them a password.
+
+[root@RHEL52 samba]# useradd -m -G ntadmins Administrator
+[root@RHEL52 samba]# useradd -m -G ntsports,nttennis venus
+[root@RHEL52 samba]# useradd -m -G ntsports,nttennis kim
+[root@RHEL52 samba]# useradd -m -G ntsports,nttennis jelena
+[root@RHEL52 samba]# useradd -m -G ntsports,ntfootball figo
+[root@RHEL52 samba]# useradd -m -G ntsports,ntfootball ronaldo
+[root@RHEL52 samba]# useradd -m -G ntsports,ntfootball pfaff
+
+It is always safe to verify creation of users, groups and passwords in /etc/passwd, /etc/shadow
+and /etc/group.
+
+[root@RHEL52 samba]# tail -11 /etc/group
+ntadmins:x:507:Administrator
+ntsports:x:508:venus,kim,jelena,figo,ronaldo,pfaff
+ntfootball:x:509:figo,ronaldo,pfaff
+nttennis:x:510:venus,kim,jelena
+Administrator:x:511:
+venus:x:512:
+kim:x:513:
+jelena:x:514:
+figo:x:515:
+ronaldo:x:516:
+pfaff:x:517:
+
+23.8.

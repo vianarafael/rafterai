@@ -1,0 +1,6 @@
+This feature can speed 
+up the boot process, by ensuring that a single stalled service doesn’t stall other 
+ services from starting if they don’t need the stalled service.
+
+ ■ Resource usage—With systemd, you can use cgroups to limit how much of your 
+system’s resources is consumed by a service.

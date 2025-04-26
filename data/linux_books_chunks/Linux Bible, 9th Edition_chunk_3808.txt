@@ -1,0 +1,2 @@
+As its name implies, the kernel ring buffer stores  kernel 
+ messages in a buffer, throwing out older messages after that buffer is full.

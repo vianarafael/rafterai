@@ -1,0 +1,7 @@
+a lot more Bash capabilities are revealed by reviewing Bash’s man page, man bash, or having 
+a look at one of the many Bash tutorials online such as www.hypexr.org/bash_tutorial.php and 
+http://tldp.org/LDP/Bash-Beginners-Guide/html/, or checking out the Bash reference manual at 
+www.gnu.org/software/bash/manual/bashref.html.
+
+Moving and Renaming Files
+Moving files around in Linux is pretty straightforward.

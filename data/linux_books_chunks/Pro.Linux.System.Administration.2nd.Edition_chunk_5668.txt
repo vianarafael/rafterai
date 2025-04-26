@@ -1,0 +1,11 @@
+Notify can be a handy way to debug your Puppet code as 
+
+you can print out variables and the like to see that your code is working as you expect.
+
+947
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We now have our profile::web_server module working. Now inside this profile we are going to soon 
+
+include the role apache_web.

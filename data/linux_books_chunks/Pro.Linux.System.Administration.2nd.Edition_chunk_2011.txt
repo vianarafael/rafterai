@@ -1,0 +1,2 @@
+When you use the --remove option, you are removing 
+everything except modified configuration files for that package from the host.

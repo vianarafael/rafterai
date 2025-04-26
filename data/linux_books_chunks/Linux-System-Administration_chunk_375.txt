@@ -1,0 +1,22 @@
+Mount will skip lines with the nodev directive.
+
+paul@RHELv4u4:~$ cat /etc/filesystems 
+ext3
+ext2
+nodev proc
+nodev devpts
+iso9660
+vfat
+hfs
+
+7.1.4. /proc/filesystems
+
+When /etc/filesystems does not exist, or ends with a single * on the last line, then mount
+will read /proc/filesystems.
+
+[root@RHEL52 ~]# cat /proc/filesystems | grep -v ^nodev
+ ext2
+ iso9660
+ ext3
+
+7.1.5.

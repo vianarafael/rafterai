@@ -1,0 +1,6 @@
+It is the owner and group assigned to 
+the command, respectively, that determines the permissions the command has to access resources 
+on the computer. So a set UID command owned by root would run with root permissions; a set GID 
+command owned by apache would have apache group permissions.
+
+Examples of applications that have set UID bits turned on are the su and newgrp commands.

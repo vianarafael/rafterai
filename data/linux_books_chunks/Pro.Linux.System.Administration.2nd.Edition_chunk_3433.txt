@@ -1,0 +1,5 @@
+An address such as Anne Taylor or ataylor or Anne or 
+anything else that you will not be able to respond to will not be accepted, and the e-mail is thereby rejected.
+
+The reject_unknown_sender_domain option rejects e-mail where the domain of the sender has no DNS 
+A or MX record.

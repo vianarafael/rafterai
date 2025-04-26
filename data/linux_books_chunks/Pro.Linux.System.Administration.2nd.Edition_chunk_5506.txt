@@ -1,0 +1,4 @@
+Learn more about signatures here: http://cobbler.github.io/manuals/2.8.0/3/2/3_-_Distro_
+Signatures.html.
+
+You can also sync with online repositories.

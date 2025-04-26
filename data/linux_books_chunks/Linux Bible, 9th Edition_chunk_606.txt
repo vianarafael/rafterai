@@ -1,0 +1,14 @@
+Here are some examples:
+
+71
+
+c03.indd  04/01/2015  Page 72
+
+Part II: Becoming a Linux Power User 
+
+$ ls --hide=Desktop
+Documents  Music     Public    Videos
+Downloads  Pictures  Templates
+
+In the previous example, the --hide option tells the ls command to not display the ﬁ le or 
+directory named Desktop when listing the contents of the directory.

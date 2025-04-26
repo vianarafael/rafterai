@@ -1,0 +1,24 @@
+The default is 1024 bytes. 
+On a clear network the speed may be improved by setting n to 8192 
+
+hard
+
+bg
+
+intr
+nolock
+rsize=n 
+wsize=n
+
+ERRORS
+mount: RPC: Program not registered
+
+mount: IP:share failed, reason given by server: 
+Permission denied
+
+ Possible cause
+ The remote NFS server is not 
+running
+ Wrong directory
+
+The showmount tool can view NFS shares available on a remote host.

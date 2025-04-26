@@ -1,0 +1,11 @@
+(Fedora creates a group 
+
+using the new user’s name.)
+
+ ■ Creates a home directory, based on the user’s name, in the /home directory.
+
+ ■ Copies any ﬁ les located within the /etc/skel directory to the new home 
+
+ directory. This usually includes login and application startup scripts.
+
+The preceding example uses only a few of the available useradd options.

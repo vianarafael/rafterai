@@ -1,0 +1,7 @@
+Full implementation of these features is beyond the scope of this book, but 
+know that if you ﬁ nd yourself needing to manage network infrastructure features, this 
+ section will give you a sense of how those features are implemented in Linux.
+
+Confi guring Linux as a router
+If you have more than one network interface on a computer (typically two or more NICs), 
+you can conﬁ gure Linux as a router.

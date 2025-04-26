@@ -1,0 +1,14 @@
+In this chapter, you learned how commands are structured and how many special 
+features, such as variables, command completion, and aliases are used.
+
+The next chapter describes how to move around the Linux ﬁ lesystem from the shell 
+command line.
+
+94
+
+c03.indd  04/01/2015  Page 95
+
+Chapter 3: Using the Shell
+
+Exercises
+Use these exercises to test your knowledge of using the shell.

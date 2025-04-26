@@ -1,0 +1,2 @@
+It is via networking that your host talks to other hosts and your applications communicate with 
+your users and the world.

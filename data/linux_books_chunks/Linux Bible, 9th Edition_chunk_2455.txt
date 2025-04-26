@@ -1,0 +1,7 @@
+However, what if your 
+Linux system doesn’t automatically connect to the Internet? What if you want to conﬁ gure your 
+desktop to talk to a private network at work (VPN)? What if you want to lock down network 
+ settings on your server or conﬁ gure your Linux system to work as a router?
+
+In this chapter, topics related to networking are divided into networks for desktops, servers, and 
+enterprise computing.

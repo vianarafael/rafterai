@@ -1,0 +1,10 @@
+Right-click the icon representing the Linux ISO you just downloaded, and select 
+
+Burn “Linux” to Disk. A pop-up window appears, asking if you are sure you want to 
+burn the image.
+
+4.  Fill in the name you want to give the ISO and the write speed. Then select Burn. 
+
+The image begins burning to disk.
+
+5.

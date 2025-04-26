@@ -1,0 +1,41 @@
+MariaDB Storage Engines
+
+Archive
+
+Data archiving
+
+Aria
+
+An enhanced MyISAM database
+
+Cassandra
+
+NoSQL storage engine to access data in a Cassandra cluster
+
+Allows access to text files as if they were database tables
+
+Commercial large-scale high availability (HA)/durable database storage engine
+
+Allows access distributed databases via sharded share-nothing architecture
+
+High-performance write-heavy database
+
+A fork and drop-in replacement of MySQL InnoDB
+
+Connect
+
+ScaleDB
+
+Spider
+
+TokuDB
+
+XtraDB
+
+492
+
+You can see the list of engines you have installed by issuing the command in Figure 11-3.
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-3.

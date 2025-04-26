@@ -1,0 +1,3 @@
+however, aptitude has more advanced 
+algorithms for resolving package dependencies and conflicts, so we suggest you use aptitude whenever 
+possible.

@@ -1,0 +1,6 @@
+In particular, security features such as 
+stored passwords are protected from general view.
+
+Because Linux system administration is such a huge topic, this chapter focuses on the general 
+ principles of Linux system administration. In particular, it examines some of the basic tools you 
+need to administer a Linux system for a personal desktop or on a small server.

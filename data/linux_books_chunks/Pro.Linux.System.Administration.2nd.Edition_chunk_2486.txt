@@ -1,0 +1,5 @@
+We shall see the role these servers 
+play in the delegation path in the upcoming “dig” section.
+
+ ■ Note  since the root servers are an absolute critical core of the Internet, they have been the target for 
+network attacks.

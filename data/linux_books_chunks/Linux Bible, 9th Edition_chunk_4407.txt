@@ -1,0 +1,6 @@
+Make 
+sure you test any changes in a virtual or test environment before modifying your production Linux servers.
+
+These PAM system event conﬁ guration ﬁ les operate in exactly the same way as the 
+ PAM-aware application conﬁ guration ﬁ les. They have the same format, use the same 
+ syntax, and call upon PAM modules.

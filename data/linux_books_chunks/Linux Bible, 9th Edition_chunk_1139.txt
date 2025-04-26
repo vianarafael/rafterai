@@ -1,0 +1,6 @@
+Linux systems have traditionally used system initialization shell scripts during system startup to 
+run commands needed to get services going. You can create your own shell scripts to automate the 
+tasks you need to do regularly.
+
+This chapter provides a rudimentary overview of the inner workings of shell scripts and how they 
+can be used.

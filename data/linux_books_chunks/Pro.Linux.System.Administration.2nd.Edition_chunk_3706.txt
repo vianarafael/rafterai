@@ -1,0 +1,25 @@
+The following list is a 
+subsection of the available variables listed on the man page:
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+• 
+
+%U: Session username (the username that the client wanted, not necessarily the same 
+as the one it got).
+
+%G: primary group name of %U.
+
+%S: name of the current service, if any.
+
+%L: netBiOS name of the server.

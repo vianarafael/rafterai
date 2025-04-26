@@ -1,0 +1,16 @@
+Here are some useful metacharacters for matching ﬁ lenames:
+
+ ■ *—Matches any number of characters.
+
+ ■ ?—Matches any one character.
+
+ ■ [...]—Matches any one of the characters between the brackets, which can 
+
+include a hyphen-separated range of letters or numbers.
+
+Try out some of these ﬁ le-matching metacharacters by ﬁ rst going to an empty directory (such 
+as the test directory described in the previous section) and creating some empty ﬁ les:
+
+$ touch apple banana grape grapefruit watermelon
+
+The touch command creates empty ﬁ les.

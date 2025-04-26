@@ -1,0 +1,6 @@
+The CUPS print service (using the cupsd daemon) 
+listens on port 631 to provide access to the CUPS web-based administrative interface and 
+share printers.
+
+If CUPS is already running on your computer, you can immediately use CUPS web-based 
+administration from your web browser.

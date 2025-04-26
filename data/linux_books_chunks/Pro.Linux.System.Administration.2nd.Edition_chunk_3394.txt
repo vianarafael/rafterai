@@ -1,0 +1,6 @@
+You can also specify 
+more granular smarthosting with the transport option (see www.postfix.org/transport.5.html).
+
+Postfix Lookup Tables and Virtual Domains
+We have talked throughout this chapter about lookups and maps, either for aliases or for things like 
+passwords. These are generally known as lookup tables.

@@ -1,0 +1,30 @@
+This  example  uses  iotop  -o  to  only  display
+processes with actual I/O.
+
+[root@RHEL65 ~]# iotop -o
+
+Total DISK READ: 8.63 M/s | Total DISK WRITE: 0.00 B/s
+  TID  PRIO  USER  DISK READ  DISK WRITE  SWAPIN     IO>    COMMAND
+15000 be/4 root     2.43 M/s    0.00 B/s  0.00 % 14.60 % tar cjf /srv/di...
+25000 be/4 root     6.20 M/s    0.00 B/s  0.00 %  6.15 % tar czf /srv/di...
+24988 be/4 root     0.00 B/s    7.21 M/s  0.00 %  0.00 % gzip
+25003 be/4 root     0.00 B/s 1591.19 K/s  0.00 %  0.00 % gzip
+25004 be/4 root     0.00 B/s  193.51 K/s  0.00 %  0.00 % bzip2
+
+Use the -b switch to create a log of iotop output (instead of the default interactive view).
+
+[root@RHEL65 ~]# iotop -bod 10
+Total DISK READ: 12.82 M/s | Total DISK WRITE: 5.69 M/s
+  TID  PRIO  USER  DISK READ  DISK WRITE  SWAPIN      IO    COMMAND
+25153 be/4 root     2.05 M/s    0.00 B/s  0.00 %  7.81 % tar cjf /srv/di...
+25152 be/4 root    10.77 M/s    0.00 B/s  0.00 %  2.94 % tar czf /srv/di...
+25144 be/4 root   408.54 B/s    0.00 B/s  0.00 %  0.05 % python /usr/sbi...
+12516 be/3 root     0.00 B/s 1491.33 K/s  0.00 %  0.04 % [jbd2/sdc1-8]
+12522 be/3 root     0.00 B/s   45.48 K/s  0.00 %  0.01 % [jbd2/sde1-8]
+25158 be/4 root     0.00 B/s    0.00 B/s  0.00 %  0.00 % [flush-8:64]
+25155 be/4 root     0.00 B/s  493.12 K/s  0.00 %  0.00 % bzip2
+25156 be/4 root     0.00 B/s    2.81 M/s  0.00 %  0.00 % gzip
+25159 be/4 root     0.00 B/s  528.63 K/s  0.00 %  0.00 % [flush-8:32]
+
+This is an example of iotop to track disk I/O every ten seconds for one user named vagrant
+(and only one process of this user, but this can be omitted).

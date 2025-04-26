@@ -1,0 +1,6 @@
+Your Access Control Matrix (see Chapter 22, “Understanding Basic Linux 
+Security”) and the information on understanding PAM provided in this chapter should help 
+you  conduct an audit of the PAM conﬁ guration ﬁ les.
+
+Each PAM-aware application should have its very own PAM conﬁ guration ﬁ le. Each 
+ conﬁ guration ﬁ le deﬁ nes what particular PAM modules are used for that application.

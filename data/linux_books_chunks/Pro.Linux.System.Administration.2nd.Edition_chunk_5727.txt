@@ -1,0 +1,10 @@
+It can be from any source, such as a database.
+
+You can read more about external nodes classifiers at https://docs.puppet.com/guides/external_
+
+nodes.html.
+
+Documenting Your Configuration
+
+A bane of many system administrators is documentation, both needing to write it and needing to keep it 
+up-to-date.

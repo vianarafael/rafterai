@@ -1,0 +1,5 @@
+Chances are you will encounter this file system
+also on your hard disk in the form of images of cdroms (often with the .iso extension). The
+iso 9660 standard limits filenames to the 8.3 format. The Unix world didn't like this, and thus
+added the rock ridge extensions, which allows for filenames up to 255 characters and Unix-
+style file-modes, ownership and symbolic links.

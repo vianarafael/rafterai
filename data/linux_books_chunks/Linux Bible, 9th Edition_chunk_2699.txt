@@ -1,0 +1,7 @@
+Included in that distribution list are the RHEL 6 
+and Ubuntu (prior to 15.04) distributions.
+
+Learning Upstart init daemon basics
+The primary difference between the classics and Upstart is the handling of stopping 
+and starting services. The SysVinit daemon was created to operate in a static environ-
+ment.

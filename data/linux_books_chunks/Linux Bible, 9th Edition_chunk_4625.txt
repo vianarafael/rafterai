@@ -1,0 +1,8 @@
+At least one denial has been logged to 
+/var/log/audit/audit.log:
+
+# aureport | grep AVC
+Number of AVC’s: 1
+
+After you discover that an AVC denial has been logged in audit.log, you can use 
+ausearch to review the denial message(s).

@@ -1,0 +1,3 @@
+lvextend
+
+Extending  the  volume  is  easy  with  lvextend.

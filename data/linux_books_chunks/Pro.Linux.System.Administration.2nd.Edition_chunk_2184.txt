@@ -1,0 +1,14 @@
+Creating an XFS Filesystem
+
+$ sudo mkfs.xfs /dev/sdb3
+meta-data=/dev/sdb3 isize=512    agcount=4,     agsize=262079 blks
+                 =  ectsz=512    attr=2,        projid32bit=1
+                 =  crc=1        finobt=1,      sparse=0
+            data =  bsize=4096   locks=1048315, imaxpct=25
+                 =  sunit=0      swidth=0       blks
+          naming =  version 2    bsize=4096     ascii-ci=0 ftype=1
+             log =  internal log bsize=4096     blocks=2560, version=2
+                 =  sectsz=512   sunit=0 blks,  lazy-count=1
+        realtime =  none         extsz=4096     blocks=0, rtextents=0
+
+As the filesystem is created, some information about its configuration is displayed.

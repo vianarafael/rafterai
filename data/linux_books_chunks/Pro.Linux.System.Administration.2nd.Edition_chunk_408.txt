@@ -1,0 +1,2 @@
+You can choose any LiveCD and burn that image to a 
+CD, DVD, or USB.

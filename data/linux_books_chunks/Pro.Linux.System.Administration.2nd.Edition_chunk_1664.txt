@@ -1,0 +1,8 @@
+We will set this to DROP so that anything not 
+matched by our rule set will be automatically “dropped to the floor.” We achieve this by specifying the table 
+name, specified by –t filter, the chain, denoted by INPUT, and the target, DROP.
+
+ ■ Caution 
+Before you run this command, make sure you have access to a physical console just in case.
+
+ this is one of those potentially dangerous commands that can drop all your network connections.

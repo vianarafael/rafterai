@@ -1,0 +1,4 @@
+run sealert -l b2a84386-54c1-4344-96fb-dcf969776696
+Apr 12 21:44:16  centos65  setroubleshoot: SELinux is preventing /usr/sbin/h\
+ttpd from getattr access on the file /var/www/html/test42.txt. For complete \
+SELinux messages.

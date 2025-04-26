@@ -1,0 +1,5 @@
+To use RHEL, customers buy subscriptions that they can use to deploy any version 
+of RHEL they desire. If they decommission a RHEL system, they can use the subscription to 
+deploy another system.
+
+Different levels of support are available for RHEL, depending on customer needs.

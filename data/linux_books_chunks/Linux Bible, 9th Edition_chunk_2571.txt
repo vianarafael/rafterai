@@ -1,0 +1,8 @@
+For example, typing ping joe results in 
+packets being sent to 192.168.0.201.
+
+/etc/resolv.conf file
+DNS servers and search domains are set in the /etc/resolv.conf ﬁ le. If NetworkManager 
+is enabled and running, you should not edit this ﬁ le directly. Using DNS?= entries from 
+ifcfg-* ﬁ les, NetworkManager overwrites the /etc/resolv.conf ﬁ le so you would lose 
+any entries you add to that ﬁ le.

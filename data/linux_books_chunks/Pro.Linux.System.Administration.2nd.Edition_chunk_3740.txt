@@ -1,0 +1,7 @@
+We do this via the cifscreds command like so:
+
+$ sudo cifscreds add -u sharedcreds dc1.samba.example.com
+
+We can use any user that has sudo access to do this. We provide the add argument, the user, and the 
+
+hosts that we want to provide access to.

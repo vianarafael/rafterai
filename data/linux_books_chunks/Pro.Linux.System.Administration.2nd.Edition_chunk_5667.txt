@@ -1,0 +1,16 @@
+Save that file, and let’s run the Puppet agent on 
+web1.example.com again.
+
+$ sudo /opt/puppetlabs/bin/puppet agent --server puppet.example.com --test
+Info: Using configured environment 'production'
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Loading facts
+Info: Caching catalog for web1.example.com
+Info: Applying configuration version '1482320904'
+Notice: profile::webserver – loaded
+Notice: /Stage[main]/Profile::Web_server/Notify[profile::webserver – loaded]/message: 
+defined 'message' as 'profile::webserver – loaded'
+Notice: Applied catalog in 0.01 seconds
+
+There you can see the output of our notify.

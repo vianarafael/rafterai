@@ -1,0 +1,2 @@
+Restarting bind on the slave server should transfer the zone database file. Verify this in /
+var/log/syslog.

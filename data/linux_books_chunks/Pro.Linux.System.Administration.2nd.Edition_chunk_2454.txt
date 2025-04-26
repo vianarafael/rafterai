@@ -1,0 +1,6 @@
+This project is called pool.ntp.org, and the participants are 
+individual users and organizations that allow third parties to use their servers for synchronization.
+
+The project provides DNS-based groups for various server strata and geographical locations—for 
+instance, 1.pool.ntp.org is provided by stratum 1 servers, au.pool.ntp.org contains only servers located in 
+Australia, and us.pool.ntp.org is provided by servers located in the United States.

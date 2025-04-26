@@ -1,0 +1,5 @@
+each address 
+character you see is actually 4 bits. Meaning that the first character(f) in this local link address 
+fe80::a00:27ff:fea4:da6b/64 is actually 1111 in binary. each set of four characters represents 16 
+bits (4x4 bits) which is in total 80 bits. the full iPv6 address is 128 bits. An iSP will usually hand out 
+a /48 address space depending on your requirements.

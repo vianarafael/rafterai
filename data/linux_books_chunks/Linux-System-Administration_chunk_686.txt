@@ -1,0 +1,20 @@
+Don't forget to tell init about the change of its configuration file
+with kill -1 1.
+
+The example below shows how to disable mingetty on tty3 to tty6 in runlevels 4 and 5.
+
+[root@RHEL52 ~]# grep getty /etc/inittab 
+# Run gettys in standard runlevels
+1:2345:respawn:/sbin/mingetty tty1
+2:2345:respawn:/sbin/mingetty tty2
+3:23:respawn:/sbin/mingetty tty3
+4:23:respawn:/sbin/mingetty tty4
+5:23:respawn:/sbin/mingetty tty5
+6:23:respawn:/sbin/mingetty tty6
+
+175
+
+   
+init and runlevels
+
+15.2.

@@ -1,0 +1,5 @@
+Instead of taking a new release every few months, you simply  continuously 
+grab updated packages as they become available and install them on your system.
+
+Dual booting
+It is possible to have multiple operating systems installed on the same computer.

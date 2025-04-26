@@ -1,0 +1,26 @@
+The name attribute is the parent of 
+
+common name (cn), given name (gn), and surname (sn).
+
+Let’s take a look at our own schema file that we have created, /etc/ldap/schema/exampleactive.
+
+schema:
+
+# $Id$
+
+attributetype ( 1.1.3.10 NAME 'exampleActive'
+DESC 'Example User Active'
+SINGLE-VALUE
+EQUALITY booleanMatch
+SYNTAX 1.3.6.1.4.1.1466.115.121.1.7)
+
+751
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+objectclass ( 1.1.1.2 NAME 'exampleClient'
+SUP top AUXILIARY
+DESC 'Example.com User objectclass'
+MAY ( exampleActive ))
+
+In these two schema objects, we have two OIDs, which we made up.

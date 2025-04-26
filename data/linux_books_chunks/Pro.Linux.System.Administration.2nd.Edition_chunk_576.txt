@@ -1,0 +1,4 @@
+The first three permissions are rw-, which indicates the root 
+user can read and write the file, but the dash means execute permissions are not set, and the file can’t be 
+executed by the user. The next three permissions, r--, indicate that anyone who belongs to the root group 
+can read the file but can do nothing else to it.

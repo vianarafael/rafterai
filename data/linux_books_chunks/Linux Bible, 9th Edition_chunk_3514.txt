@@ -1,0 +1,6 @@
+Printers are writable and allow guest printing by default. You can 
+uncomment the guest ok = no line and the writable = No line, respectively, to 
+change those settings.
+
+To see that those printers are available, you could run the smbclient -L command from 
+a Linux system, as shown earlier.

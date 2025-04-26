@@ -1,0 +1,10 @@
+But here we are going to show you 
+
+how to use PHP-FPM in our virtual host on our CentOS host.
+
+486
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+First we need to make sure that we have the following modules loaded. As you know, modules are 
+loaded in via the /etc/httpd/conf.modules.d/ directory.

@@ -1,0 +1,11 @@
+The fi statement then indicates that the 
+if statement is complete and processing can continue.
+
+VARIABLE=1
+if [ $VARIABLE -eq 1 ] ; then
+echo "The variable is 1"
+fi
+
+Instead of using -eq, you can use the equal sign (=), as shown in the following example. 
+The = works best for comparing string values, while -eq is often better for comparing 
+ numbers.

@@ -1,0 +1,9 @@
+Going to S3
+
+From there we are going to create a bucket called our-backups. You are free to choose an appropriate 
+
+name. Click the Create Bucket button to proceed.
+
+As shown in Figure 14-3, we have created an S3 bucket called our-backups. We are next going to make 
+sure that we have a life-cycle versioning policy on this bucket so that we don’t have to pay too much for any 
+old data.

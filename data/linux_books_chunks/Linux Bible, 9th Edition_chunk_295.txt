@@ -1,0 +1,11 @@
+This made the transition to Linux from Windows 
+easier for some people.
+
+19
+
+c01.indd  04/01/2015  Page 20
+
+Part I: Getting Started
+
+If you are using Ubuntu, don’t fear. Most of subject matter covered in this book will work as 
+well in Ubuntu as it does in Fedora or RHEL.

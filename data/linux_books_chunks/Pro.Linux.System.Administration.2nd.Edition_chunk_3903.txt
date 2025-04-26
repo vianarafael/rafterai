@@ -1,0 +1,10 @@
+Something like Relax-and-Recover might be 
+a good idea, or something like Mass or Cobbler would help rebuild your servers 
+quickly from a known build.
+
+638
+
+Chapter 14 ■ BaCkup and reCovery
+
+The worst situation we can have is relying on a running list of how we might have built the host 6 
+months ago while never having tried to build a host like it since.

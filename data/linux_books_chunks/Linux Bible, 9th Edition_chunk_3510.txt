@@ -1,0 +1,17 @@
+On Fedora and RHEL systems, 
+in particular, SELinux features need to be changed to allow users to access their home 
+ directories if you are in SELinux Enforcing mode.
+
+For example, if you tried to use smbclient to log in to your home directory, the login 
+would succeed, but when you tried to list the contents of the home directory, you might 
+see the following message:
+
+NT_STATUS_ACCESS_DENIED listing \*
+
+To tell SELinux to allow Samba users to access their home directories as Samba shares, turn 
+on the samba_enable_home_dirs Boolean by typing the following as root from a shell:
+
+# setsebool -P samba_enable_home_dirs on
+
+The setsebool command turns on the capability of Samba to share home directories 
+(which is off by default).

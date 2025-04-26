@@ -1,0 +1,8 @@
+That is, it is a web 
+server that has things that the UAT people require that might make it slightly different from our production 
+web servers—different database back-end configurations, different authentication requirements, or the 
+like—but still essentially it still has a role of being a web server that might have our application deployed to it.
+
+It can take a bit to get your head around, and there are no perfect answers for how you should 
+
+implement this structure into your Puppet manifest.

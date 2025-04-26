@@ -1,0 +1,11 @@
+Custom Boot Disk 1:
+
+All we need is a floppy with a Linux kernel image that can boot, and this image must be 
+told were to find the root device on the hard drive.
+
+Assuming that we are using a pre-formatted DOS floppy, the following creates a bootable 
+floppy which will launch a linux kernel image
+
+dd if=/boot/vmlinuz of=/dev/fd0
+
+Next,  rdev is used to tell the kernel where the root device is.

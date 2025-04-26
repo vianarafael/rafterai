@@ -1,0 +1,12 @@
+By enabling access to a service, 
+ firewalld can also do things like load modules needed to allow access to a service.
+
+25
+
+711
+
+c25.indd  04/02/2015  Page 712
+
+Part V: Learning Linux Security Techniques
+
+The iptables utility manages the Linux fi rewall, called netfilter.

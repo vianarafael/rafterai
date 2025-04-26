@@ -1,0 +1,2 @@
+A major difference from GPL, however, is that BSD does not 
+require people modifying the code to pass those changes on to the community.

@@ -1,0 +1,2 @@
+When you see that the state is open, it indicates that a service is 
+listening on the port as well.

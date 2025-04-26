@@ -1,0 +1,17 @@
+The 
+
+following directive does this:
+
+<FilesMatch "^\.ht">
+        Require all denied
+</FilesMatch>
+
+This is an example of a match directive, where we can match any file starting with .ht (<FilesMatch 
+
+"^\.ht">) and deny all requests to access these files (Require all denied).
+
+ ■ Note 
+
+ .htaccess files are not really recommended as using them incurs a negative performance impact.
+
+The logging directives describe how we will be logging our Apache information.

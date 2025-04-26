@@ -1,0 +1,5 @@
+To restore the iptables file you remove the test 
+switch (-t).
+
+Starting and stopping iptables is different on both Ubuntu and CentOS. On Ubuntu you can do the 
+following to add and remove your firewall rules. You would make any changes and additions to your rules.

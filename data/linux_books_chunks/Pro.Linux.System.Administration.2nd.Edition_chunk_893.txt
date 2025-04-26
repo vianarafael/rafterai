@@ -1,0 +1,5 @@
+The best way to understand PAM is to examine some PAM configuration files.
+
+On most Linux distributions, you have two possible locations to look for PAM configuration 
+information. The legacy file /etc/pam.conf is used to hold PAM configuration information on Linux 
+distributions, but now it is generally deprecated and has been replaced by the /etc/pam.d directory.

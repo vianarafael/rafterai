@@ -1,0 +1,7 @@
+Updating Packages with YUM
+
+$ sudo yum update nmap
+$ sudo yum update nmap mutt
+
+ ■ Note  You should not use yum to upgrade between major versions of the operating system (e.g., from 6.5 
+to 7.1).

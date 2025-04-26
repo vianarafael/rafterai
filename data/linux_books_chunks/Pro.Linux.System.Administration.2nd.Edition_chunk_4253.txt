@@ -1,0 +1,27 @@
+Will not descend from /var/lib into it.
+11-Oct 22:29 headoffice-fd JobId 15: Starting backup of /_mysqlbackups_/test.sql
+11-Oct 22:29 headoffice-fd JobId 15: Starting backup of /_mysqlbackups_/mysql.sql
+11-Oct 22:29 headoffice-fd JobId 15: Starting backup of /_mysqlbackups_/bareos.sql
+11-Oct 22:29 example-sd JobId 15: Elapsed time=00:00:08, Transfer rate=18.22 M Bytes/second
+
+When we issue the restore command in bconsole and select the jobid for the last restore, we can see 
+
+the backups of our database files.
+
+cwd is: /
+$ cd _mysqlbackups_/
+cwd is: /_mysqlbackups_/
+$ ls
+bareos.sql
+mysql.sql
+test.sql
+$ mark bareos.sql
+1 file marked.
+$ done
+
+The contents of the bareos.sql file when restored contain the full backup of our bareos database.
+
+ Make sure you have enough space on your host to handle the size of your database dump—you 
+
+ ■ Caution 
+could find yourself in trouble if you run out of room.

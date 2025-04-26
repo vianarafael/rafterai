@@ -1,0 +1,3 @@
+Let’s start our 
+configuration process by enabling the IMAPS protocol and specifying the location of the SSL certificates 
+we’re going to use.

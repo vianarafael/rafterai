@@ -1,0 +1,9 @@
+You can specify the - sign to remove permissions from a class or the = 
+sign to set absolute permissions on the class. Finally, you specify the permission to the action, in this case x.
+
+125
+
+ChapTeR 4 ■ LInux BasICs
+
+You can also specify multiple permission changes in a single command, as you can see in the second 
+line of Listing 4-11. In this second line, we have the change u-x,go+w.

@@ -1,0 +1,7 @@
+If that ﬁ le becomes 
+corrupted, you may need to ﬁ nd a backup of the ﬁ le to be able to decrypt your 
+ ﬁ lesystem. If you are prompted for a password and you don’t know what that is, you 
+might be out of luck.
+
+Other features are set up by the rc.sysinit ﬁ le as well. The rc.sysinit script sets the 
+SELinux mode and loads hardware modules.

@@ -1,0 +1,7 @@
+This helps prevent information leakage of what is and what isn’t in your DIT. The disclose access, 
+unlike none, will return an error to the requesting client.
+
+Defining who
+
+Looking further at requesting access to an entity, you need to know who is requesting the access. There can 
+be more than one who declaration, each using certain keywords.

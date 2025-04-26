@@ -1,0 +1,7 @@
+AuthType defines the method of 
+authentication, and you have a choice between Basic and Digest. LDAP authentication requires Basic. 
+AuthName is the name in the authentication window that pops up.
+
+AuthBasicProvider ldap defines the server we are going to use, in this case the LDAP server, to provide 
+
+our authentication mechanism.

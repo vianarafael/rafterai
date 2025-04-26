@@ -1,0 +1,5 @@
+In the process, we’ll introduce you to the 
+Network Time Protocol (NTP).
+
+We’ll also cover the Domain Name System (DNS), which is the glue that allows networks like the 
+Internet to function by allowing hosts to find one another.

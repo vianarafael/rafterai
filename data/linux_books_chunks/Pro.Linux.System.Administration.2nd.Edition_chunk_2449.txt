@@ -1,0 +1,7 @@
+The noquery prevents 
+your server from being queried for peer and other statistics. Finally, limited is used to deny the time service 
+if packets violate the limit set in the discard option.
+
+The second set of restrict directives ensures that connections from the local machine, 127.0.0.1 
+
+(IPv4) and ::1(IPv6), can interrogate and reconfigure the NTP server.

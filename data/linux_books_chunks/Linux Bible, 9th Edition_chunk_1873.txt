@@ -1,0 +1,10 @@
+The options available with useradd 
+include the following:
+
+ ■ -c "comment here"—Provide a description of the new user account. Typically, 
+
+this is the person’s full name. Replace comment with the name of the user 
+account (-c Jake). Use quotes to enter multiple words (for example, -c "Jake 
+Jackson").
+
+ ■ -d home_dir—Set the home directory to use for the account.

@@ -1,0 +1,7 @@
+If you create a partition, the system needs to be able to find the information 
+about the partition geometry. It stores this information at the start of the disk (and sometimes has a copy 
+stored elsewhere on the disk - more on this shortly).
+
+We have previously described partitioning as slicing up a cake into smaller pieces and that is what we 
+
+can do with the physical disk.

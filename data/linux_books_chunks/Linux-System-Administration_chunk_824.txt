@@ -1,0 +1,20 @@
+Test that it works.
+
+211
+
+logging
+
+On RHEL5, edit /etc/sysconfig/syslog to enable remote listening on the server.
+
+On  RHEL7,  uncomment  these  two  lines  in  /etc/rsyslog.conf  to  enable  'UDP  syslog
+reception'.
+
+# Provides UDP syslog reception
+$ModLoad imudp
+$UDPServerRun 514
+
+On Debian/Ubuntu edit /etc/default/syslog or /etc/default/rsyslog.
+
+on the client: logger -p local5.info "test local5 to neighbour"
+
+8.

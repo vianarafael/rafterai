@@ -1,0 +1,15 @@
+This section includes tips 
+for isolating and resolving the most common errors that you may encounter.
+
+471
+
+ 
+ 
+ 
+c17.indd  04/01/2015  Page 472
+
+Part IV: Becoming a Linux Server Administrator
+
+Checking for confi guration errors
+You may occasionally run into conﬁ guration errors or script problems that prevent Apache 
+from starting or that prevent speciﬁ c ﬁ les from being accessible.

@@ -1,0 +1,4 @@
+It uses Multidevice filesystems to do this, which we talk 
+
+more about later in the section “RAID.” One of the possible RAID types we can use is RAID 10. This RAID 
+type gives us mirroring and striping, meaning devices are pair mirrored and then striped.

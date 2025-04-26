@@ -1,0 +1,16 @@
+Domains can have subdomains
+(also called child domains).
+
+This picture shows dns domains like google.com, chess.com, linux-training.be (there are
+millions more).
+
+DNS  domains  are  registered  at  the  tld  servers,  the  tld  servers  are  registered  at  the  dot
+servers.
+
+64
+
+introduction to DNS
+
+4.2.5. top level domains
+
+Below the root level are the top level domains or tld's.

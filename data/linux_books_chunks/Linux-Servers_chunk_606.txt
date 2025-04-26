@@ -1,0 +1,8 @@
+It will
+display all your shares, your workgroup, and the name of the Master Browser. The -N switch
+
+148
+
+getting started with samba
+
+is added to avoid having to enter an empty password.

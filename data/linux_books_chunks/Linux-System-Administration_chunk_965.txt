@@ -1,0 +1,10 @@
+Active hubs do this by reading and retransmitting
+bits, without interpreting any meaning in those bits.
+
+Network technologies like csma/cd and token ring are defined on this layer.
+
+This is all we have to say about layer 1 in this book.
+
+21.1.4. short introduction to the data link layer
+
+The data link layer, or layer 2 is about frames.

@@ -1,0 +1,10 @@
+Use fdisk (with grep and /dev/null) to display the total size of the new disks.
+
+root@rhel53 ~# fdisk -l 2>/dev/null | grep [MGT]B
+Disk /dev/hda: 21.4 GB, 21474836480 bytes
+Disk /dev/hdb: 1073 MB, 1073741824 bytes
+Disk /dev/sda: 2147 MB, 2147483648 bytes
+Disk /dev/sdb: 2147 MB, 2147483648 bytes
+Disk /dev/sdc: 2147 MB, 2147483648 bytes
+
+7.

@@ -1,0 +1,4 @@
+To define the virtual host, we’ll add the directives from Listing 11-2 in /etc/apache2/sites-
+available/www.example.com.
+
+Listing 11-2.

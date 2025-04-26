@@ -1,0 +1,8 @@
+You should see a plain-text 
+login prompt. Log in using your username and password. Try a few commands. When you 
+are ﬁ nished, type exit to exit the shell. Then press Ctrl+Alt+F1 to return to your graphical 
+desktop interface. You can go back and forth between these graphical consoles as much as 
+you like.
+
+Choosing Your Shell
+In most Linux systems, your default shell is the bash shell.

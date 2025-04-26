@@ -1,0 +1,5 @@
+They can be either written to a log or sent to an e-mail address.
+
+The Pool = Full definition points the job to a particular pool of volumes where they are backed 
+up. As mentioned earlier, volumes are groups of storage media. You might have a group for your daily 
+backups, a group for your weekly backups, and a group for your monthly backups.

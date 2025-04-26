@@ -1,0 +1,8 @@
+(If that works, it indicates a DNS name 
+ resolution problem.) Running a tool such as tcpdump enables you to see where the 
+transaction fails.
+
+ ■ Check which addresses cupsd is listening on. The cupsd daemon must be 
+
+ listening outside the localhost for remote systems to print to it. Use the  netstat 
+command (as the root user) as follows to check this.

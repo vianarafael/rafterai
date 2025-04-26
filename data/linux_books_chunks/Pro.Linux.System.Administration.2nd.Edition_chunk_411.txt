@@ -1,0 +1,10 @@
+Most computers will automatically detect the LiveCD and offer you the option of booting from it.
+
+ If your host doesn’t offer you the option to boot from CD/DVD, you may need to adjust your BIOs 
+
+ ■ Note 
+(Basic Input/Output system) settings to change your boot order so the CD, DVD, or usB is booted before your 
+hard drive.
+
+The LiveCD will load and present you with a working Linux distribution that you can experiment 
+with.

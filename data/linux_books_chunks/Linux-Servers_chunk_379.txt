@@ -1,0 +1,44 @@
+using your own DNS server
+
+If you are confident that your dns server works, then set it as default and only dns server
+in /etc/resolv.conf.
+
+root@debian7:~# cat /etc/resolv.conf
+nameserver 10.104.33.30
+root@debian7:~#
+
+In  case  you  also  use  dhclient,  you  will  need  to  add  your  dns  server  to  /etc/dhcp/
+dhclient.conf.
+
+root@debian7:~# diff /etc/dhcp/dhclient.conf /etc/dhcp/dhclient.conf.original
+21c21
+< prepend domain-name-servers 10.104.33.30;
+---
+> #prepend domain-name-servers 127.0.0.1;
+23,24c23
+< #     domain-name, domain-name-servers, domain-search, host-name,
+<       domain-name, domain-search, host-name,
+---
+>       domain-name, domain-name-servers, domain-search, host-name,
+root@debian7:~#
+
+The above screenshot shows that 10.104.33.30 is now a default option that the dhcp client
+should no longer request from the dhcp server.
+
+Adjust  /etc/hosts  to  reflect  your  domain  name  and  verify  with  hostname  and
+dnsdomainname.
+
+root@debian7:~# grep debian7 /etc/hosts
+127.0.1.1 debian7.paul.local debian7
+root@debian7:~# hostname
+debian7
+root@debian7:~# hostname --fqdn
+debian7.paul.local
+root@debian7:~# dnsdomainname
+paul.local
+
+82
+
+introduction to DNS
+
+4.14.2.

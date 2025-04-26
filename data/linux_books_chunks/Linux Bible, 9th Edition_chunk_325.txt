@@ -1,0 +1,8 @@
+These are 
+the current topics listed for Red Hat Enterprise Linux 7 at the RHCSA exam objectives site 
+(again, check the exam objectives site in case they change) and where in this book you can 
+learn about them:
+
+ ■ Understand essential tools—You are expected to have a working knowledge of 
+the command shell (bash), including how to use proper command syntax and do 
+input/output redirection (< > >>).

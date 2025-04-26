@@ -1,0 +1,4 @@
+They must be declared in the schema, and the same attribute can 
+be included in one or more object class. Also, by default, attributes are MULTI-VALUE, meaning we can have 
+more than one value declared for our DN. The common example is e-mail address; a user can have more 
+than one e-mail address.

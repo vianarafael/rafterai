@@ -1,0 +1,14 @@
+verifying existing volume groups
+
+11.9.1. vgs
+
+Similar to pvs is the use of vgs to display a quick overview of all volume groups. There
+is only one volume group in the screenshot below, it is named VolGroup00 and is almost
+16GB in size.
+
+[root@RHEL5 ~]# vgs
+  VG         #PV #LV #SN Attr   VSize  VFree
+  VolGroup00   1   2   0 wz--n- 15.88G    0 
+[root@RHEL5 ~]#
+
+11.9.2.

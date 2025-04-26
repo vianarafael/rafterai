@@ -1,0 +1,2 @@
+The group the package is in (Applications/Internet), its size, and the 
+ licensing are listed.

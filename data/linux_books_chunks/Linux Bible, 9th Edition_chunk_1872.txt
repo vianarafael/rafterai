@@ -1,0 +1,6 @@
+After opening a Terminal window with root permission, you simply invoke 
+ useradd at the command prompt, with details of the new account as parameters.
+
+The only required parameter is the login name of the user, but you probably want to include 
+some additional information ahead of it. Each item of account information is preceded by 
+a single-letter option code with a dash in front of it.

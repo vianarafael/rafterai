@@ -1,0 +1,10 @@
+We need to tell SELinux
+we want to use these ports for http traffic
+
+[root@CentOS65 ~]# semanage port -m -t http_port_t -p tcp 7000
+[root@CentOS65 ~]# semanage port -m -t http_port_t -p tcp 8000
+[root@CentOS65 ~]# service httpd restart
+Stopping httpd:                                            [  OK  ]
+Starting httpd:                                            [  OK  ]
+
+1.5.5.

@@ -1,0 +1,4 @@
+In this example, the output 
+of the ps command (a list of processes) is directed to the less command, which enables 
+you to page through that information. Use the spacebar to page through and type q to end 
+the list.

@@ -1,0 +1,8 @@
+remove the installation media, so the host boots from hard disk.
+
+For more on chroot, see www.cyberciti.biz/faq/unix-linux-chroot-command-examples-usage-
+syntax/.
+
+Disk Failure
+Sooner or later one of your hard disks will fail. When you’re using RAID, this is no longer a problem, but you 
+will need to take action to ensure the array is fully working again before the next disk fails.

@@ -1,0 +1,4 @@
+Developers can pick and choose the features they 
+want in a distribution and potentially create their own distribution. Many of the major distributions appeared 
+because a developer or group of developers decided to create their own version of another distribution. These 
+new derivations often have their own branding and features.

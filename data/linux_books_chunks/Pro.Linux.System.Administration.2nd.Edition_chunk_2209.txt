@@ -1,0 +1,7 @@
+If you need to transfer data between 
+different operating systems—for instance, when you don’t have a network between your laptop and a client’s 
+machine—you are likely to want to use a filesystem that can be accessed by Windows and Mac OS X as well 
+as Linux.
+
+The de facto standard for this purpose is the FAT filesystem, which was developed for MS-DOS by 
+Microsoft. FAT comes in a few flavors.

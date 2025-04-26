@@ -1,0 +1,4 @@
+NetBIOS is a local broadcast protocol that is used to handle 
+connection information between hosts. NetBIOS information is used to match names to Internet Protocol 
+(IP) addresses in WINS servers, kind of like DNS. The NetBIOS protocol itself is used for a name service, 
+session service, and datagram server.

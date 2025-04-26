@@ -1,0 +1,15 @@
+The init process never stops keeping an eye on power failures and that triple key
+combo.
+
+root@barry:~# grep ^p /etc/inittab 
+pf::powerwait:/etc/init.d/powerfail start
+pn::powerfailnow:/etc/init.d/powerfail now
+po::powerokwait:/etc/init.d/powerfail stop
+
+182
+
+init and runlevels
+
+15.8. systemd
+
+It is likely that systemd will replace all the standard init/runlevel/rc functionality.

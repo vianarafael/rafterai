@@ -1,0 +1,4 @@
+passive checking is where, instead of the nagios 
+server reaching out to the monitored client and executing a command, the nSCa service on the 
+monitored client will run checks and then send the results to the nagios server. this is useful in 
+distributed environments.

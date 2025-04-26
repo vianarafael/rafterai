@@ -1,0 +1,5 @@
+A third way is the journalctl command to 
+show the messages associated with a particular boot instance (as shown earlier in 
+this chapter).
+
+After your system is running, many kernel messages are sent to the /var/log/messages fi le.

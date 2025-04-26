@@ -1,0 +1,11 @@
+transition
+
+An selinux transition (aka an selinux labelling) determines the security context that will be
+assigned. A transition of process domains is used when you execute a process. A transition
+of file type happens when you create a file.
+
+An example of file type transition.
+
+[pol@centos65 ~]$ touch test /tmp/test
+[pol@centos65 ~]$ ls -Z test 
+-rw-rw-r--.

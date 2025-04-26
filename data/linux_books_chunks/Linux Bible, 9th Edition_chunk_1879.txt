@@ -1,0 +1,8 @@
+This  parameter 
+can be used only in conjunction with the -m option. Replace skel_dir with the 
+directory name to use. (Without this option, the /etc/skel directory is used.)
+
+ ■ -m—Automatically create the user’s home directory and copy the ﬁ les in the 
+
+ skeleton directory (/etc/skel) to it. (This is the default action for Fedora and 
+RHEL, so it’s not required.

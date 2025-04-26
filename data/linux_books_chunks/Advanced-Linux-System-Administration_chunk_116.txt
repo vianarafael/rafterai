@@ -1,0 +1,4 @@
+What if many scripts need to be started? The 
+inittab file would look messy. 
+
+2. We can write a custom rc-script.

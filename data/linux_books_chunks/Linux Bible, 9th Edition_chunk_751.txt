@@ -1,0 +1,13 @@
+For example, if you do lots of work with ﬁ les in the /work/time/files/info/
+memos directory, you could set the following variable:
+
+M=/work/time/files/info/memos ; export M
+
+91
+
+c03.indd  04/01/2015  Page 92
+
+Part II: Becoming a Linux Power User 
+
+You could make that your current directory by typing cd $M. You could run a pro-
+gram from that directory called hotdog by typing $M/hotdog.

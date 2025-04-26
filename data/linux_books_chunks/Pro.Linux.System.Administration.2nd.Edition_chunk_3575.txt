@@ -1,0 +1,6 @@
+When a user’s e-mail client connects, all waiting e-mail is 
+downloaded to the client and removed from the server.
+
+What’s the Difference?
+The IMAP protocol acts much like a file server. Your e-mail stays on the server and can be read, deleted, and 
+manipulated. POP3 is a store-and-forward mechanism.

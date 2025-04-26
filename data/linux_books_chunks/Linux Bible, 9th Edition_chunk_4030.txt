@@ -1,0 +1,7 @@
+For example, if someone had deleted /bin/mount by 
+ mistake, the system would have no command to mount ﬁ lesystems. Reinstalling 
+the  util-linux package would replace the missing mount command.
+
+ ■ Check the ﬁ lesystems. If your booting problems stem from corrupt ﬁ lesystems, 
+you can try running the fsck command (ﬁ lesystem check) to see if there is any 
+corruption on the disk partition.

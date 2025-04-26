@@ -1,0 +1,13 @@
+You can read more about SYN floods, DDoS mitigation 
+and SYNPROXY here:
+
+•	
+
+•	
+
+http://rhelblog.redhat.com/2014/04/11/mitigate-tcp-syn-flood-attacks-
+with-red-hat-enterprise-linux-7-beta/
+
+https://javapipe.com/iptables-ddos-protection
+
+With ufw, we can only apply simple filtering and logging.

@@ -1,0 +1,8 @@
+About to write GPT data. THIS WILL OVERWRITE EXISTING
+PARTITIONS!!
+
+Do you want to proceed? (Y/N): y
+OK; writing new GUID partition table (GPT) to /dev/sdc.
+The operation has completed successfully.
+
+You would need to repeat this process for /dev/sdd and /dev/sde.

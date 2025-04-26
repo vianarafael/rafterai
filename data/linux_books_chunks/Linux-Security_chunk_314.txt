@@ -1,0 +1,29 @@
+These screenshots show how
+to change the acl of file33 with setfacl.
+
+First we add user sandra with octal permission 7 to the acl.
+
+paul@laika:~/test$ setfacl -m u:sandra:7 file33
+
+Then we add the group tennis with octal permission 6 to the acl of the same file.
+
+paul@laika:~/test$ setfacl -m g:tennis:6 file33
+
+The result is visible with getfacl.
+
+paul@laika:~/test$ getfacl file33 
+# file: file33
+# owner: paul
+# group: paul
+user::rw-
+user:sandra:rwx
+group::r--
+group:tennis:rw-
+mask::rwx
+other::r--
+
+64
+
+access control lists
+
+8.4.

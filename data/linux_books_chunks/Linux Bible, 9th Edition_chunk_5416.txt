@@ -1,0 +1,12 @@
+To determine if the su command on your Linux system is PAM-aware, type:
+
+$ ldd $(which su) | grep pam
+ libpam.so.0 => /lib64/libpam.so.0 (0x00007fac89d48000)
+ libpam_misc.so.0 => /lib64/libpam_misc.so.0 (0x00007fac89b44000)
+
+If the su command on your Linux system is PAM-aware, you see a PAM library name 
+listed when you issue the ldd command.
+
+B
+
+7.

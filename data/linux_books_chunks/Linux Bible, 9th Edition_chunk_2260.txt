@@ -1,0 +1,9 @@
+You can tell the daemon, for example, to output additional 
+
+319
+
+c13.indd  04/01/2015  Page 320
+
+Part IV: Becoming a Linux Server Administrator
+
+debugging information or accept remote logging messages.

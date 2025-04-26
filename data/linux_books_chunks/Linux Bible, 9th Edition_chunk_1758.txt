@@ -1,0 +1,6 @@
+The contents of 
+the packages are copied to the ﬁ lesystem (commands, conﬁ g ﬁ les, docs, and so on). Then 
+any post install scripts are run. (Post install scripts run additional commands needed to 
+ conﬁ gure the system after each package is installed.)
+
+6.

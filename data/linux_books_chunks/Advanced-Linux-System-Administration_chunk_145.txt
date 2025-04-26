@@ -1,0 +1,49 @@
+Once unmounted, the file is compressed and can 
+be used as an initrd.
+
+Syntaxes
+
+The syntax for the Debian and the other distribution's mkinitrd is different.
+
+Debian mkinitrd 
+
+Options:
+
+  -d confdir  Specify an alternative configuration directory.
+
+  -k          Keep temporary directory used to make the image.
+
+  -m command  Set the command to make an initrd image.
+
+  -o outfile  Write to outfile
+
+  -r root     Override ROOT setting in mkinitrd.conf
+
+29
+
+LinuxIT Technical Training Centre
+
+System Startup
+
+_____________________________________________________
+
+Example: mkinitrd -o /boot/initrd-test-$(uname -r).img
+
+Mandriva, RedHat, Suse/Novell mkinitrd
+
+usage: mkinitrd [--version] [-v] [-f] [--preload <module>]
+
+       [--omit-scsi-modules] [--omit-raid-modules] [--omit-lvm-modules]
+
+       [--with=<module>] [--image-version] [--fstab=<fstab>] [--nocompress]
+
+       [--builtin=<module>] [--nopivot] <initrd-image> <kernel-version>
+
+Example: mkinitrd /boot/initrd-test-2.2.5-15.img 2.2.5-15
+
+Example:
+
+As an example we will copy the content of an existing initrd to a new initrd and change the 
+root filesystem type form ext3 to ext2..
+
+1.

@@ -1,0 +1,14 @@
+ls –la /etc/grub.d
+
+total 72
+-rwxr-xr-x. 1 root root  8702  Nov 25 02:49  00_header
+-rwxr-xr-x. 1 root root   992   May   4  2015  00_tuned
+-rwxr-xr-x. 1 root root   230   Nov 25 02:49  01_users
+
+188
+
+Chapter 6 ■ Startup and ServiCeS
+
+-rwxr-xr-x. 1 root root 10232 Nov 25 02:49  10_linux
+-rwxr-xr-x. 1 root root 10275 Nov 25 02:49  20_linux_xen
+-rwxr-xr-x.

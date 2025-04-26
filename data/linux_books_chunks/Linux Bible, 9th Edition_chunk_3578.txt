@@ -1,0 +1,2 @@
+The man page for the exportfs command describes how to share and 
+view the list of directories you share from the /etc/exports ﬁ le.

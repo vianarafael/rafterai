@@ -1,0 +1,6 @@
+When prompted to Renice PID to value: type in a number from 
+–19 to 20. (See “Setting processor priority with nice and renice” later in this chap-
+ter for information on the meanings of different renice values.)
+
+ ■ Killing a process: Note the process ID of the process you want to kill and press k. 
+Type 15 to terminate cleanly or 9 to just kill the process outright.

@@ -1,0 +1,15 @@
+In the screenshot below you can
+see that user annelies will log in with the /bin/bash shell, and user laura with the /bin/ksh
+shell.
+
+[root@RHEL5 ~]# tail -2 /etc/passwd
+annelies:x:527:533:sword fighter:/home/annelies:/bin/bash
+laura:x:528:534:art dealer:/home/laura:/bin/ksh
+
+You can use the usermod command to change the shell for a user.
+
+[root@RHEL5 ~]# usermod -s /bin/bash laura
+[root@RHEL5 ~]# tail -1 /etc/passwd
+laura:x:528:534:art dealer:/home/laura:/bin/bash
+
+2.12.

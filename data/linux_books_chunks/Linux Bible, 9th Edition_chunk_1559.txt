@@ -1,0 +1,6 @@
+To 
+defragment your disk on some Windows systems, so that all your used space is put in 
+order on the disk, open My Computer, right-click your hard disk icon (typically C:), select 
+Properties, click Tools, and select Defragment Now.
+
+Defragmenting your disk can be a fairly long process.

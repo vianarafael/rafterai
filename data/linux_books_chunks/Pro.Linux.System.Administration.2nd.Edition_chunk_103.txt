@@ -1,0 +1,8 @@
+Hovering your mouse over one of the items shows the link to the associated 
+screen.
+
+It is not immediately obvious that some of the advanced configuration settings sometimes require the 
+
+ ■ Note 
+network settings to be configured first (like settings for nTp servers in the Date & Time settings). To configure 
+the network settings, you must first have completed Installation Destination.

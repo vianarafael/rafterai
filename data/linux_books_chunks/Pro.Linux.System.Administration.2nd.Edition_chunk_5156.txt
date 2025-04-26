@@ -1,0 +1,16 @@
+CentOS rsyslog logrotate File
+
+/var/log/messages /var/log/secure /var/log/maillog /var/log/spooler 
+/var/log/boot.log /var/log/cron
+{
+daily
+rotate 7
+sharedscripts
+postrotate
+     /bin/kill -HUP 'cat /var/run/rsyslogd.pid 2> /dev/null' 2> /dev/null || true
+endscript
+}
+
+Inside these files you can override most of the global options in logrotate.conf to customize your log 
+
+rotation for individual files or directories.

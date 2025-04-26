@@ -1,0 +1,10 @@
+We’ll revisit df 
+
+later in this chapter and explain in more detail what this output means.
+
+You can also check for some more detailed information by examining the kernel log via the dmesg 
+
+command.
+
+$ dmesg
+[37881.206060] EXT4-fs (sdb2): mounted filesystem with ordered data mode.

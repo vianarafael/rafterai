@@ -1,0 +1,17 @@
+Ubuntu ntp Pool Servers
+
+$ host 0.ubuntu.pool.ntp.org
+0.ubuntu.pool.ntp.org has address 129.250.35.250
+0.ubuntu.pool.ntp.org has address 129.250.35.251
+0.ubuntu.pool.ntp.org has address 27.124.125.252
+0.ubuntu.pool.ntp.org has address 121.0.0.41
+
+Compare that with what is returned from CentOS’s 0.centos.pool.ntp.org.
+
+$ host 0.centos.pool.ntp.org
+0.centos.pool.ntp.org has address 27.124.125.252
+0.centos.pool.ntp.org has address 121.0.0.41
+0.centos.pool.ntp.org has address 129.250.35.250
+0.centos.pool.ntp.org has address 129.250.35.251
+
+Hey look, they contain the same servers.

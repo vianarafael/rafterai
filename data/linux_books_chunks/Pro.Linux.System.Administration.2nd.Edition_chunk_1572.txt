@@ -1,0 +1,5 @@
+You are able to create chains of your own in each table 
+to hold additional rules. You can also direct the flow of packets from a built-in chain to a chain you have 
+created, but this is only possible within the same tablespace.
+
+Let us now explore the life of a packet as it comes into your system.

@@ -1,0 +1,4 @@
+It indicates that anything it doesn’t know about 
+it will send out of dev dsl-provider. The device dsl-provider is our PPP link to our ISP. The first line is 
+related to that route. It shows us that the network 10.204.2.10 is reached via the device dsl-provider and 
+through the link src address of 10.0.2.155.

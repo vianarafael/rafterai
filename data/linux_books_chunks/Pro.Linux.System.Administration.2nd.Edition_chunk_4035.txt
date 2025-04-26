@@ -1,0 +1,32 @@
+$ duply usage
+
+create
+
+backup
+
+pre/post
+
+bkp
+
+full
+
+incr
+
+list [<age>]
+
+status
+
+Creates a configuration profile.
+
+Creates a backup (full if it doesn’t exist and incremental if it does) 
+and executes pre- and post-scripts.
+
+Executes '<profile>/pre', '<profile>/post' scripts.
+
+Backs up without executing pre- and post-scripts.
+
+Forces a full backup.
+
+Forces an incremental backup.
+
+Lists all files in the backup (as it was at <age>).

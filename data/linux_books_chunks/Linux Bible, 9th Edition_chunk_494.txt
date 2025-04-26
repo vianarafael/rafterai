@@ -1,0 +1,11 @@
+From the Appearance Preferences window, select from three tabs:
+
+52
+
+c02.indd  04/01/2015  Page 53
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+ ■ Theme—Entire themes are available for the GNOME 2 desktop that change the 
+ colors, icons, fonts, and other aspects of the desktop. Several different themes 
+come with the GNOME desktop, which you can simply select from this tab to use.

@@ -1,0 +1,24 @@
+We can now add our users to the sales group.
+
+$ sudo samba-tool group addmembers sales jsmith,bsingh
+Added members to group sales
+
+We can list the members of the sales group now.
+
+$ sudo samba-tool group listmembers sales
+jsmith
+bsingh
+
+We can delete groups and remove members of groups with the following:
+
+$ sudo samba-tool group removemembers sales tbear
+Removed members from group sales
+
+We have removed the user tbear from the sales group; we can also delete the fails group with the 
+
+following:
+
+$ sudo samba-tool group delete fails
+Deleted group fails
+
+Samba will authenticate our users and provide them with access to any shares they have access to.

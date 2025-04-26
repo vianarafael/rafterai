@@ -1,0 +1,4 @@
+There are others that extend this module, like mod_authz_host, which allows us to authorize 
+access based on IP.
+
+In an example, let’s say we had a directory called /var/www/html/www.example.com/uploads.

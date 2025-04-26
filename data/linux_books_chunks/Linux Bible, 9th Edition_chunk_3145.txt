@@ -1,0 +1,5 @@
+The AllowOverride none directive prevents 
+.htaccess ﬁ les from overriding settings for that directory. Those settings apply to any 
+subdirectories that are not deﬁ ned in other Directory containers.
+
+Content access is relaxed within the /var/www directory.

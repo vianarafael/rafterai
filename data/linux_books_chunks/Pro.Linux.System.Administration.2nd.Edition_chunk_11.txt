@@ -1,0 +1,7 @@
+He is the author of several books:  
+https://terraformbook.com/, https://www.artofmonitoring.com/, https://www.dockerbook.com/,  
+https://www.logstashbook.com/, Pro Puppet (Apress, 2011), Pulling Strings with Puppet: Systems 
+Administration Made Easy (Apress, 2008), Hardening Linux (Apress, 2008), and Pro Nagios 2.0  
+(Apress, 2006).
+
+Peter Lieverdink was born in a small Dutch country town.

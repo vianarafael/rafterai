@@ -1,0 +1,2 @@
+The object class is of type AUXILARY and has the superclass defined by SUP top. 
+The default object type is STRUCTURAL.

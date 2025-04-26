@@ -1,0 +1,8 @@
+This is only really useful if you are running a desktop or allowing access to these 
+cloud storage services via this server. Unless you are going to use these services you should skip.
+
+49
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-36.

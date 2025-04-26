@@ -1,0 +1,11 @@
+So, in 
+this example, if there is a command called foo located in both the /bin and /usr/bin 
+
+74
+
+c03.indd  04/01/2015  Page 75
+
+Chapter 3: Using the Shell
+
+directories, the one in /bin is executed. To have the other foo command run, you either 
+type the full path to the command or change your PATH variable.

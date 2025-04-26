@@ -1,0 +1,14 @@
+Done
+root@mac~#
+
+Run apt-get update every time before performing other package operations.
+
+20.3.2. apt-get upgrade
+
+One of the nicest features of apt-get is that it allows for a secure update of all software
+currently installed on your computer with just one command.
+
+root@debian6:~# apt-get upgrade
+Reading package lists... Done
+Building dependency tree       
+Reading state information...

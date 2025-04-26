@@ -1,0 +1,17 @@
+By using -perm -222, only ﬁ les that have write permission for 
+
+5
+
+129
+
+c05.indd  04/01/2015  Page 130
+
+Part II: Becoming a Linux Power User
+
+user, group, and other are matched. Notice that, in this case, the -type d is added to 
+match only directories.
+
+$ find /myreadonly -perm +222 -type f
+685035 0 -rw-rw-r-- 1 chris chris 0 Dec 30 2014 /tmp/write/abc
+
+$ find .

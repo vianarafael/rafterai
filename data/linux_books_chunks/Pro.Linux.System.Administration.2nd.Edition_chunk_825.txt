@@ -1,0 +1,3 @@
+The option -W specifies the number of days 
+before a user’s password expires that he will get a warning that the password is about to expire. The -d option 
+is principally useful to immediately expire a password.

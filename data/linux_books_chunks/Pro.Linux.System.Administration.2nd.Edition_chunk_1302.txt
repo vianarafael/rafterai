@@ -1,0 +1,11 @@
+This MAC 
+address can be seen in first line of output (link/ether 08:00:27:a4:da:6b in this example).
+
+ See https://wiki.ubuntu.com/IPv6 or www.internetsociety.org/deploy360/ipv6/basics/ 
+
+ ■ Note 
+for more information on IPv6.
+
+The IPv6 address can be used to communicate with other hosts using stateless address 
+
+autoconfiguration (SLAAC).

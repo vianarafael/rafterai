@@ -1,0 +1,14 @@
+Adding Zone Definitions
+
+zone "example.com" {
+    type master;
+    file "master/example.com.db";
+};
+
+zone "0.168.192.in-addr.arpa" {
+    type master;
+    file "master/192.168.0.db";
+};
+
+Then we save the file and quit the editor. We need to tell the server to reload its configuration, either by 
+restarting the server via systemctl reload or service, or using the rndc utility.

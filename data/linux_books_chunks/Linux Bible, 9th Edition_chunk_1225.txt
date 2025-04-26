@@ -1,0 +1,4 @@
+If you are stuck, solutions to the tasks are shown in 
+Appendix B (although in Linux, there are often multiple ways to complete a task).
+
+1.  Create a script in your $HOME/bin directory called myownscript.

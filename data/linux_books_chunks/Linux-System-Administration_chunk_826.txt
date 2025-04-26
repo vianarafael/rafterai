@@ -1,0 +1,23 @@
+Use
+tail -f and watch on your local4 log files.
+
+root@rhel53 scripts# cat logloop 
+#!/bin/bash
+
+for i in `seq 1 10`
+do
+logger -p local4.info "local4.info test number $i"
+sleep 15
+done
+
+root@rhel53 scripts# chmod +x logloop
+root@rhel53 scripts# ./logloop &
+[1] 8264
+root@rhel53 scripts# tail -f /var/log/local4.all.log 
+Mar 28 13:13:36 rhel53 root: local4.info test number 1
+Mar 28 13:13:51 rhel53 root: local4.info test number 2
+...
+
+212
+
+Chapter 18.

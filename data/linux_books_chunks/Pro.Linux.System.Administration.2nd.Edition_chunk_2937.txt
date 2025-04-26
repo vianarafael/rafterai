@@ -1,0 +1,15 @@
+You can find some 
+
+useful documentation here:
+
+•	
+
+•	
+
+https://mariadb.com/kb/en/mariadb/configuring-mariadb-with-mycnf/
+
+https://mariadb.com/kb/en/mariadb/server-system-variables/
+
+We can now start the MariaDB server via the systemctl command, as shown in Listing 11-4.
+
+Listing 11-4.

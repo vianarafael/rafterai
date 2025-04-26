@@ -1,0 +1,21 @@
+On Solaris ps -ef (which also works on Linux) is common.
+Here is a partial output from ps fax.
+
+[paul@RHEL4a ~]$ ps fax
+PID TTY      STAT   TIME COMMAND
+1 ?        S      0:00 init [5]
+
+...
+
+3713 ?        Ss     0:00 /usr/sbin/sshd
+5042 ?        Ss     0:00  \_ sshd: paul [priv]
+5044 ?        S      0:00      \_ sshd: paul@pts/1 
+5045 pts/1    Ss     0:00          \_ -bash
+5077 pts/1    R+     0:00              \_ ps fax
+
+7
+
+  
+introduction to processes
+
+1.2.7.

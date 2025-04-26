@@ -1,0 +1,6 @@
+1 root root 1644 Feb  2 02:30 /etc/passwd
+
+As you can see, everyone can read the password ﬁ le. You might think that this is not a 
+problem because the passwords are all hashed. However, individuals with malicious intent 
+have created ﬁ les called rainbow tables. A rainbow table is simply a dictionary of potential 
+passwords that have been hashed.

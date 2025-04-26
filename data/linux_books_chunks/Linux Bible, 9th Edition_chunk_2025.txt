@@ -1,0 +1,6 @@
+Log in as mjones, and create a ﬁ le called /tmp/maryfile.txt. Using ACLs, 
+
+assign the bin user read/write permission to that ﬁ le. Then assign the lp group 
+read/write permission to that ﬁ le.
+
+10.  Still as mjones, create a directory named /tmp/mydir.

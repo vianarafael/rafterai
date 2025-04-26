@@ -1,0 +1,6 @@
+For 
+
+example, I can log in to my Red Hat Enterprise Linux web server, my home multi-
+media server, my home router, or my wife’s Mac and explore and use any of those 
+computer systems from a shell. I can even log in and run commands on my Android 
+phone.

@@ -1,0 +1,6 @@
+As the system is installing, 
+you can set the root password and create a new user account for your new system.
+
+13.  Root Password. Set the password for the root user and verify it (type it again). 
+Click Done to accept it. If the password is too short or too weak, you stay on the 
+page (where you can set a new password).

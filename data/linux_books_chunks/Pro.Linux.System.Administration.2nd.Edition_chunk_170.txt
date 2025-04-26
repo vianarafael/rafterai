@@ -1,0 +1,6 @@
+The NTP servers with the green tick are reachable 
+and working. The red time server is unreachable. It is best to have at least three working time servers. You 
+can add your own NTP server by clicking the + and adding your server to the list. To get back to the main 
+screen select OK and Done.
+
+Working our way down the summary screen we can see the Security Policy settings.

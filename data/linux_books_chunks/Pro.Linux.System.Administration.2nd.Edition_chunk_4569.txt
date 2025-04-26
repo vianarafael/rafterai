@@ -1,0 +1,14 @@
+You can now use the ldapadd 
+
+command to add the created LDIF into our SLAPD server.
+
+$ sudo ldapadd -Q -Y EXTERNAL -H ldapi:/// -f schema/exampleactive.ldif
+adding new entry "cn={5}exampleactive,cn=schema,cn=config"
+
+We will use the exampleactive.schema file when we declare our users in the “LDIFs and Adding Users” 
+
+section of this chapter.
+
+Access Control Lists
+Every connection that accesses your LDAP server has to be given specific access to various parts of the tree if 
+you want it to be secure.

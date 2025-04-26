@@ -1,0 +1,77 @@
+ansible-playbook Options
+
+-i
+
+Path to the inventory file.
+
+--ask-become-pass
+
+Prompt for the remote host password for escalation of privileges.
+
+--list-hosts
+
+--list-tags
+
+--list-tasks
+
+Shows you the hosts that your playbook will be acting upon.
+
+Lists tags that are available in your playbook.
+
+Shows tasks that will be executed in your playbook.
+
+--module-path=
+
+Adds a different module path.
+
+-v -vv –vvv
+
+Increases verbosity for debugging.
+
+--syntax-check
+
+Validates that the playbook syntax is correct.
+
+--user
+
+Remote user to sign in as.
+
+--private-key=
+
+Private SSH key of user.
+
+--connection=
+
+--extra-vars=
+
+Choose the connection type (paramiko, ssh, winrm, local); defaults to smart.
+
+You can add key/value pairs to the playbook at runtime as well as pass in any 
+files containing variables (including ansible-vault files).
+
+--start-at-task=
+
+Start at this task.
+
+--step
+
+--tags
+
+Step through each task asking for confirmation before proceeding to the next.
+
+Run only tasks with these tags.
+
+--skip-tags
+
+Don’t run these tagged tasks.
+
+To make sure we are targeting the right hosts when we execute this playbook, let’s issue the following:
+
+$ sudo ansible-playbook --list-hosts -b playbooks/backup.yml
+ERROR! Decryption failed
+
+971
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We have issued the --list-hosts, but we have a decryption failed message.

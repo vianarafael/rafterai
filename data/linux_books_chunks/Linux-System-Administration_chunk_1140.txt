@@ -1,0 +1,2 @@
+Suppose the project55 people tell you they only need a
+couple of CD-ROM images, and you already have them available on an nfs server.

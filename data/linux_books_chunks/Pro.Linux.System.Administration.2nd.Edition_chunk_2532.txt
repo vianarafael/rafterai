@@ -1,0 +1,12 @@
+9903    IN     NS      h.root-servers.net.
+...<snip>...
+
+435
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+;; Received 913 bytes from 10.0.2.3#53(10.0.2.3) in 12 ms
+
+com.                   172800  IN     NS      a.gtld-servers.net.
+com.                   172800  IN     NS      b.gtld-servers.net.
+com.

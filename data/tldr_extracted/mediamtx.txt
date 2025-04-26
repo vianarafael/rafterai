@@ -1,0 +1,14 @@
+# mediamtx
+
+
+- Run MediaMTX:
+
+`mediamtx`
+
+- Run MediaMTX with a custom configuration location:
+
+`mediamtx {{path/to/config.yml}}`
+
+- Start MediaMTX as a daemon:
+
+`systemctl start mediamtx`

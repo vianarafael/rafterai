@@ -1,0 +1,4 @@
+The ip tool, in its simplest form, can be used like the ipconfig command on Microsoft Windows.
+The ip command is a very powerful utility and can be used to configure all your networking. The 
+ip command works on different network “objects.” Each ip object deals with a particular part of your 
+networking.

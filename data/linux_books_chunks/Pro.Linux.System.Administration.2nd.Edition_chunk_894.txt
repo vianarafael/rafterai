@@ -1,0 +1,4 @@
+Most 
+modern versions of CentOS and Ubuntu use this directory to hold a collection of configuration files for 
+PAM-aware services. The service shares the same name as the application it is designed to authenticate; for 
+example, the PAM configuration for the passwd command is contained in a file called /etc/pam.d/passwd.

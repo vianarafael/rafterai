@@ -1,0 +1,12 @@
+The following code shows the well-documented /etc/security/
+time.conf PAM conﬁ guration ﬁ le.
+
+$ cat /etc/security/time.conf
+# this is an example configuration file for the pam_time module
+...
+# the syntax of the lines is as follows:
+#
+#       services;ttys;users;times
+...
+
+I recommend you read through the contents of the time.conf ﬁ le.

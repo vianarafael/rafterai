@@ -1,0 +1,11 @@
+The chapter 
+then covers how to do partitioning and ﬁ lesystem creation manually.
+
+284
+
+c12.indd  04/01/2015  Page 285
+
+Chapter 12: Managing Disks and Filesystems
+
+Coming from Windows
+Filesystems are organized differently in Linux than they are in Microsoft Windows operating systems.

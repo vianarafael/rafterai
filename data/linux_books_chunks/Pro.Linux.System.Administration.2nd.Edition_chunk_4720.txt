@@ -1,0 +1,9 @@
+In Chapter 14, we introduced you to the Bareos backup server and showed you how to use the Client Run 
+Before Job and Client Run After Job options when we backed up our MySQL database. You can do a 
+similar thing with the LDAP database, as shown in Listing 16-4.
+
+777
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Listing 16-4.

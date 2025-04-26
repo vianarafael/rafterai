@@ -1,0 +1,7 @@
+The following is an example of mounting the /stuff 
+ directory from a computer named maple on your local computer:
+
+# mkdir /mnt/maple
+# mount maple:/stuff /mnt/maple
+
+The ﬁ rst command (mkdir) creates the mount point directory.

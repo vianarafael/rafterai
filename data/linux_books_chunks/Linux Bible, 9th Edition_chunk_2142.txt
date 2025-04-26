@@ -1,0 +1,6 @@
+Understanding how to manually mount and unmount fi lesystems 
+on a Linux server, however, can be a very useful skill if you want to mount remote fi lesystems or temporarily mount 
+partitions in particular locations.
+
+Supported fi lesystems
+To see ﬁ lesystem types that are loaded in your kernel, type cat /proc/filesystems.

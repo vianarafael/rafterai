@@ -1,0 +1,5 @@
+These scripts also tend not to 
+scale well, and they often require frequent maintenance.
+
+Configuration management tools can automate these tasks efficiently and allow a consistent and 
+repeatable life cycle for your hosts.

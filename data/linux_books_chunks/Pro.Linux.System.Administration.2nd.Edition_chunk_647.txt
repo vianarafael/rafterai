@@ -1,0 +1,12 @@
+There are myriad other regular expressions that you’ll 
+
+find useful for employing frequently.
+
+134
+
+ChapTeR 4 ■ LInux BasICs
+
+REGULAR EXPRESSIONS
+
+Regular expressions, or regexes, are a formal language used to identify strings of text; for example, a 
+regular expression might identify all the references to the string job in a file.

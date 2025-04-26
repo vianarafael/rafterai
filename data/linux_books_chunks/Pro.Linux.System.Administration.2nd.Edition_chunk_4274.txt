@@ -1,0 +1,11 @@
+The traffic running over a VPN is usually encrypted and authenticated via a mechanism such as an TLS/SSL 
+certificate, a password, or a two-factor authentication mechanism such as a token or smartcard.
+
+VPNs are commonplace and home and business-grade firewalls will usually have support for them.
+In this chapter, we’re going to show you how to install the required software (in our case, an open 
+
+source VPN tool called OpenVPN) to create a VPN and how to configure and generate VPN tunnels.
+
+Our Example Network
+We’re going to demonstrate a variety of VPN connections in this chapter, and we’ll use the example network 
+we created in Chapter 7 for our sample environment and network to configure.

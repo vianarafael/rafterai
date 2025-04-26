@@ -1,0 +1,12 @@
+Doing a chmod o-r /var/log/btmp improves security.
+
+[root@RHEL4b ~]# touch /var/log/btmp
+[root@RHEL4b ~]# ll /var/log/btmp
+-rw-r--r--  1 root root 0 Jul 30 06:12 /var/log/btmp
+[root@RHEL4b ~]# chmod o-r /var/log/btmp 
+[root@RHEL4b ~]# lastb
+
+btmp begins Mon Jul 30 06:12:19 2007
+[root@RHEL4b ~]#
+
+Failed logins via ssh, rlogin or su are not registered in /var/log/btmp.

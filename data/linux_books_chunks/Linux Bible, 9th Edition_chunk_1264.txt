@@ -1,0 +1,4 @@
+This includes the OpenStack dashboard from the OpenStack 
+Horizon project (http://horizon.openstack.org). That interface lets you 
+launch and manage virtual machines and all the resources around them: storage, 
+networking, authentication, processing allocations, and so on.

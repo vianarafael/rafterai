@@ -1,0 +1,27 @@
+this is because we believe network-based provisioning is the simplest, easiest, and most 
+efficient way to automatically build hosts.
+
+Provisioning with CentOS Cobbler
+CentOS has a variety of tools for provisioning hosts, ranging from the most basic, Kickstart, which automates 
+installations, to full-featured GUI management tools for host configuration such as Cobbler (http://
+cobbler.github.io/) and Spacewalk (http://spacewalk.redhat.com/).
+
+912
+
+ 
+ 
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+We’re going to look at a combination of three tools:
+
+•	 Kickstart: An installation automation tool for Red Hat–based operating systems
+
+•	
+
+•	
+
+Preseed: An installation automation tool for Debian-based operating systems
+
+Cobbler: A provisioning server that provides a PXE boot server
+
+We’ll take you through the process of creating a Cobbler server and a build to install.

@@ -1,0 +1,10 @@
+For example, if you want to 
+ create a set of ﬁ les such as memo1 through memo5, you can do that as follows:
+
+$ touch memo{1,2,3,4,5}
+$ ls
+memo1 memo2 memo3 memo4 memo5
+
+The items that are expanded don’t have to be numbers or even single digits. For example, 
+you could use ranges of numbers or digits. You could also use any string of characters, as 
+long as you separate them with commas.

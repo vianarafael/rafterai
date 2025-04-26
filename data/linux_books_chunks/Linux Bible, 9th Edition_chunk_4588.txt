@@ -1,0 +1,12 @@
+To see a user’s security 
+context, the id command must be used. To see a user’s security context besides your own, 
+the command syntax is id -Z username.
+
+683
+
+c24.indd  04/15/2015  Page 684
+
+Part V: Learning Linux Security Techniques
+
+Managing the user security context
+Remember that every system user login ID is mapped to a particular SELinux user ID.

@@ -1,0 +1,4 @@
+We’ve used the 10.0.2.0/24 network as their IP address, but it’s more likely 
+that each office has an individual address acquired from the ISP.
+
+This network is not secure, as it runs over the Internet.

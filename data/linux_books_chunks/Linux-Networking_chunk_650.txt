@@ -1,0 +1,8 @@
+rogue dhcp servers
+
+Rogue dhcp servers are a problem without a solution. For example accidental connection of
+a (believed to be simple) hub/switch to a network with an internal dhcp server.
+
+12.8.4. dhcp and ddns
+
+DHCP can dynamically update DNS when it configures a client computer.

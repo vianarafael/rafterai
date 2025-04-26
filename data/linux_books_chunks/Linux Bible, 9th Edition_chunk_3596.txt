@@ -1,0 +1,9 @@
+Here’s an example of an /etc/exports ﬁ le:
+
+/cal    *.linuxtoys.net(rw)              # Company events
+/pub    *(ro,insecure,all_squash)        # Public dir
+/home   maple(rw,root_squash) spruce(rw,root_squash)
+
+The /cal entry represents a directory that contains information about events related to 
+the company. Any computer in the company’s domain (*.linuxtoys.net) can mount 
+that NFS share.

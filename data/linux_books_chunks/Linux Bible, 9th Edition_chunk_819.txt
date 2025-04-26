@@ -1,0 +1,6 @@
+Using pipes 
+(described earlier), you can direct standard output from one command to the standard 
+input of another. With ﬁ les, you can use less than (<) and greater than (>) signs to direct 
+data to and from ﬁ les. Here are the ﬁ le-redirection characters:
+
+ ■ <—Directs the contents of a ﬁ le to the command.

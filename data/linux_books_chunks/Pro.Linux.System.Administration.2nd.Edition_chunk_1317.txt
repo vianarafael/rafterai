@@ -1,0 +1,4 @@
+NetworkManager has plug-ins that give it the ability to manage your network 
+configuration files. These are ifcfg-rh and ifupdown which handle Red Hat-style and Debian-style scripts, 
+respectively. You can disable the management of your interfaces via NetworkManager in Red Hat-style hosts 
+by setting the NM_CONTROLLED=’no’ in the network connection profile file (explained shortly).

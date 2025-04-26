@@ -1,0 +1,6 @@
+To do this, we will edit /etc/dovecot/
+
+conf.d/10-master.conf, finding the service auth configuration option. You can see the service auth 
+configuration options we’re going to set in Listing 12-9.
+
+Listing 12-9.

@@ -1,0 +1,8 @@
+The system’s hostname was commonly set in this ﬁ le up 
+to RHEL 6, but other settings can be added to this ﬁ le as well. Here is an example of the 
+contents of a /etc/sysconfig/network ﬁ le:
+
+GATEWAY=192.168.0.1
+
+The previous example the default GATEWAY is set to 192.168.0.1. Different interfaces can 
+use different GATEWAY addresses.

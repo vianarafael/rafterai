@@ -1,0 +1,17 @@
+The client computer (pine) sees that the resource is available and mounts the resource on its 
+local ﬁ lesystem at the mount point /oak/apps, after which any ﬁ les, directories, or subdi-
+rectories from /apps/bin on oak are available to users on pine (given proper permissions).
+
+528
+
+ 
+c20.indd  04/01/2015  Page 529
+
+Chapter 20: Confi guring an NFS File Server
+
+Although it is often used as a ﬁ le server (or other type of server), Linux is a 
+ general- purpose operating system, so any Linux system can share ﬁ lesystems (export) 
+as a server or use another computer’s ﬁ lesystems (mount) as a client.
+
+A fi lesystem is usually a structure of fi les and directories that exists on a single device (such as a hard disk  partition 
+or CD-ROM).

@@ -1,0 +1,19 @@
+We use one of Google's
+dns servers here.
+
+echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+178
+
+Chapter 14. iptables firewall
+
+This chapter introduces some simple firewall rules and how to configure them with iptables.
+
+iptables is an application that allows a user to configure the firewall functionality built into
+the Linux kernel.
+
+179
+
+iptables firewall
+
+14.1.

@@ -1,0 +1,3 @@
+The opening directive declares the 
+start of the virtual host and, in this case, specifies that you should listen on all network interfaces on port 80 
+for this host (*:80).

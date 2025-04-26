@@ -1,0 +1,3 @@
+Most library 
+packages have an accompanying development package, to allow for software development using these 
+libraries. Generally, unless you are developing applications, you won’t need to install these packages.

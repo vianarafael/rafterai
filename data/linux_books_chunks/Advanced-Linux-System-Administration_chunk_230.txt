@@ -1,0 +1,47 @@
+The file content is similar to /etc/hosts:
+
+10.0.0.20 accounts
+
+Shared Directories
+
+We will define one share called 'readshare'  which is readable and another called 'rw-
+share' which has read-write permissions but is only accessible for user 'tux':
+
+The smb.conf options
+
+[readshare]
+
+comment = Read-only Directory
+
+path = /usr/local/news/
+
+guest only = yes
+
+browseable = yes  # this is optional
+
+[rw-share]
+
+comment = Read-write Share for tux
+
+path = /usr/local/documents
+
+browseable = yes
+
+guest ok = yes
+
+writeable = yes
+
+valid users = tux 
+
+58
+
+ 
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+Sharing Printers
+
+We choose to export all printers defined with CUPS on the Linux server.

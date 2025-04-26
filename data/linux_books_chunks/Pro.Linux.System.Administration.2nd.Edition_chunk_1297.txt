@@ -1,0 +1,4 @@
+The 2: is just an ordering number. The enp0s3 is the 
+device name of the interface. In between the <> are the interface flags. BROADCAST means we can send traffic 
+to all other hosts on the link, MULTICAST means we can send and receive multicast packets, UP means the 
+device is functioning.

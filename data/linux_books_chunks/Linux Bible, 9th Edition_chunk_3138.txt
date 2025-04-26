@@ -1,0 +1,14 @@
+Here 
+are some examples:
+
+Listen 80
+User apache
+Group apache
+ServerAdmin root@localhost
+DirectoryIndex index.html index.php
+AccessFileName .htaccess
+
+17
+
+The Listen 80 directive tells httpd to listen for incoming requests on port 80 
+(the default port for the HTTP web server protocol).

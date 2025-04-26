@@ -1,0 +1,5 @@
+/etc/skel/
+
+When using useradd the -m option, the /etc/skel/ directory is copied to the newly created
+home directory. The /etc/skel/ directory contains some (usually hidden) files that contain
+profile settings and default values for applications.

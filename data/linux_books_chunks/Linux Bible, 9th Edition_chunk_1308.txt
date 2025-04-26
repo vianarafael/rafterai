@@ -1,0 +1,6 @@
+Commands that run as daemon processes are also contained in this 
+ directory. Daemon processes are processes that run in the background,  waiting 
+for service requests such as those to access a printer or a web page. (Look for 
+ commands that end in d, such as sshd, pppd, and cupsd.)
+
+The /sbin and /usr/sbin directories are still used in Ubuntu as described here.

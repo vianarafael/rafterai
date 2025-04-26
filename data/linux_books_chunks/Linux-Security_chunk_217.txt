@@ -1,0 +1,9 @@
+It also leaves
+room for custom aliases and functions.
+
+[root@rhel7 ~]# cat /home/paul/.bashrc
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        .

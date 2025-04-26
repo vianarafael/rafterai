@@ -1,0 +1,33 @@
+The master
+hdd on the first ata controller is /dev/hda, the slave is /dev/hdb. For the second controller,
+the names of the devices are /dev/hdc and /dev/hdd.
+
+Table 4.1. ide device naming
+
+controller
+
+connection
+
+device name
+
+ide0
+
+ide1
+
+master
+
+slave
+
+master
+
+slave
+
+/dev/hda
+
+/dev/hdb
+
+/dev/hdc
+
+/dev/hdd
+
+It is possible to have only /dev/hda and /dev/hdd.

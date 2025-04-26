@@ -1,0 +1,9 @@
+This includes tools for working with documents, images, video, 
+audio, and other media.
+
+ ■ Games—Try the wide array of open source and free software games available today 
+
+in the Fedora Games spin.
+
+These special spins can be fun, but to work along with most of the book I recommend the 
+standard Workstation ISO image.

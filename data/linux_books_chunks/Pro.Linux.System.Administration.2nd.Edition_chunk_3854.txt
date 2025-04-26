@@ -1,0 +1,4 @@
+We can check that the device exists by issuing ls /dev/usblp. Now we can be content 
+that our device has been recognized and is ready to be added under the control of the CUPS printing service.
+We first need to set up some things on our print server. We will need to add an administration user 
+to administer the setup of our print devices.

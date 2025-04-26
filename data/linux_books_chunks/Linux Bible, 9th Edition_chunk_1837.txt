@@ -1,0 +1,13 @@
+Instead of having one big software 
+repository, as Fedora does, RHEL provides deployment through Red Hat Network, which 
+requires a paid subscription and entitlements to a variety of software channels (RHEL, Red 
+Hat Enterprise Virtualization, Red Hat Cluster Suite, and so on).
+
+256
+
+c10.indd  04/01/2015  Page 257
+
+Chapter 10: Getting and Managing Software
+
+In terms of enterprise computing, one of the great beneﬁ ts of the design of RPM packages is 
+that their management can be automated.

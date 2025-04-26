@@ -1,0 +1,70 @@
+Using swaks to Test SASL
+
+$ openssl s_client -connect mail.example.com:25 -starttls smtp
+CONNECTED(00000003)
+depth=2 O = Digital Signature Trust Co., CN = DST Root CA X3
+verify return:1
+depth=1 C = US, O = Let's Encrypt, CN = Let's Encrypt Authority X3
+verify return:1
+depth=0 CN = mail.example.com
+verify return:1
+---
+Certificate chain
+ 0 s:/CN=mail.example.com
+   i:/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+ 1 s:/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+   i:/O=Digital Signature Trust Co./CN=DST Root CA X3
+---
+
+555
+
+Chapter 12 ■ Mail ServiCeS
+
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFGjCCBAKgAwIBAgISA0fRIzPUESQUdGrLEPG8niSXMA0GCSqGSIb3DQEBCwUA
+...
+<snip>
+...
+PLCtj2aR+DrP2jz7IKO3CmzrvSbPxs+wtmIpgmV96HLE6zc94xAV6bQEoZWvav5F
+I2Ra8G/fFEYE1/nNvinV1ik0Qa68vHqYhL0hemU/2Z8/pBCFWg1txqfSSUq4G4mH
+NsOPhphTx/QyYjeU7K0=
+-----END CERTIFICATE-----
+subject=/CN=mail.example.com
+issuer=/C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+...
+< snip>
+...
+Verify return code: 0 (ok)
+---
+250 DSN
+ehlo me.com
+250-mail.example.com
+250-PIPELINING
+250-SIZE 10240000
+250-VRFY
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250 DSN
+AUTH LOGIN
+334 VXNlcm5hbWU6
+anNtaXRo
+334 UGFzc3dvcmQ6
+c2VjcmV0
+235 2.7.0 Authentication successful
+MAIL FROM: me@here.com
+250 2.1.0 Ok
+rcpt to: jsmith@example.com
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+Subject: hello you
+You're ace
+.
+250 2.0.0 Ok: queued as 5F2051866087
+DONE
+
+In Listing 12-13, we’ve initiated the openssl s_client command with the –starttls smtp option, 
+which tells openssl to pass the STARTTLS command when making a connection to our e-mail server.

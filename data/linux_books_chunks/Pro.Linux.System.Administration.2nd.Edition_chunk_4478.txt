@@ -1,0 +1,6 @@
+The following command will install these packages:
+
+$ sudo aptitude install ldap-utils slapd
+
+When you issue this command, the slapd package will ask you to provide a password for your root LDAP 
+user. You can enter your password and proceed with the installation.

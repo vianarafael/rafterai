@@ -1,0 +1,16 @@
+`/usr/src/redhat/BUILD/kernel-2.6.9/linux-2.6.9'
+[root@rhel4a kernel_module]#
+
+Now we have more files.
+
+[root@rhel4a kernel_module]# ll
+total 172
+-rw-rw-r--  1 paul paul   250 Feb 15 19:14 hello.c
+-rw-r--r--  1 root root 64475 Feb 15 19:15 hello.ko
+-rw-r--r--  1 root root   632 Feb 15 19:15 hello.mod.c
+-rw-r--r--  1 root root 37036 Feb 15 19:15 hello.mod.o
+-rw-r--r--  1 root root 28396 Feb 15 19:15 hello.o
+-rw-rw-r--  1 paul paul   153 Feb 15 19:15 Makefile
+[root@rhel4a kernel_module]#
+
+28.6.4.

@@ -1,0 +1,9 @@
+the size of the partition table is 64 bytes and is 
+followed by the MBr boot signature (2bytes). the remaining space up until the first partition is often 
+called the MBr gap and varies in size as most partitioners align the start of partitions to the first 1MB.
+
+183
+
+Chapter 6 ■ Startup and ServiCeS
+
+Gpt on the other hand has an address space of 16,384 bytes and can hold up to 128 partitions.

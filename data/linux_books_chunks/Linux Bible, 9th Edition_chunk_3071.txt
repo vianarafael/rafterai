@@ -1,0 +1,10 @@
+One way to do that is to install the entire Web Server group as follows:
+
+# yum groupinstall "Web Server"
+
+Here are the packages, along with the httpd package, in the Web Server group in Fedora 
+that you get by default:
+
+ ■ httpd-manual—Fills the /var/www/manual directory with the Apache 
+
+ documentation manuals.

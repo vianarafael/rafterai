@@ -1,0 +1,7 @@
+In Windows, you 
+ typically have one partition that consumes the whole hard disk. However, with Linux there 
+are several reasons why you may want to have multiple partitions:
+
+ ■ Multiple operating systems—If you install Linux on a PC that already has a 
+Windows operating system, you may want to keep both operating systems on 
+the computer.

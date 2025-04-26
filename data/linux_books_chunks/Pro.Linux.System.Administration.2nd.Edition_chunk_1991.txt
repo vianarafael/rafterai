@@ -1,0 +1,24 @@
+The dpkg Status Codes
+
+Code
+
+Meaning
+
+ii
+
+hi
+
+un
+
+rc
+
+Package is installed and will install updates when available.
+
+Package is on hold and installed but will not install updates.
+
+Package is not installed.
+
+Package is not installed, but there are residual configuration files (usually means the 
+package was removed).
+
+The other columns speak for themselves.

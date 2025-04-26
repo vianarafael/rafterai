@@ -1,0 +1,13 @@
+This
+example writes zeroes over the master boot record.
+
+dd if=/dev/zero of=/dev/sda bs=512 count=1
+
+Or to wipe out the whole partition or disk.
+
+dd if=/dev/zero of=/dev/sda
+
+5.4.2. partprobe
+
+Don't forget that after restoring a master boot record with dd, that you need to force the
+kernel to reread the partition table with partprobe.

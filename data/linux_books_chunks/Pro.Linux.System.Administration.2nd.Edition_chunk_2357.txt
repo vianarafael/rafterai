@@ -1,0 +1,22 @@
+By prefixing the size parameter with +, you 
+indicate you want the specified size added to the existing size.
+
+$ sudo lvextend --size +2G --resizefs /dev/raid-volume/www
+   Size of logical volume raid-volume/wwwl changed from 2.00 GiB (512 extents) to 4.00 GiB 
+
+(1024 extents).
+
+  Logical volume spool successfully resized.
+meta-data=/dev/mapper/raid--volume-www isize = 256 agcount=4, agsize=131072 blks
+                                            = ectsz=512     attr=2, projid32bit=1
+                                            = crc=0         finobt=0
+                                       data = bsize=4096    blocks=524288, imaxpct=25
+                                            = sunit=0       swidth=0 blks
+                                     naming = version 2     bsize=4096 ascii-ci=0 ftype=0
+                                        log = internal      bsize=4096 blocks=2560, version=2
+                                            = sectsz=512    sunit=0 blks, lazy-count=1
+                                   realtime = none          extsz=4096 blocks=0, rtextents=0
+data blocks changed from 524288 to 1048576
+
+As you can see we have specified that we want to add 2 G (+2G) to the /dev/raid-volume/www logical 
+volume.

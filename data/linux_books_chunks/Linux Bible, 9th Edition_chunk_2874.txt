@@ -1,0 +1,4 @@
+The follow-
+ing example shows the ﬁ les located in the multi-user.target unit’s Wants directory. 
+Previously, in the “Understanding systemd init” section, the systemctl command was 
+used to list Wants, and it is still the preferred method.

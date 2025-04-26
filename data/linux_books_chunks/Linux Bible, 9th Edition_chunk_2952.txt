@@ -1,0 +1,3 @@
+Supported remote printer connections include Networked CUPS (IPP) 
+ printers, Networked UNIX (LPD) printers, Networked Windows (Samba) printers, and 
+JetDirect printers.

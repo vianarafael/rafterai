@@ -1,0 +1,7 @@
+If a disk fails, the 
+checksum can then be used in combination with the data on the remaining disks to recalculate the missing 
+parts of the data. The faster your CPU, the faster this process is.
+
+Figure 9-2 shows a simple diagram illustrating how data and checksum are split between disks. B1, B2, 
+
+and B3 are parts of file B. Bp is a checksum, or parity.

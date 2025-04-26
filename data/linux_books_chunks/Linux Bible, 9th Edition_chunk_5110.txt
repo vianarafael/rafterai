@@ -1,0 +1,8 @@
+If you are asked where to put the ISO, select a folder that has enough space to hold 
+the ISO. Remember where this folder is because you need to locate the ISO when 
+you go to burn it later.
+
+After the download is complete, burn the ISO image to a DVD using procedures described in 
+the “Creating Linux CDs and DVDs” section.
+
+Other types of Ubuntu installation media are also available.

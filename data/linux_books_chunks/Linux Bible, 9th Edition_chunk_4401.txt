@@ -1,0 +1,12 @@
+You can see a list of the various installed PAM modules on your system by 
+ typing ls /lib/security/pam*.so at the command line.
+
+On Ubuntu, to fi nd your PAM modules, type the command sudo find / -name pam*.so at the command line.
+
+652
+
+c23.indd  04/01/2015  Page 653
+
+Chapter 23: Understanding Advanced Linux Security 
+
+Your Linux system comes with many of the PAM modules needed already installed.

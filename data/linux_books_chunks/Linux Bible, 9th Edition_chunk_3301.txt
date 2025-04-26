@@ -1,0 +1,6 @@
+This 
+automatically opens TCP port 21 (FTP) on your ﬁ rewall and loads kernel modules needed to 
+allow access to passive FTP service.
+
+For RHEL 6 and earlier systems, you can add rules directly to the /etc/sysconfig/
+iptables ﬁ le.

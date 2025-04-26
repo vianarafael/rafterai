@@ -1,0 +1,5 @@
+PID 1 on CentOS
+
+Systemd is a newer approach to system initialization and can be found as the default (or is said to be 
+natively running systemd) on CentOS and you can see that systemd is PID 1 in Figure 6-5. Ubuntu on the 
+other hand, is said to “emulate” SysV Init.

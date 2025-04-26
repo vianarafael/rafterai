@@ -1,0 +1,17 @@
+Look for these key words in an AVC denial message:
+
+ ■ type=AVC
+
+ ■ avc: denied
+
+ ■ pid=
+
+ ■ exe=
+
+ ■ subj=
+
+This can give you enough data to either begin ﬁ xing a problem or track down malicious activity.
+
+Reviewing SELinux messages in the messages log
+If you have the rsyslogd running, you can ﬁ nd AVC denial messages by searching through 
+the /var/log/messages ﬁ le using grep.

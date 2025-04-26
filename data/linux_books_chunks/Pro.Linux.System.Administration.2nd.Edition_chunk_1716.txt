@@ -1,0 +1,19 @@
+You can read more information 
+about Fail2ban here:
+
+•	
+
+•	
+
+http://www.fail2ban.org/wiki/index.php/Main_Page
+
+https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-
+with-fail2ban-on-centos-7
+
+Now take a look at these to rules in the IN_public_allow and IN_public_deny chains respectively:
+
+-A IN_public_allow -p icmp -m icmp --icmp-type echo-request –m limit --limit 1/s -j ACCEPT
+-A IN_public_deny -p icmp -m icmp --icmp-type any -j DROP
+
+In the IN_public_allow chain we have specified that for ICMP packet of the type echo-request we 
+will accept 1 packets per second.

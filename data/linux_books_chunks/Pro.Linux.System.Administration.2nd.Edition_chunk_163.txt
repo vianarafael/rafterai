@@ -1,0 +1,7 @@
+Most people don’t think about 
+a globalized world when they start designing their services. Your systems might start off in your local 
+time zone but as you grow you might find your systems are in completely different time zones. This can 
+lead to problems when you read a timestamp and wonder, “Yeah, but is that 4 am their time, our time  
+or UTC?”
+
+You can still get localized time information.

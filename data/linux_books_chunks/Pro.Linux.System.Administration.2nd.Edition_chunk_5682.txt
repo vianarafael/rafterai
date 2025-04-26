@@ -1,0 +1,4 @@
+Choose a function or 
+application, such as sudo or the SSh daemon, and convert its configuration management from manual 
+to managed with puppet. When these functions are stable, add additional components to your puppet 
+configuration. a good way to approach this task is to classify your hosts by their functions.

@@ -1,0 +1,13 @@
+The subscription service for RHEL 7 is called Red Hat Subscription Management. You can find 
+the details on how to join at
+
+•	
+
+•	
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Subscription_
+Management/1/html-single/RHSM/index.html
+
+https://access.redhat.com/articles/11258
+
+After logging in to your desktop you will see the usual Gnome desktop for CentOS.

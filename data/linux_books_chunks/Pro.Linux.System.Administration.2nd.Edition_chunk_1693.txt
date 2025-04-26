@@ -1,0 +1,10 @@
+A common 
+example is an FtP session where control data is passed to one connection, and actual file data flows 
+through another one.
+
+the INVALID state is branded on a connection that has been seen to have problems in processing 
+packets: they may have exceeded the processing ability of the firewall or be packets that are irrelevant 
+to any current connection.
+
+In Listing 7-8, the rule on line 11 is set to accept all connections on the loopback device, also referred 
+to as lo or 127.0.0.1.

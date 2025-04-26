@@ -1,0 +1,5 @@
+After this retention period has expired, Bareos considers the volume data to have expired and that data can 
+be overwritten.
+
+Setting Recycle = Yes in our Pool definition means that once the data on the volume is considered 
+expired, that volume will become available again to the general pool, to be used for writing again.

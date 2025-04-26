@@ -1,0 +1,14 @@
+We first have to configure any special requirements for our installation, then compile any binaries, and 
+finally install Nagios onto our system.
+
+$ ./configure --with-httpd-conf=/etc/apache2/conf-available \
+  --with-nagios-user=nagios \
+  --with-nagios-group=nagcmd \
+  --sysconfdir=/etc/nagios
+
+879
+
+Chapter 18 ■ Logging and Monitoring
+
+Here we have configured our Nagios service to place the Apache configuration into the appropriate 
+place (you may like to choose /etc/apache2/sites-available instead here).

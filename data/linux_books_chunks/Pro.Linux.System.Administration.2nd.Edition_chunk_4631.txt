@@ -1,0 +1,5 @@
+You will notice that this is being run in the 
+
+foreground, and you can see whether there are any problems when it tries to start. For CentOS hosts, you 
+would use -u ldap -g ldap for the user that runs OpenLDAP instead of -u openldap, which is for Ubuntu 
+hosts.

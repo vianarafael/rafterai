@@ -1,0 +1,3 @@
+Here, the yum -y update command 
+is run, with its output mailed to the user root@localhost. The command is run at 59 minutes after hour 
+23 (11:59 p.m.).

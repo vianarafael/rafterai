@@ -1,0 +1,5 @@
+You can remove the database ﬁ les that begin with __db* 
+and rebuild them from the metadata stored in other ﬁ les in that directory.
+
+Before you start, it’s a good idea to back up the /var/lib/rpm directory. Then you need 
+to remove the old __db* ﬁ les and rebuild them.

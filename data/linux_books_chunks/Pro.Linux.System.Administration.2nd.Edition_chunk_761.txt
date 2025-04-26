@@ -1,0 +1,9 @@
+A setting of -1 disables this setting, and a setting of 0 disables the account as soon as the 
+password expires.
+
+ ■ Note 
+
+ We’ll talk more about password expiration later in this chapter.
+
+The EXPIRE option is useful for creating temporary accounts, as it specifies a date in the format YYYY-
+MM-DD on which the account will be expired and disabled.

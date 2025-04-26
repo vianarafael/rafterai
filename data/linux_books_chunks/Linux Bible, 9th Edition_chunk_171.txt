@@ -1,0 +1,11 @@
+Many types of services run in Linux. 
+
+4
+
+c01.indd  04/01/2015  Page 5
+
+Chapter 1: Starting with Linux
+
+Linux provides different ways of starting and stopping these services. In other 
+words, while Linux includes web browsers to view web pages, it can also be the 
+computer that serves up web pages to others.

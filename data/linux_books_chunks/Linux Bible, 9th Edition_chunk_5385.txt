@@ -1,0 +1,6 @@
+From the BIOS setup screen, do the following to determine whether your computer 
+is 32-bit or 64-bit, whether it includes virtualization support, and whether your 
+network interface card is capable of PXE booting.
+
+Your experience may be a bit different from mine, depending on your computer 
+and Linux system. The BIOS setup screen is different for different computers.

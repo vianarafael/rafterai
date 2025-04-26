@@ -1,0 +1,7 @@
+The default FileSet included here refers to a typical Linux file set, 
+which will be seen shortly.
+
+Next is the Schedule resource we are assigning to the JobDefs, which defines when we should run this 
+
+type of job. The default definition for the WeeklyCycle included in Bareos is a simple monthly full backup 
+with a differential once a week.

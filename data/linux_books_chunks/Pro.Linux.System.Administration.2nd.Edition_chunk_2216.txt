@@ -1,0 +1,9 @@
+Choosing a faster but less stable 
+filesystem for your server is not going to be of help if as a result you need to spend time restoring your data 
+from backups once a month.
+
+For a brief overview of other filesystems supported by the Linux kernel, you can read the filesystems 
+
+manual page.
+
+ ■ Note  Linux can create ntFS filesystems via the mkntfs tool in the ntfsprogs package.

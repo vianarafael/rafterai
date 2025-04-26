@@ -1,0 +1,7 @@
+By adding 
+the -u username, you can type the user’s password when prompted and gain access to the 
+FTP server as the user you logged in as.
+
+After you have added your user and password information, you get an lftp prompt, ready 
+for you to start typing commands. The connection is made to the server when you type 
+your ﬁ rst command.

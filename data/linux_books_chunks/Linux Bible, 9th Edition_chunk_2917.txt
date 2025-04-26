@@ -1,0 +1,8 @@
+Select the device to which the printer is connected. The printer can be 
+
+connected locally to a parallel, SCSI, serial, or USB port directly on the com-
+puter. Alternatively, you can select a network connection type for Apple printers 
+(appSocket/HP JetDirect), Internet Printing Protocol (http or ipp), or a Windows 
+printer (using Samba or SMB).
+
+3.

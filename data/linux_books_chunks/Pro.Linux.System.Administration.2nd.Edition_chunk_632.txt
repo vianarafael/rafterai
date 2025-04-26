@@ -1,0 +1,9 @@
+Using the cat Command
+
+$ cat /etc/hosts
+# Do not remove the following line, or various programs
+# that require network functionality will fail.
+127.0.0.1               localhost.localdomain localhost localhost
+::1             localhost6.localdomain6 localhost6
+
+In Listing 4-14, we’ve outputted the /etc/hosts file to the screen.

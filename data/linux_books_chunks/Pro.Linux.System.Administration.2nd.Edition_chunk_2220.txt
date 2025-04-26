@@ -1,0 +1,6 @@
+You specify the filesystem type using the -t 
+option, then the device file, and then the directory on which you want the filesystem to become available.
+
+$ sudo mount -t ext4 /dev/sdb2 /mnt/data/
+
+If all goes well, the mount command will not print any information, but simply exit.

@@ -1,0 +1,4 @@
+You can see we have retrieved some information about Google’s domain, including the 
+name of the registrar; the name servers it is delegated to; and creation, modification, and expiration dates.
+
+Some registrars also provide contact details for the domain owner via whois.

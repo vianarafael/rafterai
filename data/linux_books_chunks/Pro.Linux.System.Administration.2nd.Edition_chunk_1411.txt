@@ -1,0 +1,6 @@
+This enables some simple round-robin load balancing across your slave interfaces and 
+enables the attaching and detaching of the slave devices.
+
+In Ubuntu, as in CentOS, the scripts that handle the interfaces, also found in the /etc/network 
+
+directories, like if-up.d, handle the inserting of the bonding module into the kernel.

@@ -1,0 +1,33 @@
+To generate a keypair using the gpg2 utility, type the following:
+
+$ gpg2 --gen-key
+
+You must provide the following information:
+
+a.  What kind of asymmetric key you want:
+
+ ■ RSA and RSA (default)
+
+ ■ DSA and Elgamal
+
+830
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 831
+
+Appendix B: Exercise Answers
+
+ ■ DSA (sign only)
+
+ ■ RSA (sign only)
+
+b.

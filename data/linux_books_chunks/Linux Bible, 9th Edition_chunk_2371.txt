@@ -1,0 +1,17 @@
+The following is an example of the modules section of
+/etc/rsyslog.conf in RHEL 7:
+
+$ModLoad imuxsock
+     # provides support for local system logging (logger command)
+$ModLoad imjournal # provides access to the systemd journal
+$ModLoad imklog
+     # reads kernel messages (the same are read from journald)
+#$ModLoad immark   # provides --MARK-- message capability
+# Provides UDP syslog reception
+#$ModLoad imudp
+#$UDPServerRun 514
+# Provides TCP syslog reception
+#$ModLoad imtcp
+#$InputTCPServerRun 514
+
+Entries beginning with $ModLoad load the modules that follow.

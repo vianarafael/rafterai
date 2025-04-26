@@ -1,0 +1,4 @@
+You 
+should check this file and ensure that both the postmaster and the root user’s e-mail direct to an 
+appropriate user. You can also send e-mail to a user at another host by specifying an external e-mail 
+address, like username@example.com.

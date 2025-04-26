@@ -1,0 +1,14 @@
+# hollywood
+
+
+- Fill the console:
+
+`hollywood`
+
+- Exit `hollywood`:
+
+`<Ctrl c><Ctrl c>`
+
+- Display help:
+
+`hollywood {{[-h|--help]}}`

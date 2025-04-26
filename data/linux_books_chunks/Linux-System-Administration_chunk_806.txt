@@ -1,0 +1,21 @@
+You can prefix the severity with = to obtain only messages that match that
+severity. You can also specify .none to prevent a specific action from any message from
+a certain facility.
+
+Here is a list of all priorities, in ascending order. The keywords warn, error and panic are
+deprecated.
+
+debug
+info
+notice
+warning (warn)
+err (error)
+crit
+alert
+emerg (panic)
+
+206
+
+logging
+
+17.2.6.

@@ -1,0 +1,11 @@
+Others, such as Fedora, no longer include it.
+
+Here’s a quick guide to getting Samba SWAT working on your RHEL 6 system:
+
+1. Install the samba-swat and xinetd packages.
+
+2. Edit the /etc/xinetd.d/swat fi le, and change the disable line to read disable = no.
+
+3. Restart xinetd: service xinetd start ; chkconfig xinetd on.
+
+4.

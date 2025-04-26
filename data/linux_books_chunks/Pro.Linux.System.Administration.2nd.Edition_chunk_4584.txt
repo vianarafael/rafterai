@@ -1,0 +1,13 @@
+Here’s an example:
+
+to dn.subtree=ou=people,dc=example,dc=com
+   by dn.exact="cn=admin,ou=meta,dc=example,dc=com" read
+
+Here we are again granting read access to everything under the organizational unit People. 
+
+We are being specific and defining that this access be granted only to the DN cn=admin,ou=meta, 
+dc=example,dc=com.
+
+756
+
+Defining what to grant access to can get tricky.

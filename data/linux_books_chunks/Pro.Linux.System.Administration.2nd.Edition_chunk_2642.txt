@@ -1,0 +1,4 @@
+You will notice that the keys are owned by the root user. We will need to change the owner 
+of the files to bind (Ubuntu). With the keys in place we will start up our bind server using the $ sudo 
+systemctl start bind9 command or if your bind server is already running we can run $ sudo rndc 
+reconfig.

@@ -1,0 +1,5 @@
+We’re going to create a file called branch1.
+
+conf in our /etc/openvpn directory, as you can see in Listing 15-6.
+
+Listing 15-6.

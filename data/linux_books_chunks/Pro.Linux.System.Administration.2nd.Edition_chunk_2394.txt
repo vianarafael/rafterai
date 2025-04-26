@@ -1,0 +1,6 @@
+this allows us access to all the data and commands on our 
+system as if we had booted into it.
+
+When using the rescue mode, you can enter the “installer environment” instead and set up the chroot 
+environment yourself. Before we run chroot, we need to make sure we can access the device files 
+and kernel interfaces via the dynamic /dev and /proc filesystems.

@@ -1,0 +1,33 @@
+Unix file permissions position
+
+position
+
+characters
+
+1
+
+2-4
+
+5-7
+
+8-10
+
+-
+
+rwx
+
+r-x
+
+r--
+
+function
+
+this is a regular file
+
+permissions for the user owner
+
+permissions for the group owner
+
+permissions for others
+
+When you are the user owner of a file, then the user owner permissions apply to you.

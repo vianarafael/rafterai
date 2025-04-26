@@ -1,0 +1,10 @@
+To do this, we edit the Ubuntu /etc/network/
+interfaces file, and add the configuration for slave interfaces as well as the master, bond0. Let’s begin with 
+showing the configuration for one of the slaves.
+
+# slave interface
+auto enp0s8
+iface enp0s8 inet manual
+bond-master bond0
+
+Here we have set up our first slave interface to be enp0s8.

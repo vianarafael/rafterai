@@ -1,0 +1,11 @@
+The man Command
+
+$ man ls
+
+The man command will return a document that describes the ls (or list) command and its various options.
+
+112
+
+ChapTeR 4 ■ LInux BasICs
+
+ The ls or list command lists the files and directories on your host.

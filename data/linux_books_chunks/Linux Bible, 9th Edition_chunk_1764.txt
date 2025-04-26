@@ -1,0 +1,27 @@
+Before you do, you should understand 
+that some third-party repositories have these limitations:
+
+ ■ They may have less stringent requirements for redistribution and freedom from 
+
+patent constraints than the Fedora and RHEL repositories have.
+
+ ■ They may introduce some software conﬂ icts.
+
+244
+
+c10.indd  04/01/2015  Page 245
+
+Chapter 10: Getting and Managing Software
+
+ ■ They may include software that is not open source and, although it may be free for 
+
+personal use, may not be redistributable.
+
+ ■ They may slow down the process of installing all your packages (because metadata 
+
+is downloaded for every repository you have enabled).
+
+For those reasons, I recommend that you either don’t enable any extra software 
+repositories, or enable only the RPM Fusion repository (http://rpmfusion.org) at ﬁ rst 
+for Fedora and the EPEL repository (http://fedoraproject.org/wiki/EPEL) for Red 
+Hat Enterprise Linux.

@@ -1,0 +1,21 @@
+On the NFS server, export the /home/shared/ directory to any system on your 
+
+local network (I use 192.168.0.* here), so you can share the home directory for joe 
+and any other users you create, by adding this line to the /etc/exports ﬁ le:
+
+2020
+
+# /etc/exports file to share directories under /home/shared
+# only to other systems on the 192.168.0.0/24 network:
+/home/shared 192.168.0.*(rw,insecure)
+
+547
+
+ 
+ 
+c20.indd  04/01/2015  Page 548
+
+Part IV: Becoming a Linux Server Administrator
+
+In the exports fi le example above, the insecure option allows clients to use ports above port 1024 to make mount 
+requests.

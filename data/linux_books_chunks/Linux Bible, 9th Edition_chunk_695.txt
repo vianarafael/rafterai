@@ -1,0 +1,7 @@
+(In other words, don’t 
+use grep from the root ﬁ lesystem or you’ll match and try to edit several thousand ﬁ les.)
+
+Expanding arithmetic expressions
+Sometimes, you want to pass arithmetic results to a command. There are two forms you 
+can use to expand an arithmetic expression and pass it to the shell: $[expression] or 
+$(expression).

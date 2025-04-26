@@ -1,0 +1,10 @@
+if you have an existing host, you can 
+
+ ■ Tip 
+network boot from a new version of your operating system and use a Kickstart file to script and upgrade.
+
+There are too many directives to discuss them individually, so we show you in Table 19-1 the directives 
+
+that must be specified and some of the other major directives that you may find useful.
+
+Table 19-1.

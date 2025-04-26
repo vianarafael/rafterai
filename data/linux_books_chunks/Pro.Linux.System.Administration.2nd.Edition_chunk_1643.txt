@@ -1,0 +1,8 @@
+Let’s start with a simple rule..
+
+sudo iptables -t filter -A IPV4-INCOMING -d 0.0.0.0/0 -s 0.0.0.0/0 -j ACCEPT
+Chain IPV4-INCOMING (0 references)
+num target   prot opt source  destination
+1  ACCEPT   all -- anywhere anywhere
+
+This rule allows all connections from anywhere on any port and is the equivalent of the ACCEPT policy.

@@ -1,0 +1,16 @@
+The advan-
+tage of virt-install is that you can script or easily copy and paste a command line to 
+create a virtual machine, instead of having to click through a GUI window.
+
+740
+
+ 
+ 
+ 
+ 
+c26.indd  04/01/2015  Page 741
+
+Chapter 26: Using Linux for Cloud Computing 
+
+You downloaded the Fedora 21 Workstation ISO image earlier in this chapter, so I’ll use that 
+in the example for creating a virtual machine.

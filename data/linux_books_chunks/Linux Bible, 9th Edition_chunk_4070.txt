@@ -1,0 +1,5 @@
+A malicious user gaining access to your system could renew the account and then 
+masquerade as a legitimate user.
+
+To ﬁ nd these accounts, search through the /etc/shadow ﬁ le. The account’s expiration 
+date is in the eighth ﬁ eld of each record. It would be convenient if a date format were used.

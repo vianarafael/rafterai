@@ -1,0 +1,6 @@
+On CentOS, mariadb writes to the /var/log/mariadb/mariadb.log file; on Ubuntu, it uses the /var/
+log/syslog file.
+
+Note that we have not tuned the MariaDB server for high-end performance; we’ve just modified the 
+
+basic configuration to give us better data integrity and to perform a bit better than it would normally.

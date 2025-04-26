@@ -1,0 +1,32 @@
+Also available are the Dovecot mailing lists (www.dovecot.
+org/mailinglists.html) and bug submission instructions (www.dovecot.org/bugreport.html).
+
+591
+
+Chapter 12 ■ Mail ServiCeS
+
+Remember that if you submit a question or a bug, you should include the following information:
+
+•	
+
+•	
+
+•	
+
+•	
+
+Your Dovecot version (run the dovecot command with the --version option)
+
+Include your configuration, which you can get with doveconf -n
+
+Your platform (run uname -a)
+
+Any log messages generated (either in the /var/log/mail.log file on Ubuntu or in 
+the /var/log/maillog file on CentOS)
+
+Also available is an IRC channel called #dovecot on the Freenode IRC server (http://freenode.net/) 
+
+where you can seek assistance.
+
+Virtual Domains and Users
+We’ve introduced the basics of providing e-mail to your users in this chapter.

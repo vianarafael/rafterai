@@ -1,0 +1,11 @@
+Host B is our network router, so it should have 
+
+more than one network attached to its interfaces.
+
+$ sudo /sbin/ip route show
+192.168.0.0/24 dev enp0s8 proto kernel scope link src 192.168.0.254
+192.168.1.0/24 dev enp0s9 proto kernel scope link src 192.168.1.254
+10.204.2.10 dev dsl-provider proto kernel scope link src 10.0.2.155
+default dev dsl-provider scope link
+
+First let’s take a look at the default route on Host B.

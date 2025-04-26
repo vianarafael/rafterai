@@ -1,0 +1,12 @@
+Separate user and 
+group accounts enable users to control their own ﬁ les and processes.
+
+ ■ Offering administrative utilities—In Linux, hundreds (perhaps thousands) of 
+commands and graphical windows are available to do such things as add users, 
+manage disks, monitor the network, install software, and generally secure and 
+manage your computer.
+
+ ■ Starting up services—To use printers, handle log messages, and provide a  variety 
+
+of system and network services, processes called daemon processes run in the 
+ background, waiting for requests to come in.

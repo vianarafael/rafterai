@@ -1,0 +1,4 @@
+When the systemd daemon (/usr/lib/systemd/ 
+systemd) is started after the kernel starts up, it sets in motion all the other services that 
+are set to start up. In particular, it keys off the contents of the /etc/systemd/ system/
+default.target ﬁ le.

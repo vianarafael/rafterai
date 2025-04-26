@@ -1,0 +1,5 @@
+Click each key to see its value, along with short and long descriptions of the key.
+
+Changing GNOME’s appearance
+You can change the general look of your GNOME desktop by selecting System ➪ Preferences  
+➪ Appearance.

@@ -1,0 +1,8 @@
+Issue the following command, vagrant init 
+
+as shown in Listing 3-2.
+
+Listing 3-2.  Vagrant init
+
+> vagrant init
+A `Vagrantfile` has been placed in this directory.

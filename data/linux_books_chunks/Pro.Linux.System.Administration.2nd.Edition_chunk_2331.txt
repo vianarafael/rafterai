@@ -1,0 +1,2 @@
+Log in to a second console and run watch –n 5 cat /proc/ 
+mdstat to automatically run the command every five seconds.

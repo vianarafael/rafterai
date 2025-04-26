@@ -1,0 +1,11 @@
+This is the file you would edit to make changes to your configuration 
+on Ubuntu (see Listing 10-14).
+
+Listing 10-14.  Default named Options in Ubuntu
+
+options {
+        directory "/var/cache/bind";
+
+        // If there is a firewall between you and nameservers you want
+        // to talk to, you may need to fix the firewall to allow multiple
+        // ports to talk.

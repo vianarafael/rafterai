@@ -1,0 +1,6 @@
+chromadb
+sentence-transformers
+transformers
+torch
+requests
+

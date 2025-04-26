@@ -1,0 +1,9 @@
+If you use the cat command on the file (cat /tmp/test_sync.txt), you will see that it contains all 
+that random text.
+
+We are now going to test our backup of this file on the remote host using rsync and our SSH keys.
+
+$ sudo su - exbackup
+[sudo] password for jsmith:
+$ rsync -av -e 'ssh -i .ssh/exbackup' remotehost.example.com:/tmp/test_sync.txt /tmp
+receiving file list ...

@@ -1,0 +1,7 @@
+Here we’ll discuss the ways you 
+can extend the mail services we’ve introduced in this chapter.
+
+The primary way you can extend Postfix and Dovecot is into virtual domains and virtual users. Up until 
+
+now, we’ve assumed that the domain we’re delivering mail for and the users who receive that mail are all 
+physical instantiations.

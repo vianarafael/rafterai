@@ -1,0 +1,6 @@
+Press Alt+Tab to see a list of all 
+active windows (see Figure 2.7). Continue to hold the Alt key as you press the Tab 
+key (or right or left arrow keys) to highlight the application you want from the 
+list of active desktop application windows. If an application has multiple windows 
+open, press Alt+` (backtick, located above the Tab key) to choose among those 
+ sub-windows.

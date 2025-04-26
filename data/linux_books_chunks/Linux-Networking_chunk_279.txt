@@ -1,0 +1,13 @@
+You  can  control  the  protocol  version  via  /etc/ssh/
+ssh_config for the client side and /etc/ssh/sshd_config for the openssh-server daemon.
+
+paul@ubu1204:/etc/ssh$ grep Protocol ssh_config 
+#   Protocol 2,1
+paul@ubu1204:/etc/ssh$ grep Protocol sshd_config 
+Protocol 2
+
+48
+
+ssh client and server
+
+5.1.4.

@@ -1,0 +1,6 @@
+And finally we need to tell the DHCP server that 
+we want to perform dynamic updates on the forward and reverse zones. We need to add a zone definition for 
+each zone in the global section of the configuration file. We also need to specify which key should be used 
+for updates and which DNS server the updates need to be sent to, as shown in Listing 10-30.
+
+Listing 10-30.

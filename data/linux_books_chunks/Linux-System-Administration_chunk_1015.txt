@@ -1,0 +1,13 @@
+This ip address is only valid until the
+next ifup/ifdown cycle or until the next reboot.
+
+[root@rhel6 ~]# ifconfig eth0 | grep 192
+     inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+[root@rhel6 ~]# ifconfig eth0 192.168.33.42 netmask 255.255.0.0
+[root@rhel6 ~]# ifconfig eth0 | grep 192
+     inet addr:192.168.33.42  Bcast:192.168.255.255  Mask:255.255.0.0
+[root@rhel6 ~]# ifdown eth0 && ifup eth0
+[root@rhel6 ~]# ifconfig eth0 | grep 192
+     inet addr:192.168.1.99  Bcast:192.168.1.255  Mask:255.255.255.0
+
+22.4.3.

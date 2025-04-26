@@ -1,0 +1,9 @@
+In this way, different users on the same computer 
+can use different desktop environments.
+
+Many different desktop environments are available to choose from in Linux. Here are some 
+examples:
+
+ ■ GNOME—GNOME is the default desktop environment for Fedora, Red Hat Enterprise 
+
+Linux, and many others.

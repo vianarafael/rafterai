@@ -1,0 +1,2 @@
+You can do that with the 
+semanage command (to make the rule) and restorecon command (to apply the rule).

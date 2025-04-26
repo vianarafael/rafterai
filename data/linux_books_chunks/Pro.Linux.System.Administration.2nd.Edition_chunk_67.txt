@@ -1,0 +1,2 @@
+There are a number of ways to acquire the base operating system software. Some distributions sell CD-ROMs 
+and DVDs, and others offer ISO images to download (and some do both!).

@@ -1,0 +1,16 @@
+Conveying Modiﬁ ed Source Versions.
+
+You may convey a work based on the Program, or the modiﬁ cations to produce it from the 
+Program, in the form of source code under the terms of section 4, provided that you also 
+meet all of these conditions:
+
+a)  The work must carry prominent notices stating that you modiﬁ ed it, and giving a 
+
+relevant date.
+
+both.indd  04/07/2015  Page 5
+
+GNU General Public License
+
+b)  The work must carry prominent notices stating that it is released under this License 
+and any conditions added under section 7.

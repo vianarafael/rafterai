@@ -1,0 +1,13 @@
+All directories created in the budget share should have 750 permissions or more.
+
+force directory mode = 750
+
+12. Permissions for files on the sales share should never be set more than 664.
+
+security mask = 750
+
+13. Permissions for files on the budget share should never be set less than 500.
+
+force security directory mask = 500
+
+14.

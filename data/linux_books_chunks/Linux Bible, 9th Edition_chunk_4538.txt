@@ -1,0 +1,6 @@
+Each role 
+is granted access to other subjects and objects based on the role’s security 
+clearance and the object’s classiﬁ cation level. More speciﬁ cally, for SELinux, 
+users are assigned a role and roles are authorized for particular types or domains. 
+Using roles can force accounts, such as root, into a less privileged position. The 
+SELinux role name has an “r” at the end.

@@ -1,0 +1,16 @@
+Zero allows the user to 
+change the password at any time.
+
+Sets the maximum number of days for which a password stays valid.
+
+Sets a date on which the user account will expire and automatically be deactivated.
+
+Sets the number of days before the password expires that the user will be warned to 
+change it.
+
+Sets the number of days since January 1, 1970, that the password was last changed.
+
+Sets the number of days after password expiration that the account is locked.
+
+ ■ Tip 
+ You’ll come across the date January 1, 1970, quite a few times in the Unix/Linux world.

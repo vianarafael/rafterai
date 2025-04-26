@@ -1,0 +1,4 @@
+To download the medium for the latest Ubuntu version with a GNOME desktop, go to the Ubuntu GNOME download 
+page (http://ubuntugnome.org/download/).
+
+You can add GNOME and use it as the desktop environment for Ubuntu 11.10 and later.

@@ -1,0 +1,35 @@
+They begin with %<macro>.
+
+Our spec file will look like this:
+
+Name:           simple_echo
+Version:        1.0
+Release:        1%{?dist}
+Summary:        Echoes your input
+License:        GPLv3+
+URL:            http://www.example.com/simple_echo
+Source0:        %{name}-%{version}.tar.gz
+
+BuildRequires:  bash
+Requires:       bash
+
+%description
+This program echoes the first parameter entered.
+
+%prep
+%setup -q
+
+%install
+rm -rf $RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/usr/local/bin
+install simple_echo.sh -m0755 $RPM_BUILD_ROOT/usr/local/bin/simple_echo.sh
+
+%files
+%doc
+%attr(0755,root,root)/usr/local/bin/simple_echo.sh
+
+%changelog
+* Sun Jul 24 2016 JSmith <jsmith@example.com>
+- First simple_echo package
+
+In our spec file we have given the package name and version.

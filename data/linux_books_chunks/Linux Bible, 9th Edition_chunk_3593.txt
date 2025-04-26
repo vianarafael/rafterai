@@ -1,0 +1,9 @@
+Exporting is done on a permanent basis by adding information about an 
+exported directory to the /etc/exports ﬁ le.
+
+Here’s the format of the /etc/exports ﬁ le:
+
+Directory   Host(Options...)  Host(Options...)  # Comments
+
+In this example, Directory is the Host indicates the client computer to which the shar-
+ing of this directory is restricted.

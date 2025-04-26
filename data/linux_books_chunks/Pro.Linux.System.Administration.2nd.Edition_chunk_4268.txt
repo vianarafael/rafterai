@@ -1,0 +1,13 @@
+Restore page on Web-UI
+
+699
+
+Chapter 14 ■ BaCkup and reCovery
+
+Here you can see that you can explore and select your restore options via the Web-UI, and this will 
+
+become useful for you if you need to restore any files.
+
+Summary
+In this chapter, we explored the backup options available to back up a single Linux host or hundreds of 
+servers and workstations in a mixed environment.

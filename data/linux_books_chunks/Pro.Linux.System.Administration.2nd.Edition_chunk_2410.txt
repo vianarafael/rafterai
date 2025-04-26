@@ -1,0 +1,5 @@
+If you are booting 
+
+in rescue mode from DVD or USB, the array will likely not be detected and started either. If this happens, 
+you can manually assemble the array. To re-create a RAID array from existing components, use mdadm in 
+assemble mode. This will try to assemble the array from the components you specify.

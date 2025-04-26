@@ -1,0 +1,7 @@
+We will install them via the yum command as follows:
+
+$ sudo yum install openldap openldap-clients openldap-servers
+
+This installs the necessary files for configuring, running, and managing the LDAP server. The openldap 
+
+package installs the base packages required to allow the host to integrate with the OpenLDAP server.

@@ -1,0 +1,3 @@
+found
+checking for C99 variadic macros ... found
+checking for gcc variadic macros ...

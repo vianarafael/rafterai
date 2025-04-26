@@ -1,0 +1,9 @@
+We need to add our domain to the 
+
+table files. First we will edit /etc/opendkim/SigningTable. We will add the following:
+
+*@example.com   example
+
+This tells OpenDKIM to sign all addresses in the example.com domain (*@example.com), and it has the 
+
+shortened name of example.

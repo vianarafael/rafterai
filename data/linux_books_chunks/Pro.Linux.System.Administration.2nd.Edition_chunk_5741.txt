@@ -1,0 +1,6 @@
+This is available on most operating systems.
+
+$ sudo pip install ansible
+
+Once it’s installed, you can edit the global configuration file, ansible.cfg, that will be in the /etc/
+ansible directory.

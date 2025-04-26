@@ -1,0 +1,8 @@
+This buffer is then written to a log file by a logging daemon, and you can query it directly using the 
+dmesg command.
+
+$ dmesg |less
+
+Most RAID controllers also use at least part of the kernel SCSI subsystem, and you can search for 
+
+detected SCSI devices via the built-in search function in less.

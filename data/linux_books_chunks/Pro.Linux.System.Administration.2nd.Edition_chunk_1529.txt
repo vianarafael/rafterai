@@ -1,0 +1,9 @@
+The echo request is a defined protocol that says to the requesting host what would in 
+computer speak be “I’m here.”
+
+ internet Control Message Protocol (iCMP) is a tCP/iP protocol that is used to send messages 
+
+ ■ Note 
+between hosts, normally error messages; but in the case of ping, it can also send an informational echo reply.
+
+So let’s see if we can reach Host C from Host A by issuing the ping command on Host A.

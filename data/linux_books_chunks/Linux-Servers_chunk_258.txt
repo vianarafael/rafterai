@@ -1,0 +1,8 @@
+listing all databases
+
+You can use the mysql command to take a look at the databases, and to execute SQL queries
+on them. The screenshots below show you how. First, we log on to our MySQL server and
+execute the command show databases to see which databases exist on our mysql server.
+
+kevin@ubu1204:~$ mysql
+Welcome to the MySQL monitor.

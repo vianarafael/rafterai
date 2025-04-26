@@ -1,0 +1,6 @@
+After you enter your password, the sudo command gives you a grace period during 
+which you are not prompted for your password. This period is 5 minutes on CentOS and 15 minutes on 
+Ubuntu. After this period, you will again be prompted for your password when you next run the sudo 
+command.
+
+On Ubuntu and CentOS, the sudo command is installed by default.

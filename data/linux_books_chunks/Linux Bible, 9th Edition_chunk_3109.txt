@@ -1,0 +1,11 @@
+In other words, 
+some parameters may be set on a global level and then changed for a speciﬁ c ﬁ le, directory, 
+
+457
+
+c17.indd  04/01/2015  Page 458
+
+Part IV: Becoming a Linux Server Administrator
+
+or virtual host. Other directives are always global in nature, such as those specifying 
+which IP addresses the server listens on.

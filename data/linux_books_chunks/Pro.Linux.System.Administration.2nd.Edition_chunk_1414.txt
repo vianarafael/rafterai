@@ -1,0 +1,4 @@
+The iface enp0s8 inet manual means that 
+
+we don’t want to assign this interface an IP address. Obviously we set bond-master to the name of the master 
+interface, bond0.

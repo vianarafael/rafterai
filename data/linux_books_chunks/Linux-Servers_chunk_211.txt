@@ -1,0 +1,26 @@
+After unpacking 0 B will be used.
+
+Create a directory to store the certs, and use openssl to create a self signed cert that is valid
+for 999 days.
+
+root@debian7:~# mkdir /etc/ssl/localcerts
+root@debian7:~# openssl req -new -x509 -days 999 -nodes -out /etc/ssl/local\
+certs/apache.pem -keyout /etc/ssl/localcerts/apache.key
+Generating a 2048 bit RSA private key
+...
+...
+writing new private key to '/etc/ssl/localcerts/apache.key'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:BE
+State or Province Name (full name) [Some-State]:Antwerp
+Locality Name (eg, city) []:Antwerp
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:linux-training.be
+Organizational Unit Name (eg, section) []:
+Common Name (e.g.

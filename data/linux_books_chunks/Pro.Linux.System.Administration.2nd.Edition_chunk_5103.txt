@@ -1,0 +1,7 @@
+rsyslog.conf * Wildcard Selector
+
+*.emerg                                :omusrmsg:*
+
+This will send all messages of the emerg priority, regardless of facility, to everyone who is logged in.
+
+ the om in omusrmsg stands for output module.

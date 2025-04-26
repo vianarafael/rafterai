@@ -1,0 +1,11 @@
+Demonstrate that you can do remote administration of your system by opening a 
+web browser to port 631 from another system to the Linux system running your 
+print server.
+
+9.  Use the netstat command to see which addresses the cupsd daemon is listening 
+
+16
+
+on (the printing port is 631).
+
+10.

@@ -1,0 +1,16 @@
+You can use the default English (U.S.) keyboard or select 
+
+KEYBOARD to choose a different keyboard layout.
+
+206
+
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 207
+
+Chapter 9: Installing Linux
+
+8.  Select NETWORK CONFIGURATION. Choose this to be able to enable your 
+
+ network interface and type in a hostname for the computer.

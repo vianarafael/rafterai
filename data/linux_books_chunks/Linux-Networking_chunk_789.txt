@@ -1,0 +1,9 @@
+the SMB protocol
+
+15.6.1. brief history
+
+Development of this protocol was started by IBM in the early eighties. By the end of the
+eighties, most develpment was done by Microsoft. SMB is an application level protocol
+designed to run on top of NetBIOS/NetBEUI, but can also be run on top of tcp/ip.
+
+In 1996 Microsoft was asked to document the protocol.

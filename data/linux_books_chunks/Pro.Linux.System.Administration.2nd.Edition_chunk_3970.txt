@@ -1,0 +1,10 @@
+An example is .svn/ to exclude .svn 
+directories.
+
+Include directories or files; fine-tune the files you want to copy. Same syntax as 
+--exclude.
+
+-n, --dry-run Dry run. Show what would happen but do not actually perform sync.
+
+In general, you will primarily use the rsync command with the archive options set, which is –a. This is 
+a bundled option that represents the following options: -rlptgoD.

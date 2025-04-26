@@ -1,0 +1,4 @@
+So how 
+would we allow 1.bulk.mailer.net to be able to send e-mail on our behalf? Instead of specifying mx, we can 
+specify hostnames, IPv4 or IPv6, CIDRs, and combinations of these. The bulk e-mail service will generally 
+have an address range of IP addresses it uses to send mail. You would add those to your SPF records.

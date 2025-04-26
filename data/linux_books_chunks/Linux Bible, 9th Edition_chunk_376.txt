@@ -1,0 +1,11 @@
+A  full-blown desktop environment includes a window manager, but also adds menus,  panels, 
+and usually an application programming interface that is used to create applications that 
+play well together.
+
+2
+
+So how does an understanding of how desktop interfaces work in Linux help you when it 
+comes to using Linux? Here are some ways:
+
+ ■ Because Linux desktop environments are not required to run a Linux system, a 
+Linux system may have been installed without a desktop.

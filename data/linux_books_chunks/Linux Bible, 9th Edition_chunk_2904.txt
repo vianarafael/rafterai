@@ -1,0 +1,7 @@
+If the native Windows driver does not work right out of the box on your CUPS print queue, you 
+can create a Raw Print Queue under CUPS and use that instead. The Raw Print Queue directly passes 
+through the data from the Windows native print driver to the printer.
+
+16
+
+To use CUPS, you must have the cups package installed in Fedora or RHEL.

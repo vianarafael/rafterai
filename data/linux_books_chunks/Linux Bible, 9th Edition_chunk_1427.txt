@@ -1,0 +1,11 @@
+Another 
+reason to load a module is to identify that module as one that will be used by a particular 
+piece of hardware that could not be autodetected.
+
+Here is an example of the modprobe command being used to load the parport module, 
+which provides the core functions to share parallel ports with multiple devices:
+
+# modprobe parport
+
+After parport is loaded, you can load the parport_pc module to deﬁ ne the PC-style 
+ports available through the interface.

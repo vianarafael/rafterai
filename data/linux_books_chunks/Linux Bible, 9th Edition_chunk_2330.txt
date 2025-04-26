@@ -1,0 +1,4 @@
+After the password is accepted, the ﬁ le is copied 
+to the remote system successfully.
+
+You can do recursive copies with scp using the -r option.

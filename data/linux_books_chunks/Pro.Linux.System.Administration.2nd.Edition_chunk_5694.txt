@@ -1,0 +1,13 @@
+A Fact in a case Statement
+
+node default {
+
+  case $facts['os']['name'] {
+        'CentOS', 'RedHat':     { include centos } # include the centos
+        /^(Ubuntu|Debian)$/:  { include ubuntu } # include the ubuntu class
+        default:                       { include common } # include the common class
+    }
+}
+
+Here we created our default node definition, which is the node configuration used for all nodes that 
+don’t explicitly have a node defined.

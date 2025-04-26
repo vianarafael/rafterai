@@ -1,0 +1,4 @@
+The way that Git differs from 
+centralized version control software is that it is decentralized! What that means is that each clone of the Git 
+repository is equivalent to a “master” copy of the repository—including the history. This is the equivalent 
+of each developer’s local copy also being a distributed backup of the repository.

@@ -1,0 +1,81 @@
+See KVM
+Kernighan, Brian, 9
+key pairs, 633–637
+key rings, 633–637, 639, 668, 831
+key-based authentication, 332–334
+Kickstart, 177
+kickstart ﬁ les, 177, 212, 213, 216, 218–219, 257
+killall command, 146–148, 152
+killing processes, 146–148
+KNOPPIX distribution, 16, 32, 214, 237
+krb5-server package, 317
+ksh, 65, 69, 70
+KVM (Kernel Virtualization Module), 730, 733, 735–738
+
+L
+
+LAMP stack, 3
+Language, graphical admin tool, 176
+Last.fm, 49
+
+847
+
+conﬁ guring default target, 413–414
+conﬁ guring persistent services, 410–412
+starting/stopping, 406–408
+
+SysVinit, 378–386
+
+adding services, 414–417
+checking services for, 400–401
+conﬁ guring persistent services, 408–409
+default runlevel, 412–413
+disabling services, 409
+starting and stopping services, 403–404
+systemd’s backward compatibility, 397–399
+Upstart’s backward compatibility, 388–392
+
+Upstart, 554
+
+adding new services, 417–419
+backward compatibility to SysVinit, 388–392
+checking services for, 401–402
+conﬁ guring default runlevel, 413
+conﬁ guring persistent services, 409–410
+starting/stopping services, 405
+inittab ﬁ le, 187, 382–386, 389–391, 398–399, 
+
+412–413
+
+installing
+
+Apache web server, 450–454
+FTP servers, 479–480
+Linux, 201–232
+
+anaconda installer, 17, 212, 213, 216, 219, 275
+boot options, 216–219
+cloud-based installations, 211
+dual booting, 214–215
+enterprise environments, 211–213
+from Live media, 203–207
+GRUB boot loader, 224–231
+hardware requirements, 202–203
+partitioning hard drives, 220–224
+RHEL installation DVD, 208–210
+specialized storage, 219–220
+upgrade procedures, 213–214
+virtualization, 216
+
+NFS servers, 529–530
+RPM packages, 239–240, 253
+Samba, 500–502
+servers, 316–318
+
+integer arithmetic, 158–159
+interactive copying, 332
+Internet Printing Protocol (IPP), 424, 427, 432–433
+Intrusion Detection System (IDS) software, 620–622
+Intrusion Prevention software, 620
+ip addr show command, 352
+IP addresses, 348–349.

@@ -1,0 +1,10 @@
+To see all open files, but
+not those open by root:
+
+lsof -u^root
+
+78
+
+troubleshooting tools
+
+8.2.

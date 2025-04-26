@@ -1,0 +1,10 @@
+The
+definition of a conditional forwarder looks like this.
+
+zone "someotherdomain.local" {
+       type forward;
+       forward only;
+       forwarders { 10.104.42.1; };
+};
+
+10.3.3.

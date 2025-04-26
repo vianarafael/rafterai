@@ -1,0 +1,45 @@
+25
+
+725
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c26.indd  04/01/2015  Page 727
+
+ Part VI
+
+Extending Linux into 
+the Cloud
+
+IN THIS PART
+
+Chapter 26
+Using Linux for Cloud Computing
+
+Chapter 27
+Deploying Linux to the Cloud
+
+c26.indd  04/01/2015  Page 729
+
+C H A P T E R 
+
+26
+
+Using Linux for 
+Cloud Computing
+
+IN THIS CHAPTER
+
+How Linux is used in clouds
+
+Trying basic cloud technology
+
+T o cloud users, cloud computing means being able to request some computing service from their 
+
+local computer to some server on a network, without necessarily knowing how the request 
+is fulﬁ lled.

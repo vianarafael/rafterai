@@ -1,0 +1,7 @@
+If you are interested in 
+configuring POP3 instead, you can see some instructions, tips, and caveats at http://wiki.dovecot.org/
+POP3Server and http://wiki.dovecot.org/QuickConfiguration.
+
+Introducing Dovecot IMAP
+You’ve already been introduced to the Dovecot server because we’re using it in our example as an 
+authentication service for Postfix. There is some good news as a result.

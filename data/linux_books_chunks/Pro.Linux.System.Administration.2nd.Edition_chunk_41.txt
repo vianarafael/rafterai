@@ -1,0 +1,5 @@
+It is community developed, and 
+upgrades are released on a six-month cycle. Commercial support is also available from its coordinating 
+organization, Canonical, as well as third-party support providers. It comes in different flavors to be used 
+as desktops or servers. Some pundits believe the ubiquitous nature and stability of Ubuntu heralds the 
+increased use of Linux as a desktop platform.

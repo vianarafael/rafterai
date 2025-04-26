@@ -1,0 +1,24 @@
+In real life, you might want to use
+options like -m0 and -j.
+
+root@RHELv4u2:~# mke2fs /dev/sdb1
+mke2fs 1.35 (28-Feb-2004)
+Filesystem label=
+OS type: Linux
+Block size=1024 (log=0)
+Fragment size=1024 (log=0)
+28112 inodes, 112420 blocks
+5621 blocks (5.00%) reserved for the super user
+First data block=1
+Maximum filesystem blocks=67371008
+14 block groups
+8192 blocks per group, 8192 fragments per group
+2008 inodes per group
+Superblock backups stored on blocks: 
+8193, 24577, 40961, 57345, 73729
+
+Writing inode tables: done                            
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 37 mounts or
+180 days, whichever comes first.

@@ -1,0 +1,8 @@
+To start the gedit process from your desktop and use the System Monitor window 
+
+to kill that process, type the following:
+
+$ gedit &
+
+Next, in GNOME 2 select Applications ➪ System Tools ➪ System Monitor, or in GNOME 
+3 type System Monitor from the Activities screen and press Enter.

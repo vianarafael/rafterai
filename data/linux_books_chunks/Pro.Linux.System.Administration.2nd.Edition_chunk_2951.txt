@@ -1,0 +1,9 @@
+Showing database engines
+
+In Figure 11-3 you can see the database engines that have been installed by default. You can see that 
+
+XtraDB is still called the InnoDB engine, and you can see what each supports.
+
+Basic Tuning for XtraDB
+All performance tunings usually concern these three areas: hardware, operating system, and database 
+configuration.

@@ -1,0 +1,4 @@
+We 
+are only going to show the upload and remote services here.
+
+We will first set up the remote service that will listen for log messages.

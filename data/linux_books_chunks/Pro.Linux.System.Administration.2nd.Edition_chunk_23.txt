@@ -1,0 +1,16 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_1ChApTeR 1 ■ InTRoDuCIng LInux
+
+Distributions differ in several ways, and three of the most important are
+
+•	
+
+Purpose
+
+•	 Configuration and packaging
+
+•	
+
+Support model
+
+First, different distributions are often designed for different purposes and provide different user 
+experiences.

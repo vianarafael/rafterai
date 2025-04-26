@@ -1,0 +1,8 @@
+Additionally, two commands we can use to modify existing users and groups are usermod 
+and groupmod. Finally, to complete the life cycle, users and groups can be deleted with the userdel and 
+groupdel commands.
+
+ Working with users and groups on Centos and Ubuntu is a very similar process that uses many of the 
+
+ ■ Tip 
+same commands and options.

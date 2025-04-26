@@ -1,0 +1,8 @@
+Instead, some special storage device beyond the local 
+hard disk is identiﬁ ed to the installer, and that storage device (or devices) can be used 
+ during installation.
+
+9
+
+Once identiﬁ ed, the storage devices you indicate during installation can be used the same 
+way that local disks are used.

@@ -1,0 +1,7 @@
+The Backup job type performs a backup, the 
+Restore type performs a restore, the Verify type compares the contents of the catalog to the file system you 
+have just backed up, and the Admin type can be used to perform catalog maintenance, if required.
+
+The Level of backup required is not really required, but it must be specified either here in the JobDefs 
+
+or in the Schedule section.

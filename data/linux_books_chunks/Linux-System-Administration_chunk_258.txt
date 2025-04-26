@@ -1,0 +1,16 @@
+solution: multipathing ...............................................................................................................  153
+
+30
+
+Chapter 4. disk devices
+
+This chapter teaches you how to locate and recognise hard disk devices. This prepares you
+for the next chapter, where we put partitions on these devices.
+
+31
+
+disk devices
+
+4.1. terminology
+
+4.1.1.

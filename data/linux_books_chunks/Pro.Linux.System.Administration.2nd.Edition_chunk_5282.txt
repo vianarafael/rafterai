@@ -1,0 +1,50 @@
+The last thing we need to 
+
+do is make sure we have a systemd service file to start the service.
+
+$ sudo vi /etc/systemd/system/nagios.service
+[Unit]
+Documentation=man:systemd-sysv-generator(8)
+SourcePath=/etc/init.d/nagios
+Description=LSB: nagios host/service/network monitoring and management system
+Before=multi-user.target
+Before=multi-user.target
+Before=multi-user.target
+Before=graphical.target
+Before=shutdown.target
+After=local-fs.target
+After=remote-fs.target
+After=systemd-journald-dev-log.socket
+After=nss-lookup.target
+After=network-online.target
+After=time-sync.target
+Wants=network-online.target
+Conflicts=shutdown.target
+
+880
+
+Chapter 18 ■ Logging and Monitoring
+
+[Service]
+Type=forking
+Restart=no
+TimeoutSec=5min
+IgnoreSIGPIPE=no
+KillMode=process
+GuessMainPID=no
+RemainAfterExit=yes
+ExecStart=/etc/init.d/nagios start
+ExecStop=/etc/init.d/nagios stop
+ExecReload=/etc/init.d/nagios reload
+
+Because there is no native systemd service file available for Ubuntu just yet, the Nagios installation will 
+
+deploy the /etc/init.d/nagios file, and we just have to point this service file at it (we spoke about Ubuntu’s 
+adoption of systemd in Chapter 6 and how it still uses some LSB init files to start services).
+
+Starting Nagios
+On both CentOS and Ubuntu, we start and stop Nagios with the systemctl command.
+
+$ sudo systemctl start nagios
+
+The nagios daemon logs to the /var/log/nagios/nagios.log log file.

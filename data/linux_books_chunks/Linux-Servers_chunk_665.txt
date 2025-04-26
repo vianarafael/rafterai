@@ -1,0 +1,11 @@
+This anonymous user gets a clear description, but does not get a login shell.
+
+[root@RHEL52 samba]# useradd -s /bin/false sambanobody
+[root@RHEL52 samba]# usermod -c "Anonymous Samba Access" sambanobody
+[root@RHEL52 samba]# passwd sambanobody
+Changing password for user sambanobody.
+New UNIX password: 
+Retype new UNIX password: 
+passwd: all authentication tokens updated successfully.
+
+13.2.

@@ -1,0 +1,4 @@
+the password itself is encrypted, and two 
+types of special characters can tell you about the status of the user account with which the password 
+field can be prefixed. If the password field is prefixed with ! or *, then the account is locked and the 
+user will not be allowed to log in.

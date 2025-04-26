@@ -1,0 +1,4 @@
+In other words, it 
+stops only on runlevel 0, runlevel 1, or runlevel 6.
+
+ ■ expect—This particular stanza is rather important and a little tricky.

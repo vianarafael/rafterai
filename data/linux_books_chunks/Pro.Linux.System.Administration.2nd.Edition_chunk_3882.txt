@@ -1,0 +1,2 @@
+You may want to keep client data 
+for several years, and you may want to keep other types of data for shorter periods of time.

@@ -1,0 +1,35 @@
+You can generate this encrypted password with the
+openssl passwd command.
+
+The openssl passwd command will generate several distinct hashes for the same password,
+for this it uses a salt.
+
+paul@rhel65:~$ openssl passwd hunter2
+86jcUNlnGDFpY
+paul@rhel65:~$ openssl passwd hunter2
+Yj7mDO9OAnvq6
+paul@rhel65:~$ openssl passwd hunter2
+YqDcJeGoDbzKA
+paul@rhel65:~$
+
+This salt can be chosen and is visible as the first two characters of the hash.
+
+paul@rhel65:~$ openssl passwd -salt 42 hunter2
+42ZrbtP1Ze8G.
+paul@rhel65:~$ openssl passwd -salt 42 hunter2
+42ZrbtP1Ze8G.
+paul@rhel65:~$ openssl passwd -salt 42 hunter2
+42ZrbtP1Ze8G.
+paul@rhel65:~$
+
+This example shows how to create a user with password.
+
+root@rhel65:~# useradd -m -p $(openssl passwd hunter2) mohamed
+
+Note that this command puts the password in your command history!
+
+22
+
+user passwords
+
+3.5.

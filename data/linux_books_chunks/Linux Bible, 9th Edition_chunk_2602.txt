@@ -1,0 +1,4 @@
+So, for example, a custom route 
+that can be reached through your eth0 interface would be named route-eth0. You could 
+have multiple custom routes in that ﬁ le, with each route entry replacing the ? with the 
+interface number.

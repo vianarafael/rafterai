@@ -1,0 +1,10 @@
+(See Chapter 17, “Conﬁ guring a Web Server.”)
+
+ ■ FTP Server—The Very Secure FTP daemon (vsftpd package) is the default FTP 
+
+server used in Fedora and RHEL. Other FTP server packages include proftpd and 
+pure-ftpd. (See Chapter 18, “Conﬁ guring an FTP Server.”)
+
+ ■ Windows File Server—Samba (samba package) allows a Linux system to act as a 
+
+Windows ﬁ le and print server.

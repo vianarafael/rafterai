@@ -1,0 +1,6 @@
+2013
+
+The output from this who command shows that the user chris is logged in on tty1 (which 
+is the ﬁ rst virtual console on the monitor connected to the computer), and his login session 
+began at 20:57 on January 13. The IDLE time shows how long the shell has been open without 
+any command being typed (the dot indicates that it is currently active).

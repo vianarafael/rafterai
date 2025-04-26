@@ -1,0 +1,2 @@
+SpamAssassin is a Bayesian spam filter (http://en.wikipedia.
+org/wiki/Bayesian_spam_filtering).

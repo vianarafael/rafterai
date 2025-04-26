@@ -1,0 +1,4 @@
+There are two types of snapshots 
+
+we can create: a read-only subvolume snapshot or a writeable subvolume snapshot. Since this is a CoW 
+filesystem, we don’t change disk space until we write a change to the data.

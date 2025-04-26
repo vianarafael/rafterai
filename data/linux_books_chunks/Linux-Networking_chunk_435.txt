@@ -1,0 +1,14 @@
+To disable a site we can either rename the file or move it to another directory.
+
+The files are created, so we can tell apache.
+
+[root@CentOS65 ~]# ls /etc/httpd/conf.d/
+chessclub42.conf  choochoo.conf  hunter2.conf  README  welcome.conf
+[root@CentOS65 ~]# service httpd reload
+Reloading httpd: 
+
+92
+
+apache web server
+
+8.5.7.

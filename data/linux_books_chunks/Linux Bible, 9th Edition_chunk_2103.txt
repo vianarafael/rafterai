@@ -1,0 +1,3 @@
+After the write is completed, check that the kernel knows about the changes to 
+
+the partition table. To do that, search the /proc/partitions for sdc.

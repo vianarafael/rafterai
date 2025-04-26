@@ -1,0 +1,23 @@
+chown
+
+The user owner of a file can be changed with chown command.
+
+root@laika:/home/paul# ls -l FileForPaul 
+-rw-r--r-- 1 root paul 0 2008-08-06 14:11 FileForPaul
+root@laika:/home/paul# chown paul FileForPaul 
+root@laika:/home/paul# ls -l FileForPaul 
+-rw-r--r-- 1 paul paul 0 2008-08-06 14:11 FileForPaul
+
+You can also use chown to change both the user owner and the group owner.
+
+root@laika:/home/paul# ls -l FileForPaul 
+-rw-r--r-- 1 paul paul 0 2008-08-06 14:11 FileForPaul
+root@laika:/home/paul# chown root:project42 FileForPaul 
+root@laika:/home/paul# ls -l FileForPaul 
+-rw-r--r-- 1 root project42 0 2008-08-06 14:11 FileForPaul
+
+47
+
+standard file permissions
+
+6.2.

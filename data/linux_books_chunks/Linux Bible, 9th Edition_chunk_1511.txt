@@ -1,0 +1,17 @@
+Other base 
+environments include Infrastructure server, File and Print server, Basic Web 
+
+209
+
+ 
+ 
+ 
+ 
+c09.indd  04/01/2015  Page 210
+
+Part III: Becoming a Linux System Administrator
+
+server, and Virtualization Host server. Select Done when you are ready 
+to continue.
+
+10.  Installation Destination.

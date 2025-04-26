@@ -1,0 +1,43 @@
+They are much like the shortcuts used in Microsoft Windows.
+
+Table 4-2 lists the file types available.
+
+Table 4-2.  File Types
+
+Type
+
+-
+
+d
+
+l
+
+c
+
+b
+
+s
+
+p
+
+122
+
+Description
+
+File
+
+Directory
+
+Link
+
+Character devices
+
+Block devices
+
+Socket
+
+Named pipe
+
+We’ll cover the other types here briefly. You won’t regularly need most of the types, but they will appear 
+
+occasionally in later chapters.

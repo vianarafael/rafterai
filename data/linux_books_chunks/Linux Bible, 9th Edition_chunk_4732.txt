@@ -1,0 +1,16 @@
+The following steps occur when a remote 
+system requests access to a TCP Wrapper–supported service:
+
+1.  The hosts.allow ﬁ le is checked.
+
+ ■ If the remote system’s address is listed:
+
+ ■ Access is allowed.
+
+ ■ No further TCP Wrapper checks are made.
+
+ ■ If the remote system’s address is not listed, the TCP Wrapper check process con-
+
+tinues on to the hosts.deny ﬁ le.
+
+2.

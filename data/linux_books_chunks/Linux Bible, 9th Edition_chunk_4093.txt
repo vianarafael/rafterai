@@ -1,0 +1,15 @@
+For example:
+
+# passwd joe
+Changing password for user joe.
+New UNIX password: ********
+Retype new UNIX password: ********
+passwd: all authentication tokens updated successfully.
+
+598
+
+c22.indd  04/15/2015  Page 599
+
+Chapter 22: Understanding Basic Linux Security 
+
+Here, the passwd command prompts you twice to enter a new password for joe.

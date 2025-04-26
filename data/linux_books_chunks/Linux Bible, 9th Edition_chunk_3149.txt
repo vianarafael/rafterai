@@ -1,0 +1,3 @@
+Virtual hosts, which are described in greater detail in the next 
+section, are a convenient (and almost essential) tool for serving different content to clients 
+based on the server address or name that a request is directed to.

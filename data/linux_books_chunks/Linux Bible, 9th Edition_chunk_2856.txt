@@ -1,0 +1,8 @@
+In this particular case, when the runlevel 6 event is emitted, the ck-log-
+system-restart starts.
+
+ ■ task—The stanza here deﬁ nes that this particular job is a task job as opposed to a 
+
+service.
+
+ ■ exec—This stanza deﬁ nes what program runs to start the task.

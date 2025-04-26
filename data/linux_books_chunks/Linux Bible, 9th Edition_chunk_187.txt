@@ -1,0 +1,6 @@
+Yes — it’s free of any minix code, and it has a multi-threaded fs. It is NOT 
+protable [sic] (uses 386 task switching etc), and it probably never will support 
+anything other than AT-harddisks, as that’s all I have :-(.
+
+Minix was a UNIX-like operating system that ran on PCs in the early 1990s. Like Minix, 
+Linux was also a clone of the UNIX operating system.

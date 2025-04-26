@@ -1,0 +1,7 @@
+The file is 
+
+relatively empty on CentOS, so you can simply add in the configuration directives we’ll give you shortly.
+
+On Ubuntu, MariaDB 10.0.25 is installed. This has the 48MB log file size by default, so it normally does 
+
+not need to be changed.

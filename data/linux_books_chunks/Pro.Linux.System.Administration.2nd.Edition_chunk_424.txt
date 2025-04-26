@@ -1,0 +1,2 @@
+If you don’t install a GuI desktop, for example, if you are installing a server, x 
+will not be installed, and you’ll generally interact with Linux through the command-line interface.

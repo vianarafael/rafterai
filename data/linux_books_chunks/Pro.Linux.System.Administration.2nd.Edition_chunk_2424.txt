@@ -1,0 +1,4 @@
+Though this might 
+seem a trivial issue, having system clocks match means your log entries will all carry consistent timestamps. 
+This in turn means you can easily correlate log entries from different hosts, should the need arise. 
+Synchronized system clocks are also a prerequisite for the functionality we’ll be enabling later.

@@ -1,0 +1,6 @@
+So any of the media just described simply needs to point to the 
+ location of the kernel and initial RAM disk to start the installation. If the software 
+ packages are not on the same medium, the installation process prompts you for 
+where to get those packages.
+
+ ■ Add kickstart or other boot options.

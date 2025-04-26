@@ -1,0 +1,19 @@
+We can quickly double-check that 
+these new DNS entries work by performing a lookup via the host command.
+
+$ host 192.168.0.200
+200.0.168.192.in-addr.arpa domain name pointer au-mel-centos-2.example.com.
+$ host au-mel-centos-2.example.com.
+au-mel-centos-2.example.com has address 192.168.0.200
+
+Both lookups work, so we can now configure any other hosts on the network that we also want to have 
+
+dynamically updated in the DNS server.
+
+462
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+Manually Changing DNS Entries
+Because these dynamic updates use a journal file, you need to perform an extra step if you want to manually 
+change any DNS entries.

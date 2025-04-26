@@ -1,0 +1,8 @@
+It is available with RHEL, 
+Fedora, Ubuntu, and other Linux distributions.
+
+ ■ LXDE—The Lightweight X11 Desktop Environment (LXDE) was designed to be 
+
+a fast-performing, energy-saving desktop environment. Often, LXDE is used on 
+ less-expensive devices (such as netbook computers) and on live media (such as a live 
+CD or live USB stick).

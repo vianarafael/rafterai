@@ -1,0 +1,12 @@
+The mysql client accepts
+both.
+
+mysql> INSERT INTO country VALUES ('FR','France','64000000','Paris');
+Query OK, 1 row affected (0.00 sec)
+
+Note that you get an error when using a duplicate primary key.
+
+mysql> insert into country values ('DE','Germany','82000000','Berlin');
+ERROR 1062 (23000): Duplicate entry 'DE' for key 'PRIMARY'
+
+3.5.2.

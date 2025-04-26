@@ -1,0 +1,14 @@
+We choose p for primary, 1
+for the partition number, 1 for the start cylinder and 14 for the end cylinder.
+
+Command (m for help): n
+Command action
+e   extended
+p   primary partition (1-4)
+p
+Partition number (1-4): 1
+First cylinder (1-130, default 1): 
+Using default value 1
+Last cylinder or +size or +sizeM or +sizeK (1-130, default 130): 14
+
+We can now issue p again to verify our changes, but they are not yet written to disk.

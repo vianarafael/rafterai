@@ -1,0 +1,7 @@
+Setting these to True can produce high I/O and should be turned 
+
+on and off if you need to further investigate issues; we have left the default settings.
+
+Finally, in Listing 17-4 there is an option to allow the older and less secure version of unpickler, USE_
+
+INSECURE_UNPICKLER = False.

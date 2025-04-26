@@ -1,0 +1,7 @@
+The Certbot process requires a web server to manage the validation process to get 
+your certificate. The good news is that the certbot command has the option to run a stand-alone web server 
+while we run the process to get the certificates.
+
+The certbot stand-alone web service will need port 80 (HTTP) or port 443 (HTTPS) access to your host. 
+
+We can do this with the ufw or firewall-cmd command.

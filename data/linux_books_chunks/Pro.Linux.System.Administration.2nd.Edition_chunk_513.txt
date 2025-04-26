@@ -1,0 +1,5 @@
+These 
+
+threads are a special kind of service that performs management tasks in the core of the operating system, 
+the kernel. These “light weight processes” allow the kernel process to different tasks in the background, like 
+handle what happens when someone plugs in a USB drive.

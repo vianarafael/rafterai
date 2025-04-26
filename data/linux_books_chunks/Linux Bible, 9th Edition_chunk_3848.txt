@@ -1,0 +1,3 @@
+Notice that 
+the sysstat service (which gathers system statistics) and the iptables service (which 
+ creates the system’s ﬁ rewall) are both started before the networking interfaces are started.

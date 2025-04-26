@@ -1,0 +1,11 @@
+We 
+have specified the –connect option and passed the host and port we are going to connect to.
+
+556
+
+Chapter 12 ■ Mail ServiCeS
+
+When the command is executed, you can see a connection is initiated, the STARTTLS command is 
+
+initiated, and the server’s public key details are displayed. We get the return code 250 DSN (for “delivery 
+status notification”).

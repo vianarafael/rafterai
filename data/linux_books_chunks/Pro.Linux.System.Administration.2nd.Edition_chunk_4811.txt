@@ -1,0 +1,8 @@
+Users connected to a service like Samba 
+or Apache are not counted here.
+
+799
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017 D. Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_17Chapter 17 ■ performanCe monitoring and optimization
+
+Finally, the system load is displayed in three numbers.

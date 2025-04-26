@@ -1,0 +1,6 @@
+The 
+connect_from_port_20=YES setting gives the vsftpd daemon slightly more permission 
+to send data the way a client might request by allowing PORT–style data communications. 
+
+Using hide_ids=YES hides the real permissions set on ﬁ les so, to the user accessing the 
+FTP site, everything appears to be owned by the ftp user.

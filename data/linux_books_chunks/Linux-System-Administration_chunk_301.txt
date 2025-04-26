@@ -1,0 +1,14 @@
+If possible, install lsscsi, lshw and use them to list the disks.
+
+Debian,Ubuntu: aptitude install lsscsi lshw
+
+Fedora: yum install lsscsi lshw
+
+root@rhel53 ~# lsscsi 
+[0:0:2:0]    disk    VBOX     HARDDISK         1.0   /dev/sda
+[0:0:3:0]    disk    VBOX     HARDDISK         1.0   /dev/sdb
+[0:0:6:0]    disk    VBOX     HARDDISK         1.0   /dev/sdc
+
+44
+
+Chapter 5.

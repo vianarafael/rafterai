@@ -1,0 +1,4 @@
+The other is to run an NTP service that automatically 
+synchronizes whenever the system clock runs too far out of sync with the actual time. A lot of systems 
+actually use both methods. If the system clock and atomic time differ too much, it can take a while for a 
+system to synchronize with an upstream time server.

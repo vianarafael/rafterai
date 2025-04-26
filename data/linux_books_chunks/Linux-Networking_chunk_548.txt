@@ -1,0 +1,8 @@
+primary and secondary
+
+When you set up the first authoritative dns server for a zone, then this is called the primary
+dns server. This server will have a readable and writable copy of the zone database. For
+reasons of fault tolerance, performance or load balancing you may decide to set up another
+dns server with authority over that zone. This is called a secondary dns server.
+
+10.6.

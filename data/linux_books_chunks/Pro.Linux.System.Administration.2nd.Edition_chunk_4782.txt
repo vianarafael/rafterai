@@ -1,0 +1,11 @@
+After you 
+
+enter your username, you’ll enter your password, as shown in Figure 16-12.
+
+Figure 16-11.  Logging in via LDAP to the desktop
+
+791
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+Figure 16-12.

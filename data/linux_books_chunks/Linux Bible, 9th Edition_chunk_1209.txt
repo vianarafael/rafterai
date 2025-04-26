@@ -1,0 +1,25 @@
+The hyphen at the end tells cut to 
+read from standard input (from the pipe).
+
+ $ grep /home /etc/passwd | cut  -d':' -f6 -
+
+Translate or delete characters (tr)
+The tr command is a character-based translator that can be used to replace one character 
+or set of characters with another or to remove a character from a line of text.
+
+165
+
+c07.indd  04/01/2015  Page 166
+
+Part II: Becoming a Linux Power User
+
+The following example translates all uppercase letters to lowercase letters and displays the 
+words mixed upper and lower case as a result:
+
+$ FOO="Mixed UPpEr aNd LoWeR cAsE"
+$ echo $FOO | tr [A-Z] [a-z]
+mixed upper and lower case
+
+In the next example, the tr command is used on a list of ﬁ lenames to rename any ﬁ les in 
+that list so that any tabs or spaces (as indicated by the [:blank:] option) contained in a 
+ﬁ lename are translated into underscores.

@@ -1,0 +1,8 @@
+Certain administrative steps are needed to manage PAM.
+
+Administering PAM on your Linux system
+The task of administering PAM on your Linux system is rather minimal. You need to 
+verify that PAM is properly implemented and make adjustments to meet your particular 
+ organization’s security needs.
+
+Also, PAM does a little more than just the application authentication steps described  previously.

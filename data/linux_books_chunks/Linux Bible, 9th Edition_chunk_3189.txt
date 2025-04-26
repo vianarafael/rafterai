@@ -1,0 +1,2 @@
+There are many comments in this ﬁ le, to help you understand what to change. Those lines 
+that are not commented out deﬁ ne some initial settings and a default virtual host.

@@ -1,0 +1,8 @@
+We start by changing the ddns-update-style variable 
+from none to interim. We also want a fairly low TTL on these dynamic DNS entries, so they don’t remain 
+active after a host disappears off the network. We’ll specify an hour.
+
+ddns-update-style interim;
+ddns-ttl 3600;
+
+Under that, still in the global configuration section, we add the key definition.

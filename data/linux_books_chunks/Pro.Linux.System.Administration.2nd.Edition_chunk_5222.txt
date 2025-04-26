@@ -1,0 +1,11 @@
+We saw that the events coming into Logstash from the Filebeat now have 
+the type auditd attached to them. We can now match this value and work on the logs that specifically have 
+that data. We do that with a conditional if statement in our filter section.
+
+filter {
+  if [type] == "auditd" {
+    # audit.log get matched and worked on here
+  }
+}
+
+Here we are using a conditional if { ...

@@ -1,0 +1,10 @@
+You would issue the following:
+
+$ sudo visudo –f /etc/sudoers.d/01_operators
+
+In the above file we would place things that are particular to the operators group. Sudo will look through 
+
+the /etc/sudoers.d/ directory and load any files it finds, in order, if present, as above.
+
+The sudo command is complicated and, if improperly implemented, can open your host to security 
+breaches.

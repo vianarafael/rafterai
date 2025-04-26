@@ -1,0 +1,9 @@
+Here’s an example 
+of a find command that ﬁ nds all ﬁ les in the ﬁ lesystem that are not associated with any 
+user (the ﬁ les are listed by UID):
+
+# find / -nouser -ls
+
+Understanding Group Accounts
+Group accounts are useful if you want to share a set of ﬁ les with multiple users. You 
+can create a group and change the set of ﬁ les to be associated with that group.

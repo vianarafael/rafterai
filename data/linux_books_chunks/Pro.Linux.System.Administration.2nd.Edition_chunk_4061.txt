@@ -1,0 +1,47 @@
+Not GPG_KEY entries in config.
+Checking TEMP_DIR '/tmp' is a folder and writable (OK)
+Test - Encryption with passphrase (OK)
+Test - Decryption with passphrase (OK)
+Test - Compare (OK)
+Cleanup - Delete '/tmp/duply.12989.1476575841_*'(OK)
+
+--- Start running command PRE at 23:57:21.238 ---
+Skipping n/a script '/home/exbackup/.duply/nightly/pre'.
+--- Finished state OK at 23:57:21.252 - Runtime 00:00:00.013 ---
+
+--- Start running command BKP at 23:57:21.262 ---
+Reading globbing filelist /home/exbackup/.duply/nightly/exclude
+Local and Remote metadata are synchronized, no sync needed.
+Last full backup date: none
+No signatures found, switching to full backup.
+Error accessing possibly locked file /var/lib/lxcfs
+--------------[ Backup Statistics ]--------------
+StartTime 1476588974.26 (Sun Oct 16 03:36:14 2016)
+EndTime 1476591675.63 (Sun Oct 16 04:21:15 2016)
+ElapsedTime 2701.37 (45 minutes 1.37 seconds)
+SourceFiles 140466
+SourceFileSize 2375250457 (2.21 GB)
+NewFiles 140466
+NewFileSize 2375250457 (2.21 GB)
+DeletedFiles 0
+ChangedFiles 0
+ChangedFileSize 0 (0 bytes)
+ChangedDeltaSize 0 (0 bytes)
+DeltaEntries 140466
+RawDeltaSize 2281512996 (2.12 GB)
+TotalDestinationSizeChange 198548201 (189 MB)
+
+663
+
+Chapter 14 ■ BaCkup and reCovery
+
+Errors 1
+-------------------------------------------------
+
+--- Finished state OK at 04:39:42.342 - Runtime 01:03:29.436 ---
+
+--- Start running command POST at 04:39:42.354 ---
+Skipping n/a script '/home/exbackup/.duply/nightly/post'.
+--- Finished state OK at 04:39:42.375 - Runtime 00:00:00.020 ---
+
+With the backup finished, we can see that we have captured 2.21GB of data in our backup.

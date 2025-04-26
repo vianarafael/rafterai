@@ -1,0 +1,6 @@
+You can use the cd command to change to an 
+appropriate directory on the remote host where you want to write your files.
+
+sftp> cd /tmp
+
+You’ll need permission to write to that location.

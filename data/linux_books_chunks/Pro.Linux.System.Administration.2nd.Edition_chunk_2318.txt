@@ -1,0 +1,9 @@
+Doing so allows you to 
+use the available storage space more efficiently and, in some cases, improve performance as well. To create 
+a new RAID 5 array, you need to disassemble the RAID 1 array first. By stopping it, you release all devices it 
+uses:
+
+$ sudo mdadm --manage /dev/md0 --stop
+mdadm: stopped /dev/md0
+
+You can now use these devices for the new RAID 5 array.

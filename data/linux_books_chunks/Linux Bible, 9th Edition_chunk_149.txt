@@ -1,0 +1,113 @@
+Ways of changing processes 
+include killing, pausing, and sending other types of signals.
+
+ ■ Chapter 7, “Writing Simple Shell Scripts,” includes shell commands and functions 
+
+you can gather together into a ﬁ le to run as a command itself.
+
+xxxiv
+
+ﬂ ast.indd  04/02/2015  Page xxxv
+
+Introduction
+
+In Part III, “Becoming a Linux System Administrator,” you learn how to administer Linux 
+systems:
+
+ ■ Chapter 8, “Learning System Administration,” provides information on basic 
+ graphical tools, commands, and conﬁ guration ﬁ les for administering Linux 
+systems.
+
+ ■ Chapter 9, “Installing Linux,” covers common installation tasks, such as disk 
+ partitioning and initial software package selection, as well as more advanced 
+installation tools, such as installing from kickstart ﬁ les.
+
+ ■ Chapter 10, “Getting and Managing Software,” provides an understanding 
+of how software packages work and how to get and manage software 
+packages.
+
+ ■ Chapter 11, “Managing User Accounts,” discusses tools for adding and deleting 
+
+users and groups, as well as how to centralize user account management.
+
+ ■ Chapter 12, “Managing Disks and Filesystems,” provides information on adding 
+
+partitions, creating ﬁ lesystems, and mounting ﬁ lesystems, as well as working with 
+logical volume management.
+
+In Part IV, “Becoming a Linux Server Administrator,” you learn to create powerful network 
+servers and the tools needed to manage them:
+
+ ■ Chapter 13, “Understanding Server Administration,” covers remote logging, 
+
+ monitoring tools, and the Linux boot process.
+
+ ■ Chapter 14, “Administering Networking,” discusses how to conﬁ gure networking.
+
+ ■ Chapter 15, “Starting and Stopping Services,” provides information on starting and 
+
+stopping services.
+
+ ■ Chapter 16, “Conﬁ guring a Print Server,” describes how to conﬁ gure printers to use 
+
+locally on your Linux system or over the network from other computers.
+
+ ■ Chapter 17, “Conﬁ guring a Web Server,” describes how to conﬁ gure an Apache Web 
+
+server.
+
+ ■ Chapter 18, “Conﬁ guring an FTP Server,” covers procedures for setting up a vsftpd FTP 
+server that can be used to enable others to download ﬁ les from your Linux system 
+over the network.
+
+ ■ Chapter 19, “Conﬁ guring a Windows File Sharing (Samba) Server,” covers Windows 
+
+ﬁ le server conﬁ guration with Samba.
+
+ ■ Chapter 20, “Conﬁ guring an NFS File Server,” describes how to use 
+
+Network File System features to share folders of ﬁ les among systems over a 
+network.
+
+ ■ Chapter 21, “Troubleshooting Linux,” covers popular tools for troubleshooting your 
+
+Linux system.
+
+xxxv
+
+ﬂ ast.indd  04/02/2015  Page xxxvi
+
+Introduction
+
+In Part V, “Learning Linux Security Techniques,” you learn how to secure your Linux sys-
+tems and services:
+
+ ■ Chapter 22, “Understanding Basic Linux Security,” covers basic security concepts 
+
+and techniques.
+
+ ■ Chapter 23, “Understanding Advanced Linux Security,” provides information on 
+
+using Pluggable Authentication Modules (PAM) and cryptology tools to tighten sys-
+tem security and authentication.
+
+ ■ Chapter 24, “Enhancing Linux Security with SELinux,” shows you how to enable 
+
+Security Enhanced Linux (SELinux) to secure system services.
+
+ ■ Chapter 25, “Securing Linux on the Network,” covers network security features, 
+
+such as firewalld and iptables ﬁ rewalls, to secure system services.
+
+Part VI, “Extending Linux into the Cloud,” takes you into cutting-edge cloud technologies:
+
+ ■ Chapter 26, “Using Linux for Cloud Computing,” introduces concepts of cloud com-
+puting in Linux by describing how to set up hypervisors, build virtual machines, 
+and share resources across networks.
+
+ ■ Chapter 27, “Deploying Linux to the Cloud,” describes how to deploy Linux images 
+
+to different cloud environments, including OpenStack, Amazon EC2, or a local Linux 
+system conﬁ gured for virtualization.
+
+Part VII contains two appendixes to help you get the most from your exploration of Linux.

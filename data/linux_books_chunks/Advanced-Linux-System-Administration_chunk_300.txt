@@ -1,0 +1,17 @@
+This objective includes manipulating a standard ext2 filesystem.
+
+Key files, terms, and utilities include:
+fsck (fsck.ext2) 
+badblocks 
+mke2fs 
+dumpe2fs 
+debuge2fs 
+tune2fs
+
+• 2.203.3 Creating and configuring filesystem options
+
+Modified: 2001-August-24
+Maintainer: Dimitrios Bogiatzoules
+Weight: 3 
+
+Description: Candidates should be able to configure automount filesystems.

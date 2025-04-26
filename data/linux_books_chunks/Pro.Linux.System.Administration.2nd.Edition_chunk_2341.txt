@@ -1,0 +1,12 @@
+You 
+
+can list all such devices on the system via the pvs command.
+
+$ sudo pvs
+PV            VG         Fmt     Attr     PSize       PFree
+/dev/md0                 lvm2    ---     15.99g       15.99g
+/dev/sda2    centos      lvm2    a--      7.51g       40.00m
+
+ ■ Note  you will get more detailed information about physical volumes if you use the pvdisplay command.
+
+Recall that we chose to use LVM when we first installed our CentOS system.

@@ -1,0 +1,8 @@
+These applications use a system library, which first checks your /etc/hosts 
+file and then queries a name server only if needed.
+
+In the following Figure 10-3 we can see a how a browser will request an IP address from their local dns, 
+
+it will then query a list of root servers to find the name servers it needs to ask for the google.com domain.
+
+Figure 10-3.

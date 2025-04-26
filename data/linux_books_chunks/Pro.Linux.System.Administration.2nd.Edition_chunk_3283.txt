@@ -1,0 +1,7 @@
+Manually Creating Maildir
+
+$ sudo mkdir -p /etc/skel/Maildir/{cur,new,tmp}; chmod -R 0700 /etc/skel/Maildir
+
+ ■ Note 
+ in listing 12-6 we’ve used a clever Bash shortcut and listed all three directories enclosed in brackets 
+({ }) and separated by commas. this technique, brace expansion, tells mkdir to create all three subdirectories.

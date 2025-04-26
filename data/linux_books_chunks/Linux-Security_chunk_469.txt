@@ -1,0 +1,7 @@
+root root unconfined_u:object_r:samba_share_t:s0 /var/www/html/t\
+est42.txt
+[root@centos65 ~]# setenforce 1
+[root@centos65 ~]# getenforce 
+Enforcing
+
+There  are  two  possibilities  now:  either  it  works,  or  it  fails.

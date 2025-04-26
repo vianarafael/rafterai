@@ -1,0 +1,42 @@
+The following is the mobile1.ovpn file we have created for our profile:
+
+client
+proto udp
+remote gateway.example.com
+port 1195
+dev tun
+nobind
+auth-user-pass
+key-direction 1
+
+<ca>
+-----BEGIN CERTIFICATE-----
+# TLS root ca
+-----END CERTIFICATE-----
+</ca>
+
+<cert>
+-----BEGIN CERTIFICATE-----
+# TLS public certificate
+-----END CERTIFICATE-----
+</cert>
+
+723
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+<key>
+-----BEGIN PRIVATE KEY-----
+# TLS private key
+-----END PRIVATE KEY-----
+</key>
+
+<tls-auth>
+-----BEGIN OpenVPN Static key V1-----
+# tls-auth key
+-----END OpenVPN Static key V1-----
+</tls-auth>
+
+Now we need to install the app from the App Store on the iPhone (Figure 15-3).
+
+Figure 15-3.

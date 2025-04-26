@@ -1,0 +1,15 @@
+How can we avoid having to set the server in dig or nslookup ?
+
+Change this:
+
+root@debian7:~# cat /etc/resolv.conf
+nameserver 10.46.101.1
+root@debian7:~#
+
+into this:
+
+root@debian7:~# cat /etc/resolv.conf
+nameserver 10.104.33.30
+root@debian7:~#
+
+11.

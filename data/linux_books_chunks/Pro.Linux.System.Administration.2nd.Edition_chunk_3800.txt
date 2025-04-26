@@ -1,0 +1,3 @@
+This allows us to add and replace 
+bricks into replication sets. Naming things is hard, and there is no reason to follow this if you have a better 
+naming scheme.

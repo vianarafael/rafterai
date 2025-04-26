@@ -1,0 +1,13 @@
+invalid users
+
+If you are paranoia, you can also use invalid users to explicitely deny the listed users access.
+When a user is in both lists, the user has no access!
+
+[tennis]
+ path = /srv/samba/tennis
+ read only = No
+ guest ok = No
+ valid users = kim, serena, venus, justine
+ invalid users = venus
+
+21.1.3.

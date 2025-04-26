@@ -1,0 +1,24 @@
+installing on RHEL/CentOS
+
+Note that Red Hat derived distributions use httpd as package and process name instead of
+apache.
+
+To verify whether apache is installed in CentOS/RHEL:
+
+[root@centos65 ~]# rpm -q httpd
+package httpd is not installed
+[root@centos65 ~]# ls -l /var/www
+ls: cannot access /var/www: No such file or directory
+
+To install apache on CentOS:
+
+[root@centos65 ~]# yum install httpd
+
+After running the yum install httpd command, the Centos 6.5 server has apache installed
+and the /var/www directory exists.
+
+[root@centos65 ~]# rpm -q httpd
+httpd-2.2.15-30.el6.centos.x86_64
+[root@centos65 ~]# ls -l /var/www
+total 16
+drwxr-xr-x.

@@ -1,0 +1,35 @@
+You can 
+also specify the source of your installation files.
+
+url --url http://192.168.0.1/centos/
+
+929
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+For Cobbler, we define a variable to specify the location of our installation source.
+
+url --url=$tree
+
+The url directive can also be used to specify an FTP server.
+
+url --url ftp://jsmith:passsword@192.168.0.1/centos
+
+We can specify some alternative sources, including cdrom, when installing from a locally mounted CD 
+
+or DVD and hard drive to install from a local partition.
+
+harddrive --dir=/centos --partition=/installsource
+
+Keyboard, Language, and Time Zone
+
+The next snippet we’re going to show you configures our keyboard, language, and time zone.
+
+# System keyboard
+keyboard us
+# System language
+lang en_AU
+# System timezone
+timezone Australia/Melbourne
+
+Here we’ve specified us as the value for the keyboard directive to indicate a U.S.

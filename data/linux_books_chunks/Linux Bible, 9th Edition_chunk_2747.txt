@@ -1,0 +1,5 @@
+These target unit conﬁ guration ﬁ les are symboli-
+cally linked to target unit conﬁ guration ﬁ les that most closely match the idea of the 
+ original runlevel. In the example that follows, the symbolic links are shown for runlevel 
+target units. Notice that the runlevel target units for runlevel 2, 3, and 4 are all symboli-
+cally linked to multi-user.target.

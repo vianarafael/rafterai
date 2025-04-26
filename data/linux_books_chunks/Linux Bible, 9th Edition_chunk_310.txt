@@ -1,0 +1,6 @@
+More on RHCE/RHCSA certiﬁ cations later in this chapter.
+
+Other certiﬁ cation programs are offered by Linux Professional Institute 
+(http://www.lpi.org), CompTIA (http://www.comptia.org), and Novell 
+(https://training.novell.com/). LPI and CompTIA are  professional computer 
+industry associations.

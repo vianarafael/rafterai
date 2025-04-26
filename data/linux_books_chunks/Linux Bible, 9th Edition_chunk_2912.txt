@@ -1,0 +1,6 @@
+To see whether CUPS is running and to start setting 
+up your printers, open a web browser on the local computer and type the following into its 
+location box: http://localhost:631/.
+
+A prompt for a valid login name and password may appear when you request functions that 
+require it. If so, type the root login name and the root user’s password, and click OK.

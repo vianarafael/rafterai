@@ -1,0 +1,6 @@
+IMAP and 
+POP3 are two different ways for your users to retrieve their e-mail from a mailbox located on your e-mail 
+server (we’ll explain those differences and why you might use one over the other).
+
+We’ll also show you how to protect your users from unsolicited e-mail or spam and from viruses.
+In this chapter we’ll explain basic mail services—sending, receiving, and managing e-mail.

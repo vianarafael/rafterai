@@ -1,0 +1,7 @@
+If it becomes cumbersome to define all your nodes and their configuration in manifests, then you can use a 
+feature known as external nodes to better scale this. External nodes allow you to store your nodes and their 
+configuration in an external source.
+
+The ENC runs as a command on the Puppet master and returns a YAML document describing the 
+
+manifest for any particular node.

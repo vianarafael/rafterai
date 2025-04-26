@@ -1,0 +1,16 @@
+It also includes a section describing how to remove installed packages with 
+the yum command.
+
+10
+
+245
+
+ 
+ 
+ 
+c10.indd  04/01/2015  Page 246
+
+Part III: Becoming a Linux System Administrator
+
+Metadata, describing the contents of YUM repositories, is downloaded from each of your enabled YUM repositories 
+the fi rst time you run a yum command.

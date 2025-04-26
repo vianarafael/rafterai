@@ -1,0 +1,7 @@
+For example, anonuid=175 sets all anonymous users to UID 
+175, and anongid=300 sets the GID to 300. (Only the number is displayed when 
+you list ﬁ le permission unless you add entries with names to /etc/password and 
+/etc/group for the new UIDs and GIDs.)
+
+ ■ User mapping—If a user has login accounts for a set of computers (and has the 
+same ID), NFS, by default, maps that ID.

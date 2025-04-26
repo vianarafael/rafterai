@@ -1,0 +1,5 @@
+Then, you must be able to gather all that together and install it on your 
+ computer’s hard disk.
+
+Slackware (http://www.slackware.com) is one of the oldest Linux distributions still 
+being developed today.

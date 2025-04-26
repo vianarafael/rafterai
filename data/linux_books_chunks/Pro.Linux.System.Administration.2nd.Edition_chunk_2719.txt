@@ -1,0 +1,5 @@
+You can use the /etc/
+dhclient-enp0s3.conf file instead to apply it to the first interface only.
+
+We can then run the dhclient utility to renew our address lease, as shown in Listing 10-31. This would 
+also run automatically at boot time if we’d configured the host to use DHCP.

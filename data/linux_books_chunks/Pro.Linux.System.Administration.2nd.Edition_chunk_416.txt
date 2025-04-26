@@ -1,0 +1,6 @@
+(Like Windows, Linux can also use smartcards or tokens or other mechanisms to 
+authenticate users.)
+
+If you just installed a Linux host, you’ll have been prompted to create a user, and you can make use of 
+
+that user to log in now.

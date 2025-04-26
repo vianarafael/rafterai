@@ -1,0 +1,3 @@
+The order 
+of declaration is also important; you can’t create a user in ou=people,dc=example,dc=com until that 
+organizational unit is created.

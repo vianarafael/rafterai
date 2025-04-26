@@ -1,0 +1,18 @@
+For example, to push a DNS server IP address to the client, we 
+do the following:
+
+push "dhcp-option DNS 10.0.2.155"
+
+Here we’re telling OpenVPN to tell a Microsoft Windows client to push the DNS server 10.0.2.155 to its 
+
+DHCP option.
+
+In a Microsoft Windows environment, we can also push down a variety of other options, as shown in 
+
+Table 15-1.
+
+728
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Table 15-1.

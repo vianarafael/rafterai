@@ -1,0 +1,11 @@
+With bleeding-edge systems, you don’t always get that same certainty.
+
+You are then asked what applications you would like to install on your host via the selection of 
+application groups. We chose DNS, LAMP server (Linux, Apache, MySQL, and PHP), mail (Postfix), and 
+OpenSSH, as you can see in Figure 2-63. When you are ready, select Continue.
+
+66
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-63.

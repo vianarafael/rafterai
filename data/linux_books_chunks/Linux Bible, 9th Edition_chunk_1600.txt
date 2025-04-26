@@ -1,0 +1,10 @@
+Partition types include:
+
+9
+
+ ■ Linux partitions—Use this option to create a partition for an ext2, ext3, or ext4 
+ﬁ lesystem type that is added directly to a partition on your hard disk (or other 
+storage medium). The xfs ﬁ lesystem type can also be used on a Linux partition.
+
+ ■ LVM partitions—Create an LVM partition if you plan to create or add to an LVM 
+volume group.

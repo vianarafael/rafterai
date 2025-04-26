@@ -1,0 +1,7 @@
+As
+an exercise, and to verify the work of all students, set up a slave server of all the master
+servers in the classroom.
+
+2. Before configuring the slave server, we may have to allow transfers from our zone to this
+server. Remember that this is not very secure since transfers are in clear text and limited to
+an ip address.

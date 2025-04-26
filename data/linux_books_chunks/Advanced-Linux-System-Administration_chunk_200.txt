@@ -1,0 +1,29 @@
+We test this:
+
+mkinitrd --fstab=/mnt/lvm/etc/fstab /boot/initrd-lvm.img $(uname -r)
+
+If we mount this initial ram disk we can see that this is going to work by looking at the 
+linuxrc script.
+
+linuxrc
+echo "Loading lvm-mod.o module"
+insmod /lib/lvm-mod.o
+echo Creating block devices
+mkdevices /dev
+echo Scanning logical volumes
+vgscan
+echo Activating logical volumes
+
+48
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+vgchange -ay
+
+----snip---
+
+3.

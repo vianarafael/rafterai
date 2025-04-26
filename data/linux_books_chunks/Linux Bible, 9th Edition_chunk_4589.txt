@@ -1,0 +1,4 @@
+To see 
+a mapping list on your system, enter the semanage login -l command. The semanage 
+command and its output are shown in the code that follows. If a user login ID is not listed, 
+then it uses the “default” login mapping, which is the Login Name of _default_.

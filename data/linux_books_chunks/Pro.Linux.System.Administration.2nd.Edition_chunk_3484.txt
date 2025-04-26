@@ -1,0 +1,14 @@
+We are going to 
+
+test against the headers that SpamAssassin makes available to us.
+
+572
+
+Chapter 12 ■ Mail ServiCeS
+
+require ["fileinto"];
+if header :contains "X-Spam-Flag" "YES" {
+        fileinto "Spam";
+}
+
+This says if the header X-Spam-Flag contains the word YES, file the mail into the Spam folder.

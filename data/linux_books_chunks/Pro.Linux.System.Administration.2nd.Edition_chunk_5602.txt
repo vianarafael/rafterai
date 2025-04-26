@@ -1,0 +1,5 @@
+For 
+
+example, an application such as Apache is made up of a package, a service, and a number of configuration 
+files. In Puppet, each of these components would be represented as a resource (or resources) and then 
+collected and applied to a node.

@@ -1,0 +1,6 @@
+Although it happens much less often than it did with earlier releases of Fedora and 
+RHEL, it is possible for the RPM database to become corrupted. This stops you from install-
+ing, removing, or listing RPM packages.
+
+If you ﬁ nd that your rpm and yum commands are hanging or failing and returning an 
+rpmdb open fails message, you can try rebuilding the RPM database.

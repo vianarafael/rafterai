@@ -1,0 +1,7 @@
+We then break 
+
+processing and go to the next access list. This user, as we have spoken of before, is authenticated by an 
+external provider (the system authentication, or PAM). When we provide -Y EXTERNAL, LDAP will allow 
+access to the UID and GID 0 (or the root user) without prompting for authentication itself.
+
+Next we are defining access to our password information.

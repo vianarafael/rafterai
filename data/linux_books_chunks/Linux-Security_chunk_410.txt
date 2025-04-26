@@ -1,0 +1,6 @@
+SNAT (Source NAT)
+
+The goal of source nat is to change the source address inside a packet before it leaves the
+system (e.g. to the internet). The destination will return the packet to the NAT-device. This
+means our NAT-device will need to keep a table in memory of all the packets it changed, so
+it can deliver the packet to the original source (e.g.

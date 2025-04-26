@@ -1,0 +1,9 @@
+The columns contain
+the username, an x, the user id, the primary group id, a description, the name of the home
+directory, and the login shell.
+
+More information can be found by typing man 5 passwd.
+
+[root@RHEL5 ~]# man 5 passwd
+
+2.3.

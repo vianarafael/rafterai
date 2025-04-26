@@ -1,0 +1,11 @@
+You can see our example network in Figure 12-2.
+
+Figure 12-2.  Example network
+
+Installation
+We’re going to start by installing the packages we’re going to need—the Postfix and Dovecot applications.
+
+CentOS Installation
+
+On later versions of CentOS, the default MTA is Postfix and is installed as part of a minimal install. The other 
+common MTA is called Sendmail.

@@ -1,0 +1,10 @@
+We 
+
+call our command check_load_ssh. The command_line part specifies that we’re executing the check_by_ssh 
+plug-in and connecting to the host specified by the -H option.
+
+The -l option specifies the name of the user we want to connect to on the remote host; here we’re using 
+
+the nagios user we just created.
+
+The -C specifies the command we want to run on the remote host.

@@ -1,0 +1,13 @@
+For 
+example, to set the rule to allow the /whatever directory and its subdirectories to be 
+shared read/write via NFS, and then apply that rule, type the following:
+
+# semanage fcontext -a -t public_content_rw_t "/whatever(/.*)?"
+# restorecon -F -R -v /whatever
+
+If you wanted to allow users to just be able to read ﬁ les from a directory, but not write to 
+it, you could assign the public_content_t ﬁ le context to the directory instead.
+
+Using NFS Filesystems
+After a server exports a directory over the network using NFS, a client computer connects 
+that directory to its own ﬁ lesystem using the mount command.

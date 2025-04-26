@@ -1,0 +1,7 @@
+Chapter 3 introduces you to the Linux 
+command-line shell interface.
+
+Exercises
+Use these exercises to test your skill in using a GNOME desktop. You can use either a GNOME 
+2.x (Red Hat Enterprise Linux up until RHEL 6.x) or GNOME 3.x (Fedora 16 or later or Ubuntu 
+up to 11.10, or later using the Ubuntu GNOME project) desktop.

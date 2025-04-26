@@ -1,0 +1,4 @@
+Allowing access from a subnet
+
+This example shows how to allow access from any computer in the 10.1.1.0/24 network, but
+only through eth1.

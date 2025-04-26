@@ -1,0 +1,5 @@
+In both Gnome’s and KDE’s GUI, the F1 key will bring up help text for that interface. But on 
+the command line, there are also a wide variety of tools designed to tell you how things work, help you find 
+the command you want, and then explain the options available for that command.
+
+The easiest way is to check the command or application’s man page (short for manual page).

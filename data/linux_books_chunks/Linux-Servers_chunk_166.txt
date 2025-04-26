@@ -1,0 +1,15 @@
+For this demo it is also possible to quickly add the three names to the /etc/
+hosts file.
+
+root@debian7:/etc/apache2/sites-available# grep ^192 /etc/hosts 
+192.168.42.50 choochoo.local
+192.168.42.50 chessclub42.local
+192.168.42.50 hunter2.local
+
+Note that you may have another ip address...
+
+15
+
+apache web server
+
+1.3.3.

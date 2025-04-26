@@ -1,0 +1,5 @@
+(I chose the words Local and Remote to 
+search for, but you can use any appropriate words.)
+
+ ■ :g/Local—Searches for the word Local, and prints every occurrence of that line 
+from the ﬁ le.

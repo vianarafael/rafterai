@@ -1,0 +1,6 @@
+This directive allows you to 
+specify a port number or an address and port number combination.
+
+If you want Squid to listen on multiple addresses and ports, you can add more http_port directives.
+Because we’re setting up Squid on the gateway host, we don’t want it to listen for connections on all 
+interfaces; users not on our local networks should not be able to access it.

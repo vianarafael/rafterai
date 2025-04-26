@@ -1,0 +1,4 @@
+LSB-compliant init scripts require a standard header. The standard says 
+that you must have the following keywords followed by a list of arguments, some denoted by a $ prefix. These 
+$ arguments are reserved virtual facilities, which are described in the LSB specification. They are designed 
+to give more order to your init scripts.

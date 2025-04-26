@@ -1,0 +1,51 @@
+Using 192.168.0.10
+Looking up IPv6 addresses
+No IPv6 address will be assigned
+Setting up secrets.ldb
+Setting up the registry
+Setting up the privileges database
+Setting up idmap db
+Setting up SAM db
+Setting up sam.ldb partitions and settings
+Setting up sam.ldb rootDSE
+Pre-loading the Samba 4 and AD schema
+Adding DomainDN: DC=samba,DC=example,DC=com
+Adding configuration container
+Setting up sam.ldb schema
+Setting up sam.ldb configuration data
+Setting up display specifiers
+Modifying display specifiers
+Adding users container
+Modifying users container
+Adding computers container
+Modifying computers container
+Setting up sam.ldb data
+Setting up well known security principals
+Setting up sam.ldb users and groups
+Setting up self join
+Adding DNS accounts
+Creating CN=MicrosoftDNS,CN=System,DC=samba,DC=example,DC=com
+Creating DomainDnsZones and ForestDnsZones partitions
+Populating DomainDnsZones and ForestDnsZones partitions
+See /var/lib/samba/private/named.conf for an example configuration include file for BIND
+and /var/lib/samba/private/named.txt for further documentation required for secure DNS updates
+Setting up sam.ldb rootDSE marking as synchronized
+Fixing provision GUIDs
+A Kerberos configuration suitable for Samba 4 has been generated at /var/lib/samba/private/
+krb5.conf
+
+598
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+Setting up fake yp server settings
+Once the above files are installed, your Samba4 server will be ready to use
+Server Role:           active directory domain controller
+Hostname:              dc1
+NetBIOS Domain:        SAMBA
+DNS Domain:            samba.example.com
+DOMAIN SID:            S-1-5-21-295742502-4045385941-247307200
+
+In interactive mode we are given the defaults in the [] brackets, and we have chosen the defaults 
+
+for Realm, Domain, and Server Role.

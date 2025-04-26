@@ -1,0 +1,2 @@
+postfix sends e-mail to other servers but encrypts it only when the 
+other server supports tlS. as not all servers support encryption, some e-mail may not be encrypted.

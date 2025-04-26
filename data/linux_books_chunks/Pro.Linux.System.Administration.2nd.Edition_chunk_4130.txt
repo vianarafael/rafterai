@@ -1,0 +1,6 @@
+that backup itself can be copied off to longer-term storage at particular points or via a virtual 
+full job that can take all backups into a new long-term backup.
+
+the backup starts with a full backup, of course, but then subsequent incremental backups are 
+performed, possibly nightly, and then consolidation jobs are run on the backup server daily or when 
+appropriate.

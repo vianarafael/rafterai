@@ -1,0 +1,5 @@
+This can be part of a secured intranet with remote offices accessing it 
+via your virtual private network (VPN) links into your main office.
+
+Using Document Management Systems
+Your company doesn’t need to be a large firm to have a good document management system.

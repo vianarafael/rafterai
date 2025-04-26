@@ -1,0 +1,13 @@
+Pick a background you like from the GNOME art site (http://gnome-lo ok.org/), 
+
+download it to your Pictures folder, and select it as your current background.
+
+4.  Start a Nautilus File Manager window, and move it to the second workspace on 
+
+your desktop.
+
+5.  Find the image you downloaded to use as your desktop background, and open it in 
+
+any image viewer.
+
+6.

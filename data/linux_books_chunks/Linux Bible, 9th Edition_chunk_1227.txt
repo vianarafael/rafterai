@@ -1,0 +1,8 @@
+Create a script that reads in three positional parameters from the command line, 
+assigns those parameters to variables named ONE, TWO, and THREE, respectively, 
+and outputs that information in the following format:
+
+There are X parameters that include Y.
+The first is A, the second is B, the third is C.
+
+Replace X with the number of parameters and Y with all parameters entered.

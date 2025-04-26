@@ -1,0 +1,20 @@
+First we list to see whether the folder exists.
+
+$ doveadm mailbox list -u jsmith
+INBOX
+
+In this case it doesn’t, so we are going to create it.
+
+$ doveadm mailbox create -u jsmith Spam
+$ doveadm mailbox list -u jsmith
+Spam
+INBOX
+
+Next, when we send our test spam e-mail like we did previously, we will now see the following:
+
+Aug 28 05:17:10 ip-10-0-10-154 dovecot: lmtp(18407): Connect from local
+Aug 28 05:17:10 ip-10-0-10-154 dovecot: lmtp(18407, jsmith): Kl1sKRaswlfnRwAArNTl4g: sieve: 
+msgid=<20160828091710.A40A21811885@mail.example.com>: stored mail into mailbox 'Spam'
+Aug 28 05:17:10 ip-10-0-10-154 dovecot: lmtp(18407): Disconnect from local: Successful quit
+
+Excellent.

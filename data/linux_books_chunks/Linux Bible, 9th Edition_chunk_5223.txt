@@ -1,0 +1,12 @@
+Type the following to remove the bttv module along with any other modules that 
+were loaded with it. Notice that they were all gone after running modprobe -r.
+
+# modprobe -r bttv
+# lsmod | grep bttv
+
+Chapter 9: Installing Linux
+
+1.  To install a Fedora system from Fedora live media, follow the instructions in the 
+“Installing Fedora from Live Media” section. In general, those steps include:
+
+a.

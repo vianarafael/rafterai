@@ -1,0 +1,7 @@
+If they don’t have compatible CPUs, you could migrate a VM by shutting it down on one 
+hypervisor and starting it up from shared storage on the other.
+
+After you have sized up the two hypervisor computers, start installing Fedora on them.
+
+Step 3: Install Linux on hypervisors
+Using the Fedora 21 Workstation installation media, begin installing the two hypervisors.

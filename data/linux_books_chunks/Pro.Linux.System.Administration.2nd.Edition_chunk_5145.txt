@@ -1,0 +1,6 @@
+If there were a mail.log.7 file, this file would be deleted, and the mail.log.6 file incremented to mail.
+log.7.
+
+Log rotation can be quite complicated to manually manage, so we recommend you use the logrotate 
+tool. Both CentOS and Ubuntu come with the logrotate tool, and it is usually installed and configured for 
+you already.

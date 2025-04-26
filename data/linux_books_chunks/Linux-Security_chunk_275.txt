@@ -1,0 +1,56 @@
+The first example gives the user owner execute
+permissions.
+
+paul@laika:~/perms$ ls -l permissions.txt 
+-rw-r--r-- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+paul@laika:~/perms$ chmod u+x permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwxr--r-- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+This example removes the group owners read permission.
+
+paul@laika:~/perms$ chmod g-r permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwx---r-- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+This example removes the others read permission.
+
+paul@laika:~/perms$ chmod o-r permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwx------ 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+This example gives all of them the write permission.
+
+paul@laika:~/perms$ chmod a+w permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwx-w--w- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+You don't even have to type the a.
+
+paul@laika:~/perms$ chmod +x permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwx-wx-wx 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+You can also set explicit permissions.
+
+paul@laika:~/perms$ chmod u=rw permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rw--wx-wx 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+Feel free to make any kind of combination.
+
+paul@laika:~/perms$ chmod u=rw,g=rw,o=r permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rw-rw-r-- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+Even fishy combinations are accepted by chmod.
+
+paul@laika:~/perms$ chmod u=rwx,ug+rw,o=r permissions.txt 
+paul@laika:~/perms$ ls -l permissions.txt 
+-rwxrw-r-- 1 paul paul 0 2007-02-07 22:34 permissions.txt
+
+51
+
+standard file permissions
+
+6.3.5.

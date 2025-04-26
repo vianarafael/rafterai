@@ -1,0 +1,4 @@
+The –oi option tells the sendmail 
+command not to stop processing e-mail when it finds a line with a single period (.) on it (remember our test 
+e-mails earlier ended when a line with a period on it was sent). This is because the e-mail might have a line 
+with a period on it that might not indicate the end of the e-mail.

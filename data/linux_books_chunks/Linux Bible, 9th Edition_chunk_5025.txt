@@ -1,0 +1,4 @@
+Failsafe primary 
+and security apt package mirrors are conﬁ gured by default (in the cloud.cfg ﬁ le in the 
+image), along with settings to cause the instance, if run in an Amazon EC2 cloud, to search 
+the closest region for packages.

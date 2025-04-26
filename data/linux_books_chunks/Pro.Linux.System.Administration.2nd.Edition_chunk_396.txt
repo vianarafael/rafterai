@@ -1,0 +1,28 @@
+SSH to the Vagrant Host
+
+> vagrant ssh
+Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-35-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+  System information as of Wed Feb 17 13:11:35 UTC 2016
+
+  System load:  0.77              Processes:           80
+  Usage of /:   2.7% of 39.34GB   Users logged in:     0
+  Memory usage: 12%               IP address for eth0: 10.0.2.15
+  Swap usage:   0%
+
+  Graph this data and manage this system at:
+    https://landscape.canonical.com/
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+0 packages can be updated.
+0 updates are security updates.
+
+vagrant@vagrant-ubuntu-xenial-64:~$
+
+There at vagrant@vagrant-ubuntu-xenial-64:~$ we have our command prompt of our Linux Ubuntu 
+
+host.

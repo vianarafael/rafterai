@@ -1,0 +1,7 @@
+following is summary list: https://en.wikipedia.org/wiki/Distributed_denial-of-
+service_attacks_on_root_nameservers.
+
+WHOIS
+
+When an organization or person buys a domain, the root DNS servers need to know which DNS servers 
+further down the tree have been delegated to respond to queries for that domain.

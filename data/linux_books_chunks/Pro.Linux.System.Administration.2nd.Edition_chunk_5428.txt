@@ -1,0 +1,4 @@
+Both 
+
+types of users need a username and password to sign on to the console. Authenticated users have their 
+access specified in the cgi.cfg configuration file.

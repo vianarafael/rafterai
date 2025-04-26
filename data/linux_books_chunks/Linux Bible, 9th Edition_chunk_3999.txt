@@ -1,0 +1,6 @@
+The settings that relate to how aggressively a system swaps are referred to as swappiness.
+
+21
+
+As much as possible, Linux wants to make everything that an open application needs 
+immediately available.

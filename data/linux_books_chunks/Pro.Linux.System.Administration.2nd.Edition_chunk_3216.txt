@@ -1,0 +1,6 @@
+You won’t need to worry about these settings for your basic configuration, but you 
+can find more details of them at $ man 4 master or www.postfix.org/master.5.html.
+
+Last, each service needs to have the command that starts the service specified together with any 
+
+arguments to be passed to that command.

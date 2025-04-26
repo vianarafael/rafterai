@@ -1,0 +1,10 @@
+In contrast to those, bc isn’t picky about spaces, but can be trickier to use 
+because it does fl oating-point arithmetic.
+
+To see a complete list of the kinds of arithmetic you can perform using the let command, 
+type help let at the bash prompt.
+
+Using programming constructs in shell scripts
+One of the features that makes shell scripts so powerful is that their implementation of 
+looping and conditional execution constructs is similar to those found in more complex 
+scripting and programming languages.

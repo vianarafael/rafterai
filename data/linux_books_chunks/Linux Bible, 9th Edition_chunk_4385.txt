@@ -1,0 +1,7 @@
+The confi guration 
+fi le to be included is listed with an “@” in front of its name.
+
+Understanding PAM contexts
+PAM modules have standard functions that provide different authentication services. 
+These standard functions within a PAM module can be divided into function types, called 
+ contexts. Contexts can also be called module interfaces or types.

@@ -1,0 +1,4 @@
+We have created a file resource to manage the /etc/ssh/sshd_config file. We’ve created the ssh service a little 
+differently here; we have made a selector on the name attribute to the service type. It works exactly the same as in 
+Listing 19-12. You’ve seen almost all the attributes in these resources except require in the service resource and 
+notify in the file resource.

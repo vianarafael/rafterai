@@ -1,0 +1,6 @@
+The section “Opening up your ﬁ rewall for FTP” later in this chapter describes what 
+you need to do to your Linux ﬁ rewall to make both passive and active FTP connections work.
+
+After the connection is established between the client and server, the client’s current 
+directory is established. For the anonymous user, the /var/ftp directory is that user’s home 
+directory.

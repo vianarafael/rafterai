@@ -1,0 +1,6 @@
+Enable and/or disable packet
+forwarding on the router and verify what happens to the ping between the two networks. If
+you do not succeed in pinging between the two networks (on different subnets), then use a
+sniffer like wireshark or tcpdump to discover the problem.
+
+5. Use wireshark or tcpdump -xx to answer the following questions.

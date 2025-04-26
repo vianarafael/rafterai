@@ -1,0 +1,27 @@
+Google Cloud Storage also has competitive data storage services but without the super-cheap long-term 
+storage of Glacier.
+
+Here are some AWS storage offerings:
+
+•	
+
+•	
+
+S3 Standard: Fastest object store
+
+S3 Standard-IA: Intermediate, infrequent access
+
+•	 Glacier: Long-term, infrequent access
+
+Here are some Google storage offerings:
+
+•	
+
+Standard: Fastest object store
+
+•	 DRA: Intermediate, infrequent access
+
+•	 Nearline: Long-term, infrequent access
+
+Both AWS, with an option, and Google, by default, provide Server Side Encryption (SSE) of your data 
+at rest, but you can also use your own encryption key to secure your data.

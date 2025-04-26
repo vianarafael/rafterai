@@ -1,0 +1,6 @@
+We’ll also look at another component called the mail delivery agent that can be used to deliver 
+e-mail to a user’s mailbox later in this chapter.
+
+EHLO is an SMTP command that is part of SMTP’s “language.” Commands are how SMTP clients and 
+servers (or MUAs and MTAs) communicate with one another. Originally, SMTP had only about ten words, 
+or commands, in its language.

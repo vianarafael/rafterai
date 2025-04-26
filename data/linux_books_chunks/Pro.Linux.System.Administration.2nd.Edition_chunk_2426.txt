@@ -1,0 +1,4 @@
+NTP servers provide synchronization services to a client that connects 
+to them, and they also synchronize themselves with upstream time servers. The layers in this model are 
+called strata, with the highest level, stratum 0, consisting of dedicated time hardware such as atomic clocks 
+or satellite receivers. Servers connected to these stratum 0 time sources are called stratum 1 servers.

@@ -1,0 +1,13 @@
+renice
+
+Since the processes are already running, we need to use the renice command to change their
+nice value (NI).
+
+The screenshot shows how to use renice on both the proj33 processes.
+
+paul@ubuntu910:~$ renice +8 1670
+1670: old priority 0, new priority 8
+paul@ubuntu910:~$ renice +8 1671
+1671: old priority 0, new priority 8
+
+Normal users can attribute a nice value from zero to 20 to processes they own.

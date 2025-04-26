@@ -1,0 +1,9 @@
+When a
+multihomed host is connected to two different networks, and it allows packets to travel from
+one network to another through its two network interfaces, it is said to have enabled packet
+forwarding.
+
+10.3. packet filtering
+
+Packet filtering is very similar to packet forwarding, but every packet is individually tested
+against rules that decide on allowing or dropping the packet.

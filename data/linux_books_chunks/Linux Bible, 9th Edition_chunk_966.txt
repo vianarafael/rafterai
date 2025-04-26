@@ -1,0 +1,21 @@
+In RHEL 7, the updatedb.conf ﬁ le 
+contains the following:
+
+PRUNE_BIND_MOUNTS = "yes"
+
+PRUNEFS = "9p afs anon_inodefs auto autofs bdev binfmt_misc cgroup 
+cifs coda configfs cpuset debugfs devpts ecryptfs exofs fuse fuse.
+sshfs fusectl gfs gfs2 hugetlbfs inotifyfs iso9660 jffs2 lustre 
+mqueue ncpfs nfs nfs4 nfsd pipefs proc ramfs rootfs rpc_pipefs 
+securityfs selinuxfs sfs sockfs sysfs tmpfs ubifs udf usbfs"
+
+PRUNENAMES = ".git .hg .svn"
+
+PRUNEPATHS = "/afs /media /mnt /net /sfs /tmp /udev /var/cache/
+ccache /var/lib/yum/yumdb /var/spool/cups /var/spool/squid /
+var/tmp"
+
+5
+
+ ■ As a regular user, you can’t see any ﬁ les from the locate database that you can’t 
+see in the ﬁ lesystem normally.

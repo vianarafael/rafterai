@@ -1,0 +1,7 @@
+We will 
+show you how to configure which address and port Squid should listen on and how to configure it so your 
+users are actually permitted to access the Web via the cache.
+
+Squid listens on port 3128 on all network interfaces by default, though port 8080 is used commonly 
+
+as well. The directive to modify the port in the configuration file is http_port.

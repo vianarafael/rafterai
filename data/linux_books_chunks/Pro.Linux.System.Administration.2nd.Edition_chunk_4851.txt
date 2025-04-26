@@ -1,0 +1,5 @@
+this signal causes most services to reload their 
+configuration files, removing the need to stop and restart them.
+
+if you want an application or process to quit, you can ask it to do so by sending it the SIGTERM or 
+SIGQUIT signal, which are 15 and 3, respectively.

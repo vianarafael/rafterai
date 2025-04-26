@@ -1,0 +1,5 @@
+Most modern 64-bit distros should support secure boot, but this is still relatively new 
+and you may have problems with some hardware under secure boot. In this case you can file a bug report 
+with the distribution and disable secure boot via the UEFI configuration screen.
+
+Finally, it is currently not mandatory that you use UEFI.

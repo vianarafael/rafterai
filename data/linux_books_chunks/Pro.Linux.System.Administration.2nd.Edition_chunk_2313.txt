@@ -1,0 +1,6 @@
+According to the mdadm.conf manual page, you need the following:
+
+ARRAY /dev/md0 level=raid1 num-devices=2 spares=1 
+    UUID=ca66c4e2:49e8c87e:94d311de:01ca4f55 devices=/dev/sdc,/dev/sdd,/dev/sde
+
+Note that adding this array definition is not strictly necessary.

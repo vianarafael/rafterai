@@ -1,0 +1,29 @@
+In Red Hat Enterprise Linux (up to RHEL 6) and in 
+older Fedora distributions, you could type the following as root:
+
+# chkconfig httpd on
+# service httpd start
+Starting httpd:                [  OK  ]
+
+In recent Fedora systems and RHEL 7, you enable and start httpd using the systemctl 
+command:
+
+# systemctl enable httpd.service
+# systemctl start httpd.service
+# systemctl status httpd.service
+httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled)
+   Active: active (running) since Thu 2014-08-28 08:49:54 EDT; 11h 
+      ago
+ Main PID: 14575 (/usr/sbin/httpd)
+   Status: "Total requests: 17; Current requests/sec: 0; Current 
+      traffic:   0 B/sec"
+   CGroup: /system.slice/httpd.service
+           ├─14575 /usr/sbin/httpd -DFOREGROUND
+           ├─14582 /usr/sbin/httpd -DFOREGROUND
+           ├─14583 /usr/sbin/httpd -DFOREGROUND
+           ├─14584 /usr/sbin/httpd -DFOREGROUND
+    ...
+
+When the httpd service starts, six httpd daemon processes are launched by default to 
+respond to requests for the web server.

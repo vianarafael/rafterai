@@ -1,0 +1,10 @@
+# prime-run
+
+
+- Run a program using a dedicated Nvidia GPU:
+
+`prime-run {{command}}`
+
+- Validate whether the Nvidia card is being used:
+
+`prime-run glxinfo | grep "OpenGL renderer"`

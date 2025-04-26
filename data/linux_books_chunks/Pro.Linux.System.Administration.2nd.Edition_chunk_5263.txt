@@ -1,0 +1,6 @@
+This ensures your host lets you know when important events occur, such as when disk space 
+runs out on a host or when a service unexpectedly stops.
+
+876
+
+In the IT world, this monitoring mechanism is called enterprise monitoring.

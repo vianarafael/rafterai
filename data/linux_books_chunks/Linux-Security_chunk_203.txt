@@ -1,0 +1,1 @@
+Use passwd -d to disable the serena password.

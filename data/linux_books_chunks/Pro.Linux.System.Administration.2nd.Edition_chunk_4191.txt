@@ -1,0 +1,15 @@
+The Director section 
+defines the name of our Bareos Director and the storage password that was defined in /etc/bareos/bareos-
+dir.conf and was automatically also created here by the installation process.
+
+Director {
+  Name = example-mon
+  Password = "/H9QQD9YJOcd9jTnX1w/aFMMghxFuHmPYuJv882Sk54F"
+  Monitor = yes
+}
+Messages {
+  Name = Standard
+  director = example-dir = all
+}
+
+The Monitor, or Console, section in bareos-dir.conf defines the resource Director { ...

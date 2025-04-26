@@ -1,0 +1,7 @@
+This means that you can have local SCSI
+devices (like /dev/sdb) without having the storage hardware in the local computer.
+
+The  computer  holding  the  physical  storage  hardware  is  called  the  iSCSI  Target.  Each
+individual addressable iSCSI device on the target server will get a LUN number.
+
+The iSCSI client computer that is connecting to the Target server is called an Initiator.

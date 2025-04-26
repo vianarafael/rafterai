@@ -1,0 +1,3 @@
+We don’t want users owning their own documents throughout the directory tree and then 
+having to get someone to change the permissions or ownership for them later when they want to share those 
+documents with others.

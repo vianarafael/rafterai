@@ -1,0 +1,15 @@
+/proc/meminfo
+
+Displaying /proc/meminfo will tell you a lot about the memory on your Linux computer.
+
+paul@ubu1010:~$ cat /proc/meminfo 
+MemTotal:        3830176 kB
+MemFree:          244060 kB
+Buffers:           41020 kB
+Cached:          2035292 kB
+SwapCached:         9892 kB
+...
+
+The first line contains the total amount of physical RAM, the second line is the unused RAM.
+Buffers is RAM used for buffering files, cached is the amount of RAM used as cache and
+SwapCached is the amount of swap used as cache.

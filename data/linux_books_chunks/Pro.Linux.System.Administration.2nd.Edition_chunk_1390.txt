@@ -1,0 +1,10 @@
+With nmcli we issue the following:
+
+$ sudo nmcli device status
+DEVICE  TYPE      STATE         CONNECTION
+enp0s8  ethernet  disconnected  --
+enp0s9  ethernet  disconnected  --
+
+This shows our devices are currently in the disconnected state. We are now going to bring up our master 
+
+(bond0) interface by starting our slave interfaces.

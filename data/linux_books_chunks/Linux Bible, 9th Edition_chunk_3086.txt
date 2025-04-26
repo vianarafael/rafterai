@@ -1,0 +1,7 @@
+Leaving debugging on 
+quickly ﬁ lls up your log ﬁ les.
+
+Securing Apache
+To secure Apache, you need to be aware of standard Linux security features (permissions, 
+ownership, ﬁ rewalls, and Security Enhanced Linux) as well as security features that are 
+speciﬁ c to Apache.

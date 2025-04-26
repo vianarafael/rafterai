@@ -1,0 +1,13 @@
+As normal user, look at who owns this file created by root.
+
+ls -l ~/permissions
+
+The file created by root is owned by root.
+
+5. Change the ownership of all files in ~/permissions to yourself.
+
+chown user ~/permissions/*
+
+You cannot become owner of the file that belongs to root.
+
+6.

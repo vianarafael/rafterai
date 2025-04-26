@@ -1,0 +1,23 @@
+install multipath
+
+RHEL and CentOS need the device-mapper-multipath package.
+
+yum install device-mapper-multipath
+
+This  will  create  a 
+multipath-0.4.9/multipath.conf.
+
+sample  multipath.conf 
+
+in 
+
+/usr/share/doc/device-mapper-
+
+There is no /etc/multipath.conf until you initialize it with mpathconf.
+
+[root@server2 ~]# mpathconf --enable --with_multipathd y
+Starting multipathd daemon:                                [  OK  ]
+[root@server2 ~]# wc -l /etc/multipath.conf 
+99 /etc/multipath.conf
+
+13.2.

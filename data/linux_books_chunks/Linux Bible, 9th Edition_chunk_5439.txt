@@ -1,0 +1,13 @@
+The ports you have running on your Linux server 
+will vary. However, they may look similar to the following:
+
+# nmap -sT 127.0.0.1
+...
+PORT    STATE SERVICE
+25/tcp  open  smtp
+631/tcp open  ipp
+
+3.  To run a UDP Connect scan on your Linux system from a remote system:
+
+a. Determine your Linux server’s IP address by typing ifconfig at the command 
+line.

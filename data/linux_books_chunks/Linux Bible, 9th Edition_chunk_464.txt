@@ -1,0 +1,5 @@
+When you are ready, 
+click Install to install the package and any dependent packages needed to make it work.
+
+By searching for and installing some common desktop applications, you should be able to 
+start using your desktop effectively.

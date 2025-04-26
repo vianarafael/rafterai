@@ -1,0 +1,3 @@
+This is a web-based GUI that can take some of the administrative 
+pain away from updating text files. It is available in two versions: a free version and an enterprise version that 
+requires a fee.

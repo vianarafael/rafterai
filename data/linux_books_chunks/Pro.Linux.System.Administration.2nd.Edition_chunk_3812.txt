@@ -1,0 +1,6 @@
+We can do that with the following:
+
+$ sudo gluster volume status
+Volume vol1 is not started
+
+So, like the message from when we created our volume, it is not started, and we will have to start it.

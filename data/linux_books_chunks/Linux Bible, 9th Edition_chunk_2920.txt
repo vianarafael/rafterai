@@ -1,0 +1,10 @@
+If the printer is added successfully, click the 
+
+name of your printer to have the new printer page appear; from the printer page, 
+you can select Maintenance or Administration to print a test page or modify the 
+printer conﬁ guration.
+
+With the basic printer conﬁ guration done, you can now do further work with your printers. 
+Here are a few examples of what you can do:
+
+ ■ List print jobs.

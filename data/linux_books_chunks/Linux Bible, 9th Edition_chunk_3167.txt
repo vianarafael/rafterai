@@ -1,0 +1,5 @@
+That content would be available from http://www
+.example.org/~wtucker.
+
+Make these changes to the /etc/httpd/conf/httpd.conf ﬁ le to allow users to publish 
+web content from their own home directories.

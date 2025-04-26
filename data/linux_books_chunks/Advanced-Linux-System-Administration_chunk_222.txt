@@ -1,0 +1,30 @@
+One can start cardmgr on the commandline after having inserted the above kernel 
+modules
+
+modprobe pcmcia_core
+
+modprobe yenta_socket
+
+modprobe ds
+
+cardmgr
+
+cardmgr[18772]: watching 2 sockets
+
+But it is best to use the rc-script provided with the pcmcia-cs package:
+
+/etc/rc.d/init.d/pcmcia restart
+
+The configuration file with a database of possible devices (e.g modems, wireless network 
+
+55
+
+ 
+ 
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+interfaces, memory cards ...) is called /etc/pcmcia/config.

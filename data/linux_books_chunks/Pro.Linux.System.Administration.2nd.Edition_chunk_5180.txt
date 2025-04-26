@@ -1,0 +1,4 @@
+The monitor server we talked about in Chapter 17 had 
+our Graphite service set up and was used to store the metrics we collected from our hosts via Collectd.
+
+For simplicity we are going to run the Logstash service and Elasticsearch on our monitor host.

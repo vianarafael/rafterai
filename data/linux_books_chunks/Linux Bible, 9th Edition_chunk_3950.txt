@@ -1,0 +1,7 @@
+However, in that case, you can edit the resolv.conf ﬁ le directly to set your DNS 
+server addresses.
+
+The procedures just described for checking your outgoing network connectivity apply to 
+any type of system, whether it is a laptop, desktop, or server. For the most part, incoming 
+connections are not an issue with laptops or desktops because most requests are  simply 
+denied.

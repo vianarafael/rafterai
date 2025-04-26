@@ -1,0 +1,9 @@
+This is maybe starting to sound a little like Russian dolls, but the idea is that 
+you abstract designation logic from the type of server it is. For the time being, let’s move on to configuring 
+our role.
+
+Create the following directory: /etc/puppetlabs/code/environments/production/sites/role/
+
+manifests. In there we create the file in Listing 19-9.
+
+Listing 19-9.

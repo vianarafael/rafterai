@@ -1,0 +1,8 @@
+We then would execute the following:
+
+$ sudo ufw reload && sudo ufw allow bareos
+
+Getting the Software
+The Bareos download page (https://www.bareos.org/en/download.html) provides links to RPM and DEB 
+packages of the latest releases for you to download. Distributions can be several versions behind the latest 
+release, and only Ubuntu is currently shipping with Bareos.

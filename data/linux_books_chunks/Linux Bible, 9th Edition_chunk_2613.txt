@@ -1,0 +1,5 @@
+You can change 
+any kernel parameters set in the /proc/sys directory structure in this way.)
+
+When a Linux system is used as a router, it is often used as a ﬁ rewall between a private 
+network and a public network, such as the Internet, as well.

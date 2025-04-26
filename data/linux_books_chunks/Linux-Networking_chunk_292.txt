@@ -1,0 +1,3 @@
+ssh-keygen
+
+The example below shows how Alice uses ssh-keygen to generate a key pair.

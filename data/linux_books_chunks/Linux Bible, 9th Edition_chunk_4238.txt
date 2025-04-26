@@ -1,0 +1,6 @@
+However, aide can also 
+display many false positives.
+
+Where aide databases are created, what comparisons are made, and several other conﬁ gu-
+ration settings are handled in the /etc/aide.conf ﬁ le. The following is a partial display 
+of the ﬁ le.

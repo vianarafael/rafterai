@@ -1,0 +1,12 @@
+monitoring memory with vmstat
+
+You can find information about swap usage using vmstat.
+
+Below a simple vmstat displaying information in megabytes.
+
+paul@ubu1010:~$ vmstat -S m
+procs ---------memory-------- ---swap-- -----io---- -system- ----cpu----
+ r  b  swpd  free  buff cache  si   so   bi    bo    in   cs us sy id wa
+ 0  0    87   225    46  2097   0    0    2     5    14    8  6  5 89  1
+
+Below a sample vmstat when (in another terminal) root launches a find /.

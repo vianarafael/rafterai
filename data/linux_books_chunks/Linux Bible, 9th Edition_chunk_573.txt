@@ -1,0 +1,4 @@
+Try some of the commands shown in the remainder of this 
+section to become familiar with your current shell environment.
+
+In the examples that follow, the dollar ($) and pound (#) symbols indicate a prompt.

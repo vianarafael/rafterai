@@ -1,0 +1,9 @@
+Monitoring must go on continuously.
+
+Monitoring your system includes watching over log ﬁ les, user accounts, and the ﬁ lesystem 
+itself. In addition, you need some tools to help you detect intrusions and other types of 
+malware.
+
+Monitoring log fi les
+Understanding how message logging is done is critical to maintaining and troubleshoot-
+ing a Linux system.

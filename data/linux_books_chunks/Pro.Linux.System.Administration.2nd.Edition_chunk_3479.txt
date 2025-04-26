@@ -1,0 +1,12 @@
+We edit the /etc/dovecot/conf.d/10-master.conf file like so:
+
+service lmtp {
+ unix_listener /var/spool/postfix/private/dovecot-lmtp {
+   group = postfix
+   mode = 0600
+   user = postfix
+  }
+}
+
+Lastly, we need to tell Dovecot to strip the domain away from the username when delivering the mail. 
+The LMTP process gets the username from RCPT TO:, and we need to strip the domain off.

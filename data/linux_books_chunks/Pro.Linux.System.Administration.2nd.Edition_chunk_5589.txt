@@ -1,0 +1,10 @@
+Client software 
+
+is then installed on the target hosts, called nodes, that you want to manage. When a node connects to the 
+Puppet master, a configuration manifest for that node is compiled on the master, sent to the node, and then 
+applied on the node by the Puppet agent.
+
+ there is another way to apply the manifest to a node, and that is called master-less puppet, or a 
+
+ ■ Tip 
+puppet apply.

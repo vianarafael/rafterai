@@ -1,0 +1,11 @@
+This ﬁ lesystem is not mounted automatically 
+(noauto), however, and can be mounted only as read-only (ro) using the mount command 
+after the system is already running.
+
+542
+
+c20.indd  04/01/2015  Page 543
+
+Chapter 20: Confi guring an NFS File Server
+
+The default is to mount an NFS fi lesystem as read/write. However, the default for exporting a fi lesystem is read-only.

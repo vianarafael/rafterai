@@ -1,0 +1,5 @@
+The lmhosts ﬁ le enables the Samba NetBIOS hostname to be mapped into IP addresses.
+
+Although it doesn’t exist by default, you can create a ﬁ le named /etc/samba/smbusers 
+to map Linux user names into Windows user names. As you conﬁ gure your Samba server, 
+you can refer to the smb.conf man page (man smb.conf).

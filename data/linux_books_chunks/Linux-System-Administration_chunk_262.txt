@@ -1,0 +1,8 @@
+ide or scsi
+
+Actually, the title should be ata or scsi, since ide is an ata compatible device. Most desktops
+use ata devices, most servers use scsi.
+
+4.1.3. ata
+
+An  ata  controller  allows  two  devices  per  bus,  one  master  and  one  slave.

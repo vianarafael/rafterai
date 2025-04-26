@@ -1,0 +1,18 @@
+Because a regular ﬁ le is created without execute permission, the effective permission is 
+reduced to rw-:
+
+[mary@cnegus ~]$ touch /tmp/mary/file.txt
+[mary@cnegus ~]$ getfacl /tmp/mary/file.txt
+# file: tmp/mary/file.txt
+# owner: mary
+# group: mary
+user::rw-
+group::rwx         #effective:rw-
+group:sales:rwx    #effective:rw-
+group:market:rwx   #effective:rw-
+mask::rw-
+other::r--
+
+Enabling ACLs
+Basic Linux ﬁ lesystems that you create after installation have only one user and one group 
+assigned to each ﬁ le and directory and do not include ACL support by default.

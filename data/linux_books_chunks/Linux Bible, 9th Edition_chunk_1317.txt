@@ -1,0 +1,5 @@
+You have to run the program that reads these ﬁ les (such as a network daemon or 
+the X desktop) to ﬁ nd out whether you set up the ﬁ les correctly.
+
+While some conﬁ guration ﬁ les use standard structures, such as XML, for storing  information, 
+many do not. So you need to learn the speciﬁ c structure rules for each conﬁ guration ﬁ le.

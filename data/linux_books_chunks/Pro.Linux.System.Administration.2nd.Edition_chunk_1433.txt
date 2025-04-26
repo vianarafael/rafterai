@@ -1,0 +1,7 @@
+You can also go to the following for a 
+handy pocket guide: http://www.sans.org/resources/tcpip.pdf?ref=3871, and of course: https://
+en.wikipedia.org/wiki/Transmission_Control_Protocol.
+
+The TCP/IP protocol can described under what is called the OSI model, even though it was originally 
+
+conceived under a different model, called the DoD model (Department of Defense).

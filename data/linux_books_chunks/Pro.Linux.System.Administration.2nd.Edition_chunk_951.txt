@@ -1,0 +1,7 @@
+Inside the sudoers file, you can 
+
+define another type of alias based on the group information in your host by prefixing the group name with %.
+
+%groupname ALL=(ALL) ALL
+
+You would then replace groupname with the name of a group defined on your host.

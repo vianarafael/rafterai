@@ -1,0 +1,9 @@
+The added emphasis is on remote 
+logging and name resolution. Sotware packaging is covered here to. We will see how to 
+make our own RPM package. 
+
+1. System Logging
+
+Stopping and Starting syslogd
+
+The syslogd daemon is responsible for system logging.

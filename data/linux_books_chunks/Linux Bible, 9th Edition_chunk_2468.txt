@@ -1,0 +1,5 @@
+The client doesn’t own that 
+address, but must lease it again when the time expires and request it again 
+when the network interface restarts. Usually, the DHCP server remembers the 
+client and assigns the same address when the system starts up again or asks to 
+renew the lease.

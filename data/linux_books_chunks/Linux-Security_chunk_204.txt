@@ -1,0 +1,12 @@
+Verify the serena line in /etc/shadow
+before and after disabling.
+
+root@debian7:~# grep serena /etc/shadow | cut -c1-70
+serena:$6$Es/omrPE$F2Ypu8kpLrfKdW0v/UIwA5jrYyBD2nwZ/dt.i/IypRgiPZSdB/B
+root@debian7:~# passwd -d serena
+passwd: password expiry information changed.
+root@debian7:~# grep serena /etc/shadow
+serena::16358:0:99999:7:::
+root@debian7:~#
+
+4.

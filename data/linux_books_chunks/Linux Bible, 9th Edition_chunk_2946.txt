@@ -1,0 +1,16 @@
+You can then 
+select the font type, size, style, and intensity of the watermark or overlay.
+
+431
+
+ 
+ 
+c16.indd  04/01/2015  Page 432
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Resolution Enhancement—You can use the printer’s current settings or choose 
+
+to turn resolution enhancement on or off.
+
+ ■ Page Size—The default is U.S.

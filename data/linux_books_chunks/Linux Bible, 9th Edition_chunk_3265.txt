@@ -1,0 +1,6 @@
+The anonymous user cannot go outside the /var/ftp directory structure. If a 
+regular user, let’s say joe, logs in to the FTP server, /home/joe is joe’s current directory, 
+but joe can change to any part of the ﬁ lesystem for which joe has permission.
+
+Command-oriented FTP clients (such as lftp and ftp commands) go into an interactive 
+mode after connecting to the server.

@@ -1,0 +1,4 @@
+The hostname is set, Logical Volume Management 
+(LVM) volumes are activated, all ﬁ lesystems are checked (with the added LVM volumes), any 
+ﬁ lesystems not yet mounted are mounted, the root ﬁ lesystem is remounted read-write, and 
+any LVM swaps are enabled.

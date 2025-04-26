@@ -1,0 +1,12 @@
+We can arrow 
+down to <OK> and exit.
+
+231
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+CONSISTENT DEVICE NAMING
+
+what’s with the name enp0s3 or enp0s8? Previously when systems were booted their network devices 
+would be probed by the driver and given a name like eth0. if there was more than one network device 
+eth0 might be eth0 on one boot and eth1 on the next. this lead to obvious problems.

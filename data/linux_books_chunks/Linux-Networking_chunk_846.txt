@@ -1,0 +1,5 @@
+verify the share
+
+17.4.1. verify with smbclient
+
+You can now verify the existence of the share with smbclient.

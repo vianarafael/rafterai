@@ -1,0 +1,4 @@
+It is a derivative of Red Hat Enterprise Linux and provides a forward development platform for the 
+product. Sponsored by Red Hat, Fedora is a testing ground for many of Red Hat’s new features. As a result, 
+it is occasionally considered by some to be too edgy for commercial use. Many of the features introduced in 
+Fedora often make their way into the new RHEL releases.

@@ -1,0 +1,2 @@
+The K Desktop Environment (KDE) offers many more bells and whistles than GNOME and is 
+used by default in several Linux distributions.

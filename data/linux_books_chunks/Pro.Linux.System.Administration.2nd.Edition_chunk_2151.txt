@@ -1,0 +1,10 @@
+Technically 
+
+368
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+speaking, you’re not formatting the partition; rather, you’re writing a small amount of information to 
+indicate to the kernel that it can be used as swap space.
+
+You can immediately activate the new swap partition via the swapon command.

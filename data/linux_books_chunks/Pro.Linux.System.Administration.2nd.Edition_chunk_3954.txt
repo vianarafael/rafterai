@@ -1,0 +1,7 @@
+Now we issue the following series of ssh commands:
+
+$ ssh jsmith@branch1.example.com 'sudo useradd –u 903 –g adm –m 
+–d /data/backups exbackup && sudo –u exbackup mkdir –p /data/backups/.ssh && 
+sudo chmod 0700 /data/backups/.ssh'
+
+This sets up our exbackup user on our remote host.

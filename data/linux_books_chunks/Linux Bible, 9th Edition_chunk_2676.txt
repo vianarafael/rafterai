@@ -1,0 +1,5 @@
+Network services are not started.
+
+Users can log in to the server, but only the command line 
+ interface is available. On some systems, network interfaces and 
+services are started; on others they are not.

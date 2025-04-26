@@ -1,0 +1,20 @@
+On CentOS we would be using the /etc/pki/tls 
+directory again.
+
+[branch1]$ sudo mv branch1.example.com.cert /etc/ssl/certs/
+[branch1]$ sudo mv branch1.example.com.key /etc/ssl/private/
+[branch1]$ sudo mv cacert.pem /etc/ssl/certs/
+
+We want to protect our certificate and key with the right ownership and some restricted permissions for 
+
+our key.
+
+branch1$ sudo chown root:root /etc/ssl{certs,private}/branch1.example.com.*
+branch1$ sudo chown root:root /etc/ssl/certs/cacert.pem
+branch1$ sudo chmod 0400 /etc/ssl/private/gateway.example.com.key
+
+713
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Next, we need to create a configuration file for our client.

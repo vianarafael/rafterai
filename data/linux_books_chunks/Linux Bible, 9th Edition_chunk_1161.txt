@@ -1,0 +1,9 @@
+The following example sets the output of the uname -n 
+
+155
+
+c07.indd  04/01/2015  Page 156
+
+Part II: Becoming a Linux Power User
+
+ command to the MACHINE variable.

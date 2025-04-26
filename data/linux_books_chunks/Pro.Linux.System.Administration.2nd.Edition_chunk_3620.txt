@@ -1,0 +1,9 @@
+Commercial licenses available to get certain features 
+(https://www.zimbra.com/legal/licensing/).
+
+Open source with commercial add-ons (https://creativecommons.org/licenses/
+by-nd/3.0/us/).
+
+Summary
+In this chapter, we introduced you to mail services on a Linux host that allow your users to send and receive 
+e-mail from your organization.

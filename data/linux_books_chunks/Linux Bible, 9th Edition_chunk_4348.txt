@@ -1,0 +1,9 @@
+It's a secret.
+
+The root user also can use the cat command to display the ﬁ le in plaintext.
+
+# cat /home/johndoe/Secret/my_secret_file
+Shh... It's a secret.
+
+However, after the encrypted directory is unmounted using the umount command, the ﬁ les 
+are no longer automatically decrypted.

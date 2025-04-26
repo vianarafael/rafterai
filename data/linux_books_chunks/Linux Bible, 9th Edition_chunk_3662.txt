@@ -1,0 +1,8 @@
+That ﬁ le contains information about all different kinds of mounted 
+(and available to be mounted) ﬁ lesystems for your system.
+
+Here’s the format for adding an NFS ﬁ lesystem to your local system:
+
+host:directory    mountpoint    nfs    options    0    0
+
+The ﬁ rst item (host:directory) identiﬁ es the NFS server computer and shared directory.

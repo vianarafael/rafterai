@@ -1,0 +1,36 @@
+The following is an example of the /etc/passwd audit information:
+
+# ausearch -f /etc/passwd
+time->Fri Feb  7 04:27:01 2014
+type=PATH msg=audit(1328261221.365:572):
+
+612
+
+c22.indd  04/15/2015  Page 613
+
+Chapter 22: Understanding Basic Linux Security 
+
+item=0 name="/etc/passwd" inode=170549
+dev=fd:01 mode=0100644 ouid=0 ogid=0
+rdev=00:00 obj=system_u:object_r:etc_t:s0
+type=CWD msg=audit(1328261221.365:572):  cwd="/"
+...
+time->Fri Feb  7 04:27:14 2014
+type=PATH msg=audit(1328261234.558:574):
+item=0 name="/etc/passwd" inode=170549
+dev=fd:01 mode=0100644 ouid=0 ogid=0
+rdev=00:00 obj=system_u:object_r:etc_t:s0
+type=CWD msg=audit(1328261234.558:574):
+cwd="/home/johndoe"
+type=SYSCALL msg=audit(1328261234.558:574):
+arch=40000003 syscall=5 success=yes exit=3
+a0=3b22d9 a1=80000 a2=1b6 a3=0 items=1 ppid=3891
+pid=21696 auid=1000 uid=1000 gid=1000 euid=1000
+suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000
+tty=pts1 ses=2 comm="vi" exe="/bin/vi"
+ subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023"
+----
+
+22
+
+This is lots of information to review.

@@ -1,0 +1,8 @@
+dstat disk access
+
+809
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Similarly, you can use the –N switch to supply network interfaces to dstat (-N em1,em2) to report 
+network traffic per interface. The –C will do a similar job for CPUs.

@@ -1,0 +1,6 @@
+For nginx, there is not one, but we would invoke the following:
+
+~/<some-package-source>$ sudo make uninstall
+
+That means we need to keep the configured sources lying about on our systems. This is less than ideal, 
+as we need to track not only which software we installed from source but also where we keep these sources.

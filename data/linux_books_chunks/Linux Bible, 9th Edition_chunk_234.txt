@@ -1,0 +1,7 @@
+Basic features of the GNU Public License 
+include the following:
+
+ ■ Author rights—The original author retains the rights to his or her software.
+
+ ■ Free distribution—People can use the GNU software in their own software, chang-
+ing and redistributing it as they please.

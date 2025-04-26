@@ -1,0 +1,30 @@
+If you don’t plan to have your certiﬁ cate signed, or if you want to test your 
+ conﬁ guration, generate a self-signed certiﬁ cate and save it in a ﬁ le named 
+server.crt in the /etc/pki/tls/certs directory:
+
+469
+
+ 
+ 
+ 
+ 
+ 
+ 
+c17.indd  04/01/2015  Page 470
+
+Part IV: Becoming a Linux Server Administrator
+
+# cd /etc/pki/tls/certs
+# openssl req -new -x509 -nodes -sha1 -days 365 \
+   -key /etc/pki/tls/private/server.key \
+   -out server.crt
+Country Name (2 letter code) [AU]: US
+State or Province Name (full name) [Some-State]: NJ
+Locality Name (eg, city) [Default City]: Princeton
+Organization Name (eg, company) [Default Company Ltd
+Ltd]:TEST USE ONLY
+Organizational Unit Name (eg, section) []:TEST USE ONLY
+Common Name (eg, YOUR name) []:secure.example.org
+Email Address []:dom@example.org
+
+4.

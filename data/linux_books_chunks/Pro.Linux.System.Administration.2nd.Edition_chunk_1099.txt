@@ -1,0 +1,6 @@
+Requires does not 
+provide ordering but tells systemd that these services should be executed too. If one of the required targets 
+or services fails, this unit will be deactivated too.
+
+Ordering support of targets or services is provided by adding options like the After. The rescue.unit 
+should now be started after sysinit.target and rescue.service.

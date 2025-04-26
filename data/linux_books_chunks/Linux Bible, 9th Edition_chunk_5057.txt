@@ -1,0 +1,3 @@
+A pop-up window asks if you want to open or save the *.pem ﬁ le.
+
+ Select Save File, and click OK.

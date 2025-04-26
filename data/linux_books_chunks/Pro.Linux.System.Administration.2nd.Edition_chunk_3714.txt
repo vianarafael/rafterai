@@ -1,0 +1,11 @@
+To do that, we 
+
+disable tbear’s details like so:
+
+$ sudo samba-tool user disable tbear
+Disabled user tbear
+
+If we wanted to remove him completely, we would use samba-tool user delete.
+Next we are going to create our sales group, and then we will add jsmith and bsingh to it. We use 
+
+samba-tool again via the group subcommand.

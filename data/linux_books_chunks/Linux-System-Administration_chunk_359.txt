@@ -1,0 +1,18 @@
+The system binaries to make file systems can be found with ls.
+
+[root@RHEL4b ~]# ls -lS /sbin/mk*
+-rwxr-xr-x  3 root root 34832 Apr 24  2006 /sbin/mke2fs
+-rwxr-xr-x  3 root root 34832 Apr 24  2006 /sbin/mkfs.ext2
+-rwxr-xr-x  3 root root 34832 Apr 24  2006 /sbin/mkfs.ext3
+-rwxr-xr-x  3 root root 28484 Oct 13  2004 /sbin/mkdosfs
+-rwxr-xr-x  3 root root 28484 Oct 13  2004 /sbin/mkfs.msdos
+-rwxr-xr-x  3 root root 28484 Oct 13  2004 /sbin/mkfs.vfat
+-rwxr-xr-x  1 root root 20313 Apr 10  2006 /sbin/mkinitrd
+-rwxr-x---  1 root root 15444 Oct  5  2004 /sbin/mkzonedb
+-rwxr-xr-x  1 root root 15300 May 24  2006 /sbin/mkfs.cramfs
+-rwxr-xr-x  1 root root 13036 May 24  2006 /sbin/mkswap
+-rwxr-xr-x  1 root root  6912 May 24  2006 /sbin/mkfs
+-rwxr-xr-x  1 root root  5905 Aug  3  2004 /sbin/mkbootdisk
+[root@RHEL4b ~]#
+
+It is time for you to read the manual pages of mkfs and mke2fs.

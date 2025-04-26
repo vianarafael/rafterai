@@ -1,0 +1,7 @@
+Select 
+System ➪ Preferences ➪ Keyboard Shortcuts to see a list of shortcuts, such as the following:
+
+ ■ Run Dialog—To run a command to launch an application from the desktop by 
+
+ command name, press Alt+F2. From the dialog box that appears, type the command 
+and press Enter.

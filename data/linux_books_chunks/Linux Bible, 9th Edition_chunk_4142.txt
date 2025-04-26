@@ -1,0 +1,10 @@
+Its ﬁ le 
+permissions should be set exactly as the /etc/passwd ﬁ le:
+
+ ■ Owner: root
+
+ ■ Group: root
+
+ ■ Permissions: (644) Owner: rw- Group: r-- Other: r--
+
+Also, the group password ﬁ le, /etc/gshadow, needs to be properly secured.

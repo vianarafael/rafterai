@@ -1,0 +1,6 @@
+If we were using a group or a regular expression to define our host, this listing would be more immediately 
+useful.
+
+There is still one thing we need to do before we can run our playbook command, and this is not 
+obvious. We have created our database secrets in a group vars directory called dbs, which means that the 
+backup.example.com host must be a member of that host group.

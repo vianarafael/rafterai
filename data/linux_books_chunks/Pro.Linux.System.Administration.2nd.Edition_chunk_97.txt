@@ -1,0 +1,3 @@
+Rescue mode assumes you already have Linux loaded, and it allows 
+you to boot and potentially repair or rescue a broken Linux installation. You will boot into a rescue prompt 
+that allows you to mount disks, edit configuration files, and access other useful utilities.

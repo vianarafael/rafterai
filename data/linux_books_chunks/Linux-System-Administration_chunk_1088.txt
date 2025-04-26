@@ -1,0 +1,9 @@
+/etc/ssh/
+
+Configuration of ssh client and server is done in the /etc/ssh directory. In the next sections
+we will discuss most of the files found in /etc/ssh/.
+
+25.1.3. ssh protocol versions
+
+The  ssh  protocol  has  two  versions  (1  and  2).  Avoid  using  version  1  anywhere,  since  it
+contains  some  known  vulnerabilities.

@@ -1,0 +1,7 @@
+Roles are collections of tasks, 
+variables, templates, files, and handlers that can be used to configure a particular service, like Nginx (see 
+https://galaxy.ansible.com/ for a whole bunch of roles that people have created and shared).
+
+The fact_caching can be stored either in memory on your local host or in different shared service like 
+
+Redis (Redis being an open source key/value store database).

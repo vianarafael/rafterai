@@ -1,0 +1,9 @@
+The latest version at the 
+
+time of this writing is WordPress 4.5.3. We’ll download it to our home directory using the curl command.
+
+$ curl https://wordpress.org/latest.tar.gz -o wordpress.tar.gz
+
+Next, we unpack the tarball. We can unpack it here and then move the required files and directories to 
+
+the web root, or we can unpack it directly to the web root.

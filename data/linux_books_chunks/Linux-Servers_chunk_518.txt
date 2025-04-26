@@ -1,0 +1,4 @@
+POSTROUTING allows altering packets after they exit
+the OUTPUT chain.
+
+Use iptables -t nat -nvL to look at the NAT table.

@@ -1,0 +1,6 @@
+We use the 
+–q to not display annoying connection information, -x disables X11 forwarding, and –T disables the pseudo 
+terminal on the jumphost (we don’t require one for proxying).
+
+In newer versions of OpenSSH (7.3 and above) you will use the ProxyJump configuration option 
+which will handle this for you.

@@ -1,0 +1,8 @@
+These files are general copies of files in the /etc/sysconfig/ network-script 
+directory and are created for you by the system-config-network tool.
+
+Taking a look at the contents of the /etc/sysconfig/network-scripts directory, you will see the files 
+
+shown in Listing 7-3.
+
+Listing 7-3.

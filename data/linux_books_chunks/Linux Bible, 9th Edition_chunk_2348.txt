@@ -1,0 +1,7 @@
+Because the FTP protocol passes 
+ usernames, passwords, and data in clear text, using sftp over SSH, if possible, is a much 
+better alternative for allowing your users to interactively copy ﬁ les from the system.
+
+Using key-based (passwordless) authentication
+If you are using SSH tools to connect to the same systems throughout the day, you might 
+ﬁ nd it inconvenient to be typing your password over and over again.

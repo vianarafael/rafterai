@@ -1,0 +1,3 @@
+In the following, nmap scans are run again from Host-B. This time the nmap 
+utility shows the ssh service running on open port 22. Notice with the ﬁ rewall down on 
+Host-A, both nmap scans pick up much more information.

@@ -1,0 +1,6 @@
+Set up your TODAY variable, and execute the gawk command. All 
+the expired accounts in the /etc/shadow ﬁ le are listed for you. To remove these accounts, 
+use the userdel command.
+
+User accounts are only a portion of the authentication process, allowing users into the 
+Linux system.

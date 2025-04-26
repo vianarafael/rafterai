@@ -1,0 +1,7 @@
+You can override any of these default values by adding mount options to the 
+/etc/fstab or to the mount command line when the NFS directory is mounted.
+
+Using autofs to mount NFS fi lesystems on demand
+Recent improvements to auto-detecting and mounting removable devices have meant 
+that you can simply insert or plug in those devices to have them detected, mounted, and 
+ displayed.

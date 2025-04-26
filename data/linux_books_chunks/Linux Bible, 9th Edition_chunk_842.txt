@@ -1,0 +1,5 @@
+Although 
+this number can grow above 4096 bytes for a directory that contains lots of ﬁ les, 
+this number doesn’t reﬂ ect the size of ﬁ les contained in that directory.
+
+ ■ The format of the time and date column can vary.

@@ -1,0 +1,7 @@
+By default, your host will usually 
+try to boot from an attached hard drive and, if configured, look for alternatives such as a CD/DVD drive or a 
+USB key.
+
+Every motherboard manufacturer has a different way of getting to the boot source menu, for example, 
+
+by pressing Esc, Del, or a function key such as F1, F2, or F10.

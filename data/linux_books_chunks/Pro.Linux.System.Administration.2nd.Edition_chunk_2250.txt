@@ -1,0 +1,7 @@
+However we prefer you use either a 
+
+label or the UUID as device paths can change.
+
+/dev/sdb2      /mnt/data      ext4     defaults            0        0
+
+Now you can test this entry without the need to reboot.

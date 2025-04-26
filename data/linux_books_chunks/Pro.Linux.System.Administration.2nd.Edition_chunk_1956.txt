@@ -1,0 +1,5 @@
+You generally won’t need to 
+ever use deb-src repositories unless you are creating backports (see the sidebar “Ubuntu Backports”). 
+the UrL points at the server that hosts the repository. the next field is the release, which for Ubuntu 
+16.04 is “xenial” You can find other releases of Ubuntu at https://en.wikipedia.org/wiki/List_of_
+Ubuntu_releases.

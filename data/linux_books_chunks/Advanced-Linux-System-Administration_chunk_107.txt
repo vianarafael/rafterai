@@ -1,0 +1,9 @@
+All we need to know is that they provide a greater flexibility 
+for directory and file permissions on the filesystem allowing, for example, several groups 
+to access resources with different permissions.
+
+WARNING
+
+This patch will fail on older kernel versions (e.g linux-2.4.22-1.2115.nptl )
+
+Install the 2.4.22-1.2149.nptl kernel and point the /usr/src/linux link to the new source.

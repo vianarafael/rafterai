@@ -1,0 +1,4 @@
+(If the printcap ﬁ le doesn’t exist, look for printer information in the /etc/
+cups directory.)
+
+ ■ profile—Sets system-wide environment and startup programs for all users.

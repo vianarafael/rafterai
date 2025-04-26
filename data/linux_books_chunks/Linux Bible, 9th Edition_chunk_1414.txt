@@ -1,0 +1,5 @@
+You can select what applications to launch for Blu-ray video disc, ebook readers, HD 
+DVD videos, Picture CDs, Super Video CDs, and video CDs.
+
+Note that the settings described here are in effect only for the user who is currently logged 
+in.

@@ -1,0 +1,7 @@
+Let’s use certbot to create our certificates 
+for www.example.com.
+
+$ sudo certbot --test-cert –d www.example.com
+
+Here we have issued certbot with the --test-cert argument, which will mean we will use the staging 
+application programming interface (API) instead of the real endpoint for Let’s Encrypt.

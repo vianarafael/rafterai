@@ -1,0 +1,16 @@
+To start the nmb service 
+(nmbd daemon) in Fedora or RHEL 7, type the following:
+
+# systemctl enable nmb.service
+# systemctl start nmb.service
+# systemctl status nmb.service
+
+In RHEL 6 and earlier, you would type the following to start the nmb service:
+
+# service nmb start
+# service nmb status
+# chkconfig nmb on
+# chkconfig --list nmb
+
+Regardless of how the NetBIOS service was started, the nmbd daemon should now be 
+ running and ready to serve NetBIOS name-to-address mapping.

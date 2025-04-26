@@ -1,0 +1,6 @@
+For 
+RHEL, you see a Red Hat Enterprise Linux screen with a slow-spinning icon. If you want to 
+watch messages detailing the boot process scroll by, press the Esc key.
+
+At this point, the kernel tries to load the drivers and modules needed to use the  hardware 
+on the computer.

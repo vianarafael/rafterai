@@ -1,0 +1,7 @@
+Recursively copy all the ﬁ les from the /usr/share/selinux directory on a 
+
+remote system to the /tmp directory on your local system in such a way that all 
+the modiﬁ cation times on the ﬁ les are updated to the time on the local system 
+when they are copied.
+
+5.

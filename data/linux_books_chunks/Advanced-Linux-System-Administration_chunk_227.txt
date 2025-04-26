@@ -1,0 +1,63 @@
+Samba Client Tools
+
+nmblookup
+
+nmblookup trainer-1
+
+querying trainer-1 on 192.168.3.255
+
+192.168.3.101 trainer-1<00>
+
+smbpasswd 
+
+smbpasswd -a USER 
+
+ add a samba user
+
+smbpasswd -e USER
+
+ enable a samba user
+
+smbtar
+
+Script using smbclient to archive SMB shares directly to tape
+
+smbclient
+
+smbclient //HOST/SHARE Logs onto the specified share
+
+smbclient -L //HOST
+
+List all available shares
+
+ Output of smbstatus
+
+Samba version 2.2.7a-security-rollup-fix
+
+Service      uid      gid      pid     machine
+
+----------------------------------------------
+
+dean         dean     dean      3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:54 2003
+
+IPC$         nobody   nogroup   3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:45 2003
+
+IPC$         nobody   nogroup   3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:53 2003
+
+dean         dean     dean      3106   trainer-1 (192.168.3.101) Mon Nov 26 13:35:14 2003
+
+netlogon     dean     dean      3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:54 2003
+
+public       nobody   nogroup   3145   drakelap (192.168.3.100) Mon Nov 26 13:35:34 2003
+
+IPC$         nobody   nogroup   3106   trainer-1 (192.168.3.101) Mon Nov 26 13:34:54 2003
+
+57
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+2.

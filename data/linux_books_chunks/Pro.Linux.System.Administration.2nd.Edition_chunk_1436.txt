@@ -1,0 +1,4 @@
+When diagnosing network problems, it never hurts 
+to jiggle the cables connecting your computer and the rest of the network. Also, when all else fails, you can 
+try replacing cables. If cables are faulty, you will probably not see any lights on the switch/hub your host 
+is connected to and the network card.

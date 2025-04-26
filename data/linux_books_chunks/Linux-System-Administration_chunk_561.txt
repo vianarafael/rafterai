@@ -1,0 +1,4 @@
+iSCSI target setup with dd files
+
+You can use LVM volumes (/dev/md0/lvol0), physical partitions (/dev/sda) ,raid devices (/
+dev/md0) or just plain files for storage.

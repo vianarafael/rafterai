@@ -1,0 +1,14 @@
+Letters that can replace the dots 
+(in order) include the following:
+
+S    file Size differs
+M    Mode differs (includes permissions and file type)
+5    MD5 sum differs
+D    Device major/minor number mismatch
+L    readLink(2) path mismatch
+U    User ownership differs
+G    Group ownership differs
+T    mTime differs
+P    caPabilities differ
+
+Those indicators are from the Verify section of the rpm man page.

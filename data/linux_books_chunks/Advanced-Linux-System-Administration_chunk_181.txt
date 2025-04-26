@@ -1,0 +1,2 @@
+The software tools are installed by the  lvm 
+package which provides in particular /sbin/vgscan.

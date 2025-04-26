@@ -1,0 +1,7 @@
+Find more information at http://tldp.org/HOWTO/Bash-Prompt-HOWTO/.
+
+In our case, jsmith is the name of the user we are logged in as; the @ symbol comes next and is followed 
+
+by the name of the host we are logged into, i.e., jsmith at au-mel-centos-1.
+
+ This part of the prompt looks like an e-mail address, for a good reason.

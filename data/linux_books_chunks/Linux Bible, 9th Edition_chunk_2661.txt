@@ -1,0 +1,6 @@
+Recently, Ubuntu, RHEL, and Fedora distributions have made the move 
+to the newer systemd daemon while maintaining backward compatibility to the classic 
+SysVinit, Upstart, or BSD init daemons.
+
+Upstart, available at http://upstart.ubuntu.com, was originally developed by 
+Canonical, the parent of the Ubuntu distribution.

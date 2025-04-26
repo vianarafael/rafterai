@@ -1,0 +1,5 @@
+/proc/filesystems
+
+The /proc/filesystems file displays a list of supported file systems. When you mount a file
+system without explicitly defining one, then mount will first try to probe /etc/filesystems
+and then probe /proc/filesystems for all the filesystems without the nodev label.

@@ -1,0 +1,88 @@
+If you have a mailbox that is 
+
+known to be full of spam, you can train your filters by issuing the following:
+
+$ sudo sa-learn --showdots --mbox --spam file-of-spam
+
+You should also teach your filter about ham, and to do that, you would issue the following:
+
+$ sudo sa-learn --showdots --mbox --ham file-of-ham
+
+We can also look at our actual e-mail and see the details of the headers SpamAssassin has added.
+
+$ sudo cat /home/jsmith/Maildir/new/1472350940.Vca02I203b0aaM132480.mail.example.com
+Return-Path: <ataylor@example.com>
+X-Original-To: jsmith@example.com
+Delivered-To: jsmith@example.com
+Received: by mail.example.com (Postfix, from userid 993)
+id 1F0C4181186F; Sat, 27 Aug 2016 22:22:20 -0400 (EDT)
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+mail.example.com
+X-Spam-Flag: YES
+X-Spam-Level: **************************************************
+X-Spam-Status: Yes, score=999.1 required=5.0 tests=ALL_TRUSTED,GTUBE,
+MISSING_MID autolearn=no autolearn_force=no version=3.4.0
+X-Spam-Report:
+* -1.0 ALL_TRUSTED Passed through trusted hosts only via SMTP
+* 1000 GTUBE BODY: Generic Test for Unsolicited Bulk Email
+*  0.1 MISSING_MID Missing Message-Id: header
+Received: from me.here (me.here [63.38.238.98])
+by mail.example.com (Postfix) with ESMTPSA id 901A2181186E
+for <jsmith@example.com>; Sat, 27 Aug 2016 22:22:19 -0400 (EDT)
+Date: Sat, 27 Aug 2016 22:22:17 -0400
+To: jsmith@example.com
+
+569
+
+Chapter 12 ■ Mail ServiCeS
+
+From: ataylor@example.com
+Subject: [SPAM] test Sat, 27 Aug 2016 22:22:17 -0400
+X-Mailer: swaks v20130209.0 jetmore.org/john/code/swaks/
+X-Spam-Prev-Subject: test Sat, 27 Aug 2016 22:22:17 -0400
+Message-Id: <20160828022220.1F0C4181186F@mail.example.com>
+
+Subject: Test spam mail (GTUBE)
+Message-ID: <GTUBE1.1010101@example.net>
+Date: Wed, 23 Jul 2003 23:30:00 +0200
+From: Sender <sender@example.net>
+To: Recipient <recipient@example.net>
+Precedence: junk
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+We can see that SpamAssassin has added six headers.
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+X-Spam-Checker-Version: The SpamAssassin version
+
+X-Spam-Level: The total score in asterisks
+
+X-Spam-Flag: Present only if e-mail is identified as spam
+
+X-Spam-Status: The spam status (No or Yes), the total the e-mail scored, and a list of 
+the spam tests checked
+
+X-Spam-Report: The breakdown of how the spam score was derived
+
+X-Spam-Prev-Subject: The previous spam subject heading
+
+The first three in the list are added to all e-mail; the last three are added only if the e-mail is considered 
+
+spam.
+
+Getting Help with SpamAssassin
+
+Like with Postfix, getting help with SpamAssassin is easy.

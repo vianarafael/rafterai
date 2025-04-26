@@ -1,0 +1,6 @@
+Chapter 5 describes how to edit and ﬁ nd ﬁ les.
+
+ ■ Operate running systems—In this category, you must understand the Linux boot 
+process, go into single-user mode, shut down, reboot, and change to  different 
+ targets (previously called runlevels). You need to identify processes and change 
+nice values or kill processes as requested.

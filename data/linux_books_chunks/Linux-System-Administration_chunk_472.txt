@@ -1,0 +1,13 @@
+volume group (vg)
+
+A volume group is an abstraction layer between block devices and logical volumes.
+
+The commands used to manage a volume group start with vg.
+
+[root@centos65 ~]# vg
+vgcfgbackup    vgconvert      vgextend       vgmknodes      vgs
+vgcfgrestore   vgcreate       vgimport       vgreduce       vgscan
+vgchange       vgdisplay      vgimportclone  vgremove       vgsplit
+vgck           vgexport       vgmerge        vgrename
+
+11.2.3.

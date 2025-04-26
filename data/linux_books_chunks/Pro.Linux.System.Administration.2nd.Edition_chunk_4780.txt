@@ -1,0 +1,11 @@
+When we 
+issue this command, we will be asked to provide Angela’s password.
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+jsmith@au-mel-ubuntu-2:~$ su - ataylor
+Password:
+ataylor@au-mel-ubuntu-2:~$
+
+Here we have successfully signed into a user that exists only in LDAP. A home directory has been 
+created as we signed in for the first time.

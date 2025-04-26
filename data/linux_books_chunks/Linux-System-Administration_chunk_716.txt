@@ -1,0 +1,19 @@
+The next
+line is about what to do when the user hits Ctrl-Alt-Delete on the keyboard.
+
+Here is what Debian 4.0 does.
+
+root@barry:~# grep -i ctrl /etc/inittab 
+# What to do when CTRL-ALT-DEL is pressed.
+ca:12345:ctrlaltdel:/sbin/shutdown -t1 -a -r now
+
+Which is very similar to the default Red Hat Enterprise Linux 5.2 action.
+
+[root@RHEL52 ~]# grep -i ctrl /etc/inittab 
+# Trap CTRL-ALT-DELETE
+ca::ctrlaltdel:/sbin/shutdown -t3 -r now
+
+One noticable difference is that Debian forces shutdown to use /etc/shutdown.allow, where
+Red Hat allows everyone to invoke shutdown pressing Ctrl-Alt-Delete.
+
+15.7.7.

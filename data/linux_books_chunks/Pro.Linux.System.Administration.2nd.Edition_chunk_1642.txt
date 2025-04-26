@@ -1,0 +1,9 @@
+You also don’t need to create your own user-
+defined chains if you don’t want to, but it will make reading your rules simpler if you do.
+
+By listing our iptables you will now see the new chain we have created:
+
+Chain IPV4-INCOMING (0 references)
+num target   prot opt source        destination
+
+It has no rules in it yet so we are going to create some.

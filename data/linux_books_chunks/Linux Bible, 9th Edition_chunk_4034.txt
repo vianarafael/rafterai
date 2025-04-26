@@ -1,0 +1,4 @@
+Linux comes with many tools for ﬁ nding and 
+correcting any part of the Linux system that might break down and need ﬁ xing.
+
+The next chapter covers the topic of Linux security.

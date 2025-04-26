@@ -1,0 +1,18 @@
+enabling virtual hosts
+
+Next we enable them with a2ensite.
+
+root@debian7:/etc/apache2/sites-available# a2ensite choochoo.local 
+Enabling site choochoo.local.
+To activate the new configuration, you need to run:
+  service apache2 reload
+root@debian7:/etc/apache2/sites-available# a2ensite chessclub42.local 
+Enabling site chessclub42.local.
+To activate the new configuration, you need to run:
+  service apache2 reload
+root@debian7:/etc/apache2/sites-available# a2ensite hunter2.local 
+Enabling site hunter2.local.
+To activate the new configuration, you need to run:
+  service apache2 reload
+
+8.3.4.

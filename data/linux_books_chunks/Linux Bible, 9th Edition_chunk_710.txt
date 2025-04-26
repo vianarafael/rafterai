@@ -1,0 +1,9 @@
+The fi le is typically your username in 
+the /var/spool/mail directory.
+
+This is the directory that was the working directory before you changed to 
+the current working directory.
+
+This name identifi es the current operating system. For Fedora Linux, the 
+OSTYPE value is either linux or linux-gnu, depending on the type of shell 
+you are using.

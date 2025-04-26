@@ -1,0 +1,9 @@
+Each one 
+ contains scripts to start and stop services for its particular runlevel.
+
+# ls -d /etc/rc.d/rc?.d
+/etc/rc.d/rc0.d  /etc/rc.d/rc2.d  /etc/rc.d/rc4.d  /etc/rc.d/rc6.d
+/etc/rc.d/rc1.d  /etc/rc.d/rc3.d  /etc/rc.d/rc5.d
+
+Actually, the ﬁ les in the /etc/rc.d/rc#.d directories are not scripts, but instead 
+ symbolic links to scripts in the /etc/rc.d/init.d directory.

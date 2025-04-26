@@ -1,0 +1,4 @@
+This command allows us to start 
+discrete system “states” where we start one unit (and all their dependencies) and stop all others.
+
+Let’s discover our current system state.

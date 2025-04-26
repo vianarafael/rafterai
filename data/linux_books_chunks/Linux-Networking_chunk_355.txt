@@ -1,0 +1,13 @@
+Here an
+example of the disabled vmware web interface (listening on tcp port 902).
+
+paul@laika:~$ grep vmware /etc/inetd.conf 
+#902 stream tcp nowait root /usr/sbin/vmware-authd vmware-authd
+
+7.5. practice : inetd and xinetd
+
+1. Verify on all systems whether they are using xinetd or inetd.
+
+2. Look at the configuration files.
+
+3.

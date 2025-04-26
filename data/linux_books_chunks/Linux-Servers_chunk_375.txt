@@ -1,0 +1,13 @@
+When you use dig for the first time for a domain, where is the answer coming from ?
+And the second time ? How can you tell ?
+
+80
+
+introduction to DNS
+
+4.14. example: primary authoritative server
+
+1. Instead of only cachng the information from other servers, we will now make our server
+authoritative for our own domain.
+
+2.

@@ -1,0 +1,8 @@
+You can use it to 
+
+increase or decrease bandwidth for certain connections, optimize the sending of other packets, or guarantee 
+performance of specific types of packets. This can be beneficial to companies that want to ensure VoIP calls 
+are not interrupted by someone downloading GoT.
+
+How Netfilter/iptables Work
+The iptables command is the user-space management tool for Netfilter.

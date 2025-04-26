@@ -1,0 +1,17 @@
+Set  up  a  third  Linux  computer  with  three  network  cards,  one  on  leftnet,  the  other  on
+rightnet.  This  computer  will  be  the  'router'.  Complete  the  table  below  with  the  relevant
+names, ip-addresses and mac-addresses.
+
+Table 10.1. Packet Forwarding Exercise
+
+leftnet computer
+
+the router
+
+rightnet computer
+
+MAC  
+
+IP
+
+3.

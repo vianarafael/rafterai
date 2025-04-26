@@ -1,0 +1,32 @@
+The following is an example of a menu item from 
+the grub.cfg ﬁ le that you could select to start Fedora 20 when the system boots up:
+
+menuentry 'Fedora (3.16.3-200.fc20.x86_64)' --class fedora
+     --class gnu-linux --class gnu --class os ...{
+  load_video
+  set gfxpayload=keep
+  insmod gzio
+  insmod part_msdos
+  insmod ext2
+  set root='(hd0,msdos1)'
+  search --no-floppy --fs-uuid --set=root 
+      eb31517f-f404-410b-937e-a6093b5a5380
+
+  linux  /vmlinuz-3.16.3-200.fc20.x86_64 
+     root=/dev/mapper/fedora_fedora20-root ro 
+     rd.lvm.lv=fedora_fedora20/swap 
+     vconsole.font=latarcyrheb-sun16 
+     rd.lvm.lv=fedora_fedora20/root rhgb quiet 
+     LANG=en_US.UTF-8
+  initrd /initramfs-3.16.3-200.fc20.x86_64.img
+}
+
+230
+
+  
+c09.indd  04/01/2015  Page 231
+
+Chapter 9: Installing Linux
+
+The menu entry for this selection appears as Fedora (3.16.3-200.fc20.x86_64) on the 
+GRUB 2 boot menu.

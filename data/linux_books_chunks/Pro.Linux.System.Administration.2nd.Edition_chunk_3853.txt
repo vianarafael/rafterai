@@ -1,0 +1,21 @@
+To make sure 
+everything is working properly, first we issue the tail command on the log to make sure our device has been 
+picked up by the kernel.
+
+$ sudo dmesg
+[13433828.652994] usb 2-1: new high-speed USB device number 4 using ehci-pci
+[13433828.786834] usb 2-1: New USB device found, idVendor=04b8, idProduct=0811
+[13433828.786847] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[13433828.786855] usb 2-1: Product: USB2.0 MFP(Hi-Speed)
+[13433828.786860] usb 2-1: Manufacturer: EPSON
+[13433828.786865] usb 2-1: SerialNumber: L76010502151505100
+[13433828.789721] usblp 2-1:1.1: usblp0: USB Bidirectional printer dev 4 if 1 alt 0 proto 2 
+vid 0x04B8 pid 0x0811
+[13433828.790798] usb-storage 2-1:1.2: USB Mass Storage device detected
+[13433828.791051] scsi9 : usb-storage 2-1:1.2
+[13433829.790811] scsi 9:0:0:0: Direct-Access     EPSON    Stylus Storage   1.00 PQ: 0 ANSI: 2
+[13433829.791627] sd 9:0:0:0: Attached scsi generic sg5 type 0
+[13433829.795826] sd 9:0:0:0: [sdf] Attached SCSI removable disk
+
+Here you can see that our host has recognized that we have attached a USB printer and has registered 
+the device as usblp.

@@ -1,0 +1,13 @@
+It is 
+designed as a daemon that will authenticate against a wide range of authentication services, including LDAP.
+
+On Ubuntu, you need these packages installed:
+
+$ sudo aptitude install sssd
+
+787
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+On CentOS, of course, you would use YUM to install the same package name. They also take the 
+same configuration. We need to create a file called /etc/sssd/sssd.conf.

@@ -1,0 +1,6 @@
+The 
+locate command looks all over your ﬁ lesystem, not just in directories that 
+contain commands.
+
+In the coming chapters, you learn to use additional commands. For now, I want you to 
+become more familiar with how the shell itself works.

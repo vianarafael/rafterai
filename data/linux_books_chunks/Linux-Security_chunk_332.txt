@@ -1,0 +1,8 @@
+Both files will have the same content. Actually, both files are equal now, meaning
+you can safely remove the original file, the hardlinked file will remain. The inode contains
+a counter, counting the number of hard links to itself. When the counter drops to zero, then
+the inode is emptied.
+
+9.3.2. finding hard links
+
+You can use the find command to look for files with a certain inode.

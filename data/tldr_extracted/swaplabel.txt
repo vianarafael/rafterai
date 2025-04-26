@@ -1,0 +1,14 @@
+# swaplabel
+
+
+- Display the current label and UUID of a swap area:
+
+`swaplabel {{path/to/file}}`
+
+- Set the label of a swap area:
+
+`swaplabel {{[-L|--label]}} {{new_label}} {{path/to/file}}`
+
+- Set the UUID of a swap area (you can generate a UUID using `uuidgen`):
+
+`swaplabel {{[-U|--uuid]}} {{new_uuid}} {{path/to/file}}`

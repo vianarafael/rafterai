@@ -1,0 +1,6 @@
+We provide this because it is most likely a better choice for document management compared to either 
+Samba or NFS.
+
+Print Servers
+Setting up printer servers on CentOS and Ubuntu is easy. Both distributions use the same print server 
+software to manage print services.

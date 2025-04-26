@@ -1,0 +1,4 @@
+From a command line, UNIX users could direct the output of a 
+command to a ﬁ le using a right-arrow key (>). Later, the concept of pipes (|) 
+was added where the output of one command could be directed to the input of 
+another command.

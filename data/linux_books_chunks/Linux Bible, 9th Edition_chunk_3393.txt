@@ -1,0 +1,6 @@
+It describes security features you need to know to share your ﬁ le and printer resources and 
+describes how to access those resources from Linux and Windows systems.
+
+Understanding Samba
+Samba (www.samba.org) is a suite of programs that allows Linux, UNIX, and other systems to 
+interoperate with Microsoft Windows ﬁ le and printer sharing protocols.

@@ -1,0 +1,7 @@
+Display a list of all logged on users.
+
+laura@debian7:~$ who
+laura     pts/0        2014-10-13 07:22 (10.104.33.101)
+laura@debian7:~$
+
+3.

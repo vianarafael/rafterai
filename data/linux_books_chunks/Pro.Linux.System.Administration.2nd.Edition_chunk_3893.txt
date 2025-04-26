@@ -1,0 +1,2 @@
+Storing data in AWS S3 (life-cycling your data through S3 
+storage classes and then moving off to Glacier storage after a period) can be economical for large data sets.

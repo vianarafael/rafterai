@@ -1,0 +1,19 @@
+The host that we intend to build 
+uses a network query to find a PXE boot server, usually a network query to a DHCP server, that might offer it 
+the files required to boot and then transfers those files to the host using a file transfer protocol called Trivial 
+File Transfer Protocol (TFTP).
+
+ You can read more about pXe at http://en.wikipedia.org/wiki/Preboot_Execution_
+
+ ■ Note 
+Environment.
+
+Once this initial boot takes place, your provisioning process continues by installing a prepackaged 
+
+version of your distribution, usually with a series of automated scripted responses to the various 
+configuration questions you are prompted for when installing.
+
+ We’re using network-based provisioning to create our hosts rather than any of the alternatives, 
+
+ ■ Note 
+such as CD or DVD.

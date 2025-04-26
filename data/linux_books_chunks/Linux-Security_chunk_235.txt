@@ -1,0 +1,5 @@
+gpasswd
+
+You can delegate control of group membership to another user with the gpasswd command.
+In the example below we delegate permissions to add and remove group members to serena
+for the sports group.

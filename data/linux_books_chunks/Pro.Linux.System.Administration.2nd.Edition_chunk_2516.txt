@@ -1,0 +1,7 @@
+zone can be obtained from four DNS servers.
+
+;; AUTHORITY SECTION:
+google.com.            2071    IN     NS      ns4.google.com.
+google.com.            2071    IN     NS      ns1.google.com.
+google.com.            2071    IN     NS      ns3.google.com.
+google.com.

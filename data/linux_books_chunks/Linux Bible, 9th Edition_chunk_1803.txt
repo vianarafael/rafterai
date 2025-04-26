@@ -1,0 +1,4 @@
+The YUM facility has tools for main-
+taining your RPM packages and keeping your system’s software efﬁ cient and secure.
+
+Clearing out the cache is something you want to do from time to time.

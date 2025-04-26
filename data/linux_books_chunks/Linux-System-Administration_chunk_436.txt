@@ -1,0 +1,17 @@
+The  line  starting  with  root=  is  the
+continuation of the kernel line.
+
+RHEL and CentOS boot from LVM after a default install.
+
+89
+
+introduction to uuid's
+
+9.6. practice: uuid and filesystems
+
+1.  Find  the  uuid  of  one  of  your  ext3  partitions  with  tune2fs  (  and  vol_id  if  you  are  on
+RHEL5).
+
+2. Use this uuid in /etc/fstab and test that it works with a simple mount.
+
+3.

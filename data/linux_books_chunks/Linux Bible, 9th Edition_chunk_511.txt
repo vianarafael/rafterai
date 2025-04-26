@@ -1,0 +1,9 @@
+To remove a panel, right-click it and select Delete This Panel.
+
+Adding an application launcher
+Icons on your panel represent a web browser and several ofﬁ ce productivity applications. 
+You can add your own icons to launch applications from the panel as well. To add a new 
+application launcher to the panel, follow these steps:
+
+1.  Right-click in an open space on the panel.
+2.

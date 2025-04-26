@@ -1,0 +1,17 @@
+Install wireshark on your computer (not inside a virtual machine).
+
+Debian/Ubuntu: aptitude install wireshark
+
+Red Hat/Mandriva/Fedora: yum install wireshark
+
+2. Start a ping between your computer and another computer.
+
+ping $ip_address
+
+3. Start sniffing the network.
+
+(sudo) wireshark
+
+select an interface (probably eth0)
+
+4.

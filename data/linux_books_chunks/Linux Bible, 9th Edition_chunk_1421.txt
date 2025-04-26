@@ -1,0 +1,9 @@
+Modules in those directories can then be loaded and 
+unloaded as they are needed.
+
+Commands for listing, loading, unloading, and getting information about modules are 
+ available with Linux. The following sections describe how to use those modules.
+
+Listing loaded modules
+To see which modules are currently loaded into the running kernel on your computer, use 
+the lsmod command.

@@ -1,0 +1,5 @@
+LDAP authentication of web services
+
+Figure 16-2 presents a simple diagram showing a web server using LDAP to authenticate our desktop 
+or Internet clients to web services (the LDAP service and the web service can be on the same host if you do 
+not have the necessary hardware resources).

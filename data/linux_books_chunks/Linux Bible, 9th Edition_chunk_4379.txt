@@ -1,0 +1,18 @@
+A subject (user or process) requests access to an application.
+
+2.  The application’s PAM conﬁ guration ﬁ le, which contains an access policy, is open 
+
+and read.
+
+649
+
+ 
+ 
+c23.indd  04/01/2015  Page 650
+
+Part V: Learning Linux Security Techniques
+
+The access policy is set via a list of all the PAM modules to be used in the authenti-
+cation process. This PAM module(s) list is called a stack.
+
+3.

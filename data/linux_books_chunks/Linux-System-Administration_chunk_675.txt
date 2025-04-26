@@ -1,0 +1,17 @@
+So always verify the proper meaning of runlevels on
+your system.
+
+171
+
+init and runlevels
+
+15.1.4. sysinit script
+
+/etc/rc.d/rc.sysinit
+
+The next line in /etc/inittab in Red Hat and derivatives is the following.
+
+si::sysinit:/etc/rc.d/rc.sysinit
+
+This means that independent of the selected runlevel, init will run the /etc/rc.d/rc.sysinit
+script.

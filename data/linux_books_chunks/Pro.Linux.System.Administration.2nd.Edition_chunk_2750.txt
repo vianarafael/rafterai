@@ -1,0 +1,4 @@
+The agent outputs shell code to set these 
+variables when it starts, as you can see in Listing 10-36.
+
+Listing 10-36.

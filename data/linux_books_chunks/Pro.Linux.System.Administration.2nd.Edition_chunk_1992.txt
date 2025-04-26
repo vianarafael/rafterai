@@ -1,0 +1,8 @@
+They contain the package name, the version (if the package is 
+
+currently installed), and a short description.
+
+You would usually not want a listing of everything, so let’s limit the output to packages that provide the 
+
+Linux kernel by passing a string for dpkg to match. The Linux kernel in Ubuntu goes by the name linux-
+image, which is different from RHEL, where it is just called kernel.

@@ -1,0 +1,7 @@
+In other words, you would have to 
+give firefox-24.7.0-1.el7_0.x86_64.rpm as an option if the RPM were in 
+the current directory or http://example.com/firefox-24.7.0-1.el7_0.
+x86_64.rpm if it were on a server.
+
+As Red Hat Linux and other RPM-based applications grew in popularity, it became apparent 
+that something had to be done to make package installation more convenient.

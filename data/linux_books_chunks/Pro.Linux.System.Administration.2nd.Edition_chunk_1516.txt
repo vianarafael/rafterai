@@ -1,0 +1,9 @@
+Similarly, we need to add net.ipv6.
+conf.all.forwarding=1to the sysctl.conf file or again echo 1 to /proc/sys/net/ipv6/conf/all/
+forwarding.
+
+For more information on sysctl.conf and the use of sysctl, please read the man pages.
+
+We want to show you an example of how to add a route using the ip command. First, we will explain 
+
+what we want to achieve.

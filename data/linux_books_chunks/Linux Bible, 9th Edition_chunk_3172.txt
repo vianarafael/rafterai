@@ -1,0 +1,7 @@
+Restart or reload the httpd service.
+
+At this point, you should be able to access content placed in a user’s public_html 
+directory by pointing a web browser to http://hostname/~user.
+
+Securing your web traffi c with SSL/TLS
+Any data you share from your website using standard HTTP protocol is sent in clear text.

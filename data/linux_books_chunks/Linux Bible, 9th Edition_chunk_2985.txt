@@ -1,0 +1,9 @@
+The source-address and destination-
+address can be individual IP addresses or can represent network numbers:
+
+BrowseRelay source-address destination-address
+
+This is a good way to enable users on several connected LANs to discover and use printers 
+on other nearby LANs.
+
+You can allow or deny access to different features of the CUPS server.

@@ -1,0 +1,4 @@
+The LVM software allows the administrator to change the disk layout, add new disk storage, 
+or remove and repurpose disk storage to another part of the system without having to rebuild the system and 
+reformat the underlying disks. Btrfs is also available and is a new-ish CoW (Copy-on-Write) filesystem. Like 
+LVM it allows you to group your storage in a flexible way.

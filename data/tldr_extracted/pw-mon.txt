@@ -1,0 +1,18 @@
+# pw-mon
+
+
+- Monitor the default PipeWire instance:
+
+`pw-mon`
+
+- Monitor a specific remote instance:
+
+`pw-mon {{[-r|--remote]}} {{remote_name}}`
+
+- Monitor the default instance specifying a color configuration:
+
+`pw-mon {{[-N|--color]}} {{never|always|auto}}`
+
+- Display help:
+
+`pw-mon {{[-h|--help]}}`

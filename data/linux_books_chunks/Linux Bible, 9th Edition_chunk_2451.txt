@@ -1,0 +1,8 @@
+If you are trying to connect your Fedora, RHEL, Ubuntu, or other Linux  desktop 
+
+system to the Internet, here’s what you can try, given an available wired or wireless network 
+interface:
+
+ ■ Wired network—If your home or ofﬁ ce has a wired Ethernet port that provides a path to 
+the Internet and your computer has an Ethernet port, use an Ethernet cable to  connect 
+the two ports.

@@ -1,0 +1,22 @@
+If it isn't then do
+
+mount /dev/volumeA/lv0 /mnt/lvm
+
+Next we archive the root device in the same way as we did for RAID:
+
+47
+
+LinuxIT Technical Training Centre
+
+Hardware and Software Configuration 
+
+_____________________________________________________
+
+tar clvf - / | (cd /mnt/lvm/; tar xvf -)
+
+Edit /mnt/lvm/etc/fstab and enter
+
+/dev/volumeA/lv0   /     ext2    defaults 0 1
+
+Edit /etc/lilo.conf or /etc/grub.conf to add a new entry where the kernel points to the new 
+root logical volume.

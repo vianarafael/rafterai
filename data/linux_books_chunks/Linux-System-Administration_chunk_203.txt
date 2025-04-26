@@ -1,0 +1,18 @@
+When are the variables replaced by their value ? By which shell ?
+
+[paul@RHEL4b ~]$ echo $$ $PPID
+4224 4223
+[paul@RHEL4b ~]$ bash -c "echo $$ $PPID"
+4224 4223
+[paul@RHEL4b ~]$ bash -c 'echo $$ $PPID'
+5059 4224
+[paul@RHEL4b ~]$ bash -c `echo $$ $PPID`
+4223: 4224: command not found
+
+25
+
+background jobs
+
+3.3. solution : background processes
+
+1.

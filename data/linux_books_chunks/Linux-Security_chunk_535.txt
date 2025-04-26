@@ -1,0 +1,54 @@
+A
+"Massive Multiauthor Collaboration" (or "MMC") contained in the site
+means any set of copyrightable works thus published on the MMC site.
+
+"CC-BY-SA" means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-profit
+corporation with a principal place of business in San Francisco,
+California, as well as future copyleft versions of that license
+published by that same organization.
+
+"Incorporate" means to publish or republish a Document, in whole or in
+part, as part of another Document.
+
+An MMC is "eligible for relicensing" if it is licensed under this
+License, and if all works that were first published under this License
+somewhere other than this MMC, and subsequently incorporated in whole
+or in part into the MMC, (1) had no cover texts or invariant sections,
+and (2) were thus incorporated prior to November 1, 2008.
+
+The operator of an MMC Site may republish an MMC contained in the site
+under CC-BY-SA on the same site at any time before August 1, 2009,
+provided the MMC is eligible for relicensing.
+
+121
+
+Index
+
+Symbols
+/bin/bash, 30
+/bin/ksh, 30
+/etc/bashrc, 31
+/etc/default/useradd, 14
+/etc/fstab, 64
+/etc/group, 37, 46
+/etc/gshadow, 39
+/etc/inputrc, 30
+/etc/login.defs, 24
+/etc/passwd, 13, 16, 25, 25, 46
+/etc/profile, 30
+/etc/selinux/config, 102
+/etc/shadow, 21, 23, 59
+/etc/shells, 16
+/etc/skel, 15
+/etc/sudoers, 7, 8
+/etc/sysctl.conf, 79
+/proc/sys/net/ipv4/ip_forward, 79
+/selinux, 104
+/selinux/enforce, 104
+/tmp, 58
+/usr/bin/getfacl, 64
+/usr/bin/passwd, 59
+/usr/bin/setfacl, 64
+/var/log/audit/audit.log, 100
+..

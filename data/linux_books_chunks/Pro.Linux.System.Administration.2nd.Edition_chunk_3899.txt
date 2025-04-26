@@ -1,0 +1,7 @@
+What we really need to think about is how quickly we can 
+recover from a data loss or hardware failure. You have hosts, and you have data. In the event of hardware 
+loss, can you recover your hosts and data quickly?
+
+If you have a database, your database will probably be the single most important data and server 
+
+you will have.

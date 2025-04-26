@@ -1,0 +1,4 @@
+This directory is automatically added to your path in some 
+Linux systems, although you may need to create that directory or add it to your PATH on other Linux systems. So, as 
+long as you add the command to your bin with execute permission, you can begin using it by simply typing the com-
+mand name at your shell prompt.

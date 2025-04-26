@@ -1,0 +1,13 @@
+& ampersand
+
+Processes that are started in background using the & character at the end of the command
+line are also visible with the  jobs command.
+
+[paul@RHEL4a ~]$ find / > allfiles.txt 2> /dev/null &
+[6] 5230
+[paul@RHEL4a ~]$ jobs
+[5]+  Stopped                 vim procdemo.txt
+[6]-  Running                 find / >allfiles.txt 2>/dev/null &
+[paul@RHEL4a ~]$
+
+3.1.4.

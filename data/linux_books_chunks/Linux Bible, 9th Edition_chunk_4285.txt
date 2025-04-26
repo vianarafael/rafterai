@@ -1,0 +1,12 @@
+The original ﬁ le is kept and a new encrypted ﬁ le, 
+backup.tar.gz.gpg, is created.
+
+# tar -cvzf /tmp/backup.tar.gz /etc
+# gpg2 -c --force-mdc -o tmp/backup.tar.gz.gpg /tmp/backup.tar.gz
+Enter passphrase: ******
+Repeat passphrase: ******
+# cd /tmp ; file backup*
+backup.tar.gz: gzip compressed data, last modified: ...
+backup.tar.gz.gpg: GPG symmetrically encrypted data (CAST5 cipher)
+
+The single key used to encrypt the ﬁ le is protected by a passphrase.

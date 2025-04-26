@@ -1,0 +1,3 @@
+We can edit 
+and add to the /etc/logstash/logstash.yml file, which is the main pipeline configuration file, or we can 
+create a file in /etc/logstash/conf.d/, which will be read in by the Logstash service.

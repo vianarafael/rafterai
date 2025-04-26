@@ -1,0 +1,6 @@
+So this system will respond to packets des-
+tined for either of those two addresses. You could add more IP addresses to that interface by 
+creating more ifcfg-eth0:? ﬁ les (ifcfg-eth0:1, ifcfg-eth0:2, and so on).
+
+In RHEL 7 and Fedora 21, you can create aliases directly in the primary ifcfg ﬁ le for 
+an alias.

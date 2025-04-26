@@ -1,0 +1,5 @@
+in the following, we are filtering on UDP packets:
+
+iptables –A INPUT –p 17 –m conntrack --ctstate NEW --dport 53 –j ACCEPT
+
+if you do not specify a protocol, the default is to match all.

@@ -1,0 +1,13 @@
+To install packages, you need to 
+download the required RPM file, and any dependencies, and then use the rpm tool to install it on your host.
+
+Removing packages presents the same problems and should also be avoided.
+
+318
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Building an RPM Package from Source
+
+Why would you need to build a package from source? Well, sometimes you’ll require a patch to the source, 
+or perhaps you would like to build a more recent version of the package.

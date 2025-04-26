@@ -1,0 +1,8 @@
+21
+
+When you’re troubleshooting Linux problems that occur after the init process takes over, 
+two likely culprits are the processing by the rc.sysinit ﬁ le and the runlevel scripts.
+
+Troubleshooting rc.sysinit
+As the name implies, the /etc/rc.sysinit script initializes many basic features on the 
+system.

@@ -1,0 +1,20 @@
+The extension is then added to your desktop.
+
+42
+
+c02.indd  04/01/2015  Page 43
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+Figure 2.9 shows an example of the Applications Menu (the GNOME foot icon), Window 
+List (showing several active applications icons), and Places Status Indicator (with folders 
+ displayed from a drop-down menu) extensions installed.
+
+FIGURE 2.9
+
+Extensions add features to the GNOME 3 desktop.
+
+2
+
+More than 100 GNOME shell extensions are available now, and more are being added all 
+the time.

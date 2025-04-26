@@ -1,0 +1,10 @@
+Unless you expect to log in to the server to read logwatch 
+messages, you probably want to change the MailTo setting in the /etc/logwatch/conf/
+logwatch.conf ﬁ le:
+
+13
+
+MailTo = chris@example.com
+
+Look in /usr/share/logwatch/default.conf/logwatch.conf for other settings to 
+change (such as detail level or the time range for each report).

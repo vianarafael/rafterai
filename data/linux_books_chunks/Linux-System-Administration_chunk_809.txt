@@ -1,0 +1,9 @@
+configuration
+
+Below a sample configuration of custom local4 messages in /etc/rsyslog.conf.
+
+local4.crit                            /var/log/critandabove
+local4.=crit                           /var/log/onlycrit
+local4.*                               /var/log/alllocal4
+
+17.2.8.

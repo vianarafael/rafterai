@@ -1,0 +1,16 @@
+The fourth field is the list of
+members, these groups have no members.
+
+5.3. groups
+
+A user can type the groups command to see a list of groups where the user belongs to.
+
+[harry@RHEL4b ~]$ groups
+harry sports
+[harry@RHEL4b ~]$
+
+37
+
+groups
+
+5.4.

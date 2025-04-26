@@ -1,0 +1,8 @@
+To list partitions on the USB ﬂ ash drive on a RHEL 6 system, type the following:
+
+# fdisk -c -u -l /dev/sdb
+To list partitions on a RHEL 7 or Fedora system, type the following:
+
+# fdisk -l /dev/sdb
+
+3.

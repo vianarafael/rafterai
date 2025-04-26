@@ -1,0 +1,9 @@
+For example the system call bellow will allow any user to read  files with read access :
+
+insecure.pl
+#!/usr/bin/perl
+$FILENAME=ARGV[0]   # this is the equivalent to $1 in bash
+system(“/usr/bin/less”, $FILENAME);
+
+If the script is set SUID root or if the -T option is used then the taint module will be called and 
+this script will not execute.

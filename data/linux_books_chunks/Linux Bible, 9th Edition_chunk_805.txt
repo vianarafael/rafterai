@@ -1,0 +1,8 @@
+Check the permissions of the directory:
+
+$ ls -ld test
+drwxr-xr-x 2 joe sales 1024 Jan 24 12:17 test
+
+This listing shows that test is a directory (d). The d is followed by the permissions 
+(rwxr-xr-x), which are explained later in the “Understanding File Permissions 
+and Ownership” section.

@@ -1,0 +1,20 @@
+This should give the nmap utility a more interesting target to look for.
+
+706
+
+c25.indd  04/02/2015  Page 707
+
+Chapter 25: Securing Linux on a Network
+
+# systemctl start sshd.service
+# systemctl status sshd.service
+sshd.service - OpenSSH server daemon
+  Loaded: loaded (/lib/systemd/system/sshd.service; disabled)
+  Active: active (running) since
+ Thu, 22 Mar 2016 10:57:24 -0400; 12s ago
+Main PID: 1750 (sshd)
+  CGroup: name=systemd:/system/sshd.service
+    └1750 /usr/sbin/sshd -D
+
+Also, because Host-A’s ﬁ rewall is blocking the nmap scans from Host-B, it would be 
+ interesting to see what an nmap scan can report when the ﬁ rewall is down.

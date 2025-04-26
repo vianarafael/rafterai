@@ -1,0 +1,4 @@
+What we would like to do in this chapter 
+is show you the tools we use daily to prototype and test on the desktop—be that a Linux server, Mac, or 
+Windows host. One such virtualization technology you can use on both Windows machines, Mac, and Linux 
+is VirtualBox.

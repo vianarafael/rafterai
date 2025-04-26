@@ -1,0 +1,2 @@
+To turn on Desktop Effects, select System ➪ Preferences ➪ Desktop Effects. When the 
+Desktop Effects window appears, select Compiz.

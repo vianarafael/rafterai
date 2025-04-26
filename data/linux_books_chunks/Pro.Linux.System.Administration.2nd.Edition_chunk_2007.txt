@@ -1,0 +1,11 @@
+On Ubuntu, you can use the sudo 
+command discussed in Chapter 5 to perform the installation command as the root user:
+
+$ sudo dpkg -i wget_1.17.1-1ubuntu1_amd64.deb
+
+347
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+The dpkg command will keep you informed of progress during installation. Depending on the package, 
+it may also ask you some questions about how you would like to configure the package.

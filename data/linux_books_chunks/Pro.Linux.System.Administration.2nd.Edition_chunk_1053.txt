@@ -1,0 +1,5 @@
+however, the 
+first partition on a disk is partition 1, as far as GruB2 is concerned. the first disk/device is numbered from 0.
+
+Next in Listing 6-4 we see an if…fi conditional statement that has a search command inside it. The 
+search command is different depending if ‘$feature_platform_search_hint’ is set to y.

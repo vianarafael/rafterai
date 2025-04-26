@@ -1,0 +1,13 @@
+(output truncated)
+
+On .rpm based distributions like CentOS, RHEL and Fedora you can use yum to install
+wireshark.
+
+[root@centos7 ~]# yum install wireshark
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+... (output truncated)
+
+3.1.2. selecting interface
+
+When you start wireshark for the first time, you will need to select an interface.

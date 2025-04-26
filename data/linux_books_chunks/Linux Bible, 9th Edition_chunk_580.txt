@@ -1,0 +1,8 @@
+For example, you can cut and 
+paste text to or from a GNOME Terminal window, change fonts, set a title, choose colors or 
+images to use as background, and set how much text to save when text scrolls off the screen.
+
+To try some GNOME Terminal features, start up a Fedora or RHEL system and log in to the 
+desktop. Then follow this procedure:
+
+1.

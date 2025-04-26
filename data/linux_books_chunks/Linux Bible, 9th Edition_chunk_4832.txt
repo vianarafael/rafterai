@@ -1,0 +1,11 @@
+Determine your Linux system’s current netfilter/iptables ﬁ rewall policies 
+
+and rules.
+
+7.  Flush your Linux system’s current ﬁ rewall rules, and then restore them.
+
+8.  For your Linux system’s ﬁ rewall, set a ﬁ lter table policy for the input chain 
+
+to reject.
+
+9.

@@ -1,0 +1,12 @@
+like most 
+
+ ■ Note 
+linux configuration files, any lines starting with # are comments.
+
+In Listing 12-2, you can see a sample of a typical main.cf file.
+
+532
+
+Chapter 12 ■ Mail ServiCeS
+
+Listing 12-2.

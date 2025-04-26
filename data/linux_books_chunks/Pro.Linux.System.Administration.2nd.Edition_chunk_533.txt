@@ -1,0 +1,12 @@
+Changed into a directory called foo in the next level up
+
+3.  Then changed into a directory called bar under the foo directory
+
+Let’s illustrate this in Figure 4-8.
+
+Figure 4-8.  Directory traversal to ../foo/bar
+
+ If you’re used to the Microsoft Windows command line, you may notice that the slash separating 
+
+ ■ Note 
+directories is a forward slash, or /, rather than a backslash, or \.

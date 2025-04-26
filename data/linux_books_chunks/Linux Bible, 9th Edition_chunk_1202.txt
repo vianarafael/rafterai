@@ -1,0 +1,8 @@
+The structure of each is presented here:
+
+while condition      until condition
+do                   do
+   { body }            { body }
+done                 done
+
+The while statement executes while the condition is true.

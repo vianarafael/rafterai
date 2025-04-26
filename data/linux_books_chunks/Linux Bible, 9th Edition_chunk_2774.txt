@@ -1,0 +1,14 @@
+The state of static is essentially enabled, and thus 
+should be included.
+
+To see if a particular service is running, use the following command:
+
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+  Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+  Active: active (running) since Mon, 30 Apr 12:36:31 -0400; 13h ago
+  Main PID: 1315 (cupsd)
+   CGroup: name=systemd:/system/cups.service
+          └  1315 /usr/sbin/cupsd -f
+
+The systemctl command can be used to show the status of a single service.

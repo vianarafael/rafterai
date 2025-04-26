@@ -1,0 +1,10 @@
+For example, if you were setting up a web server that was serving secure content (https) 
+for multiple domains (example.com, example.org, and so on), each domain would 
+
+367
+
+c14.indd  04/01/2015  Page 368
+
+Part IV: Becoming a Linux Server Administrator
+
+require a separate IP address (associated with a separate certiﬁ cate).

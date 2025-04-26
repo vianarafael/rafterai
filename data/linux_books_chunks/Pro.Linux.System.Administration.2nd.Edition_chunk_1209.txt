@@ -1,0 +1,8 @@
+One is with systemd timers and the other is with a tool called Cron.
+
+210
+
+Chapter 6 ■ Startup and ServiCeS
+
+Systemd Timers
+Systemd timers are unit files that end with *.timer suffix. They control when a service is run.

@@ -1,0 +1,3 @@
+If we get stuck, we 
+can change Loglevel to -1 to turn on debugging, which turns on all logging features. Also, remember that in 
+a production environment, you would normally want to have Loglevel set at 0.

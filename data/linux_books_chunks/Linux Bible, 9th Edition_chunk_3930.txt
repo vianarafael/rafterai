@@ -1,0 +1,2 @@
+However, on a laptop, check 
+to see if there is a tiny switch that disables the NIC.

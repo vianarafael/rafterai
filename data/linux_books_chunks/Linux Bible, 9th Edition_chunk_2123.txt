@@ -1,0 +1,15 @@
+If the volume group is out of space, you can add another hard drive 
+or  network storage drive and add space from that drive to the volume group, so more 
+is available.
+
+298
+
+c12.indd  04/01/2015  Page 299
+
+Chapter 12: Managing Disks and Filesystems
+
+Now that you know how LVM works, the next section shows you how to create LVM logical 
+volumes from scratch.
+
+Creating LVM logical volumes
+LVM logical volumes are used from the top down, but they are created from the bottom up.

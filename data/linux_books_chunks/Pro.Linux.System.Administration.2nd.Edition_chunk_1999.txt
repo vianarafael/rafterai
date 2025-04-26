@@ -1,0 +1,8 @@
+this tells your host that your screen is 200 characters wide, so it displays more of all 
+columns.
+
+Examining Package Details
+Let’s have a look at some information about a common package on Ubuntu, adduser, using dpkg. Listing 8-20 
+shows the output of the dpkg –p command querying for information about one of our adduser packages.
+
+Listing 8-20.

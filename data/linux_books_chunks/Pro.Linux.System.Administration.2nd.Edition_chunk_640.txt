@@ -1,0 +1,10 @@
+You can also 
+search for more than one file by using the asterisk symbol, as we have demonstrated for other commands 
+earlier in this chapter, for example:
+
+$ grep localhost /etc/host*
+$ grep localhost /etc/*
+
+The first command would search all files starting with host* in the /etc/ directory, and the second 
+
+would search all files in the /etc/ directory.

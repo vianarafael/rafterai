@@ -1,0 +1,7 @@
+Still holding the Alt key, press Tab or 
+Shift+Tab to move forward or backward through the windows. Release the keys 
+when the one you want is highlighted.
+
+ ■ Scale and separate workspaces—Hold Ctrl+Alt, and press the down arrow key to 
+see reduced images of the workspace shown on a strip. Still holding Ctrl+Alt, use 
+the right and left arrow keys to move among the different workspaces.

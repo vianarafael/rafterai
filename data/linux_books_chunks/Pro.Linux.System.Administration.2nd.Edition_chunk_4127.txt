@@ -1,0 +1,7 @@
+We are going to leave Level = 
+Incremental in this JobDefs.
+
+ALWAYS INCREMENTAL
+
+Bareos also provides another option to the more traditional full, differential, incremental backup regime 
+called always Incremental.

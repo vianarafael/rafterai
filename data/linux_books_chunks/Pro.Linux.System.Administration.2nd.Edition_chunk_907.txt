@@ -1,0 +1,28 @@
+PAM Control Flags
+
+Flag
+
+required
+
+requisite
+
+Description
+
+A required module must succeed for authentication to succeed.
+
+If a requisite module fails, then authentication will immediately fail.
+
+sufficient
+
+Authentication immediately succeeds if the module is successful.
+
+optional
+
+The success or failure of the module doesn’t impact authentication.
+
+172
+
+Chapter 5 ■ Users and GroUps
+
+The required flag means the module result must be a success in order for the authentication process 
+to succeed.

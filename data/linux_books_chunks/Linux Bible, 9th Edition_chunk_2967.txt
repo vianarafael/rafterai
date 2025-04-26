@@ -1,0 +1,9 @@
+Type the 
+information needed to create an SMB URI that contains the following information:
+
+ ■ Workgroup—This is the workgroup name assigned to the SMB server. Using the 
+
+workgroup name isn’t necessary in all cases.
+
+ ■ Server—This is the NetBIOS name or IP address for the computer, which may or 
+may not be the same as its TCP/IP name.

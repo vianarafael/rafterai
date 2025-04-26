@@ -1,0 +1,16 @@
+You 
+
+can run stop|start|disable|enable|status on the firewalld service with the following commands:
+
+$ sudo systemctl stop|start|disable|enable|status firewalld
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+You can check it’s running state with:
+
+$ sudo firewall-cmd –state
+not running
+
+To start firewalld, and make sure it starts again when you reboot the host, you need use systemctl to 
+
+enable and then start the firewalld service.

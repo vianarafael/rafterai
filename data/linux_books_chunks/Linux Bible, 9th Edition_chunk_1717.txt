@@ -1,0 +1,8 @@
+To ﬁ nd out the name of an RPM package currently installed on your system 
+(such as the Firefox web browser), you could type the following from the shell in Fedora or 
+Red Hat Enterprise Linux:
+
+# rpm -q firefox
+firefox-24.7.0-1.el7_0.x86_64
+
+From this, you can tell that the basename of the package is firefox.

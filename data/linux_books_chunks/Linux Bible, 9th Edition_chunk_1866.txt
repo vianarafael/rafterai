@@ -1,0 +1,6 @@
+(If you want to add a password 
+that doesn’t meet these criteria, you can use the useradd command, described 
+later in this chapter.)
+
+Select Add to add the user to the system. An entry for the new user account is added to 
+the /etc/passwd ﬁ le and the new group account to the /etc/group ﬁ le.

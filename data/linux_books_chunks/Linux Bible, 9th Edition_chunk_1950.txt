@@ -1,0 +1,9 @@
+The last argument is replaced 
+by the actual ﬁ lename you are modifying.
+
+The following are some examples of the user mary using the setfacl command to add 
+ permission for other users and groups on a ﬁ le:
+
+[mary]$ touch /tmp/memo.txt
+[mary]$ ls -l /tmp/memo.txt
+-rw-rw-r--.

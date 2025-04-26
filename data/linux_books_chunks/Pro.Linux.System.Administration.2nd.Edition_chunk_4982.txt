@@ -1,0 +1,15 @@
+Carbon Metrics graph
+
+Let’s create a new dashboard by selecting Create New, as shown in Figure 17-14.
+
+Figure 17-14.  Creating a new graph
+
+828
+
+When you create a dashboard, a green bar will appear on the left side. Then select Add Panel and 
+
+Graph, as shown in Figure 17-15.
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Figure 17-15.

@@ -1,0 +1,16 @@
+We 
+would change it as follows:
+
+Chapter 14 ■ BaCkup and reCovery
+
+Job {
+  Name = headoffice.example.com
+  Client = headoffice-fd
+  Enabled = yes
+  JobDefs = "DefaultLinux"
+  Client Run Before Job = "/usr/local/bin/mysql_backup start"
+  Client Run After Job = "/usr/local/bin/mysql_backup stop"
+}
+
+The script mysql_backup must exist on our target host in the /usr/local/bin directory.
+You can now see how you can manage complex backups on the Bareos backup server.

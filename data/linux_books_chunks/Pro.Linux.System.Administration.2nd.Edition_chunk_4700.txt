@@ -1,0 +1,8 @@
+We want to set our 
+password aging to 7776000 (90 days in seconds) and our password history to 3, meaning we will store the 
+previous three passwords supplied by users so they can’t keep using the same one. The password will need 
+to have a minimum of eight characters.
+
+Adding Our PPolicy Overlay
+
+It is time to add our Password Policy overlay.

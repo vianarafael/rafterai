@@ -1,0 +1,41 @@
+Does it have a setting to keep a fork bomb 
+
+from occurring on your system? 
+
+668
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c24.indd  04/15/2015  Page 669
+
+C H A P T E R 
+
+24
+
+Enhancing Linux Security with 
+SELinux
+
+IN THIS CHAPTER
+
+Learning about SELinux benefi ts
+
+Learning how SELinux works
+
+Setting up SELinux
+
+Fixing problems with SELinux
+
+Getting additional information on SELinux
+
+S ecurity Enhanced Linux (SELinux) was developed by the National Security Agency (NSA) 
+
+along with other security research organizations, such as Secure Computing Corporation 
+(SCC).

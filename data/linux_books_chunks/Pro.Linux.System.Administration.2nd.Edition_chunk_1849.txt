@@ -1,0 +1,10 @@
+Adding a CentOS Repository in a YUM Repo File
+
+[source]
+name=CentOS-releasever - Sources
+baseurl=http://vault.centos.org/centos/$releasever/os/Source/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+
+You can see that in the baseurl option we’ve specified a variable called $releasever.

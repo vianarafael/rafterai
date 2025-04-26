@@ -1,0 +1,8 @@
+In a commercial web-hosting environ-
+ment, it is common to create a special default virtual host that contains an error message indicating that no site by 
+that name has been confi gured.
+
+Allowing users to publish their own web content
+In situations where you do not have the ability to set up a virtual host for every 
+user that you want to provide web space for, you can easily make use of the 
+mod_userdir module in Apache.

@@ -1,0 +1,2 @@
+This ability is verified by the password provided and requires the name of the Bareos service allowed 
+to monitor it.

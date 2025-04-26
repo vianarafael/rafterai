@@ -1,0 +1,9 @@
+The solution is to install the .deb package first from the download 
+page and manually install it similar to how we will do it with CentOS.
+
+779
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+For CentOS hosts you have to download the Fedora/CentOS RPMs from the web site (https://www.
+ldap-account-manager.org/lamcms/releases).

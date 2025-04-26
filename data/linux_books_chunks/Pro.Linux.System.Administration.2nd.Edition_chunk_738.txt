@@ -1,0 +1,3 @@
+We’ve added the user 
+to the admin group by specifying the -G option and the name of the group to add the user to. (Note that we’ve 
+used the sudo command to do the user modification.

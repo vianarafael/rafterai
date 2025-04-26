@@ -1,0 +1,4 @@
+This allows a set of hypervisors to share a set of images they use to install or start 
+virtual machines. It also lets the same set of virtual machines run on any hypervi-
+sor in that group and even move to a different hypervisor without shutting down 
+the VM.

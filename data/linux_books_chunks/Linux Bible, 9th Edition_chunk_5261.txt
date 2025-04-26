@@ -1,0 +1,8 @@
+To enable the swap partition and turn it on so additional swap space is immediately 
+
+available, type the following:
+
+# mkswap /dev/sdb2
+# swapon /dev/sdb2
+
+8.

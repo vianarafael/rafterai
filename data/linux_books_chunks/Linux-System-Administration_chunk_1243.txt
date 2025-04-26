@@ -1,0 +1,20 @@
+hello.c
+
+A little C program that will be our module.
+
+[root@rhel4a kernel_module]# cat hello.c 
+#include <linux/module.h>
+#include <section>
+
+int init_module(void)
+{
+ printk(KERN_INFO "Start Hello World...\n");
+ return 0;
+}
+
+void cleanup_module(void)
+{
+ printk(KERN_INFO "End Hello World... \n");
+}
+
+28.6.2.

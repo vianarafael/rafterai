@@ -1,0 +1,9 @@
+Create a user named einstime with /bin/date as his default logon shell.
+
+root@debian7:~# useradd -s /bin/date einstime
+
+Or even better:
+
+root@debian7:~# useradd -s $(which date) einstime
+
+7.

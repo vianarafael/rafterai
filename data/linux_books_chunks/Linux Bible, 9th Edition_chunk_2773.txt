@@ -1,0 +1,10 @@
+There’s no need to include disabled to see which services are set to be active, 
+
+402
+
+c15.indd  04/01/2015  Page 403
+
+Chapter 15: Starting and Stopping Services
+
+which is effectively accomplished by using the -v option on the grep command, as 
+shown in the preceding example.

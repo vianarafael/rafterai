@@ -1,0 +1,46 @@
+We then brought up our enp0s9 device.
+
+And just quickly, we can validate that our bonding driver has been loaded into the kernel by issuing the 
+
+following again:
+
+$ lsmod |grep bonding
+bonding   136705  0
+
+If we wanted to bring down the bond interface we could issue the following:
+
+$ sudo nmcli connection down  bond0
+Connection 'bond0' successfully deactivated (D-Bus active path: /org/freedesktop/
+NetworkManager/ActiveConnection/6)
+
+$ sudo nmcli device status
+DEVICE  TYPE      STATE         CONNECTION
+enp0s3  ethernet  connected     enp0s3
+enp0s8  ethernet  disconnected  --
+enp0s9  ethernet  disconnected  --
+
+240
+
+You can see here that bringing down the bond0 interface has disconnected the two slaves as well.
+We can also view your new bonded device by issuing the /sbin/ip addr show command, which will 
+
+produce the following output:
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+3: enp0s8: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> 
+mtu 1500 qdisc pfifo_fast master bond0 state UP qlen 1000
+    link/ether 08:00:27:71:c3:d8 brd ff:ff:ff:ff:ff:ff
+4: enp0s9: <BROADCAST,MULTICAST,SLAVE,UP,LOWER_UP> 
+mtu 1500 qdisc pfifo_fast master bond0 state UP qlen 1000
+    link/ether 08:00:27:71:c3:d8 brd ff:ff:ff:ff:ff:ff
+8: bond0: <BROADCAST,MULTICAST,MASTER,UP,LOWER_UP> 
+mtu 1500 qdisc noqueue state UP
+    link/ether 08:00:27:71:c3:d8 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.1/24 brd 192.168.0.255 scope global bond0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fe71:c3d8/64 scope link
+       valid_lft forever preferred_lft forever
+
+If you look at the interface description of enp0s8 and enp0s9, you can see that they are both set to SLAVE, 
+and you can see that bond0 is set to MASTER.

@@ -1,0 +1,14 @@
+You may already have these packages installed, in which case YUM will 
+skip them.
+
+ ■ Note 
+
+ We talk about DhCp in Chapter 10 and apache in Chapter 11.
+
+Once everything is installed, we need to enable cobblerd, the daemon process, at boot and start it.
+
+$ sudo systemctl enable cobblerd httpd
+$ sudo systemctl start cobblerd
+$ sudo systemctl start httpd
+
+Cobbler requires access to the Apache server to be started.

@@ -1,0 +1,5 @@
+If the script works, add it to a directory in your path (such as $HOME/bin).
+
+Backup script
+Because nothing works forever and mistakes happen, backups are just a fact of life when 
+dealing with computer data.

@@ -1,0 +1,7 @@
+The Very Secure 
+FTP Daemon (vsftpd package) is available for Fedora, Red Hat Enterprise Linux, Ubuntu, 
+and other Linux systems.
+
+A default vsftpd server allows anonymous users to download ﬁ les from the server and 
+regular Linux users to upload or download ﬁ les (provided some security settings are 
+changed). Moving around on an FTP server is similar to moving around a Linux ﬁ lesystem.

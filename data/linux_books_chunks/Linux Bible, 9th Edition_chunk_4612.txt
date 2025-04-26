@@ -1,0 +1,5 @@
+A Boolean switch allows you 
+to change parts of SELinux policy rules, without any knowledge of policy writing. These 
+policy changes can be done without a system reboot, too!
+
+To see a list of all the current Booleans used in SELinux, use the getsebool -a command.

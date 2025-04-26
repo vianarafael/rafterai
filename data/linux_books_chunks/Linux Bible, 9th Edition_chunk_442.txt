@@ -1,0 +1,7 @@
+This tool is not installed by default with the 
+Fedora GNOME Live CD, but you can add it by installing the gnome-tweak-tool package. 
+(See Chapter 10, “Getting and Managing Software,” for information on how to install soft-
+ware packages in Fedora.)
+
+After installation, the GNOME Tweak Tool is available by launching the Advanced Settings 
+icon from your Applications screen.

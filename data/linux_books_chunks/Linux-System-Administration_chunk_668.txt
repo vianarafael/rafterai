@@ -1,0 +1,6 @@
+This serial process of starting daemons is slow,
+and although slow booting is not a problem on servers where uptime is measured in years,
+the recent uptake of Linux on the desktop results in user complaints.
+
+To improve Linux startup speed, Canonical has developed upstart, which was first used
+in  Ubuntu.

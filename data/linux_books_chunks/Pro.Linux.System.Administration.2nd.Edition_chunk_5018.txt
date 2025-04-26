@@ -1,0 +1,13 @@
+It preferences read requests 
+and tries to provide certainty to requests by imposing a deadline on the start time.
+
+•	 Noop: This is a first in/first out queue, where the I/O is left to lower subsystems to 
+
+order; it is suitable for virtual machines.
+
+You can find the scheduler on your device by executing a command similar to this:
+
+$ cat /sys/block/sda/queue/scheduler
+noop deadline [cfq]
+
+The scheduler in [] is the current setting.

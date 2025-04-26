@@ -1,0 +1,2 @@
+Either will effectively allow you to remotely connect to and administer your Linux hosts from an 
+environment that you’re comfortable in.

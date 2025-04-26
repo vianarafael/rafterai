@@ -1,0 +1,7 @@
+The default, -1, disables the option. Setting this to 0 dis-
+ables the account immediately after the password has expired. Replace -1 with the 
+number to use.
+
+ ■ -g group—Change the primary group (as listed in the /etc/group ﬁ le) the user 
+
+will be in.

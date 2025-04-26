@@ -1,0 +1,9 @@
+reload and verify
+
+After a service apache2 reload the websites should be available by name.
+
+root@debian7:/etc/apache2/sites-available# service apache2 reload
+Reloading web server config: apache2.
+root@debian7:/etc/apache2/sites-available# wget chessclub42.local 
+--2014-05-06 21:37:13--  http://chessclub42.local/
+Resolving chessclub42.local (chessclub42.local)...

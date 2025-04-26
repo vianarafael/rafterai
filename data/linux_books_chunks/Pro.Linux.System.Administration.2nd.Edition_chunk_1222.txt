@@ -1,0 +1,7 @@
+Commonly, you will find maintenance-type tasks in the crontabs. These 
+can be scheduled to run nightly, weekly, or monthly and perform some kind of script, like one that deletes all 
+files in the /var/ log/httpd directory older than two months.
+
+Cron jobs (the tasks that crontab performs) are defined in a series of scripts under the directories 
+
+defined in the /etc/crontab file.

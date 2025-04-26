@@ -1,0 +1,2 @@
+The smb.conf ﬁ le is the primary conﬁ guration ﬁ le, where you put global settings for the 
+Samba server as well as individual ﬁ le and printer share information (more on that later).

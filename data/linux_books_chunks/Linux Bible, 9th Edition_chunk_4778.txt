@@ -1,0 +1,8 @@
+However, it’s a good idea 
+to check and see if it really is enabled. Before you check, you ﬁ rst must understand that 
+the netfilter/iptables ﬁ rewall services are slightly different depending upon the 
+Linux distribution:
+
+ ■ RHEL 6 or earlier netfilter/iptables firewall—The ﬁ rewall interface service 
+
+ running on this distribution is iptables.

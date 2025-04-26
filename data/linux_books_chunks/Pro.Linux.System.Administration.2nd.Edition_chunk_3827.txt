@@ -1,0 +1,5 @@
+The options to expand come down to adding new 
+bricks to existing peers or adding new peers and bricks into the volume. We have added a new 50GB hard 
+drive to our existing peers, and we are going to add them to the vol1 volume.
+
+We are going to create another three 50GB drives and add them into the volume as another set.

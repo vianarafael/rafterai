@@ -1,0 +1,2 @@
+If a second server is configured 
+then the servers should be able to synchronise their host information.

@@ -1,0 +1,15 @@
+The global cups options = raw setting makes all printers raw printers (meaning that 
+the Windows client needs to provide the proper printer driver for each shared printer).
+
+Here’s what the default printers section looks like in the smb.conf ﬁ le:
+
+[printers]
+        comment = All Printers
+        path = /var/spool/samba
+        browseable = no
+;       guest ok = no
+;       writable = No
+        printable = yes
+
+The printable = yes line causes all your CUPS printers on the local system to be 
+shared by Samba.

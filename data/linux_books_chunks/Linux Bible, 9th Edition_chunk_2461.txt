@@ -1,0 +1,10 @@
+The computer must have a network interface (wired or wireless), an IP address, an 
+assigned DNS server, and a route to the Internet (identiﬁ ed by a gateway device).
+
+Before I discuss how to change your networking conﬁ guration in Linux, let’s look at the 
+general activities that occur when Linux is set to automatically connect to the Internet 
+with NetworkManager:
+
+ ■ Activate network interfaces—NetworkManager looks to see what network 
+
+ interfaces (wired or wireless) are set to start.

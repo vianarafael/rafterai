@@ -1,0 +1,11 @@
+This
+example shows how to find the package for three files on a typical Debian server.
+
+root@debian6:~# dpkg -S /usr/share/doc/tmux/ /etc/ssh/ssh_config /sbin/ifconfig 
+tmux: /usr/share/doc/tmux/
+openssh-client: /etc/ssh/ssh_config
+net-tools: /sbin/ifconfig
+
+20.2.5. dpkg -L
+
+You can also get a list of all files that are installed by a certain program.

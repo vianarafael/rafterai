@@ -1,0 +1,8 @@
+Choose the amount of RAM and number of proces-
+sors available to the VM, and click Forward. I suggest at least 1024MB of RAM and 
+at least one processor. Using 2048MB of RAM, if it is available, is better.
+
+e.  Enable storage. Choose the amount of disk space you want the VM to consume. I 
+
+suggest at least 10GB for a Fedora Workstation, but you could probably get by with 
+less.

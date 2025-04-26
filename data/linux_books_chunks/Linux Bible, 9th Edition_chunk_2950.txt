@@ -1,0 +1,8 @@
+These 
+include Common Options (number of copies, orientation, scale to ﬁ t, and pages 
+per side), Image Options (scaling, saturation, hue, and gamma), and Text Options 
+( characters/inch, lines/inch, and margin settings).
+
+ ■ Ink/Toner Levels—Click Ink/Toner Levels to see information on how much ink or 
+
+toner your printer has left.

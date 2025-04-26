@@ -1,0 +1,7 @@
+Instead, you might have to reach the Internet via a proxy server. 
+Instead of allowing you full access to the Internet, a proxy server lets you make requests 
+only for certain services outside the local network. The proxy server then passes those 
+requests on to the Internet or other network.
+
+Proxy servers typically provide access to web servers (http:// and https://) and FTP 
+servers (ftp://).

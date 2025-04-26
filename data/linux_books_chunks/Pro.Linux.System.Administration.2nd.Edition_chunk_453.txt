@@ -1,0 +1,12 @@
+Let’s type a command called 
+whoami and execute it by pressing the Enter key:
+
+$ whoami
+jsmith
+
+The whoami command returns the name of the user you are logged in as. You can see our host has 
+
+returned jsmith. This tells us we’re logged in to our host as the user jsmith.
+
+Each shell contains a series of built-in commands and functions to help you make use of the command 
+line.

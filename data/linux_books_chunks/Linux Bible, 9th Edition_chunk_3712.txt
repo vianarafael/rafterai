@@ -1,0 +1,13 @@
+On the NFS client system, add an entry to the ﬁ le you just noted (/etc/auto.
+
+joe is what we used) that contains an entry like the following:
+
+joe      -rw     mynfs.example.com:/home/shared/joe
+
+7.  On the NFS client system, restart the autofs service:
+
+# systemctl restart autofs.service
+
+8.  On the NFS client system, create a user named joe using the useradd 
+
+ command.

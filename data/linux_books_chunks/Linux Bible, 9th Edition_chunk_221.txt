@@ -1,0 +1,7 @@
+Add to that 
+the fact that no application programs were available with UnixWare, and you can see why 
+the endeavor failed.
+
+Successful marketing of UNIX systems at the time, however, was happening with other 
+computer companies. SCO had found a niche market, primarily selling PC versions of 
+UNIX running dumb terminals in small ofﬁ ces.

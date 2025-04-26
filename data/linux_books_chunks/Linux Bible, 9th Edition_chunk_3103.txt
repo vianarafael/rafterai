@@ -1,0 +1,5 @@
+You may want to serve web 
+content from the /mystuff directory or put conﬁ guration ﬁ les in the /etc/
+whatever directory. Likewise, you may want to allow users of your server to 
+upload ﬁ les, run scripts, or enable other features that are disabled by SELinux by 
+default.

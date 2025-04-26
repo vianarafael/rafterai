@@ -1,0 +1,7 @@
+Without going too deep 
+
+into the Ruby language here you may be able to see that we can write blocks of code between do and end 
+statements. We pass the result of Vagrant.configure(2) to the config variable object. We can then use that 
+to assign our Vagrant configuration. In Figure 3-4 we are setting config.vm.box to equal ”base.”
+
+ ruby is a great flexible programming language.

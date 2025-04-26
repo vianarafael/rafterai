@@ -1,0 +1,5 @@
+The time was ripe for a college student from Finland who was working on his own kernel.
+
+Today, BSD versions are available from three major projects: FreeBSD, NetBSD, and OpenBSD. People generally 
+characterize FreeBSD as the easiest to use, NetBSD as available on the most computer hardware platforms, and 
+OpenBSD as fanatically secure. Many security-minded individuals still prefer BSD to Linux.

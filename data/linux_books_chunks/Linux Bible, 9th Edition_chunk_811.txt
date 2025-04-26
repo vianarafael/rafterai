@@ -1,0 +1,2 @@
+Any time you need to refer to a ﬁ le or directory, such 
+as to list it, open it, or remove it, you can use metacharacters to match the ﬁ les you want.

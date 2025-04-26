@@ -1,0 +1,5 @@
+You can set it to enabled on 
+the boot command line with biosdevname=0 (or 1 to disable).
+
+Systemd provides a fallback from this if the biosdevname is not available. this is where our device 
+name of enp0s8 comes from.

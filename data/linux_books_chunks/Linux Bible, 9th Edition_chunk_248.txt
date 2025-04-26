@@ -1,0 +1,5 @@
+So, when people started 
+ putting together distributions, the name Linux and not GNU is what stuck. Some 
+ distributions such as Debian, however, refer to themselves as GNU/Linux distributions. 
+(Not  including GNU in the title or subtitle of a Linux operating system is also a matter of 
+much public grumbling by some members of the GNU project.

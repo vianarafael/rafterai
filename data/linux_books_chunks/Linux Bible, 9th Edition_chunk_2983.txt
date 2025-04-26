@@ -1,0 +1,19 @@
+Here are examples of several browsing settings:
+
+Browsing On
+BrowseProtocols cups
+BrowseOrder Deny,Allow
+BrowseAllow from @LOCAL
+
+436
+
+c16.indd  04/01/2015  Page 437
+
+Chapter 16: Confi guring a Print Server
+
+BrowseAddress 255.255.255.255
+Listen *:631
+
+To enable web-based CUPS administration and to share printers with others on the  network, 
+the cupsd daemon can be set to listen on port 631 for all network interfaces to your 
+ computer based on this entry: Listen *:631.

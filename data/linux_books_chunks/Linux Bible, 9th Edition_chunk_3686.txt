@@ -1,0 +1,12 @@
+Global options apply to all NFS mounts 
+from this client.
+
+The following entry in the /etc/nfsmount.conf ﬁ le sets a 32KB read and write block 
+size for any NFS directories mounted from the system named thunder.example.com:
+
+[ Server "thunder.example.com" ]
+  rsize=32k
+  wsize=32k
+
+To set default options for all NFS mounts for your systems, you can uncomment the 
+NFSMount_Global_Options block.

@@ -1,0 +1,13 @@
+In Figure 2-58 
+
+the default is all of the available LVM partition, or 8.1G.
+
+Figure 2-58.  LV group partitioning
+
+64
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+We will explain LVM better in Chapter 9, but just as partitioning a disk is slicing a disk up into parts, 
+LVM groups are a further extension of the this concept. LVM volumes come from a bucket of shared storage 
+called a group.

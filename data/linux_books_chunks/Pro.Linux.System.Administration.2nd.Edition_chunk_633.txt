@@ -1,0 +1,4 @@
+The /etc/hosts file contains the 
+host entries for our Linux host (like the \WINDOWS\System32\services\etc\hosts file under Windows) that 
+match hostnames to IP addresses. But the cat command is a pretty simple tool and just outputs the text 
+directly.

@@ -1,0 +1,19 @@
+1 root root 17 Feb 28 01:37
+ system-auth -> system-auth-local
+
+656
+
+ 
+ 
+ 
+ 
+c23.indd  04/01/2015  Page 657
+
+Chapter 23: Understanding Advanced Linux Security 
+
+After these changes have been made, you can make any needed changes to the “local” PAM 
+system event conﬁ guration ﬁ les without worrying about the authconfig utility  overwriting 
+the ﬁ les.
+
+Implementing resource limits with PAM
+Managing resources is not just a system administrative task.

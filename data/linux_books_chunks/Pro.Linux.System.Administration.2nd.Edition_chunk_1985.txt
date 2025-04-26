@@ -1,0 +1,15 @@
+You can find all of the 
+options (and there are many) that are available for dpkg by issuing the man dpkg command, as shown in 
+Listing 8-17.
+
+343
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Listing 8-17.  The dpkg man page
+
+$ man dpkg
+
+Table 8-4 lists some of the main options and flags for the dpkg command.
+
+Table 8-4.

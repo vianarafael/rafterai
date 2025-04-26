@@ -1,0 +1,5 @@
+We are also 
+
+going to talk about extending your OpenLDAP directory server by adding your own schema. We will show 
+you how to design the access control lists to secure your installation, as well as how to manage your LDAP 
+server via command-line tools and a web-based GUI.

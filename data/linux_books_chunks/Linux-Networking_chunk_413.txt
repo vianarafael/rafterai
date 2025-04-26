@@ -1,0 +1,16 @@
+200 OK
+Length: 25 [text/html]
+Saving to: `index.html.1'
+
+100%[===========================================>] 25          --.-K/s   in 0s
+
+2014-05-06 21:16:20 (2.16 MB/s) - `index.html.1' saved [25/25]
+
+root@debian7:/etc/apache2# cat index.html.1 
+Welcome to chess club 42
+
+Testing the hacker club named hunter2 on port 9000.
+
+root@debian7:/etc/apache2# wget 127.0.0.1:9000 
+--2014-05-06 21:16:30--  http://127.0.0.1:9000/
+Connecting to 127.0.0.1:9000...

@@ -1,0 +1,5 @@
+It is 
+also flexible enough to allow you to integrate your Samba user administration if you choose to do so.
+
+Installation and Configuration
+LAM is available for download with Ubuntu from its online repositories.

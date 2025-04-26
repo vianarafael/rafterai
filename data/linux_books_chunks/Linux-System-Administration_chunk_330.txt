@@ -1,0 +1,5 @@
+You can use parted instead.
+
+5.6. labeling with parted
+
+parted is an interactive tool, just like fdisk.

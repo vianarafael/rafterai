@@ -1,0 +1,21 @@
+If the file is very large, the text will keep outputting and scrolling down the screen, meaning if you 
+wanted to see something at the start of the file, you’d need to scroll back.
+
+132
+
+ChapTeR 4 ■ LInux BasICs
+
+ You can scroll a virtual console up and down via the shift+page up and shift+page Down key 
+
+ ■ Tip 
+combinations.
+
+To overcome this issue, we’re going to look at another command called less.
+
+ You can try the cat command on the /etc/passwd and /etc/group files to see a full list of the users 
+
+ ■ Note 
+and groups on your host.
+
+The less command allows you to scroll through files, both backward and forward, a screen at a 
+time.

@@ -1,0 +1,8 @@
+In the following, 
+the commands are used to add the proper security context type on the /abc/www/html 
+directory and all it contains:
+
+# semanage fcontext -a -t httpd_sys_content_t  "/abc/www/html(/.*)?"
+
+To actually set the new security context type to the ﬁ les within the directory, you need to 
+use the restorecon -R command.

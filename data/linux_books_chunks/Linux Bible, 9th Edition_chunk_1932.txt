@@ -1,0 +1,9 @@
+In this example, sara uses the newgrp command to have 
+sales become her primary group temporarily and creates a ﬁ le:
+
+[sara]$ touch file1
+[sara]$ newgrp sales
+[sara]$ touch file2
+[sara]$ ls -l file*
+-rw-rw-r--. 1 sara sara  0 Jan 18 22:22 file1
+-rw-rw-r--.

@@ -1,0 +1,2 @@
+This will link to a SourceForge download, and you can get a 
+copy to the direct link (removing the mirror information from the URL).

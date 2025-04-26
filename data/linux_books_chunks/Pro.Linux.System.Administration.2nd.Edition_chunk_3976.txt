@@ -1,0 +1,5 @@
+We also want this script to be run 
+by the exbackup user using the passphrase-less key we have created.
+
+First, let’s set up the .ssh/config file that will handle all the SSH configuration we need. In that file, we 
+will add the hostname, the IP address or FQDN name, and the user to connect with.

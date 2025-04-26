@@ -1,0 +1,8 @@
+We 
+use the -i option to specify which interface to examine. In the output, we can break down the lines as follows:
+
+timestamp source.port > destination.port : flags
+
+In the preceding output, the first two lines contain information telling you what the command is doing, 
+
+in this case, listening on enp0s3. The rest are actual packets crossing the wire.

@@ -1,0 +1,14 @@
+{
+    group "static" {
+        host au-mel-ubuntu-2 {
+            hardware ethernet 00:16:3E:15:3C:C2;
+            fixed-address au-mel-ubuntu-2.example.com;
+        }
+    }
+}
+
+457
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+We set the use-host-decl-names flag to on.

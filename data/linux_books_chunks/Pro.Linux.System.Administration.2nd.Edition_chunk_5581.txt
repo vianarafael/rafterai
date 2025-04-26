@@ -1,0 +1,6 @@
+You can even try to run up a Vagrant test suite here: https://github.
+com/battlemidget/vagrant-maas-in-a-box.
+
+Configuration Management
+We’ve shown you throughout this book that configuring a Linux server includes quite a few tasks, for 
+example, configuring hosts; creating users; and managing applications, daemons, and services.

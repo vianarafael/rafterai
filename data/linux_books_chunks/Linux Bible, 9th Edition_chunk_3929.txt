@@ -1,0 +1,11 @@
+For a wired NIC, the card may not be fully seated in 
+its slot or the NIC may have been disabled in the BIOS.
+
+574
+
+c21.indd  04/01/2015  Page 575
+
+Chapter 21: Troubleshooting Linux
+
+On a wireless connection, you may click the NetworkManager icon and not see an  available 
+wireless interface. Again, it could be disabled in the BIOS.

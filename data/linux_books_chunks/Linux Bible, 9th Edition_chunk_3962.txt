@@ -1,0 +1,6 @@
+The next step is to log into the server and check 
+those issues.
+
+Check the firewall on the server
+From your server, you can use the iptables command to list the ﬁ lter table rules that are 
+in place.

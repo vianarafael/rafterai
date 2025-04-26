@@ -1,0 +1,7 @@
+The YUM  facility 
+ﬁ nds the latest version of that package available from the repository, downloads it to the 
+local system, and installs it. Figure 10.2 shows what happens when someone installs a 
+ package using the yum command.
+
+The result of a yum install package command is that the package requested is  copied 
+from the yum repository to the local system.

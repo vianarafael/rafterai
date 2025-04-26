@@ -1,0 +1,11 @@
+Add the following line to allow joe to have full root privileges on the computer:
+
+joe     ALL=(ALL)     ALL
+
+This line causes joe to provide a password (his own password, not the root pass-
+word) in order to use administrative commands. To allow joe to have that privilege 
+without using a password, type the following line instead:
+
+joe    ALL=(ALL)     NOPASSWD: ALL
+
+3.

@@ -1,0 +1,38 @@
+Taking 
+
+a look at carbon.conf you will see that we have a [cache] section that is similar to our carbon-cache 
+configuration seen previously.
+
+[cache]
+STORAGE_DIR    = /var/lib/graphite/
+LOCAL_DATA_DIR = /var/lib/graphite/whisper/
+CONF_DIR       = /etc/carbon/
+LOG_DIR        = /var/log/carbon/
+PID_DIR        = /var/run/
+ENABLE_LOGROTATION = False
+USER = carbon
+LOG_LISTENER_CONNECTIONS = True
+USE_INSECURE_UNPICKLER = False
+USE_FLOW_CONTROL = True
+CACHE_WRITE_STRATEGY = sorted
+
+819
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Next we are going create a [relay] section.
+
+[relay]
+LINE_RECEIVER_INTERFACE = 0.0.0.0
+PICKLE_RECEIVER_INTERFACE = 0.0.0.0
+LINE_RECEIVER_PORT = 2013
+PICKLE_RECEIVER_PORT = 2014
+DESTINATIONS = monitor.example.com:2004
+LOG_LISTENER_CONNECTIONS = True
+RELAY_METHOD = rules
+MAX_DATAPOINTS_PER_MESSAGE = 500
+MAX_QUEUE_SIZE = 10000
+QUEUE_LOW_WATERMARK_PCT = 0.8
+USE_FLOW_CONTROL = True
+
+It has similar settings to a carbon-cache.

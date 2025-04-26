@@ -1,0 +1,8 @@
+Other ways 
+to manage background and foreground processes are described in Chapter 6, “Managing 
+Running Processes.”
+
+Expanding commands
+With command substitution, you can have the output of a command interpreted by the 
+shell instead of by the command itself. In this way, you can have the standard output of a 
+command become an argument for another command.

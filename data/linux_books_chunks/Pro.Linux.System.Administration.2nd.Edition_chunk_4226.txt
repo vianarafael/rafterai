@@ -1,0 +1,2 @@
+As you can remember, GlusterFS provides us with reliable and expandable storage options 
+on commodity hardware and can be a great option for safely keeping backups on disk.

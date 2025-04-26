@@ -1,0 +1,9 @@
+Configuring a network interface in Ubuntu
+
+In Figure 7-7 we again can choose to use DHCP or manually configure the interface. Using the user 
+
+interface to configure your network interfaces persist across reboots.
+
+Let’s now view the other way to persist the network configuration with network configuration files and 
+
+scripts.

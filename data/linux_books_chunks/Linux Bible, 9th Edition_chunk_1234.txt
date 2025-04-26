@@ -1,0 +1,4 @@
+To do most administrative tasks, you need to be logged in as the 
+root user (also called the superuser) or to temporarily get root permission (usually using the sudo 
+command). Regular users who don’t have root permission cannot change, or in some cases even see, 
+some of the conﬁ guration information for a Linux system.

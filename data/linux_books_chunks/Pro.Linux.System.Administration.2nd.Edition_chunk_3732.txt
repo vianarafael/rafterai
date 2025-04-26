@@ -1,0 +1,2 @@
+This, of course, is a security concern as storing plain-text credentials on filesystems can be snooped on 
+compromised systems and be used to gain access to other systems.

@@ -1,0 +1,4 @@
+Install the virtual machine. You are prompted to install the system just as you 
+would be if you were installing directly to hardware. Complete the installation, 
+and reboot the virtual machine. If the VM window isn’t open, double-click the VM 
+entry (in this case, fedora21) in the virt-manager window and log in.

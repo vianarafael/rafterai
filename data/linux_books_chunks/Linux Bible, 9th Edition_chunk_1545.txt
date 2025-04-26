@@ -1,0 +1,11 @@
+Red Hat Enterprise Linux offers a 
+limited upgrade path from RHEL 6 to RHEL 7.
+
+213
+
+c09.indd  04/01/2015  Page 214
+
+Part III: Becoming a Linux System Administrator
+
+Upgrading lets you move a Linux system from one major release to the next. Between minor 
+releases, you can simply update packages as needed (for example, by typing yum update).

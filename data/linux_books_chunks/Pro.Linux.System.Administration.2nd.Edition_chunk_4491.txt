@@ -1,0 +1,6 @@
+When we installed 
+our slapd packages and were asked for the administrator password on Ubuntu, the basic OpenLDAP server 
+was configured, installed, and started (on CentOS you will have to start the slapd service prior to running 
+this command).
+
+In Listing 16-1 we have the output of the ldapsearch command.

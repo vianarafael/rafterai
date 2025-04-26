@@ -1,0 +1,5 @@
+Filesystem command. This command is stored in and executed from the computer’s 
+ﬁ lesystem. (These are the commands that are indicated by the value of the PATH 
+variable.)
+
+To ﬁ nd out where a particular command is taken from, you can use the type command.

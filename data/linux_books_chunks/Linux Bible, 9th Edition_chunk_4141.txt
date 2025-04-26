@@ -1,0 +1,10 @@
+1 root root 28804 Aug 17 20:50 /usr/bin/passwd
+
+Thus, the user running the passwd command temporarily becomes root while the command 
+is executing in memory and can then write to the /etc/shadow ﬁ le, but only to change 
+the user’s own password-related information.
+
+root does not have write access to the /etc/shadow permissions, so how does root write to the /etc/shadow 
+fi le? The root user is all-powerful and has complete access to all fi les, whether the permissions are listed or not.
+
+The /etc/group ﬁ le (see Chapter 11) contains all the groups on the Linux system.

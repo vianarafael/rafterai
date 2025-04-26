@@ -1,0 +1,2 @@
+For the OpenStack cloud platform, the OpenStack 
+Dashboard (Horizon project) provides a web-based interface to OpenStack components.

@@ -1,0 +1,33 @@
+atq
+
+It is easy to check when jobs are scheduled with the atq or at -l commands.
+
+root@laika:~# atq
+1       Wed Aug  1 22:01:00 2007 a root
+2       Wed Aug  1 22:03:00 2007 a root
+root@laika:~# at -l
+1       Wed Aug  1 22:01:00 2007 a root
+2       Wed Aug  1 22:03:00 2007 a root
+root@laika:~#
+
+The  at  command  understands  English  words  like  tomorrow  and  teatime  to  schedule
+commands the next day and at four in the afternoon.
+
+root@laika:~# at 10:05 tomorrow
+at> sleep 100
+at> <EOT>
+job 5 at Thu Aug  2 10:05:00 2007
+root@laika:~# at teatime tomorrow
+at> tea
+at> <EOT>
+job 6 at Thu Aug  2 16:00:00 2007
+root@laika:~# atq
+6       Thu Aug  2 16:00:00 2007 a root
+5       Thu Aug  2 10:05:00 2007 a root
+root@laika:~#
+
+195
+
+scheduling
+
+16.1.3.

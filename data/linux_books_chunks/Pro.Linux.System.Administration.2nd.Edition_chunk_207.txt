@@ -1,0 +1,13 @@
+Here is the sequence you should try to get through it.
+
+45
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-32.  Gnome Desktop EULA
+
+That is “1,” “2,” and “c” for the record. If you didn’t install the desktop you will be spared all that and can 
+
+continue on. Assuming you installed the desktop, you will now see the desktop login screen.
+
+Here in Figure 2-33, are entering our password for the JSmith user.

@@ -1,0 +1,8 @@
+The output of dmesg shows they have been assigned to the following devices:
+
+[   47.815498]  sdb: unknown partition table
+[   47.833520]  sdc: unknown partition table
+[   47.848420]  sdd: unknown partition table
+[   47.868448]  sde: unknown partition table
+
+With Btrfs we can group our devices with RAID.

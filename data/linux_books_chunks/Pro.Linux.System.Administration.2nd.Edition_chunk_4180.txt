@@ -1,0 +1,13 @@
+For 
+full details on the variable expansions available with Bareos, please visit http://doc.bareos.org/master/
+html/bareos-manual-main-reference.html#x1-1190008.3.3.
+
+ For a discussion on backup strategies in relation to managing your tapes and rotations using Bareos, 
+
+ ■ Note 
+go to http://doc.bareos.org/master/html/bareos-manual-main-reference.html#x1-23200019.
+
+Console
+
+The Console service gives the Director the ability to poll the File or Storage daemons and report on their 
+status.

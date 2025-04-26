@@ -1,0 +1,13 @@
+We now have to restart 
+
+or reload the Director.
+
+Once all this is done, we should be able to restart the Apache server and log in to the Bareos Web-UI. 
+
+Let’s log in, as shown in Figure 14-10.
+
+Figure 14-10.  Log Web-UI page
+
+We use the password secrets and the username admin, which we specified in webui-consoles.conf 
+
+earlier.

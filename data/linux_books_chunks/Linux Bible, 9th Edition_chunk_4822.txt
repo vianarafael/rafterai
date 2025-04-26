@@ -1,0 +1,14 @@
+Reviewing these rules periodically should be part of your organization’s System Life Cycle 
+Audit/Review phase.
+
+25
+
+723
+
+c25.indd  04/02/2015  Page 724
+
+Part V: Learning Linux Security Techniques
+
+Summary
+Securing your Linux server is critical on a network. Inherently, a majority of the malicious 
+attacks originate from a network, especially the Internet.

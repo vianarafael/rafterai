@@ -1,0 +1,5 @@
+The gawk command is the GNU version of the awk program used in UNIX. 
+The command’s output is shown in the code that follows. As you would expect, many of 
+the accounts do not have an expiration date. However, two accounts, Consultant and 
+Intern, show an expiration date in the “days since January 1, 1970” format. Note that you 
+can skip this step.

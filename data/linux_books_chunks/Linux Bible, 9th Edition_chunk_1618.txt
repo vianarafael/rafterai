@@ -1,0 +1,4 @@
+The original theory was that if /usr were on a separate partition, you 
+could mount that fi lesystem as read-only after the operating system had been 
+installed. This would prevent attackers from removing important system applica-
+tions or replacing them with their own versions that may cause security problems.

@@ -1,0 +1,12 @@
+It also executes the 
+individual jobs when they are scheduled. This service is called crond and can be started and stopped via the 
+systemctl commands we talked about earlier.
+
+$ sudo systemctl start|stop|reload cron(d if CentOS)
+
+215
+
+Chapter 6 ■ Startup and ServiCeS
+
+Summary
+This chapter has explored how the host boots and the processes behind it like the init daemon.

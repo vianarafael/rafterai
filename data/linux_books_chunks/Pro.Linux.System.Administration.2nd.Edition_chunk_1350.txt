@@ -1,0 +1,6 @@
+You can also manage team interfaces with team tools like teamctl and 
+
+teamnl. Let’s go on to see more on the configuration files.
+
+Configuring Networks with Network Scripts
+Both CentOS and Ubuntu have their network configuration files stored in the /etc directory.

@@ -1,0 +1,7 @@
+As with many security practices, the more layers you have, the harder 
+it is for malicious activity to penetrate.
+
+Implementing fi rewalls
+On a Linux system, the ﬁ rewall is a host-based, network-layer, software ﬁ rewall  managed 
+by the iptables utility. With iptables, you can create a series of rules for every 
+ network packet coming through your Linux server.

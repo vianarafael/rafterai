@@ -1,0 +1,12 @@
+The full, exact numbers must match if neither a hyphen or plus is used.
+
+Consider the following examples:
+
+$ find /bin -perm 755 -ls
+788884 28 -rwxr-xr-x 1 root root 28176 Mar 10 2014 /bin/echo
+
+$ find /home/chris/ -perm -222 -type d -ls
+144503 4 drwxrwxrwx 8 chris chris 4096 June 23 2014 /home/chris
+
+By searching for -perm 755, any ﬁ les or directories with exactly rwxr-xr-x 
+ permission are matched.

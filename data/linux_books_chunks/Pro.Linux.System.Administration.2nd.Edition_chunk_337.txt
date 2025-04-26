@@ -1,0 +1,4 @@
+Bad commit messages are “updated file.” You now have a commit in your branch 
+and you might wish to merge that back into the master branch (you might not want to do this directly if you are 
+working on a shared project—you may instead want to “push” your branch to the remote repository you cloned 
+from and get others review it first).

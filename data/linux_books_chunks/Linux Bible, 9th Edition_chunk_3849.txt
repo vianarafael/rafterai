@@ -1,0 +1,5 @@
+Those are followed by rsyslog (system logging service) and then the various networked 
+services.
+
+By the time the runlevel scripts start, you should already have a system that is basically 
+up and running.

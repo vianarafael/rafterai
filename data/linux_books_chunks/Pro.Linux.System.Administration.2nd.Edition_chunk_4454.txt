@@ -1,0 +1,1 @@
+In this instance, we could define an “active” attribute for our example company as exampleActive.

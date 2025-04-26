@@ -1,0 +1,10 @@
+This code is called the Boot Loader and it needs to be in the right place on the disk you are booting from.
+
+ it is not strictly true that ueFi “knows nothing about your operating system.” it actually does know a 
+
+ ■ Note 
+fair bit, but the main point is that it is not your operating system but a lower-level interface with the hardware.
+
+A host running BIOS uses the boot source setting to specify where to look for the next stage of the boot 
+
+process: the boot loader.

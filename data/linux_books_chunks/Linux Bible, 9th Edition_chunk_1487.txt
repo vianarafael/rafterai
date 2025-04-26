@@ -1,0 +1,7 @@
+If DHCP is available 
+on the  network, you can simply set your network interfaces to pick up IP address 
+ information automatically. You can also set up IP address information manually. 
+Select Begin Installation when you are ﬁ nished, and the installation process begins.
+
+9.  Select ROOT PASSWORD. As Fedora installs, this selection lets you set the password 
+for the root user.

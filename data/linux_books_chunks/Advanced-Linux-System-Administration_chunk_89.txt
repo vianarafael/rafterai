@@ -1,0 +1,9 @@
+Patching a Kernel
+
+Incremental upgrades can be applied to an existing source tree. If you have downloaded 
+the linux-2.4.21.tgz kernel source and you want to update to a more recent kernel linux-
+2.4.22 for example, you must download the patch-2.4.22.gz patch.  
+
+Applying the Patch
+
+The patch file attempts to overwrite files in the 2.4.21 tree.

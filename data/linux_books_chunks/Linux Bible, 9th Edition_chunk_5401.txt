@@ -1,0 +1,10 @@
+User passwords are stored in the /etc/shadow ﬁ le. To see its permissions, type ls 
+-l /etc/shadow at the command line. (If no shadow ﬁ le exits, then you need to 
+run pwconv.)
+
+The following are the appropriate settings:
+
+# ls -l /etc/shadow
+----------. 1 root root 1049 Feb  10 09:45 /etc/shadow
+
+3.

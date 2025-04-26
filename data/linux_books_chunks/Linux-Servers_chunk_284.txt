@@ -1,0 +1,32 @@
+inner join
+
+With an inner join you can take values from two tables and combine them in one result.
+Consider the country and the people tables from the previous section when looking at this
+screenshot of an inner join.
+
+mysql> select Name,Field,countryname
+    -> from country
+    -> inner join people on people.countrycode=country.countrycode;
++-----------------+-----------+---------------+
+| Name            | Field     | countryname   |
++-----------------+-----------+---------------+
+| Barack Obama    | politics  | United States |
+| Deng Xiaoping   | politics  | China         |
+| Guy Verhofstadt | politics  | Belgium       |
+| Justine Henin   | tennis    | Belgium       |
+| Kim Clijsters   | tennis    | Belgium       |
+| Li Na           | tennis    | China         |
+
+54
+
+introduction to sql using mysql
+
+| Liu Yang        | astronaut | China         |
+| Serena Williams | tennis    | United States |
+| Venus Williams  | tennis    | United States |
++-----------------+-----------+---------------+
+9 rows in set (0.00 sec)
+
+This inner join will show only records with a match on countrycode in both tables.
+
+3.6.2.

@@ -1,0 +1,16 @@
+The first
+one is taken immediately after booting four different computers (one MS Windows 2000,
+one MS Windows xp, one MS Windows 2003 and one RHEL 4 with Samba 3.0.10).
+
+[paul@RHEL4b ~]$ smbtree
+Password: 
+WORKGROUP
+PEGASUS
+ \\WINXP          
+ \\RHEL4B                        Pegasus Domain Member Server
+Error connecting to 127.0.0.1 (Connection refused)
+cli_full_connection: failed to connect to RHEL4B<20> (127.0.0.1)
+ \\HM2003         
+[paul@RHEL4b ~]$
+
+The  information  displayed  in  the  previous  screenshot  looks  incomplete.

@@ -1,0 +1,21 @@
+So the 
+next section of this chapter describes the strange and winding path of the free software 
+movement that led to Linux.
+
+Exploring Linux History
+Some histories of Linux begin with this message posted by Linus Torvalds to the comp.
+os.minix newsgroup on August 25, 1991 (http://groups.google.com/group/comp.
+os.minix/msg/b813d52cbc5a044b?pli=1):
+
+6
+
+c01.indd  04/01/2015  Page 7
+
+Chapter 1: Starting with Linux
+
+Linus Benedict Torvalds
+
+Hello everybody out there using minix -
+
+I’m doing a (free) operating system (just a hobby, won’t be big and professional 
+like gnu) for 386(486) AT clones.

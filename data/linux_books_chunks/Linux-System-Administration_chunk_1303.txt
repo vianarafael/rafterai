@@ -1,0 +1,5 @@
+(On the real computer) Create and mount an ISO image of the ubuntu cdrom.
+
+7. Combine dd and gzip to create a 'ghost' image of one of your partitions on another partition.
+
+8. Use dd to create a five megabyte file in ~/testsplit and name it biggest.

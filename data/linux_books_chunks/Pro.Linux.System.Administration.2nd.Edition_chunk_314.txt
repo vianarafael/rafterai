@@ -1,0 +1,7 @@
+Centos7 VM is almost ready
+
+We can change the settings for our new virtual host or add more storage devices. We need to add a 
+
+storage device to boot our operating system from. So we will select Settings and go to the storage tab. You 
+can see we have an IDE controller that is Empty. We can click on the little DVD symbol and select Choose 
+Optical Virtual Disk File.

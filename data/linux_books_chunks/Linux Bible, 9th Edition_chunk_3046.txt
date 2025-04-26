@@ -1,0 +1,8 @@
+After your network is conﬁ gured properly and a 
+local printer is installed, sharing that printer over the network as a UNIX or SMB print 
+server is not very complicated.
+
+Exercises
+Use these exercises to test your knowledge of conﬁ guring printers in Linux. These tasks 
+assume you are running a Fedora or Red Hat Enterprise Linux system (although some tasks 
+work on other Linux systems as well).

@@ -1,0 +1,3 @@
+If you remove a package and then re-add it, it doesn’t 
+need to be downloaded all over again. Utilities are available that let you share such a cache across 
+multiple computers, which is useful if you have a slow or expensive Internet connection.

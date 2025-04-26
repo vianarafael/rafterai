@@ -1,0 +1,12 @@
+Every software component you need to build a private or public cloud 
+(such as hypervisors, cloud controllers, network storage, virtual networking, and authentication) 
+is freely available for you to start using from the open source world.
+
+3
+
+c01.indd  04/01/2015  Page 4
+
+Part I: Getting Started
+
+The widespread adoption of Linux around the world has created huge demand for Linux 
+expertise.

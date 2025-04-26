@@ -1,0 +1,16 @@
+The example
+below uses grep to limit the result to SCSI devices.
+
+[root@RHEL5 ~]# lvmdiskscan | grep sd
+  /dev/sda1                [      101.94 MB] 
+  /dev/sda2                [       15.90 GB] LVM physical volume
+  /dev/sdb                 [      409.60 MB] 
+  /dev/sdc                 [      409.60 MB] 
+  /dev/sdd                 [      409.60 MB] LVM physical volume
+  /dev/sde1                [       95.98 MB] 
+  /dev/sde5                [      191.98 MB] 
+  /dev/sdf                 [      819.20 MB] LVM physical volume
+  /dev/sdg1                [      818.98 MB] 
+[root@RHEL5 ~]#
+
+11.8.2.

@@ -1,0 +1,10 @@
+# ifmetric
+
+
+- Set the priority of the specified network interface (a higher number indicates lower priority):
+
+`sudo ifmetric {{interface}} {{value}}`
+
+- Reset the priority of the specified network interface:
+
+`sudo ifmetric {{interface}} {{0}}`

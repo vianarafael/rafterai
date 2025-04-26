@@ -1,0 +1,14 @@
+To start and enable the NFS service, type the following as root user on the NFS 
+
+server:
+
+# systemctl start nfs-server.service
+# systemctl enable nfs-server.service
+
+4.  To check the status of the NFS service you just started on the NFS server, type the 
+
+following as root user:
+
+# systemctl status nfs-server.service
+
+5.

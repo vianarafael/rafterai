@@ -1,0 +1,10 @@
+Double-check that the drive is partitioned the way you want by pressing p. (Your 
+
+output will differ, depending on the size of your drive.)
+
+Command (m for help): p
+...
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdc1            2048    15667199     7832576   83  Linux
+
+13.  To make changes to the partition table permanent, type w.

@@ -1,0 +1,15 @@
+We can be specific about the interface file to reread but in this case we are going to get it reread all 
+of them by issuing
+
+$ sudo nmcli connection reload
+
+ this can be shortened to nmcli c r as many of the commands can just take the first letter of the 
+
+ ■ Tip 
+subcommand.
+
+239
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Let’s now check the current state of our interfaces.

@@ -1,0 +1,17 @@
+To prepare your system to run a vsftpd FTP server that is protected by SELinux, 
+
+log in as a regular (we use chris in this example) and try to copy a ﬁ le (which 
+should cause an AVC denial), type the following:
+
+# getenforce
+Enforcing
+# yum install vsftpd lftp rsyslog setroubleshoot-server
+# systemctl start syslog
+# systemctl start vsftpd
+# semodule -DB
+# getsebool ftp_home_dir
+ftp_home_dir --> off
+# lftp -u chris localhost
+Password: ********
+lftp chris@localhost:~> put /etc/services
+put: Access failed: 553 Could not create file.

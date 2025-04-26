@@ -1,0 +1,9 @@
+Upgrades generally do more checking and 
+ comparing than clean installs do, so any package you can remove saves time 
+during the upgrade process.
+
+ ■ Check configuration files. A Linux upgrade procedure often leaves copies of 
+old conﬁ guration ﬁ les. You should check that the new conﬁ guration ﬁ les still 
+work for you.
+
+Installing Linux from scratch goes faster than an upgrade.

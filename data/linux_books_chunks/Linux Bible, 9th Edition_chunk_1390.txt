@@ -1,0 +1,13 @@
+Likewise, you can use the journalctl -f command to follow 
+messages as they come into the systemd journal.
+
+The following is an example of some output from the dmesg command that was trimmed 
+down to show some interesting information:
+
+$ dmesg | less
+[    0.000000] Linux version 3.16.3-200.fc20.x86_64 
+     (mockbuild@bkernel02.phx2.fedoraproject.org) 
+     (gcc version 4.8.3 20140624 (Red Hat 4.8.3-1) (GCC) ) 
+     #1 SMP Wed Sep 17 22:34:21 UTC 2014
+
+[    0.000000] DMI: Dell Inc.

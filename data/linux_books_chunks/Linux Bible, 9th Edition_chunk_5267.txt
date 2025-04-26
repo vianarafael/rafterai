@@ -1,0 +1,11 @@
+To use X11 forwarding to display a gedit window on your local system and then 
+
+save a ﬁ le on the remote home directory, do the following:
+
+$ ssh -X joe@localhost "gedit newfile"
+joe@localhost's password: ********
+$ ssh joe@localhost "cat newfile"
+joe@localhost's password: ********
+This is text from the file I saved in joe's remote home directory
+
+4.

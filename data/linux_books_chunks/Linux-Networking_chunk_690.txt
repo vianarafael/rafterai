@@ -1,0 +1,29 @@
+Packet Forwarding Solution
+
+leftnet computer
+
+the router
+
+rightnet computer
+
+08:00:27:f6:ab:b9
+
+08:00:27:43:1f:5a
+
+08:00:27:be:4a:6b
+
+08:00:27:14:8b:17
+
+192.168.60.8
+
+192.168.60.1
+
+192.168.70.1
+
+192.168.70.9
+
+176
+
+introduction to routers
+
+3.

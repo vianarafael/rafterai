@@ -1,0 +1,29 @@
+When you are done, the
+configuration is written to /etc/sysconfig/iptables on Red Hat.
+
+root@RHELv4u4:~# cat /etc/sysconfig/iptables
+# Firewall configuration written by system-config-securitylevel
+# Manual customization of this file is not recommended.
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:RH-Firewall-1-INPUT - [0:0]
+-A INPUT -j RH-Firewall-1-INPUT
+-A FORWARD -j RH-Firewall-1-INPUT
+-A RH-Firewall-1-INPUT -i lo -j ACCEPT
+-A RH-Firewall-1-INPUT -p icmp --icmp-type any -j ACCEPT
+-A RH-Firewall-1-INPUT -p 50 -j ACCEPT
+-A RH-Firewall-1-INPUT -p 51 -j ACCEPT
+-A RH-Firewall-1-INPUT -p udp --dport 5353 -d 224.0.0.251 -j ACCEPT
+-A RH-Firewall-1-INPUT -p udp -m udp --dport 631 -j ACCEPT
+-A RH-Firewall-1-INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+-A RH-F...NPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+-A RH-F...NPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+-A RH-F...NPUT -m state --state NEW -m tcp -p tcp --dport 21 -j ACCEPT
+-A RH-F...NPUT -m state --state NEW -m tcp -p tcp --dport 25 -j ACCEPT
+-A RH-Firewall-1-INPUT -j REJECT --reject-with icmp-host-prohibited
+COMMIT
+root@RHELv4u4:~#
+
+To start the service, issue the service iptables start command.

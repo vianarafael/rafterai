@@ -1,0 +1,6 @@
+From 
+now on, your browser will accept HTTPS connections to the web server using that 
+certiﬁ cate and encrypt all communications between the server and browser.
+
+Because you don’t want your website to scare off users, the best thing to do is to get a 
+valid certiﬁ cate to use with your site.

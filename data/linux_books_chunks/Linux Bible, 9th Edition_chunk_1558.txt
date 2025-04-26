@@ -1,0 +1,3 @@
+Run gparted as root to start it.
+
+Before you try to resize your Windows partition, you might need to defragment it.

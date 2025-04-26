@@ -1,0 +1,12 @@
+Not all versions of Apache have these blocks 
+in their httpd.conf ﬁ le, so you might have to create them from scratch:
+
+464
+
+ 
+c17.indd  04/01/2015  Page 465
+
+Chapter 17: Confi guring a Web Server
+
+1.  Create a <IfModule mod_userdir.c> block. Change chris to any username you 
+want to allow to create their own public_html directory.

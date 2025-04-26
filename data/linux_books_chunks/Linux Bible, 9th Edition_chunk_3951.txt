@@ -1,0 +1,6 @@
+However, for servers, the next section describes ways of making your server 
+ accessible if clients are having trouble reaching the services you provide from that server.
+
+Troubleshooting incoming connections
+If you are troubleshooting network interfaces on a server, there are different  considerations 
+than on a desktop system.

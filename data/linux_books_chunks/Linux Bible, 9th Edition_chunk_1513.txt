@@ -1,0 +1,7 @@
+You may be asked to verify that it’s okay to 
+delete existing storage.
+
+11.  Network & Hostname. Any network interface cards that are discovered can be 
+ conﬁ gured at this point. If a DHCP service is available on the network,  network 
+address information is assigned to the interface after you select ON. Select 
+Conﬁ gure if you prefer to conﬁ gure the network interface manually.

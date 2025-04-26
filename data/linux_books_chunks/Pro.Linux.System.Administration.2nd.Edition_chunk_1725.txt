@@ -1,0 +1,13 @@
+If we wanted to limit our SSH connections we 
+
+would issue the following:
+
+$ sudo ufw limit ssh/tcp
+
+285
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Currently only ipv4 is supported with this and will deny the connection if there are more than 5 
+
+attempts in the last 30 seconds.

@@ -1,0 +1,6 @@
+Leading on from these 
+tasks, we’re going to finish this chapter by covering how to view, edit, search, copy, move, and delete files. 
+You’ll need to know how to handle all these tasks in order to administer your Linux host.
+
+Reading Files
+The first thing you’re going to learn is how to read files.

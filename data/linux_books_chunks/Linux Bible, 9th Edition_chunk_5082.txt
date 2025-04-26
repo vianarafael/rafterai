@@ -1,0 +1,11 @@
+Fortunately, Linux distributions are widely available and come in a variety of forms.
+
+In this appendix, you learn how to:
+
+ ■ Get a few different Linux distributions
+
+ ■ Create a bootable disk to install your distribution
+
+ ■ Boot Linux from a USB drive
+
+To use this book effectively, you should have a Linux distribution in front of you to work on.

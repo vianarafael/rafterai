@@ -1,0 +1,6 @@
+When the CPU is done with data, that data 
+is discarded if it is no longer needed, left in RAM for possible later use, or marked 
+to be written to disk for permanent storage if it needs to be saved.
+
+It is important to understand the difference between temporary (RAM) and permanent 
+(hard disk) storage, but that doesn’t tell the whole story.

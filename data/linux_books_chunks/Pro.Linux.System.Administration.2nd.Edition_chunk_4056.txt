@@ -1,0 +1,17 @@
+The following are files we want to exclude:
+
+- /data/
+- /dev/
+- /lost+found/
+- /media/
+- /mnt/
+- /proc/
+- /run/
+- /srv/
+- /sys/
+- /tmp/
+- /var/tmp
+
+By default, all files are included under the / directory as determined by the SOURCE='/' configuration in 
+our Duply conf file. This example shows we are going to exclude all the normal system directories, like /dev, 
+/proc, and /sys.

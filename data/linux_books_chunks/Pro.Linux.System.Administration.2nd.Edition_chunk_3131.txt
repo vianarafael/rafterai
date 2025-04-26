@@ -1,0 +1,11 @@
+The third does the same 
+but for traffic to the local network interface.
+
+Let’s add in some ACLs for our network addresses. We can add these directly under the line that defines 
+
+to_localhost.
+
+acl wired src 192.168.0.0/255.255.255.0
+acl wireless src 192.168.1.0/255.255.255.0
+
+We’ve defined two new ACLs, one for the wired network range and one for the wireless range.

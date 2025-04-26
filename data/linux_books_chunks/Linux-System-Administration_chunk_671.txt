@@ -1,0 +1,9 @@
+process id 1
+
+The kernel receives system control from the bootloader. After a while the kernel starts the
+init daemon. The init daemon (/sbin/init) is the first daemon that is started and receives
+process id 1 (PID 1). Init never dies.
+
+15.1.2. configuration in /etc/inittab
+
+When /sbin/init is started, it will first read its configuration file /etc/inittab.

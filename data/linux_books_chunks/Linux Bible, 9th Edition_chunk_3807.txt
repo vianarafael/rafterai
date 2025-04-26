@@ -1,0 +1,5 @@
+Although much more rare than it used to be, there may be no driver available for a piece of 
+hardware, or the wrong driver may get loaded and cause errors.
+
+In addition to scrolling past on the screen, messages produced when the kernel boots are 
+copied to the kernel ring buffer.

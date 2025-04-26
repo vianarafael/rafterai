@@ -1,0 +1,8 @@
+Start the Apache web server, and set it to start up automatically at boot time. 
+
+Check that it is available from a web browser on your local host. (You should see 
+the words “My Own Web Server” displayed if it is working properly.)
+
+4.  Use the netstat command to see which ports the httpd server is listening on.
+
+5.

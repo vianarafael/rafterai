@@ -1,0 +1,9 @@
+The log ﬁ les or directly querying the systemd journal (journalctl 
+
+691
+
+c24.indd  04/15/2015  Page 692
+
+Part V: Learning Linux Security Techniques
+
+command) are your ﬁ rst steps in troubleshooting SELinux.

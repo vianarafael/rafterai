@@ -1,0 +1,7 @@
+The system should start up, and you can 
+go and manually ﬁ x your boot loader ﬁ les. See Chapter 9 for more information on 
+the GRUB boot loader.
+
+If the BIOS ﬁ nds the boot loader in the master boot record of the disk and that boot loader 
+ﬁ nds the GRUB conﬁ guration ﬁ les on the disk, the boot loader starts a countdown of about 
+three to ﬁ ve seconds.

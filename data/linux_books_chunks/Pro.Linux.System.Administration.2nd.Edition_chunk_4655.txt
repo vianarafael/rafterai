@@ -1,0 +1,11 @@
+The following 
+is a snippet of the LDIF text file we will use to populate our LDAP server:
+
+dn: dc=example,dc=com
+objectclass: dcObject
+objectClass: organization
+dc: example
+o: example
+
+This declares that we are going to create the rootDN dc=example,dc=com. According to the dcObject 
+object class in the core.schema on Ubuntu, we must include the dc attribute.

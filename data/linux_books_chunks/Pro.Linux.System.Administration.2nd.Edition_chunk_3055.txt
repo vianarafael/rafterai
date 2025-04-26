@@ -1,0 +1,6 @@
+This data will be displayed in your certificate when a client or user 
+queries it. It’s a good idea to be specific and accurate here—especially if you are submitting your CSR to be 
+signed by a commercial CA.
+
+Next, and most important, we need to specify the common name of the certificate. This must be the 
+exact hostname of the server that is going to use the certificate.

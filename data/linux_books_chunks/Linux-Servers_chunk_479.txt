@@ -1,0 +1,18 @@
+How can you verify whether the router will allow packet forwarding by default or not ?
+Test  that  you  can  ping  from  the  router  to  the  two  other  machines,  and  from  those  two
+machines to the router. Use arp -a to make sure you are connected with the correct mac
+addresses.
+
+117
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+introduction to routers
+
+4. Ping from the leftnet computer to the rightnet computer.

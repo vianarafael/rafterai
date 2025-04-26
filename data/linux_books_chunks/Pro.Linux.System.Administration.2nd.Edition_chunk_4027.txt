@@ -1,0 +1,8 @@
+this can be a 
+
+ ■ Note 
+security risk, and you may like to use other encrypted methods to store these, such as aws-vault, credstash, 
+and awscli-keyring among others.
+
+The aws command takes several subcommands that deal with different resources. We are asking it to list 
+an S3 resource. If we were to be working on EC2 resources, we would use aws ec2 <command>.

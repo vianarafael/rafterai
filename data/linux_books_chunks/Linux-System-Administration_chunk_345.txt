@@ -1,0 +1,11 @@
+/proc/filesystems
+
+The  Linux  kernel  will  inform  you  about  currently  loaded  file  system  drivers  in  /proc/
+filesystems.
+
+root@rhel53 ~# cat /proc/filesystems  | grep -v nodev
+ ext2
+ iso9660
+ ext3
+
+6.1.3.

@@ -1,0 +1,15 @@
+Many of the extensions help you add back in features from GNOME 2, including these:
+
+ ■ Applications Menu—Adds an Applications menu to the top panel, just as it was in 
+
+GNOME 2.
+
+ ■ Places Status Indicator—Adds a systems status menu, similar to the Places menu 
+
+in GNOME 2, to let you quickly navigate to useful folders on your system.
+
+ ■ Window list—Adds a list of active windows to the top panel, similar to the Window 
+
+list that appeared on the bottom panel in GNOME 2.
+
+To install an extension, simply select the ON button next to the name.

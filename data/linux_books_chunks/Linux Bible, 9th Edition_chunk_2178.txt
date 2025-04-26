@@ -1,0 +1,7 @@
+This ﬁ eld can 
+
+include the LABEL or UUID option, with which you can indicate a volume label 
+or  universally unique identiﬁ er (UUID) instead of a device name. The advantage 
+to this approach is that because the partition is identiﬁ ed by volume name, you 
+can move a volume to a different device name and not have to change the fstab 
+ﬁ le.

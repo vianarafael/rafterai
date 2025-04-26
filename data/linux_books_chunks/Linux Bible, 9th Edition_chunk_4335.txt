@@ -1,0 +1,9 @@
+Notice that the luks names are the 
+same as those listed by the lvs command in the previous example.
+
+# cat /etc/crypttab
+luks-b099fbbe-0e56-425f-91a6-44f129db9f4b
+     UUID=b099fbbe-0e56-425f-91a6-44f129db9f4b none
+
+You can also use the cryptsetup command to help you uncover more information about 
+your Linux system’s encrypted volumes.

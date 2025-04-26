@@ -1,0 +1,4 @@
+The next example matches 
+any ﬁ les that begin with g (grape, grapefruit). Next, ﬁ les beginning with g and  ending 
+in t are matched (grapefruit). Next, any ﬁ le that contains e in the name is matched 
+(apple, grape, grapefruit, watermelon).

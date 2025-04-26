@@ -1,0 +1,16 @@
+In the example that follows, the status option is 
+used along with the luks device name to determine further information.
+
+# cryptsetup status luks-b099fbbe-0e56-425f-91a6-44f129db9f4b
+/dev/mapper/luks-b099fbbe-0e56-425f-91a6-44f129db9f4b
+ is active and is in use.
+  type:    LUKS1
+  cipher:  aes-xts-plain64
+  keysize: 512 bits
+  device:  /dev/sda3
+  offset:  4096 sectors
+  size:    493819904 sectors
+  mode:    read/write
+
+Encrypting a Linux directory
+You can also use the ecryptfs utility to encrypt on a Linux system.

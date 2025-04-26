@@ -1,0 +1,4 @@
+This is useful for finding out where your LDAP 
+server is failing before you make your logging level more fine-grained.
+
+Turns all debugging off.

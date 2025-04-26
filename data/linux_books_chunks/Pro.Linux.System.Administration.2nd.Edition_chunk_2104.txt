@@ -1,0 +1,12 @@
+This option will 
+ruin any partitions you have on your disk.
+
+To create a partition, use the n option, which will start a wizard to guide you through the creation 
+
+process, as you’ll see in a moment.
+
+To list the current partition table, press p. This lists the partition table as it exists in memory, not as it is 
+
+on the disk.
+
+If you made changes that you do not want to save, press q.

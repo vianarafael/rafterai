@@ -1,0 +1,6 @@
+When that ﬁ le is run by init, rc.sysinit sets the system’s hostname, sets up 
+the /proc and /sys ﬁ lesystems, sets up SELinux, sets kernel parameters, and performs 
+dozens of other actions.
+
+One of the most critical functions of rc.sysinit is to get the storage set up on the 
+ system.

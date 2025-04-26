@@ -1,0 +1,28 @@
+update-rc.d Options
+
+Option
+
+Start
+
+Stop
+
+Defaults
+
+Remove
+
+-n
+
+-f
+
+Description
+
+Allows you to explicitly state the runlevels and startup sequence.
+
+Allows you to explicitly state the sequence and runlevels you wish to stop the service.
+
+The update-rc.d script will create start symlinks with the default start sequence 
+(S20) into runlevels 2, 3, 4, and 5 and stop symlinks into runlevels 0, 1, 6 with the stop 
+sequence (K80).
+
+Removes the symlinks from each runlevel as long as the file /etc/init.d/script-name 
+has already been removed.

@@ -1,0 +1,3 @@
+a partition needs 16 bytes of data to be described, so with information on four partitions, it’s full!
+
+as a workaround, the concept of an extended partition was invented.

@@ -1,0 +1,8 @@
+If the master boot record was simply overwritten 
+(which could happen if you installed another operating system on a different disk 
+ partition), it could be possible to reinstall the master boot record from rescue mode 
+(described in the section “Troubleshooting in Rescue Mode” later in this chapter).
+
+ ■ Text-based GRUB prompt appears—It is possible for the BIOS to start GRUB and go 
+
+straight to a GRUB prompt, with no operating system selections available.

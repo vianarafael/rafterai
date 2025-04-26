@@ -1,0 +1,5 @@
+If you have write and upload 
+permission on the current directory on the server, you can use put to copy a ﬁ le to the 
+server (put /etc/hosts).
+
+Running an ls command shows that the /etc/hosts ﬁ le was uploaded to the server.

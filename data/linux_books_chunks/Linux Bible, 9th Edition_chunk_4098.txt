@@ -1,0 +1,3 @@
+You can use these generated words as a starting point for creating account passwords.
+
+Default values in the /etc/login.defs ﬁ le for new accounts were covered in Chapter 11.

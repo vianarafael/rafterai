@@ -1,0 +1,12 @@
+For Ubuntu, if you examine the /etc/mysql/mariadb.conf.d/50-server.cnf configuration file, you 
+will see that the following bind-address directive is already there.
+
+On CentOS, we open /etc/my.cnf in a text editor and add the following line under the [mysqld] 
+
+section:
+
+bind-address = 127.0.0.1
+
+Here we are instructing the database server to listen only on the loopback address, which prevents other 
+
+hosts from accessing our database.

@@ -1,0 +1,12 @@
+For example, a primary (192.168.0.187) and alias (192.168.99.1) address for a 
+NIC  interface named p4p1 might be represented by the following address settings in the 
+ifcfg-p4p1 ﬁ le:
+
+IPADDR=192.168.0.187
+PREFIX=24
+IPADDR1=192.168.99.1
+PREFIX1=24
+
+Setting up Ethernet channel bonding
+Ethernet channel bonding allows you to have more than one network interface card on a 
+computer associated with a single IP address.

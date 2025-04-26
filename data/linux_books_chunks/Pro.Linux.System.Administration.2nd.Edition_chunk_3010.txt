@@ -1,0 +1,13 @@
+Next you should 
+also add the database details that we created in the previous section.
+
+With the site content in the correct location, we can now point our web browser at www.example.
+
+com/wp-admin/install.php. This will allow us to start the web-based installation process, as shown in 
+Figure 11-10.
+
+501
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Figure 11-10.

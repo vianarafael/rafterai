@@ -1,0 +1,6 @@
+The section “Conﬁ guring Samba” provides an example of creating a share and shows you how 
+to add permissions and ownership to a shared directory using standard Linux commands.
+
+Confi guring Samba host/user permissions
+Within the smb.conf ﬁ le itself, you can allow or restrict access to the entire Samba server 
+or to speciﬁ c shares based on the hosts or user trying to gain access.

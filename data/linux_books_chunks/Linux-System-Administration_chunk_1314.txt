@@ -1,0 +1,17 @@
+Limit  one  of  your  users  to  10
+megabyte.
+
+2. Test that they work by copying many files to the quota'd partition.
+
+362
+
+  
+  
+  
+Appendix B. introduction to vnc
+
+B.1. About VNC
+
+VNC can be configured in gnome or KDE using the Remote Desktop Preferences. VNC
+can be used to run your desktop on another computer, and you can also use it to see and take
+over the Desktop of another user.

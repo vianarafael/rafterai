@@ -1,0 +1,9 @@
+Other information in the listing includes the number of hard links to the item 
+(column 2), the size of each ﬁ le in bytes (column 5), and the date and time each ﬁ le was 
+most recently modiﬁ ed (column 6).
+
+Here are a few other facts about ﬁ le and directory listings:
+
+ ■ The number of characters shown for a directory (4096 bytes in these examples) 
+
+reﬂ ects the size of the ﬁ le containing information about the directory.

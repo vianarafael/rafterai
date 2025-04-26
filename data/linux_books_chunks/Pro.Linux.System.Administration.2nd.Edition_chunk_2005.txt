@@ -1,0 +1,6 @@
+For instance, version 2.17 of the foobar package for 32-bit Intel machines would be 
+“foobar-2.17_i386.deb”. If you can install the package on any architecture it will be “foobar-2.17_all.deb.”
+
+ ■ Note  the target architecture is the processor technology of your host (e.g., i386 or x64).
+
+After you obtain a package file for your Ubuntu version and architecture, you can install it using dpkg.

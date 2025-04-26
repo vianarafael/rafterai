@@ -1,0 +1,24 @@
+So, values 
+
+like the following:
+
+$ vi playbooks/files/bareos-fd.conf
+Client {
+  Name = bareos-fd
+  Description = "Client resource of the Director itself."
+  Address = localhost
+  Password = "YVcb9Ck0MvIXpZkZCM8wBV1qyEi1FD6kJjHUrk+39xun"          # password for 
+FileDaemon
+}
+
+can be replaced with the following:
+
+$ vi playbooks/templates/backup_bareos_fd.conf.j2
+Client {
+  Name = bareos-fd
+  Description = "Client resource of the Director itself."
+  Address = localhost
+  Password = "{{ bareos_fd_dir_password }}"
+}
+
+The template files generally have the .j2 suffix to indicate the Jinja2 template engine.

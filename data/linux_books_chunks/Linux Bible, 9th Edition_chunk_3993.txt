@@ -1,0 +1,5 @@
+For the moment, however, there are a few things 
+you should know about these kinds of swap areas and when they are used:
+
+ ■ When data is swapped from RAM to a swap area (swapped out), you get a perfor-
+mance hit.

@@ -1,0 +1,22 @@
+Now we can show the status of our peers again.
+
+$ sudo gluster peer status
+Number of Peers: 2
+
+Hostname: au-mel-dfs-1
+Uuid: a605a82d-fa77-48dd-8183-95a960547b1f
+State: Peer in Cluster (Connected)
+
+Hostname: au-mel-dfs-2
+Uuid: 5ceee284-616b-4c2d-87d7-1c44f4cbdca0
+State: Peer in Cluster (Connected)
+
+We can now see these hosts in the gluster trusted storage pool too.
+
+sudo gluster pool list
+UUID                                    Hostname        State
+a605a82d-fa77-48dd-8183-95a960547b1f    au-mel-dfs-1    Connected
+5ceee284-616b-4c2d-87d7-1c44f4cbdca0    au-mel-dfs-2    Connected
+30cf104f-00b2-4371-8935-d91719a2e17b    localhost       Connected
+
+Each peer has been given a UUID, and you can see the hostname and current state.

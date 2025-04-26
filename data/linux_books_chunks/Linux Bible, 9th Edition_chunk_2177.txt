@@ -1,0 +1,13 @@
+NTFS is 
+available from Fedora in the ntfs-3g package.
+
+306
+
+c12.indd  04/01/2015  Page 307
+
+Chapter 12: Managing Disks and Filesystems
+
+To help you understand the contents of the /etc/fstab ﬁ le, here is what is in each ﬁ eld 
+of that ﬁ le:
+
+ ■ Field 1—The name of the device representing the ﬁ lesystem.

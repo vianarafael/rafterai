@@ -1,0 +1,5 @@
+The new user is always the only member of this group.
+
+But earlier we said that the default group for useradd was 100? Why isn’t that used? If you use the –N 
+(no-user-group) option to useradd or if the setting USERGROUPS_ENAB in the login.defs file is ‘no’ then the 
+default group of 100 (users) will be assigned.

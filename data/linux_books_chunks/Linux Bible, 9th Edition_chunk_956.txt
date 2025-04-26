@@ -1,0 +1,10 @@
+Remember that case 
+matters in Linux, so make use of brackets to search for words that could have 
+ different capitalization.
+
+After you have entered a search term, simply type n or N to search again in the same 
+ direction (n) or the opposite direction (N) for the term.
+
+Using ex mode
+The vi editor was originally based on the ex editor, which didn’t let you work in full-screen 
+mode.

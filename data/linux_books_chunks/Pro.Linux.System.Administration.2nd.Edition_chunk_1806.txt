@@ -1,0 +1,8 @@
+In the next section we see the how you do this on CentOS.
+
+Figure 8-13.  System up to date
+
+Yellowdog Updater Modified
+For Red Hat–based distributions, one of the most common tools used to install, upgrade, or update a system 
+is a command-line-based tool called Yellowdog Updater Modified (YUM). YUM provides the ability to search 
+and find software available to your system on remote repositories.

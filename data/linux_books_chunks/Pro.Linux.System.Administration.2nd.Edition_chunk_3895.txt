@@ -1,0 +1,2 @@
+Both comply with PCI DSS (3.x) 
+and the various ISO standards on securing hardware and servers, storing data, and securing data centers.

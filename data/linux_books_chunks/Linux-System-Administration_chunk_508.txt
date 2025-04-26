@@ -1,0 +1,7 @@
+vgscan
+
+The vgscan command will scan all disks for existing Volume Groups. It will also update the
+/etc/lvm/.cache file. This file contains a list of all current lvm devices.
+
+[root@RHEL5 ~]# vgscan
+  Reading all physical volumes.

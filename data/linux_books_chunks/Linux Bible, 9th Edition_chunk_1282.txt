@@ -1,0 +1,3 @@
+This is useful for 
+ troubleshooting a problem that is being experienced by a particular user, but not by  others 
+on the computer (such as an inability to print or send email).

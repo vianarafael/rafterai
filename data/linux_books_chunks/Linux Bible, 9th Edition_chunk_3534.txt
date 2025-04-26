@@ -1,0 +1,6 @@
+For further information on conﬁ guring Samba, be sure to examine the smb.conf ﬁ le itself 
+(which includes many useful comments) and the smb.conf man page.
+
+Accessing Samba Shares
+After you have created some shared directories in Samba, many client tools are available in 
+both Linux and Windows for accessing those shares.

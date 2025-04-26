@@ -1,0 +1,10 @@
+Besides ﬁ lesystems,  directories, 
+and ﬁ les, you can also encrypt backups, Zip ﬁ les, network connections, and more.
+
+645
+
+c23.indd  04/01/2015  Page 646
+
+Part V: Learning Linux Security Techniques
+
+Table 23.2 lists some of the miscellaneous Linux cryptology tools and what they do.

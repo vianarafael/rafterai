@@ -1,0 +1,3 @@
+You’ll need this password every time you create a new certificate.
+
+As you can see, the CA is made up of a private key and a public certificate.

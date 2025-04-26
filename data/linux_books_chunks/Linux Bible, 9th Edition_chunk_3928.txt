@@ -1,0 +1,5 @@
+Plug the 
+cable into the correct port.
+
+If, instead of seeing an interface that is down, the ip command shows no interface at all, 
+check that the hardware isn’t disabled.

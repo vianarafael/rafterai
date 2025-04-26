@@ -1,0 +1,10 @@
+CD Burners and Linux
+
+Hardware detection
+
+The tools available on the commandline to burn CDs assume that the CD writer is a SCSI 
+device.  However most cheaper CD burners are IDE devices. The 2.4 kernels get around 
+this by providing a ide-scsi.o module to drive the CD burner device. 
+
+If you run cdrecord with the -scanbus option you will see that the tool is looking for a 
+SCSI device.

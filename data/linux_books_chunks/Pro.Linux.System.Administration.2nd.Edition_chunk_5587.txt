@@ -1,0 +1,5 @@
+The open source version doesn’t have the fancy enterprise features, is 
+community supported, and is licensed using the Apache 2.0 license. We’re going to give you an overview of 
+Puppet and how to use it to configure your environment and your hosts.
+
+ at the time of writing, the puppet world is changing from version 3.x to version 4.x.

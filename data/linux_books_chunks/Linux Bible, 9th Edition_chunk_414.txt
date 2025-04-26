@@ -1,0 +1,13 @@
+Try these actions from that menu:
+
+ ■ Minimize—Remove window temporarily from view.
+
+ ■ Maximize—Expand window to maximum size.
+
+ ■ Move—Change window to moving mode. Moving your mouse moves the window. 
+
+Click to ﬁ x the window to a spot.
+
+ ■ Resize—Change the window to resize mode. Moving your mouse resizes the 
+
+window.

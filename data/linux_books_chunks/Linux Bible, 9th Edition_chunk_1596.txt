@@ -1,0 +1,4 @@
+If the applications you are running require particularly long fi lenames, large 
+fi le sizes, or many inodes (each fi le consumes an inode), you may want to choose a different fi lesystem type.
+
+For example, if you set up a news server, it can use many inodes to store small news articles.

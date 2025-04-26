@@ -1,0 +1,5 @@
+A SYN flood uses the TCP three-way 
+handshake to starve resources on your firewalls.
+
+A fairly recent addition to the Linux kernel (v3.12) enables the use of a module called SYNPROXY. This 
+Netfilter module is designed to mitigate SYN floods.

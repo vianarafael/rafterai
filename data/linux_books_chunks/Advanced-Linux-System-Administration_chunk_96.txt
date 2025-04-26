@@ -1,0 +1,18 @@
+You can backup the old changed file to a directory of your choice
+
+mkdir oldfiles
+
+patch -B oldfiles/ -p0 < patch-file
+
+This has the advantage of letting you create a backup patch that can restore the source 
+tree to it's original state.
+
+diff -ur linux-2.4.21 oldfiles/linux-2.4.21  > recover-2.4.21-
+patch
+
+NOTICE
+
+Applying this recover-2.4.21-patch will have the effect of removing the 
+2.4.22 patch we just applied in the previous paragraph
+
+3.

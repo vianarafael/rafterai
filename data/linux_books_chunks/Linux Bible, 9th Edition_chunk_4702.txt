@@ -1,0 +1,13 @@
+However, the scan status still indicates that there is a Linux 
+server at this particular IP address.
+
+ ■ filtered—This is the best state to secure a port that you don’t want anyone 
+to access. It cannot be determined if a Linux server is actually at the scanned 
+
+702
+
+c25.indd  04/02/2015  Page 703
+
+Chapter 25: Securing Linux on a Network
+
+IP address.

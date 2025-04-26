@@ -1,0 +1,4 @@
+From the server, type ps ax | grep nfsd to see a list of nfsd server processes. If you 
+don’t see the list, try to start your NFS daemons as described earlier in this chapter. To view your fi rewall rules, type 
+iptables -vnL. By default, the nfsd daemon listens for NFS requests on port number 2049. Your fi rewall must 
+accept udp requests on ports 2049 (nfs) and 111 (rpc).

@@ -1,0 +1,14 @@
+Now that you have a general understanding of the software ﬁ rewall implementa-
+tion, you can begin to dig deeper into the speciﬁ c commands for implementing the ﬁ rewall 
+via the iptables utility.
+
+25
+
+715
+
+c25.indd  04/02/2015  Page 716
+
+Part V: Learning Linux Security Techniques
+
+Using the iptables utility
+Your Linux server should come with the ﬁ rewall up and running.

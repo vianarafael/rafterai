@@ -1,0 +1,10 @@
+Here’s what you do:
+
+ ■ License—Read and agree to the License Information, click Done, and click 
+
+Finish Conﬁ guration.
+
+ ■ Kdump—You can choose to set aside some amount of RAM for the kdump 
+
+ feature. If kdump is enabled, the RAM set aside can be used in the event that 
+your kernel crashes to have a place that the kernel dump can be stored.

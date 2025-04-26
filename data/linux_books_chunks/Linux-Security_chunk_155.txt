@@ -1,0 +1,12 @@
+In this way /etc/skel/ serves as a default
+home directory and as a default user profile.
+
+[root@RHEL5 ~]# ls -la /etc/skel/
+total 48
+drwxr-xr-x  2 root root  4096 Apr  1 00:11 .
+drwxr-xr-x 97 root root 12288 Jun 24 15:36 ..
+-rw-r--r--  1 root root    24 Jul 12  2006 .bash_logout
+-rw-r--r--  1 root root   176 Jul 12  2006 .bash_profile
+-rw-r--r--  1 root root   124 Jul 12  2006 .bashrc
+
+2.10.

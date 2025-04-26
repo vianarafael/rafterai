@@ -1,0 +1,7 @@
+A  layer  two
+broadcast is received by all network cards on the same segment (it does not pass any router),
+whereas a layer 3 broadcast is received by all hosts in the same ip subnet.
+
+21.2.4. anycast
+
+The  root  name  servers  of  the  internet  use  anycast.

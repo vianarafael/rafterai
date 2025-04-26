@@ -1,0 +1,6 @@
+Most Linux-based distributions will have an iptables package, but they may also have their own 
+tool for configuring the rules Firewall-cmd and ufw.
+
+Netfilter works by referring to a set of tables. These tables contain chains, which in turn contain 
+individual rules. Chains hold groups of ordered and alike rules; for example, a group of rules governing 
+incoming traffic could be held in a chain.

@@ -1,0 +1,9 @@
+You should now hook these tests up to 
+your Jenkins or CI testing infrastructure and get it to run prior to any commit to your master VCS branch.
+
+There is a tutorial for Serverspec here: http://serverspec.org/tutorial.html.
+You can see more resource types to test here: http://serverspec.org/resource_types.html.
+
+Summary
+In this chapter, we introduced you to some simple provisioning tools that make the process of building and 
+installing your hosts quick and easy.

@@ -1,0 +1,7 @@
+We are going to 
+install the “Virtual Machine Manager” software that provides a management interface for KVM, Xen, or LXC.
+In Figure 8-3 we select the System category. In there we will find Virtual Machine Manager as a featured 
+
+application. If it is no longer featured you can find it under the Other category in the System page.
+
+Figure 8-3.

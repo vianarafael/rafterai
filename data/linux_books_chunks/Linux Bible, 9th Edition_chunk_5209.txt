@@ -1,0 +1,29 @@
+Make the script executable:
+
+$ touch $HOME/bin/animals
+$ chmod 755 $HOME/bin/animals
+
+b. The script could contain the following:
+
+#!/bin/bash
+# animals
+
+792
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 793
+
+Appendix B: Exercise Answers
+
+for ANIMALS in moose cow goose sow ; do
+  echo "I have a $ANIMALS"
+done
+
+c.

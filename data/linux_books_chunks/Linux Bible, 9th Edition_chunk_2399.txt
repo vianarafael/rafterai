@@ -1,0 +1,7 @@
+The default options 
+used to gather log messages are set in the /usr/share/logwatch/default.conf/ 
+logwatch.conf ﬁ le.
+
+Some of the default settings deﬁ ne the location of log ﬁ les (/var/log), the location of the 
+temporary directory (/var/cache/logwatch), and the recipient of the daily logwatch 
+e-mail (the local root user).

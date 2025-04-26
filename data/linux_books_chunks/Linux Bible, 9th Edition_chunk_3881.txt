@@ -1,0 +1,6 @@
+If you use the main Fedora repositories to install software from the current 
+release, it is rare to have dependency problems.
+
+When packages are added to the repository, as long as the repository maintain-
+ers run the right commands to set up the repository (and you don’t use outside 
+repositories), everything you need to install a selected package should be available.

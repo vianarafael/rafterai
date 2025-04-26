@@ -1,0 +1,5 @@
+If  
+you’ve chosen a commercial distribution, you can contact your vendor to get the support you need. For  
+non-commercial distributions, you can log tickets or review documentation at your distribution’s site.
+
+Additionally, never underestimate the power of search engines to find solutions to your problems.

@@ -1,0 +1,31 @@
+iptables tables
+
+By default there are three tables in the kernel that contain sets of rules.
+
+The filter table is used for packet filtering.
+
+root@debian6~# iptables -t filter -L
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination
+
+The nat table is used for address translation.
+
+root@debian6~# iptables -t nat -L
+Chain PREROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination
+
+The mangle table can be used for special-purpose processing of packets.
+
+Series of rules in each table are called a chain.

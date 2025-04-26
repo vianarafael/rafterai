@@ -1,0 +1,31 @@
+Start the virtual machine again so it is running and availabl e.
+
+748
+
+ 
+ 
+ 
+ 
+ 
+ 
+c27.indd  04/01/2015  Page 749
+
+Deploying Linux to the Cloud
+
+C H A P T E R 
+
+27
+
+IN THIS CHAPTER
+
+Creating Linux cloud images
+
+Deploying a cloud image to virt-manager (libvirtd)
+
+Deploying a cloud image to OpenStack
+
+Deploying a cloud image to Amazon EC2
+
+T o get a new Linux system to use, instead of just running a standard installation program from 
+
+a physical DVD, you can get a Linux image and deploy it to a cloud.

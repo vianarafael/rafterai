@@ -1,0 +1,19 @@
+If you 
+want to see a full list of installed cryptography tools on your current Linux distribution, 
+type man -k crypt at the command line.
+
+TABLE 23.2    Linux Miscellaneous Cryptography Tools
+
+Tool
+
+Description
+
+Duplicity
+
+gpg-zip
+
+Openssl
+
+Seahorse
+
+Encrypts backups. Installed by default on Fedora and RHEL.

@@ -1,0 +1,13 @@
+Although dozens of 
+different shells are available in Linux, the default shell for most Linux systems is called bash, the 
+Bourne Again Shell.
+
+153
+
+c07.indd  04/01/2015  Page 154
+
+Part II: Becoming a Linux Power User
+
+Executing and debugging shell scripts
+One of the primary advantages of shell scripts is that they can be opened in any text editor 
+to see what they do.

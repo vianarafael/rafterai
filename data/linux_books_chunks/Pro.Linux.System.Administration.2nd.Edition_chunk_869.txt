@@ -1,0 +1,11 @@
+Prefix the name of the 
+
+variable you want to display with $.
+
+$ echo $PS1
+\u@\h:\w\$
+
+The preceding is a string of special escape codes that display the username \u, hostname \h , current 
+
+working directory \w, and the final character \$ in the prompt. \$ displays a pound (#) symbol if the prompt 
+is displayed as the root user and a dollar sign ($) otherwise.

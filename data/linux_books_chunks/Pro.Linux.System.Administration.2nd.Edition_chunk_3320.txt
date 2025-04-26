@@ -1,0 +1,14 @@
+This will try to make connections to your e-mail 
+server and give you a report on whether it can do so securely.
+
+If you have issues with configuring Postfix TLS/SSL encryption, see the pointers and links in the 
+
+upcoming “Getting Help for Postfix” section.
+
+548
+
+Chapter 12 ■ Mail ServiCeS
+
+ ■ Caution 
+ it is important to note a few issues about using postfix tlS encryption to ensure the 
+confidentiality of the content of your e-mails.

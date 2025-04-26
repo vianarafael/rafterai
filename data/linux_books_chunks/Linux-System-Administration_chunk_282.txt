@@ -1,0 +1,45 @@
+/sbin/lsscsi
+
+The lsscsi command provides a nice readable output of all scsi (and scsi emulated devices).
+This first screenshot shows lsscsi on a SPARC system.
+
+root@shaka:~# lsscsi 
+[0:0:0:0]    disk    Adaptec  RAID5            V1.0  /dev/sda
+[1:0:0:0]    disk    SEAGATE  ST336605FSUN36G  0438  /dev/sdb
+root@shaka:~#
+
+Below a screenshot of lsscsi on a QNAP NAS (which has four 750GB disks and boots from
+a usb stick).
+
+lroot@debian6~# lsscsi 
+[0:0:0:0]    disk    SanDisk  Cruzer Edge      1.19  /dev/sda
+[1:0:0:0]    disk    ATA      ST3750330AS      SD04  /dev/sdb
+[2:0:0:0]    disk    ATA      ST3750330AS      SD04  /dev/sdc
+[3:0:0:0]    disk    ATA      ST3750330AS      SD04  /dev/sdd
+[4:0:0:0]    disk    ATA      ST3750330AS      SD04  /dev/sde
+
+This screenshot shows the classic output of lsscsi.
+
+root@debian6~# lsscsi -c
+Attached devices: 
+Host: scsi0 Channel: 00 Target: 00 Lun: 00
+  Vendor: SanDisk  Model: Cruzer Edge      Rev: 1.19
+  Type:   Direct-Access                    ANSI SCSI revision: 02
+Host: scsi1 Channel: 00 Target: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+Host: scsi2 Channel: 00 Target: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+Host: scsi3 Channel: 00 Target: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+Host: scsi4 Channel: 00 Target: 00 Lun: 00
+  Vendor: ATA      Model: ST3750330AS      Rev: SD04
+  Type:   Direct-Access                    ANSI SCSI revision: 05
+
+38
+
+disk devices
+
+4.3.5.

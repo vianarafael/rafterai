@@ -1,0 +1,7 @@
+Looking at /proc/mounts is looking at information that comes
+directly from the kernel.
+
+root@RHELv4u2:~# cat /proc/mounts | grep /dev/sdb
+/dev/sdb1 /home/project42 ext2 rw 0 0
+
+7.2.3.

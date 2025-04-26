@@ -1,0 +1,33 @@
+In Listing 7-2 we have provided the minimum required and 
+that is the device and the runner.
+
+233
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+What this creates is a file called /etc/sysconfig/network-scripts/ifcfg-team0 and we can see that 
+
+that has the following details:
+
+DEVICE=team0
+TEAM_CONFIG="{\"device\": \"team0\", \"runner\": {\"name\":\"activebackup\"}}"
+DEVICETYPE=Team
+BOOTPROTO=none
+IPADDR=192.168.10.10
+PREFIX=32
+GATEWAY=192.168.10.254
+DEFROUTE=yes
+IPV4_FAILURE_FATAL=no
+IPV6INIT=yes
+IPV6_AUTOCONF=yes
+IPV6_DEFROUTE=yes
+IPV6_PEERDNS=yes
+IPV6_PEERROUTES=yes
+IPV6_FAILURE_FATAL=no
+NAME=team0
+UUID=2cef1621-4e56-4cb8-84f7-2d613fbc168f
+ONBOOT=yes
+
+We will explain these configuration files shortly, you can see our setting for the team configuration and 
+
+IP address.

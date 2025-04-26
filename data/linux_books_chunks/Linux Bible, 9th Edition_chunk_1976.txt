@@ -1,0 +1,8 @@
+When 
+the system reboots, the ﬁ lesystem is not mounted again, unless you add an entry to the 
+/etc/fstab ﬁ le.
+
+Adding directories for users to collaborate
+A special set of three permission bits are typically ignored when you use the chmod 
+ command to change permissions on the ﬁ lesystem. These bits can set special permissions 
+on commands and directories.

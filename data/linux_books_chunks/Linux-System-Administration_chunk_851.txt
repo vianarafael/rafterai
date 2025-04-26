@@ -1,0 +1,13 @@
+four basic resources
+
+The four basic resources to monitor are:
+
+• cpu
+• network
+• ram memory
+• storage
+
+19.2. top
+
+To start monitoring, you can use top. This tool will monitor ram memory, cpu and swap. Top
+will automatically refresh.

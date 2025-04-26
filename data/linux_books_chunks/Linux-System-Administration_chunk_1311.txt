@@ -1,0 +1,9 @@
+These files (called the
+quota files) contain the table of the disk usage on that file system. Use the quotacheck
+command to accomplish this.
+
+root@RHELv4u4:~# quotacheck -cug /home
+root@RHELv4u4:~# quotacheck -avug
+
+The -c is for create, u for user quota, g for group, a for checking all quota enabled file systems
+in /etc/fstab and v for verbose information.

@@ -1,0 +1,6 @@
+Systems connected to the 
+Internet do name-to-address resolution by communicating to a domain name system (DNS) 
+server that can provide them with the IP addresses of the requested hosts.
+
+The DNS server your system uses can be entered manually or picked up automatically from 
+a DHCP server when you start your network interfaces.

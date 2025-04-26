@@ -1,0 +1,4 @@
+Chains are then listed along with their default policies if they have one set. The byte and counter marks[0:0], 
+can be used to see how much traffic in volume has passed through that chain as well as how many packets 
+have passed through it (you can use iptables –Z chain to reset these counters to zero if you wish). We then 
+list all our rules for that particular chain.

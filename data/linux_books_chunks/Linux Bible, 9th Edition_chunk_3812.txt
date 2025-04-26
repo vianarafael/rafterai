@@ -1,0 +1,2 @@
+For example, I once had a TV tuner card (for watching television 
+on my computer screen) that set the wrong tuner type for the card that was detected.

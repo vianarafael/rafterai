@@ -1,0 +1,4 @@
+Later, as more sophisticated types of authentication became 
+available, such as smart cards and one-time passwords (or tokens), PAM became a way to integrate and 
+extend authentication mechanisms. Rather than having to rewrite each application for new authentication 
+methods, all that is required is to add PAM support.

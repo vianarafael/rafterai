@@ -1,0 +1,5 @@
+If we remember what we learned back 
+in Chapter 4, the umask is an octet and is used to set permissions on files and directories. When applied it 
+means we give files created by this process permissions of 0711, or rwx-x-x. This means that the owner of 
+the process is given read, write, and execute permission on the files, the group and everyone else will have 
+execute only.

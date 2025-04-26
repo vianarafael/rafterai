@@ -1,0 +1,7 @@
+DHCP uses a server located on your network to assign IP addresses to hosts when they 
+request them.
+
+ ■ Note  We’ll show you how to configure your own DhCp server in Chapter 10.
+
+The DHCP server tracks these addresses and ensures there are no conflicts. You may already have a 
+router that is capable of DHCP (as most ADSL modem/routers are) on your network.

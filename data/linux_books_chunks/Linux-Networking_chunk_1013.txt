@@ -1,0 +1,12 @@
+6to4 gateways
+
+To access ipv4 only websites when on ipv6 you can use sixxs.net (more specifically http://
+www.sixxs.net/tools/gateway/) as a gatway.
+
+For example use http://www.slashdot.org.sixxs.org/ instead of http://slashdot.org
+
+25.15. ping6 and dns
+
+Below a screenshot of a ping6 from behind a 6to4 connection.
+
+25.16.

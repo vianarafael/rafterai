@@ -1,0 +1,11 @@
+The total line shows the total amount of disk space used 
+by the ﬁ les in the list (158 kilobytes in this example). Directories such as the current 
+ directory (.) and the parent directory (..)—the directory above the current directory—are 
+
+106
+
+c04.indd  04/01/2015  Page 107
+
+Chapter 4: Moving around the Filesystem
+
+noted as directories by the letter d at the beginning of each entry.

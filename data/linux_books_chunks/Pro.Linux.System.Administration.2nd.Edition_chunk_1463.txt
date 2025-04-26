@@ -1,0 +1,2 @@
+If you see a???, it will mean that the router has be set to deny returning ICMP packets, 
+and mtr has printed ??? because it has not received the “TTL expired in transit” message.

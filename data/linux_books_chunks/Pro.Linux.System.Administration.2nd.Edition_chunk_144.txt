@@ -1,0 +1,13 @@
+We have 
+
+selected the IPv4 (Internet Protocol version 4) Settings and drop-down on Method.
+
+24
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-10.  Setting IPv4 settings
+
+The Connection name is the device we are configuring and that it automatically created from the 
+
+system as it has booted. Yours may be different depending on your device.

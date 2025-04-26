@@ -1,0 +1,20 @@
+Any service in an inactive state 
+is not started.
+
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+  Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+  Active: inactive (dead) since Tue, 01 May 2015 06:03:32...
+ Process: 17108 ExecStart=/usr/sbin/cupsd -f
+ (code=exited, status=0/SUCCESS)
+  CGroup: name=systemd:/system/cups.service
+# systemctl condrestart cups.service
+# systemctl status cups.service
+cups.service - CUPS Printing Service
+  Loaded: loaded (/lib/systemd/system/cups.service; enabled)
+  Active: inactive (dead) since Tue, 01 May 2015 06:03:32...
+ Process: 17108 ExecStart=/usr/sbin/cupsd -f
+ (code=exited, status=0/SUCCESS)
+  CGroup: name=systemd:/system/cups.service
+
+Notice in the example that the cups daemon was in an inactive state.

@@ -1,0 +1,4 @@
+This performs a user lookup to 
+
+return some information about the user. It returns the user’s UID, GID, and home directory among other 
+information, and it retrieves this information from the /etc/passwd file.

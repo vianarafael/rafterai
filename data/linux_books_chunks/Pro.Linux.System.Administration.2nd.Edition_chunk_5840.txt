@@ -1,0 +1,20 @@
+This also helps us 
+pin particular version of gems to our git commits and helps us track changes to the gem release versions we 
+are using.
+
+$ sudo yum install –y ruby rubygems && gem install bundler --no-ri --no-rdoc
+
+Here we are using a CentOS host and install the ruby and rubygems packages and then install into the 
+
+local account the gem bundler (without the associated docs and help for a faster install).
+
+With the Bundler gem installed, we will now create a gem file with the following in our repository 
+
+directory like so:
+
+$ vi Gemfile
+source 'https://rubygems.org'
+
+gem 'serverspec'
+
+Here we have added the Serverspec gem to the gemfile.

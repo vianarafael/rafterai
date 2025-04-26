@@ -1,0 +1,7 @@
+That 
+gets your system up and running, with the old kernel and working drivers, while 
+you look for a more permanent ﬁ x.
+
+The longer-term solution is to get a new driver that has been rebuilt for your 
+ current kernel. Sites such as rpmfusion.org build third-party, non–open source 
+driver packages and upgrade those drivers when a new kernel is available.

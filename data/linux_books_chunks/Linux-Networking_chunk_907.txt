@@ -1,0 +1,10 @@
+hide unreadable
+
+Setting hide unreadable to yes will prevent users from seeing files that cannot be read by
+them.
+
+hide unreadable = yes
+
+21.3.2. browsable
+
+Setting the browseable = no directive will hide shares from My Network Places.

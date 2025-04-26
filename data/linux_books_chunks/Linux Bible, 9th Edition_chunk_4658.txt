@@ -1,0 +1,12 @@
+After the problems are worked out, turn on enforcing mode.
+
+ ■ Overall, implement SELinux conﬁ guration changes one at a time, in a test environ-
+ment or using Permissive mode. See what kind of effect each conﬁ guration change 
+
+694
+
+c24.indd  04/15/2015  Page 695
+
+Chapter 24: Enhancing Linux Security with SELinux
+
+has before moving on to the next one.

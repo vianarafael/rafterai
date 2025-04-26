@@ -1,0 +1,7 @@
+More on the sudo command in the next chapter.
+
+145
+
+ChapTeR 4 ■ LInux BasICs
+
+•	 Use the Linux man pages to find out more about each command.

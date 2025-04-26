@@ -1,0 +1,12 @@
+If your ISP is providing a dedicated IP address 
+you can modify our nmcli command to suit.
+
+On Ubuntu you need run the pppoeconf command.
+
+$ pppoeconf enp0s8
+
+The first thing we do is search for a signal on the device like in 7-16. Next we are asked if we wish to 
+
+modify the configuration files that pppoeconf changes.
+
+Figure 7-16.

@@ -1,0 +1,4 @@
+These 
+tools, called MDAs or mail filters, can perform actions on incoming mail as it is delivered to your mailbox. 
+We’ll talk a bit more about these applications in the “Mail Delivery Agents and Mail Filtering” sidebar later in 
+this chapter.

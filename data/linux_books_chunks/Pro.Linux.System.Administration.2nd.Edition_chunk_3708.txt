@@ -1,0 +1,13 @@
+Your server can have a dual personality.
+
+%M: internet name of the client machine.
+
+%D: name of the domain or workgroup of the current user.
+
+%H: home directory of the user given by %u.
+
+We have not shown all the variables here; for the complete list of variables, please see the  
+man smb.conf page.
+
+Adding Users to Samba
+We now have a basic Samba configuration.

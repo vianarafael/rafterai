@@ -1,0 +1,13 @@
+Installing the app
+
+724
+
+Now we need to add the mobile1.ovpn file to the app via iTunes (Figure 15-4).
+
+Chapter 15 ■ NetworkiNg with VpNs
+
+Figure 15-4.  Adding mobile1.ovpn to the OpenVPN client
+
+Once this is done, we are ready to make our connection to the OpenVPN server. From the app we add 
+
+the profile using the green plus button. Then we are ready sign in.

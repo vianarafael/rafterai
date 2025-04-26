@@ -1,0 +1,3 @@
+There is the raw table, which is used to exempt packets from connection tracking and is called before any 
+other Netfilter table. And lastly there is the security table which are used for Mandatory Access Control 
+(MAC) network rules and is processed after the filter table.

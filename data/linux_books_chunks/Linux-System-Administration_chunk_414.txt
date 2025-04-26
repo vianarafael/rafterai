@@ -1,0 +1,11 @@
+vi
+
+The last example shows how to find the process that is accessing a specific file.
+
+[root@RHEL65 ~]# vi /srv/project33/busyfile.txt
+
+[1]+  Stopped                 vi /srv/project33/busyfile.txt
+[root@RHEL65 ~]# fuser -v -m /srv/project33/busyfile.txt
+                     USER        PID ACCESS COMMAND
+/srv/project33/busyfile.txt:
+                     root      13938 F....

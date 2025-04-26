@@ -1,0 +1,8 @@
+We are specifying 
+
+that we want the latest release. The name is optional but helps tell the story of each step. The yum and apt 
+modules take similar arguments, but of course can be run only on systems that support either package 
+managers. The format of a task is as follows:
+
+- name: optional or description
+  module_name: module_arg1=value1....

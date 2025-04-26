@@ -1,0 +1,6 @@
+With many Linux systems, you have the opportunity 
+to view and change the default partitioning based on how you want to use the system.
+
+During installation, systems such as Fedora and RHEL let you partition your hard disk 
+using graphical partitioning tools. The following sections describe how to partition your 
+disk during a Fedora installation.

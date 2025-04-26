@@ -1,0 +1,8 @@
+We strongly suggest you 
+consider setting a password on your boot loader and store it in a very safe place along with your other 
+passwords.
+
+ again, you should always put your passwords somewhere secure like a safe or other secure, 
+
+ ■ Caution 
+locked location.

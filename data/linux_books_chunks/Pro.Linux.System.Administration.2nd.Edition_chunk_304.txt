@@ -1,0 +1,8 @@
+Use the slider or type in the amount of memory you need for your 
+system.
+
+ ■ Note 
+ It is important to note that you can “overcommit” your memory (i.e., allocate more than your host 
+system has available to it to a number of virtual machines)—meaning if my host system has 8gB raM, we 
+can have one virtual machine of 2gB, one of 4gB, and one of 6gB and they would all be able to run fine at the 
+same time.

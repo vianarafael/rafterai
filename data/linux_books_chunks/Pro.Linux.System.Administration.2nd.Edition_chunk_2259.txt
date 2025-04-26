@@ -1,0 +1,22 @@
+Filesystem Usage
+
+$ df -h
+Filesystem                                 Size   Used   Avail   Use%   Mounted on
+udev                                       478M      0    478M     0%   /dev
+tmpfs                                      100M   4.6M    95M      5%   /run
+/dev/mapper/au--mel--ubuntu--1--vg-root    6.3G   2.6G   3.4G     44%   /
+tmpfs                                      497M      0   497M      0%   /dev/shm
+tmpfs                                      5.0M      0   5.0M      0%   /run/lock
+tmpfs                                      497M      0   497M      0%   /sys/fs/cgroup
+/dev/sda1                                  472M   147M   301M     33%   /boot
+tmpfs                                      100M      0   100M      0%   /run/user/1000
+/dev/sdb2                                  2.0G   3.0M   1.8G      1%   /mnt/data
+/dev/sdb3                                  4.0G    33M   4.0G      1%   /mnt/data2
+
+384
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+The output shows you the total size, the amounts of space used and still available, and the percentage 
+
+this equates to for each mounted filesystem.

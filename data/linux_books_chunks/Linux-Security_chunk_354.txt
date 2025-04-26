@@ -1,0 +1,13 @@
+introduction to routers
+
+What follows is a very brief introduction to using Linux as a router.
+
+76
+
+introduction to routers
+
+10.1. router or firewall
+
+A router is a device that connects two networks. A firewall is a device that besides acting
+as a router, also contains (and implements) rules to determine whether packets are allowed
+to travel from one network to another.

@@ -1,0 +1,12 @@
+Rebooting your computer, removing the Live medium, so the newly installed 
+
+system boots from hard disk.
+
+2.  To update the packages, after the Fedora Live media installation is complete, do the 
+
+following:
+
+a. Reboot the computer and ﬁ ll in the ﬁ rst boot questions as prompted.
+
+b. Using a wired or wireless connection, make sure you have a connection to the 
+Internet.

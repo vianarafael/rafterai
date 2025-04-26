@@ -1,0 +1,11 @@
+For example, consider the following:
+
+$ sudo passwd –l ataylor
+
+The previous command would lock the ataylor user and prevent ataylor from logging into the host 
+
+using her password. You can then unlock the user using the –u, or unlock, option.
+
+$ sudo passwd –u ataylor
+
+However, this command doesn’t fully disable access to the host.

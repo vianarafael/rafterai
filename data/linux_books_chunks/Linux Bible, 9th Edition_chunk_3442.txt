@@ -1,0 +1,7 @@
+You can leave those in 
+place. The main point is to have your Samba rules placed somewhere before the ﬁ nal 
+REJECT rules.
+
+If your iptables ﬁ rewall is enabled, you can restart it to have the new rules take effect. 
+To do that, type systemctl restart iptables.service (in older Fedora systems) or 
+service restart iptables (in RHEL 6 or earlier).

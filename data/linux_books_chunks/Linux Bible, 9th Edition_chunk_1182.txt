@@ -1,0 +1,3 @@
+The let command insists on no spaces between 
+each operand and the mathematical operator, whereas the syntax of the expr command requires whitespace 
+between each operand and its operator.

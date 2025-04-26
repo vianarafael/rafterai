@@ -1,0 +1,53 @@
+Ubuntu Parameters in /etc/network/interfaces
+
+Parameter
+
+Description
+
+auto
+
+inet
+
+inet6
+
+ppp
+
+address
+
+netmask
+
+gateway
+
+Brings up the interface at boot time
+
+Specifies IPv4 addressing
+
+Specifies IPv6 addressing
+
+Specifies the device is a PPP connection
+
+Specifies the IP address
+
+Specifies the netmask
+
+Specifies the default gateway for that interface
+
+dns-nameserver
+
+Specifies the name server for that interface
+
+post-up
+
+pre-down
+
+Specifies action to run after interface comes up
+
+Specifies action to run before the interface comes down
+
+source-directory
+
+Includes the files from the specified directory
+
+In Table 7-3 you see most of the parameters available to you when setting up a network interface on 
+
+Ubuntu.

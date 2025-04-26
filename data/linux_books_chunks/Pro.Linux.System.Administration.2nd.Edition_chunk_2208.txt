@@ -1,0 +1,7 @@
+You can use it to copy off data on a busy filesystem 
+
+or to take a point-in-time backup of the subvolume. To make a read-only snapshot you would issue the 
+btrfs subvolume snapshot –r (vol_target) (vol_dest).
+
+Filesystems for Data Sharing
+So far, we’ve covered filesystems that are accessible only by Linux.

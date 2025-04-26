@@ -1,0 +1,7 @@
+Move your mouse cursor to the upper-left 
+ corner of the screen, near the Activities button. Each time you move there, 
+your screen changes between showing you the windows you are actively using 
+and a set of available Activities. (This has the same effect as pressing the 
+Windows key.)
+
+2.  Open windows from applications bar.

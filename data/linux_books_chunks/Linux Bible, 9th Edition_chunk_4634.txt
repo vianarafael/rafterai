@@ -1,0 +1,4 @@
+In this case, it gives the 
+proper diagnosis that if you want to allow a user to log into an existing user account from 
+an FTP service, you must turn on the ftp_home_dir boolean (setsebool -P ftp_
+home_dir=on).

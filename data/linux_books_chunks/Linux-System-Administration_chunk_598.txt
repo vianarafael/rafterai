@@ -1,0 +1,5 @@
+[lun0 block/target.disk1 (rw)]
+  |     |   o- mapped_lun1 ...................... [lun1 block/target.disk2 (rw)]
+  |     |   o- mapped_lun2 ...................... [lun2 block/target.disk3 (rw)]
+  |     o- luns ...................................................... [LUNs: 3]
+  |     | o- lun0 ..............................

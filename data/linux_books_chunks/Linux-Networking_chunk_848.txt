@@ -1,0 +1,37 @@
+verify on windows
+
+The final test is to go to a Microsoft windows computer and read a file on the Samba server.
+First we use the net use command to mount the pubread share on the driveletter k.
+
+C:\>net use K: \\teacher0\pubread
+The command completed successfully.
+
+Then we test looking at the contents of the share, and reading the files.
+
+C:\>dir k:
+ Volume in drive K is pubread
+ Volume Serial Number is 0C82-11F2
+
+ Directory of K:\
+
+21/01/2009  05:49    <DIR>          .
+21/01/2009  05:49    <DIR>          ..
+21/01/2009  05:49                17 summer.txt
+21/01/2009  05:49                18 winter.txt
+               2 File(s)             35 bytes
+               2 Dir(s)  13.496.242.176 bytes free
+
+Just to be on the safe side, let us try writing.
+
+K:\>echo very cold > winter.txt
+Access is denied.
+
+K:\>
+
+Or you can use windows explorer...
+
+216
+
+a read only file server
+
+17.5.

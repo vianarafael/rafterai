@@ -1,0 +1,10 @@
+Creating A Records for Our Domain
+
+@                   IN    A    192.168.0.1
+ns                  IN    A    192.168.0.254
+mail                IN    A    192.168.0.1
+au-mel-ubuntu-1     IN    A    192.168.0.1
+
+We did not specify an FQDN in the host column for these records, so the DNS server will treat them as 
+
+if they have $ORIGIN (example.com.) appended to them, which is exactly what we want.

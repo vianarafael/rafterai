@@ -1,0 +1,6 @@
+Shared block storage, where you mount 
+a whole disk or disk partition, can be accomplished using technologies such as iSCSI or 
+Fibre Channel.
+
+Ceph (http://ceph.com) is an open source project for managing both block and object 
+storage that is popular for managing storage in cloud environments.

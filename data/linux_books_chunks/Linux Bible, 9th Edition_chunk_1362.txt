@@ -1,0 +1,5 @@
+The boot process, the kernel and all systemd-managed services direct their 
+ status and error messages to the systemd journal.
+
+Using the journalctl command, you can display journal messages in many different 
+ways.

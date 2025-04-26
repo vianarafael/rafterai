@@ -1,0 +1,11 @@
+Create the isoimage with the -no-emul-boot option
+
+cd /tmp/boot-cd/
+
+mkisofs -o ../boot-cd.iso -b isolinux.bin -c boot.cat \ 
+
+ -no-emul-boot -boot-load-size 4  -boot-info-table ./
+
+Copying a Bootable CD
+
+In this section we assume that we already have a bootable CDROM.

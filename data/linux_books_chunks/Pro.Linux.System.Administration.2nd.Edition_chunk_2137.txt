@@ -1,0 +1,5 @@
+First, it can support 
+
+ridiculously large volumes (16 exbibytes) and a max file of the same (16 exbibytes). At such a large scale, 
+the journaling on ext4 and XFS becomes enourmously slow and impossible. It aims to naturally support 
+operations and organization like snapshotting and pooling.

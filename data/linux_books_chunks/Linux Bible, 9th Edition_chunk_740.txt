@@ -1,0 +1,9 @@
+This includes all previous com-
+mands stored for your username.
+
+This shows the command number of the current command. This includes only the 
+commands for the active shell.
+
+This shows the user prompt ($) or root prompt (#), depending on which user you are.
+
+This shows only the current working directory base name.

@@ -1,0 +1,12 @@
+This means du
+-sh on a mount point gives the total amount used by the file system in that partition.
+
+root@debian6~# du -sh /boot /srv/wolf
+6.2M /boot
+1.1T /srv/wolf
+
+69
+
+mounting
+
+7.3.

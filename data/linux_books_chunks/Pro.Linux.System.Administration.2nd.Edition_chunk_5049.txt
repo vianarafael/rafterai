@@ -1,0 +1,19 @@
+We can list all the different values for that field with the following:
+
+$ sudo journalctl –F _COMM
+unix_chkpwd
+request-key
+freshclam-sleep
+run-parts
+pickup
+usermod
+...
+
+842
+
+Chapter 18 ■ Logging and Monitoring
+
+Let’s say we want to search for any usermod changes that have happened since the last boot.
+
+$ sudo journalctl _COMM=usermod -b
+-- Logs begin at Fri 2016-11-25 22:16:00 AEDT, end at Mon 2016-11-28 23:09:04 AEDT.

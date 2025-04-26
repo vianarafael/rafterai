@@ -1,0 +1,27 @@
+(Your terminal determines the exact 
+sequences available.)
+
+This follows a sequence of nonprinting characters.
+
+This shows a backslash.
+
+This displays the day name, month, and day number of the current date—for exam-
+ple, Sat Jan 23.
+
+This shows the hostname of the computer running the shell.
+
+This causes a newline to occur.
+
+\nnn
+
+This shows the character that relates to the octal number replacing nnn.
+
+\s
+
+\t
+
+\u
+
+\w
+
+This displays the current shell name.

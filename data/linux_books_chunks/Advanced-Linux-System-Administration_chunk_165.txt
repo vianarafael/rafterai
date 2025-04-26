@@ -1,0 +1,86 @@
+Another way of doing this is to use the 'ALT+sysreq+s' key combination  
+
+badblocks - search a device for bad blocks
+
+It is recommended NOT to use badblocks directly but to use the -c flag with fsck or mkfs.
+
+Main options:
+
+-b
+
+-c
+
+-i
+
+-o
+
+block size
+
+number of blocks tested at a time
+
+file with a list of known bad blocks, these blocks will be skipped
+
+output file, passed to mkfs 
+
+mke2fs - create an ext2/3 filesyste
+
+Main options:
+
+-b
+
+-i
+
+-N
+
+-m
+
+-c
+
+-l
+
+-L
+
+blocksize
+
+number of bytes between consecutive inodes 'bytes-per-inode'
+
+number of inodes
+
+Percentage of blocks reserved for user root
+
+Check for bad blocks
+
+Read bad blocks from  file
+
+Set a volume LABEL
+
+-j/-J Create journal (ext3) 
+
+-T
+
+Optimise filesystem “type”, values are:
+
+news
+largefile   
+largefile4  
+
+one inode per 4kb block
+one inode per megabyte
+one inode per 4 megabytes
+
+dumpe2fs - dump filesystem information
+
+dumpe2fs  prints  the  super block and blocks group information for the filesystem present 
+on a device
+
+36
+
+LinuxIT Technical Training Centre
+
+The Linux Filesystem
+
+_____________________________________________________
+
+debugfs - ext2 file system debugger
+
+debugfs is used to test and repair an ext2 filesystem.

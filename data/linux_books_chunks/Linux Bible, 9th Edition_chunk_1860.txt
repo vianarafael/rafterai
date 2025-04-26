@@ -1,0 +1,7 @@
+In 
+GNOME 3, go the the Activities screen, type Users, and press Enter. In GNOME 2, from the 
+Applications menu, select System Tools ➪ Settings. Then select the Users icon. Select the 
+Unlock button, and enter the root password. Then select the plus (+) to open a window for 
+adding a user account, as shown in Figure 11.1.
+
+You are now ready to begin adding a new user account to your Linux system.

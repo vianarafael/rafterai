@@ -1,0 +1,5 @@
+In addition to these basic package managers, there are applications that provide extra functionality 
+such as network-based upgrading, package searching, and GUIs.
+
+ ■ Note  having different package formats and managers might seem strange—these are all Linux 
+distributions, after all—but the reasons are mainly historical.

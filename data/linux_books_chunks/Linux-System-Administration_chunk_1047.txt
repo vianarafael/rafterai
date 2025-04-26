@@ -1,0 +1,10 @@
+Preferably sniff
+an isolated virtual network interface over which you control all traffic.
+
+If you are at home to learn sniffing, then it could help to close all network programs on
+your computer, and disconnect other computers and devices like smartphones and tablets
+to minimize the traffic.
+
+Even more important than this is the use of filters which will be discussed in this chapter.
+
+23.1.4.

@@ -1,0 +1,5 @@
+Permissions associated with ﬁ les and directories in Linux were designed 
+to keep users from accessing other users’ private ﬁ les and to protect important system ﬁ les.
+
+The nine bits assigned to each ﬁ le for permissions deﬁ ne the access that you and others 
+have to your ﬁ le. Permission bits for a regular ﬁ le appear as -rwxrwxrwx.

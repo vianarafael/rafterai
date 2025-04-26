@@ -1,0 +1,4 @@
+On 
+the client, as we mentioned earlier, you need to install the puppet-agent package using your distribution’s 
+package management system. We’re going to install a client on the web.example.com host and then connect 
+to our puppet.example.com host.

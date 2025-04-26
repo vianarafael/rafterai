@@ -1,0 +1,4 @@
+these tools are still present, but some of the functionality they 
+provide is not present in aptitude or is not easily accessible, so it pays to become familiar with them. 
+the commands that make up APt include apt-get, apt-cache, and apt-file. the apt-get command 
+downloads, installs, and removes packages and source files.

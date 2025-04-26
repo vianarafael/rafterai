@@ -1,0 +1,8 @@
+RPM packages install without interruption, offering some 
+of the following advantages:
+
+ ■ Kickstart files—All the questions you answer during a manual install and all the 
+
+packages you select can be added into a ﬁ le called a kickstart ﬁ le. When you start a 
+Fedora or Red Hat Enterprise Linux installer, you can provide a kickstart ﬁ le at the 
+boot prompt.

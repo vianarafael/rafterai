@@ -1,0 +1,2 @@
+This can be helpful when determining 
+which directories to move to a partition of their own if a filesystem becomes full.

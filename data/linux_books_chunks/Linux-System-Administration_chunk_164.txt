@@ -1,0 +1,21 @@
+top
+
+Inside top the k key allows you to select a signal and pid to kill. Below is a partial screenshot
+of the line just below the summary in top after pressing k.
+
+PID to kill: 1932
+
+Kill PID 1932 with signal [15]: 9
+
+11
+
+  
+introduction to processes
+
+1.4. practice : basic process management
+
+1. Use ps to search for the init process by name.
+
+2. What is the process id of the init process ?
+
+3.

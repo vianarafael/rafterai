@@ -1,0 +1,9 @@
+practice: user management
+
+1. Create a user account named serena, including a home directory and a description (or
+comment) that reads Serena Williams. Do all this in one single command.
+
+2. Create a user named venus, including home directory, bash shell, a description that reads
+Venus Williams all in one single command.
+
+3.

@@ -1,0 +1,24 @@
+To become root user and create an empty or plain text ﬁ le named /mnt/test.txt, 
+
+type the following:
+
+$ su -
+Password: *********
+# touch /mnt/test.txt
+# ls -l /mnt/test.txt
+-rw-r--r--. 1 root root 0 Jan  9 21:51 /mnt/test.txt
+
+B
+
+793
+
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 794
+
+Appendix B: Exercise Answers
+
+5.

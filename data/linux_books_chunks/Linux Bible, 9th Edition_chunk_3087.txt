@@ -1,0 +1,6 @@
+The following sections describe security features that relate to Apache.
+
+17
+
+Apache file permissions and ownership
+The httpd daemon process runs as the user apache and group apache.

@@ -1,0 +1,10 @@
+Note that if 
+you lose your private key, you will no longer be able to log in to hosts with this option set.
+
+You can find a full listing of all available server configuration options on the man sshd_config manual 
+
+page.
+
+Client Configuration
+
+The SSH client can be configured globally for all users on a host and locally as well, specifically for each user.

@@ -1,0 +1,4 @@
+You will see the changes in bold; we have given anonymous 
+
+the ability to read certain attributes that are looked up during authentication and have given auth access 
+to the userPassword attribute.

@@ -1,0 +1,6 @@
+In this example, instead of using a central authentica-
+tion server, matching accounts are created on each system.
+
+1.  On the NFS server (mynfs.example.com) that provides a centralized user 
+home directory for the user named joe, create a user account for joe with 
+a home directory of /home/shared/joe as its name.

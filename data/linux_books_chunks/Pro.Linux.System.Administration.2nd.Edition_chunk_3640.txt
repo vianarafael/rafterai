@@ -1,0 +1,6 @@
+Please see https://wiki.samba.org/index.php/Joining_a_Windows_Client_or_
+Server_to_a_Domain to find out what clients are supported and how to join a domain for Windows 
+clients and servers (2008 and 2012).
+
+In this example, we are going to show you how to implement version 4.x of Samba and mount a 
+drive on our macOS host.

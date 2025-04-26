@@ -1,0 +1,17 @@
+The Migrate the Virtual 
+Machine window appears, as shown in Figure 26.3.
+
+FIGURE 26.3
+
+Choose which hypervisor to migrate the VM to.
+
+746
+
+ 
+ 
+c26.indd  04/01/2015  Page 747
+
+Chapter 26: Using Linux for Cloud Computing 
+
+Select the new host. In my example, the VM is currently running on host2, so I want to 
+select host1 as the new host.

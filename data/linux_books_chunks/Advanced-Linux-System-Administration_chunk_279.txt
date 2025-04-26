@@ -1,0 +1,32 @@
+The following script will do this:
+
+#!/bin/bash
+PROCESS=smb
+if ps aux | grep "$PROCESS" | grep -v grep >/dev/null ; then
+        echo Process $PROCESS is running
+else
+        echo Process $PROCESS is stopped – Restarting it ...
+        /etc/rc.d/init.d/smb start > /dev/null
+fi
+
+77
+
+LinuxIT Technical Training Centre
+
+System Automation 
+
+_____________________________________________________
+
+Checking the response from a host using ping
+
+#!/bin/bash
+while (true)
+do
+
+#get the times from 10 ping outputs
+   x=$(ping -c 10 $1 | cut -d"=" -f4 | tail +2|head | sed "s/ms//")
+
+#loop through the times to check which ones are longer than 14ms
+   for times in $x 
+       do  
+          dectimes=$(echo $times | cut -d.

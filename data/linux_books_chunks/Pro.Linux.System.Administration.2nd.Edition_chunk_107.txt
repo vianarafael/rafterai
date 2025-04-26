@@ -1,0 +1,6 @@
+Using virtualization software like 
+VirtualBox will not destroy your current operating system when performing the following steps.
+
+After selecting the Installation Destination screen as in in Figure 2-3 we are present with our current 
+
+disk layout.

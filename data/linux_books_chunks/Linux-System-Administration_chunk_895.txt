@@ -1,0 +1,10 @@
+apt-get purge
+
+You can purge one or more applications by appending their name behind apt-get purge.
+Purging  will  also  remove  all  existing  configuration  files  related  to  that  application.  The
+screenshot shows how to purge the rsync package.
+
+root@ubu1204~# apt-get purge rsync
+Reading package lists... Done
+Building dependency tree       
+Reading state information...

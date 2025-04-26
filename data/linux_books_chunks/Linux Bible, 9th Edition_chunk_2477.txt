@@ -1,0 +1,6 @@
+From the desktop, NetworkManager tools are a good place 
+to start.
+
+Checking your network from NetworkManager
+The easiest way to check the basic setting for a network interface started by 
+NetworkManager is to open the NetworkManager icon on your desktop.

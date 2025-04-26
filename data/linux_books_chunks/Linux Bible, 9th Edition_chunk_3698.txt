@@ -1,0 +1,14 @@
+For example, if you know that the /usr/local/share directory is being shared from the 
+computer on your network named shuttle, you can do the following:
+
+$ cd /net/shuttle/
+
+If that computer has any shared directories that are available to you, you can successfully 
+change to that directory.
+
+You also can type the following:
+
+$ ls
+usr
+
+You should be able to see that the usr directory is part of the path to a shared directory.

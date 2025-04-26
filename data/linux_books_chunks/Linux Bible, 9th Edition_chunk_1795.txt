@@ -1,0 +1,30 @@
+For example:
+
+10
+
+# yum check-update
+...kernel.x86_64          3.10.0-123.6.3.el7     rhel-7-server-rpms
+
+249
+
+c10.indd  04/01/2015  Page 250
+
+Part III: Becoming a Linux System Administrator
+
+kernel-headers.x86_64  3.10.0-123.6.3.el7     rhel-7-server-rpms
+
+# yum update
+...Resolving Dependencies
+--> Running transaction check
+---> Package kernel.x86_64 0:3.10.0-123.6.3.el7 will be installed
+---> Package kernel-headers.x86_64 0:3.10.0-123.4.4.el7 will be 
+   updated
+...
+Transaction Summary
+=====================================================================
+Upgrade      38 Package(s)
+Total download size: 50 M
+Is this ok [y/N]: y
+# yum update cups
+
+The preceding command requested to update the cups package.

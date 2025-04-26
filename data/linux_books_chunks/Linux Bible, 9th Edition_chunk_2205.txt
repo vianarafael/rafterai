@@ -1,0 +1,3 @@
+The number of inodes and blocks created are output, as are the number of blocks per group 
+and fragments per group. An inode, which holds metadata such as ownership and timestamps 
+for each ﬁ le, is consumed for every ﬁ le and directory in the ﬁ lesystem.

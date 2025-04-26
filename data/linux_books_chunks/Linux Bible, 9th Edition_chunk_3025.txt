@@ -1,0 +1,7 @@
+(Check the /etc/sysconfig/iptables ﬁ le to see if a ﬁ rewall rule is set that 
+accepts printing from TCP port 631 or, if you are running ﬁ rewalld, run firewall-
+config and open the ipp service.)
+
+ ■ Check names and addresses. Make sure you entered your computer’s name and 
+print queue properly when you conﬁ gured it on the other computer. Try using 
+the IP address instead of the hostname.

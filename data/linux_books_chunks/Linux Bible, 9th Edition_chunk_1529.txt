@@ -1,0 +1,8 @@
+The 
+following bullets step through the installation process and describe ways of changing that 
+process along the way:
+
+ ■ Launch the installation medium. You can launch an installation from any medium 
+
+you can boot from a computer: CD, DVD, USB drive, hard disk, or network inter-
+face card with PXE support.

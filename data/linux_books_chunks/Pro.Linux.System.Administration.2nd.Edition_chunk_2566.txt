@@ -1,0 +1,5 @@
+they in turn can provide Ds records for anything that is under them, those can create Ds records 
+for anything under them, and so on.
+
+In the following figure you will see that when we make a request for www.google.com, the root servers 
+will send us a rrsIG and a Ds for the ‘.com.’ tLD.

@@ -1,0 +1,12 @@
+The example below shows the creation
+of five (empty) groups.
+
+root@laika:~# groupadd tennis
+root@laika:~# groupadd football
+root@laika:~# groupadd snooker
+root@laika:~# groupadd formula1
+root@laika:~# groupadd salsa
+
+5.2. group file
+
+Users can be a member of several groups.

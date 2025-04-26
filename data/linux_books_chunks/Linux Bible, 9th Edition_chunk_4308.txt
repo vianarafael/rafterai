@@ -1,0 +1,10 @@
+The gpg2 utility then encrypts the hash and the ﬁ le, using an asymmetric key 
+
+cipher. For the encryption, the private key of the public/private key pair is used. 
+This is now a digitally signed encrypted ﬁ le.
+
+4.  You send the encrypted hash (a.k.a. digital signature) and ﬁ le to the receiver.
+
+5.  The receiver recreates the hash or message digest of the received encrypted ﬁ le.
+
+6.

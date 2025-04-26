@@ -1,0 +1,5 @@
+But if a storage manufacturer used that factor, its device would seem 
+smaller when compared to the competition, so it doesn’t.
+
+to stop confusion between these ways of calculating sizes, new terms were coined for values using the 
+1,024 factor: kibibyte, mebibyte, gibibyte, and so on. they are indicated with KiB, MiB, giB, and so forth.

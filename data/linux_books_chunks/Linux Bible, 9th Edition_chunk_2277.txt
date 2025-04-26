@@ -1,0 +1,6 @@
+Firewalld not only lets you insert iptables ﬁ rewall rules into 
+the kernel, it also can help organize ﬁ rewall rules by dividing them up into zones and can 
+change ﬁ rewall rules on the ﬂ y to react to different events.
+
+In each of the server chapters coming up, I describe what ports need to be open to allow 
+access to services.

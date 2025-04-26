@@ -1,0 +1,10 @@
+In  this
+screenshot no modules were added, so depmod generates the same file.
+
+root@barry:/lib/modules/2.6.17-2-686# ls -l modules.dep 
+-rw-r--r-- 1 root root 310676 2008-03-01 16:32 modules.dep
+root@barry:/lib/modules/2.6.17-2-686# depmod
+root@barry:/lib/modules/2.6.17-2-686# ls -l modules.dep 
+-rw-r--r-- 1 root root 310676 2008-12-07 13:54 modules.dep
+
+28.4.12.

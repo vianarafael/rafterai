@@ -1,0 +1,16 @@
+Below an example command
+to add a new partition while removing a faulty one.
+
+mdadm /dev/md0 --add /dev/sdd1 --fail /dev/sdb1 --remove /dev/sdb1
+
+97
+
+introduction to raid
+
+10.4. practice: raid
+
+1. Add three virtual disks of 1GB each to a virtual machine.
+
+2. Create a software raid 5 on the three disks. (It is not necessary to put a filesystem on it)
+
+3.

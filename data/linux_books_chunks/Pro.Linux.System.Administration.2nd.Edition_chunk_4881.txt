@@ -1,0 +1,9 @@
+For CentOS you will 
+need to have the epel-release package installed as the Collectd packages aren’t available in the standard 
+repositories.
+
+The Ubuntu version available from the standard Ubuntu repositories is slightly behind the current 
+version, but the CentOS version is fairly recent; depending on the features you require, this may affect your 
+install decisions.
+
+Installation is simple.

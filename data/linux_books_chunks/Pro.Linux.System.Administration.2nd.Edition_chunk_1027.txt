@@ -1,0 +1,2 @@
+These changes to the kernel line are not permanent though, and the next time the host is booted, it 
+will boot normally.

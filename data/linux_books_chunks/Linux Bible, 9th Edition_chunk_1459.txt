@@ -1,0 +1,6 @@
+If a PXE boot server is available on the network, it can provide everything a 
+client computer needs to boot. What it boots can be an installer. So with a PXE boot, it is possible to do a complete 
+Linux installation without a CD, DVD, or any other physical medium.
+
+ ■ Network card—You need wired or wireless networking hardware to be able to add 
+more software or get software updates.

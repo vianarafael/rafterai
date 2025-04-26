@@ -1,0 +1,12 @@
+In Figure 7-9 we add select Add to add our new interface.
+
+Figure 7-9.  Add a connection
+
+230
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-10.  Type of interface, Ethernet
+
+Here we select the type of interface we wish to add. There are several options to choose, including DSL 
+for connecting to your ISP, Wi-Fi, and others like VLAN and team interfaces.

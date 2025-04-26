@@ -1,0 +1,5 @@
+These files are read in via the grub2-mkconfig 
+
+command from 00_header to 41_custom in this case. You will not need to know much about these files 
+normally as you rarely need to touch them on a regular basis. The files you might be interested in are 01_
+users and 40_custom files. The 01_users file loads in the boot loader password if it set.

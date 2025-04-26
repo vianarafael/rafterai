@@ -1,0 +1,10 @@
+(Applications written using the ncurses library run in a 
+Terminal window but offer screen-oriented mouse and keyboard controls.)
+
+ ■ Name—Choose a name to identify the application (this appears in the tooltip 
+
+when your mouse is over the icon).
+
+ ■ Command—This identiﬁ es the command line that is run when the application is 
+
+launched.

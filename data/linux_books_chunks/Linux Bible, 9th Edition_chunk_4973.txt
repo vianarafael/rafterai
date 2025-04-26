@@ -1,0 +1,6 @@
+A 
+
+hybrid cloud can allow multiple cloud platforms to be managed by a central  facility. 
+For example, Red Hat Cloudforms can deploy and manage virtual machines on 
+OpenStack, VMware vSphere, and Red Hat Enterprise Virtualization platforms, 
+ provisioning different types of workloads to appropriate environments.

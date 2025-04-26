@@ -1,0 +1,3 @@
+Angela Taylor is 
+a user that we have put in cn=admins,ou=groups,dc=example,dc=com; remember that we have given write 
+access to all entries under ou=people,dc=example,dc=com through our access control list.

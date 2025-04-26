@@ -1,0 +1,5 @@
+If there is one there and it is LSB compliant, it will 
+run systemd-generate-sysv command to create a systemd wrapper file.
+
+The Ubuntu server still uses some SysV init.d system files (whereas CentOS uses systemd natively) so we 
+will look at how that distribution manages the postfix service.

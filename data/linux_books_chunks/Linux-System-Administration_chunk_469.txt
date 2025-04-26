@@ -1,0 +1,8 @@
+What can you do ? The solution will always force you to unmount the
+file system, take a backup of the data, remove and recreate partitions, and then restore the
+data and remount the file system.
+
+11.1.2. solution with lvm
+
+Using lvm will create a virtual layer between the mounted file systems and the hardware
+devices.

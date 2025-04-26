@@ -1,0 +1,6 @@
+Employed simply, the command will resolve a fully qualified domain name by 
+querying the nameserver it finds in the /etc/resolv.conf file.
+
+The /etc/resolv.conf file is used to store the nameserver information so your host knows which DNS 
+
+server to query for domain name resolution.

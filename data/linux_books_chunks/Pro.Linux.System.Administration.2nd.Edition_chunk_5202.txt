@@ -1,0 +1,15 @@
+Typically 
+
+you will see three sections including a filter section.
+
+Input {
+  ...
+}
+filter {
+  ...
+}
+output {
+  ...
+}
+
+Those of you familiar with Ruby will recognize this as Ruby hash syntax.

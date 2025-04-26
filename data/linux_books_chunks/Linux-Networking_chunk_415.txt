@@ -1,0 +1,22 @@
+200 OK
+Length: 26 [text/html]
+Saving to: `index.html.2'
+
+100%[===========================================>] 26          --.-K/s   in 0s
+
+2014-05-06 21:16:30 (2.01 MB/s) - `index.html.2' saved [26/26]
+
+root@debian7:/etc/apache2# cat index.html.2 
+HaCkInG iS fUn At HuNtEr2
+
+Cleaning up the temporary files.
+
+root@debian7:/etc/apache2# rm index.html index.html.1 index.html.2 
+
+Try testing from another computer using the ip-address of your server.
+
+87
+
+apache web server
+
+8.3.

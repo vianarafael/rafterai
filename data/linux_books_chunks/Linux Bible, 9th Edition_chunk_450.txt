@@ -1,0 +1,8 @@
+Figure 2.11 shows Nautilus open to a home directory.
+
+FIGURE 2.11
+
+Manage fi les and folders from the Nautilus window.
+
+When you want to save ﬁ les you downloaded from the Internet or created with a word 
+processor, you can organize them into these folders.

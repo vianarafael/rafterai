@@ -1,0 +1,7 @@
+Make the swap partition available with swapon -a 
+
+Notice that if two swap partition are defined the kernel will automatically access them in 
+“striped”mode, provided they have been mounted with the same priority determined by the 
+pri= option in /etc/fstab
+
+2.

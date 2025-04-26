@@ -1,0 +1,11 @@
+Just as you would from a regular Linux command line shell, you can use 
+cd to change to another directory and ls to list that directory’s contents.
+
+494
+
+c18.indd  04/01/2015  Page 495
+
+Chapter 18: Confi guring an FTP Server
+
+To have the commands you run interpreted by the client system, you can simply put an 
+exclamation mark (!) in front of a command.

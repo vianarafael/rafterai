@@ -1,0 +1,18 @@
+Get a Linux installation ISO image that is compatible with your hypervisor, and 
+copy it to the default directory used by Virtual Machine Manager to store images.
+
+747
+
+ 
+ 
+ 
+ 
+c26.indd  04/01/2015  Page 748
+
+Part VI: Extending Linux into the Cloud
+
+5.  Check that the default network bridge (virbr0) is currently active.
+
+6.  Install a virtual machine using the ISO image you copied earlier.
+
+7.

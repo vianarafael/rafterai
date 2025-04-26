@@ -1,0 +1,10 @@
+Then you can use the process ID of that process as an option to the kill command, along 
+with the signal you want to send.
+
+For example, you run the top command and see that the bigcommand process is consum-
+ing most of your processing power:
+
+  PID USER   PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+10432 chris  20   0  471m 121m  18m S 99.9  3.2  77:01.76 bigcommand
+
+Here, the bigcommand process is consuming 99.9 percent of the CPU.

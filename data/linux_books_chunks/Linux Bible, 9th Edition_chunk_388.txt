@@ -1,0 +1,2 @@
+Because a live DVD does all its work from the 
+DVD and in memory, it runs slower than an installed Linux system.

@@ -1,0 +1,17 @@
+On the slave log (sudo 
+journalctl –xf –u named) after triggering the notify you will see something similar to the following:
+
+Jul 05 09:35:47 au-mel-centos-1 named[4266]: client 192.168.0.1#47692: received notify for 
+zone 'example.com'
+Jul 05 09:35:47 au-mel-centos-1 named[4266]: master 192.168.0.1#53 (source 0.0.0.0#0) 
+deleted from unreachable cache
+Jul 05 09:35:47 au-mel-centos-1 named[4266]: zone example.com/IN: Transfer started.
+Jul 05 09:35:47 au-mel-centos-1 named[4266]: transfer of 'example.com/IN' from 
+192.168.0.1#53: connected using 192.168.0.254#34645
+Jul 05 09:35:47 au-mel-centos-1 named[4266]: zone example.com/IN: transferred serial 
+2016070107
+Jul 05 09:35:47 au-mel-centos-1 named[4266]: transfer of 'example.com/IN' from 
+192.168.0.1#53: Transfer completed: 1 messages, 82 records, 17410 bytes, 0.001 secs 
+(17410000 bytes/sec)
+
+The last line shows us that we have transferred 82 records.

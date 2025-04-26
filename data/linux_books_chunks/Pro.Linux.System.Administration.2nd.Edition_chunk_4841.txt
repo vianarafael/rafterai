@@ -1,0 +1,4 @@
+The up and down arrows navigate to the different fields. If you press s, you will see that 
+that field is now selected. The d key and spacebar toggle whether that field will be displayed. You can use q 
+or the Escape key to go back to the top screen with your selection. We can press s to make the %CPU column 
+our sort field and then press q to go back to the task list.

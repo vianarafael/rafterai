@@ -1,0 +1,11 @@
+Finally, any ﬁ le that contains n is matched 
+(banana, watermelon).
+
+Here are a few examples of pattern matching with the question mark (?):
+
+$ ls ????e
+apple grape
+$ ls g???e*
+grape grapefruit
+
+The ﬁ rst example matches any ﬁ ve-character ﬁ le that ends in e (apple, grape).

@@ -1,0 +1,24 @@
+Here are other ways to start applications:
+
+36
+
+ 
+ 
+c02.indd  04/01/2015  Page 37
+
+Chapter 2: Creating the Perfect Linux Desktop
+
+FIGURE 2.4
+
+Click the middle mouse button to display an application’s selection menu.
+
+2
+
+ ■ Application icon—Click any application icon to open that application.
+
+ ■ Drop Dash icons on workspace—From the Windows view, you can drag any 
+
+application icon from the Dash by pressing and holding the left mouse button on 
+it and dragging that icon to any of the miniature workspaces on the right.
+
+6.

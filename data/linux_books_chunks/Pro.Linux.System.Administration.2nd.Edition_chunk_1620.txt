@@ -1,0 +1,7 @@
+This creates a rule in iptables that, when viewed with the iptables -L command looks like this:
+
+Chain ufw-user-forward (1 references)
+num target   prot opt  source        destination
+1  ACCEPT   tcp  --  0.0.0.0/0       0.0.0.0/0      tcp dpt:22
+
+Let’s move on to explore more about iptables and what this means.

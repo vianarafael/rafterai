@@ -1,0 +1,5 @@
+Let’s start by having a look at what partitions are already there by listing the partitions on the first disk 
+on our Ubuntu host (see Listing 9-2). Because only the root user is allowed to read from and write to the raw 
+disk device, you need to use sudo.
+
+Listing 9-2.

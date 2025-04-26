@@ -1,0 +1,22 @@
+To ﬁ nd out, use the groupinfo subcommand:
+
+# yum groupinfo LXDE
+Group: LXDE
+ Group-Id: lxde-desktop
+
+250
+
+c10.indd  04/01/2015  Page 251
+
+Chapter 10: Getting and Managing Software
+
+ Description: LXDE is a lightweight X11 desktop environment...
+ Mandatory Packages:
+   lxde-common
+   lxmenu-data
+...
+
+In addition to showing a description of the group, groupinfo shows Mandatory Packages 
+(those that are always installed with the group), Default Packages (those that are installed 
+by default, but can be excluded), and Optional Packages (which are part of the group, but 
+not installed by default).

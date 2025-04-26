@@ -1,0 +1,17 @@
+As for exposing NFS share locations, with NFSv4 you can bind 
+shared directories to an /exports directory, so when they are shared, the exact location 
+of those directories is not exposed.
+
+Visit https://help.ubuntu.com/community/NFSv4Howto for details on NFSv4 
+ features in Ubuntu.
+
+As for standard Linux security features associated with NFS, iptables ﬁ rewalls, TCP 
+ wrappers, and SELinux can all play a role in securing and providing access to your NFS 
+
+536
+
+c20.indd  04/01/2015  Page 537
+
+Chapter 20: Confi guring an NFS File Server
+
+server from remote clients.

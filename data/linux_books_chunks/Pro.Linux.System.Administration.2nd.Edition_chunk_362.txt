@@ -1,0 +1,27 @@
+The tasks we are planning to show you are
+
+•	
+
+•	
+
+•	
+
+initialize our first directory
+
+update the configuration file for Vagrant
+
+start our Vagrant Box
+
+90
+
+Chapter 3 ■ IntroduCIng VIrtualBox, gIt, and Vagrant
+
+•	
+
+•	
+
+check the status
+
+finally, SSH into the console
+
+The first task we need to do is initialize our first directory.

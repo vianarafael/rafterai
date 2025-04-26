@@ -1,0 +1,36 @@
+Finally, we will discuss the Web-UI console, 
+which is a web-based UI for Bareos.
+
+By the end of this chapter, you should be able to do the following:
+
+•	
+
+Be aware of the requirements needed for DRP and BCM
+
+•	 Use the rsync command to securely copy data from one host to another and use a 
+
+script to automate that process
+
+•	
+
+•	
+
+Install and configure Duply to back up to Amazon S3
+
+Install and configure a backup server called Bareos
+
+•	 Manage your backups and create jobs within Bareos
+
+•	
+
+•	
+
+Restore files to your host using Bareos
+
+Install and configure the Web-UI management console
+
+We’ll start off with a general discussion on DRP.
+
+Disaster Recover Planning
+Of course, we all hope that nothing disastrous happens to our business, but it’s important to prepare for 
+any number of scenarios, just in case.

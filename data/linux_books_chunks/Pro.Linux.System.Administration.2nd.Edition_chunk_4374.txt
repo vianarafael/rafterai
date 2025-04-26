@@ -1,0 +1,22 @@
+Some Sample firewalld Rules for OpenVPN Routing
+
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-service=http
+success
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-service=https
+success
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-service=smtp
+success
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-service=dns
+success
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-service=ntp
+success
+[gateway]$ sudo firewall-cmd --zone public --permanent --add-service=imaps
+success
+
+Now we have to reload the firewall configuration.
+
+[gateway]$ sudo firewall-cmd --reload
+
+We’ve created a variety of simple rules to allow traffic through the VPN tunnel and forward it into our 
+
+internal network.

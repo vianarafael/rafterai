@@ -1,0 +1,9 @@
+Configure Interfaces with nmtui
+
+The curses-based configuration tool that comes with NetworkManager is designed to work on any type of 
+terminal. You can create and manage interfaces as well as set the hostname via this terminal user interface 
+(tui).
+
+In this exercise we are going to run through the nmtui program to configure our newly attached enp0s8 
+
+Ethernet device.

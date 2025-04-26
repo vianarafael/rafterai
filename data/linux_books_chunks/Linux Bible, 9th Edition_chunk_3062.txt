@@ -1,0 +1,40 @@
+In Fedora, RHEL, and others, the Apache web server comes in the httpd package.
+
+Understanding the httpd package
+To examine the httpd package in Fedora or RHEL before you install it, download the 
+ package using the yumdownloader command and run a few rpm commands on it to view 
+its contents:
+
+# yumdownloader httpd
+# rpm -qpi httpd-*rpm
+Name        : httpd
+Version     : 2.4.10
+Release     : 1.fc20
+
+450
+
+c17.indd  04/01/2015  Page 451
+
+Chapter 17: Confi guring a Web Server
+
+Architecture: x86_64
+Install Date: (not installed)
+Group       : System Environment/Daemons
+Size        : 3950241
+License     : ASL 2.0
+Signature   : RSA/SHA256, Wed 23 Jul 2014 09:23:23 AM EDT, Key 
+   ID 2eb161fa246110c1
+Source RPM  : httpd-2.4.10-1.fc20.src.rpm
+Build Date  : Wed 23 Jul 2014 06:32:07 AM EDT
+Build Host  : buildvm-22.phx2.fedoraproject.org
+Relocations : (not relocatable)
+Packager    : Fedora Project
+Vendor      : Fedora Project
+URL         : http://httpd.apache.org/
+Summary     : Apache HTTP Server
+Description :
+The Apache HTTP Server is a powerful, efficient, and extensible
+web server.
+
+The yumdownloader command downloads the latest version of the httpd package to 
+the current directory.

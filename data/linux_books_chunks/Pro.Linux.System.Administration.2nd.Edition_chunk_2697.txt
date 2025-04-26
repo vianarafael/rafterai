@@ -1,0 +1,5 @@
+It also means that if we want to change the IP address that is assigned to the host, but 
+don’t want to change its hostname, we only need to update the DNS zone file and not the DHCP server as 
+well.
+
+subnet ...

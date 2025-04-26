@@ -1,0 +1,41 @@
+Below is the list
+for the tmux package.
+
+root@debian6:~# dpkg -L tmux
+/.
+/etc
+/etc/init.d
+/etc/init.d/tmux-cleanup
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/tmux
+/usr/share/doc
+
+230
+
+package management
+
+/usr/share/doc/tmux
+/usr/share/doc/tmux/TODO.gz
+/usr/share/doc/tmux/FAQ.gz
+/usr/share/doc/tmux/changelog.Debian.gz
+/usr/share/doc/tmux/NEWS.Debian.gz
+/usr/share/doc/tmux/changelog.gz
+/usr/share/doc/tmux/copyright
+/usr/share/doc/tmux/examples
+/usr/share/doc/tmux/examples/tmux.vim.gz
+/usr/share/doc/tmux/examples/h-boetes.conf
+/usr/share/doc/tmux/examples/n-marriott.conf
+/usr/share/doc/tmux/examples/screen-keys.conf
+/usr/share/doc/tmux/examples/t-williams.conf
+/usr/share/doc/tmux/examples/vim-keys.conf
+/usr/share/doc/tmux/NOTES
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man1/tmux.1.gz
+/usr/bin
+/usr/bin/tmux
+
+20.2.6.

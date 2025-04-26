@@ -1,0 +1,9 @@
+Then I use parentheses to set NUM_FILES to the num-
+ber of ﬁ les in the current directory by piping (|) the output of the ls command to the 
+word count command (wc -l).
+
+MACHINE=`uname -n`
+NUM_FILES=$(/bin/ls | wc -l)
+
+Variables can also contain the value of other variables. This is useful when you have to 
+ preserve a value that will change so you can use it later in the script.

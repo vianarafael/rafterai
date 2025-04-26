@@ -1,0 +1,9 @@
+ro
+
+The ro option will mount a file system as read only, preventing anyone from writing.
+
+root@rhel53 ~# mount -t ext2 -o ro /dev/hdb1 /home/project42
+root@rhel53 ~# touch /home/project42/testwrite
+touch: cannot touch `/home/project42/testwrite': Read-only file system
+
+7.5.2.

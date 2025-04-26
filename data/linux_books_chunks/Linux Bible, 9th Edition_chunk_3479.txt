@@ -1,0 +1,4 @@
+Put a check mark next to any user you 
+want to allow to access this shared directory. Because I assigned ownership to chris 
+and left read/write permissions open to chris, the user chris can read from and write 
+to that directory via Samba.

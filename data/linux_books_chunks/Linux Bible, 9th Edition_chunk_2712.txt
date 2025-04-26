@@ -1,0 +1,8 @@
+In fact, there is even a runlevel signal that Upstart can emit.
+
+# man -k "event signal"
+control-alt-delete   (7) - ... console press of Control-Alt-Delete
+keyboard-request     (7) - ... console press of Alt-UpArrow
+power-status-changed (7) - ... change of power status
+runlevel             (7) - ... change of system runlevel
+started              (7) - ...

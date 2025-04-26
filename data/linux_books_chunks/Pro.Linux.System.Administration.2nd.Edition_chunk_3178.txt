@@ -1,0 +1,12 @@
+We’ve specified the . marker, and the server has responded by saying 
+that it has accepted the e-mail. Each e-mail is then submitted to a mail queue, processed, and sent on by 
+your server.
+
+You can now continue to send e-mails by repeating the MAIL FROM command, or you can disconnect 
+
+from the server using the QUIT command.
+
+QUIT
+221 2.0.0 Bye
+
+This is a simple scenario for sending e-mail.

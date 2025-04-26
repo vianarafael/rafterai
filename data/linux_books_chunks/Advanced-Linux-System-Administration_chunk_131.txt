@@ -1,0 +1,10 @@
+Boot from the CD and find the appropriate option (often called “rescue” or “boot an 
+existing system” )
+2. In most cases the root device for the existing system is automatically detected and 
+mounted on a subdirectory of the initiatial root device (in RAM)
+3. If the mount point is called /system it can become the root of the filesystem for our 
+current shell by typing:
+
+chroot /system    
+
+4.

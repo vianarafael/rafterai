@@ -1,0 +1,11 @@
+If we were using UEFI we would 
+
+have a different partition to install the boot loader into.
+
+You can also mount the root partition and execute a shell to fix other problems you might have, like 
+
+execute other types of disk repair and maintenance.
+
+You do that by choosing the following from the Rescue menu shown in Figure 9-11:
+
+Figure 9-11.

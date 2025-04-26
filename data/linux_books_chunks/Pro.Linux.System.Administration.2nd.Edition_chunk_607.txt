@@ -1,0 +1,7 @@
+You can recognize a directory with sticky permissions from the t in the execute position of the 
+Other class. Most frequently it is set on the /tmp directory:
+
+drwxrwxrwt 4 root root 4096 2016-08-15 03:10 tmp
+
+In octal notation, setuid/setgid and sticky permissions are represented by a fourth digit at the front of 
+the notation, for example, 6755.

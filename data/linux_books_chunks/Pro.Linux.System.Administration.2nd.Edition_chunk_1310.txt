@@ -1,0 +1,21 @@
+Let’s add that to device enp0s8.
+
+$ sudo ip addr add 192.168.10.1/24 dev enp0s8
+
+Looking at the result of $ sudo ip addr show enp0s8 we see that we have the following line added to 
+
+our output:
+
+    inet 192.168.10.1/24 scope global enp0s8
+
+225
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+This what we expect, but the status is still down, so we would now issue the following command:
+
+$ sudo ip link set dev enp0s8 up
+
+And on viewing the output of ip addr show enp0s8 again, it will now be in the UP state and ready to 
+
+send and receive traffic on the at interface.

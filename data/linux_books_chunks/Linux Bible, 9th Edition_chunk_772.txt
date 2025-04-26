@@ -1,0 +1,9 @@
+Using variables, ﬁ nd out what your hostname, username, shell, and home directo-
+
+ries are currently set to.
+
+9.  Create an alias called mypass that displays the contents of the /etc/passwd ﬁ le 
+on your screen in such a way that it is available every time you log in or open a 
+new shell from your user account.
+
+10.  Display the man page for the mount  system call.

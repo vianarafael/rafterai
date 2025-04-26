@@ -1,0 +1,16 @@
+If it 
+isn’t, you can install it on Fedora or RHEL with this command:
+
+26
+
+# yum install nfs-utils
+
+For Ubuntu and similar systems, type this:
+
+# apt-get install nfs-kernel-server
+
+Step 2: Configure NFS share
+To create an NFS share, you need to identify the directory to share and add information 
+about it to the /etc/exports ﬁ le. Follow these steps:
+
+a.  Create a directory.

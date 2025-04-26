@@ -1,0 +1,10 @@
+# po4a-translate
+
+
+- Convert a translated PO file back to a document:
+
+`po4a-translate --format {{text}} --master {{path/to/master.doc}} --po {{path/to/result.po}} --localized {{path/to/translated.txt}}`
+
+- List all available formats:
+
+`po4a-translate --help-format`

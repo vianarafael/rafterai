@@ -1,0 +1,7 @@
+Audits 
+assist in ensuring that your Linux system is secured and the proper security policies and 
+practices are in place.
+
+You have completed your ﬁ rst step of gathering basic security procedures and principles 
+knowledge. It is not enough to just know the basics. You need to add advanced Linux secu-
+rity tools to your security toolbox.

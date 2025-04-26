@@ -1,0 +1,11 @@
+exit watch by pressing Ctrl+C.
+
+We’ll revisit RAID and show you how to deal with disk failures in the section “Recovering from Failure.” 
+
+For more information about md RAID on Linux, you can visit http://linux-raid.osdl.org/index.php/
+Linux_Raid.
+
+Next we’ll show you how to make use of these RAID devices without the need to partition them.
+
+Logical Volume Management
+We have seen how we can partition a disk and create different filesystems on them.

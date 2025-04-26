@@ -1,0 +1,9 @@
+these profiles are installed with their 
+relevant package, the clamd profile supplied with the clamav-daemon package.
+
+577
+
+Chapter 12 ■ Mail ServiCeS
+
+to create your own profile, you need to create a test plan, which is a plan that runs and executes the 
+process you are profiling. You then run the program with the aa-genprof command.

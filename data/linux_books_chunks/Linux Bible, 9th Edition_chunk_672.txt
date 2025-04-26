@@ -1,0 +1,16 @@
+(It may not work in all instances.)
+
+Alt+P
+
+Reverse search
+
+After you press these keys, you enter a string to do a reverse 
+search. Type a string and press Enter to see the most recent 
+command line that includes that string.
+
+Alt+N
+
+Forward search
+
+This is the same as the preceding function but for forward 
+search.

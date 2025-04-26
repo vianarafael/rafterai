@@ -1,0 +1,4 @@
+The hieradata directory will contain the Hiera database for variable lookups. The 
+manifest directory is where the Puppet looks for the site.pp file. This file is used to create the root of our 
+configuration. The modules directory is where we install Puppet modules. Modules are collections of Puppet 
+files that perform a specific set of tasks.

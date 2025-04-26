@@ -1,0 +1,24 @@
+These are some of the features of the Journald 
+log file:
+
+•	
+
+•	
+
+•	
+
+•	
+
+•	
+
+Log tampering can be detected and cannot easily be manually edited.
+
+Logs are indexes, making faster searching.
+
+Logs are in a structured format with well-defined fields.
+
+journald collects extra log metadata for each log message.
+
+Journald supports export formats (such as JSON).
+
+The logs are by default stored in system memory or a ring buffer and are not stored permanently.

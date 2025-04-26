@@ -1,0 +1,8 @@
+If you decide you don’t like the group of packages, you can remove 
+the entire group at once using the groupremove subcommand:
+
+# yum groupremove LXDE
+
+Maintaining your RPM package database and cache
+Several subcommands to yum can help you do maintenance tasks, such as check for prob-
+lems with your RPM database or clear out the cache.

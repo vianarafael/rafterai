@@ -1,0 +1,15 @@
+To add a Linux user named phil to your system and add a Linux password and 
+
+Samba password for phil, type the following as root user from a shell (be sure to 
+remember the passwords you set):
+
+# useradd phil
+# passwd phil
+New password: *******
+Retype new password: *******
+# smbpasswd -a phil
+New SMB password: *******
+Retype new SMB password: *******
+Added user phil.
+
+5.

@@ -1,0 +1,10 @@
+# wtf
+
+
+- Expand a given acronym:
+
+`wtf {{IMO}}`
+
+- Specify a computer related search type:
+
+`wtf -t {{comp}} {{WWW}}`

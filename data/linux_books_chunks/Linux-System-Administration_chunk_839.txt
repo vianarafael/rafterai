@@ -1,0 +1,16 @@
+On Solaris you can use
+mkfile instead of dd.
+
+root@RHELv4u4:~# dd if=/dev/zero of=/smallswapfile bs=1024 count=4096
+4096+0 records in
+4096+0 records out
+root@RHELv4u4:~# mkswap /smallswapfile 
+Setting up swapspace version 1, size = 4190 kB
+root@RHELv4u4:~# swapon /smallswapfile 
+root@RHELv4u4:~# cat /proc/swaps 
+Filename                          Type        Size    Used   Priority
+/dev/mapper/VolGroup00-LogVol01   partition   1048568 0      -1
+/dev/hda1                         partition   524120  0      -2
+/smallswapfile                    file        4088    0      -3
+
+18.2.4.

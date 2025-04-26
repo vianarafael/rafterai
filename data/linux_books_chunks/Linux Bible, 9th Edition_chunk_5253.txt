@@ -1,0 +1,3 @@
+Run this set of commands (as mjones) to create a directory named /tmp/mydir 
+and use ACLs to assign default permissions to it so that the adm user has read/
+write/execute permission to that directory and any ﬁ les or directories created in it.

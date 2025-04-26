@@ -1,0 +1,8 @@
+It sets the default prompt and may add one or more 
+aliases. Values in this fi le can be overridden by information in each 
+user’s ~/.bashrc fi le.
+
+This is used by each user to enter information that is specifi c to his or 
+her use of the shell. It is executed only once, when the user logs in. By 
+default, it sets a few environment variables and executes the user’s 
+.bashrc fi le.

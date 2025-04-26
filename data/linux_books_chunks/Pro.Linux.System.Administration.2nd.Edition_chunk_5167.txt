@@ -1,0 +1,5 @@
+You set up tools to collect your data, filter the “wheat from the chaff,” and then correlate that 
+remaining data to put the right pieces of information in front of you so you can provide an accurate analysis.
+
+Properly set up and managed tools can sort through the constant stream of data from the daily 
+operations of your hosts.

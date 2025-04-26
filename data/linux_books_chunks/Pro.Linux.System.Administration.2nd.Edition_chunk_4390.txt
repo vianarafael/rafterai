@@ -1,0 +1,3 @@
+This module allows 
+you to integrate your Google Authenticator with PAM to allow you to provide a token to authenticate users.
+We’ve updated the logging files to create new files for our mobile connection.

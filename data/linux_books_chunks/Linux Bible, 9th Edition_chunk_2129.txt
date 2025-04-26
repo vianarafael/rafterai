@@ -1,0 +1,20 @@
+Here’s how 
+to create a logical volume from some of the space in that volume group and then 
+check that the device for that logical volume exists:
+
+# lvcreate -n music -L 100M myvg0
+  Logical volume "music" created
+# ls /dev/mapper/myvg0*
+/dev/mapper/myvg0-music
+
+299
+
+ 
+ 
+ 
+ 
+c12.indd  04/01/2015  Page 300
+
+Part III: Becoming a Linux System Administrator
+
+5.

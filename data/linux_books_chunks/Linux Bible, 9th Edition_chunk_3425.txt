@@ -1,0 +1,13 @@
+In this case, the last few lines looked like this:
+
+# smbclient -L localhost
+    ...
+    Server         Comment
+    ---------      -------
+    FEDORA21       Samba Server Version 4.1.15
+    Workgroup      Master
+    ---------      -------
+    MYGROUP        FEDORA21
+
+You can see that the new NetBIOS server’s name is FEDORA21 and that it is the master 
+server for the workgroup.

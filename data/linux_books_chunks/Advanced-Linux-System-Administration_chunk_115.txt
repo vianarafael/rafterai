@@ -1,0 +1,15 @@
+Our script will be called printtotty10 and will 
+simply print the message given as an argument to /dev/tty10.
+
+/bin/printtotty10
+
+#!/bin/bash
+
+echo $1 > /dev/tty10
+
+1. One way to have the script started at a specific run level is to add a line in /etc/inittab 
+like
+
+pr10:3:once:/bin/printtotty10 “Printtotty was started in inittab”
+
+This is not always the best way to do this.

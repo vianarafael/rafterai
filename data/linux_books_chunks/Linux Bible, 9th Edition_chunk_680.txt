@@ -1,0 +1,6 @@
+Here is an example of a command line that includes pipes:
+
+$ cat /etc/passwd | sort | less
+
+This command lists the contents of the /etc/passwd ﬁ le and pipes the output to the 
+sort command.

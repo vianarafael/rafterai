@@ -1,0 +1,8 @@
+You create and edit existing crontabs with the crontab –e 
+
+command. If a crontab for your user does not exist already, this command creates a crontab file in /var/
+spool/cron/username.
+
+The syntax used in a user’s cron jobs is identical to that of the system crontab file you saw earlier, with 
+
+one difference. You can only specify the user field in the system crontab file.

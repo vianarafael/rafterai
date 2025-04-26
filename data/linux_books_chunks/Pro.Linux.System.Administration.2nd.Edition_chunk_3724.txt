@@ -1,0 +1,28 @@
+We want to prevent general access to the directories 
+
+and allow only defined users and groups.
+
+$ sudo chmod 0750 /data && sudo chmod 2750 /data/staff 
+&& sudo chmod 2770 –R /data/staff/sales
+
+We are now ready to use our Samba service.
+
+Required iptables Rules for Samba
+Samba 4 requires the following ports to be open in your firewall:
+
+•	 UDP protocol on ports 137 and 138 for NetBIOS name services
+
+•	
+
+•	
+
+TCP protocol on port 139 for NetBIOS sessions
+
+The Microsoft-dn TCP port 445 for the Samba server
+
+For Ubuntu we just need to add the following commands:
+
+$ sudo ufw allow samba
+$ sudo ufw allow bind9
+
+There are many ports that are listening with Samba.

@@ -1,0 +1,9 @@
+The home directory of bin is /bin.
+
+ ■ news—User could do administration of Internet news services, depending on how 
+you set permission for /var/spool/news and other news-related resources. The 
+home directory for news is /etc/news.
+
+ ■ rpc—User runs the remote procedure calls daemon (rpcbind), which is used to 
+
+receive calls for services on the host system.

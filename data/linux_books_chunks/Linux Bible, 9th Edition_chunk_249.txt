@@ -1,0 +1,4 @@
+See http://www.gnu.org.)
+
+Today, Linux can be described as an open source UNIX-like operating system that reﬂ ects 
+a combination of SVID, POSIX, and BSD compliance.

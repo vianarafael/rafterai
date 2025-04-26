@@ -1,0 +1,8 @@
+To prevent others from 
+using johndoe’s account, set his account’s maxlogins to 1.
+
+johndoe        hard    maxlogins           1
+
+The ﬁ nal step in limiting this resource is to ensure that the PAM module using limits.
+conf is included in one of the PAM system event conﬁ guration ﬁ les. The PAM module using 
+limits.conf is pam_limits.

@@ -1,0 +1,8 @@
+We can run the ls command (-c) to get a listing 
+of the netlogon share, again testing that we can list the netlogon share.
+
+$ smbclient //localhost/netlogon -UAdministrator -c 'ls'
+Enter Administrator's password:
+Domain=[EXAMPLE] OS=[Windows 6.1] Server=[Samba 4.3.9-Ubuntu]
+  .                                   D        0  Sat Sep 24 14:02:06 2016
+  ..

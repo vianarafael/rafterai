@@ -1,0 +1,6 @@
+By default, your system connects to the main 
+Fedora software repository and gives you access to hundreds of software applications.
+
+But although the Software window lets you download and install hundreds of applications 
+from the Fedora software repository, that repository actually contains tens of thousands 
+of software packages.

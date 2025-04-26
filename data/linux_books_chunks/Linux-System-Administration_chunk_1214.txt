@@ -1,0 +1,13 @@
+Actually lsmod only reads and reformats the output of /proc/modules.
+
+paul@laika:~$ cat /proc/modules | grep vm
+vmnet 36896 13 - Live 0xffffffff88b21000 (P)
+vmmon 194540 0 - Live 0xffffffff88af0000 (P)
+paul@laika:~$ lsmod | grep vm
+vmnet                  36896  13 
+vmmon                 194540  0 
+paul@laika:~$
+
+28.4.6. module dependencies
+
+Some modules depend on others.

@@ -1,0 +1,4 @@
+Every process has a parent process.
+
+When starting a new bash you can use echo to verify that the pid from before is the ppid
+of the new shell.

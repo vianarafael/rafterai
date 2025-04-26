@@ -1,0 +1,12 @@
+You can also see that it is disabled in Fedora and 
+
+18
+
+481
+
+       
+c18.indd  04/01/2015  Page 482
+
+Part IV: Becoming a Linux Server Administrator
+
+RHEL 7 and off at every runlevel for RHEL 6.

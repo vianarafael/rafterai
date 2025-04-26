@@ -1,0 +1,7 @@
+Here the number of bricks must be a multiple of the replica count. This 
+is a configuration for highly available file storage.
+
+•	
+
+Striped volume: For large files frequently accessed by many clients, this configuration 
+will store the large file in chunks (the same number of chunks as there are bricks).

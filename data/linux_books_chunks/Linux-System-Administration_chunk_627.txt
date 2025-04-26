@@ -1,0 +1,14 @@
+bios
+
+All Intel x86 computers will have a basic input/output system or bios to detect, identify
+and initialize hardware. The bios then goes looking for a boot device. This can be a floppy,
+hard disk, cdrom, network card or usb drive.
+
+During the bios you can see a message on the screen telling you which key (often Del or
+F2) to press to enter the bios setup.
+
+158
+
+bootloader
+
+14.1.3.

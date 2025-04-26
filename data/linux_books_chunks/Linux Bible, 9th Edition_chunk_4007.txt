@@ -1,0 +1,12 @@
+The SHR column shows memory that could potentially be shared 
+by other applications (such as libraries), and %MEM shows the percentage of total memory 
+consumed by each application.
+
+If you think that the system is reaching an out-of-memory state, here are a few things 
+to look for:
+
+ ■ The free space shown on the Mem line would be at or near zero.
+
+ ■ The used space shown on the Swap line would be nonzero and would continue to 
+
+grow.

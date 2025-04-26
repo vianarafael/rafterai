@@ -1,0 +1,2 @@
+Typing pwd shows that chris is logged in to the local host and that /home/chris is the 
+current directory.

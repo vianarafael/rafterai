@@ -1,0 +1,1 @@
+You can use the journalctl command to access the logs.

@@ -1,0 +1,10 @@
+binding on Debian/Ubuntu
+
+24.2.1. binding extra ip addresses
+
+The configuration of multiple ip addresses on the same network card is done in /etc/network/
+interfaces by adding eth0:x devices. Adding the netmask is mandatory.
+
+debian5:~# cat /etc/network/interfaces
+# This file describes the network interfaces available on your system
+# and how to activate them.

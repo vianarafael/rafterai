@@ -1,0 +1,12 @@
+Forcing an InnoDB Transaction Log Flush at Shutdown
+
+MariaDB [(none)]> SET GLOBAL innodb_fast_shutdown = 1;
+Query OK, 0 rows affected (0.00 sec)
+
+494
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+We can now shut down the MariaDB server, and it will flush all pending changes from the transaction 
+
+logs to the table files.

@@ -1,0 +1,3 @@
+The 
+ﬁ rst Boolean allows you to leave SELinux in Enforcing mode, but prevents SELinux from 
+restricting scripts the Samba server can run.

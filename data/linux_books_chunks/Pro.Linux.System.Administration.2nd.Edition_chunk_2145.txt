@@ -1,0 +1,4 @@
+this helps prevent partial changes being applied and avoids corruption in the 
+event of a system failure.
+
+our metaphor breaks down here, though.

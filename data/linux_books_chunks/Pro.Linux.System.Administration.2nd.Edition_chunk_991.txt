@@ -1,0 +1,12 @@
+The purpose of both BIOS and UEFI is to get your hardware ready and find the boot loader 
+to load your operating system.
+
+182
+
+Chapter 6 ■ Startup and ServiCeS
+
+MORE ON DISKS
+
+in previous chapters we have talked about partitioning disks and said that a disk is like a cake, in that 
+you can carve up slices, but how does that work? When you slice up your disk you create table on the 
+disk called the partition table.

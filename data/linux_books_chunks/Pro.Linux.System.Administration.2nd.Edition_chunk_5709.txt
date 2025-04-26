@@ -1,0 +1,24 @@
+You could do a similar thing with a package resource.
+
+class httpd {
+    package { 'httpd':
+        ensure => 'present',
+    }
+
+    service { 'httpd':
+        ensure => 'running',
+        enabled => true,
+        require => Package['httpd'],
+    }
+}
+
+Here the package resource, Package['httpd'], must be installed before the Service['httpd'] service 
+
+can be started.
+
+954
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+ ■ Tip 
+ We’ve also added the enabled attribute to the Service['http'] resource.

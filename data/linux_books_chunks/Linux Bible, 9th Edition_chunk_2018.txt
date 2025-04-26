@@ -1,0 +1,5 @@
+You also learned that authentication can be done by accessing centralized 
+LDAP servers.
+
+The next chapter introduces another basic topic needed by Linux system administrators: 
+how to manage disks.

@@ -1,0 +1,6 @@
+caching only server without forwarder
+
+A caching only server without forwarder will have to get information elsewhere. When it
+receives a query from a client, then it will consult one of the root servers. The root server
+will refer it to a tld server, which will refer it to another dns server. That last server might
+know the answer to the query, or may refer to yet another server.

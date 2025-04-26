@@ -1,0 +1,6 @@
+(Usually this ﬁ le is used just to store names of computers on your LAN or 
+small private network.)
+
+ ■ hosts.allow—Lists host computers that are allowed to use certain TCP/IP ser-
+
+vices from the local computer.

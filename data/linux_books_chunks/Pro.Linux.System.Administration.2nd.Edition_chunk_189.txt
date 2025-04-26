@@ -1,0 +1,12 @@
+Repositories are collections of packages and are 
+normally serviced via http:// servers either locally or on the Internet.
+
+We are not going to add anything to this screen, we are just going to exit via Done and now we can begin 
+
+our install.
+
+37
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-23.

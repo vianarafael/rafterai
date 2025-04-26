@@ -1,0 +1,8 @@
+We’ll describe how to do an unattended or 
+headless (without a monitor) installation in Chapter 19.
+
+We will also expand on the potential installation options in Chapter 8, when we look at installing 
+software on Linux, and in Chapter 19, when we examine methods of automating installations and builds.
+
+© Dennis Matotek, James Turnbull and Peter Lieverdink 2017
+D.

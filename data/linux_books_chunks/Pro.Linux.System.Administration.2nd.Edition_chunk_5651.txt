@@ -1,0 +1,13 @@
+We can also specify this in the 
+main section of the /etc/puppetlabs/puppet/puppet.conf configuration file on the client.
+
+ [main]
+server=puppet.example.com
+
+944
+
+Chapter 19 ■ CoNfiguratioN MaNageMeNt
+
+The --test option runs the Puppet client in the foreground and prevents it from running as a daemon, 
+
+which is the default behavior.

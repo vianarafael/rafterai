@@ -1,0 +1,7 @@
+To set the 
+ system’s hostname, rc.sysinit uses the value of the HOSTNAME= in the 
+/etc/sysconfig/network ﬁ le. If that is not set, the name localhost is used 
+instead. The hostname value can also be acquired from the DHCP server.
+
+ ■ Cannot decrypt ﬁ lesystem—The rc.sysinit script looks in the /etc/crypttab 
+ﬁ le for information needed to decrypt encrypted ﬁ lesystems.

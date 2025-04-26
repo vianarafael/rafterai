@@ -1,0 +1,8 @@
+the Linux filesystem tools use the 1,024 factor, so if you purchase a 500 gB disk, its size will always be 
+less than 500 giB when viewed via Linux.
+
+For more information, see http://en.wikipedia.org/wiki/Gigabyte.
+
+Filesystems
+You’ve now created partitions, but you have not yet prepared them for use. The next thing you need to do is 
+create a filesystem.

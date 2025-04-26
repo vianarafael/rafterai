@@ -1,0 +1,18 @@
+Both Debian 7.0 (Wheezy) and Ubuntu
+12.04 (Precise) use version 3.6.3 of the Samba server.
+
+root@debian7~# aptitude show samba | grep Version
+Version: 2:3.6.3-1
+
+Ubuntu 12.04 is currently at Samba version 3.6.3.
+
+root@ubu1204:~# dpkg -l samba | tail -1
+ii samba 2:3.6.3-2ubuntu2.1 SMB/CIFS file, print, and login server for Unix
+
+195
+
+introduction to samba
+
+15.2. installing samba
+
+15.2.1.

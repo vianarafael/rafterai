@@ -1,0 +1,3 @@
+The file name is the inode number that 
+the data is associated with. Although this doesn’t tell you which files are no longer where they should be, you 
+can inspect these numbered files manually and get some sense of which data might be missing.

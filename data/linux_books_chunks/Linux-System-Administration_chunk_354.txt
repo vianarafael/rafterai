@@ -1,0 +1,11 @@
+Another extensions to iso 9660 is joliet,
+which adds 64 unicode characters to the filename. The el torito standard extends iso 9660
+to be able to boot from CD-ROM's.
+
+6.2.7. udf
+
+Most optical media today (including cd's and dvd's) use udf, the Universal Disk Format.
+
+6.2.8. swap
+
+All things considered, swap is not a file system.

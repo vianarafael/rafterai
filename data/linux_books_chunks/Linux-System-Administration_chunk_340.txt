@@ -1,0 +1,13 @@
+Create a 400MB primary partition and two 300MB logical drives on a big disk.
+
+Choose one of the disks you added (this example uses /dev/sdb)
+
+fdisk /dev/sdb
+
+inside fdisk : n p 1 +400m enter --- n e 2 enter enter --- n l +300m (twice)
+
+6. Use df -h and fdisk -l to verify your work.
+
+fdisk -l ; df -h
+
+7. Compare the output again of fdisk and df.

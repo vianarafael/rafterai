@@ -1,0 +1,19 @@
+MAX_UPDATES_PER_SECOND and MAX_CREATES_PER_MINUTE are set to limit high disk I/O 
+contention.
+
+CACHE_WRITE_STRATEGY can have three possible settings.
+
+•	
+
+•	
+
+•	
+
+sorted (default): Data points are flushed to disk as an ordered list.
+
+max: Frequently updated data points are flushed to disk, and infrequent data points 
+will be flushed at shutdown or low disk I/O periods (if there are any).
+
+naive : Data points are flushed in an unordered list.
+
+There is further detail on these settings in comments of the carbon.conf file.

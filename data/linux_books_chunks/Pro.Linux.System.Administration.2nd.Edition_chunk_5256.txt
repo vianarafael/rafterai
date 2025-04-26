@@ -1,0 +1,13 @@
+Configuring index pattern
+
+Figure 18-3 shows all the fields and their associated types in the Logstash-* index. To change these, you 
+
+need to use the mappings API. We are not going to change anything here.
+
+873
+
+Chapter 18 ■ Logging and Monitoring
+
+Figure 18-3.  Index patterns 
+
+Figure 18-4 shows the Advanced Settings tab.

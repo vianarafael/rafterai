@@ -1,0 +1,10 @@
+This  example  shows  the  current  working
+directory for a couple of command line programs.
+
+[paul@RHEL65 ~]$ lsof -u paul | grep home
+bash    3302 paul  cwd    DIR  253,0     4096  788024 /home/paul
+lsof    3329 paul  cwd    DIR  253,0     4096  788024 /home/paul
+grep    3330 paul  cwd    DIR  253,0     4096  788024 /home/paul
+lsof    3331 paul  cwd    DIR  253,0     4096  788024 /home/paul
+
+The -u switch of lsof also supports the ^ character meaning 'not'.

@@ -1,0 +1,17 @@
+Let’s take a look at one now.
+
+---
+- hosts: ahostgroup
+  become: true
+  gather_facts: true
+  vars:
+    - akey: avalue
+  tasks:
+    - name: do something
+       module: module=arguments
+  handlers:
+  - name: a handler
+    module: module=arguments
+
+This is a basic playbook layout. We declare the key hosts and give it a value of the hosts we want to run 
+this on, either a group or an individual host.

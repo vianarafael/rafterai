@@ -1,0 +1,5 @@
+The global configuration file is /etc/ssh/ssh_config and the per-user file is .ssh/config in the user’s home 
+directory.
+
+The most basic client configuration directives allow you to define which username and port number 
+to use when you connect to a given host or all hosts.

@@ -1,0 +1,11 @@
+Displaying the package description
+
+To display more detailed package information, scroll to highlight the package name and press Enter, as 
+
+we have in Figure 8-16. You can now see information such as the dependencies, maintainer, and so on.
+
+324
+
+ChAPter 8 ■ PACkAge MAnAgeMent
+
+Figure 8-16.

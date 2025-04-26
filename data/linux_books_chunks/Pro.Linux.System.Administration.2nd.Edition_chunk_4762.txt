@@ -1,0 +1,6 @@
+To show you how to do that, we will first go 
+through installing the necessary software and then examine the files used in the configuration. The good 
+thing is that you should be able to use the authentication tools provided by your distribution to configure the 
+necessary files that make single sign-on work.
+
+We are going to need a modification to our access lists.

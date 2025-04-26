@@ -1,0 +1,7 @@
+I’ve come to that conclusion over more than a decade of teaching people to learn Linux. You 
+can’t just read a book; you can’t just listen to a lecture. You need someone to guide you and 
+
+you need to jump in and do it.
+
+In 1999, Wiley published my Red Hat Linux Bible. The book’s huge success gave me the opportunity 
+to become a full-time, independent Linux author.

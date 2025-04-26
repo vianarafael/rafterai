@@ -1,0 +1,5 @@
+The AUTHORITY SECTION tells us which nameservers are responsible for providing the DNS 
+information for www.google.com. The ADDITIONAL SECTION tells us what IP addresses the nameservers in the 
+AUTHORITY SECTION will resolve to.
+
+IN A indicates an Internet address (or relative record). IN NS indicates a nameserver record.

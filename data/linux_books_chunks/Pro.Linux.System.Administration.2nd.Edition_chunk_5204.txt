@@ -1,0 +1,5 @@
+This means that if the client does not 
+provide the server with a certificate, we will drop the connection immediately. This will make our system 
+more secure and drop unauthorized connections early.
+
+The output section describes where we will send the data after we have processed it.

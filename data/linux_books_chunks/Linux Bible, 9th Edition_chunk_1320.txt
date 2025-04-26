@@ -1,0 +1,11 @@
+For example, run httpd -t to check your Apache web server conﬁ guration before 
+starting your web server.
+
+183
+
+c08.indd  04/01/2015  Page 184
+
+Part III: Becoming a Linux System Administrator 
+
+Some text editors, such as the vim command (not vi), understand the structure of some types of confi guration 
+fi les.

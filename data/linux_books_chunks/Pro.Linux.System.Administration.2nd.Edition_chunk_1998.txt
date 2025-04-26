@@ -1,0 +1,3 @@
+to work around this, you can override the terminal size for dpkg, so it will display more 
+information, using an environment variable. to do this, prefix the command like so: $ COLUMnS=200 dpkg 
+-l '*linux-image*'.

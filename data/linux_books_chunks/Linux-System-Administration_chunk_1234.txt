@@ -1,0 +1,14 @@
+This command will end with telling you the location of the bzImage file (and with time info
+if you also specified the time command.
+
+Kernel: arch/i386/boot/bzImage is ready  (#1)
+
+real 13m59.573s
+user 1m22.631s
+sys 11m51.034s
+[root@RHEL52 linux-2.6.18.i686]#
+
+You can already copy this image to /boot with cp arch/i386/boot/bzImage /boot/vmlinuz-
+<kernel-version>.
+
+28.5.7.

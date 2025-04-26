@@ -1,0 +1,8 @@
+A comprehensive list of 
+available variables, with documentation, is available at https://www.kernel.org/doc/Documentation/
+sysctl/.
+
+Storage Devices
+In Chapter 9 you saw that in the event of a disk failure, the kernel needs to rebuild the RAID array once a 
+replacement disk is added. This task generates a lot of I/O and can degrade performance of other services 
+that the machine may be providing.

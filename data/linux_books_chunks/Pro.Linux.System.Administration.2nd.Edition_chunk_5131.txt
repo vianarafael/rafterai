@@ -1,0 +1,15 @@
+The mode 1 signifies that we will use TLS.
+
+855
+
+Chapter 18 ■ Logging and Monitoring
+
+The last line says that we will ship all facilities and priorities (*.*) to backup.example.com on port 6514. 
+
+You will now restart the rsyslog daemon.
+
+$ sudo systemctl restart rsyslog
+
+Configuring RELP Server
+
+Now we can configure our RELP server.

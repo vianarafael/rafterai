@@ -1,0 +1,18 @@
+Click Show All Jobs to see what print jobs are currently active from 
+any of the printers conﬁ gured for this server. Click Show Completed Jobs to see 
+information about jobs that are already printed.
+
+427
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c16.indd  04/01/2015  Page 428
+
+Part IV: Becoming a Linux Server Administrator
+
+ ■ Create a printer class.

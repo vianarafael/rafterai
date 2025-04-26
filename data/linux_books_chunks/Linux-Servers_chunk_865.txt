@@ -1,0 +1,9 @@
+This website is a frontend for an immense git server with
+over two and a half million users and almost five million projects (including Fedora, Linux
+kernel, Android, Ruby on Rails, Wine, X.org, VLC...)
+
+https://github.com/signup/free
+
+This account is free of charge, we will use it in the examples below.
+
+20.7.

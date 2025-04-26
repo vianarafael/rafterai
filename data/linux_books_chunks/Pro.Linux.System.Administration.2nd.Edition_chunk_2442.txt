@@ -1,0 +1,4 @@
+Finally, clockstats writes statistical information about the local clock to the log file.
+
+The filegen directive tells the daemon which file you want this statistical information written to and 
+how often the file needs to be changed.

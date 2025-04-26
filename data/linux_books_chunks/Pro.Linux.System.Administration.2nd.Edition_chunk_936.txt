@@ -1,0 +1,18 @@
+We have 
+
+added the content of Listing 5-18 to the sudoers file.
+
+175
+
+Chapter 5 ■ Users and GroUps
+
+Listing 5-18.  Sample sudoers
+
+ataylor ALL=/bin/userdel
+
+We can break down this line into its component parts.
+
+username host = command
+
+Listing 5-18 shows the user ataylor is allowed, on all hosts (using the variable ALL), to use the 
+command /bin/userdel as if she were the root user.

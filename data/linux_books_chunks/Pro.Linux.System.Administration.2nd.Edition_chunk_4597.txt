@@ -1,0 +1,6 @@
+It is important to keep the sensitive access 
+control lists at the top so that they are not overridden by a higher entry.
+
+In this section, we have restricted access to the users’ password information, stored in the attributes 
+
+userPassword, shadowLastChange, entry, and member throughout the DIT.

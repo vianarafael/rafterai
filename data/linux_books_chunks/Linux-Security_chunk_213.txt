@@ -1,0 +1,22 @@
+It also adds $HOME/bin to the $PATH variable.
+
+[root@rhel7 ~]# cat /home/paul/.bash_profile
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+[root@rhel7 ~]#
+
+30
+
+user profiles
+
+4.3.

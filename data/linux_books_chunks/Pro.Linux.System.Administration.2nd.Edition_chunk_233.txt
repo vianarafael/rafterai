@@ -1,0 +1,15 @@
+You will be 
+asked to verify that password.
+
+60
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Figure 2-51.  Entering the password for the new user
+
+We are next asked if we wish to encrypt the home directory for that user. This has the same implications 
+
+as disk encryption in CentOS. We are going to choose No here in Figure 2-52 in favor of doing a full disk 
+encryption in a few steps time.
+
+Figure 2-52.

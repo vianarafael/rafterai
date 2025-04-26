@@ -1,0 +1,6 @@
+Plug-ins are written in Ruby, and you can create input, codec, filter, and output plug-ins to 
+suit your needs if you cannot find any existing plug-ins.
+
+Input plug-ins, as the name suggests, handles the ingestion of data into Logstash. Codec plug-ins are 
+
+used to change the data representation of an event or stream filter.

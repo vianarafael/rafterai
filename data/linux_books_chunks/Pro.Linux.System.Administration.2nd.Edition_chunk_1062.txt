@@ -1,0 +1,9 @@
+it is a great exercise to compile your own kernel just to see 
+what the options are and how that works.
+
+191
+
+Chapter 6 ■ Startup and ServiCeS
+
+We generally recommend that you stick with the stock kernel provided by your distribution and only 
+compile your own kernel for your own fun or if you really need to for some specific functionality.

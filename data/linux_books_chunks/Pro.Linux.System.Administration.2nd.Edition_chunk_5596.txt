@@ -1,0 +1,6 @@
+■ Tip 
+You can see it here: https://docs.puppet.com/guides/style_guide.html.
+
+The resource type tells Puppet what kind of resource you are managing—for example, the user and 
+
+file types are used for managing user and file operations on your nodes, respectively.

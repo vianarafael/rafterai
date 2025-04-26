@@ -1,0 +1,13 @@
+getenforce
+
+Use getenforce to verify whether selinux is enforced, disabled or permissive.
+
+[root@rhel55 ~]# getenforce 
+Permissive
+
+The /selinux/enforce file contains 1 when enforcing, and 0 when permissive mode is active.
+
+root@fedora13 ~# cat /selinux/enforce 
+1root@fedora13 ~#
+
+19.5.

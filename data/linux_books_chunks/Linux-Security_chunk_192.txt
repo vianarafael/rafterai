@@ -1,0 +1,6 @@
+disabling a password
+
+Passwords in /etc/shadow cannot begin with an exclamation mark. When the second field
+in /etc/passwd starts with an exclamation mark, then the password can not be used.
+
+Using this feature is often called locking, disabling, or suspending a user account.

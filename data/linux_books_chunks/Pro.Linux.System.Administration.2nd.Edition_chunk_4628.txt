@@ -1,0 +1,4 @@
+As mentioned previously, the configuration engine enables the SLAPD 
+configuration to be changed on the fly using LDIF syntax and LDAP commands.
+
+The other way is to load in a slapd.conf file that has the older style directives.

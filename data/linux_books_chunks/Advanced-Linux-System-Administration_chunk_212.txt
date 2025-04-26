@@ -1,0 +1,3 @@
+The El Torito specification adds such a descriptor called a “Boot Record”.
+
+The “Boot Record” points to a “Boot Catalog” which can contain a list of boot entries.

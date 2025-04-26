@@ -1,0 +1,13 @@
+Have your users create their own public_html directories in their own home 
+
+directories.
+
+$ mkdir $HOME/public_html
+
+4.  Set the execute permission (as root user) to allow the httpd daemon to access 
+
+the home directory:
+
+# chmod +x /home /home/*
+
+5.

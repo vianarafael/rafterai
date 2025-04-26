@@ -1,0 +1,5 @@
+Here we determine the 
+certname, which will be the common name specified in the TLS certificate that we will generate on startup. 
+This is related to the dns_alt_names setting that provides alternative DNS names that agents can use to 
+verify the Puppet master. The server = puppet is the name of the Puppet master this Puppet agent will try 
+to connect to.

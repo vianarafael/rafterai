@@ -1,0 +1,7 @@
+You may 
+be used to a graphical environment in which you have lots of programs active at the 
+same time so you can switch among them as needed. This shell thing can seem pretty 
+limited.
+
+Although the bash shell doesn’t include a GUI for running many programs at once, it does 
+let you move active programs between the background and foreground.

@@ -1,0 +1,10 @@
+There 
+are two major facilities for managing services: systemd (used now by RHEL 7, Ubuntu, and 
+Fedora) and SystemVinit scripts (used by Red Hat Enterprise Linux  through RHEL 6.x).
+
+13
+
+Regardless of which facility is used on your Linux system, it is your job to do such things 
+as set whether you want the service to come up when the system boots and to start, stop, 
+and reload the service as needed (possibly to load new conﬁ guration ﬁ les or temporarily 
+stop access to the service).

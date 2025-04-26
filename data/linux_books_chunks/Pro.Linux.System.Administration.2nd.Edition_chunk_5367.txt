@@ -1,0 +1,4 @@
+The first of these new attributes, normal_check_interval, specifies how often Nagios 
+should check that the service is OK, in this case every 5 minutes. The second new attribute, retry_check_
+interval, is related. If, when checking the service, Nagios discovers that the service is not OK, it retries the 
+check the number of times specified in the max_check_attempts attribute.

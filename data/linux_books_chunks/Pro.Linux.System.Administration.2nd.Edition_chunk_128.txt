@@ -1,0 +1,2 @@
+But a Btrfs “subvolume” is not the same as a logical 
+volume in LVM and has features and limitations that LVM does not.

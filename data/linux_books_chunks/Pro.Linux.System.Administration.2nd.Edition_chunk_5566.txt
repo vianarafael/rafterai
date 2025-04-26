@@ -1,0 +1,7 @@
+Any prerun script is specified at the 
+end of the Kickstart file and prefixed with the line %pre.
+
+Each %post and %pre section must have a corresponding %end.
+The postrun scripts are triggered after your configuration is complete and your host is installed. They 
+
+should also be specified at the end of the Kickstart file and prefixed by a %post line.

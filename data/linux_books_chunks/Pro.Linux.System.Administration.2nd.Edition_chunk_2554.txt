@@ -1,0 +1,4 @@
+You can override this for individual files by specifying a full system 
+path starting with /.
+
+Forwarders are what named calls upstream DNS servers.

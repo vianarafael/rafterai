@@ -1,0 +1,3 @@
+Sometimes it is also good to keep this somewhere offsite (as you would with offsite backups) 
+so that if something happens to your site, you will not only be able to restore your data, but also have the right 
+passwords handy to access your host.

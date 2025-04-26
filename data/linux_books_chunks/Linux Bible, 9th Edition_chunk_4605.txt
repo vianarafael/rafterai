@@ -1,0 +1,8 @@
+It allows ﬂ exibility in testing out new programs 
+on your Linux system.
+
+Managing SELinux policy rule packages
+Policy rules are the rules used by SELinux to determine whether a subject has access to 
+an object. They are grouped into packages, also called modules, and are installed with 
+SELinux. An easy way to view the modules on your system is to use the semodule -l com-
+mand.

@@ -1,0 +1,39 @@
+From another system on your network (Windows or Linux), try to open the homes 
+share again as the user ph il and again make sure you can drag and drop ﬁ les to i t.
+
+526
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+c20.indd  04/01/2015  Page 527
+
+Confi guring an NFS File Server
+
+C H A P T E R 
+
+20
+
+IN THIS CHAPTER
+
+Getting NFS server software
+
+Enabling and starting NFS
+
+Exporting NFS directories
+
+Setting security features for NFS
+
+Mounting remote NFS shared directories
+
+I nstead of representing storage devices as drive letters (A, B, C, and so on), as they are in 
+
+Microsoft operating systems, Linux systems invisibly connect ﬁ lesystems from multiple hard 
+disks, ﬂ oppy disks, CD-ROMs, and other local devices to form a single Linux ﬁ lesystem.

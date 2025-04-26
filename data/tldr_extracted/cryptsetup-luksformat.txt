@@ -1,0 +1,14 @@
+# cryptsetup luksFormat
+
+
+- Initialize a LUKS volume with a passphrase:
+
+`cryptsetup luksFormat {{/dev/sdXY}}`
+
+- Initialize a LUKS volume with a keyfile:
+
+`cryptsetup luksFormat {{/dev/sdXY}} {{path/to/keyfile}}`
+
+- Initialize a LUKS volume with a passphrase and set its label:
+
+`cryptsetup luksFormat --label {{label}} {{/dev/sdXY}}`

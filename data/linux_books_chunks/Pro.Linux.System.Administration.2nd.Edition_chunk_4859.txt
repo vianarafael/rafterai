@@ -1,0 +1,9 @@
+Each line consists of sets of numbers in six groups, which provide information on processes, 
+memory, swap, input/output, system, and CPU.
+
+Reduced performance due to excessive swap space usage will show up in two of these groups: swap 
+
+and cpu.
+
+The si and so columns in the swap group display the amount of swap memory that is being read from 
+(si—swap in) and written to (so—swap out) your swap space.

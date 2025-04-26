@@ -1,0 +1,6 @@
+Regular users typically can control the ﬁ les and 
+directories within their own home directories, but very little outside those directories.
+
+In this chapter, you learned how to add user and group accounts, how to modify them, and 
+even how to extend user and group accounts beyond the boundaries of the local /etc/
+password ﬁ le.

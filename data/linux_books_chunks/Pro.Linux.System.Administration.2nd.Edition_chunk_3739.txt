@@ -1,0 +1,7 @@
+From our 
+user session on the local Linux server, we can then provide our credentials to the kernel, and it will allow us 
+to access the share with those credentials.
+
+On the local Linux server we are going to mount /data/sales as the sharedcreds user (a user that does 
+
+not exist on the local Linux server).

@@ -1,0 +1,4 @@
+We’ve also added the --body option to specify the contents of our 
+e-mail. In this case, we’re using a sample spam e-mail provided with the SpamAssassin package. The e-mail 
+is located in the /usr/share/doc/spamassassin-<version>/ directory (substitute your SpamAssassin 
+version for version, for example, 3.4.0).

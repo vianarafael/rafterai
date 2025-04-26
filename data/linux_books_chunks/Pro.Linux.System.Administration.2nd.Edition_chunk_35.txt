@@ -1,0 +1,6 @@
+These costs provide you with 
+technical support and any needed patches or updates to the distribution.
+
+Red Hat used to be run by a community of volunteers too until the distribution became so important 
+to the technical infrastructure of commercial organizations that people were happy to pay for guaranteed 
+support.

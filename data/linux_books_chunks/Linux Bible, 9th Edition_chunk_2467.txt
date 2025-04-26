@@ -1,0 +1,7 @@
+For example, an IP address of 
+192.168.0.100 and subnet mask of 255.255.255.0 tells the client that the network 
+is 192.168.0 and the host part is 100.
+
+ ■ Lease time—When an IP address is dynamically allocated to the DHCP client 
+
+(Linux system), that client is assigned a lease time.

@@ -1,0 +1,6 @@
+We will also explain what all those IP addresses are for and how we can block and move from 
+one network to another.
+
+In this chapter, we will show you how to configure elements of our example network. We will configure 
+
+a firewall/router host we’re going to call gateway.example.com.

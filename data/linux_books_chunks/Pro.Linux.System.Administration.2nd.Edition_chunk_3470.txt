@@ -1,0 +1,7 @@
+You 
+can also join the active mailing list at http://wiki.apache.org/spamassassin/MailingLists, and you can 
+submit bugs at https://issues.apache.org/SpamAssassin/index.cgi.
+
+You can increase the debug level of spamd by adding a -D to the spamd daemon options we described 
+
+earlier.

@@ -1,0 +1,14 @@
+Each of these configuration blocks starts with a Host 
+directive, which is followed by a hostname or a shortened alias if the section should apply to a single host 
+only, or an asterisk if it should apply to all hosts.
+
+For instance, we can easily customize our connection options for the bastion host by adding the 
+
+following snippet to our .ssh/config file.
+
+Host gateway
+    Hostname au-mel-centos-1
+    Port 2022
+    User ataylor
+
+This configuration is used each time we use the ssh gateway command.

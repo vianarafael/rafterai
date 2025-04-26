@@ -1,0 +1,9 @@
+If you don’t 
+select a profile to be installed, Cobbler will automatically launch the first item on the menu (local), which 
+continues the boot process on the localhost.
+
+ ■ Note 
+
+ if you don’t have an operating system installed on this host, the local boot process will obviously fail.
+
+We will select CentOS7-x86_64, which will automatically install CentOS onto our host.

@@ -1,0 +1,7 @@
+The final two numbers control how many subdirectories Squid will create in 
+the main cache directory. In this case, it will create 16 main subdirectories, each containing another 256 
+subdirectories.
+
+This subdirectory schema came about because most filesystems are quite slow at accessing directories 
+
+containing a large number of files.

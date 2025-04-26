@@ -1,0 +1,7 @@
+~/.bash_profile
+
+When this file exists in the home directory, then bash will source it. On Debian Linux 5/6/7
+this file does not exist by default.
+
+RHEL7/CentOS7  uses  a  small  ~/.bash_profile  where  it  checks  for  the  existence  of
+~/.bashrc and then sources it.

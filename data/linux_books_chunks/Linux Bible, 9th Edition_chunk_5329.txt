@@ -1,0 +1,10 @@
+Restart the httpd service:
+
+# systemctl restart httpd.service
+
+8.  To use a web browser to create an HTTPS connection to your web server and view 
+
+the contents of the certiﬁ cate you created, do the following:
+
+From the system running the Apache server, type https://localhost in the 
+browser’s location box.

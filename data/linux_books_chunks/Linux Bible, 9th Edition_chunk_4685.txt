@@ -1,0 +1,12 @@
+This would only unnecessarily expose your print server to any 
+ malicious attacks that take advantage of web service vulnerabilities.
+
+700
+
+c25.indd  04/02/2015  Page 701
+
+Chapter 25: Securing Linux on a Network
+
+Evaluating access to network services with nmap
+A wonderful tool to help you review your network services from a network standpoint is the 
+nmap security scanner.

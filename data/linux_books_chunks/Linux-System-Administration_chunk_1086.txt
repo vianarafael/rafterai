@@ -1,0 +1,5 @@
+Firstly the connection is encrypted and secondly
+the connection is authenticated both ways.
+
+An ssh connection always starts with a cryptographic handshake, followed by encryption of
+the transport layer using a symmetric cypher.

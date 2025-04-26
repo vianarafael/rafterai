@@ -1,0 +1,19 @@
+We can cater for these kinds 
+of differences in our host file by adding the following variable declaration:
+
+[all_ubuntu:vars]
+ansible_user=ubuntu
+
+[all_centos:vars]
+ansible_user=vagrant
+
+You will notice that hosts in the [dbs] group have not been declared as either Ubuntu or CentOS, so we 
+
+can manage those hosts with this similar declaration.
+
+[dbs]
+db.example.com ansible_user=vagrant
+
+We may also want particular hosts to be reached via a particular jumphost (sometimes called a bastion 
+
+or proxy).

@@ -1,0 +1,10 @@
+this means that even when you use the adduser 
+command, the default useradd options you configure in /etc/default/useradd are still honored.
+
+You can also use the adduser script to quickly add a user to a group, by running this:
+
+$ sudo adduser username groupname
+
+Both the user and group need to already exist on the host.
+
+the adduser and addgroup scripts themselves can also be configured via the /etc/adduser.conf file.

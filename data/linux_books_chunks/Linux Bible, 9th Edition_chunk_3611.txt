@@ -1,0 +1,7 @@
+Here are some methods of setting user permissions and the /etc/exports option 
+that you use for each method:
+
+ ■ root user—The client’s root user is mapped by default into the nfsnobody 
+
+ username (UID 65534). This prevents a client computer’s root user from being able 
+to change all ﬁ les and directories in the shared ﬁ lesystem.

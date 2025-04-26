@@ -1,0 +1,8 @@
+To make 
+
+it a true trusted certificate, we just remove –test-cert from our certbot command and add our e-mail 
+address again, and we will have a working certificate (Figure 11-20).
+
+$ sudo certbot -d cido.cloud.ownenergy.com.au
+
+Figure 11-20.

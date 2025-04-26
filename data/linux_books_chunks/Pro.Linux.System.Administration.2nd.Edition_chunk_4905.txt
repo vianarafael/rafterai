@@ -1,0 +1,33 @@
+We want to collect 
+
+metrics for each network interface except the localhost or loopback interface.
+
+<Plugin load>
+    ReportRelative true
+</Plugin>
+
+<Plugin memory>
+    ValuesAbsolute true
+    ValuesPercentage false
+</Plugin>
+
+The previous are the defaults for memory and load and are similar to other system metrics we are 
+
+gathering.
+
+<Plugin mysql>
+    <Database no_db>
+        Host "localhost"
+        Port "3306"
+        User “monitor"
+        Password “monitorpasswd"
+        ConnectTimeout 10
+        InnodbStats true
+    </Database>
+</Plugin>
+
+813
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+The mysql plug-in will work just as good with our MariaDB server.

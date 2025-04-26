@@ -1,0 +1,3 @@
+Notice also in the preceding example that although the cups service is now dis-
+abled, the cups daemon is still active (running). With systemd, some services cannot be 
+disabled. These services are static services.

@@ -1,0 +1,7 @@
+To 
+start the new service before a reboot, review the commands in the “Stopping and Starting 
+Services” section.
+
+Summary
+How you start and stop services is dependent upon what initialization daemon is used by 
+your Linux server: SysVinit, Upstart, or Systemd.

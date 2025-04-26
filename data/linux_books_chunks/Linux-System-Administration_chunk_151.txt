@@ -1,0 +1,18 @@
+pgrep
+
+Similar to the ps -C, you can also use pgrep to search for a process by its command name.
+
+[paul@RHEL5 ~]$ sleep 1000 &
+[1] 32558
+[paul@RHEL5 ~]$ pgrep sleep
+32558
+[paul@RHEL5 ~]$ ps -C sleep
+  PID TTY          TIME CMD
+32558 pts/3    00:00:00 sleep
+
+You can also list the command name of the process with pgrep.
+
+paul@laika:~$ pgrep -l sleep
+9661 sleep
+
+1.2.8.

@@ -1,0 +1,11 @@
+While labeling 
+devices can also serve this purpose, UUIds are less likely to have naming collisions.
+
+you can read more about them at http://en.wikipedia.org/wiki/Universally_Unique_Identifier .
+
+369
+
+Chapter 9 ■ Storage ManageMent and dISaSter reCovery 
+
+Creating an Ext4 Partition
+For your data partitions, start with the other new 2 GiB /dev/sdb2 partition.

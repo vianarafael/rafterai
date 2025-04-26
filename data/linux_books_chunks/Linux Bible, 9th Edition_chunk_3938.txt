@@ -1,0 +1,14 @@
+For example, this command 
+shows each hop taken en route to http://www.google.com:
+
+575
+
+c21.indd  04/01/2015  Page 576
+
+Part IV: Becoming a Linux Server Administrator
+
+# traceroute www.google.com
+
+The output shows the time taken to make each hop along the way to the Google site. 
+Instead of traceroute, you can use the mtr command (yum install mtr) to watch the 
+route taken to a host.

@@ -1,0 +1,8 @@
+Chapter 21 covers a wide range of 
+desktop and server topics as it helps you understand techniques for troubleshooting your 
+Linux system.
+
+Exercises
+Exercises in this section take you through tasks related to conﬁ guring and using an NFS 
+server in Linux. If possible, have two Linux systems available that are connected on a local 
+network.

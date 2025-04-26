@@ -1,0 +1,5 @@
+Most of the Fedora and RHEL 
+tools that launch from the command line begin with the system-config string (such as 
+system-config-network).
+
+These system-config tools require root permission.

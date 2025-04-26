@@ -1,0 +1,10 @@
+To see if this ﬁ rewall service is running, 
+type service iptables status at the command line.
+
+ ■ To enable the ﬁ rewall, type service iptables start at the command line.
+
+ ■ To disable the ﬁ rewall, type service iptables stop at the command line.
+
+ ■ RHEL 7 and recent Fedora systems netfilter/iptables firewall—The ﬁ rewall 
+
+interface service running on these distributions is firewalld.

@@ -1,0 +1,11 @@
+Nagios uses Apache’s basic HTTP authentication to protect the console. When you open the 
+console, you will be prompted for a username and password, as you can see in Figure 18-9.
+
+Figure 18-9.  Nagios authentication
+
+901
+
+Chapter 18 ■ Logging and Monitoring
+
+Apache basic authentication is configured by specifying a file holding usernames and passwords to 
+the web server.

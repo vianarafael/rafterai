@@ -1,0 +1,20 @@
+It takes the following form:
+
+<owner> <question name> <question type> <value>
+
+So something like setting the locale for your system would look something like this:
+
+d-i debian-installer/locale string en
+
+The owner is the debian-installer, the question is debian-installer/locale, the type is string, and 
+
+the value is en, or English.
+
+Installation Source
+
+Cobbler is selected as the initial installation source via the live-installer question.
+
+d-i live-installer/net-image string http://$http_server/cobbler/links/$distro_name/install/
+filesystem.squashfs
+
+During the install, you can set up your apt repositories.

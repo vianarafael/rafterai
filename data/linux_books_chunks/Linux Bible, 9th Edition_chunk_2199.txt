@@ -1,0 +1,11 @@
+To unmount a 
+remote NFS ﬁ lesystem that’s no longer available (for example, the server went down), you 
+can use the umount -f option to forcibly unmount the NFS ﬁ lesystem.
+
+309
+
+c12.indd  04/01/2015  Page 310
+
+Part III: Becoming a Linux System Administrator
+
+A useful tool for discovering what’s holding open a device you want to unmount is the lsof command.

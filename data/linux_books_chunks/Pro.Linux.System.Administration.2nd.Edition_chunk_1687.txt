@@ -1,0 +1,3 @@
+This means that any connection that 
+has completed the handshake and has become ‘established’ or any connections ‘relating’ to an existing 
+connection are allowed.

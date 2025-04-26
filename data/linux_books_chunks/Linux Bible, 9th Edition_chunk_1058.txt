@@ -1,0 +1,6 @@
+If 
+you just want to display processes, and possibly kill or change your own processes, you can 
+do that as a regular user. Figure 6.1 shows an example of the top window:
+
+General information about your system appears at the top of the top output, followed by 
+information about each running process (or at least as many as will ﬁ t on your screen).

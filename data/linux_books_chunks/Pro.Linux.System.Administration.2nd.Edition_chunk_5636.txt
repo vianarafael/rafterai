@@ -1,0 +1,7 @@
+Individual companies will have different 
+implementations based on practices that work best for their companies. For a greater discussion of the Role 
+and Profile pattern, see https://www.youtube.com/watch?v=RYMNmfM6UHw.
+
+We’ll continue our configuration by defining our site.pp file, as shown in Listing 19-6.
+
+Listing 19-6.

@@ -1,0 +1,34 @@
+Here are a few things you 
+should know about adding address aliases:
+
+ ■ A Netmask is required for each address, but a gateway is not required.
+
+ ■ The Apply button stays grayed out until you include valid information in the ﬁ elds.
+
+ ■ The new address does not have to be on the same subnetwork as the original 
+address, although it is listening for trafﬁ c on the same physical network.
+
+356
+
+ 
+c14.indd  04/01/2015  Page 357
+
+Chapter 14: Administering Networking
+
+After adding the address 192.168.99.1 to my wired interface, running ip addr show 
+p4p1 displays the following indication of the two IP addresses on the interface:
+
+2: p4p1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 
+      qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:1b:21:0a:e8:5e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.0.187/24 brd 192.168.0.255 scope global p4p1
+       valid_lft forever preferred_lft forever
+    inet 192.168.99.1/24 brd 192.168.99.255 scope global p4p1
+       valid_lft forever preferred_lft forever
+
+For information on setting up aliases directly in conﬁ guration ﬁ les, refer to the section 
+“Setting alias network interfaces” later in this chapter.
+
+Setting routes
+When you request a connection to an IP address, your system looks through your routing 
+table to determine the path on which to connect to that address.

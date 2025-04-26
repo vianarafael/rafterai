@@ -1,0 +1,4 @@
+The security table 
+is used to ﬁ lter network packets using MAC rules (see Chapter 22). This table is 
+used with the filter table. The security table rules are applied only after the 
+rules in the filter table are applied.

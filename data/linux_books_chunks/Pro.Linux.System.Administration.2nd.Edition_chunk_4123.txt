@@ -1,0 +1,7 @@
+The differential backup will do a very 
+similar job as the incremental, but it will back up all files changed since the last full save. Let’s discuss that 
+a little more.
+
+Whenever a differential or incremental backup is performed, the Bareos File daemon clients will check 
+the file list for modified file timestamps and changed file timestamps and compare them to the previous full 
+backup.

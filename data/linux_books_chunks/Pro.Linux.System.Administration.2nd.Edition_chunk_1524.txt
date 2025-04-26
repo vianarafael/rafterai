@@ -1,0 +1,5 @@
+These are 
+devices with usually more than one interface or IP address network attached to it and can therefore pass on 
+the routing requests to hosts further along the routing path to the final destination. 
+
+Let’s compare that route table with the one for Host B.

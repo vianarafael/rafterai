@@ -1,0 +1,5 @@
+However, other types of attacks can occur to your ﬁ les, including viruses and rootkits.
+
+Detecting viruses and rootkits
+Two popular malicious attack tools are viruses and rootkits because they stay hidden while 
+performing their malicious activities.

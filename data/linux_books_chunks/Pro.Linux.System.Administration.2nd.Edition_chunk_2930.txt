@@ -1,0 +1,7 @@
+Up until version 5.5 of MariaDB, MariaDB 
+kept the same release number as MySQL. But recently it has changed its release number to be 10.x, which 
+can make things more confusing. The following Table 11-4 illustrates the versions.
+
+Chapter 11 ■ Web and SQL ServiCeS
+
+Table 11-4.

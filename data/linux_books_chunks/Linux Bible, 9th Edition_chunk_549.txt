@@ -1,0 +1,11 @@
+Move back and forth between the workspace with Firefox on it and the one with 
+
+the Nautilus ﬁ le manager.
+
+7.  Open a list of applications installed on your system, and select an image viewer to 
+
+open from that list. Use as few clicks or keystrokes as possible.
+
+8.  Change the view of the windows on your current workspace to smaller views of 
+
+those windows you can step through.

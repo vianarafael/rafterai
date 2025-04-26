@@ -1,0 +1,1 @@
+Finally, any configuration files in the user’s home directory are processed.

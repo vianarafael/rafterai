@@ -1,0 +1,6 @@
+actions
+
+The default action is to send a message to the username listed as action. When the action is
+prefixed with a / then rsyslog will send the message to the file (which can be a regular file,
+but also a printer or terminal). The @ sign prefix will send the message on to another syslog
+server.

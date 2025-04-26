@@ -1,0 +1,13 @@
+You can view the lists of appliances available at the following sites:
+
+•	
+
+•	
+
+https://solutionexchange.vmware.com/store/category_groups/virtual-
+appliances/: Virtual appliances for VMware
+
+http://stacklet.com/: Virtual appliances for Xen
+
+CentOS Server Installation
+Let’s start by installing a CentOS host.

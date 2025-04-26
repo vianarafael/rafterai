@@ -1,0 +1,7 @@
+Logstash 
+can ingest a wide variety of inputs and has a wide variety of outputs, one of those being the ability to write to 
+Elasticsearch.
+
+Logstash has a good selection of plug-ins that can help parse, filter, and transform your data, or you can 
+
+write your own.

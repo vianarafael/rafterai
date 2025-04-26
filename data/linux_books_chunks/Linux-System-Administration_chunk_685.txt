@@ -1,0 +1,35 @@
+Look at the PID's of the last two
+mingetty processes.
+
+[root@RHEL52 ~]# ps -C mingetty
+  PID TTY          TIME CMD
+ 2407 tty1     00:00:00 mingetty
+ 2408 tty2     00:00:00 mingetty
+ 2409 tty3     00:00:00 mingetty
+ 2410 tty4     00:00:00 mingetty
+ 2411 tty5     00:00:00 mingetty
+ 2412 tty6     00:00:00 mingetty
+
+When we kill the last two mingettys, then init will notice this and start them again (with
+a different PID).
+
+[root@RHEL52 ~]# kill 2411 2412
+[root@RHEL52 ~]# ps -C mingetty
+  PID TTY          TIME CMD
+ 2407 tty1     00:00:00 mingetty
+ 2408 tty2     00:00:00 mingetty
+ 2409 tty3     00:00:00 mingetty
+ 2410 tty4     00:00:00 mingetty
+ 2821 tty5     00:00:00 mingetty
+ 2824 tty6     00:00:00 mingetty
+
+174
+
+   
+   
+init and runlevels
+
+disabling a mingetty
+
+You can disable a mingetty for a certain tty by removing the runlevel from the second field
+in its line in /etc/inittab.

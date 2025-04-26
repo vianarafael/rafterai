@@ -1,0 +1,6 @@
+You see the smb: \> prompt after that.
+
+At this point, you have a session open to the Samba host that is similar to an lftp session 
+for traversing an FTP server. The lcd /etc command makes /etc the current directory 
+on the local system. The  put hosts command uploads the hosts ﬁ le from the local  system 
+to the shared directory. Typing ls shows that the ﬁ le exists on the server.

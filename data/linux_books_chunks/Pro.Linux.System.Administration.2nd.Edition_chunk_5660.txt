@@ -1,0 +1,18 @@
+On the Puppet master, we 
+need to add our profile module and add some configuration to apply to our client.
+
+A module should have the following structure:
+
+modulename/
+                    |- manifests
+                                      |- init.pp
+                    |- files
+                    |- templates
+
+At the least, you need the manifests directory; you may see other modules with more directories, like 
+
+spec and lib as well—for testing and module code, respectively.
+
+We have created the profile module directory in /etc/puppetlabs/code/environments/production/
+
+sites already.

@@ -1,0 +1,4 @@
+The Allow directive can be used to permit access to matching hosts, and the 
+Deny directive can be used to forbid it. Both of these options can occur more than once 
+within a block and are handled based on the Order setting. Setting Order to Deny,Allow 
+permits access to any host that is not listed in a Deny directive.

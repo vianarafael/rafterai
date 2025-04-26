@@ -1,0 +1,6 @@
+Click the Administration tab, choose Add Class, and iden-
+tify a name, description, and location for a printer class. From the list of Printers 
+(Members) conﬁ gured on your server, select the ones to go into this class.
+
+ ■ Cancel or move a print job. If you print a 100-page job by mistake or if the printer 
+is spewing out junk, the Cancel feature can be very handy.

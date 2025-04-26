@@ -1,0 +1,11 @@
+On the 
+right side you can see information about the ping response; also, you can see the last time they were checked 
+and how long they have been in that current state for.
+
+906
+
+In Figure 18-13 we show the Service Detail screen.
+
+Chapter 18 ■ Logging and Monitoring
+
+Figure 18-13.

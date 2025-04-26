@@ -1,0 +1,19 @@
+Now any LDAP user can sign into our hosts and have their home 
+directories created.
+
+We can further refine our sssd.conf file to filter for certain users, like only if they have exampleActive 
+
+set to TRUE.
+
+ldap_access_filter = (exampleActive=TRUE)
+
+If you are using the Ubuntu Unity desktop, you will need to make a change to the following file to allow 
+
+other users to log in from the desktop:
+
+/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf
+[Seat:*]
+greeter-session=unity-greeter
+greeter-show-manual-login=true
+
+This will allow you to see a screen like in Figure 16-11 after a reboot of your Ubuntu desktop.

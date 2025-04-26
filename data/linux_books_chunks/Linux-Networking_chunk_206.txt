@@ -1,0 +1,4 @@
+setting mac address
+
+You can also use ifconfig to set another mac address than the one hard coded in the network
+card.

@@ -1,0 +1,7 @@
+Besides its impact on the growth of the Internet and its place as an enabling technology for a 
+range of computer-driven devices, Linux development has been a model for how collaborative 
+
+projects can surpass what single individuals and companies can do alone.
+
+Google runs thousands upon thousands of Linux servers to power its search technology. Its Android 
+phones are based on Linux.

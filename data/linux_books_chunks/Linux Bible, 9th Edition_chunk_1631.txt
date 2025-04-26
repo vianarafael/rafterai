@@ -1,0 +1,5 @@
+GRUB  version 2 is used in Fedora, Ubuntu, Red Hat Enterprise Linux 7, and other Linux 
+ distributions. This section describes how to use GRUB version 1.
+
+For more information on how GRUB works, at the command line type man grub or info 
+grub.

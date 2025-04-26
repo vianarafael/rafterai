@@ -1,0 +1,34 @@
+usernames are (not) case sensitive
+
+Remember that usernames om Linux are case sensitive.
+
+[root@RHEL52 samba]# su - MARTINA
+su: user MARTINA does not exist
+
+176
+
+ 
+ 
+  
+  
+samba authentication
+
+[root@RHEL52 samba]# su - martina
+[martina@RHEL52 ~]$ 
+
+But usernames on Microsoft computers are not case sensitive.
+
+[root@RHEL52 samba]# smbclient //teacher0/authwrite -U martina stargate
+Domain=[TEACHER0] OS=[Unix] Server=[Samba 3.0.33-3.7.el5]
+smb: \> q
+[root@RHEL52 samba]# smbclient //teacher0/authwrite -U MARTINA stargate
+Domain=[TEACHER0] OS=[Unix] Server=[Samba 3.0.33-3.7.el5]
+smb: \> q
+
+177
+
+  
+  
+samba authentication
+
+14.9.

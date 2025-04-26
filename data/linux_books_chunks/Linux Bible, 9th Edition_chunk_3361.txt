@@ -1,0 +1,10 @@
+If you simply want to do an anonymous download of some ﬁ les from an FTP server, your 
+Firefox web browser provides an easy interface to do that. For more complex interactions 
+
+492
+
+c18.indd  04/01/2015  Page 493
+
+Chapter 18: Confi guring an FTP Server
+
+between your FTP client and server, you can use command-line FTP clients.

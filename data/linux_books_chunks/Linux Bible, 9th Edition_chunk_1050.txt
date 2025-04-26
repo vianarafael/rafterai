@@ -1,0 +1,16 @@
+Likewise, logging into a Linux desktop causes many background 
+ processes to kick off, such as processes for managing audio, desktop panels, authentication, 
+and other desktop features.
+
+To page through all the processes running on your Linux system for the current user, add 
+the pipe (|) and the less command to ps ux:
+
+$ ps ux | less
+
+To page through all processes running for all users on your system, use the ps aux 
+ command as follows:
+
+$ ps aux | less
+
+A pipe (located above the backslash character on the keyboard) enables you to direct the 
+output of one command to be the input of the next command.

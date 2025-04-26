@@ -1,0 +1,15 @@
+Selecting data sources
+
+From the Data Sources screen we click the green “Add data source” button and fill in the details 
+
+(Figure 17-11).
+
+826
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Figure 17-11.  Adding Graphite as our data source
+
+Clicking Save & Test will try to make a request to our Graphite host and test that it can get appropriate 
+
+data back.

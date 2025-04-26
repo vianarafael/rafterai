@@ -1,0 +1,7 @@
+The command works much like the RunAs command in 
+Microsoft Windows that allows a user to run a command as another user.
+
+ ■ Note 
+ another command called su, also known as substitute user or switch user, allows you to open a 
+subshell as a specific user. It is commonly used to change to the root user to perform some action. You can 
+read about it through its man page.

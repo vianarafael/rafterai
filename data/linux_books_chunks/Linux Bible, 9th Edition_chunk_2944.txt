@@ -1,0 +1,7 @@
+The available options are different for different printers. Many of 
+these options can be overridden when someone prints a document. Here are exam-
+ples of a few of the options you might (or might not) have available:
+
+ ■ Watermark—Several Watermark settings are available to enable you to add and 
+change watermarks on your printed pages. By default, Watermark and Overlay 
+are off (None).

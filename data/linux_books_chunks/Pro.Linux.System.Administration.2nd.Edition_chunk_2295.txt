@@ -1,0 +1,6 @@
+However, if your disks are all of the 
+
+same size (it is best to have the same drives from the same manufacturer for this reason) you do not need to 
+partition the drives at all. Since our drives are the same size, we will will not partition them first.
+
+Now that you have prepared your three disks, you can create the RAID array.

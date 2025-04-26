@@ -1,0 +1,9 @@
+Everything about a file is in the inode, except two things : name them!
+
+The name of the file is in a directory, and the contents is somewhere on the disk.
+
+6. Create a symbolic link to summer.txt called slsummer.txt.
+
+ln -s summer.txt slsummer.txt
+
+7. Find all files with inode number 2.

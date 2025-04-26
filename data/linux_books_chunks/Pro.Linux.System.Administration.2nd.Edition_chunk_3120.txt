@@ -1,0 +1,8 @@
+When your browser is 
+
+configured to use the cache, Squid keeps a local cached copy of any files you retrieve from a web site, so the 
+next time the same file is accessed, it can be served from the local Squid cache instead.
+
+The other mode of operation for Squid is as a reverse proxy, which sits in front of one or more web 
+
+servers on the web server side of the connection.

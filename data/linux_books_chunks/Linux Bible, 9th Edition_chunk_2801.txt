@@ -1,0 +1,7 @@
+A reload is a better method for a busy Linux server.
+
+Now that you know how to stop and start services for troubleshooting and emergency 
+ purposes, you can learn how to enable and disable services.
+
+Enabling Persistent Services
+You use stop and start for immediate needs, not for services that need to be persistent.

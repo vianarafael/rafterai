@@ -1,0 +1,10 @@
+The “K3b – The CD and DVD Kreator” 
+window appears.
+
+3.  From the K3b window, select Tools ➪ Burn Image to burn a CD or DVD ISO Image. 
+
+You are asked to choose an image ﬁ le.
+
+4.  Browse to the image you just downloaded or copied to hard disk, and select it. 
+After you select the image you want, the Burn Image window appears, as does 
+a checksum on the image.

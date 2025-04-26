@@ -1,0 +1,4 @@
+Examples of some common ones are these: Microsoft’s Active Directory, Red Hat’s Directory 
+Services, and Oracle Directory Server Enterprise Edition.
+
+In this chapter, we will be concentrating on the commonly used and robust OpenLDAP server.

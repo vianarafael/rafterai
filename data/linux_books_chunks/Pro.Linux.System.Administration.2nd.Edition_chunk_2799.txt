@@ -1,0 +1,29 @@
+You should 
+now be able to do the following:
+
+•	
+
+Set and keep the correct time on all your hosts.
+
+•	 Create forward and reverse DNS records for all your hosts and have these records 
+
+replicate to multiple DNS servers.
+
+•	
+
+Set up DHCP to automate address assignment and link it to DNS to automatically 
+update relevant DNS records.
+
+•	 Use ssh, scp, and sftp to easily and securely work on remote hosts and transfer files.
+
+In the next chapter, we’ll introduce you to mail services and teach you how to run your own mail server.
+
+471
+
+CHAPTER 11
+
+Web and SQL Services
+
+By Peter Lieverdink and Dennis Matotek
+
+One of the more common things you will do is set up web services.

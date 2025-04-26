@@ -1,0 +1,16 @@
+For more information on 
+
+NetworkManager, you can see the following:
+
+•	
+
+•	
+
+https://help.ubuntu.com/community/NetworkManager
+
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_
+Linux/7/html/Networking_Guide/sec-Introduction_to_NetworkManager.html
+
+Managing Networks via a GUI
+
+If you are using a desktop to manage your server you can use a GUI to manage your network configuration.

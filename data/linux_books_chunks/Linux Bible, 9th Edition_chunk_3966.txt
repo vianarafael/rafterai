@@ -1,0 +1,9 @@
+Look at rules in /etc/sysconfig/iptables, and see if a 
+
+DROP or REJECT rule comes before the rules opening ports 80 and/or 443. Moving 
+the rules to open those ports before any ﬁ nal DROP or REJECT lines can solve 
+the problem.
+
+ ■ Look for denied hosts. Check whether any rules drop or reject packets from 
+
+ particular hosts or networks.

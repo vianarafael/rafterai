@@ -1,0 +1,8 @@
+You will
+see a dialog box that looks similar to this one.
+
+It is possible that there are no interfaces available because some distributions only allow
+root to sniff the network. You may need to use sudo wireshark.
+
+Or you can follow the general advice to sniff using tcpdump or any other tool, and save the
+capture to a file.

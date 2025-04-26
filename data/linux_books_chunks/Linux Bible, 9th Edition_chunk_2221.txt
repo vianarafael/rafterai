@@ -1,0 +1,4 @@
+More often than not, after the physical computers are in place, most  administration 
+of those machines is done using remote access tools. Often, no graphical interface is 
+ available, so you must rely on command-line tools to do such things as remote login, 
+remote copying, and remote execution.

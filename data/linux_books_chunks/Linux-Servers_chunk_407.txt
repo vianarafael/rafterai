@@ -1,0 +1,42 @@
+But when someone from the
+10.104.42.0/24 network (managed by Keith) asks for the same A record of www.paul.local,
+he will get 10.104.33.31 as an answer.
+
+A split-horizon setup can be used to redirect people to local copies of certain services.
+
+In this example we want to decide on specific answers for two networks (Jesse's and Keith's)
+and prevent them from using our dns server for recursion, while maintaining the capability
+to resolve the internet and our paul.local zone from our own network.
+
+We start by creating three view clauses in named.conf.local.
+
+root@debian7:/etc/bind# cat named.conf.local
+view "paul" {
+match-clients { 10.104.33.0; localhost; };
+include "/etc/bind/named.conf.default-zones";
+zone "paul.local" IN {
+        type master;
+        file "/etc/bind/db.paul.local";
+        allow-update { none; };
+        };
+};      // end view internal
+
+view "jesse" {
+match-clients { 10.104.15/24; };
+zone "paul.local" IN {
+        type master;
+        file "/etc/bind/db.paul.local.jesse";
+        allow-update { none; };
+        };
+};      // end view jesse
+
+view "keith" {
+match-clients { 10.104.42/24; };
+zone "paul.local" IN {
+        type master;
+        file "/etc/bind/db.paul.local.keith";
+        allow-update { none; };
+        };
+};      // end view keith
+
+Note that we included the default-zones in the internal zone.

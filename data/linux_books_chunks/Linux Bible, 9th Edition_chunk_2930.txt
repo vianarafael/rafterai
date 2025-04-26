@@ -1,0 +1,15 @@
+Select Print Settings from the Activities screen or type the following as root 
+
+user from a Terminal window:
+
+# system-config-printer &
+
+The Printing window appears.
+
+2.  Click Add. (If asked, select the button to Adjust Firewall to allow access to the 
+
+printer port 631.) A New Printer window appears.
+
+3.  If the printer you want to conﬁ gure is detected, simply select it and click 
+
+Forward.

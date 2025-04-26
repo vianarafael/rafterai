@@ -1,0 +1,23 @@
+Check the memory requirements for the operating 
+systems and applications you plan to run to better determine your memory needs.
+
+To check the number and types of processors on your computer, type the following:
+
+# grep processor /proc/cpuinfo
+processor : 0
+...
+processor : 6
+processor : 7
+# head /proc/cpuinfo
+processor  : 0
+vendor_id  : GenuineIntel
+cpu family : 6
+model      : 60
+model name : Intel(R) Core(TM) i7-4800MQ CPU @ 2.70GHz
+stepping   : 3
+cpu MHz    : 2701.000
+cache size : 6144 KB
+...
+
+The ﬁ rst command in the preceding code shows that there are eight (0 through 7) 
+ processors on the computer.

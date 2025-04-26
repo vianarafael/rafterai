@@ -1,0 +1,2 @@
+Next, notice that the device information will be provided by the provider 
+dsl-provider. The provider information is found under the /etc/ppp/peers directory.

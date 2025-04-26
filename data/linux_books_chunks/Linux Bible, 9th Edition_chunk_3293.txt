@@ -1,0 +1,6 @@
+If you have a ﬁ rewall in place on your Linux system, it is probably blocking 
+access to all services on your system except for those that you have explicitly allowed.
+
+If you decide that the default vsftpd conﬁ guration works for you as described in the 
+ previous section, you can set to work allowing the appropriate access and providing 
+ security for your vsftpd service.

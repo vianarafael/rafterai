@@ -1,0 +1,4 @@
+Cobbler also logs to the /var/log/cobbler/cobbler.log file and the files contained in the kicklog and 
+syslog directories also under /var/log/cobbler.
+
+You can also monitor the network traffic passing between your booting host and the boot server.

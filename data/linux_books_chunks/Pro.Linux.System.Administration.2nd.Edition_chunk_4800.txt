@@ -1,0 +1,6 @@
+We have entered the uid 
+
+of ataylor, whom we know is a member of the cn=admins,ou=groups,dc=example,dc=com group, which is 
+required by our Apache configuration.
+
+Figure 16-13.

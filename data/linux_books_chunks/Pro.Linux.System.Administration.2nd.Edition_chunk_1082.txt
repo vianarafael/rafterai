@@ -1,0 +1,4 @@
+It was just used as a better “init.” Red Hat-based hosts have since implemented Systemd completely and 
+Debian-based systems, such as Ubuntu, are transitioning from Upstart and SysV Init to Systemd.
+
+Figure 6-5.

@@ -1,0 +1,6 @@
+The modem contains ﬁ rewall ﬁ rmware 
+and is considered a hardware ﬁ rewall.
+
+Firewalls can be located on a computer system as an application. The application 
+allows ﬁ ltering rules to be set, which ﬁ lter the incoming trafﬁ c. This is an example 
+of a software ﬁ rewall.

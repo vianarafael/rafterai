@@ -1,0 +1,17 @@
+Then split this file
+in smaller two megabyte parts.
+
+mkdir testsplit
+
+dd if=/dev/zero of=~/testsplit/biggest count=5000 bs=1024
+
+split -b 2000000 biggest parts
+
+359
+
+Part VIII. Appendices
+
+Table of Contents
+
+A.  disk  quotas  .............................................................................................................................................  362
+A.1.

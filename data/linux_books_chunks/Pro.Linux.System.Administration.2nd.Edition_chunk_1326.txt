@@ -1,0 +1,11 @@
+Network settings in Ubuntu
+
+228
+
+On selecting Network in Figure 7-6 we get a similar user interface to configure our networks as we did 
+with CentOS. In Figure 7-7 we can see that you plug in the same information in to this interface as we did in 
+Figure 7-5.
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Figure 7-7.

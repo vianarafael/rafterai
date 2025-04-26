@@ -1,0 +1,26 @@
+Booting the Live media.
+
+b. Selecting to install to hard drive when the system boots up.
+
+c. Adding information from the summary page about your language, storage, 
+ hostname, time zone, root password, and other items needed to initially 
+ conﬁ gure your system.
+
+B
+
+795
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+bapp02.indd  04/01/2015  Page 796
+
+Appendix B: Exercise Answers
+
+d.

@@ -1,0 +1,3 @@
+When you mount your GlusterFS volume, the Gluster FUSE client will 
+receive a volfile from one of the peers. It will then mount the volume from any one of the peers listed, 
+not necessarily the one we first contacted.

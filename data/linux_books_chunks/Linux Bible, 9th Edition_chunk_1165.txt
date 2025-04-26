@@ -1,0 +1,3 @@
+$0 is special and is assigned the name used to invoke your script; the 
+others are assigned the values of the parameters passed on the command line, in the 
+order they appeared.

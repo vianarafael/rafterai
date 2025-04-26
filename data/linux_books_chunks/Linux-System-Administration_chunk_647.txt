@@ -1,0 +1,11 @@
+Only one
+partition can be set active so grub can do this on the fly just before chainloading.
+
+This screenshot shows how to set the first primary partition active with grub.
+
+root  (hd0,0)
+makeactive
+
+Chainloading refers to grub loading another operating system's bootloader. The chainloader
+switch receives one option: the number of sectors to read and boot. For DOS and OS/2 one
+sector is enough.

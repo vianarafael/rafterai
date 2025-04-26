@@ -1,0 +1,13 @@
+netlogon share
+
+Part of the microsoft definition for a domain controller is that it should have a netlogon
+share. This is the relevant part of smb.conf to create this netlogon share on Samba.
+
+[netlogon]
+comment = Network Logon Service
+path = /srv/samba/netlogon
+admin users = root
+guest ok = Yes
+browseable = No
+
+17.6.

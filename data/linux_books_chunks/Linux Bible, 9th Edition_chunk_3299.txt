@@ -1,0 +1,6 @@
+First, you need to allow your system to accept requests 
+on TCP port 21; then you need to make sure the connection tracking module is loaded.
+
+In RHEL 7 and Fedora 20, you can use the new Firewall conﬁ guration window to enable your 
+ﬁ rewall and open access to your FTP service. From the GNOME 3 desktop Activities screen, 
+select the Firewall icon. Enter the root password when prompted.

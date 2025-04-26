@@ -1,0 +1,6 @@
+As the option sharedscripts is enabled, the script will be run only once no matter how many 
+individual log files are rotated. The script statement is terminated with the endscript option.
+
+So, how does logrotate run? By default on both CentOS and Ubuntu, cron runs logrotate at 
+
+scheduled times (through a script /etc/cron.daily; it is executed by Anacron).

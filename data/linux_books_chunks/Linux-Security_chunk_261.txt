@@ -1,0 +1,9 @@
+1 root root       0 Apr  8 18:47 stuff.txt
+paul@rhel65:~/owners$
+
+User paul owns three files; file1 has paul as user owner and has the group paul as group
+owner, data.odt is group owned by the group snooker, file2 by the group tennis.
+
+The last file is called stuff.txt and is owned by the root user and the root group.
+
+6.1.2.

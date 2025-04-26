@@ -1,0 +1,22 @@
+(
+   20110516 ; Serial
+    604800  ; Refresh
+     86400  ; Retry
+   2419200  ; Expire
+    604800 ) ; Negative Cache TTL
+;
+@ IN NS ns.
+37 IN PTR ns.cobbaut.paul.
+1 IN PTR anya.cobbaut.paul.
+30 IN PTR mac.cobbaut.paul.
+root@ubu1010srv:/etc/bind# 
+
+4. Test with nslookup or dig:
+
+root@ubu1010srv:/etc/bind# dig 1.168.192.in-addr.arpa AXFR
+
+153
+
+advanced DNS
+
+11.5.2.

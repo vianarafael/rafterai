@@ -1,0 +1,3 @@
+The computer account created by Samba is visible in the /etc/passwd file on
+Linux. Computer accounts appear as a normal user account, but end their name with a dollar
+sign.

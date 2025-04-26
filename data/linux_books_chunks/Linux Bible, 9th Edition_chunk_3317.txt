@@ -1,0 +1,10 @@
+For example, 
+to recursively change the ﬁ le context of the /var/ftp/pub/stuff directory so the 
+content can be readable from the FTP server through SELinux, type the following:
+
+# semanage fcontext -a -t public_content_t "/var/ftp/pub/stuff(/.*)?"
+# restorecon -F -R -v /var/ftp/pub/stuff
+
+If you want to allow users to also write to a directory as well as read from it, you need to 
+assign the public_content_rw_t ﬁ le context to the directory to which you want to 
+allow uploads.

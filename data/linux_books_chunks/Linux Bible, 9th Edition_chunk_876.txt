@@ -1,0 +1,18 @@
+The plus 
+sign is used with chmod to turn permissions on:
+
+The following chmod command results in this permission: rw-------
+
+$ chmod u+rw files
+
+The following chmod command results in this permission: --x--x--x
+
+$ chmod a+x files
+
+The following chmod command results in this permission: r-xr-x---
+
+$ chmod ug+rx files
+
+Using letters to change permission recursively with chmod generally works better than 
+using numbers because you can change bits selectively, instead of changing all permission 
+bits at once.

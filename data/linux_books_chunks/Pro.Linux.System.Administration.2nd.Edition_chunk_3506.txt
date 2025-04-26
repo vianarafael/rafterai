@@ -1,0 +1,12 @@
+We do that by first compiling a policy module 
+file with the following commands:
+
+$ sudo checkmodule -M -m -o clamav-write.mod clamav-write.te
+
+575
+
+Chapter 12 ■ Mail ServiCeS
+
+The checkmodule command takes the following arguments, -M to enable LSM support, -m to generate 
+
+the module binary, and –o, which is the output file name.

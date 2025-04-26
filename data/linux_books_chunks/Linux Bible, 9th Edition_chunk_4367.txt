@@ -1,0 +1,6 @@
+From that tab, you can see information such as when the key was made and when it expires, 
+the type of key and its ﬁ ngerprint, and subkeys to the key that can be expired or revoked.
+
+Encrypting Files with Pyrite
+If you like working with fi le encryption from a graphical window, I recommend trying the Pyrite tool 
+(https://github.com/ryran/pyrite) created by Ryan Sawhill Aroha.

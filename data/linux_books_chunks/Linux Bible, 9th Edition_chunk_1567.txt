@@ -1,0 +1,7 @@
+Then run your installed virtual guests with the free VMWare Player. 
+With a full-blown version of VMWare Workstation, you can run multiple  distributions at the 
+same time.
+
+Open source virtualization products that are available with Linux systems include 
+VirtualBox (http://www.virtualbox.org), Xen (http://www.xen.org), and 
+KVM (http://www.linux-kvm.org).

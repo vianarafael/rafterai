@@ -1,0 +1,6 @@
+There are crackers all over the world running programs to scan 
+for vulnerable servers they can take over for their data or their processing power. Luckily, 
+there are measures you can put in place on Linux systems to protect your servers and 
+ services from attacks and abuse.
+
+Some common security techniques are described in the following sections.

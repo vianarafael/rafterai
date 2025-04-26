@@ -1,0 +1,14 @@
+Setting up an NFS Client
+
+Mount options
+soft
+
+When a major timeout happens send the calling program an I/O error, rather 
+than retry indefinitely.
+When a major timeout happens, report “server not responding” and continues 
+to reconnect indefinitely unless the intr option is also specified
+If the first mount fails retry subsequent mounts in the background (default is 
+fg)
+Allows NFS requests to be interrupted
+Sometimes needed with older NFS servers
+Set communication block sizes for read and write.

@@ -1,0 +1,12 @@
+This change allows unprivileged 
+
+connections from our backup server. We are going to also make this change to the Gluster backup volume 
+only.
+
+$ gluster volume set backups server.allow-insecure on
+
+This need to be executed on only one of the Gluster peers. We are now ready to move on to the next step.
+
+Update DNS Records
+
+We are going to use a single hostname to contact our GlusterFS service.

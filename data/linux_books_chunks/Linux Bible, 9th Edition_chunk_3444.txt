@@ -1,0 +1,7 @@
+File contexts must be properly set on a directory that is 
+shared by Samba. Booleans allow you to override the secure-by-default approach to 
+certain Samba features.
+
+You can ﬁ nd information on how SELinux conﬁ nes Samba on the samba_selinux man 
+page (man samba_selinux). You must install the selinux-policy-devel package to 
+get that man page.

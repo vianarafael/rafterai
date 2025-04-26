@@ -1,0 +1,29 @@
+The main options 
+are:
+
+showmount -a server  lists client IP and directory mounted
+
+showmount -e server  lists the content of /etc/exports from the server
+
+showmount -d server  lists only the exported directories on the server
+
+64
+
+LinuxIT Technical Training Centre
+
+File and Service Sharing 
+
+_____________________________________________________
+
+65
+
+ 
+LinuxIT Technical Training Centre
+
+System Maintenance
+
+_____________________________________________________
+
+System Maintenance
+
+This module covers the syslogd similarly to LPI 102.

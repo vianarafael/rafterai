@@ -1,0 +1,7 @@
+The /usr directory is meant for ﬁ les that don’t change after installation 
+(in theory, /usr could be mounted read-only).
+
+ ■ /var—Contains directories of data used by various applications. In particular, 
+
+this is where you would place ﬁ les that you share as an FTP server (/var/ftp) or a 
+web server (/var/www).

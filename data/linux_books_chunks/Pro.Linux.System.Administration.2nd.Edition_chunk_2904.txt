@@ -1,0 +1,5 @@
+This directive specifies the path to the module file that should be loaded.
+
+On CentOS, extra modules are usually enabled by a configuration snippet in /etc/httpd/conf.
+modules.d that is installed by the module package. When the server is restarted, it picks up these new files 
+and processes their directives.

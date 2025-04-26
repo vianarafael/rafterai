@@ -1,0 +1,9 @@
+old dns topics
+
+All the dns things below this paragraph are old and in urgent need of review.
+
+11.5.1. old example: reverse DNS
+
+1. We can add ip to name resolution to our dns-server using a reverse dns zone.
+
+2.

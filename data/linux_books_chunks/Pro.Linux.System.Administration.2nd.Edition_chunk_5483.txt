@@ -1,0 +1,26 @@
+We are going to now install the Cobbler loaders and debmirror binary.
+
+$ sudo cobbler get-loaders
+
+For debmirror, you need to download the file from Debian, untar it, and copy it to a common location 
+(alternative, you could use FPM, like we showed you in Chapter 9, to create a package to do this for you in a 
+repeatable way!).
+
+We need at least these Perl modules installed:
+
+$ sudo yum install -y perl-LockFile-Simple perl-IO-Zlib perl-Digest-MD5 perl-Net-INET6Glue 
+perl-LWP-Protocol-https
+
+Next we will download and install the debmirror package, untar it, and place it in the /usr/local/bin 
+
+directory.
+
+$ curl -s http://archive.ubuntu.com/ubuntu/pool/universe/d/debmirror/debmirror_2.25ubuntu2.
+tar.xz -o debmirror_2.25.tar.xz
+$ tar xf debmirror_2.25.tar.xz && sudo cp debmirror-2.25ubuntu2/debmirror /usr/local/bin/
+
+To test we have everything installed correctly for debmirror, run debmirror --help and make sure you 
+
+don’t get any Perl module errors.
+
+Lastly, we are going to change the default root password that gets placed on the hosts.

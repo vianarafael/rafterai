@@ -1,0 +1,5 @@
+To 
+configure a CentOS interface we set options like the name of device we are managing: DEVICE=”enp0s3”. We 
+use the same value for the name.
+
+The boot protocol, BOOTPROTO=”dhcp”, is set to get its address from DHCP.

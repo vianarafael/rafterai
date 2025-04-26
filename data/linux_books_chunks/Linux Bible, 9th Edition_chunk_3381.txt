@@ -1,0 +1,7 @@
+You move up and down the directory structure to ﬁ nd the content you want.
+
+There are both graphical and text-based FTP clients. A popular text-based client for Linux 
+is lftp. As for graphical FTP clients, you can use a regular web browser, such as Firefox, or 
+dedicated FTP clients, such as gFTP.
+
+FTP servers are not the only way to share ﬁ les over a network from Linux.

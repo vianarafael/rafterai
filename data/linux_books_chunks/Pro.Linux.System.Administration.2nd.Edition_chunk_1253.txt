@@ -1,0 +1,5 @@
+Matotek et al., Pro Linux System Administration, DOI 10.1007/978-1-4842-2008-5_7CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Introduction to Networks and Networking
+Networks are made of both hardware and software. They vary in complexity depending on their size and 
+the level of interconnectedness they require. In a small business you will probably have a simple network.

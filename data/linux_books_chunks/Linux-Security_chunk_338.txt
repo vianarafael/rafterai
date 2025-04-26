@@ -1,0 +1,17 @@
+Look at the directories /etc/init.d/ /etc/rc2.d/ /etc/rc3.d/ ... do you see the links ?
+
+9. Look in /lib with ls -l...
+
+10. Use find to look in your home directory for regular files that do not(!) have one hard link.
+
+72
+
+file links
+
+9.7. solution : links
+
+1. Create two files named winter.txt and summer.txt, put some text in them.
+
+echo cold > winter.txt ; echo hot > summer.txt
+
+2.

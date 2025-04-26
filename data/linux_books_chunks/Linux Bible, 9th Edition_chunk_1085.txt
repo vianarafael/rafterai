@@ -1,0 +1,10 @@
+If you 
+type ps, you can use the process ID to fi gure out which command is for a particular background job.
+
+Using foreground and background commands
+Continuing with the example, you can bring any of the commands on the jobs list to the 
+foreground. For example, to edit myfile again, type:
+
+$ fg %1
+
+As a result, the vi command opens again.

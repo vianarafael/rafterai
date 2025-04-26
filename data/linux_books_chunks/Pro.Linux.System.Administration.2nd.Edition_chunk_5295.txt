@@ -1,0 +1,20 @@
+Here’s an example:
+
+# Definitions for monitoring the local (Linux) host
+cfg_file=/etc/nagios/objects/localhost.cfg
+
+You can specify multiple files; indeed, many people specify each object type in a separate file to 
+
+organize them.
+
+cfg_file=/etc/nagios/objects/commands.cfg
+cfg_file=/etc/nagios/objects/contacts.cfg
+cfg_file=/etc/nagios/objects/timeperiods.cfg
+cfg_file=/etc/nagios/objects/templates.cfg
+...
+
+882
+
+Chapter 18 ■ Logging and Monitoring
+
+ it’s a good idea to put your files into a version control system (VCS), like Subversion or git.

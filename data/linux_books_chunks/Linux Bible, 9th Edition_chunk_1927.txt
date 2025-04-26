@@ -1,0 +1,2 @@
+So if the user were named sara, the group 
+assigned to her would also be sara.

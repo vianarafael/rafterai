@@ -1,0 +1,12 @@
+To 
+now list what we have done we will see the following:
+
+$ sudo ufw allow from 192.168.0.0/24 to any app WebServer
+$ sudo ufw status numbered
+Status: active
+
+   To             Action   From
+   --              ------    ----
+[ 1] WebServer     ALLOW IN  192.168.0.0/24
+
+Traffic traversing this host needs to be routed with the ufw route command.

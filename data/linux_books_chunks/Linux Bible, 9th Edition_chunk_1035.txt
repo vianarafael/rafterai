@@ -1,0 +1,5 @@
+However, after a process is ended, another process can reuse that number.
+
+Along with a process ID number, other attributes are associated with a process. Each process, 
+when it is run, is associated with a particular user account and group account. That account 
+information helps determine what system resources the process can access.

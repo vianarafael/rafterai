@@ -1,0 +1,8 @@
+The rest of the information indicates the owner (joe), 
+the group (sales), and the date that the ﬁ les in the directory were most recently 
+modiﬁ ed (Jan 24 at 12:17 p.m.).
+
+4
+
+In Fedora and Red Hat Enterprise Linux, when you add a new user, the user is assigned to a group of the same name 
+by default. For example, in the preceding text, the user joe would be assigned to the group joe.

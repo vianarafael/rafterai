@@ -1,0 +1,2 @@
+Users can be members of one or more 
+groups and are usually placed in a group so they can access some kind of resource.

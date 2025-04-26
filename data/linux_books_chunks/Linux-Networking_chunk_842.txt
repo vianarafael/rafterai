@@ -1,0 +1,7 @@
+The other way (called user mode) will allow the
+client to provide a username/password combination, before the server knows which share
+the client wants to access.
+
+17.2.2. smb.conf [share] section
+
+The share is called pubread and the path is set to our newly created directory.

@@ -1,0 +1,15 @@
+Use  the  write  list
+parameter.
+
+[football]
+ path = /srv/samba/golf
+ read only = Yes
+ guest ok = No
+ write list = eddy, jan
+
+21.2. security based on ip-address
+
+21.2.1. hosts allow
+
+The hosts allow or allow hosts parameter is one of the key advantages of Samba. It allows
+access control of shares on the ip-address level.

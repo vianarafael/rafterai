@@ -1,0 +1,11 @@
+We do that like we have 
+
+previously shown you.
+
+MariaDB [(none)]> CREATE DATABASE example;
+MariaDB [(none)]> GRANT CREATE, SELECT,  INSERT,  UPDATE,  DELETE  ON example.* 
+  TO  `wpexample`@`localhost` IDENTIFIED BY 'secret';
+
+What have we done there? We have granted only the necessary privileges to the database that 
+
+WordPress should normally need.

@@ -1,0 +1,12 @@
+(Other permissions, SELinux 
+Booleans, and vsftpd.conf settings must be in place for this to work as well.)
+
+486
+
+c18.indd  04/01/2015  Page 487
+
+Chapter 18: Confi guring an FTP Server
+
+If you have ﬁ les in the /var/ftp directory structure that have the wrong ﬁ le contexts 
+(which can happen if you move ﬁ les there from other directories instead of copying them), 
+you can change or restore the ﬁ le context on those ﬁ les so they can be shared.

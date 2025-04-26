@@ -1,0 +1,3 @@
+tdbsam
+
+Next we must make these users known to samba with the smbpasswd tool.

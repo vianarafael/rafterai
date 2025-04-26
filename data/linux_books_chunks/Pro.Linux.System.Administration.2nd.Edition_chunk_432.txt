@@ -1,0 +1,7 @@
+If 
+your host has booted to a command-line prompt, as you can see in Figure 4-1, you can simply log in and use 
+the prompt.
+
+From inside the Gnome or KDE GUI, you have two options. The first is to use a virtual console—a 
+kind of Linux management console that runs by default on most Linux distributions. Or you can launch a 
+terminal emulator application like the Gnome Terminal or Konsole.

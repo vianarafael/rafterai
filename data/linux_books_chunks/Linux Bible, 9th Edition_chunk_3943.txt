@@ -1,0 +1,8 @@
+If a hostname you ask for is not found, all those 
+locations are checked before you get some sort of “Host Not Found” message. Here are some 
+ways of debugging name-to-address resolution:
+
+ ■ Check if DNS server can be reached. Knowing the name server addresses, you 
+
+can try to ping each name server’s IP address to see if it is accessible. For example: 
+ping -c 2 192.168.0.254.

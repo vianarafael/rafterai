@@ -1,0 +1,14 @@
+Can a normal user read this file ? Test
+writing to this file with vi.
+
+(become root)
+
+# echo hello > /home/username/root.txt 
+
+# chmod 744 /home/username/root.txt
+
+(become user)
+
+vi ~/root.txt
+
+13a. Create a file as normal user, give only read to others.

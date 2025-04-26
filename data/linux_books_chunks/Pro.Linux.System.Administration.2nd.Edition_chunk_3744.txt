@@ -1,0 +1,11 @@
+We need to provide our credentials to the kernel for jsmith too so that it can manage our session to 
+that mount.
+
+610
+
+ChapTer 13 ■ FiLe Sharing and prinTing
+
+$ sudo cifscreds add –u jsmith  dc1.samba.example.com
+
+The jsmith user will need sudo access to cifscreds; otherwise, it will not be able to execute that 
+command.

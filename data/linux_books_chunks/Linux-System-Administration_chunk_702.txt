@@ -1,0 +1,16 @@
+Remember that the proper way to disable a service
+is to put K scripts oin all runlevels!
+
+root@barry:~# update-rc.d -f cron remove
+ Removing any system startup links for /etc/init.d/cron ...
+   /etc/rc0.d/K11cron
+   /etc/rc1.d/K11cron
+   /etc/rc2.d/S89cron
+   /etc/rc3.d/S89cron
+   /etc/rc4.d/S89cron
+   /etc/rc5.d/S89cron
+   /etc/rc6.d/K11cron
+root@barry:~# find /etc/rc?.d/ -name '*cron' -exec ls -l {} \;|cut -b44-
+root@barry:~#
+
+15.5.3.

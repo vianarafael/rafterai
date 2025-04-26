@@ -1,0 +1,15 @@
+Typing commands from 
+the shell will probably be your primary means of using the Linux system.
+
+The default prompt for a regular user is simply a dollar sign:
+
+$
+
+The default prompt for the root user is a pound sign (also called a hash mark):
+
+#
+
+3
+
+In most Linux systems, the $ and # prompts are preceded by your username, system 
+name, and current directory name.

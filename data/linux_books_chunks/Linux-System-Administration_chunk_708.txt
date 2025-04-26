@@ -1,0 +1,14 @@
+changing the runlevel
+
+You  can  switch  to  another  runlevel  with  the  telinit  command.  On  Linux  /sbin/telinit  is
+usually a (hard) link to /sbin/init.
+
+This screenshot shows how to switch from runlevel 2 to runlevel 3 without reboot.
+
+root@barry:~# runlevel 
+N 2
+root@barry:~# init 3
+root@barry:~# runlevel 
+2 3
+
+15.7.3.

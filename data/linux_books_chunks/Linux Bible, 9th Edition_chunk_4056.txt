@@ -1,0 +1,3 @@
+When multiple people share an account, there is no way to prove a particular 
+individual completed a particular action. Their actions are deniable, which is called repudia-
+tion in the security world. Accounts should be set up for nonrepudiation.

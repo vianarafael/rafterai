@@ -1,0 +1,11 @@
+To edit a file, you run the vim command and specify the name of the file to edit.
+
+$ vim ~/newfile
+
+ some distributions also alias the vim command to vi to make it easier for people who are used to the 
+
+ ■ Tip 
+older name.
+
+This opens a file called newfile in your home directory. To insert some text into the file, type i, which is 
+short for insert.

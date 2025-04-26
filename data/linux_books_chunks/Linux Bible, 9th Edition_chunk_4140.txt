@@ -1,0 +1,6 @@
+This permission setting is shown here:
+
+22
+
+# ls -l /usr/bin/passwd
+-rwsr-xr-x.

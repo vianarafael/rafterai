@@ -1,0 +1,6 @@
+By default, OpenLDAP uses the Memory Mapped Database 
+
+(MDB), which is based on the Lightning Memory Mapped Database (LMDB). The LMDB was developed 
+by Symas, a software organization founded by many, if not all, the core OpenLDAP development team. 
+It is extremely fast and scalable, with databases holding millions of records. It is optimized for reading, 
+searching, and browsing.

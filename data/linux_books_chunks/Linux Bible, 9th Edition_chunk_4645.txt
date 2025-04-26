@@ -1,0 +1,5 @@
+When you make this port change, the service often fails to start.
+
+For example, you decide for security purposes to move sshd from port 22 to a nonstandard 
+port, 47347. SELinux does not know about this port, and the service fails to start. To ﬁ x 
+this problem, you must ﬁ rst ﬁ nd the security context type for sshd.

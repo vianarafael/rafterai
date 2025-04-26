@@ -1,0 +1,27 @@
+Create a volume group that contains a complete disk and a partition on another disk.
+
+step 1: select disks:
+
+root@rhel65:~# fdisk -l | grep Disk
+Disk /dev/sda: 8589 MB, 8589934592 bytes
+Disk identifier: 0x00055ca0
+Disk /dev/sdb: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+Disk /dev/sdc: 1073 MB, 1073741824 bytes
+Disk identifier: 0x00000000
+...
+
+I choose /dev/sdb and /dev/sdc for now.
+
+step 2: partition /dev/sdc
+
+root@rhel65:~# fdisk /dev/sdc
+Device contains neither a valid DOS partition table, nor Sun, SGI or OSF disk\
+label
+Building a new DOS disklabel with disk identifier 0x94c0e5d5.
+Changes will remain in memory only, until you decide to write them.
+After that, of course, the previous content won't be recoverable.
+
+Warning: invalid flag 0x0000 of partition table 4 will be corrected by w(rite)
+
+WARNING: DOS-compatible mode is deprecated.

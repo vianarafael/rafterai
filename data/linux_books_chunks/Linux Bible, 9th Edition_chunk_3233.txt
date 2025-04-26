@@ -1,0 +1,4 @@
+Check the conﬁ guration ﬁ les 
+for Location and Directory sections that might affect the ﬁ le you are trying 
+to access. Remember that settings applied to a path are also applied to any paths 
+below it.

@@ -1,0 +1,13 @@
+Add the service to a speciﬁ c runlevel.
+
+Step 1: Create a new or customized service script file
+If you are customizing a service script, simply make a copy of the original unit ﬁ le from
+/etc/rc.d/init.d and add any desired customizations.
+
+If you are creating a new script, you need to make sure you handle all the various options 
+you want the service command to accept for your service, such as start, stop, 
+restart, and so on.
+
+For a new script, especially if you have never created a service script before, it would be 
+wise to make a copy of a current service script from /etc/rc.d/init.d and modify it 
+to meet your new service’s needs.

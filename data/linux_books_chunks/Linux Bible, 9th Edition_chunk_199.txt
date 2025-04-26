@@ -1,0 +1,7 @@
+This modularity 
+made it possible for lots of code to be developed by lots of different people. A user 
+could just put together the pieces as needed.
+
+ ■ Portability—Simplifying the experience of using UNIX also led to it becoming 
+
+extraordinarily portable to run on different computers.

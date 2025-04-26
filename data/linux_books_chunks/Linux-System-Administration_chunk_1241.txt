@@ -1,0 +1,10 @@
+mkinitrd
+
+The kernel often uses an initrd file at bootup. We can use mkinitrd to generate this file.
+Make sure you use the correct kernel name!
+
+[root@RHEL52 ]# pwd
+/usr/src/redhat/BUILD/kernel-2.6.18/linux-2.6.18.i686
+[root@RHEL52 ]# mkinitrd /boot/initrd-2.6.18-paul2008 2.6.18-paul2008
+
+28.5.11.

@@ -1,0 +1,6 @@
+practice: hard disk devices
+
+About this lab: To practice working with hard disks, you will need some hard disks. When
+there are no physical hard disk available, you can use virtual disks in vmware or VirtualBox.
+The  teacher  will  help  you  in  attaching  a  couple  of  ATA  and/or  SCSI  disks  to  a  virtual
+machine.

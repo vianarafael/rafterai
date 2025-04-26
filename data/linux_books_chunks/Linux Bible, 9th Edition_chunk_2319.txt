@@ -1,0 +1,8 @@
+Here is an example:
+
+$ ssh johndoe@10.140.67.23 hostname
+johndoe@10.140.67.23's password: **********
+host01.example.com
+
+In the example just shown, the hostname command runs as the user johndoe on the Linux 
+system located at IP address 10.140.67.23.

@@ -1,0 +1,6 @@
+In particular, the System Administrator’s 
+Guide contains descriptions of many of the RHCSA-related topics.
+
+RHCE topics
+RHCE exam topics cover more advanced server conﬁ guration, along with a variety of secu-
+rity features for securing those servers in Red Hat Enterprise Linux 7.

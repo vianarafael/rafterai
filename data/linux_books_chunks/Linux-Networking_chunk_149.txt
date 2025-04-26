@@ -1,0 +1,12 @@
+general networking
+
+While this chapter is not directly about Linux, it does contain general networking concepts
+that will help you in troubleshooting networks on Linux.
+
+4
+
+general networking
+
+1.1. network layers
+
+1.1.1.

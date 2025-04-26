@@ -1,0 +1,8 @@
+Gentoo 
+makes use of a packaging system unique to the platform called Portage.
+
+ ■ Tip  You can learn about the myriad of distributions available in the Linux world at DistroWatch  
+(http://distrowatch.com/).
+
+So Which Distribution Should You Choose?
+Selecting a particular distribution should be based on your organization’s budget, skills, and requirements.

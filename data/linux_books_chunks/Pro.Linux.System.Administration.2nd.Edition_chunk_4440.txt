@@ -1,0 +1,10 @@
+OpenLDAP was forked from the original project originally designed by the University of Michigan and now 
+continues through the work of a community of engineers and developers from the OpenLDAP project  
+(www.openldap.org/project/).
+
+734
+
+ChAPTer 16 ■ DireCTOry ServiCeS
+
+ ■ Note 
+ An alternative recommendation, though not explored in this book, is the FreeiPA project.

@@ -1,0 +1,16 @@
+To get information about that  package, I can use 
+the info subcommand:
+
+# yum info emacs
+Name        : emacs
+Arch        : x86_64
+Epoch       : 1
+Version     : 24.4
+Release     : 3.fc21
+Size        : 3.0 M
+Repo        : updates/21/x86_64
+Summary     : GNU Emacs text editor
+URL         : http://www.gnu.org/software/emacs/
+License     : GPLv3+ and CC0-1.0
+Description : Emacs is a powerful, customizable, self-documenting,
+      : modeless text editor.

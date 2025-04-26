@@ -1,0 +1,7 @@
+Take a snapshot of the image as follows:
+
+# qemu-img create -f qcow2 \
+   -o backing_file=utopic-server-cloudimg-amd64.img \
+   utopic-server-01.img
+
+5.  Copy the image ﬁ les. Copy the Ubuntu image ﬁ les to the appropriate directory.

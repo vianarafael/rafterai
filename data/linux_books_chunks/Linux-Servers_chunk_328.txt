@@ -1,0 +1,12 @@
+dns records
+
+A record
+
+The A record, which is also called a host record contains the ipv4-address of a computer.
+When a DNS client queries a DNS server for an A record, then the DNS server will resolve
+the hostname in the query to an ip address. An AAAA record is similar but contains an ipv6
+address instead of ipv4.
+
+PTR record
+
+A PTR record is the reverse of an A record.

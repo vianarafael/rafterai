@@ -1,0 +1,6 @@
+For Fedora, the live medium lets you choose between 
+installing Fedora or boots directly from the medium to a GNOME 3 desktop. 
+
+You can now proceed to the next section, “Using the GNOME 3 Desktop” (which includes 
+information on using GNOME 3 in Fedora, Red Hat Enterprise Linux, and other operating 
+systems).

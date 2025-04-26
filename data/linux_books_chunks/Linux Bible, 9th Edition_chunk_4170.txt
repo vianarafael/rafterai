@@ -1,0 +1,14 @@
+Instead, you can use the journalctl command to display log messages in various ways.
+
+To page through kernel messages, type the following command:
+
+# journalctl -k
+-- Logs begin at Sun 2014-08-17 15:33:30 EDT, 
+
+610
+
+c22.indd  04/15/2015  Page 611
+
+Chapter 22: Understanding Basic Linux Security 
+
+    end at Sat 2014-09-13 22:29:00 EDT.

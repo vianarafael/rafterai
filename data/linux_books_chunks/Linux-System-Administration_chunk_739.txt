@@ -1,0 +1,10 @@
+Is  the  sysinit  script  on  your  computers  setting  or  changing  the  PATH  environment
+variable ?
+
+On Red Hat, grep for PATH in /etc/rc.sysinit, on Debian/Ubuntu check /etc/rc.local and /
+etc/ini.t/rc.local. The answer is probably no, but on RHEL5 the rc.sysinit script does set
+the HOSTNAME variable.
+
+[root@RHEL5 etc]# grep HOSTNAME rc.sysinit
+
+4.

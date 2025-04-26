@@ -1,0 +1,5 @@
+For more information, reference our Print and eBook Bulk Sales web 
+page at www.apress.com/bulk-sales.
+
+Any source code or other supplementary material referenced by the author in this book is available to 
+readers on GitHub via the book's product page, located at www.apress.com/9781484220078.

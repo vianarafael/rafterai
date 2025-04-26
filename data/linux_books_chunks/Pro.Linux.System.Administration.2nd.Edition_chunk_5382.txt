@@ -1,0 +1,5 @@
+See it here: https://
+exchange.nagios.org/directory/Addons/Monitoring-Agents/NCPA/details.
+
+the check_by_ssh plug-in allows you to log in to a remote host by SSh, execute a command, and 
+return results.

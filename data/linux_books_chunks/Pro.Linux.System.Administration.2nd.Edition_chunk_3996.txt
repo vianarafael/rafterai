@@ -1,0 +1,4 @@
+If there is an error, an e-mail will be sent to jsmith@example.com. This is a great way to sync up files from 
+one host to another, but it is not really a great backup strategy. For instance, every night we sync over all the 
+changed files, including mistakes. If they are not noticed early enough, then the mistakes are propagated to 
+our backup host and we lose our good copy of data.

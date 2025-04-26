@@ -1,0 +1,6 @@
+This chapter covered some of the 
+basics, such as the OSI model, that you need in order to get started on this process.
+
+Protecting your network services can be simpliﬁ ed after you determine and remove any 
+unneeded network services. The nmap utility helps you here. Also, you can use nmap to 
+audit your Linux server’s advertising of network services.

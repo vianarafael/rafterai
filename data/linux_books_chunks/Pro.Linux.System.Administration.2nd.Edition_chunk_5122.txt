@@ -1,0 +1,19 @@
+If we wanted to send log messages to a local file and to a remote server, we could use something 
+like this:
+
+mail.*    action(type="omfile" sync="no" file="/var/log/maillog”)
+                    action(type="omfwd" Target="monitor.example.com"  
+
+Port="10514" Protocol="tcp")
+
+You can read more about this module at www.rsyslog.com/doc/v8-stable/configuration/modules/
+
+omfwd.html.
+
+854
+
+Chapter 18 ■ Logging and Monitoring
+
+Configuring RELP
+RELP allows us to set up central logging servers that can collect and store logs from any number of client 
+servers.

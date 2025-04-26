@@ -1,0 +1,13 @@
+Other commands for managing printed documents include lpq (for view-
+ing the contents of print queues), lprm (for removing print jobs from the queue), and lpc 
+(for controlling printers).
+
+439
+
+c16.indd  04/01/2015  Page 440
+
+Part IV: Becoming a Linux Server Administrator
+
+Printing with lpr
+You can use the lpr command to print documents to both local and remote printers 
+( provided the printers are conﬁ gured locally).

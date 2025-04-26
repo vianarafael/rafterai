@@ -1,0 +1,12 @@
+Use find to look in your home directory for regular files that do not(!) have one hard link.
+
+find ~ ! -links 1 -type f
+
+73
+
+Part III. iptables firewall
+
+Table of Contents
+
+10. introduction to routers .......................................................................................................................... 76
+10.1.

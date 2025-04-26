@@ -1,0 +1,5 @@
+Its ﬂ exibility and variety of options, along with the fact that it is 
+installed by default on most Linux distributions, add to its appeal.
+
+If your organization uses a third-party cloud storage company, you need to know that some of these companies, such 
+as Dropbox, do not encrypt the fi les until they are received.

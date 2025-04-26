@@ -1,0 +1,6 @@
+After you have downloaded the ISO image, proceed to the 
+description later in this chapter of how to burn that image to CD or DVD.
+
+Getting Red Hat Enterprise Linux
+Many large corporations, government agencies, and universities use Red Hat Enterprise 
+Linux to run their mission-critical applications.

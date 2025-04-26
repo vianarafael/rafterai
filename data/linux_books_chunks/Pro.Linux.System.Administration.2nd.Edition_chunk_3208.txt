@@ -1,0 +1,12 @@
+these usually include 
+
+ ■ Note 
+extensive inline documentation describing each option.
+
+Inside main.cf each option is structured as follows:
+
+option = value
+
+Options do not have to be placed in any order, and empty lines are ignored.
+
+ the postfix configuration files are in what’s called the iNi format, with option = value.

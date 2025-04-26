@@ -1,0 +1,13 @@
+bootloader
+
+The mbr is executed by the bios and contains either (a small) bootloader or code to load
+a bootloader.
+
+Looking at the mbr with od can reveal information about the bootloader.
+
+paul@laika:~$ sudo dd if=/dev/sda count=1 bs=16 skip=24 2>/dev/null|od -c
+0000000 376   G   R   U   B      \0   G   e   o   m  \0   H   a   r   d
+0000020
+
+There are a variety of bootloaders available, most common on Intel architecture is grub,
+which is replacing lilo in many places.

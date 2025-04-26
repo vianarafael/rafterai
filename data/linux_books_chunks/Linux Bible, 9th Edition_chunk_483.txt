@@ -1,0 +1,6 @@
+You can’t 
+do much with Metacity (except get your work done effi ciently). You assign new themes to Metacity and change colors 
+and window decorations through the GNOME preferences (described later). Only a few Metacity themes exist, but 
+expect the number to grow.
+
+Basic Metacity functions that might interest you are keyboard shortcuts and the workspace switcher.

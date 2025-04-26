@@ -1,0 +1,5 @@
+However, if some other service listed NetworkManager as 
+a dependency, that service would try to start NetworkManager when it started.
+
+To disable a service in a way that prevents it from ever running on your system, you can 
+use the mask option.

@@ -1,0 +1,6 @@
+The 
+command restorecon -R filename changes a ﬁ le back to its default security context.
+
+Managing the process security context
+The deﬁ nition of a process is a running program. When you run programs or start  services 
+on a Linux system, each one is given a process ID (see Chapter 6).

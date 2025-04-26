@@ -1,0 +1,10 @@
+If sara were a 
+member of groups named sales and marketing, those entries could look like the 
+ following in the /etc/group ﬁ le:
+
+sales:x:1302:joe,bill,sally,sara
+marketing:x:1303:mike,terry,sara
+
+ ■ The user sara can’t add herself to a supplementary group. She can’t even add 
+
+another user to her sara group.

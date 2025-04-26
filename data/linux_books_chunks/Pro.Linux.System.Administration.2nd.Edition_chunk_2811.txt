@@ -1,0 +1,7 @@
+Adding 
+these packages will cause some additional libraries to be installed.
+
+Also, both CentOS and Ubuntu allow you to choose the MPM via loading the specific module you want 
+
+to use. We will show how to do that shortly. Along with loading a specific MPM, you can load modules to 
+load the necessary software to run different web server applications, such as PHP or Django.

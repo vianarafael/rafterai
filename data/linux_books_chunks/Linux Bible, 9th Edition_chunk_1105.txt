@@ -1,0 +1,11 @@
+For example, if you see a process called testme running on your 
+ system and you want to kill it, you can simply type the following:
+
+$ killall -9 testme
+
+The killall command can be particularly useful if you want to kill a bunch of commands 
+of the same name.
+
+Setting processor priority with nice and renice
+When the Linux kernel tries to decide which running processes get access to the CPUs on 
+your system, one of the things it takes into account is the nice value set on the process.

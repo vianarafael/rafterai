@@ -1,0 +1,19 @@
+We will need to copy the tls-auth key to all the clients.
+
+We can start our OpenVPN server as follows:
+
+$ sudo systemctl start openvpn@gateway
+$ sudo systemctl status openvpn@gateway.service
+● openvpn@gateway.service - OpenVPN Robust And Highly Flexible Tunneling Application On 
+gateway
+   Loaded: loaded (/usr/lib/systemd/system/openvpn@.service; enabled; vendor preset: 
+disabled)
+   Active: active (running) since Sat 2016-10-22 22:37:09 UTC; 1h 39min ago
+  Process: 7779 ExecStart=/usr/sbin/openvpn --daemon --writepid /var/run/openvpn/%i.pid --cd 
+/etc/openvpn/ --config %i.conf (code=exited, status=0/SUCCESS)
+ Main PID: 7780 (openvpn)
+...
+
+You can see that we’ve started the OpenVPN server, and you can see when it started the VPN called 
+
+gateway.service.

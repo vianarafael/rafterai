@@ -1,0 +1,4 @@
+Packages are available for 
+virtually all Linux distributions, so you can install it on your hosts via the package management system.
+The Apache server can run as a single web server for a single site or, more commonly, can serve 
+hundreds of sites as virtual hosts.

@@ -1,0 +1,8 @@
+Be sure to test any modiﬁ cations you make on a test Linux system or a virtualized 
+Linux system before you implement them on a production machine.
+
+The next chapter covers SELinux. While cryptography and PAM are tools you can use on 
+your Linux system, SELinux is an entire security enhancement layer.
+
+Exercises
+Use these exercises to test your knowledge of using cryptography tools and PAM.

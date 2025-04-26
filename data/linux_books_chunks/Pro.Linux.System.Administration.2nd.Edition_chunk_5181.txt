@@ -1,0 +1,7 @@
+In a real-
+
+world scenario you would have at least three Elasticsearch nodes in a cluster, depending on the amount of 
+transforming and data collection, and you may have a few tiers of Logtash services that would run on one or 
+two other separate nodes.
+
+On the gateway node, we will install Filebeat.

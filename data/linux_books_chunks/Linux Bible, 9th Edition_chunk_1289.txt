@@ -1,0 +1,14 @@
+Using sudoers, for any users or groups on the system, you can do 
+the following:
+
+ ■ Assign root privilege for any command they run with sudo.
+
+ ■ Assign root privilege for a select set of commands.
+
+ ■ Give users root privilege without telling them the root password because they only 
+
+have to provide their own user password to gain root privilege.
+
+ ■ Allow users, if you choose, to run sudo without entering a password at all.
+
+ ■ Track which users have run administrative commands on your system.

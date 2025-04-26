@@ -1,0 +1,45 @@
+We discussed IMAP and POP3, protocols that allow your users to connect to 
+your host and retrieve and manage their e-mail in mailboxes.
+In the process, we covered some important concepts:
+
+•	
+
+•	
+
+Protecting your users’ e-mail and their authentication credentials via encryption
+
+Enabling SASL authentication to allow your users to safely and securely authenticate 
+to your mail server to send and receive e-mail
+
+•	 Making use of SpamAssassin to filter your e-mail and stop spam from reaching your 
+
+users
+
+•	 Using the open source ClamAV antivirus engine to check your user’s e-mail for 
+
+viruses and malware
+
+•	 Using LMTPs such as Dovecot and Sieve to filter your e-mail
+
+•	
+
+•	
+
+Further protecting your server and its reputation by using SPF and DKIM
+
+Implementing the Dovecot server to allow users to connect to their mailboxes and 
+retrieve e-mail
+
+In the next chapter, we’ll introduce you to file and print services and teach you how to run your own 
+
+NFS server and look at clustered network file systems.
+
+593
+
+CHAPTER 13
+
+File Sharing and Printing
+
+By Dennis Matotek
+
+One of the most common office functions is sharing/printing documents and files.

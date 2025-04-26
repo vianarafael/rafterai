@@ -1,0 +1,12 @@
+Here is a version of insecure.pl which works around the taint mechanism and is VERY 
+INSECURE !!
+
+if (open (FILE,"$FILENAME")) {
+  $line = <FILE>;
+  while ($line ne "") {
+                print ($line);
+                $line = <FILE>;
+                }
+}
+
+3.

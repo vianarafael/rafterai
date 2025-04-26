@@ -1,0 +1,19 @@
+Graphite-API is installed via 
+
+the graphite-api package.
+
+$ sudo yum install –y graphite-api
+
+On Ubuntu you need to install the following to install carbon-cache and Whisper:
+
+$ sudo aptitude install -y graphite-carbon
+
+Again, to install the Graphite-API component, you need to issue the following:
+
+$ sudo aptitude install –y graphite-api
+
+816
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+An alternative exists to install and experiment with Graphite.

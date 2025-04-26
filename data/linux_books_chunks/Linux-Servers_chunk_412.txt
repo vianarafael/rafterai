@@ -1,0 +1,8 @@
+Also create a zone database file for this reverse lookup zone.
+
+root@ubu1010srv:/etc/bind# cat db.192 
+;
+; BIND reverse data file for 192.168.1.0/24 network
+;
+$TTL 604800
+@ IN SOA ns.cobbaut.paul root.cobbaut.paul.

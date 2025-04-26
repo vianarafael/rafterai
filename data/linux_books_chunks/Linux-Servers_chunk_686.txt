@@ -1,0 +1,3 @@
+testing access with smbclient
+
+You can also test connecting with authentication with smbclient.

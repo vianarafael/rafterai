@@ -1,0 +1,10 @@
+Configuring automount
+
+Mounting can be automated using a mechanism called automount or autofs. 
+
+The /usr/sbin/automount is invoked with the rc-script /etc/init.d/autofs. 
+
+service autofs start
+
+This script reads the configuration file /etc/auto.master also called a map. The map file 
+defines mount points to be monitored by individual automount daemons.

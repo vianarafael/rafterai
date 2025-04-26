@@ -1,0 +1,7 @@
+This ﬂ exibility comes at 
+the cost of increased complexity in the form of a large number of conﬁ guration options 
+(called directives). But in practice, you need to be familiar with only a few directives in 
+most cases.
+
+See http://httpd.apache.org/docs/current/mod/directives.html for a complete list of 
+directives supported by Apache.

@@ -1,0 +1,5 @@
+Red Hat offers a support model of the software, and if you have complex requirements, 
+then you should consider purchasing that. You can run the open source version that can be found at the web 
+site (https://www.gluster.org/).
+
+Since we are installing a distributed service, we will require at least three hosts.

@@ -1,0 +1,8 @@
+You can see how to set up Samba printer shares here:
+
+•	
+
+https://wiki.samba.org/index.php/Setup_a_Samba_print_server
+
+We are now asked a series of questions about the printer. We are asked to give the printer a name, 
+description, and location. These can be whatever makes sense to you.

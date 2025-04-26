@@ -1,0 +1,4 @@
+With that foundation in place, ongoing monitoring of your system includes watch-
+ing over system log ﬁ les, checking for malicious intrusions, and monitoring the ﬁ lesystem.
+
+Reviews of your security policies are also important to keep up on a regular basis.

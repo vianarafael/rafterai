@@ -1,0 +1,16 @@
+We can configure generic, or global, options under 
+
+the [cache] section.
+
+[cache]
+STORAGE_DIR    = /var/lib/graphite/
+LOCAL_DATA_DIR = /var/lib/graphite/whisper/
+CONF_DIR       = /etc/carbon/
+LOG_DIR        = /var/log/carbon/
+PID_DIR        = /var/run/
+ENABLE_LOGROTATION = False
+USER = _graphite
+
+Here we are describing the general configuration of where we will store or retrieve data and service 
+
+housekeeping.

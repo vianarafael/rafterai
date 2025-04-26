@@ -1,0 +1,24 @@
+Specifying the Authentication Service
+
+passdb {
+  driver = pam
+  # [session=yes] [setcred=yes] [failure_show_msg=yes] [max_requests=<n>]
+  # [cache_key=<key>] [<service name>]
+  #args = dovecot
+}
+userdb {
+  # <doc/wiki/AuthDatabase.Passwd.txt>
+  driver = passwd
+  # [blocking=no]
+  #args =
+
+  # Override fields from passwd
+  #override_fields = home=/home/virtual/%u
+}
+
+552
+
+Chapter 12 ■ Mail ServiCeS
+
+The directives in Listing 12-10 control the authentication store that Dovecot checks to perform 
+authentication.

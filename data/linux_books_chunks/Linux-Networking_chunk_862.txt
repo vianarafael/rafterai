@@ -1,0 +1,18 @@
+Below we test that we can
+write to this share.
+
+L:\>echo hoi > hoi.txt
+
+L:\>dir
+ Volume in drive L is pubwrite
+ Volume Serial Number is 0C82-272A
+
+ Directory of L:\
+
+21/01/2009  06:11    <DIR>          .
+21/01/2009  06:11    <DIR>          ..
+21/01/2009  06:16                 6 hoi.txt
+               1 File(s)              6 bytes
+               2 Dir(s)  13.496.238.080 bytes free
+
+18.6.

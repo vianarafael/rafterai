@@ -1,0 +1,4 @@
+firewall rules
+
+If we attempt to access the site from another machine however, we will not be able to view the
+website yet. The firewall is blocking incoming connections.

@@ -1,0 +1,7 @@
+You can use the cd command to change the directory 
+
+on the local gateway.example.com host if your files are located elsewhere.
+
+We use the put command to also put the branch1.example.com.key and the cacert.pem CA certificate 
+file onto the branch1 host. Since this is an Ubuntu server, we’re now going to move our files to the /etc/ssl 
+directory and secure their ownership and permissions.

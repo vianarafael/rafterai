@@ -1,0 +1,10 @@
+The .bash_profile and 
+.profile files are most commonly used, and each user will have these in his or her home directory.
+
+ ■ Note 
+
+ You can check the INVOCATION section of bash man page for a full listing of other configuration files.
+
+Environment Variables
+
+One of the main reasons for customizing your shell is to set environment variables.

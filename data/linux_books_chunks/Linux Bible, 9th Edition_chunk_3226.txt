@@ -1,0 +1,10 @@
+Select only one of these.
+
+473
+
+c17.indd  04/01/2015  Page 474
+
+Part IV: Becoming a Linux Server Administrator
+
+Any message that is at least as important as the LogLevel you select are stored in the 
+ErrorLog. On a typical server, LogLevel is set to warn.

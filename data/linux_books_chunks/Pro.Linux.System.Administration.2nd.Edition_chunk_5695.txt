@@ -1,0 +1,2 @@
+Inside this node definition, we used a feature of the Puppet language, a 
+case statement.

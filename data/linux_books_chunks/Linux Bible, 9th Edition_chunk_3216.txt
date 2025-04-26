@@ -1,0 +1,3 @@
+If this happens, use 
+the tail command to check Apache’s error log for useful information. On Fedora and RHEL 
+systems, the error log is in /var/log/httpd/error.log.

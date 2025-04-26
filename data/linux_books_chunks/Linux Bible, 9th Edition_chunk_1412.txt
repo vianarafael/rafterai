@@ -1,0 +1,7 @@
+Or you can select to have the images opened in the Shotwell 
+image viewer (the default application for viewing images on the GNOME desktop) or 
+another installed photo manager.
+
+ ■ Software—When inserted media contains an autorun application, an autorun 
+
+prompt opens.

@@ -1,0 +1,15 @@
+All rights reserved.
+For info, please visit http://www.isc.org/sw/dhcp/
+
+Listening on        LPF/eth1/00:0c:29:7b:b1:77
+Sending on        LPF/eth1/00:0c:29:7b:b1:77
+Sending on        Socket/fallback
+DHCPREQUEST on enp0s3 to 255.255.255.255 port 67
+DHCPACK from 192.168.0.1
+bound to 192.168.0.200 -- renewal in 7181 seconds.
+
+461
+
+Chapter 10 ■ InfrastruCture servICes: ntp, Dns, DhCp, anD ssh 
+
+We can check the system log on the server to see what happened.

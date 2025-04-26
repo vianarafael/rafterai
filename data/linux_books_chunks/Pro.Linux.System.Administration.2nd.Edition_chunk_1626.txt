@@ -1,0 +1,10 @@
+This will insert the rule at the top of the chain unless a rule 
+number is specified.
+
+Flushes a chain. This will remove all the rules from a chain or all the rules in all the 
+chains in a table if no chain is specified.
+
+Appends a rule to a chain. Same as -I except the rule is appended to the bottom of the 
+chain by default.
+
+Deletes a chain.

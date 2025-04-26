@@ -1,0 +1,15 @@
+In  the
+screenshot below we put the root user and password in .my.cnf.
+
+kevin@ubu1204:~$ pwd
+/home/kevin
+kevin@ubu1204:~$ cat .my.cnf 
+[client]
+user=root
+password=hunter2
+kevin@ubu1204:~$
+
+This enables us to log on as the root mysql user just by typing mysql.
+
+kevin@ubu1204:~$ mysql
+Welcome to the MySQL monitor.

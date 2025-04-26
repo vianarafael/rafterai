@@ -1,0 +1,32 @@
+Using lvdisplay as follows, 
+you can see where they have been allocated (I have snipped some of the output):
+
+12
+
+# lvdisplay vg_abc
+  --- Logical volume ---
+  LV Name                /dev/vg_abc/lv_root
+  VG Name                vg_abc
+  LV UUID                33VeDc-jd0l-hlCc-RMuB-tkcw-QvFi-cKCZqa
+  LV Write Access        read/write
+  LV Status              available
+  # open                 1
+  LV Size                50.00 GiB
+  Current LE             12800
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+  --- Logical volume ---
+  LV Name                /dev/vg_abc/lv_home
+  VG Name                vg_abc
+  ...
+  LV Size                92.64 GiB
+  --- Logical volume ---
+  LV Name                /dev/vg_abc/lv_swap
+  VG Name                vg_abc
+  ...
+  LV Size                5.88 GiB
+
+There are three logical volumes drawing space from vg_abc.

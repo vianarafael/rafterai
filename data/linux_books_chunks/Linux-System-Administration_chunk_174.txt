@@ -1,0 +1,8 @@
+some fun with cat
+
+To demonstrate the use of the top and renice commands we will make the cat command
+use the previously created pipes to generate a full load on the cpu.
+
+The cat is copied with a distinct name to the current directory. (This enables us to easily
+recognize the processes within top. You could do the same exercise without copying the cat
+command, but using different users.

@@ -1,0 +1,10 @@
+When a 
+process is running, you can change the nice value using the renice command, along with 
+the process ID of the process, as in the example that follows:
+
+# nice +5 updatedb &
+
+6
+
+The updatedb command is used to generate the locate database manually by gathering 
+names of ﬁ les throughout the ﬁ le system.

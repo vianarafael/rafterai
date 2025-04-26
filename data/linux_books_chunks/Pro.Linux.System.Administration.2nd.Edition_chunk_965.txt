@@ -1,0 +1,9 @@
+If you execute the last command without any 
+options, it will print a report of the last logins to the host.
+
+$ sudo last
+root       tty1                          Sat  Jul   3 12:32   still logged in
+ataylor    pts/0         192.168.0.23    Sat  Jul   3 14:25 - 14:26  (00:01)
+reboot     system boot   2.4.20-28.8     Sat  Jul   3 12:31         (4+05:40)
+
+as you can see, the last command tells you that root is logged on and is still logged in.

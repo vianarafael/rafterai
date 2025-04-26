@@ -1,0 +1,6 @@
+iterative or recursive query
+
+A recursive query is a DNS query where the client that is submitting the query expects a
+complete answer (Like the fat red arrow above going from the Macbook to the DNS server).
+An iterative query is a DNS query where the client does not expect a complete answer (the
+three black arrows originating from the DNS server in the picture above).

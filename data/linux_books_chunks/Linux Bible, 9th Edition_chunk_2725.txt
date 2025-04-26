@@ -1,0 +1,22 @@
+You could use the ls command to look through those 
+directories, but the preferred method is to use an option on the systemctl command as 
+follows:
+
+# systemctl list-unit-files --type=service
+UNIT FILE                                   STATE
+...
+cups.service                                enabled
+...
+dbus.service                                static
+...
+NetworkManager.service                      enabled
+...
+poweroff.service                            static
+...
+sshd.service                                enabled
+sssd.service                                disabled
+...
+134 unit files listed.
+
+The unit conﬁ guration ﬁ les shown in the preceding code are all associated with a service 
+unit.

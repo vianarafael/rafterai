@@ -1,0 +1,4 @@
+With Netfilter we can record in our logs connection attempts as they come 
+into our firewall, then either accept or reject those connections. This in itself can be an attack vector as an 
+attacker can fill your firewall logs with connection attempts and either use that to mask another attack or 
+make the constant logging of bad connection swamp your firewall resources.

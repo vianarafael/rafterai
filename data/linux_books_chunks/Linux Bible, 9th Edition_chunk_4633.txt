@@ -1,0 +1,30 @@
+The long number used in the 
+sealert command is the AVC denial message’s ID number.
+
+# sealert -l 8f52dd56-8025-4208-af41-7d296bdaa46b
+
+SELinux is preventing /usr/sbin/vsftpd from getattr access 
+   on the directory /home/chris/Music.
+*****  Plugin catchall_boolean (47.5 confidence) suggests   ********
+   **********
+If you want to determine whether ftpd can read and write files in 
+user home directories.
+Then you must tell SELinux about this by enabling the 'ftp_home_dir' 
+   boolean.
+You can read 'None' man page for more details.
+Do setsebool -P ftp_home_dir 1
+
+*****  Plugin catchall_boolean (47.5 confidence) suggests   ********
+   **********
+If you want to determine whether ftpd can login to local users and 
+  can read and write all files on the system, governed by DAC.
+Then you must tell SELinux about this by enabling the 
+  'ftpd_full_access' boolean.
+You can read 'ftpd_selinux' man page for more details.
+
+24
+
+Do setsebool -P ftpd_full_access 1
+...
+
+The sealert output provides a great deal of helpful information.

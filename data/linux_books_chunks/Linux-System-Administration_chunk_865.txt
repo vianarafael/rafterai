@@ -1,0 +1,16 @@
+Check the manual page of sar for more.
+
+224
+
+  
+  
+resource monitoring
+
+19.9. ntop
+
+The ntop tool is not present in default Red Hat installs. Once run, it will generate a very
+extensive analysis of network traffic in html on http://localhost:3000 .
+
+19.10. iftop
+
+The iftop tool will display bandwidth by socket statistics for a specific network device.

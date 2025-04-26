@@ -1,0 +1,5 @@
+umask
+
+When creating a file or directory, a set of default permissions are applied. These default
+permissions are determined by the umask. The umask specifies permissions that you do
+not want set on by default.

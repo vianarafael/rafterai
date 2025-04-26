@@ -1,0 +1,3 @@
+The quickest way to find out is via the uptime command, as shown in Listing 17-1.
+
+Listing 17-1.

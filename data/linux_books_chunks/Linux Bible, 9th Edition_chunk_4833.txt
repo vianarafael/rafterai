@@ -1,0 +1,8 @@
+Change your Linux system ﬁ rewall’s ﬁ lter table policy back to accept  for the 
+
+input chain, and then add a rule to drop all network packets from the IP address 
+10.140.67.23.
+
+10.  Without ﬂ ushing or restoring your Linux system ﬁ rewall’s rules, remove the rule 
+
+you added above.

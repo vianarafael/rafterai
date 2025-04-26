@@ -1,0 +1,3 @@
+For example, MYDATE=$(date) assigns the output from the 
+date command to the MYDATE variable. Enclosing the command in backticks (`) can have 
+the same effect.

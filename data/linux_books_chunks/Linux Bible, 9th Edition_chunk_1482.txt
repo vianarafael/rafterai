@@ -1,0 +1,6 @@
+The installer will ensure that there’s enough available disk space to 
+install Fedora.
+
+ ■ I want more space...—If you want to get rid of some or all the space on the 
+
+hard disk that is currently being used, choose this selection and click Continue.

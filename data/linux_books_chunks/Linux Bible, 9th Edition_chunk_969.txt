@@ -1,0 +1,17 @@
+To get the database to 
+ contain all ﬁ les up to the current moment, you can simply run updatedb from 
+the shell as root.
+
+Here are some examples of using the locate command to search for ﬁ les:
+
+$ locate .bashrc
+/etc/skel/.bashrc
+/home/cnegus/.bashrc
+# locate .bashrc
+/etc/skel/.bashrc
+/home/bill/.bashrc
+/home/joe/.bashrc
+/root/.bashrc
+
+When run as a regular user, locate only ﬁ nds .bashrc in /etc/skel and the user’s 
+own home directory.

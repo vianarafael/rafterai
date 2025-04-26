@@ -1,0 +1,14 @@
+Browse the network with net view, smbtree and with Windows Explorer.
+
+on Linux: smbtree
+
+on Windows: net view (and WindowsKey + e)
+
+10. Change the "Server String" parameter in smb.conf. How long does it take before you see
+the change (net view, smbclient, My Network Places,...) ?
+
+vi /etc/samba/smb.conf
+
+(should take only seconds when restarting samba)
+
+11.

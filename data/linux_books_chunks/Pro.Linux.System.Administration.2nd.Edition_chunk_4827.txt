@@ -1,0 +1,5 @@
+If swap space is available, the kernel can 
+move inactive memory to the swap space.
+
+Finally, the last line tells us how much swap space the host is using. Over time, this number will rise 
+slightly, as services that aren’t being used can be parked in swap space by the kernel.

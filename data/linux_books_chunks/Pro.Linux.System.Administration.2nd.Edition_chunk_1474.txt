@@ -1,0 +1,6 @@
+That port maps to port 25. This is a connection being established to an SMTP mail 
+server.
+
+Let’s look at the next part: Flags [S]. The [S] after the source and the destination indicates that this 
+is a SYN request and we are establishing a connection. Next is the initial sequence number of the packets, 
+3194824921.

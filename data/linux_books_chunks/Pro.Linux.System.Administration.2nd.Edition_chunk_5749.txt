@@ -1,0 +1,10 @@
+It is a 
+commercial automation and job scheduling tool provided by Red Hat.
+
+You can also, of course, automate your Ansible playbooks by using other continuous delivery (CD) 
+
+solutions like executing runs as part of a build step in tools like Jenkins (https://jenkins.io/).
+
+Using the ansible Command
+
+Ansible is great for running ad hoc command across multiple hosts.

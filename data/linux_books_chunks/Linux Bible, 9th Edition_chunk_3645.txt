@@ -1,0 +1,8 @@
+The use_nfs_home_dirs 
+Boolean is off. To turn on the use_nfs_home_dirs directory, you could type the 
+following:
+
+# setsebool -P use_nfs_home_dirs on
+
+You can ignore all the Booleans related to NFS ﬁ le sharing, however, by changing the ﬁ le 
+contexts on the ﬁ les and directories you want to share via NFS.

@@ -1,0 +1,5 @@
+Or change fonts individually for documents, 
+window titles, or monospace fonts.
+
+Under Top Bar settings, you can change how clock information is displayed in the top bar or 
+set whether to show the week number in the calendar.

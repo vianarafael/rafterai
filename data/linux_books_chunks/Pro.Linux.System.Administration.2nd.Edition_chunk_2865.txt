@@ -1,0 +1,29 @@
+a2query Options
+
+-q
+
+Quiet output, for scripting
+
+-m <module>
+
+Lists enabled modules or all if no module specified
+
+-M
+
+-s <site>
+
+-c <conf>
+
+-d
+
+Lists current MPM
+
+Checks whether the site is enabled or all if no site specified
+
+Lists enabled configuration files or all if no configuration specified
+
+Returns the Apache2 module directory
+
+Managing Sites on Ubuntu
+
+We are going to add a virtual host to the Ubuntu web server, much like we did with the CentOS host.

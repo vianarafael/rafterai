@@ -1,0 +1,7 @@
+For example, you want to ﬁ nd all ﬁ les that 
+belong to joe in the /var/allusers directory (and its subdirectories) and move 
+them to the /tmp/joe directory:
+
+# find /var/allusers/ -user joe -ok mv {} /tmp/joe/ \;
+< mv ... /var/allusers/dict.dat > ? y
+< mv ...

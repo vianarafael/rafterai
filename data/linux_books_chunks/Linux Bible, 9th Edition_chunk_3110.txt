@@ -1,0 +1,7 @@
+Still others are valid only when applied to a 
+speciﬁ c location.
+
+Locations are conﬁ gured in the form of a start tag containing the location type and a 
+resource location, followed by the conﬁ guration options for that location, and ﬁ nishing 
+with an end tag. This form is often called a conﬁ guration block, and it looks very similar to 
+HTML code.

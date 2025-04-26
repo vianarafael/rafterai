@@ -1,0 +1,12 @@
+Caching only
+name servers do not have a zone database with resource records. Instead they connect to
+other name servers and cache that information.
+
+There are two kinds of caching only name servers. Those with a forwarder, and those that
+use the root servers.
+
+68
+
+introduction to DNS
+
+4.3.1.

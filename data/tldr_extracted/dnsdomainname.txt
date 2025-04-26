@@ -1,0 +1,6 @@
+# dnsdomainname
+
+
+- Show the system's DNS domain name:
+
+`dnsdomainname`

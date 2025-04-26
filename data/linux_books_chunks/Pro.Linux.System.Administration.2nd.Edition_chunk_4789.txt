@@ -1,0 +1,11 @@
+This file 
+
+requires the passwd, group, and shadow keywords to have these values:
+
+passwd: files ldap
+group:  files ldap
+shadow: files ldap
+
+As we have explained, these tell PAM what authentication databases to use and the order in which to use 
+them. So when we are looking for information we would normally find in /etc/passwd, we would first use the 
+files on the host and then use LDAP.

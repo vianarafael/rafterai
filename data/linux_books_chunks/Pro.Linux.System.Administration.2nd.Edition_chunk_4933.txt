@@ -1,0 +1,9 @@
+WHISPER_AUTOFLUSH set to True will cause Whisper 
+to write synchronously, handled by the carbon-cache, and WHISPER_FALLOCATE_CREATE (Linux only) can 
+speed up file creation (and therefore allow you to increase MAX_CREATES_PER_MINUTE).
+
+Setting USE_FLOW_CONTROL to True (default) means that if MAX_CACHE_SIZE is reached, carbon-cache will 
+
+stop accepting connections until the cache is below 95 percent.
+
+Next we have a set of logging options.

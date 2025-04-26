@@ -1,0 +1,9 @@
+The payload is a set of Python scripts, executed on the target system.
+
+ at the time of writing, ansible currently support versions 2.6 and 2.7 of python. it has preliminary 
+
+ ■ Note 
+support for python version 3 as of ansible version 2.2.
+
+Like Puppet, Ansible can install files and manage packages and many other resources, including 
+creating cloud resources. It does this by calling playbooks.

@@ -1,0 +1,8 @@
+Although 
+swap space is on the hard disk, it is not a regular Linux ﬁ lesystem in which data is stored 
+permanently.
+
+Compared to disk storage, random access memory has the following attributes:
+
+ ■ Nearer the processor—Like the desk being near you as you work, memory is 
+ physically near the CPU on the computer’s motherboard.

@@ -1,0 +1,5 @@
+In GNOME 3, you can click the Files icon. In other desktops, open the 
+Home folder.
+
+With the Nautilus window manager displayed, look for a Connect to Server selection in the 
+left pane or (in some versions of Nautilus) select File ➪ Connect to Server.

@@ -1,0 +1,3 @@
+If 
+you have more than one CPU, you can set this to a higher number, but not higher than the number of 
+CPUs you have.

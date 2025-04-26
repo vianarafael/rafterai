@@ -1,0 +1,9 @@
+When you type ls, however, many Linux 
+systems (including Fedora and RHEL) assign an alias ls to add options. To see if ls is 
+aliased, type the following:
+
+$ alias ls
+alias ls='ls --color=auto'
+
+The --color=auto option causes different types of ﬁ les and directories to be displayed 
+in different colors.

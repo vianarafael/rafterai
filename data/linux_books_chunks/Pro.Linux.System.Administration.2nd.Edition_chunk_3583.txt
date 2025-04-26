@@ -1,0 +1,4 @@
+This uses SSL encryption to protect both user 
+authentication and the content of users’ e-mail as it flows between the client and the server. The other main 
+difference between IMAP and IMAPS is the TCP port they run on. The IMAP protocol runs on port 143, while 
+the IMAPS protocol runs on port 993.

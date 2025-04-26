@@ -1,0 +1,7 @@
+Bash allows you to navigate through these commands by using the up and down arrow keys.
+
+ The amount of history kept is user-configurable and can be manipulated using the history command. 
+
+ ■ Tip 
+enter the command history now to see your command history. If you’ve just signed on, you might find this 
+history empty. In that case, use a few commands and try again.

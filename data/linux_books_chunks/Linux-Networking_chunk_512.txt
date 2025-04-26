@@ -1,0 +1,25 @@
+When a client queries for an ip
+address, this is called a forward lookup query (as seen in the previous drawing).
+
+The reverse, a query for the name of a host, is called a reverse lookup query.
+
+Below a picture of a reverse lookup query.
+
+Here is a screenshot of a reverse lookup query in nslookup.
+
+root@debian7:~# nslookup
+> set type=PTR
+> 188.93.155.87
+Server:         192.168.1.42
+Address:        192.168.1.42#53
+
+Non-authoritative answer:
+87.155.93.188.in-addr.arpa      name = antares.ginsys.net.
+
+This is what a reverse lookup looks like when sniffing with tcpdump.
+
+root@debian7:~# tcpdump udp port 53
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+11:01:29.357685 IP 192.168.1.103.42041 > 192.168.1.42.domain: 14763+ PT\
+R? 87.155.93.188.in-addr.arpa.

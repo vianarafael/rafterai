@@ -1,0 +1,15 @@
+You can see the inode numbers with
+the ls -li command.
+
+paul@RHELv4u4:~/test$ touch file1
+paul@RHELv4u4:~/test$ touch file2
+paul@RHELv4u4:~/test$ touch file3
+paul@RHELv4u4:~/test$ ls -li
+total 12
+817266 -rw-rw-r--  1 paul paul 0 Feb  5 15:38 file1
+817267 -rw-rw-r--  1 paul paul 0 Feb  5 15:38 file2
+817268 -rw-rw-r--  1 paul paul 0 Feb  5 15:38 file3
+paul@RHELv4u4:~/test$
+
+These three files were created one after the other and got three different inodes (the first
+column).

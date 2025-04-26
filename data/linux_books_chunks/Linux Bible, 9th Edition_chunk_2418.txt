@@ -1,0 +1,6 @@
+Other 
+options with df enable you to do the following:
+
+ ■ Print only ﬁ lesystems of a particular type (-t type).
+
+ ■ Exclude ﬁ lesystems of a particular type (-x type).

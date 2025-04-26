@@ -1,0 +1,11 @@
+We 
+
+are going to bond these two devices together so that they appear as one interface, bond0. First we have 
+to configure each device as a SLAVE, and in Listing 7-5 you can see how we have configured enp0s8. The 
+enp0s9 device will be a mirror of this device.
+
+237
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+Listing 7-5.

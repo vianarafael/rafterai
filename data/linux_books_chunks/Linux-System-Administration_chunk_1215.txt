@@ -1,0 +1,20 @@
+In the following example, you can see that the nfsd module
+is used by exportfs, lockd and sunrpc.
+
+paul@laika:~$ cat /proc/modules | grep nfsd
+nfsd 267432 17 - Live 0xffffffff88a40000
+exportfs 7808 1 nfsd, Live 0xffffffff88a3d000
+lockd 73520 3 nfs,nfsd, Live 0xffffffff88a2a000
+sunrpc 185032 12 nfs,nfsd,lockd, Live 0xffffffff889fb000
+paul@laika:~$ lsmod | grep nfsd
+nfsd                  267432  17 
+exportfs                7808  1 nfsd
+lockd                  73520  3 nfs,nfsd
+sunrpc                185032  12 nfs,nfsd,lockd
+paul@laika:~$
+
+336
+
+the Linux kernel
+
+28.4.7.

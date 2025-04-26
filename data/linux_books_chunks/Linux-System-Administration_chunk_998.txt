@@ -1,0 +1,22 @@
+/sbin/ifdown
+
+It is adviced (but not mandatory) to down an interface before changing its configuration.
+This can be done with the ifdown command.
+
+The command will not give any output when downing an interface with a fixed ip address.
+However ifconfig will no longer show the interface.
+
+root@ubu1104srv:~# ifdown eth0
+root@ubu1104srv:~# ifconfig
+lo   Link encap:Local Loopback  
+     inet addr:127.0.0.1  Mask:255.0.0.0
+     inet6 addr: ::1/128 Scope:Host
+     UP LOOPBACK RUNNING  MTU:16436  Metric:1
+     RX packets:106 errors:0 dropped:0 overruns:0 frame:0
+     TX packets:106 errors:0 dropped:0 overruns:0 carrier:0
+     collisions:0 txqueuelen:0 
+     RX bytes:11162 (11.1 KB)  TX bytes:11162 (11.1 KB)
+
+An interface that is down cannot be used to connect to the network.
+
+22.2.3.

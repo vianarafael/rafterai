@@ -1,0 +1,8 @@
+(optional) Test it also by removing a disk (so the device name is changed). You can edit
+settings in vmware/Virtualbox to remove a hard disk.
+
+4. Display the root= directive in /boot/grub/menu.lst. (We see later in the course how to
+maintain this file.)
+
+5. (optional on ubuntu) Replace the /dev/xxx in /boot/grub/menu.lst with a uuid (use an
+extra stanza for this).

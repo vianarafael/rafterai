@@ -1,0 +1,16 @@
+This does take a little getting used to, but you’ll 
+soon be acclimatized!
+
+118
+
+ 
+ 
+ 
+ChapTeR 4 ■ LInux BasICs
+
+We can also refer to relative objects in a directory using the following construct:
+
+$ ./make
+
+The addition of the ./ in front of the command executes the make command in our current directory.
+Which directories you can traverse to depends on their permissions.

@@ -1,0 +1,6 @@
+Standard-IA also has 
+a minimum object size of 128Kb, which means objects smaller than that will not be transitioned and will be 
+deleted after the year is up. Also, once we have transitioned the files into Standard-IA, they need to remain 
+there for 30 days before we can transition them to another tier like Glacier.
+
+Figure 14-6.

@@ -1,0 +1,7 @@
+Create a new or customized service script ﬁ le.
+
+2.  Move the new or customized service script to the proper location for SysVinit 
+
+management.
+
+3.

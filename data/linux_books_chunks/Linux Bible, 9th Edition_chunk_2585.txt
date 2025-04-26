@@ -1,0 +1,6 @@
+In that case, instead 
+of adding multiple network interface cards to the computer, you could simply create 
+ multiple aliases on a single NIC.
+
+To create an alias network interface in RHEL 6 and earlier Fedora releases, you just have to 
+create another ifcfg- ﬁ le.

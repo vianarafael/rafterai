@@ -1,0 +1,7 @@
+A variety of files are present.
+
+The files like ifcfg-enp0s3 are configuration files, or connection profiles, for the Ethernet interfaces. 
+The files with the naming convention of if<action>-device, for example, ifdown-ppp, are scripts that are 
+used to control the state (i.e., bring the interface up or down).
+
+We talked about NetworkManager previously.

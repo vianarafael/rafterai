@@ -1,0 +1,16 @@
+Checking /etc/sysconfig/rhn/up2date (RHEL only)
+For Red Hat Enterprise Linux systems, instead of pointing to a single public software  repository 
+(as Fedora does), you register your system with Red Hat Network and purchase entitlements to 
+download software from different channels.
+
+When your system is registered with Red Hat Network, information is added to the /etc/
+sysconfig/rhn/up2date ﬁ le to tell yum where to ﬁ nd Red Hat Enterprise Linux  packages 
+(either from a hosted Red Hat Network or from an RHN Satellite server).
+
+242
+
+c10.indd  04/01/2015  Page 243
+
+Chapter 10: Getting and Managing Software
+
+3.

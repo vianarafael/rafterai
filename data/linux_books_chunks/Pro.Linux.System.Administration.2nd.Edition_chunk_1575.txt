@@ -1,0 +1,4 @@
+The Netfilter 
+
+firewall program will route incoming IP packets to either the INPUT or the FORWARD chain depending on their 
+destination address.

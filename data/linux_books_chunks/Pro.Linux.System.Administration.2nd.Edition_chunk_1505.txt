@@ -1,0 +1,12 @@
+10736   IN      NS      ns2.google.com.
+
+256
+
+CHAPter 7 ■ NetworkiNg AND FirewAllS
+
+;; ADDITIONAL SECTION:
+aspmx.l.google.com.     55      IN      A       64.233.189.27
+aspmx.l.google.com.     112     IN      AAAA    2404:6800:4008:c03::1b
+<snip>
+ns3.google.com.         8968    IN      A       216.239.36.10
+ns4.google.com.

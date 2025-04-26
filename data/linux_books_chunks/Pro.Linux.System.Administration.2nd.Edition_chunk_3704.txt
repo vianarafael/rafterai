@@ -1,0 +1,2 @@
+This might be too liberal for your requirements, but it gives you an idea how to use the 
+permissions.

@@ -1,0 +1,5 @@
+You can also click the Workspace Switcher applet in the 
+bottom panel to rotate the cube to display different workspaces.
+
+Other nice desktop effects result from using the Alt+Tab keys to tab among different 
+ running windows.

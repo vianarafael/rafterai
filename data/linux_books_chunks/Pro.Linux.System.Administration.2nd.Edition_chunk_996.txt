@@ -1,0 +1,16 @@
+See the following for more detail:
+
+• 
+
+• 
+
+https://en.wikipedia.org/wiki/Master_boot_record
+
+https://en.wikipedia.org/wiki/GUID_Partition_Table
+
+Boot Loaders
+
+The Boot Loader with BIOS
+
+Once your host has loaded all the checked everything attached to your motherboard and has set low-level 
+system settings it is ready to boot up your operating system.

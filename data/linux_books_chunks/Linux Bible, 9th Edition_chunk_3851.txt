@@ -1,0 +1,8 @@
+Here 
+are some things that might go wrong during this phase of system startup:
+
+ ■ A service can fail. A service may require access to network interfaces to start 
+
+properly or access to a disk partition that is not mounted. Most services time out, 
+fail, and allow the next script to run. After you are able to log in, you can debug 
+the service.

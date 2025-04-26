@@ -1,0 +1,21 @@
+Systemd Load Path
+
+Path
+
+/etc/systemd/system
+
+/run/systemd/system
+
+/usr/lib/systemd/system
+
+Purpose
+
+Localized configuration files
+
+Runtime unit files
+
+Unit files of installed packages
+
+Because we used the system.unit=rescue.target parameter, when the system process starts it will 
+look for the rescue.target file in these directories in order of precedence, the /etc/systemd/system, then 
+the /run/systemd/system directories and then finally in the /usr/lib/systemd/system directory.

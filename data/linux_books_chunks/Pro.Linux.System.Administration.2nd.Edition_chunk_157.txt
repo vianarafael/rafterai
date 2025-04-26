@@ -1,0 +1,10 @@
+That means that there are a 
+possible 4,294,967,296 unique addresses. This address space is too small for today’s Internet and so 
+Ipv6 has been released to solve this problem.
+
+28
+
+ChapTer 2 ■ InSTaLLIng LInUx
+
+Ipv6 is based on a 128-bit address space and has 2128 unique addresses which is about 7.9×1028 more 
+addresses than Ipv4.

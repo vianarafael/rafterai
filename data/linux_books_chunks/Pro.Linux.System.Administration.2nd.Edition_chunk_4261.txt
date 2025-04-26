@@ -1,0 +1,1 @@
+You install the Web-UI via the bareos-webui package, which is available from the online repository.

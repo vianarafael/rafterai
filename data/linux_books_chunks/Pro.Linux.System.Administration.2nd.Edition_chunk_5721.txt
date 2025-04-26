@@ -1,0 +1,6 @@
+It 
+is similar EPP syntactically; you can see the page for it here: https://docs.puppet.com/puppet/latest/
+lang_template_erb.html.
+
+More Puppet
+We’ve barely touched on Puppet in this chapter—there’s a lot more to see.

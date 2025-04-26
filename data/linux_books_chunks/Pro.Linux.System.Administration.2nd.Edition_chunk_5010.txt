@@ -1,0 +1,19 @@
+We can change these numbers via the speed_min_limit and speed_max_limit entries in the /proc/sys/
+dev/raid directory.
+
+A more acceptable minimum speed would be 20,000K per second per disk, and you can set it using 
+
+sysctl.
+
+$ sudo sysctl -w dev.raid.speed_limit_min=20000
+
+834
+
+Chapter 17 ■ performanCe monitoring and optimization
+
+Setting the minimum too high will adversely affect performance of the system, so make sure you set this 
+number lower than the maximum throughput the system can handle, divided by the number of disks in your 
+RAID array.
+
+The maximum, which can be changed by setting the dev.raid.speed_limit_max variable, is fairly high 
+already.

@@ -1,0 +1,10 @@
+In the following example, the two pipes (||) indicate that 
+if the directory being tested for doesn’t exist (-d dirname), then make the directory 
+(mkdir $dirname).
+
+# [ test ] || action
+# Perform simple single command if test is false
+dirname="/tmp/testdir"
+[ -d "$dirname" ] || mkdir "$dirname"
+
+Instead of pipes, you can use two ampersands to test if something is true.

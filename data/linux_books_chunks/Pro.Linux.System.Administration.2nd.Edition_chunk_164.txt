@@ -1,0 +1,5 @@
+You can use standard UTC zone offsets at the application 
+level to help localize time in your different time zones.
+
+You may, of course, just be setting up a local file sharing network that is never going to span the globe. 
+In this case it doesn’t make sense to use anything other than your local time zone.

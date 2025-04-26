@@ -1,0 +1,2 @@
+Virtual host installations also make building and rebuilding your host easier, and you can perform functions like 
+creating point-in-time backups of different kinds of hosts.

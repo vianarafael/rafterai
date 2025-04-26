@@ -1,0 +1,3 @@
+TLS is a 
+successor protocol to Secure Sockets Layer (SSL) and is commonly used for encrypting Transmission Control 
+Protocol/Internet Protocol (TCP/IP) traffic.

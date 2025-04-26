@@ -1,0 +1,3 @@
+changing a committed file
+
+The screenshots below show several steps.

@@ -1,0 +1,9 @@
+An incremental zone transfer is prefered when the total size
+of changes is smaller than the size of the zone database. Full zone transfers use the axfr
+protocol, incremental zone transfer use the ixfr protocol.
+
+74
+
+introduction to DNS
+
+4.10.

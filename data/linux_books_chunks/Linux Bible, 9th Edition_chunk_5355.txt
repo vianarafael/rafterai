@@ -1,0 +1,3 @@
+Using any FTP client you choose, visit the /pub/linux/docs/man-pages direc-
+
+tory on the ftp://kernel.org site and list the contents of that directory.

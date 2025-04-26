@@ -1,0 +1,7 @@
+For more information 
+on handling and redirecting stdin, stdout, and stderr, please visit www.tldp.org/LDP/abs/html/io-
+redirection.html.
+
+Finally, lines 36–39 loop through each host in the host list with the for loop function and perform rsync 
+
+on each host.

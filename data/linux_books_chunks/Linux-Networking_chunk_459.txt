@@ -1,0 +1,13 @@
+aliases and redirects
+
+Apache supports aliases for directories, like this example shows.
+
+Alias /paul/ "/home/paul/public_html/"
+
+Similarly, content can be redirected to another website or web server.
+
+Redirect permanent /foo http://www.foo.com/bar
+
+8.11. more on .htaccess
+
+You can do much more with .htaccess.

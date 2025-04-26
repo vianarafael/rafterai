@@ -1,0 +1,17 @@
+The role::apache_web Class
+
+$ sudo vi /etc/puppetlabs/code/environments/production/sites/role/manifests/apache_web.pp
+class role::apache_web (
+  String $vhost_name,
+  String $vhost_doc_root,
+  Numeric $vhost_port
+) {
+  include apache
+
+  apache::vhost { $vhost_name:
+    port      => $vhost_port,
+    docroot => $vhost_doc_root,
+  }
+}
+
+This class has a bit more meat to it.

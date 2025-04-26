@@ -1,0 +1,57 @@
+Debian overview
+
+Below is a table overview of when Debian is running any of these bash startup scripts.
+
+Table 4.1. Debian User Environment
+
+script
+
+~./bashrc
+
+~/.profile
+
+/etc/profile
+
+/etc/bash.bashrc
+
+su
+
+no
+
+no
+
+no
+
+yes
+
+su -
+
+yes
+
+yes
+
+yes
+
+no
+
+ssh
+
+yes
+
+yes
+
+yes
+
+no
+
+gdm
+
+yes
+
+yes
+
+yes
+
+yes
+
+4.8.

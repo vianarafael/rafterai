@@ -1,0 +1,14 @@
+Here you see how to obtain a list
+of all installed packages on a Debian server.
+
+root@debian6:~# dpkg -l | wc -l
+265
+
+Compare this to the same list on a Ubuntu Desktop computer.
+
+root@ubu1204~# dpkg -l | wc -l
+2527
+
+20.2.3. dpkg -l $package
+
+Here  is  an  example  on  how  to  get  information  on  an  individual  package.

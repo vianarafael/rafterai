@@ -1,0 +1,7 @@
+For example, nano is available to edit text fi les 
+during a Gentoo Linux install process.
+
+ ■ gedit—The GNOME text editor runs on the desktop.
+
+ ■ jed—This screen-oriented editor was made for programmers. Using colors, jed can highlight 
+code you create so you can easily read the code and spot syntax errors.

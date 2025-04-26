@@ -1,0 +1,5 @@
+The iptables firewall can easily 
+distinguish between these different types of protocols and others.
+
+With just these five parameters (the source and destination IP addresses, the source and destination 
+ports, and the protocol type), you can now start building some useful filtering rules.

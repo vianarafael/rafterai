@@ -1,0 +1,21 @@
+To 
+check which commands you have running in the background, use the jobs command, 
+as follows:
+
+144
+
+c06.indd  04/01/2015  Page 145
+
+Chapter 6: Managing Running Processes
+
+$ jobs
+[1]  Stopped (tty output)  vi /tmp/myfile
+[2]  Running        find /usr -print > /tmp/allusrfiles &
+[3]  Running        nroff -man /usr/man2/* >/tmp/man2 &
+[4]- Running        nroff -man /usr/man3/* >/tmp/man3 &
+[5]+ Stopped        nroff -man /usr/man4/* >/tmp/man4
+
+6
+
+The ﬁ rst job shows a text-editing command (vi) that I placed in the background and 
+stopped by pressing Ctrl+Z while I was editing.
