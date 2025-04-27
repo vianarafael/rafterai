@@ -50,3 +50,17 @@ To get a beginner-friendly explanation for any Linux command:
 python3 scripts/query_command.py "your linux command here"
 ```
 
+6. Linux tutor wrapper
+
+```shell
+function wtf() {
+  #1. Run the actual command
+  eval "$@"
+
+#2. After the command runs, call the explainer
+echo
+echo "Explaining command $@"
+python3 /add/the/path/to/rafterai/scripts/query_command.py "$@"
+}
+```
+
