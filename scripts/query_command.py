@@ -26,7 +26,7 @@ client = chromadb.Client(Settings(persist_directory=persist_dir))
 collection = client.get_or_create_collection("linux_docs")
 
 # 2. Load the embedding model (for command query)
-embedder = SentenceTransformer("all-MiniLM-L6-v2")
+embedder = SentenceTransformer("/home/neofto/all-MiniLM-L6-v2")
 
 # 3. Load local LLM (Phi-2 or substitute model)
 # You can replace this model with Phi-2 when available locally

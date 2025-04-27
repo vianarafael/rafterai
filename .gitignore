@@ -22,6 +22,7 @@ llama.cpp/build/
 venv/
 env/
 linux-tut-env/
+rafterai-env/
 
 # Editor junk
 .vscode/
