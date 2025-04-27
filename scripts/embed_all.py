@@ -10,7 +10,7 @@ os.makedirs(persist_dir, exist_ok=True)
 client = chromadb.PersistentClient(path=persist_dir)
 
 # Embedder
-embedder = SentenceTransformer("/home/neofto/all-MiniLM-L6-v2")
+embedder = SentenceTransformer("/home/neofto/all-MiniLM-L6-v2") #TODO: Adjust the path as necessary
 
 # Define a proper embedding function class that matches ChromaDB's expected interface
 class SentenceTransformerEmbedder:
@@ -21,7 +21,7 @@ class SentenceTransformerEmbedder:
         return self.model.encode(input).tolist()
 
 # Create the embedding function instance
-embedding_function = SentenceTransformerEmbedder("/home/neofto/all-MiniLM-L6-v2")
+embedding_function = SentenceTransformerEmbedder("/home/neofto/all-MiniLM-L6-v2") #TODO: Adjust the path as necessary
 
 collection = client.get_or_create_collection(
     name="linux_docs",
